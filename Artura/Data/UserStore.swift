@@ -1,6 +1,6 @@
 import Foundation
 
-/// Profil et progression de l'utilisateur, stockés sur l'appareil.
+/// The user's profile and progress, stored on the device.
 final class UserStore: ObservableObject {
     struct Profile: Codable, Equatable {
         var onboarded = false
@@ -25,9 +25,9 @@ final class UserStore: ObservableObject {
         var appleUserId: String?
         var googleUserId: String?
         var firstName: String?
-        /// Jour (yyyy-MM-dd) où chaque cours a été terminé pour la dernière fois.
+        /// Day (yyyy-MM-dd) each lesson was last completed.
         var lessonDays: [String: String]?
-        /// Entraînement du jour : le jour concerné et le nombre de questions déjà répondues.
+        /// Today's practice: the day it applies to and the number of questions already answered.
         var trainingDay: String?
         var trainingCount: Int?
         /// Réponses aux questions de l'onboarding (optionnelles : absentes des anciens profils).
@@ -59,7 +59,7 @@ final class UserStore: ObservableObject {
         }
     }
 
-    // MARK: Série
+    // MARK: Streak
 
     private static let dayFormatter: DateFormatter = {
         let f = DateFormatter()
@@ -73,7 +73,7 @@ final class UserStore: ObservableObject {
 
     var playedToday: Bool { profile.playedDays.contains(Self.dayKey(Date())) }
 
-    /// Nombre de jours consécutifs, en comptant aujourd'hui ou hier comme dernier jour.
+    /// Number of consecutive days, counting today or yesterday as the last day.
     var streak: Int {
         let days = Set(profile.playedDays)
         let cal = Calendar.current
@@ -99,12 +99,12 @@ final class UserStore: ObservableObject {
         let isToday: Bool
     }
 
-    /// Les 7 jours de la semaine en cours (lundi → dimanche) avec leur état.
+    /// The 7 days of the current week (Monday → Sunday) with their state.
     var week: [WeekDay] {
         var cal = Calendar(identifier: .gregorian)
         cal.firstWeekday = 2
         let today = Date()
-        let labels = ["L", "M", "M", "J", "V", "S", "D"]
+        let labels = ["M", "T", "W", "T", "F", "S", "S"]
         guard let start = cal.dateInterval(of: .weekOfYear, for: today)?.start else { return [] }
         let days = Set(profile.playedDays)
         var result: [WeekDay] = []
@@ -140,12 +140,12 @@ final class UserStore: ObservableObject {
         markPlayedToday()
     }
 
-    /// Vrai si ce cours a été terminé aujourd'hui.
+    /// True if this lesson was completed today.
     func finishedToday(_ id: String) -> Bool {
         profile.lessonDays?[id] == Self.dayKey(Date())
     }
 
-    // MARK: Entraînement du jour
+    // MARK: Today's practice
 
     static let trainingDailyGoal = 30
 
@@ -189,7 +189,7 @@ final class UserStore: ObservableObject {
         }
     }
 
-    /// "prêt" ou "prête" selon la réponse à l'étape « Tu es… ».
+    /// Returns the masculine or feminine form, based on the answer to the gender step.
     func agree(_ masculine: String, _ feminine: String) -> String {
         profile.gender == "femme" ? feminine : masculine
     }
@@ -199,8 +199,10 @@ final class UserStore: ObservableObject {
     }
 }
 
+/// Formats minutes since midnight (0..<1440) as a 12-hour time, e.g. "8:30 AM".
 func formatMinutes(_ minutes: Int) -> String {
-    let h = minutes / 60
+    let h = (minutes / 60) % 24
     let m = minutes % 60
-    return "\(h) h \(m < 10 ? "0" : "")\(m)"
+    let h12 = h % 12 == 0 ? 12 : h % 12
+    return "\(h12):\(m < 10 ? "0" : "")\(m) \(h < 12 ? "AM" : "PM")"
 }

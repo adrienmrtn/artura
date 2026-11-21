@@ -3,56 +3,56 @@
   {
    "id": "renaissance",
    "name": "Renaissance",
-   "period": "XVe–XVIe siècle",
-   "summary": "Perspective et retour à l'Antique",
+   "period": "15th–16th century",
+   "summary": "Perspective and a return to antiquity",
    "cover": "joconde",
-   "description": "En Italie puis dans toute l'Europe, les artistes redécouvrent l'Antiquité, étudient le corps humain et inventent la perspective. Le tableau devient une fenêtre ouverte sur le monde."
+   "description": "In Italy, then across Europe, artists rediscover antiquity, study the human body and invent perspective. The painting becomes a window onto the world."
   },
   {
    "id": "siecledor",
-   "name": "Siècle d'or néerlandais",
-   "period": "XVIIe siècle",
-   "summary": "Le quotidien et la lumière",
+   "name": "Dutch Golden Age",
+   "period": "17th century",
+   "summary": "Everyday life and light",
    "cover": "perle",
-   "description": "Dans les Provinces-Unies prospères, on peint pour les maisons bourgeoises : intérieurs calmes, portraits, natures mortes. La lumière y devient le vrai sujet."
+   "description": "In the prosperous Dutch Republic, artists paint for middle-class homes: quiet interiors, portraits, still lifes. Light becomes the real subject."
   },
   {
    "id": "ukiyoe",
    "name": "Ukiyo-e",
-   "period": "XVIIe–XIXe siècle",
-   "summary": "Estampes du « monde flottant »",
+   "period": "17th–19th century",
+   "summary": "Prints of the “floating world”",
    "cover": "vague",
-   "description": "Au Japon, des estampes gravées sur bois et tirées en série montrent acteurs, paysages et scènes de la vie. Leurs aplats et leurs cadrages bouleverseront les peintres européens."
+   "description": "In Japan, woodblock prints made in series show actors, landscapes and scenes of daily life. Their flat colors and bold crops would shake up European painters."
   },
   {
    "id": "impressionnisme",
-   "name": "Impressionnisme",
-   "period": "Années 1870–1880",
-   "summary": "Peindre la lumière de l'instant",
+   "name": "Impressionism",
+   "period": "1870s–1880s",
+   "summary": "Painting the light of the moment",
    "cover": "impression",
-   "description": "Un groupe de peintres quitte l'atelier pour travailler dehors, à petites touches rapides. Ils ne cherchent plus le détail mais l'effet de la lumière à un moment précis."
+   "description": "A group of painters leaves the studio to work outdoors, in quick little strokes. They are no longer after detail, but after the effect of light at a precise moment."
   },
   {
    "id": "postimp",
-   "name": "Postimpressionnisme",
+   "name": "Post-Impressionism",
    "period": "1886–1905",
-   "summary": "La couleur et l'émotion d'abord",
+   "summary": "Color and emotion first",
    "cover": "nuit",
-   "description": "Après l'impressionnisme, chacun cherche sa voie. La couleur n'imite plus le réel : elle exprime ce que le peintre ressent."
+   "description": "After Impressionism, everyone looks for their own path. Color no longer imitates reality: it expresses what the painter feels."
   },
   {
    "id": "secession",
-   "name": "Sécession viennoise",
-   "period": "Vers 1900",
-   "summary": "Or, ornement et lignes courbes",
+   "name": "Vienna Secession",
+   "period": "Around 1900",
+   "summary": "Gold, ornament and curved lines",
    "cover": "baiser",
-   "description": "À Vienne, de jeunes artistes rompent avec l'académie. Ils mêlent peinture, décor et artisanat, et font de l'ornement un langage à part entière."
+   "description": "In Vienna, young artists break with the academy. They blend painting, decoration and craft, and turn ornament into a language of its own."
   }
  ],
  "artworks": [
   {
    "id": "nuit",
-   "title": "La Nuit étoilée",
+   "title": "The Starry Night",
    "artist": "Vincent van Gogh",
    "year": 1889,
    "yearLabel": "1889",
@@ -70,75 +70,87 @@
     0.62,
     0.3
    ],
-   "teaser": "Un ciel qui tourbillonne, peint de mémoire depuis une chambre d'asile.",
+   "teaser": "A swirling sky, painted from memory in an asylum room.",
    "lesson": [
     {
      "type": "text",
-     "text": "Juin 1889. Vincent van Gogh a 36 ans. Un mois plus tôt, il est entré de lui-même à l'asile de Saint-Rémy-de-Provence, après une crise grave à Arles."
+     "text": "June 1889. Vincent van Gogh is 36. A month earlier, he checked himself into the asylum of Saint-Rémy-de-Provence, in the south of France, after a severe breakdown in Arles."
     },
     {
      "type": "text",
-     "text": "Sa chambre donne à l'est. Par la fenêtre, il voit un champ de blé, les collines des Alpilles et, avant l'aube, le ciel. Il le peint plus de vingt fois, à toutes les heures."
+     "text": "His bedroom faces east. Through the window he sees a wheat field, the hills of the Alpilles and, before dawn, the sky. He paints that view again and again, at every hour of the day."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh only started painting at 27. In about ten years he made around 900 paintings, sometimes one a day."
     },
     {
      "type": "tour",
-     "text": "Voici le plus célèbre de ces ciels. Regarde-le en entier, puis touche pour entrer dedans.",
+     "text": "Here is the most famous of those skies. Take it in, then tap to step inside.",
      "spots": [
       {
        "x": 0.5,
        "y": 0.36,
        "zoom": 2.0,
        "r": 0.17,
-       "title": "Le tourbillon",
-       "text": "Au centre, deux grandes vagues s'enroulent l'une dans l'autre. Aucun ciel ne ressemble à cela : il peint ce qu'il ressent, pas ce qu'il voit."
+       "title": "The swirl",
+       "text": "In the center, two great waves curl into each other. No real sky looks like this: he paints what he feels, not what he sees."
       },
       {
        "x": 0.895,
        "y": 0.175,
        "zoom": 2.6,
        "r": 0.1,
-       "title": "La lune",
-       "text": "Un croissant orange dans un halo jaune : on dirait presque un soleil. Van Gogh pose la peinture en traits courts qui tournent autour de l'astre."
+       "title": "The moon",
+       "text": "An orange crescent in a yellow halo. It almost looks like a sun. Van Gogh lays the paint in short strokes that circle around it."
       },
       {
        "x": 0.35,
        "y": 0.525,
        "zoom": 3.0,
        "r": 0.075,
-       "title": "L'étoile du matin",
-       "text": "L'astre le plus blanc du tableau. Van Gogh écrit à son frère qu'il a vu, avant le lever du soleil, l'étoile du matin, très grande. C'est sans doute Vénus."
+       "title": "The morning star",
+       "text": "The whitest light in the painting. Van Gogh wrote to his brother that he had seen the morning star, very big, before sunrise. It is probably Venus."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Ce tableau n'a pas été peint la nuit, ni devant le motif. Van Gogh le réalise de jour, dans son atelier de l'asile, de mémoire et d'imagination. Pour lui, c'est inhabituel : il préfère d'ordinaire peindre ce qu'il a sous les yeux."
+     "text": "This picture was not painted at night, and not in front of the view. Van Gogh made it in daylight, in his studio at the asylum, from memory and imagination. That was unusual for him: he normally painted what was in front of his eyes."
     },
     {
      "type": "key",
-     "text": "La Nuit étoilée est peinte de jour et de mémoire. Ce n'est pas une vue, c'est une vision."
+     "text": "The Starry Night was painted by day, from memory. It is not a view. It is a vision."
+    },
+    {
+     "type": "text",
+     "text": "He had been dreaming of a night sky for a long time. A year earlier he wrote that looking at the stars always made him dream."
     },
     {
      "type": "find",
-     "text": "Un détail de ce paysage vient tout droit de son enfance en Hollande. Où est le clocher ?",
+     "text": "One detail in this landscape comes straight from his childhood in the Netherlands. Where is the steeple?",
      "spots": [
       {
        "x": 0.565,
        "y": 0.745,
        "zoom": 3.4,
        "r": 0.065,
-       "title": "Le clocher",
-       "text": "Une flèche fine et pointue, comme dans les villages de Hollande où Van Gogh a grandi. Les clochers de Provence ne ressemblent pas à cela."
+       "title": "The steeple",
+       "text": "A thin, pointed spire, like the ones in the Dutch villages where Van Gogh grew up. Church towers in Provence do not look like this."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Le village lui aussi est inventé, ou du moins déplacé : de sa fenêtre, on ne le voyait pas. Van Gogh assemble un vrai ciel, de vraies collines et un village de souvenir."
+     "text": "The village is invented too, or at least moved: it could not be seen from his window. Van Gogh combines a real sky, real hills and a village from memory."
+    },
+    {
+     "type": "fact",
+     "text": "His window at the asylum had iron bars. He left them out of every painting of the view."
     },
     {
      "type": "lines",
-     "text": "Le tableau semble agité. Il est pourtant construit avec soin.",
+     "text": "The painting looks restless. It is actually carefully built.",
      "lines": [
       {
        "points": [
@@ -152,8 +164,8 @@
         ]
        ],
        "closed": false,
-       "label": "La verticale du cyprès",
-       "text": "Elle coupe tout le tableau, du sol jusqu'au bord supérieur, et donne l'échelle : le ciel est immense."
+       "label": "The vertical of the cypress",
+       "text": "It cuts through the whole picture, from the ground to the top edge, and sets the scale: the sky is immense."
       },
       {
        "points": [
@@ -167,8 +179,8 @@
         ]
        ],
        "closed": false,
-       "label": "Son écho : le clocher",
-       "text": "Une seconde verticale, minuscule, qui répond au cyprès. L'une est naturelle, l'autre humaine."
+       "label": "Its echo: the steeple",
+       "text": "A second, tiny vertical that answers the cypress. One is natural, the other man-made."
       },
       {
        "points": [
@@ -198,8 +210,8 @@
         ]
        ],
        "closed": false,
-       "label": "La vague du ciel",
-       "text": "Le regard suit ce S de gauche à droite, jusqu'à la lune."
+       "label": "The wave in the sky",
+       "text": "The eye follows this S from left to right, all the way to the moon."
       },
       {
        "points": [
@@ -221,34 +233,38 @@
         ]
        ],
        "closed": false,
-       "label": "La pente des collines",
-       "text": "Une diagonale qui descend vers le village et le protège, comme un bras."
+       "label": "The slope of the hills",
+       "text": "A diagonal that runs down toward the village and shelters it, like an arm."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Regarde maintenant la touche. Pas de dégradé lisse : des traits courts, épais, posés côte à côte, qui suivent chacun une direction. C'est la touche qui crée le mouvement."
+     "text": "Now look at the brushwork. There are no smooth blends. Short, thick strokes sit side by side, each one pointing in a direction. The brushstroke itself creates the movement."
+    },
+    {
+     "type": "text",
+     "text": "Painters call this thick paint “impasto.” Van Gogh sometimes squeezed color almost straight from the tube. Up close, the surface of the canvas is rough like a relief map."
     },
     {
      "type": "tour",
-     "text": "Approchons-nous de la peinture elle-même.",
+     "text": "Let's get close to the paint itself.",
      "spots": [
       {
        "x": 0.14,
        "y": 0.045,
        "zoom": 3.6,
        "r": 0.07,
-       "title": "La matière",
-       "text": "Regarde l'épaisseur : la peinture est posée en bâtonnets épais, presque en relief. On appelle cela peindre en pleine pâte."
+       "title": "The paint",
+       "text": "Look how thick it is: the paint sits in short, heavy strokes, almost in relief. This is called impasto."
       },
       {
        "x": 0.21,
        "y": 0.56,
        "zoom": 1.7,
        "r": 0.15,
-       "title": "Le cyprès",
-       "text": "Sombre, tordu comme une flamme, il relie la terre au ciel. Dans le Midi, c'est l'arbre des cimetières. Van Gogh le trouvait beau comme un obélisque égyptien.",
+       "title": "The cypress",
+       "text": "Dark and twisted like a flame, it links the earth to the sky. In the south of France it is the tree of cemeteries. Van Gogh found it as beautiful as an Egyptian obelisk.",
        "shape": "rect"
       },
       {
@@ -256,77 +272,89 @@
        "y": 0.6,
        "zoom": 2.2,
        "r": 0.13,
-       "title": "Les collines",
-       "text": "Les Alpilles. Elles ondulent comme des vagues, emportées dans le même mouvement que le ciel."
+       "title": "The hills",
+       "text": "The Alpilles. They roll like waves, carried along by the same motion as the sky."
       }
      ],
-     "title": "De près"
+     "title": "Up close"
+    },
+    {
+     "type": "text",
+     "text": "The cypress matters. It is the darkest shape in the picture and the only one that touches both the ground and the top of the sky. Van Gogh was fascinated by these trees that summer."
     },
     {
      "type": "palette",
-     "text": "Du bleu, du jaune, et presque rien d'autre. Touche une couleur.",
+     "text": "Blue, yellow, and almost nothing else. Tap a color.",
      "swatches": [
       {
        "hex": "#526479",
-       "name": "Le bleu profond",
-       "text": "Le fond du ciel et les collines. Van Gogh utilise l'outremer et le bleu de cobalt.",
+       "name": "Deep blue",
+       "text": "The depth of the sky and the hills. Van Gogh used ultramarine and cobalt blue.",
        "image": "pal_nuit_0"
       },
       {
        "hex": "#67809D",
-       "name": "Le bleu clair",
-       "text": "Les tourbillons. Posé en traits épais, il fait tourner le ciel.",
+       "name": "Light blue",
+       "text": "The swirls. Laid down in thick strokes, it makes the sky turn.",
        "image": "pal_nuit_1"
       },
       {
        "hex": "#BDBC7A",
-       "name": "Le jaune",
-       "text": "La lune, les étoiles, les fenêtres. Très peu de surface, mais c'est lui qui éclaire tout.",
+       "name": "Yellow",
+       "text": "The moon, the stars, the windows. A tiny part of the surface, yet it lights up everything.",
        "image": "pal_nuit_2"
       },
       {
        "hex": "#151714",
-       "name": "Le vert presque noir",
-       "text": "Le cyprès et les ombres du village. La masse la plus sombre du tableau.",
+       "name": "Green-black",
+       "text": "The cypress and the shadows of the village. The darkest mass in the painting.",
        "image": "pal_nuit_3"
       },
       {
        "hex": "#9BA5A3",
-       "name": "Le blanc verdâtre",
-       "text": "Les halos autour des astres : c'est ce qui les fait vibrer.",
+       "name": "Greenish white",
+       "text": "The halos around the stars: this is what makes them shimmer.",
        "image": "pal_nuit_4"
       }
      ]
     },
     {
      "type": "text",
-     "text": "Bleu et jaune sont des couleurs complémentaires, ou presque : placées côte à côte, elles se renforcent. Van Gogh le sait et s'en sert pour faire vibrer ses nuits."
+     "text": "Blue and yellow sit almost opposite each other on the color wheel. Placed side by side, each makes the other look stronger. Van Gogh knew this and used it to make his nights vibrate."
+    },
+    {
+     "type": "key",
+     "text": "Opposite colors placed side by side intensify each other. That is why the yellow stars burn against the blue."
     },
     {
      "type": "find",
-     "text": "Van Gogh raconte à son frère avoir vu l'étoile du matin, très grande. Touche l'astre le plus blanc du tableau.",
+     "text": "Van Gogh told his brother he had seen the morning star, very big. Tap the whitest light in the painting.",
      "spots": [
       {
        "x": 0.35,
        "y": 0.525,
        "zoom": 3.0,
        "r": 0.075,
-       "title": "L'étoile du matin",
-       "text": "L'astre le plus blanc du tableau. Van Gogh écrit à son frère qu'il a vu, avant le lever du soleil, l'étoile du matin, très grande. C'est sans doute Vénus."
+       "title": "The morning star",
+       "text": "The whitest light in the painting. Van Gogh wrote to his brother that he had seen the morning star, very big, before sunrise. It is probably Venus."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Ce qu'il pensait de ce tableau ? Pas grand-chose. Dans ses lettres, il en parle comme d'une simple étude de nuit, et il doute de ces toiles peintes d'imagination."
+     "text": "What did he think of the picture? Not much. In his letters he calls it a simple night study, and he doubts these canvases painted from imagination."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh sold almost nothing during his lifetime. His brother Theo, an art dealer, supported him with money and paint."
     },
     {
      "type": "text",
-     "text": "Il meurt treize mois plus tard, en juillet 1890, à 37 ans. Il n'a presque rien vendu de son vivant. La Nuit étoilée entre au MoMA de New York en 1941."
+     "text": "He died thirteen months later, in July 1890, at 37. The Starry Night entered the Museum of Modern Art in New York in 1941."
     },
     {
      "type": "key",
-     "text": "Chez Van Gogh, la touche est le sujet : chaque coup de pinceau a une direction, et c'est elle qui met le ciel en mouvement."
+     "text": "With Van Gogh, the brushstroke is the subject: every stroke has a direction, and that is what sets the sky in motion."
     },
     {
      "type": "explore",
@@ -336,32 +364,32 @@
        "y": 0.36,
        "zoom": 2.0,
        "r": 0.17,
-       "title": "Le tourbillon",
-       "text": "Au centre, deux grandes vagues s'enroulent l'une dans l'autre. Aucun ciel ne ressemble à cela : il peint ce qu'il ressent, pas ce qu'il voit."
+       "title": "The swirl",
+       "text": "In the center, two great waves curl into each other. No real sky looks like this: he paints what he feels, not what he sees."
       },
       {
        "x": 0.895,
        "y": 0.175,
        "zoom": 2.6,
        "r": 0.1,
-       "title": "La lune",
-       "text": "Un croissant orange dans un halo jaune : on dirait presque un soleil. Van Gogh pose la peinture en traits courts qui tournent autour de l'astre."
+       "title": "The moon",
+       "text": "An orange crescent in a yellow halo. It almost looks like a sun. Van Gogh lays the paint in short strokes that circle around it."
       },
       {
        "x": 0.35,
        "y": 0.525,
        "zoom": 3.0,
        "r": 0.075,
-       "title": "L'étoile du matin",
-       "text": "L'astre le plus blanc du tableau. Van Gogh écrit à son frère qu'il a vu, avant le lever du soleil, l'étoile du matin, très grande. C'est sans doute Vénus."
+       "title": "The morning star",
+       "text": "The whitest light in the painting. Van Gogh wrote to his brother that he had seen the morning star, very big, before sunrise. It is probably Venus."
       },
       {
        "x": 0.21,
        "y": 0.56,
        "zoom": 1.7,
        "r": 0.15,
-       "title": "Le cyprès",
-       "text": "Sombre, tordu comme une flamme, il relie la terre au ciel. Dans le Midi, c'est l'arbre des cimetières. Van Gogh le trouvait beau comme un obélisque égyptien.",
+       "title": "The cypress",
+       "text": "Dark and twisted like a flame, it links the earth to the sky. In the south of France it is the tree of cemeteries. Van Gogh found it as beautiful as an Egyptian obelisk.",
        "shape": "rect"
       },
       {
@@ -369,119 +397,124 @@
        "y": 0.745,
        "zoom": 3.4,
        "r": 0.065,
-       "title": "Le clocher",
-       "text": "Une flèche fine et pointue, comme dans les villages de Hollande où Van Gogh a grandi. Les clochers de Provence ne ressemblent pas à cela."
+       "title": "The steeple",
+       "text": "A thin, pointed spire, like the ones in the Dutch villages where Van Gogh grew up. Church towers in Provence do not look like this."
       },
       {
        "x": 0.62,
        "y": 0.86,
        "zoom": 2.6,
        "r": 0.12,
-       "title": "Le village",
-       "text": "Quelques fenêtres jaunes allumées. Ce village, il ne le voyait pas de sa chambre : il l'a ajouté de mémoire."
+       "title": "The village",
+       "text": "A few yellow windows, lit. He could not see this village from his room: he added it from memory."
       },
       {
        "x": 0.8,
        "y": 0.6,
        "zoom": 2.2,
        "r": 0.13,
-       "title": "Les collines",
-       "text": "Les Alpilles. Elles ondulent comme des vagues, emportées dans le même mouvement que le ciel."
+       "title": "The hills",
+       "text": "The Alpilles. They roll like waves, carried along by the same motion as the sky."
       },
       {
        "x": 0.14,
        "y": 0.045,
        "zoom": 3.6,
        "r": 0.07,
-       "title": "La matière",
-       "text": "Regarde l'épaisseur : la peinture est posée en bâtonnets épais, presque en relief. On appelle cela peindre en pleine pâte."
+       "title": "The paint",
+       "text": "Look how thick it is: the paint sits in short, heavy strokes, almost in relief. This is called impasto."
       }
      ]
     }
    ],
    "quiz": [
     {
-     "question": "Où Van Gogh se trouve-t-il quand il peint ce tableau ?",
+     "question": "Where was Van Gogh when he painted The Starry Night?",
      "options": [
-      "À Paris, à Montmartre",
-      "À l'asile de Saint-Rémy-de-Provence",
-      "À Auvers-sur-Oise"
+      "In Paris",
+      "At the asylum of Saint-Rémy-de-Provence",
+      "In Amsterdam"
      ],
      "answer": 1,
-     "explanation": "Il y est entré de lui-même en mai 1889."
+     "explanation": "He had checked himself in a month earlier."
     },
     {
-     "question": "Comment le tableau a-t-il été peint ?",
+     "question": "How was the picture painted?",
      "options": [
-      "De nuit, devant le paysage",
-      "De jour, de mémoire et d'imagination",
-      "D'après une photographie"
+      "At night, in front of the view",
+      "By day, from memory and imagination",
+      "From a photograph"
      ],
      "answer": 1,
-     "explanation": "De jour, dans son atelier de l'asile."
+     "explanation": "By day, in his studio at the asylum."
     },
     {
-     "question": "Quel détail rappelle la Hollande ?",
+     "question": "Which detail recalls the Netherlands?",
      "options": [
-      "Le cyprès",
-      "Le clocher pointu",
-      "Les collines"
+      "The cypress",
+      "The pointed steeple",
+      "The hills"
      ],
      "answer": 1,
-     "explanation": "Une flèche comme dans les villages de son enfance."
+     "explanation": "A spire like those of the villages where he grew up."
     },
     {
-     "question": "Que symbolise souvent le cyprès dans le Midi ?",
+     "question": "What is “impasto”?",
      "options": [
-      "La fête",
-      "Le deuil, les cimetières",
-      "La moisson"
+      "Very thick paint, almost in relief",
+      "A thin transparent glaze",
+      "A charcoal sketch"
      ],
-     "answer": 1,
-     "explanation": "C'est l'arbre des cimetières méditerranéens."
+     "answer": 0,
+     "explanation": "Short, heavy strokes that stand up from the canvas."
     },
     {
-     "question": "Qu'est-ce qui crée le mouvement dans le ciel ?",
+     "question": "Why do the yellow stars look so bright?",
      "options": [
-      "Des dégradés très lisses",
-      "Des touches épaisses, toutes orientées",
-      "Un dessin à l'encre"
+      "They are painted with gold",
+      "Yellow sits next to its opposite, blue",
+      "The canvas is lit from behind"
      ],
      "answer": 1,
-     "explanation": "Chaque coup de pinceau suit une direction."
+     "explanation": "Opposite colors side by side intensify each other."
     },
     {
-     "question": "Où est conservé le tableau ?",
+     "question": "What did Van Gogh leave out of his paintings of this view?",
      "options": [
-      "Au musée d'Orsay, à Paris",
-      "Au MoMA, à New York",
-      "Au musée Van Gogh, à Amsterdam"
+      "The bars on his window",
+      "The moon",
+      "The hills"
      ],
-     "answer": 1,
-     "explanation": "Au MoMA depuis 1941."
+     "answer": 0,
+     "explanation": "His asylum window had iron bars."
     }
    ],
    "facts": [
     {
-     "text": "Van Gogh a peint La Nuit étoilée dehors, en pleine nuit.",
+     "text": "Van Gogh painted The Starry Night outdoors, in the middle of the night.",
      "isTrue": false,
-     "explanation": "Il l'a peinte de jour, de mémoire, à l'asile de Saint-Rémy."
+     "explanation": "He painted it by day, from memory, at the asylum of Saint-Rémy."
     },
     {
-     "text": "La Nuit étoilée est conservée à New York.",
+     "text": "The Starry Night is kept in New York.",
      "isTrue": true,
-     "explanation": "Elle est au MoMA depuis 1941."
+     "explanation": "It has been at MoMA since 1941."
+    },
+    {
+     "text": "Van Gogh sold many paintings and died rich.",
+     "isTrue": false,
+     "explanation": "He sold almost nothing; his brother Theo supported him."
     }
    ],
    "hd": "hd_nuit"
   },
   {
    "id": "perle",
-   "title": "La Jeune Fille à la perle",
+   "title": "Girl with a Pearl Earring",
    "artist": "Johannes Vermeer",
    "year": 1665,
-   "yearLabel": "vers 1665",
-   "museum": "Mauritshuis, La Haye",
+   "yearLabel": "c. 1665",
+   "museum": "Mauritshuis, The Hague",
    "movementId": "siecledor",
    "image": "art_perle",
    "palette": [
@@ -495,75 +528,87 @@
     0.55,
     0.52
    ],
-   "teaser": "Un regard par-dessus l'épaule, et personne ne sait qui elle est.",
+   "teaser": "A glance over the shoulder, and nobody knows who she is.",
    "lesson": [
     {
      "type": "text",
-     "text": "Tu connais ce visage. Mais ce n'est pas un portrait : personne ne sait qui elle est, et Vermeer n'a sans doute jamais cherché à peindre quelqu'un de précis."
+     "text": "You know this face. But it is not a portrait: nobody knows who she is, and Vermeer probably never meant to paint anyone in particular."
     },
     {
      "type": "text",
-     "text": "Aux Pays-Bas, au XVIIe siècle, on appelle cela une « tronie » : une tête de fantaisie. Le peintre y étudie une expression, un costume exotique, un effet de lumière. Ici, les trois à la fois."
+     "text": "In the 17th-century Netherlands, this kind of picture had a name: a “tronie,” a study of a face. The painter uses it to explore an expression, an exotic costume, an effect of light. Here, all three at once."
     },
     {
      "type": "key",
-     "text": "Une tronie : un visage imaginé, prétexte à peindre une expression et une lumière. Pas le portrait d'une personne."
+     "text": "A tronie is an imagined face, an excuse to paint an expression and a light. It is not the portrait of a real person."
     },
     {
      "type": "tour",
-     "text": "Regarde d'abord le tableau en entier : un visage qui sort du noir. Touche pour t'approcher.",
+     "text": "First, look at the whole painting: a face emerging from the dark. Tap to move closer.",
      "spots": [
       {
        "x": 0.4,
        "y": 0.385,
        "zoom": 2.6,
        "r": 0.15,
-       "title": "Le regard",
-       "text": "Elle se retourne vers toi, comme si tu venais de l'appeler. Un point blanc dans chaque œil suffit à le rendre humide et vivant."
+       "title": "The gaze",
+       "text": "She turns toward you as if you had just called her name. A single white dot in each eye is enough to make it look wet and alive."
       },
       {
        "x": 0.385,
        "y": 0.53,
        "zoom": 3.6,
        "r": 0.085,
-       "title": "La bouche",
-       "text": "Entrouverte, comme au milieu d'une phrase. Regarde le petit point clair au coin des lèvres : une seule touche, et la bouche brille."
+       "title": "The mouth",
+       "text": "Slightly open, as if mid-sentence. Look at the tiny bright dot at the corner of the lips: one touch of paint, and the mouth glistens."
       },
       {
        "x": 0.615,
        "y": 0.545,
        "zoom": 4.2,
        "r": 0.06,
-       "title": "La perle",
-       "text": "Deux touches, pas plus : un éclat blanc en haut, un reflet gris du col en bas. Ni contour, ni crochet. C'est ton œil qui fabrique la perle."
+       "title": "The pearl",
+       "text": "Two strokes, no more: a white highlight on top, a gray reflection of the collar below. No outline, no hook. Your eye builds the pearl."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Tout le tableau repose sur ce mouvement : elle se retourne. Le corps est de profil, le visage vient vers nous. On a l'impression de la surprendre, ou qu'elle va repartir. C'est ce qui la rend si vivante."
+     "text": "The whole picture rests on one movement: she turns. Her body is in profile, her face comes toward us. It feels like we have caught her by surprise, or like she is about to leave. That is what makes her so alive."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer lived his entire life in Delft, a small Dutch town. He painted slowly, had eleven children to feed, and died in debt at 43."
+    },
+    {
+     "type": "text",
+     "text": "Notice the turban. No Dutch girl dressed like this. It is a costume, a touch of the faraway East that painters of the time found fascinating."
     },
     {
      "type": "find",
-     "text": "Une source de lumière éclaire son visage. D'où vient-elle ? Touche l'endroit du visage le plus éclairé.",
+     "text": "One light source falls on her face. Where does it land? Tap the brightest part of her face.",
      "spots": [
       {
        "x": 0.33,
        "y": 0.42,
        "zoom": 2.6,
        "r": 0.12,
-       "title": "La joue",
-       "text": "La lumière vient de la gauche, un peu en hauteur. Elle frappe le front, la joue et le nez, puis laisse l'autre moitié du visage glisser dans l'ombre."
+       "title": "The cheek",
+       "text": "The light comes from the left, slightly above. It hits the forehead, the cheek and the nose, then lets the other half of the face slip into shadow."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Vermeer ne dessine presque aucun contour. Regarde l'arête du nez : il n'y a pas de trait, seulement une joue claire qui rencontre une ombre. Le visage est fait de lumière, pas de lignes."
+     "text": "Vermeer draws almost no outlines. Look at the bridge of the nose: there is no line, only a bright cheek meeting a shadow. The face is made of light, not of lines."
+    },
+    {
+     "type": "key",
+     "text": "Light from the left, soft shadows, no hard outlines: that is Vermeer's signature look."
     },
     {
      "type": "lines",
-     "text": "Comment tient un tableau aussi simple ? Trois tracés suffisent à le comprendre.",
+     "text": "How does such a simple picture hold together? Three lines explain it.",
      "lines": [
       {
        "points": [
@@ -577,8 +622,8 @@
         ]
        ],
        "closed": false,
-       "label": "La lumière",
-       "text": "Elle arrive d'en haut à gauche, comme d'une fenêtre qu'on ne voit pas. C'est la marque de Vermeer."
+       "label": "The light",
+       "text": "It arrives from the upper left, as if from a window we cannot see."
       },
       {
        "points": [
@@ -596,8 +641,8 @@
         ]
        ],
        "closed": true,
-       "label": "Le triangle",
-       "text": "Du sommet du turban aux deux épaules : une forme stable, bien posée, qui calme le mouvement de la tête."
+       "label": "The triangle",
+       "text": "From the top of the turban to both shoulders: a stable, grounded shape that steadies the turn of the head."
       },
       {
        "points": [
@@ -615,80 +660,92 @@
         ]
        ],
        "closed": false,
-       "label": "La chute",
-       "text": "Le tissu jaune descend à droite et fait contrepoids au visage tourné vers la gauche."
+       "label": "The fall",
+       "text": "The yellow cloth drops on the right and balances the face turned to the left."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Parlons du bleu. Vermeer utilise de l'outremer naturel, fabriqué en broyant du lapis-lazuli. La plupart des peintres le réservent au manteau de la Vierge, tant il est cher. Lui en met partout, même dans les ombres."
+     "text": "Now, the blue. Vermeer used natural ultramarine, made by grinding lapis lazuli. Most painters saved it for the Virgin Mary's robe because it was so expensive. He put it everywhere, even in the shadows."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli came from mines in what is now Afghanistan. The name “ultramarine” means “from beyond the sea.”"
     },
     {
      "type": "palette",
-     "text": "Cinq couleurs font presque tout le tableau. Touche-en une pour voir où elle se cache.",
+     "text": "Five colors make up almost the whole painting. Tap one to see where it hides.",
      "swatches": [
       {
        "hex": "#201B0D",
-       "name": "Le fond sombre",
-       "text": "Plus de la moitié de la surface. Autrefois un rideau vert foncé, devenu presque noir.",
+       "name": "The dark background",
+       "text": "More than half of the surface. Once a deep green curtain, now almost black.",
        "image": "pal_perle_0"
       },
       {
        "hex": "#798E9E",
-       "name": "L'outremer",
-       "text": "Le bleu du lapis-lazuli. Il occupe peu de place, et pourtant on ne voit que lui.",
+       "name": "Ultramarine",
+       "text": "The blue of lapis lazuli. It takes up very little room, yet it is all we see.",
        "image": "pal_perle_1"
       },
       {
        "hex": "#7F6A44",
-       "name": "L'ocre brun",
-       "text": "Les ombres de la veste et du tissu jaune : une terre chaude, peu coûteuse.",
+       "name": "Brown ocher",
+       "text": "The shadows of the jacket and of the yellow cloth: a warm, inexpensive earth color.",
        "image": "pal_perle_2"
       },
       {
        "hex": "#DFB8A7",
-       "name": "Le rose de la peau",
-       "text": "La partie la plus claire du tableau. Notre regard y va en premier.",
+       "name": "The pink of the skin",
+       "text": "The brightest part of the painting. Our eyes go there first.",
        "image": "pal_perle_3"
       },
       {
        "hex": "#9D885D",
-       "name": "Le jaune",
-       "text": "Sur la veste et la chute du turban. Il répond au bleu.",
+       "name": "Yellow",
+       "text": "On the jacket and the fall of the turban. It answers the blue.",
        "image": "pal_perle_4"
       }
      ]
     },
     {
      "type": "text",
-     "text": "En 1994, le tableau est restauré. Sous un vernis jauni, on retrouve des couleurs plus fraîches et ce petit point clair au coin des lèvres, qu'on ne voyait plus."
+     "text": "In 1994, the painting was restored. Under a yellowed varnish, the restorers found fresher colors, and that small bright dot at the corner of the lips that nobody could see anymore."
+    },
+    {
+     "type": "text",
+     "text": "And the background? Today it looks flat and black. Scientific analysis has shown that Vermeer painted a dark green curtain there. The green pigments broke down with time."
     },
     {
      "type": "find",
-     "text": "Vermeer a signé ce tableau. Mais où ? Cherche bien, c'est presque invisible.",
+     "text": "Vermeer signed this painting. But where? Look closely, it is almost invisible.",
      "spots": [
       {
        "x": 0.105,
        "y": 0.045,
        "zoom": 3.2,
        "r": 0.09,
-       "title": "La signature",
-       "text": "« IVMeer », en haut à gauche. Peinte en clair sur le fond sombre, elle s'est presque effacée avec le temps."
+       "title": "The signature",
+       "text": "“IVMeer,” top left. Painted in a light tone on the dark background, it has almost faded away over time."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Et la perle, en est-ce vraiment une ? Elle est énorme. Certains pensent à du verre verni ou à de l'étain poli. Peu importe : en peinture, c'est une goutte de lumière, et c'est tout ce que Vermeer voulait."
+     "text": "Is the pearl even a pearl? It is huge. Some experts think it was varnished glass or polished tin. It hardly matters: in paint, it is a drop of light, and that is all Vermeer wanted."
     },
     {
      "type": "key",
-     "text": "Vermeer ne peint pas les objets, il peint la lumière qui tombe dessus. La perle, ce sont deux touches de blanc."
+     "text": "Vermeer does not paint objects. He paints the light that falls on them. The pearl is two touches of white."
     },
     {
      "type": "text",
-     "text": "On connaît à peine 37 tableaux de Vermeer. Après sa mort, il est presque oublié pendant deux siècles. En 1881, un collectionneur achète celui-ci aux enchères pour deux florins, autant dire rien. Il le lègue au Mauritshuis en 1902."
+     "text": "We know of only about 37 paintings by Vermeer. After his death he was nearly forgotten for two centuries."
+    },
+    {
+     "type": "fact",
+     "text": "In 1881, a collector bought this painting at auction for two guilders, next to nothing. He left it to the Mauritshuis museum in 1902."
     },
     {
      "type": "explore",
@@ -698,40 +755,40 @@
        "y": 0.385,
        "zoom": 2.6,
        "r": 0.15,
-       "title": "Le regard",
-       "text": "Elle se retourne vers toi, comme si tu venais de l'appeler. Un point blanc dans chaque œil suffit à le rendre humide et vivant."
+       "title": "The gaze",
+       "text": "She turns toward you as if you had just called her name. A single white dot in each eye is enough to make it look wet and alive."
       },
       {
        "x": 0.385,
        "y": 0.53,
        "zoom": 3.6,
        "r": 0.085,
-       "title": "La bouche",
-       "text": "Entrouverte, comme au milieu d'une phrase. Regarde le petit point clair au coin des lèvres : une seule touche, et la bouche brille."
+       "title": "The mouth",
+       "text": "Slightly open, as if mid-sentence. Look at the tiny bright dot at the corner of the lips: one touch of paint, and the mouth glistens."
       },
       {
        "x": 0.615,
        "y": 0.545,
        "zoom": 4.2,
        "r": 0.06,
-       "title": "La perle",
-       "text": "Deux touches, pas plus : un éclat blanc en haut, un reflet gris du col en bas. Ni contour, ni crochet. C'est ton œil qui fabrique la perle."
+       "title": "The pearl",
+       "text": "Two strokes, no more: a white highlight on top, a gray reflection of the collar below. No outline, no hook. Your eye builds the pearl."
       },
       {
        "x": 0.5,
        "y": 0.3,
        "zoom": 2.4,
        "r": 0.17,
-       "title": "Le turban bleu",
-       "text": "Du vrai outremer, tiré du lapis-lazuli, une pierre venue d'Afghanistan. À l'époque, ce pigment coûtait plus cher que l'or."
+       "title": "The blue turban",
+       "text": "Real ultramarine, made from lapis lazuli, a stone brought all the way from Afghanistan. Back then, this pigment cost more than gold."
       },
       {
        "x": 0.8,
        "y": 0.5,
        "zoom": 2.0,
        "r": 0.13,
-       "title": "La chute jaune",
-       "text": "Le tissu jaune tombe dans le dos comme une flamme. Bleu et jaune : Vermeer adore ce couple de couleurs, il le reprend de tableau en tableau.",
+       "title": "The yellow fall",
+       "text": "The yellow cloth drops down her back like a flame. Blue and yellow: Vermeer loved this pair and used it in painting after painting.",
        "shape": "rect"
       },
       {
@@ -739,111 +796,116 @@
        "y": 0.615,
        "zoom": 3.0,
        "r": 0.1,
-       "title": "Le col blanc",
-       "text": "Une bande de blanc posée d'un seul geste. C'est elle qui se reflète dans le bas de la perle."
+       "title": "The white collar",
+       "text": "A band of white laid down in a single gesture. It is the collar that reflects in the bottom of the pearl."
       },
       {
        "x": 0.105,
        "y": 0.045,
        "zoom": 3.2,
        "r": 0.09,
-       "title": "La signature",
-       "text": "« IVMeer », en haut à gauche. Peinte en clair sur le fond sombre, elle s'est presque effacée avec le temps."
+       "title": "The signature",
+       "text": "“IVMeer,” top left. Painted in a light tone on the dark background, it has almost faded away over time."
       },
       {
        "x": 0.15,
        "y": 0.6,
        "zoom": 1.8,
        "r": 0.12,
-       "title": "Le fond",
-       "text": "Il n'a pas toujours été noir. Les analyses montrent que Vermeer avait peint un rideau vert sombre. Le vert a disparu avec les siècles."
+       "title": "The background",
+       "text": "It was not always black. Analysis shows Vermeer painted a dark green curtain here. The green has vanished over the centuries."
       }
      ]
     }
    ],
    "quiz": [
     {
-     "question": "Qui a peint ce tableau ?",
+     "question": "What is a “tronie”?",
      "options": [
-      "Léonard de Vinci",
-      "Johannes Vermeer",
-      "Rembrandt"
+      "A commissioned portrait",
+      "A study of an imagined face",
+      "A self-portrait"
      ],
      "answer": 1,
-     "explanation": "Vermeer, peintre de Delft, vers 1665."
+     "explanation": "An excuse to paint an expression and a light, not a real person."
     },
     {
-     "question": "Qu'est-ce qu'une tronie ?",
+     "question": "Where does the blue of the turban come from?",
      "options": [
-      "Un portrait de commande",
-      "Un visage de fantaisie, sans modèle identifié",
-      "Un autoportrait"
+      "A plant, indigo",
+      "A stone, lapis lazuli",
+      "A seashell"
      ],
      "answer": 1,
-     "explanation": "Un exercice d'expression et de lumière, pas un portrait."
+     "explanation": "Ground lapis lazuli gives natural ultramarine, costlier than gold at the time."
     },
     {
-     "question": "D'où vient le bleu du turban ?",
+     "question": "How is the pearl painted?",
      "options": [
-      "D'une plante, l'indigo",
-      "D'une pierre, le lapis-lazuli",
-      "D'un coquillage"
+      "With a precise outline and a hook",
+      "With two light touches and no outline",
+      "With silver leaf"
      ],
      "answer": 1,
-     "explanation": "Broyé, le lapis-lazuli donne l'outremer naturel, plus cher que l'or à l'époque."
+     "explanation": "A white highlight, a gray reflection: your eye does the rest."
     },
     {
-     "question": "Comment la perle est-elle peinte ?",
+     "question": "Where does the light come from?",
      "options": [
-      "Avec un contour précis et un crochet",
-      "Avec deux touches claires, sans contour",
-      "À la feuille d'argent"
-     ],
-     "answer": 1,
-     "explanation": "Un éclat blanc, un reflet gris : l'œil fait le reste."
-    },
-    {
-     "question": "D'où vient la lumière dans le tableau ?",
-     "options": [
-      "De la gauche",
-      "De la droite",
-      "D'en dessous"
+      "From the left",
+      "From the right",
+      "From below"
      ],
      "answer": 0,
-     "explanation": "De la gauche, un peu en hauteur, comme presque toujours chez Vermeer."
+     "explanation": "From the upper left, as if from an unseen window."
     },
     {
-     "question": "Où est conservé le tableau ?",
+     "question": "What was the background originally?",
      "options": [
-      "Au Mauritshuis, à La Haye",
-      "Au Louvre, à Paris",
-      "Au Prado, à Madrid"
+      "A dark green curtain",
+      "A window",
+      "A gold wall"
      ],
      "answer": 0,
-     "explanation": "Il est au Mauritshuis depuis 1902."
+     "explanation": "The green pigments broke down over the centuries."
+    },
+    {
+     "question": "Where did Vermeer spend his whole life?",
+     "options": [
+      "Amsterdam",
+      "Delft",
+      "The Hague"
+     ],
+     "answer": 1,
+     "explanation": "He lived and worked in the small town of Delft."
     }
    ],
    "facts": [
     {
-     "text": "On connaît le nom de la jeune fille qui a posé.",
+     "text": "We know the name of the girl who posed.",
      "isTrue": false,
-     "explanation": "Son identité reste inconnue : c'est une tronie."
+     "explanation": "Her identity is unknown: the painting is a tronie."
     },
     {
-     "text": "Le bleu du turban vient d'une pierre, le lapis-lazuli.",
+     "text": "The blue of the turban comes from a stone, lapis lazuli.",
      "isTrue": true,
-     "explanation": "Broyé, il donne l'outremer naturel."
+     "explanation": "Ground up, it gives natural ultramarine."
+    },
+    {
+     "text": "The pearl is painted with a careful, detailed outline.",
+     "isTrue": false,
+     "explanation": "It is just two touches of light paint, with no outline at all."
     }
    ],
    "hd": "hd_perle"
   },
   {
    "id": "vague",
-   "title": "La Grande Vague de Kanagawa",
+   "title": "The Great Wave off Kanagawa",
    "artist": "Katsushika Hokusai",
    "year": 1831,
-   "yearLabel": "vers 1831",
-   "museum": "Estampe · nombreux exemplaires",
+   "yearLabel": "c. 1831",
+   "museum": "Woodblock print · many impressions",
    "movementId": "ukiyoe",
    "image": "art_vague",
    "palette": [
@@ -856,75 +918,87 @@
     0.3,
     0.3
    ],
-   "teaser": "Une vague immense, et tout au fond, minuscule, le mont Fuji.",
+   "teaser": "A giant wave, and far in the back, tiny, Mount Fuji.",
    "lesson": [
     {
      "type": "text",
-     "text": "Ce n'est pas une peinture. C'est une estampe : une image gravée sur des planches de bois, encrée, puis imprimée sur papier. Il n'en existe donc pas une seule, mais des milliers d'exemplaires."
+     "text": "This is not a painting. It is a print: an image carved into blocks of wood, inked, then pressed onto paper. So there is not one Great Wave. There are thousands."
     },
     {
      "type": "text",
-     "text": "Hokusai la publie vers 1831. Il a environ 70 ans et il dessine depuis l'enfance. Elle ouvre une série devenue célèbre : les Trente-six vues du mont Fuji."
+     "text": "Hokusai published it around 1831. He was about 70 and had been drawing since childhood. It opens a series that became famous: Thirty-Six Views of Mount Fuji."
     },
     {
      "type": "key",
-     "text": "La Grande Vague est une estampe, tirée à des milliers d'exemplaires. On en trouve dans de nombreux musées du monde."
+     "text": "The Great Wave is a woodblock print, made in thousands of copies. Many museums around the world own one."
+    },
+    {
+     "type": "fact",
+     "text": "A print like this was cheap. In Hokusai's day it cost about as much as a bowl of noodles."
     },
     {
      "type": "find",
-     "text": "La série s'appelle « Trente-six vues du mont Fuji ». Alors, où est le mont Fuji ?",
+     "text": "The series is called Thirty-Six Views of Mount Fuji. So where is Mount Fuji?",
      "spots": [
       {
        "x": 0.635,
        "y": 0.7,
        "zoom": 3.6,
        "r": 0.075,
-       "title": "Le mont Fuji",
-       "text": "Le vrai sujet de l'estampe est là, tout petit. La montagne sacrée du Japon, coiffée de neige, immobile au milieu de la tempête."
+       "title": "Mount Fuji",
+       "text": "The real subject of the print is here, tiny. Japan's sacred mountain, capped with snow, perfectly still in the middle of the storm."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Voilà le coup de génie : la plus haute montagne du Japon est plus petite que la vague. Hokusai joue avec la distance. Ce qui est proche écrase ce qui est loin, comme dans une photographie au grand angle."
+     "text": "That is the stroke of genius: the tallest mountain in Japan is smaller than the wave. Hokusai plays with distance. What is near crushes what is far, like in a wide-angle photograph."
+    },
+    {
+     "type": "text",
+     "text": "Mount Fuji was sacred. People believed it held the secret of immortality. Hokusai was obsessed with it and drew it from every angle, in every kind of weather."
     },
     {
      "type": "tour",
-     "text": "Parcourons l'image comme le ferait l'œil.",
+     "text": "Let's travel across the image the way the eye does.",
      "spots": [
       {
        "x": 0.49,
        "y": 0.35,
        "zoom": 2.6,
        "r": 0.14,
-       "title": "L'écume",
-       "text": "Regarde le bout de la vague : l'écume se termine en doigts crochus, comme des griffes prêtes à se refermer sur les barques."
+       "title": "The foam",
+       "text": "Look at the tip of the wave: the foam ends in hooked fingers, like claws about to close on the boats."
       },
       {
        "x": 0.13,
        "y": 0.62,
        "zoom": 2.6,
        "r": 0.13,
-       "title": "Les rameurs",
-       "text": "Des pêcheurs couchés sur leurs rames, la tête baissée. Ce sont des barques rapides qui livraient le poisson frais à Edo, l'actuelle Tokyo."
+       "title": "The rowers",
+       "text": "Fishermen bent over their oars, heads down. These fast boats carried fresh fish to Edo, the city we now call Tokyo."
       },
       {
        "x": 0.35,
        "y": 0.63,
        "zoom": 2.4,
        "r": 0.13,
-       "title": "La petite vague",
-       "text": "Au premier plan, une vague plus petite. Regarde sa forme : pointue, blanche au sommet. C'est un second mont Fuji."
+       "title": "The small wave",
+       "text": "In the foreground, a smaller wave. Look at its shape: pointed, white at the top. It is a second Mount Fuji."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Au Japon, on lit de droite à gauche. Le regard entre donc par la droite, avec les barques, et vient se heurter à la vague. Pour un lecteur japonais, elle arrive de face. Pour nous, qui lisons de gauche à droite, elle nous emporte."
+     "text": "In Japan, people read from right to left. So the eye enters on the right, with the boats, and runs straight into the wave. For a Japanese viewer, the wave comes head-on."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai changed his name more than thirty times in his life. One of his last names meant “Old Man Mad About Drawing.”"
     },
     {
      "type": "lines",
-     "text": "Une image simple, et pourtant calculée au millimètre.",
+     "text": "A simple image, calculated to the millimeter.",
      "lines": [
       {
        "points": [
@@ -954,8 +1028,8 @@
         ]
        ],
        "closed": false,
-       "label": "La courbe",
-       "text": "La vague dessine un grand arc qui se referme. Tout le côté gauche de l'image est pris dedans."
+       "label": "The curve",
+       "text": "The wave draws a great arc that closes in on itself. The whole left side of the image is caught inside it."
       },
       {
        "points": [
@@ -973,8 +1047,8 @@
         ]
        ],
        "closed": true,
-       "label": "Le triangle du Fuji",
-       "text": "Petit, stable, pointu. Il est placé exactement dans le creux de la vague."
+       "label": "Fuji's triangle",
+       "text": "Small, stable, pointed. It sits exactly in the hollow of the wave."
       },
       {
        "points": [
@@ -992,8 +1066,8 @@
         ]
        ],
        "closed": true,
-       "label": "Son double",
-       "text": "La petite vague du premier plan reprend la forme de la montagne. L'eau imite la pierre."
+       "label": "Its double",
+       "text": "The small foreground wave repeats the shape of the mountain. Water imitates stone."
       },
       {
        "points": [
@@ -1011,71 +1085,83 @@
         ]
        ],
        "closed": false,
-       "label": "Le sens de lecture",
-       "text": "De droite à gauche : on glisse le long de la houle jusqu'au Fuji, puis on lève les yeux vers la vague."
+       "label": "The reading direction",
+       "text": "From right to left: we slide along the swell to Fuji, then look up at the wave."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Parlons du bleu. C'est du bleu de Prusse, un pigment chimique inventé en Europe et importé au Japon depuis peu. Il est profond, il ne pâlit pas, et il fait sensation. Le succès de la série lui doit beaucoup."
+     "text": "How was it made? Hokusai drew the image on thin paper. A carver glued the drawing to a block of cherry wood and cut away everything that was not a line. Then a printer inked the block and pressed the paper onto it."
+    },
+    {
+     "type": "text",
+     "text": "Each color needed its own carved block, printed one after the other on the same sheet. That is why prints use so few colors."
+    },
+    {
+     "type": "key",
+     "text": "One woodblock per color: the fewer the colors, the simpler the print. Hokusai turns that limit into a style."
     },
     {
      "type": "palette",
-     "text": "Très peu de couleurs : chacune demande une planche de bois gravée. Touche-en une.",
+     "text": "Very few colors, because each one needs its own carved block. Tap one.",
      "swatches": [
       {
        "hex": "#F9F1D8",
-       "name": "Le papier",
-       "text": "La couleur la plus présente n'est pas imprimée : c'est le papier lui-même, laissé nu pour l'écume et la neige.",
+       "name": "The paper",
+       "text": "The most common color is not printed at all: it is the bare paper, left blank for the foam and the snow.",
        "image": "pal_vague_0"
       },
       {
        "hex": "#294E70",
-       "name": "Le bleu de Prusse",
-       "text": "Le bleu venu d'Europe. Il dessine la vague, ses rayures et ses creux.",
+       "name": "Prussian blue",
+       "text": "The blue from Europe. It draws the wave, its stripes and its hollows.",
        "image": "pal_vague_1"
       },
       {
        "hex": "#CCDBD2",
-       "name": "Le bleu clair",
-       "text": "Le même bleu, dilué. Il donne le volume de l'eau.",
+       "name": "Light blue",
+       "text": "The same blue, diluted. It gives the water its volume.",
        "image": "pal_vague_2"
       },
       {
        "hex": "#E7DBC3",
-       "name": "Le ciel teinté",
-       "text": "Un beige à peine plus sombre que le papier, qui fait ressortir le blanc de l'écume.",
+       "name": "The tinted sky",
+       "text": "A beige barely darker than the paper, which makes the white foam stand out.",
        "image": "pal_vague_3"
       }
      ]
     },
     {
+     "type": "text",
+     "text": "About that blue. It is Prussian blue, a chemical pigment invented in Europe and newly imported into Japan. It is deep, it does not fade, and it caused a sensation. The series owes much of its success to it."
+    },
+    {
      "type": "find",
-     "text": "Hokusai a signé son image. Où ? Indice : pas en bas à droite.",
+     "text": "Hokusai signed his image. Where? Hint: not in the bottom right corner.",
      "spots": [
       {
        "x": 0.068,
        "y": 0.17,
        "zoom": 3.0,
        "r": 0.075,
-       "title": "Le cartouche",
-       "text": "Dans le cadre : le titre de la série et de l'image, « Sous la vague au large de Kanagawa ». À gauche : la signature de Hokusai.",
+       "title": "The cartouche",
+       "text": "Inside the frame: the title of the series and of the image, “Under the Wave off Kanagawa.” To its left: Hokusai's signature.",
        "shape": "rect"
       }
      ]
     },
     {
      "type": "text",
-     "text": "Dans les années 1850, le Japon s'ouvre au commerce et ses estampes arrivent en Europe. Les peintres français sont stupéfaits : aplats de couleur, contours nets, cadrages coupés. Monet les collectionne, Van Gogh les copie."
+     "text": "In the 1850s Japan opened to trade, and its prints reached Europe. French painters were stunned: flat areas of color, crisp outlines, daring crops. Monet collected them. Van Gogh copied them."
     },
     {
      "type": "key",
-     "text": "Cette vogue s'appelle le japonisme. Sans les estampes japonaises, l'impressionnisme n'aurait pas eu le même visage."
+     "text": "This craze is called Japonisme. Without Japanese prints, Impressionism would not have looked the same."
     },
     {
      "type": "text",
-     "text": "Dernier détail : ce n'est pas un tsunami. C'est une vague du large, énorme mais ordinaire, de celles que redoutaient les pêcheurs. Hokusai ne montre pas une catastrophe : il montre des hommes minuscules face à la nature."
+     "text": "One last thing: this is not a tsunami. It is a wave of the open sea, enormous but ordinary, the kind fishermen feared. Hokusai is not showing a disaster. He is showing tiny men facing nature."
     },
     {
      "type": "explore",
@@ -1085,40 +1171,40 @@
        "y": 0.7,
        "zoom": 3.6,
        "r": 0.075,
-       "title": "Le mont Fuji",
-       "text": "Le vrai sujet de l'estampe est là, tout petit. La montagne sacrée du Japon, coiffée de neige, immobile au milieu de la tempête."
+       "title": "Mount Fuji",
+       "text": "The real subject of the print is here, tiny. Japan's sacred mountain, capped with snow, perfectly still in the middle of the storm."
       },
       {
        "x": 0.49,
        "y": 0.35,
        "zoom": 2.6,
        "r": 0.14,
-       "title": "L'écume",
-       "text": "Regarde le bout de la vague : l'écume se termine en doigts crochus, comme des griffes prêtes à se refermer sur les barques."
+       "title": "The foam",
+       "text": "Look at the tip of the wave: the foam ends in hooked fingers, like claws about to close on the boats."
       },
       {
        "x": 0.13,
        "y": 0.62,
        "zoom": 2.6,
        "r": 0.13,
-       "title": "Les rameurs",
-       "text": "Des pêcheurs couchés sur leurs rames, la tête baissée. Ce sont des barques rapides qui livraient le poisson frais à Edo, l'actuelle Tokyo."
+       "title": "The rowers",
+       "text": "Fishermen bent over their oars, heads down. These fast boats carried fresh fish to Edo, the city we now call Tokyo."
       },
       {
        "x": 0.35,
        "y": 0.63,
        "zoom": 2.4,
        "r": 0.13,
-       "title": "La petite vague",
-       "text": "Au premier plan, une vague plus petite. Regarde sa forme : pointue, blanche au sommet. C'est un second mont Fuji."
+       "title": "The small wave",
+       "text": "In the foreground, a smaller wave. Look at its shape: pointed, white at the top. It is a second Mount Fuji."
       },
       {
        "x": 0.068,
        "y": 0.17,
        "zoom": 3.0,
        "r": 0.075,
-       "title": "Le cartouche",
-       "text": "Dans le cadre : le titre de la série et de l'image, « Sous la vague au large de Kanagawa ». À gauche : la signature de Hokusai.",
+       "title": "The cartouche",
+       "text": "Inside the frame: the title of the series and of the image, “Under the Wave off Kanagawa.” To its left: Hokusai's signature.",
        "shape": "rect"
       },
       {
@@ -1126,107 +1212,112 @@
        "y": 0.88,
        "zoom": 2.4,
        "r": 0.14,
-       "title": "La barque du bas",
-       "text": "Elle plonge dans le creux. On compte trois barques en tout, et une trentaine d'hommes."
+       "title": "The lower boat",
+       "text": "It dives into the trough. There are three boats in all, and about thirty men."
       },
       {
        "x": 0.78,
        "y": 0.22,
        "zoom": 1.8,
        "r": 0.15,
-       "title": "Le ciel",
-       "text": "Presque vide. Un simple dégradé, obtenu en essuyant l'encre sur la planche de bois avant d'imprimer."
+       "title": "The sky",
+       "text": "Nearly empty. A simple gradient, made by wiping the ink on the woodblock before printing."
       },
       {
        "x": 0.6,
        "y": 0.6,
        "zoom": 3.2,
        "r": 0.09,
-       "title": "Les gouttes",
-       "text": "Des points blancs retombent au-dessus du Fuji. On dirait de la neige sur la montagne."
+       "title": "The spray",
+       "text": "White dots fall above Fuji. They look like snow on the mountain."
       }
      ]
     }
    ],
    "quiz": [
     {
-     "question": "Quelle est la technique de La Grande Vague ?",
+     "question": "What is The Great Wave?",
      "options": [
-      "Une peinture à l'huile",
-      "Une estampe gravée sur bois",
-      "Une aquarelle"
+      "An oil painting",
+      "A woodblock print",
+      "A watercolor"
      ],
      "answer": 1,
-     "explanation": "Une estampe, imprimée à des milliers d'exemplaires."
+     "explanation": "A print, made in thousands of copies."
     },
     {
-     "question": "À quelle série appartient-elle ?",
+     "question": "Which series does it belong to?",
      "options": [
-      "Les Cent vues d'Edo",
-      "Les Trente-six vues du mont Fuji",
-      "Les Cinquante-trois relais du Tokaido"
+      "One Hundred Views of Edo",
+      "Thirty-Six Views of Mount Fuji",
+      "The Four Seasons"
      ],
      "answer": 1,
-     "explanation": "Elle ouvre la série de Hokusai sur le mont Fuji."
+     "explanation": "It opens Hokusai's series on Mount Fuji."
     },
     {
-     "question": "D'où vient le bleu de la vague ?",
+     "question": "Where does the blue of the wave come from?",
      "options": [
-      "Du lapis-lazuli",
-      "Du bleu de Prusse, importé d'Europe",
-      "De l'indigo japonais seulement"
+      "Lapis lazuli",
+      "Prussian blue, imported from Europe",
+      "Crushed seashells"
      ],
      "answer": 1,
-     "explanation": "Un pigment chimique nouveau au Japon, profond et stable."
+     "explanation": "A chemical pigment that was new in Japan, deep and stable."
     },
     {
-     "question": "Que reprend la petite vague du premier plan ?",
+     "question": "What shape does the small foreground wave repeat?",
      "options": [
-      "La forme du mont Fuji",
-      "La forme d'une barque",
-      "La forme d'un nuage"
+      "Mount Fuji",
+      "A boat",
+      "A cloud"
      ],
      "answer": 0,
-     "explanation": "L'eau imite la montagne."
+     "explanation": "Water imitates the mountain."
     },
     {
-     "question": "Dans quel sens un lecteur japonais parcourt-il l'image ?",
+     "question": "Why do prints use so few colors?",
      "options": [
-      "De gauche à droite",
-      "De droite à gauche",
-      "De bas en haut"
+      "Colors were forbidden",
+      "Each color needs its own carved block",
+      "Paper could not hold ink"
      ],
      "answer": 1,
-     "explanation": "La vague lui arrive donc en pleine face."
+     "explanation": "One block per color, printed one after another."
     },
     {
-     "question": "Comment appelle-t-on l'influence des estampes japonaises en Europe ?",
+     "question": "What is the European craze for Japanese prints called?",
      "options": [
-      "Le japonisme",
-      "L'orientalisme",
-      "Le cubisme"
+      "Japonisme",
+      "Orientalism",
+      "Cubism"
      ],
      "answer": 0,
-     "explanation": "Monet, Van Gogh et bien d'autres en ont été marqués."
+     "explanation": "Monet collected the prints; Van Gogh copied them."
     }
    ],
    "facts": [
     {
-     "text": "La Grande Vague n'existe qu'en un seul exemplaire.",
+     "text": "There is only one copy of The Great Wave.",
      "isTrue": false,
-     "explanation": "C'est une estampe : elle a été imprimée de nombreuses fois."
+     "explanation": "It is a print: thousands of copies were made."
     },
     {
-     "text": "Hokusai avait environ 70 ans quand il l'a créée.",
+     "text": "Hokusai was about 70 when he made it.",
      "isTrue": true,
-     "explanation": "Il est né en 1760 et la série paraît vers 1831."
+     "explanation": "He was born in 1760 and the series appeared around 1831."
+    },
+    {
+     "text": "The Great Wave shows a tsunami.",
+     "isTrue": false,
+     "explanation": "It is a large wave of the open sea, not a tsunami."
     }
    ],
    "hd": "hd_vague"
   },
   {
    "id": "nympheas",
-   "title": "Nymphéas",
+   "title": "Water Lilies",
    "artist": "Claude Monet",
    "year": 1906,
    "yearLabel": "1906",
@@ -1244,15 +1335,15 @@
     0.4,
     0.6
    ],
-   "teaser": "Plus d'horizon : seulement l'eau, les fleurs et le ciel qui s'y reflète.",
+   "teaser": "No horizon left: only water, flowers and the sky reflected in it.",
    "lesson": [
     {
      "type": "text",
-     "text": "À Giverny, Monet fait aménager un bassin dans son jardin et y plante des nymphéas. Ce bassin devient son motif pendant près de trente ans."
+     "text": "At Giverny, Monet had a pond dug in his garden and planted water lilies in it. That pond became his subject for nearly thirty years."
     },
     {
      "type": "image",
-     "caption": "Détail · les fleurs posées sur l'eau.",
+     "caption": "Detail · the flowers resting on the water.",
      "zoom": 2.4,
      "anchor": [
       0.35,
@@ -1261,65 +1352,69 @@
     },
     {
      "type": "text",
-     "text": "Regarde bien : il n'y a ni rive ni horizon. On ne sait plus où finit l'eau et où commence le reflet du ciel."
+     "text": "Look closely: there is no bank and no horizon. You can no longer tell where the water ends and the reflection of the sky begins."
     },
     {
      "type": "key",
-     "text": "Sans horizon, le tableau devient une surface : on regarde l'eau comme on regarderait le ciel."
+     "text": "Without a horizon, the painting becomes a surface: we look at the water the way we would look at the sky."
+    },
+    {
+     "type": "fact",
+     "text": "Monet employed gardeners to look after the pond. One of them cleaned the surface of the water every morning before he started painting."
     },
     {
      "type": "text",
-     "text": "Monet a peint environ 250 toiles de nymphéas. Les mêmes fleurs, mais jamais la même lumière."
+     "text": "Monet painted about 250 canvases of water lilies. The same flowers, but never the same light."
     }
    ],
    "quiz": [
     {
-     "question": "Où Monet a-t-il peint ses nymphéas ?",
+     "question": "Where did Monet paint his water lilies?",
      "options": [
-      "À Giverny",
-      "À Argenteuil",
-      "À Honfleur"
+      "At Giverny",
+      "In Paris",
+      "In Venice"
      ],
      "answer": 0,
-     "explanation": "Dans le jardin de sa maison, en Normandie."
+     "explanation": "In the garden of his own house."
     },
     {
-     "question": "Que manque-t-il dans ce tableau ?",
+     "question": "What is missing from this painting?",
      "options": [
-      "L'eau",
-      "L'horizon",
-      "Les fleurs"
+      "The water",
+      "The horizon",
+      "The flowers"
      ],
      "answer": 1,
-     "explanation": "Ni rive ni ciel : seulement la surface de l'eau."
+     "explanation": "No bank, no sky: only the surface of the water."
     },
     {
-     "question": "Combien de toiles de nymphéas a-t-il peintes ?",
+     "question": "How many water lily paintings did he make?",
      "options": [
-      "Une dizaine",
-      "Environ 250",
-      "Plus de 2 000"
+      "About ten",
+      "About 250",
+      "More than 2,000"
      ],
      "answer": 1,
-     "explanation": "Une série immense, sur près de trente ans."
+     "explanation": "A huge series, over nearly thirty years."
     }
    ],
    "facts": [
     {
-     "text": "Monet a peint ses nymphéas une seule fois.",
+     "text": "Monet painted his water lilies only once.",
      "isTrue": false,
-     "explanation": "Il en a peint environ 250 versions."
+     "explanation": "He painted about 250 versions."
     },
     {
-     "text": "Le bassin aux nymphéas se trouvait dans son propre jardin.",
+     "text": "The water lily pond was in Monet's own garden.",
      "isTrue": true,
-     "explanation": "À Giverny, où il l'avait fait aménager."
+     "explanation": "At Giverny, where he had it dug."
     }
    ]
   },
   {
    "id": "impression",
-   "title": "Impression, soleil levant",
+   "title": "Impression, Sunrise",
    "artist": "Claude Monet",
    "year": 1872,
    "yearLabel": "1872",
@@ -1337,15 +1432,15 @@
     0.62,
     0.38
    ],
-   "teaser": "Le tableau qui a donné son nom à tout un mouvement, par moquerie.",
+   "teaser": "The painting that gave a whole movement its name, as a joke.",
    "lesson": [
     {
      "type": "text",
-     "text": "Le port du Havre, un matin de brume. Monet pose quelques touches rapides : des barques, des mâts, et un soleil orange."
+     "text": "The port of Le Havre, on a misty morning. Monet lays down a few quick strokes: boats, masts, and an orange sun."
     },
     {
      "type": "image",
-     "caption": "Détail · le soleil et son reflet.",
+     "caption": "Detail · the sun and its reflection.",
      "zoom": 2.8,
      "anchor": [
       0.62,
@@ -1354,69 +1449,73 @@
     },
     {
      "type": "text",
-     "text": "En 1874, la toile est exposée à Paris. Un critique, Louis Leroy, se moque de ce titre et traite ces peintres d'« impressionnistes »."
+     "text": "In 1874, the canvas was shown in Paris. A critic, Louis Leroy, made fun of the title and called these painters “Impressionists.”"
     },
     {
      "type": "key",
-     "text": "Le mot « impressionnisme » vient de ce tableau. C'était une moquerie, c'est devenu un nom."
+     "text": "The word “Impressionism” comes from this painting. It started as an insult and became a name."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre is the town where Monet grew up. As a teenager he was known there for his caricatures."
     },
     {
      "type": "text",
-     "text": "Le tableau a aussi été volé, en 1985, au musée Marmottan. Il a été retrouvé cinq ans plus tard."
+     "text": "The painting was also stolen, in 1985, from the Marmottan museum. It was found five years later."
     }
    ],
    "quiz": [
     {
-     "question": "Quel port Monet a-t-il peint ?",
+     "question": "Which port did Monet paint?",
      "options": [
       "Marseille",
       "Le Havre",
-      "Venise"
+      "Venice"
      ],
      "answer": 1,
-     "explanation": "La ville où il a grandi."
+     "explanation": "The town where he grew up."
     },
     {
-     "question": "Qu'a donné ce tableau ?",
+     "question": "What did this painting give its name to?",
      "options": [
-      "Son nom à l'impressionnisme",
-      "Le premier prix du Salon",
-      "Son nom à un musée"
+      "Impressionism",
+      "A museum",
+      "A prize"
      ],
      "answer": 0,
-     "explanation": "Un critique s'est moqué du titre, et le mot est resté."
+     "explanation": "A critic mocked the title, and the word stuck."
     },
     {
-     "question": "En quelle année a-t-il été exposé ?",
+     "question": "In what year was it shown in Paris?",
      "options": [
       "1850",
       "1874",
       "1900"
      ],
      "answer": 1,
-     "explanation": "Lors de la première exposition du groupe."
+     "explanation": "A critic, Louis Leroy, mocked it that year."
     }
    ],
    "facts": [
     {
-     "text": "Le mot « impressionniste » était d'abord une moquerie.",
+     "text": "The word “Impressionist” started out as an insult.",
      "isTrue": true,
-     "explanation": "Il vient d'un article du critique Louis Leroy."
+     "explanation": "It comes from an article by the critic Louis Leroy."
     },
     {
-     "text": "Ce tableau représente le port de Marseille.",
+     "text": "This painting shows the port of Marseille.",
      "isTrue": false,
-     "explanation": "C'est le port du Havre."
+     "explanation": "It is the port of Le Havre."
     }
    ]
   },
   {
    "id": "baiser",
-   "title": "Le Baiser",
+   "title": "The Kiss",
    "artist": "Gustav Klimt",
    "year": 1908,
    "yearLabel": "1908",
-   "museum": "Belvédère, Vienne",
+   "museum": "Belvedere, Vienna",
    "movementId": "secession",
    "image": "art_baiser",
    "palette": [
@@ -1430,15 +1529,15 @@
     0.5,
     0.3
    ],
-   "teaser": "Deux amants enveloppés d'or, au bord d'un pré en fleurs.",
+   "teaser": "Two lovers wrapped in gold, at the edge of a flowering meadow.",
    "lesson": [
     {
      "type": "text",
-     "text": "Klimt est au sommet de sa « période dorée ». Sur la toile, il applique de la vraie feuille d'or, comme sur une icône."
+     "text": "Klimt is at the height of his “Golden Period.” He applies real gold leaf to the canvas, as on a religious icon."
     },
     {
      "type": "image",
-     "caption": "Détail · les deux visages.",
+     "caption": "Detail · the two faces.",
      "zoom": 2.6,
      "anchor": [
       0.5,
@@ -1447,11 +1546,11 @@
     },
     {
      "type": "text",
-     "text": "Observe les vêtements. Celui de l'homme est couvert de rectangles noirs et blancs, celui de la femme de cercles et de fleurs."
+     "text": "Look at the clothes. His robe is covered in black and white rectangles. Hers is covered in circles and flowers."
     },
     {
      "type": "image",
-     "caption": "Détail · rectangles et cercles.",
+     "caption": "Detail · rectangles and circles.",
      "zoom": 2.4,
      "anchor": [
       0.5,
@@ -1460,65 +1559,69 @@
     },
     {
      "type": "key",
-     "text": "Rectangles pour lui, cercles pour elle : les motifs racontent le couple."
+     "text": "Rectangles for him, circles for her: the patterns tell the story of the couple."
+    },
+    {
+     "type": "fact",
+     "text": "Klimt's father was a gold engraver. The painter grew up around the metal he would later put on his canvases."
     },
     {
      "type": "text",
-     "text": "Le tableau est acheté par l'État autrichien dès 1908, alors qu'il n'est pas tout à fait terminé."
+     "text": "The Austrian state bought the painting in 1908, before it was even completely finished."
     }
    ],
    "quiz": [
     {
-     "question": "Quel matériau Klimt a-t-il utilisé ?",
+     "question": "What material did Klimt use?",
      "options": [
-      "De la nacre",
-      "De la feuille d'or",
-      "Du bronze"
+      "Mother-of-pearl",
+      "Gold leaf",
+      "Bronze"
      ],
      "answer": 1,
-     "explanation": "C'est la marque de sa période dorée."
+     "explanation": "It is the mark of his Golden Period."
     },
     {
-     "question": "Dans quelle ville se trouve Le Baiser ?",
+     "question": "Which patterns cover the man's robe?",
      "options": [
-      "Vienne",
-      "Paris",
-      "Berlin"
-     ],
-     "answer": 0,
-     "explanation": "Au palais du Belvédère."
-    },
-    {
-     "question": "Quels motifs couvrent le vêtement de l'homme ?",
-     "options": [
-      "Des cercles",
-      "Des fleurs",
-      "Des rectangles"
+      "Circles",
+      "Flowers",
+      "Rectangles"
      ],
      "answer": 2,
-     "explanation": "Les cercles et les fleurs sont pour la femme."
+     "explanation": "The circles and flowers are for the woman."
+    },
+    {
+     "question": "Who bought the painting in 1908?",
+     "options": [
+      "The Austrian state",
+      "A French collector",
+      "Klimt's father"
+     ],
+     "answer": 0,
+     "explanation": "Before it was even completely finished."
     }
    ],
    "facts": [
     {
-     "text": "Klimt a utilisé de la vraie feuille d'or.",
+     "text": "Klimt used real gold leaf.",
      "isTrue": true,
-     "explanation": "Comme pour plusieurs toiles de sa période dorée."
+     "explanation": "As in several canvases of his Golden Period."
     },
     {
-     "text": "Le Baiser est conservé à Paris.",
+     "text": "The Kiss is kept in Paris.",
      "isTrue": false,
-     "explanation": "Il est à Vienne, au Belvédère."
+     "explanation": "It is in Vienna, at the Belvedere."
     }
    ]
   },
   {
    "id": "tournesols",
-   "title": "Les Tournesols",
+   "title": "Sunflowers",
    "artist": "Vincent van Gogh",
    "year": 1888,
    "yearLabel": "1888",
-   "museum": "National Gallery, Londres",
+   "museum": "National Gallery, London",
    "movementId": "postimp",
    "image": "art_tournesols",
    "palette": [
@@ -1532,15 +1635,15 @@
     0.5,
     0.35
    ],
-   "teaser": "Du jaune sur du jaune : un bouquet peint pour accueillir un ami.",
+   "teaser": "Yellow on yellow: a bouquet painted to welcome a friend.",
    "lesson": [
     {
      "type": "text",
-     "text": "Août 1888, à Arles. Van Gogh attend la venue de son ami Paul Gauguin et veut décorer sa chambre avec des tournesols."
+     "text": "August 1888, in Arles. Van Gogh is waiting for his friend Paul Gauguin and wants to decorate his room with sunflowers."
     },
     {
      "type": "image",
-     "caption": "Détail · des fleurs à tous les stades.",
+     "caption": "Detail · flowers at every stage.",
      "zoom": 2.4,
      "anchor": [
       0.45,
@@ -1549,69 +1652,73 @@
     },
     {
      "type": "text",
-     "text": "Il ose presque une seule couleur : fleurs jaunes, vase jaune, fond jaune. Tout tient dans les nuances et l'épaisseur de la peinture."
+     "text": "He dares to use almost a single color: yellow flowers, yellow vase, yellow background. Everything depends on the shades and on the thickness of the paint."
     },
     {
      "type": "key",
-     "text": "Un tableau presque monochrome : le jaune sous toutes ses formes."
+     "text": "An almost monochrome painting: yellow in all its forms."
+    },
+    {
+     "type": "fact",
+     "text": "Sunflowers wilt fast. Van Gogh had to paint quickly, starting at sunrise, before the flowers drooped."
     },
     {
      "type": "text",
-     "text": "Il existe plusieurs versions de ces tournesols. Certaines fleurs sont en bouton, d'autres déjà fanées : le bouquet raconte aussi le temps qui passe."
+     "text": "There are several versions of these sunflowers. Some flowers are still in bud, others already wilted: the bouquet also tells the passing of time."
     }
    ],
    "quiz": [
     {
-     "question": "Pour décorer la chambre de qui ?",
+     "question": "Whose room were the sunflowers meant to decorate?",
      "options": [
-      "Paul Gauguin",
-      "Claude Monet",
-      "Son frère Théo"
+      "Paul Gauguin's",
+      "Claude Monet's",
+      "His brother Theo's"
      ],
      "answer": 0,
-     "explanation": "Gauguin le rejoint à Arles à l'automne 1888."
+     "explanation": "Van Gogh was waiting for him in Arles."
     },
     {
-     "question": "Dans quelle ville les a-t-il peints ?",
+     "question": "In which town did he paint them?",
      "options": [
       "Paris",
       "Arles",
       "Amsterdam"
      ],
      "answer": 1,
-     "explanation": "Dans le sud de la France, en août 1888."
+     "explanation": "In the south of France, in August 1888."
     },
     {
-     "question": "Existe-t-il plusieurs versions ?",
+     "question": "What is unusual about the colors?",
      "options": [
-      "Non, une seule",
-      "Oui, il en a peint plusieurs",
-      "Oui, mais par ses élèves"
+      "Almost everything is yellow",
+      "There is no yellow at all",
+      "It is black and white"
      ],
-     "answer": 1,
-     "explanation": "Plusieurs toiles, conservées dans différents musées."
+     "answer": 0,
+     "explanation": "Yellow flowers, yellow vase, yellow background."
     }
    ],
    "facts": [
     {
-     "text": "Il existe plusieurs versions des Tournesols.",
+     "text": "There are several versions of the Sunflowers.",
      "isTrue": true,
-     "explanation": "Van Gogh en a peint toute une série."
+     "explanation": "Van Gogh painted a whole series."
     },
     {
-     "text": "Van Gogh a vendu ses Tournesols très cher de son vivant.",
+     "text": "Van Gogh sold his Sunflowers for a fortune during his lifetime.",
      "isTrue": false,
-     "explanation": "Il n'a presque rien vendu de son vivant."
+     "explanation": "He sold almost nothing during his lifetime."
     }
    ]
   },
   {
    "id": "joconde",
-   "title": "La Joconde",
-   "artist": "Léonard de Vinci",
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
    "year": 1503,
-   "yearLabel": "vers 1503-1519",
-   "museum": "Musée du Louvre, Paris",
+   "yearLabel": "c. 1503–1519",
+   "museum": "Louvre Museum, Paris",
    "movementId": "renaissance",
    "image": "art_joconde",
    "palette": [
@@ -1625,79 +1732,91 @@
     0.5,
     0.25
    ],
-   "teaser": "Le sourire le plus célèbre du monde tient à des contours qu'on ne voit pas.",
+   "teaser": "The most famous smile in the world depends on outlines you cannot see.",
    "lesson": [
     {
      "type": "text",
-     "text": "C'est le tableau le plus célèbre du monde, et il est petit : 77 centimètres sur 53, peints sur un panneau de bois de peuplier. Beaucoup de visiteurs du Louvre sont surpris par sa taille."
+     "text": "It is the most famous painting in the world, and it is small: 77 by 53 centimeters, about 30 by 21 inches, painted on a panel of poplar wood. Many visitors to the Louvre are surprised by its size."
     },
     {
      "type": "text",
-     "text": "Vers 1503, à Florence, un marchand de soie, Francesco del Giocondo, commande à Léonard de Vinci le portrait de sa femme, Lisa Gherardini. « La Gioconda », c'est elle : madame del Giocondo."
+     "text": "Around 1503, in Florence, a silk merchant named Francesco del Giocondo asked Leonardo da Vinci to paint his wife, Lisa Gherardini."
     },
     {
      "type": "key",
-     "text": "La Joconde est le portrait de Lisa Gherardini, épouse d'un marchand florentin. D'où son autre nom : Mona Lisa, « madame Lisa »."
+     "text": "The Mona Lisa is a portrait of Lisa Gherardini, the wife of a Florentine merchant. “Mona” simply means “Madam.”"
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo was not only a painter. He was also an engineer, an anatomist and an inventor, and he left thousands of notebook pages written in mirror writing."
     },
     {
      "type": "tour",
-     "text": "Regarde-la en entier. Puis approche-toi de ce qui fait sa légende.",
+     "text": "Look at her as a whole. Then come closer to what made her a legend.",
      "spots": [
       {
        "x": 0.465,
        "y": 0.305,
        "zoom": 4.0,
        "r": 0.085,
-       "title": "Le sourire",
-       "text": "Cherche le trait qui dessine les lèvres : il n'y en a pas. Les coins de la bouche se perdent dans l'ombre. C'est pour cela que le sourire semble changer."
+       "title": "The smile",
+       "text": "Look for the line that draws the lips: there isn't one. The corners of the mouth dissolve into shadow. That is why the smile seems to change."
       },
       {
        "x": 0.465,
        "y": 0.235,
        "zoom": 3.2,
        "r": 0.12,
-       "title": "Les yeux",
-       "text": "Même procédé : les coins des yeux sont noyés dans l'ombre. Remarque aussi qu'il n'y a ni sourcils ni cils."
+       "title": "The eyes",
+       "text": "Same trick: the corners of the eyes melt into shadow. Notice, too, that she has no eyebrows and no eyelashes."
       },
       {
        "x": 0.42,
        "y": 0.835,
        "zoom": 2.2,
        "r": 0.17,
-       "title": "Les mains",
-       "text": "Posées l'une sur l'autre, détendues. Léonard a disséqué des corps pour comprendre les os et les muscles : ces mains ont du poids."
+       "title": "The hands",
+       "text": "Resting one on the other, relaxed. Leonardo dissected bodies to understand bones and muscles: these hands have weight."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Ce flou a un nom : le sfumato, de l'italien « fumo », la fumée. Léonard superpose des dizaines de couches de peinture très fines et presque transparentes. Les contours disparaissent, les formes se fondent l'une dans l'autre."
+     "text": "This blur has a name: sfumato, from the Italian “fumo,” smoke. Leonardo stacks dozens of very thin, almost transparent layers of paint. Outlines disappear and shapes melt into each other."
     },
     {
      "type": "key",
-     "text": "Le sfumato : des contours estompés, comme vus à travers une fumée. C'est lui qui rend le sourire insaisissable."
+     "text": "Sfumato means soft, smoky outlines. It is what makes the smile impossible to pin down."
+    },
+    {
+     "type": "text",
+     "text": "Try it yourself. Look at her eyes, and the mouth seems to smile. Look straight at the mouth, and the smile fades. The shadows at the corners do the work."
     },
     {
      "type": "find",
-     "text": "Il manque quelque chose à ce visage. Touche l'endroit où cela devrait se trouver.",
+     "text": "Something is missing from this face. Tap the place where it should be.",
      "spots": [
       {
        "x": 0.465,
        "y": 0.215,
        "zoom": 3.4,
        "r": 0.1,
-       "title": "Les sourcils",
-       "text": "Elle n'a ni sourcils ni cils. Mode de l'époque, ou couche de peinture usée par d'anciens nettoyages ? Les spécialistes en débattent encore."
+       "title": "The eyebrows",
+       "text": "She has no eyebrows and no eyelashes. Fashion of the time, or paint worn away by old cleanings? Experts still argue about it."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Regarde maintenant la pose. Avant Léonard, on peint surtout les portraits de profil, ou en buste coupé court. Lui montre la figure jusqu'à la taille, de trois quarts, avec les mains. Raphaël la copie aussitôt, et toute l'Europe suit."
+     "text": "Now look at the pose. Before Leonardo, portraits were mostly shown in profile, or cut off at the chest. He shows the figure down to the waist, turned three-quarters toward us, hands included."
+    },
+    {
+     "type": "fact",
+     "text": "The young painter Raphael saw the portrait in Leonardo's studio and immediately copied the pose in his own works."
     },
     {
      "type": "lines",
-     "text": "Une pose calme, un paysage étrange. Regarde comment le tout est construit.",
+     "text": "A calm pose, a strange landscape. See how it is all built.",
      "lines": [
       {
        "points": [
@@ -1715,8 +1834,8 @@
         ]
        ],
        "closed": true,
-       "label": "La pyramide",
-       "text": "La tête au sommet, les bras et les mains à la base. Une forme large et stable : elle ne bouge pas, elle est installée."
+       "label": "The pyramid",
+       "text": "The head at the top, the arms and hands at the base. A wide, stable shape: she is not moving, she is settled."
       },
       {
        "points": [
@@ -1730,8 +1849,8 @@
         ]
        ],
        "closed": false,
-       "label": "L'horizon de gauche",
-       "text": "À gauche, la ligne d'eau du paysage se trouve à peu près ici."
+       "label": "The horizon on the left",
+       "text": "On the left, the waterline of the landscape sits about here."
       },
       {
        "points": [
@@ -1745,8 +1864,8 @@
         ]
        ],
        "closed": false,
-       "label": "L'horizon de droite",
-       "text": "À droite, elle est plus haute. Les deux moitiés du paysage ne se raccordent pas : une part du trouble du tableau vient de là."
+       "label": "The horizon on the right",
+       "text": "On the right, it is higher. The two halves of the landscape do not match up, and part of the picture's strangeness comes from that."
       },
       {
        "points": [
@@ -1768,80 +1887,92 @@
         ]
        ],
        "closed": false,
-       "label": "Le chemin",
-       "text": "Une ligne sinueuse qui emmène le regard vers le fond, comme les rivières du côté droit."
+       "label": "The path",
+       "text": "A winding line that leads the eye into the distance, like the rivers on the right side."
       }
      ]
     },
     {
+     "type": "text",
+     "text": "The landscape is not a real place. It is a dream world of rocks, water and mist, with no houses and no people. Only one thing in it was built by human hands."
+    },
+    {
      "type": "find",
-     "text": "Dans ce paysage désert, une seule construction humaine. Où est le pont ?",
+     "text": "In this empty landscape, there is a single man-made structure. Where is the bridge?",
      "spots": [
       {
        "x": 0.86,
        "y": 0.455,
        "zoom": 3.6,
        "r": 0.07,
-       "title": "Le pont",
-       "text": "Un petit pont de pierre à plusieurs arches. C'est le seul signe de présence humaine dans tout le paysage."
+       "title": "The bridge",
+       "text": "A small stone bridge with several arches. It is the only sign of human presence in the whole landscape."
       }
      ]
     },
     {
      "type": "text",
-     "text": "Le fond est peint selon une règle que Léonard a formulée : la perspective atmosphérique. L'air n'est pas tout à fait transparent. Plus un objet est loin, plus il paraît bleu, pâle et flou."
+     "text": "The background follows a rule Leonardo wrote down himself: atmospheric perspective. Air is not perfectly clear. The farther away something is, the bluer, paler and hazier it looks."
+    },
+    {
+     "type": "key",
+     "text": "Atmospheric perspective: distant things look bluer, paler and blurrier. Leonardo was among the first to paint it on purpose."
     },
     {
      "type": "palette",
-     "text": "Des bruns, des verts, un peu d'or. Les vernis anciens ont jauni l'ensemble. Touche une couleur.",
+     "text": "Browns, greens, a little gold. Old varnish has yellowed everything. Tap a color.",
      "swatches": [
       {
        "hex": "#251C23",
-       "name": "Les ombres",
-       "text": "La robe, les cheveux, le voile. Près de la moitié du tableau est dans la pénombre.",
+       "name": "The shadows",
+       "text": "The dress, the hair, the veil. Nearly half the painting is in half-light.",
        "image": "pal_joconde_0"
       },
       {
        "hex": "#E3C062",
-       "name": "La chair",
-       "text": "Le visage, la gorge, les mains : les trois points lumineux, disposés en triangle.",
+       "name": "The skin",
+       "text": "The face, the chest, the hands: the three bright spots, arranged in a triangle.",
        "image": "pal_joconde_1"
       },
       {
        "hex": "#828B5B",
-       "name": "Le vert-gris du ciel",
-       "text": "À l'origine plus bleu. Le vernis jauni l'a tiré vers le vert.",
+       "name": "The gray-green sky",
+       "text": "Originally bluer. The yellowed varnish has pushed it toward green.",
        "image": "pal_joconde_2"
       },
       {
        "hex": "#6E4629",
-       "name": "La terre brune",
-       "text": "Les roches et les chemins du paysage, de chaque côté des épaules.",
+       "name": "The brown earth",
+       "text": "The rocks and paths of the landscape, on either side of her shoulders.",
        "image": "pal_joconde_3"
       },
       {
        "hex": "#607350",
-       "name": "Le vert des lointains",
-       "text": "L'eau et les montagnes, estompées par la distance.",
+       "name": "The green distance",
+       "text": "The water and the mountains, softened by distance.",
        "image": "pal_joconde_4"
       }
      ]
     },
     {
      "type": "text",
-     "text": "Léonard ne livre jamais le tableau. Il le garde, le retouche pendant des années et l'emporte en France quand François Ier l'invite à Amboise. À sa mort, en 1519, le portrait entre dans les collections royales. C'est pour cela qu'il est au Louvre."
+     "text": "Leonardo never delivered the painting. He kept it, reworked it for years, and took it with him to France when King Francis I invited him there. When he died in 1519, the portrait entered the royal collection. That is why it is in the Louvre."
     },
     {
      "type": "text",
-     "text": "Longtemps, c'est un chef-d'œuvre parmi d'autres. Sa célébrité mondiale date d'un fait divers : le 21 août 1911, un ouvrier italien, Vincenzo Peruggia, le décroche et l'emporte sous sa blouse. Le tableau disparaît plus de deux ans."
+     "text": "For a long time it was one masterpiece among others. Its worldwide fame comes from a crime: on August 21, 1911, an Italian workman, Vincenzo Peruggia, lifted it off the wall and walked out with it under his smock."
+    },
+    {
+     "type": "fact",
+     "text": "While the painting was missing, crowds lined up at the Louvre just to look at the empty space on the wall."
     },
     {
      "type": "text",
-     "text": "Les journaux du monde entier publient sa photographie. Des foules viennent regarder le mur vide. Quand on la retrouve à Florence, en 1913, la Joconde n'est plus seulement un tableau : c'est une vedette."
+     "text": "Newspapers around the world printed her picture. When she was found in Florence in 1913, the Mona Lisa was no longer just a painting. She was a star."
     },
     {
      "type": "key",
-     "text": "La Joconde doit son génie à Léonard, et sa célébrité à un vol."
+     "text": "The Mona Lisa owes her genius to Leonardo, and her fame to a theft."
     },
     {
      "type": "explore",
@@ -1851,140 +1982,145 @@
        "y": 0.305,
        "zoom": 4.0,
        "r": 0.085,
-       "title": "Le sourire",
-       "text": "Cherche le trait qui dessine les lèvres : il n'y en a pas. Les coins de la bouche se perdent dans l'ombre. C'est pour cela que le sourire semble changer."
+       "title": "The smile",
+       "text": "Look for the line that draws the lips: there isn't one. The corners of the mouth dissolve into shadow. That is why the smile seems to change."
       },
       {
        "x": 0.465,
        "y": 0.235,
        "zoom": 3.2,
        "r": 0.12,
-       "title": "Les yeux",
-       "text": "Même procédé : les coins des yeux sont noyés dans l'ombre. Remarque aussi qu'il n'y a ni sourcils ni cils."
+       "title": "The eyes",
+       "text": "Same trick: the corners of the eyes melt into shadow. Notice, too, that she has no eyebrows and no eyelashes."
       },
       {
        "x": 0.42,
        "y": 0.835,
        "zoom": 2.2,
        "r": 0.17,
-       "title": "Les mains",
-       "text": "Posées l'une sur l'autre, détendues. Léonard a disséqué des corps pour comprendre les os et les muscles : ces mains ont du poids."
+       "title": "The hands",
+       "text": "Resting one on the other, relaxed. Leonardo dissected bodies to understand bones and muscles: these hands have weight."
       },
       {
        "x": 0.86,
        "y": 0.455,
        "zoom": 3.6,
        "r": 0.07,
-       "title": "Le pont",
-       "text": "Un petit pont de pierre à plusieurs arches. C'est le seul signe de présence humaine dans tout le paysage."
+       "title": "The bridge",
+       "text": "A small stone bridge with several arches. It is the only sign of human presence in the whole landscape."
       },
       {
        "x": 0.14,
        "y": 0.42,
        "zoom": 3.0,
        "r": 0.09,
-       "title": "Le chemin",
-       "text": "Un chemin qui serpente vers un lac. Le paysage n'est pas un lieu réel : Léonard l'invente à partir de ses études de roches et d'eau."
+       "title": "The path",
+       "text": "A path winding toward a lake. The landscape is not a real place: Leonardo invents it from his studies of rocks and water."
       },
       {
        "x": 0.44,
        "y": 0.135,
        "zoom": 3.0,
        "r": 0.11,
-       "title": "Le voile",
-       "text": "Un voile transparent couvre les cheveux. Il est si fin qu'on le devine à peine sur le front."
+       "title": "The veil",
+       "text": "A transparent veil covers her hair. It is so fine you can barely make it out on her forehead."
       },
       {
        "x": 0.78,
        "y": 0.2,
        "zoom": 2.6,
        "r": 0.12,
-       "title": "Les lointains",
-       "text": "Plus les montagnes sont loin, plus elles deviennent bleues et floues. Léonard a observé que l'air lui-même a une couleur."
+       "title": "The distance",
+       "text": "The farther away the mountains are, the bluer and hazier they get. Leonardo noticed that air itself has a color."
       },
       {
        "x": 0.22,
        "y": 0.74,
        "zoom": 2.6,
        "r": 0.13,
-       "title": "La manche",
-       "text": "Des plis dorés, serrés, peints un par un. Le vêtement est sombre et sans bijou : rien ne doit distraire du visage."
+       "title": "The sleeve",
+       "text": "Tight golden folds, painted one by one. The dress is dark and she wears no jewelry: nothing should distract from the face."
       }
      ]
     }
    ],
    "quiz": [
     {
-     "question": "Qui est représentée ?",
+     "question": "Who is the woman in the portrait?",
      "options": [
-      "Une reine de France",
-      "Lisa Gherardini, épouse d'un marchand florentin",
-      "La mère de Léonard"
+      "A queen of France",
+      "Lisa Gherardini, wife of a Florentine merchant",
+      "Leonardo's mother"
      ],
      "answer": 1,
-     "explanation": "« La Gioconda » : la femme de Francesco del Giocondo."
+     "explanation": "Her husband, Francesco del Giocondo, ordered the portrait."
     },
     {
-     "question": "Comment s'appelle la technique des contours estompés ?",
+     "question": "What is the technique of soft, smoky outlines called?",
      "options": [
-      "Le clair-obscur",
-      "Le sfumato",
-      "Le pointillisme"
+      "Impasto",
+      "Sfumato",
+      "Pointillism"
      ],
      "answer": 1,
-     "explanation": "De « fumo », la fumée, en italien."
+     "explanation": "From “fumo,” Italian for smoke."
     },
     {
-     "question": "Sur quel support le tableau est-il peint ?",
+     "question": "What is the Mona Lisa painted on?",
      "options": [
-      "Une toile de lin",
-      "Un panneau de bois de peuplier",
-      "Un mur, à fresque"
+      "A linen canvas",
+      "A panel of poplar wood",
+      "A plaster wall"
      ],
      "answer": 1,
-     "explanation": "Un panneau de peuplier de 77 cm sur 53."
+     "explanation": "A poplar panel of 77 by 53 centimeters."
     },
     {
-     "question": "Que se passe-t-il au fond, quand la distance augmente ?",
+     "question": "What happens to things in the distance?",
      "options": [
-      "Les couleurs deviennent plus vives",
-      "Tout devient plus bleu, pâle et flou",
-      "Les contours se durcissent"
+      "They get more vivid",
+      "They get bluer, paler and hazier",
+      "Their outlines get sharper"
      ],
      "answer": 1,
-     "explanation": "C'est la perspective atmosphérique."
+     "explanation": "That is atmospheric perspective."
     },
     {
-     "question": "Pourquoi le tableau est-il en France ?",
+     "question": "Why is the painting in France?",
      "options": [
-      "Napoléon l'a pris en Italie",
-      "Léonard l'a apporté et il est resté dans les collections royales",
-      "Le Louvre l'a acheté en 1911"
+      "Napoleon took it from Italy",
+      "Leonardo brought it and it entered the royal collection",
+      "The Louvre bought it in 1911"
      ],
      "answer": 1,
-     "explanation": "Léonard l'emporte à Amboise, invité par François Ier."
+     "explanation": "Leonardo came to France at the invitation of King Francis I."
     },
     {
-     "question": "Quel événement l'a rendue mondialement célèbre ?",
+     "question": "What made the Mona Lisa world-famous?",
      "options": [
-      "Son vol au Louvre en 1911",
-      "Une exposition à New York",
-      "Sa restauration"
+      "Its theft from the Louvre in 1911",
+      "An exhibition in New York",
+      "Its restoration"
      ],
      "answer": 0,
-     "explanation": "Volée par Vincenzo Peruggia, retrouvée en 1913."
+     "explanation": "Stolen by Vincenzo Peruggia, found in 1913."
     }
    ],
    "facts": [
     {
-     "text": "La Joconde est peinte sur une toile.",
+     "text": "The Mona Lisa is painted on canvas.",
      "isTrue": false,
-     "explanation": "Elle est peinte sur un panneau de peuplier."
+     "explanation": "It is painted on a panel of poplar wood."
     },
     {
-     "text": "La Joconde a été volée au Louvre en 1911.",
+     "text": "The Mona Lisa was stolen from the Louvre in 1911.",
      "isTrue": true,
-     "explanation": "Elle a été retrouvée deux ans plus tard."
+     "explanation": "It was found two years later."
+    },
+    {
+     "text": "The Mona Lisa has thick, dark eyebrows.",
+     "isTrue": false,
+     "explanation": "She has no eyebrows or eyelashes at all."
     }
    ],
    "hd": "hd_joconde"

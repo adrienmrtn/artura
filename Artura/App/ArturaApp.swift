@@ -36,7 +36,7 @@ struct RootView: View {
             }
         }
         .task {
-            // Le temps que l'animation du logo se joue, puis l'appli apparaît en fondu.
+            // Wait for the logo animation to play, then the app fades in.
             if OnboardingDebug.flag("holdSplash") { return }
             try? await Task.sleep(nanoseconds: 2_400_000_000)
             withAnimation(.easeInOut(duration: 0.45)) { splash = false }
@@ -54,7 +54,7 @@ struct RootView: View {
                     .transition(.opacity)
             }
         }
-        // Sur iPad, l'interface garde une largeur de téléphone, centrée.
+        // On iPad, the interface keeps a phone width, centered.
         .frame(maxWidth: 520)
         .frame(maxWidth: .infinity)
         .background(Palette.bg.ignoresSafeArea())
@@ -62,7 +62,7 @@ struct RootView: View {
     }
 }
 
-// MARK: - Écran de lancement animé
+// MARK: - Animated launch screen
 
 struct SplashView: View {
     @State private var logoIn = false
@@ -77,7 +77,7 @@ struct SplashView: View {
             Palette.bg.ignoresSafeArea()
             VStack(spacing: 22) {
                 ZStack {
-                    // Halo qui s'élargit une fois derrière le logo.
+                    // Halo that expands once behind the logo.
                     RoundedRectangle(cornerRadius: 34)
                         .stroke(Palette.yellow.opacity(0.7), lineWidth: 3)
                         .frame(width: 128, height: 128)

@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Palette : retrouver, parmi trois palettes, celle du tableau affiché.
+/// Palette: pick, out of three palettes, the one from the painting shown.
 struct PaletteGame: View {
     @EnvironmentObject private var content: ContentStore
     let onFinish: (Int, Int) -> Void
@@ -17,13 +17,13 @@ struct PaletteGame: View {
         VStack(alignment: .leading, spacing: 14) {
             if let current {
                 HStack {
-                    TagPill(text: "Manche \(index + 1) sur \(rounds.count)")
+                    TagPill(text: "Round \(index + 1) of \(rounds.count)")
                     Spacer()
-                    Text("\(score) point\(score > 1 ? "s" : "")")
+                    Text("\(score) point\(score == 1 ? "" : "s")")
                         .font(.figtree(14, .semibold)).foregroundStyle(Palette.muted)
                         .contentTransition(.numericText())
                 }
-                Text("Quelle palette est celle de ce tableau ?").font(.aTitleSmall).foregroundStyle(Palette.ink)
+                Text("Which palette matches this painting?").font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
 
                 ArtImage(name: current.image)
@@ -43,7 +43,7 @@ struct PaletteGame: View {
                 Spacer(minLength: 0)
 
                 if selected != nil {
-                    Button(index >= rounds.count - 1 ? "Voir mon score" : "Suivant") { advance() }
+                    Button(index >= rounds.count - 1 ? "See my score" : "Next") { advance() }
                         .buttonStyle(.primary)
                         .transition(.opacity.combined(with: .offset(y: 16)))
                 }
@@ -81,7 +81,7 @@ struct PaletteGame: View {
         }
         .buttonStyle(.pressable)
         .disabled(answered)
-        .accessibilityLabel(answered && isAnswer ? "Bonne palette" : "Palette")
+        .accessibilityLabel(answered && isAnswer ? "Correct palette" : "Palette")
     }
 
     private func start() {

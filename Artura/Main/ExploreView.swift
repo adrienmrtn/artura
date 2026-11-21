@@ -5,10 +5,10 @@ struct ExploreView: View {
     @EnvironmentObject private var content: ContentStore
 
     enum Filter: String, CaseIterable {
-        case movements = "Courants"
-        case artists = "Artistes"
-        case periods = "Époques"
-        case museums = "Musées"
+        case movements = "Movements"
+        case artists = "Artists"
+        case periods = "Periods"
+        case museums = "Museums"
     }
 
     @State private var filter: Filter = .movements
@@ -31,10 +31,10 @@ struct ExploreView: View {
             VStack(alignment: .leading, spacing: 14) {
                 SkyHeader {
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("Explorer").font(.figtree(28, .semibold)).foregroundStyle(.white)
+                        Text("Explore").font(.figtree(28, .semibold)).foregroundStyle(.white)
                         HStack(spacing: 10) {
                             Image(systemName: "magnifyingglass").foregroundStyle(Palette.ink)
-                            TextField("Œuvre, artiste, courant…", text: $query)
+                            TextField("Artwork, artist, movement…", text: $query)
                                 .font(.figtree(15))
                                 .foregroundStyle(Palette.ink)
                                 .autocorrectionDisabled()
@@ -46,7 +46,7 @@ struct ExploreView: View {
                                 } label: {
                                     Image(systemName: "xmark.circle.fill").foregroundStyle(Palette.muted)
                                 }
-                                .accessibilityLabel("Effacer la recherche")
+                                .accessibilityLabel("Clear search")
                             }
                         }
                         .padding(.horizontal, 16)
@@ -110,7 +110,7 @@ struct ExploreView: View {
     @ViewBuilder
     private var results: some View {
         if searchResults.isEmpty {
-            Text("Aucune œuvre ne correspond à « \(query) ».")
+            Text("No artwork matches “\(query)”.")
                 .font(.aBody).foregroundStyle(Palette.muted).padding(.top, 24)
         } else {
             ForEach(searchResults) { art in
@@ -131,7 +131,7 @@ struct ExploreView: View {
                 HStack(spacing: 0) {
                     ArtImage(name: cover.image).frame(width: 112, height: 124)
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Tu en es là · \(done) sur \(all.count)").font(.figtree(12, .semibold))
+                        Text("You're here · \(done) of \(all.count)").font(.figtree(12, .semibold))
                         Text(current.name).font(.aCardTitle)
                         Text(current.summary).font(.aCaption).multilineTextAlignment(.leading)
                         Spacer(minLength: 0)
@@ -149,7 +149,7 @@ struct ExploreView: View {
             .appearUp(0.05)
         }
 
-        Text("Les grands courants").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
+        Text("The major movements").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
 
         ForEach(Array(content.movements.enumerated()), id: \.element.id) { i, item in
             Button {
@@ -202,7 +202,7 @@ struct ExploreView: View {
     }
 }
 
-/// Fiche d'un courant : explication puis œuvres à étudier.
+/// Movement detail: an explanation, then the artworks to study.
 struct MovementDetailView: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var content: ContentStore
@@ -224,7 +224,7 @@ struct MovementDetailView: View {
                         .font(.figtree(17)).lineSpacing(5).foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                Text("Les œuvres").font(.aHeading).foregroundStyle(Palette.ink)
+                Text("The artworks").font(.aHeading).foregroundStyle(Palette.ink)
                 ForEach(content.artworks(in: movement.id)) { art in
                     ArtworkRow(artwork: art, done: user.profile.completedLessons.contains(art.id)) {
                         course = art

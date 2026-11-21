@@ -231,10 +231,6 @@ struct ArtsScreen: View {
 struct ChoiceOption {
     let title: String
     var subtitle: String? = nil
-    /// Valeur enregistrée, si elle diffère du texte affiché.
-    var value: String? = nil
-
-    var stored: String { value ?? title }
 }
 
 struct ChoiceScreen: View {
@@ -248,8 +244,8 @@ struct ChoiceScreen: View {
         OnbScaffold(title: title, subtitle: subtitle, spoken: true, ctaEnabled: selection != nil, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
-                    ChoiceRow(title: option.title, subtitle: option.subtitle, selected: selection == option.stored) {
-                        selection = option.stored
+                    ChoiceRow(title: option.title, subtitle: option.subtitle, selected: selection == option.title) {
+                        selection = option.title
                     }
                     .enter(Double(i) + 2)
                 }
@@ -282,14 +278,14 @@ struct KnowledgeScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    // Le niveau enregistré reste en français : il est affiché tel quel sur le profil de l'appli.
+    // Le titre de l'option est aussi le niveau enregistré (affiché ensuite sur le profil).
     var body: some View {
         ChoiceScreen(title: "How well do you know art history?",
                      subtitle: "So I know where to start.",
                      options: [
-                        ChoiceOption(title: "Beginner", subtitle: "Starting from scratch, and that's perfectly fine.", value: "Débutant"),
-                        ChoiceOption(title: "Enthusiast", subtitle: "I know a few artists and movements.", value: "Amateur"),
-                        ChoiceOption(title: "Connoisseur", subtitle: "I can tell a Monet from a Manet.", value: "Connaisseur")
+                        ChoiceOption(title: "Beginner", subtitle: "Starting from scratch, and that's perfectly fine."),
+                        ChoiceOption(title: "Enthusiast", subtitle: "I know a few artists and movements."),
+                        ChoiceOption(title: "Connoisseur", subtitle: "I can tell a Monet from a Manet.")
                      ],
                      selection: $user.profile.level, onNext: onNext)
     }

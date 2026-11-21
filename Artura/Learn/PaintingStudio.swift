@@ -1,27 +1,25 @@
 import SwiftUI
 import UIKit
 
-/// Le tableau en plein écran, sur fond noir : visite guidée, « trouve-le », lignes de composition,
-/// palette et zoom libre. La caméra se déplace dans la toile ; les repères sont dessinés
-/// dans le repère du tableau (0…1), donc ils suivent le zoom.
+/// The painting full screen on a black background: guided tour, "find it", composition lines,
+/// palette and free zoom. The camera moves across the canvas; markers are drawn
+/// in the painting's coordinate space (0…1), so they follow the zoom.
 struct PaintingStudio: View {
     let artwork: Artwork
     let block: LessonBlock
     let onDone: () -> Void
 
-    @Environment(\.lessonLanguage) private var language
-
-    // Caméra : point du tableau placé au centre, et grossissement.
+    // Camera: the point of the painting placed at the center, and the magnification.
     @State private var center = CGPoint(x: 0.5, y: 0.5)
     @State private var zoom: CGFloat = 1
-    // Avancement dans le bloc (0 = vue d'ensemble).
+    // Progress within the block (0 = overview).
     @State private var step = 0
     @State private var locked = true
     @State private var closing = false
-    // « Trouve-le »
+    // "Find it"
     @State private var guess: CGPoint?
     @State private var found: Bool?
-    // Palette et zoom libre
+    // Palette and free zoom
     @State private var selected: Int?
     @State private var swatchesShown = 0
     @State private var baseZoom: CGFloat = 1
@@ -60,7 +58,7 @@ struct PaintingStudio: View {
         .onAppear(perform: start)
     }
 
-    // MARK: Barre du haut
+    // MARK: Top bar
 
     private var topBar: some View {
         HStack(spacing: 10) {
@@ -75,10 +73,10 @@ struct PaintingStudio: View {
                     .background(Circle().fill(Color.white.opacity(0.14)))
             }
             .buttonStyle(.pressable)
-            .accessibilityLabel(language.pick("Fermer et reprendre le cours", "Close and go back to the lesson"))
+            .accessibilityLabel("Close and return to the lesson")
             HStack(spacing: 6) {
                 Image(systemName: block.interactiveIcon).font(.system(size: 13, weight: .semibold))
-                Text(language.title(of: block)).font(.figtree(14, .semibold))
+                Text(block.interactiveTitle).font(.figtree(14, .semibold))
             }
             .foregroundStyle(.white)
             .padding(.horizontal, 12)
@@ -101,7 +99,7 @@ struct PaintingStudio: View {
         .padding(.bottom, 10)
     }
 
-    // MARK: Tableau
+    // MARK: Painting
 
     private func fitted(in container: CGSize) -> CGSize {
         guard container.width > 0, container.height > 0 else { return .zero }
@@ -111,7 +109,7 @@ struct PaintingStudio: View {
         return CGSize(width: container.width, height: container.width / imageAspect)
     }
 
-    /// Empêche la caméra de sortir du tableau.
+    /// Keeps the camera from leaving the painting.
     private func clamped(_ point: CGPoint, zoom: CGFloat, container: CGSize) -> CGPoint {
         let size = fitted(in: container)
         guard size.width > 0, size.height > 0 else { return point }
@@ -167,7 +165,7 @@ struct PaintingStudio: View {
         .simultaneousGesture(drag.simultaneously(with: pinch))
     }
 
-    /// Repères dessinés dans le repère du tableau.
+    /// Markers drawn in the painting's coordinate space.
     @ViewBuilder
     private func overlay(size: CGSize) -> some View {
         switch block.type {
@@ -222,14 +220,14 @@ struct PaintingStudio: View {
                     .contentShape(Circle())
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(spot.title ?? language.pick("Détail", "Detail"))
+                .accessibilityLabel(spot.title ?? "Detail")
                 .scaleEffect(1 / zoom)
                 .position(x: spot.x * size.width, y: spot.y * size.height)
             }
         }
     }
 
-    // MARK: Panneau du bas
+    // MARK: Bottom panel
 
     private var caption: (title: String?, text: String) {
         switch block.type {
@@ -237,34 +235,34 @@ struct PaintingStudio: View {
             if step >= 1, spots.indices.contains(step - 1) {
                 return (spots[step - 1].title, spots[step - 1].text ?? "")
             }
-            return (nil, block.text ?? language.pick("Regarde d'abord le tableau en entier.", "First, take in the whole painting."))
+            return (nil, block.text ?? "First, take in the whole painting.")
         case "find":
             if let found, let target = spots.first {
-                return (found ? language.pick("Trouvé !", "Found it!") : language.pick("Presque : c'était ici.", "Close: it was here."), target.text ?? "")
+                return (found ? "Found it!" : "Close. It was here.", target.text ?? "")
             }
-            return (language.pick("À toi", "Your turn"), block.text ?? "")
+            return ("Your turn", block.text ?? "")
         case "lines":
             if step >= 1, lines.indices.contains(step - 1) {
                 return (lines[step - 1].label, lines[step - 1].text)
             }
-            return (nil, block.text ?? language.pick("Comment ce tableau est-il construit ?", "How is this painting built?"))
+            return (nil, block.text ?? "How is this painting built?")
         case "palette":
             if let selected, swatches.indices.contains(selected) {
                 return (swatches[selected].name, swatches[selected].text)
             }
-            return (nil, block.text ?? language.pick("Touche une couleur pour voir où elle se cache.", "Tap a color to see where it hides."))
+            return (nil, block.text ?? "Tap a color to see where it hides.")
         default:
             if let selected, spots.indices.contains(selected) {
                 return (spots[selected].title, spots[selected].text ?? "")
             }
-            return (nil, block.text ?? language.pick("Pince pour zoomer, glisse pour te déplacer. Touche une pastille pour un détail.", "Pinch to zoom, drag to move around. Tap a dot for a detail."))
+            return (nil, block.text ?? "Pinch to zoom, drag to move around. Tap a dot for a detail.")
         }
     }
 
     private var hint: String {
-        if block.type == "find", found == nil { return language.pick("Touche le tableau", "Tap the painting") }
+        if block.type == "find", found == nil { return "Tap the painting" }
         let last = (block.type == "find" && found != nil) || (stepCount > 0 && step >= stepCount)
-        return last ? language.pick("Touche pour reprendre le cours", "Tap to go back to the lesson") : language.pick("Touche pour continuer", "Tap to continue")
+        return last ? "Tap to return to the lesson" : "Tap to continue"
     }
 
     private var panel: some View {
@@ -309,7 +307,7 @@ struct PaintingStudio: View {
             .transition(.opacity)
             Spacer(minLength: 0)
             if usesButton {
-                Button(language.pick("Reprendre le cours", "Back to the lesson")) { finish() }
+                Button("Back to the lesson") { finish() }
                     .buttonStyle(.primary)
             } else {
                 Text(hint)
@@ -331,7 +329,7 @@ struct PaintingStudio: View {
         }
     }
 
-    // MARK: Déroulé
+    // MARK: Flow
 
     private func start() {
         withAnimation(.easeInOut(duration: 1.3).repeatForever(autoreverses: true)) { pulse = true }
@@ -381,7 +379,7 @@ struct PaintingStudio: View {
         }
     }
 
-    /// « Trouve-le » : on compare le toucher à la cible, puis la caméra y va dans tous les cas.
+    /// "Find it": compare the tap to the target, then the camera moves there either way.
     private func evaluate(_ location: CGPoint, container: CGSize) {
         guard !locked, let target = spots.first else { return }
         let size = fitted(in: container)
@@ -440,7 +438,7 @@ struct PaintingStudio: View {
         move(to: CGPoint(x: spot.x, y: spot.y), zoom: CGFloat(spot.zoom ?? 2.5), duration: 0.7)
     }
 
-    /// On dézoome, puis on rend la main au cours.
+    /// Zoom out, then hand control back to the lesson.
     private func finish() {
         guard !closing else { return }
         closing = true
@@ -457,9 +455,9 @@ struct PaintingStudio: View {
     }
 }
 
-// MARK: - Repère autour d'un détail
+// MARK: - Marker around a detail
 
-/// Assombrit le tableau autour du détail, puis trace le cercle, le cadre ou la flèche.
+/// Dims the painting around the detail, then draws the circle, frame or arrow.
 private struct SpotMark: View {
     let spot: Spot
     let size: CGSize
@@ -520,7 +518,7 @@ private struct SpotMark: View {
     }
 }
 
-/// Un grand rectangle percé d'un trou : sert à assombrir tout sauf le détail.
+/// A large rectangle with a hole in it: used to dim everything but the detail.
 private struct HoleShape: Shape {
     let hole: CGRect
     let rounded: Bool
@@ -537,7 +535,7 @@ private struct HoleShape: Shape {
     }
 }
 
-// MARK: - Tracé de composition
+// MARK: - Composition line
 
 private struct DrawnLine: View {
     let line: GuideLine

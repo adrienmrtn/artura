@@ -842,7 +842,7 @@ struct ExitOfferSheet: View {
                 VStack(alignment: .leading, spacing: 1) {
                     Text("Full access")
                         .font(.figtree(15, .bold)).foregroundStyle(Palette.ink)
-                    Text("Lessons, games and paths")
+                    Text("Lessons, games and movements")
                         .font(.figtree(13)).foregroundStyle(Palette.muted)
                 }
                 Spacer(minLength: 8)
@@ -880,7 +880,7 @@ private struct Line: Shape {
     }
 }
 
-// MARK: - Paywall du profil (choix annuel ou mensuel)
+// MARK: - Profile paywall (yearly or monthly choice)
 
 struct PaywallScreen: View {
     @EnvironmentObject private var pro: ProStore
@@ -888,10 +888,10 @@ struct PaywallScreen: View {
     @State private var yearlySelected = true
 
     private let benefits = [
-        "Tous les jeux, sans limite quotidienne",
-        "Tous les parcours et leurs leçons",
-        "Les histoires en version audio",
-        "Aucune publicité"
+        "All games, no daily limit",
+        "All paths and their lessons",
+        "Stories in audio",
+        "No ads"
     ]
 
     private var selectedProduct: Product? { yearlySelected ? pro.yearly : pro.monthly }
@@ -911,13 +911,13 @@ struct PaywallScreen: View {
                         .background(Circle().fill(.white))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Fermer et continuer gratuitement")
+                .accessibilityLabel("Close and continue for free")
                 .padding(.trailing, 16)
                 .padding(.top, 8)
             }
 
             VStack(spacing: 14) {
-                Text("Démarre tes 3 jours d'Artura Pro")
+                Text("Start your 3 days of Artura Pro")
                     .font(.aTitleSmall).foregroundStyle(Palette.ink).multilineTextAlignment(.center)
 
                 VStack(alignment: .leading, spacing: 9) {
@@ -932,10 +932,10 @@ struct PaywallScreen: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal, 6)
 
-                planRow(title: "Annuel", price: pro.yearly.map { "\($0.displayPrice) / an" }, badge: "3 jours gratuits", selected: yearlySelected) {
+                planRow(title: "Yearly", price: pro.yearly.map { "\($0.displayPrice) per year" }, badge: "3 days free", selected: yearlySelected) {
                     yearlySelected = true
                 }
-                planRow(title: "Mensuel", price: pro.monthly.map { "\($0.displayPrice) / mois" }, badge: nil, selected: !yearlySelected) {
+                planRow(title: "Monthly", price: pro.monthly.map { "\($0.displayPrice) per month" }, badge: nil, selected: !yearlySelected) {
                     yearlySelected = false
                 }
                 if let error = pro.lastError {
@@ -954,15 +954,15 @@ struct PaywallScreen: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("Commencer l'essai gratuit")
+                        Text("Start free trial")
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(selectedProduct == nil || pro.isPurchasing)
                 .opacity(selectedProduct == nil ? 0.4 : 1)
 
-                TextLinkButton(title: "Plus tard", action: onClose)
-                Button("Restaurer mes achats") {
+                TextLinkButton(title: "Not now", action: onClose)
+                Button("Restore purchases") {
                     Task {
                         await pro.restore()
                         if pro.isPro {
@@ -996,7 +996,7 @@ struct PaywallScreen: View {
                     Text(title).font(.bodyStrong).foregroundStyle(Palette.ink)
                 }
                 Spacer(minLength: 8)
-                Text(price ?? "Prix indisponible").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                Text(price ?? "Price unavailable").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 if selected { CheckBadge().transition(.scale) }
             }
             .padding(.horizontal, 18)

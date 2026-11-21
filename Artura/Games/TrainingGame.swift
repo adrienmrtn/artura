@@ -1,7 +1,7 @@
 import SwiftUI
 
-/// S'entraîner : les questions du jour (30 au total), qui mélangent les quatre types de jeux.
-/// Chaque réponse est comptée tout de suite : on peut quitter et reprendre plus tard.
+/// Practice: today's questions (30 in total), mixing the four game types.
+/// Each answer is counted right away, so you can leave and resume later.
 struct TrainingGame: View {
     @EnvironmentObject private var content: ContentStore
     @EnvironmentObject private var user: UserStore
@@ -29,7 +29,7 @@ struct TrainingGame: View {
     }
 
     @State private var rounds: [Round] = []
-    /// Questions déjà répondues aujourd'hui avant cette session.
+    /// Questions already answered today before this session.
     @State private var offset = 0
     @State private var index = 0
     @State private var picked: String?
@@ -42,9 +42,9 @@ struct TrainingGame: View {
         VStack(alignment: .leading, spacing: 14) {
             if let round {
                 HStack {
-                    TagPill(text: "\(round.kind) · \(offset + index + 1) sur \(offset + rounds.count)")
+                    TagPill(text: "\(round.kind) · \(offset + index + 1) of \(offset + rounds.count)")
                     Spacer()
-                    Text("\(score) point\(score > 1 ? "s" : "")")
+                    Text("\(score) point\(score == 1 ? "" : "s")")
                         .font(.figtree(14, .semibold)).foregroundStyle(Palette.muted)
                 }
                 Text(round.prompt).font(.aTitleSmall).foregroundStyle(Palette.ink)
@@ -81,7 +81,7 @@ struct TrainingGame: View {
                 Spacer(minLength: 0)
 
                 if picked != nil {
-                    Button(isLast ? "Terminer l'entraînement" : "Suivant") { advance() }
+                    Button(isLast ? "Finish practice" : "Next") { advance() }
                         .buttonStyle(.primary)
                         .transition(.opacity)
                 }
@@ -167,7 +167,7 @@ struct TrainingGame: View {
         }
     }
 
-    // MARK: Construction des questions
+    // MARK: Building the questions
 
     private func buildRounds(count: Int) -> [Round] {
         let arts = content.artworks
@@ -177,12 +177,12 @@ struct TrainingGame: View {
         var result: [Round] = []
         var previous: String?
 
-        // On tire un type au hasard à chaque question, jusqu'à avoir le compte.
+        // Pick a random type for each question until we have enough.
         var attempts = 0
         while result.count < count && attempts < count * 6 {
             attempts += 1
             let kind = base.randomElement() ?? "zoom"
-            // Jamais deux fois la même œuvre de suite.
+            // Never the same artwork twice in a row.
             guard let art = arts.filter({ $0.id != previous }).randomElement() else { continue }
             previous = art.id
             let others = arts.filter { $0.id != art.id }.shuffled()
@@ -190,7 +190,7 @@ struct TrainingGame: View {
             case "zoom":
                 let options = (Array(others.prefix(3)) + [art]).shuffled()
                 result.append(Round(
-                    kind: "Zoom mystère", prompt: "De quelle œuvre vient ce détail ?",
+                    kind: "Mystery Zoom", prompt: "Which artwork is this detail from?",
                     image: art.image, zoom: 4, anchor: art.focusPoint,
                     choices: options.map { Choice(id: $0.id, title: $0.title, subtitle: $0.artist) },
                     correct: art.id, explanation: "\(art.title), \(art.artist)."
@@ -198,18 +198,18 @@ struct TrainingGame: View {
             case "palette":
                 let options = (Array(others.prefix(2)) + [art]).shuffled()
                 result.append(Round(
-                    kind: "Palette", prompt: "Quelle palette est celle de ce tableau ?",
+                    kind: "Palette", prompt: "Which palette matches this painting?",
                     image: art.image,
                     choices: options.map { Choice(id: $0.id, title: $0.title, colors: $0.paletteColors) },
-                    correct: art.id, explanation: "Ce sont les couleurs dominantes de « \(art.title) »."
+                    correct: art.id, explanation: "These are the dominant colors of “\(art.title)”."
                 ))
             case "fact":
                 if facts.isEmpty { facts = content.allFacts.shuffled() }
                 guard let item = facts.popLast() else { continue }
                 result.append(Round(
-                    kind: "Vrai ou faux", prompt: "Vrai ou faux ?",
+                    kind: "True or False", prompt: "True or false?",
                     image: item.artwork.image, statement: item.fact.text,
-                    choices: [Choice(id: "vrai", title: "Vrai"), Choice(id: "faux", title: "Faux")],
+                    choices: [Choice(id: "vrai", title: "True"), Choice(id: "faux", title: "False")],
                     correct: item.fact.isTrue ? "vrai" : "faux", explanation: item.fact.explanation
                 ))
             default:
@@ -217,10 +217,10 @@ struct TrainingGame: View {
                 let pair = [art, other].shuffled()
                 let older = art.year < other.year ? art : other
                 result.append(Round(
-                    kind: "Chronologie", prompt: "Laquelle est la plus ancienne ?",
+                    kind: "Timeline", prompt: "Which one is older?",
                     choices: pair.map { Choice(id: $0.id, title: $0.title, subtitle: $0.artist, thumb: $0.image) },
                     correct: older.id,
-                    explanation: "\(pair[0].title) : \(pair[0].yearLabel). \(pair[1].title) : \(pair[1].yearLabel)."
+                    explanation: "\(pair[0].title): \(pair[0].yearLabel). \(pair[1].title): \(pair[1].yearLabel)."
                 ))
             }
         }

@@ -86,9 +86,8 @@ struct OnboardingFlow: View {
         .padding(.top, 8)
     }
 
-    /// Le tableau de la visite guidée : sa version anglaise, sinon celle du contenu de l'appli.
     private var course: Artwork? {
-        OnboardingContent.artwork ?? content.artwork("nuit") ?? content.artworks.first
+        content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
     }
 
     /// Offre d'essai présentée à la fin (nil tant que le produit n'est pas chargé).
@@ -188,7 +187,6 @@ struct OnboardingFlow: View {
                     user.markPlayedToday()
                     next()
                 }
-                .environment(\.lessonLanguage, .english)
             }
         case .afterLesson: AfterLessonScreen(onNext: next)
         case .phoneTime: PhoneTimeScreen(onNext: next)

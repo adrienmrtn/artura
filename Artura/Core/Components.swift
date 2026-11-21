@@ -1,8 +1,8 @@
 import SwiftUI
 
-// MARK: - Boutons
+// MARK: - Buttons
 
-/// Bouton pilule avec liseré bas : il s'enfonce au toucher, avec un retour haptique.
+/// Pill button with a bottom lip: it presses down on touch, with haptic feedback.
 struct PillButtonStyle: ButtonStyle {
     var fill: Color = Palette.blue
     var lip: Color = Palette.blueDark
@@ -35,7 +35,7 @@ extension ButtonStyle where Self == PillButtonStyle {
     }
 }
 
-/// Style générique : légère réduction au toucher + haptique.
+/// Generic style: slight shrink on touch + haptic.
 struct PressableStyle: ButtonStyle {
     var scale: CGFloat = 0.97
     func makeBody(configuration: Configuration) -> some View {
@@ -67,7 +67,7 @@ struct TextLinkButton: View {
     }
 }
 
-// MARK: - Petits éléments
+// MARK: - Small elements
 
 struct TagPill: View {
     let text: String
@@ -115,7 +115,7 @@ struct StreakChip: View {
     var body: some View {
         HStack(spacing: 6) {
             Image(systemName: "flame.fill").foregroundStyle(Palette.orange)
-            Text(days <= 1 ? "\(days) jour" : "\(days) jours")
+            Text(days == 1 ? "\(days) day" : "\(days) days")
                 .font(.figtree(14, .semibold))
                 .foregroundStyle(Palette.ink)
         }
@@ -125,9 +125,9 @@ struct StreakChip: View {
     }
 }
 
-// MARK: - Cartes sélectionnables
+// MARK: - Selectable cards
 
-/// Ligne de réponse sélectionnable (questions de l'onboarding).
+/// Selectable answer row (onboarding questions).
 struct OptionRow: View {
     let title: String
     var subtitle: String? = nil
@@ -165,7 +165,7 @@ struct OptionRow: View {
 
 // MARK: - Images
 
-/// Image d'œuvre ou d'illustration, remplie et rognée, avec zoom optionnel sur un point.
+/// Artwork or illustration image, filled and cropped, with optional zoom on a point.
 struct ArtImage: View {
     let name: String
     var zoom: CGFloat = 1
@@ -184,7 +184,7 @@ struct ArtImage: View {
     }
 }
 
-// MARK: - En-tête ciel (écrans de l'appli)
+// MARK: - Sky header (app screens)
 
 struct SkyHeader<Content: View>: View {
     var height: CGFloat = 196
@@ -210,7 +210,7 @@ struct SkyHeader<Content: View>: View {
     }
 }
 
-// MARK: - Apparition en cascade
+// MARK: - Staggered appearance
 
 struct AppearUp: ViewModifier {
     let delay: Double
@@ -226,13 +226,13 @@ struct AppearUp: ViewModifier {
 }
 
 extension View {
-    /// Fait apparaître la vue par le bas, avec un délai (pour les cascades).
+    /// Fades the view in from below, with a delay (for staggered reveals).
     func appearUp(_ delay: Double = 0) -> some View {
         modifier(AppearUp(delay: delay))
     }
 }
 
-// MARK: - Confettis
+// MARK: - Confetti
 
 struct ConfettiView: View {
     @State private var fall = false

@@ -42,25 +42,6 @@ enum SocialProof {
     ]
 }
 
-// MARK: - Contenu propre à l'onboarding
-
-enum OnboardingContent {
-    /// La Nuit étoilée en anglais, réduite à l'extrait lu pendant l'onboarding.
-    static let artwork: Artwork? = {
-        guard let url = Bundle.main.url(forResource: "onboarding_en", withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return nil }
-        return try? JSONDecoder().decode(Artwork.self, from: data)
-    }()
-}
-
-/// Heure sur douze heures, à l'anglaise : 510 minutes → "8:30 AM".
-func formatClock(_ minutes: Int) -> String {
-    let hour = minutes / 60
-    let minute = minutes % 60
-    let hour12 = (hour + 11) % 12 + 1
-    return "\(hour12):\(minute < 10 ? "0" : "")\(minute) \(hour < 12 ? "AM" : "PM")"
-}
-
 // MARK: - Le personnage : la Joconde
 
 /// La Joconde de l'icône, qui guide l'onboarding. Elle flotte doucement.

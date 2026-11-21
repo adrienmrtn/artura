@@ -103,13 +103,13 @@ struct ReminderScreen: View {
         OnbScaffold(title: "What time would you like to do your daily learning?",
                     subtitle: "Just one notification a day, promise.",
                     spoken: true,
-                    cta: "Remind me at \(formatClock(minutes))",
+                    cta: "Remind me at \(formatMinutes(minutes))",
                     onNext: activate, secondaryTitle: "Later", onSecondary: skip) {
             SunScene(minutes: raw)
                 .frame(height: 168)
                 .enter(2)
             VStack(spacing: 2) {
-                Text(formatClock(minutes))
+                Text(formatMinutes(minutes))
                     .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .monospacedDigit()
@@ -123,7 +123,7 @@ struct ReminderScreen: View {
                 Slider(value: $raw, in: 360...1380)
                     .tint(Palette.blue)
                     .accessibilityLabel("Reminder time")
-                    .accessibilityValue(formatClock(minutes))
+                    .accessibilityValue(formatMinutes(minutes))
                 HStack {
                     Text("6 AM"); Spacer(); Text("noon"); Spacer(); Text("6 PM"); Spacer(); Text("11 PM")
                 }
@@ -187,9 +187,7 @@ struct WidgetScreen: View {
     @State private var home = OnboardingDebug.flag("onbWidgetHome")
     @State private var popped = false
 
-    private var artwork: Artwork? {
-        OnboardingContent.artwork ?? content.artwork("nuit") ?? content.artworks.first
-    }
+    private var artwork: Artwork? { content.artwork("nuit") ?? content.artworks.first }
 
     private var today: String {
         Date().formatted(.dateTime.weekday(.wide).day().month(.wide).locale(Locale(identifier: "en_US")))
@@ -271,7 +269,7 @@ struct WidgetScreen: View {
                             .clipShape(RoundedRectangle(cornerRadius: 9))
                     }
                     VStack(alignment: .leading, spacing: 1) {
-                        Text("Today's masterpiece")
+                        Text("Artwork of the day")
                             .font(.system(size: 10, weight: .semibold))
                             .foregroundStyle(.white.opacity(0.75))
                         Text(artwork?.title ?? "")
@@ -317,7 +315,7 @@ struct WidgetScreen: View {
                     }
                     LinearGradient(colors: [.clear, .black.opacity(0.65)], startPoint: .center, endPoint: .bottom)
                     VStack(alignment: .leading, spacing: 1) {
-                        Text("Today's masterpiece")
+                        Text("Artwork of the day")
                             .font(.system(size: 10, weight: .semibold))
                             .foregroundStyle(.white.opacity(0.8))
                         Text(artwork?.title ?? "")
@@ -537,9 +535,9 @@ struct PlanScreen: View {
     let onNext: () -> Void
     @State private var picking = false
 
-    /// Le premier tableau du programme : celui de la visite guidée, dans la langue de l'onboarding.
+    /// Le premier tableau du programme : celui de la visite guidée.
     private var firstArtwork: Artwork? {
-        OnboardingContent.artwork ?? content.artwork(user.profile.firstCourse) ?? content.artworks.first
+        content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
     }
 
     private var title: String {
@@ -584,7 +582,7 @@ struct PlanScreen: View {
                 divider
                 recap("clock.fill", "Every day", "\(user.profile.minutes) min")
                 divider
-                recap("bell.fill", "Reminder", user.profile.reminderOn ? formatClock(user.profile.reminderMinutes) : "Off")
+                recap("bell.fill", "Reminder", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Off")
                 divider
                 avatarRow
             }
@@ -768,7 +766,6 @@ struct SocialProofScreen: View {
 struct AccountScreen: View {
     @EnvironmentObject private var user: UserStore
     @Environment(\.webAuthenticationSession) private var webAuthenticationSession
-    @Environment(\.authorizationController) private var authorizationController
     let onBack: () -> Void
     let onNext: () -> Void
 
@@ -832,21 +829,24 @@ struct AccountScreen: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
-                // Bouton dessiné par l'appli (aux normes d'Apple) : le bouton du système écrirait
-                // son libellé en français, la langue déclarée de l'appli.
-                Button(action: signInWithApple) {
-                    HStack(spacing: 8) {
-                        Image(systemName: "apple.logo")
-                            .font(.system(size: 20, weight: .medium))
-                        Text("Continue with Apple")
-                            .font(.system(size: 20, weight: .medium))
+                SignInWithAppleButton(.continue) { request in
+                    request.requestedScopes = [.fullName]
+                } onCompletion: { result in
+                    switch result {
+                    case .success(let authorization):
+                        if let credential = authorization.credential as? ASAuthorizationAppleIDCredential {
+                            user.profile.appleUserId = credential.user
+                            if let name = credential.fullName?.givenName { user.profile.firstName = name }
+                        }
+                        Haptics.success()
+                        onNext()
+                    case .failure:
+                        Haptics.warning()
                     }
-                    .foregroundStyle(.white)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 56)
-                    .background(Capsule().fill(.black))
                 }
-                .buttonStyle(.pressable)
+                .signInWithAppleButtonStyle(.black)
+                .frame(height: 56)
+                .clipShape(Capsule())
 
                 if showsGoogle {
                     Button(action: signInWithGoogle) {
@@ -901,26 +901,6 @@ struct AccountScreen: View {
                 .multilineTextAlignment(.center)
         }
         .frame(maxWidth: .infinity)
-    }
-
-    private func signInWithApple() {
-        message = nil
-        let request = ASAuthorizationAppleIDProvider().createRequest()
-        request.requestedScopes = [.fullName]
-        Task {
-            do {
-                let result = try await authorizationController.performRequests([request])
-                if case .appleID(let credential) = result {
-                    user.profile.appleUserId = credential.user
-                    if let name = credential.fullName?.givenName { user.profile.firstName = name }
-                    Haptics.success()
-                    onNext()
-                }
-            } catch {
-                // Fenêtre fermée ou connexion refusée : on reste sur l'écran.
-                Haptics.warning()
-            }
-        }
     }
 
     private func signInWithGoogle() {
