@@ -3,7 +3,7 @@
 Application iOS (SwiftUI, iOS 17+) : un chef-d'œuvre par jour, son histoire en quelques minutes, et des mini-jeux pour s'en souvenir.
 
 - **Bundle ID** : `com.vikstudios.artura`
-- **Langue** : français
+- **Langue** : onboarding en anglais, reste de l'appli (cours, jeux, profil, notifications) en français
 - **Dépendances** : aucune (SwiftUI, StoreKit 2, AuthenticationServices, UserNotifications)
 
 ## Ouvrir le projet
@@ -31,7 +31,7 @@ Si le projet ne s'ouvre pas, `project.yml` permet de le régénérer avec [Xcode
 
 ## Onboarding
 
-L'ordre des écrans est l'énumération `OnbStep` dans `Artura/Onboarding/OnboardingFlow.swift`. Les briques communes (personnage de la Joconde, bulle, texte qui s'écrit, mur de tableaux) sont dans `OnboardingKit.swift`.
+L'ordre des écrans est l'énumération `OnbStep` dans `Artura/Onboarding/OnboardingFlow.swift`. L'onboarding est rédigé en anglais ; l'extrait de cours qu'il affiche vient de `Artura/Resources/onboarding_en.json`, et les boutons du cours passent en anglais grâce à `LessonLanguage` (`Artura/Learn/LessonLanguage.swift`). Les briques communes (personnage de la Joconde, bulle, texte qui s'écrit, mur de tableaux) sont dans `OnboardingKit.swift`.
 
 Pour ouvrir directement un écran en build Debug, ajouter des arguments de lancement au schéma (*Product › Scheme › Edit Scheme › Run › Arguments*) :
 

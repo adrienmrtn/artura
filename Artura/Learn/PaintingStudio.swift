@@ -9,6 +9,8 @@ struct PaintingStudio: View {
     let block: LessonBlock
     let onDone: () -> Void
 
+    @Environment(\.lessonLanguage) private var language
+
     // Caméra : point du tableau placé au centre, et grossissement.
     @State private var center = CGPoint(x: 0.5, y: 0.5)
     @State private var zoom: CGFloat = 1
@@ -73,10 +75,10 @@ struct PaintingStudio: View {
                     .background(Circle().fill(Color.white.opacity(0.14)))
             }
             .buttonStyle(.pressable)
-            .accessibilityLabel("Fermer et reprendre le cours")
+            .accessibilityLabel(language.pick("Fermer et reprendre le cours", "Close and go back to the lesson"))
             HStack(spacing: 6) {
                 Image(systemName: block.interactiveIcon).font(.system(size: 13, weight: .semibold))
-                Text(block.interactiveTitle).font(.figtree(14, .semibold))
+                Text(language.title(of: block)).font(.figtree(14, .semibold))
             }
             .foregroundStyle(.white)
             .padding(.horizontal, 12)
@@ -220,7 +222,7 @@ struct PaintingStudio: View {
                     .contentShape(Circle())
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(spot.title ?? "Détail")
+                .accessibilityLabel(spot.title ?? language.pick("Détail", "Detail"))
                 .scaleEffect(1 / zoom)
                 .position(x: spot.x * size.width, y: spot.y * size.height)
             }
@@ -235,34 +237,34 @@ struct PaintingStudio: View {
             if step >= 1, spots.indices.contains(step - 1) {
                 return (spots[step - 1].title, spots[step - 1].text ?? "")
             }
-            return (nil, block.text ?? "Regarde d'abord le tableau en entier.")
+            return (nil, block.text ?? language.pick("Regarde d'abord le tableau en entier.", "First, take in the whole painting."))
         case "find":
             if let found, let target = spots.first {
-                return (found ? "Trouvé !" : "Presque : c'était ici.", target.text ?? "")
+                return (found ? language.pick("Trouvé !", "Found it!") : language.pick("Presque : c'était ici.", "Close: it was here."), target.text ?? "")
             }
-            return ("À toi", block.text ?? "")
+            return (language.pick("À toi", "Your turn"), block.text ?? "")
         case "lines":
             if step >= 1, lines.indices.contains(step - 1) {
                 return (lines[step - 1].label, lines[step - 1].text)
             }
-            return (nil, block.text ?? "Comment ce tableau est-il construit ?")
+            return (nil, block.text ?? language.pick("Comment ce tableau est-il construit ?", "How is this painting built?"))
         case "palette":
             if let selected, swatches.indices.contains(selected) {
                 return (swatches[selected].name, swatches[selected].text)
             }
-            return (nil, block.text ?? "Touche une couleur pour voir où elle se cache.")
+            return (nil, block.text ?? language.pick("Touche une couleur pour voir où elle se cache.", "Tap a color to see where it hides."))
         default:
             if let selected, spots.indices.contains(selected) {
                 return (spots[selected].title, spots[selected].text ?? "")
             }
-            return (nil, block.text ?? "Pince pour zoomer, glisse pour te déplacer. Touche une pastille pour un détail.")
+            return (nil, block.text ?? language.pick("Pince pour zoomer, glisse pour te déplacer. Touche une pastille pour un détail.", "Pinch to zoom, drag to move around. Tap a dot for a detail."))
         }
     }
 
     private var hint: String {
-        if block.type == "find", found == nil { return "Touche le tableau" }
+        if block.type == "find", found == nil { return language.pick("Touche le tableau", "Tap the painting") }
         let last = (block.type == "find" && found != nil) || (stepCount > 0 && step >= stepCount)
-        return last ? "Touche pour reprendre le cours" : "Touche pour continuer"
+        return last ? language.pick("Touche pour reprendre le cours", "Tap to go back to the lesson") : language.pick("Touche pour continuer", "Tap to continue")
     }
 
     private var panel: some View {
@@ -307,7 +309,7 @@ struct PaintingStudio: View {
             .transition(.opacity)
             Spacer(minLength: 0)
             if usesButton {
-                Button("Reprendre le cours") { finish() }
+                Button(language.pick("Reprendre le cours", "Back to the lesson")) { finish() }
                     .buttonStyle(.primary)
             } else {
                 Text(hint)

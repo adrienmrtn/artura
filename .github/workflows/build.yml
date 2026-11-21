@@ -38,6 +38,13 @@ jobs:
           xcodebuild -project Artura.xcodeproj -scheme Artura -configuration Debug \
             -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
             -derivedDataPath build CODE_SIGNING_ALLOWED=NO build 2>&1 | tee build.log | tail -n 30
+      - name: Compilation Release (configuration de TestFlight)
+        if: matrix.xcode == '16.4'
+        run: |
+          set -o pipefail
+          xcodebuild -project Artura.xcodeproj -scheme Artura -configuration Release \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build-release CODE_SIGNING_ALLOWED=NO build 2>&1 | tee -a build.log | tail -n 15
       - name: Erreurs et avertissements
         if: always()
         run: |

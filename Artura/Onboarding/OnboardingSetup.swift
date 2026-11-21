@@ -83,12 +83,12 @@ struct HillShape: Shape {
 }
 
 func momentLabel(_ minutes: Int) -> String {
-    if minutes < 540 { return "Au petit-déjeuner" }
-    if minutes < 720 { return "Dans la matinée" }
-    if minutes < 840 { return "À la pause déjeuner" }
-    if minutes < 1080 { return "Dans l'après-midi" }
-    if minutes < 1230 { return "En rentrant" }
-    return "Avant de dormir"
+    if minutes < 540 { return "At breakfast" }
+    if minutes < 720 { return "In the morning" }
+    if minutes < 840 { return "At lunch break" }
+    if minutes < 1080 { return "In the afternoon" }
+    if minutes < 1230 { return "In the evening" }
+    return "Before bed"
 }
 
 struct ReminderScreen: View {
@@ -100,16 +100,16 @@ struct ReminderScreen: View {
     private var minutes: Int { Int((raw / 15).rounded()) * 15 }
 
     var body: some View {
-        OnbScaffold(title: "À quelle heure veux-tu faire ton apprentissage du jour ?",
-                    subtitle: "Une seule notification par jour, promis.",
+        OnbScaffold(title: "What time would you like to do your daily learning?",
+                    subtitle: "Just one notification a day, promise.",
                     spoken: true,
-                    cta: "Activer le rappel à \(formatMinutes(minutes))",
-                    onNext: activate, secondaryTitle: "Plus tard", onSecondary: skip) {
+                    cta: "Remind me at \(formatClock(minutes))",
+                    onNext: activate, secondaryTitle: "Later", onSecondary: skip) {
             SunScene(minutes: raw)
                 .frame(height: 168)
                 .enter(2)
             VStack(spacing: 2) {
-                Text(formatMinutes(minutes))
+                Text(formatClock(minutes))
                     .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .monospacedDigit()
@@ -122,10 +122,10 @@ struct ReminderScreen: View {
             VStack(spacing: 2) {
                 Slider(value: $raw, in: 360...1380)
                     .tint(Palette.blue)
-                    .accessibilityLabel("Heure du rappel")
-                    .accessibilityValue(formatMinutes(minutes))
+                    .accessibilityLabel("Reminder time")
+                    .accessibilityValue(formatClock(minutes))
                 HStack {
-                    Text("6 h"); Spacer(); Text("midi"); Spacer(); Text("18 h"); Spacer(); Text("23 h")
+                    Text("6 AM"); Spacer(); Text("noon"); Spacer(); Text("6 PM"); Spacer(); Text("11 PM")
                 }
                 .font(.aCaption)
                 .foregroundStyle(Palette.muted)
@@ -190,17 +190,17 @@ struct WidgetScreen: View {
     private var artwork: Artwork? { content.artwork("nuit") ?? content.artworks.first }
 
     private var today: String {
-        Date().formatted(.dateTime.weekday(.wide).day().month(.wide).locale(Locale(identifier: "fr_FR")))
+        Date().formatted(.dateTime.weekday(.wide).day().month(.wide).locale(Locale(identifier: "en_US")))
     }
 
     var body: some View {
         VStack(spacing: 0) {
             VStack(spacing: 8) {
-                Text("Ton œuvre du jour, sans même ouvrir l'app.")
+                Text("Your daily masterpiece, without even opening the app.")
                     .font(.aTitle)
                     .foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text("Sur l'écran verrouillé, et sur l'écran d'accueil.")
+                Text("On your Lock Screen, and on your Home Screen.")
                     .font(.figtree(17))
                     .foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
@@ -224,7 +224,7 @@ struct WidgetScreen: View {
 
             Spacer(minLength: 16)
 
-            Button(home ? "Continuer" : "Et sur l'écran d'accueil ?") {
+            Button(home ? "Continue" : "And on the Home Screen?") {
                 if home {
                     onNext()
                 } else {
@@ -269,7 +269,7 @@ struct WidgetScreen: View {
                             .clipShape(RoundedRectangle(cornerRadius: 9))
                     }
                     VStack(alignment: .leading, spacing: 1) {
-                        Text("Œuvre du jour")
+                        Text("Today's masterpiece")
                             .font(.system(size: 10, weight: .semibold))
                             .foregroundStyle(.white.opacity(0.75))
                         Text(artwork?.title ?? "")
@@ -315,7 +315,7 @@ struct WidgetScreen: View {
                     }
                     LinearGradient(colors: [.clear, .black.opacity(0.65)], startPoint: .center, endPoint: .bottom)
                     VStack(alignment: .leading, spacing: 1) {
-                        Text("Œuvre du jour")
+                        Text("Today's masterpiece")
                             .font(.system(size: 10, weight: .semibold))
                             .foregroundStyle(.white.opacity(0.8))
                         Text(artwork?.title ?? "")
@@ -364,10 +364,10 @@ struct LoadingScreen: View {
     @State private var shown = 0
 
     private let rows = [
-        "Analyse de tes réponses",
-        "Réglage de ton niveau de départ",
-        "Choix de ton premier parcours",
-        "Programmation de ton rappel"
+        "Analyzing your answers",
+        "Setting your starting level",
+        "Choosing your first lesson",
+        "Scheduling your reminder"
     ]
     private let stepDuration = 0.95
 
@@ -375,9 +375,9 @@ struct LoadingScreen: View {
 
     private var title: String {
         if let name = user.profile.firstName, !name.isEmpty {
-            return "\(name), on prépare ton programme"
+            return "\(name), we're building your program"
         }
-        return "On prépare ton programme"
+        return "Building your program"
     }
 
     var body: some View {
@@ -417,7 +417,7 @@ struct LoadingScreen: View {
                         .font(.figtree(26, .semibold))
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
-                    Text("D'après tes réponses, rien que pour toi.")
+                    Text("Based on your answers, just for you.")
                         .font(.aBody)
                         .foregroundStyle(Palette.muted)
                 }
@@ -459,11 +459,11 @@ struct LoadingScreen: View {
                 Spacer(minLength: 16)
 
                 if isDone {
-                    Button("Voir mon programme") { onNext() }
+                    Button("See my program") { onNext() }
                         .buttonStyle(.primary)
                         .transition(.opacity.combined(with: .offset(y: 16)))
                 } else {
-                    Text("Encore un instant…")
+                    Text("Just a moment…")
                         .font(.aSmall)
                         .foregroundStyle(Palette.muted)
                         .frame(height: 59)
@@ -535,37 +535,38 @@ struct PlanScreen: View {
     let onNext: () -> Void
     @State private var picking = false
 
-    private var movement: Movement? {
-        content.movement(content.artwork(user.profile.firstCourse)?.movementId) ?? content.movements.first
+    /// Le premier tableau du programme : celui de la visite guidée, dans la langue de l'onboarding.
+    private var firstArtwork: Artwork? {
+        OnboardingContent.artwork ?? content.artwork(user.profile.firstCourse) ?? content.artworks.first
     }
 
     private var title: String {
         if let name = user.profile.firstName, !name.isEmpty {
-            return "\(name), voici ton programme."
+            return "\(name), here's your program."
         }
-        return "Voici ton programme."
+        return "Here's your program."
     }
 
     var body: some View {
         OnbScaffold(title: title,
-                    subtitle: "Dans 30 jours, voilà où tu en seras.",
-                    spoken: true, cta: "Ça me va", onNext: onNext) {
+                    subtitle: "Here's where you'll be in 30 days.",
+                    spoken: true, cta: "Sounds good", onNext: onNext) {
             HStack(spacing: 10) {
-                projection("\(min(30, content.artworks.count))", "œuvres")
-                projection(hoursIn30Days, "de regard")
-                projection("30", "jours de série")
+                projection("\(min(30, content.artworks.count))", "artworks")
+                projection(hoursIn30Days, "of art")
+                projection("30", "day streak")
             }
             .enter(2)
 
-            if let movement, let cover = content.artwork(movement.cover) {
+            if let first = firstArtwork {
                 HStack(spacing: 14) {
-                    ArtImage(name: cover.image)
+                    ArtImage(name: first.image)
                         .frame(width: 84, height: 84)
                         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                     VStack(alignment: .leading, spacing: 4) {
-                        TagPill(text: "Ton premier parcours")
-                        Text(movement.name).font(.aCardTitle).foregroundStyle(Palette.ink)
-                        Text(movement.summary).font(.aCaption).foregroundStyle(Palette.muted)
+                        TagPill(text: "Your first masterpiece")
+                        Text(first.title).font(.aCardTitle).foregroundStyle(Palette.ink)
+                        Text(first.meta).font(.aCaption).foregroundStyle(Palette.muted)
                             .fixedSize(horizontal: false, vertical: true)
                     }
                     Spacer(minLength: 0)
@@ -577,11 +578,11 @@ struct PlanScreen: View {
             }
 
             VStack(spacing: 0) {
-                recap("target", "Objectif", goalLabel)
+                recap("target", "Goal", goalLabel)
                 divider
-                recap("clock.fill", "Chaque jour", "\(user.profile.minutes) min")
+                recap("clock.fill", "Every day", "\(user.profile.minutes) min")
                 divider
-                recap("bell.fill", "Rappel", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Désactivé")
+                recap("bell.fill", "Reminder", user.profile.reminderOn ? formatClock(user.profile.reminderMinutes) : "Off")
                 divider
                 avatarRow
             }
@@ -599,14 +600,14 @@ struct PlanScreen: View {
     /// La première motivation choisie, avec le nombre des autres.
     private var goalLabel: String {
         let goals = user.profile.goals ?? []
-        guard let first = goals.first ?? user.profile.goal else { return "À définir" }
+        guard let first = goals.first ?? user.profile.goal else { return "Not set" }
         return goals.count > 1 ? "\(first) (+\(goals.count - 1))" : first
     }
 
     /// Temps de regard cumulé sur 30 jours, d'après le rythme choisi.
     private var hoursIn30Days: String {
         let minutes = user.profile.minutes * 30
-        return minutes % 60 == 0 ? "\(minutes / 60) h" : "\(minutes / 60) h \(minutes % 60)"
+        return minutes % 60 == 0 ? "\(minutes / 60)h" : "\(minutes / 60)h \(minutes % 60)"
     }
 
     private func projection(_ value: String, _ label: String) -> some View {
@@ -643,9 +644,9 @@ struct PlanScreen: View {
                 ArtImage(name: avatarImages[min(user.profile.avatar, avatarImages.count - 1)])
                     .frame(width: 32, height: 32)
                     .clipShape(Circle())
-                Text("Ton avatar").font(.aSmall).foregroundStyle(Palette.muted)
+                Text("Your avatar").font(.aSmall).foregroundStyle(Palette.muted)
                 Spacer(minLength: 8)
-                Button(picking ? "Fermer" : "Modifier") {
+                Button(picking ? "Close" : "Change") {
                     Haptics.tap()
                     withAnimation(.gentle) { picking.toggle() }
                 }
@@ -669,13 +670,12 @@ struct PlanScreen: View {
 // MARK: Preuve sociale : apprenants et avis
 
 struct SocialProofScreen: View {
-    @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
     @State private var stars = 0
 
     var body: some View {
-        OnbScaffold(title: "Tu n'es pas \(user.agree("le seul", "la seule")) à t'y mettre",
-                    cta: "Je les rejoins", onNext: onNext) {
+        OnbScaffold(title: "You're in good company",
+                    cta: "Join them", onNext: onNext) {
             // Le chiffre, entre deux lauriers
             VStack(spacing: 10) {
                 HStack(spacing: 12) {
@@ -688,7 +688,7 @@ struct SocialProofScreen: View {
                             .foregroundStyle(Palette.ink)
                             .lineLimit(1)
                             .minimumScaleFactor(0.7)
-                        Text("apprenants")
+                        Text("learners")
                             .font(.figtree(17, .semibold))
                             .foregroundStyle(Palette.muted)
                     }
@@ -709,7 +709,7 @@ struct SocialProofScreen: View {
                                 .opacity(i < stars ? 1 : 0)
                         }
                     }
-                    Text("sur l'App Store")
+                    Text("on the App Store")
                         .font(.figtree(15))
                         .foregroundStyle(Palette.muted)
                 }
@@ -719,7 +719,7 @@ struct SocialProofScreen: View {
             .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.sandLight))
             .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.sand, lineWidth: 1))
             .accessibilityElement(children: .ignore)
-            .accessibilityLabel("Plus de \(SocialProof.learners) apprenants, note de \(SocialProof.rating) sur 5 sur l'App Store")
+            .accessibilityLabel("More than \(SocialProof.learners) learners, rated \(SocialProof.rating) out of 5 on the App Store")
             .enter(2)
 
             VStack(spacing: 10) {
@@ -736,7 +736,7 @@ struct SocialProofScreen: View {
                                         .foregroundStyle(Palette.yellow)
                                 }
                             }
-                            Text("« \(review) »")
+                            Text("“\(review)”")
                                 .font(.figtree(15, .medium))
                                 .foregroundStyle(Palette.ink)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -786,7 +786,7 @@ struct AccountScreen: View {
                 }
                 .buttonStyle(.pressable)
                 .padding(.leading, -12)
-                .accessibilityLabel("Retour")
+                .accessibilityLabel("Back")
                 Spacer()
             }
             .frame(height: 44)
@@ -796,11 +796,11 @@ struct AccountScreen: View {
 
             MascotBubble(mascotSize: 132) {
                 VStack(spacing: 6) {
-                    Text("Garde ta série et ta collection.")
+                    Text("Keep your streak and your collection.")
                         .font(.figtree(24, .semibold))
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
-                    Text("Un compte pour ne rien perdre si tu changes de téléphone.")
+                    Text("An account so you don't lose anything if you change phones.")
                         .font(.figtree(15))
                         .foregroundStyle(Palette.muted)
                         .fixedSize(horizontal: false, vertical: true)
@@ -810,9 +810,9 @@ struct AccountScreen: View {
 
             // Ce que le compte conserve
             HStack(spacing: 8) {
-                keep("flame.fill", "Ta série")
-                keep("heart.fill", "Tes favoris")
-                keep("map.fill", "Ton programme")
+                keep("flame.fill", "Your streak")
+                keep("heart.fill", "Your favorites")
+                keep("map.fill", "Your program")
             }
             .padding(.top, 14)
             .enter(2)
@@ -858,7 +858,7 @@ struct AccountScreen: View {
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 20, height: 20)
-                                Text("Continuer avec Google")
+                                Text("Continue with Google")
                                     .font(.system(size: 20, weight: .medium))
                                     .foregroundStyle(Palette.ink)
                             }
@@ -872,9 +872,9 @@ struct AccountScreen: View {
                     .disabled(googleBusy)
                 }
 
-                TextLinkButton(title: "Continuer sans compte", action: onNext)
+                TextLinkButton(title: "Continue without an account", action: onNext)
 
-                Text("En continuant, tu acceptes les conditions d'utilisation et la politique de confidentialité.")
+                Text("By continuing, you agree to the Terms of Use and the Privacy Policy.")
                     .font(.figtree(12))
                     .foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
@@ -907,7 +907,7 @@ struct AccountScreen: View {
         message = nil
         guard GoogleAuth.isConfigured else {
             Haptics.warning()
-            message = "La connexion Google n'est pas encore configurée (identifiant client manquant dans GoogleAuth.swift)."
+            message = "Google sign-in isn't set up yet (client ID missing in GoogleAuth.swift)."
             return
         }
         googleBusy = true
@@ -926,7 +926,7 @@ struct AccountScreen: View {
             } catch {
                 googleBusy = false
                 Haptics.warning()
-                message = "La connexion Google a échoué. Réessaie dans un instant."
+                message = "Google sign-in failed. Please try again in a moment."
             }
         }
     }

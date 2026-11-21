@@ -32,14 +32,33 @@ extension View {
 /// Chiffres affichés dans l'onboarding.
 /// À remplacer par les vrais (utilisateurs, note de la fiche App Store) avant la mise en ligne.
 enum SocialProof {
-    static let learners = "100 000"
-    static let rating = "4,8"
+    static let learners = "100,000"
+    static let rating = "4.8"
     /// Avis d'exemple : à remplacer par de vrais avis de la fiche App Store.
     static let reviews = [
-        "Cinq minutes le matin, et je regarde enfin les tableaux autrement.",
-        "Avec les petits jeux, je retiens vraiment les noms et les dates.",
-        "Je n'y connaissais rien. Maintenant j'attends la notification."
+        "Five minutes in the morning, and I finally see paintings differently.",
+        "The mini-games really help me remember names and dates.",
+        "I knew nothing about art. Now I look forward to the notification."
     ]
+}
+
+// MARK: - Contenu propre à l'onboarding
+
+enum OnboardingContent {
+    /// La Nuit étoilée en anglais, réduite à l'extrait lu pendant l'onboarding.
+    static let artwork: Artwork? = {
+        guard let url = Bundle.main.url(forResource: "onboarding_en", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return nil }
+        return try? JSONDecoder().decode(Artwork.self, from: data)
+    }()
+}
+
+/// Heure sur douze heures, à l'anglaise : 510 minutes → "8:30 AM".
+func formatClock(_ minutes: Int) -> String {
+    let hour = minutes / 60
+    let minute = minutes % 60
+    let hour12 = (hour + 11) % 12 + 1
+    return "\(hour12):\(minute < 10 ? "0" : "")\(minute) \(hour < 12 ? "AM" : "PM")"
 }
 
 // MARK: - Le personnage : la Joconde
@@ -111,7 +130,7 @@ struct MascotBubble<Content: View>: View {
 struct MascotTalkScreen<Extra: View>: View {
     let lines: [String]
     /// Libellé du bouton sur la dernière réplique.
-    var cta: String = "Continuer"
+    var cta: String = "Continue"
     var mascotSize: CGFloat = 156
     let onNext: () -> Void
     /// Contenu affiché sous la bulle, sur la dernière réplique.
@@ -159,7 +178,7 @@ struct MascotTalkScreen<Extra: View>: View {
             Spacer(minLength: 16)
             Spacer(minLength: 0)
 
-            Button(isLast ? cta : "Continuer") { advance() }
+            Button(isLast ? cta : "Continue") { advance() }
                 .buttonStyle(.primary)
         }
         .padding(.horizontal, 24)
@@ -232,7 +251,7 @@ struct MascotTalkScreen<Extra: View>: View {
 }
 
 extension MascotTalkScreen where Extra == EmptyView {
-    init(lines: [String], cta: String = "Continuer", mascotSize: CGFloat = 156, onNext: @escaping () -> Void) {
+    init(lines: [String], cta: String = "Continue", mascotSize: CGFloat = 156, onNext: @escaping () -> Void) {
         self.init(lines: lines, cta: cta, mascotSize: mascotSize, onNext: onNext) { EmptyView() }
     }
 }

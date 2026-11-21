@@ -78,7 +78,7 @@ struct OnboardingFlow: View {
             }
             .buttonStyle(.pressable)
             .padding(.leading, -12)
-            .accessibilityLabel("Retour")
+            .accessibilityLabel("Back")
             ProgressTrack(value: step.progress)
         }
         .frame(height: 44)
@@ -86,8 +86,9 @@ struct OnboardingFlow: View {
         .padding(.top, 8)
     }
 
+    /// Le tableau de la visite guidée : sa version anglaise, sinon celle du contenu de l'appli.
     private var course: Artwork? {
-        content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
+        OnboardingContent.artwork ?? content.artwork("nuit") ?? content.artworks.first
     }
 
     /// Offre d'essai présentée à la fin (nil tant que le produit n'est pas chargé).
@@ -179,14 +180,15 @@ struct OnboardingFlow: View {
         case .lesson:
             if let course {
                 // Un extrait du cours : le début et une seule interaction sur le tableau.
-                LessonView(artwork: course, pill: "Ta première visite guidée",
-                           blocks: course.previewLesson, finishTitle: "Terminer la visite",
+                LessonView(artwork: course, pill: "Your first guided tour",
+                           blocks: course.previewLesson, finishTitle: "Finish the tour",
                            onSkip: next, onBack: back) {
                     user.profile.firstCourse = course.id
                     user.markOpened(course.id)
                     user.markPlayedToday()
                     next()
                 }
+                .environment(\.lessonLanguage, .english)
             }
         case .afterLesson: AfterLessonScreen(onNext: next)
         case .phoneTime: PhoneTimeScreen(onNext: next)
@@ -315,7 +317,7 @@ struct OnbScaffold<Content: View>: View {
     /// Si vrai, c'est la Joconde qui pose la question, dans une bulle.
     var spoken: Bool = false
     var mascotSize: CGFloat = 92
-    var cta: String = "Continuer"
+    var cta: String = "Continue"
     var ctaEnabled: Bool = true
     let onNext: () -> Void
     var secondaryTitle: String? = nil
@@ -396,7 +398,7 @@ struct StoryScaffold: View {
     var tag: String? = nil
     let title: String
     var subtitle: String? = nil
-    var cta: String = "Continuer"
+    var cta: String = "Continue"
     let onNext: () -> Void
 
     @State private var drift = false
@@ -451,7 +453,7 @@ struct StoryScaffold: View {
 struct HeroScaffold<Content: View>: View {
     let image: String
     var imageHeight: CGFloat = 410
-    var cta: String = "Continuer"
+    var cta: String = "Continue"
     let onNext: () -> Void
     var secondaryTitle: String? = nil
     var onSecondary: (() -> Void)? = nil

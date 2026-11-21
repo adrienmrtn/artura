@@ -11,13 +11,13 @@ struct FlashCard: Identifiable {
     var image: String { "art_\(id)" }
 
     static let all: [FlashCard] = [
-        FlashCard(id: "joconde", title: "La Joconde", artist: "Léonard de Vinci"),
-        FlashCard(id: "nuit", title: "La Nuit étoilée", artist: "Vincent van Gogh"),
-        FlashCard(id: "glaneuses", title: "Des glaneuses", artist: "Jean-François Millet"),
-        FlashCard(id: "menines", title: "Les Ménines", artist: "Diego Velázquez"),
-        FlashCard(id: "grandejatte", title: "Un dimanche après-midi à l'Île de la Grande Jatte", artist: "Georges Seurat"),
-        FlashCard(id: "raboteurs", title: "Les Raboteurs de parquet", artist: "Gustave Caillebotte", hard: true),
-        FlashCard(id: "moine", title: "Le Moine au bord de la mer", artist: "Caspar David Friedrich", hard: true)
+        FlashCard(id: "joconde", title: "Mona Lisa", artist: "Leonardo da Vinci"),
+        FlashCard(id: "nuit", title: "The Starry Night", artist: "Vincent van Gogh"),
+        FlashCard(id: "glaneuses", title: "The Gleaners", artist: "Jean-François Millet"),
+        FlashCard(id: "menines", title: "Las Meninas", artist: "Diego Velázquez"),
+        FlashCard(id: "grandejatte", title: "A Sunday Afternoon on the Island of La Grande Jatte", artist: "Georges Seurat"),
+        FlashCard(id: "raboteurs", title: "The Floor Scrapers", artist: "Gustave Caillebotte", hard: true),
+        FlashCard(id: "moine", title: "The Monk by the Sea", artist: "Caspar David Friedrich", hard: true)
     ]
 }
 
@@ -37,11 +37,11 @@ struct FlashTestScreen: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             VStack(alignment: .leading, spacing: 8) {
-                TagPill(text: "Tableau \(min(index + 1, cards.count)) sur \(cards.count)")
-                Text("De combien de ces tableaux connais-tu le nom ?")
+                TagPill(text: "Painting \(min(index + 1, cards.count)) of \(cards.count)")
+                Text("How many of these paintings can you name?")
                     .font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text("Sois honnête. Glisse la carte, ou réponds avec les boutons.")
+                Text("Be honest. Swipe the card, or use the buttons.")
                     .font(.aBody).foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -71,8 +71,8 @@ struct FlashTestScreen: View {
             .enter(2)
 
             HStack(spacing: 12) {
-                Button("Je ne sais pas") { answer(false) }.buttonStyle(.secondary)
-                Button("Je connais") { answer(true) }.buttonStyle(.primary)
+                Button("I don't know") { answer(false) }.buttonStyle(.secondary)
+                Button("I know it") { answer(true) }.buttonStyle(.primary)
             }
         }
         .padding(.horizontal, 24)
@@ -87,13 +87,13 @@ struct FlashTestScreen: View {
             .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(.white, lineWidth: 5))
             .shadow(color: Palette.blueDark.opacity(0.16), radius: 12, y: 6)
             .overlay(alignment: .bottomLeading) {
-                if item.hard { TagPill(text: "Niveau expert").padding(16) }
+                if item.hard { TagPill(text: "Expert level").padding(16) }
             }
             .overlay(alignment: .topLeading) {
-                if top { stamp("Je connais", Palette.green).opacity(stampOpacity(true)).padding(16) }
+                if top { stamp("I know it", Palette.green).opacity(stampOpacity(true)).padding(16) }
             }
             .overlay(alignment: .topTrailing) {
-                if top { stamp("Je ne sais pas", Palette.ink).opacity(stampOpacity(false)).padding(16) }
+                if top { stamp("I don't know", Palette.ink).opacity(stampOpacity(false)).padding(16) }
             }
             .gesture(
                 DragGesture()
@@ -177,14 +177,14 @@ struct FlashResultScreen: View {
     }
 
     private var headline: String {
-        if score == 0 { return firstName.map { "Merci pour ta franchise, \($0)." } ?? "Merci pour ta franchise." }
-        return firstName.map { "Bravo, \($0) !" } ?? "Bravo !"
+        if score == 0 { return firstName.map { "Thanks for being honest, \($0)." } ?? "Thanks for being honest." }
+        return firstName.map { "Well done, \($0)!" } ?? "Well done!"
     }
 
     private var verdict: String {
-        if score == total { return "Tu les connais tous, même les plus difficiles. Mais sais-tu ce qu'ils racontent ?" }
-        if score == 0 { return "Aucun pour l'instant. C'est exactement pour ça qu'on est là." }
-        return "Les autres t'échappent encore. Plus pour longtemps."
+        if score == total { return "You know them all, even the hardest ones. But do you know the stories they tell?" }
+        if score == 0 { return "None yet. That's exactly why we're here." }
+        return "The others still escape you. Not for long."
     }
 
     var body: some View {
@@ -225,9 +225,9 @@ struct FlashResultScreen: View {
                             .font(.figtree(72, .bold))
                             .foregroundStyle(Palette.blue)
                             .contentTransition(.numericText())
-                        Text("sur \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                        Text("of \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
                     }
-                    Text(score > 1 ? "tableaux nommés" : "tableau nommé")
+                    Text(score == 1 ? "painting named" : "paintings named")
                         .font(.figtree(15, .semibold)).foregroundStyle(Palette.muted)
                     Text(verdict)
                         .font(.aBody).foregroundStyle(Palette.ink)
@@ -277,8 +277,8 @@ struct PhoneResultScreen: View {
 
     private var monthsLine: String {
         let months = target / 30.4
-        if months < 1.25 { return "Plus d'un mois entier, sans interruption." }
-        return "Près de \(Int(months.rounded())) mois entiers, sans interruption."
+        if months < 1.25 { return "More than a full month, non-stop." }
+        return "Nearly \(Int(months.rounded())) full months, non-stop."
     }
 
     var body: some View {
@@ -286,7 +286,7 @@ struct PhoneResultScreen: View {
             Spacer(minLength: 4)
 
             VStack(spacing: 4) {
-                Text("\(formatHours(hours)) par jour, sur une année, ça fait")
+                Text("\(formatHours(hours)) a day, over a year, adds up to")
                     .font(.figtree(18, .medium))
                     .foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
@@ -296,12 +296,12 @@ struct PhoneResultScreen: View {
                     CountingText(value: days)
                         .font(.figtree(104, .bold))
                         .foregroundStyle(Palette.ink)
-                    Text("jours")
+                    Text("days")
                         .font(.figtree(32, .semibold))
                         .foregroundStyle(Palette.ink)
                 }
                 .accessibilityElement(children: .ignore)
-                .accessibilityLabel("\(Int(target)) jours")
+                .accessibilityLabel("\(Int(target)) days")
             }
             .opacity(stage >= 1 ? 1 : 0)
             .offset(y: stage >= 1 ? 0 : 14)
@@ -323,11 +323,11 @@ struct PhoneResultScreen: View {
             // Le retournement : la Joconde propose autre chose.
             MascotBubble(mascotSize: 84) {
                 VStack(spacing: 6) {
-                    Text("Avec moi, ce temps peut devenir de la connaissance.")
+                    Text("With me, that time can turn into knowledge.")
                         .font(.figtree(21, .semibold))
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
-                    Text("Cinq minutes par jour suffisent. Plutôt que de scroller, nourris ton esprit des plus grandes œuvres de l'humanité.")
+                    Text("Five minutes a day is enough. Instead of doomscrolling, feed your mind with humanity's greatest works.")
                         .font(.figtree(15))
                         .foregroundStyle(Palette.muted)
                         .fixedSize(horizontal: false, vertical: true)
@@ -338,7 +338,7 @@ struct PhoneResultScreen: View {
 
             Spacer(minLength: 16)
 
-            Button("Continuer") { onNext() }
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
         }
         .padding(.horizontal, 24)
@@ -428,7 +428,7 @@ struct ProjectionScreen: View {
                 FloatingSpace(shown: shown)
 
                 VStack(spacing: 2) {
-                    Text("Avec Artura, dans un an, tu connaîtras près de")
+                    Text("With Artura, in one year, you'll know nearly")
                         .font(.figtree(20, .semibold))
                         .foregroundStyle(Palette.ink)
                         .multilineTextAlignment(.center)
@@ -437,10 +437,10 @@ struct ProjectionScreen: View {
                     CountingText(value: value)
                         .font(.figtree(112, .bold))
                         .foregroundStyle(Palette.blue)
-                    Text("tableaux et artistes")
+                    Text("paintings and artists")
                         .font(.figtree(28, .semibold))
                         .foregroundStyle(Palette.ink)
-                    Text("Et pas seulement leur nom : leur histoire, en détail.")
+                    Text("And not just their names: their stories, in detail.")
                         .font(.figtree(16))
                         .foregroundStyle(Palette.muted)
                         .multilineTextAlignment(.center)
@@ -458,11 +458,11 @@ struct ProjectionScreen: View {
                         .padding(-60)
                 )
                 .accessibilityElement(children: .ignore)
-                .accessibilityLabel("Avec Artura, dans un an, tu connaîtras près de 400 tableaux et artistes, et pas seulement leur nom : leur histoire, en détail.")
+                .accessibilityLabel("With Artura, in one year, you'll know nearly 400 paintings and artists. And not just their names: their stories, in detail.")
             }
             .frame(maxHeight: .infinity)
 
-            Button("Continuer") { onNext() }
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
                 .padding(.horizontal, 24)
         }
@@ -569,22 +569,22 @@ struct GrowthChart: View {
             .frame(height: 122)
 
             HStack {
-                Text("Aujourd'hui").font(.aSmall).foregroundStyle(Palette.muted)
+                Text("Today").font(.aSmall).foregroundStyle(Palette.muted)
                 Spacer()
-                Text("Dans 1 an").font(.figtree(14, .semibold)).foregroundStyle(Palette.ink)
+                Text("In 1 year").font(.figtree(14, .semibold)).foregroundStyle(Palette.ink)
             }
             .padding(.horizontal, inset)
 
             HStack(spacing: 18) {
-                legend("Avec Artura", color: Palette.blue, dashed: false)
-                legend("Sans routine", color: Palette.yellow, dashed: true)
+                legend("With Artura", color: Palette.blue, dashed: false)
+                legend("No routine", color: Palette.yellow, dashed: true)
             }
         }
         .padding(16)
         .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
         .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Courbe : avec Artura, tes connaissances montent nettement en un an ; sans routine, elles restent presque au même niveau.")
+        .accessibilityLabel("Chart: with Artura, your knowledge climbs steadily over a year; with no routine, it stays almost flat.")
         .onAppear {
             withAnimation(.easeInOut(duration: 1.5).delay(0.6)) { drawn = true }
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.1) {
@@ -616,15 +616,15 @@ struct GrowthChart: View {
 struct GraphScreen: View {
     let onNext: () -> Void
 
-    private let gains = ["ton regard", "ta culture générale", "tes sujets de conversation"]
+    private let gains = ["your eye for art", "your general knowledge", "your conversation topics"]
 
     var body: some View {
-        OnbScaffold(title: "Quelques minutes par jour, ça change tout.", spoken: true, mascotSize: 84, onNext: onNext) {
+        OnbScaffold(title: "A few minutes a day changes everything.", spoken: true, mascotSize: 84, onNext: onNext) {
             GrowthChart()
                 .enter(2)
 
             VStack(alignment: .leading, spacing: 0) {
-                Text("Avec Artura, tu développes")
+                Text("With Artura, you develop")
                     .font(.figtree(19, .semibold)).foregroundStyle(Palette.ink)
                     .padding(.bottom, 6)
                 ForEach(Array(gains.enumerated()), id: \.offset) { i, gain in
@@ -659,9 +659,9 @@ struct StreakScreen: View {
 
     private var title: String {
         if let name = user.profile.firstName, !name.isEmpty {
-            return "\(name), ton apprentissage commence aujourd'hui."
+            return "\(name), your learning starts today."
         }
-        return "Ton apprentissage commence aujourd'hui."
+        return "Your learning starts today."
     }
 
     var body: some View {
@@ -676,7 +676,7 @@ struct StreakScreen: View {
                             Image(systemName: "flame.fill")
                                 .font(.system(size: 22, weight: .bold))
                                 .foregroundStyle(Palette.orange)
-                            Text("Jour 1")
+                            Text("Day 1")
                                 .font(.figtree(22, .bold))
                                 .foregroundStyle(Palette.ink)
                         }
@@ -695,7 +695,7 @@ struct StreakScreen: View {
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
                         .enter(3)
-                    Text("Reviens demain pour faire grandir ta série.")
+                    Text("Come back tomorrow to grow your streak.")
                         .font(.figtree(17))
                         .foregroundStyle(Palette.muted)
                         .fixedSize(horizontal: false, vertical: true)
@@ -719,7 +719,7 @@ struct StreakScreen: View {
                                 }
                             }
                             .frame(width: 34, height: 34)
-                            Text("J\(day)")
+                            Text("D\(day)")
                                 .font(.figtree(12, day == 1 ? .bold : .regular))
                                 .foregroundStyle(day == 1 ? Palette.ink : Palette.muted)
                         }
@@ -735,7 +735,7 @@ struct StreakScreen: View {
 
                 Spacer(minLength: 16)
 
-                Button("Continuer") { onNext() }
+                Button("Continue") { onNext() }
                     .buttonStyle(.primary)
             }
             .padding(.horizontal, 24)

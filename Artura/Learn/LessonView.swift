@@ -13,6 +13,7 @@ struct LessonView: View {
     let onBack: () -> Void
     let onFinish: () -> Void
 
+    @Environment(\.lessonLanguage) private var language
     @State private var revealed = 0
     /// Bloc interactif ouvert en plein écran sur le tableau.
     @State private var studio: Int?
@@ -34,10 +35,10 @@ struct LessonView: View {
                 }
                 .buttonStyle(.pressable)
                 .padding(.leading, -12)
-                .accessibilityLabel("Retour")
+                .accessibilityLabel(language.pick("Retour", "Back"))
                 ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
                 if let onSkip {
-                    Button("Passer") {
+                    Button(language.pick("Passer", "Skip")) {
                         Haptics.tap()
                         onSkip()
                     }
@@ -92,7 +93,7 @@ struct LessonView: View {
                 }
             }
 
-            Button(isDone ? finishTitle : "Continuer") {
+            Button(isDone ? finishTitle : language.pick("Continuer", "Continue")) {
                 if isDone {
                     Haptics.success()
                     onFinish()
@@ -145,8 +146,8 @@ struct LessonView: View {
                             .background(Circle().fill(Palette.blue))
                     )
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(block.interactiveTitle).font(.aCardTitle).foregroundStyle(.white)
-                    Text("Touche pour rouvrir le tableau").font(.aCaption).foregroundStyle(Color.white.opacity(0.75))
+                    Text(language.title(of: block)).font(.aCardTitle).foregroundStyle(.white)
+                    Text(language.pick("Touche pour rouvrir le tableau", "Tap to reopen the painting")).font(.aCaption).foregroundStyle(Color.white.opacity(0.75))
                 }
                 Spacer(minLength: 0)
                 Image(systemName: "arrow.up.left.and.arrow.down.right")
@@ -173,7 +174,7 @@ struct LessonView: View {
             }
         case "key":
             VStack(alignment: .leading, spacing: 4) {
-                Text("À retenir").font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
+                Text(language.pick("À retenir", "Key takeaway")).font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
                 Text(block.text ?? "").font(.bodyStrong).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
             }

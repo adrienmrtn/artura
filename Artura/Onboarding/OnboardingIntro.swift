@@ -7,18 +7,18 @@ struct WelcomeScreen: View {
     let onLogin: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_hero", imageHeight: 460, cta: "Commencer", onNext: onNext,
-                     secondaryTitle: "J'ai déjà un compte", onSecondary: onLogin) {
+        HeroScaffold(image: "ill_hero", imageHeight: 460, cta: "Get started", onNext: onNext,
+                     secondaryTitle: "I already have an account", onSecondary: onLogin) {
             Text("ARTURA")
                 .font(.figtree(13, .bold))
                 .tracking(3)
                 .foregroundStyle(Palette.blue)
                 .enter(0)
-            Text("Apprends enfin l'art")
+            Text("Finally learn art")
                 .font(.figtree(36, .bold))
                 .foregroundStyle(Palette.ink)
                 .enter(1)
-            Text("5 minutes par jour, des sessions pensées pour toi.")
+            Text("5 minutes a day. Sessions tailored to you.")
                 .font(.figtree(17))
                 .foregroundStyle(Palette.muted)
                 .fixedSize(horizontal: false, vertical: true)
@@ -38,11 +38,11 @@ struct DailyScreen: View {
                 .enter()
 
             VStack(spacing: 12) {
-                Text("Une œuvre par jour")
+                Text("One masterpiece a day")
                     .font(.figtree(34, .bold))
                     .foregroundStyle(Palette.ink)
                     .enter(2)
-                Text("Cultive-toi sans t'en rendre compte.")
+                Text("Get cultured without even noticing.")
                     .font(.figtree(17))
                     .foregroundStyle(Palette.muted)
                     .enter(3)
@@ -52,12 +52,12 @@ struct DailyScreen: View {
             .padding(.top, 26)
 
             HStack(spacing: 12) {
-                proof(value: SocialProof.learners, label: "personnes apprennent déjà") {
+                proof(value: SocialProof.learners, label: "people already learning") {
                     Image(systemName: "person.2.fill")
                         .font(.system(size: 14, weight: .semibold))
                         .foregroundStyle(Palette.blue)
                 }
-                proof(value: SocialProof.rating, label: "de note moyenne") {
+                proof(value: SocialProof.rating, label: "average rating") {
                     HStack(spacing: 2) {
                         ForEach(0..<5, id: \.self) { _ in
                             Image(systemName: "star.fill")
@@ -73,7 +73,7 @@ struct DailyScreen: View {
 
             Spacer(minLength: 16)
 
-            Button("Continuer") { onNext() }
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
                 .padding(.horizontal, 24)
         }
@@ -111,8 +111,8 @@ struct PocketMuseumScreen: View {
 
     var body: some View {
         StoryScaffold(image: "ill_musee",
-                      title: "Artura, c'est un musée dans ta poche.",
-                      subtitle: "Créé pour les amoureux de l'art, et pour ceux qui veulent le devenir.",
+                      title: "Artura is a museum in your pocket.",
+                      subtitle: "Built for art lovers, and for everyone who wants to become one.",
                       onNext: onNext)
     }
 }
@@ -124,9 +124,9 @@ struct PhotoScreen: View {
 
     var body: some View {
         StoryScaffold(image: "ill_photo",
-                      tag: "Et au musée ?",
-                      title: "Prends une œuvre en photo, Artura te l'explique.",
-                      subtitle: "Et tu gardes dans ta collection celles que tu veux retenir.",
+                      tag: "At the museum?",
+                      title: "Snap a photo of any artwork. Artura explains it.",
+                      subtitle: "And save the ones you want to remember to your collection.",
                       onNext: onNext)
     }
 }
@@ -142,9 +142,9 @@ struct Quote: Identifiable {
 
     // Citations à faire vérifier (source et traduction) avant la mise en ligne.
     static let all: [Quote] = [
-        Quote(image: "portrait_klee", text: "L'art ne reproduit pas le visible, il rend visible.", author: "Paul Klee", role: "Peintre"),
-        Quote(image: "portrait_nietzsche", text: "Nous avons l'art pour ne pas mourir de la vérité.", author: "Friedrich Nietzsche", role: "Philosophe"),
-        Quote(image: "portrait_proust", text: "Par l'art seulement, nous pouvons sortir de nous.", author: "Marcel Proust", role: "Écrivain")
+        Quote(image: "portrait_klee", text: "Art does not reproduce the visible; it makes visible.", author: "Paul Klee", role: "Painter"),
+        Quote(image: "portrait_nietzsche", text: "We have art in order not to die of the truth.", author: "Friedrich Nietzsche", role: "Philosopher"),
+        Quote(image: "portrait_proust", text: "Through art alone are we able to emerge from ourselves.", author: "Marcel Proust", role: "Writer")
     ]
 }
 
@@ -155,8 +155,8 @@ struct QuotesScreen: View {
     private let quotes = Quote.all
 
     var body: some View {
-        OnbScaffold(title: "Voilà pourquoi on a créé Artura",
-                    subtitle: "L'art est intemporel. Eux le disaient déjà.",
+        OnbScaffold(title: "This is why we built Artura",
+                    subtitle: "Art is timeless. They said it long before us.",
                     onNext: onNext) {
             VStack(spacing: 12) {
                 ForEach(Array(quotes.enumerated()), id: \.element.id) { i, quote in
@@ -166,7 +166,7 @@ struct QuotesScreen: View {
                             .frame(width: 56, height: 56)
                             .clipShape(Circle())
                         VStack(alignment: .leading, spacing: 6) {
-                            Text("« \(quote.text) »")
+                            Text("“\(quote.text)”")
                                 .font(.serif(18, .medium))
                                 .italic()
                                 .foregroundStyle(Palette.ink)
@@ -206,8 +206,8 @@ struct HelloScreen: View {
 
     var body: some View {
         MascotTalkScreen(lines: [
-            "Salut, moi c'est Artura. Chaque jour, je te raconte un chef-d'œuvre et l'histoire qu'il cache."
-        ], cta: "Salut Artura !", mascotSize: 190, onNext: onNext)
+            "Hi, I'm Artura. Every day, I'll show you one masterpiece and the story behind it."
+        ], cta: "Hi Artura!", mascotSize: 190, onNext: onNext)
     }
 }
 
@@ -216,8 +216,8 @@ struct QuestionsIntroScreen: View {
 
     var body: some View {
         MascotTalkScreen(lines: [
-            "Faisons connaissance. Quelques questions, moins d'une minute, pour préparer ton programme."
-        ], cta: "C'est parti", onNext: onNext)
+            "Let's get to know each other. A few quick questions, under a minute, to build your program."
+        ], cta: "Let's go", onNext: onNext)
     }
 }
 
@@ -228,15 +228,15 @@ struct TestIntroScreen: View {
     private var line: String {
         let start: String
         if let name = user.profile.firstName, !name.isEmpty {
-            start = "Très bien, \(name)."
+            start = "Great, \(name)."
         } else {
-            start = "Très bien."
+            start = "Great."
         }
-        return "\(start) Voyons ce que tu sais déjà : sept tableaux, du plus célèbre au plus difficile."
+        return "\(start) Let's see what you already know: seven paintings, from the most famous to the hardest."
     }
 
     var body: some View {
-        MascotTalkScreen(lines: [line], cta: user.agree("Je suis prêt", "Je suis prête"), onNext: onNext)
+        MascotTalkScreen(lines: [line], cta: "I'm ready", onNext: onNext)
     }
 }
 
@@ -248,21 +248,21 @@ struct UnderstandScreen: View {
     let onNext: () -> Void
 
     private var lines: [String] {
-        let subject = artwork.map { "\($0.title) de \($0.artist)" } ?? "un tableau"
+        let subject = artwork.map { "\($0.title) by \($0.artist)" } ?? "a painting"
         return [
-            "Avec moi, tu n'apprends pas seulement des noms. Tu comprends l'histoire derrière chaque tableau, et ce qu'il veut dire.",
-            "Je te présente une œuvre par jour, avec toute son histoire. Jour après jour, tu connaîtras toutes les grandes œuvres.",
-            "Mon but : rendre la culture accessible à tout le monde, de façon simple et ludique. L'art est un patrimoine que chacun mérite de connaître.",
-            "Regardons ensemble \(subject). Connais-tu toute son histoire ? Laisse-toi guider : la visite est interactive."
+            "With me, you don't just learn names. You understand the story behind each painting, and what it really means.",
+            "I'll show you one artwork a day, with its whole story. Day after day, you'll get to know all the great works.",
+            "My goal: make culture accessible to everyone, in a simple and playful way. Art is a heritage everyone deserves to know.",
+            "Let's look at \(subject) together. Do you know its whole story? Let me guide you: the tour is interactive."
         ]
     }
 
     var body: some View {
-        MascotTalkScreen(lines: lines, cta: "Commencer la visite", onNext: onNext) {
+        MascotTalkScreen(lines: lines, cta: "Start the tour", onNext: onNext) {
             HStack(spacing: 8) {
                 Image(systemName: "scope")
                     .font(.system(size: 14, weight: .semibold))
-                Text("Ta première visite guidée · 2 min")
+                Text("Your first guided tour · 2 min")
                     .font(.figtree(14, .semibold))
             }
             .foregroundStyle(Palette.blue)
@@ -280,7 +280,7 @@ struct AfterLessonScreen: View {
 
     var body: some View {
         MascotTalkScreen(lines: [
-            "Voilà comment tu apprendras désormais. Avant de finir, préparons ton programme."
-        ], cta: "Préparer mon programme", onNext: onNext)
+            "This is how you'll learn from now on. Before we finish, let's build your program."
+        ], cta: "Build my program", onNext: onNext)
     }
 }
