@@ -25,7 +25,11 @@ Si le projet ne s'ouvre pas, `project.yml` permet de le régénérer avec [Xcode
 | `Artura/Services` | Rappels (notifications locales) et abonnement Artura Pro (StoreKit 2) |
 | `Artura/Onboarding` | Les écrans d'accueil, du premier écran à l'essai gratuit (`OnboardingFlow.swift` donne l'ordre) |
 | `Artura/Learn` | Lecture d'un cours bloc par bloc, quiz |
-| `Artura/Main` | Onglets Aujourd'hui, Explorer, Jeux, Profil |
+| `Artura/Main` | Onglets Explorer, Jeux, Profil, barre d'onglets, écran de résultat |
+| `Artura/Feed` | Onglet Aujourd'hui : fil vertical d'œuvres, filtres, recherche, bibliothèque (favoris, enregistrés, historique), partage |
+| `Artura/Review` | Onglet Review : cartes du jour tirées des cours lus, entraînement libre |
+| `Artura/Widget` | Vues du widget (partagées avec l'extension) et page « Add the widget » du profil |
+| `ArturaWidget/` | Extension WidgetKit « Artwork of the day » (cible séparée, identifiant `com.vikstudios.artura.widget`) |
 | `Artura/Games` | Zoom mystère, Chronologie, Vrai ou faux, Palette |
 | `Artura/Resources/content.json` | Œuvres, cours, quiz, anecdotes, courants |
 
@@ -48,9 +52,29 @@ Pour ouvrir directement un écran en build Debug, ajouter des arguments de lance
 | `-holdSplash YES` | Garde l'écran de lancement affiché |
 | `-skipOnboarding YES` | Ouvre directement l'appli |
 
+## Écrans de l'appli (Debug)
+
+| Argument | Effet |
+|---|---|
+| `-demoProfile YES` | Profil d'exemple (cours lus, favoris, enregistrés), sans onboarding |
+| `-demoEmpty YES` | Avec le précédent : profil vide, pour voir les états vides |
+| `-appTab review` | Onglet ouvert au lancement (`explore`, `review`, `games`, `profile`) |
+| `-feedSheet filter` | Feuille ouverte sur le fil (`filter`, `search`, `history`, `library`, `saved`) |
+| `-reviewMode practice` | Onglet Review sur « Practice » |
+| `-reviewSession YES` | Lance directement les cartes du jour |
+| `-profileSheet widget` | Ouvre la page du widget depuis le profil |
+
+## Widget
+
+Le widget « Artwork of the day » (petit, moyen, grand, écran verrouillé) est dans la cible `ArturaWidget`. Il lit le même `content.json` que l'appli et applique la même règle que `ContentStore.artworkOfTheDay` : le widget et le fil montrent toujours la même œuvre. Ses vues sont dans `Artura/Widget` et appartiennent aux deux cibles.
+
+- Les images du widget sont des copies réduites (720 px) dans `ArturaWidget/Assets.xcassets`, sous le même nom que dans l'appli. Une œuvre ajoutée au contenu doit y être ajoutée aussi ; sans image, le widget affiche un fond uni.
+- Dans Xcode, choisir l'équipe de signature pour les **deux** cibles (Artura et ArturaWidget) avant d'archiver.
+- Le widget n'a pas de groupe d'apps : il ne connaît pas la série ni les favoris de l'utilisateur.
+
 ## Build automatique
 
-`.github/workflows/build.yml` compile l'appli pour le simulateur à chaque push sur une branche `claude/**`. Si le message du commit contient `[captures]`, le même job lance l'appli dans un simulateur et prend une capture de chaque écran de l'onboarding (visibles dans les logs du job).
+`.github/workflows/build.yml` compile l'appli pour le simulateur à chaque push sur une branche `claude/**`. Si le message du commit contient `[captures]`, le même job lance l'appli dans un simulateur et prend une capture de chaque écran de l'onboarding et de l'appli (visibles dans les logs du job). `[captures:app]` ne prend que les écrans de l'appli, `[captures:nom1,nom2]` seulement les captures citées.
 
 ## Contenu
 
@@ -73,12 +97,13 @@ Produits attendus :
 ## À faire avant une mise en ligne
 
 - Remplacer le contenu de `SocialProof` (`OnboardingKit.swift` : « 100 000 apprenants », « 4,8 », les trois avis) par les vrais chiffres et de vrais avis de l'appli.
-- L'onboarding annonce trois choses qui n'existent pas encore : la photo d'une œuvre expliquée par Artura, le widget « œuvre du jour » (écran verrouillé et accueil), et « près de 400 tableaux et artistes en un an » (le contenu compte aujourd'hui 8 œuvres).
+- L'onboarding annonce deux choses qui n'existent pas encore : la photo d'une œuvre expliquée par Artura et « près de 400 tableaux et artistes en un an » (le contenu compte aujourd'hui 8 œuvres).
 - Connexion Google : renseigner `GoogleAuth.clientID` (`Artura/Services/GoogleAuth.swift`) avec un identifiant client OAuth de type iOS créé dans Google Cloud Console. Sans lui, le bouton n'apparaît qu'en build Debug.
 - Renseigner `Legal.privacy` (`OnboardingPaywall.swift`) avec l'adresse de la politique de confidentialité.
 - Fixer les prix et créer les produits dans App Store Connect.
 - Vérifier les licences des reproductions (Wikimedia Commons) et celle des illustrations générées.
-- Widget « œuvre du jour » : non inclus dans cette version.
+- Renseigner `AppLinks.appStore` et `AppLinks.supportEmail` (`Artura/Feed/ArtworkShare.swift`) : le lien ajouté aux partages, et l'adresse qui fait apparaître « Suggest an idea » dans le profil.
+- Widget : à tester sur un vrai téléphone (ajout à l'écran d'accueil, changement d'œuvre à minuit).
 - Histoires audio : annoncées dans l'offre Pro, pas encore implémentées.
 
 ## Crédits
