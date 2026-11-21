@@ -38,7 +38,6 @@ struct FlashTestScreen: View {
         VStack(alignment: .leading, spacing: 14) {
             VStack(alignment: .leading, spacing: 8) {
                 TagPill(text: "Tableau \(min(index + 1, cards.count)) sur \(cards.count)")
-                    .contentTransition(.numericText())
                 Text("De combien de ces tableaux connais-tu le nom ?")
                     .font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
@@ -46,7 +45,7 @@ struct FlashTestScreen: View {
                     .font(.aBody).foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
             }
-            .appearUp()
+            .enter()
 
             // Pile de cartes : la suivante dépasse derrière celle du dessus.
             ZStack {
@@ -69,7 +68,7 @@ struct FlashTestScreen: View {
             }
             .padding(.bottom, 34)
             .frame(maxHeight: .infinity)
-            .appearUp(0.2)
+            .enter(2)
 
             HStack(spacing: 12) {
                 Button("Je ne sais pas") { answer(false) }.buttonStyle(.secondary)
@@ -79,14 +78,14 @@ struct FlashTestScreen: View {
         .padding(.horizontal, 24)
         .padding(.top, 12)
         .padding(.bottom, 16)
-        .background(Color.white)
+        .background(Palette.bg)
     }
 
     private func card(_ item: FlashCard, top: Bool) -> some View {
         ArtImage(name: item.image)
-            .clipShape(RoundedRectangle(cornerRadius: 24))
-            .overlay(RoundedRectangle(cornerRadius: 24).stroke(.white, lineWidth: 4))
-            .shadow(color: .black.opacity(0.14), radius: 12, y: 6)
+            .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.card, lineWidth: 5))
+            .shadow(color: Palette.navyDark.opacity(0.16), radius: 12, y: 6)
             .overlay(alignment: .bottomLeading) {
                 if item.hard { TagPill(text: "Niveau expert").padding(16) }
             }
@@ -178,7 +177,7 @@ struct FlashResultScreen: View {
     }
 
     private var headline: String {
-        if score == 0 { return firstName.map { "Merci pour ta franchise, \($0)" } ?? "Merci pour ta franchise" }
+        if score == 0 { return firstName.map { "Merci pour ta franchise, \($0)." } ?? "Merci pour ta franchise." }
         return firstName.map { "Bravo, \($0) !" } ?? "Bravo !"
     }
 
@@ -190,52 +189,43 @@ struct FlashResultScreen: View {
 
     var body: some View {
         ZStack {
-            VStack(spacing: 0) {
-                Text(headline)
-                    .font(.aTitle).foregroundStyle(Palette.ink)
-                    .multilineTextAlignment(.center)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .appearUp()
-
+            OnbScaffold(title: headline, spoken: true, onNext: onNext) {
                 // Les sept tableaux en éventail : ceux nommés en couleur, les autres voilés.
-                ZStack {
-                    RoundedRectangle(cornerRadius: 28).fill(Palette.blueSoft)
-                    HStack(spacing: -36) {
-                        ForEach(Array(cards.enumerated()), id: \.element.id) { i, item in
-                            let known = user.profile.flashKnown.contains(item.id)
-                            let spread = CGFloat(i) - CGFloat(cards.count - 1) / 2
-                            ArtImage(name: item.image)
-                                .saturation(known ? 1 : 0)
-                                .opacity(known ? 1 : 0.55)
-                                .frame(width: 78, height: 108)
-                                .clipShape(RoundedRectangle(cornerRadius: 12))
-                                .overlay(RoundedRectangle(cornerRadius: 12).stroke(.white, lineWidth: 3))
-                                .overlay(alignment: .bottom) {
-                                    Image(systemName: known ? "checkmark" : "questionmark")
-                                        .font(.system(size: 11, weight: .bold))
-                                        .foregroundStyle(.white)
-                                        .frame(width: 24, height: 24)
-                                        .background(Circle().fill(known ? Palette.green : Palette.ink))
-                                        .offset(y: 10)
-                                }
-                                .rotationEffect(.degrees(fanned ? Double(spread) * 6 : 0))
-                                .offset(y: fanned ? abs(spread) * 8 : 0)
-                                .shadow(color: .black.opacity(0.15), radius: 8, y: 4)
-                                .zIndex(known ? 2 : 1)
-                        }
+                HStack(spacing: -36) {
+                    ForEach(Array(cards.enumerated()), id: \.element.id) { i, item in
+                        let known = user.profile.flashKnown.contains(item.id)
+                        let spread = CGFloat(i) - CGFloat(cards.count - 1) / 2
+                        ArtImage(name: item.image)
+                            .saturation(known ? 1 : 0)
+                            .opacity(known ? 1 : 0.55)
+                            .frame(width: 78, height: 108)
+                            .clipShape(RoundedRectangle(cornerRadius: 12))
+                            .overlay(RoundedRectangle(cornerRadius: 12).stroke(Palette.card, lineWidth: 3))
+                            .overlay(alignment: .bottom) {
+                                Image(systemName: known ? "checkmark" : "questionmark")
+                                    .font(.system(size: 11, weight: .bold))
+                                    .foregroundStyle(.white)
+                                    .frame(width: 24, height: 24)
+                                    .background(Circle().fill(known ? Palette.green : Palette.ink))
+                                    .offset(y: 10)
+                            }
+                            .rotationEffect(.degrees(fanned ? Double(spread) * 6 : 0))
+                            .offset(y: fanned ? abs(spread) * 8 : 0)
+                            .shadow(color: Palette.navyDark.opacity(0.16), radius: 8, y: 4)
+                            .zIndex(known ? 2 : 1)
                     }
                 }
-                .frame(height: 220)
-                .padding(.top, 20)
-                .appearUp(0.2)
+                .frame(maxWidth: .infinity)
+                .frame(height: 176)
+                .enter(2)
 
                 VStack(spacing: 6) {
                     HStack(alignment: .firstTextBaseline, spacing: 6) {
                         Text("\(count)")
-                            .font(.figtree(72, .semibold))
-                            .foregroundStyle(Palette.blue)
+                            .font(.serif(72, .bold))
+                            .foregroundStyle(Palette.navy)
                             .contentTransition(.numericText())
-                        Text("sur \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                        Text("sur \(total)").font(.serif(28)).foregroundStyle(Palette.ink)
                     }
                     Text(score > 1 ? "tableaux nommés" : "tableau nommé")
                         .font(.figtree(15, .semibold)).foregroundStyle(Palette.muted)
@@ -247,36 +237,138 @@ struct FlashResultScreen: View {
                         .opacity(verdictShown ? 1 : 0)
                         .offset(y: verdictShown ? 0 : 10)
                 }
-                .padding(.top, 18)
-
-                Spacer(minLength: 12)
-
-                Button("Continuer") { onNext() }
-                    .buttonStyle(.primary)
+                .frame(maxWidth: .infinity)
             }
-            .padding(.horizontal, 24)
-            .padding(.top, 12)
-            .padding(.bottom, 16)
-
             if verdictShown && score > 0 { ConfettiView() }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white)
         .onAppear(perform: play)
     }
 
     private func play() {
-        withAnimation(.easeOut(duration: 0.7).delay(0.3)) { fanned = true }
+        withAnimation(.settle.delay(0.5)) { fanned = true }
         // Le compteur monte d'un cran à la fois, avec un tic.
         for i in 0...score where i > 0 {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.7 + Double(i) * 0.22) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.9 + Double(i) * 0.22) {
                 withAnimation(.easeOut(duration: 0.2)) { count = i }
                 Haptics.rigid()
             }
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0 + Double(score) * 0.22) {
-            withAnimation(.easeOut(duration: 0.5)) { verdictShown = true }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2 + Double(score) * 0.22) {
+            withAnimation(.settle) { verdictShown = true }
             if score == 0 { Haptics.soft() }
+        }
+    }
+}
+
+// MARK: - Ce que le temps d'écran représente, et ce qu'il peut devenir
+
+struct PhoneResultScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+
+    @State private var days = 0
+    @State private var stage = 0
+    @State private var timer: Timer?
+
+    private var hours: Double { user.profile.phoneHours }
+    private var target: Int { Int((hours * 365 / 24).rounded()) }
+
+    private var monthsLine: String {
+        let months = Double(target) / 30.4
+        if months < 1.25 { return "Plus d'un mois entier, chaque année." }
+        return "Près de \(Int(months.rounded())) mois entiers, chaque année."
+    }
+
+    var body: some View {
+        VStack(spacing: 0) {
+            Spacer(minLength: 8)
+
+            VStack(spacing: 2) {
+                Text("\(formatHours(hours)) par jour sur ton téléphone, c'est")
+                    .font(.figtree(17, .medium))
+                    .foregroundStyle(Palette.muted)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .opacity(stage >= 1 ? 1 : 0)
+                Text("\(days)")
+                    .font(.serif(112, .bold))
+                    .foregroundStyle(Palette.orange)
+                    .contentTransition(.numericText())
+                    .opacity(stage >= 2 ? 1 : 0)
+                Text("jours par an")
+                    .font(.serif(28))
+                    .foregroundStyle(Palette.ink)
+                    .opacity(stage >= 2 ? 1 : 0)
+                Text(monthsLine)
+                    .font(.aBody)
+                    .foregroundStyle(Palette.muted)
+                    .padding(.top, 8)
+                    .opacity(stage >= 3 ? 1 : 0)
+            }
+            .multilineTextAlignment(.center)
+
+            Spacer(minLength: 16)
+
+            // Le retournement : ce temps peut servir à autre chose.
+            VStack(spacing: 10) {
+                Text("Avec Artura, ce temps peut devenir connaissance.")
+                    .font(.serif(26))
+                    .foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("Plutôt que de scroller sans fin, nourris ton esprit des plus grandes œuvres de l'humanité. Cinq minutes suffisent.")
+                    .font(.aBody)
+                    .foregroundStyle(Palette.muted)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .multilineTextAlignment(.center)
+            .padding(20)
+            .frame(maxWidth: .infinity)
+            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.sandLight))
+            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.sand, lineWidth: 1))
+            .opacity(stage >= 4 ? 1 : 0)
+            .offset(y: stage >= 4 ? 0 : 20)
+
+            Spacer(minLength: 16)
+
+            Button("Continuer") { onNext() }
+                .buttonStyle(.primary)
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Palette.bg)
+        .onAppear(perform: play)
+        .onDisappear { timer?.invalidate() }
+    }
+
+    private func play() {
+        withAnimation(.settle.delay(0.3)) { stage = 1 }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) {
+            withAnimation(.easeOut(duration: 0.4)) { stage = 2 }
+            // Le compteur monte jusqu'au total, avec un tic à chaque pas.
+            let stepCount = 32
+            var step = 0
+            timer?.invalidate()
+            timer = Timer.scheduledTimer(withTimeInterval: 0.045, repeats: true) { t in
+                step += 1
+                let progress = 1 - pow(1 - Double(step) / Double(stepCount), 2)
+                withAnimation(.linear(duration: 0.045)) {
+                    days = Int((Double(target) * progress).rounded())
+                }
+                if step % 3 == 0 { Haptics.whisper() }
+                if step >= stepCount {
+                    t.invalidate()
+                    days = target
+                    Haptics.heavy()
+                }
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.7) {
+            withAnimation(.settle) { stage = 3 }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.5) {
+            withAnimation(.settle) { stage = 4 }
+            Haptics.soft()
         }
     }
 }
@@ -297,18 +389,18 @@ struct ProjectionScreen: View {
     var body: some View {
         VStack(spacing: 0) {
             Text("Avec Artura, dans un an, tu connaîtras près de")
-                .font(.figtree(22, .semibold)).foregroundStyle(Palette.ink)
+                .font(.serif(22, .medium)).foregroundStyle(Palette.ink)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
-                .appearUp()
+                .enter()
 
             Text("\(count)")
-                .font(.figtree(104, .semibold))
-                .foregroundStyle(Palette.blue)
+                .font(.serif(104, .bold))
+                .foregroundStyle(Palette.navy)
                 .contentTransition(.numericText())
-                .padding(.top, 4)
+                .padding(.top, 2)
             Text("tableaux")
-                .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                .font(.serif(28)).foregroundStyle(Palette.ink)
 
             // Un carré par tableau : la grille se remplit au rythme du compteur.
             Canvas { context, size in
@@ -319,21 +411,24 @@ struct ProjectionScreen: View {
                     let y = CGFloat(i / columns) * (cell + gap)
                     let rect = CGRect(x: x, y: y, width: cell, height: cell)
                     let path = Path(roundedRect: rect, cornerRadius: 2.5)
-                    context.fill(path, with: .color(i < count ? Palette.blue : Palette.line))
+                    // Quelques carrés dorés pour le relief, comme des cadres.
+                    let filled = i < count
+                    let color = !filled ? Palette.line : (i % 7 == 3 ? Palette.yellow : Palette.navy)
+                    context.fill(path, with: .color(color))
                 }
             }
             .aspectRatio(CGFloat(columns) / CGFloat(rows), contentMode: .fit)
             .padding(.top, 22)
-            .appearUp(0.2)
+            .enter(2)
             .accessibilityHidden(true)
 
             Text("Et pas seulement leur nom : tu les connaîtras en détail.")
-                .font(.aBody).foregroundStyle(Palette.muted)
+                .font(.figtree(17)).foregroundStyle(Palette.muted)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
                 .padding(.top, 22)
                 .opacity(detailShown ? 1 : 0)
-                .offset(y: detailShown ? 0 : 10)
+                .offset(y: detailShown ? 0 : 12)
 
             Spacer(minLength: 16)
 
@@ -344,7 +439,7 @@ struct ProjectionScreen: View {
         .padding(.top, 20)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .background(Color.white)
+        .background(Palette.bg)
         .onAppear(perform: play)
         .onDisappear { timer?.invalidate() }
     }
@@ -354,7 +449,7 @@ struct ProjectionScreen: View {
         count = 0
         let stepCount = 50
         var step = 0
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
             timer = Timer.scheduledTimer(withTimeInterval: 0.035, repeats: true) { t in
                 step += 1
                 // Départ rapide, arrivée en douceur.
@@ -367,7 +462,7 @@ struct ProjectionScreen: View {
                     t.invalidate()
                     count = target
                     Haptics.heavy()
-                    withAnimation(.easeOut(duration: 0.5).delay(0.15)) { detailShown = true }
+                    withAnimation(.settle.delay(0.15)) { detailShown = true }
                 }
             }
         }
@@ -427,7 +522,7 @@ struct GrowthChart: View {
                             .position(x: rect.midX, y: rect.minY + rect.height * CGFloat(i) / 3)
                     }
                     GrowthCurve(lift: withLift, closed: true)
-                        .fill(LinearGradient(colors: [Palette.blue.opacity(0.22), Palette.blue.opacity(0)],
+                        .fill(LinearGradient(colors: [Palette.yellow.opacity(0.34), Palette.yellow.opacity(0)],
                                              startPoint: .top, endPoint: .bottom))
                         .padding(inset)
                         .opacity(ended ? 1 : 0)
@@ -437,20 +532,20 @@ struct GrowthChart: View {
                         .padding(inset)
                     GrowthCurve(lift: withLift)
                         .trim(from: 0, to: drawn ? 1 : 0)
-                        .stroke(Palette.blue, style: StrokeStyle(lineWidth: 4, lineCap: .round))
+                        .stroke(Palette.navy, style: StrokeStyle(lineWidth: 4, lineCap: .round))
                         .padding(inset)
 
-                    dot(Palette.blue)
+                    dot(Palette.navy)
                         .position(x: rect.minX, y: GrowthCurve.y(GrowthCurve.startLift, in: rect))
                     dot(Palette.yellow)
                         .scaleEffect(ended ? 1 : 0.3).opacity(ended ? 1 : 0)
                         .position(x: rect.maxX, y: GrowthCurve.y(withoutLift, in: rect))
-                    dot(Palette.blue)
+                    dot(Palette.navy)
                         .scaleEffect(ended ? 1 : 0.3).opacity(ended ? 1 : 0)
                         .position(x: rect.maxX, y: GrowthCurve.y(withLift, in: rect))
                 }
             }
-            .frame(height: 170)
+            .frame(height: 150)
 
             HStack {
                 Text("Aujourd'hui").font(.aSmall).foregroundStyle(Palette.muted)
@@ -460,18 +555,19 @@ struct GrowthChart: View {
             .padding(.horizontal, inset)
 
             HStack(spacing: 18) {
-                legend("Avec Artura", color: Palette.blue, dashed: false)
+                legend("Avec Artura", color: Palette.navy, dashed: false)
                 legend("Sans routine", color: Palette.yellow, dashed: true)
             }
         }
         .padding(16)
-        .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+        .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
+        .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Courbe : avec Artura, tes connaissances montent nettement en un an ; sans routine, elles restent presque au même niveau.")
         .onAppear {
-            withAnimation(.easeInOut(duration: 1.4).delay(0.45)) { drawn = true }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.85) {
-                withAnimation(.easeOut(duration: 0.4)) { ended = true }
+            withAnimation(.easeInOut(duration: 1.5).delay(0.6)) { drawn = true }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.1) {
+                withAnimation(.settle) { ended = true }
                 Haptics.rigid()
             }
         }
@@ -479,7 +575,7 @@ struct GrowthChart: View {
 
     private func dot(_ color: Color) -> some View {
         Circle()
-            .fill(.white)
+            .fill(Palette.card)
             .frame(width: 16, height: 16)
             .overlay(Circle().stroke(color, lineWidth: 4))
     }
@@ -502,13 +598,13 @@ struct GraphScreen: View {
     private let gains = ["ton regard", "ta culture générale", "tes sujets de conversation"]
 
     var body: some View {
-        OnbScaffold(title: "Quelques minutes par jour, ça change tout.", onNext: onNext) {
+        OnbScaffold(title: "Quelques minutes par jour, ça change tout.", spoken: true, onNext: onNext) {
             GrowthChart()
-                .appearUp(0.2)
+                .enter(2)
 
             VStack(alignment: .leading, spacing: 0) {
                 Text("Avec Artura, tu développes")
-                    .font(.aCardTitle).foregroundStyle(Palette.ink)
+                    .font(.serif(19)).foregroundStyle(Palette.ink)
                     .padding(.bottom, 6)
                 ForEach(Array(gains.enumerated()), id: \.offset) { i, gain in
                     HStack {
@@ -516,16 +612,125 @@ struct GraphScreen: View {
                         Spacer(minLength: 8)
                         Image(systemName: "arrow.up.right")
                             .font(.system(size: 14, weight: .bold))
-                            .foregroundStyle(Palette.blue)
+                            .foregroundStyle(Palette.orange)
                     }
-                    .frame(height: 36)
-                    .appearUp(1.2 + 0.3 * Double(i))
+                    .frame(height: 34)
+                    .enter(Double(i) * 2 + 16)
                 }
             }
             .padding(.horizontal, 18)
             .padding(.vertical, 14)
-            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
-            .appearUp(0.4)
+            .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
+            .enter(4)
+        }
+    }
+}
+
+// MARK: - Série : « Max, ton apprentissage commence aujourd'hui »
+
+struct StreakScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+
+    @State private var lit = false
+    @State private var checked = false
+
+    private var title: String {
+        if let name = user.profile.firstName, !name.isEmpty {
+            return "\(name), ton apprentissage commence aujourd'hui."
+        }
+        return "Ton apprentissage commence aujourd'hui."
+    }
+
+    var body: some View {
+        ZStack {
+            VStack(spacing: 0) {
+                ArtImage(name: "ill_serie", zoom: lit ? 1.06 : 1, anchor: UnitPoint(x: 0.5, y: 0.6))
+                    .frame(minHeight: 150, maxHeight: 250)
+                    .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
+                    .overlay(alignment: .bottom) {
+                        // La flamme du premier jour, à cheval sur le bas de l'image.
+                        HStack(spacing: 8) {
+                            Image(systemName: "flame.fill")
+                                .font(.system(size: 22, weight: .bold))
+                                .foregroundStyle(Palette.orange)
+                            Text("Jour 1")
+                                .font(.serif(22, .bold))
+                                .foregroundStyle(Palette.ink)
+                        }
+                        .padding(.horizontal, 20)
+                        .frame(height: 52)
+                        .background(Capsule().fill(Palette.card).shadow(color: Palette.navyDark.opacity(0.14), radius: 12, y: 6))
+                        .scaleEffect(lit ? 1 : 0.6)
+                        .opacity(lit ? 1 : 0)
+                        .offset(y: 26)
+                    }
+                    .enter()
+
+                VStack(spacing: 10) {
+                    Text(title)
+                        .font(.aTitle)
+                        .foregroundStyle(Palette.ink)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .enter(3)
+                    Text("Reviens demain pour faire grandir ta série.")
+                        .font(.figtree(17))
+                        .foregroundStyle(Palette.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .enter(4.5)
+                }
+                .multilineTextAlignment(.center)
+                .padding(.top, 48)
+
+                // La semaine : le premier jour se coche.
+                HStack(spacing: 6) {
+                    ForEach(1...7, id: \.self) { day in
+                        VStack(spacing: 6) {
+                            ZStack {
+                                Circle().fill(day == 1 && checked ? Palette.yellow : Palette.bg)
+                                Circle().stroke(day == 1 && checked ? Palette.yellow : Palette.lip, lineWidth: 1.5)
+                                if day == 1 && checked {
+                                    Image(systemName: "checkmark")
+                                        .font(.system(size: 14, weight: .bold))
+                                        .foregroundStyle(Palette.ink)
+                                        .transition(.scale.combined(with: .opacity))
+                                }
+                            }
+                            .frame(width: 34, height: 34)
+                            Text("J\(day)")
+                                .font(.figtree(12, day == 1 ? .bold : .regular))
+                                .foregroundStyle(day == 1 ? Palette.ink : Palette.muted)
+                        }
+                        .frame(maxWidth: .infinity)
+                    }
+                }
+                .padding(.horizontal, 12)
+                .padding(.vertical, 14)
+                .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+                .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+                .padding(.top, 22)
+                .enter(6)
+
+                Spacer(minLength: 16)
+
+                Button("Continuer") { onNext() }
+                    .buttonStyle(.primary)
+            }
+            .padding(.horizontal, 24)
+            .padding(.top, 12)
+            .padding(.bottom, 16)
+
+            if checked { ConfettiView() }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Palette.bg)
+        .onAppear {
+            withAnimation(.settle.delay(0.5)) { lit = true }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.1) {
+                withAnimation(.easeOut(duration: 0.25)) { checked = true }
+                Haptics.success()
+            }
         }
     }
 }

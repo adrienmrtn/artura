@@ -57,7 +57,7 @@ struct QuizView: View {
         .padding(.horizontal, 24)
         .padding(.top, 8)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .background(Color.white)
+        .background(Palette.bg)
         .overlay(alignment: .bottom) {
             if selected != nil {
                 feedback.transition(.move(edge: .bottom))
@@ -119,7 +119,7 @@ struct QuizView: View {
         .padding(.top, 34)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(ArcTopShape().fill(Palette.blueSoft).ignoresSafeArea(edges: .bottom))
+        .background(ArcTopShape().fill(Palette.sand).ignoresSafeArea(edges: .bottom))
     }
 
     private func pick(_ i: Int) {

@@ -31,7 +31,7 @@ struct ExploreView: View {
             VStack(alignment: .leading, spacing: 14) {
                 SkyHeader {
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("Explorer").font(.figtree(28, .semibold)).foregroundStyle(.white)
+                        Text("Explorer").font(.serif(28)).foregroundStyle(.white)
                         HStack(spacing: 10) {
                             Image(systemName: "magnifyingglass").foregroundStyle(Palette.ink)
                             TextField("Œuvre, artiste, courant…", text: $query)
@@ -179,7 +179,7 @@ struct ExploreView: View {
                 HStack(spacing: 12) {
                     Text(String(art.year))
                         .font(.figtree(15, .semibold))
-                        .foregroundStyle(Palette.blueText)
+                        .foregroundStyle(Palette.navy)
                         .frame(width: 48, alignment: .leading)
                     ArtworkRow(artwork: art, done: user.profile.completedLessons.contains(art.id)) { course = art }
                 }
@@ -233,7 +233,7 @@ struct MovementDetailView: View {
             }
             .padding(24)
         }
-        .background(Color.white)
+        .background(Palette.bg)
         .fullScreenCover(item: $course) { CourseFlow(artwork: $0) }
     }
 }

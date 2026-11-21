@@ -5,6 +5,11 @@ import SwiftUI
 struct LessonView: View {
     let artwork: Artwork
     var pill: String = "Cours"
+    /// Blocs à lire. Par défaut le cours entier ; l'onboarding en passe un extrait.
+    var blocks: [LessonBlock]? = nil
+    var finishTitle: String = "Passer au quiz"
+    /// Si présent, un bouton « Passer » remplace le compteur en haut à droite.
+    var onSkip: (() -> Void)? = nil
     let onBack: () -> Void
     let onFinish: () -> Void
 
@@ -12,7 +17,8 @@ struct LessonView: View {
     /// Bloc interactif ouvert en plein écran sur le tableau.
     @State private var studio: Int?
 
-    private var total: Int { artwork.lesson.count }
+    private var lesson: [LessonBlock] { blocks ?? artwork.lesson }
+    private var total: Int { lesson.count }
     private var isDone: Bool { revealed >= total }
 
     var body: some View {
@@ -30,9 +36,20 @@ struct LessonView: View {
                 .padding(.leading, -12)
                 .accessibilityLabel("Retour")
                 ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
-                Text("\(revealed + 1) / \(total + 1)")
-                    .font(.figtree(14, .medium))
+                if let onSkip {
+                    Button("Passer") {
+                        Haptics.tap()
+                        onSkip()
+                    }
+                    .font(.figtree(15, .semibold))
                     .foregroundStyle(Palette.muted)
+                    .frame(height: 44)
+                    .buttonStyle(.pressable)
+                } else {
+                    Text("\(revealed + 1) / \(total + 1)")
+                        .font(.figtree(14, .medium))
+                        .foregroundStyle(Palette.muted)
+                }
             }
             .padding(.horizontal, 24)
 
@@ -41,14 +58,14 @@ struct LessonView: View {
                     VStack(alignment: .leading, spacing: 16) {
                         VStack(alignment: .leading, spacing: 8) {
                             TagPill(text: pill)
-                            Text(artwork.title).font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                            Text(artwork.title).font(.serif(28)).foregroundStyle(Palette.ink)
                             Text("\(artwork.meta) · \(artwork.museum)").font(.aSmall).foregroundStyle(Palette.muted)
                         }
                         ArtImage(name: artwork.image)
                             .frame(height: 270)
                             .clipShape(RoundedRectangle(cornerRadius: 16))
 
-                        ForEach(Array(artwork.lesson.prefix(revealed).enumerated()), id: \.offset) { index, block in
+                        ForEach(Array(lesson.prefix(revealed).enumerated()), id: \.offset) { index, block in
                             Group {
                                 if block.isInteractive {
                                     interactiveCard(block, index: index)
@@ -75,7 +92,7 @@ struct LessonView: View {
                 }
             }
 
-            Button(isDone ? "Passer au quiz" : "Continuer") {
+            Button(isDone ? finishTitle : "Continuer") {
                 if isDone {
                     Haptics.success()
                     onFinish()
@@ -84,7 +101,7 @@ struct LessonView: View {
                     let index = revealed
                     withAnimation(.easeOut(duration: 0.15)) { revealed += 1 }
                     // Un bloc interactif s'ouvre tout de suite sur le tableau.
-                    if artwork.lesson.indices.contains(index), artwork.lesson[index].isInteractive {
+                    if lesson.indices.contains(index), lesson[index].isInteractive {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { open(index) }
                     }
                 }
@@ -94,10 +111,10 @@ struct LessonView: View {
             .padding(.bottom, 16)
         }
         .padding(.top, 8)
-        .background(Color.white)
+        .background(Palette.bg)
         .overlay {
-            if let studio, artwork.lesson.indices.contains(studio) {
-                PaintingStudio(artwork: artwork, block: artwork.lesson[studio]) {
+            if let studio, lesson.indices.contains(studio) {
+                PaintingStudio(artwork: artwork, block: lesson[studio]) {
                     withAnimation(.easeInOut(duration: 0.3)) { self.studio = nil }
                 }
                 .id(studio)
@@ -125,7 +142,7 @@ struct LessonView: View {
                             .font(.system(size: 16, weight: .semibold))
                             .foregroundStyle(.white)
                             .frame(width: 34, height: 34)
-                            .background(Circle().fill(Palette.blue))
+                            .background(Circle().fill(Palette.navy))
                     )
                 VStack(alignment: .leading, spacing: 2) {
                     Text(block.interactiveTitle).font(.aCardTitle).foregroundStyle(.white)
@@ -156,14 +173,14 @@ struct LessonView: View {
             }
         case "key":
             VStack(alignment: .leading, spacing: 4) {
-                Text("À retenir").font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
+                Text("À retenir").font(.figtree(12, .semibold)).foregroundStyle(Palette.navy)
                 Text(block.text ?? "").font(.bodyStrong).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 14)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.blueSoft))
+            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sand))
         default:
             Text(block.text ?? "")
                 .font(.figtree(17))

@@ -49,7 +49,7 @@ struct ProfileView: View {
                     HStack(spacing: 10) {
                         stat("\(user.streak)", user.streak > 1 ? "jours de série" : "jour de série", Palette.yellow)
                         stat("\(user.profile.opened.count)", "œuvres ouvertes", Palette.pink)
-                        stat("\(user.profile.gamesWon)", "jeux réussis", Palette.blueSoft)
+                        stat("\(user.profile.gamesWon)", "jeux réussis", Palette.sand)
                     }
 
                     Text("Ma collection").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
@@ -69,7 +69,7 @@ struct ProfileView: View {
                                     GeometryReader { geo in
                                         ZStack(alignment: .leading) {
                                             Capsule().fill(.white)
-                                            Capsule().fill(Palette.blue)
+                                            Capsule().fill(Palette.navy)
                                                 .frame(width: geo.size.width * CGFloat(item.count) / CGFloat(maxCount))
                                         }
                                     }
@@ -173,7 +173,7 @@ struct ProfileView: View {
                     Text(formatMinutes(user.profile.reminderMinutes)).font(.aCaption).foregroundStyle(Palette.muted)
                 }
             }
-            .tint(Palette.blue)
+            .tint(Palette.navy)
             .frame(minHeight: 56)
             Divider()
             Button {
@@ -183,7 +183,7 @@ struct ProfileView: View {
                     Text("Artura Pro").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                     Spacer()
                     Text(pro.isPro ? "Actif" : "Essayer 3 jours").font(.aSmall)
-                        .foregroundStyle(pro.isPro ? Palette.green : Palette.blueText)
+                        .foregroundStyle(pro.isPro ? Palette.green : Palette.navy)
                 }
                 .frame(minHeight: 56)
             }

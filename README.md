@@ -20,14 +20,33 @@ Si le projet ne s'ouvre pas, `project.yml` permet de le régénérer avec [Xcode
 | Dossier | Contenu |
 |---|---|
 | `Artura/App` | Point d'entrée, bascule onboarding / appli |
-| `Artura/Core` | Thème (couleurs, police Figtree, formes), composants, haptique |
+| `Artura/Core` | Thème (palette bleu nuit / beige / ocre, titres à empattements, Figtree), composants, haptique |
 | `Artura/Data` | Modèles, contenu embarqué, profil et progression (stockés sur l'appareil) |
 | `Artura/Services` | Rappels (notifications locales) et abonnement Artura Pro (StoreKit 2) |
-| `Artura/Onboarding` | Les écrans d'accueil, du premier écran à la création du compte |
+| `Artura/Onboarding` | Les écrans d'accueil, du premier écran à l'essai gratuit (`OnboardingFlow.swift` donne l'ordre) |
 | `Artura/Learn` | Lecture d'un cours bloc par bloc, quiz |
 | `Artura/Main` | Onglets Aujourd'hui, Explorer, Jeux, Profil |
 | `Artura/Games` | Zoom mystère, Chronologie, Vrai ou faux, Palette |
 | `Artura/Resources/content.json` | Œuvres, cours, quiz, anecdotes, courants |
+
+## Onboarding
+
+L'ordre des écrans est l'énumération `OnbStep` dans `Artura/Onboarding/OnboardingFlow.swift`. Les briques communes (personnage de la Joconde, bulle, texte qui s'écrit, mur de tableaux) sont dans `OnboardingKit.swift`.
+
+Pour ouvrir directement un écran en build Debug, ajouter des arguments de lancement au schéma (*Product › Scheme › Edit Scheme › Run › Arguments*) :
+
+| Argument | Effet |
+|---|---|
+| `-onbStep graph` | Démarre l'onboarding à cette étape (nom d'un cas de `OnbStep`) |
+| `-onbName Max` | Prénom utilisé dans les écrans |
+| `-onbPreviewOffer YES` | Affiche les écrans d'essai avec des prix d'exemple, sans StoreKit |
+| `-onbGiftOpen YES` | Écran cadeau déjà ouvert |
+| `-onbExitOffer YES` | Ouvre l'offre « 7 jours » dès l'écran d'essai |
+| `-noSplash YES` | Saute l'écran de lancement |
+
+## Build automatique
+
+`.github/workflows/build.yml` compile l'appli pour le simulateur à chaque push sur une branche `claude/**`. Si le message du commit contient `[captures]`, le même job lance l'appli dans un simulateur et prend une capture de chaque écran de l'onboarding (visibles dans les logs du job).
 
 ## Contenu
 
@@ -39,6 +58,7 @@ Produits attendus :
 
 - `com.vikstudios.artura.pro.yearly` (essai gratuit de 3 jours)
 - `com.vikstudios.artura.pro.monthly` (essai gratuit de 3 jours)
+- `com.vikstudios.artura.pro.yearly.trial7` (même abonnement annuel, essai gratuit de 7 jours : l'offre de dernière minute de l'onboarding)
 
 `Artura/Artura.storekit` permet de tester les achats dans le simulateur sans App Store Connect ; le schéma partagé le référence déjà. **Les prix qu'il contient (29,99 et 4,99) sont des valeurs de test**, à remplacer par les vrais tarifs, puis à créer à l'identique dans App Store Connect.
 
@@ -48,6 +68,9 @@ Produits attendus :
 
 ## À faire avant une mise en ligne
 
+- Remplacer les chiffres de `SocialProof` (`OnboardingKit.swift` : « 100 000 personnes », « 4,8 ») par les vrais chiffres de l'appli.
+- L'onboarding annonce « prends les œuvres en photo, demande des explications » et « près de 400 tableaux en un an » : la photo n'existe pas encore dans l'appli, et le contenu compte aujourd'hui 8 œuvres.
+- Renseigner `Legal.privacy` (`OnboardingPaywall.swift`) avec l'adresse de la politique de confidentialité.
 - Fixer les prix et créer les produits dans App Store Connect.
 - Vérifier les licences des reproductions (Wikimedia Commons) et celle des illustrations générées.
 - Widget « œuvre du jour » : non inclus dans cette version.
@@ -56,4 +79,4 @@ Produits attendus :
 ## Crédits
 
 - Police [Figtree](https://fonts.google.com/specimen/Figtree), licence OFL (voir `Artura/Fonts/LICENSE_FONT`).
-- Reproductions d'œuvres : Wikimedia Commons.
+- Reproductions d'œuvres (`art_*`, `wall_*`) : Wikimedia Commons, œuvres du domaine public.

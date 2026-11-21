@@ -103,10 +103,10 @@ struct ReminderScreen: View {
                     onNext: activate, secondaryTitle: "Plus tard", onSecondary: skip) {
             SunScene(minutes: minutes)
                 .frame(height: 250)
-                .appearUp(0.1)
+                .enter(2)
             VStack(spacing: 2) {
                 Text(formatMinutes(Int(minutes)))
-                    .font(.figtree(40, .semibold))
+                    .font(.serif(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
                 Text(momentLabel(Int(minutes))).font(.figtree(15)).foregroundStyle(Palette.muted)
@@ -114,7 +114,7 @@ struct ReminderScreen: View {
             .frame(maxWidth: .infinity)
             VStack(spacing: 2) {
                 Slider(value: $minutes, in: 360...1380, step: 15)
-                    .tint(Palette.blue)
+                    .tint(Palette.navy)
                     .accessibilityLabel("Heure du rappel")
                 HStack {
                     Text("6 h"); Spacer(); Text("midi"); Spacer(); Text("18 h"); Spacer(); Text("23 h")
@@ -170,18 +170,18 @@ struct LoadingScreen: View {
                 Circle().stroke(Palette.line, lineWidth: 14)
                 Circle()
                     .trim(from: 0, to: CGFloat(progress) / 100)
-                    .stroke(Palette.blue, style: StrokeStyle(lineWidth: 14, lineCap: .round))
+                    .stroke(Palette.navy, style: StrokeStyle(lineWidth: 14, lineCap: .round))
                     .rotationEffect(.degrees(-90))
                     .animation(.linear(duration: 0.1), value: progress)
                 Text("\(progress) %")
-                    .font(.figtree(40, .semibold))
+                    .font(.serif(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
             }
             .frame(width: 176, height: 176)
 
             VStack(spacing: 8) {
-                Text("On prépare ton programme").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                Text("On prépare ton programme").font(.serif(28)).foregroundStyle(Palette.ink)
                 Text("D'après tes réponses, rien que pour toi.").font(.aBody).foregroundStyle(Palette.muted)
             }
             .multilineTextAlignment(.center)
@@ -207,7 +207,8 @@ struct LoadingScreen: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 8)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
 
             Spacer(minLength: 0)
 
@@ -222,7 +223,7 @@ struct LoadingScreen: View {
         .padding(.horizontal, 24)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white)
+        .background(Palette.bg)
         .onAppear(perform: start)
         .onDisappear { timer?.invalidate() }
     }
@@ -261,7 +262,7 @@ struct AvatarPicker: View {
                         .frame(width: size, height: size)
                         .clipShape(Circle())
                         .padding(3)
-                        .overlay(Circle().stroke(selection == i ? Palette.blue : .clear, lineWidth: 3))
+                        .overlay(Circle().stroke(selection == i ? Palette.navy : .clear, lineWidth: 3))
                         .scaleEffect(selection == i ? 1.04 : 1)
                 }
                 .buttonStyle(.pressable)
@@ -306,10 +307,10 @@ struct PlanScreen: View {
                             withAnimation(.gentle) { picking = true }
                         }
                         .font(.figtree(14, .semibold))
-                        .foregroundStyle(Palette.blueText)
+                        .foregroundStyle(Palette.navy)
                         .padding(.horizontal, 16)
                         .frame(height: 44)
-                        .background(Capsule().fill(.white))
+                        .background(Capsule().fill(Palette.sand))
                         .buttonStyle(.pressable)
                     }
                     .padding(.horizontal, 12)
@@ -318,8 +319,9 @@ struct PlanScreen: View {
             }
             .frame(height: 84)
             .frame(maxWidth: .infinity)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
-            .appearUp(0.05)
+            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+            .enter(2)
 
             if let movement, let cover = content.artwork(movement.cover) {
                 HStack(spacing: 0) {
@@ -335,27 +337,35 @@ struct PlanScreen: View {
                 }
                 .background(Palette.yellow)
                 .clipShape(RoundedRectangle(cornerRadius: 16))
-                .appearUp(0.15)
+                .enter(3)
             }
 
             HStack(spacing: 10) {
                 projection("\(min(30, content.artworks.count))", "œuvres")
                 projection(hoursIn30Days, "de regard")
-                projection("\(max(1, user.profile.movements.count))", user.profile.movements.count > 1 ? "courants" : "courant")
+                projection("30", "jours de série")
             }
-            .appearUp(0.2)
+            .enter(4)
 
             VStack(spacing: 0) {
-                recap("Objectif", user.profile.goal ?? "À définir")
+                recap("Objectif", goalLabel)
                 Divider()
                 recap("Chaque jour", "\(user.profile.minutes) min")
                 Divider()
                 recap("Rappel", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Désactivé")
             }
             .padding(.horizontal, 16)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
-            .appearUp(0.25)
+            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+            .enter(5)
         }
+    }
+
+    /// La première motivation choisie, avec le nombre des autres.
+    private var goalLabel: String {
+        let goals = user.profile.goals ?? []
+        guard let first = goals.first ?? user.profile.goal else { return "À définir" }
+        return goals.count > 1 ? "\(first) (+\(goals.count - 1))" : first
     }
 
     /// Temps de regard cumulé sur 30 jours, d'après le rythme choisi.
@@ -366,13 +376,13 @@ struct PlanScreen: View {
 
     private func projection(_ value: String, _ label: String) -> some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(value).font(.figtree(24, .semibold))
+            Text(value).font(.serif(24, .bold))
             Text(label).font(.figtree(13, .medium))
         }
         .foregroundStyle(Palette.ink)
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.blueSoft))
+        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sand))
     }
 
     private func recap(_ label: String, _ value: String) -> some View {
@@ -418,14 +428,14 @@ struct AccountScreen: View {
 
             VStack(spacing: 8) {
                 Text("Garde ta série et ta collection")
-                    .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                    .font(.serif(28)).foregroundStyle(Palette.ink)
                 Text("Un compte pour ne rien perdre si tu changes de téléphone.")
                     .font(.aBody).foregroundStyle(Palette.muted)
             }
             .multilineTextAlignment(.center)
             .padding(.horizontal, 24)
             .padding(.top, -24)
-            .appearUp(0.1)
+            .enter(1)
 
             Spacer(minLength: 16)
 
@@ -460,9 +470,9 @@ struct AccountScreen: View {
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 16)
-            .appearUp(0.2)
+            .enter(3)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white)
+        .background(Palette.bg)
     }
 }

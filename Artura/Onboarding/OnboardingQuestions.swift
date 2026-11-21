@@ -16,7 +16,7 @@ struct NameScreen: View {
                     subtitle: "Pour qu'on sache à qui on parle.",
                     ctaEnabled: !trimmed.isEmpty, onNext: save) {
             TextField("Ton prénom", text: $name)
-                .font(.figtree(22, .semibold))
+                .font(.serif(24))
                 .foregroundStyle(Palette.ink)
                 .textContentType(.givenName)
                 .textInputAutocapitalization(.words)
@@ -25,16 +25,19 @@ struct NameScreen: View {
                 .focused($focused)
                 .onSubmit { if !trimmed.isEmpty { save() } }
                 .padding(.horizontal, 18)
-                .frame(height: 64)
-                .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
-                .overlay(RoundedRectangle(cornerRadius: 16).stroke(focused ? Palette.blue : .clear, lineWidth: 2))
+                .frame(height: 68)
+                .background(RoundedRectangle(cornerRadius: 18).fill(Palette.card))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 18)
+                        .stroke(focused ? Palette.navy : Palette.line, lineWidth: focused ? 2 : 1)
+                )
                 .animation(.snappy, value: focused)
-                .appearUp(0.2)
+                .enter(2)
         }
         .onAppear {
             name = user.profile.firstName ?? ""
             // Le clavier monte une fois l'écran posé.
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { focused = true }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { focused = true }
         }
     }
 
@@ -42,6 +45,173 @@ struct NameScreen: View {
         user.profile.firstName = trimmed
         focused = false
         onNext()
+    }
+}
+
+// MARK: Tu es…
+
+struct GenderScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+
+    private var title: String {
+        if let name = user.profile.firstName, !name.isEmpty {
+            return "Enchantée, \(name) ! Tu es…"
+        }
+        return "Tu es…"
+    }
+
+    var body: some View {
+        OnbScaffold(title: title,
+                    subtitle: "Pour accorder nos messages : « prêt » ou « prête » ?",
+                    ctaEnabled: user.profile.gender != nil, onNext: onNext) {
+            HStack(spacing: 12) {
+                portrait("ill_av1", "Une femme", "femme")
+                portrait("ill_av2", "Un homme", "homme")
+            }
+            .enter(2)
+            VStack(spacing: 10) {
+                ChoiceRow(title: "Autre", selected: user.profile.gender == "autre") {
+                    user.profile.gender = "autre"
+                }
+                ChoiceRow(title: "Je préfère ne pas le dire", selected: user.profile.gender == "na") {
+                    user.profile.gender = "na"
+                }
+            }
+            .enter(3.5)
+        }
+    }
+
+    private func portrait(_ image: String, _ label: String, _ value: String) -> some View {
+        let selected = user.profile.gender == value
+        return Button {
+            Haptics.selection()
+            user.profile.gender = value
+        } label: {
+            VStack(spacing: 12) {
+                ArtImage(name: image).frame(height: 150)
+                Text(label).font(.figtree(17, .semibold)).foregroundStyle(Palette.ink)
+            }
+            .padding(.bottom, 14)
+            .background(selected ? Palette.sandLight : Palette.card)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .overlay(
+                RoundedRectangle(cornerRadius: 20)
+                    .stroke(selected ? Palette.navy : Palette.line, lineWidth: selected ? 3 : 1)
+            )
+            .overlay(alignment: .topTrailing) {
+                if selected { CheckBadge(color: Palette.navy).padding(8).transition(.scale.combined(with: .opacity)) }
+            }
+        }
+        .buttonStyle(.pressable)
+        .animation(.snappy, value: selected)
+        .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+}
+
+// MARK: Qu'est-ce qui t'amène ? (plusieurs réponses)
+
+struct MotivationScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+
+    private let options: [(title: String, symbol: String)] = [
+        ("Apprendre l'art", "paintpalette.fill"),
+        ("Nourrir mon intelligence", "brain.head.profile"),
+        ("Avoir de nouvelles choses à raconter", "bubble.left.and.bubble.right.fill"),
+        ("Préparer un examen", "graduationcap.fill"),
+        ("Pour le plaisir", "sparkles")
+    ]
+
+    private var chosen: [String] { user.profile.goals ?? [] }
+
+    var body: some View {
+        OnbScaffold(title: "Qu'est-ce qui t'amène ?",
+                    subtitle: "Plusieurs réponses possibles.",
+                    ctaEnabled: !chosen.isEmpty, onNext: onNext) {
+            VStack(spacing: 10) {
+                ForEach(Array(options.enumerated()), id: \.offset) { i, option in
+                    ChoiceRow(title: option.title, symbol: option.symbol,
+                              selected: chosen.contains(option.title), multiple: true) {
+                        toggle(option.title)
+                    }
+                    .enter(Double(i) + 2)
+                }
+            }
+        }
+    }
+
+    private func toggle(_ title: String) {
+        var goals = chosen
+        if let index = goals.firstIndex(of: title) {
+            goals.remove(at: index)
+        } else {
+            goals.append(title)
+        }
+        user.profile.goals = goals
+        // La première motivation reste « l'objectif » rappelé dans le programme.
+        user.profile.goal = goals.first
+    }
+}
+
+// MARK: Tes arts
+
+struct ArtsScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+
+    private let arts: [(id: String, title: String, image: String, soon: Bool)] = [
+        ("peinture", "Peinture", "ill_palette", false),
+        ("sculpture", "Sculpture", "ill_sculpture", true),
+        ("architecture", "Architecture", "ill_musee", true),
+        ("photographie", "Photographie", "ill_photo", true)
+    ]
+
+    var body: some View {
+        OnbScaffold(title: "Y a-t-il des arts que tu veux explorer en particulier ?",
+                    subtitle: "Autant que tu veux. La peinture est prête, les autres arrivent.",
+                    ctaEnabled: !user.profile.arts.isEmpty, onNext: onNext) {
+            LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible())], spacing: 12) {
+                ForEach(Array(arts.enumerated()), id: \.element.id) { i, art in
+                    let selected = user.profile.arts.contains(art.id)
+                    Button {
+                        Haptics.selection()
+                        if let at = user.profile.arts.firstIndex(of: art.id) {
+                            user.profile.arts.remove(at: at)
+                        } else {
+                            user.profile.arts.append(art.id)
+                        }
+                    } label: {
+                        VStack(alignment: .leading, spacing: 8) {
+                            ArtImage(name: art.image).frame(height: 112)
+                            HStack(spacing: 6) {
+                                Text(art.title).font(.bodyStrong).foregroundStyle(Palette.ink)
+                                if art.soon {
+                                    Text("Bientôt").font(.figtree(11, .semibold)).foregroundStyle(Palette.muted)
+                                        .padding(.horizontal, 6).padding(.vertical, 2)
+                                        .background(Capsule().fill(Palette.sand))
+                                }
+                            }
+                            .padding(.horizontal, 12)
+                            .padding(.bottom, 12)
+                        }
+                        .background(selected ? Palette.sandLight : Palette.card)
+                        .clipShape(RoundedRectangle(cornerRadius: 18))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 18)
+                                .stroke(selected ? Palette.navy : Palette.line, lineWidth: selected ? 3 : 1)
+                        )
+                        .overlay(alignment: .topTrailing) {
+                            if selected { CheckBadge(color: Palette.navy).padding(8).transition(.scale.combined(with: .opacity)) }
+                        }
+                    }
+                    .buttonStyle(.pressable)
+                    .animation(.snappy, value: selected)
+                    .accessibilityAddTraits(selected ? .isSelected : [])
+                    .enter(Double(i) * 0.7 + 2)
+                }
+            }
+        }
     }
 }
 
@@ -63,33 +233,13 @@ struct ChoiceScreen: View {
         OnbScaffold(title: title, subtitle: subtitle, ctaEnabled: selection != nil, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
-                    OptionRow(title: option.title, subtitle: option.subtitle, selected: selection == option.title) {
+                    ChoiceRow(title: option.title, subtitle: option.subtitle, selected: selection == option.title) {
                         selection = option.title
                     }
-                    .appearUp(0.16 * Double(i + 1))
+                    .enter(Double(i) + 2)
                 }
             }
         }
-    }
-}
-
-// MARK: Pourquoi Artura
-
-struct WhyScreen: View {
-    @EnvironmentObject private var user: UserStore
-    let onNext: () -> Void
-
-    var body: some View {
-        ChoiceScreen(title: "Pourquoi es-tu sur Artura ?",
-                     subtitle: "Choisis ce qui te ressemble le plus.",
-                     options: [
-                        ChoiceOption(title: "Apprendre l'art"),
-                        ChoiceOption(title: "Nourrir mon intelligence"),
-                        ChoiceOption(title: "Avoir de nouvelles choses à raconter"),
-                        ChoiceOption(title: "Préparer un examen"),
-                        ChoiceOption(title: "Pour le plaisir")
-                     ],
-                     selection: $user.profile.goal, onNext: onNext)
     }
 }
 
@@ -146,4 +296,62 @@ struct MuseumScreen: View {
                      ],
                      selection: $user.profile.museumHabit, onNext: onNext)
     }
+}
+
+// MARK: Le temps passé sur ton téléphone
+
+struct PhoneTimeScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+    @State private var hours: Double = 4
+    @State private var glow = false
+
+    private var hoursLabel: String { formatHours(hours) }
+
+    var body: some View {
+        OnbScaffold(title: "Combien de temps par jour sur ton téléphone ?",
+                    subtitle: "Regarde dans Réglages › Temps d'écran si tu hésites.",
+                    onNext: save) {
+            ArtImage(name: "ill_phone", zoom: glow ? 1.08 : 1, anchor: UnitPoint(x: 0.5, y: 0.45))
+                .frame(height: 220)
+                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                .enter(2)
+
+            VStack(spacing: 0) {
+                Text(hoursLabel)
+                    .font(.serif(52, .bold)).foregroundStyle(Palette.ink)
+                    .contentTransition(.numericText())
+                Text("par jour").font(.aBody).foregroundStyle(Palette.muted)
+            }
+            .frame(maxWidth: .infinity)
+            .enter(3)
+
+            VStack(spacing: 2) {
+                Slider(value: $hours, in: 1...10, step: 0.5)
+                    .tint(Palette.navy)
+                    .accessibilityLabel("Heures par jour sur ton téléphone")
+                HStack {
+                    Text("1 h"); Spacer(); Text("5 h"); Spacer(); Text("10 h")
+                }
+                .font(.aCaption).foregroundStyle(Palette.muted)
+            }
+            .enter(4)
+        }
+        .onAppear {
+            hours = user.profile.phoneHours
+            withAnimation(.easeInOut(duration: 5).repeatForever(autoreverses: true)) { glow = true }
+        }
+        .onChange(of: hours) { _, _ in Haptics.selection() }
+    }
+
+    private func save() {
+        user.profile.phoneHours = hours
+        onNext()
+    }
+}
+
+/// "4 h" ou "4 h 30".
+func formatHours(_ hours: Double) -> String {
+    let whole = Int(hours)
+    return hours == Double(whole) ? "\(whole) h" : "\(whole) h 30"
 }

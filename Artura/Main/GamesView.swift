@@ -107,7 +107,7 @@ struct GamesView: View {
                             }
                         }
                         .frame(width: 32, height: 32)
-                        .overlay(Circle().stroke(day.isToday && !day.played ? Palette.blue : .clear, lineWidth: 2))
+                        .overlay(Circle().stroke(day.isToday && !day.played ? Palette.navy : .clear, lineWidth: 2))
                         Text(day.label)
                             .font(.figtree(12, day.isToday ? .bold : .regular))
                             .foregroundStyle(day.isToday ? Palette.ink : Palette.muted)
@@ -156,7 +156,7 @@ struct GameHost: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            Palette.bg.ignoresSafeArea()
             if let result {
                 ResultView(
                     title: trainingDone ? "Tu as fini ton entraînement du jour !"

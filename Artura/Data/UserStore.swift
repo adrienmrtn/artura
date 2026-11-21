@@ -32,6 +32,8 @@ final class UserStore: ObservableObject {
         /// Réponses aux questions de l'onboarding (optionnelles : absentes des anciens profils).
         var unknownArt: String?
         var museumHabit: String?
+        /// Motivations choisies à l'onboarding (plusieurs possibles).
+        var goals: [String]?
     }
 
     @Published var profile: Profile {
@@ -47,6 +49,7 @@ final class UserStore: ObservableObject {
         } else {
             profile = Profile()
         }
+        OnboardingDebug.prepare(&profile)
     }
 
     private func save() {

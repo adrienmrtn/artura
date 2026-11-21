@@ -17,14 +17,14 @@ struct ArturaApp: App {
                 .environmentObject(user)
                 .environmentObject(pro)
                 .preferredColorScheme(.light)
-                .tint(Palette.blue)
+                .tint(Palette.navy)
         }
     }
 }
 
 struct RootView: View {
     @EnvironmentObject private var user: UserStore
-    @State private var splash = true
+    @State private var splash = !OnboardingDebug.flag("noSplash")
 
     var body: some View {
         ZStack {
@@ -44,7 +44,7 @@ struct RootView: View {
 
     private var app: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            Palette.bg.ignoresSafeArea()
             if user.profile.onboarded {
                 MainTabView()
                     .transition(.opacity.combined(with: .scale(scale: 1.03)))
@@ -56,7 +56,7 @@ struct RootView: View {
         // Sur iPad, l'interface garde une largeur de téléphone, centrée.
         .frame(maxWidth: 520)
         .frame(maxWidth: .infinity)
-        .background(Color.white.ignoresSafeArea())
+        .background(Palette.bg.ignoresSafeArea())
         .animation(.gentle, value: user.profile.onboarded)
     }
 }
@@ -73,12 +73,12 @@ struct SplashView: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            Palette.bg.ignoresSafeArea()
             VStack(spacing: 22) {
                 ZStack {
                     // Halo qui s'élargit une fois derrière le logo.
                     RoundedRectangle(cornerRadius: 34)
-                        .stroke(Palette.blue.opacity(0.35), lineWidth: 3)
+                        .stroke(Palette.yellow.opacity(0.7), lineWidth: 3)
                         .frame(width: 128, height: 128)
                         .scaleEffect(halo ? 1.45 : 1)
                         .opacity(halo ? 0 : (logoIn ? 1 : 0))
@@ -96,7 +96,7 @@ struct SplashView: View {
                     HStack(spacing: 0) {
                         ForEach(Array(name.enumerated()), id: \.offset) { i, letter in
                             Text(String(letter))
-                                .font(.figtree(44, .bold))
+                                .font(.serif(46, .bold))
                                 .foregroundStyle(Palette.ink)
                                 .opacity(i < letters ? 1 : 0)
                                 .offset(y: i < letters ? 0 : 12)

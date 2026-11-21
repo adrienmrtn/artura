@@ -114,6 +114,23 @@ struct Artwork: Codable, Identifiable, Hashable {
     var canvasImage: String { hd ?? image }
 }
 
+extension Artwork {
+    /// Extrait du cours pour l'onboarding : le début, jusqu'à la première interaction,
+    /// puis la lecture qui suit jusqu'au premier « À retenir ».
+    var previewLesson: [LessonBlock] {
+        guard let first = lesson.firstIndex(where: { $0.isInteractive }) else {
+            return Array(lesson.prefix(4))
+        }
+        var end = first
+        for i in lesson.indices where i > first {
+            if lesson[i].isInteractive { break }
+            end = i
+            if lesson[i].type == "key" { break }
+        }
+        return Array(lesson[...end])
+    }
+}
+
 struct Movement: Codable, Identifiable, Hashable {
     let id: String
     let name: String
