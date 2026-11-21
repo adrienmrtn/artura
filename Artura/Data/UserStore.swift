@@ -182,7 +182,7 @@ final class UserStore: ObservableObject {
         }
     }
 
-    /// Returns the masculine or feminine form (e.g. French "prêt" / "prête") based on the answer to the gender step.
+    /// Returns the masculine or feminine form, based on the answer to the gender step.
     func agree(_ masculine: String, _ feminine: String) -> String {
         profile.gender == "femme" ? feminine : masculine
     }
