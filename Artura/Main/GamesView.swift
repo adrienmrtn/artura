@@ -4,26 +4,26 @@ enum GameKind: String, Identifiable, CaseIterable {
     case zoom, chronology, palette, trueFalse, training
     var id: String { rawValue }
 
-    /// Les quatre jeux affichés dans la liste (l'entraînement a son propre bouton).
+    /// The four games shown in the list (practice has its own button).
     static let listed: [GameKind] = [.zoom, .chronology, .palette, .trueFalse]
 
     var title: String {
         switch self {
-        case .zoom: return "Zoom mystère"
-        case .chronology: return "Chronologie"
+        case .zoom: return "Mystery Zoom"
+        case .chronology: return "Timeline"
         case .palette: return "Palette"
-        case .trueFalse: return "Vrai ou faux"
-        case .training: return "Entraînement"
+        case .trueFalse: return "True or False"
+        case .training: return "Practice"
         }
     }
 
     var subtitle: String {
         switch self {
-        case .zoom: return "Devine l'œuvre à partir d'un détail · 1 min"
-        case .chronology: return "Classe 4 œuvres par date · 2 min"
-        case .palette: return "Retrouve les couleurs du tableau · 1 min"
-        case .trueFalse: return "Anecdotes d'atelier · 1 min"
-        case .training: return "Les quatre types de questions, mélangés"
+        case .zoom: return "Guess the artwork from a detail · 1 min"
+        case .chronology: return "Put 4 artworks in date order · 2 min"
+        case .palette: return "Match the painting's colors · 1 min"
+        case .trueFalse: return "Studio stories · 1 min"
+        case .training: return "All four question types, mixed"
         }
     }
 
@@ -42,7 +42,7 @@ struct GamesView: View {
     @EnvironmentObject private var user: UserStore
     @State private var game: GameKind?
 
-    /// Le défi du jour tourne entre les quatre jeux.
+    /// The daily challenge rotates through the four games.
     private var daily: GameKind {
         let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
         return GameKind.listed[day % GameKind.listed.count]
@@ -55,7 +55,7 @@ struct GamesView: View {
                     ArtImage(name: "ill_musee", anchor: UnitPoint(x: 0.5, y: 0.1))
                         .frame(height: 160)
                         .clipShape(ArcHeaderShape())
-                    Text("Jeux")
+                    Text("Games")
                         .font(.figtree(22, .semibold))
                         .foregroundStyle(Palette.ink)
                         .padding(.horizontal, 16)
@@ -71,7 +71,7 @@ struct GamesView: View {
                         TrainingButton { game = .training }
                     }
                     .padding(.vertical, 4)
-                    Text("Ou choisis un jeu").font(.aHeading).foregroundStyle(Palette.ink)
+                    Text("Or pick a game").font(.aHeading).foregroundStyle(Palette.ink)
                     ForEach(Array(GameKind.listed.enumerated()), id: \.element.id) { i, kind in
                         gameRow(kind).appearUp(0.06 * Double(i + 1))
                     }
@@ -91,10 +91,10 @@ struct GamesView: View {
     private var weekCard: some View {
         VStack(spacing: 10) {
             HStack {
-                Text(user.streak == 0 ? "Lance ta série" : "Série de \(user.streak) jour\(user.streak > 1 ? "s" : "")")
+                Text(user.streak == 0 ? "Start your streak" : "\(user.streak)-day streak")
                     .font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 Spacer()
-                Text(user.playedToday ? "C'est fait pour aujourd'hui" : "Joue aujourd'hui pour la garder")
+                Text(user.playedToday ? "Done for today" : "Play today to keep it")
                     .font(.aCaption).foregroundStyle(Palette.muted)
             }
             HStack(spacing: 6) {
@@ -128,7 +128,7 @@ struct GamesView: View {
             HStack(spacing: 14) {
                 ArtImage(name: kind.image).frame(width: 96, height: 96)
                 VStack(alignment: .leading, spacing: 3) {
-                    if kind == daily { TagPill(text: "Défi du jour") }
+                    if kind == daily { TagPill(text: "Daily challenge") }
                     Text(kind.title).font(.aCardTitle).foregroundStyle(Palette.ink)
                     Text(kind.subtitle).font(.aCaption).foregroundStyle(Palette.muted)
                         .multilineTextAlignment(.leading)
@@ -144,7 +144,7 @@ struct GamesView: View {
     }
 }
 
-/// Enveloppe commune aux jeux : barre du haut, partie, écran de fin.
+/// Shared wrapper for the games: top bar, the game itself, end screen.
 struct GameHost: View {
     @EnvironmentObject private var user: UserStore
     @Environment(\.dismiss) private var dismiss
@@ -159,10 +159,10 @@ struct GameHost: View {
             Color.white.ignoresSafeArea()
             if let result {
                 ResultView(
-                    title: trainingDone ? "Tu as fini ton entraînement du jour !"
-                        : (result.score == result.total ? "Sans faute !" : (result.score * 2 >= result.total ? "Bien joué" : "On retente ?")),
-                    detail: trainingDone ? "\(result.score) sur \(result.total) · reviens demain pour 30 nouvelles questions"
-                        : "\(result.score) sur \(result.total)",
+                    title: trainingDone ? "You've finished today's practice!"
+                        : (result.score == result.total ? "Perfect score!" : (result.score * 2 >= result.total ? "Nicely done" : "Try again?")),
+                    detail: trainingDone ? "\(result.score) of \(result.total) · come back tomorrow for 30 new questions"
+                        : "\(result.score) of \(result.total)",
                     celebrate: trainingDone || result.score * 2 >= result.total,
                     onReplay: kind == .training ? nil : {
                         Haptics.tap()
@@ -187,7 +187,7 @@ struct GameHost: View {
                                 .background(Circle().fill(Palette.card))
                         }
                         .buttonStyle(.pressable)
-                        .accessibilityLabel("Quitter le jeu")
+                        .accessibilityLabel("Quit the game")
                         Spacer()
                         Text(kind.title).font(.figtree(17, .semibold)).foregroundStyle(Palette.ink)
                         Spacer()
@@ -220,21 +220,21 @@ struct GameHost: View {
     }
 }
 
-/// Bouton « S'entraîner » avec le compteur du jour ; grisé une fois les 30 questions faites.
+/// "Practice" button with today's counter; dimmed once the 30 questions are done.
 struct TrainingButton: View {
     @EnvironmentObject private var user: UserStore
     let action: () -> Void
 
     private var caption: String {
         let goal = UserStore.trainingDailyGoal
-        if user.trainingFinished { return "Tu as fini ton entraînement du jour. Reviens demain !" }
-        if user.trainingDoneToday == 0 { return "\(goal) questions par jour, les quatre jeux mélangés." }
-        return "\(user.trainingDoneToday) sur \(goal) aujourd'hui · encore \(user.trainingRemaining)"
+        if user.trainingFinished { return "You've finished today's practice. Come back tomorrow!" }
+        if user.trainingDoneToday == 0 { return "\(goal) questions a day, all four games mixed." }
+        return "\(user.trainingDoneToday) of \(goal) today · \(user.trainingRemaining) to go"
     }
 
     var body: some View {
         VStack(spacing: 6) {
-            Button(user.trainingFinished ? "Entraînement terminé" : (user.trainingDoneToday == 0 ? "S'entraîner" : "Reprendre l'entraînement")) {
+            Button(user.trainingFinished ? "Practice done" : (user.trainingDoneToday == 0 ? "Practice" : "Resume practice")) {
                 action()
             }
             .buttonStyle(.primary)

@@ -1,7 +1,7 @@
 import SwiftUI
 import CoreText
 
-// MARK: - Couleurs
+// MARK: - Colors
 
 extension Color {
     init(hex: UInt32, opacity: Double = 1) {
@@ -14,7 +14,7 @@ extension Color {
         )
     }
 
-    /// "#RRGGBB" → Color. Retourne du gris si la chaîne est invalide.
+    /// "#RRGGBB" → Color. Returns gray if the string is invalid.
     init(hexString: String) {
         let cleaned = hexString.trimmingCharacters(in: CharacterSet(charactersIn: "# "))
         let value = UInt32(cleaned, radix: 16) ?? 0x888888
@@ -45,7 +45,7 @@ enum Palette {
     static let redSoft = Color(hex: 0xFCE8E6)
 }
 
-// MARK: - Typographie (Figtree, embarquée dans le bundle)
+// MARK: - Typography (Figtree, embedded in the bundle)
 
 enum FontRegistrar {
     static func registerAll() {
@@ -78,9 +78,9 @@ extension Font {
     static let aCaption = Font.figtree(13)
 }
 
-// MARK: - Formes
+// MARK: - Shapes
 
-/// Zone d'en-tête dont le bord bas est un arc légèrement incliné.
+/// Header area whose bottom edge is a slightly tilted arc.
 struct ArcHeaderShape: Shape {
     func path(in rect: CGRect) -> Path {
         var p = Path()
@@ -96,7 +96,7 @@ struct ArcHeaderShape: Shape {
     }
 }
 
-/// Panneau de bas d'écran dont le bord haut est un arc incliné.
+/// Bottom-of-screen panel whose top edge is a tilted arc.
 struct ArcTopShape: Shape {
     func path(in rect: CGRect) -> Path {
         var p = Path()
@@ -115,7 +115,7 @@ struct ArcTopShape: Shape {
 // MARK: - Animations
 
 extension Animation {
-    // Courbes simples, sans ressort : aucun rebond.
+    // Simple curves, no spring: no bounce.
     static let snappy = Animation.easeOut(duration: 0.16)
     static let gentle = Animation.easeInOut(duration: 0.24)
     static let bouncy = Animation.easeOut(duration: 0.2)

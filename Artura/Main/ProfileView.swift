@@ -10,7 +10,7 @@ struct ProfileView: View {
 
     private var levelLabel: String {
         let done = user.profile.completedLessons.count
-        return "\(user.profile.level ?? "Amateur") · niveau \(1 + done / 2)"
+        return "\(user.profile.level ?? "Amateur") · level \(1 + done / 2)"
     }
 
     private var tastes: [(movement: Movement, count: Int)] {
@@ -33,7 +33,7 @@ struct ProfileView: View {
                             .id(user.profile.avatar)
                             .transition(.scale.combined(with: .opacity))
                         VStack(alignment: .leading, spacing: 2) {
-                            Text(user.profile.firstName ?? "Ton profil").font(.figtree(24, .semibold))
+                            Text(user.profile.firstName ?? "Your profile").font(.figtree(24, .semibold))
                             Text(levelLabel).font(.figtree(14))
                         }
                         .foregroundStyle(.white)
@@ -43,20 +43,20 @@ struct ProfileView: View {
                 }
 
                 VStack(alignment: .leading, spacing: 14) {
-                    Text("Choisis ton avatar").font(.aHeading).foregroundStyle(Palette.ink)
+                    Text("Choose your avatar").font(.aHeading).foregroundStyle(Palette.ink)
                     AvatarPicker(selection: $user.profile.avatar, size: 54)
 
                     HStack(spacing: 10) {
-                        stat("\(user.streak)", user.streak > 1 ? "jours de série" : "jour de série", Palette.yellow)
-                        stat("\(user.profile.opened.count)", "œuvres ouvertes", Palette.pink)
-                        stat("\(user.profile.gamesWon)", "jeux réussis", Palette.blueSoft)
+                        stat("\(user.streak)", "day streak", Palette.yellow)
+                        stat("\(user.profile.opened.count)", "artworks opened", Palette.pink)
+                        stat("\(user.profile.gamesWon)", "games won", Palette.blueSoft)
                     }
 
-                    Text("Ma collection").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
+                    Text("My collection").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
                     collection
 
                     if !tastes.isEmpty {
-                        Text("Tes goûts").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
+                        Text("Your tastes").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
                         VStack(spacing: 12) {
                             let maxCount = tastes.map(\.count).max() ?? 1
                             ForEach(tastes, id: \.movement.id) { item in
@@ -64,7 +64,7 @@ struct ProfileView: View {
                                     HStack {
                                         Text(item.movement.name).font(.figtree(14, .semibold)).foregroundStyle(Palette.ink)
                                         Spacer()
-                                        Text("\(item.count) œuvre\(item.count > 1 ? "s" : "")").font(.aSmall).foregroundStyle(Palette.muted)
+                                        Text("\(item.count) artwork\(item.count == 1 ? "" : "s")").font(.aSmall).foregroundStyle(Palette.muted)
                                     }
                                     GeometryReader { geo in
                                         ZStack(alignment: .leading) {
@@ -96,15 +96,15 @@ struct ProfileView: View {
         .fullScreenCover(isPresented: $showPaywall) {
             PaywallScreen(onClose: { showPaywall = false })
         }
-        .confirmationDialog("Recommencer depuis le début ?", isPresented: $confirmReset, titleVisibility: .visible) {
-            Button("Tout effacer", role: .destructive) {
+        .confirmationDialog("Start over from the beginning?", isPresented: $confirmReset, titleVisibility: .visible) {
+            Button("Erase everything", role: .destructive) {
                 Haptics.warning()
                 Reminder.cancelDaily()
                 user.resetAll()
             }
-            Button("Annuler", role: .cancel) {}
+            Button("Cancel", role: .cancel) {}
         } message: {
-            Text("Ta série, ta collection et tes réponses seront effacées de cet appareil.")
+            Text("Your streak, collection, and answers will be erased from this device.")
         }
     }
 
@@ -123,7 +123,7 @@ struct ProfileView: View {
     private var collection: some View {
         let items = user.profile.favorites.compactMap { content.artwork($0) }
         if items.isEmpty {
-            Text("Touche le cœur sur une œuvre pour l'ajouter à ta collection.")
+            Text("Tap the heart on an artwork to add it to your collection.")
                 .font(.aSmall).foregroundStyle(Palette.muted)
                 .padding(16)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -169,7 +169,7 @@ struct ProfileView: View {
                 }
             )) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("Rappel quotidien").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                    Text("Daily reminder").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                     Text(formatMinutes(user.profile.reminderMinutes)).font(.aCaption).foregroundStyle(Palette.muted)
                 }
             }
@@ -182,7 +182,7 @@ struct ProfileView: View {
                 HStack {
                     Text("Artura Pro").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                     Spacer()
-                    Text(pro.isPro ? "Actif" : "Essayer 3 jours").font(.aSmall)
+                    Text(pro.isPro ? "Active" : "Try 3 days free").font(.aSmall)
                         .foregroundStyle(pro.isPro ? Palette.green : Palette.blueText)
                 }
                 .frame(minHeight: 56)
@@ -193,7 +193,7 @@ struct ProfileView: View {
                 confirmReset = true
             } label: {
                 HStack {
-                    Text("Refaire l'introduction").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                    Text("Redo the intro").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                     Spacer()
                     Image(systemName: "arrow.counterclockwise").foregroundStyle(Palette.muted)
                 }

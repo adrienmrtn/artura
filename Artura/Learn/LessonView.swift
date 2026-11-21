@@ -1,15 +1,15 @@
 import SwiftUI
 
-/// Lecture d'un cours bloc par bloc : chaque appui sur « Continuer » révèle le bloc suivant
-/// et le fait défiler au centre de l'écran.
+/// Reads a lesson block by block: each tap on "Continue" reveals the next block
+/// and scrolls it to the center of the screen.
 struct LessonView: View {
     let artwork: Artwork
-    var pill: String = "Cours"
+    var pill: String = "Lesson"
     let onBack: () -> Void
     let onFinish: () -> Void
 
     @State private var revealed = 0
-    /// Bloc interactif ouvert en plein écran sur le tableau.
+    /// Interactive block opened full screen on the painting.
     @State private var studio: Int?
 
     private var total: Int { artwork.lesson.count }
@@ -28,7 +28,7 @@ struct LessonView: View {
                 }
                 .buttonStyle(.pressable)
                 .padding(.leading, -12)
-                .accessibilityLabel("Retour")
+                .accessibilityLabel("Back")
                 ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
                 Text("\(revealed + 1) / \(total + 1)")
                     .font(.figtree(14, .medium))
@@ -59,7 +59,7 @@ struct LessonView: View {
                                 .id(index)
                                 .transition(.opacity)
                         }
-                        // Marge basse : permet au dernier bloc de remonter jusqu'au centre de l'écran.
+                        // Bottom margin: lets the last block scroll up to the center of the screen.
                         Color.clear.frame(height: 340)
                     }
                     .padding(.horizontal, 24)
@@ -68,14 +68,14 @@ struct LessonView: View {
                 .scrollIndicators(.hidden)
                 .onChange(of: revealed) { _, newValue in
                     guard newValue > 0 else { return }
-                    // Le bloc qu'on vient de révéler se place au centre, sans attendre.
+                    // The block just revealed moves to the center right away.
                     withAnimation(.easeOut(duration: 0.22)) {
                         proxy.scrollTo(newValue - 1, anchor: .center)
                     }
                 }
             }
 
-            Button(isDone ? "Passer au quiz" : "Continuer") {
+            Button(isDone ? "Take the quiz" : "Continue") {
                 if isDone {
                     Haptics.success()
                     onFinish()
@@ -83,7 +83,7 @@ struct LessonView: View {
                     Haptics.soft()
                     let index = revealed
                     withAnimation(.easeOut(duration: 0.15)) { revealed += 1 }
-                    // Un bloc interactif s'ouvre tout de suite sur le tableau.
+                    // An interactive block opens on the painting right away.
                     if artwork.lesson.indices.contains(index), artwork.lesson[index].isInteractive {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { open(index) }
                     }
@@ -111,7 +111,7 @@ struct LessonView: View {
         withAnimation(.easeInOut(duration: 0.3)) { studio = index }
     }
 
-    /// Dans le fil du cours, un bloc interactif laisse une carte qu'on peut rouvrir.
+    /// Within the lesson, an interactive block leaves a card you can reopen.
     private func interactiveCard(_ block: LessonBlock, index: Int) -> some View {
         Button {
             open(index)
@@ -129,7 +129,7 @@ struct LessonView: View {
                     )
                 VStack(alignment: .leading, spacing: 2) {
                     Text(block.interactiveTitle).font(.aCardTitle).foregroundStyle(.white)
-                    Text("Touche pour rouvrir le tableau").font(.aCaption).foregroundStyle(Color.white.opacity(0.75))
+                    Text("Tap to reopen the painting").font(.aCaption).foregroundStyle(Color.white.opacity(0.75))
                 }
                 Spacer(minLength: 0)
                 Image(systemName: "arrow.up.left.and.arrow.down.right")
@@ -156,7 +156,7 @@ struct LessonView: View {
             }
         case "key":
             VStack(alignment: .leading, spacing: 4) {
-                Text("À retenir").font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
+                Text("Key takeaway").font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
                 Text(block.text ?? "").font(.bodyStrong).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -164,6 +164,20 @@ struct LessonView: View {
             .padding(.vertical, 14)
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(RoundedRectangle(cornerRadius: 16).fill(Palette.blueSoft))
+        case "fact":
+            VStack(alignment: .leading, spacing: 4) {
+                HStack(spacing: 6) {
+                    Image(systemName: "lightbulb.fill").font(.figtree(12, .semibold))
+                    Text("Did you know?").font(.figtree(12, .semibold))
+                }
+                .foregroundStyle(Palette.ink)
+                Text(block.text ?? "").font(.figtree(16)).foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 14)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.yellow.opacity(0.28)))
         default:
             Text(block.text ?? "")
                 .font(.figtree(17))

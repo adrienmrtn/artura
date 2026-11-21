@@ -5,10 +5,10 @@ enum AppTab: Int, CaseIterable {
 
     var title: String {
         switch self {
-        case .today: return "Aujourd'hui"
-        case .explore: return "Explorer"
-        case .games: return "Jeux"
-        case .profile: return "Profil"
+        case .today: return "Today"
+        case .explore: return "Explore"
+        case .games: return "Games"
+        case .profile: return "Profile"
         }
     }
 
@@ -68,7 +68,7 @@ struct MainTabView: View {
     }
 }
 
-// MARK: - Parcours cours → quiz, présenté en plein écran
+// MARK: - Lesson → quiz flow, presented full screen
 
 struct CourseFlow: View {
     @EnvironmentObject private var user: UserStore
@@ -97,8 +97,8 @@ struct CourseFlow: View {
                 .transition(.move(edge: .trailing).combined(with: .opacity))
             default:
                 ResultView(
-                    title: score == artwork.quiz.count ? "Sans faute !" : "Cours terminé",
-                    detail: "\(score) bonne\(score > 1 ? "s" : "") réponse\(score > 1 ? "s" : "") sur \(artwork.quiz.count)",
+                    title: score == artwork.quiz.count ? "Perfect score!" : "Lesson complete",
+                    detail: "\(score) of \(artwork.quiz.count) correct",
                     celebrate: score == artwork.quiz.count,
                     onDone: { dismiss() }
                 )
@@ -109,7 +109,7 @@ struct CourseFlow: View {
     }
 }
 
-/// Écran de fin, commun au quiz et aux jeux.
+/// End screen, shared by the quiz and the games.
 struct ResultView: View {
     let title: String
     let detail: String
@@ -133,9 +133,9 @@ struct ResultView: View {
                 Text(detail).font(.aBody).foregroundStyle(Palette.muted).appearUp(0.3)
                 Spacer()
                 if let onReplay {
-                    Button("Rejouer", action: onReplay).buttonStyle(.secondary)
+                    Button("Play again", action: onReplay).buttonStyle(.secondary)
                 }
-                Button("Terminer", action: onDone).buttonStyle(.primary)
+                Button("Done", action: onDone).buttonStyle(.primary)
             }
             .multilineTextAlignment(.center)
             .padding(.horizontal, 24)

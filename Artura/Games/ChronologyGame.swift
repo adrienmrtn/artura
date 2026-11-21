@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Chronologie : remettre quatre œuvres dans l'ordre, de la plus ancienne à la plus récente.
+/// Timeline: put four artworks back in order, from oldest to newest.
 struct ChronologyGame: View {
     @EnvironmentObject private var content: ContentStore
     let onFinish: (Int, Int) -> Void
@@ -17,9 +17,9 @@ struct ChronologyGame: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 6) {
-                Text("De la plus ancienne à la plus récente").font(.aTitleSmall).foregroundStyle(Palette.ink)
+                Text("From oldest to newest").font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text(checked ? "\(score) œuvre\(score > 1 ? "s" : "") à la bonne place." : "Fais glisser les œuvres par la poignée pour les classer.")
+                Text(checked ? "\(score) artwork\(score == 1 ? "" : "s") in the right spot." : "Drag the artworks by the handle to put them in order.")
                     .font(.aBody).foregroundStyle(Palette.muted)
             }
             .padding(.horizontal, 24)
@@ -38,7 +38,7 @@ struct ChronologyGame: View {
             .scrollDisabled(true)
             .environment(\.editMode, .constant(checked ? .inactive : .active))
 
-            Button(checked ? "Voir mon score" : "Valider l'ordre") {
+            Button(checked ? "See my score" : "Check the order") {
                 if checked {
                     onFinish(score, items.count)
                 } else {

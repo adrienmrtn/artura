@@ -36,7 +36,7 @@ struct RootView: View {
                     .transition(.opacity)
             }
         }
-        // Sur iPad, l'interface garde une largeur de téléphone, centrée.
+        // On iPad, the interface keeps a phone width, centered.
         .frame(maxWidth: 520)
         .frame(maxWidth: .infinity)
         .background(Color.white.ignoresSafeArea())

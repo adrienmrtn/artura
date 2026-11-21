@@ -2,7 +2,7 @@ import Foundation
 import StoreKit
 import UserNotifications
 
-// MARK: - Rappels
+// MARK: - Reminders
 
 enum Reminder {
     static func requestPermission() async -> Bool {
@@ -10,13 +10,13 @@ enum Reminder {
         return (try? await center.requestAuthorization(options: [.alert, .sound, .badge])) ?? false
     }
 
-    /// Programme la notification quotidienne à l'heure choisie (minutes depuis minuit).
+    /// Schedules the daily notification at the chosen time (minutes since midnight).
     static func scheduleDaily(atMinutes minutes: Int) {
         let center = UNUserNotificationCenter.current()
         center.removePendingNotificationRequests(withIdentifiers: ["artura.daily"])
         let content = UNMutableNotificationContent()
-        content.title = "Ton œuvre du jour t'attend"
-        content.body = "Cinq minutes pour regarder, comprendre et retenir."
+        content.title = "Your artwork of the day is waiting"
+        content.body = "Five minutes to look, understand, and remember."
         content.sound = .default
         var components = DateComponents()
         components.hour = minutes / 60
@@ -29,20 +29,20 @@ enum Reminder {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["artura.daily"])
     }
 
-    /// Prévient un jour avant la fin de l'essai gratuit de 3 jours.
+    /// Notifies one day before the 3-day free trial ends.
     static func scheduleTrialEnding() {
         let center = UNUserNotificationCenter.current()
         center.removePendingNotificationRequests(withIdentifiers: ["artura.trial"])
         let content = UNMutableNotificationContent()
-        content.title = "Ton essai gratuit se termine demain"
-        content.body = "Tu peux continuer avec Artura Pro ou annuler en un geste."
+        content.title = "Your free trial ends tomorrow"
+        content.body = "Keep going with Artura Pro, or cancel in one tap."
         content.sound = .default
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 2 * 24 * 3600, repeats: false)
         center.add(UNNotificationRequest(identifier: "artura.trial", content: content, trigger: trigger))
     }
 }
 
-// MARK: - Abonnement Artura Pro (StoreKit 2)
+// MARK: - Artura Pro subscription (StoreKit 2)
 
 @MainActor
 final class ProStore: ObservableObject {
@@ -79,7 +79,7 @@ final class ProStore: ObservableObject {
         do {
             products = try await Product.products(for: Self.allIDs)
         } catch {
-            lastError = "Impossible de charger les offres."
+            lastError = "Couldn't load the plans."
         }
     }
 
@@ -95,7 +95,7 @@ final class ProStore: ObservableObject {
         isPro = pro
     }
 
-    /// Lance l'achat. Retourne true si l'abonnement est actif à la fin.
+    /// Starts the purchase. Returns true if the subscription is active at the end.
     func purchase(_ product: Product) async -> Bool {
         isPurchasing = true
         defer { isPurchasing = false }
@@ -108,7 +108,7 @@ final class ProStore: ObservableObject {
                     await refreshEntitlements()
                     return true
                 }
-                lastError = "L'achat n'a pas pu être vérifié."
+                lastError = "The purchase couldn't be verified."
                 return false
             case .userCancelled, .pending:
                 return false
@@ -116,7 +116,7 @@ final class ProStore: ObservableObject {
                 return false
             }
         } catch {
-            lastError = "L'achat a échoué. Réessaie dans un instant."
+            lastError = "The purchase failed. Try again in a moment."
             return false
         }
     }

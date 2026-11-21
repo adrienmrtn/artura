@@ -1,19 +1,19 @@
 import SwiftUI
 
-/// Un point d'intérêt sur le tableau, en coordonnées 0…1 depuis le coin haut gauche.
+/// A point of interest on the painting, in 0…1 coordinates from the top-left corner.
 struct Spot: Codable, Hashable {
     var x: Double
     var y: Double
     var zoom: Double?
-    /// Rayon du repère, en fraction de la largeur du tableau.
+    /// Marker radius, as a fraction of the painting's width.
     var r: Double?
-    /// "circle" (par défaut), "rect" ou "arrow"
+    /// "circle" (default), "rect" or "arrow"
     var shape: String?
     var title: String?
     var text: String?
 }
 
-/// Un tracé dessiné par-dessus le tableau (composition, regard, lumière).
+/// A line drawn over the painting (composition, gaze, light).
 struct GuideLine: Codable, Hashable {
     var points: [[Double]]
     var closed: Bool?
@@ -21,7 +21,7 @@ struct GuideLine: Codable, Hashable {
     var text: String
 }
 
-/// Une couleur de la palette, avec l'image qui éclaire les zones où elle se trouve.
+/// A palette color, with the image that highlights the areas where it appears.
 struct Swatch: Codable, Hashable {
     var hex: String
     var name: String
@@ -30,8 +30,8 @@ struct Swatch: Codable, Hashable {
 }
 
 struct LessonBlock: Codable, Hashable {
-    /// Blocs de lecture : "text", "image", "key".
-    /// Blocs interactifs, en plein écran sur le tableau : "tour", "find", "lines", "palette", "explore".
+    /// Reading blocks: "text", "image", "key", "fact".
+    /// Interactive blocks, full screen on the painting: "tour", "find", "lines", "palette", "explore".
     let type: String
     var title: String?
     var text: String?
@@ -49,11 +49,11 @@ struct LessonBlock: Codable, Hashable {
     var interactiveTitle: String {
         if let title { return title }
         switch type {
-        case "tour": return "Visite guidée"
-        case "find": return "Trouve-le"
-        case "lines": return "Lignes de composition"
-        case "palette": return "La palette"
-        default: return "Zoom libre"
+        case "tour": return "Guided tour"
+        case "find": return "Find it"
+        case "lines": return "Composition lines"
+        case "palette": return "The palette"
+        default: return "Free zoom"
         }
     }
 
@@ -95,7 +95,7 @@ struct Artwork: Codable, Identifiable, Hashable {
     let museum: String
     let movementId: String
     let image: String
-    /// Version haute définition, pour zoomer dans le cours (sinon on prend `image`).
+    /// High-definition version, for zooming in the lesson (falls back to `image`).
     var hd: String?
     let palette: [String]
     let focus: [Double]
@@ -128,7 +128,7 @@ struct ContentBundle: Codable {
     let artworks: [Artwork]
 }
 
-/// Contenu embarqué dans l'appli (Resources/content.json).
+/// Content bundled with the app (Resources/content.json).
 final class ContentStore: ObservableObject {
     let movements: [Movement]
     let artworks: [Artwork]
@@ -140,7 +140,7 @@ final class ContentStore: ObservableObject {
             movements = bundle.movements
             artworks = bundle.artworks
         } else {
-            assertionFailure("content.json introuvable ou invalide")
+            assertionFailure("content.json missing or invalid")
             movements = []
             artworks = []
         }
@@ -160,7 +160,7 @@ final class ContentStore: ObservableObject {
         artworks.filter { $0.movementId == movementId }
     }
 
-    /// Œuvre du jour : change chaque jour, de façon stable.
+    /// Artwork of the day: changes daily, in a stable way.
     var artworkOfTheDay: Artwork? {
         guard !artworks.isEmpty else { return nil }
         let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
@@ -173,4 +173,4 @@ final class ContentStore: ObservableObject {
 }
 
 let avatarImages = ["ill_av1", "ill_av2", "ill_av3", "ill_av4", "ill_av5"]
-let avatarLabels = ["La jeune fille au turban", "L'homme au chapeau de paille", "Le chat au béret", "Le soleil", "La lune"]
+let avatarLabels = ["Girl with the turban", "Man in the straw hat", "Cat in a beret", "The sun", "The moon"]
