@@ -65,12 +65,14 @@ struct Quote: Identifiable {
 struct QuotesScreen: View {
     let onNext: () -> Void
     @State private var shown = 0
+    @State private var pulse = false
 
     private let quotes = Quote.all
-    private let pace = 1.7
+    private var allShown: Bool { shown >= quotes.count }
 
     var body: some View {
-        SlowScreen(duration: 0.8 + Double(quotes.count) * pace + 0.6, dark: true, onNext: onNext) {
+        ZStack(alignment: .bottom) {
+            Color(hex: 0x171514).ignoresSafeArea()
             VStack(alignment: .leading, spacing: 22) {
                 ForEach(Array(quotes.enumerated()), id: \.element.id) { i, quote in
                     HStack(alignment: .top, spacing: 14) {
@@ -95,15 +97,39 @@ struct QuotesScreen: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.horizontal, 24)
             .padding(.top, 36)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+
+            Text(allShown ? "Touche pour continuer" : "Touche pour la suivante")
+                .font(.figtree(14, .medium))
+                .foregroundStyle(Color.white.opacity(0.8))
+                .opacity(shown == 0 ? 0 : (pulse ? 1 : 0.45))
+                .padding(.bottom, 24)
         }
+        .contentShape(Rectangle())
+        .onTapGesture(perform: advance)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityHint(allShown ? "Touche pour continuer" : "Touche pour afficher la citation suivante")
         .onAppear {
-            for i in 1...quotes.count {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6 + Double(i - 1) * pace) {
-                    withAnimation(.easeOut(duration: 1.1)) { shown = i }
-                    Haptics.soft()
-                }
+            // La première citation arrive seule ; les suivantes au toucher.
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                if shown == 0 { reveal() }
+                withAnimation(.easeInOut(duration: 1.3).repeatForever(autoreverses: true)) { pulse = true }
             }
         }
+    }
+
+    private func advance() {
+        if allShown {
+            Haptics.press()
+            onNext()
+        } else {
+            reveal()
+        }
+    }
+
+    private func reveal() {
+        withAnimation(.easeOut(duration: 0.7)) { shown += 1 }
+        Haptics.soft()
     }
 }
 
@@ -121,6 +147,8 @@ struct FlashTestScreen: View {
     @State private var drag: CGSize = .zero
     @State private var armed = false
     @State private var known: [String] = []
+    /// Cartes déjà notées et le côté par lequel elles sont sorties.
+    @State private var gone: [String: CGFloat] = [:]
 
     private var cards: [Artwork] { Self.ids.compactMap { content.artwork($0) } }
 
@@ -151,15 +179,19 @@ struct FlashTestScreen: View {
             // Pile de cartes : la suivante dépasse derrière celle du dessus.
             ZStack {
                 ForEach(Array(cards.enumerated()).reversed(), id: \.element.id) { i, art in
-                    if i >= index && i <= index + 2 {
-                        let depth = i - index
-                        card(art, top: depth == 0)
+                    if i <= index + 2 {
+                        // Une carte notée garde sa place hors écran : elle ne revient jamais au centre.
+                        let depth = max(0, i - index)
+                        let exit = gone[art.id]
+                        let x = exit ?? (i == index ? drag.width : 0)
+                        card(art, top: i == index)
                             .scaleEffect(1 - CGFloat(depth) * 0.05)
                             .offset(y: CGFloat(depth) * 16)
-                            .rotationEffect(.degrees(depth == 0 ? Double(drag.width) / 22 : (depth == 1 ? 2.5 : -2.5)))
-                            .offset(x: depth == 0 ? drag.width : 0, y: depth == 0 ? drag.height * 0.15 : 0)
+                            .rotationEffect(.degrees(depth == 0 ? Double(x) / 22 : (depth == 1 ? 2.5 : -2.5)))
+                            .offset(x: x, y: i == index ? drag.height * 0.15 : 0)
+                            .opacity(exit == nil ? 1 : 0)
                             .zIndex(Double(cards.count - i))
-                            .allowsHitTesting(depth == 0)
+                            .allowsHitTesting(i == index)
                     }
                 }
             }
@@ -236,18 +268,16 @@ struct FlashTestScreen: View {
         } else {
             Haptics.rigid()
         }
-        // La carte sort de l'écran du côté de la réponse, puis la suivante monte.
-        withAnimation(.easeIn(duration: 0.18)) {
-            drag = CGSize(width: knows ? 500 : -500, height: 0)
+        // La carte sort du côté de la réponse pendant que la suivante monte, dans la même animation.
+        let last = index >= cards.count - 1
+        withAnimation(.easeOut(duration: 0.28)) {
+            gone[current.id] = knows ? 520 : -520
+            drag = .zero
+            index += 1
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.18) {
-            if index >= cards.count - 1 {
-                user.profile.flashKnown = known
-                onNext()
-            } else {
-                drag = .zero
-                withAnimation(.easeOut(duration: 0.2)) { index += 1 }
-            }
+        if last {
+            user.profile.flashKnown = known
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.28) { onNext() }
         }
     }
 }
@@ -665,80 +695,6 @@ struct ArtsScreen: View {
     }
 }
 
-// MARK: - La carte des courants
-
-struct MapScreen: View {
-    @EnvironmentObject private var user: UserStore
-    @EnvironmentObject private var content: ContentStore
-    let onBack: () -> Void
-    let onNext: () -> Void
-
-    @State private var shown = 0
-    @State private var ready = false
-
-    private var startID: String? {
-        user.profile.movements.first ?? content.movements.first?.id
-    }
-
-    var body: some View {
-        OnbScaffold(number: OnbStep.map.number, onBack: onBack, title: "Voici ta carte",
-                    subtitle: "\(content.movements.count) courants, \(content.artworks.count) œuvres pour commencer. Tu les débloques un par un.",
-                    ctaEnabled: ready, onNext: onNext) {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 0) {
-                    ForEach(Array(content.movements.enumerated()), id: \.element.id) { i, movement in
-                        let isStart = movement.id == startID
-                        HStack(alignment: .top, spacing: 14) {
-                            VStack(spacing: 0) {
-                                ZStack {
-                                    Circle().fill(isStart ? Palette.blue : Palette.card)
-                                    Image(systemName: isStart ? "play.fill" : "lock.fill")
-                                        .font(.system(size: 14, weight: .semibold))
-                                        .foregroundStyle(isStart ? .white : Palette.muted)
-                                }
-                                .frame(width: 44, height: 44)
-                                if i < content.movements.count - 1 {
-                                    Rectangle().fill(Palette.line).frame(width: 4, height: 30)
-                                }
-                            }
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(movement.name).font(.bodyStrong).foregroundStyle(Palette.ink)
-                                Text(isStart ? "Tu commences ici" : movement.period)
-                                    .font(.aCaption)
-                                    .foregroundStyle(isStart ? Palette.blueText : Palette.muted)
-                            }
-                            .padding(.top, 4)
-                            Spacer(minLength: 0)
-                        }
-                        .opacity(i < shown ? 1 : 0)
-                        .offset(x: i < shown ? 0 : -10)
-                    }
-                }
-            }
-            .scrollIndicators(.hidden)
-        }
-        .onAppear(perform: play)
-    }
-
-    private func play() {
-        let count = content.movements.count
-        guard count > 0 else {
-            ready = true
-            return
-        }
-        for i in 1...count {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.4 + Double(i) * 0.45) {
-                withAnimation(.easeOut(duration: 0.6)) { shown = i }
-                Haptics.rigid()
-            }
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.9 + Double(count) * 0.45) {
-            withAnimation(.easeOut(duration: 0.4)) { ready = true }
-            Haptics.soft()
-        }
-    }
-}
-
 // MARK: - Engagement : appui long
 
 struct CommitScreen: View {
@@ -753,13 +709,17 @@ struct CommitScreen: View {
 
     var body: some View {
         VStack(spacing: 18) {
-            Spacer()
+            ArtImage(name: "ill_engagement", anchor: UnitPoint(x: 0.5, y: 0.6))
+                .frame(height: 230)
+                .clipShape(RoundedRectangle(cornerRadius: 24))
+                .padding(.top, 12)
+            Spacer(minLength: 0)
             Text("Une œuvre par jour.")
                 .font(.figtree(34, .semibold)).foregroundStyle(Palette.ink)
             Text("Cinq minutes, chaque jour. Pas pour briller en société : pour toi.")
                 .font(.aBody).foregroundStyle(Palette.muted)
                 .multilineTextAlignment(.center)
-            Spacer()
+            Spacer(minLength: 0)
 
             ZStack {
                 Circle().stroke(Palette.line, lineWidth: 10)
@@ -773,7 +733,7 @@ struct CommitScreen: View {
                     .font(.system(size: 44, weight: .semibold))
                     .foregroundStyle(.white)
             }
-            .frame(width: 190, height: 190)
+            .frame(width: 160, height: 160)
             .contentShape(Circle())
             .onLongPressGesture(minimumDuration: holdDuration, maximumDistance: 80) {
                 complete()

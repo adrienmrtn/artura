@@ -414,11 +414,6 @@ struct AccountScreen: View {
                     }
                     .buttonStyle(.pressable)
                     Spacer()
-                    Text("\(OnbStep.account.number ?? 19) / \(OnbStep.numberedTotal)")
-                        .font(.figtree(14, .medium))
-                        .padding(.horizontal, 12)
-                        .frame(height: 32)
-                        .background(Capsule().fill(.white))
                 }
                 .padding(.horizontal, 16)
                 .padding(.top, 8)

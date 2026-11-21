@@ -4,7 +4,7 @@ enum OnbStep: Int, CaseIterable {
     case welcome, quotes, promise, gender
     case flashTest, flashResult, help
     case phoneTime, phoneResult, statement, whatRemains, reviews
-    case arts, goal, level, tastes, movements, map, rhythm
+    case arts, goal, level, tastes, movements, rhythm
     case chooseCourse, lesson, quiz, streak
     case reminder, loading, plan, account
     case commit
@@ -13,8 +13,8 @@ enum OnbStep: Int, CaseIterable {
     /// Écrans qui affichent la barre de progression, dans l'ordre.
     static let numbered: [OnbStep] = [
         .gender, .flashTest, .flashResult, .phoneTime, .arts, .goal, .level,
-        .tastes, .movements, .map, .rhythm, .chooseCourse, .lesson, .quiz, .streak,
-        .reminder, .plan, .account
+        .tastes, .movements, .rhythm, .chooseCourse, .lesson, .quiz, .streak,
+        .reminder, .plan
     ]
 
     static var numberedTotal: Int { numbered.count }
@@ -92,7 +92,6 @@ struct OnboardingFlow: View {
         case .level: LevelScreen(onBack: back, onNext: next)
         case .tastes: TastesScreen(onBack: back, onNext: next)
         case .movements: MovementsScreen(onBack: back, onNext: next)
-        case .map: MapScreen(onBack: back, onNext: next)
         case .rhythm: RhythmScreen(onBack: back, onNext: next)
         case .chooseCourse: ChooseCourseScreen(onBack: back, onNext: next)
         case .lesson:
