@@ -12,8 +12,8 @@ struct NameScreen: View {
     private var trimmed: String { name.trimmingCharacters(in: .whitespacesAndNewlines) }
 
     var body: some View {
-        OnbScaffold(title: "Comment tu t'appelles ?",
-                    subtitle: "Pour qu'on sache à qui on parle.",
+        OnbScaffold(title: "Et toi, comment tu t'appelles ?",
+                    spoken: true,
                     ctaEnabled: !trimmed.isEmpty, onNext: save) {
             TextField("Ton prénom", text: $name)
                 .font(.figtree(24, .semibold))
@@ -26,7 +26,7 @@ struct NameScreen: View {
                 .onSubmit { if !trimmed.isEmpty { save() } }
                 .padding(.horizontal, 18)
                 .frame(height: 68)
-                .background(RoundedRectangle(cornerRadius: 18).fill(Palette.card))
+                .background(RoundedRectangle(cornerRadius: 18).fill(.white))
                 .overlay(
                     RoundedRectangle(cornerRadius: 18)
                         .stroke(focused ? Palette.blue : Palette.line, lineWidth: focused ? 2 : 1)
@@ -63,7 +63,8 @@ struct GenderScreen: View {
 
     var body: some View {
         OnbScaffold(title: title,
-                    subtitle: "Pour accorder nos messages : « prêt » ou « prête » ?",
+                    subtitle: "Pour accorder mes messages : « prêt » ou « prête » ?",
+                    spoken: true,
                     ctaEnabled: user.profile.gender != nil, onNext: onNext) {
             HStack(spacing: 12) {
                 portrait("ill_av1", "Une femme", "femme")
@@ -89,19 +90,18 @@ struct GenderScreen: View {
             user.profile.gender = value
         } label: {
             VStack(spacing: 12) {
-                ArtImage(name: image).frame(height: 150)
-                Text(label).font(.figtree(17, .semibold)).foregroundStyle(Palette.ink)
+                ArtImage(name: image).frame(height: 132)
+                Text(label)
+                    .font(.figtree(17, .semibold))
+                    .foregroundStyle(selected ? .white : Palette.ink)
             }
             .padding(.bottom, 14)
-            .background(selected ? Palette.sandLight : Palette.card)
+            .background(selected ? Palette.blue : Color.white)
             .clipShape(RoundedRectangle(cornerRadius: 20))
             .overlay(
                 RoundedRectangle(cornerRadius: 20)
                     .stroke(selected ? Palette.blue : Palette.line, lineWidth: selected ? 3 : 1)
             )
-            .overlay(alignment: .topTrailing) {
-                if selected { CheckBadge(color: Palette.blue).padding(8).transition(.scale.combined(with: .opacity)) }
-            }
         }
         .buttonStyle(.pressable)
         .animation(.snappy, value: selected)
@@ -128,6 +128,7 @@ struct MotivationScreen: View {
     var body: some View {
         OnbScaffold(title: "Qu'est-ce qui t'amène ?",
                     subtitle: "Plusieurs réponses possibles.",
+                    spoken: true,
                     ctaEnabled: !chosen.isEmpty, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
@@ -169,7 +170,8 @@ struct ArtsScreen: View {
 
     var body: some View {
         OnbScaffold(title: "Y a-t-il des arts que tu veux explorer en particulier ?",
-                    subtitle: "Autant que tu veux. La peinture est prête, les autres arrivent.",
+                    subtitle: "La peinture est prête, les autres arrivent.",
+                    spoken: true,
                     ctaEnabled: !user.profile.arts.isEmpty, onNext: onNext) {
             LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible())], spacing: 12) {
                 ForEach(Array(arts.enumerated()), id: \.element.id) { i, art in
@@ -184,7 +186,7 @@ struct ArtsScreen: View {
                     } label: {
                         VStack(alignment: .leading, spacing: 8) {
                             ArtImage(name: art.image)
-                                .frame(height: 112)
+                                .frame(height: 96)
                                 .overlay(alignment: .topLeading) {
                                     if art.soon {
                                         Text("Bientôt")
@@ -198,13 +200,13 @@ struct ArtsScreen: View {
                                 }
                             Text(art.title)
                                 .font(.bodyStrong)
-                                .foregroundStyle(Palette.ink)
+                                .foregroundStyle(selected ? .white : Palette.ink)
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.85)
                                 .padding(.horizontal, 12)
                                 .padding(.bottom, 12)
                         }
-                        .background(selected ? Palette.sandLight : Palette.card)
+                        .background(selected ? Palette.blue : Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 18))
                         .overlay(
                             RoundedRectangle(cornerRadius: 18)
@@ -239,7 +241,7 @@ struct ChoiceScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        OnbScaffold(title: title, subtitle: subtitle, ctaEnabled: selection != nil, onNext: onNext) {
+        OnbScaffold(title: title, subtitle: subtitle, spoken: true, ctaEnabled: selection != nil, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
                     ChoiceRow(title: option.title, subtitle: option.subtitle, selected: selection == option.title) {
@@ -259,7 +261,7 @@ struct RecognizeScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        ChoiceScreen(title: "Tu vois souvent des œuvres d'art que tu ne sais pas nommer ?",
+        ChoiceScreen(title: "Tu croises souvent des œuvres que tu ne sais pas nommer ?",
                      subtitle: "Dans un film, sur une affiche, chez quelqu'un.",
                      options: [
                         ChoiceOption(title: "Tout le temps"),
@@ -278,8 +280,8 @@ struct KnowledgeScreen: View {
 
     // Le titre de l'option est aussi le niveau enregistré (affiché ensuite sur le profil).
     var body: some View {
-        ChoiceScreen(title: "As-tu des connaissances précises en histoire de l'art ?",
-                     subtitle: "Ça règle ton point de départ. Tu pourras changer.",
+        ChoiceScreen(title: "Où en es-tu en histoire de l'art ?",
+                     subtitle: "Pour régler ton point de départ.",
                      options: [
                         ChoiceOption(title: "Débutant", subtitle: "Je pars de zéro, et c'est très bien."),
                         ChoiceOption(title: "Amateur", subtitle: "Je connais quelques artistes et courants."),
@@ -312,33 +314,37 @@ struct MuseumScreen: View {
 struct PhoneTimeScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
-    @State private var hours: Double = 4
+    /// Position du curseur, en continu. La valeur retenue est arrondie à la demi-heure.
+    @State private var raw: Double = 4
     @State private var glow = false
 
-    private var hoursLabel: String { formatHours(hours) }
+    private var hours: Double { (raw * 2).rounded() / 2 }
 
     var body: some View {
-        OnbScaffold(title: "Combien de temps par jour sur ton téléphone ?",
-                    subtitle: "Regarde dans Réglages › Temps d'écran si tu hésites.",
-                    onNext: save) {
+        OnbScaffold(title: "Combien de temps par jour passes-tu sur ton téléphone ?",
+                    spoken: true, onNext: save) {
             ArtImage(name: "ill_phone", zoom: glow ? 1.08 : 1, anchor: UnitPoint(x: 0.5, y: 0.45))
-                .frame(height: 220)
+                .frame(height: 170)
                 .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
                 .enter(2)
 
             VStack(spacing: 0) {
-                Text(hoursLabel)
-                    .font(.figtree(52, .bold)).foregroundStyle(Palette.ink)
-                    .contentTransition(.numericText())
+                Text(formatHours(hours))
+                    .font(.figtree(52, .bold))
+                    .foregroundStyle(Palette.ink)
+                    .monospacedDigit()
+                    .contentTransition(.numericText(value: hours))
+                    .animation(.snappy, value: hours)
                 Text("par jour").font(.aBody).foregroundStyle(Palette.muted)
             }
             .frame(maxWidth: .infinity)
             .enter(3)
 
             VStack(spacing: 2) {
-                Slider(value: $hours, in: 1...10, step: 0.5)
+                Slider(value: $raw, in: 1...10)
                     .tint(Palette.blue)
                     .accessibilityLabel("Heures par jour sur ton téléphone")
+                    .accessibilityValue(formatHours(hours))
                 HStack {
                     Text("1 h"); Spacer(); Text("5 h"); Spacer(); Text("10 h")
                 }
@@ -347,9 +353,10 @@ struct PhoneTimeScreen: View {
             .enter(4)
         }
         .onAppear {
-            hours = user.profile.phoneHours
+            raw = user.profile.phoneHours
             withAnimation(.easeInOut(duration: 5).repeatForever(autoreverses: true)) { glow = true }
         }
+        // Un cran à chaque demi-heure franchie, pas à chaque mouvement du doigt.
         .onChange(of: hours) { _, _ in Haptics.selection() }
     }
 

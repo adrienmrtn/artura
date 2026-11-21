@@ -18,7 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Version de Xcode
-        run: xcodebuild -version
+        run: |
+          xcodebuild -version
+          ls /Applications | grep -i xcode | tr '\n' ' '
       - name: Compilation (simulateur iPhone)
         run: |
           set -o pipefail
@@ -53,40 +55,60 @@ jobs:
           }
           shoot 00_splash welcome 6 -holdSplash YES
           shoot 01_welcome welcome 12 -noSplash YES
-          shoot 02_daily daily 5 -noSplash YES
-          shoot 03_pocketMuseum pocketMuseum 5 -noSplash YES
-          shoot 04_photo photo 5 -noSplash YES
-          shoot 05_quotes quotes 6 -noSplash YES
-          shoot 06_questionsIntro questionsIntro 5 -noSplash YES
-          shoot 07_name name 5 -noSplash YES
-          shoot 08_gender gender 5 -noSplash YES
-          shoot 09_motivation motivation 5 -noSplash YES
-          shoot 10_arts arts 5 -noSplash YES
-          shoot 11_recognize recognize 5 -noSplash YES
-          shoot 12_knowledge knowledge 5 -noSplash YES
-          shoot 13_museum museum 5 -noSplash YES
-          shoot 14_testIntro testIntro 5 -noSplash YES
-          shoot 15_flashTest flashTest 5 -noSplash YES
-          shoot 16_flashResult flashResult 7 -noSplash YES
-          shoot 17_understand understand 10 -noSplash YES
-          shoot 18_lesson lesson 5 -noSplash YES
-          shoot 19_phoneTime phoneTime 5 -noSplash YES
-          shoot 20_phoneResult phoneResult 8 -noSplash YES
-          shoot 21_projection projection 7 -noSplash YES
-          shoot 22_graph graph 8 -noSplash YES
-          shoot 23_streak streak 6 -noSplash YES
-          shoot 24_reminder reminder 5 -noSplash YES
-          shoot 25_loading loading 11 -noSplash YES
-          shoot 26_plan plan 5 -noSplash YES
-          shoot 27_account account 5 -noSplash YES
-          shoot 28_gift gift 5 -noSplash YES
-          shoot 29_giftOpen gift 5 -noSplash YES -onbGiftOpen YES
-          shoot 30_noCommitment noCommitment 7 -noSplash YES
-          shoot 31_trial trial 12 -noSplash YES
-          shoot 32_exitOffer trial 6 -noSplash YES -onbExitOffer YES
+          shoot 02_hello hello 9 -noSplash YES
+          shoot 03_daily daily 5 -noSplash YES
+          shoot 04_pocketMuseum pocketMuseum 5 -noSplash YES
+          shoot 05_photo photo 5 -noSplash YES
+          shoot 06_quotes quotes 6 -noSplash YES
+          shoot 07_questionsIntro questionsIntro 9 -noSplash YES
+          shoot 08_name name 5 -noSplash YES
+          shoot 09_gender gender 5 -noSplash YES
+          shoot 10_motivation motivation 5 -noSplash YES
+          shoot 11_arts arts 5 -noSplash YES
+          shoot 12_recognize recognize 5 -noSplash YES
+          shoot 13_knowledge knowledge 5 -noSplash YES
+          shoot 14_museum museum 5 -noSplash YES
+          shoot 15_testIntro testIntro 9 -noSplash YES
+          shoot 16_flashTest flashTest 5 -noSplash YES
+          shoot 17_flashResult flashResult 7 -noSplash YES
+          shoot 18_understand understand 11 -noSplash YES
+          shoot 19_understand4 understand 12 -noSplash YES -onbLine 3
+          shoot 20_lesson lesson 5 -noSplash YES
+          shoot 21_afterLesson afterLesson 9 -noSplash YES
+          shoot 22_phoneTime phoneTime 5 -noSplash YES
+          shoot 23_phoneResult phoneResult 9 -noSplash YES
+          shoot 24_projection projection 8 -noSplash YES
+          shoot 25_graph graph 8 -noSplash YES
+          shoot 26_streak streak 6 -noSplash YES
+          shoot 27_reminder reminder 5 -noSplash YES
+          shoot 28_widgetLock widget 5 -noSplash YES
+          shoot 29_widgetHome widget 5 -noSplash YES -onbWidgetHome YES
+          shoot 30_loading loading 10 -noSplash YES
+          shoot 31_plan plan 5 -noSplash YES
+          shoot 32_socialProof socialProof 6 -noSplash YES
+          shoot 33_account account 5 -noSplash YES
+          shoot 34_gift gift 5 -noSplash YES
+          shoot 35_giftOpen gift 5 -noSplash YES -onbGiftOpen YES
+          shoot 36_noCommitment noCommitment 7 -noSplash YES
+          shoot 37_trial trial 16 -noSplash YES
+          shoot 38_exitOffer trial 7 -noSplash YES -onbExitOffer YES
           xcrun simctl launch "$DEVICE" $BUNDLE -skipOnboarding YES -noSplash YES >/dev/null; sleep 6
-          xcrun simctl io "$DEVICE" screenshot shots/33_today.png >/dev/null 2>&1
+          xcrun simctl io "$DEVICE" screenshot shots/39_today.png >/dev/null 2>&1
           xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
+          # Quelques écrans denses sur un petit téléphone, pour vérifier que tout tient
+          SMALL=$(xcrun simctl list devices available | grep -E "iPhone SE \(3rd" | head -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          if [ -n "$SMALL" ]; then
+            xcrun simctl shutdown "$DEVICE" || true
+            DEVICE=$SMALL
+            xcrun simctl boot "$DEVICE"; xcrun simctl bootstatus "$DEVICE" -b >/dev/null
+            xcrun simctl install "$DEVICE" "$APP"
+            shoot 50_se_trial trial 16 -noSplash YES
+            shoot 51_se_arts arts 5 -noSplash YES
+            shoot 52_se_phoneResult phoneResult 9 -noSplash YES
+            shoot 53_se_plan plan 5 -noSplash YES
+            shoot 54_se_account account 5 -noSplash YES
+            shoot 55_se_exitOffer trial 7 -noSplash YES -onbExitOffer YES
+          fi
           for f in shots/*.png; do
             sips -s format jpeg -s formatOptions 55 -Z 800 "$f" --out "${f%.png}.jpg" >/dev/null 2>&1
           done

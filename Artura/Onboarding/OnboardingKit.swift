@@ -34,6 +34,12 @@ extension View {
 enum SocialProof {
     static let learners = "100 000"
     static let rating = "4,8"
+    /// Avis d'exemple : à remplacer par de vrais avis de la fiche App Store.
+    static let reviews = [
+        "Cinq minutes le matin, et je regarde enfin les tableaux autrement.",
+        "Avec les petits jeux, je retiens vraiment les noms et les dates.",
+        "Je n'y connaissais rien. Maintenant j'attends la notification."
+    ]
 }
 
 // MARK: - Le personnage : la Joconde
@@ -98,53 +104,226 @@ struct MascotBubble<Content: View>: View {
     }
 }
 
-// MARK: - Texte qui s'écrit
+// MARK: - La Joconde parle : texte qui s'écrit, une réplique après l'autre
 
-/// Le texte apparaît lettre par lettre. La place est réservée dès le départ : rien ne bouge autour.
-struct TypewriterText: View {
-    let text: String
-    var font: Font = .figtree(26, .semibold)
-    var charDelay: Double = 0.03
-    var startDelay: Double = 0.6
+/// Écran de dialogue : la Joconde dit une ou plusieurs répliques, écrites lettre par lettre.
+/// Un appui pendant l'écriture affiche la réplique entière ; l'appui suivant passe à la suite.
+struct MascotTalkScreen<Extra: View>: View {
+    let lines: [String]
+    /// Libellé du bouton sur la dernière réplique.
+    var cta: String = "Continuer"
+    var mascotSize: CGFloat = 156
+    let onNext: () -> Void
+    /// Contenu affiché sous la bulle, sur la dernière réplique.
+    @ViewBuilder var extra: () -> Extra
 
+    @State private var index = min(max(0, OnboardingDebug.int("onbLine")), 9)
     @State private var count = 0
+    @State private var typing = true
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
+    private var line: String { lines[min(index, lines.count - 1)] }
+    private var isLast: Bool { index >= lines.count - 1 }
+
     var body: some View {
-        let characters = Array(text)
+        VStack(spacing: 0) {
+            Spacer(minLength: 8)
+
+            MascotBubble(mascotSize: mascotSize) {
+                typedText
+                    .id(index)
+                    .transition(.opacity)
+            }
+            .enter()
+
+            if lines.count > 1 {
+                // Où on en est dans la conversation
+                HStack(spacing: 6) {
+                    ForEach(0..<lines.count, id: \.self) { i in
+                        Capsule()
+                            .fill(i <= index ? Palette.blue : Palette.lip)
+                            .frame(width: i == index ? 18 : 6, height: 6)
+                    }
+                }
+                .padding(.top, 18)
+                .animation(.gentle, value: index)
+                .accessibilityHidden(true)
+            }
+
+            if isLast {
+                extra()
+                    .padding(.top, 18)
+                    .transition(.opacity.combined(with: .offset(y: 10)))
+            }
+
+            Spacer(minLength: 16)
+            Spacer(minLength: 0)
+
+            Button(isLast ? cta : "Continuer") { advance() }
+                .buttonStyle(.primary)
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Palette.bg)
+        .task(id: index) { await write() }
+    }
+
+    /// La place de la réplique entière est réservée dès le départ : la bulle ne bouge pas pendant l'écriture.
+    private var typedText: some View {
+        let characters = Array(line)
         let shown = String(characters.prefix(count))
         let hidden = String(characters.dropFirst(count))
         return (Text(shown) + Text(hidden).foregroundColor(.clear))
-            .font(font)
+            .font(.figtree(24, .semibold))
             .foregroundStyle(Palette.ink)
+            .lineSpacing(3)
             .fixedSize(horizontal: false, vertical: true)
-            .accessibilityLabel(text)
-            .task { await write() }
+            .accessibilityLabel(line)
+    }
+
+    private func advance() {
+        if typing {
+            // Premier appui : on montre toute la réplique.
+            typing = false
+            count = line.count
+            Haptics.tap()
+        } else if !isLast {
+            count = 0
+            typing = true
+            withAnimation(.settle) { index += 1 }
+        } else {
+            onNext()
+        }
     }
 
     @MainActor
     private func write() async {
-        let characters = Array(text)
+        let characters = Array(line)
         if reduceMotion {
             count = characters.count
+            typing = false
             return
         }
-        try? await Task.sleep(nanoseconds: UInt64(startDelay * 1_000_000_000))
+        typing = true
+        try? await Task.sleep(nanoseconds: 450_000_000)
         while count < characters.count {
             if Task.isCancelled { return }
+            if !typing { break }
             let character = characters[count]
             count += 1
             if count % 3 == 0 { Haptics.whisper() }
             // Une respiration après la ponctuation, comme quand on parle.
             let pause: Double
             switch character {
-            case ".", ":", "!", "?": pause = charDelay * 10
-            case ",": pause = charDelay * 6
-            default: pause = charDelay
+            case ".", ":", "!", "?": pause = 0.26
+            case ",": pause = 0.14
+            default: pause = 0.022
             }
             try? await Task.sleep(nanoseconds: UInt64(pause * 1_000_000_000))
         }
+        if Task.isCancelled { return }
+        typing = false
         Haptics.soft()
+    }
+}
+
+extension MascotTalkScreen where Extra == EmptyView {
+    init(lines: [String], cta: String = "Continuer", mascotSize: CGFloat = 156, onNext: @escaping () -> Void) {
+        self.init(lines: lines, cta: cta, mascotSize: mascotSize, onNext: onNext) { EmptyView() }
+    }
+}
+
+// MARK: - Nombre qui défile
+
+/// Nombre entier qui monte ou descend en continu quand sa valeur est animée.
+struct CountingText: View, Animatable {
+    var value: Double
+    var suffix: String = ""
+
+    var animatableData: Double {
+        get { value }
+        set { value = newValue }
+    }
+
+    var body: some View {
+        Text("\(Int(value.rounded()))\(suffix)")
+            .monospacedDigit()
+    }
+}
+
+// MARK: - Tableaux qui flottent dans l'espace
+
+/// Des tableaux dispersés qui dérivent lentement, comme en apesanteur. Sert de décor derrière un contenu.
+struct FloatingSpace: View {
+    /// Nombre de tableaux déjà apparus (ils arrivent un à un).
+    var shown: Int = FloatingSpace.count
+    /// Si vrai, une sculpture se glisse parmi les tableaux.
+    var withSculpture: Bool = false
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    private struct Item {
+        let image: String
+        let x: CGFloat
+        let y: CGFloat
+        let size: CGFloat
+        let depth: Double
+    }
+
+    // Disposés sur les bords : le centre reste libre pour le texte.
+    private static let items: [Item] = [
+        Item(image: "wall_venus", x: 0.12, y: 0.07, size: 66, depth: 1.0),
+        Item(image: "art_nuit", x: 0.84, y: 0.06, size: 72, depth: 1.0),
+        Item(image: "wall_cri", x: 0.48, y: 0.03, size: 50, depth: 0.6),
+        Item(image: "art_perle", x: 0.94, y: 0.27, size: 56, depth: 0.75),
+        Item(image: "wall_laitiere", x: 0.05, y: 0.29, size: 58, depth: 0.8),
+        Item(image: "wall_menines", x: 0.90, y: 0.50, size: 60, depth: 0.9),
+        Item(image: "art_vague", x: 0.08, y: 0.53, size: 52, depth: 0.65),
+        Item(image: "wall_cafe", x: 0.16, y: 0.77, size: 68, depth: 1.0),
+        Item(image: "art_baiser", x: 0.84, y: 0.74, size: 66, depth: 0.95),
+        Item(image: "wall_amandier", x: 0.50, y: 0.86, size: 54, depth: 0.7),
+        Item(image: "wall_grandejatte", x: 0.30, y: 0.95, size: 56, depth: 0.8),
+        Item(image: "art_tournesols", x: 0.70, y: 0.96, size: 50, depth: 0.6),
+        Item(image: "wall_fuji", x: 0.95, y: 0.92, size: 52, depth: 0.7),
+        Item(image: "wall_hermine", x: 0.03, y: 0.93, size: 50, depth: 0.6)
+    ]
+
+    static var count: Int { items.count }
+
+    var body: some View {
+        GeometryReader { geo in
+            TimelineView(.animation(paused: reduceMotion)) { timeline in
+                let time = timeline.date.timeIntervalSinceReferenceDate
+                ZStack {
+                    ForEach(0..<Self.items.count, id: \.self) { i in
+                        let item = Self.items[i]
+                        let phase = Double(i) * 1.37
+                        let visible = i < shown
+                        Image(withSculpture && i == 5 ? "ill_sculpture" : item.image)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: item.size, height: item.size)
+                            .clipShape(RoundedRectangle(cornerRadius: item.size * 0.22, style: .continuous))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: item.size * 0.22, style: .continuous)
+                                    .stroke(.white, lineWidth: 3)
+                            )
+                            .opacity(visible ? 0.35 + 0.65 * item.depth : 0)
+                            .scaleEffect(visible ? 1 : 0.5)
+                            .rotationEffect(.degrees(sin(time * 0.35 + phase) * 6))
+                            .position(
+                                x: geo.size.width * item.x + CGFloat(sin(time * 0.27 + phase) * 9 * item.depth),
+                                y: geo.size.height * item.y + CGFloat(cos(time * 0.22 + phase * 1.3) * 12 * item.depth)
+                            )
+                            .animation(.settle, value: visible)
+                    }
+                }
+            }
+        }
+        .allowsHitTesting(false)
+        .accessibilityHidden(true)
     }
 }
 
@@ -283,6 +462,7 @@ struct Sparkle: Shape {
 // MARK: - Rangée de réponse
 
 /// Réponse sélectionnable des questions de l'onboarding (choix unique ou multiple).
+/// Blanche au repos ; bleue, texte blanc, une fois choisie.
 struct ChoiceRow: View {
     let title: String
     var subtitle: String? = nil
@@ -302,12 +482,16 @@ struct ChoiceRow: View {
                         .font(.system(size: 18, weight: .semibold))
                         .foregroundStyle(selected ? .white : Palette.blue)
                         .frame(width: 40, height: 40)
-                        .background(Circle().fill(selected ? Palette.blue : Palette.sand))
+                        .background(Circle().fill(selected ? Color.white.opacity(0.16) : Palette.sand))
                 }
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(title).font(.bodyStrong).foregroundStyle(Palette.ink)
+                    Text(title)
+                        .font(.bodyStrong)
+                        .foregroundStyle(selected ? .white : Palette.ink)
                     if let subtitle {
-                        Text(subtitle).font(.aCaption).foregroundStyle(Palette.muted)
+                        Text(subtitle)
+                            .font(.aCaption)
+                            .foregroundStyle(selected ? Color.white.opacity(0.8) : Palette.muted)
                     }
                 }
                 .multilineTextAlignment(.leading)
@@ -315,12 +499,12 @@ struct ChoiceRow: View {
                 // Rond pour un choix unique, carré arrondi pour un choix multiple.
                 ZStack {
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
-                        .fill(selected ? Palette.blue : Color.clear)
+                        .fill(selected ? Color.white : Color.clear)
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
-                        .stroke(selected ? Palette.blue : Palette.lip, lineWidth: 2)
+                        .stroke(selected ? Color.white : Palette.lip, lineWidth: 2)
                     Image(systemName: "checkmark")
                         .font(.system(size: 12, weight: .bold))
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Palette.blue)
                         .scaleEffect(selected ? 1 : 0.4)
                         .opacity(selected ? 1 : 0)
                 }
@@ -328,11 +512,12 @@ struct ChoiceRow: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 10)
-            .frame(maxWidth: .infinity, minHeight: 64, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.sandLight : Palette.card))
+            .frame(maxWidth: .infinity, minHeight: 62, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.blue : Color.white))
+            .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.blueDark : Palette.lip).offset(y: 3))
             .overlay(
                 RoundedRectangle(cornerRadius: 18)
-                    .stroke(selected ? Palette.blue : Palette.line, lineWidth: selected ? 2 : 1)
+                    .stroke(selected ? Palette.blue : Palette.line, lineWidth: 1)
             )
         }
         .buttonStyle(.pressable)

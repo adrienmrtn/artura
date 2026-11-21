@@ -2,17 +2,17 @@ import SwiftUI
 
 enum OnbStep: Int, CaseIterable {
     // 1 · La promesse
-    case welcome, daily, pocketMuseum, photo, quotes
+    case welcome, hello, daily, pocketMuseum, photo, quotes
     // 2 · Faire connaissance
     case questionsIntro, name, gender, motivation, arts, recognize, knowledge, museum
     // 3 · Le test
     case testIntro, flashTest, flashResult
     // 4 · La démonstration
-    case understand, lesson
+    case understand, lesson, afterLesson
     // 5 · Le déclic : ce temps peut devenir connaissance
     case phoneTime, phoneResult, projection, graph
     // 6 · L'engagement
-    case streak, reminder, loading, plan, account
+    case streak, reminder, widget, loading, plan, socialProof, account
     // 7 · Le cadeau : l'essai gratuit
     case gift, noCommitment, trial
 
@@ -35,7 +35,7 @@ enum OnbStep: Int, CaseIterable {
         switch self {
         case .welcome, .gift, .noCommitment, .trial: return nil
         // Le chargement se rejoue tout seul : on le saute au retour.
-        case .plan: return .reminder
+        case .plan: return .widget
         default: return OnbStep(rawValue: rawValue - 1)
         }
     }
@@ -159,6 +159,7 @@ struct OnboardingFlow: View {
                 loginShortcut = true
                 go(.account)
             })
+        case .hello: HelloScreen(onNext: next)
         case .daily: DailyScreen(onNext: next)
         case .pocketMuseum: PocketMuseumScreen(onNext: next)
         case .photo: PhotoScreen(onNext: next)
@@ -174,7 +175,7 @@ struct OnboardingFlow: View {
         case .testIntro: TestIntroScreen(onNext: next)
         case .flashTest: FlashTestScreen(onNext: next)
         case .flashResult: FlashResultScreen(onNext: next)
-        case .understand: UnderstandScreen(onNext: next)
+        case .understand: UnderstandScreen(artwork: course, onNext: next)
         case .lesson:
             if let course {
                 // Un extrait du cours : le début et une seule interaction sur le tableau.
@@ -187,14 +188,17 @@ struct OnboardingFlow: View {
                     next()
                 }
             }
+        case .afterLesson: AfterLessonScreen(onNext: next)
         case .phoneTime: PhoneTimeScreen(onNext: next)
         case .phoneResult: PhoneResultScreen(onNext: next)
         case .projection: ProjectionScreen(onNext: next)
         case .graph: GraphScreen(onNext: next)
         case .streak: StreakScreen(onNext: next)
         case .reminder: ReminderScreen(onNext: next)
+        case .widget: WidgetScreen(onNext: next)
         case .loading: LoadingScreen(onNext: next)
         case .plan: PlanScreen(onNext: next)
+        case .socialProof: SocialProofScreen(onNext: next)
         case .account: AccountScreen(onBack: back, onNext: next)
         case .gift:
             if let offer { GiftScreen(offer: offer, onNext: next) }
@@ -237,6 +241,15 @@ extension AnyTransition {
 /// Arguments de lancement (builds Debug uniquement) pour ouvrir directement un écran :
 /// `-onbStep graph`, `-onbName Max`, `-onbPreviewOffer YES` (liste complète dans le README).
 enum OnboardingDebug {
+    /// Vrai dans un build Debug.
+    static var isDebug: Bool {
+        #if DEBUG
+        return true
+        #else
+        return false
+        #endif
+    }
+
     static var startStep: OnbStep? {
         #if DEBUG
         guard let name = UserDefaults.standard.string(forKey: "onbStep") else { return nil }
@@ -262,6 +275,15 @@ enum OnboardingDebug {
         return UserDefaults.standard.bool(forKey: key)
         #else
         return false
+        #endif
+    }
+
+    /// Entier passé en argument de lancement (`-<clé> 2`), 0 par défaut et hors Debug.
+    static func int(_ key: String) -> Int {
+        #if DEBUG
+        return UserDefaults.standard.integer(forKey: key)
+        #else
+        return 0
         #endif
     }
 
@@ -292,7 +314,7 @@ struct OnbScaffold<Content: View>: View {
     var subtitle: String? = nil
     /// Si vrai, c'est la Joconde qui pose la question, dans une bulle.
     var spoken: Bool = false
-    var mascotSize: CGFloat = 104
+    var mascotSize: CGFloat = 92
     var cta: String = "Continuer"
     var ctaEnabled: Bool = true
     let onNext: () -> Void
@@ -337,12 +359,12 @@ struct OnbScaffold<Content: View>: View {
             MascotBubble(mascotSize: mascotSize) {
                 VStack(spacing: 6) {
                     Text(title)
-                        .font(.aTitleSmall)
+                        .font(.figtree(23, .semibold))
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
                     if let subtitle {
                         Text(subtitle)
-                            .font(.aBody)
+                            .font(.figtree(15))
                             .foregroundStyle(Palette.muted)
                             .fixedSize(horizontal: false, vertical: true)
                     }
@@ -422,53 +444,6 @@ struct StoryScaffold: View {
             guard !reduceMotion else { return }
             withAnimation(.easeInOut(duration: 7).repeatForever(autoreverses: true)) { drift = true }
         }
-    }
-}
-
-/// Gabarit des écrans où la Joconde prend la parole : le personnage, sa bulle, un bouton.
-struct MascotScaffold<Extra: View>: View {
-    let title: String
-    var subtitle: String? = nil
-    var cta: String = "Continuer"
-    let onNext: () -> Void
-    @ViewBuilder var extra: () -> Extra
-
-    var body: some View {
-        VStack(spacing: 0) {
-            Spacer(minLength: 8)
-            MascotBubble(mascotSize: 168) {
-                Text(title)
-                    .font(.aTitle)
-                    .foregroundStyle(Palette.ink)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            .enter()
-            if let subtitle {
-                Text(subtitle)
-                    .font(.figtree(17))
-                    .foregroundStyle(Palette.muted)
-                    .multilineTextAlignment(.center)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .padding(.top, 22)
-                    .enter(3)
-            }
-            extra()
-            Spacer(minLength: 16)
-            Spacer(minLength: 0)
-            Button(cta) { onNext() }
-                .buttonStyle(.primary)
-        }
-        .padding(.horizontal, 24)
-        .padding(.top, 12)
-        .padding(.bottom, 16)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Palette.bg)
-    }
-}
-
-extension MascotScaffold where Extra == EmptyView {
-    init(title: String, subtitle: String? = nil, cta: String = "Continuer", onNext: @escaping () -> Void) {
-        self.init(title: title, subtitle: subtitle, cta: cta, onNext: onNext) { EmptyView() }
     }
 }
 

@@ -2,7 +2,7 @@ import SwiftUI
 
 // MARK: - Test : de combien de ces tableaux connais-tu le nom ?
 
-/// Carte du test d'entrée. Les deux dernières sont volontairement très difficiles.
+/// Carte du test d'entrée : deux tableaux que tout le monde connaît, puis cinq nettement plus difficiles.
 struct FlashCard: Identifiable {
     let id: String
     let title: String
@@ -13,9 +13,9 @@ struct FlashCard: Identifiable {
     static let all: [FlashCard] = [
         FlashCard(id: "joconde", title: "La Joconde", artist: "Léonard de Vinci"),
         FlashCard(id: "nuit", title: "La Nuit étoilée", artist: "Vincent van Gogh"),
-        FlashCard(id: "vague", title: "La Grande Vague de Kanagawa", artist: "Katsushika Hokusai"),
-        FlashCard(id: "perle", title: "La Jeune Fille à la perle", artist: "Johannes Vermeer"),
-        FlashCard(id: "baiser", title: "Le Baiser", artist: "Gustav Klimt"),
+        FlashCard(id: "glaneuses", title: "Des glaneuses", artist: "Jean-François Millet"),
+        FlashCard(id: "menines", title: "Les Ménines", artist: "Diego Velázquez"),
+        FlashCard(id: "grandejatte", title: "Un dimanche après-midi à l'Île de la Grande Jatte", artist: "Georges Seurat"),
         FlashCard(id: "raboteurs", title: "Les Raboteurs de parquet", artist: "Gustave Caillebotte", hard: true),
         FlashCard(id: "moine", title: "Le Moine au bord de la mer", artist: "Caspar David Friedrich", hard: true)
     ]
@@ -41,7 +41,7 @@ struct FlashTestScreen: View {
                 Text("De combien de ces tableaux connais-tu le nom ?")
                     .font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text("Sans tricher. Glisse la carte, ou réponds avec les boutons.")
+                Text("Sois honnête. Glisse la carte, ou réponds avec les boutons.")
                     .font(.aBody).foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -182,7 +182,7 @@ struct FlashResultScreen: View {
     }
 
     private var verdict: String {
-        if score == total { return "Tu les connais tous, même les deux plus pointus. Mais sais-tu ce qu'ils racontent ?" }
+        if score == total { return "Tu les connais tous, même les plus difficiles. Mais sais-tu ce qu'ils racontent ?" }
         if score == 0 { return "Aucun pour l'instant. C'est exactement pour ça qu'on est là." }
         return "Les autres t'échappent encore. Plus pour longtemps."
     }
@@ -266,66 +266,75 @@ struct PhoneResultScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    @State private var days = 0
+    /// Jours affichés : animé de 0 jusqu'au total, d'un seul mouvement.
+    @State private var days: Double = 0
     @State private var stage = 0
-    @State private var timer: Timer?
+    @State private var ticker: Timer?
 
     private var hours: Double { user.profile.phoneHours }
-    private var target: Int { Int((hours * 365 / 24).rounded()) }
+    private var target: Double { (hours * 365 / 24).rounded() }
+    private let countDuration = 2.0
 
     private var monthsLine: String {
-        let months = Double(target) / 30.4
-        if months < 1.25 { return "Plus d'un mois entier, chaque année." }
-        return "Près de \(Int(months.rounded())) mois entiers, chaque année."
+        let months = target / 30.4
+        if months < 1.25 { return "Plus d'un mois entier, sans interruption." }
+        return "Près de \(Int(months.rounded())) mois entiers, sans interruption."
     }
 
     var body: some View {
         VStack(spacing: 0) {
-            Spacer(minLength: 8)
+            Spacer(minLength: 4)
 
-            VStack(spacing: 2) {
-                Text("\(formatHours(hours)) par jour sur ton téléphone, c'est")
-                    .font(.figtree(17, .medium))
+            VStack(spacing: 4) {
+                Text("\(formatHours(hours)) par jour, sur une année, ça fait")
+                    .font(.figtree(18, .medium))
                     .foregroundStyle(Palette.muted)
+                    .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
-                    .opacity(stage >= 1 ? 1 : 0)
-                Text("\(days)")
-                    .font(.figtree(112, .bold))
-                    .foregroundStyle(Palette.orange)
-                    .contentTransition(.numericText())
-                    .opacity(stage >= 2 ? 1 : 0)
-                Text("jours par an")
-                    .font(.figtree(28, .semibold))
-                    .foregroundStyle(Palette.ink)
-                    .opacity(stage >= 2 ? 1 : 0)
-                Text(monthsLine)
-                    .font(.aBody)
-                    .foregroundStyle(Palette.muted)
-                    .padding(.top, 8)
-                    .opacity(stage >= 3 ? 1 : 0)
+
+                HStack(alignment: .firstTextBaseline, spacing: 10) {
+                    CountingText(value: days)
+                        .font(.figtree(104, .bold))
+                        .foregroundStyle(Palette.ink)
+                    Text("jours")
+                        .font(.figtree(32, .semibold))
+                        .foregroundStyle(Palette.ink)
+                }
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel("\(Int(target)) jours")
             }
-            .multilineTextAlignment(.center)
+            .opacity(stage >= 1 ? 1 : 0)
+            .offset(y: stage >= 1 ? 0 : 14)
+
+            yearBar
+                .padding(.top, 6)
+                .opacity(stage >= 1 ? 1 : 0)
+
+            Text(monthsLine)
+                .font(.figtree(17, .semibold))
+                .foregroundStyle(Palette.ink)
+                .multilineTextAlignment(.center)
+                .padding(.top, 14)
+                .opacity(stage >= 2 ? 1 : 0)
+                .offset(y: stage >= 2 ? 0 : 10)
 
             Spacer(minLength: 16)
 
-            // Le retournement : ce temps peut servir à autre chose.
-            VStack(spacing: 10) {
-                Text("Avec Artura, ce temps peut devenir connaissance.")
-                    .font(.figtree(26, .semibold))
-                    .foregroundStyle(Palette.ink)
-                    .fixedSize(horizontal: false, vertical: true)
-                Text("Plutôt que de scroller sans fin, nourris ton esprit des plus grandes œuvres de l'humanité. Cinq minutes suffisent.")
-                    .font(.aBody)
-                    .foregroundStyle(Palette.muted)
-                    .fixedSize(horizontal: false, vertical: true)
+            // Le retournement : la Joconde propose autre chose.
+            MascotBubble(mascotSize: 84) {
+                VStack(spacing: 6) {
+                    Text("Avec moi, ce temps peut devenir de la connaissance.")
+                        .font(.figtree(21, .semibold))
+                        .foregroundStyle(Palette.ink)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text("Cinq minutes par jour suffisent. Plutôt que de scroller, nourris ton esprit des plus grandes œuvres de l'humanité.")
+                        .font(.figtree(15))
+                        .foregroundStyle(Palette.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
             }
-            .multilineTextAlignment(.center)
-            .padding(20)
-            .frame(maxWidth: .infinity)
-            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.sandLight))
-            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.sand, lineWidth: 1))
-            .opacity(stage >= 4 ? 1 : 0)
-            .offset(y: stage >= 4 ? 0 : 20)
+            .opacity(stage >= 3 ? 1 : 0)
+            .offset(y: stage >= 3 ? 0 : 26)
 
             Spacer(minLength: 16)
 
@@ -338,133 +347,145 @@ struct PhoneResultScreen: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
         .onAppear(perform: play)
-        .onDisappear { timer?.invalidate() }
+        .onDisappear { ticker?.invalidate() }
     }
 
-    private func play() {
-        withAnimation(.settle.delay(0.3)) { stage = 1 }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) {
-            withAnimation(.easeOut(duration: 0.4)) { stage = 2 }
-            // Le compteur monte jusqu'au total, avec un tic à chaque pas.
-            let stepCount = 32
-            var step = 0
-            timer?.invalidate()
-            timer = Timer.scheduledTimer(withTimeInterval: 0.045, repeats: true) { t in
-                step += 1
-                let progress = 1 - pow(1 - Double(step) / Double(stepCount), 2)
-                withAnimation(.linear(duration: 0.045)) {
-                    days = Int((Double(target) * progress).rounded())
+    /// L'année en douze mois : la part passée sur le téléphone se remplit avec le compteur.
+    private var yearBar: some View {
+        VStack(spacing: 6) {
+            GeometryReader { geo in
+                ZStack(alignment: .leading) {
+                    monthSegments.foregroundStyle(Palette.line)
+                    ZStack(alignment: .leading) {
+                        Color.clear
+                        LinearGradient(colors: [Palette.yellow, Palette.orange], startPoint: .leading, endPoint: .trailing)
+                            .frame(width: geo.size.width * CGFloat(min(1, days / 365)))
+                    }
+                    .mask(monthSegments)
                 }
-                if step % 3 == 0 { Haptics.whisper() }
-                if step >= stepCount {
-                    t.invalidate()
-                    days = target
-                    Haptics.heavy()
+            }
+            .frame(height: 22)
+            HStack(spacing: 4) {
+                ForEach(Array(["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"].enumerated()), id: \.offset) { _, month in
+                    Text(month)
+                        .font(.figtree(11, .medium))
+                        .foregroundStyle(Palette.muted)
+                        .frame(maxWidth: .infinity)
                 }
             }
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.7) {
-            withAnimation(.settle) { stage = 3 }
+        .accessibilityHidden(true)
+    }
+
+    private var monthSegments: some View {
+        HStack(spacing: 4) {
+            ForEach(0..<12, id: \.self) { _ in
+                RoundedRectangle(cornerRadius: 6)
+            }
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.5) {
-            withAnimation(.settle) { stage = 4 }
+    }
+
+    private func play() {
+        withAnimation(.settle.delay(0.35)) { stage = 1 }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+            // Un seul mouvement continu : rapide au départ, très doux à l'arrivée.
+            withAnimation(.timingCurve(0.16, 1, 0.3, 1, duration: countDuration)) { days = target }
+            var beats = 0
+            ticker?.invalidate()
+            ticker = Timer.scheduledTimer(withTimeInterval: 0.09, repeats: true) { t in
+                beats += 1
+                Haptics.whisper()
+                if Double(beats) * 0.09 >= countDuration * 0.7 { t.invalidate() }
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8 + countDuration * 0.8) {
+            Haptics.heavy()
+            withAnimation(.settle) { stage = 2 }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8 + countDuration + 0.5) {
+            withAnimation(.settle) { stage = 3 }
             Haptics.soft()
         }
     }
 }
 
-// MARK: - Dans un an : près de 400 tableaux
+// MARK: - Dans un an : près de 400 tableaux et artistes
 
 struct ProjectionScreen: View {
     let onNext: () -> Void
 
-    @State private var count = 0
+    @State private var value: Double = 0
+    @State private var shown = 0
     @State private var detailShown = false
-    @State private var timer: Timer?
 
-    private let target = 400
-    private let columns = 25
-    private let rows = 16
+    private let target: Double = 400
+    private let countDuration = 2.4
 
     var body: some View {
         VStack(spacing: 0) {
-            Text("Avec Artura, dans un an, tu connaîtras près de")
-                .font(.figtree(22, .medium)).foregroundStyle(Palette.ink)
-                .multilineTextAlignment(.center)
-                .fixedSize(horizontal: false, vertical: true)
-                .enter()
+            ZStack {
+                // Les tableaux arrivent un à un et flottent autour du nombre.
+                FloatingSpace(shown: shown)
 
-            Text("\(count)")
-                .font(.figtree(104, .bold))
-                .foregroundStyle(Palette.blue)
-                .contentTransition(.numericText())
-                .padding(.top, 2)
-            Text("tableaux")
-                .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
-
-            // Un carré par tableau : la grille se remplit au rythme du compteur.
-            Canvas { context, size in
-                let gap: CGFloat = 3
-                let cell = (size.width - gap * CGFloat(columns - 1)) / CGFloat(columns)
-                for i in 0..<(columns * rows) {
-                    let x = CGFloat(i % columns) * (cell + gap)
-                    let y = CGFloat(i / columns) * (cell + gap)
-                    let rect = CGRect(x: x, y: y, width: cell, height: cell)
-                    let path = Path(roundedRect: rect, cornerRadius: 2.5)
-                    // Quelques carrés dorés pour le relief, comme des cadres.
-                    let filled = i < count
-                    let color = !filled ? Palette.line : (i % 7 == 3 ? Palette.yellow : Palette.blue)
-                    context.fill(path, with: .color(color))
+                VStack(spacing: 2) {
+                    Text("Avec Artura, dans un an, tu connaîtras près de")
+                        .font(.figtree(20, .semibold))
+                        .foregroundStyle(Palette.ink)
+                        .multilineTextAlignment(.center)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .enter()
+                    CountingText(value: value)
+                        .font(.figtree(112, .bold))
+                        .foregroundStyle(Palette.blue)
+                    Text("tableaux et artistes")
+                        .font(.figtree(28, .semibold))
+                        .foregroundStyle(Palette.ink)
+                    Text("Et pas seulement leur nom : leur histoire, en détail.")
+                        .font(.figtree(16))
+                        .foregroundStyle(Palette.muted)
+                        .multilineTextAlignment(.center)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .padding(.top, 10)
+                        .opacity(detailShown ? 1 : 0)
+                        .offset(y: detailShown ? 0 : 10)
                 }
+                .padding(.horizontal, 44)
+                .padding(.vertical, 36)
+                .background(
+                    // Un halo de la couleur du fond garde le texte lisible devant les tableaux.
+                    RadialGradient(colors: [Palette.bg, Palette.bg.opacity(0.94), Palette.bg.opacity(0)],
+                                   center: .center, startRadius: 100, endRadius: 250)
+                        .padding(-60)
+                )
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel("Avec Artura, dans un an, tu connaîtras près de 400 tableaux et artistes, et pas seulement leur nom : leur histoire, en détail.")
             }
-            .aspectRatio(CGFloat(columns) / CGFloat(rows), contentMode: .fit)
-            .padding(.top, 22)
-            .enter(2)
-            .accessibilityHidden(true)
-
-            Text("Et pas seulement leur nom : tu les connaîtras en détail.")
-                .font(.figtree(17)).foregroundStyle(Palette.muted)
-                .multilineTextAlignment(.center)
-                .fixedSize(horizontal: false, vertical: true)
-                .padding(.top, 22)
-                .opacity(detailShown ? 1 : 0)
-                .offset(y: detailShown ? 0 : 12)
-
-            Spacer(minLength: 16)
+            .frame(maxHeight: .infinity)
 
             Button("Continuer") { onNext() }
                 .buttonStyle(.primary)
+                .padding(.horizontal, 24)
         }
-        .padding(.horizontal, 24)
-        .padding(.top, 20)
+        .padding(.top, 4)
         .padding(.bottom, 16)
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
         .onAppear(perform: play)
-        .onDisappear { timer?.invalidate() }
     }
 
     private func play() {
-        timer?.invalidate()
-        count = 0
-        let stepCount = 50
-        var step = 0
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
-            timer = Timer.scheduledTimer(withTimeInterval: 0.035, repeats: true) { t in
-                step += 1
-                // Départ rapide, arrivée en douceur.
-                let progress = 1 - pow(1 - Double(step) / Double(stepCount), 2)
-                withAnimation(.linear(duration: 0.035)) {
-                    count = min(target, Int((Double(target) * progress).rounded()))
-                }
-                if step % 3 == 0 { Haptics.whisper() }
-                if step >= stepCount {
-                    t.invalidate()
-                    count = target
-                    Haptics.heavy()
-                    withAnimation(.settle.delay(0.15)) { detailShown = true }
-                }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+            withAnimation(.timingCurve(0.16, 1, 0.3, 1, duration: countDuration)) { value = target }
+        }
+        for i in 1...FloatingSpace.count {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5 + Double(i) * 0.14) {
+                shown = max(shown, i)
+                Haptics.whisper()
             }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6 + countDuration * 0.85) {
+            Haptics.heavy()
+            withAnimation(.settle) { detailShown = true }
         }
     }
 }

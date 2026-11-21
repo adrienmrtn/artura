@@ -1,7 +1,7 @@
 import SwiftUI
 import AuthenticationServices
 
-// MARK: 17 · Rappel (curseur et soleil)
+// MARK: Rappel (curseur et soleil)
 
 /// Petit paysage où le soleil suit l'heure choisie.
 struct SunScene: View {
@@ -94,47 +94,58 @@ func momentLabel(_ minutes: Int) -> String {
 struct ReminderScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
-    @State private var minutes: Double = 510
+    /// Position du curseur, en continu. L'heure retenue est arrondie au quart d'heure.
+    @State private var raw: Double = 510
+
+    private var minutes: Int { Int((raw / 15).rounded()) * 15 }
 
     var body: some View {
-        OnbScaffold(title: "À quelle heure veux-tu ton œuvre ?",
+        OnbScaffold(title: "À quelle heure veux-tu faire ton apprentissage du jour ?",
                     subtitle: "Une seule notification par jour, promis.",
-                    cta: "Activer le rappel à \(formatMinutes(Int(minutes)))",
+                    spoken: true,
+                    cta: "Activer le rappel à \(formatMinutes(minutes))",
                     onNext: activate, secondaryTitle: "Plus tard", onSecondary: skip) {
-            SunScene(minutes: minutes)
-                .frame(height: 250)
+            SunScene(minutes: raw)
+                .frame(height: 168)
                 .enter(2)
             VStack(spacing: 2) {
-                Text(formatMinutes(Int(minutes)))
+                Text(formatMinutes(minutes))
                     .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
-                    .contentTransition(.numericText())
-                Text(momentLabel(Int(minutes))).font(.figtree(15)).foregroundStyle(Palette.muted)
+                    .monospacedDigit()
+                    .contentTransition(.numericText(value: Double(minutes)))
+                    .animation(.snappy, value: minutes)
+                Text(momentLabel(minutes)).font(.figtree(15)).foregroundStyle(Palette.muted)
             }
             .frame(maxWidth: .infinity)
+            .enter(3)
             VStack(spacing: 2) {
-                Slider(value: $minutes, in: 360...1380, step: 15)
+                Slider(value: $raw, in: 360...1380)
                     .tint(Palette.blue)
                     .accessibilityLabel("Heure du rappel")
+                    .accessibilityValue(formatMinutes(minutes))
                 HStack {
                     Text("6 h"); Spacer(); Text("midi"); Spacer(); Text("18 h"); Spacer(); Text("23 h")
                 }
                 .font(.aCaption)
                 .foregroundStyle(Palette.muted)
             }
+            .enter(4)
         }
-        .onAppear { minutes = Double(user.profile.reminderMinutes) }
+        .onAppear { raw = Double(user.profile.reminderMinutes) }
+        // Un cran à chaque quart d'heure franchi, pas à chaque mouvement du doigt.
         .onChange(of: minutes) { _, _ in Haptics.selection() }
     }
 
     private func activate() {
-        user.profile.reminderMinutes = Int(minutes)
+        let chosen = minutes
+        user.profile.reminderMinutes = chosen
         Task {
             let granted = await Reminder.requestPermission()
             await MainActor.run {
                 user.profile.reminderOn = granted
                 if granted {
-                    Reminder.scheduleDaily(atMinutes: Int(minutes))
+                    Reminder.scheduleDaily(atMinutes: chosen)
                     Haptics.success()
                 }
                 onNext()
@@ -143,18 +154,212 @@ struct ReminderScreen: View {
     }
 
     private func skip() {
-        user.profile.reminderMinutes = Int(minutes)
+        user.profile.reminderMinutes = minutes
         user.profile.reminderOn = false
         onNext()
     }
 }
 
-// MARK: Chargement
+// MARK: Le widget : l'œuvre du jour sans ouvrir l'appli
+
+/// Silhouette de téléphone autour d'un écran dessiné.
+private struct PhoneMockup<Screen: View>: View {
+    @ViewBuilder var screen: () -> Screen
+
+    var body: some View {
+        screen()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .clipShape(RoundedRectangle(cornerRadius: 34, style: .continuous))
+            .overlay(alignment: .top) {
+                Capsule().fill(.black).frame(width: 76, height: 22).padding(.top, 10)
+            }
+            .padding(7)
+            .background(RoundedRectangle(cornerRadius: 41, style: .continuous).fill(Palette.blueDark))
+            .aspectRatio(0.5, contentMode: .fit)
+    }
+}
+
+struct WidgetScreen: View {
+    @EnvironmentObject private var content: ContentStore
+    let onNext: () -> Void
+
+    /// Faux : écran verrouillé. Vrai : écran d'accueil.
+    @State private var home = OnboardingDebug.flag("onbWidgetHome")
+    @State private var popped = false
+
+    private var artwork: Artwork? { content.artwork("nuit") ?? content.artworks.first }
+
+    private var today: String {
+        Date().formatted(.dateTime.weekday(.wide).day().month(.wide).locale(Locale(identifier: "fr_FR")))
+    }
+
+    var body: some View {
+        VStack(spacing: 0) {
+            VStack(spacing: 8) {
+                Text("Ton œuvre du jour, sans même ouvrir l'app.")
+                    .font(.aTitle)
+                    .foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("Sur l'écran verrouillé, et sur l'écran d'accueil.")
+                    .font(.figtree(17))
+                    .foregroundStyle(Palette.muted)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .multilineTextAlignment(.center)
+            .enter()
+
+            PhoneMockup {
+                ZStack {
+                    if home {
+                        homeScreen.transition(.opacity)
+                    } else {
+                        lockScreen.transition(.opacity)
+                    }
+                }
+            }
+            .frame(maxHeight: 430)
+            .padding(.top, 20)
+            .enter(2)
+            .accessibilityHidden(true)
+
+            Spacer(minLength: 16)
+
+            Button(home ? "Continuer" : "Et sur l'écran d'accueil ?") {
+                if home {
+                    onNext()
+                } else {
+                    popped = false
+                    withAnimation(.settle) { home = true }
+                    withAnimation(.settle.delay(0.25)) { popped = true }
+                }
+            }
+            .buttonStyle(.primary)
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .background(Palette.bg)
+        .onAppear {
+            withAnimation(.settle.delay(0.7)) { popped = true }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) { Haptics.soft() }
+        }
+    }
+
+    private var wallpaper: some View {
+        LinearGradient(colors: [Color(hex: 0x16294A), Color(hex: 0x3D5E93)], startPoint: .top, endPoint: .bottom)
+    }
+
+    private var lockScreen: some View {
+        ZStack {
+            wallpaper
+            VStack(spacing: 2) {
+                Text(today)
+                    .font(.system(size: 13, weight: .medium))
+                    .foregroundStyle(.white.opacity(0.9))
+                    .padding(.top, 44)
+                Text("9:41")
+                    .font(.system(size: 62, weight: .semibold, design: .rounded))
+                    .foregroundStyle(.white)
+                // Le widget de l'écran verrouillé
+                HStack(spacing: 10) {
+                    if let artwork {
+                        ArtImage(name: artwork.image)
+                            .frame(width: 46, height: 46)
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                    }
+                    VStack(alignment: .leading, spacing: 1) {
+                        Text("Œuvre du jour")
+                            .font(.system(size: 10, weight: .semibold))
+                            .foregroundStyle(.white.opacity(0.75))
+                        Text(artwork?.title ?? "")
+                            .font(.system(size: 14, weight: .bold))
+                            .foregroundStyle(.white)
+                            .lineLimit(1)
+                        Text(artwork?.artist ?? "")
+                            .font(.system(size: 11))
+                            .foregroundStyle(.white.opacity(0.8))
+                            .lineLimit(1)
+                    }
+                    Spacer(minLength: 0)
+                }
+                .padding(10)
+                .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(.white.opacity(0.16)))
+                .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(.white.opacity(0.28), lineWidth: 1))
+                .padding(.horizontal, 14)
+                .padding(.top, 8)
+                .scaleEffect(popped ? 1 : 0.86)
+                .opacity(popped ? 1 : 0)
+                Spacer()
+                HStack {
+                    Circle().fill(.white.opacity(0.18)).frame(width: 36, height: 36)
+                    Spacer()
+                    Circle().fill(.white.opacity(0.18)).frame(width: 36, height: 36)
+                }
+                .padding(.horizontal, 26)
+                Capsule().fill(.white.opacity(0.8)).frame(width: 84, height: 4).padding(.top, 10).padding(.bottom, 8)
+            }
+        }
+    }
+
+    private var homeScreen: some View {
+        ZStack {
+            wallpaper
+            VStack(spacing: 14) {
+                // Le widget de l'écran d'accueil : l'œuvre en grand
+                ZStack(alignment: .bottomLeading) {
+                    if let artwork {
+                        ArtImage(name: artwork.image)
+                    }
+                    LinearGradient(colors: [.clear, .black.opacity(0.65)], startPoint: .center, endPoint: .bottom)
+                    VStack(alignment: .leading, spacing: 1) {
+                        Text("Œuvre du jour")
+                            .font(.system(size: 10, weight: .semibold))
+                            .foregroundStyle(.white.opacity(0.8))
+                        Text(artwork?.title ?? "")
+                            .font(.system(size: 15, weight: .bold))
+                            .foregroundStyle(.white)
+                            .lineLimit(1)
+                    }
+                    .padding(10)
+                }
+                .frame(height: 128)
+                .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                .padding(.top, 50)
+                .scaleEffect(popped ? 1 : 0.86)
+                .opacity(popped ? 1 : 0)
+
+                // Des applis factices, pour situer le widget
+                ForEach(0..<3, id: \.self) { _ in
+                    HStack(spacing: 0) {
+                        ForEach(0..<4, id: \.self) { column in
+                            RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                .fill(.white.opacity(0.2))
+                                .frame(width: 36, height: 36)
+                            if column < 3 { Spacer(minLength: 0) }
+                        }
+                    }
+                }
+                Spacer()
+                Capsule().fill(.white.opacity(0.8)).frame(width: 84, height: 4).padding(.bottom, 8)
+            }
+            .padding(.horizontal, 14)
+        }
+    }
+}
+
+// MARK: Chargement : on prépare ton programme
 
 struct LoadingScreen: View {
+    @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
-    @State private var progress = 0
-    @State private var timer: Timer?
+
+    /// Avancement de 0 à 100, animé en continu.
+    @State private var progress: Double = 0
+    /// Nombre d'étapes terminées.
+    @State private var stage = 0
+    /// Tableaux déjà apparus dans le décor.
+    @State private var shown = 0
 
     private let rows = [
         "Analyse de tes réponses",
@@ -162,88 +367,136 @@ struct LoadingScreen: View {
         "Choix de ton premier parcours",
         "Programmation de ton rappel"
     ]
+    private let stepDuration = 0.95
+
+    private var isDone: Bool { stage >= rows.count }
+
+    private var title: String {
+        if let name = user.profile.firstName, !name.isEmpty {
+            return "\(name), on prépare ton programme"
+        }
+        return "On prépare ton programme"
+    }
 
     var body: some View {
-        VStack(spacing: 22) {
-            Spacer(minLength: 20)
-            ZStack {
-                Circle().stroke(Palette.line, lineWidth: 14)
-                Circle()
-                    .trim(from: 0, to: CGFloat(progress) / 100)
-                    .stroke(Palette.blue, style: StrokeStyle(lineWidth: 14, lineCap: .round))
-                    .rotationEffect(.degrees(-90))
-                    .animation(.linear(duration: 0.1), value: progress)
-                Text("\(progress) %")
-                    .font(.figtree(40, .bold))
-                    .foregroundStyle(Palette.ink)
-                    .contentTransition(.numericText())
-            }
-            .frame(width: 176, height: 176)
-
-            VStack(spacing: 8) {
-                Text("On prépare ton programme").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
-                Text("D'après tes réponses, rien que pour toi.").font(.aBody).foregroundStyle(Palette.muted)
-            }
-            .multilineTextAlignment(.center)
+        ZStack {
+            // Tableaux et sculpture flottent derrière, et arrivent au fil du chargement.
+            FloatingSpace(shown: shown, withSculpture: true)
+                .opacity(0.5)
+                .ignoresSafeArea()
 
             VStack(spacing: 0) {
-                ForEach(Array(rows.enumerated()), id: \.offset) { i, row in
-                    let done = progress >= (i + 1) * 25
-                    HStack(spacing: 12) {
-                        Image(systemName: "checkmark")
-                            .font(.system(size: 12, weight: .bold))
-                            .foregroundStyle(.white)
+                Spacer(minLength: 12)
+
+                // La Joconde au centre de l'anneau de progression
+                ZStack {
+                    Circle().fill(Palette.sand)
+                    Image("joconde")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(.top, 14)
+                        .clipShape(Circle())
+                    Circle().stroke(Palette.line, lineWidth: 12)
+                    Circle()
+                        .trim(from: 0, to: CGFloat(progress / 100))
+                        .stroke(Palette.blue, style: StrokeStyle(lineWidth: 12, lineCap: .round))
+                        .rotationEffect(.degrees(-90))
+                }
+                .frame(width: 164, height: 164)
+                .accessibilityHidden(true)
+
+                CountingText(value: progress, suffix: " %")
+                    .font(.figtree(40, .bold))
+                    .foregroundStyle(Palette.ink)
+                    .padding(.top, 14)
+
+                VStack(spacing: 6) {
+                    Text(title)
+                        .font(.figtree(26, .semibold))
+                        .foregroundStyle(Palette.ink)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text("D'après tes réponses, rien que pour toi.")
+                        .font(.aBody)
+                        .foregroundStyle(Palette.muted)
+                }
+                .multilineTextAlignment(.center)
+                .padding(.top, 6)
+
+                VStack(spacing: 0) {
+                    ForEach(Array(rows.enumerated()), id: \.offset) { i, row in
+                        let done = stage > i
+                        let active = stage == i
+                        HStack(spacing: 12) {
+                            ZStack {
+                                Circle().fill(done ? Palette.green : (active ? Palette.sand : Palette.line))
+                                if done {
+                                    Image(systemName: "checkmark")
+                                        .font(.system(size: 12, weight: .bold))
+                                        .foregroundStyle(.white)
+                                        .transition(.scale.combined(with: .opacity))
+                                } else if active {
+                                    ProgressView().controlSize(.mini).tint(Palette.blue)
+                                }
+                            }
                             .frame(width: 26, height: 26)
-                            .background(Circle().fill(done ? Palette.green : Color(hex: 0xD9CFC8)))
-                            .scaleEffect(done ? 1 : 0.85)
-                        Text(row)
-                            .font(.figtree(15, .medium))
-                            .foregroundStyle(done ? Palette.ink : Palette.muted)
-                        Spacer(minLength: 0)
+                            Text(row)
+                                .font(.figtree(15, done || active ? .semibold : .regular))
+                                .foregroundStyle(done || active ? Palette.ink : Palette.muted)
+                            Spacer(minLength: 0)
+                        }
+                        .frame(height: 46)
                     }
-                    .frame(height: 52)
-                    .animation(.bouncy, value: done)
+                }
+                .padding(.horizontal, 16)
+                .padding(.vertical, 6)
+                .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.white))
+                .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
+                .padding(.top, 20)
+
+                Spacer(minLength: 16)
+
+                if isDone {
+                    Button("Voir mon programme") { onNext() }
+                        .buttonStyle(.primary)
+                        .transition(.opacity.combined(with: .offset(y: 16)))
+                } else {
+                    Text("Encore un instant…")
+                        .font(.aSmall)
+                        .foregroundStyle(Palette.muted)
+                        .frame(height: 59)
                 }
             }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 8)
-            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
-            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
-
-            Spacer(minLength: 0)
-
-            if progress >= 100 {
-                Button("Voir mon programme") { onNext() }
-                    .buttonStyle(.primary)
-                    .transition(.opacity.combined(with: .offset(y: 16)))
-            } else {
-                Text("Encore un instant…").font(.aSmall).foregroundStyle(Palette.muted).frame(height: 56)
-            }
+            .padding(.horizontal, 24)
+            .padding(.bottom, 16)
         }
-        .padding(.horizontal, 24)
-        .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
         .onAppear(perform: start)
-        .onDisappear { timer?.invalidate() }
     }
 
     private func start() {
-        timer?.invalidate()
-        progress = 0
-        timer = Timer.scheduledTimer(withTimeInterval: 0.07, repeats: true) { t in
-            if progress >= 100 {
-                t.invalidate()
-                return
+        guard stage == 0, progress == 0 else { return }
+        for i in 1...rows.count {
+            let at = 0.5 + Double(i - 1) * (stepDuration + 0.2)
+            DispatchQueue.main.asyncAfter(deadline: .now() + at) {
+                withAnimation(.easeInOut(duration: stepDuration)) {
+                    progress = Double(i) * 100 / Double(rows.count)
+                }
             }
-            withAnimation(.gentle) { progress += 2 }
-            if progress % 25 == 0 { Haptics.press() } else if progress % 6 == 0 { Haptics.rigid() }
-            if progress >= 100 { Haptics.success() }
+            DispatchQueue.main.asyncAfter(deadline: .now() + at + stepDuration) {
+                withAnimation(.gentle) { stage = i }
+                if i == rows.count { Haptics.success() } else { Haptics.press() }
+            }
+        }
+        for i in 1...FloatingSpace.count {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2 + Double(i) * 0.3) {
+                shown = max(shown, i)
+            }
         }
     }
 }
 
-// MARK: 18 · Ton programme
+// MARK: Ton programme
 
 struct AvatarPicker: View {
     @Binding var selection: Int
@@ -283,82 +536,61 @@ struct PlanScreen: View {
         content.movement(content.artwork(user.profile.firstCourse)?.movementId) ?? content.movements.first
     }
 
+    private var title: String {
+        if let name = user.profile.firstName, !name.isEmpty {
+            return "\(name), voici ton programme."
+        }
+        return "Voici ton programme."
+    }
+
     var body: some View {
-        OnbScaffold(title: "Dans 30 jours",
-                    subtitle: "Voici où tu en seras, à ton rythme.", cta: "Ça me va", onNext: onNext) {
-            Group {
-                if picking {
-                    AvatarPicker(selection: $user.profile.avatar) {
-                        withAnimation(.gentle) { picking = false }
-                    }
-                    .padding(.horizontal, 12)
-                    .transition(.opacity)
-                } else {
-                    HStack(spacing: 14) {
-                        ArtImage(name: avatarImages[min(user.profile.avatar, avatarImages.count - 1)])
-                            .frame(width: 60, height: 60)
-                            .clipShape(Circle())
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text("Ton avatar").font(.bodyStrong).foregroundStyle(Palette.ink)
-                            Text("Visible sur ton profil").font(.aCaption).foregroundStyle(Palette.muted)
-                        }
-                        Spacer(minLength: 0)
-                        Button("Modifier") {
-                            withAnimation(.gentle) { picking = true }
-                        }
-                        .font(.figtree(14, .semibold))
-                        .foregroundStyle(Palette.blue)
-                        .padding(.horizontal, 16)
-                        .frame(height: 44)
-                        .background(Capsule().fill(.white))
-                        .buttonStyle(.pressable)
-                    }
-                    .padding(.horizontal, 12)
-                    .transition(.opacity)
-                }
-            }
-            .frame(height: 84)
-            .frame(maxWidth: .infinity)
-            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
-            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
-            .enter(2)
-
-            if let movement, let cover = content.artwork(movement.cover) {
-                HStack(spacing: 0) {
-                    ArtImage(name: cover.image).frame(width: 104, height: 112)
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text("Ton premier parcours").font(.figtree(12, .semibold))
-                        Text(movement.name).font(.aCardTitle)
-                        Text(movement.summary).font(.aCaption)
-                    }
-                    .foregroundStyle(Palette.ink)
-                    .padding(.horizontal, 14)
-                    Spacer(minLength: 0)
-                }
-                .background(Palette.yellow)
-                .clipShape(RoundedRectangle(cornerRadius: 16))
-                .enter(3)
-            }
-
+        OnbScaffold(title: title,
+                    subtitle: "Dans 30 jours, voilà où tu en seras.",
+                    spoken: true, cta: "Ça me va", onNext: onNext) {
             HStack(spacing: 10) {
                 projection("\(min(30, content.artworks.count))", "œuvres")
                 projection(hoursIn30Days, "de regard")
                 projection("30", "jours de série")
             }
-            .enter(4)
+            .enter(2)
+
+            if let movement, let cover = content.artwork(movement.cover) {
+                HStack(spacing: 14) {
+                    ArtImage(name: cover.image)
+                        .frame(width: 84, height: 84)
+                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    VStack(alignment: .leading, spacing: 4) {
+                        TagPill(text: "Ton premier parcours")
+                        Text(movement.name).font(.aCardTitle).foregroundStyle(Palette.ink)
+                        Text(movement.summary).font(.aCaption).foregroundStyle(Palette.muted)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                    Spacer(minLength: 0)
+                }
+                .padding(12)
+                .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.white))
+                .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
+                .enter(3)
+            }
 
             VStack(spacing: 0) {
-                recap("Objectif", goalLabel)
-                Divider()
-                recap("Chaque jour", "\(user.profile.minutes) min")
-                Divider()
-                recap("Rappel", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Désactivé")
+                recap("target", "Objectif", goalLabel)
+                divider
+                recap("clock.fill", "Chaque jour", "\(user.profile.minutes) min")
+                divider
+                recap("bell.fill", "Rappel", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Désactivé")
+                divider
+                avatarRow
             }
-            .padding(.horizontal, 16)
-            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
-            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
-            .enter(5)
+            .padding(.horizontal, 14)
+            .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.white))
+            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
+            .enter(4)
         }
+    }
+
+    private var divider: some View {
+        Rectangle().fill(Palette.line).frame(height: 1)
     }
 
     /// La première motivation choisie, avec le nombre des autres.
@@ -375,71 +607,225 @@ struct PlanScreen: View {
     }
 
     private func projection(_ value: String, _ label: String) -> some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Text(value).font(.figtree(24, .bold))
-            Text(label).font(.figtree(13, .medium))
+        VStack(spacing: 2) {
+            Text(value).font(.figtree(24, .bold)).foregroundStyle(Palette.blue)
+            Text(label).font(.figtree(13, .medium)).foregroundStyle(Palette.muted)
         }
-        .foregroundStyle(Palette.ink)
-        .padding(12)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sand))
+        .padding(.vertical, 12)
+        .frame(maxWidth: .infinity)
+        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Palette.sandLight))
+        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Palette.sand, lineWidth: 1))
     }
 
-    private func recap(_ label: String, _ value: String) -> some View {
+    private func recap(_ symbol: String, _ label: String, _ value: String) -> some View {
         HStack(spacing: 12) {
+            Image(systemName: symbol)
+                .font(.system(size: 14, weight: .semibold))
+                .foregroundStyle(Palette.blue)
+                .frame(width: 32, height: 32)
+                .background(Circle().fill(Palette.sand))
             Text(label).font(.aSmall).foregroundStyle(Palette.muted)
             Spacer(minLength: 8)
             Text(value).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 .multilineTextAlignment(.trailing)
                 .lineLimit(2)
         }
-        .frame(minHeight: 48)
+        .frame(minHeight: 52)
+    }
+
+    /// L'avatar du profil, modifiable sur place.
+    private var avatarRow: some View {
+        VStack(spacing: 0) {
+            HStack(spacing: 12) {
+                ArtImage(name: avatarImages[min(user.profile.avatar, avatarImages.count - 1)])
+                    .frame(width: 32, height: 32)
+                    .clipShape(Circle())
+                Text("Ton avatar").font(.aSmall).foregroundStyle(Palette.muted)
+                Spacer(minLength: 8)
+                Button(picking ? "Fermer" : "Modifier") {
+                    Haptics.tap()
+                    withAnimation(.gentle) { picking.toggle() }
+                }
+                .font(.figtree(14, .semibold))
+                .foregroundStyle(Palette.blue)
+                .frame(height: 44)
+                .buttonStyle(.pressable)
+            }
+            .frame(minHeight: 52)
+            if picking {
+                AvatarPicker(selection: $user.profile.avatar, size: 48) {
+                    withAnimation(.gentle) { picking = false }
+                }
+                .padding(.bottom, 12)
+                .transition(.opacity)
+            }
+        }
     }
 }
 
-// MARK: 19 · Compte
+// MARK: Preuve sociale : apprenants et avis
+
+struct SocialProofScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+    @State private var stars = 0
+
+    var body: some View {
+        OnbScaffold(title: "Tu n'es pas \(user.agree("le seul", "la seule")) à t'y mettre",
+                    cta: "Je les rejoins", onNext: onNext) {
+            // Le chiffre, entre deux lauriers
+            VStack(spacing: 10) {
+                HStack(spacing: 12) {
+                    Image(systemName: "laurel.leading")
+                        .font(.system(size: 54, weight: .regular))
+                        .foregroundStyle(Palette.yellow)
+                    VStack(spacing: 0) {
+                        Text("+ \(SocialProof.learners)")
+                            .font(.figtree(38, .bold))
+                            .foregroundStyle(Palette.ink)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.7)
+                        Text("apprenants")
+                            .font(.figtree(17, .semibold))
+                            .foregroundStyle(Palette.muted)
+                    }
+                    Image(systemName: "laurel.trailing")
+                        .font(.system(size: 54, weight: .regular))
+                        .foregroundStyle(Palette.yellow)
+                }
+                HStack(spacing: 8) {
+                    Text(SocialProof.rating)
+                        .font(.figtree(17, .bold))
+                        .foregroundStyle(Palette.ink)
+                    HStack(spacing: 3) {
+                        ForEach(0..<5, id: \.self) { i in
+                            Image(systemName: "star.fill")
+                                .font(.system(size: 15))
+                                .foregroundStyle(Palette.yellow)
+                                .scaleEffect(i < stars ? 1 : 0.5)
+                                .opacity(i < stars ? 1 : 0)
+                        }
+                    }
+                    Text("sur l'App Store")
+                        .font(.figtree(15))
+                        .foregroundStyle(Palette.muted)
+                }
+            }
+            .padding(.vertical, 20)
+            .frame(maxWidth: .infinity)
+            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.sandLight))
+            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.sand, lineWidth: 1))
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Plus de \(SocialProof.learners) apprenants, note de \(SocialProof.rating) sur 5 sur l'App Store")
+            .enter(2)
+
+            VStack(spacing: 10) {
+                ForEach(Array(SocialProof.reviews.enumerated()), id: \.offset) { i, review in
+                    HStack(alignment: .top, spacing: 12) {
+                        ArtImage(name: avatarImages[i % avatarImages.count])
+                            .frame(width: 40, height: 40)
+                            .clipShape(Circle())
+                        VStack(alignment: .leading, spacing: 5) {
+                            HStack(spacing: 2) {
+                                ForEach(0..<5, id: \.self) { _ in
+                                    Image(systemName: "star.fill")
+                                        .font(.system(size: 10))
+                                        .foregroundStyle(Palette.yellow)
+                                }
+                            }
+                            Text("« \(review) »")
+                                .font(.figtree(15, .medium))
+                                .foregroundStyle(Palette.ink)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(14)
+                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(.white))
+                    .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Palette.line, lineWidth: 1))
+                    .enter(Double(i) * 1.5 + 4)
+                }
+            }
+        }
+        .onAppear {
+            for i in 1...5 {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6 + 0.14 * Double(i)) {
+                    withAnimation(.snappy) { stars = i }
+                    Haptics.whisper()
+                }
+            }
+        }
+    }
+}
+
+// MARK: Compte
 
 struct AccountScreen: View {
     @EnvironmentObject private var user: UserStore
+    @Environment(\.webAuthenticationSession) private var webAuthenticationSession
     let onBack: () -> Void
     let onNext: () -> Void
 
+    @State private var googleBusy = false
+    @State private var message: String?
+
+    /// Le bouton Google n'apparaît en version publiée que si la connexion est configurée.
+    private var showsGoogle: Bool { GoogleAuth.isConfigured || OnboardingDebug.isDebug }
+
     var body: some View {
         VStack(spacing: 0) {
-            ZStack(alignment: .top) {
-                ArtImage(name: "ill_galerie", anchor: UnitPoint(x: 0.5, y: 0.7))
-                    .frame(height: 320)
-                    .clipShape(ArcHeaderShape())
-                    .ignoresSafeArea(edges: .top)
-                HStack {
-                    Button(action: onBack) {
-                        Image(systemName: "chevron.left")
-                            .font(.system(size: 18, weight: .bold))
-                            .foregroundStyle(Palette.ink)
-                            .frame(width: 44, height: 44)
-                            .background(Circle().fill(.white))
-                    }
-                    .buttonStyle(.pressable)
-                    Spacer()
+            HStack {
+                Button(action: onBack) {
+                    Image(systemName: "chevron.left")
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundStyle(Palette.ink)
+                        .frame(width: 44, height: 44)
                 }
-                .padding(.horizontal, 16)
-                .padding(.top, 8)
+                .buttonStyle(.pressable)
+                .padding(.leading, -12)
+                .accessibilityLabel("Retour")
+                Spacer()
             }
+            .frame(height: 44)
+            .padding(.top, 8)
 
-            VStack(spacing: 8) {
-                Text("Garde ta série et ta collection")
-                    .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
-                Text("Un compte pour ne rien perdre si tu changes de téléphone.")
-                    .font(.aBody).foregroundStyle(Palette.muted)
+            Spacer(minLength: 8)
+
+            MascotBubble(mascotSize: 150) {
+                VStack(spacing: 6) {
+                    Text("Garde ta série et ta collection.")
+                        .font(.figtree(24, .semibold))
+                        .foregroundStyle(Palette.ink)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text("Un compte pour ne rien perdre si tu changes de téléphone.")
+                        .font(.figtree(15))
+                        .foregroundStyle(Palette.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
             }
-            .multilineTextAlignment(.center)
-            .padding(.horizontal, 24)
-            .padding(.top, -24)
-            .enter(1)
+            .enter()
+
+            // Ce que le compte conserve
+            HStack(spacing: 8) {
+                keep("flame.fill", "Ta série")
+                keep("heart.fill", "Tes favoris")
+                keep("map.fill", "Ton programme")
+            }
+            .padding(.top, 18)
+            .enter(2)
 
             Spacer(minLength: 16)
+            Spacer(minLength: 0)
 
             VStack(spacing: 10) {
+                if let message {
+                    Text(message)
+                        .font(.aCaption)
+                        .foregroundStyle(Palette.red)
+                        .multilineTextAlignment(.center)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+
                 SignInWithAppleButton(.continue) { request in
                     request.requestedScopes = [.fullName]
                 } onCompletion: { result in
@@ -459,20 +845,85 @@ struct AccountScreen: View {
                 .frame(height: 56)
                 .clipShape(Capsule())
 
-                Button("Continuer sans compte") { onNext() }
-                    .buttonStyle(.secondary)
+                if showsGoogle {
+                    Button(action: signInWithGoogle) {
+                        HStack(spacing: 10) {
+                            if googleBusy {
+                                ProgressView().tint(Palette.ink)
+                            } else {
+                                Image("google_g")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 20, height: 20)
+                                Text("Continuer avec Google")
+                                    .font(.system(size: 20, weight: .medium))
+                                    .foregroundStyle(Palette.ink)
+                            }
+                        }
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 56)
+                        .background(Capsule().fill(.white))
+                        .overlay(Capsule().stroke(Palette.lip, lineWidth: 1.5))
+                    }
+                    .buttonStyle(.pressable)
+                    .disabled(googleBusy)
+                }
+
+                TextLinkButton(title: "Continuer sans compte", action: onNext)
 
                 Text("En continuant, tu acceptes les conditions d'utilisation et la politique de confidentialité.")
                     .font(.figtree(12))
                     .foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
-                    .padding(.top, 6)
             }
-            .padding(.horizontal, 24)
-            .padding(.bottom, 16)
             .enter(3)
         }
+        .padding(.horizontal, 24)
+        .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
+    }
+
+    private func keep(_ symbol: String, _ label: String) -> some View {
+        VStack(spacing: 6) {
+            Image(systemName: symbol)
+                .font(.system(size: 16, weight: .semibold))
+                .foregroundStyle(Palette.blue)
+                .frame(width: 38, height: 38)
+                .background(Circle().fill(Palette.sand))
+            Text(label)
+                .font(.figtree(13, .semibold))
+                .foregroundStyle(Palette.ink)
+                .multilineTextAlignment(.center)
+        }
+        .frame(maxWidth: .infinity)
+    }
+
+    private func signInWithGoogle() {
+        message = nil
+        guard GoogleAuth.isConfigured else {
+            Haptics.warning()
+            message = "La connexion Google n'est pas encore configurée (identifiant client manquant dans GoogleAuth.swift)."
+            return
+        }
+        googleBusy = true
+        Task {
+            do {
+                let account = try await GoogleAuth.signIn(using: webAuthenticationSession)
+                user.profile.googleUserId = account.userID
+                if let name = account.firstName, (user.profile.firstName ?? "").isEmpty {
+                    user.profile.firstName = name
+                }
+                googleBusy = false
+                Haptics.success()
+                onNext()
+            } catch GoogleAuth.Failure.cancelled {
+                googleBusy = false
+            } catch {
+                googleBusy = false
+                Haptics.warning()
+                message = "La connexion Google a échoué. Réessaie dans un instant."
+            }
+        }
     }
 }

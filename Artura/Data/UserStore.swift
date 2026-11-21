@@ -23,6 +23,7 @@ final class UserStore: ObservableObject {
         var completedLessons: [String] = []
         var gamesWon = 0
         var appleUserId: String?
+        var googleUserId: String?
         var firstName: String?
         /// Jour (yyyy-MM-dd) où chaque cours a été terminé pour la dernière fois.
         var lessonDays: [String: String]?

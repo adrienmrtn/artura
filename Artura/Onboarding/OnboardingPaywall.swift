@@ -388,47 +388,69 @@ struct TrialScreen: View {
     @State private var showExitOffer = OnboardingDebug.flag("onbExitOffer")
     @State private var exitOfferSeen = false
     @State private var reminder: Bool?
+    /// Étapes de la frise déjà apparues (0 à 3) : elles arrivent une à une, lentement.
+    @State private var revealed = 0
     @State private var grow = false
 
     /// Délai avant que la croix de fermeture apparaisse, en secondes.
-    private let closeDelay: Double = 8
+    private let closeDelay: Double = 12
 
     var body: some View {
         VStack(spacing: 0) {
-            ScrollView {
-                VStack(spacing: 12) {
-                    VStack(spacing: 8) {
-                        Text("Comment se passe ton essai ?")
-                            .font(.figtree(28, .bold))
-                            .foregroundStyle(Palette.ink)
-                            .multilineTextAlignment(.center)
-                            .fixedSize(horizontal: false, vertical: true)
-                            .padding(.horizontal, 36)
-                        HStack(spacing: 8) {
-                            CheckBadge(color: Palette.green, size: 22)
-                            Text("\(offer.zeroPrice) aujourd'hui")
-                                .font(.figtree(17, .bold))
-                                .foregroundStyle(Palette.ink)
-                        }
-                    }
-                    .enter()
-
-                    timeline
-                        .enter(2)
-
-                    reminderRow
-                        .enter(4)
+            // La croix : discrète, sans fond, et seulement après un moment.
+            HStack {
+                Button(action: close) {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(Palette.muted.opacity(0.7))
+                        .frame(width: 44, height: 36)
                 }
-                .padding(.horizontal, 24)
-                .padding(.top, 16)
-                .padding(.bottom, 10)
+                .buttonStyle(.pressable)
+                .accessibilityLabel("Fermer et continuer gratuitement")
+                .opacity(canClose ? 1 : 0)
+                .disabled(!canClose)
+                Spacer()
             }
-            .scrollIndicators(.hidden)
-            .scrollBounceBehavior(.basedOnSize)
+            .padding(.leading, 8)
 
-            VStack(spacing: 6) {
+            // 1 · Le titre et le prix du jour
+            VStack(spacing: 10) {
+                Text("Comment se passe ton essai ?")
+                    .font(.figtree(30, .bold))
+                    .foregroundStyle(Palette.ink)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                HStack(spacing: 8) {
+                    CheckBadge(color: Palette.green, size: 22)
+                    Text("\(offer.zeroPrice) aujourd'hui")
+                        .font(.figtree(17, .bold))
+                        .foregroundStyle(Palette.ink)
+                }
+            }
+            .padding(.horizontal, 24)
+            .enter()
+
+            Spacer(minLength: 14)
+
+            // 2 · La frise, compacte
+            timeline
+                .padding(.horizontal, 24)
+                .enter(2)
+
+            reminderRow
+                .padding(.horizontal, 24)
+                .padding(.top, 10)
+                .enter(3)
+
+            Spacer(minLength: 14)
+
+            // 3 · L'action et le prix
+            VStack(spacing: 0) {
                 if let error = pro.lastError {
-                    Text(error).font(.aCaption).foregroundStyle(Palette.red)
+                    Text(error)
+                        .font(.aCaption)
+                        .foregroundStyle(Palette.red)
+                        .padding(.bottom, 6)
                 }
                 Button {
                     buy(offer)
@@ -445,16 +467,16 @@ struct TrialScreen: View {
                 .buttonStyle(.primary)
                 .disabled(pro.isPurchasing)
 
-                VStack(spacing: 2) {
-                    Text("\(offer.trialDays) jours d'accès illimité, puis \(offer.yearlyPrice) par an")
-                        .font(.aSmall).foregroundStyle(Palette.muted)
-                    Text("Soit \(offer.monthlyPrice) par mois")
-                        .font(.figtree(14, .bold)).foregroundStyle(Palette.ink)
-                }
-                .multilineTextAlignment(.center)
-                .padding(.top, 4)
+                Text("\(offer.trialDays) jours gratuits, puis \(offer.yearlyPrice) par an")
+                    .font(.figtree(14))
+                    .foregroundStyle(Palette.muted)
+                    .padding(.top, 12)
+                Text("Soit \(offer.monthlyPrice) par mois")
+                    .font(.figtree(14, .bold))
+                    .foregroundStyle(Palette.ink)
+                    .padding(.top, 2)
 
-                HStack(spacing: 18) {
+                HStack(spacing: 20) {
                     Button("Restaurer") { restore() }
                     if let terms = Legal.terms { Link("Conditions", destination: terms) }
                     if let privacy = Legal.privacy { Link("Confidentialité", destination: privacy) }
@@ -463,37 +485,18 @@ struct TrialScreen: View {
                 .foregroundStyle(Palette.muted)
                 .tint(Palette.muted)
                 .underline()
-                .frame(height: 36)
+                .frame(height: 38)
             }
             .padding(.horizontal, 24)
-            .padding(.bottom, 4)
         }
+        .padding(.bottom, 4)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
-        .overlay(alignment: .topLeading) {
-            Button(action: close) {
-                Image(systemName: "xmark")
-                    .font(.system(size: 13, weight: .bold))
-                    .foregroundStyle(Palette.muted)
-                    .frame(width: 40, height: 40)
-                    .background(Circle().fill(.white))
-                    .overlay(Circle().stroke(Palette.line, lineWidth: 1))
-            }
-            .buttonStyle(.pressable)
-            .accessibilityLabel("Fermer et continuer gratuitement")
-            .opacity(canClose ? 1 : 0)
-            .disabled(!canClose)
-            .padding(.leading, 14)
-            .padding(.top, 6)
-        }
         .task {
-            // La croix n'apparaît qu'après quelques secondes de lecture.
             try? await Task.sleep(nanoseconds: UInt64(closeDelay * 1_000_000_000))
-            withAnimation(.easeInOut(duration: 0.4)) { canClose = true }
+            withAnimation(.easeInOut(duration: 0.9)) { canClose = true }
         }
-        .onAppear {
-            withAnimation(.easeOut(duration: 1.1).delay(0.5)) { grow = true }
-        }
+        .onAppear(perform: play)
         .sheet(isPresented: $showExitOffer) {
             if let extendedOffer {
                 ExitOfferSheet(pro: pro, offer: extendedOffer, baseDays: offer.trialDays,
@@ -510,83 +513,101 @@ struct TrialScreen: View {
         }
     }
 
+    /// La frise se déroule lentement : le fil descend, chaque étape apparaît quand il l'atteint.
+    private func play() {
+        withAnimation(.easeInOut(duration: 3.0).delay(0.7)) { grow = true }
+        for i in 1...3 {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.7 + Double(i - 1) * 1.2) {
+                withAnimation(.easeOut(duration: 0.8)) { revealed = i }
+                Haptics.soft()
+            }
+        }
+    }
+
     // MARK: Frise
 
     private var timeline: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            timelineRow(icon: "lock.open.fill", fill: Palette.blue, tint: .white,
+        VStack(alignment: .leading, spacing: 14) {
+            timelineRow(1, icon: "lock.open.fill", fill: Palette.blue, tint: .white,
                         title: "Aujourd'hui",
-                        text: "Tout Artura s'ouvre : cours, jeux et parcours, sans limite.")
-            VStack(alignment: .leading, spacing: 10) {
-                timelineRow(icon: "bell.fill", fill: Palette.sand, tint: Palette.blue,
+                        text: "Tout Artura s'ouvre, sans limite.")
+            VStack(alignment: .leading, spacing: 8) {
+                timelineRow(2, icon: "bell.fill", fill: Palette.sand, tint: Palette.blue,
                             title: "Jour \(max(1, offer.trialDays - 1)) · ton rappel",
                             text: "La veille de la fin, on te prévient.")
                 notification
-                    .padding(.leading, 62)
+                    .padding(.leading, 48)
+                    .opacity(revealed >= 2 ? 1 : 0)
             }
-            timelineRow(icon: "seal.fill", fill: .white, tint: Palette.orange,
+            timelineRow(3, icon: "seal.fill", fill: .white, tint: Palette.orange,
                         title: "Jour \(offer.trialDays) · Artura Pro",
-                        text: "L'essai devient Artura Pro à \(offer.yearlyPrice) par an. Annule avant, en deux gestes, si tu veux.")
+                        text: "\(offer.yearlyPrice) par an. Tu peux annuler avant, en deux gestes.")
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(alignment: .topLeading) {
-            // Le fil qui relie les trois étapes, du bleu vers la terre cuite.
+            // Le fil qui relie les trois étapes.
             GeometryReader { geo in
                 Capsule()
                     .fill(LinearGradient(colors: [Palette.blue, Palette.yellow, Palette.orange],
                                          startPoint: .top, endPoint: .bottom))
-                    .frame(width: 4, height: grow ? max(0, geo.size.height - 92) : 0)
-                    .offset(x: 16 + 22, y: 16 + 24)
+                    .frame(width: 3, height: grow ? max(0, geo.size.height - 76) : 0)
+                    .offset(x: 16 + 16.5, y: 16 + 18)
             }
         }
-        .background(RoundedRectangle(cornerRadius: 26, style: .continuous).fill(Palette.card))
-        .overlay(RoundedRectangle(cornerRadius: 26, style: .continuous).stroke(Palette.line, lineWidth: 1))
+        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(.white))
+        .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.line, lineWidth: 1))
     }
 
-    private func timelineRow(icon: String, fill: Color, tint: Color, title: String, text: String) -> some View {
-        HStack(alignment: .top, spacing: 14) {
+    private func timelineRow(_ step: Int, icon: String, fill: Color, tint: Color, title: String, text: String) -> some View {
+        HStack(alignment: .top, spacing: 12) {
             Image(systemName: icon)
-                .font(.system(size: 18, weight: .semibold))
+                .font(.system(size: 14, weight: .semibold))
                 .foregroundStyle(tint)
-                .frame(width: 48, height: 48)
+                .frame(width: 36, height: 36)
                 .background(Circle().fill(fill))
                 .overlay(Circle().stroke(Palette.blue, lineWidth: 1.5))
-            VStack(alignment: .leading, spacing: 3) {
-                Text(title).font(.figtree(18, .bold)).foregroundStyle(Palette.ink)
-                Text(text).font(.figtree(15)).foregroundStyle(Palette.muted)
+            VStack(alignment: .leading, spacing: 1) {
+                Text(title)
+                    .font(.figtree(16, .bold))
+                    .foregroundStyle(Palette.ink)
+                Text(text)
+                    .font(.figtree(14))
+                    .foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
+        .opacity(revealed >= step ? 1 : 0)
+        .offset(y: revealed >= step ? 0 : 8)
     }
 
     /// Aperçu de la notification envoyée la veille de la fin.
     private var notification: some View {
-        HStack(spacing: 12) {
+        HStack(spacing: 10) {
             Image("logo")
                 .resizable()
                 .scaledToFill()
-                .frame(width: 38, height: 38)
-                .clipShape(RoundedRectangle(cornerRadius: 9))
-            VStack(alignment: .leading, spacing: 1) {
+                .frame(width: 30, height: 30)
+                .clipShape(RoundedRectangle(cornerRadius: 7))
+            VStack(alignment: .leading, spacing: 0) {
                 Text("Ton essai se termine demain")
-                    .font(.figtree(14, .bold)).foregroundStyle(Palette.ink)
-                Text("Reviens voir les œuvres que tu as découvertes.")
-                    .font(.figtree(13)).foregroundStyle(Palette.muted)
-                    .fixedSize(horizontal: false, vertical: true)
+                    .font(.figtree(13, .bold))
+                    .foregroundStyle(Palette.ink)
+                Text("Reviens voir tes œuvres.")
+                    .font(.figtree(12))
+                    .foregroundStyle(Palette.muted)
             }
             Spacer(minLength: 0)
         }
-        .padding(10)
-        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sandLight))
-        .overlay(RoundedRectangle(cornerRadius: 16).stroke(Palette.sand, lineWidth: 1))
+        .padding(8)
+        .background(RoundedRectangle(cornerRadius: 14).fill(Palette.sandLight))
     }
 
     private var reminderRow: some View {
         HStack(spacing: 12) {
-            Text(reminder == false ? "Notifications refusées : tu peux les activer dans Réglages."
+            Text(reminder == false ? "Notifications refusées : active-les dans Réglages."
                                    : "Recevoir un rappel la veille de la fin")
-                .font(.figtree(16, .medium))
+                .font(.figtree(15, .medium))
                 .foregroundStyle(Palette.ink)
                 .fixedSize(horizontal: false, vertical: true)
             Spacer(minLength: 8)
@@ -602,16 +623,16 @@ struct TrialScreen: View {
                     .font(.figtree(15, .bold))
                     .foregroundStyle(.white)
                     .padding(.horizontal, 18)
-                    .frame(height: 40)
+                    .frame(height: 38)
                     .background(Capsule().fill(Palette.blue))
                     .buttonStyle(.pressable)
             }
         }
-        .padding(.horizontal, 18)
-        .padding(.vertical, 10)
-        .frame(maxWidth: .infinity, minHeight: 60)
-        .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
-        .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
+        .padding(.horizontal, 16)
+        .padding(.vertical, 8)
+        .frame(maxWidth: .infinity, minHeight: 56)
+        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(.white))
+        .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Palette.line, lineWidth: 1))
     }
 
     // MARK: Actions
@@ -661,49 +682,19 @@ struct TrialScreen: View {
     }
 }
 
-// MARK: - 4 · « Attends… » : l'offre de dernière minute
+// MARK: - 4 · « Attends… » : le pass d'une semaine
 
-/// Enveloppe cachetée, légèrement penchée.
-private struct OfferEnvelope: View {
-    @State private var pulse = false
+/// Billet de musée : un rectangle arrondi avec deux encoches, là où on détache le talon.
+private struct TicketShape: Shape {
+    /// Position des encoches, en part de la hauteur.
+    var notch: CGFloat = 0.72
 
-    var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 12)
-                .fill(.white)
-                .shadow(color: Palette.blueDark.opacity(0.14), radius: 14, y: 8)
-            // Les plis du rabat
-            GeometryReader { geo in
-                Path { p in
-                    let w = geo.size.width
-                    let h = geo.size.height
-                    p.move(to: CGPoint(x: 0, y: 0))
-                    p.addLine(to: CGPoint(x: w / 2, y: h * 0.56))
-                    p.addLine(to: CGPoint(x: w, y: 0))
-                    p.move(to: CGPoint(x: 0, y: h))
-                    p.addLine(to: CGPoint(x: w * 0.38, y: h * 0.44))
-                    p.move(to: CGPoint(x: w, y: h))
-                    p.addLine(to: CGPoint(x: w * 0.62, y: h * 0.44))
-                }
-                .stroke(Palette.lip, lineWidth: 1.5)
-            }
-            RoundedRectangle(cornerRadius: 12).stroke(Palette.blue, lineWidth: 1.5)
-            // Le cachet de cire
-            Text("A")
-                .font(.figtree(24, .bold))
-                .foregroundStyle(.white)
-                .frame(width: 52, height: 52)
-                .background(Circle().fill(Palette.orange))
-                .overlay(Circle().stroke(Palette.blueDark, lineWidth: 1.5))
-                .scaleEffect(pulse ? 1.06 : 1)
-                .offset(y: 12)
-        }
-        .frame(width: 236, height: 148)
-        .rotationEffect(.degrees(-3))
-        .onAppear {
-            withAnimation(.easeInOut(duration: 1.1).repeatForever(autoreverses: true)) { pulse = true }
-        }
-        .accessibilityHidden(true)
+    func path(in rect: CGRect) -> Path {
+        let radius: CGFloat = 11
+        let y = rect.minY + rect.height * notch
+        return Path(roundedRect: rect, cornerRadius: 22, style: .continuous)
+            .subtracting(Path(ellipseIn: CGRect(x: rect.minX - radius, y: y - radius, width: radius * 2, height: radius * 2)))
+            .subtracting(Path(ellipseIn: CGRect(x: rect.maxX - radius, y: y - radius, width: radius * 2, height: radius * 2)))
     }
 }
 
@@ -717,6 +708,7 @@ struct ExitOfferSheet: View {
     let onDecline: () -> Void
 
     @State private var filled = 0
+    @State private var stamped = false
 
     private var extraDays: Int { max(0, offer.trialDays - baseDays) }
 
@@ -727,35 +719,27 @@ struct ExitOfferSheet: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            VStack(spacing: 8) {
-                Text(title)
-                    .font(.figtree(34, .bold))
-                    .foregroundStyle(Palette.ink)
-                Text("Avant de partir, on a une dernière chose pour toi.")
-                    .font(.figtree(17))
-                    .foregroundStyle(Palette.muted)
-                    .fixedSize(horizontal: false, vertical: true)
+            // La Joconde retient le visiteur : c'est elle qui offre le pass.
+            MascotBubble(mascotSize: 112) {
+                VStack(spacing: 6) {
+                    Text(title)
+                        .font(.figtree(26, .bold))
+                        .foregroundStyle(Palette.ink)
+                    Text("Je t'offre \(extraDays) jours de plus pour visiter tout Artura.")
+                        .font(.figtree(16))
+                        .foregroundStyle(Palette.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
             }
-            .multilineTextAlignment(.center)
-            .padding(.top, 36)
+            .padding(.top, 26)
             .enter()
 
-            Spacer(minLength: 12)
+            Spacer(minLength: 14)
 
-            OfferEnvelope()
+            ticket
                 .enter(2)
 
-            Spacer(minLength: 12)
-
-            Text("TON OFFRE EXCLUSIVE")
-                .font(.figtree(12, .bold))
-                .tracking(3)
-                .foregroundStyle(Palette.muted)
-                .padding(.bottom, 14)
-                .enter(3)
-
-            offerCard
-                .enter(4)
+            Spacer(minLength: 14)
 
             VStack(spacing: 4) {
                 if let error = pro.lastError {
@@ -767,13 +751,13 @@ struct ExitOfferSheet: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("Profiter de cette offre")
+                        Text("Prendre mon pass \(offer.trialDays) jours")
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(pro.isPurchasing)
 
-                Button("Non merci, je quitte") {
+                Button("Non merci") {
                     Haptics.tap()
                     onDecline()
                 }
@@ -788,7 +772,6 @@ struct ExitOfferSheet: View {
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
             }
-            .padding(.top, 20)
         }
         .padding(.horizontal, 24)
         .padding(.bottom, 12)
@@ -798,57 +781,100 @@ struct ExitOfferSheet: View {
             Haptics.soft()
             // Les jours se remplissent un à un : d'abord l'essai, puis les jours offerts.
             for i in 1...max(1, offer.trialDays) {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.7 + Double(i) * 0.12) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.8 + Double(i) * 0.14) {
                     withAnimation(.easeOut(duration: 0.25)) { filled = i }
                     if i > baseDays { Haptics.rigid() } else { Haptics.whisper() }
                 }
             }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0 + Double(offer.trialDays) * 0.14) {
+                withAnimation(.settle) { stamped = true }
+                Haptics.heavy()
+            }
         }
     }
 
-    private var offerCard: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .firstTextBaseline, spacing: 10) {
-                Text("\(baseDays) jours")
-                    .font(.figtree(17, .medium))
-                    .foregroundStyle(Palette.muted)
-                    .strikethrough()
-                Text("\(offer.trialDays) jours gratuits")
-                    .font(.figtree(28, .bold))
-                    .foregroundStyle(Palette.ink)
-            }
-            HStack(spacing: 5) {
-                ForEach(0..<max(1, offer.trialDays), id: \.self) { i in
-                    RoundedRectangle(cornerRadius: 7)
-                        .fill(i < filled ? (i < baseDays ? Palette.blue : Palette.green) : Palette.line)
-                        .frame(height: 22)
+    /// Le pass, dessiné comme un billet d'entrée de musée.
+    private var ticket: some View {
+        VStack(spacing: 0) {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack {
+                    Text("ARTURA PRO · PASS VISITEUR")
+                        .font(.figtree(11, .bold))
+                        .tracking(2)
+                        .foregroundStyle(Palette.muted)
+                    Spacer(minLength: 0)
+                }
+                HStack(alignment: .firstTextBaseline, spacing: 10) {
+                    Text("\(offer.trialDays) jours gratuits")
+                        .font(.figtree(30, .bold))
+                        .foregroundStyle(Palette.ink)
+                    Text("\(baseDays) jours")
+                        .font(.figtree(16, .medium))
+                        .foregroundStyle(Palette.muted)
+                        .strikethrough()
+                }
+                HStack(spacing: 5) {
+                    ForEach(0..<max(1, offer.trialDays), id: \.self) { i in
+                        RoundedRectangle(cornerRadius: 7)
+                            .fill(i < filled ? (i < baseDays ? Palette.blue : Palette.green) : Palette.line)
+                            .frame(height: 20)
+                    }
+                }
+                HStack {
+                    Text("J1 à J\(baseDays) : ton essai")
+                        .font(.figtree(13, .medium)).foregroundStyle(Palette.blue)
+                    Spacer(minLength: 8)
+                    Text("J\(baseDays + 1) à J\(offer.trialDays) : offerts")
+                        .font(.figtree(13, .bold)).foregroundStyle(Palette.green)
                 }
             }
+            .padding(.horizontal, 20)
+            .padding(.top, 20)
+            .padding(.bottom, 18)
+
+            // La ligne de découpe du talon
+            Line()
+                .stroke(Palette.lip, style: StrokeStyle(lineWidth: 1.5, dash: [6, 5]))
+                .frame(height: 1.5)
+                .padding(.horizontal, 18)
+
             HStack {
-                Text("J1 à J\(baseDays) : ton essai")
-                    .font(.figtree(13, .medium)).foregroundStyle(Palette.blue)
+                VStack(alignment: .leading, spacing: 1) {
+                    Text("Accès complet")
+                        .font(.figtree(15, .bold)).foregroundStyle(Palette.ink)
+                    Text("Cours, jeux et parcours")
+                        .font(.figtree(13)).foregroundStyle(Palette.muted)
+                }
                 Spacer(minLength: 8)
-                Text("J\(baseDays + 1) à J\(offer.trialDays) : offerts")
-                    .font(.figtree(13, .bold)).foregroundStyle(Palette.green)
+                // Le tampon « offert »
+                Text("+ \(extraDays) JOURS OFFERTS")
+                    .font(.figtree(12, .bold))
+                    .tracking(1)
+                    .foregroundStyle(Palette.green)
+                    .padding(.horizontal, 10)
+                    .frame(height: 30)
+                    .overlay(RoundedRectangle(cornerRadius: 8).stroke(Palette.green, lineWidth: 2))
+                    .rotationEffect(.degrees(-6))
+                    .scaleEffect(stamped ? 1 : 1.6)
+                    .opacity(stamped ? 1 : 0)
             }
-            Text(offer.trialDays == 7 ? "Une semaine entière pour tout essayer." : "\(offer.trialDays) jours pour tout essayer.")
-                .font(.figtree(16))
-                .italic()
-                .foregroundStyle(Palette.ink)
+            .padding(.horizontal, 20)
+            .padding(.vertical, 16)
         }
-        .padding(18)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.card))
-        .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.green, lineWidth: 2))
-        .overlay(alignment: .topTrailing) {
-            Text("+ \(extraDays) jours offerts")
-                .font(.figtree(13, .bold))
-                .foregroundStyle(.white)
-                .padding(.horizontal, 12)
-                .frame(height: 28)
-                .background(Capsule().fill(Palette.green))
-                .offset(x: -16, y: -14)
-        }
+        .background(TicketShape().fill(.white).shadow(color: Palette.blueDark.opacity(0.12), radius: 16, y: 8))
+        .overlay(TicketShape().stroke(Palette.blue, lineWidth: 1.5))
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Pass visiteur : \(offer.trialDays) jours gratuits au lieu de \(baseDays)")
+    }
+}
+
+/// Trait horizontal, pour les pointillés.
+private struct Line: Shape {
+    func path(in rect: CGRect) -> Path {
+        var p = Path()
+        p.move(to: CGPoint(x: rect.minX, y: rect.midY))
+        p.addLine(to: CGPoint(x: rect.maxX, y: rect.midY))
+        return p
     }
 }
 
