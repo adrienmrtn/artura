@@ -54,6 +54,9 @@ jobs:
           grep -E "^/.*: (error|warning):" build.log | sed "s#$GITHUB_WORKSPACE/##" | sort -u | head -n 200 || true
           grep -E "^(error|ld|clang): " build.log | sort -u | head -n 40 || true
           echo "@@ERRORS_END"
+          echo "@@WIDGET"
+          ls build/Build/Products/Debug-iphonesimulator/Artura.app/PlugIns/ArturaWidget.appex 2>&1 | head -n 30 || true
+          echo "@@WIDGET_END"
       - name: Captures d'écran de l'onboarding
         if: matrix.xcode == 'recent' && contains(github.event.head_commit.message, '[captures')
         env:
@@ -139,6 +142,7 @@ jobs:
           shootApp 68_session 6 -appTab review -reviewSession YES
           shootApp 69_games 5 -appTab games
           shootApp 70_profile 5 -appTab profile
+          shootApp 73_widgetGuide 5 -appTab profile -profileSheet widget
           shootApp 71_reviewEmpty 5 -appTab review -demoEmpty YES
           shootApp 72_feedEmptyProfile 5 -demoEmpty YES
           # Quelques écrans denses sur un petit téléphone, pour vérifier que tout tient

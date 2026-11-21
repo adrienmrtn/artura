@@ -6,8 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB0000000000000000000010 /* ArturaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000001 /* ArturaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0000000000000000000011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0000000000000000000006;
+			remoteInfo = ArturaWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB0000000000000000000012 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB0000000000000000000010 /* ArturaWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		AA0000000000000000000001 /* Artura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0000000000000000000001 /* ArturaWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArturaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -20,6 +49,25 @@
 			);
 			target = AA0000000000000000000006 /* Artura */;
 		};
+		BB0000000000000000000013 /* Exceptions for "Artura" folder in "ArturaWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Fonts/Figtree_400Regular.ttf,
+				Fonts/Figtree_600SemiBold.ttf,
+				Fonts/Figtree_700Bold.ttf,
+				Resources/content.json,
+				Widget/DailyArtwork.swift,
+				Widget/DailyArtworkWidgetView.swift,
+			);
+			target = BB0000000000000000000006 /* ArturaWidget */;
+		};
+		BB0000000000000000000014 /* Exceptions for "ArturaWidget" folder in "ArturaWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB0000000000000000000006 /* ArturaWidget */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -27,14 +75,30 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				AA0000000000000000000013 /* Exceptions for "Artura" folder in "Artura" target */,
+				BB0000000000000000000013 /* Exceptions for "Artura" folder in "ArturaWidget" target */,
 			);
 			path = Artura;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000002 /* ArturaWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB0000000000000000000014 /* Exceptions for "ArturaWidget" folder in "ArturaWidget" target */,
+			);
+			path = ArturaWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA0000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0000000000000000000003 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0000000000000000000002 /* Artura */,
+				BB0000000000000000000002 /* ArturaWidget */,
 				AA0000000000000000000005 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0000000000000000000001 /* Artura.app */,
+				BB0000000000000000000001 /* ArturaWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,10 +136,12 @@
 				AA0000000000000000000007 /* Sources */,
 				AA0000000000000000000003 /* Frameworks */,
 				AA0000000000000000000008 /* Resources */,
+				BB0000000000000000000012 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BB0000000000000000000015 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				AA0000000000000000000002 /* Artura */,
@@ -84,6 +152,28 @@
 			productName = Artura;
 			productReference = AA0000000000000000000001 /* Artura.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BB0000000000000000000006 /* ArturaWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0000000000000000000016 /* Build configuration list for PBXNativeTarget "ArturaWidget" */;
+			buildPhases = (
+				BB0000000000000000000007 /* Sources */,
+				BB0000000000000000000003 /* Frameworks */,
+				BB0000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB0000000000000000000002 /* ArturaWidget */,
+			);
+			name = ArturaWidget;
+			packageProductDependencies = (
+			);
+			productName = ArturaWidget;
+			productReference = BB0000000000000000000001 /* ArturaWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +186,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					AA0000000000000000000006 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BB0000000000000000000006 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -115,12 +208,20 @@
 			projectRoot = "";
 			targets = (
 				AA0000000000000000000006 /* Artura */,
+				BB0000000000000000000006 /* ArturaWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA0000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0000000000000000000008 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,7 +238,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB0000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0000000000000000000015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0000000000000000000006 /* ArturaWidget */;
+			targetProxy = BB0000000000000000000011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AA000000000000000000000A /* Debug */ = {
@@ -251,6 +367,56 @@
 			};
 			name = Release;
 		};
+		BB000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 24;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArturaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Artura;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikstudios.artura.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 24;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArturaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Artura;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikstudios.artura.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +434,15 @@
 			buildConfigurations = (
 				AA000000000000000000000C /* Debug */,
 				AA000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0000000000000000000016 /* Build configuration list for PBXNativeTarget "ArturaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB000000000000000000000C /* Debug */,
+				BB000000000000000000000D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

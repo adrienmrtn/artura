@@ -37,7 +37,7 @@ struct ReviewView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
-                SkyHeader(height: 168) {
+                SkyHeader {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Review").font(.figtree(28, .semibold))
                         Text("Remember what you've seen").font(.figtree(15))

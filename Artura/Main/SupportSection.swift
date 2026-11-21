@@ -6,6 +6,7 @@ struct SupportSection: View {
     @Environment(\.requestReview) private var requestReview
     @Environment(\.openURL) private var openURL
     @State private var showLibrary = false
+    @State private var showWidget = AppDebug.string("profileSheet") == "widget"
 
     private var shareText: String {
         var text = "I'm learning art with Artura: one masterpiece a day, and the story behind it."
@@ -21,6 +22,14 @@ struct SupportSection: View {
                     showLibrary = true
                 } label: {
                     row("books.vertical.fill", "My library", detail: "Favorites, saved and history")
+                }
+                .buttonStyle(.pressable)
+                Divider()
+                Button {
+                    Haptics.tap()
+                    showWidget = true
+                } label: {
+                    row("square.grid.2x2.fill", "Add the widget", detail: "The artwork of the day on your Home Screen")
                 }
                 .buttonStyle(.pressable)
             }
@@ -56,6 +65,11 @@ struct SupportSection: View {
             }
             .padding(.horizontal, 16)
             .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+        }
+        .sheet(isPresented: $showWidget) {
+            WidgetGuideView()
+                .presentationDetents([.large])
+                .presentationDragIndicator(.visible)
         }
         .sheet(isPresented: $showLibrary) {
             LibraryView(tab: .favorites)
