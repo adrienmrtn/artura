@@ -125,7 +125,7 @@ struct PhotoScreen: View {
     var body: some View {
         StoryScaffold(image: "ill_photo",
                       tag: "At the museum?",
-                      title: "Snap a photo of any artwork. Artura explains it.",
+                      title: "Snap any artwork. Artura explains it.",
                       subtitle: "And save the ones you want to remember to your collection.",
                       onNext: onNext)
     }

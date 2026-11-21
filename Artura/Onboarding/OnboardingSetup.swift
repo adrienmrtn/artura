@@ -187,7 +187,9 @@ struct WidgetScreen: View {
     @State private var home = OnboardingDebug.flag("onbWidgetHome")
     @State private var popped = false
 
-    private var artwork: Artwork? { content.artwork("nuit") ?? content.artworks.first }
+    private var artwork: Artwork? {
+        OnboardingContent.artwork ?? content.artwork("nuit") ?? content.artworks.first
+    }
 
     private var today: String {
         Date().formatted(.dateTime.weekday(.wide).day().month(.wide).locale(Locale(identifier: "en_US")))
@@ -407,7 +409,7 @@ struct LoadingScreen: View {
                 .frame(width: 164, height: 164)
                 .accessibilityHidden(true)
 
-                CountingText(value: progress, suffix: " %")
+                CountingText(value: progress, suffix: "%")
                     .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .padding(.top, 14)
@@ -845,6 +847,8 @@ struct AccountScreen: View {
                     }
                 }
                 .signInWithAppleButtonStyle(.black)
+                // Le libellé du bouton suit la langue de l'onboarding.
+                .environment(\.locale, Locale(identifier: "en"))
                 .frame(height: 56)
                 .clipShape(Capsule())
 

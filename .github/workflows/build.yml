@@ -1,7 +1,8 @@
 name: Build iOS
 
 # Compile l'appli pour le simulateur à chaque push sur une branche de travail.
-# Avec « [captures] » dans le message du commit, prend aussi une capture de chaque écran de l'onboarding.
+# Avec « [captures] » dans le message du commit, prend aussi une capture de chaque écran de l'onboarding
+# (ou de quelques-uns seulement : « [captures:33_account,28_widgetLock] »).
 on:
   push:
     branches: ["claude/**"]
@@ -53,8 +54,12 @@ jobs:
           grep -E "^(error|ld|clang): " build.log | sort -u | head -n 40 || true
           echo "@@ERRORS_END"
       - name: Captures d'écran de l'onboarding
-        if: matrix.xcode == 'recent' && contains(github.event.head_commit.message, '[captures]')
+        if: matrix.xcode == 'recent' && contains(github.event.head_commit.message, '[captures')
+        env:
+          MESSAGE: ${{ github.event.head_commit.message }}
         run: |
+          # « [captures] » : tous les écrans. « [captures:33_account,28_widgetLock] » : seulement ceux-là.
+          ONLY=$(printf '%s' "$MESSAGE" | sed -n 's/.*\[captures:\([^]]*\)\].*/\1/p' | head -n 1)
           APP=$(find build/Build/Products -maxdepth 2 -name "Artura.app" | head -n 1)
           # Le téléphone standard le plus récent disponible
           DEVICE=$(xcrun simctl list devices available | grep -E "iPhone 1[0-9] \(" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
@@ -68,6 +73,7 @@ jobs:
           # shoot <fichier> <étape> <attente en secondes> [arguments supplémentaires]
           shoot() {
             local name=$1 step=$2 wait=$3; shift 3
+            if [ -n "$ONLY" ] && [[ ",$ONLY," != *",$name,"* ]]; then return 0; fi
             xcrun simctl launch "$DEVICE" $BUNDLE -onbStep "$step" -onbName Max -onbPreviewOffer YES "$@" >/dev/null
             sleep "$wait"
             xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
@@ -112,12 +118,14 @@ jobs:
           shoot 36_noCommitment noCommitment 7 -noSplash YES
           shoot 37_trial trial 16 -noSplash YES
           shoot 38_exitOffer trial 7 -noSplash YES -onbExitOffer YES
-          xcrun simctl launch "$DEVICE" $BUNDLE -skipOnboarding YES -noSplash YES >/dev/null; sleep 6
-          xcrun simctl io "$DEVICE" screenshot shots/39_today.png >/dev/null 2>&1
-          xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
+          if [ -z "$ONLY" ]; then
+            xcrun simctl launch "$DEVICE" $BUNDLE -skipOnboarding YES -noSplash YES >/dev/null; sleep 6
+            xcrun simctl io "$DEVICE" screenshot shots/39_today.png >/dev/null 2>&1
+            xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
+          fi
           # Quelques écrans denses sur un petit téléphone, pour vérifier que tout tient
           SMALL=$(xcrun simctl list devices available | grep -E "iPhone SE \(3rd|iPhone 16e" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
-          if [ -n "$SMALL" ]; then
+          if [ -n "$SMALL" ] && [ -z "$ONLY" ]; then
             xcrun simctl shutdown "$DEVICE" || true
             DEVICE=$SMALL
             xcrun simctl boot "$DEVICE"; xcrun simctl bootstatus "$DEVICE" -b >/dev/null
