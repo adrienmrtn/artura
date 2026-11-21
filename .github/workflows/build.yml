@@ -3,6 +3,7 @@ name: Build iOS
 # Compile l'appli pour le simulateur à chaque push sur une branche de travail.
 # Avec « [captures] » dans le message du commit, prend aussi une capture de chaque écran de l'onboarding
 # (ou de quelques-uns seulement : « [captures:33_account,28_widgetLock] »).
+# « [captures:app] » : seulement les écrans de l'appli (fil, bibliothèque, Review, profil).
 on:
   push:
     branches: ["claude/**"]
@@ -118,11 +119,28 @@ jobs:
           shoot 36_noCommitment noCommitment 7 -noSplash YES
           shoot 37_trial trial 16 -noSplash YES
           shoot 38_exitOffer trial 7 -noSplash YES -onbExitOffer YES
-          if [ -z "$ONLY" ]; then
-            xcrun simctl launch "$DEVICE" $BUNDLE -skipOnboarding YES -noSplash YES >/dev/null; sleep 6
-            xcrun simctl io "$DEVICE" screenshot shots/39_today.png >/dev/null 2>&1
+          # App screens, opened with a sample profile. "[captures:app]" takes only these.
+          shootApp() {
+            local name=$1 wait=$2; shift 2
+            if [ -n "$ONLY" ] && [ "$ONLY" != "app" ] && [[ ",$ONLY," != *",$name,"* ]]; then return 0; fi
+            xcrun simctl launch "$DEVICE" $BUNDLE -demoProfile YES -noSplash YES "$@" >/dev/null
+            sleep "$wait"
+            xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
             xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
-          fi
+          }
+          shootApp 60_feed 6
+          shootApp 61_feedFilter 5 -feedSheet filter
+          shootApp 62_feedSearch 6 -feedSheet search
+          shootApp 63_library 5 -feedSheet library
+          shootApp 64_history 5 -feedSheet history
+          shootApp 65_explore 5 -appTab explore
+          shootApp 66_review 5 -appTab review
+          shootApp 67_practice 5 -appTab review -reviewMode practice
+          shootApp 68_session 6 -appTab review -reviewSession YES
+          shootApp 69_games 5 -appTab games
+          shootApp 70_profile 5 -appTab profile
+          shootApp 71_reviewEmpty 5 -appTab review -demoEmpty YES
+          shootApp 72_feedEmptyProfile 5 -demoEmpty YES
           # Quelques écrans denses sur un petit téléphone, pour vérifier que tout tient
           SMALL=$(xcrun simctl list devices available | grep -E "iPhone SE \(3rd|iPhone 16e" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
           if [ -n "$SMALL" ] && [ -z "$ONLY" ]; then

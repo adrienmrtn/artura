@@ -35,6 +35,10 @@ final class UserStore: ObservableObject {
         var museumHabit: String?
         /// Motivations choisies à l'onboarding (plusieurs possibles).
         var goals: [String]?
+        /// Artworks bookmarked from the feed ("save for later"), separate from favorites.
+        var saved: [String]?
+        /// Daily review: the day it was last completed.
+        var reviewDay: String?
     }
 
     @Published var profile: Profile {
@@ -51,6 +55,7 @@ final class UserStore: ObservableObject {
             profile = Profile()
         }
         OnboardingDebug.prepare(&profile)
+        AppDebug.prepare(&profile)
     }
 
     private func save() {
@@ -172,6 +177,30 @@ final class UserStore: ObservableObject {
     }
 
     func isFavorite(_ id: String) -> Bool { profile.favorites.contains(id) }
+
+    // MARK: Saved artworks
+
+    func toggleSaved(_ id: String) {
+        var saved = profile.saved ?? []
+        if let i = saved.firstIndex(of: id) {
+            saved.remove(at: i)
+        } else {
+            saved.append(id)
+        }
+        profile.saved = saved
+    }
+
+    func isSaved(_ id: String) -> Bool { profile.saved?.contains(id) ?? false }
+
+    // MARK: Daily review
+
+    /// True if today's review has already been completed.
+    var reviewDoneToday: Bool { profile.reviewDay == Self.dayKey(Date()) }
+
+    func completeReview() {
+        profile.reviewDay = Self.dayKey(Date())
+        markPlayedToday()
+    }
 
     func toggleLiked(_ id: String, limit: Int = 3) {
         if let i = profile.liked.firstIndex(of: id) {

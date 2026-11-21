@@ -83,6 +83,7 @@ struct ProfileView: View {
                     }
 
                     settings
+                    SupportSection()
                 }
                 .padding(.horizontal, 24)
                 .padding(.top, -30)
