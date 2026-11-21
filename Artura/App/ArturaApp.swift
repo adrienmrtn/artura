@@ -17,7 +17,7 @@ struct ArturaApp: App {
                 .environmentObject(user)
                 .environmentObject(pro)
                 .preferredColorScheme(.light)
-                .tint(Palette.navy)
+                .tint(Palette.blue)
         }
     }
 }
@@ -37,6 +37,7 @@ struct RootView: View {
         }
         .task {
             // Le temps que l'animation du logo se joue, puis l'appli apparaît en fondu.
+            if OnboardingDebug.flag("holdSplash") { return }
             try? await Task.sleep(nanoseconds: 2_400_000_000)
             withAnimation(.easeInOut(duration: 0.45)) { splash = false }
         }
@@ -96,7 +97,7 @@ struct SplashView: View {
                     HStack(spacing: 0) {
                         ForEach(Array(name.enumerated()), id: \.offset) { i, letter in
                             Text(String(letter))
-                                .font(.serif(46, .bold))
+                                .font(.figtree(46, .bold))
                                 .foregroundStyle(Palette.ink)
                                 .opacity(i < letters ? 1 : 0)
                                 .offset(y: i < letters ? 0 : 12)

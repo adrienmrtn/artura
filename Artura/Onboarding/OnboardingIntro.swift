@@ -12,10 +12,10 @@ struct WelcomeScreen: View {
             Text("ARTURA")
                 .font(.figtree(13, .bold))
                 .tracking(3)
-                .foregroundStyle(Palette.navy)
+                .foregroundStyle(Palette.blue)
                 .enter(0)
             Text("Apprends enfin l'art")
-                .font(.serif(36, .bold))
+                .font(.figtree(36, .bold))
                 .foregroundStyle(Palette.ink)
                 .enter(1)
             Text("5 minutes par jour, des sessions pensées pour toi.")
@@ -39,7 +39,7 @@ struct DailyScreen: View {
 
             VStack(spacing: 12) {
                 Text("Une œuvre par jour")
-                    .font(.serif(34, .bold))
+                    .font(.figtree(34, .bold))
                     .foregroundStyle(Palette.ink)
                     .enter(2)
                 Text("Cultive-toi sans t'en rendre compte.")
@@ -55,7 +55,7 @@ struct DailyScreen: View {
                 proof(value: SocialProof.learners, label: "personnes apprennent déjà") {
                     Image(systemName: "person.2.fill")
                         .font(.system(size: 14, weight: .semibold))
-                        .foregroundStyle(Palette.navy)
+                        .foregroundStyle(Palette.blue)
                 }
                 proof(value: SocialProof.rating, label: "de note moyenne") {
                     HStack(spacing: 2) {
@@ -87,7 +87,7 @@ struct DailyScreen: View {
         VStack(spacing: 4) {
             mark().frame(height: 16)
             Text(value)
-                .font(.serif(26, .bold))
+                .font(.figtree(26, .bold))
                 .foregroundStyle(Palette.ink)
             Text(label)
                 .font(.aCaption)
@@ -247,7 +247,7 @@ struct UnderstandScreen: View {
                 Text("Ta première visite guidée · 2 min")
                     .font(.figtree(14, .semibold))
             }
-            .foregroundStyle(Palette.navy)
+            .foregroundStyle(Palette.blue)
             .padding(.horizontal, 14)
             .frame(height: 36)
             .background(Capsule().fill(Palette.sand))

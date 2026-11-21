@@ -107,7 +107,7 @@ struct GamesView: View {
                             }
                         }
                         .frame(width: 32, height: 32)
-                        .overlay(Circle().stroke(day.isToday && !day.played ? Palette.navy : .clear, lineWidth: 2))
+                        .overlay(Circle().stroke(day.isToday && !day.played ? Palette.blue : .clear, lineWidth: 2))
                         Text(day.label)
                             .font(.figtree(12, day.isToday ? .bold : .regular))
                             .foregroundStyle(day.isToday ? Palette.ink : Palette.muted)

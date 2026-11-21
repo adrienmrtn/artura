@@ -85,7 +85,7 @@ struct FlashTestScreen: View {
         ArtImage(name: item.image)
             .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
             .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.card, lineWidth: 5))
-            .shadow(color: Palette.navyDark.opacity(0.16), radius: 12, y: 6)
+            .shadow(color: Palette.blueDark.opacity(0.16), radius: 12, y: 6)
             .overlay(alignment: .bottomLeading) {
                 if item.hard { TagPill(text: "Niveau expert").padding(16) }
             }
@@ -211,7 +211,7 @@ struct FlashResultScreen: View {
                             }
                             .rotationEffect(.degrees(fanned ? Double(spread) * 6 : 0))
                             .offset(y: fanned ? abs(spread) * 8 : 0)
-                            .shadow(color: Palette.navyDark.opacity(0.16), radius: 8, y: 4)
+                            .shadow(color: Palette.blueDark.opacity(0.16), radius: 8, y: 4)
                             .zIndex(known ? 2 : 1)
                     }
                 }
@@ -222,10 +222,10 @@ struct FlashResultScreen: View {
                 VStack(spacing: 6) {
                     HStack(alignment: .firstTextBaseline, spacing: 6) {
                         Text("\(count)")
-                            .font(.serif(72, .bold))
-                            .foregroundStyle(Palette.navy)
+                            .font(.figtree(72, .bold))
+                            .foregroundStyle(Palette.blue)
                             .contentTransition(.numericText())
-                        Text("sur \(total)").font(.serif(28)).foregroundStyle(Palette.ink)
+                        Text("sur \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
                     }
                     Text(score > 1 ? "tableaux nommés" : "tableau nommé")
                         .font(.figtree(15, .semibold)).foregroundStyle(Palette.muted)
@@ -290,12 +290,12 @@ struct PhoneResultScreen: View {
                     .fixedSize(horizontal: false, vertical: true)
                     .opacity(stage >= 1 ? 1 : 0)
                 Text("\(days)")
-                    .font(.serif(112, .bold))
+                    .font(.figtree(112, .bold))
                     .foregroundStyle(Palette.orange)
                     .contentTransition(.numericText())
                     .opacity(stage >= 2 ? 1 : 0)
                 Text("jours par an")
-                    .font(.serif(28))
+                    .font(.figtree(28, .semibold))
                     .foregroundStyle(Palette.ink)
                     .opacity(stage >= 2 ? 1 : 0)
                 Text(monthsLine)
@@ -311,7 +311,7 @@ struct PhoneResultScreen: View {
             // Le retournement : ce temps peut servir à autre chose.
             VStack(spacing: 10) {
                 Text("Avec Artura, ce temps peut devenir connaissance.")
-                    .font(.serif(26))
+                    .font(.figtree(26, .semibold))
                     .foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
                 Text("Plutôt que de scroller sans fin, nourris ton esprit des plus grandes œuvres de l'humanité. Cinq minutes suffisent.")
@@ -389,18 +389,18 @@ struct ProjectionScreen: View {
     var body: some View {
         VStack(spacing: 0) {
             Text("Avec Artura, dans un an, tu connaîtras près de")
-                .font(.serif(22, .medium)).foregroundStyle(Palette.ink)
+                .font(.figtree(22, .medium)).foregroundStyle(Palette.ink)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
                 .enter()
 
             Text("\(count)")
-                .font(.serif(104, .bold))
-                .foregroundStyle(Palette.navy)
+                .font(.figtree(104, .bold))
+                .foregroundStyle(Palette.blue)
                 .contentTransition(.numericText())
                 .padding(.top, 2)
             Text("tableaux")
-                .font(.serif(28)).foregroundStyle(Palette.ink)
+                .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
 
             // Un carré par tableau : la grille se remplit au rythme du compteur.
             Canvas { context, size in
@@ -413,7 +413,7 @@ struct ProjectionScreen: View {
                     let path = Path(roundedRect: rect, cornerRadius: 2.5)
                     // Quelques carrés dorés pour le relief, comme des cadres.
                     let filled = i < count
-                    let color = !filled ? Palette.line : (i % 7 == 3 ? Palette.yellow : Palette.navy)
+                    let color = !filled ? Palette.line : (i % 7 == 3 ? Palette.yellow : Palette.blue)
                     context.fill(path, with: .color(color))
                 }
             }
@@ -532,20 +532,20 @@ struct GrowthChart: View {
                         .padding(inset)
                     GrowthCurve(lift: withLift)
                         .trim(from: 0, to: drawn ? 1 : 0)
-                        .stroke(Palette.navy, style: StrokeStyle(lineWidth: 4, lineCap: .round))
+                        .stroke(Palette.blue, style: StrokeStyle(lineWidth: 4, lineCap: .round))
                         .padding(inset)
 
-                    dot(Palette.navy)
+                    dot(Palette.blue)
                         .position(x: rect.minX, y: GrowthCurve.y(GrowthCurve.startLift, in: rect))
                     dot(Palette.yellow)
                         .scaleEffect(ended ? 1 : 0.3).opacity(ended ? 1 : 0)
                         .position(x: rect.maxX, y: GrowthCurve.y(withoutLift, in: rect))
-                    dot(Palette.navy)
+                    dot(Palette.blue)
                         .scaleEffect(ended ? 1 : 0.3).opacity(ended ? 1 : 0)
                         .position(x: rect.maxX, y: GrowthCurve.y(withLift, in: rect))
                 }
             }
-            .frame(height: 150)
+            .frame(height: 122)
 
             HStack {
                 Text("Aujourd'hui").font(.aSmall).foregroundStyle(Palette.muted)
@@ -555,7 +555,7 @@ struct GrowthChart: View {
             .padding(.horizontal, inset)
 
             HStack(spacing: 18) {
-                legend("Avec Artura", color: Palette.navy, dashed: false)
+                legend("Avec Artura", color: Palette.blue, dashed: false)
                 legend("Sans routine", color: Palette.yellow, dashed: true)
             }
         }
@@ -598,13 +598,13 @@ struct GraphScreen: View {
     private let gains = ["ton regard", "ta culture générale", "tes sujets de conversation"]
 
     var body: some View {
-        OnbScaffold(title: "Quelques minutes par jour, ça change tout.", spoken: true, onNext: onNext) {
+        OnbScaffold(title: "Quelques minutes par jour, ça change tout.", spoken: true, mascotSize: 84, onNext: onNext) {
             GrowthChart()
                 .enter(2)
 
             VStack(alignment: .leading, spacing: 0) {
                 Text("Avec Artura, tu développes")
-                    .font(.serif(19)).foregroundStyle(Palette.ink)
+                    .font(.figtree(19, .semibold)).foregroundStyle(Palette.ink)
                     .padding(.bottom, 6)
                 ForEach(Array(gains.enumerated()), id: \.offset) { i, gain in
                     HStack {
@@ -614,12 +614,12 @@ struct GraphScreen: View {
                             .font(.system(size: 14, weight: .bold))
                             .foregroundStyle(Palette.orange)
                     }
-                    .frame(height: 34)
+                    .frame(height: 30)
                     .enter(Double(i) * 2 + 16)
                 }
             }
             .padding(.horizontal, 18)
-            .padding(.vertical, 14)
+            .padding(.vertical, 12)
             .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
             .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
             .enter(4)
@@ -656,12 +656,12 @@ struct StreakScreen: View {
                                 .font(.system(size: 22, weight: .bold))
                                 .foregroundStyle(Palette.orange)
                             Text("Jour 1")
-                                .font(.serif(22, .bold))
+                                .font(.figtree(22, .bold))
                                 .foregroundStyle(Palette.ink)
                         }
                         .padding(.horizontal, 20)
                         .frame(height: 52)
-                        .background(Capsule().fill(Palette.card).shadow(color: Palette.navyDark.opacity(0.14), radius: 12, y: 6))
+                        .background(Capsule().fill(Palette.card).shadow(color: Palette.blueDark.opacity(0.14), radius: 12, y: 6))
                         .scaleEffect(lit ? 1 : 0.6)
                         .opacity(lit ? 1 : 0)
                         .offset(y: 26)

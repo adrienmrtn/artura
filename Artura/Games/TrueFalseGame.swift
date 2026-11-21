@@ -103,7 +103,7 @@ struct TrueFalseGame: View {
                 .overlay(alignment: .topLeading) { stamp("Vrai", Palette.green).opacity(stampOpacity(true)).padding(14) }
                 .overlay(alignment: .topTrailing) { stamp("Faux", Palette.red).opacity(stampOpacity(false)).padding(14) }
             VStack(alignment: .leading, spacing: 10) {
-                Text(card.artwork.title).font(.figtree(13, .semibold)).foregroundStyle(Palette.navy)
+                Text(card.artwork.title).font(.figtree(13, .semibold)).foregroundStyle(Palette.blueText)
                 Text(card.fact.text)
                     .font(.figtree(20, .semibold)).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)

@@ -69,7 +69,7 @@ struct ProfileView: View {
                                     GeometryReader { geo in
                                         ZStack(alignment: .leading) {
                                             Capsule().fill(.white)
-                                            Capsule().fill(Palette.navy)
+                                            Capsule().fill(Palette.blue)
                                                 .frame(width: geo.size.width * CGFloat(item.count) / CGFloat(maxCount))
                                         }
                                     }
@@ -173,7 +173,7 @@ struct ProfileView: View {
                     Text(formatMinutes(user.profile.reminderMinutes)).font(.aCaption).foregroundStyle(Palette.muted)
                 }
             }
-            .tint(Palette.navy)
+            .tint(Palette.blue)
             .frame(minHeight: 56)
             Divider()
             Button {
@@ -183,7 +183,7 @@ struct ProfileView: View {
                     Text("Artura Pro").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                     Spacer()
                     Text(pro.isPro ? "Actif" : "Essayer 3 jours").font(.aSmall)
-                        .foregroundStyle(pro.isPro ? Palette.green : Palette.navy)
+                        .foregroundStyle(pro.isPro ? Palette.green : Palette.blueText)
                 }
                 .frame(minHeight: 56)
             }

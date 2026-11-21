@@ -92,7 +92,7 @@ struct MascotBubble<Content: View>: View {
                 .background(
                     BubbleShape()
                         .fill(Palette.card)
-                        .shadow(color: Palette.navyDark.opacity(0.10), radius: 18, y: 8)
+                        .shadow(color: Palette.blueDark.opacity(0.10), radius: 18, y: 8)
                 )
         }
     }
@@ -103,7 +103,7 @@ struct MascotBubble<Content: View>: View {
 /// Le texte apparaît lettre par lettre. La place est réservée dès le départ : rien ne bouge autour.
 struct TypewriterText: View {
     let text: String
-    var font: Font = .serif(26)
+    var font: Font = .figtree(26, .semibold)
     var charDelay: Double = 0.03
     var startDelay: Double = 0.6
 
@@ -300,9 +300,9 @@ struct ChoiceRow: View {
                 if let symbol {
                     Image(systemName: symbol)
                         .font(.system(size: 18, weight: .semibold))
-                        .foregroundStyle(selected ? Palette.card : Palette.navy)
+                        .foregroundStyle(selected ? Palette.card : Palette.blue)
                         .frame(width: 40, height: 40)
-                        .background(Circle().fill(selected ? Palette.navy : Palette.sand))
+                        .background(Circle().fill(selected ? Palette.blue : Palette.sand))
                 }
                 VStack(alignment: .leading, spacing: 2) {
                     Text(title).font(.bodyStrong).foregroundStyle(Palette.ink)
@@ -315,9 +315,9 @@ struct ChoiceRow: View {
                 // Rond pour un choix unique, carré arrondi pour un choix multiple.
                 ZStack {
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
-                        .fill(selected ? Palette.navy : Color.clear)
+                        .fill(selected ? Palette.blue : Color.clear)
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
-                        .stroke(selected ? Palette.navy : Palette.lip, lineWidth: 2)
+                        .stroke(selected ? Palette.blue : Palette.lip, lineWidth: 2)
                     Image(systemName: "checkmark")
                         .font(.system(size: 12, weight: .bold))
                         .foregroundStyle(Palette.card)
@@ -332,7 +332,7 @@ struct ChoiceRow: View {
             .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.sandLight : Palette.card))
             .overlay(
                 RoundedRectangle(cornerRadius: 18)
-                    .stroke(selected ? Palette.navy : Palette.line, lineWidth: selected ? 2 : 1)
+                    .stroke(selected ? Palette.blue : Palette.line, lineWidth: selected ? 2 : 1)
             )
         }
         .buttonStyle(.pressable)

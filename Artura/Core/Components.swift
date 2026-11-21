@@ -4,8 +4,8 @@ import SwiftUI
 
 /// Bouton pilule avec liseré bas : il s'enfonce au toucher, avec un retour haptique.
 struct PillButtonStyle: ButtonStyle {
-    var fill: Color = Palette.navy
-    var lip: Color = Palette.navyDark
+    var fill: Color = Palette.blue
+    var lip: Color = Palette.blueDark
     var foreground: Color = .white
     var height: CGFloat = 56
 
@@ -59,7 +59,7 @@ struct TextLinkButton: View {
         Button(action: action) {
             Text(title)
                 .font(.figtree(15, .semibold))
-                .foregroundStyle(Palette.navy)
+                .foregroundStyle(Palette.blueText)
                 .frame(maxWidth: .infinity)
                 .frame(height: 48)
         }
@@ -89,7 +89,7 @@ struct ProgressTrack: View {
         GeometryReader { geo in
             ZStack(alignment: .leading) {
                 Capsule().fill(Palette.line)
-                Capsule().fill(Palette.navy)
+                Capsule().fill(Palette.blue)
                     .frame(width: max(8, geo.size.width * min(1, max(0, value))))
             }
         }
@@ -99,7 +99,7 @@ struct ProgressTrack: View {
 }
 
 struct CheckBadge: View {
-    var color: Color = Palette.navy
+    var color: Color = Palette.blue
     var size: CGFloat = 28
     var body: some View {
         Image(systemName: "checkmark")
@@ -156,7 +156,7 @@ struct OptionRow: View {
             .padding(.vertical, 10)
             .frame(maxWidth: .infinity, minHeight: 64, alignment: .leading)
             .background(RoundedRectangle(cornerRadius: 16).fill(selected ? Palette.sandLight : Palette.card))
-            .overlay(RoundedRectangle(cornerRadius: 16).stroke(selected ? Palette.navy : Palette.line, lineWidth: selected ? 2 : 1))
+            .overlay(RoundedRectangle(cornerRadius: 16).stroke(selected ? Palette.blue : .clear, lineWidth: 2))
         }
         .buttonStyle(.pressable)
         .animation(.snappy, value: selected)
@@ -236,7 +236,7 @@ extension View {
 
 struct ConfettiView: View {
     @State private var fall = false
-    private let colors: [Color] = [Palette.yellow, Palette.pink, Palette.navy, Palette.orange, Palette.green]
+    private let colors: [Color] = [Palette.yellow, Palette.pink, Palette.blue, Palette.orange, Palette.green]
 
     var body: some View {
         GeometryReader { geo in

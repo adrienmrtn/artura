@@ -62,7 +62,7 @@ struct MainTabView: View {
             .padding(.horizontal, 8)
             .padding(.top, 6)
             .background(Palette.bg.ignoresSafeArea(edges: .bottom))
-            .overlay(alignment: .top) { Rectangle().fill(Palette.line).frame(height: 1) }
+            .overlay(alignment: .top) { Rectangle().fill(Color(hex: 0xEFE9E5)).frame(height: 1) }
         }
         .background(Palette.bg)
     }
@@ -129,7 +129,7 @@ struct ResultView: View {
                     .background(Circle().fill(celebrate ? Palette.sand : Palette.green))
                     .scaleEffect(pop ? 1 : 0.8)
                     .opacity(pop ? 1 : 0)
-                Text(title).font(.serif(32)).foregroundStyle(Palette.ink).appearUp(0.2)
+                Text(title).font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
                 Text(detail).font(.aBody).foregroundStyle(Palette.muted).appearUp(0.3)
                 Spacer()
                 if let onReplay {

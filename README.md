@@ -20,7 +20,7 @@ Si le projet ne s'ouvre pas, `project.yml` permet de le régénérer avec [Xcode
 | Dossier | Contenu |
 |---|---|
 | `Artura/App` | Point d'entrée, bascule onboarding / appli |
-| `Artura/Core` | Thème (palette bleu nuit / beige / ocre, titres à empattements, Figtree), composants, haptique |
+| `Artura/Core` | Thème (couleurs, police Figtree, formes), composants, haptique |
 | `Artura/Data` | Modèles, contenu embarqué, profil et progression (stockés sur l'appareil) |
 | `Artura/Services` | Rappels (notifications locales) et abonnement Artura Pro (StoreKit 2) |
 | `Artura/Onboarding` | Les écrans d'accueil, du premier écran à l'essai gratuit (`OnboardingFlow.swift` donne l'ordre) |
@@ -43,6 +43,8 @@ Pour ouvrir directement un écran en build Debug, ajouter des arguments de lance
 | `-onbGiftOpen YES` | Écran cadeau déjà ouvert |
 | `-onbExitOffer YES` | Ouvre l'offre « 7 jours » dès l'écran d'essai |
 | `-noSplash YES` | Saute l'écran de lancement |
+| `-holdSplash YES` | Garde l'écran de lancement affiché |
+| `-skipOnboarding YES` | Ouvre directement l'appli |
 
 ## Build automatique
 

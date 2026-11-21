@@ -235,7 +235,7 @@ extension AnyTransition {
 // MARK: - Aides de développement
 
 /// Arguments de lancement (builds Debug uniquement) pour ouvrir directement un écran :
-/// `-onbStep graph`, `-onbName Max`, `-onbPreviewOffer YES`.
+/// `-onbStep graph`, `-onbName Max`, `-onbPreviewOffer YES` (liste complète dans le README).
 enum OnboardingDebug {
     static var startStep: OnbStep? {
         #if DEBUG
@@ -269,6 +269,10 @@ enum OnboardingDebug {
     static func prepare(_ profile: inout UserStore.Profile) {
         #if DEBUG
         let defaults = UserDefaults.standard
+        if defaults.bool(forKey: "skipOnboarding") {
+            profile.onboarded = true
+            return
+        }
         guard defaults.string(forKey: "onbStep") != nil else { return }
         profile.onboarded = false
         if let name = defaults.string(forKey: "onbName") { profile.firstName = name }
@@ -288,6 +292,7 @@ struct OnbScaffold<Content: View>: View {
     var subtitle: String? = nil
     /// Si vrai, c'est la Joconde qui pose la question, dans une bulle.
     var spoken: Bool = false
+    var mascotSize: CGFloat = 104
     var cta: String = "Continuer"
     var ctaEnabled: Bool = true
     let onNext: () -> Void
@@ -329,7 +334,7 @@ struct OnbScaffold<Content: View>: View {
     @ViewBuilder
     private var header: some View {
         if spoken {
-            MascotBubble(mascotSize: 104) {
+            MascotBubble(mascotSize: mascotSize) {
                 VStack(spacing: 6) {
                     Text(title)
                         .font(.aTitleSmall)

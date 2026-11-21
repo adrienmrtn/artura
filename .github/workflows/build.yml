@@ -51,7 +51,7 @@ jobs:
             xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
             xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
           }
-          shoot 00_splash welcome 2
+          shoot 00_splash welcome 6 -holdSplash YES
           shoot 01_welcome welcome 12 -noSplash YES
           shoot 02_daily daily 5 -noSplash YES
           shoot 03_pocketMuseum pocketMuseum 5 -noSplash YES
@@ -84,6 +84,9 @@ jobs:
           shoot 30_noCommitment noCommitment 7 -noSplash YES
           shoot 31_trial trial 12 -noSplash YES
           shoot 32_exitOffer trial 6 -noSplash YES -onbExitOffer YES
+          xcrun simctl launch "$DEVICE" $BUNDLE -skipOnboarding YES -noSplash YES >/dev/null; sleep 6
+          xcrun simctl io "$DEVICE" screenshot shots/33_today.png >/dev/null 2>&1
+          xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
           for f in shots/*.png; do
             sips -s format jpeg -s formatOptions 55 -Z 800 "$f" --out "${f%.png}.jpg" >/dev/null 2>&1
           done

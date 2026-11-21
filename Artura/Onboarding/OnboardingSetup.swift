@@ -106,7 +106,7 @@ struct ReminderScreen: View {
                 .enter(2)
             VStack(spacing: 2) {
                 Text(formatMinutes(Int(minutes)))
-                    .font(.serif(40, .bold))
+                    .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
                 Text(momentLabel(Int(minutes))).font(.figtree(15)).foregroundStyle(Palette.muted)
@@ -114,7 +114,7 @@ struct ReminderScreen: View {
             .frame(maxWidth: .infinity)
             VStack(spacing: 2) {
                 Slider(value: $minutes, in: 360...1380, step: 15)
-                    .tint(Palette.navy)
+                    .tint(Palette.blue)
                     .accessibilityLabel("Heure du rappel")
                 HStack {
                     Text("6 h"); Spacer(); Text("midi"); Spacer(); Text("18 h"); Spacer(); Text("23 h")
@@ -170,18 +170,18 @@ struct LoadingScreen: View {
                 Circle().stroke(Palette.line, lineWidth: 14)
                 Circle()
                     .trim(from: 0, to: CGFloat(progress) / 100)
-                    .stroke(Palette.navy, style: StrokeStyle(lineWidth: 14, lineCap: .round))
+                    .stroke(Palette.blue, style: StrokeStyle(lineWidth: 14, lineCap: .round))
                     .rotationEffect(.degrees(-90))
                     .animation(.linear(duration: 0.1), value: progress)
                 Text("\(progress) %")
-                    .font(.serif(40, .bold))
+                    .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
             }
             .frame(width: 176, height: 176)
 
             VStack(spacing: 8) {
-                Text("On prépare ton programme").font(.serif(28)).foregroundStyle(Palette.ink)
+                Text("On prépare ton programme").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
                 Text("D'après tes réponses, rien que pour toi.").font(.aBody).foregroundStyle(Palette.muted)
             }
             .multilineTextAlignment(.center)
@@ -262,7 +262,7 @@ struct AvatarPicker: View {
                         .frame(width: size, height: size)
                         .clipShape(Circle())
                         .padding(3)
-                        .overlay(Circle().stroke(selection == i ? Palette.navy : .clear, lineWidth: 3))
+                        .overlay(Circle().stroke(selection == i ? Palette.blue : .clear, lineWidth: 3))
                         .scaleEffect(selection == i ? 1.04 : 1)
                 }
                 .buttonStyle(.pressable)
@@ -307,7 +307,7 @@ struct PlanScreen: View {
                             withAnimation(.gentle) { picking = true }
                         }
                         .font(.figtree(14, .semibold))
-                        .foregroundStyle(Palette.navy)
+                        .foregroundStyle(Palette.blue)
                         .padding(.horizontal, 16)
                         .frame(height: 44)
                         .background(Capsule().fill(Palette.sand))
@@ -376,7 +376,7 @@ struct PlanScreen: View {
 
     private func projection(_ value: String, _ label: String) -> some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(value).font(.serif(24, .bold))
+            Text(value).font(.figtree(24, .bold))
             Text(label).font(.figtree(13, .medium))
         }
         .foregroundStyle(Palette.ink)
@@ -428,7 +428,7 @@ struct AccountScreen: View {
 
             VStack(spacing: 8) {
                 Text("Garde ta série et ta collection")
-                    .font(.serif(28)).foregroundStyle(Palette.ink)
+                    .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
                 Text("Un compte pour ne rien perdre si tu changes de téléphone.")
                     .font(.aBody).foregroundStyle(Palette.muted)
             }

@@ -58,7 +58,7 @@ struct LessonView: View {
                     VStack(alignment: .leading, spacing: 16) {
                         VStack(alignment: .leading, spacing: 8) {
                             TagPill(text: pill)
-                            Text(artwork.title).font(.serif(28)).foregroundStyle(Palette.ink)
+                            Text(artwork.title).font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
                             Text("\(artwork.meta) · \(artwork.museum)").font(.aSmall).foregroundStyle(Palette.muted)
                         }
                         ArtImage(name: artwork.image)
@@ -142,7 +142,7 @@ struct LessonView: View {
                             .font(.system(size: 16, weight: .semibold))
                             .foregroundStyle(.white)
                             .frame(width: 34, height: 34)
-                            .background(Circle().fill(Palette.navy))
+                            .background(Circle().fill(Palette.blue))
                     )
                 VStack(alignment: .leading, spacing: 2) {
                     Text(block.interactiveTitle).font(.aCardTitle).foregroundStyle(.white)
@@ -173,7 +173,7 @@ struct LessonView: View {
             }
         case "key":
             VStack(alignment: .leading, spacing: 4) {
-                Text("À retenir").font(.figtree(12, .semibold)).foregroundStyle(Palette.navy)
+                Text("À retenir").font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
                 Text(block.text ?? "").font(.bodyStrong).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
             }

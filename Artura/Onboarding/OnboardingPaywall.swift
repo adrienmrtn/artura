@@ -86,18 +86,18 @@ struct GiftBox: View {
 
     private static let outline = Color(hex: 0x0A1830)
     private static let ribbon = Palette.yellow
-    private static let ribbonShade = Color(hex: 0xC98A22)
+    private static let ribbonShade = Color(hex: 0xD98E00)
 
     var body: some View {
         ZStack {
             // Ombre au sol
             IsoFace(corners: [[-0.14, -0.14, 0], [1.14, -0.14, 0], [1.14, 1.14, 0], [-0.14, 1.14, 0]])
-                .fill(Palette.navyDark.opacity(0.16))
+                .fill(Palette.blueDark.opacity(0.16))
                 .blur(radius: 10)
 
             // Le corps de la boîte
             face([[0, 0, h], [1, 0, h], [1, 1, h], [0, 1, h]], Self.outline)
-            face([[0, 1, 0], [1, 1, 0], [1, 1, h], [0, 1, h]], Palette.navy)
+            face([[0, 1, 0], [1, 1, 0], [1, 1, h], [0, 1, h]], Palette.blue)
             face([[1, 1, 0], [1, 0, 0], [1, 0, h], [1, 1, h]], Color(hex: 0x132744))
             face([[0.4, 1, 0], [0.6, 1, 0], [0.6, 1, h], [0.4, 1, h]], Self.ribbon)
             face([[1, 0.6, 0], [1, 0.4, 0], [1, 0.4, h], [1, 0.6, h]], Self.ribbonShade)
@@ -130,7 +130,7 @@ struct GiftBox: View {
             face([[-m, 0.4, top], [1 + m, 0.4, top], [1 + m, 0.6, top], [-m, 0.6, top]], Self.ribbon)
             face([[0.4, -m, top], [0.6, -m, top], [0.6, 1 + m, top], [0.4, 1 + m, top]], Self.ribbon)
             IsoBow(height: top)
-                .fill(Self.ribbon)
+                .fill(Color(hex: 0xFFCB52))
                 .overlay(IsoBow(height: top).stroke(Self.outline, style: StrokeStyle(lineWidth: 2, lineJoin: .round)))
         }
     }
@@ -162,7 +162,7 @@ struct GiftScreen: View {
                     if opened {
                         VStack(spacing: 12) {
                             Text("Avant de commencer, on t'offre Artura en entier.")
-                                .font(.serif(32, .bold))
+                                .font(.figtree(32, .bold))
                                 .foregroundStyle(Palette.ink)
                                 .fixedSize(horizontal: false, vertical: true)
                             Text("\(dayCountWord(offer.trialDays)) jours, tout ouvert. Tu verras, ça change tout.")
@@ -298,12 +298,12 @@ struct TrialClock: View {
             }
             Circle().stroke(Self.outline, lineWidth: 2.5).frame(width: 152, height: 152)
 
-            // L'aiguille
+            // L'aiguille s'arrête au début du dernier jour.
             Capsule()
                 .fill(Self.outline)
-                .frame(width: 5, height: 60)
-                .offset(y: -26)
-                .rotationEffect(.degrees(run ? 360 - slice : 0))
+                .frame(width: 6, height: 62)
+                .offset(y: -27)
+                .rotationEffect(.degrees(run ? 360 - slice * 0.84 : 0))
             Circle().fill(Palette.orange).overlay(Circle().stroke(Self.outline, lineWidth: 2))
                 .frame(width: 16, height: 16)
         }
@@ -334,7 +334,7 @@ struct NoCommitmentScreen: View {
             VStack(spacing: 0) {
                 VStack(spacing: 12) {
                     Text("Aucun engagement.")
-                        .font(.serif(36, .bold))
+                        .font(.figtree(36, .bold))
                         .foregroundStyle(Palette.ink)
                         .enter()
                     reminderLine
@@ -395,32 +395,15 @@ struct TrialScreen: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            HStack {
-                Button(action: close) {
-                    Image(systemName: "xmark")
-                        .font(.system(size: 14, weight: .bold))
-                        .foregroundStyle(Palette.muted)
-                        .frame(width: 44, height: 44)
-                        .background(Circle().fill(Palette.card))
-                        .overlay(Circle().stroke(Palette.line, lineWidth: 1))
-                }
-                .buttonStyle(.pressable)
-                .accessibilityLabel("Fermer et continuer gratuitement")
-                .opacity(canClose ? 1 : 0)
-                .disabled(!canClose)
-                Spacer()
-            }
-            .padding(.horizontal, 16)
-            .padding(.top, 8)
-
             ScrollView {
-                VStack(spacing: 16) {
-                    VStack(spacing: 10) {
+                VStack(spacing: 12) {
+                    VStack(spacing: 8) {
                         Text("Comment se passe ton essai ?")
-                            .font(.serif(32, .bold))
+                            .font(.figtree(28, .bold))
                             .foregroundStyle(Palette.ink)
                             .multilineTextAlignment(.center)
                             .fixedSize(horizontal: false, vertical: true)
+                            .padding(.horizontal, 36)
                         HStack(spacing: 8) {
                             CheckBadge(color: Palette.green, size: 22)
                             Text("\(offer.zeroPrice) aujourd'hui")
@@ -437,8 +420,8 @@ struct TrialScreen: View {
                         .enter(4)
                 }
                 .padding(.horizontal, 24)
-                .padding(.top, 4)
-                .padding(.bottom, 12)
+                .padding(.top, 16)
+                .padding(.bottom, 10)
             }
             .scrollIndicators(.hidden)
             .scrollBounceBehavior(.basedOnSize)
@@ -487,6 +470,22 @@ struct TrialScreen: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
+        .overlay(alignment: .topLeading) {
+            Button(action: close) {
+                Image(systemName: "xmark")
+                    .font(.system(size: 13, weight: .bold))
+                    .foregroundStyle(Palette.muted)
+                    .frame(width: 40, height: 40)
+                    .background(Circle().fill(Palette.card))
+                    .overlay(Circle().stroke(Palette.line, lineWidth: 1))
+            }
+            .buttonStyle(.pressable)
+            .accessibilityLabel("Fermer et continuer gratuitement")
+            .opacity(canClose ? 1 : 0)
+            .disabled(!canClose)
+            .padding(.leading, 14)
+            .padding(.top, 6)
+        }
         .task {
             // La croix n'apparaît qu'après quelques secondes de lecture.
             try? await Task.sleep(nanoseconds: UInt64(closeDelay * 1_000_000_000))
@@ -514,12 +513,12 @@ struct TrialScreen: View {
     // MARK: Frise
 
     private var timeline: some View {
-        VStack(alignment: .leading, spacing: 22) {
-            timelineRow(icon: "lock.open.fill", fill: Palette.navy, tint: .white,
+        VStack(alignment: .leading, spacing: 16) {
+            timelineRow(icon: "lock.open.fill", fill: Palette.blue, tint: .white,
                         title: "Aujourd'hui",
                         text: "Tout Artura s'ouvre : cours, jeux et parcours, sans limite.")
-            VStack(alignment: .leading, spacing: 12) {
-                timelineRow(icon: "bell.fill", fill: Palette.sand, tint: Palette.navy,
+            VStack(alignment: .leading, spacing: 10) {
+                timelineRow(icon: "bell.fill", fill: Palette.sand, tint: Palette.blue,
                             title: "Jour \(max(1, offer.trialDays - 1)) · ton rappel",
                             text: "La veille de la fin, on te prévient.")
                 notification
@@ -529,16 +528,16 @@ struct TrialScreen: View {
                         title: "Jour \(offer.trialDays) · Artura Pro",
                         text: "L'essai devient Artura Pro à \(offer.yearlyPrice) par an. Annule avant, en deux gestes, si tu veux.")
         }
-        .padding(18)
+        .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(alignment: .topLeading) {
             // Le fil qui relie les trois étapes, du bleu vers la terre cuite.
             GeometryReader { geo in
                 Capsule()
-                    .fill(LinearGradient(colors: [Palette.navy, Palette.yellow, Palette.orange],
+                    .fill(LinearGradient(colors: [Palette.blue, Palette.yellow, Palette.orange],
                                          startPoint: .top, endPoint: .bottom))
-                    .frame(width: 4, height: grow ? max(0, geo.size.height - 96) : 0)
-                    .offset(x: 18 + 22, y: 18 + 24)
+                    .frame(width: 4, height: grow ? max(0, geo.size.height - 92) : 0)
+                    .offset(x: 16 + 22, y: 16 + 24)
             }
         }
         .background(RoundedRectangle(cornerRadius: 26, style: .continuous).fill(Palette.card))
@@ -552,7 +551,7 @@ struct TrialScreen: View {
                 .foregroundStyle(tint)
                 .frame(width: 48, height: 48)
                 .background(Circle().fill(fill))
-                .overlay(Circle().stroke(Palette.navy, lineWidth: 1.5))
+                .overlay(Circle().stroke(Palette.blue, lineWidth: 1.5))
             VStack(alignment: .leading, spacing: 3) {
                 Text(title).font(.figtree(18, .bold)).foregroundStyle(Palette.ink)
                 Text(text).font(.figtree(15)).foregroundStyle(Palette.muted)
@@ -578,7 +577,7 @@ struct TrialScreen: View {
             }
             Spacer(minLength: 0)
         }
-        .padding(12)
+        .padding(10)
         .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sandLight))
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(Palette.sand, lineWidth: 1))
     }
@@ -604,13 +603,13 @@ struct TrialScreen: View {
                     .foregroundStyle(.white)
                     .padding(.horizontal, 18)
                     .frame(height: 40)
-                    .background(Capsule().fill(Palette.navy))
+                    .background(Capsule().fill(Palette.blue))
                     .buttonStyle(.pressable)
             }
         }
         .padding(.horizontal, 18)
-        .padding(.vertical, 14)
-        .frame(maxWidth: .infinity, minHeight: 68)
+        .padding(.vertical, 10)
+        .frame(maxWidth: .infinity, minHeight: 60)
         .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
         .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
     }
@@ -672,7 +671,7 @@ private struct OfferEnvelope: View {
         ZStack {
             RoundedRectangle(cornerRadius: 12)
                 .fill(Palette.card)
-                .shadow(color: Palette.navyDark.opacity(0.14), radius: 14, y: 8)
+                .shadow(color: Palette.blueDark.opacity(0.14), radius: 14, y: 8)
             // Les plis du rabat
             GeometryReader { geo in
                 Path { p in
@@ -688,14 +687,14 @@ private struct OfferEnvelope: View {
                 }
                 .stroke(Palette.lip, lineWidth: 1.5)
             }
-            RoundedRectangle(cornerRadius: 12).stroke(Palette.navy, lineWidth: 1.5)
+            RoundedRectangle(cornerRadius: 12).stroke(Palette.blue, lineWidth: 1.5)
             // Le cachet de cire
             Text("A")
-                .font(.serif(24, .bold))
+                .font(.figtree(24, .bold))
                 .foregroundStyle(Palette.card)
                 .frame(width: 52, height: 52)
                 .background(Circle().fill(Palette.orange))
-                .overlay(Circle().stroke(Palette.navyDark, lineWidth: 1.5))
+                .overlay(Circle().stroke(Palette.blueDark, lineWidth: 1.5))
                 .scaleEffect(pulse ? 1.06 : 1)
                 .offset(y: 12)
         }
@@ -730,7 +729,7 @@ struct ExitOfferSheet: View {
         VStack(spacing: 0) {
             VStack(spacing: 8) {
                 Text(title)
-                    .font(.serif(34, .bold))
+                    .font(.figtree(34, .bold))
                     .foregroundStyle(Palette.ink)
                 Text("Avant de partir, on a une dernière chose pour toi.")
                     .font(.figtree(17))
@@ -815,25 +814,25 @@ struct ExitOfferSheet: View {
                     .foregroundStyle(Palette.muted)
                     .strikethrough()
                 Text("\(offer.trialDays) jours gratuits")
-                    .font(.serif(28, .bold))
+                    .font(.figtree(28, .bold))
                     .foregroundStyle(Palette.ink)
             }
             HStack(spacing: 5) {
                 ForEach(0..<max(1, offer.trialDays), id: \.self) { i in
                     RoundedRectangle(cornerRadius: 7)
-                        .fill(i < filled ? (i < baseDays ? Palette.navy : Palette.green) : Palette.line)
+                        .fill(i < filled ? (i < baseDays ? Palette.blue : Palette.green) : Palette.line)
                         .frame(height: 22)
                 }
             }
             HStack {
                 Text("J1 à J\(baseDays) : ton essai")
-                    .font(.figtree(13, .medium)).foregroundStyle(Palette.navy)
+                    .font(.figtree(13, .medium)).foregroundStyle(Palette.blue)
                 Spacer(minLength: 8)
                 Text("J\(baseDays + 1) à J\(offer.trialDays) : offerts")
                     .font(.figtree(13, .bold)).foregroundStyle(Palette.green)
             }
             Text(offer.trialDays == 7 ? "Une semaine entière pour tout essayer." : "\(offer.trialDays) jours pour tout essayer.")
-                .font(.serif(16, .regular))
+                .font(.figtree(16))
                 .italic()
                 .foregroundStyle(Palette.ink)
         }
@@ -975,7 +974,7 @@ struct PaywallScreen: View {
             .padding(.horizontal, 18)
             .frame(maxWidth: .infinity, minHeight: badge == nil ? 60 : 72)
             .background(RoundedRectangle(cornerRadius: 16).fill(selected ? Palette.sandLight : Palette.card))
-            .overlay(RoundedRectangle(cornerRadius: 16).stroke(selected ? Palette.navy : .clear, lineWidth: 2))
+            .overlay(RoundedRectangle(cornerRadius: 16).stroke(selected ? Palette.blue : .clear, lineWidth: 2))
         }
         .buttonStyle(.pressable)
     }

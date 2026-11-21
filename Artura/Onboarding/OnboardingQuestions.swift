@@ -16,7 +16,7 @@ struct NameScreen: View {
                     subtitle: "Pour qu'on sache à qui on parle.",
                     ctaEnabled: !trimmed.isEmpty, onNext: save) {
             TextField("Ton prénom", text: $name)
-                .font(.serif(24))
+                .font(.figtree(24, .semibold))
                 .foregroundStyle(Palette.ink)
                 .textContentType(.givenName)
                 .textInputAutocapitalization(.words)
@@ -29,7 +29,7 @@ struct NameScreen: View {
                 .background(RoundedRectangle(cornerRadius: 18).fill(Palette.card))
                 .overlay(
                     RoundedRectangle(cornerRadius: 18)
-                        .stroke(focused ? Palette.navy : Palette.line, lineWidth: focused ? 2 : 1)
+                        .stroke(focused ? Palette.blue : Palette.line, lineWidth: focused ? 2 : 1)
                 )
                 .animation(.snappy, value: focused)
                 .enter(2)
@@ -97,10 +97,10 @@ struct GenderScreen: View {
             .clipShape(RoundedRectangle(cornerRadius: 20))
             .overlay(
                 RoundedRectangle(cornerRadius: 20)
-                    .stroke(selected ? Palette.navy : Palette.line, lineWidth: selected ? 3 : 1)
+                    .stroke(selected ? Palette.blue : Palette.line, lineWidth: selected ? 3 : 1)
             )
             .overlay(alignment: .topTrailing) {
-                if selected { CheckBadge(color: Palette.navy).padding(8).transition(.scale.combined(with: .opacity)) }
+                if selected { CheckBadge(color: Palette.blue).padding(8).transition(.scale.combined(with: .opacity)) }
             }
         }
         .buttonStyle(.pressable)
@@ -183,26 +183,35 @@ struct ArtsScreen: View {
                         }
                     } label: {
                         VStack(alignment: .leading, spacing: 8) {
-                            ArtImage(name: art.image).frame(height: 112)
-                            HStack(spacing: 6) {
-                                Text(art.title).font(.bodyStrong).foregroundStyle(Palette.ink)
-                                if art.soon {
-                                    Text("Bientôt").font(.figtree(11, .semibold)).foregroundStyle(Palette.muted)
-                                        .padding(.horizontal, 6).padding(.vertical, 2)
-                                        .background(Capsule().fill(Palette.sand))
+                            ArtImage(name: art.image)
+                                .frame(height: 112)
+                                .overlay(alignment: .topLeading) {
+                                    if art.soon {
+                                        Text("Bientôt")
+                                            .font(.figtree(11, .semibold))
+                                            .foregroundStyle(Palette.ink)
+                                            .padding(.horizontal, 8)
+                                            .padding(.vertical, 3)
+                                            .background(Capsule().fill(Palette.card))
+                                            .padding(8)
+                                    }
                                 }
-                            }
-                            .padding(.horizontal, 12)
-                            .padding(.bottom, 12)
+                            Text(art.title)
+                                .font(.bodyStrong)
+                                .foregroundStyle(Palette.ink)
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.85)
+                                .padding(.horizontal, 12)
+                                .padding(.bottom, 12)
                         }
                         .background(selected ? Palette.sandLight : Palette.card)
                         .clipShape(RoundedRectangle(cornerRadius: 18))
                         .overlay(
                             RoundedRectangle(cornerRadius: 18)
-                                .stroke(selected ? Palette.navy : Palette.line, lineWidth: selected ? 3 : 1)
+                                .stroke(selected ? Palette.blue : Palette.line, lineWidth: selected ? 3 : 1)
                         )
                         .overlay(alignment: .topTrailing) {
-                            if selected { CheckBadge(color: Palette.navy).padding(8).transition(.scale.combined(with: .opacity)) }
+                            if selected { CheckBadge(color: Palette.blue).padding(8).transition(.scale.combined(with: .opacity)) }
                         }
                     }
                     .buttonStyle(.pressable)
@@ -319,7 +328,7 @@ struct PhoneTimeScreen: View {
 
             VStack(spacing: 0) {
                 Text(hoursLabel)
-                    .font(.serif(52, .bold)).foregroundStyle(Palette.ink)
+                    .font(.figtree(52, .bold)).foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
                 Text("par jour").font(.aBody).foregroundStyle(Palette.muted)
             }
@@ -328,7 +337,7 @@ struct PhoneTimeScreen: View {
 
             VStack(spacing: 2) {
                 Slider(value: $hours, in: 1...10, step: 0.5)
-                    .tint(Palette.navy)
+                    .tint(Palette.blue)
                     .accessibilityLabel("Heures par jour sur ton téléphone")
                 HStack {
                     Text("1 h"); Spacer(); Text("5 h"); Spacer(); Text("10 h")

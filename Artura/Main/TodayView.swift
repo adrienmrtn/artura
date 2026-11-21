@@ -26,7 +26,7 @@ struct TodayView: View {
             VStack(alignment: .leading, spacing: 16) {
                 SkyHeader {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text(greeting).font(.serif(28))
+                        Text(greeting).font(.figtree(28, .semibold))
                         Text(dateLabel).font(.figtree(15))
                     }
                     .foregroundStyle(.white)
@@ -68,7 +68,7 @@ struct TodayView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: "ill_bravo").frame(height: 230)
-                TagPill(text: "Œuvre du jour terminée", fill: .white, foreground: Palette.navy).padding(10)
+                TagPill(text: "Œuvre du jour terminée", fill: .white, foreground: Palette.blueText).padding(10)
             }
             VStack(spacing: 12) {
                 VStack(spacing: 6) {
@@ -128,7 +128,7 @@ struct TodayView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: art.image).frame(height: 392)
-                TagPill(text: "Œuvre du jour", fill: .white, foreground: Palette.navy).padding(10)
+                TagPill(text: "Œuvre du jour", fill: .white, foreground: Palette.blueText).padding(10)
                 Button {
                     Haptics.press()
                     withAnimation(.bouncy) { user.toggleFavorite(art.id) }
@@ -158,8 +158,8 @@ struct TodayView: View {
                         .font(.system(size: 16))
                         .foregroundStyle(.white)
                         .frame(width: 48, height: 48)
-                        .background(Circle().fill(Palette.navy))
-                        .background(Circle().fill(Palette.navyDark).offset(y: 3))
+                        .background(Circle().fill(Palette.blue))
+                        .background(Circle().fill(Palette.blueDark).offset(y: 3))
                 }
                 .buttonStyle(.pressable)
                 .accessibilityLabel("Commencer le cours")

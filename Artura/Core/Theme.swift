@@ -22,30 +22,30 @@ extension Color {
     }
 }
 
-/// Palette inspirée de l'icône : bleu nuit, crème, ocre et terre cuite.
 enum Palette {
-    /// Fond des écrans : un beige chaud, comme un papier à dessin.
-    static let bg = Color(hex: 0xFAF3E7)
-    static let ink = Color(hex: 0x18233A)
-    static let muted = Color(hex: 0x5B6272)
+    /// Fond des écrans : un blanc cassé légèrement beige.
+    static let bg = Color(hex: 0xFAF4EA)
+    static let ink = Color(hex: 0x2D2C2B)
+    static let muted = Color(hex: 0x5C5753)
     /// Cartes et rangées posées sur le fond.
     static let card = Color(hex: 0xFFFDFA)
-    static let line = Color(hex: 0xEDE3D3)
-    static let lip = Color(hex: 0xDCCFBA)
-    /// Couleur principale : boutons, sélection, liens.
-    static let navy = Color(hex: 0x1C365A)
-    static let navyDark = Color(hex: 0x0D1D36)
-    /// Teintes chaudes pour les fonds d'encart et les éléments sélectionnés.
+    static let line = Color(hex: 0xEDE4D8)
+    static let lip = Color(hex: 0xE0D4C5)
+    /// Bleu foncé de l'icône : boutons, sélection, liens.
+    static let blue = Color(hex: 0x1C365A)
+    static let blueDark = Color(hex: 0x0D1D36)
+    static let blueText = Color(hex: 0x1C365A)
+    /// Teintes sable, pour les encarts et les réponses sélectionnées.
     static let sand = Color(hex: 0xF3E3C3)
     static let sandLight = Color(hex: 0xFBEED3)
-    static let sky = Color(hex: 0x1C365A)
-    static let skyLight = Color(hex: 0x2C4A77)
-    static let cloud = Color(hex: 0xF3D9A4)
-    static let yellow = Color(hex: 0xEFAE3C)
-    static let orange = Color(hex: 0xD9572B)
-    static let pink = Color(hex: 0xF3B9A3)
-    static let green = Color(hex: 0x2E7D58)
-    static let greenSoft = Color(hex: 0xE1F0E4)
+    static let sky = Color(hex: 0x0B74E5)
+    static let skyLight = Color(hex: 0x4D9DF2)
+    static let cloud = Color(hex: 0xFFD3E4)
+    static let yellow = Color(hex: 0xFFB000)
+    static let orange = Color(hex: 0xFF6800)
+    static let pink = Color(hex: 0xFF8FBC)
+    static let green = Color(hex: 0x00804A)
+    static let greenSoft = Color(hex: 0xE3F6EA)
     static let red = Color(hex: 0xB3261E)
     static let redSoft = Color(hex: 0xFCE8E6)
 }
@@ -73,13 +73,13 @@ extension Font {
         return .custom(name, size: size)
     }
 
-    /// Police à empattements du système (New York), pour les titres.
-    static func serif(_ size: CGFloat, _ weight: Font.Weight = .semibold) -> Font {
+    /// Police à empattements du système, réservée aux citations.
+    static func serif(_ size: CGFloat, _ weight: Font.Weight = .medium) -> Font {
         .system(size: size, weight: weight, design: .serif)
     }
 
-    static let aTitle = Font.serif(30)
-    static let aTitleSmall = Font.serif(26)
+    static let aTitle = Font.figtree(30, .semibold)
+    static let aTitleSmall = Font.figtree(26, .semibold)
     static let aHeading = Font.figtree(20, .semibold)
     static let aCardTitle = Font.figtree(18, .semibold)
     static let aBody = Font.figtree(16)
