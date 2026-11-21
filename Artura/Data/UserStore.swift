@@ -5,8 +5,9 @@ final class UserStore: ObservableObject {
     struct Profile: Codable, Equatable {
         var onboarded = false
         var gender: String?
-        var lookAnswer: String?
-        var understandAnswer: String?
+        var flashKnown: [String] = []
+        var phoneHours: Double = 4
+        var arts: [String] = ["peinture"]
         var goal: String?
         var level: String?
         var liked: [String] = []

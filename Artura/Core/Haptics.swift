@@ -18,6 +18,16 @@ enum Haptics {
         UIImpactFeedbackGenerator(style: .rigid).impactOccurred(intensity: 0.7)
     }
 
+    /// Vibration à peine perceptible (mot qui apparaît, appui ignoré).
+    static func whisper() {
+        UIImpactFeedbackGenerator(style: .soft).impactOccurred(intensity: 0.35)
+    }
+
+    /// Vibration d'intensité variable (0 à 1), pour les montées progressives.
+    static func rise(_ intensity: Double) {
+        UIImpactFeedbackGenerator(style: .rigid).impactOccurred(intensity: CGFloat(intensity))
+    }
+
     static func heavy() {
         UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
     }

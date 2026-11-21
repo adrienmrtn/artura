@@ -101,37 +101,6 @@ struct GenderScreen: View {
     }
 }
 
-// MARK: 4 · Regarder
-
-struct LookScreen: View {
-    @EnvironmentObject private var user: UserStore
-    let onBack: () -> Void
-    let onNext: () -> Void
-
-    private let options = [
-        "Je passe vite, sans trop savoir quoi regarder",
-        "J'aime bien, sans pouvoir dire pourquoi",
-        "Je lis le cartel, puis j'oublie tout",
-        "Je pourrais y rester des heures"
-    ]
-
-    var body: some View {
-        OnbScaffold(number: OnbStep.look.number, onBack: onBack,
-                    title: "Devant un tableau, il se passe quoi pour toi ?",
-                    subtitle: "Sois honnête, personne ne regarde.",
-                    ctaEnabled: user.profile.lookAnswer != nil, onNext: onNext) {
-            VStack(spacing: 10) {
-                ForEach(Array(options.enumerated()), id: \.offset) { i, option in
-                    OptionRow(title: option, selected: user.profile.lookAnswer == option) {
-                        user.profile.lookAnswer = option
-                    }
-                    .appearUp(0.08 * Double(i + 1))
-                }
-            }
-        }
-    }
-}
-
 // MARK: 5 · Artura va t'aider (l'œil)
 
 struct HelpScreen: View {
@@ -139,110 +108,13 @@ struct HelpScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_oeil", number: OnbStep.help.number, onBack: onBack, onNext: onNext) {
+        HeroScaffold(image: "ill_oeil", onBack: onBack, onNext: onNext) {
             TagPill(text: "Artura va t'aider").appearUp(0.1)
             Text("Regarder, ça s'apprend").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
             Text("Personne ne naît en sachant lire un tableau. Chaque jour, on te montre où poser les yeux : un détail, une couleur, un geste.")
                 .font(.aBody).foregroundStyle(Palette.ink).appearUp(0.3)
             Text("Passer vite devant un tableau n'a rien d'une faute. On va juste te donner de quoi t'arrêter.")
                 .font(.aBody).foregroundStyle(Palette.muted).appearUp(0.4)
-        }
-    }
-}
-
-// MARK: 6 · Comprendre
-
-struct UnderstandScreen: View {
-    @EnvironmentObject private var user: UserStore
-    let onBack: () -> Void
-    let onNext: () -> Void
-
-    private let options = [
-        "Rarement, il me manque les clés",
-        "Parfois, pour les œuvres célèbres",
-        "Souvent, mais j'aimerais aller plus loin"
-    ]
-
-    var body: some View {
-        OnbScaffold(number: OnbStep.understand.number, onBack: onBack,
-                    title: "Et comprendre ce que tu regardes ?",
-                    subtitle: "Qui l'a peint, quand, et pourquoi ça compte.",
-                    ctaEnabled: user.profile.understandAnswer != nil, onNext: onNext) {
-            ArtImage(name: "art_baiser", anchor: UnitPoint(x: 0.5, y: 0.3))
-                .frame(height: 240)
-                .clipShape(RoundedRectangle(cornerRadius: 16))
-                .appearUp(0.1)
-            VStack(spacing: 8) {
-                ForEach(Array(options.enumerated()), id: \.offset) { i, option in
-                    OptionRow(title: option, selected: user.profile.understandAnswer == option) {
-                        user.profile.understandAnswer = option
-                    }
-                    .appearUp(0.15 + 0.08 * Double(i))
-                }
-            }
-        }
-    }
-}
-
-// MARK: 7 · À quoi ça sert (carrousel)
-
-struct WhyScreen: View {
-    let onBack: () -> Void
-    let onNext: () -> Void
-    @State private var page = 0
-
-    private let slides: [(String, String, String)] = [
-        ("art_nympheas", "Ralentir", "Quelques minutes devant une seule image, sans rien faire d'autre."),
-        ("art_vague", "Mieux voir", "On remarque plus de choses quand on sait quoi chercher."),
-        ("art_perle", "Se relier", "Derrière chaque tableau, quelqu'un qui a vécu, aimé, douté.")
-    ]
-
-    var body: some View {
-        OnbScaffold(number: OnbStep.why.number, onBack: onBack,
-                    title: "Au fait, à quoi ça sert, l'art ?",
-                    subtitle: "À rien d'urgent. C'est justement l'intérêt.",
-                    cta: page < slides.count - 1 ? "Suivant" : "Je suis \(partant)",
-                    onNext: advance) {
-            TabView(selection: $page) {
-                ForEach(Array(slides.enumerated()), id: \.offset) { i, slide in
-                    VStack(alignment: .leading, spacing: 14) {
-                        ArtImage(name: slide.0)
-                            .frame(height: 280)
-                            .clipShape(RoundedRectangle(cornerRadius: 20))
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(slide.1).font(.figtree(24, .semibold)).foregroundStyle(Palette.ink)
-                            Text(slide.2).font(.aBody).foregroundStyle(Palette.muted)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        Spacer(minLength: 0)
-                    }
-                    .tag(i)
-                }
-            }
-            .tabViewStyle(.page(indexDisplayMode: .never))
-            .frame(height: 390)
-            .onChange(of: page) { _, _ in Haptics.selection() }
-
-            HStack(spacing: 8) {
-                ForEach(0..<slides.count, id: \.self) { i in
-                    Capsule()
-                        .fill(i == page ? Palette.ink : Color(hex: 0xB9B4B0))
-                        .frame(width: i == page ? 24 : 8, height: 8)
-                }
-            }
-            .frame(maxWidth: .infinity)
-            .animation(.snappy, value: page)
-        }
-    }
-
-    @EnvironmentObject private var user: UserStore
-    private var partant: String { user.agree("partant", "partante") }
-
-    private func advance() {
-        if page < slides.count - 1 {
-            withAnimation(.gentle) { page += 1 }
-        } else {
-            onNext()
         }
     }
 }
