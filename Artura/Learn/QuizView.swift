@@ -1,10 +1,10 @@
 import SwiftUI
 
-/// Quiz de fin de cours : une question à la fois, avec correction immédiate.
+/// End-of-lesson quiz: one question at a time, with instant feedback.
 struct QuizView: View {
     let artwork: Artwork
     let onBack: () -> Void
-    /// Appelé à la fin avec le nombre de bonnes réponses.
+    /// Called at the end with the number of correct answers.
     let onFinish: (Int) -> Void
 
     @State private var index = 0
@@ -31,7 +31,7 @@ struct QuizView: View {
             }
 
             VStack(alignment: .leading, spacing: 8) {
-                TagPill(text: "Question \(index + 1) sur \(artwork.quiz.count)")
+                TagPill(text: "Question \(index + 1) of \(artwork.quiz.count)")
                 Text(question.question)
                     .font(.aTitleSmall)
                     .foregroundStyle(Palette.ink)
@@ -103,14 +103,14 @@ struct QuizView: View {
     private var feedback: some View {
         VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 2) {
-                Text(isCorrect ? "Bien vu !" : "Pas tout à fait")
+                Text(isCorrect ? "Good eye!" : "Not quite")
                     .font(.figtree(17, .semibold))
                 Text(question.explanation)
                     .font(.aSmall)
                     .fixedSize(horizontal: false, vertical: true)
             }
             .foregroundStyle(Palette.ink)
-            Button(isLast ? "Terminer le quiz" : "Question suivante") {
+            Button(isLast ? "Finish quiz" : "Next question") {
                 advance()
             }
             .buttonStyle(.primary)
@@ -125,7 +125,7 @@ struct QuizView: View {
     private func pick(_ i: Int) {
         guard selected == nil else { return }
         withAnimation(.snappy) { selected = i }
-        // Le panneau de correction arrive : second retour, plus sourd.
+        // The feedback panel slides in: a second, duller haptic.
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { Haptics.rigid() }
         if i == question.answer {
             score += 1

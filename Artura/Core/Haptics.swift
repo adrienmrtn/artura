@@ -1,6 +1,6 @@
 import UIKit
 
-/// Retours haptiques utilisés partout dans l'appli.
+/// Haptic feedback used throughout the app.
 enum Haptics {
     static func tap() {
         UIImpactFeedbackGenerator(style: .light).impactOccurred()
@@ -18,12 +18,12 @@ enum Haptics {
         UIImpactFeedbackGenerator(style: .rigid).impactOccurred(intensity: 0.7)
     }
 
-    /// Vibration à peine perceptible (mot qui apparaît, appui ignoré).
+    /// Barely perceptible vibration (a word appearing, an ignored tap).
     static func whisper() {
         UIImpactFeedbackGenerator(style: .soft).impactOccurred(intensity: 0.35)
     }
 
-    /// Vibration d'intensité variable (0 à 1), pour les montées progressives.
+    /// Variable-intensity vibration (0 to 1), for gradual build-ups.
     static func rise(_ intensity: Double) {
         UIImpactFeedbackGenerator(style: .rigid).impactOccurred(intensity: CGFloat(intensity))
     }

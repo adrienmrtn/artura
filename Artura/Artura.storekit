@@ -3,7 +3,7 @@
   "nonRenewingSubscriptions" : [],
   "products" : [],
   "settings" : {
-    "_locale" : "fr",
+    "_locale" : "en_US",
     "_storefront" : "FRA"
   },
   "subscriptionGroups" : [
@@ -27,14 +27,14 @@
           },
           "localizations" : [
             {
-              "description" : "Tous les jeux, parcours et histoires audio",
-              "displayName" : "Artura Pro annuel",
-              "locale" : "fr"
+              "description" : "All games, journeys, and audio stories",
+              "displayName" : "Artura Pro Yearly",
+              "locale" : "en_US"
             }
           ],
           "productID" : "com.vikstudios.artura.pro.yearly",
           "recurringSubscriptionPeriod" : "P1Y",
-          "referenceName" : "Artura Pro annuel",
+          "referenceName" : "Artura Pro Yearly",
           "subscriptionGroupID" : "21500001",
           "type" : "RecurringSubscription"
         },
@@ -53,14 +53,14 @@
           },
           "localizations" : [
             {
-              "description" : "Tous les jeux, parcours et histoires audio",
-              "displayName" : "Artura Pro mensuel",
-              "locale" : "fr"
+              "description" : "All games, journeys, and audio stories",
+              "displayName" : "Artura Pro Monthly",
+              "locale" : "en_US"
             }
           ],
           "productID" : "com.vikstudios.artura.pro.monthly",
           "recurringSubscriptionPeriod" : "P1M",
-          "referenceName" : "Artura Pro mensuel",
+          "referenceName" : "Artura Pro Monthly",
           "subscriptionGroupID" : "21500001",
           "type" : "RecurringSubscription"
         },

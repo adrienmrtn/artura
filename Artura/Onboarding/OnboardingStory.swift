@@ -1,8 +1,8 @@
 import SwiftUI
 
-// MARK: - Test : de combien de ces tableaux connais-tu le nom ?
+// MARK: - Test: how many of these paintings can you name?
 
-/// Carte du test d'entrée. Les deux dernières sont volontairement très difficiles.
+/// Entry test card. The last two are very hard on purpose.
 struct FlashCard: Identifiable {
     let id: String
     let title: String
@@ -11,13 +11,13 @@ struct FlashCard: Identifiable {
     var image: String { "art_\(id)" }
 
     static let all: [FlashCard] = [
-        FlashCard(id: "joconde", title: "La Joconde", artist: "Léonard de Vinci"),
-        FlashCard(id: "nuit", title: "La Nuit étoilée", artist: "Vincent van Gogh"),
-        FlashCard(id: "vague", title: "La Grande Vague de Kanagawa", artist: "Katsushika Hokusai"),
-        FlashCard(id: "perle", title: "La Jeune Fille à la perle", artist: "Johannes Vermeer"),
-        FlashCard(id: "baiser", title: "Le Baiser", artist: "Gustav Klimt"),
-        FlashCard(id: "raboteurs", title: "Les Raboteurs de parquet", artist: "Gustave Caillebotte", hard: true),
-        FlashCard(id: "moine", title: "Le Moine au bord de la mer", artist: "Caspar David Friedrich", hard: true)
+        FlashCard(id: "joconde", title: "Mona Lisa", artist: "Leonardo da Vinci"),
+        FlashCard(id: "nuit", title: "The Starry Night", artist: "Vincent van Gogh"),
+        FlashCard(id: "vague", title: "The Great Wave off Kanagawa", artist: "Katsushika Hokusai"),
+        FlashCard(id: "perle", title: "Girl with a Pearl Earring", artist: "Johannes Vermeer"),
+        FlashCard(id: "baiser", title: "The Kiss", artist: "Gustav Klimt"),
+        FlashCard(id: "raboteurs", title: "The Floor Scrapers", artist: "Gustave Caillebotte", hard: true),
+        FlashCard(id: "moine", title: "The Monk by the Sea", artist: "Caspar David Friedrich", hard: true)
     ]
 }
 
@@ -29,7 +29,7 @@ struct FlashTestScreen: View {
     @State private var drag: CGSize = .zero
     @State private var armed = false
     @State private var known: [String] = []
-    /// Cartes déjà notées et le côté par lequel elles sont sorties.
+    /// Cards already answered and the side they left from.
     @State private var gone: [String: CGFloat] = [:]
 
     private let cards = FlashCard.all
@@ -37,21 +37,21 @@ struct FlashTestScreen: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             VStack(alignment: .leading, spacing: 8) {
-                TagPill(text: "Tableau \(min(index + 1, cards.count)) sur \(cards.count)")
-                Text("De combien de ces tableaux connais-tu le nom ?")
+                TagPill(text: "Painting \(min(index + 1, cards.count)) of \(cards.count)")
+                Text("How many of these paintings can you name?")
                     .font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text("Sans tricher. Glisse la carte, ou réponds avec les boutons.")
+                Text("No cheating. Swipe the card, or use the buttons.")
                     .font(.aBody).foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
             }
             .enter()
 
-            // Pile de cartes : la suivante dépasse derrière celle du dessus.
+            // Card stack: the next one peeks out behind the top one.
             ZStack {
                 ForEach(Array(cards.enumerated()).reversed(), id: \.element.id) { i, item in
                     if i <= index + 2 {
-                        // Une carte notée garde sa place hors écran : elle ne revient jamais au centre.
+                        // An answered card stays off screen: it never comes back to the center.
                         let depth = max(0, i - index)
                         let exit = gone[item.id]
                         let x = exit ?? (i == index ? drag.width : 0)
@@ -71,8 +71,8 @@ struct FlashTestScreen: View {
             .enter(2)
 
             HStack(spacing: 12) {
-                Button("Je ne sais pas") { answer(false) }.buttonStyle(.secondary)
-                Button("Je connais") { answer(true) }.buttonStyle(.primary)
+                Button("Don't know") { answer(false) }.buttonStyle(.secondary)
+                Button("I know it") { answer(true) }.buttonStyle(.primary)
             }
         }
         .padding(.horizontal, 24)
@@ -87,13 +87,13 @@ struct FlashTestScreen: View {
             .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(.white, lineWidth: 5))
             .shadow(color: Palette.blueDark.opacity(0.16), radius: 12, y: 6)
             .overlay(alignment: .bottomLeading) {
-                if item.hard { TagPill(text: "Niveau expert").padding(16) }
+                if item.hard { TagPill(text: "Expert level").padding(16) }
             }
             .overlay(alignment: .topLeading) {
-                if top { stamp("Je connais", Palette.green).opacity(stampOpacity(true)).padding(16) }
+                if top { stamp("I know it", Palette.green).opacity(stampOpacity(true)).padding(16) }
             }
             .overlay(alignment: .topTrailing) {
-                if top { stamp("Je ne sais pas", Palette.ink).opacity(stampOpacity(false)).padding(16) }
+                if top { stamp("Don't know", Palette.ink).opacity(stampOpacity(false)).padding(16) }
             }
             .gesture(
                 DragGesture()
@@ -143,7 +143,7 @@ struct FlashTestScreen: View {
         } else {
             Haptics.rigid()
         }
-        // La carte sort du côté de la réponse pendant que la suivante monte, dans la même animation.
+        // The card exits on the answer's side while the next one rises, in the same animation.
         let last = index >= cards.count - 1
         withAnimation(.easeOut(duration: 0.28)) {
             gone[current.id] = knows ? 520 : -520
@@ -157,7 +157,7 @@ struct FlashTestScreen: View {
     }
 }
 
-// MARK: - Résultat du test : « Bravo, Max ! »
+// MARK: - Test result: "Nice work, Max!"
 
 struct FlashResultScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -177,20 +177,20 @@ struct FlashResultScreen: View {
     }
 
     private var headline: String {
-        if score == 0 { return firstName.map { "Merci pour ta franchise, \($0)." } ?? "Merci pour ta franchise." }
-        return firstName.map { "Bravo, \($0) !" } ?? "Bravo !"
+        if score == 0 { return firstName.map { "Thanks for being honest, \($0)." } ?? "Thanks for being honest." }
+        return firstName.map { "Nice work, \($0)!" } ?? "Nice work!"
     }
 
     private var verdict: String {
-        if score == total { return "Tu les connais tous, même les deux plus pointus. Mais sais-tu ce qu'ils racontent ?" }
-        if score == 0 { return "Aucun pour l'instant. C'est exactement pour ça qu'on est là." }
-        return "Les autres t'échappent encore. Plus pour longtemps."
+        if score == total { return "You know them all, even the two toughest. But do you know the stories they tell?" }
+        if score == 0 { return "None yet. That's exactly why we're here." }
+        return "The rest still escape you. Not for long."
     }
 
     var body: some View {
         ZStack {
             OnbScaffold(title: headline, spoken: true, onNext: onNext) {
-                // Les sept tableaux en éventail : ceux nommés en couleur, les autres voilés.
+                // The seven paintings fanned out: named ones in color, the others dimmed.
                 HStack(spacing: -36) {
                     ForEach(Array(cards.enumerated()), id: \.element.id) { i, item in
                         let known = user.profile.flashKnown.contains(item.id)
@@ -225,9 +225,9 @@ struct FlashResultScreen: View {
                             .font(.figtree(72, .bold))
                             .foregroundStyle(Palette.blue)
                             .contentTransition(.numericText())
-                        Text("sur \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                        Text("of \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
                     }
-                    Text(score > 1 ? "tableaux nommés" : "tableau nommé")
+                    Text(score == 1 ? "painting named" : "paintings named")
                         .font(.figtree(15, .semibold)).foregroundStyle(Palette.muted)
                     Text(verdict)
                         .font(.aBody).foregroundStyle(Palette.ink)
@@ -246,7 +246,7 @@ struct FlashResultScreen: View {
 
     private func play() {
         withAnimation(.settle.delay(0.5)) { fanned = true }
-        // Le compteur monte d'un cran à la fois, avec un tic.
+        // The counter goes up one notch at a time, with a tick.
         for i in 0...score where i > 0 {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.9 + Double(i) * 0.22) {
                 withAnimation(.easeOut(duration: 0.2)) { count = i }
@@ -260,7 +260,7 @@ struct FlashResultScreen: View {
     }
 }
 
-// MARK: - Ce que le temps d'écran représente, et ce qu'il peut devenir
+// MARK: - What screen time adds up to, and what it can become
 
 struct PhoneResultScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -275,8 +275,9 @@ struct PhoneResultScreen: View {
 
     private var monthsLine: String {
         let months = Double(target) / 30.4
-        if months < 1.25 { return "Plus d'un mois entier, chaque année." }
-        return "Près de \(Int(months.rounded())) mois entiers, chaque année."
+        if months < 1.25 { return "More than a whole month, every year." }
+        let whole = Int(months.rounded())
+        return "Nearly \(whole) whole month\(whole == 1 ? "" : "s"), every year."
     }
 
     var body: some View {
@@ -284,7 +285,7 @@ struct PhoneResultScreen: View {
             Spacer(minLength: 8)
 
             VStack(spacing: 2) {
-                Text("\(formatHours(hours)) par jour sur ton téléphone, c'est")
+                Text("\(formatHours(hours)) a day on your phone adds up to")
                     .font(.figtree(17, .medium))
                     .foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
@@ -294,7 +295,7 @@ struct PhoneResultScreen: View {
                     .foregroundStyle(Palette.orange)
                     .contentTransition(.numericText())
                     .opacity(stage >= 2 ? 1 : 0)
-                Text("jours par an")
+                Text("days a year")
                     .font(.figtree(28, .semibold))
                     .foregroundStyle(Palette.ink)
                     .opacity(stage >= 2 ? 1 : 0)
@@ -308,13 +309,13 @@ struct PhoneResultScreen: View {
 
             Spacer(minLength: 16)
 
-            // Le retournement : ce temps peut servir à autre chose.
+            // The turnaround: that time can go toward something else.
             VStack(spacing: 10) {
-                Text("Avec Artura, ce temps peut devenir connaissance.")
+                Text("With Artura, that time can become knowledge.")
                     .font(.figtree(26, .semibold))
                     .foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text("Plutôt que de scroller sans fin, nourris ton esprit des plus grandes œuvres de l'humanité. Cinq minutes suffisent.")
+                Text("Instead of scrolling endlessly, feed your mind with humanity's greatest artworks. Five minutes is all it takes.")
                     .font(.aBody)
                     .foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
@@ -329,7 +330,7 @@ struct PhoneResultScreen: View {
 
             Spacer(minLength: 16)
 
-            Button("Continuer") { onNext() }
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
         }
         .padding(.horizontal, 24)
@@ -345,7 +346,7 @@ struct PhoneResultScreen: View {
         withAnimation(.settle.delay(0.3)) { stage = 1 }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) {
             withAnimation(.easeOut(duration: 0.4)) { stage = 2 }
-            // Le compteur monte jusqu'au total, avec un tic à chaque pas.
+            // The counter climbs to the total, with a tick at each step.
             let stepCount = 32
             var step = 0
             timer?.invalidate()
@@ -373,7 +374,7 @@ struct PhoneResultScreen: View {
     }
 }
 
-// MARK: - Dans un an : près de 400 tableaux
+// MARK: - In a year: nearly 400 paintings
 
 struct ProjectionScreen: View {
     let onNext: () -> Void
@@ -388,7 +389,7 @@ struct ProjectionScreen: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Text("Avec Artura, dans un an, tu connaîtras près de")
+            Text("With Artura, a year from now, you'll know nearly")
                 .font(.figtree(22, .medium)).foregroundStyle(Palette.ink)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
@@ -399,10 +400,10 @@ struct ProjectionScreen: View {
                 .foregroundStyle(Palette.blue)
                 .contentTransition(.numericText())
                 .padding(.top, 2)
-            Text("tableaux")
+            Text("paintings")
                 .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
 
-            // Un carré par tableau : la grille se remplit au rythme du compteur.
+            // One square per painting: the grid fills in step with the counter.
             Canvas { context, size in
                 let gap: CGFloat = 3
                 let cell = (size.width - gap * CGFloat(columns - 1)) / CGFloat(columns)
@@ -411,7 +412,7 @@ struct ProjectionScreen: View {
                     let y = CGFloat(i / columns) * (cell + gap)
                     let rect = CGRect(x: x, y: y, width: cell, height: cell)
                     let path = Path(roundedRect: rect, cornerRadius: 2.5)
-                    // Quelques carrés dorés pour le relief, comme des cadres.
+                    // A few golden squares for depth, like frames.
                     let filled = i < count
                     let color = !filled ? Palette.line : (i % 7 == 3 ? Palette.yellow : Palette.blue)
                     context.fill(path, with: .color(color))
@@ -422,7 +423,7 @@ struct ProjectionScreen: View {
             .enter(2)
             .accessibilityHidden(true)
 
-            Text("Et pas seulement leur nom : tu les connaîtras en détail.")
+            Text("And not just by name: you'll know them inside out.")
                 .font(.figtree(17)).foregroundStyle(Palette.muted)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
@@ -432,7 +433,7 @@ struct ProjectionScreen: View {
 
             Spacer(minLength: 16)
 
-            Button("Continuer") { onNext() }
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
         }
         .padding(.horizontal, 24)
@@ -452,7 +453,7 @@ struct ProjectionScreen: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
             timer = Timer.scheduledTimer(withTimeInterval: 0.035, repeats: true) { t in
                 step += 1
-                // Départ rapide, arrivée en douceur.
+                // Fast start, gentle finish.
                 let progress = 1 - pow(1 - Double(step) / Double(stepCount), 2)
                 withAnimation(.linear(duration: 0.035)) {
                     count = min(target, Int((Double(target) * progress).rounded()))
@@ -469,9 +470,9 @@ struct ProjectionScreen: View {
     }
 }
 
-// MARK: - Quelques minutes par jour, ça change tout (courbe)
+// MARK: - A few minutes a day changes everything (curve)
 
-/// Courbe de progression : part du bas à gauche et monte jusqu'à `lift` (part de la hauteur) à droite.
+/// Progress curve: starts bottom left and rises to `lift` (fraction of the height) on the right.
 struct GrowthCurve: Shape {
     let lift: CGFloat
     var closed = false
@@ -514,7 +515,7 @@ struct GrowthChart: View {
             GeometryReader { geo in
                 let rect = CGRect(origin: .zero, size: geo.size).insetBy(dx: inset, dy: inset)
                 ZStack {
-                    // Lignes de repère
+                    // Guide lines
                     ForEach(0..<4, id: \.self) { i in
                         Rectangle()
                             .fill(i == 3 ? Palette.lip : Palette.line)
@@ -548,22 +549,22 @@ struct GrowthChart: View {
             .frame(height: 122)
 
             HStack {
-                Text("Aujourd'hui").font(.aSmall).foregroundStyle(Palette.muted)
+                Text("Today").font(.aSmall).foregroundStyle(Palette.muted)
                 Spacer()
-                Text("Dans 1 an").font(.figtree(14, .semibold)).foregroundStyle(Palette.ink)
+                Text("In 1 year").font(.figtree(14, .semibold)).foregroundStyle(Palette.ink)
             }
             .padding(.horizontal, inset)
 
             HStack(spacing: 18) {
-                legend("Avec Artura", color: Palette.blue, dashed: false)
-                legend("Sans routine", color: Palette.yellow, dashed: true)
+                legend("With Artura", color: Palette.blue, dashed: false)
+                legend("No routine", color: Palette.yellow, dashed: true)
             }
         }
         .padding(16)
         .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
         .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Courbe : avec Artura, tes connaissances montent nettement en un an ; sans routine, elles restent presque au même niveau.")
+        .accessibilityLabel("Chart: with Artura, your knowledge climbs sharply in a year; with no routine, it stays almost flat.")
         .onAppear {
             withAnimation(.easeInOut(duration: 1.5).delay(0.6)) { drawn = true }
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.1) {
@@ -595,15 +596,15 @@ struct GrowthChart: View {
 struct GraphScreen: View {
     let onNext: () -> Void
 
-    private let gains = ["ton regard", "ta culture générale", "tes sujets de conversation"]
+    private let gains = ["your eye for art", "your general knowledge", "your conversation starters"]
 
     var body: some View {
-        OnbScaffold(title: "Quelques minutes par jour, ça change tout.", spoken: true, mascotSize: 84, onNext: onNext) {
+        OnbScaffold(title: "A few minutes a day changes everything.", spoken: true, mascotSize: 84, onNext: onNext) {
             GrowthChart()
                 .enter(2)
 
             VStack(alignment: .leading, spacing: 0) {
-                Text("Avec Artura, tu développes")
+                Text("With Artura, you build")
                     .font(.figtree(19, .semibold)).foregroundStyle(Palette.ink)
                     .padding(.bottom, 6)
                 ForEach(Array(gains.enumerated()), id: \.offset) { i, gain in
@@ -627,7 +628,7 @@ struct GraphScreen: View {
     }
 }
 
-// MARK: - Série : « Max, ton apprentissage commence aujourd'hui »
+// MARK: - Streak: "Max, your learning starts today"
 
 struct StreakScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -638,9 +639,9 @@ struct StreakScreen: View {
 
     private var title: String {
         if let name = user.profile.firstName, !name.isEmpty {
-            return "\(name), ton apprentissage commence aujourd'hui."
+            return "\(name), your learning starts today."
         }
-        return "Ton apprentissage commence aujourd'hui."
+        return "Your learning starts today."
     }
 
     var body: some View {
@@ -650,12 +651,12 @@ struct StreakScreen: View {
                     .frame(minHeight: 150, maxHeight: 250)
                     .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
                     .overlay(alignment: .bottom) {
-                        // La flamme du premier jour, à cheval sur le bas de l'image.
+                        // The day-one flame, straddling the bottom edge of the image.
                         HStack(spacing: 8) {
                             Image(systemName: "flame.fill")
                                 .font(.system(size: 22, weight: .bold))
                                 .foregroundStyle(Palette.orange)
-                            Text("Jour 1")
+                            Text("Day 1")
                                 .font(.figtree(22, .bold))
                                 .foregroundStyle(Palette.ink)
                         }
@@ -674,7 +675,7 @@ struct StreakScreen: View {
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
                         .enter(3)
-                    Text("Reviens demain pour faire grandir ta série.")
+                    Text("Come back tomorrow to grow your streak.")
                         .font(.figtree(17))
                         .foregroundStyle(Palette.muted)
                         .fixedSize(horizontal: false, vertical: true)
@@ -683,7 +684,7 @@ struct StreakScreen: View {
                 .multilineTextAlignment(.center)
                 .padding(.top, 48)
 
-                // La semaine : le premier jour se coche.
+                // The week: day one gets checked off.
                 HStack(spacing: 6) {
                     ForEach(1...7, id: \.self) { day in
                         VStack(spacing: 6) {
@@ -698,7 +699,7 @@ struct StreakScreen: View {
                                 }
                             }
                             .frame(width: 34, height: 34)
-                            Text("J\(day)")
+                            Text("Day \(day)")
                                 .font(.figtree(12, day == 1 ? .bold : .regular))
                                 .foregroundStyle(day == 1 ? Palette.ink : Palette.muted)
                         }
@@ -714,7 +715,7 @@ struct StreakScreen: View {
 
                 Spacer(minLength: 16)
 
-                Button("Continuer") { onNext() }
+                Button("Continue") { onNext() }
                     .buttonStyle(.primary)
             }
             .padding(.horizontal, 24)

@@ -10,15 +10,14 @@ struct TodayView: View {
 
     private var dateLabel: String {
         let f = DateFormatter()
-        f.locale = Locale(identifier: "fr_FR")
-        f.dateFormat = "EEEE d MMMM"
-        let text = f.string(from: Date())
-        return text.prefix(1).uppercased() + text.dropFirst()
+        f.locale = Locale(identifier: "en_US")
+        f.dateFormat = "EEEE, MMMM d"
+        return f.string(from: Date())
     }
 
     private var greeting: String {
-        if let name = user.profile.firstName, !name.isEmpty { return "Bonjour \(name)" }
-        return "Bonjour"
+        if let name = user.profile.firstName, !name.isEmpty { return "Hello, \(name)" }
+        return "Hello"
     }
 
     var body: some View {
@@ -63,18 +62,18 @@ struct TodayView: View {
         }
     }
 
-    /// Œuvre du jour terminée : bravo, et de quoi continuer.
+    /// Today's artwork done: congrats, plus ways to keep going.
     private func doneCard(_ art: Artwork) -> some View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: "ill_bravo").frame(height: 230)
-                TagPill(text: "Œuvre du jour terminée", fill: .white, foreground: Palette.blueText).padding(10)
+                TagPill(text: "Today's artwork: done", fill: .white, foreground: Palette.blueText).padding(10)
             }
             VStack(spacing: 12) {
                 VStack(spacing: 6) {
-                    Text("Bravo, c'est fait pour aujourd'hui")
+                    Text("Nice work, you're done for today")
                         .font(.figtree(24, .semibold)).foregroundStyle(Palette.ink)
-                    Text("Reviens demain pour une nouvelle œuvre. En attendant, entraîne-toi ou explore un autre courant.")
+                    Text("Come back tomorrow for a new artwork. Until then, practice or explore another movement.")
                         .font(.aSmall).foregroundStyle(Palette.muted)
                 }
                 .multilineTextAlignment(.center)
@@ -84,12 +83,12 @@ struct TodayView: View {
                     Haptics.press()
                     training = true
                 }
-                Button("Explorer les courants") {
+                Button("Explore movements") {
                     Haptics.tap()
                     onExplore()
                 }
                 .buttonStyle(.secondary)
-                TextLinkButton(title: "Revoir « \(art.title) »") { course = art }
+                TextLinkButton(title: "Revisit “\(art.title)”") { course = art }
             }
             .padding(.horizontal, 16)
             .padding(.top, 16)
@@ -102,8 +101,8 @@ struct TodayView: View {
 
     private var segmented: some View {
         HStack(spacing: 0) {
-            segment("Pour toi", active: !showFavorites) { showFavorites = false }
-            segment("Favoris", active: showFavorites) { showFavorites = true }
+            segment("For you", active: !showFavorites) { showFavorites = false }
+            segment("Favorites", active: showFavorites) { showFavorites = true }
         }
         .padding(4)
         .background(Capsule().fill(Palette.card))
@@ -128,7 +127,7 @@ struct TodayView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: art.image).frame(height: 392)
-                TagPill(text: "Œuvre du jour", fill: .white, foreground: Palette.blueText).padding(10)
+                TagPill(text: "Artwork of the day", fill: .white, foreground: Palette.blueText).padding(10)
                 Button {
                     Haptics.press()
                     withAnimation(.bouncy) { user.toggleFavorite(art.id) }
@@ -141,14 +140,14 @@ struct TodayView: View {
                         .scaleEffect(user.isFavorite(art.id) ? 1.1 : 1)
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel(user.isFavorite(art.id) ? "Retirer des favoris" : "Ajouter aux favoris")
+                .accessibilityLabel(user.isFavorite(art.id) ? "Remove from favorites" : "Add to favorites")
                 .frame(maxWidth: .infinity, alignment: .trailing)
                 .padding(10)
             }
             HStack(spacing: 12) {
                 VStack(alignment: .leading, spacing: 3) {
                     Text(art.title).font(.aCardTitle).foregroundStyle(Palette.ink)
-                    Text("\(art.meta) · cours et quiz").font(.aCaption).foregroundStyle(Palette.muted)
+                    Text("\(art.meta) · lesson and quiz").font(.aCaption).foregroundStyle(Palette.muted)
                 }
                 Spacer(minLength: 0)
                 Button {
@@ -162,7 +161,7 @@ struct TodayView: View {
                         .background(Circle().fill(Palette.blueDark).offset(y: 3))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Commencer le cours")
+                .accessibilityLabel("Start the lesson")
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 12)
@@ -183,8 +182,8 @@ struct TodayView: View {
         if items.isEmpty {
             VStack(spacing: 8) {
                 Image(systemName: "heart").font(.system(size: 30)).foregroundStyle(Palette.muted)
-                Text("Pas encore de favoris").font(.bodyStrong).foregroundStyle(Palette.ink)
-                Text("Touche le cœur sur une œuvre pour la retrouver ici.")
+                Text("No favorites yet").font(.bodyStrong).foregroundStyle(Palette.ink)
+                Text("Tap the heart on an artwork to find it here.")
                     .font(.aSmall).foregroundStyle(Palette.muted).multilineTextAlignment(.center)
             }
             .frame(maxWidth: .infinity)
@@ -200,7 +199,7 @@ struct TodayView: View {
     }
 }
 
-/// Ligne « vignette + titre + chevron » réutilisée dans plusieurs écrans.
+/// "Thumbnail + title + chevron" row, reused on several screens.
 struct ArtworkRow: View {
     let artwork: Artwork
     var done: Bool = false
