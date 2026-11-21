@@ -4,7 +4,6 @@ struct TodayView: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var content: ContentStore
     @State private var showFavorites = false
-    @State private var scrolled = false
     @State private var course: Artwork?
 
     private var dateLabel: String {
@@ -49,11 +48,9 @@ struct TodayView: View {
                 .padding(.top, -34)
                 .padding(.bottom, 24)
             }
-            .scrollProbe()
         }
         .scrollIndicators(.hidden)
         .ignoresSafeArea(edges: .top)
-        .nativeHeader("Aujourd'hui", scrolled: $scrolled)
         .fullScreenCover(item: $course) { art in
             CourseFlow(artwork: art)
         }

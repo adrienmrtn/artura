@@ -29,10 +29,10 @@ struct MainTabView: View {
         VStack(spacing: 0) {
             ZStack {
                 switch tab {
-                case .today: NavigationStack { TodayView() }
-                case .explore: NavigationStack { ExploreView() }
-                case .games: NavigationStack { GamesView() }
-                case .profile: NavigationStack { ProfileView() }
+                case .today: TodayView()
+                case .explore: ExploreView()
+                case .games: GamesView()
+                case .profile: ProfileView()
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)

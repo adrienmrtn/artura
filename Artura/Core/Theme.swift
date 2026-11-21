@@ -115,8 +115,8 @@ struct ArcTopShape: Shape {
 // MARK: - Animations
 
 extension Animation {
-    // Ressorts volontairement amortis : pas de rebond visible.
-    static let snappy = Animation.spring(response: 0.3, dampingFraction: 0.95)
-    static let gentle = Animation.spring(response: 0.45, dampingFraction: 1.0)
-    static let bouncy = Animation.spring(response: 0.38, dampingFraction: 0.9)
+    // Courbes simples, sans ressort : aucun rebond.
+    static let snappy = Animation.easeOut(duration: 0.16)
+    static let gentle = Animation.easeInOut(duration: 0.24)
+    static let bouncy = Animation.easeOut(duration: 0.2)
 }

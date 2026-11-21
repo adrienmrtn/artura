@@ -218,9 +218,9 @@ struct AppearUp: ViewModifier {
     func body(content: Content) -> some View {
         content
             .opacity(shown ? 1 : 0)
-            .offset(y: shown ? 0 : 10)
+            .offset(y: shown ? 0 : 6)
             .onAppear {
-                withAnimation(.gentle.delay(delay)) { shown = true }
+                withAnimation(.easeOut(duration: 0.2).delay(delay * 0.5)) { shown = true }
             }
     }
 }
@@ -229,54 +229,6 @@ extension View {
     /// Fait apparaître la vue par le bas, avec un délai (pour les cascades).
     func appearUp(_ delay: Double = 0) -> some View {
         modifier(AppearUp(delay: delay))
-    }
-}
-
-// MARK: - En-tête natif au défilement
-
-private struct ScrollOffsetKey: PreferenceKey {
-    static var defaultValue: CGFloat = 0
-    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
-        value = nextValue()
-    }
-}
-
-private let scrollSpace = "artura.scroll"
-
-extension View {
-    /// À poser sur le contenu d'un ScrollView : mesure de combien on a défilé.
-    func scrollProbe() -> some View {
-        background(
-            GeometryReader { geo in
-                Color.clear.preference(key: ScrollOffsetKey.self, value: geo.frame(in: .named(scrollSpace)).minY)
-            }
-        )
-    }
-
-    /// À poser sur le ScrollView (dans un NavigationStack) : barre de navigation iOS native,
-    /// transparente en haut de page, qui apparaît avec son titre dès qu'on descend.
-    func nativeHeader(_ title: String, scrolled: Binding<Bool>, threshold: CGFloat = 110) -> some View {
-        self
-            .coordinateSpace(.named(scrollSpace))
-            .onPreferenceChange(ScrollOffsetKey.self) { offset in
-                let isScrolled = offset < -threshold
-                if isScrolled != scrolled.wrappedValue {
-                    scrolled.wrappedValue = isScrolled
-                    Haptics.soft()
-                }
-            }
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .principal) {
-                    Text(title)
-                        .font(.figtree(17, .semibold))
-                        .foregroundStyle(Palette.ink)
-                        .opacity(scrolled.wrappedValue ? 1 : 0)
-                        .animation(.easeInOut(duration: 0.2), value: scrolled.wrappedValue)
-                }
-            }
-            .toolbarBackground(scrolled.wrappedValue ? .visible : .hidden, for: .navigationBar)
-            .animation(.easeInOut(duration: 0.2), value: scrolled.wrappedValue)
     }
 }
 

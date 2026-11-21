@@ -1,8 +1,11 @@
 import SwiftUI
 
 enum GameKind: String, Identifiable, CaseIterable {
-    case zoom, chronology, palette, trueFalse
+    case zoom, chronology, palette, trueFalse, training
     var id: String { rawValue }
+
+    /// Les quatre jeux affichés dans la liste (l'entraînement a son propre bouton).
+    static let listed: [GameKind] = [.zoom, .chronology, .palette, .trueFalse]
 
     var title: String {
         switch self {
@@ -10,6 +13,7 @@ enum GameKind: String, Identifiable, CaseIterable {
         case .chronology: return "Chronologie"
         case .palette: return "Palette"
         case .trueFalse: return "Vrai ou faux"
+        case .training: return "Entraînement"
         }
     }
 
@@ -19,6 +23,7 @@ enum GameKind: String, Identifiable, CaseIterable {
         case .chronology: return "Classe 4 œuvres par date · 2 min"
         case .palette: return "Retrouve les couleurs du tableau · 1 min"
         case .trueFalse: return "Anecdotes d'atelier · 1 min"
+        case .training: return "Les quatre types de questions, mélangés"
         }
     }
 
@@ -28,6 +33,7 @@ enum GameKind: String, Identifiable, CaseIterable {
         case .chronology: return "ill_chrono"
         case .palette: return "ill_palette"
         case .trueFalse: return "ill_vraifaux"
+        case .training: return "ill_hero"
         }
     }
 }
@@ -35,12 +41,11 @@ enum GameKind: String, Identifiable, CaseIterable {
 struct GamesView: View {
     @EnvironmentObject private var user: UserStore
     @State private var game: GameKind?
-    @State private var scrolled = false
 
     /// Le défi du jour tourne entre les quatre jeux.
     private var daily: GameKind {
         let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
-        return GameKind.allCases[day % GameKind.allCases.count]
+        return GameKind.listed[day % GameKind.listed.count]
     }
 
     var body: some View {
@@ -62,7 +67,15 @@ struct GamesView: View {
 
                 VStack(alignment: .leading, spacing: 12) {
                     weekCard
-                    ForEach(Array(GameKind.allCases.enumerated()), id: \.element.id) { i, kind in
+                    VStack(spacing: 6) {
+                        Button("S'entraîner") { game = .training }
+                            .buttonStyle(.primary)
+                        Text("Huit questions qui mélangent les quatre jeux.")
+                            .font(.aCaption).foregroundStyle(Palette.muted)
+                    }
+                    .padding(.vertical, 4)
+                    Text("Ou choisis un jeu").font(.aHeading).foregroundStyle(Palette.ink)
+                    ForEach(Array(GameKind.listed.enumerated()), id: \.element.id) { i, kind in
                         gameRow(kind).appearUp(0.06 * Double(i + 1))
                     }
                 }
@@ -70,11 +83,9 @@ struct GamesView: View {
                 .padding(.top, -20)
                 .padding(.bottom, 24)
             }
-            .scrollProbe()
         }
         .scrollIndicators(.hidden)
         .ignoresSafeArea(edges: .top)
-        .nativeHeader("Jeux", scrolled: $scrolled)
         .fullScreenCover(item: $game) { kind in
             GameHost(kind: kind)
         }
@@ -191,6 +202,7 @@ struct GameHost: View {
                         case .chronology: ChronologyGame(onFinish: finish)
                         case .palette: PaletteGame(onFinish: finish)
                         case .trueFalse: TrueFalseGame(onFinish: finish)
+                        case .training: TrainingGame(onFinish: finish)
                         }
                     }
                     .id(round)
