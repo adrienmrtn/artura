@@ -1,8 +1,8 @@
 import SwiftUI
 
-// MARK: - Test : de combien de ces tableaux connais-tu le nom ?
+// MARK: - Test: how many of these paintings can you name?
 
-/// Carte du test d'entrée : deux tableaux que tout le monde connaît, puis cinq nettement plus difficiles.
+/// Entry test card: two paintings everyone knows, then five much harder ones.
 struct FlashCard: Identifiable {
     let id: String
     let title: String
@@ -29,7 +29,7 @@ struct FlashTestScreen: View {
     @State private var drag: CGSize = .zero
     @State private var armed = false
     @State private var known: [String] = []
-    /// Cartes déjà notées et le côté par lequel elles sont sorties.
+    /// Cards already answered and the side they left from.
     @State private var gone: [String: CGFloat] = [:]
 
     private let cards = FlashCard.all
@@ -47,11 +47,11 @@ struct FlashTestScreen: View {
             }
             .enter()
 
-            // Pile de cartes : la suivante dépasse derrière celle du dessus.
+            // Stack of cards: the next one peeks out behind the top one.
             ZStack {
                 ForEach(Array(cards.enumerated()).reversed(), id: \.element.id) { i, item in
                     if i <= index + 2 {
-                        // Une carte notée garde sa place hors écran : elle ne revient jamais au centre.
+                        // An answered card keeps its off-screen place: it never comes back to the center.
                         let depth = max(0, i - index)
                         let exit = gone[item.id]
                         let x = exit ?? (i == index ? drag.width : 0)
@@ -143,7 +143,7 @@ struct FlashTestScreen: View {
         } else {
             Haptics.rigid()
         }
-        // La carte sort du côté de la réponse pendant que la suivante monte, dans la même animation.
+        // The card leaves on the answer's side while the next one rises, in the same animation.
         let last = index >= cards.count - 1
         withAnimation(.easeOut(duration: 0.28)) {
             gone[current.id] = knows ? 520 : -520
@@ -157,7 +157,7 @@ struct FlashTestScreen: View {
     }
 }
 
-// MARK: - Résultat du test : « Bravo, Max ! »
+// MARK: - Test result: "Well done, Max!"
 
 struct FlashResultScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -190,7 +190,7 @@ struct FlashResultScreen: View {
     var body: some View {
         ZStack {
             OnbScaffold(title: headline, spoken: true, onNext: onNext) {
-                // Les sept tableaux en éventail : ceux nommés en couleur, les autres voilés.
+                // The seven paintings fanned out: the named ones in color, the others dimmed.
                 HStack(spacing: -36) {
                     ForEach(Array(cards.enumerated()), id: \.element.id) { i, item in
                         let known = user.profile.flashKnown.contains(item.id)
@@ -246,7 +246,7 @@ struct FlashResultScreen: View {
 
     private func play() {
         withAnimation(.settle.delay(0.5)) { fanned = true }
-        // Le compteur monte d'un cran à la fois, avec un tic.
+        // The counter goes up one notch at a time, with a tick.
         for i in 0...score where i > 0 {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.9 + Double(i) * 0.22) {
                 withAnimation(.easeOut(duration: 0.2)) { count = i }
@@ -260,13 +260,13 @@ struct FlashResultScreen: View {
     }
 }
 
-// MARK: - Ce que le temps d'écran représente, et ce qu'il peut devenir
+// MARK: - What screen time adds up to, and what it can become
 
 struct PhoneResultScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    /// Jours affichés : animé de 0 jusqu'au total, d'un seul mouvement.
+    /// Days shown: animated from 0 to the total, in a single motion.
     @State private var days: Double = 0
     @State private var stage = 0
     @State private var ticker: Timer?
@@ -320,7 +320,7 @@ struct PhoneResultScreen: View {
 
             Spacer(minLength: 16)
 
-            // Le retournement : la Joconde propose autre chose.
+            // The turnaround: the Mona Lisa offers something else.
             MascotBubble(mascotSize: 84) {
                 VStack(spacing: 6) {
                     Text("With me, that time can turn into knowledge.")
@@ -350,7 +350,7 @@ struct PhoneResultScreen: View {
         .onDisappear { ticker?.invalidate() }
     }
 
-    /// L'année en douze mois : la part passée sur le téléphone se remplit avec le compteur.
+    /// The year in twelve months: the share spent on the phone fills in with the counter.
     private var yearBar: some View {
         VStack(spacing: 6) {
             GeometryReader { geo in
@@ -388,7 +388,7 @@ struct PhoneResultScreen: View {
     private func play() {
         withAnimation(.settle.delay(0.35)) { stage = 1 }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
-            // Un seul mouvement continu : rapide au départ, très doux à l'arrivée.
+            // A single continuous motion: fast at the start, very gentle at the end.
             withAnimation(.timingCurve(0.16, 1, 0.3, 1, duration: countDuration)) { days = target }
             var beats = 0
             ticker?.invalidate()
@@ -409,7 +409,7 @@ struct PhoneResultScreen: View {
     }
 }
 
-// MARK: - Dans un an : près de 400 tableaux et artistes
+// MARK: - In a year: nearly 400 paintings and artists
 
 struct ProjectionScreen: View {
     let onNext: () -> Void
@@ -424,7 +424,7 @@ struct ProjectionScreen: View {
     var body: some View {
         VStack(spacing: 0) {
             ZStack {
-                // Les tableaux arrivent un à un et flottent autour du nombre.
+                // The paintings come in one by one and float around the number.
                 FloatingSpace(shown: shown)
 
                 VStack(spacing: 2) {
@@ -452,7 +452,7 @@ struct ProjectionScreen: View {
                 .padding(.horizontal, 44)
                 .padding(.vertical, 36)
                 .background(
-                    // Un halo de la couleur du fond garde le texte lisible devant les tableaux.
+                    // A halo in the background color keeps the text readable in front of the paintings.
                     RadialGradient(colors: [Palette.bg, Palette.bg.opacity(0.94), Palette.bg.opacity(0)],
                                    center: .center, startRadius: 100, endRadius: 250)
                         .padding(-60)
@@ -490,9 +490,9 @@ struct ProjectionScreen: View {
     }
 }
 
-// MARK: - Quelques minutes par jour, ça change tout (courbe)
+// MARK: - A few minutes a day changes everything (chart)
 
-/// Courbe de progression : part du bas à gauche et monte jusqu'à `lift` (part de la hauteur) à droite.
+/// Progress curve: starts at the bottom left and rises to `lift` (fraction of the height) on the right.
 struct GrowthCurve: Shape {
     let lift: CGFloat
     var closed = false
@@ -535,7 +535,7 @@ struct GrowthChart: View {
             GeometryReader { geo in
                 let rect = CGRect(origin: .zero, size: geo.size).insetBy(dx: inset, dy: inset)
                 ZStack {
-                    // Lignes de repère
+                    // Guide lines
                     ForEach(0..<4, id: \.self) { i in
                         Rectangle()
                             .fill(i == 3 ? Palette.lip : Palette.line)
@@ -648,7 +648,7 @@ struct GraphScreen: View {
     }
 }
 
-// MARK: - Série : « Max, ton apprentissage commence aujourd'hui »
+// MARK: - Streak: "Max, your learning starts today"
 
 struct StreakScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -671,7 +671,7 @@ struct StreakScreen: View {
                     .frame(minHeight: 150, maxHeight: 250)
                     .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
                     .overlay(alignment: .bottom) {
-                        // La flamme du premier jour, à cheval sur le bas de l'image.
+                        // The first-day flame, straddling the bottom of the image.
                         HStack(spacing: 8) {
                             Image(systemName: "flame.fill")
                                 .font(.system(size: 22, weight: .bold))
@@ -704,7 +704,7 @@ struct StreakScreen: View {
                 .multilineTextAlignment(.center)
                 .padding(.top, 48)
 
-                // La semaine : le premier jour se coche.
+                // The week: the first day gets checked.
                 HStack(spacing: 6) {
                     ForEach(1...7, id: \.self) { day in
                         VStack(spacing: 6) {

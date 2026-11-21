@@ -1,13 +1,13 @@
 import SwiftUI
 import StoreKit
 
-// Fin de l'onboarding : la surprise, le cadeau (essai gratuit), « aucun engagement »,
-// le déroulé de l'essai, puis l'offre de dernière minute si on veut partir.
+// End of the onboarding: the surprise, the gift (free trial), "no commitment",
+// how the trial works, then the last-minute offer when leaving.
 
 enum Legal {
-    /// Conditions d'utilisation : le contrat standard d'Apple, à remplacer si l'appli a les siennes.
+    /// Terms of use: Apple's standard agreement, to be replaced if the app has its own.
     static let terms = URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")
-    /// Politique de confidentialité : à renseigner avant la mise en ligne.
+    /// Privacy policy: to be filled in before release.
     static let privacy: URL? = nil
 }
 
@@ -20,10 +20,10 @@ private func dayCountWord(_ days: Int) -> String {
     }
 }
 
-// MARK: - Dessin isométrique (boîte cadeau)
+// MARK: - Isometric drawing (gift box)
 
-/// Projette un point (x, y, z) d'un cube unité vers l'écran, en vue isométrique.
-/// Le coin le plus proche du regard, (1, 1, 0), tombe en bas au centre du cadre.
+/// Projects a point (x, y, z) of a unit cube onto the screen, in isometric view.
+/// The corner closest to the viewer, (1, 1, 0), lands at the bottom center of the frame.
 private struct Iso {
     let rect: CGRect
     var unit: CGFloat { rect.width / 1.732 }
@@ -34,7 +34,7 @@ private struct Iso {
     }
 }
 
-/// Une face plane définie par ses coins dans l'espace du cube.
+/// A flat face defined by its corners in cube space.
 private struct IsoFace: Shape {
     let corners: [[CGFloat]]
 
@@ -50,19 +50,19 @@ private struct IsoFace: Shape {
     }
 }
 
-/// Le nœud du ruban, posé au centre du couvercle.
+/// The ribbon bow, sitting at the center of the lid.
 private struct IsoBow: Shape {
     let height: CGFloat
 
     func path(in rect: CGRect) -> Path {
         let c = Iso(rect: rect).point(0.5, 0.5, height)
         var p = Path()
-        // Deux boucles
+        // Two loops
         p.move(to: c)
         p.addCurve(to: c, control1: CGPoint(x: c.x - 58, y: c.y - 44), control2: CGPoint(x: c.x - 64, y: c.y + 4))
         p.move(to: c)
         p.addCurve(to: c, control1: CGPoint(x: c.x + 58, y: c.y - 44), control2: CGPoint(x: c.x + 64, y: c.y + 4))
-        // Deux pans
+        // Two tails
         p.move(to: c)
         p.addLine(to: CGPoint(x: c.x - 20, y: c.y + 26))
         p.addLine(to: CGPoint(x: c.x - 6, y: c.y + 20))
@@ -76,7 +76,7 @@ private struct IsoBow: Shape {
     }
 }
 
-/// Boîte cadeau en vue isométrique. Fermée, elle attend ; ouverte, le couvercle se soulève et la lumière sort.
+/// Gift box in isometric view. Closed, it waits; opened, the lid lifts and light pours out.
 struct GiftBox: View {
     let opened: Bool
 
@@ -90,19 +90,19 @@ struct GiftBox: View {
 
     var body: some View {
         ZStack {
-            // Ombre au sol
+            // Ground shadow
             IsoFace(corners: [[-0.14, -0.14, 0], [1.14, -0.14, 0], [1.14, 1.14, 0], [-0.14, 1.14, 0]])
                 .fill(Palette.blueDark.opacity(0.16))
                 .blur(radius: 10)
 
-            // Le corps de la boîte
+            // The body of the box
             face([[0, 0, h], [1, 0, h], [1, 1, h], [0, 1, h]], Self.outline)
             face([[0, 1, 0], [1, 1, 0], [1, 1, h], [0, 1, h]], Palette.blue)
             face([[1, 1, 0], [1, 0, 0], [1, 0, h], [1, 1, h]], Color(hex: 0x132744))
             face([[0.4, 1, 0], [0.6, 1, 0], [0.6, 1, h], [0.4, 1, h]], Self.ribbon)
             face([[1, 0.6, 0], [1, 0.4, 0], [1, 0.4, h], [1, 0.6, h]], Self.ribbonShade)
 
-            // La lumière qui sort de la boîte
+            // The light coming out of the box
             Ellipse()
                 .fill(RadialGradient(colors: [Color(hex: 0xFFE9B0), Palette.yellow.opacity(0.55), Palette.yellow.opacity(0)],
                                      center: .center, startRadius: 2, endRadius: 78))
@@ -110,7 +110,7 @@ struct GiftBox: View {
                 .offset(y: -48)
                 .opacity(opened ? 1 : 0)
 
-            // Le couvercle
+            // The lid
             lid
                 .offset(x: opened ? 8 : 0, y: opened ? -86 : 0)
                 .rotationEffect(.degrees(opened ? -11 : 0))
@@ -142,7 +142,7 @@ struct GiftBox: View {
     }
 }
 
-// MARK: - 1 · La surprise, puis le cadeau qui s'ouvre
+// MARK: - 1 · The surprise, then the gift opening
 
 struct GiftScreen: View {
     let offer: TrialOffer
@@ -248,9 +248,9 @@ struct GiftScreen: View {
     }
 }
 
-// MARK: - 2 · Aucun engagement
+// MARK: - 2 · No commitment
 
-/// Part de disque, pour le cadran.
+/// Pie slice, for the dial.
 private struct PieSlice: Shape {
     let start: Angle
     let end: Angle
@@ -265,7 +265,7 @@ private struct PieSlice: Shape {
     }
 }
 
-/// Montre de l'essai : une part par jour, la dernière en vert. L'aiguille s'arrête la veille de la fin.
+/// Trial watch: one slice per day, the last one in green. The hand stops the day before the end.
 struct TrialClock: View {
     let days: Int
     @State private var run = false
@@ -275,7 +275,7 @@ struct TrialClock: View {
 
     var body: some View {
         ZStack {
-            // Anneau et couronne
+            // Ring and crown
             Circle().stroke(Palette.yellow, lineWidth: 7).frame(width: 34, height: 34).offset(y: -122)
             RoundedRectangle(cornerRadius: 5)
                 .fill(Palette.yellow)
@@ -298,7 +298,7 @@ struct TrialClock: View {
             }
             Circle().stroke(Self.outline, lineWidth: 2.5).frame(width: 152, height: 152)
 
-            // L'aiguille s'arrête au début du dernier jour.
+            // The hand stops at the start of the last day.
             Capsule()
                 .fill(Self.outline)
                 .frame(width: 6, height: 62)
@@ -320,7 +320,7 @@ struct NoCommitmentScreen: View {
     let offer: TrialOffer
     let onNext: () -> Void
 
-    /// « the day before » ressort en gras au milieu de la phrase.
+    /// "the day before" stands out in bold in the middle of the sentence.
     private var reminderLine: Text {
         Text("You'll get a reminder ")
             + Text("the day before").font(.figtree(19, .bold))
@@ -374,13 +374,13 @@ struct NoCommitmentScreen: View {
     }
 }
 
-// MARK: - 3 · Comment se passe ton essai (paywall)
+// MARK: - 3 · How your trial works (paywall)
 
 struct TrialScreen: View {
     @EnvironmentObject private var pro: ProStore
     @EnvironmentObject private var user: UserStore
     let offer: TrialOffer
-    /// Le même abonnement avec un essai plus long, proposé si on veut fermer.
+    /// The same subscription with a longer trial, offered when closing.
     let extendedOffer: TrialOffer?
     let onFinish: () -> Void
 
@@ -388,16 +388,16 @@ struct TrialScreen: View {
     @State private var showExitOffer = OnboardingDebug.flag("onbExitOffer")
     @State private var exitOfferSeen = false
     @State private var reminder: Bool?
-    /// Étapes de la frise déjà apparues (0 à 3) : elles arrivent une à une, lentement.
+    /// Timeline steps already revealed (0 to 3): they come in one by one, slowly.
     @State private var revealed = 0
     @State private var grow = false
 
-    /// Délai avant que la croix de fermeture apparaisse, en secondes.
+    /// Delay before the close button appears, in seconds.
     private let closeDelay: Double = 12
 
     var body: some View {
         VStack(spacing: 0) {
-            // La croix : discrète, sans fond, et seulement après un moment.
+            // The close button: discreet, no background, and only after a while.
             HStack {
                 Button(action: close) {
                     Image(systemName: "xmark")
@@ -413,7 +413,7 @@ struct TrialScreen: View {
             }
             .padding(.leading, 8)
 
-            // 1 · Le titre et le prix du jour
+            // 1 · The title and today's price
             VStack(spacing: 10) {
                 Text("How your free trial works")
                     .font(.figtree(30, .bold))
@@ -432,7 +432,7 @@ struct TrialScreen: View {
 
             Spacer(minLength: 14)
 
-            // 2 · La frise, compacte
+            // 2 · The timeline, compact
             timeline
                 .padding(.horizontal, 24)
                 .enter(2)
@@ -444,7 +444,7 @@ struct TrialScreen: View {
 
             Spacer(minLength: 14)
 
-            // 3 · L'action et le prix
+            // 3 · The action and the price
             VStack(spacing: 0) {
                 if let error = pro.lastError {
                     Text(error)
@@ -513,7 +513,7 @@ struct TrialScreen: View {
         }
     }
 
-    /// La frise se déroule lentement : le fil descend, chaque étape apparaît quand il l'atteint.
+    /// The timeline unfolds slowly: the line goes down, each step appears when it reaches it.
     private func play() {
         withAnimation(.easeInOut(duration: 3.0).delay(0.7)) { grow = true }
         for i in 1...3 {
@@ -524,7 +524,7 @@ struct TrialScreen: View {
         }
     }
 
-    // MARK: Frise
+    // MARK: Timeline
 
     private var timeline: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -546,7 +546,7 @@ struct TrialScreen: View {
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(alignment: .topLeading) {
-            // Le fil qui relie les trois étapes.
+            // The line connecting the three steps.
             GeometryReader { geo in
                 Capsule()
                     .fill(LinearGradient(colors: [Palette.blue, Palette.yellow, Palette.orange],
@@ -581,7 +581,7 @@ struct TrialScreen: View {
         .offset(y: revealed >= step ? 0 : 8)
     }
 
-    /// Aperçu de la notification envoyée la veille de la fin.
+    /// Preview of the notification sent the day before the end.
     private var notification: some View {
         HStack(spacing: 10) {
             Image("logo")
@@ -648,7 +648,7 @@ struct TrialScreen: View {
     }
 
     private func close() {
-        // Une dernière offre avant de partir, une seule fois.
+        // One last offer before leaving, only once.
         if let extendedOffer, !exitOfferSeen, extendedOffer.trialDays > offer.trialDays {
             exitOfferSeen = true
             Haptics.press()
@@ -682,11 +682,11 @@ struct TrialScreen: View {
     }
 }
 
-// MARK: - 4 · « Attends… » : le pass d'une semaine
+// MARK: - 4 · "Wait…": the one-week pass
 
-/// Billet de musée : un rectangle arrondi avec deux encoches, là où on détache le talon.
+/// Museum ticket: a rounded rectangle with two notches, where the stub tears off.
 private struct TicketShape: Shape {
-    /// Position des encoches, en part de la hauteur.
+    /// Position of the notches, as a fraction of the height.
     var notch: CGFloat = 0.72
 
     func path(in rect: CGRect) -> Path {
@@ -701,7 +701,7 @@ private struct TicketShape: Shape {
 struct ExitOfferSheet: View {
     @ObservedObject var pro: ProStore
     let offer: TrialOffer
-    /// Durée de l'essai de base, barrée à côté de la nouvelle.
+    /// Length of the base trial, struck through next to the new one.
     let baseDays: Int
     let firstName: String?
     let onAccept: () -> Void
@@ -719,7 +719,7 @@ struct ExitOfferSheet: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            // La Joconde retient le visiteur : c'est elle qui offre le pass.
+            // The Mona Lisa holds the visitor back: she is the one offering the pass.
             MascotBubble(mascotSize: 100) {
                 VStack(spacing: 6) {
                     Text(title)
@@ -779,7 +779,7 @@ struct ExitOfferSheet: View {
         .background(Palette.bg.ignoresSafeArea())
         .onAppear {
             Haptics.soft()
-            // Les jours se remplissent un à un : d'abord l'essai, puis les jours offerts.
+            // The days fill in one by one: first the trial, then the free days.
             for i in 1...max(1, offer.trialDays) {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.8 + Double(i) * 0.14) {
                     withAnimation(.easeOut(duration: 0.25)) { filled = i }
@@ -793,7 +793,7 @@ struct ExitOfferSheet: View {
         }
     }
 
-    /// Le pass, dessiné comme un billet d'entrée de musée.
+    /// The pass, drawn like a museum admission ticket.
     private var ticket: some View {
         VStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 12) {
@@ -832,7 +832,7 @@ struct ExitOfferSheet: View {
             .padding(.top, 16)
             .padding(.bottom, 14)
 
-            // La ligne de découpe du talon
+            // The tear line of the stub
             Line()
                 .stroke(Palette.lip, style: StrokeStyle(lineWidth: 1.5, dash: [6, 5]))
                 .frame(height: 1.5)
@@ -846,7 +846,7 @@ struct ExitOfferSheet: View {
                         .font(.figtree(13)).foregroundStyle(Palette.muted)
                 }
                 Spacer(minLength: 8)
-                // Le tampon « offert »
+                // The "free" stamp
                 Text("+ \(extraDays) DAYS FREE")
                     .font(.figtree(11, .bold))
                     .tracking(0.5)
@@ -870,7 +870,7 @@ struct ExitOfferSheet: View {
     }
 }
 
-/// Trait horizontal, pour les pointillés.
+/// Horizontal line, for the dashes.
 private struct Line: Shape {
     func path(in rect: CGRect) -> Path {
         var p = Path()

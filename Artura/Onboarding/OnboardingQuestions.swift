@@ -1,6 +1,6 @@
 import SwiftUI
 
-// MARK: Ton prénom
+// MARK: Your first name
 
 struct NameScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -36,7 +36,7 @@ struct NameScreen: View {
         }
         .onAppear {
             name = user.profile.firstName ?? ""
-            // Le clavier monte une fois l'écran posé.
+            // The keyboard comes up once the screen has settled.
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { focused = true }
         }
     }
@@ -48,7 +48,7 @@ struct NameScreen: View {
     }
 }
 
-// MARK: Tu es…
+// MARK: You are…
 
 struct GenderScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -109,7 +109,7 @@ struct GenderScreen: View {
     }
 }
 
-// MARK: Qu'est-ce qui t'amène ? (plusieurs réponses)
+// MARK: What brings you here? (multiple answers)
 
 struct MotivationScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -150,12 +150,12 @@ struct MotivationScreen: View {
             goals.append(title)
         }
         user.profile.goals = goals
-        // La première motivation reste « l'objectif » rappelé dans le programme.
+        // The first motivation remains the "goal" recalled in the program.
         user.profile.goal = goals.first
     }
 }
 
-// MARK: Tes arts
+// MARK: Your arts
 
 struct ArtsScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -226,7 +226,7 @@ struct ArtsScreen: View {
     }
 }
 
-// MARK: Question à choix unique (gabarit commun)
+// MARK: Single-choice question (shared template)
 
 struct ChoiceOption {
     let title: String
@@ -254,7 +254,7 @@ struct ChoiceScreen: View {
     }
 }
 
-// MARK: Les œuvres qu'on ne sait pas nommer
+// MARK: Artworks you can't name
 
 struct RecognizeScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -272,13 +272,13 @@ struct RecognizeScreen: View {
     }
 }
 
-// MARK: Tes connaissances
+// MARK: Your knowledge
 
 struct KnowledgeScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    // Le titre de l'option est aussi le niveau enregistré (affiché ensuite sur le profil).
+    // The option title is also the stored level (shown later on the profile).
     var body: some View {
         ChoiceScreen(title: "How well do you know art history?",
                      subtitle: "So I know where to start.",
@@ -291,7 +291,7 @@ struct KnowledgeScreen: View {
     }
 }
 
-// MARK: Le musée
+// MARK: The museum
 
 struct MuseumScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -309,12 +309,12 @@ struct MuseumScreen: View {
     }
 }
 
-// MARK: Le temps passé sur ton téléphone
+// MARK: Time spent on your phone
 
 struct PhoneTimeScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
-    /// Position du curseur, en continu. La valeur retenue est arrondie à la demi-heure.
+    /// Slider position, continuous. The kept value is rounded to the half hour.
     @State private var raw: Double = 4
     @State private var glow = false
 
@@ -356,7 +356,7 @@ struct PhoneTimeScreen: View {
             raw = user.profile.phoneHours
             withAnimation(.easeInOut(duration: 5).repeatForever(autoreverses: true)) { glow = true }
         }
-        // Un cran à chaque demi-heure franchie, pas à chaque mouvement du doigt.
+        // One tick per half hour crossed, not on every finger move.
         .onChange(of: hours) { _, _ in Haptics.selection() }
     }
 
@@ -366,7 +366,7 @@ struct PhoneTimeScreen: View {
     }
 }
 
-/// "4h" ou "4h 30".
+/// "4h" or "4h 30".
 func formatHours(_ hours: Double) -> String {
     let whole = Int(hours)
     return hours == Double(whole) ? "\(whole)h" : "\(whole)h 30"

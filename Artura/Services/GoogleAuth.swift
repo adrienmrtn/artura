@@ -3,11 +3,11 @@ import CryptoKit
 import Foundation
 import SwiftUI
 
-/// Connexion Google sans bibliothèque externe : OAuth 2 avec PKCE, dans la fenêtre d'authentification du système.
-/// Comme pour Apple, l'identifiant du compte est seulement mémorisé sur l'appareil.
+/// Google sign-in without an external library: OAuth 2 with PKCE, in the system authentication window.
+/// As with Apple, the account identifier is only stored on the device.
 enum GoogleAuth {
-    /// Identifiant client OAuth de type « iOS », créé dans Google Cloud Console
-    /// (de la forme "1234-abcd.apps.googleusercontent.com"). Vide : connexion Google non configurée.
+    /// OAuth client ID of type "iOS", created in Google Cloud Console
+    /// (of the form "1234-abcd.apps.googleusercontent.com"). Empty: Google sign-in not configured.
     static let clientID = ""
 
     static var isConfigured: Bool { !clientID.isEmpty }
@@ -23,12 +23,12 @@ enum GoogleAuth {
         case invalidResponse
     }
 
-    /// Schéma de retour attendu par Google pour une appli iOS : l'identifiant client à l'envers.
+    /// Callback scheme Google expects for an iOS app: the client ID reversed.
     private static var callbackScheme: String {
         clientID.split(separator: ".").reversed().joined(separator: ".")
     }
 
-    /// Ouvre la connexion Google et retourne l'identifiant du compte.
+    /// Opens Google sign-in and returns the account identifier.
     @MainActor
     static func signIn(using session: WebAuthenticationSession) async throws -> Account {
         guard isConfigured else { throw Failure.notConfigured }
@@ -59,7 +59,7 @@ enum GoogleAuth {
             throw Failure.invalidResponse
         }
 
-        // Échange du code contre un jeton d'identité.
+        // Exchange the code for an identity token.
         guard let tokenURL = URL(string: "https://oauth2.googleapis.com/token") else { throw Failure.invalidResponse }
         var form = URLComponents()
         form.queryItems = [
@@ -84,7 +84,7 @@ enum GoogleAuth {
         return Account(userID: userID, firstName: payload["given_name"] as? String)
     }
 
-    /// Contenu d'un jeton JWT (la partie du milieu, encodée en base64 pour URL).
+    /// Payload of a JWT (the middle part, base64url-encoded).
     private static func payload(of token: String) -> [String: Any]? {
         let parts = token.split(separator: ".")
         guard parts.count == 3 else { return nil }

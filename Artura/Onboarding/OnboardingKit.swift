@@ -1,9 +1,9 @@
 import SwiftUI
 
-// Briques communes à tous les écrans de l'onboarding : entrées en cascade, personnage,
-// bulle, texte qui s'écrit, mur de tableaux, rayons, rangées de réponse.
+// Building blocks shared by all onboarding screens: staggered entrances, character,
+// speech bubble, typed text, wall of paintings, rays, answer rows.
 
-// MARK: - Entrée en cascade
+// MARK: - Staggered entrance
 
 struct EnterModifier: ViewModifier {
     let order: Double
@@ -21,20 +21,20 @@ struct EnterModifier: ViewModifier {
 }
 
 extension View {
-    /// Fait entrer l'élément à son tour : 0 pour le premier, 1 pour le suivant, etc.
+    /// Brings the element in when its turn comes: 0 for the first, 1 for the next, and so on.
     func enter(_ order: Double = 0) -> some View {
         modifier(EnterModifier(order: order))
     }
 }
 
-// MARK: - Chiffres mis en avant
+// MARK: - Featured numbers
 
-/// Chiffres affichés dans l'onboarding.
-/// À remplacer par les vrais (utilisateurs, note de la fiche App Store) avant la mise en ligne.
+/// Numbers shown in the onboarding.
+/// To be replaced with the real ones (users, App Store rating) before release.
 enum SocialProof {
     static let learners = "100,000"
     static let rating = "4.8"
-    /// Avis d'exemple : à remplacer par de vrais avis de la fiche App Store.
+    /// Sample reviews: to be replaced with real App Store reviews.
     static let reviews = [
         "Five minutes in the morning, and I finally see paintings differently.",
         "The mini-games really help me remember names and dates.",
@@ -42,9 +42,9 @@ enum SocialProof {
     ]
 }
 
-// MARK: - Le personnage : la Joconde
+// MARK: - The character: the Mona Lisa
 
-/// La Joconde de l'icône, qui guide l'onboarding. Elle flotte doucement.
+/// The Mona Lisa from the app icon, who guides the onboarding. She floats gently.
 struct Mascot: View {
     var size: CGFloat = 132
     @State private var float = false
@@ -64,7 +64,7 @@ struct Mascot: View {
     }
 }
 
-/// Bulle de dialogue : un rectangle arrondi avec une pointe vers le haut, au centre.
+/// Speech bubble: a rounded rectangle with a tail pointing up, in the center.
 struct BubbleShape: Shape {
     var radius: CGFloat = 26
     var tail: CGFloat = 12
@@ -80,13 +80,13 @@ struct BubbleShape: Shape {
     }
 }
 
-/// La Joconde au-dessus d'une bulle : ce qu'elle « dit » est le contenu.
+/// The Mona Lisa above a bubble: what she "says" is the content.
 struct MascotBubble<Content: View>: View {
     var mascotSize: CGFloat = 132
     @ViewBuilder var content: () -> Content
 
     var body: some View {
-        // Le bas du buste passe derrière la bulle.
+        // The bottom of the bust goes behind the bubble.
         VStack(spacing: -14) {
             Mascot(size: mascotSize)
             content()
@@ -104,17 +104,17 @@ struct MascotBubble<Content: View>: View {
     }
 }
 
-// MARK: - La Joconde parle : texte qui s'écrit, une réplique après l'autre
+// MARK: - The Mona Lisa speaks: typed text, one line after another
 
-/// Écran de dialogue : la Joconde dit une ou plusieurs répliques, écrites lettre par lettre.
-/// Un appui pendant l'écriture affiche la réplique entière ; l'appui suivant passe à la suite.
+/// Dialogue screen: the Mona Lisa says one or more lines, typed letter by letter.
+/// A tap while typing shows the whole line; the next tap moves on.
 struct MascotTalkScreen<Extra: View>: View {
     let lines: [String]
-    /// Libellé du bouton sur la dernière réplique.
+    /// Button label on the last line.
     var cta: String = "Continue"
     var mascotSize: CGFloat = 156
     let onNext: () -> Void
-    /// Contenu affiché sous la bulle, sur la dernière réplique.
+    /// Content shown under the bubble, on the last line.
     @ViewBuilder var extra: () -> Extra
 
     @State private var index = min(max(0, OnboardingDebug.int("onbLine")), 9)
@@ -137,7 +137,7 @@ struct MascotTalkScreen<Extra: View>: View {
             .enter()
 
             if lines.count > 1 {
-                // Où on en est dans la conversation
+                // Where we are in the conversation
                 HStack(spacing: 6) {
                     ForEach(0..<lines.count, id: \.self) { i in
                         Capsule()
@@ -170,7 +170,7 @@ struct MascotTalkScreen<Extra: View>: View {
         .task(id: index) { await write() }
     }
 
-    /// La place de la réplique entière est réservée dès le départ : la bulle ne bouge pas pendant l'écriture.
+    /// Room for the whole line is reserved from the start: the bubble doesn't move while typing.
     private var typedText: some View {
         let characters = Array(line)
         let shown = String(characters.prefix(count))
@@ -187,7 +187,7 @@ struct MascotTalkScreen<Extra: View>: View {
 
     private func advance() {
         if typing {
-            // Premier appui : on montre toute la réplique.
+            // First tap: show the whole line.
             typing = false
             count = line.count
             Haptics.tap()
@@ -216,7 +216,7 @@ struct MascotTalkScreen<Extra: View>: View {
             let character = characters[count]
             count += 1
             if count % 3 == 0 { Haptics.whisper() }
-            // Une respiration après la ponctuation, comme quand on parle.
+            // A breath after punctuation, as when speaking.
             let pause: Double
             switch character {
             case ".", ":", "!", "?": pause = 0.26
@@ -237,9 +237,9 @@ extension MascotTalkScreen where Extra == EmptyView {
     }
 }
 
-// MARK: - Nombre qui défile
+// MARK: - Counting number
 
-/// Nombre entier qui monte ou descend en continu quand sa valeur est animée.
+/// Whole number that counts up or down smoothly when its value is animated.
 struct CountingText: View, Animatable {
     var value: Double
     var suffix: String = ""
@@ -254,13 +254,13 @@ struct CountingText: View, Animatable {
     }
 }
 
-// MARK: - Tableaux qui flottent dans l'espace
+// MARK: - Paintings floating in space
 
-/// Des tableaux dispersés qui dérivent lentement, comme en apesanteur. Sert de décor derrière un contenu.
+/// Scattered paintings drifting slowly, as if weightless. Used as a backdrop behind content.
 struct FloatingSpace: View {
-    /// Nombre de tableaux déjà apparus (ils arrivent un à un).
+    /// Number of paintings already shown (they come in one by one).
     var shown: Int = FloatingSpace.count
-    /// Si vrai, une sculpture se glisse parmi les tableaux.
+    /// If true, a sculpture slips in among the paintings.
     var withSculpture: Bool = false
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -273,7 +273,7 @@ struct FloatingSpace: View {
         let depth: Double
     }
 
-    // Disposés sur les bords : le centre reste libre pour le texte.
+    // Placed around the edges: the center stays free for the text.
     private static let items: [Item] = [
         Item(image: "wall_venus", x: 0.12, y: 0.07, size: 66, depth: 1.0),
         Item(image: "art_nuit", x: 0.84, y: 0.06, size: 72, depth: 1.0),
@@ -328,22 +328,22 @@ struct FloatingSpace: View {
     }
 }
 
-// MARK: - Mur de tableaux qui défilent
+// MARK: - Scrolling wall of paintings
 
-/// Des rangées de petits tableaux carrés qui glissent en sens opposés, en ondulant légèrement.
+/// Rows of small square paintings gliding in opposite directions, swaying slightly.
 struct FloatingWall: View {
     var tile: CGFloat = 80
     var spacing: CGFloat = 12
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    // Trois rangées, sans jamais répéter une œuvre d'une rangée à l'autre.
+    // Three rows, never repeating an artwork from one row to another.
     private static let rows: [[String]] = [
         ["art_nuit", "wall_venus", "art_perle", "wall_cri", "wall_amandier", "art_baiser", "wall_menines", "wall_fuji", "art_raboteurs"],
         ["wall_laitiere", "art_vague", "wall_cafe", "art_joconde", "wall_grandejatte", "wall_hermine", "art_tournesols", "wall_babel", "wall_danse"],
         ["art_impression", "wall_galette", "wall_voyageur", "art_nympheas", "wall_adele", "wall_chambre", "wall_glaneuses", "art_moine", "wall_fifre", "wall_ronde"]
     ]
-    /// Vitesse de chaque rangée, en points par seconde (négatif : vers la droite).
+    /// Speed of each row, in points per second (negative: to the right).
     private static let speeds: [Double] = [16, -20, 13]
 
     var body: some View {
@@ -355,7 +355,7 @@ struct FloatingWall: View {
                 }
             }
         }
-        // Les bords s'estompent : les tableaux entrent et sortent en douceur.
+        // The edges fade out: the paintings come and go smoothly.
         .mask(
             LinearGradient(stops: [
                 .init(color: .clear, location: 0),
@@ -372,7 +372,7 @@ struct FloatingWall: View {
         let period = step * Double(images.count)
         var shift = (time * Self.speeds[row % Self.speeds.count]).truncatingRemainder(dividingBy: period)
         if shift < 0 { shift += period }
-        // La rangée est posée deux fois bout à bout : la boucle ne se voit pas.
+        // The row is laid out twice end to end: the loop is invisible.
         return Color.clear
             .frame(height: tile + 14)
             .overlay(alignment: .leading) {
@@ -398,9 +398,9 @@ struct FloatingWall: View {
     }
 }
 
-// MARK: - Rayons et étincelles (écrans de cadeau)
+// MARK: - Rays and sparkles (gift screens)
 
-/// Rayons qui partent du centre, comme un soleil.
+/// Rays spreading from the center, like a sun.
 struct Sunburst: Shape {
     var rays: Int = 14
 
@@ -421,7 +421,7 @@ struct Sunburst: Shape {
     }
 }
 
-/// Fond de rayons dorés qui tournent très lentement.
+/// Background of golden rays turning very slowly.
 struct RaysBackground: View {
     @State private var spin = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -443,7 +443,7 @@ struct RaysBackground: View {
     }
 }
 
-/// Étincelle à quatre branches.
+/// Four-pointed sparkle.
 struct Sparkle: Shape {
     func path(in rect: CGRect) -> Path {
         let c = CGPoint(x: rect.midX, y: rect.midY)
@@ -460,10 +460,10 @@ struct Sparkle: Shape {
     }
 }
 
-// MARK: - Rangée de réponse
+// MARK: - Answer row
 
-/// Réponse sélectionnable des questions de l'onboarding (choix unique ou multiple).
-/// Blanche au repos ; bleue, texte blanc, une fois choisie.
+/// Selectable answer for onboarding questions (single or multiple choice).
+/// White at rest; blue with white text once chosen.
 struct ChoiceRow: View {
     let title: String
     var subtitle: String? = nil
@@ -497,7 +497,7 @@ struct ChoiceRow: View {
                 }
                 .multilineTextAlignment(.leading)
                 Spacer(minLength: 8)
-                // Rond pour un choix unique, carré arrondi pour un choix multiple.
+                // Circle for a single choice, rounded square for a multiple choice.
                 ZStack {
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
                         .fill(selected ? Color.white : Color.clear)

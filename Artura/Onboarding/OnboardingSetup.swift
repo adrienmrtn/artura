@@ -1,11 +1,11 @@
 import SwiftUI
 import AuthenticationServices
 
-// MARK: Rappel (curseur et soleil)
+// MARK: Reminder (slider and sun)
 
-/// Petit paysage où le soleil suit l'heure choisie.
+/// Small landscape where the sun follows the chosen time.
 struct SunScene: View {
-    /// Minutes depuis minuit (360 = 6 h, 1380 = 23 h).
+    /// Minutes since midnight (360 = 6 AM, 1380 = 11 PM).
     let minutes: Double
 
     private var isNight: Bool { minutes >= 1230 }
@@ -26,7 +26,7 @@ struct SunScene: View {
             let sunY = isNight ? h + 60 : h * 0.72 - sin(.pi * progress) * h * 0.56
             ZStack {
                 sky
-                // Étoiles et lune
+                // Stars and moon
                 Group {
                     Circle().fill(.white).frame(width: 6, height: 6).position(x: w * 0.12, y: h * 0.16)
                     Circle().fill(.white).frame(width: 4, height: 4).position(x: w * 0.36, y: h * 0.3)
@@ -38,17 +38,17 @@ struct SunScene: View {
                         .position(x: w * 0.76, y: h * 0.22)
                 }
                 .opacity(isNight ? 1 : 0)
-                // Nuage de jour
+                // Daytime cloud
                 Capsule().fill(.white).frame(width: 86, height: 28)
                     .position(x: w * 0.22, y: h * 0.3)
                     .opacity(minutes >= 450 && minutes < 1050 ? 1 : 0)
-                // Soleil
+                // Sun
                 Circle()
                     .fill(Color(hex: 0xFFC533))
                     .frame(width: 64, height: 64)
                     .background(Circle().fill(Color(hex: 0xFFC533, opacity: 0.28)).frame(width: 84, height: 84))
                     .position(x: sunX, y: sunY)
-                // Collines
+                // Hills
                 HillShape(seed: 0).fill(isNight ? Color(hex: 0x14463A) : Color(hex: 0x3FA36B))
                 HillShape(seed: 1).fill(isNight ? Color(hex: 0x0E3029) : Color(hex: 0x2E8555))
             }
@@ -94,7 +94,7 @@ func momentLabel(_ minutes: Int) -> String {
 struct ReminderScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
-    /// Position du curseur, en continu. L'heure retenue est arrondie au quart d'heure.
+    /// Slider position, continuous. The kept time is rounded to the quarter hour.
     @State private var raw: Double = 510
 
     private var minutes: Int { Int((raw / 15).rounded()) * 15 }
@@ -133,7 +133,7 @@ struct ReminderScreen: View {
             .enter(4)
         }
         .onAppear { raw = Double(user.profile.reminderMinutes) }
-        // Un cran à chaque quart d'heure franchi, pas à chaque mouvement du doigt.
+        // One tick per quarter hour crossed, not on every finger move.
         .onChange(of: minutes) { _, _ in Haptics.selection() }
     }
 
@@ -160,9 +160,9 @@ struct ReminderScreen: View {
     }
 }
 
-// MARK: Le widget : l'œuvre du jour sans ouvrir l'appli
+// MARK: The widget: the artwork of the day without opening the app
 
-/// Silhouette de téléphone autour d'un écran dessiné.
+/// Phone outline around a drawn screen.
 private struct PhoneMockup<Screen: View>: View {
     @ViewBuilder var screen: () -> Screen
 
@@ -183,7 +183,7 @@ struct WidgetScreen: View {
     @EnvironmentObject private var content: ContentStore
     let onNext: () -> Void
 
-    /// Faux : écran verrouillé. Vrai : écran d'accueil.
+    /// False: Lock Screen. True: Home Screen.
     @State private var home = OnboardingDebug.flag("onbWidgetHome")
     @State private var popped = false
 
@@ -261,7 +261,7 @@ struct WidgetScreen: View {
                 Text("9:41")
                     .font(.system(size: 62, weight: .semibold, design: .rounded))
                     .foregroundStyle(.white)
-                // Le widget de l'écran verrouillé
+                // The Lock Screen widget
                 HStack(spacing: 10) {
                     if let artwork {
                         ArtImage(name: artwork.image)
@@ -308,7 +308,7 @@ struct WidgetScreen: View {
         ZStack {
             wallpaper
             VStack(spacing: 14) {
-                // Le widget de l'écran d'accueil : l'œuvre en grand
+                // The Home Screen widget: the artwork, large
                 ZStack(alignment: .bottomLeading) {
                     if let artwork {
                         ArtImage(name: artwork.image)
@@ -331,7 +331,7 @@ struct WidgetScreen: View {
                 .scaleEffect(popped ? 1 : 0.86)
                 .opacity(popped ? 1 : 0)
 
-                // Des applis factices, pour situer le widget
+                // Dummy apps, to situate the widget
                 ForEach(0..<3, id: \.self) { _ in
                     HStack(spacing: 0) {
                         ForEach(0..<4, id: \.self) { column in
@@ -350,17 +350,17 @@ struct WidgetScreen: View {
     }
 }
 
-// MARK: Chargement : on prépare ton programme
+// MARK: Loading: building your program
 
 struct LoadingScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    /// Avancement de 0 à 100, animé en continu.
+    /// Progress from 0 to 100, animated continuously.
     @State private var progress: Double = 0
-    /// Nombre d'étapes terminées.
+    /// Number of completed steps.
     @State private var stage = 0
-    /// Tableaux déjà apparus dans le décor.
+    /// Paintings already shown in the backdrop.
     @State private var shown = 0
 
     private let rows = [
@@ -382,7 +382,7 @@ struct LoadingScreen: View {
 
     var body: some View {
         ZStack {
-            // Tableaux et sculpture flottent derrière, et arrivent au fil du chargement.
+            // Paintings and a sculpture float behind, coming in as the loading progresses.
             FloatingSpace(shown: shown, withSculpture: true)
                 .opacity(0.5)
                 .ignoresSafeArea()
@@ -390,7 +390,7 @@ struct LoadingScreen: View {
             VStack(spacing: 0) {
                 Spacer(minLength: 12)
 
-                // La Joconde au centre de l'anneau de progression
+                // The Mona Lisa at the center of the progress ring
                 ZStack {
                     Circle().fill(Palette.sand)
                     Image("joconde")
@@ -499,7 +499,7 @@ struct LoadingScreen: View {
     }
 }
 
-// MARK: Ton programme
+// MARK: Your program
 
 struct AvatarPicker: View {
     @Binding var selection: Int
@@ -535,7 +535,7 @@ struct PlanScreen: View {
     let onNext: () -> Void
     @State private var picking = false
 
-    /// Le premier tableau du programme : celui de la visite guidée.
+    /// The first painting of the program: the one from the guided tour.
     private var firstArtwork: Artwork? {
         content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
     }
@@ -597,14 +597,14 @@ struct PlanScreen: View {
         Rectangle().fill(Palette.line).frame(height: 1)
     }
 
-    /// La première motivation choisie, avec le nombre des autres.
+    /// The first chosen motivation, with the count of the others.
     private var goalLabel: String {
         let goals = user.profile.goals ?? []
         guard let first = goals.first ?? user.profile.goal else { return "Not set" }
         return goals.count > 1 ? "\(first) (+\(goals.count - 1))" : first
     }
 
-    /// Temps de regard cumulé sur 30 jours, d'après le rythme choisi.
+    /// Total viewing time over 30 days, based on the chosen pace.
     private var hoursIn30Days: String {
         let minutes = user.profile.minutes * 30
         return minutes % 60 == 0 ? "\(minutes / 60)h" : "\(minutes / 60)h \(minutes % 60)"
@@ -637,7 +637,7 @@ struct PlanScreen: View {
         .frame(minHeight: 52)
     }
 
-    /// L'avatar du profil, modifiable sur place.
+    /// The profile avatar, editable in place.
     private var avatarRow: some View {
         VStack(spacing: 0) {
             HStack(spacing: 12) {
@@ -667,7 +667,7 @@ struct PlanScreen: View {
     }
 }
 
-// MARK: Preuve sociale : apprenants et avis
+// MARK: Social proof: learners and reviews
 
 struct SocialProofScreen: View {
     let onNext: () -> Void
@@ -676,7 +676,7 @@ struct SocialProofScreen: View {
     var body: some View {
         OnbScaffold(title: "You're in good company",
                     cta: "Join them", onNext: onNext) {
-            // Le chiffre, entre deux lauriers
+            // The number, between two laurels
             VStack(spacing: 10) {
                 HStack(spacing: 12) {
                     Image(systemName: "laurel.leading")
@@ -761,7 +761,7 @@ struct SocialProofScreen: View {
     }
 }
 
-// MARK: Compte
+// MARK: Account
 
 struct AccountScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -772,7 +772,7 @@ struct AccountScreen: View {
     @State private var googleBusy = false
     @State private var message: String?
 
-    /// Le bouton Google n'apparaît en version publiée que si la connexion est configurée.
+    /// The Google button only appears in a release build if sign-in is configured.
     private var showsGoogle: Bool { GoogleAuth.isConfigured || OnboardingDebug.isDebug }
 
     var body: some View {
@@ -808,7 +808,7 @@ struct AccountScreen: View {
             }
             .enter()
 
-            // Ce que le compte conserve
+            // What the account keeps
             HStack(spacing: 8) {
                 keep("flame.fill", "Your streak")
                 keep("heart.fill", "Your favorites")

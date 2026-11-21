@@ -1,6 +1,6 @@
 import SwiftUI
 
-// MARK: Bienvenue
+// MARK: Welcome
 
 struct WelcomeScreen: View {
     let onNext: () -> Void
@@ -27,7 +27,7 @@ struct WelcomeScreen: View {
     }
 }
 
-// MARK: Une œuvre par jour (mur de tableaux)
+// MARK: One masterpiece a day (wall of paintings)
 
 struct DailyScreen: View {
     let onNext: () -> Void
@@ -104,7 +104,7 @@ struct DailyScreen: View {
     }
 }
 
-// MARK: Un musée dans ta poche
+// MARK: A museum in your pocket
 
 struct PocketMuseumScreen: View {
     let onNext: () -> Void
@@ -117,7 +117,7 @@ struct PocketMuseumScreen: View {
     }
 }
 
-// MARK: Au musée aussi
+// MARK: At the museum too
 
 struct PhotoScreen: View {
     let onNext: () -> Void
@@ -131,7 +131,7 @@ struct PhotoScreen: View {
     }
 }
 
-// MARK: Citations : pourquoi Artura
+// MARK: Quotes: why Artura
 
 struct Quote: Identifiable {
     let image: String
@@ -140,7 +140,7 @@ struct Quote: Identifiable {
     let role: String
     var id: String { author }
 
-    // Citations à faire vérifier (source et traduction) avant la mise en ligne.
+    // Quotes to be checked (source and translation) before release.
     static let all: [Quote] = [
         Quote(image: "portrait_klee", text: "Art does not reproduce the visible; it makes visible.", author: "Paul Klee", role: "Painter"),
         Quote(image: "portrait_nietzsche", text: "We have art in order not to die of the truth.", author: "Friedrich Nietzsche", role: "Philosopher"),
@@ -187,7 +187,7 @@ struct QuotesScreen: View {
             .padding(.top, 4)
         }
         .onAppear {
-            // Les citations arrivent une à une, sans rien bloquer.
+            // The quotes come in one by one, without blocking anything.
             for i in 1...quotes.count {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.45 + Double(i - 1) * 0.6) {
                     withAnimation(.settle) { shown = max(shown, i) }
@@ -198,9 +198,9 @@ struct QuotesScreen: View {
     }
 }
 
-// MARK: La Joconde prend la parole
+// MARK: The Mona Lisa speaks
 
-/// « Salut, moi c'est Artura » : le personnage se présente, juste après l'accueil.
+/// "Hi, I'm Artura": the character introduces herself, right after the welcome screen.
 struct HelloScreen: View {
     let onNext: () -> Void
 
@@ -240,10 +240,10 @@ struct TestIntroScreen: View {
     }
 }
 
-// MARK: Avant la visite guidée : ce qu'Artura apporte
+// MARK: Before the guided tour: what Artura brings
 
 struct UnderstandScreen: View {
-    /// Le tableau de la visite guidée qui suit.
+    /// The painting of the guided tour that follows.
     let artwork: Artwork?
     let onNext: () -> Void
 
@@ -273,7 +273,7 @@ struct UnderstandScreen: View {
     }
 }
 
-// MARK: Après la visite guidée
+// MARK: After the guided tour
 
 struct AfterLessonScreen: View {
     let onNext: () -> Void
