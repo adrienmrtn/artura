@@ -115,7 +115,8 @@ struct ArcTopShape: Shape {
 // MARK: - Animations
 
 extension Animation {
-    static let snappy = Animation.spring(response: 0.35, dampingFraction: 0.8)
-    static let gentle = Animation.spring(response: 0.5, dampingFraction: 0.88)
-    static let bouncy = Animation.spring(response: 0.45, dampingFraction: 0.62)
+    // Ressorts volontairement amortis : pas de rebond visible.
+    static let snappy = Animation.spring(response: 0.3, dampingFraction: 0.95)
+    static let gentle = Animation.spring(response: 0.45, dampingFraction: 1.0)
+    static let bouncy = Animation.spring(response: 0.38, dampingFraction: 0.9)
 }

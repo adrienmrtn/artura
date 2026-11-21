@@ -125,12 +125,14 @@ struct QuizView: View {
     private func pick(_ i: Int) {
         guard selected == nil else { return }
         withAnimation(.snappy) { selected = i }
+        // Le panneau de correction arrive : second retour, plus sourd.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { Haptics.rigid() }
         if i == question.answer {
             score += 1
             Haptics.success()
         } else {
             Haptics.error()
-            withAnimation(.default.repeatCount(3, autoreverses: true).speed(4)) { shake = 8 }
+            withAnimation(.default.repeatCount(3, autoreverses: true).speed(4)) { shake = 5 }
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
                 withAnimation(.snappy) { shake = 0 }
             }
@@ -138,6 +140,7 @@ struct QuizView: View {
     }
 
     private func advance() {
+        Haptics.soft()
         if isLast {
             onFinish(score)
         } else {

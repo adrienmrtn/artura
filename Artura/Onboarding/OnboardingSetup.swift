@@ -237,7 +237,7 @@ struct LoadingScreen: View {
                 return
             }
             withAnimation(.gentle) { progress += 2 }
-            if progress % 25 == 0 { Haptics.soft() }
+            if progress % 25 == 0 { Haptics.press() } else if progress % 6 == 0 { Haptics.rigid() }
             if progress >= 100 { Haptics.success() }
         }
     }
@@ -263,7 +263,7 @@ struct AvatarPicker: View {
                         .clipShape(Circle())
                         .padding(3)
                         .overlay(Circle().stroke(selection == i ? Palette.blue : .clear, lineWidth: 3))
-                        .scaleEffect(selection == i ? 1.08 : 1)
+                        .scaleEffect(selection == i ? 1.04 : 1)
                 }
                 .buttonStyle(.pressable)
                 .accessibilityLabel(avatarLabels[i])

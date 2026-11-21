@@ -94,7 +94,7 @@ struct GenderScreen: View {
             .overlay(alignment: .topTrailing) {
                 if selected { CheckBadge().padding(8).transition(.scale) }
             }
-            .scaleEffect(selected ? 1.02 : 1)
+            .scaleEffect(selected ? 1.01 : 1)
         }
         .buttonStyle(.pressable)
         .animation(.bouncy, value: selected)
@@ -271,7 +271,7 @@ struct ReviewsScreen: View {
                             Image(systemName: "star.fill")
                                 .font(.system(size: 20))
                                 .foregroundStyle(Palette.yellow)
-                                .scaleEffect(i < stars ? 1 : 0.2)
+                                .scaleEffect(i < stars ? 1 : 0.7)
                                 .opacity(i < stars ? 1 : 0)
                         }
                     }

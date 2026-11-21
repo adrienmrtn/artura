@@ -29,10 +29,10 @@ struct MainTabView: View {
         VStack(spacing: 0) {
             ZStack {
                 switch tab {
-                case .today: TodayView()
-                case .explore: ExploreView()
-                case .games: GamesView()
-                case .profile: ProfileView()
+                case .today: NavigationStack { TodayView() }
+                case .explore: NavigationStack { ExploreView() }
+                case .games: NavigationStack { GamesView() }
+                case .profile: NavigationStack { ProfileView() }
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -49,7 +49,7 @@ struct MainTabView: View {
                         VStack(spacing: 4) {
                             Image(systemName: item.icon)
                                 .font(.system(size: 20))
-                                .scaleEffect(tab == item ? 1.12 : 1)
+                                .scaleEffect(tab == item ? 1.06 : 1)
                             Text(item.title).font(.figtree(11, .medium))
                         }
                         .foregroundStyle(tab == item ? Palette.ink : Color(hex: 0x6B6661))
@@ -84,6 +84,7 @@ struct CourseFlow: View {
             switch phase {
             case 0:
                 LessonView(artwork: artwork, onBack: { dismiss() }) {
+                    Haptics.soft()
                     withAnimation(.gentle) { phase = 1 }
                 }
                 .transition(.move(edge: .leading).combined(with: .opacity))
@@ -126,8 +127,8 @@ struct ResultView: View {
                     .foregroundStyle(celebrate ? Palette.yellow : .white)
                     .frame(width: 132, height: 132)
                     .background(Circle().fill(celebrate ? Palette.blueSoft : Palette.green))
-                    .scaleEffect(pop ? 1 : 0.3)
-                    .rotationEffect(.degrees(pop ? 0 : -30))
+                    .scaleEffect(pop ? 1 : 0.8)
+                    .opacity(pop ? 1 : 0)
                 Text(title).font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
                 Text(detail).font(.aBody).foregroundStyle(Palette.muted).appearUp(0.3)
                 Spacer()

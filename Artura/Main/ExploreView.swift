@@ -12,6 +12,7 @@ struct ExploreView: View {
     }
 
     @State private var filter: Filter = .movements
+    @State private var scrolled = false
     @State private var query = ""
     @State private var course: Artwork?
     @State private var movement: Movement?
@@ -74,10 +75,12 @@ struct ExploreView: View {
                 .padding(.top, -30)
                 .padding(.bottom, 24)
             }
+            .scrollProbe()
         }
         .scrollIndicators(.hidden)
         .scrollDismissesKeyboard(.immediately)
         .ignoresSafeArea(edges: .top)
+        .nativeHeader("Explorer", scrolled: $scrolled)
         .fullScreenCover(item: $course) { CourseFlow(artwork: $0) }
         .sheet(item: $movement) { item in
             MovementDetailView(movement: item)
@@ -208,8 +211,10 @@ struct MovementDetailView: View {
     @EnvironmentObject private var content: ContentStore
     let movement: Movement
     @State private var course: Artwork?
+    @State private var scrolled = false
 
     var body: some View {
+        NavigationStack {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 if let cover = content.artwork(movement.cover) {
@@ -232,8 +237,11 @@ struct MovementDetailView: View {
                 }
             }
             .padding(24)
+            .scrollProbe()
         }
         .background(Color.white)
+        .nativeHeader(movement.name, scrolled: $scrolled, threshold: 240)
+        }
         .fullScreenCover(item: $course) { CourseFlow(artwork: $0) }
     }
 }

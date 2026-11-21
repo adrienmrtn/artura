@@ -5,6 +5,7 @@ struct ProfileView: View {
     @EnvironmentObject private var content: ContentStore
     @EnvironmentObject private var pro: ProStore
     @State private var course: Artwork?
+    @State private var scrolled = false
     @State private var showPaywall = false
     @State private var confirmReset = false
 
@@ -88,9 +89,11 @@ struct ProfileView: View {
                 .padding(.top, -30)
                 .padding(.bottom, 24)
             }
+            .scrollProbe()
         }
         .scrollIndicators(.hidden)
         .ignoresSafeArea(edges: .top)
+        .nativeHeader("Profil", scrolled: $scrolled)
         .animation(.bouncy, value: user.profile.avatar)
         .fullScreenCover(item: $course) { CourseFlow(artwork: $0) }
         .fullScreenCover(isPresented: $showPaywall) {
