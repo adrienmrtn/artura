@@ -3,8 +3,10 @@ import SwiftUI
 struct TodayView: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var content: ContentStore
+    var onExplore: () -> Void = {}
     @State private var showFavorites = false
     @State private var course: Artwork?
+    @State private var training = false
 
     private var dateLabel: String {
         let f = DateFormatter()
@@ -40,6 +42,8 @@ struct TodayView: View {
                     segmented
                     if showFavorites {
                         favorites.transition(.opacity.combined(with: .offset(y: 12)))
+                    } else if let art = content.artworkOfTheDay, user.finishedToday(art.id) {
+                        doneCard(art).transition(.opacity.combined(with: .offset(y: 12)))
                     } else if let art = content.artworkOfTheDay {
                         dailyCard(art).transition(.opacity.combined(with: .offset(y: 12)))
                     }
@@ -54,6 +58,46 @@ struct TodayView: View {
         .fullScreenCover(item: $course) { art in
             CourseFlow(artwork: art)
         }
+        .fullScreenCover(isPresented: $training) {
+            GameHost(kind: .training)
+        }
+    }
+
+    /// Œuvre du jour terminée : bravo, et de quoi continuer.
+    private func doneCard(_ art: Artwork) -> some View {
+        VStack(spacing: 0) {
+            ZStack(alignment: .topLeading) {
+                ArtImage(name: "ill_bravo").frame(height: 230)
+                TagPill(text: "Œuvre du jour terminée", fill: .white, foreground: Palette.blueText).padding(10)
+            }
+            VStack(spacing: 12) {
+                VStack(spacing: 6) {
+                    Text("Bravo, c'est fait pour aujourd'hui")
+                        .font(.figtree(24, .semibold)).foregroundStyle(Palette.ink)
+                    Text("Reviens demain pour une nouvelle œuvre. En attendant, entraîne-toi ou explore un autre courant.")
+                        .font(.aSmall).foregroundStyle(Palette.muted)
+                }
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+
+                TrainingButton {
+                    Haptics.press()
+                    training = true
+                }
+                Button("Explorer les courants") {
+                    Haptics.tap()
+                    onExplore()
+                }
+                .buttonStyle(.secondary)
+                TextLinkButton(title: "Revoir « \(art.title) »") { course = art }
+            }
+            .padding(.horizontal, 16)
+            .padding(.top, 16)
+            .padding(.bottom, 8)
+        }
+        .background(Palette.card)
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .appearUp(0.1)
     }
 
     private var segmented: some View {

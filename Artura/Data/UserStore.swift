@@ -24,6 +24,11 @@ final class UserStore: ObservableObject {
         var gamesWon = 0
         var appleUserId: String?
         var firstName: String?
+        /// Jour (yyyy-MM-dd) où chaque cours a été terminé pour la dernière fois.
+        var lessonDays: [String: String]?
+        /// Entraînement du jour : le jour concerné et le nombre de questions déjà répondues.
+        var trainingDay: String?
+        var trainingCount: Int?
     }
 
     @Published var profile: Profile {
@@ -122,7 +127,33 @@ final class UserStore: ObservableObject {
     func completeLesson(_ id: String) {
         markOpened(id)
         if !profile.completedLessons.contains(id) { profile.completedLessons.append(id) }
+        var days = profile.lessonDays ?? [:]
+        days[id] = Self.dayKey(Date())
+        profile.lessonDays = days
         markPlayedToday()
+    }
+
+    /// Vrai si ce cours a été terminé aujourd'hui.
+    func finishedToday(_ id: String) -> Bool {
+        profile.lessonDays?[id] == Self.dayKey(Date())
+    }
+
+    // MARK: Entraînement du jour
+
+    static let trainingDailyGoal = 30
+
+    var trainingDoneToday: Int {
+        profile.trainingDay == Self.dayKey(Date()) ? (profile.trainingCount ?? 0) : 0
+    }
+
+    var trainingRemaining: Int { max(0, Self.trainingDailyGoal - trainingDoneToday) }
+
+    var trainingFinished: Bool { trainingRemaining == 0 }
+
+    func recordTrainingAnswer() {
+        let count = trainingDoneToday + 1
+        profile.trainingDay = Self.dayKey(Date())
+        profile.trainingCount = count
     }
 
     func toggleFavorite(_ id: String) {

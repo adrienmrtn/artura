@@ -29,7 +29,7 @@ struct MainTabView: View {
         VStack(spacing: 0) {
             ZStack {
                 switch tab {
-                case .today: TodayView()
+                case .today: TodayView(onExplore: { withAnimation(.snappy) { tab = .explore } })
                 case .explore: ExploreView()
                 case .games: GamesView()
                 case .profile: ProfileView()
