@@ -310,7 +310,7 @@ struct PlanScreen: View {
                         .foregroundStyle(Palette.blue)
                         .padding(.horizontal, 16)
                         .frame(height: 44)
-                        .background(Capsule().fill(Palette.sand))
+                        .background(Capsule().fill(.white))
                         .buttonStyle(.pressable)
                     }
                     .padding(.horizontal, 12)

@@ -192,7 +192,7 @@ struct ArtsScreen: View {
                                             .foregroundStyle(Palette.ink)
                                             .padding(.horizontal, 8)
                                             .padding(.vertical, 3)
-                                            .background(Capsule().fill(Palette.card))
+                                            .background(Capsule().fill(.white))
                                             .padding(8)
                                     }
                                 }

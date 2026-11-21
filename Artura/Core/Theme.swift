@@ -24,12 +24,12 @@ extension Color {
 
 enum Palette {
     /// Fond des écrans : un blanc cassé légèrement beige.
-    static let bg = Color(hex: 0xFAF4EA)
+    static let bg = Color(hex: 0xFBF6EE)
     static let ink = Color(hex: 0x2D2C2B)
     static let muted = Color(hex: 0x5C5753)
-    /// Cartes et rangées posées sur le fond.
-    static let card = Color(hex: 0xFFFDFA)
-    static let line = Color(hex: 0xEDE4D8)
+    /// Cartes et rangées posées sur le fond, un ton plus soutenu que lui.
+    static let card = Color(hex: 0xF4ECE1)
+    static let line = Color(hex: 0xEBE1D4)
     static let lip = Color(hex: 0xE0D4C5)
     /// Bleu foncé de l'icône : boutons, sélection, liens.
     static let blue = Color(hex: 0x1C365A)

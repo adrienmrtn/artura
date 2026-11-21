@@ -91,7 +91,7 @@ struct MascotBubble<Content: View>: View {
                 .frame(maxWidth: .infinity)
                 .background(
                     BubbleShape()
-                        .fill(Palette.card)
+                        .fill(.white)
                         .shadow(color: Palette.blueDark.opacity(0.10), radius: 18, y: 8)
                 )
         }
@@ -206,7 +206,7 @@ struct FloatingWall: View {
                             .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
                             .overlay(
                                 RoundedRectangle(cornerRadius: 18, style: .continuous)
-                                    .stroke(Palette.card, lineWidth: 3)
+                                    .stroke(.white, lineWidth: 3)
                             )
                             .rotationEffect(.degrees(sin(time * 0.55 + wave) * 2.4))
                             .offset(y: CGFloat(sin(time * 0.8 + wave) * 5))
@@ -300,7 +300,7 @@ struct ChoiceRow: View {
                 if let symbol {
                     Image(systemName: symbol)
                         .font(.system(size: 18, weight: .semibold))
-                        .foregroundStyle(selected ? Palette.card : Palette.blue)
+                        .foregroundStyle(selected ? .white : Palette.blue)
                         .frame(width: 40, height: 40)
                         .background(Circle().fill(selected ? Palette.blue : Palette.sand))
                 }
@@ -320,7 +320,7 @@ struct ChoiceRow: View {
                         .stroke(selected ? Palette.blue : Palette.lip, lineWidth: 2)
                     Image(systemName: "checkmark")
                         .font(.system(size: 12, weight: .bold))
-                        .foregroundStyle(Palette.card)
+                        .foregroundStyle(.white)
                         .scaleEffect(selected ? 1 : 0.4)
                         .opacity(selected ? 1 : 0)
                 }

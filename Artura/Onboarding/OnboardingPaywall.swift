@@ -285,7 +285,7 @@ struct TrialClock: View {
 
             Circle().fill(Palette.yellow).overlay(Circle().stroke(Self.outline, lineWidth: 2.5))
                 .frame(width: 188, height: 188)
-            Circle().fill(Palette.card).frame(width: 152, height: 152)
+            Circle().fill(.white).frame(width: 152, height: 152)
             PieSlice(start: .degrees(270 - slice), end: .degrees(270))
                 .fill(Palette.green)
                 .frame(width: 152, height: 152)
@@ -476,7 +476,7 @@ struct TrialScreen: View {
                     .font(.system(size: 13, weight: .bold))
                     .foregroundStyle(Palette.muted)
                     .frame(width: 40, height: 40)
-                    .background(Circle().fill(Palette.card))
+                    .background(Circle().fill(.white))
                     .overlay(Circle().stroke(Palette.line, lineWidth: 1))
             }
             .buttonStyle(.pressable)
@@ -524,7 +524,7 @@ struct TrialScreen: View {
                 notification
                     .padding(.leading, 62)
             }
-            timelineRow(icon: "seal.fill", fill: Palette.card, tint: Palette.orange,
+            timelineRow(icon: "seal.fill", fill: .white, tint: Palette.orange,
                         title: "Jour \(offer.trialDays) · Artura Pro",
                         text: "L'essai devient Artura Pro à \(offer.yearlyPrice) par an. Annule avant, en deux gestes, si tu veux.")
         }
@@ -670,7 +670,7 @@ private struct OfferEnvelope: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 12)
-                .fill(Palette.card)
+                .fill(.white)
                 .shadow(color: Palette.blueDark.opacity(0.14), radius: 14, y: 8)
             // Les plis du rabat
             GeometryReader { geo in
@@ -691,7 +691,7 @@ private struct OfferEnvelope: View {
             // Le cachet de cire
             Text("A")
                 .font(.figtree(24, .bold))
-                .foregroundStyle(Palette.card)
+                .foregroundStyle(.white)
                 .frame(width: 52, height: 52)
                 .background(Circle().fill(Palette.orange))
                 .overlay(Circle().stroke(Palette.blueDark, lineWidth: 1.5))

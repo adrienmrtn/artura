@@ -84,7 +84,7 @@ struct FlashTestScreen: View {
     private func card(_ item: FlashCard, top: Bool) -> some View {
         ArtImage(name: item.image)
             .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.card, lineWidth: 5))
+            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(.white, lineWidth: 5))
             .shadow(color: Palette.blueDark.opacity(0.16), radius: 12, y: 6)
             .overlay(alignment: .bottomLeading) {
                 if item.hard { TagPill(text: "Niveau expert").padding(16) }
@@ -200,7 +200,7 @@ struct FlashResultScreen: View {
                             .opacity(known ? 1 : 0.55)
                             .frame(width: 78, height: 108)
                             .clipShape(RoundedRectangle(cornerRadius: 12))
-                            .overlay(RoundedRectangle(cornerRadius: 12).stroke(Palette.card, lineWidth: 3))
+                            .overlay(RoundedRectangle(cornerRadius: 12).stroke(.white, lineWidth: 3))
                             .overlay(alignment: .bottom) {
                                 Image(systemName: known ? "checkmark" : "questionmark")
                                     .font(.system(size: 11, weight: .bold))
@@ -575,7 +575,7 @@ struct GrowthChart: View {
 
     private func dot(_ color: Color) -> some View {
         Circle()
-            .fill(Palette.card)
+            .fill(.white)
             .frame(width: 16, height: 16)
             .overlay(Circle().stroke(color, lineWidth: 4))
     }
@@ -661,7 +661,7 @@ struct StreakScreen: View {
                         }
                         .padding(.horizontal, 20)
                         .frame(height: 52)
-                        .background(Capsule().fill(Palette.card).shadow(color: Palette.blueDark.opacity(0.14), radius: 12, y: 6))
+                        .background(Capsule().fill(.white).shadow(color: Palette.blueDark.opacity(0.14), radius: 12, y: 6))
                         .scaleEffect(lit ? 1 : 0.6)
                         .opacity(lit ? 1 : 0)
                         .offset(y: 26)
