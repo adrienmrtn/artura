@@ -9,6 +9,8 @@ struct LessonView: View {
     let onFinish: () -> Void
 
     @State private var revealed = 0
+    /// Bloc interactif ouvert en plein écran sur le tableau.
+    @State private var studio: Int?
 
     private var total: Int { artwork.lesson.count }
     private var isDone: Bool { revealed >= total }
@@ -47,7 +49,13 @@ struct LessonView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 16))
 
                         ForEach(Array(artwork.lesson.prefix(revealed).enumerated()), id: \.offset) { index, block in
-                            blockView(block)
+                            Group {
+                                if block.isInteractive {
+                                    interactiveCard(block, index: index)
+                                } else {
+                                    blockView(block)
+                                }
+                            }
                                 .id(index)
                                 .transition(.opacity)
                         }
@@ -73,7 +81,12 @@ struct LessonView: View {
                     onFinish()
                 } else {
                     Haptics.soft()
+                    let index = revealed
                     withAnimation(.easeOut(duration: 0.15)) { revealed += 1 }
+                    // Un bloc interactif s'ouvre tout de suite sur le tableau.
+                    if artwork.lesson.indices.contains(index), artwork.lesson[index].isInteractive {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { open(index) }
+                    }
                 }
             }
             .buttonStyle(.primary)
@@ -82,6 +95,51 @@ struct LessonView: View {
         }
         .padding(.top, 8)
         .background(Color.white)
+        .overlay {
+            if let studio, artwork.lesson.indices.contains(studio) {
+                PaintingStudio(artwork: artwork, block: artwork.lesson[studio]) {
+                    withAnimation(.easeInOut(duration: 0.3)) { self.studio = nil }
+                }
+                .id(studio)
+                .transition(.opacity)
+            }
+        }
+    }
+
+    private func open(_ index: Int) {
+        Haptics.press()
+        withAnimation(.easeInOut(duration: 0.3)) { studio = index }
+    }
+
+    /// Dans le fil du cours, un bloc interactif laisse une carte qu'on peut rouvrir.
+    private func interactiveCard(_ block: LessonBlock, index: Int) -> some View {
+        Button {
+            open(index)
+        } label: {
+            HStack(spacing: 14) {
+                ArtImage(name: artwork.image, zoom: 1.6, anchor: artwork.focusPoint)
+                    .frame(width: 72, height: 72)
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .overlay(
+                        Image(systemName: block.interactiveIcon)
+                            .font(.system(size: 16, weight: .semibold))
+                            .foregroundStyle(.white)
+                            .frame(width: 34, height: 34)
+                            .background(Circle().fill(Palette.blue))
+                    )
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(block.interactiveTitle).font(.aCardTitle).foregroundStyle(.white)
+                    Text("Touche pour rouvrir le tableau").font(.aCaption).foregroundStyle(Color.white.opacity(0.75))
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "arrow.up.left.and.arrow.down.right")
+                    .font(.system(size: 14, weight: .bold)).foregroundStyle(.white)
+            }
+            .padding(10)
+            .padding(.trailing, 6)
+            .background(RoundedRectangle(cornerRadius: 16).fill(Color(hex: 0x1B1917)))
+        }
+        .buttonStyle(.pressable)
     }
 
     @ViewBuilder
