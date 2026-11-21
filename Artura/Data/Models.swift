@@ -1,12 +1,71 @@
 import SwiftUI
 
+/// Un point d'intérêt sur le tableau, en coordonnées 0…1 depuis le coin haut gauche.
+struct Spot: Codable, Hashable {
+    var x: Double
+    var y: Double
+    var zoom: Double?
+    /// Rayon du repère, en fraction de la largeur du tableau.
+    var r: Double?
+    /// "circle" (par défaut), "rect" ou "arrow"
+    var shape: String?
+    var title: String?
+    var text: String?
+}
+
+/// Un tracé dessiné par-dessus le tableau (composition, regard, lumière).
+struct GuideLine: Codable, Hashable {
+    var points: [[Double]]
+    var closed: Bool?
+    var label: String
+    var text: String
+}
+
+/// Une couleur de la palette, avec l'image qui éclaire les zones où elle se trouve.
+struct Swatch: Codable, Hashable {
+    var hex: String
+    var name: String
+    var text: String
+    var image: String
+}
+
 struct LessonBlock: Codable, Hashable {
-    /// "text", "image" ou "key"
+    /// Blocs de lecture : "text", "image", "key".
+    /// Blocs interactifs, en plein écran sur le tableau : "tour", "find", "lines", "palette", "explore".
     let type: String
+    var title: String?
     var text: String?
     var caption: String?
     var zoom: Double?
     var anchor: [Double]?
+    var spots: [Spot]?
+    var lines: [GuideLine]?
+    var swatches: [Swatch]?
+
+    var isInteractive: Bool {
+        ["tour", "find", "lines", "palette", "explore"].contains(type)
+    }
+
+    var interactiveTitle: String {
+        if let title { return title }
+        switch type {
+        case "tour": return "Visite guidée"
+        case "find": return "Trouve-le"
+        case "lines": return "Lignes de composition"
+        case "palette": return "La palette"
+        default: return "Zoom libre"
+        }
+    }
+
+    var interactiveIcon: String {
+        switch type {
+        case "tour": return "scope"
+        case "find": return "hand.tap.fill"
+        case "lines": return "triangle"
+        case "palette": return "paintpalette.fill"
+        default: return "magnifyingglass"
+        }
+    }
 
     var unitAnchor: UnitPoint {
         guard let anchor, anchor.count == 2 else { return .center }
@@ -36,6 +95,8 @@ struct Artwork: Codable, Identifiable, Hashable {
     let museum: String
     let movementId: String
     let image: String
+    /// Version haute définition, pour zoomer dans le cours (sinon on prend `image`).
+    var hd: String?
     let palette: [String]
     let focus: [Double]
     let teaser: String
@@ -50,6 +111,7 @@ struct Artwork: Codable, Identifiable, Hashable {
 
     var paletteColors: [Color] { palette.map { Color(hexString: $0) } }
     var meta: String { "\(artist) · \(yearLabel)" }
+    var canvasImage: String { hd ?? image }
 }
 
 struct Movement: Codable, Identifiable, Hashable {
