@@ -768,6 +768,7 @@ struct SocialProofScreen: View {
 struct AccountScreen: View {
     @EnvironmentObject private var user: UserStore
     @Environment(\.webAuthenticationSession) private var webAuthenticationSession
+    @Environment(\.authorizationController) private var authorizationController
     let onBack: () -> Void
     let onNext: () -> Void
 
@@ -831,26 +832,21 @@ struct AccountScreen: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
-                SignInWithAppleButton(.continue) { request in
-                    request.requestedScopes = [.fullName]
-                } onCompletion: { result in
-                    switch result {
-                    case .success(let authorization):
-                        if let credential = authorization.credential as? ASAuthorizationAppleIDCredential {
-                            user.profile.appleUserId = credential.user
-                            if let name = credential.fullName?.givenName { user.profile.firstName = name }
-                        }
-                        Haptics.success()
-                        onNext()
-                    case .failure:
-                        Haptics.warning()
+                // Bouton dessiné par l'appli (aux normes d'Apple) : le bouton du système écrirait
+                // son libellé en français, la langue déclarée de l'appli.
+                Button(action: signInWithApple) {
+                    HStack(spacing: 8) {
+                        Image(systemName: "apple.logo")
+                            .font(.system(size: 20, weight: .medium))
+                        Text("Continue with Apple")
+                            .font(.system(size: 20, weight: .medium))
                     }
+                    .foregroundStyle(.white)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 56)
+                    .background(Capsule().fill(.black))
                 }
-                .signInWithAppleButtonStyle(.black)
-                // Le libellé du bouton suit la langue de l'onboarding.
-                .environment(\.locale, Locale(identifier: "en"))
-                .frame(height: 56)
-                .clipShape(Capsule())
+                .buttonStyle(.pressable)
 
                 if showsGoogle {
                     Button(action: signInWithGoogle) {
@@ -905,6 +901,26 @@ struct AccountScreen: View {
                 .multilineTextAlignment(.center)
         }
         .frame(maxWidth: .infinity)
+    }
+
+    private func signInWithApple() {
+        message = nil
+        let request = ASAuthorizationAppleIDProvider().createRequest()
+        request.requestedScopes = [.fullName]
+        Task {
+            do {
+                let result = try await authorizationController.performRequests([request])
+                if case .appleID(let credential) = result {
+                    user.profile.appleUserId = credential.user
+                    if let name = credential.fullName?.givenName { user.profile.firstName = name }
+                    Haptics.success()
+                    onNext()
+                }
+            } catch {
+                // Fenêtre fermée ou connexion refusée : on reste sur l'écran.
+                Haptics.warning()
+            }
+        }
     }
 
     private func signInWithGoogle() {
