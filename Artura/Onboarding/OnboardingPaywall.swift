@@ -32,7 +32,7 @@ struct TrialTimelineScreen: View {
     ]
 
     var body: some View {
-        OnbScaffold(onBack: onBack, title: "Comment se passe ton essai gratuit", onNext: onNext) {
+        OnbScaffold(title: "Comment se passe ton essai gratuit", onNext: onNext) {
             ZStack(alignment: .topLeading) {
                 Capsule().fill(Palette.line).frame(width: 6, height: 300).offset(x: 21, y: 22)
                 Capsule().fill(Palette.blue).frame(width: 6, height: grow ? 90 : 0).offset(x: 21, y: 22)
@@ -76,7 +76,7 @@ struct TrialNotifScreen: View {
     @State private var dropped = false
 
     var body: some View {
-        OnbScaffold(onBack: onBack, title: "On t'envoie une notification 1 jour avant la fin",
+        OnbScaffold(title: "On t'envoie une notification 1 jour avant la fin",
                     subtitle: "Pas de mauvaise surprise : tu décides en connaissance de cause.", onNext: onNext) {
             ZStack(alignment: .top) {
                 ArtImage(name: "ill_rappel", anchor: UnitPoint(x: 0.5, y: 0.8))

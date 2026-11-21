@@ -1,28 +1,35 @@
 import SwiftUI
 
 enum OnbStep: Int, CaseIterable {
-    case welcome, quotes, promise, gender
-    case flashTest, flashResult, help
-    case phoneTime, phoneResult, statement, whatRemains, reviews
-    case arts, goal, level, tastes, movements, rhythm
-    case chooseCourse, lesson, quiz, streak
+    case welcome, daily, builtFor, quotes
+    case questionsIntro, name, why, recognize, knowledge, museum
+    case testIntro, flashTest, flashResult
+    case lesson
+    case doomscroll, projection, graph
     case reminder, loading, plan, account
-    case commit
-    case trialIntro, trialTimeline, trialNotif, paywall
 
-    /// Écrans qui affichent la barre de progression, dans l'ordre.
-    static let numbered: [OnbStep] = [
-        .gender, .flashTest, .flashResult, .phoneTime, .arts, .goal, .level,
-        .tastes, .movements, .rhythm, .chooseCourse, .lesson, .quiz, .streak,
-        .reminder, .plan
-    ]
+    /// Écrans qui affichent la barre commune (retour + progression).
+    /// Les autres sont en pleine page ou ont leur propre en-tête.
+    var showsBar: Bool {
+        switch self {
+        case .welcome, .lesson, .loading, .account: return false
+        default: return true
+        }
+    }
 
-    static var numberedTotal: Int { numbered.count }
+    /// Avancement dans l'onboarding, de 0 à 1.
+    var progress: Double {
+        Double(rawValue) / Double(Self.allCases.count - 1)
+    }
 
-    /// Numéro affiché dans la barre de progression (nil = écran sans compteur).
-    var number: Int? {
-        guard let i = Self.numbered.firstIndex(of: self) else { return nil }
-        return i + 1
+    /// Écran affiché quand on revient en arrière (nil = pas de retour possible).
+    var previous: OnbStep? {
+        switch self {
+        case .welcome: return nil
+        // Le chargement se rejoue tout seul : on le saute au retour.
+        case .plan: return .reminder
+        default: return OnbStep(rawValue: rawValue - 1)
+        }
     }
 }
 
@@ -31,26 +38,49 @@ struct OnboardingFlow: View {
     @EnvironmentObject private var content: ContentStore
 
     @State private var step: OnbStep = .welcome
-    @State private var forward = true
+    /// Vrai si on est arrivé à l'écran de compte par « J'ai déjà un compte ».
+    @State private var loginShortcut = false
 
     var body: some View {
-        ZStack {
-            Color.white.ignoresSafeArea()
+        VStack(spacing: 0) {
+            if step.showsBar {
+                bar.transition(.opacity)
+            }
             screen
                 .id(step)
-                .transition(.opacity)
+                .transition(.onbScreen)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.white.ignoresSafeArea())
+    }
+
+    /// Barre commune : elle reste en place d'un écran à l'autre, seule la progression avance.
+    private var bar: some View {
+        HStack(spacing: 12) {
+            Button(action: back) {
+                Image(systemName: "chevron.left")
+                    .font(.system(size: 20, weight: .bold))
+                    .foregroundStyle(Palette.ink)
+                    .frame(width: 44, height: 44)
+            }
+            .buttonStyle(.pressable)
+            .padding(.leading, -12)
+            .accessibilityLabel("Retour")
+            ProgressTrack(value: step.progress)
+        }
+        .frame(height: 44)
+        .padding(.horizontal, 24)
+        .padding(.top, 8)
     }
 
     private var course: Artwork? {
         content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
     }
 
-    private func go(_ target: OnbStep, forward isForward: Bool = true) {
-        forward = isForward
-        withAnimation(.easeInOut(duration: 0.2)) { step = target }
+    private func go(_ target: OnbStep) {
+        withAnimation(.easeInOut(duration: 0.3)) { step = target }
         // Petit « toc » quand le nouvel écran se pose.
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) { Haptics.soft() }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { Haptics.soft() }
     }
 
     private func next() {
@@ -62,9 +92,14 @@ struct OnboardingFlow: View {
     }
 
     private func back() {
-        guard let target = OnbStep(rawValue: step.rawValue - 1) else { return }
+        guard let target = step.previous else { return }
         Haptics.tap()
-        go(target, forward: false)
+        if step == .account && loginShortcut {
+            loginShortcut = false
+            go(.welcome)
+        } else {
+            go(target)
+        }
     }
 
     private func finish() {
@@ -75,56 +110,56 @@ struct OnboardingFlow: View {
     @ViewBuilder
     private var screen: some View {
         switch step {
-        case .welcome: WelcomeScreen(onNext: next, onLogin: { go(.account) })
+        case .welcome: WelcomeScreen(onNext: next, onLogin: {
+            loginShortcut = true
+            go(.account)
+        })
+        case .daily: DailyScreen(onNext: next)
+        case .builtFor: BuiltForScreen(onNext: next)
         case .quotes: QuotesScreen(onNext: next)
-        case .promise: PromiseScreen(onNext: next)
-        case .gender: GenderScreen(onBack: back, onNext: next)
-        case .flashTest: FlashTestScreen(onBack: back, onNext: next)
-        case .flashResult: FlashResultScreen(onBack: back, onNext: next)
-        case .help: HelpScreen(onBack: back, onNext: next)
-        case .phoneTime: PhoneTimeScreen(onBack: back, onNext: next)
-        case .phoneResult: PhoneResultScreen(onNext: next)
-        case .statement: StatementScreen(onNext: next)
-        case .whatRemains: WhatRemainsScreen(onBack: back, onNext: next)
-        case .reviews: ReviewsScreen(onBack: back, onNext: next)
-        case .arts: ArtsScreen(onBack: back, onNext: next)
-        case .goal: GoalScreen(onBack: back, onNext: next)
-        case .level: LevelScreen(onBack: back, onNext: next)
-        case .tastes: TastesScreen(onBack: back, onNext: next)
-        case .movements: MovementsScreen(onBack: back, onNext: next)
-        case .rhythm: RhythmScreen(onBack: back, onNext: next)
-        case .chooseCourse: ChooseCourseScreen(onBack: back, onNext: next)
+        case .questionsIntro: QuestionsIntroScreen(onNext: next)
+        case .name: NameScreen(onNext: next)
+        case .why: WhyScreen(onNext: next)
+        case .recognize: RecognizeScreen(onNext: next)
+        case .knowledge: KnowledgeScreen(onNext: next)
+        case .museum: MuseumScreen(onNext: next)
+        case .testIntro: TestIntroScreen(onNext: next)
+        case .flashTest: FlashTestScreen(onNext: next)
+        case .flashResult: FlashResultScreen(onNext: next)
         case .lesson:
             if let course {
-                LessonView(artwork: course, pill: "Ton premier cours", onBack: back, onFinish: next)
-            }
-        case .quiz:
-            if let course {
-                QuizView(artwork: course, onBack: back) { _ in
+                LessonView(artwork: course, pill: "Ton premier cours", onBack: back) {
+                    user.profile.firstCourse = course.id
                     user.completeLesson(course.id)
                     next()
                 }
             }
-        case .streak: StreakScreen(onNext: next)
-        case .reminder: ReminderScreen(onBack: back, onNext: next)
+        case .doomscroll: DoomscrollScreen(onNext: next)
+        case .projection: ProjectionScreen(onNext: next)
+        case .graph: GraphScreen(onNext: next)
+        case .reminder: ReminderScreen(onNext: next)
         case .loading: LoadingScreen(onNext: next)
-        case .plan: PlanScreen(onBack: back, onNext: next)
+        case .plan: PlanScreen(onNext: next)
         case .account: AccountScreen(onBack: back, onNext: next)
-        case .commit: CommitScreen(onNext: next)
-        case .trialIntro: TrialIntroScreen(onNext: next, onSkip: finish)
-        case .trialTimeline: TrialTimelineScreen(onBack: back, onNext: next)
-        case .trialNotif: TrialNotifScreen(onBack: back, onNext: next)
-        case .paywall: PaywallScreen(onClose: finish)
         }
+    }
+}
+
+extension AnyTransition {
+    /// L'écran sortant s'efface d'abord, le suivant monte ensuite : jamais deux textes superposés.
+    static var onbScreen: AnyTransition {
+        .asymmetric(
+            insertion: .opacity.combined(with: .offset(y: 10))
+                .animation(.easeOut(duration: 0.3).delay(0.12)),
+            removal: .opacity.animation(.easeIn(duration: 0.12))
+        )
     }
 }
 
 // MARK: - Gabarits d'écran
 
-/// Gabarit des écrans de question : barre de progression, titre, contenu, bouton.
+/// Gabarit des écrans de question : titre, contenu, bouton. La barre du haut est gérée par `OnboardingFlow`.
 struct OnbScaffold<Content: View>: View {
-    var number: Int? = nil
-    var onBack: (() -> Void)? = nil
     let title: String
     var subtitle: String? = nil
     var cta: String = "Continuer"
@@ -136,28 +171,6 @@ struct OnbScaffold<Content: View>: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            HStack(spacing: 12) {
-                if let onBack {
-                    Button(action: onBack) {
-                        Image(systemName: "chevron.left")
-                            .font(.system(size: 20, weight: .bold))
-                            .foregroundStyle(Palette.ink)
-                            .frame(width: 44, height: 44)
-                    }
-                    .buttonStyle(.pressable)
-                    .padding(.leading, -12)
-                }
-                if let number {
-                    ProgressTrack(value: Double(number) / Double(OnbStep.numberedTotal))
-                    Text("\(number) / \(OnbStep.numberedTotal)")
-                        .font(.figtree(14, .medium))
-                        .foregroundStyle(Palette.muted)
-                } else {
-                    Spacer()
-                }
-            }
-            .frame(height: 44)
-
             VStack(alignment: .leading, spacing: 8) {
                 Text(title)
                     .font(.aTitle)
@@ -188,58 +201,84 @@ struct OnbScaffold<Content: View>: View {
             }
         }
         .padding(.horizontal, 24)
-        .padding(.top, 8)
+        .padding(.top, 12)
         .padding(.bottom, secondaryTitle == nil ? 16 : 4)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(Color.white)
     }
 }
 
-/// Gabarit des écrans à grande illustration en haut.
+/// Gabarit des écrans « récit » : une illustration, une phrase forte, un bouton.
+struct StoryScaffold: View {
+    let image: String
+    var tag: String? = nil
+    let title: String
+    var subtitle: String? = nil
+    var cta: String = "Continuer"
+    let onNext: () -> Void
+
+    @State private var drift = false
+
+    var body: some View {
+        VStack(spacing: 0) {
+            // L'illustration respire lentement pendant la lecture.
+            ArtImage(name: image, zoom: drift ? 1.08 : 1)
+                .frame(minHeight: 180, maxHeight: 330)
+                .clipShape(RoundedRectangle(cornerRadius: 28))
+                .appearUp()
+
+            VStack(spacing: 12) {
+                if let tag {
+                    TagPill(text: tag).appearUp(0.2)
+                }
+                Text(title)
+                    .font(.aTitle)
+                    .foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .appearUp(0.3)
+                if let subtitle {
+                    Text(subtitle)
+                        .font(.aBody)
+                        .foregroundStyle(Palette.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .appearUp(0.5)
+                }
+            }
+            .multilineTextAlignment(.center)
+            .padding(.top, 28)
+
+            Spacer(minLength: 16)
+
+            Button(cta) { onNext() }
+                .buttonStyle(.primary)
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .background(Color.white)
+        .onAppear {
+            withAnimation(.easeInOut(duration: 7).repeatForever(autoreverses: true)) { drift = true }
+        }
+    }
+}
+
+/// Gabarit des écrans à grande illustration en haut, bord à bord.
 struct HeroScaffold<Content: View>: View {
     let image: String
     var imageHeight: CGFloat = 410
-    var number: Int? = nil
-    var onBack: (() -> Void)? = nil
     var cta: String = "Continuer"
     let onNext: () -> Void
     var secondaryTitle: String? = nil
     var onSecondary: (() -> Void)? = nil
     @ViewBuilder var content: () -> Content
 
-    @State private var settle = false
-
     var body: some View {
         VStack(spacing: 0) {
-            ZStack(alignment: .top) {
-                ArtImage(name: image)
-                    .frame(height: imageHeight)
-                    .clipShape(ArcHeaderShape())
-                    .ignoresSafeArea(edges: .top)
-                HStack {
-                    if let onBack {
-                        Button(action: onBack) {
-                            Image(systemName: "chevron.left")
-                                .font(.system(size: 18, weight: .bold))
-                                .foregroundStyle(Palette.ink)
-                                .frame(width: 44, height: 44)
-                                .background(Circle().fill(.white))
-                        }
-                        .buttonStyle(.pressable)
-                    }
-                    Spacer()
-                    if let number {
-                        Text("\(number) / \(OnbStep.numberedTotal)")
-                            .font(.figtree(14, .medium))
-                            .foregroundStyle(Palette.ink)
-                            .padding(.horizontal, 12)
-                            .frame(height: 32)
-                            .background(Capsule().fill(.white))
-                    }
-                }
-                .padding(.horizontal, 16)
-                .padding(.top, 8)
-            }
+            ArtImage(name: image)
+                .frame(height: imageHeight)
+                .clipShape(ArcHeaderShape())
+                .ignoresSafeArea(edges: .top)
 
             VStack(spacing: 10) {
                 content()
@@ -261,49 +300,5 @@ struct HeroScaffold<Content: View>: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.white)
-        .onAppear {
-            withAnimation(.easeOut(duration: 1.2)) { settle = true }
-        }
-    }
-}
-
-// MARK: - Mise en page « pastilles qui passent à la ligne »
-
-struct FlowLayout: Layout {
-    var spacing: CGFloat = 10
-
-    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
-        let width = proposal.width ?? .infinity
-        var x: CGFloat = 0
-        var y: CGFloat = 0
-        var rowHeight: CGFloat = 0
-        for view in subviews {
-            let size = view.sizeThatFits(.unspecified)
-            if x + size.width > width, x > 0 {
-                x = 0
-                y += rowHeight + spacing
-                rowHeight = 0
-            }
-            x += size.width + spacing
-            rowHeight = max(rowHeight, size.height)
-        }
-        return CGSize(width: proposal.width ?? x, height: y + rowHeight)
-    }
-
-    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
-        var x = bounds.minX
-        var y = bounds.minY
-        var rowHeight: CGFloat = 0
-        for view in subviews {
-            let size = view.sizeThatFits(.unspecified)
-            if x + size.width > bounds.maxX, x > bounds.minX {
-                x = bounds.minX
-                y += rowHeight + spacing
-                rowHeight = 0
-            }
-            view.place(at: CGPoint(x: x, y: y), proposal: ProposedViewSize(size))
-            x += size.width + spacing
-            rowHeight = max(rowHeight, size.height)
-        }
     }
 }

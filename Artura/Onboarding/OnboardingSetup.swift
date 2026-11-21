@@ -93,12 +93,11 @@ func momentLabel(_ minutes: Int) -> String {
 
 struct ReminderScreen: View {
     @EnvironmentObject private var user: UserStore
-    let onBack: () -> Void
     let onNext: () -> Void
     @State private var minutes: Double = 510
 
     var body: some View {
-        OnbScaffold(number: OnbStep.reminder.number, onBack: onBack, title: "À quelle heure veux-tu ton œuvre ?",
+        OnbScaffold(title: "À quelle heure veux-tu ton œuvre ?",
                     subtitle: "Une seule notification par jour, promis.",
                     cta: "Activer le rappel à \(formatMinutes(Int(minutes)))",
                     onNext: activate, secondaryTitle: "Plus tard", onSecondary: skip) {
@@ -158,10 +157,10 @@ struct LoadingScreen: View {
     @State private var timer: Timer?
 
     private let rows = [
-        "Analyse de tes goûts",
-        "Sélection de tes courants",
+        "Analyse de tes réponses",
+        "Réglage de ton niveau de départ",
         "Choix de ton premier parcours",
-        "Réglage de ton rythme et de ton rappel"
+        "Programmation de ton rappel"
     ]
 
     var body: some View {
@@ -276,7 +275,6 @@ struct AvatarPicker: View {
 struct PlanScreen: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var content: ContentStore
-    let onBack: () -> Void
     let onNext: () -> Void
     @State private var picking = false
 
@@ -285,8 +283,7 @@ struct PlanScreen: View {
     }
 
     var body: some View {
-        OnbScaffold(number: OnbStep.plan.number, onBack: onBack,
-                    title: "Dans 30 jours",
+        OnbScaffold(title: "Dans 30 jours",
                     subtitle: "Voici où tu en seras, à ton rythme.", cta: "Ça me va", onNext: onNext) {
             Group {
                 if picking {

@@ -23,7 +23,7 @@ Si le projet ne s'ouvre pas, `project.yml` permet de le régénérer avec [Xcode
 | `Artura/Core` | Thème (couleurs, police Figtree, formes), composants, haptique |
 | `Artura/Data` | Modèles, contenu embarqué, profil et progression (stockés sur l'appareil) |
 | `Artura/Services` | Rappels (notifications locales) et abonnement Artura Pro (StoreKit 2) |
-| `Artura/Onboarding` | Les écrans d'accueil, du premier écran au paywall |
+| `Artura/Onboarding` | Les écrans d'accueil, du premier écran à la création du compte |
 | `Artura/Learn` | Lecture d'un cours bloc par bloc, quiz |
 | `Artura/Main` | Onglets Aujourd'hui, Explorer, Jeux, Profil |
 | `Artura/Games` | Zoom mystère, Chronologie, Vrai ou faux, Palette |
@@ -48,7 +48,6 @@ Produits attendus :
 
 ## À faire avant une mise en ligne
 
-- Remplacer la note « 4,8 » et les trois avis d'exemple de l'onboarding (`ReviewsScreen`) par de vraies données.
 - Fixer les prix et créer les produits dans App Store Connect.
 - Vérifier les licences des reproductions (Wikimedia Commons) et celle des illustrations générées.
 - Widget « œuvre du jour » : non inclus dans cette version.

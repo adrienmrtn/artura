@@ -29,6 +29,9 @@ final class UserStore: ObservableObject {
         /// Entraînement du jour : le jour concerné et le nombre de questions déjà répondues.
         var trainingDay: String?
         var trainingCount: Int?
+        /// Réponses aux questions de l'onboarding (optionnelles : absentes des anciens profils).
+        var unknownArt: String?
+        var museumHabit: String?
     }
 
     @Published var profile: Profile {
