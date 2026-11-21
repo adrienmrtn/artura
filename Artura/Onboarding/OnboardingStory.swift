@@ -43,83 +43,71 @@ struct SlowScreen<Content: View>: View {
     }
 }
 
-// MARK: - Citation plein écran
+// MARK: - Citations : un seul écran, elles apparaissent une à une
 
-struct Quote {
+struct Quote: Identifiable {
     let image: String
     let text: String
     let author: String
     let role: String
+    var id: String { author }
 
     // Citations à faire vérifier (source et traduction) avant la mise en ligne.
-    static let klee = Quote(image: "portrait_klee", text: "L'art ne reproduit pas le visible, il rend visible.", author: "Paul Klee", role: "Peintre")
-    static let nietzsche = Quote(image: "portrait_nietzsche", text: "Nous avons l'art pour ne pas mourir de la vérité.", author: "Friedrich Nietzsche", role: "Philosophe")
-    static let proust = Quote(image: "portrait_proust", text: "Par l'art seulement, nous pouvons sortir de nous.", author: "Marcel Proust", role: "Écrivain")
-    static let malraux = Quote(image: "portrait_malraux", text: "L'art est un anti-destin.", author: "André Malraux", role: "Écrivain")
-    static let wilde = Quote(image: "portrait_wilde", text: "La vie imite l'art bien plus que l'art n'imite la vie.", author: "Oscar Wilde", role: "Écrivain")
+    static let all: [Quote] = [
+        Quote(image: "portrait_klee", text: "L'art ne reproduit pas le visible, il rend visible.", author: "Paul Klee", role: "Peintre"),
+        Quote(image: "portrait_nietzsche", text: "Nous avons l'art pour ne pas mourir de la vérité.", author: "Friedrich Nietzsche", role: "Philosophe"),
+        Quote(image: "portrait_proust", text: "Par l'art seulement, nous pouvons sortir de nous.", author: "Marcel Proust", role: "Écrivain"),
+        Quote(image: "portrait_malraux", text: "L'art est un anti-destin.", author: "André Malraux", role: "Écrivain"),
+        Quote(image: "portrait_wilde", text: "La vie imite l'art bien plus que l'art n'imite la vie.", author: "Oscar Wilde", role: "Écrivain")
+    ]
 }
 
-struct QuoteScreen: View {
-    let quote: Quote
+struct QuotesScreen: View {
     let onNext: () -> Void
+    @State private var shown = 0
 
-    @State private var portraitShown = false
-    @State private var revealed = 0
-    @State private var signed = false
-
-    private var words: [String] {
-        ("« " + quote.text + " »").split(separator: " ").map(String.init)
-    }
-
-    private var duration: Double { 1.8 + Double(words.count) * 0.2 + 0.9 }
+    private let quotes = Quote.all
+    private let pace = 1.7
 
     var body: some View {
-        SlowScreen(duration: duration, dark: true, onNext: onNext) {
-            VStack(alignment: .leading, spacing: 24) {
-                ArtImage(name: quote.image, anchor: .top)
-                    .saturation(0)
-                    .scaleEffect(portraitShown ? 1 : 1.08)
-                    .frame(height: 380)
-                    .clipShape(RoundedRectangle(cornerRadius: 28))
-                    .opacity(portraitShown ? 1 : 0)
-
-                FlowLayout(spacing: 7) {
-                    ForEach(Array(words.enumerated()), id: \.offset) { i, word in
-                        Text(word)
-                            .font(.figtree(27, .semibold))
-                            .foregroundStyle(.white)
-                            .opacity(i < revealed ? 1 : 0)
-                            .offset(y: i < revealed ? 0 : 6)
+        SlowScreen(duration: 0.8 + Double(quotes.count) * pace + 0.6, dark: true, onNext: onNext) {
+            VStack(alignment: .leading, spacing: 22) {
+                ForEach(Array(quotes.enumerated()), id: \.element.id) { i, quote in
+                    HStack(alignment: .top, spacing: 14) {
+                        ArtImage(name: quote.image, anchor: .top)
+                            .saturation(0)
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("« \(quote.text) »")
+                                .font(.figtree(18, .semibold))
+                                .foregroundStyle(.white)
+                                .fixedSize(horizontal: false, vertical: true)
+                            Text("\(quote.author) · \(quote.role)")
+                                .font(.figtree(13))
+                                .foregroundStyle(Color.white.opacity(0.75))
+                        }
                     }
+                    .opacity(i < shown ? 1 : 0)
+                    .offset(y: i < shown ? 0 : 12)
                 }
-
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(quote.author).font(.figtree(17, .semibold)).foregroundStyle(.white)
-                    Text(quote.role).font(.figtree(14)).foregroundStyle(Color.white.opacity(0.75))
-                }
-                .opacity(signed ? 1 : 0)
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.horizontal, 24)
-            .padding(.top, 16)
+            .padding(.top, 36)
         }
-        .onAppear(perform: play)
-    }
-
-    private func play() {
-        withAnimation(.easeOut(duration: 1.8)) { portraitShown = true }
-        for i in 1...words.count {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.4 + Double(i) * 0.2) {
-                withAnimation(.easeOut(duration: 0.5)) { revealed = i }
-                Haptics.whisper()
+        .onAppear {
+            for i in 1...quotes.count {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6 + Double(i - 1) * pace) {
+                    withAnimation(.easeOut(duration: 1.1)) { shown = i }
+                    Haptics.soft()
+                }
             }
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.4 + Double(words.count) * 0.2 + 0.4) {
-            withAnimation(.easeOut(duration: 0.7)) { signed = true }
         }
     }
 }
 
-// MARK: - Test éclair : 5 chefs-d'œuvre, « tu le reconnais ? »
+// MARK: - Test éclair : 5 chefs-d'œuvre empilés, oui ou non
 
 struct FlashTestScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -135,7 +123,6 @@ struct FlashTestScreen: View {
     @State private var known: [String] = []
 
     private var cards: [Artwork] { Self.ids.compactMap { content.artwork($0) } }
-    private var current: Artwork? { cards.indices.contains(index) ? cards[index] : nil }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -157,53 +144,31 @@ struct FlashTestScreen: View {
             VStack(alignment: .leading, spacing: 6) {
                 TagPill(text: "Test éclair · 10 secondes")
                 Text("Tu la reconnais ?").font(.aTitle).foregroundStyle(Palette.ink)
-                Text("Sans tricher. Glisse à droite si oui, à gauche si non.")
+                Text("Sans tricher. Glisse la carte, ou réponds avec les boutons.")
                     .font(.aBody).foregroundStyle(Palette.muted)
             }
 
+            // Pile de cartes : la suivante dépasse derrière celle du dessus.
             ZStack {
-                if cards.indices.contains(index + 1) {
-                    ArtImage(name: cards[index + 1].image)
-                        .clipShape(RoundedRectangle(cornerRadius: 24))
-                        .scaleEffect(0.95)
-                        .opacity(0.5)
-                }
-                if let current {
-                    ArtImage(name: current.image)
-                        .clipShape(RoundedRectangle(cornerRadius: 24))
-                        .overlay(alignment: .topLeading) { stamp("Je connais", Palette.green).opacity(stampOpacity(true)).padding(14) }
-                        .overlay(alignment: .topTrailing) { stamp("Jamais vue", Palette.ink).opacity(stampOpacity(false)).padding(14) }
-                        .offset(x: drag.width, y: drag.height * 0.15)
-                        .rotationEffect(.degrees(Double(drag.width) / 22))
-                        .gesture(
-                            DragGesture()
-                                .onChanged { value in
-                                    drag = value.translation
-                                    let nowArmed = abs(value.translation.width) > 90
-                                    if nowArmed != armed {
-                                        armed = nowArmed
-                                        Haptics.selection()
-                                    }
-                                }
-                                .onEnded { value in
-                                    if value.translation.width > 90 {
-                                        answer(true)
-                                    } else if value.translation.width < -90 {
-                                        answer(false)
-                                    } else {
-                                        withAnimation(.snappy) { drag = .zero }
-                                    }
-                                }
-                        )
-                        .id(current.id)
-                        .transition(.opacity)
+                ForEach(Array(cards.enumerated()).reversed(), id: \.element.id) { i, art in
+                    if i >= index && i <= index + 2 {
+                        let depth = i - index
+                        card(art, top: depth == 0)
+                            .scaleEffect(1 - CGFloat(depth) * 0.05)
+                            .offset(y: CGFloat(depth) * 16)
+                            .rotationEffect(.degrees(depth == 0 ? Double(drag.width) / 22 : (depth == 1 ? 2.5 : -2.5)))
+                            .offset(x: depth == 0 ? drag.width : 0, y: depth == 0 ? drag.height * 0.15 : 0)
+                            .zIndex(Double(cards.count - i))
+                            .allowsHitTesting(depth == 0)
+                    }
                 }
             }
+            .padding(.bottom, 34)
             .frame(maxHeight: .infinity)
 
             HStack(spacing: 12) {
-                Button("Jamais vue") { answer(false) }.buttonStyle(.secondary)
-                Button("Je connais") { answer(true) }.buttonStyle(.primary)
+                Button("Non") { answer(false) }.buttonStyle(.secondary)
+                Button("Oui") { answer(true) }.buttonStyle(.primary)
             }
         }
         .padding(.horizontal, 24)
@@ -212,11 +177,46 @@ struct FlashTestScreen: View {
         .background(Color.white)
     }
 
+    private func card(_ art: Artwork, top: Bool) -> some View {
+        ArtImage(name: art.image)
+            .clipShape(RoundedRectangle(cornerRadius: 24))
+            .overlay(RoundedRectangle(cornerRadius: 24).stroke(.white, lineWidth: 4))
+            .shadow(color: .black.opacity(0.14), radius: 12, y: 6)
+            .overlay(alignment: .topLeading) {
+                if top { stamp("Oui", Palette.green).opacity(stampOpacity(true)).padding(16) }
+            }
+            .overlay(alignment: .topTrailing) {
+                if top { stamp("Non", Palette.ink).opacity(stampOpacity(false)).padding(16) }
+            }
+            .gesture(
+                DragGesture()
+                    .onChanged { value in
+                        guard top else { return }
+                        drag = value.translation
+                        let nowArmed = abs(value.translation.width) > 90
+                        if nowArmed != armed {
+                            armed = nowArmed
+                            Haptics.selection()
+                        }
+                    }
+                    .onEnded { value in
+                        guard top else { return }
+                        if value.translation.width > 90 {
+                            answer(true)
+                        } else if value.translation.width < -90 {
+                            answer(false)
+                        } else {
+                            withAnimation(.snappy) { drag = .zero }
+                        }
+                    }
+            )
+    }
+
     private func stamp(_ text: String, _ color: Color) -> some View {
         Text(text)
-            .font(.figtree(18, .bold))
+            .font(.figtree(22, .bold))
             .foregroundStyle(.white)
-            .padding(.horizontal, 14)
+            .padding(.horizontal, 16)
             .padding(.vertical, 8)
             .background(RoundedRectangle(cornerRadius: 12).fill(color))
     }
@@ -227,7 +227,8 @@ struct FlashTestScreen: View {
     }
 
     private func answer(_ knows: Bool) {
-        guard let current else { return }
+        guard cards.indices.contains(index) else { return }
+        let current = cards[index]
         armed = false
         if knows {
             known.append(current.id)
@@ -235,13 +236,17 @@ struct FlashTestScreen: View {
         } else {
             Haptics.rigid()
         }
-        if index >= cards.count - 1 {
-            user.profile.flashKnown = known
-            onNext()
-        } else {
-            withAnimation(.easeOut(duration: 0.18)) {
+        // La carte sort de l'écran du côté de la réponse, puis la suivante monte.
+        withAnimation(.easeIn(duration: 0.18)) {
+            drag = CGSize(width: knows ? 500 : -500, height: 0)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.18) {
+            if index >= cards.count - 1 {
+                user.profile.flashKnown = known
+                onNext()
+            } else {
                 drag = .zero
-                index += 1
+                withAnimation(.easeOut(duration: 0.2)) { index += 1 }
             }
         }
     }
@@ -256,84 +261,153 @@ struct FlashResultScreen: View {
     let onNext: () -> Void
 
     @State private var count = 0
+    @State private var fanned = false
+    @State private var statShown = false
     @State private var ready = false
 
-    private var total: Int { FlashTestScreen.ids.count }
+    private var cards: [Artwork] { FlashTestScreen.ids.compactMap { content.artwork($0) } }
+    private var total: Int { cards.count }
     private var score: Int { user.profile.flashKnown.count }
-    private var missed: [Artwork] {
-        FlashTestScreen.ids.filter { !user.profile.flashKnown.contains($0) }.compactMap { content.artwork($0) }
-    }
 
     private var verdict: String {
         if score == total { return "Tu les reconnais toutes. Mais sais-tu ce qu'elles racontent ?" }
         if score == 0 { return "Aucune pour l'instant. C'est exactement pour ça qu'on est là." }
-        return "Voici ce qui t'échappe encore."
+        return "Les autres t'échappent encore. Plus pour longtemps."
     }
 
     var body: some View {
-        OnbScaffold(number: OnbStep.flashResult.number, onBack: onBack,
-                    title: "\(count) sur \(total)", subtitle: verdict,
-                    ctaEnabled: ready, onNext: onNext) {
-            if !missed.isEmpty {
-                HStack(spacing: 10) {
-                    ForEach(missed) { art in
-                        VStack(alignment: .leading, spacing: 4) {
-                            ArtImage(name: art.image)
-                                .frame(height: 96)
-                                .clipShape(RoundedRectangle(cornerRadius: 12))
-                            Text(art.title).font(.figtree(11, .medium)).foregroundStyle(Palette.muted)
-                                .lineLimit(2)
-                        }
-                        .frame(maxWidth: .infinity, alignment: .topLeading)
+        VStack(spacing: 0) {
+            // Les cinq œuvres en éventail : celles reconnues en couleur, les autres voilées.
+            ZStack {
+                Palette.blueSoft
+                HStack(spacing: -34) {
+                    ForEach(Array(cards.enumerated()), id: \.element.id) { i, art in
+                        let known = user.profile.flashKnown.contains(art.id)
+                        ArtImage(name: art.image)
+                            .saturation(known ? 1 : 0)
+                            .opacity(known ? 1 : 0.55)
+                            .frame(width: 96, height: 128)
+                            .clipShape(RoundedRectangle(cornerRadius: 14))
+                            .overlay(RoundedRectangle(cornerRadius: 14).stroke(.white, lineWidth: 3))
+                            .overlay(alignment: .bottom) {
+                                Image(systemName: known ? "checkmark" : "questionmark")
+                                    .font(.system(size: 12, weight: .bold))
+                                    .foregroundStyle(.white)
+                                    .frame(width: 26, height: 26)
+                                    .background(Circle().fill(known ? Palette.green : Palette.ink))
+                                    .offset(y: 10)
+                            }
+                            .rotationEffect(.degrees(fanned ? Double(i - 2) * 7 : 0))
+                            .offset(y: fanned ? abs(CGFloat(i - 2)) * 10 : 0)
+                            .shadow(color: .black.opacity(0.15), radius: 8, y: 4)
+                            .zIndex(known ? 2 : 1)
                     }
                 }
-                .opacity(ready ? 1 : 0)
+                .padding(.top, 40)
             }
+            .frame(height: 290)
+            .clipShape(ArcHeaderShape())
+            .ignoresSafeArea(edges: .top)
+            .overlay(alignment: .topLeading) {
+                Button(action: onBack) {
+                    Image(systemName: "chevron.left")
+                        .font(.system(size: 18, weight: .bold))
+                        .foregroundStyle(Palette.ink)
+                        .frame(width: 44, height: 44)
+                        .background(Circle().fill(.white))
+                }
+                .buttonStyle(.pressable)
+                .accessibilityLabel("Retour")
+                .padding(.leading, 16)
+                .padding(.top, 8)
+            }
+
+            VStack(spacing: 6) {
+                HStack(alignment: .firstTextBaseline, spacing: 6) {
+                    Text("\(count)")
+                        .font(.figtree(72, .semibold))
+                        .foregroundStyle(Palette.blue)
+                        .contentTransition(.numericText())
+                    Text("sur \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                }
+                Text(score > 1 ? "œuvres reconnues" : "œuvre reconnue")
+                    .font(.figtree(15, .semibold)).foregroundStyle(Palette.muted)
+                Text(verdict)
+                    .font(.aBody).foregroundStyle(Palette.ink)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding(.top, 4)
+                    .opacity(fanned ? 1 : 0)
+            }
+            .padding(.horizontal, 24)
+            .padding(.top, -34)
+
+            Spacer(minLength: 12)
 
             // Statistique à sourcer précisément avant la mise en ligne
             // (étude sur le temps passé devant les œuvres, Art Institute of Chicago, 2017).
-            VStack(alignment: .leading, spacing: 6) {
-                Text("28 secondes").font(.figtree(34, .semibold)).foregroundStyle(Palette.ink)
-                Text("C'est le temps moyen passé devant une œuvre dans un musée. Reconnaître une image n'est pas encore la regarder.")
-                    .font(.aSmall).foregroundStyle(Palette.ink)
-                    .fixedSize(horizontal: false, vertical: true)
-                Text("Étude menée à l'Art Institute of Chicago, 2017").font(.figtree(11)).foregroundStyle(Palette.muted)
+            HStack(spacing: 0) {
+                ArtImage(name: "ill_regard", anchor: UnitPoint(x: 0.5, y: 0.6))
+                    .frame(width: 118)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("28 secondes").font(.figtree(26, .semibold)).foregroundStyle(.white)
+                    Text("C'est le temps moyen passé devant une œuvre au musée. Reconnaître n'est pas encore regarder.")
+                        .font(.figtree(13)).foregroundStyle(.white)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text("Art Institute of Chicago, 2017").font(.figtree(11)).foregroundStyle(Color.white.opacity(0.75))
+                }
+                .padding(.horizontal, 14)
+                .padding(.vertical, 14)
+                Spacer(minLength: 0)
             }
-            .padding(16)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.blueSoft))
-            .opacity(ready ? 1 : 0)
-            .offset(y: ready ? 0 : 10)
+            .frame(height: 148)
+            .background(Color(hex: 0x1E2A5A))
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .padding(.horizontal, 24)
+            .opacity(statShown ? 1 : 0)
+            .offset(y: statShown ? 0 : 16)
+
+            Button("Continuer") { onNext() }
+                .buttonStyle(.primary)
+                .disabled(!ready)
+                .opacity(ready ? 1 : 0.4)
+                .padding(.horizontal, 24)
+                .padding(.top, 16)
+                .padding(.bottom, 16)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.white)
         .onAppear(perform: play)
     }
 
     private func play() {
+        withAnimation(.easeOut(duration: 0.9).delay(0.2)) { fanned = true }
         let steps = max(1, score)
         for i in 0...steps {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5 + Double(i) * 0.35) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8 + Double(i) * 0.4) {
                 withAnimation(.easeOut(duration: 0.3)) { count = min(i, score) }
                 Haptics.rigid()
             }
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.9 + Double(steps) * 0.35) {
-            withAnimation(.easeOut(duration: 0.7)) { ready = true }
+        let afterCount = 1.3 + Double(steps) * 0.4
+        DispatchQueue.main.asyncAfter(deadline: .now() + afterCount) {
+            withAnimation(.easeOut(duration: 0.9)) { statShown = true }
             Haptics.soft()
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + afterCount + 1.0) {
+            withAnimation(.easeOut(duration: 0.4)) { ready = true }
         }
     }
 }
 
-// MARK: - Le temps passé sur ton téléphone
+// MARK: - Le temps passé sur ton téléphone (la question)
 
 struct PhoneTimeScreen: View {
     @EnvironmentObject private var user: UserStore
     let onBack: () -> Void
     let onNext: () -> Void
     @State private var hours: Double = 4
-    @State private var pull = false
-
-    /// Jours entiers par an que représentent ces heures quotidiennes.
-    private var daysPerYear: Int { Int((hours * 365 / 24).rounded()) }
+    @State private var glow = false
 
     private var hoursLabel: String {
         let whole = Int(hours)
@@ -345,18 +419,15 @@ struct PhoneTimeScreen: View {
                     title: "Combien de temps par jour sur ton téléphone ?",
                     subtitle: "Regarde dans Réglages › Temps d'écran si tu hésites.",
                     onNext: save) {
-            ArtImage(name: "ill_phone", zoom: pull ? 1.12 : 1, anchor: UnitPoint(x: 0.45, y: 0.4))
-                .frame(height: 200)
+            ArtImage(name: "ill_phone", zoom: glow ? 1.08 : 1, anchor: UnitPoint(x: 0.5, y: 0.45))
+                .frame(height: 260)
                 .clipShape(RoundedRectangle(cornerRadius: 24))
 
-            VStack(spacing: 2) {
-                Text(hoursLabel).font(.figtree(22, .semibold)).foregroundStyle(Palette.muted)
+            VStack(spacing: 0) {
+                Text(hoursLabel)
+                    .font(.figtree(52, .semibold)).foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
-                Text("\(daysPerYear) jours par an")
-                    .font(.figtree(40, .semibold)).foregroundStyle(Palette.ink)
-                    .contentTransition(.numericText())
-                Text("passés les yeux sur l'écran, jour et nuit compris.")
-                    .font(.aSmall).foregroundStyle(Palette.muted)
+                Text("par jour").font(.aBody).foregroundStyle(Palette.muted)
             }
             .frame(maxWidth: .infinity)
 
@@ -369,14 +440,10 @@ struct PhoneTimeScreen: View {
                 }
                 .font(.aCaption).foregroundStyle(Palette.muted)
             }
-
-            Text("Artura t'en demande cinq minutes.")
-                .font(.bodyStrong).foregroundStyle(Palette.ink)
-                .frame(maxWidth: .infinity)
         }
         .onAppear {
             hours = user.profile.phoneHours
-            withAnimation(.easeInOut(duration: 6).repeatForever(autoreverses: true)) { pull = true }
+            withAnimation(.easeInOut(duration: 5).repeatForever(autoreverses: true)) { glow = true }
         }
         .onChange(of: hours) { _, _ in Haptics.selection() }
     }
@@ -384,6 +451,99 @@ struct PhoneTimeScreen: View {
     private func save() {
         user.profile.phoneHours = hours
         onNext()
+    }
+}
+
+// MARK: - Ce que ça représente sur une année (écran lent)
+
+struct PhoneResultScreen: View {
+    @EnvironmentObject private var user: UserStore
+    let onNext: () -> Void
+
+    @State private var days = 0
+    @State private var stage = 0
+    @State private var timer: Timer?
+
+    private var hours: Double { user.profile.phoneHours }
+    private var target: Int { Int((hours * 365 / 24).rounded()) }
+
+    private var hoursLabel: String {
+        let whole = Int(hours)
+        return hours == Double(whole) ? "\(whole) h" : "\(whole) h 30"
+    }
+
+    private var monthsLine: String {
+        let months = Double(target) / 30.4
+        if months < 1.25 { return "Plus d'un mois entier, chaque année." }
+        return "Près de \(Int(months.rounded())) mois entiers, chaque année."
+    }
+
+    var body: some View {
+        SlowScreen(duration: 6.2, dark: true, onNext: onNext) {
+            VStack(spacing: 14) {
+                Spacer()
+                Text("\(hoursLabel) par jour, c'est")
+                    .font(.figtree(22, .semibold))
+                    .foregroundStyle(Color.white.opacity(0.8))
+                    .opacity(stage >= 1 ? 1 : 0)
+                Text("\(days)")
+                    .font(.figtree(120, .semibold))
+                    .foregroundStyle(.white)
+                    .contentTransition(.numericText())
+                    .opacity(stage >= 2 ? 1 : 0)
+                Text("jours par an")
+                    .font(.figtree(28, .semibold))
+                    .foregroundStyle(.white)
+                    .opacity(stage >= 2 ? 1 : 0)
+                Text(monthsLine)
+                    .font(.aBody)
+                    .foregroundStyle(Color.white.opacity(0.8))
+                    .opacity(stage >= 3 ? 1 : 0)
+                    .padding(.top, 6)
+                Spacer()
+                Text("Artura t'en demande cinq minutes.")
+                    .font(.figtree(20, .semibold))
+                    .foregroundStyle(Palette.yellow)
+                    .opacity(stage >= 4 ? 1 : 0)
+                    .offset(y: stage >= 4 ? 0 : 12)
+                Spacer()
+            }
+            .multilineTextAlignment(.center)
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal, 28)
+        }
+        .onAppear(perform: play)
+        .onDisappear { timer?.invalidate() }
+    }
+
+    private func play() {
+        withAnimation(.easeOut(duration: 0.9).delay(0.3)) { stage = 1 }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.3) {
+            withAnimation(.easeOut(duration: 0.6)) { stage = 2 }
+            // Le compteur monte lentement jusqu'au total, avec un tic à chaque pas.
+            let stepCount = 40
+            var step = 0
+            timer?.invalidate()
+            timer = Timer.scheduledTimer(withTimeInterval: 0.06, repeats: true) { t in
+                step += 1
+                withAnimation(.linear(duration: 0.06)) {
+                    days = Int((Double(target) * Double(step) / Double(stepCount)).rounded())
+                }
+                if step % 3 == 0 { Haptics.whisper() }
+                if step >= stepCount {
+                    t.invalidate()
+                    days = target
+                    Haptics.heavy()
+                }
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4.3) {
+            withAnimation(.easeOut(duration: 0.8)) { stage = 3 }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.4) {
+            withAnimation(.easeOut(duration: 0.8)) { stage = 4 }
+            Haptics.soft()
+        }
     }
 }
 
