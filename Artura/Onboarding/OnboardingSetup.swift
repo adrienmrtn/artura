@@ -423,6 +423,7 @@ struct LoadingScreen: View {
                 }
                 .multilineTextAlignment(.center)
                 .padding(.top, 6)
+                .background(Palette.bg.opacity(0.92).blur(radius: 14).padding(-12))
 
                 VStack(spacing: 0) {
                     ForEach(Array(rows.enumerated()), id: \.offset) { i, row in

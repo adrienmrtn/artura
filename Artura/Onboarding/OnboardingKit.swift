@@ -179,7 +179,9 @@ struct MascotTalkScreen<Extra: View>: View {
             .font(.figtree(24, .semibold))
             .foregroundStyle(Palette.ink)
             .lineSpacing(3)
+            .multilineTextAlignment(.leading)
             .fixedSize(horizontal: false, vertical: true)
+            .frame(maxWidth: .infinity, alignment: .leading)
             .accessibilityLabel(line)
     }
 
