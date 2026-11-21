@@ -17,25 +17,32 @@ struct WelcomeScreen: View {
     }
 }
 
-// MARK: 2 · Promesse
+// MARK: 2 · Promesse (lente, bloc par bloc)
 
 struct PromiseScreen: View {
-    let onBack: () -> Void
     let onNext: () -> Void
+    @State private var shown = 0
 
     private let rows: [(String, String, String)] = [
         ("art_impression", "Une œuvre par jour", "Son histoire en 2 minutes, à lire ou à écouter."),
         ("ill_zoom", "Des mini-jeux", "Une minute de jeu pour retenir ce que tu viens de voir."),
         ("ill_musee", "Des parcours", "Les grands courants, leçon après leçon, à ton rythme.")
     ]
+    private let pace = 1.6
 
     var body: some View {
-        OnbScaffold(number: OnbStep.promise.number, onBack: onBack, title: "Voici ce qui t'attend",
-                    subtitle: "Trois petites choses, chaque jour.", onNext: onNext) {
-            VStack(spacing: 16) {
+        SlowScreen(duration: 1.2 + Double(rows.count) * pace + 0.4, onNext: onNext) {
+            VStack(alignment: .leading, spacing: 18) {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Voici ce qui t'attend").font(.aTitle).foregroundStyle(Palette.ink)
+                    Text("Trois petites choses, chaque jour.").font(.aBody).foregroundStyle(Palette.muted)
+                }
+                .opacity(shown >= 1 ? 1 : 0)
+                .offset(y: shown >= 1 ? 0 : 12)
+
                 ForEach(Array(rows.enumerated()), id: \.offset) { i, row in
                     HStack(spacing: 14) {
-                        ArtImage(name: row.0).frame(width: 104, height: 112)
+                        ArtImage(name: row.0).frame(width: 104, height: 120)
                         VStack(alignment: .leading, spacing: 4) {
                             Text(row.1).font(.aCardTitle).foregroundStyle(Palette.ink)
                             Text(row.2).font(.aSmall).foregroundStyle(Palette.muted)
@@ -46,7 +53,18 @@ struct PromiseScreen: View {
                     .padding(.trailing, 14)
                     .background(Palette.card)
                     .clipShape(RoundedRectangle(cornerRadius: 16))
-                    .appearUp(0.1 + Double(i) * 0.12)
+                    .opacity(shown >= i + 2 ? 1 : 0)
+                    .offset(y: shown >= i + 2 ? 0 : 16)
+                }
+            }
+            .padding(.horizontal, 24)
+            .padding(.top, 48)
+        }
+        .onAppear {
+            for i in 1...(rows.count + 1) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4 + Double(i - 1) * pace) {
+                    withAnimation(.easeOut(duration: 1.1)) { shown = i }
+                    Haptics.soft()
                 }
             }
         }

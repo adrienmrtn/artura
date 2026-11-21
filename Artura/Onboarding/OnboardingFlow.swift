@@ -1,18 +1,18 @@
 import SwiftUI
 
 enum OnbStep: Int, CaseIterable {
-    case welcome, quoteKlee, promise, gender
+    case welcome, quotes, promise, gender
     case flashTest, flashResult, help
-    case quoteNietzsche, phoneTime, statement, whatRemains, reviews
-    case quoteProust, arts, goal, level, tastes, movements, map, rhythm
+    case phoneTime, phoneResult, statement, whatRemains, reviews
+    case arts, goal, level, tastes, movements, map, rhythm
     case chooseCourse, lesson, quiz, streak
-    case quoteMalraux, reminder, loading, plan, account
-    case quoteWilde, commit
+    case reminder, loading, plan, account
+    case commit
     case trialIntro, trialTimeline, trialNotif, paywall
 
     /// Écrans qui affichent la barre de progression, dans l'ordre.
     static let numbered: [OnbStep] = [
-        .promise, .gender, .flashTest, .flashResult, .phoneTime, .arts, .goal, .level,
+        .gender, .flashTest, .flashResult, .phoneTime, .arts, .goal, .level,
         .tastes, .movements, .map, .rhythm, .chooseCourse, .lesson, .quiz, .streak,
         .reminder, .plan, .account
     ]
@@ -76,18 +76,17 @@ struct OnboardingFlow: View {
     private var screen: some View {
         switch step {
         case .welcome: WelcomeScreen(onNext: next, onLogin: { go(.account) })
-        case .quoteKlee: QuoteScreen(quote: .klee, onNext: next)
-        case .promise: PromiseScreen(onBack: back, onNext: next)
+        case .quotes: QuotesScreen(onNext: next)
+        case .promise: PromiseScreen(onNext: next)
         case .gender: GenderScreen(onBack: back, onNext: next)
         case .flashTest: FlashTestScreen(onBack: back, onNext: next)
         case .flashResult: FlashResultScreen(onBack: back, onNext: next)
         case .help: HelpScreen(onBack: back, onNext: next)
-        case .quoteNietzsche: QuoteScreen(quote: .nietzsche, onNext: next)
         case .phoneTime: PhoneTimeScreen(onBack: back, onNext: next)
+        case .phoneResult: PhoneResultScreen(onNext: next)
         case .statement: StatementScreen(onNext: next)
         case .whatRemains: WhatRemainsScreen(onBack: back, onNext: next)
         case .reviews: ReviewsScreen(onBack: back, onNext: next)
-        case .quoteProust: QuoteScreen(quote: .proust, onNext: next)
         case .arts: ArtsScreen(onBack: back, onNext: next)
         case .goal: GoalScreen(onBack: back, onNext: next)
         case .level: LevelScreen(onBack: back, onNext: next)
@@ -108,12 +107,10 @@ struct OnboardingFlow: View {
                 }
             }
         case .streak: StreakScreen(onNext: next)
-        case .quoteMalraux: QuoteScreen(quote: .malraux, onNext: next)
         case .reminder: ReminderScreen(onBack: back, onNext: next)
         case .loading: LoadingScreen(onNext: next)
         case .plan: PlanScreen(onBack: back, onNext: next)
         case .account: AccountScreen(onBack: back, onNext: next)
-        case .quoteWilde: QuoteScreen(quote: .wilde, onNext: next)
         case .commit: CommitScreen(onNext: next)
         case .trialIntro: TrialIntroScreen(onNext: next, onSkip: finish)
         case .trialTimeline: TrialTimelineScreen(onBack: back, onNext: next)
