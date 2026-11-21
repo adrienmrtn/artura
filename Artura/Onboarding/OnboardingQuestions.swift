@@ -117,7 +117,7 @@ struct MotivationScreen: View {
 
     private let options: [(title: String, symbol: String)] = [
         ("Apprendre l'art", "paintpalette.fill"),
-        ("Nourrir mon intelligence", "brain.head.profile"),
+        ("Me cultiver", "brain.head.profile"),
         ("Avoir de nouvelles choses à raconter", "bubble.left.and.bubble.right.fill"),
         ("Préparer un examen", "graduationcap.fill"),
         ("Pour le plaisir", "sparkles")

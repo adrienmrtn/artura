@@ -249,7 +249,6 @@ struct CountingText: View, Animatable {
 
     var body: some View {
         Text("\(Int(value.rounded()))\(suffix)")
-            .monospacedDigit()
     }
 }
 

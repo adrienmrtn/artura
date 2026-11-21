@@ -13,14 +13,25 @@ concurrency:
 
 jobs:
   build:
+    name: Xcode ${{ matrix.xcode }}
     runs-on: macos-15
-    timeout-minutes: 40
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        # 16.4 : le minimum pour ouvrir le projet. recent : le plus récent installé sur la machine.
+        xcode: ["16.4", "recent"]
     steps:
       - uses: actions/checkout@v4
-      - name: Version de Xcode
+      - name: Choix de Xcode
         run: |
+          if [ "${{ matrix.xcode }}" = "recent" ]; then
+            APP=$(ls -d /Applications/Xcode_[0-9]*.app | grep -vi beta | sort -V | tail -n 1)
+          else
+            APP=/Applications/Xcode_${{ matrix.xcode }}.app
+          fi
+          sudo xcode-select -s "$APP"
           xcodebuild -version
-          ls /Applications | grep -i xcode | tr '\n' ' '
       - name: Compilation (simulateur iPhone)
         run: |
           set -o pipefail
@@ -35,10 +46,12 @@ jobs:
           grep -E "^(error|ld|clang): " build.log | sort -u | head -n 40 || true
           echo "@@ERRORS_END"
       - name: Captures d'écran de l'onboarding
-        if: contains(github.event.head_commit.message, '[captures]')
+        if: matrix.xcode == 'recent' && contains(github.event.head_commit.message, '[captures]')
         run: |
           APP=$(find build/Build/Products -maxdepth 2 -name "Artura.app" | head -n 1)
-          DEVICE=$(xcrun simctl list devices available | grep -E "iPhone 16 \(" | head -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          # Le téléphone standard le plus récent disponible
+          DEVICE=$(xcrun simctl list devices available | grep -E "iPhone 1[0-9] \(" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          xcrun simctl list devices available | grep -E "iPhone" | tail -n 12
           echo "Simulateur : $DEVICE · appli : $APP"
           xcrun simctl boot "$DEVICE"
           xcrun simctl bootstatus "$DEVICE" -b >/dev/null
@@ -96,7 +109,7 @@ jobs:
           xcrun simctl io "$DEVICE" screenshot shots/39_today.png >/dev/null 2>&1
           xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
           # Quelques écrans denses sur un petit téléphone, pour vérifier que tout tient
-          SMALL=$(xcrun simctl list devices available | grep -E "iPhone SE \(3rd" | head -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          SMALL=$(xcrun simctl list devices available | grep -E "iPhone SE \(3rd|iPhone 16e" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
           if [ -n "$SMALL" ]; then
             xcrun simctl shutdown "$DEVICE" || true
             DEVICE=$SMALL

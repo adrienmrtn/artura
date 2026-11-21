@@ -265,28 +265,30 @@ struct WidgetScreen: View {
                 HStack(spacing: 10) {
                     if let artwork {
                         ArtImage(name: artwork.image)
-                            .frame(width: 46, height: 46)
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                            .frame(width: 40, height: 40)
+                            .clipShape(RoundedRectangle(cornerRadius: 9))
                     }
                     VStack(alignment: .leading, spacing: 1) {
                         Text("Œuvre du jour")
                             .font(.system(size: 10, weight: .semibold))
                             .foregroundStyle(.white.opacity(0.75))
                         Text(artwork?.title ?? "")
-                            .font(.system(size: 14, weight: .bold))
+                            .font(.system(size: 13, weight: .bold))
                             .foregroundStyle(.white)
                             .lineLimit(1)
+                            .minimumScaleFactor(0.7)
                         Text(artwork?.artist ?? "")
                             .font(.system(size: 11))
                             .foregroundStyle(.white.opacity(0.8))
                             .lineLimit(1)
+                            .minimumScaleFactor(0.7)
                     }
                     Spacer(minLength: 0)
                 }
-                .padding(10)
+                .padding(8)
                 .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(.white.opacity(0.16)))
                 .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(.white.opacity(0.28), lineWidth: 1))
-                .padding(.horizontal, 14)
+                .padding(.horizontal, 10)
                 .padding(.top, 8)
                 .scaleEffect(popped ? 1 : 0.86)
                 .opacity(popped ? 1 : 0)
@@ -791,7 +793,7 @@ struct AccountScreen: View {
 
             Spacer(minLength: 8)
 
-            MascotBubble(mascotSize: 150) {
+            MascotBubble(mascotSize: 132) {
                 VStack(spacing: 6) {
                     Text("Garde ta série et ta collection.")
                         .font(.figtree(24, .semibold))
@@ -811,13 +813,13 @@ struct AccountScreen: View {
                 keep("heart.fill", "Tes favoris")
                 keep("map.fill", "Ton programme")
             }
-            .padding(.top, 18)
+            .padding(.top, 14)
             .enter(2)
 
-            Spacer(minLength: 16)
+            Spacer(minLength: 10)
             Spacer(minLength: 0)
 
-            VStack(spacing: 10) {
+            VStack(spacing: 8) {
                 if let message {
                     Text(message)
                         .font(.aCaption)
@@ -875,6 +877,7 @@ struct AccountScreen: View {
                     .font(.figtree(12))
                     .foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
             }
             .enter(3)
         }

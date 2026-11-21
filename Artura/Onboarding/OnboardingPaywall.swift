@@ -720,7 +720,7 @@ struct ExitOfferSheet: View {
     var body: some View {
         VStack(spacing: 0) {
             // La Joconde retient le visiteur : c'est elle qui offre le pass.
-            MascotBubble(mascotSize: 112) {
+            MascotBubble(mascotSize: 100) {
                 VStack(spacing: 6) {
                     Text(title)
                         .font(.figtree(26, .bold))
@@ -731,15 +731,15 @@ struct ExitOfferSheet: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
             }
-            .padding(.top, 26)
+            .padding(.top, 18)
             .enter()
 
-            Spacer(minLength: 14)
+            Spacer(minLength: 10)
 
             ticket
                 .enter(2)
 
-            Spacer(minLength: 14)
+            Spacer(minLength: 10)
 
             VStack(spacing: 4) {
                 if let error = pro.lastError {
@@ -828,9 +828,9 @@ struct ExitOfferSheet: View {
                         .font(.figtree(13, .bold)).foregroundStyle(Palette.green)
                 }
             }
-            .padding(.horizontal, 20)
-            .padding(.top, 20)
-            .padding(.bottom, 18)
+            .padding(.horizontal, 18)
+            .padding(.top, 16)
+            .padding(.bottom, 14)
 
             // La ligne de découpe du talon
             Line()
@@ -848,18 +848,20 @@ struct ExitOfferSheet: View {
                 Spacer(minLength: 8)
                 // Le tampon « offert »
                 Text("+ \(extraDays) JOURS OFFERTS")
-                    .font(.figtree(12, .bold))
-                    .tracking(1)
+                    .font(.figtree(11, .bold))
+                    .tracking(0.5)
+                    .lineLimit(1)
+                    .fixedSize()
                     .foregroundStyle(Palette.green)
-                    .padding(.horizontal, 10)
-                    .frame(height: 30)
+                    .padding(.horizontal, 9)
+                    .frame(height: 28)
                     .overlay(RoundedRectangle(cornerRadius: 8).stroke(Palette.green, lineWidth: 2))
                     .rotationEffect(.degrees(-6))
                     .scaleEffect(stamped ? 1 : 1.6)
                     .opacity(stamped ? 1 : 0)
             }
-            .padding(.horizontal, 20)
-            .padding(.vertical, 16)
+            .padding(.horizontal, 18)
+            .padding(.vertical, 12)
         }
         .background(TicketShape().fill(.white).shadow(color: Palette.blueDark.opacity(0.12), radius: 16, y: 8))
         .overlay(TicketShape().stroke(Palette.blue, lineWidth: 1.5))
