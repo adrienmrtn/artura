@@ -1,39 +1,28 @@
 import SwiftUI
 
 enum OnbStep: Int, CaseIterable {
-    case welcome, promise, gender, look, help, understand, why, reviews
-    case goal, level, tastes, movements, rhythm, chooseCourse, lesson, quiz, streak
-    case reminder, loading, plan, account
+    case welcome, quoteKlee, promise, gender
+    case flashTest, flashResult, help
+    case quoteNietzsche, phoneTime, statement, whatRemains, reviews
+    case quoteProust, arts, goal, level, tastes, movements, map, rhythm
+    case chooseCourse, lesson, quiz, streak
+    case quoteMalraux, reminder, loading, plan, account
+    case quoteWilde, commit
     case trialIntro, trialTimeline, trialNotif, paywall
 
-    static let numberedTotal = 20
+    /// Écrans qui affichent la barre de progression, dans l'ordre.
+    static let numbered: [OnbStep] = [
+        .promise, .gender, .flashTest, .flashResult, .phoneTime, .arts, .goal, .level,
+        .tastes, .movements, .map, .rhythm, .chooseCourse, .lesson, .quiz, .streak,
+        .reminder, .plan, .account
+    ]
+
+    static var numberedTotal: Int { numbered.count }
 
     /// Numéro affiché dans la barre de progression (nil = écran sans compteur).
     var number: Int? {
-        switch self {
-        case .welcome: return nil
-        case .promise: return 2
-        case .gender: return 3
-        case .look: return 4
-        case .help: return 5
-        case .understand: return 6
-        case .why: return 7
-        case .reviews: return nil
-        case .goal: return 8
-        case .level: return 9
-        case .tastes: return 10
-        case .movements: return 11
-        case .rhythm: return 12
-        case .chooseCourse: return 13
-        case .lesson: return 14
-        case .quiz: return 15
-        case .streak: return 16
-        case .reminder: return 17
-        case .loading: return nil
-        case .plan: return 18
-        case .account: return 19
-        case .trialIntro, .trialTimeline, .trialNotif, .paywall: return nil
-        }
+        guard let i = Self.numbered.firstIndex(of: self) else { return nil }
+        return i + 1
     }
 }
 
@@ -87,17 +76,24 @@ struct OnboardingFlow: View {
     private var screen: some View {
         switch step {
         case .welcome: WelcomeScreen(onNext: next, onLogin: { go(.account) })
+        case .quoteKlee: QuoteScreen(quote: .klee, onNext: next)
         case .promise: PromiseScreen(onBack: back, onNext: next)
         case .gender: GenderScreen(onBack: back, onNext: next)
-        case .look: LookScreen(onBack: back, onNext: next)
+        case .flashTest: FlashTestScreen(onBack: back, onNext: next)
+        case .flashResult: FlashResultScreen(onBack: back, onNext: next)
         case .help: HelpScreen(onBack: back, onNext: next)
-        case .understand: UnderstandScreen(onBack: back, onNext: next)
-        case .why: WhyScreen(onBack: back, onNext: next)
+        case .quoteNietzsche: QuoteScreen(quote: .nietzsche, onNext: next)
+        case .phoneTime: PhoneTimeScreen(onBack: back, onNext: next)
+        case .statement: StatementScreen(onNext: next)
+        case .whatRemains: WhatRemainsScreen(onBack: back, onNext: next)
         case .reviews: ReviewsScreen(onBack: back, onNext: next)
+        case .quoteProust: QuoteScreen(quote: .proust, onNext: next)
+        case .arts: ArtsScreen(onBack: back, onNext: next)
         case .goal: GoalScreen(onBack: back, onNext: next)
         case .level: LevelScreen(onBack: back, onNext: next)
         case .tastes: TastesScreen(onBack: back, onNext: next)
         case .movements: MovementsScreen(onBack: back, onNext: next)
+        case .map: MapScreen(onBack: back, onNext: next)
         case .rhythm: RhythmScreen(onBack: back, onNext: next)
         case .chooseCourse: ChooseCourseScreen(onBack: back, onNext: next)
         case .lesson:
@@ -112,10 +108,13 @@ struct OnboardingFlow: View {
                 }
             }
         case .streak: StreakScreen(onNext: next)
+        case .quoteMalraux: QuoteScreen(quote: .malraux, onNext: next)
         case .reminder: ReminderScreen(onBack: back, onNext: next)
         case .loading: LoadingScreen(onNext: next)
         case .plan: PlanScreen(onBack: back, onNext: next)
         case .account: AccountScreen(onBack: back, onNext: next)
+        case .quoteWilde: QuoteScreen(quote: .wilde, onNext: next)
+        case .commit: CommitScreen(onNext: next)
         case .trialIntro: TrialIntroScreen(onNext: next, onSkip: finish)
         case .trialTimeline: TrialTimelineScreen(onBack: back, onNext: next)
         case .trialNotif: TrialNotifScreen(onBack: back, onNext: next)

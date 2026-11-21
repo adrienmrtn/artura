@@ -286,8 +286,8 @@ struct PlanScreen: View {
 
     var body: some View {
         OnbScaffold(number: OnbStep.plan.number, onBack: onBack,
-                    title: "Ton programme est prêt",
-                    subtitle: "Construit à partir de tes réponses.", cta: "Ça me va", onNext: onNext) {
+                    title: "Dans 30 jours",
+                    subtitle: "Voici où tu en seras, à ton rythme.", cta: "Ça me va", onNext: onNext) {
             Group {
                 if picking {
                     AvatarPicker(selection: $user.profile.avatar) {
@@ -341,10 +341,15 @@ struct PlanScreen: View {
                 .appearUp(0.15)
             }
 
+            HStack(spacing: 10) {
+                projection("\(min(30, content.artworks.count))", "œuvres")
+                projection(hoursIn30Days, "de regard")
+                projection("\(max(1, user.profile.movements.count))", user.profile.movements.count > 1 ? "courants" : "courant")
+            }
+            .appearUp(0.2)
+
             VStack(spacing: 0) {
                 recap("Objectif", user.profile.goal ?? "À définir")
-                Divider()
-                recap("Niveau", user.profile.level ?? "À définir")
                 Divider()
                 recap("Chaque jour", "\(user.profile.minutes) min")
                 Divider()
@@ -354,6 +359,23 @@ struct PlanScreen: View {
             .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
             .appearUp(0.25)
         }
+    }
+
+    /// Temps de regard cumulé sur 30 jours, d'après le rythme choisi.
+    private var hoursIn30Days: String {
+        let minutes = user.profile.minutes * 30
+        return minutes % 60 == 0 ? "\(minutes / 60) h" : "\(minutes / 60) h \(minutes % 60)"
+    }
+
+    private func projection(_ value: String, _ label: String) -> some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text(value).font(.figtree(24, .semibold))
+            Text(label).font(.figtree(13, .medium))
+        }
+        .foregroundStyle(Palette.ink)
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.blueSoft))
     }
 
     private func recap(_ label: String, _ value: String) -> some View {
