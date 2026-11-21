@@ -1,0 +1,74 @@
+{
+  "identifier" : "A7C3E901",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "fr",
+    "_storefront" : "FRA"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21500001",
+      "localizations" : [],
+      "name" : "Artura Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6750000001",
+          "introductoryOffer" : {
+            "internalID" : "6750000011",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Tous les jeux, parcours et histoires audio",
+              "displayName" : "Artura Pro annuel",
+              "locale" : "fr"
+            }
+          ],
+          "productID" : "com.vikstudios.artura.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Artura Pro annuel",
+          "subscriptionGroupID" : "21500001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6750000002",
+          "introductoryOffer" : {
+            "internalID" : "6750000012",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Tous les jeux, parcours et histoires audio",
+              "displayName" : "Artura Pro mensuel",
+              "locale" : "fr"
+            }
+          ],
+          "productID" : "com.vikstudios.artura.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Artura Pro mensuel",
+          "subscriptionGroupID" : "21500001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
