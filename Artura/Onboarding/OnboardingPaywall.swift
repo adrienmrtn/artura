@@ -1,24 +1,24 @@
 import SwiftUI
 import StoreKit
 
-// MARK: Essai gratuit · 1
+// MARK: Free trial · 1
 
 struct TrialIntroScreen: View {
     let onNext: () -> Void
     let onSkip: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_premium", onNext: onNext, secondaryTitle: "Non merci", onSecondary: onSkip) {
-            TagPill(text: "3 jours offerts").appearUp(0.1)
-            Text("On veut que tu essaies Artura Pro gratuitement")
+        HeroScaffold(image: "ill_premium", onNext: onNext, secondaryTitle: "No thanks", onSecondary: onSkip) {
+            TagPill(text: "3 days free").appearUp(0.1)
+            Text("We want you to try Artura Pro for free")
                 .font(.figtree(30, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
-            Text("Trois jours pour tout découvrir. Rien à payer aujourd'hui.")
+            Text("Three days to explore everything. Nothing to pay today.")
                 .font(.aBody).foregroundStyle(Palette.muted).appearUp(0.3)
         }
     }
 }
 
-// MARK: Essai gratuit · 2 (frise)
+// MARK: Free trial · 2 (timeline)
 
 struct TrialTimelineScreen: View {
     let onBack: () -> Void
@@ -26,13 +26,13 @@ struct TrialTimelineScreen: View {
     @State private var grow = false
 
     private let steps: [(String, String, String, String)] = [
-        ("lock.open.fill", "Aujourd'hui", "Tout est débloqué", "Jeux sans limite, tous les parcours, les histoires en audio."),
-        ("bell.fill", "Jour 2", "On te prévient", "Une notification te rappelle que l'essai se termine le lendemain."),
-        ("star.fill", "Jour 3", "Ton abonnement commence", "Sauf si tu annules avant. Dans ce cas, tu ne paies rien.")
+        ("lock.open.fill", "Today", "Everything's unlocked", "Unlimited games, every path, and audio stories."),
+        ("bell.fill", "Day 2", "We'll remind you", "You'll get a notification that your trial ends the next day."),
+        ("star.fill", "Day 3", "Your subscription starts", "Unless you cancel before then. If you do, you pay nothing.")
     ]
 
     var body: some View {
-        OnbScaffold(onBack: onBack, title: "Comment se passe ton essai gratuit", onNext: onNext) {
+        OnbScaffold(onBack: onBack, title: "How your free trial works", onNext: onNext) {
             ZStack(alignment: .topLeading) {
                 Capsule().fill(Palette.line).frame(width: 6, height: 300).offset(x: 21, y: 22)
                 Capsule().fill(Palette.blue).frame(width: 6, height: grow ? 90 : 0).offset(x: 21, y: 22)
@@ -68,7 +68,7 @@ struct TrialTimelineScreen: View {
     }
 }
 
-// MARK: Essai gratuit · 3 (notification)
+// MARK: Free trial · 3 (notification)
 
 struct TrialNotifScreen: View {
     let onBack: () -> Void
@@ -76,18 +76,18 @@ struct TrialNotifScreen: View {
     @State private var dropped = false
 
     var body: some View {
-        OnbScaffold(onBack: onBack, title: "On t'envoie une notification 1 jour avant la fin",
-                    subtitle: "Pas de mauvaise surprise : tu décides en connaissance de cause.", onNext: onNext) {
+        OnbScaffold(onBack: onBack, title: "We'll notify you 1 day before it ends",
+                    subtitle: "No surprises. You decide with all the facts.", onNext: onNext) {
             ZStack(alignment: .top) {
                 ArtImage(name: "ill_rappel", anchor: UnitPoint(x: 0.5, y: 0.8))
                 VStack(alignment: .leading, spacing: 4) {
                     HStack {
                         Text("Artura").font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
                         Spacer()
-                        Text("Jour 2 · 9 h 00").font(.figtree(12)).foregroundStyle(Palette.muted)
+                        Text("Day 2 · 9:00 AM").font(.figtree(12)).foregroundStyle(Palette.muted)
                     }
-                    Text("Ton essai gratuit se termine demain").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
-                    Text("Tu peux continuer avec Artura Pro ou annuler en un geste.")
+                    Text("Your free trial ends tomorrow").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                    Text("Keep going with Artura Pro or cancel in one tap.")
                         .font(.aSmall).foregroundStyle(Palette.muted)
                         .fixedSize(horizontal: false, vertical: true)
                 }
@@ -118,10 +118,10 @@ struct PaywallScreen: View {
     @State private var yearlySelected = true
 
     private let benefits = [
-        "Tous les jeux, sans limite quotidienne",
-        "Tous les parcours et leurs leçons",
-        "Les histoires en version audio",
-        "Aucune publicité"
+        "All the games, no daily limit",
+        "Every path and its lessons",
+        "Audio versions of the stories",
+        "No ads"
     ]
 
     private var selectedProduct: Product? { yearlySelected ? pro.yearly : pro.monthly }
@@ -141,13 +141,13 @@ struct PaywallScreen: View {
                         .background(Circle().fill(.white))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Fermer et continuer gratuitement")
+                .accessibilityLabel("Close and continue for free")
                 .padding(.trailing, 16)
                 .padding(.top, 8)
             }
 
             VStack(spacing: 14) {
-                Text("Démarre tes 3 jours d'Artura Pro")
+                Text("Start your 3 days of Artura Pro")
                     .font(.aTitleSmall).foregroundStyle(Palette.ink).multilineTextAlignment(.center)
 
                 VStack(alignment: .leading, spacing: 9) {
@@ -162,10 +162,10 @@ struct PaywallScreen: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal, 6)
 
-                planRow(title: "Annuel", price: pro.yearly.map { "\($0.displayPrice) / an" }, badge: "3 jours gratuits", selected: yearlySelected) {
+                planRow(title: "Yearly", price: pro.yearly.map { "\($0.displayPrice) per year" }, badge: "3 days free", selected: yearlySelected) {
                     yearlySelected = true
                 }
-                planRow(title: "Mensuel", price: pro.monthly.map { "\($0.displayPrice) / mois" }, badge: nil, selected: !yearlySelected) {
+                planRow(title: "Monthly", price: pro.monthly.map { "\($0.displayPrice) per month" }, badge: nil, selected: !yearlySelected) {
                     yearlySelected = false
                 }
                 if let error = pro.lastError {
@@ -184,15 +184,15 @@ struct PaywallScreen: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("Commencer l'essai gratuit")
+                        Text("Start free trial")
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(selectedProduct == nil || pro.isPurchasing)
                 .opacity(selectedProduct == nil ? 0.4 : 1)
 
-                TextLinkButton(title: "Plus tard", action: onClose)
-                Button("Restaurer mes achats") {
+                TextLinkButton(title: "Not now", action: onClose)
+                Button("Restore purchases") {
                     Task {
                         await pro.restore()
                         if pro.isPro {
@@ -226,7 +226,7 @@ struct PaywallScreen: View {
                     Text(title).font(.bodyStrong).foregroundStyle(Palette.ink)
                 }
                 Spacer(minLength: 8)
-                Text(price ?? "Prix indisponible").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                Text(price ?? "Price unavailable").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 if selected { CheckBadge().transition(.scale) }
             }
             .padding(.horizontal, 18)

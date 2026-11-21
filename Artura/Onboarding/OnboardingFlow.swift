@@ -10,7 +10,7 @@ enum OnbStep: Int, CaseIterable {
     case commit
     case trialIntro, trialTimeline, trialNotif, paywall
 
-    /// Écrans qui affichent la barre de progression, dans l'ordre.
+    /// Screens that show the progress bar, in order.
     static let numbered: [OnbStep] = [
         .gender, .flashTest, .flashResult, .phoneTime, .arts, .goal, .level,
         .tastes, .movements, .rhythm, .chooseCourse, .lesson, .quiz, .streak,
@@ -19,7 +19,7 @@ enum OnbStep: Int, CaseIterable {
 
     static var numberedTotal: Int { numbered.count }
 
-    /// Numéro affiché dans la barre de progression (nil = écran sans compteur).
+    /// Number shown in the progress bar (nil = screen without a counter).
     var number: Int? {
         guard let i = Self.numbered.firstIndex(of: self) else { return nil }
         return i + 1
@@ -49,7 +49,7 @@ struct OnboardingFlow: View {
     private func go(_ target: OnbStep, forward isForward: Bool = true) {
         forward = isForward
         withAnimation(.easeInOut(duration: 0.2)) { step = target }
-        // Petit « toc » quand le nouvel écran se pose.
+        // Small tap when the new screen settles.
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) { Haptics.soft() }
     }
 
@@ -96,7 +96,7 @@ struct OnboardingFlow: View {
         case .chooseCourse: ChooseCourseScreen(onBack: back, onNext: next)
         case .lesson:
             if let course {
-                LessonView(artwork: course, pill: "Ton premier cours", onBack: back, onFinish: next)
+                LessonView(artwork: course, pill: "Your first lesson", onBack: back, onFinish: next)
             }
         case .quiz:
             if let course {
@@ -119,15 +119,15 @@ struct OnboardingFlow: View {
     }
 }
 
-// MARK: - Gabarits d'écran
+// MARK: - Screen scaffolds
 
-/// Gabarit des écrans de question : barre de progression, titre, contenu, bouton.
+/// Scaffold for question screens: progress bar, title, content, button.
 struct OnbScaffold<Content: View>: View {
     var number: Int? = nil
     var onBack: (() -> Void)? = nil
     let title: String
     var subtitle: String? = nil
-    var cta: String = "Continuer"
+    var cta: String = "Continue"
     var ctaEnabled: Bool = true
     let onNext: () -> Void
     var secondaryTitle: String? = nil
@@ -195,13 +195,13 @@ struct OnbScaffold<Content: View>: View {
     }
 }
 
-/// Gabarit des écrans à grande illustration en haut.
+/// Scaffold for screens with a large illustration on top.
 struct HeroScaffold<Content: View>: View {
     let image: String
     var imageHeight: CGFloat = 410
     var number: Int? = nil
     var onBack: (() -> Void)? = nil
-    var cta: String = "Continuer"
+    var cta: String = "Continue"
     let onNext: () -> Void
     var secondaryTitle: String? = nil
     var onSecondary: (() -> Void)? = nil
@@ -267,7 +267,7 @@ struct HeroScaffold<Content: View>: View {
     }
 }
 
-// MARK: - Mise en page « pastilles qui passent à la ligne »
+// MARK: - Layout: pills that wrap onto the next line
 
 struct FlowLayout: Layout {
     var spacing: CGFloat = 10

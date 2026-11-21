@@ -1,26 +1,32 @@
 import SwiftUI
 
-// MARK: 8 · Ton objectif
+// MARK: 8 · Your goal
 
 struct GoalScreen: View {
     @EnvironmentObject private var user: UserStore
     let onBack: () -> Void
     let onNext: () -> Void
 
-    static let goals: [(String, String)] = [
-        ("Enrichir ma culture générale", "Savoir de quoi on parle, enfin"),
-        ("Me détendre quelques minutes", "Une pause loin des écrans qui crient"),
-        ("Préparer une visite au musée", "Arriver devant les tableaux en les connaissant"),
-        ("Par simple curiosité", "On verra bien où ça mène")
+    /// (stored value, displayed label, subtitle). The stored value stays as is so saved profiles keep working.
+    static let goals: [(String, String, String)] = [
+        ("Enrichir ma culture générale", "Build my general knowledge", "Finally know what everyone's talking about"),
+        ("Me détendre quelques minutes", "Unwind for a few minutes", "A break from all the noisy screens"),
+        ("Préparer une visite au musée", "Get ready for a museum visit", "Walk in already knowing the paintings"),
+        ("Par simple curiosité", "Just curious", "Let's see where it leads")
     ]
 
+    /// Displayed label for a stored goal value.
+    static func label(for value: String) -> String {
+        goals.first(where: { $0.0 == value })?.1 ?? value
+    }
+
     var body: some View {
-        OnbScaffold(number: OnbStep.goal.number, onBack: onBack, title: "Qu'est-ce qui t'amène ?",
-                    subtitle: "Choisis ce qui te ressemble le plus.",
+        OnbScaffold(number: OnbStep.goal.number, onBack: onBack, title: "What brings you here?",
+                    subtitle: "Pick the one that sounds most like you.",
                     ctaEnabled: user.profile.goal != nil, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(Self.goals.enumerated()), id: \.offset) { i, goal in
-                    OptionRow(title: goal.0, subtitle: goal.1, selected: user.profile.goal == goal.0) {
+                    OptionRow(title: goal.1, subtitle: goal.2, selected: user.profile.goal == goal.0) {
                         user.profile.goal = goal.0
                     }
                     .appearUp(0.08 * Double(i + 1))
@@ -30,7 +36,7 @@ struct GoalScreen: View {
     }
 }
 
-// MARK: 9 · Ton niveau
+// MARK: 9 · Your level
 
 struct LevelScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -38,14 +44,14 @@ struct LevelScreen: View {
     let onNext: () -> Void
 
     private let levels: [(String, String, String)] = [
-        ("Débutant", "Je reconnais la Joconde, et c'est déjà pas mal.", "art_joconde"),
-        ("Amateur", "Je connais quelques artistes et courants.", "art_nuit"),
-        ("Connaisseur", "Je distingue un Monet d'un Manet.", "art_impression")
+        ("Beginner", "I can spot the Mona Lisa, and that's a start.", "art_joconde"),
+        ("Enthusiast", "I know a few artists and movements.", "art_nuit"),
+        ("Connoisseur", "I can tell a Monet from a Manet.", "art_impression")
     ]
 
     var body: some View {
-        OnbScaffold(number: OnbStep.level.number, onBack: onBack, title: "Où en es-tu avec l'art ?",
-                    subtitle: "Ça règle la difficulté des jeux. Tu pourras changer.",
+        OnbScaffold(number: OnbStep.level.number, onBack: onBack, title: "How well do you know art?",
+                    subtitle: "This sets how hard the games are. You can change it later.",
                     ctaEnabled: user.profile.level != nil, onNext: onNext) {
             VStack(spacing: 12) {
                 ForEach(Array(levels.enumerated()), id: \.offset) { i, level in
@@ -80,7 +86,7 @@ struct LevelScreen: View {
     }
 }
 
-// MARK: 10 · Tes goûts
+// MARK: 10 · Your tastes
 
 struct TastesScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -92,9 +98,9 @@ struct TastesScreen: View {
     private var remaining: Int { 3 - user.profile.liked.count }
 
     var body: some View {
-        OnbScaffold(number: OnbStep.tastes.number, onBack: onBack, title: "Choisis 3 œuvres qui t'attirent",
-                    subtitle: "Sans réfléchir. On s'en sert pour tes recommandations.",
-                    cta: remaining > 0 ? "Encore \(remaining)" : "Continuer",
+        OnbScaffold(number: OnbStep.tastes.number, onBack: onBack, title: "Pick 3 artworks you're drawn to",
+                    subtitle: "Don't overthink it. We'll use them for your recommendations.",
+                    cta: remaining > 0 ? "\(remaining) more to go" : "Continue",
                     ctaEnabled: remaining <= 0, onNext: onNext) {
             LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible())], spacing: 12) {
                 ForEach(Array(ids.enumerated()), id: \.offset) { i, id in
@@ -124,7 +130,7 @@ struct TastesScreen: View {
     }
 }
 
-// MARK: 11 · Tes courants
+// MARK: 11 · Your movements
 
 struct MovementsScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -133,10 +139,10 @@ struct MovementsScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        OnbScaffold(number: OnbStep.movements.number, onBack: onBack, title: "Quels courants t'intriguent ?",
-                    subtitle: "Autant que tu veux.",
-                    cta: user.profile.movements.isEmpty ? "Continuer" : "Continuer · \(user.profile.movements.count)",
-                    onNext: onNext, secondaryTitle: "Je ne sais pas encore", onSecondary: onNext) {
+        OnbScaffold(number: OnbStep.movements.number, onBack: onBack, title: "Which movements intrigue you?",
+                    subtitle: "As many as you like.",
+                    cta: user.profile.movements.isEmpty ? "Continue" : "Continue · \(user.profile.movements.count)",
+                    onNext: onNext, secondaryTitle: "Not sure yet", onSecondary: onNext) {
             FlowLayout(spacing: 10) {
                 ForEach(content.movements) { movement in
                     let selected = user.profile.movements.contains(movement.id)
@@ -164,7 +170,7 @@ struct MovementsScreen: View {
     }
 }
 
-// MARK: 12 · Ton rythme
+// MARK: 12 · Your pace
 
 struct RhythmScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -172,14 +178,14 @@ struct RhythmScreen: View {
     let onNext: () -> Void
 
     private let options: [(Int, String, String)] = [
-        (2, "Tranquille", "Juste l'œuvre du jour"),
-        (5, "Régulier", "L'œuvre et un jeu"),
-        (10, "Passionné", "L'œuvre, un jeu et une leçon")
+        (2, "Easygoing", "Just the artwork of the day"),
+        (5, "Steady", "The artwork and a game"),
+        (10, "Devoted", "The artwork, a game, and a lesson")
     ]
 
     var body: some View {
-        OnbScaffold(number: OnbStep.rhythm.number, onBack: onBack, title: "Combien de temps par jour ?",
-                    subtitle: "Mieux vaut peu et tous les jours.", onNext: onNext) {
+        OnbScaffold(number: OnbStep.rhythm.number, onBack: onBack, title: "How much time each day?",
+                    subtitle: "A little every day works best.", onNext: onNext) {
             VStack(spacing: 12) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
                     let selected = user.profile.minutes == option.0
@@ -193,7 +199,7 @@ struct RhythmScreen: View {
                                 .foregroundStyle(Palette.ink)
                                 .frame(width: 84, alignment: .leading)
                             VStack(alignment: .leading, spacing: 2) {
-                                if option.0 == 5 { TagPill(text: "Conseillé") }
+                                if option.0 == 5 { TagPill(text: "Recommended") }
                                 Text(option.1).font(.bodyStrong).foregroundStyle(Palette.ink)
                                 Text(option.2).font(.aSmall).foregroundStyle(Palette.muted)
                             }
@@ -214,7 +220,7 @@ struct RhythmScreen: View {
     }
 }
 
-// MARK: 13 · Choix du premier cours
+// MARK: 13 · Choosing the first lesson
 
 struct ChooseCourseScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -228,9 +234,9 @@ struct ChooseCourseScreen: View {
     }
 
     var body: some View {
-        OnbScaffold(number: OnbStep.chooseCourse.number, onBack: onBack, title: "Choisis ton premier cours",
-                    subtitle: "Parmi les œuvres qui t'ont \(user.agree("attiré", "attirée")) tout à l'heure.",
-                    cta: "Commencer ce cours", ctaEnabled: user.profile.firstCourse != nil, onNext: onNext) {
+        OnbScaffold(number: OnbStep.chooseCourse.number, onBack: onBack, title: "Choose your first lesson",
+                    subtitle: "From the artworks that caught your eye earlier.",
+                    cta: "Start this lesson", ctaEnabled: user.profile.firstCourse != nil, onNext: onNext) {
             VStack(spacing: 12) {
                 ForEach(Array(choices.enumerated()), id: \.element.id) { i, art in
                     let selected = user.profile.firstCourse == art.id
@@ -244,7 +250,7 @@ struct ChooseCourseScreen: View {
                                 Text(art.title).font(.aCardTitle).foregroundStyle(Palette.ink)
                                     .multilineTextAlignment(.leading)
                                 Text(art.meta).font(.aSmall).foregroundStyle(Palette.muted)
-                                Text("Cours 3 min · quiz \(art.quiz.count) questions").font(.aCaption).foregroundStyle(Palette.muted)
+                                Text("3-min lesson · \(art.quiz.count)-question quiz").font(.aCaption).foregroundStyle(Palette.muted)
                             }
                             Spacer(minLength: 0)
                             if selected { CheckBadge().padding(.trailing, 14).transition(.scale) }
@@ -267,7 +273,7 @@ struct ChooseCourseScreen: View {
     }
 }
 
-// MARK: 16 · Série lancée
+// MARK: 16 · Streak started
 
 struct StreakScreen: View {
     let onNext: () -> Void
@@ -276,8 +282,8 @@ struct StreakScreen: View {
     var body: some View {
         ZStack {
             HeroScaffold(image: "ill_serie", number: OnbStep.streak.number, onNext: onNext) {
-                Text("Jour 1, c'est parti").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.1)
-                Text("Un cours lu, un quiz terminé. Reviens demain pour faire grandir ta série.")
+                Text("Day 1, here we go").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.1)
+                Text("One lesson read, one quiz done. Come back tomorrow to grow your streak.")
                     .font(.aBody).foregroundStyle(Palette.muted).appearUp(0.2)
                 HStack(spacing: 6) {
                     ForEach(1...7, id: \.self) { day in
@@ -292,7 +298,7 @@ struct StreakScreen: View {
                                 }
                             }
                             .frame(width: 36, height: 36)
-                            Text("J\(day)")
+                            Text("Day \(day)")
                                 .font(.figtree(12, day == 1 ? .bold : .regular))
                                 .foregroundStyle(day == 1 ? Palette.ink : Palette.muted)
                         }

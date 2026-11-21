@@ -1,9 +1,9 @@
 import SwiftUI
 
-// MARK: - Écran lent : pas de bouton, on touche pour continuer une fois l'animation finie
+// MARK: - Slow screen: no button, tap to continue once the animation is done
 
 struct SlowScreen<Content: View>: View {
-    /// Durée de l'animation, en secondes. Avant la fin, toucher l'écran ne fait rien.
+    /// Animation duration, in seconds. Tapping the screen does nothing before it ends.
     let duration: Double
     var dark: Bool = false
     let onNext: () -> Void
@@ -17,7 +17,7 @@ struct SlowScreen<Content: View>: View {
             (dark ? Color(hex: 0x171514) : Color.white).ignoresSafeArea()
             content()
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-            Text("Touche pour continuer")
+            Text("Tap to continue")
                 .font(.figtree(14, .medium))
                 .foregroundStyle(dark ? Color.white.opacity(0.8) : Palette.muted)
                 .opacity(ready ? (pulse ? 1 : 0.45) : 0)
@@ -33,7 +33,7 @@ struct SlowScreen<Content: View>: View {
             onNext()
         }
         .accessibilityAddTraits(.isButton)
-        .accessibilityHint("Touche pour continuer")
+        .accessibilityHint("Tap to continue")
         .task {
             try? await Task.sleep(nanoseconds: UInt64(duration * 1_000_000_000))
             withAnimation(.easeInOut(duration: 0.6)) { ready = true }
@@ -43,7 +43,7 @@ struct SlowScreen<Content: View>: View {
     }
 }
 
-// MARK: - Citations : un seul écran, elles apparaissent une à une
+// MARK: - Quotes: a single screen, they appear one by one
 
 struct Quote: Identifiable {
     let image: String
@@ -52,13 +52,13 @@ struct Quote: Identifiable {
     let role: String
     var id: String { author }
 
-    // Citations à faire vérifier (source et traduction) avant la mise en ligne.
+    // Quotes to be verified (source and translation) before launch.
     static let all: [Quote] = [
-        Quote(image: "portrait_klee", text: "L'art ne reproduit pas le visible, il rend visible.", author: "Paul Klee", role: "Peintre"),
-        Quote(image: "portrait_nietzsche", text: "Nous avons l'art pour ne pas mourir de la vérité.", author: "Friedrich Nietzsche", role: "Philosophe"),
-        Quote(image: "portrait_proust", text: "Par l'art seulement, nous pouvons sortir de nous.", author: "Marcel Proust", role: "Écrivain"),
-        Quote(image: "portrait_malraux", text: "L'art est un anti-destin.", author: "André Malraux", role: "Écrivain"),
-        Quote(image: "portrait_wilde", text: "La vie imite l'art bien plus que l'art n'imite la vie.", author: "Oscar Wilde", role: "Écrivain")
+        Quote(image: "portrait_klee", text: "Art does not reproduce the visible; it makes visible.", author: "Paul Klee", role: "Painter"),
+        Quote(image: "portrait_nietzsche", text: "We have art so that we shall not die of the truth.", author: "Friedrich Nietzsche", role: "Philosopher"),
+        Quote(image: "portrait_proust", text: "Through art alone are we able to emerge from ourselves.", author: "Marcel Proust", role: "Writer"),
+        Quote(image: "portrait_malraux", text: "Art is an anti-destiny.", author: "André Malraux", role: "Writer"),
+        Quote(image: "portrait_wilde", text: "Life imitates art far more than art imitates life.", author: "Oscar Wilde", role: "Writer")
     ]
 }
 
@@ -81,7 +81,7 @@ struct QuotesScreen: View {
                             .frame(width: 60, height: 60)
                             .clipShape(Circle())
                         VStack(alignment: .leading, spacing: 4) {
-                            Text("« \(quote.text) »")
+                            Text("“\(quote.text)”")
                                 .font(.figtree(18, .semibold))
                                 .foregroundStyle(.white)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -99,7 +99,7 @@ struct QuotesScreen: View {
             .padding(.top, 36)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
 
-            Text(allShown ? "Touche pour continuer" : "Touche pour la suivante")
+            Text(allShown ? "Tap to continue" : "Tap for the next one")
                 .font(.figtree(14, .medium))
                 .foregroundStyle(Color.white.opacity(0.8))
                 .opacity(shown == 0 ? 0 : (pulse ? 1 : 0.45))
@@ -108,9 +108,9 @@ struct QuotesScreen: View {
         .contentShape(Rectangle())
         .onTapGesture(perform: advance)
         .accessibilityAddTraits(.isButton)
-        .accessibilityHint(allShown ? "Touche pour continuer" : "Touche pour afficher la citation suivante")
+        .accessibilityHint(allShown ? "Tap to continue" : "Tap to show the next quote")
         .onAppear {
-            // La première citation arrive seule ; les suivantes au toucher.
+            // The first quote appears on its own; the next ones on tap.
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 if shown == 0 { reveal() }
                 withAnimation(.easeInOut(duration: 1.3).repeatForever(autoreverses: true)) { pulse = true }
@@ -133,7 +133,7 @@ struct QuotesScreen: View {
     }
 }
 
-// MARK: - Test éclair : 5 chefs-d'œuvre empilés, oui ou non
+// MARK: - Quick test: 5 stacked masterpieces, yes or no
 
 struct FlashTestScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -147,7 +147,7 @@ struct FlashTestScreen: View {
     @State private var drag: CGSize = .zero
     @State private var armed = false
     @State private var known: [String] = []
-    /// Cartes déjà notées et le côté par lequel elles sont sorties.
+    /// Cards already answered and the side they left from.
     @State private var gone: [String: CGFloat] = [:]
 
     private var cards: [Artwork] { Self.ids.compactMap { content.artwork($0) } }
@@ -163,24 +163,24 @@ struct FlashTestScreen: View {
                 }
                 .buttonStyle(.pressable)
                 .padding(.leading, -12)
-                .accessibilityLabel("Retour")
+                .accessibilityLabel("Back")
                 ProgressTrack(value: Double(index) / Double(max(1, cards.count)))
                 Text("\(min(index + 1, cards.count)) / \(cards.count)")
                     .font(.figtree(14, .medium)).foregroundStyle(Palette.muted)
             }
 
             VStack(alignment: .leading, spacing: 6) {
-                TagPill(text: "Test éclair · 10 secondes")
-                Text("Tu la reconnais ?").font(.aTitle).foregroundStyle(Palette.ink)
-                Text("Sans tricher. Glisse la carte, ou réponds avec les boutons.")
+                TagPill(text: "Quick test · 10 seconds")
+                Text("Recognize it?").font(.aTitle).foregroundStyle(Palette.ink)
+                Text("No cheating. Swipe the card, or use the buttons.")
                     .font(.aBody).foregroundStyle(Palette.muted)
             }
 
-            // Pile de cartes : la suivante dépasse derrière celle du dessus.
+            // Card stack: the next one peeks out behind the top one.
             ZStack {
                 ForEach(Array(cards.enumerated()).reversed(), id: \.element.id) { i, art in
                     if i <= index + 2 {
-                        // Une carte notée garde sa place hors écran : elle ne revient jamais au centre.
+                        // An answered card stays off screen: it never comes back to the center.
                         let depth = max(0, i - index)
                         let exit = gone[art.id]
                         let x = exit ?? (i == index ? drag.width : 0)
@@ -199,8 +199,8 @@ struct FlashTestScreen: View {
             .frame(maxHeight: .infinity)
 
             HStack(spacing: 12) {
-                Button("Non") { answer(false) }.buttonStyle(.secondary)
-                Button("Oui") { answer(true) }.buttonStyle(.primary)
+                Button("No") { answer(false) }.buttonStyle(.secondary)
+                Button("Yes") { answer(true) }.buttonStyle(.primary)
             }
         }
         .padding(.horizontal, 24)
@@ -215,10 +215,10 @@ struct FlashTestScreen: View {
             .overlay(RoundedRectangle(cornerRadius: 24).stroke(.white, lineWidth: 4))
             .shadow(color: .black.opacity(0.14), radius: 12, y: 6)
             .overlay(alignment: .topLeading) {
-                if top { stamp("Oui", Palette.green).opacity(stampOpacity(true)).padding(16) }
+                if top { stamp("Yes", Palette.green).opacity(stampOpacity(true)).padding(16) }
             }
             .overlay(alignment: .topTrailing) {
-                if top { stamp("Non", Palette.ink).opacity(stampOpacity(false)).padding(16) }
+                if top { stamp("No", Palette.ink).opacity(stampOpacity(false)).padding(16) }
             }
             .gesture(
                 DragGesture()
@@ -268,7 +268,7 @@ struct FlashTestScreen: View {
         } else {
             Haptics.rigid()
         }
-        // La carte sort du côté de la réponse pendant que la suivante monte, dans la même animation.
+        // The card exits on the answer's side while the next one rises, in the same animation.
         let last = index >= cards.count - 1
         withAnimation(.easeOut(duration: 0.28)) {
             gone[current.id] = knows ? 520 : -520
@@ -282,7 +282,7 @@ struct FlashTestScreen: View {
     }
 }
 
-// MARK: - Résultat du test éclair
+// MARK: - Quick test result
 
 struct FlashResultScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -300,14 +300,14 @@ struct FlashResultScreen: View {
     private var score: Int { user.profile.flashKnown.count }
 
     private var verdict: String {
-        if score == total { return "Tu les reconnais toutes. Mais sais-tu ce qu'elles racontent ?" }
-        if score == 0 { return "Aucune pour l'instant. C'est exactement pour ça qu'on est là." }
-        return "Les autres t'échappent encore. Plus pour longtemps."
+        if score == total { return "You know them all. But do you know their stories?" }
+        if score == 0 { return "None yet. That's exactly why we're here." }
+        return "The others still escape you. Not for long."
     }
 
     var body: some View {
         VStack(spacing: 0) {
-            // Les cinq œuvres en éventail : celles reconnues en couleur, les autres voilées.
+            // The five artworks fanned out: recognized ones in color, the others dimmed.
             ZStack {
                 Palette.blueSoft
                 HStack(spacing: -34) {
@@ -347,7 +347,7 @@ struct FlashResultScreen: View {
                         .background(Circle().fill(.white))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Retour")
+                .accessibilityLabel("Back")
                 .padding(.leading, 16)
                 .padding(.top, 8)
             }
@@ -358,9 +358,9 @@ struct FlashResultScreen: View {
                         .font(.figtree(72, .semibold))
                         .foregroundStyle(Palette.blue)
                         .contentTransition(.numericText())
-                    Text("sur \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                    Text("out of \(total)").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
                 }
-                Text(score > 1 ? "œuvres reconnues" : "œuvre reconnue")
+                Text(score == 1 ? "artwork recognized" : "artworks recognized")
                     .font(.figtree(15, .semibold)).foregroundStyle(Palette.muted)
                 Text(verdict)
                     .font(.aBody).foregroundStyle(Palette.ink)
@@ -374,14 +374,14 @@ struct FlashResultScreen: View {
 
             Spacer(minLength: 12)
 
-            // Statistique à sourcer précisément avant la mise en ligne
-            // (étude sur le temps passé devant les œuvres, Art Institute of Chicago, 2017).
+            // Statistic to be sourced precisely before launch
+            // (study on time spent in front of artworks, Art Institute of Chicago, 2017).
             HStack(spacing: 0) {
                 ArtImage(name: "ill_regard", anchor: UnitPoint(x: 0.5, y: 0.6))
                     .frame(width: 118)
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("28 secondes").font(.figtree(26, .semibold)).foregroundStyle(.white)
-                    Text("C'est le temps moyen passé devant une œuvre au musée. Reconnaître n'est pas encore regarder.")
+                    Text("28 seconds").font(.figtree(26, .semibold)).foregroundStyle(.white)
+                    Text("That's the average time spent with an artwork in a museum. Recognizing isn't looking. Not yet.")
                         .font(.figtree(13)).foregroundStyle(.white)
                         .fixedSize(horizontal: false, vertical: true)
                     Text("Art Institute of Chicago, 2017").font(.figtree(11)).foregroundStyle(Color.white.opacity(0.75))
@@ -397,7 +397,7 @@ struct FlashResultScreen: View {
             .opacity(statShown ? 1 : 0)
             .offset(y: statShown ? 0 : 16)
 
-            Button("Continuer") { onNext() }
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
                 .disabled(!ready)
                 .opacity(ready ? 1 : 0.4)
@@ -430,7 +430,7 @@ struct FlashResultScreen: View {
     }
 }
 
-// MARK: - Le temps passé sur ton téléphone (la question)
+// MARK: - Time spent on your phone (the question)
 
 struct PhoneTimeScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -441,13 +441,13 @@ struct PhoneTimeScreen: View {
 
     private var hoursLabel: String {
         let whole = Int(hours)
-        return hours == Double(whole) ? "\(whole) h" : "\(whole) h 30"
+        return hours == Double(whole) ? "\(whole)h" : "\(whole)h 30"
     }
 
     var body: some View {
         OnbScaffold(number: OnbStep.phoneTime.number, onBack: onBack,
-                    title: "Combien de temps par jour sur ton téléphone ?",
-                    subtitle: "Regarde dans Réglages › Temps d'écran si tu hésites.",
+                    title: "How much time a day do you spend on your phone?",
+                    subtitle: "Not sure? Check Settings › Screen Time.",
                     onNext: save) {
             ArtImage(name: "ill_phone", zoom: glow ? 1.08 : 1, anchor: UnitPoint(x: 0.5, y: 0.45))
                 .frame(height: 260)
@@ -457,16 +457,16 @@ struct PhoneTimeScreen: View {
                 Text(hoursLabel)
                     .font(.figtree(52, .semibold)).foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
-                Text("par jour").font(.aBody).foregroundStyle(Palette.muted)
+                Text("a day").font(.aBody).foregroundStyle(Palette.muted)
             }
             .frame(maxWidth: .infinity)
 
             VStack(spacing: 2) {
                 Slider(value: $hours, in: 1...10, step: 0.5)
                     .tint(Palette.blue)
-                    .accessibilityLabel("Heures par jour sur ton téléphone")
+                    .accessibilityLabel("Hours a day on your phone")
                 HStack {
-                    Text("1 h"); Spacer(); Text("5 h"); Spacer(); Text("10 h")
+                    Text("1h"); Spacer(); Text("5h"); Spacer(); Text("10h")
                 }
                 .font(.aCaption).foregroundStyle(Palette.muted)
             }
@@ -484,7 +484,7 @@ struct PhoneTimeScreen: View {
     }
 }
 
-// MARK: - Ce que ça représente sur une année (écran lent)
+// MARK: - What it adds up to over a year (slow screen)
 
 struct PhoneResultScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -499,20 +499,21 @@ struct PhoneResultScreen: View {
 
     private var hoursLabel: String {
         let whole = Int(hours)
-        return hours == Double(whole) ? "\(whole) h" : "\(whole) h 30"
+        return hours == Double(whole) ? "\(whole)h" : "\(whole)h 30"
     }
 
     private var monthsLine: String {
         let months = Double(target) / 30.4
-        if months < 1.25 { return "Plus d'un mois entier, chaque année." }
-        return "Près de \(Int(months.rounded())) mois entiers, chaque année."
+        let rounded = Int(months.rounded())
+        if months < 1.25 || rounded < 2 { return "More than a full month, every year." }
+        return "Nearly \(rounded) full months, every year."
     }
 
     var body: some View {
         SlowScreen(duration: 6.2, dark: true, onNext: onNext) {
             VStack(spacing: 14) {
                 Spacer()
-                Text("\(hoursLabel) par jour, c'est")
+                Text("\(hoursLabel) a day adds up to")
                     .font(.figtree(22, .semibold))
                     .foregroundStyle(Color.white.opacity(0.8))
                     .opacity(stage >= 1 ? 1 : 0)
@@ -521,7 +522,7 @@ struct PhoneResultScreen: View {
                     .foregroundStyle(.white)
                     .contentTransition(.numericText())
                     .opacity(stage >= 2 ? 1 : 0)
-                Text("jours par an")
+                Text("days a year")
                     .font(.figtree(28, .semibold))
                     .foregroundStyle(.white)
                     .opacity(stage >= 2 ? 1 : 0)
@@ -531,7 +532,7 @@ struct PhoneResultScreen: View {
                     .opacity(stage >= 3 ? 1 : 0)
                     .padding(.top, 6)
                 Spacer()
-                Text("Artura t'en demande cinq minutes.")
+                Text("Artura asks for just five minutes.")
                     .font(.figtree(20, .semibold))
                     .foregroundStyle(Palette.yellow)
                     .opacity(stage >= 4 ? 1 : 0)
@@ -550,7 +551,7 @@ struct PhoneResultScreen: View {
         withAnimation(.easeOut(duration: 0.9).delay(0.3)) { stage = 1 }
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.3) {
             withAnimation(.easeOut(duration: 0.6)) { stage = 2 }
-            // Le compteur monte lentement jusqu'au total, avec un tic à chaque pas.
+            // The counter climbs slowly to the total, with a tick at each step.
             let stepCount = 40
             var step = 0
             timer?.invalidate()
@@ -577,16 +578,16 @@ struct PhoneResultScreen: View {
     }
 }
 
-// MARK: - « L'art te la rend » (texte lent, toucher pour continuer)
+// MARK: - "Art gives it back" (slow text, tap to continue)
 
 struct StatementScreen: View {
     let onNext: () -> Void
     @State private var line = 0
 
     private let lines = [
-        "Ton téléphone prend ton attention.",
-        "L'art te la rend.",
-        "Un tableau ne défile pas. Il t'attend."
+        "Your phone takes your attention.",
+        "Art gives it back.",
+        "A painting doesn't scroll. It waits for you."
     ]
 
     var body: some View {
@@ -618,7 +619,7 @@ struct StatementScreen: View {
     }
 }
 
-// MARK: - Ce qui nous reste
+// MARK: - What's left to us
 
 struct WhatRemainsScreen: View {
     let onBack: () -> Void
@@ -626,18 +627,18 @@ struct WhatRemainsScreen: View {
 
     var body: some View {
         HeroScaffold(image: "ill_reste", onBack: onBack, onNext: onNext) {
-            TagPill(text: "Ce qui nous reste").appearUp(0.1)
-            Text("Les machines produisent. Regarder, c'est toi.")
+            TagPill(text: "What's left to us").appearUp(0.1)
+            Text("Machines make. Looking is up to you.")
                 .font(.figtree(30, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
-            Text("Une image se fabrique maintenant en quelques secondes. Savoir pourquoi l'une te touche et pas l'autre, ça ne se délègue pas.")
+            Text("An image can now be made in seconds. Knowing why one moves you and another doesn't? That can't be outsourced.")
                 .font(.aBody).foregroundStyle(Palette.ink).appearUp(0.3)
-            Text("Le goût se travaille. On commence aujourd'hui.")
+            Text("Taste takes practice. We start today.")
                 .font(.aBody).foregroundStyle(Palette.muted).appearUp(0.4)
         }
     }
 }
 
-// MARK: - Tes arts
+// MARK: - Your arts
 
 struct ArtsScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -645,15 +646,15 @@ struct ArtsScreen: View {
     let onNext: () -> Void
 
     private let arts: [(id: String, title: String, image: String, soon: Bool)] = [
-        ("peinture", "Peinture", "ill_palette", false),
+        ("peinture", "Painting", "ill_palette", false),
         ("sculpture", "Sculpture", "ill_sculpture", true),
         ("architecture", "Architecture", "ill_musee", true),
-        ("photographie", "Photographie", "ill_photo", true)
+        ("photographie", "Photography", "ill_photo", true)
     ]
 
     var body: some View {
-        OnbScaffold(number: OnbStep.arts.number, onBack: onBack, title: "Quels arts veux-tu explorer ?",
-                    subtitle: "Autant que tu veux. La peinture est prête, les autres arrivent.",
+        OnbScaffold(number: OnbStep.arts.number, onBack: onBack, title: "Which arts do you want to explore?",
+                    subtitle: "As many as you like. Painting is ready, the others are on the way.",
                     ctaEnabled: !user.profile.arts.isEmpty, onNext: onNext) {
             LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible())], spacing: 12) {
                 ForEach(Array(arts.enumerated()), id: \.element.id) { i, art in
@@ -671,7 +672,7 @@ struct ArtsScreen: View {
                             HStack(spacing: 6) {
                                 Text(art.title).font(.bodyStrong).foregroundStyle(Palette.ink)
                                 if art.soon {
-                                    Text("Bientôt").font(.figtree(11, .semibold)).foregroundStyle(Palette.muted)
+                                    Text("Soon").font(.figtree(11, .semibold)).foregroundStyle(Palette.muted)
                                         .padding(.horizontal, 6).padding(.vertical, 2)
                                         .background(Capsule().fill(.white))
                                 }
@@ -695,7 +696,7 @@ struct ArtsScreen: View {
     }
 }
 
-// MARK: - Engagement : appui long
+// MARK: - Commitment: long press
 
 struct CommitScreen: View {
     let onNext: () -> Void
@@ -714,9 +715,9 @@ struct CommitScreen: View {
                 .clipShape(RoundedRectangle(cornerRadius: 24))
                 .padding(.top, 12)
             Spacer(minLength: 0)
-            Text("Une œuvre par jour.")
+            Text("One artwork a day.")
                 .font(.figtree(34, .semibold)).foregroundStyle(Palette.ink)
-            Text("Cinq minutes, chaque jour. Pas pour briller en société : pour toi.")
+            Text("Five minutes, every day. Not to impress anyone. Just for you.")
                 .font(.aBody).foregroundStyle(Palette.muted)
                 .multilineTextAlignment(.center)
             Spacer(minLength: 0)
@@ -746,10 +747,10 @@ struct CommitScreen: View {
                     cancel()
                 }
             }
-            .accessibilityLabel("Maintenir pour m'engager")
+            .accessibilityLabel("Hold to commit")
             .accessibilityAddTraits(.isButton)
 
-            Text(done ? "C'est parti." : "Maintiens le doigt pour t'engager")
+            Text(done ? "Here we go." : "Press and hold to commit")
                 .font(.figtree(15, .semibold))
                 .foregroundStyle(done ? Palette.green : Palette.ink)
             Spacer()
@@ -764,7 +765,7 @@ struct CommitScreen: View {
         withAnimation(.linear(duration: holdDuration)) { progress = 1 }
         var beat = 0
         ticker?.invalidate()
-        // La vibration monte en intensité pendant l'appui.
+        // The vibration grows stronger while pressing.
         ticker = Timer.scheduledTimer(withTimeInterval: 0.11, repeats: true) { _ in
             beat += 1
             Haptics.rise(min(1, 0.25 + Double(beat) * 0.04))

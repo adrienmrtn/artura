@@ -1,32 +1,32 @@
 import SwiftUI
 
-// MARK: 1 · Bienvenue
+// MARK: 1 · Welcome
 
 struct WelcomeScreen: View {
     let onNext: () -> Void
     let onLogin: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_hero", imageHeight: 470, cta: "Commencer", onNext: onNext,
-                     secondaryTitle: "J'ai déjà un compte", onSecondary: onLogin) {
+        HeroScaffold(image: "ill_hero", imageHeight: 470, cta: "Get started", onNext: onNext,
+                     secondaryTitle: "I already have an account", onSecondary: onLogin) {
             Text("Artura").font(.figtree(15, .semibold)).foregroundStyle(Palette.blueText).appearUp(0.1)
-            Text("Un chef-d'œuvre par jour").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
-            Text("Cinq minutes pour regarder, comprendre et retenir.")
+            Text("One masterpiece a day").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
+            Text("Five minutes to look, understand, and remember.")
                 .font(.aBody).foregroundStyle(Palette.ink).appearUp(0.3)
         }
     }
 }
 
-// MARK: 2 · Promesse (lente, bloc par bloc)
+// MARK: 2 · Promise (slow, block by block)
 
 struct PromiseScreen: View {
     let onNext: () -> Void
     @State private var shown = 0
 
     private let rows: [(String, String, String)] = [
-        ("art_impression", "Une œuvre par jour", "Son histoire en 2 minutes, à lire ou à écouter."),
-        ("ill_zoom", "Des mini-jeux", "Une minute de jeu pour retenir ce que tu viens de voir."),
-        ("ill_musee", "Des parcours", "Les grands courants, leçon après leçon, à ton rythme.")
+        ("art_impression", "One artwork a day", "Its story in 2 minutes, to read or listen to."),
+        ("ill_zoom", "Mini-games", "One minute of play to remember what you just saw."),
+        ("ill_musee", "Paths", "The great movements, lesson by lesson, at your own pace.")
     ]
     private let pace = 1.6
 
@@ -34,8 +34,8 @@ struct PromiseScreen: View {
         SlowScreen(duration: 1.2 + Double(rows.count) * pace + 0.4, onNext: onNext) {
             VStack(alignment: .leading, spacing: 18) {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Voici ce qui t'attend").font(.aTitle).foregroundStyle(Palette.ink)
-                    Text("Trois petites choses, chaque jour.").font(.aBody).foregroundStyle(Palette.muted)
+                    Text("Here's what's waiting for you").font(.aTitle).foregroundStyle(Palette.ink)
+                    Text("Three little things, every day.").font(.aBody).foregroundStyle(Palette.muted)
                 }
                 .opacity(shown >= 1 ? 1 : 0)
                 .offset(y: shown >= 1 ? 0 : 12)
@@ -71,7 +71,7 @@ struct PromiseScreen: View {
     }
 }
 
-// MARK: 3 · Tu es…
+// MARK: 3 · You are…
 
 struct GenderScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -79,17 +79,17 @@ struct GenderScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        OnbScaffold(number: OnbStep.gender.number, onBack: onBack, title: "Tu es…",
-                    subtitle: "Pour accorder nos messages : « prêt » ou « prête » ?",
+        OnbScaffold(number: OnbStep.gender.number, onBack: onBack, title: "You are…",
+                    subtitle: "So we can talk to you the right way.",
                     ctaEnabled: user.profile.gender != nil, onNext: onNext) {
             HStack(spacing: 12) {
-                portrait("ill_av1", "Une femme", "femme")
-                portrait("ill_av2", "Un homme", "homme")
+                portrait("ill_av1", "A woman", "femme")
+                portrait("ill_av2", "A man", "homme")
             }
             .appearUp(0.1)
             VStack(spacing: 10) {
-                OptionRow(title: "Autre", selected: user.profile.gender == "autre") { user.profile.gender = "autre" }
-                OptionRow(title: "Je préfère ne pas le dire", selected: user.profile.gender == "na") { user.profile.gender = "na" }
+                OptionRow(title: "Other", selected: user.profile.gender == "autre") { user.profile.gender = "autre" }
+                OptionRow(title: "I'd rather not say", selected: user.profile.gender == "na") { user.profile.gender = "na" }
             }
             .appearUp(0.2)
         }
@@ -119,7 +119,7 @@ struct GenderScreen: View {
     }
 }
 
-// MARK: 5 · Artura va t'aider (l'œil)
+// MARK: 5 · Artura is here to help (the eye)
 
 struct HelpScreen: View {
     let onBack: () -> Void
@@ -127,34 +127,34 @@ struct HelpScreen: View {
 
     var body: some View {
         HeroScaffold(image: "ill_oeil", onBack: onBack, onNext: onNext) {
-            TagPill(text: "Artura va t'aider").appearUp(0.1)
-            Text("Regarder, ça s'apprend").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
-            Text("Personne ne naît en sachant lire un tableau. Chaque jour, on te montre où poser les yeux : un détail, une couleur, un geste.")
+            TagPill(text: "Artura is here to help").appearUp(0.1)
+            Text("Looking is a skill").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
+            Text("Nobody is born knowing how to read a painting. Every day, we show you where to look: a detail, a color, a gesture.")
                 .font(.aBody).foregroundStyle(Palette.ink).appearUp(0.3)
-            Text("Passer vite devant un tableau n'a rien d'une faute. On va juste te donner de quoi t'arrêter.")
+            Text("Rushing past a painting isn't a failing. We'll just give you a reason to stop.")
                 .font(.aBody).foregroundStyle(Palette.muted).appearUp(0.4)
         }
     }
 }
 
-// MARK: Avis et note
+// MARK: Reviews and rating
 
 struct ReviewsScreen: View {
     let onBack: () -> Void
     let onNext: () -> Void
     @State private var stars = 0
 
-    // TODO: remplacer par de vrais avis et la vraie note de la fiche App Store avant la mise en ligne.
+    // TODO: replace with real reviews and the real App Store rating before launch.
     private let reviews = [
-        "« Cinq minutes le matin, et je regarde enfin les tableaux autrement. »",
-        "« Avec les petits jeux, je retiens vraiment les noms et les dates. »",
-        "« Je n'y connaissais rien. Maintenant j'attends la notification. »"
+        "“Five minutes in the morning, and I finally see paintings differently.”",
+        "“The little games really help me remember names and dates.”",
+        "“I knew nothing about art. Now I look forward to the notification.”"
     ]
 
     var body: some View {
-        OnbScaffold(onBack: onBack, title: "Tu n'es pas \(alone) à t'y mettre", onNext: onNext) {
+        OnbScaffold(onBack: onBack, title: "You're not \(alone) getting started", onNext: onNext) {
             HStack(spacing: 16) {
-                Text("4,8").font(.figtree(52, .semibold)).foregroundStyle(Palette.ink)
+                Text("4.8").font(.figtree(52, .semibold)).foregroundStyle(Palette.ink)
                 VStack(alignment: .leading, spacing: 5) {
                     HStack(spacing: 3) {
                         ForEach(0..<5, id: \.self) { i in
@@ -165,7 +165,7 @@ struct ReviewsScreen: View {
                                 .opacity(i < stars ? 1 : 0)
                         }
                     }
-                    Text("sur 5 · App Store").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                    Text("out of 5 · App Store").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 }
                 Spacer(minLength: 0)
             }
@@ -174,7 +174,7 @@ struct ReviewsScreen: View {
             .background(RoundedRectangle(cornerRadius: 20).fill(Palette.blueSoft))
             .appearUp(0.05)
 
-            Text("Ce qu'ils en disent").font(.aHeading).foregroundStyle(Palette.ink)
+            Text("What people are saying").font(.aHeading).foregroundStyle(Palette.ink)
 
             VStack(spacing: 12) {
                 ForEach(Array(reviews.enumerated()), id: \.offset) { i, review in
@@ -201,5 +201,5 @@ struct ReviewsScreen: View {
     }
 
     @EnvironmentObject private var user: UserStore
-    private var alone: String { user.agree("le seul", "la seule") }
+    private var alone: String { user.agree("the only one", "the only one") }
 }
