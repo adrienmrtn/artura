@@ -134,7 +134,7 @@ struct MovementsScreen: View {
 
     var body: some View {
         OnbScaffold(number: OnbStep.movements.number, onBack: onBack, title: "Quels courants t'intriguent ?",
-                    subtitle: "Autant que tu veux. On a coché ceux de tes œuvres préférées.",
+                    subtitle: "Autant que tu veux.",
                     cta: user.profile.movements.isEmpty ? "Continuer" : "Continuer · \(user.profile.movements.count)",
                     onNext: onNext, secondaryTitle: "Je ne sais pas encore", onSecondary: onNext) {
             FlowLayout(spacing: 10) {
@@ -160,13 +160,6 @@ struct MovementsScreen: View {
                 }
             }
             .appearUp(0.1)
-        }
-        .onAppear {
-            guard user.profile.movements.isEmpty else { return }
-            let suggested = user.profile.liked.compactMap { content.artwork($0)?.movementId }
-            var unique: [String] = []
-            for id in suggested where !unique.contains(id) { unique.append(id) }
-            user.profile.movements = unique
         }
     }
 }
