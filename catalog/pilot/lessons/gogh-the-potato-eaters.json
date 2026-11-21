@@ -1,0 +1,46 @@
+{
+  "teaser": "Before the sunflowers, Van Gogh bet everything on five people and a dish of potatoes.",
+  "focus": [0.47, 0.45],
+  "review_notes": "Family usually identified as the De Groot family of Nuenen; final canvas painted largely from memory in the studio, April-May 1885.\n'Around forty' studies of peasant heads over the winter of 1884-85: approximate figure.\nVan Gogh's father died in late March 1885.\nSize 82 x 114 cm.\nThe 'dusty unpeeled potato' color comparison and the idea that the hands in the dish dug the potatoes are paraphrased from his letters to Theo (1885), not quoted.\nAnthon van Rappard's harsh letter about the lithograph ended their friendship (1885).\n1887 letter to his sister Willemien calling it the best thing he had done.\nTheft: April 1991, twenty paintings taken from the Van Gogh Museum including The Potato Eaters, recovered the same day in an abandoned car. Please verify.\nThe framed print on the wall is generally read as a Crucifixion.\nThe drink is usually described as coffee (probably chicory or malt coffee).",
+  "lesson": [
+    {"type": "text", "text": "Evening in Nuenen, a farming village in the south of the Netherlands, 1885. A thin man of 32 sits in the corner of a cottage with a sketchbook on his knee. The family at the table has stopped noticing him. He draws a hand, then a jaw, then the same hand again, until the lamp runs low."},
+    {"type": "text", "text": "Vincent van Gogh had been teaching himself to paint for barely five years. All that winter he had drawn and painted farm workers, around forty heads, plus hands, bonnets and coffee pots. Now he wanted to put everything he had learned into one ambitious picture with several figures. He painted the final canvas in his studio, mostly from memory."},
+    {"type": "text", "text": "His father, the village pastor, had died suddenly a few weeks before. The house was tense, money came only from his brother Theo in Paris, and not one painting had sold. This picture was meant to be the proof that he was a real painter."},
+    {"type": "text", "text": "The subject could not be plainer: five people, a dish of potatoes, a pot of coffee. And one oil lamp. Nothing in the room is visible except by that small flame, so the lamp ends up arranging the whole picture."},
+    {"type": "lines", "text": "Start from the flame and see where the light goes.", "lines": [
+      {"points": [[0.23, 0.42], [0.45, 0.22], [0.36, 0.44]], "closed": false, "label": "Light to the left", "text": "The glow lands on the man's cheekbone and on the young woman's wide-open face. Away from the lamp, their backs sink into dark green."},
+      {"points": [[0.57, 0.39], [0.45, 0.22], [0.79, 0.41]], "closed": false, "label": "Light to the right", "text": "It catches the second man's brow and the old woman's lowered eyes under her white cap. Four faces, each lit from a slightly different angle."},
+      {"points": [[0.34, 0.6], [0.36, 0.67], [0.62, 0.49], [0.66, 0.62], [0.77, 0.83]], "closed": false, "label": "The chain of hands", "text": "Below the faces, a second line: a fork in the dish, a hand offering a cup, another pouring. Nobody speaks, but the hands pass things along."}
+    ]},
+    {"type": "text", "text": "Those hands are the real subject. Van Gogh explained to Theo that he wanted viewers to understand one thing: the fingers reaching into the dish are the same fingers that dug the potatoes out of the ground. These people have earned their meal honestly."},
+    {"type": "key", "text": "Van Gogh was not painting poverty to make you pity it. He was painting work, and the dignity of eating what you have grown yourself."},
+    {"type": "fact", "text": "To describe the color he gave the faces, Van Gogh compared it to a good dusty potato, unpeeled. He mixed his browns and greens so the people would look made of the same earth they farmed."},
+    {"type": "text", "text": "He also made them rough on purpose. Bony knuckles, heavy noses, ears that stick out. Pictures of country life sold well at the time, but they tended to be sweet and tidy. Van Gogh felt a peasant painting should smell of bacon, smoke and steam, not of perfume."},
+    {"type": "fact", "text": "He sent a print of the composition to his painter friend Anthon van Rappard, who answered with a list of faults: the arm too short, the nose wrong, the whole thing careless. Vincent mailed the letter back. They never repaired the friendship."},
+    {"type": "text", "text": "Theo, an art dealer, could not sell it either. Paris had fallen for the bright colors of the Impressionists, and this was the darkest thing imaginable. A year later Vincent joined him there, and his palette lit up. Yet in 1887, surrounded by all that color, he still told his sister this was the best thing he had done."},
+    {"type": "fact", "text": "In April 1991, thieves took twenty paintings from the Van Gogh Museum in a single night, this one among them. All were found the same day in an abandoned car."},
+    {"type": "text", "text": "The canvas is not large, about 82 by 114 centimeters (32 by 45 inches), and on a screen it can look like a brown fog. It is not. Van Gogh furnished this room object by object, and the dark gives them up slowly. Turn your brightness up and go looking."},
+    {"type": "explore", "spots": [
+      {"x": 0.045, "y": 0.075, "zoom": 4, "r": 0.04, "title": "The clock", "text": "High in the left corner, a wall clock with a round face. It is evening: the day's work is over and this is the only meal that is not rushed."},
+      {"x": 0.14, "y": 0.14, "zoom": 4, "r": 0.04, "title": "A print on the wall", "text": "A small framed picture hangs beside the clock. You can just make out a cross: a Crucifixion, the one decoration in the house."},
+      {"x": 0.45, "y": 0.21, "zoom": 3, "r": 0.07, "title": "The lamp", "text": "An oil lamp under a pale shade, with a flame the size of a fingernail. It is the brightest and warmest touch of paint on the canvas."},
+      {"x": 0.5, "y": 0.58, "zoom": 2.2, "r": 0.1, "shape": "rect", "title": "The girl", "text": "We only see her back, a dark shape in the middle of the family. Steam from the dish rises around her and catches the light along her edges."},
+      {"x": 0.37, "y": 0.72, "zoom": 3.2, "r": 0.07, "title": "The potatoes", "text": "One shared dish of steaming potatoes, cut into pieces. No plates: each person takes from the middle with a fork."},
+      {"x": 0.65, "y": 0.7, "zoom": 3.2, "r": 0.07, "title": "The coffee", "text": "The old woman pours a dark drink into small bowls lined up on the table. It is the meal's one small luxury."},
+      {"x": 0.79, "y": 0.41, "zoom": 3, "r": 0.07, "title": "The old woman", "text": "Her eyes are down, fixed on the pot. The white cap is built from thick, short strokes of gray and green, with almost no real white in it."},
+      {"x": 0.23, "y": 0.42, "zoom": 3, "r": 0.07, "title": "The man in profile", "text": "A sharp cheekbone, a cap pulled low. He stares past the woman beside him, who looks at him and gets no answer."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "What is the only source of light in the room?", "options": ["A fireplace", "A window", "An oil lamp"], "answer": 2, "explanation": "A single oil lamp above the table lights every face and hand."},
+    {"question": "What did Van Gogh want viewers to understand from the hands?", "options": ["That the hands in the dish also dug the potatoes", "That the family was praying", "That the family was ill"], "answer": 0, "explanation": "He wanted to show people who had honestly earned their food by working the land."},
+    {"question": "How did his friend Anthon van Rappard react?", "options": ["He bought the painting", "He sent a list of its faults", "He copied it"], "answer": 1, "explanation": "Van Rappard criticized it harshly, and the friendship ended."},
+    {"question": "Where did Van Gogh paint the final canvas?", "options": ["In his studio, mostly from memory", "In Paris, at his brother's home", "At the family's table"], "answer": 0, "explanation": "After a winter of studies made on the spot, he painted the final version in his studio."},
+    {"question": "What did he compare the color of the faces to?", "options": ["Wet clay", "A dusty unpeeled potato", "Old bread"], "answer": 1, "explanation": "He wanted the people to look made of the same earth they farmed."}
+  ],
+  "facts": [
+    {"text": "Van Gogh sold The Potato Eaters quickly through his brother Theo.", "isTrue": false, "explanation": "Theo could not sell it: Paris wanted the bright colors of the Impressionists."},
+    {"text": "Two years later, Van Gogh still called it the best thing he had done.", "isTrue": true, "explanation": "He said so to his sister in 1887, while living in Paris."},
+    {"text": "The girl in the middle of the painting looks straight at the viewer.", "isTrue": false, "explanation": "We only see her back, outlined by the lamplight and the steam."}
+  ]
+}
