@@ -37,7 +37,7 @@ struct LessonView: View {
                 .accessibilityLabel("Back")
                 ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
                 if let onSkip {
-                    Button("Passer") {
+                    Button("Skip") {
                         Haptics.tap()
                         onSkip()
                     }

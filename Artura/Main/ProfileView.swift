@@ -10,7 +10,7 @@ struct ProfileView: View {
 
     private var levelLabel: String {
         let done = user.profile.completedLessons.count
-        return "\(user.profile.level ?? "Amateur") · level \(1 + done / 2)"
+        return "\(user.profile.level ?? "Enthusiast") · level \(1 + done / 2)"
     }
 
     private var tastes: [(movement: Movement, count: Int)] {
