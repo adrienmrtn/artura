@@ -49,7 +49,7 @@ struct ProfileView: View {
                     HStack(spacing: 10) {
                         stat("\(user.streak)", "day streak", Palette.yellow)
                         stat("\(user.profile.opened.count)", "artworks opened", Palette.pink)
-                        stat("\(user.profile.gamesWon)", "games won", Palette.blueSoft)
+                        stat("\(user.profile.gamesWon)", "games won", Palette.sand)
                     }
 
                     Text("My collection").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)

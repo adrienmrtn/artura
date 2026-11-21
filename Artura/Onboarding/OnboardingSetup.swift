@@ -1,11 +1,11 @@
 import SwiftUI
 import AuthenticationServices
 
-// MARK: 17 · Reminder (slider and sun)
+// MARK: 17 · Rappel (curseur et soleil)
 
-/// Small landscape where the sun follows the chosen time.
+/// Petit paysage où le soleil suit l'heure choisie.
 struct SunScene: View {
-    /// Minutes since midnight (360 = 6 AM, 1380 = 11 PM).
+    /// Minutes depuis minuit (360 = 6 h, 1380 = 23 h).
     let minutes: Double
 
     private var isNight: Bool { minutes >= 1230 }
@@ -26,7 +26,7 @@ struct SunScene: View {
             let sunY = isNight ? h + 60 : h * 0.72 - sin(.pi * progress) * h * 0.56
             ZStack {
                 sky
-                // Stars and moon
+                // Étoiles et lune
                 Group {
                     Circle().fill(.white).frame(width: 6, height: 6).position(x: w * 0.12, y: h * 0.16)
                     Circle().fill(.white).frame(width: 4, height: 4).position(x: w * 0.36, y: h * 0.3)
@@ -38,17 +38,17 @@ struct SunScene: View {
                         .position(x: w * 0.76, y: h * 0.22)
                 }
                 .opacity(isNight ? 1 : 0)
-                // Daytime cloud
+                // Nuage de jour
                 Capsule().fill(.white).frame(width: 86, height: 28)
                     .position(x: w * 0.22, y: h * 0.3)
                     .opacity(minutes >= 450 && minutes < 1050 ? 1 : 0)
-                // Sun
+                // Soleil
                 Circle()
                     .fill(Color(hex: 0xFFC533))
                     .frame(width: 64, height: 64)
                     .background(Circle().fill(Color(hex: 0xFFC533, opacity: 0.28)).frame(width: 84, height: 84))
                     .position(x: sunX, y: sunY)
-                // Hills
+                // Collines
                 HillShape(seed: 0).fill(isNight ? Color(hex: 0x14463A) : Color(hex: 0x3FA36B))
                 HillShape(seed: 1).fill(isNight ? Color(hex: 0x0E3029) : Color(hex: 0x2E8555))
             }
@@ -83,31 +83,30 @@ struct HillShape: Shape {
 }
 
 func momentLabel(_ minutes: Int) -> String {
-    if minutes < 540 { return "Over breakfast" }
-    if minutes < 720 { return "In the morning" }
-    if minutes < 840 { return "On your lunch break" }
-    if minutes < 1080 { return "In the afternoon" }
-    if minutes < 1230 { return "When you get home" }
-    return "Before bed"
+    if minutes < 540 { return "Au petit-déjeuner" }
+    if minutes < 720 { return "Dans la matinée" }
+    if minutes < 840 { return "À la pause déjeuner" }
+    if minutes < 1080 { return "Dans l'après-midi" }
+    if minutes < 1230 { return "En rentrant" }
+    return "Avant de dormir"
 }
 
 struct ReminderScreen: View {
     @EnvironmentObject private var user: UserStore
-    let onBack: () -> Void
     let onNext: () -> Void
     @State private var minutes: Double = 510
 
     var body: some View {
-        OnbScaffold(number: OnbStep.reminder.number, onBack: onBack, title: "When do you want your artwork?",
-                    subtitle: "Just one notification a day. Promise.",
-                    cta: "Set reminder for \(formatMinutes(Int(minutes)))",
-                    onNext: activate, secondaryTitle: "Not now", onSecondary: skip) {
+        OnbScaffold(title: "À quelle heure veux-tu ton œuvre ?",
+                    subtitle: "Une seule notification par jour, promis.",
+                    cta: "Activer le rappel à \(formatMinutes(Int(minutes)))",
+                    onNext: activate, secondaryTitle: "Plus tard", onSecondary: skip) {
             SunScene(minutes: minutes)
                 .frame(height: 250)
-                .appearUp(0.1)
+                .enter(2)
             VStack(spacing: 2) {
                 Text(formatMinutes(Int(minutes)))
-                    .font(.figtree(40, .semibold))
+                    .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
                 Text(momentLabel(Int(minutes))).font(.figtree(15)).foregroundStyle(Palette.muted)
@@ -116,9 +115,9 @@ struct ReminderScreen: View {
             VStack(spacing: 2) {
                 Slider(value: $minutes, in: 360...1380, step: 15)
                     .tint(Palette.blue)
-                    .accessibilityLabel("Reminder time")
+                    .accessibilityLabel("Heure du rappel")
                 HStack {
-                    Text("6 AM"); Spacer(); Text("noon"); Spacer(); Text("6 PM"); Spacer(); Text("11 PM")
+                    Text("6 h"); Spacer(); Text("midi"); Spacer(); Text("18 h"); Spacer(); Text("23 h")
                 }
                 .font(.aCaption)
                 .foregroundStyle(Palette.muted)
@@ -150,7 +149,7 @@ struct ReminderScreen: View {
     }
 }
 
-// MARK: Loading
+// MARK: Chargement
 
 struct LoadingScreen: View {
     let onNext: () -> Void
@@ -158,10 +157,10 @@ struct LoadingScreen: View {
     @State private var timer: Timer?
 
     private let rows = [
-        "Analyzing your tastes",
-        "Selecting your movements",
-        "Choosing your first path",
-        "Setting your pace and reminder"
+        "Analyse de tes réponses",
+        "Réglage de ton niveau de départ",
+        "Choix de ton premier parcours",
+        "Programmation de ton rappel"
     ]
 
     var body: some View {
@@ -174,16 +173,16 @@ struct LoadingScreen: View {
                     .stroke(Palette.blue, style: StrokeStyle(lineWidth: 14, lineCap: .round))
                     .rotationEffect(.degrees(-90))
                     .animation(.linear(duration: 0.1), value: progress)
-                Text("\(progress)%")
-                    .font(.figtree(40, .semibold))
+                Text("\(progress) %")
+                    .font(.figtree(40, .bold))
                     .foregroundStyle(Palette.ink)
                     .contentTransition(.numericText())
             }
             .frame(width: 176, height: 176)
 
             VStack(spacing: 8) {
-                Text("Building your plan").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
-                Text("Based on your answers, just for you.").font(.aBody).foregroundStyle(Palette.muted)
+                Text("On prépare ton programme").font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
+                Text("D'après tes réponses, rien que pour toi.").font(.aBody).foregroundStyle(Palette.muted)
             }
             .multilineTextAlignment(.center)
 
@@ -208,22 +207,23 @@ struct LoadingScreen: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 8)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
 
             Spacer(minLength: 0)
 
             if progress >= 100 {
-                Button("See my plan") { onNext() }
+                Button("Voir mon programme") { onNext() }
                     .buttonStyle(.primary)
                     .transition(.opacity.combined(with: .offset(y: 16)))
             } else {
-                Text("Just a moment…").font(.aSmall).foregroundStyle(Palette.muted).frame(height: 56)
+                Text("Encore un instant…").font(.aSmall).foregroundStyle(Palette.muted).frame(height: 56)
             }
         }
         .padding(.horizontal, 24)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white)
+        .background(Palette.bg)
         .onAppear(perform: start)
         .onDisappear { timer?.invalidate() }
     }
@@ -243,7 +243,7 @@ struct LoadingScreen: View {
     }
 }
 
-// MARK: 18 · Your plan
+// MARK: 18 · Ton programme
 
 struct AvatarPicker: View {
     @Binding var selection: Int
@@ -276,7 +276,6 @@ struct AvatarPicker: View {
 struct PlanScreen: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var content: ContentStore
-    let onBack: () -> Void
     let onNext: () -> Void
     @State private var picking = false
 
@@ -285,9 +284,8 @@ struct PlanScreen: View {
     }
 
     var body: some View {
-        OnbScaffold(number: OnbStep.plan.number, onBack: onBack,
-                    title: "In 30 days",
-                    subtitle: "Here's where you'll be, at your own pace.", cta: "Sounds good", onNext: onNext) {
+        OnbScaffold(title: "Dans 30 jours",
+                    subtitle: "Voici où tu en seras, à ton rythme.", cta: "Ça me va", onNext: onNext) {
             Group {
                 if picking {
                     AvatarPicker(selection: $user.profile.avatar) {
@@ -301,15 +299,15 @@ struct PlanScreen: View {
                             .frame(width: 60, height: 60)
                             .clipShape(Circle())
                         VStack(alignment: .leading, spacing: 2) {
-                            Text("Your avatar").font(.bodyStrong).foregroundStyle(Palette.ink)
-                            Text("Shown on your profile").font(.aCaption).foregroundStyle(Palette.muted)
+                            Text("Ton avatar").font(.bodyStrong).foregroundStyle(Palette.ink)
+                            Text("Visible sur ton profil").font(.aCaption).foregroundStyle(Palette.muted)
                         }
                         Spacer(minLength: 0)
-                        Button("Edit") {
+                        Button("Modifier") {
                             withAnimation(.gentle) { picking = true }
                         }
                         .font(.figtree(14, .semibold))
-                        .foregroundStyle(Palette.blueText)
+                        .foregroundStyle(Palette.blue)
                         .padding(.horizontal, 16)
                         .frame(height: 44)
                         .background(Capsule().fill(.white))
@@ -321,14 +319,15 @@ struct PlanScreen: View {
             }
             .frame(height: 84)
             .frame(maxWidth: .infinity)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
-            .appearUp(0.05)
+            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+            .enter(2)
 
             if let movement, let cover = content.artwork(movement.cover) {
                 HStack(spacing: 0) {
                     ArtImage(name: cover.image).frame(width: 104, height: 112)
                     VStack(alignment: .leading, spacing: 3) {
-                        Text("Your first path").font(.figtree(12, .semibold))
+                        Text("Ton premier parcours").font(.figtree(12, .semibold))
                         Text(movement.name).font(.aCardTitle)
                         Text(movement.summary).font(.aCaption)
                     }
@@ -338,44 +337,52 @@ struct PlanScreen: View {
                 }
                 .background(Palette.yellow)
                 .clipShape(RoundedRectangle(cornerRadius: 16))
-                .appearUp(0.15)
+                .enter(3)
             }
 
             HStack(spacing: 10) {
-                projection("\(min(30, content.artworks.count))", min(30, content.artworks.count) == 1 ? "artwork" : "artworks")
-                projection(hoursIn30Days, "of looking")
-                projection("\(max(1, user.profile.movements.count))", user.profile.movements.count > 1 ? "movements" : "movement")
+                projection("\(min(30, content.artworks.count))", "œuvres")
+                projection(hoursIn30Days, "de regard")
+                projection("30", "jours de série")
             }
-            .appearUp(0.2)
+            .enter(4)
 
             VStack(spacing: 0) {
-                recap("Goal", user.profile.goal.map { GoalScreen.label(for: $0) } ?? "Not set")
+                recap("Objectif", goalLabel)
                 Divider()
-                recap("Every day", "\(user.profile.minutes) min")
+                recap("Chaque jour", "\(user.profile.minutes) min")
                 Divider()
-                recap("Reminder", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Off")
+                recap("Rappel", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Désactivé")
             }
             .padding(.horizontal, 16)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
-            .appearUp(0.25)
+            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+            .enter(5)
         }
     }
 
-    /// Total looking time over 30 days, based on the chosen pace.
+    /// La première motivation choisie, avec le nombre des autres.
+    private var goalLabel: String {
+        let goals = user.profile.goals ?? []
+        guard let first = goals.first ?? user.profile.goal else { return "À définir" }
+        return goals.count > 1 ? "\(first) (+\(goals.count - 1))" : first
+    }
+
+    /// Temps de regard cumulé sur 30 jours, d'après le rythme choisi.
     private var hoursIn30Days: String {
         let minutes = user.profile.minutes * 30
-        return minutes % 60 == 0 ? "\(minutes / 60)h" : "\(minutes / 60)h \(minutes % 60)m"
+        return minutes % 60 == 0 ? "\(minutes / 60) h" : "\(minutes / 60) h \(minutes % 60)"
     }
 
     private func projection(_ value: String, _ label: String) -> some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(value).font(.figtree(24, .semibold))
+            Text(value).font(.figtree(24, .bold))
             Text(label).font(.figtree(13, .medium))
         }
         .foregroundStyle(Palette.ink)
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.blueSoft))
+        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sand))
     }
 
     private func recap(_ label: String, _ value: String) -> some View {
@@ -390,7 +397,7 @@ struct PlanScreen: View {
     }
 }
 
-// MARK: 19 · Account
+// MARK: 19 · Compte
 
 struct AccountScreen: View {
     @EnvironmentObject private var user: UserStore
@@ -420,15 +427,15 @@ struct AccountScreen: View {
             }
 
             VStack(spacing: 8) {
-                Text("Keep your streak and collection")
+                Text("Garde ta série et ta collection")
                     .font(.figtree(28, .semibold)).foregroundStyle(Palette.ink)
-                Text("An account keeps everything safe if you switch phones.")
+                Text("Un compte pour ne rien perdre si tu changes de téléphone.")
                     .font(.aBody).foregroundStyle(Palette.muted)
             }
             .multilineTextAlignment(.center)
             .padding(.horizontal, 24)
             .padding(.top, -24)
-            .appearUp(0.1)
+            .enter(1)
 
             Spacer(minLength: 16)
 
@@ -452,10 +459,10 @@ struct AccountScreen: View {
                 .frame(height: 56)
                 .clipShape(Capsule())
 
-                Button("Continue without an account") { onNext() }
+                Button("Continuer sans compte") { onNext() }
                     .buttonStyle(.secondary)
 
-                Text("By continuing, you agree to the Terms of Use and Privacy Policy.")
+                Text("En continuant, tu acceptes les conditions d'utilisation et la politique de confidentialité.")
                     .font(.figtree(12))
                     .foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
@@ -463,9 +470,9 @@ struct AccountScreen: View {
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 16)
-            .appearUp(0.2)
+            .enter(3)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white)
+        .background(Palette.bg)
     }
 }

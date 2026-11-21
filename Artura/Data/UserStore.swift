@@ -29,6 +29,11 @@ final class UserStore: ObservableObject {
         /// Today's practice: the day it applies to and the number of questions already answered.
         var trainingDay: String?
         var trainingCount: Int?
+        /// Réponses aux questions de l'onboarding (optionnelles : absentes des anciens profils).
+        var unknownArt: String?
+        var museumHabit: String?
+        /// Motivations choisies à l'onboarding (plusieurs possibles).
+        var goals: [String]?
     }
 
     @Published var profile: Profile {
@@ -44,6 +49,7 @@ final class UserStore: ObservableObject {
         } else {
             profile = Profile()
         }
+        OnboardingDebug.prepare(&profile)
     }
 
     private func save() {

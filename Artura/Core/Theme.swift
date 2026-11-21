@@ -23,16 +23,21 @@ extension Color {
 }
 
 enum Palette {
+    /// Fond des écrans : un blanc cassé légèrement beige.
+    static let bg = Color(hex: 0xFBF6EE)
     static let ink = Color(hex: 0x2D2C2B)
     static let muted = Color(hex: 0x5C5753)
-    static let card = Color(hex: 0xF9F4F2)
-    static let line = Color(hex: 0xF1EAE6)
-    static let lip = Color(hex: 0xE4DAD4)
-    static let blue = Color(hex: 0x0061EF)
-    static let blueDark = Color(hex: 0x0045B5)
-    static let blueText = Color(hex: 0x0050C8)
-    static let blueSoft = Color(hex: 0xDCEBFF)
-    static let blueSelected = Color(hex: 0xEAF2FF)
+    /// Cartes et rangées posées sur le fond, un ton plus soutenu que lui.
+    static let card = Color(hex: 0xF4ECE1)
+    static let line = Color(hex: 0xEBE1D4)
+    static let lip = Color(hex: 0xE0D4C5)
+    /// Bleu foncé de l'icône : boutons, sélection, liens.
+    static let blue = Color(hex: 0x1C365A)
+    static let blueDark = Color(hex: 0x0D1D36)
+    static let blueText = Color(hex: 0x1C365A)
+    /// Teintes sable, pour les encarts et les réponses sélectionnées.
+    static let sand = Color(hex: 0xF3E3C3)
+    static let sandLight = Color(hex: 0xFBEED3)
     static let sky = Color(hex: 0x0B74E5)
     static let skyLight = Color(hex: 0x4D9DF2)
     static let cloud = Color(hex: 0xFFD3E4)
@@ -66,6 +71,11 @@ extension Font {
         default: name = "Figtree-Regular"
         }
         return .custom(name, size: size)
+    }
+
+    /// Police à empattements du système, réservée aux citations.
+    static func serif(_ size: CGFloat, _ weight: Font.Weight = .medium) -> Font {
+        .system(size: size, weight: weight, design: .serif)
     }
 
     static let aTitle = Font.figtree(30, .semibold)
@@ -119,4 +129,8 @@ extension Animation {
     static let snappy = Animation.easeOut(duration: 0.16)
     static let gentle = Animation.easeInOut(duration: 0.24)
     static let bouncy = Animation.easeOut(duration: 0.2)
+    /// Glissement entre deux écrans : départ vif, arrivée très douce.
+    static let glide = Animation.timingCurve(0.22, 1, 0.36, 1, duration: 0.55)
+    /// Entrée d'un élément dans l'écran.
+    static let settle = Animation.timingCurve(0.22, 1, 0.36, 1, duration: 0.6)
 }

@@ -1,205 +1,269 @@
 import SwiftUI
 
-// MARK: 1 · Welcome
+// MARK: Bienvenue
 
 struct WelcomeScreen: View {
     let onNext: () -> Void
     let onLogin: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_hero", imageHeight: 470, cta: "Get started", onNext: onNext,
-                     secondaryTitle: "I already have an account", onSecondary: onLogin) {
-            Text("Artura").font(.figtree(15, .semibold)).foregroundStyle(Palette.blueText).appearUp(0.1)
-            Text("One masterpiece a day").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
-            Text("Five minutes to look, understand, and remember.")
-                .font(.aBody).foregroundStyle(Palette.ink).appearUp(0.3)
+        HeroScaffold(image: "ill_hero", imageHeight: 460, cta: "Commencer", onNext: onNext,
+                     secondaryTitle: "J'ai déjà un compte", onSecondary: onLogin) {
+            Text("ARTURA")
+                .font(.figtree(13, .bold))
+                .tracking(3)
+                .foregroundStyle(Palette.blue)
+                .enter(0)
+            Text("Apprends enfin l'art")
+                .font(.figtree(36, .bold))
+                .foregroundStyle(Palette.ink)
+                .enter(1)
+            Text("5 minutes par jour, des sessions pensées pour toi.")
+                .font(.figtree(17))
+                .foregroundStyle(Palette.muted)
+                .fixedSize(horizontal: false, vertical: true)
+                .enter(2.5)
         }
     }
 }
 
-// MARK: 2 · Promise (slow, block by block)
+// MARK: Une œuvre par jour (mur de tableaux)
 
-struct PromiseScreen: View {
+struct DailyScreen: View {
     let onNext: () -> Void
-    @State private var shown = 0
-
-    private let rows: [(String, String, String)] = [
-        ("art_impression", "One artwork a day", "Its story in 2 minutes, to read or listen to."),
-        ("ill_zoom", "Mini-games", "One minute of play to remember what you just saw."),
-        ("ill_musee", "Paths", "The great movements, lesson by lesson, at your own pace.")
-    ]
-    private let pace = 1.6
 
     var body: some View {
-        SlowScreen(duration: 1.2 + Double(rows.count) * pace + 0.4, onNext: onNext) {
-            VStack(alignment: .leading, spacing: 18) {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("Here's what's waiting for you").font(.aTitle).foregroundStyle(Palette.ink)
-                    Text("Three little things, every day.").font(.aBody).foregroundStyle(Palette.muted)
-                }
-                .opacity(shown >= 1 ? 1 : 0)
-                .offset(y: shown >= 1 ? 0 : 12)
+        VStack(spacing: 0) {
+            FloatingWall()
+                .enter()
 
-                ForEach(Array(rows.enumerated()), id: \.offset) { i, row in
-                    HStack(spacing: 14) {
-                        ArtImage(name: row.0).frame(width: 104, height: 120)
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(row.1).font(.aCardTitle).foregroundStyle(Palette.ink)
-                            Text(row.2).font(.aSmall).foregroundStyle(Palette.muted)
-                                .fixedSize(horizontal: false, vertical: true)
+            VStack(spacing: 12) {
+                Text("Une œuvre par jour")
+                    .font(.figtree(34, .bold))
+                    .foregroundStyle(Palette.ink)
+                    .enter(2)
+                Text("Cultive-toi sans t'en rendre compte.")
+                    .font(.figtree(17))
+                    .foregroundStyle(Palette.muted)
+                    .enter(3)
+            }
+            .multilineTextAlignment(.center)
+            .padding(.horizontal, 24)
+            .padding(.top, 26)
+
+            HStack(spacing: 12) {
+                proof(value: SocialProof.learners, label: "personnes apprennent déjà") {
+                    Image(systemName: "person.2.fill")
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundStyle(Palette.blue)
+                }
+                proof(value: SocialProof.rating, label: "de note moyenne") {
+                    HStack(spacing: 2) {
+                        ForEach(0..<5, id: \.self) { _ in
+                            Image(systemName: "star.fill")
+                                .font(.system(size: 11))
+                                .foregroundStyle(Palette.yellow)
                         }
-                        Spacer(minLength: 0)
                     }
-                    .padding(.trailing, 14)
-                    .background(Palette.card)
-                    .clipShape(RoundedRectangle(cornerRadius: 16))
-                    .opacity(shown >= i + 2 ? 1 : 0)
-                    .offset(y: shown >= i + 2 ? 0 : 16)
                 }
             }
             .padding(.horizontal, 24)
-            .padding(.top, 48)
+            .padding(.top, 24)
+            .enter(5)
+
+            Spacer(minLength: 16)
+
+            Button("Continuer") { onNext() }
+                .buttonStyle(.primary)
+                .padding(.horizontal, 24)
         }
-        .onAppear {
-            for i in 1...(rows.count + 1) {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4 + Double(i - 1) * pace) {
-                    withAnimation(.easeOut(duration: 1.1)) { shown = i }
-                    Haptics.soft()
-                }
-            }
+        .padding(.top, 8)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .background(Palette.bg)
+    }
+
+    private func proof<Mark: View>(value: String, label: String, @ViewBuilder mark: () -> Mark) -> some View {
+        VStack(spacing: 4) {
+            mark().frame(height: 16)
+            Text(value)
+                .font(.figtree(26, .bold))
+                .foregroundStyle(Palette.ink)
+            Text(label)
+                .font(.aCaption)
+                .foregroundStyle(Palette.muted)
+                .multilineTextAlignment(.center)
         }
+        .padding(.vertical, 14)
+        .padding(.horizontal, 8)
+        .frame(maxWidth: .infinity)
+        .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+        .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("\(value) \(label)")
     }
 }
 
-// MARK: 3 · You are…
+// MARK: Un musée dans ta poche
 
-struct GenderScreen: View {
-    @EnvironmentObject private var user: UserStore
-    let onBack: () -> Void
+struct PocketMuseumScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        OnbScaffold(number: OnbStep.gender.number, onBack: onBack, title: "You are…",
-                    subtitle: "So we can talk to you the right way.",
-                    ctaEnabled: user.profile.gender != nil, onNext: onNext) {
-            HStack(spacing: 12) {
-                portrait("ill_av1", "A woman", "femme")
-                portrait("ill_av2", "A man", "homme")
-            }
-            .appearUp(0.1)
-            VStack(spacing: 10) {
-                OptionRow(title: "Other", selected: user.profile.gender == "autre") { user.profile.gender = "autre" }
-                OptionRow(title: "I'd rather not say", selected: user.profile.gender == "na") { user.profile.gender = "na" }
-            }
-            .appearUp(0.2)
-        }
-    }
-
-    private func portrait(_ image: String, _ label: String, _ value: String) -> some View {
-        let selected = user.profile.gender == value
-        return Button {
-            Haptics.selection()
-            user.profile.gender = value
-        } label: {
-            VStack(spacing: 12) {
-                ArtImage(name: image).frame(height: 150)
-                Text(label).font(.figtree(17, .semibold)).foregroundStyle(Palette.ink)
-            }
-            .padding(.bottom, 14)
-            .background(selected ? Palette.blueSelected : Palette.card)
-            .clipShape(RoundedRectangle(cornerRadius: 20))
-            .overlay(RoundedRectangle(cornerRadius: 20).stroke(selected ? Palette.blue : .clear, lineWidth: 3))
-            .overlay(alignment: .topTrailing) {
-                if selected { CheckBadge().padding(8).transition(.scale) }
-            }
-            .scaleEffect(selected ? 1.01 : 1)
-        }
-        .buttonStyle(.pressable)
-        .animation(.bouncy, value: selected)
+        StoryScaffold(image: "ill_musee",
+                      title: "Artura, c'est un musée dans ta poche.",
+                      subtitle: "Artura a été créé pour les amoureux de l'art.",
+                      onNext: onNext)
     }
 }
 
-// MARK: 5 · Artura is here to help (the eye)
+// MARK: Au musée aussi
 
-struct HelpScreen: View {
-    let onBack: () -> Void
+struct PhotoScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_oeil", onBack: onBack, onNext: onNext) {
-            TagPill(text: "Artura is here to help").appearUp(0.1)
-            Text("Looking is a skill").font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
-            Text("Nobody is born knowing how to read a painting. Every day, we show you where to look: a detail, a color, a gesture.")
-                .font(.aBody).foregroundStyle(Palette.ink).appearUp(0.3)
-            Text("Rushing past a painting isn't a failing. We'll just give you a reason to stop.")
-                .font(.aBody).foregroundStyle(Palette.muted).appearUp(0.4)
-        }
+        StoryScaffold(image: "ill_photo",
+                      tag: "Et au musée ?",
+                      title: "Prends les œuvres en photo, demande des explications.",
+                      subtitle: "Et garde dans ta collection celles que tu veux retenir.",
+                      onNext: onNext)
     }
 }
 
-// MARK: Reviews and rating
+// MARK: Citations : pourquoi Artura
 
-struct ReviewsScreen: View {
-    let onBack: () -> Void
-    let onNext: () -> Void
-    @State private var stars = 0
+struct Quote: Identifiable {
+    let image: String
+    let text: String
+    let author: String
+    let role: String
+    var id: String { author }
 
-    // TODO: replace with real reviews and the real App Store rating before launch.
-    private let reviews = [
-        "“Five minutes in the morning, and I finally see paintings differently.”",
-        "“The little games really help me remember names and dates.”",
-        "“I knew nothing about art. Now I look forward to the notification.”"
+    // Citations à faire vérifier (source et traduction) avant la mise en ligne.
+    static let all: [Quote] = [
+        Quote(image: "portrait_klee", text: "L'art ne reproduit pas le visible, il rend visible.", author: "Paul Klee", role: "Peintre"),
+        Quote(image: "portrait_nietzsche", text: "Nous avons l'art pour ne pas mourir de la vérité.", author: "Friedrich Nietzsche", role: "Philosophe"),
+        Quote(image: "portrait_proust", text: "Par l'art seulement, nous pouvons sortir de nous.", author: "Marcel Proust", role: "Écrivain")
     ]
+}
+
+struct QuotesScreen: View {
+    let onNext: () -> Void
+    @State private var shown = 0
+
+    private let quotes = Quote.all
 
     var body: some View {
-        OnbScaffold(onBack: onBack, title: "You're not \(alone) getting started", onNext: onNext) {
-            HStack(spacing: 16) {
-                Text("4.8").font(.figtree(52, .semibold)).foregroundStyle(Palette.ink)
-                VStack(alignment: .leading, spacing: 5) {
-                    HStack(spacing: 3) {
-                        ForEach(0..<5, id: \.self) { i in
-                            Image(systemName: "star.fill")
-                                .font(.system(size: 20))
-                                .foregroundStyle(Palette.yellow)
-                                .scaleEffect(i < stars ? 1 : 0.7)
-                                .opacity(i < stars ? 1 : 0)
-                        }
-                    }
-                    Text("out of 5 · App Store").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
-                }
-                Spacer(minLength: 0)
-            }
-            .padding(.horizontal, 18)
-            .padding(.vertical, 16)
-            .background(RoundedRectangle(cornerRadius: 20).fill(Palette.blueSoft))
-            .appearUp(0.05)
-
-            Text("What people are saying").font(.aHeading).foregroundStyle(Palette.ink)
-
+        OnbScaffold(title: "Voilà pourquoi on a créé Artura",
+                    subtitle: "L'art est intemporel. Eux le disaient déjà.",
+                    onNext: onNext) {
             VStack(spacing: 12) {
-                ForEach(Array(reviews.enumerated()), id: \.offset) { i, review in
-                    Text(review)
-                        .font(.figtree(15, .medium))
-                        .foregroundStyle(Palette.ink)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 14)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
-                        .appearUp(0.2 + 0.1 * Double(i))
+                ForEach(Array(quotes.enumerated()), id: \.element.id) { i, quote in
+                    HStack(alignment: .top, spacing: 14) {
+                        ArtImage(name: quote.image, anchor: .top)
+                            .saturation(0)
+                            .frame(width: 56, height: 56)
+                            .clipShape(Circle())
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text("« \(quote.text) »")
+                                .font(.serif(18, .medium))
+                                .italic()
+                                .foregroundStyle(Palette.ink)
+                                .fixedSize(horizontal: false, vertical: true)
+                            Text("\(quote.author) · \(quote.role)")
+                                .font(.aCaption)
+                                .foregroundStyle(Palette.muted)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(16)
+                    .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+                    .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+                    .opacity(i < shown ? 1 : 0)
+                    .offset(y: i < shown ? 0 : 18)
                 }
             }
+            .padding(.top, 4)
         }
         .onAppear {
-            for i in 1...5 {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.15 * Double(i)) {
-                    withAnimation(.bouncy) { stars = i }
+            // Les citations arrivent une à une, sans rien bloquer.
+            for i in 1...quotes.count {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.45 + Double(i - 1) * 0.6) {
+                    withAnimation(.settle) { shown = max(shown, i) }
                     Haptics.soft()
                 }
             }
         }
     }
+}
 
+// MARK: La Joconde prend la parole
+
+struct QuestionsIntroScreen: View {
+    let onNext: () -> Void
+
+    var body: some View {
+        MascotScaffold(title: "Quelques questions pour mieux te connaître.",
+                       subtitle: "Moins d'une minute, pour un programme à ta mesure.",
+                       cta: "C'est parti", onNext: onNext)
+    }
+}
+
+struct TestIntroScreen: View {
     @EnvironmentObject private var user: UserStore
-    private var alone: String { user.agree("the only one", "the only one") }
+    let onNext: () -> Void
+
+    private var title: String {
+        if let name = user.profile.firstName, !name.isEmpty {
+            return "Très bien, \(name). Voyons ce que tu sais déjà."
+        }
+        return "Très bien. Voyons ce que tu sais déjà."
+    }
+
+    var body: some View {
+        MascotScaffold(title: title,
+                       subtitle: "Sept tableaux, du plus célèbre au plus pointu.",
+                       cta: user.agree("Je suis prêt", "Je suis prête"), onNext: onNext)
+    }
+}
+
+// MARK: Comprendre, pas seulement apprendre (texte qui s'écrit)
+
+struct UnderstandScreen: View {
+    let onNext: () -> Void
+
+    var body: some View {
+        VStack(spacing: 0) {
+            Spacer(minLength: 8)
+            MascotBubble(mascotSize: 150) {
+                TypewriterText(text: "Avec Artura, tu n'apprends pas seulement des noms. Tu comprends l'histoire derrière les tableaux, et ce qu'ils veulent dire.")
+            }
+            .enter()
+
+            HStack(spacing: 8) {
+                Image(systemName: "scope")
+                    .font(.system(size: 14, weight: .semibold))
+                Text("Ta première visite guidée · 2 min")
+                    .font(.figtree(14, .semibold))
+            }
+            .foregroundStyle(Palette.blue)
+            .padding(.horizontal, 14)
+            .frame(height: 36)
+            .background(Capsule().fill(Palette.sand))
+            .padding(.top, 22)
+            .enter(4)
+
+            Spacer(minLength: 16)
+            Spacer(minLength: 0)
+
+            Button("Commencer la visite") { onNext() }
+                .buttonStyle(.primary)
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Palette.bg)
+    }
 }

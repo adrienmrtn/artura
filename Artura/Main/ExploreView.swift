@@ -233,7 +233,7 @@ struct MovementDetailView: View {
             }
             .padding(24)
         }
-        .background(Color.white)
+        .background(Palette.bg)
         .fullScreenCover(item: $course) { CourseFlow(artwork: $0) }
     }
 }

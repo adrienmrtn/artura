@@ -156,7 +156,7 @@ struct GameHost: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            Palette.bg.ignoresSafeArea()
             if let result {
                 ResultView(
                     title: trainingDone ? "You've finished today's practice!"

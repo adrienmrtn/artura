@@ -5,6 +5,11 @@ import SwiftUI
 struct LessonView: View {
     let artwork: Artwork
     var pill: String = "Lesson"
+    /// Blocks to read. The whole lesson by default; onboarding passes an excerpt.
+    var blocks: [LessonBlock]? = nil
+    var finishTitle: String = "Take the quiz"
+    /// When set, a "Skip" button replaces the counter in the top right.
+    var onSkip: (() -> Void)? = nil
     let onBack: () -> Void
     let onFinish: () -> Void
 
@@ -12,7 +17,8 @@ struct LessonView: View {
     /// Interactive block opened full screen on the painting.
     @State private var studio: Int?
 
-    private var total: Int { artwork.lesson.count }
+    private var lesson: [LessonBlock] { blocks ?? artwork.lesson }
+    private var total: Int { lesson.count }
     private var isDone: Bool { revealed >= total }
 
     var body: some View {
@@ -30,9 +36,20 @@ struct LessonView: View {
                 .padding(.leading, -12)
                 .accessibilityLabel("Back")
                 ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
-                Text("\(revealed + 1) / \(total + 1)")
-                    .font(.figtree(14, .medium))
+                if let onSkip {
+                    Button("Passer") {
+                        Haptics.tap()
+                        onSkip()
+                    }
+                    .font(.figtree(15, .semibold))
                     .foregroundStyle(Palette.muted)
+                    .frame(height: 44)
+                    .buttonStyle(.pressable)
+                } else {
+                    Text("\(revealed + 1) / \(total + 1)")
+                        .font(.figtree(14, .medium))
+                        .foregroundStyle(Palette.muted)
+                }
             }
             .padding(.horizontal, 24)
 
@@ -48,7 +65,7 @@ struct LessonView: View {
                             .frame(height: 270)
                             .clipShape(RoundedRectangle(cornerRadius: 16))
 
-                        ForEach(Array(artwork.lesson.prefix(revealed).enumerated()), id: \.offset) { index, block in
+                        ForEach(Array(lesson.prefix(revealed).enumerated()), id: \.offset) { index, block in
                             Group {
                                 if block.isInteractive {
                                     interactiveCard(block, index: index)
@@ -75,7 +92,7 @@ struct LessonView: View {
                 }
             }
 
-            Button(isDone ? "Take the quiz" : "Continue") {
+            Button(isDone ? finishTitle : "Continue") {
                 if isDone {
                     Haptics.success()
                     onFinish()
@@ -84,7 +101,7 @@ struct LessonView: View {
                     let index = revealed
                     withAnimation(.easeOut(duration: 0.15)) { revealed += 1 }
                     // An interactive block opens on the painting right away.
-                    if artwork.lesson.indices.contains(index), artwork.lesson[index].isInteractive {
+                    if lesson.indices.contains(index), lesson[index].isInteractive {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { open(index) }
                     }
                 }
@@ -94,10 +111,10 @@ struct LessonView: View {
             .padding(.bottom, 16)
         }
         .padding(.top, 8)
-        .background(Color.white)
+        .background(Palette.bg)
         .overlay {
-            if let studio, artwork.lesson.indices.contains(studio) {
-                PaintingStudio(artwork: artwork, block: artwork.lesson[studio]) {
+            if let studio, lesson.indices.contains(studio) {
+                PaintingStudio(artwork: artwork, block: lesson[studio]) {
                     withAnimation(.easeInOut(duration: 0.3)) { self.studio = nil }
                 }
                 .id(studio)
@@ -163,7 +180,7 @@ struct LessonView: View {
             .padding(.horizontal, 16)
             .padding(.vertical, 14)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.blueSoft))
+            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sand))
         case "fact":
             VStack(alignment: .leading, spacing: 4) {
                 HStack(spacing: 6) {

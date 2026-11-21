@@ -155,7 +155,7 @@ struct OptionRow: View {
             .padding(.horizontal, 18)
             .padding(.vertical, 10)
             .frame(maxWidth: .infinity, minHeight: 64, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 16).fill(selected ? Palette.blueSelected : Palette.card))
+            .background(RoundedRectangle(cornerRadius: 16).fill(selected ? Palette.sandLight : Palette.card))
             .overlay(RoundedRectangle(cornerRadius: 16).stroke(selected ? Palette.blue : .clear, lineWidth: 2))
         }
         .buttonStyle(.pressable)

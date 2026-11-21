@@ -61,10 +61,10 @@ struct MainTabView: View {
             }
             .padding(.horizontal, 8)
             .padding(.top, 6)
-            .background(Color.white.ignoresSafeArea(edges: .bottom))
+            .background(Palette.bg.ignoresSafeArea(edges: .bottom))
             .overlay(alignment: .top) { Rectangle().fill(Color(hex: 0xEFE9E5)).frame(height: 1) }
         }
-        .background(Color.white)
+        .background(Palette.bg)
     }
 }
 
@@ -80,7 +80,7 @@ struct CourseFlow: View {
 
     var body: some View {
         ZStack {
-            Color.white.ignoresSafeArea()
+            Palette.bg.ignoresSafeArea()
             switch phase {
             case 0:
                 LessonView(artwork: artwork, onBack: { dismiss() }) {
@@ -126,7 +126,7 @@ struct ResultView: View {
                     .font(.system(size: 54, weight: .bold))
                     .foregroundStyle(celebrate ? Palette.yellow : .white)
                     .frame(width: 132, height: 132)
-                    .background(Circle().fill(celebrate ? Palette.blueSoft : Palette.green))
+                    .background(Circle().fill(celebrate ? Palette.sand : Palette.green))
                     .scaleEffect(pop ? 1 : 0.8)
                     .opacity(pop ? 1 : 0)
                 Text(title).font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)
@@ -143,7 +143,7 @@ struct ResultView: View {
             if celebrate && pop { ConfettiView() }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white)
+        .background(Palette.bg)
         .onAppear {
             withAnimation(.bouncy.delay(0.1)) { pop = true }
             if celebrate { Haptics.success() } else { Haptics.soft() }
