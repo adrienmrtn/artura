@@ -9,13 +9,31 @@ struct LessonView: View {
     let onFinish: () -> Void
 
     @State private var revealed = 0
-    @State private var scrolled = false
 
     private var total: Int { artwork.lesson.count }
     private var isDone: Bool { revealed >= total }
 
     var body: some View {
-        NavigationStack {
+        VStack(spacing: 10) {
+            HStack(spacing: 12) {
+                Button {
+                    onBack()
+                } label: {
+                    Image(systemName: "chevron.left")
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundStyle(Palette.ink)
+                        .frame(width: 44, height: 44)
+                }
+                .buttonStyle(.pressable)
+                .padding(.leading, -12)
+                .accessibilityLabel("Retour")
+                ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
+                Text("\(revealed + 1) / \(total + 1)")
+                    .font(.figtree(14, .medium))
+                    .foregroundStyle(Palette.muted)
+            }
+            .padding(.horizontal, 24)
+
             ScrollViewReader { proxy in
                 ScrollView {
                     VStack(alignment: .leading, spacing: 16) {
@@ -31,76 +49,39 @@ struct LessonView: View {
                         ForEach(Array(artwork.lesson.prefix(revealed).enumerated()), id: \.offset) { index, block in
                             blockView(block)
                                 .id(index)
-                                .transition(.asymmetric(
-                                    insertion: .opacity.combined(with: .offset(y: 16)),
-                                    removal: .opacity
-                                ))
+                                .transition(.opacity)
                         }
                         // Marge basse : permet au dernier bloc de remonter jusqu'au centre de l'écran.
                         Color.clear.frame(height: 340)
                     }
                     .padding(.horizontal, 24)
-                    .padding(.top, 8)
-                    .scrollProbe()
+                    .padding(.top, 4)
                 }
                 .scrollIndicators(.hidden)
                 .onChange(of: revealed) { _, newValue in
                     guard newValue > 0 else { return }
-                    // Le bloc qu'on vient de révéler se place au centre.
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
-                        withAnimation(.easeInOut(duration: 0.5)) {
-                            proxy.scrollTo(newValue - 1, anchor: .center)
-                        }
-                    }
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) {
-                        Haptics.rigid()
+                    // Le bloc qu'on vient de révéler se place au centre, sans attendre.
+                    withAnimation(.easeOut(duration: 0.22)) {
+                        proxy.scrollTo(newValue - 1, anchor: .center)
                     }
                 }
             }
-            .background(Color.white)
-            .safeAreaInset(edge: .top, spacing: 0) {
-                ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
-                    .padding(.horizontal, 24)
-                    .padding(.vertical, 8)
-                    .background(.bar)
-            }
-            .safeAreaInset(edge: .bottom, spacing: 0) {
-                Button(isDone ? "Passer au quiz" : "Continuer") {
-                    if isDone {
-                        Haptics.success()
-                        onFinish()
-                    } else {
-                        Haptics.soft()
-                        withAnimation(.gentle) { revealed += 1 }
-                    }
-                }
-                .buttonStyle(.primary)
-                .padding(.horizontal, 24)
-                .padding(.top, 10)
-                .padding(.bottom, 16)
-                .background(.bar)
-            }
-            .nativeHeader(artwork.title, scrolled: $scrolled, threshold: 70)
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button {
-                        Haptics.tap()
-                        onBack()
-                    } label: {
-                        Image(systemName: "chevron.left")
-                            .font(.system(size: 17, weight: .semibold))
-                            .foregroundStyle(Palette.ink)
-                    }
-                    .accessibilityLabel("Retour")
-                }
-                ToolbarItem(placement: .topBarTrailing) {
-                    Text("\(revealed + 1) / \(total + 1)")
-                        .font(.figtree(14, .medium))
-                        .foregroundStyle(Palette.muted)
-                        .contentTransition(.numericText())
+
+            Button(isDone ? "Passer au quiz" : "Continuer") {
+                if isDone {
+                    Haptics.success()
+                    onFinish()
+                } else {
+                    Haptics.soft()
+                    withAnimation(.easeOut(duration: 0.15)) { revealed += 1 }
                 }
             }
+            .buttonStyle(.primary)
+            .padding(.horizontal, 24)
+            .padding(.bottom, 16)
         }
+        .padding(.top, 8)
+        .background(Color.white)
     }
 
     @ViewBuilder

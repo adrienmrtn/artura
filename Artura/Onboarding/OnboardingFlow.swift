@@ -49,10 +49,7 @@ struct OnboardingFlow: View {
             Color.white.ignoresSafeArea()
             screen
                 .id(step)
-                .transition(.asymmetric(
-                    insertion: .move(edge: forward ? .trailing : .leading).combined(with: .opacity),
-                    removal: .move(edge: forward ? .leading : .trailing).combined(with: .opacity)
-                ))
+                .transition(.opacity)
         }
     }
 
@@ -62,9 +59,9 @@ struct OnboardingFlow: View {
 
     private func go(_ target: OnbStep, forward isForward: Bool = true) {
         forward = isForward
-        withAnimation(.gentle) { step = target }
+        withAnimation(.easeInOut(duration: 0.2)) { step = target }
         // Petit « toc » quand le nouvel écran se pose.
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) { Haptics.soft() }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) { Haptics.soft() }
     }
 
     private func next() {
@@ -221,7 +218,6 @@ struct HeroScaffold<Content: View>: View {
         VStack(spacing: 0) {
             ZStack(alignment: .top) {
                 ArtImage(name: image)
-                    .scaleEffect(settle ? 1 : 1.05)
                     .frame(height: imageHeight)
                     .clipShape(ArcHeaderShape())
                     .ignoresSafeArea(edges: .top)
