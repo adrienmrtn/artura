@@ -1,24 +1,24 @@
 import SwiftUI
 
-// MARK: Bienvenue
+// MARK: Welcome
 
 struct WelcomeScreen: View {
     let onNext: () -> Void
     let onLogin: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_hero", imageHeight: 460, cta: "Commencer", onNext: onNext,
-                     secondaryTitle: "J'ai déjà un compte", onSecondary: onLogin) {
+        HeroScaffold(image: "ill_hero", imageHeight: 460, cta: "Get started", onNext: onNext,
+                     secondaryTitle: "I already have an account", onSecondary: onLogin) {
             Text("ARTURA")
                 .font(.figtree(13, .bold))
                 .tracking(3)
                 .foregroundStyle(Palette.blue)
                 .enter(0)
-            Text("Apprends enfin l'art")
+            Text("Finally, learn art")
                 .font(.figtree(36, .bold))
                 .foregroundStyle(Palette.ink)
                 .enter(1)
-            Text("5 minutes par jour, des sessions pensées pour toi.")
+            Text("5 minutes a day, with sessions made for you.")
                 .font(.figtree(17))
                 .foregroundStyle(Palette.muted)
                 .fixedSize(horizontal: false, vertical: true)
@@ -27,7 +27,7 @@ struct WelcomeScreen: View {
     }
 }
 
-// MARK: Une œuvre par jour (mur de tableaux)
+// MARK: One masterpiece a day (wall of paintings)
 
 struct DailyScreen: View {
     let onNext: () -> Void
@@ -38,11 +38,11 @@ struct DailyScreen: View {
                 .enter()
 
             VStack(spacing: 12) {
-                Text("Une œuvre par jour")
+                Text("One masterpiece a day")
                     .font(.figtree(34, .bold))
                     .foregroundStyle(Palette.ink)
                     .enter(2)
-                Text("Cultive-toi sans t'en rendre compte.")
+                Text("Get cultured without even noticing.")
                     .font(.figtree(17))
                     .foregroundStyle(Palette.muted)
                     .enter(3)
@@ -52,12 +52,12 @@ struct DailyScreen: View {
             .padding(.top, 26)
 
             HStack(spacing: 12) {
-                proof(value: SocialProof.learners, label: "personnes apprennent déjà") {
+                proof(value: SocialProof.learners, label: "people already learning") {
                     Image(systemName: "person.2.fill")
                         .font(.system(size: 14, weight: .semibold))
                         .foregroundStyle(Palette.blue)
                 }
-                proof(value: SocialProof.rating, label: "de note moyenne") {
+                proof(value: SocialProof.rating, label: "average rating") {
                     HStack(spacing: 2) {
                         ForEach(0..<5, id: \.self) { _ in
                             Image(systemName: "star.fill")
@@ -73,7 +73,7 @@ struct DailyScreen: View {
 
             Spacer(minLength: 16)
 
-            Button("Continuer") { onNext() }
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
                 .padding(.horizontal, 24)
         }
@@ -104,34 +104,34 @@ struct DailyScreen: View {
     }
 }
 
-// MARK: Un musée dans ta poche
+// MARK: A museum in your pocket
 
 struct PocketMuseumScreen: View {
     let onNext: () -> Void
 
     var body: some View {
         StoryScaffold(image: "ill_musee",
-                      title: "Artura, c'est un musée dans ta poche.",
-                      subtitle: "Artura a été créé pour les amoureux de l'art.",
+                      title: "Artura is a museum in your pocket.",
+                      subtitle: "Artura was made for art lovers.",
                       onNext: onNext)
     }
 }
 
-// MARK: Au musée aussi
+// MARK: At the museum too
 
 struct PhotoScreen: View {
     let onNext: () -> Void
 
     var body: some View {
         StoryScaffold(image: "ill_photo",
-                      tag: "Et au musée ?",
-                      title: "Prends les œuvres en photo, demande des explications.",
-                      subtitle: "Et garde dans ta collection celles que tu veux retenir.",
+                      tag: "And at the museum?",
+                      title: "Snap a photo of any artwork and ask what it means.",
+                      subtitle: "Then save the ones you want to remember to your collection.",
                       onNext: onNext)
     }
 }
 
-// MARK: Citations : pourquoi Artura
+// MARK: Quotes: why Artura
 
 struct Quote: Identifiable {
     let image: String
@@ -140,11 +140,11 @@ struct Quote: Identifiable {
     let role: String
     var id: String { author }
 
-    // Citations à faire vérifier (source et traduction) avant la mise en ligne.
+    // Quotes to be verified (source and translation) before release.
     static let all: [Quote] = [
-        Quote(image: "portrait_klee", text: "L'art ne reproduit pas le visible, il rend visible.", author: "Paul Klee", role: "Peintre"),
-        Quote(image: "portrait_nietzsche", text: "Nous avons l'art pour ne pas mourir de la vérité.", author: "Friedrich Nietzsche", role: "Philosophe"),
-        Quote(image: "portrait_proust", text: "Par l'art seulement, nous pouvons sortir de nous.", author: "Marcel Proust", role: "Écrivain")
+        Quote(image: "portrait_klee", text: "Art does not reproduce the visible; it makes visible.", author: "Paul Klee", role: "Painter"),
+        Quote(image: "portrait_nietzsche", text: "We have art so that we shall not die of the truth.", author: "Friedrich Nietzsche", role: "Philosopher"),
+        Quote(image: "portrait_proust", text: "Through art alone are we able to emerge from ourselves.", author: "Marcel Proust", role: "Writer")
     ]
 }
 
@@ -155,8 +155,8 @@ struct QuotesScreen: View {
     private let quotes = Quote.all
 
     var body: some View {
-        OnbScaffold(title: "Voilà pourquoi on a créé Artura",
-                    subtitle: "L'art est intemporel. Eux le disaient déjà.",
+        OnbScaffold(title: "This is why we created Artura",
+                    subtitle: "Art is timeless. They said it long before us.",
                     onNext: onNext) {
             VStack(spacing: 12) {
                 ForEach(Array(quotes.enumerated()), id: \.element.id) { i, quote in
@@ -166,7 +166,7 @@ struct QuotesScreen: View {
                             .frame(width: 56, height: 56)
                             .clipShape(Circle())
                         VStack(alignment: .leading, spacing: 6) {
-                            Text("« \(quote.text) »")
+                            Text("“\(quote.text)”")
                                 .font(.serif(18, .medium))
                                 .italic()
                                 .foregroundStyle(Palette.ink)
@@ -187,7 +187,7 @@ struct QuotesScreen: View {
             .padding(.top, 4)
         }
         .onAppear {
-            // Les citations arrivent une à une, sans rien bloquer.
+            // The quotes come in one by one, without blocking anything.
             for i in 1...quotes.count {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.45 + Double(i - 1) * 0.6) {
                     withAnimation(.settle) { shown = max(shown, i) }
@@ -198,15 +198,15 @@ struct QuotesScreen: View {
     }
 }
 
-// MARK: La Joconde prend la parole
+// MARK: The Mona Lisa speaks
 
 struct QuestionsIntroScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        MascotScaffold(title: "Quelques questions pour mieux te connaître.",
-                       subtitle: "Moins d'une minute, pour un programme à ta mesure.",
-                       cta: "C'est parti", onNext: onNext)
+        MascotScaffold(title: "A few questions to get to know you.",
+                       subtitle: "Less than a minute, for a program built around you.",
+                       cta: "Let's go", onNext: onNext)
     }
 }
 
@@ -216,19 +216,19 @@ struct TestIntroScreen: View {
 
     private var title: String {
         if let name = user.profile.firstName, !name.isEmpty {
-            return "Très bien, \(name). Voyons ce que tu sais déjà."
+            return "Great, \(name). Let's see what you already know."
         }
-        return "Très bien. Voyons ce que tu sais déjà."
+        return "Great. Let's see what you already know."
     }
 
     var body: some View {
         MascotScaffold(title: title,
-                       subtitle: "Sept tableaux, du plus célèbre au plus pointu.",
-                       cta: user.agree("Je suis prêt", "Je suis prête"), onNext: onNext)
+                       subtitle: "Seven paintings, from the most famous to the most obscure.",
+                       cta: user.agree("I'm ready", "I'm ready"), onNext: onNext)
     }
 }
 
-// MARK: Comprendre, pas seulement apprendre (texte qui s'écrit)
+// MARK: Understand, not just learn (typewriter text)
 
 struct UnderstandScreen: View {
     let onNext: () -> Void
@@ -237,14 +237,14 @@ struct UnderstandScreen: View {
         VStack(spacing: 0) {
             Spacer(minLength: 8)
             MascotBubble(mascotSize: 150) {
-                TypewriterText(text: "Avec Artura, tu n'apprends pas seulement des noms. Tu comprends l'histoire derrière les tableaux, et ce qu'ils veulent dire.")
+                TypewriterText(text: "With Artura, you don't just learn names. You understand the story behind each painting, and what it means.")
             }
             .enter()
 
             HStack(spacing: 8) {
                 Image(systemName: "scope")
                     .font(.system(size: 14, weight: .semibold))
-                Text("Ta première visite guidée · 2 min")
+                Text("Your first guided tour · 2 min")
                     .font(.figtree(14, .semibold))
             }
             .foregroundStyle(Palette.blue)
@@ -257,7 +257,7 @@ struct UnderstandScreen: View {
             Spacer(minLength: 16)
             Spacer(minLength: 0)
 
-            Button("Commencer la visite") { onNext() }
+            Button("Start the tour") { onNext() }
                 .buttonStyle(.primary)
         }
         .padding(.horizontal, 24)

@@ -48,7 +48,7 @@ enum Reminder {
 final class ProStore: ObservableObject {
     static let yearlyID = "com.vikstudios.artura.pro.yearly"
     static let monthlyID = "com.vikstudios.artura.pro.monthly"
-    /// Même abonnement annuel, avec 7 jours d'essai au lieu de 3 (offre de dernière minute).
+    /// Same yearly subscription, with a 7-day trial instead of 3 (last-minute offer).
     static let yearlyExtendedID = "com.vikstudios.artura.pro.yearly.trial7"
     static let allIDs: Set<String> = [yearlyID, monthlyID, yearlyExtendedID]
 
@@ -131,7 +131,7 @@ final class ProStore: ObservableObject {
 }
 
 extension Product {
-    /// Durée de l'essai gratuit en jours, lue sur l'offre de lancement du produit.
+    /// Length of the free trial in days, read from the product's introductory offer.
     var trialDays: Int? {
         guard let offer = subscription?.introductoryOffer, offer.paymentMode == .freeTrial else { return nil }
         let count = offer.period.value * offer.periodCount
@@ -145,15 +145,15 @@ extension Product {
     }
 }
 
-/// Ce que les écrans d'essai gratuit affichent : prix et durée, lus sur le produit StoreKit.
+/// What the free trial screens display: price and duration, read from the StoreKit product.
 struct TrialOffer {
     let product: Product?
     let trialDays: Int
-    /// "29,99 €"
+    /// "$29.99"
     let yearlyPrice: String
-    /// "2,50 €"
+    /// "$2.50"
     let monthlyPrice: String
-    /// "0,00 €"
+    /// "$0.00"
     let zeroPrice: String
 
     init?(_ product: Product?) {
@@ -166,13 +166,13 @@ struct TrialOffer {
     }
 
     #if DEBUG
-    /// Valeurs d'exemple pour afficher les écrans sans StoreKit (captures d'écran, aperçus).
+    /// Sample values to show the screens without StoreKit (screenshots, previews).
     init(previewDays: Int) {
         product = nil
         trialDays = previewDays
-        yearlyPrice = "29,99 €"
-        monthlyPrice = "2,50 €"
-        zeroPrice = "0,00 €"
+        yearlyPrice = "$29.99"
+        monthlyPrice = "$2.50"
+        zeroPrice = "$0.00"
     }
     #endif
 }

@@ -1,29 +1,29 @@
 import SwiftUI
 import StoreKit
 
-// Fin de l'onboarding : la surprise, le cadeau (essai gratuit), « aucun engagement »,
-// le déroulé de l'essai, puis l'offre de dernière minute si on veut partir.
+// End of onboarding: the surprise, the gift (free trial), "no commitment",
+// how the trial works, then the last-minute offer if the user wants to leave.
 
 enum Legal {
-    /// Conditions d'utilisation : le contrat standard d'Apple, à remplacer si l'appli a les siennes.
+    /// Terms of Use: Apple's standard EULA, to be replaced if the app has its own.
     static let terms = URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")
-    /// Politique de confidentialité : à renseigner avant la mise en ligne.
+    /// Privacy Policy: to be filled in before release.
     static let privacy: URL? = nil
 }
 
 private func dayCountWord(_ days: Int) -> String {
     switch days {
-    case 3: return "Trois"
-    case 7: return "Sept"
-    case 14: return "Quatorze"
+    case 3: return "Three"
+    case 7: return "Seven"
+    case 14: return "Fourteen"
     default: return "\(days)"
     }
 }
 
-// MARK: - Dessin isométrique (boîte cadeau)
+// MARK: - Isometric drawing (gift box)
 
-/// Projette un point (x, y, z) d'un cube unité vers l'écran, en vue isométrique.
-/// Le coin le plus proche du regard, (1, 1, 0), tombe en bas au centre du cadre.
+/// Projects a point (x, y, z) of a unit cube onto the screen, in isometric view.
+/// The corner closest to the viewer, (1, 1, 0), lands at the bottom center of the frame.
 private struct Iso {
     let rect: CGRect
     var unit: CGFloat { rect.width / 1.732 }
@@ -34,7 +34,7 @@ private struct Iso {
     }
 }
 
-/// Une face plane définie par ses coins dans l'espace du cube.
+/// A flat face defined by its corners in cube space.
 private struct IsoFace: Shape {
     let corners: [[CGFloat]]
 
@@ -50,19 +50,19 @@ private struct IsoFace: Shape {
     }
 }
 
-/// Le nœud du ruban, posé au centre du couvercle.
+/// The ribbon bow, sitting at the center of the lid.
 private struct IsoBow: Shape {
     let height: CGFloat
 
     func path(in rect: CGRect) -> Path {
         let c = Iso(rect: rect).point(0.5, 0.5, height)
         var p = Path()
-        // Deux boucles
+        // Two loops
         p.move(to: c)
         p.addCurve(to: c, control1: CGPoint(x: c.x - 58, y: c.y - 44), control2: CGPoint(x: c.x - 64, y: c.y + 4))
         p.move(to: c)
         p.addCurve(to: c, control1: CGPoint(x: c.x + 58, y: c.y - 44), control2: CGPoint(x: c.x + 64, y: c.y + 4))
-        // Deux pans
+        // Two tails
         p.move(to: c)
         p.addLine(to: CGPoint(x: c.x - 20, y: c.y + 26))
         p.addLine(to: CGPoint(x: c.x - 6, y: c.y + 20))
@@ -76,7 +76,7 @@ private struct IsoBow: Shape {
     }
 }
 
-/// Boîte cadeau en vue isométrique. Fermée, elle attend ; ouverte, le couvercle se soulève et la lumière sort.
+/// Gift box in isometric view. Closed, it waits; opened, the lid lifts and light pours out.
 struct GiftBox: View {
     let opened: Bool
 
@@ -90,19 +90,19 @@ struct GiftBox: View {
 
     var body: some View {
         ZStack {
-            // Ombre au sol
+            // Ground shadow
             IsoFace(corners: [[-0.14, -0.14, 0], [1.14, -0.14, 0], [1.14, 1.14, 0], [-0.14, 1.14, 0]])
                 .fill(Palette.blueDark.opacity(0.16))
                 .blur(radius: 10)
 
-            // Le corps de la boîte
+            // The body of the box
             face([[0, 0, h], [1, 0, h], [1, 1, h], [0, 1, h]], Self.outline)
             face([[0, 1, 0], [1, 1, 0], [1, 1, h], [0, 1, h]], Palette.blue)
             face([[1, 1, 0], [1, 0, 0], [1, 0, h], [1, 1, h]], Color(hex: 0x132744))
             face([[0.4, 1, 0], [0.6, 1, 0], [0.6, 1, h], [0.4, 1, h]], Self.ribbon)
             face([[1, 0.6, 0], [1, 0.4, 0], [1, 0.4, h], [1, 0.6, h]], Self.ribbonShade)
 
-            // La lumière qui sort de la boîte
+            // The light coming out of the box
             Ellipse()
                 .fill(RadialGradient(colors: [Color(hex: 0xFFE9B0), Palette.yellow.opacity(0.55), Palette.yellow.opacity(0)],
                                      center: .center, startRadius: 2, endRadius: 78))
@@ -110,7 +110,7 @@ struct GiftBox: View {
                 .offset(y: -48)
                 .opacity(opened ? 1 : 0)
 
-            // Le couvercle
+            // The lid
             lid
                 .offset(x: opened ? 8 : 0, y: opened ? -86 : 0)
                 .rotationEffect(.degrees(opened ? -11 : 0))
@@ -142,7 +142,7 @@ struct GiftBox: View {
     }
 }
 
-// MARK: - 1 · La surprise, puis le cadeau qui s'ouvre
+// MARK: - 1 · The surprise, then the gift opens
 
 struct GiftScreen: View {
     let offer: TrialOffer
@@ -161,11 +161,11 @@ struct GiftScreen: View {
                 Group {
                     if opened {
                         VStack(spacing: 12) {
-                            Text("Avant de commencer, on t'offre Artura en entier.")
+                            Text("Before you start, all of Artura is on us.")
                                 .font(.figtree(32, .bold))
                                 .foregroundStyle(Palette.ink)
                                 .fixedSize(horizontal: false, vertical: true)
-                            Text("\(dayCountWord(offer.trialDays)) jours, tout ouvert. Tu verras, ça change tout.")
+                            Text("\(dayCountWord(offer.trialDays)) days, everything unlocked. You'll see, it changes everything.")
                                 .font(.figtree(17))
                                 .foregroundStyle(Palette.muted)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -176,10 +176,10 @@ struct GiftScreen: View {
                     } else {
                         MascotBubble(mascotSize: 118) {
                             VStack(spacing: 6) {
-                                Text("Et le meilleur pour la fin…")
+                                Text("We saved the best for last…")
                                     .font(.aTitleSmall)
                                     .foregroundStyle(Palette.ink)
-                                Text("On a une surprise pour toi.")
+                                Text("We have a surprise for you.")
                                     .font(.figtree(17))
                                     .foregroundStyle(Palette.muted)
                             }
@@ -205,12 +205,12 @@ struct GiftScreen: View {
 
                 Spacer(minLength: 20)
 
-                Button(opened ? "J'en profite" : "Ouvrir ma surprise") {
+                Button(opened ? "Claim my gift" : "Open my surprise") {
                     if opened { onNext() } else { open() }
                 }
                 .buttonStyle(.primary)
 
-                Text("Sans engagement. Annulation libre.")
+                Text("No commitment. Cancel anytime.")
                     .font(.aSmall)
                     .foregroundStyle(Palette.muted)
                     .frame(height: 36)
@@ -248,9 +248,9 @@ struct GiftScreen: View {
     }
 }
 
-// MARK: - 2 · Aucun engagement
+// MARK: - 2 · No commitment
 
-/// Part de disque, pour le cadran.
+/// Pie slice, for the dial.
 private struct PieSlice: Shape {
     let start: Angle
     let end: Angle
@@ -265,7 +265,7 @@ private struct PieSlice: Shape {
     }
 }
 
-/// Montre de l'essai : une part par jour, la dernière en vert. L'aiguille s'arrête la veille de la fin.
+/// Trial watch: one slice per day, the last one in green. The hand stops the day before the end.
 struct TrialClock: View {
     let days: Int
     @State private var run = false
@@ -275,7 +275,7 @@ struct TrialClock: View {
 
     var body: some View {
         ZStack {
-            // Anneau et couronne
+            // Ring and crown
             Circle().stroke(Palette.yellow, lineWidth: 7).frame(width: 34, height: 34).offset(y: -122)
             RoundedRectangle(cornerRadius: 5)
                 .fill(Palette.yellow)
@@ -298,7 +298,7 @@ struct TrialClock: View {
             }
             Circle().stroke(Self.outline, lineWidth: 2.5).frame(width: 152, height: 152)
 
-            // L'aiguille s'arrête au début du dernier jour.
+            // The hand stops at the start of the last day.
             Capsule()
                 .fill(Self.outline)
                 .frame(width: 6, height: 62)
@@ -320,11 +320,11 @@ struct NoCommitmentScreen: View {
     let offer: TrialOffer
     let onNext: () -> Void
 
-    /// « la veille » ressort en gras au milieu de la phrase.
+    /// "the day before" stands out in bold mid-sentence.
     private var reminderLine: Text {
-        Text("Tu reçois un rappel ")
-            + Text("la veille").font(.figtree(19, .bold))
-            + Text(" de la fin de l'essai.")
+        Text("You'll get a reminder ")
+            + Text("the day before").font(.figtree(19, .bold))
+            + Text(" your trial ends.")
     }
 
     var body: some View {
@@ -333,7 +333,7 @@ struct NoCommitmentScreen: View {
 
             VStack(spacing: 0) {
                 VStack(spacing: 12) {
-                    Text("Aucun engagement.")
+                    Text("No commitment.")
                         .font(.figtree(36, .bold))
                         .foregroundStyle(Palette.ink)
                         .enter()
@@ -342,7 +342,7 @@ struct NoCommitmentScreen: View {
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
                         .enter(1.5)
-                    Text("Tes découvertes, et le temps de décider.")
+                    Text("Your discoveries, and time to decide.")
                         .font(.figtree(17))
                         .foregroundStyle(Palette.muted)
                         .enter(3)
@@ -358,9 +358,9 @@ struct NoCommitmentScreen: View {
                 Spacer(minLength: 16)
                 Spacer(minLength: 0)
 
-                Button("Essayer pour \(offer.zeroPrice)") { onNext() }
+                Button("Try for \(offer.zeroPrice)") { onNext() }
                     .buttonStyle(.primary)
-                Text("Sans engagement. Annulation libre.")
+                Text("No commitment. Cancel anytime.")
                     .font(.aSmall)
                     .foregroundStyle(Palette.muted)
                     .frame(height: 36)
@@ -374,13 +374,13 @@ struct NoCommitmentScreen: View {
     }
 }
 
-// MARK: - 3 · Comment se passe ton essai (paywall)
+// MARK: - 3 · How your trial works (paywall)
 
 struct TrialScreen: View {
     @EnvironmentObject private var pro: ProStore
     @EnvironmentObject private var user: UserStore
     let offer: TrialOffer
-    /// Le même abonnement avec un essai plus long, proposé si on veut fermer.
+    /// The same subscription with a longer trial, offered if the user tries to close.
     let extendedOffer: TrialOffer?
     let onFinish: () -> Void
 
@@ -390,7 +390,7 @@ struct TrialScreen: View {
     @State private var reminder: Bool?
     @State private var grow = false
 
-    /// Délai avant que la croix de fermeture apparaisse, en secondes.
+    /// Delay before the close button appears, in seconds.
     private let closeDelay: Double = 8
 
     var body: some View {
@@ -398,7 +398,7 @@ struct TrialScreen: View {
             ScrollView {
                 VStack(spacing: 12) {
                     VStack(spacing: 8) {
-                        Text("Comment se passe ton essai ?")
+                        Text("How your trial works")
                             .font(.figtree(28, .bold))
                             .foregroundStyle(Palette.ink)
                             .multilineTextAlignment(.center)
@@ -406,7 +406,7 @@ struct TrialScreen: View {
                             .padding(.horizontal, 36)
                         HStack(spacing: 8) {
                             CheckBadge(color: Palette.green, size: 22)
-                            Text("\(offer.zeroPrice) aujourd'hui")
+                            Text("\(offer.zeroPrice) today")
                                 .font(.figtree(17, .bold))
                                 .foregroundStyle(Palette.ink)
                         }
@@ -437,7 +437,7 @@ struct TrialScreen: View {
                         ProgressView().tint(.white)
                     } else {
                         HStack(spacing: 10) {
-                            Text("Commencer mon essai")
+                            Text("Start my trial")
                             Image(systemName: "chevron.right").font(.system(size: 14, weight: .bold))
                         }
                     }
@@ -446,18 +446,18 @@ struct TrialScreen: View {
                 .disabled(pro.isPurchasing)
 
                 VStack(spacing: 2) {
-                    Text("\(offer.trialDays) jours d'accès illimité, puis \(offer.yearlyPrice) par an")
+                    Text("\(offer.trialDays) day\(offer.trialDays == 1 ? "" : "s") of unlimited access, then \(offer.yearlyPrice) per year")
                         .font(.aSmall).foregroundStyle(Palette.muted)
-                    Text("Soit \(offer.monthlyPrice) par mois")
+                    Text("That's just \(offer.monthlyPrice) per month")
                         .font(.figtree(14, .bold)).foregroundStyle(Palette.ink)
                 }
                 .multilineTextAlignment(.center)
                 .padding(.top, 4)
 
                 HStack(spacing: 18) {
-                    Button("Restaurer") { restore() }
-                    if let terms = Legal.terms { Link("Conditions", destination: terms) }
-                    if let privacy = Legal.privacy { Link("Confidentialité", destination: privacy) }
+                    Button("Restore") { restore() }
+                    if let terms = Legal.terms { Link("Terms", destination: terms) }
+                    if let privacy = Legal.privacy { Link("Privacy", destination: privacy) }
                 }
                 .font(.figtree(13))
                 .foregroundStyle(Palette.muted)
@@ -480,14 +480,14 @@ struct TrialScreen: View {
                     .overlay(Circle().stroke(Palette.line, lineWidth: 1))
             }
             .buttonStyle(.pressable)
-            .accessibilityLabel("Fermer et continuer gratuitement")
+            .accessibilityLabel("Close and continue for free")
             .opacity(canClose ? 1 : 0)
             .disabled(!canClose)
             .padding(.leading, 14)
             .padding(.top, 6)
         }
         .task {
-            // La croix n'apparaît qu'après quelques secondes de lecture.
+            // The close button only appears after a few seconds of reading.
             try? await Task.sleep(nanoseconds: UInt64(closeDelay * 1_000_000_000))
             withAnimation(.easeInOut(duration: 0.4)) { canClose = true }
         }
@@ -510,28 +510,28 @@ struct TrialScreen: View {
         }
     }
 
-    // MARK: Frise
+    // MARK: Timeline
 
     private var timeline: some View {
         VStack(alignment: .leading, spacing: 16) {
             timelineRow(icon: "lock.open.fill", fill: Palette.blue, tint: .white,
-                        title: "Aujourd'hui",
-                        text: "Tout Artura s'ouvre : cours, jeux et parcours, sans limite.")
+                        title: "Today",
+                        text: "All of Artura unlocks: lessons, games, and paths, no limits.")
             VStack(alignment: .leading, spacing: 10) {
                 timelineRow(icon: "bell.fill", fill: Palette.sand, tint: Palette.blue,
-                            title: "Jour \(max(1, offer.trialDays - 1)) · ton rappel",
-                            text: "La veille de la fin, on te prévient.")
+                            title: "Day \(max(1, offer.trialDays - 1)) · your reminder",
+                            text: "The day before it ends, we'll let you know.")
                 notification
                     .padding(.leading, 62)
             }
             timelineRow(icon: "seal.fill", fill: .white, tint: Palette.orange,
-                        title: "Jour \(offer.trialDays) · Artura Pro",
-                        text: "L'essai devient Artura Pro à \(offer.yearlyPrice) par an. Annule avant, en deux gestes, si tu veux.")
+                        title: "Day \(offer.trialDays) · Artura Pro",
+                        text: "Your trial becomes Artura Pro at \(offer.yearlyPrice) per year. Cancel before then in two taps if you like.")
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(alignment: .topLeading) {
-            // Le fil qui relie les trois étapes, du bleu vers la terre cuite.
+            // The thread linking the three steps, from blue to terracotta.
             GeometryReader { geo in
                 Capsule()
                     .fill(LinearGradient(colors: [Palette.blue, Palette.yellow, Palette.orange],
@@ -560,7 +560,7 @@ struct TrialScreen: View {
         }
     }
 
-    /// Aperçu de la notification envoyée la veille de la fin.
+    /// Preview of the notification sent the day before the end.
     private var notification: some View {
         HStack(spacing: 12) {
             Image("logo")
@@ -569,9 +569,9 @@ struct TrialScreen: View {
                 .frame(width: 38, height: 38)
                 .clipShape(RoundedRectangle(cornerRadius: 9))
             VStack(alignment: .leading, spacing: 1) {
-                Text("Ton essai se termine demain")
+                Text("Your free trial ends tomorrow")
                     .font(.figtree(14, .bold)).foregroundStyle(Palette.ink)
-                Text("Reviens voir les œuvres que tu as découvertes.")
+                Text("Come back to the artworks you've discovered.")
                     .font(.figtree(13)).foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -584,8 +584,8 @@ struct TrialScreen: View {
 
     private var reminderRow: some View {
         HStack(spacing: 12) {
-            Text(reminder == false ? "Notifications refusées : tu peux les activer dans Réglages."
-                                   : "Recevoir un rappel la veille de la fin")
+            Text(reminder == false ? "Notifications are off. You can turn them on in Settings."
+                                   : "Get a reminder the day before it ends")
                 .font(.figtree(16, .medium))
                 .foregroundStyle(Palette.ink)
                 .fixedSize(horizontal: false, vertical: true)
@@ -593,12 +593,12 @@ struct TrialScreen: View {
             if reminder == true {
                 HStack(spacing: 6) {
                     Image(systemName: "checkmark").font(.system(size: 12, weight: .bold))
-                    Text("Activé").font(.figtree(15, .bold))
+                    Text("On").font(.figtree(15, .bold))
                 }
                 .foregroundStyle(Palette.green)
                 .transition(.opacity)
             } else if reminder == nil {
-                Button("Activer") { askReminder() }
+                Button("Turn on") { askReminder() }
                     .font(.figtree(15, .bold))
                     .foregroundStyle(.white)
                     .padding(.horizontal, 18)
@@ -627,7 +627,7 @@ struct TrialScreen: View {
     }
 
     private func close() {
-        // Une dernière offre avant de partir, une seule fois.
+        // One last offer before leaving, shown only once.
         if let extendedOffer, !exitOfferSeen, extendedOffer.trialDays > offer.trialDays {
             exitOfferSeen = true
             Haptics.press()
@@ -661,9 +661,9 @@ struct TrialScreen: View {
     }
 }
 
-// MARK: - 4 · « Attends… » : l'offre de dernière minute
+// MARK: - 4 · "Wait…": the last-minute offer
 
-/// Enveloppe cachetée, légèrement penchée.
+/// Sealed envelope, slightly tilted.
 private struct OfferEnvelope: View {
     @State private var pulse = false
 
@@ -672,7 +672,7 @@ private struct OfferEnvelope: View {
             RoundedRectangle(cornerRadius: 12)
                 .fill(.white)
                 .shadow(color: Palette.blueDark.opacity(0.14), radius: 14, y: 8)
-            // Les plis du rabat
+            // The folds of the flap
             GeometryReader { geo in
                 Path { p in
                     let w = geo.size.width
@@ -688,7 +688,7 @@ private struct OfferEnvelope: View {
                 .stroke(Palette.lip, lineWidth: 1.5)
             }
             RoundedRectangle(cornerRadius: 12).stroke(Palette.blue, lineWidth: 1.5)
-            // Le cachet de cire
+            // The wax seal
             Text("A")
                 .font(.figtree(24, .bold))
                 .foregroundStyle(.white)
@@ -710,7 +710,7 @@ private struct OfferEnvelope: View {
 struct ExitOfferSheet: View {
     @ObservedObject var pro: ProStore
     let offer: TrialOffer
-    /// Durée de l'essai de base, barrée à côté de la nouvelle.
+    /// Length of the base trial, struck through next to the new one.
     let baseDays: Int
     let firstName: String?
     let onAccept: () -> Void
@@ -721,8 +721,8 @@ struct ExitOfferSheet: View {
     private var extraDays: Int { max(0, offer.trialDays - baseDays) }
 
     private var title: String {
-        if let firstName, !firstName.isEmpty { return "Attends, \(firstName)…" }
-        return "Attends…"
+        if let firstName, !firstName.isEmpty { return "Wait, \(firstName)…" }
+        return "Wait…"
     }
 
     var body: some View {
@@ -731,7 +731,7 @@ struct ExitOfferSheet: View {
                 Text(title)
                     .font(.figtree(34, .bold))
                     .foregroundStyle(Palette.ink)
-                Text("Avant de partir, on a une dernière chose pour toi.")
+                Text("Before you go, we have one last thing for you.")
                     .font(.figtree(17))
                     .foregroundStyle(Palette.muted)
                     .fixedSize(horizontal: false, vertical: true)
@@ -747,7 +747,7 @@ struct ExitOfferSheet: View {
 
             Spacer(minLength: 12)
 
-            Text("TON OFFRE EXCLUSIVE")
+            Text("YOUR EXCLUSIVE OFFER")
                 .font(.figtree(12, .bold))
                 .tracking(3)
                 .foregroundStyle(Palette.muted)
@@ -767,13 +767,13 @@ struct ExitOfferSheet: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("Profiter de cette offre")
+                        Text("Claim this offer")
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(pro.isPurchasing)
 
-                Button("Non merci, je quitte") {
+                Button("No thanks, I'll pass") {
                     Haptics.tap()
                     onDecline()
                 }
@@ -782,7 +782,7 @@ struct ExitOfferSheet: View {
                 .underline()
                 .frame(height: 44)
 
-                Text("\(offer.zeroPrice) aujourd'hui, puis \(offer.yearlyPrice) par an après \(offer.trialDays) jours.")
+                Text("\(offer.zeroPrice) today, then \(offer.yearlyPrice) per year after \(offer.trialDays) day\(offer.trialDays == 1 ? "" : "s").")
                     .font(.aCaption)
                     .foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
@@ -796,7 +796,7 @@ struct ExitOfferSheet: View {
         .background(Palette.bg.ignoresSafeArea())
         .onAppear {
             Haptics.soft()
-            // Les jours se remplissent un à un : d'abord l'essai, puis les jours offerts.
+            // Days fill in one by one: first the trial, then the free extra days.
             for i in 1...max(1, offer.trialDays) {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.7 + Double(i) * 0.12) {
                     withAnimation(.easeOut(duration: 0.25)) { filled = i }
@@ -809,11 +809,11 @@ struct ExitOfferSheet: View {
     private var offerCard: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .firstTextBaseline, spacing: 10) {
-                Text("\(baseDays) jours")
+                Text("\(baseDays) day\(baseDays == 1 ? "" : "s")")
                     .font(.figtree(17, .medium))
                     .foregroundStyle(Palette.muted)
                     .strikethrough()
-                Text("\(offer.trialDays) jours gratuits")
+                Text("\(offer.trialDays) day\(offer.trialDays == 1 ? "" : "s") free")
                     .font(.figtree(28, .bold))
                     .foregroundStyle(Palette.ink)
             }
@@ -825,13 +825,13 @@ struct ExitOfferSheet: View {
                 }
             }
             HStack {
-                Text("J1 à J\(baseDays) : ton essai")
+                Text("Days 1–\(baseDays): your trial")
                     .font(.figtree(13, .medium)).foregroundStyle(Palette.blue)
                 Spacer(minLength: 8)
-                Text("J\(baseDays + 1) à J\(offer.trialDays) : offerts")
+                Text("Days \(baseDays + 1)–\(offer.trialDays): free")
                     .font(.figtree(13, .bold)).foregroundStyle(Palette.green)
             }
-            Text(offer.trialDays == 7 ? "Une semaine entière pour tout essayer." : "\(offer.trialDays) jours pour tout essayer.")
+            Text(offer.trialDays == 7 ? "A full week to try everything." : "\(offer.trialDays) day\(offer.trialDays == 1 ? "" : "s") to try everything.")
                 .font(.figtree(16))
                 .italic()
                 .foregroundStyle(Palette.ink)
@@ -841,7 +841,7 @@ struct ExitOfferSheet: View {
         .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.card))
         .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.green, lineWidth: 2))
         .overlay(alignment: .topTrailing) {
-            Text("+ \(extraDays) jours offerts")
+            Text("+ \(extraDays) day\(extraDays == 1 ? "" : "s") free")
                 .font(.figtree(13, .bold))
                 .foregroundStyle(.white)
                 .padding(.horizontal, 12)
@@ -852,7 +852,7 @@ struct ExitOfferSheet: View {
     }
 }
 
-// MARK: - Paywall du profil (choix annuel ou mensuel)
+// MARK: - Profile paywall (yearly or monthly choice)
 
 struct PaywallScreen: View {
     @EnvironmentObject private var pro: ProStore
@@ -860,10 +860,10 @@ struct PaywallScreen: View {
     @State private var yearlySelected = true
 
     private let benefits = [
-        "Tous les jeux, sans limite quotidienne",
-        "Tous les parcours et leurs leçons",
-        "Les histoires en version audio",
-        "Aucune publicité"
+        "All games, no daily limit",
+        "All paths and their lessons",
+        "Stories in audio",
+        "No ads"
     ]
 
     private var selectedProduct: Product? { yearlySelected ? pro.yearly : pro.monthly }
@@ -883,13 +883,13 @@ struct PaywallScreen: View {
                         .background(Circle().fill(.white))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Fermer et continuer gratuitement")
+                .accessibilityLabel("Close and continue for free")
                 .padding(.trailing, 16)
                 .padding(.top, 8)
             }
 
             VStack(spacing: 14) {
-                Text("Démarre tes 3 jours d'Artura Pro")
+                Text("Start your 3 days of Artura Pro")
                     .font(.aTitleSmall).foregroundStyle(Palette.ink).multilineTextAlignment(.center)
 
                 VStack(alignment: .leading, spacing: 9) {
@@ -904,10 +904,10 @@ struct PaywallScreen: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal, 6)
 
-                planRow(title: "Annuel", price: pro.yearly.map { "\($0.displayPrice) / an" }, badge: "3 jours gratuits", selected: yearlySelected) {
+                planRow(title: "Yearly", price: pro.yearly.map { "\($0.displayPrice) per year" }, badge: "3 days free", selected: yearlySelected) {
                     yearlySelected = true
                 }
-                planRow(title: "Mensuel", price: pro.monthly.map { "\($0.displayPrice) / mois" }, badge: nil, selected: !yearlySelected) {
+                planRow(title: "Monthly", price: pro.monthly.map { "\($0.displayPrice) per month" }, badge: nil, selected: !yearlySelected) {
                     yearlySelected = false
                 }
                 if let error = pro.lastError {
@@ -926,15 +926,15 @@ struct PaywallScreen: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("Commencer l'essai gratuit")
+                        Text("Start free trial")
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(selectedProduct == nil || pro.isPurchasing)
                 .opacity(selectedProduct == nil ? 0.4 : 1)
 
-                TextLinkButton(title: "Plus tard", action: onClose)
-                Button("Restaurer mes achats") {
+                TextLinkButton(title: "Not now", action: onClose)
+                Button("Restore purchases") {
                     Task {
                         await pro.restore()
                         if pro.isPro {
@@ -968,7 +968,7 @@ struct PaywallScreen: View {
                     Text(title).font(.bodyStrong).foregroundStyle(Palette.ink)
                 }
                 Spacer(minLength: 8)
-                Text(price ?? "Prix indisponible").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                Text(price ?? "Price unavailable").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 if selected { CheckBadge().transition(.scale) }
             }
             .padding(.horizontal, 18)
