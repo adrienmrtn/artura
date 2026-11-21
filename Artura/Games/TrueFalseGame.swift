@@ -16,6 +16,7 @@ struct TrueFalseGame: View {
     @State private var drag: CGSize = .zero
     @State private var answer: Bool?
     @State private var score = 0
+    @State private var armed = false
 
     private var card: Card? { deck.indices.contains(index) ? deck[index] : nil }
     private var isCorrect: Bool { answer != nil && answer == card?.fact.isTrue }
@@ -44,6 +45,12 @@ struct TrueFalseGame: View {
                                 .onChanged { value in
                                     guard answer == nil else { return }
                                     drag = value.translation
+                                    // Vibration au moment où la carte franchit le seuil de réponse.
+                                    let nowArmed = abs(value.translation.width) > 90
+                                    if nowArmed != armed {
+                                        armed = nowArmed
+                                        Haptics.selection()
+                                    }
                                 }
                                 .onEnded { value in
                                     guard answer == nil else { return }
@@ -142,6 +149,7 @@ struct TrueFalseGame: View {
 
     private func respond(_ value: Bool) {
         guard let card, answer == nil else { return }
+        armed = false
         withAnimation(.bouncy) {
             answer = value
             drag = .zero

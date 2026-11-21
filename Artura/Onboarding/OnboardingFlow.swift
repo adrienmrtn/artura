@@ -63,6 +63,8 @@ struct OnboardingFlow: View {
     private func go(_ target: OnbStep, forward isForward: Bool = true) {
         forward = isForward
         withAnimation(.gentle) { step = target }
+        // Petit « toc » quand le nouvel écran se pose.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) { Haptics.soft() }
     }
 
     private func next() {
@@ -219,7 +221,7 @@ struct HeroScaffold<Content: View>: View {
         VStack(spacing: 0) {
             ZStack(alignment: .top) {
                 ArtImage(name: image)
-                    .scaleEffect(settle ? 1 : 1.12)
+                    .scaleEffect(settle ? 1 : 1.05)
                     .frame(height: imageHeight)
                     .clipShape(ArcHeaderShape())
                     .ignoresSafeArea(edges: .top)

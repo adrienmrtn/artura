@@ -61,6 +61,9 @@ struct TrialTimelineScreen: View {
         }
         .onAppear {
             withAnimation(.easeOut(duration: 0.9).delay(0.3)) { grow = true }
+            for i in 1...3 {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.15 * Double(i) + 0.2) { Haptics.rigid() }
+            }
         }
     }
 }
@@ -92,7 +95,7 @@ struct TrialNotifScreen: View {
                 .padding(.vertical, 14)
                 .background(RoundedRectangle(cornerRadius: 20).fill(.white).shadow(color: .black.opacity(0.18), radius: 16, y: 8))
                 .padding(20)
-                .offset(y: dropped ? 0 : -160)
+                .offset(y: dropped ? 0 : -60)
                 .opacity(dropped ? 1 : 0)
             }
             .frame(height: 330)

@@ -35,6 +35,7 @@ enum GameKind: String, Identifiable, CaseIterable {
 struct GamesView: View {
     @EnvironmentObject private var user: UserStore
     @State private var game: GameKind?
+    @State private var scrolled = false
 
     /// Le défi du jour tourne entre les quatre jeux.
     private var daily: GameKind {
@@ -69,9 +70,11 @@ struct GamesView: View {
                 .padding(.top, -20)
                 .padding(.bottom, 24)
             }
+            .scrollProbe()
         }
         .scrollIndicators(.hidden)
         .ignoresSafeArea(edges: .top)
+        .nativeHeader("Jeux", scrolled: $scrolled)
         .fullScreenCover(item: $game) { kind in
             GameHost(kind: kind)
         }
@@ -195,9 +198,11 @@ struct GameHost: View {
                 .transition(.opacity)
             }
         }
+        .onAppear { Haptics.soft() }
     }
 
     private func finish(_ score: Int, _ total: Int) {
+        Haptics.press()
         user.recordGame(won: score * 2 >= total)
         withAnimation(.gentle) { result = (score, total) }
     }

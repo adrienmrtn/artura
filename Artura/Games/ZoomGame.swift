@@ -127,6 +127,7 @@ struct ZoomGame: View {
     }
 
     private func advance() {
+        Haptics.tap()
         if index >= rounds.count - 1 {
             onFinish(score, rounds.count)
         } else {
