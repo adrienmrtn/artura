@@ -1,8 +1,10 @@
 import SwiftUI
 
-/// S'entraîner : une série de questions qui mélange les quatre types de jeux.
+/// S'entraîner : les questions du jour (30 au total), qui mélangent les quatre types de jeux.
+/// Chaque réponse est comptée tout de suite : on peut quitter et reprendre plus tard.
 struct TrainingGame: View {
     @EnvironmentObject private var content: ContentStore
+    @EnvironmentObject private var user: UserStore
     let onFinish: (Int, Int) -> Void
 
     struct Choice: Identifiable {
@@ -27,6 +29,8 @@ struct TrainingGame: View {
     }
 
     @State private var rounds: [Round] = []
+    /// Questions déjà répondues aujourd'hui avant cette session.
+    @State private var offset = 0
     @State private var index = 0
     @State private var picked: String?
     @State private var score = 0
@@ -38,7 +42,7 @@ struct TrainingGame: View {
         VStack(alignment: .leading, spacing: 14) {
             if let round {
                 HStack {
-                    TagPill(text: "\(round.kind) · \(index + 1) sur \(rounds.count)")
+                    TagPill(text: "\(round.kind) · \(offset + index + 1) sur \(offset + rounds.count)")
                     Spacer()
                     Text("\(score) point\(score > 1 ? "s" : "")")
                         .font(.figtree(14, .semibold)).foregroundStyle(Palette.muted)
@@ -77,7 +81,7 @@ struct TrainingGame: View {
                 Spacer(minLength: 0)
 
                 if picked != nil {
-                    Button(isLast ? "Voir mon score" : "Suivant") { advance() }
+                    Button(isLast ? "Terminer l'entraînement" : "Suivant") { advance() }
                         .buttonStyle(.primary)
                         .transition(.opacity)
                 }
@@ -89,7 +93,10 @@ struct TrainingGame: View {
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .onAppear {
-            if rounds.isEmpty { rounds = buildRounds() }
+            if rounds.isEmpty {
+                offset = user.trainingDoneToday
+                rounds = buildRounds(count: user.trainingRemaining)
+            }
         }
     }
 
@@ -139,6 +146,7 @@ struct TrainingGame: View {
     private func pick(_ choice: Choice, round: Round) {
         guard picked == nil else { return }
         withAnimation(.easeOut(duration: 0.15)) { picked = choice.id }
+        user.recordTrainingAnswer()
         if choice.id == round.correct {
             score += 1
             Haptics.success()
@@ -161,15 +169,22 @@ struct TrainingGame: View {
 
     // MARK: Construction des questions
 
-    private func buildRounds() -> [Round] {
+    private func buildRounds(count: Int) -> [Round] {
         let arts = content.artworks
-        guard arts.count >= 4 else { return [] }
-        let kinds = (["zoom", "palette", "fact", "older"] + ["zoom", "palette", "fact", "older"]).shuffled()
+        guard arts.count >= 4, count > 0 else { return [] }
+        let base = ["zoom", "palette", "fact", "older"]
         var facts = content.allFacts.shuffled()
         var result: [Round] = []
+        var previous: String?
 
-        for kind in kinds {
-            guard let art = arts.randomElement() else { continue }
+        // On tire un type au hasard à chaque question, jusqu'à avoir le compte.
+        var attempts = 0
+        while result.count < count && attempts < count * 6 {
+            attempts += 1
+            let kind = base.randomElement() ?? "zoom"
+            // Jamais deux fois la même œuvre de suite.
+            guard let art = arts.filter({ $0.id != previous }).randomElement() else { continue }
+            previous = art.id
             let others = arts.filter { $0.id != art.id }.shuffled()
             switch kind {
             case "zoom":
@@ -189,6 +204,7 @@ struct TrainingGame: View {
                     correct: art.id, explanation: "Ce sont les couleurs dominantes de « \(art.title) »."
                 ))
             case "fact":
+                if facts.isEmpty { facts = content.allFacts.shuffled() }
                 guard let item = facts.popLast() else { continue }
                 result.append(Round(
                     kind: "Vrai ou faux", prompt: "Vrai ou faux ?",

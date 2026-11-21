@@ -68,10 +68,7 @@ struct GamesView: View {
                 VStack(alignment: .leading, spacing: 12) {
                     weekCard
                     VStack(spacing: 6) {
-                        Button("S'entraîner") { game = .training }
-                            .buttonStyle(.primary)
-                        Text("Huit questions qui mélangent les quatre jeux.")
-                            .font(.aCaption).foregroundStyle(Palette.muted)
+                        TrainingButton { game = .training }
                     }
                     .padding(.vertical, 4)
                     Text("Ou choisis un jeu").font(.aHeading).foregroundStyle(Palette.ink)
@@ -154,6 +151,7 @@ struct GameHost: View {
     let kind: GameKind
 
     @State private var result: (score: Int, total: Int)?
+    private var trainingDone: Bool { kind == .training && user.trainingFinished }
     @State private var round = 0
 
     var body: some View {
@@ -161,10 +159,12 @@ struct GameHost: View {
             Color.white.ignoresSafeArea()
             if let result {
                 ResultView(
-                    title: result.score == result.total ? "Sans faute !" : (result.score * 2 >= result.total ? "Bien joué" : "On retente ?"),
-                    detail: "\(result.score) sur \(result.total)",
-                    celebrate: result.score * 2 >= result.total,
-                    onReplay: {
+                    title: trainingDone ? "Tu as fini ton entraînement du jour !"
+                        : (result.score == result.total ? "Sans faute !" : (result.score * 2 >= result.total ? "Bien joué" : "On retente ?")),
+                    detail: trainingDone ? "\(result.score) sur \(result.total) · reviens demain pour 30 nouvelles questions"
+                        : "\(result.score) sur \(result.total)",
+                    celebrate: trainingDone || result.score * 2 >= result.total,
+                    onReplay: kind == .training ? nil : {
                         Haptics.tap()
                         withAnimation(.gentle) {
                             self.result = nil
@@ -217,5 +217,33 @@ struct GameHost: View {
         Haptics.press()
         user.recordGame(won: score * 2 >= total)
         withAnimation(.gentle) { result = (score, total) }
+    }
+}
+
+/// Bouton « S'entraîner » avec le compteur du jour ; grisé une fois les 30 questions faites.
+struct TrainingButton: View {
+    @EnvironmentObject private var user: UserStore
+    let action: () -> Void
+
+    private var caption: String {
+        let goal = UserStore.trainingDailyGoal
+        if user.trainingFinished { return "Tu as fini ton entraînement du jour. Reviens demain !" }
+        if user.trainingDoneToday == 0 { return "\(goal) questions par jour, les quatre jeux mélangés." }
+        return "\(user.trainingDoneToday) sur \(goal) aujourd'hui · encore \(user.trainingRemaining)"
+    }
+
+    var body: some View {
+        VStack(spacing: 6) {
+            Button(user.trainingFinished ? "Entraînement terminé" : (user.trainingDoneToday == 0 ? "S'entraîner" : "Reprendre l'entraînement")) {
+                action()
+            }
+            .buttonStyle(.primary)
+            .disabled(user.trainingFinished)
+            .opacity(user.trainingFinished ? 0.4 : 1)
+            ProgressTrack(value: Double(user.trainingDoneToday) / Double(UserStore.trainingDailyGoal))
+            Text(caption)
+                .font(.aCaption).foregroundStyle(Palette.muted)
+                .multilineTextAlignment(.center)
+        }
     }
 }
