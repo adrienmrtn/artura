@@ -1,0 +1,138 @@
+{
+ "teaser": "Egy fiatal festő köszönete híres szomszédjának, csupa megdöntött síkból építve.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Két spanyol lakott ugyanabban a viharvert műteremházban a párizsi Montmartre dombján. Az egyik, Pablo Picasso, már az avantgárd beszédtémája volt. A másik, Juan Gris, hat évvel fiatalabb, a nyitott ajtókon át figyelte, mit csinál a szomszédja, és tanult. 1912-ben ezt festette, hogy megköszönje."
+  },
+  {
+   "type": "text",
+   "text": "Gris 1906-ban érkezett Madridból, 19 évesen, szinte pénz nélkül. Évekig humoros lapoknak rajzolt karikatúrákat, abból fizette a lakbért. Csak 1910 körül kezdett komolyan festeni. Ez a portré az első képek egyike volt, amelyeket a nyilvánosság elé mert vinni, és a legnagyobb elérhető témát választotta."
+  },
+  {
+   "type": "fact",
+   "text": "A „Juan Gris” kitalált név. José Victoriano González-Pérez néven született. A gris spanyolul szürkét jelent, szerény választás egy festőnek, aki hűvös, ezüstös színeiről lett ismert."
+  },
+  {
+   "type": "text",
+   "text": "A stílus a kubizmus, amelyet Picasso és Georges Braque az előző években fejlesztett ki. A kubista festő nem egyetlen helyről mutat meg valamit. Lapos síkokra bontja, több szögből nézve, és a vásznon illeszti újra össze. A modell nehezen olvashatóvá válhat. Ezért Gris egyetlen világos támpontot hagy a férfi foglalkozására."
+  },
+  {
+   "type": "find",
+   "text": "Picasso festőként van ábrázolva. Hol a bizonyíték?",
+   "spots": [
+    {
+     "title": "A paletta",
+     "text": "Palettát tart, hüvelykujját átdugva a lyukon. Rajta négy festékfolt: kék, sárga, piros és fekete. Ezek szinte az egyetlen tiszta színek az egész vásznon."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Minden más kékesszürke, krém és barna, mintha hideg ablak világítaná meg. Ez a visszafogottság szándékos. A korai kubisták félretették az erős színeket, hogy semmi ne vonja el a figyelmet a szerkezetről. Gris aztán azt a viccet csinálja, hogy a festő vad színei mind még a palettán vannak, és várnak."
+  },
+  {
+   "type": "text",
+   "text": "Most hasonlítsd ezt ahhoz, amit maga Picasso festett 1912-ben: sűrű, vibráló képek, amelyekben az alak szinte feloldódik. Gris más. A fejet, a gallért, a kezeket azonnal megtalálod. Műszaki rajzot tanult, és ez meglátszik, ahogyan a felületet szervezi."
+  },
+  {
+   "type": "lines",
+   "text": "Kövesd a töredékek mögötti rejtett rendet.",
+   "lines": [
+    {
+     "label": "Ferde háttér",
+     "text": "A Picasso mögötti falat átlók szelik, jobb felülről bal alulra. Minden sáv az egyik oldalán világos, a másikon árnyékos, mint egy meghajtogatott papírlap."
+    },
+    {
+     "label": "Ugyanaz a szög újra",
+     "text": "A dőlés megismétlődik, párhuzamosan az elsővel, egészen a fej felé. Az ismétlődés egyenletes ütemet ad a képnek a káosz helyett."
+    },
+    {
+     "label": "A gombok",
+     "text": "A kabát gombjai ellenkező irányban haladnak, bal felülről jobb alulra. A test és a háttér úgy keresztezi egymást, mint az X két vonása, és ez a helyére zárja az alakot."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Az arc ugyanazt a logikát követi. Az egyik szem elölről néz rád. Mellette az arc és az állkapocs úgy fordul el, mintha oldalról látnánk. Egyetlen képen sétát kapsz Picasso feje körül, és a homlokán átvágó sűrű hajfürt mégis felismerhetővé teszi."
+  },
+  {
+   "type": "key",
+   "text": "Gris megmutatta, hogy a kubizmus lehet világos. Megtartotta a megtört, sokoldalú látásmódot, és hozzátett rendet, fényt és egy olvasható hasonlóságot."
+  },
+  {
+   "type": "fact",
+   "text": "A jobb alsó sarokban Gris francia nyelvű ajánlást írt, „Hommage à Pablo Picasso”, az aláírása fölé. A hős nem volt teljesen hízelgett. Barátai szerint Picasso hűvös maradt a fiatalabb férfival szemben, aki ilyen gyorsan megtanulta a nyelvét."
+  },
+  {
+   "type": "text",
+   "text": "A közönség azonban felfigyelt rá. 1912 tavaszán, Párizsban bemutatva a portré Grist a kubizmus harmadik nagy nevének mutatta be Picasso és Braque mellett. Tizenöt éve maradt: 1927-ben halt meg, 40 évesen. A nagyjából 93 centiméter magas vászon ma a Chicagói Művészeti Intézetben függ."
+  },
+  {
+   "type": "key",
+   "text": "A tisztelgés csendes kihívás is lehet. Gris a tanárát a tanára saját stílusában festette meg, és közben a magáévá tette a stílust."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Miből élt Gris, mielőtt komolyan festett?",
+   "options": [
+    "Matematikát tanított",
+    "Humoros lapoknak rajzolt karikatúrákat",
+    "Picasso festményeit árulta"
+   ],
+   "explanation": "1906-os párizsi érkezése után évekig szatirikus lapoknak rajzolt."
+  },
+  {
+   "question": "Melyik tárgy azonosítja Picassót festőként a portrén?",
+   "options": [
+    "Egy festőállvány mögötte",
+    "Egy ecset a füle mögött",
+    "Egy paletta négy festékfolttal"
+   ],
+   "explanation": "Kék, sárga, piros és fekete festéket hordozó palettát tart."
+  },
+  {
+   "question": "Mit csinál a kubista festő a témájával?",
+   "options": [
+    "Síkokra bontja, több szögből nézve",
+    "Fényképpontosan lemásolja",
+    "Csak élénk alapszínekkel festi meg"
+   ],
+   "explanation": "A kubizmus ugyanannak a dolognak több nézőpontját egyesíti egyetlen lapos felületen."
+  },
+  {
+   "question": "Mit írt Gris a jobb alsó sarokba?",
+   "options": [
+    "A dátumot és az árat",
+    "Ajánlást Picassónak",
+    "Egy sor spanyol költeményt"
+   ],
+   "explanation": "„Hommage à Pablo Picasso” feliratot írt az aláírása fölé."
+  },
+  {
+   "question": "Hogyan viszonyulnak a gombok a háttér átlóihoz?",
+   "options": [
+    "Ellenkező irányban haladnak, keresztezve őket",
+    "Pontosan ugyanazt a dőlést követik",
+    "Tökéletes kört alkotnak"
+   ],
+   "explanation": "A gombok bal felülről jobb alulra haladnak, és X módjára keresztezik a háttér dőlését."
+  }
+ ],
+ "facts": [
+  {
+   "text": "A Juan Gris a festő születési neve.",
+   "explanation": "José Victoriano González-Pérez néven született, és a Gris nevet, vagyis szürkét választotta."
+  },
+  {
+   "text": "A festmény legélénkebb színei a palettán vannak.",
+   "explanation": "A kék, sárga, piros és fekete foltok kiemelkednek a többi kékesszürke és krém közül."
+  },
+  {
+   "text": "Gris idősebb volt Picassónál, és ő tanította a kubizmusra.",
+   "explanation": "Gris hat évvel fiatalabb volt, és Picassót, a szomszédját figyelve tanulta meg a kubizmust."
+  }
+ ]
+}
