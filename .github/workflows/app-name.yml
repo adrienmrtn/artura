@@ -1,0 +1,35 @@
+name: App Store app name
+
+# À lancer à la main : onglet Actions > « App Store app name » > Run workflow.
+# Envoie UNIQUEMENT le nom de l'app (« Artura - Art Learning » et ses équivalents) pour les 29 langues,
+# à partir de fastlane/metadata/<langue>/name.txt. Rien d'autre n'est modifié.
+# Secrets : les mêmes que « App Store metadata » (ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8).
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version de l'app dans App Store Connect"
+        default: "2.0"
+        required: true
+
+jobs:
+  app-name:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Contrôle des textes (longueurs et lien EULA)
+        run: python3 fastlane/check_metadata.py
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Envoi du nom vers App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          APP_VERSION: ${{ inputs.version }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+        run: bundle exec fastlane app_name
