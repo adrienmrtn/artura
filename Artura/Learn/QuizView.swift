@@ -125,6 +125,10 @@ struct QuizView: View {
 
     private func pick(_ i: Int) {
         guard selected == nil else { return }
+        Analytics.track("quiz_answer", [
+            "artwork": artwork.id, "question_index": index, "question_count": artwork.quiz.count,
+            "chosen": i, "correct_answer": question.answer, "correct": i == question.answer
+        ])
         withAnimation(.snappy) { selected = i }
         // The feedback panel slides in: a second, duller haptic.
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { Haptics.rigid() }

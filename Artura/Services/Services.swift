@@ -96,10 +96,12 @@ final class ProStore: ObservableObject {
             }
         }
         isPro = pro
+        Analytics.isPro = pro
     }
 
     /// Starts the purchase. Returns true if the subscription is active at the end.
     func purchase(_ product: Product) async -> Bool {
+        Analytics.track("purchase_started", ["product": product.id, "price": product.displayPrice])
         isPurchasing = true
         lastError = nil
         defer { isPurchasing = false }
@@ -110,11 +112,16 @@ final class ProStore: ObservableObject {
                 if case .verified(let transaction) = verification {
                     await transaction.finish()
                     await refreshEntitlements()
+                    Analytics.track("purchase_succeeded", ["product": product.id, "price": product.displayPrice])
                     return true
                 }
                 lastError = L("The purchase couldn't be verified.")
                 return false
-            case .userCancelled, .pending:
+            case .userCancelled:
+                Analytics.track("purchase_cancelled", ["product": product.id])
+                return false
+            case .pending:
+                Analytics.track("purchase_pending", ["product": product.id])
                 return false
             @unknown default:
                 return false

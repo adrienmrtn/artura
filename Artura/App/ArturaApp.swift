@@ -46,6 +46,7 @@ extension EnvironmentValues {
 struct RootView: View {
     @EnvironmentObject private var user: UserStore
     @Environment(\.appLanguage) private var language
+    @Environment(\.scenePhase) private var scenePhase
     @State private var splash = !OnboardingDebug.flag("noSplash")
 
     var body: some View {
@@ -56,6 +57,18 @@ struct RootView: View {
                     .transition(.opacity)
                     .zIndex(1)
             }
+        }
+        .onAppear {
+            Analytics.track("app_opened", [
+                "onboarded": user.profile.onboarded,
+                "streak": user.streak,
+                "lessons_completed": user.profile.completedLessons.count
+            ])
+        }
+        .onChange(of: scenePhase) { _, phase in
+            // Whatever is waiting leaves before the app is suspended.
+            if phase == .background { Analytics.flush() }
+            if phase == .active { Analytics.flush() }
         }
         .task {
             // Wait for the logo animation to play, then the app fades in.

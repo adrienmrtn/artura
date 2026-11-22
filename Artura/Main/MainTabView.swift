@@ -213,6 +213,7 @@ private struct CourseContent: View {
             case 1:
                 QuizView(artwork: artwork, onBack: { withAnimation(.gentle) { phase = 0 } }) { result in
                     score = result
+                    Analytics.track("quiz_completed", ["artwork": artwork.id, "score": result, "total": artwork.quiz.count])
                     user.completeLesson(artwork.id)
                     withAnimation(.gentle) { phase = 2 }
                 }

@@ -103,10 +103,12 @@ struct LessonView: View {
             Button(isDone ? finishTitle : L("Continue")) {
                 if isDone {
                     Haptics.success()
+                    Analytics.track("lesson_finished", ["artwork": artwork.id, "context": pill, "blocks": total])
                     onFinish()
                 } else {
                     taps += 1
                     if let freeTaps, taps > freeTaps {
+                        Analytics.track("lesson_blocked", ["artwork": artwork.id, "block": revealed, "blocks": total])
                         // The lesson stops here for a free reader.
                         Haptics.press()
                         onBlocked?()
@@ -127,6 +129,21 @@ struct LessonView: View {
         }
         .padding(.top, 8)
         .background(Palette.bg)
+        .onAppear {
+            Analytics.track("lesson_opened", ["artwork": artwork.id, "context": pill, "blocks": total])
+        }
+        .onChange(of: revealed) { _, shown in
+            Analytics.track("lesson_progress", [
+                "artwork": artwork.id, "context": pill, "block": shown, "blocks": total,
+                "percent": total > 0 ? Int((Double(shown) / Double(total) * 100).rounded()) : 100
+            ])
+        }
+        .onDisappear {
+            Analytics.track("lesson_closed", [
+                "artwork": artwork.id, "context": pill, "block": revealed, "blocks": total,
+                "percent": total > 0 ? Int((Double(revealed) / Double(total) * 100).rounded()) : 100
+            ])
+        }
         .overlay {
             if let studio, lesson.indices.contains(studio) {
                 PaintingStudio(artwork: artwork, block: lesson[studio]) {
