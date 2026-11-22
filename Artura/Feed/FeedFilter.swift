@@ -51,14 +51,33 @@ struct FeedFilter: Hashable {
 
     /// "19th century".
     static func label(forCentury century: Int) -> String {
-        // L: "%@" is the century number; the English ordinal suffix (st, nd, rd, th) depends on it.
+        // L: "%@" is the century number (Roman numerals in the languages of `romanCenturies`);
+        // the English ordinal suffix (st, nd, rd, th) depends on it.
+        let number = romanCenturies.contains(AppLanguage.code) ? roman(century) : "\(century)"
         switch (century % 10, century % 100) {
-        case (_, 11), (_, 12), (_, 13): return L("%@th century", "\(century)")
-        case (1, _): return L("%@st century", "\(century)")
-        case (2, _): return L("%@nd century", "\(century)")
-        case (3, _): return L("%@rd century", "\(century)")
-        default: return L("%@th century", "\(century)")
+        case (_, 11), (_, 12), (_, 13): return L("%@th century", number)
+        case (1, _): return L("%@st century", number)
+        case (2, _): return L("%@nd century", number)
+        case (3, _): return L("%@rd century", number)
+        default: return L("%@th century", number)
         }
+    }
+
+    /// Languages that write centuries in Roman numerals ("XIXe siècle", "siglo XIX", "XIX век").
+    private static let romanCenturies: Set<String> = ["fr", "es", "it", "pt-BR", "pt-PT", "ro", "pl", "ru", "bg", "sr-Latn", "lt"]
+
+    private static func roman(_ n: Int) -> String {
+        guard n > 0 else { return "\(n)" }
+        let table: [(Int, String)] = [(10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]
+        var rest = n
+        var out = ""
+        for (value, letters) in table {
+            while rest >= value {
+                out += letters
+                rest -= value
+            }
+        }
+        return out
     }
 }
 

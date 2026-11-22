@@ -12,6 +12,7 @@ You are given a target language (name and folder code `<lang>`). You are a nativ
    - Paywall, subscription and trial wording must stay precise (prices, durations, "cancel anytime", renewal): translate the meaning exactly, no embellishment.
    - Keep brand names (Artura, Google, Apple, App Store) as they are; use Apple's official wording in your language for iOS terms (Home Screen, widget, Settings, notifications, Sign in with Apple, Restore Purchases…).
    - Art terms and names follow your glossary.
+   - Centuries (`%@th century` and its st/nd/rd variants): the app inserts Roman numerals (XIX) for fr, es, it, pt, pt-PT, ro, pl, ru, bg, sr, lt, and digits (19) for every other language. Write all four keys as your language writes a century with that kind of number ("%@e siècle", "%@. Jahrhundert", "%@世紀").
 4. Write it yourself with care, no machine-translation shortcut, no script producing text, no delegation. You may write the file in a few chunks with the Write/Edit tools.
 5. Run `python3 app/app.py check <lang>` and fix every problem listed under `ui.json` until there is none (ignore the lines about `content.json`, another agent handles it).
 6. Reread the onboarding and paywall strings as a native user would and polish anything that sounds translated. Do not commit or push. Write only that one file.
