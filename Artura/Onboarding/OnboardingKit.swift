@@ -106,7 +106,7 @@ struct MascotBubble<Content: View>: View {
 
 // MARK: - The Mona Lisa speaks: typed text, one line after another
 
-/// Dialogue screen: the Mona Lisa says one or more lines, its letters fading in one after another.
+/// Dialogue screen: the Mona Lisa says one or more lines, typed letter by letter at a steady pace.
 /// A tap while typing shows the whole line; the next tap moves on.
 struct MascotTalkScreen<Extra: View>: View {
     let lines: [String]
@@ -123,8 +123,8 @@ struct MascotTalkScreen<Extra: View>: View {
     @State private var typing = true
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    /// How long each letter takes to fade in: the leading edge of the text is soft, not stepped.
-    private let fade = 0.22
+    /// Each letter lands crisply, as if typed; this very short fade only removes the flicker between frames.
+    private let fade = 0.05
 
     private var line: String { lines[min(index, lines.count - 1)] }
     private var isLast: Bool { index >= lines.count - 1 }
@@ -181,16 +181,16 @@ struct MascotTalkScreen<Extra: View>: View {
         for character in characters {
             times.append(t)
             switch character {
-            case ".", ":", "!", "?": t += 0.24
-            case ",": t += 0.12
-            default: t += 0.026
+            case ".", ":", "!", "?": t += 0.20
+            case ",": t += 0.10
+            default: t += 0.03
             }
         }
         return times
     }
 
     /// Room for the whole line is reserved from the start: the bubble doesn't move while the text appears.
-    /// Letters fade in one after another, so the text flows instead of ticking.
+    /// The pace follows the clock, not a timer per letter, so the typing never stutters.
     private var typedText: some View {
         let characters = Array(line)
         let times = schedule(characters)

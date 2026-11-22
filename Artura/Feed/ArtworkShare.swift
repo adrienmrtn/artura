@@ -5,7 +5,7 @@ enum AppLinks {
     /// App Store page of the app, added to shared messages once it exists.
     static let appStore: URL? = nil
     /// Address that receives suggestions. Empty: the "Suggest an idea" row is hidden.
-    static let supportEmail = ""
+    static let supportEmail = "support@vikstudios.com"
 }
 
 extension Artwork {

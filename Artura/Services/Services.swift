@@ -165,8 +165,8 @@ struct TrialOffer {
         zeroPrice = Decimal(0).formatted(product.priceFormatStyle)
     }
 
-    #if DEBUG
-    /// Sample values to show the screens without StoreKit (screenshots, previews).
+    /// Sample values, used while the StoreKit product is not available (products not yet created in
+    /// App Store Connect, screenshots). Nothing can be bought with it: the trial button just opens the app.
     init(previewDays: Int) {
         product = nil
         trialDays = previewDays
@@ -174,5 +174,4 @@ struct TrialOffer {
         monthlyPrice = "$2.50"
         zeroPrice = "$0.00"
     }
-    #endif
 }

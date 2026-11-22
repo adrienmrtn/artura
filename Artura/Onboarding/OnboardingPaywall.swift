@@ -659,7 +659,12 @@ struct TrialScreen: View {
     }
 
     private func buy(_ chosen: TrialOffer) {
-        guard let product = chosen.product else { return }
+        guard let product = chosen.product else {
+            // No product to buy yet (not created in App Store Connect): the flow simply ends.
+            showExitOffer = false
+            onFinish()
+            return
+        }
         Task {
             let ok = await pro.purchase(product)
             if ok {

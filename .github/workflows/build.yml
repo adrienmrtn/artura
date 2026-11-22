@@ -143,6 +143,7 @@ jobs:
           shootApp 68_session 6 -appTab review -reviewSession YES
           shootApp 69_games 5 -appTab games
           shootApp 70_profile 5 -appTab profile
+          shootApp 74_profileSettings 5 -appTab profile -profileScroll bottom
           shootApp 73_widgetGuide 5 -appTab profile -profileSheet widget
           shootApp 71_reviewEmpty 5 -appTab review -demoEmpty YES
           shootApp 72_feedEmptyProfile 5 -demoEmpty YES

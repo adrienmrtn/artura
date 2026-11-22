@@ -90,6 +90,7 @@ struct ProfileView: View {
                 .padding(.bottom, 24)
             }
         }
+        .defaultScrollAnchor(AppDebug.string("profileScroll") == "bottom" ? .bottom : .top)
         .scrollIndicators(.hidden)
         .ignoresSafeArea(edges: .top)
         .animation(.bouncy, value: user.profile.avatar)

@@ -1,10 +1,11 @@
 import StoreKit
 import SwiftUI
 
-/// Profile rows added under the settings: the library, and ways to support the app.
+/// Profile rows added under the settings: library, widget, reminder time, language, and ways to support the app.
 struct SupportSection: View {
     @Environment(\.requestReview) private var requestReview
     @Environment(\.openURL) private var openURL
+    @EnvironmentObject private var user: UserStore
     @State private var showLibrary = false
     @State private var showWidget = AppDebug.string("profileSheet") == "widget"
 
@@ -14,8 +15,31 @@ struct SupportSection: View {
         return text
     }
 
+    /// The reminder time as a date, for the time picker.
+    private var reminderTime: Binding<Date> {
+        Binding(
+            get: {
+                let minutes = user.profile.reminderMinutes
+                return Calendar.current.date(bySettingHour: minutes / 60, minute: minutes % 60, second: 0, of: Date()) ?? Date()
+            },
+            set: { date in
+                let parts = Calendar.current.dateComponents([.hour, .minute], from: date)
+                let minutes = (parts.hour ?? 8) * 60 + (parts.minute ?? 30)
+                user.profile.reminderMinutes = minutes
+                if user.profile.reminderOn { Reminder.scheduleDaily(atMinutes: minutes) }
+            }
+        )
+    }
+
+    private func mail(subject: String) -> URL? {
+        let encoded = subject.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        return URL(string: "mailto:\(AppLinks.supportEmail)?subject=\(encoded)")
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
+            Text("Settings").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
+
             VStack(spacing: 0) {
                 Button {
                     Haptics.tap()
@@ -29,7 +53,22 @@ struct SupportSection: View {
                     Haptics.tap()
                     showWidget = true
                 } label: {
-                    row("square.grid.2x2.fill", "Add the widget", detail: "The artwork of the day on your Home Screen")
+                    row("square.grid.2x2.fill", "Widget", detail: "The artwork of the day on your Home Screen")
+                }
+                .buttonStyle(.pressable)
+                Divider()
+                DatePicker(selection: reminderTime, displayedComponents: .hourAndMinute) {
+                    rowLabel("bell.fill", "Reminder time",
+                             detail: user.profile.reminderOn ? "Every day" : "Reminder is off")
+                }
+                .tint(Palette.blue)
+                .frame(minHeight: 56)
+                Divider()
+                Button {
+                    Haptics.tap()
+                    if let url = URL(string: UIApplication.openSettingsURLString) { openURL(url) }
+                } label: {
+                    row("globe", "Language", detail: "English", trailing: "arrow.up.right")
                 }
                 .buttonStyle(.pressable)
             }
@@ -40,7 +79,7 @@ struct SupportSection: View {
 
             VStack(spacing: 0) {
                 ShareLink(item: shareText) {
-                    row("person.2.fill", "Invite a friend", detail: "Learn art together")
+                    row("square.and.arrow.up", "Share Artura", detail: "Learn art with your friends")
                 }
                 .buttonStyle(.pressable)
                 Divider()
@@ -48,17 +87,24 @@ struct SupportSection: View {
                     Haptics.tap()
                     requestReview()
                 } label: {
-                    row("star.fill", "Rate Artura", detail: "It really helps")
+                    row("star.fill", "Rate the app", detail: "It really helps")
                 }
                 .buttonStyle(.pressable)
-                if !AppLinks.supportEmail.isEmpty,
-                   let url = URL(string: "mailto:\(AppLinks.supportEmail)?subject=An%20idea%20for%20Artura") {
+                if !AppLinks.supportEmail.isEmpty {
                     Divider()
                     Button {
                         Haptics.tap()
-                        openURL(url)
+                        if let url = mail(subject: "A feature idea for Artura") { openURL(url) }
                     } label: {
-                        row("lightbulb.fill", "Suggest an idea", detail: "Tell us what you'd like to see")
+                        row("lightbulb.fill", "Request a feature", detail: "Tell us what you'd like to see")
+                    }
+                    .buttonStyle(.pressable)
+                    Divider()
+                    Button {
+                        Haptics.tap()
+                        if let url = mail(subject: "Artura support") { openURL(url) }
+                    } label: {
+                        row("envelope.fill", "Support", detail: AppLinks.supportEmail)
                     }
                     .buttonStyle(.pressable)
                 }
@@ -78,7 +124,7 @@ struct SupportSection: View {
         }
     }
 
-    private func row(_ symbol: String, _ title: String, detail: String) -> some View {
+    private func rowLabel(_ symbol: String, _ title: String, detail: String) -> some View {
         HStack(spacing: 12) {
             Image(systemName: symbol)
                 .font(.system(size: 14, weight: .semibold))
@@ -88,9 +134,16 @@ struct SupportSection: View {
             VStack(alignment: .leading, spacing: 1) {
                 Text(title).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 Text(detail).font(.aCaption).foregroundStyle(Palette.muted)
+                    .lineLimit(1).minimumScaleFactor(0.8)
             }
+        }
+    }
+
+    private func row(_ symbol: String, _ title: String, detail: String, trailing: String = "chevron.right") -> some View {
+        HStack(spacing: 12) {
+            rowLabel(symbol, title, detail: detail)
             Spacer()
-            Image(systemName: "chevron.right")
+            Image(systemName: trailing)
                 .font(.system(size: 13, weight: .bold))
                 .foregroundStyle(Palette.muted)
         }

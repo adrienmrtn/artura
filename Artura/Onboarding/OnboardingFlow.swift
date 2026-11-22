@@ -90,14 +90,14 @@ struct OnboardingFlow: View {
         content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
     }
 
-    /// Trial offer shown at the end (nil until the product is loaded).
+    /// Trial offer shown at the end. Until the StoreKit product is loaded, sample prices keep the flow visible.
     private var offer: TrialOffer? {
-        TrialOffer(pro.yearly) ?? OnboardingDebug.previewOffer(days: 3)
+        TrialOffer(pro.yearly) ?? TrialOffer(previewDays: 3)
     }
 
     /// Last-minute offer: the same subscription with a longer trial.
     private var extendedOffer: TrialOffer? {
-        TrialOffer(pro.yearlyExtended) ?? OnboardingDebug.previewOffer(days: 7)
+        TrialOffer(pro.yearlyExtended) ?? TrialOffer(previewDays: 7)
     }
 
     // MARK: Navigation

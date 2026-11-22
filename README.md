@@ -63,6 +63,7 @@ Pour ouvrir directement un écran en build Debug, ajouter des arguments de lance
 | `-reviewMode practice` | Onglet Review sur « Practice » |
 | `-reviewSession YES` | Lance directement les cartes du jour |
 | `-profileSheet widget` | Ouvre la page du widget depuis le profil |
+| `-profileScroll bottom` | Profil ouvert en bas de page (réglages) |
 
 ## Widget
 
@@ -100,9 +101,9 @@ Produits attendus :
 - L'onboarding annonce deux choses qui n'existent pas encore : la photo d'une œuvre expliquée par Artura et « près de 400 tableaux et artistes en un an » (le contenu compte aujourd'hui 8 œuvres).
 - Connexion Google : renseigner `GoogleAuth.clientID` (`Artura/Services/GoogleAuth.swift`) avec un identifiant client OAuth de type iOS créé dans Google Cloud Console. Sans lui, le bouton n'apparaît qu'en build Debug.
 - Renseigner `Legal.privacy` (`OnboardingPaywall.swift`) avec l'adresse de la politique de confidentialité.
-- Fixer les prix et créer les produits dans App Store Connect.
+- Fixer les prix et créer les produits dans App Store Connect. Tant qu'ils n'existent pas, les écrans cadeau et essai gratuit s'affichent avec des prix d'exemple (`TrialOffer(previewDays:)`, 29,99 $) et le bouton d'essai ouvre simplement l'appli : à ne pas publier tel quel.
 - Vérifier les licences des reproductions (Wikimedia Commons) et celle des illustrations générées.
-- Renseigner `AppLinks.appStore` et `AppLinks.supportEmail` (`Artura/Feed/ArtworkShare.swift`) : le lien ajouté aux partages, et l'adresse qui fait apparaître « Suggest an idea » dans le profil.
+- Renseigner `AppLinks.appStore` (`Artura/Feed/ArtworkShare.swift`) : le lien ajouté aux partages. L'adresse de support est `support@vikstudios.com`.
 - Widget : à tester sur un vrai téléphone (ajout à l'écran d'accueil, changement d'œuvre à minuit).
 - Histoires audio : annoncées dans l'offre Pro, pas encore implémentées.
 
