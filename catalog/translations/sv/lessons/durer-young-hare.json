@@ -1,0 +1,147 @@
+{
+ "teaser": "Ett vilt djur på ett tomt blad, med ett fönster som glimmar i ögat.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Ingenting i den här bilden borde vara möjligt. En hare är bland de mest nervösa djuren i Europa: den rusar iväg vid ett fotsteg. Ändå har den här suttit stilla tillräckligt länge för att en man ska hinna räkna dess morrhår. Den sitter på bart papper, utan gräs, utan åker, utan rum. Och ändå, glimmande i dess mörka öga, syns en bit av en byggnad."
+  },
+  {
+   "type": "find",
+   "text": "Ett fönster gömmer sig i den här teckningen. Var?",
+   "spots": [
+    {
+     "title": "Ögat",
+     "text": "På pupillens fuktiga svärta syns några ljusa fläckar delade av mörka sprosar: spegelbilden av ett fönster med korsspröjs. Haren tittar in i ett rum."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Den lilla vita färgfläcken flyttar hela scenen inomhus, till Dürers ateljé i Nürnberg år 1502. Hur en hare hamnade där är en annan sak. Höll han en levande en tid? Skissade han harar utomhus och avslutade efter ett dött djur? Ingen vet. Öronen, vända åt två olika håll som om haren fortfarande lyssnade, talar för en levande modell."
+  },
+  {
+   "type": "fact",
+   "text": "Du kan resa till Wien och ändå inte få se den. Färgerna bleks av ljus, så Albertina tar fram originalet bara några veckor vart några år och låter det sedan vila i mörker. För det mesta står besökarna framför en mycket bra kopia."
+  },
+  {
+   "type": "text",
+   "text": "Arket är litet, omkring 25 gånger 23 centimeter, så djuret är långt under naturlig storlek. Dürer använde akvarell, pigment utspätt med vatten så att papperet lyser igenom, och gouache, en liknande färg som gjorts ogenomskinlig med vitt så att den täcker det som ligger under. Den första är till för mjukhet, den andra för skarpa ljuslinjer."
+  },
+  {
+   "type": "text",
+   "text": "Han arbetade från suddigt till skarpt. Först lösa lasyrer i brunt för den allmänna formen och dess skuggor. Sedan hundratals korta drag med en fin pensel, först mörka, sedan bleka ovanpå. Knepet är att päls aldrig är en enda sak. Den ändrar längd, färg och riktning för varje par centimeter."
+  },
+  {
+   "type": "tour",
+   "title": "Fyra sorters päls",
+   "text": "Färdas från svans till nos och se hur penseln ändrar vanor.",
+   "spots": [
+    {
+     "title": "Bakdelen",
+     "text": "På bakdelen ringlar tjocka tofsar i rader och blir blågrå i skuggan. Dragen är breda och mjuka: det är den täta pälsen som håller djuret varmt."
+    },
+    {
+     "title": "Flanken",
+     "text": "Längre ner blir håret blekt, nästan vitt, och ligger i långa, lösa strån. Här låter Dürer ogenomskinlig vit färg göra jobbet."
+    },
+    {
+     "title": "Öronen",
+     "text": "Kort, platt hår, mörkare mot spetsen. Det ena örat lutar bakåt och visar sin bleka insida, det andra står rakt upp. De är inget matchande par."
+    },
+    {
+     "title": "Morrhåren",
+     "text": "Varje morrhår är ett enda drag, lagt i en obruten svepande rörelse över den färdiga pälsen och ut över det bara papperet. En darrning och arket är förstört."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Tålamod ensamt förklarar inte resultatet. Dürer målar aldrig varje hårstrå. Han målar tillräckligt många, i rätt riktningar, för att ditt öga ska fylla i resten. Och runt djuret lägger han bara en enda sak: en grå skugga till höger, som visar att ljuset kommer från vänster och ger haren ett golv att sitta på."
+  },
+  {
+   "type": "key",
+   "text": "Före Dürer var ett djur en detalj i någon annans berättelse. Här är en hare hela motivet, betraktad lika omsorgsfullt som en prins."
+  },
+  {
+   "type": "text",
+   "text": "Under tassarna skrev han året och sitt monogram, ett D inuti ett stort A. Konstnärer signerade sällan studier som de behöll för eget bruk. Att sätta sitt märke på det här arket säger att han ansåg det färdigt, ett verk i egen rätt, utan något heligt eller ädelt i sig annat än uppmärksamhet."
+  },
+  {
+   "type": "fact",
+   "text": "Samlare höll tidigt med honom. År 1588, sextio år efter Dürers död, köpte kejsar Rudolf II, en härskare besatt av konst och naturkuriositeter, haren av en släkt i Nürnberg till sin samling i Prag."
+  },
+  {
+   "type": "text",
+   "text": "Ungefär samtidigt svepte en våg av efterbildningar över Tyskland. Målaren Hans Hoffmann gjorde en liten karriär av Dürer-harar: kopior, harar i skogen, harar bland blommor. Mer än ett dussin gamla versioner finns kvar, en del med falskt AD. Det kan vara konstens mest kopierade djur."
+  },
+  {
+   "type": "fact",
+   "text": "År 2003 täckte konstnären Ottmar Hörl Nürnbergs huvudtorg med ungefär 7 000 gröna plastharar, alla formade efter den här. Dürers hemstad hade förvandlat hans studie till en maskot."
+  },
+  {
+   "type": "text",
+   "text": "Gå tillbaka till de två öronen. Ett avslappnat, ett på helspänn. Fem sekler, en kejsare, tusentals kopior, och djuret på arket håller fortfarande på att bestämma sig för om det ska stanna eller springa."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Vad speglas i harens öga?",
+   "options": [
+    "En ljuslåga",
+    "Ett fönster med korsspröjs",
+    "Målarens ansikte"
+   ],
+   "explanation": "De ljusa fläckarna delade av sprosar är ett ateljéfönster."
+  },
+  {
+   "question": "Vad är gouache?",
+   "options": [
+    "Vattenbaserad färg som gjorts ogenomskinlig med vitt",
+    "Oljefärg utspädd med terpentin",
+    "Bläck gjort av sot"
+   ],
+   "explanation": "Den täcker det som ligger under, vilket gör den bra för skarpa ljuslinjer."
+  },
+  {
+   "question": "Vad är det enda Dürer målade runt djuret?",
+   "options": [
+    "En gräsplätt",
+    "Ett träbord",
+    "En grå skugga"
+   ],
+   "explanation": "Skuggan till höger ger haren ett golv och visar varifrån ljuset kommer."
+  },
+  {
+   "question": "Varför får besökare på Albertina oftast se en kopia?",
+   "options": [
+    "Originalet blev stulet",
+    "Färgerna bleks av ljus, så originalet visas sällan",
+    "Originalet är utlånat till Nürnberg för alltid"
+   ],
+   "explanation": "Arket är ljuskänsligt och vilar i mörker för det mesta."
+  },
+  {
+   "question": "Hur började Dürer pälsen?",
+   "options": [
+    "Med lösa bruna lasyrer för form och skugga",
+    "Med morrhåren",
+    "Med ett rutnät i blyerts"
+   ],
+   "explanation": "Han gick från suddiga lasyrer till fina drag, och morrhåren kom sist."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Dürer signerade och daterade arket.",
+   "explanation": "Årtalet 1502 och hans AD-monogram sitter under tassarna."
+  },
+  {
+   "text": "Harens två öron står i exakt samma läge.",
+   "explanation": "Det ena lutar bakåt och det andra står upprätt."
+  },
+  {
+   "text": "Haren är målad i olja på träpanel.",
+   "explanation": "Det är akvarell och gouache på papper."
+  }
+ ]
+}
