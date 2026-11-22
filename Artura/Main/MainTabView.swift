@@ -113,6 +113,7 @@ struct CourseFlow: View {
                 waiting
             }
         }
+        .onAppear { Haptics.press() }
         .task(id: attempt) {
             guard ready == nil else { return }
             failed = false
@@ -169,22 +170,44 @@ struct CourseFlow: View {
     }
 }
 
+/// Paywalls a free reader can meet inside a lesson.
+private enum LessonWall: Int, Identifiable {
+    /// The quiz at the end of the lesson.
+    case quiz
+    /// A second lesson in the same day, cut after a few blocks.
+    case lesson
+    var id: Int { rawValue }
+}
+
 private struct CourseContent: View {
     @EnvironmentObject private var user: UserStore
+    @EnvironmentObject private var pro: ProStore
     @Environment(\.dismiss) private var dismiss
     let artwork: Artwork
 
     @State private var phase = 0
     @State private var score = 0
+    /// True if this lesson is the one a free reader can read in full today.
+    @State private var freeToday = true
+    @State private var wall: LessonWall?
 
     var body: some View {
         ZStack {
             Palette.bg.ignoresSafeArea()
             switch phase {
             case 0:
-                LessonView(artwork: artwork, onBack: { dismiss() }) {
-                    Haptics.soft()
-                    withAnimation(.gentle) { phase = 1 }
+                LessonView(artwork: artwork,
+                           freeTaps: pro.isPro || freeToday ? nil : 2,
+                           onBlocked: { wall = .lesson },
+                           onBack: { dismiss() }) {
+                    if pro.isPro {
+                        Haptics.soft()
+                        withAnimation(.gentle) { phase = 1 }
+                    } else {
+                        // The lesson is read: it counts, quiz or not.
+                        user.completeLesson(artwork.id)
+                        wall = .quiz
+                    }
                 }
                 .transition(.move(edge: .leading).combined(with: .opacity))
             case 1:
@@ -205,7 +228,36 @@ private struct CourseContent: View {
                 .transition(.opacity)
             }
         }
-        .onAppear { user.markOpened(artwork.id) }
+        .onAppear {
+            user.markOpened(artwork.id)
+            if !pro.isPro { freeToday = user.claimFreeLesson(artwork.id) }
+        }
+        .fullScreenCover(item: $wall) { kind in
+            switch kind {
+            case .quiz:
+                LessonPaywall(artwork: artwork,
+                              title: "The quiz is part of Artura Pro",
+                              subtitle: "Test what you just read about \(artwork.title), and remember it for good.",
+                              closeTitle: "Not now",
+                              onClose: { wall = nil },
+                              onUnlocked: {
+                                  wall = nil
+                                  withAnimation(.gentle) { phase = 1 }
+                              })
+            case .lesson:
+                // No way to go on reading without subscribing: the only way out leaves the lesson.
+                LessonPaywall(artwork: artwork,
+                              title: "Continue this lesson",
+                              subtitle: "Read the rest of \(artwork.title), and every other lesson, with Artura Pro.",
+                              closeTitle: "Leave this lesson",
+                              onClose: {
+                                  wall = nil
+                                  dismiss()
+                              },
+                              onUnlocked: { wall = nil })
+                    .interactiveDismissDisabled()
+            }
+        }
     }
 }
 

@@ -39,6 +39,9 @@ final class UserStore: ObservableObject {
         var saved: [String]?
         /// Daily review: the day it was last completed.
         var reviewDay: String?
+        /// The lesson a free reader can read in full today: the day, and the first lesson opened that day.
+        var freeLessonDay: String?
+        var freeLessonId: String?
     }
 
     @Published var profile: Profile {
@@ -130,6 +133,17 @@ final class UserStore: ObservableObject {
     func recordGame(won: Bool) {
         markPlayedToday()
         if won { profile.gamesWon += 1 }
+    }
+
+    /// True if a free reader can read this lesson in full today.
+    /// The first lesson opened in a day is the free one, and stays free all day.
+    func claimFreeLesson(_ id: String) -> Bool {
+        let today = Self.dayKey(Date())
+        if profile.freeLessonDay != today {
+            profile.freeLessonDay = today
+            profile.freeLessonId = id
+        }
+        return profile.freeLessonId == id
     }
 
     func markOpened(_ id: String) {
