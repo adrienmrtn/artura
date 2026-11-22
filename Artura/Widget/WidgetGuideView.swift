@@ -49,7 +49,7 @@ struct WidgetGuideView: View {
                                 .font(.system(size: 14, weight: .semibold))
                                 .foregroundStyle(Palette.blue)
                                 .frame(width: 32, height: 32)
-                                .background(Circle().fill(Palette.sand))
+                                .background(Circle().fill(Palette.mist))
                             Text(step.text)
                                 .font(.aSmall)
                                 .foregroundStyle(Palette.ink)

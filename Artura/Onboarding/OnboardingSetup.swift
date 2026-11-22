@@ -392,7 +392,7 @@ struct LoadingScreen: View {
 
                 // The Mona Lisa at the center of the progress ring
                 ZStack {
-                    Circle().fill(Palette.sand)
+                    Circle().fill(Palette.mist)
                     Image("joconde")
                         .resizable()
                         .scaledToFit()
@@ -431,7 +431,7 @@ struct LoadingScreen: View {
                         let active = stage == i
                         HStack(spacing: 12) {
                             ZStack {
-                                Circle().fill(done ? Palette.green : (active ? Palette.sand : Palette.line))
+                                Circle().fill(done ? Palette.green : (active ? Palette.mist : Palette.line))
                                 if done {
                                     Image(systemName: "checkmark")
                                         .font(.system(size: 12, weight: .bold))
@@ -617,8 +617,8 @@ struct PlanScreen: View {
         }
         .padding(.vertical, 12)
         .frame(maxWidth: .infinity)
-        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Palette.sandLight))
-        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Palette.sand, lineWidth: 1))
+        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Palette.mistLight))
+        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Palette.mist, lineWidth: 1))
     }
 
     private func recap(_ symbol: String, _ label: String, _ value: String) -> some View {
@@ -627,7 +627,7 @@ struct PlanScreen: View {
                 .font(.system(size: 14, weight: .semibold))
                 .foregroundStyle(Palette.blue)
                 .frame(width: 32, height: 32)
-                .background(Circle().fill(Palette.sand))
+                .background(Circle().fill(Palette.mist))
             Text(label).font(.aSmall).foregroundStyle(Palette.muted)
             Spacer(minLength: 8)
             Text(value).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
@@ -716,8 +716,8 @@ struct SocialProofScreen: View {
             }
             .padding(.vertical, 20)
             .frame(maxWidth: .infinity)
-            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.sandLight))
-            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.sand, lineWidth: 1))
+            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.mistLight))
+            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.mist, lineWidth: 1))
             .accessibilityElement(children: .ignore)
             .accessibilityLabel("More than \(SocialProof.learners) learners, rated \(SocialProof.rating) out of 5 on the App Store")
             .enter(2)
@@ -777,48 +777,44 @@ struct AccountScreen: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            HStack {
-                Button(action: onBack) {
-                    Image(systemName: "chevron.left")
-                        .font(.system(size: 20, weight: .bold))
-                        .foregroundStyle(Palette.ink)
-                        .frame(width: 44, height: 44)
+            // Grainy illustration at the top, under a tilted arc.
+            ZStack(alignment: .top) {
+                ArtImage(name: "ill_galerie", anchor: UnitPoint(x: 0.5, y: 0.7))
+                    .frame(height: 320)
+                    .clipShape(ArcHeaderShape())
+                    .ignoresSafeArea(edges: .top)
+                HStack {
+                    Button(action: onBack) {
+                        Image(systemName: "chevron.left")
+                            .font(.system(size: 18, weight: .bold))
+                            .foregroundStyle(Palette.ink)
+                            .frame(width: 44, height: 44)
+                            .background(Circle().fill(.white))
+                    }
+                    .buttonStyle(.pressable)
+                    .accessibilityLabel("Back")
+                    Spacer()
                 }
-                .buttonStyle(.pressable)
-                .padding(.leading, -12)
-                .accessibilityLabel("Back")
-                Spacer()
+                .padding(.horizontal, 16)
+                .padding(.top, 8)
             }
-            .frame(height: 44)
-            .padding(.top, 8)
 
-            Spacer(minLength: 8)
-
-            MascotBubble(mascotSize: 132) {
-                VStack(spacing: 6) {
-                    Text("Keep your streak and your collection.")
-                        .font(.figtree(24, .semibold))
-                        .foregroundStyle(Palette.ink)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Text("An account so you don't lose anything if you change phones.")
-                        .font(.figtree(15))
-                        .foregroundStyle(Palette.muted)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
+            VStack(spacing: 8) {
+                Text("Keep your streak and your collection")
+                    .font(.figtree(28, .semibold))
+                    .foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("An account so you don't lose anything if you change phones.")
+                    .font(.aBody)
+                    .foregroundStyle(Palette.muted)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .enter()
+            .multilineTextAlignment(.center)
+            .padding(.horizontal, 24)
+            .padding(.top, -24)
+            .enter(1)
 
-            // What the account keeps
-            HStack(spacing: 8) {
-                keep("flame.fill", "Your streak")
-                keep("heart.fill", "Your favorites")
-                keep("map.fill", "Your program")
-            }
-            .padding(.top, 14)
-            .enter(2)
-
-            Spacer(minLength: 10)
-            Spacer(minLength: 0)
+            Spacer(minLength: 16)
 
             VStack(spacing: 8) {
                 if let message {
@@ -880,27 +876,12 @@ struct AccountScreen: View {
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
             }
+            .padding(.horizontal, 24)
             .enter(3)
         }
-        .padding(.horizontal, 24)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
-    }
-
-    private func keep(_ symbol: String, _ label: String) -> some View {
-        VStack(spacing: 6) {
-            Image(systemName: symbol)
-                .font(.system(size: 16, weight: .semibold))
-                .foregroundStyle(Palette.blue)
-                .frame(width: 38, height: 38)
-                .background(Circle().fill(Palette.sand))
-            Text(label)
-                .font(.figtree(13, .semibold))
-                .foregroundStyle(Palette.ink)
-                .multilineTextAlignment(.center)
-        }
-        .frame(maxWidth: .infinity)
     }
 
     private func signInWithGoogle() {

@@ -23,21 +23,21 @@ extension Color {
 }
 
 enum Palette {
-    /// Fond des écrans : un beige très clair.
-    static let bg = Color(hex: 0xFBF3EA)
+    /// Screen background: plain white.
+    static let bg = Color.white
     static let ink = Color(hex: 0x2D2C2B)
     static let muted = Color(hex: 0x5C5753)
-    /// Cartes et rangées posées sur le fond, un ton plus soutenu que lui.
-    static let card = Color(hex: 0xF4ECE1)
-    static let line = Color(hex: 0xEBE1D4)
-    static let lip = Color(hex: 0xE0D4C5)
-    /// Bleu foncé de l'icône : boutons, sélection, liens.
-    static let blue = Color(hex: 0x1C365A)
-    static let blueDark = Color(hex: 0x0D1D36)
-    static let blueText = Color(hex: 0x1C365A)
-    /// Teintes sable, pour les encarts et les réponses sélectionnées.
-    static let sand = Color(hex: 0xF3E3C3)
-    static let sandLight = Color(hex: 0xFBEED3)
+    /// Cards and rows laid on the background: very light warm greys.
+    static let card = Color(hex: 0xF9F4F2)
+    static let line = Color(hex: 0xEFE8E3)
+    static let lip = Color(hex: 0xE4DAD4)
+    /// Bright blue: buttons, selection, links.
+    static let blue = Color(hex: 0x0061EF)
+    static let blueDark = Color(hex: 0x0045B5)
+    static let blueText = Color(hex: 0x0050C8)
+    /// Pale tints of the blue, for insets and selected answers.
+    static let mist = Color(hex: 0xDCEBFF)
+    static let mistLight = Color(hex: 0xEAF2FF)
     static let sky = Color(hex: 0x0B74E5)
     static let skyLight = Color(hex: 0x4D9DF2)
     static let cloud = Color(hex: 0xFFD3E4)
