@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "İtalyan Rönesansı",
+   "period": "15.-16. yüzyıl",
+   "summary": "Perspektif ve Antik Çağ'a dönüş",
+   "description": "Önce İtalya'da, sonra bütün Avrupa'da sanatçılar Antik Çağ'ı yeniden keşfeder, insan bedenini inceler ve perspektifi icat eder. Resim, dünyaya açılan bir pencereye dönüşür."
+  },
+  "siecledor": {
+   "name": "Hollanda Altın Çağı",
+   "period": "17. yüzyıl",
+   "summary": "Gündelik hayat ve ışık",
+   "description": "Zenginleşen Hollanda Cumhuriyeti'nde sanatçılar orta sınıfın evleri için resim yapar: sakin iç mekânlar, portreler, natürmortlar. Asıl konu ışığın kendisi olur."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "17.-19. yüzyıl",
+   "summary": "“Yüzen dünya”nın baskıları",
+   "description": "Japonya'da seriler hâlinde üretilen ahşap baskılar oyuncuları, manzaraları ve gündelik hayattan sahneleri gösterir. Düz renkleri ve cesur kadrajları, Avrupalı ressamları derinden sarsacaktır."
+  },
+  "impressionnisme": {
+   "name": "Empresyonizm",
+   "period": "1870'ler-1880'ler",
+   "summary": "Anın ışığını resmetmek",
+   "description": "Bir grup ressam atölyeden çıkıp açık havada, küçük ve hızlı fırça darbeleriyle çalışmaya başlar. Artık ayrıntının değil, ışığın belli bir andaki etkisinin peşindedirler."
+  },
+  "postimp": {
+   "name": "Post-Empresyonizm",
+   "period": "1886-1905",
+   "summary": "Önce renk ve duygu",
+   "description": "Empresyonizmden sonra herkes kendi yolunu arar. Renk artık gerçeği taklit etmez: ressamın ne hissettiğini anlatır."
+  },
+  "secession": {
+   "name": "Art Nouveau ve Viyana Sezesyonu",
+   "period": "1900 civarı",
+   "summary": "Altın, süsleme ve kıvrımlı çizgiler",
+   "description": "Viyana'da genç sanatçılar akademiyle yollarını ayırır. Resmi, süslemeyi ve zanaatı birbirine katar, süsü başlı başına bir dile dönüştürürler."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Yıldızlı Gece",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Modern Sanat Müzesi (MoMA), New York",
+   "teaser": "Bir akıl hastanesi odasında, bellekten boyanmış girdaplı bir gökyüzü.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Haziran 1889. Vincent van Gogh 36 yaşında. Bir ay önce, Arles'ta geçirdiği ağır bir bunalımın ardından, Fransa'nın güneyindeki Saint-Rémy-de-Provence akıl hastanesine kendi isteğiyle yatmış."
+    },
+    {
+     "type": "text",
+     "text": "Yatak odası doğuya bakıyor. Pencereden bir buğday tarlası, Alpilles tepeleri ve gün doğmadan önce gökyüzü görünüyor. Bu manzarayı günün her saatinde, yeniden ve yeniden resmediyor."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh resme ancak 27 yaşında başladı. Aşağı yukarı on yılda 900 kadar tablo yaptı; kimi zaman günde bir tane."
+    },
+    {
+     "type": "tour",
+     "text": "İşte o gökyüzlerinin en ünlüsü. Önce bütününe bak, sonra içine girmek için dokun.",
+     "spots": [
+      {
+       "title": "Girdap",
+       "text": "Ortada iki büyük dalga birbirine dolanıyor. Hiçbir gerçek gök böyle görünmez: Van Gogh gördüğünü değil, hissettiğini resmediyor."
+      },
+      {
+       "title": "Ay",
+       "text": "Sarı bir halenin içinde turuncu bir hilal. Neredeyse bir güneşe benziyor. Van Gogh boyayı çevresinde dönen kısa darbelerle sürüyor."
+      },
+      {
+       "title": "Sabah yıldızı",
+       "text": "Resmin en beyaz ışığı. Van Gogh kardeşine, gün doğmadan önce sabah yıldızını çok büyük gördüğünü yazmıştı. Büyük olasılıkla Venüs."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bu resim ne gece yapıldı ne de manzaranın karşısında. Van Gogh onu gün ışığında, hastanedeki atölyesinde, bellekten ve hayal gücüyle boyadı. Bu onun için alışılmadık bir şeydi: normalde gözünün önündekini resmederdi."
+    },
+    {
+     "type": "key",
+     "text": "Yıldızlı Gece gündüz, bellekten boyandı. Bu bir manzara değil; bir hayal."
+    },
+    {
+     "type": "text",
+     "text": "Uzun zamandır bir gece göğü resmetmenin hayalini kuruyordu. Bir yıl önce, yıldızlara bakmanın onu hep düşlere daldırdığını yazmıştı."
+    },
+    {
+     "type": "find",
+     "text": "Bu manzaradaki bir ayrıntı doğrudan Hollanda'daki çocukluğundan geliyor. Kilise kulesi nerede?",
+     "spots": [
+      {
+       "title": "Kilise kulesi",
+       "text": "İnce, sivri bir kule; tıpkı Van Gogh'un büyüdüğü Hollanda köylerindekiler gibi. Provence'ta kilise kuleleri böyle görünmez."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Köy de uydurma, ya da en azından yeri değiştirilmiş: penceresinden görünmüyordu. Van Gogh gerçek bir gökyüzünü, gerçek tepeleri ve belleğindeki bir köyü bir araya getiriyor."
+    },
+    {
+     "type": "fact",
+     "text": "Hastanedeki penceresinde demir parmaklıklar vardı. Bu manzarayı her resmedişinde onları dışarıda bıraktı."
+    },
+    {
+     "type": "lines",
+     "text": "Resim huzursuz görünüyor. Oysa özenle kurulmuş.",
+     "lines": [
+      {
+       "label": "Servinin dikeyi",
+       "text": "Resmi yerden üst kenara kadar boydan boya kesiyor ve ölçeği belirliyor: gökyüzü uçsuz bucaksız."
+      },
+      {
+       "label": "Yankısı: kilise kulesi",
+       "text": "Serviye karşılık veren ikinci, minicik bir dikey. Biri doğanın, öteki insanın eseri."
+      },
+      {
+       "label": "Gökteki dalga",
+       "text": "Göz bu S'yi soldan sağa, aya kadar izliyor."
+      },
+      {
+       "label": "Tepelerin eğimi",
+       "text": "Köye doğru inen ve onu bir kol gibi koruyan bir çapraz."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Şimdi fırça işçiliğine bak. Yumuşak geçişler yok. Kısa, kalın darbeler yan yana diziliyor ve her biri bir yönü gösteriyor. Hareketi yaratan, fırça darbesinin kendisi."
+    },
+    {
+     "type": "text",
+     "text": "Ressamlar böyle kalın sürülmüş boyaya “impasto” der. Van Gogh rengi kimi zaman neredeyse doğrudan tüpten sıkardı. Yakından bakınca tuvalin yüzeyi kabartma bir harita gibi pürüzlü."
+    },
+    {
+     "type": "tour",
+     "title": "Yakından",
+     "text": "Gel, boyanın kendisine yaklaşalım.",
+     "spots": [
+      {
+       "title": "Boya",
+       "text": "Ne kadar kalın, bir bak: boya kısa, ağır darbeler hâlinde, neredeyse kabartma gibi duruyor. Buna impasto denir."
+      },
+      {
+       "title": "Servi",
+       "text": "Bir alev gibi koyu ve kıvrımlı, yeri göğe bağlıyor. Fransa'nın güneyinde mezarlık ağacıdır. Van Gogh onu bir Mısır dikilitaşı kadar güzel buluyordu."
+      },
+      {
+       "title": "Tepeler",
+       "text": "Alpilles. Gökyüzünü sürükleyen aynı hareketle dalgalar gibi kıvrılıyorlar."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Servi önemli. Resmin en koyu biçimi o ve hem yere hem göğün tepesine değen tek şey. Van Gogh o yaz bu ağaçlara hayran kalmıştı."
+    },
+    {
+     "type": "palette",
+     "text": "Mavi, sarı ve neredeyse başka hiçbir şey. Bir renge dokun.",
+     "swatches": [
+      {
+       "name": "Koyu mavi",
+       "text": "Göğün ve tepelerin derinliği. Van Gogh ultramarin ve kobalt mavisi kullandı."
+      },
+      {
+       "name": "Açık mavi",
+       "text": "Girdaplar. Kalın darbelerle sürülmüş bu mavi, göğü döndürüyor."
+      },
+      {
+       "name": "Sarı",
+       "text": "Ay, yıldızlar, pencereler. Yüzeyin küçücük bir bölümü, ama her şeyi aydınlatıyor."
+      },
+      {
+       "name": "Yeşil-siyah",
+       "text": "Servi ve köyün gölgeleri. Resmin en koyu kütlesi."
+      },
+      {
+       "name": "Yeşilimsi beyaz",
+       "text": "Yıldızların çevresindeki haleler: onları titreştiren işte bu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Mavi ile sarı, renk çemberinde neredeyse karşı karşıya durur. Yan yana konduklarında biri ötekini daha güçlü gösterir. Van Gogh bunu biliyordu ve gecelerini titreştirmek için kullandı."
+    },
+    {
+     "type": "key",
+     "text": "Yan yana konan karşıt renkler birbirini güçlendirir. Sarı yıldızların mavinin üstünde böyle yanmasının nedeni bu."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh kardeşine sabah yıldızını çok büyük gördüğünü anlatmıştı. Resmin en beyaz ışığına dokun.",
+     "spots": [
+      {
+       "title": "Sabah yıldızı",
+       "text": "Resmin en beyaz ışığı. Van Gogh kardeşine, gün doğmadan önce sabah yıldızını çok büyük gördüğünü yazmıştı. Büyük olasılıkla Venüs."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Peki kendisi bu resim hakkında ne düşünüyordu? Pek iyi şeyler değil. Mektuplarında ondan basit bir gece etüdü diye söz ediyor ve hayal gücüyle yapılmış bu tuvallere pek güvenmiyor."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh hayattayken neredeyse hiçbir şey satamadı. Sanat tüccarı olan kardeşi Theo ona para ve boya göndererek destek oldu."
+    },
+    {
+     "type": "text",
+     "text": "On üç ay sonra, Temmuz 1890'da, 37 yaşında öldü. Yıldızlı Gece 1941'de New York'taki Modern Sanat Müzesi'ne girdi."
+    },
+    {
+     "type": "key",
+     "text": "Van Gogh'ta konu fırça darbesinin ta kendisi: her darbenin bir yönü var ve göğü harekete geçiren de bu."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Girdap",
+       "text": "Ortada iki büyük dalga birbirine dolanıyor. Hiçbir gerçek gök böyle görünmez: Van Gogh gördüğünü değil, hissettiğini resmediyor."
+      },
+      {
+       "title": "Ay",
+       "text": "Sarı bir halenin içinde turuncu bir hilal. Neredeyse bir güneşe benziyor. Van Gogh boyayı çevresinde dönen kısa darbelerle sürüyor."
+      },
+      {
+       "title": "Sabah yıldızı",
+       "text": "Resmin en beyaz ışığı. Van Gogh kardeşine, gün doğmadan önce sabah yıldızını çok büyük gördüğünü yazmıştı. Büyük olasılıkla Venüs."
+      },
+      {
+       "title": "Servi",
+       "text": "Bir alev gibi koyu ve kıvrımlı, yeri göğe bağlıyor. Fransa'nın güneyinde mezarlık ağacıdır. Van Gogh onu bir Mısır dikilitaşı kadar güzel buluyordu."
+      },
+      {
+       "title": "Kilise kulesi",
+       "text": "İnce, sivri bir kule; tıpkı Van Gogh'un büyüdüğü Hollanda köylerindekiler gibi. Provence'ta kilise kuleleri böyle görünmez."
+      },
+      {
+       "title": "Köy",
+       "text": "Işığı yanan birkaç sarı pencere. Bu köyü odasından göremiyordu: onu bellekten ekledi."
+      },
+      {
+       "title": "Tepeler",
+       "text": "Alpilles. Gökyüzünü sürükleyen aynı hareketle dalgalar gibi kıvrılıyorlar."
+      },
+      {
+       "title": "Boya",
+       "text": "Ne kadar kalın, bir bak: boya kısa, ağır darbeler hâlinde, neredeyse kabartma gibi duruyor. Buna impasto denir."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Van Gogh Yıldızlı Gece'yi yaparken neredeydi?",
+     "options": [
+      "Paris'te",
+      "Saint-Rémy-de-Provence akıl hastanesinde",
+      "Amsterdam'da"
+     ],
+     "explanation": "Bir ay önce kendi isteğiyle oraya yatmıştı."
+    },
+    {
+     "question": "Resim nasıl yapıldı?",
+     "options": [
+      "Gece, manzaranın karşısında",
+      "Gündüz, bellekten ve hayal gücüyle",
+      "Bir fotoğraftan"
+     ],
+     "explanation": "Gündüz, hastanedeki atölyesinde."
+    },
+    {
+     "question": "Hangi ayrıntı Hollanda'yı hatırlatıyor?",
+     "options": [
+      "Servi",
+      "Sivri kilise kulesi",
+      "Tepeler"
+     ],
+     "explanation": "Büyüdüğü köylerdekilere benzeyen bir kule."
+    },
+    {
+     "question": "“İmpasto” nedir?",
+     "options": [
+      "Neredeyse kabartma gibi duran çok kalın boya",
+      "İnce ve saydam bir sır katmanı",
+      "Kömürle yapılmış bir eskiz"
+     ],
+     "explanation": "Tuvalden kabararak yükselen kısa, ağır darbeler."
+    },
+    {
+     "question": "Sarı yıldızlar neden bu kadar parlak görünüyor?",
+     "options": [
+      "Altınla boyanmışlar",
+      "Sarı, karşıtı olan mavinin yanında duruyor",
+      "Tuval arkadan aydınlatılmış"
+     ],
+     "explanation": "Yan yana konan karşıt renkler birbirini güçlendirir."
+    },
+    {
+     "question": "Van Gogh bu manzarayı resmederken neyi dışarıda bıraktı?",
+     "options": [
+      "Penceresinin parmaklıklarını",
+      "Ayı",
+      "Tepeleri"
+     ],
+     "explanation": "Hastanedeki penceresinde demir parmaklıklar vardı."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh Yıldızlı Gece'yi gecenin ortasında, açık havada boyadı.",
+     "explanation": "Onu gündüz, bellekten, Saint-Rémy'deki akıl hastanesinde boyadı."
+    },
+    {
+     "text": "Yıldızlı Gece New York'ta bulunuyor.",
+     "explanation": "1941'den beri MoMA'da."
+    },
+    {
+     "text": "Van Gogh çok tablo sattı ve zengin öldü.",
+     "explanation": "Neredeyse hiçbir şey satamadı; ona kardeşi Theo destek oldu."
+    }
+   ]
+  },
+  "perle": {
+   "title": "İnci Küpeli Kız",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "yak. 1665",
+   "museum": "Mauritshuis, Lahey",
+   "teaser": "Omzunun üstünden atılmış bir bakış ve kim olduğunu kimse bilmiyor.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Bu yüzü tanıyorsun. Ama bu bir portre değil: kim olduğunu kimse bilmiyor ve Vermeer büyük olasılıkla belirli birini resmetmeyi hiç amaçlamadı."
+    },
+    {
+     "type": "text",
+     "text": "17. yüzyıl Hollanda'sında bu tür resimlerin bir adı vardı: “tronie”, yani bir yüz etüdü. Ressam onunla bir ifadeyi, egzotik bir kostümü ya da bir ışık etkisini araştırır. Burada üçünü birden."
+    },
+    {
+     "type": "key",
+     "text": "Tronie hayalî bir yüzdür; bir ifadeyi ve bir ışığı resmetmek için bir bahane. Gerçek bir kişinin portresi değildir."
+    },
+    {
+     "type": "tour",
+     "text": "Önce resmin bütününe bak: karanlıktan beliren bir yüz. Yaklaşmak için dokun.",
+     "spots": [
+      {
+       "title": "Bakış",
+       "text": "Sanki adını yeni seslenmişsin gibi sana dönüyor. Her gözde tek bir beyaz nokta, bakışı ıslak ve canlı göstermeye yetiyor."
+      },
+      {
+       "title": "Ağız",
+       "text": "Hafifçe aralık, sanki cümlenin ortasında. Dudakların kenarındaki minicik parlak noktaya bak: tek bir boya dokunuşu ve ağız ışıldıyor."
+      },
+      {
+       "title": "İnci",
+       "text": "İki fırça darbesi, fazlası değil: üstte beyaz bir parıltı, altta yakanın gri yansıması. Ne kontur var ne kanca. İnciyi senin gözün kuruyor."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bütün resim tek bir harekete dayanıyor: kız dönüyor. Bedeni profilden duruyor, yüzü bize doğru geliyor. Sanki onu hazırlıksız yakalamışız ya da tam gitmek üzere. Onu bu kadar canlı kılan da bu."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer bütün hayatını küçük bir Hollanda kenti olan Delft'te geçirdi. Yavaş çalışırdı, doyurması gereken on bir çocuğu vardı ve 43 yaşında borç içinde öldü."
+    },
+    {
+     "type": "text",
+     "text": "Türbana dikkat et. Hiçbir Hollandalı kız böyle giyinmezdi. Bu bir kostüm; dönemin ressamlarını büyüleyen uzak Doğu'dan bir esinti."
+    },
+    {
+     "type": "find",
+     "text": "Yüzüne tek bir ışık kaynağı vuruyor. Nereye düşüyor? Yüzünün en aydınlık yerine dokun.",
+     "spots": [
+      {
+       "title": "Yanak",
+       "text": "Işık soldan, biraz yukarıdan geliyor. Alna, yanağa ve buruna vuruyor, sonra yüzün öbür yarısını gölgeye bırakıyor."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer neredeyse hiç kontur çizmez. Burun kemerine bak: çizgi yok, yalnızca bir gölgeyle buluşan aydınlık bir yanak var. Yüz çizgilerden değil, ışıktan yapılmış."
+    },
+    {
+     "type": "key",
+     "text": "Soldan gelen ışık, yumuşak gölgeler, sert kontur yok: Vermeer'in imzası bu."
+    },
+    {
+     "type": "lines",
+     "text": "Bu kadar yalın bir resim nasıl ayakta duruyor? Üç çizgi bunu açıklıyor.",
+     "lines": [
+      {
+       "label": "Işık",
+       "text": "Sol üstten geliyor, sanki göremediğimiz bir pencereden."
+      },
+      {
+       "label": "Üçgen",
+       "text": "Türbanın tepesinden iki omza: başın dönüşünü dengeleyen sağlam, oturaklı bir biçim."
+      },
+      {
+       "label": "Sarkan kumaş",
+       "text": "Sarı kumaş sağdan aşağı dökülüyor ve sola dönen yüzü dengeliyor."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Şimdi maviye gelelim. Vermeer, lapis lazuli taşının öğütülmesiyle elde edilen doğal ultramarin kullandı. Çok pahalı olduğu için ressamların çoğu onu Meryem Ana'nın giysisine saklardı. O ise her yere, gölgelere bile sürdü."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli bugünkü Afganistan'daki madenlerden gelirdi. “Ultramarin” adı “denizin ötesinden” demektir."
+    },
+    {
+     "type": "palette",
+     "text": "Resmin neredeyse tamamı beş renkten oluşuyor. Nerede saklandığını görmek için birine dokun.",
+     "swatches": [
+      {
+       "name": "Koyu fon",
+       "text": "Yüzeyin yarısından fazlası. Bir zamanlar koyu yeşil bir perdeydi, bugün neredeyse siyah."
+      },
+      {
+       "name": "Ultramarin",
+       "text": "Lapis lazulinin mavisi. Çok az yer kaplıyor, ama gözümüz hep onda."
+      },
+      {
+       "name": "Kahverengi okr",
+       "text": "Ceketin ve sarı kumaşın gölgeleri: sıcak ve ucuz bir toprak rengi."
+      },
+      {
+       "name": "Ten pembesi",
+       "text": "Resmin en aydınlık yeri. Gözümüz önce oraya gider."
+      },
+      {
+       "name": "Sarı",
+       "text": "Ceketin ve türbandan sarkan kumaşın üstünde. Maviye karşılık veriyor."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1994'te resim restore edildi. Restoratörler sararmış verniğin altında daha taze renkler buldu; dudak kenarındaki, artık kimsenin göremediği o küçük parlak noktayı da."
+    },
+    {
+     "type": "text",
+     "text": "Ya fon? Bugün düz ve siyah görünüyor. Bilimsel analizler, Vermeer'in oraya koyu yeşil bir perde boyadığını gösterdi. Yeşil pigmentler zamanla bozuldu."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer bu resmi imzaladı. Ama nereye? Dikkatle bak, neredeyse görünmüyor.",
+     "spots": [
+      {
+       "title": "İmza",
+       "text": "Sol üstte “IVMeer”. Koyu fonun üzerine açık bir tonla yazılmış; zamanla neredeyse silinip gitmiş."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "İnci gerçekten inci mi? Çok iri. Bazı uzmanlar onun cilalı cam ya da parlatılmış kalay olduğunu düşünüyor. Pek önemi yok: resimde o bir ışık damlası ve Vermeer'in istediği de yalnızca buydu."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer nesneleri resmetmez. Onların üzerine düşen ışığı resmeder. İnci, iki beyaz dokunuştan ibaret."
+    },
+    {
+     "type": "text",
+     "text": "Vermeer'in bilinen resimleri yalnızca 37 kadar. Ölümünden sonra neredeyse iki yüzyıl boyunca unutuldu."
+    },
+    {
+     "type": "fact",
+     "text": "1881'de bir koleksiyoncu bu resmi bir açık artırmada iki guldene, yani neredeyse bedavaya aldı. 1902'de onu Mauritshuis müzesine bıraktı."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Bakış",
+       "text": "Sanki adını yeni seslenmişsin gibi sana dönüyor. Her gözde tek bir beyaz nokta, bakışı ıslak ve canlı göstermeye yetiyor."
+      },
+      {
+       "title": "Ağız",
+       "text": "Hafifçe aralık, sanki cümlenin ortasında. Dudakların kenarındaki minicik parlak noktaya bak: tek bir boya dokunuşu ve ağız ışıldıyor."
+      },
+      {
+       "title": "İnci",
+       "text": "İki fırça darbesi, fazlası değil: üstte beyaz bir parıltı, altta yakanın gri yansıması. Ne kontur var ne kanca. İnciyi senin gözün kuruyor."
+      },
+      {
+       "title": "Mavi türban",
+       "text": "Gerçek ultramarin: ta Afganistan'dan getirilen bir taş olan lapis lazuliden yapılmış. O dönemde bu pigment altından daha pahalıydı."
+      },
+      {
+       "title": "Sarkan sarı kumaş",
+       "text": "Sarı kumaş sırtından bir alev gibi dökülüyor. Mavi ve sarı: Vermeer bu ikiliyi severdi ve resimden resme kullandı."
+      },
+      {
+       "title": "Beyaz yaka",
+       "text": "Tek bir hareketle sürülmüş beyaz bir şerit. İncinin alt kısmında yansıyan, işte bu yaka."
+      },
+      {
+       "title": "İmza",
+       "text": "Sol üstte “IVMeer”. Koyu fonun üzerine açık bir tonla yazılmış; zamanla neredeyse silinip gitmiş."
+      },
+      {
+       "title": "Fon",
+       "text": "Her zaman siyah değildi. Analizler, Vermeer'in burada koyu yeşil bir perde boyadığını gösteriyor. Yeşil, yüzyıllar içinde kayboldu."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "“Tronie” nedir?",
+     "options": [
+      "Sipariş üzerine yapılmış bir portre",
+      "Hayalî bir yüz etüdü",
+      "Bir otoportre"
+     ],
+     "explanation": "Gerçek bir kişi değil; bir ifadeyi ve bir ışığı resmetmek için bir bahane."
+    },
+    {
+     "question": "Türbanın mavisi nereden geliyor?",
+     "options": [
+      "Bir bitkiden, çivitten",
+      "Bir taştan, lapis lazuliden",
+      "Bir deniz kabuğundan"
+     ],
+     "explanation": "Öğütülmüş lapis lazuli, o dönemde altından pahalı olan doğal ultramarini verir."
+    },
+    {
+     "question": "İnci nasıl boyanmış?",
+     "options": [
+      "Kesin bir kontur ve bir kancayla",
+      "Konturu olmayan iki açık dokunuşla",
+      "Gümüş varakla"
+     ],
+     "explanation": "Beyaz bir parıltı, gri bir yansıma: gerisini gözün tamamlıyor."
+    },
+    {
+     "question": "Işık nereden geliyor?",
+     "options": [
+      "Soldan",
+      "Sağdan",
+      "Aşağıdan"
+     ],
+     "explanation": "Sol üstten, sanki görünmeyen bir pencereden."
+    },
+    {
+     "question": "Fon başlangıçta neydi?",
+     "options": [
+      "Koyu yeşil bir perde",
+      "Bir pencere",
+      "Altın bir duvar"
+     ],
+     "explanation": "Yeşil pigmentler yüzyıllar içinde bozuldu."
+    },
+    {
+     "question": "Vermeer bütün hayatını nerede geçirdi?",
+     "options": [
+      "Amsterdam",
+      "Delft",
+      "Lahey"
+     ],
+     "explanation": "Küçük Delft kentinde yaşadı ve çalıştı."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Poz veren kızın adını biliyoruz.",
+     "explanation": "Kimliği bilinmiyor: bu resim bir tronie."
+    },
+    {
+     "text": "Türbanın mavisi bir taştan, lapis lazuliden geliyor.",
+     "explanation": "Öğütüldüğünde doğal ultramarini verir."
+    },
+    {
+     "text": "İnci özenli, ayrıntılı bir konturla boyanmış.",
+     "explanation": "Yalnızca iki açık renk dokunuştan ibaret; hiç konturu yok."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Kanagawa'nın Büyük Dalgası",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "yak. 1831",
+   "museum": "Ahşap baskı · çok sayıda nüsha",
+   "teaser": "Dev bir dalga ve çok gerilerde, minicik, Fuji Dağı.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Bu bir tablo değil. Bir baskı: tahta kalıplara oyulan, mürekkeplenen, sonra kâğıda bastırılan bir resim. Yani tek bir Büyük Dalga yok. Binlercesi var."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai onu 1831 civarında yayımladı. 70 yaşlarındaydı ve çocukluğundan beri resim çiziyordu. Baskı, sonradan çok ünlenecek bir serinin ilk sayfası: Fuji'nin Otuz Altı Görünümü."
+    },
+    {
+     "type": "key",
+     "text": "Büyük Dalga, binlerce nüsha basılmış bir ahşap baskı. Dünyanın dört bir yanında pek çok müzede bir tane var."
+    },
+    {
+     "type": "fact",
+     "text": "Böyle bir baskı ucuzdu. Hokusai'nin zamanında aşağı yukarı bir kâse erişte fiyatınaydı."
+    },
+    {
+     "type": "find",
+     "text": "Serinin adı Fuji'nin Otuz Altı Görünümü. Peki Fuji Dağı nerede?",
+     "spots": [
+      {
+       "title": "Fuji Dağı",
+       "text": "Baskının asıl konusu burada, minicik. Japonya'nın kutsal dağı, karlı tepesiyle fırtınanın ortasında kıpırtısız duruyor."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "İşin dâhiyane yanı da bu: Japonya'nın en yüksek dağı dalgadan küçük. Hokusai uzaklıkla oynuyor. Geniş açılı bir fotoğraftaki gibi, yakındaki uzaktakini eziyor."
+    },
+    {
+     "type": "text",
+     "text": "Fuji Dağı kutsaldı. İnsanlar ölümsüzlüğün sırrını sakladığına inanırdı. Hokusai ona takıntılıydı; onu her açıdan, her havada çizdi."
+    },
+    {
+     "type": "tour",
+     "text": "Resmin üzerinde, gözün izlediği yoldan gezelim.",
+     "spots": [
+      {
+       "title": "Köpük",
+       "text": "Dalganın ucuna bak: köpük, kayıkların üstüne kapanmak üzere olan pençeler gibi kıvrık parmaklarla bitiyor."
+      },
+      {
+       "title": "Kürekçiler",
+       "text": "Küreklerinin üstüne eğilmiş, başları önde balıkçılar. Bu hızlı kayıklar, bugün Tokyo dediğimiz Edo kentine taze balık taşırdı."
+      },
+      {
+       "title": "Küçük dalga",
+       "text": "Ön planda daha küçük bir dalga. Biçimine bak: sivri, tepesi beyaz. İkinci bir Fuji Dağı."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Japonya'da sağdan sola okunur. Yani göz resme sağdan, kayıklarla girer ve dosdoğru dalgaya çarpar. Japon bir izleyici için dalga tam karşıdan gelir."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai hayatı boyunca otuzdan fazla kez ad değiştirdi. Son adlarından biri “Resme Deli Yaşlı Adam” anlamına geliyordu."
+    },
+    {
+     "type": "lines",
+     "text": "Yalın bir resim, ama milimetresine kadar hesaplanmış.",
+     "lines": [
+      {
+       "label": "Kavis",
+       "text": "Dalga, kendi üstüne kapanan büyük bir yay çiziyor. Resmin bütün sol yanı onun içinde kalıyor."
+      },
+      {
+       "label": "Fuji'nin üçgeni",
+       "text": "Küçük, sağlam, sivri. Tam dalganın çukurunda duruyor."
+      },
+      {
+       "label": "İkizi",
+       "text": "Ön plandaki küçük dalga dağın biçimini tekrarlıyor. Su taşı taklit ediyor."
+      },
+      {
+       "label": "Okuma yönü",
+       "text": "Sağdan sola: dalgaların üstünden Fuji'ye kayıyoruz, sonra başımızı kaldırıp dalgaya bakıyoruz."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Peki nasıl yapıldı? Hokusai resmi ince bir kâğıda çizdi. Bir oymacı çizimi kiraz ağacından bir kalıba yapıştırdı ve çizgi olmayan her şeyi oyup çıkardı. Ardından bir baskıcı kalıbı mürekkepledi ve kâğıdı üstüne bastırdı."
+    },
+    {
+     "type": "text",
+     "text": "Her renk için ayrı bir oyulmuş kalıp gerekiyordu ve kalıplar aynı kâğıda art arda basılıyordu. Baskılarda bu kadar az renk olmasının nedeni bu."
+    },
+    {
+     "type": "key",
+     "text": "Her renge bir kalıp: renk ne kadar azsa baskı o kadar kolay. Hokusai bu sınırı bir üsluba dönüştürüyor."
+    },
+    {
+     "type": "palette",
+     "text": "Çok az renk var, çünkü her biri kendi oyulmuş kalıbını istiyor. Birine dokun.",
+     "swatches": [
+      {
+       "name": "Kâğıt",
+       "text": "En çok görülen renk hiç basılmamış: köpük ve kar için boş bırakılan çıplak kâğıt."
+      },
+      {
+       "name": "Prusya mavisi",
+       "text": "Avrupa'dan gelen mavi. Dalgayı, çizgilerini ve çukurlarını o çiziyor."
+      },
+      {
+       "name": "Açık mavi",
+       "text": "Aynı mavi, sulandırılmış hâli. Suya hacmini veriyor."
+      },
+      {
+       "name": "Renkli gök",
+       "text": "Kâğıttan ancak biraz koyu bir bej; beyaz köpüğü öne çıkaran da bu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "O maviye gelelim. Bu, Avrupa'da icat edilmiş ve Japonya'ya yeni yeni getirilen kimyasal bir pigment: Prusya mavisi. Derin, solmuyor ve büyük heyecan yarattı. Seri, başarısının büyük kısmını ona borçlu."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai resmini imzaladı. Nereye? İpucu: sağ alt köşeye değil.",
+     "spots": [
+      {
+       "title": "Kartuş",
+       "text": "Çerçevenin içinde serinin ve resmin adı yazıyor: “Kanagawa Açıklarında Dalganın Altında”. Solunda Hokusai'nin imzası var."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1850'lerde Japonya ticarete açıldı ve baskıları Avrupa'ya ulaştı. Fransız ressamlar şaşkına döndü: düz renk alanları, keskin konturlar, cüretkâr kadrajlar. Monet onları biriktirdi. Van Gogh kopyaladı."
+    },
+    {
+     "type": "key",
+     "text": "Bu tutkunun adı Japonizm. Japon baskıları olmasaydı Empresyonizm bugünkü hâlini almazdı."
+    },
+    {
+     "type": "text",
+     "text": "Son bir şey: bu bir tsunami değil. Açık denizin bir dalgası; devasa ama sıradan, balıkçıların korktuğu türden. Hokusai bir felaket göstermiyor. Doğanın karşısındaki minicik insanları gösteriyor."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Fuji Dağı",
+       "text": "Baskının asıl konusu burada, minicik. Japonya'nın kutsal dağı, karlı tepesiyle fırtınanın ortasında kıpırtısız duruyor."
+      },
+      {
+       "title": "Köpük",
+       "text": "Dalganın ucuna bak: köpük, kayıkların üstüne kapanmak üzere olan pençeler gibi kıvrık parmaklarla bitiyor."
+      },
+      {
+       "title": "Kürekçiler",
+       "text": "Küreklerinin üstüne eğilmiş, başları önde balıkçılar. Bu hızlı kayıklar, bugün Tokyo dediğimiz Edo kentine taze balık taşırdı."
+      },
+      {
+       "title": "Küçük dalga",
+       "text": "Ön planda daha küçük bir dalga. Biçimine bak: sivri, tepesi beyaz. İkinci bir Fuji Dağı."
+      },
+      {
+       "title": "Kartuş",
+       "text": "Çerçevenin içinde serinin ve resmin adı yazıyor: “Kanagawa Açıklarında Dalganın Altında”. Solunda Hokusai'nin imzası var."
+      },
+      {
+       "title": "Alttaki kayık",
+       "text": "Dalga çukuruna dalıyor. Toplam üç kayık ve otuz kadar adam var."
+      },
+      {
+       "title": "Gökyüzü",
+       "text": "Neredeyse boş. Basit bir renk geçişi; baskıdan önce kalıptaki mürekkep silinerek elde edilmiş."
+      },
+      {
+       "title": "Serpinti",
+       "text": "Fuji'nin üzerine beyaz noktalar düşüyor. Dağa yağan kar gibi görünüyorlar."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Büyük Dalga nedir?",
+     "options": [
+      "Bir yağlı boya tablo",
+      "Bir ahşap baskı",
+      "Bir suluboya"
+     ],
+     "explanation": "Binlerce nüsha basılmış bir baskı."
+    },
+    {
+     "question": "Hangi seriye ait?",
+     "options": [
+      "Edo'nun Yüz Ünlü Görünümü",
+      "Fuji'nin Otuz Altı Görünümü",
+      "Dört Mevsim"
+     ],
+     "explanation": "Hokusai'nin Fuji serisini o açıyor."
+    },
+    {
+     "question": "Dalganın mavisi nereden geliyor?",
+     "options": [
+      "Lapis lazuli",
+      "Avrupa'dan getirilen Prusya mavisi",
+      "Ezilmiş deniz kabukları"
+     ],
+     "explanation": "Japonya'da yeni olan, derin ve kalıcı kimyasal bir pigment."
+    },
+    {
+     "question": "Ön plandaki küçük dalga hangi biçimi tekrarlıyor?",
+     "options": [
+      "Fuji Dağı",
+      "Bir kayık",
+      "Bir bulut"
+     ],
+     "explanation": "Su dağı taklit ediyor."
+    },
+    {
+     "question": "Baskılarda neden bu kadar az renk var?",
+     "options": [
+      "Renkler yasaktı",
+      "Her renk için ayrı bir oyulmuş kalıp gerekir",
+      "Kâğıt mürekkebi tutmuyordu"
+     ],
+     "explanation": "Her renge bir kalıp; kalıplar art arda basılır."
+    },
+    {
+     "question": "Avrupa'daki Japon baskısı tutkusuna ne ad verilir?",
+     "options": [
+      "Japonizm",
+      "Oryantalizm",
+      "Kübizm"
+     ],
+     "explanation": "Monet baskıları biriktirdi; Van Gogh kopyaladı."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Büyük Dalga'nın yalnızca tek bir nüshası var.",
+     "explanation": "Bu bir baskı: binlerce nüsha basıldı."
+    },
+    {
+     "text": "Hokusai onu yaptığında 70 yaşlarındaydı.",
+     "explanation": "1760'ta doğmuştu ve seri 1831 civarında yayımlandı."
+    },
+    {
+     "text": "Büyük Dalga bir tsunamiyi gösteriyor.",
+     "explanation": "Bu, açık denizin büyük bir dalgası; tsunami değil."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Nilüferler",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Chicago Sanat Enstitüsü",
+   "teaser": "Ufuk kalmamış: yalnızca su, çiçekler ve suya yansıyan gökyüzü.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Monet, Giverny'deki bahçesine bir gölet kazdırdı ve içine nilüferler dikti. Bu gölet neredeyse otuz yıl boyunca onun konusu oldu."
+    },
+    {
+     "type": "image",
+     "caption": "Ayrıntı · suyun üstünde duran çiçekler."
+    },
+    {
+     "type": "text",
+     "text": "Yakından bak: ne kıyı var ne ufuk. Suyun nerede bitip gökyüzünün yansımasının nerede başladığını artık ayırt edemiyorsun."
+    },
+    {
+     "type": "key",
+     "text": "Ufuk olmayınca resim bir yüzeye dönüşür: suya, göğe bakar gibi bakarız."
+    },
+    {
+     "type": "fact",
+     "text": "Monet göletle ilgilenmeleri için bahçıvanlar tutmuştu. Bunlardan biri, o resme başlamadan önce her sabah suyun yüzeyini temizlerdi."
+    },
+    {
+     "type": "text",
+     "text": "Monet yaklaşık 250 nilüfer tuvali yaptı. Hep aynı çiçekler, ama hiçbir zaman aynı ışık değil."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Monet nilüferlerini nerede resmetti?",
+     "options": [
+      "Giverny'de",
+      "Paris'te",
+      "Venedik'te"
+     ],
+     "explanation": "Kendi evinin bahçesinde."
+    },
+    {
+     "question": "Bu resimde ne eksik?",
+     "options": [
+      "Su",
+      "Ufuk",
+      "Çiçekler"
+     ],
+     "explanation": "Ne kıyı var ne gökyüzü: yalnızca suyun yüzeyi."
+    },
+    {
+     "question": "Kaç nilüfer resmi yaptı?",
+     "options": [
+      "On kadar",
+      "Yaklaşık 250",
+      "2.000'den fazla"
+     ],
+     "explanation": "Neredeyse otuz yıla yayılan dev bir seri."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet nilüferlerini yalnızca bir kez resmetti.",
+     "explanation": "Yaklaşık 250 versiyonunu yaptı."
+    },
+    {
+     "text": "Nilüfer göleti Monet'nin kendi bahçesindeydi.",
+     "explanation": "Giverny'de, kendi kazdırdığı bir gölet."
+    }
+   ]
+  },
+  "impression": {
+   "title": "İzlenim: Gün Doğumu",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Marmottan Monet Müzesi, Paris",
+   "teaser": "Bütün bir akıma, alay olsun diye adını veren tablo.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Sisli bir sabah, Le Havre limanı. Monet birkaç hızlı fırça darbesi atıyor: kayıklar, direkler ve turuncu bir güneş."
+    },
+    {
+     "type": "image",
+     "caption": "Ayrıntı · güneş ve yansıması."
+    },
+    {
+     "type": "text",
+     "text": "1874'te tuval Paris'te sergilendi. Louis Leroy adlı bir eleştirmen resmin adıyla alay etti ve bu ressamlara “Empresyonistler”, yani izlenimciler dedi."
+    },
+    {
+     "type": "key",
+     "text": "“Empresyonizm” sözcüğü bu tablodan geliyor: Fransızca “impression”, izlenim demek. Bir hakaret olarak doğdu, bir ada dönüştü."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre, Monet'nin büyüdüğü kent. Gençliğinde orada karikatürleriyle tanınırdı."
+    },
+    {
+     "type": "text",
+     "text": "Tablo bir de 1985'te Marmottan müzesinden çalındı. Beş yıl sonra bulundu."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Monet hangi limanı resmetti?",
+     "options": [
+      "Marsilya",
+      "Le Havre",
+      "Venedik"
+     ],
+     "explanation": "Büyüdüğü kenti."
+    },
+    {
+     "question": "Bu tablo neye adını verdi?",
+     "options": [
+      "Empresyonizme",
+      "Bir müzeye",
+      "Bir ödüle"
+     ],
+     "explanation": "Bir eleştirmen adıyla alay etti ve sözcük yapışıp kaldı."
+    },
+    {
+     "question": "Paris'te hangi yıl sergilendi?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "O yıl Louis Leroy adlı bir eleştirmen onunla alay etti."
+    }
+   ],
+   "facts": [
+    {
+     "text": "“Empresyonist” sözcüğü başta bir hakaretti.",
+     "explanation": "Eleştirmen Louis Leroy'nun bir makalesinden geliyor."
+    },
+    {
+     "text": "Bu tablo Marsilya limanını gösteriyor.",
+     "explanation": "Gösterdiği, Le Havre limanı."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Öpücük",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Viyana",
+   "teaser": "Çiçekli bir çayırın kıyısında, altına sarılmış iki sevgili.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt “Altın Dönemi”nin doruğunda. Tuvale, bir dinî ikonadaki gibi gerçek altın varak uyguluyor."
+    },
+    {
+     "type": "image",
+     "caption": "Ayrıntı · iki yüz."
+    },
+    {
+     "type": "text",
+     "text": "Giysilere bak. Erkeğinki siyah beyaz dikdörtgenlerle kaplı. Kadınınki daireler ve çiçeklerle."
+    },
+    {
+     "type": "image",
+     "caption": "Ayrıntı · dikdörtgenler ve daireler."
+    },
+    {
+     "type": "key",
+     "text": "Erkeğe dikdörtgenler, kadına daireler: motifler çiftin hikâyesini anlatıyor."
+    },
+    {
+     "type": "fact",
+     "text": "Klimt'in babası altın oymacısıydı. Ressam, ileride tuvallerine koyacağı bu metalin arasında büyüdü."
+    },
+    {
+     "type": "text",
+     "text": "Avusturya devleti tabloyu 1908'de, daha tamamen bitmeden satın aldı."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Klimt hangi malzemeyi kullandı?",
+     "options": [
+      "Sedef",
+      "Altın varak",
+      "Bronz"
+     ],
+     "explanation": "Altın Dönemi'nin alameti bu."
+    },
+    {
+     "question": "Erkeğin giysisini hangi motifler kaplıyor?",
+     "options": [
+      "Daireler",
+      "Çiçekler",
+      "Dikdörtgenler"
+     ],
+     "explanation": "Daireler ve çiçekler kadına ait."
+    },
+    {
+     "question": "Tabloyu 1908'de kim satın aldı?",
+     "options": [
+      "Avusturya devleti",
+      "Fransız bir koleksiyoncu",
+      "Klimt'in babası"
+     ],
+     "explanation": "Daha tamamen bitmeden."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt gerçek altın varak kullandı.",
+     "explanation": "Altın Dönemi'nin birçok tuvalinde olduğu gibi."
+    },
+    {
+     "text": "Öpücük Paris'te bulunuyor.",
+     "explanation": "Viyana'da, Belvedere'de."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Ayçiçekleri",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Londra",
+   "teaser": "Sarı üstüne sarı: bir dostu karşılamak için boyanmış bir buket.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ağustos 1888, Arles. Van Gogh arkadaşı Paul Gauguin'i bekliyor ve onun odasını ayçiçekleriyle süslemek istiyor."
+    },
+    {
+     "type": "image",
+     "caption": "Ayrıntı · her evresinde çiçekler."
+    },
+    {
+     "type": "text",
+     "text": "Neredeyse tek bir renk kullanmayı göze alıyor: sarı çiçekler, sarı vazo, sarı fon. Her şey tonlara ve boyanın kalınlığına bağlı."
+    },
+    {
+     "type": "key",
+     "text": "Neredeyse tek renkli bir resim: her hâliyle sarı."
+    },
+    {
+     "type": "fact",
+     "text": "Ayçiçekleri çabuk solar. Van Gogh, çiçekler boynunu bükmeden, gün doğar doğmaz işe koyulup hızlı çalışmak zorundaydı."
+    },
+    {
+     "type": "text",
+     "text": "Bu ayçiçeklerinin birkaç versiyonu var. Kimi çiçekler henüz tomurcuk, kimileri çoktan solmuş: buket, geçip giden zamanı da anlatıyor."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Ayçiçekleri kimin odasını süsleyecekti?",
+     "options": [
+      "Paul Gauguin'in",
+      "Claude Monet'nin",
+      "Kardeşi Theo'nun"
+     ],
+     "explanation": "Van Gogh onu Arles'ta bekliyordu."
+    },
+    {
+     "question": "Onları hangi kentte resmetti?",
+     "options": [
+      "Paris",
+      "Arles",
+      "Amsterdam"
+     ],
+     "explanation": "Fransa'nın güneyinde, Ağustos 1888'de."
+    },
+    {
+     "question": "Renklerde alışılmadık olan ne?",
+     "options": [
+      "Neredeyse her şey sarı",
+      "Hiç sarı yok",
+      "Siyah beyaz"
+     ],
+     "explanation": "Sarı çiçekler, sarı vazo, sarı fon."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Ayçiçekleri'nin birkaç versiyonu var.",
+     "explanation": "Van Gogh bütün bir seri yaptı."
+    },
+    {
+     "text": "Van Gogh Ayçiçekleri'ni hayattayken bir servete sattı.",
+     "explanation": "Hayattayken neredeyse hiçbir şey satamadı."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "yak. 1503–1519",
+   "museum": "Louvre, Paris",
+   "teaser": "Dünyanın en ünlü gülümsemesinin sırrı, göremediğin konturlarda.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Dünyanın en ünlü tablosu, ama küçük: 77 x 53 santimetre, kavak ağacından bir pano üzerine boyanmış. Louvre'u gezenlerin çoğu boyutuna şaşırır."
+    },
+    {
+     "type": "text",
+     "text": "1503 civarında Floransa'da, Francesco del Giocondo adlı bir ipek tüccarı Leonardo da Vinci'den karısı Lisa Gherardini'nin portresini yapmasını istedi."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa, Floransalı bir tüccarın karısı Lisa Gherardini'nin portresi. “Mona” yalnızca “Hanımefendi” demek."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo yalnızca ressam değildi. Aynı zamanda mühendis, anatomist ve mucitti; ayna yazısıyla doldurulmuş binlerce defter sayfası bıraktı."
+    },
+    {
+     "type": "tour",
+     "text": "Önce bütününe bak. Sonra onu efsane yapan şeylere yaklaş.",
+     "spots": [
+      {
+       "title": "Gülümseme",
+       "text": "Dudakları çizen çizgiyi ara: yok. Ağzın kenarları gölgede eriyor. Gülümsemenin değişiyormuş gibi görünmesinin nedeni bu."
+      },
+      {
+       "title": "Gözler",
+       "text": "Aynı hile: gözlerin kenarları gölgeye karışıyor. Bir şeye daha dikkat et: ne kaşı var ne kirpiği."
+      },
+      {
+       "title": "Eller",
+       "text": "Biri ötekinin üstünde, gevşek. Leonardo kemikleri ve kasları anlamak için kadavra kesip inceledi: bu ellerin bir ağırlığı var."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bu bulanıklığın bir adı var: sfumato. Sözcük İtalyanca duman demek olan “fumo”dan gelir. Leonardo onlarca çok ince, neredeyse saydam boya katmanını üst üste sürer. Konturlar kaybolur, biçimler birbirine karışır."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato, yumuşak ve dumanlı konturlar demektir. Gülümsemeyi yakalanamaz kılan da bu."
+    },
+    {
+     "type": "text",
+     "text": "Kendin dene. Gözlerine bak: ağız gülümsüyor gibi. Doğrudan ağza bak: gülümseme kayboluyor. İşi köşelerdeki gölgeler yapıyor."
+    },
+    {
+     "type": "find",
+     "text": "Bu yüzde bir şey eksik. Olması gereken yere dokun.",
+     "spots": [
+      {
+       "title": "Kaşlar",
+       "text": "Ne kaşı var ne kirpiği. Dönemin modası mı, yoksa eski temizliklerle aşınmış boya mı? Uzmanlar hâlâ tartışıyor."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Şimdi duruşa bak. Leonardo'dan önce portreler çoğunlukla profilden yapılır ya da göğüs hizasından kesilirdi. O ise figürü beline kadar, bize dörtte üç dönük ve elleriyle birlikte gösteriyor."
+    },
+    {
+     "type": "fact",
+     "text": "Genç ressam Raffaello portreyi Leonardo'nun atölyesinde gördü ve duruşu hemen kendi eserlerinde kullandı."
+    },
+    {
+     "type": "lines",
+     "text": "Sakin bir duruş, tuhaf bir manzara. Hepsinin nasıl kurulduğuna bak.",
+     "lines": [
+      {
+       "label": "Piramit",
+       "text": "Tepede baş, tabanda kollar ve eller. Geniş, sağlam bir biçim: kıpırdamıyor, yerine oturmuş."
+      },
+      {
+       "label": "Soldaki ufuk",
+       "text": "Solda, manzaradaki su çizgisi aşağı yukarı burada."
+      },
+      {
+       "label": "Sağdaki ufuk",
+       "text": "Sağda daha yüksekte. Manzaranın iki yarısı birbirini tutmuyor ve resmin tuhaflığının bir kısmı buradan geliyor."
+      },
+      {
+       "label": "Patika",
+       "text": "Gözü uzaklara götüren kıvrımlı bir çizgi, tıpkı sağ taraftaki ırmaklar gibi."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Manzara gerçek bir yer değil. Kayalardan, sudan ve sisten oluşan düşsel bir dünya; ne ev var ne insan. İçinde insan eliyle yapılmış tek bir şey bulunuyor."
+    },
+    {
+     "type": "find",
+     "text": "Bu ıssız manzarada insan yapımı tek bir yapı var. Köprü nerede?",
+     "spots": [
+      {
+       "title": "Köprü",
+       "text": "Birkaç kemerli küçük bir taş köprü. Bütün manzaradaki tek insan izi."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Arka plan, Leonardo'nun bizzat yazıya geçirdiği bir kurala uyuyor: atmosferik perspektif. Hava tam anlamıyla berrak değildir. Bir şey ne kadar uzaktaysa o kadar mavi, soluk ve puslu görünür."
+    },
+    {
+     "type": "key",
+     "text": "Atmosferik perspektif: uzaktaki şeyler daha mavi, daha soluk ve daha bulanık görünür. Leonardo bunu bilerek resmeden ilk ressamlardandı."
+    },
+    {
+     "type": "palette",
+     "text": "Kahverengiler, yeşiller, biraz da altın. Eski vernik her şeyi sarartmış. Bir renge dokun.",
+     "swatches": [
+      {
+       "name": "Gölgeler",
+       "text": "Elbise, saçlar, tül. Resmin neredeyse yarısı yarı karanlıkta."
+      },
+      {
+       "name": "Ten",
+       "text": "Yüz, göğüs, eller: bir üçgen oluşturan üç aydınlık alan."
+      },
+      {
+       "name": "Gri-yeşil gök",
+       "text": "Aslında daha maviydi. Sararmış vernik onu yeşile çekmiş."
+      },
+      {
+       "name": "Kahverengi toprak",
+       "text": "Omuzlarının iki yanında, manzaranın kayaları ve patikaları."
+      },
+      {
+       "name": "Yeşil uzaklık",
+       "text": "Uzaklıkla yumuşamış su ve dağlar."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo tabloyu hiç teslim etmedi. Yanında tuttu, yıllarca üzerinde çalıştı ve Kral I. François onu Fransa'ya davet ettiğinde beraberinde götürdü. 1519'da ölünce portre kraliyet koleksiyonuna girdi. Louvre'da olmasının nedeni bu."
+    },
+    {
+     "type": "text",
+     "text": "Uzun süre pek çok başyapıttan yalnızca biriydi. Dünya çapındaki şöhretini bir suça borçlu: 21 Ağustos 1911'de İtalyan bir işçi, Vincenzo Peruggia, onu duvardan indirdi ve iş önlüğünün altına saklayıp çıkıp gitti."
+    },
+    {
+     "type": "fact",
+     "text": "Tablo kayıpken kalabalıklar, sırf duvardaki boşluğa bakmak için Louvre'da kuyruğa girdi."
+    },
+    {
+     "type": "text",
+     "text": "Dünyanın dört bir yanındaki gazeteler resmini bastı. 1913'te Floransa'da bulunduğunda Mona Lisa artık yalnızca bir tablo değildi. Bir yıldızdı."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa dehasını Leonardo'ya, şöhretini bir hırsızlığa borçlu."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Gülümseme",
+       "text": "Dudakları çizen çizgiyi ara: yok. Ağzın kenarları gölgede eriyor. Gülümsemenin değişiyormuş gibi görünmesinin nedeni bu."
+      },
+      {
+       "title": "Gözler",
+       "text": "Aynı hile: gözlerin kenarları gölgeye karışıyor. Bir şeye daha dikkat et: ne kaşı var ne kirpiği."
+      },
+      {
+       "title": "Eller",
+       "text": "Biri ötekinin üstünde, gevşek. Leonardo kemikleri ve kasları anlamak için kadavra kesip inceledi: bu ellerin bir ağırlığı var."
+      },
+      {
+       "title": "Köprü",
+       "text": "Birkaç kemerli küçük bir taş köprü. Bütün manzaradaki tek insan izi."
+      },
+      {
+       "title": "Patika",
+       "text": "Bir göle doğru kıvrılan bir patika. Manzara gerçek bir yer değil: Leonardo onu kayalar ve su üzerine yaptığı incelemelerden yola çıkarak kurguluyor."
+      },
+      {
+       "title": "Tül",
+       "text": "Saçlarını saydam bir tül örtüyor. O kadar ince ki alnında zar zor seçiliyor."
+      },
+      {
+       "title": "Uzaklık",
+       "text": "Dağlar uzaklaştıkça daha mavi ve daha puslu oluyor. Leonardo havanın da bir rengi olduğunu fark etmişti."
+      },
+      {
+       "title": "Kol",
+       "text": "Tek tek boyanmış sık, altın rengi kıvrımlar. Elbise koyu ve hiç mücevher takmıyor: hiçbir şey dikkati yüzden dağıtmamalı."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Portredeki kadın kim?",
+     "options": [
+      "Bir Fransa kraliçesi",
+      "Floransalı bir tüccarın karısı Lisa Gherardini",
+      "Leonardo'nun annesi"
+     ],
+     "explanation": "Portreyi kocası Francesco del Giocondo sipariş etti."
+    },
+    {
+     "question": "Yumuşak, dumanlı konturlar tekniğinin adı nedir?",
+     "options": [
+      "İmpasto",
+      "Sfumato",
+      "Puantilizm"
+     ],
+     "explanation": "İtalyanca duman demek olan “fumo” sözcüğünden."
+    },
+    {
+     "question": "Mona Lisa neyin üzerine boyanmış?",
+     "options": [
+      "Keten bir tuval",
+      "Kavak ağacından bir pano",
+      "Alçı bir duvar"
+     ],
+     "explanation": "77 x 53 santimetrelik bir kavak pano."
+    },
+    {
+     "question": "Uzaktaki şeylere ne olur?",
+     "options": [
+      "Daha canlı görünürler",
+      "Daha mavi, soluk ve puslu görünürler",
+      "Konturları keskinleşir"
+     ],
+     "explanation": "Atmosferik perspektif budur."
+    },
+    {
+     "question": "Tablo neden Fransa'da?",
+     "options": [
+      "Napolyon onu İtalya'dan getirdi",
+      "Leonardo getirdi ve kraliyet koleksiyonuna girdi",
+      "Louvre onu 1911'de satın aldı"
+     ],
+     "explanation": "Leonardo, Kral I. François'nın daveti üzerine Fransa'ya gelmişti."
+    },
+    {
+     "question": "Mona Lisa'yı dünyaca ünlü yapan neydi?",
+     "options": [
+      "1911'de Louvre'dan çalınması",
+      "New York'taki bir sergi",
+      "Restorasyonu"
+     ],
+     "explanation": "Vincenzo Peruggia çaldı, 1913'te bulundu."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Lisa tuval üzerine boyanmış.",
+     "explanation": "Kavak ağacından bir pano üzerine boyanmış."
+    },
+    {
+     "text": "Mona Lisa 1911'de Louvre'dan çalındı.",
+     "explanation": "İki yıl sonra bulundu."
+    },
+    {
+     "text": "Mona Lisa'nın kalın, koyu kaşları var.",
+     "explanation": "Ne kaşı var ne kirpiği."
+    }
+   ]
+  }
+ }
+}

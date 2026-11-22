@@ -59,7 +59,7 @@
     },
     {
      "type": "tour",
-     "text": "Tohle je nejslavnější z těch oblohy. Prohlédni si ji celou a pak klepni a vstup dovnitř.",
+     "text": "Tohle je nejslavnější z těch obloh. Prohlédni si ji celou, pak klepni a vstup dovnitř.",
      "spots": [
       {
        "title": "Vír",
@@ -204,7 +204,7 @@
     },
     {
      "type": "text",
-     "text": "A co si o obraze myslel on sám? Nic moc. V dopisech mu říká obyčejná noční studie a o plátnech malovaných z fantazie pochybuje."
+     "text": "A co si o obraze myslel on sám? Nic moc. V dopisech o něm mluví jako o obyčejné noční studii a o plátnech malovaných z fantazie pochybuje."
     },
     {
      "type": "fact",
@@ -602,7 +602,7 @@
     },
     {
      "type": "text",
-     "text": "Hokusai ji vydal kolem roku 1831. Bylo mu asi 70 a kreslil od dětství. Otevírá jí sérii, která se proslavila: Třicet šest pohledů na horu Fudži."
+     "text": "Hokusai ji vydal kolem roku 1831. Bylo mu asi 70 a kreslil od dětství. Je to první list série, která se proslavila: Třicet šest pohledů na horu Fudži."
     },
     {
      "type": "key",
@@ -657,10 +657,6 @@
      "text": "Hokusai během života změnil jméno víc než třicetkrát. Jedno z posledních znamenalo „Starý blázen do kreslení“."
     },
     {
-     "type": "text",
-     "text": "Jak takový tisk vznikl? Hokusai nakreslil obraz na tenký papír. Řezbář kresbu nalepil na desku z třešňového dřeva a vyřezal všechno, co nebylo linkou. Pak tiskař desku natřel barvou a přitiskl na ni papír."
-    },
-    {
      "type": "lines",
      "text": "Jednoduchý obraz, propočítaný na milimetr.",
      "lines": [
@@ -681,6 +677,10 @@
        "text": "Zprava doleva: sklouzneme po vlnách až k Fudži a pak vzhlédneme k vlně."
       }
      ]
+    },
+    {
+     "type": "text",
+     "text": "Jak takový tisk vznikl? Hokusai nakreslil obraz na tenký papír. Řezbář kresbu nalepil na desku z třešňového dřeva a vyřezal všechno, co nebylo linkou. Pak tiskař desku natřel barvou a přitiskl na ni papír."
     },
     {
      "type": "text",

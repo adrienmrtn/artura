@@ -59,7 +59,7 @@
     },
     {
      "type": "tour",
-     "text": "Íme, a leghíresebb azok közül az egek közül. Nézd meg egészében, aztán koppints, és lépj be a képbe.",
+     "text": "Íme, ezek közül az egek közül a leghíresebb. Nézd meg egészében, aztán koppints, és lépj be a képbe.",
      "spots": [
       {
        "title": "Az örvény",
@@ -67,11 +67,11 @@
       },
       {
        "title": "A hold",
-       "text": "Narancssárga sarló sárga glóriában. Szinte napnak tűnik. Van Gogh rövid vonásokkal rakja fel körülötte a festéket, amelyek körbe-körbe járnak."
+       "text": "Narancssárga sarló sárga glóriában. Szinte napnak tűnik. Van Gogh körben futó, rövid vonásokkal rakja köré a festéket."
       },
       {
        "title": "A hajnalcsillag",
-       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt látta a hajnalcsillagot, nagyon nagynak tűnt. Valószínűleg a Vénusz."
+       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt nagyon nagynak látta a hajnalcsillagot. Valószínűleg a Vénusz."
       }
      ]
     },
@@ -115,13 +115,12 @@
       },
       {
        "label": "A visszhangja: a torony",
-       "text": "Egy második, apró függőleges, amely felel a ciprusnak. Az egyik a természeté, a másikat ember építette."
+       "text": "Egy második, apró függőleges, amely felel a ciprusnak. Az egyiket a természet teremtette, a másikat ember építette."
       },
       {
        "label": "Hullám az égen",
        "text": "A szem balról jobbra követi ezt az S alakot, egészen a holdig."
-      }
-      ,
+      },
       {
        "label": "A dombok lejtője",
        "text": "Átló, amely a falu felé fut le, és úgy óvja, mint egy átkaroló kar."
@@ -187,7 +186,7 @@
     },
     {
      "type": "text",
-     "text": "A kék és a sárga szinte szemben áll egymással a színkörön. Egymás mellé téve kölcsönösen felerősítik egymást. Van Gogh tudta ezt, és ki is használta, hogy vibráljanak az éjszakái."
+     "text": "A kék és a sárga szinte szemben áll egymással a színkörön. Egymás mellé téve kölcsönösen felerősítik egymást. Van Gogh tudta ezt, és ezzel tette vibrálóvá az éjszakáit."
     },
     {
      "type": "key",
@@ -199,7 +198,7 @@
      "spots": [
       {
        "title": "A hajnalcsillag",
-       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt látta a hajnalcsillagot, nagyon nagynak tűnt. Valószínűleg a Vénusz."
+       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt nagyon nagynak látta a hajnalcsillagot. Valószínűleg a Vénusz."
       }
      ]
     },
@@ -228,11 +227,11 @@
       },
       {
        "title": "A hold",
-       "text": "Narancssárga sarló sárga glóriában. Szinte napnak tűnik. Van Gogh rövid vonásokkal rakja fel körülötte a festéket, amelyek körbe-körbe járnak."
+       "text": "Narancssárga sarló sárga glóriában. Szinte napnak tűnik. Van Gogh körben futó, rövid vonásokkal rakja köré a festéket."
       },
       {
        "title": "A hajnalcsillag",
-       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt látta a hajnalcsillagot, nagyon nagynak tűnt. Valószínűleg a Vénusz."
+       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt nagyon nagynak látta a hajnalcsillagot. Valószínűleg a Vénusz."
       },
       {
        "title": "A ciprus",
@@ -298,7 +297,7 @@
      "question": "Miért ragyognak ennyire a sárga csillagok?",
      "options": [
       "Arannyal festették őket",
-      "A sárga az ellentéte, a kék mellett áll",
+      "A sárga a saját ellentéte, a kék mellett áll",
       "A vásznat hátulról világítják meg"
      ],
      "explanation": "Az egymás mellé tett ellentétes színek felerősítik egymást."
@@ -1333,7 +1332,7 @@
        "text": "Minél messzebb vannak a hegyek, annál kékebbek és párásabbak. Leonardo észrevette, hogy magának a levegőnek is színe van."
       },
       {
-       "title": "Az ujja",
+       "title": "A ruhaujj",
        "text": "Sűrű, aranyos redők, egyenként megfestve. A ruha sötét, és semmilyen ékszert nem visel: semmi sem vonhatja el a figyelmet az arcról."
       }
      ]
