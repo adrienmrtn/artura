@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Italiensk renässans",
+   "period": "1400- och 1500-talet",
+   "summary": "Perspektivet och antikens återkomst",
+   "description": "I Italien, och snart i hela Europa, återupptäcker konstnärerna antiken, studerar människokroppen och uppfinner perspektivet. Målningen blir ett fönster mot världen."
+  },
+  "siecledor": {
+   "name": "Hollands guldålder",
+   "period": "1600-talet",
+   "summary": "Vardagsliv och ljus",
+   "description": "I den välmående holländska republiken målar konstnärerna för borgerliga hem: stilla interiörer, porträtt, stilleben. Ljuset blir det egentliga motivet."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1600–1800-talet",
+   "summary": "Bilder av ”den flytande världen”",
+   "description": "I Japan visar träsnitt, tryckta i serier, skådespelare, landskap och scener ur vardagen. Deras platta färgytor och djärva beskärningar skulle komma att skaka om Europas målare."
+  },
+  "impressionnisme": {
+   "name": "Impressionism",
+   "period": "1870- och 1880-talen",
+   "summary": "Att måla ögonblickets ljus",
+   "description": "En grupp målare lämnar ateljén för att arbeta utomhus, med små snabba penseldrag. De är inte längre ute efter detaljen, utan efter ljusets verkan i ett bestämt ögonblick."
+  },
+  "postimp": {
+   "name": "Postimpressionism",
+   "period": "1886–1905",
+   "summary": "Färgen och känslan först",
+   "description": "Efter impressionismen söker var och en sin egen väg. Färgen härmar inte längre verkligheten: den uttrycker vad målaren känner."
+  },
+  "secession": {
+   "name": "Jugend och Wiensecessionen",
+   "period": "Omkring 1900",
+   "summary": "Guld, ornament och böljande linjer",
+   "description": "I Wien bryter unga konstnärer med akademin. De förenar måleri, dekor och konsthantverk och gör ornamentet till ett eget språk."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Stjärnenatten",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Museum of Modern Art, New York",
+   "teaser": "En virvlande himmel, målad ur minnet i ett rum på ett mentalsjukhus.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Juni 1889. Vincent van Gogh är 36 år. En månad tidigare har han självmant skrivit in sig på mentalsjukhuset i Saint-Rémy-de-Provence, i södra Frankrike, efter ett svårt sammanbrott i Arles."
+    },
+    {
+     "type": "text",
+     "text": "Hans sovrum vetter mot öster. Genom fönstret ser han ett vetefält, de låga bergen i Alpilles och, före gryningen, himlen. Den utsikten målar han om och om igen, vid alla tider på dygnet."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh började inte måla förrän han var 27. På ungefär tio år hann han göra omkring 900 målningar, ibland en om dagen."
+    },
+    {
+     "type": "tour",
+     "text": "Här är den mest berömda av alla de himlarna. Ta in den, och tryck sedan för att kliva in i bilden.",
+     "spots": [
+      {
+       "title": "Virveln",
+       "text": "Mitt i bilden rullar två stora vågor in i varandra. Ingen verklig himmel ser ut så: han målar det han känner, inte det han ser."
+      },
+      {
+       "title": "Månen",
+       "text": "En orange skära i en gul ljusring. Den liknar nästan en sol. Van Gogh lägger färgen i korta drag som kretsar runt den."
+      },
+      {
+       "title": "Morgonstjärnan",
+       "text": "Det vitaste ljuset i målningen. Van Gogh skrev till sin bror att han hade sett morgonstjärnan, mycket stor, före soluppgången. Det är förmodligen Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bilden målades inte på natten, och inte framför utsikten. Van Gogh gjorde den i dagsljus, i sin ateljé på sjukhuset, ur minnet och fantasin. Det var ovanligt för honom: annars målade han det han hade framför ögonen."
+    },
+    {
+     "type": "key",
+     "text": "Stjärnenatten målades på dagen, ur minnet. Den är ingen utsikt. Den är en vision."
+    },
+    {
+     "type": "text",
+     "text": "Han hade länge drömt om att måla en natthimmel. Ett år tidigare skrev han att stjärnorna alltid fick honom att drömma."
+    },
+    {
+     "type": "find",
+     "text": "En detalj i landskapet kommer direkt från hans barndom i Nederländerna. Var är kyrktornet?",
+     "spots": [
+      {
+       "title": "Kyrktornet",
+       "text": "En smal, spetsig tornspira, som i de holländska byar där Van Gogh växte upp. Kyrktornen i Provence ser inte ut så."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Byn är också påhittad, eller åtminstone flyttad: den syntes inte från hans fönster. Van Gogh blandar en verklig himmel, verkliga berg och en by ur minnet."
+    },
+    {
+     "type": "fact",
+     "text": "Fönstret på sjukhuset hade järngaller. Han lät dem aldrig komma med i någon av sina målningar av utsikten."
+    },
+    {
+     "type": "lines",
+     "text": "Målningen ser orolig ut. I själva verket är den noga uppbyggd.",
+     "lines": [
+      {
+       "label": "Cypressens lodlinje",
+       "text": "Den skär genom hela bilden, från marken till överkanten, och ger oss skalan: himlen är väldig."
+      },
+      {
+       "label": "Ekot: kyrktornet",
+       "text": "En andra, pytteliten lodlinje som svarar cypressen. Den ena är natur, den andra byggd av människor."
+      },
+      {
+       "label": "Vågen på himlen",
+       "text": "Blicken följer det här S:et från vänster till höger, ända fram till månen."
+      },
+      {
+       "label": "Bergens sluttning",
+       "text": "En diagonal som löper ner mot byn och skyddar den, som en arm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Titta nu på penselföringen. Här finns inga mjuka övergångar. Korta, tjocka drag ligger sida vid sida, och vart och ett pekar åt sitt håll. Det är penseldraget självt som skapar rörelsen."
+    },
+    {
+     "type": "text",
+     "text": "Målare kallar den här tjocka färgen för ”impasto”. Ibland klämde Van Gogh ut färgen nästan direkt från tuben. På nära håll är duken skrovlig som en reliefkarta."
+    },
+    {
+     "type": "tour",
+     "title": "På nära håll",
+     "text": "Nu går vi riktigt nära själva färgen.",
+     "spots": [
+      {
+       "title": "Färgen",
+       "text": "Se hur tjock den är: färgen ligger i korta, tunga drag, nästan i relief. Det kallas impasto."
+      },
+      {
+       "title": "Cypressen",
+       "text": "Mörk och vriden som en låga förbinder den jorden med himlen. I södra Frankrike är den kyrkogårdarnas träd. Van Gogh tyckte att den var lika vacker som en egyptisk obelisk."
+      },
+      {
+       "title": "Bergen",
+       "text": "Alpilles. De böljar som vågor, burna av samma rörelse som himlen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Cypressen är viktig. Den är bildens mörkaste form och den enda som når både marken och himlens överkant. Den sommaren var Van Gogh fascinerad av de här träden."
+    },
+    {
+     "type": "palette",
+     "text": "Blått, gult och nästan ingenting annat. Tryck på en färg.",
+     "swatches": [
+      {
+       "name": "Djupblått",
+       "text": "Djupet i himlen och bergen. Van Gogh använde ultramarin och koboltblått."
+      },
+      {
+       "name": "Ljusblått",
+       "text": "Virvlarna. Lagt i tjocka drag får det himlen att snurra."
+      },
+      {
+       "name": "Gult",
+       "text": "Månen, stjärnorna, fönstren. En pytteliten del av ytan, men det lyser upp allt."
+      },
+      {
+       "name": "Grönsvart",
+       "text": "Cypressen och byns skuggor. Målningens mörkaste parti."
+      },
+      {
+       "name": "Grönvitt",
+       "text": "Ljusringarna kring stjärnorna: det är de som får dem att skimra."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Blått och gult ligger nästan mitt emot varandra i färgcirkeln. Sida vid sida får de varandra att se starkare ut. Det visste Van Gogh, och han använde det för att få sina nätter att vibrera."
+    },
+    {
+     "type": "key",
+     "text": "Motsatta färger förstärker varandra när de står sida vid sida. Därför brinner de gula stjärnorna mot det blå."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh berättade för sin bror att han hade sett morgonstjärnan, mycket stor. Tryck på det vitaste ljuset i målningen.",
+     "spots": [
+      {
+       "title": "Morgonstjärnan",
+       "text": "Det vitaste ljuset i målningen. Van Gogh skrev till sin bror att han hade sett morgonstjärnan, mycket stor, före soluppgången. Det är förmodligen Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vad tyckte han själv om bilden? Inte mycket. I breven kallar han den en enkel nattstudie, och han tvivlar på de här dukarna som han målat ur fantasin."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh sålde nästan ingenting medan han levde. Hans bror Theo, som var konsthandlare, försörjde honom med pengar och färg."
+    },
+    {
+     "type": "text",
+     "text": "Han dog tretton månader senare, i juli 1890, 37 år gammal. Stjärnenatten kom till Museum of Modern Art i New York 1941."
+    },
+    {
+     "type": "key",
+     "text": "Hos Van Gogh är penseldraget självt motivet: varje drag har en riktning, och det är det som sätter himlen i rörelse."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Virveln",
+       "text": "Mitt i bilden rullar två stora vågor in i varandra. Ingen verklig himmel ser ut så: han målar det han känner, inte det han ser."
+      },
+      {
+       "title": "Månen",
+       "text": "En orange skära i en gul ljusring. Den liknar nästan en sol. Van Gogh lägger färgen i korta drag som kretsar runt den."
+      },
+      {
+       "title": "Morgonstjärnan",
+       "text": "Det vitaste ljuset i målningen. Van Gogh skrev till sin bror att han hade sett morgonstjärnan, mycket stor, före soluppgången. Det är förmodligen Venus."
+      },
+      {
+       "title": "Cypressen",
+       "text": "Mörk och vriden som en låga förbinder den jorden med himlen. I södra Frankrike är den kyrkogårdarnas träd. Van Gogh tyckte att den var lika vacker som en egyptisk obelisk."
+      },
+      {
+       "title": "Kyrktornet",
+       "text": "En smal, spetsig tornspira, som i de holländska byar där Van Gogh växte upp. Kyrktornen i Provence ser inte ut så."
+      },
+      {
+       "title": "Byn",
+       "text": "Några gula, upplysta fönster. Byn syntes inte från hans rum: han lade till den ur minnet."
+      },
+      {
+       "title": "Bergen",
+       "text": "Alpilles. De böljar som vågor, burna av samma rörelse som himlen."
+      },
+      {
+       "title": "Färgen",
+       "text": "Se hur tjock den är: färgen ligger i korta, tunga drag, nästan i relief. Det kallas impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Var befann sig Van Gogh när han målade Stjärnenatten?",
+     "options": [
+      "I Paris",
+      "På mentalsjukhuset i Saint-Rémy-de-Provence",
+      "I Amsterdam"
+     ],
+     "explanation": "Han hade skrivit in sig där en månad tidigare."
+    },
+    {
+     "question": "Hur målades bilden?",
+     "options": [
+      "På natten, framför utsikten",
+      "På dagen, ur minnet och fantasin",
+      "Efter ett fotografi"
+     ],
+     "explanation": "På dagen, i hans ateljé på sjukhuset."
+    },
+    {
+     "question": "Vilken detalj påminner om Nederländerna?",
+     "options": [
+      "Cypressen",
+      "Det spetsiga kyrktornet",
+      "Bergen"
+     ],
+     "explanation": "En tornspira som i byarna där han växte upp."
+    },
+    {
+     "question": "Vad är ”impasto”?",
+     "options": [
+      "Mycket tjock färg, nästan i relief",
+      "En tunn, genomskinlig lasyr",
+      "En kolskiss"
+     ],
+     "explanation": "Korta, tunga drag som reser sig från duken."
+    },
+    {
+     "question": "Varför lyser de gula stjärnorna så starkt?",
+     "options": [
+      "De är målade med guld",
+      "Det gula står bredvid sin motsats, det blå",
+      "Duken är belyst bakifrån"
+     ],
+     "explanation": "Motsatta färger sida vid sida förstärker varandra."
+    },
+    {
+     "question": "Vad lät Van Gogh bli att måla i sina bilder av utsikten?",
+     "options": [
+      "Gallren för fönstret",
+      "Månen",
+      "Bergen"
+     ],
+     "explanation": "Fönstret på sjukhuset hade järngaller."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh målade Stjärnenatten utomhus, mitt i natten.",
+     "explanation": "Han målade den på dagen, ur minnet, på sjukhuset i Saint-Rémy."
+    },
+    {
+     "text": "Stjärnenatten finns i New York.",
+     "explanation": "Den har funnits på MoMA sedan 1941."
+    },
+    {
+     "text": "Van Gogh sålde många målningar och dog rik.",
+     "explanation": "Han sålde nästan ingenting; hans bror Theo försörjde honom."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Flicka med pärlörhänge",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "ca 1665",
+   "museum": "Mauritshuis, Haag",
+   "teaser": "En blick över axeln, och ingen vet vem hon är.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Du känner igen ansiktet. Men det är inget porträtt: ingen vet vem hon är, och Vermeer tänkte sig förmodligen aldrig att måla någon särskild."
+    },
+    {
+     "type": "text",
+     "text": "I 1600-talets Nederländerna hade den här sortens bild ett namn: ”tronie”, en ansiktsstudie. Målaren använder den för att utforska ett ansiktsuttryck, en exotisk dräkt, en ljuseffekt. Här alla tre på en gång."
+    },
+    {
+     "type": "key",
+     "text": "En tronie är ett påhittat ansikte, en förevändning för att måla ett uttryck och ett ljus. Det är inget porträtt av en verklig person."
+    },
+    {
+     "type": "tour",
+     "text": "Se först på hela målningen: ett ansikte som träder fram ur mörkret. Tryck för att komma närmare.",
+     "spots": [
+      {
+       "title": "Blicken",
+       "text": "Hon vänder sig mot dig, som om du nyss ropat hennes namn. En enda vit prick i varje öga räcker för att det ska se fuktigt och levande ut."
+      },
+      {
+       "title": "Munnen",
+       "text": "Lätt öppen, som mitt i en mening. Se den lilla ljusa pricken i mungipan: en enda klick färg, och munnen glänser."
+      },
+      {
+       "title": "Pärlan",
+       "text": "Två drag, inte fler: en vit högdager upptill, en grå spegling av kragen nedtill. Ingen kontur, ingen krok. Det är ditt öga som bygger pärlan."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Hela bilden vilar på en enda rörelse: hon vänder sig om. Kroppen är i profil, ansiktet kommer mot oss. Det känns som om vi har överraskat henne, eller som om hon just ska gå. Det är därför hon är så levande."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer levde hela sitt liv i Delft, en liten holländsk stad. Han målade långsamt, hade elva barn att försörja och dog skuldsatt, 43 år gammal."
+    },
+    {
+     "type": "text",
+     "text": "Lägg märke till turbanen. Ingen holländsk flicka klädde sig så. Det är en kostym, en fläkt av den fjärran Orienten som fascinerade tidens målare."
+    },
+    {
+     "type": "find",
+     "text": "En enda ljuskälla faller på hennes ansikte. Var landar ljuset? Tryck på den ljusaste delen av ansiktet.",
+     "spots": [
+      {
+       "title": "Kinden",
+       "text": "Ljuset kommer från vänster, lite ovanifrån. Det träffar pannan, kinden och näsan och låter sedan andra halvan av ansiktet glida in i skuggan."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer tecknar nästan inga konturer. Titta på näsryggen: där finns ingen linje, bara en ljus kind som möter en skugga. Ansiktet är gjort av ljus, inte av linjer."
+    },
+    {
+     "type": "key",
+     "text": "Ljus från vänster, mjuka skuggor, inga hårda konturer: det är Vermeers kännetecken."
+    },
+    {
+     "type": "lines",
+     "text": "Hur kan en så enkel bild hålla ihop? Tre linjer ger svaret.",
+     "lines": [
+      {
+       "label": "Ljuset",
+       "text": "Det kommer snett uppifrån vänster, som från ett fönster vi inte ser."
+      },
+      {
+       "label": "Triangeln",
+       "text": "Från turbanens topp ner till båda axlarna: en stabil, förankrad form som håller emot huvudets vridning."
+      },
+      {
+       "label": "Fallet",
+       "text": "Det gula tyget faller ner till höger och väger upp ansiktet, som är vänt åt vänster."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Och så det blå. Vermeer använde äkta ultramarin, som framställdes genom att man malde lapis lazuli. De flesta målare sparade den till Jungfru Marias mantel, så dyr var den. Han lade den överallt, till och med i skuggorna."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli kom från gruvor i nuvarande Afghanistan. Namnet ”ultramarin” betyder ”från andra sidan havet”."
+    },
+    {
+     "type": "palette",
+     "text": "Fem färger står för nästan hela målningen. Tryck på en för att se var den gömmer sig.",
+     "swatches": [
+      {
+       "name": "Mörk bakgrund",
+       "text": "Mer än halva ytan. En gång ett djupgrönt draperi, i dag nästan svart."
+      },
+      {
+       "name": "Ultramarin",
+       "text": "Lapis lazulins blå. Den tar mycket liten plats, men det är den vi ser."
+      },
+      {
+       "name": "Brun ockra",
+       "text": "Skuggorna i jackan och i det gula tyget: en varm och billig jordfärg."
+      },
+      {
+       "name": "Hudens rosa",
+       "text": "Målningens ljusaste parti. Det är dit blicken söker sig först."
+      },
+      {
+       "name": "Gult",
+       "text": "På jackan och på tyget som faller från turbanen. Det svarar det blå."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1994 restaurerades målningen. Under en gulnad fernissa hittade konservatorerna friskare färger, och den lilla ljusa pricken i mungipan som ingen längre kunde se."
+    },
+    {
+     "type": "text",
+     "text": "Och bakgrunden? I dag ser den platt och svart ut. Vetenskapliga analyser har visat att Vermeer målade ett mörkgrönt draperi där. De gröna pigmenten har brutits ner med tiden."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer signerade målningen. Men var? Titta noga, den syns nästan inte.",
+     "spots": [
+      {
+       "title": "Signaturen",
+       "text": "”IVMeer”, uppe till vänster. Den är målad i en ljus ton på den mörka bakgrunden och har nästan bleknat bort med tiden."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Är pärlan ens en pärla? Den är jättestor. En del experter tror att det var fernissat glas eller polerat tenn. Det spelar knappast någon roll: i färg är den en droppe ljus, och mer än så ville Vermeer inte ha."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer målar inte föremål. Han målar ljuset som faller på dem. Pärlan är två klickar vitt."
+    },
+    {
+     "type": "text",
+     "text": "Vi känner bara till omkring 37 målningar av Vermeer. Efter sin död var han nästan bortglömd i två hundra år."
+    },
+    {
+     "type": "fact",
+     "text": "1881 köpte en samlare målningen på auktion för två gulden, en spottstyver. Han testamenterade den till Mauritshuis 1902."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Blicken",
+       "text": "Hon vänder sig mot dig, som om du nyss ropat hennes namn. En enda vit prick i varje öga räcker för att det ska se fuktigt och levande ut."
+      },
+      {
+       "title": "Munnen",
+       "text": "Lätt öppen, som mitt i en mening. Se den lilla ljusa pricken i mungipan: en enda klick färg, och munnen glänser."
+      },
+      {
+       "title": "Pärlan",
+       "text": "Två drag, inte fler: en vit högdager upptill, en grå spegling av kragen nedtill. Ingen kontur, ingen krok. Det är ditt öga som bygger pärlan."
+      },
+      {
+       "title": "Den blå turbanen",
+       "text": "Äkta ultramarin, gjord av lapis lazuli, en sten som fraktades hela vägen från Afghanistan. På den tiden kostade pigmentet mer än guld."
+      },
+      {
+       "title": "Det gula tyget",
+       "text": "Det gula tyget faller nerför ryggen som en låga. Blått och gult: Vermeer älskade det paret och använde det i målning efter målning."
+      },
+      {
+       "title": "Den vita kragen",
+       "text": "En vit rand, lagd med en enda rörelse. Det är kragen som speglas i pärlans nederkant."
+      },
+      {
+       "title": "Signaturen",
+       "text": "”IVMeer”, uppe till vänster. Den är målad i en ljus ton på den mörka bakgrunden och har nästan bleknat bort med tiden."
+      },
+      {
+       "title": "Bakgrunden",
+       "text": "Den var inte alltid svart. Analyser visar att Vermeer målade ett mörkgrönt draperi här. Det gröna har försvunnit under seklernas lopp."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Vad är en ”tronie”?",
+     "options": [
+      "Ett beställt porträtt",
+      "En studie av ett påhittat ansikte",
+      "Ett självporträtt"
+     ],
+     "explanation": "En förevändning för att måla ett uttryck och ett ljus, inte en verklig person."
+    },
+    {
+     "question": "Var kommer turbanens blå färg ifrån?",
+     "options": [
+      "En växt, indigo",
+      "En sten, lapis lazuli",
+      "En snäcka"
+     ],
+     "explanation": "Mald lapis lazuli ger äkta ultramarin, som då var dyrare än guld."
+    },
+    {
+     "question": "Hur är pärlan målad?",
+     "options": [
+      "Med en noggrann kontur och en krok",
+      "Med två ljusa klickar och ingen kontur",
+      "Med bladsilver"
+     ],
+     "explanation": "En vit högdager, en grå spegling: ditt öga gör resten."
+    },
+    {
+     "question": "Varifrån kommer ljuset?",
+     "options": [
+      "Från vänster",
+      "Från höger",
+      "Underifrån"
+     ],
+     "explanation": "Snett uppifrån vänster, som från ett fönster vi inte ser."
+    },
+    {
+     "question": "Vad var bakgrunden från början?",
+     "options": [
+      "Ett mörkgrönt draperi",
+      "Ett fönster",
+      "En guldvägg"
+     ],
+     "explanation": "De gröna pigmenten bröts ner under seklernas lopp."
+    },
+    {
+     "question": "Var tillbringade Vermeer hela sitt liv?",
+     "options": [
+      "Amsterdam",
+      "Delft",
+      "Haag"
+     ],
+     "explanation": "Han levde och arbetade i den lilla staden Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Vi vet vad flickan som satt modell hette.",
+     "explanation": "Vem hon var är okänt: målningen är en tronie."
+    },
+    {
+     "text": "Turbanens blå kommer från en sten, lapis lazuli.",
+     "explanation": "Mald ger den äkta ultramarin."
+    },
+    {
+     "text": "Pärlan är målad med en noggrann, detaljerad kontur.",
+     "explanation": "Den består bara av två klickar ljus färg, helt utan kontur."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Den stora vågen utanför Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "ca 1831",
+   "museum": "Träsnitt · många avtryck",
+   "teaser": "En jättelik våg, och längst bak, pyttelitet, berget Fuji.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Det här är ingen målning. Det är ett träsnitt: en bild som skurits ut i träblock, färgats in och sedan tryckts på papper. Den stora vågen finns alltså inte i ett enda exemplar. Den finns i tusentals."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai gav ut den omkring 1831. Han var runt 70 och hade tecknat sedan barndomen. Bilden inleder en serie som skulle bli berömd: Trettiosex vyer av berget Fuji."
+    },
+    {
+     "type": "key",
+     "text": "Den stora vågen är ett träsnitt, tryckt i tusentals exemplar. Många museer runt om i världen äger ett."
+    },
+    {
+     "type": "fact",
+     "text": "Ett sådant tryck var billigt. På Hokusais tid kostade det ungefär lika mycket som en skål nudlar."
+    },
+    {
+     "type": "find",
+     "text": "Serien heter Trettiosex vyer av berget Fuji. Var är då Fuji?",
+     "spots": [
+      {
+       "title": "Berget Fuji",
+       "text": "Här är tryckets egentliga motiv, pyttelitet. Japans heliga berg, snöklätt och helt stilla mitt i stormen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Det är det geniala greppet: Japans högsta berg är mindre än vågen. Hokusai leker med avståndet. Det som är nära krossar det som är långt borta, som i ett vidvinkelfoto."
+    },
+    {
+     "type": "text",
+     "text": "Fuji var heligt. Man trodde att berget gömde hemligheten bakom evigt liv. Hokusai var besatt av det och tecknade det från alla håll, i alla slags väder."
+    },
+    {
+     "type": "tour",
+     "text": "Nu färdas vi genom bilden på samma sätt som ögat gör.",
+     "spots": [
+      {
+       "title": "Skummet",
+       "text": "Titta på vågens kam: skummet slutar i krokiga fingrar, som klor som just ska gripa om båtarna."
+      },
+      {
+       "title": "Roddarna",
+       "text": "Fiskare böjda över årorna, med huvudet nere. De här snabba båtarna fraktade färsk fisk till Edo, staden vi i dag kallar Tokyo."
+      },
+      {
+       "title": "Den lilla vågen",
+       "text": "I förgrunden en mindre våg. Titta på formen: spetsig, vit i toppen. Den är ett andra Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "I Japan läser man från höger till vänster. Blicken kommer alltså in från höger, med båtarna, och rusar rakt in i vågen. För en japansk betraktare kommer vågen rakt emot en."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai bytte namn mer än trettio gånger under sitt liv. Ett av hans sista namn betydde ”gubben som är tokig i att teckna”."
+    },
+    {
+     "type": "lines",
+     "text": "En enkel bild, uträknad på millimetern.",
+     "lines": [
+      {
+       "label": "Bågen",
+       "text": "Vågen tecknar en stor båge som sluter sig kring sig själv. Hela bildens vänstra del fångas inuti den."
+      },
+      {
+       "label": "Fujis triangel",
+       "text": "Liten, stabil, spetsig. Den sitter precis i vågens svacka."
+      },
+      {
+       "label": "Dubbelgångaren",
+       "text": "Den lilla vågen i förgrunden upprepar bergets form. Vattnet härmar stenen."
+      },
+      {
+       "label": "Läsriktningen",
+       "text": "Från höger till vänster: vi glider längs dyningen fram till Fuji och lyfter sedan blicken mot vågen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Hur gick det till? Hokusai tecknade bilden på tunt papper. En träsnidare klistrade teckningen på ett block av körsbärsträ och skar bort allt som inte var linjer. Sedan färgade en tryckare in blocket och pressade papperet mot det."
+    },
+    {
+     "type": "text",
+     "text": "Varje färg krävde ett eget snidat block, och blocken trycktes ett efter ett på samma ark. Därför har träsnitten så få färger."
+    },
+    {
+     "type": "key",
+     "text": "Ett träblock per färg: ju färre färger, desto enklare tryck. Hokusai gör begränsningen till en stil."
+    },
+    {
+     "type": "palette",
+     "text": "Väldigt få färger, eftersom var och en kräver ett eget snidat block. Tryck på en.",
+     "swatches": [
+      {
+       "name": "Papperet",
+       "text": "Den vanligaste färgen är inte tryckt alls: det är det nakna papperet, som lämnats orört för skummet och snön."
+      },
+      {
+       "name": "Preussiskt blått",
+       "text": "Det blå från Europa. Det tecknar vågen, dess ränder och dess svackor."
+      },
+      {
+       "name": "Ljusblått",
+       "text": "Samma blå, utspätt. Det ger vattnet volym."
+      },
+      {
+       "name": "Tonad himmel",
+       "text": "En beige knappt mörkare än papperet, som får det vita skummet att träda fram."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Apropå det blå. Det är preussiskt blått, ett kemiskt pigment som uppfunnits i Europa och nyss börjat föras in i Japan. Det är djupt, bleknar inte och väckte sensation. Serien har det att tacka för mycket av sin framgång."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai signerade sin bild. Var? Ledtråd: inte i nedre högra hörnet.",
+     "spots": [
+      {
+       "title": "Kartuschen",
+       "text": "Inuti ramen: seriens och bildens titel, ”Under vågen utanför Kanagawa”. Till vänster om den: Hokusais signatur."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "På 1850-talet öppnade Japan för handel, och träsnitten nådde Europa. Franska målare blev häpna: platta färgytor, skarpa konturer, djärva beskärningar. Monet samlade på dem. Van Gogh kopierade dem."
+    },
+    {
+     "type": "key",
+     "text": "Den här vurmen kallas japonism. Utan de japanska träsnitten hade impressionismen inte sett likadan ut."
+    },
+    {
+     "type": "text",
+     "text": "En sista sak: det här är ingen tsunami. Det är en våg från öppna havet, enorm men vanlig, en sådan som fiskarna fruktade. Hokusai visar ingen katastrof. Han visar små människor inför naturen."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Berget Fuji",
+       "text": "Här är tryckets egentliga motiv, pyttelitet. Japans heliga berg, snöklätt och helt stilla mitt i stormen."
+      },
+      {
+       "title": "Skummet",
+       "text": "Titta på vågens kam: skummet slutar i krokiga fingrar, som klor som just ska gripa om båtarna."
+      },
+      {
+       "title": "Roddarna",
+       "text": "Fiskare böjda över årorna, med huvudet nere. De här snabba båtarna fraktade färsk fisk till Edo, staden vi i dag kallar Tokyo."
+      },
+      {
+       "title": "Den lilla vågen",
+       "text": "I förgrunden en mindre våg. Titta på formen: spetsig, vit i toppen. Den är ett andra Fuji."
+      },
+      {
+       "title": "Kartuschen",
+       "text": "Inuti ramen: seriens och bildens titel, ”Under vågen utanför Kanagawa”. Till vänster om den: Hokusais signatur."
+      },
+      {
+       "title": "Den nedre båten",
+       "text": "Den dyker ner i vågdalen. Det finns tre båtar sammanlagt, och omkring trettio män."
+      },
+      {
+       "title": "Himlen",
+       "text": "Nästan tom. En enkel toning, gjord genom att man torkade av färgen på träblocket före tryckningen."
+      },
+      {
+       "title": "Stänket",
+       "text": "Vita prickar faller över Fuji. De ser ut som snö på berget."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Vad är Den stora vågen?",
+     "options": [
+      "En oljemålning",
+      "Ett träsnitt",
+      "En akvarell"
+     ],
+     "explanation": "Ett tryck i tusentals exemplar."
+    },
+    {
+     "question": "Vilken serie hör den till?",
+     "options": [
+      "Hundra berömda vyer av Edo",
+      "Trettiosex vyer av berget Fuji",
+      "De fyra årstiderna"
+     ],
+     "explanation": "Den inleder Hokusais serie om berget Fuji."
+    },
+    {
+     "question": "Var kommer vågens blå färg ifrån?",
+     "options": [
+      "Lapis lazuli",
+      "Preussiskt blått, infört från Europa",
+      "Krossade snäckor"
+     ],
+     "explanation": "Ett kemiskt pigment som var nytt i Japan, djupt och beständigt."
+    },
+    {
+     "question": "Vilken form upprepar den lilla vågen i förgrunden?",
+     "options": [
+      "Berget Fuji",
+      "En båt",
+      "Ett moln"
+     ],
+     "explanation": "Vattnet härmar berget."
+    },
+    {
+     "question": "Varför har träsnitten så få färger?",
+     "options": [
+      "Färger var förbjudna",
+      "Varje färg kräver ett eget snidat block",
+      "Papperet kunde inte ta upp färgen"
+     ],
+     "explanation": "Ett block per färg, tryckta efter varandra."
+    },
+    {
+     "question": "Vad kallas den europeiska vurmen för japanska träsnitt?",
+     "options": [
+      "Japonism",
+      "Orientalism",
+      "Kubism"
+     ],
+     "explanation": "Monet samlade på träsnitten, Van Gogh kopierade dem."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Det finns bara ett exemplar av Den stora vågen.",
+     "explanation": "Det är ett träsnitt: tusentals exemplar trycktes."
+    },
+    {
+     "text": "Hokusai var runt 70 när han gjorde den.",
+     "explanation": "Han föddes 1760, och serien kom ut omkring 1831."
+    },
+    {
+     "text": "Den stora vågen föreställer en tsunami.",
+     "explanation": "Det är en stor våg från öppna havet, ingen tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Näckrosor",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "Ingen horisont kvar: bara vatten, blommor och himlen som speglas i dem.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "I Giverny lät Monet gräva en damm i sin trädgård och planterade näckrosor i den. Dammen blev hans motiv i nästan trettio år."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · blommorna som vilar på vattnet."
+    },
+    {
+     "type": "text",
+     "text": "Titta noga: här finns ingen strand och ingen horisont. Du kan inte längre se var vattnet slutar och himlens spegling börjar."
+    },
+    {
+     "type": "key",
+     "text": "Utan horisont blir målningen en yta: vi ser på vattnet som vi skulle se på himlen."
+    },
+    {
+     "type": "fact",
+     "text": "Monet anställde trädgårdsmästare som skötte dammen. En av dem rensade vattenytan varje morgon innan Monet började måla."
+    },
+    {
+     "type": "text",
+     "text": "Monet målade omkring 250 dukar med näckrosor. Samma blommor, men aldrig samma ljus."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Var målade Monet sina näckrosor?",
+     "options": [
+      "I Giverny",
+      "I Paris",
+      "I Venedig"
+     ],
+     "explanation": "I trädgården vid sitt eget hus."
+    },
+    {
+     "question": "Vad saknas i den här målningen?",
+     "options": [
+      "Vattnet",
+      "Horisonten",
+      "Blommorna"
+     ],
+     "explanation": "Ingen strand, ingen himmel: bara vattenytan."
+    },
+    {
+     "question": "Hur många näckrosmålningar gjorde han?",
+     "options": [
+      "Ett tiotal",
+      "Omkring 250",
+      "Över 2 000"
+     ],
+     "explanation": "En väldig serie, under nästan trettio år."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet målade sina näckrosor bara en gång.",
+     "explanation": "Han målade omkring 250 versioner."
+    },
+    {
+     "text": "Näckrosdammen låg i Monets egen trädgård.",
+     "explanation": "I Giverny, där han lät gräva den."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impression, soluppgång",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Paris",
+   "teaser": "Målningen som på skämt gav en hel konstriktning dess namn.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Hamnen i Le Havre en dimmig morgon. Monet lägger några snabba penseldrag: båtar, master och en orange sol."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · solen och dess spegling."
+    },
+    {
+     "type": "text",
+     "text": "1874 ställdes duken ut i Paris. En kritiker, Louis Leroy, drev med titeln och kallade målarna för ”impressionister”."
+    },
+    {
+     "type": "key",
+     "text": "Ordet ”impressionism” kommer från den här målningen. Det började som en förolämpning och blev ett namn."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre är staden där Monet växte upp. Som tonåring var han känd där för sina karikatyrer."
+    },
+    {
+     "type": "text",
+     "text": "Målningen har dessutom blivit stulen, 1985, från Musée Marmottan. Den hittades fem år senare."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Vilken hamn målade Monet?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Venedig"
+     ],
+     "explanation": "Staden där han växte upp."
+    },
+    {
+     "question": "Vad gav den här målningen namn åt?",
+     "options": [
+      "Impressionismen",
+      "Ett museum",
+      "Ett pris"
+     ],
+     "explanation": "En kritiker hånade titeln, och ordet fastnade."
+    },
+    {
+     "question": "Vilket år ställdes den ut i Paris?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Samma år hånades den av kritikern Louis Leroy."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Ordet ”impressionist” började som en förolämpning.",
+     "explanation": "Det kommer från en artikel av kritikern Louis Leroy."
+    },
+    {
+     "text": "Målningen föreställer hamnen i Marseille.",
+     "explanation": "Det är hamnen i Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Kyssen",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Wien",
+   "teaser": "Två älskande insvepta i guld, vid kanten av en blommande äng.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt är på höjden av sin ”gyllene period”. Han lägger äkta bladguld på duken, som på en religiös ikon."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · de två ansiktena."
+    },
+    {
+     "type": "text",
+     "text": "Titta på kläderna. Hans dräkt är täckt av svarta och vita rektanglar. Hennes är full av cirklar och blommor."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · rektanglar och cirklar."
+    },
+    {
+     "type": "key",
+     "text": "Rektanglar för honom, cirklar för henne: mönstren berättar parets historia."
+    },
+    {
+     "type": "fact",
+     "text": "Klimts far var guldgravör. Målaren växte upp omgiven av den metall som han senare skulle lägga på sina dukar."
+    },
+    {
+     "type": "text",
+     "text": "Österrikiska staten köpte målningen 1908, innan den ens var helt färdig."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Vilket material använde Klimt?",
+     "options": [
+      "Pärlemor",
+      "Bladguld",
+      "Brons"
+     ],
+     "explanation": "Det är kännetecknet för hans gyllene period."
+    },
+    {
+     "question": "Vilka mönster täcker mannens dräkt?",
+     "options": [
+      "Cirklar",
+      "Blommor",
+      "Rektanglar"
+     ],
+     "explanation": "Cirklarna och blommorna hör till kvinnan."
+    },
+    {
+     "question": "Vem köpte målningen 1908?",
+     "options": [
+      "Österrikiska staten",
+      "En fransk samlare",
+      "Klimts far"
+     ],
+     "explanation": "Innan den ens var helt färdig."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt använde äkta bladguld.",
+     "explanation": "Som i flera dukar från hans gyllene period."
+    },
+    {
+     "text": "Kyssen finns i Paris.",
+     "explanation": "Den finns i Wien, på Belvedere."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Solrosor",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, London",
+   "teaser": "Gult på gult: en bukett målad för att välkomna en vän.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Augusti 1888, i Arles. Van Gogh väntar på sin vän Paul Gauguin och vill smycka hans rum med solrosor."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · blommor i alla stadier."
+    },
+    {
+     "type": "text",
+     "text": "Han vågar nöja sig med nästan en enda färg: gula blommor, gul vas, gul bakgrund. Allt hänger på nyanserna och på hur tjockt färgen ligger."
+    },
+    {
+     "type": "key",
+     "text": "En nästan monokrom målning: gult i alla dess former."
+    },
+    {
+     "type": "fact",
+     "text": "Solrosor vissnar fort. Van Gogh fick måla snabbt, från soluppgången, innan blommorna började hänga."
+    },
+    {
+     "type": "text",
+     "text": "Det finns flera versioner av de här solrosorna. Vissa blommor är fortfarande knoppar, andra redan vissna: buketten berättar också om tiden som går."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Vems rum skulle solrosorna smycka?",
+     "options": [
+      "Paul Gauguins",
+      "Claude Monets",
+      "Hans bror Theos"
+     ],
+     "explanation": "Van Gogh väntade på honom i Arles."
+    },
+    {
+     "question": "I vilken stad målade han dem?",
+     "options": [
+      "Paris",
+      "Arles",
+      "Amsterdam"
+     ],
+     "explanation": "I södra Frankrike, i augusti 1888."
+    },
+    {
+     "question": "Vad är ovanligt med färgerna?",
+     "options": [
+      "Nästan allt är gult",
+      "Det finns inget gult alls",
+      "Den är svartvit"
+     ],
+     "explanation": "Gula blommor, gul vas, gul bakgrund."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Det finns flera versioner av Solrosor.",
+     "explanation": "Van Gogh målade en hel serie."
+    },
+    {
+     "text": "Van Gogh sålde sina Solrosor för en förmögenhet medan han levde.",
+     "explanation": "Han sålde nästan ingenting medan han levde."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "ca 1503–1519",
+   "museum": "Louvren, Paris",
+   "teaser": "Världens mest berömda leende hänger på konturer som du inte kan se.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Det är världens mest berömda målning, och den är liten: 77 gånger 53 centimeter, målad på en panel av poppelträ. Många besökare på Louvren blir förvånade över hur liten den är."
+    },
+    {
+     "type": "text",
+     "text": "Omkring 1503 i Florens bad en sidenhandlare vid namn Francesco del Giocondo Leonardo da Vinci att måla hans hustru, Lisa Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa är ett porträtt av Lisa Gherardini, hustru till en florentinsk köpman. ”Mona” betyder helt enkelt ”fru”."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo var inte bara målare. Han var också ingenjör, anatom och uppfinnare, och han lämnade efter sig tusentals anteckningssidor skrivna med spegelskrift."
+    },
+    {
+     "type": "tour",
+     "text": "Se på henne i sin helhet. Kom sedan närmare det som gjorde henne till en legend.",
+     "spots": [
+      {
+       "title": "Leendet",
+       "text": "Leta efter linjen som tecknar läpparna: det finns ingen. Mungiporna löses upp i skugga. Därför tycks leendet skifta."
+      },
+      {
+       "title": "Ögonen",
+       "text": "Samma knep: ögonvrårna smälter in i skuggan. Lägg också märke till att hon varken har ögonbryn eller ögonfransar."
+      },
+      {
+       "title": "Händerna",
+       "text": "De vilar avslappnat på varandra. Leonardo dissekerade kroppar för att förstå skelett och muskler: de här händerna har tyngd."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Den här oskärpan har ett namn: sfumato, av italienskans ”fumo”, rök. Leonardo lägger dussintals mycket tunna, nästan genomskinliga färglager ovanpå varandra. Konturerna försvinner och formerna flyter in i varandra."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato betyder mjuka, rökiga konturer. Det är det som gör leendet omöjligt att få grepp om."
+    },
+    {
+     "type": "text",
+     "text": "Pröva själv. Titta på hennes ögon, så verkar munnen le. Titta rakt på munnen, så bleknar leendet. Det är skuggorna i mungiporna som gör jobbet."
+    },
+    {
+     "type": "find",
+     "text": "Något saknas i det här ansiktet. Tryck där det borde sitta.",
+     "spots": [
+      {
+       "title": "Ögonbrynen",
+       "text": "Hon har varken ögonbryn eller ögonfransar. Tidens mode, eller färg som nötts bort vid gamla rengöringar? Experterna är fortfarande oense."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Titta nu på hållningen. Före Leonardo visades porträtt oftast i profil, eller avskurna vid bröstet. Han visar gestalten ner till midjan, vänd i trekvartsprofil mot oss, med händerna."
+    },
+    {
+     "type": "fact",
+     "text": "Den unge målaren Rafael såg porträttet i Leonardos ateljé och tog genast efter poseringen i sina egna verk."
+    },
+    {
+     "type": "lines",
+     "text": "En lugn pose, ett märkligt landskap. Se hur allt är uppbyggt.",
+     "lines": [
+      {
+       "label": "Pyramiden",
+       "text": "Huvudet i toppen, armarna och händerna vid basen. En bred, stabil form: hon rör sig inte, hon sitter stadigt."
+      },
+      {
+       "label": "Horisonten till vänster",
+       "text": "Till vänster ligger landskapets vattenlinje ungefär här."
+      },
+      {
+       "label": "Horisonten till höger",
+       "text": "Till höger ligger den högre. Landskapets två halvor passar inte ihop, och en del av bildens egendomlighet kommer därifrån."
+      },
+      {
+       "label": "Stigen",
+       "text": "En slingrande linje som leder blicken ut i fjärran, som floderna på högra sidan."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Landskapet är ingen verklig plats. Det är en drömvärld av klippor, vatten och dimma, utan hus och utan människor. Bara en enda sak i det är byggd av människohand."
+    },
+    {
+     "type": "find",
+     "text": "I det här öde landskapet finns ett enda byggnadsverk. Var är bron?",
+     "spots": [
+      {
+       "title": "Bron",
+       "text": "En liten stenbro med flera valv. Det är det enda spåret av människor i hela landskapet."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bakgrunden följer en regel som Leonardo själv skrev ner: luftperspektivet. Luften är aldrig helt klar. Ju längre bort något ligger, desto blåare, blekare och disigare ser det ut."
+    },
+    {
+     "type": "key",
+     "text": "Luftperspektiv: det som ligger långt bort ser blåare, blekare och suddigare ut. Leonardo var en av de första som målade det medvetet."
+    },
+    {
+     "type": "palette",
+     "text": "Bruna toner, gröna, lite guld. Gammal fernissa har gulnat allt. Tryck på en färg.",
+     "swatches": [
+      {
+       "name": "Skuggorna",
+       "text": "Klänningen, håret, slöjan. Nästan halva målningen ligger i halvdunkel."
+      },
+      {
+       "name": "Huden",
+       "text": "Ansiktet, bröstet, händerna: de tre ljusa partierna, ordnade i en triangel."
+      },
+      {
+       "name": "Gröngrå himmel",
+       "text": "Från början blåare. Den gulnade fernissan har dragit den mot grönt."
+      },
+      {
+       "name": "Brun jord",
+       "text": "Landskapets klippor och stigar, på båda sidor om hennes axlar."
+      },
+      {
+       "name": "Det gröna fjärran",
+       "text": "Vattnet och bergen, mjukade av avståndet."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo lämnade aldrig ifrån sig målningen. Han behöll den, arbetade om den i åratal och tog den med sig till Frankrike när kung Frans I bjöd dit honom. När han dog 1519 hamnade porträttet i den kungliga samlingen. Därför finns det på Louvren."
+    },
+    {
+     "type": "text",
+     "text": "Länge var den ett mästerverk bland andra. Sin världsberömmelse har den ett brott att tacka för: den 21 augusti 1911 lyfte en italiensk arbetare, Vincenzo Peruggia, ner den från väggen och gick därifrån med den under arbetsrocken."
+    },
+    {
+     "type": "fact",
+     "text": "Medan målningen var borta köade folk på Louvren bara för att få se den tomma platsen på väggen."
+    },
+    {
+     "type": "text",
+     "text": "Tidningar över hela världen tryckte hennes bild. När hon hittades i Florens 1913 var Mona Lisa inte längre bara en målning. Hon var en stjärna."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa har Leonardo att tacka för sin genialitet, och en stöld för sin berömmelse."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Leendet",
+       "text": "Leta efter linjen som tecknar läpparna: det finns ingen. Mungiporna löses upp i skugga. Därför tycks leendet skifta."
+      },
+      {
+       "title": "Ögonen",
+       "text": "Samma knep: ögonvrårna smälter in i skuggan. Lägg också märke till att hon varken har ögonbryn eller ögonfransar."
+      },
+      {
+       "title": "Händerna",
+       "text": "De vilar avslappnat på varandra. Leonardo dissekerade kroppar för att förstå skelett och muskler: de här händerna har tyngd."
+      },
+      {
+       "title": "Bron",
+       "text": "En liten stenbro med flera valv. Det är det enda spåret av människor i hela landskapet."
+      },
+      {
+       "title": "Stigen",
+       "text": "En stig som slingrar sig fram mot en sjö. Landskapet är ingen verklig plats: Leonardo hittar på det utifrån sina studier av klippor och vatten."
+      },
+      {
+       "title": "Slöjan",
+       "text": "En genomskinlig slöja täcker hennes hår. Den är så tunn att du knappt kan urskilja den på pannan."
+      },
+      {
+       "title": "Fjärran",
+       "text": "Ju längre bort bergen ligger, desto blåare och disigare blir de. Leonardo märkte att luften själv har en färg."
+      },
+      {
+       "title": "Ärmen",
+       "text": "Täta gyllene veck, målade ett och ett. Klänningen är mörk och hon bär inga smycken: ingenting får dra blicken från ansiktet."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Vem är kvinnan på porträttet?",
+     "options": [
+      "En fransk drottning",
+      "Lisa Gherardini, hustru till en florentinsk köpman",
+      "Leonardos mor"
+     ],
+     "explanation": "Hennes man, Francesco del Giocondo, beställde porträttet."
+    },
+    {
+     "question": "Vad kallas tekniken med mjuka, rökiga konturer?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointillism"
+     ],
+     "explanation": "Av ”fumo”, italienska för rök."
+    },
+    {
+     "question": "Vad är Mona Lisa målad på?",
+     "options": [
+      "En linneduk",
+      "En panel av poppelträ",
+      "En gipsvägg"
+     ],
+     "explanation": "En poppelpanel på 77 gånger 53 centimeter."
+    },
+    {
+     "question": "Vad händer med det som ligger långt bort?",
+     "options": [
+      "Det blir mer intensivt",
+      "Det blir blåare, blekare och disigare",
+      "Konturerna blir skarpare"
+     ],
+     "explanation": "Det är luftperspektiv."
+    },
+    {
+     "question": "Varför finns målningen i Frankrike?",
+     "options": [
+      "Napoleon tog den från Italien",
+      "Leonardo tog med den, och den hamnade i den kungliga samlingen",
+      "Louvren köpte den 1911"
+     ],
+     "explanation": "Leonardo kom till Frankrike på inbjudan av kung Frans I."
+    },
+    {
+     "question": "Vad gjorde Mona Lisa världsberömd?",
+     "options": [
+      "Stölden från Louvren 1911",
+      "En utställning i New York",
+      "Restaureringen"
+     ],
+     "explanation": "Stulen av Vincenzo Peruggia, återfunnen 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Lisa är målad på duk.",
+     "explanation": "Den är målad på en panel av poppelträ."
+    },
+    {
+     "text": "Mona Lisa stals från Louvren 1911.",
+     "explanation": "Den hittades två år senare."
+    },
+    {
+     "text": "Mona Lisa har tjocka, mörka ögonbryn.",
+     "explanation": "Hon har varken ögonbryn eller ögonfransar."
+    }
+   ]
+  }
+ }
+}

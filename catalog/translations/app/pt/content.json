@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Renascimento Italiano",
+   "period": "Séculos XV–XVI",
+   "summary": "A perspectiva e a volta à Antiguidade",
+   "description": "Na Itália, e depois em toda a Europa, os artistas redescobrem a Antiguidade, estudam o corpo humano e inventam a perspectiva. O quadro vira uma janela aberta para o mundo."
+  },
+  "siecledor": {
+   "name": "Século de Ouro Holandês",
+   "period": "Século XVII",
+   "summary": "A vida de todo dia e a luz",
+   "description": "Na próspera República Holandesa, os artistas pintam para as casas da burguesia: interiores tranquilos, retratos, naturezas-mortas. A luz se torna o verdadeiro assunto."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "Séculos XVII–XIX",
+   "summary": "Estampas do “mundo flutuante”",
+   "description": "No Japão, xilogravuras feitas em série mostram atores, paisagens e cenas do dia a dia. Suas cores chapadas e seus enquadramentos ousados iriam sacudir os pintores europeus."
+  },
+  "impressionnisme": {
+   "name": "Impressionismo",
+   "period": "Décadas de 1870 e 1880",
+   "summary": "Pintar a luz do instante",
+   "description": "Um grupo de pintores sai do ateliê para trabalhar ao ar livre, com pinceladas pequenas e rápidas. Eles já não buscam o detalhe, e sim o efeito da luz em um momento preciso."
+  },
+  "postimp": {
+   "name": "Pós-Impressionismo",
+   "period": "1886–1905",
+   "summary": "Cor e emoção em primeiro lugar",
+   "description": "Depois do Impressionismo, cada um procura o próprio caminho. A cor já não imita a realidade: ela expressa o que o pintor sente."
+  },
+  "secession": {
+   "name": "Art Nouveau e Secessão de Viena",
+   "period": "Por volta de 1900",
+   "summary": "Ouro, ornamento e linhas curvas",
+   "description": "Em Viena, jovens artistas rompem com a academia. Eles unem pintura, decoração e artesanato e fazem do ornamento uma linguagem própria."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "A Noite Estrelada",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Museu de Arte Moderna (MoMA), Nova York",
+   "teaser": "Um céu em redemoinho, pintado de memória num quarto de asilo.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Junho de 1889. Vincent van Gogh tem 36 anos. Um mês antes, depois de uma crise grave em Arles, ele se internou por conta própria no asilo de Saint-Rémy-de-Provence, no sul da França."
+    },
+    {
+     "type": "text",
+     "text": "O quarto dele dá para o leste. Da janela, ele vê um campo de trigo, as colinas dos Alpilles e, antes do amanhecer, o céu. Pinta essa mesma vista sem parar, a qualquer hora do dia."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh só começou a pintar aos 27 anos. Em cerca de dez anos, fez uns 900 quadros, às vezes um por dia."
+    },
+    {
+     "type": "tour",
+     "text": "Este é o mais famoso desses céus. Observe o conjunto e depois toque para entrar nele.",
+     "spots": [
+      {
+       "title": "O redemoinho",
+       "text": "No centro, duas grandes ondas se enrolam uma na outra. Nenhum céu de verdade é assim: ele pinta o que sente, não o que vê."
+      },
+      {
+       "title": "A lua",
+       "text": "Um crescente laranja dentro de um halo amarelo. Quase parece um sol. Van Gogh aplica a tinta em pinceladas curtas que giram em volta dela."
+      },
+      {
+       "title": "A estrela da manhã",
+       "text": "A luz mais branca do quadro. Van Gogh escreveu ao irmão que tinha visto a estrela da manhã, enorme, antes do nascer do sol. Provavelmente é Vênus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Este quadro não foi pintado à noite, nem diante da paisagem. Van Gogh o fez de dia, no ateliê do asilo, de memória e com a imaginação. Era raro para ele: normalmente, pintava o que tinha diante dos olhos."
+    },
+    {
+     "type": "key",
+     "text": "A Noite Estrelada foi pintada de dia, de memória. Não é uma vista. É uma visão."
+    },
+    {
+     "type": "text",
+     "text": "Fazia tempo que ele sonhava com um céu noturno. Um ano antes, tinha escrito que olhar as estrelas sempre o fazia sonhar."
+    },
+    {
+     "type": "find",
+     "text": "Um detalhe desta paisagem vem direto da infância dele na Holanda. Onde está o campanário?",
+     "spots": [
+      {
+       "title": "O campanário",
+       "text": "Uma flecha fina e pontuda, como as das aldeias holandesas onde Van Gogh cresceu. As torres das igrejas da Provença não são assim."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A aldeia também é inventada, ou pelo menos mudou de lugar: da janela, não dava para vê-la. Van Gogh junta um céu real, colinas reais e uma aldeia saída da memória."
+    },
+    {
+     "type": "fact",
+     "text": "A janela do quarto no asilo tinha grades de ferro. Ele as deixou de fora de todos os quadros dessa vista."
+    },
+    {
+     "type": "lines",
+     "text": "O quadro parece agitado. Na verdade, foi construído com todo o cuidado.",
+     "lines": [
+      {
+       "label": "A vertical do cipreste",
+       "text": "Ele atravessa o quadro inteiro, do chão até a borda de cima, e dá a escala: o céu é imenso."
+      },
+      {
+       "label": "O eco: o campanário",
+       "text": "Uma segunda vertical, minúscula, que responde ao cipreste. Uma é natural; a outra, obra humana."
+      },
+      {
+       "label": "A onda do céu",
+       "text": "O olhar segue esse S da esquerda para a direita, até chegar à lua."
+      },
+      {
+       "label": "A encosta das colinas",
+       "text": "Uma diagonal que desce em direção à aldeia e a protege, como um braço."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Agora repare nas pinceladas. Não há transições suaves. Toques curtos e grossos ficam lado a lado, cada um apontando para uma direção. É a própria pincelada que cria o movimento."
+    },
+    {
+     "type": "text",
+     "text": "Os pintores chamam essa tinta espessa de “empasto”. Às vezes, Van Gogh espremia a cor quase direto do tubo. De perto, a superfície da tela é áspera como um mapa em relevo."
+    },
+    {
+     "type": "tour",
+     "title": "De perto",
+     "text": "Vamos chegar bem perto da própria tinta.",
+     "spots": [
+      {
+       "title": "A tinta",
+       "text": "Veja como é grossa: ela forma pinceladas curtas e pesadas, quase em relevo. Isso se chama empasto."
+      },
+      {
+       "title": "O cipreste",
+       "text": "Escuro e retorcido como uma chama, ele liga a terra ao céu. No sul da França, é a árvore dos cemitérios. Van Gogh o achava tão bonito quanto um obelisco egípcio."
+      },
+      {
+       "title": "As colinas",
+       "text": "Os Alpilles. Ondulam como o mar, levados pelo mesmo movimento do céu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "O cipreste é importante. É a forma mais escura do quadro e a única que toca ao mesmo tempo o chão e o alto do céu. Naquele verão, Van Gogh andava fascinado por essas árvores."
+    },
+    {
+     "type": "palette",
+     "text": "Azul, amarelo e quase nada além disso. Toque numa cor.",
+     "swatches": [
+      {
+       "name": "Azul profundo",
+       "text": "A profundidade do céu e das colinas. Van Gogh usou azul ultramar e azul cobalto."
+      },
+      {
+       "name": "Azul-claro",
+       "text": "Os redemoinhos. Aplicado em pinceladas grossas, ele faz o céu girar."
+      },
+      {
+       "name": "Amarelo",
+       "text": "A lua, as estrelas, as janelas. Uma parte minúscula da superfície, mas que ilumina tudo."
+      },
+      {
+       "name": "Preto esverdeado",
+       "text": "O cipreste e as sombras da aldeia. A massa mais escura do quadro."
+      },
+      {
+       "name": "Branco esverdeado",
+       "text": "Os halos em volta das estrelas: são eles que as fazem cintilar."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "O azul e o amarelo ficam quase em lados opostos do círculo cromático. Lado a lado, um faz o outro parecer mais forte. Van Gogh sabia disso e usava o efeito para fazer suas noites vibrarem."
+    },
+    {
+     "type": "key",
+     "text": "Cores opostas, colocadas lado a lado, se intensificam mutuamente. É por isso que as estrelas amarelas ardem contra o azul."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh contou ao irmão que tinha visto a estrela da manhã, enorme. Toque na luz mais branca do quadro.",
+     "spots": [
+      {
+       "title": "A estrela da manhã",
+       "text": "A luz mais branca do quadro. Van Gogh escreveu ao irmão que tinha visto a estrela da manhã, enorme, antes do nascer do sol. Provavelmente é Vênus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "E o que ele achava do quadro? Não muita coisa. Nas cartas, ele o chama de simples estudo noturno e desconfia dessas telas pintadas a partir da imaginação."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh quase não vendeu nada em vida. O irmão, Theo, que era marchand, o sustentava com dinheiro e tintas."
+    },
+    {
+     "type": "text",
+     "text": "Ele morreu treze meses depois, em julho de 1890, aos 37 anos. A Noite Estrelada entrou para o acervo do Museu de Arte Moderna de Nova York em 1941."
+    },
+    {
+     "type": "key",
+     "text": "Em Van Gogh, a pincelada é o próprio assunto: cada toque tem uma direção, e é isso que põe o céu em movimento."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "O redemoinho",
+       "text": "No centro, duas grandes ondas se enrolam uma na outra. Nenhum céu de verdade é assim: ele pinta o que sente, não o que vê."
+      },
+      {
+       "title": "A lua",
+       "text": "Um crescente laranja dentro de um halo amarelo. Quase parece um sol. Van Gogh aplica a tinta em pinceladas curtas que giram em volta dela."
+      },
+      {
+       "title": "A estrela da manhã",
+       "text": "A luz mais branca do quadro. Van Gogh escreveu ao irmão que tinha visto a estrela da manhã, enorme, antes do nascer do sol. Provavelmente é Vênus."
+      },
+      {
+       "title": "O cipreste",
+       "text": "Escuro e retorcido como uma chama, ele liga a terra ao céu. No sul da França, é a árvore dos cemitérios. Van Gogh o achava tão bonito quanto um obelisco egípcio."
+      },
+      {
+       "title": "O campanário",
+       "text": "Uma flecha fina e pontuda, como as das aldeias holandesas onde Van Gogh cresceu. As torres das igrejas da Provença não são assim."
+      },
+      {
+       "title": "A aldeia",
+       "text": "Algumas janelas amarelas, acesas. Do quarto, ele não podia ver essa aldeia: acrescentou-a de memória."
+      },
+      {
+       "title": "As colinas",
+       "text": "Os Alpilles. Ondulam como o mar, levados pelo mesmo movimento do céu."
+      },
+      {
+       "title": "A tinta",
+       "text": "Veja como é grossa: ela forma pinceladas curtas e pesadas, quase em relevo. Isso se chama empasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Onde Van Gogh estava quando pintou A Noite Estrelada?",
+     "options": [
+      "Em Paris",
+      "No asilo de Saint-Rémy-de-Provence",
+      "Em Amsterdã"
+     ],
+     "explanation": "Ele tinha se internado lá um mês antes."
+    },
+    {
+     "question": "Como o quadro foi pintado?",
+     "options": [
+      "À noite, diante da paisagem",
+      "De dia, de memória e com a imaginação",
+      "A partir de uma fotografia"
+     ],
+     "explanation": "De dia, no ateliê do asilo."
+    },
+    {
+     "question": "Que detalhe lembra a Holanda?",
+     "options": [
+      "O cipreste",
+      "O campanário pontudo",
+      "As colinas"
+     ],
+     "explanation": "Uma flecha como as das aldeias onde ele cresceu."
+    },
+    {
+     "question": "O que é o “empasto”?",
+     "options": [
+      "Uma tinta muito espessa, quase em relevo",
+      "Uma veladura fina e transparente",
+      "Um esboço a carvão"
+     ],
+     "explanation": "Pinceladas curtas e pesadas que saltam da tela."
+    },
+    {
+     "question": "Por que as estrelas amarelas parecem tão brilhantes?",
+     "options": [
+      "Foram pintadas com ouro",
+      "O amarelo está ao lado do seu oposto, o azul",
+      "A tela é iluminada por trás"
+     ],
+     "explanation": "Cores opostas lado a lado se intensificam mutuamente."
+    },
+    {
+     "question": "O que Van Gogh deixou de fora dos quadros dessa vista?",
+     "options": [
+      "As grades da janela",
+      "A lua",
+      "As colinas"
+     ],
+     "explanation": "A janela do asilo tinha grades de ferro."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh pintou A Noite Estrelada ao ar livre, no meio da noite.",
+     "explanation": "Ele a pintou de dia, de memória, no asilo de Saint-Rémy."
+    },
+    {
+     "text": "A Noite Estrelada fica em Nova York.",
+     "explanation": "Está no MoMA desde 1941."
+    },
+    {
+     "text": "Van Gogh vendeu muitos quadros e morreu rico.",
+     "explanation": "Ele quase não vendeu nada; o irmão, Theo, o sustentava."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Moça com Brinco de Pérola",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "c. 1665",
+   "museum": "Mauritshuis, Haia",
+   "teaser": "Um olhar por cima do ombro, e ninguém sabe quem ela é.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Você conhece este rosto. Mas não é um retrato: ninguém sabe quem ela é, e Vermeer provavelmente nunca quis pintar alguém em particular."
+    },
+    {
+     "type": "text",
+     "text": "Na Holanda do século XVII, esse tipo de quadro tinha nome: “tronie”, um estudo de rosto. O pintor o usava para explorar uma expressão, um traje exótico, um efeito de luz. Aqui, as três coisas de uma vez."
+    },
+    {
+     "type": "key",
+     "text": "Uma tronie é um rosto imaginado, um pretexto para pintar uma expressão e uma luz. Não é o retrato de uma pessoa real."
+    },
+    {
+     "type": "tour",
+     "text": "Primeiro, olhe o quadro inteiro: um rosto que surge do escuro. Toque para chegar mais perto.",
+     "spots": [
+      {
+       "title": "O olhar",
+       "text": "Ela se vira para você como se você tivesse acabado de chamá-la. Um único ponto branco em cada olho basta para deixá-lo úmido e vivo."
+      },
+      {
+       "title": "A boca",
+       "text": "Entreaberta, como no meio de uma frase. Repare no pontinho claro no canto dos lábios: um só toque de tinta, e a boca brilha."
+      },
+      {
+       "title": "A pérola",
+       "text": "Duas pinceladas, nada mais: um brilho branco em cima e, embaixo, o reflexo cinza da gola. Nenhum contorno, nenhum gancho. É o seu olho que monta a pérola."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "O quadro inteiro se apoia num único movimento: ela se vira. O corpo está de perfil, o rosto vem em nossa direção. Parece que a pegamos de surpresa, ou que ela está prestes a sair. É isso que a deixa tão viva."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer passou a vida inteira em Delft, uma pequena cidade holandesa. Pintava devagar, tinha onze filhos para sustentar e morreu endividado, aos 43 anos."
+    },
+    {
+     "type": "text",
+     "text": "Repare no turbante. Nenhuma moça holandesa se vestia assim. É um traje de fantasia, um toque do Oriente distante que fascinava os pintores da época."
+    },
+    {
+     "type": "find",
+     "text": "Uma única fonte de luz bate no rosto dela. Onde ela cai? Toque na parte mais clara do rosto.",
+     "spots": [
+      {
+       "title": "A bochecha",
+       "text": "A luz vem da esquerda, um pouco do alto. Bate na testa, na bochecha e no nariz, e deixa a outra metade do rosto escorregar para a sombra."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer quase não desenha contornos. Olhe o dorso do nariz: não há traço nenhum, só uma bochecha clara encontrando uma sombra. O rosto é feito de luz, não de linhas."
+    },
+    {
+     "type": "key",
+     "text": "Luz vinda da esquerda, sombras suaves, nenhum contorno duro: essa é a marca registrada de Vermeer."
+    },
+    {
+     "type": "lines",
+     "text": "Como um quadro tão simples se sustenta? Três linhas explicam.",
+     "lines": [
+      {
+       "label": "A luz",
+       "text": "Ela chega do alto, à esquerda, como se viesse de uma janela que não vemos."
+      },
+      {
+       "label": "O triângulo",
+       "text": "Do alto do turbante até os dois ombros: uma forma estável, bem assentada, que firma o giro da cabeça."
+      },
+      {
+       "label": "A queda",
+       "text": "O pano amarelo cai à direita e equilibra o rosto voltado para a esquerda."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Agora, o azul. Vermeer usou ultramar natural, obtido moendo lápis-lazúli. Como era caríssimo, a maioria dos pintores o reservava para o manto da Virgem Maria. Ele o pôs em toda parte, até nas sombras."
+    },
+    {
+     "type": "fact",
+     "text": "O lápis-lazúli vinha de minas no atual Afeganistão. O nome “ultramar” quer dizer “do outro lado do mar”."
+    },
+    {
+     "type": "palette",
+     "text": "Cinco cores formam quase o quadro inteiro. Toque numa delas para ver onde se esconde.",
+     "swatches": [
+      {
+       "name": "O fundo escuro",
+       "text": "Mais da metade da superfície. Já foi uma cortina verde-escura; hoje é quase preto."
+      },
+      {
+       "name": "Ultramar",
+       "text": "O azul do lápis-lazúli. Ocupa pouquíssimo espaço, mas é só ele que a gente vê."
+      },
+      {
+       "name": "Ocre marrom",
+       "text": "As sombras do casaco e do pano amarelo: uma cor de terra quente e barata."
+      },
+      {
+       "name": "O rosado da pele",
+       "text": "A parte mais clara do quadro. Nossos olhos vão primeiro para lá."
+      },
+      {
+       "name": "Amarelo",
+       "text": "No casaco e na ponta caída do turbante. Ele responde ao azul."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Em 1994, o quadro foi restaurado. Sob um verniz amarelado, os restauradores encontraram cores mais frescas e aquele pontinho claro no canto dos lábios, que ninguém mais conseguia ver."
+    },
+    {
+     "type": "text",
+     "text": "E o fundo? Hoje ele parece chapado e preto. Análises científicas mostraram que Vermeer pintou ali uma cortina verde-escura. Com o tempo, os pigmentos verdes se degradaram."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer assinou este quadro. Mas onde? Olhe com atenção: é quase invisível.",
+     "spots": [
+      {
+       "title": "A assinatura",
+       "text": "“IVMeer”, no alto, à esquerda. Pintada num tom claro sobre o fundo escuro, quase sumiu com o tempo."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "E a pérola, será que é mesmo uma pérola? Ela é enorme. Alguns especialistas acham que era vidro envernizado ou estanho polido. Pouco importa: em tinta, é uma gota de luz, e era só isso que Vermeer queria."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer não pinta objetos. Pinta a luz que cai sobre eles. A pérola são dois toques de branco."
+    },
+    {
+     "type": "text",
+     "text": "Conhecemos só cerca de 37 quadros de Vermeer. Depois que ele morreu, seu nome ficou quase esquecido por dois séculos."
+    },
+    {
+     "type": "fact",
+     "text": "Em 1881, um colecionador comprou este quadro num leilão por dois florins, uma ninharia. Em 1902, deixou-o de herança para o museu Mauritshuis."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "O olhar",
+       "text": "Ela se vira para você como se você tivesse acabado de chamá-la. Um único ponto branco em cada olho basta para deixá-lo úmido e vivo."
+      },
+      {
+       "title": "A boca",
+       "text": "Entreaberta, como no meio de uma frase. Repare no pontinho claro no canto dos lábios: um só toque de tinta, e a boca brilha."
+      },
+      {
+       "title": "A pérola",
+       "text": "Duas pinceladas, nada mais: um brilho branco em cima e, embaixo, o reflexo cinza da gola. Nenhum contorno, nenhum gancho. É o seu olho que monta a pérola."
+      },
+      {
+       "title": "O turbante azul",
+       "text": "Ultramar de verdade, feito de lápis-lazúli, uma pedra trazida lá do Afeganistão. Na época, esse pigmento custava mais que o ouro."
+      },
+      {
+       "title": "O pano amarelo",
+       "text": "O pano amarelo desce pelas costas como uma chama. Azul e amarelo: Vermeer adorava essa dupla e a usou em quadro após quadro."
+      },
+      {
+       "title": "A gola branca",
+       "text": "Uma faixa branca aplicada num só gesto. É a gola que se reflete na parte de baixo da pérola."
+      },
+      {
+       "title": "A assinatura",
+       "text": "“IVMeer”, no alto, à esquerda. Pintada num tom claro sobre o fundo escuro, quase sumiu com o tempo."
+      },
+      {
+       "title": "O fundo",
+       "text": "Nem sempre foi preto. As análises mostram que Vermeer pintou aqui uma cortina verde-escura. O verde desapareceu ao longo dos séculos."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "O que é uma “tronie”?",
+     "options": [
+      "Um retrato encomendado",
+      "Um estudo de um rosto imaginado",
+      "Um autorretrato"
+     ],
+     "explanation": "Um pretexto para pintar uma expressão e uma luz, não uma pessoa real."
+    },
+    {
+     "question": "De onde vem o azul do turbante?",
+     "options": [
+      "De uma planta, o índigo",
+      "De uma pedra, o lápis-lazúli",
+      "De uma concha"
+     ],
+     "explanation": "O lápis-lazúli moído dá o ultramar natural, que na época custava mais que o ouro."
+    },
+    {
+     "question": "Como a pérola foi pintada?",
+     "options": [
+      "Com um contorno preciso e um gancho",
+      "Com dois toques claros e nenhum contorno",
+      "Com folha de prata"
+     ],
+     "explanation": "Um brilho branco, um reflexo cinza: o seu olho faz o resto."
+    },
+    {
+     "question": "De onde vem a luz?",
+     "options": [
+      "Da esquerda",
+      "Da direita",
+      "De baixo"
+     ],
+     "explanation": "Do alto, à esquerda, como de uma janela invisível."
+    },
+    {
+     "question": "O que havia originalmente no fundo?",
+     "options": [
+      "Uma cortina verde-escura",
+      "Uma janela",
+      "Uma parede dourada"
+     ],
+     "explanation": "Os pigmentos verdes se degradaram ao longo dos séculos."
+    },
+    {
+     "question": "Onde Vermeer passou a vida inteira?",
+     "options": [
+      "Amsterdã",
+      "Delft",
+      "Haia"
+     ],
+     "explanation": "Ele viveu e trabalhou na pequena cidade de Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Sabemos o nome da moça que posou.",
+     "explanation": "A identidade dela é desconhecida: o quadro é uma tronie."
+    },
+    {
+     "text": "O azul do turbante vem de uma pedra, o lápis-lazúli.",
+     "explanation": "Moído, ele dá o ultramar natural."
+    },
+    {
+     "text": "A pérola foi pintada com um contorno cuidadoso e detalhado.",
+     "explanation": "São só dois toques de tinta clara, sem contorno nenhum."
+    }
+   ]
+  },
+  "vague": {
+   "title": "A Grande Onda de Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "c. 1831",
+   "museum": "Xilogravura · muitos exemplares",
+   "teaser": "Uma onda gigante e, bem lá no fundo, minúsculo, o monte Fuji.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Isto não é uma pintura. É uma gravura: uma imagem entalhada em blocos de madeira, entintada e depois prensada sobre o papel. Por isso não existe uma única Grande Onda. Existem milhares."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai a publicou por volta de 1831. Tinha uns 70 anos e desenhava desde criança. Ela abre uma série que ficou famosa: Trinta e Seis Vistas do Monte Fuji."
+    },
+    {
+     "type": "key",
+     "text": "A Grande Onda é uma xilogravura, feita em milhares de exemplares. Muitos museus pelo mundo têm a sua."
+    },
+    {
+     "type": "fact",
+     "text": "Uma gravura dessas era barata. No tempo de Hokusai, custava mais ou menos o mesmo que uma tigela de macarrão."
+    },
+    {
+     "type": "find",
+     "text": "A série se chama Trinta e Seis Vistas do Monte Fuji. Então, cadê o monte Fuji?",
+     "spots": [
+      {
+       "title": "O monte Fuji",
+       "text": "O verdadeiro tema da gravura está aqui, minúsculo. A montanha sagrada do Japão, coberta de neve, perfeitamente imóvel no meio da tempestade."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Aí está a sacada genial: a montanha mais alta do Japão é menor que a onda. Hokusai brinca com a distância. O que está perto esmaga o que está longe, como numa foto tirada com grande-angular."
+    },
+    {
+     "type": "text",
+     "text": "O Fuji era sagrado. Acreditava-se que ele guardava o segredo da imortalidade. Hokusai era obcecado pela montanha e a desenhou de todos os ângulos, com todo tipo de tempo."
+    },
+    {
+     "type": "tour",
+     "text": "Vamos percorrer a imagem do jeito que o olho percorre.",
+     "spots": [
+      {
+       "title": "A espuma",
+       "text": "Olhe a ponta da onda: a espuma termina em dedos curvados, como garras prestes a se fechar sobre os barcos."
+      },
+      {
+       "title": "Os remadores",
+       "text": "Pescadores curvados sobre os remos, de cabeça baixa. Esses barcos velozes levavam peixe fresco para Edo, a cidade que hoje chamamos de Tóquio."
+      },
+      {
+       "title": "A onda pequena",
+       "text": "No primeiro plano, uma onda menor. Repare na forma: pontuda, branca no alto. É um segundo monte Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "No Japão, lê-se da direita para a esquerda. Então o olho entra pela direita, junto com os barcos, e vai de encontro à onda. Para o público japonês, a onda vem de frente."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai mudou de nome mais de trinta vezes na vida. Um dos últimos queria dizer “Velho Louco por Desenho”."
+    },
+    {
+     "type": "lines",
+     "text": "Uma imagem simples, calculada milímetro por milímetro.",
+     "lines": [
+      {
+       "label": "A curva",
+       "text": "A onda desenha um grande arco que se fecha sobre si mesmo. Todo o lado esquerdo da imagem fica preso dentro dele."
+      },
+      {
+       "label": "O triângulo do Fuji",
+       "text": "Pequeno, estável, pontudo. Fica exatamente no oco da onda."
+      },
+      {
+       "label": "O sósia",
+       "text": "A onda pequena do primeiro plano repete a forma da montanha. A água imita a pedra."
+      },
+      {
+       "label": "O sentido da leitura",
+       "text": "Da direita para a esquerda: deslizamos pela ondulação até o Fuji e depois erguemos os olhos para a onda."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Como ela foi feita? Hokusai desenhou a imagem em papel fino. Um entalhador colou o desenho num bloco de madeira de cerejeira e escavou tudo o que não era linha. Depois, um impressor entintou o bloco e prensou o papel sobre ele."
+    },
+    {
+     "type": "text",
+     "text": "Cada cor precisava de um bloco entalhado só para ela, impresso um depois do outro na mesma folha. É por isso que as gravuras usam tão poucas cores."
+    },
+    {
+     "type": "key",
+     "text": "Um bloco de madeira por cor: quanto menos cores, mais simples a gravura. Hokusai transforma esse limite num estilo."
+    },
+    {
+     "type": "palette",
+     "text": "Pouquíssimas cores, porque cada uma precisa do próprio bloco entalhado. Toque numa delas.",
+     "swatches": [
+      {
+       "name": "O papel",
+       "text": "A cor que mais aparece nem foi impressa: é o papel nu, deixado em branco para a espuma e a neve."
+      },
+      {
+       "name": "Azul da Prússia",
+       "text": "O azul vindo da Europa. Ele desenha a onda, suas listras e seus vales."
+      },
+      {
+       "name": "Azul-claro",
+       "text": "O mesmo azul, diluído. Ele dá volume à água."
+      },
+      {
+       "name": "O céu tingido",
+       "text": "Um bege só um pouco mais escuro que o papel, que faz a espuma branca saltar aos olhos."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Falando nesse azul: é o azul da Prússia, um pigmento químico inventado na Europa e recém-chegado ao Japão. É profundo, não desbota e fez furor. A série deve boa parte do sucesso a ele."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai assinou a imagem. Onde? Uma dica: não é no canto inferior direito.",
+     "spots": [
+      {
+       "title": "A cartela",
+       "text": "Dentro do retângulo: o título da série e o da imagem, “Sob a Onda ao Largo de Kanagawa”. À esquerda dele, a assinatura de Hokusai."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Na década de 1850, o Japão se abriu ao comércio, e suas gravuras chegaram à Europa. Os pintores franceses ficaram de queixo caído: áreas de cor chapada, contornos nítidos, enquadramentos ousados. Monet as colecionava. Van Gogh as copiava."
+    },
+    {
+     "type": "key",
+     "text": "Essa febre se chama japonismo. Sem as gravuras japonesas, o Impressionismo não teria a mesma cara."
+    },
+    {
+     "type": "text",
+     "text": "Uma última coisa: isto não é um tsunami. É uma onda de alto-mar, enorme mas comum, do tipo que os pescadores temiam. Hokusai não mostra uma catástrofe. Mostra homens minúsculos diante da natureza."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "O monte Fuji",
+       "text": "O verdadeiro tema da gravura está aqui, minúsculo. A montanha sagrada do Japão, coberta de neve, perfeitamente imóvel no meio da tempestade."
+      },
+      {
+       "title": "A espuma",
+       "text": "Olhe a ponta da onda: a espuma termina em dedos curvados, como garras prestes a se fechar sobre os barcos."
+      },
+      {
+       "title": "Os remadores",
+       "text": "Pescadores curvados sobre os remos, de cabeça baixa. Esses barcos velozes levavam peixe fresco para Edo, a cidade que hoje chamamos de Tóquio."
+      },
+      {
+       "title": "A onda pequena",
+       "text": "No primeiro plano, uma onda menor. Repare na forma: pontuda, branca no alto. É um segundo monte Fuji."
+      },
+      {
+       "title": "A cartela",
+       "text": "Dentro do retângulo: o título da série e o da imagem, “Sob a Onda ao Largo de Kanagawa”. À esquerda dele, a assinatura de Hokusai."
+      },
+      {
+       "title": "O barco de baixo",
+       "text": "Ele mergulha no vale entre as ondas. São três barcos ao todo, e uns trinta homens."
+      },
+      {
+       "title": "O céu",
+       "text": "Quase vazio. Um degradê simples, feito limpando a tinta do bloco antes da impressão."
+      },
+      {
+       "title": "Os respingos",
+       "text": "Pingos brancos caem acima do Fuji. Parecem neve sobre a montanha."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "O que é A Grande Onda?",
+     "options": [
+      "Uma pintura a óleo",
+      "Uma xilogravura",
+      "Uma aquarela"
+     ],
+     "explanation": "Uma gravura, feita em milhares de exemplares."
+    },
+    {
+     "question": "A que série ela pertence?",
+     "options": [
+      "Cem Vistas de Edo",
+      "Trinta e Seis Vistas do Monte Fuji",
+      "As Quatro Estações"
+     ],
+     "explanation": "Ela abre a série de Hokusai sobre o monte Fuji."
+    },
+    {
+     "question": "De onde vem o azul da onda?",
+     "options": [
+      "Do lápis-lazúli",
+      "Do azul da Prússia, importado da Europa",
+      "De conchas moídas"
+     ],
+     "explanation": "Um pigmento químico novo no Japão, profundo e estável."
+    },
+    {
+     "question": "Que forma a onda pequena do primeiro plano repete?",
+     "options": [
+      "A do monte Fuji",
+      "A de um barco",
+      "A de uma nuvem"
+     ],
+     "explanation": "A água imita a montanha."
+    },
+    {
+     "question": "Por que as gravuras usam tão poucas cores?",
+     "options": [
+      "As cores eram proibidas",
+      "Cada cor precisa de um bloco entalhado só para ela",
+      "O papel não segurava a tinta"
+     ],
+     "explanation": "Um bloco por cor, impressos um depois do outro."
+    },
+    {
+     "question": "Como se chama a febre europeia pelas gravuras japonesas?",
+     "options": [
+      "Japonismo",
+      "Orientalismo",
+      "Cubismo"
+     ],
+     "explanation": "Monet colecionava as gravuras; Van Gogh as copiava."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Só existe um exemplar de A Grande Onda.",
+     "explanation": "É uma gravura: foram feitos milhares de exemplares."
+    },
+    {
+     "text": "Hokusai tinha uns 70 anos quando a fez.",
+     "explanation": "Ele nasceu em 1760, e a série saiu por volta de 1831."
+    },
+    {
+     "text": "A Grande Onda mostra um tsunami.",
+     "explanation": "É uma grande onda de alto-mar, não um tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Ninfeias",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Instituto de Arte de Chicago",
+   "teaser": "Nada de horizonte: só água, flores e o céu refletido nela.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Em Giverny, Monet mandou cavar um lago no jardim e plantou ninfeias nele. Esse lago virou o seu tema por quase trinta anos."
+    },
+    {
+     "type": "image",
+     "caption": "Detalhe · as flores pousadas na água."
+    },
+    {
+     "type": "text",
+     "text": "Olhe bem: não há margem nem horizonte. Já não dá para saber onde acaba a água e onde começa o reflexo do céu."
+    },
+    {
+     "type": "key",
+     "text": "Sem horizonte, o quadro vira uma superfície: olhamos a água como olharíamos o céu."
+    },
+    {
+     "type": "fact",
+     "text": "Monet tinha jardineiros para cuidar do lago. Um deles limpava a superfície da água toda manhã, antes de o pintor começar a trabalhar."
+    },
+    {
+     "type": "text",
+     "text": "Monet pintou umas 250 telas de ninfeias. As mesmas flores, mas nunca a mesma luz."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Onde Monet pintou suas ninfeias?",
+     "options": [
+      "Em Giverny",
+      "Em Paris",
+      "Em Veneza"
+     ],
+     "explanation": "No jardim da própria casa."
+    },
+    {
+     "question": "O que falta neste quadro?",
+     "options": [
+      "A água",
+      "O horizonte",
+      "As flores"
+     ],
+     "explanation": "Nem margem, nem céu: só a superfície da água."
+    },
+    {
+     "question": "Quantos quadros de ninfeias ele fez?",
+     "options": [
+      "Uns dez",
+      "Uns 250",
+      "Mais de 2.000"
+     ],
+     "explanation": "Uma série enorme, ao longo de quase trinta anos."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet pintou suas ninfeias uma única vez.",
+     "explanation": "Ele pintou cerca de 250 versões."
+    },
+    {
+     "text": "O lago das ninfeias ficava no jardim do próprio Monet.",
+     "explanation": "Em Giverny, onde ele mandou cavá-lo."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impressão, Nascer do Sol",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Museu Marmottan Monet, Paris",
+   "teaser": "O quadro que, por zombaria, deu nome a um movimento inteiro.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "O porto de Le Havre, numa manhã de névoa. Monet lança algumas pinceladas rápidas: barcos, mastros e um sol laranja."
+    },
+    {
+     "type": "image",
+     "caption": "Detalhe · o sol e seu reflexo."
+    },
+    {
+     "type": "text",
+     "text": "Em 1874, a tela foi exposta em Paris. Um crítico, Louis Leroy, zombou do título e chamou esses pintores de “impressionistas”."
+    },
+    {
+     "type": "key",
+     "text": "A palavra “Impressionismo” vem deste quadro. Começou como insulto e virou nome."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre é a cidade onde Monet cresceu. Na adolescência, ele era conhecido lá pelas suas caricaturas."
+    },
+    {
+     "type": "text",
+     "text": "O quadro também foi roubado do museu Marmottan, em 1985. Só foi encontrado cinco anos depois."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Que porto Monet pintou?",
+     "options": [
+      "Marselha",
+      "Le Havre",
+      "Veneza"
+     ],
+     "explanation": "A cidade onde ele cresceu."
+    },
+    {
+     "question": "A que este quadro deu nome?",
+     "options": [
+      "Ao Impressionismo",
+      "A um museu",
+      "A um prêmio"
+     ],
+     "explanation": "Um crítico zombou do título, e a palavra pegou."
+    },
+    {
+     "question": "Em que ano ele foi exposto em Paris?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Naquele ano, um crítico, Louis Leroy, zombou dele."
+    }
+   ],
+   "facts": [
+    {
+     "text": "A palavra “impressionista” começou como um insulto.",
+     "explanation": "Ela vem de um artigo do crítico Louis Leroy."
+    },
+    {
+     "text": "Este quadro mostra o porto de Marselha.",
+     "explanation": "É o porto de Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "O Beijo",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Viena",
+   "teaser": "Dois amantes envoltos em ouro, à beira de um campo florido.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt está no auge da sua “fase dourada”. Ele aplica folha de ouro de verdade na tela, como num ícone religioso."
+    },
+    {
+     "type": "image",
+     "caption": "Detalhe · os dois rostos."
+    },
+    {
+     "type": "text",
+     "text": "Repare nas roupas. O manto dele é coberto de retângulos pretos e brancos. O dela, de círculos e flores."
+    },
+    {
+     "type": "image",
+     "caption": "Detalhe · retângulos e círculos."
+    },
+    {
+     "type": "key",
+     "text": "Retângulos para ele, círculos para ela: os padrões contam a história do casal."
+    },
+    {
+     "type": "fact",
+     "text": "O pai de Klimt era gravador em ouro. O pintor cresceu cercado pelo metal que mais tarde poria em suas telas."
+    },
+    {
+     "type": "text",
+     "text": "O Estado austríaco comprou o quadro em 1908, antes mesmo de ele estar totalmente terminado."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Que material Klimt usou?",
+     "options": [
+      "Madrepérola",
+      "Folha de ouro",
+      "Bronze"
+     ],
+     "explanation": "É a marca da sua fase dourada."
+    },
+    {
+     "question": "Que padrões cobrem o manto do homem?",
+     "options": [
+      "Círculos",
+      "Flores",
+      "Retângulos"
+     ],
+     "explanation": "Os círculos e as flores ficam para a mulher."
+    },
+    {
+     "question": "Quem comprou o quadro em 1908?",
+     "options": [
+      "O Estado austríaco",
+      "Um colecionador francês",
+      "O pai de Klimt"
+     ],
+     "explanation": "Antes mesmo de ele estar totalmente terminado."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt usou folha de ouro de verdade.",
+     "explanation": "Como em várias telas da sua fase dourada."
+    },
+    {
+     "text": "O Beijo fica em Paris.",
+     "explanation": "Ele está em Viena, no Belvedere."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Os Girassóis",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Londres",
+   "teaser": "Amarelo sobre amarelo: um buquê pintado para receber um amigo.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Agosto de 1888, em Arles. Van Gogh espera o amigo Paul Gauguin e quer decorar o quarto dele com girassóis."
+    },
+    {
+     "type": "image",
+     "caption": "Detalhe · flores em todas as fases."
+    },
+    {
+     "type": "text",
+     "text": "Ele ousa usar quase uma cor só: flores amarelas, vaso amarelo, fundo amarelo. Tudo depende dos tons e da espessura da tinta."
+    },
+    {
+     "type": "key",
+     "text": "Um quadro quase monocromático: o amarelo em todas as suas formas."
+    },
+    {
+     "type": "fact",
+     "text": "Girassóis murcham rápido. Van Gogh precisava pintar depressa, começando ao nascer do sol, antes que as flores tombassem."
+    },
+    {
+     "type": "text",
+     "text": "Existem várias versões destes girassóis. Algumas flores ainda estão em botão, outras já murcharam: o buquê também conta a passagem do tempo."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "O quarto de quem os girassóis deviam decorar?",
+     "options": [
+      "O de Paul Gauguin",
+      "O de Claude Monet",
+      "O do irmão, Theo"
+     ],
+     "explanation": "Van Gogh o esperava em Arles."
+    },
+    {
+     "question": "Em que cidade ele os pintou?",
+     "options": [
+      "Paris",
+      "Arles",
+      "Amsterdã"
+     ],
+     "explanation": "No sul da França, em agosto de 1888."
+    },
+    {
+     "question": "O que há de incomum nas cores?",
+     "options": [
+      "Quase tudo é amarelo",
+      "Não há amarelo nenhum",
+      "É em preto e branco"
+     ],
+     "explanation": "Flores amarelas, vaso amarelo, fundo amarelo."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Existem várias versões dos Girassóis.",
+     "explanation": "Van Gogh pintou uma série inteira."
+    },
+    {
+     "text": "Van Gogh vendeu seus Girassóis por uma fortuna em vida.",
+     "explanation": "Ele quase não vendeu nada em vida."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "c. 1503–1519",
+   "museum": "Museu do Louvre, Paris",
+   "teaser": "O sorriso mais famoso do mundo depende de contornos que você não vê.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "É o quadro mais famoso do mundo, e ele é pequeno: 77 por 53 centímetros, pintado sobre um painel de madeira de álamo. Muitos visitantes do Louvre se surpreendem com o tamanho."
+    },
+    {
+     "type": "text",
+     "text": "Por volta de 1503, em Florença, um comerciante de seda chamado Francesco del Giocondo pediu a Leonardo da Vinci que pintasse sua esposa, Lisa Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "A Mona Lisa é o retrato de Lisa Gherardini, esposa de um comerciante florentino. “Mona” quer dizer simplesmente “senhora”."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo não era só pintor. Era também engenheiro, anatomista e inventor, e deixou milhares de páginas de cadernos escritas em espelho."
+    },
+    {
+     "type": "tour",
+     "text": "Olhe para ela por inteiro. Depois, chegue mais perto do que a transformou numa lenda.",
+     "spots": [
+      {
+       "title": "O sorriso",
+       "text": "Procure a linha que desenha os lábios: ela não existe. Os cantos da boca se dissolvem na sombra. É por isso que o sorriso parece mudar."
+      },
+      {
+       "title": "Os olhos",
+       "text": "Mesmo truque: os cantos dos olhos se fundem na sombra. Repare também que ela não tem sobrancelhas nem cílios."
+      },
+      {
+       "title": "As mãos",
+       "text": "Pousadas uma sobre a outra, relaxadas. Leonardo dissecava corpos para entender ossos e músculos: estas mãos têm peso."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Essa névoa tem nome: sfumato, do italiano “fumo”, fumaça. Leonardo sobrepõe dezenas de camadas de tinta muito finas, quase transparentes. Os contornos desaparecem, e as formas se fundem umas nas outras."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato são contornos suaves, esfumaçados. É o que torna o sorriso impossível de decifrar."
+    },
+    {
+     "type": "text",
+     "text": "Faça o teste. Olhe para os olhos dela, e a boca parece sorrir. Olhe direto para a boca, e o sorriso se apaga. Quem faz o trabalho são as sombras nos cantos."
+    },
+    {
+     "type": "find",
+     "text": "Falta alguma coisa neste rosto. Toque no lugar onde ela deveria estar.",
+     "spots": [
+      {
+       "title": "As sobrancelhas",
+       "text": "Ela não tem sobrancelhas nem cílios. Moda da época ou tinta gasta por limpezas antigas? Os especialistas ainda discutem."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Agora repare na pose. Antes de Leonardo, os retratos costumavam ser de perfil, ou cortados na altura do peito. Ele mostra a figura até a cintura, virada a três quartos para nós, com as mãos e tudo."
+    },
+    {
+     "type": "fact",
+     "text": "O jovem pintor Rafael viu o retrato no ateliê de Leonardo e logo copiou a pose em suas próprias obras."
+    },
+    {
+     "type": "lines",
+     "text": "Uma pose calma, uma paisagem estranha. Veja como tudo é construído.",
+     "lines": [
+      {
+       "label": "A pirâmide",
+       "text": "A cabeça no topo, os braços e as mãos na base. Uma forma larga e estável: ela não se mexe, está bem assentada."
+      },
+      {
+       "label": "O horizonte à esquerda",
+       "text": "À esquerda, a linha da água da paisagem fica mais ou menos aqui."
+      },
+      {
+       "label": "O horizonte à direita",
+       "text": "À direita, ela fica mais alta. As duas metades da paisagem não se encaixam, e parte da estranheza do quadro vem daí."
+      },
+      {
+       "label": "O caminho",
+       "text": "Uma linha sinuosa que leva o olhar para longe, como os rios do lado direito."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A paisagem não é um lugar real. É um mundo de sonho feito de rochas, água e névoa, sem casas e sem gente. Só uma coisa ali foi construída por mãos humanas."
+    },
+    {
+     "type": "find",
+     "text": "Nesta paisagem vazia, há uma única construção humana. Onde está a ponte?",
+     "spots": [
+      {
+       "title": "A ponte",
+       "text": "Uma pequena ponte de pedra com vários arcos. É o único sinal de presença humana em toda a paisagem."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "O fundo segue uma regra que o próprio Leonardo deixou por escrito: a perspectiva atmosférica. O ar não é perfeitamente transparente. Quanto mais longe uma coisa está, mais azulada, pálida e enevoada ela parece."
+    },
+    {
+     "type": "key",
+     "text": "Perspectiva atmosférica: o que está longe parece mais azulado, mais pálido e mais borrado. Leonardo foi um dos primeiros a pintá-la de propósito."
+    },
+    {
+     "type": "palette",
+     "text": "Marrons, verdes, um pouco de dourado. O verniz antigo amarelou tudo. Toque numa cor.",
+     "swatches": [
+      {
+       "name": "As sombras",
+       "text": "O vestido, os cabelos, o véu. Quase metade do quadro está na penumbra."
+      },
+      {
+       "name": "A pele",
+       "text": "O rosto, o colo, as mãos: as três manchas claras, dispostas em triângulo."
+      },
+      {
+       "name": "O céu verde-cinza",
+       "text": "Originalmente era mais azul. O verniz amarelado o puxou para o verde."
+      },
+      {
+       "name": "A terra marrom",
+       "text": "As rochas e os caminhos da paisagem, dos dois lados dos ombros dela."
+      },
+      {
+       "name": "O verde distante",
+       "text": "A água e as montanhas, suavizadas pela distância."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo nunca entregou o quadro. Ficou com ele, retocou-o durante anos e o levou para a França quando o rei Francisco I o convidou. Quando Leonardo morreu, em 1519, o retrato entrou para a coleção real. É por isso que está no Louvre."
+    },
+    {
+     "type": "text",
+     "text": "Durante muito tempo, foi uma obra-prima entre outras. Sua fama mundial vem de um crime: em 21 de agosto de 1911, um operário italiano, Vincenzo Peruggia, tirou o quadro da parede e saiu com ele escondido debaixo do guarda-pó."
+    },
+    {
+     "type": "fact",
+     "text": "Enquanto o quadro esteve desaparecido, multidões faziam fila no Louvre só para ver o espaço vazio na parede."
+    },
+    {
+     "type": "text",
+     "text": "Jornais do mundo inteiro publicaram a imagem dela. Quando foi encontrada em Florença, em 1913, a Mona Lisa já não era só um quadro. Era uma estrela."
+    },
+    {
+     "type": "key",
+     "text": "A Mona Lisa deve sua genialidade a Leonardo, e sua fama a um roubo."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "O sorriso",
+       "text": "Procure a linha que desenha os lábios: ela não existe. Os cantos da boca se dissolvem na sombra. É por isso que o sorriso parece mudar."
+      },
+      {
+       "title": "Os olhos",
+       "text": "Mesmo truque: os cantos dos olhos se fundem na sombra. Repare também que ela não tem sobrancelhas nem cílios."
+      },
+      {
+       "title": "As mãos",
+       "text": "Pousadas uma sobre a outra, relaxadas. Leonardo dissecava corpos para entender ossos e músculos: estas mãos têm peso."
+      },
+      {
+       "title": "A ponte",
+       "text": "Uma pequena ponte de pedra com vários arcos. É o único sinal de presença humana em toda a paisagem."
+      },
+      {
+       "title": "O caminho",
+       "text": "Um caminho que serpenteia até um lago. A paisagem não é um lugar real: Leonardo a inventa a partir de seus estudos de rochas e de água."
+      },
+      {
+       "title": "O véu",
+       "text": "Um véu transparente cobre os cabelos dela. É tão fino que mal dá para distingui-lo na testa."
+      },
+      {
+       "title": "A distância",
+       "text": "Quanto mais longe estão as montanhas, mais azuladas e enevoadas ficam. Leonardo percebeu que o próprio ar tem cor."
+      },
+      {
+       "title": "A manga",
+       "text": "Pregas douradas e apertadas, pintadas uma a uma. O vestido é escuro e ela não usa joias: nada pode desviar a atenção do rosto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Quem é a mulher do retrato?",
+     "options": [
+      "Uma rainha da França",
+      "Lisa Gherardini, esposa de um comerciante florentino",
+      "A mãe de Leonardo"
+     ],
+     "explanation": "O marido dela, Francesco del Giocondo, encomendou o retrato."
+    },
+    {
+     "question": "Como se chama a técnica de contornos suaves e esfumaçados?",
+     "options": [
+      "Empasto",
+      "Sfumato",
+      "Pontilhismo"
+     ],
+     "explanation": "De “fumo”, fumaça em italiano."
+    },
+    {
+     "question": "Sobre o que a Mona Lisa foi pintada?",
+     "options": [
+      "Uma tela de linho",
+      "Um painel de madeira de álamo",
+      "Uma parede de gesso"
+     ],
+     "explanation": "Um painel de álamo de 77 por 53 centímetros."
+    },
+    {
+     "question": "O que acontece com as coisas ao longe?",
+     "options": [
+      "Ficam mais vivas",
+      "Ficam mais azuladas, pálidas e enevoadas",
+      "Os contornos ficam mais nítidos"
+     ],
+     "explanation": "É a perspectiva atmosférica."
+    },
+    {
+     "question": "Por que o quadro está na França?",
+     "options": [
+      "Napoleão o levou da Itália",
+      "Leonardo o levou, e ele entrou para a coleção real",
+      "O Louvre o comprou em 1911"
+     ],
+     "explanation": "Leonardo foi para a França a convite do rei Francisco I."
+    },
+    {
+     "question": "O que tornou a Mona Lisa famosa no mundo inteiro?",
+     "options": [
+      "O roubo no Louvre, em 1911",
+      "Uma exposição em Nova York",
+      "A restauração"
+     ],
+     "explanation": "Roubada por Vincenzo Peruggia, encontrada em 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "A Mona Lisa foi pintada sobre tela.",
+     "explanation": "Ela foi pintada sobre um painel de madeira de álamo."
+    },
+    {
+     "text": "A Mona Lisa foi roubada do Louvre em 1911.",
+     "explanation": "Foi encontrada dois anos depois."
+    },
+    {
+     "text": "A Mona Lisa tem sobrancelhas grossas e escuras.",
+     "explanation": "Ela não tem sobrancelha nem cílio nenhum."
+    }
+   ]
+  }
+ }
+}
