@@ -90,6 +90,8 @@ def check_lesson(slug, lang):
             pass  # numbers may legitimately be reformatted (20,000 -> 20 000)
     if same > 2:
         err.append(f'{same} long strings left in English')
+    if lang == 'sr' and re.search('[\u0400-\u04ff]', open(path, encoding='utf-8').read()):
+        err.append('Cyrillic character in a Latin-script language')
     return err
 
 
