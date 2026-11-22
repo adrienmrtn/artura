@@ -1,0 +1,215 @@
+{
+ "teaser": "Kártyajáték pénz nélkül, ital nélkül és beszéd nélkül, úgy megfestve, mint egy épület.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "1917-ben Fernand Léger festő, aki Verdunnél gáztámadást szenvedett, és kórházban lábadozott, hatalmas képet festett kártyázó katonákról, testüket acélcsövekké alakítva. Nagyjából ugyanekkor a holland Theo van Doesburg kártyázók egy csoportját lapos színes téglalapokra egyszerűsítette. Mindketten ugyanarra a csendes provence-i festményre válaszoltak."
+  },
+  {
+   "type": "text",
+   "text": "Íme. Paul Cézanne az 1890-es évek elején festette a család birtokán, Aix-en-Provence közelében, Dél-Franciaországban. Mindössze 65 × 82 cm-es. Hárman játszanak, egy néz. Ennyi az egész, és a fiatal művészek egy nemzedékének ez is elég volt egy forradalom elindításához."
+  },
+  {
+   "type": "fact",
+   "text": "Cézanne öt változatot festett a kártyázókról. Az egyik későbbit, amelyen már csak két férfi van, Katar királyi családja vette meg 2011 körül, a hírek szerint több mint 250 millió dollárért, ami akkoriban a festményekért valaha ismert legmagasabb ár volt."
+  },
+  {
+   "type": "text",
+   "text": "A kártyajáték régi téma, és a régebbi képek zajosak: csalók, bor, érmék, készülő verekedés. Keress ebből bármit ezen az asztalon. Nincs pohár, nincs üveg, nincs pénz. Még a dohányt is félretették a játék kedvéért."
+  },
+  {
+   "type": "find",
+   "text": "Az egyik játékos abbahagyta a pipázást, hogy összpontosíthasson. Hová került a pipája?",
+   "spots": [
+    {
+     "title": "A pipa az asztalon",
+     "text": "Fehér agyagpipa fekszik az asztal széle közelében, néhány szétszórt kártya mellett. Az egyetlen szabadon heverő tárgyak egyike az egész képen."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A játék tehát komoly, szinte szertartás. A játékosok nem a festő barátai voltak, hanem a földjén dolgozó emberek: mezei munkások és egy kertész. Cézanne egyenként ültette őket modellnek, mindegyikről külön tanulmányt készített, aztán a vásznon rakta össze a csoportot, mint egy építő."
+  },
+  {
+   "type": "fact",
+   "text": "Cézanne megengedhette magának, hogy lassan fessen, és szinte semmit se adjon el. Az apja kalapkereskedőként kezdte, aztán bankot alapított Aix-ben. Amikor 1886-ban meghalt, a festő vagyont örökölt, és azt a birtokot is, ahol ezek az emberek modellt álltak."
+  },
+  {
+   "type": "text",
+   "text": "A „mint egy építő” nem szólás. A kabátok és kalapok alatt egyszerű vonalakból álló vázszerkezet tartja a helyén a négy férfit."
+  },
+  {
+   "type": "lines",
+   "text": "Bontsd le a jelenetet egészen a gerendákig.",
+   "lines": [
+    {
+     "label": "Az asztallap",
+     "text": "Halvány vízszintes lap horgonyoz le mindent. A játékosok mind a hat keze e mentén gyűlik össze."
+    },
+    {
+     "label": "Három kalap",
+     "text": "A karimák majdnem egy magasságban vannak, mint három oszlop teteje. Minden arc lehajlik a kalapja alatt."
+    },
+    {
+     "label": "A függőleges",
+     "text": "Az álló férfi oszlopként emelkedik a csoport mögött. Nélküle a bal oldal a jobb oldali nehéz alak felé omlana."
+    },
+    {
+     "label": "A tölcsér",
+     "text": "A két szélső játékos válla és alkarja befelé és lefelé lejt. A tekintetedet a középen tartott kicsi kártyalegyezőre terelik."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "E vázszerkezet miatt úgy tűnik, senki sem tud megmozdulni. A férfiaknak magának az asztalnak a súlya van. Cézanne pontosan ezt várta a modelljeitől. Műkereskedője elmesélte, hogy ráförmedt egy modellre, aki megmozdult a székén: megmozdul-e egy alma?"
+  },
+  {
+   "type": "text",
+   "text": "A felület ugyanilyen türelemmel épül. Cézanne nem mos össze. Apró színfoltokat tesz egymás mellé, gyakran ferde, párhuzamos vonásokban, és hagyja, hogy ujjá vagy arccá álljanak össze. Menj közel, és a tömör alakok foltokra esnek szét."
+  },
+  {
+   "type": "tour",
+   "title": "Foltokból építve",
+   "text": "Négy hely, ahol az ecsetkezelés gondolkodik.",
+   "spots": [
+    {
+     "title": "A kék zubbony",
+     "text": "Ez nem egyetlen kék. Ibolya, pala, zöld és majdnem fekete vonások fekszenek egymás mellett, sötét vonalak jelölik a redőket. A ruha inkább faragottnak látszik, mint omlónak."
+    },
+    {
+     "title": "Maszkszerű arc",
+     "text": "A középső játékos szeme két sötét üreg a karima alatt. Piros foltok az arcán és a száján, kifejezés semmi. Cézanne-t nem érdekli, mit érez a lapjai láttán."
+    },
+    {
+     "title": "Az ököl és a mandzsetta",
+     "text": "Nagy narancs és rózsaszín kéz pihen egy ragyogó fehér mandzsetta mellett. A bütykök sötét körvonalát megrajzolja, megtöri, és újra megrajzolja."
+    },
+    {
+     "title": "A függöny",
+     "text": "Nehéz okkerszínű drapéria tölti ki a jobb felső sarkot. Meleg sárgája a közvetlenül alatta lévő hideg kék zubbonyra felel."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Talán észrevettél olyan dolgokat is, amelyek hibásnak tűnnek. Az asztal mintha feléd billenne. Alatta a lábak zavaros gubanc. Senki térde sem illik pontosan. Ezek nem egy ügyetlen kéz hibái. Cézanne minden részt addig igazít, amíg az egész vászon egyensúlyba nem kerül, még ha a szoba már nem is engedelmeskedik a perspektíva szabályainak."
+  },
+  {
+   "type": "key",
+   "text": "Cézanne az embereket úgy kezeli, mint a gyümölcsöt és a hegyeket: tömör formákként, amelyeket színfoltokból kell felépíteni. A téma egy kártyajáték. Az igazi téma az, hogyan áll össze egy festmény."
+  },
+  {
+   "type": "fact",
+   "text": "1961 augusztusában tolvajok törtek be egy aix-en-provence-i kiállításra, és nyolc Cézanne-t vittek el, köztük egyet a kétjátékosos Kártyázók közül. A festményeket néhány hónappal később megtalálták."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "A nézelődő",
+     "text": "Összefont karral, pipával a szájában, vörös sállal a nyakán: a felső fél egyetlen forró színe. A feje szinte érinti a vászon felső szélét."
+    },
+    {
+     "title": "A pipatartó",
+     "text": "Négy agyagpipa lóg sorban a csupasz falon. Ez a szoba egyetlen dísze, és elárulja, hogy ez az a hely, ahol a férfiak az időt múlatják."
+    },
+    {
+     "title": "A rejtett kéz",
+     "text": "A középső játékos közel tartja a lapjait, és csak a sötét hátukat látjuk. Nem avatnak be a játékba."
+    },
+    {
+     "title": "Lapok az asztalon",
+     "text": "Néhány lap színével felfelé fekszik, fehéren piros és kék foltokká egyszerűsítve. Senki sem tudta még megmondani, melyik játékot játsszák."
+    },
+    {
+     "title": "A fiók",
+     "text": "Egyszerű fiók kerek gombbal, kissé a közepétől eltolva. Ilyen durva konyhaasztal áll minden provence-i parasztházban."
+    },
+    {
+     "title": "A szék",
+     "text": "Szalmaülésű okkerszínű szék ível a bal oldali játékos mögött. Sárgája a túloldali függönnyel kapcsolódik össze."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Sok szakértő szerint ez a kis vászon készült el előbb. Cézanne aztán nagyobb, ötalakos változatot próbált, majd elkezdett elvenni dolgokat: a nézelődőt, a pipákat, a függönyt, egy játékost. Az utolsó változatok két férfit mutatnak, akik egy üveg fölött néznek farkasszemet."
+  },
+  {
+   "type": "text",
+   "text": "1906-ban meghalt. A következő évben egy párizsi emlékkiállítás megdöbbentette a fiatal Picassót és Braque-ot, akik a kép különálló síkokból építésének gondolatát továbbvitték a kubizmusba. Léger acélkatonái 1917-ben még egy lap voltak ugyanannál az asztalnál."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Mi hiányzik ebből a kártyajátékból az e témájú régebbi képekhez képest?",
+   "options": [
+    "A kalapok",
+    "A pénz és az italok",
+    "Az asztal"
+   ],
+   "explanation": "Az asztalon sehol sincs pohár, üveg vagy érme."
+  },
+  {
+   "question": "Kik álltak modellt a kártyázókhoz?",
+   "options": [
+    "A Cézanne család birtokán dolgozó férfiak",
+    "Párizsi festőtársak",
+    "Hivatásos aix-i modellek"
+   ],
+   "explanation": "Mezei munkások és egy kertész voltak az Aix közelében lévő birtokról."
+  },
+  {
+   "question": "Hogyan építi fel Cézanne az olyan formát, mint a kék zubbony?",
+   "options": [
+    "Egyetlen sima, összemosott kékkel",
+    "Fényképszerű alárajzolással",
+    "Különböző színek kis foltjaival, egymás mellé téve"
+   ],
+   "explanation": "Ibolya, pala, zöld és sötét vonások állnak össze ruhává."
+  },
+  {
+   "question": "Melyik megsebesült katona-művész felelt erre a festményre 1917-ben?",
+   "options": [
+    "Fernand Léger",
+    "Georges Braque",
+    "Henri Matisse"
+   ],
+   "explanation": "Léger kártyázó katonákat festett gépszerű alakokként."
+  },
+  {
+   "question": "Mit tett Cézanne a későbbi változatokban?",
+   "options": [
+    "Egyre több alakot tett hozzá",
+    "Elvett alakokat és tárgyakat, amíg két játékos maradt",
+    "A játékot a szabadba helyezte át"
+   ],
+   "explanation": "Az utolsó változatok csak két, egymással szemben ülő férfit mutatnak."
+  },
+  {
+   "question": "Hol van a fehér agyagpipa, amelyet az egyik játékos letett?",
+   "options": [
+    "A falra szerelt tartóban",
+    "A fiókban",
+    "Az asztalon, a kártyák közelében"
+   ],
+   "explanation": "Az asztal széle közelében fekszik, szétszórt kártyák mellett."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Cézanne a kártyázókból csak egyetlen változatot festett.",
+   "explanation": "Ötöt festett, öt, négy és két alakkal."
+  },
+  {
+   "text": "A billenő asztal és a bizarr lábak a kép egyensúlya érdekében hozott döntések.",
+   "explanation": "Cézanne minden részt az egész egyensúlyához igazított, a perspektíva ellenére is."
+  },
+  {
+   "text": "Cézanne a festményei eladásából élt.",
+   "explanation": "1886-ban vagyont örökölt a bankár apjától."
+  }
+ ]
+}
