@@ -42,6 +42,8 @@ struct HomeFeedView: View {
     @State private var course: Artwork?
     @State private var sheet: FeedSheet? = FeedSheet.debugInitial
     @State private var showPaywall = false
+    /// The artwork the feed is resting on.
+    @State private var current: String?
 
     private var items: [Artwork] {
         order.compactMap { content.artwork($0) }
@@ -72,6 +74,11 @@ struct HomeFeedView: View {
                     .scrollTargetLayout()
                 }
                 .scrollTargetBehavior(.paging)
+                .scrollPosition(id: $current)
+                .onChange(of: current) { old, new in
+                    // A tick under the finger each time another artwork comes up.
+                    if old != nil, new != nil { Haptics.rigid() }
+                }
                 .scrollIndicators(.hidden)
                 // A new filter starts the feed again from the top.
                 .id(filter)

@@ -465,17 +465,9 @@ struct TrialNotifScreen: View {
         }
     }
 
-    /// Asks for the notification permission (the system only asks once), then moves on.
+    /// Moves on. No permission is asked and no notification is scheduled yet: to be set up before release.
     private func allow() {
-        asking = true
-        Task {
-            let granted = await Reminder.requestPermission()
-            await MainActor.run {
-                reminder = granted
-                asking = false
-                onNext()
-            }
-        }
+        onNext()
     }
 }
 
@@ -799,7 +791,6 @@ struct TrialScreen: View {
             let ok = await pro.purchase(product)
             if ok {
                 Haptics.success()
-                if reminder { Reminder.scheduleTrialEnding(trialDays: chosen.trialDays) }
                 showExitOffer = false
                 onFinish()
             } else if pro.lastError == nil, !showExitOffer {
@@ -1174,9 +1165,6 @@ struct PaywallScreen: View {
             let ok = await pro.purchase(product)
             if ok {
                 Haptics.success()
-                if await Reminder.requestPermission() {
-                    Reminder.scheduleTrialEnding()
-                }
                 onClose()
             }
         }
