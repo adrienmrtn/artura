@@ -8,7 +8,7 @@ enum OnbStep: Int, CaseIterable {
     // 3 · The test
     case testIntro, flashTest, flashResult
     // 4 · The demo
-    case learnToLook, study, abilities, chooseCourse, lesson, afterLesson
+    case study, learnToLook, abilities, chooseCourse, lesson, afterLesson
     // 5 · The turning point: that time can become knowledge
     case phoneTime, phoneResult, attention, projection, graph
     // 6 · The commitment
@@ -177,8 +177,8 @@ struct OnboardingFlow: View {
         case .testIntro: TestIntroScreen(onNext: next)
         case .flashTest: FlashTestScreen(onNext: next)
         case .flashResult: FlashResultScreen(onNext: next)
-        case .learnToLook: LearnToLookScreen(onNext: next)
         case .study: StudyScreen(onNext: next)
+        case .learnToLook: LearnToLookScreen(onNext: next)
         case .abilities: AbilitiesScreen(onNext: next)
         case .chooseCourse: ChooseCourseScreen(onNext: next)
         case .lesson:
