@@ -53,9 +53,7 @@ enum AppLanguage {
     /// (iOS also shows it in Settings > Artura > Language).
     static func set(_ language: String) {
         guard all.contains(language), language != code else { return }
-        let previous = code
         code = language
-        Analytics.track("language_changed", ["from": previous, "to": language])
         bundle = lproj(language)
         UserDefaults.standard.set([language], forKey: "AppleLanguages")
         NotificationCenter.default.post(name: .appLanguageChanged, object: nil)

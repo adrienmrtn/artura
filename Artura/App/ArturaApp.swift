@@ -24,6 +24,8 @@ struct ArturaApp: App {
                 .environment(\.layoutDirection, AppLanguage.isRightToLeft ? .rightToLeft : .leftToRight)
                 .environment(\.appLanguage, language)
                 .onReceive(NotificationCenter.default.publisher(for: .appLanguageChanged)) { _ in
+                    // Language.swift is shared with the widget, which has no analytics: recorded here.
+                    Analytics.track("language_changed", ["from": language, "to": AppLanguage.code])
                     language = AppLanguage.code
                     content.languageChanged()
                 }
