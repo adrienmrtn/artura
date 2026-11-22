@@ -1,59 +1,19 @@
-# Translation status (handover)
+# Translation status
 
-100 lessons (`selection.txt`) are being adapted from English. Read `BRIEF.md` (rules) and `TASK.md` (how one batch of 10 is done); `build.py` extracts, checks and merges.
+100 lessons (`selection.txt`) adapted from English into 29 languages. All of them pass `python3 build.py check <lang>` (structure identical to English, no empty string, no em dash, length limits, glossary file complete) and `python3 build.py merge <lang>` produces `build/<lang>/<slug>.json` (git-ignored, about 34 MB for the 2900 files).
 
-## Done, checked, pushed
-- fr, it, es, de: glossary (`<lang>/meta.json`) + 100 lessons each; `python3 build.py check <lang>` reports 0 problems.
+Languages (folder = code): fr it es de pt (Brazilian, stored as `pt-BR`) pt-PT tr hr nb sv da pl ro nl el hu bg cs ru sl sk sr (Latin script) ar he fi et lt lv ja.
 
-## In progress (agents were stopped mid-batch)
-- pt (Brazilian Portuguese): glossary done, 86 of 100 lessons written; every written file passes the check, but only batch 8 had its final reread.
-- nb (Norwegian Bokmål): glossary done, 83 of 100 lessons written; every written file passes the check, none had its final reread.
+Files: `BRIEF.md` (rules), `TASK.md` / `GLOSSARY_TASK.md` (how one batch / one glossary is done), `<lang>/meta.json` (titles, artists, museums, movements: the glossary), `<lang>/lessons/<slug>.json`, `build.py` (extract / check / merge).
 
-Missing files:
-```
-pt missing:
-  bosch-the-garden-of-earthly-delights
-  botticelli-the-birth-of-venus
-  younger-the-ambassadors
-  rubens-the-three-graces
-  bernini-apollo-and-daphne
-  brun-self-portrait-in-a-straw-hat
-  david-the-death-of-marat
-  hayez-the-kiss
-  hokusai-the-great-wave-off-kanagawa
-  sargent-madame-x
-  degas-the-dance-class
-  rousseau-the-sleeping-gypsy
-  munch-the-scream
-  hoa-hakananai-a-moai
-nb missing:
-  weyden-the-descent-from-the-cross
-  bosch-the-garden-of-earthly-delights
-  botticelli-the-birth-of-venus
-  durer-young-hare
-  younger-the-ambassadors
-  rubens-the-three-graces
-  bernini-apollo-and-daphne
-  fragonard-the-swing
-  brun-self-portrait-in-a-straw-hat
-  david-the-death-of-marat
-  hayez-the-kiss
-  hokusai-the-great-wave-off-kanagawa
-  sargent-madame-x
-  degas-the-dance-class
-  rousseau-the-sleeping-gypsy
-  munch-the-scream
-  hoa-hakananai-a-moai
-```
+Verified: quiz answers, true/false values and zoom coordinates are identical to the English in all 2900 merged lessons.
 
-## Not started (glossary done, 0 lessons)
-- tr, hr, sv, da, pl
+## Supabase (project "Artura", dsbhaddvzpswkjzqskhv): NOTHING LOADED YET
+1. Apply `supabase/migrations/20261122120000_translations.sql` (never applied: the approval prompt timed out). Six `*_translations` tables + two loader functions in schema `private`; English tables untouched; language codes are free-form (BCP 47).
+2. Load: 34 MB is far too much to paste through the SQL tool. Plan: a temporary Edge Function (service role, one-time token) that receives one merged lesson per request and calls `private.upsert_lesson_translation(slug, lang, json)`; call it from the container with curl; delete it afterwards. Movements: `private.upsert_movement_translations(lang, <movements part of meta.json>)`. DB language code = folder name, except `pt` -> `pt-BR` (`build.DB_CODE`).
+3. The iOS app still reads only the English tables.
 
-## Supabase (project "Artura", dsbhaddvzpswkjzqskhv): nothing loaded yet
-1. Apply `supabase/migrations/20261122120000_translations.sql` (never applied: the approval prompt timed out twice). It creates six `*_translations` tables and two loader functions in schema `private`; English tables are untouched.
-2. `python3 build.py merge <lang>` writes `build/<lang>/<slug>.json` (translated text + English coordinates and quiz answers + `meta`; `build/` is git-ignored).
-3. Load each file with `select private.upsert_lesson_translation('<slug>', '<lang>', '<json>'::jsonb)` and each language's movements with `select private.upsert_movement_translations('<lang>', '<meta.json movements>'::jsonb)`. About 1 MB per language: too much to paste through the SQL tool by hand, so it needs a write path from the container (the REST endpoint is reachable with the anon key, which is read-only).
-
-## Not done
-- The iOS app still reads only the English tables.
-- Source inconsistencies reported by translators (Marc "two details" for three spots, Creation of Adam "three places" for four spots, Las Meninas nine vs eleven figures, Jonghelinck spelling, Bosch "strawberry") are unresolved in the English, and handled differently across languages for the Marc one.
+## Known loose ends
+- Source inconsistencies in the English lessons, reported by translators and translated as written (Marc "two details" for three spots, Creation of Adam "three places" for four, Las Meninas nine vs eleven figures, Jonghelinck spelling, Bosch "strawberry" (madroño), Seurat/Gauguin "three kinds"/"two directions" line counts, Cezanne "five versions"). Worth fixing in the English first, then re-propagating.
+- Quotation marks: pt-PT normalised to « »; Latvian lessons mix „ “ and “ ” (not normalised).
+- Titles chosen by translators from memory (not looked up) in every glossary: a native review of `<lang>/meta.json` is advisable before release.
