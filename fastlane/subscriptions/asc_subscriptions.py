@@ -10,6 +10,7 @@ Ce script ne touche JAMAIS au prix de l'abonnement mensuel.
 """
 import argparse
 import base64
+import datetime
 import json
 import os
 import pathlib
@@ -158,8 +159,17 @@ def find_products(api, pricing):
 
 
 # ---------------------------------------------------------------- textes
+LOCKED = "ENTITY_ERROR.ATTRIBUTE.INVALID.UNMODIFIABLE"
+
+
 def sync_localizations(api, found, loc, dry):
     errors = []
+    warnings = []
+
+    def fail(msg, exc):
+        # Texte déjà approuvé/actif : Apple interdit la modification par l'API -> avertissement, pas un échec.
+        (warnings if LOCKED in str(exc) else errors).append(f"{msg}: {str(exc)[:200]}")
+
     names = {"yearly": "Artura_yearly", "monthly": "Artura_monthly", "gift": "Artura_yearly_gift"}
     for key, (gid, sub) in found.items():
         sid = sub["id"]
@@ -182,7 +192,7 @@ def sync_localizations(api, found, loc, dry):
                         api.call("PATCH", f"/v1/subscriptionLocalizations/{cur['id']}", {"data": {
                             "type": "subscriptionLocalizations", "id": cur["id"], "attributes": want}})
             except Exception as e:  # ex. texte déjà approuvé et verrouillé
-                errors.append(f"texte {key} {locale}: {e}")
+                fail(f"texte {key} {locale}", e)
     # groupe : nom affiché + nom d'app
     gid = next(iter(found.values()))[0]
     existing, _ = api.pages(f"/v1/subscriptionGroups/{gid}/subscriptionGroupLocalizations")
@@ -204,7 +214,10 @@ def sync_localizations(api, found, loc, dry):
                     api.call("PATCH", f"/v1/subscriptionGroupLocalizations/{cur['id']}", {"data": {
                         "type": "subscriptionGroupLocalizations", "id": cur["id"], "attributes": want}})
         except Exception as e:
-            errors.append(f"groupe {locale}: {e}")
+            fail(f"groupe {locale}", e)
+    if warnings:
+        print("\nÀ MODIFIER À LA MAIN dans App Store Connect (texte verrouillé par Apple) :")
+        print("\n".join("  - " + w for w in warnings))
     return errors
 
 
@@ -286,6 +299,7 @@ def sync_prices(api, found, pricing, dry):
         if not cur and state == "APPROVED":
             # Sans les prix actuels on ne pourrait pas protéger les abonnés existants : on s'arrête.
             raise RuntimeError(f"Prix actuels illisibles pour {kind} (état {state}), arrêt par sécurité")
+        start_date = (datetime.date.today() + datetime.timedelta(days=1)).isoformat()
         n = 0
         for terr, (ppid, price) in sorted(plan.items()):
             old = cur.get(terr)
@@ -295,6 +309,9 @@ def sync_prices(api, found, pricing, dry):
             if old is not None and float(price) > float(old):
                 attrs["preserveCurrentPrice"] = True  # les abonnés actuels gardent leur prix
             keep = "  [abonnés actuels: ancien prix gardé]" if attrs else ""
+            if state == "APPROVED":
+                # Abonnement déjà approuvé : Apple exige une date d'effet (sinon « Initial price cannot be created again »).
+                attrs["startDate"] = start_date
             print(f"  {terr} ({territories[terr]}): {old} -> {price}{keep}")
             n += 1
             if dry:
