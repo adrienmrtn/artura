@@ -1,0 +1,210 @@
+{
+ "teaser": "Kilenc ember, egy kutya, és egy festő, aki mintha téged festene.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Számold meg, hányan néznek a teremben egyenesen rád. A festő igen. A fehér ruhás kislány is. A jobb oldalon álló, sötét ruhás nő szintén. Most jön a kellemetlen kérdés: miért néz rád egy 1656-os spanyol udvar?"
+  },
+  {
+   "type": "text",
+   "text": "A terem valódi. A madridi királyi palota, az Alcázar egyik hosszú galériája volt, itt rendezte be a műtermét Diego Velázquez. Ötvenhét éves volt, és több mint harminc éve IV. Fülöp király festője. És beleállította magát a képbe, ecsettel a kezében, egy akkora vászon mögé, hogy csak a hátát látjuk."
+  },
+  {
+   "type": "find",
+   "text": "A képen két ember nem áll a teremben a többiekkel. Koppints oda, ahol szerinted vannak.",
+   "spots": [
+    {
+     "title": "A tükör",
+     "text": "A hátsó falon egy keret világít, míg a körülötte lévő festmények sötétek. Tükör. Egy vörös függöny alatt benne látszik IV. Fülöp király és Mariana királyné halvány feje."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Ha a királyi pár egy velünk szemben lévő tükörben jelenik meg, akkor ott állnak, ahol mi. Ez megfejti a rejtvényt, és felvet még hármat. Velázquez az ő portréjukat festi? A tükör őket tükrözi, vagy azt a vásznat, amelyen dolgozik? Épp most léptek be, hogy megzavarják? A kép nem árulja el."
+  },
+  {
+   "type": "key",
+   "text": "A Las Meninas a legfontosabb embereket a képen kívülre, a te helyedre teszi. Nem egy jelenetet nézel. Benne állsz."
+  },
+  {
+   "type": "fact",
+   "text": "Közel két évszázadon át a képnek nem volt költői neve. A palotai leltárak „IV. Fülöp családja” néven vették számba. A Las Meninas cím csak egy 1843-as Prado-katalógusban tűnik fel. A menina királyi gyermeket szolgáló fiatal nemes kisasszony volt."
+  },
+  {
+   "type": "text",
+   "text": "A középen álló kislány Margarita infánsnő, öt éves, a király lánya. Körülötte mindenkinek megvan a maga udvari feladata, és Velázquez név szerint ismerte mindegyiküket. Az teszi élővé a csoportot, hogy kettejük közül sem csinál ugyanazt a szemével."
+  },
+  {
+   "type": "tour",
+   "title": "Négyféle tekintet",
+   "text": "Kövesd a pillantásokat a teremben, a festőtől a távoli ajtóig.",
+   "spots": [
+    {
+     "title": "A festő",
+     "text": "Velázquez hátradől a vászna mellől, megállt a keze az ecsettel. Valaki, aki a modellt veti össze azzal, amit eddig megfestett. A modell ott van, ahol te vagy."
+    },
+    {
+     "title": "Az infánsnő",
+     "text": "A feje balra fordul, de a szeme visszacsúszik felénk, ahogy a gyerekeké szokott, ha valami érdekesebb lép be a szobába."
+    },
+    {
+     "title": "Maribárbola",
+     "text": "Németországból származó udvari törpe, sötétkékben. Egyenesen és minden szertartás nélkül néz ránk, ez az egész kép legállhatatosabb tekintete."
+    },
+    {
+     "title": "A férfi a lépcsőn",
+     "text": "A fényes ajtóban José Nieto, a királyné főkamarása megáll a lépcsőn, és visszanéz. Ő az egyetlen, aki mindent lát: a termet, a vásznat és a királyi párt."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Egyesek már észrevettek, mások még nem. A balra térdelő udvarhölgy még az infánsnővel foglalatoskodik. A jobb szélen álló fiú a lábával ugratja a kutyát. Ez a keveredés teszi, hogy a jelenet úgy hat, mint egy levegőben elkapott másodperc, kétszáz évvel az első fényképezőgép előtt."
+  },
+  {
+   "type": "text",
+   "text": "A báj mögött ambíció áll. Spanyolországban a festészetet még megadóztatták, és kétkezi mesterségnek tekintették, mint az ácsmunkát. Velázquez azt akarta, hogy nemes művészetnek ismerjék el, őt magát pedig nemesnek. Ezért mutatja a festőt gondolkodás közben, nem munka közben, királyi személyek között otthonosan, éppoly magasan, mint bárki a teremben."
+  },
+  {
+   "type": "fact",
+   "text": "A vörös kereszt Velázquez mellén a Santiago-rend jelvénye, a lovagi címet csak 1659-ben kapta meg, három évvel a festmény elkészülte után. Utólag került a képre. Egy legenda szerint a király maga festette fel."
+  },
+  {
+   "type": "text",
+   "text": "Most felejtsd el az embereket, és nézd, hogyan van felosztva a vászon. Egy csoportképhez furcsán van megszerkesztve: nagy része egyáltalán nem tartalmaz senkit."
+  },
+  {
+   "type": "lines",
+   "text": "Három vonal mutatja, hogyan szerveződik a terem.",
+   "lines": [
+    {
+     "label": "Az üres fél",
+     "text": "Ami e vonal fölött van, az mennyezet, árnyék és homályos festmények. Mind a tizenegy alak az alsó felében él. A fölöttük levő sötét tér miatt érződik a terem olyan magasnak és olyan csendesnek."
+    },
+    {
+     "label": "A fejek hulláma",
+     "text": "Kösd össze a fejeket a festőtől a fiúig, és olyan vonalat kapsz, amely lesüllyed, felemelkedik, aztán újra lesüllyed. Senki sincs felsorakoztatva, mint egy hivatalos portrén."
+    },
+    {
+     "label": "Fény jobbról",
+     "text": "A nappali fény egy jobb oldali ablakból érkezik, amelyet nem látunk. Az infánsnő halvány hajára és ruhájára esik a legerősebben, így ő ragyog anélkül, hogy a legnagyobb alaknak kellene lennie."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Második fény a hátul nyitott ajtóból jön, messze mindenki mögött. E két fény között Velázquez valami nagyon nehezen megfesthetőt fest: magát a levegőt. Az alakok annál lágyabbak és szürkébbek, minél mélyebben állnak, pont úgy, ahogy egy hosszú, poros teremben."
+  },
+  {
+   "type": "text",
+   "text": "Mindezt elképesztően kevéssel éri el. A madridi galéria túlsó faláról a selymek varrottnak és kikeményítettnek látszanak. Lépj közel a vászonhoz, amely körülbelül 3,2 méter magas, és a ruhák laza lendületekké és maszatokká válnak. A részlet a szemedben jön létre, nem a felületen."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "A vörös kereszt",
+     "text": "A Santiago-kereszt, amelyet a fekete mellényre festettek, évekkel a többi után."
+    },
+    {
+     "title": "Egy pohár víz",
+     "text": "A térdelő menina, María Agustina Sarmiento, kis vörös agyagkancsót nyújt az infánsnőnek egy tálcán. Az illatos agyagpoharak a hűs víz ivásának divatos módja voltak."
+    },
+    {
+     "title": "A rejtett vászon",
+     "text": "Csak a fa feszítőkeretet és a vászon nyers hátoldalát látjuk. Nagyjából olyan magas, mint maga a Las Meninas, ezért sokan elgondolkodtak, hogy talán ezt a képet festi."
+    },
+    {
+     "title": "A masztiff",
+     "text": "Nagy, álmos spanyol masztiff, türelmesen tűri a fiú lábát. A szőrét néhány széles, száraz ecsetvonással festették."
+    },
+    {
+     "title": "Nicolasito",
+     "text": "Nicolasito Pertusato, egy fiatal olasz udvari törpe, oldalba böki a kutyát. Az övé az egyetlen valódi mozgás a teremben."
+    },
+    {
+     "title": "Kettő az árnyékban",
+     "text": "Fehér özvegyi fejkötőt viselő felügyelőnő beszél egy alig látható testőrrel, akinek az arca elmosódott marad. Velázquez hagyja, hogy a félhomály elnyelje őket."
+    },
+    {
+     "title": "A második menina",
+     "text": "Isabel de Velasco meghajlásba kezd. A teste az infánsnő felé hajlik, de a szeme már a látogatókhoz fordult."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "1734 szenteste leégett az Alcázar. Festmények százai vesztek oda. A Las Meninast megmentették, megsérült, később a szélein levágták. A palota, amelyet ábrázol, már nem létezik: a helyén a madridi Királyi Palota áll."
+  },
+  {
+   "type": "text",
+   "text": "A festők azóta is e vászon körül keringenek. Az olasz Luca Giordano egy nemzedékkel később látva „a festészet teológiájának” nevezte, a legmagasabb dolognak, amire ez a művészet képes. 1957-ben Picasso hónapokra bezárkózott, és 58 változatot festett róla, alakról alakra szétszedve."
+  },
+  {
+   "type": "text",
+   "text": "Velázquez 1660-ban halt meg, négy évvel a kép elkészülte után, és nem hagyott magyarázatot. Így az első kérdés még mindig áll. Amikor a Las Meninas elé állsz, te vagy a király, a királyné, a látogató az ajtóban, vagy egyszerűen a következő ember, akit a festő tanulmányozni készül?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Ki látszik a hátsó falon lévő tükörben?",
+   "options": [
+    "Velázquez és a felesége",
+    "IV. Fülöp király és Mariana királyné",
+    "Az infánsnő két fivére"
+   ],
+   "explanation": "A világító keret tükör, amely a királyi párt mutatja, akik ott állhatnak, ahol a néző."
+  },
+  {
+   "question": "Mit jelentett a „menina” szó a spanyol udvarban?",
+   "options": [
+    "Királyi gyermeket szolgáló fiatal nemes kisasszonyt",
+    "Egy udvari festő segédjét",
+    "A trónt öröklő hercegnőt"
+   ],
+   "explanation": "A meninák fiatal udvarhölgyek voltak, mint a két, az infánsnőt kísérő lány."
+  },
+  {
+   "question": "Miért meglepő a vörös kereszt a festő mellén?",
+   "options": [
+    "Rossz színű a rendjéhez képest",
+    "Picasso festette",
+    "A lovagi címet három évvel a kép elkészülte után kapta meg"
+   ],
+   "explanation": "1659-ben lett a Santiago-rend tagja, tehát a keresztet utólag festették rá."
+  },
+  {
+   "question": "Hogyan használja a vászon felső felét?",
+   "options": [
+    "Tele van angyalokkal",
+    "Szinte üres: mennyezet, árnyék és homályos festmények",
+    "Udvaroncok második sorát mutatja"
+   ],
+   "explanation": "Az összes alak az alsó felében van, és a fölötte lévő sötét tér miatt tűnik a terem magasnak és csendesnek."
+  },
+  {
+   "question": "Mit csinált Picasso a Las Meninasszal 1957-ben?",
+   "options": [
+    "58 változatot festett róla",
+    "Restaurálta a Prado számára",
+    "Vett egy másolatot belőle"
+   ],
+   "explanation": "Hónapokig dolgozta át a kompozíciót 58 vászonból álló sorozatban."
+  }
+ ],
+ "facts": [
+  {
+   "text": "A festményt Velázquez elkészülte óta Las Meninasnak hívják.",
+   "explanation": "„IV. Fülöp családja” néven tartották nyilván, és mai címét csak 1843-ban kapta."
+  },
+  {
+   "text": "A Las Meninas túlélte a tüzet, amely elpusztította a palotát, ahol festették.",
+   "explanation": "Megmentették, amikor 1734-ben leégett a madridi Alcázar."
+  },
+  {
+   "text": "A jelenet fő fénye a mennyezeten lévő csillárból jön.",
+   "explanation": "A nappali fény egy nem látható jobb oldali ablakból érkezik, második fény pedig a hátsó ajtóból."
+  }
+ ]
+}

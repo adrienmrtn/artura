@@ -1,0 +1,186 @@
+{
+ "teaser": "Egy római építész feladványt adott fel a testről. Tizenöt évszázaddal később egyetlen papírlap megfejtette.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Nagyjából i. e. 25-ben egy Vitruvius nevű római építész leírt valamit az emberi testről. Ha egy jó testalkatú férfit hanyatt fektetünk, szétvetett karral és lábbal, a köldökéből húzott kör szerinte érinti az ujjai és a lábujjai végét. Ha felállítjuk kitárt karral, négyzetbe is éppúgy belefér, mert karfesztávolsága egyenlő a magasságával."
+  },
+  {
+   "type": "text",
+   "text": "A részlet egy templomépítésről szóló könyvben áll. Vitruvius azt akarta kifejezni, hogy a jó építészetnek a test arányait kell másolnia. A könyv ábrái nem maradtak fenn, így amikor a reneszánsz tudósok újra felfedezték, a művészek nekiálltak megrajzolni a kör és a négyzet emberét. A legtöbb próbálkozás megnyúltra vagy merevre sikerült."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo da Vinci 1490 körül vette elő a feladványt, Milánóban dolgozva. Mások azt feltételezték, hogy a körnek és a négyzetnek ugyanaz a középpontja kell hogy legyen, mint egy céltáblának. Nézd meg, egyetért-e ezzel Leonardo."
+  },
+  {
+   "type": "lines",
+   "text": "Négy vonal árulja el Leonardo megoldását.",
+   "lines": [
+    {
+     "label": "A kör",
+     "text": "Felemelt karral és terpeszben az ujjhegyek és a talpak érintik a kört. A középpontja a köldök, pontosan ahogy a római szöveg megköveteli."
+    },
+    {
+     "label": "A négyzet",
+     "text": "Összezárt lábbal és vízszintes karral a férfi mind a négy oldalt érinti. A négyzet a kör aljára támaszkodik, de a felső sarkainál kilóg belőle."
+    },
+    {
+     "label": "Fesztáv és magasság",
+     "text": "Ujjhegytől ujjhegyig a kitárt karok olyan szélesek, mint amilyen magas a férfi. Ezért fér bele az álló alak egyáltalán egy négyzetbe."
+    },
+    {
+     "label": "Két középpont",
+     "text": "A kör a köldök körül forog. A négyzet középpontja lejjebb van, az ágyéknál. Leonardo hagyja, hogy a két forma elcsússzon egymástól, és a test egyszerre mindkettőbe belefér, torzítás nélkül."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Ez a kis eltolás az egész felfedezés. Leonardo nem hajlította a férfit a geometriához, ahogy a korábbi művészek. Megbízott a testben, és a geometriát mozgatta. Aztán még tovább ment, és csendben kijavította az ókori szerzőt ott, ahol a valódi férfiakon végzett saját mérései mást mutattak."
+  },
+  {
+   "type": "key",
+   "text": "A vitruviusi ember legalább annyira kísérlet, mint rajz: egy régi szöveg próbája egy valódi testen, és a test győz."
+  },
+  {
+   "type": "fact",
+   "text": "A lap kicsi, nagyjából 34 × 24 centiméter, alig nagyobb egy A4-es lapnál. Leonardo előbb fémhegyű rajzeszközzel és körzővel karcolta fel a szerkesztést, majd tollal és barna tintával húzta át."
+  },
+  {
+   "type": "text",
+   "text": "Van benne egy időbeli trükk is. Egy férfit látsz négy karral és négy lábbal, és mégis könnyedén egyetlen testként olvasod, amely helyzetet vált. Ha fejben összerakod a végtagokat, a férfi pózról pózra ugrál, kicsit úgy, mint egy animáció képkockái, négyszáz évvel korábban."
+  },
+  {
+   "type": "fact",
+   "text": "A szöveg sorai visszafelé, jobbról balra futnak, és tükörben olvashatók rendesen. Leonardo balkezes volt, és egész életében így írta a magánjegyzeteit, talán csak azért, hogy a keze ne maszatolja el a nedves tintát."
+  },
+  {
+   "type": "text",
+   "text": "Ez tehát egy munkafüzet lapja, az alak köré tekert szavakkal. Az írás méreteket sorol, a rajz pedig apró jeleket hordoz, amelyeket a legtöbben nem vesznek észre, mert megállnak a híres sziluettnél."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Jegyzetek fent",
+     "text": "Tükörírással Leonardo azzal kezd, hogy megnevezi Vitruviust, aztán sorolja az egységeket: négy ujjnyi egy tenyér, négy tenyér egy láb, hat tenyér egy könyöknyi, négy könyöknyi egy ember."
+    },
+    {
+     "title": "Az arc",
+     "text": "Szigorú, összeráncolt homlokú arc, vastag fürtökkel övezve, sokkal egyénibb, mint amennyit egy ábra megkíván. Halvány vonalak szelik át, az áll, az orr és a szemöldök arányait jelölve."
+    },
+    {
+     "title": "A köldök",
+     "text": "Itt állt a körző hegye. A kör minden pontja ugyanolyan távol van ettől a ponttól."
+    },
+    {
+     "title": "A mérce",
+     "text": "A négyzet alatt mérővonal fut, apró jelekkel tenyérnyi részekre osztva, mindkét végén finomabb ujjnyi jelekkel. Ez a rajz saját méretaránya."
+    },
+    {
+     "title": "Profilból látszó láb",
+     "text": "Az egyik álló láb felénk mutat, a másik oldalra fordul. Oldalról nézve a teljes hossza lemérhető: Leonardo a lábat a magasság egyhetedének veszi."
+    },
+    {
+     "title": "Felemelt kéz",
+     "text": "A felemelt kar középső ujja a fej tetejével azonos magasságban éri el a kört. Ezt az összefüggést Leonardo a jegyzeteiben is kimondja."
+    },
+    {
+     "title": "Jegyzetek lent",
+     "text": "További arányok tükörírással: a karfesztáv egyenlő a magassággal, az arc a tizede annak, és így tovább lefelé a testen, mind egyszerű tört."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Miért számítottak ennyit az ilyen törtek? Leonardo korának gondolkodói szerették azt az eszmét, hogy az ember a világegyetem kicsinyített mása. A kör az eget jelképezte, a négyzet a földet. Az a test, amely mindkettőt érinti, számukra annak bizonyítéka volt, hogy az ember mindkét világhoz tartozik."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo sosem tette közzé a lapot. A hagyatékában maradt, magángyűjteményeken át jutott el a velencei Accademiába 1822-ben. Egyetemes emblémává csak később vált az orvostudományban, a tudományban, a sportban és általában „az emberben”."
+  },
+  {
+   "type": "fact",
+   "text": "Az olaszok a zsebükben hordják ezt a rajzot: rajta van az olasz egyeurós érmén. Az eredetit ezzel szemben szinte soha nem lehet látni. A fény halványítja a tintát, ezért sötét, klimatizált raktárban őrzik, és csak néhány évente mutatják meg rövid időre."
+  },
+  {
+   "type": "text",
+   "text": "Amikor Franciaország 2019-ben, Leonardo halálának 500. évfordulójára kölcsön kérte, egy olasz örökségvédő csoport bírósághoz fordult, hogy megakadályozza a kölcsönzést, mondván, a lap túl törékeny az utazáshoz. A bírák engedték. Néhány hétig a Louvre-ban függött, aztán visszakerült a sötétbe."
+  },
+  {
+   "type": "text",
+   "text": "Későbbi művészek és építészek újra meg újra visszatértek a kérdéshez, amelyet Leonardo itt megválaszolt. A XX. században Le Corbusier egy egész építészeti mértékrendszert tervezett egy álló, karját felemelő férfi köré. Az az elgondolás, hogy a tereinket a testünkre kell szabni, Vitruviusszal kezdődik, de ezt az arcot viseli."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Honnan ered a körbe és négyzetbe foglalt ember ötlete?",
+   "options": [
+    "Egy középkori orvosi kézikönyvből",
+    "A római Vitruvius építészeti könyvéből",
+    "Egy álomból, amelyet Leonardo leírt"
+   ],
+   "explanation": "Vitruvius az építészeti értekezésében írta le, ezért viseli a rajz a nevét."
+  },
+  {
+   "question": "Mi volt Leonardo kulcslépése a feladvány megoldásában?",
+   "options": [
+    "A kör és a négyzet középpontját különbözőnek vette",
+    "A férfi karját a természetesnél hosszabbra rajzolta",
+    "A négyzetet háromszögre cserélte"
+   ],
+   "explanation": "A kör középpontja a köldök, a négyzeté az ágyék, így a test torzítás nélkül belefér mindkettőbe."
+  },
+  {
+   "question": "Miért tűnik furcsának a kézírás?",
+   "options": [
+    "Az Accademia által kitalált titkosírás",
+    "Egy későbbi tulajdonos tette hozzá",
+    "Tükörírás, jobbról balra fut"
+   ],
+   "explanation": "A balkezes Leonardo visszafelé írta a jegyzeteit, tükörben olvashatók."
+  },
+  {
+   "question": "Mi az apró jelekkel osztott vonal a négyzet alatt?",
+   "options": [
+    "Tenyerekre és ujjakra osztott mérce",
+    "Egy repedés a papíron",
+    "Egy kottavonal"
+   ],
+   "explanation": "Mérővonal, amely ugyanazokat az egységeket használja, mint a jegyzetek."
+  },
+  {
+   "question": "Miért állítják ki ilyen ritkán az eredeti rajzot?",
+   "options": [
+    "Magántulajdonban van",
+    "A fény kifakítja a törékeny lap tintáját",
+    "Túl nagy ahhoz, hogy kiakasszák"
+   ],
+   "explanation": "A papír és a tinta fényérzékeny, ezért az idő nagy részében sötét raktárban tartják."
+  },
+  {
+   "question": "A test melyik része érinti a négyzet felső oldalát?",
+   "options": [
+    "Csak a felemelt ujjhegyek",
+    "A vállak",
+    "A fej teteje"
+   ],
+   "explanation": "Egyenesen állva a férfi feje a felső oldalt, a lába az alsót éri."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Leonardo rajzán a körnek és a négyzetnek közös a középpontja.",
+   "explanation": "A kör középpontja a köldök, a négyzeté lejjebb, az ágyéknál van."
+  },
+  {
+   "text": "A vitruviusi ember rajta van az olasz egyeurós érmén.",
+   "explanation": "Olaszország ezt a rajzot választotta az egyeurós érme nemzeti oldalára."
+  },
+  {
+   "text": "A rajz nagyjából életnagyságú.",
+   "explanation": "A lap mindössze 34 × 24 centiméter körüli, nagyjából egy A4-es lapnyi."
+  }
+ ]
+}
