@@ -199,7 +199,7 @@ def sync_localizations(api, found, loc, dry):
                         "attributes": {"locale": locale, **want},
                         "relationships": {"subscriptionGroup": {"data": {"type": "subscriptionGroups", "id": gid}}}}})
             elif (cur["attributes"].get("name"), cur["attributes"].get("customAppName")) != (want["name"], want["customAppName"]):
-                print(f"~ groupe {locale}: {cur['attributes'].get('name')} -> {want['name']}")
+                print(f"~ groupe {locale}: {cur['attributes'].get('name')} / {cur['attributes'].get('customAppName')} -> {want['name']} / {want['customAppName']}")
                 if not dry:
                     api.call("PATCH", f"/v1/subscriptionGroupLocalizations/{cur['id']}", {"data": {
                         "type": "subscriptionGroupLocalizations", "id": cur["id"], "attributes": want}})
@@ -253,7 +253,8 @@ def plan_prices(api, sub, kind, pricing, territories):
 
 
 def current_prices(api, sid):
-    data, inc = api.pages(f"/v1/subscriptions/{sid}/prices", {"include": "subscriptionPricePoint"})
+    data, inc = api.pages(f"/v1/subscriptions/{sid}/prices",
+                          {"include": "subscriptionPricePoint,territory"})
     pts = {i["id"]: i["attributes"]["customerPrice"] for i in inc if i["type"] == "subscriptionPricePoints"}
     today = time.strftime("%Y-%m-%d")
     cur = {}
@@ -261,11 +262,11 @@ def current_prices(api, sid):
         start = d["attributes"].get("startDate")
         if start and start > today:
             continue
-        t = rel_id(d, "territory")
+        pp = rel_id(d, "subscriptionPricePoint")
+        t = rel_id(d, "territory") or (pp_territory({"id": pp}) if pp else None)
         if t is None:
             continue
         key = start or ""
-        pp = rel_id(d, "subscriptionPricePoint")
         if t not in cur or key >= cur[t][0]:
             cur[t] = (key, pts.get(pp))
     return {t: v[1] for t, v in cur.items() if v[1] is not None}
@@ -281,6 +282,10 @@ def sync_prices(api, found, pricing, dry):
         print(f"\n== Prix {kind} ({sub['attributes'].get('productId')}) ==")
         plan = plan_prices(api, sub, kind, pricing, territories)  # tout est calculé avant d'écrire
         cur = current_prices(api, sid)
+        state = sub["attributes"].get("state")
+        if not cur and state == "APPROVED":
+            # Sans les prix actuels on ne pourrait pas protéger les abonnés existants : on s'arrête.
+            raise RuntimeError(f"Prix actuels illisibles pour {kind} (état {state}), arrêt par sécurité")
         n = 0
         for terr, (ppid, price) in sorted(plan.items()):
             old = cur.get(terr)
@@ -289,7 +294,8 @@ def sync_prices(api, found, pricing, dry):
             attrs = {}
             if old is not None and float(price) > float(old):
                 attrs["preserveCurrentPrice"] = True  # les abonnés actuels gardent leur prix
-            print(f"  {terr} ({territories[terr]}): {old} -> {price}")
+            keep = "  [abonnés actuels: ancien prix gardé]" if attrs else ""
+            print(f"  {terr} ({territories[terr]}): {old} -> {price}{keep}")
             n += 1
             if dry:
                 continue

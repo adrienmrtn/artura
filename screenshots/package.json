@@ -1,0 +1,13 @@
+{
+  "name": "artura-screenshots",
+  "private": true,
+  "description": "Fonts used by render.py to draw the App Store screenshots in every script",
+  "dependencies": {
+    "@fontsource/figtree": "^5.0.0",
+    "@fontsource/noto-sans": "^5.0.0",
+    "@fontsource/noto-sans-arabic": "^5.0.0",
+    "@fontsource/noto-sans-hebrew": "^5.0.0",
+    "@fontsource/noto-sans-jp": "^5.0.0",
+    "@fontsource/noto-sans-kr": "^5.0.0"
+  }
+}

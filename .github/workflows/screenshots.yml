@@ -1,0 +1,65 @@
+name: App Store screenshots
+
+# À lancer à la main : onglet Actions > « App Store screenshots » > Run workflow.
+# 1. Génère les 6 captures (version B) dans les 29 langues avec screenshots/render.py,
+#    à partir de screenshots/headlines.json et des traductions de l'app (Artura/Resources).
+# 2. Les met à disposition en téléchargement (artefact « screenshots ») pour les vérifier.
+# 3. Si « upload » est coché, les envoie sur App Store Connect en remplaçant celles en ligne.
+# Secrets : les mêmes que pour « App Store metadata » (ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8).
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version de l'app dans App Store Connect"
+        default: "2.0"
+        required: true
+      upload:
+        description: "Envoyer sur App Store Connect (décoché : génère seulement)"
+        type: boolean
+        default: true
+
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Outils de rendu (polices, Chromium)
+        working-directory: screenshots
+        run: |
+          npm install --no-audit --no-fund
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Génération des captures (29 langues)
+        working-directory: screenshots
+        env:
+          ARTURA_APP: ${{ github.workspace }}/Artura/Resources
+          SHOTS_OUT: ${{ github.workspace }}/fastlane/screenshots
+        run: python render.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: fastlane/screenshots
+
+      - uses: ruby/setup-ruby@v1
+        if: ${{ inputs.upload }}
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Envoi des captures vers App Store Connect
+        if: ${{ inputs.upload }}
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          APP_VERSION: ${{ inputs.version }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+        run: bundle exec fastlane screenshots
