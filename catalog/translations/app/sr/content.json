@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Italijanska renesansa",
+   "period": "15. i 16. vek",
+   "summary": "Perspektiva i povratak antici",
+   "description": "U Italiji, a potom i širom Evrope, umetnici ponovo otkrivaju antiku, proučavaju ljudsko telo i izmišljaju perspektivu. Slika postaje prozor u svet."
+  },
+  "siecledor": {
+   "name": "Zlatno doba Holandije",
+   "period": "17. vek",
+   "summary": "Svakodnevica i svetlost",
+   "description": "U bogatoj Holandskoj Republici umetnici slikaju za građanske domove: tihe enterijere, portrete, mrtve prirode. Svetlost postaje pravi junak slike."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "Od 17. do 19. veka",
+   "summary": "Grafike „plutajućeg sveta“",
+   "description": "U Japanu se drvorezi štampaju u serijama i prikazuju glumce, pejzaže i prizore iz svakodnevnog života. Njihove ravne površine boje i smeli kadrovi uzdrmaće evropske slikare."
+  },
+  "impressionnisme": {
+   "name": "Impresionizam",
+   "period": "1870-ih i 1880-ih",
+   "summary": "Slikati svetlost trenutka",
+   "description": "Grupa slikara izlazi iz ateljea i radi na otvorenom, brzim, sitnim potezima. Više ih ne zanima detalj, već dejstvo svetlosti u jednom tačno određenom trenutku."
+  },
+  "postimp": {
+   "name": "Postimpresionizam",
+   "period": "1886–1905",
+   "summary": "Najpre boja i osećanje",
+   "description": "Posle impresionizma svako traži sopstveni put. Boja više ne oponaša stvarnost: ona izražava ono što slikar oseća."
+  },
+  "secession": {
+   "name": "Art nuvo i bečka secesija",
+   "period": "Oko 1900.",
+   "summary": "Zlato, ornament i vijugave linije",
+   "description": "U Beču mladi umetnici raskidaju sa akademijom. Spajaju slikarstvo, dekoraciju i zanat, a ornament pretvaraju u poseban jezik."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Zvezdana noć",
+   "artist": "Vinsent van Gog",
+   "yearLabel": "1889",
+   "museum": "Muzej moderne umetnosti, Njujork",
+   "teaser": "Uskovitlano nebo, naslikano po sećanju u sobi jedne bolnice.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Jun 1889. Vinsent van Gog ima 36 godina. Mesec dana ranije, posle teškog sloma u Arlu, sam se prijavio u psihijatrijsku bolnicu u Sen Remi de Provansu, na jugu Francuske."
+    },
+    {
+     "type": "text",
+     "text": "Prozor njegove sobe gleda na istok. Kroz njega vidi pšenično polje, brda Alpiji i, pred zoru, nebo. Taj prizor slika iznova i iznova, u svako doba dana."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gog je počeo da slika tek sa 27 godina. Za desetak godina naslikao je oko 900 slika, ponekad i po jednu dnevno."
+    },
+    {
+     "type": "tour",
+     "text": "Evo najslavnijeg od tih neba. Pogledaj ga u celini, pa dodirni ekran i uđi u sliku.",
+     "spots": [
+      {
+       "title": "Vrtlog",
+       "text": "U sredini se dva velika talasa uvijaju jedan u drugi. Nijedno pravo nebo ne izgleda ovako: on slika ono što oseća, a ne ono što vidi."
+      },
+      {
+       "title": "Mesec",
+       "text": "Narandžasti srp u žutom oreolu. Gotovo da liči na sunce. Van Gog nanosi boju kratkim potezima koji kruže oko njega."
+      },
+      {
+       "title": "Jutarnja zvezda",
+       "text": "Najbelja svetlost na slici. Van Gog je pisao bratu da je pred izlazak sunca video jutarnju zvezdu, veoma veliku. To je najverovatnije Venera."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ova slika nije nastala noću, a ni pred samim prizorom. Van Gog ju je naslikao po danu, u svom ateljeu u bolnici, po sećanju i iz mašte. Za njega je to bilo neobično: inače je slikao ono što mu je bilo pred očima."
+    },
+    {
+     "type": "key",
+     "text": "Zvezdana noć naslikana je po danu, po sećanju. To nije pogled kroz prozor. To je vizija."
+    },
+    {
+     "type": "text",
+     "text": "O noćnom nebu sanjao je odavno. Godinu dana ranije napisao je da ga pogled na zvezde uvek natera da sanjari."
+    },
+    {
+     "type": "find",
+     "text": "Jedan detalj ovog pejzaža stigao je pravo iz njegovog detinjstva u Holandiji. Gde je zvonik?",
+     "spots": [
+      {
+       "title": "Zvonik",
+       "text": "Tanak, šiljat toranj, kao u holandskim selima u kojima je Van Gog odrastao. Crkveni tornjevi u Provansi ne izgledaju tako."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Izmišljeno je i selo, ili je bar premešteno: sa njegovog prozora nije se videlo. Van Gog spaja pravo nebo, prava brda i selo iz sećanja."
+    },
+    {
+     "type": "fact",
+     "text": "Na prozoru njegove sobe u bolnici bile su gvozdene rešetke. Nije ih naslikao ni na jednoj slici tog pogleda."
+    },
+    {
+     "type": "lines",
+     "text": "Slika deluje nemirno. A zapravo je pažljivo sagrađena.",
+     "lines": [
+      {
+       "label": "Vertikala čempresa",
+       "text": "Seče celu sliku, od zemlje do gornje ivice, i daje joj meru: nebo je ogromno."
+      },
+      {
+       "label": "Njen odjek: zvonik",
+       "text": "Druga, sićušna vertikala koja odgovara čempresu. Jednu je stvorila priroda, drugu čovek."
+      },
+      {
+       "label": "Talas na nebu",
+       "text": "Oko prati ovo S sleva nadesno, sve do meseca."
+      },
+      {
+       "label": "Nagib brda",
+       "text": "Dijagonala koja se spušta ka selu i štiti ga, kao ruka."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sad pogledaj poteze kista. Nigde nema glatkih prelaza. Kratki, debeli potezi nižu se jedan uz drugi i svaki ima svoj smer. Pokret stvara sam potez."
+    },
+    {
+     "type": "text",
+     "text": "Slikari ovakav gust nanos boje zovu „impasto“. Van Gog je ponekad boju istiskivao gotovo pravo iz tube. Izbliza je površina platna hrapava kao reljefna karta."
+    },
+    {
+     "type": "tour",
+     "title": "Izbliza",
+     "text": "Hajde da priđemo samoj boji.",
+     "spots": [
+      {
+       "title": "Boja",
+       "text": "Vidi koliko je gusta: leži u kratkim, teškim potezima, gotovo kao reljef. To se zove impasto."
+      },
+      {
+       "title": "Čempres",
+       "text": "Taman i uvijen kao plamen, spaja zemlju i nebo. Na jugu Francuske to je drvo grobalja. Van Gogu se činio lepim kao egipatski obelisk."
+      },
+      {
+       "title": "Brda",
+       "text": "Alpiji. Talasaju se kao more, nošeni istim pokretom kao i nebo."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Čempres je važan. To je najtamniji oblik na slici i jedini koji dodiruje i tlo i vrh neba. Tog leta Van Gog je bio opčinjen ovim drvećem."
+    },
+    {
+     "type": "palette",
+     "text": "Plava, žuta i gotovo ništa drugo. Dodirni jednu boju.",
+     "swatches": [
+      {
+       "name": "Tamnoplava",
+       "text": "Dubina neba i brda. Van Gog je koristio ultramarin i kobaltnu plavu."
+      },
+      {
+       "name": "Svetloplava",
+       "text": "Vrtlozi. Nanesena gustim potezima, ona okreće nebo."
+      },
+      {
+       "name": "Žuta",
+       "text": "Mesec, zvezde, prozori. Zauzima sićušan deo površine, a ipak sve osvetljava."
+      },
+      {
+       "name": "Zelenocrna",
+       "text": "Čempres i senke u selu. Najtamnija masa na slici."
+      },
+      {
+       "name": "Zelenkastobela",
+       "text": "Oreoli oko zvezda: zbog njih zvezde trepere."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Plava i žuta stoje gotovo jedna naspram druge na krugu boja. Kad se nađu jedna pored druge, svaka čini drugu jačom. Van Gog je to znao i koristio je da mu noći zatrepere."
+    },
+    {
+     "type": "key",
+     "text": "Suprotne boje, stavljene jedna uz drugu, međusobno se pojačavaju. Zato žute zvezde gore na plavom."
+    },
+    {
+     "type": "find",
+     "text": "Van Gog je pisao bratu da je video jutarnju zvezdu, veoma veliku. Dodirni najbelju svetlost na slici.",
+     "spots": [
+      {
+       "title": "Jutarnja zvezda",
+       "text": "Najbelja svetlost na slici. Van Gog je pisao bratu da je pred izlazak sunca video jutarnju zvezdu, veoma veliku. To je najverovatnije Venera."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A šta je on mislio o ovoj slici? Ne mnogo. U pismima je naziva običnom noćnom studijom i sumnja u ta platna naslikana iz mašte."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gog za života nije prodao gotovo ništa. Njegov brat Teo, trgovac umetninama, izdržavao ga je novcem i bojama."
+    },
+    {
+     "type": "text",
+     "text": "Umro je trinaest meseci kasnije, u julu 1890, sa 37 godina. Zvezdana noć je 1941. stigla u Muzej moderne umetnosti u Njujorku."
+    },
+    {
+     "type": "key",
+     "text": "Kod Van Goga je potez kista sam predmet slike: svaki ima svoj smer, i upravo to pokreće nebo."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Vrtlog",
+       "text": "U sredini se dva velika talasa uvijaju jedan u drugi. Nijedno pravo nebo ne izgleda ovako: on slika ono što oseća, a ne ono što vidi."
+      },
+      {
+       "title": "Mesec",
+       "text": "Narandžasti srp u žutom oreolu. Gotovo da liči na sunce. Van Gog nanosi boju kratkim potezima koji kruže oko njega."
+      },
+      {
+       "title": "Jutarnja zvezda",
+       "text": "Najbelja svetlost na slici. Van Gog je pisao bratu da je pred izlazak sunca video jutarnju zvezdu, veoma veliku. To je najverovatnije Venera."
+      },
+      {
+       "title": "Čempres",
+       "text": "Taman i uvijen kao plamen, spaja zemlju i nebo. Na jugu Francuske to je drvo grobalja. Van Gogu se činio lepim kao egipatski obelisk."
+      },
+      {
+       "title": "Zvonik",
+       "text": "Tanak, šiljat toranj, kao u holandskim selima u kojima je Van Gog odrastao. Crkveni tornjevi u Provansi ne izgledaju tako."
+      },
+      {
+       "title": "Selo",
+       "text": "Nekoliko upaljenih žutih prozora. Ovo selo nije mogao da vidi iz svoje sobe: dodao ga je po sećanju."
+      },
+      {
+       "title": "Brda",
+       "text": "Alpiji. Talasaju se kao more, nošeni istim pokretom kao i nebo."
+      },
+      {
+       "title": "Boja",
+       "text": "Vidi koliko je gusta: leži u kratkim, teškim potezima, gotovo kao reljef. To se zove impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Gde je bio Van Gog dok je slikao Zvezdanu noć?",
+     "options": [
+      "U Parizu",
+      "U bolnici u Sen Remi de Provansu",
+      "U Amsterdamu"
+     ],
+     "explanation": "Sam se prijavio u nju mesec dana ranije."
+    },
+    {
+     "question": "Kako je slika nastala?",
+     "options": [
+      "Noću, pred samim prizorom",
+      "Po danu, po sećanju i iz mašte",
+      "Po fotografiji"
+     ],
+     "explanation": "Po danu, u njegovom ateljeu u bolnici."
+    },
+    {
+     "question": "Koji detalj podseća na Holandiju?",
+     "options": [
+      "Čempres",
+      "Šiljati zvonik",
+      "Brda"
+     ],
+     "explanation": "Toranj kao u selima u kojima je odrastao."
+    },
+    {
+     "question": "Šta je „impasto“?",
+     "options": [
+      "Veoma gusta boja, gotovo kao reljef",
+      "Tanak providan lazurni sloj",
+      "Skica ugljenom"
+     ],
+     "explanation": "Kratki, teški potezi koji se izdižu iznad platna."
+    },
+    {
+     "question": "Zašto žute zvezde deluju tako sjajno?",
+     "options": [
+      "Naslikane su zlatom",
+      "Žuta stoji pored svoje suprotnosti, plave",
+      "Platno je osvetljeno otpozadi"
+     ],
+     "explanation": "Suprotne boje, jedna uz drugu, međusobno se pojačavaju."
+    },
+    {
+     "question": "Šta je Van Gog izostavio sa slika ovog pogleda?",
+     "options": [
+      "Rešetke na prozoru",
+      "Mesec",
+      "Brda"
+     ],
+     "explanation": "Na prozoru njegove sobe u bolnici bile su gvozdene rešetke."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gog je Zvezdanu noć slikao napolju, usred noći.",
+     "explanation": "Naslikao ju je po danu, po sećanju, u bolnici u Sen Remiju."
+    },
+    {
+     "text": "Zvezdana noć se čuva u Njujorku.",
+     "explanation": "U Muzeju moderne umetnosti je od 1941."
+    },
+    {
+     "text": "Van Gog je prodao mnogo slika i umro bogat.",
+     "explanation": "Nije prodao gotovo ništa; izdržavao ga je brat Teo."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Devojka sa bisernom minđušom",
+   "artist": "Johanes Vermer",
+   "yearLabel": "oko 1665",
+   "museum": "Mauritshuis, Hag",
+   "teaser": "Pogled preko ramena, a niko ne zna ko je ona.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ovo lice ti je poznato. Ali ovo nije portret: niko ne zna ko je ona, a Vermer verovatno nije ni nameravao da naslika nekog određenog."
+    },
+    {
+     "type": "text",
+     "text": "U Holandiji 17. veka ovakva slika imala je svoje ime: „tronie“, studija lica. Slikar njome istražuje izraz, egzotičan kostim ili igru svetlosti. Ovde sve troje odjednom."
+    },
+    {
+     "type": "key",
+     "text": "Tronie je zamišljeno lice, izgovor da se naslika izraz i svetlost. To nije portret stvarne osobe."
+    },
+    {
+     "type": "tour",
+     "text": "Najpre pogledaj celu sliku: lice koje izranja iz tame. Dodirni da priđeš bliže.",
+     "spots": [
+      {
+       "title": "Pogled",
+       "text": "Okreće se ka tebi kao da si je upravo pozvao po imenu. Jedna bela tačkica u svakom oku dovoljna je da oči deluju vlažno i živo."
+      },
+      {
+       "title": "Usta",
+       "text": "Blago otvorena, kao usred rečenice. Pogledaj sićušnu svetlu tačku u uglu usana: jedan dodir kista, i usta zasijaju."
+      },
+      {
+       "title": "Biser",
+       "text": "Dva poteza, ni jedan više: bela odsjajna tačka gore, siv odraz okovratnika dole. Bez obrisa, bez kukice. Biser sklapa tvoje oko."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Cela slika počiva na jednom pokretu: ona se okreće. Telo je u profilu, a lice dolazi ka nama. Kao da smo je iznenadili, ili kao da samo što nije otišla. Zato deluje tako živo."
+    },
+    {
+     "type": "fact",
+     "text": "Vermer je ceo život proveo u Delftu, malom holandskom gradu. Slikao je sporo, imao jedanaestoro dece da prehrani i umro u dugovima, sa 43 godine."
+    },
+    {
+     "type": "text",
+     "text": "Obrati pažnju na turban. Nijedna holandska devojka nije se tako oblačila. To je kostim, dašak dalekog Istoka koji je slikare tog doba opčinjavao."
+    },
+    {
+     "type": "find",
+     "text": "Na njeno lice pada svetlost iz jednog izvora. Gde se zaustavlja? Dodirni najsvetliji deo lica.",
+     "spots": [
+      {
+       "title": "Obraz",
+       "text": "Svetlost dolazi sleva, malo odozgo. Pada na čelo, obraz i nos, a drugu polovinu lica pušta da sklizne u senku."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermer gotovo da ne crta obrise. Pogledaj koren nosa: tu nema linije, samo svetao obraz koji se susreće sa senkom. Lice je sazdano od svetlosti, a ne od linija."
+    },
+    {
+     "type": "key",
+     "text": "Svetlost sleva, meke senke, bez oštrih obrisa: to je Vermerov prepoznatljiv rukopis."
+    },
+    {
+     "type": "lines",
+     "text": "Kako se tako jednostavna slika drži na okupu? Objašnjavaju to tri linije.",
+     "lines": [
+      {
+       "label": "Svetlost",
+       "text": "Stiže odozgo sleva, kao kroz prozor koji ne vidimo."
+      },
+      {
+       "label": "Trougao",
+       "text": "Od vrha turbana do oba ramena: stabilan, čvrsto postavljen oblik koji smiruje okret glave."
+      },
+      {
+       "label": "Pad tkanine",
+       "text": "Žuta tkanina pada desno i uravnotežuje lice okrenuto nalevo."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A sada plava. Vermer je koristio prirodni ultramarin, dobijen mlevenjem lapis lazulija. Bio je toliko skup da su ga mnogi slikari čuvali za ogrtač Bogorodice. On ga je stavljao svuda, čak i u senke."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli se vadio u rudnicima na području današnjeg Avganistana. Ime „ultramarin“ znači „sa one strane mora“."
+    },
+    {
+     "type": "palette",
+     "text": "Pet boja čini gotovo celu sliku. Dodirni jednu i vidi gde se krije.",
+     "swatches": [
+      {
+       "name": "Tamna pozadina",
+       "text": "Više od pola površine. Nekada tamnozelena zavesa, danas gotovo crna."
+      },
+      {
+       "name": "Ultramarin",
+       "text": "Plava od lapis lazulija. Zauzima vrlo malo prostora, a vidimo samo nju."
+      },
+      {
+       "name": "Smeđi oker",
+       "text": "Senke na jakni i na žutoj tkanini: topla, jeftina zemljana boja."
+      },
+      {
+       "name": "Ružičasti ten",
+       "text": "Najsvetliji deo slike. Pogled nam najpre ide tamo."
+      },
+      {
+       "name": "Žuta",
+       "text": "Na jakni i na tkanini koja pada sa turbana. Odgovara plavoj."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Slika je restaurirana 1994. godine. Ispod požutelog laka restauratori su pronašli svežije boje i onu sićušnu svetlu tačku u uglu usana koju više niko nije video."
+    },
+    {
+     "type": "text",
+     "text": "A pozadina? Danas deluje ravno i crno. Naučne analize pokazale su da je Vermer tu naslikao tamnozelenu zavesu. Zeleni pigmenti su se s vremenom raspali."
+    },
+    {
+     "type": "find",
+     "text": "Vermer je potpisao ovu sliku. Ali gde? Pogledaj pažljivo, potpis se jedva vidi.",
+     "spots": [
+      {
+       "title": "Potpis",
+       "text": "„IVMeer“, gore levo. Naslikan svetlim tonom na tamnoj pozadini, vremenom je gotovo izbledeo."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Da li je biser uopšte biser? Ogroman je. Neki stručnjaci misle da je reč o lakiranom staklu ili uglačanom kalaju. Nije ni važno: na slici je to kap svetlosti, i to je sve što je Vermer hteo."
+    },
+    {
+     "type": "key",
+     "text": "Vermer ne slika predmete. Slika svetlost koja na njih pada. Biser su dva dodira bele boje."
+    },
+    {
+     "type": "text",
+     "text": "Poznato nam je svega oko 37 Vermerovih slika. Posle smrti bio je gotovo zaboravljen dva veka."
+    },
+    {
+     "type": "fact",
+     "text": "Godine 1881. jedan kolekcionar kupio je ovu sliku na aukciji za dva guldena, gotovo u bescenje. Zaveštao ju je muzeju Mauritshuis 1902."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Pogled",
+       "text": "Okreće se ka tebi kao da si je upravo pozvao po imenu. Jedna bela tačkica u svakom oku dovoljna je da oči deluju vlažno i živo."
+      },
+      {
+       "title": "Usta",
+       "text": "Blago otvorena, kao usred rečenice. Pogledaj sićušnu svetlu tačku u uglu usana: jedan dodir kista, i usta zasijaju."
+      },
+      {
+       "title": "Biser",
+       "text": "Dva poteza, ni jedan više: bela odsjajna tačka gore, siv odraz okovratnika dole. Bez obrisa, bez kukice. Biser sklapa tvoje oko."
+      },
+      {
+       "title": "Plavi turban",
+       "text": "Pravi ultramarin, dobijen od lapis lazulija, kamena donetog čak iz Avganistana. U to doba ovaj pigment bio je skuplji od zlata."
+      },
+      {
+       "title": "Žuti pad",
+       "text": "Žuta tkanina pada niz leđa kao plamen. Plava i žuta: Vermer je voleo ovaj par i koristio ga na slici za slikom."
+      },
+      {
+       "title": "Beli okovratnik",
+       "text": "Traka bele boje nanesena jednim pokretom. Upravo se taj okovratnik ogleda u donjem delu bisera."
+      },
+      {
+       "title": "Potpis",
+       "text": "„IVMeer“, gore levo. Naslikan svetlim tonom na tamnoj pozadini, vremenom je gotovo izbledeo."
+      },
+      {
+       "title": "Pozadina",
+       "text": "Nije uvek bila crna. Analize pokazuju da je Vermer ovde naslikao tamnozelenu zavesu. Zelena je tokom vekova nestala."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Šta je „tronie“?",
+     "options": [
+      "Naručeni portret",
+      "Studija zamišljenog lica",
+      "Autoportret"
+     ],
+     "explanation": "Izgovor da se naslika izraz i svetlost, a ne stvarna osoba."
+    },
+    {
+     "question": "Odakle potiče plava boja turbana?",
+     "options": [
+      "Iz biljke, indiga",
+      "Iz kamena, lapis lazulija",
+      "Iz morske školjke"
+     ],
+     "explanation": "Samleveni lapis lazuli daje prirodni ultramarin, u to doba skuplji od zlata."
+    },
+    {
+     "question": "Kako je naslikan biser?",
+     "options": [
+      "Preciznim obrisom i kukicom",
+      "Sa dva svetla dodira, bez obrisa",
+      "Srebrnim listićima"
+     ],
+     "explanation": "Bela odsjajna tačka, siv odraz: ostalo uradi tvoje oko."
+    },
+    {
+     "question": "Odakle dolazi svetlost?",
+     "options": [
+      "Sleva",
+      "Zdesna",
+      "Odozdo"
+     ],
+     "explanation": "Odozgo sleva, kao kroz prozor koji ne vidimo."
+    },
+    {
+     "question": "Kakva je pozadina bila prvobitno?",
+     "options": [
+      "Tamnozelena zavesa",
+      "Prozor",
+      "Zlatni zid"
+     ],
+     "explanation": "Zeleni pigmenti su se tokom vekova raspali."
+    },
+    {
+     "question": "Gde je Vermer proveo ceo život?",
+     "options": [
+      "U Amsterdamu",
+      "U Delftu",
+      "U Hagu"
+     ],
+     "explanation": "Živeo je i radio u malom gradu Delftu."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Znamo kako se zvala devojka koja je pozirala.",
+     "explanation": "Njen identitet je nepoznat: slika je tronie."
+    },
+    {
+     "text": "Plava boja turbana potiče iz kamena, lapis lazulija.",
+     "explanation": "Kad se samelje, daje prirodni ultramarin."
+    },
+    {
+     "text": "Biser je naslikan pažljivim, detaljnim obrisom.",
+     "explanation": "To su samo dva dodira svetle boje, bez ikakvog obrisa."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Veliki talas kod Kanagave",
+   "artist": "Katsušika Hokusai",
+   "yearLabel": "oko 1831",
+   "museum": "Drvorez · mnogo otisaka",
+   "teaser": "Džinovski talas, a daleko u pozadini, sićušna, planina Fudži.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ovo nije slika. Ovo je grafika: prizor urezan u drvene ploče, premazan bojom i otisnut na papir. Zato ne postoji jedan Veliki talas. Postoje hiljade."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai ga je objavio oko 1831. Imao je tada blizu 70 godina i crtao je od detinjstva. Njime počinje serija koja je postala čuvena: Trideset šest pogleda na planinu Fudži."
+    },
+    {
+     "type": "key",
+     "text": "Veliki talas je drvorez, otisnut u hiljadama primeraka. Mnogi muzeji širom sveta imaju po jedan."
+    },
+    {
+     "type": "fact",
+     "text": "Ovakva grafika bila je jeftina. U Hokusaijevo vreme koštala je otprilike koliko i činija rezanaca."
+    },
+    {
+     "type": "find",
+     "text": "Serija se zove Trideset šest pogleda na planinu Fudži. Pa gde je onda Fudži?",
+     "spots": [
+      {
+       "title": "Planina Fudži",
+       "text": "Pravi junak grafike je ovde, sićušan. Sveta planina Japana, pod snežnom kapom, savršeno mirna usred oluje."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "U tome je genijalnost: najviša planina Japana manja je od talasa. Hokusai se poigrava daljinom. Ono što je blizu gnječi ono što je daleko, kao na fotografiji snimljenoj širokougaonim objektivom."
+    },
+    {
+     "type": "text",
+     "text": "Fudži je bio sveta planina. Verovalo se da krije tajnu besmrtnosti. Hokusai je bio opsednut njime i crtao ga je iz svih uglova, po svakom vremenu."
+    },
+    {
+     "type": "tour",
+     "text": "Hajde da pređemo preko slike onako kako to čini oko.",
+     "spots": [
+      {
+       "title": "Pena",
+       "text": "Pogledaj vrh talasa: pena se završava kukastim prstima, kao kandže koje samo što se nisu sklopile nad čamcima."
+      },
+      {
+       "title": "Veslači",
+       "text": "Ribari pognuti nad veslima, oborenih glava. Ovi brzi čamci nosili su svežu ribu u Edo, grad koji danas zovemo Tokio."
+      },
+      {
+       "title": "Mali talas",
+       "text": "U prvom planu je manji talas. Pogledaj mu oblik: šiljat, beo na vrhu. To je drugi Fudži."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "U Japanu se čita zdesna nalevo. Zato oko ulazi s desne strane, sa čamcima, i udara pravo u talas. Japanskom posmatraču talas dolazi u susret, glavom u glavu."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai je za života promenio ime više od trideset puta. Jedno od poslednjih značilo je „Starac lud za crtanjem“."
+    },
+    {
+     "type": "lines",
+     "text": "Jednostavna slika, proračunata do milimetra.",
+     "lines": [
+      {
+       "label": "Luk",
+       "text": "Talas opisuje veliki luk koji se zatvara sam u sebe. Cela leva strana slike uhvaćena je u njemu."
+      },
+      {
+       "label": "Trougao Fudžija",
+       "text": "Mali, stabilan, šiljat. Stoji tačno u udubljenju talasa."
+      },
+      {
+       "label": "Njegov dvojnik",
+       "text": "Mali talas u prvom planu ponavlja oblik planine. Voda oponaša kamen."
+      },
+      {
+       "label": "Smer čitanja",
+       "text": "Zdesna nalevo: klizimo niz talasanje do Fudžija, a onda podižemo pogled ka talasu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kako je nastala? Hokusai je nacrtao prizor na tankom papiru. Rezbar je zalepio crtež na ploču od trešnjevog drveta i izdubio sve što nije bilo linija. Zatim je štampar premazao ploču bojom i pritisnuo papir na nju."
+    },
+    {
+     "type": "text",
+     "text": "Za svaku boju bila je potrebna posebna urezana ploča, a ploče su se otiskivale jedna za drugom na isti list. Zato grafike imaju tako malo boja."
+    },
+    {
+     "type": "key",
+     "text": "Jedna ploča za svaku boju: što manje boja, to je otisak jednostavniji. Hokusai od tog ograničenja pravi stil."
+    },
+    {
+     "type": "palette",
+     "text": "Vrlo malo boja, jer svaka traži svoju urezanu ploču. Dodirni jednu.",
+     "swatches": [
+      {
+       "name": "Papir",
+       "text": "Najzastupljenija boja uopšte nije otisnuta: to je goli papir, ostavljen neodštampan za penu i sneg."
+      },
+      {
+       "name": "Pruska plava",
+       "text": "Plava iz Evrope. Njome su iscrtani talas, njegove pruge i udubljenja."
+      },
+      {
+       "name": "Svetloplava",
+       "text": "Ista plava, razblažena. Daje vodi zapreminu."
+      },
+      {
+       "name": "Obojeno nebo",
+       "text": "Bež jedva tamniji od papira, zbog kog bela pena još više iskače."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Nekoliko reči o toj plavoj. To je pruska plava, hemijski pigment izumljen u Evropi i tek odnedavno uvožen u Japan. Duboka je, ne bledi i izazvala je senzaciju. Serija joj umnogome duguje svoj uspeh."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai je potpisao svoju grafiku. Gde? Mali savet: ne u donjem desnom uglu.",
+     "spots": [
+      {
+       "title": "Kartuša",
+       "text": "U okviru: naslov serije i ovog lista, „Pod talasom kod Kanagave“. Levo od njega: Hokusaijev potpis."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pedesetih godina 19. veka Japan se otvorio za trgovinu, i njegove grafike stigle su u Evropu. Francuski slikari bili su zapanjeni: ravne površine boje, oštri obrisi, smeli kadrovi. Mone ih je skupljao. Van Gog ih je kopirao."
+    },
+    {
+     "type": "key",
+     "text": "Ova pomama zove se japonizam. Bez japanskih grafika impresionizam ne bi izgledao isto."
+    },
+    {
+     "type": "text",
+     "text": "Još nešto: ovo nije cunami. To je talas sa pučine, ogroman ali običan, od kakvih su strahovali ribari. Hokusai ne prikazuje katastrofu. Prikazuje sićušne ljude pred silom prirode."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Planina Fudži",
+       "text": "Pravi junak grafike je ovde, sićušan. Sveta planina Japana, pod snežnom kapom, savršeno mirna usred oluje."
+      },
+      {
+       "title": "Pena",
+       "text": "Pogledaj vrh talasa: pena se završava kukastim prstima, kao kandže koje samo što se nisu sklopile nad čamcima."
+      },
+      {
+       "title": "Veslači",
+       "text": "Ribari pognuti nad veslima, oborenih glava. Ovi brzi čamci nosili su svežu ribu u Edo, grad koji danas zovemo Tokio."
+      },
+      {
+       "title": "Mali talas",
+       "text": "U prvom planu je manji talas. Pogledaj mu oblik: šiljat, beo na vrhu. To je drugi Fudži."
+      },
+      {
+       "title": "Kartuša",
+       "text": "U okviru: naslov serije i ovog lista, „Pod talasom kod Kanagave“. Levo od njega: Hokusaijev potpis."
+      },
+      {
+       "title": "Donji čamac",
+       "text": "Uranja u dolju između talasa. Čamaca je ukupno tri, a ljudi tridesetak."
+      },
+      {
+       "title": "Nebo",
+       "text": "Gotovo prazno. Običan prelaz tonova, dobijen brisanjem boje sa ploče pre otiskivanja."
+      },
+      {
+       "title": "Kapljice",
+       "text": "Bele tačke padaju iznad Fudžija. Liče na sneg na planini."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Šta je Veliki talas?",
+     "options": [
+      "Slika u ulju",
+      "Drvorez",
+      "Akvarel"
+     ],
+     "explanation": "Grafika, otisnuta u hiljadama primeraka."
+    },
+    {
+     "question": "Kojoj seriji pripada?",
+     "options": [
+      "Sto pogleda na Edo",
+      "Trideset šest pogleda na planinu Fudži",
+      "Četiri godišnja doba"
+     ],
+     "explanation": "Njome počinje Hokusaijeva serija o planini Fudži."
+    },
+    {
+     "question": "Odakle potiče plava boja talasa?",
+     "options": [
+      "Od lapis lazulija",
+      "To je pruska plava, uvezena iz Evrope",
+      "Od mlevenih školjki"
+     ],
+     "explanation": "Hemijski pigment, nov u Japanu, dubok i postojan."
+    },
+    {
+     "question": "Koji oblik ponavlja mali talas u prvom planu?",
+     "options": [
+      "Planinu Fudži",
+      "Čamac",
+      "Oblak"
+     ],
+     "explanation": "Voda oponaša planinu."
+    },
+    {
+     "question": "Zašto grafike imaju tako malo boja?",
+     "options": [
+      "Boje su bile zabranjene",
+      "Za svaku boju potrebna je posebna urezana ploča",
+      "Papir nije mogao da zadrži boju"
+     ],
+     "explanation": "Jedna ploča za svaku boju, otisnute jedna za drugom."
+    },
+    {
+     "question": "Kako se zove evropska pomama za japanskim grafikama?",
+     "options": [
+      "Japonizam",
+      "Orijentalizam",
+      "Kubizam"
+     ],
+     "explanation": "Mone je skupljao grafike; Van Gog ih je kopirao."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Postoji samo jedan primerak Velikog talasa.",
+     "explanation": "To je grafika: otisnute su hiljade primeraka."
+    },
+    {
+     "text": "Hokusai je imao blizu 70 godina kada ga je napravio.",
+     "explanation": "Rođen je 1760, a serija je izašla oko 1831."
+    },
+    {
+     "text": "Veliki talas prikazuje cunami.",
+     "explanation": "To je veliki talas sa pučine, a ne cunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Lopoči",
+   "artist": "Klod Mone",
+   "yearLabel": "1906",
+   "museum": "Umetnički institut, Čikago",
+   "teaser": "Nema više horizonta: samo voda, cveće i nebo koje se u njoj ogleda.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "U Živerniju je Mone u svom vrtu dao da se iskopa jezerce i zasadio u njemu lopoče. To jezerce bilo mu je glavni motiv skoro trideset godina."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · cvetovi na površini vode."
+    },
+    {
+     "type": "text",
+     "text": "Pogledaj pažljivo: nema obale, nema horizonta. Više ne možeš da razlikuješ gde se završava voda, a gde počinje odraz neba."
+    },
+    {
+     "type": "key",
+     "text": "Bez horizonta slika postaje površina: u vodu gledamo kao što bismo gledali u nebo."
+    },
+    {
+     "type": "fact",
+     "text": "Mone je plaćao baštovane da održavaju jezerce. Jedan od njih je svakog jutra, pre nego što bi Mone počeo da slika, čistio površinu vode."
+    },
+    {
+     "type": "text",
+     "text": "Mone je naslikao oko 250 platna sa lopočima. Uvek isto cveće, ali nikad ista svetlost."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Gde je Mone slikao svoje lopoče?",
+     "options": [
+      "U Živerniju",
+      "U Parizu",
+      "U Veneciji"
+     ],
+     "explanation": "U vrtu sopstvene kuće."
+    },
+    {
+     "question": "Šta nedostaje na ovoj slici?",
+     "options": [
+      "Voda",
+      "Horizont",
+      "Cveće"
+     ],
+     "explanation": "Nema obale ni neba: samo površina vode."
+    },
+    {
+     "question": "Koliko je slika sa lopočima naslikao?",
+     "options": [
+      "Desetak",
+      "Oko 250",
+      "Više od 2.000"
+     ],
+     "explanation": "Ogromna serija, nastajala skoro trideset godina."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mone je lopoče naslikao samo jednom.",
+     "explanation": "Naslikao je oko 250 verzija."
+    },
+    {
+     "text": "Jezerce sa lopočima bilo je u Moneovom vrtu.",
+     "explanation": "U Živerniju, gde je dao da se iskopa."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impresija, izlazak sunca",
+   "artist": "Klod Mone",
+   "yearLabel": "1872",
+   "museum": "Muzej Marmotan Mone, Pariz",
+   "teaser": "Slika koja je, iz šale, dala ime čitavom pokretu.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Luka Avr, jednog maglovitog jutra. Mone nanosi nekoliko brzih poteza: čamci, jarboli i narandžasto sunce."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · sunce i njegov odraz."
+    },
+    {
+     "type": "text",
+     "text": "Platno je 1874. izloženo u Parizu. Kritičar Luj Leroa narugao se naslovu i ove slikare nazvao „impresionistima“."
+    },
+    {
+     "type": "key",
+     "text": "Reč „impresionizam“ potiče od ove slike. Počela je kao uvreda, a postala ime."
+    },
+    {
+     "type": "fact",
+     "text": "Avr je grad u kom je Mone odrastao. Kao tinejdžer bio je tamo poznat po svojim karikaturama."
+    },
+    {
+     "type": "text",
+     "text": "Slika je i ukradena, 1985, iz Muzeja Marmotan. Pronađena je pet godina kasnije."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Koju luku je Mone naslikao?",
+     "options": [
+      "Marsej",
+      "Avr",
+      "Veneciju"
+     ],
+     "explanation": "Grad u kom je odrastao."
+    },
+    {
+     "question": "Čemu je ova slika dala ime?",
+     "options": [
+      "Impresionizmu",
+      "Jednom muzeju",
+      "Jednoj nagradi"
+     ],
+     "explanation": "Kritičar se narugao naslovu, i reč se zadržala."
+    },
+    {
+     "question": "Koje godine je izložena u Parizu?",
+     "options": [
+      "1850.",
+      "1874.",
+      "1900."
+     ],
+     "explanation": "Te godine joj se narugao kritičar Luj Leroa."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Reč „impresionista“ isprva je bila uvreda.",
+     "explanation": "Potiče iz članka kritičara Luja Leroa."
+    },
+    {
+     "text": "Ova slika prikazuje luku Marsej.",
+     "explanation": "To je luka Avr."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Poljubac",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Beč",
+   "teaser": "Dvoje ljubavnika uvijenih u zlato, na rubu rascvetane livade.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt je na vrhuncu svog „zlatnog perioda“. Na platno nanosi pravi zlatni listić, kao na ikonu."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · dva lica."
+    },
+    {
+     "type": "text",
+     "text": "Pogledaj odeću. Njegov ogrtač prekriven je crnim i belim pravougaonicima. Njen je prekriven krugovima i cvećem."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · pravougaonici i krugovi."
+    },
+    {
+     "type": "key",
+     "text": "Pravougaonici za njega, krugovi za nju: šare pričaju priču o paru."
+    },
+    {
+     "type": "fact",
+     "text": "Klimtov otac bio je graver zlata. Slikar je odrastao uz metal koji će kasnije stavljati na svoja platna."
+    },
+    {
+     "type": "text",
+     "text": "Austrijska država kupila je sliku 1908, pre nego što je bila sasvim dovršena."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Koji materijal je Klimt koristio?",
+     "options": [
+      "Sedef",
+      "Zlatni listić",
+      "Bronzu"
+     ],
+     "explanation": "To je obeležje njegovog zlatnog perioda."
+    },
+    {
+     "question": "Koje šare prekrivaju muškarčev ogrtač?",
+     "options": [
+      "Krugovi",
+      "Cveće",
+      "Pravougaonici"
+     ],
+     "explanation": "Krugovi i cveće pripadaju ženi."
+    },
+    {
+     "question": "Ko je kupio sliku 1908?",
+     "options": [
+      "Austrijska država",
+      "Jedan francuski kolekcionar",
+      "Klimtov otac"
+     ],
+     "explanation": "Čak i pre nego što je bila sasvim dovršena."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt je koristio pravi zlatni listić.",
+     "explanation": "Kao i na nekoliko platna iz svog zlatnog perioda."
+    },
+    {
+     "text": "Poljubac se čuva u Parizu.",
+     "explanation": "Nalazi se u Beču, u Belvedereu."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Suncokreti",
+   "artist": "Vinsent van Gog",
+   "yearLabel": "1888",
+   "museum": "Nacionalna galerija, London",
+   "teaser": "Žuto na žutom: buket naslikan za doček jednog prijatelja.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Avgust 1888, Arl. Van Gog čeka svog prijatelja Pola Gogena i želi da mu sobu ukrasi suncokretima."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · cvetovi u svim fazama."
+    },
+    {
+     "type": "text",
+     "text": "Usuđuje se da upotrebi gotovo jednu jedinu boju: žuto cveće, žuta vaza, žuta pozadina. Sve zavisi od nijansi i od debljine nanosa."
+    },
+    {
+     "type": "key",
+     "text": "Gotovo jednobojna slika: žuta u svim svojim vidovima."
+    },
+    {
+     "type": "fact",
+     "text": "Suncokreti brzo venu. Van Gog je morao da slika brzo, od samog izlaska sunca, pre nego što cvetovi klonu."
+    },
+    {
+     "type": "text",
+     "text": "Ovi suncokreti postoje u nekoliko verzija. Neki cvetovi su još pupoljci, drugi su već uveli: buket priča i o prolaznosti vremena."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Čiju sobu je trebalo da ukrase suncokreti?",
+     "options": [
+      "Pola Gogena",
+      "Kloda Monea",
+      "Njegovog brata Tea"
+     ],
+     "explanation": "Van Gog ga je čekao u Arlu."
+    },
+    {
+     "question": "U kom gradu ih je naslikao?",
+     "options": [
+      "U Parizu",
+      "U Arlu",
+      "U Amsterdamu"
+     ],
+     "explanation": "Na jugu Francuske, u avgustu 1888."
+    },
+    {
+     "question": "Šta je neobično u bojama?",
+     "options": [
+      "Gotovo sve je žuto",
+      "Žute uopšte nema",
+      "Slika je crno-bela"
+     ],
+     "explanation": "Žuto cveće, žuta vaza, žuta pozadina."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Suncokreti postoje u nekoliko verzija.",
+     "explanation": "Van Gog je naslikao celu seriju."
+    },
+    {
+     "text": "Van Gog je za života prodao svoje Suncokrete za čitavo bogatstvo.",
+     "explanation": "Za života nije prodao gotovo ništa."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Liza",
+   "artist": "Leonardo da Vinči",
+   "yearLabel": "oko 1503–1519",
+   "museum": "Luvr, Pariz",
+   "teaser": "Najslavniji osmeh na svetu počiva na obrisima koje ne vidiš.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ovo je najslavnija slika na svetu, a mala je: 77 sa 53 centimetra, naslikana na dasci od topolovine. Mnoge posetioce Luvra iznenadi koliko je mala."
+    },
+    {
+     "type": "text",
+     "text": "Oko 1503. u Firenci je trgovac svilom Frančesko del Đokondo zamolio Leonarda da Vinčija da naslika njegovu ženu, Lizu Gerardini."
+    },
+    {
+     "type": "key",
+     "text": "Mona Liza je portret Lize Gerardini, žene jednog firentinskog trgovca. „Mona“ znači prosto „gospa“."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo nije bio samo slikar. Bio je i inženjer, anatom i pronalazač, a ostavio je hiljade stranica beležnica ispisanih ogledalskim pismom."
+    },
+    {
+     "type": "tour",
+     "text": "Pogledaj je u celini. Onda priđi bliže onome što ju je pretvorilo u legendu.",
+     "spots": [
+      {
+       "title": "Osmeh",
+       "text": "Potraži liniju koja crta usne: nema je. Uglovi usana tonu u senku. Zato se čini da se osmeh menja."
+      },
+      {
+       "title": "Oči",
+       "text": "Isti trik: uglovi očiju tope se u senci. Primeti i to da nema ni obrva ni trepavica."
+      },
+      {
+       "title": "Ruke",
+       "text": "Opušteno počivaju jedna na drugoj. Leonardo je secirao tela da bi razumeo kosti i mišiće: ove ruke imaju težinu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ta zamućenost ima ime: sfumato, od italijanske reči „fumo“, dim. Leonardo nanosi desetine veoma tankih, gotovo providnih slojeva boje. Obrisi nestaju, a oblici se pretapaju jedan u drugi."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato znači meki, kao dimom zamućeni obrisi. Zbog njega je osmeh nemoguće uhvatiti."
+    },
+    {
+     "type": "text",
+     "text": "Probaj sam. Gledaj joj u oči, i usta kao da se smeše. Pogledaj pravo u usta, i osmeh bledi. Sav posao obavljaju senke u uglovima."
+    },
+    {
+     "type": "find",
+     "text": "Na ovom licu nešto nedostaje. Dodirni mesto gde bi trebalo da bude.",
+     "spots": [
+      {
+       "title": "Obrve",
+       "text": "Nema ni obrva ni trepavica. Moda tog doba ili boja izlizana starim čišćenjima? Stručnjaci se i danas spore oko toga."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sad pogledaj pozu. Pre Leonarda portreti su se uglavnom radili iz profila ili su bili odsečeni u visini grudi. On prikazuje figuru do struka, okrenutu ka nama u tri četvrtine, zajedno sa rukama."
+    },
+    {
+     "type": "fact",
+     "text": "Mladi slikar Rafael video je portret u Leonardovom ateljeu i odmah preuzeo tu pozu u svojim delima."
+    },
+    {
+     "type": "lines",
+     "text": "Mirna poza, neobičan pejzaž. Pogledaj kako je sve sagrađeno.",
+     "lines": [
+      {
+       "label": "Piramida",
+       "text": "Glava na vrhu, ruke i šake u osnovi. Širok, stabilan oblik: ona se ne pomera, ona je smirena."
+      },
+      {
+       "label": "Horizont levo",
+       "text": "Levo se linija vode u pejzažu nalazi otprilike ovde."
+      },
+      {
+       "label": "Horizont desno",
+       "text": "Desno je viša. Dve polovine pejzaža se ne poklapaju, i odatle delom dolazi neobičnost slike."
+      },
+      {
+       "label": "Staza",
+       "text": "Vijugava linija koja vodi pogled u daljinu, kao reke na desnoj strani."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pejzaž nije stvarno mesto. To je svet iz sna, od stena, vode i izmaglice, bez kuća i bez ljudi. Samo jednu stvar u njemu sagradila je ljudska ruka."
+    },
+    {
+     "type": "find",
+     "text": "U ovom pustom pejzažu postoji samo jedna građevina koju je napravio čovek. Gde je most?",
+     "spots": [
+      {
+       "title": "Most",
+       "text": "Mali kameni most sa nekoliko lukova. To je jedini trag ljudskog prisustva u celom pejzažu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pozadina sledi pravilo koje je Leonardo sam zapisao: vazdušnu perspektivu. Vazduh nije savršeno providan. Što je nešto dalje, to deluje plavlje, bleđe i maglovitije."
+    },
+    {
+     "type": "key",
+     "text": "Vazdušna perspektiva: daleke stvari deluju plavlje, bleđe i mutnije. Leonardo je među prvima to slikao namerno."
+    },
+    {
+     "type": "palette",
+     "text": "Smeđe, zelene, malo zlata. Stari lak je sve požuteo. Dodirni jednu boju.",
+     "swatches": [
+      {
+       "name": "Senke",
+       "text": "Haljina, kosa, veo. Gotovo pola slike je u polutami."
+      },
+      {
+       "name": "Koža",
+       "text": "Lice, grudi, ruke: tri svetle mrlje, raspoređene u trougao."
+      },
+      {
+       "name": "Sivozeleno nebo",
+       "text": "Prvobitno plavlje. Požuteli lak gurnuo ga je ka zelenoj."
+      },
+      {
+       "name": "Smeđa zemlja",
+       "text": "Stene i staze pejzaža, s obe strane njenih ramena."
+      },
+      {
+       "name": "Zelena daljina",
+       "text": "Voda i planine, ublažene daljinom."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo sliku nikada nije predao. Zadržao ju je, godinama je doterivao i poneo sa sobom u Francusku kada ga je tamo pozvao kralj Fransoa I. Kad je umro 1519, portret je ušao u kraljevsku zbirku. Zato se nalazi u Luvru."
+    },
+    {
+     "type": "text",
+     "text": "Dugo je bila tek jedno remek-delo među mnogima. Svetsku slavu duguje jednom zločinu: 21. avgusta 1911. italijanski radnik Vinćenco Peruđa skinuo ju je sa zida i izašao s njom pod radnim mantilom."
+    },
+    {
+     "type": "fact",
+     "text": "Dok slike nije bilo, gomile ljudi stajale su u redu pred Luvrom samo da bi videle prazno mesto na zidu."
+    },
+    {
+     "type": "text",
+     "text": "Novine širom sveta objavljivale su njen lik. Kada je 1913. pronađena u Firenci, Mona Liza više nije bila samo slika. Bila je zvezda."
+    },
+    {
+     "type": "key",
+     "text": "Mona Liza svoju genijalnost duguje Leonardu, a slavu jednoj krađi."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Osmeh",
+       "text": "Potraži liniju koja crta usne: nema je. Uglovi usana tonu u senku. Zato se čini da se osmeh menja."
+      },
+      {
+       "title": "Oči",
+       "text": "Isti trik: uglovi očiju tope se u senci. Primeti i to da nema ni obrva ni trepavica."
+      },
+      {
+       "title": "Ruke",
+       "text": "Opušteno počivaju jedna na drugoj. Leonardo je secirao tela da bi razumeo kosti i mišiće: ove ruke imaju težinu."
+      },
+      {
+       "title": "Most",
+       "text": "Mali kameni most sa nekoliko lukova. To je jedini trag ljudskog prisustva u celom pejzažu."
+      },
+      {
+       "title": "Staza",
+       "text": "Staza vijuga ka jezeru. Pejzaž nije stvarno mesto: Leonardo ga izmišlja na osnovu svojih studija stena i vode."
+      },
+      {
+       "title": "Veo",
+       "text": "Providan veo prekriva joj kosu. Toliko je tanak da ga na čelu jedva razaznaješ."
+      },
+      {
+       "title": "Daljina",
+       "text": "Što su planine dalje, to su plavlje i maglovitije. Leonardo je primetio da i sam vazduh ima boju."
+      },
+      {
+       "title": "Rukav",
+       "text": "Gusti zlatasti nabori, naslikani jedan po jedan. Haljina je tamna, a nakita nema: ništa ne sme da odvlači pažnju od lica."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Ko je žena na portretu?",
+     "options": [
+      "Jedna francuska kraljica",
+      "Liza Gerardini, žena firentinskog trgovca",
+      "Leonardova majka"
+     ],
+     "explanation": "Portret je naručio njen muž, Frančesko del Đokondo."
+    },
+    {
+     "question": "Kako se zove tehnika mekih, kao dimom zamućenih obrisa?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Poentilizam"
+     ],
+     "explanation": "Od „fumo“, što na italijanskom znači dim."
+    },
+    {
+     "question": "Na čemu je naslikana Mona Liza?",
+     "options": [
+      "Na lanenom platnu",
+      "Na dasci od topolovine",
+      "Na zidu od maltera"
+     ],
+     "explanation": "Na dasci od topolovine, 77 sa 53 centimetra."
+    },
+    {
+     "question": "Šta se dešava sa stvarima u daljini?",
+     "options": [
+      "Postaju živopisnije",
+      "Postaju plavlje, bleđe i maglovitije",
+      "Obrisi im postaju oštriji"
+     ],
+     "explanation": "To je vazdušna perspektiva."
+    },
+    {
+     "question": "Zašto je slika u Francuskoj?",
+     "options": [
+      "Napoleon ju je odneo iz Italije",
+      "Leonardo ju je doneo, a ona je ušla u kraljevsku zbirku",
+      "Luvr ju je kupio 1911."
+     ],
+     "explanation": "Leonardo je došao u Francusku na poziv kralja Fransoa I."
+    },
+    {
+     "question": "Šta je Mona Lizu proslavilo u celom svetu?",
+     "options": [
+      "Krađa iz Luvra 1911.",
+      "Izložba u Njujorku",
+      "Restauracija"
+     ],
+     "explanation": "Ukrao ju je Vinćenco Peruđa, a pronađena je 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Liza je naslikana na platnu.",
+     "explanation": "Naslikana je na dasci od topolovine."
+    },
+    {
+     "text": "Mona Liza je ukradena iz Luvra 1911.",
+     "explanation": "Pronađena je dve godine kasnije."
+    },
+    {
+     "text": "Mona Liza ima guste, tamne obrve.",
+     "explanation": "Nema ni obrva ni trepavica."
+    }
+   ]
+  }
+ }
+}
