@@ -24,7 +24,7 @@
     },
     {
      "title": "Tema märgid pea kohal",
-     "text": "Punasel baldahhiinil on sinised kettad kuldsete liilialiiliatega, Prantsuse kuningliku suguvõsa liiliatega, ja valged luiged. Luik oli üks hertsogi isiklikke embleeme, mis oli tema asjadele pressitud."
+     "text": "Punasel baldahhiinil on sinised kettad kuldsete liiliatega, Prantsuse kuningliku suguvõsa embleemiga, ja valged luiged. Luik oli üks hertsogi isiklikke embleeme, mis oli tema asjadele pressitud."
     },
     {
      "title": "Kallim sinine",
@@ -38,7 +38,7 @@
   },
   {
    "type": "fact",
-   "text": "Vennad oskasid oma tööandjat narrida. 1411. aasta uusaastapäeval kinkisid nad hertsogile suurepärase raamatu, mis osutus puuklotsiks, valge sametiga köidetud kaanega ja hõbedaste haakidega köite moodi värvituks. Hertsog hoidis selle oma kogus."
+   "text": "Vennad oskasid oma tööandjat narrida. 1411. aasta uusaastapäeval kinkisid nad hertsogile suurepärase raamatu, mis osutus puuklotsiks: see oli maalitud valge sametiga köidetud ja hõbehaakidega raamatu moodi. Hertsog hoidis selle oma kogus."
   },
   {
    "type": "text",
@@ -50,13 +50,13 @@
    "spots": [
     {
      "title": "„Aproche, aproche“",
-     "text": "„Tule lähemale, tule lähemale.“ Allpool olev ametnik, sau üle õla, kutsub külalisi hertsogi juurde. See töötab nagu jutumull, viiskümmend viis sajandit enne koomikseid."
+     "text": "„Tule lähemale, tule lähemale.“ Allpool olev ametnik, sau üle õla, kutsub külalisi hertsogi juurde. See töötab nagu jutumull, viis ja pool sajandit enne koomikseid."
     }
    ]
   },
   {
    "type": "text",
-   "text": "Selle hüüdega kõrvus hakkab pilt liikuma. Vasakul olev rahvahulk surub külma käest sisse. Kaks meest tõstavad peopesad tule sooja poole. Laua juures lõikavad ja valavad teenrid. Vennad maalisid liikumatu pildi ja täitsid selle väikeste tegusõnadega."
+   "text": "Selle hüüdega kõrvus hakkab pilt liikuma. Vasakul olev rahvahulk surub külma eest sisse. Kaks meest tõstavad peopesad tule sooja poole. Laua juures lõikavad ja valavad teenrid. Vennad maalisid liikumatu pildi ja täitsid selle väikeste tegusõnadega."
   },
   {
    "type": "key",
@@ -77,7 +77,7 @@
     },
     {
      "title": "Väljapandud kuld",
-     "text": "Puhvetkapp on täis kuldseid kannusid, karikaid ja vaagnaid. Keegi neist ei söö. Lauanõusid näidati pidusöögi ajal nii nagu pank näitab oma varahoidlat."
+     "text": "Puhvetkapp on täis kuldseid kanne, karikaid ja vaagnaid. Keegi neist ei söö. Lauanõusid näidati pidusöögi ajal nii nagu pank näitab oma varahoidlat."
     },
     {
      "title": "Karikakandja",
@@ -95,7 +95,7 @@
   },
   {
    "type": "text",
-   "text": "Pidu on ka täis loomi, kes käituvad halvasti, ja maalijad nautisid seda selgelt. Mine ja otsi neid ise üles, koos nende inimestega, kes seda pidu käigus hoiavad."
+   "text": "Pidu on täis ka halvasti käituvaid loomi ja maalijad nautisid seda selgelt. Mine ja otsi neid ise üles, koos nende inimestega, kes pidu käimas hoiavad."
   },
   {
    "type": "explore",
@@ -106,7 +106,7 @@
     },
     {
      "title": "Hurt",
-     "text": "Punase kaelarihmaga valge hurt lebab põrandal, teda toidab teener, kes on suuremalt jaolt pildi serva taha jäänud."
+     "text": "Punase kaelarihmaga valge hurt lebab põrandal, teda toidab teener, kes on enamjaolt pildi serva taha jäänud."
     },
     {
      "title": "Lõikaja",
@@ -126,7 +126,7 @@
     },
     {
      "title": "Põrand",
-     "text": "Kuldne alus on kootud pillirooalus, rikka maja tavaline põrandakate. Maalijad joonistasid selle punutud mustri lõng lõngalt."
+     "text": "Kuldne põrand on punutud kõrkjamatt, rikka maja tavaline põrandakate. Maalijad joonistasid selle punutud mustri lõng lõngalt."
     }
    ]
   },
@@ -182,10 +182,9 @@
     "Seinal rippuval seinavaibal",
     "Hertsogi unenäos"
    ],
-   "explanation": "Nad kuuluvad hiiglaslikule kootud seinakattele, ajastu kõige kallimale kaunistusele."
+   "explanation": "Nad kuuluvad hiiglaslikule kootud seinavaibale, ajastu kõige kallimale kaunistusele."
   },
   {
-   "type": "text",
    "question": "Millest on leht tehtud?",
    "options": [
     "Pärgamendist, peenest vasikanahast",
