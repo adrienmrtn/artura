@@ -156,6 +156,80 @@ enum RemoteCatalog {
         return LessonContent(lesson: blocks, quiz: quiz)
     }
 
+    // MARK: Translations (Supabase *_translations tables; codes as in iOS: "fr", "pt-BR", "sr-Latn"…)
+
+    private struct ArtworkTranslationRow: Decodable {
+        let artworkSlug: String
+        let title: String
+        let artist: String
+        let yearLabel: String?
+        let museum: String?
+        let teaser: String?
+    }
+
+    private struct MovementTranslationRow: Decodable {
+        let movementId: String
+        let name: String
+        let period: String?
+        let summary: String?
+        let description: String?
+    }
+
+    private struct PublishedRow: Decodable {
+        let artworkSlug: String
+    }
+
+    /// Titles, movements and true/false facts of the published translated lessons in one language.
+    static func translations(_ language: String) async throws -> RemoteTranslation {
+        let filter = "language=eq.\(language)"
+        async let publishedRows: [PublishedRow] = rows("lesson_translations", "select=artwork_slug&\(filter)")
+        async let artworkRows: [ArtworkTranslationRow] = rows(
+            "artwork_translations", "select=artwork_slug,title,artist,year_label,museum,teaser&\(filter)")
+        async let movementRows: [MovementTranslationRow] = rows(
+            "movement_translations", "select=movement_id,name,period,summary,description&\(filter)")
+        async let factRows: [FactRow] = rows(
+            "true_false_fact_translations",
+            "select=artwork_slug,statement,is_true,explanation&\(filter)&order=artwork_slug,position")
+
+        let published = Set(try await publishedRows.map(\.artworkSlug))
+        let facts = Dictionary(grouping: try await factRows, by: \.artworkSlug)
+        var artworks: [String: RemoteTranslation.ArtworkText] = [:]
+        let artworkList = try await artworkRows
+        for row in artworkList where published.contains(row.artworkSlug) {
+            artworks[row.artworkSlug] = RemoteTranslation.ArtworkText(
+                title: row.title, artist: row.artist, yearLabel: row.yearLabel, museum: row.museum, teaser: row.teaser,
+                facts: (facts[row.artworkSlug] ?? []).map {
+                    Fact(text: $0.statement, isTrue: $0.isTrue, explanation: $0.explanation ?? "")
+                })
+        }
+        var movements: [String: TranslatedCatalog.MovementText] = [:]
+        let movementList = try await movementRows
+        for row in movementList {
+            movements[row.movementId] = TranslatedCatalog.MovementText(
+                name: row.name, period: row.period, summary: row.summary, description: row.description)
+        }
+        return RemoteTranslation(language: language, movements: movements, artworks: artworks)
+    }
+
+    /// The translated lesson and quiz of one artwork.
+    static func translatedLesson(_ slug: String, language: String) async throws -> LessonContent {
+        let filter = "artwork_slug=eq.\(slug)&language=eq.\(language)&order=position"
+        async let blockRows: [BlockRow] = rows("lesson_block_translations", "select=type,title,body,payload&\(filter)")
+        async let quizRows: [QuizRow] = rows(
+            "quiz_question_translations", "select=question,options,answer_index,explanation&\(filter)")
+        let blocks = try await blockRows.map { row in
+            LessonBlock(type: row.type, title: row.title, text: row.body,
+                        caption: row.payload?.caption, zoom: row.payload?.zoom, anchor: row.payload?.anchor,
+                        spots: row.payload?.spots, lines: row.payload?.lines, swatches: nil)
+        }
+        let quiz = try await quizRows.map {
+            QuizQuestion(question: $0.question, options: $0.options, answer: $0.answerIndex,
+                         explanation: $0.explanation ?? "")
+        }
+        guard !blocks.isEmpty else { throw URLError(.resourceUnavailable) }
+        return LessonContent(lesson: blocks, quiz: quiz)
+    }
+
     /// Text without HTML tags (some Commons author fields contain links).
     private static func plain(_ text: String?) -> String? {
         guard let text else { return nil }
@@ -205,6 +279,20 @@ enum CatalogCache {
               let date = try? FileManager.default.attributesOfItem(atPath: url.path)[.modificationDate] as? Date
         else { return nil }
         return Date().timeIntervalSince(date)
+    }
+
+    private static var translationURL: URL? {
+        folder?.appendingPathComponent("translation.\(AppLanguage.code).json")
+    }
+
+    static func loadTranslation() -> RemoteTranslation? {
+        guard !AppLanguage.isEnglish, let url = translationURL, let data = try? Data(contentsOf: url) else { return nil }
+        return try? JSONDecoder().decode(RemoteTranslation.self, from: data)
+    }
+
+    static func saveTranslation(_ translation: RemoteTranslation) {
+        guard let url = translationURL, let data = try? JSONEncoder().encode(translation) else { return }
+        try? data.write(to: url, options: .atomic)
     }
 
     static func loadLesson(_ slug: String) -> LessonContent? {

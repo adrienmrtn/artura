@@ -2,7 +2,7 @@ import SwiftUI
 
 enum OnbStep: Int, CaseIterable {
     // 1 · The promise
-    case welcome, hello, daily, pocketMuseum, photo, quotes
+    case welcome, language, hello, daily, pocketMuseum, photo, quotes
     // 2 · Getting to know each other
     case questionsIntro, name, gender, motivation, arts, recognize, knowledge, museum
     // 3 · The test
@@ -47,6 +47,8 @@ struct OnboardingFlow: View {
     @EnvironmentObject private var pro: ProStore
 
     @State private var step: OnbStep = OnboardingDebug.startStep ?? .welcome
+    /// The screens are rebuilt when the language is changed (welcome and language screens).
+    @Environment(\.appLanguage) private var language
     /// Direction of the last move: it decides which side the screens glide from.
     @State private var forward = true
     /// True during a screen change: a double tap doesn't skip a step.
@@ -161,6 +163,7 @@ struct OnboardingFlow: View {
                 loginShortcut = true
                 go(.account)
             })
+        case .language: LanguageScreen(onNext: next)
         case .hello: HelloScreen(onNext: next)
         case .daily: DailyScreen(onNext: next)
         case .pocketMuseum: PocketMuseumScreen(onNext: next)

@@ -35,11 +35,13 @@ enum SocialProof {
     static let learners = "100,000"
     static let rating = "4.8"
     /// Sample reviews: to be replaced with real App Store reviews.
-    static let reviews = [
-        L("Five minutes in the morning, and I finally see paintings differently."),
-        L("The mini-games really help me remember names and dates."),
-        L("I knew nothing about art. Now I look forward to the notification.")
-    ]
+    static var reviews: [String] {
+        [
+            L("Five minutes in the morning, and I finally see paintings differently."),
+            L("The mini-games really help me remember names and dates."),
+            L("I knew nothing about art. Now I look forward to the notification.")
+        ]
+    }
 }
 
 // MARK: - The character: the Mona Lisa

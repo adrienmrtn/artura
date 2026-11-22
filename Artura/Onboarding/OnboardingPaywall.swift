@@ -361,8 +361,8 @@ struct TrialNotifScreen: View {
     /// Words of the title already turned bold: they thicken one by one.
     @State private var bold = 0
 
-    private static let words = L("We'll send you a notification 1 day before your free trial ends")
-        .split(separator: " ").map(String.init)
+    private static var words: [String] { L("We'll send you a notification 1 day before your free trial ends")
+        .split(separator: " ").map(String.init) }
 
     /// The title, regular at first; each word turns bold in its turn.
     /// The title. Each word holds the room of its bold version from the start, so nothing moves:
