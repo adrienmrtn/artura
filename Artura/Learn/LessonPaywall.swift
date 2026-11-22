@@ -10,9 +10,13 @@ struct LessonPaywall: View {
     let subtitle: String
     /// Label of the way out ("Not now", "Leave this lesson"…).
     let closeTitle: String
+    /// Seconds before the way out appears.
+    var closeDelay: Double = 0
     let onClose: () -> Void
     /// Called once the subscription is active.
     let onUnlocked: () -> Void
+
+    @State private var canClose = false
 
     private let benefits = [
         L("Every lesson, as many as you like each day"),
@@ -102,6 +106,8 @@ struct LessonPaywall: View {
                     .padding(.top, 8)
 
                 TextLinkButton(title: closeTitle, action: onClose)
+                    .opacity(canClose ? 1 : 0)
+                    .disabled(!canClose)
                 Button(L("Restore purchases")) {
                     Task {
                         await pro.restore()
@@ -122,6 +128,12 @@ struct LessonPaywall: View {
         .background(Palette.bg)
         .task {
             if pro.products.isEmpty { await pro.loadProducts() }
+        }
+        .task {
+            if closeDelay > 0 {
+                try? await Task.sleep(nanoseconds: UInt64(closeDelay * 1_000_000_000))
+            }
+            withAnimation(.easeInOut(duration: 0.6)) { canClose = true }
         }
     }
 

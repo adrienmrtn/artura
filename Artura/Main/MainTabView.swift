@@ -250,6 +250,7 @@ private struct CourseContent: View {
                               title: L("Continue this lesson"),
                               subtitle: L("Read the rest of %@, and every other lesson, with Artura Pro.", artwork.title),
                               closeTitle: L("Leave this lesson"),
+                              closeDelay: 3,
                               onClose: {
                                   wall = nil
                                   dismiss()
