@@ -132,7 +132,21 @@ def merged(slug, lang):
         q.update(question=tq['question'], options=tq['options'], explanation=tq['explanation'])
     for f, tf in zip(d['facts'], t['facts']):
         f.update(text=tf['text'], explanation=tf['explanation'])
-    return d
+    d['meta'] = json.load(open(os.path.join(HERE, lang, 'meta.json')))['artworks'][slug]
+    return typeset(d) if lang == 'fr' else d
+
+
+def typeset(v):
+    """French spacing: non-breaking spaces inside guillemets and before double punctuation."""
+    if isinstance(v, dict):
+        return {k: (x if k == 'type' else typeset(x)) for k, x in v.items()}
+    if isinstance(v, list):
+        return [typeset(x) for x in v]
+    if isinstance(v, str):
+        v = re.sub(r'«[ \u00a0\u202f]?', '«\u00a0', v)
+        v = re.sub(r'[ \u00a0\u202f]?»', '\u00a0»', v)
+        return re.sub(r'[ \u00a0\u202f]([:;!?])', '\u00a0\\1', v)
+    return v
 
 
 def main():
