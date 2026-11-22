@@ -1,6 +1,6 @@
 # Translating Artura lessons
 
-Artura is an iOS app that teaches art to curious beginners: warm, simple, short sentences, read block by block on a phone. The lessons were written in English. You adapt them into French (`fr`), Italian (`it`), Spanish (`es`) or German (`de`).
+Artura is an iOS app that teaches art to curious beginners: warm, simple, short sentences, read block by block on a phone. The lessons were written in English. You adapt them into one target language: French (`fr`), Italian (`it`), Spanish (`es`), German (`de`), Brazilian Portuguese (`pt`), Turkish (`tr`), Croatian (`hr`), Norwegian Bokmål (`nb`), Swedish (`sv`), Danish (`da`) or Polish (`pl`).
 
 Folder: `/home/user/artura/catalog/translations/`
 
@@ -16,10 +16,10 @@ Write each sentence the way a good native author of a popular art book would hav
 
 - Restructure sentences, change the rhythm, pick the natural idiom. Never keep English syntax. If you read your text aloud and it sounds translated, rewrite it.
 - Keep the facts, the order of ideas, the tone (direct, a little playful, never academic) and the suspense: a block that ends on a question still ends on a question.
-- Address the reader informally and in the singular: `tu` (fr), `tu` (it), `tú` (es), `du` (de).
+- Address the reader informally and in the singular: `tu` (fr, it), `tú` (es), `du` (de, nb, sv, da), `você` (pt), `sen` (tr), `ti` (hr), `ty` (pl).
 - Explain art terms in plain words, as the English does, using the term a museum label would use in your language (sfumato, clair-obscur / chiaroscuro / claroscuro / Helldunkel, etc.).
 - Adapt what was written for English speakers. If the English glosses a word that is already in your language, drop the gloss (a French reader does not need “Le Déjeuner sur l'herbe, the luncheon on the grass”). If a pun or a reference does not work, replace it with something that does, or say it plainly.
-- Measurements: metric only, drop the imperial equivalents. Numbers and dates in the local format (20 000 francs, 20.000 franchi, 3,5 m). Centuries the local way (XVIIe siècle, il Seicento or XVII secolo, siglo XVII, 17. Jahrhundert). “BC” becomes av. J.-C. / a.C. / a. C. / v. Chr.
+- Measurements: metric only, drop the imperial equivalents. Numbers and dates in the local format (20 000 francs, 20.000 franchi, 3,5 m). Centuries the local way (XVIIe siècle, il Seicento or XVII secolo, siglo XVII, 17. Jahrhundert). “BC” becomes av. J.-C. (fr), a.C. (it, pt), a. C. (es), v. Chr. (de), MÖ (tr), pr. Kr. (hr), f.Kr. (nb, sv, da), p.n.e. (pl). The examples in this brief are given for the first four languages; apply the same logic to yours.
 
 ## Titles and proper names
 
@@ -33,7 +33,7 @@ Write each sentence the way a good native author of a popular art book would hav
 - Quiz: keep the options in the same order (the index of the right answer is stored elsewhere). True/false statements keep their truth value. Every quiz answer must still be found in your translated lesson text, with the same wording for the key term.
 - Spot and line texts (`spots[].text`, `lines[].text`) appear in a small card: aim for 250 characters or fewer, never more than 300. Spot titles and line labels: 1 to 4 words. The teaser: one sentence, at most 130 characters.
 - No em dashes. No markdown, no emojis, no headings.
-- Quotation marks: fr « texte », it «testo», es «texto», de „Text“. An apostrophe is the straight `'` or `’` as in the source.
+- Quotation marks: fr « texte », it «testo», es «texto», de „Text“, pt “texto”, tr “metin”, hr „tekst“, nb «tekst», sv ”text”, da »tekst«, pl „tekst”. An apostrophe is the straight `'` or `’` as in the source.
 - Valid JSON, UTF-8, real characters (é, ß, ñ), not escape sequences.
 - Do not add or remove information. Do not correct facts; if you think the English is factually wrong, translate it as it is and mention it in your final report.
 

@@ -1,9 +1,9 @@
--- Translations of the catalog (fr, it, es, de). English stays in the base tables.
+-- Translations of the catalog (fr, it, es, de, pt, tr, hr, nb, sv, da, pl). English stays in the base tables.
 -- Same row shapes as the English tables, with a language column: the app reads either set with the same code.
 
 create table public.movement_translations (
   movement_id text not null references public.movements(id) on delete cascade,
-  language text not null check (language in ('fr','it','es','de')),
+  language text not null check (language in ('fr','it','es','de','pt','tr','hr','nb','sv','da','pl')),
   name text not null,
   period text,
   summary text,
@@ -13,7 +13,7 @@ create table public.movement_translations (
 
 create table public.artwork_translations (
   artwork_slug text not null references public.artworks(slug) on delete cascade,
-  language text not null check (language in ('fr','it','es','de')),
+  language text not null check (language in ('fr','it','es','de','pt','tr','hr','nb','sv','da','pl')),
   title text not null,
   artist text not null,
   year_label text,
@@ -25,7 +25,7 @@ create index artwork_translations_language_idx on public.artwork_translations(la
 
 create table public.lesson_translations (
   artwork_slug text not null references public.lessons(artwork_slug) on delete cascade,
-  language text not null check (language in ('fr','it','es','de')),
+  language text not null check (language in ('fr','it','es','de','pt','tr','hr','nb','sv','da','pl')),
   status text not null default 'draft' check (status in ('draft','published')),
   updated_at timestamptz not null default now(),
   primary key (artwork_slug, language)
