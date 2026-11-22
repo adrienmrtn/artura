@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Bista Nefertiti",
+   "artist": "Tutmes",
+   "year_label": "1345. p. n. e.",
+   "museum": "Novi muzej, Berlin"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Tutankamonova maska",
+   "artist": "Nepoznati umetnik (Egipat)",
+   "year_label": "1323. p. n. e.",
+   "museum": "Veliki egipatski muzej, Giza"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Nika sa Samotrake",
+   "artist": "Nepoznati umetnik (Grčka)",
+   "year_label": "190. p. n. e.",
+   "museum": "Luvr, Pariz"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Venera Miloska",
+   "artist": "Aleksandros iz Antiohije",
+   "year_label": "120. p. n. e.",
+   "museum": "Luvr, Pariz"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Oplakivanje Hrista",
+   "artist": "Đoto",
+   "year_label": "1305",
+   "museum": "Kapela Skrovenji, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Veoma raskošni časoslov vojvode od Berija: januar",
+   "artist": "Braća Limburg",
+   "year_label": "1416",
+   "museum": "Muzej Konde, Šantiji"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Portret para Arnolfini",
+   "artist": "Jan van Ajk",
+   "year_label": "1434",
+   "museum": "Nacionalna galerija, London"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Skidanje s krsta",
+   "artist": "Rogir van der Vejden",
+   "year_label": "1435",
+   "museum": "Prado, Madrid"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "Vrt zemaljskih užitaka",
+   "artist": "Hijeronimus Boš",
+   "year_label": "1500",
+   "museum": "Prado, Madrid"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Rođenje Venere",
+   "artist": "Sandro Botičeli",
+   "year_label": "1485",
+   "museum": "Galerija Uficija, Firenca"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Liza",
+   "artist": "Leonardo da Vinči",
+   "year_label": "1503",
+   "museum": "Luvr, Pariz"
+  },
+  "vinci-the-last-supper": {
+   "title": "Tajna večera",
+   "artist": "Leonardo da Vinči",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milano"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Vitruvijev čovek",
+   "artist": "Leonardo da Vinči",
+   "year_label": "1490",
+   "museum": "Gallerie dell'Accademia, Venecija"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Stvaranje Adama",
+   "artist": "Mikelanđelo",
+   "year_label": "1512",
+   "museum": "Sikstinska kapela, Vatikan"
+  },
+  "michelangelo-david": {
+   "title": "David",
+   "artist": "Mikelanđelo",
+   "year_label": "1504",
+   "museum": "Galerija Akademije, Firenca"
+  },
+  "michelangelo-pieta": {
+   "title": "Pijeta",
+   "artist": "Mikelanđelo",
+   "year_label": "1499",
+   "museum": "Bazilika Svetog Petra, Vatikan"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Atinska škola",
+   "artist": "Rafael",
+   "year_label": "1511",
+   "museum": "Vatikanski muzeji, Vatikan"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Venera iz Urbina",
+   "artist": "Ticijan",
+   "year_label": "1538",
+   "museum": "Galerija Uficija, Firenca"
+  },
+  "durer-young-hare": {
+   "title": "Mladi zec",
+   "artist": "Albreht Direr",
+   "year_label": "1502",
+   "museum": "Albertina, Beč"
+  },
+  "younger-the-ambassadors": {
+   "title": "Ambasadori",
+   "artist": "Hans Holbajn Mlađi",
+   "year_label": "1533",
+   "museum": "Nacionalna galerija, London"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Lovci u snegu",
+   "artist": "Pieter Brojgel Stariji",
+   "year_label": "1565",
+   "museum": "Muzej istorije umetnosti, Beč"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "Vavilonska kula",
+   "artist": "Pieter Brojgel Stariji",
+   "year_label": "1563",
+   "museum": "Muzej istorije umetnosti, Beč"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Madona dugog vrata",
+   "artist": "Parmiđanino",
+   "year_label": "1540",
+   "museum": "Galerija Uficija, Firenca"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Sahrana grofa Orgasa",
+   "artist": "El Greko",
+   "year_label": "1586",
+   "museum": "Santo Tome, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumn",
+   "artist": "Đuzepe Arčimboldo",
+   "year_label": "1591",
+   "museum": "Dvorac Skoklošter, Švedska"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Pozivanje svetog Mateja",
+   "artist": "Karavađo",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Rim"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judita ubija Holofernesa",
+   "artist": "Artemizija Đentileski",
+   "year_label": "1620",
+   "museum": "Galerija Uficija, Firenca"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Dijego Velaskez",
+   "year_label": "1656",
+   "museum": "Prado, Madrid"
+  },
+  "rubens-the-three-graces": {
+   "title": "Tri gracije",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Prado, Madrid"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apolon i Dafne",
+   "artist": "Đan Lorenco Bernini",
+   "year_label": "1625",
+   "museum": "Galerija Borgeze, Rim"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Ekstaza svete Terezije",
+   "artist": "Đan Lorenco Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Rim"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Noćna straža",
+   "artist": "Rembrant",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Čas anatomije doktora Nikolasa Tulpa",
+   "artist": "Rembrant",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Hag"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Devojka sa bisernom minđušom",
+   "artist": "Johanes Vermer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Hag"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "Mlekarica",
+   "artist": "Johanes Vermer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "Češljugar",
+   "artist": "Karel Fabricijus",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Hag"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Hodočašće na Citeru",
+   "artist": "Antoan Vato",
+   "year_label": "1717",
+   "museum": "Luvr, Pariz"
+  },
+  "fragonard-the-swing": {
+   "title": "Ljuljaška",
+   "artist": "Žan-Onore Fragonar",
+   "year_label": "1767",
+   "museum": "Kolekcija Voles, London"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Autoportret sa slamnatim šeširom",
+   "artist": "Elizabet Viže Le Brun",
+   "year_label": "1782",
+   "museum": "Nacionalna galerija, London"
+  },
+  "david-the-death-of-marat": {
+   "title": "Smrt Marata",
+   "artist": "Žak-Luj David",
+   "year_label": "1793",
+   "museum": "Kraljevski muzeji lepih umetnosti Belgije, Brisel"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napoleon prelazi Alpe",
+   "artist": "Žak-Luj David",
+   "year_label": "1801",
+   "museum": "Dvorac Malmezon"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Velika odaliska",
+   "artist": "Žan-Ogist-Dominik Engr",
+   "year_label": "1814",
+   "museum": "Luvr, Pariz"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Psiha koju oživljava Amorov poljubac",
+   "artist": "Antonio Kanova",
+   "year_label": "1793",
+   "museum": "Luvr, Pariz"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "Treći maj 1808",
+   "artist": "Fransisko Goja",
+   "year_label": "1814",
+   "museum": "Prado, Madrid"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "Sloboda predvodi narod",
+   "artist": "Ežen Delakroa",
+   "year_label": "1830",
+   "museum": "Luvr, Pariz"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "Splav Meduze",
+   "artist": "Teodor Žeriko",
+   "year_label": "1819",
+   "museum": "Luvr, Pariz"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Putnik iznad mora magle",
+   "artist": "Kaspar David Fridrih",
+   "year_label": "1818",
+   "museum": "Kunsthalle, Hamburg"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "Hrabri Temeraire",
+   "artist": "Dž. M. V. Tarner",
+   "year_label": "1839",
+   "museum": "Nacionalna galerija, London"
+  },
+  "hayez-the-kiss": {
+   "title": "Poljubac",
+   "artist": "Frančesko Ajec",
+   "year_label": "1859",
+   "museum": "Pinakoteka Brera, Milano"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "Veliki talas kod Kanagave",
+   "artist": "Katsušika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Lep vetar, vedro jutro (Crveni Fudži)",
+   "artist": "Katsušika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Iznenadni pljusak nad mostom Šin-Ohaši i Atake",
+   "artist": "Utagava Hirošige",
+   "year_label": "1857",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Uz reku za vreme praznika Čingming",
+   "artist": "Žang Zeduan",
+   "year_label": "1100",
+   "museum": "Muzej Zabranjenog grada, Peking"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Bog vetra i bog groma",
+   "artist": "Tavaraja Sotacu",
+   "year_label": "1630",
+   "museum": "Kenin-dži, Kjoto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "Očajnik",
+   "artist": "Gistav Kurbe",
+   "year_label": "1845",
+   "museum": "Privatna zbirka"
+  },
+  "millet-the-gleaners": {
+   "title": "Sakupljačice klasja",
+   "artist": "Žan-Fransoa Mile",
+   "year_label": "1857",
+   "museum": "Muzej Orsej, Pariz"
+  },
+  "manet-olympia": {
+   "title": "Olimpija",
+   "artist": "Eduar Mane",
+   "year_label": "1863",
+   "museum": "Muzej Orsej, Pariz"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Doručak na travi",
+   "artist": "Eduar Mane",
+   "year_label": "1863",
+   "museum": "Muzej Orsej, Pariz"
+  },
+  "wood-american-gothic": {
+   "title": "Američka gotika",
+   "artist": "Grant Vud",
+   "year_label": "1930",
+   "museum": "Umetnički institut, Čikago"
+  },
+  "sargent-madame-x": {
+   "title": "Madam X",
+   "artist": "Džon Singer Sardžent",
+   "year_label": "1884",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Aranžman u sivom i crnom br. 1 (Vistlerova majka)",
+   "artist": "Džejms Mek Nil Vistler",
+   "year_label": "1871",
+   "museum": "Muzej Orsej, Pariz"
+  },
+  "millais-ophelia": {
+   "title": "Ofelija",
+   "artist": "Džon Everet Mile",
+   "year_label": "1852",
+   "museum": "Tejt Britn, London"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "Dama od Šalota",
+   "artist": "Džon Vilijam Voterhaus",
+   "year_label": "1888",
+   "museum": "Tejt Britn, London"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Rođenje Venere",
+   "artist": "Aleksandar Kabanel",
+   "year_label": "1863",
+   "museum": "Muzej Orsej, Pariz"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "Žan-Leon Žerom",
+   "year_label": "1872",
+   "museum": "Umetnički muzej, Finiks"
+  },
+  "monet-impression-sunrise": {
+   "title": "Impresija, izlazak sunca",
+   "artist": "Klod Mone",
+   "year_label": "1872",
+   "museum": "Muzej Marmotan Mone, Pariz"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Žena sa suncobranom (Madam Mone i njen sin)",
+   "artist": "Klod Mone",
+   "year_label": "1875",
+   "museum": "Nacionalna galerija umetnosti, Vašington"
+  },
+  "monet-water-lilies": {
+   "title": "Lopoči",
+   "artist": "Klod Mone",
+   "year_label": "1906",
+   "museum": "Umetnički institut, Čikago"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Bal u Mulen de la Galet",
+   "artist": "Pjer-Ogist Renoar",
+   "year_label": "1876",
+   "museum": "Muzej Orsej, Pariz"
+  },
+  "degas-the-dance-class": {
+   "title": "Čas plesa",
+   "artist": "Edgar Dega",
+   "year_label": "1874",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "morisot-the-cradle": {
+   "title": "Kolevka",
+   "artist": "Bert Morizo",
+   "year_label": "1872",
+   "museum": "Muzej Orsej, Pariz"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Šetnja plažom",
+   "artist": "Hoakin Sorolja",
+   "year_label": "1909",
+   "museum": "Muzej Sorolja, Madrid"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "Nedelja popodne na ostrvu Grand Žat",
+   "artist": "Žorž Sera",
+   "year_label": "1886",
+   "museum": "Umetnički institut, Čikago"
+  },
+  "gogh-the-starry-night": {
+   "title": "Zvezdana noć",
+   "artist": "Vinsent van Gog",
+   "year_label": "1889",
+   "museum": "Muzej moderne umetnosti, Njujork"
+  },
+  "gogh-sunflowers": {
+   "title": "Suncokreti",
+   "artist": "Vinsent van Gog",
+   "year_label": "1888",
+   "museum": "Nacionalna galerija, London"
+  },
+  "cezanne-the-card-players": {
+   "title": "Igrači karata",
+   "artist": "Pol Sezan",
+   "year_label": "1892",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "Odakle dolazimo? Šta smo? Kuda idemo?",
+   "artist": "Pol Gogen",
+   "year_label": "1897",
+   "museum": "Muzej lepih umetnosti, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Mulen Ruž: La Gilu",
+   "artist": "Anri de Tuluz-Lotrek",
+   "year_label": "1891",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Uspavana Ciganka",
+   "artist": "Anri Ruso",
+   "year_label": "1897",
+   "museum": "Muzej moderne umetnosti, Njujork"
+  },
+  "munch-the-scream": {
+   "title": "Krik",
+   "artist": "Edvard Munk",
+   "year_label": "1893",
+   "museum": "Nacionalni muzej, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "Ostrvo mrtvih",
+   "artist": "Arnold Beklin",
+   "year_label": "1880",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "rodin-the-thinker": {
+   "title": "Mislilac",
+   "artist": "Ogist Rodin",
+   "year_label": "1904",
+   "museum": "Muzej Rodin, Pariz"
+  },
+  "klimt-the-kiss": {
+   "title": "Poljubac",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Beč"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Portret Adele Bloh-Bauer I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, Njujork"
+  },
+  "matisse-dance": {
+   "title": "Ples",
+   "artist": "Anri Matis",
+   "year_label": "1910",
+   "museum": "Ermitaž, Sankt Peterburg"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Žena sa šeširom",
+   "artist": "Anri Matis",
+   "year_label": "1905",
+   "museum": "Muzej moderne umetnosti, San Francisko"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "Veliki plavi konji",
+   "artist": "Franc Mark",
+   "year_label": "1911",
+   "museum": "Walker Art Center, Mineapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Ležeći akt",
+   "artist": "Amedeo Modiljani",
+   "year_label": "1917",
+   "museum": "Metropoliten muzej umetnosti, Njujork"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Portret Pabla Pikasa",
+   "artist": "Huan Gris",
+   "year_label": "1912",
+   "museum": "Umetnički institut, Čikago"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Ajfelov toranj sa drvećem",
+   "artist": "Robert Delone",
+   "year_label": "1910",
+   "museum": "Muzej Solomona R. Gugenhajma, Njujork"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Jedinstvene forme kontinuiteta u prostoru",
+   "artist": "Umberto Bočoni",
+   "year_label": "1913",
+   "museum": "Muzej moderne umetnosti, Njujork"
+  },
+  "boccioni-the-city-rises": {
+   "title": "Grad raste",
+   "artist": "Umberto Bočoni",
+   "year_label": "1910",
+   "museum": "Muzej moderne umetnosti, Njujork"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Kompozicija VIII",
+   "artist": "Vasilij Kandinski",
+   "year_label": "1923",
+   "museum": "Muzej Solomona R. Gugenhajma, Njujork"
+  },
+  "malevich-black-square": {
+   "title": "Crni kvadrat",
+   "artist": "Kazimir Maljevič",
+   "year_label": "1915",
+   "museum": "Tretjakovska galerija, Moskva"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Kompozicija II u crvenom, plavom i žutom",
+   "artist": "Pit Mondrijan",
+   "year_label": "1930",
+   "museum": "Kunsthaus, Cirih"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Kle",
+   "year_label": "1922",
+   "museum": "Kunstmuseum, Bazel"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Šviters",
+   "year_label": "1919",
+   "museum": "Državna galerija, Štutgart"
+  },
+  "terracotta-army": {
+   "title": "Terakota vojska",
+   "artist": "Nepoznati umetnik (Kina)",
+   "year_label": "210. p. n. e.",
+   "museum": "Mauzolej prvog cara dinastije Ćin, Sijan"
+  },
+  "aztec-sun-stone": {
+   "title": "Astečki kamen sunca",
+   "artist": "Nepoznati umetnik (Asteci)",
+   "year_label": "1510",
+   "museum": "Nacionalni muzej antropologije, Meksiko Siti"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (Moai)",
+   "artist": "Nepoznati umetnik (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "Britanski muzej, London"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Antički svet",
+   "period": "2600. p. n. e.-300. n. e.",
+   "summary": "Bogovi, vladari i idealno telo",
+   "description": "Od Egipta do Grčke i Rima, umetnici klešu vladare, bogove i atlete koji treba da traju večno. Njihova potraga za idealnim telom postala je uzor zapadnoj umetnosti na stotine godina."
+  },
+  "gothic": {
+   "name": "Gotika i protorenesansa",
+   "period": "1280-1430",
+   "summary": "Zlatne pozadine i prva prava osećanja",
+   "description": "U crkvama i kapelama slikari još rade na zlatnoj podlozi, ali njihove figure počinju da plaču, da se okreću, da imaju težinu. Pričanje slikom izmišlja se iznova."
+  },
+  "early_netherlandish": {
+   "name": "Rano nizozemsko slikarstvo",
+   "period": "1420-1500",
+   "summary": "Uljane boje i zasenjujući detalji",
+   "description": "U Flandriji slikari usavršavaju uljane boje i njima opisuju sve: krzno, staklo, suzu, odsjaj. Sveti prizori useljavaju se u sobe nalik pravim domovima."
+  },
+  "renaissance": {
+   "name": "Italijanska renesansa",
+   "period": "1420-1570",
+   "summary": "Perspektiva i povratak antici",
+   "description": "U Italiji, a zatim i širom Evrope, umetnici ponovo otkrivaju antiku, proučavaju ljudsko telo i izmišljaju perspektivu. Slika postaje prozor u svet."
+  },
+  "northern_renaissance": {
+   "name": "Severna renesansa",
+   "period": "1490-1570",
+   "summary": "Oštre linije, grafike i neobične vizije",
+   "description": "Severno od Alpa umetnici spajaju italijanske ideje sa ljubavlju prema detalju i svakodnevnom životu. Grafika raznosi njihove slike po celoj Evropi."
+  },
+  "mannerism": {
+   "name": "Manirizam",
+   "period": "1520-1610",
+   "summary": "Elegancija razvučena do krajnjih granica",
+   "description": "Posle velikih majstora, slikari namerno savijaju pravila: izdužena tela, uvijene poze, kisele boje. Sam stil postaje tema."
+  },
+  "baroque": {
+   "name": "Barok",
+   "period": "1600-1700",
+   "summary": "Drama, pokret i duboka senka",
+   "description": "Umetnost želi da dirne posmatrača. Snažni kontrasti svetla i tame, tela u pokretu i pozorišna režija uvlače te u sam prizor."
+  },
+  "siecledor": {
+   "name": "Zlatno doba Holandije",
+   "period": "1600-1700",
+   "summary": "Svakodnevica i svetlost",
+   "description": "U bogatoj Holandskoj Republici umetnici slikaju za građanske domove: tihe enterijere, portrete, mrtve prirode. Svetlost postaje pravi junak."
+  },
+  "rococo": {
+   "name": "Rokoko i 18. vek",
+   "period": "1715-1790",
+   "summary": "Lakoća, uživanje i pastelne boje",
+   "description": "U salonima osamnaestog veka slikarstvo postaje razigrano i intimno: žurke u vrtovima, portreti, nežne boje. Istovremeno, nekoliko umetnika tiho posmatra običan život."
+  },
+  "neoclassicism": {
+   "name": "Neoklasicizam",
+   "period": "1760-1860",
+   "summary": "Čiste linije i antička vrlina",
+   "description": "Inspirisani ruševinama Rima i Pompeje, umetnici se vraćaju strogom crtežu i herojskim temama. Slika treba da poučava koliko i da godi oku."
+  },
+  "romanticism": {
+   "name": "Romantizam",
+   "period": "1780-1860",
+   "summary": "Osećanja, priroda i uzvišeno",
+   "description": "Osećaj preuzima primat od razuma. Oluje, ruševine, bune i usamljene figure izražavaju ono što umetnik oseća pred svetom prevelikim da bi se savladao."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "1680-1860",
+   "summary": "Grafike „plutajućeg sveta“",
+   "description": "U Japanu drvorezi štampani u serijama prikazuju glumce, pejzaže i prizore iz svakodnevice. Njihove ravne boje i smeli isečci zatresli su evropske slikare."
+  },
+  "east_asian": {
+   "name": "Kinesko i japansko slikarstvo",
+   "period": "750-1720",
+   "summary": "Mastilo, svila i prazan prostor",
+   "description": "U Kini i Japanu slikari rade četkicom i mastilom na svili, papiru i sklopivim paravanima. Nekoliko poteza i mnogo praznog prostora dovoljni su da dočaraju planinu ili godišnje doba."
+  },
+  "realism": {
+   "name": "Realizam",
+   "period": "1845-1890",
+   "summary": "Obični ljudi, naslikani onakvi kakvi jesu",
+   "description": "Slikari se okreću od heroja i mitova i prikazuju seljake, radnike i moderan život, bez laskanja. Govoriti istinu postaje izjava sama po sebi."
+  },
+  "american": {
+   "name": "Američko slikarstvo",
+   "period": "1780-1930",
+   "summary": "Nova zemlja gleda sebe",
+   "description": "Od portreta mlade republike do ogromnih pejzaža i prizora iz gradskog života, američki slikari traže sopstvene teme, i sopstvenu svetlost."
+  },
+  "preraphaelite": {
+   "name": "Prerafaeliti i viktorijanska umetnost",
+   "period": "1848-1900",
+   "summary": "Jarke boje, legenda i detalj",
+   "description": "U viktorijanskoj Britaniji grupa mladih slikara odbacuje akademske recepte. Legende i pesme slikaju snažnim bojama i gotovo opsesivnom preciznošću."
+  },
+  "academic": {
+   "name": "Akademska umetnost",
+   "period": "1830-1900",
+   "summary": "Uglađena umetnost zvaničnog Salona",
+   "description": "Školovani na velikim umetničkim akademijama, ovi slikari vladaju anatomijom, istorijskim temama i savršeno glatkim završetkom. Bili su zvezde svog vremena, sve dok ih avangarda nije zasenila."
+  },
+  "impressionnisme": {
+   "name": "Impresionizam",
+   "period": "1867-1910",
+   "summary": "Slikati svetlost trenutka",
+   "description": "Grupa slikara napušta atelje i radi na otvorenom, brzim malim potezima. Ne jure više detalj, već dejstvo svetlosti u tačno određenom trenutku."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpresionizam",
+   "period": "1884-1910",
+   "summary": "Boja, tačku po tačku",
+   "description": "Slikari primenjuju nauku na boju: sitne tačke čiste boje, postavljene jedna uz drugu, stapaju se u oku posmatrača. Slika se gradi polako, poput mozaika."
+  },
+  "postimp": {
+   "name": "Postimpresionizam",
+   "period": "1885-1910",
+   "summary": "Najpre boja i osećanje",
+   "description": "Posle impresionizma svako traži svoj put. Boja više ne oponaša stvarnost: ona izražava ono što slikar oseća."
+  },
+  "symbolism": {
+   "name": "Simbolizam",
+   "period": "1860-1915",
+   "summary": "Snovi, mitovi i unutrašnji svetovi",
+   "description": "Umesto da opisuju vidljivi svet, ovi umetnici nagoveštavaju ideje, snove i strahove. Njihove slike treba prvo osetiti, a tek onda razumeti."
+  },
+  "secession": {
+   "name": "Art nuvo i bečka secesija",
+   "period": "1890-1918",
+   "summary": "Zlato, ukras i vijugave linije",
+   "description": "U Beču mladi umetnici raskidaju sa akademijom. Spajaju slikarstvo, dekoraciju i zanat, a ukras pretvaraju u poseban jezik."
+  },
+  "fauvism": {
+   "name": "Fovizam",
+   "period": "1904-1917",
+   "summary": "Čista boja, pravo iz tube",
+   "description": "Nekoliko eksplozivnih godina slikari koriste žestoke, neprirodne boje i slobodan potez. Kritičari su ih nazvali divljim zverima, i ime im je ostalo."
+  },
+  "expressionism": {
+   "name": "Ekspresionizam",
+   "period": "1903-1925",
+   "summary": "Iskrivljeni oblici, sirova osećanja",
+   "description": "Umetnici izvijaju oblike i pojačavaju boje da bi izrazili strepnju, želju ili bunt. Nije bitno kako svet izgleda, već kako se doživljava."
+  },
+  "cubism": {
+   "name": "Kubizam",
+   "period": "1909-1925",
+   "summary": "Predmeti viđeni sa više strana istovremeno",
+   "description": "Slikari razbijaju predmete na faseta i prikazuju ih iz više uglova na istoj slici. Pet vekova perspektive odjednom se dovodi u pitanje."
+  },
+  "futurism": {
+   "name": "Futurizam",
+   "period": "1909-1920",
+   "summary": "Brzina, mašine i moderan grad",
+   "description": "Italijanski umetnici slave automobile, gužve i elektricitet. Pokušavaju da naslikaju sam pokret, ponavljanjem i razlaganjem oblika."
+  },
+  "abstraction": {
+   "name": "Apstrakcija i avangarda",
+   "period": "1907-1930",
+   "summary": "Slikarstvo bez motiva",
+   "description": "Linije, oblici i boje više ništa ne predstavljaju: oni su sama slika. Umetnici traže vizuelni jezik neposredan kao muzika."
+  },
+  "dada_surrealism": {
+   "name": "Dada i rani nadrealizam",
+   "period": "1912-1930",
+   "summary": "Slučaj, besmislica i snovi",
+   "description": "Rođena iz gađenja prema Prvom svetskom ratu, dada se ruga samoj umetnosti. Nadrealizam sledi njen put i istražuje snove, slučajnost i nesvesno."
+  },
+  "world": {
+   "name": "Afrika, Azija i Amerike",
+   "period": "1200. p. n. e.-1600",
+   "summary": "Sveti predmeti i dvorska umetnost",
+   "description": "Bronze, maske, kameni divovi i obredni predmeti iz Afrike, Azije i Amerike. Pravljeni su za ceremonije, hramove i kraljeve, mnogo pre nego što su muzeji postojali."
+  }
+ }
+}
