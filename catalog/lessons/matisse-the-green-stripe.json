@@ -1,0 +1,47 @@
+{
+  "teaser": "Matisse painted his wife with a green line down her face. It is the most logical thing in the picture.",
+  "focus": [0.46, 0.45],
+  "review_notes": "Painted in autumn/winter 1905, shortly after the Salon d'Automne: standard dating.\nProvenance: owned by Michael and Sarah Stein, lent to a Berlin exhibition in 1914 and stranded by the war, later bought by Danish collectors, given to SMK by Johannes Rump in 1928. Please confirm.\nAmélie Matisse running a hat shop to support the family: standard biography.\nDimensions 40.5 x 32.5 cm.\nLeft/right of the face are given as seen by the viewer.",
+  "lesson": [
+    {"type": "text", "text": "What color is a shadow? Most of us would say gray, or maybe brown. Now look at the middle of this woman's face, where the shadow of her nose and brow should be. Henri Matisse painted it lime green, and ran it from her hairline to her upper lip like a strip of tape."},
+    {"type": "text", "text": "The sitter is his wife, Amélie. The year is 1905, and the canvas is small, about 40 by 32 cm (16 by 13 in), hardly bigger than a sheet of writing paper. A few weeks earlier, at a Paris exhibition, a critic had looked at the violent colors of Matisse and his friends and called them “fauves,” wild beasts. This portrait was his reply: he pushed further."},
+    {"type": "fact", "text": "Amélie Matisse was more than a model. For years she ran a hat shop in Paris to keep the family afloat while almost nobody bought her husband's paintings."},
+    {"type": "text", "text": "The stripe is not a whim. Imagine a lamp on one side of her face and a window on the other. Old portraits would show that with a bright cheek and a dark, brownish cheek. Matisse refuses the dark. He gives each side its own color, and needs something in the middle to keep them apart."},
+    {"type": "tour", "title": "A face in two temperatures", "text": "Compare the two halves, then the line between them.", "spots": [
+      {"x": 0.31, "y": 0.53, "zoom": 2.4, "r": 0.11, "title": "The yellow side", "text": "On our left the skin is butter yellow with touches of green around the eye and jaw. It feels cool and a little sharp, like electric light."},
+      {"x": 0.6, "y": 0.55, "zoom": 2.4, "r": 0.11, "title": "The pink side", "text": "On our right the flesh turns rosy, laid on in thick, creamy strokes you can count. This is the warmer half, closer to how skin usually gets painted."},
+      {"x": 0.46, "y": 0.43, "zoom": 2.8, "r": 0.07, "shape": "rect", "title": "The stripe", "text": "Between them, the green band does the work of a shadow. It marks the ridge of the nose and turns a flat mask into a head with a front and two sides."}
+    ]},
+    {"type": "key", "text": "Matisse models the face with color changes instead of light and dark. Green can be a shadow if the colors around it make it behave like one."},
+    {"type": "text", "text": "The same thinking organizes everything around her head. Painters had long known that certain pairs of colors, called complementaries, make each other look stronger when they touch: red and green, orange and blue, yellow and violet. Matisse sets those pairs against one another all over this little canvas."},
+    {"type": "lines", "text": "The background is not a room. It is three flat fields of color, each chosen for what it sits next to.", "lines": [
+      {"points": [[0.0, 0.0], [0.38, 0.0], [0.3, 0.2], [0.14, 0.36], [0.0, 0.38]], "closed": true, "label": "Violet", "text": "Top left, a pinkish violet. It sits behind the yellow half of the face: yellow and violet, one complementary pair."},
+      {"points": [[0.0, 0.4], [0.14, 0.38], [0.24, 0.55], [0.27, 0.68], [0.12, 0.72], [0.0, 0.74]], "closed": true, "label": "Orange", "text": "Below it, a slab of orange-red presses against the blue-black hair and the yellow cheek, heating up the cool side."},
+      {"points": [[0.5, 0.0], [1.0, 0.0], [1.0, 0.8], [0.72, 0.7], [0.62, 0.62], [0.8, 0.4], [0.75, 0.15]], "closed": true, "label": "Green", "text": "The whole right side is blue-green, cooling the pink cheek and clashing head-on with the red dress beneath it."}
+    ]},
+    {"type": "text", "text": "With so much shouting, why does she look calm? Because the drawing underneath is steady. The head is centered, the eyes are level, the dark arches of the brows and the helmet of blue hair lock everything in place. Her gaze is direct and grave. Matisse could afford wild color because the structure is classical."},
+    {"type": "fact", "text": "The first owners were Americans living in Paris, Michael and Sarah Stein, relatives of the writer Gertrude Stein. They lent their Matisses to a Berlin exhibition in 1914. War broke out, the pictures were stranded, and this one eventually ended up in Denmark."},
+    {"type": "explore", "spots": [
+      {"x": 0.45, "y": 0.2, "zoom": 2, "r": 0.2, "title": "Blue hair", "text": "Her dark hair is painted in deep ultramarine and black, with visible slashing strokes and a topknot. Blue stands in for the shine on black hair."},
+      {"x": 0.35, "y": 0.42, "zoom": 3.4, "r": 0.06, "title": "Her left eye", "text": "A dark iris ringed with green shadow, under an eyebrow drawn as a single blue-black arc. A handful of strokes, and the look is piercing."},
+      {"x": 0.45, "y": 0.62, "zoom": 3.2, "r": 0.07, "title": "The mouth", "text": "Closed red lips, with green shadow above and below. Red on green: the strongest clash available, used on the smallest feature."},
+      {"x": 0.62, "y": 0.83, "zoom": 2.4, "r": 0.12, "title": "The collar", "text": "A pale green band dotted with dark green and red dabs suggests a patterned collar or scarf. Matisse loved fabrics all his life and rarely passed up a pattern."},
+      {"x": 0.81, "y": 0.03, "zoom": 3, "r": 0.09, "title": "Signature", "text": "“Henri Matisse,” written in darker green over the green ground at the top right, quiet enough not to disturb the color field."},
+      {"x": 0.08, "y": 0.9, "zoom": 2.6, "r": 0.09, "title": "Thin paint", "text": "Near the bottom edge the color is brushed so thinly that the weave of the canvas shows. Matisse saved thick paint for the face."}
+    ]},
+    {"type": "text", "text": "A Danish collector, Johannes Rump, gave the portrait to the national gallery in Copenhagen in 1928, which is why one of the key pictures of French modern art lives in Scandinavia. People still stop in front of it and ask the same thing: why is her face green?"},
+    {"type": "text", "text": "You can answer them now. Cover the stripe with a finger and see what is left: two flat colored halves and no nose. Take your finger away and the head comes back."}
+  ],
+  "quiz": [
+    {"question": "Who is the woman in the portrait?", "options": ["Gertrude Stein", "Amélie, the painter's wife", "A professional model named Sarah"], "answer": 1, "explanation": "The sitter is Amélie Matisse."},
+    {"question": "What job does the green stripe do?", "options": ["It acts as the shadow dividing two differently lit sides of the face", "It covers a mistake", "It represents a scar"], "answer": 0, "explanation": "It replaces a dark shadow and marks the ridge of the nose."},
+    {"question": "What are complementary colors?", "options": ["Colors that are nearly identical", "Colors mixed with white", "Pairs like red and green that intensify each other side by side"], "answer": 2, "explanation": "Red and green, orange and blue, yellow and violet strengthen each other when they touch."},
+    {"question": "What does “fauves,” the nickname a critic gave Matisse's group, mean?", "options": ["Dreamers", "Wild beasts", "Children"], "answer": 1, "explanation": "The critic compared the painters of violent color to wild beasts."},
+    {"question": "Where is the painting kept today?", "options": ["Copenhagen", "Paris", "Berlin"], "answer": 0, "explanation": "Johannes Rump gave it to the national gallery in Copenhagen in 1928."}
+  ],
+  "facts": [
+    {"text": "The Green Stripe is a huge canvas, taller than a person.", "isTrue": false, "explanation": "It is only about 40 by 32 cm, roughly a sheet of writing paper."},
+    {"text": "Both halves of the face are painted in the same skin tone.", "isTrue": false, "explanation": "One side is yellow and the other pink, separated by the green band."},
+    {"text": "Amélie Matisse ran a hat shop to support the family.", "isTrue": true, "explanation": "Her shop kept the household going when her husband's paintings did not sell."}
+  ]
+}

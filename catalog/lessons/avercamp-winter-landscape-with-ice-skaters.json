@@ -1,0 +1,58 @@
+{
+  "teaser": "A whole Dutch village on one sheet of ice, painted by a man who never heard it.",
+  "focus": [0.66, 0.75],
+  "review_notes": "Opening interprets 'the place it was made for' as a private Dutch town house and the open market, since no specific first owner is documented.\nImage is small (960 px wide): small figures are identified cautiously. The crest on the brewery wall (Antwerp coat of arms, per Rijksmuseum) is placed approximately at 0.21, 0.64; please check.\nAvercamp's training in Amsterdam (probably with Pieter Isaacsz) is the usual account.\nThe winter of 1607-08 as exceptionally severe: please confirm.\nThe carcass in the bottom left corner being picked at by a dog and crows: placed from the image, small.\nRijksmuseum acquisition date not stated in the lesson.",
+  "lesson": [
+    {"type": "text", "text": "Picture the front room of a merchant's house in a Dutch town around 1608. No altar, no throne, just whitewashed walls, a table, and a painting hung low enough to study with your nose almost touching it. This panel was made for a room like that, and for owners who had fallen on that very ice."},
+    {"type": "text", "text": "That was new. For centuries, painters had worked for churches and courts. In the young Dutch Republic they painted for shopkeepers, brewers and ship owners, and sold from stock like any other trade. Hendrick Avercamp, about twenty-three and living in the small river town of Kampen, found his product early: winter."},
+    {"type": "fact", "text": "Avercamp could neither hear nor speak. Documents of the time call him “de Stomme van Kampen”, the Mute of Kampen. His mother, the daughter of a scholar, is thought to have taught him to write, and he was sent to Amsterdam to learn painting."},
+    {"type": "text", "text": "The panel is only about 77 by 132 centimeters (30 by 52 inches), yet it holds well over a hundred people. A crowd that size could easily turn to visual noise. Avercamp keeps it readable with a few simple decisions about where to stand and where to put the horizon."},
+    {"type": "lines", "text": "Three lines explain how the crowd stays legible.", "lines": [
+      {"points": [[0.0, 0.47], [1.0, 0.47]], "closed": false, "label": "A high horizon", "text": "Land meets sky almost halfway up. We look down from above, as if from an upstairs window, so the figures spread out across the ice instead of hiding one another."},
+      {"points": [[0.42, 0.8], [0.7, 0.5]], "closed": false, "label": "The left bank", "text": "The row of houses and trees pulls back at a slant from the brewery toward the far end of the canal."},
+      {"points": [[0.97, 0.75], [0.74, 0.5]], "closed": false, "label": "The right bank", "text": "The other bank slants the opposite way. Together the two form a funnel that carries your eye from the big figures in front to the specks in the distance."}
+    ]},
+    {"type": "text", "text": "Follow that funnel to its end and the colors drain away. Houses turn pale, skaters become gray dots, and ice and sky melt into the same milky tone. Painters call this atmospheric perspective: distant things look lighter and hazier because of the air in between. Here it also makes you feel the cold."},
+    {"type": "text", "text": "The bird's-eye view was borrowed. Forty years earlier the Flemish painter Pieter Bruegel the Elder had made winter villages seen from above famous. Avercamp admired him enough to slip a direct quotation into his own picture. It lies in the snow in the left foreground, and it has nothing to do with skating."},
+    {"type": "find", "text": "Someone has set a trap for birds: an old door propped up on a stick. Find it in the snow.", "spots": [
+      {"x": 0.193, "y": 0.935, "zoom": 3.6, "r": 0.05, "title": "The bird trap", "text": "A plank door tilts on a stick. Pull the string and it drops on the birds feeding underneath. Bruegel built a famous winter scene around the same device."}
+    ]},
+    {"type": "text", "text": "Viewers of the time were used to finding a lesson in such things. The birds peck happily, one tug away from disaster. The skaters glide happily on a few inches of frozen water. Dutch had a ready word for it: life is slippery. Avercamp never preaches, but the trap sits there at the entrance to the picture."},
+    {"type": "fact", "text": "The weather was on his side. Europe was in the grip of what historians call the Little Ice Age, and Dutch canals and rivers froze hard for weeks in many winters. The winter of 1607 to 1608, just before this panel was painted, was remembered as one of the worst."},
+    {"type": "text", "text": "Frozen water changed the social map. In summer a canal divided people: you were on it for work or you stayed on the bank. In winter it became the one public square where everybody mixed, gentlemen and fishermen at the same level and at the same risk of landing on their backs."},
+    {"type": "tour", "title": "Everyone on the ice", "text": "Four encounters in the right half, from the best dressed to the least lucky.", "spots": [
+      {"x": 0.865, "y": 0.885, "zoom": 3.6, "r": 0.055, "title": "Hand in hand", "text": "Three well-off skaters glide in a row, holding hands. Tall hats, wide breeches and a full black skirt mark them as people with money."},
+      {"x": 0.775, "y": 0.935, "zoom": 3.8, "r": 0.045, "title": "The reed carrier", "text": "Right beside the fine clothes, a man trudges past bent under a huge bundle of cut reeds. For him the ice is a road to work."},
+      {"x": 0.743, "y": 0.785, "zoom": 3.6, "r": 0.05, "title": "The red sleigh", "text": "A horse with a plumed headdress pulls a red sleigh full of passengers through the crowd. It is the luxury vehicle of the day."},
+      {"x": 0.645, "y": 0.71, "zoom": 4, "r": 0.04, "title": "A fall", "text": "One skater has gone flat on his back, legs in the air, while the people around him carry on. Avercamp loved these small humiliations."}
+    ]},
+    {"type": "key", "text": "Avercamp turned an ordinary frozen canal into a portrait of a whole society, rich and poor, working and playing, all sharing one slippery floor."},
+    {"type": "text", "text": "He did not paint this crowd in front of a canal. He filled sketchbooks with single figures, drawn in pen and tinted with watercolor, then assembled them on the panel in his studio like a stage director placing extras. The same skater sometimes turns up in several of his paintings."},
+    {"type": "text", "text": "With so many small actors, the picture rewards slow looking. The left side, which most people skip on their way to the skaters, is where the village keeps working, eating and dying while the party goes on."},
+    {"type": "explore", "spots": [
+      {"x": 0.25, "y": 0.7, "zoom": 3.6, "r": 0.06, "title": "Water for the brewery", "text": "From a hatch in the big brick building, someone lowers a bucket on a long hoist into a hole cut in the ice. The building is a brewery, and brewing needs water all winter."},
+      {"x": 0.212, "y": 0.64, "zoom": 4.5, "r": 0.03, "shape": "arrow", "title": "A sign on the wall", "text": "A painted crest hangs on the brewery gable. It has been read as the coat of arms of Antwerp, a nod to the Flemish city whose painters Avercamp admired."},
+      {"x": 0.13, "y": 0.42, "zoom": 2.6, "r": 0.09, "title": "The church", "text": "A church with a pointed blue-gray spire anchors the village on the left. Its cool color already belongs to the haze, although it stands quite near."},
+      {"x": 0.1, "y": 0.15, "zoom": 2.8, "r": 0.09, "title": "Birds in the bare tree", "text": "Dark birds sit in the branches and wheel across the pale sky. The leafless trees on both edges work like stage curtains framing the scene."},
+      {"x": 0.5, "y": 0.895, "zoom": 3, "r": 0.08, "title": "A boat going nowhere", "text": "A rowing boat lies locked in the ice. People step around it. What was a waterway last month is now a street."},
+      {"x": 0.045, "y": 0.955, "zoom": 3.8, "r": 0.045, "title": "A grim corner", "text": "In the bottom left corner, the remains of a dead animal lie in the snow, picked at by scavengers. Winter fun and winter hunger share the same picture."},
+      {"x": 0.72, "y": 0.52, "zoom": 2.8, "r": 0.1, "title": "Where the canal dissolves", "text": "Far off, figures shrink to dabs of gray and the banks fade into mist. A few strokes are enough to suggest hundreds more skaters."}
+    ]},
+    {"type": "fact", "text": "The drawings he worked from were not only studio tools. Avercamp also sold tinted figure studies and small winter scenes on paper as finished works, and collectors pasted them into albums."},
+    {"type": "text", "text": "Avercamp went back to Kampen and painted ice for the rest of his life, until 1634. He all but invented the Dutch winter scene, and dozens of painters followed him onto it. His later pictures lower the horizon and thin out the crowd. This early one is his most packed."},
+    {"type": "text", "text": "One last thing, for when you look at it again. The scrape of blades, the shouts, the horse's bells, the bucket chain: you probably supplied them without noticing. The man who painted them so exactly lived in silence, and watched all the harder for it."}
+  ],
+  "quiz": [
+    {"question": "What kind of buyer was this painting made for?", "options": ["A cathedral", "A king's court", "Ordinary townspeople buying on the open market"], "answer": 2, "explanation": "Dutch painters of the time worked for merchants and tradespeople and sold from stock."},
+    {"question": "Why does the horizon sit so high in the picture?", "options": ["To let us look down on the ice so figures do not hide each other", "Because the panel was cut down", "To leave room for a signature"], "answer": 0, "explanation": "The raised viewpoint spreads the crowd out across the ice."},
+    {"question": "What is the propped-up door in the foreground?", "options": ["A sled", "A bird trap", "A fishing shelter"], "answer": 1, "explanation": "It is a trap for birds, a quotation from Pieter Bruegel the Elder."},
+    {"question": "What was Avercamp's nickname?", "options": ["The Skater of Amsterdam", "The Little Bruegel", "The Mute of Kampen"], "answer": 2, "explanation": "He could neither hear nor speak and lived in Kampen."},
+    {"question": "What is atmospheric perspective?", "options": ["Making distant things paler and hazier", "Drawing lines to a vanishing point", "Painting clouds from life"], "answer": 0, "explanation": "The far end of the canal fades into the same pale tone as the sky."},
+    {"question": "How did Avercamp build his crowd?", "options": ["He painted outdoors on the ice", "He assembled it in the studio from figure drawings", "He copied a single print"], "answer": 1, "explanation": "He drew single figures in sketchbooks and combined them on the panel."}
+  ],
+  "facts": [
+    {"text": "Avercamp painted this scene during an unusually warm period in European history.", "isTrue": false, "explanation": "It was the Little Ice Age, when Dutch canals often froze for weeks."},
+    {"text": "The large brick building on the left is a brewery drawing water through a hole in the ice.", "isTrue": true, "explanation": "A bucket is lowered from a hatch because brewing needs water all winter."},
+    {"text": "The bird's-eye view of a winter village was Avercamp's own invention.", "isTrue": false, "explanation": "He borrowed it from Pieter Bruegel the Elder, who used it forty years earlier."}
+  ]
+}

@@ -1,0 +1,259 @@
+{
+ "teaser": "The original is lost. This copy was wanted so badly that Hitler bought it.",
+ "focus": [
+  0.6,
+  0.4
+ ],
+ "review_notes": "Date: Roman copy, 2nd century AD (catalog year 140) after Myron's bronze of about 450 BC.\nFound 1781 at Villa Palombara on the Esquiline, property of the Massimo family; later in Palazzo Lancellotti.\nSold to Hitler in 1938 for 5 million lire, shown in the Glyptothek, Munich; returned to Italy in 1948; in the Museo Nazionale Romano (Palazzo Massimo alle Terme) since 1953.\nHeight about 1.55 m.\nQuintilian (Inst. 2.13) on the 'distortum et elaboratum' Discobolus, paraphrased, not quoted.\nBritish Museum Townley copy has a wrongly restored head facing forward.\nThe sculptor of the copy is anonymous; the opening describes the general situation of Roman copyists, not a documented individual.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Rome, around 140 AD. The man who carved this marble was almost certainly a hired craftsman, quite possibly Greek, working in a city full of millionaires who wanted Greek art in their gardens. He did not sign it. He was not paid to invent. His job that year was to reproduce, as exactly as he could, a bronze already six centuries old."
+  },
+  {
+   "type": "text",
+   "text": "That bronze was the Discobolus, the “discus thrower”, made in Athens about 450 BC by a sculptor named Myron. It was one of the most famous statues of the ancient world. It no longer exists. Like most Greek bronzes it was melted down at some point, and nobody knows when."
+  },
+  {
+   "type": "key",
+   "text": "Much of what we know about Greek sculpture comes from Roman copies in marble. This statue is a translation of a lost original, and one of the most faithful we have."
+  },
+  {
+   "type": "text",
+   "text": "Translating bronze into marble has a cost. Bronze is hollow, light and strong, so a figure can balance on one foot. Marble is heavy and snaps under its own weight. The copyist had to add something Myron never designed, and he hid it as well as he could."
+  },
+  {
+   "type": "find",
+   "text": "One object here was not part of Myron's athlete. It is there to keep the marble from breaking. Where is it?",
+   "spots": [
+    {
+     "x": 0.43,
+     "y": 0.72,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The tree stump",
+     "text": "Behind the legs rises a rough trunk with bark and cut branches. It props the thigh so the ankles do not carry everything."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Remove the stump in your mind and you get Myron's idea back: a man balanced on the ball of one foot, wound up like a spring. He has swung the discus as far back as it will go. In the next instant he will uncoil and release it. The statue sits exactly at the turning point, the one moment when the body is almost still."
+  },
+  {
+   "type": "lines",
+   "text": "Myron built the pose out of two simple shapes. Trace them.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.21,
+       0.16
+      ],
+      [
+       0.42,
+       0.19
+      ],
+      [
+       0.59,
+       0.24
+      ],
+      [
+       0.74,
+       0.42
+      ],
+      [
+       0.7,
+       0.56
+      ],
+      [
+       0.6,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "The bow",
+     "text": "One long curve runs from the discus along the raised arm, across the shoulders and down the hanging arm to the hand on the knee, like a drawn bow."
+    },
+    {
+     "points": [
+      [
+       0.8,
+       0.27
+      ],
+      [
+       0.33,
+       0.48
+      ],
+      [
+       0.6,
+       0.62
+      ],
+      [
+       0.3,
+       0.75
+      ],
+      [
+       0.28,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "The zigzag",
+     "text": "Head to hip, hip to knee, knee to trailing foot: the body folds back and forth in sharp angles. This is the stored energy."
+    },
+    {
+     "points": [
+      [
+       0.28,
+       0.83
+      ],
+      [
+       0.56,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "The base",
+     "text": "All of it rests on a strip of ground barely two feet wide. The right foot is planted. The left drags on its toes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice that both shapes work best from one side. The statue is almost flat, like a figure cut out and set against a wall. Walk around it and the clear design collapses. Myron composed for a single viewpoint, the one the photographer has chosen here."
+  },
+  {
+   "type": "fact",
+   "text": "No discus thrower actually looks like this. Athletes and coaches have long pointed out that the stance mixes several moments of a real throw. Myron was after a clear, memorable shape, not a photo finish."
+  },
+  {
+   "type": "text",
+   "text": "Ancient viewers knew it was strange. The Roman teacher Quintilian, writing in the first century AD, used the Discobolus as his example of a work that is twisted and labored on purpose, and argued that this very difficulty is what deserves praise."
+  },
+  {
+   "type": "tour",
+   "title": "Effort without strain",
+   "text": "Look at how the body and the face tell two different stories.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.44,
+     "zoom": 2.2,
+     "r": 0.17,
+     "title": "The torso",
+     "text": "Ribs, belly and chest are packed into tight, clear blocks as the trunk twists. Each muscle is marked, but in a tidy pattern. Anatomy is treated as design."
+    },
+    {
+     "x": 0.8,
+     "y": 0.28,
+     "zoom": 3.2,
+     "r": 0.1,
+     "title": "The face",
+     "text": "Turned back toward the throwing arm, and perfectly blank. No clenched jaw, no frown. Greek artists of this generation kept faces calm even at full effort."
+    },
+    {
+     "x": 0.2,
+     "y": 0.165,
+     "zoom": 3,
+     "r": 0.11,
+     "title": "The grip",
+     "text": "The discus rests against the forearm, held only by the fingertips curled over its rim. The tendons on the back of the hand are the carver's own show of skill."
+    },
+    {
+     "x": 0.28,
+     "y": 0.8,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The dragging toes",
+     "text": "The left foot is bent under and scrapes the ground, toes curled. It is the last thing still touching the earth behind him."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That head is why this copy matters more than its rivals. It was dug up in 1781 on the Esquiline Hill in Rome, on land belonging to the Massimo family, with the head still attached and turned the right way. On the copy in the British Museum, found in 1791, a restorer fixed on a different ancient head, looking forward at the ground."
+  },
+  {
+   "type": "fact",
+   "text": "In 1938 Adolf Hitler bought the statue from the Lancellotti family for five million lire, over the protests of Italian officials. He had it displayed in Munich as an image of the ideal body. It was returned to Italy in 1948."
+  },
+  {
+   "type": "text",
+   "text": "So a Greek tribute to a balanced citizen-athlete became a Roman garden ornament, then an aristocratic family's treasure, then a piece of propaganda, and finally a museum object again. The marble has not changed since about 140 AD. What people wanted from it has changed every time."
+  },
+  {
+   "type": "text",
+   "text": "And the anonymous copyist? His careful, uninventive work turned out to be the thing that lasted. Without him and a few colleagues, Myron would be a name in old books and nothing more."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What happened to Myron's original Discobolus?",
+   "options": [
+    "It is in Athens",
+    "It was a bronze and is lost",
+    "It was made of marble and broke in 1781"
+   ],
+   "answer": 1,
+   "explanation": "The bronze of about 450 BC was melted down at an unknown date."
+  },
+  {
+   "question": "Why is there a tree stump behind the athlete's legs?",
+   "options": [
+    "It supports the heavy marble",
+    "It shows the stadium was in a forest",
+    "Myron included it as a symbol of victory"
+   ],
+   "answer": 0,
+   "explanation": "Marble cannot balance like hollow bronze, so the copyist added a prop."
+  },
+  {
+   "question": "What makes the Lancellotti copy especially valuable?",
+   "options": [
+    "It is the largest",
+    "It is signed by Myron",
+    "Its head survived, turned back toward the discus"
+   ],
+   "answer": 2,
+   "explanation": "It was found in 1781 with the head attached in the correct position."
+  },
+  {
+   "question": "How does the athlete's face look?",
+   "options": [
+    "Twisted with effort",
+    "Calm and blank",
+    "Smiling at the crowd"
+   ],
+   "answer": 1,
+   "explanation": "The face stays serene while the body is wound tight."
+  },
+  {
+   "question": "Who bought the statue in 1938?",
+   "options": [
+    "Adolf Hitler",
+    "The British Museum",
+    "The Pope"
+   ],
+   "answer": 0,
+   "explanation": "He paid five million lire and showed it in Munich until its return in 1948."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The pose is an accurate snapshot of how a discus is really thrown.",
+   "isTrue": false,
+   "explanation": "It combines several moments of a throw into one clear shape."
+  },
+  {
+   "text": "The statue was composed to be seen mainly from one side.",
+   "isTrue": true,
+   "explanation": "Its curves and angles read clearly from a single viewpoint, like a relief."
+  },
+  {
+   "text": "The Roman sculptor who carved this copy signed his name on the base.",
+   "isTrue": false,
+   "explanation": "The copyist is anonymous."
+  }
+ ]
+}

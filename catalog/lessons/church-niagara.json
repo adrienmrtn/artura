@@ -1,0 +1,45 @@
+{
+  "teaser": "A view of Niagara Falls with one thing missing: any ground for you to stand on.",
+  "focus": [0.42, 0.55],
+  "review_notes": "Canvas about 101.6 x 229.9 cm.\nNew York exhibition in 1857 at Williams, Stevens & Williams with a 25 cent entrance fee and very large attendance (often given as 100,000 in two weeks; lesson says 'tens of thousands').\nSale to the dealers for 4,500 dollars including reproduction rights; Corcoran purchase in 1876 for 12,500 dollars, then a record for an American painting.\nRuskin anecdote about the rainbow and the window: traditional, told as reported.\nThe small tower at the left is identified as Terrapin Tower (built 1833, demolished in the 1870s).\nTransfer from the Corcoran to the National Gallery of Art in 2014.",
+  "lesson": [
+    {"type": "text", "text": "Try to work out where you are standing. There is no rock under your feet, no railing, no bank at the bottom of the canvas. The green water starts at the frame and slides away from you toward the drop. Frederic Church painted the most visited viewpoint in North America and removed the viewpoint."},
+    {"type": "text", "text": "By 1857 Niagara Falls had been painted hundreds of times. Almost every version put the falls far off, behind trees, rocks and tiny tourists that gave the eye a safe place to rest. Church, a 31-year-old New Yorker already known for his landscapes, thought those pictures made the place look small."},
+    {"type": "text", "text": "He went to the falls several times in 1856 and filled sketchbooks with pencil drawings and small oil studies from every side. Back in his New York studio he chose the Canadian shore, at the edge of the Horseshoe Falls, and then left the shore out. He also picked a strange canvas: about one meter high and 2.3 meters wide (3.5 by 7.5 feet), more than twice as long as it is tall."},
+    {"type": "lines", "text": "That long shape is what makes the trick work. Three sweeps organize it.", "lines": [
+      {"points": [[0.0, 0.41], [1.0, 0.41]], "closed": false, "label": "The far shore", "text": "A ruler-straight horizon runs the full width, well above the middle. It is the only calm line in the picture, and it tells you how flat and wide this country is."},
+      {"points": [[0.06, 0.45], [0.3, 0.43], [0.62, 0.44], [0.85, 0.45], [1.0, 0.48]], "closed": false, "label": "The brink", "text": "The lip of the falls bends away from you on the left and comes back toward you on the right: the horseshoe. The actual drop takes up only a thin band of the canvas."},
+      {"points": [[1.0, 0.52], [0.7, 0.63], [0.4, 0.74], [0.12, 0.83], [0.0, 0.87]], "closed": false, "label": "The pull", "text": "The near edge of the rapids cuts across the lower half on a long diagonal. Your eye slides down it from right to left, the same way the water goes over."}
+    ]},
+    {"type": "text", "text": "So most of this famous waterfall picture is not waterfall at all. It is sky above and flat racing water below, with the fall itself squeezed between them. Church understood that the terror of Niagara is not the height. It is the moment just before, when the river still looks solid and is already lost."},
+    {"type": "fact", "text": "Church did not send the painting to an exhibition. Two New York dealers showed it alone in a room and charged 25 cents to see it. Tens of thousands of people came within weeks, some bringing opera glasses to study it inch by inch."},
+    {"type": "text", "text": "What did they study through those glasses? Church was a patient observer with an interest in science, and he made every part of the water behave differently: glassy where it speeds up, white where it breaks on a ledge, a milky haze where it has already fallen."},
+    {"type": "tour", "title": "Four kinds of water", "text": "Go from the calm to the chaos.", "spots": [
+      {"x": 0.75, "y": 0.5, "zoom": 2.6, "r": 0.12, "title": "Green glass", "text": "Where the river bends over the near lip it turns deep bottle green and almost smooth. The color tells you how thick the sheet of water is at this point."},
+      {"x": 0.66, "y": 0.76, "zoom": 2.8, "r": 0.1, "title": "The ledge", "text": "A brown shelf of rock shows through the rapids, and the current explodes into white around it. It is the only solid thing near you, and it is under water."},
+      {"x": 0.3, "y": 0.52, "zoom": 2.2, "r": 0.16, "title": "The far curtain", "text": "On the other side the falls are pale and streaked, veiled by their own spray. Church paints them thinly, so distance and mist do the work."},
+      {"x": 0.37, "y": 0.67, "zoom": 3.2, "r": 0.06, "title": "The rainbow's foot", "text": "A short piece of rainbow rises out of the mist. It is transparent: you can see the falling water through it."}
+    ]},
+    {"type": "fact", "text": "The painting toured Britain soon after. The critic John Ruskin, the most feared art writer of the day, is said to have taken the rainbow for real light coming through the gallery window and to have gone to check."},
+    {"type": "text", "text": "The rainbow is broken in two. You saw its foot in the mist, and the other end reappears high in the sky at the upper left. The arc between them is missing, as it would be in nature when the spray thins out. One more thing in the picture is easy to overlook, and it is the only sign that people exist."},
+    {"type": "find", "text": "There is one building in this entire landscape. Can you spot it?", "spots": [
+      {"x": 0.124, "y": 0.415, "zoom": 4.2, "r": 0.03, "shape": "arrow", "title": "Terrapin Tower", "text": "A pale stone tower stands at the very brink on the far side, in front of the trees. Tourists climbed it for the view. Next to the falls it is the size of a pin."}
+    ]},
+    {"type": "text", "text": "A tower you can barely find, and a dead tree trunk tumbling in the rapids at the bottom left: that is all Church gives you for scale. Americans of the 1850s read the rest easily. Here was their continent, immense and untouched, as a kind of national emblem. Four years before the Civil War, that was a comforting thing to pay 25 cents for."},
+    {"type": "fact", "text": "The dealers paid Church 4,500 dollars, which included the right to sell color prints of the picture. In 1876 the Corcoran Gallery in Washington bought it for 12,500 dollars, at the time a record price for an American painting."},
+    {"type": "key", "text": "Church made Niagara overwhelming by taking away the foreground: with nothing between you and the edge, you are not looking at the falls, you are in them."},
+    {"type": "text", "text": "The painting stayed at the Corcoran until that museum closed in 2014, and then moved a few blocks to the National Gallery of Art. Niagara itself has changed more: the tower is gone, and the brink has worn back by many meters since 1857. The falls Church painted exist only on this canvas now."}
+  ],
+  "quiz": [
+    {"question": "What did Church leave out that earlier painters of Niagara always included?", "options": ["The sky", "A foreground of land to stand on", "The Horseshoe Falls"], "answer": 1, "explanation": "The water begins right at the frame, with no bank or rock in front."},
+    {"question": "How was the painting first shown in New York?", "options": ["Alone in a dealers' gallery, for a 25 cent fee", "For free in a church", "At the Corcoran Gallery"], "answer": 0, "explanation": "Two dealers exhibited it by itself and charged admission."},
+    {"question": "What is the only building in the landscape?", "options": ["A hotel on the right bank", "A mill in the rapids", "A small tower at the brink on the far side"], "answer": 2, "explanation": "The tiny Terrapin Tower stands on the far edge of the falls."},
+    {"question": "What is unusual about the canvas?", "options": ["It is round", "It is more than twice as wide as it is tall", "It is painted on both sides"], "answer": 1, "explanation": "It measures about 1 meter by 2.3 meters."},
+    {"question": "What did the Corcoran Gallery pay in 1876?", "options": ["12,500 dollars, a record for an American painting", "25 cents", "4,500 dollars"], "answer": 0, "explanation": "The 12,500 dollar price was a record at the time."}
+  ],
+  "facts": [
+    {"text": "The rainbow in the painting forms one complete arc across the sky.", "isTrue": false, "explanation": "It is broken: one piece rises from the mist and another appears in the upper left."},
+    {"text": "Church painted the picture in his studio from sketches made at the falls.", "isTrue": true, "explanation": "He visited several times in 1856 and worked up the canvas in New York."},
+    {"text": "The vertical drop of the falls fills most of the canvas.", "isTrue": false, "explanation": "The drop is only a thin band between the sky and the racing water."}
+  ]
+}

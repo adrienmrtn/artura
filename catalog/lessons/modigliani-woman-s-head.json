@@ -1,0 +1,47 @@
+{
+  "teaser": "A painter famous for long necks first cut them in stone, by candlelight.",
+  "focus": [0.5, 0.32],
+  "review_notes": "Height about 68 cm (27 in): check against the Met record.\nCount of about 25 surviving sculptures and the 1909 to 1914 span are the usual figures.\nSeven heads shown at the 1912 Salon d'Automne as a decorative ensemble: verify.\nStory that he took limestone blocks from Paris building sites at night is traditional and not documented with certainty.\nCandles on the heads is reported by sculptor Jacob Epstein.\n2010 Christie's Paris sale of a limestone head for about 43 million euros: verify.\n1984 Livorno hoax (heads dredged from a canal, carved by students with a power drill): verify details.\nThe scroll motifs at the top are read as stylized hair; the lumps on the sides as unfinished ears or hair.",
+  "lesson": [
+    {"type": "text", "text": "How far can you stretch a face before it stops being a face? Try it in your head: pull the nose down to twice its length, shrink the mouth to a button, close the eyes. Amedeo Modigliani tried it in limestone, and the face held."},
+    {"type": "text", "text": "You probably know him as a painter of long-necked women with almond eyes. In 1912 he hardly painted at all. For about five years, from 1909 to 1914, this young Italian in Paris wanted to be one thing only: a sculptor."},
+    {"type": "fact", "text": "Stone was expensive and Modigliani was broke. According to friends, he went out at night to building sites in Paris and carried off blocks of limestone meant for new apartment houses."},
+    {"type": "text", "text": "The head is about 68 centimeters high (27 in), cut from one narrow block. Nearly all of it is nose. So where did the rest of the face go? One feature is so small you might miss it."},
+    {"type": "find", "text": "Where is her mouth?", "spots": [{"x": 0.5, "y": 0.512, "zoom": 4, "r": 0.04, "title": "The mouth", "text": "Tucked right under the nose: two tiny lips in a small raised rectangle, narrower than the nose above. Below it stretches a long, empty chin."}]},
+    {"type": "text", "text": "A mouth that small cannot speak, and the eyes have no pupils. The head is sealed, like an idol. Modigliani was looking hard at art made far from Europe: masks from West Africa, Egyptian and Cambodian carvings he studied in Paris museums."},
+    {"type": "text", "text": "From those he took a principle rather than a look. A face does not need to imitate flesh. It can be built from a few clear signs, arranged in order. The order here is strict."},
+    {"type": "lines", "text": "Three lines hold this face together.", "lines": [
+      {"points": [[0.49, 0.15], [0.49, 0.3], [0.5, 0.5], [0.5, 0.63]], "closed": false, "label": "The axis", "text": "A groove parts the hair, then the ridge of the nose takes over and runs to the mouth and the tip of the chin. One vertical from top to bottom."},
+      {"points": [[0.41, 0.29], [0.45, 0.275], [0.49, 0.29], [0.54, 0.275], [0.58, 0.29]], "closed": false, "label": "The eyes", "text": "Two matching almonds under double arched brows. They are the only strong horizontal, and they cross the axis like the bar of a T."},
+      {"points": [[0.4, 0.33], [0.41, 0.5], [0.45, 0.59], [0.5, 0.635], [0.55, 0.59], [0.585, 0.5], [0.6, 0.33]], "closed": false, "label": "The taper", "text": "The cheeks narrow steadily to a pointed chin, a long U with no bump for a cheekbone or a jaw."}
+    ]},
+    {"type": "key", "text": "Modigliani did not copy a woman. He reduced a face to an axis, two almonds and an oval, and found that calm and dignity survived the reduction."},
+    {"type": "text", "text": "His method mattered as much as the design. Most sculptors then modeled clay and paid craftsmen to turn it into bronze or marble. Encouraged by his neighbor, the Romanian sculptor Constantin Brancusi, Modigliani cut straight into the block himself, with no model to copy. This is called direct carving."},
+    {"type": "fact", "text": "Friends remembered visiting his studio at night and finding the stone heads lined up with a lit candle fixed on top of each one. He called the group a temple."},
+    {"type": "text", "text": "He meant it. In 1912 he exhibited seven heads together in Paris, set out as one decorative group, not as separate portraits. This head was conceived as part of a family. Seen alone in a museum, it has lost its sisters."},
+    {"type": "text", "text": "Then, around 1914, he stopped. Stone dust was ruinous for his lungs, already weakened by tuberculosis. Blocks cost money, and the war emptied the building sites. He went back to paint. Only about twenty-five sculptures survive."},
+    {"type": "text", "text": "But the carver never left the painter. The portraits he made until his death in 1920, at thirty-five, keep the long nose, the blank almond eyes and the neck like a column. Each of those can be found on this stone."},
+    {"type": "explore", "spots": [
+      {"x": 0.48, "y": 0.185, "zoom": 3.2, "r": 0.1, "title": "The hair", "text": "Hair is not carved in the round but drawn: curling scrolls scratched into a flat band, with two scallops for a fringe. Pure ornament."},
+      {"x": 0.45, "y": 0.28, "zoom": 3.6, "r": 0.06, "title": "An eye", "text": "A swelling almond with no pupil, under two parallel arches for the brow. Open or closed? You cannot tell, and that is its mystery."},
+      {"x": 0.49, "y": 0.41, "zoom": 2.6, "r": 0.07, "shape": "rect", "title": "The nose", "text": "A straight, sharp-edged bar, more than twice as long as a real nose would be on this face. It works like the spine of the whole head."},
+      {"x": 0.395, "y": 0.34, "zoom": 3.4, "r": 0.04, "title": "The rough side", "text": "At the temples the stone is left broken and lumpy. Only the front is finished. You see how the smooth face was freed from a raw block."},
+      {"x": 0.5, "y": 0.7, "zoom": 2.4, "r": 0.09, "shape": "rect", "title": "The neck", "text": "A plain cylinder, flaring slightly as it meets the base. This is the neck that will reappear in dozens of his painted portraits."},
+      {"x": 0.5, "y": 0.84, "zoom": 2.2, "r": 0.13, "title": "The base", "text": "The head grows out of a rough cube of the same stone, with chisel marks left showing. Pedestal and sculpture are one piece."}
+    ]},
+    {"type": "fact", "text": "In 2010 another of his limestone heads sold in Paris for about 43 million euros. And in 1984, three heads dredged from a canal in his hometown, Livorno, were hailed as lost Modiglianis, until students showed they had carved one with a power drill as a prank."}
+  ],
+  "quiz": [
+    {"question": "What did Modigliani want to be between 1909 and 1914?", "options": ["A poet", "A sculptor", "An architect"], "answer": 1, "explanation": "For about five years he put painting aside for sculpture."},
+    {"question": "What is “direct carving”?", "options": ["Cutting straight into the block yourself, with no model to copy", "Casting bronze in a single pour", "Modeling clay for craftsmen to copy"], "answer": 0, "explanation": "Brancusi encouraged him to carve the stone himself."},
+    {"question": "Which feature of the face is tiny and tucked under the nose?", "options": ["The ears", "The eyes", "The mouth"], "answer": 2, "explanation": "The mouth is a small rectangle with two lips, narrower than the nose."},
+    {"question": "Why did he give up sculpture?", "options": ["Dust harmed his lungs and stone was costly", "Critics laughed at the heads", "He lost his tools in a fire"], "answer": 0, "explanation": "Tuberculosis, the cost of stone and the war pushed him back to painting."},
+    {"question": "How did he light the heads in his studio at night?", "options": ["With a skylight", "With candles fixed on top of them", "With colored lanterns"], "answer": 1, "explanation": "Friends remembered a candle on each head, like a temple."},
+    {"question": "Which art did he study for these heads?", "options": ["Dutch still lifes", "Impressionist landscapes", "African masks and Egyptian and Cambodian carvings"], "answer": 2, "explanation": "He studied them in Paris museums."}
+  ],
+  "facts": [
+    {"text": "The eyes of the head have carefully carved pupils.", "isTrue": false, "explanation": "They are blank almonds with no pupil."},
+    {"text": "Modigliani showed seven heads together as one group in 1912.", "isTrue": true, "explanation": "He exhibited them in Paris as a decorative ensemble."},
+    {"text": "Hundreds of Modigliani sculptures survive.", "isTrue": false, "explanation": "Only about twenty-five are known."}
+  ]
+}

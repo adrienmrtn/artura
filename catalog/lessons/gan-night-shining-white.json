@@ -1,0 +1,48 @@
+{
+ "teaser": "An emperor's favorite horse, tied to a post for 1,300 years and still trying to break free.",
+ "focus": [0.38, 0.4],
+ "review_notes": "The saying that Han Gan called the stable horses his teachers comes from later Chinese painting histories and is told as tradition.\nStable size of 40,000 horses is the figure usually quoted for Xuanzong's reign.\nTitle inscription to the right of the horse is traditionally attributed to Li Yu (Southern Tang); the 'Yanyuan' signature at upper left is read as Zhang Yanyuan.\nLarge colophon read as dated 1138 and signed Xiang Ziyin; Qianlong inscription read as dated 1746 (bingyin). Please confirm both.\nThe missing tail and possible later retouching of the hindquarters follow the Met's catalogue description.\nDimensions 30.8 x 34 cm are for the painted sheet only.",
+ "lesson": [
+  {"type":"text","text":"Chang'an, around 750. The capital of Tang China is the largest city on earth, and behind the palace walls lie the imperial stables. Tradition says Emperor Xuanzong kept some 40,000 horses there. They were not farm animals. They were the tanks, the sports cars and the diplomatic gifts of their day."},
+  {"type":"text","text":"The best of them came from far to the west, traded along the Silk Road from Central Asia. The Chinese called them “heavenly horses” and compared them to dragons. Among them all the emperor had a favorite, a pale charger with a name like a line of poetry: Night-Shining White."},
+  {"type":"text","text":"Han Gan was the court's leading horse painter, and this portrait was his job. It is small, about 31 by 34 centimeters (12 by 13 inches), ink on paper, with no stable, no ground, no groom. Only an animal and the post it is tied to. So where does all the energy come from?"},
+  {"type":"tour","title":"A horse that will not stand still","text":"Follow the body from front to back and count the signs of a temper.","spots":[
+   {"x":0.42,"y":0.34,"zoom":3.6,"r":0.06,"title":"Eye and nostrils","text":"The eye is turned back toward us, wide and round. The nostrils flare and the mouth is open. This is a horse that is snorting, perhaps neighing."},
+   {"x":0.35,"y":0.36,"zoom":3.2,"r":0.05,"title":"The mane","text":"The mane stands straight up like a brush, drawn hair by hair in fine dry strokes. It is the only truly dark, bristling part of the animal."},
+   {"x":0.4,"y":0.8,"zoom":3.2,"r":0.06,"title":"Dancing hooves","text":"Not one leg carries weight calmly. The front hooves paw the air and the back ones scrabble. With no ground line drawn, the horse seems to float as it struggles."},
+   {"x":0.32,"y":0.5,"zoom":1.8,"r":0.05,"shape":"rect","title":"The post","text":"Three blunt stripes of black ink, the darkest and straightest thing on the page. A thin rope runs from it to the halter. Everything rigid is the post, everything alive is the horse."}
+  ]},
+  {"type":"key","text":"Han Gan paints a character, not a specimen. The contrast between a stiff post and a twisting body turns a stable record into a picture of energy held back."},
+  {"type":"text","text":"Notice how little ink it took. The body is a single thin outline, as even as a wire, and the paper itself becomes the white coat. Soft gray shading along the neck, chest and legs is enough to make the barrel of the body feel round and heavy."},
+  {"type":"fact","text":"An old story says the emperor ordered Han Gan to study under an older court master. Han Gan is said to have answered that he already had teachers: the horses in His Majesty's stables."},
+  {"type":"text","text":"Those short legs and that swollen body are not a mistake. Tang taste loved a powerful, well-fed mount, and painters stretched the truth to flatter it. Still, one part of the anatomy really is wrong here, and it has nothing to do with style."},
+  {"type":"find","text":"Something every horse has is missing from this one. Tap the place where it should be.","spots":[
+   {"x":0.2,"y":0.55,"zoom":2.4,"r":0.07,"title":"No tail","text":"The outline of the rump simply curves around and closes. The tail is gone, probably lost when the worn paper was repaired centuries ago. Parts of the hindquarters may be later retouching."}
+  ]},
+  {"type":"text","text":"A sheet of paper this old has been cut, patched and remounted many times. What you are seeing is a survivor, and the head and forequarters are the parts specialists trust most as eighth-century work."},
+  {"type":"fact","text":"Five years after the date given for this portrait, in 755, a general named An Lushan rebelled. Within months Emperor Xuanzong had fled Chang'an, and the world of the great stables came apart."},
+  {"type":"text","text":"Now look at everything that is not horse. The red stamps are seals, the personal marks of people who owned or admired the painting. The columns of writing are their comments. In China, adding your seal to a treasured picture was a way of joining its history, not of spoiling it."},
+  {"type":"explore","spots":[
+   {"x":0.52,"y":0.22,"zoom":3.2,"r":0.04,"shape":"rect","title":"The title","text":"Six characters to the right of the head name the artist and the horse: “Han Gan painted Night-Shining White.” Tradition gives this line to Li Yu, a ruler and poet of the 900s."},
+   {"x":0.085,"y":0.26,"zoom":3.6,"r":0.04,"title":"A historian's name","text":"Two bold characters at the far left are read as “Yanyuan,” the name of Zhang Yanyuan, who wrote a famous history of painting in the 800s."},
+   {"x":0.24,"y":0.2,"zoom":2.8,"r":0.06,"title":"An emperor writes","text":"The neat columns above the horse's back were added by the Qianlong Emperor in the 1700s, a thousand years after Han Gan. He inscribed thousands of works in his collection."},
+   {"x":0.63,"y":0.47,"zoom":2,"r":0.09,"title":"A viewing party","text":"The largest writing records a group of friends looking at the scroll together in 1138. Seeing a famous painting was an event worth signing."},
+   {"x":0.135,"y":0.57,"zoom":2.6,"r":0.07,"title":"Stacked seals","text":"Square after square of red paste, pressed by collectors over the centuries. Their order helps historians trace who owned the horse and when."},
+   {"x":0.42,"y":0.34,"zoom":4,"r":0.05,"title":"Back to the eye","text":"After all those owners, the horse still looks at none of them calmly. Its glance stays sideways, alert, a little wild."}
+  ]},
+  {"type":"fact","text":"The scroll left China in the twentieth century and passed through private hands before the Metropolitan Museum of Art acquired it in 1977. It is now one of the most reproduced Chinese paintings in the West."},
+  {"type":"text","text":"So the page holds two portraits. One is of a stallion who lived in a palace stable. The other is of twelve centuries of people who could not resist leaving a mark beside him. The horse, tied up since 750, has outlasted every one of them."}
+ ],
+ "quiz": [
+  {"question":"Where did Night-Shining White live?","options":["In a Buddhist monastery","In the imperial stables of Emperor Xuanzong","On Han Gan's family farm"],"answer":1,"explanation":"He was the Tang emperor's favorite charger, kept in the palace stables at Chang'an."},
+  {"question":"What creates the white of the horse's coat?","options":["The bare paper inside a thin ink outline","Thick white paint","Silver leaf"],"answer":0,"explanation":"Han Gan drew an even outline and let the paper stand for the coat."},
+  {"question":"Which part of the horse is missing?","options":["An ear","A hoof","The tail"],"answer":2,"explanation":"The rump outline closes with no tail, probably lost in old repairs."},
+  {"question":"What are the red stamps all over the paper?","options":["Seals of owners and admirers","Tax marks from the stable","Damage from damp"],"answer":0,"explanation":"Collectors pressed their personal seals onto works they owned or admired."},
+  {"question":"Why were the best Tang horses compared to dragons and called “heavenly”?","options":["They were painted on temple ceilings","They were prized imports from Central Asia","They were always white"],"answer":1,"explanation":"The finest mounts came along the Silk Road from the west and were treated as near-mythical."}
+ ],
+ "facts": [
+  {"text":"Han Gan set the horse in a detailed stable yard with a groom.","isTrue":false,"explanation":"There is no setting at all, only the horse and its post."},
+  {"text":"The Qianlong Emperor added his writing about a thousand years after the horse was painted.","isTrue":true,"explanation":"His inscription sits above the horse's back and dates from the 1700s."},
+  {"text":"The painting is done in ink on paper and is only about 31 by 34 centimeters.","isTrue":true,"explanation":"It is a small sheet, later mounted as a handscroll."}
+ ]
+}

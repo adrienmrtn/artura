@@ -1,0 +1,314 @@
+{
+ "teaser": "A breastplate that works like a front page, a barefoot emperor and a baby on a dolphin.",
+ "focus": [
+  0.63,
+  0.13
+ ],
+ "review_notes": "Found 20 April 1863 at the Villa of Livia, Prima Porta. Height about 2.04 to 2.08 m depending on source.\nDating: metadata year 20 read as AD; most scholars think this marble was made around or after AD 14 (possibly under Tiberius) after a bronze of about 20 BC. Lesson presents this as likely, not certain.\nIdentity of the Roman on the breastplate (Tiberius, Mars or a generic Roman) and of the side figures is debated; lesson says so.\nPaint traces and the colored reconstruction (Vatican Museums / Paolo Liverani, early 2000s; 'Gods in Color' project): pigments named generally as red and blue only.\n'More than 200 portraits of Augustus survive' is a commonly cited figure.\nBase inscription read from the photo as 'MVNIF. PII IX P.M. AN. XVIII' (gift/munificence of Pius IX, year 18 of his pontificate).\nBare feet as a sign of divine or heroic status is the standard interpretation.\nRestored fingers on the raised right hand: to verify.\nMussolini-era bronze copy on the Via dei Fori Imperiali: to verify date (1930s).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "How do you tell fifty million people who is in charge, when most of them cannot read, will never visit the capital and have no idea what you look like? Rome's first emperor had this exact problem. His answer was stone. Portraits of Augustus were copied and shipped to every corner of the empire, and this is the finest one left."
+  },
+  {
+   "type": "text",
+   "text": "It stands just over 2 meters tall, around 6 feet 8 inches. The real Augustus was a slight man who was often ill. None of that is here. The right arm is raised in the gesture of a general about to address his troops: silence, I am going to speak."
+  },
+  {
+   "type": "fact",
+   "text": "Workers found the statue on April 20, 1863, in the ruins of a country villa at Prima Porta, north of Rome. The villa had belonged to Livia, the emperor's wife for more than fifty years. This may have been her own image of her husband."
+  },
+  {
+   "type": "text",
+   "text": "Every part of the statue carries a message, and the messages were designed for people who read pictures better than words. Start at the bottom, where the sculptor needed a support to keep the marble leg from breaking and turned it into a family tree."
+  },
+  {
+   "type": "find",
+   "text": "A small child clings to the emperor's leg. He is riding an animal. Find the animal.",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.89,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The dolphin",
+     "text": "The child sits astride a dolphin plunging head down. He is Cupid, son of the goddess Venus, who was born from the sea. Augustus's family claimed Venus as an ancestor, so the toddler means: this man has divine blood."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Divine blood, and yet he is dressed as a soldier. The armor is a cuirass, a molded breastplate that imitates an ideal muscular chest. On a real one the decoration would be modest. Here the sculptor has covered it with small figures in relief, meaning carved so they stand out from the surface."
+  },
+  {
+   "type": "text",
+   "text": "Those figures report a specific event. In 53 BC a Roman army was crushed by the Parthians, a rival empire in what is now Iran and Iraq, and its military standards were captured. For Romans this was a lasting humiliation. In 20 BC Augustus got the standards back, through negotiation and without a battle."
+  },
+  {
+   "type": "tour",
+   "title": "Reading the breastplate",
+   "text": "The armor is laid out like a map of the cosmos, with the news in the middle.",
+   "spots": [
+    {
+     "x": 0.62,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.1,
+     "title": "The handover",
+     "text": "Right at the center, a bearded Parthian in trousers holds up a standard topped by an eagle. A Roman in armor reaches out to receive it. Who the Roman is remains debated."
+    },
+    {
+     "x": 0.62,
+     "y": 0.215,
+     "zoom": 3.8,
+     "r": 0.06,
+     "title": "The sky",
+     "text": "At the top a bearded god spreads a cloak like a canopy. He is the Sky. Beneath him, on the left, the Sun drives his chariot. The heavens look on and approve."
+    },
+    {
+     "x": 0.615,
+     "y": 0.42,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "The earth",
+     "text": "At the bottom a goddess reclines with babies beside her: Mother Earth, promising abundance. Peace abroad means full harvests at home."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Roman state art is meant to be read. On this statue a diplomatic deal is presented as a cosmic event, witnessed by Sky, Sun and Earth, with the emperor's body as the page."
+  },
+  {
+   "type": "text",
+   "text": "Now the face. In 20 BC Augustus was in his early forties. When he died in AD 14 he was in his seventies. His official portraits never aged a day. Smooth cheeks, firm jaw, and a small detail repeated on statue after statue: locks of hair on the forehead that part like a pincer."
+  },
+  {
+   "type": "fact",
+   "text": "More than 200 ancient portraits of Augustus survive, far more than of any other Roman. The forehead locks are so consistent that archaeologists use them like a fingerprint to identify even badly damaged heads."
+  },
+  {
+   "type": "text",
+   "text": "The calm, ageless face was borrowed, and so was the stance. Roman sculptors modeled the body on a Greek statue already 400 years old: the Spear Bearer by Polykleitos, a figure famous as the perfect athlete. Educated viewers would have caught the reference at once."
+  },
+  {
+   "type": "lines",
+   "text": "A Greek athlete's pose, adapted for a Roman ruler.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.63,
+       0.2
+      ],
+      [
+       0.6,
+       0.55
+      ],
+      [
+       0.54,
+       0.96
+      ]
+     ],
+     "closed": false,
+     "label": "The standing leg",
+     "text": "His weight drops through the right leg, the one Cupid leans on. The body's main axis is a calm, slightly curved vertical."
+    },
+    {
+     "points": [
+      [
+       0.68,
+       0.66
+      ],
+      [
+       0.74,
+       0.83
+      ],
+      [
+       0.77,
+       0.96
+      ]
+     ],
+     "closed": false,
+     "label": "The free leg",
+     "text": "The left leg trails behind with the heel raised, as if he had just stepped forward and stopped to speak."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.24
+      ],
+      [
+       0.28,
+       0.24
+      ],
+      [
+       0.13,
+       0.07
+      ]
+     ],
+     "closed": false,
+     "label": "The command",
+     "text": "The Greek athlete's arm hung at his side. Augustus's rises and points. This single change turns a sportsman into a commander."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "One detail contradicts the armor: he is barefoot. No Roman general addressed his army without boots. In Greek and Roman art, bare feet belong to gods and heroes. This is one reason many scholars think the marble was carved after his death, when the Senate had officially declared him a god, as a copy of an earlier bronze."
+  },
+  {
+   "type": "text",
+   "text": "And you are not seeing it as Romans did. Traces of pigment found on the marble show it was painted: red on the cloak, blues and reds picking out the tiny figures of the breastplate, color in the hair and eyes. The clean white marble we associate with ancient Rome is an accident of time."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.64,
+     "y": 0.11,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The portrait",
+     "text": "Calm, youthful, slightly stern. The pincer-shaped locks sit above the forehead. The eyes were once painted, which would have sharpened the gaze."
+    },
+    {
+     "x": 0.14,
+     "y": 0.08,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The raised hand",
+     "text": "The index finger points toward an audience we cannot see. Some fingers were repaired after the discovery."
+    },
+    {
+     "x": 0.42,
+     "y": 0.75,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "Cupid",
+     "text": "A chubby winged child looking up, one arm raised along the emperor's leg. Some have seen in him a portrait of one of Augustus's grandsons."
+    },
+    {
+     "x": 0.8,
+     "y": 0.44,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The left hand",
+     "text": "The fingers curl around something that is gone: perhaps a spear, a scepter or the recovered standards themselves."
+    },
+    {
+     "x": 0.7,
+     "y": 0.56,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "The cloak",
+     "text": "A general's cloak, wrapped around the hips and draped over the forearm. It was once bright red, the color of command."
+    },
+    {
+     "x": 0.56,
+     "y": 0.955,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Bare feet",
+     "text": "No boots, no sandals. The quiet sign that this soldier has passed to the side of the gods."
+    },
+    {
+     "x": 0.6,
+     "y": 0.975,
+     "zoom": 3.6,
+     "r": 0.08,
+     "title": "The pope's stamp",
+     "text": "Letters on the base name Pius IX, the pope who had the statue installed in the Vatican after it was found. New rulers kept signing Augustus's image."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Augustus understood that an empire is held together by a shared picture as much as by armies. Coins, statues, reliefs: the same face, the same hair, everywhere. Two thousand years before logos and official portraits in post offices, this is what a brand looked like."
+  },
+  {
+   "type": "fact",
+   "text": "Dictators of the 20th century knew this statue well. In the 1930s Mussolini had a bronze copy set up on the avenue he cut through the ancient center of Rome, hoping some of the first emperor's authority would rub off on him."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where was the statue discovered in 1863?",
+   "options": [
+    "In the Roman Forum",
+    "In the villa of Livia, the emperor's wife, at Prima Porta",
+    "In the harbor of Alexandria"
+   ],
+   "answer": 1,
+   "explanation": "It was found in the ruins of Livia's villa north of Rome."
+  },
+  {
+   "question": "What does the scene at the center of the breastplate show?",
+   "options": [
+    "A Parthian returning a captured Roman standard",
+    "Augustus being crowned",
+    "The founding of Rome by Romulus"
+   ],
+   "answer": 0,
+   "explanation": "It records the return of the standards in 20 BC."
+  },
+  {
+   "question": "Why is Cupid placed at the emperor's leg?",
+   "options": [
+    "To show Augustus loved children",
+    "Because the statue stood in a nursery",
+    "To recall that his family claimed descent from Venus"
+   ],
+   "answer": 2,
+   "explanation": "Cupid is Venus's son, so he signals the family's divine ancestry."
+  },
+  {
+   "question": "What do the bare feet suggest?",
+   "options": [
+    "That the sculptor ran out of time",
+    "That Augustus is shown as a hero or god",
+    "That Roman soldiers fought barefoot"
+   ],
+   "answer": 1,
+   "explanation": "In ancient art bare feet mark gods and heroes."
+  },
+  {
+   "question": "Which Greek statue inspired the pose?",
+   "options": [
+    "The Spear Bearer by Polykleitos",
+    "The Venus de Milo",
+    "The Discus Thrower"
+   ],
+   "answer": 0,
+   "explanation": "The stance copies Polykleitos's famous athlete, with the arm raised."
+  },
+  {
+   "question": "How did the statue originally look?",
+   "options": [
+    "Covered in gold leaf",
+    "Plain white marble",
+    "Painted in colors such as red and blue"
+   ],
+   "answer": 2,
+   "explanation": "Pigment traces show the marble was painted."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Augustus's official portraits aged along with him.",
+   "isTrue": false,
+   "explanation": "They kept the same youthful face until his death in his seventies."
+  },
+  {
+   "text": "Augustus recovered the lost standards by negotiation, not battle.",
+   "isTrue": true,
+   "explanation": "The Parthians handed them back in 20 BC through diplomacy."
+  },
+  {
+   "text": "The breastplate's decoration is purely ornamental, with no particular meaning.",
+   "isTrue": false,
+   "explanation": "It depicts a real political event framed by gods of sky and earth."
+  }
+ ]
+}

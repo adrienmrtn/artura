@@ -1,0 +1,45 @@
+{
+  "teaser": "Paris lined up to see an 83-year-old man in a dressing gown, carved the year he died.",
+  "focus": [0.62, 0.37],
+  "review_notes": "The photo is taken from low down in the foyer of the Comédie-Française; details of the face are small, so few close zooms are used.\nMarble shown at the Salon of 1781, where it drew large crowds and praise: wording kept general, no quotes.\nVoltaire's return to Paris in February 1778, crowning at the Comédie-Française (30 March), death on 30 May 1778, sittings for Houdon that spring.\nCommissioned by his niece Madame Denis, who gave it to the actors of the Comédie-Française.\nSecond marble made for Catherine the Great, now in the Hermitage.\nPigalle's nude statue of Voltaire (1776) was mocked.\nVoltaire's heart kept at the Bibliothèque nationale de France in the base of Houdon's plaster of this statue.\nHoudon's eye technique (deep-cut pupil with a small projecting point of marble) is explained in text; it cannot be verified at this image size.\nThe ribbon in the hair is mentioned but hard to see in this photo.\nHoudon sailed to America in 1785 with Benjamin Franklin to model George Washington.",
+  "lesson": [
+    {"type": "text", "text": "At the Paris Salon of 1781, the big public art show held in the Louvre, the crowd kept gathering around one sculpture. People who had known the man said it was like having him back in the room. He had been dead three years, and he was the most famous writer in Europe."},
+    {"type": "text", "text": "Voltaire wrote plays, poems, histories and stinging pamphlets against cruelty and superstition. His pen had kept him in exile for decades. In February 1778, aged 83, he finally came home to Paris. The city went wild. Actors crowned him with laurel on the stage. By the end of May he was dead."},
+    {"type": "text", "text": "In those few weeks he found time to sit for Jean-Antoine Houdon, the best portrait sculptor of the age. Houdon had one chance to study the face. What he took from it was not grandeur. See what he chose to keep."},
+    {"type": "tour", "title": "An old man, exactly", "text": "The photo looks up at him from the floor of the theater's foyer.", "spots": [
+      {"x": 0.62, "y": 0.37, "zoom": 3.6, "r": 0.1, "title": "The smile", "text": "Thin lips pulled wide over a toothless mouth, cheeks sunk, chin jutting. The head tips forward and to one side, as if he has just heard something worth answering."},
+      {"x": 0.35, "y": 0.53, "zoom": 3.2, "r": 0.08, "title": "The hand", "text": "Long bony fingers curl over the end of the chair arm. You can count the knuckles and tendons. This is an old man's hand, and it is gripping, not resting."},
+      {"x": 0.58, "y": 0.75, "zoom": 1.7, "r": 0.26, "title": "The robe", "text": "From the shoulders down, the body disappears under one huge garment that falls in long, heavy folds to the base. You sense knees and little else."}
+    ]},
+    {"type": "text", "text": "The eyes were Houdon's private trick. He drilled the pupil deep to make a pool of shadow, but left a tiny peg of marble standing at its edge. That peg catches the light like the wet glint on a real eye. Contemporaries said his portraits seemed to look back."},
+    {"type": "fact", "text": "Voltaire's heart was removed after his death and kept as a relic. It rests today in the National Library of France, sealed inside the base of Houdon's plaster model for this very statue."},
+    {"type": "text", "text": "The robe solved a real headache. How do you dress a hero for eternity? In his own wig and breeches, he would look dated in ten years. Naked like a Greek god? Another sculptor had tried that with the elderly Voltaire a few years before, and Paris laughed."},
+    {"type": "text", "text": "Houdon found a third way. The loose gown could be a philosopher's cloak from ancient Athens or the dressing gown the old man really wore at home. A simple ribbon replaces the wig. He is timeless and he is himself, with no costume to choose between the two."},
+    {"type": "key", "text": "Houdon proved that a monument does not have to flatter. He kept the wrinkles and the missing teeth, and let the dignity come from the mind at work in the face."},
+    {"type": "text", "text": "All that cloth could have turned him into a shapeless white heap. It does not, because under the folds there is a firm geometry, and against it one small tilt."},
+    {"type": "lines", "text": "Two lines explain why the figure feels alive.", "lines": [
+      {"points": [[0.33, 0.53], [0.62, 0.32], [0.9, 0.57], [0.97, 0.9], [0.27, 0.9]], "closed": true, "label": "A pyramid", "text": "From the head, the outline spreads down through both chair arms to the wide hem. A broad base and a narrow top: the most stable shape there is. He is not going anywhere."},
+      {"points": [[0.7, 0.62], [0.62, 0.33]], "closed": false, "label": "The lean", "text": "Yet the chest and head push forward and to our left, off the pyramid's center. A body that is settled, a head that is about to speak. The gap between the two is the portrait."}
+    ]},
+    {"type": "text", "text": "That forward lean depends on the arms. You have seen one hand clamped on the chair. A person about to push himself up, or to make a point, needs both."},
+    {"type": "find", "text": "Where is his other hand?", "spots": [
+      {"x": 0.89, "y": 0.57, "zoom": 3.0, "r": 0.08, "title": "On the far arm", "text": "At the right edge, half lost against the carved wall behind, the second hand closes over the other arm of the chair. Both elbows are out. He is braced."}
+    ]},
+    {"type": "text", "text": "The statue was paid for by Voltaire's niece, Madame Denis, who gave it to the actors of the Comédie-Française, the national theater company. It was the right address. Voltaire considered himself a playwright above all, and this troupe had performed his tragedies for sixty years."},
+    {"type": "fact", "text": "Catherine the Great, empress of Russia and a long-time pen pal of Voltaire, ordered a second marble for herself. It is still in the Hermitage Museum in Saint Petersburg."},
+    {"type": "fact", "text": "Houdon's fame crossed the ocean. In 1785 he sailed to America with Benjamin Franklin and stayed at Mount Vernon to take measurements and a face mold of George Washington for a statue."},
+    {"type": "text", "text": "The marble has never left the theater. It sits in the public foyer, under a painted ceiling and chandeliers, with the name cut into the base in case anyone wonders. Audiences walk past him at every intermission, and he looks as though he has an opinion about the play."}
+  ],
+  "quiz": [
+    {"question": "How old was Voltaire when he returned to Paris and sat for Houdon?", "options": ["83", "45", "60"], "answer": 0, "explanation": "He came home in February 1778 aged 83 and died that May."},
+    {"question": "Why did Houdon dress him in a loose robe?", "options": ["Voltaire refused to pose in anything else", "It avoided both dated fashion and an embarrassing heroic nude", "Marble could not show buttons"], "answer": 1, "explanation": "The robe reads as an ancient cloak and as his own dressing gown."},
+    {"question": "What was Houdon's trick for making eyes look alive?", "options": ["Inlaying them with glass", "Painting the pupils black", "Drilling the pupil deep and leaving a small point of marble to catch light"], "answer": 2, "explanation": "The little peg of marble acts like the glint on a real eye."},
+    {"question": "Who gave the statue to the Comédie-Française?", "options": ["Voltaire's niece, Madame Denis", "King Louis XVI", "Catherine the Great"], "answer": 0, "explanation": "She commissioned it and gave it to the actors."},
+    {"question": "What overall shape does the seated figure form?", "options": ["A circle", "A pyramid", "A spiral"], "answer": 1, "explanation": "The outline widens from the head down to the broad hem of the robe."}
+  ],
+  "facts": [
+    {"text": "Houdon smoothed away Voltaire's wrinkles to make him look heroic.", "isTrue": false, "explanation": "He kept the sunken cheeks, the toothless smile and the bony hands."},
+    {"text": "A second marble version was made for the empress of Russia.", "isTrue": true, "explanation": "Catherine the Great ordered one, now in the Hermitage."},
+    {"text": "Voltaire lived for many years after the statue was shown at the Salon.", "isTrue": false, "explanation": "He died in 1778, three years before the marble was exhibited in 1781."}
+  ]
+}

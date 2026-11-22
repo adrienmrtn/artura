@@ -1,0 +1,342 @@
+{
+ "teaser": "Two people cling to each other on a crumpled sheet. Only one of them is still holding on.",
+ "focus": [
+  0.4,
+  0.32
+ ],
+ "review_notes": "Original title reported as 'Mann und Mädchen' (Man and Girl): verify.\nIdentification of the figures as Schiele and Wally Neuzil is the standard reading, not documented by the artist.\nSchiele's proposal of a yearly summer holiday with Wally, which she refused: standard biographical account.\nWally Neuzil died of scarlet fever in December 1917 as a military nurse in Dalmatia.\nSchiele married Edith Harms on 17 June 1915; Edith died 28 October 1918, Schiele 31 October 1918.\nDimensions about 150 x 180 cm.\nThe spot on the woman's linked fingers behind the man's back (around x 0.20, y 0.21) is small and hard to read in the image; check placement.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Who is letting go of whom? A man in a dark robe and a red-haired woman kneel on a white sheet and hold each other. It looks like an embrace. Stay with it a little, and it starts to look like the last second before two people come apart."
+  },
+  {
+   "type": "text",
+   "text": "Egon Schiele painted this in Vienna in 1915. For four years he had lived with Walburga Neuzil, known as Wally. She was his model, his partner, the one who ran his errands and stood by him when he was jailed in 1912. In 1915 he decided to marry someone else."
+  },
+  {
+   "type": "text",
+   "text": "The someone else was Edith Harms, a young woman from a respectable middle-class family who lived across the street from his studio. Wally, a model from a poor background, did not fit the life he now wanted. Schiele married Edith on June 17, 1915."
+  },
+  {
+   "type": "fact",
+   "text": "Schiele reportedly handed Wally a written proposal: he would marry Edith, but spend a few weeks alone with Wally every summer. She refused, walked out, and never saw him again."
+  },
+  {
+   "type": "text",
+   "text": "The painting is his version of that goodbye. The man has Schiele's features. The woman has Wally's red hair. Begin with the two heads, which is where their stories split."
+  },
+  {
+   "type": "tour",
+   "title": "Two heads, two states of mind",
+   "text": "The faces are pressed together, yet they could not be further apart.",
+   "spots": [
+    {
+     "x": 0.43,
+     "y": 0.21,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "His stare",
+     "text": "The man's skin is gray-green, his eyes wide open and fixed on nothing. He kisses the top of her head without looking at her. It is the face of someone horrified at what he is doing."
+    },
+    {
+     "x": 0.34,
+     "y": 0.37,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Her profile",
+     "text": "Her face is white, with a red mouth, pressed sideways into his chest. Her eyes are lowered or shut. She is not arguing. She is holding on."
+    },
+    {
+     "x": 0.4,
+     "y": 0.3,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The hand on her hair",
+     "text": "His long bony fingers lie flat on her head. Is he pulling her close or keeping her still? Schiele leaves the gesture exactly in between."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now the title makes sense, and so does its cruelty. Schiele cast himself as Death. The man wears something like a monk's habit, and his flesh has the color of a corpse. Leaving Wally, he seems to say, is a kind of dying, and he is the one who brings it."
+  },
+  {
+   "type": "text",
+   "text": "“Death and the Maiden” is a very old subject in German-speaking art. Since the Renaissance, painters had shown a skeleton seizing a young woman, a reminder that beauty does not last. Franz Schubert turned it into a famous song in 1817. Schiele keeps the title and removes the skeleton. His Death is a man with a pulse."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is big: about 150 by 180 centimeters, or roughly 5 by 6 feet. The figures are close to life-size, which was rare for Schiele, who mostly worked on paper."
+  },
+  {
+   "type": "text",
+   "text": "And the woman? She wraps both arms all the way around him. Follow them to where they meet, behind his back, at the far upper left, against the white of the sheet."
+  },
+  {
+   "type": "find",
+   "text": "Her arms circle his body. Find the place where her hands meet behind his back.",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.21,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "Fingertips only",
+     "text": "Her hands barely link, hooked by a few thin fingers against the white cloth. The grip is about to give. The whole embrace hangs on these fingertips."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That tiny detail carries the whole picture. He presses her head but looks away. She holds on with almost nothing. Neither of them is embracing the way people do when they intend to stay."
+  },
+  {
+   "type": "text",
+   "text": "The ground they kneel on gives them no help either. It is hard to say where they are: a bed, a field, a hillside. See how Schiele builds the scene around the couple."
+  },
+  {
+   "type": "lines",
+   "text": "The composition is seen from above, as if you were floating over the pair.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.12,
+       0.25
+      ],
+      [
+       0.3,
+       0.75
+      ],
+      [
+       0.6,
+       0.95
+      ],
+      [
+       0.98,
+       0.85
+      ],
+      [
+       0.98,
+       0.5
+      ],
+      [
+       0.7,
+       0.45
+      ],
+      [
+       0.5,
+       0.2
+      ],
+      [
+       0.28,
+       0.15
+      ]
+     ],
+     "closed": true,
+     "label": "An island of cloth",
+     "text": "The white sheet is a raft with crumpled edges. It is the only soft thing in the picture, and the couple is already sliding off it."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.2
+      ],
+      [
+       0.45,
+       0.5
+      ],
+      [
+       0.72,
+       0.72
+      ],
+      [
+       0.95,
+       0.72
+      ]
+     ],
+     "closed": false,
+     "label": "The long diagonal",
+     "text": "Their bodies form one line from upper left to lower right, like something tipping over. There is nothing upright to steady them."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.03
+      ],
+      [
+       0.5,
+       0.02
+      ],
+      [
+       1.0,
+       0.05
+      ]
+     ],
+     "closed": false,
+     "label": "The horizon",
+     "text": "A pale strip at the very top is all the sky you get. The rest is ground, tilted up like a wall. There is no way out of this landscape."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That raised viewpoint was one of Schiele's favorite devices. He often drew his models from a ladder or a stool, looking down. The result here is a world without depth or shelter: brown and ochre lumps like a plowed field or a rock face, with patches of dark green pushing through."
+  },
+  {
+   "type": "fact",
+   "text": "Days after his wedding, Schiele was drafted into the Austro-Hungarian army. The First World War had been running for almost a year. A painting about death and parting was hardly a private matter in 1915."
+  },
+  {
+   "type": "text",
+   "text": "The rest of the canvas is yours to roam. Schiele paints cloth, skin, robe and earth in four different ways, and the textures say as much as the poses."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.62,
+     "y": 0.58,
+     "zoom": 2.2,
+     "r": 0.15,
+     "title": "Her dress",
+     "text": "A patchwork of red, pink, orange and green with a jagged hem, like torn lace or flames. It is the only burst of warm color, and it belongs to her."
+    },
+    {
+     "x": 0.88,
+     "y": 0.68,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "Her legs",
+     "text": "Bare, pale legs folded under her on the sheet, drawn with a hard, angular outline. The skin is as cold in color as the cloth."
+    },
+    {
+     "x": 0.3,
+     "y": 0.5,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "The brown robe",
+     "text": "A huge dark shape with almost no detail, like a hole in the picture. Her head and hands disappear into it."
+    },
+    {
+     "x": 0.25,
+     "y": 0.84,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "His leg",
+     "text": "A thin gray leg pokes out from under the robe, across the green and brown ground. Death here is no spirit. He has knees and feet."
+    },
+    {
+     "x": 0.88,
+     "y": 0.085,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The signature",
+     "text": "Schiele signs in a small box, top right, with the date 1915. He stacked his name in blocks like a stamp, a habit borrowed from Japanese prints."
+    },
+    {
+     "x": 0.8,
+     "y": 0.3,
+     "zoom": 1.8,
+     "r": 0.18,
+     "title": "The ground",
+     "text": "Thinly brushed browns and ochres, with the weave of the canvas showing through. The sheet, by contrast, is thick and crusty with paint."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The story did not end kindly for anyone in it. Wally trained as a nurse for the army and died of scarlet fever in a military hospital in Dalmatia in December 1917. She was 23. Schiele learned of her death and, by one account, changed the title of the painting from “Man and Girl” to the one it has now."
+  },
+  {
+   "type": "text",
+   "text": "In October 1918 the Spanish flu reached Vienna. Edith, six months pregnant, died on October 28. Schiele, who had nursed her and drawn her on her deathbed, died three days later, aged 28."
+  },
+  {
+   "type": "key",
+   "text": "Schiele took an old allegory, a symbolic story about beauty and mortality, and filled it with real people. He gave Death his own face, and showed parting as a small death the living inflict on each other."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who are the two figures generally thought to be?",
+   "options": [
+    "Schiele and Wally Neuzil",
+    "Klimt and his model",
+    "Two anonymous soldiers"
+   ],
+   "answer": 0,
+   "explanation": "The man has Schiele's features and the woman Wally's red hair."
+  },
+  {
+   "question": "Why did Schiele and Wally separate in 1915?",
+   "options": [
+    "Wally moved to Paris",
+    "He decided to marry Edith Harms",
+    "Schiele was jailed"
+   ],
+   "answer": 1,
+   "explanation": "He chose to marry his middle-class neighbor Edith."
+  },
+  {
+   "question": "How does the woman hold the man behind his back?",
+   "options": [
+    "With clenched fists",
+    "She does not touch him",
+    "Only by a few hooked fingertips"
+   ],
+   "answer": 2,
+   "explanation": "Her hands barely link, a sign the embrace is about to break."
+  },
+  {
+   "question": "How did Schiele change the traditional “Death and the Maiden” subject?",
+   "options": [
+    "He replaced the skeleton with a living man who resembles him",
+    "He added a second skeleton",
+    "He set it in a ballroom"
+   ],
+   "answer": 0,
+   "explanation": "His Death is a man in a robe with Schiele's own face."
+  },
+  {
+   "question": "From where does the viewer seem to see the scene?",
+   "options": [
+    "From below, lying on the ground",
+    "From above, looking down",
+    "Through a window"
+   ],
+   "answer": 1,
+   "explanation": "The ground tilts up like a wall and the sky is a thin strip at the top."
+  },
+  {
+   "question": "How did Schiele die?",
+   "options": [
+    "In battle in 1915",
+    "Of old age in 1950",
+    "Of the Spanish flu in 1918, aged 28"
+   ],
+   "answer": 2,
+   "explanation": "He died three days after his pregnant wife Edith."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting is small enough to fit in a drawer.",
+   "isTrue": false,
+   "explanation": "It is about 150 by 180 centimeters, with nearly life-size figures."
+  },
+  {
+   "text": "Wally Neuzil became a nurse and died in 1917.",
+   "isTrue": true,
+   "explanation": "She died of scarlet fever in a military hospital in Dalmatia."
+  },
+  {
+   "text": "Schiele was drafted into the army days after his wedding.",
+   "isTrue": true,
+   "explanation": "He married on June 17, 1915, and was called up almost at once."
+  }
+ ]
+}

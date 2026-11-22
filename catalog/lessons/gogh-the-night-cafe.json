@@ -1,0 +1,297 @@
+{
+ "teaser": "Van Gogh called it one of the ugliest pictures he ever made. He meant it as a compliment.",
+ "focus": [
+  0.55,
+  0.42
+ ],
+ "review_notes": "Three nights of work, sleeping by day: from his letters of September 1888.\nQuotes ('terrible passions of humanity', 'one of the ugliest pictures I have done', 'ruin oneself, go mad or commit a crime') are from letters to Theo, wording varies by translation.\nProvenance: Morozov 1908, Soviet sale 1933 to Stephen Clark, Yale bequest 1961; Konowaloff lawsuit ended in Yale's favor (US Supreme Court declined the case in 2016).\nClock reading 'a little after midnight' is an interpretation of the painted dial.\nGauguin's Night Cafe at Arles is in the Pushkin Museum, Moscow.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The paint on this canvas is so thick in places that it casts its own tiny shadows. Around the lamps it stands up in ridges, pressed on in short curved strokes. The canvas itself is modest, 72 by 92 centimeters (about 28 by 36 inches), yet it took Vincent van Gogh three nights without sleep to cover it."
+  },
+  {
+   "type": "text",
+   "text": "The year was 1888, the month September, the town Arles in the south of France. The place was the Café de la Gare, where van Gogh rented a room. It stayed open all night. People with no money for a bed, or too drunk to be let in anywhere else, could sit there until morning."
+  },
+  {
+   "type": "fact",
+   "text": "For three nights in a row he set up his easel in the café and painted until dawn, then slept during the day. The owner, Joseph Ginoux, and the regulars apparently let him get on with it."
+  },
+  {
+   "type": "text",
+   "text": "He did not want to show you what the room looked like. He wanted you to feel what it was like to be stuck in it at that hour. His tool for that was color, pushed far beyond what his eyes saw."
+  },
+  {
+   "type": "tour",
+   "text": "Three colors do almost all the work in this room. Follow them.",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.33,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "Blood red",
+     "text": "The walls are a flat, heavy red. Van Gogh described the room as “blood red and dull yellow.” Nothing softens it: no pattern, no shading, just a wall of heat pressing in."
+    },
+    {
+     "x": 0.4,
+     "y": 0.04,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "A green ceiling",
+     "text": "Right above the red sits its opposite, green. Red and green are complementary colors, meaning each makes the other look louder. Here they do not flatter each other. They fight."
+    },
+    {
+     "x": 0.55,
+     "y": 0.17,
+     "zoom": 2.6,
+     "r": 0.11,
+     "title": "The buzzing lamp",
+     "text": "Each gas lamp gets a halo of short orange and green dashes, laid on thick. You almost hear it hum. The light does not comfort anyone. It glares."
+    }
+   ],
+   "title": "Red, green, yellow"
+  },
+  {
+   "type": "text",
+   "text": "He explained the clash himself in a letter to his brother Theo: “I have tried to express the terrible passions of humanity by means of red and green.” This was a new idea in 1888. Color was not there to copy the world, it was there to carry a feeling."
+  },
+  {
+   "type": "key",
+   "text": "In The Night Café, color is chosen for what it does to you, not for what the room really looked like. Painters would build on that idea for decades."
+  },
+  {
+   "type": "text",
+   "text": "So how late is it, in this room where the lamps burn so hard? Van Gogh tells you exactly, if you search the back wall. The answer changes how you read all those empty chairs."
+  },
+  {
+   "type": "find",
+   "text": "Somewhere in this room, a clock gives the hour. Tap it.",
+   "spots": [
+    {
+     "x": 0.335,
+     "y": 0.135,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Past midnight",
+     "text": "The hands point to a little after midnight. The night has barely begun for the people here, and the room is already almost empty."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With the time settled, the emptiness makes sense. But something else is odd. The floor seems to tilt, as if the room were sliding toward you. That is not clumsiness. Van Gogh knew the rules of perspective, the system that makes flat pictures look deep, and here he stretched them on purpose."
+  },
+  {
+   "type": "lines",
+   "text": "Trace how the room is built, and where it tries to send you.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.6,
+       0.98
+      ],
+      [
+       0.33,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The floorboards",
+     "text": "The yellow boards rush away from your feet toward the back of the room, much faster than they would in a real café. The floor feels steep and unsteady."
+    },
+    {
+     "points": [
+      [
+       0.72,
+       0.6
+      ],
+      [
+       0.38,
+       0.435
+      ]
+     ],
+     "closed": false,
+     "label": "The billiard table",
+     "text": "The long edge of the table aims at the same spot. Everything in the room points one way."
+    },
+    {
+     "points": [
+      [
+       0.98,
+       0.01
+      ],
+      [
+       0.57,
+       0.075
+      ]
+     ],
+     "closed": false,
+     "label": "The ceiling line",
+     "text": "The top of the red wall drops toward the same zone. The room narrows like a funnel."
+    },
+    {
+     "points": [
+      [
+       0.255,
+       0.26
+      ],
+      [
+       0.33,
+       0.26
+      ],
+      [
+       0.33,
+       0.44
+      ],
+      [
+       0.255,
+       0.44
+      ]
+     ],
+     "closed": true,
+     "label": "The way out",
+     "text": "All those lines meet at a curtained doorway, glowing a paler yellow. It is the only exit you can see, and it leads deeper inside, not out to the street."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A room that pulls you in and offers no way back out: that is the trap he wanted. He wrote that the café was a place “where one can ruin oneself, go mad or commit a crime.” The tilted floor says the same thing without words."
+  },
+  {
+   "type": "fact",
+   "text": "Van Gogh thought the result was “one of the ugliest pictures I have done,” and he was proud of it. He ranked it alongside The Potato Eaters, his dark early painting of peasants at supper."
+  },
+  {
+   "type": "text",
+   "text": "Now the people. There are only six of them, and no two groups look at each other. The big billiard table in the middle of the room sits unused, its cue left lying on the cloth."
+  },
+  {
+   "type": "tour",
+   "text": "Meet the last customers of the night.",
+   "spots": [
+    {
+     "x": 0.675,
+     "y": 0.42,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "The owner",
+     "text": "The man in white standing beside the table is usually identified as Joseph Ginoux, the landlord. He is the only figure facing you, pale and still, like someone waiting for closing time that never comes.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.89,
+     "y": 0.5,
+     "zoom": 2.8,
+     "r": 0.11,
+     "title": "Heads down",
+     "text": "Two men slump over their table, one hidden under a hat. Van Gogh called such people “night prowlers.” They are not drinking anymore. They are sleeping where they sit."
+    },
+    {
+     "x": 0.17,
+     "y": 0.38,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "A couple in the corner",
+     "text": "In the far left corner a man and a woman lean close together. It is the only human contact in the room, and van Gogh pushes it as far from the light as he can."
+    },
+    {
+     "x": 0.06,
+     "y": 0.63,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Abandoned glasses",
+     "text": "Bottles and glasses crowd the near tables, but the chairs are pushed back and empty. Most of the evening's company has already gone."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Stillness everywhere, yet nothing in the picture feels calm. The figures are small and quiet. The noise comes from the walls, the lamps and the floor. Van Gogh moved the drama out of the people and into the room itself."
+  },
+  {
+   "type": "text",
+   "text": "A few weeks later the painter Paul Gauguin came to live with him in Arles and painted the same café. In Gauguin's version, the owner's wife sits calmly in the foreground and the red wall becomes a backdrop. Same room, same color, a completely different temperature."
+  },
+  {
+   "type": "fact",
+   "text": "The Russian collector Ivan Morozov bought the painting in 1908. After the revolution the Soviet state seized his collection, then sold this canvas abroad in 1933. An American buyer left it to Yale, and Morozov's great-grandson later sued to get it back. He lost."
+  },
+  {
+   "type": "text",
+   "text": "So the picture of a place for people with nowhere to go ended up being fought over across a century and two continents. Van Gogh signed it at the bottom right, and under his name he wrote its title in French: le café de nuit."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How long did van Gogh spend painting The Night Café?",
+   "options": [
+    "One afternoon",
+    "Three nights in a row",
+    "A whole winter"
+   ],
+   "answer": 1,
+   "explanation": "He painted for three nights and slept during the day."
+  },
+  {
+   "question": "What did he say he wanted to express with red and green?",
+   "options": [
+    "The terrible passions of humanity",
+    "The warmth of southern France",
+    "The joy of friendship"
+   ],
+   "answer": 0,
+   "explanation": "He wrote that to his brother Theo."
+  },
+  {
+   "question": "Where do the floorboards, the billiard table and the ceiling line all lead?",
+   "options": [
+    "To the clock",
+    "To the owner in white",
+    "To a curtained doorway at the back"
+   ],
+   "answer": 2,
+   "explanation": "All the lines converge on the glowing doorway."
+  },
+  {
+   "question": "What does the clock on the back wall show?",
+   "options": [
+    "A little after midnight",
+    "Six in the morning",
+    "Noon"
+   ],
+   "answer": 0,
+   "explanation": "The hands point to just past midnight."
+  },
+  {
+   "question": "Who painted the same café a few weeks later?",
+   "options": [
+    "Claude Monet",
+    "Paul Cézanne",
+    "Paul Gauguin"
+   ],
+   "answer": 2,
+   "explanation": "Gauguin painted his own, much calmer version in Arles."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Van Gogh considered The Night Café one of his most beautiful, pleasing pictures.",
+   "isTrue": false,
+   "explanation": "He called it one of the ugliest pictures he had done, and meant that as a strength."
+  },
+  {
+   "text": "The café stayed open all night and sheltered people who had nowhere to sleep.",
+   "isTrue": true,
+   "explanation": "People without money for a bed could sit there until morning."
+  },
+  {
+   "text": "The painting has always stayed in France.",
+   "isTrue": false,
+   "explanation": "It went to Russia in 1908, was sold by the Soviet state in 1933 and now belongs to Yale."
+  }
+ ]
+}

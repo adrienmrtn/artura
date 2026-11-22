@@ -1,0 +1,53 @@
+{
+  "teaser": "His neighbors wanted him locked up. He answered with a calm stare and a Japanese print.",
+  "focus": [0.46, 0.4],
+  "review_notes": "Petition by about 30 Arles neighbors (late February 1889) leading the police to close the Yellow House: check number and date.\nIncident dated 23 December 1888; ear given to a young woman at a brothel; treated by Dr. Félix Rey; discharged 7 January 1889: check.\nHow much of the ear was cut (most of it vs. the lobe) is debated; lesson says 'most of'.\nJapanese print identified as 'Geishas in a Landscape' by Sato Torakiyo (1870s), which Van Gogh owned and slightly altered: check.\nFur cap described as a recent purchase: check.\nSamuel Courtauld bought the painting in 1928: check.\nSecond version with a pipe and red-orange background is in a private collection: check.",
+  "lesson": [
+    {"type": "text", "text": "The people who saw this face in the flesh, in the winter of 1889, were frightened by it. About thirty of Van Gogh's neighbors in Arles signed a petition asking the mayor to have the red-haired foreigner shut away. The police closed his house. That was the first public verdict on the man in the green coat."},
+    {"type": "text", "text": "The picture tells a quieter story. He painted it in January 1889, days after leaving the hospital, standing in the studio of his rented Yellow House. He is dressed for the cold, clean-shaven, upright. Nothing is hidden, least of all the thing everyone was whispering about."},
+    {"type": "tour", "title": "Dressed wound", "text": "Start with what he chose to put right in front of you.", "spots": [
+      {"x": 0.3, "y": 0.5, "zoom": 2.6, "r": 0.1, "title": "The bandage", "text": "A thick white dressing runs from under the cap down the jaw and beneath the chin. He paints it in heavy, creamy strokes, as plainly as he would paint a napkin."},
+      {"x": 0.4, "y": 0.25, "zoom": 2.2, "r": 0.2, "title": "The fur cap", "text": "A blue cap with black fur, each bristle flicked out with the brush. It was a recent purchase, useful for keeping the dressing in place and the winter out."},
+      {"x": 0.47, "y": 0.36, "zoom": 3.2, "r": 0.1, "title": "The eyes", "text": "Green, slightly uneven, aimed off to the side. They are not pleading or wild. The expression is tired and steady, the look of someone taking stock."}
+    ]},
+    {"type": "text", "text": "What had happened? For two months the painter Paul Gauguin had shared the Yellow House with him. They worked side by side and argued constantly about how art should be made. On December 23, 1888, after one more quarrel, Gauguin walked out. That night Van Gogh took a razor and cut off most of his own left ear."},
+    {"type": "fact", "text": "He wrapped the piece of ear in paper and carried it to a young woman at a local brothel. The police found him in bed the next morning, and a young doctor named Félix Rey treated the wound."},
+    {"type": "text", "text": "You may have noticed something odd. He injured his left ear, yet the bandage seems to cover the right. The explanation is simple: he was looking in a mirror, and a mirror swaps the sides. He painted what he saw and corrected nothing."},
+    {"type": "key", "text": "A painted self-portrait is almost always a mirror image. What looks like the right side of the artist is really the left."},
+    {"type": "text", "text": "The room behind him is not just a backdrop. He could have painted a blank wall. He picked three things to stand around his head instead, and each one says something about what he intended to do next. One of them comes from very far away."},
+    {"type": "find", "text": "A snow-capped mountain has found its way into this studio in the south of France. Where is it?", "spots": [{"x": 0.67, "y": 0.22, "zoom": 3.6, "r": 0.06, "title": "Mount Fuji", "text": "The white peak sits at the top of a Japanese woodblock print pinned to the wall. Below it, women in kimonos stand in a landscape. Van Gogh owned the print and simplified it here."}]},
+    {"type": "text", "text": "Japan mattered enormously to him. In Paris he had collected hundreds of cheap Japanese prints and admired their flat, bright colors and firm outlines. He had moved to Arles half believing the south of France would be his own Japan. Hanging that print beside his wounded head is a way of saying the dream is still alive."},
+    {"type": "fact", "text": "The print has been identified as a view of geishas in a landscape by Sato Torakiyo, from the 1870s. Japanese prints of this kind sold in Paris for very little, which is how a poor painter could own stacks of them."},
+    {"type": "text", "text": "Now the picture's structure becomes clearer. His head sits between two rectangles, like a man between two thoughts. The colors work in pairs as well, and so do the outlines, which he learned from those same prints."},
+    {"type": "lines", "text": "Three shapes organize the room around him.", "lines": [
+      {"points": [[0.01, 0.2], [0.17, 0.2], [0.17, 0.47], [0.01, 0.47]], "closed": true, "label": "The easel", "text": "On the left, the yellow-brown bars of an easel hold a canvas with nothing clear on it yet. Work is waiting."},
+      {"points": [[0.57, 0.13], [0.78, 0.13], [0.78, 0.64], [0.57, 0.64]], "closed": true, "label": "The print", "text": "On the right, the Japanese print: his source of inspiration, at exactly the height of his eyes."},
+      {"points": [[0.01, 0.74], [0.25, 0.53], [0.5, 0.62], [0.72, 0.6], [0.95, 0.99]], "closed": false, "label": "The coat", "text": "The green overcoat forms a broad base across the whole width. Its dark outline, drawn like the contours in a woodcut, plants him firmly in the room."}
+    ]},
+    {"type": "text", "text": "Read together, those shapes turn a medical bulletin into a statement of intent: the easel for the work, the print for the ideal, the heavy coat for endurance. He wrote to his brother Theo that month that he hoped to get back to painting as if nothing had happened."},
+    {"type": "fact", "text": "He made a second bandaged self-portrait that same January, this time smoking a pipe against a blazing red and orange background. That one is in a private collection."},
+    {"type": "explore", "spots": [
+      {"x": 0.56, "y": 0.73, "zoom": 3.4, "r": 0.06, "title": "The single button", "text": "One big blue-gray button fastens the coat. Its dark ring and the little loop beside it are drawn with the brush like ink lines."},
+      {"x": 0.68, "y": 0.44, "zoom": 3.0, "r": 0.09, "title": "Women in kimonos", "text": "Red, blue and white patches barely suggest the figures of the print. He is quoting it from across the room, not copying it."},
+      {"x": 0.9, "y": 0.4, "zoom": 1.8, "r": 0.1, "shape": "rect", "title": "The door", "text": "A blue-gray door or shutter closes the right edge, painted in long vertical strokes. It gives the composition a cool border opposite the warm easel."},
+      {"x": 0.25, "y": 0.85, "zoom": 2.2, "r": 0.16, "title": "Woven green", "text": "The coat is a mesh of short strokes in several greens with touches of blue and violet, all slanting the same way, like rain on wool."},
+      {"x": 0.5, "y": 0.5, "zoom": 3.0, "r": 0.09, "title": "Yellow skin", "text": "The cheek and nose are built from yellow, orange and green bands with no smooth blending. The lips are a thin pink line, firmly closed."},
+      {"x": 0.42, "y": 0.06, "zoom": 2.0, "r": 0.15, "title": "The wall", "text": "Pale yellow-green, brushed thinly in vertical streaks so the weave of the canvas shows. It makes the black fur beneath it look even darker."}
+    ]},
+    {"type": "text", "text": "The neighbors got their way for a time. In May 1889 Van Gogh left Arles and entered an asylum in nearby Saint-Rémy of his own accord. The painting traveled the other way, toward admiration: the English textile magnate Samuel Courtauld bought it in 1928, and it has become the best-known picture in the gallery that bears his name."},
+    {"type": "text", "text": "So whose reaction was right, the alarm of thirty neighbors or the calm of the canvas? Perhaps both were true on different days. The painting only promises this much: on the day he made it, he could look at himself without flinching."}
+  ],
+  "quiz": [
+    {"question": "How did Van Gogh's neighbors in Arles react to him in early 1889?", "options": ["They signed a petition to have him shut away", "They commissioned portraits from him", "They organized an exhibition of his work"], "answer": 0, "explanation": "About thirty of them petitioned the mayor, and the police closed his house."},
+    {"question": "Why does the bandage seem to be on his right ear?", "options": ["He injured both ears", "He painted from a mirror, which swaps left and right", "He changed the side to improve the composition"], "answer": 1, "explanation": "He cut his left ear and painted the mirror image without correcting it."},
+    {"question": "What hangs on the wall to the right of his head?", "options": ["A portrait of Gauguin", "A map of Provence", "A Japanese woodblock print"], "answer": 2, "explanation": "It is a Japanese print with Mount Fuji and women in kimonos."},
+    {"question": "Whose departure came just before Van Gogh injured himself?", "options": ["His brother Theo's", "Paul Gauguin's", "Dr. Félix Rey's"], "answer": 1, "explanation": "Gauguin walked out of the Yellow House after a quarrel on December 23, 1888."},
+    {"question": "What stands on the left side of the picture?", "options": ["An easel with a canvas", "A window onto a wheat field", "A vase of sunflowers"], "answer": 0, "explanation": "The easel signals that work is waiting for him."},
+    {"question": "Who bought the painting in 1928?", "options": ["The French state", "Samuel Courtauld", "The mayor of Arles"], "answer": 1, "explanation": "The English textile magnate Samuel Courtauld acquired it."}
+  ],
+  "facts": [
+    {"text": "Van Gogh hid his wound behind a scarf in this portrait.", "isTrue": false, "explanation": "The white bandage is fully visible along his jaw."},
+    {"text": "The Japanese print on the wall includes a view of Mount Fuji.", "isTrue": true, "explanation": "The snow-capped peak appears at the top of the print."},
+    {"text": "He painted this picture in the asylum at Saint-Rémy.", "isTrue": false, "explanation": "He painted it in his studio in the Yellow House in Arles, months before entering the asylum."}
+  ]
+}

@@ -1,0 +1,282 @@
+{
+ "teaser": "A knight listens, a woman plays, and Love pumps the organ with his eyes shut.",
+ "focus": [
+  0.56,
+  0.2
+ ],
+ "review_notes": "Opening uses 1868, the year the canvas was begun (finished 1877, shown at the Grosvenor Gallery in 1878), since the artist's affair with Maria Zambaco dates from then. Catalog year 1877 is the completion date.\nBreton song refrain 'Helas! je sais un chant d'amour, triste ou gai, tour a tour', sung by Georgiana Burne-Jones: per the Met.\nEarlier versions: painted panel on the Burne-Jones piano (V&A) and an 1865 watercolor (Museum of Fine Arts, Boston).\nResignation from the Old Water-Colour Society in 1870 over the nude in Phyllis and Demophoon; near-absence from exhibitions until the Grosvenor opened in 1877.\nFirst owner William Graham; Met purchase 1947.\nThe object under Love's hands is the organ bellows. Love's eyes are closed (not blindfolded) in this image.\nGiorgione/Venetian influence is the standard reading.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1868 Edward Burne-Jones was thirty-five, eight years married, a father of two, and hopelessly in love with someone else. She was Maria Zambaco, a young Greek artist with red hair who had begun modeling for him. That year he started this canvas. It took him nine years to finish."
+  },
+  {
+   "type": "text",
+   "text": "The affair became a public mess, and it ended badly for everyone. Burne-Jones stayed with his wife, Georgiana. What makes this painting so tender and so uneasy is that its tune belongs to her."
+  },
+  {
+   "type": "fact",
+   "text": "The title comes from an old Breton folk song that Georgiana liked to sing at home. Its refrain goes, roughly: “Alas, I know a love song, sad or happy, each in turn.”"
+  },
+  {
+   "type": "text",
+   "text": "He had been circling the idea for years. He first painted it small, as decoration on the little piano the couple received as a wedding present. Then came a watercolor. Only then this large oil, about 114 by 156 centimeters (45 by 61 inches), where the three figures finally have room and weight."
+  },
+  {
+   "type": "tour",
+   "title": "A trio",
+   "text": "Three people share one bench-length of garden. Meet them from left to right.",
+   "spots": [
+    {
+     "x": 0.13,
+     "y": 0.4,
+     "zoom": 2,
+     "r": 0.16,
+     "title": "The knight",
+     "text": "He sits on the ground in black armor that gleams like wet slate, barefoot, his weapons put away. A soldier with nothing to do but listen."
+    },
+    {
+     "x": 0.55,
+     "y": 0.25,
+     "zoom": 1.9,
+     "r": 0.16,
+     "title": "The player",
+     "text": "She kneels at a small organ in a heavy, pale gold dress. Her hands rest on the keys, but her face has drifted off somewhere else.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.83,
+     "y": 0.4,
+     "zoom": 1.9,
+     "r": 0.16,
+     "title": "Love",
+     "text": "Dressed in red, with blue-violet wings and a wreath, his eyes closed. This is Love as a person, the Cupid of old poems, grown into a drowsy youth."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Here is a practical detail that carries the meaning. An organ like this makes no sound unless someone pumps air into the pipes with a bellows, a leather bag squeezed by hand. Love has that job. Without him, her fingers would press silent keys."
+  },
+  {
+   "type": "key",
+   "text": "The music in this picture needs three people: one to play, one to listen, and Love to supply the breath. Take any of them away and the song stops."
+  },
+  {
+   "type": "text",
+   "text": "Yet nobody connects. For a painting about a love song, it holds remarkably little contact: no touch, no shared smile, no exchanged glance. Follow where each of them is looking."
+  },
+  {
+   "type": "lines",
+   "text": "Three faces, three directions.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.19,
+       0.33
+      ],
+      [
+       0.52,
+       0.13
+      ]
+     ],
+     "closed": false,
+     "label": "He looks at her",
+     "text": "The knight's profile tilts up toward the player's face. His is the only gaze in the picture that lands on another person."
+    },
+    {
+     "points": [
+      [
+       0.55,
+       0.14
+      ],
+      [
+       0.47,
+       0.42
+      ]
+     ],
+     "closed": false,
+     "label": "She looks away",
+     "text": "Her eyes slide past him and out of the scene, toward nothing in particular. She plays for someone, but not to him."
+    },
+    {
+     "points": [
+      [
+       0.83,
+       0.3
+      ],
+      [
+       0.82,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "Love looks nowhere",
+     "text": "His lids are shut and his head droops toward his hands on the bellows. Love is blind in the old saying. Here he seems half asleep at his work."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the knight longs, the woman dreams, and Love keeps the air moving without watching what he causes. You can read the painter's own tangle of 1868 into that if you like. He never said so."
+  },
+  {
+   "type": "text",
+   "text": "The mood has a source. Burne-Jones had traveled in Italy and loved the Venetian painters of the early 1500s, above all Giorgione, who painted people making music outdoors at dusk with no story attached. The rich reds and the low golden sky here are his thank-you note to Venice."
+  },
+  {
+   "type": "fact",
+   "text": "For most of the years he worked on this canvas, Burne-Jones barely exhibited at all. In 1870 he had resigned from a London watercolor society after complaints about a nude figure in one of his pictures, and he stayed out of public view until 1877."
+  },
+  {
+   "type": "text",
+   "text": "The setting is dusk in a walled garden, with a town behind. The sun has just gone and the sky still holds its glow, while the buildings have already sunk into green shadow. One small detail tells you exactly how late it is."
+  },
+  {
+   "type": "find",
+   "text": "Someone in the town has already lit a lamp. Can you find the glow?",
+   "spots": [
+    {
+     "x": 0.965,
+     "y": 0.31,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Lit windows",
+     "text": "At the far right, behind Love's wing, orange windows burn in a dark house and shine on the water below. Evening is closing in, and the song is the last thing happening outdoors."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those few orange squares give the whole scene a deadline. Burne-Jones liked this hour because it belongs to no century. The knight's armor, the church-like building and the portable organ come from an invented Middle Ages, assembled from books and tapestries."
+  },
+  {
+   "type": "tour",
+   "title": "Painted like jewelry",
+   "text": "He worked slowly, in thin layers, and it shows in the surfaces.",
+   "spots": [
+    {
+     "x": 0.69,
+     "y": 0.2,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Organ pipes",
+     "text": "A stepped row of metal pipes rising against the sky, each with its own thin highlight. They stand exactly between the player and Love.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.62,
+     "y": 0.37,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Hands on the keys",
+     "text": "One hand lifted, one pressed down: the only sign that a note is sounding right now."
+    },
+    {
+     "x": 0.28,
+     "y": 0.47,
+     "zoom": 3.4,
+     "r": 0.08,
+     "title": "The sheep",
+     "text": "Pale shapes lying in the meadow behind the knight. They make the garden a pasture and the evening very quiet."
+    },
+    {
+     "x": 0.72,
+     "y": 0.86,
+     "zoom": 2.4,
+     "r": 0.16,
+     "title": "The flower border",
+     "text": "Tulips and wallflowers along the front edge, painted petal by petal. They form a low fence between you and the three figures."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The painting's first owner was William Graham, a Scottish wine merchant and member of Parliament who bought Burne-Jones's work for decades. Since 1947 it has belonged to the Metropolitan Museum of Art in New York."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the refrain Georgiana sang: sad or happy, each in turn. Her husband painted the instant where you cannot tell which turn it is. The note is sounding, the light is going, and three faces give three different answers."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where does the painting's title come from?",
+   "options": [
+    "A poem by Dante",
+    "A Breton folk song",
+    "An opera by Wagner"
+   ],
+   "answer": 1,
+   "explanation": "It quotes the refrain of a Breton song the artist's wife used to sing."
+  },
+  {
+   "question": "What is Love's job in the scene?",
+   "options": [
+    "Pumping the organ's bellows",
+    "Singing the words",
+    "Turning the pages"
+   ],
+   "answer": 0,
+   "explanation": "The organ needs air, and Love supplies it."
+  },
+  {
+   "question": "Which figure looks at another person?",
+   "options": [
+    "The woman",
+    "Love",
+    "The knight"
+   ],
+   "answer": 2,
+   "explanation": "Only the knight's gaze lands on someone: the player."
+  },
+  {
+   "question": "Which Venetian painter's twilight music scenes inspired the mood?",
+   "options": [
+    "Giorgione",
+    "Canaletto",
+    "Tiepolo"
+   ],
+   "answer": 0,
+   "explanation": "Burne-Jones loved Giorgione's storyless outdoor music-making."
+  },
+  {
+   "question": "On what object did Burne-Jones first paint this subject?",
+   "options": [
+    "A church window",
+    "A wedding chest",
+    "A small piano"
+   ],
+   "answer": 2,
+   "explanation": "He painted it on the piano the couple received as a wedding present."
+  },
+  {
+   "question": "What tells you the hour is late?",
+   "options": [
+    "A clock tower",
+    "Lit windows in the town",
+    "Stars in the sky"
+   ],
+   "answer": 1,
+   "explanation": "Orange windows glow in a dark house at the far right."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Burne-Jones finished The Love Song within a few months.",
+   "isTrue": false,
+   "explanation": "He began it in 1868 and finished it nine years later."
+  },
+  {
+   "text": "Love is shown with his eyes closed.",
+   "isTrue": true,
+   "explanation": "His lids are shut as he rests his hands on the bellows."
+  },
+  {
+   "text": "The woman at the organ gazes back at the knight.",
+   "isTrue": false,
+   "explanation": "She looks away, out of the scene."
+  }
+ ]
+}

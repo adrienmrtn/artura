@@ -1,0 +1,259 @@
+{
+ "teaser": "A cow caught in mid-air, and possibly the happiest wedding picture ever painted.",
+ "focus": [
+  0.6,
+  0.45
+ ],
+ "review_notes": "Reading as a 'wedding picture' for Maria Franck and the blue mountains as a stand-in for Marc himself is a widespread interpretation (Guggenheim's own text mentions it), not a documented statement by Marc.\nMarc and Maria Franck tried to marry in London in June 1911 and failed for legal reasons linked to his first marriage (to Marie Schnür); legal marriage in 1913. Please verify.\nSize about 140 x 189 cm. Guggenheim acquisition 1949.\nSmall red shapes at far left read as red cattle/calves: confirmed in other descriptions, but small in this image.\nBernhard Koehler stipend from 1910 (monthly, in exchange for paintings).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "All four hooves are off the ground. The front legs are thrown forward, the back legs kick out behind, the tail whips up like a question mark. One beat earlier she was running. One beat later she lands. Franz Marc stops the film on the single frame where a cow weighs nothing."
+  },
+  {
+   "type": "text",
+   "text": "Cows do this. Farmers know it: let cattle out to pasture after a winter in the barn and even the heavy old ones buck and jump. Marc had moved in 1910 to Sindelsdorf, a farming village in Upper Bavaria, and he watched animals daily in the meadows around his house."
+  },
+  {
+   "type": "text",
+   "text": "So the leap is observed. The rest is invented, and on a grand scale. The canvas is about 140 by 189 cm (55 by 74 inches), so the cow is close to the size of a real calf sailing past you."
+  },
+  {
+   "type": "lines",
+   "text": "How do you make something this heavy fly? Marc uses three sets of lines.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.02,
+       0.12
+      ],
+      [
+       0.1,
+       0.04
+      ],
+      [
+       0.2,
+       0.12
+      ],
+      [
+       0.3,
+       0.28
+      ],
+      [
+       0.55,
+       0.42
+      ],
+      [
+       0.88,
+       0.43
+      ]
+     ],
+     "closed": false,
+     "label": "The launch",
+     "text": "From the tip of the tail to the nose, the body is one long falling curve, like the path of a thrown ball. The cow is drawn as her own trajectory."
+    },
+    {
+     "points": [
+      [
+       0.84,
+       0.0
+      ],
+      [
+       0.72,
+       0.4
+      ]
+     ],
+     "closed": false,
+     "label": "The black bars",
+     "text": "Bare black tree trunks lean across the right side. They are stiff and straight, so everything curved next to them looks even more alive."
+    },
+    {
+     "points": [
+      [
+       0.28,
+       0.16
+      ],
+      [
+       0.4,
+       0.03
+      ],
+      [
+       0.52,
+       0.1
+      ],
+      [
+       0.62,
+       0.06
+      ],
+      [
+       0.75,
+       0.14
+      ]
+     ],
+     "closed": false,
+     "label": "The peaks",
+     "text": "Blue mountains with sharp, jagged tops sit right above her back. Her spine is soft and round; theirs is hard and angular."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Soft against hard, round against straight, and above all yellow against blue. Marc assigned characters to his colors. Yellow, for him, was the feminine one: gentle, cheerful, sensual. Blue was masculine and serious. He chose the cow's coat the way a writer chooses a name."
+  },
+  {
+   "type": "fact",
+   "text": "Marc worked out his color ideas with a prism on his desk, looking at how each color changed when its opposite sat next to it. He reported his experiments in long letters to his friend, the painter August Macke."
+  },
+  {
+   "type": "text",
+   "text": "Which brings in a love story. In 1911 Marc was building a life with the painter Maria Franck. Many writers read this picture as his celebration of her, with the cheerful yellow cow as Maria and the sober blue mountains as Marc himself. He left no note saying so. But the colors do behave like a couple."
+  },
+  {
+   "type": "find",
+   "text": "The yellow cow carries a piece of the mountains on her own body. Where?",
+   "spots": [
+    {
+     "x": 0.37,
+     "y": 0.5,
+     "zoom": 3,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The blue patch",
+     "text": "A deep blue spot on her flank, the same blue as the peaks. If the mountains stand for Marc, she is wearing him. Even without that story, the patch ties the top of the picture to the middle."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That is how Marc builds a painting: by making colors answer each other across the canvas, the way a rhyme links two lines of a poem. The blue patch answers the mountains. The orange fields answer the red ground. Nothing sits alone."
+  },
+  {
+   "type": "fact",
+   "text": "The couple traveled to London in 1911 hoping to marry there, because legal trouble left over from Marc's short first marriage blocked them in Germany. It did not work. They simply told everyone they were married, and made it official in 1913."
+  },
+  {
+   "type": "tour",
+   "title": "A happy animal",
+   "text": "Three places where the mood of the picture is decided.",
+   "spots": [
+    {
+     "x": 0.86,
+     "y": 0.43,
+     "zoom": 3,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "Her face",
+     "text": "The head stretches forward and up, horns back, muzzle lifted. The eye is a pale closed lid. She looks like someone singing with her eyes shut."
+    },
+    {
+     "x": 0.26,
+     "y": 0.5,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "The udder",
+     "text": "Pink and full, painted as tenderly as a flower. Marc does not hide that this is a female animal: it is part of what the yellow means."
+    },
+    {
+     "x": 0.06,
+     "y": 0.45,
+     "zoom": 3.4,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "Red cattle",
+     "text": "Far behind her, small red shapes of other cattle graze quietly. They stay on the ground. Only she has left it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those small red cattle matter. They are the ordinary herd, earthbound and calm, painted in the color Marc linked with heavy matter. Against them the yellow cow is the exception: the one creature in the valley who has, for a second, escaped her own weight."
+  },
+  {
+   "type": "key",
+   "text": "Marc did not want to paint how an animal looks to us. He wanted to paint how it feels to be that animal. Here, the feeling is joy."
+  },
+  {
+   "type": "text",
+   "text": "He would not keep this mood for long. Within two years his animals grew splintered and anxious, and in 1916 he was killed in the war. That makes this canvas rare in his work: pure delight, with no shadow on it yet."
+  },
+  {
+   "type": "fact",
+   "text": "Marc could afford to paint full time thanks to one man, the Berlin industrialist Bernhard Koehler, who from 1910 sent him a monthly sum in exchange for paintings."
+  },
+  {
+   "type": "text",
+   "text": "The cow has been in New York since 1949, at the Guggenheim Museum. She is still in the air. Marc never painted the landing."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What moment does the painting show?",
+   "options": [
+    "A cow lying in a meadow",
+    "A cow in mid-leap, all hooves off the ground",
+    "A cow being milked"
+   ],
+   "answer": 1,
+   "explanation": "Marc stops the leap at the instant she is weightless."
+  },
+  {
+   "question": "What did yellow mean in Marc's color code?",
+   "options": [
+    "The feminine: gentle, cheerful, sensual",
+    "Danger",
+    "Heavy matter"
+   ],
+   "answer": 0,
+   "explanation": "Blue was the masculine and serious color; yellow was its partner."
+  },
+  {
+   "question": "What links the cow to the mountains?",
+   "options": [
+    "A rope",
+    "Her horns point at them",
+    "A blue patch on her flank"
+   ],
+   "answer": 2,
+   "explanation": "The patch is the same blue as the peaks."
+  },
+  {
+   "question": "What do the small red cattle in the background do?",
+   "options": [
+    "They leap too",
+    "They graze on the ground",
+    "They run from a storm"
+   ],
+   "answer": 1,
+   "explanation": "They are the earthbound herd; only the yellow cow has left the ground."
+  },
+  {
+   "question": "Who is the yellow cow often thought to celebrate?",
+   "options": [
+    "Marc's patron Bernhard Koehler",
+    "August Macke",
+    "Maria Franck, Marc's partner"
+   ],
+   "answer": 2,
+   "explanation": "Many writers read it as a wedding picture, though Marc left no note saying so."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Marc wrote a note explaining that the cow is his wife Maria.",
+   "isTrue": false,
+   "explanation": "The reading is widespread, but he left no note saying so."
+  },
+  {
+   "text": "Real cattle sometimes buck and jump when let out to pasture.",
+   "isTrue": true,
+   "explanation": "Marc observed the leap in the meadows around Sindelsdorf."
+  },
+  {
+   "text": "The black tree trunks in the picture are curved like the cow.",
+   "isTrue": false,
+   "explanation": "They are stiff and straight, which makes the curves beside them look more alive."
+  }
+ ]
+}

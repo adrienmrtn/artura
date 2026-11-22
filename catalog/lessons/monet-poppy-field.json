@@ -1,0 +1,231 @@
+{
+ "teaser": "In 1874 Paris paid one franc to laugh at pictures like this. Count the walkers: two, or four?",
+ "focus": [
+  0.7,
+  0.78
+ ],
+ "review_notes": "About 3,500 visitors and a one-franc entry for the 1874 exhibition: check figures.\nLeroy's 'wallpaper' line was aimed at Impression, Sunrise, not at Poppy Field; quoted in translation.\nThe figures are traditionally identified as Camille and Jean Monet; not documented by Monet himself.\nGift of Étienne Moreau-Nélaton to the French state in 1906; at Orsay since 1986: check.\nCanvas size about 50 x 65 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Paris, April 1874. For one franc you could climb the stairs to a photographer's former studio on the boulevard des Capucines and see what thirty painters, tired of being refused by the official exhibition, had hung on its red-brown walls. Many visitors came to laugh. This small poppy field was one of the things they laughed at."
+  },
+  {
+   "type": "text",
+   "text": "A critic named Louis Leroy wrote the review everyone remembers. Standing before another Monet in the same room, a misty harbor titled Impression, Sunrise, he joked that wallpaper in its earliest stage was more finished. He called the whole group “Impressionists”. It was an insult. They kept it."
+  },
+  {
+   "type": "text",
+   "text": "What bothered people was not the subject. A mother and child in a meadow offended nobody. It was the way the paint sat on the canvas: unblended, unpolished, as if the artist had stopped halfway. To see what they saw, go straight to the red."
+  },
+  {
+   "type": "tour",
+   "title": "What a poppy is made of",
+   "text": "The closer you get, the less there is. Three stops, from the flowers to the people.",
+   "spots": [
+    {
+     "x": 0.22,
+     "y": 0.68,
+     "zoom": 4,
+     "r": 0.09,
+     "title": "Red commas",
+     "text": "Each poppy is one dab of orange-red, sometimes two. No petals, no stems, no black hearts. And the dabs are far too big for flowers seen at that distance."
+    },
+    {
+     "x": 0.585,
+     "y": 0.81,
+     "zoom": 4.5,
+     "r": 0.05,
+     "title": "The child",
+     "text": "A straw hat with a red band, a blur of white, a bunch of flowers. The child sinks into the grass up to the chest. There is no face at all."
+    },
+    {
+     "x": 0.72,
+     "y": 0.79,
+     "zoom": 3.5,
+     "r": 0.08,
+     "title": "The woman",
+     "text": "A blue-gray dress, a dark scarf, a hat, a blue parasol tilted behind her. She is built from perhaps twenty strokes, and you still read her posture at once."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Monet did not fail to paint the poppies properly. He painted what your eye receives on a bright day when you walk through a field without stopping to study it: red spots trembling on green. The oversized dabs are closer to the sensation than a botanical drawing would be."
+  },
+  {
+   "type": "key",
+   "text": "An Impressionist picture records how a scene strikes the eye in a moment, not what the mind knows is there."
+  },
+  {
+   "type": "fact",
+   "text": "Painting like this outdoors had only recently become practical. The collapsible metal paint tube was patented in 1841 by an American painter, John Goffe Rand. Before it, oil colors were kept in pig bladders that dried out and burst."
+  },
+  {
+   "type": "text",
+   "text": "The models are almost certainly Monet's wife Camille and their son Jean, who was six. The family had settled in 1871 in Argenteuil, a small town on the Seine a short train ride from Paris, after Monet waited out the war with Prussia in London. Money came and went. The summers there were among his happiest."
+  },
+  {
+   "type": "text",
+   "text": "Now a question the laughing visitors of 1874 may not have stopped for. How many people are in this field? The obvious answer is two. Search the slope before you settle on it."
+  },
+  {
+   "type": "find",
+   "text": "Camille and Jean in the foreground are not alone. Find the other walkers.",
+   "spots": [
+    {
+     "x": 0.18,
+     "y": 0.455,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "A second pair",
+     "text": "At the top of the slope, against the dark trees: another woman and another child in a straw hat. Many read them as the same two, painted a moment earlier on their way down."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Two pairs, so alike that the picture feels like two frames of one walk. Monet gives no explanation. But the placement is no accident, because the two couples hold the whole composition in place."
+  },
+  {
+   "type": "lines",
+   "text": "A casual stroll, firmly constructed.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.18,
+       0.46
+      ],
+      [
+       0.45,
+       0.63
+      ],
+      [
+       0.72,
+       0.79
+      ]
+     ],
+     "closed": false,
+     "label": "The path of the walk",
+     "text": "A diagonal joins the upper pair to the lower one, following the edge where the poppies stop. Your eye walks down the hill with them."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.5
+      ],
+      [
+       1.0,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "The horizon",
+     "text": "A band of trees cuts the canvas almost exactly in half: sky above, field below. The single tall tree and the red-roofed house break its flatness."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.5
+      ],
+      [
+       0.5,
+       0.72
+      ],
+      [
+       0.52,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "Warm against cool",
+     "text": "Left of this line, red on green. Right of it, gray-violet grass with almost no flowers. Red and green are opposites on the color wheel, so each makes the other look more intense."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That split is the real subject. The right half is nearly colorless so that the left half can burn. And the blue parasol sits just where the two zones meet, a cool note set against the warm red."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas measures only about 50 by 65 cm (20 by 26 inches), small enough to carry under one arm into a field, along with a folding easel and a box of tubes."
+  },
+  {
+   "type": "text",
+   "text": "The laughter did not last. A collector gave the painting to the French state in 1906, while Monet was still alive and painting water lilies at Giverny. Today it hangs in the Musée d'Orsay and turns up on calendars and biscuit tins, which makes it hard to see with fresh eyes. Try anyway: the next time you cross a meadow in June, notice how little of each flower you actually see."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where was this painting first shown?",
+   "options": [
+    "At the official Salon",
+    "At the first independent exhibition of 1874, in a former photographer's studio",
+    "In Monet's garden at Giverny"
+   ],
+   "answer": 1,
+   "explanation": "Thirty artists rented the studio to show outside the official system."
+  },
+  {
+   "question": "How did the word “Impressionist” begin?",
+   "options": [
+    "As a mocking label from a critic",
+    "As the name Monet chose for his school",
+    "As a term used by paint makers"
+   ],
+   "answer": 0,
+   "explanation": "Louis Leroy meant it as an insult, and the painters adopted it."
+  },
+  {
+   "question": "How does Monet paint each poppy?",
+   "options": [
+    "Petal by petal with a fine brush",
+    "With a stencil",
+    "With one or two dabs of red"
+   ],
+   "answer": 2,
+   "explanation": "The flowers are simple, oversized touches of paint."
+  },
+  {
+   "question": "What invention made outdoor oil painting practical?",
+   "options": [
+    "The folding chair",
+    "The metal paint tube",
+    "The camera"
+   ],
+   "answer": 1,
+   "explanation": "Tubes kept paint fresh and portable from 1841 on."
+  },
+  {
+   "question": "Why does the red look so strong?",
+   "options": [
+    "It is set against green, its opposite on the color wheel",
+    "It is mixed with gold",
+    "The canvas is tinted red underneath"
+   ],
+   "answer": 0,
+   "explanation": "Opposite colors intensify each other."
+  }
+ ],
+ "facts": [
+  {
+   "text": "There are two pairs of figures in the painting.",
+   "isTrue": true,
+   "explanation": "A second woman and child stand at the top of the slope."
+  },
+  {
+   "text": "The painting is very large, over two meters wide.",
+   "isTrue": false,
+   "explanation": "It is only about 50 by 65 cm."
+  },
+  {
+   "text": "Critics of 1874 praised the careful finish of Monet's work.",
+   "isTrue": false,
+   "explanation": "They mocked it as unfinished, comparing it unfavorably to wallpaper."
+  }
+ ]
+}

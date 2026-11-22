@@ -1,0 +1,176 @@
+{
+ "teaser": "Painted ten minutes at a time, at dusk, across two English summers.",
+ "focus": [
+  0.52,
+  0.45
+ ],
+ "review_notes": "Which girl is Dolly (11) and which is Polly (7): Tate gives Dolly on the left, Polly on the right. Check.\nCanvas cut by about 60 cm (2 ft) on the left: check figure.\nFirst model Katharine Millet, aged five, wearing a wig: check.\nNickname 'Darnation, Silly, Silly, Pose' is usually attributed to Sargent himself (sometimes to Whistler).\nDive into the Thames at Pangbourne and head injury in 1885: reported by Edwin Abbey.\nBought for the nation through the Chantrey Bequest in 1887.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1885 John Singer Sargent was a painter with no clients. His portrait of Madame Gautreau had been jeered at in Paris the year before, and orders had stopped. He told a friend he was thinking of giving up art for music or business. Instead he crossed the Channel and went to stay with friends in an English village."
+  },
+  {
+   "type": "text",
+   "text": "The village was Broadway, in the Cotswolds, where a group of American artists and writers spent their summers. There was tennis, singing around the piano, and children everywhere. Out of that easy, slightly idle season came the most patient picture Sargent ever made."
+  },
+  {
+   "type": "fact",
+   "text": "The idea came from an accident. On a boating trip down the Thames that summer, Sargent dove in, struck his head on a spike and had to rest. During the same trip he saw paper lanterns hanging among trees and lilies at dusk, and could not forget them."
+  },
+  {
+   "type": "text",
+   "text": "He wanted that exact light: the few minutes after sunset when the sky turns mauve and a candle starts to look brighter than the day. The problem is that those minutes are few. A lantern lit too early looks pale. One of them, in this garden, shows you what he was up against."
+  },
+  {
+   "type": "find",
+   "text": "Most lanterns glow orange. One has not been lit yet and hangs cold and gray. Where is it?",
+   "spots": [
+    {
+     "x": 0.045,
+     "y": 0.31,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The unlit lantern",
+     "text": "At the left edge, a lantern with no candle inside. It takes the bluish color of the evening air. Next to the lit ones, it shows how much warmth one small flame adds."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That contrast, cool dusk against warm paper, is the subject. To catch it Sargent worked outdoors, directly in front of the scene, the way his friend Claude Monet did in France. But Monet finished a canvas quickly. Sargent chose a picture 1.74 meters (almost 6 feet) tall and a light that lasted about ten minutes."
+  },
+  {
+   "type": "text",
+   "text": "So every evening followed the same routine. Easel and canvas were set up in advance, the two girls took their places in white dresses, and everyone waited. When the light was right he ran forward, put down a few strokes, stepped back, ran forward again. Then it was too dark, and they all went to play tennis."
+  },
+  {
+   "type": "key",
+   "text": "Painting in the open air does not have to mean painting fast. Here it meant coming back to the same ten minutes, day after day, from September to November 1885, and again the next summer."
+  },
+  {
+   "type": "text",
+   "text": "The season did not cooperate. By autumn the roses had died, and artificial flowers were tied to the bushes. The girls wore sweaters under their dresses. The following year Sargent had lilies grown in pots so that they would be in bloom on time. What he did with those minutes shows best in three places."
+  },
+  {
+   "type": "tour",
+   "title": "Ten minutes of light",
+   "text": "Three places where the candlelight meets the evening.",
+   "spots": [
+    {
+     "x": 0.56,
+     "y": 0.47,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The lantern in her hands",
+     "text": "The paper is thick orange and pink paint, brightest at the bottom where the flame sits. Its glow lands on the girl's fingers and the underside of her sleeve."
+    },
+    {
+     "x": 0.71,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "The taper",
+     "text": "The second girl lowers a thin lit stick into her lantern. Her face is lit from below, warm on the chin and cheeks, while her hair stays in cool shadow."
+    },
+    {
+     "x": 0.42,
+     "y": 0.1,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The lilies",
+     "text": "Tall white lilies float above the children's heads, each one a few quick strokes. They catch the last daylight, so they are white and blue, never orange."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The girls are Dolly and Polly Barnard, eleven and seven, daughters of an illustrator who lived in the village. They were not the first choice. Sargent began with a five-year-old in a wig, then switched: the Barnard sisters were older, steadier, and had the hair color he wanted."
+  },
+  {
+   "type": "fact",
+   "text": "The title is a line from a popular song the Broadway friends sang in the evenings, “The Wreath.” Asked “Have you seen my Flora pass this way?”, the chorus answers: “Carnation, lily, lily, rose.” Worn out by the endless sittings, Sargent renamed it “Darnation, Silly, Silly, Pose.”"
+  },
+  {
+   "type": "text",
+   "text": "Notice what the picture leaves out. There is no sky, no horizon, no path. You look slightly down into grass and flowers that fill the canvas edge to edge, like wallpaper or a Japanese screen. The children are held inside the garden, and so are you."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas was once wider. Partway through, Sargent cut about 60 centimeters (2 feet) off the left side to tighten the composition, leaving the nearly square shape you see."
+  },
+  {
+   "type": "text",
+   "text": "In 1887 the painting was shown at the Royal Academy in London. Some critics found it too French. The public loved it, and it was bought for the nation the same year. The man who had fled Paris with no clients now had a second country, and soon more portrait orders than he could handle."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why could Sargent paint only a few minutes each day?",
+   "options": [
+    "The girls could only pose briefly",
+    "He wanted the exact light just after sunset",
+    "The paint dried too fast outdoors"
+   ],
+   "answer": 1,
+   "explanation": "He was after the short moment of dusk when lanterns begin to glow."
+  },
+  {
+   "question": "Where does the title come from?",
+   "options": [
+    "A poem by Tennyson",
+    "The names of the two girls",
+    "A line from a popular song"
+   ],
+   "answer": 2,
+   "explanation": "It is the chorus of the song “The Wreath.”"
+  },
+  {
+   "question": "What happened when the real flowers died in autumn?",
+   "options": [
+    "Artificial flowers were tied to the bushes",
+    "Sargent painted them from memory in Paris",
+    "He abandoned the picture"
+   ],
+   "answer": 0,
+   "explanation": "Fake flowers replaced the roses so work could go on."
+  },
+  {
+   "question": "What is missing from the composition?",
+   "options": [
+    "Any flowers in the foreground",
+    "Sky and horizon",
+    "A second child"
+   ],
+   "answer": 1,
+   "explanation": "Grass and flowers fill the whole canvas, with no sky at all."
+  },
+  {
+   "question": "What did Sargent do to the canvas while working?",
+   "options": [
+    "He cut a strip off the left side",
+    "He added a strip at the top",
+    "He painted over an older portrait"
+   ],
+   "answer": 0,
+   "explanation": "He trimmed about 60 cm from the left to tighten the picture."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Sargent painted this picture in his London studio from photographs.",
+   "isTrue": false,
+   "explanation": "He painted it outdoors in a garden in Broadway, at dusk."
+  },
+  {
+   "text": "The painting took parts of two summers to finish.",
+   "isTrue": true,
+   "explanation": "He worked on it in autumn 1885 and again in 1886."
+  },
+  {
+   "text": "The two girls in the picture are Sargent's own daughters.",
+   "isTrue": false,
+   "explanation": "They are Dolly and Polly Barnard, daughters of an illustrator friend."
+  }
+ ]
+}

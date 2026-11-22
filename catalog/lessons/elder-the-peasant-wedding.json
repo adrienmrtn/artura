@@ -1,0 +1,278 @@
+{
+ "teaser": "The bride is easy to spot. Four and a half centuries on, nobody can find the groom.",
+ "focus": [
+  0.62,
+  0.42
+ ],
+ "review_notes": "Karel van Mander's 1604 remarks (few works one can look at without laughing; visits to peasant weddings with the merchant Hans Franckert) are paraphrased, not quoted.\nKunsthistorisches Museum dates the panel about 1567/68; the catalog year 1567 is used.\nThe custom that the bride neither ate nor spoke at her wedding feast is commonly cited in the literature; worth a check.\nThe 1594 purchase by Archduke Ernst in Brussels is commonly reported.\nIdentifications of the old man in the chair (notary), the monk and the man with the sword (landlord) are traditional readings, presented as such.\nVienna owns 12 of roughly 40 surviving paintings by Bruegel.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "They laughed. That is the first reaction to Bruegel's peasant scenes that anyone wrote down. In 1604 the Flemish painter and biographer Karel van Mander noted that there were few of his pictures a viewer could look at with a straight face. For the wealthy townspeople who bought them, farmers at a party were comedy."
+  },
+  {
+   "type": "text",
+   "text": "Keep that laughter in mind, then check it against the painting. A barn at harvest time, a long table, a crowd pushing in at the door. Does Bruegel actually mock anyone here? People have argued about it ever since, and the picture gives both sides something to hold."
+  },
+  {
+   "type": "text",
+   "text": "Start with where he puts you: low and close, almost at the height of a guest squeezed onto the bench. There is no window, no landscape, no sky. The whole world is this barn, and you are inside it, not watching from a safe distance."
+  },
+  {
+   "type": "lines",
+   "text": "A room this crowded needs a strong skeleton. Bruegel builds it from two planks and a chain of hands.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.08,
+       0.34
+      ],
+      [
+       0.98,
+       0.48
+      ]
+     ],
+     "closed": false,
+     "label": "The table",
+     "text": "It runs on a slant from the door at back left to the front right corner. A table seen straight on would be a flat strip. Tilted, it pulls you into the depth of the barn."
+    },
+    {
+     "points": [
+      [
+       0.54,
+       0.69
+      ],
+      [
+       0.93,
+       0.63
+      ]
+     ],
+     "closed": false,
+     "label": "The door",
+     "text": "Two servers carry the dishes on a door lifted off its hinges. It cuts across the front like a second table and brings the food nearly within your reach."
+    },
+    {
+     "points": [
+      [
+       0.72,
+       0.64
+      ],
+      [
+       0.66,
+       0.5
+      ],
+      [
+       0.62,
+       0.44
+      ],
+      [
+       0.645,
+       0.34
+      ]
+     ],
+     "closed": false,
+     "label": "The hand-off",
+     "text": "From the tray, a seated man in a red cap lifts a bowl and passes it up the table. Follow his arm and you arrive at a still woman in front of a green cloth."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That woman is the reason for the party. The green cloth hung on the wall behind her and the paper crown dangling above her head mark the place of honor. She is the bride, and she is the calmest person in the room."
+  },
+  {
+   "type": "tour",
+   "title": "The bride and her table",
+   "text": "Three faces from the middle of the feast.",
+   "spots": [
+    {
+     "x": 0.645,
+     "y": 0.35,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The bride",
+     "text": "Eyes lowered, hands folded, cheeks flushed, hair worn loose for the only time in her adult life. By custom she was not to eat or speak at her own feast. She looks delighted anyway."
+    },
+    {
+     "x": 0.78,
+     "y": 0.36,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The high-backed chair",
+     "text": "The only real chair in the barn goes to an old man in a fur-trimmed coat. He is often read as the notary who drew up the marriage contract."
+    },
+    {
+     "x": 0.92,
+     "y": 0.4,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Monk and gentleman",
+     "text": "At the far end a friar in a gray hood leans toward a bearded man in black with a sword. He is dressed like no one else here. Perhaps he is the landowner. A dog peers out from under the table."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Bride, notary, friar, lord. One person is missing from that list. Scholars have proposed the man shoveling food into his mouth, the one filling jugs at the left, even the server in the red cap, on the grounds that a groom was expected to wait on his bride's family. No candidate has convinced everyone."
+  },
+  {
+   "type": "key",
+   "text": "Bruegel gives every figure a job, a weight and a face, but no label. The picture stays alive because it leaves you a question you can still argue about at the table."
+  },
+  {
+   "type": "fact",
+   "text": "Van Mander also tells how Bruegel did his research. With a merchant friend, Hans Franckert, he would dress as a peasant and slip into country weddings and fairs, handing over a gift and claiming to be a relative of the bride or the groom."
+  },
+  {
+   "type": "text",
+   "text": "Now about that laughter. The bodies are thick, the faces round, the appetite frank. But look at what the guests are actually eating and drinking, and at who is watching them do it."
+  },
+  {
+   "type": "tour",
+   "title": "Hunger",
+   "text": "The food is plain and everybody wants it.",
+   "spots": [
+    {
+     "x": 0.72,
+     "y": 0.67,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The dishes",
+     "text": "Shallow bowls of porridge or pudding, some pale, some yellow. No meat, no silver. This is the best meal of the year for these guests, and it is gruel."
+    },
+    {
+     "x": 0.25,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The bagpiper",
+     "text": "He has stopped playing. With the pipes still under his arm he stares across the room at the passing tray. Musicians ate last."
+    },
+    {
+     "x": 0.08,
+     "y": 0.57,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The pourer",
+     "text": "A man fills small jugs from a big one, with a basket of empties waiting at his feet. Beer, most likely: the thin kind that everyone drank, children included."
+    },
+    {
+     "x": 0.33,
+     "y": 0.83,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The child",
+     "text": "Sitting on the floor in a red cap far too big, a peacock feather stuck in it, licking the last of a bowl from a finger. Bruegel puts the smallest guest right at your feet."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A hungry piper and a child cleaning a bowl are funny, and they are also tender. This is where the “peasant mocker” reading wobbles. Bruegel exaggerates no more than a good caricaturist does, and he records small habits with care, down to where a man keeps his cutlery."
+  },
+  {
+   "type": "find",
+   "text": "One of the servers keeps his cutlery where he will not lose it. Find the spoon worn in a hat.",
+   "spots": [
+    {
+     "x": 0.86,
+     "y": 0.33,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "A spoon in the hatband",
+     "text": "The server in the red jacket, seen from behind, has a wooden spoon stuck through his green cap. Guests brought their own spoon and knife to a feast. Forks were not yet in use here."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A spoon in a hat is the kind of thing you only know from having been there. The same goes for the setting. The straw-colored wall behind the guests is the harvest itself, grain stacked to the rafters, and two sheaves hang crossed on a rake at upper right. The feast is held in the middle of the year's work."
+  },
+  {
+   "type": "text",
+   "text": "The panel is large, about 114 by 164 cm (45 by 65 inches), and painted in oil on oak. Bruegel made it late, in Brussels, a couple of years before his death in 1569. The color is built from a few flat, strong notes: red caps, a blue shirt, white aprons, against brown and straw."
+  },
+  {
+   "type": "fact",
+   "text": "In 1594 the picture was bought in Brussels by Archduke Ernst, the Habsburg governor of the Netherlands, and it has stayed with the family's collections ever since. That is why Vienna, not Belgium, owns the most Bruegels: twelve of about forty surviving paintings."
+  },
+  {
+   "type": "text",
+   "text": "An archduke hanging a barn full of farmers in his palace: was he laughing too? Probably. Yet the nickname the painter earned, “Peasant Bruegel”, undersells him. He was a city man with learned friends, who looked at country people longer and harder than anyone had before."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the bride one more time. She sits in the middle of the noise with her eyes almost closed, smiling at nothing in particular. Whatever the first buyers found funny, Bruegel did not paint her as a joke."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "According to Karel van Mander in 1604, how did viewers react to Bruegel's pictures?",
+   "options": [
+    "They were frightened",
+    "They could hardly keep a straight face",
+    "They found them too religious"
+   ],
+   "answer": 1,
+   "explanation": "He noted that few of them could be looked at without laughing."
+  },
+  {
+   "question": "How can you recognize the bride?",
+   "options": [
+    "She sits before a green cloth under a paper crown",
+    "She wears a white veil and holds flowers",
+    "She is standing on the table"
+   ],
+   "answer": 0,
+   "explanation": "The hanging cloth and paper crown mark the place of honor."
+  },
+  {
+   "question": "What are the two servers using as a tray?",
+   "options": [
+    "A wagon wheel",
+    "A church bench",
+    "A door taken off its hinges"
+   ],
+   "answer": 2,
+   "explanation": "The dishes arrive on a door lifted from its hinges."
+  },
+  {
+   "question": "What is known about the groom?",
+   "options": [
+    "He is the man in black with a sword",
+    "Nobody has identified him for certain",
+    "He is the bagpiper"
+   ],
+   "answer": 1,
+   "explanation": "Several candidates have been proposed, none accepted by everyone."
+  },
+  {
+   "question": "How did Bruegel study peasant weddings, according to van Mander?",
+   "options": [
+    "He attended them disguised as a peasant",
+    "He copied older prints",
+    "He hired actors in his studio"
+   ],
+   "answer": 0,
+   "explanation": "He and Hans Franckert went dressed as peasants, pretending to be relatives."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The guests are served roast meat on silver plates.",
+   "isTrue": false,
+   "explanation": "The bowls hold plain porridge or pudding, carried on a door."
+  },
+  {
+   "text": "The feast takes place in a barn stacked with the harvest.",
+   "isTrue": true,
+   "explanation": "The straw-colored wall behind the guests is stacked grain."
+  },
+  {
+   "text": "Bruegel was himself a peasant who never left his village.",
+   "isTrue": false,
+   "explanation": "He was a city painter with learned friends who visited country feasts."
+  }
+ ]
+}

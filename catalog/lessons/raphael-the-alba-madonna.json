@@ -1,0 +1,44 @@
+{
+  "teaser": "Three figures, one circle, and a toy-sized cross that every pair of eyes is locked on.",
+  "focus": [0.42, 0.36],
+  "review_notes": "No reaction from the very first viewers is recorded; the opening describes what viewers of about 1510 were used to (enthroned Madonnas) rather than quoting anyone.\nEarly history (commissioned by Paolo Giovio for a church at Nocera dei Pagani) is the usual account and is only alluded to as 'a church in southern Italy'.\nBought by Tsar Nicholas I in 1836; transferred from panel to canvas at the Hermitage in 1837.\nSold by the Soviet government to Andrew Mellon in 1931 for $1,166,400, then widely reported as the highest price paid for a painting.\nDiameter 94.5 cm.",
+  "lesson": [
+    {"type": "text", "text": "Picture the people who first saw this around 1510. The Madonnas they knew sat on thrones, under canopies, with gold behind them. This one is sitting on the ground in a field, propped against a tree stump, wearing sandals. For them the surprise was not the round shape. It was how low the Queen of Heaven had come."},
+    {"type": "text", "text": "The idea had a name, the Madonna of Humility: Mary shown seated on the earth (in Latin “humus”) to stress her modesty. Raphael gives the old theme the open air of the Roman countryside. The panel is a tondo, the Italian word for a round picture, just under a meter across (about 37 inches)."},
+    {"type": "text", "text": "He had arrived in Rome about two years earlier, known for sweet, gentle Madonnas. In Rome he studied ancient statues and the powerful bodies Michelangelo was painting on the Sistine ceiling. You can feel it here. Mary is broad and strong, her body twists, and the two boys are as solid as little wrestlers."},
+    {"type": "fact", "text": "The title has nothing to do with the subject. For more than a century the painting belonged to the Dukes of Alba, one of Spain's grandest families, and their name simply stuck to it."},
+    {"type": "text", "text": "A circle is an awkward shape for a painter. It has no floor, no walls and no corners to lean things on. Put the figures in carelessly and the whole picture seems ready to roll away like a coin. So how does Raphael keep three bodies in a round frame steady?"},
+    {"type": "lines", "text": "He builds a hidden frame inside the circle, then sets it in motion.", "lines": [
+      {"points": [[0.47, 0.16], [0.06, 0.78], [0.86, 0.83]], "closed": true, "label": "A pyramid", "text": "From Mary's head down to the kneeling boy on one side and her spread cloak on the other, the group forms a wide triangle. It sits on the grass like a tent."},
+      {"points": [[0.02, 0.36], [0.98, 0.36]], "closed": false, "label": "The horizon", "text": "The water and the far hills draw a level line right across the picture. It acts like a shelf and stops the circle from spinning."},
+      {"points": [[0.75, 0.62], [0.46, 0.2]], "closed": false, "label": "The lean", "text": "Mary does not sit upright. Her whole body tips to the left, from the stump she rests on up to her turned head. The tilt sends you toward the two children."},
+      {"points": [[0.43, 0.27], [0.2, 0.3], [0.35, 0.39], [0.2, 0.3], [0.19, 0.47]], "closed": false, "label": "Three gazes", "text": "Mother, child and the kneeling boy all look toward the same thin object: a cross made of reeds. Everything else in the picture is calm so that this can be the event."}
+    ]},
+    {"type": "text", "text": "So the center of the painting is not a face. It is that small cross. The kneeling boy in a fur skin is John the Baptist, the cousin of Jesus, who will one day announce him. He offers the cross like a toy, and the baby closes his hand around it. He takes it on purpose."},
+    {"type": "key", "text": "This is a picture of acceptance. The child grasps the sign of his own death, and his mother, who has stopped reading to watch, does not pull him back. Her serious face is the only warning that this is not a game."},
+    {"type": "text", "text": "The painting traveled more than most people of its time. From a church in southern Italy it went to Spain, then London, and in 1836 to the Russian tsar's Hermitage museum in Saint Petersburg. There, restorers lifted the paint layer off its damaged wooden panel and glued it to canvas, a risky operation that was then common."},
+    {"type": "fact", "text": "In 1931 the Soviet government, desperate for foreign currency, secretly sold it to the American banker Andrew Mellon for 1,166,400 dollars. At the time it was reported as the most money ever paid for a single painting."},
+    {"type": "text", "text": "Mellon did not keep it at home for long. He gave his collection to the United States to found the National Gallery of Art in Washington, where the Alba Madonna has hung since the museum opened in 1941. It rewards a slow visit: Raphael filled the quiet parts with things to find."},
+    {"type": "explore", "spots": [
+      {"x": 0.2, "y": 0.31, "zoom": 3.6, "r": 0.06, "title": "The reed cross", "text": "Two thin canes tied together with a strand of grass. It is the kind of thing a child could make in a field, and it stands out sharply against the pale water."},
+      {"x": 0.19, "y": 0.645, "zoom": 3.6, "r": 0.06, "title": "Flowers in the fur", "text": "John has gathered wildflowers in the fold of his animal skin. He will grow up to live in the wilderness, dressed in exactly this kind of rough hide."},
+      {"x": 0.6, "y": 0.535, "zoom": 3.4, "r": 0.07, "title": "A finger in the book", "text": "Mary keeps her place with one finger between the pages. She was reading a moment ago. The interruption is that recent."},
+      {"x": 0.26, "y": 0.845, "zoom": 3.4, "r": 0.07, "title": "The sandal", "text": "A laced sandal in the style of ancient Rome, the sort Raphael saw on marble statues being dug up around the city. Her dress is a classical costume, not that of his own day."},
+      {"x": 0.44, "y": 0.27, "zoom": 2.8, "r": 0.09, "title": "Mary's face", "text": "Seen almost in profile under a striped headcloth, eyes lowered toward the cross. Neither smiling nor weeping: she is thinking."},
+      {"x": 0.11, "y": 0.335, "zoom": 3.4, "r": 0.07, "title": "A farm by the water", "text": "Plain buildings on a rise, a tower, a path. The hazy blue hills behind them look like the country around Rome, not the Holy Land."},
+      {"x": 0.55, "y": 0.9, "zoom": 2.6, "r": 0.1, "title": "Plants at her feet", "text": "Each weed and blossom along the bottom edge is drawn leaf by leaf, as carefully as the figures. They also soften the hard curve of the frame."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "Where does the name “Alba” come from?", "options": ["The Italian town where it was painted", "A Spanish family that owned it", "The Latin word for dawn"], "answer": 1, "explanation": "The Dukes of Alba owned it for more than a century."},
+    {"question": "What is a tondo?", "options": ["A round painting", "A painting on a wall", "A picture in three panels"], "answer": 0, "explanation": "Tondo is the Italian word for a circular picture."},
+    {"question": "What are all three figures looking at?", "options": ["The book in Mary's hand", "The farm across the water", "A small cross made of reeds"], "answer": 2, "explanation": "The three gazes meet at the cross John offers and the child takes."},
+    {"question": "What does a “Madonna of Humility” show?", "options": ["Mary seated on the ground", "Mary crowned as a queen", "Mary weeping at the tomb"], "answer": 0, "explanation": "Sitting on the bare earth stresses her modesty."},
+    {"question": "What happened to the painting in Saint Petersburg?", "options": ["It was cut into a square", "It was moved from wood to canvas", "It was repainted in brighter colors"], "answer": 1, "explanation": "Restorers transferred the paint layer from its damaged panel to canvas."}
+  ],
+  "facts": [
+    {"text": "Andrew Mellon bought the painting from the Soviet government.", "isTrue": true, "explanation": "The sale took place in 1931, for 1,166,400 dollars."},
+    {"text": "The kneeling boy in the fur skin is the young Jesus.", "isTrue": false, "explanation": "He is John the Baptist; Jesus is the child standing against Mary's knee."},
+    {"text": "Mary is shown seated on a throne.", "isTrue": false, "explanation": "She sits on the ground, leaning on a tree stump."}
+  ]
+}

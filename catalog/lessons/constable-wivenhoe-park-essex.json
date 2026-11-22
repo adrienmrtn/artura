@@ -1,0 +1,40 @@
+{
+  "teaser": "The client wanted everything in the view. The painter had to sew extra canvas onto both ends.",
+  "focus": [0.5, 0.6],
+  "review_notes": "The added strips of canvas at the left and right edges are documented by the National Gallery of Art; their exact widths are not visible in this image, so the lesson points only to the general zones (donkey cart at far left, bank at far right).\nThe figure driving the donkey cart is traditionally identified as Mary Rebow, the owner's young daughter.\nConstable's letter to Maria about the difficulty of 'getting so much in' is paraphrased, not quoted.\nDr. Rhudde (Maria's grandfather) left her a legacy after all when he died in 1819: check.\nConstable elected Associate of the Royal Academy in 1819, full Academician in 1829.\nHouse now a hotel on the University of Essex campus.",
+  "lesson": [
+    {"type": "text", "text": "By the summer of 1816 John Constable was forty and, by most measures, failing. The Royal Academy, the club of Britain's leading artists, kept declining to elect him. Buyers were rare. His parents had mostly paid his way, and in May his father died."},
+    {"type": "text", "text": "Worse, he had been engaged in all but name for seven years. Maria Bicknell loved him, but her grandfather, a wealthy clergyman, threatened to cut her out of his will if she married a painter with no income. Constable needed money, quickly, and a reason to believe a landscape could earn it."},
+    {"type": "text", "text": "Help came from a family friend. Major General Francis Slater-Rebow asked for a portrait of his estate at Wivenhoe Park, in Essex, east of London. A “house portrait” was a standard job at the time: you showed the mansion, large and proud, so the owner could admire what he owned. See what Constable did with the mansion."},
+    {"type": "find", "text": "This picture was ordered to show off a grand house. Where is it?", "spots": [
+      {"x": 0.508, "y": 0.49, "zoom": 4, "r": 0.04, "title": "The house", "text": "A small pinkish-red block, half hidden by trees, far across the lake. Constable gives the client's mansion about as much room as one cow. The estate's real riches, he suggests, are grass, water and light."}
+    ]},
+    {"type": "text", "text": "Putting the house that far back was a gamble with a paying client. It worked because everything around it is so convincing. Constable spent late August and September at Wivenhoe, working outdoors day after day, which was unusual for a finished painting in 1816. Most artists sketched outside and did the real work indoors."},
+    {"type": "fact", "text": "You can tell how much sun he had. Cloud shadows drift across the lawns in soft dark bands, and the lake carries the reflection of every tree. Constable wrote to Maria that he was living in the park and that the weather had been kind."},
+    {"type": "text", "text": "The General, though, had a list. He wanted particular corners of his grounds in the picture, and they did not all fit in one natural view. Constable complained in a letter that the hard part was getting so much in. His answer was practical: he widened the painting."},
+    {"type": "tour", "title": "The client's wish list", "text": "The view spans more than the eye can take in at once. Follow it from the left edge to the right.", "spots": [
+      {"x": 0.1, "y": 0.593, "zoom": 4.5, "r": 0.04, "title": "The donkey cart", "text": "Tiny figures at the far left: a small cart pulled by a donkey, said to be driven by the General's young daughter Mary. This end of the picture sits on a strip of canvas Constable added."},
+      {"x": 0.155, "y": 0.58, "zoom": 4.5, "r": 0.04, "title": "The grotto", "text": "A dark arch at the head of the lake, a garden folly built to look like a cave. It was one of the features the family asked him to squeeze in."},
+      {"x": 0.24, "y": 0.61, "zoom": 3.8, "r": 0.06, "title": "The dam", "text": "A low wooden bridge over the dam that holds back the lake. The whole park was designed: the water looks natural, but people made it."},
+      {"x": 0.9, "y": 0.72, "zoom": 3.4, "r": 0.08, "title": "Fishing with a net", "text": "Two men in a rowboat haul a long net. Its line of floats trails back across the water to the left. The estate is shown as a working place, not only a pretty one."}
+    ]},
+    {"type": "text", "text": "The result is a canvas about twice as wide as it is tall, 56 by 101 cm (about 22 by 40 inches), holding a sweep of park wider than a person can see without turning the head. Yet it reads as a single calm glance. The fence in the corner, the black and white cows and the two swans give your eye stepping stones across it."},
+    {"type": "key", "text": "A commission full of demands became one of the freshest daylight pictures of its time, because Constable painted the weather and the grass as carefully as the property."},
+    {"type": "fact", "text": "The fee did what it was meant to do. On October 2, 1816, weeks after finishing at Wivenhoe, John Constable and Maria Bicknell married in London, against her grandfather's wishes. The old man relented in the end and left her money anyway."},
+    {"type": "text", "text": "The Academy took longer to come around. Constable showed this painting there in 1817, and still had to wait until 1819 to be made an associate, and until 1829, at fifty-two, to become a full member. By then Maria had died."},
+    {"type": "fact", "text": "The park still exists, with different residents. Since the 1960s it has been the campus of the University of Essex, and the pink house is a hotel. The painting itself left England and has been in Washington since 1942."},
+    {"type": "text", "text": "Return to the whole view for a second. Nothing happens here. Cows graze, a net comes in, clouds pass. For a man whose year had begun with a funeral and a blocked marriage, that ordinary bright afternoon may have been the point."}
+  ],
+  "quiz": [
+    {"question": "Who asked Constable to paint Wivenhoe Park?", "options": ["The Royal Academy", "The estate's owner, General Slater-Rebow", "Maria Bicknell's grandfather"], "answer": 1, "explanation": "The General was a family friend who wanted a portrait of his estate."},
+    {"question": "How does Constable treat the mansion itself?", "options": ["It fills the foreground", "It is left out entirely", "It is small and distant, half hidden by trees"], "answer": 2, "explanation": "The house is a small pink block across the lake, about the size of a cow."},
+    {"question": "What did Constable do when the requested features did not fit?", "options": ["He added strips of canvas to widen the picture", "He painted a second canvas", "He refused the commission"], "answer": 0, "explanation": "He extended the canvas at the sides to take in more of the park."},
+    {"question": "What did the payment for this painting help make possible?", "options": ["A trip to Italy", "His election to the Royal Academy", "His marriage to Maria Bicknell"], "answer": 2, "explanation": "He married Maria on October 2, 1816, shortly after finishing the work."},
+    {"question": "What are the two men in the rowboat doing?", "options": ["Hauling a fishing net", "Feeding the swans", "Rowing guests to the house"], "answer": 0, "explanation": "They are dragging a long net whose floats trail across the lake."}
+  ],
+  "facts": [
+    {"text": "Constable painted much of Wivenhoe Park outdoors, on the estate.", "isTrue": true, "explanation": "He spent late August and September 1816 working in the park itself."},
+    {"text": "The lake at Wivenhoe is a natural one.", "isTrue": false, "explanation": "It is held back by a dam, visible under the low wooden bridge."},
+    {"text": "Constable was already a full member of the Royal Academy when he painted this.", "isTrue": false, "explanation": "He became an associate in 1819 and a full member only in 1829."}
+  ]
+}

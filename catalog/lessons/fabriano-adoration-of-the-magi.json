@@ -1,0 +1,59 @@
+{
+  "teaser": "In 1423 the richest man in Florence ordered a painting. He got a parade in solid gold.",
+  "focus": [0.4, 0.62],
+  "review_notes": "No written account of the unveiling survives; the opening says so and describes the viewing conditions (sacristy chapel of Santa Trinita, candlelight) rather than a documented reaction.\nPrice of 150 gold florins paid by Palla Strozzi: check.\nPalla Strozzi as the richest citizen in the Florentine tax survey of 1427; exiled 1434, died in Padua in 1462.\nOverall size with frame about 300 x 282 cm.\nMan in the red hat behind the youngest king as a portrait of Palla Strozzi or his son Lorenzo: traditional identification, kept vague.\nEpiphany processions of the Magi in the streets of Florence in this period: check.\nRight predella panel (Presentation in the Temple) is a copy; the original was taken to France in the Napoleonic period and is in the Louvre.\nGentile died in Rome in 1427. Altarpiece entered the Uffizi in 1919.\nMasaccio's Brancacci Chapel frescoes dated to the mid-1420s.",
+  "lesson": [
+    {"type": "text", "text": "May 1423, Florence. In the church of Santa Trinita, the Strozzi family opens its new chapel, a room next to the sacristy where priests dress for Mass. Nobody wrote down what the first visitors said. But think about what they saw: a painting three meters tall (almost 10 ft), lit by candles, with gold that stands out from the surface and flickers when you walk past."},
+    {"type": "text", "text": "The man who paid was Palla Strozzi, a banker and scholar. A few years later the city's tax records ranked him as the richest person in Florence. He did not hire a local. He chose Gentile, a painter from the small town of Fabriano who had made his name in Venice and northern Italy and had just arrived in the city."},
+    {"type": "fact", "text": "The painting is said to have cost 150 gold florins. A skilled Florentine craftsman of the time would have needed several years of wages to earn that much."},
+    {"type": "text", "text": "The subject is the Magi, the three kings who follow a star to the newborn Jesus. Most painters show only the arrival. Gentile shows the whole trip. It begins far away and very small, under the three arches at the top, and you can follow it like a road."},
+    {"type": "lines", "text": "The story starts at the top left. Trace the road.", "lines": [
+      {"points": [[0.2, 0.37], [0.235, 0.345]], "closed": false, "label": "1. The star appears", "text": "Under the left arch, three tiny golden figures stand on a mountain top above the sea. They have just spotted the star."},
+      {"points": [[0.4, 0.4], [0.5, 0.385], [0.56, 0.35], [0.5, 0.31]], "closed": false, "label": "2. The ride", "text": "Under the middle arch the kings and their riders wind uphill toward a walled city on the ridge: Jerusalem, where they stop to ask the way."},
+      {"points": [[0.72, 0.37], [0.78, 0.345]], "closed": false, "label": "3. Almost there", "text": "Under the right arch the procession reaches the gate of a second town, Bethlehem."},
+      {"points": [[0.86, 0.47], [0.75, 0.56], [0.55, 0.6], [0.34, 0.68]], "closed": false, "label": "4. The arrival", "text": "Then the crowd pours down the right side at full size and sweeps left across the picture, to end at one small bare foot."}
+    ]},
+    {"type": "text", "text": "Showing several moments of one story inside a single picture has a name: continuous narrative. It was an old habit by 1423, but Gentile hides it well. The three arches look like part of the frame, yet behind them runs one unbroken landscape of hills, fields and castles."},
+    {"type": "text", "text": "The three kings themselves work like three frames of one movement. Tradition made them an old man, a man in his prime and a youth, the three ages of life. Gentile adds something. Read them from right to left and you watch a single action unfold: standing, bending, on the ground."},
+    {"type": "tour", "title": "One gesture in three bodies", "text": "Right to left, youngest to oldest.", "spots": [
+      {"x": 0.527, "y": 0.6, "zoom": 2.4, "r": 0.09, "shape": "rect", "title": "Still standing", "text": "The youngest king waits his turn, crown still on, gift in his hand. His tunic is covered in gold patterns and his stockings are bright red."},
+      {"x": 0.43, "y": 0.6, "zoom": 2.6, "r": 0.08, "title": "Going down", "text": "The middle king is halfway to his knees. One hand lifts the crown off his head, the other holds out a golden jar."},
+      {"x": 0.345, "y": 0.68, "zoom": 2.8, "r": 0.08, "title": "On the ground", "text": "The oldest has arrived. He crouches to kiss the Child's foot, and the baby rests a hand on his bald head. His crown lies on the earth just below him."}
+    ]},
+    {"type": "key", "text": "The richest, most powerful people in the picture end up on their knees in the dirt before a baby in a stable. For a banker's family chapel, it was a pointed subject to choose."},
+    {"type": "fact", "text": "The crowns, spurs and horse harness are real relief. Gentile built them up in drops of plaster, a technique called pastiglia, then covered them in gold leaf. You could feel them with your fingertips."},
+    {"type": "text", "text": "This love of gold, fine cloth, rare animals and sharp little observations of nature belongs to a style historians call International Gothic. It was fashionable in the courts of Europe around 1400. Gentile was one of its stars. His procession is crowded with falcons, monkeys, a leopard and hunting dogs, the luxuries of a prince."},
+    {"type": "text", "text": "Among all these people looking, pushing and gossiping, almost no one is doing anything useful. One servant is. He is down on his knees too, but not to pray."},
+    {"type": "find", "text": "Somebody is kneeling at a king's feet with a job to do. Where is he?", "spots": [
+      {"x": 0.566, "y": 0.757, "zoom": 3.6, "r": 0.06, "title": "The spurs", "text": "A page in blue crouches behind the young king's red legs and unbuckles his golden spurs. You do not walk up to a god wearing riding gear. It is the kind of everyday detail Gentile loved."}
+    ]},
+    {"type": "text", "text": "Florentines would have recognized the scene. On some feasts of the Epiphany, the day of the three kings, citizens rode through the streets in costume as the Magi and their court. Horses, spurs, falcons and brocade were also the world of men like Strozzi, whose fortune came from banking and trade."},
+    {"type": "text", "text": "Within a couple of years a young Florentine named Masaccio would paint plain, heavy figures in bare settings, and art history would call that the start of the Renaissance. Next to him Gentile can look old-fashioned. That is unfair. He studied real light and real animals as closely as anyone, as the small scenes along the bottom of the frame prove."},
+    {"type": "fact", "text": "One of those bottom scenes is not by Gentile. The panel on the right was carried off to France in Napoleon's time and never came back. The original hangs in the Louvre, and Florence has a copy."},
+    {"type": "text", "text": "Palla Strozzi enjoyed his chapel for only eleven years. In 1434 his rivals, the Medici, took control of Florence and banished him. He spent the rest of his long life in Padua and never saw his city, or his altarpiece, again. Gentile had died in Rome in 1427. The painting moved to the Uffizi in 1919."},
+    {"type": "text", "text": "A picture this dense rewards slow wandering. Before you go, visit the edges: the frame carries the painter's name, and the smallest scenes hold some of his boldest ideas."},
+    {"type": "explore", "spots": [
+      {"x": 0.32, "y": 0.826, "zoom": 3.6, "r": 0.07, "title": "The signature", "text": "Gold letters on the frame read OPVS GENTILIS DE FABRIANO, Latin for “work of Gentile from Fabriano.”"},
+      {"x": 0.69, "y": 0.826, "zoom": 3.6, "r": 0.07, "title": "The date", "text": "On the other side, MCCCCXXIII MENSIS MAII: 1423, in the month of May. The frame itself is original, which is rare for a painting this old."},
+      {"x": 0.324, "y": 0.455, "zoom": 3.4, "r": 0.04, "title": "The star", "text": "The star the kings have followed has stopped right above the stable. It is made of raised gold rays."},
+      {"x": 0.25, "y": 0.915, "zoom": 3, "r": 0.1, "title": "A night scene", "text": "The Nativity, set in the dark. The light comes from the newborn himself and from an angel in the sky. Painted night with a real light source was a great novelty in 1423."},
+      {"x": 0.51, "y": 0.915, "zoom": 2.8, "r": 0.13, "title": "The Flight into Egypt", "text": "Mary rides a donkey through a wide countryside, led by Joseph. The hills are touched with gold where the sun, at the far left, strikes them."},
+      {"x": 0.775, "y": 0.915, "zoom": 3, "r": 0.1, "title": "The copy", "text": "The Presentation in the Temple, with its little city square. This is the panel whose original is now in Paris."},
+      {"x": 0.567, "y": 0.515, "zoom": 3.6, "r": 0.05, "title": "A face that looks back", "text": "Behind the young king, a man in a red hat stares straight at you. Tradition says this is a portrait from the Strozzi family, the patron or his son."},
+      {"x": 0.714, "y": 0.75, "zoom": 2.8, "r": 0.08, "title": "The dog", "text": "A white hunting dog in a jeweled collar twists to look up at the horse stepping over it. Its collar is studded with gold."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "Who commissioned the altarpiece?", "options": ["The Medici family", "The banker Palla Strozzi", "The pope in Rome"], "answer": 1, "explanation": "Palla Strozzi ordered it for his family chapel in Santa Trinita."},
+    {"question": "Where does the story begin in the picture?", "options": ["Under the left arch at the top, where the kings spot the star", "In the bottom right corner with the dog", "In the center with the youngest king"], "answer": 0, "explanation": "The journey starts small at the top left and ends at the Child."},
+    {"question": "What is pastiglia?", "options": ["A blue pigment made from stone", "A type of wooden panel", "Raised plaster decoration covered in gold leaf"], "answer": 2, "explanation": "Gentile built crowns, spurs and harness in relief, then gilded them."},
+    {"question": "What is the servant in blue doing behind the youngest king?", "options": ["Holding his horse", "Removing his spurs", "Carrying his gift"], "answer": 1, "explanation": "He unbuckles the king's golden spurs before the king approaches the Child."},
+    {"question": "What happened to Palla Strozzi in 1434?", "options": ["He was exiled from Florence", "He became ruler of the city", "He sold the altarpiece to the Louvre"], "answer": 0, "explanation": "The Medici took power and banished him. He died in Padua."},
+    {"question": "What is unusual about the Nativity scene at the bottom left?", "options": ["It is painted on canvas", "It contains no figures", "It is set at night, lit by the Child and an angel"], "answer": 2, "explanation": "A night scene with its own light source was a novelty in 1423."}
+  ],
+  "facts": [
+    {"text": "Gentile da Fabriano was born and trained in Florence.", "isTrue": false, "explanation": "He came from Fabriano and made his name in Venice and northern Italy before arriving in Florence."},
+    {"text": "The frame carries both the painter's name and the date, May 1423.", "isTrue": true, "explanation": "Both are written in gold letters along the bottom of the main scene."},
+    {"text": "All three small scenes at the bottom are Gentile's originals.", "isTrue": false, "explanation": "The right one is a copy. The original is in the Louvre."}
+  ]
+}

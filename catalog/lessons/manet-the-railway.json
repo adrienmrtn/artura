@@ -1,0 +1,52 @@
+{
+ "teaser": "A painting called The Railway, and not a single train in sight.",
+ "focus": [0.3, 0.3],
+ "review_notes": "Dimensions 93.3 x 111.5 cm.\nGirl identified as the daughter of Alphonse Hirsch, painted in his garden on the rue de Rome; background door at upper left identified as Manet's studio at 4 rue de Saint-Petersbourg (NGA reading).\nSalon of 1874 caricatures comparing the bars to an asylum or prison (Cham).\nVictorine Meurent had a work accepted at the Salon of 1876, the year Manet's submissions were refused.\nBought by the baritone Jean-Baptiste Faure in 1873; Havemeyer gift to the NGA in 1956.\nTiny shapes beyond the fence described as a trackside hut and workers: plausible reading of the image, not verified.\nVisitor's report of the studio floor shaking when trains passed (Fervacques, 1873).",
+ "lesson": [
+  {"type":"text","text":"Start with the object. A canvas about 93 centimeters high and 112 wide (roughly 3 by 3.7 feet), small enough to carry under one arm. Now notice how much of that modest surface Manet gives to iron: a row of black bars runs from the top edge almost to the bottom, right across the middle of his picture."},
+  {"type":"text","text":"He called it The Railway. In 1873 that word meant the future: speed, coal, timetables, crowds. Visitors to the big annual exhibition in Paris, the Salon, expected at least a locomotive. They got a woman, a child, a fence, and a puzzle."},
+  {"type":"find","text":"So where is the train? Tap the only trace of it in the picture.","spots":[{"x":0.52,"y":0.3,"zoom":1.8,"r":0.14,"title":"The steam","text":"This white cloud is all we get. An engine has just passed below, in the cutting of the Saint-Lazare station, and its steam is drifting up behind the bars. The train itself is already gone."}]},
+  {"type":"text","text":"That cloud is a bold decision. Manet paints the railway the way city people actually lived with it: as noise, smoke and something glimpsed through a fence. The modern world is here, but as weather."},
+  {"type":"fact","text":"Manet knew that steam well. His new studio stood a few steps away, and a visitor reported that the floor trembled every time a train went by."},
+  {"type":"text","text":"The setting is a friend's garden backing onto the tracks. The seated woman is Victorine Meurent, Manet's favorite model for over ten years. You may know her face from his scandalous Olympia. This is the last time she posed for him. The girl is thought to be the daughter of the friend who owned the garden."},
+  {"type":"tour","title":"Two people, zero conversation","text":"They share a bench-sized space and ignore each other completely. Follow what each one is doing.","spots":[
+   {"x":0.25,"y":0.28,"zoom":2.8,"r":0.1,"title":"She looks up","text":"Victorine has lifted her eyes from her reading and looks straight at you, calm, a little tired. No smile, no story. You are the interruption."},
+   {"x":0.26,"y":0.7,"zoom":2.4,"r":0.15,"title":"A full lap","text":"An open book with a finger marking the page, a closed red fan, and a puppy asleep on her arm. Everything here is paused."},
+   {"x":0.66,"y":0.2,"zoom":2.4,"r":0.11,"title":"She looks away","text":"The girl shows us only the back of her head, a black ribbon and one small earring. A portrait without a face was almost an insult to Salon taste."},
+   {"x":0.36,"y":0.22,"zoom":3.5,"r":0.05,"title":"The grip","text":"Her hand closes around a bar. She is the only one who cares about the railway, and the fence keeps her from it."}
+  ]},
+  {"type":"text","text":"One faces us, one turns her back. One sits, one stands. One reads, one stares. Manet builds the whole painting out of opposites, and he does it with color too."},
+  {"type":"lines","text":"The picture splits into two halves that mirror each other.","lines":[
+   {"points":[[0.02,0.1],[0.47,0.1],[0.47,0.99],[0.02,0.99]],"closed":true,"label":"Blue with white","text":"The woman is a mass of deep navy, trimmed with white: collar, cuffs, three big buttons."},
+   {"points":[[0.42,0.1],[0.84,0.1],[0.84,0.95],[0.42,0.95]],"closed":true,"label":"White with blue","text":"The child reverses the recipe: a white dress with one huge blue bow. The two figures are color negatives of each other."},
+   {"points":[[0.74,0.0],[0.745,0.76]],"closed":false,"label":"The bars","text":"Black verticals stamp a regular beat across both halves. They flatten the space: figures in front, steam behind, almost nothing in between."}
+  ]},
+  {"type":"key","text":"Manet paints modern life as it feels, not as a story. Two people side by side, each in her own world, with the new city humming behind a fence."},
+  {"type":"text","text":"The critics were lost. What was the subject? A portrait? A scene? Cartoonists had a field day with the bars, joking that the two were inmates of an asylum or a prison watching the trains go by. Others complained the painting looked unfinished."},
+  {"type":"fact","text":"Victorine Meurent was a painter too. In 1876 the Salon jury accepted one of her canvases in the very year it turned down Manet's."},
+  {"type":"text","text":"Look at how he handles the paint and the “unfinished” charge makes sense. The skirt, the bow and the pages of the book are laid down in broad, wet strokes you can count. And the far side of the fence is barely more than a sketch."},
+  {"type":"explore","spots":[
+   {"x":0.66,"y":0.6,"zoom":2.2,"r":0.14,"title":"The blue bow","text":"A few wide swipes of blue over white, with the canvas showing through. From across a room it reads as crisp silk."},
+   {"x":0.93,"y":0.85,"zoom":3.2,"r":0.07,"title":"Grapes","text":"A bunch of green grapes left on the stone ledge. Nobody explains them. Perhaps a hint of late summer, perhaps just a still life Manet could not resist."},
+   {"x":0.17,"y":0.07,"zoom":3.2,"r":0.07,"title":"A brown door","text":"Across the tracks, a doorway in a pale building. Scholars identify it as the entrance to Manet's own studio. He has slipped his address into the background."},
+   {"x":0.86,"y":0.5,"zoom":3.5,"r":0.07,"title":"Down on the tracks","text":"A small hut and a few dabs of red and blue that read as figures. The working railway is reduced to a handful of touches."},
+   {"x":0.97,"y":0.3,"zoom":2.6,"r":0.06,"title":"Iron lattice","text":"At the edge, a stone pier and crisscrossed iron: a corner of the Pont de l'Europe, the big new bridge over the station yard."},
+   {"x":0.14,"y":0.645,"zoom":3.5,"r":0.06,"title":"The puppy","text":"Curled up and fast asleep through all the noise. Its soft fur is done in a few creamy strokes with one brown ear."}
+  ]},
+  {"type":"text","text":"The painting was already sold before the Salon opened. A famous opera singer, the baritone Jean-Baptiste Faure, bought it in 1873 and went on to own dozens of Manets. Later it crossed the Atlantic with the Havemeyers, New York collectors, whose family gave it to Washington in 1956."},
+  {"type":"fact","text":"Four years after this picture, Claude Monet set up his easel inside the same station and painted what Manet left out: the engines themselves, in a dozen canvases full of smoke."},
+  {"type":"text","text":"Which approach tells you more about the railway? Monet shows you the machine. Manet shows you a child who cannot stop looking and a woman who no longer bothers to. Next time you wait on a platform, check which of the two you are."}
+ ],
+ "quiz": [
+  {"question":"What is the only sign of a train in the painting?","options":["A locomotive at the far right","A cloud of white steam","A ticket in the woman's hand"],"answer":1,"explanation":"The engine has passed and left only its steam behind the bars."},
+  {"question":"Who posed for the seated woman?","options":["Victorine Meurent","Berthe Morisot","Manet's wife"],"answer":0,"explanation":"Victorine Meurent, his model for Olympia, posed for him here for the last time."},
+  {"question":"How do the two figures' clothes relate?","options":["They wear identical dresses","Both are dressed in black","Their colors are reversed: blue with white, white with blue"],"answer":2,"explanation":"The woman is navy trimmed in white, the girl white with a blue bow."},
+  {"question":"What did cartoonists joke about at the Salon?","options":["That the two were locked up behind bars","That the puppy was badly drawn","That the train was too small"],"answer":0,"explanation":"They compared the fence to the bars of an asylum or prison."},
+  {"question":"Who bought the painting in 1873?","options":["Claude Monet","The French state","An opera singer, Jean-Baptiste Faure"],"answer":2,"explanation":"The baritone Faure bought it before the Salon and collected dozens of Manets."}
+ ],
+ "facts": [
+  {"text":"The girl in the white dress looks straight at the viewer.","isTrue":false,"explanation":"She turns her back to us; it is the seated woman who meets our eyes."},
+  {"text":"Manet's studio was close enough to the station for a visitor to feel the floor shake.","isTrue":true,"explanation":"A visitor reported the floor trembling whenever a train passed."},
+  {"text":"Monet painted the Saint-Lazare station before Manet did.","isTrue":false,"explanation":"Monet's station pictures came four years after The Railway."}
+ ]
+}

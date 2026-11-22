@@ -1,0 +1,261 @@
+{
+ "teaser": "A canvas barely wider than a record sleeve, holding one of the calmest afternoons in German painting.",
+ "focus": [
+  0.47,
+  0.42
+ ],
+ "review_notes": "Dimensions given as about 44 x 43.5 cm: check against Museum Ludwig record.\nPainted in Hilterfingen on Lake Thun in autumn 1913: standard account, worth confirming.\nDelaunay and Apollinaire visiting Macke in Bonn in January 1913: fairly sure.\nMacke killed 26 September 1914 in Champagne, aged 27.\nBernhard Koehler described as uncle of Macke's wife Elisabeth and as funder of the Blue Rider almanac.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This painting is about 44 centimeters on each side, roughly 17 inches. That is barely wider than a vinyl record sleeve. It is oil on canvas, almost a perfect square, and you could carry it under one arm. Reproductions make it look grand. In the room, it is an intimate thing."
+  },
+  {
+   "type": "text",
+   "text": "August Macke painted it in the fall of 1913 in Hilterfingen, a village on Lake Thun in Switzerland. He had moved there with his wife Elisabeth and their two small sons, and for eight months he walked the lakeside promenade and painted what he saw: people strolling, standing, doing nothing in particular."
+  },
+  {
+   "type": "text",
+   "text": "Five people share this small square. Before reading their story, check how Macke fits them in. Nothing here is left to chance, even if it feels like a snapshot."
+  },
+  {
+   "type": "lines",
+   "text": "Three simple shapes hold the whole scene together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.47,
+       0.2
+      ],
+      [
+       0.47,
+       0.55
+      ],
+      [
+       0.48,
+       0.98
+      ]
+     ],
+     "closed": false,
+     "label": "A green column",
+     "text": "The lady stands almost exactly on the middle axis, cut off by the bottom edge. She is the pillar the picture turns around."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.42
+      ],
+      [
+       0.12,
+       0.2
+      ],
+      [
+       0.3,
+       0.1
+      ],
+      [
+       0.55,
+       0.07
+      ],
+      [
+       0.75,
+       0.12
+      ],
+      [
+       0.88,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "A roof of leaves",
+     "text": "The foliage arches over everyone like a vault. It closes the top of the square and turns an open promenade into a sheltered room."
+    },
+    {
+     "points": [
+      [
+       0.21,
+       0.82
+      ],
+      [
+       0.26,
+       0.4
+      ],
+      [
+       0.33,
+       0.38
+      ],
+      [
+       0.4,
+       0.84
+      ]
+     ],
+     "closed": true,
+     "label": "Couple on the left",
+     "text": "A dark suit and a pink dress lean toward each other, heads touching, making one narrow block."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.6
+      ],
+      [
+       0.58,
+       0.34
+      ],
+      [
+       0.68,
+       0.34
+      ],
+      [
+       0.74,
+       0.78
+      ]
+     ],
+     "closed": true,
+     "label": "Couple on the right",
+     "text": "A second pair mirrors the first, turned toward the water. Two couples, one on each side, and a woman alone between them."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the calm has a small ache in it. Two pairs lean in to talk and look at the lake. The woman in green belongs to neither. Her head is lowered, her hands are busy with a dark bag. Macke gives no explanation, and that is why you keep looking at her."
+  },
+  {
+   "type": "fact",
+   "text": "Macke could afford these quiet months partly thanks to Bernhard Koehler, a Berlin industrialist and the uncle of his wife. Koehler bought his paintings, paid for trips, and also helped finance the almanac of the Blue Rider group, where Macke showed with Kandinsky and Franz Marc."
+  },
+  {
+   "type": "text",
+   "text": "Now move in closer. Something is missing from every one of these people, and Macke left it out on purpose. The same economy shows in the clothes and in the village behind them."
+  },
+  {
+   "type": "tour",
+   "title": "What he leaves out",
+   "text": "Three stops, three decisions about how much to paint.",
+   "spots": [
+    {
+     "x": 0.44,
+     "y": 0.3,
+     "zoom": 3.2,
+     "r": 0.1,
+     "title": "A face without features",
+     "text": "Under the orange hat there is only a slope of warm color. No eyes, no mouth. You read her mood from the tilt of her neck alone."
+    },
+    {
+     "x": 0.69,
+     "y": 0.55,
+     "zoom": 2.4,
+     "r": 0.11,
+     "title": "A dress made of light",
+     "text": "The woman by the wall wears lilac above and pale turquoise below. Macke models her with color changes instead of shadows.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.13,
+     "y": 0.45,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Houses as blocks",
+     "text": "The village is reduced to cubes of yellow, pink and orange. They are less like buildings and more like notes in a chord."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those blank faces are not laziness. Macke wanted his figures to work like the trees and the houses: as shapes of color. A painted smile would pull you into one person's story. Without it, the five strollers become one rhythm of verticals, and the mood belongs to the whole picture."
+  },
+  {
+   "type": "text",
+   "text": "The colors come from a friendship. In 1912 Macke visited the Paris studio of Robert Delaunay, who was painting city views as glowing panes of pure color. Early in 1913 Delaunay came to see him in Bonn. Macke took the lesson and warmed it up: orange next to blue, green next to red, each pair making the other brighter."
+  },
+  {
+   "type": "fact",
+   "text": "In April 1914 Macke traveled to Tunisia for two weeks with the painters Paul Klee and Louis Moilliet. He came back with dozens of watercolors and hundreds of sketches, some of the most luminous work of his life."
+  },
+  {
+   "type": "text",
+   "text": "Then the calendar turns hard. In August 1914 Macke was called up into the German army. On September 26 he was killed in Champagne, in the second month of the First World War. He was 27, and his entire career as a painter had lasted about ten years."
+  },
+  {
+   "type": "key",
+   "text": "Macke removes the faces so that color can carry the feeling. The loneliness of the woman in green is told by where she stands, not by any expression."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the size. A picture this small cannot shout, and Macke does not try. He painted a sunny promenade less than a year before the war, on a canvas you could hold in your hands. Knowing what came next, the lowered head in the middle is hard to see as only a woman checking her bag."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Roughly how big is the painting?",
+   "options": [
+    "About 44 cm (17 in) square",
+    "About 2 meters wide",
+    "The size of a postcard"
+   ],
+   "answer": 0,
+   "explanation": "It is a near square of about 44 centimeters per side."
+  },
+  {
+   "question": "Where did Macke paint it?",
+   "options": [
+    "In Tunisia",
+    "In Paris",
+    "In Hilterfingen on Lake Thun, Switzerland"
+   ],
+   "answer": 2,
+   "explanation": "He spent eight months by Lake Thun from the fall of 1913."
+  },
+  {
+   "question": "Why do the figures have no facial features?",
+   "options": [
+    "The painting is unfinished",
+    "Macke wanted them to act as shapes of color",
+    "The paint has faded"
+   ],
+   "answer": 1,
+   "explanation": "He left faces blank so the mood would come from color and placement."
+  },
+  {
+   "question": "Which Paris painter shaped Macke's use of color?",
+   "options": [
+    "Robert Delaunay",
+    "Claude Monet",
+    "Pablo Picasso"
+   ],
+   "answer": 0,
+   "explanation": "Macke visited Delaunay's studio in 1912 and adopted his glowing color contrasts."
+  },
+  {
+   "question": "What happened to Macke in September 1914?",
+   "options": [
+    "He moved to Tunisia",
+    "He was killed in the First World War",
+    "He founded the Blue Rider"
+   ],
+   "answer": 1,
+   "explanation": "He died at the front in Champagne, aged 27."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The woman in the green jacket is talking with the man beside her.",
+   "isTrue": false,
+   "explanation": "She stands alone between two couples, head lowered over her bag."
+  },
+  {
+   "text": "Macke traveled to Tunisia with Paul Klee in 1914.",
+   "isTrue": true,
+   "explanation": "The two-week trip in April 1914 also included Louis Moilliet."
+  },
+  {
+   "text": "Macke was over 60 when he painted this scene.",
+   "isTrue": false,
+   "explanation": "He was in his mid twenties and died at 27."
+  }
+ ]
+}

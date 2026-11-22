@@ -1,0 +1,44 @@
+{
+ "teaser": "No bedroom, no furniture, no faces. Just two bodies holding on, a year before both were gone.",
+ "focus": [0.58, 0.38],
+ "review_notes": "Opening interprets 'the place it was made for' as: no commission, no destined wall, painted in the Hietzing studio (Hietzinger Hauptstrasse 101).\nIdentification of the couple as Schiele and his wife Edith is traditional, not documented; the lesson says 'often read as'.\nDimensions 100 x 170 cm to confirm.\n49th Secession exhibition figures (19 paintings, main room) to confirm; lesson does not claim this canvas hung there.\nEdith died 28 Oct 1918, six months pregnant; Schiele 31 Oct 1918.",
+ "lesson": [
+  {"type":"text","text":"Most paintings of lovers were made for somewhere: a bedroom wall, a palace ceiling, a client with a taste for mythology. This one was made for nowhere. Nobody ordered it. In 1917 Egon Schiele painted it in his studio in Hietzing, a quiet district of Vienna, with no buyer waiting and no wall in mind."},
+  {"type":"text","text":"And inside the picture, the place has disappeared too. There is no bed frame, no window, no lamp. A man and a woman lie on a crumpled white sheet that seems to float on a rough yellow-green ground. The room has been deleted so that only the hold remains."},
+  {"type":"text","text":"The canvas is wide: about 100 by 170 cm (roughly 3 by 5.5 feet), so the figures are close to life size. Schiele had to fit two tangled adults into that long rectangle. How he arranged them tells you where he wants you to stand."},
+  {"type":"lines","text":"Three lines show how the picture is built.","lines":[
+   {"points":[[0.10,0.74],[0.35,0.58],[0.58,0.40],[0.80,0.20]],"closed":false,"label":"The diagonal","text":"The bodies run from the lower left corner up to the heads at upper right. A diagonal always feels less stable than a horizontal: the couple seems to slide across the canvas."},
+   {"points":[[0.03,0.52],[0.20,0.25],[0.45,0.08],[0.62,0.05],[0.93,0.30],[0.92,0.55],[0.65,0.78],[0.55,0.95],[0.25,0.97],[0.03,0.80]],"closed":true,"label":"The island","text":"The sheet draws a ragged white shape around them, like an island or a nest. Everything that matters happens inside it."},
+   {"points":[[0.50,0.22],[0.47,0.45],[0.52,0.70],[0.50,0.90]],"closed":false,"label":"The man's spine","text":"His back faces you and runs almost straight down the middle. You are looking from above, as if standing over the bed."}
+  ]},
+  {"type":"text","text":"That view from above is a Schiele habit. He liked to look down on his models, sometimes from a stool or ladder, so that bodies read as flat shapes pressed against the ground. Here it has a second effect: you are not invited in. You hover, and the two of them do not know you are there."},
+  {"type":"fact","text":"Schiele painted this as a soldier. Drafted days after his wedding in June 1915, he guarded prisoners of war and did desk work before being posted back to Vienna in January 1917, where officers who admired his art let him use his studio again."},
+  {"type":"text","text":"Now come nearer. Schiele trained as a draftsman, someone who thinks in lines before colors, and it shows even in oil paint. The skin is not smooth. It is built from strokes of pink, brick red, ochre and green, with dark outlines doing the drawing."},
+  {"type":"tour","title":"Skin, cloth, hair","text":"Three surfaces, three ways of handling the brush.","spots":[
+   {"x":0.53,"y":0.62,"zoom":2.4,"r":0.12,"title":"His back","text":"Muscles and vertebrae are marked with reddish strokes and dark seams. The back looks lean, almost flayed. Schiele never flatters a body, not even one in love."},
+   {"x":0.12,"y":0.60,"zoom":2.8,"r":0.10,"title":"The sheet","text":"The folds are outlined in blue and black, sharp as broken ice. The cloth is as restless as the bodies are still."},
+   {"x":0.76,"y":0.12,"zoom":2.2,"r":0.13,"title":"Her hair","text":"Her dark hair fans out across the top right in long wavy strokes. It is the largest dark mass in the picture and it anchors the two heads."}
+  ]},
+  {"type":"text","text":"The woman's skin is paler and pinker, the man's browner and more worked. It is an old convention in European painting, and Schiele keeps it. But he uses it to show two people who stay distinct even when pressed together. You can always tell whose limb is whose."},
+  {"type":"key","text":"Schiele shows closeness without sweetness: two separate, bony, mortal bodies that choose to hold each other."},
+  {"type":"text","text":"What you cannot see is just as deliberate. The man's face is buried against her. Hers is turned away, eye closed. In a painting about a couple, the two faces are nearly withheld. So where does the feeling go?"},
+  {"type":"find","text":"The emotion has moved out of the faces and into the hands. Find the fingers pressing on the man's shoulder.","spots":[
+   {"x":0.63,"y":0.35,"zoom":3.2,"r":0.09,"title":"The hands","text":"Long, knotted fingers spread wide just where the two heads meet. Schiele's hands are always like this: thin, tense, a little too large. They grip rather than caress."}
+  ]},
+  {"type":"text","text":"Compare this with the most famous embrace in Vienna, Gustav Klimt's The Kiss, finished about nine years earlier and hanging today in the same museum. Klimt wraps his lovers in gold and flowers. Schiele, who admired Klimt and learned from him, strips all of that away. No gold, no pattern, only skin on a wrinkled sheet."},
+  {"type":"fact","text":"Klimt died in February 1918. A month later the Vienna Secession, the city's leading group of modern artists, gave Schiele the central room of its exhibition. He was 27, and for the first time his work sold well."},
+  {"type":"text","text":"The couple here is often read as Schiele and his wife, Edith. If so, the picture has a hard afterlife. In October 1918 the Spanish flu reached Vienna. Edith, six months pregnant, died on the 28th. Egon died three days later, aged 28. The painting made for no wall now hangs in the Belvedere, a short walk from The Kiss."}
+ ],
+ "quiz": [
+  {"question":"From where does the viewer look at the couple?","options":["From the foot of the bed, at eye level","From above, looking down","From behind a curtain at the side"],"answer":1,"explanation":"Schiele liked to look down on his models, so the bodies press flat against the ground."},
+  {"question":"What surrounds the two figures?","options":["A crumpled white sheet on a yellow-green ground","A gold cloak covered in flowers","A furnished bedroom with a window"],"answer":0,"explanation":"The room is removed: only a sheet and a rough ground remain."},
+  {"question":"Where does Schiele concentrate the emotion, since the faces are hidden?","options":["In the landscape","In the color of the sheet","In the hands"],"answer":2,"explanation":"Long, tense fingers grip the man's shoulder where the heads meet."},
+  {"question":"Which famous Viennese painting of lovers makes a useful contrast?","options":["Klimt's The Kiss","Munch's The Scream","Vermeer's The Art of Painting"],"answer":0,"explanation":"Klimt wraps his couple in gold; Schiele leaves only skin and cloth."},
+  {"question":"What was Schiele's situation when he painted it?","options":["He was a student at the academy","He was a soldier posted back to Vienna","He was living in exile in Paris"],"answer":1,"explanation":"Drafted in 1915, he was transferred back to Vienna in January 1917."}
+ ],
+ "facts": [
+  {"text":"The Embrace was commissioned by a wealthy Viennese family for their bedroom.","isTrue":false,"explanation":"Nobody ordered it; Schiele painted it in his studio with no buyer waiting."},
+  {"text":"Schiele died at 28, three days after his wife, during the Spanish flu epidemic.","isTrue":true,"explanation":"Edith died on October 28, 1918, and Egon on October 31."},
+  {"text":"The folds of the sheet are outlined in blue and black.","isTrue":true,"explanation":"Schiele draws the cloth with sharp dark contours, like a draftsman."}
+ ]
+}

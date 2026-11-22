@@ -1,0 +1,36 @@
+{
+  "teaser": "The first person to see one of these heads thought he had dug up a giant cooking pot.",
+  "focus": [0.49, 0.54],
+  "review_notes": "Tres Zapotes head found around 1862 by a farm worker who took it for an upturned cauldron; José Melgar's published claim of African features.\nSan Lorenzo Head 1 ('El Rey'): found by Matthew Stirling's expedition in 1945, an exposed eye on a path leading to it; height about 2.84 m, weight about 25 tons. Please confirm figures.\nBasalt from the Tuxtla Mountains, roughly 60 km away or more.\nSeventeen heads known, ten from San Lorenzo; catalog date -1000 is approximate (San Lorenzo flourished about 1200 to 900 BC).\nSome heads recarved from thrones: accepted for several heads, not specifically claimed here for Head 1.\nThe motif on the headdress is described from the photo (curved U-like element with claw-like shapes); it is often read as a jaguar paw or bird talons.",
+  "lesson": [
+    {"type": "text", "text": "Around 1862, a farm worker clearing forest on the Gulf Coast of Mexico hit a smooth, rounded surface in the ground. He took it for the bottom of an enormous upturned kettle and hoped for treasure inside. When the earth was dug away, the kettle had eyes, a nose and a frown."},
+    {"type": "text", "text": "The first scholar to publish it, José Melgar, was amazed and promptly drew a wrong conclusion: he decided the features must be African. Nobody could imagine yet that ancient Mexicans, long before the Maya and the Aztecs, had carved portraits on this scale. The culture did not even have a name."},
+    {"type": "text", "text": "Today we call these people the Olmec, and the head you see here is one of seventeen known. It was found in 1945 at San Lorenzo, their earliest great center, which flourished about 1200 to 900 BC. Locals nicknamed it El Rey, the King."},
+    {"type": "fact", "text": "The archaeologist Matthew Stirling was led to it by a single eye. The rest of the head was buried, but one stone eye stared up from a footpath, and villagers showed it to him."},
+    {"type": "text", "text": "The photo shows the head from the front in a museum patio in Xalapa, with nothing beside it for scale. So here are the numbers: it is about 2.8 meters tall (over 9 feet) and weighs around 25 tons, as much as four or five elephants. And it is a head only. There was never a body."},
+    {"type": "tour", "title": "A face, not a mask", "text": "Colossal does not mean crude. Go over the features one at a time.", "spots": [
+      {"x": 0.49, "y": 0.52, "zoom": 3.0, "r": 0.11, "title": "The eyes", "text": "Almond-shaped, with heavy lids and carved rims, set under a brow that is drawn together. The gaze goes straight ahead and slightly down, over your head."},
+      {"x": 0.49, "y": 0.62, "zoom": 3.4, "r": 0.08, "title": "The mouth", "text": "Full lips, turned down at the corners, with deep creases running from the nose. The flesh of the cheeks sags a little. This is a mature man, not an ideal type."},
+      {"x": 0.49, "y": 0.42, "zoom": 2.8, "r": 0.12, "title": "The headgear", "text": "A tight cap with a wide band across the forehead. Above the band, a curved emblem with claw-like shapes is carved in low relief. Every head wears a different one."},
+      {"x": 0.365, "y": 0.615, "zoom": 3.6, "r": 0.05, "title": "The ear", "text": "At the side, below the cap, a flap and an ear ornament are cut into the stone. The carving stays shallow so the block keeps its rounded mass."}
+    ]},
+    {"type": "text", "text": "No two of the seventeen faces are alike, and each has its own emblem on the cap. That is why most specialists believe they are portraits of individual rulers. The cap looks like protective gear, perhaps for war or for the ritual ballgame the Olmec played with rubber balls."},
+    {"type": "fact", "text": "“Olmec” is not what these people called themselves. It is a much later Aztec word meaning roughly “rubber people,” after the rubber trees of their homeland. Their own name is lost."},
+    {"type": "text", "text": "The stone is basalt, a hard volcanic rock. You can see its bubbles as small pits all over the face. There is no basalt at San Lorenzo. The boulder came from the Tuxtla Mountains, some 60 kilometers (about 40 miles) away, across swamps and rivers, moved by people who had no wheels, no pack animals and no metal tools."},
+    {"type": "key", "text": "An Olmec colossal head is power you can weigh: only a ruler who commanded hundreds of workers could have his face dragged across the land in 25 tons of stone."},
+    {"type": "text", "text": "The carving itself was done with harder stones, by pounding and grinding for months. Some heads were even recut from older stone thrones, as if a ruler's seat were turned into his portrait after his death."},
+    {"type": "text", "text": "When San Lorenzo declined, around 900 BC, the heads ended up buried. Whether that was an act of respect or of rejection, no one can say. El Rey lay under the earth for nearly three thousand years, until one eye wore back into the daylight."}
+  ],
+  "quiz": [
+    {"question": "What did the farm worker think he had found in the 1860s?", "options": ["A buried statue of a god", "A huge upturned kettle", "A stone altar"], "answer": 1, "explanation": "He took the rounded top of the head for the bottom of a giant cauldron."},
+    {"question": "Why do specialists think the heads are portraits of rulers?", "options": ["Each face and headdress emblem is different", "Their names are carved on the back", "They were found inside royal tombs"], "answer": 0, "explanation": "No two heads are alike, and each cap bears its own emblem."},
+    {"question": "What is the head made of?", "options": ["Limestone", "Fired clay", "Basalt, a volcanic rock"], "answer": 2, "explanation": "The pitted surface is basalt brought from the Tuxtla Mountains."},
+    {"question": "What led Matthew Stirling to this head in 1945?", "options": ["An old Spanish map", "A single eye showing on a footpath", "A flood that uncovered it"], "answer": 1, "explanation": "One exposed eye was pointed out to him by villagers."},
+    {"question": "What does the word “Olmec” mean?", "options": ["Roughly “rubber people,” a later Aztec name", "“Stone carvers” in the Olmec language", "“People of the king”"], "answer": 0, "explanation": "The Aztec word refers to the rubber trees of the region."}
+  ],
+  "facts": [
+    {"text": "The head was originally attached to a full-length stone body.", "isTrue": false, "explanation": "The colossal heads were made as heads only."},
+    {"text": "The Olmec moved the boulder without wheels, pack animals or metal tools.", "isTrue": true, "explanation": "The stone was brought some 60 kilometers by human effort alone."},
+    {"text": "The Olmec lived after the Maya and the Aztecs.", "isTrue": false, "explanation": "They came long before both; San Lorenzo flourished about 1200 to 900 BC."}
+  ]
+}

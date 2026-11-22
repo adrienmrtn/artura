@@ -1,0 +1,247 @@
+{
+ "teaser": "Two men collide under one hard light, in a back room the police were not meant to see.",
+ "focus": [
+  0.42,
+  0.25
+ ],
+ "review_notes": "Count of six boxing oils across Bellows's career: check.\nThe quote 'I don't know anything about boxing...' is widely attributed to Bellows; verify wording.\nThe balding man peering over the ring edge at right is traditionally said to be a self-portrait: tradition, not documented by the artist as far as I know.\nSharkey's being across the street from the studio (Lincoln Arcade, Broadway): check.\nLithograph version dated 1917: check.\nCleveland purchase in 1922: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Six. That is how many oil paintings of boxing George Bellows made in his whole career. Three came in a burst when he was in his twenties, three more near the end of his life. He painted hundreds of other things: rivers, snow, portraits, tennis parties. The fights are what people remember."
+  },
+  {
+   "type": "text",
+   "text": "This is the second of the six, painted in August 1909. Bellows was 27, a tall former college athlete from Ohio who had come to New York five years earlier to become a painter. His studio was on Broadway. Across the street stood a saloon run by Tom Sharkey, a retired heavyweight and former sailor."
+  },
+  {
+   "type": "text",
+   "text": "In the back of that saloon was a ring. A “stag” was a men-only evening, and the fights held there were private events, kept away from the eyes of the law. Bellows went, sat among the smoke and the shouting, and drew. The painting was made afterward, from memory and sketches."
+  },
+  {
+   "type": "fact",
+   "text": "Bellows claimed to be no expert. “I don't know anything about boxing,” he said. “I'm just painting two men trying to kill each other.”"
+  },
+  {
+   "type": "text",
+   "text": "The picture is about 92 by 123 centimeters (3 by 4 feet), and almost everything in it is black. So why does it feel like it is moving? The answer is in how the bodies are arranged, and you can trace it."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines hold this fight together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.07,
+       0.63
+      ],
+      [
+       0.37,
+       0.13
+      ],
+      [
+       0.61,
+       0.69
+      ]
+     ],
+     "closed": true,
+     "label": "The pyramid",
+     "text": "From the left boxer's back foot up to the clash of heads and down to the other man's foot: a triangle. Triangles are stable shapes, yet this one is made of two men falling into each other."
+    },
+    {
+     "points": [
+      [
+       0.56,
+       0.21
+      ],
+      [
+       0.68,
+       0.28
+      ],
+      [
+       0.82,
+       0.4
+      ]
+     ],
+     "closed": false,
+     "label": "The referee",
+     "text": "His white shirt and outstretched arm lean hard to the right, a counterweight to the long leg thrusting out on the left."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.2
+      ],
+      [
+       0.98,
+       0.24
+      ]
+     ],
+     "closed": false,
+     "label": "The rope",
+     "text": "The ropes cross the whole canvas as flat, calm horizontals. Against them, every diagonal in the bodies looks faster."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Bellows learned this kind of design from his teacher Robert Henri, who told his students to paint the city as it was: tenements, bars, docks, crowds. Critics later nicknamed the group the Ashcan School, after the trash cans in their street scenes. It was not meant kindly."
+  },
+  {
+   "type": "text",
+   "text": "Henri also taught speed. Paint fast, he said, while the feeling is still hot. Bellows took that literally. The flesh here is not blended smooth. It is laid on wet and thick, in strokes you can count."
+  },
+  {
+   "type": "tour",
+   "title": "Paint as flesh",
+   "text": "Move in on the fighters. The closer you get, the less they look like anatomy and the more they look like paint.",
+   "spots": [
+    {
+     "x": 0.37,
+     "y": 0.15,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The collision",
+     "text": "Two heads meet and nearly merge. Red is smeared over a face and neck: blood, or raw skin, or both. No eyes, no features. Bellows gives you the impact, not the men."
+    },
+    {
+     "x": 0.52,
+     "y": 0.2,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "A back in five strokes",
+     "text": "The right boxer's shoulder and back are slabs of cream, pink and gray, dragged across with a loaded brush. Each stroke follows the direction of a muscle."
+    },
+    {
+     "x": 0.2,
+     "y": 0.52,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The long leg",
+     "text": "This leg runs from the hip almost to the corner of the canvas, longer than any real leg. The stretch is deliberate: it turns a push into a lunge."
+    },
+    {
+     "x": 0.66,
+     "y": 0.27,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The third man",
+     "text": "The referee crouches behind them, face in shadow, shirt painted in broad white and blue-gray strokes. He is the only calm body in the ring."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Bellows bends anatomy on purpose. Limbs are lengthened and faces erased so that what you feel first is force, before you recognize a single person."
+  },
+  {
+   "type": "text",
+   "text": "Now drop your eyes below the ring floor. The spectators are lit from above like masks in a theater: a bald skull, a flushed cheek, a mouth open in a yell. Most of them stare up at the fight. One does not."
+  },
+  {
+   "type": "find",
+   "text": "One man at ringside has turned away from the fight and looks out of the picture, toward you. Find him.",
+   "spots": [
+    {
+     "x": 0.32,
+     "y": 0.64,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The one who turns",
+     "text": "His face is turned to the front, pale with red patches on the cheeks, mouth twisted. He seems to be calling to someone behind him, which is where you are standing."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That turned head changes your position. You are no longer looking at a painting of a fight. You are in the third row, behind the dark shoulders at the bottom of the canvas, and somebody has just noticed you."
+  },
+  {
+   "type": "fact",
+   "text": "A balding head peeks over the edge of the ring floor on the right side. By tradition it is Bellows himself, slipped in among the customers like a signature."
+  },
+  {
+   "type": "text",
+   "text": "The real signature is in the top left corner, almost lost in the dark. The same year he finished this picture, Bellows was elected an associate of the National Academy of Design, the most respectable art body in the country. He was one of the youngest ever admitted."
+  },
+  {
+   "type": "fact",
+   "text": "In 1917 Bellows redrew the scene as a lithograph, a print made from a drawing on stone. It became one of the best known American prints of the century and reached far more walls than the painting could."
+  },
+  {
+   "type": "text",
+   "text": "The Cleveland Museum of Art bought the canvas in 1922. Three years later Bellows died of a ruptured appendix at 42. The man who painted speed had run out of time."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was a “stag” at Sharkey's?",
+   "options": [
+    "A men-only fight night",
+    "A kind of punch",
+    "A nickname for the referee"
+   ],
+   "answer": 0,
+   "explanation": "Stag meant an evening for men only."
+  },
+  {
+   "question": "Which shape organizes the two fighters?",
+   "options": [
+    "A circle",
+    "A triangle rising to their heads",
+    "A square"
+   ],
+   "answer": 1,
+   "explanation": "Their legs and bodies form a pyramid that peaks where the heads collide."
+  },
+  {
+   "question": "Why is one boxer's leg so long?",
+   "options": [
+    "Bellows could not draw legs",
+    "The canvas was later stretched",
+    "He exaggerated it to increase the sense of thrust"
+   ],
+   "answer": 2,
+   "explanation": "The distortion is deliberate and makes the lunge more violent."
+  },
+  {
+   "question": "Who taught Bellows to paint city life quickly and directly?",
+   "options": [
+    "Robert Henri",
+    "Tom Sharkey",
+    "John Ruskin"
+   ],
+   "answer": 0,
+   "explanation": "Henri was the teacher behind the group later called the Ashcan School."
+  },
+  {
+   "question": "How did the image reach a wide audience after 1917?",
+   "options": [
+    "Through a film",
+    "Through a lithograph Bellows made of it",
+    "Through a postage stamp"
+   ],
+   "answer": 1,
+   "explanation": "He redrew the scene as a lithograph, which was printed in multiple copies."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bellows painted dozens of boxing canvases.",
+   "isTrue": false,
+   "explanation": "He made only six boxing oil paintings."
+  },
+  {
+   "text": "The name “Ashcan School” began as a compliment.",
+   "isTrue": false,
+   "explanation": "It was a mocking nickname referring to trash cans in their city scenes."
+  },
+  {
+   "text": "One spectator in the painting looks out toward the viewer.",
+   "isTrue": true,
+   "explanation": "A man at ringside turns his face to the front, away from the fight."
+  }
+ ]
+}

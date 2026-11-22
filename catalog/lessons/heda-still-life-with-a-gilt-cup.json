@@ -1,0 +1,320 @@
+{
+ "teaser": "Silver, glass, oysters and one lemon, painted with almost no color at all.",
+ "focus": [
+  0.64,
+  0.45
+ ],
+ "review_notes": "Opening imagines the reaction of a 1635 Haarlem viewer; this is a reconstruction from what is known about prices and trade, not a documented reaction.\nPaper cone identified as a page torn from an almanac holding pepper: standard reading for Heda, check for this painting.\nHeda served several times as an officer (dean) of the Haarlem Guild of St. Luke: check.\nClaim that the gilt cup and the silver tazza recur in other Heda paintings: check.\nDimensions 88 x 113 cm.\nBeer in the left glass is the usual identification.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Hang this in a Haarlem dining room in 1635 and the first guests would not have murmured about beauty. They would have started counting. That gilt cup is worth more than a craftsman earns in a year. The lemon came by ship from the Mediterranean. The pepper crossed two oceans. Before it was anything else, this was a table they could price."
+  },
+  {
+   "type": "text",
+   "text": "Then, most likely, came the second reaction: the urge to touch. The cold of the pewter, the damp of the oyster, the crust of the roll. Willem Claesz. Heda was a specialist in exactly this effect, and Haarlem buyers paid well for it. He painted very little else for decades."
+  },
+  {
+   "type": "text",
+   "text": "What looks like a casual mess is a sorted collection of surfaces. Each object is made of a different material, and each material handles light differently. Go along the back row and watch what the light does."
+  },
+  {
+   "type": "tour",
+   "title": "Four ways to shine",
+   "text": "The light enters from the left. Each material answers it in its own way.",
+   "spots": [
+    {
+     "x": 0.585,
+     "y": 0.37,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Green glass",
+     "text": "A roemer, the standard Dutch wine glass. Light passes through it: you see the level of the white wine, and bright window-shaped reflections curve around the bowl."
+    },
+    {
+     "x": 0.7,
+     "y": 0.26,
+     "zoom": 2.4,
+     "r": 0.09,
+     "title": "Gilded silver",
+     "text": "The showpiece. Its surface is chased, meaning hammered into patterns, so the light breaks into hundreds of tiny warm sparks instead of one clean highlight."
+    },
+    {
+     "x": 0.83,
+     "y": 0.4,
+     "zoom": 2.2,
+     "r": 0.11,
+     "title": "Pewter",
+     "text": "Pewter is a dull gray alloy of tin. It gives back soft, smeared reflections, nothing sharp. The open lid tells you the jug has been used."
+    },
+    {
+     "x": 0.685,
+     "y": 0.53,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Silver, tipped over",
+     "text": "A tazza, a shallow wine cup on a stem, lies on its side. Its underside becomes a cool silver mirror, a paler metal than the gold standing behind it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now count the colors you just saw. Gray, brown, olive green, a muted gold. That is nearly all. Heda and his Haarlem colleague Pieter Claesz made a specialty of this restraint. Art historians call these pictures monochrome banquets: still lifes kept within a narrow range of quiet tones."
+  },
+  {
+   "type": "fact",
+   "text": "The knobs on the stem of the green glass are called prunts. They had a practical use: people ate with their fingers, and the bumps kept a greasy hand from losing its grip on the wine."
+  },
+  {
+   "type": "text",
+   "text": "A picture this quiet makes any strong color ring like a bell. Heda allows himself exactly one, and he places it with care: far from the center, where you reach it last."
+  },
+  {
+   "type": "find",
+   "text": "One object brings the only pure, bright color into the picture. Tap it.",
+   "spots": [
+    {
+     "x": 0.885,
+     "y": 0.68,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The lemon",
+     "text": "A half-peeled lemon, its rind dangling in a spiral over the table edge. The peel let Heda show three textures at once: pitted skin, white pith and wet flesh. It is also the only clear yellow in the picture."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Lemons were a luxury import, and painters loved them for a second reason: they look sweet and taste sour. For viewers raised on sermons, that made the fruit a neat image of pleasures that deceive. The same thought runs through the whole table, if you follow how it is arranged."
+  },
+  {
+   "type": "lines",
+   "text": "The disorder has a design.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.1,
+       0.6
+      ],
+      [
+       0.36,
+       0.48
+      ],
+      [
+       0.58,
+       0.29
+      ],
+      [
+       0.7,
+       0.04
+      ]
+     ],
+     "closed": false,
+     "label": "The climb",
+     "text": "From the oyster shells on the left, the objects step up one by one to the tiny figure on top of the gilt cup. The whole table is a slope."
+    },
+    {
+     "points": [
+      [
+       0.7,
+       0.04
+      ],
+      [
+       0.895,
+       0.2
+      ],
+      [
+       0.95,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The drop",
+     "text": "After the peak the line falls fast, past the jug's lid and down to a glass lying on its side at the edge. Up slowly, down quickly."
+    },
+    {
+     "points": [
+      [
+       0.57,
+       0.6
+      ],
+      [
+       0.69,
+       0.52
+      ],
+      [
+       0.76,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The fallen cup",
+     "text": "The toppled tazza points like an arrow back toward the upright cup. One vessel stands, one has fallen: the two halves of the same story."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A meal interrupted, a cup knocked over, a glass on its side, bread torn and left. Nobody is in the picture, yet somebody was just here, and the party is over. Dutch still lifes often carry this quiet reminder, known as vanitas: pleasure and wealth do not last, so do not lean on them."
+  },
+  {
+   "type": "key",
+   "text": "Heda's table works twice: as a feast for the eye and as a warning about feasts. The muted color keeps both readings calm, so neither one shouts."
+  },
+  {
+   "type": "fact",
+   "text": "The paper cone on the pewter plate is a page torn from a printed almanac, twisted to hold pepper for the oysters. Pepper reached Holland from Asia on the ships of the Dutch East India Company. Using yesterday's calendar as wrapping is its own small joke about time."
+  },
+  {
+   "type": "text",
+   "text": "Heda was a respected man in Haarlem, several times an officer of the painters' guild, and he worked like a stage director with a prop cupboard. The gilt cup and the silver tazza appear again in other paintings of his, rearranged, tipped a different way, lit from a slightly new angle."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.36,
+     "y": 0.58,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Oysters",
+     "text": "Opened oysters on a pewter dish, gleaming like wet pearls. They were party food, and widely believed to stir desire."
+    },
+    {
+     "x": 0.455,
+     "y": 0.64,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The roll",
+     "text": "A crusty white roll, torn open. Its matte, floury surface is the driest thing on the table and makes the oysters next to it look wetter."
+    },
+    {
+     "x": 0.26,
+     "y": 0.49,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "A glass of beer",
+     "text": "A plain straight glass with a finger of amber beer left in it. Heda paints the glass with almost nothing: two pale edges and a rim."
+    },
+    {
+     "x": 0.505,
+     "y": 0.44,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The salt cellar",
+     "text": "A silver cylinder with a small heap of white salt on top. Salt was precious enough to deserve its own ornate holder."
+    },
+    {
+     "x": 0.7,
+     "y": 0.06,
+     "zoom": 4.5,
+     "r": 0.04,
+     "title": "The warrior",
+     "text": "A tiny armed figure with a lance crowns the lid of the cup. Showpieces like this were made for guilds and town councils and brought out for toasts."
+    },
+    {
+     "x": 0.63,
+     "y": 0.68,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The knife",
+     "text": "A knife with a checkered handle sticks out over the edge, toward you. Painters used this trick to make the table seem to push out of the picture."
+    },
+    {
+     "x": 0.65,
+     "y": 0.935,
+     "zoom": 4.5,
+     "r": 0.04,
+     "title": "The signature",
+     "text": "Heda signed and dated the painting on the hem of the tablecloth, as if the letters were embroidered into the linen: HEDA 1635."
+    },
+    {
+     "x": 0.35,
+     "y": 0.83,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "White linen",
+     "text": "The cloth still shows the sharp folds from the linen press. It is painted in grays and creams, with almost no pure white."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "At about 88 by 113 cm (35 by 44 inches), the objects are close to life size. Seen across a room, a guest could believe for a second that a real table stood against the wall."
+  },
+  {
+   "type": "text",
+   "text": "Almost four centuries later the prices have faded. Nobody gasps at a lemon. What remains is the second reaction of those first viewers, still fully intact: your hand wants to reach in and set the cup upright."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is a “monochrome banquet”?",
+   "options": [
+    "A feast where only one dish is served",
+    "A still life kept within a narrow range of quiet tones",
+    "A black-and-white print of a meal"
+   ],
+   "answer": 1,
+   "explanation": "Heda and Pieter Claesz painted tables almost entirely in grays, browns and greens."
+  },
+  {
+   "question": "What were the knobs on the stem of the green wine glass for?",
+   "options": [
+    "Decoration only",
+    "Measuring the wine",
+    "Gripping the glass with greasy fingers"
+   ],
+   "answer": 2,
+   "explanation": "The prunts kept the glass from slipping when people ate with their hands."
+  },
+  {
+   "question": "Which object carries the only bright, pure color in the painting?",
+   "options": [
+    "The lemon",
+    "The gilt cup",
+    "The oysters"
+   ],
+   "answer": 0,
+   "explanation": "The lemon's yellow is the single strong accent in a nearly gray picture."
+  },
+  {
+   "question": "What does “vanitas” mean in a still life?",
+   "options": [
+    "A display of the painter's skill",
+    "A reminder that pleasure and wealth do not last",
+    "A portrait of the owner's vanity table"
+   ],
+   "answer": 1,
+   "explanation": "The overturned cup and abandoned meal hint that earthly pleasures are brief."
+  },
+  {
+   "question": "Where did Heda sign the painting?",
+   "options": [
+    "On the pewter jug",
+    "On the wall behind the table",
+    "On the hem of the tablecloth"
+   ],
+   "answer": 2,
+   "explanation": "The signature and date sit on the edge of the cloth, like embroidery."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The paper cone on the plate was twisted from a page of an almanac and held pepper.",
+   "isTrue": true,
+   "explanation": "Old calendar pages were reused as wrapping for spices."
+  },
+  {
+   "text": "Heda painted the gilt cup only once, in this picture.",
+   "isTrue": false,
+   "explanation": "He reused his props, and the cup appears in other paintings of his."
+  },
+  {
+   "text": "The tablecloth is painted with pure bright white.",
+   "isTrue": false,
+   "explanation": "It is built from grays and creams, in keeping with the muted palette."
+  }
+ ]
+}

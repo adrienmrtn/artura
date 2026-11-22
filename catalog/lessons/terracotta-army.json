@@ -1,0 +1,284 @@
+{
+  "teaser": "Farmers digging a well in 1974 hit a clay head. Eight thousand soldiers were standing behind it.",
+  "focus": [
+    0.44,
+    0.78
+  ],
+  "review_notes": "Discovery: March 1974, Lintong district near Xi'an, farmers digging a well during a drought (Yang Zhifa usually named).\nFact that one of the farmers later signed books for visitors at the site museum: widely reported, please verify.\nPit 1 dimensions about 230 x 62 m; about 6,000 figures estimated in Pit 1, about 2,000 uncovered; about 8,000 in total across the pits.\nEleven corridors in Pit 1.\nFigure height about 1.8 to 1.9 m, weight often over 150 kg.\nKing at 13 (246 BC), unification 221 BC, death 210 BC; workforce figure of 700,000 comes from Sima Qian.\nRipples on top of the earth walls explained as imprints of roof timbers.\nFire and collapse of the roof soon after the emperor's death, often attributed to rebel troops: attribution is a hypothesis.\nPaint: lacquer layer curls and flakes within minutes of exposure.\nAbout 87 foremen's names found stamped or incised on figures.\nHigh mercury readings in the soil of the tomb mound.\nThe photo shows a numbered sign ('20') and a small group of figures on the left edge; their exact function is described cautiously.\nYear in pilot.json (-210) is the emperor's death; the army was made over the preceding decades.\nDetail that the well was dug in a persimmon orchard.\nOther finds around the tomb: Pit 2 (archers, cavalry, chariots), Pit 3 (command post), acrobats, stone armor, bronze water birds.\nProtective hall over Pit 1 built in the 1970s (opened 1979).",
+  "lesson": [
+    {
+      "type": "text",
+      "text": "March 1974, in the countryside near the city of Xi'an, in central China. It had not rained for months. A few farmers chose a spot in a persimmon orchard and began digging a well. A few meters down, a shovel hit something hard. It was not a rock. It was a head made of baked clay, with a face."
+    },
+    {
+      "type": "text",
+      "text": "They found a torso next, then bronze arrowheads. Villagers had turned up bits of pottery in these fields before and thought little of it. This time the news reached archaeologists, who arrived expecting a short job. They have now been digging for half a century, and they are not finished."
+    },
+    {
+      "type": "text",
+      "text": "What you see in this photo is called Pit 1. It is about 230 meters long and 62 wide, more than two soccer fields end to end, under a roof built like an aircraft hangar. Before meeting the soldiers, get a sense of the ground plan, because the army was not simply buried in a hole."
+    },
+    {
+      "type": "lines",
+      "text": "The pit is a piece of architecture. Trace its bones.",
+      "lines": [
+        {
+          "points": [
+            [
+              0.28,
+              1.0
+            ],
+            [
+              0.39,
+              0.46
+            ]
+          ],
+          "closed": false,
+          "label": "A wall of earth",
+          "text": "This thick ridge is a wall of pounded earth. It runs the full length of the pit, straight as a ruler."
+        },
+        {
+          "points": [
+            [
+              0.6,
+              1.0
+            ],
+            [
+              0.465,
+              0.48
+            ]
+          ],
+          "closed": false,
+          "label": "Its neighbor",
+          "text": "A second wall, parallel to the first. Between the two lies a sunken corridor, paved with brick, where the soldiers stand four abreast. Pit 1 has eleven such corridors."
+        },
+        {
+          "points": [
+            [
+              0.95,
+              0.95
+            ],
+            [
+              0.52,
+              0.49
+            ]
+          ],
+          "closed": false,
+          "label": "And another",
+          "text": "Seen from here, the walls rush toward one point far away, like railway tracks. That is how long the pit is. The army faces you, and it faces east."
+        }
+      ]
+    },
+    {
+      "type": "fact",
+      "text": "The farmers were paid a small reward for the pieces they handed in. Years later, one of them was given a seat in the museum shop, where he signed guidebooks for tourists as “the man who discovered the Terracotta Army.”"
+    },
+    {
+      "type": "text",
+      "text": "The man they guard lies about a mile to the west, under a wooded hill. He became king of the state of Qin at thirteen. By 221 BC he had conquered every rival kingdom and taken a new title: Qin Shi Huang, First Emperor. He standardized writing, money, weights, even the width of cart axles."
+    },
+    {
+      "type": "key",
+      "text": "The army is one part of a giant tomb complex for China's First Emperor, who died in 210 BC. It was made to serve him in the afterlife, and it was never meant to be seen by the living."
+    },
+    {
+      "type": "text",
+      "text": "Work on the tomb began almost as soon as he took the throne and went on for more than thirty years. An ancient historian speaks of 700,000 laborers. The soldiers were produced like nothing before them: legs, torsos, arms, hands and heads made separately, joined, then fired. Each figure stands about 1.8 to 1.9 meters tall (around 6 feet) and is hollow from the waist up."
+    },
+    {
+      "type": "tour",
+      "text": "Come down to the front of the pit.",
+      "spots": [
+        {
+          "x": 0.433,
+          "y": 0.79,
+          "zoom": 3.2,
+          "r": 0.08,
+          "title": "The front ranks",
+          "text": "Robes belted at the waist, hair tied in a knot on top of the head. After assembly, workers reshaped each face by hand: a different mustache, different cheekbones. That is why no two look alike."
+        },
+        {
+          "x": 0.44,
+          "y": 0.955,
+          "zoom": 3,
+          "r": 0.08,
+          "title": "Four horses",
+          "text": "At the bottom edge, four clay horses stand side by side. They once pulled a wooden war chariot. The wood rotted away long ago and left the team waiting for nothing."
+        },
+        {
+          "x": 0.56,
+          "y": 0.87,
+          "zoom": 2.5,
+          "r": 0.09,
+          "title": "Ripples in the wall",
+          "text": "The top of the earth wall is ridged like a washboard. Heavy timbers once lay across here, carrying a roof of mats and soil. Their weight left this print in the earth."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "So the soldiers once stood in dark, roofed tunnels. Then the roof came down. Charred beams show that the pits burned, perhaps when rebel troops broke in to grab the weapons a few years after the emperor died. Tons of earth dropped onto the ranks."
+    },
+    {
+      "type": "fact",
+      "text": "The gray-brown color is an accident. Every figure was painted: pink faces, black hair, robes in red, green, purple and blue. The paint sat on a layer of lacquer that curls and flakes off within minutes once the damp soil around it dries. Much of the army is left underground until this can be prevented."
+    },
+    {
+      "type": "text",
+      "text": "Almost every warrior you see standing has been rebuilt from fragments, sometimes a hundred or more per figure. The photo shows the whole process at once: finished ranks, work in progress, earth never opened, and the people of today looking down at it."
+    },
+    {
+      "type": "explore",
+      "spots": [
+        {
+          "x": 0.55,
+          "y": 0.61,
+          "zoom": 3,
+          "r": 0.08,
+          "title": "Still in pieces",
+          "text": "Farther back, the neat rows dissolve. Bodies lie tipped over and broken, as the falling roof left them. This is how the whole army looked when it was uncovered."
+        },
+        {
+          "x": 0.87,
+          "y": 0.485,
+          "zoom": 3.5,
+          "r": 0.08,
+          "title": "The living",
+          "text": "A dark line along the railing: visitors. They give you the scale. The clay men are a little taller than most of the people looking at them."
+        },
+        {
+          "x": 0.25,
+          "y": 0.47,
+          "zoom": 2.5,
+          "r": 0.1,
+          "title": "Not yet dug",
+          "text": "Toward the back, the corridors end in flat banks of bare earth. About 6,000 figures are thought to be in this pit. Only around 2,000 have been brought out."
+        },
+        {
+          "x": 0.9,
+          "y": 0.86,
+          "zoom": 3.5,
+          "r": 0.06,
+          "title": "More horses",
+          "text": "On the right, another team of horses, noses toward the wall. Horses were made at close to life size, with tails and manes neatly trimmed."
+        },
+        {
+          "x": 0.029,
+          "y": 0.772,
+          "zoom": 4.5,
+          "r": 0.03,
+          "shape": "arrow",
+          "title": "A number",
+          "text": "A small numbered sign. The pit is still an active excavation, mapped out section by section, and also one of the most visited sites in China."
+        },
+        {
+          "x": 0.5,
+          "y": 0.15,
+          "zoom": 1.5,
+          "r": 0.18,
+          "title": "The hangar",
+          "text": "The steel roof was put up in the 1970s, right over the dig. Daylight comes through a long strip of glass. Nothing was moved: the museum was built around the army."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "The hands of the soldiers are curled around empty air. They once held real weapons, not clay copies: bronze swords, spears, crossbows with working triggers. Many were looted in ancient times, but tens of thousands of arrowheads remained in the soil."
+    },
+    {
+      "type": "fact",
+      "text": "Dozens of figures carry a name stamped or scratched into the clay, in a hidden spot. About 87 different names have been found. They belong to the foremen in charge. If a soldier cracked in the kiln, the officials knew whom to punish."
+    },
+    {
+      "type": "text",
+      "text": "Pit 1 is only the infantry. Two smaller pits nearby hold archers, cavalry, chariots and what looks like a command post. Elsewhere around the tomb, diggers have found clay acrobats, stone armor and bronze water birds. The emperor took a whole world with him, not just a guard."
+    },
+    {
+      "type": "text",
+      "text": "And the emperor? His burial chamber has never been opened. The same ancient historian wrote that it holds a map of the empire with rivers of flowing mercury, a liquid metal. It sounded like a fable until scientists tested the hill and found unusually high levels of mercury in the soil."
+    },
+    {
+      "type": "text",
+      "text": "Chinese archaeologists have decided to wait. Having watched the paint peel off the soldiers within minutes, they will not open the tomb until they are sure they can protect what is inside. Would you have that patience, knowing what a single well turned up?"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How was the Terracotta Army discovered?",
+      "options": [
+        "By a university expedition following an old map",
+        "By farmers digging a well during a drought",
+        "By workers building a railway"
+      ],
+      "answer": 1,
+      "explanation": "In March 1974 a shovel hit a clay head a few meters down."
+    },
+    {
+      "question": "Why are the soldiers gray-brown today?",
+      "options": [
+        "Their paint flaked off after they were exposed to air",
+        "They were never painted",
+        "They were cleaned with acid in the 1970s"
+      ],
+      "answer": 0,
+      "explanation": "The lacquer under the paint curls and falls off within minutes once it dries."
+    },
+    {
+      "question": "How were the figures made?",
+      "options": [
+        "Carved from single blocks of stone",
+        "Cast in bronze",
+        "Assembled from separately made clay parts, with faces finished by hand"
+      ],
+      "answer": 2,
+      "explanation": "Legs, torsos, arms and heads were joined, then each face was reworked."
+    },
+    {
+      "question": "What do the ripples on top of the earth walls record?",
+      "options": [
+        "Flood water",
+        "The roof timbers that once lay across them",
+        "Tracks of chariot wheels"
+      ],
+      "answer": 1,
+      "explanation": "The corridors were roofed with heavy beams, mats and soil."
+    },
+    {
+      "question": "Why were names marked on the figures?",
+      "options": [
+        "To name each soldier portrayed",
+        "As prayers for the emperor",
+        "To identify the foreman responsible for quality"
+      ],
+      "answer": 2,
+      "explanation": "A faulty figure could be traced back to the workshop that made it."
+    },
+    {
+      "question": "What has happened to the emperor's own burial chamber?",
+      "options": [
+        "It has never been opened",
+        "It was emptied in 1974",
+        "It is displayed in Pit 1"
+      ],
+      "answer": 0,
+      "explanation": "Archaeologists are waiting until they can protect its contents."
+    }
+  ],
+  "facts": [
+    {
+      "text": "The warriors once held real bronze weapons.",
+      "isTrue": true,
+      "explanation": "Swords, spears and working crossbows were buried with them; many were looted later."
+    },
+    {
+      "text": "All the soldiers in Pit 1 have now been excavated.",
+      "isTrue": false,
+      "explanation": "Only about 2,000 of an estimated 6,000 have been brought out."
+    },
+    {
+      "text": "The First Emperor's tomb complex took only two years to build.",
+      "isTrue": false,
+      "explanation": "Work lasted more than thirty years."
+    }
+  ]
+}

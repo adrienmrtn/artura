@@ -1,0 +1,330 @@
+{
+ "teaser": "The thumbs-down you know from the movies starts here, and it may be a mistake.",
+ "focus": [
+  0.33,
+  0.55
+ ],
+ "review_notes": "Bought by A. T. Stewart of New York in 1873 for 80,000 francs: check price and date.\n1879 American pamphlet “Pollice Verso: To the Lovers of Truth in Classic Art” disputing the gesture: check.\nRidley Scott being shown a reproduction of the painting before agreeing to direct Gladiator (2000): widely reported.\nIdentification of the victor as a murmillo and the loser as a retiarius; armor studied from Pompeii finds in Naples, with pieces mixed from different gladiator types.\nGérôme's bronze The Gladiators (1878) reused by Aimé Morot in the monument to Gérôme, Musée d'Orsay.\nSize 96.5 x 149.2 cm.\nThe phrase is from Juvenal.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The first people to see this canvas did not argue about the blood. They argued about thumbs. Soon after Jean-Léon Gérôme finished it in 1872, the picture was bought by Alexander Stewart, a New York department store millionaire, and American scholars began a learned quarrel: had the painter got the gesture wrong?"
+  },
+  {
+   "type": "text",
+   "text": "The title is Latin. “Pollice verso” means “with a turned thumb”, a phrase from the Roman poet Juvenal describing how a crowd condemned a beaten gladiator. Turned how? Up, down, sideways, toward the chest? The ancient texts never say. Gérôme had to choose, and he chose down."
+  },
+  {
+   "type": "tour",
+   "title": "The verdict",
+   "text": "A fight has just ended. Follow the decision as it travels across the arena.",
+   "spots": [
+    {
+     "x": 0.33,
+     "y": 0.52,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The winner",
+     "text": "He stands with one foot on his opponent's throat and twists to look up. His helmet hides his face completely. He is waiting for an order.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.49,
+     "y": 0.7,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "Two fingers",
+     "text": "The man on the ground stretches up an arm with two fingers extended. This was the gladiator's plea for mercy."
+    },
+    {
+     "x": 0.72,
+     "y": 0.21,
+     "zoom": 2.6,
+     "r": 0.14,
+     "title": "The answer",
+     "text": "A row of women in white lean over the rail, arms thrust out, thumbs pointing down. Their mouths are open. They are shouting for his death."
+    },
+    {
+     "x": 0.27,
+     "y": 0.31,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The emperor",
+     "text": "In the box between the red columns, the emperor sits back on a golden seat. He has the final word, yet he looks like the calmest person here."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those women are the Vestal Virgins, priestesses who kept Rome's sacred fire burning and held seats of honor at the games. Gérôme makes the holiest women in the city the most bloodthirsty. That contrast, white veils and killing gestures, is the moral sting of the picture."
+  },
+  {
+   "type": "fact",
+   "text": "In 1879 an American pamphlet addressed “To the Lovers of Truth in Classic Art” was published just to dispute Gérôme's thumbs. Scholars still do not agree on what the Roman gesture looked like."
+  },
+  {
+   "type": "text",
+   "text": "He had prepared like a historian. Gérôme traveled to Italy, studied the gladiator armor dug up at Pompeii and had copies made to pose his models in. The bronze helmets, the arm guard of overlapping scales, the leg armor: every piece is based on a real object. He did, however, mix pieces from different types of fighters on the same man."
+  },
+  {
+   "type": "find",
+   "text": "The loser fought with two unusual weapons, the gear of a fisherman rather than a soldier. Both now lie on the sand. Find one of them.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.86,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Net and trident",
+     "text": "A tangled net lies behind his arm and a three-pronged fork, a trident, rests in the sand below. He was a “retiarius”, a net fighter, who fought almost without armor."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "His opponent's helmet carries a fish-like crest. Romans loved this pairing: the lightly dressed fisherman against the heavily armored “fish”. Gérôme gives you both ends of the contest in one glance, speed defeated by weight."
+  },
+  {
+   "type": "text",
+   "text": "Now the strange stripes. Bright vertical bars run down the red wall and stretch across the sand. A Roman arena was shaded by a huge awning of canvas, hauled out on ropes over the seats. Sun slipping through the gaps between its strips would draw exactly these lines."
+  },
+  {
+   "type": "lines",
+   "text": "The composition is a conversation between low and high, sand and balcony.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.32,
+       0.46
+      ],
+      [
+       0.72,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The question",
+     "text": "The winner's helmet turns up and to the right. His whole body twists toward the women in white."
+    },
+    {
+     "points": [
+      [
+       0.63,
+       0.22
+      ],
+      [
+       0.76,
+       0.17
+      ],
+      [
+       0.93,
+       0.1
+      ]
+     ],
+     "closed": false,
+     "label": "The row of arms",
+     "text": "Along the balcony, arm after arm repeats the same downward jab. Repetition makes the crowd feel like one creature."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.42
+      ],
+      [
+       0.5,
+       0.47
+      ],
+      [
+       1.0,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The wall",
+     "text": "The arena wall cuts the picture in two worlds: above, silk, carpets and shade. Below, sand, sweat and blood."
+    },
+    {
+     "points": [
+      [
+       0.55,
+       0.4
+      ],
+      [
+       0.56,
+       0.55
+      ],
+      [
+       0.72,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "A blade of sun",
+     "text": "One stripe of light runs down the wall and across the sand, as if drawn with a ruler."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "You stand where no spectator could: down on the sand, a few steps from the bodies. The crowd towers over you. That low viewpoint is a storyteller's choice. It turns a history lesson into something you feel in your stomach."
+  },
+  {
+   "type": "fact",
+   "text": "Gérôme liked the central pair so much that he later modeled them in bronze. After his death, his son-in-law built that sculpture into a monument showing the artist at work on it. You can see it at the Musée d'Orsay in Paris."
+  },
+  {
+   "type": "text",
+   "text": "French critics often found him cold. His paint is thin and smooth, his details as sharp at the back of the stands as in the foreground. To admirers this was honesty, a window onto the past. To opponents it was illustration without feeling. The public never hesitated: prints of his arena scenes sold across Europe and America."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.08,
+     "y": 0.73,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "An earlier fight",
+     "text": "Another gladiator lies face down at the left edge. Nobody is looking at him anymore."
+    },
+    {
+     "x": 0.31,
+     "y": 0.44,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The helmet",
+     "text": "A wide brim, a tall crest and a grille over the eyes. You cannot read his feelings, which makes him more frightening."
+    },
+    {
+     "x": 0.47,
+     "y": 0.89,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "Blood on sand",
+     "text": "A dark red pool spreads under the fallen man's head. Arena sand was there to soak it up. The Latin word for sand is “harena”."
+    },
+    {
+     "x": 0.25,
+     "y": 0.14,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Golden eagles",
+     "text": "Gilded eagles with spread wings top the red columns. The eagle was the emblem of Roman power."
+    },
+    {
+     "x": 0.76,
+     "y": 0.44,
+     "zoom": 2.2,
+     "r": 0.15,
+     "title": "The carpets",
+     "text": "Rich hangings drape the balcony front. Gérôme collected textiles on his travels and loved to paint their patterns."
+    },
+    {
+     "x": 0.08,
+     "y": 0.17,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The far stands",
+     "text": "Thousands of spectators become dots of pink and white. Even here he keeps arches and statues crisp."
+    },
+    {
+     "x": 0.13,
+     "y": 0.96,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A dropped sword",
+     "text": "A short sword lies alone in the corner, pointing into the scene. It leads your eye toward the fight."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A century later the picture changed cinema. When producers wanted the director Ridley Scott to make a film about a Roman general turned gladiator, they showed him a reproduction of this painting before he had read a page of the script. He said yes. “Gladiator” came out in 2000."
+  },
+  {
+   "type": "key",
+   "text": "Nobody knows which way Roman thumbs really turned. The thumbs-down we all use today owes more to this 1872 painting than to any ancient source."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does “pollice verso” mean?",
+   "options": [
+    "With a turned thumb",
+    "Death in the arena",
+    "Hail, Caesar"
+   ],
+   "answer": 0,
+   "explanation": "It is a Latin phrase meaning “with a turned thumb”."
+  },
+  {
+   "question": "Who are the women in white giving the thumbs-down?",
+   "options": [
+    "The gladiators' wives",
+    "The emperor's daughters",
+    "The Vestal Virgins, priestesses of Rome"
+   ],
+   "answer": 2,
+   "explanation": "They are the Vestal Virgins, who had seats of honor at the games."
+  },
+  {
+   "question": "What weapons did the defeated gladiator use?",
+   "options": [
+    "A bow and arrows",
+    "A net and a trident",
+    "Two long swords"
+   ],
+   "answer": 1,
+   "explanation": "He was a retiarius, a net fighter, and his net and trident lie on the sand."
+  },
+  {
+   "question": "What causes the bright stripes on the wall and sand?",
+   "options": [
+    "Sun passing through gaps in the arena's awning",
+    "Torches held by the crowd",
+    "Scratches on the canvas"
+   ],
+   "answer": 0,
+   "explanation": "A canvas awning shaded the seats and sunlight slipped between its strips."
+  },
+  {
+   "question": "Which film was inspired by this painting?",
+   "options": [
+    "Ben-Hur",
+    "Spartacus",
+    "Gladiator"
+   ],
+   "answer": 2,
+   "explanation": "Ridley Scott agreed to direct Gladiator after seeing a reproduction of it."
+  },
+  {
+   "question": "How did Gérôme prepare the armor?",
+   "options": [
+    "He invented it freely",
+    "He studied real pieces found at Pompeii",
+    "He copied it from a stage play"
+   ],
+   "answer": 1,
+   "explanation": "He studied gladiator armor excavated at Pompeii and had copies made."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Ancient texts clearly state that thumbs-down meant death.",
+   "isTrue": false,
+   "explanation": "The texts only say “turned thumb”; the direction is unknown."
+  },
+  {
+   "text": "The fallen gladiator raises two fingers to ask for mercy.",
+   "isTrue": true,
+   "explanation": "The extended fingers were the gladiator's plea to be spared."
+  },
+  {
+   "text": "The painting's first owner was a Roman museum.",
+   "isTrue": false,
+   "explanation": "It was bought by the New York department store millionaire Alexander Stewart."
+  }
+ ]
+}

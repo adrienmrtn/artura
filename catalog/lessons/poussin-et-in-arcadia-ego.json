@@ -1,0 +1,241 @@
+{
+ "teaser": "Four people, one tomb, and a sentence nobody is sure how to translate.",
+ "focus": [
+  0.47,
+  0.52
+ ],
+ "review_notes": "Date: the Louvre gives about 1638-1640.\nThe earlier version (about 1627, Chatsworth) with a skull on the tomb: check.\nLouis XIV acquiring the picture in 1685: check.\nPoussin's use of small wax figures in a box: reported by early biographers.\nPoussin's tomb monument in San Lorenzo in Lucina, Rome, commissioned by Chateaubriand with a relief after this painting: check.\nThe shadow read as a scythe or as an allusion to the origin of painting is an interpretation.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A fingertip touches a letter cut in stone. That is the whole event. A bearded shepherd has dropped to one knee in front of a tomb and is spelling out its inscription with his index finger, the way a child follows a line in a book. Three companions have stopped to watch him read."
+  },
+  {
+   "type": "text",
+   "text": "The words are Latin: Et in Arcadia ego. Arcadia is a real mountain region of Greece, but ancient poets turned it into a dream country where shepherds live in peace, sing and fall in love. Finding a tomb there is like finding a gravestone in a holiday brochure."
+  },
+  {
+   "type": "text",
+   "text": "Poussin gives nobody an open mouth. The conversation happens through eyes and hands. He admired ancient Roman carved reliefs, where figures stand in a row like actors on a shallow stage, and he arranged these four the same way so that you can read them from one to the next."
+  },
+  {
+   "type": "lines",
+   "text": "Follow the looks and the pointing hands. They pass the discovery along like a message.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.29,
+       0.3
+      ],
+      [
+       0.4,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "Looking down",
+     "text": "The standing shepherd on the left, leaning on the tomb, lowers his eyes to his kneeling friend. He watches someone else do the reading."
+    },
+    {
+     "points": [
+      [
+       0.38,
+       0.57
+      ],
+      [
+       0.485,
+       0.57
+      ]
+     ],
+     "closed": false,
+     "label": "The reading arm",
+     "text": "The kneeling man's arm stretches flat toward the stone. His finger rests on the carved letters."
+    },
+    {
+     "points": [
+      [
+       0.58,
+       0.47
+      ],
+      [
+       0.485,
+       0.535
+      ]
+     ],
+     "closed": false,
+     "label": "A second finger",
+     "text": "The shepherd in red, one foot on a block, points at the same line of text. Two hands meet at one word."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.37
+      ],
+      [
+       0.63,
+       0.25
+      ]
+     ],
+     "closed": false,
+     "label": "The question",
+     "text": "While he points, the man in red twists his head up toward the woman, as if asking what it means. She looks down, calm, and does not reply."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the reading travels from left to right and ends on a silence. The woman rests a hand on the young man's shoulder, a gesture of comfort more than an answer. Who she is, Poussin does not say. Some see a shepherdess, others a figure of wisdom, or of Death herself in gentle form."
+  },
+  {
+   "type": "key",
+   "text": "The inscription can be read two ways. Either Death speaks: “Even in Arcadia, I am here.” Or the dead person speaks: “I too once lived in Arcadia.”"
+  },
+  {
+   "type": "fact",
+   "text": "Poussin had already painted this subject about ten years earlier. That first version is all agitation: the shepherds rush at the tomb, and a skull sits on top of it. In the Louvre picture he removed the skull and the hurry."
+  },
+  {
+   "type": "text",
+   "text": "Without the skull, the idea of death has to come from somewhere else. Poussin hides it in plain light. The sun falls from the left, and the kneeling shepherd cannot touch the stone without casting something onto it."
+  },
+  {
+   "type": "find",
+   "text": "The reader is not alone on the stone. Something dark repeats his gesture. Where is it?",
+   "spots": [
+    {
+     "x": 0.46,
+     "y": 0.585,
+     "zoom": 3.4,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "His own shadow",
+     "text": "The man's head and arm throw a shadow on the tomb, and his finger meets the finger of the shadow. He is tracing the words about death and touching his own dark double at once."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The young man studies the words, but what he really finds is himself. This is how Poussin works: no skeleton, no hourglass, only a shadow that any sunny afternoon would produce. Painters of the Baroque, the theatrical style of the 1600s, usually preferred a louder kind of drama."
+  },
+  {
+   "type": "fact",
+   "text": "To compose a picture, Poussin is said to have modeled small wax figures, dressed them in bits of wet cloth and placed them in a box like a miniature stage, moving them around until the grouping and the light felt right."
+  },
+  {
+   "type": "text",
+   "text": "He was French but spent nearly all his working life in Rome, painting mid-sized canvases for a small circle of learned collectors. This one measures about 85 by 121 cm (33 by 48 inches). In 1685 it entered the collection of Louis XIV, and it has belonged to the French state ever since."
+  },
+  {
+   "type": "tour",
+   "text": "Three places where the stillness is built.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.56,
+     "zoom": 1.8,
+     "r": 0.22,
+     "shape": "circle",
+     "title": "The tomb",
+     "text": "A plain block of stone, set almost parallel to the picture surface. Its flat front works like a page that the figures gather around."
+    },
+    {
+     "x": 0.63,
+     "y": 0.25,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "A statue's profile",
+     "text": "The woman's face is drawn in pure profile, like a head on an ancient coin. Her yellow and blue robes are the brightest colors in the picture."
+    },
+    {
+     "x": 0.5,
+     "y": 0.15,
+     "zoom": 2,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "The trees",
+     "text": "Dark foliage rises behind the group against an evening sky. The light is warm and low: the day in Arcadia is ending too."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The picture later attracted another kind of reader. Treasure hunters and writers of conspiracy novels have searched its inscription for anagrams and its background hills for a secret location in southern France. None of it holds up, yet the tomb keeps tempting people to decode it."
+  },
+  {
+   "type": "text",
+   "text": "Poussin died in Rome in 1665. In the church of San Lorenzo in Lucina, the monument put up to him in the 1800s carries a marble relief of these same shepherds bending over their stone. The painter who showed four people reading a tomb now has visitors reading his."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the kneeling shepherd doing?",
+   "options": [
+    "Praying at the tomb",
+    "Tracing the inscription with his finger",
+    "Digging at its base"
+   ],
+   "answer": 1,
+   "explanation": "He follows the carved letters with his index finger."
+  },
+  {
+   "question": "What was Arcadia for ancient poets?",
+   "options": [
+    "An ideal land of peaceful shepherds",
+    "A city of marble temples",
+    "The kingdom of the dead"
+   ],
+   "answer": 0,
+   "explanation": "Poets made this Greek region a dream country of shepherds."
+  },
+  {
+   "question": "What did Poussin remove compared with his earlier version?",
+   "options": [
+    "The woman",
+    "The inscription",
+    "The skull on the tomb"
+   ],
+   "answer": 2,
+   "explanation": "The first version has a skull on the tomb; the Louvre picture does not."
+  },
+  {
+   "question": "Where does the idea of death appear in the Louvre picture, besides the tomb?",
+   "options": [
+    "In a skeleton behind the trees",
+    "In the reader's shadow on the stone",
+    "In a storm in the sky"
+   ],
+   "answer": 1,
+   "explanation": "The shepherd's shadow falls on the tomb and meets his finger."
+  },
+  {
+   "question": "In which city did Poussin spend most of his career?",
+   "options": [
+    "Paris",
+    "Athens",
+    "Rome"
+   ],
+   "answer": 2,
+   "explanation": "He was French but worked in Rome."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The four figures are shown talking loudly to each other.",
+   "isTrue": false,
+   "explanation": "No mouth is open; they communicate through looks and gestures."
+  },
+  {
+   "text": "The Latin sentence on the tomb has two possible meanings.",
+   "isTrue": true,
+   "explanation": "It can be spoken by Death or by the person buried there."
+  },
+  {
+   "text": "A relief of this painting decorates Poussin's own monument in Rome.",
+   "isTrue": true,
+   "explanation": "His monument in San Lorenzo in Lucina carries a relief of the shepherds."
+  }
+ ]
+}

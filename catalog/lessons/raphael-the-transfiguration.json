@@ -1,0 +1,56 @@
+{
+  "teaser": "Raphael's last painting stood at the head of his deathbed. He was 37.",
+  "focus": [0.5, 0.14],
+  "review_notes": "Raphael's offices in 1520 (architect of St. Peter's, in charge of Rome's antiquities) and a workshop of about fifty (Vasari's figure).\nCommission by Cardinal Giulio de' Medici for Narbonne, with Sebastiano del Piombo's Raising of Lazarus (National Gallery, London, NG1) as the rival work, helped by Michelangelo's drawings.\nDeath on April 6, 1520, Good Friday; painting displayed at his bier (Vasari).\nHow much of the lower half was finished by pupils is debated; the lesson says only that it is debated.\nThe two kneeling figures at upper left are usually identified as Saints Justus and Pastor.\nThe boy as the only lower figure who looks toward Christ: a common reading of his rolled-up eyes, not a certainty.\nTaken to Paris in 1797, returned 1816; mosaic copy in St. Peter's.\nSize about 410 x 279 cm.\nThis photo is strongly contrasted, so the lower half looks darker than in the gallery.",
+  "lesson": [
+    {"type": "text", "text": "In the spring of 1520 Raphael was 37 and the busiest man in Rome. He was chief architect of the new St. Peter's, he was in charge of the city's ancient ruins, and he ran a workshop of about fifty people. Most pictures that left his studio were largely painted by assistants. This one he kept for his own hand."},
+    {"type": "text", "text": "The reason was a duel. A cardinal had ordered two huge altarpieces for his cathedral in Narbonne, in France: one from Raphael, the other from the Venetian painter Sebastiano del Piombo. And Sebastiano had a secret weapon. Michelangelo, no friend of Raphael's, was supplying him with drawings."},
+    {"type": "fact", "text": "Sebastiano's entry in the contest, The Raising of Lazarus, survives too. It was the first picture catalogued by the National Gallery in London, where it still carries the inventory number NG1."},
+    {"type": "text", "text": "Raphael's answer was to do something no altarpiece had done: paint two Bible stories on one panel, more than four meters high (about 13 feet). They follow each other in the Gospel of Matthew. The first happens on a mountaintop, and it fills the upper half."},
+    {"type": "tour", "title": "On the mountain", "text": "Jesus has climbed a mountain with three followers. Suddenly his face shines like the sun.", "spots": [
+      {"x": 0.5, "y": 0.13, "zoom": 2.6, "r": 0.14, "title": "Christ in the air", "text": "He floats with arms open, in white, in front of a cloud so bright it is almost blank. “Transfiguration” means a change of appearance: for a moment his divine nature shows."},
+      {"x": 0.73, "y": 0.2, "zoom": 2.6, "r": 0.13, "title": "Moses", "text": "On the right, the prophet Moses hovers, clutching the stone tablets of the Law. On the other side is the prophet Elijah. Their robes whip about as if caught in a gale."},
+      {"x": 0.45, "y": 0.37, "zoom": 2.2, "r": 0.24, "title": "Three dazzled men", "text": "Peter, James and John have been knocked flat. One shields his eyes with his hand, another hides his face. The light is too much for them."},
+      {"x": 0.07, "y": 0.34, "zoom": 3.2, "r": 0.08, "title": "Two witnesses", "text": "Tucked under the trees at the far left, two young men kneel and watch. They are not in the Bible story. They are saints from a later time, added as onlookers."}
+    ]},
+    {"type": "text", "text": "At that same hour, says the Gospel, something was going wrong at the foot of the mountain. A father had brought his sick son to the nine followers left behind, and they could not cure him. That is the lower half: a crowd in the dark, shouting, pointing, getting nowhere."},
+    {"type": "text", "text": "The two halves hardly look like the same painter's work. Above, pale blues and a soft glow. Below, bodies picked out of blackness by a harsh light from the left, with hard shadows and loud reds, pinks and greens. That strong contrast of light and dark has an Italian name, chiaroscuro."},
+    {"type": "key", "text": "One panel, two worlds: calm certainty above, human confusion below. The painting's subject is the gap between them."},
+    {"type": "text", "text": "A gap that wide could split the picture in two. Raphael needed something to carry your eye across the dark strip of hillside in the middle. He used the cheapest and oldest tool a painter has: people pointing."},
+    {"type": "lines", "text": "Follow the hands. They pass the story along like a message.", "lines": [
+      {"points": [[0.54, 0.5], [0.634, 0.569], [0.82, 0.61]], "closed": false, "label": "Look at him", "text": "An apostle in green and yellow thrusts his arm across the center, straight at the boy on the right. He is showing the others the problem."},
+      {"points": [[0.6, 0.68], [0.77, 0.657], [0.83, 0.61]], "closed": false, "label": "The kneeling woman", "text": "The woman in the foreground twists to face the apostles while both her arms point back at the boy. Her gesture says: well, do something."},
+      {"points": [[0.3, 0.57], [0.355, 0.475], [0.5, 0.15]], "closed": false, "label": "The answer is up there", "text": "On the left, an apostle in red throws his arm toward the mountaintop. The one who can help is not here. He is above."},
+      {"points": [[0.83, 0.61], [0.812, 0.53], [0.5, 0.15]], "closed": false, "label": "The boy's arm", "text": "The sick boy flings one arm up in a spasm. By accident or by design, it aims at the figure in white."}
+    ]},
+    {"type": "text", "text": "So the painting stops one moment before its own ending. In the Gospel, Jesus comes down the mountain and heals the child with a word. Raphael shows the question and the answer, and leaves the meeting between them to you."},
+    {"type": "fact", "text": "Raphael fell ill with a fever and died on April 6, 1520, a Good Friday, after a short illness. The nearly finished Transfiguration was set up at the head of the bed where his body lay, and Rome filed past the two of them together."},
+    {"type": "text", "text": "How much was left undone? Scholars still argue over whether pupils completed some of the figures in the lower half. What is certain is that the cardinal, moved or simply shrewd, never shipped it to France. He kept it in Rome, and Narbonne received only Sebastiano's picture."},
+    {"type": "text", "text": "Go back to the crowd at the bottom. Count the faces if you like: every one of them is turned toward a neighbor, arguing, pleading, staring. Nobody is looking at the light that fills the top of the picture. Nobody but one."},
+    {"type": "find", "text": "Among all the people at the foot of the mountain, one has his eyes rolled upward, toward the vision. Who?", "spots": [
+      {"x": 0.83, "y": 0.61, "zoom": 3.4, "r": 0.07, "title": "The boy", "text": "Mouth open, body rigid, eyes wrenched upward and apart. The one everybody calls sick is the only one down here who seems to see what is happening above."}
+    ]},
+    {"type": "text", "text": "It is a daring idea: the healthy are blind and the afflicted child sees. Raphael surrounds him with some of the most carefully studied figures he ever painted, each a small lesson in how a body can express a thought."},
+    {"type": "tour", "title": "Three bodies", "text": "Each of these figures tells the story with a different part of the body.", "spots": [
+      {"x": 0.62, "y": 0.72, "zoom": 2.2, "r": 0.16, "shape": "rect", "title": "A turning spiral", "text": "Knees one way, shoulders another, head a third: the kneeling woman twists like a corkscrew. Her cool pink and blue and her braided hair make her look like a statue come to life."},
+      {"x": 0.87, "y": 0.56, "zoom": 3.2, "r": 0.09, "title": "The father", "text": "Wide eyes, brow knotted, he grips his son around the chest to hold him upright. All the fear in the picture is in this one face."},
+      {"x": 0.2, "y": 0.8, "zoom": 2, "r": 0.2, "title": "The man with the book", "text": "An apostle seated in the corner looks up from a large open book, one hand raised. The written word has no cure to offer. His bare foot juts out toward us."}
+    ]},
+    {"type": "text", "text": "For some three hundred years this was often called the greatest painting in the world. Napoleon's army agreed and carried it off to Paris in 1797 as a trophy. It came back to Rome after his fall, and went into the pope's picture gallery instead of a church."},
+    {"type": "fact", "text": "The “painting” of the Transfiguration that hangs inside St. Peter's Basilica is not a painting. It is a full-size copy made in the 1700s out of tiny pieces of colored glass and stone, built to survive candle smoke and damp."},
+    {"type": "key", "text": "The dark, crowded, spotlit lower half pointed to the future. Painters of the next hundred years, down to Caravaggio, kept returning to this panel to learn how light in darkness can turn a story into a drama."}
+  ],
+  "quiz": [
+    {"question": "Why did Raphael paint this picture largely himself?", "options": ["His assistants had left him", "He was competing with a rival backed by Michelangelo", "The pope had forbidden workshop help"], "answer": 1, "explanation": "The cardinal had ordered a second altarpiece from Sebastiano del Piombo, who was getting drawings from Michelangelo."},
+    {"question": "What is happening in the lower half?", "options": ["Followers of Jesus fail to cure a sick boy", "Soldiers arrest the apostles", "A crowd celebrates a wedding"], "answer": 0, "explanation": "A father has brought his son, and the nine apostles left below cannot heal him."},
+    {"question": "What does “chiaroscuro” mean?", "options": ["A picture on a round panel", "Paint applied to wet plaster", "Strong contrast of light and dark"], "answer": 2, "explanation": "The lower half uses harsh light against deep shadow."},
+    {"question": "How does Raphael connect the two halves?", "options": ["With a staircase", "With pointing hands and arms", "With a river"], "answer": 1, "explanation": "Gestures lead the eye to the boy and then up to Christ."},
+    {"question": "Who in the lower crowd looks up toward the vision?", "options": ["The sick boy", "The kneeling woman", "The man with the book"], "answer": 0, "explanation": "His eyes are rolled upward while everyone else looks at a neighbor."},
+    {"question": "Where was the painting placed when Raphael died?", "options": ["In the cathedral of Narbonne", "In the Sistine Chapel", "At the head of the bed where his body lay"], "answer": 2, "explanation": "The nearly finished panel was displayed beside his body in April 1520."}
+  ],
+  "facts": [
+    {"text": "The painting was sent to France as soon as it was finished.", "isTrue": false, "explanation": "The cardinal kept it in Rome; only the rival picture went to Narbonne."},
+    {"text": "The version inside St. Peter's Basilica is a mosaic copy.", "isTrue": true, "explanation": "It is made of small pieces of colored glass and stone to resist smoke and damp."},
+    {"text": "The panel shows a single Bible story.", "isTrue": false, "explanation": "It combines two: the Transfiguration above and the failed healing of the boy below."}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "teaser": "The biggest figure in the picture has no face. Van Gogh could not stop copying him.",
+  "focus": [0.47, 0.3],
+  "review_notes": "Dimensions about 101.6 x 82.6 cm (MFA Boston).\nTheophile Gautier's remark that the figure seems painted with the earth he is sowing: paraphrased from his Salon review of 1850-51.\nSecond version in the Yamanashi Prefectural Museum of Art, Kofu, Japan; which of the two hung at the Salon of 1850-51 is debated.\nBoston version bought early by the American painter William Morris Hunt, later owned by Quincy Adams Shaw, given to the MFA in 1917: please verify provenance.\nVan Gogh made more than thirty drawings and paintings after The Sower (count is approximate).\nThe second figure on the ridge is described as driving oxen with a harrow.",
+  "lesson": [
+    {"type": "text", "text": "Here is a painting that gives a man the scale of a giant and then refuses to show you who he is. He fills the canvas from top to bottom. He strides toward you like a hero in a history painting. And under the brim of his hat, where the face should be, there is only shadow."},
+    {"type": "text", "text": "The canvas is about a meter tall (roughly 40 by 32 inches), so the figure is not far from half life-size, pushed right up against the picture's edges. He is a farmhand walking downhill at dusk, flinging grain from a bag slung at his waist. In 1850, nobody painted such a person this big."},
+    {"type": "text", "text": "Jean-François Millet makes the whole picture out of that one walking body. There is no scenery to admire, only bare slope and darkening sky. So the question is how a single dark figure can hold a canvas by himself. The answer is in three directions that pull against each other."},
+    {"type": "lines", "text": "Three slanted lines, and hardly one true vertical or horizontal.", "lines": [
+      {"points": [[0.5, 0.1], [0.5, 0.5], [0.3, 0.72]], "closed": false, "label": "The stride", "text": "From the hat down through the trunk to the back leg, the body leans into its step. He is caught mid-stride, weight falling forward, about to walk out of the frame."},
+      {"points": [[0.56, 0.42], [0.35, 0.3], [0.07, 0.41]], "closed": false, "label": "The throwing arm", "text": "The arm swings back from the seed bag and out to the left edge. It is a practiced, rhythmic sweep: one handful for every second step."},
+      {"points": [[0.0, 0.32], [0.45, 0.36], [1.0, 0.44]], "closed": false, "label": "The hillside", "text": "The ground tilts down to the right while the man leans to the left. That opposition is what makes him look so forceful."}
+    ]},
+    {"type": "text", "text": "Lean against slope, arm against leg: the figure works like a spring. The paint adds to the effect. Millet lays it on thick and rough, in browns and dull blues, with few sharp edges. Up close the man and the field seem made of the same matter."},
+    {"type": "fact", "text": "The poet and critic Théophile Gautier noticed this at once. Reviewing the picture in Paris, he wrote that the sower seemed to be painted with the very earth he was sowing."},
+    {"type": "text", "text": "The timing mattered. The painting appeared at the Paris Salon, the official exhibition, of 1850 to 1851, just after the revolution of 1848 had given every Frenchman the vote, peasants included. Conservatives looked at this faceless, powerful laborer and saw a threat. Others saw the people, finally painted large."},
+    {"type": "text", "text": "Millet knew the gesture from the inside. He was born into a farming family in Normandy and had sown fields himself. In 1849 he left Paris for the village of Barbizon, at the edge of a forest, and stayed for the rest of his life. The Sower was one of the first things he painted there."},
+    {"type": "key", "text": "Millet gave an ordinary farm task the size and energy that art had reserved for heroes, and by hiding the face he made the sower stand for every sower."},
+    {"type": "explore", "spots": [
+      {"x": 0.49, "y": 0.17, "zoom": 3, "r": 0.09, "title": "The hidden face", "text": "A soft hat pulled low, a jaw, a suggestion of a nose. The eyes are lost. The low sun is behind him, so his front is in shade."},
+      {"x": 0.07, "y": 0.41, "zoom": 3.6, "r": 0.06, "title": "The open hand", "text": "The hand is at the end of its swing, fingers spread. Pale dots of grain are just leaving it, at the left edge of the canvas."},
+      {"x": 0.56, "y": 0.42, "zoom": 2.8, "r": 0.09, "title": "The seed bag", "text": "His other fist grips the gathered cloth of a sack slung from the shoulder. This lighter gray patch is the calm center around which the body turns."},
+      {"x": 0.1, "y": 0.22, "zoom": 2.6, "r": 0.11, "title": "The crows", "text": "Dark flecks swarm in the sky behind his arm. Birds are following him to eat the seed as fast as he throws it. Part of his work is already being undone."},
+      {"x": 0.83, "y": 0.37, "zoom": 3, "r": 0.1, "title": "The lit ridge", "text": "On the skyline, in the last warm light, a second man drives a pair of oxen. They pull a harrow, a heavy frame that rakes soil over the seed to hide it from the birds."},
+      {"x": 0.56, "y": 0.75, "zoom": 2.6, "r": 0.11, "title": "The leggings", "text": "His lower legs are bound in straw and rags against mud and cold. Millet paints this in thick, pale strokes, the roughest passage of the picture."}
+    ]},
+    {"type": "text", "text": "Notice where the light is. The glow of sunset falls on the far ridge and the oxen, not on the main figure. Millet reverses the usual rule of putting the hero in the spotlight. His sower works on in the shadowed half of the field, racing the crows and the dark."},
+    {"type": "fact", "text": "There are two nearly identical Sowers. One is this canvas in Boston. The other hangs in a museum in Kofu, Japan. Scholars still argue about which of the two Millet sent to the Salon."},
+    {"type": "text", "text": "The Boston picture reached America early, bought by William Morris Hunt, a young painter from New England who had gone to Barbizon to study with Millet. American collectors took to Millet's farmers sooner than French ones did, which is why so many of his works are in Boston today."},
+    {"type": "text", "text": "No one took the image further than Vincent van Gogh. He knew it from a print and redrew and repainted it more than thirty times across his short career. In his late versions he added the one thing Millet had held back: an enormous yellow sun, placed right behind the sower's head."}
+  ],
+  "quiz": [
+    {"question": "Why is the sower's face hard to see?", "options": ["He is turned completely away", "The low sun is behind him and his hat is pulled down", "The painting is damaged there"], "answer": 1, "explanation": "The light comes from behind, so his front is in shade under the hat brim."},
+    {"question": "What are the birds in the sky doing?", "options": ["Following him to eat the seed", "Migrating south", "Fleeing a storm"], "answer": 0, "explanation": "Crows trail the sower to eat the grain as he throws it."},
+    {"question": "What is happening on the sunlit ridge in the background?", "options": ["A second sower is at work", "Harvesters are stacking hay", "A man drives oxen pulling a harrow"], "answer": 2, "explanation": "The harrow rakes soil over the seed to cover it."},
+    {"question": "Why did the picture carry a political charge in 1850 and 1851?", "options": ["It showed a soldier", "Peasants had just received the vote after the 1848 revolution", "It was painted on a banned subject"], "answer": 1, "explanation": "A powerful, monumental laborer looked threatening to conservatives right after 1848."},
+    {"question": "What did Van Gogh add in his late versions of the sower?", "options": ["A huge yellow sun", "A second figure", "A church steeple"], "answer": 0, "explanation": "He placed an enormous sun behind the sower's head."}
+  ],
+  "facts": [
+    {"text": "The brightest light in the painting falls on the sower himself.", "isTrue": false, "explanation": "The sunset glow is on the far ridge with the oxen, while the sower strides in shadow."},
+    {"text": "A second, nearly identical version of The Sower is kept in Japan.", "isTrue": true, "explanation": "The other version hangs in a museum in Kofu."},
+    {"text": "Millet had never done farm work himself.", "isTrue": false, "explanation": "He grew up in a farming family in Normandy and had sown fields."}
+  ]
+}

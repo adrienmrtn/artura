@@ -1,0 +1,355 @@
+{
+ "teaser": "He turned down the job of mayor to paint thousands of soldiers under a sky at war.",
+ "focus": [
+  0.5,
+  0.45
+ ],
+ "review_notes": "Altdorfer declining the office of mayor of Regensburg in 1528 to work on the duke's commission: widely repeated, check.\nAltdorfer as city architect (slaughterhouse, wine store, fortifications of 1529-30): check.\nNapoleon hanging the panel in his bathroom at Saint-Cloud: traditional account, check.\nIdentification of the island as Cyprus and of the Nile and Red Sea in the distance: standard reading.\nSchlegel's reaction (Paris, 1803) is paraphrased, not quoted.\nFigures identified as Darius (chariot with three white horses) and Alexander (rider with lance to the right) were placed from the image; at this resolution they are tiny.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1528, the city of Regensburg offers Albrecht Altdorfer its highest honor: the office of mayor. He is about fifty, a town councilor, a house owner, a respected man. He says no. The reason he gives is a painting he has promised to a duke and cannot leave."
+  },
+  {
+   "type": "text",
+   "text": "The duke is Wilhelm IV of Bavaria, who wants a series of famous battles for his Munich residence. Altdorfer is assigned Issus, 333 BC, where the young Alexander the Great broke the army of the Persian king Darius III. He paints it on a limewood panel about 158 cm high and 120 cm wide (roughly 62 by 47 inches)."
+  },
+  {
+   "type": "text",
+   "text": "On that modest surface he packs thousands of soldiers, each smaller than a fingernail. Somewhere in the crush are the two kings. A hint: the red tassel hanging from the tablet in the sky works like a plumb line, a weighted string, and it drops toward the heart of the action."
+  },
+  {
+   "type": "find",
+   "text": "Darius is running away in a chariot drawn by three white horses. Can you spot it in the crowd?",
+   "spots": [
+    {
+     "x": 0.3,
+     "y": 0.705,
+     "zoom": 4.2,
+     "r": 0.06,
+     "shape": "circle",
+     "title": "The fleeing king",
+     "text": "Three pale horses pull a small gilded chariot to the left, out of the fight. The Persian king has turned his back. A few horse lengths to the right, a rider with a long lance is after him: Alexander."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Altdorfer picks the second when the battle tips. Nobody around the chariot knows yet that it is over, and the lances still bristle in every direction. But the king has turned, and an army whose king flees has lost. Everything else in the panel grows out of this small spot."
+  },
+  {
+   "type": "fact",
+   "text": "The tablet in the sky keeps score in Latin: 100,000 Persian foot soldiers and 10,000 horsemen killed, the mother, wife and children of Darius taken prisoner. The figures come from ancient writers, who liked their enemies numerous."
+  },
+  {
+   "type": "text",
+   "text": "Nothing here looks Greek or ancient. Alexander's men wear the polished plate armor of German knights around 1500, and many Persians wear turbans. The duke's guests understood at once. In 1529, the year on this panel, an Ottoman army stood before the walls of Vienna. An old victory of West over East was the news they wanted to hear."
+  },
+  {
+   "type": "text",
+   "text": "Now leave the soldiers. The fighting fills only the lower half of the panel. Above it, Altdorfer does something no battle painter had tried: he keeps climbing, as if you were being lifted higher and higher over the field."
+  },
+  {
+   "type": "tour",
+   "text": "Rise from the battlefield to the edge of the world, one stop at a time.",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.535,
+     "zoom": 3.2,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The camp",
+     "text": "Hundreds of pointed tents inside red fences: the Persian camp, about to be looted. Each tent is a single touch of a very fine brush."
+    },
+    {
+     "x": 0.725,
+     "y": 0.485,
+     "zoom": 3.6,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "A German city",
+     "text": "Spires and gables on the shore. The real Issus lay in what is now southern Turkey, but Altdorfer gives it the skyline of a town on the Danube."
+    },
+    {
+     "x": 0.6,
+     "y": 0.43,
+     "zoom": 2.6,
+     "r": 0.12,
+     "shape": "circle",
+     "title": "The island",
+     "text": "A long dark island floats in the sea, with ships around it. It is usually read as Cyprus, which puts you looking south across the eastern Mediterranean."
+    },
+    {
+     "x": 0.62,
+     "y": 0.36,
+     "zoom": 2.2,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "The far shore",
+     "text": "Past the last blue mountains the land keeps going, and the horizon gently bends. You are high enough to see the Earth curve."
+    }
+   ],
+   "title": "Going up"
+  },
+  {
+   "type": "text",
+   "text": "What you just crossed is close to a map. Beyond the island, scholars recognize the mouths of the Nile and the Red Sea. This kind of picture is called a world landscape: a view from an impossible height that tries to hold mountains, seas and cities all at once. No human had ever seen the Earth from there."
+  },
+  {
+   "type": "fact",
+   "text": "Painting was only one of his jobs. As Regensburg's city architect, Altdorfer had a slaughterhouse and a wine store built, and around 1529 he was busy strengthening the town walls against a possible Turkish attack."
+  },
+  {
+   "type": "text",
+   "text": "The sky takes up nearly half the panel, and it is not calm weather. Clouds coil into whirlpools, and two lights share the same sky. They are placed with as much care as the armies below."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines show how the sky is tied to the battle.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.49,
+       0.14
+      ],
+      [
+       0.49,
+       0.33
+      ],
+      [
+       0.5,
+       0.71
+      ]
+     ],
+     "closed": false,
+     "label": "The plumb line",
+     "text": "From the tablet, the cord and its ring hang straight down. Follow the direction and you land on Alexander, lance forward, in the middle of the melee."
+    },
+    {
+     "points": [
+      [
+       0.9,
+       0.33
+      ],
+      [
+       0.5,
+       0.19
+      ],
+      [
+       0.05,
+       0.03
+      ]
+     ],
+     "closed": false,
+     "label": "Sun against moon",
+     "text": "The sun blazes low on the right. A thin crescent moon sits in the dark top left corner. The whole sky stretches between them."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.4
+      ],
+      [
+       0.3,
+       0.385
+      ],
+      [
+       0.6,
+       0.355
+      ],
+      [
+       1.0,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "The bent horizon",
+     "text": "The horizon is not a ruler-straight line. It rises and curves, which is why the view feels like looking down at a globe."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The sun breaks through over Alexander's side while the crescent hangs over the retreating Persians. For viewers in 1529 the crescent had a second meaning, since it was also the emblem of the Ottoman Turks. Day drives out night, and the sky fights the same battle as the men."
+  },
+  {
+   "type": "key",
+   "text": "Altdorfer turned a battle into an event of the whole world. The landscape is not a backdrop: sun, moon, sea and mountains take part in the story."
+  },
+  {
+   "type": "text",
+   "text": "He could do this because landscape was his real passion. He belonged to what is called the Danube School, a loose group of painters in Bavaria and Austria who let forests, peaks and stormy light take the lead. Altdorfer even painted some of the first pictures in Europe with no people in them at all."
+  },
+  {
+   "type": "fact",
+   "text": "Napoleon's troops carried the panel off from Munich in 1800. For years it is said to have hung in his bathroom at the palace of Saint-Cloud, until Prussian soldiers recovered it in 1814 and it went home to Bavaria."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.07,
+     "zoom": 2.6,
+     "r": 0.14,
+     "shape": "circle",
+     "title": "The tablet",
+     "text": "A framed Latin inscription floats in the sky with no support, flanked by fluttering pink drapery. It tells you who won before you have found a single soldier."
+    },
+    {
+     "x": 0.05,
+     "y": 0.03,
+     "zoom": 4,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "The crescent",
+     "text": "A sliver of moon in a ring of dark cloud. Small, cold and pushed into a corner, like the cause it stands for."
+    },
+    {
+     "x": 0.9,
+     "y": 0.33,
+     "zoom": 2.8,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The sun",
+     "text": "Orange light spirals inside the clouds and spills a bright path across the water below."
+    },
+    {
+     "x": 0.5,
+     "y": 0.715,
+     "zoom": 4.2,
+     "r": 0.05,
+     "shape": "arrow",
+     "title": "Alexander",
+     "text": "A rider in armor levels a very long lance toward the left, straight at the chariot. He sits almost exactly under the hanging ring."
+    },
+    {
+     "x": 0.08,
+     "y": 0.72,
+     "zoom": 3,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "The banners",
+     "text": "Striped and checkered flags in pink, blue and yellow. They look like the flags of German mercenary companies, not of ancient armies."
+    },
+    {
+     "x": 0.4,
+     "y": 0.46,
+     "zoom": 2.8,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The mountain castle",
+     "text": "A sharp peak with a fortress clinging to its side. Alpine rock, set down on the coast of Asia."
+    },
+    {
+     "x": 0.3,
+     "y": 0.585,
+     "zoom": 3.2,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The ruin",
+     "text": "A roofless building with empty windows stands above the fighting, a quiet reminder that this is a story from a vanished age."
+    },
+    {
+     "x": 0.86,
+     "y": 0.93,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "A lone rider",
+     "text": "At the bottom right a horseman in red on a pale horse rides in open space. After the density of the center, the eye can rest here."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "While it was in Paris, the German writer Friedrich Schlegel stood in front of it and wondered what to call it: a landscape, a history painting or a battle piece. He could not decide, and nobody has settled the question since. It is all three at once."
+  },
+  {
+   "type": "text",
+   "text": "Altdorfer went back to his council seat and his building sites, and died in Regensburg in 1538. The mayor's chair went to someone whose name few people remember. The panel he chose over it now hangs in Munich, the city it was painted for."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did Altdorfer turn down in order to finish this painting?",
+   "options": [
+    "A trip to Italy",
+    "The office of mayor of Regensburg",
+    "A post at the emperor's court"
+   ],
+   "answer": 1,
+   "explanation": "He refused the mayor's office in 1528, citing the duke's commission."
+  },
+  {
+   "question": "Which moment of the battle does the panel show?",
+   "options": [
+    "Darius fleeing in his chariot with Alexander behind him",
+    "The two armies lining up at dawn",
+    "Alexander being crowned"
+   ],
+   "answer": 0,
+   "explanation": "The Persian king has turned his chariot to flee."
+  },
+  {
+   "question": "Why do the soldiers wear 16th-century armor and turbans?",
+   "options": [
+    "Altdorfer had no books on antiquity",
+    "The panel was repainted later",
+    "The ancient battle echoed the Ottoman threat of 1529"
+   ],
+   "answer": 2,
+   "explanation": "Viewers were meant to connect Issus with the Turkish army before Vienna."
+  },
+  {
+   "question": "What is a world landscape?",
+   "options": [
+    "A map printed on paper",
+    "A view from an impossible height that gathers seas, mountains and cities",
+    "A landscape painted outdoors"
+   ],
+   "answer": 1,
+   "explanation": "It tries to hold a whole region of the world in one picture."
+  },
+  {
+   "question": "What does the red tassel under the tablet do?",
+   "options": [
+    "It hangs like a plumb line toward Alexander",
+    "It marks the Persian camp",
+    "It points at the moon"
+   ],
+   "answer": 0,
+   "explanation": "The cord drops straight toward the place where Alexander rides."
+  },
+  {
+   "question": "Where did the painting reportedly hang under Napoleon?",
+   "options": [
+    "In the Louvre's main gallery",
+    "In a church in Paris",
+    "In his bathroom at Saint-Cloud"
+   ],
+   "answer": 2,
+   "explanation": "The lesson reports that it hung in his bathroom at Saint-Cloud."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The battle fills the entire panel from top to bottom.",
+   "isTrue": false,
+   "explanation": "The fighting takes only the lower half; landscape and sky fill the rest."
+  },
+  {
+   "text": "The sun and a crescent moon appear in the same sky.",
+   "isTrue": true,
+   "explanation": "The sun is low on the right and the crescent sits in the top left corner."
+  },
+  {
+   "text": "Altdorfer dressed the armies in accurate ancient Greek and Persian costume.",
+   "isTrue": false,
+   "explanation": "They wear German plate armor and turbans of his own time."
+  }
+ ]
+}

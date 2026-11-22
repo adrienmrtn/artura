@@ -1,0 +1,231 @@
+{
+ "teaser": "A stretch of brick wall kept its address secret for 350 years.",
+ "focus": [
+  0.62,
+  0.72
+ ],
+ "review_notes": "Dimensions 54.3 x 44 cm.\nFrans Grijzenhout's 2015 identification of the site as Vlamingstraat (today nos. 40-42), based on a 1667 register of quay dues; house on the right belonging to Vermeer's aunt Ariaentgen Claes van der Minne, a tripe seller; alley called Penspoort (Tripe Gate). The identification is widely accepted but not unanimous.\nHenri Deterding bought the painting from the Six collection and gave it to the Dutch state in 1921.\nBluish foliage explained by a faded yellow pigment: generally accepted, worth checking wording.\nOnly two townscapes by Vermeer survive (this one and View of Delft); a third is recorded in the 1696 sale.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This painting is 54 centimeters tall and 44 wide, about 21 by 17 inches. You could cover it with an open newspaper. On that small rectangle of canvas, Johannes Vermeer laid thousands of bricks, each joint of mortar set down with the tip of a brush."
+  },
+  {
+   "type": "text",
+   "text": "It was around 1658. Vermeer was in his mid-twenties, living in Delft, a quiet Dutch town of canals and breweries. Painters of his day chose grand churches or market squares when they painted a town. He chose a wall, two doorways and an alley, on a street nobody would cross Delft to see."
+  },
+  {
+   "type": "text",
+   "text": "And he gave the wall the attention usually kept for a face. Nothing here is fresh or flattering. The house is old, and its age is written on it."
+  },
+  {
+   "type": "tour",
+   "title": "An old wall, honestly told",
+   "text": "Follow the house from the top down. It has a history, and Vermeer hides none of it.",
+   "spots": [
+    {
+     "x": 0.82,
+     "y": 0.06,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "A crack at the top",
+     "text": "A dark crack runs down the brick near the top of the gable, the stepped triangle that crowns the house. The frame cuts the gable off: the building is too tall for the picture."
+    },
+    {
+     "x": 0.63,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Mended brickwork",
+     "text": "Paler lines of mortar zigzag between the windows. Cracks were filled in and never hidden. Vermeer paints the repairs as carefully as the bricks."
+    },
+    {
+     "x": 0.6,
+     "y": 0.8,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "The whitewash",
+     "text": "The lower wall is coated in lime wash, a cheap white paint that protected the brick from damp. Vermeer applies it thickly, so the painted wall has a real crust."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Thick paint for rough plaster, thin paint for sky: Vermeer matches the feel of his paint to the feel of the thing. Painters call thick, raised paint impasto. Here it turns a white wall into something your fingers could almost read."
+  },
+  {
+   "type": "fact",
+   "text": "The leaves on the left look oddly blue. Vermeer mixed his greens from blue and a yellow dye that fades in light. Over three and a half centuries the yellow has slipped away and left the vine the color of a pair of jeans."
+  },
+  {
+   "type": "text",
+   "text": "Now the people. There are four of them, and not one looks at you. A woman sews in her doorway. A maid bends over a barrel in the alley. Two children kneel on the pavement, lost in a game. We never learn what the game is, because Vermeer turns their backs to us."
+  },
+  {
+   "type": "key",
+   "text": "Nothing happens in The Little Street, and that is its subject: ordinary work, done in silence, treated as worthy of a painting."
+  },
+  {
+   "type": "text",
+   "text": "Vermeer left his name on this street, quite literally. He did not sign in a corner of the canvas, as most painters do. He wrote on the house itself."
+  },
+  {
+   "type": "find",
+   "text": "Vermeer signed the picture on a wall, in pale letters. Can you spot his name?",
+   "spots": [
+    {
+     "x": 0.07,
+     "y": 0.805,
+     "zoom": 4.5,
+     "r": 0.06,
+     "title": "I. V. Meer",
+     "text": "Under the window on the far left, on the whitewashed wall: “I V Meer”. The I stands for Johannes. It reads like chalk scribbled on plaster by someone passing by."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "For centuries people wondered whether this street existed. Was it a real corner of Delft, or an invented one? Dozens of addresses were proposed. Every guess had its defenders, and none had proof."
+  },
+  {
+   "type": "fact",
+   "text": "In 2015 a historian found the answer in a tax book. A 1667 register listed every house along Delft's canals, to the inch, so owners could be charged for dredging. Only one spot had two houses and two alleys of the right widths: Vlamingstraat. The house on the right belonged to Vermeer's aunt, who sold tripe."
+  },
+  {
+   "type": "text",
+   "text": "So the painting may be a family picture in disguise. The measurements that gave the secret away were possible because Vermeer built his view on a strict grid, more like an architect than a passerby with a sketchbook."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines hold the whole street together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.475,
+       0.21
+      ],
+      [
+       0.475,
+       0.88
+      ]
+     ],
+     "closed": false,
+     "label": "The edge of the house",
+     "text": "One sharp vertical splits the picture: on the right, a flat wall of brick; on the left, air, roofs and depth. Wall against sky, almost half and half."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.34
+      ],
+      [
+       0.33,
+       0.7
+      ],
+      [
+       0.47,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The valley of roofs",
+     "text": "The neighbors' roofs sink into a V. It opens a window of cloudy sky and keeps the big house from feeling like a prison wall."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.905
+      ],
+      [
+       1.0,
+       0.905
+      ]
+     ],
+     "closed": false,
+     "label": "The pavement",
+     "text": "A band of cobbles runs along the bottom, where you stand. You are placed across the street, at a polite distance, looking but not intruding."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The picture nearly left the Netherlands. In 1921 an oil executive, Henri Deterding, bought it from a private Amsterdam collection and gave it to the Dutch state. It has hung in the Rijksmuseum ever since."
+  },
+  {
+   "type": "text",
+   "text": "Only two views of a town by Vermeer survive. The other is a wide panorama of all Delft under a huge sky. This one stays close, at the height of a doorstep. If you had to paint a single wall from your own childhood, which one would you choose?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How big is The Little Street?",
+   "options": [
+    "About 54 by 44 cm, smaller than an open newspaper",
+    "About two meters wide",
+    "The size of a postage stamp"
+   ],
+   "answer": 0,
+   "explanation": "It measures roughly 54 by 44 cm, or 21 by 17 inches."
+  },
+  {
+   "question": "Where did Vermeer sign the painting?",
+   "options": [
+    "On the back of the canvas",
+    "On the red shutter",
+    "On the whitewashed wall under the far-left window"
+   ],
+   "answer": 2,
+   "explanation": "His name, “I V Meer”, is written on the wall as if it were part of the street."
+  },
+  {
+   "question": "Why do the leaves on the left look blue today?",
+   "options": [
+    "Vermeer wanted a moonlit effect",
+    "The yellow in his green mixture has faded",
+    "A restorer repainted them"
+   ],
+   "answer": 1,
+   "explanation": "The green was made of blue and a yellow dye that fades in light."
+  },
+  {
+   "question": "What kind of document helped identify the street in 2015?",
+   "options": [
+    "A love letter by Vermeer",
+    "A register of canal-side houses used for charging dredging fees",
+    "A map hanging in another painting"
+   ],
+   "answer": 1,
+   "explanation": "A 1667 register recorded the width of every house and alley along Delft's canals."
+  },
+  {
+   "question": "What are the two children doing?",
+   "options": [
+    "Playing a game we cannot see, backs turned to us",
+    "Waving at the painter",
+    "Carrying water from the canal"
+   ],
+   "answer": 0,
+   "explanation": "They kneel on the pavement with their backs to us, so the game stays a mystery."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The house in the painting is shown brand new, without a single flaw.",
+   "isTrue": false,
+   "explanation": "Vermeer shows cracks, mended mortar and worn whitewash."
+  },
+  {
+   "text": "The house on the right is thought to have belonged to Vermeer's aunt.",
+   "isTrue": true,
+   "explanation": "The 2015 research linked it to his aunt, who sold tripe."
+  },
+  {
+   "text": "Vermeer painted dozens of street views of Delft that survive today.",
+   "isTrue": false,
+   "explanation": "Only two of his townscapes survive."
+  }
+ ]
+}

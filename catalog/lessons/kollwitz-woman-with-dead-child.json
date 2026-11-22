@@ -1,0 +1,41 @@
+{
+  "teaser": "The child in her arms was her own son, alive and seven. She drew them both from a mirror.",
+  "focus": [0.42, 0.38],
+  "review_notes": "Plate size given as about 42 x 48 cm (16.5 x 19 in): check against the impression used.\nAnecdote that Peter told his mother 'it will be very beautiful' while posing comes from Kollwitz's own later recollection: verify wording.\nReaction of her friend Beate Bonus-Jeep (thinking something had happened to Peter) is from Bonus-Jeep's memoir: verify.\nTechniques listed (line etching, drypoint, sandpaper, soft-ground) follow standard catalog descriptions.\nThe image shows a greenish tint at left: this impression seems to be one of the tinted versions; the lesson only says she tried tinted backgrounds.\nPeter Kollwitz killed in Belgium in October 1914 aged 18; enlarged sculpture installed in the Neue Wache, Berlin, in 1993.",
+  "lesson": [
+    {"type": "text", "text": "This image was scratched and bitten into a sheet of copper about 42 by 48 cm (16.5 by 19 in), roughly the size of a pillowcase folded in half. Ink was rubbed into the grooves, damp paper laid on top, and the whole thing run through a press. Everything you see is black ink on paper. No paint, no color to soften it."},
+    {"type": "text", "text": "The method is called etching. The artist draws with a needle through a thin waxy coating on the metal, then acid eats into the exposed lines. Käthe Kollwitz, 36 years old and living in a working-class district of Berlin, pushed the method hard here. She also scratched the bare metal directly and rubbed it with sandpaper to get those smoky grays."},
+    {"type": "text", "text": "The subject needs no explaining. A naked woman sits cross-legged on the ground and folds herself around a dead child. There is no room, no bed, no clothing, no date. Before you read on, see how the two bodies are fitted together."},
+    {"type": "tour", "title": "Two bodies, one knot", "text": "Four places where the mother and the child meet.", "spots": [
+      {"x": 0.29, "y": 0.42, "zoom": 2.4, "r": 0.13, "title": "The child's head", "text": "It falls back, chin up, throat exposed. This is the palest area of the whole sheet. The light seems to come from the child, as if the body were already turning to stone."},
+      {"x": 0.42, "y": 0.24, "zoom": 2.6, "r": 0.11, "title": "Her face", "text": "You barely get one. The eye is a closed slit, the mouth is pressed into the child's chest. Kollwitz refuses you a readable expression, so the grief has to be read from the whole body."},
+      {"x": 0.55, "y": 0.42, "zoom": 3, "r": 0.08, "title": "The hand", "text": "Thick fingers dig into the small body. It is a worker's hand, drawn darker and harder than anything around it. It holds on the way you hold something being pulled away."},
+      {"x": 0.12, "y": 0.82, "zoom": 2.8, "r": 0.09, "title": "The foot", "text": "Big, bony, flat on the ground. Her crossed legs make a kind of cradle or nest. The pose is closer to an animal guarding its young than to a lady in mourning."}
+    ]},
+    {"type": "text", "text": "That animal quality shocked people in 1903. Grieving mothers in art were usually dressed, upright and dignified, modeled on Mary holding the dead Christ. Kollwitz stripped the scene of religion and of manners. What is left is a body that wants to take the child back inside itself."},
+    {"type": "fact", "text": "The models were Kollwitz and her younger son Peter, then seven. She held him across her lap and drew the pair of them from a mirror. She later recalled groaning from the strain of the pose, and the boy consoling her that the picture would turn out very beautiful."},
+    {"type": "text", "text": "A friend who saw the print reportedly feared that something terrible had happened to little Peter. Nothing had. The image came from imagination and from what Kollwitz saw daily: her husband Karl was a doctor for the poor, and children's deaths were common in his waiting room."},
+    {"type": "text", "text": "Now forget the bodies for a second and think of the picture as a shape. Sculptors talk about a block: a form so compact you could roll it downhill and nothing would break off. Trace this one."},
+    {"type": "lines", "text": "Where the outline runs, and what holds it up.", "lines": [
+      {"points": [[0.07, 0.38], [0.3, 0.12], [0.58, 0.05], [0.86, 0.28], [0.97, 0.68], [0.86, 0.93], [0.4, 0.9], [0.06, 0.83]], "closed": true, "label": "The block", "text": "Head, back, legs and child fit inside one rounded boulder. Nothing reaches out: no arm raised to heaven, no gesture toward us. The grief is sealed in."},
+      {"points": [[0.07, 0.83], [0.45, 0.8], [0.9, 0.72]], "closed": false, "label": "The base", "text": "Her lower leg lies across the bottom like a beam. It gives the boulder a floor, and makes the group feel heavy enough to sink through the paper."},
+      {"points": [[0.5, 0.06], [0.44, 0.25], [0.3, 0.42]], "closed": false, "label": "The plunge", "text": "Follow her hair and forehead down to the child's upturned face. All the movement in the picture is this one dive downward."}
+    ]},
+    {"type": "key", "text": "Kollwitz builds grief like a sculptor: one closed mass, no setting, no story. Take away everything particular and what remains belongs to anyone."},
+    {"type": "fact", "text": "An etching can be reworked and printed again and again. Kollwitz pulled this plate in several stages, changing it each time, and tried versions with tinted backgrounds. That is why museums in different countries can each own “the” Woman with Dead Child."},
+    {"type": "text", "text": "Eleven years later the mirror caught up with her. In October 1914, in the first weeks of the First World War, Peter was killed in Belgium. He was 18. Kollwitz spent much of the rest of her life making memorials to him, and campaigning against war."},
+    {"type": "text", "text": "In 1993, an enlarged version of one of her small sculptures, a mother holding her dead son, was placed alone in the middle of the Neue Wache, Germany's central memorial in Berlin. The idea first cut into copper in 1903 now stands for a whole country's dead."}
+  ],
+  "quiz": [
+    {"question": "Who posed for the dead child?", "options": ["A child from her husband's clinic", "Her son Peter, alive and seven years old", "Nobody, it was copied from a sculpture"], "answer": 1, "explanation": "Kollwitz held her own son across her lap and drew them both from a mirror."},
+    {"question": "In an etching, what cuts the drawn lines into the metal plate?", "options": ["Acid", "A hammer and chisel", "Heat from a flame"], "answer": 0, "explanation": "The needle only removes a waxy coating; acid then bites the exposed lines."},
+    {"question": "How does Kollwitz treat the mother's face?", "options": ["She shows it in full, screaming", "She hides it behind a veil", "She buries it in the child's body, eye closed"], "answer": 2, "explanation": "The face is nearly unreadable, so the whole body carries the grief."},
+    {"question": "What does the outline of the group resemble?", "options": ["A compact, closed block", "A tall pyramid reaching upward", "A cross"], "answer": 0, "explanation": "Everything fits inside one rounded mass, with no gesture reaching out."},
+    {"question": "What happened to Peter Kollwitz in 1914?", "options": ["He became an artist too", "He emigrated to America", "He was killed in the first weeks of the war"], "answer": 2, "explanation": "He died in Belgium in October 1914, aged 18."}
+  ],
+  "facts": [
+    {"text": "Woman with Dead Child was made after Kollwitz lost her son in the war.", "isTrue": false, "explanation": "It dates from 1903; Peter was killed eleven years later, in 1914."},
+    {"text": "The print shows no room, furniture or clothing.", "isTrue": true, "explanation": "Kollwitz removed every detail of place and time to make the scene universal."},
+    {"text": "There is only one original copy of this etching.", "isTrue": false, "explanation": "An etched plate can be printed many times, and she pulled it in several versions."}
+  ]
+}

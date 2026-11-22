@@ -1,0 +1,52 @@
+{
+  "teaser": "A face built from a market stall, with the painter's name woven into the collar.",
+  "focus": [0.62, 0.38],
+  "review_notes": "Support and size: oil on limewood panel, about 67 x 51 cm (KHM data).\nSignature woven in the collar reads GIUSEPPE ARCIMBOLDO F.; date 1563 on the shoulder. Both are visible in the image.\nSeries presented to Maximilian II on New Year's Day 1569 together with the Four Elements and a poem by Giovanni Battista Fonteo.\nOf the 1563 set, Vienna keeps Summer and Winter; Spring is in Madrid; Autumn of that set is lost.\nMaize and eggplant as novelties in 1560s Europe (maize from the Americas, eggplant from Asia via the Arab world).\nIdentification of individual fruits (ear as eggplant vs corn cob, brow as wheat ear) follows common descriptions.",
+  "lesson": [
+    {"type": "text", "text": "Start with the object. A panel of limewood, about 67 centimeters tall and 51 wide (roughly 26 by 20 inches), no bigger than a carry-on bag. Wood, not canvas: a smooth, hard surface that lets a fine brush draw the bristles of a wheat ear one by one. On that board Giuseppe Arcimboldo painted a man who does not contain a single piece of human flesh."},
+    {"type": "text", "text": "From across a room you see a profile turned to the right: nose, cheek, a smiling mouth, a high collar, a coat. Walk closer and the person falls apart into a harvest. Then step back and he returns. Your brain cannot hold both readings at once, and that flicker is the whole pleasure of the picture."},
+    {"type": "text", "text": "Arcimboldo came from Milan, where he had designed stained glass and tapestries for the cathedral. In 1562 he moved to Vienna as a court painter to the Habsburgs, the family that ruled the Holy Roman Empire. The next year he painted four heads, one per season. He wanted nobody to doubt who had thought of it first."},
+    {"type": "find", "text": "The year he painted this is hidden in the straw coat, woven like a basket pattern. Where?", "spots": [
+      {"x": 0.315, "y": 0.81, "zoom": 3.4, "r": 0.09, "title": "1563", "text": "The four digits are plaited into the shoulder, as if a weaver had worked them into the straw. Painters usually sign in a corner. Arcimboldo makes his date part of the costume."}
+    ]},
+    {"type": "text", "text": "The collar just above does the same with his name: GIUSEPPE ARCIMBOLDO, followed by an F for the Latin “fecit,” meaning “made this.” The coat itself is woven wheat straw, with ripe ears bristling out at the neck. Summer wears the grain harvest of July and August the way a nobleman wears a ruff."},
+    {"type": "fact", "text": "The four Seasons were presented to Emperor Maximilian II on New Year's Day 1569, along with four heads of the Elements, Earth, Air, Fire and Water. A poem came with them, explaining that the pictures praised the emperor."},
+    {"type": "text", "text": "Praised him how? The logic went like this. An emperor rules people, and through them the land and everything that grows on it. If the seasons themselves take a human face and wear a courtier's coat, then nature is shown as an orderly subject of the crown. The joke was a compliment, and the court got both."},
+    {"type": "text", "text": "The compliment only works if every piece is believable. Arcimboldo painted each fruit as a careful portrait from life, at a court that kept gardens and collected rare plants. Then he had to choose which fruit could play which part of a face."},
+    {"type": "tour", "title": "Casting the face", "text": "Each feature is played by something that ripens in summer. See how well the shapes are cast.", "spots": [
+      {"x": 0.76, "y": 0.4, "zoom": 3.0, "r": 0.09, "title": "The nose", "text": "A warty cucumber, the pale yellowish kind grown in the 1500s, hangs in exactly the curve of a long nose."},
+      {"x": 0.6, "y": 0.37, "zoom": 3.0, "r": 0.1, "title": "The cheek", "text": "A peach, with its soft blush and its natural crease, gives a rounded, sunburned cheek. Its fuzz even reads as skin."},
+      {"x": 0.67, "y": 0.31, "zoom": 3.6, "r": 0.06, "title": "The eye", "text": "A dark cherry sits in the socket and catches a point of light like a pupil. A small pear forms the lid above it, and an ear of wheat arches over as the eyebrow."},
+      {"x": 0.67, "y": 0.45, "zoom": 3.8, "r": 0.06, "title": "The smile", "text": "The mouth is an open pea pod, and the row of peas inside makes the teeth. Cherries stand in for the lips."}
+    ]},
+    {"type": "key", "text": "A composite head is a portrait assembled from objects. Arcimboldo's rule: each object must stay exactly itself and still land in the right place to be read as a face."},
+    {"type": "text", "text": "There is something else in that head that a visitor in 1563 would have noticed before the smile. Two of the plants were novelties. Behind the cheek stands an ear of maize, corn, a crop from the Americas that Europeans had known for only a few decades. Next to it hangs a dark eggplant, brought from Asia. Summer is also a show of the emperor's reach."},
+    {"type": "fact", "text": "The original set did not stay together. Vienna still has Summer and Winter from 1563. Spring ended up in Madrid, and the first Autumn is lost. The four you may have seen in the Louvre are a later set painted by Arcimboldo himself in 1573."},
+    {"type": "text", "text": "This kind of invention has a name, Mannerism: a style of the mid 1500s that prized cleverness, artifice and surprise over calm, natural balance. Courts loved riddles, mechanical toys and cabinets of curiosities, rooms where shells, fossils and rare seeds were collected. Arcimboldo's heads are such a cabinet squeezed into a face."},
+    {"type": "text", "text": "He served three emperors, designed their festival costumes and pageants, and went home to Milan with a noble title. After his death in 1593 he was largely forgotten, filed away as a maker of curiosities. Three centuries on, the Surrealists, artists such as Salvador Dalí who loved double images, claimed him as an ancestor."},
+    {"type": "fact", "text": "The trick outlived the court. Children's books, advertising posters and animated films still build faces from vegetables, and nearly all of them trace back to four small panels painted for a Viennese New Year."},
+    {"type": "text", "text": "The harvest is yours now. Wander through it and see how many crops you can name before the face pulls itself together again."},
+    {"type": "explore", "spots": [
+      {"x": 0.39, "y": 0.27, "zoom": 3.0, "r": 0.08, "title": "Maize", "text": "A corn cob in its pale husk, with dark red kernels showing. In the 1560s this was a plant from a newly met continent."},
+      {"x": 0.3, "y": 0.33, "zoom": 3.4, "r": 0.06, "title": "Eggplant", "text": "The glossy purple eggplant hangs where an ear would be, like a heavy earring."},
+      {"x": 0.83, "y": 0.72, "zoom": 2.6, "r": 0.1, "title": "An artichoke", "text": "It sprouts from the chest like a flower pinned to a lapel. Artichokes were a fashionable luxury on Italian and court tables."},
+      {"x": 0.66, "y": 0.52, "zoom": 2.8, "r": 0.09, "title": "The chin", "text": "Two pears, one pale and one golden, round off the chin and jaw."},
+      {"x": 0.5, "y": 0.41, "zoom": 3.2, "r": 0.07, "title": "Garlic and onions", "text": "White bulbs with papery skins fill the hollow behind the jaw, between cheek and neck."},
+      {"x": 0.52, "y": 0.13, "zoom": 2.2, "r": 0.17, "title": "The hat", "text": "Plums, cherries, berries and leaves pile up into a headdress. A melon sits at the back of the head."},
+      {"x": 0.08, "y": 0.11, "zoom": 2.8, "r": 0.09, "title": "Oats", "text": "Drooping stalks of oats spring from the back of the head like a plume on a hat."},
+      {"x": 0.4, "y": 0.64, "zoom": 2.8, "r": 0.14, "title": "The signature", "text": "Follow the letters woven around the collar: GIUSEPPE ARCIMBOLDO F. The F stands for “fecit,” Latin for “made this.”"}
+    ]}
+  ],
+  "quiz": [
+    {"question": "What is Summer painted on?", "options": ["A stretched canvas", "A sheet of copper", "A limewood panel"], "answer": 2, "explanation": "The smooth wood let Arcimboldo paint very fine detail."},
+    {"question": "Where did Arcimboldo put the date 1563?", "options": ["Woven into the straw shoulder of the coat", "On a paper label in the corner", "Carved into the peach"], "answer": 0, "explanation": "The digits are plaited into the coat, and his name is in the collar."},
+    {"question": "What forms the teeth?", "options": ["Kernels of corn", "Peas in an open pod", "Cloves of garlic"], "answer": 1, "explanation": "The mouth is a split pea pod, with the peas as teeth."},
+    {"question": "Why would the maize have struck a viewer in 1563?", "options": ["It was a recent arrival from the Americas", "It was a symbol of winter", "It was forbidden at court"], "answer": 0, "explanation": "Europeans had known corn for only a few decades."},
+    {"question": "Which 20th-century artists rediscovered Arcimboldo?", "options": ["The Impressionists", "The Cubists", "The Surrealists"], "answer": 2, "explanation": "Surrealists such as Dalí loved his double images."}
+  ],
+  "facts": [
+    {"text": "The Seasons were given to Emperor Maximilian II as a New Year's present.", "isTrue": true, "explanation": "They were presented on New Year's Day 1569 with the Four Elements."},
+    {"text": "The nose of Summer is a carrot.", "isTrue": false, "explanation": "It is a pale, warty cucumber."},
+    {"text": "All four panels of the original 1563 set are still together in Vienna.", "isTrue": false, "explanation": "Vienna keeps only Summer and Winter; Spring is in Madrid and Autumn is lost."}
+  ]
+}

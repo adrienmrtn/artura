@@ -1,0 +1,272 @@
+{
+ "teaser": "Two kinds of weather on one sheet of paper: sunshine at the top, a thunderstorm at the foot.",
+ "focus": [
+  0.68,
+  0.3
+ ],
+ "review_notes": "The image shows the correct design (title cartouche reads Sanka hakuu), but the colors are very saturated: it may be a different impression or a later reproduction, not necessarily the Metropolitan Museum's sheet.\nJapanese title Sanka hakuu, 'hakuu' literally 'white rain', a sudden summer shower.\nPublisher Nishimuraya Yohachi; series issued around 1830 to 1832.\nNickname 'Black Fuji' as a counterpart to 'Red Fuji' (Fine Wind, Clear Morning).\nHokusai's statement about his work before seventy is paraphrased from the postscript to One Hundred Views of Mount Fuji (1834).\nThe grey mass at the right edge is described simply as a second, lower ridge; I could not identify it with a named mountain.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Have you ever looked down on bad weather? From a plane window, maybe, or a high trail: blue sky around you, and below, a gray lid of cloud with rain falling on someone else. In 1831 nobody had flown. Yet Hokusai imagined that view and printed it, with Mount Fuji as the thing that pokes through."
+  },
+  {
+   "type": "text",
+   "text": "The Japanese title is Sanka hakuu. “Sanka” means beneath the mountain's peak. “Hakuu” is literally “white rain,” an old word for the sudden, violent shower of a summer afternoon. The odd thing is that you will not find a single drop of rain drawn anywhere. The storm is shown by two things only: darkness, and a flash."
+  },
+  {
+   "type": "lines",
+   "text": "The sheet is cut in two, and each half has its own weather.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.69
+      ],
+      [
+       0.3,
+       0.6
+      ],
+      [
+       0.6,
+       0.57
+      ],
+      [
+       1.0,
+       0.56
+      ]
+     ],
+     "closed": false,
+     "label": "Where the dark begins",
+     "text": "No outline marks this border. The brick red of the slope simply sinks into black. Above: a clear day. Below: the inside of a storm cloud."
+    },
+    {
+     "points": [
+      [
+       0.36,
+       0.99
+      ],
+      [
+       0.65,
+       0.83
+      ],
+      [
+       0.71,
+       0.69
+      ],
+      [
+       0.86,
+       0.615
+      ],
+      [
+       0.91,
+       0.64
+      ],
+      [
+       0.99,
+       0.69
+      ]
+     ],
+     "closed": false,
+     "label": "The lightning",
+     "text": "A bolt of orange-red zigzags across the black. It is drawn with ruler-straight segments and sharp elbows, nothing like the soft clouds above."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.69
+      ],
+      [
+       0.3,
+       0.52
+      ],
+      [
+       0.52,
+       0.39
+      ],
+      [
+       0.63,
+       0.19
+      ],
+      [
+       0.675,
+       0.105
+      ],
+      [
+       0.72,
+       0.19
+      ],
+      [
+       0.82,
+       0.31
+      ],
+      [
+       1.0,
+       0.48
+      ]
+     ],
+     "closed": false,
+     "label": "One mountain",
+     "text": "Fuji's outline crosses both zones without changing. The same slope is sunlit near the top and drowned at the base. The mountain does not care."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That indifference is the subject. Fuji was, and is, a sacred mountain. In Hokusai's time groups of ordinary townspeople saved up to climb it as a pilgrimage, and many more bought pictures of it. A print showing the peak untouched above the thunder said something they already believed."
+  },
+  {
+   "type": "fact",
+   "text": "This print has a famous twin. In the same series, Fine Wind, Clear Morning shows almost the same outline of Fuji glowing red at dawn, with no storm at all. People call that one “Red Fuji” and this one, sometimes, “Black Fuji.”"
+  },
+  {
+   "type": "text",
+   "text": "The soft fade from red to black, and from white to deep blue along the top edge, was not drawn by Hokusai. It was made by the printer. The technique is called bokashi: before pressing the paper, the printer wipes part of the inked woodblock with a damp cloth so the color thins out gradually. Every sheet fades a little differently."
+  },
+  {
+   "type": "key",
+   "text": "Hokusai draws a storm without drawing rain. A gradient into black and one jagged line are enough for you to hear the thunder."
+  },
+  {
+   "type": "text",
+   "text": "The rest of the sheet is quiet detail, and it rewards a slow wander. Notice also what is missing. Most prints in this series include travelers, workers or boats. Here there is not one human being."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.675,
+     "y": 0.12,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The summit",
+     "text": "The peak is split into three small points, a traditional way of drawing Fuji's crater rim. It stands against plain, pale sky: the calmest spot on the sheet."
+    },
+    {
+     "x": 0.62,
+     "y": 0.4,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Snow in the gullies",
+     "text": "White streaks run down the slope where snow lingers in the ravines. They are simply unprinted paper. Around them the red is broken into hundreds of dots that suggest rough volcanic rock."
+    },
+    {
+     "x": 0.2,
+     "y": 0.4,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "Fair-weather clouds",
+     "text": "Puffy clouds with curly blue edges float far below the peak, on the sunny side. Their scalloped shapes follow a pattern much older than Hokusai."
+    },
+    {
+     "x": 0.12,
+     "y": 0.54,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Green foothills",
+     "text": "Forested hills, speckled with dark dots for trees, fill the lower left. They are the only green in the print and they give you the scale: Fuji dwarfs them."
+    },
+    {
+     "x": 0.94,
+     "y": 0.34,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "A gray neighbor",
+     "text": "Behind Fuji's right shoulder a lower ridge appears in flat gray, wrapped in more clouds. Its dull color pushes it into the distance."
+    },
+    {
+     "x": 0.065,
+     "y": 0.2,
+     "zoom": 3.2,
+     "r": 0.05,
+     "shape": "rect",
+     "title": "Title and signature",
+     "text": "The framed box holds the series title and the name of this view. To its right, in looser writing, is Hokusai's signature."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With no people in it, the picture leaves you nowhere to stand. You float in mid-air, level with the clouds, facing a mountain so simplified that it is close to a logo: one triangle, three colors. This daring flatness is part of what European artists found so fresh when Japanese prints reached them a generation later."
+  },
+  {
+   "type": "fact",
+   "text": "Hokusai was about seventy when he designed the Fuji series, and he thought he was only getting started. He later wrote that nothing he had drawn before that age was worth much, and that he hoped to reach something marvelous by the time he was a hundred. He died at 88."
+  },
+  {
+   "type": "text",
+   "text": "So which Fuji is the true one, the sunny peak or the flooded base? Somebody standing in the village under that lightning would have seen no mountain at all, only rain. Hokusai gives you the view that nobody down there could have. Next time a storm passes over you, it is worth remembering there is a top side to it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does “hakuu” in the Japanese title literally mean?",
+   "options": [
+    "Black cloud",
+    "White rain",
+    "Red mountain"
+   ],
+   "answer": 1,
+   "explanation": "It is an old word for a sudden summer shower, literally “white rain.”"
+  },
+  {
+   "question": "How does Hokusai show the storm?",
+   "options": [
+    "With lines of falling rain",
+    "With bent trees and running people",
+    "With darkness and a lightning bolt"
+   ],
+   "answer": 2,
+   "explanation": "No rain is drawn at all, only the black base of the mountain and a zigzag of lightning."
+  },
+  {
+   "question": "What is bokashi?",
+   "options": [
+    "A printed color fade made by wiping the inked block",
+    "A kind of Japanese paper",
+    "A pilgrimage up Mount Fuji"
+   ],
+   "answer": 0,
+   "explanation": "The printer wipes part of the inked woodblock so the color thins out gradually."
+  },
+  {
+   "question": "What is unusual about this print within its series?",
+   "options": [
+    "Mount Fuji is missing",
+    "It contains no people",
+    "It is printed in black only"
+   ],
+   "answer": 1,
+   "explanation": "Most prints in the series include travelers, workers or boats, but this one is empty of humans."
+  },
+  {
+   "question": "What are the white streaks near the top of the mountain?",
+   "options": [
+    "Snow, shown by unprinted paper",
+    "Waterfalls painted in white",
+    "Paths for pilgrims"
+   ],
+   "answer": 0,
+   "explanation": "They are snow lying in the ravines, made by leaving the paper bare."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The lightning in the print is drawn with soft, curving lines.",
+   "isTrue": false,
+   "explanation": "It is a zigzag of straight segments with sharp elbows."
+  },
+  {
+   "text": "A companion print in the same series shows a red Fuji on a clear morning.",
+   "isTrue": true,
+   "explanation": "Fine Wind, Clear Morning, known as “Red Fuji,” has almost the same outline."
+  },
+  {
+   "text": "Hokusai designed this print as a young man in his twenties.",
+   "isTrue": false,
+   "explanation": "He was about seventy when he designed the Fuji series."
+  }
+ ]
+}

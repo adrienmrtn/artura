@@ -1,0 +1,316 @@
+{
+ "teaser": "A corner of Wyoming, painted in a New York studio, that sold the West to the East.",
+ "focus": [
+  0.6,
+  0.65
+ ],
+ "review_notes": "Size about 186.7 x 306.7 cm.\nBierstadt traveled with Frederick W. Lander's survey in 1859; Lander died in 1862 during the Civil War and Bierstadt named the peak for him.\nShown at the 1864 Metropolitan Sanitary Fair in New York opposite Church's Heart of the Andes.\nSold in 1865 to James McHenry for $25,000: check.\nBierstadt's wish that a city might one day rise on the plain comes from his published description of the picture: check wording.\nThe tripod of poles at lower left (about x 0.30, y 0.87) is described only as seen; I do not interpret its function.\nAnimals laid out by the camp at lower right read as hunted game; species not specified.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Would you believe a travel report from someone who wrote it three years after the trip, two thousand miles away, and improved the scenery from memory? That is roughly what this painting is. And for a whole generation of Americans, it was the truest picture of the West they had."
+  },
+  {
+   "type": "text",
+   "text": "Albert Bierstadt went west in 1859 with a government survey party led by Colonel Frederick Lander, mapping a wagon road toward the Pacific. He was 29, born in Germany, raised in Massachusetts and trained as a painter in Düsseldorf. In what is now Wyoming he sketched the Wind River range and the Shoshone people camped beneath it."
+  },
+  {
+   "type": "fact",
+   "text": "Bierstadt brought more than brushes. He carried a stereo camera, which takes two side-by-side photos that look three-dimensional in a viewer, and brought back pictures of the trail and of Native people that his brothers sold in their photography business."
+  },
+  {
+   "type": "text",
+   "text": "Back east, he rented a studio in New York and set to work on a canvas about 1.9 meters high and 3 meters wide (6 by 10 feet). He finished in 1863. By then Lander had died serving in the Civil War, and Bierstadt gave his name to the central summit."
+  },
+  {
+   "type": "text",
+   "text": "The result is staged like a theater set, in three layers from front to back. Each has its own lighting, and telling them apart is the quickest way to understand why the scene feels so grand."
+  },
+  {
+   "type": "lines",
+   "text": "Three zones, three kinds of light.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.79
+      ],
+      [
+       0.3,
+       0.78
+      ],
+      [
+       0.6,
+       0.79
+      ],
+      [
+       1.0,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "The shaded stage",
+     "text": "Everything below this line lies in soft shadow: meadow, horses, tipis, people. The camp is busy, but kept dim, like actors waiting in front of a lit backdrop."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.58
+      ],
+      [
+       0.69,
+       0.58
+      ],
+      [
+       0.69,
+       0.77
+      ],
+      [
+       0.5,
+       0.77
+      ]
+     ],
+     "closed": true,
+     "label": "The spotlight",
+     "text": "One patch of sun breaks through onto a waterfall and its reflection in the lake. It is the brightest spot in the picture and sits almost dead center. Your eye goes there first."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.2
+      ],
+      [
+       0.12,
+       0.25
+      ],
+      [
+       0.24,
+       0.22
+      ],
+      [
+       0.38,
+       0.33
+      ],
+      [
+       0.5,
+       0.28
+      ],
+      [
+       0.57,
+       0.11
+      ],
+      [
+       0.7,
+       0.2
+      ],
+      [
+       0.86,
+       0.24
+      ],
+      [
+       0.97,
+       0.17
+      ]
+     ],
+     "closed": false,
+     "label": "The veil",
+     "text": "The peaks are painted in pale blue and white, barely darker than the sky. Haze makes far things lighter, so this paleness reads as huge distance and height."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those mountains are where the report gets creative. The real Wind River peaks are impressive, but they do not spike into the sky like this. Bierstadt had hiked in the Swiss Alps as a student, and critics have long noticed how Alpine his Rockies look. He painted the West his audience hoped for."
+  },
+  {
+   "type": "key",
+   "text": "Bierstadt mixed facts gathered on the spot with scenery invented in the studio. The details, such as tipis, saddles and dogs, persuade you to believe the mountains."
+  },
+  {
+   "type": "text",
+   "text": "And the details are plentiful. He had sketches and photographs to work from, and he spread the camp across the whole lower third. It rewards slow wandering."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.87,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The gathering",
+     "text": "The largest group sits and stands in a ring near an open-sided lodge, in red, yellow and blue blankets. Bierstadt gives them bright color but no individual faces."
+    },
+    {
+     "x": 0.74,
+     "y": 0.95,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The hunt",
+     "text": "Animals from a hunt lie on the grass in front of the camp, with a small fire of crossed branches smoking to the right. Food is plentiful here, the picture says."
+    },
+    {
+     "x": 0.52,
+     "y": 0.84,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "The horse herd",
+     "text": "Riders and loose horses mill in the middle of the meadow, brown, white and spotted. Horses were the wealth of the Plains peoples, and he shows a lot of them."
+    },
+    {
+     "x": 0.34,
+     "y": 0.76,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Tipis under trees",
+     "text": "Cone-shaped lodges of hide stretched over poles stand in the shade of big cottonwood-like trees. More sit across the meadow to the right. It is a village, not a stopover."
+    },
+    {
+     "x": 0.6,
+     "y": 0.66,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The waterfall",
+     "text": "A white thread of water drops down a golden cliff straight into the lake, and its reflection continues it. This single vertical stroke pins the whole wide canvas."
+    },
+    {
+     "x": 0.57,
+     "y": 0.13,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "Lander's Peak",
+     "text": "The summit Bierstadt named for his expedition leader, glazed with snow and half dissolved in light. It rises higher and sharper than the real mountain does."
+    },
+    {
+     "x": 0.445,
+     "y": 0.885,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "A white dog",
+     "text": "A pale dog trots alone across the open grass. Small touches like this, far from the main groups, make the meadow feel deep and lived in.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "What you do not see is conflict. In 1863, wagon roads, settlers and soldiers were already pushing into Shoshone land. Bierstadt paints a calm, timeless morning instead. He himself wrote that he could imagine a great city rising one day on this plain. He admired the scene and also expected it to end."
+  },
+  {
+   "type": "fact",
+   "text": "In 1864 the painting was shown at a huge charity fair in New York, hung opposite Frederic Church's Heart of the Andes: north against south, Rockies against Andes. Newspapers treated it as a duel between the two most famous landscape painters in the country."
+  },
+  {
+   "type": "text",
+   "text": "Bierstadt was a shrewd showman. Like Church, he exhibited big pictures alone for an admission fee, sold engravings, and toured them to other cities. The next year a British railroad investor bought this one for $25,000, an astonishing price for an American painting."
+  },
+  {
+   "type": "text",
+   "text": "For all that showmanship, the picture has quiet corners. One odd object stands apart from the camp, closer to us, on the left side of the meadow, where the grass slopes down toward the rocks."
+  },
+  {
+   "type": "find",
+   "text": "Three poles lean together with a bundle hanging from the top, well away from the tipis. Can you find it?",
+   "spots": [
+    {
+     "x": 0.3,
+     "y": 0.87,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The tripod",
+     "text": "A frame of three poles holds something wrapped, lifted off the ground. Bierstadt sets it alone in the grass at the edge of the shadow, a still object on the way into the picture."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "It is placed a little like a painter's easel left in the field, a reminder that someone stood here once and looked. He then went home and made what he had seen bigger."
+  },
+  {
+   "type": "fact",
+   "text": "Fame did not last. By the 1880s critics called such giant canvases showy and old-fashioned. An American jury refused one of Bierstadt's late paintings for the 1889 world's fair in Paris, he later went bankrupt, and when he died in 1902 the art world barely noticed."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where did Bierstadt paint this canvas?",
+   "options": [
+    "Outdoors in Wyoming in 1859",
+    "In a New York studio, finishing in 1863",
+    "In Düsseldorf, from other artists' prints"
+   ],
+   "answer": 1,
+   "explanation": "He sketched in the West in 1859 and painted the big picture in New York."
+  },
+  {
+   "question": "Who was Lander, whose name the peak carries?",
+   "options": [
+    "The leader of the survey expedition Bierstadt joined",
+    "A Shoshone chief",
+    "The collector who bought the painting"
+   ],
+   "answer": 0,
+   "explanation": "Colonel Frederick Lander led the 1859 expedition and died in the Civil War."
+  },
+  {
+   "question": "What is the brightest spot in the painting?",
+   "options": [
+    "The campfire",
+    "The snow on the summit",
+    "The sunlit waterfall and its reflection"
+   ],
+   "answer": 2,
+   "explanation": "A patch of sun falls on the waterfall near the center."
+  },
+  {
+   "question": "Why do the mountains look so pale?",
+   "options": [
+    "Haze lightens distant things, so paleness suggests great distance",
+    "The paint has faded",
+    "They are covered entirely in snow"
+   ],
+   "answer": 0,
+   "explanation": "Painting far objects lighter and bluer makes them seem far away and high."
+  },
+  {
+   "question": "Which painting hung opposite this one at the 1864 fair in New York?",
+   "options": [
+    "Cole's The Voyage of Life",
+    "Church's Heart of the Andes",
+    "Church's Niagara"
+   ],
+   "answer": 1,
+   "explanation": "The two giant landscapes were shown face to face like rivals."
+  },
+  {
+   "question": "How do the painted peaks compare with the real Wind River range?",
+   "options": [
+    "They are an exact portrait",
+    "They are lower and rounder than the real ones",
+    "They are steeper and more Alpine than the real ones"
+   ],
+   "answer": 2,
+   "explanation": "Bierstadt exaggerated them, with the Swiss Alps in mind."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bierstadt carried a stereo camera on his 1859 trip west.",
+   "isTrue": true,
+   "explanation": "He brought back photographs that his brothers sold."
+  },
+  {
+   "text": "The Shoshone camp in the painting is shown in the middle of a battle.",
+   "isTrue": false,
+   "explanation": "The scene is peaceful; conflict is left out completely."
+  },
+  {
+   "text": "Bierstadt remained the most celebrated American painter until his death.",
+   "isTrue": false,
+   "explanation": "His style fell out of fashion, he went bankrupt, and he died largely forgotten in 1902."
+  }
+ ]
+}

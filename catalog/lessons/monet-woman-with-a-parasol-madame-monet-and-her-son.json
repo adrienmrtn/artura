@@ -1,0 +1,285 @@
+{
+ "teaser": "A wife, a son, a gust of wind: a family walk painted in what was probably a single sitting.",
+ "focus": [
+  0.57,
+  0.25
+ ],
+ "review_notes": "NGA states the work was probably painted outdoors in a single session of a few hours: check wording.\nShown at the second Impressionist exhibition (1876) under the title La Promenade: check.\nJean Monet born August 1867, so seven or just eight in summer 1875.\nCamille also posed for Renoir and Manet (e.g. Manet, The Monet Family in Their Garden at Argenteuil, 1874).\nGift of Mr. and Mrs. Paul Mellon to the NGA, 1983.\nThe 1886 pair with Suzanne Hoschedé is in the Musée d'Orsay.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas was never meant for a church, a palace or a grand staircase. It was made on a grassy slope near Argenteuil, a small town on the Seine a short train ride from Paris, where Claude Monet rented a house in the 1870s. The hillside was his studio that day."
+  },
+  {
+   "type": "text",
+   "text": "He stands below the path. Above him, his wife Camille turns as if he has just called her name. A little farther back, their son Jean, seven years old, waits with his hands in his pockets. Monet plants his easel in the grass and starts at once."
+  },
+  {
+   "type": "fact",
+   "text": "Painting on a windy hill was only practical thanks to a recent invention: the collapsible metal paint tube, patented in 1841 by the American painter John Goffe Rand. Before that, oil colors were kept in pig bladders that dried out and burst."
+  },
+  {
+   "type": "text",
+   "text": "Speed was the whole point. Sun, cloud and wind would not hold still, so Monet could not either. Specialists believe he finished the picture in one outdoor session of a few hours. The proof is on the surface, where almost every stroke is still readable."
+  },
+  {
+   "type": "tour",
+   "title": "Fast hands",
+   "text": "Three places where you can watch the brush move.",
+   "spots": [
+    {
+     "x": 0.59,
+     "y": 0.2,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "A face behind a veil",
+     "text": "Camille's features are a few soft touches. Gray strokes sweep across them: a veil lifted by the wind. Monet paints the air in front of her face rather than the face itself."
+    },
+    {
+     "x": 0.6,
+     "y": 0.52,
+     "zoom": 2.0,
+     "r": 0.2,
+     "title": "The skirt",
+     "text": "The white dress is hardly white. Blue and lilac fill the shadows, and pale yellow catches the light. The strokes spiral with the cloth as it twists around her legs."
+    },
+    {
+     "x": 0.22,
+     "y": 0.3,
+     "zoom": 2.0,
+     "r": 0.2,
+     "title": "The clouds",
+     "text": "Thick white paint dragged quickly over blue. In places the bare, beige canvas shows through. Monet did not go back to tidy it up."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Did you see how little is drawn? No outline separates Camille from the sky. She is built from patches of color, the same way the clouds are. That is the core of Impressionism: paint what the eye receives in a moment, not what the mind knows is there."
+  },
+  {
+   "type": "text",
+   "text": "Now think about where Monet is standing. A portrait painter would usually face the sitter at eye level, in steady studio light. Here everything is tilted, and the sun is in the wrong place."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines that explain why this walk feels so airy.",
+   "lines": [
+    {
+     "points": [
+      [
+       0,
+       0.67
+      ],
+      [
+       0.45,
+       0.7
+      ],
+      [
+       1,
+       0.71
+      ]
+     ],
+     "closed": false,
+     "label": "The ridge",
+     "text": "The top of the slope sits low in the picture. Monet looks up from below, so Camille rises against open sky like a statue on a base."
+    },
+    {
+     "points": [
+      [
+       0.9,
+       0.08
+      ],
+      [
+       0.72,
+       0.3
+      ],
+      [
+       0.62,
+       0.45
+      ]
+     ],
+     "closed": false,
+     "label": "Sunlight from behind",
+     "text": "The sun is behind her, to the right. Her back glows almost yellow, while her front and face stay in cool shade. Painters call this contre-jour, French for against the daylight."
+    },
+    {
+     "points": [
+      [
+       0.6,
+       0.68
+      ],
+      [
+       0.48,
+       0.76
+      ],
+      [
+       0.35,
+       0.86
+      ]
+     ],
+     "closed": false,
+     "label": "The shadow",
+     "text": "Her shadow runs down the grass toward you in dark greens and deep reds. It ties the floating figure to the ground and tells you where you are standing."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Monet turns the rules of portraiture upside down: the light comes from behind, the viewpoint is from below, and the weather matters as much as the people."
+  },
+  {
+   "type": "fact",
+   "text": "Camille Doncieux was one of the most painted women of her time. Besides posing for her husband dozens of times, she also sat for his friends Auguste Renoir and Édouard Manet."
+  },
+  {
+   "type": "text",
+   "text": "The parasol does more than keep off the sun. It works like a second light source. Sunshine passes through the fabric and bounces back from the meadow, and both tint whatever they touch."
+  },
+  {
+   "type": "find",
+   "text": "Somewhere on Camille, the color of the grass has landed on her white clothes. Tap the spot.",
+   "spots": [
+    {
+     "x": 0.58,
+     "y": 0.38,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Reflected meadow",
+     "text": "A wash of yellow-green glows on her sleeve and the front of her jacket. It is light thrown up from the sunlit grass and flowers below, something Monet could only notice outdoors."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "This idea, that shadows and whites are full of borrowed color, shocked viewers used to brown and gray shading. For Monet it was simply what he saw. A white dress in a field is never just white."
+  },
+  {
+   "type": "text",
+   "text": "In 1876 the picture hung in the second exhibition of the group soon to be called the Impressionists, held in the Paris gallery of the dealer Paul Durand-Ruel. At 100 by 81 centimeters (about 39 by 32 inches), it was unusually large for a work that looked so much like a sketch."
+  },
+  {
+   "type": "fact",
+   "text": "The painting crossed the Atlantic in the twentieth century and belonged to the American collector Paul Mellon and his wife, who gave it to the National Gallery of Art in Washington in 1983."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.14,
+     "zoom": 2.2,
+     "r": 0.2,
+     "title": "The parasol",
+     "text": "Green underneath, edged with a bright white rim where the sun hits the top. Its handle slants across the sky and points straight down to her hand."
+    },
+    {
+     "x": 0.275,
+     "y": 0.585,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "Jean",
+     "text": "A red-banded straw hat, round cheeks, two dots for eyes. He is cut off at the waist by the hill, which tells you the ground drops away behind the ridge.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.63,
+     "y": 0.66,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Wildflowers",
+     "text": "Dabs of pure yellow, each one a single touch of the brush. Some overlap the hem of the dress, pushing Camille back into the grass."
+    },
+    {
+     "x": 0.5,
+     "y": 0.8,
+     "zoom": 2,
+     "r": 0.2,
+     "title": "The grass",
+     "text": "Short, slashing strokes in every direction, in green, ocher, red and violet. The wind is painted as movement of the brush."
+    },
+    {
+     "x": 0.9,
+     "y": 0.965,
+     "zoom": 3.5,
+     "r": 0.1,
+     "title": "Signature",
+     "text": "“Claude Monet 75” in dark blue. He signed and dated it, a sign that he considered this quick work finished."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Four years after this walk, Camille died at thirty-two. In 1886 Monet painted the scene again, twice, with his stepdaughter Suzanne holding the parasol on a similar slope. In those later pictures the woman's face is left almost blank. Many viewers read them as a memory of this afternoon."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where was this picture painted?",
+   "options": [
+    "In Monet's Paris studio",
+    "Outdoors on a slope near Argenteuil",
+    "In the garden at Giverny"
+   ],
+   "answer": 1,
+   "explanation": "Monet set up his easel on a grassy hillside near Argenteuil."
+  },
+  {
+   "question": "What does contre-jour mean?",
+   "options": [
+    "Painting against the daylight, with the sun behind the subject",
+    "Painting by candlelight",
+    "Painting from memory"
+   ],
+   "answer": 0,
+   "explanation": "The sun is behind Camille, so her front is in cool shade."
+  },
+  {
+   "question": "Why is there yellow-green on Camille's white jacket?",
+   "options": [
+    "The paint has aged",
+    "She is wearing a green scarf",
+    "Light reflects up from the sunlit grass"
+   ],
+   "answer": 2,
+   "explanation": "Monet painted the color the meadow throws back onto the white cloth."
+  },
+  {
+   "question": "What invention made painting in oils outdoors practical?",
+   "options": [
+    "The collapsible metal paint tube",
+    "The folding parasol",
+    "The camera"
+   ],
+   "answer": 0,
+   "explanation": "Tubes patented in 1841 replaced fragile pig bladders."
+  },
+  {
+   "question": "Who holds the parasol in the versions Monet painted in 1886?",
+   "options": [
+    "Camille again",
+    "His stepdaughter Suzanne",
+    "His son Jean"
+   ],
+   "answer": 1,
+   "explanation": "Camille had died in 1879, and Suzanne posed for the later pictures."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Monet places the horizon low so that Camille stands out against the sky.",
+   "isTrue": true,
+   "explanation": "He looks up at her from below the ridge."
+  },
+  {
+   "text": "Camille's face is painted in sharp, careful detail.",
+   "isTrue": false,
+   "explanation": "It is a few soft touches crossed by the strokes of a windblown veil."
+  },
+  {
+   "text": "The painting was shown at the second Impressionist exhibition in 1876.",
+   "isTrue": true,
+   "explanation": "It hung in Durand-Ruel's Paris gallery that year."
+  }
+ ]
+}

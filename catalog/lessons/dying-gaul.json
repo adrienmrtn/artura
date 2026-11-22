@@ -1,0 +1,168 @@
+{
+ "teaser": "For 200 years the label said “gladiator.” A necklace and a haircut prove the label wrong.",
+ "focus": [
+  0.24,
+  0.2
+ ],
+ "review_notes": "Attribution of the lost bronze original to Epigonos, court sculptor at Pergamon, is traditional but uncertain; lesson avoids naming him.\nFirst recorded in the Ludovisi collection inventory in 1623; exact find circumstances unknown.\nPurchase by Pope Clement XII for the Capitoline in 1737: to verify.\nLoan to the National Gallery of Art, Washington, December 2013 to March 2014, described as its first trip out of Italy since its return from Paris in 1816.\nThe chest wound is on the figure's right side and is NOT visible from the angle of this photo; no spot points at it.\nSpot 'Sword' at lower left of the base and the horn across the shield are identified from a small image (960 px): please check placement.\nMetadata year -220 is the date of the lost bronze; the marble is a Roman copy, usually dated 1st or 2nd century AD.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "200. That is roughly how many years this statue spent under the wrong name. From its first appearance in a Roman collection in 1623 until scholars looked harder in the 1800s, guidebooks called it the Dying Gladiator. Poets wept over a man killed in the arena for sport. They were weeping over someone else."
+  },
+  {
+   "type": "text",
+   "text": "The evidence was on the statue the entire time. No Roman gladiator looked like this. To find out who he really is, you only need to check three things on his head and neck."
+  },
+  {
+   "type": "tour",
+   "title": "Who is he?",
+   "text": "Three clues, all within a hand's width of each other.",
+   "spots": [
+    {
+     "x": 0.275,
+     "y": 0.165,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The neck ring",
+     "text": "A thick twisted band, open at the front. It is a torque, the metal collar worn by Celtic warriors and nobles. Romans took them from the enemy dead as trophies."
+    },
+    {
+     "x": 0.185,
+     "y": 0.115,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The hair",
+     "text": "Stiff, clumped locks that stand away from the skull. Ancient writers say the Gauls washed their hair with lime water until it grew thick and coarse as a horse's mane."
+    },
+    {
+     "x": 0.215,
+     "y": 0.17,
+     "zoom": 4.2,
+     "r": 0.045,
+     "title": "The moustache",
+     "text": "A moustache without a beard. Greeks and Romans almost never wore one. Ancient authors describe it as the fashion of Gallic noblemen."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "He is a Gaul, then: one of the Celtic peoples who pushed into Greece and what is now Turkey in the 200s BC. Around 230 BC, King Attalus I of Pergamon, a wealthy Greek city in Asia Minor, defeated them. He celebrated with a monument of bronze figures showing the beaten enemy. This warrior was one of them."
+  },
+  {
+   "type": "fact",
+   "text": "The bronze original is lost, probably melted down for its metal like most ancient bronzes. What survives is a marble copy made for a Roman owner. One theory holds that it was ordered to celebrate Rome's own wars against the Gauls."
+  },
+  {
+   "type": "text",
+   "text": "Here is the strange part. This is a victory monument with no victor in it. No Greek soldier stands over him. The sculptor shows only the loser, and gives him a strong body, a serious face and enough strength to hold himself off the ground for one more moment. The message to a Greek viewer was sly: see how formidable the enemy was that we defeated."
+  },
+  {
+   "type": "key",
+   "text": "The Dying Gaul praises the winner by honoring the loser. It is one of the earliest works in Western art to ask you to feel for a defeated enemy."
+  },
+  {
+   "type": "text",
+   "text": "His nudity is not artistic convention alone. Greek and Roman historians report that some Gallic warriors really did charge into battle wearing nothing but their weapons and a torque, to terrify the other side. Now see what the sculptor has laid around him on the ground."
+  },
+  {
+   "type": "find",
+   "text": "He is sitting on his own shield. Lying across it is a broken, curved war trumpet. Where is it?",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.755,
+     "zoom": 2.6,
+     "r": 0.13,
+     "title": "The horn",
+     "text": "A long tube curving across the oval shield, snapped in pieces. The signal that called his people into battle is silent. On the far left edge of the base, near his knee, lies his sword."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Shield, trumpet, sword: all dropped. One arm still props him up, and you sense it is about to give. A single sword cut in the right side of his chest, hidden from this angle, is the only wound. The sculptor did not need more. The whole body slopes down toward the left, toward the ground he is studying so intently."
+  },
+  {
+   "type": "fact",
+   "text": "Lord Byron saw the statue in Rome and put it in a best-selling poem of 1818, still believing it showed a gladiator. His line about a man “butchered to make a Roman holiday” gave English a lasting expression."
+  },
+  {
+   "type": "text",
+   "text": "Napoleon's army carried the statue off to Paris in 1797, and it came home to Rome in 1816. Then it stayed put for almost two centuries."
+  },
+  {
+   "type": "fact",
+   "text": "In late 2013 it crossed the Atlantic for an exhibition at the National Gallery of Art in Washington. It was the statue's first journey outside Italy since its return from France. The gladiator label, by then, was long gone."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was this statue wrongly called for about two centuries?",
+   "options": [
+    "The Wounded Greek",
+    "The Dying Gladiator",
+    "The Sleeping Soldier"
+   ],
+   "answer": 1,
+   "explanation": "It was known as the Dying Gladiator until the Celtic details were recognized."
+  },
+  {
+   "question": "Which object around his neck identifies him as a Celt?",
+   "options": [
+    "A torque, a twisted metal collar",
+    "A leather strap for a shield",
+    "A laurel wreath"
+   ],
+   "answer": 0,
+   "explanation": "The torque was the typical neck ring of Celtic warriors."
+  },
+  {
+   "question": "Who commissioned the lost bronze original?",
+   "options": [
+    "Julius Caesar",
+    "Napoleon",
+    "King Attalus I of Pergamon"
+   ],
+   "answer": 2,
+   "explanation": "Attalus I ordered it after defeating the Gauls around 230 BC."
+  },
+  {
+   "question": "What is unusual about this victory monument?",
+   "options": [
+    "It was made of gold",
+    "It shows only the defeated enemy, with dignity",
+    "It includes the sculptor's portrait"
+   ],
+   "answer": 1,
+   "explanation": "No victor appears: the loser alone is shown, strong and noble."
+  },
+  {
+   "question": "What lies broken across his shield?",
+   "options": [
+    "A curved war trumpet",
+    "A spear",
+    "A helmet"
+   ],
+   "answer": 0,
+   "explanation": "A snapped horn lies across the oval shield he sits on."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The statue in Rome is the original bronze from Pergamon.",
+   "isTrue": false,
+   "explanation": "The bronze is lost; this is a Roman marble copy."
+  },
+  {
+   "text": "Ancient writers describe Gauls stiffening their hair with lime water.",
+   "isTrue": true,
+   "explanation": "That is why his hair is carved in thick, coarse clumps."
+  },
+  {
+   "text": "Byron's phrase “butchered to make a Roman holiday” was written about this statue.",
+   "isTrue": true,
+   "explanation": "Byron described it in 1818, believing it showed a gladiator."
+  }
+ ]
+}

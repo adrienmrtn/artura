@@ -1,0 +1,363 @@
+{
+  "teaser": "Two saints came down to bury a generous man. Toledo's gentlemen barely blinked.",
+  "focus": [
+    0.45,
+    0.72
+  ],
+  "review_notes": "Death year of Gonzalo Ruiz de Toledo given as 1323 (some sources say 1312).\nTitle of count granted to the family only in the 1500s (usually dated 1522).\nFee dispute: first appraisal 1,200 ducats, second appraisal 1,600, El Greco finally accepted 1,200. Check figures.\nThe frontal face above the saints is traditionally, not documentarily, identified as El Greco's self-portrait.\nBoy identified as Jorge Manuel (born 1578); the date 1578 on the handkerchief is read as his birth year.\nHarp player in the upper left read as King David; Philip II said to be among the blessed (left out of the text, only 'the blessed' mentioned).\nDimensions about 4.8 x 3.6 m.\nPicasso's interest in El Greco: stated generally, no specific work cited.",
+  "lesson": [
+    {
+      "type": "text",
+      "text": "In Toledo they tell this story. In 1323 a nobleman named Gonzalo Ruiz died. He had been generous to the poor and to his parish church, Santo Tomé. At his funeral, two saints came down from heaven, lifted the body with their own hands, and laid it in the tomb. Then they vanished."
+    },
+    {
+      "type": "text",
+      "text": "More than 250 years later, the priest of Santo Tomé had a problem. The lord had ordered his town, Orgaz, to give money and food to the church every year, forever. The townspeople had stopped paying. The priest went to court, won, and decided to celebrate with a painting above the tomb. He asked a parishioner: a Greek painter the locals called El Greco."
+    },
+    {
+      "type": "fact",
+      "text": "The “Count” of Orgaz was never a count. Gonzalo Ruiz was lord of the town. His family only received the title about two centuries after his death, and the painting's name promoted him after the fact."
+    },
+    {
+      "type": "text",
+      "text": "The canvas is enormous: about 4.8 meters high and 3.6 wide (roughly 16 by 12 feet), rounded at the top to fit the chapel wall. El Greco had to show a funeral on earth and a welcome in heaven at once. So he cut the picture in two. Where exactly does one world stop and the other begin?"
+    },
+    {
+      "type": "lines",
+      "text": "Three lines hold this crowded picture together.",
+      "lines": [
+        {
+          "points": [
+            [
+              0.02,
+              0.57
+            ],
+            [
+              0.98,
+              0.57
+            ]
+          ],
+          "closed": false,
+          "label": "The frontier",
+          "text": "A row of heads runs from edge to edge like a fence. Below it: black clothes, real faces, weight. Above it: clouds that look like ice, and bodies that float."
+        },
+        {
+          "points": [
+            [
+              0.52,
+              0.77
+            ],
+            [
+              0.44,
+              0.42
+            ],
+            [
+              0.47,
+              0.06
+            ]
+          ],
+          "closed": false,
+          "label": "The way up",
+          "text": "From the dead man's face, the path climbs through an angel in the clouds and ends at Christ, in white, at the very top. The whole painting is a route for one soul."
+        },
+        {
+          "points": [
+            [
+              0.47,
+              0.03
+            ],
+            [
+              0.36,
+              0.25
+            ],
+            [
+              0.57,
+              0.25
+            ]
+          ],
+          "closed": true,
+          "label": "The court",
+          "text": "Christ, Mary on the left, John the Baptist on the right. Together they form a triangle: a judge and two people pleading for the newcomer."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Start at the bottom, where the miracle happens. The priest's contract was precise: it asked for the two saints holding the body, and for people watching. El Greco painted this lower half so that you could almost touch it. Gold thread, cold steel, lace."
+    },
+    {
+      "type": "tour",
+      "title": "The miracle",
+      "text": "Four stops around the body, from left to right and down.",
+      "spots": [
+        {
+          "x": 0.35,
+          "y": 0.705,
+          "zoom": 3.5,
+          "r": 0.06,
+          "title": "Saint Stephen",
+          "text": "The young one. He holds the legs. He wears a dalmatic, the stiff golden robe of a deacon, a church assistant. His face is calm, almost tender."
+        },
+        {
+          "x": 0.48,
+          "y": 0.69,
+          "zoom": 3.2,
+          "r": 0.07,
+          "title": "Saint Augustine",
+          "text": "The old one, with a white beard and a bishop's pointed hat, called a miter. He takes the shoulders. Two saints from two different centuries, working as pallbearers."
+        },
+        {
+          "x": 0.5,
+          "y": 0.79,
+          "zoom": 2.8,
+          "r": 0.09,
+          "title": "The dead lord",
+          "text": "His face is gray, his body bends like a bow. He is buried in black armor that shines like a mirror. Painting polished metal was a way for an artist to show off, and El Greco does."
+        },
+        {
+          "x": 0.29,
+          "y": 0.955,
+          "zoom": 4,
+          "r": 0.06,
+          "title": "A picture in the picture",
+          "text": "On the hem of Stephen's robe, the embroidery shows men throwing stones at a kneeling figure. It is Stephen's own death. The saint wears his story on his clothes."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Now the men in black. The funeral took place in 1323, yet nobody here is dressed for 1323. The white ruffs, the pointed beards, the red crosses of a knightly order: this is Toledo in the 1580s. El Greco filled the miracle with portraits of his neighbors, as if it had happened last week."
+    },
+    {
+      "type": "fact",
+      "text": "When the painting was done, the priest found the price too high and asked for a second valuation. The new experts set it even higher. After a long quarrel, El Greco settled for the first figure: 1,200 ducats. He argued about money over nearly every big commission of his life."
+    },
+    {
+      "type": "text",
+      "text": "Almost all of these gentlemen look sideways, or down, or inward. They attend a miracle the way you attend a meeting. But one of them does something different, and once you catch it you cannot unsee it."
+    },
+    {
+      "type": "find",
+      "text": "One man in the row of mourners looks straight at you. Where is he?",
+      "spots": [
+        {
+          "x": 0.45,
+          "y": 0.58,
+          "zoom": 4,
+          "r": 0.04,
+          "title": "The man who sees you",
+          "text": "Just above the two saints, a face turned fully to the front, eyes on yours. A painter who puts himself in a crowd usually looks out like this, because he worked from a mirror."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Many historians think that this face is El Greco himself. No document proves it. One family member, however, is certain, and he stands much lower, at the left edge, far too young for this company."
+    },
+    {
+      "type": "tour",
+      "title": "The boy",
+      "text": "A child in black is the only person here whose job is to talk to you.",
+      "spots": [
+        {
+          "x": 0.175,
+          "y": 0.79,
+          "zoom": 4,
+          "r": 0.05,
+          "title": "Jorge Manuel",
+          "text": "This is El Greco's son, about eight years old. Like the man above, he looks out of the picture. He is your guide."
+        },
+        {
+          "x": 0.267,
+          "y": 0.842,
+          "zoom": 4,
+          "r": 0.04,
+          "shape": "arrow",
+          "title": "His finger",
+          "text": "His left hand points at the miracle, toward the embroidered rose on Stephen's sleeve. The message is simple: this is what you should be looking at."
+        },
+        {
+          "x": 0.188,
+          "y": 0.914,
+          "zoom": 5,
+          "r": 0.035,
+          "title": "The handkerchief",
+          "text": "A white cloth sticks out of his pocket. On it El Greco signed in Greek letters and wrote 1578. That is not the year of the painting. It is the year the boy was born."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A signature in Greek, in the middle of Spain. El Greco was born Domenikos Theotokopoulos on the island of Crete, where he learned to paint icons, the gold-backed holy images of the Eastern church. He moved to Venice, then to Rome, and reached Toledo around 1577. He never left, and he never stopped signing in Greek."
+    },
+    {
+      "type": "key",
+      "text": "El Greco is the great name of Mannerism in Spain: a style that stretches bodies, twists poses and uses strange, cold colors, because feeling matters more than copying nature."
+    },
+    {
+      "type": "text",
+      "text": "That style takes over as soon as you cross the frontier of heads. Upstairs, nothing obeys the rules of downstairs. Limbs grow too long. Yellow turns sour, blue turns electric. There is no sky and no ground, only folds of cloud. Wander around heaven and compare it with the solid men below."
+    },
+    {
+      "type": "explore",
+      "spots": [
+        {
+          "x": 0.44,
+          "y": 0.41,
+          "zoom": 3,
+          "r": 0.07,
+          "title": "The soul",
+          "text": "A blond angel pushes a pale, misty shape up through a narrow gap in the clouds. It is the dead man's soul, shown small and soft like a newborn. Dying, here, looks like being born."
+        },
+        {
+          "x": 0.375,
+          "y": 0.2,
+          "zoom": 2.6,
+          "r": 0.08,
+          "title": "Mary",
+          "text": "In red and blue, she leans down with an open hand, ready to receive the soul. Her eyes are lowered toward the angel climbing up to her."
+        },
+        {
+          "x": 0.55,
+          "y": 0.21,
+          "zoom": 2.6,
+          "r": 0.08,
+          "title": "John the Baptist",
+          "text": "Thin, half naked, kneeling on a cloud. His body is far too long to be real. He pleads with Christ on behalf of the newcomer."
+        },
+        {
+          "x": 0.237,
+          "y": 0.254,
+          "zoom": 4.5,
+          "r": 0.035,
+          "title": "The keys",
+          "text": "Two keys dangle from the hand of an old man in yellow. He is Saint Peter, keeper of the gates of heaven. They hang right above the mourners, almost within reach."
+        },
+        {
+          "x": 0.47,
+          "y": 0.06,
+          "zoom": 2.8,
+          "r": 0.08,
+          "title": "Christ",
+          "text": "The brightest spot of the canvas. His white robe is the source of light for everything above the clouds. His arm reaches down to the left, toward Peter and his keys."
+        },
+        {
+          "x": 0.74,
+          "y": 0.15,
+          "zoom": 2.5,
+          "r": 0.1,
+          "title": "The blessed",
+          "text": "A packed crowd of profiles, all turned toward Christ. Heaven has its own audience, a mirror of the row of gentlemen below."
+        },
+        {
+          "x": 0.05,
+          "y": 0.36,
+          "zoom": 3.5,
+          "r": 0.06,
+          "title": "The harp",
+          "text": "At the far left edge, a figure holds a harp. He is usually read as King David, the musician king of the Bible."
+        },
+        {
+          "x": 0.8,
+          "y": 0.68,
+          "zoom": 2.2,
+          "r": 0.1,
+          "shape": "rect",
+          "title": "The priest in white",
+          "text": "Back on earth: a priest in a see-through white tunic turns his back to you and tilts his head up. Among all the men below, he is one of the very few who notice that the sky has opened."
+        }
+      ]
+    },
+    {
+      "type": "fact",
+      "text": "The painting has never moved. It still hangs in Santo Tomé, on the wall it was made for, directly above the lord's real tomb. Stand in front of it and the saints seem to lower the body out of the canvas and into the stone beneath."
+    },
+    {
+      "type": "text",
+      "text": "After El Greco died in 1614, taste changed, and for almost three centuries his long bodies and sour colors were treated as mistakes, even as signs of bad eyesight. Around 1900, young painters saw something else: an artist who bent reality on purpose. Picasso studied him closely."
+    },
+    {
+      "type": "key",
+      "text": "A local legend, a lawsuit and a row of neighbors: El Greco turned a parish matter into a picture of two worlds, and let a child show you the door between them."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "According to the legend, who buried the lord of Orgaz?",
+      "options": [
+        "His two sons",
+        "Two saints who came down from heaven",
+        "The king of Castile"
+      ],
+      "answer": 1,
+      "explanation": "Saint Stephen and Saint Augustine are said to have laid him in the tomb themselves."
+    },
+    {
+      "question": "Why did the priest of Santo Tomé order the painting?",
+      "options": [
+        "He had just won a lawsuit over the lord's yearly gift to the church",
+        "The king asked him to",
+        "The old painting had burned"
+      ],
+      "answer": 0,
+      "explanation": "The town of Orgaz had stopped paying, the priest sued, won, and celebrated."
+    },
+    {
+      "question": "What is written on the boy's handkerchief?",
+      "options": [
+        "A prayer in Latin",
+        "The price of the painting",
+        "El Greco's signature in Greek and the year 1578"
+      ],
+      "answer": 2,
+      "explanation": "1578 is the year his son Jorge Manuel was born."
+    },
+    {
+      "question": "How is the dead man's soul shown?",
+      "options": [
+        "As a white dove",
+        "As a small misty shape carried up by an angel",
+        "As a flame above his head"
+      ],
+      "answer": 1,
+      "explanation": "An angel pushes it through a gap in the clouds, like a newborn."
+    },
+    {
+      "question": "The mourners in black are dressed in the fashion of which time?",
+      "options": [
+        "The 1320s, when the lord died",
+        "Ancient Rome",
+        "The 1580s, El Greco's own time"
+      ],
+      "answer": 2,
+      "explanation": "El Greco painted portraits of his Toledo contemporaries."
+    },
+    {
+      "question": "Which words best describe Mannerism?",
+      "options": [
+        "Stretched bodies and strange colors",
+        "Exact copies of nature",
+        "Flat gold backgrounds only"
+      ],
+      "answer": 0,
+      "explanation": "The style prefers feeling and elegance to faithful imitation."
+    }
+  ],
+  "facts": [
+    {
+      "text": "The painting still hangs in the church it was made for, above the real tomb.",
+      "isTrue": true,
+      "explanation": "It has never left Santo Tomé in Toledo."
+    },
+    {
+      "text": "El Greco was born in Toledo and signed his works in Spanish.",
+      "isTrue": false,
+      "explanation": "He was born on Crete and signed in Greek all his life."
+    },
+    {
+      "text": "Gonzalo Ruiz held the title of count during his lifetime.",
+      "isTrue": false,
+      "explanation": "He was lord of Orgaz; the family became counts about two centuries later."
+    }
+  ]
+}

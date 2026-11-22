@@ -1,0 +1,256 @@
+{
+ "teaser": "Nude bathers by a river, and behind them, factory chimneys. Cubism meets the suburbs.",
+ "focus": [
+  0.45,
+  0.62
+ ],
+ "review_notes": "Dimensions given as 105 x 171 cm.\nClaim that Gleizes sat on the 1912 Indépendants hanging committee that asked Duchamp to withdraw Nude Descending a Staircase.\nClaim that the City of Paris museum acquired the painting in 1937.\nReading of the setting as the Seine near Courbevoie, where Gleizes lived.\nGleizes's early work in his father's fabric design workshop.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is 105 centimeters high and 171 wide, about 3.5 by 5.5 feet. That is the format of a wide window, and Albert Gleizes uses it the way a landscape painter would: to take in a whole valley. Only this valley has been cut into facets, like a crystal turned in the light."
+  },
+  {
+   "type": "text",
+   "text": "The subject could hardly be older. Nude women by the water have filled European painting since the Renaissance, usually as nymphs or goddesses in a timeless countryside. Gleizes keeps the nudes and the river. What he changes is the countryside, and you can see how by sorting the picture into layers."
+  },
+  {
+   "type": "lines",
+   "text": "The scene is stacked in three horizontal bands, each with its own world.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.92
+      ],
+      [
+       0.27,
+       0.7
+      ],
+      [
+       0.55,
+       0.72
+      ],
+      [
+       0.8,
+       0.8
+      ],
+      [
+       1.0,
+       0.85
+      ]
+     ],
+     "closed": false,
+     "label": "The water's edge",
+     "text": "Along the bottom, the river and its rocky bank. All the bathers stay in this band, small and pale against the stone."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.42
+      ],
+      [
+       0.3,
+       0.36
+      ],
+      [
+       0.55,
+       0.4
+      ],
+      [
+       0.8,
+       0.33
+      ],
+      [
+       1.0,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The hills",
+     "text": "Above them, slopes, trees and red roofs are folded into angled planes. Nothing is drawn round if it can be drawn with an edge."
+    },
+    {
+     "points": [
+      [
+       0.36,
+       0.12
+      ],
+      [
+       0.55,
+       0.05
+      ],
+      [
+       0.72,
+       0.05
+      ],
+      [
+       0.8,
+       0.1
+      ]
+     ],
+     "closed": false,
+     "label": "The sky",
+     "text": "At the top, the curls are not all clouds. Some of them rise from something very un-pastoral."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those curls are smoke. The setting is thought to be the Seine near Courbevoie, the suburb west of Paris where Gleizes lived, a place where villages and factories shared the same riverbank. He paints an ancient theme in a landscape that was being built that very decade."
+  },
+  {
+   "type": "find",
+   "text": "Where does the smoke come from? Find the factory chimneys.",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.19,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The smokestacks",
+     "text": "Two thin dark chimneys stand among the houses, and their smoke rolls up into spirals. Gleizes gives the factory the same calm weight as the trees. It belongs to the view."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gleizes never went to art school. As a teenager he worked in his father's fabric design workshop in Paris, and he taught himself to paint on the side."
+  },
+  {
+   "type": "text",
+   "text": "Now compare how the bodies and the land are made. In older pictures a soft nude stands out against a soft landscape. Here both are built from the same hard, tilted planes, in the same ochres, pinks and grays. Figure and ground are made of one material."
+  },
+  {
+   "type": "tour",
+   "title": "One fabric",
+   "text": "Follow the bathers across the bank and watch them merge with the rocks.",
+   "spots": [
+    {
+     "x": 0.43,
+     "y": 0.64,
+     "zoom": 2.4,
+     "r": 0.09,
+     "title": "The standing bather",
+     "text": "She bends forward, one arm stretched out. Her back and thigh are flat planes of cream and pink, cut by straight edges, exactly like the boulders beside her.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.67,
+     "y": 0.52,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "Arms raised",
+     "text": "This woman lifts her arms to her hair, a pose borrowed from centuries of bathers. The white cloth below her breaks into triangles."
+    },
+    {
+     "x": 0.84,
+     "y": 0.68,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Seated at the right",
+     "text": "A figure reclines by the water, and her reflection trembles below. Body, bank and river share the same warm browns."
+    },
+    {
+     "x": 0.12,
+     "y": 0.82,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Lying in the corner",
+     "text": "Easy to miss: a bather stretched out at lower left, almost dissolved into the blue-gray shore. Just under her, the artist signed and dated the canvas 1912."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "This is not the Cubism of Picasso and Braque, who at that time painted small, nearly colorless still lifes and showed them in a private gallery. Gleizes and his friends showed big, readable subjects at the public Salons, the huge annual exhibitions in Paris. For most Parisians in 1912, Cubism looked like this."
+  },
+  {
+   "type": "fact",
+   "text": "Les Baigneuses hung at the Salon des Indépendants of 1912. Gleizes helped hang that show, and his group asked a young painter to pull a canvas they found too provocative: Marcel Duchamp's Nude Descending a Staircase."
+  },
+  {
+   "type": "text",
+   "text": "A few months later, Gleizes and the painter Jean Metzinger published Du “Cubisme”, the first book ever written to explain the movement. They argued that a painter may move around an object and combine several views of it. Les Baigneuses was one of the pictures reproduced in its pages."
+  },
+  {
+   "type": "key",
+   "text": "Gleizes took the oldest subject in the studio and set it in the industrial suburb, building bodies, hills and smoke from the same angled planes."
+  },
+  {
+   "type": "text",
+   "text": "Think back to those two chimneys. In 1912 they were a sign that the old harmony between people and nature could include the modern world. More than a century later, would you still call that an idyll?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What rises above the village in Les Baigneuses?",
+   "options": [
+    "Smoke from factory chimneys",
+    "A hot-air balloon",
+    "A flock of birds"
+   ],
+   "answer": 0,
+   "explanation": "Two smokestacks send spirals of smoke into the sky."
+  },
+  {
+   "question": "How are the bathers painted compared with the landscape?",
+   "options": [
+    "Soft and round against sharp rocks",
+    "With the same angled planes and colors as the land",
+    "In bright colors against a gray background"
+   ],
+   "answer": 1,
+   "explanation": "Gleizes builds figures and ground from the same tilted planes and warm tones."
+  },
+  {
+   "question": "What is Du “Cubisme”?",
+   "options": [
+    "A Paris gallery",
+    "A satirical newspaper",
+    "The first book explaining Cubism, co-written by Gleizes"
+   ],
+   "answer": 2,
+   "explanation": "Gleizes and Jean Metzinger published it in 1912."
+  },
+  {
+   "question": "Where did Gleizes and his friends show their Cubist pictures?",
+   "options": [
+    "Only in a private gallery",
+    "At the large public Salons",
+    "In churches"
+   ],
+   "answer": 1,
+   "explanation": "Unlike Picasso and Braque, they exhibited at the public Salons in Paris."
+  },
+  {
+   "question": "Where is the signature and date of the painting?",
+   "options": [
+    "At lower left, under a lying bather",
+    "In the sky",
+    "On a factory wall"
+   ],
+   "answer": 0,
+   "explanation": "The lower left corner carries the name and the date 1912."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Gleizes trained for years at the official art school in Paris.",
+   "isTrue": false,
+   "explanation": "He was self-taught and worked in his father's fabric design workshop."
+  },
+  {
+   "text": "The bathers share their landscape with factory chimneys.",
+   "isTrue": true,
+   "explanation": "Two smokestacks stand among the houses on the hill."
+  },
+  {
+   "text": "Picasso and Braque were showing large Cubist nudes at the public Salons in 1912.",
+   "isTrue": false,
+   "explanation": "They painted small, nearly colorless still lifes and showed them in a private gallery."
+  }
+ ]
+}

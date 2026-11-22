@@ -1,0 +1,248 @@
+{
+ "teaser": "The star of the show is on this poster. The artist cut off her head.",
+ "focus": [
+  0.5,
+  0.3
+ ],
+ "review_notes": "Kimono-clad waitresses and Japanese decor at the Divan Japonais: reported in most accounts, worth a check.\nCommission by Édouard Fournier in 1892, printed for early 1893: date sometimes given as 1892-93.\nGuilbert's plea to Lautrec not to make her 'so ugly' dates from 1894 (album project), paraphrased here.\nSheet size approx. 81 x 61 cm (Met impression).\nClaim that 75 rue des Martyrs is still a performance venue today (Divan du Monde / Madame Arthur).\nIdentification of the man as Édouard Dujardin is the standard one.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "75 rue des Martyrs, Montmartre, Paris. In the early 1890s you would have found a cramped café-concert there, a bar where you drank while singers performed. It was called the Divan Japonais. Paper lanterns, bamboo furniture, and by most accounts waitresses in kimonos: Japan was the fashion, and the owner sold the fantasy."
+  },
+  {
+   "type": "text",
+   "text": "In 1892 a new director, Édouard Fournier, took over and needed customers. So he ordered a poster from a 28-year-old painter who lived nearby and spent most of his nights in places like this one: Henri de Toulouse-Lautrec. The address and Fournier's name are printed right on the sheet. This was made to be glued to a wall in the street."
+  },
+  {
+   "type": "text",
+   "text": "An advertisement for a concert should show the singer, you would think. The headliner Lautrec had in mind was Yvette Guilbert, the most talked-about voice in Paris. Her trademark was a pair of long black gloves that reached above the elbow. Everyone knew them."
+  },
+  {
+   "type": "find",
+   "text": "Yvette Guilbert is on this poster. Find the famous singer.",
+   "spots": [
+    {
+     "x": 0.16,
+     "y": 0.17,
+     "zoom": 2.8,
+     "r": 0.11,
+     "title": "Yvette Guilbert",
+     "text": "Up on the stage, in a pale dress, with her black gloves crossed in front of her. The top edge of the sheet slices off her head. In 1893 Paris, the gloves were enough to name her.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Cutting the head off your star is a bold way to sell a show. Lautrec borrowed the idea from Japanese woodblock prints, which Paris artists collected eagerly at the time. Those prints crop figures at the edge of the sheet, tilt the floor, and fill shapes with flat color. For a hall named after a Japanese sofa, the style fit perfectly."
+  },
+  {
+   "type": "fact",
+   "text": "Guilbert had mixed feelings about Lautrec's eye. When he planned a whole album of drawings of her the following year, she begged him in a letter not to make her so atrociously ugly. He went ahead anyway, and she signed the copies."
+  },
+  {
+   "type": "text",
+   "text": "So who gets the leading role instead? Two people who are not performing at all. Lautrec turns his back on the stage and draws the audience, his own friends, with the orchestra squeezed between them and the singer."
+  },
+  {
+   "type": "tour",
+   "title": "The real cast",
+   "text": "Three stops, from the front row to the orchestra pit.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.27,
+     "zoom": 2.2,
+     "r": 0.17,
+     "title": "Jane Avril",
+     "text": "The woman in black is Jane Avril, a dancer from the Moulin Rouge and a close friend of Lautrec. One sharp profile, orange hair, a red mouth, a huge hat. He needs almost nothing to make her elegant."
+    },
+    {
+     "x": 0.82,
+     "y": 0.32,
+     "zoom": 2.6,
+     "r": 0.13,
+     "title": "Édouard Dujardin",
+     "text": "Beside her sits Édouard Dujardin, a writer and critic. Yellow beard, monocle, the knob of his cane pressed to his lips. He leans in toward her and does not seem to be listening to the music."
+    },
+    {
+     "x": 0.25,
+     "y": 0.33,
+     "zoom": 2.2,
+     "r": 0.17,
+     "title": "The pit",
+     "text": "Gray scrolls rise like odd plants: the necks of double basses. Above them, two gloved hands float, one holding a baton. That is the conductor, reduced to his gestures."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice how few colors did all of that: black, yellow, an olive gray and a touch of orange. That is not a style choice alone. This is a lithograph, a print made by drawing with a greasy crayon on flat stones. Each color needs its own stone and its own pass through the press, so every extra color costs money."
+  },
+  {
+   "type": "text",
+   "text": "Lautrec turned the limit into a strength. Avril's dress is one solid black shape with no folds, no buttons, no shading. From across a street, that silhouette catches your eye before you can read a single word."
+  },
+  {
+   "type": "fact",
+   "text": "The grainy gray areas were made by spattering. Lautrec loaded a brush with ink and flicked it over the stone to rain down tiny dots. Printers call the technique crachis, French for “spit.”"
+  },
+  {
+   "type": "text",
+   "text": "A poster has about two seconds to work on someone walking past. The drawing has to steer the eye by itself, without any help. Three paths are built into this one."
+  },
+  {
+   "type": "lines",
+   "text": "Follow how the sheet moves your eye from the audience to the stage.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.56,
+       0.07
+      ],
+      [
+       0.5,
+       0.36
+      ],
+      [
+       0.6,
+       0.6
+      ],
+      [
+       0.42,
+       0.82
+      ],
+      [
+       0.14,
+       0.97
+      ]
+     ],
+     "closed": false,
+     "label": "The black sweep",
+     "text": "Avril's body runs from the feather of her hat to the bottom corner in one long S. It is the spine of the whole poster."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.56
+      ],
+      [
+       0.3,
+       0.5
+      ],
+      [
+       0.6,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "The rising pit",
+     "text": "The orchestra rail and the instruments climb from left to right at a tilt, as in a Japanese print. The floor seems to tip toward you."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.3
+      ],
+      [
+       0.2,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "Her gaze",
+     "text": "Avril's profile points up and left, straight toward the gloves on stage. She does the looking for you, and the star becomes a detail in her evening."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Lautrec treated the poster as art in its own right: flat color, bold cropping, and the nerve to show the audience instead of the act."
+  },
+  {
+   "type": "text",
+   "text": "The sheet measures about 81 by 61 cm (32 by 24 in), a modest size beside the giant circus bills of the day. It did not need to be bigger. Collectors were already hunting Lautrec's posters, and some people peeled them off the walls while the paste was still wet."
+  },
+  {
+   "type": "fact",
+   "text": "Lautrec had made his very first poster only about two years earlier, for the Moulin Rouge. In roughly a decade he designed around thirty. He died in 1901, at 36."
+  },
+  {
+   "type": "text",
+   "text": "The Divan Japonais itself did not stay Japanese for long, but the address never went quiet: 75 rue des Martyrs is still a place where people go to see a show. And the singer without a head? Guilbert became an international star. The gloves, it turns out, were all the portrait she needed."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was the Divan Japonais?",
+   "options": [
+    "A furniture shop",
+    "A café-concert in Montmartre",
+    "A Japanese print gallery"
+   ],
+   "answer": 1,
+   "explanation": "It was a small Paris café-concert at 75 rue des Martyrs, decorated in Japanese style."
+  },
+  {
+   "question": "How can you recognize the singer Yvette Guilbert on the poster?",
+   "options": [
+    "By her long black gloves",
+    "By her orange hair",
+    "By her monocle"
+   ],
+   "answer": 0,
+   "explanation": "Her head is cropped by the top edge, so her trademark gloves identify her."
+  },
+  {
+   "question": "Who is the woman in black in the foreground?",
+   "options": [
+    "The owner's wife",
+    "Yvette Guilbert",
+    "Jane Avril, a dancer and friend of Lautrec"
+   ],
+   "answer": 2,
+   "explanation": "Jane Avril, a Moulin Rouge dancer, sits in the audience as the true star of the image."
+  },
+  {
+   "question": "Why does the poster use so few colors?",
+   "options": [
+    "Each color needed its own stone and printing pass",
+    "Lautrec was colorblind",
+    "Bright inks were banned on street posters"
+   ],
+   "answer": 0,
+   "explanation": "In lithography every color is printed from a separate stone, so more colors cost more."
+  },
+  {
+   "question": "What is crachis?",
+   "options": [
+    "A type of Japanese paper",
+    "Spattering ink over the stone to make a grainy tone",
+    "A dance from the Moulin Rouge"
+   ],
+   "answer": 1,
+   "explanation": "Lautrec flicked ink from a brush to create the speckled gray areas."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The poster shows the singer's face in close-up.",
+   "isTrue": false,
+   "explanation": "Her head is cut off by the top edge; only her body and black gloves appear."
+  },
+  {
+   "text": "The cropping and flat colors were inspired by Japanese woodblock prints.",
+   "isTrue": true,
+   "explanation": "Paris artists collected these prints, and Lautrec borrowed their cropped figures and flat shapes."
+  },
+  {
+   "text": "The man with the cane is the conductor of the orchestra.",
+   "isTrue": false,
+   "explanation": "He is the writer Édouard Dujardin, a spectator; the conductor appears only as two hands above the pit."
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "teaser": "Three near-identical faces. To people in 1790s Edo, three instantly recognizable celebrities.",
+ "focus": [
+  0.45,
+  0.5
+ ],
+ "review_notes": "Identification: Toyohina top (primrose crest), Okita right (paulownia crest on fan), Ohisa left (oak-leaf crest). Standard reading, matches the image.\nMica background: stated as originally sparkling; how much survives on the Boston impression not verified.\nCassatt and the 1890 Paris exhibition of Japanese prints; her set of ten color prints dated 1890-91.\nAges of Okita and Ohisa (teenagers, about 15-16) follow the usual accounts.\n1793 naming ban and Utamaro's picture-puzzle workaround: commonly reported; exact dates of the edicts vary by source.\n1804 arrest: 50 days in manacles for prints on Toyotomi Hideyoshi; died 1806.\nDate usually given as c. 1792-93.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In the spring of 1890, the American painter Mary Cassatt walked through an exhibition of Japanese prints in Paris and came out shaken. She wrote to a friend that she now dreamed of nothing but color on copper. Within a year she had made ten color prints of women washing, dressing and sealing letters. The artist who impressed her most was Kitagawa Utamaro."
+  },
+  {
+   "type": "text",
+   "text": "What did she see in him? Sheets like this one, made a century earlier in Edo, the city now called Tokyo. Three women, cut off at the chest, fill a page about 38 centimeters tall (15 inches). No room, no landscape, no story. Only heads, hair and cloth."
+  },
+  {
+   "type": "text",
+   "text": "This close-up format has a blunt Japanese name: okubi-e, “big-head picture”. It had been used for actors. Utamaro turned it on women, around 1792, and suddenly a print could be about a face. With three heads on one sheet, he needed a way to keep them from crowding each other."
+  },
+  {
+   "type": "lines",
+   "text": "Three heads, one simple shape.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.42,
+       0.2
+      ],
+      [
+       0.27,
+       0.66
+      ],
+      [
+       0.68,
+       0.62
+      ]
+     ],
+     "closed": true,
+     "label": "A triangle",
+     "text": "One head on top, two below. The pyramid is stable and calm, and it lets each face sit in its own patch of pale background."
+    },
+    {
+     "points": [
+      [
+       0.38,
+       0.6
+      ],
+      [
+       0.57,
+       0.55
+      ]
+     ],
+     "closed": false,
+     "label": "An exchange",
+     "text": "The two women in front lean toward each other, eyes almost meeting."
+    },
+    {
+     "points": [
+      [
+       0.36,
+       0.26
+      ],
+      [
+       0.3,
+       0.42
+      ]
+     ],
+     "closed": false,
+     "label": "Looking away",
+     "text": "The woman on top turns the other way and gazes down to the left. She is set apart, and there is a reason."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "These were real people, and everybody in Edo knew them. The two in front, Okita and Ohisa, were teenagers who served tea in their families' shops. Customers lined up for a cup just to look at them. The woman on top, Toyohina, was a geisha, a professional musician and entertainer, working in the Yoshiwara pleasure quarter."
+  },
+  {
+   "type": "fact",
+   "text": "Okita's teahouse stood near the great temple at Asakusa. She became so popular that, according to stories of the time, crowds blocked the street and the shop threw water to move them along."
+  },
+  {
+   "type": "text",
+   "text": "Yet the title only says “Three Beauties of the Present Day”. No names. So how was a buyer supposed to tell who was who? Utamaro gave each woman her mon, a family crest, the Japanese cousin of a coat of arms. One of them is hard to miss once you know what to look for."
+  },
+  {
+   "type": "find",
+   "text": "Okita's crest is the paulownia: three broad leaves topped with upright sprigs of flowers. Where has Utamaro put it?",
+   "spots": [
+    {
+     "x": 0.92,
+     "y": 0.78,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "On her fan",
+     "text": "The crest is printed in soft yellow on the round paper fan she holds. So the woman on the right is Okita of the Naniwaya teahouse, shown with the tool of a summer day's work."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The fan settles one identity. The other two crests are woven or dyed into clothing, and they are smaller. With all three in hand, come back to the faces, which are the real puzzle. They seem to be the same woman three times over."
+  },
+  {
+   "type": "tour",
+   "title": "Same face, three people",
+   "text": "Utamaro's ideal of beauty was a long oval face with tiny features. Inside that formula, he allowed himself very small differences.",
+   "spots": [
+    {
+     "x": 0.37,
+     "y": 0.31,
+     "zoom": 2.6,
+     "r": 0.16,
+     "title": "Toyohina",
+     "text": "The geisha. Her nose has a slight downward hook and her face is the longest of the three. The topmost place suits the oldest and most established of the trio."
+    },
+    {
+     "x": 0.52,
+     "y": 0.655,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "Primrose",
+     "text": "On her sleeve, a spray of small white flowers: the primrose crest of the Tomimoto school of music, whose songs she performed. Her stage name came from it."
+    },
+    {
+     "x": 0.6,
+     "y": 0.57,
+     "zoom": 2.6,
+     "r": 0.16,
+     "title": "Okita",
+     "text": "Seen almost in profile. Her nose is straighter and sharper, her lips slightly parted, her eye a thin dark line."
+    },
+    {
+     "x": 0.33,
+     "y": 0.75,
+     "zoom": 1.6,
+     "r": 0.25,
+     "title": "Ohisa",
+     "text": "A rounder cheek and softer jaw. Lower down, on the front of her kimono, a small circle with three oak leaves is her family crest, from the Takashimaya shop."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Utamaro did not draw portraits the way a Western painter would. He started from one ideal face and adjusted it by a hair's breadth, then let crests and props do the naming."
+  },
+  {
+   "type": "text",
+   "text": "The crests may also have been a way around the law. In the 1790s the shogun's government, worried about loose morals, tightened its control of prints and forbade naming ordinary women on them. Only licensed courtesans could be named. Utamaro answered with crests, and in other prints with picture-puzzles that spelled a name in little drawings."
+  },
+  {
+   "type": "fact",
+   "text": "The pale background was once dusted with mica, a ground mineral that glitters like fine metal. In lamplight the three heads would have floated on a shimmering silver field."
+  },
+  {
+   "type": "text",
+   "text": "On the left edge, a small stamp shows an ivy leaf under a mountain peak. It is the mark of Tsutaya Juzaburo, the boldest publisher in Edo. He housed Utamaro for years and gambled on expensive novelties like mica and the big-head format. A year later he would launch the actor portraits of Sharaku."
+  },
+  {
+   "type": "text",
+   "text": "Utamaro's fame did not protect him. In 1804 he illustrated scenes from the life of a 16th-century warlord, a subject the government treated as off limits. He was arrested and kept in handcuffs for fifty days. He died two years later."
+  },
+  {
+   "type": "fact",
+   "text": "When Japan opened to trade in the 1850s, prints by Utamaro were among the first to be collected in France. For a long time, Europeans knew his name better than that of any other Japanese artist."
+  },
+  {
+   "type": "text",
+   "text": "Which brings us back to Cassatt in 1890. What she took from sheets like this was permission: a woman's ordinary day could be the whole subject, flat color could replace shading, and a figure could be cut by the edge of the page. Three teahouse celebrities had crossed an ocean and a century."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does okubi-e mean?",
+   "options": [
+    "Floating world",
+    "Big-head picture",
+    "Three beauties"
+   ],
+   "answer": 1,
+   "explanation": "It names the close-up format showing only head and shoulders."
+  },
+  {
+   "question": "How could buyers tell which woman was which?",
+   "options": [
+    "Their names are written beside them",
+    "Each has a different hair color",
+    "Each carries her family crest"
+   ],
+   "answer": 2,
+   "explanation": "The crests appear on a fan, a sleeve and a kimono."
+  },
+  {
+   "question": "Where is Okita's paulownia crest?",
+   "options": [
+    "On her round fan",
+    "In her hairpin",
+    "On the title label"
+   ],
+   "answer": 0,
+   "explanation": "It is printed in yellow on the fan she holds."
+  },
+  {
+   "question": "What was Toyohina's profession?",
+   "options": [
+    "Teahouse waitress",
+    "Publisher",
+    "Geisha, a musician and entertainer"
+   ],
+   "answer": 2,
+   "explanation": "She performed songs of the Tomimoto school in the Yoshiwara quarter."
+  },
+  {
+   "question": "What made the background sparkle originally?",
+   "options": [
+    "Gold leaf",
+    "Mica dust",
+    "Crushed glass"
+   ],
+   "answer": 1,
+   "explanation": "Mica is a ground mineral that glitters like metal."
+  },
+  {
+   "question": "Which American artist made color prints after seeing Japanese prints in Paris in 1890?",
+   "options": [
+    "Mary Cassatt",
+    "James Whistler",
+    "John Singer Sargent"
+   ],
+   "answer": 0,
+   "explanation": "Cassatt made a set of ten color prints within a year."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The three women were imaginary ideals with no real models.",
+   "isTrue": false,
+   "explanation": "They were three well-known women of Edo: Okita, Ohisa and Toyohina."
+  },
+  {
+   "text": "Utamaro was arrested and handcuffed for fifty days.",
+   "isTrue": true,
+   "explanation": "In 1804, for prints about a 16th-century warlord."
+  },
+  {
+   "text": "The print's title lists the names of the three women.",
+   "isTrue": false,
+   "explanation": "The title only says “Three Beauties of the Present Day”; crests identify them."
+  }
+ ]
+}

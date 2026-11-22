@@ -1,0 +1,52 @@
+{
+  "teaser": "A 22-year-old gave a farm animal the size and dignity once reserved for kings.",
+  "focus": [0.33, 0.42],
+  "review_notes": "Mark Tansey, The Innocent Eye Test (1981, Metropolitan Museum of Art): shows a cow facing a painting based on Potter's Bull, with a Monet haystack picture nearby.\nDimensions 235.5 x 339 cm.\nComposite anatomy (parts matching animals of different ages) and enlargement of the canvas with added strips: Mauritshuis account.\nTaken to Paris in 1795 and returned in 1815.\nThe bird in the sky is described in some sources as a lark; the lesson only says 'a bird'.\nPotter's age at death (28, tuberculosis, 1654).",
+  "lesson": [
+    {"type": "text", "text": "In 1981 the American painter Mark Tansey made a deadpan picture called The Innocent Eye Test. Serious men in suits lead a real cow into a museum and unveil a painting for her. They wait, clipboard ready, to see if she is fooled. The painting they show her is this one."},
+    {"type": "text", "text": "Tansey chose well. For two centuries Paulus Potter's Bull was the standard example of a picture so lifelike it might deceive an animal. In the 1800s visitors to The Hague ranked it beside Rembrandt's Night Watch. Its fame has cooled since, which makes it a good moment to ask what people saw."},
+    {"type": "text", "text": "Start with scale. The canvas is about 2.4 meters high and 3.4 wide (roughly 8 by 11 feet). The bull is close to life-size. In 1647 that format belonged to battles, saints and princes on horseback. Nobody painted livestock this big. Potter was 22."},
+    {"type": "fact", "text": "Potter did not plan such a huge picture. He began with the bull alone on a smaller canvas, then had strips of cloth sewn on at both sides and along the top to make room for the other animals, the farmer and the sky."},
+    {"type": "text", "text": "A big animal is easy to paint badly. Fill three meters with brown and you get a wall. Potter's answer was to treat the hide like a landscape, with a different weather in every part of it."},
+    {"type": "tour", "title": "Reading the hide", "text": "The bull stands side-on, like a specimen. Follow him from nose to hoof.", "spots": [
+      {"x": 0.3, "y": 0.41, "zoom": 3.2, "r": 0.08, "title": "The wet muzzle", "text": "The nose shines with moisture and the eye is ringed with pale lashes. Stiff curls of hair sit on the forehead between two short horns. He looks sideways, straight at you."},
+      {"x": 0.47, "y": 0.5, "zoom": 2.4, "r": 0.11, "title": "Shoulder and flank", "text": "On the shoulder the hair swirls in different directions, the way a real coat grows. White patches break up the red-brown, so the huge body never turns into one flat color."},
+      {"x": 0.7, "y": 0.4, "zoom": 2.6, "r": 0.09, "title": "Bones under skin", "text": "At the hip, the bones push the skin up into sharp ridges, and light catches them against the dark storm cloud behind. Potter makes you feel a skeleton inside."},
+      {"x": 0.45, "y": 0.84, "zoom": 3, "r": 0.09, "title": "Hooves in the dirt", "text": "The front hooves are planted on bare, trampled earth, with dried mud and a few weeds. Even here every hair above the hoof is separate."}
+    ]},
+    {"type": "text", "text": "Convincing, then. And yet farmers and vets who studied the picture noticed something odd: the animal does not add up. The horns suggest one age, the teeth another, and the heavy front and lean hindquarters belong to different beasts."},
+    {"type": "key", "text": "The Bull looks like one animal seen in one glance, but it was assembled in the studio from separate drawings. Realism in painting is a construction, not a snapshot."},
+    {"type": "text", "text": "That is how Dutch painters of the time worked. Nobody dragged a three-meter canvas into a meadow. Potter walked the fields with a sketchbook, drew cattle from every side, and composed indoors. His father was a painter too, and the son was selling pictures in his teens."},
+    {"type": "text", "text": "He also filled the edges of the scene with small lives, as if to prove that nothing was beneath his attention. One of them sits in the bare foreground, the same color as the mud."},
+    {"type": "find", "text": "A small animal is crouching on the ground at the very front. Where is it?", "spots": [
+      {"x": 0.33, "y": 0.925, "zoom": 4, "r": 0.05, "title": "The frog", "text": "A frog squats on the earth, in front of the lying cow's legs. On a canvas this big it is about life-size as well, a private joke for people who come near."}
+    ]},
+    {"type": "text", "text": "The frog explains the old fame of the picture. Viewers loved to be rewarded for looking: first the monumental bull from across the room, then, nose to the canvas, a frog. It is a painting designed for two distances."},
+    {"type": "fact", "text": "Cows were big business. Dairy made Dutch farmers rich, and a fat, healthy cow had become an emblem of the young Dutch Republic itself, a prosperous land that had just fought free of Spanish rule. A bull this proud flattered a whole country."},
+    {"type": "text", "text": "Look at how the sky is split. Behind the bull's head it is bright and mild. Behind his rump a dark storm builds. Potter uses the weather as a spotlight: pale hide against dark cloud on the right, dark head against pale sky on the left."},
+    {"type": "explore", "spots": [
+      {"x": 0.09, "y": 0.35, "zoom": 2.8, "r": 0.09, "title": "The farmer", "text": "A bearded man in a battered hat leans on a tree and looks out at us. He is pushed to the edge and partly hidden. In this picture the human is the extra."},
+      {"x": 0.22, "y": 0.64, "zoom": 2.6, "r": 0.09, "title": "The lying cow", "text": "Her white face is turned full front, pink nose and all. Painting an animal head-on is hard, because the muzzle must seem to come toward you. Potter shows off."},
+      {"x": 0.08, "y": 0.57, "zoom": 3, "r": 0.07, "title": "The ram", "text": "A ram with curled horns peers past the tree trunk. His wool is painted in thick, crumbly touches, quite unlike the smooth hair of the cattle."},
+      {"x": 0.08, "y": 0.8, "zoom": 2.6, "r": 0.09, "title": "Ewe and lamb", "text": "A sheep and her lamb rest in the corner, legs folded. The three kinds of animal give Potter three textures to compare: hide, wool and horn."},
+      {"x": 0.855, "y": 0.125, "zoom": 3.6, "r": 0.05, "title": "A bird", "text": "High on the right, a single bird crosses the storm cloud with spread wings. It is the only thing moving fast in a picture where everything else stands and chews."},
+      {"x": 0.88, "y": 0.8, "zoom": 3.4, "r": 0.09, "title": "The far meadow", "text": "Under the bull's belly line, the land runs flat to the horizon. Tiny cattle graze there in sunlight. This low, endless pasture is the Dutch countryside he actually walked."},
+      {"x": 0.78, "y": 0.945, "zoom": 3.4, "r": 0.06, "title": "On the ground", "text": "A dark, flat heap lies on the bare earth. Potter includes what a field of cattle really contains. Polite painters of his day left that out."}
+    ]},
+    {"type": "fact", "text": "When French armies occupied the Netherlands in 1795, they carried The Bull off to Paris as a prize and hung it in the Louvre. It came home to The Hague in 1815, after Napoleon's fall."},
+    {"type": "text", "text": "Potter did not live to see any of this. He died of tuberculosis in 1654, at 28, leaving about a hundred paintings, most of them small. As for Tansey's cow in the museum: her verdict is not recorded. Yours is the one that counts."}
+  ],
+  "quiz": [
+    {"question": "How old was Potter when he painted The Bull?", "options": ["22", "45", "60"], "answer": 0, "explanation": "He painted it in 1647 at the age of 22."},
+    {"question": "What did experts notice about the bull's anatomy?", "options": ["It is copied from a Roman statue", "Its parts match animals of different ages", "It has five legs"], "answer": 1, "explanation": "Horns, teeth and body do not agree, because Potter combined separate studies."},
+    {"question": "How did the canvas reach its final size?", "options": ["It was cut down from a larger one", "It was painted on a barn door", "Potter had strips added at the sides and top"], "answer": 2, "explanation": "He began with the bull alone and enlarged the canvas."},
+    {"question": "Which small animal hides in the foreground?", "options": ["A frog", "A mouse", "A snail"], "answer": 0, "explanation": "A frog sits on the bare earth at the front."},
+    {"question": "What did a healthy cow stand for in the Dutch Republic?", "options": ["Bad luck", "The prosperity of the country", "The Spanish king"], "answer": 1, "explanation": "Dairy brought wealth, and the cow had become a national emblem."},
+    {"question": "Where did the painting hang between 1795 and 1815?", "options": ["In London", "In Madrid", "In the Louvre in Paris"], "answer": 2, "explanation": "French troops took it to Paris, and it returned after Napoleon's fall."}
+  ],
+  "facts": [
+    {"text": "Potter painted the whole scene outdoors, standing in a meadow.", "isTrue": false, "explanation": "He sketched in the fields and composed the big canvas in the studio."},
+    {"text": "A later painter, Mark Tansey, pictured a cow being shown this painting.", "isTrue": true, "explanation": "His 1981 work The Innocent Eye Test stages exactly that."},
+    {"text": "Potter lived to old age and painted thousands of pictures.", "isTrue": false, "explanation": "He died at 28, leaving about a hundred paintings."}
+  ]
+}

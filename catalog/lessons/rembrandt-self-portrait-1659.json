@@ -1,0 +1,39 @@
+{
+  "teaser": "Three years after losing his house and everything in it, Rembrandt sat down and looked himself in the eye.",
+  "focus": [0.53, 0.3],
+  "review_notes": "Insolvency in 1656, sales of collection and house in 1657-58, move to the Rozengracht in 1660: standard chronology.\nRaphael's Castiglione seen at an Amsterdam auction in 1639, with Rembrandt's sketch noting a price of 3,500 guilders: please verify the figure.\nCount of self-portraits (about 40 paintings, roughly 80 with etchings and drawings) varies by scholar.\nMellon purchase in 1929 from the Buccleuch family and gift to the nation in 1937: per NGA provenance, worth a check.\nBurial in an unmarked rented grave in the Westerkerk in 1669: standard account.\nThe signature and date at mid left are barely visible in this image, so no spot points at them.",
+  "lesson": [
+    {"type": "text", "text": "In 1656 Rembrandt, once the most sought-after painter in Amsterdam, declared himself unable to pay his debts. Court clerks walked through his house and listed everything: paintings, antique busts, armor, shells, even the linen. Over the next two years it was all auctioned, and then the house went too."},
+    {"type": "text", "text": "This canvas is dated 1659. He is 53, the sales are over, and he is about to move to a rented house in a poorer part of town. The picture is not large, about 85 x 66 cm (33 x 26 in), and most of it is brown darkness. Nearly all the light lands on one thing."},
+    {"type": "fact", "text": "Rembrandt portrayed himself again and again for forty years: roughly forty paintings, plus dozens of etchings and drawings. No earlier artist left such a long record of his own face growing old."},
+    {"type": "text", "text": "The pose is borrowed. Twenty years earlier, at an Amsterdam auction, Rembrandt had sketched a famous Italian portrait, Raphael's “Baldassare Castiglione”: body turned sideways, face toward us, hands joined. Raphael's sitter is smooth and serene. See what Rembrandt does with the same recipe, starting with the paint itself."},
+    {"type": "tour", "title": "From thick to thin", "text": "The face is built up like a relief. Everything else dissolves.", "spots": [
+      {"x": 0.53, "y": 0.225, "zoom": 3.6, "r": 0.09, "title": "The forehead", "text": "Short, loaded strokes of pale paint sit on top of each other. The ridges catch real light, so the wrinkles are almost modeled, not drawn. Painters call such thick paint impasto."},
+      {"x": 0.53, "y": 0.285, "zoom": 4, "r": 0.09, "title": "The eyes", "text": "Dark, level, a little red at the rims, under raised brows. One side of the face is lit, the other slips into shadow, and the gaze does not let go."},
+      {"x": 0.76, "y": 0.27, "zoom": 3.6, "r": 0.08, "title": "The gray curls", "text": "The hair is a tangle of fine pale loops and squiggles over brown. Some of the lines were scratched into the wet paint, probably with the wooden end of the brush."},
+      {"x": 0.18, "y": 0.855, "zoom": 2.8, "r": 0.12, "title": "The hands", "text": "A warm blur and one bright crease: that is all. The clasped hands are barely sketched, as if seen from the corner of your eye."}
+    ]},
+    {"type": "text", "text": "That gap between the worked face and the vague hands is deliberate. Your eye behaves this way too: sharp where it looks, soft everywhere else. Rembrandt paints what attention feels like, and it puts you close to him, at speaking distance."},
+    {"type": "text", "text": "Many buyers of the 1650s wanted the opposite. The fashion had turned to smooth, polished pictures where no brushstroke showed, and his rough late manner looked careless to them. He kept it anyway. He gives himself sagging cheeks, a furrowed brow, an untidy mustache, and no flattery at all."},
+    {"type": "lines", "text": "The portrait is simple to read because of two decisions about light and shape.", "lines": [
+      {"points": [[0.2, 0.04], [0.48, 0.24]], "closed": false, "label": "The light", "text": "It falls from the upper left, strikes the forehead and cheek, and dies away before it reaches the far shoulder. The beret keeps the top of the head in shade."},
+      {"points": [[0.04, 0.98], [0.57, 0.1], [0.99, 0.98]], "closed": true, "label": "The pyramid", "text": "The dark coat spreads into a broad triangle with the head at its tip. It is the stable shape Raphael used, here stripped of rich fabric and color."}
+    ]},
+    {"type": "fact", "text": "When Rembrandt sketched Raphael's portrait at that auction in 1639, he also wrote the sale price on the sheet: 3,500 guilders, far more than most Dutch houses cost. He always watched the art market closely."},
+    {"type": "key", "text": "Rembrandt takes a pose invented for an elegant courtier and fills it with an aging, unvarnished face. The dignity comes from the honesty of the looking, not from the costume."},
+    {"type": "fact", "text": "The painting spent generations with a Scottish ducal family. In 1929 the American banker Andrew Mellon bought it, and in 1937 he gave it to the United States as part of the founding gift of the National Gallery of Art in Washington."},
+    {"type": "text", "text": "He would paint himself for ten more years. When he died in 1669 he was buried in a rented, unmarked grave in an Amsterdam church. Nobody knows exactly where. What remains is this: a man who had lost nearly everything, and who still thought his own face was worth the paint."}
+  ],
+  "quiz": [
+    {"question": "What had happened to Rembrandt shortly before he painted this?", "options": ["He had been named court painter", "He had gone insolvent and lost his house", "He had returned from Italy"], "answer": 1, "explanation": "He declared himself unable to pay his debts in 1656 and his goods and house were sold."},
+    {"question": "Whose portrait inspired the pose?", "options": ["Raphael's portrait of Castiglione", "A self-portrait by Titian", "A bust of a Roman emperor"], "answer": 0, "explanation": "He had sketched Raphael's “Baldassare Castiglione” at an Amsterdam auction."},
+    {"question": "What does impasto mean?", "options": ["A dark brown background", "A pose with joined hands", "Paint applied thickly, so it stands up from the surface"], "answer": 2, "explanation": "The forehead is built from thick strokes whose ridges catch the light."},
+    {"question": "How are the hands painted?", "options": ["In sharp detail, with rings", "As a barely sketched warm blur", "They are hidden inside the coat"], "answer": 1, "explanation": "They are left vague so that attention stays on the face."},
+    {"question": "Where does the light come from?", "options": ["The upper left", "Directly below", "Behind the figure"], "answer": 0, "explanation": "It strikes the forehead and cheek from the upper left."}
+  ],
+  "facts": [
+    {"text": "Rembrandt painted this self-portrait at the height of his wealth.", "isTrue": false, "explanation": "It dates from 1659, just after his possessions and house had been sold to pay debts."},
+    {"text": "Some lines in the hair were scratched into the wet paint.", "isTrue": true, "explanation": "Fine loops in the curls were probably made with the wooden end of the brush."},
+    {"text": "Rembrandt's grave is a well-marked monument in Amsterdam.", "isTrue": false, "explanation": "He was buried in a rented, unmarked grave whose exact place is unknown."}
+  ]
+}

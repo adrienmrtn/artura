@@ -173,13 +173,27 @@ struct ArtImage: View {
 
     var body: some View {
         GeometryReader { geo in
-            Image(name)
-                .resizable()
-                .scaledToFill()
+            picture(width: geo.size.width)
                 .frame(width: geo.size.width, height: geo.size.height)
                 .scaleEffect(zoom, anchor: anchor)
                 .frame(width: geo.size.width, height: geo.size.height)
                 .clipped()
+        }
+    }
+
+    /// Bundled asset, or picture of the online catalog (a lighter file for small frames).
+    @ViewBuilder
+    private func picture(width: CGFloat) -> some View {
+        if name.hasPrefix("http") {
+            if width <= 140, name.hasSuffix("/large.jpg") {
+                RemoteImage(url: String(name.dropLast("large.jpg".count)) + "thumb.jpg")
+            } else {
+                RemoteImage(url: name)
+            }
+        } else {
+            Image(name)
+                .resizable()
+                .scaledToFill()
         }
     }
 }

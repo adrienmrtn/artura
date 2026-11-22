@@ -1,0 +1,57 @@
+{
+  "teaser": "A pope's private library wall, where Plato has Leonardo's face and Michelangelo sulks on the steps.",
+  "focus": [0.51, 0.5],
+  "review_notes": "Room as Julius II's private library: the usual scholarly view, not documented with certainty.\nPlato with Leonardo's features, Heraclitus as Michelangelo, Euclid as Bramante: long traditions (the last from Vasari), none confirmed by Raphael.\nHeraclitus absent from the Ambrosiana cartoon and added on a later plaster patch: standard account.\nThe title 'School of Athens' dating from the 1600s: commonly stated.\nBramante recommending Raphael to Julius II: from Vasari.\nFresco width about 7.7 m.\nThe photo includes the real doorway and the painted base below the fresco; the lesson mentions the door.",
+  "lesson": [
+    {"type": "text", "text": "Before this was a picture in schoolbooks, it was a wall in a man's study. Pope Julius II kept his private library in a modest room of the Vatican palace, and in 1508 he wanted its walls painted. See the dark rectangle at the bottom left of the photo? That is a real door. People walked in and out under the philosophers."},
+    {"type": "text", "text": "The job went to a newcomer of 25 called Raphael, who had never painted anything this large. The plan for the room was simple: one wall for each kind of book on the shelves. Theology, poetry, law, and on this wall, philosophy. So the painting is a sort of giant label, telling the pope which thinkers lived on that side of the room."},
+    {"type": "fact", "text": "Raphael never called this painting “The School of Athens.” The name appeared more than a century after his death. No such school ever existed: the men gathered here lived in different cities and different centuries."},
+    {"type": "text", "text": "It is a fresco, which means the colors were brushed onto fresh, wet plaster and dried into the wall itself. The painted area is about 7.7 meters wide (some 25 feet), in a room you could cross in a few steps. Raphael's first problem was to make that flat wall feel like a hall you could walk into. He solved it with geometry."},
+    {"type": "lines", "text": "Three simple constructions turn a library wall into deep space.", "lines": [
+      {"points": [[0.2, 0.795], [0.515, 0.47], [0.9, 0.795]], "closed": false, "label": "The floor", "text": "The edges of the paving stones rush inward and meet at a single spot. Painters call it the vanishing point: the place where parallel lines seem to join in the distance."},
+      {"points": [[0.435, 0.345], [0.44, 0.29], [0.465, 0.245], [0.515, 0.225], [0.565, 0.245], [0.59, 0.29], [0.6, 0.345]], "closed": false, "label": "Arch after arch", "text": "Each vault is smaller than the one in front of it, like a telescope seen from the wide end. Your eye is pulled down the tunnel toward the open sky."},
+      {"points": [[0.1, 0.455], [0.92, 0.455]], "closed": false, "label": "A line of heads", "text": "Nearly all the standing figures have their heads at the same height. That is your own eye level, as if you had climbed the steps and joined them."}
+    ]},
+    {"type": "text", "text": "The floor lines do not meet at random. They land between two men walking toward you, framed by the last arch and the bright sky. Everything in the building points at them. They are Plato and his student Aristotle, the two Greeks whose books filled more shelves than anyone else's."},
+    {"type": "tour", "title": "Two hands, one argument", "text": "Raphael sums up two philosophies with two gestures, then lets the others react.", "spots": [
+      {"x": 0.488, "y": 0.47, "zoom": 3.6, "r": 0.04, "shape": "rect", "title": "Plato", "text": "The old man in red and gray lifts one finger to the sky. For Plato, truth lies in a world of perfect ideas above this one. He carries his book upright."},
+      {"x": 0.537, "y": 0.48, "zoom": 3.6, "r": 0.04, "shape": "rect", "title": "Aristotle", "text": "Younger, in blue, he holds his palm flat over the ground. Study what is here, he says: plants, animals, cities, people. His book lies level, like his hand."},
+      {"x": 0.365, "y": 0.47, "zoom": 3.4, "r": 0.045, "shape": "rect", "title": "Socrates", "text": "In olive green, with a snub nose, Plato's own teacher counts arguments off on his fingers for a small group. One listener wears armor."},
+      {"x": 0.585, "y": 0.635, "zoom": 3, "r": 0.07, "title": "Diogenes", "text": "Sprawled alone on the steps and half undressed, he reads and ignores everyone. Diogenes owned almost nothing and thought that was the point."}
+    ]},
+    {"type": "key", "text": "Raphael turns ideas into body language. You do not need to read a line of Greek to see that one man points up, the other holds the earth, and the whole building leans in to listen."},
+    {"type": "text", "text": "He also played a game his first visitors enjoyed. Several ancient thinkers wear the faces of people then living in Rome. Plato's long beard and domed forehead have been linked, by long tradition, to the aging Leonardo da Vinci, the painter Raphael admired most."},
+    {"type": "fact", "text": "Raphael's full-size preparatory drawing for the figures still exists in Milan, in the Ambrosiana gallery. It is about eight meters wide, drawn in charcoal on many sheets of paper glued together. One figure in the finished fresco is missing from it."},
+    {"type": "text", "text": "While Raphael worked here, Michelangelo was a short walk away, painting the Sistine Chapel ceiling behind locked doors. The two did not get along. Then part of the ceiling was unveiled in 1511, and Raphael saw it. Soon afterward he added one more philosopher to his nearly finished wall."},
+    {"type": "find", "text": "The latecomer sits by himself, writing, his head on his fist. Everyone around him is barefoot or in sandals. He wears boots. Where is he?", "spots": [
+      {"x": 0.447, "y": 0.65, "zoom": 3, "r": 0.07, "title": "The man in boots", "text": "Heraclitus, the gloomy philosopher, is thought to carry Michelangelo's features and his stonecutter's boots. His heavy, muscular body even imitates the style of the Sistine ceiling."}
+    ]},
+    {"type": "text", "text": "To fit him in, a patch of the dry painted wall had to be cut away and filled with fresh plaster. So the most famous sulk in art is a tribute, pressed into the wall at the last minute, from one rival to another."},
+    {"type": "text", "text": "The hall itself is a portrait too. Its huge vaults echo the new St. Peter's church that the architect Bramante was just beginning to build nearby. Bramante appears in person on the right, bald and bending low, as the geometer Euclid."},
+    {"type": "fact", "text": "Bramante and Raphael came from the same corner of Italy, around the town of Urbino. According to the early biographer Vasari, it was Bramante who recommended the young painter to the pope in the first place."},
+    {"type": "text", "text": "More than fifty figures fill the steps, and Raphael left no list of names. Some are certain, many are educated guesses. Wander through the crowd yourself, and keep an eye on the far right edge: someone there is looking straight at you."},
+    {"type": "explore", "spots": [
+      {"x": 0.902, "y": 0.545, "zoom": 4.5, "r": 0.03, "shape": "arrow", "title": "Raphael", "text": "The young man in a dark cap at the very edge is the painter himself, in his late twenties. He is one of the few people in the picture who meets your eyes."},
+      {"x": 0.26, "y": 0.65, "zoom": 3, "r": 0.07, "title": "Pythagoras", "text": "Kneeling over a thick book, he writes while a boy holds up a small slate for him. Others crane over his shoulder to copy."},
+      {"x": 0.782, "y": 0.745, "zoom": 3, "r": 0.07, "title": "A geometry lesson", "text": "Euclid, with Bramante's bald head, bends to draw on a slate with a compass. Four students show four stages of learning, from puzzled to delighted."},
+      {"x": 0.845, "y": 0.585, "zoom": 3.4, "r": 0.05, "title": "Two globes", "text": "A bearded man holds up a sphere dotted with stars. Facing him, seen from behind in a yellow cloak, another holds the globe of the Earth. Astronomy meets geography."},
+      {"x": 0.314, "y": 0.56, "zoom": 3.4, "r": 0.04, "shape": "rect", "title": "The figure in white", "text": "Calm, pale, and gazing out of the picture while everyone else talks. Nobody knows for sure who this is, which has not stopped centuries of guessing."},
+      {"x": 0.235, "y": 0.26, "zoom": 2.6, "r": 0.06, "shape": "rect", "title": "Apollo", "text": "A painted statue in a niche: the god of music and poetry, holding a lyre. He watches over the left half of the hall."},
+      {"x": 0.79, "y": 0.27, "zoom": 2.6, "r": 0.06, "shape": "rect", "title": "Minerva", "text": "On the other side stands the goddess of wisdom, with helmet, spear and shield. Two pagan gods, in a pope's apartment, and no one thought it odd."}
+    ]},
+    {"type": "text", "text": "Julius was delighted. Vasari tells us he had the work of older painters in the neighboring rooms knocked off the walls so that Raphael could redo them all. The newcomer spent the rest of his short life in charge of the pope's apartments."},
+    {"type": "text", "text": "Today thousands of visitors a day shuffle through a room designed for one reader and his books. Think of Julius alone here in the evening, reaching for a volume of Aristotle under this wall. Was he reading the philosophers, or were they keeping an eye on him?"}
+  ],
+  "quiz": [
+    {"question": "What was this room used for when Raphael painted it?", "options": ["The pope's private library", "A chapel for daily Mass", "A dining hall for cardinals"], "answer": 0, "explanation": "Each wall matched a category of books on the pope's shelves, and this one stood for philosophy."},
+    {"question": "What does Aristotle's gesture mean?", "options": ["Truth lies in a world above us", "Study the world that is here", "Silence, the lesson has begun"], "answer": 1, "explanation": "He holds his palm flat over the ground, while Plato points to the sky."},
+    {"question": "Which figure was added after the wall was almost finished?", "options": ["Diogenes on the steps", "Raphael at the edge", "Heraclitus, the man in boots"], "answer": 2, "explanation": "He is missing from the preparatory drawing and was painted on a fresh patch of plaster."},
+    {"question": "Where do the lines of the floor meet?", "options": ["Between Plato and Aristotle", "On the statue of Apollo", "At the real door of the room"], "answer": 0, "explanation": "The vanishing point sits between the two central figures, so the whole building points at them."},
+    {"question": "What is a fresco?", "options": ["Oil paint on a wooden panel", "Paint applied to fresh wet plaster", "A drawing in charcoal on paper"], "answer": 1, "explanation": "The colors dry into the plaster and become part of the wall."}
+  ],
+  "facts": [
+    {"text": "Raphael gave the painting its title, The School of Athens.", "isTrue": false, "explanation": "The name appeared more than a century after his death."},
+    {"text": "Raphael included his own face in the crowd.", "isTrue": true, "explanation": "He is the young man in a dark cap at the far right, looking out at you."},
+    {"text": "The philosophers shown really did meet in one building in Athens.", "isTrue": false, "explanation": "They lived in different cities and centuries; the gathering is imaginary."}
+  ]
+}

@@ -1,0 +1,291 @@
+{
+ "teaser": "Two broke friends, one riverside café, and the summer that taught painters how to do water.",
+ "focus": [
+  0.47,
+  0.45
+ ],
+ "review_notes": "'Frogs' as a nickname for the easygoing young women who came to La Grenouillère: standard explanation.\nThe islet's nickname 'Camembert' (also 'the flowerpot').\nSign on the floating café reads as boat rental (location de canots); only part of the lettering is legible in the image.\nRenoir's companion picture is in the Nationalmuseum, Stockholm.\nMonet's 'bad sketches' remark is from a letter to Bazille, September 1869; Renoir bringing bread from his parents' table is from Renoir's recollections.\nLarger Grenouillère by Monet formerly in a Berlin collection, lost in World War II and known from a photograph.\nJohn Goffe Rand's collapsible paint tube, 1841.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "How would you paint something that never keeps the same shape for two seconds? A river on a sunny day is a mess of moving glints, and no brush is fast enough to copy them. Until the 1860s most painters solved this by smoothing water into a calm mirror. Monet, at 28, tried something else."
+  },
+  {
+   "type": "text",
+   "text": "In the summer of 1869 he set up his easel on the bank of the Seine, a short train ride west of Paris, facing a popular bathing spot. His friend Pierre-Auguste Renoir set up right beside him. The two painted the same view, on the same days, almost elbow to elbow."
+  },
+  {
+   "type": "fact",
+   "text": "La Grenouillère means “the frog pond.” The frogs in question were not animals. It was a cheeky nickname for the carefree young women who came out from Paris to swim, flirt and dance there."
+  },
+  {
+   "type": "text",
+   "text": "The place was simple. A floating café was moored to the bank, on the right. Narrow gangplanks led from it to a tiny round island with one tree, which regulars nicknamed “the Camembert” after the cheese. You could rent a rowboat, order a drink, or just jump in the river."
+  },
+  {
+   "type": "find",
+   "text": "Some visitors are already in the water. Can you find the swimmers?",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.45,
+     "zoom": 3.4,
+     "r": 0.08,
+     "title": "The bathers",
+     "text": "To the left of the islet, a few pink and dark blobs bob at the surface: heads and shoulders of people standing in the shallows. One raises an arm toward the island."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A head is one touch of pink. A body is one stroke of black. Monet had no time for more, and he did not want more. He was after the overall impression of a noisy afternoon, the thing you take in before you notice any single person. The same shorthand is what lets him tackle the river."
+  },
+  {
+   "type": "tour",
+   "title": "Three kinds of water",
+   "text": "Start near your feet and move back toward the far bank.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.75,
+     "zoom": 2,
+     "r": 0.18,
+     "title": "Up close",
+     "text": "Wide slabs of black-green, olive, white and sky blue, each laid down once and left alone. Dark means reflected trees, light means reflected sky. Nothing is blended."
+    },
+    {
+     "x": 0.3,
+     "y": 0.6,
+     "zoom": 2.6,
+     "r": 0.11,
+     "title": "Middle distance",
+     "text": "Near the gangplank the strokes get shorter and closer together. The ripples seem smaller because they are farther away."
+    },
+    {
+     "x": 0.3,
+     "y": 0.37,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Far away",
+     "text": "By the opposite bank the water is thin streaks of bright blue and white. Shrinking the brushstroke is how Monet makes the river stretch back."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Monet stopped drawing water and started building it from separate patches of light and dark color. That broken touch became the signature of Impressionism."
+  },
+  {
+   "type": "fact",
+   "text": "Working this fast outdoors depended on a small invention: the squeezable metal paint tube, patented in 1841 by the American painter John Goffe Rand. Before it, oil paint was kept in pig bladders that dried out and burst."
+  },
+  {
+   "type": "text",
+   "text": "The scene can look like a snapshot, grabbed at random. It is not. Under the sparkle there is a firm frame that sends your eye to one place."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines meet at the little island.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.55
+      ],
+      [
+       0.24,
+       0.49
+      ]
+     ],
+     "closed": false,
+     "label": "The left gangplank",
+     "text": "A dark plank on stilts runs in from the left edge and delivers you to the islet."
+    },
+    {
+     "points": [
+      [
+       0.76,
+       0.44
+      ],
+      [
+       0.62,
+       0.42
+      ]
+     ],
+     "closed": false,
+     "label": "The right gangplank",
+     "text": "A second walkway comes from the floating café. People are crossing it in single file."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.02
+      ],
+      [
+       0.45,
+       0.48
+      ],
+      [
+       0.44,
+       0.82
+      ]
+     ],
+     "closed": false,
+     "label": "Tree and reflection",
+     "text": "The trunk drops from the top of the canvas to the islet, and its dark reflection carries the line on down through the water."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the islet is a hub, with the tree as its axle. Renoir, standing beside Monet, made a different choice. His version, now in Stockholm, moves in on the people: their dresses, their chatter, a dog. Monet stays back and gives more than half his canvas to the river. One friend was painting a party, the other was painting light."
+  },
+  {
+   "type": "fact",
+   "text": "Monet painted a larger view of La Grenouillère as well. It belonged to a Berlin collection, disappeared during World War II and is known today only from a photograph."
+  },
+  {
+   "type": "text",
+   "text": "Neither of them thought these pictures were finished works. Monet was so poor that summer that Renoir carried bread to him from his own parents' table. In a letter Monet called his Grenouillère canvases “bad sketches” and dreamed of a big, polished version for the Salon, the official Paris exhibition. Here is what a bad sketch contains."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.88,
+     "y": 0.37,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The café sign",
+     "text": "Capital letters run along the railing of the floating café. The legible part spells “canot,” French for a rowboat: this is where you rented one."
+    },
+    {
+     "x": 0.67,
+     "y": 0.32,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "Woman in blue",
+     "text": "A lone figure in a dark blue dress and hat steps onto the gangplank, seen from behind. She is five or six strokes of paint.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.52,
+     "y": 0.4,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "The crowd",
+     "text": "Men in dark jackets, women in full skirts, a seated figure in blue. City clothes mingle with swimsuits on a platform a few steps wide."
+    },
+    {
+     "x": 0.14,
+     "y": 0.87,
+     "zoom": 2.2,
+     "r": 0.15,
+     "title": "Rental boats",
+     "text": "Moored rowboats nose in from the corner. Their hulls, cut off by the frame, put you right at the water's edge, as if you were about to climb in."
+    },
+    {
+     "x": 0.4,
+     "y": 0.25,
+     "zoom": 2,
+     "r": 0.16,
+     "title": "The far bank",
+     "text": "A wall of trees in yellow-green fills the background, lit by sun. Monet scrubs it in loosely so it stays behind the action."
+    },
+    {
+     "x": 0.93,
+     "y": 0.63,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "More boats",
+     "text": "Long slim boats with red-brown trim are tied below the café. Their diagonals point back toward the center."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The grand Salon version never happened. Five years later, in 1874, Monet and Renoir helped organize an independent exhibition, and a critic mocked the group as “Impressionists.” By then the quick sketch from the frog pond was no longer a step toward a painting. It was the painting."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who painted the same view right beside Monet in 1869?",
+   "options": [
+    "Édouard Manet",
+    "Pierre-Auguste Renoir",
+    "Paul Cézanne"
+   ],
+   "answer": 1,
+   "explanation": "Renoir and Monet worked side by side at La Grenouillère."
+  },
+  {
+   "question": "How does Monet make the river appear to stretch into the distance?",
+   "options": [
+    "His brushstrokes get smaller farther away",
+    "He adds fog over the far bank",
+    "He draws lines converging on a vanishing point"
+   ],
+   "answer": 0,
+   "explanation": "Wide slabs up close shrink to thin streaks near the far bank."
+  },
+  {
+   "question": "What was “the Camembert”?",
+   "options": [
+    "The floating café",
+    "A local cheese sold to bathers",
+    "The small round island with a tree"
+   ],
+   "answer": 2,
+   "explanation": "Regulars nicknamed the round islet after the cheese."
+  },
+  {
+   "question": "What did Monet call his Grenouillère canvases in a letter?",
+   "options": [
+    "His best work",
+    "Bad sketches",
+    "Studies for a mural"
+   ],
+   "answer": 1,
+   "explanation": "He saw them as preparation for a large Salon painting that never came."
+  },
+  {
+   "question": "Which invention made fast outdoor oil painting practical?",
+   "options": [
+    "The metal paint tube",
+    "The folding easel",
+    "The camera"
+   ],
+   "answer": 0,
+   "explanation": "The squeezable tube, patented in 1841, kept paint fresh and portable."
+  },
+  {
+   "question": "How does Renoir's version differ from Monet's?",
+   "options": [
+    "It shows the scene at night",
+    "It leaves out the island",
+    "It moves in closer on the people"
+   ],
+   "answer": 2,
+   "explanation": "Renoir focuses on the crowd, Monet on the water and light."
+  }
+ ],
+ "facts": [
+  {
+   "text": "La Grenouillère was named after the many frogs living in the river.",
+   "isTrue": false,
+   "explanation": "“Frogs” was a nickname for the carefree young women who gathered there."
+  },
+  {
+   "text": "Monet gives more than half of the canvas to the river.",
+   "isTrue": true,
+   "explanation": "He stays back from the crowd and lets the water dominate."
+  },
+  {
+   "text": "Monet went on to paint a large, polished version for the Salon.",
+   "isTrue": false,
+   "explanation": "The Salon picture never happened; the sketch itself became the finished work."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+  "teaser": "Two hands have just let go. The whole sculpture is built around the gap between them.",
+  "focus": [0.59, 0.47],
+  "review_notes": "Photo shows the Orsay bronze from one side, in the museum nave.\nDates: first version 1894-95 (plaster, Musée Rodin), second version 1899, bronze cast 1902 for Captain Louis Tissier; entered the Musée d'Orsay in 1982. Check.\nState commission of 1895 cancelled in 1899; the reason is not documented (Rodin's intervention is often suggested but unproven), the lesson says so.\nPaul Claudel's reading of the kneeling figure as his sister is paraphrased, not quoted.\nClaudel committed in March 1913, days after her father's death, and died in 1943 at Montdevergues: check.\nWhich hands belong to the old woman in this view (on the man's upper arm, and at lower left) was judged from the photo.",
+  "lesson": [
+    {"type": "text", "text": "A second ago, they were still touching. A young woman on her knees held a man's hand in both of hers. He has just pulled it free and he is already a step away. This bronze stops time right there, on the instant after."},
+    {"type": "find", "text": "Everything turns on a small empty space. Tap the exact place where the contact has just been broken.", "spots": [
+      {"x": 0.59, "y": 0.475, "zoom": 3.6, "r": 0.06, "title": "The gap", "text": "His hand trails behind him, fingers loose and open. Hers reach up, palms still shaped to hold it. A few centimeters of air separate them. He is not turning back."}
+    ]},
+    {"type": "text", "text": "That gap is small, and it cannot be closed. Camille Claudel finished this version in 1899 and placed the void almost exactly at the center of the group. In most sculpture your eye goes to a face. In this one it goes to a place where there is nothing."},
+    {"type": "text", "text": "There are three figures, and the title explains the official subject. It is an allegory, an image where people stand for ideas. Here the idea is a human life: a man leaves his youth behind and is led away toward old age and death."},
+    {"type": "tour", "title": "Three ages", "text": "From left to right, the direction is reversed: the future is on the left.", "spots": [
+      {"x": 0.24, "y": 0.13, "zoom": 2.6, "r": 0.1, "title": "Old age", "text": "A gaunt old woman, half hidden, with a hollow face under a great lifted cloak. She presses close behind the man and steers him. Claudel gives her the cunning of someone sure to win."},
+      {"x": 0.37, "y": 0.2, "zoom": 2.4, "r": 0.11, "title": "The man", "text": "No longer young: lined face, sagging chest, head lowered. He neither fights nor hurries. He lets himself be taken, and he does not look at either woman."},
+      {"x": 0.79, "y": 0.66, "zoom": 2.2, "r": 0.12, "title": "Youth", "text": "Naked, kneeling, leaning so far forward she is close to falling. Her face is lifted toward him. She is the only one of the three who is asking for something."}
+    ]},
+    {"type": "text", "text": "Hardly anyone has stopped at the allegory. Claudel had been Auguste Rodin's student, collaborator and lover for about ten years. He was twenty-four years older and never left Rose Beuret, his companion since his youth. By the mid-1890s Claudel had walked away from him."},
+    {"type": "fact", "text": "Her brother, the poet and diplomat Paul Claudel, wrote years later that the kneeling girl was his sister: Camille herself, begging, humiliated, and willing to show it to everyone. He found the sculpture almost unbearable to stand in front of."},
+    {"type": "text", "text": "An earlier version, from around 1895, tells a softer story. In it the man still stands close and the young woman still holds his arm. He hesitates. Four years later Claudel moved the figures apart, tilted the man forward and opened the gap. Hesitation had become departure."},
+    {"type": "key", "text": "Claudel turned the base of a sculpture into time. Left is what is coming, right is what is lost, and the empty space between two hands is the present."},
+    {"type": "text", "text": "The eye reads the group as a slide. Nothing in it stands upright, and the ground itself seems to tip. Three lines show how she built that."},
+    {"type": "lines", "text": "A composition made of slopes.", "lines": [
+      {"points": [[0.13, 0.06], [0.42, 0.3], [0.59, 0.47], [0.86, 0.72]], "closed": false, "label": "The great diagonal", "text": "From the top of the cloak down the man's arm, across the gap, to the kneeling body: one unbroken slant. All three figures hang on it like beads on a string."},
+      {"points": [[0.5, 0.78], [0.42, 0.45], [0.33, 0.1]], "closed": false, "label": "Leaning away", "text": "The man's body tips to the left, the way he is going. Legs behind, chest ahead. He is off balance and moving."},
+      {"points": [[0.8, 0.84], [0.75, 0.58], [0.6, 0.5]], "closed": false, "label": "Leaning after", "text": "The young woman tips the same way, but from the knees, without leaving her spot. Her whole body is one reach that falls short."}
+    ]},
+    {"type": "text", "text": "Under their feet, the base is not flat ground. It rises and curls like a wave, higher under the couple on the left, lower under the girl. She has been left on a different level, as if the deck were already carrying the others off."},
+    {"type": "fact", "text": "The French state ordered the group in 1895, then cancelled in 1899 without giving a clear reason. Claudel suspected Rodin. Nothing proves it. The bronze exists because an army officer, Captain Louis Tissier, paid for a cast himself in 1902."},
+    {"type": "text", "text": "Claudel also released the kneeling figure on her own, without the couple, under the title The Implorer. Alone, she begs toward nothing. It is worth going back over the full group with that in mind, piece by piece."},
+    {"type": "explore", "spots": [
+      {"x": 0.59, "y": 0.475, "zoom": 3.6, "r": 0.06, "title": "The gap", "text": "Seen up close, his fingers hang slack while hers are tense and cupped. The two hands tell the two sides of the story."},
+      {"x": 0.19, "y": 0.13, "zoom": 2.4, "r": 0.1, "title": "The cloak", "text": "It billows up and back like a dark sail or a wing, and makes the old woman far larger than her thin body. It also gives the group its high point."},
+      {"x": 0.49, "y": 0.27, "zoom": 3.4, "r": 0.05, "title": "A hand on his arm", "text": "Bony fingers close around the man's upper arm from behind. Old age does not drag him by force. It guides him, firmly, like a nurse."},
+      {"x": 0.29, "y": 0.47, "zoom": 3.2, "r": 0.06, "title": "The other grip", "text": "Lower down on the left, more hands. On this side he is held. On the other side he has just let go. He cannot be in both grips at once."},
+      {"x": 0.73, "y": 0.52, "zoom": 3.2, "r": 0.05, "title": "Her face", "text": "Head tipped back, mouth slightly open, hair knotted at the nape. Her eyes go to his face, not to his hand. He gives nothing back."},
+      {"x": 0.2, "y": 0.8, "zoom": 2.6, "r": 0.09, "title": "The curl of the wave", "text": "At the far left the base rears up and rolls over like a breaker. The ground is in motion, and it moves the same way as the man."},
+      {"x": 0.48, "y": 0.6, "zoom": 2.2, "r": 0.12, "title": "Rough drapery", "text": "The cloth around the man's legs is modeled in torn, restless strips, very unlike the girl's smooth skin. Rough for age, smooth for youth."}
+    ]},
+    {"type": "text", "text": "After 1905 Claudel worked less and less. She lived alone in her Paris studio, convinced that Rodin and his circle were stealing her ideas, and she smashed many of her own plasters. In March 1913, days after her father died, her family had her committed to an asylum."},
+    {"type": "fact", "text": "She stayed locked up for thirty years, until her death in 1943, and is not known to have sculpted again. Doctors suggested more than once that she could go home. It did not happen."},
+    {"type": "key", "text": "You can read The Mature Age as one woman's heartbreak or as everyone's passage through time. The gap between the hands works for both, which is why it still stings."}
+  ],
+  "quiz": [
+    {"question": "What moment does the sculpture show?", "options": ["Two lovers meeting for the first time", "The instant after a man's hand has slipped from a young woman's grasp", "A man rescuing a woman from the sea"], "answer": 1, "explanation": "The hands have just parted and the man is already moving away."},
+    {"question": "In the allegory, what does the old woman stand for?", "options": ["Old age and death", "Justice", "The artist's mother"], "answer": 0, "explanation": "She leads the man away from youth toward the end of life."},
+    {"question": "How did the earlier version, around 1895, differ?", "options": ["It had only two figures", "The old woman was missing", "The young woman still held the man's arm"], "answer": 2, "explanation": "In the first version the man hesitates and contact is not yet broken."},
+    {"question": "Who made the bronze cast possible in 1902?", "options": ["Auguste Rodin", "Captain Louis Tissier, a private buyer", "The French state"], "answer": 1, "explanation": "The state had cancelled its order, and Tissier paid for a cast himself."},
+    {"question": "What is The Implorer?", "options": ["The kneeling young woman shown on her own", "A portrait of Rose Beuret", "The title of the first version"], "answer": 0, "explanation": "Claudel released the kneeling figure separately under that title."},
+    {"question": "What is unusual about the base?", "options": ["It is made of marble", "It is perfectly flat and square", "It rises and curls like a wave"], "answer": 2, "explanation": "The ground is shaped like a wave, with the young woman left on a lower level."}
+  ],
+  "facts": [
+    {"text": "The man looks back at the young woman as he leaves.", "isTrue": false, "explanation": "His head is lowered and he looks at neither woman."},
+    {"text": "Paul Claudel saw his own sister in the kneeling figure.", "isTrue": true, "explanation": "He wrote that the begging girl was Camille herself."},
+    {"text": "Camille Claudel spent the last thirty years of her life in an asylum.", "isTrue": true, "explanation": "She was committed in 1913 and died there in 1943."}
+  ]
+}

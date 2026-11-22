@@ -1,0 +1,225 @@
+{
+ "teaser": "A rower's dark back, a baby in pink, and a yellow boat that once traveled on millions of envelopes.",
+ "focus": [
+  0.47,
+  0.3
+ ],
+ "review_notes": "1966 US 5-cent postage stamp reproducing The Boating Party: check date and value.\nPainted at Antibes in the winter of 1893-94: check.\nManet's Boating (1874) bought by the Havemeyers on Cassatt's advice in 1895: check.\nDimensions about 90 x 117 cm; Chester Dale Collection, National Gallery of Art, 1963: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1966, Americans licked the back of this painting. The United States Post Office printed it on a five-cent stamp to honor Mary Cassatt, and the yellow boat shrank to the size of a thumbnail. It still worked. Even that small, you could read the picture: a dark shape, a pale sail, a spot of pink."
+  },
+  {
+   "type": "text",
+   "text": "That is the first thing to understand about it. Cassatt built the image out of a few big, flat areas of color with sharp edges, almost like pieces of cut paper. She painted it on the French Riviera, at Antibes, in the winter of 1893 to 1894, under a light much harder than the grey skies of Paris."
+  },
+  {
+   "type": "text",
+   "text": "The canvas is about 90 by 117 centimeters (35 by 46 inches), large for her. And she gave the biggest share of it to a man seen from behind. Why put a back in the foreground? Because of where it sends you."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines, one meeting point.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.7
+      ],
+      [
+       0.18,
+       0.6
+      ],
+      [
+       0.44,
+       0.45
+      ]
+     ],
+     "closed": false,
+     "label": "The oar",
+     "text": "The yellow oar enters from the left edge and climbs straight toward the middle of the picture."
+    },
+    {
+     "points": [
+      [
+       0.95,
+       0.36
+      ],
+      [
+       0.72,
+       0.42
+      ],
+      [
+       0.48,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The arm",
+     "text": "The rower's arm stretches from the right. His fist closes on the oar exactly where the two lines meet, just below the child."
+    },
+    {
+     "points": [
+      [
+       0.17,
+       0.61
+      ],
+      [
+       0.28,
+       0.44
+      ],
+      [
+       0.45,
+       0.36
+      ],
+      [
+       0.63,
+       0.35
+      ]
+     ],
+     "closed": false,
+     "label": "The boat's rim",
+     "text": "The white edge of the boat curves around the woman and baby like a cradle, closing the group in from behind."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Oar, arm and boat all point at the baby in pink, who sprawls on the woman's lap without a care. The composition is a funnel. You enter over the rower's shoulder, as if you were sitting in the stern behind him, and you slide toward the child."
+  },
+  {
+   "type": "fact",
+   "text": "Cassatt knew a famous earlier picture of a couple in a boat: Edouard Manet's “Boating,” painted in 1874. She admired it so much that she later urged her friends the Havemeyers, great New York collectors, to buy it. It now hangs at the Metropolitan Museum of Art."
+  },
+  {
+   "type": "text",
+   "text": "Now the faces. There are three people here and a small silent drama among them. The woman watches the rower. The baby turns toward him too. He leans in, working. Nobody tells us who he is: a husband, a father, a hired boatman? Cassatt leaves the question open, and her way of painting each figure deepens it."
+  },
+  {
+   "type": "tour",
+   "title": "Three ways to paint a person",
+   "text": "Each figure gets a different treatment.",
+   "spots": [
+    {
+     "x": 0.83,
+     "y": 0.52,
+     "zoom": 1.6,
+     "r": 0.2,
+     "title": "The rower",
+     "text": "Almost no modeling at all: a single mass of deep blue-black, cut out against the water. Only his cheek and ear catch the light. He is a silhouette more than a portrait."
+    },
+    {
+     "x": 0.43,
+     "y": 0.14,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The woman",
+     "text": "Her face is carefully drawn and fully lit under the big hat. Her eyes are fixed on the man. She is the only one whose expression we can truly read: attentive, a little reserved."
+    },
+    {
+     "x": 0.52,
+     "y": 0.31,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The child",
+     "text": "The baby slumps back, hat pushed up, squinting in the sun. The pink dress is the warmest color in the painting, placed right in the center of all that blue and yellow."
+    },
+    {
+     "x": 0.1,
+     "y": 0.25,
+     "zoom": 1.8,
+     "r": 0.14,
+     "title": "The sail",
+     "text": "A pale green wedge, brushed thin enough for the canvas weave to show. It balances the rower's dark mass on the opposite side."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Dark against light, warm against cool, sharp edge against sharp edge. This way of working owes a lot to the Japanese woodblock prints Cassatt had studied a few years earlier, where shapes are flat and outlines do the talking. Notice also how high the far shore sits: the sea fills nearly the whole background, like a wall of blue."
+  },
+  {
+   "type": "key",
+   "text": "By pushing the horizon to the very top and reducing figures to bold flat shapes, Cassatt turned a family outing into something close to a poster, decades before posters looked like this."
+  },
+  {
+   "type": "fact",
+   "text": "Cassatt was nearly fifty when she painted this, and it stayed with her for years. It entered the National Gallery of Art in Washington in 1963 with the collection of Chester Dale, a Wall Street financier who filled his New York home with modern French painting and then gave nearly all of it to the nation."
+  },
+  {
+   "type": "text",
+   "text": "So go back to that stamp. A painting that survives being shrunk to two centimeters has a strong skeleton. Try it yourself: squint at the image until the details vanish. Four shapes remain, yellow, navy, pale green and pink, and the picture is still entirely there."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where did Cassatt paint The Boating Party?",
+   "options": [
+    "In Philadelphia",
+    "At Antibes, on the French Riviera",
+    "On the Seine near Paris"
+   ],
+   "answer": 1,
+   "explanation": "She painted it at Antibes in the winter of 1893 to 1894."
+  },
+  {
+   "question": "What do the oar and the rower's arm point toward?",
+   "options": [
+    "The sail",
+    "The far shore",
+    "The baby on the woman's lap"
+   ],
+   "answer": 2,
+   "explanation": "Both lines meet just below the child in pink."
+  },
+  {
+   "question": "How is the rower painted?",
+   "options": [
+    "As a dark, nearly flat silhouette",
+    "With a detailed, smiling face",
+    "In bright pink"
+   ],
+   "answer": 0,
+   "explanation": "He is one mass of deep blue-black with only cheek and ear lit."
+  },
+  {
+   "question": "Which earlier painting of a couple in a boat did Cassatt admire?",
+   "options": [
+    "Monet's Water Lilies",
+    "Manet's Boating",
+    "Renoir's Luncheon of the Boating Party"
+   ],
+   "answer": 1,
+   "explanation": "She urged the Havemeyers to buy Manet's 1874 Boating."
+  },
+  {
+   "question": "Where is the horizon placed?",
+   "options": [
+    "In the middle",
+    "Near the bottom",
+    "At the very top"
+   ],
+   "answer": 2,
+   "explanation": "The sea fills almost the entire background."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Boating Party was reproduced on a United States postage stamp.",
+   "isTrue": true,
+   "explanation": "A five-cent stamp honoring Cassatt carried it in 1966."
+  },
+  {
+   "text": "The rower faces us and smiles.",
+   "isTrue": false,
+   "explanation": "We see him from behind; his face is almost hidden."
+  },
+  {
+   "text": "The warmest color in the painting is the baby's pink dress.",
+   "isTrue": true,
+   "explanation": "It sits at the center of the blues and yellows."
+  }
+ ]
+}

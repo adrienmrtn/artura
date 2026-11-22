@@ -1,0 +1,53 @@
+{
+  "teaser": "A boy in a sun hat, a sword too big for him, and a giant's head under his foot.",
+  "focus": [0.44, 0.2],
+  "review_notes": "Date: the bronze David is undocumented; proposals range from the 1430s to the 1450s. The catalog's 1440 is a reasonable midpoint.\nOpening: Donatello's marble David (1408-09) was commissioned for a cathedral buttress, never installed there and sent to the Palazzo della Signoria in 1416. The reason usually given is that such figures proved too small to read from the ground: check wording.\n“First freestanding nude male statue since antiquity” is the standard claim; kept with “as far as we know”.\nCommission by Cosimo de' Medici is probable, not documented. First record: 1469 wedding of Lorenzo de' Medici, in the palace courtyard.\nHelmet wing rising along the inside of David's right leg: located from the photo at about (0.45, 0.73), the area is dark; check the marker.\nTraces of gilding found during the 2007-08 restoration: check.\nHeight 158 cm.",
+  "lesson": [
+    {"type": "text", "text": "Donatello's first David was a letdown. Around 1408, when he was in his early twenties, Florence Cathedral ordered a marble David from him to stand high on one of its buttresses. The statue was carved, paid for, and never hoisted up. From the street it would have been a speck. It sat in the workshop for years."},
+    {"type": "text", "text": "That marble boy was stiff, fully dressed and built for distance. Some three decades later Donatello took up the same hero again, and this time he did the opposite of everything. He chose bronze, a height of only 158 cm (about 5 ft 2 in), and a figure meant to be met at close range, from every side."},
+    {"type": "text", "text": "The story comes from the Bible. The shepherd boy David refuses the king's armor, walks out against the giant Goliath with a sling, knocks him down with one stone and cuts off his head with the giant's own sword. Donatello shows the quiet afterward."},
+    {"type": "tour", "title": "After the fight", "text": "Follow the evidence of what just happened, from the top of the figure to the bottom.", "spots": [
+      {"x": 0.44, "y": 0.17, "zoom": 3, "r": 0.11, "title": "Eyes lowered", "text": "No shout of triumph. Under the brim of his hat David looks down, lips closed, almost dreamy. You cannot tell if he is proud, tired or simply lost in thought."},
+      {"x": 0.59, "y": 0.43, "zoom": 3.6, "r": 0.07, "title": "The stone", "text": "The hand resting on his hip still holds a stone. It is the only reminder of the sling, the shepherd's weapon that did the real work."},
+      {"x": 0.28, "y": 0.5, "zoom": 2.6, "r": 0.09, "title": "A borrowed sword", "text": "The other hand rests on a sword almost as long as his leg. It is Goliath's, far too heavy for a boy. He leans it toward the ground like a walking stick."},
+      {"x": 0.62, "y": 0.82, "zoom": 3, "r": 0.11, "title": "The giant", "text": "At the bottom lies Goliath's severed head, bearded, eyes shut, still wearing its helmet. David's left foot rests on it as casually as on a step."}
+    ]},
+    {"type": "text", "text": "Now that you have seen the stone, the sword and the head, notice what is missing: clothes. David wears a hat and a pair of boots, nothing else. In the Bible he takes off the king's armor because it weighs him down. Donatello took that sentence literally, and then some."},
+    {"type": "fact", "text": "As far as we know, this is the first freestanding nude male statue made since ancient Rome, a gap of about a thousand years. “Freestanding” means it is not attached to a wall or niche: you can walk all the way around it."},
+    {"type": "text", "text": "For a medieval sculptor a statue belonged to a building. It had a front, and a back nobody saw. Donatello had studied the ancient bronzes and marbles of Rome, and from them he took a different idea: a body that holds itself up, balanced on its own, interesting from behind as much as from the front."},
+    {"type": "lines", "text": "How does a standing figure look relaxed instead of rigid? The answer is in how the weight is shared.", "lines": [
+      {"points": [[0.39, 0.55], [0.38, 0.68], [0.4, 0.79]], "closed": false, "label": "The working leg", "text": "This leg is straight and carries nearly all the weight, like a column under the body."},
+      {"points": [[0.47, 0.56], [0.46, 0.67], [0.6, 0.78]], "closed": false, "label": "The resting leg", "text": "The other leg bends at the knee and swings forward onto the giant's head. It carries almost nothing."},
+      {"points": [[0.44, 0.14], [0.41, 0.3], [0.45, 0.45], [0.4, 0.62], [0.4, 0.78]], "closed": false, "label": "The S-curve", "text": "Because the weight sits on one side, the hip pushes out and the whole body sways in a soft S. The Italian word for this pose is contrapposto: the body's parts answer each other."}
+    ]},
+    {"type": "key", "text": "Contrapposto, weight on one leg and the rest of the body adjusting to it, is the ancient trick Donatello brought back. It makes metal look like someone standing at ease."},
+    {"type": "text", "text": "The bronze was made by lost-wax casting. The sculptor models the figure in wax over a clay core, covers it in more clay and heats it. The wax runs out and molten bronze is poured into the gap it leaves. What you see is a hollow metal shell, later chiseled and polished until it shone like skin."},
+    {"type": "find", "text": "The hat is not just a hat. Something is wound around its crown. Tap it.", "spots": [
+      {"x": 0.42, "y": 0.115, "zoom": 3.8, "r": 0.08, "title": "Laurel leaves", "text": "A wreath of laurel circles the shepherd's hat. Since antiquity laurel has crowned winners and poets. The boy's country hat has quietly become a victor's crown."}
+    ]},
+    {"type": "text", "text": "A second wreath, much larger, forms the round base under the giant's head. The statue is framed by victory at both ends. Florence liked that message. The city saw itself as a David, a small republic facing bigger enemies such as the dukes of Milan."},
+    {"type": "fact", "text": "The statue first appears in the records in 1469, at a wedding. Guests at the marriage of the young Lorenzo de' Medici saw it standing on a column in the courtyard of the family palace, where anyone coming in from the street would pass it."},
+    {"type": "text", "text": "No contract survives, so nobody can say for certain who ordered it or exactly when. The banker Cosimo de' Medici, Lorenzo's grandfather and Donatello's loyal patron, is the likeliest candidate. A private courtyard would also explain the nudity and the dreamy sensuality, hard to imagine on a church."},
+    {"type": "explore", "spots": [
+      {"x": 0.53, "y": 0.81, "zoom": 3.4, "r": 0.09, "title": "The helmet", "text": "Goliath's helmet is decorated with a small relief on its visor. Donatello finished even the parts that sit at ankle height."},
+      {"x": 0.45, "y": 0.73, "zoom": 3.2, "r": 0.07, "title": "A wing", "text": "The helmet has wings. One of them rises between David's legs, along the inside of the straight one. It is among the strangest and most discussed details of the statue."},
+      {"x": 0.57, "y": 0.71, "zoom": 3, "r": 0.09, "title": "Boots", "text": "Tall, soft boots that leave the toes bare. They make the nakedness of the rest of the body even more noticeable."},
+      {"x": 0.45, "y": 0.37, "zoom": 2, "r": 0.14, "title": "A boy's body", "text": "No hero's muscles here. The chest is narrow and the belly soft: the body of an adolescent. The victory looks like a miracle, which is the point of the story."},
+      {"x": 0.55, "y": 0.93, "zoom": 2.6, "r": 0.15, "title": "The wreath below", "text": "The base is a thick ring of leaves resting on a stone pedestal. It turns the ground the boy stands on into a prize."}
+    ]},
+    {"type": "fact", "text": "The dark surface is not the whole story. When restorers cleaned the bronze in 2007 and 2008, they found traces of gold leaf. Parts such as the hair once gleamed against the brown metal."},
+    {"type": "text", "text": "The first failure had a second act, too. In 1494 the Medici were chased out of Florence, and the next year the new government confiscated the bronze David and set it up in the town hall. The marble one from the cathedral was already there. Two rejected and reclaimed boys, both by the same hand, guarding the same republic."}
+  ],
+  "quiz": [
+    {"question": "What happened to the marble David Donatello carved as a young man?", "options": ["It was smashed during a riot", "It was never placed on the cathedral buttress it was made for", "It was sold to the king of France"], "answer": 1, "explanation": "It was finished and paid for but never installed up on the cathedral."},
+    {"question": "What does David hold in the hand that rests on his hip?", "options": ["A stone", "A sling made of leather", "Goliath's hair"], "answer": 0, "explanation": "The stone recalls the sling that brought the giant down."},
+    {"question": "What is contrapposto?", "options": ["A way of casting hollow bronze", "A wreath of laurel given to winners", "A pose with the weight on one leg, so the body sways"], "answer": 2, "explanation": "One leg carries the weight and the rest of the body adjusts in a gentle curve."},
+    {"question": "Why is this statue a turning point?", "options": ["It is the first statue ever cast in bronze", "It is, as far as we know, the first freestanding nude male statue since antiquity", "It is the first statue of David"], "answer": 1, "explanation": "No nude male figure made to be seen from all sides is known from the thousand years before it."},
+    {"question": "Where was the statue recorded in 1469?", "options": ["In the courtyard of the Medici palace", "On the cathedral roof", "In a Roman church"], "answer": 0, "explanation": "Wedding guests saw it on a column in the palace courtyard."}
+  ],
+  "facts": [
+    {"text": "The sword David holds is his own shepherd's weapon.", "isTrue": false, "explanation": "It is Goliath's sword; David's weapon was a sling."},
+    {"text": "Restorers found traces of gilding on the bronze.", "isTrue": true, "explanation": "The 2007-08 cleaning revealed remains of gold leaf."},
+    {"text": "A contract proves that Cosimo de' Medici ordered the statue in 1440.", "isTrue": false, "explanation": "No contract survives; Cosimo is only the most likely patron and the date is uncertain."}
+  ]
+}

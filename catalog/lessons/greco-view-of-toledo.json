@@ -1,0 +1,39 @@
+{
+  "teaser": "A real Spanish city, rearranged by its painter under a sky about to break.",
+  "focus": [0.72, 0.42],
+  "review_notes": "Date usually given as about 1599-1600.\nPhilip II's rejection of The Martyrdom of Saint Maurice (delivered 1582, replaced at the Escorial by a version by Romulo Cincinnato): standard account.\nRelocation of the cathedral tower to the left of the Alcazar: per the Metropolitan Museum's description.\nThe building group on a cloud-like mound at left is sometimes identified as the Agaliense monastery; the lesson only says its identity is debated.\nThe inscription about moving the Hospital of Tavera is on El Greco's other landscape, View and Plan of Toledo (Museo del Greco, Toledo).\nTiny figures on the road left of the bridge are very small in this reproduction; coordinates taken from an enlarged crop.\nSize about 121 x 109 cm. Entered the Met in 1929 with the Havemeyer bequest.",
+  "lesson": [
+    {"type": "text", "text": "In 1582 a Greek painter delivered a large altarpiece to the most powerful man in Europe, King Philip II of Spain. The king paid for it, disliked it, and had another artist paint a replacement. The Greek never got a second royal order. His plan to become a court painter was over."},
+    {"type": "text", "text": "So he stayed where he had been living while he waited: Toledo, a steep old city on a rock above the Tagus River, about 70 kilometers (45 miles) south of Madrid. People there called him El Greco, “the Greek.” He would spend the rest of his life in Toledo, some 37 years, and around 1599 he painted the city that had taken him in."},
+    {"type": "text", "text": "Pictures of places were nothing new, but they were usually backgrounds: a town behind a saint, a valley behind a portrait. Here there is no saint and no story. The city and the weather are the whole subject. That makes this one of the earliest pure landscapes in Spanish painting."},
+    {"type": "fact", "text": "Only two landscapes by El Greco survive, and both show Toledo. An inventory made after his death lists a picture described simply as “a Toledo,” which may well be this canvas."},
+    {"type": "text", "text": "You might expect a painter proud of his town to record it carefully. El Greco does something bolder. He looks at Toledo from the north, keeps its famous landmarks, and then moves them around like pieces on a board until the skyline has the shape he wants."},
+    {"type": "tour", "title": "A city rearranged", "text": "Three landmarks, climbing from the river to the top of the hill.", "spots": [
+      {"x": 0.39, "y": 0.6, "zoom": 3, "r": 0.11, "title": "The Alcántara bridge", "text": "A Roman bridge with a tower at each end crosses the Tagus. El Greco stretches the towers upward, thin and pale, like everything he paints."},
+      {"x": 0.685, "y": 0.36, "zoom": 3.4, "r": 0.06, "shape": "rect", "title": "The cathedral tower", "text": "This spire should not be here. From this side of town it would be hidden or far to the right. He shifts it left so it stands free against the storm."},
+      {"x": 0.86, "y": 0.37, "zoom": 3, "r": 0.09, "title": "The Alcázar", "text": "The square royal fortress crowns the hill. With the spire beside it, church and crown share the top of the city, and the houses spill down from them."}
+    ]},
+    {"type": "key", "text": "This is a portrait of Toledo, not a map of it. El Greco changes the facts of the place to get at how it feels: high, proud, and a little unreal."},
+    {"type": "fact", "text": "We know he moved buildings on purpose because he once said so. In his other view of Toledo he wrote a note on the canvas itself, explaining that he had shifted a hospital because it blocked a city gate."},
+    {"type": "text", "text": "Then there is the sky, which takes up nearly half the canvas. Black-blue clouds tear open over the hill and white light falls through the gaps. The buildings are painted in cold silver-gray, as if lit by lightning. The hills below are an almost electric green. Nothing here is the color of a sunny Spanish afternoon."},
+    {"type": "text", "text": "The brush is loose and quick, especially in the grass and trees of the foreground, which are little more than flicks of green. Against all that weather the city looks deserted. It is not, quite."},
+    {"type": "find", "text": "A few people are out walking under this sky, on the pale road that climbs to the bridge. Can you spot them?", "spots": [
+      {"x": 0.247, "y": 0.625, "zoom": 4.6, "r": 0.04, "title": "Travelers", "text": "A handful of dark specks, each a single touch of the brush, head up the road toward the bridge tower. They show how huge the hills and the storm are."}
+    ]},
+    {"type": "text", "text": "Those specks are the only sign of daily life. Everything else belongs to stone, water and cloud. To the left of the road, a group of buildings sits on what looks like a gray cloud bank resting on the ground. Nobody is sure what El Greco meant by it, and scholars still argue."},
+    {"type": "fact", "text": "The stormy, swirling sky is often compared to Vincent van Gogh's The Starry Night. Van Gogh painted his almost 300 years later."},
+    {"type": "text", "text": "For centuries after his death El Greco was treated as an oddity. Then, around 1900, painters who wanted to show feeling more than appearance, the artists later called Expressionists, found in him an ancestor. The canvas crossed the ocean and has hung in New York since 1929. Was the king wrong about him, or simply three hundred years too early?"}
+  ],
+  "quiz": [
+    {"question": "What setback kept El Greco in Toledo?", "options": ["A fire destroyed his studio in Madrid", "King Philip II disliked a painting and gave him no more orders", "He was banned from leaving Spain"], "answer": 1, "explanation": "The king had his altarpiece replaced, ending El Greco's hopes of a court career."},
+    {"question": "What is unusual about this picture for its time in Spain?", "options": ["The landscape itself is the subject, with no saint or story", "It was painted on glass", "It shows Toledo at night by moonlight"], "answer": 0, "explanation": "It is one of the earliest pure landscapes in Spanish painting."},
+    {"question": "What did El Greco do with the cathedral tower?", "options": ["He left it out", "He painted it in ruins", "He moved it to the left so it stands beside the Alcázar"], "answer": 2, "explanation": "From this viewpoint the tower would not appear there, so he shifted it."},
+    {"question": "How many landscapes by El Greco survive?", "options": ["Two, both of Toledo", "About twenty", "Only this one"], "answer": 0, "explanation": "Two landscapes are known, and both show Toledo."},
+    {"question": "Which later artists looked back to El Greco as an ancestor?", "options": ["The court painters of Philip II", "The Expressionists, around 1900", "Ancient Roman fresco painters"], "answer": 1, "explanation": "Artists who put feeling before appearance rediscovered him around 1900."}
+  ],
+  "facts": [
+    {"text": "El Greco painted Toledo exactly as it looked, building by building.", "isTrue": false, "explanation": "He moved landmarks such as the cathedral tower to shape the skyline he wanted."},
+    {"text": "There are tiny people in the painting, walking toward the bridge.", "isTrue": true, "explanation": "A few specks of paint on the road are travelers heading for the bridge tower."},
+    {"text": "The sky fills only a thin strip at the top of the canvas.", "isTrue": false, "explanation": "The storm sky takes up nearly half of the picture."}
+  ]
+}

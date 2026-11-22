@@ -1,0 +1,280 @@
+{
+ "teaser": "The most famous face of ancient Egypt is flawless, except for the eye that was never there.",
+ "focus": [
+  0.35,
+  0.5
+ ],
+ "review_notes": "IMAGE: at this resolution the blank left eye (viewer's right) is hard to distinguish from the inlaid right eye; a human should check the tour spots on the eyes.\nHeight about 48 cm, weight about 20 kg.\nFound 6 December 1912 by Ludwig Borchardt's team at Amarna; Borchardt's diary note 'Description is useless, must be seen' is the usual translation.\nWorkshop attributed to Thutmose from an inscribed ivory horse blinker.\nCT scans (1992, 2006) showing a more wrinkled limestone face under the stucco.\nJames Simon gave the bust to the Berlin museums in 1920; first public display 1924; hidden in a salt mine in 1945; Neues Museum since 2009.\nClaims about the 1913 division of finds are disputed and are worded cautiously.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Here is a face finished to the last millimeter: the lips outlined, the brows drawn in a single sweep, the skin smoothed like an eggshell. And here is the same face with a blank where one eye should be. Perfect and incomplete at once. That contradiction has puzzled people for more than a century."
+  },
+  {
+   "type": "tour",
+   "title": "Two eyes, two stories",
+   "text": "Compare the eyes, then see what the sculptor did everywhere else.",
+   "spots": [
+    {
+     "x": 0.265,
+     "y": 0.47,
+     "zoom": 4.2,
+     "r": 0.05,
+     "title": "Her right eye",
+     "text": "On your left. The pupil is a disk of quartz painted black on the back and fixed in place with beeswax. A black line of kohl, the eye paint Egyptians wore, runs around it."
+    },
+    {
+     "x": 0.42,
+     "y": 0.47,
+     "zoom": 4.2,
+     "r": 0.06,
+     "title": "Her left eye",
+     "text": "The socket is rimmed with the same black line, but it holds only smooth pale stone. No inlay, and no trace of glue was ever found. It seems this eye was never put in."
+    },
+    {
+     "x": 0.31,
+     "y": 0.585,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "The mouth",
+     "text": "Full lips in a deep red brown, with a crisp edge and the faintest lift at the corners. Nothing here was left rough. Whoever made this was not short of time or skill."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the missing eye is probably not an accident. Why would a sculptor polish a queen's portrait this far and stop one step short? The place where it was found suggests an answer."
+  },
+  {
+   "type": "text",
+   "text": "On December 6, 1912, a German team led by Ludwig Borchardt was digging at Amarna, in middle Egypt. In the ruins of a house they uncovered a room full of plaster faces and unfinished stone heads. It was a sculptor's workshop, abandoned when the city emptied some 3,250 years earlier."
+  },
+  {
+   "type": "fact",
+   "text": "We know the sculptor's name thanks to a piece of horse tack. An ivory blinker found in the rubbish of the compound is inscribed for “the favorite of the king, the master of works, the sculptor Thutmose.”"
+  },
+  {
+   "type": "text",
+   "text": "That changes what the bust is. It was not made for a temple or a tomb. Many scholars think it was the master's model, the reference his assistants copied when they carved the queen for official statues. A model needs to show how an eye is done only once."
+  },
+  {
+   "type": "text",
+   "text": "The queen was Nefertiti, whose name means “the beautiful one has come.” She was the chief wife of Akhenaten, the pharaoh who shut down Egypt's old gods in favor of a single one, the disk of the sun, and built a new capital at Amarna to worship it."
+  },
+  {
+   "type": "fact",
+   "text": "Borchardt, faced with the bust in the trench, gave up on his field notes. His diary entry ends: “Description is useless, must be seen.”"
+  },
+  {
+   "type": "text",
+   "text": "Part of its pull is pure engineering. The bust is about 48 centimeters tall, 19 inches, and the tall flat-topped crown is heavy. A long, slender neck has to carry it. Thutmose turned that problem of weight into the elegance everyone remembers."
+  },
+  {
+   "type": "lines",
+   "text": "Follow how the weight is balanced.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.52,
+       0.85
+      ],
+      [
+       0.36,
+       0.63
+      ]
+     ],
+     "closed": false,
+     "label": "The neck leans forward",
+     "text": "From the shoulders, the neck reaches out and up toward the chin. On its own, this would make the head look about to tip forward."
+    },
+    {
+     "points": [
+      [
+       0.27,
+       0.5
+      ],
+      [
+       0.84,
+       0.17
+      ]
+     ],
+     "closed": false,
+     "label": "The crown leans back",
+     "text": "The crown continues the slope of the forehead and flares backward. Its mass pulls the other way, and the two thrusts cancel out."
+    },
+    {
+     "points": [
+      [
+       0.29,
+       0.11
+      ],
+      [
+       0.235,
+       0.42
+      ],
+      [
+       0.27,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "One long profile",
+     "text": "Front of the crown, forehead, nose and chin run in an almost unbroken line. The crown reads as part of the head itself."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That counterweight is why the head seems to hover. It is also why the piece is fragile: everything depends on the neck. Underneath the paint, the structure is more complicated than it looks."
+  },
+  {
+   "type": "fact",
+   "text": "In scans made with a hospital CT machine, researchers found a second face inside. The limestone core has creases at the corners of the mouth and a less even nose. Thutmose corrected it with layers of plaster, some of them paper-thin."
+  },
+  {
+   "type": "text",
+   "text": "Was he flattering her, or bringing the portrait in line with an official ideal? Either way, the famous beauty is partly an edit. And the surface he built up has had a rough life since it left his shelf."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.36,
+     "y": 0.31,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A broken cobra",
+     "text": "The loop of a snake's body rises on the front of the crown. Its raised head, the royal emblem that spat fire at enemies, has snapped off."
+    },
+    {
+     "x": 0.62,
+     "y": 0.3,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The ribbon",
+     "text": "A band painted with red, green and blue blocks circles the crown, imitating gold set with colored stones. The blue of the crown is a man-made pigment based on copper."
+    },
+    {
+     "x": 0.62,
+     "y": 0.5,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The ear",
+     "text": "Both ears are chipped. They stuck out and took the knocks, perhaps when the bust fell from its shelf as the workshop decayed."
+    },
+    {
+     "x": 0.69,
+     "y": 0.4,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Lost paint",
+     "text": "At the back of the crown the color has flaked away to the white plaster. You can see how thin the painted skin of the whole sculpture is."
+    },
+    {
+     "x": 0.47,
+     "y": 0.85,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The collar",
+     "text": "Rows of painted petals and beads copy the broad floral collars worn at court. The shoulders are sliced off straight on both sides: this was always a bust, never part of a full statue."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The bust left Egypt in 1913, when the finds of the season were divided between Egypt and the excavators. How fully the bust was shown to the Egyptian inspector that day is still argued about. It went to the Berlin home of James Simon, the merchant who had paid for the dig."
+  },
+  {
+   "type": "text",
+   "text": "Simon gave it to the Berlin museums in 1920, and it went on public view in 1924. Egypt asked for it back almost at once and has kept asking. Germany has always refused, at times arguing that the bust is too delicate to travel."
+  },
+  {
+   "type": "fact",
+   "text": "In 1945 the bust spent the last weeks of the war packed in a crate at the bottom of a salt mine in central Germany, where American soldiers found it along with gold reserves and thousands of other artworks."
+  },
+  {
+   "type": "text",
+   "text": "Since 2009 it has stood alone under a dome in the Neues Museum in Berlin. Photography is forbidden in the room. So visitors do what Borchardt recommended in 1912: they stop describing, and look, at a face with one eye that looks back and one that never will."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is odd about the bust's left eye?",
+   "options": [
+    "It is painted blue",
+    "It has no inlay and apparently never had one",
+    "It was replaced in modern times"
+   ],
+   "answer": 1,
+   "explanation": "The socket is empty of inlay and shows no trace of glue."
+  },
+  {
+   "question": "Where was the bust discovered?",
+   "options": [
+    "In Nefertiti's tomb",
+    "In a temple of the sun",
+    "In a sculptor's workshop at Amarna"
+   ],
+   "answer": 2,
+   "explanation": "It lay among plaster faces and unfinished heads in Thutmose's workshop."
+  },
+  {
+   "question": "How do we know the sculptor's name?",
+   "options": [
+    "From an inscribed ivory horse blinker",
+    "From a signature under the bust",
+    "From a letter by the king"
+   ],
+   "answer": 0,
+   "explanation": "A blinker found in the compound names the sculptor Thutmose."
+  },
+  {
+   "question": "What did CT scans reveal?",
+   "options": [
+    "A hollow cavity for a relic",
+    "A wooden frame",
+    "An inner limestone face with wrinkles, corrected in plaster"
+   ],
+   "answer": 2,
+   "explanation": "The stone core is less idealized than the plaster surface built over it."
+  },
+  {
+   "question": "How does the sculpture balance visually?",
+   "options": [
+    "A wide heavy base",
+    "The forward lean of the neck against the backward lean of the crown",
+    "Two symmetrical halves"
+   ],
+   "answer": 1,
+   "explanation": "The two opposing slopes cancel each other out."
+  },
+  {
+   "question": "Why do many scholars think the bust was made?",
+   "options": [
+    "As a model for other portraits of the queen",
+    "As a gift to a foreign king",
+    "As a lid for a coffin"
+   ],
+   "answer": 0,
+   "explanation": "It probably served as the workshop's reference for official statues."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The bust of Nefertiti was found in her tomb next to her mummy.",
+   "isTrue": false,
+   "explanation": "It was found in the workshop of the sculptor Thutmose at Amarna."
+  },
+  {
+   "text": "Nefertiti's name means “the beautiful one has come.”",
+   "isTrue": true,
+   "explanation": "That is the meaning of her name in ancient Egyptian."
+  },
+  {
+   "text": "The bust is carved from a single block of polished marble.",
+   "isTrue": false,
+   "explanation": "It has a limestone core covered with layers of painted plaster."
+  }
+ ]
+}

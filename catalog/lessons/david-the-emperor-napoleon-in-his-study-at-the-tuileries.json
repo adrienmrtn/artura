@@ -1,0 +1,51 @@
+{
+  "teaser": "The clock says 4:13. The candles say it is not the afternoon.",
+  "focus": [0.5, 0.17],
+  "review_notes": "Napoleon's reaction (\"You have understood me, David. By night I work for the welfare of my subjects, and by day for their glory\") is a traditional quote reported by David's circle.\nCommissioned in 1811 by Alexander Douglas, later 10th Duke of Hamilton; hung at Hamilton Palace, sold in 1882, given to the National Gallery of Art by the Kress Foundation (accessioned 1954).\nUniform identified by the NGA as that of a colonel of the Foot Grenadiers of the Imperial Guard; decorations are the Legion of Honor and the Order of the Iron Crown.\nBook under the desk identified as Plutarch's Lives; scroll on the desk reads COD(E); signature scroll reads LVD.CI DAVID OPVS 1812. These inscriptions are only partly legible in the image.\nDavid's own description of the scene (candles, clock, sword, review of the troops) comes from a letter of 1812.\nSecond version with a green uniform exists (Versailles).",
+  "lesson": [
+    {"type": "text", "text": "When Napoleon was shown this portrait in 1812, he is reported to have said: “You have understood me, David. By night I work for the welfare of my subjects, and by day for their glory.” He was delighted. He had not posed for it, and he had not paid for it."},
+    {"type": "text", "text": "The order came from Scotland. Alexander Douglas, a nobleman who would become Duke of Hamilton, collected art and admired the French emperor. In 1811 he asked David for a full-length portrait, and left the painter free to choose the setting."},
+    {"type": "fact", "text": "Britain and France were at war when the commission was made, and had been for most of twenty years. The portrait of the enemy's ruler was shipped across the Channel and hung in Hamilton Palace, near Glasgow."},
+    {"type": "text", "text": "With that freedom, David left out the battlefield and the throne. He chose an office in the Tuileries, the palace in Paris where Napoleon lived. And he told a story in it, using objects as witnesses. The first witness tells you what time it is."},
+    {"type": "find", "text": "What time is it in this room? Tap the object that says so.", "spots": [
+      {"x": 0.78, "y": 0.09, "zoom": 3.4, "r": 0.09, "title": "The clock", "text": "A tall case clock stands behind his shoulder. The short hand is just past IV, the long hand near III: about thirteen minutes past four."}
+    ]},
+    {"type": "text", "text": "Four in the afternoon would be an ordinary moment. But David explained the scene in a letter: the emperor has been writing all night, and it is nearly dawn. To prove it he planted more evidence on and around the desk."},
+    {"type": "tour", "title": "The night shift", "text": "Three objects, read from left to right, make a small sentence: he worked, on this, and now he leaves.", "spots": [
+      {"x": 0.31, "y": 0.415, "zoom": 3.8, "r": 0.06, "title": "The candles", "text": "Under the green shade of the desk lamp, the candles are burned down to stubs. One has gone out, another still flickers. Hours have passed."},
+      {"x": 0.85, "y": 0.49, "zoom": 4, "r": 0.06, "title": "The rolled paper", "text": "On the desk, a scroll shows the letters COD. It is the Code Napoléon, the set of civil laws issued in 1804 that he counted as his greatest achievement."},
+      {"x": 0.81, "y": 0.535, "zoom": 3.4, "r": 0.07, "title": "The sword", "text": "A sword with a gold hilt lies across the armchair, its white belt hanging down. He is about to buckle it on and go out to inspect his troops."}
+    ]},
+    {"type": "text", "text": "So the story runs: lawmaker until four in the morning, soldier from dawn. The famous general is presented as a civil servant who never sleeps. This was a new way to flatter a ruler, through his working hours, and politicians have used it ever since."},
+    {"type": "text", "text": "The setting was put together in the studio. David had painted Napoleon's face before, and he worked from those earlier studies and from memory. The clothes are real enough: the blue coat with white front and red cuffs is the uniform of a colonel in the Imperial Guard, which Napoleon wore on ordinary days."},
+    {"type": "fact", "text": "The hand tucked into the waistcoat was not a personal habit or a sign of stomach pain. It was a standard pose in portraits of gentlemen long before Napoleon, a sign of calm good manners. He just made it his own."},
+    {"type": "text", "text": "Now compare this man with the rider David painted eleven years earlier, smooth and ageless on his rearing horse. This time the painter allowed the body to show. Napoleon was 43. The hair is thin, the cheeks are heavy, the waistcoat strains a little."},
+    {"type": "text", "text": "This is still Neoclassicism, a style built on firm outlines and smooth, polished paint. You can see no brushstrokes, and every surface has its own texture. But the hero has been swapped for a tired man standing at life size: the canvas is about 2 meters tall (6.7 feet)."},
+    {"type": "explore", "spots": [
+      {"x": 0.5, "y": 0.155, "zoom": 3.4, "r": 0.09, "title": "The face", "text": "Slightly puffy, pale, with a patient half smile. The eyes meet yours directly. Nothing in it is hurried, despite the hour."},
+      {"x": 0.5, "y": 0.75, "zoom": 3.2, "r": 0.08, "title": "Wrinkled stockings", "text": "The white silk sags at the knees and ankles, and the breeches are creased. Small proof that he has been sitting in these clothes all night."},
+      {"x": 0.55, "y": 0.29, "zoom": 3.8, "r": 0.06, "title": "The decorations", "text": "Two orders he founded himself: the star of the Legion of Honor, France's award for merit, and the Iron Crown, created for his kingdom of Italy."},
+      {"x": 0.38, "y": 0.365, "zoom": 3.4, "r": 0.06, "title": "The hidden hand", "text": "Slipped between the buttons of the waistcoat. A lace cuff sticks out of the red sleeve."},
+      {"x": 0.78, "y": 0.735, "zoom": 3.4, "r": 0.08, "title": "Golden bees", "text": "Bees are embroidered on the red velvet of the chair. Napoleon chose the bee as his emblem: hard work, and a link to the earliest kings of France. There is an N on the frame too."},
+      {"x": 0.33, "y": 0.795, "zoom": 3.4, "r": 0.08, "title": "A book on the floor", "text": "Under the desk lies a thick volume, usually identified as Plutarch's Lives, ancient biographies of great Greeks and Romans. It hints at the company he keeps."},
+      {"x": 0.1, "y": 0.78, "zoom": 3.6, "r": 0.09, "title": "The signature", "text": "David signed in Latin on a rolled map lying on the carpet, with the date 1812."},
+      {"x": 0.21, "y": 0.66, "zoom": 3, "r": 0.06, "shape": "rect", "title": "The lion leg", "text": "The desk stands on a gilded lion, head at the top, paw at the bottom. Furniture like this, heavy with Roman and Egyptian motifs, is called Empire style."}
+    ]},
+    {"type": "text", "text": "David liked the result enough to paint a second version for himself, in which the coat is green. The first stayed in Scotland for seventy years. The Hamilton family sold it in 1882, and it passed through other hands before it crossed the Atlantic."},
+    {"type": "fact", "text": "The portrait has been in Washington since 1954, a gift of the Kress Foundation, set up by a five-and-dime store magnate who bought European paintings by the hundred for American museums."},
+    {"type": "key", "text": "A portrait can argue a case through objects alone. Here a clock, some candle stubs and a sword tell you who this man claims to be, before you even reach his face."},
+    {"type": "text", "text": "One more thing about the date on that rolled map. In June 1812, Napoleon marched some 600,000 men into Russia. By December most of them were dead or captured, and within two years he had lost his throne. The clock in the study says 4:13. For the empire, it was later than that."}
+  ],
+  "quiz": [
+    {"question": "Who commissioned this portrait?", "options": ["Napoleon himself", "A Scottish nobleman", "The city of Paris"], "answer": 1, "explanation": "Alexander Douglas, later Duke of Hamilton, ordered it in 1811."},
+    {"question": "What tells you it is early morning and not afternoon?", "options": ["The candles are burned down", "The window shows a sunrise", "A servant is bringing breakfast"], "answer": 0, "explanation": "The candle stubs show he has worked through the night."},
+    {"question": "What is the rolled paper on the desk?", "options": ["A battle plan", "A letter to Josephine", "The Code Napoléon"], "answer": 2, "explanation": "The letters COD refer to his code of civil laws from 1804."},
+    {"question": "Why is the sword lying on the chair?", "options": ["He has given up fighting", "He is about to put it on and review his troops", "It is a gift for the painter"], "answer": 1, "explanation": "The story is that he moves from night work to his duties as a soldier."},
+    {"question": "What animal is embroidered on the armchair?", "options": ["Bees", "Eagles", "Lions"], "answer": 0, "explanation": "The bee was Napoleon's chosen emblem."}
+  ],
+  "facts": [
+    {"text": "Napoleon posed in his study for several nights so David could paint this.", "isTrue": false, "explanation": "He did not pose; David worked from earlier studies and memory."},
+    {"text": "The hand-in-waistcoat pose existed in portraits before Napoleon.", "isTrue": true, "explanation": "It was a conventional sign of calm good manners."},
+    {"text": "The portrait was painted for a collector in a country at war with France.", "isTrue": true, "explanation": "It was ordered from Scotland while Britain and France were enemies."}
+  ]
+}

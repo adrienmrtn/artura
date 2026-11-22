@@ -1,0 +1,273 @@
+{
+ "teaser": "Eleven feet of open sea, painted far from any wave, by a man who refused to work outdoors.",
+ "focus": [
+  0.45,
+  0.72
+ ],
+ "review_notes": "Dimensions given as 221 x 332 cm.\nClaim that Nicholas I bought the painting and that it moved from the Hermitage to the Russian Museum when the latter was founded in the 1890s.\nClaim of about 6,000 paintings over Aivazovsky's career (the usual figure).\nClaim that sailors and oceanographers note such curling breakers belong near a shore, not the open sea (common criticism, worth a check).\nChekhov's phrase 'worthy of Aivazovsky's brush' as a Russian saying.\nThe number of survivors is given as 'a handful' because the image does not let me count them with certainty (usually said to be six).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is 3.3 meters wide and 2.2 meters tall, roughly 11 feet by 7. Stand in front of it in Saint Petersburg and the horizon sits near your own eye level. The water fills your whole field of vision. You are not looking at the sea from a safe beach. You are in it."
+  },
+  {
+   "type": "text",
+   "text": "The title comes from an old sailors' belief. Storm waves were said to arrive in series, each one bigger than the last, and the ninth was the killer. So the painting shows a countdown. A ship has already gone down during the night. The people who are left have survived eight waves. The ninth is rising behind them."
+  },
+  {
+   "type": "text",
+   "text": "All that sea makes the humans easy to miss, and that is deliberate. Ivan Aivazovsky gives them a strip at the very bottom of the picture. One of them is trying to be seen."
+  },
+  {
+   "type": "find",
+   "text": "Somebody is signaling with a scrap of red cloth. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.415,
+     "y": 0.78,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "The red signal",
+     "text": "A man stands on the wreckage and waves a red cloth above his head. It is the only pure red in the whole picture. To whom is he waving? No ship is in sight. Perhaps simply to the sun."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The raft is what remains of the ship: a broken mast and its crosspiece, with ropes still trailing in the water. A handful of men in eastern dress hang on to it. Aivazovsky never tells us who they are or where they sailed from. The shipwreck itself happened before the picture begins."
+  },
+  {
+   "type": "fact",
+   "text": "Aivazovsky did not paint this at sea, or even by the sea. He worked in his studio from memory, convinced that moving water cannot be copied on the spot because it changes faster than a brush can follow. Big canvases often took him only days."
+  },
+  {
+   "type": "text",
+   "text": "He was 33 and already famous. Born in 1817 in Feodosia, a port in Crimea, to an Armenian family, he had been named official painter to the Russian navy and had sailed with the fleet. He knew how ships break and how water behaves. Memory, for him, was a tool he had trained like a muscle."
+  },
+  {
+   "type": "text",
+   "text": "So why does a scene of disaster feel almost comforting? The answer is in how the picture is built. Two forces are set against each other, and you can trace both."
+  },
+  {
+   "type": "lines",
+   "text": "One force pushes down on the survivors. The other pulls toward them.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.26,
+       0.48
+      ],
+      [
+       0.38,
+       0.55
+      ],
+      [
+       0.56,
+       0.68
+      ],
+      [
+       0.78,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "The wave's slope",
+     "text": "The big wave slides from its foaming crest on the left down toward the lower right. It leans over the raft like a wall about to fall."
+    },
+    {
+     "points": [
+      [
+       0.62,
+       0.47
+      ],
+      [
+       0.64,
+       0.66
+      ],
+      [
+       0.62,
+       0.82
+      ],
+      [
+       0.55,
+       0.88
+      ]
+     ],
+     "closed": false,
+     "label": "The path of light",
+     "text": "From the sun, a track of gold drops straight down across the water and lands beside the wreckage. The light reaches the men before the wave does."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.6
+      ],
+      [
+       0.3,
+       0.61
+      ],
+      [
+       0.6,
+       0.63
+      ],
+      [
+       1.0,
+       0.61
+      ]
+     ],
+     "closed": false,
+     "label": "A low horizon",
+     "text": "The horizon is hidden by swells, but it lies low, around here. More than half the canvas is sky, which is why the picture feels full of air and not of drowning."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That sun is the heart of the painting. It has just risen after the night of the storm, and it burns through the mist so strongly that the clouds turn from violet to yellow. In Romantic painting, a movement that loved nature at its most overwhelming, a storm usually means doom. Here dawn changes the meaning to: they might make it."
+  },
+  {
+   "type": "key",
+   "text": "The Ninth Wave is a painting about hope, disguised as a painting about disaster. Its true subject is the light."
+  },
+  {
+   "type": "text",
+   "text": "How do you paint water that glows from inside? Aivazovsky used glazes: very thin, see-through layers of oil paint laid over lighter paint underneath. Light passes through the glaze and bounces back, the way it does through real water or a pane of colored glass."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.62,
+     "y": 0.47,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "The sun",
+     "text": "No hard disk, just a white-hot blur. The sun is veiled by spray and mist, so its light spreads into everything around it."
+    },
+    {
+     "x": 0.31,
+     "y": 0.63,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Green glass",
+     "text": "Where the wave thins out near its top, sunlight shines through it and the water turns emerald. This transparent green is the effect glazes make possible."
+    },
+    {
+     "x": 0.33,
+     "y": 0.52,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "The breaking crest",
+     "text": "Wind tears the top of the wave into lilac spray. The foam is painted thicker and more opaque than the water below it, so it catches the eye."
+    },
+    {
+     "x": 0.44,
+     "y": 0.84,
+     "zoom": 3.5,
+     "r": 0.07,
+     "title": "The survivors",
+     "text": "They huddle where mast and crosspiece meet. One lies exhausted, one reaches an arm toward the light, one waves the cloth. Three ways of living through the same minute."
+    },
+    {
+     "x": 0.62,
+     "y": 0.88,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Trailing ropes",
+     "text": "The ship's rigging still drags behind the mast, drawn in fine lines across the sunlit water. It is the last trace of the vessel."
+    },
+    {
+     "x": 0.85,
+     "y": 0.9,
+     "zoom": 2,
+     "r": 0.12,
+     "title": "The cold corner",
+     "text": "Away from the sun's path the sea turns deep blue-green and almost black. Aivazovsky keeps the warm colors high and the cold ones low, so the eye keeps climbing back to the light."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Sailors have long pointed out a mistake. Waves that curl over and break like this one form near a coast, where the seabed slows them down. Far out at sea, storm swells are rounder. Aivazovsky chose drama over accuracy."
+  },
+  {
+   "type": "text",
+   "text": "Tsar Nicholas I bought the painting, and it later became one of the founding works of the Russian Museum. Aivazovsky went on to paint for fifty more years, around 6,000 pictures in all, nearly all of them of water. None became as loved as this one."
+  },
+  {
+   "type": "fact",
+   "text": "In Russian, the phrase “worthy of Aivazovsky's brush” became an everyday way of saying that something is breathtakingly beautiful. The writer Anton Chekhov helped make it popular."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does the title “The Ninth Wave” refer to?",
+   "options": [
+    "The ninth painting in a series",
+    "A sailors' belief that the ninth wave of a storm is the deadliest",
+    "The number of survivors on the raft"
+   ],
+   "answer": 1,
+   "explanation": "Sailors believed storm waves came in series and that the ninth was the strongest."
+  },
+  {
+   "question": "Where did Aivazovsky paint this picture?",
+   "options": [
+    "In his studio, from memory",
+    "On the deck of a navy ship",
+    "On a beach during a storm"
+   ],
+   "answer": 0,
+   "explanation": "He believed moving water could not be copied on the spot and worked from memory indoors."
+  },
+  {
+   "question": "What are the survivors clinging to?",
+   "options": [
+    "A lifeboat",
+    "A rock",
+    "A broken mast from their ship"
+   ],
+   "answer": 2,
+   "explanation": "Their raft is the ship's mast and crosspiece, with ropes still trailing from it."
+  },
+  {
+   "question": "What is a glaze in oil painting?",
+   "options": [
+    "A thick ridge of paint",
+    "A thin, see-through layer of paint",
+    "A coat of wax on the frame"
+   ],
+   "answer": 1,
+   "explanation": "Glazes are transparent layers that let light pass through, which gives the water its glow."
+  },
+  {
+   "question": "What detail of the wave do sailors consider unrealistic?",
+   "options": [
+    "It curls and breaks like a wave near a shore",
+    "It is green",
+    "It is too small"
+   ],
+   "answer": 0,
+   "explanation": "Breaking, curling waves form near coasts, while open-sea storm swells are rounder."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The sun in The Ninth Wave is setting, which announces a night of danger.",
+   "isTrue": false,
+   "explanation": "It is a sunrise after the night of the storm, and it brings hope."
+  },
+  {
+   "text": "Aivazovsky was the official painter of the Russian navy.",
+   "isTrue": true,
+   "explanation": "He held that title and had sailed with the fleet."
+  },
+  {
+   "text": "The painting is about the size of a sheet of paper.",
+   "isTrue": false,
+   "explanation": "It is about 3.3 meters wide, roughly 11 feet."
+  }
+ ]
+}

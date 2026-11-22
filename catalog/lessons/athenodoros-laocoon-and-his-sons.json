@@ -1,0 +1,322 @@
+{
+ "teaser": "Dug out of a Roman vineyard in 1506, with Michelangelo watching. One arm took 400 more years to find.",
+ "focus": [
+  0.41,
+  0.2
+ ],
+ "review_notes": "Dickens quote from A Christmas Carol (Stave Five): 'making a perfect Laocoon of himself with his stockings', please verify exact wording.\nDiscovery date 14 January 1506 in the vineyard of Felice de Fredis on the Esquiline; Michelangelo and Giuliano da Sangallo sent by Julius II (account by Francesco da Sangallo).\nBent arm found by Ludwig Pollak in 1906 (some sources 1905) and attached in 1957 (some sources say 1957 to 1960).\nMontorsoli's outstretched terracotta arm dated 1532: to verify.\nPliny says one block; the group is actually made of several pieces (often given as seven).\nDating: metadata says -30; scholars propose anything from about 200 BC (as a lost bronze original) to the 1st century AD. Lesson says dating is debated.\nWhich god sent the snakes varies by source (Athena, Apollo or Poseidon); lesson says 'the gods'.\nHeight given as about 2 m (often cited 2.08 m, sometimes 2.42 m).\nTitian ape caricature is known through a woodcut attributed to Niccolo Boldrini.\nThe cut-off stump at far left (explore spot 'A clean cut') is read as the younger son's broken right arm inside a coil; please check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "On Christmas morning, Ebenezer Scrooge is so happy that he gets tangled in his own clothes. Charles Dickens describes him “making a perfect Laocoön of himself with his stockings.” In 1843, Dickens could count on ordinary readers to get the joke. That is how famous this knot of marble bodies and snakes used to be."
+  },
+  {
+   "type": "text",
+   "text": "The story comes from the Trojan War. The Greeks leave a giant wooden horse outside Troy. Laocoön, a Trojan priest, smells a trap and begs his city not to bring it inside. The gods, who want Troy to fall, send two sea serpents to silence him. They take his two sons as well."
+  },
+  {
+   "type": "text",
+   "text": "The sculptors chose the worst second of that story. Not the death, not the aftermath: the moment when the outcome is still, barely, open. The father is sitting back on an altar, the snakes are wound through six arms and six legs, and one of them has just found its target."
+  },
+  {
+   "type": "find",
+   "text": "One serpent is about to bite. Find its head.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.385,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The bite",
+     "text": "The snake's jaws close on Laocoön's left hip. His whole torso pulls away from this one point: the belly sucks in, the ribs flare, the chest swells with held breath."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Everything you see in the father's body is a reaction to that bite. This was the group's great lesson for later artists: pain is not shown by a screaming mouth alone. It travels. It can be read in a stomach muscle, a curled toe, a vein on a forearm."
+  },
+  {
+   "type": "fact",
+   "text": "The group was unearthed on January 14, 1506, in a vineyard on Rome's Esquiline Hill. Pope Julius II sent his architect Giuliano da Sangallo to look, and Sangallo brought a friend along: Michelangelo, then 30 years old."
+  },
+  {
+   "type": "text",
+   "text": "Sangallo recognized it on the spot. The Roman writer Pliny the Elder had described, 1,400 years earlier, a Laocoön in the palace of the emperor Titus, made by three sculptors from the island of Rhodes: Agesander, Athenodoros and Polydorus. Pliny called it better than any painting or bronze. Now here it was. The pope bought it within weeks."
+  },
+  {
+   "type": "text",
+   "text": "Three figures, three ages, three different distances from death. That is how the sculptors keep your eye moving instead of settling on a single horror."
+  },
+  {
+   "type": "tour",
+   "title": "Three faces",
+   "text": "Read the group from left to right, like a sentence.",
+   "spots": [
+    {
+     "x": 0.215,
+     "y": 0.335,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The younger son",
+     "text": "His head falls back and his eyes roll upward. A coil already crosses his chest and his hand pushes at it weakly. For him it is nearly over."
+    },
+    {
+     "x": 0.4,
+     "y": 0.115,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "The father",
+     "text": "Brows knotted, mouth half open, head thrown to the side. Not a scream but a groan. The deep drill holes in hair and beard make dark shadows that add to the turmoil."
+    },
+    {
+     "x": 0.84,
+     "y": 0.36,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The elder son",
+     "text": "He turns toward his father, more alarmed than hurt. He is the witness, and he does what you are doing: he looks at Laocoön."
+    },
+    {
+     "x": 0.835,
+     "y": 0.665,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "A way out?",
+     "text": "His hand slides a coil off his ankle. In some ancient versions of the tale one son escapes. The sculptors leave that door slightly open."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "The Laocoön shows suffering as something that happens to an entire body, and it stretches one instant across three figures: one dying, one fighting, one who might still get away."
+  },
+  {
+   "type": "text",
+   "text": "Now step back from the faces. A struggle this chaotic could have become a shapeless heap. It holds together because the bodies are arranged along a few strong directions, almost like a relief meant to be seen from the front."
+  },
+  {
+   "type": "lines",
+   "text": "The order underneath the chaos.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.68,
+       0.88
+      ],
+      [
+       0.52,
+       0.5
+      ],
+      [
+       0.42,
+       0.3
+      ],
+      [
+       0.17,
+       0.11
+      ]
+     ],
+     "closed": false,
+     "label": "The great diagonal",
+     "text": "From his braced left foot to his raised elbow, the father's body is one long slanting line. Diagonals read as unstable: he is neither standing nor fallen."
+    },
+    {
+     "points": [
+      [
+       0.215,
+       0.335
+      ],
+      [
+       0.4,
+       0.1
+      ],
+      [
+       0.84,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "A pyramid of heads",
+     "text": "The father's head is the peak, the sons' heads sit lower on each side. A simple triangle keeps the group readable from across a room."
+    },
+    {
+     "points": [
+      [
+       0.81,
+       0.355
+      ],
+      [
+       0.45,
+       0.13
+      ]
+     ],
+     "closed": false,
+     "label": "The son's glance",
+     "text": "The elder boy's look runs straight back up to his father's face and returns your eye to the center of the drama."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Michelangelo never forgot what he saw in that vineyard. The twisting, muscular nudes he painted on the Sistine Chapel ceiling a few years later owe a great deal to this torso. For the next three centuries, artists from all over Europe traveled to Rome to draw it."
+  },
+  {
+   "type": "fact",
+   "text": "Not everyone bowed. A woodcut based on a design by the painter Titian shows the famous group replaced by three apes in the same poses. It is usually read as a jab at artists who copied ancient statues too slavishly."
+  },
+  {
+   "type": "text",
+   "text": "One thing was missing in 1506: the father's right arm. What should it look like? Most artists imagined it stretched heroically toward the sky, and in 1532 a pupil of Michelangelo added an outstretched arm in terracotta. Michelangelo himself is said to have argued that the arm must have been bent back behind the head."
+  },
+  {
+   "type": "text",
+   "text": "In 1906 an archaeologist named Ludwig Pollak noticed a muscular marble arm in a stonemason's yard in Rome, not far from where the group had been found. It was bent. Half a century later, in 1957, the Vatican confirmed that it fit and attached it. That is the arm in this photograph."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.14,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The recovered arm",
+     "text": "Bent sharply, hand reaching behind the head. The seam at the shoulder is visible as a dark line. The bent arm closes the composition, where the old straight one flung it open."
+    },
+    {
+     "x": 0.565,
+     "y": 0.43,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "A losing grip",
+     "text": "Laocoön's left hand clamps the serpent just behind its head, a moment too late. The snake's body bulges between his fingers."
+    },
+    {
+     "x": 0.36,
+     "y": 0.33,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The torso",
+     "text": "Every muscle is tensed at once, more than anatomy would really allow. This exaggeration for the sake of emotion is typical of late Greek sculpture."
+    },
+    {
+     "x": 0.13,
+     "y": 0.345,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A clean cut",
+     "text": "A limb wrapped in a coil ends in a flat stump. Renaissance restorers completed the missing parts, and those additions were removed in the 20th century, leaving breaks like this one."
+    },
+    {
+     "x": 0.56,
+     "y": 0.8,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "The altar",
+     "text": "The priest collapses onto his own altar, his cloak sliding off beneath him. The place of sacrifice becomes the place where he is the victim."
+    },
+    {
+     "x": 0.36,
+     "y": 0.66,
+     "zoom": 2.6,
+     "r": 0.11,
+     "title": "Bound legs",
+     "text": "A single coil ties the father's leg to his younger son's. The snakes are the rope that turns three bodies into one sculpture."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Napoleon wanted it too. After his Italian campaign the group was carted to Paris and paraded as war booty in 1798, then given pride of place in the Louvre. It went back to the Vatican in 1816, after his fall."
+  },
+  {
+   "type": "text",
+   "text": "Was it carved around 30 BC, or copied from a bronze made a century or two earlier? Specialists still argue. Pliny said it was cut from one block of marble, and that is wrong: it is made of several pieces carefully fitted together. Even the ancient world's best-informed tourist could be fooled by a good join."
+  },
+  {
+   "type": "text",
+   "text": "Back to Scrooge, wrestling with his stockings. The joke only works if “Laocoön” means, to everyone, a body hopelessly entangled. Few sculptures have ever become a common word. This one did, because once you have seen those coils you cannot look at a tangle the same way."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why do the gods punish Laocoön?",
+   "options": [
+    "He stole from a temple",
+    "He warned the Trojans against the wooden horse",
+    "He insulted the Greek army"
+   ],
+   "answer": 1,
+   "explanation": "The priest tried to stop Troy from bringing the horse inside."
+  },
+  {
+   "question": "Which famous artist saw the group shortly after it was dug up in 1506?",
+   "options": [
+    "Michelangelo",
+    "Leonardo da Vinci",
+    "Raphael"
+   ],
+   "answer": 0,
+   "explanation": "Michelangelo accompanied the pope's architect to the vineyard."
+  },
+  {
+   "question": "What is the elder son, on the right, doing?",
+   "options": [
+    "Biting a snake",
+    "Collapsing with his eyes rolled back",
+    "Looking at his father while pulling a coil off his ankle"
+   ],
+   "answer": 2,
+   "explanation": "He watches Laocoön and may still be able to free himself."
+  },
+  {
+   "question": "What was discovered in a stonemason's yard in 1906?",
+   "options": [
+    "The original bent right arm",
+    "The head of a third snake",
+    "The sculptors' signature"
+   ],
+   "answer": 0,
+   "explanation": "Ludwig Pollak found the bent arm, attached to the statue in 1957."
+  },
+  {
+   "question": "What did the woodcut after Titian replace the three figures with?",
+   "options": [
+    "Skeletons",
+    "Apes",
+    "Popes"
+   ],
+   "answer": 1,
+   "explanation": "It shows three apes in the same poses, mocking slavish imitation of antiquity."
+  },
+  {
+   "question": "Pliny the Elder said the group was carved from a single block. Was he right?",
+   "options": [
+    "Yes",
+    "No, it is made of several fitted pieces",
+    "Nobody has checked"
+   ],
+   "answer": 1,
+   "explanation": "The group is assembled from several pieces of marble."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The sculptors show Laocoön already dead.",
+   "isTrue": false,
+   "explanation": "They chose the instant of the bite, while he is still struggling."
+  },
+  {
+   "text": "Charles Dickens used the Laocoön as a joke in A Christmas Carol.",
+   "isTrue": true,
+   "explanation": "Scrooge makes “a perfect Laocoön of himself” with his stockings."
+  },
+  {
+   "text": "For over 400 years the statue was displayed with a straight arm or no right arm instead of the bent original.",
+   "isTrue": true,
+   "explanation": "The bent arm was found in 1906 and attached only in 1957."
+  }
+ ]
+}

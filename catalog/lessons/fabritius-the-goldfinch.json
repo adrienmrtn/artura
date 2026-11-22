@@ -1,0 +1,40 @@
+{
+  "teaser": "A pet bird, painted life-size on a small board, months before its painter was killed.",
+  "focus": [0.72, 0.36],
+  "review_notes": "Panel size 33.5 x 22.8 cm.\nGunpowder quantity in the 1654 Delft explosion given as about 40 tonnes (roughly 90,000 pounds): commonly cited figure.\nClaim that the yellow wing bar was scratched through with the brush handle while wet (Mauritshuis technical study, 2003).\nRediscovery by Théophile Thoré-Bürger in Brussels in 1859; Mauritshuis purchase in Paris in 1896.\n'About a dozen' surviving paintings by Fabritius.\nDonna Tartt's novel published 2013, Pulitzer Prize 2014.",
+  "lesson": [
+    {"type": "text", "text": "This painting is a wooden board about 33 centimeters tall and 23 wide (13 by 9 inches), barely larger than a sheet of printer paper. The board is unusually thick for its size. And the bird on it is exactly as big as a real goldfinch, small enough to sit in your closed hand."},
+    {"type": "text", "text": "The size is the whole idea. Carel Fabritius painted a trick: a picture meant to be mistaken, for a second, for the real thing. Painters call this trompe-l'oeil, French for “fools the eye”. Hang the board on a pale plaster wall, and a pale plaster wall with a bird on it seems to continue."},
+    {"type": "text", "text": "A trick like that needs convincing light. Yet Fabritius did not paint every feather. He did something riskier, and you can only see it by going very near."},
+    {"type": "tour", "title": "How the trick is built", "text": "From a few steps back, the bird seems to stand out from the wall. Three places explain why.", "spots": [
+      {"x": 0.88, "y": 0.47, "zoom": 2.2, "r": 0.11, "title": "The cast shadow", "text": "A soft brown shadow falls to the right of the bird and its box. It tells your brain that these things stick out from the wall and that the light comes from the upper left."},
+      {"x": 0.77, "y": 0.265, "zoom": 3.6, "r": 0.08, "title": "The head", "text": "The red mask of a goldfinch is a few rough dabs, the eye a dark dot with a hint of shine. There are no drawn feathers at all. The bird turns its head toward you."},
+      {"x": 0.57, "y": 0.4, "zoom": 3.4, "r": 0.09, "title": "The yellow bar", "text": "The bright wing stripe is one thick stroke of yellow laid over black. Fabritius seems to have scratched into the wet paint with the handle of his brush to let the dark show through."}
+    ]},
+    {"type": "text", "text": "So the illusion works from a distance and falls apart into loose paint up close. That was daring in 1654. Most painters of illusions worked with tiny, invisible strokes. Fabritius trusted your eye to finish the job, the way it does when a real bird moves."},
+    {"type": "fact", "text": "The Dutch nicknamed the goldfinch “puttertje”, the little water-drawer. Pet finches were taught to pull up their own drink in a bucket the size of a thimble, hauling a tiny chain with beak and foot."},
+    {"type": "text", "text": "Which brings us to the object under the bird. It is a feeding box with a hinged lid, fixed to the wall, with two curved wooden perches around it. A charming pet on its perch, then. Except for one thin detail that changes the mood."},
+    {"type": "find", "text": "Something stops this bird from flying off. Can you spot it?", "spots": [
+      {"x": 0.5, "y": 0.77, "zoom": 2.8, "r": 0.12, "title": "The chain", "text": "A fine chain hangs in a loop below the box. It runs up to the top perch and ends at the bird's leg. Fabritius paints it as a broken thread of tiny highlights, easy to miss."}
+    ]},
+    {"type": "text", "text": "Once you have seen the chain, the calm look over the shoulder reads differently. The wall is bare, the bird is alone, and it can go exactly as far as its chain allows. Nobody knows whether Fabritius meant this as sad. He left the question hanging."},
+    {"type": "key", "text": "The Goldfinch fools the eye with almost nothing: a shadow, a turned head, a few bold strokes. Its power comes from how little paint it takes to make a living creature."},
+    {"type": "text", "text": "Fabritius had been Rembrandt's most gifted pupil in Amsterdam. Then he moved to Delft and did the opposite of his teacher. Rembrandt set bright figures against darkness. Fabritius set a dark bird against light, the cool daylight that a younger Delft painter, Vermeer, would soon make famous."},
+    {"type": "fact", "text": "On October 12, 1654, a gunpowder store in the middle of Delft blew up, about 40 tonnes of it. A large part of the city was flattened. Fabritius was pulled from the ruins of his studio and died within hours. He was 32."},
+    {"type": "text", "text": "Much of his work probably vanished with the studio. Only about a dozen paintings are known today. This one dropped out of sight for two centuries, until a French critic, Théophile Thoré-Bürger, recognized it in a Brussels collection in 1859. The Mauritshuis bought it in 1896."},
+    {"type": "text", "text": "At the very bottom of the board he signed in pale gray letters, as if written on the plaster itself: C FABRITIVS 1654. It is the year of the picture, and the year of the explosion."},
+    {"type": "fact", "text": "In 2013 Donna Tartt published a novel named after the painting, in which a boy carries it out of a bombed museum. The book won a Pulitzer Prize, and crowds lined up in front of this small board as never before."}
+  ],
+  "quiz": [
+    {"question": "What does “trompe-l'oeil” mean?", "options": ["Painted from life", "Fools the eye", "Little water-drawer"], "answer": 1, "explanation": "It is French for a picture meant to be mistaken for the real thing."},
+    {"question": "What keeps the goldfinch on its perch?", "options": ["A fine chain attached to its leg", "A cage of thin wire", "A clipped wing"], "answer": 0, "explanation": "A thin chain loops below the box and ends at the bird's leg."},
+    {"question": "How did Carel Fabritius die?", "options": ["Of the plague in Amsterdam", "In a shipwreck", "In a gunpowder explosion in Delft"], "answer": 2, "explanation": "The Delft powder store blew up in October 1654 and destroyed his studio."},
+    {"question": "How does Fabritius's lighting differ from Rembrandt's?", "options": ["He sets a dark subject against a light background", "He paints only at night", "He avoids shadows completely"], "answer": 0, "explanation": "Rembrandt put bright figures on darkness, Fabritius a dark bird on a pale wall."},
+    {"question": "Who brought the painting back to attention in 1859?", "options": ["Donna Tartt", "Théophile Thoré-Bürger", "Vermeer"], "answer": 1, "explanation": "The French critic recognized it in a Brussels collection."}
+  ],
+  "facts": [
+    {"text": "The goldfinch in the painting is shown about life-size.", "isTrue": true, "explanation": "The board is small and the bird is as big as a real goldfinch."},
+    {"text": "Fabritius painted every feather with tiny, invisible strokes.", "isTrue": false, "explanation": "Up close the bird is made of a few rough dabs and bold strokes."},
+    {"text": "The painting is dated the same year its painter died.", "isTrue": true, "explanation": "It is signed 1654, the year of the Delft explosion that killed him."}
+  ]
+}

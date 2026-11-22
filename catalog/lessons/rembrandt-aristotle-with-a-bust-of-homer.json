@@ -1,0 +1,305 @@
+{
+ "teaser": "A Sicilian nobleman ordered a philosopher from Amsterdam. He got a man lost in thought.",
+ "focus": [
+  0.5,
+  0.38
+ ],
+ "review_notes": "Ruffo commission: 500 guilders, shipped to Messina in 1654, described in his inventory as 'Aristotle or Albertus Magnus'.\nGuercino companion piece (a cosmographer, now lost) and his guess that Rembrandt's figure was a physiognomist.\nMet purchase in 1961 for $2.3 million, then a record auction price for a painting.\nCanvas said to have been trimmed, originally taller; current size about 143.5 x 136.5 cm.\nMedallion on the chain usually read as Alexander the Great; it is hard to make out in the image.\nRembrandt's 1656 inventory listing a bust of Homer.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas was painted for a palace in Messina, Sicily, some 2,000 kilometers (about 1,250 miles) from Rembrandt's studio. Its owner, the nobleman Don Antonio Ruffo, never met the painter. He ordered a picture by letter, from a city he had never seen, and waited for a ship."
+  },
+  {
+   "type": "text",
+   "text": "Ruffo's request was loose: a half-length figure of a philosopher for his library of paintings. Rembrandt was free to choose which one, and how. The crate reached Messina in 1654. Inside was a bearded man in a wide hat and huge white sleeves, resting a hand on a stone head."
+  },
+  {
+   "type": "fact",
+   "text": "Ruffo paid 500 guilders, far more than he usually gave Italian painters for a picture this size. Rembrandt's fame had crossed Europe through his prints, and he priced himself accordingly."
+  },
+  {
+   "type": "text",
+   "text": "The man is Aristotle, the Greek thinker who lived in the 300s BC. The stone head is Homer, the blind poet of the Iliad and the Odyssey, who lived centuries earlier still. So a great mind of one age touches a great voice of another. The painting is built on that one gesture."
+  },
+  {
+   "type": "lines",
+   "text": "Three paths cross the canvas. Follow them one by one.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.52,
+       0.47
+      ],
+      [
+       0.38,
+       0.5
+      ],
+      [
+       0.21,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The reaching arm",
+     "text": "The brightest sleeve in the picture leads from his shoulder to Homer's head. Your eye travels along it before anything else."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.45
+      ],
+      [
+       0.47,
+       0.68
+      ],
+      [
+       0.6,
+       0.76
+      ],
+      [
+       0.71,
+       0.76
+      ]
+     ],
+     "closed": false,
+     "label": "The chain",
+     "text": "A gold chain drops from the same shoulder and swings to his other hand. It pulls the opposite way, toward wealth and rank."
+    },
+    {
+     "points": [
+      [
+       0.535,
+       0.31
+      ],
+      [
+       0.4,
+       0.42
+      ],
+      [
+       0.3,
+       0.52
+      ]
+     ],
+     "closed": false,
+     "label": "The gaze",
+     "text": "His head tilts toward the bust, but his eyes do not land on it. They drift into empty space. He is thinking, not looking."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the body is pulled two ways: one hand on the poet, one on the gold. Many viewers read the picture as a man weighing two kinds of success. Homer died poor and is still read. The chain is the kind of gift a king gives a servant."
+  },
+  {
+   "type": "text",
+   "text": "Which king? Aristotle was hired to teach a teenage prince who would become Alexander the Great. Rembrandt slipped that pupil into the painting, in a place where you could miss him for years."
+  },
+  {
+   "type": "find",
+   "text": "A small gold medal hangs from the chain. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.466,
+     "y": 0.69,
+     "zoom": 4,
+     "r": 0.045,
+     "title": "The medallion",
+     "text": "A pendant dangles where the chain turns. Scholars see on it a tiny profile of Alexander the Great, Aristotle's most famous student. The reward for teaching a conqueror hangs at his hip."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With the medal, the picture holds three men: the poet, the philosopher, the conqueror. Alexander is said to have slept with a copy of Homer that Aristotle had prepared for him. Rembrandt, who knew these stories, tied them together with one length of gold."
+  },
+  {
+   "type": "fact",
+   "text": "Rembrandt owned a bust of Homer himself. It appears in the list of his belongings drawn up in 1656, along with plaster heads of other ancient thinkers. The stone poet on this table was probably painted from an object in his own house."
+  },
+  {
+   "type": "text",
+   "text": "Nothing here is dressed like ancient Greece. The hat, the black apron and the billowing shirt are a costume from Rembrandt's own imagination, part old-fashioned, part theater. He cared less about history than about texture, and he let his brush change its behavior from one material to the next."
+  },
+  {
+   "type": "tour",
+   "title": "Four ways to use paint",
+   "text": "The same hand painted all of this, in four very different manners.",
+   "spots": [
+    {
+     "x": 0.36,
+     "y": 0.58,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The sleeve",
+     "text": "Thick, loaded strokes of white and gray drag across the cloth. The paint stands up from the canvas, so real light catches it like real folds."
+    },
+    {
+     "x": 0.535,
+     "y": 0.34,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The face",
+     "text": "Here the paint turns soft and thin. The eyes sit in the shadow of the hat brim, which keeps you from reading his mood too quickly."
+    },
+    {
+     "x": 0.56,
+     "y": 0.73,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The chain",
+     "text": "Seen up close, the gold is a crust of yellow and brown blobs. Step back and it becomes heavy links that seem to glint."
+    },
+    {
+     "x": 0.21,
+     "y": 0.56,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Homer",
+     "text": "The bust is painted in warm, blurred tones, as if lit by a candle. The stone looks almost alive, and the blind eyes stay blank."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "This thick paint has a name: impasto, paint laid on so heavily that it has a surface you could feel. Rembrandt used it where light hits, and kept the shadows thin and smooth. The contrast is what makes the sleeves seem to push out of the dark."
+  },
+  {
+   "type": "text",
+   "text": "Ruffo was pleased, though a little puzzled about who exactly he had bought. His own inventory hedged, listing the figure as “Aristotle or Albertus Magnus,” a medieval scholar. The title we use today settled only much later."
+  },
+  {
+   "type": "fact",
+   "text": "Wanting a partner for it, Ruffo wrote to the Italian painter Guercino. Guercino studied a sketch, guessed the man was a physiognomist, someone who reads character from faces, and painted a map scholar to match."
+  },
+  {
+   "type": "text",
+   "text": "Ruffo then went back to Rembrandt for two more pictures: an Alexander and a Homer. They reached Sicily in the early 1660s. For a few years, in one room in Messina, the three men linked by the gold chain each had a canvas of their own."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.21,
+     "y": 0.44,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The hand on the head",
+     "text": "Light pools on the knuckles. The touch is gentle and flat, the way you rest a hand on something you respect."
+    },
+    {
+     "x": 0.74,
+     "y": 0.795,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "The ring",
+     "text": "A thin gold band on the little finger of the hand that fingers the chain. One more small sign of worldly reward.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.08,
+     "y": 0.36,
+     "zoom": 2.4,
+     "r": 0.09,
+     "title": "The books",
+     "text": "A stack of volumes in the gloom behind a curtain. They are the only hint of a study, and Rembrandt barely lets you see them."
+    },
+    {
+     "x": 0.17,
+     "y": 0.865,
+     "zoom": 3.5,
+     "r": 0.07,
+     "title": "The signature",
+     "text": "On the base of the bust, in dark paint, Rembrandt signed and dated the work 1653."
+    },
+    {
+     "x": 0.65,
+     "y": 0.44,
+     "zoom": 3.5,
+     "r": 0.04,
+     "title": "The clasp",
+     "text": "A jeweled clasp pins the dark apron at his chest, one bright point in a field of black."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Rembrandt turned a simple order for “a philosopher” into a question: what is worth more, the honors you are given or the work that outlasts you?"
+  },
+  {
+   "type": "fact",
+   "text": "In 1961 the Metropolitan Museum bought the painting at a New York auction for $2.3 million, at the time the highest price ever paid for a picture at public sale. Crowds lined up to see what that much money looked like."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where was the painting sent when it left Rembrandt's studio?",
+   "options": [
+    "A church in Rome",
+    "A palace in Messina, Sicily",
+    "The town hall of Amsterdam"
+   ],
+   "answer": 1,
+   "explanation": "It was ordered by Don Antonio Ruffo for his palace in Messina."
+  },
+  {
+   "question": "Whose stone bust does Aristotle touch?",
+   "options": [
+    "Homer",
+    "Alexander the Great",
+    "Plato"
+   ],
+   "answer": 0,
+   "explanation": "The bust shows Homer, the blind poet of the Iliad and the Odyssey."
+  },
+  {
+   "question": "What is impasto?",
+   "options": [
+    "A thin, transparent glaze",
+    "A preparatory drawing",
+    "Paint laid on so thickly that it has a surface"
+   ],
+   "answer": 2,
+   "explanation": "Impasto is thick paint that stands up from the canvas and catches real light."
+  },
+  {
+   "question": "Who is thought to appear on the small medal hanging from the chain?",
+   "options": [
+    "Don Antonio Ruffo",
+    "Rembrandt",
+    "Alexander the Great"
+   ],
+   "answer": 2,
+   "explanation": "Scholars see a profile of Alexander, Aristotle's famous pupil."
+  },
+  {
+   "question": "How did Ruffo's own inventory describe the figure?",
+   "options": [
+    "As “Aristotle or Albertus Magnus”",
+    "As “A Dutch merchant”",
+    "As “Homer and his pupil”"
+   ],
+   "answer": 0,
+   "explanation": "Ruffo was not sure which scholar he owned, and his list says so."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Rembrandt dressed Aristotle in accurate ancient Greek clothing.",
+   "isTrue": false,
+   "explanation": "The hat, apron and shirt are an invented costume, not Greek dress."
+  },
+  {
+   "text": "Ruffo later ordered two more paintings from Rembrandt, an Alexander and a Homer.",
+   "isTrue": true,
+   "explanation": "They reached Sicily in the early 1660s."
+  },
+  {
+   "text": "Aristotle's eyes are fixed directly on the bust.",
+   "isTrue": false,
+   "explanation": "His head tilts toward it, but his gaze drifts into space."
+  }
+ ]
+}

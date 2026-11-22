@@ -1,0 +1,56 @@
+{
+  "teaser": "Two women in feathers, a wall of men in black, and a sidewalk that tilts like a ship's deck.",
+  "focus": [0.42, 0.2],
+  "review_notes": "Check: acquired by the Nationalgalerie Berlin in 1920, confiscated 1937, shown in the Degenerate Art exhibition, bought by MoMA in 1939.\nCheck: figure of over 600 Kirchner works removed from German museums (often given as 639).\nCheck: Erna and Gerda Schilling as models for the women of the street scenes.\nCheck: Berlin police rules requiring prostitutes to avoid conspicuous soliciting, hence the elegant dress.\nCheck dimensions: about 121 x 91 cm.\nThe series is usually counted as about eleven Berlin street paintings, 1913 to 1915.",
+  "lesson": [
+    {"type": "text", "text": "Who is looking at whom here? Count the faces: two women up front, a row of men behind, one man off to the right. Now try to find a single pair of eyes that meets another. You will not. Everyone in this crowd is inches apart and completely alone."},
+    {"type": "text", "text": "Ernst Ludwig Kirchner painted it in 1913, two years after moving to Berlin from the quieter city of Dresden. Berlin then had more than two million inhabitants, electric light, department stores, trams and a nightlife with a reputation across Europe. It thrilled him and wore him out in equal measure."},
+    {"type": "text", "text": "The two women are not ladies out shopping. Their extravagant hats and slow, parading walk marked them, for anyone living in Berlin at the time, as prostitutes. Kirchner called them “cocottes,” a French word of the day. He made them the stars of about eleven street paintings."},
+    {"type": "fact", "text": "Berlin tolerated prostitution but policed its appearance: women were not supposed to solicit openly. So they dressed as fashionable ladies, in fur and feathers, and let their slow pace and a glance do the talking."},
+    {"type": "tour", "title": "Three faces", "text": "Start with the people themselves. Kirchner gives each one a mask.", "spots": [
+      {"x": 0.36, "y": 0.2, "zoom": 3, "r": 0.09, "title": "The redhead", "text": "Pink skin, a slash of red mouth, eyes lowered. Her head sits in a huge white fur collar under a sweeping plumed hat. She seems to know she is being watched and does not look back."},
+      {"x": 0.47, "y": 0.19, "zoom": 3.2, "r": 0.07, "title": "Her companion", "text": "A narrow face cut into sharp angles, with slanted eyes and a small red mouth. It looks carved more than painted, like a wooden mask."},
+      {"x": 0.92, "y": 0.24, "zoom": 3, "r": 0.08, "title": "The man who turns away", "text": "In a tall dark hat, he twists his head toward the pale blue shop window at the edge. He is the women's likely client, pretending to study the display."}
+    ]},
+    {"type": "text", "text": "Those angular faces have a source. Kirchner and his friends admired African and Oceanic carvings in German ethnographic museums, and he carved wood himself, both sculptures and printing blocks. The habit of cutting into a hard surface shaped the way he drew with a brush."},
+    {"type": "fact", "text": "Kirchner never went to art school in the usual sense. He trained as an architect in Dresden, and in 1905 he and three fellow architecture students founded a group called Die Brücke, “The Bridge,” to break with academic painting. It fell apart in 1913, the year of this picture."},
+    {"type": "text", "text": "He painted fast and it shows. The coats and furs are made of long, slanting, parallel strokes, a kind of hatching, which is shading done with repeated lines. Nothing is smoothed. The strokes all lean the same way, and so do the bodies."},
+    {"type": "lines", "text": "Trace how the figures stand, or rather how they fail to stand straight.", "lines": [
+      {"points": [[0.35, 0.1], [0.3, 0.5], [0.24, 0.96]], "closed": false, "label": "First woman", "text": "From hat to pointed shoe, her body is one long leaning stroke of purple. She looks stretched, like a figure in a tall mirror."},
+      {"points": [[0.48, 0.1], [0.46, 0.5], [0.44, 0.95]], "closed": false, "label": "Second woman", "text": "Her dark coat falls almost to a point. The two women together form a narrow wedge driving down toward you."},
+      {"points": [[0.93, 0.18], [0.82, 0.55], [0.78, 0.94]], "closed": false, "label": "The client", "text": "He leans the other way. His head goes right, his feet go left, as if he were pulled between the window and the women."},
+      {"points": [[0.62, 1.0], [0.42, 0.62], [0.12, 0.08]], "closed": false, "label": "The tilted street", "text": "The pink pavement does not lie flat. It rushes up the canvas to the top left corner, so the walkers seem about to slide off it."}
+    ]},
+    {"type": "text", "text": "That tilt is the heart of what people mean by Expressionism: bending the visible world so that it matches a feeling. Kirchner is not reporting how Potsdamer Platz looked. He is painting how it felt to walk through it at night, overstimulated and uneasy."},
+    {"type": "key", "text": "Expressionist painters distort shape and color on purpose. The question to ask is not “is this accurate?” but “what mood does this distortion carry?”"},
+    {"type": "text", "text": "Color does the same job. The street is hot pink and magenta, the shop windows a cold turquoise, the men nearly black. The women's faces pick up the pink of the pavement, as if the artificial light of the city had soaked into their skin."},
+    {"type": "find", "text": "Behind the two women, the crowd continues. How far back can you go? Find the tiny figures at the very end of the street.", "spots": [
+      {"x": 0.17, "y": 0.07, "zoom": 3.2, "r": 0.08, "title": "The far crowd", "text": "In the top left corner, a few dark vertical marks on pink are all that is left of the distant pedestrians. The street climbs so steeply that the horizon ends up near the frame."}
+    ]},
+    {"type": "text", "text": "A year after this painting, war broke out. Kirchner volunteered, suffered a breakdown during training in 1915, and was discharged. He moved to the Swiss mountains near Davos and painted Alpine landscapes for the rest of his life. The Berlin streets remained his most intense work."},
+    {"type": "fact", "text": "Berlin's national museum bought this canvas in 1920. In 1937 the Nazi government seized it, along with more than 600 other works by Kirchner, and displayed it in the “Degenerate Art” exhibition meant to ridicule modern painting."},
+    {"type": "text", "text": "Kirchner took his own life in Switzerland in June 1938. The following year the Museum of Modern Art in New York bought Street, Berlin. A picture thrown out of Germany as shameful became one of the works by which the world remembers German art of that time."},
+    {"type": "explore", "spots": [
+      {"x": 0.35, "y": 0.1, "zoom": 2.6, "r": 0.11, "title": "The plumed hat", "text": "White and pink feathers sweep back from the redhead's hat in loose strokes. Such hats were costly, loud and impossible to ignore."},
+      {"x": 0.47, "y": 0.34, "zoom": 2.6, "r": 0.1, "title": "Fur collars", "text": "Jagged white and gray strokes for the fur, each one a separate flick of the brush. The spiky edges make the luxury look almost dangerous."},
+      {"x": 0.25, "y": 0.58, "zoom": 3.2, "r": 0.06, "title": "A bare hand", "text": "The first woman's hand hangs pale and long-fingered against her purple coat, drawn like a claw or a leaf."},
+      {"x": 0.68, "y": 0.08, "zoom": 2.6, "r": 0.12, "title": "The wall of men", "text": "Hats, orange faces, dark coats. The men behind are interchangeable, pressed together into one mass with hardly any features."},
+      {"x": 0.42, "y": 0.9, "zoom": 2.6, "r": 0.1, "title": "Pointed shoes", "text": "The women's feet end in black spikes that barely touch the ground. Nobody in this picture seems to have any weight."},
+      {"x": 0.94, "y": 0.75, "zoom": 3.4, "r": 0.05, "shape": "rect", "title": "Signature", "text": "Kirchner's name runs vertically up the right edge in orange, squeezed beside the shop front."}
+    ]},
+    {"type": "text", "text": "So, back to the opening question. The women look down or aside, the men look away, the client looks at a window. The only person staring straight at all of them is you. Kirchner has placed you on that pink sidewalk, a step ahead of the cocottes, and left you to decide what kind of passerby you are."}
+  ],
+  "quiz": [
+    {"question": "Who are the two women at the center of the painting?", "options": ["Kirchner's sisters", "Prostitutes dressed as fashionable ladies", "Famous actresses"], "answer": 1, "explanation": "Kirchner called them cocottes and made them the subject of his Berlin street series."},
+    {"question": "What is the man on the right doing?", "options": ["Turning toward a shop window", "Talking to the women", "Hailing a tram"], "answer": 0, "explanation": "He twists away to look at the display, avoiding the women's eyes."},
+    {"question": "What does the steeply tilted pink street express?", "options": ["An accurate view of Berlin's hills", "A mistake in perspective", "The uneasy, overstimulated feeling of the city"], "answer": 2, "explanation": "Expressionists distorted space on purpose to carry a mood."},
+    {"question": "What did Kirchner study before becoming a painter?", "options": ["Medicine", "Law", "Architecture"], "answer": 2, "explanation": "He trained as an architect in Dresden, where he co-founded Die Brücke in 1905."},
+    {"question": "What happened to the painting in 1937?", "options": ["It was seized and shown as “degenerate art”", "It was stolen by a private collector", "It was damaged in a fire"], "answer": 0, "explanation": "The Nazi government took it from Berlin's national museum and exhibited it to mock modern art."},
+    {"question": "What is hatching?", "options": ["Painting with a palette knife", "Shading with repeated parallel lines", "Leaving canvas bare"], "answer": 1, "explanation": "Kirchner builds coats and furs with long slanting parallel strokes."}
+  ],
+  "facts": [
+    {"text": "In the painting, the two women look each other directly in the eyes.", "isTrue": false, "explanation": "No two gazes meet anywhere in the picture."},
+    {"text": "The Museum of Modern Art bought the work in 1939, after it had been removed from a German museum.", "isTrue": true, "explanation": "It was confiscated in 1937 and acquired by MoMA two years later."},
+    {"text": "Kirchner painted this scene in Dresden before ever seeing Berlin.", "isTrue": false, "explanation": "He painted it in 1913, two years after moving to Berlin."}
+  ]
+}

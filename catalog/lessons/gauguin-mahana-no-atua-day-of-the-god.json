@@ -1,0 +1,252 @@
+{
+ "teaser": "A Tahitian ceremony painted in a Paris studio, from memory, books and imagination.",
+ "focus": [
+  0.47,
+  0.45
+ ],
+ "review_notes": "Distance Paris to Tahiti given as roughly 15,000 km (over 9,000 miles).\nIdol usually identified as Hina; Gauguin based it on written accounts of Polynesian religion (Moerenhout) and on photographs of Asian sculpture.\nReading of the three foreground figures as birth, life and death is a common interpretation, not a statement by the artist.\nDurand-Ruel exhibition November 1893: most paintings unsold.\nBroken ankle in a brawl at Concarneau, 1894.\nParis studio with chrome-yellow walls (rue Vercingétorix).\nAIC: Helen Birch Bartlett Memorial Collection, entered 1926.\nDancers described as performing the upaupa is left out; only called dancers.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "15,000 kilometers. That is roughly the distance, over 9,000 miles, between the beach in this picture and the room where it was painted. Gauguin made “Day of the God” in Paris in 1894, with no palm tree in sight."
+  },
+  {
+   "type": "text",
+   "text": "He had come back from his first stay in Tahiti the year before, sure that his island paintings would make his name. They did not. An exhibition at a leading Paris gallery left most of them unsold, and critics were puzzled by the red dogs and violet ground."
+  },
+  {
+   "type": "fact",
+   "text": "In Paris Gauguin painted his studio walls bright chrome yellow, hung them with Polynesian objects and his own unsold canvases, and held weekly evenings for poets and musicians."
+  },
+  {
+   "type": "text",
+   "text": "So this is not a record of something he saw. It is Tahiti rebuilt from memory, from books about Polynesian religion, and from invention. That freedom shows in how firmly he organizes the scene, almost like a stage with three levels."
+  },
+  {
+   "type": "lines",
+   "text": "Three levels, and one axis that pins them together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0,
+       0.42
+      ],
+      [
+       1,
+       0.4
+      ]
+     ],
+     "closed": false,
+     "label": "The ritual",
+     "text": "Everything above this line belongs to the ceremony: sky, sea, a towering idol and small figures bringing offerings, playing music and dancing."
+    },
+    {
+     "points": [
+      [
+       0,
+       0.62
+      ],
+      [
+       0.5,
+       0.64
+      ],
+      [
+       1,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The pink shore",
+     "text": "Between the two lines lies a strip of pink sand. Three nude figures rest on it, far larger than the people behind them and seemingly unaware of the festival."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.02
+      ],
+      [
+       0.47,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "The axis",
+     "text": "The idol and the seated woman are stacked exactly one above the other. The picture is symmetrical around them, like the design of an altar."
+    },
+    {
+     "points": [
+      [
+       0,
+       0.66
+      ],
+      [
+       0.3,
+       0.7
+      ],
+      [
+       0.6,
+       0.72
+      ],
+      [
+       1,
+       0.64
+      ]
+     ],
+     "closed": false,
+     "label": "The pool",
+     "text": "Below the shore, the water. Here recognizable things stop and pure color takes over."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The idol at the top is Gauguin's own creation. He named her Hina, a Polynesian goddess linked to the moon, but there were no such giant statues in Tahiti. He assembled her from written descriptions and from photographs of Asian sculpture he owned."
+  },
+  {
+   "type": "text",
+   "text": "Around her, life goes on in miniature. Women carry a platter on their heads, a musician plays, two dancers in red face each other. Gauguin scatters these scenes along the horizon like figures on a frieze, the long sculpted band that runs around a temple."
+  },
+  {
+   "type": "find",
+   "text": "Someone is arriving late to the ceremony, on horseback. Can you spot the rider?",
+   "spots": [
+    {
+     "x": 0.925,
+     "y": 0.365,
+     "zoom": 4.0,
+     "r": 0.05,
+     "title": "The rider",
+     "text": "A tiny dark horse and rider cross the yellow beach at the far right, with a canoe on the water just behind. They give a sense of distance to a picture that is otherwise very flat.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now come back to the front, where the scale jumps. The three figures on the pink sand are the puzzle of the painting. Gauguin never explained them, and that has not stopped people from trying."
+  },
+  {
+   "type": "tour",
+   "title": "Three bodies",
+   "text": "Left, center, right: read them as a sequence.",
+   "spots": [
+    {
+     "x": 0.29,
+     "y": 0.54,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "Curled, facing us",
+     "text": "A figure lies on its side with knees drawn up, like a child asleep. The face is turned toward you and a foot just touches the water."
+    },
+    {
+     "x": 0.47,
+     "y": 0.53,
+     "zoom": 2.0,
+     "r": 0.14,
+     "title": "Seated, upright",
+     "text": "A woman sits on the bank and combs her long hair with her hands, both feet in the pool. Behind her a green cloth fans out like a halo.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.66,
+     "y": 0.55,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "Curled, turned away",
+     "text": "The third figure is folded tighter, back to us, head tucked down. It mirrors the first, but closed."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "A common reading sees birth, life and death in the three figures on the shore. Gauguin left it open: he wanted paintings to suggest, the way a dream does, and not to explain."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the water, which takes up a full third of the canvas. No real lagoon looks like this. Orange, yellow, pink and deep blue float in soft-edged islands of color that reflect nothing you can name. Shape and hue have been cut loose from description."
+  },
+  {
+   "type": "fact",
+   "text": "Gauguin spent part of 1894 on crutches. During a summer trip to Brittany he got into a brawl with sailors in the port of Concarneau and came out of it with a badly broken ankle that never healed properly."
+  },
+  {
+   "type": "text",
+   "text": "Painters a decade later would study exactly this kind of passage. When Henri Matisse and his friends shocked Paris in 1905 with flat, unnatural color, they were building on what Gauguin had done in the bottom third of pictures like this one."
+  },
+  {
+   "type": "text",
+   "text": "In 1895 Gauguin sailed for the Pacific again and never came back. “Day of the God”, small enough to carry at 68 by 91 centimeters (27 by 36 inches), stayed behind. It is now in the Art Institute of Chicago, even farther from Tahiti than the studio where it began."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where was “Day of the God” painted?",
+   "options": [
+    "On a beach in Tahiti",
+    "In Paris",
+    "In Chicago"
+   ],
+   "answer": 1,
+   "explanation": "Gauguin made it in his Paris studio in 1894, between his two stays in the Pacific."
+  },
+  {
+   "question": "What is true of the large idol at the top?",
+   "options": [
+    "Gauguin copied it from a statue standing in Tahiti",
+    "It represents a French saint",
+    "Gauguin invented it from texts and photographs of Asian sculpture"
+   ],
+   "answer": 2,
+   "explanation": "No such giant statues existed in Tahiti; he assembled her himself."
+  },
+  {
+   "question": "How are the three figures on the pink shore often interpreted?",
+   "options": [
+    "As birth, life and death",
+    "As three goddesses",
+    "As portraits of Gauguin's children"
+   ],
+   "answer": 0,
+   "explanation": "It is a common reading, though Gauguin never confirmed it."
+  },
+  {
+   "question": "What is unusual about the water in the foreground?",
+   "options": [
+    "It is painted entirely in gray",
+    "It shows a clear reflection of the idol",
+    "It is made of floating shapes of color that reflect nothing recognizable"
+   ],
+   "answer": 2,
+   "explanation": "Orange, yellow, pink and blue patches replace any realistic reflection."
+  },
+  {
+   "question": "Which later painter built on Gauguin's flat, unnatural color?",
+   "options": [
+    "Henri Matisse",
+    "Claude Monet",
+    "Edgar Degas"
+   ],
+   "answer": 0,
+   "explanation": "Matisse and his friends pushed this kind of color further in 1905."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Gauguin's Paris exhibition of Tahitian paintings was an immediate commercial success.",
+   "isTrue": false,
+   "explanation": "Most of the paintings went unsold and critics were puzzled."
+  },
+  {
+   "text": "The idol and the seated woman are placed one directly above the other.",
+   "isTrue": true,
+   "explanation": "They form a vertical axis in the middle of the picture."
+  },
+  {
+   "text": "Gauguin painted this scene on the spot during a real ceremony.",
+   "isTrue": false,
+   "explanation": "He painted it in Paris from memory, books and imagination."
+  }
+ ]
+}

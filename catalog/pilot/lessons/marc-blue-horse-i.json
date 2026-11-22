@@ -1,0 +1,43 @@
+{
+  "teaser": "Franz Marc decided that blue was the color of the spirit. Then he found it a body.",
+  "focus": [0.32, 0.27],
+  "review_notes": "Color theory paraphrased from Marc's letter to August Macke of December 1910 (blue male, severe, spiritual; yellow female, gentle, cheerful, sensual; red matter, brutal and heavy). Not quoted word for word.\nSize about 112 x 84.5 cm.\nKandinsky's later account of the name Blue Rider (both loved blue, Marc horses, Kandinsky riders).\nMarc taught animal anatomy to other artists (around 1907 in Munich).\nMarc killed near Verdun on 4 March 1916, aged 36.\n'The Tower of Blue Horses' (1913): shown in the 1937 Degenerate Art exhibition, withdrawn after protest by a veterans' association, missing since 1945.\nDescription of the horse as a young animal (foal) is a common reading.",
+  "lesson": [
+    {"type": "text", "text": "In December 1910, Franz Marc wrote to a painter friend to explain what colors mean. Not what they look like: what they mean. Blue, he said, is the male principle, severe and spiritual. Yellow is the female principle, gentle, cheerful and sensual. Red is matter, brutal and heavy, the color the other two must fight and overcome."},
+    {"type": "text", "text": "You do not have to agree. Marc himself treated it as a private working rule, not a law. But a few months later he painted this canvas, a little over a meter tall (about 44 inches), and the rule is all over it. Test it yourself."},
+    {"type": "find", "text": "Marc called one color heavy, earthbound matter. Tap the largest patch of it.", "spots": [
+      {"x": 0.57, "y": 0.93, "zoom": 1.8, "r": 0.16, "title": "Red, underfoot", "text": "The biggest red lies at the very bottom, under the hooves. Smaller patches sit low on the left. Red is literally the ground: the heavy stuff the horse stands on and rises above."}
+    ]},
+    {"type": "text", "text": "Now read the rest the same way. Behind the animal, a wide band of yellow, warm and soft, like a meadow in sun. And rising out of red and yellow, the horse: blue from hoof to mane, the color Marc kept for the mind and the spirit. The picture is a ladder of three colors with the animal at the top."},
+    {"type": "key", "text": "Marc is an Expressionist: he chooses color for what it makes you feel and understand, not for what things look like. A horse can be blue if blue tells the truth about it."},
+    {"type": "text", "text": "Why give the spiritual color to a horse and not to a person? Marc had studied theology before art, and he had come to find people disappointing. Animals seemed to him purer, more at home in the world. He knew them well: he spent days sketching in pastures and even taught animal anatomy to other artists."},
+    {"type": "text", "text": "That knowledge shows. However strange the color, the body is right: the weight on the legs, the turn of the neck. And the pose is not the proud, prancing horse of old statues. Something quieter is going on."},
+    {"type": "tour", "text": "Three places where the horse stops being a zoology lesson.", "spots": [
+      {"x": 0.3, "y": 0.27, "zoom": 2.3, "r": 0.12, "title": "A lowered head", "text": "The head tilts down and to the side. No eye is drawn, only a dark hollow. He is not looking at us or at the view. He seems to be thinking, which is an odd thing to say about a horse."},
+      {"x": 0.43, "y": 0.4, "zoom": 2.4, "r": 0.11, "title": "A chest like cut stone", "text": "The chest is built from flat, pale planes with sharp edges, almost white. Marc had seen the new Cubist painting from Paris, which broke bodies into facets. He borrows the trick to make the body glow."},
+      {"x": 0.38, "y": 0.75, "zoom": 2.3, "r": 0.11, "title": "Long, thin legs", "text": "The legs are slender and a little unsure, one of them angled back. Many viewers see a young animal, not yet grown. It makes the horse feel like someone at the start of life."}
+    ]},
+    {"type": "text", "text": "So the horse is treated like a person with an inner life. What about the land around him? Marc did not want a backdrop. He wanted animal and world to be made of the same stuff, moving to the same beat."},
+    {"type": "lines", "text": "Watch one curve repeat across the canvas.", "lines": [
+      {"points": [[0.15, 0.17], [0.25, 0.04], [0.42, 0.06], [0.55, 0.18], [0.62, 0.24]], "closed": false, "label": "The mane", "text": "The dark blue mane arches over the head and falls down the neck in one sweep."},
+      {"points": [[0.5, 0.1], [0.65, 0.06], [0.8, 0.07], [0.98, 0.14]], "closed": false, "label": "The blue hill", "text": "Right behind it, a hill takes up the same arc, in the same blue. For a second you cannot tell where the horse ends and the mountain begins."},
+      {"points": [[0.4, 0.66], [0.6, 0.5], [0.8, 0.42], [1.0, 0.44]], "closed": false, "label": "The pink hill", "text": "Lower down, a rose-colored slope swells in the same way, like a second back. The landscape is built from horse shapes."}
+    ]},
+    {"type": "text", "text": "In that same year, 1911, Marc and the Russian painter Wassily Kandinsky founded a group in Munich. They organized exhibitions and published an almanac, a book mixing essays and images, where children's drawings and folk art sat next to modern painting. Their shared idea: art should show the inner world, not the surface."},
+    {"type": "fact", "text": "The group was called Der Blaue Reiter, The Blue Rider. Kandinsky later explained the name with a shrug: they both loved blue, Marc liked horses and he liked riders. It was settled over coffee."},
+    {"type": "text", "text": "It lasted three years. When the First World War began in 1914, Marc was called up. He kept drawing in a pocket sketchbook at the front. In March 1916 he was killed by a shell splinter near Verdun, in France. He was 36."},
+    {"type": "fact", "text": "In 1937 the Nazi government seized Marc's paintings from German museums as “degenerate” art. His large canvas The Tower of Blue Horses was even put on show to be mocked, until veterans protested that Marc had died for Germany. It vanished at the end of the war and has never been found."}
+  ],
+  "quiz": [
+    {"question": "For Franz Marc, what did blue stand for?", "options": ["Sadness and cold", "The male, severe and spiritual principle", "Heavy, brutal matter"], "answer": 1, "explanation": "He wrote that blue was male, severe and spiritual."},
+    {"question": "Where is the largest patch of red in the painting?", "options": ["In the sky", "On the horse's mane", "On the ground, under the hooves"], "answer": 2, "explanation": "Red, the color of matter, is what the horse stands on."},
+    {"question": "Why did Marc prefer to paint animals?", "options": ["They seemed purer to him than people", "They were cheaper than models", "His teacher forced him to"], "answer": 0, "explanation": "He found people disappointing and animals more at home in the world."},
+    {"question": "How does the landscape relate to the horse?", "options": ["It is a realistic view of Munich", "It is left blank", "The hills repeat the curves of the horse"], "answer": 2, "explanation": "Mane and hills share the same arcs, so animal and world seem one."},
+    {"question": "Who founded the Blue Rider group with Marc?", "options": ["Pablo Picasso", "Wassily Kandinsky", "Vincent van Gogh"], "answer": 1, "explanation": "Marc and Kandinsky started it in Munich in 1911."}
+  ],
+  "facts": [
+    {"text": "Marc painted the horse blue because he had never studied real horses.", "isTrue": false, "explanation": "He sketched animals for days and even taught animal anatomy."},
+    {"text": "Franz Marc died as a soldier in the First World War.", "isTrue": true, "explanation": "He was killed near Verdun in March 1916, aged 36."},
+    {"text": "In Marc's color system, yellow stood for brutal, heavy matter.", "isTrue": false, "explanation": "That was red; yellow was gentle, cheerful and sensual."}
+  ]
+}

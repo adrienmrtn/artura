@@ -79,6 +79,11 @@ struct HomeFeedView: View {
         }
         .background(Palette.bg)
         .onAppear(perform: buildOrder)
+        .onChange(of: content.artworks.count) { _, _ in
+            // The online catalog has replaced the bundled one: rebuild the feed.
+            order = []
+            buildOrder()
+        }
         .fullScreenCover(item: $course) { CourseFlow(artwork: $0) }
         .fullScreenCover(isPresented: $showPaywall) {
             PaywallScreen(onClose: { showPaywall = false })

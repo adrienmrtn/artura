@@ -1,0 +1,55 @@
+{
+  "teaser": "One half is spotless brick, the other a patched-up shed. A stone above the arch holds a message.",
+  "focus": [0.52, 0.58],
+  "review_notes": "Dimensions 73.5 x 60 cm.\nDe Hooch's father was a master bricklayer in Rotterdam; de Hooch recorded in the 1650s as painter and servant to the linen merchant Justus de la Grange.\nThe tablet comes from the Hieronymusdale cloister in Delft, is dated 1614 and the original stone is said to survive in a Delft garden wall. English wording of the inscription follows the National Gallery translation, paraphrased.\nA second 1658 painting by de Hooch (private collection) uses the same archway and tablet with different figures.\nThe woman on the right is usually described as a maid; the object in her hand is a dish.\nSignature on the base of the archway read as P.D.H. / A 1658.",
+  "lesson": [
+    {"type": "text", "text": "Cut this picture down the middle and you get two different homes. On the left: crisp red and yellow brick, a carved stone, a freshly swept passage. On the right: a lean-to of gray planks, a wall losing its whitewash, a plank propped at an angle. Both belong to the same small yard."},
+    {"type": "text", "text": "Pieter de Hooch could have tidied the right side. He painted it shabby on purpose, and then placed his warmest figures there, a woman and a little girl. The neat half gets a lone woman who turns her back. Order and affection sit on opposite sides."},
+    {"type": "lines", "text": "Three lines show how the painting is put together.", "lines": [
+      {"points": [[0.41, 0.0], [0.41, 0.82]], "closed": false, "label": "The brick pier", "text": "A pillar of striped brick runs from the top edge to the paving. It works like the spine of a book, with one page on each side."},
+      {"points": [[0.21, 0.96], [0.235, 0.76], [0.27, 0.6], [0.275, 0.46]], "closed": false, "label": "The way out", "text": "On the left your eye walks: across the yard, into the passage, past the woman, through a second arch to a sunlit house across the street. Four spaces, one behind another."},
+      {"points": [[0.61, 0.19], [0.755, 0.81]], "closed": false, "label": "The prop", "text": "On the right, a long plank leans against the wooden frame that carries the vine. It is the only strong diagonal, and it makes this side feel improvised, held up by habit."}
+    ]},
+    {"type": "text", "text": "So the left side pulls you deep into the city, and the right side stops you at a doorstep. That see-through view, room behind room, became de Hooch's signature. Dutch has a word for it, “doorkijkje”, a look-through. He did not invent it, but nobody used it so tenderly."},
+    {"type": "fact", "text": "De Hooch was the son of a bricklayer. It shows: he paints every brick and every line of mortar as someone who knows how a wall is laid, and how it ages."},
+    {"type": "text", "text": "The picture is small, about 74 by 60 centimeters (29 by 24 inches), and the figures are no taller than your hand. He gave them no drama at all. What they do instead is worth a closer look, because it was a new kind of subject."},
+    {"type": "tour", "title": "Three people, no plot", "text": "Nobody is posing, and nothing is about to happen. Meet them one by one.", "spots": [
+      {"x": 0.23, "y": 0.64, "zoom": 2.6, "r": 0.09, "shape": "rect", "title": "The woman who waits", "text": "She stands in the cool passage in a black jacket and red skirt, facing the street. We never see her face. Is she watching for someone? De Hooch does not say."},
+      {"x": 0.6, "y": 0.5, "zoom": 3.4, "r": 0.08, "title": "A downward smile", "text": "The woman in the white cap, probably a maid, comes down the step with a dish in one hand. She tilts her head and smiles at the child."},
+      {"x": 0.51, "y": 0.59, "zoom": 3.6, "r": 0.07, "title": "Two hands", "text": "The girl looks up, mouth half open, as if in the middle of a sentence. Their hands meet between them. That small grip is the emotional center of the whole courtyard."}
+    ]},
+    {"type": "text", "text": "A servant, a child, a chore. Before the 1650s, hardly any painter thought this deserved a picture. In the Dutch Republic, buyers were merchants and shopkeepers, not kings, and they liked to see their own values on the wall: a clean house, a well-raised child."},
+    {"type": "key", "text": "De Hooch made ordinary home life a serious subject. The quiet is the message: a well-kept yard and a held hand stood for a good life."},
+    {"type": "text", "text": "He worked in Delft at the same time as Vermeer, who was three years younger. They surely knew each other's work. De Hooch's sunny rooms and tiled floors came first, and Vermeer seems to have studied them before making his own, stiller versions."},
+    {"type": "text", "text": "Now back to the tidy side. De Hooch slipped actual words into the brickwork, readable by anyone in Delft in 1658. They give the scene a moral, and they are older than the painting."},
+    {"type": "find", "text": "There is a text carved in stone on this house. Where?", "spots": [
+      {"x": 0.235, "y": 0.15, "zoom": 3, "r": 0.13, "title": "The tablet", "text": "A stone plaque sits above the arch, half covered by vine leaves. It ends with the date 1614. It once marked the entrance of a Delft cloister, the Hieronymusdale."}
+    ]},
+    {"type": "text", "text": "In Dutch, the stone says roughly: this is Saint Jerome's vale, enter if you seek patience and meekness, for we must first descend if we wish to be raised. Humility first. Read that, then look again at the maid stepping down toward the child."},
+    {"type": "fact", "text": "The same archway and the same tablet appear in another painting de Hooch made that year, with completely different people sitting in the yard. He was not recording one real house. He built his courtyards from pieces, like a stage set."},
+    {"type": "text", "text": "Around 1660 de Hooch left for Amsterdam and richer clients. His interiors filled with marble and silk, and most viewers feel that something was lost. The two or three Delft years around this picture are the ones that made his name."},
+    {"type": "fact", "text": "For part of his early career de Hooch was listed as both painter and servant to a linen merchant, who took paintings as part of the arrangement. He knew a servant's day from the inside."},
+    {"type": "text", "text": "One last walk around the yard. The small things matter here, because in this kind of painting a broom is never only a broom: it is proof that someone cares for the place."},
+    {"type": "explore", "spots": [
+      {"x": 0.72, "y": 0.94, "zoom": 3, "r": 0.13, "title": "The broom", "text": "A broom lies across the paving where someone dropped it. The yard has just been swept. For Dutch viewers a clean floor hinted at a clean conscience."},
+      {"x": 0.78, "y": 0.855, "zoom": 3.4, "r": 0.07, "title": "The bucket", "text": "A wooden pail with dark hoops stands by a few leafy weeds. De Hooch catches the light on its rim with a single pale curve."},
+      {"x": 0.07, "y": 0.805, "zoom": 4.5, "r": 0.05, "title": "Signed in stone", "text": "On the block at the foot of the arch, as if chiseled there: the initials P.D.H. and the year 1658. The painter writes himself into the masonry."},
+      {"x": 0.065, "y": 0.44, "zoom": 2.6, "r": 0.08, "shape": "rect", "title": "The red shutter", "text": "A shutter swings open at the left edge, its iron hooks and hinges picked out one by one. Its red is the strongest color in the painting."},
+      {"x": 0.93, "y": 0.47, "zoom": 2.4, "r": 0.08, "title": "A tired wall", "text": "On the far right the whitewash flakes away and the bricks beneath show through in patches. This is the shabby half, painted with as much care as the smart one."},
+      {"x": 0.58, "y": 0.23, "zoom": 2.2, "r": 0.13, "title": "The vine", "text": "A straggly vine climbs over a rough wooden frame, with a strip of blue sky above. Its thin yellowing leaves suggest late summer."},
+      {"x": 0.27, "y": 0.44, "zoom": 4, "r": 0.05, "title": "Across the street", "text": "Through the far arch you see a sunlit yellow wall and a window with dark panes. The brightest spot of the left half is the one farthest away."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "What does the Dutch word “doorkijkje” describe?", "options": ["A view through one space into another", "A kind of brick", "A servant's apron"], "answer": 0, "explanation": "It means a look-through, room behind room, de Hooch's specialty."},
+    {"question": "What was de Hooch's father's trade?", "options": ["Linen merchant", "Bricklayer", "Innkeeper"], "answer": 1, "explanation": "He was a bricklayer, which may explain the loving attention to walls."},
+    {"question": "What does the stone tablet above the arch ask of people who enter?", "options": ["Money for the poor", "Silence after dark", "Patience and meekness"], "answer": 2, "explanation": "The text says we must first descend if we wish to be raised."},
+    {"question": "How do we know de Hooch did not simply copy one real house?", "options": ["The same archway appears in another painting with other figures", "He wrote it in a letter", "The house never had a yard"], "answer": 0, "explanation": "He reused the arch and tablet in a second picture the same year."},
+    {"question": "Which other Delft painter studied de Hooch's sunny interiors?", "options": ["Rembrandt", "Vermeer", "Hobbema"], "answer": 1, "explanation": "Vermeer worked in Delft at the same time and learned from them."}
+  ],
+  "facts": [
+    {"text": "The woman standing in the passage looks straight out at the viewer.", "isTrue": false, "explanation": "She faces the street and turns her back to us."},
+    {"text": "De Hooch signed the painting on the stonework of the arch.", "isTrue": true, "explanation": "His initials and the year 1658 appear on the block at the foot of the arch."},
+    {"text": "The tablet over the arch is older than the painting.", "isTrue": true, "explanation": "It is dated 1614 and came from a Delft cloister."}
+  ]
+}

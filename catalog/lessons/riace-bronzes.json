@@ -1,0 +1,218 @@
+{
+ "teaser": "A snorkeler saw an arm in the sand and called the police. It was 2,400 years old.",
+ "focus": [
+  0.39,
+  0.3
+ ],
+ "review_notes": "The image is a wide gallery view (960 px) with both statues small: interactive blocks are limited to large regions (whole figures, head, arm, base).\nForeground statue identified as Statue A (headband, long curls), background as Statue B.\nDiscovery: 16 August 1972, Stefano Mariottini, off Riace Marina, about 8 m deep. Heights about 1.98 m (A) and 1.97 m (B).\nDating about 460 BC (A) and about 430 BC (B) is the common view, still debated; so is who they represent.\nSilver teeth (A), copper lips and nipples, calcite eyes: standard descriptions, not visible at this image size.\nAnti-seismic marble bases at Reggio Calabria museum.\nExhibition in Florence (1980-81) then Rome (Quirinal) before Reggio Calabria in 1981.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "He has just turned his head. Something or someone, off to his right, has caught his attention. His weight has settled onto one leg, the other is loose, his left arm is still raised. Nothing dramatic is happening. A man is standing and about to do something else, and the sculptor has caught the half second in between."
+  },
+  {
+   "type": "text",
+   "text": "To freeze that instant in bronze, in about 460 BC, was a new idea. Earlier Greek statues stand evenly on both feet, like soldiers at attention. This one lets the body answer itself: one hip rises, the opposite shoulder drops, the spine curves a little. Artists call the pose contrapposto, an Italian word for “counterpoise”."
+  },
+  {
+   "type": "tour",
+   "title": "Two men in a room",
+   "text": "The gallery at Reggio Calabria holds a pair. Start with the nearer one.",
+   "spots": [
+    {
+     "x": 0.385,
+     "y": 0.42,
+     "zoom": 1.9,
+     "r": 0.09,
+     "title": "Statue A",
+     "text": "His right leg, on your left, carries him. The other is set forward and relaxed, heel down. Follow the body upward and you can feel the shift pass through hips and chest.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.375,
+     "y": 0.165,
+     "zoom": 4.2,
+     "r": 0.045,
+     "title": "The turned head",
+     "text": "Long curls, a thick beard, a band around the hair. The face swings away from the line of the chest. That twist is what makes him seem alert."
+    },
+    {
+     "x": 0.75,
+     "y": 0.3,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Statue B",
+     "text": "The second warrior stands farther back, in the same stance. His skull is oddly long and smooth on top, because it was shaped to sit under a helmet that is now lost.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "They are known only by letters, A and B, because nobody is sure who they are. Heroes from a myth, famous generals, athletes of the armed foot race: every theory has its defenders. Many scholars think B was made about a generation after A, by another hand."
+  },
+  {
+   "type": "fact",
+   "text": "Each figure stands almost 2 meters tall (about 6 ft 6 in), a little larger than a real man of any era. Seen in the gallery, as here, they tower over visitors even without their bases."
+  },
+  {
+   "type": "text",
+   "text": "What they were doing depends on what is missing. Both statues once carried equipment, torn off or lost in the sea. One clue is still attached to the nearer figure, if you know where a Greek soldier wore his defense."
+  },
+  {
+   "type": "find",
+   "text": "A round shield was once strapped to one of Statue A's arms. Which arm? Tap it.",
+   "spots": [
+    {
+     "x": 0.425,
+     "y": 0.245,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The shield arm",
+     "text": "The left forearm is bent and held level, the fist closed around a grip. A heavy round shield covered it from elbow to hand. The lowered right hand most likely held a spear."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Put the shield and spear back in your mind, and the calm pose becomes a show of readiness. He is armed, naked as heroes were shown, and completely at ease. The body itself is the message: trained, balanced, dangerous."
+  },
+  {
+   "type": "fact",
+   "text": "On 16 August 1972, Stefano Mariottini, a chemist from Rome on vacation, was snorkeling off the beach at Riace in southern Italy. About 8 meters down (26 feet) he saw an arm rising from the sand and thought he had found a body."
+  },
+  {
+   "type": "text",
+   "text": "He had found two. Italian police divers lifted them with air balloons a few days later. The statues were crusted with shells and sand. Cleaning them took years, first in Reggio Calabria and then in Florence, and included digging the original clay casting core out from inside through the feet."
+  },
+  {
+   "type": "key",
+   "text": "Nearly every large Greek bronze was melted down long ago for its metal. The handful that survive were mostly saved by accident, lost in shipwrecks or buried in landslides."
+  },
+  {
+   "type": "text",
+   "text": "Up close, the two men are not only bronze. Their lips and nipples are copper, redder than the skin. The eyes were set in with white stone. Statue A even shows a row of teeth plated in silver between his parted lips. This room view is too wide to show it, but the color was part of the lifelike effect."
+  },
+  {
+   "type": "fact",
+   "text": "When the cleaned warriors were first shown in Florence and Rome in 1980 and 1981, crowds lined up for hours, and hundreds of thousands of people came. Italy had not seen that kind of fever for an archaeological find in decades."
+  },
+  {
+   "type": "lines",
+   "text": "Back to the frozen instant. Two lines on Statue A explain why he looks alive.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.385,
+       0.15
+      ],
+      [
+       0.36,
+       0.3
+      ],
+      [
+       0.375,
+       0.45
+      ],
+      [
+       0.37,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "The S-curve",
+     "text": "From head to supporting foot the body does not run straight. It sways gently, as yours does when you rest on one leg in a queue."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.215
+      ],
+      [
+       0.405,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "Shoulders",
+     "text": "The shoulder line is not level. It dips toward the side of the working leg, balancing the hips below. Small tilt, big effect."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "One last thing in the photo is easy to miss: the thick marble blocks under their feet. Calabria is earthquake country. Each base is built in layers that can slide over one another, so that if the ground shakes, the floor moves and the warrior stays still. After 2,400 years, the instant is meant to stay frozen."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does contrapposto mean in practice?",
+   "options": [
+    "The figure stands evenly on both feet",
+    "The weight rests on one leg and the rest of the body shifts to balance",
+    "The figure is shown running"
+   ],
+   "answer": 1,
+   "explanation": "One hip rises, the opposite shoulder drops, and the spine curves."
+  },
+  {
+   "question": "How were the bronzes found in 1972?",
+   "options": [
+    "By a snorkeler who saw an arm in the sand",
+    "During the building of a harbor",
+    "In the cellar of a museum"
+   ],
+   "answer": 0,
+   "explanation": "Stefano Mariottini spotted an arm about 8 meters under water."
+  },
+  {
+   "question": "Why does Statue B have a long, smooth skull?",
+   "options": [
+    "It was damaged by the sea",
+    "It is unfinished",
+    "It was shaped to carry a helmet that is now lost"
+   ],
+   "answer": 2,
+   "explanation": "The helmet sat on the stretched top of the head."
+  },
+  {
+   "question": "What did Statue A carry on his bent left arm?",
+   "options": [
+    "A lyre",
+    "A round shield",
+    "A cloak"
+   ],
+   "answer": 1,
+   "explanation": "The level forearm and closed fist held the grip of a shield."
+  },
+  {
+   "question": "Why do so few large Greek bronzes survive?",
+   "options": [
+    "Most were melted down for their metal",
+    "Greeks rarely worked in bronze",
+    "They dissolved in rain"
+   ],
+   "answer": 0,
+   "explanation": "Bronze was valuable and easy to reuse, so statues were recycled."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Riace Bronzes were excavated from a Greek temple.",
+   "isTrue": false,
+   "explanation": "They were found on the seabed off Riace in Calabria."
+  },
+  {
+   "text": "The statues' lips are made of copper, redder than the bronze skin.",
+   "isTrue": true,
+   "explanation": "Different metals were used to add lifelike color."
+  },
+  {
+   "text": "Scholars know exactly which heroes the two statues represent.",
+   "isTrue": false,
+   "explanation": "Their identity is still debated, which is why they are called A and B."
+  }
+ ]
+}

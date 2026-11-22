@@ -1,0 +1,273 @@
+{
+ "teaser": "A night among hungry lions, and the one thing Rubens swore he painted alone.",
+ "focus": [
+  0.68,
+  0.3
+ ],
+ "review_notes": "Opening angle 'a failure': the lesson opens on the failed execution in the biblical story (Book of Daniel, chapter 6).\nRubens's letter to Sir Dudley Carleton, 28 April 1618: 'Daniel amidst many lions, taken from life. Original, entirely by my hand', priced 600 florins. Paraphrased closely; check wording if shown as a quote.\nExchange with Carleton for a collection of ancient marbles (1618); Carleton later gave the picture to Charles I: standard NGA provenance.\nLions studied from life in the royal menagerie in Brussels; identified as Barbary (Moroccan) lions, a population now extinct in the wild: per NGA.\nDaniel was an old man at the time of the story according to the biblical chronology; Rubens paints him young. Commonly noted.\nCanvas about 224 x 330 cm; in the collection of the Dukes of Hamilton in Scotland for more than two centuries; National Gallery of Art since 1965.\nThe exact number of lions is not stated in the lesson (nine or ten depending on how the overlapping animals on the right are counted in our image).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The execution has failed. Last night a man was lowered into a pit of lions and a stone was sealed over the opening. By every rule of nature he should be bones by now. It is morning. He is cold, stiff with fear, and entirely alive."
+  },
+  {
+   "type": "text",
+   "text": "The story comes from the Bible. Daniel, a Jew, had risen high at the court of the king of Persia. Jealous officials tricked the king into a law: for thirty days, no one could pray to anyone but him. Daniel kept praying to his God, three times a day, at an open window. The penalty was the lions."
+  },
+  {
+   "type": "text",
+   "text": "Rubens could have painted the miracle as a calm, happy ending. He did the opposite. He left clear evidence all over the floor that these animals are not tame, and that other prisoners were not so lucky."
+  },
+  {
+   "type": "find",
+   "text": "What happened to the people thrown in here before Daniel? The proof is in the picture. Find the most chilling piece of it.",
+   "spots": [
+    {
+     "x": 0.71,
+     "y": 0.955,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "A human skull",
+     "text": "A skull lies right under the jaws of a snarling lion, with long bones scattered across the dirt. The den has worked before. Whatever is protecting Daniel is new."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With that skull in mind, Daniel's body makes sense. This is not a serene saint. His legs are twisted together, his toes clench, his knuckles are white. He has prayed all night and he is still praying. The danger is real, and so the rescue counts."
+  },
+  {
+   "type": "fact",
+   "text": "In the Bible's own timeline, Daniel was an old man when this happened. Rubens gives him the body of a young athlete, based on the ancient statues he had drawn in Rome. A strong body, helpless anyway, makes the scene more tense."
+  },
+  {
+   "type": "text",
+   "text": "Now the lions, the true stars. In 1615 almost no one in northern Europe had seen a lion, and most painters copied them from old prints, with odd human faces. Rubens went to look. The rulers of Flanders kept a small zoo in Brussels, and he drew its lions in chalk, pose after pose."
+  },
+  {
+   "type": "tour",
+   "title": "Portraits of lions",
+   "text": "Each animal has its own mood. Four of them, from the top of the heap to the floor.",
+   "spots": [
+    {
+     "x": 0.535,
+     "y": 0.255,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The open mouth",
+     "text": "Teeth, tongue, wet gums. A roar, or simply a huge yawn at sunrise? Rubens leaves it open. It is the most frightening head, and it is the one closest to Daniel."
+    },
+    {
+     "x": 0.355,
+     "y": 0.34,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The stare",
+     "text": "This one stands and looks straight out of the picture, at you. The animals are painted close to life-size, so in front of the canvas you are stared at by something your own size."
+    },
+    {
+     "x": 0.54,
+     "y": 0.83,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Asleep",
+     "text": "Chin on the ground, eyes shut, mane spread like a rug. A sleeping predator is how Rubens shows the miracle: no angel in sight, only appetite switched off."
+    },
+    {
+     "x": 0.7,
+     "y": 0.8,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Still snarling",
+     "text": "Lips curled back, fangs bared, a paw beside the skull. Not every lion is calm. The peace in this den is thin, and it could end."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The fur is worth the trip by itself. Rubens paints manes with long, loaded strokes of ochre and gold, wet into wet, so each lock catches light. The animals are close to life-size on a canvas about 2.2 by 3.3 meters (roughly 7 by 11 feet). Stand in front of it and you are on the floor of the pit with them."
+  },
+  {
+   "type": "fact",
+   "text": "These were Barbary lions from North Africa, a kind with heavy dark manes that no longer exists in the wild. The painting is, among other things, a careful record of a vanished animal."
+  },
+  {
+   "type": "text",
+   "text": "So where is the hope in this picture? Nearly everything is brown rock and tawny fur. Rubens keeps the cool colors, blue and white, for one small place, and he aims his hero at it."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines explain how the scene is built.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.7,
+       0.17
+      ],
+      [
+       0.64,
+       0.04
+      ]
+     ],
+     "closed": false,
+     "label": "The look upward",
+     "text": "Daniel's eyes go to a patch of morning sky. The stone has been moved from the mouth of the den. Someone is up there, and day has come."
+    },
+    {
+     "points": [
+      [
+       0.65,
+       0.04
+      ],
+      [
+       0.69,
+       0.33
+      ],
+      [
+       0.54,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "The path of light",
+     "text": "Daylight drops through the hole and runs down his chest, knee and foot. He is the palest thing in the cave. The lions stay in warm half-shadow."
+    },
+    {
+     "points": [
+      [
+       0.1,
+       0.4
+      ],
+      [
+       0.36,
+       0.32
+      ],
+      [
+       0.535,
+       0.25
+      ],
+      [
+       0.93,
+       0.55
+      ],
+      [
+       0.7,
+       0.8
+      ],
+      [
+       0.53,
+       0.83
+      ],
+      [
+       0.31,
+       0.67
+      ]
+     ],
+     "closed": false,
+     "label": "The ring",
+     "text": "Heads and backs curve around him like a horseshoe. He is pushed to one side, on a ledge, with a red cloak behind him. There is no path between him and the door."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "In the Bible, the person at the opening is the king himself. He has not slept, he runs to the den at first light and calls down, afraid of the silence. Daniel answers that God sent an angel to shut the lions' mouths. Rubens stops just before that answer."
+  },
+  {
+   "type": "key",
+   "text": "Rubens paints a miracle without showing anything supernatural. No angel, no halo: only a terrified man, real animals, and a strip of daylight."
+  },
+  {
+   "type": "text",
+   "text": "Viewers in Catholic Flanders read more into it. A man sealed under a stone who comes out alive at dawn reminded them of Christ leaving his tomb. And in a region just out of decades of religious war, a believer who survives persecution by holding on was a very current hero."
+  },
+  {
+   "type": "fact",
+   "text": "Rubens ran a busy workshop where assistants painted large parts of many pictures. When he offered this one to an English diplomat in 1618, he listed it as done entirely by his own hand, with lions taken from life. He traded it, with other paintings, for a collection of ancient marble statues."
+  },
+  {
+   "type": "text",
+   "text": "The diplomat, Sir Dudley Carleton, soon gave the canvas to King Charles I of England. It later spent more than two hundred years in a Scottish duke's palace, and since 1965 it has hung in Washington. Go back to the yawning lion one more time. Is it waking up, or settling down?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why was Daniel thrown to the lions?",
+   "options": [
+    "He stole from the king",
+    "He kept praying to his God despite a royal ban",
+    "He refused to fight in a war"
+   ],
+   "answer": 1,
+   "explanation": "A law forbade prayer to anyone but the king, and Daniel ignored it."
+  },
+  {
+   "question": "How did Rubens learn to paint such convincing lions?",
+   "options": [
+    "He drew living lions in a royal zoo in Brussels",
+    "He traveled to Africa",
+    "He copied them from old prints"
+   ],
+   "answer": 0,
+   "explanation": "He made chalk studies from the animals kept by the rulers of Flanders."
+  },
+  {
+   "question": "What does the patch of blue sky at the top tell you?",
+   "options": [
+    "A storm is coming",
+    "Daniel is dreaming",
+    "The stone has been removed and morning has come"
+   ],
+   "answer": 2,
+   "explanation": "The den has been opened at dawn, as in the biblical story."
+  },
+  {
+   "question": "How does Rubens show the miracle?",
+   "options": [
+    "With an angel holding the lions back",
+    "With calm and sleeping lions, and nothing supernatural",
+    "With a golden halo around Daniel"
+   ],
+   "answer": 1,
+   "explanation": "There is no angel in the picture, only animals that do not attack."
+  },
+  {
+   "question": "What did Rubens receive in exchange for the painting in 1618?",
+   "options": [
+    "A title of nobility",
+    "A house in London",
+    "Ancient marble statues"
+   ],
+   "answer": 2,
+   "explanation": "He traded several paintings for an English diplomat's collection of antique marbles."
+  },
+  {
+   "question": "What lies on the ground in front of the snarling lion?",
+   "options": [
+    "A human skull",
+    "A broken sword",
+    "A crown"
+   ],
+   "answer": 0,
+   "explanation": "The skull and bones show that earlier prisoners were eaten."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Rubens described this painting as made entirely by his own hand.",
+   "isTrue": true,
+   "explanation": "He said so when he offered it to Sir Dudley Carleton in 1618."
+  },
+  {
+   "text": "An angel can be seen in the painting, holding the lions' mouths shut.",
+   "isTrue": false,
+   "explanation": "Rubens shows no supernatural figure at all."
+  },
+  {
+   "text": "Rubens painted Daniel as a frail old man, as the Bible's timeline suggests.",
+   "isTrue": false,
+   "explanation": "He gave him the body of a young athlete."
+  }
+ ]
+}

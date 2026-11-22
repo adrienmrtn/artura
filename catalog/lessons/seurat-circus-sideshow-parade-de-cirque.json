@@ -1,0 +1,301 @@
+{
+ "teaser": "A free show on a cold Paris night, painted in dots of gaslight. Nobody seems to be having fun.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "1917 ballet Parade (Cocteau, Satie, Picasso, Ballets Russes) shares the subject; lesson does not claim it was inspired by Seurat.\nCirque Corvi at the Gingerbread Fair, place de la Nation, spring 1887 (per the Met).\nMet describes five musicians, a ringmaster and a clown; the small figure with a ruffled collar is described cautiously as a young performer.\nThe 'hidden' fifth musician at the far left edge is hard to make out in the image; check spot placement.\nThe pale panel behind the trombonist is described as a posted sign, uncertain.\nBequest of Stephen C. Clark to the Met, 1960. Size about 100 x 150 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1917, Paris saw a ballet called “Parade”. Jean Cocteau wrote the story, Erik Satie the music, Pablo Picasso designed the costumes. Its plot: performers stand outside a fairground theater, doing tricks to pull the crowd inside, and the crowd never goes in. Thirty years earlier, Georges Seurat had already painted that awkward moment."
+  },
+  {
+   "type": "text",
+   "text": "A “parade”, in French fairground slang, was the free sample. Musicians and clowns came out on a platform in front of the tent and played for passersby, hoping some would buy a ticket. Seurat saw this one in spring 1887 at the Gingerbread Fair in eastern Paris, outside the traveling Corvi circus."
+  },
+  {
+   "type": "text",
+   "text": "He was 28, and already known for sunny afternoons by the Seine. This is his first picture of the night, and his first of popular entertainment. You are standing at the back of the crowd, behind hats and shoulders, looking up at the stage."
+  },
+  {
+   "type": "tour",
+   "title": "On the platform",
+   "text": "Everything is flattened into one shallow band, like a shadow theater. Start in the middle.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.42,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "The trombonist",
+     "text": "Alone on a pedestal, in a pointed hat, he faces you dead on. His face is a blur of violet dots. He looks less like an entertainer than like a priest at an altar.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.24,
+     "y": 0.45,
+     "zoom": 2,
+     "r": 0.17,
+     "title": "The band",
+     "text": "Three players in bowler hats line up behind a rail, lit from below, their bodies cut off at the chest. They are as evenly spaced as notes on a staff."
+    },
+    {
+     "x": 0.86,
+     "y": 0.47,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "The ringmaster",
+     "text": "In profile, mustache curled, a baton tucked under his arm. He is the boss of the show, and the only figure with a readable face.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.68,
+     "y": 0.62,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "The boy",
+     "text": "A small figure with a pale ruffled collar looks up at the ringmaster, waiting for orders. Probably a young performer of the troupe."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nobody smiles, nobody moves. A circus teaser should be loud and silly, yet Seurat painted it like a ceremony. He was reading the theories of a young scientist, Charles Henry, who claimed that lines and colors carry feelings by themselves: flat and falling lines for calm or sadness, dark and cool tones for melancholy."
+  },
+  {
+   "type": "lines",
+   "text": "See how the picture is ruled like a sheet of graph paper.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.09
+      ],
+      [
+       1.0,
+       0.09
+      ]
+     ],
+     "closed": false,
+     "label": "The row of flames",
+     "text": "A straight band of gas jets runs across the top like the fringe of a curtain. It shuts the sky out completely."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.6
+      ],
+      [
+       0.45,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The rail",
+     "text": "A long horizontal slices the musicians in half. Flat lines like this one give the scene its heavy stillness."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.17
+      ],
+      [
+       0.5,
+       0.85
+      ]
+     ],
+     "closed": false,
+     "label": "The central upright",
+     "text": "The trombonist stands on the exact middle of the canvas, hat tip to feet. Left and right are weighed against him."
+    },
+    {
+     "points": [
+      [
+       0.07,
+       0.1
+      ],
+      [
+       0.07,
+       0.85
+      ]
+     ],
+     "closed": false,
+     "label": "The tree",
+     "text": "A bare trunk on the left answers the uprights and posts on the right. Verticals and horizontals only: almost no diagonal to suggest movement."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Seurat believed a picture's mood could be built from its lines and tones. Here, a grid of flat and upright lines in dark violet turns a noisy fairground into something solemn."
+  },
+  {
+   "type": "fact",
+   "text": "The light in this picture is gas. Paris fairgrounds of the 1880s were lit by open gas jets, hissing pipes with a fan of flame. The nine pale shapes across the top of the canvas are those flames."
+  },
+  {
+   "type": "text",
+   "text": "Painting night with dots was a real problem. Seurat's method relied on pure, bright touches of color. For darkness he could not just add black. He wove deep blue and violet with orange, their opposite on the color wheel, so that the gloom seems to flicker like the gaslight itself."
+  },
+  {
+   "type": "text",
+   "text": "One player in the band is easy to miss. The painting has five musicians, not four, and the fifth is half swallowed by the edge of the canvas."
+  },
+  {
+   "type": "find",
+   "text": "Three musicians stand behind the rail and one on the pedestal. Where is the fifth?",
+   "spots": [
+    {
+     "x": 0.035,
+     "y": 0.47,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The fifth musician",
+     "text": "At the far left, behind the tree, the curve of a brass instrument and part of a player slip out of the frame. Seurat crops him the way a snapshot would."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That cut-off figure tells you the show continues beyond the canvas. So does the bottom edge: the audience is only a frieze of hats, a bowler here, a top hat there, a woman's bonnet. You are one more head in that row."
+  },
+  {
+   "type": "fact",
+   "text": "Seurat showed the painting in 1888 at the Salon des Indépendants, a Paris exhibition with no jury that he had helped found. Critics hardly knew what to say about it, and it stayed in his studio until he died three years later."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is about 1 meter high and 1.5 meters wide (roughly 39 by 59 inches). It crossed the Atlantic in the 20th century and entered the Metropolitan Museum in 1960, left to it by the collector Stephen C. Clark."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.84,
+     "y": 0.21,
+     "zoom": 3,
+     "r": 0.13,
+     "title": "Globe lamps",
+     "text": "A second kind of light: round lamps glowing in a row on the right, each one a soft halo of orange dots on violet."
+    },
+    {
+     "x": 0.45,
+     "y": 0.045,
+     "zoom": 2.5,
+     "r": 0.25,
+     "title": "Gas jets",
+     "text": "Fans of pale flame, evenly spaced. Seurat simplifies them into a decorative pattern, almost like a row of crowns."
+    },
+    {
+     "x": 0.31,
+     "y": 0.85,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "A bowler hat",
+     "text": "The round hat of a clerk or shopkeeper, seen from behind. The fair drew ordinary Parisians looking for a cheap evening."
+    },
+    {
+     "x": 0.8,
+     "y": 0.85,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Top hat and bonnet",
+     "text": "On the right the crowd turns toward the ticket booth. These are the few who have decided to pay and go in."
+    },
+    {
+     "x": 0.55,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The pale sign",
+     "text": "Behind the trombonist hangs a light panel, likely a posted notice. It is the brightest patch near the center and frames his dark silhouette."
+    },
+    {
+     "x": 0.07,
+     "y": 0.25,
+     "zoom": 2.4,
+     "r": 0.09,
+     "title": "Bare branches",
+     "text": "The tree has no leaves. It was a cold spring evening, and the thin branches spread across the wall like cracks."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So what is this picture about? A joke on entertainment that entertains no one? The loneliness of people who perform every night? Seurat left no explanation. Maybe that is why the title of Cocteau's ballet still sounds like an answer: the real show may be the one that happens outside, before anyone buys a ticket."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was a “parade” at a French fairground?",
+   "options": [
+    "A free teaser show outside the tent",
+    "A march of animals through town",
+    "The final act of the circus"
+   ],
+   "answer": 0,
+   "explanation": "Performers played outside for free to tempt passersby to buy tickets."
+  },
+  {
+   "question": "What lights the scene?",
+   "options": [
+    "Electric bulbs",
+    "Moonlight",
+    "Gas jets and lamps"
+   ],
+   "answer": 2,
+   "explanation": "The pale shapes at the top are open gas flames."
+  },
+  {
+   "question": "Which lines dominate the composition?",
+   "options": [
+    "Swirling curves",
+    "Horizontals and verticals",
+    "Zigzag diagonals"
+   ],
+   "answer": 1,
+   "explanation": "The picture is ruled like a grid, which makes it feel still and solemn."
+  },
+  {
+   "question": "How did Seurat paint darkness?",
+   "options": [
+    "With pure black paint",
+    "By leaving the canvas bare",
+    "With blue and violet woven with orange"
+   ],
+   "answer": 2,
+   "explanation": "He mixed dark cool touches with their opposite, orange, instead of using black."
+  },
+  {
+   "question": "Where does the viewer seem to stand?",
+   "options": [
+    "On the stage",
+    "At the back of the crowd",
+    "Inside the tent"
+   ],
+   "answer": 1,
+   "explanation": "We look over the hats of the audience toward the platform."
+  }
+ ],
+ "facts": [
+  {
+   "text": "This was Seurat's first night scene.",
+   "isTrue": true,
+   "explanation": "Before it, he was known for daylight scenes by the Seine."
+  },
+  {
+   "text": "The 1917 ballet “Parade” had costumes designed by Seurat.",
+   "isTrue": false,
+   "explanation": "Seurat died in 1891; Picasso designed the ballet's costumes."
+  },
+  {
+   "text": "The trombonist stands in the middle of the canvas, facing the viewer.",
+   "isTrue": true,
+   "explanation": "He is placed on the central axis, seen straight on."
+  }
+ ]
+}

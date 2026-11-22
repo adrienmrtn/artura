@@ -1,0 +1,47 @@
+{
+  "teaser": "Five red bodies, one broken circle, and a buyer who almost lost his nerve.",
+  "focus": [0.4, 0.45],
+  "review_notes": "Size about 260 x 391 cm.\nShchukin's hesitation after the 1910 Salon d'Automne and his change of mind during the train journey to Moscow are paraphrased from his letters; no direct quotation used.\nMatisse's description of the three colors is paraphrased, not quoted.\nSource of the ring: background dancers in Le Bonheur de vivre (1905-06); Matisse linked the motif to the farandole he watched at the Moulin de la Galette.\nShchukin had part of the companion panel Music overpainted for modesty.\nCollection nationalized 1918; State Museum of New Western Art closed 1948 and holdings split between Moscow and Leningrad; pictures largely kept from view until the mid 1950s.\nThe gap between the two front hands is clear in the image at about x 0.39, y 0.47.",
+  "lesson": [
+    {"type": "text", "text": "Paris, October 1910. The painting hangs in the Salon d'Automne, the big fall exhibition of new art, and people in front of it are laughing. Critics write of savages and cannibals. They are offended by the color, by the drawing, by the size, by the fact that a grown man of forty painted bodies the way a child might cut them from paper."},
+    {"type": "text", "text": "One visitor has a special reason to be nervous. Sergei Shchukin, a Moscow textile merchant, ordered this panel and a partner called Music for the staircase of his mansion. He travels home shaken and writes to Henri Matisse that he cannot hang such nudes in a house where young girls live. Could he have something smaller instead?"},
+    {"type": "text", "text": "Then, somewhere on the long train ride to Moscow, he changes his mind. He sends word that he is ashamed of his weakness and wants both panels after all. Why would a careful businessman fight his own fear for this picture? Part of the answer is in how little it is made of."},
+    {"type": "key", "text": "Three colors carry the whole painting: a blue for the sky, a green for the hill, a red-orange for the bodies. Matisse wanted each one at full strength, with nothing to dilute it."},
+    {"type": "text", "text": "No shadows, no grass, no clouds, no faces to speak of. Matisse threw out everything that could slow the eye. What he kept is a shape, and the shape is where the energy comes from. Follow it around the canvas."},
+    {"type": "lines", "text": "The dancers form one loop. Watch how it is built.", "lines": [
+      {"points": [[0.25, 0.07], [0.61, 0.17], [0.95, 0.3], [0.75, 0.69], [0.39, 0.47], [0.15, 0.2]], "closed": true, "label": "The ring", "text": "Linked hands draw a lopsided oval that touches three edges of the canvas. It is too big for its frame. The dance looks ready to burst out of the picture."},
+      {"points": [[0.02, 0.9], [0.1, 0.62], [0.13, 0.4], [0.16, 0.2], [0.24, 0.07]], "closed": false, "label": "The anchor", "text": "The tall dancer on the left is one unbroken curve from heel to raised hand. This figure leads. The others seem to be pulled along behind."},
+      {"points": [[0.0, 0.9], [0.3, 0.71], [0.5, 0.63], [0.72, 0.58], [0.9, 0.68], [1.0, 0.8]], "closed": false, "label": "The hill", "text": "The ground is a single green bulge, like the top of the world. Feet barely press into it. The dancers skim more than they stand."}
+    ]},
+    {"type": "text", "text": "So the ring turns clockwise, tilted toward you like a wheel seen from the side. The dancers at the back rise, the ones in front lean and stretch. Speed has a cost, though. One dancer cannot keep up."},
+    {"type": "find", "text": "The circle is broken in one place. Find where two hands fail to meet.", "spots": [
+      {"x": 0.385, "y": 0.47, "zoom": 3.4, "r": 0.07, "title": "The gap", "text": "The front dancer has stumbled and flings an arm forward. The fingers stop just short of the leader's hand. Matisse placed the gap over a red knee, so the color stays whole while the chain snaps."}
+    ]},
+    {"type": "text", "text": "That gap is the most alive spot in the painting. A closed circle would be a pattern, pretty and finished. An open one is an event: will she catch the hand or fall? Many viewers say the gap is on our side for a reason. It is the place where you could step in."},
+    {"type": "fact", "text": "Matisse did not invent the ring for Shchukin. Five years earlier he had painted a tiny circle of dancers far in the background of a large picture called The Joy of Life. He lifted that detail out and blew it up to fill a wall."},
+    {"type": "text", "text": "The wall is the right word. The canvas measures about 2.6 by 3.9 meters, roughly 8.5 by 13 feet. The figures are larger than you are. Matisse saw the staircase in three stages: on the first landing a dance to lift the visitor's spirits, on the second, music and calm."},
+    {"type": "fact", "text": "There are two Dances. A first full-size version from 1909, with pale pink bodies and softer blue and green, hangs in the Museum of Modern Art in New York. Matisse repainted the idea for Moscow in the hotter colors you see here."},
+    {"type": "text", "text": "Those hot colors were his reputation. Since 1905 Matisse had been known as the leader of the Fauves, French for “wild beasts,” a nickname given to painters who used color straight from the tube, free from what things really look like. In Dance he pushed past that. The paint is thin, the outlines are drawn fast in dark red, and corrections stay visible."},
+    {"type": "tour", "title": "The hand at work", "text": "Simple does not mean smooth. Go closer to three places.", "spots": [
+      {"x": 0.42, "y": 0.22, "zoom": 2.2, "r": 0.14, "title": "A twisting back", "text": "The dancer at top center bends and turns at once. A few dark lines mark breast, belly and thigh. Anatomy is reduced to the marks that carry the twist."},
+      {"x": 0.72, "y": 0.34, "zoom": 2.4, "r": 0.12, "title": "A lifted knee", "text": "This leg kicks high, with the foot dangling. Around the limbs the blue is brushed in different directions, as if Matisse had shifted the outline and painted the sky back in."},
+      {"x": 0.62, "y": 0.68, "zoom": 2.0, "r": 0.17, "title": "The fallen one", "text": "Stretched almost flat, head down, this body spans a third of the canvas. Her red against the green hill makes the sharpest clash of color in the painting."}
+    ]},
+    {"type": "text", "text": "In Moscow the panels changed lives. Shchukin opened his house to the public on Sundays, and young Russian painters climbed that staircase to see what Paris was doing. Within a few years some of them were making the most radical abstract art in Europe."},
+    {"type": "fact", "text": "After the 1917 revolution the Soviet state seized Shchukin's collection, and he ended his days in exile in Paris. In 1948 the museum holding his pictures was shut on Stalin's orders as a bad influence, and Dance spent years in storage before the Hermitage could hang it again."},
+    {"type": "text", "text": "Laughed at in Paris, doubted by its buyer, locked away by a government: for about half a century this painting kept being refused. Today it hangs in Saint Petersburg in front of crowds who mostly smile. They are responding to the same thing the 1910 visitors were, a picture that has almost nothing in it except joy at full volume."}
+  ],
+  "quiz": [
+    {"question": "How did visitors to the 1910 Salon d'Automne react?", "options": ["They applauded", "They laughed and critics called it savage", "They ignored it"], "answer": 1, "explanation": "The simplified bodies and raw color struck the Paris public as barbaric."},
+    {"question": "Who commissioned Dance?", "options": ["The Hermitage museum", "The French state", "Sergei Shchukin, a Moscow merchant"], "answer": 2, "explanation": "Shchukin ordered it with Music for the staircase of his mansion."},
+    {"question": "How many main colors did Matisse use?", "options": ["Three", "Seven", "Twelve"], "answer": 0, "explanation": "Blue sky, green hill and red-orange bodies carry the whole picture."},
+    {"question": "Where is the ring of dancers broken?", "options": ["At the top, between the two highest dancers", "On the far right edge", "In front, between the stumbling dancer and the leader on the left"], "answer": 2, "explanation": "The front dancer's hand stops just short of the leader's."},
+    {"question": "Where did the motif of the ring first appear?", "options": ["In the background of Matisse's The Joy of Life", "In a photograph of a ballet", "In a sculpture by Rodin"], "answer": 0, "explanation": "Matisse enlarged a tiny circle of dancers from that earlier painting."},
+    {"question": "What does “Fauves” mean?", "options": ["Dancers", "Wild beasts", "Dreamers"], "answer": 1, "explanation": "The nickname was given to painters who used fierce, unnatural color."}
+  ],
+  "facts": [
+    {"text": "An earlier, paler version of Dance hangs in New York.", "isTrue": true, "explanation": "The 1909 version at the Museum of Modern Art has pink bodies and softer colors."},
+    {"text": "Shchukin never wavered about hanging the painting.", "isTrue": false, "explanation": "He first asked for something smaller, then changed his mind on the way home."},
+    {"text": "Dance is a small canvas, about the size of a window.", "isTrue": false, "explanation": "It measures about 2.6 by 3.9 meters, with figures larger than life."}
+  ]
+}

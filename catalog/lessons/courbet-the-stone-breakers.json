@@ -1,0 +1,57 @@
+{
+  "teaser": "Two road workers, life-size, faces hidden. The painting itself no longer exists.",
+  "focus": [0.7, 0.42],
+  "review_notes": "The painting was destroyed in 1945; the image is a color reproduction made from pre-war photography, so colors are approximate. The lesson says so.\nDestruction: standard account is that it was lost in February 1945 with about 150 other paintings when a truck evacuating works from Dresden (toward Konigstein fortress) was hit during Allied bombing. Exact circumstances vary between sources.\nDimensions: 165 x 257 cm.\nAges of the models (about 70 and about 15) and Courbet's remarks come from his letters of late 1849 (to Francis and Marie Wey, and to Champfleury); they are paraphrased, not quoted.\nRoadside encounter near Maisieres, on the way to the chateau of Saint-Denis: from the same letters.\nProudhon's praise (in 'Du principe de l'art', 1865): paraphrased.\nAcquired by the Dresden Gemaldegalerie in 1904: please check.\nThe 'show me an angel' remark is a famous attributed saying.\nA smaller, reversed version survives in the Oskar Reinhart collection, Winterthur: please check before publishing.",
+  "lesson": [
+    {"type": "text", "text": "Who built the road you took this morning? You probably cannot say, and you certainly never saw a face. In 1849 Gustave Courbet painted that exact blind spot: two men who make roads, at full human size, on a canvas more than 2.5 meters wide (about 8 and a half feet)."},
+    {"type": "text", "text": "He met them by chance. Courbet was 30, back in his home town of Ornans in eastern France, riding in a carriage toward a nearby château, when he passed an old man and a boy breaking rocks at the roadside. He stopped, talked with them, and asked both to come pose in his studio the next day."},
+    {"type": "text", "text": "The job was as low as rural work went. Big stones were hauled to the roadside and smashed by hand into gravel to fill ruts. It paid almost nothing and needed no skill, only a back. Courbet wrote to friends that he had rarely come across so complete a picture of poverty."},
+    {"type": "text", "text": "He painted the pair nearly life-size. That was the first provocation. In French art of the time, huge canvases were reserved for kings, saints, battles and Greek heroes. Peasants belonged in small, charming pictures. And these peasants are given no charm at all, starting with the part of a person we look at first."},
+    {"type": "tour", "title": "Where are the faces?", "text": "Two figures fill the canvas. Try to meet their eyes.", "spots": [
+      {"x": 0.275, "y": 0.11, "zoom": 3, "r": 0.07, "title": "The boy", "text": "He turns his back to us. You get the nape of his neck, an ear, cropped hair. He is straining to lift a basket and has no attention to spare."},
+      {"x": 0.74, "y": 0.28, "zoom": 3, "r": 0.08, "title": "The old man", "text": "A straw hat throws his profile into deep shadow. A cheekbone and a jaw are all that show. He looks only at the stone he is about to hit."},
+      {"x": 0.86, "y": 0.32, "zoom": 2.4, "r": 0.09, "title": "The hammer", "text": "The best-lit object near his head is the tool. The long handle is raised, both fists closed around it. The work is clearer than the worker."}
+    ]},
+    {"type": "text", "text": "No faces means no story to enjoy, no noble suffering to admire, no portrait. These two could be anyone doing this job. Some viewers found that cold. For Courbet it was honesty: the men are absorbed in their task and have no idea, and no care, that they are being watched."},
+    {"type": "key", "text": "Courbet gave the scale of history painting to people history ignored, and refused to prettify them. That choice is the heart of what came to be called Realism."},
+    {"type": "fact", "text": "Asked once to include angels in a church painting, Courbet is said to have answered: show me an angel and I will paint one. He claimed to paint only what he could see with his own eyes."},
+    {"type": "text", "text": "With the faces closed to us, the clothes do the talking. Courbet records them the way an inspector might, item by item, and each item tells you how long it has been worn."},
+    {"type": "explore", "spots": [
+      {"x": 0.19, "y": 0.33, "zoom": 3.2, "r": 0.06, "title": "Torn shirt", "text": "The boy's shirt is ripped open at the side, the skin of his back showing through the hole. Nobody has mended it."},
+      {"x": 0.21, "y": 0.26, "zoom": 3, "r": 0.06, "shape": "rect", "title": "One strap", "text": "A single leather brace crosses his back to hold up trousers that look too big for him, likely handed down."},
+      {"x": 0.655, "y": 0.47, "zoom": 3, "r": 0.07, "title": "Striped vest", "text": "The old man's red striped waistcoat is frayed and patched at the waist. It was a good garment once, a long time ago."},
+      {"x": 0.43, "y": 0.78, "zoom": 3.2, "r": 0.07, "title": "The heel", "text": "He wears wooden clogs, the cheap shoes of French farm workers. At the heel his blue sock is worn through, and bare skin shows."},
+      {"x": 0.24, "y": 0.9, "zoom": 2.8, "r": 0.08, "title": "Cracked boots", "text": "The boy's leather shoes are split and shapeless, the color of the dust they stand in."},
+      {"x": 0.35, "y": 0.38, "zoom": 2.6, "r": 0.08, "title": "The load", "text": "A wicker basket heaped with broken rock. He props it on his raised knee to take the weight, his whole body leaning back."}
+    ]},
+    {"type": "text", "text": "Holes at the heel, a rip in the back: these are not picturesque rags arranged for effect. They are precise damage, the kind that hard work does in specific places. Critics at the time complained that Courbet had painted dirt. He had painted evidence."},
+    {"type": "text", "text": "Then there is the pairing itself. The old man was about 70, the boy about 15. Courbet summed up what he saw in them with a grim remark: in this trade, this is how you start, and this is how you finish. The picture is one life, shown at both ends, with nothing better in between."},
+    {"type": "lines", "text": "The setting is built to offer no way out. Follow three lines.", "lines": [
+      {"points": [[0.0, 0.3], [0.4, 0.22], [0.75, 0.02], [1.0, 0.18]], "closed": false, "label": "The wall of hill", "text": "A dark slope fills the entire background and climbs past the top of the canvas. There is no horizon and no distance to rest your eyes on."},
+      {"points": [[0.86, 0.0], [1.0, 0.0], [1.0, 0.16]], "closed": true, "label": "A scrap of sky", "text": "One small blue triangle in the top right corner is all the sky there is. Open air exists, but far from these two."},
+      {"points": [[0.92, 0.23], [0.86, 0.38], [0.8, 0.55], [0.77, 0.7]], "closed": false, "label": "The next blow", "text": "The hammer's path points down to the pile of small gray stones under the old man's knee. Every line in the picture ends on the ground."}
+    ]},
+    {"type": "text", "text": "Pressed against that hill, the figures have nowhere to go, and neither do you. Courbet also paints them side by side without overlapping, each in his own strip of canvas, like items on a shelf. There is no elegant grouping, none of the flowing arrangement that art schools taught."},
+    {"type": "text", "text": "Still, he allowed them one small comfort. Somewhere near the edge of the road, away from the hammer, their midday meal is waiting."},
+    {"type": "find", "text": "The workers brought lunch. Where did they set it down?", "spots": [
+      {"x": 0.905, "y": 0.54, "zoom": 3, "r": 0.08, "title": "The cooking pot", "text": "A dented metal pot with its lid on, a spoon lying beside it, and what looks like a hunk of bread. This is the whole reward for the day, placed in the shade of a bush."}
+    ]},
+    {"type": "fact", "text": "The political thinker Pierre-Joseph Proudhon, a friend of Courbet's and one of the founders of French socialism, championed the painting. He wrote that it showed what machines and progress had failed to do for the poor, and he treated it as a moral lesson in paint."},
+    {"type": "text", "text": "Courbet sent the canvas to the Salon, the huge official exhibition in Paris, in the winter of 1850 to 1851. It hung alongside his “Burial at Ornans”, another giant picture of ordinary country people. Paris had just lived through the revolution of 1848, and many visitors saw a threat in these silent laborers. Others saw the future of painting."},
+    {"type": "fact", "text": "You can no longer stand in front of it. The painting entered the museum of Dresden, Germany, and in February 1945, as the collection was being moved out of the city for safety, the transport was caught in the Allied bombing. The canvas was destroyed along with some 150 other pictures."},
+    {"type": "text", "text": "What you have been looking at is a color reproduction made from photographs taken before the war, which is why its tones seem a little harsh. A painting about people nobody remembered is now itself a memory. The old man's face, hidden under his hat in 1849, is hidden for good."}
+  ],
+  "quiz": [
+    {"question": "How did Courbet come to paint these two workers?", "options": ["He hired professional models in Paris", "He saw them by a road near Ornans and invited them to his studio", "He copied them from a newspaper"], "answer": 1, "explanation": "He passed them while riding in a carriage and asked them to pose the next day."},
+    {"question": "Why was the size of the canvas provocative?", "options": ["Large formats were kept for kings, saints and heroes", "It was too big to fit in the Salon", "Large canvases were illegal for landscapes"], "answer": 0, "explanation": "Giving laborers the scale of history painting broke an unwritten rule."},
+    {"question": "What do we see of the two men's faces?", "options": ["Both stare straight at us", "Only the boy's face is visible", "Almost nothing: one has his back turned, the other is shaded by his hat"], "answer": 2, "explanation": "Courbet hides both faces so the men stay anonymous and absorbed in the work."},
+    {"question": "What did Courbet mean by pairing an old man with a boy?", "options": ["They are a grandfather teaching a craft with pride", "The job begins like this and ends like this, with no escape", "The boy will soon inherit the land"], "answer": 1, "explanation": "He remarked that in this trade this is how you start and how you finish."},
+    {"question": "What happened to the painting?", "options": ["It was destroyed in 1945 during the bombing of Dresden", "It was stolen from the Louvre", "Courbet burned it himself"], "answer": 0, "explanation": "It was lost while being evacuated from Dresden in February 1945."},
+    {"question": "How much sky does the picture show?", "options": ["A wide sunset across the top", "None at all", "A small blue corner at the top right"], "answer": 2, "explanation": "A dark hill fills the background, leaving only a scrap of blue."}
+  ],
+  "facts": [
+    {"text": "The original painting can be seen today in Dresden.", "isTrue": false, "explanation": "It was destroyed in 1945; only reproductions made from earlier photographs remain."},
+    {"text": "The old man wears wooden clogs and a sock with a hole at the heel.", "isTrue": true, "explanation": "Courbet records the worn clothing in precise detail."},
+    {"text": "Courbet showed the painting at the Paris Salon of 1850 to 1851.", "isTrue": true, "explanation": "It hung there alongside his “Burial at Ornans”."}
+  ]
+}

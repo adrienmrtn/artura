@@ -1,0 +1,54 @@
+{
+  "teaser": "A tree that is red at the top and blue at the bottom, and nobody in the picture seems to mind.",
+  "focus": [0.58, 0.72],
+  "review_notes": "Check dimensions: about 129.5 x 195 cm.\nCheck: painted at L'Estaque in summer 1906 and shown at the Salon d'Automne that year (the lesson only says 'painted in 1906').\nCheck: Museum of Fine Arts, Houston acquired it through the Audrey Jones Beck collection.\nIdentification of small details is my reading of the image: the white structure at bottom left as a small shrine or fountain, the red animal on the upper road as a horse with a cart.\nCheck: Braque arrived in L'Estaque in autumn 1906 and painted his early Cubist landscapes there in 1908.",
+  "lesson": [
+    {"type": "text", "text": "In the middle of this picture stands a tree whose trunk is fiery red where it reaches the branches and deep blue where it meets the ground. A few steps to the right, another tree does the reverse: blue above, red below. Same afternoon, same road, opposite rules."},
+    {"type": "find", "text": "Find the trunk that turns from red to blue on its way down.", "spots": [
+      {"x": 0.47, "y": 0.62, "zoom": 1.8, "r": 0.07, "shape": "rect", "title": "The two-color tree", "text": "Above the orange wall the trunk is red. Below, where it would fall into shade, Derain switches to blue. He marks light and shadow by swapping colors, not by darkening one."}
+    ]},
+    {"type": "text", "text": "So the contradiction has a logic. Warm red means sun, cool blue means shade. But Derain does not apply the rule the way a camera would. He flips it from tree to tree when the picture needs a blue here or a red there. Balance on the canvas matters more to him than consistency in nature."},
+    {"type": "text", "text": "The place is L'Estaque, a village on the Mediterranean just outside Marseille. Derain spent the summer of 1906 there, and the choice was not innocent. For decades this had been the territory of Paul Cézanne, the painter every young artist in France was trying to understand."},
+    {"type": "fact", "text": "Cézanne died in October 1906, the same year this picture was painted. Soon after Derain's stay, Georges Braque came to L'Estaque too, and the landscapes he made there in 1908 are counted among the first Cubist paintings."},
+    {"type": "text", "text": "Derain wanted something grander than the quick outdoor canvases of the year before. This one is about 1.3 meters high and nearly 2 meters wide, around 4 by 6.5 feet: the scale of a mural, too large to dash off in front of the motif. It had to be planned, and you can see the plan."},
+    {"type": "lines", "text": "Underneath the riot of color there is a firm skeleton.", "lines": [
+      {"points": [[0.4, 0.42], [0.62, 0.45], [0.82, 0.52], [0.95, 0.6], [0.93, 0.74], [0.78, 0.88], [0.66, 0.98]], "closed": false, "label": "The turn", "text": "The yellow road enters from the middle distance, runs along the top of the orange wall, swings around the right edge and comes back down toward you."},
+      {"points": [[0.49, 0.02], [0.48, 0.45], [0.45, 0.9]], "closed": false, "label": "First pillar", "text": "The two-color trunk stands almost dead center and rises through the whole height of the canvas, pinning the curve in place."},
+      {"points": [[0.63, 0.02], [0.69, 0.4], [0.75, 0.86]], "closed": false, "label": "Second pillar", "text": "A second red trunk leans across the picture. Together the trees act like bars: they hold the swirling road flat against the surface."},
+      {"points": [[0.86, 0.02], [0.88, 0.4], [0.84, 0.84]], "closed": false, "label": "Third pillar", "text": "The right-hand tree, blue above and red below, closes the row. Three uprights against one big curve: that is the whole design."}
+    ]},
+    {"type": "text", "text": "This is why the scene feels both dizzy and calm. A road that bends away should pull you into depth. The trees refuse to let it. They keep everything near the surface, the way the lead lines in a stained-glass window hold the colored panes."},
+    {"type": "key", "text": "Derain treats the landscape as a pattern first and a view second. Depth is suggested by the road, then cancelled by flat color and strong outlines."},
+    {"type": "fact", "text": "The thick dark contours and flat patches of color owe much to Paul Gauguin. Derain had seen a group of Gauguin's little-known Tahitian paintings the previous summer, stored at the home of the artist's friend Daniel de Monfreid."},
+    {"type": "text", "text": "And then there are the people. They are easy to overlook because they are painted with the same colors as the ground they walk on. Yet the picture is full of small errands, and one man in particular is working hard."},
+    {"type": "find", "text": "Someone is hauling a heavy load on his shoulder. Where is he?", "spots": [
+      {"x": 0.94, "y": 0.82, "zoom": 2.8, "r": 0.06, "shape": "rect", "title": "The carrier", "text": "At the far right a man in red strides along the yellow road with a green bundle on his shoulder. His body bends in the same curve as the road itself."}
+    ]},
+    {"type": "text", "text": "He is one of about nine figures scattered through the scene, none with a face. They do not tell a story. They give scale to the trees and a pulse to the color, like notes of a tune placed along the road."},
+    {"type": "explore", "spots": [
+      {"x": 0.59, "y": 0.88, "zoom": 2.8, "r": 0.07, "title": "Bending woman", "text": "A woman in a red skirt leans far forward, one arm stretched out. Her pose is a diagonal that leads your eye from the foreground into the bend."},
+      {"x": 0.65, "y": 0.87, "zoom": 3.2, "r": 0.05, "title": "Resting figures", "text": "Just behind her, people sit or crouch on the ground in yellow-green and black. A few strokes each are enough to suggest them."},
+      {"x": 0.6, "y": 0.5, "zoom": 3.2, "r": 0.06, "title": "Traffic on the upper road", "text": "On top of the wall a figure in yellow walks beside a red animal, probably a horse, with a cart wheel just behind."},
+      {"x": 0.17, "y": 0.86, "zoom": 2.8, "r": 0.08, "title": "Bottom left corner", "text": "Two small figures stand on a yellow patch near a white arched structure, perhaps a wayside shrine or fountain."},
+      {"x": 0.69, "y": 0.33, "zoom": 2.4, "r": 0.1, "title": "Striped grove", "text": "A row of thin trunks alternates with bars of yellow light. Derain turns a line of trees into a rhythm of stripes."},
+      {"x": 0.43, "y": 0.4, "zoom": 2.2, "r": 0.09, "shape": "rect", "title": "Yellow foliage", "text": "A column of yellow dabs climbs up the middle. Here Derain still uses small separate touches, a leftover from the year before."},
+      {"x": 0.83, "y": 0.42, "zoom": 2.4, "r": 0.09, "title": "The one green crown", "text": "Among all the reds, a mass of cool green foliage. It sits beside the blue section of trunk and gives the hot picture a place to breathe."}
+    ]},
+    {"type": "fact", "text": "The painting now hangs in Texas. It entered the Museum of Fine Arts, Houston through Audrey Jones Beck, a local collector who gathered Impressionist and Fauve pictures for her city."},
+    {"type": "text", "text": "Many historians see this canvas as the peak of Fauvism and also the start of its end. Having pushed color this far on this scale, Derain had little further to go in that direction. Within two years his palette cooled and his forms hardened under the influence of Cézanne, the man whose village he had borrowed."},
+    {"type": "text", "text": "Return to the red and blue tree. Now it reads less like a mistake and more like a signature of the whole method: one object, two colors, both true to the feeling of a hot afternoon even if neither is true to the bark."}
+  ],
+  "quiz": [
+    {"question": "Why does the central trunk change from red to blue?", "options": ["The paint faded", "Blue stands for shade and red for sunlight", "It is two different trees"], "answer": 1, "explanation": "Derain shows light and shadow by switching between warm and cool colors."},
+    {"question": "Which earlier painter was closely associated with L'Estaque?", "options": ["Paul Cézanne", "Claude Monet", "Vincent van Gogh"], "answer": 0, "explanation": "Cézanne had painted there for decades before Derain arrived."},
+    {"question": "What role do the three tall trunks play in the composition?", "options": ["They hide the road", "They frame a portrait", "They hold the curving road flat like bars"], "answer": 2, "explanation": "Three uprights set against one large curve keep the scene close to the surface."},
+    {"question": "What is the man at the far right doing?", "options": ["Carrying a load on his shoulder", "Fishing", "Painting at an easel"], "answer": 0, "explanation": "He strides along the road with a green bundle on his shoulder."},
+    {"question": "Whose influence explains the dark outlines and flat color patches?", "options": ["Rembrandt", "Paul Gauguin", "Leonardo da Vinci"], "answer": 1, "explanation": "Derain had seen Gauguin's Tahitian paintings the summer before."},
+    {"question": "Roughly how wide is the canvas?", "options": ["30 centimeters", "Nearly 2 meters", "Over 6 meters"], "answer": 1, "explanation": "It is about 1.3 by 2 meters, the scale of a mural."}
+  ],
+  "facts": [
+    {"text": "All the trees in the painting follow the same color rule: red on top, blue below.", "isTrue": false, "explanation": "The right-hand tree reverses it, with blue above and red below."},
+    {"text": "The figures in the scene have detailed faces.", "isTrue": false, "explanation": "They are faceless, made of a few strokes in the same colors as the landscape."},
+    {"text": "Georges Braque later painted early Cubist landscapes in the same village.", "isTrue": true, "explanation": "Braque worked at L'Estaque shortly after Derain, notably in 1908."}
+  ]
+}

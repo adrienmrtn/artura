@@ -1,0 +1,44 @@
+{
+  "teaser": "She is lying down. Nothing about her is at rest.",
+  "focus": [0.69, 0.36],
+  "review_notes": "Size about 250 x 200 cm; shown at the Paris Salon of 1876.\nBernhardt exhibited her own sculpture group Après la tempête at the same Salon of 1876 and received an honorable mention.\nSatin coffin: she owned one and was photographed in it; how often she slept in it is legend.\nMocking of her thinness by caricaturists is well documented; no specific caricature is cited.\nGift of the portrait to the City of Paris (Petit Palais) by her son Maurice Bernhardt in 1923.\nDog described as a borzoi (Russian wolfhound).\nThe dark object at the hem on the left is read as a black shoe; check on the original.",
+  "lesson": [
+    {"type": "text", "text": "The pose says rest: a woman stretched out on a divan, a cushion under her elbow, a dog asleep on the floor. The body says the opposite. Her shoulders face you, her hips turn away, her legs swing off the seat and her head tilts back against her hand. Try holding that for a minute. It is the least relaxed way a person has ever lain on a sofa."},
+    {"type": "text", "text": "She is Sarah Bernhardt, thirty-one years old in 1876 and the rising star of the Comédie-Française, the state theater of France. Audiences came for her voice and for the way she moved, coiling and uncoiling across a stage. Georges Clairin, a painter of her own age and one of her closest friends, set out to get that movement into a picture where nobody moves."},
+    {"type": "lines", "text": "Trace the path your eye takes through the white.", "lines": [
+      {"points": [[0.69, 0.34], [0.6, 0.44], [0.43, 0.51], [0.31, 0.62], [0.32, 0.77], [0.45, 0.84], [0.62, 0.88], [0.74, 0.93]], "closed": false, "label": "The serpentine", "text": "From her face the white runs down the body, pours off the divan, sweeps across the floor and ends at the dog's nose. One long S, like a ribbon dropped from a height."},
+      {"points": [[0.03, 0.52], [0.97, 0.62]], "closed": false, "label": "The divan", "text": "The seat is the only level thing in the room. She crosses it at a slant, so she seems to be sliding out of her own portrait."},
+      {"points": [[0.58, 0.8], [0.8, 0.75], [0.97, 0.8]], "closed": false, "label": "The echo", "text": "The hound's back repeats her reclining line lower down. Thin, long, pale and elegant: the dog is her double."}
+    ]},
+    {"type": "text", "text": "That S was a statement. Bernhardt was unusually slender at a time when fashion wanted curves, and Paris caricaturists drew her as a stick, a snake, an umbrella. Instead of padding her out, Clairin made thinness the theme. The dress clings, then spills, and the line never straightens."},
+    {"type": "fact", "text": "Bernhardt fed her own legend with care. She kept a satin-lined coffin in her bedroom and let herself be photographed lying in it, eyes closed, flowers on her chest. Prints of the photo sold well."},
+    {"type": "text", "text": "The setting looks private: a house gown, a corner of her own salon, palm leaves in the gloom. But she had the instincts of a stage designer, and nothing here is casual. The red velvet works like a curtain. The dark background pushes every bit of white forward. Even the things lying about have been chosen."},
+    {"type": "tour", "title": "Props", "text": "Three objects, each doing a job.", "spots": [
+      {"x": 0.69, "y": 0.35, "zoom": 3.2, "r": 0.08, "title": "The stare", "text": "Pale eyes fixed on you, red mouth closed, a froth of white feathers at the throat. Her face is small in this huge canvas and still the first thing you see."},
+      {"x": 0.43, "y": 0.58, "zoom": 2.8, "r": 0.1, "title": "The fan", "text": "Her hand lets a fan of white plumes with a gilded handle hang loose. It melts into the fur trim of the gown, so you find it late."},
+      {"x": 0.86, "y": 0.55, "zoom": 2.2, "r": 0.14, "title": "The cushions", "text": "Gold silk, then blue embroidered silk with flowers and a fringe of tassels. This is the taste of the 1870s for rich fabrics piled up like the tent of an Eastern tale."}
+    ]},
+    {"type": "text", "text": "Clairin knew those fabrics well. He had traveled in Spain and Morocco and was known for scenes of harems and palaces. For this picture he brought the same glow home to Paris. The handling is loose for an official exhibition piece: the fur and feathers are flicked on, and the satin is built from a few long, wet strokes of cream and grey."},
+    {"type": "fact", "text": "The canvas is about 2.5 meters tall and 2 meters wide, roughly 8 by 6.5 feet. On a wall, Bernhardt reclines at close to life size and the dog could get up and walk out."},
+    {"type": "text", "text": "A picture this large hides small things. One of them undoes the whole languid act. A woman truly lounging at home would have kicked her shoes off. Check whether this one did."},
+    {"type": "find", "text": "A single shoe peeks out from all that white. Where is it?", "spots": [
+      {"x": 0.21, "y": 0.7, "zoom": 3.6, "r": 0.06, "title": "The black shoe", "text": "A dark heeled shoe pokes from the hem at the far left, the only black note in the gown. She is dressed down to her feet, ready to stand and take a bow."}
+    ]},
+    {"type": "text", "text": "The portrait went on view at the Salon of 1876, the yearly exhibition that all of Paris visited. It was one of the most talked-about pictures of the season. People who had never bought a theater ticket now knew what Sarah Bernhardt looked like, and how she wanted to be seen."},
+    {"type": "fact", "text": "She was in that Salon twice. Bernhardt was a trained sculptor, and the same year she exhibited a marble group of her own, a Breton grandmother holding her drowned grandson. The jury gave it an honorable mention."},
+    {"type": "text", "text": "Four years later she quit the Comédie-Française, founded her own company and toured the world, from New York to Australia. Clairin kept painting her for decades, in costume as queens and heroines. This first big portrait stayed in her home until she died in 1923. Her son then gave it to the City of Paris."},
+    {"type": "key", "text": "A portrait can describe a person, or it can build a public character. Clairin and Bernhardt chose the second, and turned her most mocked feature, her thin, winding figure, into her signature."}
+  ],
+  "quiz": [
+    {"question": "What shape organizes the whole composition?", "options": ["A long S-curve running from her face to the dog", "A pyramid with her head at the top", "A circle around the cushions"], "answer": 0, "explanation": "The white of the gown winds down and across the floor in one serpentine line."},
+    {"question": "How did Clairin treat Bernhardt's much-mocked thinness?", "options": ["He hid it under a wide dress", "He made it the theme of the picture", "He painted her only from the shoulders up"], "answer": 1, "explanation": "The clinging, spiraling gown turns her slender figure into a trademark."},
+    {"question": "What small detail shows she is not really lounging?", "options": ["A script on the floor", "A clock on the wall", "A black shoe peeking from the hem"], "answer": 2, "explanation": "She is fully dressed down to her shoes, posing for an audience."},
+    {"question": "Besides acting, what did Bernhardt show at the Salon of 1876?", "options": ["A sculpture of her own", "A play she had written", "A dress she had designed"], "answer": 0, "explanation": "She exhibited a marble group and won an honorable mention."},
+    {"question": "How did the portrait reach the Petit Palais?", "options": ["Clairin sold it to the museum", "Her son gave it to the City of Paris after her death", "It was seized by the state"], "answer": 1, "explanation": "It stayed in her home until 1923, then her son donated it."}
+  ],
+  "facts": [
+    {"text": "Sarah Bernhardt owned a coffin and was photographed lying in it.", "isTrue": true, "explanation": "She used the image to build her legend, and prints of it sold well."},
+    {"text": "Clairin and Bernhardt met only once, for the sittings of this portrait.", "isTrue": false, "explanation": "They were close friends, and he painted her for decades."},
+    {"text": "The painting is a small picture meant to hang over a desk.", "isTrue": false, "explanation": "It is about 2.5 by 2 meters and shows her close to life size."}
+  ]
+}

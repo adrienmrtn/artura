@@ -1,0 +1,294 @@
+{
+ "teaser": "A man waits for a net to fill. Paris hated the picture, and then a generation of painters learned from it.",
+ "focus": [
+  0.38,
+  0.42
+ ],
+ "review_notes": "The woman is read as the fisherman's wife in some sources and as his elder daughter (he being a widower) in others, including Musée d'Orsay texts: the lesson presents both.\nBought by the French state in 1887 for the Musée du Luxembourg.\nSeurat's small panel including a sketch of the picture (c. 1881), Maillol's painted copy, and the link to Picasso's Blue Period are standard claims to verify.\nSecond, smaller version in the National Museum of Western Art, Tokyo, with the baby only.\nSize about 155.5 x 192.5 cm.\nMarouflage (canvases glued to walls) for his murals; Panthéon cycle of Saint Genevieve in the 1870s.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The net is already in the water. The man has lowered it, crossed his hands and bowed his head. Now he waits. Nothing in this picture is about to happen: no tug on the rope, no wave, no gust of wind. Pierre Puvis de Chavannes chose the dullest second of a fisherman's day and made it last forever."
+  },
+  {
+   "type": "text",
+   "text": "Waiting is hard to paint, because nothing moves. So the picture has to hold your attention another way, through its construction. A few long lines do all the work, and they are worth tracing before anything else."
+  },
+  {
+   "type": "lines",
+   "text": "Three directions organize the whole canvas.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.15,
+       0.05
+      ],
+      [
+       0.36,
+       0.72
+      ]
+     ],
+     "closed": false,
+     "label": "The leaning mast",
+     "text": "The mast tilts across the left side like a clock hand that has stopped. It is the only strong diagonal, and it points down at the man's feet."
+    },
+    {
+     "points": [
+      [
+       0.39,
+       0.3
+      ],
+      [
+       0.4,
+       0.73
+      ]
+     ],
+     "closed": false,
+     "label": "The upright man",
+     "text": "The fisherman is a thin vertical, cut off from everything around him by pale water. His dark trousers and light shirt split him in two."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.165
+      ],
+      [
+       1.0,
+       0.165
+      ]
+     ],
+     "closed": false,
+     "label": "The high horizon",
+     "text": "The horizon sits near the top, so water and shore fill almost the entire canvas. There is very little sky to escape into. The world tips up like a wall."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That wall-like flatness was no accident. Puvis earned his living decorating real walls. His huge scenes cover staircases and halls in French museums, town halls and the Panthéon in Paris, and he wanted them to sit quietly on the stone instead of punching holes in it."
+  },
+  {
+   "type": "fact",
+   "text": "Puvis did not paint directly on plaster the way Italian fresco painters did. He worked in oil on enormous canvases in his studio, then had them glued to the walls, a method the French call marouflage."
+  },
+  {
+   "type": "text",
+   "text": "Here he brought the look of a mural to an easel picture of about 1.55 by 1.9 meters (5 by 6.3 feet). The colors are chalky: gray-green, putty, a little mauve. There are almost no shadows and no shine. Even the oil paint has been made to look dry, like tempera or faded fresco."
+  },
+  {
+   "type": "text",
+   "text": "Against that silence, the figure of the man carries all the feeling. Puvis gives him no dramatic gesture. He builds him from small signs of fatigue."
+  },
+  {
+   "type": "tour",
+   "title": "The fisherman",
+   "text": "Move down the body from head to feet.",
+   "spots": [
+    {
+     "x": 0.38,
+     "y": 0.36,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The bowed head",
+     "text": "Eyes lowered, beard unkempt, neck bent. Many viewers have seen a praying figure here, even a Christ. Puvis lets the resemblance stand without confirming it."
+    },
+    {
+     "x": 0.37,
+     "y": 0.52,
+     "zoom": 3.8,
+     "r": 0.05,
+     "title": "Crossed hands",
+     "text": "The wrists fold over each other at the waist. It is the gesture of someone with nothing to do but wait, and it reads as prayer and as resignation at once."
+    },
+    {
+     "x": 0.17,
+     "y": 0.82,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The net",
+     "text": "Curved wooden rods at the bow hold a dip net, hung from the mast by a rope and sunk in the shallows. His family's dinner depends on what swims over it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "He is not alone, and that makes it worse. He has people to feed. Puvis places them on the bank behind him, separated from the boat by a strip of mud, in a patch of the picture where the colors warm up slightly."
+  },
+  {
+   "type": "find",
+   "text": "Someone on the shore is sleeping through all of this. Where?",
+   "spots": [
+    {
+     "x": 0.83,
+     "y": 0.53,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The baby",
+     "text": "An infant lies asleep on a reddish cloth among the wildflowers, arms flung out. The cloth is the warmest color in the painting, a small flame in a field of gray."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Near the child, a young woman bends to pick flowers. Is she the fisherman's wife or his elder daughter? Some writers describe the man as a widower with two children. Puvis never settled the matter, and he liked it that way. He said he wanted to paint feelings, not stories."
+  },
+  {
+   "type": "key",
+   "text": "Puvis simplified on purpose. Fewer colors, fewer details and fewer shadows leave more room for mood, an idea that would guide Gauguin, Seurat and the young Picasso."
+  },
+  {
+   "type": "text",
+   "text": "In 1881 this simplicity looked like incompetence. At the Salon, the big official exhibition in Paris, critics complained that the man was badly drawn, the color dreary, the whole scene unfinished. Realists found it too vague. Lovers of polished academic painting found it too ugly."
+  },
+  {
+   "type": "fact",
+   "text": "Georges Seurat, then 21, was so struck by the picture that he painted a little landscape with a quick copy of The Poor Fisherman propped up in it. The sculptor Aristide Maillol later made a full painted copy."
+  },
+  {
+   "type": "text",
+   "text": "Six years after the scandal, in 1887, the French state bought the canvas for its museum of living artists. Puvis had gone from laughingstock to national figure, and young painters who rejected almost every other official artist made an exception for him."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.74,
+     "y": 0.4,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The flower picker",
+     "text": "She reaches out with one hand and holds a small bunch in the other. Her task is as slow and humble as his."
+    },
+    {
+     "x": 0.72,
+     "y": 0.67,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "The oar",
+     "text": "One oar lies across the boat and sticks out over the bank. With the rope coiled in the hull, it is the entire equipment of this household."
+    },
+    {
+     "x": 0.9,
+     "y": 0.42,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "Wildflowers",
+     "text": "Dots of yellow and white scatter over the bank. They are the only decoration in the scene, and they belong to the family's side."
+    },
+    {
+     "x": 0.75,
+     "y": 0.16,
+     "zoom": 2,
+     "r": 0.2,
+     "title": "The far shore",
+     "text": "A band of bluish land closes the horizon. The water is an estuary or lagoon, shut in on every side."
+    },
+    {
+     "x": 0.92,
+     "y": 0.97,
+     "zoom": 3.5,
+     "r": 0.08,
+     "title": "Signature and date",
+     "text": "In the corner Puvis signed his full name and the year 1881, in thin letters as pale as everything else."
+    },
+    {
+     "x": 0.5,
+     "y": 0.68,
+     "zoom": 2,
+     "r": 0.2,
+     "title": "The bare boat",
+     "text": "Flat planes of gray wood, drawn with a ruler-like plainness. No fish in it yet."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Puvis returned to the subject in a second, smaller painting, now in Tokyo. In that version the young woman is gone and only the baby keeps the fisherman company."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the first second. The net is down and the hands are crossed. After following the lines, the family and the quarrel in Paris, you know what is riding on that net. The picture has not moved, but the wait feels longer."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What moment does the painting show?",
+   "options": [
+    "The fisherman hauling in a full net",
+    "The fisherman waiting after lowering his net",
+    "The fisherman rowing home in a storm"
+   ],
+   "answer": 1,
+   "explanation": "The net is in the water and he stands waiting."
+  },
+  {
+   "question": "Why does the picture look flat and chalky?",
+   "options": [
+    "Puvis was mainly a painter of wall decorations and wanted a mural-like look",
+    "The canvas was damaged by a flood",
+    "He ran out of paint"
+   ],
+   "answer": 0,
+   "explanation": "He carried the matte, quiet look of his murals into an easel painting."
+  },
+  {
+   "question": "What is marouflage?",
+   "options": [
+    "Painting on wet plaster",
+    "Mixing sand into paint",
+    "Gluing a painted canvas onto a wall"
+   ],
+   "answer": 2,
+   "explanation": "Puvis painted his murals on canvas and had them glued in place."
+  },
+  {
+   "question": "What is the warmest patch of color in the painting?",
+   "options": [
+    "The reddish cloth under the sleeping baby",
+    "The fisherman's shirt",
+    "The sky"
+   ],
+   "answer": 0,
+   "explanation": "The baby's cloth glows against the grays."
+  },
+  {
+   "question": "How did critics at the 1881 Salon react?",
+   "options": [
+    "They awarded it the top prize",
+    "They ignored it",
+    "Many called it badly drawn and dreary"
+   ],
+   "answer": 2,
+   "explanation": "The simplicity looked like incompetence to many critics."
+  },
+  {
+   "question": "Which young painter put a quick copy of the picture into one of his own landscapes?",
+   "options": [
+    "Claude Monet",
+    "Georges Seurat",
+    "Edgar Degas"
+   ],
+   "answer": 1,
+   "explanation": "Seurat, then 21, painted a small tribute to it."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The French state bought The Poor Fisherman in 1887.",
+   "isTrue": true,
+   "explanation": "It was purchased for the national museum of living artists six years after the Salon."
+  },
+  {
+   "text": "The horizon is placed low, leaving a huge sky.",
+   "isTrue": false,
+   "explanation": "The horizon is near the top, so water and shore fill the canvas."
+  },
+  {
+   "text": "Puvis clearly stated that the woman is the fisherman's wife.",
+   "isTrue": false,
+   "explanation": "He never settled whether she is wife or daughter."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+  "teaser": "Six hats, one woman, and a painting Degas kept away from the public for decades.",
+  "focus": [0.62, 0.3],
+  "review_notes": "Art Institute of Chicago dates the work 1879/86 (catalog year given: 1885).\nProvenance claim to verify: sold by Degas to Durand-Ruel in 1913, then Mrs. Lewis Larned Coburn, bequeathed to the Art Institute (entered 1933).\nX-ray finding that the figure began as a customer and became a milliner comes from Art Institute research; the pin in the mouth and the gloves are the museum's reading.\nThe figure of about 1,000 millinery shops in Paris comes from the 2017 exhibition “Degas, Impressionism, and the Paris Millinery Trade”.\nThe “red hands of the little girl who holds the pins” remark is a reported anecdote.",
+  "lesson": [
+    {"type": "text", "text": "For close to thirty years, the audience for this painting was one man. Degas worked on it in the first half of the 1880s, never sent it to an exhibition and kept it in his studio, among stacks of canvases he refused to call finished. Visitors were rare. The first public reaction is easy to sum up: there was none."},
+    {"type": "text", "text": "That is odd, because it is the largest picture he ever made on the subject, about 100 by 111 cm (39 by 44 in), and the subject obsessed him. A milliner is a maker of women's hats. Between about 1879 and 1886 he drew and painted milliners and their customers again and again."},
+    {"type": "fact", "text": "Paris had around a thousand millinery shops at the time. A fine hat loaded with silk flowers, ribbons and feathers could cost more than the woman who made it earned in a month."},
+    {"type": "text", "text": "Degas went to these shops with women friends, among them the American painter Mary Cassatt, who posed for him trying on hats. In this canvas, though, the customer has disappeared. What is left is the merchandise, in different stages of its life."},
+    {"type": "tour", "title": "The life of a hat", "text": "Read the hats from finished to barely begun.", "spots": [
+      {"x": 0.53, "y": 0.2, "zoom": 2.4, "r": 0.14, "title": "Ready for the window", "text": "A straw hat heaped with flowers and leaves, with long pale green ribbons hanging from its stand. This one is done. Degas gives it the best place and the thickest paint."},
+      {"x": 0.15, "y": 0.27, "zoom": 2.4, "r": 0.14, "title": "A pink explosion", "text": "Frills of pink and white around a golden bow. The brush wiggles like the fabric. From this angle it could be a giant flower as easily as a hat."},
+      {"x": 0.93, "y": 0.34, "zoom": 2.6, "r": 0.1, "title": "Work in progress", "text": "The hat in her hands is a plain orange shape, with no flowers and no ribbon yet. She holds it at arm's length and judges it, the way a painter steps back from a canvas."}
+    ]},
+    {"type": "text", "text": "A woman judging her own unfinished work, surrounded by finished ones. It is hard not to think of Degas in his studio. He once compared the two trades himself, and he watched milliners' hands as closely as he watched dancers' feet."},
+    {"type": "fact", "text": "Asked what could possibly interest him at the hat shop, Degas is said to have answered: the red hands of the little girl who holds the pins."},
+    {"type": "text", "text": "X-rays of the canvas show that he changed his mind about who this woman is. She began as a customer, hat on her head. Then he repainted her as a worker. Two small clues of that new job survive on the surface."},
+    {"type": "find", "text": "She is holding a tool of her trade without using her hands. Can you spot where?", "spots": [
+      {"x": 0.71, "y": 0.33, "zoom": 4.0, "r": 0.05, "title": "A pin between her lips", "text": "A small stroke at her mouth: she keeps a pin between her lips while both hands are busy. Her long tan gloves are the second clue. They protect delicate fabric from fingers."}
+    ]},
+    {"type": "key", "text": "By turning a shopper into a maker, Degas shifted the subject from fashion to labor. The picture is about the making of beautiful things, not the buying of them."},
+    {"type": "text", "text": "Now the strange part: where are you standing? The table tips toward you, the hats loom larger than the woman's head, and she is shoved to the right edge. It is the view of someone passing the shop window and glancing down through the glass."},
+    {"type": "lines", "text": "Three moves that make the scene feel glimpsed, not posed.", "lines": [
+      {"points": [[0.0, 0.42], [0.62, 0.62], [0.83, 0.72]], "closed": false, "label": "The tilted table", "text": "The table edge runs downhill across the canvas. We see its top as if from above, which spreads the hats out like plates on a counter."},
+      {"points": [[0.15, 0.27], [0.53, 0.2], [0.93, 0.34], [0.5, 0.86]], "closed": true, "label": "A ring of hats", "text": "Pink, flowered, orange, blue: the brightest hats form a loop around the picture. The milliner sits inside that loop, almost one more object on display."},
+      {"points": [[0.69, 0.31], [0.9, 0.33]], "closed": false, "label": "Her line of sight", "text": "Her eyes go straight to the hat in her hands. She has no idea anyone is watching, and that is exactly the kind of moment Degas hunted for."}
+    ]},
+    {"type": "text", "text": "The color is bolder than in his earlier work. Orange table, orange wall, olive dress, and against them that single cold note: the blue hat lying flat in the foreground. In places the paint is thin and scrubbed, and you can sense earlier shapes underneath. Degas reworked this canvas over several years."},
+    {"type": "text", "text": "In 1886 he showed a group of milliner pastels at the last Impressionist exhibition. This big oil stayed home. He let it go only in 1913, when he was almost eighty and nearly blind, selling it to his dealer Paul Durand-Ruel."},
+    {"type": "fact", "text": "The painting crossed the Atlantic soon after. A Chicago collector, Annie Swan Coburn, hung it in the hotel apartment where she lived surrounded by Impressionist pictures, and left it to the Art Institute of Chicago."},
+    {"type": "text", "text": "So the first real audience arrived a generation late, in another country, when hats like these were already out of fashion. One question they could not settle either: is she admiring the hat, or doubting it?"}
+  ],
+  "quiz": [
+    {"question": "What is a milliner?", "options": ["A seller of fabric by the yard", "A maker of women's hats", "A shop-window decorator"], "answer": 1, "explanation": "The lesson defines a milliner as a maker of women's hats."},
+    {"question": "What did X-rays reveal about the woman?", "options": ["She was first painted as a customer wearing a hat", "She was originally a man", "She was added by another artist"], "answer": 0, "explanation": "Degas began with a shopper and repainted her as a worker."},
+    {"question": "Which details mark her as a worker?", "options": ["An apron and scissors", "A measuring tape around her neck", "A pin between her lips and long gloves"], "answer": 2, "explanation": "The pin at her mouth and the protective gloves are the clues the lesson points out."},
+    {"question": "How did the public first react to the painting?", "options": ["It caused a scandal in 1886", "It did not react: Degas kept the canvas in his studio for decades", "It won a medal at the Salon"], "answer": 1, "explanation": "He never exhibited it and sold it only in 1913."},
+    {"question": "Which hat is still unfinished?", "options": ["The orange one in her hands", "The straw hat with green ribbons", "The pink and white one on the left"], "answer": 0, "explanation": "The hat she holds has no flowers or ribbons yet."}
+  ],
+  "facts": [
+    {"text": "This is the largest painting Degas made on the theme of hat shops.", "isTrue": true, "explanation": "At about 100 by 111 cm it is bigger than any of his other millinery pictures."},
+    {"text": "The scene is shown from a low viewpoint, looking up at the hats.", "isTrue": false, "explanation": "We look down on the tilted table, as if glancing through the shop window."},
+    {"text": "Degas showed this canvas at the last Impressionist exhibition in 1886.", "isTrue": false, "explanation": "He showed milliner pastels there, but this oil stayed in his studio."}
+  ]
+}

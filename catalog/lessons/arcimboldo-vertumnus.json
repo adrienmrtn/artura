@@ -1,0 +1,47 @@
+{
+  "teaser": "An emperor with a pear for a nose, sent as a gift by his retired court painter.",
+  "focus": [0.46, 0.34],
+  "review_notes": "Usually dated about 1590-1591; painted in Milan and sent to Rudolf II in Prague.\nArcimboldo's dates: born 1526 or 1527, returned to Milan 1587, made Count Palatine 1592, died 1593.\nThe accompanying poem is by Gregorio Comanini.\nTaken from Prague by Swedish troops in 1648.\nOil on panel, about 70 x 58 cm.\nPlant identifications are made from the reproduction: the moustache is described loosely as 'pods'; the beard as millet and a chestnut burr; the dark eyes as berries or cherries. A botanist's check would be welcome.\nMaize and chili peppers as New World plants: correct; maize ear visible at right of the face, red peppers at lower left of the chest.\nSurrealist interest in Arcimboldo in the 1930s: standard account.",
+  "lesson": [
+    {"type": "text", "text": "In 1590 Giuseppe Arcimboldo is about 63 and finally home. After some 25 years away, serving three Habsburg emperors in Vienna and Prague, he has been allowed to retire to Milan, the city where he was born. He has money, a title and nothing left to prove. He picks up his brushes anyway, for one more portrait of his old boss."},
+    {"type": "text", "text": "The boss is Rudolf II, Holy Roman Emperor, ruler of much of central Europe. Portraits of emperors follow rules: armor, a crown, a stern face. Arcimboldo sends his from Milan to Prague packed in a crate, with a poem by a friend to explain it. Inside is a man made entirely of fruit, vegetables and flowers."},
+    {"type": "find", "text": "Start with the mouth. Arcimboldo needed two full red lips. What did he use, and where?", "spots": [
+      {"x": 0.453, "y": 0.43, "zoom": 3.6, "r": 0.07, "title": "Cherry lips", "text": "Two plump red cherries make the lower lip, tucked under a drooping moustache of pale pods. Below them, a spiky chestnut husk becomes the tuft of beard on the chin."}
+    ]},
+    {"type": "text", "text": "Once you see the lips, the rest snaps into place: a pear nose, two apples for cheeks, a gourd for a forehead. Step back and it is a broad, bearded face with a heavy jaw. People who knew Rudolf could recognize him. Arcimboldo has kept a real likeness while never painting one patch of skin."},
+    {"type": "fact", "text": "Rudolf loved it. Far from being insulted, he rewarded the painter in 1592 with the rank of Count Palatine, a noble title rarely given to artists."},
+    {"type": "text", "text": "Why would an emperor enjoy being a salad? The title is the clue. Vertumnus was the Roman god of the changing seasons and of everything that grows. Arcimboldo's bouquet mixes spring flowers, summer grain, autumn grapes and winter roots. Under Rudolf, the picture says, all the seasons bear fruit at once: a golden age that never ends."},
+    {"type": "key", "text": "This is flattery dressed as a joke. The emperor is shown as a god of nature, and his reign as a time when everything ripens together."},
+    {"type": "text", "text": "It also suited the man. Rudolf cared less for governing than for collecting. His castle in Prague held one of the great cabinets of curiosities of Europe: rooms of rare shells, clocks, stuffed animals, gems, paintings and scientific instruments. Astronomers and alchemists worked at his court. A portrait that was also a catalog of plants was made for him."},
+    {"type": "fact", "text": "Arcimboldo's court job went far beyond painting. He designed costumes, floats and decorations for imperial weddings and tournaments, a kind of party planner to the Habsburgs."},
+    {"type": "text", "text": "The trick only works because each item is painted like a specimen. This is a small picture on a wood panel, about 70 by 58 centimeters (28 by 23 inches), and every grape, leaf and grain is exact enough to name. Some of these plants were novelties, too. One of them had been unknown in Europe a century earlier."},
+    {"type": "find", "text": "One part of the face is a plant brought to Europe from the Americas after 1492. Which?", "spots": [
+      {"x": 0.727, "y": 0.283, "zoom": 3.6, "r": 0.07, "title": "An ear of corn", "text": "Rudolf's ear is literally an ear of maize, half wrapped in its dry husk. The plant came from the Americas and was still exotic. A dark fig hangs below it like an earring."}
+    ]},
+    {"type": "text", "text": "The corn is a pun, a boast and a piece of science all at once. It shows that the emperor's world reaches across the ocean. That blend of learning and play was the taste of courts in the late 1500s, the style now called Mannerism: art that prizes wit, surprise and clever invention over calm, natural beauty."},
+    {"type": "fact", "text": "The painting lives in Sweden because of a war. In 1648 Swedish soldiers captured part of Prague and carried off much of Rudolf's collection as loot. Vertumnus ended up in Skokloster Castle, north of Stockholm."},
+    {"type": "text", "text": "Arcimboldo died in Milan in 1593, and for three centuries his heads were filed away as curiosities. Then, in the 1930s, the Surrealists, artists who loved dreams and double images, claimed him as a forerunner. Now go through the emperor piece by piece, and see how many you can name before you tap."},
+    {"type": "explore", "spots": [
+      {"x": 0.453, "y": 0.32, "zoom": 3.2, "r": 0.07, "title": "Pear nose", "text": "A rosy pear hangs stem up between the eyes. Its round base gives the nose a fleshy tip, and the little dried flower end even suggests nostrils."},
+      {"x": 0.37, "y": 0.345, "zoom": 3, "r": 0.08, "title": "Apple cheek", "text": "Each cheek is a red-streaked apple, shiny where the light hits. Fruit skin stands in for the flush of a well-fed face."},
+      {"x": 0.535, "y": 0.265, "zoom": 4, "r": 0.06, "title": "Eye and eyelid", "text": "The eye is a dark, glossy berry with a tiny highlight for a pupil. Above it, a split pea pod curves like a heavy eyelid, and an ear of wheat makes the eyebrow."},
+      {"x": 0.45, "y": 0.17, "zoom": 2.6, "r": 0.11, "title": "The forehead", "text": "A ribbed green gourd, seen from its flower end, forms the brow. Its star-shaped center sits right in the middle, like a jewel on a crown."},
+      {"x": 0.62, "y": 0.1, "zoom": 2.4, "r": 0.14, "title": "A crown of harvest", "text": "Instead of gold, the emperor wears green and black grapes, a plum, cherries and bearded ears of grain: the wealth of late summer and autumn."},
+      {"x": 0.6, "y": 0.44, "zoom": 3, "r": 0.08, "title": "The beard", "text": "The side whiskers are dense clusters of tiny reddish grains, like bunches of millet. Their rough texture is surprisingly close to curly hair."},
+      {"x": 0.26, "y": 0.62, "zoom": 2.8, "r": 0.09, "title": "The lily", "text": "A white lily opens on the shoulder, the first bloom in a sash of flowers that crosses the chest like the ribbon of an official order."},
+      {"x": 0.367, "y": 0.9, "zoom": 3, "r": 0.07, "title": "Red peppers", "text": "Among the roses hang long red chili peppers, another newcomer from the Americas. The shoulders on either side are a cabbage leaf and an artichoke."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "Where was Arcimboldo living when he painted this portrait?", "options": ["At the court in Prague", "In Stockholm", "Back home in Milan, in retirement"], "answer": 2, "explanation": "He had retired to Milan and sent the picture to Prague with a poem."},
+    {"question": "Who was Vertumnus?", "options": ["The Roman god of the seasons and of growing things", "A famous gardener in Prague", "The emperor's nickname as a child"], "answer": 0, "explanation": "The portrait shows Rudolf II as this god of change and growth."},
+    {"question": "How did Rudolf II react?", "options": ["He had the painting burned", "He was delighted and gave the painter a noble title", "He never saw it"], "answer": 1, "explanation": "He made Arcimboldo a Count Palatine in 1592."},
+    {"question": "Which plant from the Americas forms the emperor's ear?", "options": ["A potato", "An ear of corn", "A sunflower"], "answer": 1, "explanation": "The ear is an ear of maize, still an exotic plant in Europe."},
+    {"question": "Why is the painting in Sweden today?", "options": ["Swedish soldiers took it from Prague as war loot in 1648", "Arcimboldo moved there late in life", "Rudolf gave it to a Swedish queen"], "answer": 0, "explanation": "Much of Rudolf's collection was carried off when Swedish troops captured part of Prague."}
+  ],
+  "facts": [
+    {"text": "The lips of the portrait are made of two cherries.", "isTrue": true, "explanation": "Two red cherries sit under the moustache as the lower lip."},
+    {"text": "The portrait was meant as an insult, and the emperor punished the painter.", "isTrue": false, "explanation": "It was flattery, showing him as a god of nature, and Rudolf rewarded Arcimboldo."},
+    {"text": "The Surrealists of the 1930s saw Arcimboldo as a forerunner.", "isTrue": true, "explanation": "Artists who loved dreams and double images rediscovered his composite heads."}
+  ]
+}

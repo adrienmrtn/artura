@@ -1,0 +1,296 @@
+{
+ "teaser": "A 23-year-old pays to sit in the same room as the Virgin. A small mirror proves he is there.",
+ "focus": [
+  0.29,
+  0.33
+ ],
+ "review_notes": "Maarten becoming burgomaster of Bruges in the late 1490s and dying in 1500: check exact years.\nDiptych said to have entered Sint-Janshospitaal from the hospice of St Julian in 1815: check.\nPanel size about 44 x 33 cm each without frames: check.\nThe saints in the roundels above the Virgin's window (George and Christopher) are too small to confirm in this photo; they are mentioned only in one spot text.\nThe photo shows the diptych open at a slight angle in its display case, so the right wing is seen a little obliquely.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The first person to react to this picture was the man inside it. In 1487 Maarten van Nieuwenhove, son of a powerful Bruges family, opened these two hinged panels at home and found himself, hands joined, a few inches from the Virgin Mary. He was meant to pray in front of it. He was also, clearly, meant to be pleased."
+  },
+  {
+   "type": "text",
+   "text": "An object like this is called a diptych: two panels joined by hinges that close like a book. On the left, the holy figure. On the right, the donor, which is the word for the person who paid. Usually the two halves sit in separate worlds, one heavenly, one earthly. Hans Memling was asked for the usual thing and quietly did something else."
+  },
+  {
+   "type": "fact",
+   "text": "We know Maarten's age to the year because he had it written on the frame. The Latin under the Virgin says he ordered the work in 1487. The line under his own portrait adds that he was then 23."
+  },
+  {
+   "type": "text",
+   "text": "Start with what separates the two halves: thick gilded frames, a hinge, a dark gap. Now ignore them and check the rooms. Same wooden wall. Same kind of windows with small leaded panes. Same daylight. Memling painted a single chamber and let the frames cut it in two, as if you were looking in from outside through a double window."
+  },
+  {
+   "type": "lines",
+   "text": "Two panels, one room. Follow how the picture ties the halves together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.29,
+       0.3
+      ],
+      [
+       0.69,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "Two heights, one level",
+     "text": "Her head and his sit at almost the same height. She is not enthroned above him. They share the room as near equals, which was a bold thing for a donor to ask for."
+    },
+    {
+     "points": [
+      [
+       0.37,
+       0.72
+      ],
+      [
+       0.44,
+       0.8
+      ],
+      [
+       0.52,
+       0.82
+      ],
+      [
+       0.58,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The red mantle",
+     "text": "Her red mantle spreads to the bottom right corner of her panel. Look under Maarten's book: a strip of the same red appears on his side. The cloth crosses the frame."
+    },
+    {
+     "points": [
+      [
+       0.69,
+       0.33
+      ],
+      [
+       0.61,
+       0.66
+      ],
+      [
+       0.3,
+       0.575
+      ]
+     ],
+     "closed": false,
+     "label": "His prayer",
+     "text": "He looks past her, into the distance, as people do when they pray. His joined hands point back toward the Child and the apple. The eyes drift, the hands aim."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So Maarten is not looking at Mary. That is deliberate. A donor staring straight at the Virgin would be claiming a vision. Memling paints him lost in thought, lips slightly parted, as though she were the picture forming in his mind while he prays. You are free to read her as truly present or as imagined."
+  },
+  {
+   "type": "text",
+   "text": "Still, Memling wanted a proof that the two share one space, and he hid it in the darkest corner of the left panel, behind the Virgin's shoulder."
+  },
+  {
+   "type": "find",
+   "text": "Somewhere in the Virgin's panel hangs a small round mirror. Can you find it?",
+   "spots": [
+    {
+     "x": 0.174,
+     "y": 0.395,
+     "zoom": 4.5,
+     "r": 0.05,
+     "title": "The convex mirror",
+     "text": "A bulging round mirror on the dark shutter. In it, seen from behind: the Virgin, and beside her a second figure in profile. It is Maarten. The reflection puts them side by side in the same room."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The mirror is barely larger than a coin on the panel. It answers the question the frames raise. From where we stand they are apart. From behind, they kneel and sit next to each other in front of two windows, which are the very openings we are looking through."
+  },
+  {
+   "type": "key",
+   "text": "Memling turns the frames of the diptych into windows of a real room. The viewer stands outside, the donor and the Virgin inside, together."
+  },
+  {
+   "type": "fact",
+   "text": "Memling was not from Bruges. He was born in Germany, near Frankfurt, and became a citizen of Bruges in 1465. By the time he painted Maarten he was among the wealthiest painters in a city full of bankers and merchants who all wanted his calm faces."
+  },
+  {
+   "type": "text",
+   "text": "Maarten made sure nobody would mistake whose picture this was. A name on the frame was not enough for him. He signed the room itself, in colored glass, on both sides of the hinge."
+  },
+  {
+   "type": "tour",
+   "title": "A room full of signatures",
+   "text": "The windows carry the owner's name in pictures. Two stops, then the fruit that explains the Child.",
+   "spots": [
+    {
+     "x": 0.153,
+     "y": 0.225,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "The family arms",
+     "text": "A stained-glass coat of arms, blue shield and gold helmet. Around it, small medallions show a hand scattering seed over a garden: a pun, since Nieuwenhove means “new garden” in Dutch."
+    },
+    {
+     "x": 0.84,
+     "y": 0.24,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Saint Martin",
+     "text": "Behind Maarten's head, a saint on a white horse cuts his red cloak to share it with a beggar. This is Martin, the saint Maarten was named after, standing guard in glass."
+    },
+    {
+     "x": 0.305,
+     "y": 0.575,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The apple",
+     "text": "The Child reaches for an apple held by his mother. It recalls the fruit of Adam and Eve. For viewers of the time, this baby came to undo that first fault."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "All of this is oil paint on oak, and oil is what makes the illusion possible. It dries slowly and can be laid in thin, see-through layers called glazes. That is how Memling gets the soft skin, the glint on the jewels in Mary's hair, and the hazy blue distance outside her window."
+  },
+  {
+   "type": "text",
+   "text": "The view through those windows is ordinary Flemish countryside: a path, trees, water, a bridge. Mary sits in the kind of house Maarten actually lived in. Bringing the sacred into a merchant's living room is the great habit of early Netherlandish painting, the art of the Low Countries in the 1400s."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.29,
+     "y": 0.29,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Her face",
+     "text": "Lowered eyelids, high forehead, a thin band of jewels. Memling's Virgins look alike from picture to picture: an ideal face, where Maarten's is an individual one."
+    },
+    {
+     "x": 0.69,
+     "y": 0.33,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Maarten at 23",
+     "text": "Long hair, unfocused eyes, a hint of stubble. He is shown in three-quarter view, turned toward her, while she faces us squarely."
+    },
+    {
+     "x": 0.61,
+     "y": 0.66,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The hands",
+     "text": "Joined in prayer, with a ring on one finger. Compare the tanned, bony fingers with the pale hand of the Virgin on the other side."
+    },
+    {
+     "x": 0.56,
+     "y": 0.775,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The prayer book",
+     "text": "His book lies open on the ledge, pages lifting. He has stopped reading. The prayer has moved from the page to his head."
+    },
+    {
+     "x": 0.4,
+     "y": 0.4,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The open window",
+     "text": "Beyond the Virgin: a winding path, trees, a pale horizon. Above it, tiny roundels in the glass are said to show Saints George and Christopher."
+    },
+    {
+     "x": 0.27,
+     "y": 0.875,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The inscription",
+     "text": "Gold letters on the original frame, in Latin: this work was made at the order of Martinus de Newenhoven, in the year 1487."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Maarten's careful self-promotion paid off for a while. About ten years later he became mayor of Bruges. He died in 1500, still in his thirties. The portrait he ordered at 23 is the only reason most people know his name."
+  },
+  {
+   "type": "fact",
+   "text": "The gilded frames and the hinges in this photo are the ones Memling's workshop delivered. It is rare for a diptych of the 1400s to survive without being sawn apart and sold as two pictures. This one still opens and closes."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is a diptych?",
+   "options": [
+    "A painting on canvas rolled for travel",
+    "Two panels joined by hinges",
+    "A portrait with a religious frame"
+   ],
+   "answer": 1,
+   "explanation": "A diptych is made of two hinged panels that close like a book."
+  },
+  {
+   "question": "What does the small convex mirror show?",
+   "options": [
+    "The painter at his easel",
+    "An empty room",
+    "The Virgin and Maarten side by side, seen from behind"
+   ],
+   "answer": 2,
+   "explanation": "The reflection places both figures in the same room."
+  },
+  {
+   "question": "How do we know Maarten was 23?",
+   "options": [
+    "It is written on the frame",
+    "Memling noted it in a letter",
+    "A birth record is painted in the book"
+   ],
+   "answer": 0,
+   "explanation": "The Latin inscription under his portrait gives his age."
+  },
+  {
+   "question": "Which saint appears in the stained glass behind Maarten?",
+   "options": [
+    "Saint John",
+    "Saint Martin, sharing his cloak",
+    "Saint Luke"
+   ],
+   "answer": 1,
+   "explanation": "Martin was Maarten's name saint."
+  },
+  {
+   "question": "Why is Maarten not looking at the Virgin?",
+   "options": [
+    "Memling could not paint eyes turned sideways",
+    "He is shown lost in prayer, as if she were in his mind",
+    "The panels were assembled in the wrong order"
+   ],
+   "answer": 1,
+   "explanation": "His distant gaze suggests meditation, not a claimed vision."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The frames and hinges of the diptych are original.",
+   "isTrue": true,
+   "explanation": "It is one of the rare diptychs of its century to survive intact."
+  },
+  {
+   "text": "Memling was born in Bruges.",
+   "isTrue": false,
+   "explanation": "He was born in Germany and became a citizen of Bruges in 1465."
+  },
+  {
+   "text": "The Virgin's red mantle appears in both panels.",
+   "isTrue": true,
+   "explanation": "A strip of it shows under Maarten's book, tying the two halves into one room."
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "teaser": "A beach with no sea, a title stolen from a psychiatry book, and a painter who never took a lesson.",
+ "focus": [
+  0.62,
+  0.55
+ ],
+ "review_notes": "Dimensions given as about 92 x 73 cm.\nTitle said to come from a psychiatric case history, chosen with André Breton for the 1927 Galerie Surréaliste show.\nMoMA acquisition stated as 1936 (purchase).\nThe de Chirico seen from a bus story (1923, Paul Guillaume gallery window) is the traditional account.\nTanguy quote about not planning is paraphrased, not quoted.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is about 92 centimeters tall and 73 wide, roughly 3 feet by 2 and a half. You could carry it under one arm. Yet the space painted on it seems to run on for miles, under a sky with no weather you can name."
+  },
+  {
+   "type": "text",
+   "text": "Yves Tanguy painted it in 1927, in Paris, at 27. He had never been to art school. He had been a sailor in the merchant navy and a soldier, and he had held a brush seriously for only about four years."
+  },
+  {
+   "type": "fact",
+   "text": "Tanguy decided to become a painter on a bus. Around 1923 he spotted a picture by Giorgio de Chirico in a gallery window, jumped off while the bus was still moving, and went to stare at it. He had no training at all."
+  },
+  {
+   "type": "text",
+   "text": "Nothing here has a name. That is the point. Tanguy belonged to the Surrealists, a group of poets and painters who wanted to let dreams and chance onto the page without reason getting in the way. So what exactly did he put on this gray plain?"
+  },
+  {
+   "type": "tour",
+   "title": "Things without names",
+   "text": "Four inhabitants of the plain. Try to name each one before you read.",
+   "spots": [
+    {
+     "x": 0.15,
+     "y": 0.36,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The green one",
+     "text": "A ribbed green shape stands on the horizon like a cactus. Thin lines shoot up from its top, and a small arm holds out a twisted white thing. Plant, creature or machine? It refuses to settle.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.64,
+     "y": 0.57,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "A soft bone",
+     "text": "This brown lump has two dimples that almost read as eyes. Its shadow, long and dark, proves it stands on solid ground. Tanguy paints the impossible with the care of a still life."
+    },
+    {
+     "x": 0.51,
+     "y": 0.72,
+     "zoom": 3.0,
+     "r": 0.09,
+     "title": "Two beans",
+     "text": "One pale, one black, like a form and its negative. Each has a tiny ring attached. They float just above the ground, or lie on it: the picture gives you no way to decide."
+    },
+    {
+     "x": 0.84,
+     "y": 0.5,
+     "zoom": 1.6,
+     "r": 0.2,
+     "title": "Hair and smoke",
+     "text": "A reddish pole bristling with hairs climbs into a cloud brushed in curling white strokes. It is the largest and most unsettling thing in the picture.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "You probably reached for comparisons: cactus, bone, bean, smoke. Everyone does. Tanguy's shapes are called biomorphic, meaning they look grown rather than built, like organs or pebbles, without copying any real one. Your mind keeps offering names and the painting keeps declining them."
+  },
+  {
+   "type": "text",
+   "text": "So why does such a nonsense world feel so convincing? Because Tanguy obeys the rules of ordinary painting very strictly. There is a horizon, there is one source of light, and every object answers to it."
+  },
+  {
+   "type": "lines",
+   "text": "Three things hold this dream together like a real landscape.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.368
+      ],
+      [
+       0.62,
+       0.375
+      ]
+     ],
+     "closed": false,
+     "label": "The horizon",
+     "text": "A sharp, pale line where gray ground meets dark sky. It sits high in the picture, so the ground tilts toward you like a beach at low tide, or a sea floor."
+    },
+    {
+     "points": [
+      [
+       0.78,
+       0.95
+      ],
+      [
+       0.99,
+       0.72
+      ]
+     ],
+     "closed": false,
+     "label": "One sun",
+     "text": "The hairy pole throws its shadow up and to the right. The brown lump and the tiny figures on the horizon do the same. A light you cannot see shines from the lower left."
+    },
+    {
+     "points": [
+      [
+       0.09,
+       0.62
+      ],
+      [
+       0.35,
+       0.445
+      ],
+      [
+       0.1,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "The threads",
+     "text": "Hair-thin lines link small dark tufts across the ground, like a surveyor's diagram or a constellation. They suggest a hidden logic and explain nothing."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That flat floor with scattered stones had a source. Tanguy spent his childhood summers in Brittany, on the Atlantic coast of France, where the tide pulls back for hundreds of yards and prehistoric standing stones dot the fields. Many viewers see that shore here, drained of its sea."
+  },
+  {
+   "type": "fact",
+   "text": "The title was not Tanguy's invention. For his first big show in 1927, he and the poet André Breton, leader of the Surrealists, leafed through a psychiatry textbook and borrowed sentences spoken by patients. This cry of a child was one of them."
+  },
+  {
+   "type": "text",
+   "text": "Once you know the words, the picture bends around them. Is the hairy pole Papa? Is the smoke a battlefield, only nine years after the First World War? Tanguy never said. The title works like one more strange object dropped into the scene."
+  },
+  {
+   "type": "find",
+   "text": "Tanguy left one perfectly readable thing in this unreadable place: the date. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.93,
+     "y": 0.985,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Yves Tanguy 27",
+     "text": "Small red capitals in the corner, followed by 27. This was the year he found his manner. He kept to it, with ever sharper forms, for the rest of his life."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "He also kept his method. Tanguy made no preparatory drawing. He said that a painting planned in advance could not surprise him, so he let one form call up the next directly on the canvas. The Museum of Modern Art in New York bought this one in 1936."
+  },
+  {
+   "type": "key",
+   "text": "Tanguy made the unreal believable by painting it with horizon, shadow and patience. That recipe, a dream rendered like a photograph, became the look many people now simply call “surreal.”"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did Tanguy learn to paint?",
+   "options": [
+    "At the Paris art academy",
+    "He taught himself",
+    "As an apprentice to de Chirico"
+   ],
+   "answer": 1,
+   "explanation": "He never went to art school and had painted seriously for only about four years."
+  },
+  {
+   "question": "Where did the title come from?",
+   "options": [
+    "A sentence found in a psychiatry textbook",
+    "A letter from Tanguy's mother",
+    "A newspaper headline about the war"
+   ],
+   "answer": 0,
+   "explanation": "Tanguy and André Breton borrowed patients' sentences from a psychiatry book."
+  },
+  {
+   "question": "What does “biomorphic” mean?",
+   "options": [
+    "Painted with natural pigments",
+    "Copied from microscope slides",
+    "Shaped like something grown, without copying a real thing"
+   ],
+   "answer": 2,
+   "explanation": "Biomorphic forms look organic, like organs or pebbles, but match nothing real."
+  },
+  {
+   "question": "What makes the scene feel like a real place?",
+   "options": [
+    "Bright realistic colors",
+    "A horizon and consistent shadows",
+    "Recognizable buildings"
+   ],
+   "answer": 1,
+   "explanation": "Tanguy keeps a horizon and a single light source, so every object casts a matching shadow."
+  },
+  {
+   "question": "Which landscape of Tanguy's childhood do many viewers see in the picture?",
+   "options": [
+    "The Brittany coast at low tide",
+    "The Sahara",
+    "The Alps in winter"
+   ],
+   "answer": 0,
+   "explanation": "He spent childhood summers in Brittany, with its wide tidal flats and standing stones."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Tanguy made careful sketches before starting each painting.",
+   "isTrue": false,
+   "explanation": "He made no preparatory drawing and let one form suggest the next on the canvas."
+  },
+  {
+   "text": "Tanguy decided to paint after seeing a de Chirico picture from a bus.",
+   "isTrue": true,
+   "explanation": "He jumped off the moving bus to look at it in a gallery window."
+  },
+  {
+   "text": "The painting is a huge mural, several meters wide.",
+   "isTrue": false,
+   "explanation": "It is only about 92 by 73 centimeters, roughly 3 feet by 2 and a half."
+  }
+ ]
+}

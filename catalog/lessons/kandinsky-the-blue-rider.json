@@ -1,0 +1,188 @@
+{
+ "teaser": "Eight years before the famous group took the name, a small rider in a blue cloak crossed this hill.",
+ "focus": [
+  0.74,
+  0.55
+ ],
+ "review_notes": "Size about 52 x 55 cm; private collection, Zurich: check.\nKandinsky's account of how the name Blaue Reiter was chosen dates from 1930 and is paraphrased.\nSome writers see a second figure (a child) held by the rider; the lesson only mentions that the figure is hard to read.\nThe Monet haystack anecdote comes from Kandinsky's own memoirs.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1911, at a garden table in the Bavarian countryside, two painters needed a name for the yearbook they were planning. Wassily Kandinsky loved riders. Franz Marc loved horses. Both loved blue. The name, Kandinsky said later, came by itself: Der Blaue Reiter, The Blue Rider. It became one of the best-known labels in modern art."
+  },
+  {
+   "type": "text",
+   "text": "The picture in front of you is older than that conversation by eight years. In 1903 nobody was founding anything. Kandinsky was 36, a Russian in Munich who had given up a promising career as a law professor in order to learn to paint, and who was still, by his own standards, a beginner."
+  },
+  {
+   "type": "fact",
+   "text": "What pushed him out of law was partly a single painting. At an exhibition in Moscow he saw one of Monet's haystacks and, he wrote, could not make out what it showed. He was annoyed, then haunted: the picture gripped him even though he could not read the subject."
+  },
+  {
+   "type": "text",
+   "text": "That memory explains the look of this canvas. It is small, a little over 50 cm on each side (about 20 inches), and thick with short strokes laid side by side in the Impressionist way. Yet the scene is nothing Monet would have painted. Go to the rider and see how much, and how little, is there."
+  },
+  {
+   "type": "tour",
+   "title": "Almost nothing, moving fast",
+   "text": "The rider occupies a tiny part of the hillside. Three stops around him.",
+   "spots": [
+    {
+     "x": 0.76,
+     "y": 0.545,
+     "zoom": 4,
+     "r": 0.07,
+     "title": "The cloak",
+     "text": "A hooded figure in blue leans forward on a white horse. No face, no stirrups, hardly a hand. A red rein is the only crisp line. Who he is, the painting does not say."
+    },
+    {
+     "x": 0.66,
+     "y": 0.585,
+     "zoom": 3.5,
+     "r": 0.08,
+     "title": "The shadow",
+     "text": "Under the horse lies a pool of deep blue and black, much bigger than a real shadow. It reads as speed, a smear left behind by the gallop."
+    },
+    {
+     "x": 0.75,
+     "y": 0.17,
+     "zoom": 2.5,
+     "r": 0.16,
+     "title": "The birches",
+     "text": "Thin white trunks carry a mass of rust and orange leaves. It is autumn. The dabs of paint are thick enough to cast tiny shadows of their own."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A cloaked horseman on an errand nobody explains belongs to fairy tales, and Kandinsky grew up on Russian ones. The subject is closer to a ballad than to a landscape study. He kept the Impressionist touch and poured legend into it."
+  },
+  {
+   "type": "text",
+   "text": "Why does so small a figure feel so urgent? He takes up a sliver of the canvas and has no face to show effort. Part of the answer is the ground he rides on, and the direction he takes across it."
+  },
+  {
+   "type": "lines",
+   "text": "Two directions pull against each other.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.1,
+       0.37
+      ],
+      [
+       0.45,
+       0.28
+      ],
+      [
+       0.7,
+       0.255
+      ],
+      [
+       1.0,
+       0.26
+      ]
+     ],
+     "closed": false,
+     "label": "The crest",
+     "text": "The hill curves up from the left and levels out under the trees. Everything below it is one sweep of green, tilted like a wave."
+    },
+    {
+     "points": [
+      [
+       0.93,
+       0.56
+      ],
+      [
+       0.64,
+       0.57
+      ],
+      [
+       0.2,
+       0.53
+      ]
+     ],
+     "closed": false,
+     "label": "The gallop",
+     "text": "The rider heads left, across the slope and against its rise. Ahead of him lies only open grass and a few pale rocks. The empty space is the distance still to cover."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now squint. The rider dissolves and what is left is green, blue, white and rust, arranged in bands. Color is already carrying most of the feeling here, and the story very little. Kandinsky would spend the next seven years testing how far that could go."
+  },
+  {
+   "type": "key",
+   "text": "The Blue Rider is still a picture of something, but its mood comes from color and movement, the two things Kandinsky would soon paint on their own."
+  },
+  {
+   "type": "fact",
+   "text": "He believed colors had inner sounds and temperatures. In the book he published in 1911, blue was the color of depth and calm, the one that draws you away toward the far distance. Around the same time he painted some of the first fully abstract pictures in Europe."
+  },
+  {
+   "type": "text",
+   "text": "So the small horseman ended up lending his name to a yearbook, two exhibitions and a whole chapter of art history. One question stays open on the hillside itself: is he riding toward something, or away?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the link between this painting and the Blue Rider group?",
+   "options": [
+    "The group commissioned it",
+    "The painting predates the group, which took a similar name eight years later",
+    "The group destroyed an earlier version"
+   ],
+   "answer": 1,
+   "explanation": "The canvas dates from 1903, the group from 1911."
+  },
+  {
+   "question": "What career did Kandinsky give up to paint?",
+   "options": [
+    "Law",
+    "Medicine",
+    "Music"
+   ],
+   "answer": 0,
+   "explanation": "He left a university career in law and moved to Munich."
+  },
+  {
+   "question": "Which painting had unsettled him in Moscow?",
+   "options": [
+    "A Rembrandt portrait",
+    "A Russian icon",
+    "A haystack by Monet"
+   ],
+   "answer": 2,
+   "explanation": "He could not recognize the subject, yet the picture gripped him."
+  },
+  {
+   "question": "What does the large blue patch under the horse suggest?",
+   "options": [
+    "A river",
+    "Speed",
+    "A second rider"
+   ],
+   "answer": 1,
+   "explanation": "The oversized shadow reads as a trace of the gallop."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The rider's face is carefully detailed.",
+   "isTrue": false,
+   "explanation": "He has no visible face, only a blue hood and cloak."
+  },
+  {
+   "text": "The trees show that the season is autumn.",
+   "isTrue": true,
+   "explanation": "The birches carry rust and orange leaves."
+  },
+  {
+   "text": "Kandinsky painted this after he had turned to pure abstraction.",
+   "isTrue": false,
+   "explanation": "It dates from 1903, about seven years before his abstract works."
+  }
+ ]
+}

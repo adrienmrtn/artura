@@ -1,0 +1,287 @@
+{
+ "teaser": "At 39, a Dutch landscape painter starts taking a tree apart. He will never put it back.",
+ "focus": [
+  0.55,
+  0.5
+ ],
+ "review_notes": "Dated 1911 by the Kunstmuseum Den Haag; some scholars place it in early 1912, after the move to Paris.\nMondrian saw Cubist works by Picasso and Braque at the Moderne Kunstkring exhibition, Amsterdam, autumn 1911; broke his engagement to Greet Heybroek and left for Paris around the turn of 1911-12; settled at 26 rue du Depart.\nHe joined the Theosophical Society in 1909.\nThe signature on this canvas reads 'P. MONDRIAN' with one 'a' (visible bottom left in the image); if painted in 1911 the signature may have been added or the spelling adopted slightly later.\nAnecdote that he later avoided looking at trees (changing seats at Kandinsky's) is widely repeated: verify before keeping.\nSalomon Slijper bequest (1971) made The Hague's Mondrian collection the largest in the world, about 300 works.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1911 Piet Mondrian was 39 and, by any sensible measure, settled. He lived in Amsterdam, sold moody Dutch landscapes of windmills, rivers and farms, sat on the board of an artists' society and was engaged to be married. Then, within a few months, he threw the whole arrangement away."
+  },
+  {
+   "type": "text",
+   "text": "The trigger was an exhibition. That autumn, a show in Amsterdam brought paintings by Pablo Picasso and Georges Braque to the Netherlands. They were Cubist pictures, in which a guitar or a face is broken into small angled planes and painted in almost nothing but gray and brown. Mondrian was shaken."
+  },
+  {
+   "type": "text",
+   "text": "He broke off his engagement and left for Paris, renting a studio near the Montparnasse train station. He would later say, without much regret, that he had chosen painting over a family. This tree belongs to that turning point: a Dutch subject, seen through new eyes."
+  },
+  {
+   "type": "fact",
+   "text": "Trees were an old habit. Around 1908 he had painted one in blazing red against a blue evening sky. A year after this gray version he painted a flowering apple tree that is barely more than a web of curved lines. All three now hang in the same museum in The Hague."
+  },
+  {
+   "type": "text",
+   "text": "So he was not painting from nature here. He was reworking a motif he knew by heart, asking how much of it could be removed. Start with what he kept: the skeleton."
+  },
+  {
+   "type": "lines",
+   "text": "Underneath the brushwork, a few big movements hold the tree together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.57,
+       0.9
+      ],
+      [
+       0.59,
+       0.72
+      ],
+      [
+       0.55,
+       0.55
+      ],
+      [
+       0.52,
+       0.42
+      ]
+     ],
+     "closed": false,
+     "label": "The trunk",
+     "text": "The trunk does not stand straight. It leans left as it rises, then forks. Everything else in the painting swings out from this one bent line."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.42
+      ],
+      [
+       0.35,
+       0.47
+      ],
+      [
+       0.18,
+       0.55
+      ],
+      [
+       0.03,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "Reaching left",
+     "text": "A long limb sweeps down and out to the left edge, bowing like a drawn-out sigh. Other branches repeat the same curve above and below it."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.42
+      ],
+      [
+       0.68,
+       0.5
+      ],
+      [
+       0.82,
+       0.58
+      ],
+      [
+       0.97,
+       0.63
+      ]
+     ],
+     "closed": false,
+     "label": "Reaching right",
+     "text": "The right side answers with its own sagging arcs. The two sides are not mirror images, but they balance, like the pans of a scale."
+    },
+    {
+     "points": [
+      [
+       0.05,
+       0.5
+      ],
+      [
+       0.12,
+       0.25
+      ],
+      [
+       0.3,
+       0.08
+      ],
+      [
+       0.55,
+       0.03
+      ],
+      [
+       0.8,
+       0.08
+      ],
+      [
+       0.93,
+       0.28
+      ],
+      [
+       0.97,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The dome",
+     "text": "Trace the outer branches and you get one wide arch. The tree fills the canvas edge to edge, so there is no sky, no field, no distance left around it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That last point matters most. In an ordinary landscape, a tree stands in front of a background. Here the gaps between the branches are painted as thickly and as firmly as the branches themselves. Tree and air have become one flat surface of interlocking pieces."
+  },
+  {
+   "type": "key",
+   "text": "In The Gray Tree, the spaces between things count as much as the things. That idea, more than any straight line, is where Mondrian's abstraction begins."
+  },
+  {
+   "type": "text",
+   "text": "He also gave up color, which for a man who had just painted a red tree was a real sacrifice. Black, white and their mixtures let him concentrate on structure alone. The paint itself shows how fast and how physically he worked."
+  },
+  {
+   "type": "tour",
+   "title": "Paint, not leaves",
+   "text": "Three places where you can watch the brush at work.",
+   "spots": [
+    {
+     "x": 0.33,
+     "y": 0.44,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Slabs of light",
+     "text": "Between two dark branches, short pale strokes are laid side by side like piano keys. This is not foliage or sky. It is a patch of space, built from separate touches."
+    },
+    {
+     "x": 0.56,
+     "y": 0.66,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The trunk up close",
+     "text": "The trunk is a few wide sweeps of dark gray dragged over lighter paint, wet into wet. You can see the bristle marks and where one stroke stops and the next begins.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.3,
+     "y": 0.91,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The ground",
+     "text": "At the bottom, the curves give way to flat horizontal bands. A hint of earth, already organized into level bars. Straight lines are starting to push the arcs out."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Horizontal below, vertical in the trunk, and curves caught between them: seen this way, the picture is a preview. Over the next decade Mondrian would straighten every curve, until only verticals and horizontals were left, and then bring color back as pure red, yellow and blue."
+  },
+  {
+   "type": "fact",
+   "text": "Mondrian had joined the Theosophical Society in 1909, a spiritual movement that taught that a hidden order lies behind the visible world. For him, stripping a tree down to its lines was not a game of style. It was a way of looking for that order."
+  },
+  {
+   "type": "text",
+   "text": "Paris changed one more thing, and it is written on this very canvas. He had been born Pieter Mondriaan. In France he trimmed his name to sound less Dutch, and kept the shorter spelling for good."
+  },
+  {
+   "type": "find",
+   "text": "Mondrian signed this painting with his new, shortened name. Where is the signature?",
+   "spots": [
+    {
+     "x": 0.135,
+     "y": 0.985,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "P. MONDRIAN",
+     "text": "Small dark capitals in the bottom strip, lower left. One “a” instead of the two he was born with: the Dutchman Mondriaan becoming the international Mondrian."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The Kunstmuseum in The Hague holds the largest Mondrian collection in the world, about 300 works. Most came from one man, Salomon Slijper, a friend who bought the early landscapes and trees when few others wanted them."
+  },
+  {
+   "type": "text",
+   "text": "Thirty years on, in his white New York studio, Mondrian painted grids of colored squares inspired by jazz and city streets. No trunk, no branch. But the settled landscape painter of 1911 had not vanished. He had simply kept removing, and this gray tree is the first thing he let go."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What pushed Mondrian to change his art in 1911?",
+   "options": [
+    "Seeing Cubist paintings by Picasso and Braque",
+    "A trip to New York",
+    "A commission from a museum"
+   ],
+   "answer": 0,
+   "explanation": "An Amsterdam exhibition showed him Cubist works by Picasso and Braque."
+  },
+  {
+   "question": "How does Mondrian treat the gaps between the branches?",
+   "options": [
+    "He leaves them as bare canvas",
+    "He paints them as firmly as the branches themselves",
+    "He fills them with green leaves"
+   ],
+   "answer": 1,
+   "explanation": "The spaces are built from thick strokes, so tree and air form one surface."
+  },
+  {
+   "question": "Why did he limit himself to grays?",
+   "options": [
+    "Gray paint was cheaper",
+    "He had become color-blind",
+    "To concentrate on structure alone"
+   ],
+   "answer": 2,
+   "explanation": "Dropping color let him focus on the tree's structure."
+  },
+  {
+   "question": "What can you see in the signature on this painting?",
+   "options": [
+    "His name spelled with a single “a”",
+    "Only his initials",
+    "A date in Roman numerals"
+   ],
+   "answer": 0,
+   "explanation": "It reads P. MONDRIAN, the shortened spelling he adopted in Paris."
+  },
+  {
+   "question": "What did Theosophy teach, according to the lesson?",
+   "options": [
+    "That art should serve politics",
+    "That a hidden order lies behind the visible world",
+    "That painters should copy nature exactly"
+   ],
+   "answer": 1,
+   "explanation": "Mondrian's search for underlying lines fit that belief in a hidden order."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Before The Gray Tree, Mondrian had painted a tree in bright red.",
+   "isTrue": true,
+   "explanation": "His red tree against a blue evening sky dates from around 1908."
+  },
+  {
+   "text": "The trunk of the gray tree stands perfectly vertical in the center.",
+   "isTrue": false,
+   "explanation": "It leans to the left as it rises, then forks."
+  },
+  {
+   "text": "Mondrian moved to Paris with his new wife in 1911.",
+   "isTrue": false,
+   "explanation": "He broke off his engagement before leaving for Paris."
+  }
+ ]
+}

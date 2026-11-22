@@ -1,0 +1,173 @@
+{
+ "teaser": "She looks at you first. Then you notice what is looking at you from her shoulder.",
+ "focus": [
+  0.3,
+  0.3
+ ],
+ "review_notes": "Opening echo: Richard Avedon's 1981 photograph of Nastassja Kinski with a python, a best-selling poster; presented as an echo of the formula, not as a documented borrowing from Stuck.\nFirst shown at the first Munich Secession exhibition in 1893 and bought for the Neue Pinakothek: please confirm.\n'About a dozen versions' (usually given as eleven or twelve known).\nGilded frame with columns and the inscription DIE SUENDE designed by Stuck: the frame is not visible in the app image.\nStuck's pupils Klee and Kandinsky; ennobled 1906; son of a village miller.\nThe image is a fairly dark, low-resolution reproduction; the orange area at upper right is the only bright background passage.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1981 the photographer Richard Avedon posed the actress Nastassja Kinski lying naked with a live python wound around her. The poster sold in huge numbers and hung on bedroom walls across the world. Woman, bare skin, big snake, a stare at the camera: the recipe felt new. A painter in Munich had served it to a shocked public almost ninety years before."
+  },
+  {
+   "type": "text",
+   "text": "Franz Stuck was thirty when he showed The Sin in 1893, at the first exhibition of the Munich Secession, a group of artists who had just walked out of the city's official art society to exhibit on their own terms. Crowds gathered in front of it. The Bavarian state bought it for its museum of modern art, the Neue Pinakothek."
+  },
+  {
+   "type": "text",
+   "text": "The subject is as old as the Bible: Eve and the serpent that tempts her in the Garden of Eden. But there is no garden here, no apple, no Adam. Stuck cut the story down to a body in the dark. And the body is not alone, although it takes a few seconds to see that."
+  },
+  {
+   "type": "find",
+   "text": "The snake has a head, and it is watching you. Where is it?",
+   "spots": [
+    {
+     "x": 0.19,
+     "y": 0.35,
+     "zoom": 3.2,
+     "r": 0.1,
+     "title": "The serpent",
+     "text": "Resting on her right shoulder, jaws open, two small glints for eyes. Its head is as dark as her hair, so you find the woman first and the animal second. That delay is the shock Stuck planned."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Once you have seen the head, the black mass around her stops being hair and shadow. It is one enormous coil, draped over her shoulders like a fur stole and running down the right side of the picture. She wears the snake. In older paintings Eve is talked into sin by the serpent. Here the two seem to be partners."
+  },
+  {
+   "type": "fact",
+   "text": "Stuck designed the frame himself: a heavy gilded structure with two columns, like the front of a small temple, and the title DIE SUENDE in capital letters at the bottom. It turns the painting into a kind of altar. The irony was deliberate."
+  },
+  {
+   "type": "text",
+   "text": "Now consider how little light there is. Most of the surface is nearly black. Stuck uses the old technique of chiaroscuro, strong contrast between light and dark, but pushes it to an extreme, and then decides exactly which three or four things you are allowed to see."
+  },
+  {
+   "type": "tour",
+   "title": "What the light picks out",
+   "text": "Four places escape the darkness. Each one was chosen.",
+   "spots": [
+    {
+     "x": 0.32,
+     "y": 0.6,
+     "zoom": 1.7,
+     "r": 0.2,
+     "title": "The torso",
+     "text": "A pale band of skin from chest to hip, with no arms and no legs in view. The light treats the body like an object on display, which is exactly how the picture accuses you of looking.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.33,
+     "y": 0.17,
+     "zoom": 3.2,
+     "r": 0.1,
+     "title": "The face",
+     "text": "Kept in shadow, eyes turned straight toward you, lips slightly parted. You cannot read her mood. She is not ashamed and not afraid, and that calm unsettled viewers in 1893 more than the nudity did."
+    },
+    {
+     "x": 0.76,
+     "y": 0.42,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "A blue gleam",
+     "text": "One cold curved highlight slides along the snake's body. It is the only clue to how thick the animal is, and it makes the scales look wet."
+    },
+    {
+     "x": 0.9,
+     "y": 0.2,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The orange corner",
+     "text": "The single warm patch in the painting, rough and glowing. Many viewers read it as firelight, a hint of hell behind the scene."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the picture works like a trap with a timer. Skin first, eyes next, then the fangs. By the time you see the danger you have already been staring. Stuck makes the viewer act out the title."
+  },
+  {
+   "type": "fact",
+   "text": "The Sin sold so well that Stuck painted it again and again. About a dozen versions are known, in museums from Munich to Berlin to Seattle. He kept one for his own house, the Villa Stuck, where it sits at the center of a golden altar he built in his studio."
+  },
+  {
+   "type": "text",
+   "text": "He was the son of a village miller and had started out drawing cartoons for humor magazines. The Sin made him rich and famous within a few years. He became a professor at the Munich Academy at thirty-two, and in 1906 was given a noble title: Franz von Stuck."
+  },
+  {
+   "type": "text",
+   "text": "Fashion moved on, and his dark temptresses came to seem theatrical. But two students who passed through his class would reshape the art of the next century: Paul Klee and Wassily Kandinsky. And the dangerous woman he fixed in paint, the femme fatale (French for “fatal woman”), walked straight out of the frame into silent films, perfume ads and album covers. She is still at work."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where is the serpent's head in the painting?",
+   "options": [
+    "Coiled at the woman's feet",
+    "On her shoulder, beside her face",
+    "Hidden in the orange corner"
+   ],
+   "answer": 1,
+   "explanation": "It rests on her shoulder, jaws open, as dark as her hair."
+  },
+  {
+   "question": "Which Bible story does the picture refer to?",
+   "options": [
+    "Eve and the serpent in Eden",
+    "Judith and Holofernes",
+    "Salome and John the Baptist"
+   ],
+   "answer": 0,
+   "explanation": "The woman and snake stand for Eve and the tempter."
+  },
+  {
+   "question": "What is unusual about the painting's original frame?",
+   "options": [
+    "It is made of snake skin",
+    "Stuck designed it like a gilded temple front with the title on it",
+    "It was added a century later"
+   ],
+   "answer": 1,
+   "explanation": "The artist designed a golden, columned frame inscribed DIE SUENDE."
+  },
+  {
+   "question": "What is chiaroscuro?",
+   "options": [
+    "A type of gold leaf",
+    "Strong contrast between light and dark",
+    "A German art society"
+   ],
+   "answer": 1,
+   "explanation": "It is the technique of modeling with strong light and deep shadow."
+  },
+  {
+   "question": "Which later artists studied under Stuck in Munich?",
+   "options": [
+    "Monet and Renoir",
+    "Picasso and Braque",
+    "Klee and Kandinsky"
+   ],
+   "answer": 2,
+   "explanation": "Both Paul Klee and Wassily Kandinsky passed through his class."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Stuck painted The Sin only once.",
+   "isTrue": false,
+   "explanation": "About a dozen versions are known."
+  },
+  {
+   "text": "The Sin was first shown at an exhibition of the Munich Secession.",
+   "isTrue": true,
+   "explanation": "It was the sensation of the group's first show in 1893."
+  },
+  {
+   "text": "The painting includes Adam and the apple tree.",
+   "isTrue": false,
+   "explanation": "Stuck removed the garden, the apple and Adam, leaving only the woman and the snake."
+  }
+ ]
+}

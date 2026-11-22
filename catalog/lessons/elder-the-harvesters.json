@@ -1,0 +1,318 @@
+{
+ "teaser": "A summer lunch break, painted for one banker's country house and now 6,000 km from home.",
+ "focus": [
+  0.72,
+  0.82
+ ],
+ "review_notes": "The room at Jonghelinck's house is usually said to be a dining room, but this is an inference; the lesson says 'probably'.\nJonghelinck pledged his paintings in 1566 as security for a friend's debt to the city of Antwerp; the city gave the series to Archduke Ernst in 1594.\nTaken from Vienna to Paris in 1809 during the Napoleonic wars, bought by the Met in 1919; the claim that it was not yet firmly recognized as Bruegel's when bought should be checked.\nThe small figures on the village green are often described as playing a throwing game at a tethered bird; too small in this image to confirm, so the lesson only says 'a game'.\nSize about 119 x 162 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Picture a villa just outside the walls of Antwerp, around 1565. Its owner, Niclaes Jonghelinck, is a banker and tax collector, one of the richest men in the richest port of northern Europe. For one room, probably the one where he dined, he orders six large panels from Pieter Bruegel. Together they will wrap the walls in a full year of weather."
+  },
+  {
+   "type": "text",
+   "text": "This is the panel for high summer, roughly August. Each picture covered a stretch of the year, with its own color: brown for late winter, white for snow, green for haymaking. Here the color is yellow, and almost nothing else. The guests at Jonghelinck's table, city people in fine clothes, ate surrounded by other people's sweat."
+  },
+  {
+   "type": "fact",
+   "text": "Jonghelinck owned sixteen paintings by Bruegel. In 1566, only a year after the series was finished, he pledged his whole collection as a guarantee for a friend's unpaid debt to the city of Antwerp. The pictures seem never to have come back to him."
+  },
+  {
+   "type": "text",
+   "text": "Before reading any figure, notice how Bruegel organizes so much land. You stand high up, as if on a ridge, and the ground falls away to a bay with ships. A few strong lines keep your eye from getting lost."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines hold this huge view together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.61
+      ],
+      [
+       0.31,
+       0.6
+      ],
+      [
+       0.52,
+       0.5
+      ],
+      [
+       0.7,
+       0.46
+      ]
+     ],
+     "closed": false,
+     "label": "The wheat's edge",
+     "text": "The top of the uncut wheat makes a soft step across the picture. Below it, everything is close and warm. Above it, the world turns cool, green and far away."
+    },
+    {
+     "points": [
+      [
+       0.635,
+       0.02
+      ],
+      [
+       0.64,
+       0.45
+      ],
+      [
+       0.63,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "The tree",
+     "text": "One trunk runs almost from top to bottom. It splits the picture in two: work on the left, rest on the right. It also gives the only real shade in the scene."
+    },
+    {
+     "points": [
+      [
+       0.35,
+       0.72
+      ],
+      [
+       0.33,
+       0.61
+      ],
+      [
+       0.19,
+       0.61
+      ],
+      [
+       0.05,
+       0.55
+      ],
+      [
+       0.04,
+       0.47
+      ],
+      [
+       0.12,
+       0.37
+      ]
+     ],
+     "closed": false,
+     "label": "The way out",
+     "text": "A corridor cut through the wheat leads to a path, the path to a road, the road over the hill. Your eye walks into the distance the same way the workers do."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That high viewpoint has a name, the “world landscape”: a view that packs fields, a village, water and a far horizon into a single picture, more than any real hill would show. Bruegel had learned it from older Flemish painters, then fed it with what he saw crossing the Alps on his way to Italy in the 1550s."
+  },
+  {
+   "type": "text",
+   "text": "Now the people. Bruegel paints the hottest hour, when the cutting slows and the food comes out. Some are still at it, some are eating, and one has simply given up."
+  },
+  {
+   "type": "tour",
+   "title": "Noon in the field",
+   "text": "Follow the day from work to sleep, left to right.",
+   "spots": [
+    {
+     "x": 0.19,
+     "y": 0.78,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "The mowers",
+     "text": "Two men swing long scythes into the wall of wheat. Their backs are bent and their faces hidden. Bruegel shows the effort through posture, not expression."
+    },
+    {
+     "x": 0.34,
+     "y": 0.69,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The water carrier",
+     "text": "He trudges out of the corridor in the wheat with jugs in both hands. Notice his height: the stalks reach his shoulders.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.78,
+     "y": 0.8,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Lunch",
+     "text": "A circle of workers sits on cut sheaves. One slices bread, others spoon from bowls, one tips a jug straight to his mouth. Nobody is posing."
+    },
+    {
+     "x": 0.55,
+     "y": 0.88,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The sleeper",
+     "text": "Legs apart, mouth open, belt loosened. He has collapsed against the tree with total abandon, and Bruegel gives him the most comfortable spot in the painting."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those shoulder-high stalks are not an exaggeration. The wheat grown in the 1500s was far taller than modern varieties, which were bred short in the 20th century so they would not fall over. Cutting it by hand meant walking into something like a hedge."
+  },
+  {
+   "type": "key",
+   "text": "Nothing here comes from the Bible or from myth. The subject is simply the land and the people who work it. In 1565 that was a bold thing to hang on a rich man's wall, and it is why this panel is often called a starting point for landscape painting in the West."
+  },
+  {
+   "type": "text",
+   "text": "Bruegel painted on oak boards with thin layers of oil paint, so thin in places that the pale ground underneath glows through the yellow. That is where the dry, dusty heat comes from. The far distance is brushed in milky gray-green, the trick painters use to suggest miles of hazy air."
+  },
+  {
+   "type": "find",
+   "text": "Far from the reapers, a cart is piled so high with the harvest that it looks like a small yellow house on wheels. Where is it?",
+   "spots": [
+    {
+     "x": 0.09,
+     "y": 0.51,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The loaded wagon",
+     "text": "Down by the pond, a wagon carries the harvest toward the village. Bruegel shows every stage in one view: cutting, binding, stacking, hauling. The picture works like a diagram of August."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Once you have found the wagon, the valley fills with life. There is a church half hidden in the trees, a pond, thatched farms, and tiny villagers gathered on a green for a game. The field is only the front edge of a whole society."
+  },
+  {
+   "type": "fact",
+   "text": "Of the six panels, five survive, and they no longer share a wall. Three are in Vienna, one is in Prague, and this one is in New York. The spring panel disappeared centuries ago and nobody knows what it looked like."
+  },
+  {
+   "type": "text",
+   "text": "The trip to New York was long. The series passed to the Habsburg rulers in 1594. In 1809 Napoleon's troops carried this panel off from Vienna to Paris, and it drifted through private hands until the Metropolitan Museum bought it in Brussels in 1919."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.38,
+     "y": 0.335,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Ships in the bay",
+     "text": "Pale sails on pale water. The harvest scene ends at the sea, a reminder that this grain country lived by trade, like the banker who paid for the picture."
+    },
+    {
+     "x": 0.72,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The church",
+     "text": "Its roof and tower show through the trees to the right of the big trunk. The village is close: these workers will walk home."
+    },
+    {
+     "x": 0.42,
+     "y": 0.46,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "The village green",
+     "text": "Specks of figures have gathered near the thatched farms to play a game. Even at harvest time, somebody is having fun."
+    },
+    {
+     "x": 0.77,
+     "y": 0.65,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Binding the sheaves",
+     "text": "A woman bends double to tie cut wheat into a bundle. Behind her the finished sheaves stand in cones to dry."
+    },
+    {
+     "x": 0.19,
+     "y": 0.615,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "Crossing the field",
+     "text": "Three small figures walk a path through the standing wheat, carrying sheaves on their shoulders. From here they are almost swallowed by yellow."
+    },
+    {
+     "x": 0.12,
+     "y": 0.645,
+     "zoom": 4.5,
+     "r": 0.04,
+     "title": "Two birds",
+     "text": "Dark birds skim low over the grain, hunting what the scythes disturb. Bruegel rarely forgets the animals.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So a picture made for one family's meals now hangs where millions pass. The sleeper under the tree has outlasted the villa, the banker's fortune and the set it belonged to. He is still mid-nap, and it is still noon."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who ordered the series this panel belongs to?",
+   "options": [
+    "The city council of Antwerp",
+    "Niclaes Jonghelinck, an Antwerp banker",
+    "A Habsburg archduke"
+   ],
+   "answer": 1,
+   "explanation": "Jonghelinck commissioned six panels for his villa outside Antwerp."
+  },
+  {
+   "question": "How many panels of the series survive today?",
+   "options": [
+    "Five",
+    "Six",
+    "Three"
+   ],
+   "answer": 0,
+   "explanation": "Five survive; the spring panel is lost."
+  },
+  {
+   "question": "Why does the wheat reach the workers' shoulders?",
+   "options": [
+    "Bruegel exaggerated to make them look small",
+    "The men are kneeling",
+    "Wheat varieties were much taller in the 1500s"
+   ],
+   "answer": 2,
+   "explanation": "Short wheat was only bred in the 20th century."
+  },
+  {
+   "question": "What is a “world landscape”?",
+   "options": [
+    "A map painted on a globe",
+    "A high view combining fields, village, water and far horizon",
+    "A landscape with people from every country"
+   ],
+   "answer": 1,
+   "explanation": "It packs more of the world into one view than a real hill would show."
+  },
+  {
+   "question": "What divides the picture into work on one side and rest on the other?",
+   "options": [
+    "The tree trunk",
+    "The pond",
+    "The church tower"
+   ],
+   "answer": 0,
+   "explanation": "The tall trunk separates the mowers from the lunch group."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Harvesters illustrates a story from the Bible.",
+   "isTrue": false,
+   "explanation": "It has no religious or mythological subject, which is what made it so new."
+  },
+  {
+   "text": "Napoleon's troops took the panel from Vienna to Paris in 1809.",
+   "isTrue": true,
+   "explanation": "It left the Habsburg collection during the Napoleonic wars."
+  },
+  {
+   "text": "All six panels of the series hang together in Vienna.",
+   "isTrue": false,
+   "explanation": "Three are in Vienna, one in Prague, one in New York, and one is lost."
+  }
+ ]
+}

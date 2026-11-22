@@ -1,0 +1,235 @@
+{
+ "teaser": "A dancer caught mid-step, lit from the floor, in a room you can almost hear.",
+ "focus": [
+  0.63,
+  0.45
+ ],
+ "review_notes": "Dimensions used: about 2.3 x 3.5 m (Gardner Museum: 232 x 348 cm).\nGardner built the Spanish Cloister in 1914 before owning the picture; T. Jefferson Coolidge then gave it to her: check.\nThe orange on the empty chair is visible at about x 0.17, y 0.63 in the image.\nSargent's trip to Spain and North Africa: 1879-80.\nReddish marks on the wall near x 0.22, y 0.43 read as handprints in the image; described cautiously.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "One heel has just struck the floor. The dancer's back is arched so far that she should fall, her right arm is flung out, her left hand snatches up a fistful of skirt. Half a second later every part of this will be somewhere else. Sargent stops the music on that beat."
+  },
+  {
+   "type": "text",
+   "text": "The title names the noise. In flamenco, the “jaleo” is the uproar around the dancer: the clapping, the shouts of encouragement, the stamping. It is a painting about sound, made of almost nothing but black, white and gray."
+  },
+  {
+   "type": "text",
+   "text": "How do you make a silent canvas loud? Part of the answer is in how the scene is built. It is very wide, about 3.5 meters (11.5 feet), and Sargent uses that width like a stage."
+  },
+  {
+   "type": "lines",
+   "text": "Three directions organize the whole picture.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.47
+      ],
+      [
+       0.52,
+       0.47
+      ]
+     ],
+     "closed": false,
+     "label": "The row",
+     "text": "The musicians sit shoulder to shoulder in one dark band along the wall, like notes on a line of music. They are the steady beat."
+    },
+    {
+     "points": [
+      [
+       0.69,
+       0.92
+      ],
+      [
+       0.63,
+       0.6
+      ],
+      [
+       0.6,
+       0.32
+      ]
+     ],
+     "closed": false,
+     "label": "The lean",
+     "text": "The dancer tips backward against that steady row. Her body is a slanted line with nothing to hold it up but the next step."
+    },
+    {
+     "points": [
+      [
+       0.61,
+       0.43
+      ],
+      [
+       0.78,
+       0.31
+      ]
+     ],
+     "closed": false,
+     "label": "The arm",
+     "text": "Her outstretched arm shoots toward the right, pointing your eye on to the clapping women at the edge."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A level row and a body falling across it: the rhythm and the break in the rhythm. Then there is the light, which is the strangest thing in the room. It does not come from a window or a ceiling lamp."
+  },
+  {
+   "type": "text",
+   "text": "It comes from below and in front, from lamps on the floor that we cannot see, like the footlights of a theater. That is why the skirt blazes at the hem, why faces are lit under the chin, and why huge shadows climb the wall behind everyone."
+  },
+  {
+   "type": "fact",
+   "text": "Sargent had seen dancing like this three years earlier, traveling through southern Spain at 23. He did not paint the canvas there. He built it in his Paris studio in 1882 from sketches and memory, using a model to hold the pose."
+  },
+  {
+   "type": "text",
+   "text": "He was 26, and the picture was meant to get attention at that year's Paris Salon, the giant annual exhibition. It did. Critics compared him to Goya and Velázquez, the Spanish masters he admired, and the young American was suddenly a name."
+  },
+  {
+   "type": "text",
+   "text": "For all its speed, the scene is full of small, still things that Sargent set down among the noise. One of them is the brightest spot of color on the whole left side."
+  },
+  {
+   "type": "find",
+   "text": "Someone has left a piece of fruit behind. Where is it?",
+   "spots": [
+    {
+     "x": 0.17,
+     "y": 0.63,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The orange",
+     "text": "A single orange sits on an empty chair between the musicians. A seat left free, a snack forgotten: a tiny bit of ordinary life in the middle of the spectacle."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That orange is answered far across the canvas by the orange-red shawl of a woman on the right. Two warm notes, one tiny and one large, bracket a world of gray. Now that your eye is tuned, visit the people making the noise."
+  },
+  {
+   "type": "tour",
+   "title": "The jaleo",
+   "text": "Who is producing the uproar?",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.45,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Head thrown back",
+     "text": "One man tips his head against the wall, mouth open. He is singing or crying out, lost in the music, his white shirt front catching the footlights."
+    },
+    {
+     "x": 0.42,
+     "y": 0.56,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The guitarists",
+     "text": "Two guitars side by side, their pale wood and the players' hands picked out of the dark. The faces above them are hidden under hat brims."
+    },
+    {
+     "x": 0.95,
+     "y": 0.48,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The women",
+     "text": "At the far right, women in bright shawls clap, and one throws her arm straight up. They are the only strong color, and the loudest corner of the room."
+    },
+    {
+     "x": 0.67,
+     "y": 0.72,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "The skirt",
+     "text": "Yards of white satin, painted in long, loaded strokes of white, cream and gray. It is the largest light shape in the picture and it is still moving."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Above the musicians, two guitars hang on the bare wall waiting for their turn. Lower down, near the players' heads, there are faint reddish marks that look like handprints pressed on the plaster."
+  },
+  {
+   "type": "fact",
+   "text": "The painting has its own room. In 1914 the Boston collector Isabella Stewart Gardner built a Spanish-style alcove in her museum, with an arch and lights placed low to echo the footlights. She did it before she owned the picture. Her relative, who did, took the hint and gave it to her."
+  },
+  {
+   "type": "key",
+   "text": "Movement in a still image comes from imbalance. Sargent chose the one instant when the dancer cannot possibly stay as she is, so your mind completes the step."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does “jaleo” refer to?",
+   "options": [
+    "The dancer's white skirt",
+    "The shouting and clapping around a flamenco dancer",
+    "A town in southern Spain"
+   ],
+   "answer": 1,
+   "explanation": "The jaleo is the uproar of encouragement around the dancer."
+  },
+  {
+   "question": "Where does the light in the scene come from?",
+   "options": [
+    "From lamps on the floor, like footlights",
+    "From a window on the left",
+    "From candles on the wall"
+   ],
+   "answer": 0,
+   "explanation": "The light rises from below, which throws tall shadows up the wall."
+  },
+  {
+   "question": "Where did Sargent actually paint the canvas?",
+   "options": [
+    "In a tavern in Seville",
+    "In Boston",
+    "In his Paris studio"
+   ],
+   "answer": 2,
+   "explanation": "He painted it in Paris in 1882 from sketches and memory of his Spanish trip."
+  },
+  {
+   "question": "What small object sits on the empty chair?",
+   "options": [
+    "A hat",
+    "An orange",
+    "A tambourine"
+   ],
+   "answer": 1,
+   "explanation": "An orange has been left on the chair among the musicians."
+  },
+  {
+   "question": "What did Isabella Stewart Gardner do for the painting?",
+   "options": [
+    "She built a special alcove for it in her museum",
+    "She repainted its background",
+    "She sold it to the Louvre"
+   ],
+   "answer": 0,
+   "explanation": "She built a Spanish-style space with low lighting to display it."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting is dominated by black, white and gray.",
+   "isTrue": true,
+   "explanation": "Only a few warm notes, like the orange and a shawl, break the gray scheme."
+  },
+  {
+   "text": "The dancer is shown standing perfectly upright and balanced.",
+   "isTrue": false,
+   "explanation": "She leans far backward, in a pose she could not hold."
+  },
+  {
+   "text": "Sargent painted the scene on the spot during a performance in Spain.",
+   "isTrue": false,
+   "explanation": "He composed it later in his Paris studio."
+  }
+ ]
+}

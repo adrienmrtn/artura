@@ -1,0 +1,175 @@
+{
+ "teaser": "53.9 million dollars for a flowerbed: in 1987, nothing painted had ever cost more.",
+ "focus": [
+  0.2,
+  0.3
+ ],
+ "review_notes": "Sale: Sotheby's New York, 11 November 1987, 53.9 million dollars to Alan Bond, who could not complete payment (Sotheby's had lent part of the price); Getty acquired it in 1990 for an undisclosed sum.\nPainted in the first week at Saint-Paul-de-Mausole, May 1889 (Getty).\nTheo's quote ('strikes the eye from afar... full of air and life') from his letter of September 1889.\nOctave Mirbeau as early owner, price of 300 francs: check.\n'Almost 130 paintings' in the Saint-Remy year: Getty figure.\nIrises originally more violet (faded red pigment): per Getty conservation research, check.\n'Lightning conductor for my illness' quote: check wording.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "53.9 million dollars. In November 1987, that was the price paid at auction for this patch of garden, more than had ever been paid for any painting. The man who painted it, Vincent van Gogh, had counted it as a simple study, a practice piece, and did not even make a drawing for it first."
+  },
+  {
+   "type": "text",
+   "text": "He painted it in May 1889, during his first week in an asylum at Saint-Rémy, in the south of France. He had asked to be admitted after a breakdown. At first he was not allowed beyond the walls, so he worked in the overgrown garden, with whatever was blooming at his feet."
+  },
+  {
+   "type": "text",
+   "text": "That explains the strange viewpoint. There is no sky here, no horizon, no wall. You are crouched low, almost among the leaves, the way he must have been. And in this crowd of blue flowers, one does not belong."
+  },
+  {
+   "type": "find",
+   "text": "One iris is not like the others. Tap it.",
+   "spots": [
+    {
+     "x": 0.175,
+     "y": 0.28,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The white iris",
+     "text": "A single all-white flower stands apart on the left, taller than its neighbors. Many people read it as a self-portrait of a man who felt different from everyone around him. Van Gogh never said so."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Whatever the white one means, it shows how he worked. He did not paint “irises” as a mass. He painted this iris, then that one. Each bloom has its own twist, its own way of opening or sagging. No two are the same."
+  },
+  {
+   "type": "key",
+   "text": "Van Gogh looked at flowers the way a portrait painter looks at faces: one at a time, each with its own character."
+  },
+  {
+   "type": "fact",
+   "text": "He called painting “the lightning conductor for my illness.” Working kept him steady. During his year at the asylum he produced close to 130 paintings, more than two a week."
+  },
+  {
+   "type": "text",
+   "text": "The look of the picture owes a lot to Japan. Van Gogh collected Japanese woodblock prints and pinned them to his walls. From them he borrowed three habits you can check for yourself: dark outlines, flat areas of strong color, and a subject cut off by the edge."
+  },
+  {
+   "type": "tour",
+   "text": "Three lessons from Japanese prints, and one from the garden.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.58,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Drawn in paint",
+     "text": "Every leaf is edged with a dark blue line, then filled with green. He is drawing with the brush. The leaves curve and cross like blades, and give the whole picture its rhythm."
+    },
+    {
+     "x": 0.88,
+     "y": 0.8,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "Cut by the frame",
+     "text": "The clump at lower right spills past the edge, sliced off mid-flower. The garden clearly goes on beyond the canvas. Japanese printmakers loved this kind of cropping."
+    },
+    {
+     "x": 0.2,
+     "y": 0.86,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "Red earth",
+     "text": "The soil is a mix of pink, rust and brick red, in short choppy strokes. Next to it the green leaves look greener: red and green are opposites that sharpen each other."
+    },
+    {
+     "x": 0.15,
+     "y": 0.13,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Orange against blue",
+     "text": "Behind the irises, a bed of orange marigolds. Orange is the opposite of blue, so the flowers at the back make the ones in front glow."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Blue against orange, green against red: the picture is built on pairs of opposite colors. That is why it seems to vibrate, even though nothing in it moves and nothing happens."
+  },
+  {
+   "type": "text",
+   "text": "His brother Theo, an art dealer in Paris, saw it at once. He sent the canvas to a big exhibition of independent artists that September and wrote to Vincent that it “strikes the eye from afar,” a beautiful study “full of air and life.”"
+  },
+  {
+   "type": "fact",
+   "text": "The 1987 sale did not end well. The buyer, the Australian businessman Alan Bond, could not pay the full price. The painting was quietly resold, and in 1990 it entered the Getty Museum in Los Angeles."
+  },
+  {
+   "type": "text",
+   "text": "One more thing. Scientists who studied the paint believe these flowers were once more violet. A red pigment that van Gogh mixed into his blue has faded with light. The irises you see are bluer than the ones he saw. Would he mind? Or would he say that a garden never stays the same color for long?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where did van Gogh paint Irises?",
+   "options": [
+    "In a flower market in Paris",
+    "In the garden of an asylum at Saint-Rémy",
+    "In his brother's apartment"
+   ],
+   "answer": 1,
+   "explanation": "He painted it in the asylum garden during his first week there."
+  },
+  {
+   "question": "What is special about the flower on the left?",
+   "options": [
+    "It is the only white iris",
+    "It is the only one with a stem",
+    "It was added by another painter"
+   ],
+   "answer": 0,
+   "explanation": "A single white iris stands among the blue ones."
+  },
+  {
+   "question": "Which habit did van Gogh borrow from Japanese prints?",
+   "options": [
+    "Painting only at night",
+    "Using gold leaf",
+    "Dark outlines and subjects cut off by the edge"
+   ],
+   "answer": 2,
+   "explanation": "He took outlines, flat color and cropping from the prints he collected."
+  },
+  {
+   "question": "Why do the orange marigolds matter?",
+   "options": [
+    "They hide a mistake",
+    "Orange is the opposite of blue and makes the irises glow",
+    "They were his favorite flower"
+   ],
+   "answer": 1,
+   "explanation": "Opposite colors placed together sharpen each other."
+  },
+  {
+   "question": "What happened after the record sale in 1987?",
+   "options": [
+    "The buyer could not pay the full price",
+    "The painting was stolen",
+    "It was found to be a copy"
+   ],
+   "answer": 0,
+   "explanation": "Alan Bond could not pay, and the Getty acquired the painting in 1990."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Van Gogh made many careful drawings before painting Irises.",
+   "isTrue": false,
+   "explanation": "He treated it as a study and made no drawing for it first."
+  },
+  {
+   "text": "In 1987, Irises became the most expensive painting ever sold up to that time.",
+   "isTrue": true,
+   "explanation": "It sold for 53.9 million dollars."
+  },
+  {
+   "text": "The irises are probably more violet today than when they were painted.",
+   "isTrue": false,
+   "explanation": "It is the reverse: a red pigment faded, so they look bluer now."
+  }
+ ]
+}

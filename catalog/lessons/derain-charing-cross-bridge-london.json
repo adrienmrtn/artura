@@ -1,0 +1,38 @@
+{
+  "teaser": "London under a lemon sky, painted by a 25-year-old sent to outdo Monet's fog.",
+  "focus": [0.52, 0.5],
+  "review_notes": "Image check: the photo shows a framed painting with a wall label reading 'Charing Cross Bridge, also known as Westminster Bridge', which matches the Musée d'Orsay version (embankment with green road) now given in the catalog. The lesson describes the image shown and does not name the museum.\nThe image is small and includes the gilt frame and wall; coordinates refer to the whole photo, and interactive blocks are limited to large, legible areas.\nCheck: Vollard commission, about thirty London canvases over 1906 and early 1907.\nCheck: the thin dark column on the riverbank is probably Cleopatra's Needle.\nCheck: Derain's letter to Matisse praising Turner after visiting London museums.",
+  "lesson": [
+    {"type": "text", "text": "Open any photo on your phone and drag the saturation slider all the way to the right. The sky turns yellow, the shadows go electric blue, the trees glow orange. It looks like a filter invented last year. André Derain got there in 1906, with a brush, standing above the River Thames."},
+    {"type": "text", "text": "He was 25 and had been sent on a mission. His dealer, Ambroise Vollard, had watched Claude Monet's misty views of London sell brilliantly in Paris two years earlier. Vollard wanted a younger, louder version of the same subject, and he paid for Derain's trip across the Channel."},
+    {"type": "fact", "text": "Monet painted the Thames from a room in the luxurious Savoy Hotel and took years to finish his series. Derain worked fast and on a budget, and came home with about thirty London canvases from visits in 1906 and early 1907."},
+    {"type": "text", "text": "Monet had loved London for its fog, which melts every building into gray and violet. Derain did the opposite. He kept the same landmarks and threw out the weather. Follow the view from the far bank to the road under your feet and see what he put in its place."},
+    {"type": "tour", "title": "From skyline to street", "text": "Three stops, moving from the horizon toward you.", "spots": [
+      {"x": 0.68, "y": 0.22, "zoom": 2.4, "r": 0.09, "title": "A blue Parliament", "text": "The spiky silhouette on the horizon is the Houses of Parliament, flattened into one blue shape against a sky of yellow dabs. No windows, no stone, only an outline."},
+      {"x": 0.34, "y": 0.52, "zoom": 2.2, "r": 0.11, "title": "The river as mosaic", "text": "The Thames is made of separate yellow and pale green touches, like tiles. In front, a bare tree is drawn in red and blue lines, two colors no winter branch has ever been."},
+      {"x": 0.6, "y": 0.62, "zoom": 2.2, "r": 0.1, "title": "The green road", "text": "The Embankment, the wide road along the river, sweeps toward you in flat emerald green. Dark blobs with wheels are the traffic: carriages and perhaps early motor cars."}
+    ]},
+    {"type": "text", "text": "Notice that he changes his handwriting as he goes. The water and sky are built from small separate dabs, a method borrowed from painters like Paul Signac. The road and trees are broad, flat areas of one color. Two techniques share one canvas, and the seam between them is the riverbank."},
+    {"type": "key", "text": "For the Fauves, the group Derain belonged to, color did not have to match the object. A road could be green and a tree red if that made the picture stronger."},
+    {"type": "fact", "text": "Between painting sessions Derain haunted London's museums. He wrote to his friend Henri Matisse about the paintings of J. M. W. Turner, the English artist who had dissolved the Thames into light sixty years before him."},
+    {"type": "text", "text": "For all its wild color, the picture still records a real place and a real moment. The bridge is the dark blue band that crosses the river in the distance. It carried trains into Charing Cross station, and Derain left a clue that one is passing."},
+    {"type": "find", "text": "A puff of white steam is drifting over the water. Where is it?", "spots": [
+      {"x": 0.275, "y": 0.345, "zoom": 3, "r": 0.05, "title": "The steam", "text": "A creamy cloud trails to the left, just above the dark line of the bridge. It is the smoke of an engine, the same kind of plume Monet had painted, here reduced to a few thick strokes."}
+    ]},
+    {"type": "text", "text": "That small cloud is one of the few soft things in the painting. Everywhere else, Derain replaced London's smoke and drizzle with sharp edges. He was not describing the city he saw so much as the jolt it gave him: the size, the traffic, the speed of the biggest city in the world at that time."},
+    {"type": "fact", "text": "The road in the picture was itself quite new. The Victoria Embankment was built in the 1860s on land reclaimed from the river, with a sewer and an underground railway hidden beneath it."},
+    {"type": "text", "text": "The London pictures were the high point of Derain's bright years. Within a couple of seasons he turned toward darker tones and older masters, and never painted like this again. Which leaves a question worth asking in front of that yellow sky: was he exaggerating London, or seeing it more freshly than the people who lived there?"}
+  ],
+  "quiz": [
+    {"question": "Who sent Derain to paint London?", "options": ["Claude Monet", "The dealer Ambroise Vollard", "The British government"], "answer": 1, "explanation": "Vollard hoped to repeat the success of Monet's London views with a younger painter."},
+    {"question": "How does Derain's London differ from Monet's?", "options": ["It replaces fog with sharp, bright color", "It is painted at night", "It shows no buildings"], "answer": 0, "explanation": "Monet loved the mist; Derain removed it and used intense, unnatural colors."},
+    {"question": "What color is the Embankment road in the painting?", "options": ["Gray", "Pink", "Emerald green"], "answer": 2, "explanation": "The road sweeps toward the viewer as a flat green shape."},
+    {"question": "How is the river painted?", "options": ["As one smooth blue surface", "With small separate dabs of yellow and green", "With black outlines only"], "answer": 1, "explanation": "The water is built from distinct touches, like a mosaic."},
+    {"question": "What does the white puff above the bridge represent?", "options": ["Steam from a train", "A flock of seagulls", "A sail"], "answer": 0, "explanation": "The bridge carried trains to Charing Cross station, and the cloud is engine steam."}
+  ],
+  "facts": [
+    {"text": "Derain painted the Houses of Parliament as a flat blue silhouette.", "isTrue": true, "explanation": "The building appears on the horizon as a single blue shape without detail."},
+    {"text": "Derain was in his sixties when he painted London.", "isTrue": false, "explanation": "He was only 25 when Vollard sent him across the Channel."},
+    {"text": "Derain kept painting in this bright style for the rest of his life.", "isTrue": false, "explanation": "Within a few years he moved to darker tones and a more traditional manner."}
+  ]
+}

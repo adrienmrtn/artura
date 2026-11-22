@@ -1,0 +1,44 @@
+{
+  "teaser": "A severed head, still screaming, painted on a real shield for a duke's armory.",
+  "focus": [0.51, 0.47],
+  "review_notes": "Display in the Medici armory on a mounted figure wearing Persian armor given by Shah Abbas: reported in the literature, worth double-checking the wording.\nSupport described as poplar wood covered with canvas, about 60 x 55 cm.\nThe face is widely believed, not documented, to be Caravaggio's own.\nGaspare Murtola's poem is paraphrased, not quoted.\nLeonardo's lost Medusa shield in the Medici collection is known from Vasari and old inventories.",
+  "lesson": [
+    {"type": "text", "text": "This picture was never meant to hang flat on a wall. It was made for an armory in Florence, the room where the Medici family kept their weapons. There it was shown on the arm of a model knight, as part of a suit of armor. You were supposed to meet it the way an enemy would: coming straight at you."},
+    {"type": "text", "text": "Around 1597, Cardinal Francesco del Monte, Caravaggio's protector in Rome, wanted a gift for Ferdinando de' Medici, Grand Duke of Tuscany. A parade shield was a classic present for a prince. Del Monte asked his young painter to decorate one with the most frightening face in Greek myth."},
+    {"type": "fact", "text": "The support is a real ceremonial shield: a round of poplar wood covered with canvas, about 60 cm (2 feet) across. It bulges outward like a shallow dome, so Caravaggio had no flat surface to work on."},
+    {"type": "text", "text": "The myth goes like this. Medusa has snakes for hair, and anyone who meets her eyes turns to stone. The hero Perseus cuts off her head while watching her reflection in his polished shield. The head keeps its power, so the goddess Athena fixes it to her own shield as a weapon. Caravaggio paints that weapon, and he has to decide where the light falls and where the eyes go."},
+    {"type": "lines", "text": "Three directions organize the whole shield.", "lines": [
+      {"points": [[0.14, 0.16], [0.42, 0.4]], "closed": false, "label": "The light", "text": "Light arrives from the upper left. It hits the forehead and the cheek on our left, and leaves the other side of the face in shade."},
+      {"points": [[0.5, 0.42], [0.3, 0.74]], "closed": false, "label": "The gaze", "text": "The pupils are turned down and to our left. Medusa does not look at you. She stares past the rim, at something lower, perhaps her own body falling away."},
+      {"points": [[0.72, 0.36], [0.88, 0.45], [0.88, 0.62], [0.74, 0.74], [0.62, 0.72]], "closed": false, "label": "The shadow", "text": "On the right, the green turns dark. The head and snakes seem to cast a shadow on the ground behind them, as if they hung in front of the shield."}
+    ]},
+    {"type": "text", "text": "That shadow is the clever part. The real surface swells toward you, yet the painted shadow suggests a hollow bowl with a head floating inside it. Caravaggio cancels the true shape of the object with paint alone. And because the eyes slide away from yours, you can stand in front of the monster and stay alive."},
+    {"type": "key", "text": "Caravaggio turned a bulging shield into an illusion of depth: the shadow painted on the green makes the head seem to float free of its support."},
+    {"type": "text", "text": "Whose face is it? Medusa is a woman, but these heavy brows and this jaw belong to a young man. Most historians think Caravaggio used himself, pulling a scream in front of a mirror. It suits the story well: Perseus also beat the monster with a reflection."},
+    {"type": "fact", "text": "A poet of the time, Gaspare Murtola, wrote verses about a Medusa shield by Caravaggio. His warning to the viewer, roughly: run away, because if amazement holds your eyes, she will turn you to stone."},
+    {"type": "text", "text": "The hair deserves as much attention as the face. These are not decorative ribbons. Each snake has scales that catch the light, a pale belly, a body that coils with real weight. They are still alive, and not all of them are busy with you."},
+    {"type": "find", "text": "Two snakes have turned on each other, head to head. Where are they?", "spots": [
+      {"x": 0.76, "y": 0.63, "zoom": 3.6, "r": 0.06, "title": "Snake against snake", "text": "On the right, level with the chin, two heads face each other at close range. The monster is dying and her hair is already fighting itself."}
+    ]},
+    {"type": "text", "text": "That small fight tells you which second you are watching. The head is cut, but life has not left it yet. Medusa is conscious. Caravaggio loved this kind of instant, when something terrible has just happened and the face is only starting to understand it."},
+    {"type": "tour", "title": "Just after the blade", "text": "Three places where the painter insists on that instant.", "spots": [
+      {"x": 0.5, "y": 0.58, "zoom": 3.4, "r": 0.07, "shape": "circle", "title": "The mouth", "text": "Wide open, with the teeth and the dark of the throat visible. It is a scream caught halfway, the kind of expression that painters of the time usually avoided as too ugly."},
+      {"x": 0.42, "y": 0.75, "zoom": 2.6, "r": 0.1, "shape": "circle", "title": "The blood", "text": "It leaves the neck in stiff red jets, almost like rods. The streams have not had time to curve or drip: the cut is one heartbeat old."},
+      {"x": 0.37, "y": 0.85, "zoom": 3.4, "r": 0.05, "shape": "circle", "title": "The lowest snake", "text": "One pale head hangs below the wound, next to the blood, lit along its scales. It crosses in front of the red streams, which pushes it toward you."}
+    ]},
+    {"type": "fact", "text": "The Medici were said to own another Medusa shield, painted a century earlier by Leonardo da Vinci and long since lost. A young painter from Rome was, in effect, being measured against Leonardo."},
+    {"type": "text", "text": "Today the shield sits in a glass case at the Uffizi, far from any armor. Stand in front of it and try the original experience anyway: imagine it strapped to an arm, moving toward you across a room, with that scream arriving first."}
+  ],
+  "quiz": [
+    {"question": "What kind of object is this painting made on?", "options": ["A flat oak panel", "A ceremonial shield that bulges outward", "A copper plate"], "answer": 1, "explanation": "It is a real parade shield of wood covered with canvas, shaped like a shallow dome."},
+    {"question": "Who received the shield as a gift?", "options": ["Ferdinando de' Medici, Grand Duke of Tuscany", "The Pope", "The King of Spain"], "answer": 0, "explanation": "Cardinal del Monte had it painted as a present for the Grand Duke."},
+    {"question": "What does the dark area on the green ground, to the right, do?", "options": ["It hides a repair", "It represents a storm", "It acts as a cast shadow, so the head seems to float in front"], "answer": 2, "explanation": "The painted shadow makes the bulging shield read as a hollow space with the head hanging in it."},
+    {"question": "Where is Medusa looking?", "options": ["Straight into your eyes", "Down and to the side, past the viewer", "Up at the sky"], "answer": 1, "explanation": "Her pupils are turned down and away, so the viewer escapes the deadly gaze."},
+    {"question": "Whose features did Caravaggio most likely use for the face?", "options": ["His own, seen in a mirror", "The Grand Duke's", "A Roman actress's"], "answer": 0, "explanation": "Most historians think he posed for it himself with a mirror."}
+  ],
+  "facts": [
+    {"text": "The shield was displayed in the Medici armory as part of a suit of armor.", "isTrue": true, "explanation": "It was shown on the arm of a model knight among the family's weapons."},
+    {"text": "Medusa's blood is painted dripping slowly in round drops.", "isTrue": false, "explanation": "It shoots out in stiff, straight jets, as if the cut had just been made."},
+    {"text": "The Medici were said to own an earlier Medusa shield by Leonardo da Vinci.", "isTrue": true, "explanation": "That shield is lost, but its fame made Caravaggio's commission a kind of contest."}
+  ]
+}

@@ -1,0 +1,315 @@
+{
+ "teaser": "Four sisters, two giant vases, and a dark room that critics could not explain.",
+ "focus": [
+  0.5,
+  0.45
+ ],
+ "review_notes": "'Four corners and a void' is the commonly cited paraphrase of a critic's remark at the 1883 Salon: check exact source.\nAges: Florence 14, Jane 12, Mary Louisa 8, Julia 4. Which of the two rear girls is Florence (in profile) and which is Jane (facing): generally given as Florence leaning on the vase.\nDoll named 'Popau' after politician Paul de Cassagnac: reported by MFA.\nVases made in Arita, Japan; crossed the Atlantic about sixteen times; objects found inside them: reported by MFA, check.\nNone of the four sisters married: check.\nPainting given to the MFA by the daughters in 1919.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "“Four corners and a void.” That was how one puzzled reviewer summed up this picture when it appeared in Paris in 1883. Others asked where the portrait was supposed to be. The children seemed scattered like toys left on the floor, and half the canvas was darkness."
+  },
+  {
+   "type": "text",
+   "text": "They had a point about the shape. The canvas is a square, more than 2.2 meters (over 7 feet) on each side, an odd format for a portrait. And a group portrait normally gathers a family together: touching, overlapping, arranged like a bouquet. Here nobody touches anybody, except in one place we will come to."
+  },
+  {
+   "type": "text",
+   "text": "The man who ordered it did not mind. Edward Darley Boit was a wealthy Bostonian living in Paris, a painter himself and a friend of Sargent. He let the 26-year-old artist work in the entrance hall of the family apartment and, it seems, gave him a free hand."
+  },
+  {
+   "type": "lines",
+   "text": "Where does Sargent put things in this big square? Tap to trace it.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.25,
+       0.0
+      ],
+      [
+       0.25,
+       0.72
+      ],
+      [
+       0.83,
+       0.62
+      ],
+      [
+       0.86,
+       0.0
+      ]
+     ],
+     "closed": true,
+     "label": "The dark opening",
+     "text": "A deep, shadowy room takes up the middle of the canvas. In a normal portrait this prime spot would hold the most important person."
+    },
+    {
+     "points": [
+      [
+       0.135,
+       0.5
+      ],
+      [
+       0.63,
+       0.76
+      ]
+     ],
+     "closed": false,
+     "label": "Light in front",
+     "text": "The two youngest girls are out in the daylight of the hall, far apart, one standing at the left and one sitting on the rug."
+    },
+    {
+     "points": [
+      [
+       0.39,
+       0.44
+      ],
+      [
+       0.51,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "Shadow behind",
+     "text": "The two eldest stand at the threshold of the dark room, close together, half absorbed by it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Once you see that layout, the “void” stops looking like a mistake. The emptiness is doing something. It separates the girls from each other, and it pulls your eye past them into a room you cannot see into."
+  },
+  {
+   "type": "fact",
+   "text": "Sargent had a model in mind. Three years earlier he had gone to Madrid to copy “Las Meninas,” the 1656 painting by Velázquez in which a little Spanish princess and her attendants stand in a tall, dim room. The same hush and the same deep shadows return here."
+  },
+  {
+   "type": "text",
+   "text": "Now meet the sisters, all dressed alike in white pinafores over dark stockings. Read from the brightest to the darkest and you will find they are also arranged from youngest to oldest."
+  },
+  {
+   "type": "tour",
+   "title": "Four ages",
+   "text": "Follow the girls from the rug back into the shadows.",
+   "spots": [
+    {
+     "x": 0.63,
+     "y": 0.76,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Julia, 4",
+     "text": "The youngest sits flat on the rug, legs out, looking straight at you with total calm. She is the only one fully at ease in the light."
+    },
+    {
+     "x": 0.135,
+     "y": 0.5,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "Mary Louisa, 8",
+     "text": "Standing alone at the left, hands behind her back, feet together. She faces us too, but stiffly, as if told to stay put.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.51,
+     "y": 0.44,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Jane, 12",
+     "text": "At the edge of the dark room, facing forward, arms hanging. Her white pinafore, a sleeveless apron worn over the dress, catches the light. Her expression is harder to read.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.39,
+     "y": 0.43,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Florence, 14",
+     "text": "The eldest turns away in profile and leans against the vase. Her face is almost lost. Of the four, she gives us the least.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Many viewers read this as a picture of growing up. The small child belongs to the bright world of rugs and toys. With each year the girls step back, become more guarded, and slip toward a darkness that could stand for adulthood, or simply for privacy."
+  },
+  {
+   "type": "key",
+   "text": "A portrait can tell you about people through where they stand, not only through their faces. Distance, light and shadow do the talking here."
+  },
+  {
+   "type": "text",
+   "text": "Sargent never explained it, and it may also just be how four bored children arranged themselves in a hallway. But one thing in Julia's lap suggests the family had a sense of humor."
+  },
+  {
+   "type": "find",
+   "text": "Julia is not empty-handed. What is she holding, and where?",
+   "spots": [
+    {
+     "x": 0.585,
+     "y": 0.8,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "The doll",
+     "text": "A pink doll sits between her legs. The family record says it was called Popau, a nickname borrowed from a loud French politician of the day."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Then there are the vases. They are taller than the girls, and Sargent paints them with the same care as a person: blue birds and branches on glazed white porcelain, a wavy rim catching the window light. Some critics said they were the real subject."
+  },
+  {
+   "type": "fact",
+   "text": "The vases are real and still exist. Made in Japan for export, they stand about 1.8 meters (6 feet) tall and followed the Boits back and forth across the Atlantic some sixteen times. Today they flank the painting in the Boston museum."
+  },
+  {
+   "type": "text",
+   "text": "What about the paint itself? Step close to the pinafores and they dissolve into fast, wet slashes of white and gray. Sargent rarely corrected. He preferred to scrape off a passage and repaint it in one go, so the surface always looks freshly done."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.32,
+     "y": 0.42,
+     "zoom": 2,
+     "r": 0.13,
+     "title": "The great vase",
+     "text": "Blue painted decoration on white, with highlights dragged down its side. Florence leans on it the way you would lean on a door frame.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.69,
+     "y": 0.17,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A glimmer in the dark",
+     "text": "Deep in the back room, a mirror or polished surface reflects a window. It is the only clue to how far the darkness goes."
+    },
+    {
+     "x": 0.89,
+     "y": 0.38,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "The red screen",
+     "text": "A sharp wedge of red, the single strong color in the picture. It closes the right side and half hides the second vase.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.44,
+     "y": 0.47,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The one contact",
+     "text": "Between the two eldest, an arm reaches across and their hands seem to meet. In a picture of separated children, this is the only link."
+    },
+    {
+     "x": 0.14,
+     "y": 0.52,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "White pinafore",
+     "text": "A few broad strokes of white, gray and cream make starched cotton. The red dress shows at the sleeves and hem."
+    },
+    {
+     "x": 0.5,
+     "y": 0.82,
+     "zoom": 1.8,
+     "r": 0.25,
+     "title": "The rug",
+     "text": "A pale blue-gray carpet with a patterned border, painted loosely. Its edge runs on a diagonal and leads your eye into the room."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "None of the four sisters ever married. In 1919 they gave the painting together to the Museum of Fine Arts in Boston, in memory of their father."
+  },
+  {
+   "type": "text",
+   "text": "Henry James, the novelist, saw the picture early on and called it “astonishing.” Time has sided with him. The same emptiness that baffled the first audience is now the reason people stand in front of it for so long, wondering what the two older girls are thinking."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did an early critic call the composition?",
+   "options": [
+    "A bouquet of sisters",
+    "Four corners and a void",
+    "A room without walls"
+   ],
+   "answer": 1,
+   "explanation": "The phrase mocked the scattered figures and the dark, empty center."
+  },
+  {
+   "question": "Which older painting did Sargent have in mind?",
+   "options": [
+    "“Las Meninas” by Velázquez",
+    "“The Night Watch” by Rembrandt",
+    "“Olympia” by Manet"
+   ],
+   "answer": 0,
+   "explanation": "He had copied “Las Meninas” in Madrid three years earlier."
+  },
+  {
+   "question": "How are the four girls arranged?",
+   "options": [
+    "By height, tallest in front",
+    "In a tight group at the center",
+    "From youngest in the light to oldest in the shadow"
+   ],
+   "answer": 2,
+   "explanation": "Julia, 4, sits in the light and Florence, 14, is half lost in the dark."
+  },
+  {
+   "question": "What is unusual about the canvas?",
+   "options": [
+    "It is square",
+    "It is round",
+    "It is painted on both sides"
+   ],
+   "answer": 0,
+   "explanation": "A square of more than 2.2 meters was an odd format for a portrait."
+  },
+  {
+   "question": "Where are the two vases today?",
+   "options": [
+    "They were lost at sea",
+    "Beside the painting in the Boston museum",
+    "In the Louvre"
+   ],
+   "answer": 1,
+   "explanation": "The real vases now flank the painting at the Museum of Fine Arts."
+  },
+  {
+   "question": "What is Julia holding?",
+   "options": [
+    "A book",
+    "A kitten",
+    "A doll"
+   ],
+   "answer": 2,
+   "explanation": "She has a pink doll in her lap."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The girls' father was a painter and a friend of Sargent.",
+   "isTrue": true,
+   "explanation": "Edward Darley Boit was a Bostonian artist living in Paris."
+  },
+  {
+   "text": "The giant vases were invented by Sargent to fill the composition.",
+   "isTrue": false,
+   "explanation": "They were real Japanese vases owned by the family, and they still exist."
+  },
+  {
+   "text": "The eldest sister looks straight at the viewer.",
+   "isTrue": false,
+   "explanation": "Florence turns away in profile and leans against the vase."
+  }
+ ]
+}

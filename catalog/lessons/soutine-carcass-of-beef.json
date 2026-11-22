@@ -1,0 +1,49 @@
+{
+ "teaser": "Soutine hung a side of beef in his studio and kept it red with buckets of fresh blood.",
+ "focus": [0.52, 0.5],
+ "review_notes": "IMAGE CHECK: the image is very tall (ratio about 0.56), which matches the Grenoble version (Le Boeuf ecorche, about 202 x 114 cm) better than the Buffalo canvas (about 140 x 108 cm). The catalog now gives the Musée de Grenoble. Lesson avoids dimensions and speaks of the series.\nBarnes purchase winter 1922-23: 'more than fifty' canvases (often given as 52).\nStudio on rue du Saint-Gothard, blood from the slaughterhouse, Paulette Jourdain, neighbors and health inspectors: from Jourdain's recollections; details vary by source.\n'About ten' carcass canvases to confirm.\nStory that Soutine fasted before painting is legend and is not used.",
+ "lesson": [
+  {"type":"text","text":"For ten years in Paris, Chaïm Soutine was hungry. He had arrived in 1913 from a poor Jewish village near Minsk, the tenth of eleven children of a mender of clothes. He lived in unheated studios, owed money everywhere and already suffered from the stomach ulcers that would torment him for life."},
+  {"type":"text","text":"Then, in the winter of 1922 to 1923, an American collector named Albert Barnes saw his work and bought more than fifty canvases in one go. By 1925 Soutine had tailored suits, a proper studio near Montparnasse, and enough cash to do something he could never have afforded before: buy a whole carcass of beef just to paint it."},
+  {"type":"fact","text":"A man with ulcers who could barely eat meat spent his first real money on meat. Soutine painted food all his life, fish, fowl, rabbits, beef, and nearly always food that was raw, dead and hanging."},
+  {"type":"text","text":"He had it carried up from the slaughterhouse and strung from the beams of his studio. The animal hangs head down, split open along the belly, the way butchers store it. Before reading the colors, read the anatomy. It is easier than it seems."},
+  {"type":"find","text":"The body cavity is open toward you. Can you find the ribs?","spots":[
+   {"x":0.66,"y":0.68,"zoom":2.6,"r":0.11,"title":"The rib cage","text":"Dark slanting bars alternate with strips of yellow and orange: the ribs seen from inside. It is one of the few places where Soutine lets the brush describe something precisely."}
+  ]},
+  {"type":"text","text":"With the ribs as a landmark, the rest falls into place. The hind legs are tied wide apart at the top. The trunk narrows toward the bottom, where the neck and forelegs dangle. The whole shape is a ragged Y, or a figure with its arms raised."},
+  {"type":"lines","text":"Draw the carcass as a simple structure.","lines":[
+   {"points":[[0.10,0.17],[0.22,0.33],[0.38,0.52],[0.48,0.75],[0.50,0.94]],"closed":false,"label":"Left limb to base","text":"From the tied leg at upper left, the mass leans inward and down. The edge is never straight: it shudders the whole way."},
+   {"points":[[0.89,0.16],[0.78,0.30],[0.72,0.50],[0.66,0.78],[0.50,0.94]],"closed":false,"label":"Right limb to base","text":"The other leg mirrors it. Together they stretch the body open, a pose that reminded many viewers of a crucifixion."},
+   {"points":[[0.18,0.04],[0.45,0.26],[0.75,0.06]],"closed":false,"label":"Behind it","text":"Dark bars and blue strokes cross in the background, echoing the spread of the legs. The setting leans and sways like the flesh."}
+  ]},
+  {"type":"text","text":"Soutine did not invent this subject. In the Louvre hangs Rembrandt's Slaughtered Ox of 1655, a flayed animal glowing in a dark cellar. Soutine went back to it again and again. But Rembrandt's ox hangs in a real room, with a maid peering in. Soutine removes the room and leaves a storm of blue."},
+  {"type":"fact","text":"Painting took days and the meat turned gray and began to stink. So an assistant, Paulette Jourdain, was sent to the slaughterhouse for buckets of fresh blood, which Soutine poured over the carcass to bring the red back."},
+  {"type":"text","text":"Neighbors complained about the smell and the health inspectors came. The story goes that they showed him how to inject the meat with a preservative so he could keep working. Flies were waved away with a fan while he painted."},
+  {"type":"key","text":"Soutine belonged to Expressionism in the plainest sense: he did not copy what the meat looked like, he painted what standing in front of it felt like."},
+  {"type":"text","text":"That feeling lives in the paint itself. It is laid on thick, a technique called impasto, where the paint stands up from the canvas like butter from a knife. Soutine dragged, stabbed and smeared it, often wet into wet, so that colors streak into each other without turning to mud."},
+  {"type":"explore","spots":[
+   {"x":0.50,"y":0.48,"zoom":2.8,"r":0.11,"title":"Fat and membrane","text":"At the center, creamy yellows and whites swirl among the reds: fat, painted in loops. The lightest, warmest paint sits right at the heart of the picture."},
+   {"x":0.10,"y":0.18,"zoom":3,"r":0.08,"title":"A tied leg","text":"At upper left the hind leg ends in a knot of red and orange against the blue. This is where the weight of the animal hangs."},
+   {"x":0.42,"y":0.20,"zoom":2.2,"r":0.14,"title":"The blue","text":"Cold blue is the opposite of orange-red on the color wheel. Put side by side, each makes the other look more intense. The meat seems to burn."},
+   {"x":0.25,"y":0.60,"zoom":2.6,"r":0.10,"title":"Crimson flank","text":"Long strokes of deep red run down the side, pulled in one direction by a loaded brush. You can feel the speed of the arm."},
+   {"x":0.30,"y":0.86,"zoom":3,"r":0.08,"title":"Loose ends","text":"Near the bottom, pinks and a pale round shape hang off the main mass, bone or sinew. Soutine does not explain it. Paint and flesh become the same substance."},
+   {"x":0.35,"y":0.04,"zoom":2.4,"r":0.12,"title":"White slashes","text":"Along the top edge, fast strokes of white cut across the dark. They read as light, but mostly they are pure energy."}
+  ]},
+  {"type":"text","text":"He painted about ten of these carcasses around 1925, and then never returned to the subject. He was a ruthless judge of his own work, known to slash or burn canvases that displeased him, so the ones that survive are the ones he could bear."},
+  {"type":"fact","text":"Soutine died in 1943 after months of hiding from the German occupation of France, when his ulcer finally burst. Few people dared attend the funeral in Paris. Pablo Picasso was one of them."},
+  {"type":"text","text":"After the war, painters looked at these carcasses and saw permission. Francis Bacon set screaming figures between sides of beef. Willem de Kooning, in New York, studied how Soutine's paint could be image and raw matter at once."},
+  {"type":"key","text":"A side of beef is the least noble subject imaginable. Soutine showed that the way paint is handled, not the subject, decides how much a picture can hold."}
+ ],
+ "quiz": [
+  {"question":"What changed Soutine's life shortly before he painted the carcasses?","options":["He inherited a butcher shop","An American collector bought more than fifty of his paintings","He won a prize at the Louvre"],"answer":1,"explanation":"Albert Barnes's purchase lifted him out of poverty almost overnight."},
+  {"question":"Which older painting inspired this subject?","options":["Rembrandt's Slaughtered Ox","Leonardo's Last Supper","Titian's Venus of Urbino"],"answer":0,"explanation":"Soutine studied Rembrandt's flayed ox in the Louvre."},
+  {"question":"How did Soutine keep the rotting carcass red?","options":["He repainted it with red varnish","He kept it in an ice box","He poured fresh blood over it"],"answer":2,"explanation":"His assistant fetched buckets of blood from the slaughterhouse."},
+  {"question":"What is impasto?","options":["Paint laid on so thickly that it stands up from the canvas","A thin transparent glaze","A drawing made before painting"],"answer":0,"explanation":"Soutine's paint is thick, dragged and smeared."},
+  {"question":"Why does the red meat look so intense?","options":["It is painted on gold leaf","It is set against cold blue, its opposite","The canvas is lit from behind"],"answer":1,"explanation":"Blue and orange-red are opposites and strengthen each other."}
+ ],
+ "facts": [
+  {"text":"Soutine placed his carcass in a detailed cellar with a maid looking on.","isTrue":false,"explanation":"That is Rembrandt's version; Soutine replaces the room with a storm of blue."},
+  {"text":"Neighbors complained about the smell coming from Soutine's studio.","isTrue":true,"explanation":"The meat rotted while he worked and health inspectors were called."},
+  {"text":"Soutine kept every canvas he ever painted.","isTrue":false,"explanation":"He was known to slash or burn works that displeased him."}
+ ]
+}

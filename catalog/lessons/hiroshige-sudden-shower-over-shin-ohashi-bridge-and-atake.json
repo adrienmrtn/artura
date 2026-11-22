@@ -1,0 +1,51 @@
+{
+ "teaser": "Rain carved into wood, line by line, and a print Van Gogh could not stop staring at.",
+ "focus": [0.45, 0.65],
+ "review_notes": "Atake district named after the shogunal ship Atakemaru, considered unwieldy and broken up in 1682: please verify.\nRain printed from two separate blocks at slightly different angles: widely repeated, verify.\nShin-Ohashi built 1693.\nVan Gogh's copy dated 1887, Van Gogh Museum, Amsterdam; border characters copied from other prints.\nHiroshige died in 1858, during a cholera epidemic (cause of death is traditional, not certain).\nSeries: 118 designs by Hiroshige, published by Uoya Eikichi, 1856 to 1858.",
+ "lesson": [
+  {"type":"text","text":"Begin with a flop. In the 1630s the shogun, Japan's military ruler, ordered a gigantic warship called the Atakemaru. It was so heavy and clumsy that it hardly ever sailed. It sat moored on the Sumida River in Edo for decades, and in 1682 it was broken up."},
+  {"type":"text","text":"The ship vanished but its name stuck to the riverbank where it had sat idle: Atake. That is the grey shore dissolving in the distance of this print. Hiroshige's title, in full, is Sudden Shower over Shin-Ohashi Bridge and Atake. A famous failure, remembered only as an address."},
+  {"type":"text","text":"The year is 1857 and the season is late summer, when Edo, today's Tokyo, gets violent evening downpours. Six people are caught on the bridge with no shelter in any direction. But someone in this picture has it worse than they do."},
+  {"type":"find","text":"One person is out in the storm with no bridge under him at all. Where?","spots":[
+   {"x":0.22,"y":0.52,"zoom":3.2,"r":0.07,"title":"The raftsman","text":"A lone man in a straw hat poles a long, flat log raft down the river. Timber yards lay nearby, and logs were floated to them like this. He just keeps working."}
+  ]},
+  {"type":"text","text":"Notice how small he is, and how high you are. Hiroshige lifts you above the bridge, like a bird, and tips everything sideways. The bridge slants one way, the far bank slants the other, and nothing in the picture is level. The storm has knocked the world off balance."},
+  {"type":"fact","text":"Shin-Ohashi means “New Great Bridge.” It was new in 1693. By the time Hiroshige drew it, the “new” bridge was more than 160 years old."},
+  {"type":"text","text":"Now, the rain. How do you draw falling water with a block of wood? In woodblock printing, a carver cuts away the wood around every line so the line stands up to take ink. Here that meant leaving hundreds of threads of wood, each about as thin as a hair, standing across the whole block."},
+  {"type":"tour","title":"How the storm is built","text":"Four things the printer did to make you feel wet.","spots":[
+   {"x":0.45,"y":0.25,"zoom":2.6,"r":0.16,"title":"Crossed rain","text":"The lines are not parallel. Some fall steeply, others lean a little more. They were printed from two blocks at slightly different angles, so the rain seems to shake in the wind."},
+   {"x":0.5,"y":0.1,"zoom":1.8,"r":0.25,"shape":"circle","title":"The cloud","text":"That black band with a soft lower edge is ink wiped onto the block by hand with a cloth or brush. The technique is called bokashi, a printed gradation. No two sheets come out the same."},
+   {"x":0.5,"y":0.34,"zoom":1.9,"r":0.25,"title":"Atake","text":"The far bank is a grey silhouette with no outlines, printed in two flat tones. Roofs and trees are just barely there. This is how things look through a curtain of water."},
+   {"x":0.5,"y":0.93,"zoom":1.8,"r":0.25,"title":"Deep water","text":"At the bottom the river darkens to a strong blue, another hand-wiped gradation. It adds weight under the bridge and makes the pale deck above seem to float."}
+  ]},
+  {"type":"key","text":"Hiroshige does not describe a bridge in the rain. He uses line, tilt and fading ink to make weather itself the subject."},
+  {"type":"text","text":"Because the cloud and the river were wiped by hand for every single sheet, each copy of this print is slightly different. In some the sky is a heavy black lid. In others it thins out and the storm looks about to pass. Museums treat good early printings as the closest thing to what Hiroshige intended."},
+  {"type":"text","text":"The print belongs to One Hundred Famous Views of Edo, a set Hiroshige began in 1856, when he was around sixty. Almost all of the views are vertical, an odd choice for landscape. The tall format forced him into steep viewpoints and bold cropping, like the bridge that enters and exits here without ever showing its ends."},
+  {"type":"fact","text":"Hiroshige died in 1858, with the series still coming out, during a cholera epidemic that swept Edo. He had designed 118 views for it. So much for “one hundred.”"},
+  {"type":"text","text":"Thirty years later and half a world away, a Dutch painter living in Paris bought a copy. Vincent van Gogh collected Japanese prints by the hundreds because they were cheap, and in 1887 he sat down and repainted this one in oil, stroke for stroke, rain included."},
+  {"type":"fact","text":"Van Gogh could not read Japanese. For the frame of his copy he borrowed decorative characters from other prints he owned, so the border of his painting says nothing about rain or bridges."},
+  {"type":"text","text":"What did he see in it? Flat color, strong outlines, a daring angle, no shadows. Everything European art schools told painters to avoid. Go back over the bridge once more, and watch how each person there deals with the same problem."},
+  {"type":"explore","spots":[
+   {"x":0.28,"y":0.69,"zoom":3,"r":0.08,"title":"Sharing an umbrella","text":"Two figures hurry left, squeezed under one dark umbrella. One hitches up a red robe to keep it out of the puddles."},
+   {"x":0.42,"y":0.64,"zoom":3.2,"r":0.07,"title":"Head down","text":"This man has only his wide hat. He bends nearly double and pushes straight into the rain, bare legs showing."},
+   {"x":0.59,"y":0.59,"zoom":3,"r":0.08,"title":"One hat, several legs","text":"A knot of people shuffles along beneath a single wide hat or umbrella. Heads disappear under it, so you have to count legs to guess how many they are."},
+   {"x":0.71,"y":0.57,"zoom":3.2,"r":0.07,"title":"The mat","text":"No hat, no umbrella. He has pulled a straw mat over his head and shoulders and is making a run for it."},
+   {"x":0.6,"y":0.85,"zoom":1.8,"r":0.25,"title":"The trestles","text":"Under the smooth deck is a forest of crossed wooden posts. Hiroshige prints them dark and solid, the one thing in the picture that does not move."},
+   {"x":0.86,"y":0.17,"zoom":2.6,"r":0.09,"title":"Title boxes","text":"The red strip names the series. The colored square beside it gives this view's title. The seals above, in the margin, are the censor's approval and the date."},
+   {"x":0.14,"y":0.84,"zoom":2.8,"r":0.08,"title":"Signature","text":"In the red box: “Hiroshige ga,” meaning drawn by Hiroshige. The small seal in the margin beside it belongs to the publisher."}
+  ]}
+ ],
+ "quiz": [
+  {"question":"Where does the name “Atake” come from, according to the lesson?","options":["A giant, unwieldy warship once moored there","A temple that burned down","The word for summer rain"],"answer":0,"explanation":"The district kept the name of the Atakemaru, a huge ship broken up in 1682."},
+  {"question":"What is bokashi?","options":["A type of straw raincoat","A gradation made by wiping ink on the block by hand","The censor's seal"],"answer":1,"explanation":"The cloud and the deep water are hand-wiped gradations, so each sheet differs."},
+  {"question":"Why does the rain seem to tremble?","options":["The paper was soaked before printing","The lines were scratched in afterwards with a needle","Rain lines fall at slightly different angles"],"answer":2,"explanation":"Two sets of lines at different angles cross each other."},
+  {"question":"What did Van Gogh do with this print in 1887?","options":["He copied it in oil paint","He sold it to pay his rent","He wrote a poem about it"],"answer":0,"explanation":"He repainted the whole composition in oil in Paris."},
+  {"question":"Who is working on the river during the storm?","options":["A fisherman with a net","A ferryman carrying passengers","A man poling a log raft"],"answer":2,"explanation":"A lone raftsman steers timber downstream."},
+  {"question":"What is unusual about the format of the Famous Views of Edo?","options":["The prints are circular","Almost all the landscapes are vertical","Each print is as large as a door"],"answer":1,"explanation":"The tall format pushed Hiroshige toward steep viewpoints and cropping."}
+ ],
+ "facts": [
+  {"text":"Every sheet of this print looks exactly the same.","isTrue":false,"explanation":"The gradations were wiped by hand for each sheet, so the cloud and river vary."},
+  {"text":"One Hundred Famous Views of Edo contains more than one hundred designs by Hiroshige.","isTrue":true,"explanation":"He designed 118 views before his death in 1858."},
+  {"text":"The border of Van Gogh's copy carries an accurate translation of Hiroshige's title.","isTrue":false,"explanation":"Van Gogh could not read Japanese and borrowed characters from other prints."}
+ ]
+}

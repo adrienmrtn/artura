@@ -1,0 +1,267 @@
+{
+ "teaser": "After years of unsold dots, a 66-year-old painter looked down at the traffic and found his subject.",
+ "focus": [
+  0.45,
+  0.62
+ ],
+ "review_notes": "Pointillist period dated about 1885 to 1890, with poor sales and Durand-Ruel's reluctance: standard account, check wording.\nDurand-Ruel suggested the boulevard series; he showed the Paris views in his gallery in 1898: check year.\nPissarro was the only artist in all eight Impressionist exhibitions (1874 to 1886).\nBorn 1830 on St. Thomas, then Danish West Indies; kept Danish nationality all his life.\nAbout 1,500 works lost at Louveciennes during the Franco-Prussian War: commonly cited figure.\nSize 64.8 x 81.3 cm; Met, gift of Katrin S. Vietor, 1960.\nThe small structure on the right sidewalk is read as a kiosk, the vehicles as horse-drawn cabs and omnibuses: interpretation of the image.\nPissarro's praise of the Paris streets as silvery and full of life comes from a letter written in December 1897 about the Avenue de l'Opéra views: paraphrased here.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Ten years before this picture, Camille Pissarro made the worst business decision of his career. Already in his late fifties, he gave up his loose brushwork and started building paintings out of thousands of tiny, separate dots of pure color, a method invented by the much younger Georges Seurat."
+  },
+  {
+   "type": "text",
+   "text": "Collectors who liked the old Pissarro did not want the new one. His dealer, Paul Durand-Ruel, hesitated to buy. A single canvas could take months, and with a wife and a large family to feed, Pissarro was soon writing letters asking friends for loans. Around 1890 he admitted defeat. The dots, he felt, froze the very sensations he wanted to catch."
+  },
+  {
+   "type": "fact",
+   "text": "It was not his first disaster. During the Franco-Prussian War of 1870, soldiers occupied his house near Paris. Of roughly 1,500 works he had left there, almost twenty years of painting, only a few dozen survived."
+  },
+  {
+   "type": "text",
+   "text": "So the man who opened his hotel window onto the Boulevard Montmartre in February 1897 badly needed something to work. Durand-Ruel had an idea: a set of Paris boulevards. Pissarro, a painter of villages and vegetable gardens, was not sure the city was for him. Then he saw the view."
+  },
+  {
+   "type": "text",
+   "text": "This is one of the first canvases of the set. A cold morning, a sky the color of dishwater, bare trees, and a wide street already full. He had found a subject that never held still and never ran out."
+  },
+  {
+   "type": "lines",
+   "text": "Before the bustle, see how firmly the stage is built. The street is a funnel.",
+   "lines": [
+    {
+     "points": [
+      [
+       1.0,
+       0.03
+      ],
+      [
+       0.6,
+       0.15
+      ],
+      [
+       0.33,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The rooftops",
+     "text": "The long block on the right shrinks toward a point in the haze. Every balcony and row of windows follows the same slope."
+    },
+    {
+     "points": [
+      [
+       1.0,
+       0.72
+      ],
+      [
+       0.6,
+       0.48
+      ],
+      [
+       0.33,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "The right curb",
+     "text": "The edge of the sidewalk climbs to meet the rooftops at the same place. Between the two lines, the buildings form a wedge."
+    },
+    {
+     "points": [
+      [
+       0.12,
+       0.95
+      ],
+      [
+       0.22,
+       0.6
+      ],
+      [
+       0.3,
+       0.35
+      ]
+     ],
+     "closed": false,
+     "label": "The left curb",
+     "text": "On the left the street edge runs up almost vertically, because Pissarro's window is on this side. The meeting point of all three lines sits well left of center."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That off-center meeting point is the trick. Because the far end of the boulevard is pushed to the left, the right-hand sidewalk opens up like a fan, and the roadway spreads across the bottom of the canvas. You are given room to watch people."
+  },
+  {
+   "type": "key",
+   "text": "A strong perspective is what lets Pissarro be so free with everything else: once the street holds firm, the crowd can be painted as fast as it moves."
+  },
+  {
+   "type": "text",
+   "text": "And it does move. Nobody posed for this picture. Each carriage was in view for a few seconds, so each one had to be set down in a few strokes, from memory as much as from sight. The method is the opposite of the patient dots that had nearly ruined him."
+  },
+  {
+   "type": "tour",
+   "title": "Street life, 1897",
+   "text": "Four things that would have told a Parisian exactly what kind of street this was.",
+   "spots": [
+    {
+     "x": 0.3,
+     "y": 0.73,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "A cab for hire",
+     "text": "A driver sits high on his seat behind a pair of horses. A few dark strokes for the hood, a few pale ones for the horses' backs, and the cab is done."
+    },
+    {
+     "x": 0.79,
+     "y": 0.69,
+     "zoom": 3,
+     "r": 0.06,
+     "shape": "rect",
+     "title": "The kiosk",
+     "text": "A small reddish booth stands on the sidewalk under the trees. Such kiosks sold newspapers and were a new piece of street furniture in the rebuilt Paris."
+    },
+    {
+     "x": 0.49,
+     "y": 0.62,
+     "zoom": 2.8,
+     "r": 0.06,
+     "shape": "rect",
+     "title": "The lamp post",
+     "text": "A tall lamp rises from an island in the middle of the road. It stands almost on the central axis of the canvas, the one thing that does not move."
+    },
+    {
+     "x": 0.78,
+     "y": 0.06,
+     "zoom": 2.6,
+     "r": 0.14,
+     "title": "Chimney pots",
+     "text": "Dozens of chimneys bristle along the roofline, one for each fireplace below. On a winter morning all of them are in use, which helps explain the grey air."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The buildings you just scanned were only about thirty years old. Under Napoleon III, the official Baron Haussmann had rebuilt central Paris with straight avenues, matching stone fronts and rows of trees. Many people found the result monotonous. Pissarro found it silvery and alive, and said so in letters to his son."
+  },
+  {
+   "type": "fact",
+   "text": "Pissarro was never a French citizen. He was born in 1830 on St. Thomas, a Caribbean island then ruled by Denmark, and kept his Danish nationality until he died in Paris in 1903."
+  },
+  {
+   "type": "text",
+   "text": "The color deserves a second pass. It seems grey, but there is hardly any plain grey on the canvas. The road is lilac, pink and pale blue laid side by side. The trees are rust and violet. Touches of red warm the shop fronts on the right. Winter light, for an Impressionist, was a color problem like any other."
+  },
+  {
+   "type": "find",
+   "text": "Pissarro signed and dated this one. Where did he write his name?",
+   "spots": [
+    {
+     "x": 0.08,
+     "y": 0.975,
+     "zoom": 3.5,
+     "r": 0.08,
+     "title": "C. Pissarro. 97",
+     "text": "Bottom left, in dark paint over the pale sidewalk. A signature meant a picture was finished and ready for the dealer. This one was."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "By April he had sixteen canvases: fourteen of this boulevard and two of the one behind him. Durand-Ruel took them and showed the Paris views in his gallery the following year. They sold. For the first time in his life Pissarro had steady money, and he spent his last years in rented rooms above other streets, bridges and gardens."
+  },
+  {
+   "type": "fact",
+   "text": "Between 1874 and 1886 the Impressionists held eight group exhibitions. Monet skipped some, Renoir skipped some, Cézanne showed in only two. Pissarro alone took part in every one."
+  },
+  {
+   "type": "text",
+   "text": "The painting is 65 by 81 cm (about 26 by 32 in) and now hangs at the Metropolitan Museum in New York. Its sister pictures are scattered from London to Melbourne. To see the series as he saw it, lined up along a hotel wall, you would need to travel around the world."
+  },
+  {
+   "type": "key",
+   "text": "The failed experiment was not wasted. It taught Pissarro what he could not give up: speed, and the freshness of a first sensation."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What had hurt Pissarro's sales in the late 1880s?",
+   "options": [
+    "He stopped painting for five years",
+    "He switched to painting in tiny dots",
+    "He refused to sign his pictures"
+   ],
+   "answer": 1,
+   "explanation": "His dotted pictures, inspired by Seurat, did not please his collectors or his dealer."
+  },
+  {
+   "question": "Who suggested a series of Paris boulevards?",
+   "options": [
+    "His dealer, Paul Durand-Ruel",
+    "Baron Haussmann",
+    "Georges Seurat"
+   ],
+   "answer": 0,
+   "explanation": "Durand-Ruel proposed the idea and later bought and exhibited the canvases."
+  },
+  {
+   "question": "Where do the main perspective lines of the street meet?",
+   "options": [
+    "Exactly in the center",
+    "Off the canvas to the right",
+    "Well to the left of center"
+   ],
+   "answer": 2,
+   "explanation": "The off-center meeting point lets the right sidewalk and roadway spread open."
+  },
+  {
+   "question": "Which nationality did Pissarro hold all his life?",
+   "options": [
+    "French",
+    "Danish",
+    "British"
+   ],
+   "answer": 1,
+   "explanation": "He was born on St. Thomas, then a Danish colony, and never changed nationality."
+  },
+  {
+   "question": "How many of the eight Impressionist exhibitions included Pissarro?",
+   "options": [
+    "All eight",
+    "Two",
+    "Five"
+   ],
+   "answer": 0,
+   "explanation": "He was the only artist to show in every one."
+  },
+  {
+   "question": "What stands near the middle of the roadway in this painting?",
+   "options": [
+    "A fountain",
+    "A statue of Napoleon",
+    "A tall lamp post"
+   ],
+   "answer": 2,
+   "explanation": "A lamp post rises from an island in the road, close to the central axis."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The street in this painting is colored with plain grey paint and little else.",
+   "isTrue": false,
+   "explanation": "The greys are made of lilac, pink, pale blue and rust placed side by side."
+  },
+  {
+   "text": "Pissarro lost most of his early work during the Franco-Prussian War.",
+   "isTrue": true,
+   "explanation": "Soldiers occupying his house destroyed nearly all of the roughly 1,500 works left there."
+  },
+  {
+   "text": "The boulevard series was a commercial failure.",
+   "isTrue": false,
+   "explanation": "The Paris views sold and gave Pissarro steady income for the first time."
+  }
+ ]
+}

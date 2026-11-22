@@ -1,0 +1,49 @@
+{
+  "teaser": "Could you draw the stranger who sat across from you on your last train ride? Daumier could.",
+  "focus": [0.42, 0.42],
+  "review_notes": "The Met dates this canvas about 1862-64; the catalog year 1863 is within that range.\nDimensions about 65.4 x 90.2 cm.\nRelated watercolor in the Walters Art Museum, Baltimore, commissioned in 1864 along with First-Class and Second-Class Carriage scenes; the Met canvas was squared up from a tracing of that composition.\nA more finished oil version is in the National Gallery of Canada, Ottawa.\nAbout 4,000 lithographs; six-month prison sentence in 1832 for the caricature Gargantua of King Louis-Philippe.\nCorot helping Daumier secure his house in Valmondois: the traditional story says Corot bought it for him; some historians question the details.\n1878 retrospective at the Durand-Ruel gallery; Daumier died in 1879.\nThe figure at lower right is read as a sleeping boy; a small box sits beside him.",
+  "lesson": [
+    {"type": "text", "text": "Who sat across from you the last time you took a train or a bus? Try to picture the face. The coat. What their hands were doing. Most of us look away from strangers after a second, and an hour later they are gone from memory."},
+    {"type": "text", "text": "Honoré Daumier did the opposite for forty years. He walked Paris, rode its omnibuses and trains, stared, and went home. He almost never drew in front of his subjects. He stored people in his head and brought them out later in the studio, which is why his figures feel summed up instead of copied."},
+    {"type": "text", "text": "Railways were still young in the 1860s, and French trains sold three classes of ticket. First class had padded seats. Third class meant bare wooden benches in a crowded, unheated car where people sat back to back. Daumier puts you on one of those benches and shows you the bench opposite."},
+    {"type": "lines", "text": "The carriage is built from a few plain shapes.", "lines": [
+      {"points": [[0.56, 0.5], [0.98, 0.5]], "closed": false, "label": "The bench back", "text": "A wooden seat back runs across the car at mid-height. Everyone behind it faces away or sideways. It splits the passengers into two rows: the family in front, the crowd behind."},
+      {"points": [[0.13, 0.3], [0.33, 0.33], [0.53, 0.36], [0.72, 0.37], [0.92, 0.37]], "closed": false, "label": "The row of heads", "text": "Behind the bench, hats and profiles line up like beads on a string. Top hats sit next to caps and scarves. Nobody is speaking to anybody."},
+      {"points": [[0.44, 0.29], [0.02, 0.96], [0.76, 0.96]], "closed": true, "label": "The family", "text": "The four figures in front fit inside a broad triangle with the old woman's hood at the top. It is a shape painters had long used for holy families."}
+    ]},
+    {"type": "text", "text": "So the picture has a front and a back. Behind the bench, a dozen strangers packed shoulder to shoulder. In front of it, one family that fills half the canvas and does not look at you once. You are close enough to touch their knees, and still you are not there for them."},
+    {"type": "fact", "text": "Daumier earned his living as a newspaper cartoonist and produced about 4,000 lithographs, prints drawn on stone. One of them, showing King Louis-Philippe as a giant swallowing the nation's money, got him six months in prison in 1832."},
+    {"type": "text", "text": "Painting was what he did for himself, after the day's cartoon was delivered. He taught himself, rarely exhibited, and sold very little. Many of his canvases stayed in the studio in various stages of progress. This is one of them, and it tells you so quite openly."},
+    {"type": "text", "text": "The surface is thin, brown and sketchy, with dark outlines doing most of the work. But there is a more precise clue that the painter stopped partway. He left his construction lines showing in one of the brightest parts of the canvas."},
+    {"type": "find", "text": "Daumier's working grid is still visible. Where does it show most clearly?", "spots": [
+      {"x": 0.145, "y": 0.17, "zoom": 3.2, "r": 0.07, "title": "The squared window", "text": "Thin ruled lines cross the pale window, forming squares. The same grid runs under the whole picture and peeks through the thin paint in other places as well."}
+    ]},
+    {"type": "text", "text": "Those squares are a transfer tool. An artist rules a grid over a drawing, rules a larger grid on the canvas, then copies the design square by square. Daumier was enlarging a composition he had already worked out for a watercolor, part of a set showing first, second and third class."},
+    {"type": "fact", "text": "That watercolor is in the Walters Art Museum in Baltimore. A second oil version, taken to a higher finish, belongs to the National Gallery of Canada in Ottawa. The Met's canvas is the one where the process is left in plain sight."},
+    {"type": "text", "text": "Because the paint is so thin, you can watch a cartoonist think like a painter. He draws each figure in dark, looping contour, then rubs in a little yellow and ocher for light. Faces are built from five or six strokes. See how much he gets out of them."},
+    {"type": "tour", "title": "Four passengers", "text": "The family, from the eldest to the youngest.", "spots": [
+      {"x": 0.44, "y": 0.4, "zoom": 2.6, "r": 0.1, "title": "The grandmother", "text": "Sunken cheeks under a pale hood, eyes fixed on nothing in particular. She is awake and thinking, the only face in the car turned our way."},
+      {"x": 0.41, "y": 0.66, "zoom": 2.8, "r": 0.1, "title": "Hands on the basket", "text": "Her knotted fingers are laced over the handle of a covered basket. A few black lines are enough to show the knuckles and a lifetime of work."},
+      {"x": 0.23, "y": 0.55, "zoom": 2, "r": 0.15, "title": "Mother and infant", "text": "A young woman looks down at the baby she is nursing, her arms closed around it. The warmest, most rounded lines in the picture are here."},
+      {"x": 0.7, "y": 0.62, "zoom": 2.4, "r": 0.1, "title": "The sleeping boy", "text": "A boy has dropped off, chin on his chest, hands in his pockets, slumped against the old woman. A small box sits on the bench beside him."}
+    ]},
+    {"type": "text", "text": "An infant, a child, a young mother, an old woman: four ages of one life, carried along in the same seat. No father is in sight, and Daumier does not explain why. He also leaves out any plea for pity. The grandmother is tired, not broken. She holds her basket the way one holds a position."},
+    {"type": "key", "text": "Daumier painted the working poor without mocking them and without sentimentalizing them. He gave an anonymous family on a cheap bench the calm, solid presence of an old religious painting."},
+    {"type": "text", "text": "His last years were hard. His eyesight was failing, the work dried up, and he had retired to a small house in the village of Valmondois, north of Paris. In 1878 his friends organized the first large exhibition of his paintings. He died the following year."},
+    {"type": "fact", "text": "According to a long-told story, when Daumier could no longer pay his rent, the landscape painter Camille Corot quietly bought the house and gave it to him, saying it was to annoy the landlord."},
+    {"type": "text", "text": "The grid in the window was never meant to be seen. It stayed because the painter set the canvas aside. Now it reads like a note in the margin: a reminder that someone looked hard at four strangers on a train, remembered them, and squared them up to keep."}
+  ],
+  "quiz": [
+    {"question": "How did Daumier usually work from his subjects?", "options": ["He drew them on the spot in sketchbooks", "He observed, then drew from memory in the studio", "He worked from photographs"], "answer": 1, "explanation": "He almost never drew in front of people and relied on memory."},
+    {"question": "What are the thin ruled lines visible in the window?", "options": ["A grid used to transfer and enlarge the composition", "Bars on the carriage window", "Cracks in the old paint"], "answer": 0, "explanation": "The squares let him copy an existing design onto the canvas."},
+    {"question": "What shape holds the family group together?", "options": ["A circle", "A row of vertical stripes", "A broad triangle topped by the grandmother's hood"], "answer": 2, "explanation": "The four figures fit in a triangle, a shape long used for holy families."},
+    {"question": "What landed Daumier in prison in 1832?", "options": ["An unpaid debt", "A caricature of the king", "Riding the train without a ticket"], "answer": 1, "explanation": "He showed King Louis-Philippe as a giant swallowing the nation's money."},
+    {"question": "What is the grandmother holding?", "options": ["A covered basket", "A sleeping baby", "A prayer book"], "answer": 0, "explanation": "Her hands are laced over the handle of a basket on her lap."},
+    {"question": "What divides the family from the other passengers?", "options": ["A curtain", "A conductor standing in the aisle", "The wooden back of a bench"], "answer": 2, "explanation": "A seat back runs across the car at mid-height, with the crowd behind it."}
+  ],
+  "facts": [
+    {"text": "This canvas is unfinished.", "isTrue": true, "explanation": "The paint is thin and the squaring grid is still visible."},
+    {"text": "Daumier made his living mainly by selling paintings.", "isTrue": false, "explanation": "He lived from newspaper cartoons and sold very few paintings."},
+    {"text": "The family in the foreground stares straight at the viewer.", "isTrue": false, "explanation": "None of them acknowledges us: the mother looks at her baby, the boy sleeps and the grandmother gazes into space."}
+  ]
+}

@@ -1,0 +1,305 @@
+{
+ "teaser": "Vermeer never sold it. His widow tried to hide it. Hitler bought it. What made it so hard to let go?",
+ "focus": [
+  0.5,
+  0.5
+ ],
+ "review_notes": "Dimensions about 120 x 100 cm. Date usually given as c. 1666-1668.\nModel as Clio following Cesare Ripa's Iconologia (laurel, trumpet, book).\nMap: Claes Jansz Visscher's map of the Seventeen Provinces; the vertical fold is clearly visible but its reading as the North/South political split is an interpretation.\nDouble-headed eagle on the chandelier as Habsburg emblem.\n1676: Catharina Bolnes transferred the painting to her mother Maria Thins; Antonie van Leeuwenhoek was the court-appointed trustee of the estate and contested this.\nVermeer died in 1675 aged 43, leaving eleven children, ten of them minors.\nCount Czernin bought it in 1813 for 50 florins as a Pieter de Hooch; identified as Vermeer by Thore-Burger in 1860.\nHitler bought it in 1940 for 1.65 million Reichsmarks; recovered from the Altaussee salt mine in 1945; in the Kunsthistorisches Museum since 1946; Austrian restitution panel advised against return in 2011.\nThe spot for the map fold is placed on the lighter vertical band visible in the reproduction.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "If you could keep only one thing you ever made, to show people what you are capable of, what would it be? For Johannes Vermeer, the answer seems to have been this canvas. He painted it around 1666 to 1668 and, as far as anyone knows, never sold it."
+  },
+  {
+   "type": "text",
+   "text": "That is remarkable for a man who was often short of money. He worked slowly, finishing perhaps two or three pictures a year, and he had a very large family to feed. Yet this one stayed on his own wall until he died."
+  },
+  {
+   "type": "text",
+   "text": "It is also one of his biggest: about 120 by 100 centimeters, or 47 by 39 inches. And the subject is his own trade. A painter sits at his easel. A young woman poses by the window. But she is not posing as herself."
+  },
+  {
+   "type": "tour",
+   "title": "Who is she playing?",
+   "text": "The model holds three props. Each one is a clue to her role.",
+   "spots": [
+    {
+     "x": 0.46,
+     "y": 0.42,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "A crown of leaves",
+     "text": "A wreath of laurel sits on her hair, painted blue-green. Since ancient times, laurel has been the crown of victors and poets: it stands for glory."
+    },
+    {
+     "x": 0.33,
+     "y": 0.5,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "A trumpet",
+     "text": "She holds a long, slim trumpet. In the picture language of the time, a trumpet announces fame, the way a herald announces a king."
+    },
+    {
+     "x": 0.44,
+     "y": 0.515,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A thick book",
+     "text": "A heavy yellow volume is pressed against her chest. It is a book of history, where great deeds are written down so they are not forgotten."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Laurel, trumpet, book: educated viewers knew this costume. She is Clio, the muse of history, one of the nine Greek goddesses who inspire the arts. Vermeer followed a popular handbook of symbols almost to the letter."
+  },
+  {
+   "type": "key",
+   "text": "The painter in the picture is painting History herself. Vermeer's claim is bold: painting is not a manual craft. It can carry a nation's memory and win lasting fame."
+  },
+  {
+   "type": "text",
+   "text": "Now look at what the painter has done so far. His canvas is nearly bare. He has sketched a few white lines and started with a single thing."
+  },
+  {
+   "type": "find",
+   "text": "Which part of the model has the painter already begun to paint on his canvas?",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.52,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The laurel wreath",
+     "text": "A few blue-green leaves float on the gray canvas, just above his hand. He begins with the crown of glory. His arm rests on a maulstick, a padded rod that steadies the brush hand."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "We never see his face. He wears a black beret and a doublet, a fitted jacket, slashed with ribbons in a fashion already out of date. Is it Vermeer? Many people like to think so. If it is, it is the only self-portrait he left, and he shows us the back of his head."
+  },
+  {
+   "type": "fact",
+   "text": "No portrait known for certain to show Vermeer exists, and not a single letter or diary by him survives. Almost everything known about his life comes from legal papers: baptisms, loans, inventories, burials."
+  },
+  {
+   "type": "text",
+   "text": "The room around the two figures is not neutral decoration either. The wall and the ceiling carry a second subject, the history of Vermeer's own country, the Netherlands."
+  },
+  {
+   "type": "tour",
+   "title": "A country on the wall",
+   "text": "The big map and the chandelier both speak of the past.",
+   "spots": [
+    {
+     "x": 0.67,
+     "y": 0.37,
+     "zoom": 1.9,
+     "r": 0.2,
+     "title": "The map",
+     "text": "It shows the Netherlands as seventeen provinces, north and south together. By the 1660s that was old news: the north had become an independent republic, the south stayed under Spanish rule."
+    },
+    {
+     "x": 0.68,
+     "y": 0.36,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "A fold in the paper",
+     "text": "A vertical ridge buckles the map and catches the light. Vermeer paints every wrinkle of the old sheet. Some scholars see the crease as the split between north and south.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.65,
+     "y": 0.08,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The eagle",
+     "text": "At the top of the brass chandelier sits a two-headed eagle, the emblem of the Habsburgs, the dynasty that once ruled all these lands. Notice that it holds no candles."
+    },
+    {
+     "x": 0.41,
+     "y": 0.33,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Little cities",
+     "text": "Down both sides of the map run small views of Dutch towns, each in its frame. Vermeer suggests them with dabs of gray and blue, yet they stay readable."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the picture has layers. On the surface, a studio. Beneath it, an argument: here is a painter, here is history, here is a country, and the first of these is what makes the others last."
+  },
+  {
+   "type": "fact",
+   "text": "The white tiles and the brass chandelier are a show of skill. Marble and polished metal were among the hardest things to imitate in oil paint. Vermeer builds the brass from thick dabs of yellow and white that only become metal at a distance."
+  },
+  {
+   "type": "text",
+   "text": "How does he get you inside? The room is deep, but it sits on a flat canvas. Vermeer uses an old stage trick, and then a few silent pointers."
+  },
+  {
+   "type": "lines",
+   "text": "Trace the route your eye takes into the studio.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.45,
+       0.0
+      ],
+      [
+       0.4,
+       0.3
+      ],
+      [
+       0.3,
+       0.6
+      ],
+      [
+       0.2,
+       0.85
+      ]
+     ],
+     "closed": false,
+     "label": "The curtain's edge",
+     "text": "A heavy tapestry is drawn aside like a theater curtain. A big dark object set at the front to push the rest back is called a repoussoir. It makes you feel you are peeking."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.93
+      ],
+      [
+       0.55,
+       0.83
+      ],
+      [
+       0.7,
+       0.75
+      ]
+     ],
+     "closed": false,
+     "label": "Chair to stool",
+     "text": "An empty chair waits in the near corner. From there the black-and-white tiles carry you diagonally to the painter's stool."
+    },
+    {
+     "points": [
+      [
+       0.72,
+       0.46
+      ],
+      [
+       0.47,
+       0.45
+      ]
+     ],
+     "closed": false,
+     "label": "The painter's look",
+     "text": "His head turns toward the model. Your eye follows his, and lands on the brightest spot in the room: her face and the blue of her dress."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Vermeer died in December 1675, aged 43, deep in debt, leaving a wife and eleven children. What happened next shows how much the family valued this canvas."
+  },
+  {
+   "type": "fact",
+   "text": "To keep the painting from the creditors, his widow Catharina signed it over to her own mother in 1676. The trustee of the bankrupt estate objected. He was Antonie van Leeuwenhoek, the Delft cloth merchant now famous as a pioneer of the microscope."
+  },
+  {
+   "type": "text",
+   "text": "The picture was sold anyway, and Vermeer's name slid into obscurity. In 1813 an Austrian count bought it for just 50 florins, believing it was by another Delft painter, Pieter de Hooch. Only in 1860 did a French critic recognize it as a Vermeer."
+  },
+  {
+   "type": "fact",
+   "text": "In 1940 Adolf Hitler bought it for 1.65 million Reichsmarks for the museum he planned to build. At the end of the war it was found in a salt mine in the Austrian Alps, stored with thousands of other works. It has been in Vienna's Kunsthistorisches Museum since 1946."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the opening question. Vermeer kept the one painting in which a painter crowns his own art with laurel. Fame did come, about two centuries late. The man at the easel still has not turned around."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which figure is the model dressed as?",
+   "options": [
+    "Venus, goddess of love",
+    "Clio, the muse of history",
+    "The Virgin Mary"
+   ],
+   "answer": 1,
+   "explanation": "Her laurel wreath, trumpet and book are the attributes of Clio."
+  },
+  {
+   "question": "What has the painter in the picture painted so far?",
+   "options": [
+    "The laurel wreath",
+    "The model's face",
+    "The map"
+   ],
+   "answer": 0,
+   "explanation": "A few blue-green leaves are all that appear on his canvas."
+  },
+  {
+   "question": "What sits at the top of the chandelier?",
+   "options": [
+    "A lion",
+    "A crescent moon",
+    "A two-headed eagle"
+   ],
+   "answer": 2,
+   "explanation": "It is the emblem of the Habsburgs, former rulers of the Netherlands."
+  },
+  {
+   "question": "What is a repoussoir?",
+   "options": [
+    "A large dark object in the foreground that pushes the rest of the scene back",
+    "A brush for fine details",
+    "A kind of blue pigment"
+   ],
+   "answer": 0,
+   "explanation": "Here the heavy curtain plays that role."
+  },
+  {
+   "question": "Who objected when Vermeer's widow signed the painting over to her mother?",
+   "options": [
+    "The king of Spain",
+    "Pieter de Hooch",
+    "Antonie van Leeuwenhoek, trustee of the estate"
+   ],
+   "answer": 2,
+   "explanation": "The microscope pioneer was in charge of the bankrupt estate."
+  },
+  {
+   "question": "Under whose name was the painting sold in 1813?",
+   "options": [
+    "Rembrandt",
+    "Pieter de Hooch",
+    "Rubens"
+   ],
+   "answer": 1,
+   "explanation": "It was thought to be by De Hooch until 1860."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Vermeer sold The Art of Painting soon after finishing it.",
+   "isTrue": false,
+   "explanation": "He kept it until his death in 1675."
+  },
+  {
+   "text": "The map on the wall shows a political situation that was already out of date.",
+   "isTrue": true,
+   "explanation": "It shows seventeen united provinces, though the north had become independent."
+  },
+  {
+   "text": "The painter in the picture looks straight out at the viewer.",
+   "isTrue": false,
+   "explanation": "He is seen from behind, and we never see his face."
+  }
+ ]
+}

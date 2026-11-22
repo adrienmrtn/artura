@@ -1,0 +1,336 @@
+{
+ "teaser": "Three meters of flawless skin, painted to win over the toughest wall in Paris.",
+ "focus": [
+  0.47,
+  0.42
+ ],
+ "review_notes": "Size given as 300 x 215 cm.\nBought by the French state from the 1879 Salon for the Musée du Luxembourg: check.\nHuysmans's criticism is paraphrased (soft, boneless flesh), not quoted: check wording.\nDegas's circle using the word “bouguereauté” for over-smooth finish: commonly reported.\nCount of 822 known paintings: commonly cited figure.\nIngres's Venus Anadyomene and Raphael's Triumph of Galatea named as sources: standard comparison.\nMusée d'Orsay opened in 1986.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Picture a hall in Paris in May 1879, with thousands of paintings stacked frame against frame from the floor to the ceiling. This is the Salon, the giant yearly exhibition run by the French art establishment. A canvas hung high in a corner is as good as invisible. This one was built so that could never happen to it."
+  },
+  {
+   "type": "text",
+   "text": "It stands 3 meters tall and more than 2 wide (about 10 by 7 feet). The goddess is larger than you are. William-Adolphe Bouguereau was 53, the most decorated painter in France, and he knew exactly what the Salon rewarded: a famous myth, a huge format, and a nude so polished that no one could find a fault in it."
+  },
+  {
+   "type": "text",
+   "text": "The title is a little misleading. In the myth, Venus, goddess of love, rises from the sea foam already an adult. What you see here is the moment after: she rides a shell toward the shore while sea creatures and winged children gather to welcome her. Nobody is being born. Everybody is staring."
+  },
+  {
+   "type": "lines",
+   "text": "Fifteen or so bodies, and yet your eye never gets lost. Here is how the crowd is organized.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.49,
+       0.3
+      ],
+      [
+       0.44,
+       0.44
+      ],
+      [
+       0.47,
+       0.55
+      ],
+      [
+       0.44,
+       0.67
+      ],
+      [
+       0.42,
+       0.79
+      ]
+     ],
+     "closed": false,
+     "label": "The S-curve",
+     "text": "Venus puts her weight on one leg, so her hips tilt one way and her shoulders the other. The pose comes from ancient Greek statues and makes a standing body look alive rather than stiff."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.5
+      ],
+      [
+       0.47,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "A gaze from the left",
+     "text": "The bearded sea creature and his companion turn their heads up toward her face."
+    },
+    {
+     "points": [
+      [
+       0.63,
+       0.67
+      ],
+      [
+       0.47,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "A gaze from below",
+     "text": "The winged child on the dolphin tips his head all the way back. Nearly every look in the picture lands on the same spot."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.03
+      ],
+      [
+       0.85,
+       0.25
+      ],
+      [
+       0.95,
+       0.62
+      ],
+      [
+       0.75,
+       0.95
+      ],
+      [
+       0.25,
+       0.97
+      ],
+      [
+       0.03,
+       0.62
+      ],
+      [
+       0.12,
+       0.4
+      ],
+      [
+       0.3,
+       0.12
+      ]
+     ],
+     "closed": true,
+     "label": "The ring",
+     "text": "Figures in the sky and in the water form a wreath around her. The middle is left almost empty, so her pale body stands alone against the sky."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "And she is the only one who looks at nobody. Her eyes are lowered, her arms raised to gather her hair. Bouguereau borrowed this arrangement from older heroes of his: the lifted arms recall a Venus by Ingres, and the ring of sea folk and flying cupids echoes a fresco by Raphael. For an academic painter, quoting the greats was a way of showing you belonged with them."
+  },
+  {
+   "type": "fact",
+   "text": "Bouguereau worked from early morning until the light failed, nearly every day, for more than fifty years. Around 822 finished paintings by him are known today."
+  },
+  {
+   "type": "text",
+   "text": "“Academic” is the word for this kind of art. It means painting as taught by the official academies: years of drawing from plaster casts and live models, noble subjects from myth or history, and a surface so smooth that the brush seems never to have touched it. Zoom in on her skin and you will search in vain for a stroke."
+  },
+  {
+   "type": "find",
+   "text": "A shell cannot cross the sea on its own. Something is towing Venus toward land. Can you spot the animal?",
+   "spots": [
+    {
+     "x": 0.7,
+     "y": 0.86,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "The dolphin",
+     "text": "A dark dolphin swims at the bottom right, ridden by two winged children. One of them holds a thin red line: a rein. The dolphin is an old companion of Venus in ancient art."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That dark, wet back is doing a second job. Set next to it, the children's bodies and the goddess's legs look even paler and warmer. Bouguereau spreads his darks around the edges, hair, a tanned shoulder, the dolphin, to make the center glow like porcelain."
+  },
+  {
+   "type": "tour",
+   "title": "The welcoming party",
+   "text": "The crowd is a catalog of mythological creatures. Three stops.",
+   "spots": [
+    {
+     "x": 0.66,
+     "y": 0.47,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The conch blower",
+     "text": "A sunburned sea creature puffs his cheeks into a big spiral shell, used as a horn. He announces her arrival. His dark skin sits right beside the nymph's pale shoulder."
+    },
+    {
+     "x": 0.42,
+     "y": 0.79,
+     "zoom": 2.6,
+     "r": 0.13,
+     "title": "The shell",
+     "text": "A wide scallop shell, pearly white inside, serves as her boat. Her feet barely press on it. She seems to weigh nothing at all."
+    },
+    {
+     "x": 0.62,
+     "y": 0.2,
+     "zoom": 2.0,
+     "r": 0.2,
+     "title": "The putti",
+     "text": "Putti are the plump winged children of love. They tumble through the sky in a chain. The farthest ones turn bluish and pale: a trick to make them look far away."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The verdict of the Salon was split. The French state bought the canvas for the Luxembourg Museum in Paris, the national showcase for living artists. Buyers adored him. Some critics did not: the novelist Huysmans mocked this very Venus for flesh he found soft and boneless, more like inflated rubber than a woman."
+  },
+  {
+   "type": "fact",
+   "text": "Painters around Degas invented a mocking word, “bouguereauté”, for any surface that looked too slick and too finished."
+  },
+  {
+   "type": "text",
+   "text": "Remember the date. In 1879 Monet, Renoir and Degas were holding their fourth Impressionist exhibition a few streets away, with quick visible strokes and scenes of modern life. To them, Bouguereau was the gatekeeper: he sat on the Salon jury and helped keep their kind of painting out."
+  },
+  {
+   "type": "key",
+   "text": "This picture is the official taste of its day at full strength: a classical myth, perfect drawing, and a finish with no trace of the hand. The Impressionists defined themselves against exactly this."
+  },
+  {
+   "type": "text",
+   "text": "History took their side for a long time. After Bouguereau died in 1905, his name became shorthand for empty skill, and museums put his canvases in storage. The mood only began to turn in the late twentieth century."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.31,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "Lowered eyes",
+     "text": "Her face tilts onto her arm, eyes almost closed. She seems unaware of the crowd, which lets you look without being looked at."
+    },
+    {
+     "x": 0.35,
+     "y": 0.55,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "The hair",
+     "text": "Red-brown hair falls to her knees. It frames the pale body with a warm dark edge on one side.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.18,
+     "y": 0.58,
+     "zoom": 2.0,
+     "r": 0.17,
+     "title": "Couple on the left",
+     "text": "A woman seen from behind clings to a bearded sea creature. Her back gives you a second nude from the opposite angle."
+    },
+    {
+     "x": 0.15,
+     "y": 0.8,
+     "zoom": 2.2,
+     "r": 0.15,
+     "title": "The pink conch",
+     "text": "A muscular swimmer lifts a shell to his lips, with his back turned to you. He draws you into the water with him."
+    },
+    {
+     "x": 0.87,
+     "y": 0.24,
+     "zoom": 3.0,
+     "r": 0.06,
+     "title": "The arrows",
+     "text": "One flying child waves a pair of arrows. They are the weapons of Cupid, son of Venus, which make people fall in love."
+    },
+    {
+     "x": 0.1,
+     "y": 0.45,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "Ghostly cherubs",
+     "text": "These three almost dissolve into the mist. Fading color with distance is called atmospheric perspective."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "When the Musée d'Orsay opened in a former Paris train station in 1986, it hung academic stars like Bouguereau in the same building as the Impressionists he had once kept out of the Salon."
+  },
+  {
+   "type": "text",
+   "text": "So the canvas found a wall after all, across the river from where it began. Visitors still stop in front of it, some charmed, some irritated. Which are you?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was the Salon?",
+   "options": [
+    "A private shop owned by Bouguereau",
+    "The big official art exhibition held in Paris",
+    "A room in the Louvre for ancient statues"
+   ],
+   "answer": 1,
+   "explanation": "The Salon was the huge yearly exhibition run by the French art establishment."
+  },
+  {
+   "question": "What does the scene actually show?",
+   "options": [
+    "Venus carried toward the shore after her birth",
+    "Venus as a newborn baby",
+    "Venus leaving the earth for the sky"
+   ],
+   "answer": 0,
+   "explanation": "She rose from the foam already adult; here she rides her shell to land."
+  },
+  {
+   "question": "What animal tows the shell?",
+   "options": [
+    "A swan",
+    "A sea horse",
+    "A dolphin"
+   ],
+   "answer": 2,
+   "explanation": "A dark dolphin, ridden by two winged children, swims at the bottom right."
+  },
+  {
+   "question": "What did “bouguereauté” mock?",
+   "options": [
+    "Paintings that were too dark",
+    "A surface that looked too slick and finished",
+    "Canvases that were too small"
+   ],
+   "answer": 1,
+   "explanation": "Painters around Degas used the word for an over-polished finish."
+  },
+  {
+   "question": "Why did the Impressionists resent Bouguereau?",
+   "options": [
+    "He copied their pictures",
+    "He refused to paint myths",
+    "He sat on the Salon jury that kept their work out"
+   ],
+   "answer": 2,
+   "explanation": "As a jury member he helped keep their kind of painting out of the Salon."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting is about 3 meters (10 feet) tall.",
+   "isTrue": true,
+   "explanation": "It was made big enough to dominate a crowded Salon wall."
+  },
+  {
+   "text": "In the picture, Venus looks straight out at the viewer.",
+   "isTrue": false,
+   "explanation": "Her eyes are lowered; she is the only figure who looks at nobody."
+  },
+  {
+   "text": "The French state bought the painting for a museum of living artists.",
+   "isTrue": true,
+   "explanation": "It went to the Luxembourg Museum in Paris."
+  }
+ ]
+}

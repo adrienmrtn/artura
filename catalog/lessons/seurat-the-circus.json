@@ -1,0 +1,325 @@
+{
+ "teaser": "Seurat hung this painting unfinished. Days later, he was dead.",
+ "focus": [
+  0.5,
+  0.4
+ ],
+ "review_notes": "Seurat died 29 March 1891 aged 31, while the painting was on show at the Salon des Indépendants; cause of death uncertain.\nCirque Fernando (later Medrano), near his studio in Montmartre.\nInfluence of Jules Chéret's posters.\nSeurat painted the dark blue border and a flat blue frame himself.\nSignac owned it, sold it to John Quinn (1923) on the understanding it would go to the Louvre; Quinn died 1924. Now Musée d'Orsay.\nHis companion Madeleine Knobloch and their son were unknown to his family until shortly before his death.\nSize about 185 x 152 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "31. That is the age at which Georges Seurat died, in March 1891, after an illness of only a few days. This painting was hanging in an exhibition at that very moment, still unfinished. It is the last thing he showed the world."
+  },
+  {
+   "type": "text",
+   "text": "The subject is as cheerful as his end was brutal. A bareback rider balances on a galloping white horse, an acrobat flips behind her, a ringmaster cracks his whip. The place was the Cirque Fernando, a famous circus a short walk from Seurat's studio in Montmartre."
+  },
+  {
+   "type": "text",
+   "text": "What do you notice first: the yellow, or the fact that almost every shape points upward? Seurat was following the ideas of the scientist Charles Henry, who argued that rising lines and warm colors produce joy in the viewer, the way a smile turns up at the corners."
+  },
+  {
+   "type": "lines",
+   "text": "Follow the lines that make the picture smile.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.44,
+       0.21
+      ],
+      [
+       0.53,
+       0.3
+      ],
+      [
+       0.65,
+       0.26
+      ]
+     ],
+     "closed": false,
+     "label": "The rider's arms",
+     "text": "Her arms open in a V, and her hair flicks up in a little flame. Even her skirt ends in upturned points."
+    },
+    {
+     "points": [
+      [
+       0.03,
+       0.77
+      ],
+      [
+       0.3,
+       0.68
+      ],
+      [
+       0.55,
+       0.62
+      ],
+      [
+       0.86,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The ring",
+     "text": "The edge of the ring sweeps in one great curve from lower left to the right. The horse seems flung along it."
+    },
+    {
+     "points": [
+      [
+       0.31,
+       0.72
+      ],
+      [
+       0.36,
+       0.68
+      ],
+      [
+       0.44,
+       0.74
+      ],
+      [
+       0.5,
+       0.71
+      ]
+     ],
+     "closed": false,
+     "label": "The clown's hair",
+     "text": "In the foreground, the clown's red wig splits into rising horns. The same upturned shape returns in mustaches, hat brims and eyebrows across the picture."
+    },
+    {
+     "points": [
+      [
+       0.03,
+       0.3
+      ],
+      [
+       0.66,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The benches",
+     "text": "Behind all that movement, the seating runs in dead straight horizontal bands. The audience is the still part, the ring is the spinning part."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "For Seurat, joy could be drawn: lines that rise, warm colors, bright tones. The Circus is a demonstration of that idea."
+  },
+  {
+   "type": "text",
+   "text": "He borrowed more than theory. The flat, springy figures owe a lot to the color posters of Jules Chéret, which covered the walls of Paris and advertised exactly this kind of show. Seurat collected them. The rider could have leapt straight off a billboard."
+  },
+  {
+   "type": "fact",
+   "text": "Seurat allowed himself very few colors here: white, plus red, yellow and blue, laid down in small separate touches. The orange of the clown's hair and the violet shadows are made by placing those touches side by side."
+  },
+  {
+   "type": "text",
+   "text": "Now turn to the people watching. The benches are not just a backdrop. In a Paris circus, where you sat said who you were, and Seurat stacked the audience by price like floors of a building."
+  },
+  {
+   "type": "tour",
+   "title": "Three price ranges",
+   "text": "Climb the stands from the best seats to the worst.",
+   "spots": [
+    {
+     "x": 0.32,
+     "y": 0.4,
+     "zoom": 2.3,
+     "r": 0.16,
+     "title": "Front rows",
+     "text": "Top hat, fur collars, little girls in bonnets. The wealthy sit close to the ring, upright and well behaved."
+    },
+    {
+     "x": 0.42,
+     "y": 0.2,
+     "zoom": 2.3,
+     "r": 0.17,
+     "title": "The middle",
+     "text": "Higher up, plainer coats and hats. People sit farther apart, hands folded, stiff as dolls."
+    },
+    {
+     "x": 0.13,
+     "y": 0.045,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The cheap seats",
+     "text": "At the very top, workers in caps lean on the rail with their chins on their arms. They are the only spectators who look relaxed."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Once you have seen those rows, the circus stops being pure fun. The performers fly, but the public is pinned in place, sorted by money. Seurat mixed with anarchist writers and artists, and his pictures of leisure often carry this cool social observation."
+  },
+  {
+   "type": "fact",
+   "text": "Almost nobody knew that Seurat had a family. He kept his companion, Madeleine Knobloch, and their baby son hidden from his own mother until the last days of his life."
+  },
+  {
+   "type": "text",
+   "text": "There is music in this scene, too. A circus act needed an orchestra to set the rhythm of the gallop. Seurat tucked the players into a corner where most visitors never look."
+  },
+  {
+   "type": "find",
+   "text": "Where is the orchestra?",
+   "spots": [
+    {
+     "x": 0.83,
+     "y": 0.065,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The musicians",
+     "text": "Top right, on a balcony above the performers' entrance: a few players bent over their instruments, sketched in blue and orange dots."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The big clown at the bottom is the strangest figure of all. We see only his back. He holds a yellow curtain in his raised hand, as if he had just pulled it open to reveal the ring to us. The whole show becomes something he presents, or perhaps something he controls."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.74,
+     "y": 0.85,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The hand on the curtain",
+     "text": "The clown grips a sweep of yellow cloth. It makes us spectators twice over: we watch him unveil the act."
+    },
+    {
+     "x": 0.72,
+     "y": 0.44,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "The tumbler",
+     "text": "An acrobat in yellow, caught upside down in mid somersault. His body repeats the diagonal of the rider's leg."
+    },
+    {
+     "x": 0.9,
+     "y": 0.58,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "The ringmaster",
+     "text": "Tailcoat, pointed mustache, whip in hand. He is drawn like a caricature, all sharp angles.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.3,
+     "y": 0.58,
+     "zoom": 2,
+     "r": 0.2,
+     "title": "The white horse",
+     "text": "Legs stretched front and back in a gallop no real horse performs. Speed is suggested by the pose, not by blur."
+    },
+    {
+     "x": 0.47,
+     "y": 0.67,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The whip's trace",
+     "text": "A pale squiggle on the sand. It reads as the lash of the ringmaster's whip, a line of pure movement."
+    },
+    {
+     "x": 0.02,
+     "y": 0.5,
+     "zoom": 2.5,
+     "r": 0.05,
+     "title": "The blue border",
+     "text": "Seurat painted this dark dotted band himself, and a blue frame beyond it. Deep blue makes the yellows and oranges inside look more luminous.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.84,
+     "y": 0.5,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Clowns and staff",
+     "text": "Two small clowns grin behind the ringmaster, and uniformed circus hands line the entrance, waiting for the next act."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "After Seurat's death his friend Paul Signac kept the painting for decades. He finally sold it to the American collector John Quinn on the understanding that it would one day go to the Louvre. Quinn kept his word, and the picture now hangs in the Musée d'Orsay in Paris."
+  },
+  {
+   "type": "text",
+   "text": "Seurat's career lasted barely ten years. He left only a handful of large figure paintings, and this is the final one. Some areas remained thinner and paler than he intended. We will never know how much more he meant to add to it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How old was Seurat when he died?",
+   "options": [
+    "31",
+    "45",
+    "58"
+   ],
+   "answer": 0,
+   "explanation": "He died in March 1891 at 31, while this painting was on show."
+  },
+  {
+   "question": "According to the theory Seurat followed, what do rising lines express?",
+   "options": [
+    "Sadness",
+    "Calm",
+    "Joy"
+   ],
+   "answer": 2,
+   "explanation": "Rising lines and warm colors were thought to produce gaiety."
+  },
+  {
+   "question": "What popular art form influenced the flat, lively figures?",
+   "options": [
+    "Stained glass",
+    "Jules Chéret's posters",
+    "Photography"
+   ],
+   "answer": 1,
+   "explanation": "Seurat collected Chéret's color posters advertising shows."
+  },
+  {
+   "question": "Who sits at the very top of the stands?",
+   "options": [
+    "Workers in caps, leaning on the rail",
+    "Aristocrats in top hats",
+    "The orchestra"
+   ],
+   "answer": 0,
+   "explanation": "The cheapest seats are at the top, and their occupants lounge on the rail."
+  },
+  {
+   "question": "What does the foreground clown hold in his raised hand?",
+   "options": [
+    "A whip",
+    "A yellow curtain",
+    "A trumpet"
+   ],
+   "answer": 1,
+   "explanation": "He pulls a curtain aside as if revealing the ring to us."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Circus was completely finished when Seurat exhibited it.",
+   "isTrue": false,
+   "explanation": "He showed it unfinished and died a few days later."
+  },
+  {
+   "text": "Seurat painted the dark blue border around the scene himself.",
+   "isTrue": true,
+   "explanation": "The dotted blue band, and a blue frame, were his own additions."
+  },
+  {
+   "text": "The painting uses a wide range of earth browns and blacks.",
+   "isTrue": false,
+   "explanation": "Seurat limited himself to white, red, yellow and blue touches."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+  "teaser": "Painted by a bankrupt widower in his sixties: the gentlest touch in Dutch art.",
+  "focus": [0.5, 0.45],
+  "review_notes": "Rijksmuseum dates the painting about 1665-1669; catalog year given is 1667.\nRembrandt's insolvency 1656, sale of house and collection, move to the Rozengracht; Hendrickje Stoffels died 1663; Titus died 1668; Rembrandt died 1669 and was buried in a rented, unmarked grave in the Westerkerk.\nTitle comes from an early 19th-century reading (associated with the Amsterdam collector Adriaan van der Hoop) of a Jewish father giving his daughter a necklace on her wedding day.\nIsaac and Rebecca identification, supported by a Rembrandt drawing of the couple spied on by Abimelech; possibly a real couple portrayed in those roles.\nVan Gogh's remark (1885, reported by his friend Anton Kerssemakers) is paraphrased, not quoted.\nUse of a palette knife on the sleeve.\nVan der Hoop bequest to the city of Amsterdam 1854; in the Rijksmuseum since 1885.\nSize about 121.5 x 166.5 cm.",
+  "lesson": [
+    {"type": "text", "text": "By the mid 1660s Rembrandt had lost almost everything a successful man can lose. He had gone bankrupt in 1656. His grand house and his art collection had been sold off, and he lived in a rented house in a modest part of Amsterdam. Hendrickje, his companion of many years, died in 1663. His only surviving son, Titus, would die in 1668."},
+    {"type": "text", "text": "Fashion had left him too. Dutch buyers now wanted smooth, bright, finely finished pictures. Rembrandt, around sixty, was going the other way, toward darker rooms and rougher paint. Out of those years came this canvas, about a man and a woman and the space of a hand between them."},
+    {"type": "text", "text": "It is a wide picture, about 1.2 by 1.7 meters (4 by 5.5 feet), so the couple is close to life-size. They stand before a dim wall and some barely visible greenery. There is no action and no furniture. Everything that happens, happens in three hands."},
+    {"type": "tour", "title": "Three hands", "text": "Start at the center, where the gold sleeve ends.", "spots": [
+      {"x": 0.51, "y": 0.535, "zoom": 3.2, "r": 0.07, "title": "His hand", "text": "His right hand lies flat on her chest, over her heart. The fingers are spread and relaxed. It does not grip or claim. It rests."},
+      {"x": 0.57, "y": 0.58, "zoom": 3.6, "r": 0.06, "title": "Her answer", "text": "Her left hand comes up to meet his. Only her fingertips touch the back of his hand, as lightly as you would touch something you do not want to disturb."},
+      {"x": 0.55, "y": 0.74, "zoom": 3.2, "r": 0.07, "title": "Her other hand", "text": "Her right hand lies low on her red dress, rings on the fingers, bracelets at the wrist. Some viewers see in it a hint of a child to come. Rembrandt does not say."}
+    ]},
+    {"type": "text", "text": "A touch, and a touch in reply. Portraits of couples at the time were stiff affairs: husband on one canvas, wife on another, each looking at the painter. Here two people are caught in a gesture so private that you feel you have opened a door without knocking."},
+    {"type": "fact", "text": "Rembrandt never called it “The Jewish Bride”. The name stuck in the early 1800s, when an Amsterdam collector decided it showed a Jewish father hanging a necklace on his daughter on her wedding day. Nobody believes that reading now."},
+    {"type": "text", "text": "The likeliest subject is Isaac and Rebecca, from the Book of Genesis. Living in a foreign land, they pretended to be brother and sister for safety, until the king glimpsed them embracing and understood. A drawing by Rembrandt shows that very scene. A real Amsterdam couple may have posed in those roles."},
+    {"type": "find", "text": "The man has two hands, and you have seen only one. Where is the other?", "spots": [
+      {"x": 0.665, "y": 0.39, "zoom": 3.4, "r": 0.06, "title": "On her shoulder", "text": "His left arm passes behind her, and the fingers reappear on her far shoulder. It is easy to miss in the shadow, and it means she is completely held."}
+    ]},
+    {"type": "text", "text": "So his arms close a full circle around her. You would expect their eyes to meet as well. They do not, and that is the oddest and most moving choice in the painting."},
+    {"type": "lines", "text": "Trace the embrace, then the two gazes.", "lines": [
+      {"points": [[0.36, 0.33], [0.4, 0.5], [0.52, 0.54], [0.58, 0.58], [0.68, 0.6], [0.67, 0.39], [0.55, 0.32], [0.43, 0.27]], "closed": true, "label": "The circle", "text": "Shoulder, golden sleeve, his hand, her hand, her arm, his hidden hand, and back. The two bodies are tied into one closed loop."},
+      {"points": [[0.41, 0.17], [0.5, 0.42]], "closed": false, "label": "His gaze", "text": "He leans his head toward her and looks down, toward her but not into her face. His expression is careful, almost shy."},
+      {"points": [[0.53, 0.26], [0.42, 0.42]], "closed": false, "label": "Her gaze", "text": "Her eyes drift down and away, past him, at nothing we can see. She is thinking, and she is somewhere inside herself."}
+    ]},
+    {"type": "text", "text": "Bodies joined, thoughts apart. That gap is why the picture feels true and not sugary. Each of them is feeling the touch privately. Rembrandt paints tenderness as trust between two separate people, with no show of passion."},
+    {"type": "key", "text": "The subject of this painting is a gesture. Rembrandt strips away story, setting and eye contact until only the meeting of hands is left to carry the meaning."},
+    {"type": "text", "text": "Then there is the paint itself, which startled people then and still does. Rembrandt lays it on in thick lumps and ridges, a technique called impasto: paint so heavy that it stands up from the canvas and casts tiny shadows. On the man's sleeve he seems to have used a palette knife, the flat blade painters mix colors with."},
+    {"type": "tour", "title": "Paint you could touch", "text": "Three surfaces, three ways of handling paint.", "spots": [
+      {"x": 0.33, "y": 0.47, "zoom": 2.8, "r": 0.13, "title": "The gold sleeve", "text": "Slabs of yellow, ocher and white, pressed on and scraped. Up close it is a crust of paint. Step back and it turns into heavy pleated cloth shot with gold thread."},
+      {"x": 0.62, "y": 0.87, "zoom": 2.2, "r": 0.16, "title": "The red skirt", "text": "A field of warm red, built in layers with thin glazes, transparent films of color, on top. Scratched and dragged strokes suggest embroidery without drawing a single stitch."},
+      {"x": 0.55, "y": 0.385, "zoom": 3.6, "r": 0.07, "title": "The pearls", "text": "Each pearl of the necklace is a single thick dab with a bright point. More dabs make the earrings and the jewels in her hair. They glitter because the paint itself catches real light."}
+    ]},
+    {"type": "text", "text": "This is why the picture has to be seen in person, if you ever can. Light in the room rakes across the ridges and the sleeve really does shine. Rembrandt is half painter here, half sculptor, modeling cloth and jewelry in relief."},
+    {"type": "fact", "text": "In 1885 Vincent van Gogh stood in front of this painting with a friend, who later recalled him saying he would gladly give ten years of his life to sit before it for two weeks with only a crust of bread to eat."},
+    {"type": "text", "text": "Van Gogh saw it in the brand-new Rijksmuseum, which had opened that year. The painting had belonged to Adriaan van der Hoop, an Amsterdam banker, who left his collection to the city in 1854. It has been one of the museum's best-loved works ever since."},
+    {"type": "fact", "text": "Rembrandt died in 1669, a few years at most after finishing this canvas. He was buried in a rented grave in Amsterdam's Westerkerk, with no stone. Its exact spot is unknown."},
+    {"type": "explore", "spots": [
+      {"x": 0.41, "y": 0.19, "zoom": 3, "r": 0.08, "title": "His face", "text": "Long curling hair, a thin mustache, a dark cap. The skin is painted in broken patches, and the look is gentle and a little anxious."},
+      {"x": 0.525, "y": 0.26, "zoom": 3, "r": 0.08, "title": "Her face", "text": "Flushed cheeks, lowered eyelids, the start of a smile. Jewels glint in her hair and a pearl drop hangs at her ear."},
+      {"x": 0.53, "y": 0.55, "zoom": 2.8, "r": 0.1, "title": "Where hands meet", "text": "The center of the canvas and of the story. His skin is ruddy and thickly painted, hers paler and smoother."},
+      {"x": 0.68, "y": 0.62, "zoom": 2.8, "r": 0.09, "title": "Her sleeve", "text": "A puff of creamy white and gold over a jeweled cuff, painted with quick, curling strokes. It answers the great gold sleeve on the other side."},
+      {"x": 0.88, "y": 0.3, "zoom": 2, "r": 0.12, "title": "The dark garden", "text": "On the right, leaves and what may be a large pot of plants emerge from brown shadow. Rembrandt keeps the setting vague so nothing competes with the couple."}
+    ]},
+    {"type": "text", "text": "Go back to where this began: a man who had buried the people he loved, working in a rented room, out of favor. He could have painted bitterness. He painted a hand laid on a heart, and another hand saying yes."}
+  ],
+  "quiz": [
+    {"question": "What was Rembrandt's situation when he painted this?", "options": ["He was rich and at the height of fashion", "He was bankrupt, widowed and out of fashion", "He was a young apprentice"], "answer": 1, "explanation": "He had gone bankrupt in 1656 and lost Hendrickje in 1663."},
+    {"question": "Where does the title “The Jewish Bride” come from?", "options": ["A collector's guess in the early 1800s", "Rembrandt's own inscription", "The Book of Genesis"], "answer": 0, "explanation": "A collector thought it showed a Jewish father and his daughter on her wedding day."},
+    {"question": "Which biblical couple do most scholars now see here?", "options": ["Adam and Eve", "Samson and Delilah", "Isaac and Rebecca"], "answer": 2, "explanation": "A Rembrandt drawing of Isaac and Rebecca embracing supports this reading."},
+    {"question": "What is impasto?", "options": ["A thin transparent wash", "Paint applied so thickly it stands up from the canvas", "A drawing made before painting"], "answer": 1, "explanation": "The gold sleeve is built from thick ridges of paint that catch real light."},
+    {"question": "Do the man and woman look into each other's eyes?", "options": ["Yes, intensely", "Only she looks at him", "No, both look elsewhere"], "answer": 2, "explanation": "He looks down toward her, she gazes away, each lost in thought."},
+    {"question": "Which later painter said he would give ten years of his life to sit before it?", "options": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet"], "answer": 0, "explanation": "Van Gogh saw it at the Rijksmuseum in 1885."}
+  ],
+  "facts": [
+    {"text": "The man's second hand rests on the woman's shoulder.", "isTrue": true, "explanation": "His left arm passes behind her and his fingers appear on her far shoulder."},
+    {"text": "Rembrandt gave the painting its famous title himself.", "isTrue": false, "explanation": "The name dates from the early 1800s, long after his death."},
+    {"text": "The gold sleeve is painted in thin, perfectly smooth layers.", "isTrue": false, "explanation": "It is thick impasto, probably applied in part with a palette knife."}
+  ]
+}

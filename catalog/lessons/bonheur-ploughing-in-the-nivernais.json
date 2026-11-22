@@ -1,0 +1,43 @@
+{
+  "teaser": "Twelve oxen, four men, and one animal that turns its eye on you.",
+  "focus": [0.62, 0.55],
+  "review_notes": "Childhood: expelled from schools and failed seamstress apprenticeship (standard biography, wording kept general).\nState commission for 3,000 francs after her 1848 Salon medal; originally destined for the Lyon museum but kept in Paris at the Musée du Luxembourg: please confirm.\nLink to George Sand's novel The Devil's Pool (1846) is a common suggestion, worded as likely.\nFather Raymond Bonheur died in March 1849, shortly before the Salon.",
+  "lesson": [
+    {"type": "text", "text": "Rosa Bonheur was a hopeless schoolgirl. She was sent home from one school after another, and when her family tried to make her a seamstress at twelve, that failed too. Her father, a drawing teacher, gave up and let her do the only thing she wanted: draw animals, all day, in his studio."},
+    {"type": "text", "text": "No art academy in France would have taken her anyway. The official school in Paris did not admit women. So she trained on her own terms: copying in the Louvre, sketching in fields and markets, keeping sheep and goats at home, and studying anatomy in slaughterhouses."},
+    {"type": "text", "text": "By 26 it had paid off. A medal at the Salon of 1848 brought her first commission from the French state: 3,000 francs for a ploughing scene. She spent the following winter in the Nivernais, a farming region in the center of France, drawing its cattle in the fields."},
+    {"type": "fact", "text": "The subject probably came from a book. In 1846 the novelist George Sand had opened The Devil's Pool with a long, admiring description of oxen ploughing a field. Bonheur was a devoted reader of Sand."},
+    {"type": "text", "text": "The work shown is the first ploughing of autumn, when the soil is turned over and left open to the air through winter. Two teams of six oxen drag the ploughs up a gentle slope. Before reading on, watch how slowly the picture moves."},
+    {"type": "lines", "text": "A few simple directions carry the whole scene.", "lines": [
+      {"points": [[0.05, 0.68], [0.4, 0.61], [0.88, 0.5]], "closed": false, "label": "The climb", "text": "The backs of the animals form a line that rises steadily from left to right. You feel the weight of going uphill without seeing a hill."},
+      {"points": [[0.0, 0.72], [1.0, 0.72]], "closed": false, "label": "Earth and sky", "text": "Above this line, nearly everything is calm blue air. Below it, heavy brown clods. More than half the canvas is given to sky."},
+      {"points": [[0.615, 0.5], [0.71, 0.39]], "closed": false, "label": "The goad", "text": "The driver's long stick is the only sharp diagonal in the painting, and the only gesture of force."}
+    ]},
+    {"type": "text", "text": "That raised stick matters. The men here are small, half hidden behind the cattle, their faces lost under hat brims. The oxen get the sunlight, the detail and the front row. Bonheur painted farm labor, but the heroes are the ones pulling."},
+    {"type": "tour", "title": "Three kinds of matter", "text": "Hide, iron and soil, each with its own way of being painted.", "spots": [
+      {"x": 0.87, "y": 0.53, "zoom": 2.8, "r": 0.09, "title": "The lead pair", "text": "Cream coats, short curved horns, a wooden yoke strapped across the foreheads. These are the pale cattle of the Charolais and Nivernais country, lit from the upper left."},
+      {"x": 0.27, "y": 0.66, "zoom": 2.8, "r": 0.09, "title": "Ploughman and plough", "text": "A man in a black hat and white shirt steers the handles. Just to his right you can make out the wheel and beam of the plough, the one tool in the picture."},
+      {"x": 0.6, "y": 0.82, "zoom": 2.2, "r": 0.14, "title": "The turned earth", "text": "Fresh furrows, clod by clod, each with a lit side and a shadow side. Critics praised this soil as much as the animals. It fills the foreground like a still life."}
+    ]},
+    {"type": "fact", "text": "Bonheur's father never saw the painting triumph. He died in March 1849, a few weeks before the Salon opened. She took over his post as head of a free drawing school for girls in Paris."},
+    {"type": "text", "text": "At the Salon the picture was a public success, and the state decided to keep it in Paris rather than send it to a regional museum as planned. It hung in the Musée du Luxembourg, the gallery for living artists, and now belongs to the Musée d'Orsay."},
+    {"type": "text", "text": "One last thing, easy to miss in a line of animals all facing the same way. One ox has stopped minding the furrow. It is the animal directly under the raised goad."},
+    {"type": "find", "text": "Which ox is watching you?", "spots": [
+      {"x": 0.617, "y": 0.565, "zoom": 4, "r": 0.04, "title": "The eye", "text": "The white ox turns its head and one dark, wide eye meets yours. It is about to be struck. With that single glance Bonheur makes you wonder what the animal feels."}
+    ]},
+    {"type": "key", "text": "Bonheur painted animals as individuals with an inner life, not as scenery. Here the look of one ox says more than any of the human faces."},
+    {"type": "fact", "text": "The painting measures about 1.3 by 2.6 meters (roughly 4.4 by 8.5 feet). Seen in the gallery, the turned soil lies at about the height of your own feet."}
+  ],
+  "quiz": [
+    {"question": "Why did Bonheur not study at the official art school in Paris?", "options": ["She could not afford it", "It did not admit women", "She lived too far away"], "answer": 1, "explanation": "The school was closed to women, so she trained with her father and on her own."},
+    {"question": "What farm task does the painting show?", "options": ["The first ploughing of autumn", "The summer harvest", "Driving cattle to market"], "answer": 0, "explanation": "The soil is turned in autumn and left open to the air over winter."},
+    {"question": "Which writer's novel probably inspired the subject?", "options": ["Victor Hugo", "Émile Zola", "George Sand"], "answer": 2, "explanation": "Sand's The Devil's Pool opens with oxen ploughing a field."},
+    {"question": "What does the white ox under the goad do?", "options": ["It lies down in the furrow", "It turns its eye toward the viewer", "It breaks free of the yoke"], "answer": 1, "explanation": "Its glance out of the picture is the emotional center of the scene."},
+    {"question": "How much of the canvas is sky?", "options": ["More than half", "A thin strip at the top", "About a quarter"], "answer": 0, "explanation": "The calm blue sky fills more than half the picture, above the heavy earth."}
+  ],
+  "facts": [
+    {"text": "The painting was commissioned by the French state.", "isTrue": true, "explanation": "After her medal at the Salon of 1848, the state ordered it for 3,000 francs."},
+    {"text": "The farm workers are the largest and most detailed figures in the picture.", "isTrue": false, "explanation": "The men are small and half hidden; the oxen get the light and the detail."},
+    {"text": "Bonheur spent a winter in the Nivernais region studying cattle before painting it.", "isTrue": true, "explanation": "She drew the local oxen in the fields there."}
+  ]
+}

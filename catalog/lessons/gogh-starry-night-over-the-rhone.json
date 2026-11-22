@@ -1,0 +1,44 @@
+{
+  "teaser": "The stars are real. The trouble is that they hang in the wrong part of the sky.",
+  "focus": [0.55, 0.55],
+  "review_notes": "Theo's monthly allowance and the claim that Vincent had sold almost nothing by 1888: standard biography, wording kept general.\nHe first slept in the Yellow House in mid-September 1888.\nCandles-on-the-hat story presented as an unverified legend; his own letter says he painted under a gas lamp (paraphrased).\nThe view looks southwest across the Rhône while the Big Dipper lies in the northern sky: commonly noted, please verify.\nShown at the Salon des Indépendants in Paris in 1889, chosen with Theo, alongside Irises.\nDimensions about 72.5 x 92 cm.",
+  "lesson": [
+    {"type": "text", "text": "September 1888. Vincent van Gogh is 35, living in Arles in the south of France, and almost entirely dependent on the money his brother Theo mails from Paris. He has sold next to nothing. Most of this month's allowance has gone on beds, chairs and a mirror for the small yellow house he has just started sleeping in."},
+    {"type": "text", "text": "He is furnishing it for company. He dreams of a “studio of the South” where painters would live and work together, and he is waiting for the first of them, Paul Gauguin, to accept his invitation. In the meantime he is alone, eats badly, drinks too much coffee, and works at a pace that worries Theo. He calls it the best stretch of work he has ever had."},
+    {"type": "text", "text": "The river Rhône flows a minute or two from his front door. For months he had been writing about a wish to paint a starry sky. Late in September he finally hauled his easel to the embankment after dark, stood under a street lamp so he could see his palette, and painted the town across the water."},
+    {"type": "fact", "text": "A popular story says he worked at night with candles stuck to the brim of his hat. It makes a wonderful image, but no letter of his mentions it. What he did write is plainer: he painted this picture at night, under a gas lamp."},
+    {"type": "text", "text": "Gas is the quiet hero of the scene. Arles had gas street lighting, and Vincent noticed that its flame looks orange-gold against the night, while the stars look pale and greenish. So the picture holds two kinds of light, one made by people and one not. Each gets its own color and its own kind of brushstroke."},
+    {"type": "tour", "title": "Two kinds of light", "text": "Compare how he paints a lamp, its reflection and a star.", "spots": [
+      {"x": 0.3, "y": 0.43, "zoom": 3.2, "r": 0.1, "title": "The town's lamps", "text": "Along the far bank the gaslights are thick knots of orange and yellow. Behind them the buildings of Arles are only a dark blue band."},
+      {"x": 0.57, "y": 0.58, "zoom": 2.6, "r": 0.1, "shape": "rect", "title": "Ladders of gold", "text": "Each lamp drops a reflection built from short horizontal dashes, stacked like rungs. The gaps between dashes are the ripples of the river."},
+      {"x": 0.55, "y": 0.16, "zoom": 3, "r": 0.08, "title": "A star", "text": "A dot of white paint squeezed thick, then pale green strokes bursting outward. Cool where the lamps are warm, and round where the reflections are long."}
+    ]},
+    {"type": "text", "text": "The stars are not sprinkled at random, either. Seven of the brightest form a pattern any child in the northern half of the world learns to find. Vincent named it in a letter: the Great Bear, whose best-known part is called the Big Dipper, a ladle with a bent handle."},
+    {"type": "lines", "text": "Join the dots the way stargazers do.", "lines": [
+      {"points": [[0.26, 0.16], [0.38, 0.12], [0.47, 0.14], [0.55, 0.16]], "closed": false, "label": "The handle", "text": "Four stars in a shallow arc, running from the left toward the center of the sky."},
+      {"points": [[0.55, 0.16], [0.62, 0.22], [0.69, 0.2], [0.68, 0.12], [0.55, 0.16]], "closed": false, "label": "The bowl", "text": "Four stars closing into a lopsided box: the bowl of the ladle. The constellation spans half the width of the canvas."}
+    ]},
+    {"type": "fact", "text": "There is a catch. From this bank, looking toward these lights, you face roughly southwest. The Big Dipper lies in the northern sky, behind the painter's back. He turned around, borrowed the stars he liked best, and hung them over the town."},
+    {"type": "key", "text": "Working on the spot did not mean copying. Van Gogh painted what was in front of him, then rearranged it until the picture said what he felt."},
+    {"type": "text", "text": "And what he felt was not only awe. In letters from these weeks he wrote that looking at stars made him dream, and that he felt a great need for something like religion, so he went outside at night to paint them. Under all that sky, he placed a small human counterweight."},
+    {"type": "find", "text": "Two people are out walking by the river tonight. Find them.", "spots": [
+      {"x": 0.76, "y": 0.86, "zoom": 3.2, "r": 0.08, "title": "The lovers", "text": "A man in a hat and a woman, arm in arm, strolling toward us in the bottom right. He called them two lovers. They have their backs to the whole spectacle."}
+    ]},
+    {"type": "text", "text": "They change the scale of everything. Without them, this is a study of light on water. With them, it becomes an evening that belongs to someone. It is hard not to think of the man who painted them, alone on the embankment with a house full of new chairs and nobody yet to sit in them."},
+    {"type": "text", "text": "The paint is thick enough to cast its own shadows. In the sky the strokes are short and flat, laid like bricks. In the water they turn longer and slanting. On the dark shore, near the two moored boats, they become diagonal slashes of green and blue. Three textures, three substances, from a narrow range of blues."},
+    {"type": "fact", "text": "This is one of the few paintings Van Gogh saw hanging in a Paris exhibition during his lifetime. Theo entered it in the 1889 Salon des Indépendants, a show with no jury where any artist could exhibit. Vincent, by then in an asylum, could not attend."},
+    {"type": "text", "text": "Gauguin did come to Arles, a month after this night. The shared studio lasted nine weeks and ended in disaster. Nine months later, behind the bars of a hospital window, Vincent painted another sky full of stars, this time from memory, and let them spin. The calm of the Rhône belongs to the weeks when he still believed the plan would work."}
+  ],
+  "quiz": [
+    {"question": "How was Van Gogh supporting himself in Arles in 1888?", "options": ["By selling paintings to tourists", "With money sent by his brother Theo", "By teaching drawing"], "answer": 1, "explanation": "He had sold next to nothing and lived on the allowance Theo mailed from Paris."},
+    {"question": "What light did he use to see his palette that night?", "options": ["A gas street lamp", "Candles on his hat", "A full moon"], "answer": 0, "explanation": "He wrote that he painted it at night under a gas lamp; the candle story is an unverified legend."},
+    {"question": "Which constellation appears in the sky?", "options": ["Orion", "The Southern Cross", "The Big Dipper, part of the Great Bear"], "answer": 2, "explanation": "Seven stars form the handle and bowl of the Big Dipper, which he named in a letter."},
+    {"question": "What is “wrong” with these stars?", "options": ["They are too small to be seen", "They belong to the northern sky, but the view faces southwest", "They are painted in black"], "answer": 1, "explanation": "He moved the constellation from behind him to above the town."},
+    {"question": "How are the reflections of the lamps painted?", "options": ["As short horizontal dashes stacked like rungs", "As smooth, blended stripes", "As circles with halos"], "answer": 0, "explanation": "The gaps between the stacked dashes suggest ripples on the river."}
+  ],
+  "facts": [
+    {"text": "Van Gogh wrote in a letter that he painted this picture with candles fixed to his hat.", "isTrue": false, "explanation": "No letter mentions candles; he wrote that he worked under a gas lamp."},
+    {"text": "The painting was shown in a Paris exhibition while Van Gogh was still alive.", "isTrue": true, "explanation": "Theo entered it in the 1889 Salon des Indépendants."},
+    {"text": "The gas lamps and the stars are painted in the same warm orange.", "isTrue": false, "explanation": "The lamps are orange-gold, while the stars are pale and greenish."}
+  ]
+}

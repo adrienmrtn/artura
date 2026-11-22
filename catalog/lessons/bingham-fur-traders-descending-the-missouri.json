@@ -1,0 +1,176 @@
+{
+ "teaser": "Two traders, one silent river, and a small black animal nobody has ever managed to name.",
+ "focus": [
+  0.6,
+  0.72
+ ],
+ "review_notes": "Original title 'French Trader and Half-Breed Son' changed by the American Art-Union to the present title: check exact wording (the lesson paraphrases it).\nArt-Union purchase price of $75 and $5 membership: check.\nLottery winner Robert S. Bunker of Mobile, Alabama; painting in the family until the Met bought it in 1933: check.\nThe animal: bear cub is the most common reading; cat and fox also proposed.\nTrappers' Return (1851), Detroit Institute of Arts, as a later variant: check.\nThe white wisp to the right of the old man's head is read here as pipe smoke; confirm against a high-resolution image.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The first people to see this painting changed its name. In 1845 George Caleb Bingham shipped it from Missouri to New York, to the American Art-Union. His own title said plainly who was in the canoe: a French trader and his son, a boy whose mother was Native American."
+  },
+  {
+   "type": "text",
+   "text": "The Art-Union's managers did not like that. Families of mixed heritage were ordinary along the fur-trading rivers, but in a New York gallery the subject was thought too touchy. So they gave the picture a title about a job and a river: Fur Traders Descending the Missouri."
+  },
+  {
+   "type": "fact",
+   "text": "The Art-Union worked like a lottery. Members paid about $5 a year, the organization bought paintings from living American artists, and each winter the pictures were raffled off. This one, bought for $75, went to a member in Mobile, Alabama."
+  },
+  {
+   "type": "text",
+   "text": "What those New Yorkers saw was a world they knew only from books. A dugout canoe, hollowed from a single tree trunk, slides downstream toward the market town of St. Louis. The trip has taken days. Nobody is in a hurry, and all three passengers have noticed you."
+  },
+  {
+   "type": "tour",
+   "title": "Three stares",
+   "text": "Everyone on board is looking out of the picture. Take them one at a time.",
+   "spots": [
+    {
+     "x": 0.81,
+     "y": 0.67,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The father",
+     "text": "He paddles at the stern in a striped pink shirt and a knitted cap. His look is guarded, almost suspicious, the face of a man used to bargaining."
+    },
+    {
+     "x": 0.6,
+     "y": 0.675,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "The son",
+     "text": "The boy sprawls over the covered cargo, chin in hand, with an open, dreamy half smile. A rifle rests under his arm."
+    },
+    {
+     "x": 0.26,
+     "y": 0.75,
+     "zoom": 3.4,
+     "r": 0.055,
+     "title": "The passenger",
+     "text": "Chained at the bow sits a black animal with pointed ears. A bear cub? A cat? A fox? Painters and historians have argued for each. Bingham never said."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Wariness, daydream, mystery: three different ways of meeting a stranger. The little animal is the strangest. Its silhouette is a flat black cutout, and the water repeats it upside down, as crisp as the original."
+  },
+  {
+   "type": "key",
+   "text": "The picture's power comes from stillness. A scene of hard, dangerous work is shown as one held breath, with every shape doubled in the water."
+  },
+  {
+   "type": "text",
+   "text": "That calm is built with a simple trick. The canoe lies exactly parallel to the bottom edge of the canvas, like a line drawn with a ruler. Above it, the island trees and the far bank dissolve into pink and gold mist. Sharp below, soft above: your eye rests on the boat and stays there."
+  },
+  {
+   "type": "text",
+   "text": "But the morning has not been entirely peaceful. Bingham left a couple of quiet clues to what happens on such a trip, and one of them is lying on top of the cargo."
+  },
+  {
+   "type": "find",
+   "text": "The boy's rifle has already been used today. What did he shoot?",
+   "spots": [
+    {
+     "x": 0.64,
+     "y": 0.735,
+     "zoom": 3.8,
+     "r": 0.045,
+     "title": "A dead duck",
+     "text": "A duck lies limp on the hide-covered bundle, right under the boy's elbow. Dinner, probably. Its white and dark feathers are painted with a few tiny touches."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The river hides its own violence. Those branches poking out of the water are snags, sunken trees that could rip open a hull. Rivermen feared them. Here they barely ripple the surface, small dark warnings in a golden haze."
+  },
+  {
+   "type": "fact",
+   "text": "Bingham was known as “the Missouri Artist.” Born in Virginia in 1811, he grew up on the Missouri frontier, largely taught himself to paint, and later served in state politics as well."
+  },
+  {
+   "type": "text",
+   "text": "There is also nostalgia in this haze. By 1845 steamboats ruled the Missouri, and the lone trader with his dugout already belonged to the past. Bingham was painting a memory of the frontier of his childhood, and eastern viewers received it as a souvenir of a vanishing America."
+  },
+  {
+   "type": "text",
+   "text": "Then the painting itself vanished. It stayed with the lottery winner's family for almost ninety years, and Bingham's name faded with it. The Metropolitan Museum bought it in 1933, and it soon became one of the best loved American pictures. Bingham had even painted a second take on the subject in 1851, now in Detroit."
+  },
+  {
+   "type": "text",
+   "text": "One question survives every visit. The father does not smile, the boy does, and the creature at the bow gives nothing away. Which of the three do you believe?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why did the American Art-Union change the painting's title?",
+   "options": [
+    "The original was too long to print",
+    "The original named the boy's mixed heritage, judged too touchy",
+    "Bingham asked them to"
+   ],
+   "answer": 1,
+   "explanation": "The managers replaced it with a neutral title about a trade and a river."
+  },
+  {
+   "question": "What is unusual about the three passengers?",
+   "options": [
+    "They all look straight out at the viewer",
+    "They are all asleep",
+    "They are all paddling"
+   ],
+   "answer": 0,
+   "explanation": "Father, son and animal each stare out of the picture."
+  },
+  {
+   "question": "What is the animal at the bow?",
+   "options": [
+    "Certainly a cat",
+    "A beaver, as Bingham wrote",
+    "Nobody knows for sure"
+   ],
+   "answer": 2,
+   "explanation": "Bear cub, cat and fox have all been proposed, and Bingham never said."
+  },
+  {
+   "question": "What are the branches sticking out of the river?",
+   "options": [
+    "Snags, sunken trees dangerous to boats",
+    "Fishing poles",
+    "Markers for a ferry crossing"
+   ],
+   "answer": 0,
+   "explanation": "Rivermen feared snags because they could rip open a hull."
+  },
+  {
+   "question": "How did the painting find its first owner?",
+   "options": [
+    "It was commissioned by a fur company",
+    "It was won in the Art-Union's lottery",
+    "Bingham gave it to his brother"
+   ],
+   "answer": 1,
+   "explanation": "The Art-Union raffled its purchases among its members."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The canoe is carved from a single tree trunk.",
+   "isTrue": true,
+   "explanation": "It is a dugout, the traditional boat of the river traders."
+  },
+  {
+   "text": "By 1845, lone traders in canoes were the newest thing on the Missouri.",
+   "isTrue": false,
+   "explanation": "Steamboats had taken over, and this way of life already belonged to the past."
+  },
+  {
+   "text": "The Metropolitan Museum bought the painting in 1933.",
+   "isTrue": true,
+   "explanation": "It had spent almost ninety years with the lottery winner's family."
+  }
+ ]
+}

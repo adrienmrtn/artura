@@ -1,0 +1,52 @@
+{
+  "teaser": "A dandy chopped into a hundred shards, and somehow still perfectly at ease.",
+  "focus": [0.6, 0.27],
+  "review_notes": "Oil on canvas, about 128 x 88 cm; shown at the Salon de la Section d'Or, Paris, October 1912: verify.\nGris's work as an illustrator for satirical magazines such as L'Assiette au Beurre (roughly 1906 to 1912).\nThe sign reading 'PIC / AP' is interpreted as an advertisement for Picon, a bitter orange aperitif: interpretation from the visible letters.\nThe diagonal black line at upper left is described only as a diagonal bar, its identity (awning pole, lamp bracket) is unclear in the image.\nArensberg collection given to the Philadelphia Museum of Art in 1950.\nGris's use of the golden section in 1912 is debated by scholars; the lesson only says he used ruler-drawn grids and was close to the mathematically minded Section d'Or group.",
+  "lesson": [
+    {"type": "text", "text": "This man has been cut to pieces. His coat is a pile of gray blades, his face is split down the middle, his hat is sliced like a cake. And yet he sits with one leg thrown over the other, hand on his cane, drink within reach, as relaxed as anyone has ever been on a café terrace. The picture is violent and comfortable at once."},
+    {"type": "text", "text": "Juan Gris was 25 when he painted it in 1912, and had been painting seriously for barely two years. He lived in the same shabby Montmartre building as Picasso and had watched Cubism being invented next door. Cubism meant showing a thing from several angles in one image, broken into flat facets. Gris wanted a version with more order in it."},
+    {"type": "text", "text": "His answer was a scaffold. Before painting the man, he ruled lines across the canvas, and then let each compartment show its own slice of the scene, a little shifted from its neighbors. You can still see the scaffold running through the figure."},
+    {"type": "lines", "text": "Three of the ruled lines that organize the picture.", "lines": [
+      {"points": [[0.405, 0.02], [0.405, 0.74]], "closed": false, "label": "The wall", "text": "A hard vertical splits the canvas. To its left, the street: houses, a sign, the hand on the cane. To its right, the man against a red striped awning."},
+      {"points": [[0.01, 0.268], [0.99, 0.268]], "closed": false, "label": "The shelf", "text": "A horizontal passes right under the hat brim and through his eyes. Above and below it, the pieces of his head do not quite line up, like a photo torn and badly taped."},
+      {"points": [[0.66, 0.45], [0.45, 0.68], [0.2, 0.8]], "closed": false, "label": "The crossed leg", "text": "Against all those right angles, his thigh and shin swing down to the left toward the shoe. This one long slant is what makes him lounge."}
+    ]},
+    {"type": "text", "text": "A grid like that could have produced something cold. It didn't, because Gris kept the things a caricaturist would keep: the silhouette, the attitude, a few telling details drawn almost straight. He knew exactly which ones."},
+    {"type": "fact", "text": "Before he could live from painting, Gris paid his rent by drawing cartoons. For about six years he supplied satirical magazines in Paris, such as L'Assiette au Beurre, with sharp-lined drawings of bankers, flirts and men about town, the very type sitting here."},
+    {"type": "text", "text": "The cartoonist shows most in the head. Cubist portraits by Picasso or Braque from these years can be nearly impossible to read. Gris leaves you handles to grab."},
+    {"type": "tour", "title": "A face in pieces", "text": "Three clues that keep the head readable.", "spots": [
+      {"x": 0.525, "y": 0.262, "zoom": 4, "r": 0.04, "title": "The ear", "text": "Pink, round, with a neat curl inside it, drawn the way you would in a comic strip. It tells you at once where the side of the head is."},
+      {"x": 0.6, "y": 0.285, "zoom": 3.6, "r": 0.06, "title": "Eyes and moustache", "text": "One eye faces you; the nose next to it is in profile. That is two viewpoints fused. Below, a black moustache twirls up at the tip, the badge of a 1912 man of fashion."},
+      {"x": 0.6, "y": 0.15, "zoom": 2.2, "r": 0.13, "title": "The top hat", "text": "A shiny silk cylinder, shown as vertical bands of black and white for the reflections. The crown slides apart into two overlapping hats, as if he had just tipped it."}
+    ]},
+    {"type": "text", "text": "Ear from the side, eye from the front, hat twice. None of it is how a camera sees, but it is close to how you remember someone you watched for ten minutes across a terrace: not one frozen view, but a bundle of glimpses."},
+    {"type": "key", "text": "Gris showed that Cubism could be clear. Break the figure with a ruler, keep the silhouette and a few sharp details, and the viewer puts the man back together without effort."},
+    {"type": "text", "text": "Then there is the color, or the lack of it. The man and the pavement are black, white and steel gray, the palette of evening dress and of newsprint. Warmth appears only at the edges: the red awning, cream houses, one hand, a sign. The street is alive around a man made of tailoring."},
+    {"type": "fact", "text": "The painting was first shown in Paris in October 1912 at an exhibition called the Section d'Or, the “golden section”, a proportion prized by mathematicians since antiquity. The group behind it wanted a Cubism founded on geometry and calculation. Gris was its natural star."},
+    {"type": "text", "text": "The setting deserves a walk of its own. Gris tucked an entire Paris street corner into the gaps around the figure, and each fragment is a small picture you can roam through."},
+    {"type": "explore", "spots": [
+      {"x": 0.345, "y": 0.34, "zoom": 3.4, "r": 0.06, "title": "The yellow sign", "text": "Black letters on yellow: PIC, and below it AP. Most likely an advertisement for Picon, a bitter orange apéritif, cut off by the grid. Painted lettering was a favorite Cubist way to pin a scene to real life."},
+      {"x": 0.82, "y": 0.55, "zoom": 3, "r": 0.07, "title": "His drink", "text": "A cone-shaped glass on a short stem, filled with something pale yellow, standing on a table with a red top. It is the only still life in the picture."},
+      {"x": 0.15, "y": 0.43, "zoom": 3, "r": 0.08, "title": "The hand", "text": "Tan against all the gray, fingers curled around the top of a cane. It sits far from the body, on the other side of the dividing line, as if the arm had been stretched across the street."},
+      {"x": 0.12, "y": 0.2, "zoom": 2.4, "r": 0.12, "title": "Houses", "text": "Cream facades with dark windows, tilting and toppling under triangles of blue sky. A black diagonal bar slashes across them toward the terrace."},
+      {"x": 0.76, "y": 0.12, "zoom": 2, "r": 0.16, "title": "The awning", "text": "Broad stripes of red and tan, the canvas shade of a Paris café. It works like a theater curtain behind the hat."},
+      {"x": 0.24, "y": 0.8, "zoom": 2.6, "r": 0.1, "title": "The shoe", "text": "A glossy black shoe, pointing left, with a white gaiter above it. Around it Gris left the brushwork loose and unfinished-looking, gray swipes on bare pale ground."},
+      {"x": 0.76, "y": 0.93, "zoom": 2.4, "r": 0.13, "title": "Iron curls", "text": "The scrolled cast-iron foot of the café table, drawn in thick black loops. After so many straight edges, these spirals are a small joke."}
+    ]},
+    {"type": "fact", "text": "The picture crossed the Atlantic early. It entered the collection of Walter and Louise Arensberg, an American couple whose apartment became a meeting place for modern artists. They gave their entire collection to the Philadelphia Museum of Art in 1950."},
+    {"type": "text", "text": "So who is he? Nobody in particular. No name has come down with him, and Gris gave him none. He is a type, the well-dressed idler, sketched a thousand times in the magazines. Gris took that throwaway cartoon figure and rebuilt him with a ruler, at the size of a formal portrait."}
+  ],
+  "quiz": [
+    {"question": "How did Gris earn his living before painting paid?", "options": ["As a café waiter", "As a cartoonist for satirical magazines", "As a tailor"], "answer": 1, "explanation": "He drew for Paris satirical magazines for about six years."},
+    {"question": "What did Gris do before painting the figure?", "options": ["He ruled a scaffold of lines across the canvas", "He photographed a model", "He glued newspaper to the canvas"], "answer": 0, "explanation": "The ruled lines divide the canvas into compartments, each with its own slice of the scene."},
+    {"question": "Which detail of the face is drawn almost like a comic strip?", "options": ["The chin", "The eyebrows", "The pink ear"], "answer": 2, "explanation": "The round ear with its curl tells you immediately where the side of the head is."},
+    {"question": "What are the main colors of the man himself?", "options": ["Red and tan", "Black, white and gray", "Blue and green"], "answer": 1, "explanation": "He is painted in the tones of evening dress; the warm colors are kept for the street."},
+    {"question": "What does “Section d'Or” mean?", "options": ["Golden section", "Gold medal", "Golden age"], "answer": 0, "explanation": "The 1912 exhibition was named after a mathematical proportion."},
+    {"question": "Which line gives the figure his lounging look?", "options": ["The vertical wall line", "The horizontal under the hat", "The slant of the crossed leg"], "answer": 2, "explanation": "The long diagonal of thigh and shin breaks the grid of right angles."}
+  ],
+  "facts": [
+    {"text": "The man in the painting is a named friend of the artist.", "isTrue": false, "explanation": "He is an anonymous type, the fashionable idler, with no name attached."},
+    {"text": "The face combines an eye seen from the front with a nose in profile.", "isTrue": true, "explanation": "Gris fuses two viewpoints in one head, a basic Cubist device."},
+    {"text": "The painting came to Philadelphia through the Arensberg collection.", "isTrue": true, "explanation": "Walter and Louise Arensberg gave their collection to the museum in 1950."}
+  ]
+}

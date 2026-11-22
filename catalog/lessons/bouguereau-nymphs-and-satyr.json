@@ -1,0 +1,243 @@
+{
+ "teaser": "It spent years as the most famous picture in a New York bar, then decades hidden in a warehouse.",
+ "focus": [
+  0.52,
+  0.45
+ ],
+ "review_notes": "Opening story (bought after the Hoffman House closed in 1901 and kept in storage because the owner found it offensive; found and bought by Robert Sterling Clark in 1942): from the Clark's account, check details.\nJohn Wolfe as first buyer in 1873; Edward Stokes buying it at auction in 1882: check.\nStokes hung it in the Hoffman House bar; image reproduced on cigar box labels: check.\nClaim that satyrs were said to be unable to swim comes from the Clark's description.\nSize 260 x 180 cm.\nBouguereau's marriage to American painter Elizabeth Gardner in 1896.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Around 1901, a buyer acquired this enormous canvas and did something odd with it: he sent it to a storage warehouse and left it there. The story goes that he found it indecent and wanted it out of sight. For roughly forty years, one of the best-known paintings in America could not be seen by anyone."
+  },
+  {
+   "type": "text",
+   "text": "What was so shocking? Four nymphs, young nature spirits from Greek myth, have caught a satyr, a creature half man and half goat with a taste for wine and for chasing women. He was spying on them as they bathed. Now they drag him toward the pond."
+  },
+  {
+   "type": "text",
+   "text": "The joke is in the reversal. In older art the satyr is the hunter and the nymph is the prey. Here the predator is outnumbered, laughed at, and about to get wet. According to the museum that owns the picture, satyrs were said to be unable to swim."
+  },
+  {
+   "type": "lines",
+   "text": "Bouguereau turns a struggle into something close to a dance. Watch the directions of force.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.25,
+       0.34
+      ],
+      [
+       0.68,
+       0.3
+      ],
+      [
+       0.67,
+       0.38
+      ],
+      [
+       0.76,
+       0.55
+      ],
+      [
+       0.52,
+       0.52
+      ],
+      [
+       0.33,
+       0.44
+      ]
+     ],
+     "closed": true,
+     "label": "The ring",
+     "text": "Heads and arms link into a loop around the satyr's dark head. The bodies circle him like dancers around a pole."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.42
+      ],
+      [
+       0.48,
+       0.52
+      ],
+      [
+       0.85,
+       0.85
+      ]
+     ],
+     "closed": false,
+     "label": "The pull",
+     "text": "Everything slides from the upper left to the lower right, where the water waits. Two nymphs haul his arms, one pushes from behind."
+    },
+    {
+     "points": [
+      [
+       0.68,
+       0.34
+      ],
+      [
+       0.77,
+       0.09
+      ]
+     ],
+     "closed": false,
+     "label": "The signal",
+     "text": "One arm shoots straight up, out of the tangle. She is not pulling at all. She is waving at someone."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Feel how well the trick works. The figures are life-size on a canvas 2.6 meters tall (about 8.5 feet), and yet nobody looks heavy. The front nymph balances on the ball of one foot. Bouguereau studied each pose from a live model in his studio, then joined them into one movement that no model could ever hold."
+  },
+  {
+   "type": "fact",
+   "text": "The date is carved like a Roman inscription in the bottom left corner: “W-BOVGVEREAV-1873”, with V standing in for U as in ancient Latin."
+  },
+  {
+   "type": "find",
+   "text": "The nymph with the raised arm is calling to friends. They are in the picture, but the forest almost swallows them. Where?",
+   "spots": [
+    {
+     "x": 0.93,
+     "y": 0.44,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The others",
+     "text": "At the far right edge, a huddle of pale figures crouches in the gloom, watching. More nymphs are on their way. The satyr's situation is about to get worse."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those dim figures tell you how the picture is lit. Bouguereau keeps the woods nearly black and pours the light onto skin alone, as if the bodies were lit from inside. Dark leaves behind, pale flesh in front: the simplest contrast there is, used at full power."
+  },
+  {
+   "type": "text",
+   "text": "The canvas hung at the Paris Salon of 1873 and was snapped up by an American, John Wolfe. Bouguereau sold more to the United States than anywhere else. Rich Americans of the period wanted French polish on their walls, and no one supplied it more reliably."
+  },
+  {
+   "type": "fact",
+   "text": "Late in life Bouguereau married one of his American students, the painter Elizabeth Gardner. She had waited years for the wedding because his mother opposed it."
+  },
+  {
+   "type": "text",
+   "text": "Then came the bar. In 1882 the picture was bought by Edward Stokes, co-owner of the Hoffman House, a luxury hotel in New York. He hung it in the men's bar under lamps and drapery. People came to drink and stayed to stare, and the image traveled the country on cigar box labels."
+  },
+  {
+   "type": "tour",
+   "title": "What the drinkers saw",
+   "text": "Three places where the painting plays with the viewer.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.41,
+     "zoom": 3.0,
+     "r": 0.09,
+     "title": "The satyr's face",
+     "text": "Pointed ear, curly black hair, a beard, and a hand gripping his horn. He looks more worried than wicked. His tanned skin is the darkest flesh in the picture."
+    },
+    {
+     "x": 0.66,
+     "y": 0.37,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "The amused nymph",
+     "text": "She leans her whole weight against his arm and glances sideways with a half smile. For her this is a game, not a fight."
+    },
+    {
+     "x": 0.47,
+     "y": 0.72,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "Goat legs",
+     "text": "Below the waist he is all dark fur. His legs are braced against the ground, hooves dug into the bank. It is the only real resistance in the scene."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "After the hotel closed, the warehouse years began. In 1942 the collector Robert Sterling Clark tracked the painting down and bought it. It now hangs in the museum he founded in Williamstown, Massachusetts, where it is one of the works visitors ask for first."
+  },
+  {
+   "type": "key",
+   "text": "A myth can be turned upside down. By letting the nymphs win, Bouguereau made a picture that could be read as playful, as daring, or as indecent, and its owners treated it as all three."
+  },
+  {
+   "type": "fact",
+   "text": "In the bottom right corner, a single yellow water lily floats on the pond: the finish line of the whole tug of war."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is a satyr?",
+   "options": [
+    "A river god with a fish tail",
+    "A creature half man, half goat",
+    "A winged child of love"
+   ],
+   "answer": 1,
+   "explanation": "Satyrs are half man and half goat, known for wine and chasing nymphs."
+  },
+  {
+   "question": "What is unusual about this version of the myth?",
+   "options": [
+    "The nymphs have the upper hand",
+    "The satyr is shown asleep",
+    "There is no water in the scene"
+   ],
+   "answer": 0,
+   "explanation": "Usually the satyr hunts the nymphs; here they capture him."
+  },
+  {
+   "question": "Why does one nymph raise her arm?",
+   "options": [
+    "To strike the satyr",
+    "To pick a leaf",
+    "To call other nymphs hidden in the woods"
+   ],
+   "answer": 2,
+   "explanation": "More nymphs crouch in the shade at the right edge."
+  },
+  {
+   "question": "Where did the painting hang after 1882?",
+   "options": [
+    "In a New York hotel bar",
+    "In a Paris church",
+    "In the White House"
+   ],
+   "answer": 0,
+   "explanation": "Edward Stokes hung it in the bar of the Hoffman House hotel."
+  },
+  {
+   "question": "How did the image spread across America?",
+   "options": [
+    "On postage stamps",
+    "On cigar box labels",
+    "On theater curtains"
+   ],
+   "answer": 1,
+   "explanation": "It was reproduced on cigar box labels."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bouguereau signed the painting with a V in place of the U in his name.",
+   "isTrue": true,
+   "explanation": "The signature imitates a Roman inscription: BOVGVEREAV."
+  },
+  {
+   "text": "The figures are small, about the size of dolls.",
+   "isTrue": false,
+   "explanation": "They are life-size on a canvas about 2.6 meters tall."
+  },
+  {
+   "text": "The painting was hidden in storage for about forty years.",
+   "isTrue": true,
+   "explanation": "It stayed in a warehouse until Robert Sterling Clark bought it in 1942."
+  }
+ ]
+}

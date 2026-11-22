@@ -1,0 +1,36 @@
+{
+  "teaser": "Only a woman could paint this self-portrait, and Artemisia knew it.",
+  "focus": [0.53, 0.3],
+  "review_notes": "Date and place are debated: usually London, about 1638-39, but some scholars place it earlier in the 1630s in Naples.\nWhether the figure is a true likeness of Artemisia (then in her mid-forties) is also debated.\nOrazio Gentileschi died in London in February 1639.\nCesare Ripa's Iconologia description of Painting: gold chain with mask, unruly hair, dress of changing colors, gagged mouth.\nThe two-mirror explanation for the pose is a hypothesis.\nSold after Charles I's execution and recovered for the Crown at the Restoration in 1660.\nSize about 98.6 x 75.2 cm.",
+  "lesson": [
+    {"type": "text", "text": "In 1639 Artemisia Gentileschi is in her mid-forties and a long way from home. She has left Naples for London, a cold Protestant capital whose language she does not speak. Her father Orazio, court painter to King Charles I, is old and failing. He dies that winter, and she stays on to finish what the Gentileschi name has promised the English crown."},
+    {"type": "text", "text": "She did not come for pleasure. Her letters from these years are full of money worries: late payments, patrons who haggle, a daughter who needs a dowry. A royal court was a job. In that situation she paints a picture about the one thing she can count on, her own skill."},
+    {"type": "fact", "text": "Painters of the time used a handbook of symbols by Cesare Ripa. It said that Painting should be shown as a beautiful woman with wild hair, a dress of shifting colors, and a gold chain with a mask hanging from it."},
+    {"type": "text", "text": "Now you can see her idea. The art of Painting was always imagined as a woman. A male painter could show himself next to her, like a guest. Artemisia can simply be her. This canvas is a self-portrait and an allegory, a figure that stands for an idea, in one body. Ripa's chain is here too, though she has let it slip almost out of sight."},
+    {"type": "find", "text": "A small pendant hangs from the gold chain. Can you spot it?", "spots": [
+      {"x": 0.51, "y": 0.68, "zoom": 4.0, "r": 0.05, "title": "The mask", "text": "At the bottom of the chain, dark against the brown, hangs a tiny mask. A mask imitates a face, as painting imitates life. She lets it swing loose because she is leaning into her work."}
+    ]},
+    {"type": "text", "text": "The pendant swings because the whole body is in motion. Portraits of painters usually show them sitting calmly, looking at us, brush politely raised. Artemisia does not look at us at all. She shows the job as physical effort."},
+    {"type": "lines", "text": "Follow how the body is stretched across the canvas.", "lines": [
+      {"points": [[0.1, 0.2], [0.38, 0.33], [0.56, 0.44], [0.7, 0.62], [0.48, 0.8], [0.2, 0.8]], "closed": false, "label": "From brush to palette", "text": "One long curve runs from the raised brush hand, down the arm and across the chest, to the hand holding the palette at the bottom. The two tools of the trade are its two ends."},
+      {"points": [[0.54, 0.27], [0.12, 0.17]], "closed": false, "label": "Her eyes", "text": "She looks toward the tip of her brush and whatever it is about to touch, off to the left. We see her from the side and slightly above, an angle no single mirror gives you of yourself."},
+      {"points": [[0.28, 0.06], [0.5, 0.3], [0.56, 0.5]], "closed": false, "label": "The light", "text": "Light falls from the upper left onto the forehead and the chest. The mind and the heart of the painter are the two brightest places in the picture."}
+    ]},
+    {"type": "text", "text": "That side view is a technical feat. To see herself like this, she probably set up two mirrors at an angle and painted from the reflection of a reflection, while holding the pose. The green silk sleeve, flashing violet where it folds, is Ripa's dress of shifting colors, and a showpiece of handling."},
+    {"type": "fact", "text": "Ripa also wanted Painting to have a cloth tied over her mouth, because pictures cannot speak. Artemisia left the gag out."},
+    {"type": "text", "text": "King Charles I owned the picture. After his execution in 1649 his collection was sold off, and this canvas went with it. It was recovered when the monarchy returned in 1660 and has belonged to the British royal collection ever since. In the dark at the bottom, on the edge of the table, she left three letters: A.G.F., for Artemisia Gentileschi fecit, “made this.”"},
+    {"type": "text", "text": "And the flat brown behind her? It may be a wall. It may also be a bare, prepared canvas, the next painting, not yet begun."},
+    {"type": "key", "text": "By merging her own portrait with the female figure of Painting, Artemisia claimed something no male colleague could: she does not serve the art, she is the art."}
+  ],
+  "quiz": [
+    {"question": "Why was Artemisia in London around 1639?", "options": ["She was fleeing a trial", "She had joined her father at the court of Charles I", "She was studying English portraiture"], "answer": 1, "explanation": "Her father Orazio was court painter to the king, and she came to work alongside him."},
+    {"question": "Why could a male painter not make this exact kind of self-portrait?", "options": ["Men were not allowed mirrors", "Self-portraits were forbidden in England", "The art of Painting was always personified as a woman"], "answer": 2, "explanation": "Since the allegory was female, only a woman could be both the artist and the figure of Painting."},
+    {"question": "What hangs at the end of the gold chain?", "options": ["A small mask", "A cross", "A key"], "answer": 0, "explanation": "The mask stands for imitation, the way painting imitates life."},
+    {"question": "Which part of the traditional recipe did Artemisia leave out?", "options": ["The wild hair", "The gag over the mouth", "The colorful dress"], "answer": 1, "explanation": "The handbook asked for a gagged mouth because painting is silent; she did not include it."}
+  ],
+  "facts": [
+    {"text": "In this self-portrait, Artemisia looks directly at the viewer.", "isTrue": false, "explanation": "She looks off to the left, toward her brush and her work."},
+    {"text": "The painting belonged to King Charles I of England.", "isTrue": true, "explanation": "It was in his collection, sold after his execution and later recovered for the Crown."},
+    {"text": "She probably needed two mirrors to see herself from this angle.", "isTrue": true, "explanation": "A side view from above cannot be seen in a single mirror."}
+  ]
+}

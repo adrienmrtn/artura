@@ -1,0 +1,37 @@
+{
+  "teaser": "She turns, the dog turns, and a half-legible note keeps its secret.",
+  "focus": [0.47, 0.28],
+  "review_notes": "Date: the Met gives early 1770s; the catalog year 1770 is kept.\nThe inscription is debated: read either as “Monsieur mon Cavalier” or as addressed to “Cuvillier.” Marie Émilie Boucher (daughter of François Boucher) married the architect Charles Étienne Gabriel Cuvillier in 1773; the sitter identification is a hypothesis.\n“Painted in one hour” refers to old labels on the backs of some of Fragonard's fantasy figures (about 1769).\nJules Bache Collection, given to the Met in 1949.\nThe supplied image looks slightly warm and soft; coordinates are from this image.",
+  "lesson": [
+    {"type": "text", "text": "Half a second ago she was bent over the desk. Then a door opened, or a floorboard creaked, and her head came around. Her body is still facing the window. Her hands still hold the flowers. Only the face has had time to turn. Fragonard paints that half second and nothing after it."},
+    {"type": "text", "text": "The room is a corner of a wealthy Paris home in the early 1770s: a writing desk under a window, loose sheets of paper, a curtain pulled back, a stool. She sits on the edge of it, leaning forward. In her arms is a bouquet wrapped in a cone of paper, with a small card tucked among the stems."},
+    {"type": "tour", "title": "Caught", "text": "Two heads have turned toward you. Start with hers.", "spots": [
+      {"x": 0.47, "y": 0.28, "zoom": 3.4, "r": 0.08, "title": "The glance", "text": "Eyes slid to the corner, a closed smile, a flush of pink on the cheek. She is not startled. It is the look of someone who was expecting company."},
+      {"x": 0.52, "y": 0.15, "zoom": 3, "r": 0.09, "title": "The cap", "text": "Her powdered hair is piled high under a lace cap looped with pink ribbon, the fashion of the day. A black ribbon at her nape ties it all in place."},
+      {"x": 0.81, "y": 0.73, "zoom": 2.8, "r": 0.11, "title": "The dog", "text": "A curly white lapdog lies on the stool behind her, paws over the edge. Its black eyes are fixed on you too, a second witness to your arrival."}
+    ]},
+    {"type": "text", "text": "With both of them staring out, the missing person in this scene is you. Fragonard puts the viewer in the doorway. Are you the one who sent the flowers, arriving to see how they were received? Or someone who was not supposed to see them at all?"},
+    {"type": "text", "text": "The painting offers one clue, and it is in writing. Fragonard, who normally suggests everything with a few fast strokes, has taken the trouble to trace actual words."},
+    {"type": "find", "text": "Somewhere in this picture there are handwritten words. Tap them.", "spots": [
+      {"x": 0.415, "y": 0.325, "zoom": 4.5, "r": 0.05, "title": "The card", "text": "A slip of white paper poking out of the bouquet, with two lines of dark script. It is tilted toward us, as if she were letting us read over her shoulder."}
+    ]},
+    {"type": "text", "text": "The trouble is that nobody agrees on what it says. One reading is “Monsieur mon Cavalier,” meaning her gentleman, her admirer. In that case she is sending the flowers, and this is a love note about to leave. The other reading is a name, Cuvillier. That was the husband of the daughter of François Boucher, the painter who taught Fragonard. Then this would be a portrait of a real young wife."},
+    {"type": "fact", "text": "Fragonard was famous for speed. Old labels on the backs of some of his portraits from about 1769 claim they were painted “in one hour.” Even if that is a boast, the brushwork shows he worked wet and fast, rarely going back."},
+    {"type": "text", "text": "That speed is visible here. Most of the canvas is brown: thin, see-through brown for the curtain, the desk and the floor, brushed on like ink wash in a drawing. In places the bare ground shows through. Only the blue silk of the dress, the pink of the flowers and ribbons, and the white of the dog are given real, thick paint."},
+    {"type": "key", "text": "Fragonard spends his detail where the story is: a face, a card, a dog. The rest he leaves as a warm blur, and the room feels lit by the window instead of described."},
+    {"type": "text", "text": "Letters were a favorite subject in 18th-century France. Novels were written entirely as exchanges of letters, and a note passed in secret was the engine of half the plots on stage. A picture like this let its owner play the game too, guessing at the sender, the receiver and what comes next."},
+    {"type": "fact", "text": "The painting crossed the Atlantic in the 20th century. It belonged to Jules Bache, a New York banker who filled his Fifth Avenue house with old European pictures, and came to the Metropolitan Museum with his collection in 1949."},
+    {"type": "text", "text": "So is she a flirt sealing a message, or a newlywed posing with her own name on the card? The handwriting has been studied for well over a century without a verdict. She is still looking at the door, and has not said a word."}
+  ],
+  "quiz": [
+    {"question": "Which moment does the painting show?", "options": ["The woman asleep at her desk", "The instant she turns her head toward someone arriving", "The woman reading a letter aloud to a friend"], "answer": 1, "explanation": "Her body still faces the window; only her head has turned."},
+    {"question": "Besides the woman, who looks out at the viewer?", "options": ["A maid in the doorway", "A portrait on the wall", "The white dog on the stool"], "answer": 2, "explanation": "The lapdog behind her stares straight at us."},
+    {"question": "Why is the card in the bouquet so discussed?", "options": ["Its words can be read in two ways, changing the story", "It carries Fragonard's signature", "It was added by a later painter"], "answer": 0, "explanation": "It may say “my Cavalier” or the name Cuvillier."},
+    {"question": "What color dominates most of the canvas?", "options": ["Blue", "Green", "Brown"], "answer": 2, "explanation": "Thin brown paint covers the room; only a few areas get strong color."}
+  ],
+  "facts": [
+    {"text": "Experts agree on exactly what the note in the bouquet says.", "isTrue": false, "explanation": "Two readings compete, and the question is still open."},
+    {"text": "Fragonard was a student of François Boucher.", "isTrue": true, "explanation": "The lesson names Boucher as the painter who taught him."},
+    {"text": "The whole canvas is painted in thick, detailed paint from edge to edge.", "isTrue": false, "explanation": "Most of it is thin brown wash; thick paint is kept for the dress, flowers and dog."}
+  ]
+}

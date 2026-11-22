@@ -1,0 +1,51 @@
+{
+  "teaser": "A clock with no hands, a room with no walls, and a red that was added at the last minute.",
+  "focus": [0.51, 0.3],
+  "review_notes": "Technical findings (earlier blue walls, pink floor, ochre furniture; red applied late; the lines are gaps left in the red) follow MoMA's conservation research published for the 2022 exhibition.\nThe real studio at Issy-les-Moulineaux had white walls.\nLarge Nude (the pink canvas at left) destroyed at Matisse's request after his death: per MoMA 2022.\nSale to David Tennant for the Gargoyle Club in London in 1927, MoMA purchase in 1949: check dates.\nRothko spending hours in front of it at MoMA: his own later statement, commonly cited.\nIdentification of paintings: Le Luxe II (top right), Young Sailor II (top center), Nude with a White Scarf (top left of center), Cyclamen, Bathers (leaning on the chest), Corsica, the Old Mill (small one on the floor) follow MoMA; only some are named in the lesson.",
+  "lesson": [
+    {"type": "text", "text": "There is a grandfather clock in the middle of this room, and it tells no time. The face is a white ring. The hands are missing. Whatever hour it was in Henri Matisse's studio in the autumn of 1911, the painting has stopped it and thrown away the evidence."},
+    {"type": "find", "text": "Start there. Find the clock without hands.", "spots": [
+      {"x": 0.51, "y": 0.23, "zoom": 3.2, "r": 0.06, "shape": "rect", "title": "The stopped clock", "text": "A tall case sketched in pale lines, a dial ringed with dots, and nothing inside it. It stands almost exactly on the center line, like the pin the whole room hangs from."}
+    ]},
+    {"type": "text", "text": "A stopped clock suits the place. Nobody is here. No painter, no model, no brush in motion: only the things a painter leaves behind when he goes to lunch. And all of them float in a single rust red that covers walls, floor, table and chairs alike."},
+    {"type": "text", "text": "The studio was real. Two years earlier Matisse had moved his family to Issy-les-Moulineaux, a suburb southwest of Paris, and had a prefabricated workshop put up in the garden. It was a big, plain shed about ten meters square. Its walls were white."},
+    {"type": "fact", "text": "The red was a late decision. Technical study by conservators at the Museum of Modern Art showed that Matisse first painted the room in other colors: blue walls, a pink floor, ochre furniture. Then, with the picture essentially done, he flooded nearly everything with red."},
+    {"type": "text", "text": "That discovery explains the oddest feature of the picture: the outlines. The edges of the table, the chair and the chest of drawers look like yellowish chalk lines drawn on the red. They are not drawn on anything."},
+    {"type": "tour", "title": "Lines made of nothing", "text": "Three places where the red tells you how it was put on.", "spots": [
+      {"x": 0.87, "y": 0.70, "zoom": 2.2, "r": 0.13, "title": "The chair", "text": "Every pale line here is a narrow gap where Matisse stopped the red and let the earlier paint show through. He drew the chair by painting around it."},
+      {"x": 0.64, "y": 0.42, "zoom": 2.4, "r": 0.11, "title": "The chest of drawers", "text": "The furniture has no body of its own. It is the same red as the wall behind it, so the chest is only a diagram of a chest: drawers, knobs, a wavy skirt."},
+      {"x": 0.25, "y": 0.52, "zoom": 2.0, "r": 0.12, "title": "The corner", "text": "A faint line slants away at the left, and near the pink canvas the meeting of the two walls is not marked at all. The room's corner has been swallowed."}
+    ]},
+    {"type": "text", "text": "So the space is a contradiction. The lines of the table and chair recede like a proper perspective drawing, and yet the color refuses to recede with them. You get a room you can read but could never walk into."},
+    {"type": "key", "text": "In The Red Studio one color replaces walls, floor and furniture. Only the works of art keep their own colors, so the picture becomes a room made of Matisse's art."},
+    {"type": "text", "text": "Because here is what escapes the red: his own pictures and sculptures, plus a few plants and a plate. It is a miniature retrospective, a show of one's career so far, hung by the artist himself. Most of these works still exist, and you can identify them one by one."},
+    {"type": "explore", "spots": [
+      {"x": 0.19, "y": 0.38, "zoom": 2.2, "r": 0.10, "shape": "rect", "title": "The lost nude", "text": "A large pink nude on a flowered ground, propped against the wall. Matisse never thought it finished and asked for it to be destroyed after his death. This is its best record."},
+      {"x": 0.86, "y": 0.13, "zoom": 2.6, "r": 0.08, "shape": "rect", "title": "Le Luxe II", "text": "Three bathers by the sea, from 1907 to 1908. In the red room the figures turn a deep terracotta, as if the studio's color had soaked into them."},
+      {"x": 0.59, "y": 0.11, "zoom": 3.4, "r": 0.05, "title": "The young sailor", "text": "A boy in blue and green on a pink ground, painted in Collioure in 1906. Shrunk to a few patches, it is still easy to recognize."},
+      {"x": 0.17, "y": 0.92, "zoom": 2.8, "r": 0.09, "title": "A painted plate", "text": "Matisse decorated ceramics around 1907. This plate with a blue curled-up nude sits at the front edge of the table, close enough to pick up."},
+      {"x": 0.90, "y": 0.33, "zoom": 3.0, "r": 0.08, "title": "Two sculptures", "text": "A dark bronze and a white plaster stand on tall stools. Matisse modeled figures throughout his life, often to solve problems he had met in a painting."},
+      {"x": 0.29, "y": 0.66, "zoom": 2.4, "r": 0.11, "title": "Nasturtiums", "text": "Green leaves trail from a dark vase and curl around a small figure. The plant is the only living thing in the room."},
+      {"x": 0.34, "y": 0.92, "zoom": 3.2, "r": 0.06, "title": "Crayons", "text": "An open box of blue pastels or crayons, the nearest hint of work in progress. The hand that uses them is just outside the frame, where you stand."},
+      {"x": 0.38, "y": 0.42, "zoom": 2.6, "r": 0.09, "title": "Empty frames", "text": "A stack of frames and small canvases leans against the wall. The largest frame holds nothing but red."}
+    ]},
+    {"type": "text", "text": "Sergei Shchukin, the Russian collector who bought almost everything Matisse offered him in those years, said no to this one. He preferred pictures with people in them. The canvas was shown in London in 1912 and at the Armory Show in New York in 1913, where it baffled nearly everyone, and then it went back to the artist's storage."},
+    {"type": "fact", "text": "It finally sold in 1927, to a London socialite who hung it in the Gargoyle Club, a fashionable Soho nightclub with a mirrored ballroom. For years one of the key paintings of the century looked down on people dancing and drinking."},
+    {"type": "text", "text": "The Museum of Modern Art in New York bought it in 1949, and its second life began. A generation of American painters was just then trying to make very large canvases out of color alone. Suddenly a forty-year-old Matisse looked like the newest picture in the city."},
+    {"type": "fact", "text": "Mark Rothko, later famous for his hovering rectangles of color, said he spent hours and hours sitting in front of The Red Studio after it arrived at the museum. He credited it as a source of his own mature work, and titled a late painting Homage to Matisse."},
+    {"type": "text", "text": "The canvas measures about 181 by 219 centimeters, roughly 6 by 7 feet: wide enough that, at arm's length, the red reaches the corners of your eyes. The clock is still in the middle, still blank. Matisse lived another forty-three years after painting it, but in this room it is always that one afternoon."}
+  ],
+  "quiz": [
+    {"question": "What is missing from the grandfather clock in the painting?", "options": ["Its case", "Its hands", "Its dial"], "answer": 1, "explanation": "The clock has a dial but no hands, so it tells no time."},
+    {"question": "What color were the walls of the real studio at Issy-les-Moulineaux?", "options": ["White", "Red", "Blue"], "answer": 0, "explanation": "The actual workshop had white walls; the red is an invention."},
+    {"question": "How are the pale outlines of the furniture made?", "options": ["With yellow chalk over the red", "By scratching into wet paint", "By leaving narrow gaps in the red so earlier paint shows"], "answer": 2, "explanation": "Matisse painted the red around the lines instead of drawing them on top."},
+    {"question": "Which things keep their own colors instead of turning red?", "options": ["The furniture", "Matisse's own artworks, plus plants and a plate", "The walls and floor"], "answer": 1, "explanation": "His paintings, sculptures and ceramics stand out against the red."},
+    {"question": "Where did the painting hang after it was sold in 1927?", "options": ["In a London nightclub", "In the Louvre", "In Shchukin's dining room"], "answer": 0, "explanation": "It hung at the Gargoyle Club in Soho; Shchukin had declined it."},
+    {"question": "Which later painter said he spent hours in front of it at the Museum of Modern Art?", "options": ["Pablo Picasso", "Andy Warhol", "Mark Rothko"], "answer": 2, "explanation": "Rothko credited the painting as a source for his own color fields."}
+  ],
+  "facts": [
+    {"text": "The red was the first thing Matisse painted on the canvas.", "isTrue": false, "explanation": "The room was first painted in blue, pink and ochre, and the red came late."},
+    {"text": "The large pink nude shown leaning against the wall was later destroyed at Matisse's request.", "isTrue": true, "explanation": "He considered it unfinished and asked for it to be destroyed after his death."},
+    {"text": "Sergei Shchukin bought The Red Studio as soon as it was finished.", "isTrue": false, "explanation": "He turned it down, and it stayed unsold until 1927."}
+  ]
+}

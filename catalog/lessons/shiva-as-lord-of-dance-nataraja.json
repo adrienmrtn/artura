@@ -1,0 +1,56 @@
+{
+  "teaser": "One foot in the air, hair still flying: a god caught mid-step for a thousand years.",
+  "focus": [0.5, 0.42],
+  "review_notes": "Dated here to about the 11th century per catalog year 1050; height of about 68 cm (27 in) per the Met.\nWhich hand holds what is described as seen in this photo (drum on the viewer's left, flame on the viewer's right).\nThe hole in the base as a socket for carrying poles in procession: standard explanation, please confirm for this cast.\nQueen Sembiyan Mahadevi's role in spreading the Nataraja image in the 10th century: standard account.\nCERN statue (gift of India, 2004, about 2 m tall): please confirm.\nOriginal surface described as warm brown/golden before the green patina formed: general statement about buried or weathered copper alloy.",
+  "lesson": [
+    {"type": "text", "text": "One foot is in the air and has not come down. The long locks of hair, flung out by a spin, have not fallen back onto the shoulders. A sash is still whipping sideways. Everything in this bronze belongs to the same split second of a dance, held now for about a thousand years."},
+    {"type": "text", "text": "The dancer is Shiva, one of the great gods of Hinduism, in the form called Nataraja, Lord of the Dance. The figure was cast in a copper alloy in Tamil Nadu, in the far south of India, around the 11th century, under the Chola kings. It stands about 68 centimeters tall (27 inches). The design is strict enough to be drawn as three lines."},
+    {"type": "lines", "text": "Wild movement, strict geometry. Three shapes hold the dance together.", "lines": [
+      {"points": [[0.49, 0.155], [0.33, 0.19], [0.21, 0.28], [0.13, 0.4], [0.105, 0.52], [0.14, 0.64], [0.22, 0.72], [0.36, 0.765], [0.63, 0.765], [0.78, 0.7], [0.87, 0.6], [0.905, 0.48], [0.86, 0.36], [0.78, 0.26], [0.66, 0.19]], "closed": true, "label": "The ring", "text": "A hoop edged with small flames surrounds the god. It stands for the universe, with the dancer as the energy at its center."},
+      {"points": [[0.495, 0.19], [0.5, 0.75]], "closed": false, "label": "The axis", "text": "From the crown to the standing foot, the body stays on one vertical. Head and torso are perfectly calm. All the motion is in the limbs."},
+      {"points": [[0.62, 0.39], [0.36, 0.47], [0.24, 0.6]], "closed": false, "label": "The sweep", "text": "One arm crosses the chest and its hand droops toward the lifted foot. Arm and leg swing the same way, like a single brushstroke across the circle."}
+    ]},
+    {"type": "text", "text": "That contrast, a still center and flying edges, is the idea of the whole sculpture. Shiva's dance is not a performance. Hindu texts describe it as the activity that keeps the cosmos going: making, maintaining, destroying, over and over. The sculptor's problem was to show endless motion in solid metal."},
+    {"type": "fact", "text": "The bronze was made by the lost-wax method. The sculptor modeled the entire figure in wax, coated it in clay and heated it so the wax ran out, then poured molten metal into the hollow. To free the sculpture, the clay mold was smashed. No second copy could ever be cast."},
+    {"type": "text", "text": "Four arms are not a monster's anatomy. They are a way of saying several things at once, the way a sentence has several words. Each hand either holds an object or makes a mudra, a hand gesture with a fixed meaning that worshippers could read at a glance."},
+    {"type": "tour", "title": "Reading the hands", "text": "Go around the four hands, starting with the one at upper left.", "spots": [
+      {"x": 0.27, "y": 0.335, "zoom": 3.6, "r": 0.05, "title": "The drum", "text": "A small hourglass-shaped drum, held up at the edge of the ring. Its beat is the first sound, the rhythm that sets creation going."},
+      {"x": 0.8, "y": 0.365, "zoom": 3.4, "r": 0.06, "title": "The flame", "text": "The opposite hand lifts a tongue of fire on its open palm. This is the fire that will one day dissolve the universe. Creation and destruction are held at the same height."},
+      {"x": 0.37, "y": 0.385, "zoom": 3.6, "r": 0.05, "title": "The raised palm", "text": "A front hand is held up, palm toward you. The gesture means “do not be afraid.” It is aimed directly at whoever stands in front of the god."},
+      {"x": 0.355, "y": 0.47, "zoom": 3.6, "r": 0.05, "title": "The pointing hand", "text": "The fourth hand hangs loose from the wrist, like an elephant's trunk, and points down at the lifted foot. That foot is where to seek refuge."}
+    ]},
+    {"type": "text", "text": "Put the four together and you get a balanced statement. Things begin (the drum), things end (the flame), and between the two the god offers protection (the palm) and a way out (the foot). Nothing here is a threat. Destruction is simply half of a cycle, as necessary as the other half."},
+    {"type": "key", "text": "Nataraja is a diagram of time as a circle. Creation and destruction are not opposites at war. They are two beats of the same rhythm."},
+    {"type": "text", "text": "Refuge from what, though? The hands leave that open, and the sculptor answers it lower down, in a spot that is easy to miss. The dancer is not standing on the lotus pedestal itself. Something lies between his foot and the base."},
+    {"type": "find", "text": "Shiva is dancing on top of someone. Can you find the face?", "spots": [
+      {"x": 0.402, "y": 0.775, "zoom": 4, "r": 0.05, "title": "The dwarf underfoot", "text": "A small figure lies flat under the standing foot, his round face turned outward. He is Apasmara, the demon of ignorance and forgetfulness."}
+    ]},
+    {"type": "text", "text": "The dwarf is pinned down, not killed. In the tradition, ignorance can never be wiped out for good, only kept underfoot, and it takes constant effort, a dance, to hold it there. The planted leg does that work. The lifted one, free of the ground, shows what release looks like."},
+    {"type": "fact", "text": "The image of Shiva dancing in a ring of fire became widespread in the 900s, when the Chola queen Sembiyan Mahadevi, widowed young, spent decades rebuilding temples in stone and donating bronzes to them. It grew into a symbol of the Chola dynasty itself."},
+    {"type": "text", "text": "In a museum the figure is a sculpture on a plinth. For the people who made it, it was a body the god could inhabit. On festival days it left the temple and was carried through the streets so that everyone, including those not allowed into the inner shrine, could see and be seen by Shiva. The object itself still carries the evidence."},
+    {"type": "explore", "spots": [
+      {"x": 0.511, "y": 0.896, "zoom": 4, "r": 0.04, "shape": "arrow", "title": "A hole in the base", "text": "This round opening is a socket. Poles were passed through the base so that bearers could lift the bronze onto their shoulders and carry it in procession."},
+      {"x": 0.505, "y": 0.305, "zoom": 3.4, "r": 0.06, "title": "The face", "text": "Level eyes, a faint smile. While his limbs fly, his expression stays completely serene. The dance costs him no effort."},
+      {"x": 0.33, "y": 0.3, "zoom": 2.6, "r": 0.1, "title": "Flying hair", "text": "Shiva is an ascetic with long matted locks. The spin throws them out in rippling horizontal strands that reach the ring on both sides."},
+      {"x": 0.495, "y": 0.21, "zoom": 3.2, "r": 0.06, "title": "The headdress", "text": "A tall fan rises above the forehead like a spray of feathers or leaves. It lifts the vertical axis almost to the top of the hoop."},
+      {"x": 0.26, "y": 0.6, "zoom": 3.2, "r": 0.07, "title": "The lifted foot", "text": "Toes relaxed, an anklet at the heel. The whole leg swings across the body with nothing under it. This is the foot the drooping hand points to."},
+      {"x": 0.49, "y": 0.13, "zoom": 3, "r": 0.08, "title": "Flames on the rim", "text": "Each little crest on the outside of the hoop is a flame with several tongues. Lit by oil lamps in a dark temple, the ring would have seemed to flicker."},
+      {"x": 0.83, "y": 0.515, "zoom": 3.2, "r": 0.06, "title": "The sash", "text": "The end of a waist cloth streams out sideways and touches the ring. It is one more sign that the body has just turned, and it also braces the hoop."}
+    ]},
+    {"type": "fact", "text": "A two-meter-tall Nataraja stands outside CERN, the particle physics laboratory near Geneva. India gave it to the lab in 2004. Physicists had long been struck by the parallel between Shiva's dance and the constant creation and destruction of subatomic particles."},
+    {"type": "text", "text": "The green you see is patina, a crust that forms on copper over centuries. When new, the metal was a warm, reddish brown. Even so, worshippers rarely saw bare bronze. For a procession the figure was bathed, rubbed with oils, wrapped in silk and buried in flower garlands until little more than the face showed."}
+  ],
+  "quiz": [
+    {"question": "What does the name Nataraja mean?", "options": ["Lord of the Dance", "King of Fire", "Protector of Temples"], "answer": 0, "explanation": "Nataraja is Shiva in his form as Lord of the Dance."},
+    {"question": "What does the small drum in Shiva's hand stand for?", "options": ["War", "The rhythm of creation", "The end of the world"], "answer": 1, "explanation": "Its beat is the first sound, which sets creation going."},
+    {"question": "Who lies under Shiva's standing foot?", "options": ["A defeated king", "A sleeping worshipper", "Apasmara, the demon of ignorance"], "answer": 2, "explanation": "The dwarf Apasmara represents ignorance, held down but not killed."},
+    {"question": "Why could no second copy be cast from the same mold?", "options": ["The mold was smashed to free the bronze", "The king forbade it", "The wax was too expensive"], "answer": 0, "explanation": "In lost-wax casting the clay mold is broken open, so each bronze is unique."},
+    {"question": "What is the hole in the base for?", "options": ["Draining rainwater", "Poles used to carry the figure in procession", "Holding an oil lamp"], "answer": 1, "explanation": "Poles passed through the base so bearers could carry the god through the streets."},
+    {"question": "What does the raised palm facing the viewer mean?", "options": ["Stop, go away", "Give an offering", "Do not be afraid"], "answer": 2, "explanation": "It is a gesture of protection and reassurance."}
+  ],
+  "facts": [
+    {"text": "The bronze was always green, the color chosen by the sculptor.", "isTrue": false, "explanation": "The green is patina that formed over centuries; the new metal was reddish brown."},
+    {"text": "A large statue of Nataraja stands outside the CERN physics laboratory.", "isTrue": true, "explanation": "India gave it to CERN in 2004."},
+    {"text": "The dwarf under Shiva's foot is shown being killed.", "isTrue": false, "explanation": "Ignorance is only pinned down, since it can never be destroyed for good."}
+  ]
+}

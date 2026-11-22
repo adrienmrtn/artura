@@ -1,0 +1,50 @@
+{
+  "teaser": "Paris called it a sack of coal and a snowman. Rodin called it the sum of his whole life.",
+  "focus": [0.54, 0.13],
+  "review_notes": "The photo shows a bronze cast in the garden of the Musée Rodin; the 1898 original shown at the Salon was plaster. No bronze was cast in Rodin's lifetime; first cast set up in Paris (boulevard Raspail) in 1939.\nCommission of 1891 from the Société des Gens de Lettres under Zola, 18-month deadline; Rodin returned the advance after the refusal.\nRodin's study trip to Touraine, Balzac's home region.\nInsults ('sack of coal', 'snowman', 'seal', 'larva') reported from the 1898 press.\nThe replacement commission went to Alexandre Falguière.\nRodin ordering clothes from Balzac's former tailor; dressing gown dipped in plaster; nude studies.\nRodin's phrase 'the sum of my whole life' (la résultante de toute ma vie).\nSteichen's moonlight photographs of the plaster at Meudon, 1908.\nHeight of the figure about 2.7 m.",
+  "lesson": [
+    {"type": "text", "text": "In 1898 the committee that had ordered this statue looked at it and refused to accept it. Their official statement said they could not recognize in it a statue of Balzac. The newspapers were less polite: a sack of coal, a snowman, a seal, a larva. Auguste Rodin took his sculpture home and never saw it cast in bronze."},
+    {"type": "text", "text": "The story had started well. In 1891 the Society of Men of Letters, France's writers' association, wanted a monument to Honoré de Balzac, the novelist of The Human Comedy, dead since 1850. Its president, the writer Émile Zola, pushed for Rodin. Rodin promised a statue in eighteen months."},
+    {"type": "text", "text": "It took him seven years. The problem was that he had never seen his subject, and Balzac was no gift to a sculptor: short, very fat, with a huge head. Rodin read the novels, traveled to Balzac's home region to study local faces, and collected every portrait he could find."},
+    {"type": "fact", "text": "Rodin tracked down Balzac's old tailor, who had kept the writer's measurements, and ordered a suit of clothes in that size, just to have the dead man's volume standing in his studio."},
+    {"type": "text", "text": "He then modeled Balzac naked, many times, arms crossed over a round belly, to understand the body. Only afterwards did he dress it. Balzac famously wrote at night, wrapped in a loose monk-like dressing gown. Rodin soaked a real gown in plaster, draped it over a study, and found his statue. What it covers is the whole point."},
+    {"type": "tour", "title": "What the robe hides", "text": "Work your way down the figure and look for the body underneath.", "spots": [
+      {"x": 0.54, "y": 0.13, "zoom": 3.0, "r": 0.1, "title": "The head", "text": "Deep-set eyes under a heavy brow, a thick mane of hair, the chin lifted. The features are gouged more than carved, made to be read from far below."},
+      {"x": 0.5, "y": 0.21, "zoom": 2.8, "r": 0.14, "title": "The collar", "text": "The gown's wide lapels rise around the neck like two rough wings. They work as a pedestal for the head, pushing it up and back."},
+      {"x": 0.5, "y": 0.36, "zoom": 2.4, "r": 0.15, "title": "Hidden arms", "text": "No hands anywhere. Under the folds you can sense the arms crossed in front, holding the gown shut from inside. One long fold sweeps across the chest."},
+      {"x": 0.65, "y": 0.5, "zoom": 2.4, "r": 0.09, "shape": "rect", "title": "The empty sleeve", "text": "On this side the sleeve hangs loose with nothing in it. Balzac wears the gown thrown over his shoulders like a cape."}
+    ]},
+    {"type": "text", "text": "That is what shocked people. A monument in 1898 was supposed to show a great man in a frock coat, with a pen, a book, a chair, perhaps a muse at his feet. Rodin gave them a column of cloth with a face on top. No attributes, no anecdote, hardly an anatomy."},
+    {"type": "key", "text": "Rodin did not portray what Balzac looked like. He tried to give a shape to what Balzac was: a force of imagination, rising in the night."},
+    {"type": "text", "text": "The second scandal was the pose. Statues of the time stood straight or stepped forward. This one tips backward, as if the head were pulling away from the feet."},
+    {"type": "lines", "text": "Two lines explain why the figure seems to rear up.", "lines": [
+      {"points": [[0.44, 0.79], [0.48, 0.5], [0.54, 0.1]], "closed": false, "label": "The lean", "text": "From the base to the top of the hair the figure slants back and to the side. Nothing props it up: no cane, no chair, no tree stump."},
+      {"points": [[0.34, 0.78], [0.33, 0.5], [0.36, 0.22], [0.54, 0.08], [0.68, 0.24], [0.67, 0.45], [0.6, 0.62], [0.6, 0.78]], "closed": true, "label": "The outline", "text": "Seen as a silhouette, the statue is one closed shape with almost no gaps: a standing stone. Detail is given up so that the outline reads from a great distance."}
+    ]},
+    {"type": "text", "text": "This silhouette thinking was new. Sculpture had been about muscles, gestures and finish. Rodin simplified until only the big masses and the play of light on rough surfaces were left. Twenty years later, modern sculptors such as Brancusi would start from exactly there."},
+    {"type": "fact", "text": "After the refusal, Rodin paid back the advance he had received. The Society gave the job to another sculptor, Alexandre Falguière, who delivered a seated Balzac in a dressing gown. Hardly anyone remembers it."},
+    {"type": "text", "text": "Rodin kept the big plaster at his house in Meudon, outside Paris. Collectors offered to buy it and he said no. He told friends the statue was the sum of his whole life and the very hinge of his art, and that time would decide."},
+    {"type": "fact", "text": "In 1908 the young American photographer Edward Steichen spent nights photographing the plaster outdoors by moonlight. Rodin was delighted with the ghostly pictures and said they would make the world understand his Balzac."},
+    {"type": "explore", "spots": [
+      {"x": 0.52, "y": 0.77, "zoom": 2.6, "r": 0.13, "title": "The feet", "text": "The gown stops just above two heavy feet planted on a rough slab. One foot edges forward, the only hint of a step."},
+      {"x": 0.44, "y": 0.6, "zoom": 2.2, "r": 0.12, "shape": "rect", "title": "Long folds", "text": "Deep vertical grooves run down the gown like the bark of a tree. Rodin left the surface rough so that light and shadow would keep changing on it."},
+      {"x": 0.5, "y": 0.42, "zoom": 2.6, "r": 0.1, "title": "Green and black", "text": "Bronze turns green outdoors as rain reacts with the metal. Here the streaks follow the folds, which makes the modeling easier to read."},
+      {"x": 0.6, "y": 0.2, "zoom": 3.0, "r": 0.08, "title": "The mane", "text": "The hair falls in thick clumps to the collar and merges with it, so head and robe become a single mass."},
+      {"x": 0.45, "y": 0.87, "zoom": 1.8, "r": 0.25, "title": "The bases", "text": "The bronze stands on its own irregular base, modeled by Rodin, which sits on a plain stone slab in the museum's garden."}
+    ]},
+    {"type": "text", "text": "Rodin died in 1917. Only in 1939 was a bronze finally cast and set up on a Paris boulevard, more than forty years after the scandal. The cast in this photo stands among the trees of the Musée Rodin. The sack of coal is now one of the starting points of modern sculpture."}
+  ],
+  "quiz": [
+    {"question": "What happened when Rodin showed his Balzac in 1898?", "options": ["It won a gold medal", "The writers' society that ordered it refused it", "It was bought by the French state"], "answer": 1, "explanation": "The Society of Men of Letters said it could not recognize Balzac in it."},
+    {"question": "Why is Balzac wrapped in a loose gown?", "options": ["He wrote at night in a monk-like dressing gown", "Rodin could not model hands", "It was the fashion for monuments in 1898"], "answer": 0, "explanation": "The robe recalls the gown Balzac wore while writing."},
+    {"question": "Where are the figure's hands?", "options": ["Holding a pen and a book", "Raised to the sky", "Hidden under the gown"], "answer": 2, "explanation": "The arms are crossed beneath the cloth, and one sleeve hangs empty."},
+    {"question": "How did Rodin get a sense of Balzac's body size?", "options": ["He ordered clothes from Balzac's old tailor", "He measured Balzac's skeleton", "He hired Balzac's grandson as a model"], "answer": 0, "explanation": "The tailor had kept the writer's measurements."},
+    {"question": "When was the statue first cast in bronze and set up in Paris?", "options": ["In 1898, right after the Salon", "In 1939, long after Rodin's death", "In 1908, for Steichen's photographs"], "answer": 1, "explanation": "Rodin died in 1917 and the first bronze was erected in 1939."},
+    {"question": "How does the figure stand?", "options": ["Stepping firmly forward", "Seated in an armchair", "Leaning backward"], "answer": 2, "explanation": "The whole figure slants back, as if rearing up."}
+  ],
+  "facts": [
+    {"text": "Rodin finished the monument within the eighteen months he had promised.", "isTrue": false, "explanation": "It took him seven years, from 1891 to 1898."},
+    {"text": "Rodin modeled Balzac nude before covering the figure with the gown.", "isTrue": true, "explanation": "He made many naked studies to understand the body first."},
+    {"text": "Rodin sold the plaster to a collector soon after the scandal.", "isTrue": false, "explanation": "He refused offers and kept it at his house in Meudon."}
+  ]
+}

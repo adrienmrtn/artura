@@ -1,0 +1,48 @@
+{
+  "teaser": "Sherbet pinks, lemon yellows, and two cannons firing in the corner.",
+  "focus": [0.8, 0.7],
+  "review_notes": "Kandinsky's explanation to Arthur Jerome Eddy (subtitle for his own use; cannons probably explained by the constant war talk of that year; painted 'rather subconsciously, in a state of strong inner tension') is paraphrased from the letter Eddy published in 1914.\nEddy collection entering the Art Institute of Chicago in 1931: confirm.\nAlfred Stieglitz buying Improvisation 27 at the 1913 Armory Show for $500: confirm.\nReading of the lower left shapes as a crowd of figures and of the hilltop shapes as leaning towers follows the museum's description.\nPainting about 111 cm square.",
+  "lesson": [
+    {"type": "text", "text": "This picture argues with itself. Its colors are the colors of a candy shop: sherbet pink, lemon, baby blue. Its official title, Improvisation No. 30, promises something abstract, free of objects. And yet it carries a nickname in brackets that names a very solid object indeed, and you can go and find it."},
+    {"type": "find", "text": "Somewhere in this soft storm of color, two cannons are firing. Where?", "spots": [
+      {"x": 0.86, "y": 0.78, "zoom": 2.4, "r": 0.15, "title": "The cannons", "text": "Two brown barrels slant up to the left from the lower right corner, with black curved spokes of wheels behind them. They are drawn almost like a child's toy, but there is no doubt what they are."}
+    ]},
+    {"type": "text", "text": "So is this a war painting? Wassily Kandinsky made it in 1913, a year and a half before World War I, and the question was put to him at the time. His answer was no. The cannons, he said, were not the content of the picture."},
+    {"type": "text", "text": "He explained himself in a letter to the painting's first owner. The word “Cannons” was a label for his own use, a way to tell this canvas from the others. The guns had probably slipped in because of the endless talk of war that filled that year. He had painted the whole thing rather subconsciously, in a state of strong inner tension."},
+    {"type": "fact", "text": "That owner was Arthur Jerome Eddy, a Chicago lawyer and one of the first Americans to collect Kandinsky. He printed the painter's letter in a book he published in 1914, an early American defense of modern art. His collection later went to the Art Institute of Chicago."},
+    {"type": "text", "text": "“Rather subconsciously” is the key to the main title. Kandinsky sorted his paintings into three families. Impressions started from something seen outdoors. Compositions were planned slowly, with many studies. Improvisations sat in between: pictures that welled up quickly from inside, without a plan. He numbered them like pieces of music, and this is the thirtieth."},
+    {"type": "text", "text": "When you paint from the unconscious, familiar things float up half-formed. The cannons are the clearest, but they are not alone. Other shapes here are on the edge of being something."},
+    {"type": "tour", "title": "Almost things", "text": "Three more places where an object nearly appears.", "spots": [
+      {"x": 0.72, "y": 0.42, "zoom": 2.2, "r": 0.13, "shape": "rect", "title": "Tilting towers", "text": "Tall narrow blocks outlined in black, one bright red with dark window slits. They lean to the left as if the ground were shaking under a hilltop town."},
+      {"x": 0.12, "y": 0.68, "zoom": 2.4, "r": 0.12, "title": "A crowd", "text": "A row of small pale ovals above long vertical streaks of yellow, orange and green: heads and bodies, perhaps. A mass of people pressed together at the picture's edge."},
+      {"x": 0.5, "y": 0.83, "zoom": 2.2, "r": 0.13, "title": "Smoke", "text": "A ragged gray and white cloud with a toothed edge billows out in front of the barrels. Right where a cannon blast would be."}
+    ]},
+    {"type": "text", "text": "Guns, smoke, toppling towers, a crowd. Put together, it sounds like a catastrophe. Kandinsky was steeped in such images. In these years he returned again and again to the Flood and the end of the world from the Bible, which he saw less as horror than as the violent birth of a new, more spiritual age."},
+    {"type": "fact", "text": "The year this was painted, American audiences met Kandinsky for the first time at the Armory Show in New York, a huge exhibition that introduced modern European art to the United States. The photographer Alfred Stieglitz bought his Improvisation No. 27 there for 500 dollars."},
+    {"type": "text", "text": "Now set the half-objects aside and watch the paint. The other half of the contradiction is here: the mood of the color has nothing to do with the mood of the subject. And line and color go their separate ways, each doing its own job."},
+    {"type": "explore", "spots": [
+      {"x": 0.42, "y": 0.53, "zoom": 2, "r": 0.15, "title": "The blue heart", "text": "A big ultramarine shape with a feathered white rim. Lake, cloud, mountain shadow? It is none of them. It is simply the deepest, coolest note in the picture."},
+      {"x": 0.2, "y": 0.11, "zoom": 2, "r": 0.14, "title": "A night corner", "text": "Dark navy and green fill the upper left, the only heavy darkness on the canvas. Pink and white puffs break into it like smoke or surf."},
+      {"x": 0.86, "y": 0.6, "zoom": 2.2, "r": 0.13, "title": "The striped hills", "text": "Pink and yellow humps edged with short blue and red dashes. The dashes follow the curve like stitches, giving the hills a rolling motion."},
+      {"x": 0.36, "y": 0.5, "zoom": 2.6, "r": 0.1, "title": "A wandering line", "text": "A reddish-brown line loops across the blue without enclosing anything. In older painting, lines fence colors in. Here they roam free."},
+      {"x": 0.95, "y": 0.82, "zoom": 3, "r": 0.06, "title": "The wheels", "text": "Thick black arcs, the darkest and hardest marks in the painting. They are slashed on quickly, a few strokes each."},
+      {"x": 0.08, "y": 0.975, "zoom": 4, "r": 0.06, "title": "Signed and dated", "text": "In the lower left, small capital letters: KANDINSKY, followed by the year, 1913."}
+    ]},
+    {"type": "text", "text": "Seen this near, the paint is thin and fast, scrubbed on in places so the weave of the canvas shows through. That fits the method. An Improvisation was meant to keep the temperature of the moment it was made in, not to be polished afterward."},
+    {"type": "text", "text": "Then August 1914 arrived, and the nickname began to look like prophecy. Many people have since read the picture as a premonition of the war. Kandinsky's own account is more modest and maybe more interesting: an artist does not need to predict anything to absorb what is in the air."},
+    {"type": "key", "text": "For Kandinsky an Improvisation was a quick, unplanned outpouring of inner feeling. Recognizable things may drift into it, but they are passengers, not the subject."},
+    {"type": "text", "text": "Try an experiment the next time you see it. Cover the word “Cannons” in your mind and ask what the colors alone would have told you. A battle, or a carnival?"}
+  ],
+  "quiz": [
+    {"question": "According to Kandinsky, why is the word 'Cannons' in the title?", "options": ["It was a label for his own use", "The painting was ordered by the army", "It depicts a specific battle"], "answer": 0, "explanation": "He said the subtitle helped him identify the canvas and was not its content."},
+    {"question": "How did Kandinsky explain the presence of the cannons?", "options": ["He copied them from a newspaper photo", "They came from the constant talk of war that year", "Eddy asked him to add them"], "answer": 1, "explanation": "He thought the war talk of 1913 had slipped into the picture without his intending it."},
+    {"question": "In Kandinsky's system, what is an 'Improvisation'?", "options": ["A picture painted outdoors from nature", "A slowly planned work with many studies", "A quick, unplanned expression of inner feeling"], "answer": 2, "explanation": "Improvisations welled up from inside, without a plan, between Impressions and Compositions."},
+    {"question": "Who was Arthur Jerome Eddy?", "options": ["A German art critic", "A Chicago lawyer and early collector of Kandinsky", "Kandinsky's teacher in Munich"], "answer": 1, "explanation": "Eddy owned the painting first and published Kandinsky's letter about it in 1914."},
+    {"question": "What do the tall shapes on the hill appear to be doing?", "options": ["Leaning as if shaken", "Burning", "Sinking into water"], "answer": 0, "explanation": "The tower-like blocks tilt to the left as though the ground were moving."}
+  ],
+  "facts": [
+    {"text": "Kandinsky said he set out to paint a picture of war.", "isTrue": false, "explanation": "He denied it and said the cannons were not the content of the painting."},
+    {"text": "The painting was made before World War I began.", "isTrue": true, "explanation": "It dates from 1913, about a year and a half before the war."},
+    {"text": "The colors of the painting are mostly dark grays and browns.", "isTrue": false, "explanation": "It is dominated by pinks, yellows and blues, in contrast with its warlike motifs."}
+  ]
+}

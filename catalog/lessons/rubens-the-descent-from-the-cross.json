@@ -1,0 +1,59 @@
+{
+  "teaser": "Eight people, one white sheet, and a body that must not fall.",
+  "focus": [0.52, 0.4],
+  "review_notes": "Image shows the central panel only; the wings (Visitation, Presentation in the Temple) are described in text but not visible.\nCommission 1611 by the Arquebusiers' guild, central panel delivered 1612, wings 1614: check the wording against the listed year 1614.\nIdentification of the richly dressed bearded man on the left as Joseph of Arimathea and the man in black on the right as Nicodemus follows the common reading; some sources reverse them.\nCentral panel size about 4.2 x 3.1 m.\nTaken to Paris by French troops in 1794, returned 1815.\nA Dog of Flanders (Ouida, 1872) and its popularity in Japan; the painting was once kept behind a curtain shown for a fee.\nRembrandt's Descent (about 1633) drawing on a print after Rubens.",
+  "lesson": [
+    {"type": "text", "text": "How would you get a grown man's dead body down from a cross four meters up, at night, without letting it drop? You would need ladders, a strong cloth, and more hands than you think. Rubens asked himself that practical question, and his answer fills a panel taller than a room."},
+    {"type": "text", "text": "The order came in 1611 from the Arquebusiers of Antwerp, a civic guard armed with early muskets. They wanted an altarpiece for their chapel in the city's cathedral. Rubens was thirty-four, lived next door to their headquarters, and was already the most wanted painter in town."},
+    {"type": "fact", "text": "The guild's patron saint was Christopher, whose Greek name means “Christ-bearer”. So Rubens built the whole altarpiece on a pun: in every scene, someone is carrying Christ. Here, eight people do."},
+    {"type": "text", "text": "Nine figures crowd a tall, narrow rectangle, in the dark. It could have been chaos. Rubens ties them together with a few simple shapes that your eye follows before you notice them."},
+    {"type": "lines", "text": "Three shapes organize the crowd.", "lines": [
+      {"points": [[0.8, 0.12], [0.66, 0.3], [0.5, 0.42], [0.36, 0.63], [0.2, 0.7]], "closed": false, "label": "The slide", "text": "One long diagonal runs from the top right corner to the women at the bottom left. The white cloth and the pale body lie along it. Everything is slipping down this slope."},
+      {"points": [[0.5, 0.11], [0.72, 0.1], [0.84, 0.36], [0.68, 0.5], [0.36, 0.63], [0.29, 0.49], [0.31, 0.32]], "closed": true, "label": "The ring", "text": "Join the heads of the helpers and you get a loop around Christ. No one stands outside it. The body is passed around a circle of care."},
+      {"points": [[0.69, 0.5], [0.62, 0.72], [0.58, 0.93]], "closed": false, "label": "The pillar", "text": "The man in red is the only strong upright. He leans back to take the weight, one foot on the ladder, and his vertical stops the diagonal from sliding out of the picture."}
+    ]},
+    {"type": "text", "text": "That diagonal is also the light. There is no moon, no torch, no window. The brightness seems to come from the sheet and the body themselves, a white streak cutting through brown darkness. Rubens makes the dead man the lamp of his own scene."},
+    {"type": "text", "text": "He had learned this in Italy, where he spent eight years and came home in 1608. There he had studied ancient marble athletes, Michelangelo's muscles, and the harsh spotlight of Caravaggio. This panel pours all of it into a single Flemish altarpiece."},
+    {"type": "text", "text": "Start where the work starts: at the top of the cross, with the men doing the heavy part."},
+    {"type": "tour", "title": "The top of the ladder", "text": "Three men, three ways of holding on.", "spots": [
+      {"x": 0.74, "y": 0.12, "zoom": 3.0, "r": 0.1, "title": "Teeth", "text": "This gray-haired man leans over the crossbar with both hands busy, so he grips the edge of the shroud in his teeth. It is the least dignified detail in the picture and the most convincing."},
+      {"x": 0.45, "y": 0.14, "zoom": 2.4, "r": 0.14, "title": "The stretch", "text": "A half-naked worker hangs over the beam, one leg kicked out behind him for balance. His hand has just let go of Christ's shoulder. The muscles come straight from ancient statues Rubens drew in Rome."},
+      {"x": 0.3, "y": 0.34, "zoom": 2.6, "r": 0.11, "title": "The rich man", "text": "On the left ladder, a bearded man in a red cap and gold brocade steadies the cloth. The Gospels say a wealthy follower, Joseph of Arimathea, asked for the body. His stare is fixed on the job."}
+    ]},
+    {"type": "text", "text": "Notice what nobody is doing. Nobody faints, prays to the sky, or turns to us. Each person has a task, and each task is a point of contact: a hand under an arm, a fist in the cloth, a shoulder braced. The grief is in the carefulness."},
+    {"type": "key", "text": "Rubens turns a sacred subject into a physical problem of weight and balance. The emotion comes from watching people handle a body with total attention."},
+    {"type": "text", "text": "Lower down, the work passes from the men to the women. Three of them wait below, arms raised. One has already received something."},
+    {"type": "find", "text": "Part of Christ's body has already reached the ground crew. Whose hands is it resting in?", "spots": [
+      {"x": 0.41, "y": 0.63, "zoom": 3.2, "r": 0.08, "title": "The foot", "text": "The blonde woman kneeling at the bottom, Mary Magdalene, holds his bloodied foot in both hands, close to her hair. Blood runs over her fingers. She does not flinch."}
+    ]},
+    {"type": "text", "text": "The choice is pointed. In the Gospels a repentant woman once washed Christ's feet with her tears and dried them with her hair, and tradition gave that role to Mary Magdalene. Just above her, his mother, in blue, face gray as ash, reaches up without yet touching him."},
+    {"type": "fact", "text": "In 1794 French revolutionary troops took the painting down and carried it to Paris as war booty, where it hung in the Louvre. It only came home to Antwerp in 1815, after Napoleon's defeat at Waterloo."},
+    {"type": "text", "text": "What you see here is the central panel of a triptych, a painting in three hinged parts. It is oil on oak boards, about 4.2 meters high and 3.1 wide (roughly 14 by 10 feet). The two side wings, which close over it like shutters, show the pregnant Mary and the infant Christ carried in the Temple."},
+    {"type": "text", "text": "A picture this size was read from far away during Mass, then studied up close afterward. Rubens rewards both distances. Wander through it now, down to the corner where he set the instruments of the execution aside."},
+    {"type": "explore", "spots": [
+      {"x": 0.5, "y": 0.37, "zoom": 3.0, "r": 0.09, "title": "The head", "text": "It rolls onto the shoulder, eyes barely closed, lips bluish. Rubens paints death as dead weight, with no halo to soften it."},
+      {"x": 0.3, "y": 0.49, "zoom": 3.0, "r": 0.09, "title": "The mother", "text": "Mary's face is nearly the color of her son's skin. Her open hand stretches toward his arm, a few inches short."},
+      {"x": 0.66, "y": 0.51, "zoom": 2.8, "r": 0.09, "title": "John", "text": "The young apostle John looks up into the body he is about to catch. His red robe is the one large area of pure color, and it sits right under the wound."},
+      {"x": 0.56, "y": 0.47, "zoom": 3.2, "r": 0.07, "title": "The wound", "text": "Blood from the spear cut in his side has run down and stained the loincloth. Smaller red drops spot the white sheet higher up."},
+      {"x": 0.83, "y": 0.37, "zoom": 2.8, "r": 0.09, "title": "The man in black", "text": "Climbing the right-hand ladder, a dark-bearded helper feeds the shroud down with both hands. He is usually named as Nicodemus, who helped with the burial."},
+      {"x": 0.23, "y": 0.65, "zoom": 2.8, "r": 0.09, "title": "The third woman", "text": "Wide wet eyes, looking up. Her hands hold nothing yet. She is the picture's witness, the one who simply watches."},
+      {"x": 0.87, "y": 0.95, "zoom": 3.2, "r": 0.09, "title": "The basin", "text": "A copper dish holds the crown of thorns and nails in a pool of blood. Beside it lies the paper notice that was fixed to the cross, already crumpled."}
+    ]},
+    {"type": "fact", "text": "In the 1872 novel A Dog of Flanders, a poor boy dreams all his life of seeing this painting, which was then kept behind a curtain for paying visitors. He dies in front of it. The story is so loved in Japan that Japanese travelers still come to Antwerp for it."},
+    {"type": "text", "text": "Prints carried the composition across Europe within a few years. In Amsterdam a young Rembrandt owned one and painted his own, smaller Descent in reply. For two centuries, a painter asked to show this scene had to decide what to do about Rubens."},
+    {"type": "text", "text": "So how do you lower a dead man without dropping him? With a sheet held in someone's teeth, a friend braced on a ladder, and a woman waiting below with open hands. Rubens's answer is that it takes everybody."}
+  ],
+  "quiz": [
+    {"question": "Why does every scene of the altarpiece show someone carrying Christ?", "options": ["The guild's patron was Saint Christopher, whose name means Christ-bearer", "The bishop wrote the program that way", "Rubens was copying an Italian model"], "answer": 0, "explanation": "The Arquebusiers' patron saint was Christopher, the “Christ-bearer”."},
+    {"question": "Where does the light in the painting seem to come from?", "options": ["A torch at the top", "A full moon behind the cross", "The white shroud and the body themselves"], "answer": 2, "explanation": "There is no visible source; the sheet and body glow against the dark."},
+    {"question": "How does the gray-haired man at the top hold the shroud?", "options": ["With a rope", "In his teeth", "Under his arm"], "answer": 1, "explanation": "His hands are busy, so he clamps the cloth between his teeth."},
+    {"question": "Who holds Christ's foot at the bottom of the painting?", "options": ["The Virgin Mary", "John in the red robe", "Mary Magdalene"], "answer": 2, "explanation": "The kneeling blonde woman, Mary Magdalene, takes the bloodied foot in her hands."},
+    {"question": "What happened to the painting in 1794?", "options": ["French troops took it to Paris", "It was damaged in a fire", "It was sold to an English collector"], "answer": 0, "explanation": "It was carried off as war booty and returned in 1815."},
+    {"question": "What lies in the copper basin at the bottom right?", "options": ["Coins for the soldiers", "The crown of thorns and nails", "A sponge and a jug of water"], "answer": 1, "explanation": "The instruments of the execution rest in a pool of blood."}
+  ],
+  "facts": [
+    {"text": "Rubens painted the Descent before he had ever been to Italy.", "isTrue": false, "explanation": "He had returned from eight years in Italy in 1608, three years before the commission."},
+    {"text": "The man in the red robe is the only strong vertical in the composition.", "isTrue": true, "explanation": "John's upright body braces against the long diagonal of the shroud."},
+    {"text": "The image shows all three panels of the altarpiece.", "isTrue": false, "explanation": "It shows only the central panel of the triptych."}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "teaser": "Calais ordered one hero on a pedestal. Rodin delivered six frightened men at street level.",
+  "focus": [0.5, 0.3],
+  "review_notes": "Date: pilot.json gives 1889 (the year the full plaster was completed and shown). The monument was commissioned in 1884-85 and unveiled in Calais in 1895; the Met's bronze was cast in 1985. The lesson uses 1884, 1895 and 1985 without contradicting 1889.\nIdentification of the figures in this photo: man with the key = Jean d'Aire; bearded man = Eustache de Saint-Pierre; these are standard. The man with the raised hand (probably Pierre de Wissant) and the man clutching his head (probably Andrieu d'Andres) are deliberately left unnamed.\nOnly five figures are clearly readable from this angle; the lesson says some are half hidden.\nSiege of Calais: September 1346 to August 1347, about eleven months; story from Froissart's Chronicles; Queen Philippa of Hainault, pregnant, obtained mercy.\nRodin's age in 1884: 43.\nRodin modeled the figures nude before draping them.\nCalais committee's objections (dejected attitudes, lack of the usual pyramid shape).\nMonument lowered to near ground level in 1924, in front of the town hall.\nTwelve casts allowed under French law; first in Calais; others in London, Paris, Tokyo, Seoul among them.",
+  "lesson": [
+    {"type": "text", "text": "Calais, northern France, August 1347. The English army has surrounded the town for eleven months and the food is gone. King Edward III, furious at how long it has taken, makes an offer: he will spare the people if six of the leading citizens, the burghers, walk out to him ready to die."},
+    {"type": "text", "text": "His conditions are precise. They must come bareheaded and barefoot, in their shirts, with ropes around their necks, carrying the keys to the town and its castle. According to the chronicler Jean Froissart, the richest man in Calais, Eustache de Saint-Pierre, stood up first. Five others followed."},
+    {"type": "text", "text": "Five centuries later, in 1884, Calais decided to honor them with a monument and turned to Auguste Rodin, 43, a sculptor with a rising and controversial name. The town council pictured one hero, Eustache, high on a pedestal. Rodin read Froissart and came back with all six."},
+    {"type": "text", "text": "He chose the worst minute of the story. The men have gathered and are about to start walking toward the English camp. None of them knows he will survive. Each is alone with the decision he has just made, and one of them carries what the king demanded."},
+    {"type": "find", "text": "Which of these men holds the key to the city?", "spots": [
+      {"x": 0.675, "y": 0.565, "zoom": 3.5, "r": 0.05, "title": "The key", "text": "Jean d'Aire grips an enormous key in both fists, low in front of his body. His jaw is set, his back straight. Of all of them, he is the one who has decided not to flinch."}
+    ]},
+    {"type": "text", "text": "Now compare him with his companions, because Rodin gives each one a different answer to the same fear. That was the scandal. Monuments were supposed to show courage. This one shows doubt, grief and exhaustion right beside it, and ranks none above the others."},
+    {"type": "fact", "text": "Rodin first modeled every one of the men naked, to get the weight and tension of each body right. Only afterwards did he hang the heavy shirts on them. Several of those nude studies survive as sculptures in their own right."},
+    {"type": "text", "text": "Travel across the group from left to right. Pay as much attention to the hands as to the faces: Rodin made them larger than life, heavy as tools, so that they would speak from a distance."},
+    {"type": "tour", "title": "Four ways to be afraid", "text": "The photo shows one side of the group. Some of the men are half hidden behind the others.", "spots": [
+      {"x": 0.245, "y": 0.22, "zoom": 3, "r": 0.08, "title": "The raised hand", "text": "The man on the left turns his head down and away and lifts an open hand, as if starting a sentence that will not come out. His body is already leaving."},
+      {"x": 0.505, "y": 0.215, "zoom": 3.2, "r": 0.07, "title": "The oldest", "text": "Bearded, head sunk forward: this is usually identified as Eustache de Saint-Pierre, the first volunteer. No heroic pose at all. He looks very tired."},
+      {"x": 0.775, "y": 0.26, "zoom": 3.2, "r": 0.07, "title": "Head in hands", "text": "At the right edge a man bends over and clutches his skull. A thick knotted rope hangs beside him. This is plain despair, cast in bronze for a public square."},
+      {"x": 0.313, "y": 0.52, "zoom": 3.5, "r": 0.05, "title": "An open palm", "text": "A hand hangs open at hip height, fingers spread, bigger than a real one. Rodin often let a hand carry as much feeling as a face."}
+    ]},
+    {"type": "text", "text": "Four temperaments, yet the same coarse shirt and the same patch of ground. When the Calais committee saw the model, it complained that the men looked defeated and that the group lacked the usual elegant outline. The usual outline was a pyramid: lesser figures below, the hero rising at the top, one clear front. Rodin threw that out, and you can trace how."},
+    {"type": "lines", "text": "How the group is built.", "lines": [
+      {"points": [[0.25, 0.185], [0.8, 0.185]], "closed": false, "label": "No summit", "text": "The heads reach almost the same height. Nobody rises above the rest, so your eye cannot pick out a leader."},
+      {"points": [[0.19, 0.18], [0.81, 0.18], [0.81, 0.83], [0.19, 0.83]], "closed": true, "label": "A block", "text": "The group fits inside a box, not a pyramid. It has no front or back: you are meant to walk around it and meet each man in turn."},
+      {"points": [[0.425, 0.28], [0.425, 0.72]], "closed": false, "label": "The gap", "text": "Empty air separates the man on the left from the others. They share one fate, but they do not touch or look at each other."}
+    ]},
+    {"type": "text", "text": "A block of equals, and Rodin wanted it low: set almost on the paving stones of the square, so that the people of Calais would brush past the burghers and feel the walk as their own. The city refused. At the unveiling in 1895 the bronze stood on a tall stone base."},
+    {"type": "fact", "text": "Rodin got his way only after his death in 1917. In 1924 Calais finally lowered the monument to near ground level in front of its town hall, where it still stands."},
+    {"type": "text", "text": "The end of the story, by the way, is kinder than the sculpture. Froissart tells that the English queen, Philippa of Hainault, who was pregnant, begged her husband for mercy, and the six were set free. Rodin knew it. He left the rescue out."},
+    {"type": "fact", "text": "The bronze in this photo is one of several originals. French law allows twelve casts of a Rodin sculpture, and all twelve Burghers now exist. The first is in Calais. This one, at the Metropolitan Museum in New York, was cast in 1985. Others stand in London, Paris, Tokyo and Seoul."},
+    {"type": "key", "text": "Rodin replaced the hero on a pedestal with ordinary people at ground level, each afraid in his own way. After the Burghers, a public monument could be about what courage costs."}
+  ],
+  "quiz": [
+    {"question": "What did Edward III demand from Calais in 1347?", "options": ["A payment in gold", "Six leading citizens ready to die", "The surrender of the French king"], "answer": 1, "explanation": "Six burghers had to walk out with ropes around their necks and the keys of the town."},
+    {"question": "What did the town council expect from Rodin?", "options": ["A single hero on a tall pedestal", "Six equal figures", "A battle scene"], "answer": 0, "explanation": "They pictured Eustache de Saint-Pierre alone, and Rodin returned with all six men."},
+    {"question": "How did Rodin arrange the heads?", "options": ["In a pyramid rising to the leader", "In a descending line", "At almost the same height"], "answer": 2, "explanation": "With no summit, nobody reads as the leader."},
+    {"question": "Where did Rodin want the monument placed?", "options": ["On a high column", "Almost at ground level", "Inside the town hall"], "answer": 1, "explanation": "He wanted passersby to stand among the burghers; this happened only in 1924."},
+    {"question": "What happened to the six men in the end?", "options": ["They were spared after the queen pleaded for them", "They were executed", "They escaped at night"], "answer": 0, "explanation": "Queen Philippa of Hainault begged for mercy and they were freed."}
+  ],
+  "facts": [
+    {"text": "Rodin modeled the burghers nude before adding their shirts.", "isTrue": true, "explanation": "He built each body first, then draped it."},
+    {"text": "Only one bronze cast of The Burghers of Calais exists.", "isTrue": false, "explanation": "There are twelve casts, the number French law allows."},
+    {"text": "Calais installed the monument at ground level from the start, as Rodin asked.", "isTrue": false, "explanation": "In 1895 it stood on a tall base and was lowered only in 1924."}
+  ]
+}

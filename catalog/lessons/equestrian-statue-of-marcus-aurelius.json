@@ -1,0 +1,306 @@
+{
+ "teaser": "Every other bronze horseman of ancient Rome was melted. This one was saved by a mistake.",
+ "focus": [
+  0.45,
+  0.28
+ ],
+ "review_notes": "Late antique catalogs listing 22 large equestrian statues (equi magni) in Rome.\nHeight about 4.24 m.\nMedieval sources describing a small bound barbarian under the raised hoof.\nMoved to the Capitoline in 1538 by Pope Paul III; pedestal designed by Michelangelo, who is said to have had reservations about the move (not stated in lesson).\nRemoved from the piazza in 1981, restored until 1990, copy installed outdoors in 1997, glass hall opened 2005.\nLegend of the gilding and the 'owl' tuft announcing the end of the world.\nItalian 50-cent euro coin shows the statue.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Ancient Rome was crowded with bronze emperors on horseback. A late list of the city's monuments counts twenty-two large ones. Then the empire fell, metal became precious, and one after another they were chopped up and melted into coins, bells and cannon. Twenty-two became one."
+  },
+  {
+   "type": "text",
+   "text": "The survivor was spared because of an error. Medieval Romans believed this rider was Constantine, the first emperor to embrace Christianity. You did not melt a hero of the Church. In fact the man is Marcus Aurelius, who ruled from 161 to 180 and was no Christian at all."
+  },
+  {
+   "type": "key",
+   "text": "This is the only complete bronze equestrian statue of a Roman emperor to survive from antiquity, and it owes its life to a case of mistaken identity."
+  },
+  {
+   "type": "text",
+   "text": "It is big: about 4.24 meters tall (roughly 14 feet), cast in pieces and assembled. Romans placed such statues in public squares, so the emperor would always be present even when he was away at war. And Marcus was away a lot, fighting on the Danube frontier for much of his reign."
+  },
+  {
+   "type": "text",
+   "text": "Yet see how he chose to appear. Start with the rider himself and notice what he carries, and what he does not."
+  },
+  {
+   "type": "tour",
+   "title": "A general without weapons",
+   "text": "Three clues to the kind of power this statue claims.",
+   "spots": [
+    {
+     "x": 0.36,
+     "y": 0.225,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The open hand",
+     "text": "His right arm stretches forward, fingers loosely spread. It is a gesture of address, and probably of mercy: the hand of a victor sparing the defeated."
+    },
+    {
+     "x": 0.46,
+     "y": 0.24,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The bearded face",
+     "text": "Thick curls, a full beard, a calm and slightly tired look. The beard was a fashion borrowed from Greek philosophers, and Marcus really was one."
+    },
+    {
+     "x": 0.36,
+     "y": 0.42,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "Civilian dress",
+     "text": "No breastplate, no sword, no helmet. He wears a tunic and a cloak pinned at the shoulder, the dress of a commander at peace."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The message was clear to any Roman passing by. This emperor has already won, so he can afford to be gentle. Medieval visitors described a small figure of a bound barbarian chief crouching under the horse's raised hoof. If it existed, it is long gone, but it would explain that outstretched hand."
+  },
+  {
+   "type": "fact",
+   "text": "While campaigning on the northern frontier, Marcus Aurelius kept a private notebook in Greek. We know it as the Meditations, and it is still one of the most widely read books of philosophy in the world."
+  },
+  {
+   "type": "text",
+   "text": "Now the horse. It is not at rest. Three hooves touch the ground and one is lifted, which freezes the animal in mid-step. The whole sculpture is built on the contrast between a moving mount and a still rider."
+  },
+  {
+   "type": "lines",
+   "text": "Trace how calm and energy are divided between man and animal.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.44,
+       0.2
+      ],
+      [
+       0.42,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "The upright rider",
+     "text": "From the crown of his head to his hanging foot, the emperor forms a steady vertical. He does not lean, grip or brace."
+    },
+    {
+     "points": [
+      [
+       0.14,
+       0.86
+      ],
+      [
+       0.45,
+       0.55
+      ],
+      [
+       0.8,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The surge forward",
+     "text": "The horse's body climbs in a long diagonal from the back hoof to the turned head, nostrils wide and mouth open."
+    },
+    {
+     "points": [
+      [
+       0.6,
+       0.6
+      ],
+      [
+       0.84,
+       0.57
+      ],
+      [
+       0.86,
+       0.77
+      ]
+     ],
+     "closed": false,
+     "label": "The lifted leg",
+     "text": "The bent foreleg hangs in the air. A fraction of a second later it would come down, perhaps on the missing barbarian."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Controlling a powerful horse without effort was a picture of governing an empire without effort. The idea had a long future. Renaissance sculptors such as Donatello and Verrocchio studied this bronze when they revived the horseback monument, and thousands of generals in city parks descend from it."
+  },
+  {
+   "type": "text",
+   "text": "There is something missing from the riding gear, something every later statue of a horseman includes."
+  },
+  {
+   "type": "find",
+   "text": "What should the emperor's foot be resting in? Tap the place where a piece of equipment is absent.",
+   "spots": [
+    {
+     "x": 0.41,
+     "y": 0.68,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "No stirrups",
+     "text": "His booted foot dangles freely. Stirrups were not used in the Roman world. Riders gripped with their thighs and sat on a padded cloth, like the fringed one behind his leg."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The statue was once covered in gold leaf, a thin skin of real gold pressed onto the bronze. A Roman legend says that when the gilding returns in full, the world will end."
+  },
+  {
+   "type": "text",
+   "text": "In 1538 Pope Paul III had the statue moved from the Lateran to the Capitoline Hill. Michelangelo designed its pedestal and later the entire square around it, with a star-shaped pavement radiating from the horseman. A leftover from antiquity became the center of a new Rome."
+  },
+  {
+   "type": "text",
+   "text": "Centuries outdoors took their toll. In 1981 the bronze was taken down for a restoration that lasted until 1990. It never went back outside. A copy now stands in the square, and the original lives under the glass roof you see in this photo."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.78,
+     "y": 0.34,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Gold on the muzzle",
+     "text": "The warm yellow patches on the horse's face are surviving gold leaf, not reflections."
+    },
+    {
+     "x": 0.745,
+     "y": 0.225,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The “owl”",
+     "text": "The tuft of mane tied up between the ears. Romans nicknamed it the owl, and legend says it will sing on Judgment Day."
+    },
+    {
+     "x": 0.86,
+     "y": 0.76,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The raised hoof",
+     "text": "The point where a defeated enemy may once have crouched, according to medieval descriptions."
+    },
+    {
+     "x": 0.3,
+     "y": 0.55,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Saddlecloth",
+     "text": "A fringed cloth with cut-out shapes instead of a rigid saddle."
+    },
+    {
+     "x": 0.36,
+     "y": 0.225,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The gesture",
+     "text": "Seen from below in a public square, this hand would have reached out over the crowd."
+    },
+    {
+     "x": 0.2,
+     "y": 0.6,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "The cloak",
+     "text": "The heavy mantle falls behind him and spreads over the horse's back in deep folds."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Italy chose this statue for the back of its 50-cent euro coin, set on Michelangelo's star pavement. Millions of people carry the horseman in their pockets without knowing his name."
+  },
+  {
+   "type": "fact",
+   "text": "Marcus Aurelius was not expected to have a statue for the ages. His own notebook reminds him again and again that fame is short and that even emperors are soon forgotten."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why was this bronze not melted down in the Middle Ages?",
+   "options": [
+    "It was buried and forgotten",
+    "It was thought to show Constantine",
+    "It was too heavy to move"
+   ],
+   "answer": 1,
+   "explanation": "People believed it portrayed the first Christian emperor."
+  },
+  {
+   "question": "What does Marcus Aurelius carry in his hands?",
+   "options": [
+    "A sword",
+    "A scroll of laws",
+    "Nothing: his right hand is open"
+   ],
+   "answer": 2,
+   "explanation": "He is unarmed and extends an open hand."
+  },
+  {
+   "question": "What riding equipment is missing because Romans did not use it?",
+   "options": [
+    "Stirrups",
+    "Reins",
+    "A saddlecloth"
+   ],
+   "answer": 0,
+   "explanation": "His foot hangs free, with no stirrup."
+  },
+  {
+   "question": "Who designed the pedestal and the square where the statue stood from the 1500s?",
+   "options": [
+    "Donatello",
+    "Bernini",
+    "Michelangelo"
+   ],
+   "answer": 2,
+   "explanation": "Michelangelo designed the pedestal and the Capitoline square."
+  },
+  {
+   "question": "What are the yellow patches on the horse's face?",
+   "options": [
+    "Remains of gold leaf",
+    "Modern paint",
+    "Rust"
+   ],
+   "answer": 0,
+   "explanation": "The statue was once gilded, and traces survive."
+  },
+  {
+   "question": "Where is the original statue today?",
+   "options": [
+    "Outdoors on the Capitoline square",
+    "Inside the museum, under a glass roof",
+    "At the Lateran"
+   ],
+   "answer": 1,
+   "explanation": "It moved indoors after restoration, and a copy stands outside."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Marcus Aurelius is shown in full armor with a sword.",
+   "isTrue": false,
+   "explanation": "He wears a tunic and cloak and carries no weapon."
+  },
+  {
+   "text": "The emperor wrote a book of philosophy known as the Meditations.",
+   "isTrue": true,
+   "explanation": "He kept this notebook in Greek while on campaign."
+  },
+  {
+   "text": "The horse stands with all four hooves on the ground.",
+   "isTrue": false,
+   "explanation": "One foreleg is raised in mid-step."
+  }
+ ]
+}

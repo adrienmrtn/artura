@@ -1,0 +1,263 @@
+{
+ "teaser": "Five cloth inspectors, one bareheaded servant, and the feeling that you just walked in on them.",
+ "focus": [
+  0.43,
+  0.45
+ ],
+ "review_notes": "Size 191.5 x 279 cm.\nReligious mix of the five syndics (two Catholics, a Remonstrant, a Mennonite, a Reformed Calvinist) is the usual account; please confirm.\nObject in the right-hand man's hand is described as a money bag by most sources (some say gloves); the lesson hedges.\nServant identified as Frans Hendricksz Bel, caretaker of the Staalhof; chairman as Willem van Doeyenburg.\nX-ray evidence that Rembrandt repositioned figures, especially the servant, several times.\nDutch Masters cigar brand has used the image on its boxes since the early 20th century.\nPainting on long-term loan from the City of Amsterdam to the Rijksmuseum since 1808.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is almost 2.8 meters wide (a little over 9 feet), and a good half of it is black cloth. That is fitting. The men who paid for it spent their working days judging cloth: how tightly it was woven, how evenly it was dyed, whether it deserved the city's seal."
+  },
+  {
+   "type": "text",
+   "text": "They were the syndics, or sampling officials, of the Amsterdam drapers' guild, the association of cloth makers and merchants. Five of them served together for one year. Their term ran from Good Friday 1661 to Good Friday 1662, and like many Dutch boards of the time, they ordered a group portrait to hang in their meeting room."
+  },
+  {
+   "type": "fact",
+   "text": "The five men did not share a church. The board is usually said to have included two Catholics, a Mennonite, a Remonstrant and a member of the official Reformed church. In 17th-century Amsterdam, business could seat them at one table."
+  },
+  {
+   "type": "text",
+   "text": "Group portraits were a Dutch specialty and a headache for painters. Every sitter paid, so every face had to be clear, and the result often looked like a row of heads on a shelf. Rembrandt, 56 and no longer fashionable, was handed six men in near-identical black with white collars. Watch how he keeps the row from going flat."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines explain why this board meeting feels alive.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.09,
+       0.43
+      ],
+      [
+       0.32,
+       0.34
+      ],
+      [
+       0.43,
+       0.47
+      ],
+      [
+       0.525,
+       0.36
+      ],
+      [
+       0.58,
+       0.48
+      ],
+      [
+       0.8,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "A wave of heads",
+     "text": "Follow the faces from left to right. They rise and fall like a line of music: no two heads sit at the same height, so the eye keeps moving."
+    },
+    {
+     "points": [
+      [
+       0.31,
+       0.77
+      ],
+      [
+       0.4,
+       0.74
+      ],
+      [
+       0.6,
+       0.71
+      ],
+      [
+       0.93,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "The table edge",
+     "text": "You see the side of the table but nothing of its top. The picture was made to hang high on a wall, so Rembrandt painted the room as it looks from below."
+    },
+    {
+     "points": [
+      [
+       0.13,
+       0.17
+      ],
+      [
+       0.61,
+       0.17
+      ],
+      [
+       0.63,
+       0.13
+      ],
+      [
+       0.99,
+       0.13
+      ]
+     ],
+     "closed": false,
+     "label": "The paneling",
+     "text": "The top of the wooden wall runs level, then juts toward you at the right. That corner gives the room depth and pushes the right-hand man forward."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So you are standing below them, looking up, and they are looking down at you. All six pairs of eyes leave the open book and land on the same spot: the place where you are. One man is not even fully seated. He hovers above his chair, caught between sitting and standing."
+  },
+  {
+   "type": "text",
+   "text": "For a long time people explained that pose with a story. The syndics, it went, were presenting accounts to a room full of guild members, and someone in the audience had just spoken up. It is a good story, but their meetings were private. There was no audience. The only person interrupting them is whoever looks at the painting."
+  },
+  {
+   "type": "find",
+   "text": "Five men are officials. The sixth works for them, and one detail of his dress gives him away. Which man is the servant?",
+   "spots": [
+    {
+     "x": 0.525,
+     "y": 0.36,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "No hat",
+     "text": "Frans Bel, caretaker of the guild's building, stands at the back, bareheaded. Indoors, the hat marked rank: the five syndics keep theirs on, the employee does not."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "X-ray images show how much trouble that servant gave Rembrandt. He was painted in more than one place before ending up in the center, where his bare head fills the gap between two tall black hats. Other figures were shifted as well. A scene that looks like a snapshot was adjusted again and again."
+  },
+  {
+   "type": "key",
+   "text": "Rembrandt turned a row of paid portraits into a single moment. He did it with a viewpoint, a half-risen man and six glances that all meet in front of the canvas."
+  },
+  {
+   "type": "tour",
+   "title": "On and around the table",
+   "text": "The faces get all the attention. The objects tell you what these men actually did.",
+   "spots": [
+    {
+     "x": 0.52,
+     "y": 0.71,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The book",
+     "text": "Probably an account book or a book of cloth samples. Two men have a hand on its pages, as if they had been checking a line when the door opened."
+    },
+    {
+     "x": 0.415,
+     "y": 0.73,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "The open palm",
+     "text": "The chairman, Willem van Doeyenburg, turns his hand up over the page. It is the gesture of someone in the middle of making a point."
+    },
+    {
+     "x": 0.84,
+     "y": 0.66,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The right hand",
+     "text": "The man on the right grips something soft and patterned, read by most historians as a money bag. Guild money was part of the board's job."
+    },
+    {
+     "x": 0.62,
+     "y": 0.83,
+     "zoom": 1.8,
+     "r": 0.22,
+     "title": "The carpet",
+     "text": "An imported Eastern carpet, used as a tablecloth as was the Dutch custom. Its red is laid on in rough, broken touches, the only large warm color against all that black."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That carpet is also where Rembrandt lets his late style show. Step close to the real canvas and the pattern falls apart into dabs and scrapes of paint. Step back and it is wool again. The sitters got their clear faces. The painter kept the tablecloth for himself."
+  },
+  {
+   "type": "fact",
+   "text": "Millions of Americans know these six faces without knowing the painting. Since the early 1900s the Dutch Masters cigar brand has printed them on its boxes."
+  },
+  {
+   "type": "text",
+   "text": "The portrait hung in the Staalhof, the guild's building, for more than a century. It now belongs to the City of Amsterdam and has been on loan to the Rijksmuseum since 1808. It was the last big group portrait Rembrandt painted."
+  },
+  {
+   "type": "text",
+   "text": "One question stays open. Who were you supposed to be, walking in on them? A merchant with a bolt of cloth to be judged? The next year's board? Rembrandt never tells, and the syndics are still waiting for you to speak."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was the job of the syndics?",
+   "options": [
+    "Collecting taxes at the harbor",
+    "Checking the quality of cloth",
+    "Training young painters"
+   ],
+   "answer": 1,
+   "explanation": "They were the sampling officials of the drapers' guild and judged woven, dyed cloth."
+  },
+  {
+   "question": "Why can't you see the top of the table?",
+   "options": [
+    "The picture was made to be seen from below",
+    "The carpet was painted over it later",
+    "The canvas was cut down"
+   ],
+   "answer": 0,
+   "explanation": "The portrait was meant to hang high, so Rembrandt painted the room from a low viewpoint."
+  },
+  {
+   "question": "How do you recognize the servant?",
+   "options": [
+    "He holds the book",
+    "He stands at the far left",
+    "He wears no hat"
+   ],
+   "answer": 2,
+   "explanation": "Frans Bel, the caretaker, is the only bareheaded man."
+  },
+  {
+   "question": "What is wrong with the old story of an interruption from the audience?",
+   "options": [
+    "The syndics' meetings were private",
+    "The men are not looking at anyone",
+    "The painting was made after their term"
+   ],
+   "answer": 0,
+   "explanation": "There was no audience at their meetings; the viewer is the only intruder."
+  },
+  {
+   "question": "What did X-ray images reveal?",
+   "options": [
+    "A hidden seventh syndic",
+    "That Rembrandt moved figures several times",
+    "A landscape under the paint"
+   ],
+   "answer": 1,
+   "explanation": "The servant in particular was painted in more than one place."
+  }
+ ],
+ "facts": [
+  {
+   "text": "All five syndics belonged to the same church.",
+   "isTrue": false,
+   "explanation": "The board is said to have mixed Catholics, a Mennonite, a Remonstrant and a Reformed member."
+  },
+  {
+   "text": "The painting appears on Dutch Masters cigar boxes.",
+   "isTrue": true,
+   "explanation": "The brand has used the six faces since the early 1900s."
+  },
+  {
+   "text": "The tablecloth in the picture is plain white linen.",
+   "isTrue": false,
+   "explanation": "It is a red Eastern carpet, used as a table cover."
+  }
+ ]
+}

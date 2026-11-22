@@ -1,0 +1,337 @@
+{
+ "teaser": "About two dozen people fill this room, and only one of them is dancing.",
+ "focus": [
+  0.4,
+  0.48
+ ],
+ "review_notes": "The Met describes 'some twenty-four women, ballerinas and their mothers' and a dancer executing an 'attitude' for her examination; Jules Perrot is the ballet master.\nRoom is imaginary; the Opéra on rue Le Peletier burned in October 1873.\nCommissioned by the baritone Jean-Baptiste Faure; poster for Rossini's Guillaume Tell is a tribute to him. The Orsay version was begun first.\nThe figure of about 1,500 works on dancers is the commonly cited estimate.\n'Petits rats' as nickname for young Opéra dance pupils.\nDegas's remark about his art being the least spontaneous is paraphrased, not quoted.\nCanvas size 83.5 x 77.2 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "How many people do you think are in this room? Give it a quick guess before reading on. Most people say ten or twelve. The real number is about twenty-four, on a canvas only 83 centimeters tall (roughly 33 inches)."
+  },
+  {
+   "type": "text",
+   "text": "Degas packs them in by pushing the crowd to the edges and the far end. Three places hold most of the people you missed."
+  },
+  {
+   "type": "tour",
+   "title": "Where the crowd hides",
+   "text": "Three pockets of people you may not have counted.",
+   "spots": [
+    {
+     "x": 0.91,
+     "y": 0.3,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "The far platform",
+     "text": "Against the back wall, a tight group of dancers and women in street clothes and hats. One wears a bright red shawl. They stand on a raised step, waiting and watching."
+    },
+    {
+     "x": 0.48,
+     "y": 0.23,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "In the mirror",
+     "text": "The tall mirror shows more dancers who stand outside our view, and a bright window with rooftops. It is the only glimpse of daylight and of the city outside."
+    },
+    {
+     "x": 0.77,
+     "y": 0.4,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "On the floor",
+     "text": "Several girls have sat down, their white skirts spread around them. One bends over her shoe. Class has clearly been going on for a long time."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The women in dark dresses and hats at the back are mothers. Pupils at the Paris Opéra often came from poor families, started as children and were chaperoned to class. A place in the ballet company could support a whole household, so the mothers watched every lesson closely."
+  },
+  {
+   "type": "fact",
+   "text": "The youngest pupils of the Paris Opéra ballet school had a nickname that is still used today: “petits rats,” the little rats, perhaps for the patter of their feet on the wooden floors of the attic studios."
+  },
+  {
+   "type": "text",
+   "text": "All these dancers, and almost no dancing. They yawn, fidget, fix a strap, whisper. Degas was less interested in the performance than in the hours of waiting and repetition behind it. Still, one girl in this room is at work."
+  },
+  {
+   "type": "find",
+   "text": "Only one dancer is actually performing. Can you spot her?",
+   "spots": [
+    {
+     "x": 0.62,
+     "y": 0.37,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The examination",
+     "text": "Near the center, one arm curved overhead, chin lifted, a black ribbon at her neck. She is holding a pose for the teacher while the others wait for their turn."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Her audience is one old man. He stands apart on the right in a loose gray suit and red scarf, both hands planted on a tall wooden stick. Ballet masters used such a stick to beat time on the floor. Every dancer's fate in this room depends on what he thinks."
+  },
+  {
+   "type": "text",
+   "text": "He was a real person: Jules Perrot, one of the great dancers and choreographers of the century, who had helped create the ballet Giselle. By 1874 he was in his sixties and largely retired. Degas, who admired him, gave him the place of honor."
+  },
+  {
+   "type": "fact",
+   "text": "The room itself never existed in this form. Degas set the scene in a rehearsal hall of the old Paris Opéra on the rue Le Peletier, but that building had burned to the ground in October 1873, shortly before he painted the picture."
+  },
+  {
+   "type": "text",
+   "text": "So this is no snapshot. Degas once insisted that no art was less spontaneous than his. He drew dancers one by one, often when they came to pose in his own studio, then assembled them like a stage director. The accident is planned, and the plan is visible in the architecture."
+  },
+  {
+   "type": "lines",
+   "text": "How Degas makes a small canvas feel like a deep room.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.42,
+       0.97
+      ],
+      [
+       0.95,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The floorboards",
+     "text": "The planks run on a slant instead of straight back. They sweep your eye from the foreground into the far corner."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.0
+      ],
+      [
+       0.74,
+       0.11
+      ],
+      [
+       1.0,
+       0.12
+      ]
+     ],
+     "closed": false,
+     "label": "The cornice",
+     "text": "The molding at the top plunges down along the green wall and turns at the corner, marking how far away the back of the room is."
+    },
+    {
+     "points": [
+      [
+       0.37,
+       0.5
+      ],
+      [
+       0.62,
+       0.37
+      ],
+      [
+       0.75,
+       0.4
+      ],
+      [
+       0.88,
+       0.45
+      ]
+     ],
+     "closed": false,
+     "label": "The chain of figures",
+     "text": "From the big dancer in front to the girl performing, the seated group and the master: each figure is smaller than the last, and together they carry you across the room."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice what he does with the lower right: nothing. A wide stretch of bare floor, where another painter would have put the star. Meanwhile, at the left, a dancer and a double bass are sliced by the frame. Degas learned such cropping from Japanese prints and from photography, and it makes you feel you have just walked in."
+  },
+  {
+   "type": "key",
+   "text": "Degas builds his “casual” scenes with great care: off-center figures, empty space and cut-off edges are tools for making a painting feel like a glimpse of real life."
+  },
+  {
+   "type": "text",
+   "text": "The picture was an order, which was rare for Degas. Jean-Baptiste Faure, a star baritone of the Opéra and a keen collector, asked him for a dance class. Degas began one canvas, struggled with it, and delivered this version in 1874. He also slipped in a compliment to his client."
+  },
+  {
+   "type": "find",
+   "text": "Degas hid a tribute to the singer who ordered the painting. It hangs on the wall. Where?",
+   "spots": [
+    {
+     "x": 0.29,
+     "y": 0.27,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The poster",
+     "text": "A yellow playbill in a dark frame, half hidden behind a dancer's head. The large letters “GUI” begin the title of Rossini's opera Guillaume Tell, one of Faure's celebrated roles."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "It is a private joke between painter and patron, set in a room that had already vanished in a fire. The singer could hang on his wall a memory of the theater where he had triumphed, with one of his best roles advertised beside the mirror."
+  },
+  {
+   "type": "fact",
+   "text": "Dancers became Degas's lifelong subject. Over some forty years he made around 1,500 paintings, pastels, drawings and sculptures of them, more than half of everything he produced."
+  },
+  {
+   "type": "text",
+   "text": "Degas exhibited with the Impressionists but disliked the name. He rarely painted outdoors, preferred gaslight and interiors to sunshine, and thought drawing mattered more than anything. He called himself a realist. What he shared with his friends was the wish to paint modern life as it was actually lived."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.5,
+     "zoom": 2.2,
+     "r": 0.15,
+     "title": "The dancer in front",
+     "text": "Head bowed, a red flower in her dark hair, she reaches behind her back to adjust her dress. She is the largest figure in the room and is paying no attention to the lesson."
+    },
+    {
+     "x": 0.06,
+     "y": 0.43,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Cut by the frame",
+     "text": "At the far left a dancer with auburn hair and a black neck ribbon bends over something. The edge of the canvas slices through her, as if the room went on beyond it."
+    },
+    {
+     "x": 0.2,
+     "y": 0.55,
+     "zoom": 2.8,
+     "r": 0.11,
+     "title": "The music stand",
+     "text": "A score lies open on a wooden stand, its staves suggested by quick dark dashes. The musician who should be reading it is nowhere to be seen."
+    },
+    {
+     "x": 0.27,
+     "y": 0.93,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The double bass",
+     "text": "The scroll and neck of a large stringed instrument lie on the floor in the corner, just above Degas's signature."
+    },
+    {
+     "x": 0.84,
+     "y": 0.52,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "Perrot's stick",
+     "text": "Taller than his waist and held with both hands. The white-haired master leans on it and watches in profile, a spot of red at his collar.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.4,
+     "y": 0.9,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Pink slippers",
+     "text": "Satin ballet shoes with ribbons crossed at the ankle, painted in a few salmon strokes. The feet are turned out even at rest, a habit drilled in from childhood."
+    },
+    {
+     "x": 0.93,
+     "y": 0.28,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The red shawl",
+     "text": "One mother in a vivid red wrap, pressed among the white skirts. Degas uses that single patch of red to make the far corner of the room hold your attention."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Go back to your first guess. The count was never the point. Degas wanted you to walk into a crowded room and take in only a part of it, the way you really do, and then let the rest appear slowly: a mirror, a poster, a mother in red."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Roughly how many people are in the painting?",
+   "options": [
+    "About eight",
+    "About twenty-four",
+    "More than sixty"
+   ],
+   "answer": 1,
+   "explanation": "Dancers and their mothers add up to about two dozen figures."
+  },
+  {
+   "question": "Who is the old man with the stick?",
+   "options": [
+    "Jules Perrot, a famous ballet master",
+    "The singer Jean-Baptiste Faure",
+    "Degas himself"
+   ],
+   "answer": 0,
+   "explanation": "Perrot, a celebrated dancer and choreographer, conducts the class."
+  },
+  {
+   "question": "Why could Degas not have painted this room from life?",
+   "options": [
+    "Men were forbidden to enter",
+    "He had lost his sight",
+    "The old Opéra had burned down in 1873"
+   ],
+   "answer": 2,
+   "explanation": "The scene is an imagined reconstruction of a building destroyed by fire."
+  },
+  {
+   "question": "What is the poster on the wall?",
+   "options": [
+    "An advertisement for the Impressionist exhibition",
+    "A playbill for Guillaume Tell, honoring the patron",
+    "A list of class rules"
+   ],
+   "answer": 1,
+   "explanation": "Faure, who ordered the painting, sang in Rossini's opera."
+  },
+  {
+   "question": "Where did Degas pick up his habit of cropping figures at the edges?",
+   "options": [
+    "From Japanese prints and photography",
+    "From medieval stained glass",
+    "From Greek vase painting"
+   ],
+   "answer": 0,
+   "explanation": "Both showed him how cut-off figures suggest a passing glimpse."
+  },
+  {
+   "question": "Who are the women in hats at the back?",
+   "options": [
+    "Critics from the newspapers",
+    "Wealthy subscribers",
+    "The dancers' mothers"
+   ],
+   "answer": 2,
+   "explanation": "Mothers chaperoned the young pupils and watched their lessons."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Most of the dancers in the picture are shown in the middle of dancing.",
+   "isTrue": false,
+   "explanation": "Only one girl is performing; the others wait, rest or fidget."
+  },
+  {
+   "text": "The painting was commissioned by an opera singer.",
+   "isTrue": true,
+   "explanation": "The baritone Jean-Baptiste Faure ordered it from Degas."
+  },
+  {
+   "text": "Degas proudly called himself an Impressionist and worked mostly outdoors.",
+   "isTrue": false,
+   "explanation": "He disliked the label, called himself a realist and preferred interiors."
+  }
+ ]
+}

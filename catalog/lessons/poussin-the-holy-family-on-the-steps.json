@@ -1,0 +1,53 @@
+{
+  "teaser": "A family resting on a staircase, arranged with the precision of an architect's drawing.",
+  "focus": [0.45, 0.4],
+  "review_notes": "Dimensions given as about 73 x 106 cm (29 x 42 in); Cleveland lists roughly 73.3 x 105.8 cm. Please confirm.\nPatron: Nicolas Hennequin de Fresne, a French royal official (master of the hunt). Confirm.\nThe Cleveland canvas and the near-identical one in the National Gallery of Art, Washington: Cleveland's is today generally accepted as Poussin's original, the Washington one as a copy. Confirm current museum wording.\nPoussin's small stage box with wax figures is reported by early biographers (Le Blond de la Tour, Bellori, Sandrart).\nReading of the vase and gold chest as an echo of the Magi's gifts, and of the orange tree and fountain as symbols of Mary's purity, are common interpretations, not documented by Poussin.\nJoseph's instrument is usually described as a compass (dividers).",
+  "lesson": [
+    {"type": "text", "text": "This canvas is about 73 centimeters tall and just over a meter wide (roughly 29 by 42 inches). You could carry it under one arm. Yet when you stand in front of it, the figures feel as big as statues on a monument. That gap between real size and felt size is the whole art of Nicolas Poussin."},
+    {"type": "text", "text": "Poussin was French, but he spent nearly all his working life in Rome. He did not paint giant altarpieces for churches. He made medium-sized pictures for a small circle of educated collectors, who hung them at home and studied them slowly, the way you would reread a favorite poem."},
+    {"type": "text", "text": "The subject is a quiet one. Mary holds the child Jesus. Her older cousin Elizabeth, in yellow, has brought her own son, the young John the Baptist. Joseph sits to one side. Nothing happens, and still the picture feels solemn. To see why, you have to look at how it is built."},
+    {"type": "lines", "text": "Three simple shapes hold everything in place.", "lines": [
+      {"points": [[0.42, 0.29], [0.05, 0.86], [0.94, 0.72]], "closed": true, "label": "The triangle", "text": "From Mary's head, one side slides down Elizabeth's yellow back, the other down Joseph's stretched leg. A triangle is the most stable shape there is: the group sits like a mountain."},
+      {"points": [[0.0, 0.865], [1.0, 0.865]], "closed": false, "label": "The step", "text": "A long stone edge runs across the whole width, almost at the bottom. It works like the front of a stage, and it places your eyes below the family. You are looking up at them."},
+      {"points": [[0.42, 0.29], [0.42, 0.86]], "closed": false, "label": "The axis", "text": "Mary's face sits right above the fold of her blue cloak and her foot. She is the vertical pole of the picture, slightly left of center, with open sky kept clear on her right."}
+    ]},
+    {"type": "text", "text": "That low viewpoint is the trick behind the monumental feeling. Poussin makes you stand at the foot of the stairs, like a visitor who has not yet been invited up. The family is close, but it is above you, and the steps between you are part of the meaning."},
+    {"type": "fact", "text": "Poussin rehearsed his pictures like a theater director. Early biographers describe a small box, a kind of toy stage, in which he arranged little wax figures and moved the light around until the grouping and the shadows were right. Only then did he paint."},
+    {"type": "text", "text": "Now the surprise. In a painting of the Holy Family, you would expect Joseph to be easy to see. Poussin does the opposite and pushes him into deep shadow on the right. And Joseph is not resting. He is busy with something."},
+    {"type": "find", "text": "Joseph is holding a tool that has nothing to do with carpentry. Can you tap it?", "spots": [
+      {"x": 0.69, "y": 0.53, "zoom": 4, "r": 0.05, "title": "The compass", "text": "A compass, the instrument of geometers and architects. Joseph measures on a board while a straight rod leans on the block beside him. Poussin turns the carpenter into a thinker."}
+    ]},
+    {"type": "text", "text": "A man drawing with a compass, hidden in a picture ruled by a triangle and a long straight line: it is hard not to read him as a signature. Poussin believed that painting should speak to the mind first, and that order and measure were a kind of beauty."},
+    {"type": "key", "text": "Poussin is the model of classicism: the idea that a picture should be calm, clear and carefully balanced, so that feeling comes through thought instead of drama."},
+    {"type": "text", "text": "The small objects are not decoration either. In the 1600s, viewers enjoyed pictures that could be read like a text, where a fruit or a jar pointed to a later chapter of the story."},
+    {"type": "tour", "title": "Reading the objects", "text": "Follow the story from the children's hands down to the bottom step.", "spots": [
+      {"x": 0.44, "y": 0.52, "zoom": 3.5, "r": 0.07, "title": "The apple", "text": "Little John holds up an apple and Jesus reaches for it. For Christians the fruit recalls Adam and Eve's fault. By taking it, the child accepts the task of repairing it."},
+      {"x": 0.37, "y": 0.92, "zoom": 3.5, "r": 0.08, "title": "The basket", "text": "A basket of fruit sits alone on the lowest step, the closest thing to you. It repeats the apple theme, and it is a tiny still life, a painting of objects, inside the larger scene."},
+      {"x": 0.7, "y": 0.91, "zoom": 3, "r": 0.11, "title": "Vase and gold chest", "text": "Two precious containers set down like offerings. Many viewers see an echo of the gifts the wise men brought to the newborn child."},
+      {"x": 0.92, "y": 0.69, "zoom": 3.5, "r": 0.06, "title": "Joseph's foot", "text": "The only part of Joseph in full light is his bare foot, pushed out toward the edge. It closes the triangle on the right and quietly reminds you he is there."}
+    ]},
+    {"type": "text", "text": "Poussin painted this in 1648 for a French official in Paris, and shipped it from Rome. He was 54, at the height of his powers, and his hand had begun to tremble. He compensated with planning: every fold and every shadow was decided before the brush touched the canvas."},
+    {"type": "fact", "text": "For decades, two museums owned this picture. A near-identical canvas hangs in Washington, and scholars argued for years over which was the real Poussin. Technical study, including changes of mind hidden under the paint, tipped the verdict toward Cleveland's."},
+    {"type": "explore", "spots": [
+      {"x": 0.42, "y": 0.33, "zoom": 3, "r": 0.08, "title": "Mary", "text": "Her oval face and lowered eyes come from Raphael, the Renaissance painter Poussin admired most. Red dress, blue cloak: the colors tradition gave her."},
+      {"x": 0.21, "y": 0.6, "zoom": 2.2, "r": 0.13, "title": "Elizabeth", "text": "Her yellow mantle is the largest patch of warm color in the picture. With Mary's red and blue, it completes the three primary colors, side by side."},
+      {"x": 0.18, "y": 0.33, "zoom": 2.8, "r": 0.09, "title": "The orange tree", "text": "An orange tree heavy with fruit grows behind the wall. Enclosed gardens and fruit trees were long-standing images of Mary's purity."},
+      {"x": 0.12, "y": 0.56, "zoom": 2.8, "r": 0.09, "title": "The fountain", "text": "A wide stone basin overflows with water at the left edge. Like the tree, it is an old symbol attached to Mary: a spring of life."},
+      {"x": 0.47, "y": 0.2, "zoom": 2.5, "r": 0.1, "title": "The temple", "text": "Columns with leafy capitals and a flat stone beam: this is ancient Roman architecture, not a village in Judea. Poussin sets the sacred story in the world of antiquity he studied in Rome."},
+      {"x": 0.72, "y": 0.22, "zoom": 2, "r": 0.14, "title": "The clouds", "text": "Golden clouds pile up behind Joseph's dark corner. The staircase climbs toward this open sky, so the steps read as a road between earth and heaven."}
+    ]},
+    {"type": "text", "text": "After Poussin, French art schools taught his method for two centuries. And much later a painter who seems his opposite, Paul Cézanne, said he wanted to redo Poussin from nature. Think of this small canvas the next time a picture feels strangely solid: someone probably built it on a triangle."}
+  ],
+  "quiz": [
+    {"question": "Why do the figures seem so monumental on such a modest canvas?", "options": ["They are painted life-size", "We see them from below, at the foot of the steps", "The background is completely dark"], "answer": 1, "explanation": "The low viewpoint and the long step make you look up at the family."},
+    {"question": "What is Joseph holding in the shadow?", "options": ["A compass", "A saw", "A lily"], "answer": 0, "explanation": "He measures with a compass, the tool of geometers and architects."},
+    {"question": "What shape organizes the group of figures?", "options": ["A circle", "A spiral", "A triangle"], "answer": 2, "explanation": "The sides run from Mary's head down to Elizabeth and to Joseph's foot."},
+    {"question": "How did Poussin prepare his compositions, according to early biographers?", "options": ["He painted outdoors in front of the subject", "He arranged small wax figures in a box", "He traced ancient prints"], "answer": 1, "explanation": "He used a toy stage with wax figures to test groupings and light."},
+    {"question": "What does little John the Baptist hand to Jesus?", "options": ["A cross", "A bird", "An apple"], "answer": 2, "explanation": "The apple recalls the fruit of Adam and Eve."}
+  ],
+  "facts": [
+    {"text": "Poussin spent most of his career in Paris, painting huge altarpieces.", "isTrue": false, "explanation": "He lived mostly in Rome and painted medium-sized pictures for private collectors."},
+    {"text": "A near-identical version of this painting hangs in Washington.", "isTrue": true, "explanation": "Scholars long debated which was the original before favoring Cleveland's."},
+    {"text": "Joseph is the most brightly lit figure in the picture.", "isTrue": false, "explanation": "He sits in deep shadow, with only his foot in full light."}
+  ]
+}

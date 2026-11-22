@@ -1,0 +1,195 @@
+{
+ "teaser": "A woman, a wall, a porcelain bowl. Almost nothing happens, and you cannot stop looking.",
+ "focus": [
+  0.66,
+  0.42
+ ],
+ "review_notes": "Dimensions given as about 61 x 51 cm; check against the Randers Kunstmuseum record.\nThe lid of the punch bowl is said to have been broken and mended, so it no longer sits flush: commonly repeated, worth confirming.\nRilke's 1904 visit to Hammershøi in Copenhagen and the unwritten essay: confirm.\nMichael Palin BBC documentary dated 2005.\nHammershøis lived at Strandgade 30 from 1898 to 1909.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is about 61 by 51 centimeters (24 by 20 in), no bigger than a sofa cushion. And the paint on it is almost all one family of color: gray, black, a little brown, a little white. Vilhelm Hammershøi worked with so few tubes that visitors to his studio were surprised by how empty his palette looked."
+  },
+  {
+   "type": "text",
+   "text": "The room is real. It belongs to the apartment at Strandgade 30 in Copenhagen, where the painter and his wife Ida lived from 1898 to 1909. The woman is Ida. He painted her in these rooms dozens of times, and very often like this: from behind."
+  },
+  {
+   "type": "fact",
+   "text": "To get rooms like this one, Hammershøi edited his own home. He had the walls and woodwork painted in pale grays and whites, and before painting he carried furniture out of the room until only a few things were left."
+  },
+  {
+   "type": "text",
+   "text": "With so little in the picture, every line has to work hard. Before you read on, try to guess which single line in the painting refuses to be straight up or straight across."
+  },
+  {
+   "type": "lines",
+   "text": "The picture is built like a quiet grid, with one exception.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.635
+      ],
+      [
+       1.0,
+       0.615
+      ]
+     ],
+     "closed": false,
+     "label": "The level",
+     "text": "The table top and the wall molding run straight across, about two thirds of the way down. They steady the whole picture like a horizon."
+    },
+    {
+     "points": [
+      [
+       0.945,
+       0.02
+      ],
+      [
+       0.945,
+       0.56
+      ]
+     ],
+     "closed": false,
+     "label": "The upright",
+     "text": "The white wall panel rises along the right edge. With the picture frame at upper left, it boxes Ida in between rectangles."
+    },
+    {
+     "points": [
+      [
+       0.35,
+       0.81
+      ],
+      [
+       0.55,
+       0.645
+      ]
+     ],
+     "closed": false,
+     "label": "The slant",
+     "text": "The tray under her arm is the only strong diagonal. In a room of right angles, it is the one thing that feels caught in mid-movement."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That tilted tray tells you she is not posing like a statue. She was carrying something, and she stopped. Why? The painting gives no answer, and this is its whole method: a moment with the explanation taken out."
+  },
+  {
+   "type": "key",
+   "text": "Hammershøi turns his model away so that you cannot read a face. Without an expression to tell you what to feel, you fill the silence yourself."
+  },
+  {
+   "type": "text",
+   "text": "So where does the feeling come from, if not from a face? From two small places where the gray gives way: a few centimeters of skin, and a bowl of blue and white porcelain."
+  },
+  {
+   "type": "tour",
+   "title": "Two bright spots",
+   "text": "In a painting this muted, the eye runs to whatever is light.",
+   "spots": [
+    {
+     "x": 0.66,
+     "y": 0.42,
+     "zoom": 3.0,
+     "r": 0.09,
+     "title": "The nape",
+     "text": "The warmest color in the whole canvas is this patch of neck between dark hair and black dress. Loose strands of hair escape above it. It is as close to her as you are allowed to get."
+    },
+    {
+     "x": 0.14,
+     "y": 0.56,
+     "zoom": 2.8,
+     "r": 0.13,
+     "title": "The punch bowl",
+     "text": "A lidded porcelain bowl the couple really owned. Check the dark seam under the lid: it does not sit quite flush. The bowl is round and patterned, everything the room is not."
+    },
+    {
+     "x": 0.86,
+     "y": 0.68,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "Daylight",
+     "text": "A soft block of light lands on the wall at the right. You never see the window. In these interiors, light is the one visitor."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "He was no hermit copying an old style. Hammershøi knew the Dutch painters of the 1600s, Vermeer above all, who also set lone women in still rooms. But Vermeer's women pour milk or read letters. Ida does nothing you can name, which made the picture feel strangely modern in 1904."
+  },
+  {
+   "type": "fact",
+   "text": "The poet Rainer Maria Rilke was so struck by these paintings that he traveled to Copenhagen in 1904, the year of this picture, to meet the painter. He planned an essay on him. Hammershøi was famously sparing with words, and the essay was never written."
+  },
+  {
+   "type": "text",
+   "text": "After his death in 1916, taste moved toward louder art and Denmark half forgot him. The quiet came back into fashion late in the 20th century. In 2005 the British actor and traveler Michael Palin even made a television film about his own obsession with these gray rooms."
+  },
+  {
+   "type": "text",
+   "text": "Stand in front of it, or hold it on your screen, and notice how long you stay. A cushion-sized canvas in five colors, a back, a bowl. What do you think she is looking at?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who is the woman seen from behind?",
+   "options": [
+    "A hired model",
+    "The painter's wife, Ida",
+    "The painter's sister"
+   ],
+   "answer": 1,
+   "explanation": "Hammershøi painted his wife Ida in their apartment dozens of times."
+  },
+  {
+   "question": "Which object makes the only strong diagonal in the picture?",
+   "options": [
+    "The tray under her arm",
+    "The picture frame",
+    "The table leg"
+   ],
+   "answer": 0,
+   "explanation": "Everything else follows straight horizontals and verticals; the tray tilts."
+  },
+  {
+   "question": "How did Hammershøi prepare his rooms before painting them?",
+   "options": [
+    "He added flowers and rugs",
+    "He hung colored curtains",
+    "He removed furniture and kept the walls pale"
+   ],
+   "answer": 2,
+   "explanation": "He emptied the rooms until only a few objects remained."
+  },
+  {
+   "question": "Which earlier painter of quiet interiors did he know well?",
+   "options": [
+    "Vermeer",
+    "Rubens",
+    "Goya"
+   ],
+   "answer": 0,
+   "explanation": "Vermeer's still rooms with lone women were an important model."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting is taller than a person.",
+   "isTrue": false,
+   "explanation": "It is about 61 by 51 cm, roughly the size of a sofa cushion."
+  },
+  {
+   "text": "The warmest color in the canvas is the small patch of the woman's neck.",
+   "isTrue": true,
+   "explanation": "Almost everything else is gray, black, brown or white."
+  },
+  {
+   "text": "The poet Rilke published a long essay on Hammershøi after visiting him.",
+   "isTrue": false,
+   "explanation": "Rilke visited in 1904 and planned an essay, but never wrote it."
+  }
+ ]
+}

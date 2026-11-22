@@ -1,0 +1,54 @@
+{
+ "teaser": "A garden painted like a photograph, with three ghosts floating in it.",
+ "focus": [0.69, 0.32],
+ "review_notes": "Saints identified as Michael (armor), Margaret (upper, hands joined) and Catherine (lower, head bowed): which female saint is which is the usual reading, not certain.\nDimensions 254 x 279.4 cm.\nShown at the Salon of 1880; critics objected to the saints clashing with the naturalism and to the lack of depth.\nObject at left read as a yarn winder beside an overturned stool (Met: she has been spinning).\nBought by Erwin Davis, given to the Met in 1889.\nBastien-Lepage died in December 1884 aged 36.\nJoan: voices from about age 13 (c. 1425), Orleans 1429, burned 1431 at about 19, canonized 1920.\nInscription at lower right reads Damvillers Meuse 1879.",
+ "lesson": [
+  {"type":"text","text":"Two paintings are fighting on this canvas. One is a backyard in eastern France, recorded leaf by leaf with the patience of a camera: weeds, cabbages, a mossy trunk, a patched bodice. The other is a vision, with a knight in golden armor and two haloed women hanging in mid-air against a house wall. The artist insisted they belong together. Many viewers in 1880 could not agree."},
+  {"type":"text","text":"The young woman is Joan of Arc, and this is the moment before she becomes Joan of Arc. Around 1425 she was a farmer's daughter of about thirteen in the village of Domrémy. In her father's garden, she later said, she began to hear voices telling her to go and save France."},
+  {"type":"text","text":"Painters usually showed her later, in armor, on horseback, or at the stake. Jules Bastien-Lepage chose the garden, and he gave her a job. A second ago she was sitting down, working. Something made her jump up."},
+  {"type":"find","text":"She stood up fast. What did she knock over?","spots":[{"x":0.31,"y":0.68,"zoom":3,"r":0.07,"title":"The stool","text":"A wooden stool lies on its side in the grass. Next to it stands a tall frame for winding yarn: she was spinning thread. The whole event is told by one piece of tipped-over furniture."}]},
+  {"type":"text","text":"From the stool she has walked, as if sleepwalking, to the other side of the garden. Now find out who called her. They are behind her, half hidden by apple leaves, and painted in a completely different way from everything else."},
+  {"type":"tour","title":"The voices","text":"Three saints, according to Joan's own testimony at her trial. Compare their paint with the solid garden.","spots":[
+   {"x":0.33,"y":0.24,"zoom":2.6,"r":0.1,"shape":"rect","title":"Saint Michael","text":"The archangel, in gold armor, holds a sword out toward her. His body is see-through: the stones of the house show faintly behind his legs, and his feet touch nothing."},
+   {"x":0.23,"y":0.22,"zoom":3.2,"r":0.07,"title":"A crown of flowers","text":"A pale woman with a thin gold ring of a halo, hands joined, a wreath of white flowers in her hair. Usually read as Saint Margaret. She is painted like mist."},
+   {"x":0.19,"y":0.34,"zoom":3.2,"r":0.07,"title":"The third saint","text":"Lower down, a second halo over a bowed head, the face buried in the hands. Usually named as Saint Catherine. Is she praying, or weeping over what will happen to this girl?"}
+  ]},
+  {"type":"fact","text":"Almost everything we know of Joan's voices comes from court records. At her trial in 1431 the judges questioned her again and again about the saints, and clerks wrote down her answers."},
+  {"type":"text","text":"Here is the difficulty that annoyed the critics. Bastien-Lepage was the leader of Naturalism, a way of painting that aimed to record ordinary people and places with scientific honesty, with no flattery. Saints with halos are not something you can observe. So he made them thin, golden and transparent, a sort of double exposure laid over the real wall."},
+  {"type":"key","text":"The clash is the subject. The garden is what anyone would see. The saints are what only Joan perceives. The painter puts both on one surface and lets them refuse to blend."},
+  {"type":"text","text":"Notice that she is not looking at them. A vision in older religious art means a person gazing up at a figure in the clouds. This Joan has her back to her visitors."},
+  {"type":"lines","text":"Trace where the attention goes. Nothing meets.","lines":[
+   {"points":[[0.42,0.235],[0.67,0.3]],"closed":false,"label":"The call","text":"From the tip of Michael's sword toward the back of her head. The message arrives from behind, as a sound would."},
+   {"points":[[0.71,0.3],[0.97,0.18]],"closed":false,"label":"Her stare","text":"Her pale eyes are fixed up and out of the picture, on nothing we can see. She is listening so hard that she has stopped seeing."},
+   {"points":[[0.77,0.42],[0.9,0.42]],"closed":false,"label":"Her arm","text":"The left arm stretches out and the hand closes on leaves, as if she needs to hold on to the real world for balance."}
+  ]},
+  {"type":"text","text":"That face is where the painter spent his effort. He works the head and hands smooth and precise, then loosens his brush more and more toward the edges, so the grass at the bottom is a tangle of quick strokes. Your eye is steered to her eyes whether you like it or not."},
+  {"type":"fact","text":"The canvas is huge: about 2.5 meters high and 2.8 wide (over 8 by 9 feet). Joan stands life-size, and the garden surrounds you almost like a room."},
+  {"type":"text","text":"Why Joan, and why 1879? France had just lost a war to Prussia in 1870 and 1871, and with it part of Lorraine, the eastern region where Joan was born. A peasant girl who once drove invaders out of the country suddenly mattered to everyone. For Bastien-Lepage it was personal: he was from Lorraine himself."},
+  {"type":"explore","spots":[
+   {"x":0.69,"y":0.3,"zoom":3.2,"r":0.08,"title":"The eyes","text":"Wide, light blue, unfocused. Models do not hold this look for long, and it is the part of the picture nearly every critic admired."},
+   {"x":0.66,"y":0.5,"zoom":2.6,"r":0.1,"title":"Work clothes","text":"A gray-blue jacket, a brown laced bodice with a torn patch, a heavy skirt. This is a farm girl of the painter's own time, not a costume heroine."},
+   {"x":0.9,"y":0.42,"zoom":3.4,"r":0.06,"title":"The hand","text":"A strong, reddened hand gripping foliage. It is drawn with the care of a portrait."},
+   {"x":0.44,"y":0.37,"zoom":2.4,"r":0.12,"title":"The house","text":"Rough stone, a small latticed window, red roof tiles. The saints float in front of the most ordinary wall imaginable."},
+   {"x":0.21,"y":0.54,"zoom":2.6,"r":0.1,"title":"The yarn winder","text":"A cage of wooden rods for winding spun thread. It stands directly under the saints, the everyday task and the calling stacked one above the other."},
+   {"x":0.79,"y":0.95,"zoom":3,"r":0.1,"title":"Signature","text":"Under the name, the painter wrote the name of his own village, Damvillers, and the date 1879. He is telling you this Lorraine soil is the real thing."}
+  ]},
+  {"type":"text","text":"At the Paris Salon of 1880 the reviews split down the middle of the canvas. Joan herself was widely praised. The hovering saints were called a mistake that broke the truth of the scene, and some complained that the garden had no depth, like a tapestry hung behind her."},
+  {"type":"fact","text":"France would not keep it. An American collector, Erwin Davis, bought the painting and gave it to the Metropolitan Museum in New York in 1889. Joan was only declared a saint by the Catholic Church in 1920."},
+  {"type":"text","text":"Bastien-Lepage died of illness in 1884, aged thirty-six. For a few years, young painters from Scotland to Scandinavia to the United States copied his recipe: a country figure, sharp in the middle, loose at the edges, under gray daylight. His name faded afterward. The stubborn question in this canvas did not."},
+  {"type":"key","text":"How do you show something only one person can perceive? Bastien-Lepage's answer was to paint it badly on purpose, less real than a cabbage leaf, and to trust the girl's face to convince you."}
+ ],
+ "quiz": [
+  {"question":"What tells us Joan stood up suddenly?","options":["An overturned stool","A dropped basket of apples","A broken window"],"answer":0,"explanation":"Her stool lies tipped over beside the yarn winder where she was working."},
+  {"question":"How are the saints painted compared with the garden?","options":["More sharply than anything else","Thin, golden and see-through","In black and white"],"answer":1,"explanation":"They are transparent, with the house wall showing behind them."},
+  {"question":"Where is Joan looking?","options":["At Saint Michael's sword","Down at her spinning","Away from the saints, at nothing we can see"],"answer":2,"explanation":"She has her back to the saints and stares out of the picture."},
+  {"question":"Why did Joan of Arc matter so much in France around 1879?","options":["France had just lost a war and part of Lorraine","She had just been made a saint","Her house had just been discovered"],"answer":0,"explanation":"After the defeat by Prussia, the peasant girl who drove out invaders became a national symbol."},
+  {"question":"What is Naturalism, as described in the lesson?","options":["Painting only landscapes without people","Painting gods and myths in bright colors","Recording ordinary people and places with scientific honesty"],"answer":2,"explanation":"Naturalism aimed at an honest, unflattering record of everyday life."},
+  {"question":"What did critics at the Salon of 1880 dislike most?","options":["Joan's face","The floating saints","The size of the canvas"],"answer":1,"explanation":"They praised Joan and called the saints a mistake."}
+ ],
+ "facts": [
+  {"text":"Joan of Arc was already an official saint when this picture was painted.","isTrue":false,"explanation":"She was canonized in 1920, more than forty years later."},
+  {"text":"The painter came from Lorraine, the same region as Joan.","isTrue":true,"explanation":"He signed the canvas with the name of his Lorraine village, Damvillers."},
+  {"text":"The painting has stayed in France since 1880.","isTrue":false,"explanation":"An American collector bought it and gave it to the Metropolitan Museum in 1889."}
+ ]
+}

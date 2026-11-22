@@ -1,0 +1,256 @@
+{
+ "teaser": "A boy steers toward a palace in the clouds. The river has other plans.",
+ "focus": [
+  0.57,
+  0.8
+ ],
+ "review_notes": "Dimensions about 134 x 195 cm (NGA gives 134.3 x 194.9 cm).\nSecond set painted in Rome 1841-42 after the dispute with Samuel Ward's heirs; first set now at Munson (Munson-Williams-Proctor Arts Institute), Utica.\nSecond set hung for decades in a Cincinnati house that became part of Bethesda Hospital, then bought by the NGA in 1971: check.\nAmerican Art-Union distributed James Smillie's engraving of Youth to roughly 16,000 members around 1849: check figure.\nThe river's turn toward a rocky ravine at far right follows Cole's own description; in this image it is only a small glimpse of rocks and pale water between the trees.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is about 1.3 meters tall and almost 2 meters wide (roughly 4.5 by 6.5 feet). It is one quarter of a story. Three others the same size hang beside it, and together they need an entire room. Odder still: a second, nearly identical set of four exists in another American city."
+  },
+  {
+   "type": "text",
+   "text": "The series is called The Voyage of Life. One traveler rides one river through four ages: Childhood, Youth, Manhood, Old Age. You are looking at the second chapter, the only one where the traveler is happy and in charge. Thomas Cole planned it that way, and he planned what comes next."
+  },
+  {
+   "type": "text",
+   "text": "A New York banker named Samuel Ward ordered the series in 1839, then died that same year, before Cole had finished. His heirs took the paintings and would not let Cole show them to the public the way he wanted. So Cole, traveling in Rome, painted all four again. The 1842 picture in Washington comes from that second set."
+  },
+  {
+   "type": "fact",
+   "text": "Cole was not born American. He grew up in the mill country of northern England and crossed the Atlantic with his family at 17. The man now called the father of American landscape painting first saw its forests as an immigrant."
+  },
+  {
+   "type": "text",
+   "text": "In the first chapter, a baby sat in the boat and an angel held the tiller. Now the angel has stepped out. Follow the three actors of this scene, starting with the thing the boy cannot stop staring at."
+  },
+  {
+   "type": "tour",
+   "title": "Who is steering?",
+   "text": "A palace, a boat, a figure left on the bank. Tap to meet them in the order the boy would rank them.",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.25,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The castle in the air",
+     "text": "A domed palace, pale as cloud, with a second faint dome above it. Cole paints it thin and see-through on purpose. English already had a phrase for a plan like this: a castle in the air."
+    },
+    {
+     "x": 0.565,
+     "y": 0.82,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The new pilot",
+     "text": "The boy, dressed in red, has taken the tiller himself and stretches one arm toward the sky. At the prow, a golden figurehead holds up an hourglass. He is not looking at it."
+    },
+    {
+     "x": 0.77,
+     "y": 0.76,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The guardian",
+     "text": "The angel stands on the bank in white, a halo of rays around the head, one hand raised. Is it a wave goodbye or a warning? The boy has his back turned either way.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the picture is built on a gap between two people: one pointing ahead, one left behind. Cole wrote explanations for each canvas, and for this one he was blunt. Youth trusts his own strength and sees only glory. Everything in the composition takes the boy's side, at least for now."
+  },
+  {
+   "type": "lines",
+   "text": "Two lines carry the boy's confidence. A third undermines it.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.575,
+       0.765
+      ],
+      [
+       0.4,
+       0.5
+      ],
+      [
+       0.21,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The reach",
+     "text": "His raised arm aims straight at the palace. Our eye makes the same jump, across half the canvas, in a second. Wanting something feels like that."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.86
+      ],
+      [
+       0.35,
+       0.8
+      ],
+      [
+       0.2,
+       0.8
+      ],
+      [
+       0.24,
+       0.72
+      ],
+      [
+       0.33,
+       0.68
+      ],
+      [
+       0.2,
+       0.65
+      ]
+     ],
+     "closed": false,
+     "label": "The easy water",
+     "text": "The river slides off to the left, smooth as glass, and seems to wind toward the bright horizon under the castle. No rapids, no rocks. Who would doubt it?"
+    },
+    {
+     "points": [
+      [
+       0.77,
+       0.72
+      ],
+      [
+       0.77,
+       0.3
+      ],
+      [
+       0.9,
+       0.1
+      ]
+     ],
+     "closed": false,
+     "label": "The wall of trees",
+     "text": "On the angel's side, heavy trees and a giant palm fill the canvas from bottom to top. The right half is closed and shady, the left half open and glowing. The boy chooses the glow."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nothing here grows in one real place. Palms stand next to northern-looking oaks, and a needle of rock rises like something from a dream. Cole was not recording a view. He was inventing a country that feels the way being fifteen feels: lush, bright, and without limits."
+  },
+  {
+   "type": "fact",
+   "text": "Cole worked out the series in words before he painted it. His written programs, a paragraph per picture, were printed for visitors, so people of the 1840s read the paintings almost like chapters with captions."
+  },
+  {
+   "type": "text",
+   "text": "Now for the trap. In his text Cole says the stream only appears to lead to the palace. In fact it takes a sudden turn and rushes down toward a rocky gorge, which the trees almost hide from the boat."
+  },
+  {
+   "type": "find",
+   "text": "The river's real direction is given away by one small opening in the trees, where bare rocks and paler water show. Where is it?",
+   "spots": [
+    {
+     "x": 0.87,
+     "y": 0.63,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The way out",
+     "text": "Far right, between the trunks: cliffs, haze and a strip of rough water. This is where the current is actually heading, behind the boy's back and opposite to the castle."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That glimpse is the hinge of the series. In the next canvas, Manhood, the sky is black, the tiller is broken off, and the same boat shoots toward rapids with the traveler praying. The palace is never seen again."
+  },
+  {
+   "type": "key",
+   "text": "Cole uses landscape to tell a story. The open left side shows what the boy hopes for, and the shadowed right side holds what is true. To read the painting, you compare the two."
+  },
+  {
+   "type": "text",
+   "text": "This was unusual ambition for an American painter of the 1840s. Landscape was considered a pleasant, minor kind of picture. Cole wanted it to carry the weight that paintings of history and religion carried in Europe, and he used trees, weather and water as his cast."
+  },
+  {
+   "type": "fact",
+   "text": "After Cole died in 1848, at only 47, an art society sent an engraving of this very scene to thousands of its members. For a while, the boy and his cloud palace hung in parlors across the United States."
+  },
+  {
+   "type": "text",
+   "text": "Why did Youth, of all four, become the favorite? Perhaps because it is the only chapter that flatters us. People hung it for the palace, although the artist had built the whole scene around the turn in the river."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which chapter of The Voyage of Life is this painting?",
+   "options": [
+    "The first, Childhood",
+    "The second, Youth",
+    "The last, Old Age"
+   ],
+   "answer": 1,
+   "explanation": "The series runs Childhood, Youth, Manhood, Old Age, and this is the second."
+  },
+  {
+   "question": "What does the figurehead at the front of the boat hold up?",
+   "options": [
+    "An hourglass",
+    "A lantern",
+    "A sword"
+   ],
+   "answer": 0,
+   "explanation": "A golden figure at the prow lifts an hourglass, which the boy ignores."
+  },
+  {
+   "question": "Why did Cole paint the whole series a second time?",
+   "options": [
+    "The first set burned in a fire",
+    "A museum asked for a larger version",
+    "The first buyer's heirs would not let him exhibit it as he wished"
+   ],
+   "answer": 2,
+   "explanation": "The banker who ordered it died, and his heirs blocked Cole's plans, so he repainted all four in Rome."
+  },
+  {
+   "question": "Where is the river really heading?",
+   "options": [
+    "Straight to the palace",
+    "Toward a rocky gorge half hidden on the right",
+    "Into a quiet lake on the left"
+   ],
+   "answer": 1,
+   "explanation": "Cole wrote that the stream only seems to lead to the castle, then turns toward a ravine."
+  },
+  {
+   "question": "Where has the angel gone since the first chapter?",
+   "options": [
+    "It stands on the bank, out of the boat",
+    "It flies ahead toward the castle",
+    "It has disappeared from the picture"
+   ],
+   "answer": 0,
+   "explanation": "The guardian has stepped ashore and the boy now steers alone."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Thomas Cole was born in England and arrived in America as a teenager.",
+   "isTrue": true,
+   "explanation": "He emigrated with his family at 17."
+  },
+  {
+   "text": "The landscape in this painting shows a real valley Cole had sketched on a trip.",
+   "isTrue": false,
+   "explanation": "It is invented: palms, northern trees and dream mountains never grow together like this."
+  },
+  {
+   "text": "In the next painting of the series, the palace finally comes within reach.",
+   "isTrue": false,
+   "explanation": "In Manhood the sky turns black, the tiller is gone and the castle never appears again."
+  }
+ ]
+}

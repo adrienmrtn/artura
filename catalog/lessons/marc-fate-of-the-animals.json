@@ -1,0 +1,299 @@
+{
+ "teaser": "Painted a year before the war. One third of it was repainted by Paul Klee after a fire.",
+ "focus": [
+  0.52,
+  0.58
+ ],
+ "review_notes": "Size about 196 x 266 cm.\nInscription on the back: 'Und alles Sein ist flammend Leid' (And all being is flaming agony/suffering). Original working title 'Die Bäume zeigten ihre Ringe, die Tiere ihre Adern'; final title suggested by Paul Klee. Please verify.\nShown at the First German Autumn Salon (Erster Deutscher Herbstsalon), Der Sturm gallery, Berlin, autumn 1913.\nPostcard to Maria from the front, 1915: 'It is like a premonition of this war, horrible and shattering. I can hardly conceive that I painted it.' Translations vary.\nWarehouse fire 1916/17 damaged the right third; Klee restored it in 1919 from photographs, in deliberately brownish tones.\nConfiscated from the museum in Halle in 1937, bought by Kunstmuseum Basel in 1939.\nMarc killed 4 March 1916 near Verdun by a shell splinter.\nIdentification of animals (green horses upper left, red boars lower left, blue deer centre, foxes and deer on the right) follows standard descriptions; the right-hand animals are barely legible in this image, so no spot points at an individual animal there.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "By every outside measure, 1913 was Franz Marc's best year. He was thirty-three. A Berlin collector paid him a monthly allowance, so money was no longer a worry. After years of legal obstacles he finally married Maria Franck. His pictures were wanted for the biggest avant-garde show Germany had yet seen."
+  },
+  {
+   "type": "text",
+   "text": "And in that calm, well-fed year, in a village studio in Upper Bavaria, he painted the end of the world. On the back of the canvas he wrote a line: “And all being is flaming agony.”"
+  },
+  {
+   "type": "text",
+   "text": "The canvas is enormous, close to 2 meters high and more than 2.6 meters wide (about 6.5 by 8.5 feet). A forest is being torn apart by something you cannot see. Shafts of red and black cut through it from corner to corner. Trunks snap. And caught inside are animals."
+  },
+  {
+   "type": "lines",
+   "text": "Before you search for the animals, see what is hitting them.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.63
+      ],
+      [
+       0.45,
+       0.42
+      ],
+      [
+       0.98,
+       0.07
+      ]
+     ],
+     "closed": false,
+     "label": "The first blast",
+     "text": "A long red and black shaft runs from the lower left edge to the upper right corner. It is not a branch or a sunbeam. It is pure force, with no source."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.0
+      ],
+      [
+       0.56,
+       0.3
+      ],
+      [
+       0.7,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "The falling tree",
+     "text": "A thick trunk crashes down the other way, from the top edge toward the lower right. Where it crosses the red shaft, the two make a giant X over the middle of the forest."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.05
+      ],
+      [
+       0.27,
+       0.21
+      ]
+     ],
+     "closed": false,
+     "label": "Red spikes",
+     "text": "From the top left corner, pointed red blades stab inward. They read as flames, or splinters, or both."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "An X is the mark you make to cancel something. Marc builds his whole picture on it. Two years earlier his compositions were made of slow curves that wrapped animals and hills together. Now every line is straight, fast and aimed."
+  },
+  {
+   "type": "text",
+   "text": "He had learned this new language from two sources. From the Cubists in Paris he took the idea of breaking a scene into flat, angled facets, like a view through broken glass. From the Italian Futurists, whose pictures he saw in 1912, he took the “lines of force”: streaks that show energy tearing through space."
+  },
+  {
+   "type": "fact",
+   "text": "Marc's first title for the picture was much longer: “The trees showed their rings, the animals their veins.” The shorter title was proposed by his friend, the painter Paul Klee."
+  },
+  {
+   "type": "text",
+   "text": "That first title is a clue to how he saw the scene. Everything is cut open. The disaster is like an X-ray: it shows the inside of things at the moment they are destroyed. With that in mind, go and find who lives in this forest."
+  },
+  {
+   "type": "tour",
+   "title": "Who is in the forest",
+   "text": "Three groups of animals, three ways of meeting the end.",
+   "spots": [
+    {
+     "x": 0.53,
+     "y": 0.6,
+     "zoom": 2.2,
+     "r": 0.11,
+     "shape": "rect",
+     "title": "The blue deer",
+     "text": "At the exact center, a blue deer rears and throws back its neck, white throat bared to the falling trunk. Blue was Marc's color for the spiritual. This is the innocent one, and the tree is coming for it."
+    },
+    {
+     "x": 0.2,
+     "y": 0.76,
+     "zoom": 2.4,
+     "r": 0.13,
+     "shape": "circle",
+     "title": "The boars",
+     "text": "Two wild boars in red and pink press their snouts to the ground in the lower left corner. They do not flee. They burrow down, as if the earth could still hide them."
+    },
+    {
+     "x": 0.15,
+     "y": 0.31,
+     "zoom": 2.6,
+     "r": 0.12,
+     "shape": "circle",
+     "title": "Green horses",
+     "text": "Above the boars, a tangle of green: horses with open mouths, twisting as the red blades come down over their backs. They are the ones who seem to scream."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Rearing, hiding, screaming. Marc does not give you people to pity. He once said he found human beings ugly quite early, and animals more beautiful and pure. Here the pure ones pay for a catastrophe they did not cause and cannot understand."
+  },
+  {
+   "type": "find",
+   "text": "“The trees showed their rings.” Somewhere on the left, a sawn-off log shows its pale, round end. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.09,
+     "y": 0.45,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "The cut log",
+     "text": "A pink trunk with a cream-colored disc at its end, the growth rings turned toward you. A felled tree in a wild forest: something has been cutting here before the storm arrived."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Was he predicting the war? He did not think so while he worked. The picture went to Berlin in the autumn of 1913 for the First German Autumn Salon, a huge show of new art from a dozen countries, and was seen as a bold experiment in form."
+  },
+  {
+   "type": "text",
+   "text": "Then, in August 1914, the war came. Marc volunteered within days, like many artists of his circle, believing the fighting would somehow cleanse a tired Europe. The front cured him of that idea."
+  },
+  {
+   "type": "fact",
+   "text": "In 1915 a friend sent Marc, at the front, a postcard reproduction of this painting. He wrote to Maria that it struck him like a premonition of the war, horrible and shattering, and that he could hardly believe he had painted it."
+  },
+  {
+   "type": "text",
+   "text": "On March 4, 1916, near Verdun, a shell splinter killed him. He was thirty-six. A few months later, the painting itself was hit: a fire in the warehouse where it was stored destroyed much of the right-hand third of the canvas."
+  },
+  {
+   "type": "text",
+   "text": "You may have noticed already that the picture changes as you move right. The reds dim. The blues vanish. Everything turns the color of tobacco. That border is the scar."
+  },
+  {
+   "type": "tour",
+   "title": "Two painters",
+   "text": "Compare the two sides of the same canvas.",
+   "spots": [
+    {
+     "x": 0.3,
+     "y": 0.5,
+     "zoom": 1.5,
+     "r": 0.28,
+     "shape": "circle",
+     "title": "Marc's hand",
+     "text": "The left and center are as Marc left them: saturated red, green and blue, laid in sharp, clean planes."
+    },
+    {
+     "x": 0.84,
+     "y": 0.5,
+     "zoom": 1.5,
+     "r": 0.17,
+     "shape": "rect",
+     "title": "Klee's hand",
+     "text": "In 1919 Paul Klee repainted the burned part, working from photographs. He kept every shape but used muted browns on purpose, so that no one would mistake his work for his dead friend's."
+    },
+    {
+     "x": 0.69,
+     "y": 0.62,
+     "zoom": 2.6,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "The seam",
+     "text": "Here the bright yellow and orange at the foot of the fallen trunk give way to brown. You are looking at the edge of the fire."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Klee's restoration is one of the most honest in art history. He rebuilt the picture and, in the same gesture, showed exactly where it had been lost."
+  },
+  {
+   "type": "fact",
+   "text": "In 1937 the Nazis removed the painting from a German museum as “degenerate” art, their label for modern work they wanted gone. Two years later the Kunstmuseum Basel in Switzerland bought it, and it has been there ever since."
+  },
+  {
+   "type": "text",
+   "text": "So the canvas has lived its own title. It foresaw a war, burned in the middle of it, was mended by a friend in mourning and then driven out of its country by the next regime. The brown third on the right is part of the work now."
+  },
+  {
+   "type": "text",
+   "text": "One question stays open, and Marc left it that way. Does the blue deer in the center lift its head in terror, or in something closer to acceptance? Stand in front of it long enough and you may change your mind more than once."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was Marc's personal situation in 1913, when he painted this?",
+   "options": [
+    "He was poor and unknown",
+    "He was a soldier at the front",
+    "He was financially secure, newly married and in demand"
+   ],
+   "answer": 2,
+   "explanation": "The picture of catastrophe was painted in his calmest year."
+  },
+  {
+   "question": "Why is the right third of the painting brownish?",
+   "options": [
+    "Paul Klee repainted it in muted tones after a fire",
+    "Marc ran out of bright paint",
+    "The varnish darkened"
+   ],
+   "answer": 0,
+   "explanation": "Klee restored the burned part in 1919 and made his work visibly different."
+  },
+  {
+   "question": "Which animal stands at the center, neck thrown back?",
+   "options": [
+    "A red boar",
+    "A blue deer",
+    "A green horse"
+   ],
+   "answer": 1,
+   "explanation": "The blue deer rears as the trunk falls toward it."
+  },
+  {
+   "question": "What did Marc borrow from the Italian Futurists?",
+   "options": [
+    "Their love of gold leaf",
+    "Their soft, misty outlines",
+    "“Lines of force” that show energy tearing through space"
+   ],
+   "answer": 2,
+   "explanation": "He saw Futurist pictures in 1912 and adopted their streaking lines."
+  },
+  {
+   "question": "How did Marc react when he saw a reproduction of the painting at the front?",
+   "options": [
+    "He felt it was like a premonition of the war",
+    "He asked for it to be destroyed",
+    "He did not recognize it"
+   ],
+   "answer": 0,
+   "explanation": "He wrote to Maria that he could hardly believe he had painted it."
+  },
+  {
+   "question": "What shape do the red shaft and the falling tree make together?",
+   "options": [
+    "A circle",
+    "A giant X",
+    "A triangle"
+   ],
+   "answer": 1,
+   "explanation": "The two diagonals cross over the middle of the forest."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Marc painted Fate of the Animals in the trenches during the First World War.",
+   "isTrue": false,
+   "explanation": "He painted it in 1913, a year before the war began."
+  },
+  {
+   "text": "The painting's short title was suggested by Paul Klee.",
+   "isTrue": true,
+   "explanation": "Marc's own first title was a long sentence about rings and veins."
+  },
+  {
+   "text": "Klee tried to match Marc's colors so the repair would be invisible.",
+   "isTrue": false,
+   "explanation": "He used muted browns on purpose so the restored part could be told apart."
+  }
+ ]
+}

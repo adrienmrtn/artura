@@ -1,0 +1,57 @@
+{
+  "teaser": "Banksy gave one of them a cigarette break. In 1857, these three women scared the rich.",
+  "focus": [0.5, 0.55],
+  "review_notes": "Banksy's Agency Job (2009, Banksy versus Bristol Museum): one gleaner cut out of a copy and seated on the frame smoking.\nMillet's earlier treatments of the subject (a vertical painting of about 1853 and an etching of about 1855) are stated in general terms.\nA critic of 1857 (Paul de Saint-Victor is usually cited for 'the three Fates of pauperism'; another for the pikes and scaffolds of 1793): paraphrased, not quoted.\nFirst sale price of 3,000 francs and 1889 price of 300,000 francs paid by Madame Pommery: please verify.\nDimensions 83.5 x 110 cm.\nAgnes Varda, The Gleaners and I, 2000.",
+  "lesson": [
+    {"type": "text", "text": "In 2009 the street artist Banksy hung a copy of this painting in a museum in Bristol, England, with a hole in it. One of the three women had been cut out of the canvas. She was sitting on the edge of the frame instead, smoking a cigarette. He called the piece Agency Job."},
+    {"type": "text", "text": "The joke needs no caption because everyone can read these bodies. Three women are bent double in a field, and you feel it in your own lower back. A hundred and fifty years after Jean-François Millet painted them, they still stand for hard, badly paid work."},
+    {"type": "text", "text": "What they are doing has a name: gleaning. After the harvest, the poorest people of a French village were allowed to walk the cut fields and pick up the stray ears of wheat the reapers had missed. It was an old right, strictly regulated, and it meant hours of stooping for a handful of flour."},
+    {"type": "tour", "title": "One gesture, three times", "text": "Go from left to right, one woman at a time.", "spots": [
+      {"x": 0.3, "y": 0.52, "zoom": 2.2, "r": 0.13, "title": "Reaching", "text": "Under a blue cap, the first woman stretches one arm to the ground and holds the other behind her back, gripping the ears she has already found. Her face is turned away."},
+      {"x": 0.5, "y": 0.58, "zoom": 2.2, "r": 0.13, "title": "Picking", "text": "The woman in the red cap is at the lowest point of the bend, fingers closing on a stalk. Her sleeve protector and thick hand are painted with as much care as a portrait face."},
+      {"x": 0.76, "y": 0.52, "zoom": 1.8, "r": 0.15, "shape": "rect", "title": "Half rising", "text": "The third, in a yellowish cap, is only half bent, a small bundle in her hand. She may be older, or stiff, or about to go down again. Her face is lost in shadow too."}
+    ]},
+    {"type": "text", "text": "Reach, pick, straighten: read together, the three women are almost one movement shown in three stages, like frames of a film. And not one of them shows you her face. Millet is not painting three individuals. He is painting the gesture itself, repeated all day."},
+    {"type": "fact", "text": "Millet circled this subject for years before the final canvas. He tried it as a vertical painting and as an etching, a print made from a metal plate, shifting the women around until the group had the weight of a sculpture."},
+    {"type": "text", "text": "The women have a few stalks each. So where did all the wheat go? The answer is behind them, small and pale, and easy to miss because the foreground is so strong. Somewhere back there, one man is not working."},
+    {"type": "find", "text": "Someone is supervising the harvest from a saddle. Can you spot him?", "spots": [
+      {"x": 0.885, "y": 0.305, "zoom": 4, "r": 0.04, "title": "The overseer", "text": "A man on horseback, far right, in front of the farm buildings. He is the steward watching the landowner's harvest come in. He is also the only figure in the painting who sits."}
+    ]},
+    {"type": "text", "text": "Now the background makes sense. Around the rider, a crowd of reapers binds sheaves, a cart is piled high, and haystacks rise like hills. All of that belongs to the farm. The gleaners' share is what falls on the ground."},
+    {"type": "lines", "text": "Millet separates the two worlds with a few simple lines.", "lines": [
+      {"points": [[0.0, 0.3], [1.0, 0.3]], "closed": false, "label": "The horizon", "text": "The horizon sits high. Above it is a pale sky. Just below it, in a thin golden band, is the entire rich harvest. Everything else is stubble."},
+      {"points": [[0.25, 0.47], [0.42, 0.4], [0.6, 0.43], [0.72, 0.5]], "closed": false, "label": "The two bent backs", "text": "The backs of the two stooping women form a low mound. None of it rises above the horizon: they are held inside the earth-colored part of the picture."},
+      {"points": [[0.84, 0.3], [0.86, 0.82]], "closed": false, "label": "The standing figure", "text": "Only the third woman's head breaks the horizon line, and only just. Her upright body closes the group on the right like a bracket."}
+    ]},
+    {"type": "text", "text": "When the painting was shown at the Paris Salon of 1857, the official yearly exhibition, wealthy visitors were uneasy. The revolution of 1848 was less than ten years old. Three poor women painted large and solemn, with plenty in the distance behind them, looked to some like an accusation."},
+    {"type": "fact", "text": "One critic wrote that behind these three gleaners he could make out the pikes of popular riots and the scaffolds of 1793, the bloodiest year of the French Revolution. Another called them the three Fates of poverty."},
+    {"type": "text", "text": "Millet denied being a political agitator. He was the son of farmers from the Normandy coast and had worked the land himself as a boy. He said he painted what he knew. But he gave field workers the scale and gravity that painting had kept for saints and heroes, and that alone was a statement."},
+    {"type": "key", "text": "The Gleaners takes the poorest people in the countryside and paints them with the dignity of monuments. The harvest is in the picture, but it is far away and it is not theirs."},
+    {"type": "text", "text": "The color is quieter than the idea. Nearly everything is the tone of dry earth and straw. Against it, Millet places three caps, blue, red and yellowish, the plainest possible set of colors. They help you tell the women apart at a glance, and they keep the group from sinking into the field."},
+    {"type": "text", "text": "The canvas is modest in size, about 84 by 110 centimeters (33 by 43 inches), and it first sold for a modest sum. By 1889, fourteen years after Millet's death, it fetched a hundred times more at auction. The buyer gave it to France. It is now at the Musée d'Orsay."},
+    {"type": "fact", "text": "That buyer was Madame Pommery, head of the champagne house in Reims that still carries her name. She bought The Gleaners to keep it from leaving the country and left it to the Louvre."},
+    {"type": "explore", "spots": [
+      {"x": 0.24, "y": 0.26, "zoom": 2.6, "r": 0.1, "title": "The haystacks", "text": "Huge rounded stacks, hazy in the heat. They are the largest shapes in the distance, a measure of how much grain the farm has taken in."},
+      {"x": 0.38, "y": 0.29, "zoom": 3.2, "r": 0.08, "title": "The loaded cart", "text": "A wagon heaped with sheaves, with figures working on top and horses waiting beside it. The harvest leaves by the cartload. The gleaners leave with a bundle."},
+      {"x": 0.58, "y": 0.31, "zoom": 3.4, "r": 0.09, "title": "The reapers", "text": "A pale crowd of hired harvesters, brushed in with a few light touches. Millet keeps them blurred so they read as a mass, not as people you could meet."},
+      {"x": 0.19, "y": 0.68, "zoom": 3.6, "r": 0.05, "title": "The reaching hand", "text": "Fingers about to close on a single ear among the stubble. The scattered straws catching the light around it show how little there is to find."},
+      {"x": 0.69, "y": 0.56, "zoom": 3.2, "r": 0.06, "title": "The day's bundle", "text": "A thin bunch of stalks held at the back and in the hand. Hours of work fit in a fist."},
+      {"x": 0.72, "y": 0.03, "zoom": 2.8, "r": 0.1, "title": "The birds", "text": "A scatter of dark specks in the upper sky: birds wheeling over the field. They have come for the fallen grain as well."}
+    ]},
+    {"type": "text", "text": "In 2000 the French filmmaker Agnès Varda started from this painting to make a documentary, The Gleaners and I. She went looking for the gleaners of her own time and found them: people collecting potatoes left in fields, or food left behind at city markets after closing."},
+    {"type": "text", "text": "That may be why the image keeps being borrowed, by a filmmaker and by Banksy alike. The clothes and the tools belong to 1857. The question of who gets the harvest and who gets the leftovers has not aged a day. Who would the three women be now?"}
+  ],
+  "quiz": [
+    {"question": "What is gleaning?", "options": ["Cutting wheat with a sickle", "Picking up the stray ears left after the harvest", "Tying the wheat into sheaves"], "answer": 1, "explanation": "The village poor were allowed to collect what the reapers had missed."},
+    {"question": "Who is the only seated figure in the painting?", "options": ["The overseer on horseback", "The woman in the red cap", "A driver on the cart"], "answer": 0, "explanation": "The steward watches the harvest from his saddle on the far right."},
+    {"question": "Why did the painting worry wealthy visitors in 1857?", "options": ["It showed a religious scene in a field", "It was painted too loosely", "It gave poor workers a solemn, monumental presence soon after a revolution"], "answer": 2, "explanation": "With 1848 still fresh, the dignified poor in front of a distant rich harvest looked like an accusation."},
+    {"question": "What do the three women have in common?", "options": ["They all look at the viewer", "None of their faces is clearly shown", "They all wear blue caps"], "answer": 1, "explanation": "Millet hides the faces and paints the gesture, not individuals."},
+    {"question": "Who bought the painting in 1889 and gave it to France?", "options": ["Madame Pommery, of the champagne house", "The filmmaker Agnès Varda", "The landowner shown on horseback"], "answer": 0, "explanation": "Madame Pommery bought it and left it to the Louvre."},
+    {"question": "Where does Millet place the rich harvest?", "options": ["In the foreground, at the women's feet", "It is not shown", "In a thin band just below the high horizon"], "answer": 2, "explanation": "Haystacks, cart and reapers sit far away in a golden strip under the horizon."}
+  ],
+  "facts": [
+    {"text": "The three gleaners are shown harvesting the main crop for the landowner.", "isTrue": false, "explanation": "They only collect the leftover ears after the real harvest, which is happening in the distance."},
+    {"text": "Banksy made a version in which one gleaner sits on the frame for a cigarette break.", "isTrue": true, "explanation": "His 2009 piece Agency Job cut one woman out of the canvas."},
+    {"text": "The Gleaners is a huge canvas, more than three meters wide.", "isTrue": false, "explanation": "It is modest in size, about 84 by 110 centimeters."}
+  ]
+}

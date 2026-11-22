@@ -1,0 +1,43 @@
+{
+  "teaser": "Sold for 1,000 francs. Thirty years later, two nations fought over it at 553,000.",
+  "focus": [0.52, 0.42],
+  "review_notes": "Prices: sold in 1860 for 1,000 francs; 553,000 francs at the Secretan sale in 1889 (American Art Association); bought back by Alfred Chauchard in 1890 for 800,000 francs; bequeathed to the Louvre (entered 1909/1910).\nCommission by the American Thomas Gold Appleton, never collected; Millet then added the steeple and changed the title from Prayer for the Potato Crop.\nMillet's remark about his grandmother stopping work for the Angelus is paraphrased, not quoted.\nThe steeple is traditionally identified as the church of Chailly-en-Biere, near Barbizon.\nFrench resale right (droit de suite) law of 1920 is commonly linked to this sale.\nDali's coffin theory and the Louvre X-ray (1963) showing a box-like shape under the basket: the X-ray finding is real but its interpretation is disputed.\nKnife attack on the painting at the Louvre in 1932.\nDimensions 55.5 x 66 cm.",
+  "lesson": [
+    {"type": "text", "text": "1,000 francs. That is roughly what this painting sold for in 1860. In 1889 it came up at auction in Paris and the hammer fell at 553,000 francs, a record for a modern picture. A year later a French buyer paid 800,000 to bring it home from America. Same paint, same canvas, thirty years apart."},
+    {"type": "text", "text": "The object behind those figures is small: about 55 by 66 centimeters (22 by 26 inches), barely wider than a carry-on bag. Two farm workers stand in a potato field at the end of the day. They have stopped digging. Their heads are down. Nothing else happens."},
+    {"type": "text", "text": "The title tells you why. The Angelus is a Catholic prayer said three times a day, at morning, noon and dusk, when the church bell rings for it. So this is a painting of a sound. Jean-François Millet said he wanted you to hear the bells. He even shows you where they are ringing."},
+    {"type": "find", "text": "A bell is ringing somewhere in this landscape. Where does the sound come from?", "spots": [
+      {"x": 0.745, "y": 0.315, "zoom": 4, "r": 0.04, "title": "The steeple", "text": "A tiny church spire on the horizon, just behind the woman's shoulder. It is traditionally identified as the church of Chailly, near the village of Barbizon where Millet lived."}
+    ]},
+    {"type": "text", "text": "That spire was an afterthought. An American collector had ordered the picture in 1857, then never came to collect it. Millet reworked the canvas, added the steeple, and replaced its first title, which was about praying for the potato crop, with The Angelus. A late change turned a farm scene into an icon."},
+    {"type": "fact", "text": "Millet traced the idea to his childhood on a Normandy farm. When the evening bell rang, his grandmother made everyone stop work in the fields and say the Angelus for the dead, hat in hand."},
+    {"type": "text", "text": "Millet sets the couple against the brightest part of the sky, so the light comes from behind them. Painters call this backlighting. It flattens the figures into dark shapes with glowing edges and hides their expressions. You cannot read these faces. You have to read everything else."},
+    {"type": "tour", "title": "Work, interrupted", "text": "Since the faces are in shadow, the story is told by hands and tools.", "spots": [
+      {"x": 0.36, "y": 0.42, "zoom": 3, "r": 0.09, "title": "The hat", "text": "He has taken off his hat and holds it against his chest with both hands, turning it a little awkwardly. His bare head catches the last light."},
+      {"x": 0.62, "y": 0.38, "zoom": 3.2, "r": 0.08, "title": "Her hands", "text": "Her hands are pressed together under her chin and her whole body curves forward over them. She prays with her back and shoulders as much as with her hands."},
+      {"x": 0.2, "y": 0.72, "zoom": 2, "r": 0.1, "shape": "rect", "title": "The fork", "text": "A digging fork has been stabbed upright into the soil, right where he stopped. Its long handle leans like a third figure. It will be picked up again in a minute."}
+    ]},
+    {"type": "text", "text": "A fork left standing, a hat taken off: this is a pause, not an ending. Millet was not a churchgoer and did not think of the picture as a religious one. What he painted was a habit, a minute of stillness built into a working day, the way it had been for generations."},
+    {"type": "fact", "text": "The 1889 auction became a national drama. France tried to buy the painting for the Louvre and lost it to an American group, who sent it on a paid tour of the United States. In 1890 Alfred Chauchard, owner of a Paris department store, bought it back and later left it to the French state."},
+    {"type": "text", "text": "Millet saw none of that money. He had died in 1875, and his family lived in poverty while dealers made fortunes from his canvases. The scandal helped bring about a French law of 1920 that gives artists and their heirs a small share each time a work is resold."},
+    {"type": "text", "text": "Fame brought a stranger kind of attention. The Surrealist painter Salvador Dalí was haunted by The Angelus and painted it again and again. He was convinced the couple were not saying an evening prayer at all. For him, they were mourning, and the proof lay on the ground between them."},
+    {"type": "find", "text": "Dalí fixed on one object lying between the two figures. Which one?", "spots": [
+      {"x": 0.54, "y": 0.87, "zoom": 3, "r": 0.09, "title": "The basket", "text": "A wicker basket of potatoes at their feet, so dark it nearly melts into the soil. Dalí insisted Millet had first painted a child's coffin here and then covered it."}
+    ]},
+    {"type": "text", "text": "At Dalí's urging, the Louvre X-rayed the canvas in 1963. Under the basket there is indeed an earlier, box-like shape that Millet painted over. Whether it was a coffin or just a first try at a basket, nobody can say. The picture keeps its silence, which is part of its hold on people."},
+    {"type": "fact", "text": "In 1932 a visitor to the Louvre attacked The Angelus with a knife and slashed the canvas. It was repaired, and today it hangs at the Musée d'Orsay."},
+    {"type": "key", "text": "The Angelus shows almost nothing: two people, a field, a pause. Its power comes from what you cannot see, the sound of a bell and the thoughts of two faces left in shadow."}
+  ],
+  "quiz": [
+    {"question": "What is the Angelus?", "options": ["A prayer said when the church bell rings, three times a day", "A harvest festival", "The name of the village in the background"], "answer": 0, "explanation": "It is a Catholic prayer said at morning, noon and dusk."},
+    {"question": "What did Millet add after his American client failed to collect the painting?", "options": ["The wheelbarrow", "The second figure", "The church steeple on the horizon"], "answer": 2, "explanation": "He added the steeple and changed the title to The Angelus."},
+    {"question": "Why are the faces so hard to read?", "options": ["The paint has faded", "The light comes from behind the figures", "They wear veils"], "answer": 1, "explanation": "Backlighting turns the couple into dark shapes against the bright sky."},
+    {"question": "What did Salvador Dalí believe was hidden under the basket?", "options": ["A child's coffin", "A second fork", "The artist's signature"], "answer": 0, "explanation": "Dalí was convinced Millet had first painted a small coffin there."},
+    {"question": "What did the huge resale prices of The Angelus help bring about in France?", "options": ["A ban on selling art abroad", "Free entry to the Louvre", "A law giving artists and heirs a share of resales"], "answer": 2, "explanation": "A 1920 law gave artists and their heirs a small share each time a work is resold."}
+  ],
+  "facts": [
+    {"text": "Millet became rich from the record sale of The Angelus.", "isTrue": false, "explanation": "He died in 1875, long before the 1889 auction, and his family stayed poor."},
+    {"text": "The man in the painting has stuck his fork upright in the ground.", "isTrue": true, "explanation": "The fork stands in the soil where he stopped digging."},
+    {"text": "The Angelus is a very large painting, about three meters wide.", "isTrue": false, "explanation": "It measures only about 55 by 66 centimeters."}
+  ]
+}

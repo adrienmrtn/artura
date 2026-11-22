@@ -1,0 +1,41 @@
+{
+  "teaser": "Price tag in a London shop in the 1960s: fifty pounds. Nobody wanted it.",
+  "focus": [0.46, 0.36],
+  "review_notes": "Andrew Lloyd Webber's story (saw it for £50 as a student, grandmother refused the loan calling it 'Victorian junk') is told by him; the quote is paraphrased here, not given verbatim.\nLuis A. Ferré bought it from the Maas Gallery in 1963 for £2,000: confirm figure.\nRediscovery in a Battersea house, boxed in over a chimney, early 1960s: widely repeated account.\nLeighton's peerage: created Baron Leighton 24 January 1896, died 25 January 1896.\nModel is debated (Dorothy Dene or Mary Lloyd); lesson says so.\nLink of the pose to Michelangelo's Night is the standard reading.\nCanvas approx. 120 x 120 cm.",
+  "lesson": [
+    {"type": "text", "text": "Fifty pounds. That was the price on this painting in a London shop in the early 1960s. A teenage music student named Andrew Lloyd Webber saw it and asked his grandmother to lend him the money. She refused. She was not going to have Victorian junk in her flat."},
+    {"type": "text", "text": "She was only saying what everyone thought. By then, Victorian painting was a joke, and this canvas had spent years lost to view. The story goes that builders found it boxed in above a chimney in a house in south London. A dealer cleaned it up and still could not find a British museum to take it."},
+    {"type": "fact", "text": "In 1963 Luis A. Ferré, an industrialist from Puerto Rico who was shopping for a museum he was founding in the city of Ponce, saw it at a London dealer's and bought it for about £2,000. It has been the star of the Museo de Arte de Ponce ever since."},
+    {"type": "text", "text": "What had gone so out of fashion? A woman asleep on a marble bench, on a terrace above the sea, on a hot afternoon. No story, no moral, no title from a poem. Frederic Leighton showed it at London's Royal Academy in 1895 as pure arrangement: a body, a color, a curve."},
+    {"type": "text", "text": "The canvas is a square, about 120 centimeters (47 inches) on each side. A square is a restless shape for a figure, with no long side to lie along. Leighton solves it by coiling her up. Her body does not stretch across the picture. It turns inside it."},
+    {"type": "lines", "text": "Follow the shape her body makes inside the square.", "lines": [
+      {"points": [[0.22, 0.27], [0.5, 0.22], [0.75, 0.3], [0.88, 0.5], [0.85, 0.72], [0.65, 0.88], [0.4, 0.84], [0.2, 0.68], [0.12, 0.45]], "closed": true, "label": "The wheel", "text": "Shoulder, head, bent arm, knee, falling drapery and back again: the figure fits a near circle that almost touches all four sides of the canvas."},
+      {"points": [[0.2, 0.52], [0.5, 0.57], [0.78, 0.63]], "closed": false, "label": "The thigh", "text": "One long line crosses the circle: her right thigh. It is far longer than any real leg would be. Leighton stretched it so the curve could close."},
+      {"points": [[0.0, 0.19], [1.0, 0.19]], "closed": false, "label": "The horizon", "text": "Above all that curling, a single ruler-straight line: the sea. It is the only cool, flat thing in the picture, and it makes the orange below feel hotter."}
+    ]},
+    {"type": "text", "text": "The pose was borrowed. Leighton admired Michelangelo's marble figure of Night, a sleeping woman on a tomb in Florence, twisted in much the same way. He first tried the pose as a tiny carving on a marble bath in the background of another painting, liked it, and gave it a canvas of its own."},
+    {"type": "text", "text": "His method was slow and almost old-fashioned. He drew the model nude to get the body right, then drew the cloth over her in separate studies, then worked out the color in a small oil sketch. Only then did he touch the big canvas. The result is that you sense the body everywhere under the dress."},
+    {"type": "tour", "title": "Heat, cloth, poison", "text": "Three places where the painting says more than “a girl is sleeping.”", "spots": [
+      {"x": 0.45, "y": 0.34, "zoom": 3, "r": 0.09, "title": "Flushed cheek", "text": "Her cheek and ear are pink with heat, her head resting heavily on her forearm. The title names the month: this is the dead weight of a nap at midday in midsummer."},
+      {"x": 0.33, "y": 0.36, "zoom": 3, "r": 0.09, "title": "See-through orange", "text": "The fabric is so thin that the skin of her shoulder and chest shows through it. Leighton paints the cloth in translucent layers, so the orange seems lit from inside."},
+      {"x": 0.82, "y": 0.2, "zoom": 2.6, "r": 0.1, "title": "Oleander", "text": "The flowering branch above her is oleander, a Mediterranean shrub that is pretty and poisonous. Many viewers take it as a hint at the old kinship between sleep and death."}
+    ]},
+    {"type": "text", "text": "That hint has a bitter edge. Leighton was 64, the president of the Royal Academy and the most honored painter in Britain, and his heart was failing. This was one of the last big pictures he finished. He died in January 1896, a few months after it left the exhibition."},
+    {"type": "fact", "text": "The day before his death, Leighton was made a baron, the first British painter ever raised to the peerage. He had no children, so the title died with him the next day. It is the shortest-lived peerage in British history."},
+    {"type": "find", "text": "The whole figure is wrapped in orange, with almost no bare skin below the arms. One small part of her escapes the dress at the very bottom. Where?", "spots": [{"x": 0.5, "y": 0.95, "zoom": 3.2, "r": 0.07, "title": "The bare foot", "text": "Her toes rest on the cool marble floor, pink like her cheek. It is the last stop of the spiral that started at her head, and it reminds you there is a real body inside all that silk."}]},
+    {"type": "fact", "text": "Nobody is sure who she is. Two of Leighton's regular models, the actress Dorothy Dene and Mary Lloyd, have each been named. In 2015 his pencil study for the sleeping head turned up hanging behind a bedroom door in an English country house."},
+    {"type": "key", "text": "Taste is not permanent. A picture ignored at fifty pounds became one of the best-loved images of its century, without a single brushstroke changing."}
+  ],
+  "quiz": [
+    {"question": "How much was the painting priced at when Andrew Lloyd Webber saw it in a shop?", "options": ["£50", "£5,000", "£500,000"], "answer": 0, "explanation": "It was offered for fifty pounds, and his grandmother refused to lend the money."},
+    {"question": "Where does the painting hang today?", "options": ["Tate Britain, London", "The Royal Academy, London", "Museo de Arte de Ponce, Puerto Rico"], "answer": 2, "explanation": "Luis A. Ferré bought it in 1963 for the museum he founded in Ponce."},
+    {"question": "Which sculpture inspired the twisted sleeping pose?", "options": ["The Venus de Milo", "Michelangelo's Night", "Rodin's Thinker"], "answer": 1, "explanation": "Leighton admired Michelangelo's sleeping figure of Night in Florence."},
+    {"question": "What did Leighton do to her right thigh?", "options": ["Hid it completely behind the bench", "Made it much longer than a real leg", "Left it unfinished"], "answer": 1, "explanation": "He stretched it so the body could close into a circle inside the square canvas."},
+    {"question": "Why do viewers link the oleander branch to death?", "options": ["The plant is poisonous", "It only grows in cemeteries", "Its flowers are black"], "answer": 0, "explanation": "Oleander is a toxic shrub, placed right above the sleeper."}
+  ],
+  "facts": [
+    {"text": "Flaming June illustrates a scene from a famous poem.", "isTrue": false, "explanation": "It has no story at all: Leighton showed it as pure arrangement of body, color and curve."},
+    {"text": "Leighton held his title of baron for only one day.", "isTrue": true, "explanation": "He was made a peer the day before he died, and had no heir."},
+    {"text": "The canvas is a square.", "isTrue": true, "explanation": "It measures about 120 centimeters on each side."}
+  ]
+}

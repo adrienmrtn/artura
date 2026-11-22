@@ -1,0 +1,55 @@
+{
+  "teaser": "Six young men are about to fight. Five will die. The women on the right already know it.",
+  "focus": [0.47, 0.42],
+  "review_notes": "Story source: Livy; the oath scene itself is David's invention, not in Livy or in Corneille's play Horace (1640).\nCommissioned for the crown through the comte d'Angiviller; requested size about 10 x 10 French feet, delivered larger (330 x 425 cm).\nPainted in Rome in 1784, shown in David's Roman studio in 1785, then at the Paris Salon of 1785.\nThe claim that pupil Jean-Germain Drouais helped (often said: the arm of the rear brother and Sabina's yellow-brown garment) is traditional; lesson only says a pupil helped with parts.\nIdentification of women: Camilla in white at far right, Sabina beside her, mother (or nurse) in dark blue sheltering two children.\nDavid voted for the death of Louis XVI in January 1793.\nRome studio showing in 1785: 'procession' of visitors and the pope's reported wish to see it are from period accounts; please confirm wording.\nOne brother (the middle one) swears with his left arm.\nDavid's first idea was an episode after the combat (Horatius after killing Camilla).",
+  "lesson": [
+    {"type": "text", "text": "Five out of six. That is how many of the young fighters in this story will be dead by evening. Three brothers from Rome, the Horatii, are about to duel three brothers from the rival city of Alba, the Curiatii. Two cities have agreed to let six men settle their war."},
+    {"type": "text", "text": "Jacques-Louis David shows none of the fighting. He picks the minute before: the three Romans stretch their arms toward their father, who lifts their swords. They swear to win or die. The old legend never describes this oath. David invented the scene, and it became more famous than the legend."},
+    {"type": "fact", "text": "The painting was ordered for the king of France, at a set size of about 3.3 meters square. David decided the subject needed more room and delivered a canvas 4.25 meters (14 feet) wide. He did not ask permission first."},
+    {"type": "text", "text": "He was 36 and convinced he could not paint ancient Romans in Paris. So in 1784 he packed up his family and a favorite pupil and moved to Rome for the job. He worked on the canvas for about eleven months, among the ruins he wanted to rival."},
+    {"type": "text", "text": "What he built there looks less like a painting of the time than like a stage. A bare stone hall, a shallow floor, and at the back three dark arches. Those arches are not background. They sort the cast."},
+    {"type": "lines", "text": "One arch, one group. Watch how the architecture files everyone into place.", "lines": [
+      {"points": [[0.1, 0.72], [0.1, 0.2], [0.2, 0.1], [0.3, 0.2], [0.3, 0.72]], "closed": false, "label": "The sons", "text": "The left arch frames the three brothers. They overlap so tightly that they read as one body with three helmets and six legs."},
+      {"points": [[0.38, 0.72], [0.38, 0.2], [0.48, 0.11], [0.58, 0.2], [0.58, 0.72]], "closed": false, "label": "The father", "text": "The middle arch belongs to the father alone, in his red cloak. He is the hinge of the picture: sons on one side of him, women on the other."},
+      {"points": [[0.66, 0.72], [0.66, 0.2], [0.74, 0.11], [0.84, 0.2], [0.84, 0.72]], "closed": false, "label": "The women", "text": "Under the right arch, the women sink down. Nothing in this third of the picture stands up straight."},
+      {"points": [[0.02, 0.97], [0.455, 0.37], [0.98, 0.97]], "closed": false, "label": "The floor", "text": "The lines of the paving stones run back toward one point: the father's fist around the swords. The whole room is drawn to aim at it."}
+    ]},
+    {"type": "text", "text": "So the building itself points to that fist. Everything the men are, at this instant, is concentrated in a few square centimeters of paint: one hand, three blades, and three arms reaching for them."},
+    {"type": "tour", "title": "The oath", "text": "Follow the gesture from the sons to the swords.", "spots": [
+      {"x": 0.2, "y": 0.42, "zoom": 3, "r": 0.1, "title": "Three profiles", "text": "Three helmets, three faces seen from the side, lined up like heads on a Roman coin. None of the brothers looks at the women. None of them hesitates."},
+      {"x": 0.4, "y": 0.44, "zoom": 3.5, "r": 0.06, "title": "Open hands", "text": "The arms shoot out straight and parallel, fingers spread. One brother uses his left arm, so the three hands stack up at slightly different heights instead of hiding each other."},
+      {"x": 0.465, "y": 0.36, "zoom": 3.5, "r": 0.07, "title": "The swords", "text": "The father grips all three blades in one fist, his other palm raised to the sky. Notice the hilts are not identical. The blades are the brightest metal in the room."},
+      {"x": 0.19, "y": 0.58, "zoom": 3.5, "r": 0.05, "title": "A hand at the waist", "text": "A brother's hand clasps the waist of the one in front. The oath binds them to each other as much as to Rome."}
+    ]},
+    {"type": "text", "text": "Now the other half. If this were only a picture about courage, David could have stopped at the swords. Instead he gave a third of his expensive canvas to people who say nothing and swear nothing."},
+    {"type": "text", "text": "They have reasons to weep that no outcome can fix. Camilla, sister of the Horatii, is engaged to one of the enemy brothers. Sabina, born in the enemy family, is married to one of the Horatii. Whoever wins, each loses someone."},
+    {"type": "tour", "title": "The price", "text": "Three women, and two children you might have missed.", "spots": [
+      {"x": 0.93, "y": 0.66, "zoom": 2.6, "r": 0.09, "shape": "rect", "title": "Camilla", "text": "In white, at the far edge, her head drops onto her neighbor's shoulder and her arm hangs loose. Her body is all soft curves, the opposite of her brothers' straight arms."},
+      {"x": 0.82, "y": 0.6, "zoom": 2.6, "r": 0.09, "title": "Sabina", "text": "Wrapped in brown and blue, she leans toward Camilla, eyes closed. The two women prop each other up: grief here is shared, while the oath is shouted."},
+      {"x": 0.69, "y": 0.63, "zoom": 3.2, "r": 0.08, "title": "In the shadow", "text": "Further back, a woman in dark blue shelters two children under her arm. The older one peers out past her hand, toward the men. He is the only one on this side who watches."}
+    ]},
+    {"type": "key", "text": "David splits the canvas into two languages: straight lines and hard edges for duty, curves and shadow for feeling. He lets you hear both, and does not tell you which to trust."},
+    {"type": "text", "text": "This severity was a deliberate slap. French taste had been ruled for decades by Rococo, a style of pastel colors, curling ornament and flirtation in gardens. David answered with stone, bare feet, and three colors. The return to ancient models was later named Neoclassicism."},
+    {"type": "find", "text": "David wanted even the smallest thing to look like carved marble. Find the foot planted closest to you.", "spots": [
+      {"x": 0.35, "y": 0.92, "zoom": 3.5, "r": 0.06, "title": "A sandal", "text": "Every strap, toe and tendon is outlined, with its own sharp shadow on the stone. No visible brushwork: the smooth surface was meant to feel as firm as the men's decision."}
+    ]},
+    {"type": "fact", "text": "Before Paris saw it, Rome did. In the summer of 1785 David opened his studio there, and visitors came in such numbers that people spoke of a procession. Even the pope was said to want a viewing."},
+    {"type": "text", "text": "In Paris, at the Salon, the big public exhibition held at the Louvre, the canvas arrived late and stole the show. Viewers read it as a lesson in civic virtue: the state before the self. At that moment, nobody thought of it as a threat to the throne that had paid for it."},
+    {"type": "fact", "text": "The legend has a brutal sequel. Only one Horatius comes home alive. Finding his sister Camilla in tears for her dead fiancé, he kills her on the spot. David first planned to paint an episode from that aftermath, then chose the oath instead."},
+    {"type": "text", "text": "Then history caught up with the picture. Four years after the Salon, the French Revolution broke out, and real oaths were sworn in public with raised arms. David joined the radicals. In 1793, as an elected deputy, he voted for the execution of Louis XVI, the king who had commissioned the Horatii."},
+    {"type": "text", "text": "Since then, the painting has been hard to see innocently. Is it a hymn to sacrifice, or a warning about what sacrifice costs? Stand in front of the father, then in front of Camilla, and notice which side holds you longer."}
+  ],
+  "quiz": [
+    {"question": "What moment of the story does David show?", "options": ["The duel between the six brothers", "The brothers swearing an oath before the fight", "The survivor returning home"], "answer": 1, "explanation": "He paints the oath before the combat, a scene he invented."},
+    {"question": "What do the three arches do in the composition?", "options": ["They each frame one group: sons, father, women", "They show three different cities", "They hide extra soldiers"], "answer": 0, "explanation": "The architecture sorts the figures into three groups."},
+    {"question": "Where do the lines of the floor converge?", "options": ["On Camilla's face", "On the tip of the spear", "On the father's fist holding the swords"], "answer": 2, "explanation": "The paving lines run back toward the hand that grips the three swords."},
+    {"question": "Why does Camilla weep?", "options": ["She is engaged to one of the enemy brothers", "She wanted to fight too", "Her father has disowned her"], "answer": 0, "explanation": "She will lose either her brothers or her fiancé."},
+    {"question": "Which style was David reacting against?", "options": ["Impressionism", "Rococo", "Cubism"], "answer": 1, "explanation": "He rejected the soft, decorative Rococo taste for a severe style based on antiquity."},
+    {"question": "Where did David paint the canvas?", "options": ["In Paris", "In Brussels", "In Rome"], "answer": 2, "explanation": "He moved to Rome in 1784 to paint Romans among Roman ruins."}
+  ],
+  "facts": [
+    {"text": "The king's administration ordered the painting, and David later voted for that king's execution.", "isTrue": true, "explanation": "The work was a royal commission, and David voted for Louis XVI's death in 1793."},
+    {"text": "David delivered the canvas at exactly the size he was asked for.", "isTrue": false, "explanation": "He made it wider than ordered, without asking permission."},
+    {"text": "One of the children on the right watches the oath.", "isTrue": true, "explanation": "The older child peers out past the woman's hand toward the men."}
+  ]
+}

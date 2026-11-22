@@ -1,0 +1,46 @@
+{
+  "teaser": "A saint dives in head first, and not one person in the crowd looks up.",
+  "focus": [0.42, 0.3],
+  "review_notes": "Superhero comparison in the opening is ours, an analogy and not a documented influence.\nStory from the Golden Legend: the servant of a knight of Provence punished for venerating the relics of Saint Mark; tools break. Standard account.\nPainted 1548 for the Scuola Grande di San Marco; Tintoretto aged about 29 or 30 (born 1518 or 1519). Size about 4.15 x 5.41 m.\nBiographer Carlo Ridolfi (1642) is the source for: the quarrel with the Scuola and Tintoretto taking the canvas home; the small wax or clay models lit by lamps; the studio motto about Michelangelo's drawing and Titian's color. All traditional, written a century later.\nPietro Aretino's letter of April 1548 praising the picture and advising more patience: paraphrased.\nTintoretto's father was a cloth dyer (tintore).\nReclining statues on the garden gate compared to Michelangelo's Medici tomb figures: common observation.\nTaken to Paris in 1797 and returned in 1815; three more Saint Mark canvases for the same hall in the 1560s.",
+  "lesson": [
+    {"type": "text", "text": "A man is pinned to the ground. The crowd closes in. Then a figure in a billowing cloak drops out of the sky, head first, at the last possible second. You have seen this shot in a hundred superhero films. Tintoretto staged it in oil paint in 1548, about four centuries before the first comic book."},
+    {"type": "text", "text": "The story comes from a medieval book of saints' lives. In Provence, in the south of France, a servant slips away to Venice to pray at the tomb of Saint Mark, against his master's orders. Back home the master condemns him: his eyes are to be put out and his legs broken with hammers. The servant calls on the saint."},
+    {"type": "find", "text": "The torturers have already tried, and failed. Find the evidence.", "spots": [
+      {"x": 0.4, "y": 0.955, "zoom": 2.6, "r": 0.14, "title": "Broken tools", "text": "Splintered wooden shafts, a snapped axe, a hammer head with no handle: the floor in front of the slave is littered with wreckage. Every tool broke the moment it touched him."}
+    ]},
+    {"type": "text", "text": "So the picture shows the second after the miracle. The naked man lies unharmed among the splinters, and the confusion is just beginning. One executioner turns to hold the useless pieces of a hammer up to his master. And here is the oddest thing: scan the faces. Nobody looks up."},
+    {"type": "key", "text": "Saint Mark is invisible to everyone inside the painting. The crowd sees only broken tools. You are the one witness who gets the whole miracle."},
+    {"type": "fact", "text": "Tintoretto is a nickname. It means “little dyer”: his father dyed cloth for a living in Venice, and a tintore is a dyer. The painter's real name was Jacopo Robusti."},
+    {"type": "text", "text": "He was about 29 and hungry for a big public job. This one came from the Scuola Grande di San Marco, one of the wealthy charitable brotherhoods of Venice, which wanted scenes of its patron saint for its meeting hall. The canvas is over five meters wide (about 18 feet), so the bodies in front are larger than life."},
+    {"type": "text", "text": "What made people gasp was the saint. He comes at us upside down and compressed, feet first in the sky, head lowest. Painters call this foreshortening: drawing a body that points toward the viewer, so that its length shrinks and its nearest parts loom large. Tintoretto does it twice, and the two bodies answer each other."},
+    {"type": "lines", "text": "Two bodies and a chain of arms hold the scene together.", "lines": [
+      {"points": [[0.54, 0.04], [0.5, 0.2], [0.4, 0.32]], "closed": false, "label": "The dive", "text": "From the soles of his feet at the top edge down to his dark head in a ring of light, the saint plunges on a steep diagonal aimed at the man below."},
+      {"points": [[0.5, 0.8], [0.4, 0.86], [0.34, 0.92]], "closed": false, "label": "The slave", "text": "The slave lies on the opposite slant, head toward us, face up. He is the saint's reflection: one body falls, the other waits, and both point at you."},
+      {"points": [[0.56, 0.52], [0.68, 0.4], [0.82, 0.35], [0.87, 0.26]], "closed": false, "label": "The report", "text": "The executioner's raised arms carry the broken hammer toward the master on his throne. The news of the failure travels up and to the right, away from the saint nobody sees."}
+    ]},
+    {"type": "text", "text": "Between the saint's head and the slave's chest there is nothing but air and a few feet of canvas. That gap is where the miracle passes. The light agrees: it falls from above, from the saint's glow, onto the white body on the ground, and leaves much of the crowd in shadow."},
+    {"type": "fact", "text": "How do you draw a man flying at you upside down? According to an early biographer, Tintoretto made small figures of wax and clay, hung them from strings or set them in little box stages, and lit them with lamps to study the shadows from odd angles."},
+    {"type": "text", "text": "Around the miracle he packs a ring of onlookers, and no two react alike. Tintoretto had to make a crowd of some thirty people feel like one shock passing through many bodies. Watch how it spreads from the center to the edges."},
+    {"type": "tour", "title": "The shock wave", "text": "Four reactions, from the man who knows most to the people who know least.", "spots": [
+      {"x": 0.6, "y": 0.47, "zoom": 2.4, "r": 0.1, "title": "The executioner", "text": "In a striped turban, his back to us, he twists and lifts the hammer head in one hand and its handle in the other. His whole body is a question addressed to his boss."},
+      {"x": 0.87, "y": 0.31, "zoom": 2.4, "r": 0.1, "title": "The master", "text": "The old lord in red half rises from his high seat, hand open, leaning forward to see. He ordered the punishment and has just lost control of it."},
+      {"x": 0.14, "y": 0.57, "zoom": 2.6, "r": 0.08, "title": "Mother and child", "text": "A woman with a baby on her arm leans back to look, her bare shoulders turned to us. Her twisting pose pulls you into the circle from the left."},
+      {"x": 0.07, "y": 0.3, "zoom": 2.2, "r": 0.08, "shape": "rect", "title": "The climber", "text": "A man in a turban has clambered onto the base of the columns and bends over the crowd for a better view. Even he looks down, not up."}
+    ]},
+    {"type": "text", "text": "The brotherhood was not sure what it had bought. The picture looked too wild and too fast, and members argued. An old account says Tintoretto, furious, carried the canvas back home until they asked for it again. The famous writer Pietro Aretino praised it in a letter, then slipped in advice: trade some of that speed for patience."},
+    {"type": "fact", "text": "The same early biographer says Tintoretto kept a motto on his studio wall: the drawing of Michelangelo and the color of Titian. On the garden gate in the background, two stone figures recline on the pediment much like Michelangelo's famous tomb statues in Florence."},
+    {"type": "text", "text": "The gamble paid off. The canvas made his name overnight, and years later the same brotherhood ordered three more Saint Mark scenes from him. As for the diving rescuer who arrives at the last second, unseen by the villains: painters, then filmmakers, never stopped borrowing him."}
+  ],
+  "quiz": [
+    {"question": "Why was the servant condemned?", "options": ["He stole from his master", "He went to pray at Saint Mark's tomb against orders", "He refused to fight in a war"], "answer": 1, "explanation": "He traveled to Venice to venerate Saint Mark although his master forbade it."},
+    {"question": "What proves the torture has failed?", "options": ["The slave is standing up", "The executioners have run away", "Broken tools lie scattered on the ground"], "answer": 2, "explanation": "Shafts, an axe and a hammer broke when they touched him."},
+    {"question": "What is foreshortening?", "options": ["Drawing a body that points toward the viewer so its length shrinks", "Painting with very short brushes", "Cutting a canvas down to fit a wall"], "answer": 0, "explanation": "It is the way of drawing a form seen end-on, as with the diving saint."},
+    {"question": "Who in the painting sees Saint Mark?", "options": ["The master on his throne", "The woman with the baby", "Nobody in the crowd"], "answer": 2, "explanation": "No one looks up; only the viewer sees the saint."},
+    {"question": "What does the nickname Tintoretto mean?", "options": ["Little dyer", "Fast hand", "Son of Titian"], "answer": 0, "explanation": "His father was a tintore, a cloth dyer."}
+  ],
+  "facts": [
+    {"text": "The painting was made for a Venetian brotherhood devoted to Saint Mark.", "isTrue": true, "explanation": "The Scuola Grande di San Marco ordered it for its meeting hall."},
+    {"text": "The picture shows the moment just before the executioners strike.", "isTrue": false, "explanation": "The tools are already broken: it is the instant after the miracle."},
+    {"text": "The writer Aretino advised Tintoretto to paint faster.", "isTrue": false, "explanation": "He praised the picture but advised him to trade speed for patience."}
+  ]
+}

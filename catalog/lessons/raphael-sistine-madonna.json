@@ -1,0 +1,47 @@
+{
+  "teaser": "Monks sold it for cash. Two bored angels at the bottom later became more famous than the Virgin.",
+  "focus": [0.46, 0.2],
+  "review_notes": "Sale by the monks of San Sisto, Piacenza, to Augustus III in 1754 for about 25,000 scudi (figures vary by source), with a copy left in the church.\n'Make room for the great Raphael' is a legend, presented as such.\nSaint Sixtus having the features of Julius II, and the acorn on the tiara as the della Rovere emblem: widely repeated readings.\nThe idea that the figures originally faced a crucifix across the church is a modern hypothesis, presented as such.\nCherubs painted last, over the clouds: commonly stated from technical study.\nDostoevsky owning a reproduction that hung over his sofa: well attested.\nWartime storage in a railway tunnel, removal to Moscow in 1945, return in 1955.\nThe faint cloud faces are subtle in this reproduction; the tour spot covers a large area of the upper left background.",
+  "lesson": [
+    {"type": "text", "text": "In 1754 the monks of San Sisto, in the small Italian city of Piacenza, gave up on their Raphael. It had hung above their high altar for about 240 years. They were short of money, a German king was offering a fortune, and so they sold it and hung a copy in its place."},
+    {"type": "text", "text": "The buyer was Augustus III, ruler of Saxony, who was filling his gallery in Dresden with Italian paintings. After two years of bargaining he paid around 25,000 Roman scudi, among the highest prices anyone had yet paid for a picture. The canvas crossed the Alps in winter, packed in a crate."},
+    {"type": "fact", "text": "A much-loved legend says that when the painting was unpacked in Dresden, the king shoved his own throne aside to give it the best light, saying: “Make room for the great Raphael!” Nobody can prove it happened. Dresden has told the story ever since."},
+    {"type": "text", "text": "What had the monks let go? Raphael painted it around 1512 for their newly built church, most likely on the order of Pope Julius II. It is tall, 2.65 meters (about 8 feet 8 inches), and built like a theater: green curtains pulled back on a rod, a wooden ledge along the bottom. And on that ledge, someone has put down a hat."},
+    {"type": "find", "text": "The old man kneeling on the left is a pope, and a pope wears a tall triple crown. He has taken his off. Where did he leave it?", "spots": [
+      {"x": 0.05, "y": 0.93, "zoom": 3.4, "r": 0.07, "title": "The tiara", "text": "Three gold bands, one above the other, set down on the ledge in the corner. Before the Virgin, even a pope goes bareheaded. The knob on top is shaped like an acorn."}
+    ]},
+    {"type": "text", "text": "That acorn is a signature of sorts. The kneeling man is Saint Sixtus, a pope from the early centuries of the Church and the patron of the monks' church. But Julius II's family name, della Rovere, means “of the oak,” and many see Julius's own bearded face on the saint."},
+    {"type": "text", "text": "The crown sits on the ledge, at the very front of the picture, almost in our space. Everything behind it belongs to another world. The curtains have just opened on it, and the woman in the middle is not sitting on a throne as painted Madonnas usually do. She is on her way out to us."},
+    {"type": "tour", "title": "A vision in motion", "text": "Follow her from head to foot, then check what the sky is made of.", "spots": [
+      {"x": 0.47, "y": 0.16, "zoom": 3.4, "r": 0.08, "title": "Her face", "text": "Wide, dark eyes fixed straight ahead, lips closed. No smile. She looks like someone who has seen what is coming and walks toward it anyway."},
+      {"x": 0.41, "y": 0.26, "zoom": 2.8, "r": 0.11, "title": "The child", "text": "A big, heavy toddler with tousled hair, leaning into his mother's cheek. His stare is as serious as hers, and aimed at the same place: you."},
+      {"x": 0.57, "y": 0.72, "zoom": 2.8, "r": 0.11, "title": "Bare feet on cloud", "text": "She steps barefoot onto vapor as if it were a floor. Her veil balloons behind her and the blue cloak swings: she is walking, and there is wind."},
+      {"x": 0.12, "y": 0.36, "zoom": 2.4, "r": 0.11, "title": "A sky of faces", "text": "The pale background is not empty cloud. It is made of countless ghostly baby faces, barely darker than the light around them. Heaven here is crowded."}
+    ]},
+    {"type": "key", "text": "Raphael painted an apparition, not a portrait: a mother stepping out of heaven and carrying her child toward the people in the church. The curtain and the ledge are there to mark the border she is about to cross."},
+    {"type": "text", "text": "Then why do mother and son look so troubled? One modern explanation goes back to the church in Piacenza. A crucifix may have stood facing the altar, so the two would have been looking across the nave at the child's own death. It is a theory, but it fits their eyes. The other figures add clues."},
+    {"type": "lines", "text": "Trace where each person is looking. The picture works like a relay.", "lines": [
+      {"points": [[0.25, 0.39], [0.44, 0.17]], "closed": false, "label": "Sixtus looks up", "text": "The old pope gazes up at the Virgin. At the same time his right hand points out of the picture, toward us. He is presenting the people in the church to her."},
+      {"points": [[0.8, 0.42], [0.62, 0.89]], "closed": false, "label": "Barbara looks down", "text": "Saint Barbara, kneeling on the right, lowers her eyes toward the bottom of the picture. Behind her shoulder you can glimpse the tower that identifies her."},
+      {"points": [[0.47, 0.89], [0.47, 0.3]], "closed": false, "label": "The angels look up", "text": "The two winged boys on the ledge roll their eyes back up toward the middle, and the circuit starts again."},
+      {"points": [[0.47, 0.1], [0.83, 0.42], [0.54, 0.93], [0.2, 0.4]], "closed": true, "label": "A diamond", "text": "Join the four groups and you get a diamond standing on its point, with the Virgin at the top. A very stable shape for a figure who is moving."}
+    ]},
+    {"type": "text", "text": "Notice what the relay leaves out. The saints and angels look at one another's corner of the picture. Only the mother and child look at you. In Dresden, that direct gaze turned the painting into a legend. German poets and philosophers wrote about it as if it were a living person."},
+    {"type": "fact", "text": "The Russian novelist Dostoevsky called it the greatest painting he knew and stood in front of it for long stretches on his visits to Dresden. Friends later gave him a large photograph of it for his birthday. It hung over the sofa in his study."},
+    {"type": "text", "text": "During the Second World War the canvas was hidden in a railway tunnel outside Dresden, which saved it from the bombing of the city in 1945. Soviet troops found it and took it to Moscow. It came back ten years later, in 1955, after a farewell exhibition seen by huge crowds."},
+    {"type": "text", "text": "And the two boys at the bottom? They seem to have been an afterthought, painted thinly over the clouds once everything else was done. Chins on their arms, wings folded, they have the look of children waiting for a long ceremony to end. They are the only ones in the picture who are not awed."},
+    {"type": "fact", "text": "Cut loose from the painting, the two cherubs have had a career of their own since the 1800s: postcards, stamps, chocolate boxes, umbrellas, T-shirts. Many people who know them well have no idea there is a Madonna standing above them."}
+  ],
+  "quiz": [
+    {"question": "How did the painting leave its church in Piacenza?", "options": ["Napoleon's army seized it", "The monks sold it to a king", "It was stolen and never returned"], "answer": 1, "explanation": "In 1754 the monks sold it to Augustus III of Saxony and hung a copy in its place."},
+    {"question": "What lies on the ledge in the bottom left corner?", "options": ["A book of prayers", "A pair of sandals", "The pope's triple crown"], "answer": 2, "explanation": "Saint Sixtus has taken off his tiara in front of the Virgin."},
+    {"question": "What is unusual about the Virgin's pose?", "options": ["She is walking toward us", "She is asleep", "She is seated on a throne"], "answer": 0, "explanation": "She strides barefoot over the clouds, with her veil blown back by the wind."},
+    {"question": "Who looks directly at the viewer?", "options": ["Saint Barbara", "The mother and child", "The two cherubs"], "answer": 1, "explanation": "The saints and angels look elsewhere; only the Virgin and Child meet your eyes."},
+    {"question": "What is the pale background made of?", "options": ["Faint faces of angels", "A distant city", "Plain gold leaf"], "answer": 0, "explanation": "The clouds dissolve into countless ghostly baby faces."}
+  ],
+  "facts": [
+    {"text": "The painting spent ten years in Moscow after the Second World War.", "isTrue": true, "explanation": "Soviet troops took it in 1945 and it returned to Dresden in 1955."},
+    {"text": "The two cherubs were the first thing Raphael painted on the canvas.", "isTrue": false, "explanation": "They appear to have been added at the end, thinly, over the finished clouds."},
+    {"text": "The Virgin sits on a golden throne between the two saints.", "isTrue": false, "explanation": "There is no throne: she walks on clouds."}
+  ]
+}

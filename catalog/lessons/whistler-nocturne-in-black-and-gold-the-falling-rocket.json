@@ -1,0 +1,185 @@
+{
+ "teaser": "A small dark panel that dragged its painter into court and left him bankrupt.",
+ "focus": [
+  0.5,
+  0.4
+ ],
+ "review_notes": "Sale to Samuel Untermyer in 1892 for 800 guineas: check figure and date.\nWhistler's trial answers (two days of work, 'knowledge of a lifetime') are paraphrased from the usual trial accounts; wording varies by source.\nCremorne Gardens closing in 1877: check.\n'Sauce' as Whistler's word for his thinned paint: check.\nDetroit acquisition date 1946 (gift of Dexter M. Ferry Jr.): check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This is a wooden panel about 60 centimeters tall and 47 wide (roughly 24 by 18 inches). You could carry it under one arm. Most of its surface is covered by a film of dark paint so thin that it behaves almost like a stain. Few objects this modest have caused so much trouble."
+  },
+  {
+   "type": "text",
+   "text": "The subject is a fireworks show over Cremorne Gardens, a pleasure park on the Thames in London where people went at night for music, dancing and drink. James McNeill Whistler, an American living in Chelsea, lived a short walk away. He did not paint on the spot. He stood, watched, memorized, and painted afterward in the studio."
+  },
+  {
+   "type": "fact",
+   "text": "Whistler thinned his oil paint with so much liquid that he called the mixture his “sauce”. It ran so easily that he sometimes had to lay a picture flat on the floor to keep the paint from sliding off."
+  },
+  {
+   "type": "text",
+   "text": "So what did he actually put on this panel? Not a rocket, not a crowd, not a park. Start with the gold, because the gold is nearly all there is, and follow it down from the sky to the ground."
+  },
+  {
+   "type": "tour",
+   "title": "Following the sparks",
+   "text": "A dark field, a scatter of gold. Four stops, from the top of the sky to the water's edge.",
+   "spots": [
+    {
+     "x": 0.77,
+     "y": 0.15,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The burst",
+     "text": "A dense cluster of orange and yellow dots, each one a single dab of the brush. This is the rocket at the moment it breaks apart."
+    },
+    {
+     "x": 0.52,
+     "y": 0.33,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The fall",
+     "text": "Here the sparks stretch into short vertical dashes. The streaky dark paint behind them runs the same way, so the whole sky seems to drip downward."
+    },
+    {
+     "x": 0.4,
+     "y": 0.53,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Smoke",
+     "text": "A pale gray cloud, brushed loosely and left open. It is lit from below, the way firework smoke glows after the flash is gone."
+    },
+    {
+     "x": 0.1,
+     "y": 0.71,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Fire on the ground",
+     "text": "Thick strokes of yellow and orange, the heaviest paint on the panel. These are the set pieces burning at the launch platform, reflected in a pale haze."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice how much he refused to tell you. There is no horizon you can be sure of, no architecture, no moon. The gold dots sit on the dark like notes on a page. Whistler wanted exactly that comparison, which is why he borrowed a word from music."
+  },
+  {
+   "type": "key",
+   "text": "A nocturne is a dreamy piece of night music, made famous by Chopin. Whistler used the word to say that a painting, like music, can be about harmony and mood instead of about a story."
+  },
+  {
+   "type": "text",
+   "text": "In 1877 the panel went on show at the new Grosvenor Gallery in London with a price of 200 guineas. John Ruskin, the most powerful art critic in Britain, saw it and wrote that he had never expected to hear a showman “ask two hundred guineas for flinging a pot of paint in the public's face”. Whistler sued him for libel."
+  },
+  {
+   "type": "text",
+   "text": "The trial, in November 1878, turned into a public argument about what a painting is. Ruskin's lawyer asked how long the picture had taken. About two days, Whistler said. And for two days' work you ask 200 guineas? No, he answered: he asked it for the knowledge of a lifetime."
+  },
+  {
+   "type": "fact",
+   "text": "Whistler won, and the jury awarded him one farthing, the smallest coin in the country, a quarter of a penny. He had to pay his own legal costs. Within months he was declared bankrupt and lost his house."
+  },
+  {
+   "type": "text",
+   "text": "The lawyers also argued that the picture showed nothing at all. They were wrong on that point, and you can prove it. There are people in this painting, standing on the shore and looking up, as thin and transparent as the paint around them."
+  },
+  {
+   "type": "find",
+   "text": "Several spectators stand along the bottom of the panel. One stands alone near the middle of the shore, darker than the rest. Tap that figure.",
+   "spots": [
+    {
+     "x": 0.385,
+     "y": 0.875,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "A watcher",
+     "text": "A few brown strokes make a standing figure, perhaps a woman in a long dress. Fainter ghosts stand to the left and far right. Whistler painted them so thinly that the ground shows straight through.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those see-through figures are the argument in miniature. Whistler was not unable to paint people. He chose to let them dissolve, because on a foggy night by the river that is what people do."
+  },
+  {
+   "type": "fact",
+   "text": "The picture Ruskin mocked at 200 guineas was later sold to an American collector for 800 guineas. Whistler made sure everyone heard about it. Since 1946 it has belonged to the Detroit Institute of Arts."
+  },
+  {
+   "type": "text",
+   "text": "Painters after him took the lesson further than he ever did: if a few sparks on a dark ground can be a picture, how much subject does a picture need? The answer some of them gave, a generation later, was none."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the painting made on?",
+   "options": [
+    "A large canvas",
+    "A small wooden panel",
+    "A sheet of copper"
+   ],
+   "answer": 1,
+   "explanation": "It is a wood panel about 60 by 47 centimeters."
+  },
+  {
+   "question": "Why did Whistler call his night pictures nocturnes?",
+   "options": [
+    "To compare painting with music",
+    "Because he painted them outdoors at midnight",
+    "It was the name of the park"
+   ],
+   "answer": 0,
+   "explanation": "He borrowed the musical term to stress harmony and mood over story."
+  },
+  {
+   "question": "What did the jury award Whistler after he sued Ruskin?",
+   "options": [
+    "200 guineas",
+    "Nothing, he lost",
+    "One farthing"
+   ],
+   "answer": 2,
+   "explanation": "He won the case but received only a farthing in damages."
+  },
+  {
+   "question": "How did Whistler justify his price in court?",
+   "options": [
+    "It took him two years",
+    "He was charging for the knowledge of a lifetime",
+    "Gold leaf is expensive"
+   ],
+   "answer": 1,
+   "explanation": "He admitted the work took about two days but said the price paid for a lifetime of knowledge."
+  },
+  {
+   "question": "Where is the thickest paint on the panel?",
+   "options": [
+    "In the ground-level fires at the left",
+    "In the black sky",
+    "In the spectators"
+   ],
+   "answer": 0,
+   "explanation": "The burning set pieces near the ground are built from heavy yellow and orange strokes."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Whistler painted the fireworks on the spot, at night, in the park.",
+   "isTrue": false,
+   "explanation": "He watched and memorized the scene, then painted in his studio."
+  },
+  {
+   "text": "There are human figures in the painting.",
+   "isTrue": true,
+   "explanation": "Thin, transparent spectators stand along the bottom edge."
+  },
+  {
+   "text": "Winning the trial made Whistler rich.",
+   "isTrue": false,
+   "explanation": "He got a farthing, paid his own costs and went bankrupt."
+  }
+ ]
+}

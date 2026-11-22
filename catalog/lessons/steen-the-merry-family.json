@@ -1,0 +1,382 @@
+{
+  "teaser": "Eleven people, one dog, and not a single adult watching the children.",
+  "focus": [
+    0.42,
+    0.4
+  ],
+  "review_notes": "Count of eleven figures made from the image (boy at window, father, bagpiper, grandmother, mother, baby, flute player, youth in a feathered hat and a child behind him, girl pouring, small child drinking): please confirm.\nIdentification of the instruments (bagpipe behind the father, flute at right, violin against the father's chest, horn hanging under the window) and of the pipe smoking at right and at the window, from the image and the Rijksmuseum description as I recall it.\nThe youth in the feathered hat is described as filling or handing a pipe to the child next to him; the exact gesture is hard to read.\nText of the note as legible in the image: 'Soo D'Oude Songen, Soo Pypen De Jonge'.\nComposition remarks (chain of heads, daylight from the window, the note hanging above the smoking and drinking children) are my own reading of the image.\nSteen's father a brewer in Leiden; Steen leased a brewery in Delft and got a licence to run an inn in Leiden in 1672; roughly 350 paintings attributed today; canvas about 110 x 141 cm.\nSteen dying in 1679 leaving debts; self-portraits in other versions of the proverb.",
+  "lesson": [
+    {
+      "type": "text",
+      "text": "Count the people in this room and you get to eleven. Count the ones who are sober, quiet or sitting properly and you get to zero. A father sings with his glass in the air, a grandmother joins in, children play pipes and flutes, a toddler is handed a drink. It is 1668, in Holland, and Jan Steen is enjoying himself."
+    },
+    {
+      "type": "text",
+      "text": "The canvas is large for a household scene, about 110 by 141 centimeters (43 by 55 inches). Steen filled it corner to corner with noise. But a picture cannot make a sound. So he had to paint the racket, and he did it by giving nearly everyone an open mouth or an instrument."
+    },
+    {
+      "type": "tour",
+      "title": "Turn up the volume",
+      "text": "Go around the table and listen with your eyes.",
+      "spots": [
+        {
+          "x": 0.32,
+          "y": 0.4,
+          "zoom": 3.0,
+          "r": 0.08,
+          "title": "The father",
+          "text": "Eyes shut, mouth wide open, gray beard in the air. He salutes with a tall glass of white wine while a violin rests forgotten against his chest. He leads the choir and the drinking at once."
+        },
+        {
+          "x": 0.49,
+          "y": 0.38,
+          "zoom": 3.0,
+          "r": 0.09,
+          "title": "Two generations",
+          "text": "The grandmother in her dark hood sings from a sheet of paper, laughing as she reads. The mother, in a white headscarf, looks down at the same sheet to follow the words."
+        },
+        {
+          "x": 0.35,
+          "y": 0.26,
+          "zoom": 3.2,
+          "r": 0.07,
+          "title": "The bagpipe",
+          "text": "Behind the father a young man in a floppy cap puffs into a bagpipe, its two long pipes sticking up over his shoulder. In Steen's day this was a peasant instrument, loud and a little rude."
+        },
+        {
+          "x": 0.735,
+          "y": 0.35,
+          "zoom": 3.0,
+          "r": 0.07,
+          "title": "The flute",
+          "text": "A boy in an orange-red cap plays a flute, fingers spread over the holes. He sprawls on a bench with one pink-stockinged leg stretched out along it."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Old people singing, young people blowing into pipes. That pairing is not an accident: it is a Dutch proverb, and Steen has written it out for you inside the picture, on a piece of paper. He just did not put it where you would expect a caption."
+    },
+    {
+      "type": "find",
+      "text": "Somewhere in the room hangs a sheet of paper with the moral of the story. Where is it?",
+      "spots": [
+        {
+          "x": 0.84,
+          "y": 0.13,
+          "zoom": 4.0,
+          "r": 0.05,
+          "title": "The note",
+          "text": "Pinned to the chimney, top right, and readable line by line: “Soo D'Oude Songen, Soo Pypen De Jonge.” As the old sing, so pipe the young. In other words, children copy what their parents do."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "The Dutch word for “to pipe” covered playing a flute or bagpipe and also smoking a pipe. Steen uses every meaning. The youngsters make music like their elders, and they pick up the elders' other habits too. Follow the right-hand side of the room and the joke gets darker."
+    },
+    {
+      "type": "fact",
+      "text": "Steen knew drink from the inside. His father was a brewer in Leiden, he himself ran a brewery in Delft for a few years, and in 1672 he obtained a licence to keep an inn in his own house."
+    },
+    {
+      "type": "tour",
+      "title": "What the children learn",
+      "text": "Four small scenes, all about copying the grown-ups.",
+      "spots": [
+        {
+          "x": 0.7,
+          "y": 0.6,
+          "zoom": 3.0,
+          "r": 0.09,
+          "title": "A drink for the little one",
+          "text": "A girl in a yellow skirt tips a pewter jug toward a tiny child in a black feathered hat, who drinks straight from the spout. No adult turns around."
+        },
+        {
+          "x": 0.875,
+          "y": 0.33,
+          "zoom": 3.0,
+          "r": 0.08,
+          "title": "Small smokers",
+          "text": "Behind the flute player a youth in a feathered hat busies himself with a pipe, and the child beside him already holds a long clay one, grinning straight at you. This is “piping” in the second sense."
+        },
+        {
+          "x": 0.075,
+          "y": 0.3,
+          "zoom": 3.2,
+          "r": 0.06,
+          "title": "At the window",
+          "text": "A curly-haired boy leans in from the street, head tipped back, a long clay pipe raised to his lips. Even the neighborhood is joining the party."
+        },
+        {
+          "x": 0.635,
+          "y": 0.39,
+          "zoom": 3.6,
+          "r": 0.05,
+          "title": "The baby",
+          "text": "On the mother's lap the youngest of all waves a spoon in the air and laughs along with the song. Too small to sing or to pipe, and already keeping time."
+        }
+      ]
+    },
+    {
+      "type": "key",
+      "text": "The Merry Family is a proverb made visible: children do what they see done, so the fun in this room is also a warning."
+    },
+    {
+      "type": "text",
+      "text": "Dutch buyers of the 1600s loved this double game. Their country was newly rich, strictly Protestant, and fond of pictures that preached while they entertained. A scene like this could hang in a tidy merchant's parlor: you laughed at the family, and you understood that you should not be them."
+    },
+    {
+      "type": "text",
+      "text": "Eleven figures, a dog and a floor covered in crockery ought to be impossible to read. Yet your eye moves through this room without ever getting lost. Steen looks careless, but he planned his disorder on a few firm lines."
+    },
+    {
+      "type": "lines",
+      "text": "Three lines hold the party together.",
+      "lines": [
+        {
+          "points": [
+            [
+              0.07,
+              0.28
+            ],
+            [
+              0.285,
+              0.385
+            ],
+            [
+              0.445,
+              0.37
+            ],
+            [
+              0.535,
+              0.345
+            ],
+            [
+              0.635,
+              0.39
+            ],
+            [
+              0.73,
+              0.33
+            ],
+            [
+              0.83,
+              0.29
+            ],
+            [
+              0.925,
+              0.365
+            ]
+          ],
+          "closed": false,
+          "label": "A garland of heads",
+          "text": "Eight faces hang at almost the same height, from the boy at the window to the child on the far right. They work like the notes of the song, strung across the canvas."
+        },
+        {
+          "points": [
+            [
+              0.1,
+              0.22
+            ],
+            [
+              0.62,
+              0.6
+            ]
+          ],
+          "closed": false,
+          "label": "The daylight",
+          "text": "Light comes in through the open window and falls across the father's face onto the white tablecloth and the yellow skirt. The brightest patch of the picture is the girl pouring a drink."
+        },
+        {
+          "points": [
+            [
+              0.845,
+              0.2
+            ],
+            [
+              0.755,
+              0.6
+            ]
+          ],
+          "closed": false,
+          "label": "Under the proverb",
+          "text": "Drop a line from the note. It passes the pipe smokers and lands on the smallest child, drinking. Steen hung his moral exactly above the ones it concerns."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "So the mess is staged and the moral is aimed. Still, Steen never sounds like a preacher. Nobody here is punished and nobody looks unhappy. The mother's face is tender, the old man's joy is real. He paints it all with so much affection that you may wonder which side he was on."
+    },
+    {
+      "type": "fact",
+      "text": "In Dutch, a noisy, untidy home is still called “a household of Jan Steen.” Few painters have entered everyday language like that."
+    },
+    {
+      "type": "text",
+      "text": "The disorder does not stop at the people. In Steen's pictures the floor is a second sermon: what has been dropped tells you how long the party has been going on and how little anyone cares."
+    },
+    {
+      "type": "explore",
+      "spots": [
+        {
+          "x": 0.45,
+          "y": 0.93,
+          "zoom": 2.8,
+          "r": 0.1,
+          "title": "Dish and bottle",
+          "text": "A big pewter dish lies tilted on the tiles, propped against an empty bottle that has rolled onto its side. Nobody has bothered to pick them up."
+        },
+        {
+          "x": 0.275,
+          "y": 0.95,
+          "zoom": 4.0,
+          "r": 0.03,
+          "shape": "arrow",
+          "title": "Eggshells",
+          "text": "Two broken eggshells, tossed on the floor after the meal. A tiny detail, painted with as much care as the faces."
+        },
+        {
+          "x": 0.13,
+          "y": 0.9,
+          "zoom": 3.2,
+          "r": 0.06,
+          "title": "The frying pan",
+          "text": "A pan left on the floor by the father's chair, its long handle pointing out where someone will trip over it."
+        },
+        {
+          "x": 0.43,
+          "y": 0.72,
+          "zoom": 2.8,
+          "r": 0.08,
+          "title": "The dog",
+          "text": "A brown and white dog stands with its head lifted toward the table edge, waiting for whatever falls next."
+        },
+        {
+          "x": 0.9,
+          "y": 0.88,
+          "zoom": 3.0,
+          "r": 0.08,
+          "title": "Jug and spoon",
+          "text": "A fat orange stoneware jug with a metal lid, the kind used for wine or beer, stands alone in the corner. A spoon lies abandoned on the tiles beside it."
+        },
+        {
+          "x": 0.48,
+          "y": 0.54,
+          "zoom": 2.6,
+          "r": 0.1,
+          "title": "The table",
+          "text": "A ham on a dark platter and a cut loaf sit on a white cloth, thrown over an oriental carpet with a fringe. The carpet was a luxury item: this family is not poor, only careless."
+        },
+        {
+          "x": 0.56,
+          "y": 0.14,
+          "zoom": 2.8,
+          "r": 0.1,
+          "title": "On the shelf",
+          "text": "Above the party a mortar and pestle, a bottle, a pewter plate and a vase of flowers stand in good order. Up there, the house still remembers how it should look."
+        },
+        {
+          "x": 0.07,
+          "y": 0.55,
+          "zoom": 3.2,
+          "r": 0.05,
+          "title": "The horn",
+          "text": "Under the windowsill a horn dangles from a blue cord with tassels. One more thing to blow into, within easy reach of any child."
+        }
+      ]
+    },
+    {
+      "type": "fact",
+      "text": "Steen liked the proverb enough to paint it again and again, in different rooms with different families. In several versions he gave one of the laughing adults his own face."
+    },
+    {
+      "type": "text",
+      "text": "He worked fast and a lot: around 350 paintings are attributed to him today, from Bible stories to village doctors. He died in Leiden in 1679, leaving an inn, debts and several children."
+    },
+    {
+      "type": "text",
+      "text": "Go back to the first count. Eleven people, and the youngest are the ones watching most carefully. That is the real subject: not the wine, not the music, but the small eyes taking notes."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does the note on the chimney say?",
+      "options": [
+        "“Wine makes the heart glad”",
+        "“As the old sing, so pipe the young”",
+        "“A tidy house, a tidy mind”"
+      ],
+      "answer": 1,
+      "explanation": "The proverb means that children imitate their parents."
+    },
+    {
+      "question": "Why is the word “pipe” a joke in this painting?",
+      "options": [
+        "It meant both playing an instrument and smoking",
+        "It was the family's surname",
+        "It was slang for a painter's brush"
+      ],
+      "answer": 0,
+      "explanation": "The children play pipes and smoke pipes, copying the adults both ways."
+    },
+    {
+      "question": "What trade did Jan Steen's family and Steen himself practice besides painting?",
+      "options": [
+        "Shipbuilding",
+        "Tulip dealing",
+        "Brewing and innkeeping"
+      ],
+      "answer": 2,
+      "explanation": "His father was a brewer, and Steen ran a brewery and later an inn."
+    },
+    {
+      "question": "What does “a household of Jan Steen” mean in Dutch today?",
+      "options": [
+        "A noisy, messy home",
+        "A very rich family",
+        "A house full of paintings"
+      ],
+      "answer": 0,
+      "explanation": "The expression describes a chaotic household."
+    },
+    {
+      "question": "What is the baby on the mother's lap doing?",
+      "options": [
+        "Sleeping through the noise",
+        "Waving a spoon and laughing",
+        "Crying for attention"
+      ],
+      "answer": 1,
+      "explanation": "The youngest child waves a spoon in the air, joining in before it can sing or pipe."
+    },
+    {
+      "question": "What lies directly below the note with the proverb?",
+      "options": [
+        "The father and his glass",
+        "The dog",
+        "The smoking children and the small child drinking"
+      ],
+      "answer": 2,
+      "explanation": "Steen hung the moral right above the youngest imitators."
+    }
+  ],
+  "facts": [
+    {
+      "text": "The moral of the painting is written inside the picture itself.",
+      "isTrue": true,
+      "explanation": "A note pinned to the chimney carries the proverb."
+    },
+    {
+      "text": "Steen shows the family being punished for its behavior.",
+      "isTrue": false,
+      "explanation": "Nobody is punished; everyone looks cheerful, which is part of the painting's ambiguity."
+    },
+    {
+      "text": "The family in the painting is shown as very poor.",
+      "isTrue": false,
+      "explanation": "The carpet on the table and the plentiful food point to comfort, not poverty."
+    }
+  ]
+}

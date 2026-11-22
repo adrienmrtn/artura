@@ -1,0 +1,41 @@
+{
+  "teaser": "The sitter got impatient. The painter got offended. The portrait stayed unfinished.",
+  "focus": [0.31, 0.27],
+  "review_notes": "David's reply to Juliette Récamier (\"Women have their whims, and so do artists...\") is quoted from his letter as usually translated.\nThe tradition that the lamp and other accessories were painted by the young Ingres, then David's pupil, is widely repeated but not documented with certainty.\nThe portrait stayed in David's studio until his death in 1825 and was bought by the Louvre in 1826.\nJuliette's age at the sitting (23) and death in 1849.\nMagritte's Perspective: Madame Récamier by David dates from 1951.",
+  "lesson": [
+    {"type": "text", "text": "She was looking away, toward the far end of the sofa. Then something behind her, you perhaps, made her turn her head. That is all that happens here: a head turning over a shoulder, while the rest of the body stays stretched out in the other direction."},
+    {"type": "text", "text": "Her name was Juliette Récamier. In 1800 she was 23, married to a rich Paris banker, and the most talked-about hostess in the city. Writers and politicians crowded her drawing room. Her style was famous for what it left out: no jewels, no powder, a plain white dress."},
+    {"type": "find", "text": "The simplicity went further than the dress. One thing a lady of 1800 would normally never show in a portrait is in plain view. Can you spot it?", "spots": [
+      {"x": 0.7, "y": 0.6, "zoom": 3.6, "r": 0.06, "title": "Bare feet", "text": "No shoes, no stockings. Her feet rest on the cushion as casually as a statue's. The model she is imitating is not a Parisian lady but a woman of ancient Rome."}
+    ]},
+    {"type": "text", "text": "Ancient Rome was the fashion. The buried city of Pompeii had been dug up during the previous century, and its wall paintings set the taste: high-waisted white gowns, curls held by a band, slim furniture with curved ends. David, leader of the Neoclassical style, which looked to antiquity for its models, had such furniture built for his studio."},
+    {"type": "fact", "text": "The portrait named a piece of furniture. In French, a backless daybed with two raised scrolled ends is still called a “récamier.”"},
+    {"type": "lines", "text": "For a canvas about 2.4 meters wide (8 feet), there is remarkably little in it. Three shapes do the work.", "lines": [
+      {"points": [[0.3, 0.2], [0.24, 0.42], [0.45, 0.56], [0.7, 0.6]], "closed": false, "label": "The body", "text": "One slow line from the head, down the back, along the legs to the toes. It runs away from you to the right while the face comes back to you."},
+      {"points": [[0.08, 0.1], [0.08, 0.92]], "closed": false, "label": "The lamp", "text": "A single thin upright, a bronze stand carrying an oil lamp. It is the only vertical in the room and stops the long horizontal from drifting off the left side."},
+      {"points": [[0.12, 0.05], [0.98, 0.05], [0.98, 0.36], [0.36, 0.36], [0.36, 0.14], [0.12, 0.14]], "closed": true, "label": "The emptiness", "text": "Nearly half the picture is bare wall. All that space makes her seem smaller, more distant, a little alone."}
+    ]},
+    {"type": "text", "text": "That bare wall is also a clue. The sittings dragged on. David worked slowly and was unhappy with the light in the room. Juliette, tired of waiting, quietly asked one of his former pupils, François Gérard, for another portrait."},
+    {"type": "text", "text": "David found out. When she came back to pose, he told her: “Women have their whims, and so do artists. Allow me to satisfy mine: I will keep your portrait in its present state.” He stopped there. The traces of that decision are all over the surface."},
+    {"type": "tour", "title": "Where he stopped", "text": "Compare three areas, from the least worked to the most.", "spots": [
+      {"x": 0.72, "y": 0.22, "zoom": 2.6, "r": 0.14, "title": "The wall", "text": "The background is a web of short, scrubbed brown strokes going in every direction, thin enough to let the light ground show through. This was meant to be covered later."},
+      {"x": 0.63, "y": 0.87, "zoom": 2.8, "r": 0.1, "title": "The floor and stool", "text": "The footstool and the floor are brushed in loosely, with soft edges. The fallen hem of the dress beside them is only a little more defined."},
+      {"x": 0.3, "y": 0.25, "zoom": 3.6, "r": 0.07, "title": "The head", "text": "Here the paint is the smoothest: dark curls, a black band, a cool, direct gaze. Even so, David considered the face unfinished."}
+    ]},
+    {"type": "text", "text": "That thin, rubbed first layer has a studio name, frottis, from the French word for rubbing. Painters laid it down as a base, then built smoother layers on top. In a finished David you never see it. Here the scaffolding is left standing, which is why the picture feels so airy, and so modern."},
+    {"type": "fact", "text": "According to a long-standing tradition, the tall lamp on the left was painted by a 20-year-old assistant in David's studio: Jean-Auguste-Dominique Ingres, who would become the most famous French portraitist of the next generation."},
+    {"type": "text", "text": "Juliette never owned the picture. It stayed in David's studio until he died in 1825, and the Louvre bought it the following year. She lived until 1849, long enough to see her abandoned portrait become better known than the finished one by Gérard."},
+    {"type": "fact", "text": "In 1951 the Belgian Surrealist René Magritte repainted the scene exactly, sofa, lamp and trailing white cloth, with one change. In place of Juliette, a wooden coffin sits up on the daybed, bent at the waist."}
+  ],
+  "quiz": [
+    {"question": "Why did David leave the portrait unfinished?", "options": ["He ran out of money", "He was offended that the sitter had turned to another painter", "Madame Récamier died"], "answer": 1, "explanation": "She commissioned Gérard, and David refused to continue."},
+    {"question": "What detail shows she is dressed in the antique fashion?", "options": ["Her bare feet", "A crown of laurel", "A Roman coin in her hand"], "answer": 0, "explanation": "Bare feet, a plain white gown and a hair band imitate ancient Rome."},
+    {"question": "What is “frottis”?", "options": ["A type of sofa", "A varnish", "A thin, rubbed first layer of paint"], "answer": 2, "explanation": "It is the base layer, visible here in the scrubbed background."},
+    {"question": "What does the large empty wall do to the figure?", "options": ["It makes her seem distant and a little alone", "It makes her look taller", "It hides a second figure"], "answer": 0, "explanation": "The emptiness isolates her in the room."}
+  ],
+  "facts": [
+    {"text": "Madame Récamier hung this portrait in her drawing room.", "isTrue": false, "explanation": "It stayed in David's studio until his death, then went to the Louvre."},
+    {"text": "A type of daybed is named after her.", "isTrue": true, "explanation": "The backless sofa with scrolled ends is called a récamier."},
+    {"text": "Magritte painted a version of this picture with a coffin in her place.", "isTrue": true, "explanation": "He did so in 1951, keeping the sofa and the lamp."}
+  ]
+}

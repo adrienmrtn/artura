@@ -1,0 +1,53 @@
+{
+  "teaser": "Seven hundred years ago, a painter decided that even angels should be allowed to fall apart.",
+  "focus": [0.24, 0.7],
+  "review_notes": "Scene size given as about 2 m wide (the Scrovegni narrative scenes are roughly 200 x 185 cm): check.\nBlue sky painted in azurite on dry plaster (a secco), hence the losses: standard account, check wording.\nReginaldo Scrovegni placed by Dante among the usurers (Inferno XVII), and the chapel as partly an act of atonement: the usual reading, not documented by Enrico himself.\nHalley's Comet seen in 1301 as the model for the star in the Adoration of the Magi is a widely accepted hypothesis, not a certainty. ESA Giotto probe: launched 1985, met the comet in 1986.\nThe scene that follows the Lamentation on the wall is the Resurrection (Noli me tangere): check.\nFifteen-minute climate-controlled waiting room before timed visits: current visitor arrangements may change.\nIdentification of the two standing men as Joseph of Arimathea and Nicodemus, and of the figure at the feet as Mary Magdalene, is traditional.",
+  "lesson": [
+    {"type": "text", "text": "You cannot take this picture off its hook, because there is no hook. It is the wall. About 2 meters wide (6.5 feet), it was painted straight into the plaster of a small brick chapel in Padua, in northern Italy, and it has not moved an inch since 1305."},
+    {"type": "text", "text": "The technique is called fresco, Italian for “fresh”. The painter brushes colors mixed with water onto plaster that is still wet. As the plaster dries, the color is locked inside it like a stain in stone. The catch: you can only plaster as much wall as you can finish before evening. Each patch is called a giornata, a day's work."},
+    {"type": "fact", "text": "The blue of this sky was a problem. Giotto's blue pigment, a ground mineral called azurite, did not survive wet lime, so it was added afterwards on the dry wall with glue. It has been flaking off ever since, which is why the sky looks worn and cloudy in patches."},
+    {"type": "text", "text": "The story is simple. Christ has been taken down from the cross, and his mother holds him one last time. Painters before Giotto usually showed this with solemn, dignified figures in a row. Giotto asked a different question: what do people actually do when someone they love has just died?"},
+    {"type": "tour", "title": "Four ways to grieve", "text": "No two mourners behave alike. Go from the loudest silence to the quietest.", "spots": [
+      {"x": 0.22, "y": 0.7, "zoom": 3, "r": 0.09, "title": "Mother and son", "text": "Mary slides her arm under his neck and brings her face inches from his, searching it. He does not look back. The whole picture exists for this small gap between two faces."},
+      {"x": 0.54, "y": 0.5, "zoom": 2.4, "r": 0.13, "title": "John", "text": "The young apostle bends forward and throws both arms straight back, like a bird about to dive. It is a gesture of pure helplessness, and it cuts deep into the picture's space."},
+      {"x": 0.69, "y": 0.75, "zoom": 2.6, "r": 0.1, "title": "At the feet", "text": "A woman with long loose hair, traditionally Mary Magdalene, holds the pierced feet in her lap and simply stares at them. Her grief is all in the hands."},
+      {"x": 0.83, "y": 0.58, "zoom": 2, "r": 0.11, "shape": "rect", "title": "The two who stand", "text": "On the right, two men keep still, hands folded. Tradition names them Joseph of Arimathea and Nicodemus, who took the body down. Their calm makes the others look louder."}
+    ]},
+    {"type": "text", "text": "A scream, a stare, a stillness. Giotto gives each person a temperament, as a novelist would. And he gives them bodies: under those robes you sense shoulders, knees, real weight pressing on the ground. In 1305 that was startling. Painted figures had been flat, elegant signs for people. These ones take up room."},
+    {"type": "text", "text": "Then comes his oddest decision. The spots nearest to you, right at the front edge, are the best seats in the picture. Giotto hands them to people who show you nothing at all."},
+    {"type": "find", "text": "Two mourners have no face. Tap one of them.", "spots": [
+      {"x": 0.12, "y": 0.8, "zoom": 2.4, "r": 0.1, "title": "A back, nothing more", "text": "She sits with her back to you, a hooded lump as plain as a boulder. A second one, in green, crouches at the center. They close the circle around the body and leave a gap where you stand."}
+    ]},
+    {"type": "key", "text": "Giotto does not show you a holy event from a respectful distance. He seats you inside the circle of mourners, close enough to be one of them."},
+    {"type": "fact", "text": "The chapel was paid for by Enrico Scrovegni, a very rich banker. His father Reginaldo lent money at such interest that the poet Dante placed him in hell among the usurers. Building a chapel was, in part, a way to buy back the family's name and soul."},
+    {"type": "text", "text": "Now find the main character again. He is not in the middle. He lies low in the left corner, a place painters normally left for minor things. So how does your eye get there so fast? The landscape and the faces are doing the steering."},
+    {"type": "lines", "text": "Three paths, one destination.", "lines": [
+      {"points": [[0.95, 0.33], [0.78, 0.43], [0.55, 0.53], [0.33, 0.63], [0.22, 0.7]], "closed": false, "label": "The ridge", "text": "A bare rock wall slides down from the upper right like a ramp. It carries your eye all the way to the two heads, and makes the whole scene feel like it is sinking."},
+      {"points": [[0.47, 0.5], [0.22, 0.71]], "closed": false, "label": "John's look", "text": "His face tilts down along the same slope as the rock. Body and landscape say the same thing."},
+      {"points": [[0.77, 0.5], [0.25, 0.71]], "closed": false, "label": "From the far side", "text": "Even the standing men at the right edge look across the full width of the wall to the same point. Every glance in the picture ends on that one face."}
+    ]},
+    {"type": "text", "text": "At the top of that ramp stands a single tree without leaves. It reads as winter, as death. But a medieval visitor knew that bare trees turn green again, and knew what came next: the following scene on the chapel wall shows Christ risen. The tree is a quiet promise planted in the saddest picture of the series."},
+    {"type": "text", "text": "And the sky? Heaven is usually where painters put calm. Not here. Ten small angels whirl above the hill, and they are taking it worse than the humans."},
+    {"type": "tour", "title": "Angels in pieces", "text": "Their bodies trail off into wisps, like smoke. Their faces are fully human.", "spots": [
+      {"x": 0.13, "y": 0.31, "zoom": 3.6, "r": 0.06, "title": "Hands to the face", "text": "This one presses both hands against its cheeks, mouth open. It is the gesture of someone who has just been told."},
+      {"x": 0.45, "y": 0.16, "zoom": 3.4, "r": 0.07, "title": "Arms wide", "text": "Head thrown back, arms spread, this angel cries straight up at the sky. It echoes John's flung arms on the ground below."},
+      {"x": 0.33, "y": 0.14, "zoom": 3.4, "r": 0.08, "title": "Flying at you", "text": "Seen from the front, body hidden behind its own head and wings. Drawing a figure shortened like this, as if it came toward you, is called foreshortening. Giotto was among the first to dare it."}
+    ]},
+    {"type": "text", "text": "Giotto was in his late thirties when the chapel was finished. Painters traveled to Padua to study these walls for generations. Many historians point to this room as the place where European painting turns toward the Renaissance, the great revival of lifelike art, a full century before it officially begins."},
+    {"type": "fact", "text": "On another wall of the same chapel, the star of Bethlehem is painted as a blazing comet. Halley's Comet had crossed the sky in 1301, and Giotto probably saw it. In 1986, when the European Space Agency sent a probe to meet that comet, they named it Giotto."},
+    {"type": "text", "text": "Because it is a wall, it cannot be sent to a safer place. So the visitors are managed instead. Today you first sit in a sealed waiting room while the air around you is filtered, and only then are you let in for a short, timed visit. The picture stays where its plaster dried, and people come to it."}
+  ],
+  "quiz": [
+    {"question": "Why does the sky in this fresco look patchy?", "options": ["It was left unfinished", "The blue was added on dry plaster and has flaked", "A fire damaged the chapel"], "answer": 1, "explanation": "The azurite blue could not go into wet lime, so it was glued on later and has been falling off for centuries."},
+    {"question": "What is a giornata?", "options": ["The patch of plaster painted in one day", "A type of blue pigment", "A small chapel"], "answer": 0, "explanation": "Fresco must be painted while the plaster is wet, so the wall is done one day's patch at a time."},
+    {"question": "What is unusual about the two figures nearest to the viewer?", "options": ["They are portraits of the patron's family", "They are looking out at us", "We only see their backs"], "answer": 2, "explanation": "The faceless, hooded figures close the circle of mourners and leave a place for the viewer."},
+    {"question": "What leads the eye down to the heads of Christ and Mary?", "options": ["A sloping ridge of rock", "A beam of light", "A river"], "answer": 0, "explanation": "The rock wall descends from the upper right like a ramp toward the two faces."},
+    {"question": "Why did Enrico Scrovegni build the chapel?", "options": ["To celebrate a military victory", "Partly to make up for his family's moneylending", "To house Giotto's tomb"], "answer": 1, "explanation": "His father was a notorious usurer, and the chapel was partly an act of atonement."},
+    {"question": "How do the angels behave?", "options": ["They sing calmly", "They hold a crown over Christ", "They grieve as wildly as humans"], "answer": 2, "explanation": "Giotto's angels press their cheeks, spread their arms and cry out."}
+  ],
+  "facts": [
+    {"text": "The Lamentation is painted on a wooden panel that hangs in the chapel.", "isTrue": false, "explanation": "It is a fresco, painted directly into the wet plaster of the chapel wall."},
+    {"text": "A European space probe was named after Giotto.", "isTrue": true, "explanation": "The 1986 probe to Halley's Comet took his name because he painted a comet in this chapel."},
+    {"text": "Giotto placed Christ's body at the exact center of the scene.", "isTrue": false, "explanation": "Christ lies low in the left corner, and the rock and the gazes guide the eye there."}
+  ]
+}

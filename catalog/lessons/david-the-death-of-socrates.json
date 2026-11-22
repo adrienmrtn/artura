@@ -1,0 +1,47 @@
+{
+  "teaser": "The poison is ready. The old man would rather finish his sentence.",
+  "focus": [0.62, 0.42],
+  "review_notes": "André Chénier advising David to show Socrates reaching for the cup without yet holding it: traditional anecdote, not firmly documented.\nPlato absent (ill) on the day of the execution, per the Phaedo, and a young man at the time (late twenties).\nIdentification of the waving figure on the stairs as Xanthippe: the usual reading.\nIdentification of the seated man gripping Socrates's thigh as Crito: the usual reading.\nDavid's signature on the block under Crito and initials on Plato's bench: stated by the Met, but not legible in the working image. Check spot position (x 0.82, y 0.775) on the zoom image.\nCommissioned by Charles-Michel Trudaine de la Sablière (some sources name his brother).\nJefferson's praise of the picture at the Salon of 1787 (letter to John Trumbull): paraphrased, not quoted.\nMet acquisition in 1931. Dimensions 129.5 x 196.2 cm.",
+  "lesson": [
+    {"type": "text", "text": "The young jailer cannot watch. He holds out the cup with one arm and hides his eyes with the other. In the cup is hemlock, a poison brewed from a plant. The old man on the bed is supposed to drink it. He goes on talking instead, one finger in the air, as if the cup were an interruption."},
+    {"type": "text", "text": "Athens, 399 BC. A jury has condemned the philosopher Socrates, about seventy years old, for disrespecting the gods and corrupting the young with his endless questions. He could have escaped. His friends had a plan ready. He refused: a man who spent his life teaching respect for the law would not run from it."},
+    {"type": "text", "text": "So this is a class, his last one. He is telling his followers that the soul does not die and that there is nothing to fear. They are falling apart. He is not. Jacques-Louis David builds the entire picture on that contrast, and on two gestures of the same man."},
+    {"type": "lines", "text": "Three lines hold the painting together.", "lines": [
+      {"points": [[0.3, 0.04], [0.62, 0.45]], "closed": false, "label": "The light", "text": "Light falls from the upper left like a stage lamp. It ignores the grey wall and lands on Socrates's chest and white robe, the brightest things in the cell."},
+      {"points": [[0.665, 0.45], [0.69, 0.3], [0.7, 0.14]], "closed": false, "label": "Up", "text": "One arm shoots straight up. He points to where he believes he is going: a higher world of ideas, beyond the body."},
+      {"points": [[0.62, 0.42], [0.515, 0.435], [0.525, 0.46]], "closed": false, "label": "Toward the cup", "text": "The other hand reaches for the poison without a glance, and does not touch it yet. That small gap between fingers and cup is the tense center of the picture."}
+    ]},
+    {"type": "text", "text": "The gap was a decision. David could have shown Socrates drinking, or already dead. He chose the half second before, when the choice is made and nothing has happened yet. Tradition says a poet friend, André Chénier, advised him: let Socrates stay lost in his ideas and reach out only when he has finished speaking."},
+    {"type": "fact", "text": "Ancient writers describe the real Socrates as short, snub-nosed and pot-bellied, and he was seventy. David gave him the torso of an athlete. In this kind of painting the body displays the mind: firm character, firm shoulders."},
+    {"type": "text", "text": "The style has a name: Neoclassicism. It swept Europe in the late 1700s and looked back to ancient Greece and Rome for lessons in courage. Its rules are all here. A bare stone room. Figures lined up side by side like a carved relief. Sharp outlines, smooth paint with no visible brushwork, and nothing pretty for its own sake."},
+    {"type": "text", "text": "David did his homework. He read Plato's “Phaedo”, the ancient account of this day. In it, Socrates sends his wife Xanthippe home before the end, because her weeping is more than he wants to hear. David did not forget her."},
+    {"type": "find", "text": "Xanthippe is on her way out. Where is she?", "spots": [
+      {"x": 0.195, "y": 0.41, "zoom": 4, "r": 0.05, "title": "The staircase", "text": "Deep in the background, small figures climb the stairs. One turns back and lifts a hand in farewell. She is usually read as Xanthippe: family life leaves, philosophy stays in the cell."}
+    ]},
+    {"type": "text", "text": "That staircase is the only exit in the painting, and David makes it small, dim and already behind everyone. In the foreground each follower grieves in his own way: one claws at the wall, one buries his face, one stares. A few of them are hiding something."},
+    {"type": "tour", "text": "Begin on the left, with the one man who is not looking.", "spots": [
+      {"x": 0.27, "y": 0.57, "zoom": 2.4, "r": 0.08, "shape": "rect", "title": "Plato", "text": "The old man at the foot of the bed, head bowed, is Plato, who wrote the story down. In reality he was a young man then, and by his own account he was absent that day, ill."},
+      {"x": 0.245, "y": 0.87, "zoom": 4, "r": 0.05, "title": "Scrolls and ink", "text": "On the floor by his seat: rolled scrolls, an inkpot, a pen. A hint that the whole scene could be what Plato remembered, or imagined, when he wrote it years later."},
+      {"x": 0.66, "y": 0.605, "zoom": 3, "r": 0.07, "title": "Crito's hand", "text": "Crito, the old friend who had offered to arrange an escape, grips his teacher's thigh and looks up at him, as if he could still hold him back."},
+      {"x": 0.82, "y": 0.775, "zoom": 4, "r": 0.05, "title": "The stone block", "text": "David signed on the block Crito sits on, and put his initials on Plato's bench as well. Some read it as the painter taking a seat with the two closest followers."}
+    ]},
+    {"type": "text", "text": "So the witness who records everything was never in the room, and David knew it. Seating Plato there as an old man turns the canvas into something stranger than a report. It becomes a memory, replayed in a writer's mind long afterward. That may be why everything looks so clear and so still."},
+    {"type": "fact", "text": "Thomas Jefferson, then the American envoy in Paris, saw the canvas at the Salon of 1787, the big public art exhibition held at the Louvre. He wrote to a friend that it was the best thing in the show."},
+    {"type": "text", "text": "One object is easy to miss in the whole image: the open shackles and chain lying on the floor under the bed. Socrates has just been unchained. He is free to move, and he stays where he is."},
+    {"type": "fact", "text": "For all its grandeur, the canvas is not huge: about 1.3 by 2 meters (51 by 77 inches). It was painted for a private client, a wealthy young judge named Trudaine de la Sablière, and has been in New York since the Metropolitan Museum bought it in 1931."},
+    {"type": "key", "text": "David stops the clock just before the act. His subject is not a death but a choice: a man who would rather die than give up what he thinks is right."},
+    {"type": "text", "text": "Two years later the French Revolution broke out. David threw himself into it, sat in the assembly and voted for the death of the king. Was this picture, painted in the Paris of Louis XVI, already a call to put principles above your own life? Or did the Revolution lend it that meaning afterward? Historians have not settled it."}
+  ],
+  "quiz": [
+    {"question": "What is in the cup?", "options": ["Wine for a last toast", "Water from the prison well", "Hemlock, a plant poison"], "answer": 2, "explanation": "Socrates was sentenced to die by drinking hemlock."},
+    {"question": "What does Socrates's raised finger point to?", "options": ["A higher world beyond the body", "The jailer who must leave", "The window, his escape route"], "answer": 0, "explanation": "He is teaching that the soul survives, and points upward to where he believes he is going."},
+    {"question": "What is odd about Plato's presence at the foot of the bed?", "options": ["He was Socrates's enemy", "He was actually absent that day, and young, not old", "He had died years before"], "answer": 1, "explanation": "Plato wrote that he was ill and absent, and he was a young man at the time."},
+    {"question": "Which of these is typical of Neoclassicism, as seen here?", "options": ["Thick, visible brushstrokes", "Bright decorative patterns", "Figures lined up like a carved relief, with sharp outlines"], "answer": 2, "explanation": "Neoclassical painters favored bare settings, clear outlines and frieze-like groups inspired by antiquity."},
+    {"question": "Who is the small figure waving from the staircase usually said to be?", "options": ["Xanthippe, the wife of Socrates", "The judge who condemned him", "David himself"], "answer": 0, "explanation": "In Plato's account Socrates sends his wife home before the end."}
+  ],
+  "facts": [
+    {"text": "David shows Socrates in the act of drinking the poison.", "isTrue": false, "explanation": "His hand has not yet touched the cup: David chose the instant before."},
+    {"text": "The painting was shown in Paris two years before the French Revolution began.", "isTrue": true, "explanation": "It was exhibited at the Salon of 1787, and the Revolution started in 1789."},
+    {"text": "David painted Socrates with the frail body of a seventy-year-old.", "isTrue": false, "explanation": "He gave the old philosopher an athlete's torso to express strength of character."}
+  ]
+}

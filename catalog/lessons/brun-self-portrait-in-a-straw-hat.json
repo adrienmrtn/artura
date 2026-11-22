@@ -1,0 +1,46 @@
+{
+  "teaser": "She saw a Rubens in Antwerp and answered it with her own face.",
+  "focus": [0.5, 0.3],
+  "review_notes": "The trip to Flanders and the Netherlands is usually dated 1781, the self-portrait 1782; the National Gallery picture is considered an autograph replica of the first version (private collection).\nRubens's 'Le Chapeau de Paille' (Portrait of Susanna Lunden?) was in a private collection in Antwerp when she saw it; it shows a felt, not straw, hat. National Gallery acquired the Rubens in 1871 and the Vigée Le Brun in 1897.\nAdmitted to the Académie royale on 31 May 1783 (same day as Adélaïde Labille-Guiard); the Academy capped women members at four.\nShe left Paris on the night of 5 to 6 October 1789 and stayed abroad about twelve years.\nHer own list counts about 660 portraits; around 30 of Marie Antoinette.\nHer father Louis Vigée, a pastel portraitist, died when she was 12.\nHer dislike of hair powder is reported in her memoirs.",
+  "lesson": [
+    {"type": "text", "text": "If you had one picture to convince strangers to hire you, what would you put in it? Élisabeth Vigée Le Brun was 27, a portrait painter in Paris, and this was her answer: herself, outdoors, smiling slightly, with the tools of the job in her hand."},
+    {"type": "text", "text": "The idea came from a trip. Around 1781 she traveled through Flanders with her husband, an art dealer. In Antwerp she was shown a portrait by Peter Paul Rubens, painted about 160 years earlier: a young woman in a wide hat, her face shaded by the brim and yet glowing. Its nickname was “Le Chapeau de Paille”, the straw hat."},
+    {"type": "fact", "text": "The hat in Rubens's famous “Straw Hat” is not straw at all. It is dark felt with feathers. Nobody is sure how the nickname stuck. Vigée Le Brun, at least, took it literally and put on a real one."},
+    {"type": "text", "text": "What struck her was a problem of light. A hat brim throws the eyes into shadow, which should make a face dull. Rubens's sitter stayed luminous, because sunlight bounced back up into the shadow from below. She wrote later that the picture delighted her so much she painted her own portrait in Brussels, trying for the same effect."},
+    {"type": "tour", "title": "Under the brim", "text": "See how she solves the puzzle she set herself, from the top down.", "spots": [
+      {"x": 0.5, "y": 0.22, "zoom": 2.2, "r": 0.17, "title": "The hat", "text": "A wide straw brim, tilted, trimmed with wildflowers in red, white and blue and one curling ostrich feather. Country materials, worn with city style."},
+      {"x": 0.49, "y": 0.31, "zoom": 3.5, "r": 0.09, "title": "The shadow line", "text": "A soft band of shade crosses her forehead and eyes. Inside it the eyes stay clear and bright, lit by light reflected up from her collar and chest."},
+      {"x": 0.5, "y": 0.52, "zoom": 2.4, "r": 0.14, "title": "Full sun", "text": "Below the chin the direct sunlight lands: the neck and the white ruffled collar are the brightest things in the picture. This is the reflector that lights her face."}
+    ]},
+    {"type": "text", "text": "Two kinds of light on one face, then: sun below, glow above. It is a show of skill, placed exactly where a client would look first. Anyone who could paint that could surely flatter a duchess."},
+    {"type": "key", "text": "A self-portrait can be an advertisement. Here every choice, the light, the hat, the easy pose, shows what the painter could do for a sitter."},
+    {"type": "text", "text": "Her look is part of the pitch. Fashionable women then wore their hair piled high and whitened with powder. Hers falls in loose brown curls, unpowdered. The pink dress is simple, the neckline open. She disliked powder and talked her sitters out of it when she could. This relaxed, “natural” style became her trademark."},
+    {"type": "text", "text": "And she never lets you forget her profession. But she does it with a small visual joke that links the top of the picture to the bottom."},
+    {"type": "find", "text": "The red, white and blue of the flowers on her hat show up again somewhere else, in a different form. Where?", "spots": [
+      {"x": 0.86, "y": 0.71, "zoom": 3.2, "r": 0.1, "title": "The palette", "text": "Dabs of white, yellow, blue and red sit along the edge of her palette, fresh and thick. The flowers above are made of exactly these. She shows you the bouquet and the recipe."}
+    ]},
+    {"type": "text", "text": "The palette is loaded, the brushes are bunched in the same hand, and she is wearing silk and a black lace shawl nobody would risk near wet oil paint. This is a painter as she wants to be seen: at work and perfectly at ease, a professional and a lady at once."},
+    {"type": "fact", "text": "She had been earning money from portraits since her early teens. Her father, a pastel portraitist, died when she was 12, and her income helped support the family."},
+    {"type": "lines", "text": "The pose looks casual. Three directions hold it in place.", "lines": [
+      {"points": [[0.1, 0.12], [0.45, 0.52]], "closed": false, "label": "The sun", "text": "Light falls from the upper left, which is why her right shoulder and the collar blaze while the far side of the shawl sinks into black."},
+      {"points": [[0.26, 0.21], [0.4, 0.25], [0.6, 0.27], [0.75, 0.24]], "closed": false, "label": "The brim", "text": "The lower edge of the hat sweeps across like an awning. It frames the face in a wide oval and sets the tilt that keeps the pose from feeling stiff."},
+      {"points": [[0.7, 0.74], [0.6, 0.93]], "closed": false, "label": "Two hands", "text": "One hand grips palette and brushes. The other opens, empty, toward you, like a greeting or an invitation to sit down. Work and welcome, a hand apart."}
+    ]},
+    {"type": "text", "text": "The pitch worked, though she hardly needed it. She was already painting Queen Marie Antoinette, and would portray her some thirty times. In 1783, with the queen's support, she entered the Royal Academy, the body that controlled official artistic careers in France."},
+    {"type": "fact", "text": "The Academy allowed only four women members at any one time. Vigée Le Brun was admitted on the same day as another portraitist, Adélaïde Labille-Guiard, and critics spent years setting the two against each other."},
+    {"type": "text", "text": "Closeness to the queen became dangerous. In October 1789, as the Revolution turned on the royal family, she left Paris overnight with her young daughter. She stayed away about twelve years, painting the courts of Italy, Vienna and Russia. By her own count she made some 660 portraits. She died in 1842, at 86."},
+    {"type": "text", "text": "The National Gallery in London bought her self-portrait in 1897. By then it already owned the Rubens that had started everything. So the two women in their hats, painted a century and a half apart, now live in the same building. You can walk from the question to the answer."}
+  ],
+  "quiz": [
+    {"question": "Which painting inspired this self-portrait?", "options": ["A portrait by Rembrandt seen in Amsterdam", "A Madonna by Raphael seen in Rome", "A portrait by Rubens seen in Antwerp"], "answer": 2, "explanation": "She saw Rubens's “Le Chapeau de Paille” on a trip through Flanders."},
+    {"question": "How do her eyes stay bright in the shadow of the brim?", "options": ["Light reflects up from her sunlit collar and chest", "A candle is hidden under the hat", "She painted no shadow at all"], "answer": 0, "explanation": "Direct sun below the chin bounces light back up into the shaded face."},
+    {"question": "What was unusual about her hair for the time?", "options": ["It is cut very short", "It is loose and unpowdered", "It is hidden under a wig"], "answer": 1, "explanation": "Fashion called for high, powdered hair, which she disliked."},
+    {"question": "Where do the colors of the hat's flowers reappear?", "options": ["In the clouds", "In her earrings", "On her palette"], "answer": 2, "explanation": "The dabs of red, white, blue and yellow paint echo the bouquet."},
+    {"question": "Why did she leave France in 1789?", "options": ["Her ties to the queen made her a target during the Revolution", "She was invited to teach in London", "The Academy expelled her"], "answer": 0, "explanation": "She fled Paris overnight with her daughter and stayed abroad about twelve years."}
+  ],
+  "facts": [
+    {"text": "The hat in Rubens's “Straw Hat” portrait is actually made of felt.", "isTrue": true, "explanation": "The nickname is misleading; Vigée Le Brun wore real straw in her answer to it."},
+    {"text": "The Royal Academy accepted as many women as applied.", "isTrue": false, "explanation": "It allowed only four women members at a time."},
+    {"text": "Vigée Le Brun's self-portrait and the Rubens that inspired it are now in different countries.", "isTrue": false, "explanation": "Both hang in the National Gallery in London."}
+  ]
+}

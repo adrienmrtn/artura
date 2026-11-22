@@ -1,0 +1,55 @@
+{
+  "teaser": "A card game with no money, no drinks and no talk, painted like a building.",
+  "focus": [0.54, 0.48],
+  "review_notes": "Catalog year 1892; the Met dates this canvas 1890-92.\nDimensions about 65 x 82 cm.\nLéger's 'The Card Game' (1917, Kröller-Müller Museum) painted while recovering from gassing, and van Doesburg's 'Card Players' (1916-17): please verify the framing as responses to Cézanne.\nWhether the Met canvas is the first of the five versions is debated; the lesson says 'many specialists think'.\nReported price above 250 million dollars for the two-player version bought by Qatar around 2011: press reports, never officially confirmed.\nTheft of eight Cézannes, including a Card Players (the Orsay version), in Aix-en-Provence in August 1961 and their recovery some months later: please verify.\nThe 'apple' remark is reported by the dealer Ambroise Vollard.\nCézanne's father starting in the hat trade before co-founding a bank: standard biography.",
+  "lesson": [
+    {"type": "text", "text": "In 1917 the painter Fernand Léger, recovering in a hospital after being gassed at Verdun, made a huge picture of soldiers playing cards, their bodies turned into steel tubes. Around the same time, the Dutch artist Theo van Doesburg reduced a group of card players to flat colored rectangles. Both were answering the same quiet painting from Provence."},
+    {"type": "text", "text": "Here it is. Paul Cézanne painted it in the early 1890s on his family's estate near Aix-en-Provence, in the south of France. It measures only about 65 x 82 cm (26 x 32 in). Three men play, one watches. That is all, and for a generation of young artists it was enough to start a revolution."},
+    {"type": "fact", "text": "Cézanne painted five versions of the card players. One of the later ones, with only two men, was bought by the royal family of Qatar around 2011 for a price reported at more than 250 million dollars, the highest known for a painting at the time."},
+    {"type": "text", "text": "Card games were an old subject, and older pictures of them are noisy: cheats, wine, coins, a fight about to break out. Check this table for any of that. No glass, no bottle, no money. Even tobacco has been put aside for the game."},
+    {"type": "find", "text": "One player has stopped smoking to concentrate. Where did his pipe end up?", "spots": [{"x": 0.535, "y": 0.7, "zoom": 3.6, "r": 0.06, "title": "The pipe on the table", "text": "A white clay pipe lies near the table edge, beside a few scattered cards. It is one of the only loose objects in the whole picture."}]},
+    {"type": "text", "text": "So the game is serious, almost a ritual. The players were not friends of the artist but men who worked on his land: farmhands and a gardener. Cézanne had them pose one at a time, made separate studies of each, and then assembled the group on canvas like a builder."},
+    {"type": "fact", "text": "Cézanne could afford to paint slowly and sell almost nothing. His father had started out in the hat trade, then co-founded a bank in Aix. When he died in 1886, the painter inherited a fortune and the estate where these men posed."},
+    {"type": "text", "text": "“Like a builder” is not a figure of speech. Under the coats and hats there is a framework of simple lines that holds the four men in place."},
+    {"type": "lines", "text": "Strip the scene down to its beams.", "lines": [
+      {"points": [[0.245, 0.69], [0.71, 0.69]], "closed": false, "label": "The tabletop", "text": "A pale horizontal slab anchors everything. All six hands of the players gather along it."},
+      {"points": [[0.29, 0.3], [0.54, 0.27], [0.78, 0.3]], "closed": false, "label": "Three hats", "text": "The brims sit at nearly the same height, like the tops of three columns. Each face is tipped down beneath its hat."},
+      {"points": [[0.34, 0.03], [0.34, 0.5]], "closed": false, "label": "The upright", "text": "The standing man rises like a post behind the group. Without him the left side would collapse toward the heavy figure on the right."},
+      {"points": [[0.2, 0.48], [0.52, 0.62], [0.92, 0.5]], "closed": false, "label": "The funnel", "text": "The shoulders and forearms of the outer players slope inward and down. They push your eye to the small fan of cards held at the center."}
+    ]},
+    {"type": "text", "text": "Because of that framework, nobody seems able to move. The men have the weight of the table itself. Cézanne wanted exactly this from his sitters. His dealer recalled him snapping at one who shifted in his chair: does an apple move?"},
+    {"type": "text", "text": "The surface is built with the same patience. Cézanne does not blend. He sets down small patches of color next to each other, often in slanted parallel strokes, and lets them add up to a sleeve or a cheek. Come close and the solid figures break into touches."},
+    {"type": "tour", "title": "Made of patches", "text": "Four places where the brushwork does the thinking.", "spots": [
+      {"x": 0.87, "y": 0.63, "zoom": 2.2, "r": 0.14, "title": "The blue smock", "text": "This is not one blue. Violet, slate, green and near-black strokes lie side by side, and dark lines mark the folds. The cloth looks carved more than draped."},
+      {"x": 0.54, "y": 0.41, "zoom": 3.2, "r": 0.08, "title": "A face like a mask", "text": "The middle player's eyes are two dark hollows under the brim. Red patches on cheeks and mouth, no expression. Cézanne is not interested in what he feels about his hand."},
+      {"x": 0.4, "y": 0.655, "zoom": 3.2, "r": 0.09, "title": "The fist and cuff", "text": "A big hand in orange and pink rests beside a bright white cuff. The dark outline around the knuckles is drawn, broken, and drawn again."},
+      {"x": 0.87, "y": 0.2, "zoom": 2, "r": 0.14, "title": "The curtain", "text": "A heavy ochre drape fills the upper right corner. Its warm yellow answers the cold blue smock just below it."}
+    ]},
+    {"type": "text", "text": "You may also have noticed things that look wrong. The table seems to tip toward you. The legs under it are a vague tangle. Nobody's knees quite fit. These are not mistakes of a clumsy hand. Cézanne adjusts each part until the whole canvas feels balanced, even if the room no longer obeys the rules of perspective."},
+    {"type": "key", "text": "Cézanne treats people the way he treats fruit and mountains: as solid forms to be built from patches of color. The subject is a card game. The real topic is how a painting holds together."},
+    {"type": "fact", "text": "In August 1961, thieves broke into an exhibition in Aix-en-Provence and took eight Cézannes, among them one of the two-player Card Players. The paintings were recovered some months later."},
+    {"type": "explore", "spots": [
+      {"x": 0.34, "y": 0.11, "zoom": 3, "r": 0.09, "title": "The onlooker", "text": "Arms folded, pipe in his mouth, a red scarf at his neck: the one hot color in the upper half. His head nearly touches the top edge of the canvas."},
+      {"x": 0.63, "y": 0.13, "zoom": 3.2, "r": 0.08, "title": "The pipe rack", "text": "Four clay pipes hang in a row on the bare wall. They are the room's only decoration, and they tell you this is a place where men pass the time."},
+      {"x": 0.53, "y": 0.575, "zoom": 3.6, "r": 0.06, "title": "The hidden hand", "text": "The middle player holds his cards close, and we see only their dark backs. We are not let in on the game."},
+      {"x": 0.5, "y": 0.645, "zoom": 3.6, "r": 0.06, "title": "Cards on the table", "text": "A few cards lie face up, reduced to dabs of red and blue on white. No one has ever been able to say which game is being played."},
+      {"x": 0.48, "y": 0.775, "zoom": 3, "r": 0.09, "title": "The drawer", "text": "A plain drawer with a round knob, set slightly off center. It is the kind of rough kitchen table found in any Provençal farmhouse."},
+      {"x": 0.08, "y": 0.72, "zoom": 2.2, "r": 0.1, "title": "The chair", "text": "A straw-seated chair in ochre curves behind the left player. Its yellow links up with the curtain on the far side."}
+    ]},
+    {"type": "text", "text": "Many specialists think this small canvas came first. Cézanne then tried a larger version with five figures, and after that he began removing things: the onlooker, the pipes, the curtain, one player. The last versions show two men facing each other across a bottle."},
+    {"type": "text", "text": "He died in 1906. The next year a memorial show in Paris stunned the young Picasso and Braque, who took the idea of building a picture from separate planes and pushed it into Cubism. Léger's steel soldiers in 1917 were one more hand dealt at the same table."}
+  ],
+  "quiz": [
+    {"question": "What is absent from this card game compared with older paintings of the subject?", "options": ["Hats", "Money and drinks", "A table"], "answer": 1, "explanation": "There is no glass, bottle or coin anywhere on the table."},
+    {"question": "Who posed as the card players?", "options": ["Men who worked on Cézanne's family estate", "Fellow painters from Paris", "Professional models from Aix"], "answer": 0, "explanation": "They were farmhands and a gardener from the estate near Aix."},
+    {"question": "How does Cézanne build a form such as the blue smock?", "options": ["With one smooth, blended blue", "With a photographic underdrawing", "With small patches of different colors set side by side"], "answer": 2, "explanation": "Violet, slate, green and dark strokes add up to the cloth."},
+    {"question": "Which wounded soldier-artist answered this painting in 1917?", "options": ["Fernand Léger", "Georges Braque", "Henri Matisse"], "answer": 0, "explanation": "Léger painted soldiers playing cards as machine-like figures."},
+    {"question": "What did Cézanne do in the later versions?", "options": ["Added more and more figures", "Removed figures and objects until two players remained", "Moved the game outdoors"], "answer": 1, "explanation": "The last versions show only two men facing each other."},
+    {"question": "Where is the white clay pipe that one player has put down?", "options": ["On the wall rack", "In the drawer", "On the table, near the cards"], "answer": 2, "explanation": "It lies near the table edge beside scattered cards."}
+  ],
+  "facts": [
+    {"text": "Cézanne painted only one version of the card players.", "isTrue": false, "explanation": "He painted five, with five, four and two figures."},
+    {"text": "The tipping table and awkward legs are choices made to balance the picture.", "isTrue": true, "explanation": "Cézanne adjusted each part for the balance of the whole, even against perspective."},
+    {"text": "Cézanne depended on selling his paintings to survive.", "isTrue": false, "explanation": "He inherited a fortune from his banker father in 1886."}
+  ]
+}

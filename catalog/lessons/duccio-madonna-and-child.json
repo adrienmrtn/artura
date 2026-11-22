@@ -1,0 +1,38 @@
+{
+  "teaser": "Smaller than a sheet of paper, and in 2004 the most expensive thing the Met had ever bought.",
+  "focus": [0.55, 0.42],
+  "review_notes": "Price: press reports in 2004 put it at more than 45 million dollars, the Met's costliest acquisition at that time. The museum did not publish the figure.\nSize about 27.9 x 21 cm including the engaged frame.\nThe Met dates the panel c. 1290-1300; the catalog says 1300.\n“About a dozen surviving works” by Duccio: the count varies by scholar.\nCandle burns along the bottom edge of the original frame: reported by the Met; they are not clearly readable in this photo, so no spot points at them.\nThe parapet as one of the earliest of its kind in Western panel painting, and its later echo in Renaissance pictures: standard Met account, check wording.\nProvenance: Count Grigorii Stroganoff (Rome), then Adolphe Stoclet (Brussels), hence “Stoclet Madonna”.\nDuccio's fines in the Siena archives, several for debt: check.",
+  "lesson": [
+    {"type": "text", "text": "Forty-five million dollars. That is roughly what the Metropolitan Museum was reported to have paid for this picture in 2004, more than it had ever spent on a single object. Now the second number: the panel, frame included, measures about 28 by 21 centimeters (11 by 8 inches). It is smaller than a sheet of printer paper."},
+    {"type": "text", "text": "Part of the price was rarity. Duccio di Buoninsegna is the founding painter of Siena, the Tuscan hill town that rivaled Florence, and only about a dozen of his works survive. This was the last one still in private hands. The rest of the price is in what the two figures are doing."},
+    {"type": "text", "text": "Around 1300, pictures of Mary and her son followed the icons of the Byzantine world, the Greek-speaking Christian empire in the east. In those holy images she faces you, stiff and solemn, and the Child sits like a tiny emperor raising his hand in blessing. Duccio keeps the gold and the dark cloak. Then he changes the baby."},
+    {"type": "find", "text": "This Child is not blessing anyone. What is his right hand busy with? Tap it.", "spots": [
+      {"x": 0.585, "y": 0.42, "zoom": 3.4, "r": 0.07, "title": "The veil", "text": "He reaches up and pushes his mother's veil aside, the way any baby grabs at what hangs near a face. A sacred image suddenly contains an ordinary afternoon."}
+    ]},
+    {"type": "text", "text": "She does not smile back. Her head tilts toward him, but her eyes drift past, heavy and distant. For believers of the time the meaning was clear: she already knows how his life will end. A playful tug and a mother's dread share a few square inches."},
+    {"type": "fact", "text": "Mary's skin looks faintly olive for a reason. Medieval painters laid a layer of green earth under the flesh tones to cool them. As the thin pinks on top wear away over centuries, the green rises to the surface."},
+    {"type": "text", "text": "A picture this size was not meant for a church wall. Someone owned it, kept it nearby, and prayed in front of it alone, close enough to breathe on it. At that distance small things carry the meaning. Three of them are worth the trip."},
+    {"type": "tour", "title": "At arm's length", "text": "Start at the bottom edge and work up.", "spots": [
+      {"x": 0.5, "y": 0.875, "zoom": 2.2, "r": 0.2, "title": "The ledge", "text": "A painted stone railing on little brackets, each drawn as if seen from a slightly different side. It is a windowsill: the two of them are just beyond it, in a space that continues yours."},
+      {"x": 0.53, "y": 0.71, "zoom": 3, "r": 0.11, "title": "Hands and feet", "text": "His bare feet rest on her wrist, and her long fingers cradle him from below. You can tell he weighs something. Fine gold lines trace the hem of her cloak around them."},
+      {"x": 0.3, "y": 0.22, "zoom": 2.6, "r": 0.13, "title": "Worked gold", "text": "The background is real gold leaf. Scrolls and the great ring of her halo were scratched and pressed into it with small tools, so the surface would shimmer in candlelight. Much of it is worn now."}
+    ]},
+    {"type": "text", "text": "That little ledge has a long future. It is one of the earliest of its kind in Western painting: a device that admits a picture is a view into another space, and then invites you to lean on the sill. A century and a half later, Renaissance painters would set their Madonnas and portraits behind ledges just like it."},
+    {"type": "fact", "text": "The frame is the original one, carved from the same piece of wood. Its lower edge is scorched in places by the candles that owners burned in front of it. Seven hundred years of prayer left actual burn marks."},
+    {"type": "text", "text": "The panel later passed to a Russian count living in Rome, and then to the Belgian collector Adolphe Stoclet, whose name stuck to it: the Stoclet Madonna. His family kept it out of public view for decades. When it reached New York in 2004, few living scholars had ever stood in front of it."},
+    {"type": "fact", "text": "Duccio himself was no saint. The archives of Siena record a string of fines against him, several of them for unpaid debts. The city kept hiring him anyway."},
+    {"type": "key", "text": "An icon looks at you. In Duccio's panel a child looks at his mother, and she looks at something neither of you can see. Emotion between figures enters European painting through small pictures like this one."}
+  ],
+  "quiz": [
+    {"question": "What is the Child doing with his hand?", "options": ["Blessing the viewer", "Holding a scroll", "Pulling at his mother's veil"], "answer": 2, "explanation": "He reaches up and pushes the veil aside, like any baby."},
+    {"question": "About how large is the panel?", "options": ["About the size of a sheet of paper", "As tall as a door", "About one meter wide"], "answer": 0, "explanation": "With its frame it measures roughly 28 by 21 cm, or 11 by 8 inches."},
+    {"question": "Why does Mary's skin look greenish?", "options": ["The varnish has turned green", "A green underlayer shows through the worn flesh tones", "Duccio wanted her to look ill"], "answer": 1, "explanation": "Medieval painters put green earth under skin tones, and it shows as the top layers thin."},
+    {"question": "What does the painted ledge at the bottom suggest?", "options": ["That the picture is unfinished", "That Mary is standing in a church", "That the figures are in a space continuing ours, beyond a sill"], "answer": 2, "explanation": "The parapet works like a windowsill between the viewer's world and theirs."},
+    {"question": "What marks the lower edge of the original frame?", "options": ["Burns from candles", "The artist's signature", "The buyer's coat of arms"], "answer": 0, "explanation": "Candles lit by people praying in front of the panel scorched the wood."}
+  ],
+  "facts": [
+    {"text": "This painting was made to hang high above a church altar.", "isTrue": false, "explanation": "Its tiny size shows it was made for one person's private prayer, seen from very close."},
+    {"text": "Only about a dozen works by Duccio survive.", "isTrue": true, "explanation": "That rarity is one reason the Met paid so much for it."},
+    {"text": "In this panel Mary smiles down at her son.", "isTrue": false, "explanation": "She looks past him with a sad, distant gaze, as if she foresees his death."}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "teaser": "Painted on a dining room wall, for no one, with no title. The name came later.",
+  "focus": [0.38, 0.2],
+  "review_notes": "Location on the ground floor of the Quinta del Sordo, in the room generally described as the dining room: based on the 1820s inventory by Antonio Brugada and later reconstructions; some scholars dispute details.\nTransfer to canvas from 1874 by Salvador Martinez Cubells for Baron Emile d'Erlanger; shown in Paris in 1878; donated to the Spanish state in 1881: confirm.\nA few scholars have questioned Goya's authorship of the Black Paintings; the Prado maintains the attribution.\nRubens's Saturn (1636-38, Prado) showing an infant: confirm comparison.\nDimensions 143.5 x 81.4 cm.\nThe victim's body is described as adult and headless with one arm in the mouth: matches the image; the sex of the body is debated and left unstated.",
+  "lesson": [
+    {"type": "text", "text": "The jaws are open as wide as they go. An arm is already inside the mouth, up to the elbow. In the next half second the teeth will close. Goya stops the scene exactly there, on the bite that has not landed yet, and that is where it has stayed for two hundred years."},
+    {"type": "text", "text": "The story is an ancient one. Saturn, called Cronus by the Greeks, ruled the gods. A prophecy said one of his own children would overthrow him, so each time a child was born, he ate it. In the myth he swallows the babies whole, which is how they later come back out alive."},
+    {"type": "text", "text": "Earlier painters followed the myth politely: a stern old god with a scythe, holding a plump infant. Goya knew such a picture by Rubens in the Spanish royal collection. What he put on his own wall breaks with it at every point, and the differences are easiest to see up close."},
+    {"type": "tour", "text": "Four places where Goya rewrote the myth.", "spots": [
+      {"x": 0.37, "y": 0.18, "zoom": 3.4, "r": 0.1, "title": "The eyes", "text": "Round, white, bulging, each looking a slightly different way. This is not a cruel god in command. He looks horrified, as though he cannot stop what his own body is doing."},
+      {"x": 0.42, "y": 0.26, "zoom": 3.6, "r": 0.08, "title": "The mouth", "text": "A black hole with no teeth drawn in it. The victim's left arm disappears inside. Bright red runs down from the shoulder, the only strong color in the whole picture."},
+      {"x": 0.55, "y": 0.5, "zoom": 2.4, "r": 0.15, "shape": "rect", "title": "The body", "text": "No baby. The figure has the hips and legs of a grown person, seen from behind. The head is already gone and the right arm ends at a red stump."},
+      {"x": 0.5, "y": 0.39, "zoom": 3.4, "r": 0.1, "title": "The grip", "text": "The knuckles are painted nearly white. The fingers sink into the back so hard that blood wells up around them. He is holding on, not just holding."}
+    ]},
+    {"type": "key", "text": "Goya turned a story about power into a picture of panic. His Saturn is not winning. He is a frightened old creature destroying what comes after him because he cannot bear to be replaced."},
+    {"type": "fact", "text": "This was never a canvas. Goya painted it in oil straight onto the plaster of a room in his own house outside Madrid, most likely the ground-floor room where meals were taken. Thirteen other dark scenes covered the walls around it."},
+    {"type": "text", "text": "The house was known as the Quinta del Sordo, the Deaf Man's Villa. Goya moved there in 1819, past seventy. He made these murals for himself. He never exhibited them, never sold them, and as far as anyone knows never mentioned them in writing. Even their titles, including this one, were invented by other people after his death."},
+    {"type": "text", "text": "That leaves the meaning wide open. Saturn was also the god of time, so some see time eating everything it creates. Others see Spain, torn by war and repression, consuming its own people. Others see an old man's private dread. Goya left no clue which, if any, he intended."},
+    {"type": "text", "text": "Without a client to please, he also painted differently. There is almost no setting, only blackness. The body of the giant is built from long drags of gray and ocher, and its edges melt into the dark. You sense limbs more than you see them."},
+    {"type": "lines", "text": "The giant barely fits. Trace how his body is folded into the frame.", "lines": [
+      {"points": [[0.1, 0.7], [0.45, 0.63], [0.6, 0.66]], "closed": false, "label": "The near knee", "text": "His left thigh juts toward you from the bottom left, pale against the black. He is crouching or kneeling, not standing."},
+      {"points": [[0.93, 0.55], [0.82, 0.7], [0.72, 0.88]], "closed": false, "label": "The far leg", "text": "On the right, a shin drops to the bottom edge in a few slabs of whitish paint. The feet are cut off by the frame."},
+      {"points": [[0.15, 0.5], [0.3, 0.14], [0.65, 0.22], [0.95, 0.35]], "closed": false, "label": "Head and shoulders", "text": "The mane of gray hair and the hunched back press against the top and right edge. A figure too big for its box feels as if it could burst out of it."}
+    ]},
+    {"type": "fact", "text": "The painting survived by surgery. In the 1870s a new owner of the house had the murals cut from the walls and glued onto canvas, a risky operation that cost some of the original paint. They were shown in Paris in 1878, puzzled most visitors, and were then given to the Prado."},
+    {"type": "text", "text": "In the twentieth century the puzzlement turned into recognition. Painters who wanted to show fear and violence without prettiness, the Expressionists first among them, found that an old Spaniard had done it on his dining room wall a hundred years before."},
+    {"type": "text", "text": "Imagine that room for a second. A table, plates, daylight from a window, and this on the plaster beside you while you eat. Whatever Goya meant by it, he chose to live with it."}
+  ],
+  "quiz": [
+    {"question": "According to the myth, why does Saturn eat his children?", "options": ["He is starving", "A prophecy said one of them would overthrow him", "The other gods ordered it"], "answer": 1, "explanation": "He feared being replaced by his own child."},
+    {"question": "How does Goya's victim differ from the one in earlier paintings?", "options": ["It has a grown body, not a baby's", "It is fighting back with a sword", "It is shown smiling"], "answer": 0, "explanation": "Goya shows adult hips and legs, with the head already gone."},
+    {"question": "What was this picture originally painted on?", "options": ["A wooden panel", "A sheet of copper", "The plaster wall of Goya's house"], "answer": 2, "explanation": "It was an oil mural in the Quinta del Sordo, later transferred to canvas."},
+    {"question": "Who gave the painting its title?", "options": ["Goya, in a letter", "Other people, after his death", "The king of Spain"], "answer": 1, "explanation": "Goya never named or even mentioned these murals in writing."},
+    {"question": "What does Saturn's expression suggest in Goya's version?", "options": ["Horror and panic", "Calm authority", "Amusement"], "answer": 0, "explanation": "The bulging, unfocused eyes make him look terrified by his own act."}
+  ],
+  "facts": [
+    {"text": "Goya exhibited this painting in Madrid to great acclaim during his lifetime.", "isTrue": false, "explanation": "He painted it privately on his wall and never showed or sold it."},
+    {"text": "In the original myth, Saturn swallows his children whole.", "isTrue": true, "explanation": "That is why they can later return alive; Goya's torn body is his own invention."},
+    {"text": "Moving the mural from wall to canvas cost some of the original paint.", "isTrue": true, "explanation": "The 1870s transfer was a risky operation and caused losses."}
+  ]
+}

@@ -1,0 +1,49 @@
+{
+ "teaser": "Carved for a pope's tomb, cut from the plans, then given away by Michelangelo himself.",
+ "focus": [0.48, 0.16],
+ "review_notes": "Height: the Louvre gives about 2.28 m, other sources 2.15 m; the lesson says 'roughly 2.2 meters'.\nThe 1505 project is usually said to have planned around forty statues: figure from Condivi/Vasari reconstructions.\nThe two readings of the Slaves (Vasari: provinces subdued by the pope; Condivi: the arts made captive by his death) are paraphrased from memory.\nThe ape as a symbol of painting or of art 'aping' nature is the common interpretation, not a certainty.\nThe link with the younger son of the Laocoon is a frequent art-historical comparison, not documented by Michelangelo.\nGift to Roberto Strozzi (who had housed Michelangelo when he was ill, 1544 and 1546), transfer to France, entry in the Louvre in 1794: to verify.\nMetadata year 1516: usually dated 1513 to 1516, consistent.",
+ "lesson": [
+  {"type": "text", "text": "Roughly 2.2 meters of marble, well over 7 feet. If this young man stood up straight and opened his eyes, he would look down on every visitor in the Louvre. Yet nothing about him feels heavy. The stone seems to sag, like a body giving in to sleep."},
+  {"type": "text", "text": "He was never meant to stand alone in a museum. In 1505 Pope Julius II asked Michelangelo, then thirty, for the grandest tomb in Christendom: a freestanding monument inside St. Peter's in Rome, with around forty statues. This figure was carved between 1513 and 1516 for its lowest level."},
+  {"type": "fact", "text": "The tomb took forty years and shrank with every new contract. Michelangelo called the affair the tragedy of his life. The version finally installed in 1545, in the Roman church of San Pietro in Vincoli, is a wall monument with his Moses at the center and no room for this figure."},
+  {"type": "text", "text": "The title came later, and it is a guess. Is he dying? His face shows no pain. And if he is a slave or a prisoner, something should be holding him. Search the body for chains and see what you find."},
+  {"type": "tour", "title": "What holds him", "text": "Two places, both in the upper half of the statue.", "spots": [
+   {"x": 0.47, "y": 0.15, "zoom": 3.2, "r": 0.16, "title": "The face", "text": "Eyes closed, lips relaxed, head falling back onto the shoulder. This is the face of someone drifting off, or just waking. Agony would tighten every one of these muscles."},
+   {"x": 0.57, "y": 0.28, "zoom": 3, "r": 0.2, "title": "The band", "text": "A single strip of cloth crosses the chest. His hand slips under it and lifts it, without force. That thin band is the only bond on the whole figure."}
+  ]},
+  {"type": "text", "text": "So the prison is nearly invisible, and people have argued for five centuries about what it stands for. Giorgio Vasari, who knew Michelangelo, wrote that the captives were provinces conquered by the pope. Another biographer close to him said they were the arts themselves, left helpless by the death of their patron."},
+  {"type": "text", "text": "The statue holds a clue in favor of the second idea. Michelangelo began an animal behind the figure and never finished it. Most visitors walk past without seeing it."},
+  {"type": "find", "text": "An unfinished animal crouches somewhere against the slave's legs. Where is it?", "spots": [
+   {"x": 0.785, "y": 0.69, "zoom": 3, "r": 0.13, "title": "The ape", "text": "This rounded, barely shaped mass behind the knee is a monkey. You can make out the dome of a head. Michelangelo roughed it out and stopped."}
+  ]},
+  {"type": "text", "text": "In the Renaissance, an ape was a common emblem of art, because artists imitate nature the way a monkey imitates people. If that is the meaning here, this sleeper could be Painting or Sculpture, bound by a ribbon and going quiet."},
+  {"type": "fact", "text": "In January 1506 an ancient marble group, the Laocoön, was dug out of a vineyard in Rome. Michelangelo was among the first to rush over and see it. One of its dying sons throws an arm behind his head, a gesture that returns here a few years later."},
+  {"type": "text", "text": "That raised arm is the start of a long, lazy movement that runs down the whole body. Ancient sculptors had a trick for making a standing figure look alive: put the weight on one leg and let the rest of the body adjust. Michelangelo takes the trick and stretches it."},
+  {"type": "lines", "text": "Three lines to read the pose.", "lines": [
+   {"points": [[0.47, 0.12], [0.55, 0.28], [0.6, 0.4], [0.52, 0.52], [0.48, 0.65], [0.42, 0.8], [0.45, 0.93]], "closed": false, "label": "The slow S", "text": "From the tilted head to the feet, the middle of the body swings one way, then the other. Nothing is vertical, so nothing looks rigid."},
+   {"points": [[0.28, 0.24], [0.74, 0.19]], "closed": false, "label": "Shoulders", "text": "The shoulder on your right is hauled upward by the raised arm. The other one drops and rolls forward."},
+   {"points": [[0.36, 0.47], [0.76, 0.5]], "closed": false, "label": "Hips", "text": "The hips tilt the opposite way, because the weight rests on the straight leg on your left. Shoulders and hips slanting against each other is called contrapposto, Italian for “counterpose.”"}
+  ]},
+  {"type": "key", "text": "Michelangelo used the body alone, with almost no props and no facial drama, to show a state of mind. The pose is the story."},
+  {"type": "text", "text": "The skin of the torso is polished until it looks soft. Other areas never got that far, and they let you watch the sculptor at work, tool by tool."},
+  {"type": "tour", "title": "Where the chisel stopped", "text": "Compare the smooth body with what surrounds it.", "spots": [
+   {"x": 0.25, "y": 0.76, "zoom": 2.6, "r": 0.2, "title": "Raw block", "text": "Behind the legs the marble is still a rough support, covered in parallel grooves. They are the tracks of a toothed chisel, the tool used to approach the final surface."},
+   {"x": 0.55, "y": 0.95, "zoom": 2.4, "r": 0.28, "title": "The ground", "text": "The base is only broken into shape. The feet seem to grow out of it, as if the figure had not fully left the stone."},
+   {"x": 0.72, "y": 0.1, "zoom": 2.4, "r": 0.22, "title": "The raised arm", "text": "By contrast, the arm folded behind the head is finished down to the tendons of the wrist. Michelangelo completed what mattered to him first."}
+  ]},
+  {"type": "fact", "text": "Michelangelo gave this statue away. Twice in the 1540s he fell seriously ill and was nursed in the Roman house of a Florentine exile, Roberto Strozzi. He thanked him with two Slaves that the tomb no longer needed. Strozzi sent them to France, and they entered the Louvre in 1794."},
+  {"type": "text", "text": "Michelangelo wrote in a poem that a block of marble already contains the figure, and that the sculptor only removes what covers it. Seen that way, this young man is caught halfway. Dying, falling asleep, or being born out of the stone: which one do you see?"}
+ ],
+ "quiz": [
+  {"question": "What was this statue originally made for?", "options": ["A fountain in Florence", "The tomb of Pope Julius II", "The facade of the Louvre"], "answer": 1, "explanation": "It was carved for the lowest level of the pope's huge tomb, then left out of the final version."},
+  {"question": "What is the only bond visible on the figure?", "options": ["A strip of cloth across the chest", "An iron chain at the ankles", "A rope around the neck"], "answer": 0, "explanation": "A thin band crosses the chest, and his hand lifts it gently."},
+  {"question": "Which animal did Michelangelo begin carving behind the legs?", "options": ["A dog", "An eagle", "An ape"], "answer": 2, "explanation": "A roughed-out monkey sits behind the knee, a possible emblem of art imitating nature."},
+  {"question": "What does “contrapposto” describe?", "options": ["A way of polishing marble", "Shoulders and hips tilting in opposite directions", "A tomb built against a wall"], "answer": 1, "explanation": "With the weight on one leg, the hips and shoulders slant against each other."},
+  {"question": "How did the statue leave Michelangelo's hands?", "options": ["He gave it to Roberto Strozzi, who had cared for him when he was ill", "It was stolen from his studio", "The pope sold it to pay for the tomb"], "answer": 0, "explanation": "It was a thank-you gift to Strozzi, who then sent it to France."}
+ ],
+ "facts": [
+  {"text": "The Dying Slave stands at the center of the finished tomb of Julius II in Rome.", "isTrue": false, "explanation": "The final tomb of 1545 has the Moses at its center and no place for the Slaves."},
+  {"text": "Parts of the statue still show the grooves of a toothed chisel.", "isTrue": true, "explanation": "The block behind the legs and the base were never brought to a finish."},
+  {"text": "The slave's face is twisted in pain.", "isTrue": false, "explanation": "His eyes are closed and his features relaxed, more like sleep than agony."}
+ ]
+}

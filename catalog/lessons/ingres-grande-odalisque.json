@@ -1,0 +1,269 @@
+{
+ "teaser": "Her back is far too long, and so is her arm. Ingres knew, and painted her that way on purpose.",
+ "focus": [
+  0.22,
+  0.25
+ ],
+ "review_notes": "Guerrilla Girls poster (1989): wording and statistics quoted from the poster ('less than 5% of the artists in the Modern Art sections are women, but 85% of the nudes are female').\n'Three vertebrae too many' is traditionally attributed to the critic Kératry (reported later by Amaury-Duval); lesson says only 'one is said to have remarked'.\n2004 medical study (Maigne et al., J. R. Soc. Med.) concluded about five extra lumbar vertebrae.\nThe earlier nude for the Murats ('The Sleeper of Naples', 1808) is lost since 1815.\nLouvre acquisition 1899.\nSignature read on the image as 'INGRES ... 1814 ROM' at lower right.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1989, posters appeared on New York City buses. They showed this woman, same pose, same fan, wearing a snarling gorilla mask. The text asked: “Do women have to be naked to get into the Met. Museum?” A group of anonymous women artists, the Guerrilla Girls, had chosen her to stand for every female nude in every museum."
+  },
+  {
+   "type": "text",
+   "text": "Why her? Because few nudes are so famous, and few are so plainly made to be looked at. She was painted in Rome in 1814 by Jean-Auguste-Dominique Ingres, a French painter of 34. An odalisque, as Europeans then imagined it, was a woman of a sultan's harem. The word comes from Turkish, where it first meant a chambermaid."
+  },
+  {
+   "type": "fact",
+   "text": "Ingres never set foot in Turkey or anywhere in the Middle East. His harem is assembled from travel books, prints and objects he could see in Europe."
+  },
+  {
+   "type": "text",
+   "text": "Now forget the story and follow the outline of the body. Something is off. People sensed it when the picture was first shown in Paris, at the Salon of 1819, the big official exhibition where reputations were made. Trace three lines and you will see what bothered them."
+  },
+  {
+   "type": "lines",
+   "text": "Three contours, drawn one after another.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.185,
+       0.3
+      ],
+      [
+       0.115,
+       0.4
+      ],
+      [
+       0.105,
+       0.55
+      ],
+      [
+       0.15,
+       0.72
+      ],
+      [
+       0.27,
+       0.85
+      ],
+      [
+       0.42,
+       0.89
+      ]
+     ],
+     "closed": false,
+     "label": "The back",
+     "text": "From the neck to the hip, the back goes on and on in a single slow curve. A real spine could not be this long."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.4
+      ],
+      [
+       0.38,
+       0.5
+      ],
+      [
+       0.52,
+       0.56
+      ],
+      [
+       0.64,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The arm",
+     "text": "Her right arm stretches nearly halfway across the canvas, smooth as a ribbon, with hardly an elbow. It echoes the curve of the back."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.52
+      ],
+      [
+       0.62,
+       0.6
+      ],
+      [
+       0.79,
+       0.72
+      ]
+     ],
+     "closed": false,
+     "label": "The leg",
+     "text": "This leg crosses over the other. Try to work out where it joins the hip: it seems to float, attached to no pelvis at all."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The critics pounced. One is said to have remarked that she had three vertebrae too many, vertebrae being the small bones stacked in the spine. They assumed the painter could not draw. In 2004, French doctors measured the picture against real anatomy and decided the joke had been too kind: the surplus was closer to five."
+  },
+  {
+   "type": "key",
+   "text": "Ingres drew better than almost anyone alive. The long back is a decision: he stretched the body until its outline became the smoothest, most musical line he could make. Beauty of line beat accuracy."
+  },
+  {
+   "type": "text",
+   "text": "He had learned this in Italy. His hero was Raphael, the Renaissance painter of calm, graceful figures, and he admired the Italian artists after Raphael who lengthened necks and fingers for elegance. Ingres called himself a defender of tradition. Yet with this back he took more liberty with the human body than any of his rivals dared."
+  },
+  {
+   "type": "fact",
+   "text": "Ingres signed the canvas on the front edge of the divan, at the lower right, with the year 1814 and the first letters of the city where he was working: Rome."
+  },
+  {
+   "type": "text",
+   "text": "The second surprise is the reverse of the first. The body is invented, but the things around it are painted with a jeweler's patience."
+  },
+  {
+   "type": "tour",
+   "title": "Silk, feathers, gold",
+   "text": "Three objects, each a different texture.",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.15,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The turban",
+     "text": "A striped scarf wound around the head, pinned with a red jewel, a gold tassel hanging behind the ear. Under it, a cool face turns back toward you with no smile and no shame."
+    },
+    {
+     "x": 0.57,
+     "y": 0.75,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The fan",
+     "text": "Peacock feathers, each “eye” picked out in blue and bronze, set in a handle studded with pearls. She holds it loosely against her thigh, below a wrist stacked with gold bracelets."
+    },
+    {
+     "x": 0.8,
+     "y": 0.3,
+     "zoom": 1.8,
+     "r": 0.18,
+     "title": "The curtain",
+     "text": "Blue silk scattered with red and gold flowers falls in heavy folds. Its cold color makes her skin look warmer, and it answers the blue cushions at the far left."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Blue, gold, cream, and little else. The shadows are too faint to round the body out, so she looks almost flat, like a figure cut from ivory. That flatness annoyed viewers in 1819 as well. A century later, painters such as Picasso and Matisse would love Ingres for exactly this."
+  },
+  {
+   "type": "text",
+   "text": "One sense is still missing from this silent room. Ingres slipped in a smell."
+  },
+  {
+   "type": "find",
+   "text": "Something in this picture is giving off smoke. Where?",
+   "spots": [
+    {
+     "x": 0.955,
+     "y": 0.55,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The incense burner",
+     "text": "Thin white wisps rise from a small burner on a tall stand, perfuming the room. Below it, a long-stemmed pipe with a red bowl rests on a metal tray, right beside her toes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Who orders such a picture? A queen. Caroline Murat, Napoleon's youngest sister, ruled Naples with her husband and already owned another nude by Ingres. She wanted this one to hang with it. Then in 1815 Napoleon's empire collapsed, the Murats lost their throne, and the painting was never delivered."
+  },
+  {
+   "type": "fact",
+   "text": "That first nude, a sleeping woman Ingres had painted in 1808, vanished when the Murats fell in 1815. It has never been found."
+  },
+  {
+   "type": "text",
+   "text": "The Louvre bought the odalisque in 1899, and she has been a fixture of art history ever since. Which brings us back to the bus poster. The Guerrilla Girls had counted: in the Met's modern art galleries, fewer than 5 percent of the artists were women, while 85 percent of the nudes were female. Ingres built a body for the eye. They asked: whose eye?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did critics at the Salon of 1819 mock about this figure?",
+   "options": [
+    "Her face was too modern",
+    "Her back was too long",
+    "Her skin was too dark"
+   ],
+   "answer": 1,
+   "explanation": "One is said to have joked that she had three vertebrae too many."
+  },
+  {
+   "question": "Why did Ingres lengthen the back?",
+   "options": [
+    "He chose a beautiful line over correct anatomy",
+    "He had never studied the human body",
+    "The canvas was cut down later"
+   ],
+   "answer": 0,
+   "explanation": "He was a superb draftsman; the distortion was deliberate."
+  },
+  {
+   "question": "Who commissioned the painting?",
+   "options": [
+    "The Louvre",
+    "A Turkish sultan",
+    "Caroline Murat, Queen of Naples and Napoleon's sister"
+   ],
+   "answer": 2,
+   "explanation": "She wanted it to hang with another Ingres nude she already owned."
+  },
+  {
+   "question": "How did Ingres know what a harem looked like?",
+   "options": [
+    "He lived in Istanbul for a year",
+    "From books, prints and objects seen in Europe",
+    "Caroline Murat described one to him"
+   ],
+   "answer": 1,
+   "explanation": "He never traveled to Turkey or the Middle East."
+  },
+  {
+   "question": "What is smoking at the right edge of the picture?",
+   "options": [
+    "An incense burner",
+    "A candle",
+    "A fireplace"
+   ],
+   "answer": 0,
+   "explanation": "Thin wisps rise from a small burner on a stand, next to a long pipe."
+  },
+  {
+   "question": "What did the Guerrilla Girls add to this figure on their 1989 poster?",
+   "options": [
+    "A crown",
+    "A business suit",
+    "A gorilla mask"
+   ],
+   "answer": 2,
+   "explanation": "They put a gorilla mask on her to protest how few women artists museums showed."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Ingres painted the Grande Odalisque in Rome.",
+   "isTrue": true,
+   "explanation": "He made it there in 1814 and noted the city in his signature."
+  },
+  {
+   "text": "The painting was delivered to the Queen of Naples, who hung it in her palace.",
+   "isTrue": false,
+   "explanation": "The Murats lost their throne in 1815 and the picture was never delivered."
+  },
+  {
+   "text": "A medical study in 2004 found the figure's anatomy to be perfectly accurate.",
+   "isTrue": false,
+   "explanation": "The doctors concluded she has about five vertebrae too many."
+  }
+ ]
+}

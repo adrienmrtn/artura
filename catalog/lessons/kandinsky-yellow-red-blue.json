@@ -1,0 +1,313 @@
+{
+ "teaser": "A teacher's whole color theory, painted in the last months before his school was shut down.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "Painted in Weimar in spring 1925 (usually given as March to May), just as the Bauhaus was leaving for Dessau: check the wording 'last Weimar months'.\nThe 1923 Bauhaus questionnaire (yellow triangle, red square, blue circle) is well documented; 'most answered as he hoped' is the usual account.\nGift of Nina Kandinsky to the Centre Pompidou in 1976.\nThe 'profile of a face' reading on the left is a common viewer interpretation, not a statement by Kandinsky.\nKandinsky played cello and piano; turned down a law professorship at Dorpat (Tartu) in 1896.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas comes out of a school. In 1925 Wassily Kandinsky was teaching at the Bauhaus in Weimar, Germany, a place where painters, weavers, architects and furniture makers worked under one roof. His course was about the basics: what a color does, what a line does, what happens when they meet."
+  },
+  {
+   "type": "text",
+   "text": "The school was in trouble. The regional government had cut its funding, and that spring the Bauhaus was packing up to leave Weimar for the industrial town of Dessau. In those unsettled weeks, Kandinsky, aged 58, painted his largest statement of everything he had been telling his students."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is two meters wide (about 6 ft 7 in) and 1.27 meters tall. Kandinsky rarely worked this big in the 1920s, and he gave it the plainest title he could: just the three primary colors, in the order you read them from left to right."
+  },
+  {
+   "type": "text",
+   "text": "Why those three? For Kandinsky, colors had temperatures and directions. Yellow is warm and seems to come toward you. Blue is cool and seems to pull away. Red sits between them, steady and heavy. Before reading the details, see how he splits the whole picture in two with that idea."
+  },
+  {
+   "type": "lines",
+   "text": "Two halves, two temperaments. Tap to draw them.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.03,
+       0.1
+      ],
+      [
+       0.5,
+       0.1
+      ],
+      [
+       0.5,
+       0.92
+      ],
+      [
+       0.03,
+       0.92
+      ]
+     ],
+     "closed": true,
+     "label": "The bright side",
+     "text": "On the left, everything is light, thin and straight: a yellow block, ruler-drawn black lines, sharp angles. It feels like daylight and clear thinking."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.1
+      ],
+      [
+       0.97,
+       0.1
+      ],
+      [
+       0.97,
+       0.92
+      ],
+      [
+       0.52,
+       0.92
+      ]
+     ],
+     "closed": true,
+     "label": "The dark side",
+     "text": "On the right, shapes get heavier and curvier: a deep blue disc, a thick black line that wriggles, colors piled on top of each other."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.45
+      ],
+      [
+       0.55,
+       0.5
+      ],
+      [
+       0.78,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "Yellow, red, blue",
+     "text": "Follow the title across the canvas: the yellow rectangle, the red and pink cluster in the middle, the blue circle. Red is the hinge between the two worlds."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the painting is built on a contrast, almost like an argument between two characters. The left is calm and precise. The right is moody and restless. Kandinsky liked to call this kind of picture a “composition,” a word he borrowed from music on purpose."
+  },
+  {
+   "type": "fact",
+   "text": "Kandinsky played the cello and the piano, and he described colors as if they were sounds. A bright yellow, he wrote, rings out like a trumpet. A dark blue is closer to a cello, and the deepest blue to an organ."
+  },
+  {
+   "type": "text",
+   "text": "At the Bauhaus he pushed this further and paired each primary color with a basic shape. In 1923 he handed out a questionnaire asking people at the school to match them. The answer he hoped for, and mostly got: yellow goes with the triangle, red with the square, blue with the circle."
+  },
+  {
+   "type": "text",
+   "text": "Now check whether he obeys his own rule. He does, loosely. He is a painter, not a diagram maker, and the shapes bend the theory whenever the picture needs it."
+  },
+  {
+   "type": "tour",
+   "title": "Rule and exceptions",
+   "text": "Three shapes, three colors. See how strictly Kandinsky follows his own pairing.",
+   "spots": [
+    {
+     "x": 0.33,
+     "y": 0.45,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "Yellow block",
+     "text": "The yellow is a tall rectangle, not a triangle. But a soft golden cloud surrounds it and sharp lines shoot out from it, so the color still feels pointed and radiating.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.2,
+     "y": 0.13,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Red wedge",
+     "text": "The only true triangle on the left is red, thin as a blade. Sharpness, which his theory gave to yellow, has been lent to another color."
+    },
+    {
+     "x": 0.78,
+     "y": 0.33,
+     "zoom": 2,
+     "r": 0.15,
+     "title": "Blue circle",
+     "text": "Here the rule holds: blue and circle together, deep and inward. Smaller shapes slide over it like colored glass, changing tint where they overlap."
+    },
+    {
+     "x": 0.835,
+     "y": 0.47,
+     "zoom": 2,
+     "r": 0.13,
+     "title": "The black whip",
+     "text": "A thick black line snakes down the right side, swelling and thinning. Nothing on the left moves like this. It is the loudest, most unruly voice in the picture."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Many people see a face in the left half: the yellow rectangle as a cheek, the red-ringed dot as an eye, the straight lines as a profile. Kandinsky never said so. He wanted shapes to act on you directly, the way a chord does, without standing for a thing."
+  },
+  {
+   "type": "key",
+   "text": "Abstract painting, for Kandinsky, was not decoration. Each color and shape was meant to carry a feeling of its own, and a picture was the art of making those feelings answer each other."
+  },
+  {
+   "type": "text",
+   "text": "One more habit of his is worth catching. He likes to place a single small form far from the action, as a kind of full stop. It gives the eye somewhere quiet to land after all the noise."
+  },
+  {
+   "type": "find",
+   "text": "A lone black disc sits apart from everything else, low down in the pale mist. Can you tap it?",
+   "spots": [
+    {
+     "x": 0.735,
+     "y": 0.865,
+     "zoom": 3.2,
+     "r": 0.05,
+     "title": "The full stop",
+     "text": "A flat black circle with nothing touching it. Above it, bundles of crossing lines and a tangle of color. This dot weighs the right side down and lets the picture rest."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Around all of this runs a cloudy violet border, thicker at the bottom, as if the scene were floating in a sky. Kandinsky kept these passages soft and blurry so the hard-edged shapes would seem to hover in front of them."
+  },
+  {
+   "type": "fact",
+   "text": "Kandinsky came to painting late. He had trained as a lawyer in Moscow and was offered a university professorship in law. At 30 he turned it down and took a train to Munich to enroll in art school."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.435,
+     "y": 0.12,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Gray sun",
+     "text": "A gray disc with a black rim and a yellow halo. Thin black lines fan out beneath it like rays, or like strings being plucked."
+    },
+    {
+     "x": 0.23,
+     "y": 0.42,
+     "zoom": 3.5,
+     "r": 0.045,
+     "title": "Red-ringed dot",
+     "text": "A dark blue circle inside a red ring, glowing against the gold. This is the spot many viewers read as an eye."
+    },
+    {
+     "x": 0.66,
+     "y": 0.67,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "Checkerboard",
+     "text": "A tilted grid of small colored squares. Two more are tucked nearby. They add a quick, ticking rhythm in the middle of the slow curves."
+    },
+    {
+     "x": 0.6,
+     "y": 0.64,
+     "zoom": 1.8,
+     "r": 0.17,
+     "title": "Black diagonal",
+     "text": "A heavy black bar cuts up through the central cluster. It ties the pile of red and pink shapes together like a skewer."
+    },
+    {
+     "x": 0.84,
+     "y": 0.75,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "Crossed curves",
+     "text": "Six short black arcs crossing each other, a little knot of energy. Kandinsky studied exactly this kind of mark in his teaching on line."
+    },
+    {
+     "x": 0.075,
+     "y": 0.26,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Calm lines",
+     "text": "Three level black lines under two small squares. Horizontal lines, he taught, are the coolest and quietest a line can be."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A few months later the Bauhaus reopened in Dessau, and Kandinsky published his teaching as a book, “Point and Line to Plane.” The painting stayed with him for the rest of his life. His widow, Nina, gave it to the French state in 1976, and it has hung in Paris ever since."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where was Kandinsky teaching when he painted this picture?",
+   "options": [
+    "At the Bauhaus in Weimar",
+    "At the Academy in Moscow",
+    "At an art school in Paris"
+   ],
+   "answer": 0,
+   "explanation": "He painted it at the Bauhaus in Weimar, just before the school moved to Dessau."
+  },
+  {
+   "question": "According to Kandinsky, what does yellow seem to do?",
+   "options": [
+    "Pull away from you",
+    "Come toward you",
+    "Stay perfectly still"
+   ],
+   "answer": 1,
+   "explanation": "He saw yellow as warm and advancing, and blue as cool and retreating."
+  },
+  {
+   "question": "In his Bauhaus questionnaire, which shape was paired with blue?",
+   "options": [
+    "The triangle",
+    "The square",
+    "The circle"
+   ],
+   "answer": 2,
+   "explanation": "The hoped-for answer was yellow triangle, red square, blue circle."
+  },
+  {
+   "question": "How does the left half of the painting differ from the right?",
+   "options": [
+    "It is lighter, with thin straight lines",
+    "It is darker and full of curves",
+    "It is completely empty"
+   ],
+   "answer": 0,
+   "explanation": "The left is bright and linear, the right heavier and curvier."
+  },
+  {
+   "question": "What did Kandinsky do before becoming a painter?",
+   "options": [
+    "He was a concert cellist",
+    "He trained as a lawyer",
+    "He was an architect"
+   ],
+   "answer": 1,
+   "explanation": "He studied law in Moscow and turned down a professorship at 30."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Kandinsky said the left side of the painting was a portrait of a face.",
+   "isTrue": false,
+   "explanation": "Viewers often see a face there, but Kandinsky never said so."
+  },
+  {
+   "text": "The yellow in this painting takes the form of a rectangle, not a triangle.",
+   "isTrue": true,
+   "explanation": "He bends his own rule: the main yellow shape is a tall rectangle."
+  },
+  {
+   "text": "Kandinsky compared colors to the sounds of musical instruments.",
+   "isTrue": true,
+   "explanation": "He wrote that yellow rings like a trumpet and dark blue sounds like a cello."
+  }
+ ]
+}

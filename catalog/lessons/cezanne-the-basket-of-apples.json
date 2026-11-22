@@ -1,0 +1,57 @@
+{
+  "teaser": "A table that could not exist, a bottle about to topple, and apples that refuse to roll.",
+  "focus": [0.5, 0.45],
+  "review_notes": "Date about 1893; 65 x 80 cm per Art Institute of Chicago.\nShown at Cézanne's first solo exhibition at Ambroise Vollard's gallery, Paris, November 1895 (generally accepted for this canvas; worth checking).\nThe remark about astonishing Paris with an apple is reported by the critic Gustave Geffroy; wording varies.\nSchoolyard story of Zola bringing Cézanne a basket of apples comes from Cézanne's later conversations as reported by Joachim Gasquet.\nUse of paper flowers and slow work with fruit rotting: reported by contemporaries (Vollard and others).\nPropping objects with coins or wedges: reported by the painter Louis Le Bail, who watched him set up a still life.\nHelen Birch Bartlett Memorial Collection, 1926, the same gift that brought Seurat's La Grande Jatte to Chicago.\n'The father of us all' is attributed to Picasso (also to Matisse).",
+  "lesson": [
+    {"type": "text", "text": "Something is wrong with this table. Its far edge sits low on the left side of the picture and noticeably higher on the right. Its near edge does the same thing in reverse. If a carpenter had built it, he would have been fired."},
+    {"type": "text", "text": "Paul Cézanne painted it around 1893, in his mid-fifties, and he knew perfectly well how a table looks. For four hundred years European painters had used perspective, a set of rules that draws a scene as if seen by one eye, from one fixed spot, in one instant. He was about to stop obeying it."},
+    {"type": "lines", "text": "Follow the table's edges across the cloth and check whether they meet.", "lines": [
+      {"points": [[0.0, 0.49], [0.05, 0.49]], "closed": false, "label": "Far edge, left", "text": "At the left border, the back of the table peeks out next to the basket about halfway down the canvas."},
+      {"points": [[0.82, 0.36], [0.93, 0.36]], "closed": false, "label": "Far edge, right", "text": "On the right, the back of the table sits clearly higher. Run the left line across and it would cut through the plate of cookies."},
+      {"points": [[0.0, 0.89], [0.2, 0.89]], "closed": false, "label": "Near edge, left", "text": "The front of the tabletop on the left lies low, close to the bottom of the canvas."},
+      {"points": [[0.87, 0.73], [1.0, 0.73]], "closed": false, "label": "Near edge, right", "text": "On the right the front edge is much higher. The big white cloth hides the place where the two halves would have to join."}
+    ]},
+    {"type": "text", "text": "The cloth is the trick. It tumbles across the middle like an avalanche and covers every spot where the mismatch would show. Behind it, Cézanne has quietly glued together two tables seen from two slightly different heights."},
+    {"type": "key", "text": "We never see with one frozen eye. We shift, lean and look again. Cézanne painted that moving experience of looking, and let the geometry bend to fit it."},
+    {"type": "fact", "text": "He painted so slowly that his fruit often shriveled before a picture was finished. Apples last for weeks, which is one practical reason he loved them. For flower pieces he sometimes gave up and used paper flowers."},
+    {"type": "text", "text": "The table is only the beginning. Once you know he allowed himself to move around, the objects on top start to confess as well. Three of them in particular are doing things they could not do in a real kitchen."},
+    {"type": "tour", "title": "Three impossible objects", "text": "Each one is seen from more than a single position.", "spots": [
+      {"x": 0.49, "y": 0.22, "zoom": 2.2, "r": 0.11, "shape": "rect", "title": "The bottle", "text": "It leans to the left, and its two sides do not match: one shoulder is rounder than the other. It looks as if he drew each half from a different step."},
+      {"x": 0.7, "y": 0.35, "zoom": 2.8, "r": 0.12, "title": "The cookies", "text": "The lower layers are seen from the side, stacked like logs. The two on top are tipped toward you, as if seen from above. The plate under them tilts too."},
+      {"x": 0.24, "y": 0.33, "zoom": 1.9, "r": 0.2, "title": "The basket", "text": "It pitches forward so far that the fruit ought to pour out. A gray block shoved under its left side props it up, and you look down into it while seeing the bottle from the front."}
+    ]},
+    {"type": "text", "text": "That block under the basket is a clue to his method. A visitor who watched Cézanne set up a still life described him tilting and wedging the fruit with coins until every piece sat exactly where he wanted. The arranging could take hours. The painting took weeks or months."},
+    {"type": "text", "text": "So nothing here is clumsy. The loose apples on the cloth sit on a slope and do not roll. The bottle tips left and the basket tips right, and the two cancel out. Take any one tilt away and the whole arrangement would feel as if it were sliding off the table."},
+    {"type": "fact", "text": "Cézanne is reported to have said that he wanted to astonish Paris with an apple. It was a provocation: in the official ranking of subjects, still life, the painting of objects on a table, sat at the very bottom, far below history and religion."},
+    {"type": "text", "text": "The apples are where he spends his color. None is simply red or green. Each is built from separate touches of yellow, orange, crimson and green that turn around the form, with a dark blue line reinforcing the edge here and there. Roundness comes from color changing, not from smooth shading."},
+    {"type": "text", "text": "In November 1895 a young dealer, Ambroise Vollard, gave Cézanne his first solo exhibition in a small Paris shop. The painter was 56 and had not shown in the capital for nearly twenty years. Fellow painters such as Monet, Degas, Renoir and Pissarro came, and several of them bought. This still life is generally thought to have been among the works on view."},
+    {"type": "find", "text": "Cézanne rarely signed his canvases. He signed this one. Find his name.", "spots": [
+      {"x": 0.07, "y": 0.965, "zoom": 3.5, "r": 0.07, "title": "P. Cézanne", "text": "Dark, slanting letters in the bottom left corner. A signature usually meant he considered a work finished and ready to leave the studio, which was unusual for him."}
+    ]},
+    {"type": "text", "text": "The signature matters because he doubted himself constantly. He abandoned canvases in fields, slashed some, and left many with bare patches. A signed picture is a rare case of Cézanne saying: this one will do."},
+    {"type": "fact", "text": "The painting reached Chicago in 1926 as part of a memorial gift from the collector Frederic Clay Bartlett in honor of his late wife, Helen Birch Bartlett. The same gift included Seurat's huge park scene, A Sunday on La Grande Jatte."},
+    {"type": "text", "text": "A little more than a decade after this canvas, Pablo Picasso and Georges Braque took the hint and went all the way. In Cubism they showed a guitar or a face from the front, the side and above at once, broken into flat facets. Picasso is said to have called Cézanne “the father of us all.”"},
+    {"type": "explore", "spots": [
+      {"x": 0.9, "y": 0.56, "zoom": 3.2, "r": 0.06, "title": "The lone apple", "text": "Set apart at the right, yellow with a red flank, tipped on its side. It anchors that end of the table like a full stop."},
+      {"x": 0.64, "y": 0.57, "zoom": 3, "r": 0.07, "title": "A built apple", "text": "Red, pink and yellow patches wrap around the fruit, held in by a dark outline. Count the separate touches of color."},
+      {"x": 0.29, "y": 0.64, "zoom": 3, "r": 0.06, "title": "The orange one", "text": "This fruit rests on a steep fold of cloth and stays put. It is one of the brightest notes in the picture, set against cool white and blue."},
+      {"x": 0.5, "y": 0.8, "zoom": 1.8, "r": 0.2, "title": "The cloth", "text": "Hardly any pure white. The folds are blue, gray, green and lilac, with hard dark creases. It reads less like linen than like a small mountain range."},
+      {"x": 0.08, "y": 0.47, "zoom": 3, "r": 0.07, "title": "The prop", "text": "A plain gray block wedged under the basket. Cézanne shows you the mechanics of his setup instead of hiding them."},
+      {"x": 0.85, "y": 0.15, "zoom": 1.6, "r": 0.14, "title": "The wall", "text": "Blue-green strokes, thin enough in places for the canvas weave to show. The background is brushed as actively as the fruit."}
+    ]},
+    {"type": "text", "text": "Try one last test. Cover the right half of the picture with your hand, then the left. Each half is a perfectly believable still life. The astonishment only starts when you let them be one painting."}
+  ],
+  "quiz": [
+    {"question": "What is odd about the table?", "options": ["It has no legs", "Its edges do not line up from left to right", "It is round on one side"], "answer": 1, "explanation": "Both the far and near edges sit at different heights on each side of the cloth."},
+    {"question": "What hides the place where the two halves of the table fail to meet?", "options": ["The white cloth", "The bottle", "A shadow"], "answer": 0, "explanation": "The cloth spills over the middle and covers the mismatch."},
+    {"question": "Why were apples practical for Cézanne?", "options": ["They were his favorite food", "They were expensive and impressed buyers", "He painted slowly and apples keep for weeks"], "answer": 2, "explanation": "Other fruit and flowers rotted before he finished."},
+    {"question": "What keeps the tilted basket from tipping over?", "options": ["A gray block wedged underneath", "A hidden string", "The bottle leaning on it"], "answer": 0, "explanation": "A block props up its left side."},
+    {"question": "Who gave Cézanne his first solo exhibition, in 1895?", "options": ["Claude Monet", "Ambroise Vollard", "Frederic Clay Bartlett"], "answer": 1, "explanation": "The young dealer Vollard showed him in his Paris shop."},
+    {"question": "How does Cézanne make the apples look round?", "options": ["With smooth gray shading", "With thick black shadows underneath", "With separate touches of changing color"], "answer": 2, "explanation": "Patches of yellow, orange, red and green turn around each form."}
+  ],
+  "facts": [
+    {"text": "Cézanne signed nearly all of his paintings.", "isTrue": false, "explanation": "He rarely signed, which makes the signature here unusual."},
+    {"text": "The cookies on the plate are shown from two viewpoints at once.", "isTrue": true, "explanation": "The lower ones are seen from the side, the top ones as if from above."},
+    {"text": "In Cézanne's time, still life was ranked as the noblest subject in painting.", "isTrue": false, "explanation": "It sat at the bottom of the official ranking, below history and religion."}
+  ]
+}

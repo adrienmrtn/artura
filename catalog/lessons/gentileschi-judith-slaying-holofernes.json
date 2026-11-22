@@ -1,0 +1,55 @@
+{
+  "teaser": "The blade is halfway through. She painted the one second other artists skipped.",
+  "focus": [0.52, 0.58],
+  "review_notes": "Uffizi version dated about 1620, roughly 199 x 162 cm, painted for Grand Duke Cosimo II de' Medici; earlier version (about 1612) at Capodimonte, Naples.\nCaravaggio's Judith dated about 1599.\nTrial of Agostino Tassi in 1612; Artemisia tortured with cords tightened around her fingers; Tassi convicted, sentence largely unenforced.\nAdmitted to the Florentine Accademia delle Arti del Disegno in 1616, usually described as the first woman member.\nBracelet figures read as Artemis/Diana: a common interpretation, not certain.\nSignature “Ego Artemitia Lomi fec.” is in the lower right of the canvas; not legible in this image, so not pointed at.\nLink between the arcs of blood and Galileo's work on trajectories is a scholarly hypothesis. Her 1635 letter to Galileo mentions his help in getting her paid for this Judith.\nThe picture being kept out of sight at the Medici court because it was judged too horrifying is traditional.",
+  "lesson": [
+    {"type": "text", "text": "The sword has gone in, but it is not through. A man is awake, his eyes are open, and his blood has just started to leave him. Two women hold him down. This painting stops time at the middle of the act, when it is too late to go back and far from finished."},
+    {"type": "text", "text": "The story comes from the Book of Judith. An Assyrian general, Holofernes, is besieging a Jewish town. Judith, a widow, walks into his camp, charms him, waits until he is drunk in his tent, and cuts off his head with his own sword. Her maid, Abra, carries it home in a sack."},
+    {"type": "text", "text": "Most painters showed Judith afterward, calm, holding the head like a trophy. Around 1599 Caravaggio dared to show the cut itself, but his Judith leans away with a frown of disgust, and her old servant only watches. Artemisia Gentileschi asks a practical question: how would two women really do this?"},
+    {"type": "lines", "text": "Her answer is built from arms.", "lines": [
+      {"points": [[0.8, 0.42], [0.62, 0.47], [0.45, 0.52]], "closed": false, "label": "The sword arm", "text": "Judith's arm runs straight and locked from her shoulder to the hilt. She saws at arm's length, keeping her dress and her body out of the way."},
+      {"points": [[0.82, 0.56], [0.7, 0.6], [0.58, 0.635]], "closed": false, "label": "The holding arm", "text": "Her other arm runs parallel, just below. Its fist is buried in his hair, pinning the head to the mattress."},
+      {"points": [[0.4, 0.34], [0.43, 0.42], [0.45, 0.48]], "closed": false, "label": "The maid's weight", "text": "Abra's arm drops straight down like a post. She is kneeling on him, pressing with her whole body."},
+      {"points": [[0.5, 0.5], [0.55, 0.41], [0.525, 0.325]], "closed": false, "label": "His arm", "text": "One arm pushes back, rising from his shoulder to a fist under Abra's chin. Every arm in the picture meets at his throat."}
+    ]},
+    {"type": "text", "text": "Sleeves pushed up, elbows locked, weight forward: this is work, closer to a butcher's stall than to a legend. And Abra is no bystander. Artemisia makes her young and strong, because one woman alone could not hold a soldier down. The three faces tell the rest."},
+    {"type": "tour", "title": "Three faces", "text": "Each of them is busy with something different.", "spots": [
+      {"x": 0.52, "y": 0.28, "zoom": 3, "r": 0.09, "title": "Abra", "text": "The maid looks straight down at her task, lips pressed. His fist is jammed against her collar and she does not even glance at it."},
+      {"x": 0.855, "y": 0.33, "zoom": 3.2, "r": 0.08, "title": "Judith", "text": "Brows drawn, mouth shut, head pulled back. It is the face of someone concentrating on a hard job, with neither triumph nor horror in it."},
+      {"x": 0.52, "y": 0.66, "zoom": 3.4, "r": 0.08, "title": "Holofernes", "text": "His head hangs upside down toward you over the edge of the bed. The eyes are still open and aware. He is the only one who looks out of the picture."}
+    ]},
+    {"type": "text", "text": "The woman who painted this was born in Rome in 1593. Her father, Orazio Gentileschi, was a respected painter and a follower of Caravaggio. With no access to an academy, she learned in his workshop, grinding colors and then painting, and by seventeen she was signing pictures of her own."},
+    {"type": "fact", "text": "In 1611 she was raped by Agostino Tassi, a painter working with her father. At the trial the following year it was Artemisia, not the accused, who was tortured: cords were tightened around her fingers to test whether she kept to her story. She did."},
+    {"type": "text", "text": "Tassi was found guilty, and the sentence was barely carried out. Artemisia married, left Rome for Florence, and built a career there. It is tempting to read this canvas as revenge in paint, and the anger may well be in it. But Judith was a popular subject that patrons ordered, and she painted it as a professional."},
+    {"type": "key", "text": "What sets Artemisia's Judith apart is physical truth: the effort, the teamwork, the resistance of a body. She treats a holy heroine as a woman doing something difficult with her hands."},
+    {"type": "fact", "text": "This is her second attempt at the scene. A smaller first version, painted around 1612, hangs in Naples. For this one, made about 1620 for the Medici Grand Duke of Tuscany, she enlarged the canvas to roughly 2 meters high (6.5 feet) and dressed Judith in gold."},
+    {"type": "text", "text": "Florence treated her well. In 1616 she entered the city's academy of artists, as its first woman member, and the Medici court bought her work. Dressing Judith richly suited these clients. It also gave Artemisia a place to slip something in, on the arm that grips the hair."},
+    {"type": "find", "text": "Judith wears one piece of jewelry. Where is it?", "spots": [
+      {"x": 0.71, "y": 0.594, "zoom": 4.2, "r": 0.05, "title": "The bracelet", "text": "A gold bracelet set with small oval plaques circles her forearm. The tiny figures on them have been read as Artemis, the huntress goddess whose name the painter carried."}
+    ]},
+    {"type": "text", "text": "If so, the bracelet is a second signature, worn on the arm that does the holding. The written one is in Latin on the canvas: “I, Artemisia Lomi, made this.” Lomi was the family name she used in Florence."},
+    {"type": "text", "text": "Now the darkness. Half the canvas is black, and a hard light from the left picks out skin, linen and steel. This strong contrast of light and shadow is called chiaroscuro, and she learned it from Caravaggio's example. It works like a spotlight: nothing distracts from the bed. See what the light finds there."},
+    {"type": "explore", "spots": [
+      {"x": 0.57, "y": 0.555, "zoom": 3.6, "r": 0.07, "title": "Arcs of blood", "text": "Thin red jets leap from the neck in long curves toward Judith's arm and dress. In the earlier Naples version the blood only runs down the sheets."},
+      {"x": 0.465, "y": 0.55, "zoom": 3.6, "r": 0.06, "title": "The hilt", "text": "The sword's guard forms a small cross just above his throat. Judith's knuckles are wrapped around the grip."},
+      {"x": 0.48, "y": 0.8, "zoom": 3, "r": 0.06, "shape": "rect", "title": "The blade", "text": "Follow the steel downward. It has passed through and shows again below the edge of the mattress, in line with the hilt."},
+      {"x": 0.38, "y": 0.72, "zoom": 2.6, "r": 0.1, "title": "The sheets", "text": "Blood runs in thin streams across the white mattress and soaks into its folds. White linen makes the red louder."},
+      {"x": 0.17, "y": 0.35, "zoom": 2.6, "r": 0.09, "title": "A knee", "text": "Far to the left a bare knee rises out of the dark. His legs are kicking. The body is fighting at both ends."},
+      {"x": 0.17, "y": 0.52, "zoom": 2, "r": 0.14, "title": "Red velvet", "text": "The general's bedcover is a deep, heavy red, painted with real pleasure in the cloth. It echoes the blood without imitating it."}
+    ]},
+    {"type": "fact", "text": "Artemisia knew Galileo in Florence, and some historians link those curving jets of blood to his studies of how thrown objects travel. Years later, in 1635, she wrote to remind him that he had once helped her get paid for this very Judith."},
+    {"type": "text", "text": "The picture was reportedly found so horrifying at court that it was hung where few would see it. Her name then faded for nearly three centuries, and her canvases were often credited to her father or to other men. Today this is one of the most visited paintings in the Uffizi, and the name on it is hers."}
+  ],
+  "quiz": [
+    {"question": "Which moment of the story does Artemisia show?", "options": ["Judith entering the camp", "The beheading while it is happening", "Judith carrying the head home"], "answer": 1, "explanation": "The sword is partway through and Holofernes is still alive."},
+    {"question": "How is the maid Abra different from the servant in Caravaggio's version?", "options": ["She is young and helps hold the man down", "She faints at the sight", "She is absent from the scene"], "answer": 0, "explanation": "Artemisia makes her a strong, active partner in the act."},
+    {"question": "What is chiaroscuro?", "options": ["Painting on wet plaster", "A type of gold leaf", "Strong contrast between light and shadow"], "answer": 2, "explanation": "The lesson defines it as a strong contrast of light and dark, used like a spotlight."},
+    {"question": "What has been read as a hidden reference to the painter's name?", "options": ["The red velvet cover", "The figures on Judith's bracelet", "The shape of the sword"], "answer": 1, "explanation": "The bracelet's tiny figures are read as Artemis, echoing Artemisia."},
+    {"question": "For whom was this version painted?", "options": ["The Medici Grand Duke of Tuscany", "The King of Spain", "The pope"], "answer": 0, "explanation": "She made it about 1620 for the Medici Grand Duke."}
+  ],
+  "facts": [
+    {"text": "This is the only time Artemisia painted Judith beheading Holofernes.", "isTrue": false, "explanation": "An earlier, smaller version from around 1612 is in Naples."},
+    {"text": "Artemisia Gentileschi became a member of the academy of artists in Florence.", "isTrue": true, "explanation": "She entered it in 1616 as its first woman member."},
+    {"text": "In the painting, Holofernes is already dead and his eyes are closed.", "isTrue": false, "explanation": "His eyes are open and one arm still pushes against the maid."}
+  ]
+}

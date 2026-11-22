@@ -1,0 +1,243 @@
+{
+ "teaser": "A god who has just fired an arrow, without a bow, without effort, and with a tree trunk for help.",
+ "focus": [
+  0.39,
+  0.14
+ ],
+ "review_notes": "Discovery usually placed in 1489 in or near Rome; in the Vatican's Belvedere court by about 1511. Lesson says 'late 1400s'.\nMontorsoli's restorations (left hand, right forearm) dated 1532 to 1533.\nWinckelmann's judgment (1764) is paraphrased, not quoted.\nApollo 17 mission patch (1972) shows the profile of the Apollo Belvedere: to verify.\nThe statue was restored and put back on view in 2024 with a carbon-fiber support, and the 16th-century left hand was reportedly replaced by a cast of an ancient plaster fragment. This photo predates that work and still shows the old left hand holding a stub of bow; the lesson only mentions the support. Please verify.\nThe snake on the tree trunk linked to the serpent Python is a common interpretation, not a certainty.\nMetadata year 130: Roman copy of about AD 120 to 140 after a bronze of about 330 to 320 BC attributed to Leochares.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Something does not add up here. This is an archer at the instant after the shot: the left arm still held out, the eyes following the arrow. Yet there is no strain anywhere. No tensed shoulder, no planted feet. He seems to be strolling. And the bow itself has vanished, leaving a short stub in his fist."
+  },
+  {
+   "type": "text",
+   "text": "He is Apollo, Greek god of light, music and prophecy, and also a deadly marksman. What he has just shot is left to you. Perhaps the serpent Python, which he killed to take over the sanctuary of Delphi. The sculptor is not interested in the kill. He is interested in a body that can do violence without being disturbed by it."
+  },
+  {
+   "type": "text",
+   "text": "How do you carve effortlessness? Mostly through the legs and the direction of the head. The statue is a study in doing two opposite things at once."
+  },
+  {
+   "type": "lines",
+   "text": "Three directions that should clash, and do not.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.42,
+       0.3
+      ],
+      [
+       0.44,
+       0.55
+      ],
+      [
+       0.42,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "The pillar",
+     "text": "Nearly all his weight drops through the right leg, a straight vertical from chest to sandal. This is what keeps him upright."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.45
+      ],
+      [
+       0.6,
+       0.62
+      ],
+      [
+       0.7,
+       0.79
+      ]
+     ],
+     "closed": false,
+     "label": "The trailing leg",
+     "text": "The left leg swings out behind, heel lifted, touching the ground with the toes only. It turns a standing pose into a step."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.14
+      ],
+      [
+       0.62,
+       0.2
+      ],
+      [
+       0.86,
+       0.13
+      ]
+     ],
+     "closed": false,
+     "label": "Head and arm",
+     "text": "His face turns sharply toward the outstretched arm while his body walks the other way. Movement forward, attention sideways: that split is the source of his aloofness."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Weight on one leg, the other relaxed: artists call this contrapposto, an Italian word for “counterpoise.” The Greeks invented it so statues would look alive instead of standing at attention. Here it is pushed almost to the point of floating."
+  },
+  {
+   "type": "fact",
+   "text": "The marble is a Roman copy from around AD 120 to 140. The original was a bronze made some 450 years earlier, probably by Leochares, a sculptor who also worked for Alexander the Great's family. The bronze has not survived."
+  },
+  {
+   "type": "text",
+   "text": "That change of material explains the second contradiction: a weightless god who needs a tree stump. Bronze is hollow and strong, so a bronze figure can balance on thin ankles. Marble is heavy and snaps. The Roman copyist had to add a trunk beside the leg, and a small strut for the cloak, or the statue would have broken under its own weight."
+  },
+  {
+   "type": "key",
+   "text": "Many famous “Greek” statues are Roman marble copies of lost bronzes. Tree stumps and odd supports are the giveaway: they hold up what bronze could carry alone."
+  },
+  {
+   "type": "text",
+   "text": "The statue surfaced in Italy in the late 1400s and soon belonged to a cardinal who became Pope Julius II. He placed it in the Belvedere courtyard of the Vatican, which gave it its name. Both forearms were damaged. In the 1530s Giovanni Montorsoli, a pupil of Michelangelo, carved replacements, a normal practice then."
+  },
+  {
+   "type": "fact",
+   "text": "In 1764 the German scholar Johann Winckelmann, often called the father of art history, ranked it as the highest ideal of art among all ancient works to survive. For generations after him, a well-educated European was expected to see this statue in person."
+  },
+  {
+   "type": "text",
+   "text": "Then taste turned. Once travelers saw original Greek sculpture, such as the Parthenon marbles brought to London in the early 1800s, the Apollo began to look smooth and a little cold: a copy, after all. Few statues have fallen so far in reputation without changing at all. Judge for yourself."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.84,
+     "y": 0.14,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The bow hand",
+     "text": "The fingers close on a short cylinder, all that is shown of the bow. This hand is one of the Renaissance replacements seen in this photo."
+    },
+    {
+     "x": 0.36,
+     "y": 0.11,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The topknot",
+     "text": "Long curls are gathered and tied in a bow on top of the head, a hairstyle of young gods. The lips are slightly parted, the look fixed on something far away."
+    },
+    {
+     "x": 0.3,
+     "y": 0.58,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The serpent",
+     "text": "A snake winds up the tree trunk. It disguises the support as part of the story and may hint at Python, Apollo's victim."
+    },
+    {
+     "x": 0.46,
+     "y": 0.29,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The quiver strap",
+     "text": "A band crosses the chest diagonally. It holds the quiver of arrows on his back, the only proof left that he is armed."
+    },
+    {
+     "x": 0.66,
+     "y": 0.36,
+     "zoom": 1.9,
+     "r": 0.16,
+     "title": "The cloak",
+     "text": "The mantle is pinned at the shoulder and falls over the extended arm in long folds. Its weight on one side balances the trunk on the other."
+    },
+    {
+     "x": 0.44,
+     "y": 0.81,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The sandals",
+     "text": "Elaborate laced sandals on an otherwise naked body. Their detail shows the copyist's skill at fine carving."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "When NASA designed the emblem for Apollo 17, the last crewed mission to the Moon in 1972, it used the profile of this very statue, looking out toward the planets."
+  },
+  {
+   "type": "text",
+   "text": "The contradiction you started with is the point. Renaissance popes, Enlightenment scholars and space-age engineers all saw in him the same dream: power that costs nothing. Whether that still moves you, or leaves you cold, says something about your own century."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What action has Apollo just completed?",
+   "options": [
+    "Throwing a spear",
+    "Shooting an arrow",
+    "Playing the lyre"
+   ],
+   "answer": 1,
+   "explanation": "His extended arm held the bow and his eyes follow the arrow."
+  },
+  {
+   "question": "Why is there a tree trunk next to his leg?",
+   "options": [
+    "Marble needs extra support that the bronze original did not",
+    "Apollo was a god of forests",
+    "It was added by Napoleon's restorers"
+   ],
+   "answer": 0,
+   "explanation": "Marble is heavy and brittle, so the copyist added a support."
+  },
+  {
+   "question": "What does contrapposto mean?",
+   "options": [
+    "A statue carved from two blocks",
+    "A pose with both feet flat and arms at the sides",
+    "A pose with the weight on one leg and the other relaxed"
+   ],
+   "answer": 2,
+   "explanation": "It is the counterbalanced stance that makes a figure look alive."
+  },
+  {
+   "question": "Where does the name “Belvedere” come from?",
+   "options": [
+    "The sculptor's hometown",
+    "The Vatican courtyard where the statue was displayed",
+    "The Greek word for archer"
+   ],
+   "answer": 1,
+   "explanation": "Pope Julius II placed it in the Belvedere courtyard."
+  },
+  {
+   "question": "Why did the statue's reputation decline in the 1800s?",
+   "options": [
+    "It was found to be a forgery",
+    "It was badly damaged in a fire",
+    "Original Greek sculptures made it look like a cold copy"
+   ],
+   "answer": 2,
+   "explanation": "After works like the Parthenon marbles were seen, the Roman copy seemed smooth and distant."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Apollo Belvedere is a Greek bronze.",
+   "isTrue": false,
+   "explanation": "It is a Roman marble copy of a lost Greek bronze."
+  },
+  {
+   "text": "The emblem of the Apollo 17 Moon mission features this statue's profile.",
+   "isTrue": true,
+   "explanation": "NASA's 1972 patch used the head of the Apollo Belvedere."
+  },
+  {
+   "text": "The statue's arms have never been restored.",
+   "isTrue": false,
+   "explanation": "Montorsoli carved replacement parts in the 1530s."
+  }
+ ]
+}

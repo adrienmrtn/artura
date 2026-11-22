@@ -1,0 +1,267 @@
+{
+ "teaser": "Rubens painted it for no client, kept it at home, and never sold it.",
+ "focus": [
+  0.45,
+  0.33
+ ],
+ "review_notes": "Painting kept by Rubens until his death in 1640 and bought from his estate for Philip IV of Spain: standard Prado account.\nSupport and size: oil on oak panel, about 220.5 x 182 cm (Prado).\nLeft Grace resembling Helena Fourment: traditional reading, stated as 'often said'. Marriage December 1630, she was 16 and he 53.\nGout in Rubens's hands in his last years: documented in his letters; wording kept general.\nNudes from the Spanish royal collection threatened with burning under Charles III (1762), then locked in restricted rooms at the Real Academia de San Fernando and later in a reserved room at the Prado until the 1830s: check dates before publishing anything more precise.\nNames of the Graces (Aglaia, Euphrosyne, Thalia) and Seneca's reading as giving, receiving and returning: standard.\nRubens bought the country estate Het Steen in 1635.\n'He once advised painters not to make flesh look like stone': paraphrase of Rubens's short Latin essay on the imitation of statues (De imitatione statuarum).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This painting was made for a house in Antwerp, and the house was the painter's own. Around 1635 Peter Paul Rubens was the most sought-after artist in Europe, with kings waiting for his pictures. Nobody ordered this one. He painted it for himself and kept it on his own walls until he died."
+  },
+  {
+   "type": "text",
+   "text": "He was close to sixty, rich, and tired of courts. For years he had also worked as a diplomat, carrying peace proposals between Spain and England. Now he wanted to stay home. In 1630 he had married again, and in 1635 he bought a castle in the countryside. His late pictures are full of gardens, children and bare skin."
+  },
+  {
+   "type": "text",
+   "text": "The subject is very old. The Three Graces are minor Greek goddesses, daughters of Zeus, who stand for beauty, joy and generosity. Ancient sculptors fixed their pose: three nudes in a row, the middle one seen from behind, arms on each other's shoulders. Rubens knew those statues well. Watch what he does to the formula."
+  },
+  {
+   "type": "lines",
+   "text": "The ancient Graces stand like a frieze and look outward. These three have forgotten that anyone is watching.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.2,
+       0.39
+      ],
+      [
+       0.32,
+       0.42
+      ],
+      [
+       0.45,
+       0.31
+      ],
+      [
+       0.53,
+       0.29
+      ],
+      [
+       0.7,
+       0.31
+      ],
+      [
+       0.84,
+       0.33
+      ],
+      [
+       0.87,
+       0.25
+      ]
+     ],
+     "closed": false,
+     "label": "A chain of arms",
+     "text": "From the hands on the left to the lifted elbow on the right, every arm touches a neighbor. You can cross the whole picture without leaving skin."
+    },
+    {
+     "points": [
+      [
+       0.3,
+       0.25
+      ],
+      [
+       0.4,
+       0.26
+      ],
+      [
+       0.6,
+       0.24
+      ]
+     ],
+     "closed": false,
+     "label": "Three glances",
+     "text": "The heads lean in at the same height. Each woman looks at another one, never at you. It is a conversation, and you are outside it."
+    },
+    {
+     "points": [
+      [
+       0.08,
+       0.2
+      ],
+      [
+       0.25,
+       0.08
+      ],
+      [
+       0.45,
+       0.04
+      ],
+      [
+       0.65,
+       0.12
+      ],
+      [
+       0.88,
+       0.05
+      ]
+     ],
+     "closed": false,
+     "label": "A roof of branches",
+     "text": "A bent tree, where a white shirt has been hung, and a swag of roses close the top like a canopy. The circle of women gets a room of its own, outdoors."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the stiff row has become a ring, slightly turning, like the start of a dance. An old Roman writer, Seneca, explained the three sisters as the three steps of a favor: giving, receiving, giving back. Rubens makes that idea physical. The kindness literally passes from hand to shoulder to arm."
+  },
+  {
+   "type": "fact",
+   "text": "The Grace on the left, with the blond hair and pearls, is often said to have the features of Helena Fourment, the painter's second wife. She was 16 when they married and he was 53. He painted her again and again in his last ten years."
+  },
+  {
+   "type": "text",
+   "text": "Now the part that made his name an adjective. “Rubenesque” is still used for full, soft bodies. But size is not what he was after. He wanted paint to behave like living skin: warm, a little uneven, something that gives when it is pressed. He once advised painters not to make flesh look like stone."
+  },
+  {
+   "type": "tour",
+   "title": "Paint that acts like skin",
+   "text": "Four places where you can see how he does it.",
+   "spots": [
+    {
+     "x": 0.3,
+     "y": 0.41,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Fingers that press",
+     "text": "The left Grace takes her sister's arm with both hands, and the flesh dimples under her fingertips. A statue cannot do that. This is the detail that says: alive."
+    },
+    {
+     "x": 0.47,
+     "y": 0.5,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The back",
+     "text": "Folds at the waist, dimples, a spine that curves. Rubens does not smooth anything away. The skin is built from cream, pink and cool gray laid thinly over a pale ground."
+    },
+    {
+     "x": 0.28,
+     "y": 0.72,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Pink knees",
+     "text": "A blush of red at the knees, as at the elbows and cheeks. Blood shows through where skin is thin. These small warm notes keep so much pale flesh from going flat."
+    },
+    {
+     "x": 0.4,
+     "y": 0.55,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "A veil of nothing",
+     "text": "One strip of gauze winds between the three bodies. It hides nothing and is painted with a few dragged strokes of white. Its job is to tie the sisters together."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That glow has a material cause. The picture is not on canvas but on oak boards, about 2.2 meters tall (over 7 feet), so the women are life-size. Wood coated with a smooth white layer lets thin oil paint shine from underneath, a little like light through a lampshade."
+  },
+  {
+   "type": "fact",
+   "text": "While he painted these effortless fingers, his own were failing him. In his last years Rubens suffered from gout, a painful disease of the joints, and there were weeks when he could not hold a brush."
+  },
+  {
+   "type": "text",
+   "text": "Behind the bodies he spreads the kind of land he had just bought: flat, green, damp, under a wide Flemish sky. On the right, water pours from a stone fountain topped by a child with a horn of plenty. And far off on the left, he adds one quiet sign that nothing here is in danger."
+  },
+  {
+   "type": "find",
+   "text": "Something is living peacefully in the distant meadow. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.14,
+     "y": 0.7,
+     "zoom": 3.5,
+     "r": 0.07,
+     "title": "Grazing deer",
+     "text": "A few deer feed in the open, heads down. Wild animals that do not run mean there is no hunter and no threat. The landscape shares the mood of the three sisters."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Rubens took a cold, famous pose from ancient marble and warmed it up. His subject is less three goddesses than the pleasure of touch, of company, and of paint itself."
+  },
+  {
+   "type": "text",
+   "text": "When he died in 1640, his collection was sold. King Philip IV of Spain, a devoted buyer of Rubens, took the Graces to Madrid. That is why a picture made for a Flemish home now hangs in the Prado."
+  },
+  {
+   "type": "fact",
+   "text": "In Spain the painting was not always welcome. In the 1700s a pious king wanted the royal nudes burned. They were saved, but for decades this one hung in a closed room that could be entered only with special permission."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who ordered The Three Graces from Rubens?",
+   "options": [
+    "The king of Spain",
+    "Nobody, he painted it for himself",
+    "A church in Antwerp"
+   ],
+   "answer": 1,
+   "explanation": "He made it for his own home and kept it until his death."
+  },
+  {
+   "question": "What did Rubens change in the ancient pose of the Graces?",
+   "options": [
+    "He turned the row into a ring of women who look at each other",
+    "He dressed them in court gowns",
+    "He showed all three from behind"
+   ],
+   "answer": 0,
+   "explanation": "The frieze becomes a turning circle, linked by arms and glances."
+  },
+  {
+   "question": "What is the picture painted on?",
+   "options": [
+    "Canvas",
+    "Copper",
+    "Oak boards"
+   ],
+   "answer": 2,
+   "explanation": "It is oil paint on oak panel, which helps the flesh tones glow."
+  },
+  {
+   "question": "Why do the grazing deer matter?",
+   "options": [
+    "They are the hunting prize of the Graces",
+    "They show that the place is safe and at peace",
+    "They stand for the painter's three children"
+   ],
+   "answer": 1,
+   "explanation": "Wild animals that do not flee signal a world without threat."
+  },
+  {
+   "question": "How did the painting reach Madrid?",
+   "options": [
+    "Philip IV bought it after Rubens died",
+    "Rubens gave it to the Prado",
+    "It was taken in a war"
+   ],
+   "answer": 0,
+   "explanation": "The Spanish king acquired it from the painter's estate."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Rubens sold The Three Graces to a client as soon as it was finished.",
+   "isTrue": false,
+   "explanation": "He kept it in his own house until his death in 1640."
+  },
+  {
+   "text": "The left Grace is often said to look like Rubens's young wife, Helena Fourment.",
+   "isTrue": true,
+   "explanation": "She modeled for many of his late paintings."
+  },
+  {
+   "text": "In the ancient version of the pose, all three Graces look at one another.",
+   "isTrue": false,
+   "explanation": "The ancient figures stand in a row and look outward; the shared glances are Rubens's idea."
+  }
+ ]
+}

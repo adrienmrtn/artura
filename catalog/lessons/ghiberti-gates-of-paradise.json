@@ -1,0 +1,346 @@
+{
+ "teaser": "Twenty-seven years of work, ten golden squares, and a nickname said to come from Michelangelo.",
+ "focus": [
+  0.46,
+  0.44
+ ],
+ "review_notes": "Panel identifications follow the standard layout (left wing top to bottom: Adam and Eve, Noah, Jacob and Esau, Moses, David; right wing: Cain and Abel, Abraham, Joseph, Joshua, Solomon and Sheba). Panels are small in this photo; spots are placed on whole panels.\nSelf-portrait: Ghiberti's head is one of the roundels on the inner border of the left door, next to that of his son Vittorio on the right door. I placed it on the pair of roundels between the third and fourth rows (0.43-0.50, 0.497); the exact pair should be checked by a human, the heads are a few pixels wide.\nDimensions: doors about 5 m high; each panel about 80 cm square.\nCommission 1425, installation 1452; the earlier north doors took about 21 years (1403-1424).\n1966 flood: six panels torn off. Restoration completed 2012 after 27 years. Replica doors on the Baptistery since 1990.\nThe display case is described simply as sealed and dry; the technical details (nitrogen or dehumidified air) were left out.\nMichelangelo's remark is reported by Vasari.\nYear field 1452 is the completion date.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In the middle of Florence stands an eight-sided church of green and white marble, the Baptistery of San Giovanni. For centuries every Florentine child was carried inside to be baptized. Its east door is the important one. It opens directly opposite the main entrance of the cathedral, a few steps away, and these doors were made for that opening."
+  },
+  {
+   "type": "text",
+   "text": "In 1425 the guild of cloth merchants, which looked after the building, gave the job to Lorenzo Ghiberti. He was the obvious choice. As a 23-year-old he had won a famous competition, beating Brunelleschi among others, to make another pair of doors for the same building. That first pair had taken him more than twenty years."
+  },
+  {
+   "type": "fact",
+   "text": "The second pair took even longer. Ordered in 1425, the doors were finally hung in 1452. Ghiberti was by then in his seventies. Add the two commissions together and he spent about half a century making doors for one building."
+  },
+  {
+   "type": "text",
+   "text": "What you see here are the original doors, now kept in the cathedral museum behind glass. They are about 5 meters tall (17 feet), cast in bronze and covered in gold. For his first doors Ghiberti had filled 28 small frames. This time he asked for something bolder: only ten panels, each a big square about 80 cm (31 in) across."
+  },
+  {
+   "type": "lines",
+   "text": "Ten panels tell the Old Testament from the creation of Adam to King Solomon. Here is the path to follow.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.31,
+       0.235
+      ],
+      [
+       0.61,
+       0.235
+      ]
+     ],
+     "closed": false,
+     "label": "Start at the top",
+     "text": "The story begins high up at left, with Adam and Eve, and crosses to the right door, where Cain kills Abel. You read across both doors."
+    },
+    {
+     "points": [
+      [
+       0.61,
+       0.235
+      ],
+      [
+       0.31,
+       0.335
+      ],
+      [
+       0.61,
+       0.335
+      ],
+      [
+       0.31,
+       0.445
+      ],
+      [
+       0.61,
+       0.445
+      ],
+      [
+       0.31,
+       0.555
+      ],
+      [
+       0.61,
+       0.555
+      ],
+      [
+       0.31,
+       0.668
+      ],
+      [
+       0.61,
+       0.668
+      ]
+     ],
+     "closed": false,
+     "label": "Then zigzag down",
+     "text": "Row by row, left then right: Noah, Abraham, Jacob, Joseph, Moses, Joshua, David, and at lower right Solomon meeting the Queen of Sheba."
+    },
+    {
+     "points": [
+      [
+       0.425,
+       0.19
+      ],
+      [
+       0.425,
+       0.74
+      ]
+     ],
+     "closed": false,
+     "label": "The borders",
+     "text": "Between and around the panels run vertical strips with small standing figures in niches and heads in round frames: prophets and heroines of the Bible."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The earliest chapters sit highest, farthest from your eyes, and the latest come down to head height. Each square holds not one event but a whole chapter. In the first panel alone God creates Adam, draws Eve from his side, watches them eat the fruit and sends them out of the garden."
+  },
+  {
+   "type": "text",
+   "text": "To fit so much into a square, Ghiberti needed space, and he got it with a tool painters had only just learned: perspective, the geometry that makes a flat surface seem deep. In several panels he builds entire painted-looking cities out of bronze. One of them is easy to spot even from across the room."
+  },
+  {
+   "type": "find",
+   "text": "One panel is dominated by a large circular building ringed with columns. Which one?",
+   "spots": [
+    {
+     "x": 0.615,
+     "y": 0.445,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Joseph in Egypt",
+     "text": "Third row, right door. The round hall is a grain market: Joseph, sold by his brothers, has become the man who feeds Egypt. Sacks are being filled and carried in the crowd below."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That round market recedes exactly like a building in a Renaissance painting, yet it is only a few millimeters deep. In the foreground the figures stick out almost fully round, and you could put a finger behind some heads. Farther back they flatten until the last ones are barely scratched into the surface."
+  },
+  {
+   "type": "key",
+   "text": "Ghiberti made bronze behave like a picture: thick, nearly free-standing figures in front, paper-thin ones behind, so that depth comes from the height of the relief itself."
+  },
+  {
+   "type": "tour",
+   "title": "Three squares",
+   "text": "In this photo the panels are small, so take each one as a whole and notice how differently they are organized.",
+   "spots": [
+    {
+     "x": 0.31,
+     "y": 0.235,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Adam and Eve",
+     "text": "Top left. No building here, just bodies, trees and a swirl of angels. The story runs around the square, ending at the right edge with the gate of Eden."
+    },
+    {
+     "x": 0.305,
+     "y": 0.445,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Jacob and Esau",
+     "text": "Third row, left. A hall of tall round arches in strict perspective. Small groups act out the tale of the stolen blessing between the pillars, like scenes on a stage."
+    },
+    {
+     "x": 0.62,
+     "y": 0.668,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Solomon and Sheba",
+     "text": "Bottom right. The only panel with a single event: king and queen meet at the center of a symmetrical temple, with a crowd fanned out in front."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "How do you make such a thing? Each panel was modeled in wax, cast in bronze, and then worked over cold with chisels and files for years, a slow finishing called chasing. Ghiberti ran a large workshop. Several of the best artists of the next generation, the painter Paolo Uccello among them, passed through it as young assistants."
+  },
+  {
+   "type": "fact",
+   "text": "The gold was applied by fire gilding. Gold was dissolved in mercury and brushed on as a paste, then the bronze was heated until the mercury boiled away and left a skin of gold. The fumes were poisonous to the workers."
+  },
+  {
+   "type": "text",
+   "text": "Ghiberti knew what he had achieved. In his old age he wrote his own life story, one of the first autobiographies by an artist, and he called these doors the most remarkable work he ever made. He also left his face on them, among the small heads of the border."
+  },
+  {
+   "type": "text",
+   "text": "The famous name came later. A century on, Michelangelo is said to have stood before the doors and declared them fit to be the gates of Paradise. The writer Vasari recorded the remark, and it stuck. It was also a play on words, since the space between a baptistery and its cathedral was already called the paradiso."
+  },
+  {
+   "type": "fact",
+   "text": "On November 4, 1966, the river Arno flooded Florence. Water and mud hit the Baptistery so hard that six of the ten panels were torn out of the doors. They were recovered from the mud, and the damage started the long campaign to save the doors."
+  },
+  {
+   "type": "text",
+   "text": "After five centuries outdoors, the bronze was also corroding under the gold. The panels were taken down one by one, and conservators cleaned them, in the end with lasers. The work finished in 2012. It had lasted 27 years, exactly as long as Ghiberti took to make them."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.61,
+     "y": 0.235,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Cain and Abel",
+     "text": "Top right. Plowing with oxen, the two sacrifices, the murder: farm life and the first crime share one rocky hillside."
+    },
+    {
+     "x": 0.31,
+     "y": 0.335,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Noah",
+     "text": "Second row, left. Ghiberti's ark is not a boat but a pyramid, an idea taken from early Christian writers. Animals and family gather at its foot."
+    },
+    {
+     "x": 0.61,
+     "y": 0.335,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Abraham",
+     "text": "Second row, right. Tall slim trees divide the scene. Below, three angels visit Abraham. High on the rock, he raises the knife over his son Isaac."
+    },
+    {
+     "x": 0.305,
+     "y": 0.555,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Moses",
+     "text": "Fourth row, left. On the mountain Moses receives the tablets of the Law, while the people wait at its foot, turning and gesturing in alarm."
+    },
+    {
+     "x": 0.615,
+     "y": 0.555,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Joshua",
+     "text": "Fourth row, right. The army crosses the river Jordan below. Along the top, the walls of Jericho stand in very shallow relief."
+    },
+    {
+     "x": 0.3,
+     "y": 0.668,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "David",
+     "text": "Bottom left. A packed battle. Somewhere in the front line of this crowd, young David cuts off the head of the giant Goliath."
+    },
+    {
+     "x": 0.465,
+     "y": 0.497,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Heads in the border",
+     "text": "Where the two doors meet, small heads lean out of round frames. One of the bald ones on this central strip is Ghiberti himself, with his son and helper Vittorio beside him."
+    },
+    {
+     "x": 0.955,
+     "y": 0.75,
+     "zoom": 2.4,
+     "r": 0.08,
+     "title": "A visitor's hand",
+     "text": "A raised hand at the edge of the photo gives the scale. The lowest panels begin about where a person's shoulders are."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Since 1990 the doors hanging on the Baptistery have been exact copies. The originals stay in their sealed case, which keeps the air dry and the gold safe. You can see the reflections of the museum hall on the glass in this photo."
+  },
+  {
+   "type": "text",
+   "text": "Something was lost in the move. These doors were meant to catch the morning sun in an open square, facing the cathedral, with the whole city walking past. Something was gained too: for the first time in centuries, the gold looks the way it did on the day in 1452 when Florence first saw it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "For which building were the doors made?",
+   "options": [
+    "The Florence Baptistery",
+    "Florence Cathedral's bell tower",
+    "The Vatican"
+   ],
+   "answer": 0,
+   "explanation": "They were the east doors of the Baptistery of San Giovanni, facing the cathedral."
+  },
+  {
+   "question": "How long did Ghiberti work on them?",
+   "options": [
+    "7 years",
+    "27 years",
+    "70 years"
+   ],
+   "answer": 1,
+   "explanation": "They were ordered in 1425 and installed in 1452."
+  },
+  {
+   "question": "How does Ghiberti suggest depth in the panels?",
+   "options": [
+    "With paint over the bronze",
+    "With colored glass behind the figures",
+    "With relief that gets flatter as things get farther away"
+   ],
+   "answer": 2,
+   "explanation": "Foreground figures are nearly in the round, distant ones barely raised."
+  },
+  {
+   "question": "In which panel does a big circular building appear?",
+   "options": [
+    "Adam and Eve",
+    "Joseph in Egypt",
+    "David and Goliath"
+   ],
+   "answer": 1,
+   "explanation": "The round hall is the grain market in the story of Joseph."
+  },
+  {
+   "question": "Who is said to have given the doors their nickname?",
+   "options": [
+    "Michelangelo",
+    "Brunelleschi",
+    "Ghiberti himself"
+   ],
+   "answer": 0,
+   "explanation": "Vasari reports that Michelangelo called them worthy of Paradise."
+  },
+  {
+   "question": "What happened to the doors in 1966?",
+   "options": [
+    "They were stolen",
+    "They were melted for cannons",
+    "A flood tore six panels out"
+   ],
+   "answer": 2,
+   "explanation": "The Arno flood ripped six of the ten panels from the frame."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The doors now hanging on the Baptistery are copies.",
+   "isTrue": true,
+   "explanation": "The originals have been kept in the cathedral museum since their restoration."
+  },
+  {
+   "text": "Each of the ten panels shows a single moment of a single story.",
+   "isTrue": false,
+   "explanation": "Most panels pack several episodes of a chapter into one square."
+  },
+  {
+   "text": "The gold was applied as thin sheets glued to the bronze.",
+   "isTrue": false,
+   "explanation": "It was fire gilded with a paste of gold and mercury."
+  }
+ ]
+}

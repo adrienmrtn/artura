@@ -1,0 +1,217 @@
+{
+ "teaser": "A white square on a white canvas. A rival's reply was to paint black on black.",
+ "focus": [
+  0.6,
+  0.45
+ ],
+ "review_notes": "First shown at the Tenth State Exhibition: Non-Objective Creation and Suprematism, Moscow, 1919, where Rodchenko showed his Black on Black paintings as a response.\nMalevich's catalogue text ('I have overcome the lining of the colored sky... Swim in the white free abyss, infinity is before you') is quoted in a common English translation: check wording.\nProvenance: taken to Berlin 1927, left with architect Hugo Haring, lent to Alfred Barr for MoMA's 1935 'Cubism and Abstract Art'; 1999 settlement between MoMA and Malevich's heirs.\nSize 79.4 x 79.4 cm.\nImage is very low contrast: the interactive blocks point only at the square's outline and edges.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Moscow, spring 1919. Visitors to a state exhibition of new art stop in front of a group of white canvases by Kazimir Malevich. On this one, a white square tilts across a white ground. In the same show, the young painter Alexander Rodchenko hangs his reply: paintings of black on black."
+  },
+  {
+   "type": "text",
+   "text": "Rodchenko meant it as a challenge, almost a duel. If Malevich had reached the last possible painting, the palest one imaginable, then he would go to the opposite extreme. Critics, for their part, wondered if this was still painting at all. The country was in a civil war, and here was a man exhibiting near-emptiness."
+  },
+  {
+   "type": "text",
+   "text": "Malevich had been heading here for four years. In 1915 he showed a black square on a white ground and named his new style Suprematism: an art of pure geometric forms, with no people, no objects, no stories, where feeling alone was supreme. Then he began removing things. First the objects had gone. Now the color went too."
+  },
+  {
+   "type": "fact",
+   "text": "At that 1915 exhibition, Malevich hung his Black Square high across a corner of the room. In Russian homes, that corner was the traditional place for a religious icon. Everyone who walked in understood the claim he was making."
+  },
+  {
+   "type": "text",
+   "text": "So what is left in this picture? More than you might think. The square is not straight, not centered, and not the same white as what surrounds it. Trace it to see how much is going on."
+  },
+  {
+   "type": "lines",
+   "text": "Draw the square, then compare it with the canvas it sits on.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.31,
+       0.012
+      ],
+      [
+       0.97,
+       0.15
+      ],
+      [
+       0.85,
+       0.83
+      ],
+      [
+       0.165,
+       0.7
+      ]
+     ],
+     "closed": true,
+     "label": "The tilted square",
+     "text": "The square leans to the right, as if caught mid-turn. Its edges are slightly uneven: Malevich drew them by hand, without tape or ruler."
+    },
+    {
+     "points": [
+      [
+       0.31,
+       0.012
+      ],
+      [
+       0.97,
+       0.15
+      ]
+     ],
+     "closed": false,
+     "label": "Toward the corner",
+     "text": "The upper edge climbs to the top and right, where the square almost touches the borders of the canvas. It seems to be drifting up and out of the picture."
+    },
+    {
+     "points": [
+      [
+       0.165,
+       0.7
+      ],
+      [
+       0.165,
+       0.99
+      ],
+      [
+       0.85,
+       0.99
+      ],
+      [
+       0.85,
+       0.83
+      ]
+     ],
+     "closed": true,
+     "label": "Room below",
+     "text": "Under the square, a wide empty band. With so much space beneath it and so little above, the shape feels weightless, rising instead of resting."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That drift is the subject. Malevich was fascinated by flight and by aerial photographs, which had just begun to show the earth from above. He wrote that he had broken through the blue of the sky into white, and urged his fellow artists: “Swim in the white free abyss, infinity is before you.”"
+  },
+  {
+   "type": "key",
+   "text": "White on White is not an empty picture. It is a picture of a shape floating free in limitless space, painted with the smallest difference a painter can make."
+  },
+  {
+   "type": "text",
+   "text": "And that difference is real paint, put on by hand. Reproductions flatten it, but the surface is thick and brushy, and the two whites have different temperatures."
+  },
+  {
+   "type": "tour",
+   "title": "Two whites",
+   "text": "Move in on two places where the painting shows how it was made.",
+   "spots": [
+    {
+     "x": 0.24,
+     "y": 0.4,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Cool against warm",
+     "text": "Along the left edge of the square, the two whites meet. The square is cooler, slightly bluish and gray. The ground around it is warmer, closer to cream."
+    },
+    {
+     "x": 0.6,
+     "y": 0.9,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The hand at work",
+     "text": "The lower band is full of short, crusty strokes going in every direction. Malevich did not hide his brush. The texture keeps the white alive."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is a modest 79.4 centimeters on each side, about 31 inches. A square within a square: the tilted shape is a smaller, restless echo of the canvas that holds it."
+  },
+  {
+   "type": "text",
+   "text": "In 1927 Malevich took the painting to an exhibition in Berlin. He was called back to the Soviet Union early and left his works with friends in Germany. He never saw them again. At home, abstract art fell out of official favor, and he died in Leningrad in 1935."
+  },
+  {
+   "type": "fact",
+   "text": "That same year, the painting crossed to New York for a show at the Museum of Modern Art and stayed. In 1999, the museum reached an agreement with Malevich's heirs that allowed it to keep the work."
+  },
+  {
+   "type": "text",
+   "text": "Painters have been answering it ever since, with all-white, all-black and single-color canvases of their own. Malevich thought he had reached the end of painting. Was it an ending, or a blank page for everyone who came after?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did Alexander Rodchenko respond to Malevich's white paintings in 1919?",
+   "options": [
+    "He painted black on black",
+    "He destroyed his own work",
+    "He painted a red square"
+   ],
+   "answer": 0,
+   "explanation": "Rodchenko showed Black on Black paintings in the same exhibition."
+  },
+  {
+   "question": "What does “Suprematism” refer to?",
+   "options": [
+    "The supremacy of the Russian state",
+    "An art of pure geometric forms where feeling is supreme",
+    "Paintings made only in white"
+   ],
+   "answer": 1,
+   "explanation": "Malevich named it for the supremacy of pure feeling, expressed through simple geometry."
+  },
+  {
+   "question": "How do the two whites in the painting differ?",
+   "options": [
+    "They are exactly identical",
+    "The square is warmer and yellower",
+    "The square is cooler and slightly bluish"
+   ],
+   "answer": 2,
+   "explanation": "The square is a cool, bluish white on a warmer, creamy ground."
+  },
+  {
+   "question": "Why does the square seem to float upward?",
+   "options": [
+    "It tilts and sits high, with a wide empty band below",
+    "It has a painted shadow underneath",
+    "It is surrounded by clouds"
+   ],
+   "answer": 0,
+   "explanation": "Its tilt and high position, with space beneath, make it feel weightless."
+  },
+  {
+   "question": "What happened to the painting after Malevich took it to Berlin in 1927?",
+   "options": [
+    "He sold it to a German museum",
+    "He left it in Germany and never saw it again",
+    "He brought it back to Leningrad"
+   ],
+   "answer": 1,
+   "explanation": "He was called home early and left his works with friends in Germany."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Malevich used a ruler and tape to get perfectly straight edges on the white square.",
+   "isTrue": false,
+   "explanation": "The edges are drawn by hand and slightly uneven."
+  },
+  {
+   "text": "Malevich hung his 1915 Black Square in the corner where Russian homes kept an icon.",
+   "isTrue": true,
+   "explanation": "He placed it high across a corner, the traditional spot for a religious icon."
+  },
+  {
+   "text": "The surface of White on White is smooth and free of visible brushstrokes.",
+   "isTrue": false,
+   "explanation": "The paint is thick and brushy, with strokes going in every direction."
+  }
+ ]
+}

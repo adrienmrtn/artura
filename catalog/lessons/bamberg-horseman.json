@@ -1,0 +1,227 @@
+{
+ "teaser": "He wears a crown, rides without a weapon, and for 800 years nobody has known his name.",
+ "focus": [
+  0.43,
+  0.3
+ ],
+ "review_notes": "Date c. 1225-1237 (cathedral consecrated 1237); catalog year 1235.\nHeight about 2.3 m.\nIdentification as St. Stephen I of Hungary is the most common current hypothesis, not a certainty; other candidates listed are standard.\nClaim 'first life-size equestrian statue since antiquity' is the usual textbook phrasing (north of the Alps / in stone); please check wording.\n100-mark banknote of 1920 showing the rider's head: please verify.\nLegend of Stephen riding into the cathedral is a local tradition.\nTraces of original paint were found by restorers; no specific colors are claimed here.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A man wears a crown, so he must be a king. But he carries no sword, no scepter, no shield, and nothing on the statue says who he is. He sits on a warhorse, yet the horse stands indoors, on a ledge halfway up a pillar of a cathedral. Every part of this statue seems to argue with another part."
+  },
+  {
+   "type": "text",
+   "text": "He has been in Bamberg Cathedral, in southern Germany, since about 1235. The sculptor is unknown. So is the patron's exact intention. Not one document from the time mentions him, which is remarkable for a figure this large and this prominent."
+  },
+  {
+   "type": "fact",
+   "text": "The rider is carved in sandstone and is about 2.3 meters (7 and a half feet) tall. He is often described as the first life-size stone horseman made in Europe since the Roman Empire, some eight centuries earlier."
+  },
+  {
+   "type": "text",
+   "text": "Why had it taken so long? A horse and rider in stone is a hard problem: a heavy body balanced on four thin legs. Roman emperors had bronze statues. Medieval sculptors mostly carved figures attached to walls and columns. This one keeps his back to a pillar, but he is a full, rounded figure."
+  },
+  {
+   "type": "text",
+   "text": "The best clue to his meaning is the way he sits. The horse is going one way. The man is not quite going with it."
+  },
+  {
+   "type": "lines",
+   "text": "Trace the directions in the group, one after the other.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.18,
+       0.56
+      ],
+      [
+       0.78,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The horse",
+     "text": "The horse stands in strict profile, parallel to the pillar, head level, ears pricked. It has just come to a halt: all four hooves are on the ground."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.29
+      ],
+      [
+       0.74,
+       0.25
+      ]
+     ],
+     "closed": false,
+     "label": "The gaze",
+     "text": "The rider has turned his head away from the horse's path and looks out into the church. Something over there has caught his attention."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.07
+      ],
+      [
+       0.42,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The upright",
+     "text": "From the little stone city above his head down through his crown, chest and hip, the rider is perfectly vertical. He sits tall, without any effort."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So he has reined in his horse and turned to look. In the cathedral, his eyes go toward the center of the church. One old explanation is that he is gazing at the tomb of the cathedral's founders, the emperor Henry II and his wife Cunigunde."
+  },
+  {
+   "type": "text",
+   "text": "That would fit the favorite candidate today: Stephen I, first Christian king of Hungary and Henry's brother-in-law. A local legend even says Stephen, still half a pagan, rode his horse straight into the cathedral and stopped in awe."
+  },
+  {
+   "type": "fact",
+   "text": "Other names have been proposed over the years: the emperors Henry II, Conrad III and Frederick II, King Philip of Swabia, who was murdered in Bamberg in 1208, one of the Three Kings, and even the Messiah from the Book of Revelation."
+  },
+  {
+   "type": "tour",
+   "title": "A courtly rider",
+   "text": "Whoever he is, the sculptor made him a model of knightly elegance. Three details show how.",
+   "spots": [
+    {
+     "x": 0.41,
+     "y": 0.285,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "The face",
+     "text": "Young, beardless, with curled hair under a wide crown. The brows are slightly drawn and the lips parted. He looks alert, not solemn."
+    },
+    {
+     "x": 0.44,
+     "y": 0.335,
+     "zoom": 3.8,
+     "r": 0.05,
+     "title": "A finger in the strap",
+     "text": "His right hand hooks into the cord that holds his cloak across the chest. It was a fashionable gesture of the time, a sign of ease and good breeding."
+    },
+    {
+     "x": 0.49,
+     "y": 0.41,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The reins",
+     "text": "The left hand holds the reins low and loose. Straps run from here to the horse's bit: he controls a powerful animal with almost no force."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "The Bamberg Horseman is less a portrait than an ideal: the Christian king as his century imagined him, young, calm and in control."
+  },
+  {
+   "type": "text",
+   "text": "The style came from France. The carvers who worked at Bamberg around 1230 clearly knew the new sculpture of Reims Cathedral, with its natural faces and deep, soft folds. You can see that lesson in the cloak falling over the rider's knee."
+  },
+  {
+   "type": "text",
+   "text": "The statue did not always look like bare stone. Restorers have found traces of paint, so he was once in color, as most medieval sculpture was. Now run your eye down to what he stands on. The ledge is covered in carved leaves, and one of them is watching you."
+  },
+  {
+   "type": "find",
+   "text": "A face made of leaves hides under the rider. Where?",
+   "spots": [
+    {
+     "x": 0.61,
+     "y": 0.93,
+     "zoom": 3.4,
+     "r": 0.09,
+     "title": "The green man",
+     "text": "On the bracket under the horse's front hooves, a mask with eyes, nose and mouth grows out of a large jagged leaf. Such “green men” are common in medieval churches. Their meaning is still debated."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "In the 1930s Nazi propaganda turned the rider into a symbol of the ideal German, printing him in schoolbooks and on posters. He had already appeared on a 100-mark banknote in 1920."
+  },
+  {
+   "type": "text",
+   "text": "The statue survived being used that way, as it has survived eight centuries of guesses. He still looks out from his pillar at something we cannot see. The cathedral keeps both secrets: who he is, and what stopped him."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is missing from this crowned rider?",
+   "options": [
+    "A horse's bridle",
+    "A crown",
+    "Any weapon or name"
+   ],
+   "answer": 2,
+   "explanation": "He has a crown but no sword, scepter or inscription."
+  },
+  {
+   "question": "What material is the statue carved from?",
+   "options": [
+    "Sandstone",
+    "Bronze",
+    "Marble"
+   ],
+   "answer": 0,
+   "explanation": "It is carved in sandstone, about 2.3 meters tall."
+  },
+  {
+   "question": "Who is the most often proposed identity today?",
+   "options": [
+    "Charlemagne",
+    "Stephen I of Hungary",
+    "Saint George"
+   ],
+   "answer": 1,
+   "explanation": "Stephen I, brother-in-law of Emperor Henry II, is the favorite candidate."
+  },
+  {
+   "question": "What does the rider do with his right hand?",
+   "options": [
+    "He hooks a finger into his cloak strap",
+    "He raises it in blessing",
+    "He holds a sword"
+   ],
+   "answer": 0,
+   "explanation": "It was a fashionable, courtly gesture."
+  },
+  {
+   "question": "Which cathedral's sculpture influenced the Bamberg carvers?",
+   "options": [
+    "Canterbury",
+    "Reims",
+    "Florence"
+   ],
+   "answer": 1,
+   "explanation": "The natural faces and soft folds come from Reims in France."
+  }
+ ],
+ "facts": [
+  {
+   "text": "A document from the 1200s names the rider and his sculptor.",
+   "isTrue": false,
+   "explanation": "No document of the time mentions the statue at all."
+  },
+  {
+   "text": "The statue was once painted.",
+   "isTrue": true,
+   "explanation": "Restorers have found traces of color on the stone."
+  },
+  {
+   "text": "A face made of leaves is carved on the bracket under the horse.",
+   "isTrue": true,
+   "explanation": "A “green man” mask hides in the foliage of the support."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+  "teaser": "Three travelers, no faces, and a snowfall that may never have happened.",
+  "focus": [0.55, 0.62],
+  "review_notes": "Match is manual: the image is an impression of Night Snow at Kambara from the Hoeido Tokaido series (title cartouche, red seal and Hiroshige signature visible). It is the variant with the dark band of sky along the horizon, fading upward. The Met owns several impressions, so the exact accession cannot be confirmed from the image.\nKambara is usually counted as print 16 of 55 (station 15): check numbering.\nThe red seal at lower left is read as Takenouchi, the family name of the publisher Hoeido: check.\nThe claim that a print cost about as much as a bowl of noodles is the common approximation.\nWhether Hiroshige actually travelled the whole Tokaido in 1832 is disputed; the lesson says so.",
+  "lesson": [
+    {"type": "text", "text": "One foot is about to come down. A man under a half-closed umbrella leans on his stick and tests the slope. Behind him, two others trudge the opposite way, bent double. Nobody speaks. In a second the snow will have filled their tracks, and all three will be gone."},
+    {"type": "text", "text": "That second was printed around 1833 in Edo, the city now called Tokyo. It is one sheet of paper about the size of a placemat, 25 by 38 centimeters (10 by 15 inches), and it belongs to a set: The Fifty-three Stations of the Tokaido, the great road that linked Edo to Kyoto. Kambara was one of its overnight stops."},
+    {"type": "tour", "title": "Who is out tonight", "text": "Meet the only three people awake in Kambara.", "spots": [
+      {"x": 0.39, "y": 0.7, "zoom": 3.2, "r": 0.07, "shape": "rect", "title": "Going down", "text": "A blue coat spotted with snow, tall wooden clogs, a walking stick. The umbrella is folded halfway against the wind and hides the whole head."},
+      {"x": 0.72, "y": 0.73, "zoom": 3.4, "r": 0.05, "shape": "rect", "title": "The straw cape", "text": "This traveler wears a cape of bundled straw, the raincoat of farmers and porters. Snow has settled on the shoulders. The body tips forward into the climb."},
+      {"x": 0.76, "y": 0.69, "zoom": 3.4, "r": 0.05, "shape": "rect", "title": "The yellow coat", "text": "Bare legs under a yellow wrap, a wide hat pulled low, arms tucked in. The only warm color in the picture belongs to the coldest-looking person."}
+    ]},
+    {"type": "text", "text": "Three people and not one face. Hiroshige gives you postures instead: the hunch of the shoulders, the angle of a hat. You read the cold through their backs. And because they are anonymous, they could be anyone who has ever walked home late in bad weather."},
+    {"type": "fact", "text": "Kambara sits on the mild Pacific coast, where deep snow is rare. Most specialists think Hiroshige invented the storm. The series sold as a kind of travel guide, but its weather came from his imagination."},
+    {"type": "text", "text": "How do you print snow? You don't. In a Japanese woodblock print, each color is pressed from its own carved block of cherry wood. The white here is the paper itself, left bare. The roofs, the road, the flakes in the sky: all are places where the printer put nothing at all."},
+    {"type": "key", "text": "The brightest thing in this print is blank paper. Hiroshige makes a snowstorm out of what he leaves out."},
+    {"type": "text", "text": "The dark is where the skill shows. The band of black behind the roofs fades smoothly into gray. Printers got that effect by wiping the wet ink on the block with a cloth before pressing the paper, a hand technique called bokashi, or gradation. It was redone for every single sheet, so no two copies are identical."},
+    {"type": "lines", "text": "The picture looks still. Its structure is anything but level.", "lines": [
+      {"points": [[0.27, 0.82], [0.6, 0.72], [1.0, 0.6]], "closed": false, "label": "The road tilts", "text": "The ground climbs from lower left to upper right. Nobody here stands on anything flat."},
+      {"points": [[0.42, 0.7], [0.3, 0.82]], "closed": false, "label": "One way", "text": "The man in blue heads down the slope, toward the bottom corner and out of the picture."},
+      {"points": [[0.7, 0.76], [0.86, 0.66]], "closed": false, "label": "The other way", "text": "The pair push uphill, toward the houses. The two groups have just passed each other, and the gap between them is widening."},
+      {"points": [[0.0, 0.3], [0.2, 0.3], [0.5, 0.33], [1.0, 0.31]], "closed": false, "label": "The lid", "text": "Above them, a horizontal band of darkness presses on the white roofs like a lid. The night feels low and close."}
+    ]},
+    {"type": "text", "text": "That widening gap is the instant the picture holds. A moment earlier the three were side by side on a narrow road. A moment later they will be strangers again. Hiroshige catches the split second of passing, and the silence that follows it."},
+    {"type": "fact", "text": "Prints like this were cheap. A single sheet cost roughly what a bowl of noodles did, and thousands were pulled from the same blocks. Other impressions of this design have the sky reversed, black at the top and pale near the roofs."},
+    {"type": "text", "text": "Hiroshige was in his mid-thirties, the son of a fire warden, and little known. He is said to have walked the Tokaido in 1832, though historians doubt how much of it he really saw. The series made his name anyway, and it set a model for landscape prints that lasted for decades."},
+    {"type": "explore", "spots": [
+      {"x": 0.63, "y": 0.15, "zoom": 3, "r": 0.07, "title": "Series title", "text": "The black characters give the name of the series and, largest, the station: Kambara. They are part of the carved block, like everything else."},
+      {"x": 0.54, "y": 0.16, "zoom": 4, "r": 0.04, "title": "The red label", "text": "A small red seal carries the subtitle of the print: night snow."},
+      {"x": 0.075, "y": 0.7, "zoom": 3.4, "r": 0.05, "title": "Hiroshige's name", "text": "The artist's signature runs down the left margin. He drew the design. Carvers and printers, whose names we do not know, did the rest."},
+      {"x": 0.075, "y": 0.84, "zoom": 3.4, "r": 0.05, "title": "Publisher's seal", "text": "The round red mark belongs to the publisher, the businessman who paid for the blocks and took the risk."},
+      {"x": 0.6, "y": 0.3, "zoom": 2.2, "r": 0.14, "title": "Falling flakes", "text": "The snowflakes show only against the dark band, as unprinted specks. Lower down, white on white, they vanish."},
+      {"x": 0.93, "y": 0.45, "zoom": 2.6, "r": 0.08, "shape": "rect", "title": "Loaded branches", "text": "At the right edge, trees sag under their load. The gray strokes are the only part of them not buried."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "How did the printers make the white snow?", "options": ["With white ink pressed last", "By leaving the paper bare", "By scraping the surface"], "answer": 1, "explanation": "The white areas are unprinted paper."},
+    {"question": "What is bokashi?", "options": ["A hand-wiped gradation of ink on the block", "A type of straw raincoat", "The publisher's seal"], "answer": 0, "explanation": "The printer wipes the wet ink so the color fades smoothly."},
+    {"question": "Why do specialists think the snow was invented?", "options": ["The print is dated in summer", "Hiroshige wrote that he made it up", "Kambara has a mild coastal climate where heavy snow is rare"], "answer": 2, "explanation": "The town lies on the mild Pacific coast."},
+    {"question": "What does the picture never show?", "options": ["A roof", "A footprint in the snow", "A face"], "answer": 2, "explanation": "All three travelers are hidden by hats or an umbrella."}
+  ],
+  "facts": [
+    {"text": "This print belongs to a series about the road between Edo and Kyoto.", "isTrue": true, "explanation": "It is one of The Fifty-three Stations of the Tokaido."},
+    {"text": "The three travelers are walking together in the same direction.", "isTrue": false, "explanation": "One goes downhill to the left while two climb to the right."},
+    {"text": "Each copy was painted by hand by Hiroshige.", "isTrue": false, "explanation": "He drew the design, and carvers and printers produced thousands of sheets from wood blocks."}
+  ]
+}

@@ -1,0 +1,173 @@
+{
+ "teaser": "A view of Paris so dissolved in light that the paint spills over onto the frame.",
+ "focus": [
+  0.47,
+  0.45
+ ],
+ "review_notes": "Check: Delaunay's remark that the Cubists 'paint with cobwebs' (widely quoted, paraphrased here).\nCheck: Apollinaire's poem 'Les Fenêtres' was written for the catalogue of Delaunay's exhibition at the Der Sturm gallery, Berlin, January 1913; Apollinaire coined 'Orphism' in 1912.\nCheck: Paul Klee translated Delaunay's essay on light for the review Der Sturm.\nCheck: size about 46 x 40 cm including the painted frame.\nThe small dark squares on the lower frame are read as windows of a facade: interpretation.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In Paris in 1912, the most advanced painters had quietly thrown color out. Picasso and Braque were working in browns and grays, so that nothing would distract from the structure of their Cubist pictures. Bright color was for decorators and for the past. Robert Delaunay was told, more or less, that he had missed the point."
+  },
+  {
+   "type": "text",
+   "text": "He answered with an insult of his own: those fellows, he said, paint with cobwebs. Then he did the unfashionable thing. Between spring and winter of 1912 he painted about twenty views from a window over Paris, each one built from color and almost nothing else. This is one of them."
+  },
+  {
+   "type": "text",
+   "text": "Almost nothing, but not quite. The title promises a city. One famous piece of that city is still standing in the middle of the picture, reduced to a single colored shape."
+  },
+  {
+   "type": "find",
+   "text": "The Eiffel Tower is in here. Tap where you think it is.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.44,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "The green tower",
+     "text": "A tall, narrow green triangle with slightly curved sides rises through the blue. It is all that remains of the tower Delaunay had painted in splinters a year or two before.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Once you have the tower, the rest falls into place a little. Blues become sky, warm patches on the left become sunlit walls. But Delaunay will not let you settle. The shapes are see-through, each one tinting its neighbor, as if you were looking through a pane of glass that also reflects the room behind you."
+  },
+  {
+   "type": "fact",
+   "text": "The science behind this came from a dye works. The chemist Michel-Eugène Chevreul, in charge of colors at the Gobelins tapestry factory, showed in 1839 that a color changes according to the color placed next to it. He called it the law of simultaneous contrast. Delaunay took his title from it."
+  },
+  {
+   "type": "text",
+   "text": "That is what “simultaneous” means here. Orange laid beside blue makes both look stronger. Yellow against violet seems to vibrate. Delaunay places such pairs side by side all over the surface, so the picture flickers a little while you look. For him that flicker was light itself, and light was the true subject."
+  },
+  {
+   "type": "key",
+   "text": "In the Windows, color stops describing things and starts doing the work alone: creating space, movement and light just by the way one patch meets the next."
+  },
+  {
+   "type": "text",
+   "text": "Now look at where the picture ends. Or try to. There is a canvas in the middle and a wooden frame around it, and Delaunay painted both."
+  },
+  {
+   "type": "tour",
+   "title": "Over the edge",
+   "text": "The inner rectangle is the canvas. Everything outside it is the frame, painted by the artist.",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.42,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "A shadow that crosses",
+     "text": "A deep violet block starts on the canvas and carries on across the frame without changing. The edge of the picture is treated as if it were not there."
+    },
+    {
+     "x": 0.87,
+     "y": 0.68,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Red on the wood",
+     "text": "Thick strokes of red and pink sit on the frame only. It is the hottest note in the whole object, and it is outside the picture."
+    },
+    {
+     "x": 0.46,
+     "y": 0.86,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "Little windows",
+     "text": "On the lower frame, a gray block with small dark squares reads like a building with windows. The city leaks out onto the wood."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A frame normally says: the picture stops here, the wall begins. By painting over it, Delaunay removes that border. Light does not stop at edges, so neither does he. The whole thing is small, about 46 by 40 centimeters (18 by 16 inches) with its frame, closer to a glowing object than to a view."
+  },
+  {
+   "type": "fact",
+   "text": "The poet Guillaume Apollinaire loved these pictures enough to write a poem called “Windows” for Delaunay's exhibition in Berlin. He also invented a name for this lyrical, colorful branch of Cubism: Orphism, after Orpheus, the musician of Greek myth."
+  },
+  {
+   "type": "text",
+   "text": "The series was understood faster in Germany than in France. Paul Klee, Franz Marc and August Macke came to see Delaunay in Paris, and Klee translated his essay on light into German. You can feel these windows behind Klee's later checkerboards of color."
+  },
+  {
+   "type": "text",
+   "text": "So the painter accused of clinging to color ended up pointing ahead. Within months he was painting discs of pure color with no tower, no city and no window at all. The green triangle you found is one of the last things he kept before letting go."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why was Delaunay's love of color out of step in 1912?",
+   "options": [
+    "Color pigments were rationed",
+    "Leading Cubists were painting in browns and grays",
+    "Critics demanded religious subjects"
+   ],
+   "answer": 1,
+   "explanation": "Picasso and Braque had reduced their palettes so color would not distract from structure."
+  },
+  {
+   "question": "Which landmark survives as a green triangle in the center?",
+   "options": [
+    "Notre-Dame",
+    "The Arc de Triomphe",
+    "The Eiffel Tower"
+   ],
+   "answer": 2,
+   "explanation": "The tall green shape is the Eiffel Tower, simplified to a single form."
+  },
+  {
+   "question": "Where does the term 'simultaneous contrast' come from?",
+   "options": [
+    "The chemist Chevreul's study of dyes",
+    "A poem by Apollinaire",
+    "A Cubist manifesto"
+   ],
+   "answer": 0,
+   "explanation": "Chevreul, working at the Gobelins tapestry factory, described how neighboring colors change each other."
+  },
+  {
+   "question": "What is unusual about the frame of this work?",
+   "options": [
+    "It is made of iron",
+    "The artist painted over it as part of the picture",
+    "It was added a century later"
+   ],
+   "answer": 1,
+   "explanation": "Delaunay continued his colors onto the wooden frame."
+  },
+  {
+   "question": "What name did Apollinaire give to this colorful branch of Cubism?",
+   "options": [
+    "Orphism",
+    "Futurism",
+    "Tubism"
+   ],
+   "answer": 0,
+   "explanation": "He named it Orphism, after the mythical musician Orpheus."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Windows series contains about twenty paintings made in 1912.",
+   "isTrue": true,
+   "explanation": "Delaunay painted them between spring and winter of that year."
+  },
+  {
+   "text": "This painting is a huge mural several meters wide.",
+   "isTrue": false,
+   "explanation": "With its frame it measures only about 46 by 40 centimeters."
+  },
+  {
+   "text": "Paul Klee translated Delaunay's essay on light into German.",
+   "isTrue": true,
+   "explanation": "Klee visited Delaunay in Paris and translated the text."
+  }
+ ]
+}

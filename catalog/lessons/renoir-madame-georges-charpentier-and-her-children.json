@@ -1,0 +1,315 @@
+{
+ "teaser": "Renoir was paid 1,000 francs for it. Twenty-nine years later it sold for 84,000.",
+ "focus": [
+  0.42,
+  0.35
+ ],
+ "review_notes": "Renoir's fee is usually given as 1,000 francs (his own recollection); the Met bought the painting at the Charpentier sale in 1907 for 84,000 francs through Roger Fry.\nChildren: Georgette (6) on the dog, Paul (3) on the sofa. Dog's name Porthos, a Newfoundland.\nGown by the House of Worth, according to the Met.\nPissarro's remark that Renoir had a big success at the Salon and was 'launched' is paraphrased from a letter of 1879.\nProust's passage is in Time Regained (comparison with Titian), paraphrased.\nCanvas size 153.7 x 190.2 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "84,000 francs. That is what the Metropolitan Museum paid for this family portrait in 1907, a sensational sum for a modern French picture. Renoir, who was still alive to hear the news, remembered receiving about 1,000 francs for painting it in 1878."
+  },
+  {
+   "type": "text",
+   "text": "The woman who commissioned it could change a painter's life. Marguerite Charpentier was married to Georges Charpentier, the publisher of Zola, Flaubert and Maupassant. On Fridays her Paris drawing room filled with writers, politicians, actresses and musicians. Renoir, 37 and often unable to pay for his paints, was one of her guests."
+  },
+  {
+   "type": "text",
+   "text": "She let him paint her at home with her two children, on a canvas about 1.9 meters wide (over 6 feet). The children wear identical pale blue dresses with white trim, and have the same long reddish curls. They are not, however, two daughters."
+  },
+  {
+   "type": "find",
+   "text": "One of these two children is a boy. Which one?",
+   "spots": [
+    {
+     "x": 0.37,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Paul, age three",
+     "text": "The child on the sofa is Paul Charpentier. In the 1870s, small boys of good families wore dresses and long hair until they were about five or six."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "His sister Georgette, who was six, turns her back to us to look at him. She has found a better seat than the sofa. She is perched sidesaddle on the family dog, who lies there with the patience of a very large animal used to very small children."
+  },
+  {
+   "type": "fact",
+   "text": "The dog was a Newfoundland called Porthos, after the biggest and strongest of the Three Musketeers in the novel by Alexandre Dumas. His black and white coat repeats, at floor level, the black and white of his mistress's gown."
+  },
+  {
+   "type": "text",
+   "text": "Everyone seems to have dropped down wherever they liked: a dog on the carpet, a girl on the dog, a boy on the cushions, a mother leaning back. That ease is an illusion. Renoir arranged the four of them along lines that an Old Master would have recognized."
+  },
+  {
+   "type": "lines",
+   "text": "The hidden order of a relaxed afternoon.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.43,
+       0.88
+      ],
+      [
+       0.19,
+       0.47
+      ],
+      [
+       0.37,
+       0.37
+      ],
+      [
+       0.49,
+       0.14
+      ]
+     ],
+     "closed": false,
+     "label": "The staircase of heads",
+     "text": "From the dog's head up to Georgette, then Paul, then their mother: four heads climb in steps from the bottom of the canvas to the top. Your eye reaches Madame Charpentier last."
+    },
+    {
+     "points": [
+      [
+       0.49,
+       0.08
+      ],
+      [
+       0.03,
+       0.95
+      ],
+      [
+       0.98,
+       0.74
+      ]
+     ],
+     "closed": true,
+     "label": "The pyramid",
+     "text": "The whole family fits inside one large triangle with the mother at its peak, the oldest formula for a stable, dignified group."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.28
+      ],
+      [
+       0.49,
+       0.22
+      ],
+      [
+       0.56,
+       0.43
+      ]
+     ],
+     "closed": false,
+     "label": "Her arms",
+     "text": "One arm stretches along the sofa behind the children like a railing. The other rests in her lap. Without touching them, she encloses them."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The black dress takes up almost a third of the picture. It was a gown from Worth, the most famous fashion house in Paris, and it ends in a train of white lace spread across the floor. Renoir treats black as a color, not a hole: it is shot through with blues and warm browns."
+  },
+  {
+   "type": "text",
+   "text": "Now leave the family and look at the room, because the room was a statement too. In the 1870s, fashionable Paris had fallen for everything Japanese, a craze the French called japonisme. Madame Charpentier's small sitting room was decorated to prove she was up to date."
+  },
+  {
+   "type": "tour",
+   "title": "A Japanese salon in Paris",
+   "text": "Three corners of the room where the fashion shows.",
+   "spots": [
+    {
+     "x": 0.12,
+     "y": 0.2,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The peacocks",
+     "text": "On the gold wall behind Georgette, two peacocks with long trailing tails, in the manner of a Japanese painted screen. Renoir brushes them in loosely, like a memory of the real thing."
+    },
+    {
+     "x": 0.73,
+     "y": 0.08,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The hanging picture",
+     "text": "High on the red wall, a narrow image of a single standing figure in a robe: a Japanese print or scroll, of the kind Parisian collectors were buying eagerly."
+    },
+    {
+     "x": 0.87,
+     "y": 0.26,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "Bamboo and still life",
+     "text": "A bamboo chair and table carry flowers in a blue and white jug, a dish of grapes and a glass decanter. This corner is a complete small painting inside the big one."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Japanese prints had been arriving in France since the country reopened to foreign trade in the 1850s. Painters loved their flat color and unexpected viewpoints. Notice how steeply Renoir tilts the floor here, so the carpet rises like a backdrop."
+  },
+  {
+   "type": "key",
+   "text": "This is a portrait of a way of life as much as of a family: the dress, the dog, the Japanese room all tell 1870s Paris who Madame Charpentier was."
+  },
+  {
+   "type": "text",
+   "text": "In 1879 Renoir made a choice that annoyed his friends. He skipped the Impressionists' own exhibition and sent this canvas to the Salon, the huge official show where a jury decided what the public saw. Madame Charpentier used her connections so that it would hang where nobody could miss it."
+  },
+  {
+   "type": "fact",
+   "text": "The gamble worked. The painter Camille Pissarro, who stayed loyal to the independent shows, wrote to a friend that Renoir was having a great success at the Salon and that he believed him to be launched at last."
+  },
+  {
+   "type": "text",
+   "text": "Launched is the right word. Wealthy families who would never have set foot in an Impressionist exhibition saw the portrait, admired it, and began asking Renoir to paint their wives and children. For the first time in his life, he could count on an income."
+  },
+  {
+   "type": "fact",
+   "text": "The novelist Marcel Proust knew the picture well. In the last volume of In Search of Lost Time, his narrator speaks of Renoir's portrait of the Charpentier family and judges it worthy of comparison with the finest works of Titian."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.16,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The hostess",
+     "text": "Dark curls, heavy eyelids, a calm half smile. She looks past the children toward something outside the picture, as a woman used to keeping an eye on a room full of guests."
+    },
+    {
+     "x": 0.24,
+     "y": 0.285,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "Hand and bracelets",
+     "text": "Her hand rests on the back of the sofa, gold bracelets at the wrist. It marks the far end of the protective arm stretched behind the children."
+    },
+    {
+     "x": 0.44,
+     "y": 0.88,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "Porthos",
+     "text": "The dog's eye rolls up toward you. His fur is the freest painting in the picture: long white and black strokes dragged wet across the canvas."
+    },
+    {
+     "x": 0.9,
+     "y": 0.7,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "The train",
+     "text": "White lace foams out from under the black skirt and runs along the floor. It balances the white of the children's dresses on the other side."
+    },
+    {
+     "x": 0.19,
+     "y": 0.5,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Georgette",
+     "text": "Seen in lost profile, meaning turned so far away that the face almost disappears. Renoir shows her attention to her brother instead of her features."
+    },
+    {
+     "x": 0.94,
+     "y": 0.95,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "Signature",
+     "text": "“Renoir. 78.” in the bottom right corner, small and dark on the pale carpet.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "When the Charpentier collection was sold in 1907, it was the English painter and critic Roger Fry, then a curator at the Metropolitan, who pushed the museum to buy. Few public collections dared to spend that kind of money on an Impressionist. The thousand-franc commission had become a museum's pride in less than thirty years."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who is the child sitting on the sofa?",
+   "options": [
+    "Georgette, the elder daughter",
+    "Paul, a three-year-old boy",
+    "A cousin visiting for the day"
+   ],
+   "answer": 1,
+   "explanation": "Paul wears a dress and long curls, as small boys of his class did then."
+  },
+  {
+   "question": "What does Georgette sit on?",
+   "options": [
+    "A Newfoundland dog",
+    "A bamboo stool",
+    "Her mother's lap"
+   ],
+   "answer": 0,
+   "explanation": "She is perched on Porthos, the family's Newfoundland."
+  },
+  {
+   "question": "What does the word japonisme describe?",
+   "options": [
+    "A technique of painting on silk",
+    "A Japanese school of portrait painting",
+    "The French craze for Japanese art and objects"
+   ],
+   "answer": 2,
+   "explanation": "The room's peacock decoration, hanging print and bamboo furniture all reflect that fashion."
+  },
+  {
+   "question": "Where was the painting shown in 1879?",
+   "options": [
+    "At the Impressionist exhibition",
+    "At the official Salon",
+    "In Charpentier's bookshop"
+   ],
+   "answer": 1,
+   "explanation": "Renoir skipped the Impressionist show and sent it to the Salon, where it was a success."
+  },
+  {
+   "question": "What was Georges Charpentier's profession?",
+   "options": [
+    "Publisher",
+    "Banker",
+    "Couturier"
+   ],
+   "answer": 0,
+   "explanation": "He published Zola, Flaubert and Maupassant."
+  },
+  {
+   "question": "Which shape organizes the family group?",
+   "options": [
+    "A circle",
+    "A row of parallel verticals",
+    "A large triangle with the mother at the top"
+   ],
+   "answer": 2,
+   "explanation": "Mother, children and dog fit inside one pyramid."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Both children in the portrait are girls.",
+   "isTrue": false,
+   "explanation": "The younger child on the sofa is a boy, Paul, dressed as small boys then were."
+  },
+  {
+   "text": "The Metropolitan Museum paid 84,000 francs for the painting in 1907.",
+   "isTrue": true,
+   "explanation": "That was far more than the roughly 1,000 francs Renoir had received in 1878."
+  },
+  {
+   "text": "The portrait was rejected by the Salon jury.",
+   "isTrue": false,
+   "explanation": "It was accepted, hung in a good place and brought Renoir a wave of commissions."
+  }
+ ]
+}

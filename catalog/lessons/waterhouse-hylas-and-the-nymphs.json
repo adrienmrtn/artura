@@ -1,0 +1,48 @@
+{
+  "teaser": "In 2018 a museum took it off the wall for a week. The empty space filled up with sticky notes.",
+  "focus": [0.47, 0.42],
+  "review_notes": "2018 removal: taken down 26 January 2018 during a gallery event with artist Sonia Boyce, rehung about a week later (3 February); postcards were also withdrawn from the shop. Please confirm dates.\nManchester bought the painting from the artist in 1896, the year it was painted.\nThe remark that the nymphs share one face (one or two models) is a common observation, not documented fact.\nDimensions approx. 98 x 163 cm.",
+  "lesson": [
+    {"type": "text", "text": "In January 2018, visitors to Manchester Art Gallery found a blank stretch of wall where this painting had hung for more than a century. It had been taken down during an evening event led by the artist Sonia Boyce. A notice asked people to stick up notes saying what they thought."},
+    {"type": "text", "text": "The gallery wanted a conversation about how Victorian pictures show women's bodies, as decoration or as danger. It got an uproar. Newspapers shouted censorship, the wall filled with handwritten notes for and against, and after about a week the painting was back. A picture from 1896 had started an argument about the present."},
+    {"type": "text", "text": "So what is actually going on in it? The young man is Hylas, a companion of the hero Heracles on the ship Argo. The crew lands for the night, and Hylas goes off alone with a pitcher to find fresh water. He finds a spring. The spring is inhabited."},
+    {"type": "find", "text": "Hylas came here for one practical reason. Can you find the object that proves it?", "spots": [{"x": 0.32, "y": 0.47, "zoom": 3.4, "r": 0.06, "title": "The pitcher", "text": "The clay water jug hangs from his left hand, tipped and forgotten, half hidden behind his own arm. He has stopped doing what he came to do."}]},
+    {"type": "text", "text": "In the Greek myth, the water nymphs fall for his beauty and pull him under. He is never seen again. Heracles searches the shore for so long that the Argo sails on without him. Waterhouse paints the last second in which Hylas could still stand up and walk away."},
+    {"type": "fact", "text": "Seven nymphs, and nearly one face. Same pale skin, same auburn hair, same dark eyes and small mouth. Waterhouse seems to have worked from only one or two models, and the repetition gives the group an eerie, cloned calm."},
+    {"type": "text", "text": "Notice whose face you get to see. Hylas turns away from us, his features in shadow. The nymphs are lit like pearls against the black water. And count where their eyes are pointing: the whole picture is built out of looks."},
+    {"type": "lines", "text": "Trace the gazes of the nymphs and see where they meet.", "lines": [
+      {"points": [[0.08, 0.36], [0.4, 0.3]], "closed": false, "label": "From the left", "text": "The nymph at the far left edge looks up and across at him. She closes the trap from behind: there are nymphs on both sides of Hylas."},
+      {"points": [[0.5, 0.45], [0.42, 0.29]], "closed": false, "label": "Face to face", "text": "The nearest nymph tilts her head back, her profile inches below his. This is the shortest line in the picture and the one that holds him."},
+      {"points": [[0.88, 0.55], [0.84, 0.45], [0.63, 0.4], [0.42, 0.29]], "closed": false, "label": "From the right", "text": "On the right, the gazes travel along the row of heads like a current, each nymph leaning the same way, all of it flowing toward the kneeling boy."}
+    ]},
+    {"type": "text", "text": "Nobody in this picture is struggling. That is what makes it unsettling, and what made it a target in 2018. The nymphs do not look wicked. They look curious, patient, a little solemn. The danger is entirely in what you know will happen next."},
+    {"type": "tour", "title": "How to take a man", "text": "The pulling has already begun, very politely. Watch the hands.", "spots": [
+      {"x": 0.33, "y": 0.57, "zoom": 3.4, "r": 0.06, "title": "Two hands on his arm", "text": "The nearest nymph holds his wrist with one hand and his elbow with the other. Her grip is soft, but his arm is already stretched down toward the water."},
+      {"x": 0.41, "y": 0.6, "zoom": 4, "r": 0.04, "title": "An offering", "text": "Behind her, another nymph holds out an open palm with a few tiny pearls in it. A gift, or bait."},
+      {"x": 0.36, "y": 0.78, "zoom": 2.8, "r": 0.08, "title": "From below", "text": "A third, seen from behind at the bottom of the canvas, reaches up to tug at his blue tunic. Three nymphs now have a hold on him."}
+    ]},
+    {"type": "text", "text": "Waterhouse shuts every exit. There is no sky anywhere, only the dark bank at the top, and the lily pads lie flat across the surface like a lid. The green-black water hides everything below the nymphs' waists. You cannot see how deep it is. Neither can Hylas."},
+    {"type": "fact", "text": "Manchester's gallery bought the canvas from Waterhouse in 1896, the same year he painted it. It has been one of the most popular pictures in the building ever since, which is why its week of absence made headlines."},
+    {"type": "explore", "spots": [
+      {"x": 0.545, "y": 0.495, "zoom": 4, "r": 0.04, "title": "Yellow lily", "text": "A yellow water lily is tucked into the nearest nymph's hair. The nymphs wear the pond's own flowers, as if they had grown out of it."},
+      {"x": 0.63, "y": 0.4, "zoom": 3, "r": 0.07, "title": "Arranging her hair", "text": "This nymph lifts both hands to her hair and looks straight at Hylas. Of the seven, she is the one who seems most aware of being looked at."},
+      {"x": 0.21, "y": 0.39, "zoom": 3.6, "r": 0.05, "title": "Red sash", "text": "The only strong red in the painting. It pins your eye to Hylas's waist, the point from which he is tipping forward."},
+      {"x": 0.89, "y": 0.52, "zoom": 2.4, "r": 0.1, "title": "Dressed in leaves", "text": "The two nymphs at the right hold lily leaves against themselves, and their bodies turn greenish where the water covers them."},
+      {"x": 0.95, "y": 0.11, "zoom": 3.4, "r": 0.05, "title": "Wild iris", "text": "Yellow flag irises bloom on the far bank. Waterhouse painted his pond plants with a botanist's care, which makes the fairy tale feel like a real place."}
+    ]},
+    {"type": "key", "text": "A painting can frighten you without showing anything frightening. Here the threat is built from gazes, gentle hands and water you cannot see into."},
+    {"type": "text", "text": "The sticky notes of 2018 are part of this picture's history now. Some called it a harmless fantasy, others a tired cliché of the deadly temptress. Both camps were looking at the same seven calm faces. Which reading do you find there?"}
+  ],
+  "quiz": [
+    {"question": "Why did Manchester Art Gallery remove the painting in 2018?", "options": ["It needed urgent restoration", "To prompt a debate about how women are shown in art", "It was lent to another museum"], "answer": 1, "explanation": "It came down during an event with artist Sonia Boyce and visitors were asked to leave notes."},
+    {"question": "Why did Hylas come to the spring?", "options": ["To fetch water with a pitcher", "To bathe after the voyage", "To hunt for Heracles"], "answer": 0, "explanation": "He was sent for fresh water, and the jug still hangs from his hand."},
+    {"question": "What is odd about the seven nymphs?", "options": ["They are all different ages", "None of them looks at Hylas", "They have almost the same face"], "answer": 2, "explanation": "Waterhouse seems to have used one or two models, so the nymphs look like copies of each other."},
+    {"question": "What does one nymph hold out in her open palm?", "options": ["A water lily", "A few pearls", "A gold ring"], "answer": 1, "explanation": "Tiny pearls rest in her hand, a gift or a lure."},
+    {"question": "How does Waterhouse make the pond feel like a trap?", "options": ["He leaves out the sky and hides the depth of the water", "He paints a storm overhead", "He shows bones on the bank"], "answer": 0, "explanation": "There is no sky, and the dark water conceals everything below the surface."}
+  ],
+  "facts": [
+    {"text": "In the myth, Hylas escapes and returns to the ship.", "isTrue": false, "explanation": "The nymphs pull him under and he is never seen again."},
+    {"text": "The gallery bought the painting the same year it was made.", "isTrue": true, "explanation": "Manchester acquired it from Waterhouse in 1896."},
+    {"text": "Hylas's face is the best-lit one in the picture.", "isTrue": false, "explanation": "He turns away in shadow, while the nymphs' faces are brightly lit."}
+  ]
+}

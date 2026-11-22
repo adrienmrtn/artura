@@ -1,0 +1,52 @@
+{
+  "teaser": "A god of love who grins like a teenager caught sneaking out at dawn.",
+  "focus": [0.26, 0.29],
+  "review_notes": "Painted in Brussels for the Italian collector Count Giovanni Battista Sommariva; shown in Brussels in 1817 before being sent to him: check.\nGros's criticism of Cupid's faun-like head is paraphrased, not quoted: check source.\nDavid's body was refused burial in France in 1825; his heart was later placed at Pere Lachaise in Paris: check.\nSignature on the bed end reads L. DAVID 1817 BRUXELLES (legible in the image).\nSize 184 x 242 cm. Cleveland acquisition 1962 (not stated in lesson).",
+  "lesson": [
+    {"type": "text", "text": "In 1817 Jacques-Louis David was sixty-eight, famous, and banned from his own country. As a deputy during the French Revolution he had voted for the death of King Louis XVI. Later he became Napoleon's official painter. When the king's family returned to the throne, men like him were ordered out of France. He settled in Brussels and never went back."},
+    {"type": "text", "text": "Exile had one advantage. For forty years David had painted for causes: stern Roman heroes for the Revolution, coronations for the Emperor. In Brussels nobody was watching. An Italian collector, Count Sommariva, asked him for a love story from ancient myth, and the old man took it somewhere unexpected."},
+    {"type": "text", "text": "The myth first. Psyche is a mortal so beautiful that Cupid, god of love, falls for her. He visits her every night on one condition: she must never see his face. So each morning, before the light comes, he slips away. David paints that morning exit."},
+    {"type": "lines", "text": "Two bodies, two directions. Watch how the picture splits them.", "lines": [
+      {"points": [[0.36, 0.3], [0.55, 0.45], [0.85, 0.58]], "closed": false, "label": "She stays", "text": "Psyche's body runs along the bed in one long, calm slope from her head to her crossed feet. Everything about her is horizontal: sleep, trust, stillness."},
+      {"points": [[0.25, 0.27], [0.33, 0.55], [0.4, 0.93]], "closed": false, "label": "He leaves", "text": "Cupid's line drops almost straight down, from his curls to the foot already planted on the floor. He is half out of bed while still leaning on it."},
+      {"points": [[0.74, 0.19], [0.5, 0.33], [0.3, 0.4]], "closed": false, "label": "The deadline", "text": "Through the window the sky is turning pale over the hills. Daylight is on its way into the room, and it is the reason he has to go."}
+    ]},
+    {"type": "text", "text": "So far, a tender scene. Other painters of the time made this couple weightless and dreamy, two marble statues in a kiss. David's Psyche fits that tradition: pearly skin, a perfect profile. Then your eye reaches the boy beside her, and the mood changes."},
+    {"type": "tour", "title": "Not quite a god", "text": "Compare the two faces, then see what his hand is doing.", "spots": [
+      {"x": 0.36, "y": 0.29, "zoom": 3.2, "r": 0.07, "title": "Psyche asleep", "text": "Eyes shut, cheeks flushed, an arm thrown over her head. She is smooth and ideal, painted the way ancient statues taught artists to paint beauty."},
+      {"x": 0.25, "y": 0.27, "zoom": 3.2, "r": 0.08, "title": "Cupid's grin", "text": "Red cheeks, tousled hair, a smirk aimed straight at you. This is a real adolescent, a little too pleased with himself. He makes you his accomplice."},
+      {"x": 0.45, "y": 0.52, "zoom": 3, "r": 0.08, "title": "The careful hand", "text": "His fingers close around her arm, which lies across his lap. He is lifting it off, slowly, so he can stand up without waking her."}
+    ]},
+    {"type": "key", "text": "David puts an ideal body and a real one in the same bed. The clash is deliberate: love as the poets tell it, next to love as it actually behaves."},
+    {"type": "text", "text": "Viewers in 1817 felt that jolt and many disliked it. David's own former pupil, the painter Gros, complained that Cupid's head looked like a faun, the half-wild creature of the woods, and that his hands were coarse. People expected a god. They got a boy with tanned arms next to a porcelain girl."},
+    {"type": "fact", "text": "In ancient Greek, the word psyche means both “soul” and “butterfly.” Artists have used the insect as Psyche's emblem for more than two thousand years."},
+    {"type": "find", "text": "David knew the double meaning. A pale butterfly is flying somewhere in this bedroom. Can you spot it?", "spots": [
+      {"x": 0.365, "y": 0.125, "zoom": 4, "r": 0.04, "shape": "arrow", "title": "The soul, awake", "text": "It hovers against the dark red curtain, just above the sleeping girl. Her body sleeps, but her soul is up and watching. Later in the myth, she will light a lamp to see who her lover is."}
+    ]},
+    {"type": "text", "text": "The butterfly turns a bedroom joke into something less comfortable. Psyche will soon break the rule, look at Cupid by lamplight, and lose him for a long time. The grinning boy thinks he is getting away with it. The small white wings say that someone is already paying attention."},
+    {"type": "text", "text": "Now consider how the picture is made. David was the leader of Neoclassicism, a style that looked back to Greek and Roman art for clear outlines, smooth surfaces and serious subjects. You will not find a visible brushstroke here. The bed is copied from ancient furniture, down to its gilded stars."},
+    {"type": "explore", "spots": [
+      {"x": 0.92, "y": 0.62, "zoom": 3.6, "r": 0.06, "title": "Signed from exile", "text": "On the curved end of the bed, in gold letters: L. DAVID 1817 BRUXELLES. He writes the name of the city of his banishment into the furniture."},
+      {"x": 0.51, "y": 0.815, "zoom": 4, "r": 0.05, "title": "A second butterfly", "text": "On the blue panel of the bed frame, a golden butterfly sits inside a ring of tiny stars. Psyche's emblem again, this time as decoration."},
+      {"x": 0.47, "y": 0.8, "zoom": 2.4, "r": 0.11, "title": "The bow", "text": "Cupid's weapon leans against the bed, its string slack. The archer who makes others fall in love is, for once, off duty."},
+      {"x": 0.13, "y": 0.31, "zoom": 2.4, "r": 0.1, "title": "Crushed wings", "text": "His gray-white wings are squashed against the pillows behind him. They look heavy and feathered, like a goose's, not like a spirit's."},
+      {"x": 0.74, "y": 0.17, "zoom": 2.4, "r": 0.12, "title": "Daybreak", "text": "Twin peaks, a small temple, and a streak of orange low in the sky. The sun has not risen yet. He has minutes."},
+      {"x": 0.6, "y": 0.2, "zoom": 1.8, "r": 0.2, "title": "The red canopy", "text": "A wall of deep red velvet shuts the lovers in and pushes their pale bodies forward. It is also what makes the tiny butterfly visible."}
+    ]},
+    {"type": "text", "text": "The canvas is big: about 1.84 by 2.42 meters (6 by 8 feet). The figures are life size, which is part of the shock. A wink that would be charming in a small picture becomes hard to ignore when the boy is as large as you are and looking you in the eye."},
+    {"type": "fact", "text": "David died in Brussels in 1825. The French government refused to let his body come home for burial. Only his heart was eventually laid to rest in Paris."},
+    {"type": "text", "text": "For a long time critics treated the Brussels paintings as the weak work of a tired man. Today the judgment has flipped. That awkward, knowing Cupid looks like an artist of nearly seventy still testing how much reality the grand style could take. Is he mocking the myth, or telling the truth about it?"}
+  ],
+  "quiz": [
+    {"question": "Why was David living in Brussels in 1817?", "options": ["He had been banished from France for voting for the king's death", "He was the Belgian court painter", "He was hiding from creditors"], "answer": 0, "explanation": "The restored monarchy exiled those who had voted to execute Louis XVI."},
+    {"question": "What must Psyche never do, according to the myth?", "options": ["Leave the palace", "See Cupid's face", "Speak his name"], "answer": 1, "explanation": "Cupid visits only at night and leaves before dawn so she cannot see him."},
+    {"question": "What does the Greek word psyche mean?", "options": ["Love and arrow", "Dawn and sleep", "Soul and butterfly"], "answer": 2, "explanation": "That double meaning is why a butterfly flies above the sleeping girl."},
+    {"question": "What bothered viewers about David's Cupid?", "options": ["He looked like a real, coarse adolescent and not a god", "He was shown without wings", "He was painted too small"], "answer": 0, "explanation": "Gros compared his head to a faun's and found his hands coarse."},
+    {"question": "What did David write on the end of the bed?", "options": ["A line of Latin poetry", "His name, the year and Brussels", "The collector's coat of arms"], "answer": 1, "explanation": "The gold letters read L. DAVID 1817 BRUXELLES."}
+  ],
+  "facts": [
+    {"text": "Cupid looks down tenderly at Psyche in this painting.", "isTrue": false, "explanation": "He looks straight out at the viewer with a grin."},
+    {"text": "The figures are painted about life size.", "isTrue": true, "explanation": "The canvas measures about 1.84 by 2.42 meters."},
+    {"text": "David returned to Paris in triumph a few years after painting it.", "isTrue": false, "explanation": "He never went back and died in Brussels in 1825."}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "teaser": "A painting made of dots hung in a friend's dining room, where a young Matisse came to stare at it.",
+  "focus": [0.47, 0.5],
+  "review_notes": "Claim that the painting hung in Paul Signac's dining room at his villa La Hune in Saint-Tropez and that Matisse saw it there in summer 1904: widely repeated, please double-check.\nShown at the Salon des Indépendants in 1894 (the catalog gives 1893 as the year; the work is often dated 1893-94).\nDimensions given as about 116 x 165 cm.\nGift to the French state by Signac's daughter Ginette in 1976.\nCross's move south in 1891 linked to rheumatism.",
+  "lesson": [
+    {"type": "text", "text": "Picture a dining room in Saint-Tropez around 1900. The house belongs to the painter Paul Signac, and this canvas, more than a meter and a half wide (about 65 inches), glows on the wall above the guests. Its maker, Henri-Edmond Cross, lives a short ride down the same coast. He gave it to his friend, and for years it was seen mostly by people who came to dinner."},
+    {"type": "text", "text": "Cross had moved to the Mediterranean in 1891, partly for his health: damp Paris winters were hard on his aching joints. He settled near the village of Le Lavandou, among umbrella pines and pink evenings. What he painted there was less a report on the coast than a dream of it, a place where nobody works and the day never quite ends."},
+    {"type": "fact", "text": "Cross was born Henri-Edmond Delacroix. Sharing a surname with Eugène Delacroix, the most famous French painter of the century, was a problem for a beginner. So he translated a shortened version of it, “croix”, into English and signed himself Cross."},
+    {"type": "text", "text": "Up close, the surface falls apart into thousands of separate touches of paint. This method is called divisionism, or pointillism: instead of mixing orange on the palette, the painter sets small dabs of pure color side by side and lets your eye do the blending from a distance. Georges Seurat invented it in the 1880s. Cross adopted it the year Seurat died."},
+    {"type": "tour", "title": "How the dots behave", "text": "The dots are not all the same. Follow three places where Cross changes their job.", "spots": [
+      {"x": 0.47, "y": 0.5, "zoom": 2.4, "r": 0.1, "shape": "rect", "title": "The woman at the center", "text": "She lifts her arms to her hair or a veil. Her dress is built from green, blue and yellow dabs with no outline drawn around them: the edge of the figure is simply where the colors change."},
+      {"x": 0.76, "y": 0.3, "zoom": 2.6, "r": 0.09, "title": "Sails of light", "text": "The sails are barely darker than the sky. Pale orange dots sit among cream ones, so the boats seem made of the same air they sail through."},
+      {"x": 0.5, "y": 0.92, "zoom": 2.2, "r": 0.16, "title": "The ground", "text": "In the foreground the touches grow bigger and looser. Violet and orange lie side by side: opposite colors that make each other look brighter, which gives the sand its shimmer."}
+    ]},
+    {"type": "text", "text": "Those violet shadows beside orange light are the engine of the whole picture. Painters call such pairs complementary colors: placed next to each other, each makes the other more intense. Cross uses the pair everywhere, from the hill behind the trees to the path at the women's feet, and that is why the evening seems warm instead of dim."},
+    {"type": "key", "text": "A divisionist painting is mixed twice: once by the painter, dab by dab, and once by you, every time you step back from it."},
+    {"type": "text", "text": "The stillness is no accident either. Dots alone would make a blur. Cross holds them in place with a firm scaffolding of straight and curved lines, the way a mosaic needs its wall."},
+    {"type": "lines", "text": "Three kinds of line keep this shimmering surface calm.", "lines": [
+      {"points": [[0.39, 0.0], [0.4, 0.55]], "closed": false, "label": "The trunks", "text": "Pine trunks rise like the bars of a screen, from the left edge to the middle. Their repeated verticals slow your eye and give the scene the quiet of a colonnade."},
+      {"points": [[0.0, 0.24], [0.2, 0.18], [0.36, 0.2], [0.52, 0.26], [0.66, 0.34]], "closed": false, "label": "The hill", "text": "Behind the trunks, one long curve of orange hillside slides down toward the sea. It links the wooded left half to the open right half."},
+      {"points": [[0.72, 0.43], [1.0, 0.42]], "closed": false, "label": "The horizon", "text": "A flat line of water, placed just below the middle. Everything restless, the sails, the branches, is measured against this resting level."}
+    ]},
+    {"type": "text", "text": "Notice how little happens inside that frame. Women rest, talk, arrange their hair. Their long dresses belong to no particular century. Cross admired the murals of Pierre Puvis de Chavannes, who filled public buildings with pale, timeless figures in ideal landscapes, and he borrowed that mood for a far brighter palette."},
+    {"type": "find", "text": "One of the women holds something up, as if to show it to her companion. Can you spot what she has picked?", "spots": [
+      {"x": 0.26, "y": 0.65, "zoom": 3.4, "r": 0.06, "title": "A small bouquet", "text": "The reclining woman on the left raises a sprig of pink and blue flowers. It is the only “event” in the painting: a gesture of idle pleasure, with nothing to hurry it."}
+    ]},
+    {"type": "fact", "text": "Several friends of Cross and Signac were anarchists, and their sunny shores carried a political hope: a future society of leisure and harmony, without bosses or factories. Signac painted a huge canvas on that theme and titled it “In the Time of Harmony”."},
+    {"type": "text", "text": "In the summer of 1904 a painter in his thirties, short of money and unsure of his direction, rented a house in Saint-Tropez and visited Signac. His name was Henri Matisse. That same year he painted “Luxe, Calme et Volupté”: nude bathers on a shore, a pine at the edge, a boat, all in separate strokes of pure color. The debt to the picture in the dining room is hard to miss."},
+    {"type": "text", "text": "Within a year Matisse dropped the dots and kept the color, launching the wild style critics nicknamed Fauvism. Cross died in 1910, at 53. Signac's daughter gave “The Evening Air” to the French state in 1976, and the dinner guests of Saint-Tropez were replaced by the crowds of the Musée d'Orsay."}
+  ],
+  "quiz": [
+    {"question": "Why did Henri-Edmond Delacroix start signing his pictures “Cross”?", "options": ["To avoid confusion with the famous painter Eugène Delacroix", "Because he had moved to England", "Because his dealer demanded a shorter name"], "answer": 0, "explanation": "He translated a shortened form of his surname, “croix”, into English to stand apart from Eugène Delacroix."},
+    {"question": "In divisionism, where does the mixing of colors mostly take place?", "options": ["On the palette, before painting", "In a layer of varnish", "In the viewer's eye, from a distance"], "answer": 2, "explanation": "Small dabs of pure color are set side by side and blend when you step back."},
+    {"question": "Which pair of opposite colors does Cross use throughout to make the evening glow?", "options": ["Red and green", "Violet and orange", "Black and white"], "answer": 1, "explanation": "Violet shadows next to orange light intensify each other."},
+    {"question": "What gives this shimmering picture its sense of calm?", "options": ["A dark, heavy frame painted on the canvas", "A structure of vertical trunks, a curving hill and a flat horizon", "A single large figure looking at the viewer"], "answer": 1, "explanation": "Repeated verticals, one long curve and a level horizon hold the dots in order."},
+    {"question": "Which younger painter was marked by this work during a summer in Saint-Tropez?", "options": ["Henri Matisse", "Pablo Picasso", "Claude Monet"], "answer": 0, "explanation": "Matisse painted “Luxe, Calme et Volupté” in 1904 after his stay near Signac."}
+  ],
+  "facts": [
+    {"text": "Cross invented the technique of painting with small separate dots of color.", "isTrue": false, "explanation": "Georges Seurat invented it in the 1880s; Cross adopted it in 1891."},
+    {"text": "The women's dresses in the painting belong to no particular century.", "isTrue": true, "explanation": "Cross wanted a timeless, ideal scene, in the spirit of Puvis de Chavannes."},
+    {"text": "Cross moved to the Mediterranean coast in 1891, partly for his health.", "isTrue": true, "explanation": "Paris winters were hard on his joints, so he settled near Le Lavandou."}
+  ]
+}

@@ -1,0 +1,155 @@
+{
+ "teaser": "A boy, a flute, and nothing behind him. The jury said no.",
+ "focus": [
+  0.5,
+  0.22
+ ],
+ "review_notes": "Manet's letter about Velázquez's portrait of the actor Pablo de Valladolid (background disappears, air surrounds the figure) is paraphrased, not quoted.\nThe boy as a young musician of the Imperial Guard brought to the studio by Commandant Lejosne: traditional account.\nZola leaving L'Événement after his articles defending Manet: please confirm wording.\nCamondo bequest to the Louvre in 1911.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "One note. That is all this painting holds. The boy's lips are pressed to the fife, his fingers are down on the holes, his cheeks are a little flushed. A fraction of a second later the note will change and his fingers will move. Manet stops the tune right there."
+  },
+  {
+   "type": "text",
+   "text": "And then he removes everything else. No parade ground, no barracks, no floor line, no wall. A fife is a small, shrill military flute, and this boy belonged to the band of the Imperial Guard. An officer friend of Manet's brought him to the studio in his uniform."
+  },
+  {
+   "type": "text",
+   "text": "The idea came from Madrid. In 1865 Manet visited the Prado museum and was stunned by a Velázquez portrait of an actor standing in empty space. He wrote to a friend that the background disappears, and that it is simply air that surrounds the man. A year later he tried it himself."
+  },
+  {
+   "type": "tour",
+   "title": "How little it takes",
+   "text": "Three places where Manet does a lot with almost nothing.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.21,
+     "zoom": 3,
+     "r": 0.11,
+     "title": "The face",
+     "text": "Lit from the front, so it has almost no shadows. Two dark eyes, pink cheeks, one pale ear. The boy looks at you while he plays, and gives nothing away."
+    },
+    {
+     "x": 0.48,
+     "y": 0.36,
+     "zoom": 2.4,
+     "r": 0.2,
+     "title": "The black jacket",
+     "text": "A single flat patch of black. No folds, hardly any modeling, meaning the gradual shading that makes a shape look round. Only the brass buttons tell you there is a chest under it."
+    },
+    {
+     "x": 0.56,
+     "y": 0.895,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The only shadow",
+     "text": "A smudge of grey between the shoes. It is the one clue that a floor exists. Take it away and the boy would float."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Manet builds the figure from flat areas of color with sharp edges, like cut paper: black, red, white, a little gold. He learned this boldness from Spanish painting and from the Japanese prints then arriving in Paris."
+  },
+  {
+   "type": "fact",
+   "text": "The jury of the 1866 Salon rejected the painting. One mocking comparison stuck for years: the fifer looked like a figure from a playing card."
+  },
+  {
+   "type": "text",
+   "text": "A young journalist disagreed. Émile Zola, not yet a famous novelist, wrote in a daily paper that Manet's place was marked out in the Louvre and praised this very canvas. Readers protested so loudly that Zola soon stopped writing for the paper. He and Manet became friends."
+  },
+  {
+   "type": "text",
+   "text": "With no setting to describe, Manet could spend his attention on a few objects. The uniform is painted broadly, but its accessories are sharp and bright. One of them hangs at the boy's side, and it is not a weapon."
+  },
+  {
+   "type": "find",
+   "text": "Where does the boy keep his fife when he is not playing?",
+   "spots": [
+    {
+     "x": 0.35,
+     "y": 0.44,
+     "zoom": 2.6,
+     "r": 0.1,
+     "shape": "rect",
+     "title": "The brass case",
+     "text": "A long brass tube hangs from the white strap across his chest. Its yellow answers the gold on the cap, and both glow against the black and red."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is about 1.6 meters tall (5 feet 3 inches), so the boy is roughly life size. A full-length portrait at that scale was a format for kings and generals, not for an anonymous child from the band."
+  },
+  {
+   "type": "text",
+   "text": "The painting stayed unsold for years. The collector Isaac de Camondo eventually bought it and left it to the Louvre in 1911. Zola had been right, 45 years early."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the note he is playing. You still cannot hear it, and you never learn his name. What you get is a kid in a uniform slightly too big for him, holding one sound in the air."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which painter gave Manet the idea of a figure surrounded only by air?",
+   "options": [
+    "Velázquez",
+    "Rembrandt",
+    "Raphael"
+   ],
+   "answer": 0,
+   "explanation": "Manet saw his portrait of an actor in empty space at the Prado in 1865."
+  },
+  {
+   "question": "What is the only sign that the boy is standing on a floor?",
+   "options": [
+    "A line where the wall meets the ground",
+    "A small shadow between his shoes",
+    "A carpet under his feet"
+   ],
+   "answer": 1,
+   "explanation": "The grey smudge by his feet is the single hint of a ground."
+  },
+  {
+   "question": "What did the Salon jury of 1866 do with the painting?",
+   "options": [
+    "Awarded it a medal",
+    "Hung it in the main room",
+    "Rejected it"
+   ],
+   "answer": 2,
+   "explanation": "The jury turned it down, and critics compared it to a playing card."
+  },
+  {
+   "question": "Who defended the painting in the press?",
+   "options": [
+    "Charles Baudelaire",
+    "Émile Zola",
+    "Victor Hugo"
+   ],
+   "answer": 1,
+   "explanation": "Zola wrote that Manet's place was marked out in the Louvre."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The boy in The Fifer stands in front of a detailed barracks courtyard.",
+   "isTrue": false,
+   "explanation": "The background is empty grey, with no setting at all."
+  },
+  {
+   "text": "The brass tube at the boy's side is a case for his fife.",
+   "isTrue": true,
+   "explanation": "It hangs from the white strap across his chest."
+  },
+  {
+   "text": "The Salon jury of 1866 accepted The Fifer and gave it a place of honor.",
+   "isTrue": false,
+   "explanation": "The jury rejected it; it reached the Louvre only in 1911."
+  }
+ ]
+}

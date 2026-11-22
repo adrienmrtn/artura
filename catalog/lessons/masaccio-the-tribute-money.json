@@ -1,0 +1,312 @@
+{
+ "teaser": "One wall, one story told three times, and the day painting learned to cast shadows.",
+ "focus": [
+  0.42,
+  0.48
+ ],
+ "review_notes": "Size given as about 2.5 x 6 m (255 x 598 cm): sources vary by a few cm.\nThe count of 32 giornate (day-patches) comes from the 1980s restoration reports.\nAttribution of Christ's head to Masolino is a common but debated hypothesis; presented as such.\nLink between the subject and the Florentine catasto tax of 1427 is a hypothesis; presented as such.\nThe Torrigiano / Michelangelo broken-nose story takes place in this chapel according to Cellini and Vasari.\nPerspective lines in the 'lines' block are approximate, drawn from the canopy and the steps of the building toward Christ's head.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This picture cannot be moved. It is a fresco, which means the colors were brushed into wet plaster and are now part of the wall itself. The wall is big: about 2.5 meters high and almost 6 meters wide (8 by 20 feet), in a narrow chapel in Florence where you stand quite close to it."
+  },
+  {
+   "type": "text",
+   "text": "Fresco is unforgiving. Plaster dries within hours, so the painter spreads only as much as he can finish that day. Masaccio was about 24 when he climbed the scaffold here around 1425, and what he did on this wall is usually counted among the first truly Renaissance paintings."
+  },
+  {
+   "type": "fact",
+   "text": "Restorers can still read the seams between the daily patches of plaster. They counted 32 of them here. In other words, this whole scene took roughly a month of working days, with many of the heads given a day each."
+  },
+  {
+   "type": "text",
+   "text": "The subject is a small episode from the Gospel of Matthew. In the town of Capernaum, a tax collector stops Christ and his apostles and demands the temple tax. Christ sends Peter to the lake: the first fish he catches will have a coin in its mouth. Masaccio shows all of it at once, and Peter appears three times."
+  },
+  {
+   "type": "tour",
+   "title": "One story, three moments",
+   "text": "Follow Peter, the gray-haired apostle in blue with an orange-yellow cloak.",
+   "spots": [
+    {
+     "x": 0.36,
+     "y": 0.52,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The order is given",
+     "text": "Center. Christ, in pink and blue, points toward the lake. Peter, just left of him with a gray beard, repeats the gesture with his own arm, frowning as if to say: there, really?"
+    },
+    {
+     "x": 0.045,
+     "y": 0.66,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The catch",
+     "text": "Far left. Peter has thrown off his cloak, which lies on the shore behind him, and crouches at the water's edge over the fish. He is tiny: this moment is pushed far away."
+    },
+    {
+     "x": 0.82,
+     "y": 0.56,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "The payment",
+     "text": "Right. Peter, cloak back on, presses the coin into the hand of the tax collector in the short red tunic. The story ends on a plain handshake of money."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "You just read the wall in the order middle, left, right. That is unusual, and deliberate. Putting several moments of one story inside a single view is called continuous narrative. Medieval painters did it too, but Masaccio hides the trick inside a landscape so believable that you may not notice Peter is there three times."
+  },
+  {
+   "type": "text",
+   "text": "What struck Florentines was how heavy these men look. Their cloaks hang in thick folds, their feet press on the ground, and each face is a different person with a different mood. To get there, Masaccio lit them the way real things are lit, from one side only. One man in the central group is treated differently from all the others."
+  },
+  {
+   "type": "find",
+   "text": "Thirteen men stand in the central circle. Twelve wear a golden halo. Tap the one who has none.",
+   "spots": [
+    {
+     "x": 0.52,
+     "y": 0.5,
+     "zoom": 2.6,
+     "r": 0.07,
+     "title": "The tax collector",
+     "text": "He turns his back to us, in a short orange tunic with bare legs, the street clothes of Masaccio's own time. The apostles wear timeless robes. His open hands say: so, who pays?",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That back is a clever idea. Standing between you and Christ, the tax collector closes the circle and puts you in his place, facing the apostles. Now check the halos around him. They are no longer flat gold disks stuck behind the heads. Masaccio tilts them like plates, so they obey the same space as the bodies."
+  },
+  {
+   "type": "fact",
+   "text": "Masaccio is a nickname. He was born Tommaso, shortened to Maso, and the ending “-accio” means something like big, clumsy or messy. According to the biographer Vasari, he cared so little about clothes, money and manners that the name stuck. He died in Rome at about 26."
+  },
+  {
+   "type": "text",
+   "text": "The light comes from the right, exactly where the chapel's real window is. So the painted men seem lit by the same daylight as the visitors. Behind them stands a building, and it is not there only as scenery. A few years earlier the architect Brunelleschi had worked out a geometric rule for drawing depth. Masaccio applies it here."
+  },
+  {
+   "type": "lines",
+   "text": "Perspective is the rule that makes parallel lines appear to meet at one point in the distance. Watch where this building's lines go.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.86,
+       0.165
+      ],
+      [
+       0.425,
+       0.435
+      ]
+     ],
+     "closed": false,
+     "label": "The canopy",
+     "text": "Extend the edge of the tiled canopy leftward, away from the building. It runs downhill straight to one spot in the crowd."
+    },
+    {
+     "points": [
+      [
+       0.93,
+       0.86
+      ],
+      [
+       0.425,
+       0.435
+      ]
+     ],
+     "closed": false,
+     "label": "The steps",
+     "text": "The edge of the steps climbs toward the same spot. Both lines meet on the face of Christ. The geometry points at him as surely as the story does."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.43
+      ],
+      [
+       0.92,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "A row of heads",
+     "text": "Nearly every head sits on this one level, the eye level of the scene. Figures farther away get shorter from the feet up, not from the head down."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the calm man in the middle is also the mathematical center of the wall. Geometry stops at the mountains, though, and another method takes over there. The far slopes turn pale and bluish, and the bare trees shrink as they march back. This fading with distance is called aerial perspective, and almost nobody was painting it in 1425."
+  },
+  {
+   "type": "key",
+   "text": "Masaccio treats a painted wall as a window onto a space with one light, one viewpoint and real weight. Painters would build on those three things for the next four hundred years."
+  },
+  {
+   "type": "text",
+   "text": "One face here may not be his. Masaccio shared the chapel job with an older, gentler painter called Masolino, and many specialists think Masolino painted the soft, regular head of Christ. Compare it with the rough, weathered apostles around it and the idea becomes easy to believe. It remains a hypothesis."
+  },
+  {
+   "type": "fact",
+   "text": "In 1771 a fire swept through the church. The chapel survived, but smoke and later coats of varnish left the frescoes brown and dull for two centuries. A cleaning in the 1980s brought back the pinks, oranges and greens you see in this image."
+  },
+  {
+   "type": "text",
+   "text": "Why paint a tax story at all? The chapel belonged to the Brancacci, a family of silk merchants. In those same years Florence was arguing over a new income tax, introduced in 1427. A scene in which even Christ agrees to pay may have carried a message for the city. No document proves it."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.425,
+     "y": 0.44,
+     "zoom": 3.8,
+     "r": 0.045,
+     "title": "Christ's face",
+     "text": "Smooth, even, almost sweet. This is the head often given to Masolino, and it is also the point where the perspective lines meet."
+    },
+    {
+     "x": 0.29,
+     "y": 0.45,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Peter's doubt",
+     "text": "Thick gray hair, knitted brow. His arm copies Christ's gesture while his face still seems to argue with the order."
+    },
+    {
+     "x": 0.215,
+     "y": 0.44,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The white beard",
+     "text": "An old apostle with a long forked beard and a turned-down mouth. Each head in the row is an individual, which was new."
+    },
+    {
+     "x": 0.48,
+     "y": 0.42,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The young apostle",
+     "text": "Blond and beardless, traditionally identified as John. His calm profile sits beside Christ like a quiet pause in a row of frowns."
+    },
+    {
+     "x": 0.3,
+     "y": 0.28,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "Bare trees and peaks",
+     "text": "The trees get smaller with distance and the mountains go pale. Depth here is made with size and color, not with lines."
+    },
+    {
+     "x": 0.84,
+     "y": 0.66,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "Two hands, one coin",
+     "text": "The whole miracle ends in this small exchange. Peter does not even look pleased. The tax collector leans on his staff."
+    },
+    {
+     "x": 0.69,
+     "y": 0.42,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The loggia",
+     "text": "A plain open porch with round arches, the kind of building Brunelleschi was then inventing for Florence.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "For the next century, young artists treated this chapel as a classroom. They came to copy the figures and learn how a body can be made to stand in space. Leonardo and Raphael studied here. So did a teenager named Michelangelo, whose early drawing after Peter paying the coin still exists."
+  },
+  {
+   "type": "fact",
+   "text": "That teenager paid for his lessons. According to the sculptors Cellini and Vasari, it was while drawing in this chapel that Michelangelo mocked a fellow student, Pietro Torrigiano, once too often. Torrigiano punched him and broke his nose, which stayed crooked for life."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How many times does Peter appear in this fresco?",
+   "options": [
+    "Once",
+    "Twice",
+    "Three times"
+   ],
+   "answer": 2,
+   "explanation": "He receives the order in the center, catches the fish at left and pays at right."
+  },
+  {
+   "question": "Which figure in the central group has no halo?",
+   "options": [
+    "The tax collector seen from behind",
+    "The young blond apostle",
+    "Peter"
+   ],
+   "answer": 0,
+   "explanation": "The tax collector wears a short tunic of Masaccio's day and no halo."
+  },
+  {
+   "question": "Where do the lines of the building meet?",
+   "options": [
+    "On the lake",
+    "On the face of Christ",
+    "On the coin"
+   ],
+   "answer": 1,
+   "explanation": "The canopy and the steps both point to Christ's head."
+  },
+  {
+   "question": "What is a fresco?",
+   "options": [
+    "A painting on canvas with oil",
+    "A painting on a wooden panel",
+    "A painting made in wet plaster on a wall"
+   ],
+   "answer": 2,
+   "explanation": "The colors are brushed into fresh plaster and become part of the wall."
+  },
+  {
+   "question": "What is aerial perspective?",
+   "options": [
+    "Showing a scene from above",
+    "Making distant things paler and bluer",
+    "Painting clouds with gold"
+   ],
+   "answer": 1,
+   "explanation": "The far mountains fade in color to suggest distance."
+  },
+  {
+   "question": "Where does the painted light come from?",
+   "options": [
+    "From the same side as the chapel's real window",
+    "From the halos",
+    "From the lake on the left"
+   ],
+   "answer": 0,
+   "explanation": "Masaccio matched the painted light to the window on the right."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The story in the picture is read simply from left to right.",
+   "isTrue": false,
+   "explanation": "It starts in the center, jumps to the far left, then finishes on the right."
+  },
+  {
+   "text": "Restorers counted 32 daily patches of plaster in this scene.",
+   "isTrue": true,
+   "explanation": "Each patch is one working day, so the scene took about a month."
+  },
+  {
+   "text": "Masaccio lived to old age and trained Michelangelo himself.",
+   "isTrue": false,
+   "explanation": "He died at about 26; Michelangelo studied his frescoes decades later."
+  }
+ ]
+}

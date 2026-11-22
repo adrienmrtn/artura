@@ -1,0 +1,41 @@
+{
+  "teaser": "One second before the universe gets its first straight line.",
+  "focus": [0.52, 0.42],
+  "review_notes": "Thirteen known copies of 'Europe a Prophecy' is the figure I recall; the exact count of surviving impressions of this frontispiece varies by source.\nSheet/image size given as about 23 x 17 cm: check against the British Museum record for this impression.\nThe staircase vision at Hercules Buildings, Lambeth, is reported by J. T. Smith (1828).\nThe deathbed copy colored for Frederick Tatham in 1827 is usually identified with the impression in the Whitworth, Manchester, not this British Museum one.\nThe figure uses his left arm in the print; scholars often note this, but its meaning is debated.\nBlake credited the relief-etching method to a vision of his dead brother Robert (reported by early biographers).",
+  "lesson": [
+    {"type": "text", "text": "Nothing exists yet. No ground, no horizon, no up or down. A naked old man leans out of a burning disk and lowers an open compass into the dark. In the next second the two points will touch and the first measurement in history will be taken. William Blake stops the clock right there."},
+    {"type": "text", "text": "The idea comes from the Bible. In the Book of Proverbs, God “set a compass upon the face of the depth” when making the world. The title is biblical too: “the Ancient of Days” is a name for God in the Book of Daniel. So this should be a picture of the Creator at his finest hour."},
+    {"type": "text", "text": "Blake did not see it that way. In the private mythology he invented, the figure with the compass is called Urizen, a cold lawgiver who shrinks the infinite down to what can be measured and ruled. For Blake, the moment of creation was also the moment of confinement. The picture's own geometry tells you so."},
+    {"type": "lines", "text": "Three simple shapes hold the whole image.", "lines": [
+      {"points": [[0.535, 0.155], [0.72, 0.21], [0.8, 0.35], [0.72, 0.49], [0.535, 0.545], [0.35, 0.49], [0.27, 0.35], [0.35, 0.21]], "closed": true, "label": "The circle", "text": "A sun-like disk, and the old man is folded up inside it, knees to chest. The measurer is himself boxed in by a perfect shape. He barely fits."},
+      {"points": [[0.2, 0.915], [0.515, 0.69], [0.83, 0.915]], "closed": false, "label": "The triangle", "text": "The compass opens into a hard, sharp angle, the only straight lines in the picture. Everything else is cloud, flame and hair. Law enters a world of curves."},
+      {"points": [[0.52, 0.39], [0.12, 0.39]], "closed": false, "label": "The wind", "text": "Hair and beard stream flat to the left, as if a gale were blowing through empty space. It is the one sign of raw energy, and it pulls directly against the downward reach."}
+    ]},
+    {"type": "text", "text": "A circle, a triangle, a horizontal gust: you could draw the design from memory after one viewing, which is part of why it became Blake's best-known image. He made it in 1794 as the frontispiece, the picture facing the title page, of a book of his own poetry called “Europe a Prophecy.”"},
+    {"type": "fact", "text": "The whole thing is small enough to hold in one hand: roughly 23 by 17 cm (about 9 by 7 inches). Blake's vision of the cosmos is the size of a paperback page."},
+    {"type": "text", "text": "And it is a print, not a painting. Blake drew on a copper plate with a varnish that resists acid, then let acid eat away the bare metal so the design stood up in relief, like a rubber stamp. He inked it, printed it on his own press with his wife Catherine, and they colored each sheet by hand in watercolor."},
+    {"type": "key", "text": "Because every impression was painted individually, no two copies of this image are the same. You are looking at one performance of it, the British Museum's."},
+    {"type": "tour", "title": "The hand at work", "text": "The coloring is where this particular copy becomes its own object.", "spots": [
+      {"x": 0.5, "y": 0.39, "zoom": 3, "r": 0.1, "title": "A hidden face", "text": "He looks straight down, so you see mostly brow and beard. There is no expression to read. All his attention goes down the arm to the instrument."},
+      {"x": 0.52, "y": 0.68, "zoom": 3.2, "r": 0.09, "title": "The grip", "text": "The fingers splay over the hinge of the compass, tendons drawn in pen. It is his left arm that reaches down. Rays fan out behind it in fine scratched lines."},
+      {"x": 0.3, "y": 0.27, "zoom": 2.6, "r": 0.13, "title": "Painted clouds", "text": "Crimson and purple washes are laid over the printed outlines, with brush marks left visible. In other copies these clouds are paler, or nearly black."},
+      {"x": 0.93, "y": 0.035, "zoom": 4.5, "r": 0.04, "shape": "arrow", "title": "A page number", "text": "A handwritten “1” in the top corner of the sheet. A reminder that this was a page in a book, meant to be opened on a table, not hung on a wall."}
+    ]},
+    {"type": "text", "text": "Blake said the image came to him as a vision. According to a friend's memoir, he saw the figure hovering at the top of the staircase in his house in Lambeth, south London, and it made a stronger impression on him than anything else he had ever been visited by. Blake reported visions matter-of-factly all his life."},
+    {"type": "fact", "text": "He also claimed supernatural help with the printing method itself. The technique, he said, was explained to him in a vision by his younger brother Robert, who had died of tuberculosis a few years earlier."},
+    {"type": "text", "text": "Almost nobody bought the books. Only around a dozen copies of “Europe” survive, and Blake spent most of his life poor and regarded as a harmless crank. The design, though, stayed with him. He returned to it for more than thirty years, printing and recoloring it for the few collectors who asked."},
+    {"type": "text", "text": "The last time was in 1827. Propped up in bed and days from death, at sixty-nine, Blake colored one more impression of the old man with the compass for a young friend. It is counted among the last things he ever made: the creation of the world, finished at the end of his own."}
+  ],
+  "quiz": [
+    {"question": "What exact moment does the image show?", "options": ["God resting on the seventh day", "The instant before the compass touches down to measure the void", "The Last Judgment"], "answer": 1, "explanation": "The compass is open and lowered into darkness, but nothing has been drawn yet."},
+    {"question": "Who is the figure in Blake's own mythology?", "options": ["Urizen, a cold lawgiver who limits the infinite", "The prophet Daniel", "Blake's brother Robert"], "answer": 0, "explanation": "Blake named him Urizen and saw his measuring as a kind of confinement."},
+    {"question": "Why is every copy of this image different?", "options": ["Blake redrew the plate each time", "Later owners repainted them", "Each printed sheet was colored by hand"], "answer": 2, "explanation": "Blake and his wife Catherine painted each impression individually in watercolor."},
+    {"question": "What was the image made for?", "options": ["An altarpiece in Lambeth", "The frontispiece of Blake's book “Europe a Prophecy”", "A Royal Academy exhibition"], "answer": 1, "explanation": "It faced the title page of his 1794 book of poetry."},
+    {"question": "Which shapes organize the composition?", "options": ["A circle, a sharp triangle and a horizontal gust of hair", "A square and a cross", "A spiral and a wavy line"], "answer": 0, "explanation": "The disk, the compass angle and the wind-blown hair are the three main directions."}
+  ],
+  "facts": [
+    {"text": "The Ancient of Days is a large oil painting on canvas.", "isTrue": false, "explanation": "It is a small hand-colored print, roughly 23 by 17 cm, from one of Blake's books."},
+    {"text": "Blake said he saw the figure in a vision at the top of his staircase.", "isTrue": true, "explanation": "A friend's memoir reports that the vision appeared to him in his house in Lambeth."},
+    {"text": "Blake colored a copy of this image in the last days of his life.", "isTrue": true, "explanation": "In 1827, shortly before he died, he painted one more impression for a young friend."}
+  ]
+}

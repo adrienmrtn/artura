@@ -1,0 +1,41 @@
+{
+  "teaser": "Mary's answer to the angel is written upside down. It is not a mistake.",
+  "focus": [0.6, 0.45],
+  "review_notes": "Price paid by Andrew Mellon to the Soviet government in 1930: $502,899 (figure commonly cited from the Mellon purchase records). Please verify.\nMellon bought 21 Hermitage paintings in 1930-31 while serving as US Treasury Secretary; gift to the nation 1937.\nNGA dates the work c. 1434/1436; metadata says 1435. Size about 93 x 37 cm overall (painted surface 90.2 x 34.1 cm).\nTransferred from wood panel to canvas in Saint Petersburg in the 19th century (after the 1850 purchase by Tsar Nicholas I).\nProbably the left wing of a triptych whose other panels are lost: NGA hypothesis.\nSeven rays; inscriptions AVE GRA PLENA and ECCE ANCILLA DNI (the latter upside down and reversed).\nFloor tiles identified by the NGA as David slaying Goliath (front) and Samson destroying the Philistine temple (behind); zodiac signs in the border roundels.\nUpper wall: single stained-glass figure of God flanked by wall paintings of scenes from the life of Moses.\nRounded (older, Romanesque) forms above and more recent forms below as a passage from Old to New: NGA reading.",
+  "lesson": [
+    {"type": "text", "text": "$502,899. That is what an American banker paid the Soviet government for this picture in 1930. The Soviet state needed foreign cash for its factories and was quietly selling treasures out of the Hermitage, the old museum of the tsars in what was then Leningrad."},
+    {"type": "text", "text": "For that sum he got a tall sliver of a painting, about 93 centimeters high and only 37 wide (36 by 14 inches). The odd shape has a likely explanation. It was probably the left wing of an altarpiece in three parts, and the other two are lost."},
+    {"type": "text", "text": "The subject is the Annunciation. The angel Gabriel, on the left, comes to tell Mary that she will be the mother of God's son. Painters usually set this in her bedroom. Jan van Eyck moves it into a church, and makes Mary so tall that, standing up, she would reach the upper gallery. She is not a visitor here. She stands for the Church itself."},
+    {"type": "text", "text": "A painting cannot make sound, and this scene is a conversation. Van Eyck's answer is to write the words in gold letters, floating in the air between the two speakers. Follow them in order."},
+    {"type": "lines", "text": "Three things travel through the air of this church.", "lines": [
+      {"points": [[0.13, 0.04], [0.618, 0.343], [0.74, 0.42]], "closed": false, "label": "Seven rays", "text": "Seven fine gold rays fall from the top left window. A white dove, the Holy Spirit, rides down the longest one toward Mary's head. This light enters from a different side than the daylight in the room."},
+      {"points": [[0.33, 0.484], [0.47, 0.484]], "closed": false, "label": "The greeting", "text": "From Gabriel's lips, left to right: AVE GRA PLENA, short for the Latin “Hail, full of grace.”"},
+      {"points": [[0.71, 0.475], [0.59, 0.475]], "closed": false, "label": "The reply", "text": "Mary answers ECCE ANCILLA DNI, “Behold the handmaid of the Lord.” The letters run backward and upside down."}
+    ]},
+    {"type": "text", "text": "Why flip her reply? Because it is not addressed to us, or even to the angel. It is written to be read from above, by God. It is a small joke with a serious point, and it fits the mood: Gabriel is smiling, which angels in this scene almost never do."},
+    {"type": "fact", "text": "This picture is no longer on the wood Van Eyck painted it on. In the 1800s, restorers in Saint Petersburg shaved the old panel away from behind until only the paint layer remained, then glued that film onto canvas. The operation was risky, and common at the time."},
+    {"type": "text", "text": "The building is doing some talking too. Its top is dim and plain, its lower level bright and richly glazed. Christians divided history in two: the old law of Moses, then the new era that begins at this very moment. Van Eyck stacks the two eras like floors."},
+    {"type": "tour", "title": "Top to bottom", "text": "Start under the wooden ceiling and come down to the floor.", "spots": [
+      {"x": 0.755, "y": 0.135, "zoom": 3.4, "r": 0.1, "shape": "rect", "title": "One window", "text": "High on the back wall, a single stained-glass window shows God standing alone. On the wall beside it are faded paintings of scenes from the life of Moses."},
+      {"x": 0.755, "y": 0.425, "zoom": 2.6, "r": 0.25, "title": "Three windows", "text": "Directly below, behind Mary, the one window has become three, filled with clear round panes. One God above, the Trinity of Father, Son and Holy Spirit below."},
+      {"x": 0.443, "y": 0.878, "zoom": 3.4, "r": 0.13, "title": "Samson", "text": "The floor tiles are drawn like engravings. In this one the strongman Samson pulls down the columns of his enemies' temple, dying to defeat them."},
+      {"x": 0.377, "y": 0.948, "zoom": 3.4, "r": 0.15, "title": "David and Goliath", "text": "Nearest to us, the shepherd boy David finishes off the fallen giant Goliath while soldiers look on. The border around the tiles holds signs of the zodiac."}
+    ]},
+    {"type": "text", "text": "Those floor scenes were chosen with care. Both heroes win against impossible odds, and preachers read them as early sketches of Christ defeating evil. They are underfoot because they are the foundation. Mary and the angel stand on the old stories while the new one begins."},
+    {"type": "fact", "text": "The buyer, Andrew Mellon, was the United States Secretary of the Treasury when he made the deal. Between 1930 and 1931 he bought 21 paintings from the Hermitage in secret, and neither government announced it."},
+    {"type": "key", "text": "In Van Eyck's hands nothing is only decoration. A window count, a paving stone, the direction of a sentence: each detail carries part of the idea, which is why his pictures reward slow reading."},
+    {"type": "text", "text": "Mellon did not keep his purchase. In 1937 he gave his collection to the American people, along with the money to build the National Gallery of Art in Washington. The panel sold to fund Soviet factories now hangs there, and entry is free."}
+  ],
+  "quiz": [
+    {"question": "Why is Mary's reply written upside down?", "options": ["The panel was once hung the wrong way", "So that God can read it from above", "A restorer made an error"], "answer": 1, "explanation": "Her words are addressed to heaven, so they face upward."},
+    {"question": "Where does Van Eyck set the scene?", "options": ["In a church", "In Mary's bedroom", "In a walled garden"], "answer": 0, "explanation": "He moves the Annunciation into a church, with Mary standing for the Church itself."},
+    {"question": "What do the one window above and the three below suggest?", "options": ["Morning and evening", "The painter and his three sons", "One God above, the Trinity below"], "answer": 2, "explanation": "The single window shows God alone; the three below evoke Father, Son and Holy Spirit."},
+    {"question": "Which stories are shown on the floor tiles?", "options": ["Scenes from Van Eyck's life", "Old Testament heroes such as Samson and David", "The months of the farming year"], "answer": 1, "explanation": "Samson and David were read as forerunners of Christ's victory over evil."},
+    {"question": "What happened to the painting's wooden panel in the 1800s?", "options": ["It was shaved away and the paint moved onto canvas", "It was gilded on the back", "It was cut into three parts"], "answer": 0, "explanation": "Restorers in Saint Petersburg transferred the paint layer from wood to canvas."}
+  ],
+  "facts": [
+    {"text": "The Soviet government sold this painting in 1930 to raise foreign money.", "isTrue": true, "explanation": "It was one of the Hermitage treasures sold quietly to Andrew Mellon."},
+    {"text": "The angel Gabriel wears a stern, frightening expression.", "isTrue": false, "explanation": "Gabriel is smiling as he greets Mary."},
+    {"text": "The gold rays carry an eagle down toward Mary.", "isTrue": false, "explanation": "It is a white dove, the symbol of the Holy Spirit."}
+  ]
+}

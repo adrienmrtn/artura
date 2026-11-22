@@ -1,0 +1,39 @@
+{
+ "teaser": "A tree trunk blocks your view on purpose, and the sky has turned red.",
+ "focus": [0.55, 0.3],
+ "review_notes": "Price of a print compared to a bowl of noodles: common comparison, approximate.\nSeries extended past 100 because of strong sales (118 by Hiroshige): standard account.\nTree name Garyubai (Sleeping Dragon Plum) and its branches rooting in the ground: verify.\nGarden ruined by a flood in 1910: verify.\nVan Gogh's oil copy, 1887, Van Gogh Museum.\nThe dark shape at top left is read here simply as part of the foreground; not described.",
+ "lesson": [
+  {"type":"text","text":"When this print reached the shops of Edo in late 1857, people did not gasp or argue. They bought it. The series it belongs to, One Hundred Famous Views of Edo, sold so briskly that the publisher let it run well past one hundred designs."},
+  {"type":"text","text":"Those first buyers were ordinary townspeople of the city now called Tokyo. A sheet cost roughly what a bowl of noodles did. And they knew this garden: the plum park at Kameido, on the eastern edge of town, where crowds went at the end of winter to see and smell the first blossoms of the year."},
+  {"type":"fact","text":"The star of the garden was one old tree nicknamed the Sleeping Dragon Plum. Its branches drooped to the earth, took root and rose again, so it seemed to crawl along the ground like a dragon."},
+  {"type":"text","text":"So a buyer expected a nice view of a well-known tree. What Hiroshige handed them instead is strange. He pushes your nose right up against the bark. The tree is so close that you cannot see where it starts or where it ends."},
+  {"type":"tour","title":"Near, then far","text":"Three distances, with almost nothing in between.","spots":[
+   {"x":0.5,"y":0.75,"zoom":1.5,"r":0.3,"title":"Too close","text":"A dark, bending trunk fills the lower half and is cut off by every edge. It reads as a flat shape first, a tree second."},
+   {"x":0.52,"y":0.15,"zoom":2.6,"r":0.12,"title":"The blossoms","text":"White petals with yellow centers, on thin shoots that rise straight up from the old wood. Plum flowers open before the leaves come, which is why the branches are bare."},
+   {"x":0.3,"y":0.6,"zoom":3,"r":0.1,"title":"The visitors","text":"Framed in a gap of the trunk: tiny people strolling behind a low fence. They give you the scale. They are also the only hint that this is a busy public garden."}
+  ]},
+  {"type":"text","text":"That jump from huge to tiny is the trick. European painters of the time led the eye into a picture step by step, with a middle ground to walk through. Hiroshige deletes the middle. You get something blocking your face and something far away, the way a real glance through branches works."},
+  {"type":"key","text":"Putting a big, cropped object in the foreground makes a flat sheet of paper feel deep. Photographers and filmmakers still use this move every day."},
+  {"type":"text","text":"Now the sky. No sunset looks like this: a hard red at the top that melts to pink, then to bare white behind the orchard. The printer wiped the color onto the wood block by hand so that it would fade, a technique called bokashi. The red is there for warmth and mood, not for accuracy."},
+  {"type":"lines","text":"The whole design hangs on a few bold strokes.","lines":[
+   {"points":[[0.04,0.68],[0.3,0.72],[0.6,0.62],[0.95,0.43]],"closed":false,"label":"The great branch","text":"The upper edge of the dark limb sweeps across the full width, rising to the right. It splits the picture into a warm half above and a cool green half below."},
+   {"points":[[0.52,0.52],[0.6,0.38],[0.67,0.05]],"closed":false,"label":"The upright","text":"A grey branch shoots up through the red sky and out of the top. It ties the lower mass to the blossoms and stops the big diagonal from sliding away."},
+   {"points":[[0.04,0.6],[0.95,0.6]],"closed":false,"label":"The quiet line","text":"Far behind, the fence and the row of visitors run dead level. That calm horizontal is what makes the foreground curves feel so wild."}
+  ]},
+  {"type":"text","text":"Thirty years later this very design was sitting in Paris, in the collection of Vincent van Gogh. In 1887 he copied it in oil paint, making the red hotter and the trunk darker still. He was teaching himself what a picture could do without shadows and without a polite middle distance."},
+  {"type":"fact","text":"The garden itself is gone. A flood in 1910 ruined the plum park, and the Sleeping Dragon did not survive. The print outlived its subject."},
+  {"type":"text","text":"Which leaves an odd thought. The first buyers took this sheet home as a souvenir of a tree they could visit any spring. Today the tree is the souvenir, and the sheet is the thing people travel to see."}
+ ],
+ "quiz": [
+  {"question":"How did Edo's public first respond to the series this print belongs to?","options":["They ignored it","They bought so many that it ran past one hundred designs","They protested the red sky"],"answer":1,"explanation":"Sales were strong enough for the publisher to extend the series."},
+  {"question":"Why was the tree called the Sleeping Dragon Plum?","options":["Its branches dipped to the ground, rooted and rose again","A dragon statue stood beneath it","It only flowered at night"],"answer":0,"explanation":"The crawling, re-rooting branches reminded people of a dragon."},
+  {"question":"What does Hiroshige leave out to create depth?","options":["The sky","The foreground","The middle ground"],"answer":2,"explanation":"He jumps straight from a huge near trunk to tiny distant figures."},
+  {"question":"What is bokashi?","options":["A color wiped on the block by hand so it fades","A kind of plum blossom","A publisher's stamp"],"answer":0,"explanation":"The red sky fading to white is a hand-wiped gradation."},
+  {"question":"What happened to the plum park?","options":["It is now a museum","Van Gogh bought it","A flood ruined it in 1910"],"answer":2,"explanation":"The garden and its famous tree were lost after the 1910 flood."}
+ ],
+ "facts": [
+  {"text":"Plum trees flower before their leaves appear.","isTrue":true,"explanation":"That is why the blossoms in the print sit on bare branches."},
+  {"text":"The red sky records an exact sunset Hiroshige observed.","isTrue":false,"explanation":"The red is a printed gradation chosen for mood, not accuracy."},
+  {"text":"Vincent van Gogh made an oil copy of this print.","isTrue":true,"explanation":"He copied it in Paris in 1887."}
+ ]
+}

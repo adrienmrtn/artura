@@ -1,0 +1,51 @@
+{
+  "teaser": "He ran out of canvas, so this street scene went onto a piece of patterned household cloth.",
+  "focus": [0.33, 0.45],
+  "review_notes": "Cleveland version painted on a cotton fabric printed with a small red diamond pattern (visible in unpainted areas), because he was waiting for canvas from Theo: check.\nScene is the Boulevard Mirabeau in Saint-Rémy, painted November/December 1889: check.\nSecond, more finished version 'The Road Menders' in the Phillips Collection, Washington, painted in the studio after this one: check.\nLetter to Theo describing 'enormous plane trees', 'piles of sand, stones and the gigantic tree-trunks': paraphrased, check.\nHe was allowed out of the asylum accompanied by an attendant: check.\nCanvas size about 73 x 92 cm: check.",
+  "lesson": [
+    {"type": "text", "text": "A woman has one foot forward and a basket on her arm. Two others in black have stopped to talk. Farther off, a man is bent double over a slab of stone. Nobody has noticed the painter. In half a second each of them will have moved, but the picture catches the street exactly now, on an ordinary working afternoon in late 1889."},
+    {"type": "text", "text": "The street is the main boulevard of Saint-Rémy, a small town in Provence. Workers were tearing up and relaying the pavement, and the place was a mess of sand heaps and cut stone. Van Gogh, living in the asylum just outside town, was allowed to walk in with an attendant. He set up his easel in the middle of the roadworks."},
+    {"type": "text", "text": "It takes a while to sort out who is here, because the people are small and the trees are enormous. The laborers who give the picture its title are almost swallowed by their own building site."},
+    {"type": "find", "text": "One road mender in a blue jacket is bent over his work among the stone blocks. Can you spot him?", "spots": [{"x": 0.875, "y": 0.655, "zoom": 3.6, "r": 0.05, "title": "The man at work", "text": "A dark cap, a blue back, a few strokes for the arms. He leans over pale blocks of paving stone on the right side of the street. Behind him, the blue wheel of a cart peeks in at the edge."}]},
+    {"type": "text", "text": "He is the hero of the title and he gets about a dozen brushstrokes. That tells you where Van Gogh's attention really went. He described the scene to his brother Theo as people repairing the pavement under enormous plane trees, and he listed the things that struck him: piles of sand, stones, and gigantic trunks."},
+    {"type": "fact", "text": "Plane trees shed their bark in flakes, leaving the trunks blotched in gray, cream and green, a bit like camouflage. That natural patchwork is what Van Gogh turns into streaks of blue, lilac and olive."},
+    {"type": "text", "text": "The trunks do something clever to the space. A normal street view pulls your eye straight down the road to a vanishing point, the spot where parallel lines seem to meet. Here four leaning giants stand in the way, and you have to look between them."},
+    {"type": "lines", "text": "Trace the trunks and the street they interrupt.", "lines": [
+      {"points": [[0.12, 0.02], [0.24, 0.22], [0.29, 0.5], [0.3, 0.77]], "closed": false, "label": "The first giant", "text": "The nearest trunk leans in from the top left and lands in the foreground. It is wider than the house door beside it."},
+      {"points": [[0.42, 0.02], [0.44, 0.3], [0.52, 0.6]], "closed": false, "label": "Its neighbor", "text": "A second trunk rises just beside the first. Together they form a wall of bark that blocks nearly a third of the view."},
+      {"points": [[0.56, 0.03], [0.72, 0.3], [0.78, 0.58]], "closed": false, "label": "The lean to the right", "text": "The farther trees tilt the other way, so the row sways like a line of dancers instead of standing in rank."},
+      {"points": [[0.0, 0.66], [0.3, 0.6], [0.6, 0.52], [1.0, 0.5]], "closed": false, "label": "The street", "text": "The road itself is a thin band of yellow sunlight running behind the trunks. The life of the town happens in the gaps."}
+    ]},
+    {"type": "key", "text": "Size shows what an artist cares about. Here the trees take up most of the picture, and the people, including those named in the title, are fitted into the spaces left over."},
+    {"type": "text", "text": "There is a secret under all this paint. In those weeks Van Gogh had used up his supply of canvas and was waiting for a new roll from Theo in Paris. He did not wait. He took a length of ordinary cotton cloth, printed with a pattern of tiny red diamonds, and painted on that."},
+    {"type": "fact", "text": "In person, the little red diamonds still show through wherever he left the fabric bare or brushed the paint thinly. The whole picture is about 73 by 92 cm (29 by 36 in), the size of a small tablecloth."},
+    {"type": "text", "text": "He worked fast, outdoors, with the season slipping away: the leaves overhead are already yellow and orange. Speed shows everywhere. Dark outlines are drawn around the trunks, and the ground is a churn of thick, separate strokes."},
+    {"type": "tour", "title": "Life between the trunks", "text": "Four quick sketches of town life, each only a few touches of paint.", "spots": [
+      {"x": 0.07, "y": 0.77, "zoom": 3.0, "r": 0.07, "shape": "rect", "title": "The woman with a basket", "text": "Caught mid-stride at the left edge, in a dark skirt and blue top, with a round orange basket on her arm. Her face is turned toward the street."},
+      {"x": 0.22, "y": 0.58, "zoom": 3.6, "r": 0.05, "title": "Two women in black", "text": "They stand close together beside the great trunk, perhaps talking. Their faces are single pale dabs."},
+      {"x": 0.56, "y": 0.52, "zoom": 3.6, "r": 0.06, "title": "Workers in the sun", "text": "In the bright gap at the center, two or three gray figures stoop and haul. They are sketched so lightly they nearly dissolve into the sand."},
+      {"x": 0.12, "y": 0.42, "zoom": 2.6, "r": 0.07, "shape": "rect", "title": "The street lamp", "text": "A green iron gas lamp, the one sign of modern town life. Its straight post is a rare vertical among all the leaning trunks."}
+    ]},
+    {"type": "text", "text": "Back at the asylum he was pleased enough to paint the scene again, this time on proper canvas and with more care. That second version, calmer and more finished, now hangs in the Phillips Collection in Washington. The Cleveland picture is the one made on the spot, with the dust of the roadworks in the air."},
+    {"type": "explore", "spots": [
+      {"x": 0.35, "y": 0.87, "zoom": 2.0, "r": 0.2, "title": "The heap of stones", "text": "Rounded cobbles, each circled with a blue-gray line and filled with cream or pink. The pile fills the foreground like a breaking wave."},
+      {"x": 0.18, "y": 0.44, "zoom": 3.2, "r": 0.05, "title": "Red curtains", "text": "A window with red and white curtains glows on the yellow house front, between green shutters. Someone lives right behind the building site."},
+      {"x": 0.7, "y": 0.12, "zoom": 2.0, "r": 0.18, "title": "Autumn canopy", "text": "Orange and yellow foliage is packed between the branches in short curved strokes, with slivers of blue for sky."},
+      {"x": 0.9, "y": 0.85, "zoom": 2.2, "r": 0.13, "title": "Cut paving blocks", "text": "Big pale blocks wait to be laid, painted in thick white with violet shadows. They march diagonally out of the lower right corner."},
+      {"x": 0.33, "y": 0.4, "zoom": 2.2, "r": 0.12, "shape": "rect", "title": "Bark in stripes", "text": "Blue, lilac, green and cream streaks run down the trunk, edged with dark outline. No brown anywhere."},
+      {"x": 0.74, "y": 0.8, "zoom": 2.2, "r": 0.13, "title": "The trench", "text": "A dug-up strip of road, darker and muddier than the rest, where the old surface has been removed."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "What is this painting made on?", "options": ["A wooden door panel", "Printed cotton cloth with small red diamonds", "Fine linen canvas sent from Paris"], "answer": 1, "explanation": "He had run out of canvas and used a patterned household fabric."},
+    {"question": "What were the workers in the scene doing?", "options": ["Repairing the pavement of the main street", "Harvesting olives", "Cutting down the plane trees"], "answer": 0, "explanation": "The boulevard of Saint-Rémy was being dug up and relaid."},
+    {"question": "Where was Van Gogh living when he painted it?", "options": ["In Paris with his brother", "In the Yellow House in Arles", "In the asylum just outside Saint-Rémy"], "answer": 2, "explanation": "He walked into town from the asylum with an attendant."},
+    {"question": "What takes up most of the picture?", "options": ["The road menders", "The trunks of the plane trees", "The sky"], "answer": 1, "explanation": "The trees dominate and the people are fitted into the gaps."},
+    {"question": "Where is the second, more finished version of this scene?", "options": ["The Phillips Collection in Washington", "The Louvre in Paris", "It was destroyed"], "answer": 0, "explanation": "He repainted the scene on proper canvas, and that version is in the Phillips Collection."}
+  ],
+  "facts": [
+    {"text": "The road menders are the largest figures in the painting.", "isTrue": false, "explanation": "They are tiny, sketched in a few strokes among the stones and trunks."},
+    {"text": "Van Gogh painted this version outdoors, on the spot.", "isTrue": true, "explanation": "He set up in the street among the roadworks, then made a second version later."},
+    {"text": "The trunks of the plane trees are painted mostly in brown.", "isTrue": false, "explanation": "He used streaks of blue, lilac, green and cream, echoing the blotchy bark."}
+  ]
+}

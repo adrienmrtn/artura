@@ -1,0 +1,45 @@
+{
+  "teaser": "A field painted pure red, because it only exists inside the heads of the women praying.",
+  "focus": [0.79, 0.27],
+  "review_notes": "Gauguin's explanation to Van Gogh (landscape and struggle exist only in the imagination of the people praying) is paraphrased from his letter of late September 1888.\nOffer of the painting to the church at Pont-Aven and then Nizon, both refused: standard account.\nThe figure at lower right is usually identified as a priest and often said to carry Gauguin's own features: presented as 'often said'.\nWrestlers borrowed from Hokusai's sketchbooks (Manga): widely accepted.\nBought by the National Gallery of Scotland in 1925.\nDimensions about 72 x 91 cm.",
+  "lesson": [
+    {"type": "text", "text": "Sunday morning in a Breton village, late summer 1888. Mass has just ended. The priest's sermon was about Jacob, who in the Book of Genesis wrestles all night with a mysterious stranger, an angel. The women step out of church with the story still ringing in their ears. And for one second, there on the grass, they see it happening."},
+    {"type": "text", "text": "That second is what Paul Gauguin painted. Not the Bible scene itself, and not simply a group of churchgoers, but the moment when one slips into the other. He had a problem to solve: how do you show, in a single image, which part is real and which part is seen only in the mind?"},
+    {"type": "lines", "text": "His answer is in the way the canvas is divided.", "lines": [
+      {"points": [[0.22, 0.03], [0.45, 0.2], [0.7, 0.46]], "closed": false, "label": "The tree trunk", "text": "An apple tree cuts the picture corner to corner. It works like a border: the women stay below and to the left of it, the vision stays above and to the right."},
+      {"points": [[0.5, 0.53], [0.76, 0.3]], "closed": false, "label": "A line of sight", "text": "The woman in profile at the center looks up and across the trunk, straight at the wrestlers. Her gaze is the bridge between the two worlds."},
+      {"points": [[0.0, 0.3], [0.1, 0.55], [0.35, 0.62], [0.65, 0.6], [1.0, 0.55]], "closed": false, "label": "A wall of caps", "text": "The white headdresses form a barrier along the bottom. You stand behind these women, looking over their shoulders, as if you were part of the congregation."}
+    ]},
+    {"type": "text", "text": "Now look at what lies between the women and the wrestlers. Grass should be green. Gauguin painted it flat vermilion red, with no shadows and no horizon. He explained the choice in a letter to Vincent van Gogh: the landscape and the fight exist only in the imagination of the people praying. So the ground is not the color of a field. It is the color of a vision."},
+    {"type": "key", "text": "Color here does not describe what the eye sees. It tells you what kind of reality you are looking at."},
+    {"type": "fact", "text": "The two fighters were not drawn from life. Gauguin borrowed their grip from Japanese woodblock prints of sumo wrestlers by Hokusai, which were cheap and popular in Paris. The tree slicing across the picture is also a trick learned from Japanese prints."},
+    {"type": "text", "text": "The style has a name: Cloisonnism, from “cloisonné,” a kind of enamel jewelry where thin metal walls separate pools of color. In painting it means flat areas of strong color fenced in by dark outlines, a bit like stained glass. No soft shading, no flickering Impressionist touches."},
+    {"type": "tour", "title": "Two kinds of seeing", "text": "Compare how differently the real and the imagined are treated.", "spots": [
+      {"x": 0.79, "y": 0.27, "zoom": 3.2, "r": 0.11, "title": "Jacob and the angel", "text": "Small, far away and clean-edged, like a cut-out. The angel wears deep blue and has wings of pure yellow. Jacob, in dark green, has his head locked under the angel's arm."},
+      {"x": 0.08, "y": 0.6, "zoom": 2.4, "r": 0.13, "title": "Closed eyes", "text": "This woman prays with her eyes shut and her hands pressed together. She cannot be watching anything. The fight is happening behind her eyelids."},
+      {"x": 0.42, "y": 0.5, "zoom": 2.0, "r": 0.14, "title": "The great coif", "text": "A coif is the starched linen cap of Breton women. Gauguin makes this one huge and smooth, a single white shape with a dark outline, more like a paper sail than cloth."},
+      {"x": 0.95, "y": 0.62, "zoom": 2.6, "r": 0.09, "title": "The priest", "text": "Squeezed against the right edge, a man with a shaved crown lowers his head. He is usually read as the priest who gave the sermon. Many think Gauguin gave him his own profile."}
+    ]},
+    {"type": "text", "text": "The women are enormous and close. The wrestlers are tiny. There is no gradual distance between them, only the red. Everyday faith takes up most of the canvas, and the miracle gets one corner. Yet something else wandered into the field, and it belongs to neither group."},
+    {"type": "find", "text": "An animal has strayed into the vision. Where is it?", "spots": [
+      {"x": 0.22, "y": 0.22, "zoom": 3.4, "r": 0.07, "title": "The cow", "text": "A small cow trots under the tree, on the women's side of the trunk. It is far too little for where it stands. It may be the last piece of the real pasture, or a reminder of the farms these women came from."}
+    ]},
+    {"type": "text", "text": "Gauguin was forty and living on credit at an inn in Pont-Aven, surrounded by younger painters. One of them, Émile Bernard, had just painted Breton women in flat colors with heavy outlines on a plain green ground. Gauguin saw it, and within weeks produced this. Bernard spent the rest of his life saying the idea had been stolen from him."},
+    {"type": "fact", "text": "Gauguin wanted the painting to hang in a church. He carried it with friends to the chapel of a nearby village and offered it as a gift. The priest took one look, suspected a joke by the artists, and refused."},
+    {"type": "text", "text": "Rejected by the parish, the picture went to Paris instead, where young painters and poets treated it as a manifesto. Here was proof that a painting could show an idea or a feeling rather than a view. Critics soon called this Symbolism, and Gauguin its leader."},
+    {"type": "fact", "text": "The painting has lived in Edinburgh since 1925, when the Scottish National Gallery bought it. At the time, very few British museums owned anything by Gauguin."},
+    {"type": "text", "text": "Go back to that Sunday second. The sermon is over, the eyes are closed or wide open, and the fight is not decided. In Genesis, the struggle lasts until dawn and Jacob refuses to let go until he is blessed. Gauguin stops before any of that. He leaves the women, and you, in the middle of the seeing."}
+  ],
+  "quiz": [
+    {"question": "Why did Gauguin paint the ground red?", "options": ["The soil in Brittany is red", "To show the scene exists only in the women's imagination", "He had run out of green"], "answer": 1, "explanation": "He wrote to Van Gogh that the landscape and the struggle exist only in the minds of the people praying."},
+    {"question": "What separates the women from the wrestlers?", "options": ["A river", "A stone wall", "A diagonal tree trunk"], "answer": 2, "explanation": "The apple tree cuts the canvas corner to corner and works as a border between real and imagined."},
+    {"question": "Where did the pose of the wrestlers come from?", "options": ["Japanese prints of sumo wrestlers", "A photograph", "A Greek sculpture"], "answer": 0, "explanation": "Gauguin borrowed the grip from Hokusai's woodblock prints."},
+    {"question": "What does Cloisonnism mean in painting?", "options": ["Tiny dots of pure color", "Flat areas of color enclosed by dark outlines", "Thick paint applied with a knife"], "answer": 1, "explanation": "The name comes from cloisonné enamel, where metal walls separate pools of color."},
+    {"question": "What happened when Gauguin offered the painting to a local church?", "options": ["It was hung over the altar", "It was sold at once", "The priest refused it"], "answer": 2, "explanation": "The priest suspected a prank and turned the gift down."}
+  ],
+  "facts": [
+    {"text": "The story the women imagine comes from the Book of Genesis.", "isTrue": true, "explanation": "The sermon was about Jacob wrestling with an angel, told in Genesis."},
+    {"text": "Every woman in the painting is staring at the wrestlers.", "isTrue": false, "explanation": "Several pray with their eyes closed, which shows the fight is an inner vision."},
+    {"text": "Émile Bernard happily agreed that Gauguin invented this flat, outlined style alone.", "isTrue": false, "explanation": "Bernard claimed for the rest of his life that Gauguin had taken the idea from him."}
+  ]
+}

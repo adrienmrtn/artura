@@ -1,0 +1,327 @@
+{
+ "teaser": "An 82-year-old's daydream of a harem, pieced together from fifty years of his own drawings.",
+ "focus": [
+  0.42,
+  0.55
+ ],
+ "review_notes": "The pool: only a corner with a stone rim is visible at lower left in this image; the find spot points at that area and the bather seated beside it.\nSignature with age ('AETATIS LXXXII', 1862) is documented but not legible in this image; the lesson does not point at it.\nLady Mary Wortley Montagu's letter (1717, bath at Sofia, about 200 women, the corset anecdote) is from her Turkish Embassy Letters.\nThe woman with raised arms derives from a drawing of Madeleine Chapelle (c. 1818): commonly stated, please confirm.\nRectangular version delivered to Prince Napoléon in 1859, returned because of Princess Clotilde, photographed in 1859, made round by 1863.\nKhalil Bey bought it in the 1860s; 'green curtain' for Courbet's painting is a reported anecdote.\nShown in the Ingres retrospective at the 1905 Salon d'Automne; entered the Louvre in 1911.\nDiameter about 108 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This is a bathhouse. So where is the bath? Some two dozen women fill the room, and not one of them is washing. They doze, stretch, sip coffee, fix their hair, play music. For a painting named after water, there is astonishingly little of it."
+  },
+  {
+   "type": "find",
+   "text": "There is a pool in this room. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.13,
+     "y": 0.7,
+     "zoom": 2.5,
+     "r": 0.1,
+     "title": "The pool's edge",
+     "text": "Only a corner of it, pushed to the far left: a stone rim, and a bather sitting beside it with her legs stretched toward the edge. Ingres cared about the bodies, not the bathing."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So this is a daydream more than a scene. And the dreamer was old. Ingres signed the picture in 1862 and wrote his age in Latin next to his name: 82. He was proud of it. After a lifetime of official honors, he produced the most sensual picture of his career."
+  },
+  {
+   "type": "text",
+   "text": "The idea came from a book. In 1717 Lady Mary Wortley Montagu, wife of the British ambassador to the Ottoman Empire, visited a women's bath and described it in a letter: about two hundred women, all naked, chatting and drinking coffee without a trace of embarrassment. Ingres copied the passage into his notebook decades before he painted this."
+  },
+  {
+   "type": "fact",
+   "text": "Lady Mary reported one thing Ingres left out. The bathers urged her to undress too, and when they saw her tightly laced corset, they took it for a cage her husband had locked her in."
+  },
+  {
+   "type": "text",
+   "text": "He needed no models to fill the room. He had fifty years of his own nudes to draw on, and he returned to them the way an old musician returns to favorite tunes. Three of these figures carry a story."
+  },
+  {
+   "type": "tour",
+   "title": "Borrowed from himself",
+   "text": "Start with the largest figure, then move right.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.63,
+     "zoom": 1.9,
+     "r": 0.2,
+     "title": "The musician",
+     "text": "A woman seen from behind, a striped cloth knotted over her hair, playing a long-necked string instrument. Ingres had painted nearly this same back in 1808, as a lone bather sitting in silence."
+    },
+    {
+     "x": 0.85,
+     "y": 0.55,
+     "zoom": 2.2,
+     "r": 0.15,
+     "title": "Arms raised",
+     "text": "She leans back on blue cushions with her arms folded over her head. The pose comes from a drawing Ingres made of his first wife, Madeleine, around 1818. She had died in 1849."
+    },
+    {
+     "x": 0.67,
+     "y": 0.31,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "Perfume",
+     "text": "At the back, a dark-skinned attendant stands behind a gold burner, and a wisp of smoke drifts toward a seated woman's long blond hair. Scent, music, coffee: Ingres calls on every sense."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Seen together, the bodies behave oddly. They overlap like playing cards, with hardly any air between them, and some limbs are hard to assign to an owner. The women barely notice one another, and none looks at you. It feels closer to a collage of memories than to a room you could walk into."
+  },
+  {
+   "type": "key",
+   "text": "The Turkish Bath is an anthology. Ingres gathered a lifetime of poses into one image, and cared more about the rhythm of curves than about a believable space."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the shape. The painting was not born round. Ingres completed it in 1859 as a rectangle for Prince Napoléon, a cousin of the French emperor Napoleon III. The prince's wife, Princess Clotilde, could not bear so many nudes in her home, and the canvas soon came back to the studio."
+  },
+  {
+   "type": "fact",
+   "text": "We know what the first version looked like because it was photographed in 1859, before Ingres changed it. Photography itself was then only about twenty years old."
+  },
+  {
+   "type": "text",
+   "text": "Ingres did not sulk. He reworked the edges and turned the picture into a tondo, the Italian word for a round painting, a little over a meter across (about 43 inches). The effect is that of a keyhole: you are peering into a place you were never invited to. The circle also changed how the bodies fit together."
+  },
+  {
+   "type": "lines",
+   "text": "See how the figures follow the new shape.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.74,
+       0.2
+      ],
+      [
+       0.86,
+       0.33
+      ],
+      [
+       0.95,
+       0.5
+      ],
+      [
+       0.93,
+       0.66
+      ],
+      [
+       0.84,
+       0.78
+      ],
+      [
+       0.7,
+       0.86
+      ]
+     ],
+     "closed": false,
+     "label": "Along the rim",
+     "text": "On the right, a standing head, a bent elbow, cushions and a sleeping figure line up along the edge. The bodies bend to fit the circle."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.49
+      ],
+      [
+       0.42,
+       0.6
+      ],
+      [
+       0.41,
+       0.72
+      ],
+      [
+       0.38,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "The spine",
+     "text": "The musician's back rises just left of center, the one calm upright that everything else turns around."
+    },
+    {
+     "points": [
+      [
+       0.03,
+       0.42
+      ],
+      [
+       0.2,
+       0.38
+      ],
+      [
+       0.38,
+       0.37
+      ],
+      [
+       0.5,
+       0.4
+      ]
+     ],
+     "closed": false,
+     "label": "The far row",
+     "text": "Behind her, a band of small figures runs across the picture, shrinking fast. It is almost the only hint of depth in the room."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A buyer soon appeared, and a fitting one: Khalil Bey, a rich Ottoman diplomat living in Paris. A man from the real Ottoman world bought a Frenchman's fantasy of it. Historians call such fantasies Orientalism: the East imagined by Europeans as lazy, sensual and timeless, which tells you more about Europe than about Istanbul."
+  },
+  {
+   "type": "fact",
+   "text": "Khalil Bey had a taste for daring pictures. He also owned Gustave Courbet's “The Origin of the World”, perhaps the most explicit nude of the century, which he reportedly kept hidden behind a green curtain."
+  },
+  {
+   "type": "text",
+   "text": "For decades the round canvas stayed in private hands. Then in 1905 it was shown in Paris in a tribute to Ingres, and young painters stood before it stunned. Picasso and Matisse both took its piled-up, flattened bodies as permission to go further. The Louvre took it in six years later, in 1911."
+  },
+  {
+   "type": "text",
+   "text": "Before you leave, wander the room yourself. The small things are painted as carefully as the bodies."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.57,
+     "y": 0.89,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The low table",
+     "text": "At the very front: small cups, a painted bowl, a blue jar, a glass flask. Lady Mary's letter mentioned coffee, and Ingres did not forget it."
+    },
+    {
+     "x": 0.16,
+     "y": 0.34,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The dancer",
+     "text": "A standing woman lifts both arms above her head, a red necklace at her throat. Beside her, a dark-skinned musician holds a tambourine.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.285,
+     "y": 0.25,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The vase",
+     "text": "A tall blue-and-white vase stands alone in a wall niche. It is nearly the only clue to what the building itself looks like."
+    },
+    {
+     "x": 0.69,
+     "y": 0.5,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The embrace",
+     "text": "Two women lean together, one wearing a pearl necklace, an arm around her neighbor. Their closeness is one of the boldest notes in the picture."
+    },
+    {
+     "x": 0.38,
+     "y": 0.455,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The headcloth",
+     "text": "White cloth striped with yellow and red, knotted over dark hair. It is the brightest patch in the painting, placed close to its center."
+    },
+    {
+     "x": 0.59,
+     "y": 0.24,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "The doorway",
+     "text": "An arched opening at the back leads into shadow, with a reddish shape just visible inside. A way out, which nobody takes."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What gave Ingres the idea for this scene?",
+   "options": [
+    "A trip he made to Istanbul",
+    "A letter by Lady Mary Wortley Montagu describing a women's bath",
+    "A painting by Raphael"
+   ],
+   "answer": 1,
+   "explanation": "He copied her 1717 description into his notebook long before painting it."
+  },
+  {
+   "question": "What was the painting's original shape?",
+   "options": [
+    "Rectangular",
+    "Oval",
+    "Round from the start"
+   ],
+   "answer": 0,
+   "explanation": "It was finished as a rectangle in 1859 and made round afterward."
+  },
+  {
+   "question": "Why did it come back to Ingres's studio?",
+   "options": [
+    "It was damaged in a fire",
+    "The Louvre rejected it",
+    "Princess Clotilde objected to so many nudes"
+   ],
+   "answer": 2,
+   "explanation": "The wife of its first owner, Prince Napoléon, could not bear it at home."
+  },
+  {
+   "question": "Where did Ingres find the pose of the musician seen from behind?",
+   "options": [
+    "In one of his own paintings from 1808",
+    "In a photograph",
+    "In a Turkish print"
+   ],
+   "answer": 0,
+   "explanation": "He reused the back of a bather he had painted more than fifty years earlier."
+  },
+  {
+   "question": "What is a tondo?",
+   "options": [
+    "A harem servant",
+    "A round painting",
+    "A string instrument"
+   ],
+   "answer": 1,
+   "explanation": "It is the Italian word for a circular picture."
+  },
+  {
+   "question": "Who bought the round version?",
+   "options": [
+    "Pablo Picasso",
+    "Napoleon III",
+    "Khalil Bey, an Ottoman diplomat"
+   ],
+   "answer": 2,
+   "explanation": "The diplomat lived in Paris and collected daring pictures."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Ingres wrote his age, 82, next to his signature on this painting.",
+   "isTrue": true,
+   "explanation": "He signed it in 1862 and proudly added his age in Latin."
+  },
+  {
+   "text": "Most of the women in the picture are shown washing in the pool.",
+   "isTrue": false,
+   "explanation": "Nobody is washing, and only a corner of the pool is visible at the far left."
+  },
+  {
+   "text": "Picasso and Matisse saw the painting when it was exhibited in Paris in 1905.",
+   "isTrue": true,
+   "explanation": "It was shown in a tribute to Ingres that year and impressed both painters."
+  }
+ ]
+}

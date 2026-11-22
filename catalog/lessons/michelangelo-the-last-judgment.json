@@ -1,0 +1,65 @@
+{
+  "teaser": "A heaven where nobody smiles, and a painter who hid his own face in an empty skin.",
+  "focus": [0.49, 0.33],
+  "review_notes": "Dates used: painted 1536 to 1541, unveiled 31 October 1541; wall about 13.7 x 12.2 m; more than 300 figures.\nSebastiano del Piombo preparing the wall for oil and the quarrel that followed comes from Vasari.\nBiagio da Cesena as Minos and the pope's reply come from Vasari; told here as a story.\nThe face on Bartholomew's skin as a self-portrait is a widely accepted reading, not a documented fact.\nSaint Catherine and Saint Blaise were chiseled out and repainted in fresh plaster by Daniele da Volterra in 1565; other loincloths were added dry on top.\nThe 1990 to 1994 cleaning kept Daniele's additions and removed part of the later ones.\nSky blue as natural ultramarine (lapis lazuli) paid for by the pope: commonly stated.\nThe small book of the saved and large book of the damned is the traditional reading.\nThe image includes the real altar crucifix and candlesticks standing in front of the wall, and the feet of the ceiling prophet Jonah at the top.",
+  "lesson": [
+    {"type": "text", "text": "This wall shows the day the good are rewarded. So where are the happy people? Run your eye over the crowd around Christ, the saints, the martyrs, the saved. Nobody smiles. They lean in, they stare, they hold their breath. In Michelangelo's heaven, even the winners are afraid."},
+    {"type": "text", "text": "The painting covers the whole altar wall of the Sistine Chapel in the Vatican, about 13.7 meters high and 12.2 wide (45 by 40 feet). More than 300 figures float on it. Michelangelo worked there from 1536 to 1541, mostly alone, on scaffolding, in his sixties."},
+    {"type": "text", "text": "Painters before him gave this subject a tidy order: Christ on a throne, saints in neat rows, calm above and chaos below. Start in the middle of this wall and see what is left of that order."},
+    {"type": "tour", "title": "The center", "text": "Three figures set the mood for everyone else.", "spots": [
+      {"x": 0.487, "y": 0.32, "zoom": 3, "r": 0.08, "title": "A young judge", "text": "No beard, no throne, the body of an athlete. Christ half rises, right arm lifted. Is he about to strike, or calling for silence? His face tells you nothing."},
+      {"x": 0.425, "y": 0.34, "zoom": 3.4, "r": 0.06, "title": "Mary turns away", "text": "In older pictures she pleads with her son for mercy. Here she folds into herself and looks down. The time for pleading is over."},
+      {"x": 0.64, "y": 0.34, "zoom": 3, "r": 0.07, "title": "Peter hands back the keys", "text": "The huge old man holds out two keys, the keys of heaven that popes claim to keep. On the last day he gives them back. Nobody will need a doorkeeper again."}
+    ]},
+    {"type": "text", "text": "A judge who looks like a Greek god and an apostle resigning his office: this is why no one relaxes. The verdict has not been spoken yet. Michelangelo paints the second before it, when even a saint cannot be sure."},
+    {"type": "fact", "text": "The wall was first prepared for oil paint by his friend, the painter Sebastiano del Piombo. According to the biographer Vasari, Michelangelo had the whole coating knocked off and started again in fresh plaster. The two men never made up."},
+    {"type": "text", "text": "He had already painted the ceiling of this chapel, finished in 1512. When he came back he was a different man in a different Rome. The city had been sacked by imperial troops in 1527, and the Church was splitting in two. The confident young hero of the ceiling had become an anxious believer."},
+    {"type": "text", "text": "There is no painted frame here, no architecture, no ground to stand on except a strip at the bottom. With nothing to hold 300 bodies in place, what keeps the wall from falling apart?"},
+    {"type": "lines", "text": "The whole wall turns like a slow wheel around one gesture.", "lines": [
+      {"points": [[0.12, 0.93], [0.1, 0.72], [0.14, 0.52], [0.22, 0.38]], "closed": false, "label": "Rising", "text": "On the left, the dead climb out of the earth and drift upward, some pulled, some pushing. This is Christ's right-hand side, the side of the saved."},
+      {"points": [[0.82, 0.4], [0.86, 0.58], [0.84, 0.74], [0.8, 0.9]], "closed": false, "label": "Falling", "text": "On the right, bodies tumble and are dragged down toward the boat and the fire. The same blue air, the opposite direction."},
+      {"points": [[0.41, 0.24], [0.5, 0.21], [0.58, 0.25], [0.6, 0.33], [0.56, 0.42], [0.48, 0.45], [0.4, 0.41], [0.38, 0.32]], "closed": true, "label": "The hub", "text": "Christ sits in a pale glow at the center of the turning. His raised arm seems to set the whole crowd in motion."}
+    ]},
+    {"type": "text", "text": "Up one side, down the other. Your eye does what the bodies do, and it never finds a place to rest. That restlessness is the real subject. The lowest strip borrows from a poem Michelangelo knew by heart, Dante's Inferno, with its ferryman and its judge of hell."},
+    {"type": "key", "text": "Michelangelo replaced the orderly courtroom of earlier Last Judgments with a single rotating mass of bodies. The picture is held together by movement alone."},
+    {"type": "text", "text": "Around Christ, the martyrs hold up the tools that killed them, like evidence in court: a wheel, a grill, a cross. One of them, just below Christ's feet, was skinned alive. He holds a knife in one hand. Check what hangs from the other."},
+    {"type": "find", "text": "Saint Bartholomew carries his own flayed skin. Can you find the face on it?", "spots": [
+      {"x": 0.612, "y": 0.5, "zoom": 4, "r": 0.05, "title": "The empty skin", "text": "A limp, gray face sags in the folds. It looks nothing like the bearded saint holding it. Most scholars read it as Michelangelo himself, dangling over hell and hoping to be saved."}
+    ]},
+    {"type": "text", "text": "If the reading is right, it is one of the strangest signatures in art. The most famous artist alive does not paint himself among the blessed. He paints himself as a discarded husk, in the hands of a saint, with the outcome still open."},
+    {"type": "fact", "text": "The pope's master of ceremonies, Biagio da Cesena, complained that so many nudes belonged in a tavern, not a chapel. The story goes that Michelangelo gave his features to Minos, judge of hell. When Biagio protested, the pope replied that his power did not reach down there."},
+    {"type": "tour", "title": "The bottom edge", "text": "Biagio's supposed portrait is down here, along with the two figures taken from Dante.", "spots": [
+      {"x": 0.57, "y": 0.84, "zoom": 3, "r": 0.07, "title": "Charon", "text": "The ferryman of the dead swings his oar like a club to drive his passengers out of the boat. Dante describes exactly this blow."},
+      {"x": 0.94, "y": 0.93, "zoom": 3.4, "r": 0.06, "title": "Minos", "text": "In the far corner stands the judge of hell, a snake wound around his body. He has donkey's ears, a sign of stupidity."},
+      {"x": 0.686, "y": 0.64, "zoom": 3.2, "r": 0.06, "title": "The man who understands", "text": "One damned soul does not fight. He covers half his face and stares out with a single eye while demons pull him down. He has just realized where he is going."}
+    ]},
+    {"type": "text", "text": "The complaints did not stop with Biagio. Almost every figure was naked, saints included. Within a few years, churchmen were calling the wall indecent, and in January 1564 a Church council ordered the offending parts covered. Michelangelo died a few weeks later."},
+    {"type": "fact", "text": "The job of painting cloths over the nudes went to Daniele da Volterra, a pupil and admirer of Michelangelo. It earned him a nickname that stuck for centuries: “Il Braghettone,” the breeches maker."},
+    {"type": "text", "text": "So part of what you see is not by Michelangelo. Many of the wisps of drapery are later additions. A long cleaning from 1990 to 1994 removed some, kept the oldest, and brought back the blue. That sky is ultramarine, a pigment ground from lapis lazuli, a stone that cost a fortune."},
+    {"type": "text", "text": "One more thing about this photograph. The dark crucifix and the candles at the bottom are real objects, standing on the altar in front of the wall. A priest saying Mass here faces hell at eye level. Wander over the wall with that in mind."},
+    {"type": "explore", "spots": [
+      {"x": 0.5, "y": 0.89, "zoom": 2.6, "r": 0.09, "title": "The altar", "text": "The real cross and candlesticks rise in front of the painted cave and the boat of the damned. The lowest, darkest zone sits right where the priest stands."},
+      {"x": 0.495, "y": 0.71, "zoom": 2.4, "r": 0.11, "title": "Trumpets and books", "text": "Wingless angels blow the dead awake. Two hold open books: a small one turned toward the saved, a much bigger one toward the damned."},
+      {"x": 0.82, "y": 0.49, "zoom": 2.6, "r": 0.09, "title": "Catherine and Blaise", "text": "Catherine bends over her spiked wheel, with Blaise behind her. Both were chiseled out and repainted by Daniele da Volterra. She was naked before; now she wears green."},
+      {"x": 0.345, "y": 0.68, "zoom": 3, "r": 0.07, "title": "Pulled up by beads", "text": "A strong figure leans over a cloud and hauls two people up by a string of prayer beads. They hang on to it like a rope."},
+      {"x": 0.17, "y": 0.11, "zoom": 2.2, "r": 0.13, "title": "The cross", "text": "In the top left arch, wingless angels wrestle with the cross of the Crucifixion. It seems to weigh as much as they do."},
+      {"x": 0.75, "y": 0.11, "zoom": 2.2, "r": 0.13, "title": "The column", "text": "In the matching arch, another group struggles with the column where Christ was whipped. Even the relics of the Passion are caught in the storm."},
+      {"x": 0.14, "y": 0.91, "zoom": 2.2, "r": 0.13, "title": "Waking up", "text": "At the lower left the dead push out of the ground, some still skeletons, some half dressed in flesh, dazed by the trumpets."},
+      {"x": 0.423, "y": 0.465, "zoom": 3, "r": 0.07, "title": "Lawrence", "text": "Seated on a cloud at Christ's feet, Saint Lawrence shoulders the iron grill on which he was roasted. It looks like a ladder."}
+    ]},
+    {"type": "text", "text": "Go back to the faces around Christ, the ones that would not smile. They are not ungrateful. They are waiting, like the man in the empty skin, like the old painter on his scaffold. Michelangelo did not paint the end of the story. He painted not knowing."}
+  ],
+  "quiz": [
+    {"question": "What is unusual about the saved and the saints on this wall?", "options": ["They all wear crowns", "None of them looks happy or relaxed", "They are painted smaller than the damned"], "answer": 1, "explanation": "Even the blessed look tense, because the verdict has not yet been spoken."},
+    {"question": "What does Saint Bartholomew hold besides a knife?", "options": ["His own flayed skin", "A spiked wheel", "The keys of heaven"], "answer": 0, "explanation": "He was skinned alive, and the face on the skin is usually read as Michelangelo's."},
+    {"question": "How is the huge composition held together?", "options": ["By painted columns and frames", "By rows of saints on benches", "By a turning movement, rising on the left and falling on the right"], "answer": 2, "explanation": "There is no architecture, only a slow wheel of bodies around Christ's gesture."},
+    {"question": "Which poem gave Michelangelo the ferryman Charon and the judge Minos?", "options": ["Dante's Inferno", "Homer's Iliad", "Ovid's Metamorphoses"], "answer": 0, "explanation": "Both figures come from Dante's Inferno, which Michelangelo knew by heart."},
+    {"question": "Why was Daniele da Volterra nicknamed “the breeches maker”?", "options": ["He was a tailor before becoming a painter", "He painted cloths over the nude figures", "He designed the Swiss Guard uniforms"], "answer": 1, "explanation": "After a Church council ordered the nudes covered, he painted the draperies."},
+    {"question": "What is the blue of the sky made from?", "options": ["Crushed glass", "Indigo plants", "Lapis lazuli"], "answer": 2, "explanation": "The sky is ultramarine, ground from the costly stone lapis lazuli."}
+  ],
+  "facts": [
+    {"text": "Michelangelo painted the Last Judgment at the same time as the Sistine ceiling.", "isTrue": false, "explanation": "The ceiling was finished in 1512; he returned for the altar wall in 1536."},
+    {"text": "In this painting Christ has no beard.", "isTrue": true, "explanation": "Michelangelo painted a young, beardless, athletic Christ."},
+    {"text": "The crucifix and candles at the bottom of the image are painted on the wall.", "isTrue": false, "explanation": "They are real objects standing on the altar in front of the fresco."}
+  ]
+}

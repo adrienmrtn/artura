@@ -1,0 +1,319 @@
+{
+ "teaser": "A riot planned like a ballet, rehearsed with wax dolls in a wooden box.",
+ "focus": [
+  0.23,
+  0.5
+ ],
+ "review_notes": "Dating and patron: Met gives probably 1633-34, painted for the Maréchal de Créquy, French ambassador in Rome; later owned by Cardinal Richelieu. Size about 155 x 210 cm. Acquired by the Met in 1946.\nPoussin's situation: arrived in Rome 1624; serious illness about 1629-30; nursed by the family of Jacques Dughet, a French cook, whose daughter Anne-Marie he married in 1630; brother-in-law Gaspard Dughet became a landscape painter. Martyrdom of St Erasmus for St Peter's (1628-29) coolly received. Standard biography.\nWax figures arranged in a box-like stage: described by his early biographers (Bellori, Sandrart, Le Blond de la Tour).\nStory from Livy and Plutarch; the signal given by Romulus with his cloak follows Plutarch.\nSources: Giambologna's marble group in Florence (1583) for the lifted woman; an ancient statue of a Gaul killing himself (Ludovisi collection, Rome) for the man with the dagger. Usual identifications.\nSecond version in the Louvre, about 1637-38. Degas copied the Louvre version; Picasso painted variations on the theme in 1962-63.\nJacques-Louis David's Intervention of the Sabine Women, 1799, Louvre.\nThe man in the yellow cuirass with a dagger is read here as a Roman seizing a daughter while her father resists (Met reading).\nBackground figures are small in our image; explore spots there point at groups, not individuals.\n'Nobody bleeds': no wound is visible in our image; confirm on a high-resolution view.\nPoussin called to Paris by Louis XIII (1640-42) and returned to Rome for good: standard biography.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Rome, 1633. Nicolas Poussin is 39 and has decided to stop competing. Nine years earlier he arrived from France with no money and sold battle scenes for almost nothing. He finally won a big public job, an altarpiece for Saint Peter's, and the city shrugged. Then he fell so ill that he nearly died."
+  },
+  {
+   "type": "text",
+   "text": "A French cook living in Rome took him in and nursed him. In 1630 Poussin married the cook's daughter, Anne-Marie Dughet, moved into a modest house near the Spanish Steps, and changed his whole way of working. No more giant church pictures. He would paint mid-sized canvases for a few educated collectors who would study them slowly."
+  },
+  {
+   "type": "text",
+   "text": "This is one of the first great results. The buyer was the French ambassador to Rome. The canvas is about 1.5 by 2.1 meters (5 by 7 feet): room-sized, not church-sized. And for a man who wanted calm and order in his life, the subject is a strange choice. It is a mass kidnapping."
+  },
+  {
+   "type": "text",
+   "text": "The story is the founding legend of Rome. The new city was full of men and had no women, and the neighbors refused to let their daughters marry them. So Romulus, the first king, invited the Sabine people to a festival. They came with their families, unarmed. At a signal from him, each Roman grabbed a young woman."
+  },
+  {
+   "type": "find",
+   "text": "Everything is running, falling or screaming, except the man who gave the signal. Where is Romulus?",
+   "spots": [
+    {
+     "x": 0.16,
+     "y": 0.2,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The signal",
+     "text": "High on a temple platform, in red, Romulus lifts the edge of his cloak. That was the agreed sign. Two officials wait calmly behind him. Power stands still while others pay for it.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Start from that raised cloak and the chaos turns out to be highly organized. Poussin has frozen the first seconds after the signal, and he arranges the panic with the care of a choreographer. Nothing in this crowd is where it is by accident."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines that hold the riot together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.54,
+       0.205
+      ],
+      [
+       0.99,
+       0.205
+      ]
+     ],
+     "closed": false,
+     "label": "Stone above",
+     "text": "The top half is straight lines: cornices, pillars, a flat sky. Architecture does not care. Its stillness makes the bodies below look even more frantic."
+    },
+    {
+     "points": [
+      [
+       0.25,
+       0.33
+      ],
+      [
+       0.46,
+       0.33
+      ],
+      [
+       0.77,
+       0.35
+      ]
+     ],
+     "closed": false,
+     "label": "Hands in the air",
+     "text": "Three women throw an arm up at almost the same height, left, center and right. The gesture repeats like a beat, and it carries the scream across the canvas."
+    },
+    {
+     "points": [
+      [
+       0.17,
+       0.12
+      ],
+      [
+       0.4,
+       0.45
+      ],
+      [
+       0.68,
+       0.62
+      ],
+      [
+       0.9,
+       0.85
+      ]
+     ],
+     "closed": false,
+     "label": "The slope",
+     "text": "From Romulus on his platform, the action slides down to the lower right corner, where a family is being torn apart. Orders at the top, consequences at the bottom."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Look at the colors with the same eye. Poussin uses three, pure and strong: blue, red and a golden yellow. He scatters each one across the crowd so that no group goes dead. And every figure has a clean outline, as if cut from stone. That is no coincidence."
+  },
+  {
+   "type": "fact",
+   "text": "To plan a picture, Poussin modeled small wax figures, dressed them in bits of wet cloth, and set them up in a box like a tiny theater, with holes in the sides to control the light. He moved them around until the scene worked, then drew what he saw."
+  },
+  {
+   "type": "text",
+   "text": "He also walked. Rome was full of ancient statues and carved marble coffins, and Poussin spent years drawing them. For this picture he borrowed poses directly from sculpture, old and recent. His first viewers were meant to recognize them, the way you catch a quotation in a speech."
+  },
+  {
+   "type": "tour",
+   "title": "Three ways to be taken",
+   "text": "Poussin gives the violence several faces. Go from left to right.",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.55,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "Lifted off the ground",
+     "text": "A Roman in a gold breastplate hoists a woman in blue, who twists and flings out her arm. The spiral of two bodies comes from a famous marble group in Florence by Giambologna."
+    },
+    {
+     "x": 0.68,
+     "y": 0.57,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The dagger",
+     "text": "A man in yellow armor raises a blade while he reaches for a young woman. His torso and lifted arm echo an ancient statue of a warrior that Poussin knew in a Roman collection."
+    },
+    {
+     "x": 0.75,
+     "y": 0.7,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Father and daughter",
+     "text": "A bald old man throws his weight against the attacker, and the daughter clings to him, her face turned back. Of all the groups, this is the one that puts a family in front of you."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Did you see that nobody bleeds? The swords are up, yet there is no wound anywhere. Poussin keeps the horror in gestures and faces, the way an actor in a classical tragedy would. He believed a painting should be read, figure by figure, each one showing a distinct feeling."
+  },
+  {
+   "type": "key",
+   "text": "Poussin's idea of painting: think first. Even panic is planned, measured and balanced, so that the mind can follow what the heart is shown."
+  },
+  {
+   "type": "text",
+   "text": "And he does not let you forget who pays. In the middle of the foreground, on the bare ground between the fighters, he places the people too old and too young to be of any use to the Romans."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.52,
+     "y": 0.72,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The old woman",
+     "text": "Kneeling, hand to her head, she looks back toward Romulus. Too old to be taken, she is simply left in the dust. Many read her as a mother or a nurse."
+    },
+    {
+     "x": 0.39,
+     "y": 0.87,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A fallen baby",
+     "text": "A child lies on a white cloth, arms up, dropped in the rush. Babies are the clearest sign that the Sabines came as guests, with their families."
+    },
+    {
+     "x": 0.73,
+     "y": 0.47,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The white horse",
+     "text": "A rider in armor carries a woman off on a gray-white horse. Its pale rump is one of the brightest patches in the picture and pulls your eye into the depth."
+    },
+    {
+     "x": 0.53,
+     "y": 0.47,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Sabine men",
+     "text": "Half-naked men swing swords and try to fight back. They were unarmed guests a moment ago. They are outnumbered and already being pushed away."
+    },
+    {
+     "x": 0.44,
+     "y": 0.48,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "A plumed helmet",
+     "text": "A soldier in full armor strides through the middle. The Romans came to the festival ready for this. Their gear is the proof that it was planned."
+    },
+    {
+     "x": 0.75,
+     "y": 0.2,
+     "zoom": 1.6,
+     "r": 0.25,
+     "title": "The city",
+     "text": "Heavy stone blocks, square pillars, dark doorways. Poussin builds an early Rome that is plain and hard, with no ornaments yet. A city that still has everything to take."
+    },
+    {
+     "x": 0.38,
+     "y": 0.12,
+     "zoom": 1.8,
+     "r": 0.18,
+     "title": "The sky",
+     "text": "Thick clouds with a yellow light breaking behind them. The weather sits between storm and clearing, like the story, which is both a crime and a beginning."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The old title of the subject, “The Rape of the Sabine Women,” uses the word in its Latin sense. “Raptus” meant carrying off, kidnapping. That is why museums today, including the Met, prefer “abduction.”"
+  },
+  {
+   "type": "text",
+   "text": "The Romans told the sequel with pride. The stolen women became wives and mothers, and when their fathers came back with an army, they ran between the two lines and stopped the battle. A French painter, Jacques-Louis David, painted that moment in 1799. Poussin stays with the first day, when nothing is forgiven yet."
+  },
+  {
+   "type": "fact",
+   "text": "Painters kept coming back to this composition as a lesson in how to organize a crowd. Poussin made a second version a few years later, now in the Louvre. The young Edgar Degas copied that one figure for figure, and in the 1960s Picasso, past eighty, painted his own furious variations on the theme."
+  },
+  {
+   "type": "text",
+   "text": "Remember the man who gave up on fame in 1633? Within a few years the king of France was begging him to come home. He went, hated it, and returned to his small house in Rome for good. He had found what he wanted there: a quiet room, a box of wax figures, and the largest dramas he could fit inside it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What had happened to Poussin shortly before he painted this picture?",
+   "options": [
+    "He had become the pope's official painter",
+    "He had nearly died of an illness and married the daughter of the cook who nursed him",
+    "He had gone back to live in Paris"
+   ],
+   "answer": 1,
+   "explanation": "He recovered in the Dughet household and married Anne-Marie Dughet in 1630."
+  },
+  {
+   "question": "How does Romulus give the signal?",
+   "options": [
+    "He lifts the edge of his cloak",
+    "He blows a horn",
+    "He draws his sword"
+   ],
+   "answer": 0,
+   "explanation": "Standing on the temple platform, he raises his red cloak."
+  },
+  {
+   "question": "What did Poussin use to plan his compositions?",
+   "options": [
+    "Live actors on a stage",
+    "Tracings of other paintings",
+    "Small wax figures set up in a box"
+   ],
+   "answer": 2,
+   "explanation": "He arranged wax models in a miniature theater and drew from them."
+  },
+  {
+   "question": "Which three colors does Poussin scatter across the crowd?",
+   "options": [
+    "Green, purple and orange",
+    "Blue, red and golden yellow",
+    "Black, white and pink"
+   ],
+   "answer": 1,
+   "explanation": "Pure blue, red and yellow recur from one group to the next."
+  },
+  {
+   "question": "What did “raptus” mean in Latin?",
+   "options": [
+    "Carrying off, kidnapping",
+    "A wedding feast",
+    "A battle"
+   ],
+   "answer": 0,
+   "explanation": "The old title uses the word in the sense of abduction."
+  },
+  {
+   "question": "Who lies in the foreground, between the fighters?",
+   "options": [
+    "Wounded Roman soldiers",
+    "Romulus's guards",
+    "An old woman and babies"
+   ],
+   "answer": 2,
+   "explanation": "Poussin puts those too old or too young to be taken at the front."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Poussin painted this canvas as an altarpiece for a church in Rome.",
+   "isTrue": false,
+   "explanation": "It was a mid-sized picture for a private collector, the French ambassador."
+  },
+  {
+   "text": "Some of the poses are borrowed from sculptures.",
+   "isTrue": true,
+   "explanation": "The lifted woman recalls Giambologna's marble group, and the man with the dagger an ancient statue."
+  },
+  {
+   "text": "The painting is full of bleeding wounds.",
+   "isTrue": false,
+   "explanation": "Swords are raised, but Poussin shows no blood at all."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+  "teaser": "Its first audience answered with silence, and the painting sat in storage for decades.",
+  "focus": [0.34, 0.47],
+  "review_notes": "No recorded public reaction in 1814; the picture is thought to have gone into storage soon after and is first listed in a Prado catalog in 1872: confirm dates.\nGoya's February 1814 petition to the regency government, quoted loosely ('perpetuate with the brush the most notable and heroic actions of our glorious insurrection against the tyrant of Europe'): paraphrased, check wording.\nMark in the raised right palm read as a stigma: visible as a small dark dent in this image; interpretation is common but not certain.\nKneeling man in gray with clasped hands described as a friar (usually identified as a Franciscan).\nKenneth Clark's judgment paraphrased ('the first great picture which can be called revolutionary in every sense of the word').\nManet's Execution of Maximilian (1867-69) and Picasso's Massacre in Korea (1951) as descendants.\nDimensions 268 x 347 cm. Goya aged 67-68 in 1814.",
+  "lesson": [
+    {"type": "text", "text": "Nobody wrote a word. When Goya delivered this canvas in 1814, there was no unveiling that we know of, no review, no letter of thanks from the court. The first people to see one of the most famous pictures in the world seem to have looked, said nothing on paper, and had it put away."},
+    {"type": "text", "text": "It stayed away for a long time. The painting belonged to the Spanish crown and later sat in the storerooms of the Prado. It does not appear in the museum's printed catalog until 1872, almost sixty years after it was made and more than forty after Goya's death."},
+    {"type": "text", "text": "Why the silence? Start with what the picture records. On May 2, 1808, the people of Madrid rose against Napoleon's army, which had occupied the city. The revolt was crushed within hours. That night and into the early morning of May 3, French firing squads shot hundreds of prisoners in batches at the edges of town."},
+    {"type": "text", "text": "Six years later the French were gone. Goya, then in his late sixties and stone deaf, wrote to the temporary government offering to paint the uprising, to keep alive with his brush the heroic deeds of the revolt against “the tyrant of Europe.” He was given a stipend and made two huge canvases, one for each day."},
+    {"type": "fact", "text": "Goya had a reason to prove his patriotism. During the occupation he had stayed in Madrid, kept his post as court painter and made portraits of French officials. After the war, people who had served the invaders were investigated. He was cleared."},
+    {"type": "text", "text": "A government that orders a monument to its heroes expects glory. Goya handed over something else. The canvas is 2.7 meters tall and 3.5 wide (about 9 by 11 feet), and it contains no battle, no flag, no leader. It contains a man who is about to be shot."},
+    {"type": "tour", "title": "The man in white", "text": "Everything in the picture is arranged around one figure. Stay with him for three taps.", "spots": [
+      {"x": 0.335, "y": 0.52, "zoom": 2.2, "r": 0.11, "shape": "rect", "title": "White and yellow", "text": "His shirt is the brightest patch on the canvas, his trousers the warmest. He is kneeling: if he stood, he would be taller than anyone here. Goya bent the scale to make him loom."},
+      {"x": 0.345, "y": 0.44, "zoom": 4, "r": 0.04, "title": "The face", "text": "Dark eyebrows raised, eyes wide, mouth open. It is drawn in a few rough strokes, closer to a cartoon than a portrait. He is nobody in particular, so he can be anybody."},
+      {"x": 0.215, "y": 0.4, "zoom": 4.2, "r": 0.04, "title": "The open palm", "text": "His arms spread like those of Christ on the cross. In the hollow of this hand is a small dark mark, often read as the nail wound of the crucifixion."}
+    ]},
+    {"type": "text", "text": "So the old language of martyrdom is here, but with a brutal change. In a church painting, the martyr looks up and heaven answers with light. Here the sky is a slab of black, covering the upper third of the canvas. The light that falls on the man comes from the ground."},
+    {"type": "find", "text": "What is lighting this scene? Tap the source.", "spots": [
+      {"x": 0.6, "y": 0.72, "zoom": 3, "r": 0.06, "title": "The lantern", "text": "A big square box lantern stands on the dirt between killers and victims. It was put there so the soldiers could aim. The holy glow of older art has become a piece of army equipment."}
+    ]},
+    {"type": "key", "text": "Goya kept the pose of a saint and took away the reward. No angel comes, no cause is shown winning. This is why the painting is often called the first modern image of war: it sides with the victim and promises nothing."},
+    {"type": "text", "text": "The lantern also divides the picture in two. On its lit side, people. On its dark side, something built to look like a machine. Goya makes the difference with a very simple decision about faces."},
+    {"type": "lines", "text": "Compare how each half of the picture is drawn.", "lines": [
+      {"points": [[0.71, 0.5], [0.81, 0.46], [0.9, 0.45], [0.97, 0.47]], "closed": false, "label": "A wall of backs", "text": "The soldiers repeat the same pose, shoulder to shoulder, heads bent to their sights. Not one face is visible. They are a single shape with many legs."},
+      {"points": [[0.8, 0.5], [0.44, 0.505]], "closed": false, "label": "The muskets", "text": "The barrels and bayonets run dead level, the only straight, hard lines in the painting. They stop a few steps from the chests they point at. At that distance nobody misses."},
+      {"points": [[0.03, 0.82], [0.27, 0.86], [0.33, 0.62], [0.345, 0.44], [0.45, 0.58], [0.6, 0.6]], "closed": false, "label": "Before, during, after", "text": "Read the victims from right to left like a strip of film: men climbing the hill hiding their eyes, the man facing the guns, and the dead in their blood. One fate, three stages."}
+    ]},
+    {"type": "text", "text": "The film strip idea matters. Goya does not show one execution. He shows that it happened before this minute and will happen after it, again and again until morning. The man in white is not the hero of the night. He is simply the one whose turn it is."},
+    {"type": "explore", "spots": [
+      {"x": 0.26, "y": 0.85, "zoom": 2.4, "r": 0.11, "title": "The dead man", "text": "Face down in a pool of red, arms flung wide. His pose mirrors the raised arms of the man in white: this is where that gesture ends."},
+      {"x": 0.27, "y": 0.58, "zoom": 3, "r": 0.07, "title": "The friar", "text": "A man in a gray habit kneels with hands locked in prayer, eyes on the ground. Priests and monks were among those shot that night."},
+      {"x": 0.115, "y": 0.45, "zoom": 3.4, "r": 0.05, "title": "The hidden face", "text": "At the back, one prisoner buries his head in both hands. Each victim meets the guns differently, while the soldiers are all alike."},
+      {"x": 0.27, "y": 0.47, "zoom": 3.4, "r": 0.05, "title": "The stare", "text": "Under a dark cap, this man looks straight at the rifles with clenched fists raised to his chin. Defiance, or terror held in."},
+      {"x": 0.4, "y": 0.72, "zoom": 2.6, "r": 0.09, "title": "The blood", "text": "Goya dragged thick red paint across the ground, possibly with a knife or his fingers. It sits on the surface like the real thing."},
+      {"x": 0.585, "y": 0.27, "zoom": 2.6, "r": 0.09, "title": "The sleeping city", "text": "A church tower and blank buildings under the black sky. No window is lit. Madrid is close by and does nothing."}
+    ]},
+    {"type": "fact", "text": "The paint is as rough as the subject. Goya worked fast, with broad brushes, leaving faces as smears and the hillside as bare streaks. To eyes trained on smooth, polished finish, it could look unfinished. To painters fifty years later it looked like freedom."},
+    {"type": "text", "text": "Now the silence of 1814 makes more sense. The restored king, Ferdinand VII, wanted pictures of victory and order. This one offered ugly, anonymous death in a style that broke every rule of the academy. There was nothing to say about it that anyone at court wanted to say."},
+    {"type": "fact", "text": "When the picture finally came out of storage, artists answered it directly. In the 1860s Édouard Manet built his “Execution of Emperor Maximilian” on Goya's firing squad. In 1951 Pablo Picasso did the same for a painting about the Korean War, with the faceless shooters turned into armored robots."},
+    {"type": "text", "text": "The first audience left no reaction. Every audience since has had one. Stand in front of the canvas in Madrid and you will hear it: the room around it goes quiet, which may be the only thing those first viewers and today's visitors have in common."}
+  ],
+  "quiz": [
+    {"question": "What event does the painting record?", "options": ["A naval battle off the Spanish coast", "French firing squads shooting Madrid prisoners after an uprising", "The coronation of Ferdinand VII"], "answer": 1, "explanation": "After the revolt of May 2, 1808, hundreds of prisoners were shot through the night."},
+    {"question": "Where does the light on the man in white come from?", "options": ["A box lantern on the ground", "The moon", "A burning building"], "answer": 0, "explanation": "The soldiers' lantern, placed so they could aim, is the only source of light."},
+    {"question": "How does Goya make the soldiers seem like a machine?", "options": ["He paints them in bright colors", "He makes them much smaller than the victims", "He hides all their faces and repeats one pose"], "answer": 2, "explanation": "They form a faceless wall of backs with level muskets."},
+    {"question": "What earlier image does the central man's pose recall?", "options": ["A king on his throne", "Christ on the cross", "A dancer"], "answer": 1, "explanation": "His spread arms and the mark in his palm echo the crucifixion."},
+    {"question": "When does the painting first appear in the Prado's printed catalog?", "options": ["1872", "1814", "1951"], "answer": 0, "explanation": "It spent decades in storage and was listed only in 1872."},
+    {"question": "Which later artist based a painting of an emperor's execution on it?", "options": ["Claude Monet", "Vincent van Gogh", "Édouard Manet"], "answer": 2, "explanation": "Manet's “Execution of Emperor Maximilian” borrows Goya's firing squad."}
+  ],
+  "facts": [
+    {"text": "Goya painted the scene on the night it happened, in 1808.", "isTrue": false, "explanation": "He painted it six years later, in 1814, after the French had left."},
+    {"text": "The black sky takes up roughly the upper third of the canvas.", "isTrue": true, "explanation": "No light or help comes from above; the glow comes from the ground."},
+    {"text": "The victims are shown as one identical group while each soldier has a distinct face.", "isTrue": false, "explanation": "It is the reverse: each victim reacts differently and the soldiers have no faces."}
+  ]
+}

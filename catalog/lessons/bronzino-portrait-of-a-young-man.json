@@ -1,0 +1,42 @@
+{
+  "teaser": "He looks perfectly composed. The furniture around him is pulling faces.",
+  "focus": [0.48, 0.2],
+  "review_notes": "Sitter unidentified; 'probably from Bronzino's literary circle' follows the Met's reading.\nThird grotesque face suggested in the folds of the breeches is taken from the Met's description; it is not pointed at because the area is too dark in the image.\nX-ray findings (background architecture and pose revised during painting): please check against the Met's technical notes.\nBronzino's comic poem in praise of the onion (La Cipolla): fairly sure, please confirm.\nHavemeyer bequest 1929: please confirm.",
+  "lesson": [
+    {"type": "text", "text": "Would you interrupt this young man? He has stopped reading, one finger still marking his page, and turned to see who walked in. His hand goes to his hip. Nothing in his face says you are welcome, and nothing says you are not. Bronzino painted that perfect, unreadable pause in Florence in the 1530s."},
+    {"type": "text", "text": "Nobody knows his name. He is dressed in expensive black satin, slashed on the sleeves so the fabric puckers and catches light, and he holds a book the way other sitters hold a sword. That suggests one of the young writers and scholars Bronzino counted as friends. The details of his face and costume say more than any label could."},
+    {"type": "tour", "title": "Head and hands", "text": "Three places where Bronzino tells you who this person wants to be.", "spots": [
+      {"x": 0.49, "y": 0.18, "zoom": 3.4, "r": 0.09, "title": "Two eyes, two directions", "text": "His right eye meets yours. The other, on our right, drifts outward. Bronzino kept the wandering eye instead of correcting it, and it makes the stare impossible to pin down."},
+      {"x": 0.5, "y": 0.1, "zoom": 3, "r": 0.12, "title": "Gold on the cap", "text": "The black cap is studded with small gold tags. They are the only bright ornament above the collar: wealth shown in a whisper, which was the fashion among Florence's elite."},
+      {"x": 0.1, "y": 0.6, "zoom": 3, "r": 0.09, "title": "A finger in the book", "text": "The book stands upright on the table, his index finger slipped between the pages. He will go back to reading the moment you leave."}
+    ]},
+    {"type": "text", "text": "That cool distance has a name. Italians of the time admired sprezzatura, a studied ease that hides all effort. Bronzino was its perfect painter. Skin is smooth as polished stone, with no visible brushstroke, and the pose is elegant to the point of stiffness. Art historians call this style Mannerism: grace pushed so far that it becomes a little artificial."},
+    {"type": "fact", "text": "Bronzino was a published poet as well as a painter. Alongside serious sonnets he wrote comic verse full of double meanings, including a long poem in praise of the onion. A taste for jokes hidden under a polished surface runs through his pictures too."},
+    {"type": "text", "text": "Which brings us to the joke in this one. The young man keeps a straight face, but he is not the only face in the room. Bronzino has hidden others in the furniture, and they are behaving very differently."},
+    {"type": "find", "text": "Something is grimacing under the table top. Where?", "spots": [
+      {"x": 0.055, "y": 0.865, "zoom": 3.4, "r": 0.07, "title": "The mask on the table", "text": "A carved head with sagging cheeks and a slack mouth peers out from the pink table leg, half wrapped in carved cloth. It is everything the sitter's face is not: old, loose, expressive."}
+    ]},
+    {"type": "text", "text": "There is a second one. On the right, the arm of the chair ends in a snarling, lion-like head. Some viewers find a third in the bunched folds of the breeches below the belt, though it is hard to make out. Grotesque masks surround a young man whose own features give nothing away. Perhaps his calm is a mask as well."},
+    {"type": "key", "text": "In a Bronzino portrait the face is a performance. The clues to character are pushed to the edges: hands, objects, and here the carved faces that do the grimacing for him."},
+    {"type": "text", "text": "The setting is as strange as the furniture. Walls, a doorway and a jutting bracket meet at angles no real room would have. X-rays show Bronzino reworked this background while painting, so the oddness is a choice. The architecture is there to frame a figure, not to be lived in."},
+    {"type": "lines", "text": "Two sets of lines hold the figure in place like a statue in a niche.", "lines": [
+      {"points": [[0.255, 0.03], [0.255, 0.7]], "closed": false, "label": "A hard vertical", "text": "The edge of the gray pier drops straight down behind his shoulder. Together with the yellow door on the right, it boxes him in with upright lines and makes him look taller."},
+      {"points": [[0.75, 0.4], [0.93, 0.6], [0.58, 0.76]], "closed": false, "label": "The elbow", "text": "His arm juts out in a sharp angle toward the door. In the Renaissance a hand on the hip with the elbow out was the pose of soldiers and princes: it claims space."},
+      {"points": [[0.2, 0.5], [0.1, 0.56], [0.1, 0.68]], "closed": false, "label": "The other arm", "text": "On the left the arm does the opposite. It reaches down and rests, calm, on the book. Action on one side, thought on the other."}
+    ]},
+    {"type": "fact", "text": "The panel measures about 96 by 75 centimeters (38 by 30 inches) and hangs in the Metropolitan Museum of Art. It arrived in 1929 with the collection of the Havemeyers, a New York sugar-refining family better known for buying Degas and Monet."},
+    {"type": "text", "text": "A few years after this portrait, Bronzino became court painter to the Medici dukes of Florence, and his icy formula became the official face of power for a generation. Go back to the first question now. You still cannot tell whether you are welcome. That was the whole idea."}
+  ],
+  "quiz": [
+    {"question": "What is unusual about the young man's eyes?", "options": ["They are different colors", "One of them drifts outward", "They are closed"], "answer": 1, "explanation": "One eye meets ours while the other wanders, and Bronzino chose to keep it."},
+    {"question": "What does sprezzatura mean?", "options": ["A studied ease that hides effort", "A technique for painting satin", "A type of carved furniture"], "answer": 0, "explanation": "It was the admired ideal of looking effortlessly graceful."},
+    {"question": "Where are the grotesque faces in the painting?", "options": ["In the clouds", "On the pages of the book", "Carved into the table and the chair"], "answer": 2, "explanation": "One mask sits under the table top and another ends the arm of the chair."},
+    {"question": "Besides painting, what was Bronzino known for?", "options": ["Architecture", "Poetry", "Banking"], "answer": 1, "explanation": "He was a published poet who wrote both sonnets and comic verse."},
+    {"question": "What did the hand on the hip with a jutting elbow signal at the time?", "options": ["Confidence and a claim to space", "Illness", "Religious devotion"], "answer": 0, "explanation": "It was a pose associated with soldiers and princes."}
+  ],
+  "facts": [
+    {"text": "The sitter's name is recorded on the back of the panel.", "isTrue": false, "explanation": "Nobody knows who he is; he may have belonged to Bronzino's circle of writers."},
+    {"text": "Bronzino later became court painter to the Medici.", "isTrue": true, "explanation": "A few years after this portrait he entered the service of the dukes of Florence."},
+    {"text": "X-rays show that Bronzino changed the background while he worked.", "isTrue": true, "explanation": "The odd architecture is the result of deliberate revision."}
+  ]
+}

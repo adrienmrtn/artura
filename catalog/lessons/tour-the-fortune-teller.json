@@ -1,0 +1,56 @@
+{
+  "teaser": "Five people, one coin, and three thefts happening at the same time.",
+  "focus": [0.5, 0.45],
+  "review_notes": "Date: the Met gives 'probably 1630s'; the catalog year 1632 is an estimate.\nSize about 102 x 123 cm (40 x 48 in).\nSignature reads 'G. de La Tour Fecit Luneuillæ Lothar' (made at Lunéville, Lorraine).\nStory that the picture was recognized in a family château by a French prisoner of war (Jacques Celier) who had seen a book on La Tour: reported by the Met's provenance, please confirm before publishing.\nMet purchase in 1960 and the questions put to culture minister André Malraux in the French parliament: well documented.\nThe word 'MERDE' found in the lace of the second woman's shawl, judged a later addition and removed in 1982: confirm wording with Met catalogue.\nThe canvas is believed to have been cut down on the left side.\nThe 'echo' opening (heist films, street pickpocket teams) is a general comparison, not a documented influence.",
+  "lesson": [
+    {"type": "text", "text": "You know this scene from the movies. A charming stranger keeps the mark talking, a partner brushes past, and the wallet is gone before the conversation ends. Heist films call it misdirection. Georges de La Tour staged it on canvas almost four hundred years ago, with a cast of five."},
+    {"type": "text", "text": "The setup is simple. A rich young man, dressed to impress, has stopped to have his fortune told. The old woman on the right holds up a coin: in this ritual the client pays first, and she uses the coin to trace a cross on his palm. He believes he is about to learn his future."},
+    {"type": "text", "text": "Nobody speaks, and nobody moves much. Everything is said with the eyes. So before the hands, start with the faces, from the boy outward."},
+    {"type": "tour", "title": "Four pairs of eyes", "text": "Not one person here looks where their hands are.", "spots": [
+      {"x": 0.4, "y": 0.2, "zoom": 2.8, "r": 0.09, "title": "The young man", "text": "His head faces us, his eyes slide toward the old woman. He looks suspicious of her, and of her alone. That is exactly the mistake the others are counting on."},
+      {"x": 0.76, "y": 0.32, "zoom": 2.8, "r": 0.09, "title": "The fortune teller", "text": "Deep wrinkles, a hooked nose, a mouth half open in mid-speech. La Tour paints her as a bundle of lines, the opposite of the smooth faces beside her. Her job is to hold his attention."},
+      {"x": 0.6, "y": 0.21, "zoom": 3, "r": 0.08, "title": "The sidelong glance", "text": "A perfect oval face, completely still, with the pupils pushed to the corners of the eyes. She is watching the boy's face to make sure he is not watching her hands."},
+      {"x": 0.19, "y": 0.22, "zoom": 2.8, "r": 0.08, "title": "The profile", "text": "A woman with black hair, seen strictly from the side, leaning in behind the victim's shoulder. Her eyes are lowered toward his waist."}
+    ]},
+    {"type": "text", "text": "Those crossed glances tell you who is working with whom. The four women are one team. The old one talks. The others harvest. The boy stands in the middle with his hand on his hip, proud of his own caution."},
+    {"type": "find", "text": "On the left, a hand is slipping something out of the young man's pocket. Where?", "spots": [
+      {"x": 0.245, "y": 0.82, "zoom": 3.5, "r": 0.06, "title": "The purse", "text": "Two fingers of the woman in the white sleeve lift his purse by its cords. Just above, her partner's open hand already waits in the dark to pass it along."}
+    ]},
+    {"type": "text", "text": "One theft would be a joke. La Tour gives you a small production line: one woman lifts the purse, a second receives it. And on the other side of the boy's body, a third is at work with a blade."},
+    {"type": "fact", "text": "The painter signed in the top right corner in elegant handwriting, adding in Latin that he made the picture at Lunéville, in Lorraine. Lorraine was then an independent duchy between France and the German lands, and Lunéville was his home for most of his life."},
+    {"type": "text", "text": "La Tour was a baker's son who became a wealthy landowner. He probably never saw Rome, but he knew what had come out of it. Around 1595 the Italian painter Caravaggio had made a hit with a fortune teller stealing a ring from a naive youth, and the subject spread across Europe."},
+    {"type": "tour", "title": "The other side", "text": "Follow the gold chain that crosses the boy's chest down to where it ends.", "spots": [
+      {"x": 0.58, "y": 0.76, "zoom": 4, "r": 0.06, "title": "The cut", "text": "The pale girl holds his chain in one hand and small cutters in the other. She is snipping off the gold medal that hangs from it, without lowering her eyes."},
+      {"x": 0.605, "y": 0.87, "zoom": 4, "r": 0.04, "shape": "arrow", "title": "The medal", "text": "The prize itself: a gold medallion dangling at the end of the chain, about to drop into her palm."},
+      {"x": 0.585, "y": 0.52, "zoom": 3.5, "r": 0.07, "title": "The coin", "text": "The old woman pinches a coin above his open palm. This small bright disk is the center of the trick. While everyone is supposed to watch it, the real action happens lower down."}
+    ]},
+    {"type": "key", "text": "The painting works like the con it shows. La Tour puts faces and a shining coin at eye level to hold your attention, and hides the story in the hands below."},
+    {"type": "text", "text": "Is it a sermon or a comedy? Probably both. Viewers of the time knew the Bible story of the prodigal son, the rich boy who wastes his inheritance in bad company. They also enjoyed street theater, with its stock characters of the fool and the swindler. The costumes here are stage-bright, not everyday clothes."},
+    {"type": "text", "text": "The style matters as much as the plot. This is a daylight picture: flat, clear light with almost no shadow, colors like enamel, outlines as crisp as cut paper. La Tour is better known for night scenes lit by a single candle. Works like this one show the other half of him."},
+    {"type": "fact", "text": "After La Tour died in 1652, his name was forgotten for more than two and a half centuries. His paintings hung under other artists' names until a German art historian reconnected a few of them in 1915. This one only surfaced in the 1940s, in a French family home."},
+    {"type": "text", "text": "Then came the quarrel. In 1960 the Metropolitan Museum in New York announced it had bought the painting. France was furious that such a rare picture had been allowed to leave, and the culture minister, the writer André Malraux, had to explain the export to parliament."},
+    {"type": "explore", "spots": [
+      {"x": 0.895, "y": 0.08, "zoom": 3.5, "r": 0.08, "title": "The signature", "text": "A looping calligraphic line, like a penmanship exercise. It names the artist and his town, Lunéville. Signed La Tours are rare, which made this corner precious to scholars."},
+      {"x": 0.81, "y": 0.75, "zoom": 2, "r": 0.14, "title": "A coat of many patterns", "text": "The fortune teller's wrap is a patchwork of woven bands, some with animals and flowers. La Tour paints each thread pattern flat, like a carpet hung on her shoulder."},
+      {"x": 0.07, "y": 0.63, "zoom": 2.2, "r": 0.11, "title": "The white sleeve", "text": "A sleeve dotted with tiny embroidered flowers and gold buttons. The thief on the left is the best dressed person in the room. Her face is almost cut off by the edge."},
+      {"x": 0.39, "y": 0.34, "zoom": 3, "r": 0.08, "title": "The collar", "text": "A white collar over a second one embroidered in pink, tied with a thin cord. Every detail of the boy's outfit says money, which is why he was chosen."},
+      {"x": 0.42, "y": 0.6, "zoom": 2.5, "r": 0.09, "title": "The red sash", "text": "A fat knot of red silk at the exact center of the canvas, its two ends weighted with gold tassels. It ties the whole color scheme of reds, pinks and tans together."},
+      {"x": 0.27, "y": 0.65, "zoom": 3, "r": 0.07, "title": "Hand on hip", "text": "His fist rests on his hip, elbow out: a pose of swagger. That elbow pushes toward the two women at the left and opens up his pocket for them."}
+    ]},
+    {"type": "fact", "text": "In the 1980s a few critics claimed the painting was a modern fake. Part of the evidence was a rude French word found woven into the lace shawl of the woman in profile. Museum experts judged it a restorer's prank, removed it, and laboratory tests supported the picture's age."},
+    {"type": "text", "text": "So the picture about being fooled has itself been suspected of fooling everyone. It keeps its place on the wall, and it keeps its best joke for the viewer: you came in feeling smarter than the boy, and it still took you a while to count all the hands."}
+  ],
+  "quiz": [
+    {"question": "What is the old woman holding up?", "options": ["A playing card", "A coin", "A mirror"], "answer": 1, "explanation": "The client pays with a coin, which she uses in the palm reading."},
+    {"question": "What is the pale girl next to the young man doing?", "options": ["Cutting a gold medal from his chain", "Reading his palm", "Whispering a warning"], "answer": 0, "explanation": "She snips the medal off while keeping her eyes on his face."},
+    {"question": "Where did La Tour say he painted the picture?", "options": ["Rome", "Paris", "Lunéville, in Lorraine"], "answer": 2, "explanation": "The signature in the top right corner names Lunéville."},
+    {"question": "Which earlier painter made the fortune teller subject popular?", "options": ["Caravaggio", "Rembrandt", "Poussin"], "answer": 0, "explanation": "Caravaggio painted a fortune teller stealing a ring around 1595."},
+    {"question": "Why did the painting cause a scandal in 1960?", "options": ["It was stolen from the Louvre", "It was damaged in transport", "France had let it leave for a New York museum"], "answer": 2, "explanation": "The Met's purchase angered the French public and reached parliament."},
+    {"question": "How is the light in this painting?", "options": ["A single candle in the dark", "Clear, even daylight", "Moonlight through a window"], "answer": 1, "explanation": "It is one of La Tour's daylight pictures, with almost no shadow."}
+  ],
+  "facts": [
+    {"text": "The young man is robbed by a single thief.", "isTrue": false, "explanation": "Several women work together: one takes his purse, another cuts his medal."},
+    {"text": "La Tour was forgotten for more than 250 years after his death.", "isTrue": true, "explanation": "His work was only reassembled starting in 1915."},
+    {"text": "The painting has never been suspected of being a fake.", "isTrue": false, "explanation": "A few critics called it a forgery in the 1980s, a claim that tests did not support."}
+  ]
+}

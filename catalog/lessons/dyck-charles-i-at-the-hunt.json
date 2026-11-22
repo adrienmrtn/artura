@@ -1,0 +1,242 @@
+{
+ "teaser": "The king looked at his own portrait and cut the painter's bill in half.",
+ "focus": [
+  0.33,
+  0.32
+ ],
+ "review_notes": "Opening: 1638 memorandum of sums owed to Van Dyck, in which 'Le Roi alla ciasse' is priced at 200 pounds and reduced by the king to 100 pounds. Standard account; check before publishing.\nCharles I's height, about 1.63 m (5 ft 4 in): commonly cited figure.\nInscription on the rock at lower right: CAROLUS I REX MAGNAE BRITANNIAE (visible but small in our image), with Van Dyck's signature.\nCanvas about 266 x 207 cm.\nVan Dyck: born Antwerp 1599, in London from 1632, knighted, died 1641 aged 42.\nCharles I ruled without Parliament from 1629 to 1640 and was beheaded on 30 January 1649.\nLater history: in France by the 18th century; bought by Madame du Barry and acquired for Louis XVI in 1775. How it left England is not documented.\nThe two attendants are not named in the lesson (the groom is sometimes identified as Endymion Porter, without proof).\nThe small white sail on the water at far left (x 0.055, y 0.64) is tiny: check the explore spot in the app.\nVan Dyck's house at Blackfriars with a landing stage built for the king's visits, knighthood (1632) and yearly pension: standard biography.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The first recorded opinion of this painting comes from the man in it, and it is a number. In 1638 Anthony van Dyck sent King Charles I of England a list of pictures still unpaid. For “the king at the hunt” he asked 200 pounds. Charles took a pen, crossed it out, and wrote 100."
+  },
+  {
+   "type": "text",
+   "text": "It was not an insult. The king did the same to other lines on the list, because his treasury was nearly empty. He had fallen out with Parliament, the assembly that approved taxes, and had been ruling without it since 1629. Short of money, he still kept Van Dyck busy. Images were one thing he could afford to win."
+  },
+  {
+   "type": "text",
+   "text": "And he needed help with his image. Charles was a small, shy man, around 1.63 meters tall (5 ft 4 in), with a stammer. Yet he believed that kings were chosen by God and answered to no one. Van Dyck's job was to make people see the second man and forget the first."
+  },
+  {
+   "type": "text",
+   "text": "The surprise is how he did it here. Royal portraits usually pile on the proof: crown, ermine robe, throne, or armor on a rearing horse. In this picture there is none of that. The king has got off his horse during a day outdoors. So how do you know, in half a second, who is in charge?"
+  },
+  {
+   "type": "tour",
+   "title": "Reading a body",
+   "text": "No crown anywhere. The authority is all in how he stands.",
+   "spots": [
+    {
+     "x": 0.33,
+     "y": 0.31,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The glance",
+     "text": "He does not turn to face you. He looks back over his shoulder, from under a tilted hat, as if you had just walked up and he is deciding whether you matter."
+    },
+    {
+     "x": 0.39,
+     "y": 0.51,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The elbow",
+     "text": "His arm juts out toward you, hand on hip with a glove dangling from it. In portraits of the time a pushed-out elbow means: keep your distance. It also widens a narrow man."
+    },
+    {
+     "x": 0.15,
+     "y": 0.5,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The cane",
+     "text": "His other hand rests lightly on a walking stick, arm stretched full length. He takes up space on both sides without making any effort."
+    },
+    {
+     "x": 0.3,
+     "y": 0.83,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Boots and spurs",
+     "text": "Soft pale boots folded at the knee, gold spurs, feet set apart on firm ground. He has been riding, but nothing is muddy. Ease is the message."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "One trick does not show up in any single detail. Van Dyck paints the king from below, as if you stood a little downhill. The horizon sits low, so Charles's head rises against open sky, above everything except the tree. A short man becomes a tall one without a centimeter being added."
+  },
+  {
+   "type": "fact",
+   "text": "Van Dyck was Flemish, from Antwerp, and had been the most gifted assistant in the workshop of Rubens. Charles lured him to London in 1632 with a knighthood, a yearly pension and a house by the Thames with its own landing stage for royal visits."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the silver jacket. Satin was Van Dyck's specialty: a gray base, then quick, sharp strokes of near-white where the folds catch the sun. It is the brightest thing on the canvas, placed just left of the middle. Your eye goes to the king first because the light does."
+  },
+  {
+   "type": "text",
+   "text": "Now compare him with the other living creatures in the picture. There are three, and each has been arranged to make him look better. One of them even seems to know the rules of court."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.56,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The bowing horse",
+     "text": "The gray horse lowers its head and paws the ground. It is probably just restless, but the effect is a deep bow toward its master."
+    },
+    {
+     "x": 0.55,
+     "y": 0.33,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The groom",
+     "text": "A servant holds the horse and looks away, toward the saddle. His face is in shadow and his red coat is dull. Nothing about him competes with the king."
+    },
+    {
+     "x": 0.47,
+     "y": 0.42,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The page",
+     "text": "A boy carries the king's cloak, a bundle of pink satin. He too looks elsewhere. Only Charles is allowed to meet your eyes."
+    },
+    {
+     "x": 0.42,
+     "y": 0.2,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "A natural canopy",
+     "text": "Thrones stood under a cloth canopy as a mark of rank. Here the branches of a tree spread over the king's head and do the same job."
+    },
+    {
+     "x": 0.055,
+     "y": 0.64,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "A sail",
+     "text": "Far below, on a strip of water, a tiny white sail. The land runs down to the sea: a discreet reminder that this man rules an island kingdom.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.92,
+     "y": 0.5,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The empty saddle",
+     "text": "A gold saddlecloth and a stirrup hang ready on the right. He could mount and ride off at any moment. He stays because he chooses to."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Put together, it is a new kind of royal image: the king as a perfect gentleman, relaxed, tasteful, at home in his own countryside. The power is so sure of itself that it does not bother to dress up. The canvas is about 2.7 meters high (nearly 9 feet), so this casual man towers over you."
+  },
+  {
+   "type": "text",
+   "text": "Van Dyck knew that the lack of a crown was a risk. A stranger might take the sitter for some rich landowner. So he left a caption, in a place where it would not spoil the effect."
+  },
+  {
+   "type": "find",
+   "text": "Charles's name and title are written inside the painting. Search the shadows near the bottom edge.",
+   "spots": [
+    {
+     "x": 0.925,
+     "y": 0.945,
+     "zoom": 4,
+     "r": 0.07,
+     "title": "Carved in stone",
+     "text": "On a rock at the lower right, in Latin: Charles I, King of Great Britain. The painter signed there too. It is the only place where the picture says “king” out loud."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Van Dyck showed that authority can be painted as an attitude. A low viewpoint, a turned shoulder and an elbow do the work of a crown."
+  },
+  {
+   "type": "fact",
+   "text": "The calm did not last. Civil war between king and Parliament broke out in 1642. Charles lost, was put on trial, and was beheaded in London in January 1649. Van Dyck did not see it: he had died in 1641, aged 42."
+  },
+  {
+   "type": "text",
+   "text": "The portrait left England, nobody knows quite how, and surfaced in France. In 1775 it entered the collection of King Louis XVI, who would die on the guillotine eighteen years later. It has been in the Louvre ever since the royal collection became a museum."
+  },
+  {
+   "type": "fact",
+   "text": "English painters never got over Van Dyck. A century later Thomas Gainsborough still dressed his sitters in “Van Dyck costume” and borrowed his poses. The hand-on-hip stance of this portrait became a standard way to paint anyone who wanted to look important."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did Charles I do when Van Dyck billed him 200 pounds for this portrait?",
+   "options": [
+    "He paid double",
+    "He cut the price to 100 pounds",
+    "He sent the painting back"
+   ],
+   "answer": 1,
+   "explanation": "The king reduced several prices on the painter's list, this one by half."
+  },
+  {
+   "question": "How does Van Dyck make a short king look tall?",
+   "options": [
+    "He paints him from a low viewpoint against the sky",
+    "He puts him on a throne",
+    "He gives him very high heels"
+   ],
+   "answer": 0,
+   "explanation": "The low horizon lifts Charles's head above the landscape."
+  },
+  {
+   "question": "What does the jutting elbow signal?",
+   "options": [
+    "That he is tired",
+    "That he is about to draw his sword",
+    "That the viewer should keep a respectful distance"
+   ],
+   "answer": 2,
+   "explanation": "A pushed-out elbow was a sign of rank and reserve in portraits of the time."
+  },
+  {
+   "question": "Where is the king's title written?",
+   "options": [
+    "On his sword belt",
+    "On a rock at the lower right",
+    "On the horse's saddlecloth"
+   ],
+   "answer": 1,
+   "explanation": "A Latin inscription on a stone names him King of Great Britain."
+  },
+  {
+   "question": "In whose workshop had Van Dyck been a star assistant?",
+   "options": [
+    "Rubens",
+    "Rembrandt",
+    "Gainsborough"
+   ],
+   "answer": 0,
+   "explanation": "He trained and worked with Rubens in Antwerp before moving to England."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Charles I wears his crown and royal robe in this portrait.",
+   "isTrue": false,
+   "explanation": "He is dressed as a gentleman outdoors, with no royal regalia."
+  },
+  {
+   "text": "The portrait later belonged to Louis XVI of France.",
+   "isTrue": true,
+   "explanation": "It entered the French royal collection in 1775."
+  },
+  {
+   "text": "Van Dyck lived long enough to see Charles I executed.",
+   "isTrue": false,
+   "explanation": "The painter died in 1641; the king was beheaded in 1649."
+  }
+ ]
+}

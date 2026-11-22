@@ -1,0 +1,40 @@
+{
+  "teaser": "She is on her knees, and she still looks down at you.",
+  "focus": [0.43, 0.2],
+  "review_notes": "The image is a low-resolution black-and-white archive photograph of a cast in a museum interior (presumably the Lehmbruck Museum, Duisburg); only two interactive blocks, on large regions. The material of this particular cast (cast stone or bronze) cannot be told from the photo.\nHeight about 176 cm; modeled in Paris in 1911; shown at the Paris Salon d'Automne 1911 and at the Armory Show, New York, 1913.\nTheodore Roosevelt's mocking comment (comparing talk of its grace to praising a praying mantis) is paraphrased from his 1913 article on the Armory Show; please check.\nLehmbruck: born 1881 in Meiderich (now Duisburg), a miner's son; served as a medical orderly in Berlin in the First World War; died by suicide in Berlin, March 1919, aged 38.\nA bronze cast set up in Duisburg in 1927 was toppled by vandals; a cast was shown in the 1937 Degenerate Art exhibition in Munich.\nLehmbruck Museum designed by his son Manfred Lehmbruck, opened 1964.",
+  "lesson": [
+    {"type": "text", "text": "Kneeling is what you do to make yourself small. This woman kneels, and she is about 176 centimeters tall (5 feet 9 inches), as tall as a person standing. If she rose to her feet she would be a giant. The pose says humility, while the scale says the opposite."},
+    {"type": "text", "text": "The photograph is an old black-and-white view taken inside a museum, with other sculptures on a gallery behind her. She rests on one knee on a rough slab. The other leg is raised, draped in a cloth. One hand hovers at her chest, the other lies on her knee, and her head tips down and to the side."},
+    {"type": "text", "text": "Wilhelm Lehmbruck made her in Paris in 1911. He was a miner's son from the industrial Ruhr in Germany, trained at the academy in Düsseldorf, and until then he had modeled full, rounded bodies in the manner of the French sculptors he admired. Then, within a year, his figures began to stretch."},
+    {"type": "lines", "text": "Follow how far he pulls the body, and how he bends it.", "lines": [
+      {"points": [[0.43, 0.13], [0.36, 0.3], [0.34, 0.5], [0.36, 0.68], [0.4, 0.82]], "closed": false, "label": "The long axis", "text": "From the crown of the head to the resting knee, the torso is drawn out far beyond natural proportions. The neck alone is as long as the face."},
+      {"points": [[0.4, 0.52], [0.58, 0.54], [0.74, 0.61], [0.6, 0.76], [0.62, 0.9]], "closed": false, "label": "The raised leg", "text": "The thigh pushes forward to a sharp knee, then the shin drops under the cloth to the foot. It makes an angle like a folded ruler."},
+      {"points": [[0.4, 0.82], [0.28, 0.79], [0.14, 0.8]], "closed": false, "label": "The trailing leg", "text": "Behind her, the lower leg lies flat along the base to a small pointed foot. It anchors all that height to the ground."}
+    ]},
+    {"type": "text", "text": "Long neck, narrow shoulders, endless limbs set at angles: nobody is built like this. Lehmbruck gives up correct anatomy to get a feeling across, which is the core idea of Expressionism. The stretched saints on medieval German cathedrals do the same thing, and he knew them well."},
+    {"type": "key", "text": "Lehmbruck lengthened the body to show a state of mind. In his hands proportion became a way to speak about what a figure feels inside."},
+    {"type": "text", "text": "So what state of mind is it? She tells no story and holds no attribute, the object that would identify a saint or a goddess. Everything depends on a tilt of the head and two hands."},
+    {"type": "tour", "title": "Head and hands", "text": "Three places where the figure turns inward.", "spots": [
+      {"x": 0.42, "y": 0.18, "zoom": 2.6, "r": 0.11, "title": "The bowed head", "text": "The face is a smooth oval with lowered lids, turned down toward her own shoulder. She is not looking at anything, and certainly not at you."},
+      {"x": 0.41, "y": 0.3, "zoom": 2.8, "r": 0.09, "title": "The hand at the chest", "text": "Long fingers lift toward the collarbone and stop just short of resting there. It could be a greeting, a question, or someone listening to her own breathing."},
+      {"x": 0.66, "y": 0.57, "zoom": 2.8, "r": 0.09, "title": "The hand on the knee", "text": "The other hand lies loosely on the raised knee, over the edge of the cloth. It carries no weight. The whole figure seems to be hovering."}
+    ]},
+    {"type": "text", "text": "Nothing is being done here. The gestures are unfinished and the eyes are closed to the room. People have seen prayer in her, or modesty, or a kind of annunciation. Lehmbruck leaves it open. What he fixes is the mood: quiet, a little sad, and entirely private."},
+    {"type": "fact", "text": "In 1913 the sculpture crossed the Atlantic for the Armory Show, the exhibition that introduced modern art to New York. Former president Theodore Roosevelt reviewed the show and scoffed that praising her grace was like praising the grace of a praying mantis."},
+    {"type": "text", "text": "The war broke Lehmbruck. He served as a medical orderly in a Berlin military hospital, sank into depression, and took his own life in 1919, at thirty-eight. His later figures are thinner still: a fallen soldier on all fours, a seated youth with his head in his hand."},
+    {"type": "fact", "text": "The quiet figure kept making enemies. A cast set up in a public garden in his home city of Duisburg in 1927 was knocked over by vandals. Ten years later the Nazis put the Kneeling Woman in their “Degenerate Art” exhibition, meant to ridicule modern artists."},
+    {"type": "text", "text": "Duisburg came around. In 1964 the city opened a museum for his work, designed by his son, the architect Manfred Lehmbruck. The Kneeling Woman is its emblem. She was pushed over, mocked and banned, and through all of it she has kept her eyes lowered."}
+  ],
+  "quiz": [
+    {"question": "What is contradictory about the Kneeling Woman?", "options": ["She kneels but is as tall as a standing person", "She smiles but is crying", "She is made of wood painted to look like stone"], "answer": 0, "explanation": "The humble pose is combined with a height of about 176 cm."},
+    {"question": "Why did Lehmbruck stretch the body?", "options": ["He had a narrow block of stone", "To express an inner state", "His model was unusually tall"], "answer": 1, "explanation": "He gave up correct anatomy to convey feeling, the core idea of Expressionism."},
+    {"question": "Where did he make the sculpture?", "options": ["Berlin", "New York", "Paris"], "answer": 2, "explanation": "He modeled it in Paris in 1911."},
+    {"question": "How did Theodore Roosevelt react to it at the Armory Show?", "options": ["He bought a cast", "He mocked it, comparing it to a praying mantis", "He called it the best work in the show"], "answer": 1, "explanation": "He scoffed at the idea that the figure was graceful."},
+    {"question": "Who designed the museum in Duisburg that holds Lehmbruck's work?", "options": ["His son Manfred", "His teacher in Düsseldorf", "A French architect"], "answer": 0, "explanation": "The architect Manfred Lehmbruck designed the museum, opened in 1964."}
+  ],
+  "facts": [
+    {"text": "The Kneeling Woman looks directly at the viewer.", "isTrue": false, "explanation": "Her head is bowed and her eyelids are lowered."},
+    {"text": "The Nazis displayed the Kneeling Woman in their “Degenerate Art” exhibition.", "isTrue": true, "explanation": "It was shown there in 1937 to ridicule modern art."},
+    {"text": "Lehmbruck lived to old age and saw his museum open.", "isTrue": false, "explanation": "He died in 1919 at thirty-eight; the museum opened in 1964."}
+  ]
+}

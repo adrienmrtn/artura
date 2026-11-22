@@ -1,0 +1,272 @@
+{
+ "teaser": "The most trusted view of Venice's great square contains several quiet lies.",
+ "focus": [
+  0.52,
+  0.6
+ ],
+ "review_notes": "McSwiney's 1727 complaint (prices changing daily, more work than he can do) is paraphrased from his letter to the Duke of Richmond.\nMet Museum note: windows of the campanile fewer than in reality, flagstaffs taller; pavement by Andrea Tirali laid in the 1720s (the Met uses it to date the picture to the late 1720s). Please confirm exact pavement dates.\nRoyal Collection figures (about 50 paintings and over 140 drawings from Joseph Smith, sold to George III in 1762).\nCanaletto in England 1746 to about 1755.\nPerspective lines are approximate, traced on our image.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In the late 1720s Canaletto, barely thirty, had the kind of problem painters dream of: too many customers. An Irish agent who sold his work to English lords complained in 1727 that the man changed his prices from one day to the next and had more orders than he could fill. This view comes from those crowded years."
+  },
+  {
+   "type": "text",
+   "text": "The customers were tourists of a special kind. Rich young Britons finished their education with a long trip through Italy, called the Grand Tour, and wanted proof to hang at home. Canaletto supplied the veduta, the Italian word for a detailed, accurate-looking city view. Think of a postcard, hand-painted in oil for someone with a country house."
+  },
+  {
+   "type": "text",
+   "text": "And no subject sold like this one: St. Mark's Square, with the domed basilica at the far end and the bell tower beside it. At about 69 by 112 centimeters (27 by 44 inches), it was easy to crate and ship. It looks like a faithful record. It isn't quite."
+  },
+  {
+   "type": "tour",
+   "title": "Small adjustments",
+   "text": "Three places where Canaletto improved on the truth.",
+   "spots": [
+    {
+     "x": 0.59,
+     "y": 0.42,
+     "zoom": 1.8,
+     "r": 0.1,
+     "title": "A tidier tower",
+     "text": "The real bell tower has more window slits up its shaft than you can count here. He left some out, so the brick reads as one clean, soaring surface.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.465,
+     "y": 0.56,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Taller flagpoles",
+     "text": "Three masts stand before the basilica. He stretched them so that they rise above the domes and echo the tower."
+    },
+    {
+     "x": 0.15,
+     "y": 0.63,
+     "zoom": 1.8,
+     "r": 0.17,
+     "title": "A wider angle",
+     "text": "From one standing point, your eye cannot take in both long arcades this fully. He opened the square like a book to fit everything in."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "A veduta sells the feeling of being there. To get that feeling, the painter edits the facts."
+  },
+  {
+   "type": "text",
+   "text": "One detail, though, was hot news. The ground of the square had long been brick. In the 1720s the city repaved it in gray stone with white bands in a geometric pattern, designed by the architect Andrea Tirali. Canaletto shows the new floor, which helps to date the picture. He also puts it to work."
+  },
+  {
+   "type": "lines",
+   "text": "Follow the long edges of the square and see where they meet.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.435
+      ],
+      [
+       0.27,
+       0.595
+      ],
+      [
+       0.47,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "Left roofline",
+     "text": "The top of the arcade on the left sinks steadily as it moves away from you."
+    },
+    {
+     "points": [
+      [
+       1.0,
+       0.355
+      ],
+      [
+       0.68,
+       0.575
+      ],
+      [
+       0.47,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "Right roofline",
+     "text": "The right-hand building does the same from the other side, and faster, because it stands closer to you."
+    },
+    {
+     "points": [
+      [
+       0.6,
+       0.98
+      ],
+      [
+       0.47,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "A paving band",
+     "text": "The new white stripes on the ground aim at the same place: the doors of the basilica. This shared meeting place is called the vanishing point, and it pulls you into the picture."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The bell tower you see is not the one standing today. The original collapsed into a heap of bricks in 1902, and an exact copy was finished in 1912."
+  },
+  {
+   "type": "text",
+   "text": "Once the stage is built, he fills it. The square was a market, a law court lobby and a promenade all at once. Canaletto's people are made of a few flicks of the brush, a dot for a head, a dash for a cloak, yet you can tell a magistrate from a porter. Zoom in and meet them."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.78,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Market awnings",
+     "text": "Big sheets of canvas are propped on poles along the left arcade to shade the stalls. More cloth hangs from the windows above."
+    },
+    {
+     "x": 0.36,
+     "y": 0.9,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Men in robes",
+     "text": "A cluster of gentlemen in long gowns and wigs stand talking, as Venice's nobles and officials did here every day."
+    },
+    {
+     "x": 0.13,
+     "y": 0.92,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "A dog",
+     "text": "A small dark dog trots across the pavement on its own. Canaletto's squares almost always have one.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.47,
+     "y": 0.62,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "The basilica",
+     "text": "Golden half-circles above the doors are mosaics, pictures made of tiny glass cubes. He suggests them with a few warm strokes."
+    },
+    {
+     "x": 0.59,
+     "y": 0.74,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Under the tower",
+     "text": "At the foot of the bell tower, more stalls and awnings crowd in. Business went on right against the monument."
+    },
+    {
+     "x": 0.92,
+     "y": 0.53,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "Something pink",
+     "text": "High on the right, a pink cloth hangs out of a window to air. One spot of warm color in a long gray wall."
+    },
+    {
+     "x": 0.97,
+     "y": 0.31,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "Chimney pots",
+     "text": "A row of flared chimneys marches along the roof, each a little cone against the sky."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "His best customer never left Venice. Joseph Smith, a British merchant there, bought and resold Canalettos for decades, then sold his own hoard to King George III in 1762. The British royal family still owns the largest group of them anywhere."
+  },
+  {
+   "type": "text",
+   "text": "Depending on tourists has a cost. In the 1740s a European war kept British travelers at home and the orders dried up. In 1746 Canaletto did the logical thing and went to his clients, living in London for about nine years and painting the Thames with the same clear light."
+  },
+  {
+   "type": "text",
+   "text": "That is why you are more likely to meet Venice by Canaletto in New York, London or Windsor than in Venice itself. The city he painted hundreds of times kept almost none of his pictures."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who were Canaletto's main customers in the late 1720s?",
+   "options": [
+    "Venetian fishermen",
+    "British travelers on the Grand Tour",
+    "The pope's court"
+   ],
+   "answer": 1,
+   "explanation": "Wealthy young Britons wanted painted souvenirs of Venice."
+  },
+  {
+   "question": "What is a veduta?",
+   "options": [
+    "A detailed painted view of a city",
+    "A type of gondola",
+    "A fresco on a church ceiling"
+   ],
+   "answer": 0,
+   "explanation": "It is the Italian word for a view, used for accurate-looking city scenes."
+  },
+  {
+   "question": "Which of these did Canaletto change from reality?",
+   "options": [
+    "He removed the basilica's domes",
+    "He made the flagpoles taller",
+    "He added a canal in the square"
+   ],
+   "answer": 1,
+   "explanation": "He stretched the three masts and also left out some of the tower's windows."
+  },
+  {
+   "question": "Where do the rooflines and paving bands converge?",
+   "options": [
+    "At the top of the bell tower",
+    "In the lower left corner",
+    "At the doors of the basilica"
+   ],
+   "answer": 2,
+   "explanation": "The vanishing point sits at the basilica's entrance."
+  },
+  {
+   "question": "Why did Canaletto move to London in 1746?",
+   "options": [
+    "A war had cut off his tourist clients",
+    "He was banished from Venice",
+    "He wanted to study with Hogarth"
+   ],
+   "answer": 0,
+   "explanation": "War kept British travelers away, so he went to them."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The bell tower standing in St. Mark's Square today is the same one Canaletto painted.",
+   "isTrue": false,
+   "explanation": "The original collapsed in 1902 and was rebuilt as a copy by 1912."
+  },
+  {
+   "text": "The white-banded stone pavement was new when this view was painted.",
+   "isTrue": true,
+   "explanation": "The square was repaved to Andrea Tirali's design in the 1720s."
+  },
+  {
+   "text": "Venice holds the world's largest collection of Canaletto's paintings.",
+   "isTrue": false,
+   "explanation": "Most were sold abroad; the British Royal Collection has the largest group."
+  }
+ ]
+}

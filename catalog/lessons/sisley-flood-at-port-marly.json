@@ -1,0 +1,43 @@
+{
+  "teaser": "A flooded street, and the calmest disaster in French painting.",
+  "focus": [0.3, 0.58],
+  "review_notes": "The image is the Orsay canvas (about 60 x 81 cm, Camondo bequest) photographed in its gilded frame; all coordinates are placed on the framed photo.\nShown at the second Impressionist exhibition, 1876, at Durand-Ruel's gallery; Albert Wolff's hostile Figaro review is of that exhibition. The claim that the flood pictures were singled out for praise by several reviewers should be double-checked.\nFlood of the Seine in spring 1876; Sisley then lived in Marly-le-Roi. He painted about six canvases of it.\nThe building was a wine merchant's and inn; lettering reads “A St Nicolas.”\nSisley's remark that the sky is never a mere background is paraphrased from a letter to the critic Adolphe Tavernier.\nPrices: said to have sold for 180 francs in Sisley's lifetime; bought by Isaac de Camondo for 43,000 francs in 1900; bequeathed to the French state, entered the Louvre in 1911, now at Orsay.",
+  "lesson": [
+    {"type": "text", "text": "Paris, April 1876. A group of painters rents a dealer's gallery to show their work for the second time. A critic at Le Figaro writes that the artists are lunatics who throw colors at a canvas. Yet in front of Alfred Sisley's views of a flooded village, several reviewers lower their voices and admit the pictures are good."},
+    {"type": "text", "text": "What disarmed them? That spring the Seine had burst its banks at Port-Marly, a river village west of Paris. Sisley lived a short walk away. A flood, in the painting of his time, meant drama: drowning families, torn roofs, a black sky. He carried his easel to the water's edge and found something else."},
+    {"type": "tour", "title": "An ordinary morning", "text": "Three places where daily life simply carries on.", "spots": [
+      {"x": 0.27, "y": 0.47, "zoom": 2.8, "r": 0.09, "title": "The sign", "text": "Big letters on the wall spell out the name of the house, “A St Nicolas.” It is a wine merchant's shop and inn. More lettering runs along the pink band below."},
+      {"x": 0.41, "y": 0.655, "zoom": 3.6, "r": 0.06, "title": "The boats", "text": "Two men stand in flat boats moored where the street used to be. A few dark strokes each. They have replaced the carts, and no one seems in a hurry."},
+      {"x": 0.26, "y": 0.68, "zoom": 3, "r": 0.06, "shape": "rect", "title": "The door", "text": "The doorway is a plain dark rectangle, and the water reaches its sill. Below, its reflection stretches down in a wobbling stripe."}
+    ]},
+    {"type": "text", "text": "No one is rescued and nothing collapses. The shop is still a shop, with the river as its new sidewalk. Sisley treats the flood as a change of light: the brown road has turned into a mirror, and suddenly half the village is sky."},
+    {"type": "fact", "text": "He was so taken by the sight that he painted the flood about six times that spring, from different spots and under different skies. Monet's famous series of haystacks came some fifteen years later."},
+    {"type": "text", "text": "The calm is also a matter of carpentry. Sisley was the most careful builder among the Impressionists, and this picture sits on a very steady frame. Measure how much of the canvas he gives to each thing."},
+    {"type": "lines", "text": "A few straight lines hold all that water still.", "lines": [
+      {"points": [[0.36, 0.605], [0.62, 0.605], [0.885, 0.605]], "closed": false, "label": "The horizon", "text": "The far bank lies low, a little under the middle of the canvas. Everything above it is sky, more than half of the painting."},
+      {"points": [[0.693, 0.42], [0.695, 0.58], [0.698, 0.73]], "closed": false, "label": "The poles", "text": "Two tall posts rise out of the water and cross the horizon at a right angle. They pin the open right side in place."},
+      {"points": [[0.355, 0.33], [0.355, 0.52], [0.355, 0.69]], "closed": false, "label": "The corner of the inn", "text": "The edge of the house makes a second upright. To its left is a solid block of wall; to its right, air and water."},
+      {"points": [[0.885, 0.66], [0.76, 0.64], [0.62, 0.625]], "closed": false, "label": "The trees", "text": "A row of trees, standing knee-deep, shrinks toward the distance and leads your eye back into the picture."}
+    ]},
+    {"type": "text", "text": "A heavy block on the left, an open space on the right, and a big sky over both. Sisley once explained that for him the sky was never a mere background. He often started with it, because it gives a picture its depth and its mood. Here the gray clouds are breaking up; the worst has passed."},
+    {"type": "key", "text": "Sisley turned a natural disaster into a study of reflections. The subject of the painting is the meeting of water and sky, held in place by a few firm verticals."},
+    {"type": "text", "text": "This is Impressionism in its early years: painting outdoors, quickly, in separate touches of color that record how things look at one moment. The water is laid in short horizontal dabs, the wall in flat creamy patches. Sisley left one more set of marks in the wet paint of the water."},
+    {"type": "find", "text": "The painter signed and dated the canvas. Can you spot where?", "spots": [
+      {"x": 0.185, "y": 0.815, "zoom": 3.6, "r": 0.06, "title": "Sisley 76", "text": "In the lower left corner, written in dark paint across the reflections: his name and the year, 1876. The signature floats on the flood like one more ripple."}
+    ]},
+    {"type": "text", "text": "The name is French in sound, but Sisley was British. He was born in Paris in 1839 to English parents and never obtained French citizenship. His father's business collapsed during the war of 1870, and from then on he lived by his brush, which meant he lived poorly. He died in 1899, still waiting for buyers."},
+    {"type": "fact", "text": "This canvas is said to have sold for 180 francs in his lifetime. In 1900, one year after his death, the collector Isaac de Camondo paid 43,000 francs for it. He later left it to the French state."}
+  ],
+  "quiz": [
+    {"question": "How does Sisley's flood differ from the usual flood paintings of his time?", "options": ["It shows a night scene", "It is calm, with no victims or destruction", "It includes a self-portrait"], "answer": 1, "explanation": "He painted an ordinary morning on the water instead of a drama."},
+    {"question": "What is the building on the left?", "options": ["A wine merchant's shop and inn", "A church", "A railway station"], "answer": 0, "explanation": "The lettering names the house, “A St Nicolas,” a wine merchant's and inn."},
+    {"question": "How much of the canvas does the sky occupy?", "options": ["A thin strip at the top", "About a quarter", "More than half"], "answer": 2, "explanation": "The horizon sits a little below the middle, leaving most of the painting to the sky."},
+    {"question": "What nationality was Alfred Sisley?", "options": ["French", "British", "Dutch"], "answer": 1, "explanation": "He was born in Paris to English parents and never became a French citizen."},
+    {"question": "Where is the signature?", "options": ["In the lower left, on the water", "On the wall of the inn", "In the sky at upper right"], "answer": 0, "explanation": "He signed “Sisley 76” across the reflections in the lower left corner."}
+  ],
+  "facts": [
+    {"text": "Sisley painted the flood at Port-Marly only once.", "isTrue": false, "explanation": "He painted about six canvases of it in the spring of 1876."},
+    {"text": "A collector paid 43,000 francs for this canvas one year after Sisley died.", "isTrue": true, "explanation": "Isaac de Camondo bought it in 1900 and later left it to the French state."},
+    {"text": "The men in the painting are shown being rescued from the roof.", "isTrue": false, "explanation": "They stand quietly in flat boats moored in front of the inn."}
+  ]
+}

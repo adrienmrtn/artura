@@ -1,0 +1,50 @@
+{
+  "teaser": "Blake painted the greatest scientist in history as a man who never looks up.",
+  "focus": [0.7, 0.55],
+  "review_notes": "Image checked: it is the Tate impression of Newton (match was 'manual').\nThe design dates from 1795, but the Tate impression is now generally thought to have been printed and finished around 1804-5; the listed year 1795 is the date on the work.\nSetting 'at the bottom of the sea' is the usual reading (the rock growths resemble coral, lichen and sea anemones); some describe it as a cave.\nPose derived from Michelangelo's figure of Abias in the Sistine Chapel lunettes: standard scholarly comparison.\nQuote 'May God us keep / From Single vision & Newton's sleep' is from Blake's letter to Thomas Butts, November 1802.\nThomas Butts bought the print; price of about a guinea per large color print is the commonly cited figure, check.\nPaolozzi's bronze 'Newton, after William Blake' was installed at the British Library in 1995.\nSize approx. 46 x 60 cm.",
+  "lesson": [
+    {"type": "text", "text": "In 1795 William Blake was thirty-seven and scraping by. He lived with his wife Catherine in a rented row house in Lambeth, a damp district south of the Thames. His income came from engraving other people's designs for booksellers, slow and badly paid work. The poetry books he printed himself sold a handful of copies each."},
+    {"type": "text", "text": "The mood outside was worse. Britain was at war with revolutionary France, and the government was arresting radicals for what they wrote and said. Blake had worn the red cap of the revolution in the street a few years before. Now he kept his head down and put his arguments into pictures only a few people would decode."},
+    {"type": "text", "text": "That year he made twelve large images, each about 46 by 60 cm (18 by 24 inches), bigger and stranger than anything he had done. One was aimed at a national hero: Sir Isaac Newton, dead for nearly seventy years and revered as the mind that had explained gravity, light and the orbits of the planets."},
+    {"type": "find", "text": "Blake's Newton is hard at work on something. Can you find what he is drawing?", "spots": [
+      {"x": 0.8, "y": 0.87, "zoom": 3.6, "r": 0.08, "title": "The diagram", "text": "A triangle with a curved line inside it, on a scroll rolled out along the ground. He measures it with a compass in one hand and pins the paper with a finger of the other."}
+    ]},
+    {"type": "text", "text": "A tidy geometric figure, a few inches across. That is where his entire body is pointed. Blake had nothing against mathematics as such. What he could not stand was the claim that the measurable part of the world is the whole of it. He called that narrowing of the mind “single vision.”"},
+    {"type": "fact", "text": "Blake put it in a rhyme, in a letter to a friend in 1802: “May God us keep / From Single vision & Newton's sleep.” For him the great scientist was a kind of sleepwalker."},
+    {"type": "text", "text": "Yet he does not draw a fool. If anything, this Newton is magnificent, a young athlete instead of the elderly gentleman in a wig from the official portraits. Blake makes his target beautiful, and then shows what that beauty is being spent on."},
+    {"type": "tour", "title": "A body bent into a tool", "text": "Follow the figure from the spine down to the fingertips.", "spots": [
+      {"x": 0.53, "y": 0.43, "zoom": 2.4, "r": 0.13, "title": "The back", "text": "Every muscle is outlined as if carved. Blake learned bodies from prints after Michelangelo, and this pose echoes one of the seated ancestors of Christ on the Sistine Chapel walls."},
+      {"x": 0.7, "y": 0.47, "zoom": 3.2, "r": 0.08, "title": "The stare", "text": "A sharp profile under tight curls, eyes locked downward. The face is calm and completely absorbed. Nothing around him gets a glance."},
+      {"x": 0.81, "y": 0.76, "zoom": 3.4, "r": 0.07, "title": "The compass", "text": "Long fingers spread the two legs of the instrument. Hand and compass repeat each other: his fingers make the same sharp angle as the tool."},
+      {"x": 0.6, "y": 0.6, "zoom": 1.7, "r": 0.22, "title": "The whole curve", "text": "Back, neck, arm, compass: one continuous bend from the rock to the paper. He has folded himself into the shape of his own instrument."}
+    ]},
+    {"type": "text", "text": "The compass was Blake's standing symbol for reason that fences things in. He had already put one in the hand of a bearded creator-god measuring the void. Here the same tool has shrunk to desk size, and its user is a mortal who sits with his back to everything else in the picture."},
+    {"type": "text", "text": "And what is behind him is the best part. Where exactly is this man sitting? The deep blue-black around him and the growths on the rock have led most viewers to one answer: on the floor of the sea."},
+    {"type": "fact", "text": "The crusty, speckled texture of the rock was not painted with a brush. Blake brushed thick, sticky color onto a flat board, pressed a sheet of paper onto it, and peeled it away. The pulling-apart left that blotchy, coral-like surface, which he then finished in ink and watercolor."},
+    {"type": "text", "text": "He could pull only two or three impressions before the color ran out, and each came off differently. So the accident-prone, organic half of this picture was made by a process nobody could fully control, and the scientist's clean outline was added by hand afterward. The technique makes the argument."},
+    {"type": "explore", "spots": [
+      {"x": 0.15, "y": 0.45, "zoom": 2, "r": 0.15, "title": "The living rock", "text": "Orange, green and blue growths cover the slope like lichen or coral. It is the richest color in the picture, and all of it sits behind Newton's back."},
+      {"x": 0.31, "y": 0.8, "zoom": 3.2, "r": 0.08, "title": "Pale creatures", "text": "Two soft pinkish forms cling under the ledge he sits on, like sea anemones or polyps. Life is going on right beneath him."},
+      {"x": 0.92, "y": 0.87, "zoom": 3.6, "r": 0.06, "title": "The scroll's end", "text": "The paper curls into a neat spiral, drawn with a ruler's precision. Even the loose end of his work is orderly."},
+      {"x": 0.68, "y": 0.63, "zoom": 2.6, "r": 0.09, "shape": "rect", "title": "The white cloth", "text": "A length of fabric falls from his shoulder and runs down toward the scroll, so that body, cloth and paper seem to be one unbroken strip."},
+      {"x": 0.76, "y": 0.9, "zoom": 4, "r": 0.05, "title": "The pinning finger", "text": "One fingertip holds the sheet flat at the corner of the triangle. Both hands and both eyes are committed to a few square inches."},
+      {"x": 0.75, "y": 0.2, "zoom": 1.6, "r": 0.2, "title": "The dark", "text": "Mottled blue-black, with no surface and no sky. Whatever fills this depth, it is far larger than the diagram, and it is what he is missing."}
+    ]},
+    {"type": "text", "text": "A loyal patron, a government clerk named Thomas Butts, bought this impression along with others from the set, for a small price. Butts kept Blake fed for years by purchasing work almost nobody else wanted. The print stayed out of public view through most of the 1800s and came to the Tate in 1939."},
+    {"type": "key", "text": "Blake's quarrel was never with knowledge. It was with mistaking one way of seeing for the only one, and he made the point by painting a brilliant man who cannot see the wonders he is sitting on."},
+    {"type": "text", "text": "History added a twist he would have enjoyed, or hated. In 1995 the sculptor Eduardo Paolozzi turned this exact figure into a bronze giant, twelve feet tall, bent over his compass in the courtyard of the British Library in London. Blake's warning about science now greets everyone who walks in to study it."}
+  ],
+  "quiz": [
+    {"question": "How was Blake earning a living in 1795?", "options": ["As a court portrait painter", "Engraving other people's designs for booksellers", "From sales of his poetry books"], "answer": 1, "explanation": "Engraving was his bread and butter; his own books sold only a few copies."},
+    {"question": "What did Blake mean by “single vision”?", "options": ["Believing that the measurable part of the world is all there is", "Painting with one eye closed", "A religious trance"], "answer": 0, "explanation": "He used the phrase for a mind narrowed to reason and measurement alone."},
+    {"question": "Where does Newton appear to be sitting?", "options": ["In his study at Cambridge", "On a mountaintop at night", "On a rock at the bottom of the sea"], "answer": 2, "explanation": "The dark blue depth and the coral-like growths suggest the sea floor."},
+    {"question": "How did Blake get the blotchy texture of the rock?", "options": ["By sprinkling sand into wet paint", "By pressing paper onto sticky color on a board and peeling it off", "By scratching the paper with a needle"], "answer": 1, "explanation": "The peeled-off print left a mottled surface that he finished with ink and watercolor."},
+    {"question": "Whose figures inspired Newton's muscular pose?", "options": ["Michelangelo's", "Rembrandt's", "Constable's"], "answer": 0, "explanation": "The pose echoes a seated figure from Michelangelo's Sistine Chapel."},
+    {"question": "Where does a giant bronze version of this figure sit today?", "options": ["Outside Tate Britain", "In Westminster Abbey", "In the courtyard of the British Library"], "answer": 2, "explanation": "Eduardo Paolozzi's sculpture was installed there in 1995."}
+  ],
+  "facts": [
+    {"text": "Blake showed Newton as an old man in a wig.", "isTrue": false, "explanation": "He painted him as a nude, muscular young man, unlike the official portraits."},
+    {"text": "Blake could make only two or three impressions of each large color print.", "isTrue": true, "explanation": "The sticky color on the board ran out quickly, and each pull came out differently."},
+    {"text": "In the picture, Newton is studying the colorful growths on the rock.", "isTrue": false, "explanation": "He has his back to them and stares only at his small diagram."}
+  ]
+}

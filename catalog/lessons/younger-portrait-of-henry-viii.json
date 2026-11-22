@@ -1,0 +1,48 @@
+{
+  "teaser": "The most enormous king in English history, on a panel smaller than a sheet of paper.",
+  "focus": [0.58, 0.25],
+  "review_notes": "Panel size about 28 x 20 cm (oil on oak).\nUse of real gold for jewels and embroidery, and ultramarine for the background: stated by the museum as far as I recall, please confirm.\nHolbein's salary of 30 pounds a year as King's Painter.\nWhitehall Palace mural (1537) destroyed in the fire of 1698.\nProvenance: Earls Spencer at Althorp, bought by Baron Thyssen in the 1930s.\nOften described as the only surviving painted portrait of Henry certainly by Holbein's own hand: widely repeated, worded cautiously.",
+  "lesson": [
+    {"type": "text", "text": "This man does not fit. His shoulders run off both sides of the picture, his hat nearly scrapes the top, his hands are cut by the bottom edge. Yet the painting he is bursting out of is about 28 by 20 centimeters (11 by 8 inches). Hans Holbein squeezed a giant into something you could slip into a coat pocket."},
+    {"type": "text", "text": "The giant is Henry VIII of England, around 1537. He is in his mid-forties, on his third wife, and has just broken with the pope to make himself head of the English Church. He needs to look like a man nobody can say no to. Holbein, a German painter settled in London, has become the King's Painter and gets the job."},
+    {"type": "fact", "text": "As King's Painter, Holbein earned about 30 pounds a year. For that he also designed jewelry, cups, book covers and even buttons for the court."},
+    {"type": "text", "text": "How do you make someone huge on a tiny surface? You do not show the space around him. Holbein removes the room, the furniture, the horizon. Only a plain blue field remains, and the body pushes against the edges like a man in a doorway that is too narrow."},
+    {"type": "lines", "text": "See how the body is built from two simple shapes.", "lines": [
+      {"points": [[0.0, 0.47], [1.0, 0.47], [1.0, 1.0], [0.0, 1.0]], "closed": true, "label": "The block", "text": "From the shoulders down, Henry is a rectangle as wide as the panel itself. The fur-lined coat reaches both borders, so you imagine the bulk continuing beyond them."},
+      {"points": [[0.33, 0.22], [0.5, 0.12], [0.67, 0.2], [0.69, 0.4], [0.55, 0.47], [0.36, 0.42]], "closed": true, "label": "The face", "text": "The head is a broad, pale shape set on top like a seal on a document, turned only slightly to the side."},
+      {"points": [[0.13, 0.4], [0.45, 0.14], [0.8, 0.07]], "closed": false, "label": "The hat", "text": "One slanting line breaks the stiffness: the cap with its white feather, tilted like a raised eyebrow."}
+    ]},
+    {"type": "text", "text": "Inside that block, almost nothing is modeled in light and shade. The face has barely a shadow. Holbein treats the king like a playing card: clear outline, flat color, rich pattern. Depth would make him a man in a room. Flatness makes him an emblem."},
+    {"type": "tour", "title": "A face that gives nothing away", "text": "Now come close to the only soft part of the picture.", "spots": [
+      {"x": 0.58, "y": 0.22, "zoom": 3.4, "r": 0.11, "title": "The eyes", "text": "Small, gray, set far apart and looking past you to the side. They are painted hair by hair at the brows, but they express no mood you could name."},
+      {"x": 0.59, "y": 0.33, "zoom": 3.8, "r": 0.06, "title": "The mouth", "text": "A tiny, tight mouth in a very wide face. Holbein did not flatter it. The contrast between the small features and the mass of jaw is what makes the face so unsettling."},
+      {"x": 0.52, "y": 0.42, "zoom": 3.0, "r": 0.1, "title": "The beard", "text": "The short reddish beard is drawn with single strokes of a fine brush over the skin tone, each hair separate, where it meets the gold-embroidered collar."}
+    ]},
+    {"type": "key", "text": "Holbein painted power as a matter of surface and scale: fill the frame, flatten the body, cover it in costly things, and let the face stay unreadable."},
+    {"type": "text", "text": "Those costly things are a message of their own. Tudor England had laws on who could wear what, and nobody could outdress the king. Every ruby, every pearl on the cap, every puff of white shirt pulled through a slit in the gray doublet, the close-fitting jacket, was a line in a bank statement."},
+    {"type": "fact", "text": "For the chains, the jewel settings and the embroidery, Holbein used real gold. On a panel this small, the king's portrait was itself a precious object, to be held and turned in the light."},
+    {"type": "explore", "spots": [
+      {"x": 0.56, "y": 0.1, "zoom": 3.0, "r": 0.14, "title": "The cap", "text": "Black velvet sewn with pearls in clusters and gold mounts holding dark stones. A white ostrich feather curls around the brim and droops at the left."},
+      {"x": 0.38, "y": 0.6, "zoom": 3.2, "r": 0.07, "title": "Ruby and slashes", "text": "The doublet is cut open in rows so the white shirt can be pulled through in puffs. Between the puffs sit rubies in gold settings."},
+      {"x": 0.64, "y": 0.77, "zoom": 3.4, "r": 0.06, "title": "The medallion", "text": "A round gold pendant with a dark square stone hangs from a twisted chain that crosses the whole chest."},
+      {"x": 0.52, "y": 0.68, "zoom": 2.8, "r": 0.1, "title": "Black thread", "text": "The gray cloth is covered with knotted, looping patterns stitched in black. Holbein drew each loop, although the area is smaller than a postage stamp."},
+      {"x": 0.68, "y": 0.94, "zoom": 3.2, "r": 0.08, "title": "Hand and glove", "text": "The fingers, with a square dark ring, close over a pair of soft tan gloves. It is the one hint of an action in the whole portrait."},
+      {"x": 0.1, "y": 0.7, "zoom": 2.4, "r": 0.1, "title": "Golden sleeve", "text": "A sleeve of gold-shot silk catches the light at the far left before the edge of the panel cuts it off."}
+    ]},
+    {"type": "text", "text": "The same year, Holbein painted Henry life-size on a wall of Whitehall Palace in London, standing with legs apart and fists on hips. Visitors reportedly felt crushed in front of it. That mural burned with the palace in 1698 and is known only from copies. The little panel is often called the only painted portrait of Henry left that is surely by Holbein's own hand."},
+    {"type": "fact", "text": "For generations the portrait belonged to the Earls Spencer, the family of Princess Diana, at their country house, Althorp. Baron Thyssen bought it in the 1930s, which is why England's most famous king now lives in Madrid."},
+    {"type": "text", "text": "Holbein died in London in 1543, four years before his patron. Ask yourself what Henry VIII looks like and the picture in your head, square, bejeweled, impossible to read, is one a German painter invented. Whether the real king looked like that is a question nobody can check anymore."}
+  ],
+  "quiz": [
+    {"question": "Roughly how big is this portrait?", "options": ["Life-size", "About 28 by 20 cm, smaller than a sheet of paper", "As large as a door"], "answer": 1, "explanation": "The panel measures about 28 by 20 centimeters."},
+    {"question": "How does Holbein make the king seem enormous?", "options": ["He lets the body fill the frame and run off its edges", "He paints a tiny servant beside him", "He places him on a high throne"], "answer": 0, "explanation": "With no space around him, the body presses against the borders."},
+    {"question": "What happened to Holbein's life-size mural of Henry at Whitehall?", "options": ["It was sold to Spain", "It hangs in the Tower of London", "It burned with the palace in 1698"], "answer": 2, "explanation": "The mural was destroyed by fire and survives only in copies."},
+    {"question": "Which material did Holbein use for the chains and embroidery?", "options": ["Yellow chalk", "Real gold", "Silver leaf"], "answer": 1, "explanation": "The jewels and gold thread are painted with real gold."},
+    {"question": "Where did Holbein come from?", "options": ["Germany", "England", "Spain"], "answer": 0, "explanation": "He was a German painter who settled in London."}
+  ],
+  "facts": [
+    {"text": "The king's face is modeled with deep, dramatic shadows.", "isTrue": false, "explanation": "The face is almost shadowless; Holbein keeps the whole figure flat like an emblem."},
+    {"text": "The portrait once belonged to the Spencer family at Althorp.", "isTrue": true, "explanation": "It stayed with the Earls Spencer until Baron Thyssen bought it."},
+    {"text": "As King's Painter, Holbein only painted portraits.", "isTrue": false, "explanation": "He also designed jewelry, cups, book covers and buttons for the court."}
+  ]
+}

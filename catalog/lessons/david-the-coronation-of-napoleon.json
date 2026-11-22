@@ -1,0 +1,64 @@
+{
+  "teaser": "The woman in the place of honor was 900 miles away that day.",
+  "focus": [0.54, 0.62],
+  "review_notes": "The image is small (960 px wide) for a canvas with this many figures: spots point at groups and large figures only; David's self-portrait in the gallery is indicated as a region, not an identifiable face.\nFirst composition showing Napoleon crowning himself, changed on the advice of David's former pupil François Gérard: standard account, traces confirmed by technical study.\nQuotes attributed to Napoleon (\"I did not bring him all this way to do nothing\", \"one walks in this picture\", \"David, I salute you\") are traditional, reported by contemporaries.\nIdentification of the figure in red at far right as Talleyrand, and of the child as Napoléon-Charles, son of Louis Bonaparte and Hortense.\nJosephine's age (41) at the ceremony; Versailles replica finished in Brussels in 1822 with one sister in pink; original moved to the Louvre in 1889.\nNumber of figures is given loosely (\"well over a hundred\").",
+  "lesson": [
+    {"type": "text", "text": "The first version of this picture was painted over. David had begun with the most shocking moment of December 2, 1804: Napoleon taking the crown from the altar and setting it on his own head, one hand pressing a sword to his heart. The figure was drawn on the canvas. Then David changed his mind."},
+    {"type": "text", "text": "A man crowning himself, at this size, looked arrogant. A former pupil, François Gérard, is said to have suggested the way out: paint the next minute. Napoleon, already crowned, lifts a second crown for his wife. The same power, but shown as a gift."},
+    {"type": "tour", "title": "The new center", "text": "Three people now carry the story. They stand within a few steps of each other.", "spots": [
+      {"x": 0.545, "y": 0.575, "zoom": 4, "r": 0.04, "title": "The raised crown", "text": "Held high in both hands, against the pale stone. Napoleon already wears a wreath of golden laurel leaves, like a Roman emperor."},
+      {"x": 0.49, "y": 0.73, "zoom": 3.6, "r": 0.05, "title": "Josephine", "text": "Kneeling on a cushion, hands joined, head bowed. Her red velvet mantle lined with ermine, a white fur, spills behind her down the steps."},
+      {"x": 0.675, "y": 0.67, "zoom": 3.6, "r": 0.05, "title": "The Pope", "text": "Pius VII sits behind the emperor, in white. He traveled from Rome for this. In the picture, as on the day, he watches."}
+    ]},
+    {"type": "text", "text": "For centuries a king of France was crowned by a churchman, as a sign that his power came from God. Napoleon, a general who had risen through the Revolution, wanted the blessing without the dependence. He invited the Pope to Notre-Dame cathedral in Paris, then did the crowning himself."},
+    {"type": "text", "text": "David first painted the Pope with his hands resting on his knees. Napoleon objected: he had not brought him all this way to do nothing. So David raised the right hand in a small gesture of blessing. An emperor was now editing the picture."},
+    {"type": "fact", "text": "The canvas measures about 6.2 by 9.8 meters (20 by 32 feet), larger than many apartments. When Napoleon came to see it, he is reported to have said that this was not a painting: one could walk into it."},
+    {"type": "text", "text": "David spent about three years on it, from 1805 to 1807. His problem was a crowd of well over a hundred people, each of whom expected to be recognized. How do you stop a crowd from becoming wallpaper? He gave everyone the same thing to look at."},
+    {"type": "lines", "text": "Follow where the heads are turned, then where the crown is going.", "lines": [
+      {"points": [[0.17, 0.66], [0.545, 0.575]], "closed": false, "label": "From the left", "text": "The women and officers on the left all face the same way. Their gazes run like a rail straight to the crown."},
+      {"points": [[0.9, 0.62], [0.545, 0.575]], "closed": false, "label": "From the right", "text": "Bishops, cardinals and the dark figures in plumed hats look back toward the same point. The two sides close on it like a clamp."},
+      {"points": [[0.545, 0.575], [0.49, 0.72], [0.33, 0.86]], "closed": false, "label": "The descent", "text": "From the crown down to Josephine's bowed head, then along her mantle. The only strong movement in the picture is this one, from his hands to her."}
+    ]},
+    {"type": "text", "text": "Above the heads, two thirds of the canvas is architecture and air. The tall pillar behind the couple catches the light and acts like a spotlight. David had a box in the cathedral on the day and sketched what he could. Later, guests came to his studio to sit for their faces."},
+    {"type": "find", "text": "One guest has the best seat: a box above the crowd, facing you, right in the middle of the picture. Find her.", "spots": [
+      {"x": 0.447, "y": 0.555, "zoom": 3.8, "r": 0.05, "title": "Napoleon's mother", "text": "Letizia Bonaparte, seated in white between her attendants, watches her son from a private gallery. It is a touching family detail. It is also invented."}
+    ]},
+    {"type": "text", "text": "Letizia was not there. She was in Rome, angry with Napoleon over his quarrel with his brother Lucien, and missed the ceremony entirely. The emperor wanted her in the picture anyway, in the center. A state painting records the day as it should have been."},
+    {"type": "fact", "text": "The classical arches you see are stage scenery. For the ceremony, the architects Percier and Fontaine hid Notre-Dame's medieval Gothic interior behind painted wood and cardboard, to make it look like a Roman temple."},
+    {"type": "text", "text": "Other details were adjusted too. Josephine was 41, and David gave her the face of a much younger woman. Napoleon, standing on the top step, towers over everyone near him. And the rest of the Bonaparte family is lined up on the left, including some who had fought over their place in the procession."},
+    {"type": "tour", "title": "Who else is here", "text": "A few of the people David was required to fit in, and one he added for himself.", "spots": [
+      {"x": 0.19, "y": 0.72, "zoom": 3, "r": 0.07, "title": "The sisters", "text": "Napoleon's sisters and sisters-in-law, in pale satin court dresses with jeweled bands in their hair. They stand in a row, like a frieze carved on a temple."},
+      {"x": 0.255, "y": 0.765, "zoom": 4, "r": 0.04, "shape": "arrow", "title": "A small boy", "text": "The only child in the front rows: Napoleon's young nephew, in red, holding his mother's hand. For a time he was treated as a possible heir."},
+      {"x": 0.9, "y": 0.73, "zoom": 3, "r": 0.05, "shape": "rect", "title": "The man in red", "text": "At the far right, in a long red mantle: Talleyrand, the foreign minister, who served nearly every French government of his lifetime and helped bring this one down."},
+      {"x": 0.44, "y": 0.42, "zoom": 3.4, "r": 0.07, "title": "The upper gallery", "text": "In the shadowed rows above Letizia, David placed himself among the spectators, sketching. The faces are tiny here, but the painter is in his own picture."}
+    ]},
+    {"type": "text", "text": "The finished canvas was shown at the Salon of 1808, the big official exhibition in Paris, and crowds lined up to pick out the faces. Napoleon studied it for a long time, then took off his hat to the painter. David now held the title of First Painter to the Emperor."},
+    {"type": "text", "text": "David called himself a history painter, and his earlier subjects were ancient Romans and Greeks. Here he treated a contemporary event with the same seriousness, on the scale once reserved for gods and battles. Official ceremonies have been pictured this way ever since, down to the group photograph."},
+    {"type": "fact", "text": "David painted the whole thing a second time. The replica, begun in 1808 and finished in exile in Brussels in 1822, hangs at Versailles. One difference is easy to check: one of the sisters wears pink."},
+    {"type": "text", "text": "Almost nothing in the scene lasted. Within two years of the Salon, Napoleon had divorced Josephine to marry an Austrian princess, and he was holding the Pope prisoner. In 1815 the empire fell. David was banished, and the canvas was rolled away in storage. It entered the Louvre in 1889."},
+    {"type": "explore", "spots": [
+      {"x": 0.565, "y": 0.68, "zoom": 3, "r": 0.05, "shape": "rect", "title": "The emperor", "text": "White satin, red velvet and gold from neck to floor. The costume was designed for the day, mixing Roman emperor and medieval king."},
+      {"x": 0.35, "y": 0.74, "zoom": 3.2, "r": 0.05, "title": "The train bearers", "text": "Two ladies of the court gather up the heavy ermine-lined mantle. Its weight was a real problem during the ceremony."},
+      {"x": 0.76, "y": 0.75, "zoom": 2.6, "r": 0.08, "title": "Backs to you", "text": "The great officers of the empire, in dark velvet and feathered hats, are seen from behind. They work like a doorway: you stand just behind them."},
+      {"x": 0.79, "y": 0.42, "zoom": 2.4, "r": 0.08, "title": "The altar", "text": "A tall crucifix and a row of giant candlesticks. The religious part of the ceremony is pushed to the edge, while the action happens in front of it."},
+      {"x": 0.95, "y": 0.33, "zoom": 2.6, "r": 0.05, "title": "Marble sculpture", "text": "Part of the cathedral's real altar group, a Pietà: Mary holding the dead Christ. It is one of the few things here older than the painted scenery."},
+      {"x": 0.51, "y": 0.52, "zoom": 3.2, "r": 0.04, "shape": "rect", "title": "The processional cross", "text": "A slim cross on a long staff rises just behind Josephine. It marks the exact middle of the action, between the family box and the crown."},
+      {"x": 0.11, "y": 0.53, "zoom": 3, "r": 0.05, "title": "The empty throne", "text": "On the left wall, a throne under a red canopy, with a cross on its back. It waits, unoccupied, while everyone looks the other way."}
+    ]},
+    {"type": "text", "text": "Go back to that raised crown. You know now that a different gesture lies under the paint, that the woman in the box was in another country, and that the temple is cardboard. None of it makes the picture a lie in the usual sense. It was never meant as a report."},
+    {"type": "key", "text": "A coronation picture shows how a ruler wants to be remembered, not what a witness saw. The changes David made, and who asked for them, are the real subject."}
+  ],
+  "quiz": [
+    {"question": "What did David first plan to show at the center?", "options": ["The Pope crowning Napoleon", "Napoleon crowning himself", "Josephine entering the cathedral"], "answer": 1, "explanation": "The first idea, Napoleon crowning himself, was painted over."},
+    {"question": "Why is Napoleon's mother a surprising presence?", "options": ["She was not at the ceremony", "She had died years earlier", "She is shown wearing a crown"], "answer": 0, "explanation": "She was in Rome and missed the coronation; Napoleon had her added."},
+    {"question": "What did Napoleon ask David to change about the Pope?", "options": ["To make him stand", "To remove him", "To show him giving a blessing"], "answer": 2, "explanation": "The Pope's hand was raised so he would not seem to be doing nothing."},
+    {"question": "What were the classical arches in Notre-Dame made of?", "options": ["Marble brought from Italy", "Painted wood and cardboard", "They were David's invention"], "answer": 1, "explanation": "Percier and Fontaine built temporary scenery to hide the Gothic interior."},
+    {"question": "How does David keep the crowd from scattering your attention?", "options": ["Nearly everyone looks toward the crown", "He blurs the faces at the edges", "He paints the crowd in gray"], "answer": 0, "explanation": "Gazes from both sides converge on the raised crown."},
+    {"question": "Where did David finish his second version of the painting?", "options": ["Rome", "Brussels", "London"], "answer": 1, "explanation": "He completed the replica in exile in Brussels in 1822; it hangs at Versailles."}
+  ],
+  "facts": [
+    {"text": "The painting is roughly 10 meters (32 feet) wide.", "isTrue": true, "explanation": "It measures about 6.2 by 9.8 meters."},
+    {"text": "In the picture, the Pope places the crown on Josephine's head.", "isTrue": false, "explanation": "Napoleon holds the crown; the Pope sits behind him and blesses."},
+    {"text": "David painted himself among the spectators.", "isTrue": true, "explanation": "He appears sketching in the gallery above Napoleon's mother."}
+  ]
+}

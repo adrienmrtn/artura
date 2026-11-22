@@ -1,0 +1,310 @@
+{
+ "teaser": "The liveliest dance hall in Paris, painted at the hour when nobody is dancing.",
+ "focus": [
+  0.6,
+  0.33
+ ],
+ "review_notes": "Dated 1892/95 by the Art Institute of Chicago; catalog year given as 1895.\nIdentities (AIC): Édouard Dujardin, La Macarona, Paul Sescau, Maurice Guibert at the table; May Milton at right; La Goulue at the mirror; Lautrec and cousin Gabriel Tapié de Céleyran in the background. Red-haired woman seen from behind is sometimes said to be Jane Avril (stated as uncertain).\nCanvas history: the L-shaped strip at bottom and right. Older accounts say the picture was cut down after the artist's death and later reassembled; technical study suggests the artist enlarged the composition himself. Lesson presents both.\nLautrec's height about 1.52 m; broken thighbones at 13 and 14.\nPicasso's The Blue Room (1901, Phillips Collection) shows Lautrec's May Milton poster on the wall.\nDimensions about 123 x 141 cm.\nLautrec said to have had a reserved table and his paintings hung in the Moulin Rouge foyer.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The Moulin Rouge sold noise: an orchestra, the can-can, shrieks, champagne. In this painting of it, no one dances, no one laughs and almost no one speaks. And the one face that is brightly lit is the one that looks least alive."
+  },
+  {
+   "type": "text",
+   "text": "Henri de Toulouse-Lautrec knew the place better than anyone. It opened in 1889 at the foot of Montmartre, the hill of cheap rents, studios and cabarets in the north of Paris, and he was there most nights from the start, sketching at his table."
+  },
+  {
+   "type": "fact",
+   "text": "The Moulin Rouge hung Lautrec's paintings in its entrance hall. A customer walking in passed his pictures of the dancers before seeing the dancers themselves."
+  },
+  {
+   "type": "text",
+   "text": "He painted this large canvas, about 123 by 141 centimeters (4 by 4.5 feet), as a group portrait of his own circle. Five friends sit around a table: a writer, a dancer, two photographers and a red-haired woman seen from behind. He also slipped himself into the room."
+  },
+  {
+   "type": "find",
+   "text": "The painter is in his own picture, walking through the back of the hall. He is the shortest man in the room. Where?",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.2,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Lautrec and his cousin",
+     "text": "The small bearded man in a bowler hat is the artist. The very tall figure in a top hat beside him is his cousin and constant companion, Gabriel Tapié de Céleyran. They pass in profile, noticed by no one."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The contrast in height was real. Lautrec came from one of the oldest noble families in the south of France. As a teenager he broke both thighbones, one after the other, and his legs stopped growing. As an adult he stood about 1.52 meters (just under 5 feet) and walked with a cane."
+  },
+  {
+   "type": "text",
+   "text": "Barred from the riding and hunting his family lived for, he drew instead, and made Montmartre his territory. He painted its performers as a regular among regulars, not as a tourist. Now look at how he puts you into the room."
+  },
+  {
+   "type": "lines",
+   "text": "The picture is built on slanted lines that slide toward you.",
+   "lines": [
+    {
+     "points": [
+      [
+       0,
+       0.47
+      ],
+      [
+       0.6,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "The railing",
+     "text": "A wooden balustrade cuts the lower left corner off completely. You are standing on the wrong side of it, shut out from the table."
+    },
+    {
+     "points": [
+      [
+       0.3,
+       0.72
+      ],
+      [
+       0.62,
+       0.55
+      ],
+      [
+       0.98,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The floorboards",
+     "text": "Floor lines rush back toward the right, tipping the room steeply. The table seems to sit on a slope."
+    },
+    {
+     "points": [
+      [
+       0.3,
+       0.25
+      ],
+      [
+       0.46,
+       0.38
+      ],
+      [
+       0.63,
+       0.33
+      ],
+      [
+       0.3,
+       0.25
+      ]
+     ],
+     "closed": true,
+     "label": "A closed circle",
+     "text": "The heads at the table lean in toward each other. Their group is a knot you cannot enter."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "This off-center, cut-off way of composing came from two sources Lautrec loved: Japanese woodblock prints, with their steep diagonals, and the paintings of Edgar Degas, who cropped figures at the frame like a snapshot. The effect is of a glance, not a posed view."
+  },
+  {
+   "type": "key",
+   "text": "Lautrec makes you a passerby. The railing blocks you, the friends ignore you, and the only person facing you is rushing out of the frame."
+  },
+  {
+   "type": "text",
+   "text": "That person is the reason the painting is famous. At the right edge, a woman's face looms up, cut by the frame and lit from below, in a color no portrait painter of the time would have dared give to skin."
+  },
+  {
+   "type": "tour",
+   "title": "Light and faces",
+   "text": "Artificial light does strange things to skin. Lautrec painted exactly what it did.",
+   "spots": [
+    {
+     "x": 0.94,
+     "y": 0.44,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The green face",
+     "text": "This is May Milton, an English dancer. Light from below turns her skin acid green and turquoise, with white on the cheekbones and a slash of red for the mouth. It reads as a mask."
+    },
+    {
+     "x": 0.34,
+     "y": 0.26,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The dancer at the table",
+     "text": "Across the table sits a dancer known as La Macarona, her face chalk white with powder under an orange hat. Her eyes are half closed, her smile fixed."
+    },
+    {
+     "x": 0.48,
+     "y": 0.4,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Orange hair",
+     "text": "The woman with her back to us has no face at all, only a blaze of orange hair pinned up above a fur collar. She may be the dancer Jane Avril, but no one is sure."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "None of these colors flatters. Lautrec was not mocking his friends. He was reporting what gas and electric light did to faces at two in the morning, when the makeup has slipped and the evening has gone on too long."
+  },
+  {
+   "type": "fact",
+   "text": "Lautrec painted with oil thinned heavily with turpentine, so it soaked in and dried matte, like chalk. You can see the long, streaky strokes in the floor and the railing, closer to drawing than to painting."
+  },
+  {
+   "type": "text",
+   "text": "The green face has a strange history. If you examine the canvas itself, a seam runs down the right side and along the bottom: the strip with May Milton and the lower railing is a separate, L-shaped piece of fabric joined to the main rectangle."
+  },
+  {
+   "type": "text",
+   "text": "For a long time the story was that a dealer cut her off after the artist's death, to make the picture easier to sell, and that she was sewn back later. More recent study of the canvas suggests Lautrec himself may have enlarged the scene to add her. Either way, without that strip it is a calm group portrait. With it, the whole room tilts."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.7,
+     "y": 0.14,
+     "zoom": 2.4,
+     "r": 0.11,
+     "title": "At the mirror",
+     "text": "In the background a woman lifts both arms to fix her hair in the green-tinted mirror. She is La Goulue, the star dancer of the house, caught off stage."
+    },
+    {
+     "x": 0.63,
+     "y": 0.33,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Top hats",
+     "text": "Two men in black top hats, both photographers and close friends of the painter, lean in to talk. Their dark shapes anchor the center."
+    },
+    {
+     "x": 0.27,
+     "y": 0.27,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The writer",
+     "text": "A man with a yellow beard and a soft hat bends toward the dancer. He is Édouard Dujardin, a writer and critic."
+    },
+    {
+     "x": 0.24,
+     "y": 0.57,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Carafe and glasses",
+     "text": "A carafe and glasses sit on the white cloth, sketched in a few transparent strokes. The tablecloth is the only patch of clean white in the picture."
+    },
+    {
+     "x": 0.57,
+     "y": 0.68,
+     "zoom": 2.0,
+     "r": 0.14,
+     "title": "The bentwood chair",
+     "text": "A curved cafe chair is drawn in loose ocher loops over the woman's skirt, so thin you can see through it."
+    },
+    {
+     "x": 0.1,
+     "y": 0.15,
+     "zoom": 2.0,
+     "r": 0.12,
+     "title": "The mirrored wall",
+     "text": "Smeared lights and ghostly figures float in the green glass behind the table. The crowd of the dance hall exists only as a reflection."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "May Milton had another afterlife. In 1895 Lautrec made a poster of her, and a copy of it hangs on the wall in “The Blue Room”, painted in 1901 by a twenty-year-old newcomer to Paris named Pablo Picasso."
+  },
+  {
+   "type": "text",
+   "text": "Lautrec died that same year, at 36, worn out by alcohol and illness. The Moulin Rouge is still open. But when people picture its early years, they tend to see it his way: orange hair, black hats, and one green face going past."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where is Lautrec in his own painting?",
+   "options": [
+    "Seated at the table with his back to us",
+    "In the background, a short man walking beside his tall cousin",
+    "He is the face at the right edge"
+   ],
+   "answer": 1,
+   "explanation": "He passes through the back of the hall next to Gabriel Tapié de Céleyran."
+  },
+  {
+   "question": "Why is the face at the right edge green?",
+   "options": [
+    "It is lit from below by artificial light",
+    "The paint has changed color with age",
+    "She is wearing a carnival mask"
+   ],
+   "answer": 0,
+   "explanation": "Lautrec painted what gas and electric light did to skin."
+  },
+  {
+   "question": "What does the wooden railing in the lower left do?",
+   "options": [
+    "It leads your eye to the orchestra",
+    "It frames the artist's signature",
+    "It shuts you out from the group at the table"
+   ],
+   "answer": 2,
+   "explanation": "The balustrade places you on the wrong side, as a passerby."
+  },
+  {
+   "question": "What is unusual about the canvas itself?",
+   "options": [
+    "It is painted on both sides",
+    "An L-shaped strip along the right and bottom is a separate piece",
+    "It is round"
+   ],
+   "answer": 1,
+   "explanation": "The strip with May Milton and the lower railing is joined to the main rectangle."
+  },
+  {
+   "question": "Which two influences shaped Lautrec's cut-off, diagonal compositions?",
+   "options": [
+    "Japanese prints and Edgar Degas",
+    "Greek sculpture and Raphael",
+    "Stained glass and Rembrandt"
+   ],
+   "answer": 0,
+   "explanation": "He loved the steep diagonals of Japanese prints and Degas's cropped figures."
+  },
+  {
+   "question": "How did Lautrec apply his oil paint?",
+   "options": [
+    "In thick, glossy layers",
+    "Thinned with turpentine so it dried matte and streaky",
+    "With a palette knife only"
+   ],
+   "answer": 1,
+   "explanation": "The thinned paint soaked in and looks close to drawing."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Lautrec came from a poor family in Montmartre.",
+   "isTrue": false,
+   "explanation": "He came from one of the oldest noble families in the south of France."
+  },
+  {
+   "text": "The star dancer La Goulue appears in the background, fixing her hair at a mirror.",
+   "isTrue": true,
+   "explanation": "She raises both arms to her hair in front of the green mirror."
+  },
+  {
+   "text": "Everyone at the table is looking out at the viewer.",
+   "isTrue": false,
+   "explanation": "The friends lean toward each other and ignore us; only the woman at the right edge faces out."
+  }
+ ]
+}

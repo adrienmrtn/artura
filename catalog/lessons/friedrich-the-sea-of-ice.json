@@ -1,0 +1,44 @@
+{
+  "teaser": "Nobody wanted this painting of ice. Then they found the ship in it.",
+  "focus": [0.42, 0.38],
+  "review_notes": "Exhibited in Prague in 1824 and afterwards in Dresden and elsewhere; remained unsold until Friedrich's death in 1840.\nLong confusion with the lost 'Wreck of the Hope' (painted 1822 for the collector J. G. von Quandt).\nPassed to the painter Johan Christian Dahl after Friedrich's death; bought by the Hamburger Kunsthalle in 1905.\nOil studies of ice on the Elbe made in the winter of 1820-21.\nThe 1787 accident: brother Johann Christoffer drowned while trying to save Caspar David, who had fallen through the ice (accounts differ in detail).\nParry's expedition of 1819-20 as the inspiration; neither of his ships was actually wrecked.\nDate usually given as 1823-24; size 96.7 x 126.9 cm.",
+  "lesson": [
+    {"type": "text", "text": "The first people who saw it did not know what to do with it. Shown in 1824, the picture struck visitors as cold in every sense: no people, no shore, no story they could follow, only broken ice in a strange light. It was exhibited again and again. No one bought it. It was still in Friedrich's studio when he died sixteen years later."},
+    {"type": "text", "text": "You can sympathize with them. A landscape in the 1820s was supposed to offer a place you might like to visit: a valley, a harbor, a ruin at sunset. Friedrich offers a place that would kill you within hours. And if you scan it quickly, there seems to be nothing in it but ice."},
+    {"type": "find", "text": "Something made by people is caught in the ice. Where is it?", "spots": [{"x": 0.81, "y": 0.47, "zoom": 3.6, "r": 0.06, "title": "The wreck", "text": "The stern of a sailing ship, tipped on its side and half swallowed. You can make out its curved planks. Against the pile of ice it looks like a toy."}]},
+    {"type": "text", "text": "That small wooden shell changes the scale of everything. A ship like this was perhaps 30 meters long. The slabs next to it are now the size of buildings, and the peak in the middle becomes a mountain that built itself in a few minutes of grinding pressure."},
+    {"type": "fact", "text": "Europe was following polar news closely. In 1819 and 1820 the British officer William Edward Parry had sailed into the Arctic looking for the Northwest Passage, a sea route over the top of North America, and his published account was widely read."},
+    {"type": "text", "text": "Friedrich never went anywhere near the Arctic. He hardly left the area between Dresden and the Baltic coast. His polar sea came from a hard winter at home, when the river Elbe froze and then broke up. He went down to the bank and painted the drifting floes in oil, slab by slab."},
+    {"type": "text", "text": "Then he enlarged those river fragments into a continent. Knowing this, you can see how the picture is built: like a pile of plates pushed from one side, with every shard obeying the same force."},
+    {"type": "lines", "text": "Trace the push.", "lines": [
+      {"points": [[0.7, 0.47], [0.52, 0.3], [0.375, 0.15]], "closed": false, "label": "The thrust", "text": "The big slabs all lean the same way, driven up and to the left until they end in a sharp point. The ship lies at the low end of this ramp, already passed over."},
+      {"points": [[0.27, 0.4], [0.375, 0.15], [0.66, 0.4]], "closed": false, "label": "The pyramid", "text": "Seen as a whole, the heap forms a triangle in the middle of the canvas, as stable as a monument. Or a tomb."},
+      {"points": [[0.02, 0.93], [0.35, 0.8], [0.62, 0.72], [0.98, 0.76]], "closed": false, "label": "The steps", "text": "In front, flat brownish sheets are stacked like broken stairs. They rise toward the pile and stop. No path leads you in."}
+    ]},
+    {"type": "key", "text": "Friedrich paints a disaster with no drama left in it. The crushing is over. What remains is silence, and the slow patience of ice."},
+    {"type": "fact", "text": "For decades the painting carried the wrong name, “The Wreck of the Hope.” That title belonged to another Friedrich picture of a ship in the ice, now lost, and the two were mixed up."},
+    {"type": "text", "text": "The mix-up stuck because it sounded right. Many viewers have read the scene as hope itself going under. Others see the opposite: human ambition is tiny, but the sky is clearing. Travel through the picture with both readings in mind."},
+    {"type": "tour", "title": "Cold details", "text": "Four places where the paint tells you something the first glance misses.", "spots": [
+      {"x": 0.12, "y": 0.34, "zoom": 2.8, "r": 0.1, "title": "An echo", "text": "Far off on the left, a second jagged heap in pale blue repeats the first. The destruction is not one accident. It goes on to the horizon."},
+      {"x": 0.09, "y": 0.53, "zoom": 3.2, "r": 0.08, "title": "Splinters", "text": "Thin brown poles stick out between the slabs: pieces of mast or spar. They are the only straight, slender lines in the picture, and easy to mistake for twigs."},
+      {"x": 0.77, "y": 0.62, "zoom": 2.4, "r": 0.11, "title": "The yellow slab", "text": "One upright shard glows a warm yellow, lit from the side. Friedrich's ice is never plain white: it runs from ocher and brown in front to blue and gray behind."},
+      {"x": 0.42, "y": 0.04, "zoom": 2, "r": 0.14, "title": "The opening sky", "text": "Straight above the peak the clouds thin out and a patch of clear blue shows. The tip of the ice points right at it."}
+    ]},
+    {"type": "text", "text": "That gradation of color, warm near you and cold far away, is an old painter's method for creating depth. Here it has a second effect. The foreground ice looks like earth or rock, as if the frozen sea had been there forever and would never thaw."},
+    {"type": "text", "text": "There may be a private memory under all this. When Friedrich was thirteen, he went through the ice near his home on the Baltic. One of his brothers tried to pull him out and drowned. The painter never commented on the link, but ice was not a neutral subject for him."},
+    {"type": "fact", "text": "After Friedrich's death the unsold canvas went to a fellow painter and neighbor, the Norwegian Johan Christian Dahl. A museum only acquired it in 1905, more than eighty years after it was made."},
+    {"type": "text", "text": "By then, taste had caught up. Viewers who had seen photographs of real polar expeditions, and later artists who built pictures out of sharp, colliding planes, found the painting strangely modern. The public of 1824 had asked where the story was. The story was the thing they found too small to notice."}
+  ],
+  "quiz": [
+    {"question": "How did the public react when the painting was first shown?", "options": ["It sold on the first day", "It was banned", "It puzzled people and found no buyer"], "answer": 2, "explanation": "It stayed unsold in Friedrich's studio until he died."},
+    {"question": "Where did Friedrich study the ice he painted?", "options": ["On the frozen Elbe river near his home", "On an Arctic expedition", "In the Alps"], "answer": 0, "explanation": "He painted floes on the Elbe during a hard winter."},
+    {"question": "What does the small ship do to the picture?", "options": ["It adds a note of comedy", "It reveals how enormous the ice slabs are", "It shows the rescue arriving"], "answer": 1, "explanation": "Next to the wreck, the slabs become the size of buildings."},
+    {"question": "Why was the painting long called “The Wreck of the Hope”?", "options": ["Friedrich wrote that name on the hull", "It was the name of Parry's ship", "It was confused with another, lost painting by Friedrich"], "answer": 2, "explanation": "The title belonged to a different picture that has disappeared."},
+    {"question": "How do the colors of the ice change from front to back?", "options": ["From warm browns and ochers to cold blues", "From blue to red", "They stay pure white throughout"], "answer": 0, "explanation": "Warm tones sit near the viewer and cool tones recede."}
+  ],
+  "facts": [
+    {"text": "Friedrich sailed to the Arctic to prepare this painting.", "isTrue": false, "explanation": "He never went there; he studied river ice near Dresden."},
+    {"text": "The main slabs of ice all lean in the same direction.", "isTrue": true, "explanation": "They are driven up and to the left, ending in a sharp peak."},
+    {"text": "A museum bought the painting during Friedrich's lifetime.", "isTrue": false, "explanation": "It went unsold; a museum acquired it only in 1905."}
+  ]
+}

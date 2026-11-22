@@ -1,0 +1,185 @@
+{
+ "teaser": "He painted this calm, flowery jungle in the year he was arrested for bank fraud.",
+ "focus": [
+  0.49,
+  0.8
+ ],
+ "review_notes": "Date: the Met gives ca. 1907; probably shown at the Salon d'Automne of 1907.\nBank fraud affair: Rousseau arrested in December 1907, held several weeks, tried in January 1909, suspended sentence. Check details (accomplice Louis Sauvaget, Banque de France).\nSign on his door offering lessons and his studio in rue Perrel: reported in biographies.\nChildren's album 'Bêtes sauvages' (published by the Galeries Lafayette department store) as the source for his animals: documented for several jungle pictures, not confirmed for this specific lion.\nPrey identified as a jaguar by the Met.\nWhether the white disc is sun or moon is left open.\nBequest of Sam A. Lewisohn, 1951. Dimensions approx. 114 x 160 cm.\n'He often paid the grocer in pictures': reported anecdotally.\nGerman collector = Wilhelm Uhde; commission = The Snake Charmer for Robert Delaunay's mother (1907).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "1907 was a strange year to be Henri Rousseau. He was 63, twice widowed, and living in a single room in a working-class corner of Paris on a small pension. A sign on his door offered lessons in drawing, painting and music. He often paid the grocer in pictures."
+  },
+  {
+   "type": "text",
+   "text": "It was also the year things began to turn. A German collector came to visit. The mother of a young painter ordered a large jungle scene. And at the Salon d'Automne, a fashionable fall exhibition, he very probably showed this canvas: a forest in bloom, about 114 by 160 cm (45 by 63 in), under a pale disc that could be sun or moon."
+  },
+  {
+   "type": "fact",
+   "text": "In December 1907, Rousseau was arrested. A former music pupil had talked him into opening a bank account under a false name as part of a swindle. He spent weeks in prison. At his trial in 1909, his lawyer argued he was too naive to be guilty, and the sentence was suspended."
+  },
+  {
+   "type": "text",
+   "text": "None of that trouble leaks into the picture. It looks like a flower show. Rousseau gives the top three-quarters of the canvas to blossoms and leaves, and you could admire them for a full minute before noticing that the title promises something else."
+  },
+  {
+   "type": "find",
+   "text": "The painting is called The Repast of the Lion. So where is the meal?",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.83,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "The lion and its prey",
+     "text": "Low in the grass, a small lion grips a spotted cat, a jaguar, in its jaws. Red drops run down the victim's flank. He looks up at you as if interrupted."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A kill, tucked at the bottom like a footnote. Painters of Rousseau's time who showed wild animals fighting made it the whole drama, all muscle and roar. He shrinks it and lets the garden win. The violence is real, but the forest does not care."
+  },
+  {
+   "type": "text",
+   "text": "Compare the lion to what grows around him. A single flower is larger than his entire body. Rousseau did not paint plants at their true size. He took what he saw in Paris hothouses and florists' windows and enlarged it until a houseplant could shelter a big cat."
+  },
+  {
+   "type": "fact",
+   "text": "His animals had an even humbler source. After his death, a children's picture album of wild beasts, sold by a Paris department store, was found among his things. Several creatures in his jungles match its photographs pose for pose."
+  },
+  {
+   "type": "text",
+   "text": "So the jungle is assembled, not observed: zoo memories, greenhouse leaves, printed pictures. What holds it together is his method. He paints each leaf as a clean, separate shape with a light edge and a dark edge, then sets them in rows from front to back like scenery in a toy theater."
+  },
+  {
+   "type": "key",
+   "text": "Rousseau's jungles are less about danger than about abundance. Scale is his main tool: make the flowers huge and the predator small, and the forest becomes the subject."
+  },
+  {
+   "type": "text",
+   "text": "He would have only three more years. By the time he died in 1910, painters half his age were visiting that single room to study how he did it. Wander through the canvas yourself now, plant by plant."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.13,
+     "y": 0.52,
+     "zoom": 2,
+     "r": 0.14,
+     "title": "White blossom",
+     "text": "A tower of white petals taller than a tree, each petal a separate curved stroke. Nothing like it grows anywhere. It is the brightest thing in the picture after the sky."
+    },
+    {
+     "x": 0.23,
+     "y": 0.36,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "Yellow clusters",
+     "text": "These look like flowers but are shaped like bunches of bananas, hanging upside down or pointing up as he pleased. Rousseau cared more about the pattern than the botany."
+    },
+    {
+     "x": 0.47,
+     "y": 0.28,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "The pale disc",
+     "text": "A white half-circle rises, or sets, behind a gray hill. With no shadows and no glow on the leaves, you cannot tell whether it is the sun or the moon."
+    },
+    {
+     "x": 0.53,
+     "y": 0.54,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "Blue flower",
+     "text": "A deep blue bloom floats in the middle of the green, right above the lion. It acts as a marker: follow its stem down and you land on the kill."
+    },
+    {
+     "x": 0.9,
+     "y": 0.46,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Orange lotus",
+     "text": "A salmon-pink flower with pointed petals, a cousin of the lotus blossoms that fill his later jungle pictures."
+    },
+    {
+     "x": 0.04,
+     "y": 0.38,
+     "zoom": 2,
+     "r": 0.08,
+     "title": "Black trunks",
+     "text": "Straight, dark trunks stand at both edges like the sides of a stage set. They close the scene and push your eye back toward the center.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.89,
+     "y": 0.92,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Signature",
+     "text": "“Henri Rousseau,” in pale paint on the grass. He signed with the full, careful hand of a man who considered himself one of the great painters of France."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What happened to Rousseau in December 1907?",
+   "options": [
+    "He won a medal at the Salon",
+    "He was arrested in a bank fraud case",
+    "He traveled to Africa"
+   ],
+   "answer": 1,
+   "explanation": "He was drawn into a swindle by a former pupil and arrested."
+  },
+  {
+   "question": "What is the lion eating?",
+   "options": [
+    "A spotted cat, a jaguar",
+    "An antelope",
+    "A monkey"
+   ],
+   "answer": 0,
+   "explanation": "The lion holds a spotted jaguar in its jaws at the bottom of the canvas."
+  },
+  {
+   "question": "How does Rousseau treat scale in this painting?",
+   "options": [
+    "Everything is true to life",
+    "The lion is enormous and the plants tiny",
+    "The flowers are huge and the lion small"
+   ],
+   "answer": 2,
+   "explanation": "A single blossom is larger than the lion's whole body."
+  },
+  {
+   "question": "What was found among Rousseau's belongings after he died?",
+   "options": [
+    "A diary of a trip to the tropics",
+    "A children's album of wild animal pictures",
+    "A stuffed lion"
+   ],
+   "answer": 1,
+   "explanation": "He used a department-store picture album as a source for his animals."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The lion and its meal take up most of the canvas.",
+   "isTrue": false,
+   "explanation": "They are small and low in the grass; flowers and leaves fill most of the picture."
+  },
+  {
+   "text": "In 1907 Rousseau offered lessons in drawing, painting and music to earn money.",
+   "isTrue": true,
+   "explanation": "A sign on his door advertised the lessons, and he lived on a small pension."
+  },
+  {
+   "text": "The yellow clusters in the trees are shaped like bunches of bananas.",
+   "isTrue": true,
+   "explanation": "Rousseau used banana-like bunches as decorative blossoms, pointing up or down."
+  }
+ ]
+}

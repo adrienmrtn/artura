@@ -1,0 +1,364 @@
+{
+ "teaser": "Fourteen friends, one terrace, one small dog. Renoir was in love with the woman holding it.",
+ "focus": [
+  0.45,
+  0.45
+ ],
+ "review_notes": "Identifications follow the Phillips Collection's usual list: Aline Charigot (with dog), Alphonse Fournaise Jr. (standing left), Alphonsine Fournaise (leaning on rail), Baron Raoul Barbier (back turned), Ellen Andrée (drinking), Charles Ephrussi (top hat) and Jules Laforgue (cap), Angèle Legault, Adrien Maggiolo, Gustave Caillebotte (seated lower right), Lestringuez, Lhote and Jeanne Samary (upper right). Some sources swap Angèle and Ellen Andrée; check.\nRenoir broke his right arm in early 1880 and painted left-handed for a while: check date.\nThe awning being a late addition over the landscape comes from technical study at the Phillips: check.\nPurchase by Duncan Phillips in 1923 for $125,000: check.\nThe painting's role in the film Amélie (2001): the neighbor copies it every year.\nThe link with Zola's 1880 criticism of the Impressionists is a common reading, stated as a possibility.\nRenoir's remark about reaching the end of Impressionism is paraphrased.\nSize 130 x 173 cm. Dog described as an affenpinscher.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In the summer of 1880 Pierre-Auguste Renoir was 39 and, for the first time, not poor. A portrait of a publisher’s wife and children had been a hit at the Salon the year before, and wealthy families now wanted their own. He had also met a young seamstress named Aline Charigot. He was, by his standards, a happy man."
+  },
+  {
+   "type": "text",
+   "text": "He was restless too. He wrote to a patron that he had been itching for a long time to paint a big picture of boaters, that he was getting older, and that he did not want to put the party off any longer. So he moved out to a riverside restaurant and asked his friends to come and pose."
+  },
+  {
+   "type": "text",
+   "text": "The restaurant was the Maison Fournaise, on an island in the Seine at Chatou, twenty minutes by train from Paris. On Sundays, city people came here to rent rowboats, eat on the upstairs balcony and flirt. Renoir set a large canvas on that balcony, 130 by 173 centimeters (about 51 by 68 inches)."
+  },
+  {
+   "type": "fact",
+   "text": "That same year Renoir had broken his right arm in a fall. He simply switched hands and painted with his left for a while, telling a friend the results were not bad at all."
+  },
+  {
+   "type": "text",
+   "text": "Fourteen people fit on this terrace, and none of them is an anonymous model. They are Renoir’s actual circle, and they come from very different worlds. Meet four of them."
+  },
+  {
+   "type": "tour",
+   "title": "The guest list",
+   "text": "A seamstress, an innkeeper’s son, a millionaire painter and a banker share one lunch.",
+   "spots": [
+    {
+     "x": 0.21,
+     "y": 0.52,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Aline",
+     "text": "The woman kissing at her little dog is Aline Charigot, the seamstress Renoir had fallen for. Her hat blooms with red flowers. Ten years later she became Madame Renoir."
+    },
+    {
+     "x": 0.13,
+     "y": 0.2,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The owner’s son",
+     "text": "Alphonse Fournaise Jr., in a boater’s straw hat and sleeveless shirt, leans on the rail. He was in charge of renting out the boats."
+    },
+    {
+     "x": 0.82,
+     "y": 0.5,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "Caillebotte",
+     "text": "Straddling his chair backward is Gustave Caillebotte, a painter, a rich collector and a keen sailor. He bought his friends’ pictures when nobody else would."
+    },
+    {
+     "x": 0.68,
+     "y": 0.17,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The top hat",
+     "text": "At the back, in city clothes, stands Charles Ephrussi, a banker’s son and art critic. His formal top hat looks almost comic among the straw ones."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A seamstress and a banker’s heir at the same table: that mix was new in French life, and Renoir loved it. Railways had put the countryside within reach of clerks and shopgirls. On a terrace like this, for an afternoon, class mattered a little less than who rowed well and who was good company."
+  },
+  {
+   "type": "text",
+   "text": "They never all posed together. Renoir painted them one or two at a time over many weeks, some at Chatou, some later in his studio, and he grumbled in letters about sitters who would not sit. The hard part was making separate portraits feel like one conversation. His solution was eyes."
+  },
+  {
+   "type": "lines",
+   "text": "Trace who is looking at whom. The glances stitch the group together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.79,
+       0.5
+      ],
+      [
+       0.24,
+       0.52
+      ]
+     ],
+     "closed": false,
+     "label": "Across the table",
+     "text": "Caillebotte gazes the full width of the table toward Aline, who has eyes only for her dog. This long line ties the right half to the left."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.31
+      ],
+      [
+       0.5,
+       0.38
+      ]
+     ],
+     "closed": false,
+     "label": "Over the rail",
+     "text": "The young woman leaning on the balustrade smiles at a man in a brown hat whose back is turned to us. We see her answer, never his question."
+    },
+    {
+     "points": [
+      [
+       0.76,
+       0.3
+      ],
+      [
+       0.69,
+       0.46
+      ]
+     ],
+     "closed": false,
+     "label": "Leaning in",
+     "text": "A man in a cream jacket bends over a woman in blue, who tilts her head toward Caillebotte instead. A small triangle of attention, not quite returned."
+    },
+    {
+     "points": [
+      [
+       0.03,
+       0.72
+      ],
+      [
+       0.33,
+       0.5
+      ],
+      [
+       0.48,
+       0.43
+      ]
+     ],
+     "closed": false,
+     "label": "The railing",
+     "text": "The balcony rail runs on a diagonal from the corner into the group. It leads you in and separates the party from the river behind."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Almost nobody looks at the person looking at them. That is why the scene feels caught rather than staged: it has the loose, overlapping attention of a real lunch that has gone on a little too long."
+  },
+  {
+   "type": "fact",
+   "text": "The woman leaning on the rail is Alphonsine Fournaise, the owner’s daughter. The restaurant still exists on its island at Chatou, with the balcony, and you can have lunch there."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the table. Renoir had started out as a teenager painting flowers on porcelain in a factory, and he never lost his pleasure in shiny, breakable things."
+  },
+  {
+   "type": "tour",
+   "title": "After the meal",
+   "text": "The food is mostly gone. What is left is glass, fruit and crumpled linen.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.65,
+     "zoom": 2.8,
+     "r": 0.11,
+     "title": "Bottles and fruit",
+     "text": "Wine bottles, a small barrel, grapes and pears. The glass is built from a few white highlights over dark green and red: light, not outline, makes it round."
+    },
+    {
+     "x": 0.25,
+     "y": 0.75,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Three glasses",
+     "text": "Each glass holds a different amount and catches the light differently. One still has a finger of red wine in it."
+    },
+    {
+     "x": 0.48,
+     "y": 0.87,
+     "zoom": 2,
+     "r": 0.18,
+     "title": "The tablecloth",
+     "text": "The white cloth is hardly white. It is streaked with blue, lilac and pink, colors bounced onto it from the shade and the clothes around."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The cloth is the brightest area of the picture and sits at the bottom, like a reflector under the faces. Warm light comes up from it as well as down through the awning, which is why skin glows here even in the shade."
+  },
+  {
+   "type": "find",
+   "text": "This is a boating party, but where are the boats? One white sail is visible on the river. Find it.",
+   "spots": [
+    {
+     "x": 0.21,
+     "y": 0.19,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "A sail on the Seine",
+     "text": "Between the awning’s scalloped edge and the reeds, a white triangle: a sailboat on the river. It is nearly the only sign of the sport that brought everyone here."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The striped awning was probably an afterthought. Technical study suggests Renoir painted it late, over open sky and landscape, to pull the scene together and warm its light."
+  },
+  {
+   "type": "text",
+   "text": "Why go to this much trouble? Possibly because the novelist Émile Zola had just complained in print that the Impressionists only made sketches, and that none of them had produced a large, fully worked painting of modern life. If that stung, this canvas is the reply: portrait, still life and landscape, all in one."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.27,
+     "y": 0.57,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The dog",
+     "text": "A small scruffy terrier-like dog, an affenpinscher, stands on the table itself. Aline holds it up by the front paws, nose to nose."
+    },
+    {
+     "x": 0.615,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The drinker",
+     "text": "In the center, the actress Ellen Andrée drinks, her face half hidden by the glass. Over its rim she seems to look out toward us."
+    },
+    {
+     "x": 0.585,
+     "y": 0.19,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The man in the cap",
+     "text": "Facing the top-hatted Ephrussi is a younger man in a soft cap and brown jacket, usually identified as his secretary, the poet Jules Laforgue."
+    },
+    {
+     "x": 0.88,
+     "y": 0.2,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The trio",
+     "text": "Top right, two men crowd close to the actress Jeanne Samary, one with an arm around her. She raises her black-gloved hands to her ears."
+    },
+    {
+     "x": 0.19,
+     "y": 0.44,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A hat of flowers",
+     "text": "Aline’s straw hat is piled with red blossoms, painted in thick, juicy dabs. It is the strongest red in the picture."
+    },
+    {
+     "x": 0.4,
+     "y": 0.07,
+     "zoom": 2,
+     "r": 0.2,
+     "title": "The awning",
+     "text": "Red and white stripes with a scalloped edge. The canvas filters the sun and tints everything under it slightly pink."
+    },
+    {
+     "x": 0.39,
+     "y": 0.29,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Alphonsine",
+     "text": "Chin on her hand, elbow on the rail, in a yellow straw hat with a blue ribbon. She is as relaxed as someone who lives here, which she did."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "In 1923 the American collector Duncan Phillips paid $125,000 for the painting, an enormous sum then. He predicted that people would travel thousands of miles to his museum in Washington just to see it. They still do."
+  },
+  {
+   "type": "text",
+   "text": "Renoir did not paint another picture like it. A few months after finishing, he left for Algeria and then Italy, stood in front of Raphael’s frescoes, and decided he had gone as far as Impressionism could take him. His figures grew firmer and his outlines harder. The lunch at Chatou turned out to be a farewell party."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where does the lunch take place?",
+   "options": [
+    "In a Paris café",
+    "On the balcony of the Maison Fournaise at Chatou",
+    "In Renoir’s garden"
+   ],
+   "answer": 1,
+   "explanation": "The Maison Fournaise was a riverside restaurant on an island in the Seine."
+  },
+  {
+   "question": "Who is the woman holding the little dog?",
+   "options": [
+    "Aline Charigot, Renoir’s future wife",
+    "The owner’s daughter",
+    "A hired model from Paris"
+   ],
+   "answer": 0,
+   "explanation": "Aline, a seamstress, married Renoir ten years later."
+  },
+  {
+   "question": "How did Renoir paint the fourteen figures?",
+   "options": [
+    "All together in one afternoon",
+    "From photographs",
+    "One or two at a time over many weeks"
+   ],
+   "answer": 2,
+   "explanation": "They never all posed together, so he tied them into one scene through their glances."
+  },
+  {
+   "question": "What does the man in the top hat tell you about the party?",
+   "options": [
+    "It is a wedding",
+    "People from different social worlds are mixing",
+    "It is winter"
+   ],
+   "answer": 1,
+   "explanation": "A banker’s son in city dress shares the terrace with a seamstress and boatmen."
+  },
+  {
+   "question": "What is surprising about the white tablecloth?",
+   "options": [
+    "It is streaked with blue, lilac and pink",
+    "It is perfectly pure white",
+    "It was added by another painter"
+   ],
+   "answer": 0,
+   "explanation": "Renoir painted the colors reflected onto the cloth by its surroundings."
+  },
+  {
+   "question": "What did Renoir do a few months after finishing the picture?",
+   "options": [
+    "He opened a restaurant",
+    "He stopped painting for ten years",
+    "He traveled to Algeria and Italy and changed his style"
+   ],
+   "answer": 2,
+   "explanation": "Seeing Raphael in Italy convinced him to move away from Impressionism."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Renoir painted with his left hand for a time after breaking his right arm.",
+   "isTrue": true,
+   "explanation": "He broke the arm in 1880 and simply switched hands."
+  },
+  {
+   "text": "The table in the painting is covered with rowing equipment.",
+   "isTrue": false,
+   "explanation": "It holds bottles, glasses, fruit and a crumpled cloth; the only boating sign is a distant sail."
+  },
+  {
+   "text": "The restaurant where the scene is set was demolished long ago.",
+   "isTrue": false,
+   "explanation": "The Maison Fournaise still stands at Chatou, balcony included."
+  }
+ ]
+}

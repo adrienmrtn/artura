@@ -1,0 +1,48 @@
+{
+  "teaser": "A chemist, his wife, and a giant hat that stayed hidden under the paint for 230 years.",
+  "focus": [0.52, 0.4],
+  "review_notes": "Image checked: it is the Met double portrait (match was 'fulltext').\nMarie-Anne Pierrette Paulze married Lavoisier in 1771 at age 13; she studied drawing, reportedly with David, and made the plates for the Traité élémentaire de chimie (1789).\nFee of 7,000 livres.\nPortrait withheld from the Salon of 1789 for political reasons.\nLavoisier guillotined May 8, 1794, as a former tax farmer (Ferme générale); her father was executed the same day.\nMet technical study published 2021: original version showed her in a large hat with ribbons and artificial flowers, with a gilded desk and no scientific instruments, later reworked by David.\nInstrument identifications kept generic (glass vessel with brass tap for gases, tube of mercury, bell jar, large glass flask on the floor).\nProvenance: bought by John D. Rockefeller in the 1920s, given to the Rockefeller Institute, acquired by the Met in 1977.\nCanvas about 260 x 195 cm.",
+  "lesson": [
+    {"type": "text", "text": "Who is the main character here? The title names him first: Antoine-Laurent Lavoisier, the man who named oxygen and is often called the father of modern chemistry. But before you answer, check who is standing, who is dressed in light, and who is looking at whom."},
+    {"type": "lines", "text": "Trace the two gazes. They do not meet.", "lines": [
+      {"points": [[0.61, 0.415], [0.51, 0.345]], "closed": false, "label": "His eyes", "text": "Lavoisier stops writing and twists around to look up at his wife, as if waiting for her opinion on the page."},
+      {"points": [[0.565, 0.47], [0.47, 0.43], [0.5, 0.53], [0.555, 0.6]], "closed": false, "label": "Her arms", "text": "She does not look back at him: her eyes are on you. One arm rests on his shoulder, the other hand on the table. She is the one who receives the visitor."},
+      {"points": [[0.5, 0.26], [0.1, 0.9], [0.6, 0.9]], "closed": true, "label": "A white pyramid", "text": "Her muslin dress forms the largest, brightest shape on the canvas, a tall triangle. He, in black, almost sinks into the shadow beside it."}
+    ]},
+    {"type": "text", "text": "Jacques-Louis David did not arrange things this way by accident. Marie-Anne Paulze had married Lavoisier at thirteen. By 1788, when this was painted, she was about thirty and ran much of his scientific life: she learned English to translate foreign chemists for him and kept the records of his experiments."},
+    {"type": "fact", "text": "She could also draw, and David is said to have been her teacher. The engraved plates in her husband's landmark chemistry textbook of 1789, showing every flask and furnace, are signed by her."},
+    {"type": "text", "text": "David slipped that part of her story into the picture, far from the center, where a hurried visitor would never search. It is not on the table with the glassware."},
+    {"type": "find", "text": "Somewhere in this room is a sign that she is an artist. Can you find it?", "spots": [
+      {"x": 0.08, "y": 0.46, "zoom": 2.8, "r": 0.1, "title": "The portfolio", "text": "On an armchair at the far left rests a large dark folder tied with ribbon: an artist's portfolio for drawings. It balances the instruments on the right. His tools on one side, hers on the other."}
+    ]},
+    {"type": "text", "text": "The canvas is enormous for a private portrait: about 2.6 meters (8.5 feet) high, the scale normally used for kings. The fee matched. The couple paid David 7,000 livres, an exceptional price for a portrait."},
+    {"type": "text", "text": "They could afford it. Lavoisier financed his laboratory through a share in the Ferme générale, a private company that collected taxes for the king and kept a cut. It made him very rich. It also made him hated, and that mattered sooner than anyone in this room expected."},
+    {"type": "fact", "text": "The portrait was supposed to be shown at the Salon, the big public exhibition in Paris, in the summer of 1789. The Revolution had just begun. Officials judged that displaying a tax collector in such luxury was unwise, and the painting stayed home."},
+    {"type": "text", "text": "In 2021, conservators at the Metropolitan Museum removed an old varnish and noticed irregularities in the paint. Scans revealed an earlier version underneath. Madame Lavoisier wore a huge hat piled with ribbons and artificial flowers. The table was a gilded desk. And there was not one scientific instrument in sight."},
+    {"type": "key", "text": "David first painted two wealthy, fashionable people, then repainted them as partners in science. The image we admire as the portrait of modern chemistry was a second thought."},
+    {"type": "text", "text": "Knowing that, the glassware reads differently. Every piece was added on purpose, chosen to stand for Lavoisier's work on gases and on what air and water are made of. Wander through them, and through the few clues of the first version that David left in place."},
+    {"type": "explore", "spots": [
+      {"x": 0.845, "y": 0.47, "zoom": 2.6, "r": 0.08, "shape": "rect", "title": "Glass and brass", "text": "A tall glass cylinder on a brass foot, with a tap on top, used to hold and measure gases. David paints the reflections on the glass and the red liquid at the bottom as carefully as a face."},
+      {"x": 0.925, "y": 0.52, "zoom": 3.2, "r": 0.04, "shape": "rect", "title": "Mercury", "text": "A narrow tube standing in a dish, half filled with a dark silvery column: mercury, the liquid metal Lavoisier used in his most famous experiments on air."},
+      {"x": 0.83, "y": 0.87, "zoom": 2.4, "r": 0.11, "title": "The balloon", "text": "A big glass flask lies on the floor against the red cloth. Tiny bright squares on it are reflected windows. Flasks like this were used to weigh gases."},
+      {"x": 0.62, "y": 0.6, "zoom": 3, "r": 0.09, "title": "The manuscript", "text": "His quill rests on a stack of pages. He is probably at work on the chemistry textbook he would publish the following year."},
+      {"x": 0.565, "y": 0.47, "zoom": 3.5, "r": 0.05, "title": "Her hand", "text": "Her arm rests on his shoulder with complete ease. It is a gesture of affection, and also of someone who feels at home at this table."},
+      {"x": 0.49, "y": 0.3, "zoom": 2.6, "r": 0.1, "title": "The hair", "text": "A cloud of powdered curls, the height of fashion in 1788. This is where the giant hat once sat. David painted the wall and her hair over it."},
+      {"x": 0.72, "y": 0.72, "zoom": 2, "r": 0.14, "title": "Red velvet", "text": "The scarlet cloth falls in heavy folds to the floor. Under it hides the gilded desk of the first version. His black-stockinged leg stretches out in front, relaxed."}
+    ]},
+    {"type": "text", "text": "The ending is cruel. In May 1794, at the height of the Terror, Lavoisier was guillotined along with other tax collectors. Marie-Anne's father died the same day. David, by then a powerful revolutionary deputy, did nothing for the couple who had paid him so well."},
+    {"type": "fact", "text": "Marie-Anne survived, recovered her husband's confiscated papers and published his last writings herself. The portrait stayed with her family for over a century. An American oil magnate, John D. Rockefeller, bought it in the 1920s for a medical research institute."}
+  ],
+  "quiz": [
+    {"question": "Where does Lavoisier look in the portrait?", "options": ["At the viewer", "At his instruments", "Up at his wife"], "answer": 2, "explanation": "He turns from his writing to look up at her, while she looks at us."},
+    {"question": "What object hints that Marie-Anne is an artist?", "options": ["A portfolio of drawings on the armchair", "A palette on the table", "A statue behind her"], "answer": 0, "explanation": "A large tied portfolio rests on the chair at the far left."},
+    {"question": "What did scans in 2021 reveal under the paint?", "options": ["A different couple", "A huge decorated hat and no instruments", "A landscape"], "answer": 1, "explanation": "The first version showed her in a huge hat at a gilded desk, without glassware."},
+    {"question": "Why was the portrait not shown at the Salon of 1789?", "options": ["David had not finished it", "The couple refused", "Showing a rich tax collector was judged unwise as the Revolution began"], "answer": 2, "explanation": "Officials feared the public reaction to a wealthy tax collector."},
+    {"question": "How did Lavoisier earn the money for his laboratory?", "options": ["Through a company that collected taxes for the king", "By selling his inventions", "From a royal pension for scientists"], "answer": 0, "explanation": "He held a share in the Ferme générale, the private tax-collecting company."}
+  ],
+  "facts": [
+    {"text": "The scientific instruments were part of the portrait from David's very first version.", "isTrue": false, "explanation": "They were added when David reworked the painting."},
+    {"text": "Marie-Anne made the illustrations for her husband's chemistry textbook.", "isTrue": true, "explanation": "The plates of the 1789 textbook are signed by her."},
+    {"text": "David saved Lavoisier from the guillotine in 1794.", "isTrue": false, "explanation": "Lavoisier was executed, and David did nothing to help."}
+  ]
+}

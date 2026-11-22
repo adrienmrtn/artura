@@ -1,0 +1,43 @@
+{
+  "teaser": "A rainbow staircase climbing to a sun of real metal leaf, kept out of sight for decades.",
+  "focus": [0.5, 0.3],
+  "review_notes": "Dimensions given as 237.5 x 179.5 cm, oil and metal leaf on canvas: check against the Foundation's record.\n'The Five' meeting from 1896, and the series The Paintings for the Temple counting 193 works made 1906 to 1915: standard figures, please confirm.\nModerna Museet declining the offer of her work in 1970 is widely reported; confirm wording.\nGuggenheim 2018-2019 exhibition: over 600,000 visitors, the museum's attendance record at the time.\nReading of the pyramid as an ascent from the material to the spiritual is the common interpretation, not a documented statement by the artist.",
+  "lesson": [
+    {"type": "text", "text": "Stand in front of this canvas and the tip of the pyramid is above your head. It measures about 237 by 180 cm (roughly 7 ft 10 in by 5 ft 11 in), taller than most doorways. And the great disc at the top is not yellow paint. It is metal leaf, thin sheets of metal pressed onto the canvas, so it catches the light of the room the way an icon in a church does."},
+    {"type": "text", "text": "Hilma af Klint painted it in Stockholm in 1915. For something meant to carry a huge idea, the construction is almost childlike: three shapes you learned in school, stacked on a black ground. Watch how they lock together."},
+    {"type": "lines", "text": "Three simple shapes hold the whole picture.", "lines": [
+      {"points": [[0.0, 0.94], [0.5, 0.3], [1.0, 0.94]], "closed": true, "label": "The pyramid", "text": "A triangle as wide as the canvas. Its base sits on the ground and its point pierces the disc. Everything in it narrows as it rises."},
+      {"points": [[0.5, 0.0], [0.66, 0.05], [0.725, 0.17], [0.66, 0.29], [0.5, 0.34], [0.34, 0.29], [0.275, 0.17], [0.34, 0.05]], "closed": true, "label": "The gold disc", "text": "A circle of metal leaf, wider than the canvas can hold: its top is cut off by the edge, as if it kept going above the picture."},
+      {"points": [[0.5, 0.93], [0.5, 0.17]], "closed": false, "label": "The axis", "text": "A column of ovals runs straight up the middle and splits the pyramid into a warm half on the left and a cool half on the right."}
+    ]},
+    {"type": "text", "text": "A triangle pointing up, a circle above it: the picture is usually read as a climb. At the bottom the colors are many and heavy, like the material world. Step by step they pale and merge, until at the top there is only one thing left, the gold. It works like a prism in reverse. Instead of white light breaking into a rainbow, the rainbow gathers itself back into a single light."},
+    {"type": "fact", "text": "From 1896, af Klint met regularly with four other women in a group they called The Five. They held séances, gatherings where people try to contact spirits, and filled notebooks with the messages and drawings they believed they received."},
+    {"type": "text", "text": "Her training pointed elsewhere. She had graduated from the Royal Academy of Fine Arts in Stockholm in 1887 and earned her living with careful landscapes and portraits. Then, in 1906, she began a secret cycle she called The Paintings for the Temple. She believed a spiritual guide had commissioned it. Nine years and 193 works later it was done. The three Altarpieces close it, and this is the first."},
+    {"type": "text", "text": "The word “altarpiece” normally means the painting above the altar in a church, with a saint or a crucifixion. Hers has no figures at all. So what did she put there instead? The answers are small, and they sit along the edges and the center line."},
+    {"type": "explore", "spots": [
+      {"x": 0.5, "y": 0.325, "zoom": 4, "r": 0.05, "title": "The tip", "text": "The pyramid ends in a tiny black triangle holding one golden drop, pushed just inside the disc. This is the exact point where the two shapes meet."},
+      {"x": 0.5, "y": 0.72, "zoom": 2.2, "r": 0.09, "shape": "rect", "title": "The column of ovals", "text": "One oval per step, each filled with fine lines radiating from its center like a seed or a little sun. They shrink as they climb, which makes the pyramid seem to recede like a road."},
+      {"x": 0.09, "y": 0.84, "zoom": 3.5, "r": 0.07, "title": "Loops on the rungs", "text": "Each white horizontal line ends in a small hand-drawn curl. The lines wobble slightly. This geometry was made with a brush and a steady arm, not a machine."},
+      {"x": 0.24, "y": 0.2, "zoom": 2.6, "r": 0.11, "title": "The ring of rays", "text": "Around the gold, a green band bristles with thin spikes in yellow, pink, blue and white. They point outward, like light leaving a source."},
+      {"x": 0.82, "y": 0.4, "zoom": 2, "r": 0.1, "title": "The lavender halo", "text": "A broad pale violet ring closes the disc, set against flat black. The black is not a night sky with stars. It is simply nothing, so the shapes seem to float."}
+    ]},
+    {"type": "text", "text": "Those curls and wobbles matter. From a distance the picture looks like a diagram from a science book. Up close it is tender and slightly uneven, and the metal leaf is wrinkled and patchy. Af Klint was drawing an invisible order, but she drew it by hand."},
+    {"type": "fact", "text": "Textbooks long gave the invention of abstract painting to Kandinsky, Malevich and Mondrian, working in the years around 1910 to 1915. Af Klint's first pictures without recognizable subjects date from 1906."},
+    {"type": "text", "text": "So why did almost nobody know? Because she chose it. She rarely showed these works, and she asked that they stay unseen until twenty years after her death. She died in 1944 at 81, leaving more than 1,200 paintings and piles of notebooks to her nephew. They waited in crates."},
+    {"type": "fact", "text": "When the family offered the paintings to Stockholm's Moderna Museet in 1970, the museum is reported to have turned them down. A wider public first saw her work in 1986, in a Los Angeles exhibition about the spiritual in abstract art."},
+    {"type": "text", "text": "She had imagined a spiral temple where visitors would walk upward past the paintings, with the Altarpieces at the top. It was never built. But in 2018 her work filled the spiral ramp of the Guggenheim Museum in New York, and more than 600,000 people came, a record for the museum at the time."},
+    {"type": "key", "text": "Abstract art did not begin only as an experiment in style. For Hilma af Klint, shapes and colors were a way to picture what cannot be seen, and she was doing it years before the names you usually hear."}
+  ],
+  "quiz": [
+    {"question": "What is the large disc at the top made of?", "options": ["Yellow oil paint", "Metal leaf", "Colored glass"], "answer": 1, "explanation": "It is thin metal leaf applied to the canvas, which is why it reflects light."},
+    {"question": "What happens to the colors as the pyramid rises?", "options": ["They grow darker and heavier", "They stay exactly the same", "They pale and merge toward the gold"], "answer": 2, "explanation": "The strong colors at the base fade and gather into a single light at the top."},
+    {"question": "What was 'The Five'?", "options": ["A group of five women who held séances", "Five paintings in the Altarpiece series", "A Stockholm art school"], "answer": 0, "explanation": "Af Klint and four other women met from 1896 to try to contact spirits."},
+    {"question": "What did af Klint ask for regarding these paintings?", "options": ["That they be sold to a museum at once", "That they be burned", "That they stay unseen until twenty years after her death"], "answer": 2, "explanation": "She wanted them kept out of sight for two decades after she died."},
+    {"question": "How many works make up The Paintings for the Temple?", "options": ["3", "193", "1,200"], "answer": 1, "explanation": "The cycle counts 193 works, ending with the three Altarpieces."}
+  ],
+  "facts": [
+    {"text": "This Altarpiece shows a saint standing above an altar.", "isTrue": false, "explanation": "It has no figures at all, only a pyramid, a disc and a black ground."},
+    {"text": "Af Klint trained at the Royal Academy of Fine Arts in Stockholm.", "isTrue": true, "explanation": "She graduated in 1887 and worked as a landscape and portrait painter."},
+    {"text": "The spiral temple she imagined for her paintings was built in Stockholm.", "isTrue": false, "explanation": "It was never built, though her work later filled the Guggenheim's spiral ramp."}
+  ]
+}

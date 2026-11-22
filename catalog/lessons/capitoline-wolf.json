@@ -1,0 +1,231 @@
+{
+ "teaser": "Rome's most famous animal may be 1,500 years younger than everyone believed.",
+ "focus": [
+  0.2,
+  0.3
+ ],
+ "review_notes": "Dating: radiocarbon and thermoluminescence tests on the casting core (announced 2007-2008, results published around 2012) point to the 11th-12th century AD; the catalog year -450 reflects the traditional Etruscan attribution, and the debate is not fully closed.\nTwins: added in the late 15th century, attribution to Antonio del Pollaiuolo is traditional and disputed.\nMedieval location at the Lateran as a place of justice: based on medieval chronicles; check wording.\nSize about 75 cm high and 114 cm long.\nCopies sent to Rome, Georgia (1929) and Cincinnati (1931) under Mussolini.\nCicero's mention of a gilded wolf statue struck by lightning in 65 BC.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Picture the square in front of the Lateran, the pope's palace in medieval Rome. Courts met there, and sentences were carried out there. Watching over it all, fixed high on a tower wall, stood a bronze she-wolf with bared teeth. There were no babies beneath her. She was a warning, not a mother."
+  },
+  {
+   "type": "text",
+   "text": "Nobody can say for sure where she was first meant to stand. The Lateran is simply the earliest home we can trace. In 1471 Pope Sixtus IV gave her to the people of Rome, and she was carried across the city to the Capitoline Hill, where she has stayed ever since."
+  },
+  {
+   "type": "text",
+   "text": "She is smaller than her fame suggests: about 75 cm high and 114 cm long (roughly 30 by 45 inches), close to a real wolf. Before meeting the twins, spend a minute with the animal alone, the way medieval Romans knew her."
+  },
+  {
+   "type": "tour",
+   "title": "The animal alone",
+   "text": "Three parts of her body, three different ways of treating bronze.",
+   "spots": [
+    {
+     "x": 0.11,
+     "y": 0.24,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "A wary head",
+     "text": "She does not look down at the children. Her head turns out toward us, ears up, jaws parted, teeth showing. This is an animal on guard."
+    },
+    {
+     "x": 0.26,
+     "y": 0.2,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Fur as pattern",
+     "text": "The mane is not shaggy. It is a carpet of small flame-shaped curls, repeated like a stamped ornament, with one more strip running along her spine."
+    },
+    {
+     "x": 0.51,
+     "y": 0.44,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "Heavy with milk",
+     "text": "The swollen teats are the only soft, generous thing on a lean body. Above them you can make out the ridges of her ribs."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the sculptor mixed two languages. The body is observed: thin flanks, tense legs, a tail tucked between them. The fur is pure decoration. That blend of stiffness and life is exactly what made scholars place her among the Etruscans, the people who dominated central Italy before Rome rose."
+  },
+  {
+   "type": "fact",
+   "text": "The Roman writer Cicero mentions a gilded statue of the wolf that was struck by lightning on the Capitoline in 65 BC. For a long time, damage on this bronze's hind legs was taken as proof that it was the very same statue."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the famous story. Romulus and Remus, twin sons of the god Mars, are thrown into the Tiber as newborns. The river sets them down, a she-wolf nurses them, and Romulus grows up to found Rome. The bronze seems to tell it perfectly. Or does it?"
+  },
+  {
+   "type": "find",
+   "text": "One part of this group was made by a different hand, in a different century. Tap where you think the join is.",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.62,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The latecomers",
+     "text": "The twins. Their plump bodies, twisting poses and reaching arms belong to the Italian Renaissance. They were added in the late 1400s, after the wolf moved to the Capitoline."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The boys are often credited to the Florentine artist Antonio del Pollaiuolo, though that is far from certain. What matters is the effect. With two small additions, a fierce guardian became a nurse, and an old bronze became the birth certificate of a city."
+  },
+  {
+   "type": "text",
+   "text": "The biggest surprise came from a restorer. Working on the wolf around 2000, Anna Maria Carruba noticed that the body was cast in a single piece. Ancient Greek and Etruscan workshops usually cast large bronzes in sections and joined them. One-piece casting of this kind was a medieval habit, known from church bells."
+  },
+  {
+   "type": "fact",
+   "text": "Laboratories later tested bits of clay and organic matter left inside from the casting. The results pointed to the 11th or 12th century AD, some 1,500 years later than the label “Etruscan, 5th century BC” that she had carried for generations."
+  },
+  {
+   "type": "key",
+   "text": "The Capitoline Wolf is at least two works in one: an animal whose date is still argued over, and twins added in the Renaissance. A symbol can be assembled over time."
+  },
+  {
+   "type": "text",
+   "text": "Knowing this, the composition reads differently. Follow where each of the three figures is looking."
+  },
+  {
+   "type": "lines",
+   "text": "Three gazes that never meet.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.13,
+       0.22
+      ],
+      [
+       0.02,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The wolf",
+     "text": "Her attention goes out and sideways, toward whoever approaches. Nothing in her pose acknowledges anything beneath her belly."
+    },
+    {
+     "points": [
+      [
+       0.51,
+       0.55
+      ],
+      [
+       0.5,
+       0.47
+      ]
+     ],
+     "closed": false,
+     "label": "The seated twin",
+     "text": "He tips his head straight back and lifts an arm toward the teat above him. His whole body is built around her."
+    },
+    {
+     "points": [
+      [
+       0.67,
+       0.5
+      ],
+      [
+       0.64,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The kneeling twin",
+     "text": "The second boy rises on his knees, mouth upward. The children look at the wolf. The wolf looks at us."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That mismatch is the trace of the two centuries, hidden in plain sight. It did not stop her career. She appears on the badge of the soccer club AS Roma, and she was the emblem of the 1960 Rome Olympics."
+  },
+  {
+   "type": "fact",
+   "text": "Under Mussolini, Italy sent bronze copies of the wolf abroad as gifts. One still stands in front of the city hall of Rome, Georgia, in the United States."
+  },
+  {
+   "type": "text",
+   "text": "Does it matter if she is medieval rather than Etruscan? The bronze has not changed. Only our story about it has. Which leaves a good question to carry into any museum: how much of what you see is the object, and how much is the label?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where is the wolf's earliest traceable home?",
+   "options": [
+    "The Roman Forum",
+    "The Lateran, the pope's palace",
+    "An Etruscan temple"
+   ],
+   "answer": 1,
+   "explanation": "The Lateran is the earliest location we can trace."
+  },
+  {
+   "question": "Who gave the wolf to the people of Rome in 1471?",
+   "options": [
+    "Pope Sixtus IV",
+    "Mussolini",
+    "Cicero"
+   ],
+   "answer": 0,
+   "explanation": "Sixtus IV donated it, and it moved to the Capitoline Hill."
+  },
+  {
+   "question": "When were the twins added?",
+   "options": [
+    "In the 5th century BC",
+    "In the 12th century",
+    "In the late 1400s"
+   ],
+   "answer": 2,
+   "explanation": "They are a Renaissance addition from the late 15th century."
+  },
+  {
+   "question": "What clue made a restorer doubt the Etruscan date?",
+   "options": [
+    "The wolf was cast in a single piece",
+    "The bronze was gilded",
+    "The twins were signed"
+   ],
+   "answer": 0,
+   "explanation": "One-piece casting was a medieval practice, not an ancient one."
+  },
+  {
+   "question": "Where does the wolf look?",
+   "options": [
+    "Down at the twins",
+    "Up at the sky",
+    "Out toward the viewer"
+   ],
+   "answer": 2,
+   "explanation": "Her head turns outward, ignoring the children below."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The wolf and the twins were cast together as one sculpture.",
+   "isTrue": false,
+   "explanation": "The twins were added in the late 1400s."
+  },
+  {
+   "text": "Lab tests on the casting core pointed to the 11th or 12th century AD.",
+   "isTrue": true,
+   "explanation": "That is about 1,500 years later than the traditional Etruscan date."
+  },
+  {
+   "text": "The wolf is far larger than a real animal.",
+   "isTrue": false,
+   "explanation": "At about 75 cm high, she is close to life size."
+  }
+ ]
+}

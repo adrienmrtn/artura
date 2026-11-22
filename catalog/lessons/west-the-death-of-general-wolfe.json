@@ -1,0 +1,53 @@
+{
+  "teaser": "The king refused to buy it because the soldiers were wearing the wrong clothes.",
+  "focus": [0.59, 0.55],
+  "review_notes": "George III declining to buy the picture and Reynolds urging classical dress, then conceding: the story comes mainly from John Galt's biography of West, written with West's help, and may be embellished.\nLord Grosvenor as first buyer; the king later ordering a replica: confirm.\nGiven to Canada in 1918 by the 2nd Duke of Westminster in recognition of Canada's part in the First World War, transferred to the National Gallery of Canada in 1921: confirm wording.\nWoollett's engraving published 1776 and its commercial success.\nClaim that only a handful of men were with Wolfe when he died and that most officers shown were elsewhere.\nNo record of an Indigenous warrior at Wolfe's side.\nWolfe aged 32; battle 13 September 1759, lasting about a quarter of an hour.\nDimensions about 152 x 214 cm.",
+  "lesson": [
+    {"type": "text", "text": "Before anyone admired this painting, the two most powerful men in British art turned it down. King George III let it be known he would not buy it. Sir Joshua Reynolds, the country's leading painter, is said to have visited the studio to talk the artist out of finishing it. Their complaint was the same: the coats."},
+    {"type": "text", "text": "In 1770 a serious painting of a hero's death followed a rule. You dressed everyone as ancient Greeks or Romans, in togas and sandals, because antiquity was thought to lift an event out of ordinary time. Benjamin West had painted red wool jackets, brass buttons, leather boots. To his critics that was journalism, not art."},
+    {"type": "text", "text": "West's reported answer was simple. The battle took place in 1759, in a part of the world the Greeks and Romans never knew, and nobody there wore a toga. He was himself from that part of the world: born in Pennsylvania, he had sailed to Italy to study and settled in London in 1763."},
+    {"type": "tour", "title": "The offending details", "text": "Here is what the rule-keepers objected to. Notice how carefully each piece of modern equipment is painted.", "spots": [
+      {"x": 0.59, "y": 0.6, "zoom": 2.4, "r": 0.11, "title": "A general in red wool", "text": "James Wolfe lies in the plain uniform of a British officer: red coat, yellow lining, black neckcloth. No armor, no cloak, nothing borrowed from Rome."},
+      {"x": 0.52, "y": 0.84, "zoom": 2.6, "r": 0.1, "title": "Musket and hat", "text": "His weapon, cartridge box and black hat lie dropped on the grass in front of him, still life painted like evidence from the field."},
+      {"x": 0.9, "y": 0.5, "zoom": 1.9, "r": 0.1, "shape": "rect", "title": "The grenadier", "text": "A soldier wrings his hands. West records the striped lace on his sleeves, the white gaiters, the tall cap fallen by his feet at the bottom edge."}
+    ]},
+    {"type": "text", "text": "The event was real and recent. On September 13, 1759, British troops climbed the cliffs near Quebec City at night and met the French army on a field called the Plains of Abraham. The fight lasted about a quarter of an hour. It won Britain control of Canada, and it killed the British commander, Wolfe, who was 32."},
+    {"type": "fact", "text": "Almost none of these men saw Wolfe die. Accounts suggest only three or four people were near him, well behind the firing line. West filled the scene with officers who were fighting elsewhere on the field, or were not at Quebec at all."},
+    {"type": "text", "text": "So the uniforms are accurate and the scene is invented. That is the trick of the picture, and it explains why the critics were wrong to fear it. West did not abandon the old grandeur. He hid it under modern clothes. The way the figures are arranged comes straight from church paintings."},
+    {"type": "lines", "text": "Strip away the costumes and look at the skeleton of the composition.", "lines": [
+      {"points": [[0.44, 0.74], [0.59, 0.53], [0.72, 0.62], [0.67, 0.8]], "closed": false, "label": "A body held by mourners", "text": "Wolfe sags, eyes rolled upward, supported under the arms. Painters had shown the dead Christ lifted down from the cross in exactly this pose for centuries."},
+      {"points": [[0.2, 0.9], [0.69, 0.03], [0.98, 0.9]], "closed": true, "label": "The pyramid", "text": "The groups rise from both corners to the tip of the furled flag. A triangle like this gives a crowded scene the calm, stable feel of an altarpiece."},
+      {"points": [[0.33, 0.33], [0.59, 0.53], [0.86, 0.32]], "closed": false, "label": "Every head bends in", "text": "From left and from right, the faces tilt down toward the dying man. Your eye has nowhere else to settle."}
+    ]},
+    {"type": "key", "text": "West's idea: a modern event can carry the weight of a sacred one, as long as you compose it like one. After this picture, heroes in paintings no longer needed togas."},
+    {"type": "text", "text": "The story still needs a reason for Wolfe to die content. According to the accounts, he was told in his last moments that the French were running, and answered that he could die in peace. West puts that news into the painting, far from the center."},
+    {"type": "find", "text": "Someone is racing in with word of the victory. Where is the messenger?", "spots": [
+      {"x": 0.035, "y": 0.36, "zoom": 3.2, "r": 0.06, "title": "The runner", "text": "At the far left edge a soldier sprints toward the group waving his hat, a captured flag in his other hand. Two officers stretch out their arms to point at him."}
+    ]},
+    {"type": "text", "text": "One figure answers to no account of the battle at all. In the left foreground a Native American warrior sits with his chin on his fist, studying the dying general. There is no record of such a man at Wolfe's side. West, who liked to remind Londoners that he came from America, added him."},
+    {"type": "explore", "spots": [
+      {"x": 0.28, "y": 0.72, "zoom": 2.2, "r": 0.13, "title": "The warrior", "text": "His body is drawn like an ancient statue and his pose is the old sign for deep thought. Tattoos, feathers and a beaded pouch are painted with a collector's care: West owned such objects."},
+      {"x": 0.22, "y": 0.44, "zoom": 2.4, "r": 0.1, "title": "The man in green", "text": "A ranger in a green coat with beaded straps and a powder horn. His mixed European and Indigenous gear signals the American frontier."},
+      {"x": 0.66, "y": 0.56, "zoom": 2.6, "r": 0.08, "title": "The surgeon", "text": "The man in blue presses a cloth to the wound in Wolfe's chest. A thin trail of blood runs down the white waistcoat."},
+      {"x": 0.69, "y": 0.2, "zoom": 2, "r": 0.12, "shape": "rect", "title": "The flag", "text": "A British flag, rolled around its pole, stands above Wolfe like the cross above a burial scene."},
+      {"x": 0.115, "y": 0.25, "zoom": 3.4, "r": 0.04, "shape": "arrow", "title": "The spire", "text": "A church steeple pokes through the gun smoke: Quebec, the prize. The sky clears on this side and darkens on the other."},
+      {"x": 0.95, "y": 0.38, "zoom": 3, "r": 0.05, "title": "The ships", "text": "Masts crowd the St. Lawrence River at the right edge. The fleet that carried the army upriver waits in the distance."}
+    ]},
+    {"type": "fact", "text": "The picture made its money in ink. An engraving after it, published in 1776, became one of the best-selling prints of the century, hung in homes across Britain and its colonies and copied onto mugs and fabrics. The engraver and the publisher grew rich on it."},
+    {"type": "text", "text": "When the canvas was shown at the Royal Academy in 1771, crowds lined up for it. A nobleman bought it. The king, having passed on the original, ordered a copy for himself and made West his history painter. Reynolds is reported to have taken back his objection and predicted the picture would start a revolution in art."},
+    {"type": "fact", "text": "The original now lives in the country where its story happened. In 1918 its British owner, the Duke of Westminster, presented it to Canada as a tribute to Canadian soldiers in the First World War. West painted several more versions, so the scene also hangs in other collections."},
+    {"type": "text", "text": "The rejection that opened this story lasted about a year. The change it failed to stop lasted much longer: for the next century, painters of battles and deathbeds dressed their heroes as they had really dressed. Whether they told the truth about anything else is a question West's picture had already answered."}
+  ],
+  "quiz": [
+    {"question": "Why did George III at first refuse to buy the painting?", "options": ["It was too small", "The figures wore modern uniforms instead of ancient dress", "It showed a British defeat"], "answer": 1, "explanation": "Serious history paintings were expected to use Greek or Roman costume."},
+    {"question": "Which older kind of image does Wolfe's pose borrow from?", "options": ["Portraits of kings on horseback", "Maps of battlefields", "The dead Christ held by mourners"], "answer": 2, "explanation": "West arranged the body and its supporters like a scene of Christ taken down from the cross."},
+    {"question": "How accurate is the group around Wolfe?", "options": ["Most of the men shown were not present at his death", "Everyone shown was a sworn eyewitness", "West himself was there and sketched it"], "answer": 0, "explanation": "Only three or four people were near Wolfe; West added officers who were elsewhere."},
+    {"question": "What news is the runner at the far left bringing?", "options": ["Reinforcements are late", "The French are retreating", "The ships have sunk"], "answer": 1, "explanation": "Wolfe was told the French were running and said he could die in peace."},
+    {"question": "Where was Benjamin West born?", "options": ["London", "Quebec", "Pennsylvania"], "answer": 2, "explanation": "He was American-born and settled in London in 1763."}
+  ],
+  "facts": [
+    {"text": "The battle shown lasted several days.", "isTrue": false, "explanation": "The fight on the Plains of Abraham lasted about a quarter of an hour."},
+    {"text": "An engraving of this painting became one of the best-selling prints of its century.", "isTrue": true, "explanation": "The 1776 print hung in homes across Britain and its colonies."},
+    {"text": "Records confirm that a Native American warrior sat beside Wolfe as he died.", "isTrue": false, "explanation": "There is no record of such a figure; West added him."}
+  ]
+}

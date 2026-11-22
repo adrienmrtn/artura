@@ -1,0 +1,351 @@
+{
+ "teaser": "Two women on a traffic island, and a whole city circling them at midnight.",
+ "focus": [
+  0.38,
+  0.3
+ ],
+ "review_notes": "Clock reading 'midnight' is the standard reading; in this image the hands are hard to read.\nWidow's veil read as a wartime disguise used by Berlin prostitutes: common interpretation, check wording.\nBuilding at left identified as Haus Potsdam / Café Piccadilly (later Haus Vaterland), red building as Potsdamer Bahnhof.\nAcquired by the Neue Nationalgalerie in 1999; museum roughly 600 m from the square.\nFirst traffic light tower on Potsdamer Platz in 1924, among the first in Europe.\nSize about 200 x 150 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Walk ten minutes from the museum where this canvas hangs and you are standing in it. Potsdamer Platz was the busiest crossing in Berlin in 1914: trams, omnibuses, cabs, a railway station, cafés open half the night. Kirchner lived in the city and came here to draw, fast, in a pocket sketchbook."
+  },
+  {
+   "type": "text",
+   "text": "He had arrived from Dresden in 1911, a man of thirty-one from a quieter town. Berlin had passed two million people and was still swelling. It thrilled him and wore him out. Between 1913 and 1915 he painted a group of street scenes about that feeling, and this is the largest: about 200 by 150 cm (roughly 79 by 59 inches), with figures close to life size."
+  },
+  {
+   "type": "text",
+   "text": "Strangely for a picture of a traffic knot, there is no traffic. No tram, no car, no horse. Kirchner swept the square empty and built it again from a few hard shapes."
+  },
+  {
+   "type": "lines",
+   "text": "Three shapes hold the whole square together. Tap to draw them.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.08,
+       0.83
+      ],
+      [
+       0.14,
+       0.74
+      ],
+      [
+       0.27,
+       0.69
+      ],
+      [
+       0.42,
+       0.68
+      ],
+      [
+       0.56,
+       0.71
+      ],
+      [
+       0.66,
+       0.78
+      ],
+      [
+       0.68,
+       0.86
+      ],
+      [
+       0.62,
+       0.93
+      ],
+      [
+       0.48,
+       0.98
+      ],
+      [
+       0.3,
+       0.99
+      ],
+      [
+       0.14,
+       0.95
+      ],
+      [
+       0.08,
+       0.89
+      ]
+     ],
+     "closed": true,
+     "label": "The island",
+     "text": "A gray disc, tipped toward you like a plate about to slide off a table. It is a traffic island, a refuge in the middle of the road. Here it works as a pedestal, or a small stage."
+    },
+    {
+     "points": [
+      [
+       0.66,
+       0.3
+      ],
+      [
+       0.87,
+       0.73
+      ],
+      [
+       0.5,
+       0.51
+      ]
+     ],
+     "closed": true,
+     "label": "The blade",
+     "text": "The sidewalk across the road narrows to a point as sharp as a knife and aims it at the women. Nothing in a real street looks like this. The shape is there for its threat."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.03
+      ],
+      [
+       0.4,
+       0.93
+      ]
+     ],
+     "closed": false,
+     "label": "The spine",
+     "text": "The woman in blue runs almost the full height of the canvas, from feather tip to shoe tip. Against all the tilting ground, she is the one straight thing."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the ground tilts, the pavement stabs, and the two women stand still at the center like chess pieces. Kirchner learned this from no perspective manual. Space here is bent by nerves: it shows how the square feels at night, not how a surveyor would map it."
+  },
+  {
+   "type": "fact",
+   "text": "Ten years after this was painted, in 1924, a traffic light tower went up on Potsdamer Platz, among the very first in Europe. The crossing had become too crowded for policemen waving their arms."
+  },
+  {
+   "type": "text",
+   "text": "Who are the two women? Berliners of 1914 would have known at once. The huge feathered hats, the painted mouths, the slow parade on a public square after dark: they are cocottes, a polite French word then used for sex workers. Police rules forbade them to stand and solicit, so they had to look like ladies out for a stroll and keep moving."
+  },
+  {
+   "type": "tour",
+   "title": "Two faces, one stage",
+   "text": "The two women never look at each other. Follow them from head to foot.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.2,
+     "zoom": 3.2,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "A green mask",
+     "text": "Her face is a long green oval with a red mouth and dark hollows for eyes. Kirchner admired African and Oceanian carving, and he paints her less as a person than as a mask the city wears."
+    },
+    {
+     "x": 0.15,
+     "y": 0.25,
+     "zoom": 3,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The veil",
+     "text": "The second woman turns away in profile behind a black veil. It is a widow's veil. After war broke out in August 1914, some sex workers dressed as war widows to escape police attention."
+    },
+    {
+     "x": 0.2,
+     "y": 0.53,
+     "zoom": 3,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "A pale glove",
+     "text": "One bright hand against all that black, fingers spread. It is the only place where the dark figure opens toward the street."
+    },
+    {
+     "x": 0.4,
+     "y": 0.87,
+     "zoom": 2.6,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "Pointed shoes",
+     "text": "Their feet are thin black points that barely touch the island. The women seem to balance on it more than stand."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That veil gives the painting its date within the year. Germany went to war in August 1914, so this is a wartime picture, even though no uniform appears in it. The men are all somewhere else, or about to be."
+  },
+  {
+   "type": "key",
+   "text": "Kirchner does not paint a view of Berlin. He paints what it is like to stand in it: exposed, watched, a little dizzy."
+  },
+  {
+   "type": "text",
+   "text": "And the men who remain? They are all the same man. Black suit, black hat, no face worth mentioning. Kirchner repeats him across the square like a stamp."
+  },
+  {
+   "type": "find",
+   "text": "One of the men in black has just stepped off the curb and is striding toward the island. Where is he?",
+   "spots": [
+    {
+     "x": 0.69,
+     "y": 0.47,
+     "zoom": 2.8,
+     "r": 0.08,
+     "shape": "rect",
+     "title": "The client",
+     "text": "His legs open like a pair of scissors as he crosses the green road. He has made up his mind. A pink blur of a woman stands just behind him on the pavement, already forgotten."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "His scissor stride is the only real movement in the picture, and it points straight at the women. The sharp wedge of pavement you traced earlier is aimed the same way. Everything in the square is on its way to the island."
+  },
+  {
+   "type": "fact",
+   "text": "The clock on the station at the top of the canvas is usually read as showing midnight. The red building beneath it is the Potsdamer Bahnhof, the railway terminal where trains from the west of Germany arrived."
+  },
+  {
+   "type": "text",
+   "text": "About the color. A road is not green and a face is not green, yet under the gaslight and the new electric lamps of Berlin, skin did turn sickly and asphalt did shine. Kirchner pushes that observation until it stings. This is the habit of Expressionism, a movement that let color and shape be distorted to carry feeling."
+  },
+  {
+   "type": "text",
+   "text": "Stand near the canvas and the paint looks combed. Kirchner laid it on in quick parallel strokes, slanting like hatching, the bundle of lines a draftsman uses for shading. It makes the feathers, the dresses and even the road vibrate, as if the whole square were humming."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.51,
+     "y": 0.05,
+     "zoom": 3.5,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "The station clock",
+     "text": "A pale dial at the very top of the station roof. Night has a time here, and it is late."
+    },
+    {
+     "x": 0.27,
+     "y": 0.17,
+     "zoom": 3,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "Yellow plume",
+     "text": "Slashes of yellow and green shoot out from the widow's hat. You can count the strokes: each one is a single pull of the brush."
+    },
+    {
+     "x": 0.1,
+     "y": 0.1,
+     "zoom": 2.4,
+     "r": 0.11,
+     "shape": "circle",
+     "title": "The café",
+     "text": "The round building with arches and a dome on the left is usually identified as Haus Potsdam, home of a huge café. Its lit windows glow like eyes."
+    },
+    {
+     "x": 0.94,
+     "y": 0.37,
+     "zoom": 3,
+     "r": 0.07,
+     "shape": "rect",
+     "title": "A waiting man",
+     "text": "Hat down, hands at his sides, standing by a dark doorway. He is watching the same thing you are."
+    },
+    {
+     "x": 0.82,
+     "y": 0.25,
+     "zoom": 3.4,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "Pink figure",
+     "text": "A woman in pink with a round hat, tiny on the far pavement. Her color is borrowed from the station wall, so she almost melts into the city."
+    },
+    {
+     "x": 0.75,
+     "y": 0.6,
+     "zoom": 2,
+     "r": 0.14,
+     "shape": "circle",
+     "title": "The green road",
+     "text": "Flat, acid green, brushed in long slanting strokes. It is the color of a billiard table, and the figures are scattered on it like balls."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Kirchner had no patience for careful studio drawing. He trained himself to sketch in seconds, sometimes without looking at the paper, and called the results hieroglyphs: signs that caught a movement before it was gone."
+  },
+  {
+   "type": "text",
+   "text": "In 1999 the Neue Nationalgalerie bought the painting and brought it home, a short walk from the square it shows. The square itself was bombed flat in 1945 and then cut in two by the Berlin Wall. The green road and the tilted island outlived the place they describe."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is missing from Kirchner's picture of Berlin's busiest crossing?",
+   "options": [
+    "Any buildings",
+    "Any traffic",
+    "Any men"
+   ],
+   "answer": 1,
+   "explanation": "He emptied the square of trams, cars and horses and rebuilt it from a few hard shapes."
+  },
+  {
+   "question": "Why is the veil of the woman on the left significant?",
+   "options": [
+    "It is a widow's veil, tying the picture to the war that began in August 1914",
+    "It shows she is a nun",
+    "It was the fashion of Dresden"
+   ],
+   "answer": 0,
+   "explanation": "Some sex workers dressed as war widows to avoid police attention."
+  },
+  {
+   "question": "What does the pointed wedge of sidewalk do in the composition?",
+   "options": [
+    "It shows correct perspective",
+    "It hides a tram",
+    "It aims at the two women like a blade"
+   ],
+   "answer": 2,
+   "explanation": "The shape is invented for its threat and points toward the island."
+  },
+  {
+   "question": "How did Kirchner apply the paint?",
+   "options": [
+    "In quick parallel strokes, like hatching",
+    "In tiny dots",
+    "In smooth invisible layers"
+   ],
+   "answer": 0,
+   "explanation": "The slanting strokes make feathers, dresses and road vibrate."
+  },
+  {
+   "question": "Where does the painting hang today?",
+   "options": [
+    "In Dresden, where Kirchner trained",
+    "In New York",
+    "In Berlin, a short walk from the real square"
+   ],
+   "answer": 2,
+   "explanation": "The Neue Nationalgalerie bought it in 1999."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The men in the painting each have a distinct, carefully painted face.",
+   "isTrue": false,
+   "explanation": "They are near-identical figures in black suits and hats, with hardly any face."
+  },
+  {
+   "text": "A traffic light tower was installed on Potsdamer Platz in 1924.",
+   "isTrue": true,
+   "explanation": "It was among the first in Europe, ten years after the painting."
+  },
+  {
+   "text": "Kirchner was born and raised in Berlin.",
+   "isTrue": false,
+   "explanation": "He moved to Berlin from Dresden in 1911."
+  }
+ ]
+}

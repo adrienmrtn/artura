@@ -1,0 +1,236 @@
+{
+ "teaser": "For 300 years people said she was weighing gold. Then someone checked the pans.",
+ "focus": [
+  0.6,
+  0.45
+ ],
+ "review_notes": "Opening: the painting 'in a case' (in een kasje) comes from the 1696 Dissius sale catalogue in Amsterdam, lot 1, sold for 155 guilders; the lesson imagines it hanging in a Delft house in such a box with doors. That it was kept this way from the start is likely but not documented.\nPieter van Ruijven as Vermeer's main buyer and probable first owner: standard hypothesis (Montias), stated as 'probably'. Recent research also stresses his wife Maria de Knuijt.\n21 Vermeers in the 1696 sale; 155 guilders among the highest prices (Milkmaid 175, View of Delft 200).\nEmpty pans: established by microscopic examination at the National Gallery of Art.\nPerspective lines meeting close to the hand holding the balance: stated in NGA literature (vanishing point near her fingertip); wording kept approximate.\nPregnancy: debated; the lesson says probably fashion, not pregnancy.\nVermeer's wife Catharina Bolnes: 15 children, 11 surviving.\nVermeer married into a Catholic family and probably converted: standard, stated as 'probably'.\nSold in Munich in 1826, after the death of King Maximilian I Joseph of Bavaria, under the name of Gabriel Metsu: per NGA provenance, please verify.\nWidener gift to the National Gallery of Art, 1942. Size about 40 x 36 cm.\nThe Last Judgment on the wall is very dark in our image: the Christ figure (top centre of the framed picture) and the crowds below are only roughly visible.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Picture a tall, narrow house in Delft, around 1664. In a room facing the canal, among the linen cupboards and the blue-and-white porcelain, hangs a shallow wooden box with small doors. Someone opens it. Inside is a painting hardly larger than a sheet of office paper. That is the kind of place this picture was made for."
+  },
+  {
+   "type": "text",
+   "text": "It measures about 40 by 36 cm (16 by 14 inches). The Dutch Republic was Protestant, its churches had bare white walls, and painters sold instead to merchants, brewers and bakers. Johannes Vermeer worked slowly for a handful of Delft buyers. One wealthy couple, Pieter van Ruijven and his wife, probably took this one home."
+  },
+  {
+   "type": "fact",
+   "text": "In 1696, twenty-one Vermeers were auctioned together in Amsterdam. This painting was lot number one. The catalog described a young lady weighing gold, “in a case,” and it sold for 155 guilders, one of the highest prices of the day."
+  },
+  {
+   "type": "text",
+   "text": "Weighing gold: the auctioneer wrote it, and the idea stuck. For three centuries the picture was called “Woman Weighing Gold” or “Woman Weighing Pearls.” A picture meant to be seen from a foot away deserves to be checked from a foot away. So what is in those two little pans?"
+  },
+  {
+   "type": "tour",
+   "title": "What is she weighing?",
+   "text": "A small hand balance hangs from her fingers, above a table covered in valuables.",
+   "spots": [
+    {
+     "x": 0.512,
+     "y": 0.555,
+     "zoom": 4,
+     "r": 0.07,
+     "title": "The two pans",
+     "text": "Two shallow brass dishes, hanging level. Each carries a glint of light along its rim, and nothing else. No coins, no pearls."
+    },
+    {
+     "x": 0.585,
+     "y": 0.652,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Coins",
+     "text": "The gold is here, lying flat on the table edge: a few coins, each one a short stroke of yellow. A silver one sits a little farther left."
+    },
+    {
+     "x": 0.34,
+     "y": 0.56,
+     "zoom": 3.5,
+     "r": 0.07,
+     "title": "Pearls and chain",
+     "text": "Strings of pearls and a gold chain spill out of an open jewelry box. Every pearl is a gray dot with one white point of light on top."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The pans are empty. When conservators at the National Gallery of Art studied them under a microscope, they found only highlights: no gold, no pearls. She is not weighing her treasure. She is waiting for the balance itself to come to rest, the way you would test a scale before using it."
+  },
+  {
+   "type": "key",
+   "text": "The subject is not wealth being counted. It is balance: a woman holding two empty pans perfectly level, with her riches lying untouched beside her."
+  },
+  {
+   "type": "text",
+   "text": "That changes how you read the dark picture hanging behind her. It is a Last Judgment, the end of time as Christians imagined it: Christ in a glow of light at the top, the dead rising below, to be sorted into the saved and the damned. In other words, a weighing of souls. Now see where Vermeer placed it."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines show how tightly the wall, the woman and the balance are locked together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.73,
+       0.04
+      ],
+      [
+       0.73,
+       0.32
+      ]
+     ],
+     "closed": false,
+     "label": "Judge and judged",
+     "text": "Christ sits in a pale glow at the top of the painted Judgment, exactly above her head. Her white hood covers the spot where the souls would be weighed."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.02
+      ],
+      [
+       0.5,
+       0.44
+      ],
+      [
+       0.64,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The frame's corner",
+     "text": "The black frame runs down and turns its corner right at her raised hand. The fingers that hold the balance are pinned to the picture's strongest edge."
+    },
+    {
+     "points": [
+      [
+       0.1,
+       0.1
+      ],
+      [
+       0.72,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "The only light",
+     "text": "Daylight slips past an orange curtain, top left, crosses the bare wall and lands on her hood and face. The rest of the room stays in dusk."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The geometry is quieter still than it looks. The receding lines of the room, the ones that create depth, meet close to the hand that holds the balance. Without knowing why, your eye keeps returning to that one still point. Vermeer even bent the bottom of the frame: it sits a little higher on one side of her than on the other."
+  },
+  {
+   "type": "fact",
+   "text": "Is she pregnant? Visitors ask every day. Probably not: bulky, padded skirts under a short fur-trimmed jacket were the fashion of the 1660s, and Dutch painters almost never showed pregnancy. Vermeer knew the sight well, though. His wife Catharina bore fifteen children."
+  },
+  {
+   "type": "text",
+   "text": "One more object belongs to the argument. Jewels on the table, judgment on the wall behind her. And on the wall she faces, something else she could consult if she lifted her eyes."
+  },
+  {
+   "type": "find",
+   "text": "She is standing in front of a mirror. Where is it?",
+   "spots": [
+    {
+     "x": 0.05,
+     "y": 0.21,
+     "zoom": 2.4,
+     "r": 0.07,
+     "title": "The mirror",
+     "text": "A dark-framed mirror hangs beside the window, seen almost edge-on. In Dutch painting a mirror could mean vanity, or its opposite: knowing yourself. She is not looking at it.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A mirror, a pile of gold, the end of the world: other Dutch painters would have made a sermon out of this. Vermeer had married into a Catholic family and probably shared its faith, which asked believers to weigh their own actions daily. Yet her face shows no fear and no greed. She simply attends to the task."
+  },
+  {
+   "type": "text",
+   "text": "The hush comes from how little he lets you see. Most of the canvas is brown shadow. The riches are reduced to a few dots of thick yellow and white paint that catch real light on their tiny ridges. Up close they are blobs. From a foot away, the distance the box with doors imposed, they turn into gold."
+  },
+  {
+   "type": "fact",
+   "text": "Vermeer's name was so thoroughly forgotten that in 1826, when the King of Bavaria's collection was sold in Munich, this painting went under the name of another Dutch artist, Gabriel Metsu. It reached Washington in 1942."
+  },
+  {
+   "type": "text",
+   "text": "Today it hangs on an open museum wall, with no doors to close. Think back to the Delft owner who opened that case alone, perhaps before a day of buying and selling. What do you suppose the picture asked them to weigh?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did conservators find in the pans of the balance?",
+   "options": [
+    "Gold coins",
+    "Nothing but highlights",
+    "Tiny pearls"
+   ],
+   "answer": 1,
+   "explanation": "Under the microscope the pans turned out to be empty, with only glints of light."
+  },
+  {
+   "question": "What does the painting on the wall behind her show?",
+   "options": [
+    "A Last Judgment",
+    "A sea battle",
+    "A map of Holland"
+   ],
+   "answer": 0,
+   "explanation": "It is a Last Judgment, with Christ at the top and the dead being sorted below."
+  },
+  {
+   "question": "Who bought most paintings in the Dutch Republic of the 1660s?",
+   "options": [
+    "Churches",
+    "The king's court",
+    "Merchants and tradespeople"
+   ],
+   "answer": 2,
+   "explanation": "Protestant churches stayed bare, so painters sold to private citizens for their homes."
+  },
+  {
+   "question": "How was the painting described at the 1696 auction?",
+   "options": [
+    "A pregnant woman praying",
+    "A lady at her mirror",
+    "A young lady weighing gold, in a case"
+   ],
+   "answer": 2,
+   "explanation": "The catalog called it a young lady weighing gold and mentioned its case."
+  },
+  {
+   "question": "Why does she probably look pregnant?",
+   "options": [
+    "The fashion for padded skirts and short jackets",
+    "Vermeer painted his wife before a birth",
+    "The canvas was stretched later"
+   ],
+   "answer": 0,
+   "explanation": "Bulky skirts under a short jacket were the fashion, and painters rarely showed pregnancy."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The woman is in the middle of weighing gold coins.",
+   "isTrue": false,
+   "explanation": "The pans are empty: she is waiting for the balance to settle."
+  },
+  {
+   "text": "In 1826 the painting was sold under another painter's name.",
+   "isTrue": true,
+   "explanation": "Vermeer was so forgotten that it was sold as a work by Gabriel Metsu."
+  },
+  {
+   "text": "The painting is about as tall as a door.",
+   "isTrue": false,
+   "explanation": "It is small, about 40 by 36 cm, made to be seen close up in a home."
+  }
+ ]
+}

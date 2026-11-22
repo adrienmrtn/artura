@@ -1,0 +1,251 @@
+{
+ "teaser": "A 25-year-old in debt painted a hole in a church wall. Painting has used his trick ever since.",
+ "focus": [
+  0.5,
+  0.4
+ ],
+ "review_notes": "Details of Masaccio's 1427 tax declaration (living with mother and brother, rented workshop space, debts, pawned belongings).\nFresco size about 6.7 x 3.2 m; date c. 1425-1427 (catalog: 1427).\nBrunelleschi's help with the perspective is likely but undocumented; text says 'probably'.\nVanishing point placed at the step where the donors kneel, near an adult's eye level.\nDonors' identity uncertain (Lenzi or Berti family); text says so.\nVasari's altar covering the fresco c. 1570, rediscovery around 1860, lower part with skeleton reunited in 1952.\nMasaccio's death in Rome in 1428 at about 26.\nTranslation of the inscription.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In July 1427 every household in Florence had to declare what it owned for a new tax. One painter's statement survives. He is 25 and lives in a rented house with his widowed mother and his younger brother. He rents part of a workshop. He owes money to several people, and some of his belongings are sitting in pawnshops."
+  },
+  {
+   "type": "text",
+   "text": "His name was Tommaso, but everyone called him Masaccio. Around the time he signed that paper he was finishing a huge wall painting in the church of Santa Maria Novella: about 6.7 meters high (22 feet), showing Christ on the cross inside a stone chapel."
+  },
+  {
+   "type": "fact",
+   "text": "“Masaccio” is a nickname meaning something like “Big Tom” or “Clumsy Tom.” According to an early biographer he earned it by caring only about his art and never about his clothes, his money or his manners."
+  },
+  {
+   "type": "text",
+   "text": "There is no chapel. The wall is flat. Everything you see, the columns, the arch, the deep ceiling, is paint on plaster. Masaccio used a new method called linear perspective: a set of rules for drawing depth so that parallel lines seem to meet at a single point, the way railroad tracks do."
+  },
+  {
+   "type": "lines",
+   "text": "Follow the painted architecture backward and see where it leads.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.21,
+       0.28
+      ],
+      [
+       0.32,
+       0.43
+      ],
+      [
+       0.5,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "Left side",
+     "text": "Join the capital of the front column to the one behind it, and keep going. The line dives toward the middle of the picture."
+    },
+    {
+     "points": [
+      [
+       0.79,
+       0.28
+      ],
+      [
+       0.68,
+       0.43
+      ],
+      [
+       0.5,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "Right side",
+     "text": "The other side does the same and lands on the same spot, at the foot of the cross. The rows of ceiling panels also aim at it."
+    },
+    {
+     "points": [
+      [
+       0.06,
+       0.7
+      ],
+      [
+       0.94,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "Your eye level",
+     "text": "That meeting point lies on the step where the two outer figures kneel. In the church this is roughly the height of a standing adult's eyes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That placement is the secret. Because the lines meet at your own eye level, you look up into the ceiling and down onto the tomb at the bottom, as you would with real stone. People who saw it in the 1420s had never met a picture that behaved like a room."
+  },
+  {
+   "type": "key",
+   "text": "The Holy Trinity is the earliest surviving painting built on a consistent one-point perspective. For the next five hundred years, Western painters would treat a picture as a window."
+  },
+  {
+   "type": "fact",
+   "text": "The rules had just been worked out by Filippo Brunelleschi, the architect who would build the dome of Florence Cathedral. He was Masaccio's friend and probably helped him plan this painted chapel, whose columns and arches look like Brunelleschi's own buildings."
+  },
+  {
+   "type": "text",
+   "text": "Masaccio then used the space to arrange people like steps on a staircase. The figures closest to you are ordinary humans. The further back and higher you go, the holier they become."
+  },
+  {
+   "type": "tour",
+   "title": "Climbing the picture",
+   "text": "Four levels, from the church floor to the top of the vault.",
+   "spots": [
+    {
+     "x": 0.14,
+     "y": 0.62,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "The donors",
+     "text": "A man in red and a woman in blue kneel outside the chapel, on our side of the columns. They paid for the fresco. They are as large as the saints, which was bold for the time.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.34,
+     "y": 0.52,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Mary",
+     "text": "She does not weep and does not look at her son. She looks at you, and her raised hand presents him, like someone saying: this is what you came to see.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.5,
+     "y": 0.43,
+     "zoom": 2,
+     "r": 0.17,
+     "title": "Christ",
+     "text": "A heavy, believable body, with ribs, sagging arms and shadow under the chest. Masaccio lights him from one side as if he were a carved figure standing in real daylight."
+    },
+    {
+     "x": 0.5,
+     "y": 0.3,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "God the Father",
+     "text": "Behind and above the cross stands an old man with a gray beard, holding up its arms with his hands. The Father supports the Son."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The Trinity is the Christian belief in one God in three persons: Father, Son and Holy Spirit. You have met two of them. The third is in the picture too, in the form painters always gave it, a white dove. Masaccio tucked it in where it is easy to miss."
+  },
+  {
+   "type": "find",
+   "text": "Where is the dove of the Holy Spirit?",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.33,
+     "zoom": 4.5,
+     "r": 0.04,
+     "title": "The dove",
+     "text": "It dives head-down between the Father's beard and Christ's halo, wings spread. From a distance it looks like a white collar on the Father's robe."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now go to the very bottom, below the kneeling couple. A skeleton lies on a painted tomb, and above it runs a line in Italian: “I was once what you are, and what I am you will also be.” The whole wall reads upward from that warning, from death, through prayer, to the promise at the top."
+  },
+  {
+   "type": "fact",
+   "text": "For almost three centuries nobody could see it. Around 1570 the painter Giorgio Vasari, who admired the fresco in his writing, built a stone altar in front of it during a renovation. It was uncovered around 1860, and the skeleton was only reunited with the upper part in 1952."
+  },
+  {
+   "type": "text",
+   "text": "We are not sure who the kneeling couple are. We know more about the young man from the tax form. In 1428 he left for Rome, perhaps hoping for better-paid work, and died there within months, at about 26. He never cleared his debts, and painters have been in his debt ever since."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is linear perspective?",
+   "options": [
+    "A way of mixing colors in wet plaster",
+    "Rules for drawing depth with lines meeting at one point",
+    "A style of painting halos"
+   ],
+   "answer": 1,
+   "explanation": "Parallel lines are drawn to meet at one point, creating depth."
+  },
+  {
+   "question": "Where do the lines of the painted chapel meet?",
+   "options": [
+    "At the foot of the cross, at the viewer's eye level",
+    "At the top of the arch",
+    "On the skeleton's skull"
+   ],
+   "answer": 0,
+   "explanation": "The point sits on the step where the donors kneel, near eye level."
+  },
+  {
+   "question": "What does the skeleton's inscription say?",
+   "options": [
+    "Glory to the Trinity",
+    "Pray for the painter",
+    "I was once what you are, and what I am you will also be"
+   ],
+   "answer": 2,
+   "explanation": "It is a reminder of death addressed to the viewer."
+  },
+  {
+   "question": "Where is the Holy Spirit in the fresco?",
+   "options": [
+    "As a flame above Mary",
+    "As a white dove between the Father and Christ",
+    "It is not shown"
+   ],
+   "answer": 1,
+   "explanation": "The dove looks like a white collar under the Father's beard."
+  },
+  {
+   "question": "What does Mary do in the painting?",
+   "options": [
+    "She looks at us and gestures toward her son",
+    "She faints",
+    "She embraces the cross"
+   ],
+   "answer": 0,
+   "explanation": "She presents Christ to the viewer with a raised hand."
+  },
+  {
+   "question": "Why was the fresco hidden for about three centuries?",
+   "options": [
+    "It was whitewashed during a plague",
+    "An altar was built in front of it",
+    "It was moved to Rome"
+   ],
+   "answer": 1,
+   "explanation": "Vasari's altar covered it from around 1570 until about 1860."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The chapel behind the figures is a real niche cut into the wall.",
+   "isTrue": false,
+   "explanation": "The wall is flat; the architecture is painted in perspective."
+  },
+  {
+   "text": "Masaccio died at about 26, a year or so after this work.",
+   "isTrue": true,
+   "explanation": "He died in Rome in 1428."
+  },
+  {
+   "text": "The donors are painted much smaller than the holy figures.",
+   "isTrue": false,
+   "explanation": "They are the same size as the saints, a bold choice at the time."
+  }
+ ]
+}

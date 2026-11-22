@@ -1,0 +1,201 @@
+{
+ "teaser": "Two painters signed this forest. The buyer wiped one of the names off.",
+ "focus": [
+  0.45,
+  0.5
+ ],
+ "review_notes": "Tradition: Tretyakov bought the picture for 4,000 rubles and had Savitsky's signature removed (with turpentine, by most accounts). Widely repeated, details vary.\nThe forest is usually linked to Shishkin's studies on Gorodomlya Island, Lake Seliger.\nCandy 'Mishka Kosolapy' (Einem factory, later Red October): wrapper based on the painting, design dated around 1913.\nShishkin died at his easel in March 1898.\nSize about 139 x 213 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "When this canvas was finished in 1889 it carried two signatures. Soon it carried one. The collector who bought it, Pavel Tretyakov, had the second name wiped off the paint. As far as he was concerned, he had bought a picture by Ivan Shishkin and nobody else."
+  },
+  {
+   "type": "text",
+   "text": "The erased name belonged to Konstantin Savitsky, a friend of Shishkin's who painted people and animals. Shishkin was Russia's great specialist of trees, and bears were not his strength. By most accounts the idea of adding a bear family came from Savitsky, and he painted them himself."
+  },
+  {
+   "type": "fact",
+   "text": "Tretyakov paid 4,000 rubles for the painting, a large sum at the time. Savitsky's name has never been put back on the canvas."
+  },
+  {
+   "type": "text",
+   "text": "Tretyakov had a point, though a harsh one. Cover the animals with your thumb and the picture still stands: every trunk, every patch of moss, every broken branch is observed with a botanist's patience. Shishkin spent his summers drawing in the woods. Still, the bears are what everyone remembers, and almost everyone miscounts them."
+  },
+  {
+   "type": "find",
+   "text": "Russians fondly call this painting “Three Bears.” Count again. One cub has wandered off from the others and is staring into the fog. Where?",
+   "spots": [
+    {
+     "x": 0.67,
+     "y": 0.665,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The fourth bear",
+     "text": "Standing upright on the far half of the fallen trunk, back turned to its family, nose lifted toward the light. A mother and three cubs make four.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That lone cub does a job for Shishkin. It looks where he wants you to look: into the hollow behind the trees, where the trunks turn pale blue and then dissolve. Painters call this atmospheric perspective. Distant things are made lighter, bluer and blurrier, the way air and mist really soften them."
+  },
+  {
+   "type": "text",
+   "text": "Near things get the opposite treatment. The foreground is dark, sharp and heavy, and one object ties the whole scene together: a huge pine, snapped in two by a storm."
+  },
+  {
+   "type": "lines",
+   "text": "Three directions organize this tangle of branches.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.2,
+       0.69
+      ],
+      [
+       0.36,
+       0.56
+      ],
+      [
+       0.55,
+       0.38
+      ]
+     ],
+     "closed": false,
+     "label": "The broken trunk",
+     "text": "The fallen pine climbs from lower left to its splintered end. Two cubs use it as a ramp, and so does your eye."
+    },
+    {
+     "points": [
+      [
+       0.54,
+       0.72
+      ],
+      [
+       0.7,
+       0.77
+      ],
+      [
+       0.9,
+       0.87
+      ]
+     ],
+     "closed": false,
+     "label": "The other half",
+     "text": "The top of the same tree lies on the ground, sloping the opposite way. Together the two pieces form a wide V with the mother bear in its hollow."
+    },
+    {
+     "points": [
+      [
+       0.62,
+       0.05
+      ],
+      [
+       0.62,
+       0.3
+      ],
+      [
+       0.6,
+       0.55
+      ]
+     ],
+     "closed": false,
+     "label": "The falling light",
+     "text": "Sun reaches the treetops first and sinks into the misty gap in the middle. The brightest part of the picture is empty air."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the warm gold is at the top, on the crowns of the pines, while the ground still sits in cold shadow. That is exactly how early morning works in a deep forest, and it is why the title needs no clock. The dead tree matters too: this is no tidy park. Things fall, rot and get climbed on."
+  },
+  {
+   "type": "fact",
+   "text": "Since the early 1900s the bears have wrapped one of Russia's best-loved chocolates, “Mishka Kosolapy,” or “Clumsy Bear.” Many Russians saw the candy long before they saw the painting."
+  },
+  {
+   "type": "text",
+   "text": "That fame cut both ways. Printed on sweets, calendars and rugs, the picture came to stand for cozy, old-fashioned taste, and critics grew tired of it. The real canvas is another experience: over two meters wide (about 7 feet), with needles and bark you could almost touch."
+  },
+  {
+   "type": "fact",
+   "text": "Shishkin never stopped painting trees. In March 1898 he died in his studio, sitting at his easel, having just started a new forest picture."
+  },
+  {
+   "type": "text",
+   "text": "Which leaves a question the erased signature never settled. If the forest is by one man and the reason you love it is by another, whose painting is it?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who painted the bears?",
+   "options": [
+    "Ivan Shishkin",
+    "Konstantin Savitsky",
+    "Pavel Tretyakov"
+   ],
+   "answer": 1,
+   "explanation": "Savitsky, a painter of figures and animals, added the bear family."
+  },
+  {
+   "question": "What did the buyer do to Savitsky's signature?",
+   "options": [
+    "Had it removed",
+    "Had it enlarged",
+    "Moved it to the frame"
+   ],
+   "answer": 0,
+   "explanation": "Tretyakov had the second name wiped off the canvas."
+  },
+  {
+   "question": "How many bears are in the painting?",
+   "options": [
+    "Three",
+    "Five",
+    "Four"
+   ],
+   "answer": 2,
+   "explanation": "A mother and three cubs, despite the nickname “Three Bears.”"
+  },
+  {
+   "question": "What is atmospheric perspective?",
+   "options": [
+    "Painting from a high viewpoint",
+    "Making distant things paler, bluer and blurrier",
+    "Using only warm colors"
+   ],
+   "answer": 1,
+   "explanation": "It imitates the way air and mist soften faraway objects."
+  },
+  {
+   "question": "Where does the sunlight fall first in the picture?",
+   "options": [
+    "On the treetops",
+    "On the forest floor",
+    "On the mother bear"
+   ],
+   "answer": 0,
+   "explanation": "The crowns of the pines are gold while the ground is still in shadow."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting's popular nickname gets the number of bears wrong.",
+   "isTrue": true,
+   "explanation": "It is called “Three Bears” but shows four."
+  },
+  {
+   "text": "Shishkin painted the bears himself because animals were his specialty.",
+   "isTrue": false,
+   "explanation": "Trees were his specialty; his friend Savitsky painted the bears."
+  },
+  {
+   "text": "The bears appear on the wrapper of a famous Russian chocolate.",
+   "isTrue": true,
+   "explanation": "The candy “Mishka Kosolapy” has used the image for over a century."
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "teaser": "Thirteen royals, one painter in the shadows, and a question nobody has settled: is he mocking them?",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "Botero's The Presidential Family (1967, MoMA) as a nod to this painting: commonly stated, please verify.\nThe “grocer who won the lottery” line is attributed to Theophile Gautier; attribution is disputed, presented as attributed.\nIdentification of figures follows the Prado (the woman with averted face as future bride of Ferdinand; Carlota Joaquina as the profile at right).\nDimensions about 280 x 336 cm. Painted 1800-1801; ten oil sketches made at Aranjuez, five in the Prado.\nRenoir anecdote omitted. Queen's approval reported in her letters to Godoy.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1967 the Colombian painter Fernando Botero painted “The Presidential Family”: a puffed-up president, a general, a bishop, a wife in furs, and the artist himself half hidden at the back with his canvas. The joke works because it copies a recipe invented 167 years earlier in Madrid. This is the original."
+  },
+  {
+   "type": "text",
+   "text": "Goya painted it in 1800 and 1801. He had just been named First Court Painter, the highest post an artist could hold in Spain, and this group portrait of King Charles IV with his relatives was the biggest test of the job. The canvas is about 2.8 meters high and 3.4 wide (roughly 9 by 11 feet)."
+  },
+  {
+   "type": "text",
+   "text": "Fourteen people stand in the room. Thirteen are dressed in silk, sashes and diamonds. The fourteenth wears plain dark clothes and has no title at all. He is easy to overlook, which is exactly how he wanted it."
+  },
+  {
+   "type": "find",
+   "text": "One person here does not belong to the family. He stands apart, in the dark. Can you spot him?",
+   "spots": [
+    {
+     "x": 0.15,
+     "y": 0.34,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "Goya himself",
+     "text": "The painter stands behind everyone, in shadow, looking out at us. The edge of his tall canvas leans in at the far left. He watches the scene he is paid to flatter."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "By slipping himself in, Goya saluted his hero Velázquez, who had done the same in “Las Meninas” in 1656. But Velázquez stands proudly in the light. Goya stays in the gloom, smaller than the princes. He shows that he was there and gives away nothing more about himself."
+  },
+  {
+   "type": "fact",
+   "text": "Goya did not make thirteen royals pose together for weeks. He traveled to the palace of Aranjuez and painted each face separately in quick oil sketches on reddish-brown grounds. Five of them still hang in the Prado."
+  },
+  {
+   "type": "text",
+   "text": "With the faces in hand, he arranged the family like actors lining up for a curtain call. The order is not random. It tells you who really mattered at court."
+  },
+  {
+   "type": "lines",
+   "text": "See how the lineup is organized.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.49,
+       0.24
+      ],
+      [
+       0.49,
+       0.88
+      ]
+     ],
+     "closed": false,
+     "label": "The center",
+     "text": "The exact middle belongs to Queen María Luisa, not to the king. Many at court believed she and her favorite, Godoy, ran the country. Goya's placement agrees."
+    },
+    {
+     "points": [
+      [
+       0.1,
+       0.33
+      ],
+      [
+       0.34,
+       0.33
+      ],
+      [
+       0.34,
+       0.9
+      ],
+      [
+       0.1,
+       0.9
+      ]
+     ],
+     "closed": true,
+     "label": "The heir's group",
+     "text": "On the left, the crown prince Ferdinand in blue steps forward with his younger brother, an elderly aunt and a young woman."
+    },
+    {
+     "points": [
+      [
+       0.63,
+       0.26
+      ],
+      [
+       0.99,
+       0.26
+      ],
+      [
+       0.99,
+       0.9
+      ],
+      [
+       0.63,
+       0.9
+      ]
+     ],
+     "closed": true,
+     "label": "The king's group",
+     "text": "On the right, Charles IV stands with his brother, a daughter, and a young couple with their baby. He is in front, yet pushed off to the side."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.42
+      ],
+      [
+       0.45,
+       0.5
+      ],
+      [
+       0.8,
+       0.56
+      ]
+     ],
+     "closed": false,
+     "label": "Light from the left",
+     "text": "Light enters from somewhere beyond the left edge and rakes across the figures, firing up every jewel and medal while the wall behind stays dim."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now for the question that has followed this painting for two centuries. Are these portraits cruel? The king looks vacant, the queen heavy and hard. A line often attributed to the French writer Théophile Gautier says they resemble “the corner grocer who has just won the lottery.”"
+  },
+  {
+   "type": "text",
+   "text": "Most historians today doubt that Goya meant an insult. He needed this job, and the family liked the result. The queen wrote that her sketch was the best of all. What we read as satire may simply be honesty: Goya painted faces as he saw them, at a court used to mild flattery."
+  },
+  {
+   "type": "key",
+   "text": "Goya gave the royals all the splendor that paint can give to clothes, and no extra beauty to the people inside them. That gap is why the picture feels so modern."
+  },
+  {
+   "type": "text",
+   "text": "The costumes deserve a slow visit. From across the room they read as embroidery, gauze and precious stones. Up close they dissolve into dabs, scratches and blobs of paint. And a few faces hide stories of their own."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.33,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "The queen",
+     "text": "María Luisa turns her head with a firm, satisfied look. A diamond arrow glitters in her hair. Her arm circles her daughter in a pose that recalls the little princess of “Las Meninas.”"
+    },
+    {
+     "x": 0.67,
+     "y": 0.34,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "The king",
+     "text": "Charles IV, red-faced and good-natured, covered in stars and sashes of royal orders. He loved hunting and clock repair far more than governing."
+    },
+    {
+     "x": 0.29,
+     "y": 0.36,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The hidden face",
+     "text": "This young woman looks away, so we see no features. She likely stands for the future wife of the crown prince, who had not been chosen yet. Goya left the face for later, and never needed to add it."
+    },
+    {
+     "x": 0.24,
+     "y": 0.4,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The aunt",
+     "text": "María Josefa, the king's elderly sister, peers out between two shoulders with a dark beauty patch on her temple. She died soon after the portrait was made."
+    },
+    {
+     "x": 0.19,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "The crown prince",
+     "text": "Ferdinand, in blue, was about sixteen. Eight years later he would push his own father off the throne.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.48,
+     "y": 0.62,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "Painted gold",
+     "text": "The queen's dress is a storm of yellow, white and black dabs. No thread is drawn. The eye assembles the embroidery by itself."
+    },
+    {
+     "x": 0.85,
+     "y": 0.45,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The baby",
+     "text": "The youngest person in the room is the king's grandson, held by his mother, a daughter of the king. He wears the same blue and white sash as the grown men."
+    },
+    {
+     "x": 0.3,
+     "y": 0.12,
+     "zoom": 1.8,
+     "r": 0.18,
+     "title": "Pictures on the wall",
+     "text": "Two large, murky canvases hang behind the family. They are hard to read, and scholars still argue about what they show."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The little boy in red holding the queen's hand, Francisco de Paula, was six. Court gossip claimed he looked suspiciously like the queen's favorite, Godoy, a rumor that has never been proven."
+  },
+  {
+   "type": "text",
+   "text": "The calm in this room did not last. In 1808 Napoleon's troops entered Spain. Ferdinand forced his father to abdicate, then both were lured to France and made to hand the crown to Napoleon's brother. The whole glittering lineup was swept off the stage within eight years of posing."
+  },
+  {
+   "type": "fact",
+   "text": "This was the last portrait the royal family ever ordered from Goya as a group. He remained court painter, but his great later works were about war, madness and fear, not sashes and diamonds."
+  },
+  {
+   "type": "text",
+   "text": "So think again of Botero's fat president and the painter hiding at the back. The idea that a state portrait can obey every rule of the genre and still leave you wondering what the artist really thought starts here, with a man in the shadows and a queen standing in the middle."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who stands at the exact center of the painting?",
+   "options": [
+    "King Charles IV",
+    "Queen María Luisa",
+    "Goya"
+   ],
+   "answer": 1,
+   "explanation": "The queen holds the middle, which matches her real influence at court."
+  },
+  {
+   "question": "Where did Goya put himself?",
+   "options": [
+    "In the back left, in shadow, beside his canvas",
+    "In a mirror on the wall",
+    "Kneeling at the front"
+   ],
+   "answer": 0,
+   "explanation": "He stands in the dark behind the heir's group."
+  },
+  {
+   "question": "Which earlier painting was Goya saluting by including himself?",
+   "options": [
+    "The “Mona Lisa”",
+    "“The Night Watch”",
+    "“Las Meninas” by Velázquez"
+   ],
+   "answer": 2,
+   "explanation": "Velázquez had painted himself among the royal household in 1656."
+  },
+  {
+   "question": "How did Goya prepare the faces?",
+   "options": [
+    "From memory alone",
+    "With separate oil sketches of each sitter made at Aranjuez",
+    "By having everyone pose together for weeks"
+   ],
+   "answer": 1,
+   "explanation": "He painted individual sketches, five of which are in the Prado."
+  },
+  {
+   "question": "Why does one young woman turn her face away?",
+   "options": [
+    "She probably stands for a future bride not yet chosen",
+    "She was Goya's enemy",
+    "The canvas was damaged there"
+   ],
+   "answer": 0,
+   "explanation": "The crown prince's wife had not been selected, so no face could be given."
+  },
+  {
+   "question": "What happened to the family in 1808?",
+   "options": [
+    "They moved to the Prado",
+    "They commissioned a second portrait",
+    "They lost the throne after Napoleon's troops entered Spain"
+   ],
+   "answer": 2,
+   "explanation": "Father and son were forced to give up the crown."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Most historians today think Goya meant the portrait as an open insult to the royal family.",
+   "isTrue": false,
+   "explanation": "The family approved of it, and Goya depended on their favor."
+  },
+  {
+   "text": "Up close, the embroidery on the costumes is made of loose dabs of paint, not drawn threads.",
+   "isTrue": true,
+   "explanation": "Goya suggested the rich fabrics with quick touches the eye completes."
+  },
+  {
+   "text": "The king occupies the middle of the composition.",
+   "isTrue": false,
+   "explanation": "The queen stands in the center; the king is to the right."
+  }
+ ]
+}

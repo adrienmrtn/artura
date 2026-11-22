@@ -1,0 +1,46 @@
+{
+  "teaser": "One second from now, something small will die between this boy's fingernails.",
+  "focus": [0.66, 0.5],
+  "review_notes": "Louvre dates the painting about 1645-1650; French nickname 'Le Pouilleux'.\nThe boy is usually said to be killing a louse or flea in his shirt.\nSeville plague of 1649 killed roughly half the population.\nMurillo orphaned around age nine or ten and raised by an older sister and her husband.\nConsidered the earliest known of Murillo's pictures of street children.\nBought for Louis XVI in 1782.\nMost of Murillo's street-children pictures left Spain early, many via Flemish and Dutch merchants in Seville.\nLouvre paid 615,300 francs in 1852 for Murillo's Immaculate Conception from Marshal Soult's collection, then the highest price paid for a painting.\nSize about 134 x 110 cm.",
+  "lesson": [
+    {"type": "text", "text": "One second from now, something will die in this picture. It is very small. A boy sits on the floor of an empty room, chin down, completely absorbed, and his two hands have come together for a precise little job. Murillo stops time just before it is done."},
+    {"type": "find", "text": "Where is the action? Tap the spot where the boy's whole attention is fixed.", "spots": [
+      {"x": 0.72, "y": 0.575, "zoom": 3.4, "r": 0.08, "title": "The hands", "text": "He has pulled his shirt open and pinches a fold of it between both hands, thumbs together. He has caught a louse, and he is about to crush it."}
+    ]},
+    {"type": "text", "text": "That is the entire event: a child picking vermin out of his clothes. In France the painting earned a blunt nickname, “the lousy one”. Nobody had ordered Spanish painters to look at such a thing before, let alone on a canvas 134 centimeters tall (about 53 inches), a size normally kept for saints."},
+    {"type": "text", "text": "Murillo painted it in Seville in the late 1640s. The city had been the richest port in Spain, the gateway to the Americas. Now trade was shrinking and the streets were filling with poor families. In 1649 a plague killed roughly half the inhabitants and left crowds of children with no one."},
+    {"type": "fact", "text": "Murillo knew what it was to lose parents early. He was the youngest of a large family and was orphaned at around nine. An older sister and her husband brought him up."},
+    {"type": "text", "text": "He was about thirty, a rising painter of Madonnas and monks for Seville's churches. This is thought to be the first of his pictures of street children, a subject he would return to for decades. To give it weight, he borrowed the most dramatic tool he had: light."},
+    {"type": "lines", "text": "The room is bare, so the light does the storytelling. Follow it in.", "lines": [
+      {"points": [[0.15, 0.28], [0.68, 0.5]], "closed": false, "label": "The beam", "text": "Sun enters through the opening at upper left and crosses the dark room on a slant. It lands on the boy's forehead, chest and hands and nowhere else in the upper half."},
+      {"points": [[0.75, 0.36], [0.99, 0.47]], "closed": false, "label": "The shadow's edge", "text": "On the wall behind him, a sharp diagonal separates sunlit plaster from shade. It repeats the slant of the beam and pins the boy into his corner."},
+      {"points": [[0.66, 0.36], [0.72, 0.57], [0.6, 0.77], [0.46, 0.9]], "closed": false, "label": "The folded body", "text": "Head, hands, knee, foot: the body curls forward in a zigzag. He is closed in on himself, and he never looks up at you."}
+    ]},
+    {"type": "text", "text": "A shaft of light in a dark space, falling on one figure: Italian painters around Caravaggio had made this famous a generation earlier, and it reached Seville through artists such as Zurbarán. It was the lighting of miracles and martyrdoms. Murillo spends it on a boy with lice."},
+    {"type": "key", "text": "Murillo gives a child of the street the scale and the light that painting had reserved for holy figures. The subject is humble, the treatment is not."},
+    {"type": "text", "text": "The floor around him is not empty, either. Murillo scatters a few things there, and together they tell you how this boy lives and what he has just eaten."},
+    {"type": "tour", "title": "What he owns", "text": "Four stops on the ground, from right to left.", "spots": [
+      {"x": 0.75, "y": 0.925, "zoom": 3.4, "r": 0.09, "title": "Shrimp shells", "text": "Pink shells and heads lie in the patch of sun, with a few more near his legs. Shrimp were cheap food in a river port. The meal is over and nothing is left but scraps."},
+      {"x": 0.47, "y": 0.91, "zoom": 2.8, "r": 0.11, "title": "The feet", "text": "The soles are gray with dirt, and Murillo turns them toward you. Dirty feet thrust at the viewer were a mark of the new, blunt realism, and they shocked polite taste."},
+      {"x": 0.33, "y": 0.86, "zoom": 2.8, "r": 0.1, "title": "The straw bag", "text": "A woven bag has tipped over and a few small apples have rolled out. This is his larder, probably begged or picked up at a market."},
+      {"x": 0.13, "y": 0.8, "zoom": 2.2, "r": 0.13, "shape": "rect", "title": "The water jug", "text": "A big clay jar with a chipped lip and ridges from the potter's wheel. Murillo paints it as carefully as the boy: a still life sitting inside the scene."}
+    ]},
+    {"type": "text", "text": "Food, water, a patch of sun. He has what he needs for today, and the picture does not beg you for tears. The boy is neither smiling nor crying. Later Murillo's street children grin, play dice and stuff themselves with melon and grapes. This first one is quieter, and he is alone."},
+    {"type": "fact", "text": "The painting has been in France for well over two centuries. It was bought for King Louis XVI in 1782, a few years before the Revolution turned the royal collection into the Louvre museum."},
+    {"type": "text", "text": "That journey was typical. Seville was full of Flemish and Dutch merchants, and they loved these scenes of ordinary life. Most of Murillo's beggar children left Spain early and ended up in northern Europe. Spanish churches kept his Virgins."},
+    {"type": "fact", "text": "In the 1800s Murillo was one of the most admired painters in the world. In 1852 the Louvre paid 615,300 francs for one of his Virgins, said to be the highest price ever given for a painting up to then."},
+    {"type": "text", "text": "Go back to the boy's hands. Is Murillo asking you to pity him, to help him, or only to notice him? Viewers have argued over that for a long time. What is certain is that he made a king's collection, and then millions of museum visitors, stop in front of a child they would have stepped around in the street."}
+  ],
+  "quiz": [
+    {"question": "What is the boy doing with his hands?", "options": ["Peeling a shrimp", "Crushing a louse caught in his shirt", "Counting coins"], "answer": 1, "explanation": "He pinches a fold of his open shirt to kill a louse."},
+    {"question": "What disaster struck Seville in 1649?", "options": ["A plague that killed about half the city", "A great fire", "A naval defeat"], "answer": 0, "explanation": "The plague left many children orphaned and on the streets."},
+    {"question": "Where does the light in the painting come from?", "options": ["A candle beside the boy", "A fire outside the picture on the right", "An opening at the upper left"], "answer": 2, "explanation": "A sunbeam enters at upper left and crosses the dark room to the boy."},
+    {"question": "What tells you the boy has already eaten?", "options": ["An empty bowl in his lap", "Shrimp shells scattered on the floor", "Bread crumbs on his shirt"], "answer": 1, "explanation": "Only shells and heads of shrimp remain on the ground."},
+    {"question": "Who bought the painting in 1782?", "options": ["The King of Spain", "A Dutch merchant", "The King of France, Louis XVI"], "answer": 2, "explanation": "It entered the French royal collection, which became the Louvre."}
+  ],
+  "facts": [
+    {"text": "The boy looks straight out at the viewer.", "isTrue": false, "explanation": "His head is bowed over his hands, and he never looks up."},
+    {"text": "Murillo himself lost his parents as a child.", "isTrue": true, "explanation": "He was orphaned at around nine and raised by a sister and her husband."},
+    {"text": "Most of Murillo's pictures of street children stayed in Spanish churches.", "isTrue": false, "explanation": "Foreign merchants bought them, and most left Spain early."}
+  ]
+}

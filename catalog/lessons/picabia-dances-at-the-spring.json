@@ -1,0 +1,240 @@
+{
+ "teaser": "Two dancers by a spring in southern Italy, broken into a hundred shards of orange.",
+ "focus": [
+  0.58,
+  0.4
+ ],
+ "review_notes": "The app files this under cubism; the painting is a Cubist work from before Picabia's Dada years, and the lesson says so.\nInspiration: a peasant dance seen near Naples during his 1909 honeymoon with Gabrielle Buffet (per Philadelphia Museum of Art).\nShown at the Salon d'Automne, Paris, 1912 and the Armory Show, New York, 1913.\nPicabia as the only European artist to travel to New York for the Armory Show: commonly stated.\n'More than a hundred cars' over his lifetime is a commonly repeated figure.\nSecond, larger version (Dances at the Spring II, MoMA, about 2.5 m square): check size.\nIdentification of body parts in the tour (heads, raised limb, legs) is my reading of a deliberately ambiguous image.\nImage check: the inscription DANSES A LA SOURCE and signature Picabia 1912 are visible, so this is the Philadelphia version.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A heel lifts off the ground. A knee swings up, a shoulder turns, and for half a beat two bodies lean into each other. That is the instant this painting holds. Not the pose before the dance or the bow after it, but the middle of a step."
+  },
+  {
+   "type": "text",
+   "text": "Francis Picabia saw it happen in 1909, on his honeymoon in the countryside near Naples, Italy. Country girls were dancing outdoors beside a spring. He did not sketch them. He carried the memory back to Paris and painted it three years later, in 1912."
+  },
+  {
+   "type": "text",
+   "text": "By then Paris was arguing about Cubism, a new way of painting that breaks a subject into flat, angled pieces, as if seen from several sides at once. Picabia pushed it hard. The dancers are in there, but you have to rebuild them yourself."
+  },
+  {
+   "type": "tour",
+   "title": "Rebuilding the dancers",
+   "text": "Start from the top and work down, the way you would read a figure.",
+   "spots": [
+    {
+     "x": 0.58,
+     "y": 0.18,
+     "zoom": 2.2,
+     "r": 0.2,
+     "title": "Heads and shoulders",
+     "text": "The palest shapes gather up here: curved white and pink planes like bent heads, shoulders and raised arms. Two figures seem to press close, one behind the other."
+    },
+    {
+     "x": 0.6,
+     "y": 0.55,
+     "zoom": 2.4,
+     "r": 0.16,
+     "title": "The swinging limb",
+     "text": "A long rounded form in pale pink cuts across the middle on a slant. It reads as a thigh or arm in full swing, the most solid body part in the whole painting."
+    },
+    {
+     "x": 0.42,
+     "y": 0.86,
+     "zoom": 2.2,
+     "r": 0.2,
+     "title": "Legs on the ground",
+     "text": "Narrow upright wedges of pink and orange come down to the bottom edge like legs and feet. Around them, flat bands suggest the earth they stamp on.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice what the bodies and the ground have in common: everything. The same shards make up skin, hills and air, so the dancers melt into the landscape. Picabia was painting how the scene felt in memory, heat and motion together, not who stood where."
+  },
+  {
+   "type": "text",
+   "text": "The color carries that heat. He used almost nothing but orange, brick red, flesh pink and brown, against near-black. No blue for the sky, no green for the grass, not even for the water of the spring. It is the palette of baked clay and sunburn."
+  },
+  {
+   "type": "fact",
+   "text": "Picabia could afford to paint whatever he liked. Born into a wealthy family, he never needed to sell a picture, and he spent with enthusiasm: over his lifetime he is said to have owned more than a hundred cars."
+  },
+  {
+   "type": "text",
+   "text": "How do you make a still surface feel like it is moving? There is no blur here and no repeated outline. Picabia relies on direction. Almost no edge in the painting is level or upright."
+  },
+  {
+   "type": "lines",
+   "text": "Three directions that keep the picture spinning.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.47,
+       0.68
+      ],
+      [
+       0.67,
+       0.45
+      ]
+     ],
+     "closed": false,
+     "label": "The kick",
+     "text": "The big pale limb tilts up to the right. A slanted shape looks unstable, as if caught on its way somewhere, so your eye pushes it onward."
+    },
+    {
+     "points": [
+      [
+       0.7,
+       0.07
+      ],
+      [
+       0.56,
+       0.4
+      ],
+      [
+       0.4,
+       0.7
+      ],
+      [
+       0.3,
+       0.95
+      ]
+     ],
+     "closed": false,
+     "label": "The lean",
+     "text": "From the heads at top right down to the feet at lower left, the whole group tips along one long slant. Nobody here is standing straight."
+    },
+    {
+     "points": [
+      [
+       0.16,
+       0.21
+      ],
+      [
+       0.28,
+       0.27
+      ],
+      [
+       0.34,
+       0.36
+      ],
+      [
+       0.35,
+       0.47
+      ]
+     ],
+     "closed": false,
+     "label": "The arcs",
+     "text": "Fan-shaped curves ring the dancers on every side, like skirts flaring or hills rolling. They give the turning motion that straight edges cannot."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The painting went on show at the Salon d'Automne in Paris in 1912, then crossed the Atlantic for the Armory Show of 1913, the huge exhibition that introduced modern European art to New York. Picabia sailed over with it, about the only European artist who made the trip, and became a favorite of the newspapers."
+  },
+  {
+   "type": "text",
+   "text": "American reporters had fun with him. Where were the dancers? Where was the spring? They treated the picture as a puzzle with no solution. Yet Picabia had left the answer on the canvas, in plain letters."
+  },
+  {
+   "type": "find",
+   "text": "The title is painted somewhere on the picture itself, in French. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.87,
+     "y": 0.02,
+     "zoom": 3.5,
+     "r": 0.13,
+     "title": "Danses à la source",
+     "text": "Dark capital letters along the top right edge spell the title. Picabia wanted you to hold the words and the shapes together, the way a song title colors what you hear."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "He painted a second Dances at the Spring the same year, far bigger, about 2.5 m (8 ft) on each side. That version is even harder to read as figures. It now belongs to the Museum of Modern Art in New York."
+  },
+  {
+   "type": "key",
+   "text": "Picabia does not paint dancers. He paints dancing: the tilt, the heat and the rhythm that remain when the details of a memory have faded."
+  },
+  {
+   "type": "text",
+   "text": "He did not stay a Cubist for long. Within a few years he was drawing spark plugs and cameras as portraits of his friends, and became a ringleader of Dada, the movement that mocked art itself. He changed style so often that this glowing dance can look like the work of another man. Would you have guessed?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What moment does the painting capture?",
+   "options": [
+    "Dancers resting after the dance",
+    "The middle of a dance step",
+    "A crowd arriving at a village festival"
+   ],
+   "answer": 1,
+   "explanation": "It holds the instant of movement itself."
+  },
+  {
+   "question": "Where had Picabia seen the dance that inspired it?",
+   "options": [
+    "Near Naples, Italy, on his honeymoon",
+    "In a Paris nightclub",
+    "In New York during the Armory Show"
+   ],
+   "answer": 0,
+   "explanation": "He watched country girls dance by a spring in 1909."
+  },
+  {
+   "question": "Which colors dominate the picture?",
+   "options": [
+    "Blues and greens",
+    "Black and white only",
+    "Oranges, pinks and browns"
+   ],
+   "answer": 2,
+   "explanation": "He left out blue and green entirely, even for the water."
+  },
+  {
+   "question": "How does Picabia suggest movement?",
+   "options": [
+    "With blurred edges",
+    "With slanted shapes and curving arcs",
+    "With arrows painted between the figures"
+   ],
+   "answer": 1,
+   "explanation": "Tilted and curved forms look unstable, so the eye keeps them moving."
+  },
+  {
+   "question": "Where is the title written?",
+   "options": [
+    "On the back only",
+    "On a label held by a dancer",
+    "On the canvas, along the top right edge"
+   ],
+   "answer": 2,
+   "explanation": "The words Danses à la source are painted in capitals at the top right."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Picabia painted the dancers on the spot, during his honeymoon.",
+   "isTrue": false,
+   "explanation": "He painted them from memory in Paris three years later."
+  },
+  {
+   "text": "The painting was shown at the 1913 Armory Show in New York.",
+   "isTrue": true,
+   "explanation": "It traveled there after the Paris Salon d'Automne, and Picabia went too."
+  },
+  {
+   "text": "Picabia remained a Cubist painter for the rest of his life.",
+   "isTrue": false,
+   "explanation": "He changed styles many times and soon became a leader of Dada."
+  }
+ ]
+}
