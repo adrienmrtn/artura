@@ -365,12 +365,19 @@ struct TrialNotifScreen: View {
         .split(separator: " ").map(String.init)
 
     /// The title, regular at first; each word turns bold in its turn.
-    private var boldingTitle: Text {
-        var text = Text("")
-        for (i, word) in Self.words.enumerated() {
-            text = text + Text(i == 0 ? word : " " + word).font(.figtree(28, i < bold ? .bold : .regular))
+    /// The title. Each word holds the room of its bold version from the start, so nothing moves:
+    /// the bold version simply fades in over the regular one, word after word.
+    private var boldingTitle: some View {
+        CenteredWordFlow(spacing: 7, lineSpacing: 2) {
+            ForEach(Array(Self.words.enumerated()), id: \.offset) { i, word in
+                let on = i < bold
+                ZStack {
+                    Text(word).font(.figtree(28, .regular)).opacity(on ? 0 : 1)
+                    Text(word).font(.figtree(28, .bold)).opacity(on ? 1 : 0)
+                }
+                .scaleEffect(on ? 1 : 0.97)
+            }
         }
-        return text
     }
 
     var body: some View {
@@ -454,11 +461,11 @@ struct TrialNotifScreen: View {
             withAnimation(.settle) { stage = 3 }
         }
         // The words turn bold one after the other, each with a tap under the finger.
-        let step = 0.13
+        let step = 0.16
         for i in 1...Self.words.count {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3.3 + Double(i) * step) {
-                withAnimation(.easeOut(duration: 0.12)) { bold = i }
-                Haptics.rigid()
+                withAnimation(.easeInOut(duration: 0.32)) { bold = i }
+                Haptics.soft()
             }
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.3 + Double(Self.words.count) * step + 0.6) {
@@ -1170,6 +1177,50 @@ struct PaywallScreen: View {
                 Haptics.success()
                 onClose()
             }
+        }
+    }
+}
+
+/// Words laid out on centered lines, wrapping like text. Each word keeps its own size,
+/// so a word can change style without the lines reflowing.
+struct CenteredWordFlow: Layout {
+    var spacing: CGFloat = 6
+    var lineSpacing: CGFloat = 2
+
+    private func lines(_ subviews: Subviews, width: CGFloat) -> [[(index: Int, size: CGSize)]] {
+        var result: [[(index: Int, size: CGSize)]] = [[]]
+        var x: CGFloat = 0
+        for (i, view) in subviews.enumerated() {
+            let size = view.sizeThatFits(.unspecified)
+            if x > 0, x + size.width > width {
+                result.append([])
+                x = 0
+            }
+            result[result.count - 1].append((i, size))
+            x += size.width + spacing
+        }
+        return result
+    }
+
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+        let width = proposal.width ?? .infinity
+        let rows = lines(subviews, width: width)
+        let height = rows.reduce(0) { $0 + ($1.map(\.size.height).max() ?? 0) } + lineSpacing * CGFloat(max(0, rows.count - 1))
+        let widest = rows.map { row in row.reduce(0) { $0 + $1.size.width } + spacing * CGFloat(max(0, row.count - 1)) }.max() ?? 0
+        return CGSize(width: proposal.width ?? widest, height: height)
+    }
+
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+        var y = bounds.minY
+        for row in lines(subviews, width: bounds.width) {
+            let rowWidth = row.reduce(0) { $0 + $1.size.width } + spacing * CGFloat(max(0, row.count - 1))
+            let rowHeight = row.map(\.size.height).max() ?? 0
+            var x = bounds.minX + (bounds.width - rowWidth) / 2
+            for item in row {
+                subviews[item.index].place(at: CGPoint(x: x, y: y), proposal: ProposedViewSize(item.size))
+                x += item.size.width + spacing
+            }
+            y += rowHeight + lineSpacing
         }
     }
 }

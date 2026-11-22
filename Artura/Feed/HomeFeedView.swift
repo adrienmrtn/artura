@@ -39,6 +39,8 @@ struct HomeFeedView: View {
     @State private var filter = FeedFilter()
     /// Order of the feed for this session, so cards don't jump around while reading.
     @State private var order: [String] = []
+    /// Drawn once per launch: the feed order changes from one launch to the next.
+    private static let sessionSeed = UInt64.random(in: 0...UInt64.max)
     @State private var course: Artwork?
     @State private var sheet: FeedSheet? = FeedSheet.debugInitial
     @State private var showPaywall = false
@@ -115,11 +117,11 @@ struct HomeFeedView: View {
         }
     }
 
-    /// Today's artwork first, then the ones not read yet, then the rest. Shuffled once a day.
+    /// Today's artwork first, then the ones not read yet, then the rest.
+    /// Shuffled anew at each launch of the app, then kept for the session so cards don't jump around.
     private func buildOrder() {
         guard order.isEmpty else { return }
-        let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
-        var generator = SeededGenerator(seed: UInt64(day))
+        var generator = SeededGenerator(seed: Self.sessionSeed)
         let daily = content.artworkOfTheDay?.id
         let others = content.artworks.filter { $0.id != daily }.shuffled(using: &generator)
         let unread = others.filter { !user.profile.completedLessons.contains($0.id) }
@@ -187,7 +189,7 @@ struct HomeFeedView: View {
     }
 }
 
-/// Deterministic random numbers, so the feed keeps the same order all day.
+/// Deterministic random numbers, so the feed keeps the same order for the whole session.
 struct SeededGenerator: RandomNumberGenerator {
     private var state: UInt64
 
