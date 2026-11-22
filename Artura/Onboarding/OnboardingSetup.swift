@@ -777,48 +777,44 @@ struct AccountScreen: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            HStack {
-                Button(action: onBack) {
-                    Image(systemName: "chevron.left")
-                        .font(.system(size: 20, weight: .bold))
-                        .foregroundStyle(Palette.ink)
-                        .frame(width: 44, height: 44)
+            // Grainy illustration at the top, under a tilted arc.
+            ZStack(alignment: .top) {
+                ArtImage(name: "ill_galerie", anchor: UnitPoint(x: 0.5, y: 0.7))
+                    .frame(height: 320)
+                    .clipShape(ArcHeaderShape())
+                    .ignoresSafeArea(edges: .top)
+                HStack {
+                    Button(action: onBack) {
+                        Image(systemName: "chevron.left")
+                            .font(.system(size: 18, weight: .bold))
+                            .foregroundStyle(Palette.ink)
+                            .frame(width: 44, height: 44)
+                            .background(Circle().fill(.white))
+                    }
+                    .buttonStyle(.pressable)
+                    .accessibilityLabel("Back")
+                    Spacer()
                 }
-                .buttonStyle(.pressable)
-                .padding(.leading, -12)
-                .accessibilityLabel("Back")
-                Spacer()
+                .padding(.horizontal, 16)
+                .padding(.top, 8)
             }
-            .frame(height: 44)
-            .padding(.top, 8)
 
-            Spacer(minLength: 8)
-
-            MascotBubble(mascotSize: 132) {
-                VStack(spacing: 6) {
-                    Text("Keep your streak and your collection.")
-                        .font(.figtree(24, .semibold))
-                        .foregroundStyle(Palette.ink)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Text("An account so you don't lose anything if you change phones.")
-                        .font(.figtree(15))
-                        .foregroundStyle(Palette.muted)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
+            VStack(spacing: 8) {
+                Text("Keep your streak and your collection")
+                    .font(.figtree(28, .semibold))
+                    .foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("An account so you don't lose anything if you change phones.")
+                    .font(.aBody)
+                    .foregroundStyle(Palette.muted)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .enter()
+            .multilineTextAlignment(.center)
+            .padding(.horizontal, 24)
+            .padding(.top, -24)
+            .enter(1)
 
-            // What the account keeps
-            HStack(spacing: 8) {
-                keep("flame.fill", "Your streak")
-                keep("heart.fill", "Your favorites")
-                keep("map.fill", "Your program")
-            }
-            .padding(.top, 14)
-            .enter(2)
-
-            Spacer(minLength: 10)
-            Spacer(minLength: 0)
+            Spacer(minLength: 16)
 
             VStack(spacing: 8) {
                 if let message {
@@ -880,27 +876,12 @@ struct AccountScreen: View {
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
             }
+            .padding(.horizontal, 24)
             .enter(3)
         }
-        .padding(.horizontal, 24)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
-    }
-
-    private func keep(_ symbol: String, _ label: String) -> some View {
-        VStack(spacing: 6) {
-            Image(systemName: symbol)
-                .font(.system(size: 16, weight: .semibold))
-                .foregroundStyle(Palette.blue)
-                .frame(width: 38, height: 38)
-                .background(Circle().fill(Palette.mist))
-            Text(label)
-                .font(.figtree(13, .semibold))
-                .foregroundStyle(Palette.ink)
-                .multilineTextAlignment(.center)
-        }
-        .frame(maxWidth: .infinity)
     }
 
     private func signInWithGoogle() {
