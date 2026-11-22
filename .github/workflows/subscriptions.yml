@@ -1,0 +1,38 @@
+name: App Store subscriptions
+
+# À lancer à la main : onglet Actions > « App Store subscriptions » > Run workflow.
+#  1. Textes (nom affiché + description) des 3 abonnements dans les 29 langues,
+#     nom du groupe d'abonnements et nom de l'app affiché, par langue.
+#  2. Prix annuels par pays : Artura_yearly (49.99 / 39.99 / 29.99 / 19.99) et
+#     Artura_yearly_gift (19.99 / 17.99 / 12.99 / 9.99). Les abonnés actuels gardent leur prix.
+#     Le mensuel n'est jamais touché. Tranches : fastlane/subscriptions/pricing.json.
+# « dry_run » : affiche ce qui serait fait sans rien écrire (conseillé la première fois).
+# Secrets : les mêmes que « App Store metadata » (ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8).
+# La clé API doit avoir le rôle App Manager (ou Admin) pour modifier les prix.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Simulation seulement (n'écrit rien)"
+        type: boolean
+        default: false
+
+jobs:
+  subscriptions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyjwt cryptography requests
+      - name: Contrôle des fichiers
+        run: python3 fastlane/subscriptions/asc_subscriptions.py --check
+      - name: Envoi vers App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          DRY: ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: python3 fastlane/subscriptions/asc_subscriptions.py $DRY
