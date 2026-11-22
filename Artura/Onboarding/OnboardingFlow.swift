@@ -120,6 +120,10 @@ struct OnboardingFlow: View {
     }
 
     private func move(to target: OnbStep) {
+        Analytics.track("onboarding_step", [
+            "from": "\(step)", "to": "\(target)", "forward": target.rawValue > step.rawValue,
+            "answers": user.profile.onboardingAnswers
+        ])
         withAnimation(.glide) { step = target }
         // A small tap when the new screen settles.
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) { Haptics.soft() }
@@ -150,6 +154,9 @@ struct OnboardingFlow: View {
 
     private func finish() {
         Haptics.success()
+        Analytics.track("onboarding_completed", [
+            "last_step": "\(step)", "is_pro": pro.isPro, "answers": user.profile.onboardingAnswers
+        ])
         user.profile.onboarded = true
     }
 

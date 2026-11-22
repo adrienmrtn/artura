@@ -5,7 +5,7 @@ import UIKit
 /// Everything here is public, read-only data; the key below is the project's public "anon" key.
 enum RemoteCatalog {
     static let base = "https://dsbhaddvzpswkjzqskhv.supabase.co"
-    private static let key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRzYmhhZGR2enBzd2tqenFza2h2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUyNzg1NDAsImV4cCI6MjExMDg1NDU0MH0.kUOMCn1oAb1lD-kym-GIUxZ4jv5FUJvEnFMbNsOFT44"
+    static let key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRzYmhhZGR2enBzd2tqenFza2h2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUyNzg1NDAsImV4cCI6MjExMDg1NDU0MH0.kUOMCn1oAb1lD-kym-GIUxZ4jv5FUJvEnFMbNsOFT44"
     private static let pageSize = 1000
 
     /// Address of an artwork image. `size` is "thumb", "large" or "zoom".

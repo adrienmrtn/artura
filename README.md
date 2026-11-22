@@ -97,7 +97,15 @@ Produits attendus :
 
 *Sign in with Apple* est branché (capacité déclarée dans `Artura.entitlements`), avec une option « Continuer sans compte ». La connexion Google passe par OAuth 2 dans la fenêtre d'authentification du système, sans bibliothèque externe. Dans les deux cas l'identifiant du compte est seulement mémorisé sur l'appareil : il n'y a pas encore de serveur.
 
+## Statistiques d'usage
+
+L'appli envoie des événements anonymes dans la table Supabase `app_events` (`Artura/Services/Analytics.swift`) : chaque étape de l'onboarding avec les réponses déjà données, ouverture et progression des cours (% lu), réponses aux quiz, paywalls vus et fermés, achats, œuvres vues dans le fil, zoom, favoris, jeux, changement de langue. Chaque ligne porte un identifiant aléatoire de l'appareil, la session, la langue, la version de l'appli et d'iOS, et si l'utilisateur est abonné. Le prénom, l'e-mail et les identifiants Apple ou Google ne sont jamais envoyés.
+
+L'appli ne peut qu'ajouter des lignes ; pour les lire, utiliser le tableau de bord Supabase (clé de service). Les lancements avec des arguments de debug (`-onbStep`, `-demoProfile`…) n'envoient rien.
+
 ## À faire avant une mise en ligne
+
+- Déclarer dans App Store Connect (confidentialité) les données d'usage collectées : identifiant de l'appareil et interactions avec l'appli, non liées à l'identité.
 
 - Remplacer le contenu de `SocialProof` (`OnboardingKit.swift` : « 100 000 apprenants », « 4,8 », les trois avis) par les vrais chiffres et de vrais avis de l'appli.
 - L'onboarding annonce deux choses qui n'existent pas encore : la photo d'une œuvre expliquée par Artura et « près de 400 tableaux et artistes en un an » (le contenu compte aujourd'hui 8 œuvres).

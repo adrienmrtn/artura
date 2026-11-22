@@ -80,6 +80,7 @@ struct ZoomViewer: View {
             .accessibilityLabel(L("Close"))
         }
         .task { await load() }
+        .onAppear { Analytics.track("artwork_zoom_opened", ["image": target.image]) }
         .accessibilityLabel(target.title ?? L("Painting"))
     }
 

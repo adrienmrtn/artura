@@ -135,6 +135,7 @@ final class UserStore: ObservableObject {
     }
 
     func recordGame(won: Bool) {
+        Analytics.track("game_finished", ["won": won])
         markPlayedToday()
         if won { profile.gamesWon += 1 }
     }
@@ -187,6 +188,7 @@ final class UserStore: ObservableObject {
     }
 
     func toggleFavorite(_ id: String) {
+        Analytics.track("favorite_toggled", ["artwork": id, "on": !profile.favorites.contains(id)])
         if let i = profile.favorites.firstIndex(of: id) {
             profile.favorites.remove(at: i)
         } else {
@@ -199,6 +201,7 @@ final class UserStore: ObservableObject {
     // MARK: Saved artworks
 
     func toggleSaved(_ id: String) {
+        Analytics.track("saved_toggled", ["artwork": id, "on": !(profile.saved?.contains(id) ?? false)])
         var saved = profile.saved ?? []
         if let i = saved.firstIndex(of: id) {
             saved.remove(at: i)
@@ -216,6 +219,7 @@ final class UserStore: ObservableObject {
     var reviewDoneToday: Bool { profile.reviewDay == Self.dayKey(Date()) }
 
     func completeReview() {
+        Analytics.track("review_completed")
         profile.reviewDay = Self.dayKey(Date())
         markPlayedToday()
     }

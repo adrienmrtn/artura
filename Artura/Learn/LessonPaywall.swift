@@ -105,7 +105,10 @@ struct LessonPaywall: View {
                     .foregroundStyle(Palette.muted)
                     .padding(.top, 8)
 
-                TextLinkButton(title: closeTitle, action: onClose)
+                TextLinkButton(title: closeTitle) {
+                    Analytics.track("paywall_closed", ["kind": "lesson", "title": title, "artwork": artwork.id])
+                    onClose()
+                }
                     .opacity(canClose ? 1 : 0)
                     .disabled(!canClose)
                 Button(L("Restore purchases")) {
@@ -129,6 +132,7 @@ struct LessonPaywall: View {
         .task {
             if pro.products.isEmpty { await pro.loadProducts() }
         }
+        .onAppear { Analytics.track("paywall_viewed", ["kind": "lesson", "title": title, "artwork": artwork.id]) }
         .task {
             if closeDelay > 0 {
                 try? await Task.sleep(nanoseconds: UInt64(closeDelay * 1_000_000_000))
