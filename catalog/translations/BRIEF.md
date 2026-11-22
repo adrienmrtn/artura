@@ -40,3 +40,15 @@ Write each sentence the way a good native author of a popular art book would hav
 ## Working rules
 
 Write only the files you are asked for. Do not commit, do not push, do not touch any other file.
+
+
+## Additional languages (read after the rules above; they win in case of conflict)
+
+Besides the languages named at the top, you may be asked for: European Portuguese (`pt-PT`, not Brazilian: use Portugal's vocabulary, spelling and `tu`), Romanian (`ro`), Dutch (`nl`), Greek (`el`), Hungarian (`hu`), Bulgarian (`bg`), Czech (`cs`), Russian (`ru`), Slovenian (`sl`), Slovak (`sk`), Serbian in Latin script (`sr`, ekavian, as in Serbia), Arabic (`ar`, Modern Standard Arabic), Hebrew (`he`), Finnish (`fi`), Estonian (`et`), Lithuanian (`lt`), Latvian (`lv`), Japanese (`ja`).
+
+- Address: the informal singular a friendly app would use (`tu`, `du`, `je`, `ty`, `ти`, `sinä`, `sina`, `te`, `εσύ`...). Japanese: polite です・ます style, and leave the pronoun out where Japanese does. Arabic and Hebrew: avoid gender-marked address when the sentence lets you; otherwise use the masculine singular.
+- Quotation marks, dashes, spacing before punctuation, thousands separators and date formats: the standard typographic conventions of the language. Still no em dashes.
+- BC: use the established abbreviation of your language (e.g. ro î.Hr., nl v.Chr., el π.Χ., hu i. e., bg пр.Хр., cs př. n. l., ru до н. э., sl pr. n. št., sk pred Kr., sr p. n. e., ar ق.م, he לפנה"ס, fi eKr., et eKr, lt pr. Kr., lv p.m.ē., ja 紀元前).
+- Right-to-left (ar, he): write plain text; do not insert directional marks; keep Western digits; Latin-script names (e.g. in titles you keep in the original) stay as they are.
+- Scripts: names of artists and places follow the transliteration actually used in your language (Cyrillic, Greek, Arabic, Hebrew, Japanese katakana/kanji). The same name must be written the same way everywhere.
+- Character limits in this brief (teaser 130, spot/line text 300) count characters; they are comfortable for every language, but keep spot texts short in all of them.

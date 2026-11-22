@@ -9,7 +9,9 @@ import json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CATALOG = os.path.dirname(HERE)
-LANGS = ('fr', 'it', 'es', 'de', 'pt', 'tr', 'hr', 'nb', 'sv', 'da', 'pl')
+LANGS = ('fr', 'it', 'es', 'de', 'pt', 'tr', 'hr', 'nb', 'sv', 'da', 'pl', 'pt-PT', 'ro', 'nl', 'el', 'hu', 'bg', 'cs', 'ru', 'sl', 'sk', 'sr', 'ar', 'he', 'fi', 'et', 'lt', 'lv', 'ja')
+# Folder name = language code used in the database, except 'pt' (Brazilian Portuguese), stored as 'pt-BR'.
+DB_CODE = {'pt': 'pt-BR'}
 SLUGS = open(os.path.join(HERE, 'selection.txt')).read().split()
 ITEM_TEXT = {'spots': ('title', 'text'), 'lines': ('label', 'text')}
 
