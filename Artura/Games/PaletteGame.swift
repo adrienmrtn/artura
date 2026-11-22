@@ -85,7 +85,7 @@ struct PaletteGame: View {
     }
 
     private func start() {
-        rounds = Array(content.artworks.shuffled().prefix(5))
+        rounds = Array(content.artworks.filter { !$0.palette.isEmpty }.shuffled().prefix(5))
         index = 0
         score = 0
         prepare()
@@ -93,7 +93,7 @@ struct PaletteGame: View {
 
     private func prepare() {
         guard let current else { return }
-        let others = content.artworks.filter { $0.id != current.id }.shuffled().prefix(2)
+        let others = content.artworks.filter { $0.id != current.id && !$0.palette.isEmpty }.shuffled().prefix(2)
         options = (Array(others) + [current]).shuffled()
         selected = nil
     }

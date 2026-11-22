@@ -36,6 +36,7 @@ enum AppTab: Int, CaseIterable {
 }
 
 struct MainTabView: View {
+    @EnvironmentObject private var content: ContentStore
     @State private var tab: AppTab = AppTab.debugInitial ?? .today
 
     var body: some View {
@@ -81,12 +82,94 @@ struct MainTabView: View {
             .overlay(alignment: .top) { Rectangle().fill(Color(hex: 0xEFE9E5)).frame(height: 1) }
         }
         .background(Palette.bg)
+        .onAppear { content.activateCatalog() }
     }
 }
 
 // MARK: - Lesson → quiz flow, presented full screen
 
+/// Opens a lesson. Lessons of the online catalog are downloaded the first time they are opened.
 struct CourseFlow: View {
+    @EnvironmentObject private var content: ContentStore
+    @Environment(\.dismiss) private var dismiss
+    let artwork: Artwork
+
+    @State private var ready: Artwork?
+    @State private var failed = false
+    @State private var attempt = 0
+
+    init(artwork: Artwork) {
+        self.artwork = artwork
+        _ready = State(initialValue: artwork.lesson.isEmpty ? nil : artwork)
+    }
+
+    var body: some View {
+        ZStack {
+            Palette.bg.ignoresSafeArea()
+            if let ready {
+                CourseContent(artwork: ready)
+                    .transition(.opacity)
+            } else {
+                waiting
+            }
+        }
+        .task(id: attempt) {
+            guard ready == nil else { return }
+            failed = false
+            let full = await content.withLesson(artwork)
+            withAnimation(.gentle) {
+                ready = full
+                failed = full == nil
+            }
+            if full == nil { Haptics.soft() }
+        }
+    }
+
+    private var waiting: some View {
+        VStack(spacing: 16) {
+            HStack {
+                Button {
+                    Haptics.tap()
+                    dismiss()
+                } label: {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundStyle(Palette.ink)
+                        .frame(width: 44, height: 44)
+                        .background(Circle().fill(Palette.card))
+                }
+                .buttonStyle(.pressable)
+                .accessibilityLabel("Close")
+                Spacer()
+            }
+            Spacer()
+            ArtImage(name: artwork.image)
+                .frame(width: 180, height: 220)
+                .clipShape(RoundedRectangle(cornerRadius: 16))
+            Text(artwork.title)
+                .font(.aHeading).foregroundStyle(Palette.ink)
+                .multilineTextAlignment(.center)
+            if failed {
+                Text("This lesson could not be loaded. Check your connection and try again.")
+                    .font(.aSmall).foregroundStyle(Palette.muted)
+                    .multilineTextAlignment(.center)
+                Button("Try again") {
+                    Haptics.press()
+                    attempt += 1
+                }
+                .buttonStyle(.primary)
+            } else {
+                ProgressView().tint(Palette.blue)
+                Text("Preparing your lesson").font(.aSmall).foregroundStyle(Palette.muted)
+            }
+            Spacer()
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 8)
+    }
+}
+
+private struct CourseContent: View {
     @EnvironmentObject private var user: UserStore
     @Environment(\.dismiss) private var dismiss
     let artwork: Artwork

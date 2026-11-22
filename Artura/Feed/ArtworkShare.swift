@@ -22,12 +22,28 @@ struct ArtworkShareLink<Label: View>: View {
     let artwork: Artwork
     @ViewBuilder var label: () -> Label
 
+    /// The picture to share. Nil when it comes from the online catalog and is not loaded yet.
+    private var picture: Image? {
+        guard artwork.isRemote else { return Image(artwork.image) }
+        let thumb = String(artwork.image.dropLast("large.jpg".count)) + "thumb.jpg"
+        guard let loaded = ImageStore.shared.cached(artwork.image) ?? ImageStore.shared.cached(thumb) else { return nil }
+        return Image(uiImage: loaded)
+    }
+
     var body: some View {
-        ShareLink(item: Image(artwork.image),
-                  subject: Text(artwork.title),
-                  message: Text(artwork.shareMessage),
-                  preview: SharePreview(artwork.title, image: Image(artwork.image))) {
-            label()
+        Group {
+            if let picture {
+                ShareLink(item: picture,
+                          subject: Text(artwork.title),
+                          message: Text(artwork.shareMessage),
+                          preview: SharePreview(artwork.title, image: picture)) {
+                    label()
+                }
+            } else {
+                ShareLink(item: artwork.shareMessage, subject: Text(artwork.title)) {
+                    label()
+                }
+            }
         }
         .simultaneousGesture(TapGesture().onEnded { Haptics.tap() })
         .accessibilityLabel("Share \(artwork.title)")

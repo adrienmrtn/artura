@@ -64,6 +64,9 @@ struct LessonView: View {
                         ArtImage(name: artwork.image)
                             .frame(height: 270)
                             .clipShape(RoundedRectangle(cornerRadius: 16))
+                        if let credit = artwork.credit {
+                            Text(credit).font(.figtree(11)).foregroundStyle(Palette.muted)
+                        }
 
                         ForEach(Array(lesson.prefix(revealed).enumerated()), id: \.offset) { index, block in
                             Group {

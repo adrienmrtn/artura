@@ -32,6 +32,7 @@ struct PaintingStudio: View {
     private var usesButton: Bool { block.type == "palette" || block.type == "explore" }
 
     private var imageAspect: CGFloat {
+        if let aspect = artwork.aspect, aspect > 0 { return CGFloat(aspect) }
         guard let size = UIImage(named: artwork.canvasImage)?.size, size.height > 0 else { return 0.8 }
         return size.width / size.height
     }
@@ -147,9 +148,14 @@ struct PaintingStudio: View {
             }
 
         return ZStack {
-            Image(artwork.canvasImage)
-                .resizable()
-                .frame(width: size.width, height: size.height)
+            Group {
+                if artwork.isRemote {
+                    RemoteImage(url: artwork.canvasImage, placeholder: artwork.image, fill: false)
+                } else {
+                    Image(artwork.canvasImage).resizable()
+                }
+            }
+            .frame(width: size.width, height: size.height)
             overlay(size: size)
                 .frame(width: size.width, height: size.height)
         }

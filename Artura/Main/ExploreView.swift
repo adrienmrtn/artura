@@ -174,10 +174,10 @@ struct ExploreView: View {
     }
 
     private var periodsList: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        LazyVStack(alignment: .leading, spacing: 12) {
             ForEach(content.artworks.sorted { $0.year < $1.year }) { art in
                 HStack(spacing: 12) {
-                    Text(String(art.year))
+                    Text(art.yearLabel)
                         .font(.figtree(15, .semibold))
                         .foregroundStyle(Palette.blueText)
                         .frame(width: 48, alignment: .leading)
@@ -189,9 +189,9 @@ struct ExploreView: View {
 
     private func grouped(by key: @escaping (Artwork) -> String) -> some View {
         let groups = Dictionary(grouping: content.artworks, by: key).sorted { $0.key < $1.key }
-        return VStack(alignment: .leading, spacing: 16) {
+        return LazyVStack(alignment: .leading, spacing: 16) {
             ForEach(groups, id: \.key) { group in
-                VStack(alignment: .leading, spacing: 10) {
+                LazyVStack(alignment: .leading, spacing: 10) {
                     Text(group.key).font(.aHeading).foregroundStyle(Palette.ink)
                     ForEach(group.value) { art in
                         ArtworkRow(artwork: art, done: user.profile.completedLessons.contains(art.id)) { course = art }

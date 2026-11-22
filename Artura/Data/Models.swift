@@ -100,9 +100,13 @@ struct Artwork: Codable, Identifiable, Hashable {
     let palette: [String]
     let focus: [Double]
     let teaser: String
-    let lesson: [LessonBlock]
-    let quiz: [QuizQuestion]
-    let facts: [Fact]
+    var lesson: [LessonBlock]
+    var quiz: [QuizQuestion]
+    var facts: [Fact]
+    /// Width / height of the picture. Known for the online catalog, where the image is not in the app.
+    var aspect: Double?
+    /// Credit line to show with the image, when its license asks for one.
+    var credit: String?
 
     var focusPoint: UnitPoint {
         guard focus.count == 2 else { return .center }
@@ -112,6 +116,8 @@ struct Artwork: Codable, Identifiable, Hashable {
     var paletteColors: [Color] { palette.map { Color(hexString: $0) } }
     var meta: String { "\(artist) · \(yearLabel)" }
     var canvasImage: String { hd ?? image }
+    /// True when the images are downloaded (online catalog) instead of bundled with the app.
+    var isRemote: Bool { image.hasPrefix("http") }
 }
 
 extension Artwork {
@@ -145,32 +151,57 @@ struct ContentBundle: Codable {
     let artworks: [Artwork]
 }
 
-/// Content bundled with the app (Resources/content.json).
+/// The artworks and movements shown in the app.
+/// Starts with the content bundled with the app (Resources/content.json), then, once the main
+/// app is on screen, switches to the online catalog (saved on the device after the first download).
 final class ContentStore: ObservableObject {
-    let movements: [Movement]
-    let artworks: [Artwork]
+    @Published private(set) var movements: [Movement]
+    @Published private(set) var artworks: [Artwork] { didSet { reindex() } }
+
+    private let bundled: ContentBundle
+    private var byId: [String: Artwork] = [:]
+    private var dailyOrder: [Artwork] = []
+    private var usesCatalog = false
+    private var refreshing = false
 
     init() {
         if let url = Bundle.main.url(forResource: "content", withExtension: "json"),
            let data = try? Data(contentsOf: url),
            let bundle = try? JSONDecoder().decode(ContentBundle.self, from: data) {
-            movements = bundle.movements
-            artworks = bundle.artworks
+            bundled = bundle
         } else {
             assertionFailure("content.json missing or invalid")
-            movements = []
-            artworks = []
+            bundled = ContentBundle(movements: [], artworks: [])
         }
+        movements = bundled.movements
+        artworks = bundled.artworks
+        reindex()
     }
 
+    private func reindex() {
+        byId = Dictionary(artworks.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
+        // Stable shuffle, so the artwork of the day does not walk through the catalog alphabetically.
+        dailyOrder = usesCatalog ? artworks.sorted { Self.stableHash($0.id) < Self.stableHash($1.id) } : artworks
+    }
+
+    private static func stableHash(_ text: String) -> UInt64 {
+        var hash: UInt64 = 14_695_981_039_346_656_037
+        for byte in text.utf8 {
+            hash ^= UInt64(byte)
+            hash = hash &* 1_099_511_628_211
+        }
+        return hash
+    }
+
+    /// Looks in the current catalog, then in the bundled artworks (onboarding, lessons read before the catalog).
     func artwork(_ id: String?) -> Artwork? {
         guard let id else { return nil }
-        return artworks.first { $0.id == id }
+        return byId[id] ?? bundled.artworks.first { $0.id == id }
     }
 
     func movement(_ id: String?) -> Movement? {
         guard let id else { return nil }
-        return movements.first { $0.id == id }
+        return movements.first { $0.id == id } ?? bundled.movements.first { $0.id == id }
     }
 
     func artworks(in movementId: String) -> [Artwork] {
@@ -179,13 +210,74 @@ final class ContentStore: ObservableObject {
 
     /// Artwork of the day: changes daily, in a stable way.
     var artworkOfTheDay: Artwork? {
-        guard !artworks.isEmpty else { return nil }
+        guard !dailyOrder.isEmpty else { return nil }
         let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
-        return artworks[day % artworks.count]
+        return dailyOrder[day % dailyOrder.count]
     }
 
     var allFacts: [(fact: Fact, artwork: Artwork)] {
         artworks.flatMap { art in art.facts.map { (fact: $0, artwork: art) } }
+    }
+
+    // MARK: Online catalog
+
+    private static let palettes: [String: [String]] = {
+        guard let url = Bundle.main.url(forResource: "palettes", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let palettes = try? JSONDecoder().decode([String: [String]].self, from: data) else { return [:] }
+        return palettes
+    }()
+
+    /// Called when the main app appears: shows the saved catalog at once, and updates it when it is old.
+    @MainActor
+    func activateCatalog() {
+        if !usesCatalog, let saved = CatalogCache.loadIndex(), !saved.artworks.isEmpty {
+            apply(saved)
+        }
+        let age = CatalogCache.indexAge
+        guard !refreshing, !usesCatalog || age == nil || (age ?? 0) > 6 * 3600 else { return }
+        refreshing = true
+        Task { @MainActor in
+            defer { refreshing = false }
+            guard let fresh = try? await RemoteCatalog.index(palettes: Self.palettes), !fresh.artworks.isEmpty else {
+                return
+            }
+            CatalogCache.saveIndex(fresh)
+            apply(fresh)
+        }
+    }
+
+    /// Replaces the catalog, keeping the lessons already on the device.
+    @MainActor
+    private func apply(_ bundle: ContentBundle) {
+        let saved = Set(CatalogCache.savedLessons)
+        var list = bundle.artworks
+        for i in list.indices where list[i].lesson.isEmpty {
+            if let known = byId[list[i].id], !known.lesson.isEmpty {
+                list[i].lesson = known.lesson
+                list[i].quiz = known.quiz
+            } else if saved.contains(list[i].id), let content = CatalogCache.loadLesson(list[i].id) {
+                list[i].lesson = content.lesson
+                list[i].quiz = content.quiz
+            }
+        }
+        usesCatalog = true
+        movements = bundle.movements
+        artworks = list
+    }
+
+    /// The artwork with its lesson and quiz, downloaded if needed. Nil when it cannot be loaded.
+    @MainActor
+    func withLesson(_ artwork: Artwork) async -> Artwork? {
+        if !artwork.lesson.isEmpty { return artwork }
+        if let known = byId[artwork.id], !known.lesson.isEmpty { return known }
+        guard let content = try? await RemoteCatalog.lesson(artwork.id) else { return nil }
+        CatalogCache.saveLesson(content, slug: artwork.id)
+        var full = byId[artwork.id] ?? artwork
+        full.lesson = content.lesson
+        full.quiz = content.quiz
+        if let i = artworks.firstIndex(where: { $0.id == full.id }) { artworks[i] = full }
+        return full
     }
 }
 

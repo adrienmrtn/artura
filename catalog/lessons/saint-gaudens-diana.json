@@ -1,38 +1,285 @@
 {
   "teaser": "The busiest sculptor in America made her for free, to spin on top of a tower.",
-  "focus": [0.42, 0.3],
-  "review_notes": "The image is small (500 x 678 px), so only two interactive blocks on large regions are used.\nThe photo appears to show one of the Metropolitan Museum's small bronze reductions of Diana (about 72 cm / 28 in with a sphere and stepped base), not the half-size gilded cast in the American Wing courtyard. Please confirm which Met object is intended and its date (the reductions are dated 1893-94, cast 1894 or after).\nSaint-Gaudens took no fee for the weathervane; Stanford White covered the costs.\nFirst version 18 ft (5.5 m), about 1,800 lb, installed 1891; second version 13 ft (4 m), installed 1893; tower over 300 ft (about 90 m).\nFirst version sent to the 1893 World's Columbian Exposition in Chicago and later lost; second version at the Philadelphia Museum of Art since 1932.\nOriginal fluttering drapery blew off.\nStanford White shot by Harry Thaw at Madison Square Garden's roof theater in June 1906.\nDiana as Saint-Gaudens's only female nude.",
+  "focus": [
+    0.43,
+    0.27
+  ],
+  "review_notes": "Image check: the photo shows the small gilded bronze reduction on a sphere and a stepped, beaded base (the Met's statuette, about 72 cm / 28 in, dated 1893-94, cast 1894 or after), not the half-size gilded cast that stands in the American Wing courtyard. The text describes the reduction throughout. Please confirm this is the intended Met object and its date.\nThe bowstring in the photo is read as a separate strung wire, not cast metal; the drawing hand is hidden behind the head from this angle.\nSaint-Gaudens took no fee for the weathervane; Stanford White covered the costs.\nFirst version 18 ft (5.5 m), about 1,800 lb, installed 1891; second version 13 ft (4 m), installed 1893; tower over 300 ft (about 90 m).\nFirst version sent to the 1893 World's Columbian Exposition in Chicago and later lost; second version at the Philadelphia Museum of Art since 1932.\nOriginal fluttering drapery blew off.\nStanford White shot by Harry Thaw at Madison Square Garden's roof theater in June 1906.\nDiana as Saint-Gaudens's only female nude.",
   "lesson": [
-    {"type": "text", "text": "In 1891 Augustus Saint-Gaudens had more work than one man could finish. At forty-three he was the most wanted sculptor in the United States, with monuments to generals and presidents on order and a Civil War memorial for Boston already years overdue. So what he did next made little business sense: he took on a huge extra job and asked no fee for it."},
-    {"type": "text", "text": "The job was for a friend. The architect Stanford White was building Madison Square Garden in New York, a pleasure palace with a tower more than 300 feet high, about 90 meters. He wanted something dazzling on the very top. Saint-Gaudens proposed Diana, Roman goddess of the hunt and of the moon, as a weathervane: a figure that swings to show which way the wind blows."},
-    {"type": "fact", "text": "The first Diana was 18 feet tall (5.5 meters) and weighed about 1,800 pounds. Once she was up, both friends saw that she was far too big for the tower. They took her down at their own expense and made a second one, 13 feet tall, which went up in 1893."},
-    {"type": "text", "text": "A weathervane sets a strange problem for a sculptor. The figure must turn freely on one point, so everything rests on a single foot. It has to be read from the street, hundreds of feet below, as a dark shape against the sky. Saint-Gaudens answered with a few clean lines, and they survive in the small gilded version you see here."},
-    {"type": "lines", "text": "Strip the figure down to its structure.", "lines": [
-      {"points": [[0.52, 0.735], [0.48, 0.5], [0.43, 0.2]], "closed": false, "label": "The axis", "text": "From the toe on the ball up through hip and head, the body is one tall, slightly leaning column. All the weight comes down on a spot the size of a coin."},
-      {"points": [[0.2, 0.275], [0.5, 0.25]], "closed": false, "label": "The arrow", "text": "The outstretched arm, the arrow and the drawn-back elbow make a level bar across the top. On the tower, this bar pointed into the wind."},
-      {"points": [[0.48, 0.5], [0.66, 0.66]], "closed": false, "label": "The counterweight", "text": "The free leg trails behind. It balances the bow in front, the way a tightrope walker's pole keeps a body steady."}
-    ]},
-    {"type": "text", "text": "Those three lines make a figure that seems to weigh nothing. She does not stride or crouch like a hunter. She hovers, calm, at the moment before release. Saint-Gaudens had trained in Paris and Rome, and you can feel classical statues behind her, but the slim, athletic body belongs to his own time."},
-    {"type": "fact", "text": "Diana is the only female nude Saint-Gaudens ever made, and she caused trouble. Moral campaigners protested against a naked woman standing over the city. The first version had a loose scarf of metal drapery, meant to catch the wind like a rudder. It soon blew away."},
-    {"type": "text", "text": "The tower figure was hammered from thin sheets of copper and covered in gold leaf, so she flashed in the sun and glowed under electric lights at night. New Yorkers adored her. Saint-Gaudens saw a chance to earn something from his free gift after all, and began selling reduced bronze casts for homes. The one in this photograph is of that kind."},
-    {"type": "tour", "title": "Made for a tabletop", "text": "A reduction lets you see up close what was once 300 feet overhead.", "spots": [
-      {"x": 0.33, "y": 0.25, "zoom": 2.0, "r": 0.2, "title": "Bow, arrow, string", "text": "The bow is fully drawn, with the string pulled back to her cheek. Her head, with its hair tied up in a knot, turns in profile to sight along the arrow."},
-      {"x": 0.51, "y": 0.78, "zoom": 2.2, "r": 0.13, "title": "One toe, one ball", "text": "Only the tip of her left foot touches the sphere. The ball hints at the moon, Diana's planet, and recalls the pivot on which the big statue turned."}
-    ]},
-    {"type": "text", "text": "Madison Square Garden was torn down in 1925, and Diana spent seven years in storage. In 1932 the second version was given to the Philadelphia Museum of Art, where she still stands at the top of the main staircase. The first version had gone to the 1893 Chicago World's Fair and was later lost."},
-    {"type": "key", "text": "Diana shows how a practical object, a wind indicator, can drive artistic choices. The need to balance on one point and to read clearly from far away produced the lightness that made her famous."},
-    {"type": "fact", "text": "The story of the two friends ended under her feet. In June 1906 Stanford White was shot dead by a jealous millionaire during a show at the rooftop theater of Madison Square Garden, directly below the statue. Saint-Gaudens, already gravely ill, died the next summer."}
+    {
+      "type": "text",
+      "text": "In 1891 Augustus Saint-Gaudens had more work than one man could finish. At forty-three he was the most wanted sculptor in the United States, with monuments to generals and presidents on order and a Civil War memorial for Boston already years overdue. So what he did next made little business sense: he took on a huge extra job and asked no fee for it."
+    },
+    {
+      "type": "text",
+      "text": "The job was for a friend. The architect Stanford White was building Madison Square Garden in New York, a pleasure palace with a tower more than 300 feet high, about 90 meters. He wanted something dazzling on the very top. Saint-Gaudens proposed Diana, Roman goddess of the hunt and of the moon, as a weathervane: a figure that swings to show which way the wind blows."
+    },
+    {
+      "type": "fact",
+      "text": "The first Diana was 18 feet tall (5.5 meters) and weighed about 1,800 pounds. Once she was up, both friends saw that she was far too big for the tower. They took her down at their own expense and made a second one, 13 feet tall, which went up in 1893."
+    },
+    {
+      "type": "text",
+      "text": "A weathervane sets a strange problem for a sculptor. The figure must turn freely on one point, so everything rests on a single foot. It has to be read from the street, hundreds of feet below, as a dark shape against the sky. Saint-Gaudens answered with a few clean lines, and they survive in the small gilded version you see here."
+    },
+    {
+      "type": "lines",
+      "text": "Strip the figure down to its structure.",
+      "lines": [
+        {
+          "points": [
+            [
+              0.505,
+              0.735
+            ],
+            [
+              0.49,
+              0.58
+            ],
+            [
+              0.455,
+              0.42
+            ],
+            [
+              0.43,
+              0.2
+            ]
+          ],
+          "closed": false,
+          "label": "The axis",
+          "text": "From the toes on the ball up through knee, hip and head, the body is one tall, slightly leaning column. All the weight comes down on a spot the size of a coin."
+        },
+        {
+          "points": [
+            [
+              0.2,
+              0.272
+            ],
+            [
+              0.4,
+              0.255
+            ],
+            [
+              0.53,
+              0.287
+            ]
+          ],
+          "closed": false,
+          "label": "The arrow",
+          "text": "The outstretched arm, the arrow and the drawn-back elbow make a level bar across the top. On the tower, this bar pointed into the wind."
+        },
+        {
+          "points": [
+            [
+              0.49,
+              0.46
+            ],
+            [
+              0.58,
+              0.56
+            ],
+            [
+              0.66,
+              0.65
+            ]
+          ],
+          "closed": false,
+          "label": "The counterweight",
+          "text": "The free leg trails behind. It balances the bow in front, the way a tightrope walker's pole keeps a body steady."
+        },
+        {
+          "points": [
+            [
+              0.365,
+              0.13
+            ],
+            [
+              0.28,
+              0.19
+            ],
+            [
+              0.228,
+              0.29
+            ],
+            [
+              0.25,
+              0.37
+            ],
+            [
+              0.305,
+              0.415
+            ]
+          ],
+          "closed": false,
+          "label": "The crescent",
+          "text": "The bow is the one big curve in a figure built of straight lines. Diana was goddess of the moon, and it hangs in front of her like a thin crescent."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Those four lines make a figure that seems to weigh nothing. She does not stride or crouch like a hunter. She hovers, calm, at the moment before release. Saint-Gaudens had trained in Paris and Rome, and you can feel classical statues behind her, but the slim, athletic body belongs to his own time."
+    },
+    {
+      "type": "fact",
+      "text": "Diana is the only female nude Saint-Gaudens ever made, and she caused trouble. Moral campaigners protested against a naked woman standing over the city. The first version had a loose scarf of metal drapery, meant to catch the wind like a rudder. It soon blew away."
+    },
+    {
+      "type": "text",
+      "text": "There is one more thing a weathervane demands. It has no front and no back. As the wind shifts, the city sees the figure from every side in turn, so the pose must make sense all the way around. This photograph gives you a single angle, and it keeps something from you."
+    },
+    {
+      "type": "find",
+      "text": "She is pulling the bowstring back at full stretch. Where is the hand that pulls it?",
+      "spots": [
+        {
+          "x": 0.5,
+          "y": 0.27,
+          "zoom": 3.6,
+          "r": 0.06,
+          "title": "The hidden hand",
+          "text": "From here you only get the raised elbow and forearm. The hand itself is tucked behind her neck, out of sight. Turn the statuette a little and it would appear, while the bow slid behind the body."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "So no single view is the complete Diana, and that suited a statue made to turn. The tower figure was hammered from thin sheets of copper and covered in gold leaf. She flashed in the sun and glowed under electric lights at night, showing a new outline with every change of wind."
+    },
+    {
+      "type": "text",
+      "text": "New Yorkers adored her. Saint-Gaudens saw a chance to earn something from his free gift after all, and began selling reduced versions cast in bronze, for homes. The one in this photograph is of that kind: gilded all over, about 72 centimeters high (28 inches) with its ball and base."
+    },
+    {
+      "type": "tour",
+      "title": "Made for a tabletop",
+      "text": "A reduction lets you see up close what was once 300 feet overhead.",
+      "spots": [
+        {
+          "x": 0.43,
+          "y": 0.225,
+          "zoom": 3.8,
+          "r": 0.06,
+          "title": "The face",
+          "text": "Wavy hair pulled up into a small knot, lips closed, eyes fixed along the arrow. No strain and no smile. She has the cool, even features of an ancient Greek marble."
+        },
+        {
+          "x": 0.22,
+          "y": 0.28,
+          "zoom": 4.0,
+          "r": 0.05,
+          "title": "The bow hand",
+          "text": "The fist closes around the grip of the bow, and the arrowhead pokes out just past the knuckles. On the tower these inches of metal would have been lost. Here they are modeled finger by finger."
+        },
+        {
+          "x": 0.385,
+          "y": 0.165,
+          "zoom": 4.0,
+          "r": 0.04,
+          "shape": "arrow",
+          "title": "A real string",
+          "text": "The fine dark line running from the tip of the bow to her head is not cast bronze. It is an actual wire, strung on the finished statuette like the string of a real bow."
+        },
+        {
+          "x": 0.505,
+          "y": 0.79,
+          "zoom": 2.6,
+          "r": 0.12,
+          "title": "Toe, ball, base",
+          "text": "Only the toes of her left foot touch the sphere, which hints at the moon and recalls the pivot of the big statue. Below it, a stepped base with a row of tiny beads: furniture for a mantelpiece."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Madison Square Garden was torn down in 1925, and Diana spent seven years in storage. In 1932 the second version was given to the Philadelphia Museum of Art, where she still stands at the top of the main staircase. The first version had gone to the 1893 Chicago World's Fair and was later lost."
+    },
+    {
+      "type": "key",
+      "text": "Diana shows how a practical object, a wind indicator, can drive artistic choices. The need to balance on one point and to read clearly from far away produced the lightness that made her famous."
+    },
+    {
+      "type": "fact",
+      "text": "The story of the two friends ended under her feet. In June 1906 Stanford White was shot dead by a jealous millionaire during a show at the rooftop theater of Madison Square Garden, directly below the statue. Saint-Gaudens, already gravely ill, died the next summer."
+    }
   ],
   "quiz": [
-    {"question": "What was Diana originally made to be?", "options": ["A fountain figure", "A weathervane on top of a tower", "A tomb monument"], "answer": 1, "explanation": "She crowned Madison Square Garden and turned with the wind."},
-    {"question": "What did Saint-Gaudens charge for the statue?", "options": ["Nothing, he made it for his friend Stanford White", "The highest fee of his career", "A share of ticket sales"], "answer": 0, "explanation": "He took no fee, though he was overloaded with paid commissions."},
-    {"question": "Why was the first version replaced?", "options": ["Lightning destroyed it", "The city banned it", "It was too big for the tower"], "answer": 2, "explanation": "At 18 feet she was out of scale, so a 13-foot version replaced her in 1893."},
-    {"question": "What balances the bow in the composition?", "options": ["The trailing leg", "A heavy cloak", "A second figure"], "answer": 0, "explanation": "The free leg stretches back as a counterweight."},
-    {"question": "Where is the second tower version today?", "options": ["Lost in a fire", "The Philadelphia Museum of Art", "Still in Madison Square"], "answer": 1, "explanation": "It was given to Philadelphia in 1932 after the Garden was demolished."}
+    {
+      "question": "What was Diana originally made to be?",
+      "options": [
+        "A fountain figure",
+        "A weathervane on top of a tower",
+        "A tomb monument"
+      ],
+      "answer": 1,
+      "explanation": "She crowned Madison Square Garden and turned with the wind."
+    },
+    {
+      "question": "What did Saint-Gaudens charge for the statue?",
+      "options": [
+        "Nothing, he made it for his friend Stanford White",
+        "The highest fee of his career",
+        "A share of ticket sales"
+      ],
+      "answer": 0,
+      "explanation": "He took no fee, though he was overloaded with paid commissions."
+    },
+    {
+      "question": "Why was the first version replaced?",
+      "options": [
+        "Lightning destroyed it",
+        "The city banned it",
+        "It was too big for the tower"
+      ],
+      "answer": 2,
+      "explanation": "At 18 feet she was out of scale, so a 13-foot version replaced her in 1893."
+    },
+    {
+      "question": "What balances the bow in the composition?",
+      "options": [
+        "The trailing leg",
+        "A heavy cloak",
+        "A second figure"
+      ],
+      "answer": 0,
+      "explanation": "The free leg stretches back as a counterweight."
+    },
+    {
+      "question": "Where is the second tower version today?",
+      "options": [
+        "Lost in a fire",
+        "The Philadelphia Museum of Art",
+        "Still in Madison Square"
+      ],
+      "answer": 1,
+      "explanation": "It was given to Philadelphia in 1932 after the Garden was demolished."
+    },
+    {
+      "question": "In the photograph, where is the hand that draws the bowstring?",
+      "options": [
+        "Resting on her hip",
+        "Stretched out in front of the bow",
+        "Hidden behind her neck"
+      ],
+      "answer": 2,
+      "explanation": "From this angle only the raised elbow and forearm are visible."
+    }
   ],
   "facts": [
-    {"text": "The tower statue was carved from a single block of marble.", "isTrue": false, "explanation": "It was hammered from thin sheets of copper and gilded."},
-    {"text": "Diana is the only female nude Saint-Gaudens made.", "isTrue": true, "explanation": "His other works are portraits, monuments and draped figures."},
-    {"text": "Saint-Gaudens sold smaller bronze versions of Diana for private homes.", "isTrue": true, "explanation": "Her popularity let him earn money from reductions like the one shown."}
+    {
+      "text": "The tower statue was carved from a single block of marble.",
+      "isTrue": false,
+      "explanation": "It was hammered from thin sheets of copper and gilded."
+    },
+    {
+      "text": "Diana is the only female nude Saint-Gaudens made.",
+      "isTrue": true,
+      "explanation": "His other works are portraits, monuments and draped figures."
+    },
+    {
+      "text": "Saint-Gaudens sold smaller bronze versions of Diana for private homes.",
+      "isTrue": true,
+      "explanation": "Her popularity let him earn money from reductions like the one shown."
+    }
   ]
 }
