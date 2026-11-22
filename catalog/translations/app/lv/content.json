@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Itāļu renesanse",
+   "period": "15.–16. gadsimts",
+   "summary": "Perspektīva un atgriešanās pie antīkās pasaules",
+   "description": "Vispirms Itālijā, pēc tam visā Eiropā mākslinieki no jauna atklāj antīko pasauli, pēta cilvēka ķermeni un izgudro perspektīvu. Glezna kļūst par logu uz pasauli."
+  },
+  "siecledor": {
+   "name": "Nīderlandes zelta laikmets",
+   "period": "17. gadsimts",
+   "summary": "Ikdienas dzīve un gaisma",
+   "description": "Turīgajā Nīderlandes Republikā mākslinieki glezno pilsoņu mājām: klusas istabas, portretus, klusās dabas. Par īsto tēmu kļūst gaisma."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "17.–19. gadsimts",
+   "summary": "„Gaistošās pasaules“ grafikas",
+   "description": "Japānā sērijās izdotās kokgriezuma grafikas rāda aktierus, ainavas un ikdienas ainas. To plakanās krāsas un drosmīgais kadrējums satricinās Eiropas gleznotājus."
+  },
+  "impressionnisme": {
+   "name": "Impresionisms",
+   "period": "19. gadsimta 70.–80. gadi",
+   "summary": "Brīža gaismas glezniecība",
+   "description": "Gleznotāju grupa pamet darbnīcu un strādā brīvā dabā, ātriem, sīkiem triepieniem. Viņus vairs neinteresē detaļas, bet gaismas efekts vienā noteiktā mirklī."
+  },
+  "postimp": {
+   "name": "Postimpresionisms",
+   "period": "1886–1905",
+   "summary": "Vispirms krāsa un emocijas",
+   "description": "Pēc impresionisma katrs meklē savu ceļu. Krāsa vairs neatdarina īstenību: tā izsaka to, ko jūt gleznotājs."
+  },
+  "secession": {
+   "name": "Jūgendstils un Vīnes secesija",
+   "period": "Ap 1900. gadu",
+   "summary": "Zelts, ornaments un liektas līnijas",
+   "description": "Vīnē jaunie mākslinieki sarauj saites ar akadēmiju. Viņi sapludina glezniecību, dekoru un amatniecību un padara ornamentu par patstāvīgu valodu."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Zvaigžņotā nakts",
+   "artist": "Vincents van Gogs",
+   "yearLabel": "1889",
+   "museum": "Mūsdienu mākslas muzejs, Ņujorka",
+   "teaser": "Virpuļojošas debesis, uzgleznotas no atmiņas patversmes istabā.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "1889. gada jūnijs. Vincentam van Gogam ir 36 gadi. Mēnesi iepriekš, pēc smagas krīzes Arlā, viņš pats lūdza, lai viņu uzņem Senremī de Provansas patversmē Francijas dienvidos."
+    },
+    {
+     "type": "text",
+     "text": "Viņa guļamistabas logs vērsts uz austrumiem. Pa to redzams kviešu lauks, Alpiles pakalni un, pirms rītausmas, debesis. Šo skatu viņš glezno atkal un atkal, jebkurā dienas stundā."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogs sāka gleznot tikai 27 gadu vecumā. Apmēram desmit gados viņš radīja ap 900 gleznu, dažreiz pa vienai dienā."
+    },
+    {
+     "type": "tour",
+     "text": "Lūk, slavenākās no šīm debesīm. Aplūko tās visas, tad pieskaries un ieej iekšā.",
+     "spots": [
+      {
+       "title": "Virpulis",
+       "text": "Centrā divi lieli viļņi ievijas viens otrā. Īstas debesis tā neizskatās: viņš glezno to, ko jūt, nevis to, ko redz."
+      },
+      {
+       "title": "Mēness",
+       "text": "Oranžs sirpis dzeltenā oreolā. Tas gandrīz atgādina sauli. Van Gogs liek krāsu īsos triepienos, kas riņķo tam apkārt."
+      },
+      {
+       "title": "Rīta zvaigzne",
+       "text": "Baltākā gaisma visā gleznā. Van Gogs rakstīja brālim, ka pirms saullēkta redzējis rīta zvaigzni, ļoti lielu. Visticamāk, tā ir Venera."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Šī glezna nav tapusi naktī, un tā nav gleznota, raugoties uz skatu. Van Gogs to radīja dienas gaismā, savā darbnīcā patversmē, no atmiņas un iztēles. Viņam tas bija neierasti: parasti viņš gleznoja to, kas atradās acu priekšā."
+    },
+    {
+     "type": "key",
+     "text": "Zvaigžņotā nakts tapa dienā, no atmiņas. Tas nav skats. Tā ir vīzija."
+    },
+    {
+     "type": "text",
+     "text": "Par nakts debesīm viņš bija sapņojis jau sen. Gadu iepriekš viņš rakstīja, ka, skatoties zvaigznēs, vienmēr sāk sapņot."
+    },
+    {
+     "type": "find",
+     "text": "Viena šīs ainavas detaļa nākusi tieši no viņa bērnības Nīderlandē. Kur ir baznīcas tornis?",
+     "spots": [
+      {
+       "title": "Baznīcas tornis",
+       "text": "Tieva, smaila smaile, kā Nīderlandes ciemos, kur Van Gogs uzauga. Provansas baznīcu torņi tādi neizskatās."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Arī ciems ir izdomāts vai vismaz pārcelts: no viņa loga to nevarēja redzēt. Van Gogs savieno īstas debesis, īstus pakalnus un ciemu no atmiņas."
+    },
+    {
+     "type": "fact",
+     "text": "Patversmes logam bija dzelzs restes. Nevienā šī skata gleznā viņš tās neattēloja."
+    },
+    {
+     "type": "lines",
+     "text": "Glezna šķiet nemierīga. Patiesībā tā ir rūpīgi uzbūvēta.",
+     "lines": [
+      {
+       "label": "Cipreses vertikāle",
+       "text": "Tā šķērso visu gleznu no zemes līdz augšmalai un nosaka mērogu: debesis ir bezgalīgas."
+      },
+      {
+       "label": "Tās atbalss: tornis",
+       "text": "Otra, sīka vertikāle, kas atbild cipresei. Vienu radījusi daba, otru uzcēlis cilvēks."
+      },
+      {
+       "label": "Vilnis debesīs",
+       "text": "Acs seko šim S burtam no kreisās uz labo pusi, līdz pat mēnesim."
+      },
+      {
+       "label": "Pakalnu nogāze",
+       "text": "Diagonāle, kas slīd lejup uz ciemu un to pasargā kā roka."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tagad paskaties uz otas darbu. Gludu pāreju nav. Īsi, biezi triepieni stāv cits pie cita, un katrs vērsts savā virzienā. Kustību rada pats triepiens."
+    },
+    {
+     "type": "text",
+     "text": "Šādu biezu krāsas kārtu gleznotāji sauc par „impasto“. Dažreiz Van Gogs spieda krāsu uz audekla gandrīz tieši no tūbiņas. Tuvumā audekla virsma ir raupja kā reljefa karte."
+    },
+    {
+     "type": "tour",
+     "title": "Tuvplānā",
+     "text": "Pieiesim pavisam tuvu pašai krāsai.",
+     "spots": [
+      {
+       "title": "Krāsa",
+       "text": "Paskaties, cik tā bieza: krāsa guļ īsos, smagos triepienos, gandrīz reljefā. To sauc par impasto."
+      },
+      {
+       "title": "Ciprese",
+       "text": "Tumša un savijusies kā liesma, tā savieno zemi ar debesīm. Francijas dienvidos tas ir kapsētu koks. Van Gogam tā šķita tikpat skaista kā ēģiptiešu obelisks."
+      },
+      {
+       "title": "Pakalni",
+       "text": "Alpiles. Tie viļņojas kā jūra, un tos nes tā pati kustība, kas debesis."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ciprese ir svarīga. Tā ir tumšākā forma gleznā un vienīgā, kas skar gan zemi, gan debesu augšmalu. Tajā vasarā šie koki Van Gogu burtiski apbūra."
+    },
+    {
+     "type": "palette",
+     "text": "Zils, dzeltens un gandrīz nekas cits. Pieskaries krāsai.",
+     "swatches": [
+      {
+       "name": "Tumši zils",
+       "text": "Debesu un pakalnu dziļums. Van Gogs lietoja ultramarīnu un kobalta zilo."
+      },
+      {
+       "name": "Gaiši zils",
+       "text": "Virpuļi. Uzklāts biezos triepienos, tas liek debesīm griezties."
+      },
+      {
+       "name": "Dzeltens",
+       "text": "Mēness, zvaigznes, logi. Sīka daļa virsmas, un tomēr tā izgaismo visu."
+      },
+      {
+       "name": "Zaļganmelns",
+       "text": "Ciprese un ciema ēnas. Tumšākā masa gleznā."
+      },
+      {
+       "name": "Zaļganbalts",
+       "text": "Oreoli ap zvaigznēm: tieši tie liek zvaigznēm mirgot."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Krāsu aplī zilais un dzeltenais atrodas gandrīz viens otram pretī. Novietoti blakus, tie viens otru pastiprina. Van Gogs to zināja un izmantoja, lai viņa naktis vibrētu."
+    },
+    {
+     "type": "key",
+     "text": "Pretējas krāsas, novietotas blakus, cita citu pastiprina. Tāpēc dzeltenās zvaigznes uz zilā fona tā deg."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogs stāstīja brālim, ka redzējis rīta zvaigzni, ļoti lielu. Pieskaries baltākajai gaismai gleznā.",
+     "spots": [
+      {
+       "title": "Rīta zvaigzne",
+       "text": "Baltākā gaisma visā gleznā. Van Gogs rakstīja brālim, ka pirms saullēkta redzējis rīta zvaigzni, ļoti lielu. Visticamāk, tā ir Venera."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ko viņš pats domāja par šo gleznu? Ne pārāk daudz. Vēstulēs viņš to sauc vienkārši par nakts etīdi un šaubās par šiem no iztēles gleznotajiem audekliem."
+    },
+    {
+     "type": "fact",
+     "text": "Dzīves laikā Van Gogs nepārdeva gandrīz neko. Viņa brālis Teo, mākslas tirgotājs, palīdzēja viņam ar naudu un krāsām."
+    },
+    {
+     "type": "text",
+     "text": "Viņš nomira trīspadsmit mēnešus vēlāk, 1890. gada jūlijā, 37 gadu vecumā. Zvaigžņotā nakts nonāca Ņujorkas Mūsdienu mākslas muzejā 1941. gadā."
+    },
+    {
+     "type": "key",
+     "text": "Van Gogam triepiens ir pats temats: katram triepienam ir virziens, un tieši tas iekustina debesis."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Virpulis",
+       "text": "Centrā divi lieli viļņi ievijas viens otrā. Īstas debesis tā neizskatās: viņš glezno to, ko jūt, nevis to, ko redz."
+      },
+      {
+       "title": "Mēness",
+       "text": "Oranžs sirpis dzeltenā oreolā. Tas gandrīz atgādina sauli. Van Gogs liek krāsu īsos triepienos, kas riņķo tam apkārt."
+      },
+      {
+       "title": "Rīta zvaigzne",
+       "text": "Baltākā gaisma visā gleznā. Van Gogs rakstīja brālim, ka pirms saullēkta redzējis rīta zvaigzni, ļoti lielu. Visticamāk, tā ir Venera."
+      },
+      {
+       "title": "Ciprese",
+       "text": "Tumša un savijusies kā liesma, tā savieno zemi ar debesīm. Francijas dienvidos tas ir kapsētu koks. Van Gogam tā šķita tikpat skaista kā ēģiptiešu obelisks."
+      },
+      {
+       "title": "Baznīcas tornis",
+       "text": "Tieva, smaila smaile, kā Nīderlandes ciemos, kur Van Gogs uzauga. Provansas baznīcu torņi tādi neizskatās."
+      },
+      {
+       "title": "Ciems",
+       "text": "Daži iedegti dzelteni logi. No savas istabas viņš šo ciemu neredzēja: viņš to pievienoja no atmiņas."
+      },
+      {
+       "title": "Pakalni",
+       "text": "Alpiles. Tie viļņojas kā jūra, un tos nes tā pati kustība, kas debesis."
+      },
+      {
+       "title": "Krāsa",
+       "text": "Paskaties, cik tā bieza: krāsa guļ īsos, smagos triepienos, gandrīz reljefā. To sauc par impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kur atradās Van Gogs, kad gleznoja Zvaigžņoto nakti?",
+     "options": [
+      "Parīzē",
+      "Senremī de Provansas patversmē",
+      "Amsterdamā"
+     ],
+     "explanation": "Mēnesi iepriekš viņš tur bija iestājies pats pēc savas gribas."
+    },
+    {
+     "question": "Kā glezna tapa?",
+     "options": [
+      "Naktī, raugoties uz skatu",
+      "Dienā, no atmiņas un iztēles",
+      "Pēc fotogrāfijas"
+     ],
+     "explanation": "Dienas gaismā, viņa darbnīcā patversmē."
+    },
+    {
+     "question": "Kura detaļa atgādina Nīderlandi?",
+     "options": [
+      "Ciprese",
+      "Smailais baznīcas tornis",
+      "Pakalni"
+     ],
+     "explanation": "Smaile kā ciemos, kur viņš uzauga."
+    },
+    {
+     "question": "Kas ir „impasto“?",
+     "options": [
+      "Ļoti bieza krāsa, gandrīz reljefā",
+      "Plāns, caurspīdīgs lazējums",
+      "Skice ar ogli"
+     ],
+     "explanation": "Īsi, smagi triepieni, kas paceļas virs audekla."
+    },
+    {
+     "question": "Kāpēc dzeltenās zvaigznes šķiet tik spožas?",
+     "options": [
+      "Tās gleznotas ar zeltu",
+      "Dzeltenais atrodas blakus savam pretmetam, zilajam",
+      "Audekls ir izgaismots no aizmugures"
+     ],
+     "explanation": "Pretējas krāsas blakus cita citu pastiprina."
+    },
+    {
+     "question": "Ko Van Gogs neattēloja savās šī skata gleznās?",
+     "options": [
+      "Restes pie loga",
+      "Mēnesi",
+      "Pakalnus"
+     ],
+     "explanation": "Patversmes logam bija dzelzs restes."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogs gleznoja Zvaigžņoto nakti ārā, nakts vidū.",
+     "explanation": "Viņš to gleznoja dienā, no atmiņas, Senremī patversmē."
+    },
+    {
+     "text": "Zvaigžņotā nakts glabājas Ņujorkā.",
+     "explanation": "Kopš 1941. gada tā atrodas Mūsdienu mākslas muzejā."
+    },
+    {
+     "text": "Van Gogs pārdeva daudz gleznu un nomira bagāts.",
+     "explanation": "Viņš nepārdeva gandrīz neko, un viņu uzturēja brālis Teo."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Meitene ar pērļu auskaru",
+   "artist": "Johanness Vermērs",
+   "yearLabel": "ap 1665",
+   "museum": "Mauritshuis, Hāga",
+   "teaser": "Skatiens pār plecu, un neviens nezina, kas viņa ir.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Tu šo seju pazīsti. Tomēr tas nav portrets: neviens nezina, kas viņa ir, un Vermērs, visticamāk, nemaz negribēja attēlot kādu noteiktu cilvēku."
+    },
+    {
+     "type": "text",
+     "text": "17. gadsimta Nīderlandē šādām gleznām bija savs nosaukums: „tronie“, sejas etīde. Ar to gleznotājs pēta sejas izteiksmi, eksotisku tērpu, gaismas efektu. Šeit visus trīs reizē."
+    },
+    {
+     "type": "key",
+     "text": "Tronie ir izdomāta seja, iegansts uzgleznot izteiksmi un gaismu. Tas nav īsta cilvēka portrets."
+    },
+    {
+     "type": "tour",
+     "text": "Vispirms aplūko visu gleznu: seja iznirst no tumsas. Pieskaries, lai pietuvotos.",
+     "spots": [
+      {
+       "title": "Skatiens",
+       "text": "Viņa pagriežas pret tevi, it kā tikko būtu izskanējis viņas vārds. Pietiek ar vienu baltu punktiņu katrā acī, lai skatiens šķistu mitrs un dzīvs."
+      },
+      {
+       "title": "Mute",
+       "text": "Nedaudz pavērta, it kā teikuma vidū. Ievēro sīko gaišo punktiņu lūpu kaktiņā: viens otas pieskāriens, un mute mirdz."
+      },
+      {
+       "title": "Pērle",
+       "text": "Divi triepieni, ne vairāk: balts atspīdums augšā, apkakles pelēks atspulgs apakšā. Nav ne kontūras, ne āķīša. Pērli uzbūvē tava acs."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Visa glezna balstās uz vienu kustību: viņa pagriežas. Ķermenis redzams no sāniem, seja vēršas pret mums. Šķiet, ka esam viņu pārsteiguši vai ka viņa tūlīt aizies. Tieši tas padara viņu tik dzīvu."
+    },
+    {
+     "type": "fact",
+     "text": "Vermērs visu mūžu nodzīvoja Delftā, nelielā Nīderlandes pilsētā. Viņš gleznoja lēni, viņam bija jāuztur vienpadsmit bērni, un 43 gadu vecumā viņš nomira parādos."
+    },
+    {
+     "type": "text",
+     "text": "Ievēro turbānu. Neviena holandiešu meitene tā neģērbās. Tas ir kostīms, tālo Austrumu elpa, kas toreizējos gleznotājus valdzināja."
+    },
+    {
+     "type": "find",
+     "text": "Uz viņas sejas krīt viena gaisma. Kur tā nonāk? Pieskaries gaišākajai sejas vietai.",
+     "spots": [
+      {
+       "title": "Vaigs",
+       "text": "Gaisma nāk no kreisās puses, mazliet no augšas. Tā skar pieri, vaigu un degunu, bet otru sejas pusi ļauj ieslīdēt ēnā."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermērs gandrīz nevelk kontūras. Paskaties uz deguna kauliņu: līnijas nav, ir tikai gaišs vaigs, kas satiekas ar ēnu. Seja ir veidota no gaismas, nevis no līnijām."
+    },
+    {
+     "type": "key",
+     "text": "Gaisma no kreisās, maigas ēnas, nekādu asu kontūru: tāds ir Vermēra rokraksts."
+    },
+    {
+     "type": "lines",
+     "text": "Kā tik vienkārša glezna noturas kopā? To izskaidro trīs līnijas.",
+     "lines": [
+      {
+       "label": "Gaisma",
+       "text": "Tā ienāk no augšas pa kreisi, it kā pa logu, ko mēs neredzam."
+      },
+      {
+       "label": "Trijstūris",
+       "text": "No turbāna virsotnes līdz abiem pleciem: stabila, droši novietota forma, kas līdzsvaro galvas pagriezienu."
+      },
+      {
+       "label": "Krītošais audums",
+       "text": "Dzeltenais audums krīt pa labi un līdzsvaro pa kreisi pagriezto seju."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Un tagad zilais. Vermērs lietoja dabisko ultramarīnu, ko ieguva, saberžot lazurītu. Tas bija tik dārgs, ka vairums gleznotāju to taupīja Jaunavas Marijas tērpam. Viņš to lika visur, pat ēnās."
+    },
+    {
+     "type": "fact",
+     "text": "Lazurītu ieguva raktuvēs tagadējās Afganistānas teritorijā. Nosaukums „ultramarīns“ nozīmē „no aizjūras“."
+    },
+    {
+     "type": "palette",
+     "text": "Gandrīz visu gleznu veido piecas krāsas. Pieskaries kādai un uzzini, kur tā slēpjas.",
+     "swatches": [
+      {
+       "name": "Tumšais fons",
+       "text": "Vairāk nekā puse virsmas. Kādreiz tumši zaļš aizkars, tagad gandrīz melns."
+      },
+      {
+       "name": "Ultramarīns",
+       "text": "Lazurīta zilais. Tas aizņem pavisam maz vietas, tomēr redzam tikai to."
+      },
+      {
+       "name": "Brūnais okers",
+       "text": "Jakas un dzeltenā auduma ēnas: silta, lēta zemes krāsa."
+      },
+      {
+       "name": "Ādas rozā",
+       "text": "Gaišākā gleznas daļa. Mūsu acis vispirms dodas turp."
+      },
+      {
+       "name": "Dzeltens",
+       "text": "Uz jakas un turbāna nokarenajā galā. Tas atbild zilajam."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1994. gadā gleznu restaurēja. Zem nodzeltējušas lakas restauratori atrada svaigākas krāsas un to mazo gaišo punktiņu lūpu kaktiņā, ko neviens vairs nespēja saskatīt."
+    },
+    {
+     "type": "text",
+     "text": "Un fons? Mūsdienās tas izskatās plakans un melns. Zinātniskās analīzes parādīja, ka Vermērs tur bija uzgleznojis tumši zaļu aizkaru. Zaļie pigmenti laika gaitā sadalījās."
+    },
+    {
+     "type": "find",
+     "text": "Vermērs šo gleznu parakstīja. Bet kur? Skaties vērīgi, paraksts ir gandrīz neredzams.",
+     "spots": [
+      {
+       "title": "Paraksts",
+       "text": "„IVMeer“, augšā pa kreisi. Uzgleznots gaišā tonī uz tumšā fona, laika gaitā tas gandrīz izbalējis."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vai pērle vispār ir pērle? Tā ir milzīga. Daži speciālisti domā, ka tas bija lakots stikls vai pulēta alva. Būtībā tam nav nozīmes: gleznā tā ir gaismas lāse, un tas ir viss, ko Vermērs gribēja."
+    },
+    {
+     "type": "key",
+     "text": "Vermērs neglezno priekšmetus. Viņš glezno gaismu, kas uz tiem krīt. Pērle ir divi balti pieskārieni."
+    },
+    {
+     "type": "text",
+     "text": "Mēs zinām tikai ap 37 Vermēra gleznām. Pēc nāves viņš divus gadsimtus bija gandrīz aizmirsts."
+    },
+    {
+     "type": "fact",
+     "text": "1881. gadā kāds kolekcionārs nopirka šo gleznu izsolē par diviem guldeņiem, gandrīz par velti. 1902. gadā viņš to novēlēja Mauritshuis muzejam."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Skatiens",
+       "text": "Viņa pagriežas pret tevi, it kā tikko būtu izskanējis viņas vārds. Pietiek ar vienu baltu punktiņu katrā acī, lai skatiens šķistu mitrs un dzīvs."
+      },
+      {
+       "title": "Mute",
+       "text": "Nedaudz pavērta, it kā teikuma vidū. Ievēro sīko gaišo punktiņu lūpu kaktiņā: viens otas pieskāriens, un mute mirdz."
+      },
+      {
+       "title": "Pērle",
+       "text": "Divi triepieni, ne vairāk: balts atspīdums augšā, apkakles pelēks atspulgs apakšā. Nav ne kontūras, ne āķīša. Pērli uzbūvē tava acs."
+      },
+      {
+       "title": "Zilais turbāns",
+       "text": "Īsts ultramarīns no lazurīta, akmens, kas vests no pašas Afganistānas. Toreiz šis pigments maksāja vairāk nekā zelts."
+      },
+      {
+       "title": "Dzeltenais audums",
+       "text": "Dzeltenais audums krīt pār muguru kā liesma. Zilais un dzeltenais: Vermērs mīlēja šo pāri un lietoja to gleznā pēc gleznas."
+      },
+      {
+       "title": "Baltā apkakle",
+       "text": "Balta josla, uzlikta ar vienu vienīgu žestu. Tieši šī apkakle atspīd pērles apakšā."
+      },
+      {
+       "title": "Paraksts",
+       "text": "„IVMeer“, augšā pa kreisi. Uzgleznots gaišā tonī uz tumšā fona, laika gaitā tas gandrīz izbalējis."
+      },
+      {
+       "title": "Fons",
+       "text": "Tas ne vienmēr bija melns. Analīzes rāda, ka Vermērs šeit uzgleznoja tumši zaļu aizkaru. Gadsimtu gaitā zaļais pazuda."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kas ir „tronie“?",
+     "options": [
+      "Pasūtīts portrets",
+      "Izdomātas sejas etīde",
+      "Pašportrets"
+     ],
+     "explanation": "Iegansts uzgleznot izteiksmi un gaismu, nevis īstu cilvēku."
+    },
+    {
+     "question": "No kurienes nāk turbāna zilais?",
+     "options": [
+      "No auga, indigo",
+      "No akmens, lazurīta",
+      "No gliemežvāka"
+     ],
+     "explanation": "Saberzts lazurīts dod dabisko ultramarīnu, kas toreiz bija dārgāks par zeltu."
+    },
+    {
+     "question": "Kā uzgleznota pērle?",
+     "options": [
+      "Ar precīzu kontūru un āķīti",
+      "Ar diviem gaišiem pieskārieniem, bez kontūras",
+      "Ar sudraba lapiņu"
+     ],
+     "explanation": "Balts atspīdums, pelēks atspulgs: pārējo izdara tava acs."
+    },
+    {
+     "question": "No kurienes nāk gaisma?",
+     "options": [
+      "No kreisās puses",
+      "No labās puses",
+      "No apakšas"
+     ],
+     "explanation": "No augšas pa kreisi, it kā no neredzama loga."
+    },
+    {
+     "question": "Kas sākotnēji bija fonā?",
+     "options": [
+      "Tumši zaļš aizkars",
+      "Logs",
+      "Zelta siena"
+     ],
+     "explanation": "Gadsimtu gaitā zaļie pigmenti sadalījās."
+    },
+    {
+     "question": "Kur Vermērs pavadīja visu mūžu?",
+     "options": [
+      "Amsterdamā",
+      "Delftā",
+      "Hāgā"
+     ],
+     "explanation": "Viņš dzīvoja un strādāja nelielajā Delftas pilsētā."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mēs zinām, kā sauca meiteni, kas pozēja.",
+     "explanation": "Viņas identitāte nav zināma: šī glezna ir tronie."
+    },
+    {
+     "text": "Turbāna zilais iegūts no akmens, lazurīta.",
+     "explanation": "Saberzts tas dod dabisko ultramarīnu."
+    },
+    {
+     "text": "Pērle uzgleznota ar rūpīgu, detalizētu kontūru.",
+     "explanation": "Tie ir tikai divi gaišas krāsas pieskārieni, bez jebkādas kontūras."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Lielais vilnis pie Kanagavas",
+   "artist": "Katsušika Hokusai",
+   "yearLabel": "ap 1831",
+   "museum": "Kokgriezums · daudzi novilkumi",
+   "teaser": "Milzu vilnis, un tālu fonā, pavisam sīks, Fudzi kalns.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Tā nav glezna. Tā ir grafika: attēlu izgriež koka plātnēs, uzklāj tām krāsu un tad nospiež uz papīra. Tāpēc Lielais vilnis nav viens. To ir tūkstošiem."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai to izdeva ap 1831. gadu. Viņam bija ap 70 gadu, un zīmēja viņš kopš bērnības. Ar šo lapu sākas sērija, kas kļuva slavena: Trīsdesmit seši Fudzi kalna skati."
+    },
+    {
+     "type": "key",
+     "text": "Lielais vilnis ir kokgriezums, iespiests tūkstošos eksemplāru. Tas ir daudzos muzejos visā pasaulē."
+    },
+    {
+     "type": "fact",
+     "text": "Šāda grafika bija lēta. Hokusai laikā tā maksāja apmēram tikpat, cik bļoda nūdeļu."
+    },
+    {
+     "type": "find",
+     "text": "Sērija saucas Trīsdesmit seši Fudzi kalna skati. Tad kur ir Fudzi kalns?",
+     "spots": [
+      {
+       "title": "Fudzi kalns",
+       "text": "Īstais lapas temats ir šeit, pavisam sīks. Japānas svētais kalns ar sniega cepuri, pilnīgi nekustīgs vētras vidū."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tas ir ģeniāls gājiens: Japānas augstākais kalns ir mazāks par vilni. Hokusai spēlējas ar attālumu. Tuvais saspiež tālo, kā platleņķa fotogrāfijā."
+    },
+    {
+     "type": "text",
+     "text": "Fudzi kalns bija svēts. Ticēja, ka tas glabā nemirstības noslēpumu. Hokusai bija ar to apsēsts un zīmēja to no visām pusēm, visādos laikapstākļos."
+    },
+    {
+     "type": "tour",
+     "text": "Ceļosim pa attēlu tā, kā to dara acs.",
+     "spots": [
+      {
+       "title": "Putas",
+       "text": "Paskaties uz viļņa galotni: putas beidzas ar saliektiem pirkstiem, kā nagi, kas tūlīt sakļausies ap laivām."
+      },
+      {
+       "title": "Airētāji",
+       "text": "Zvejnieki, saliekušies pār airiem, galvas noliektas. Šīs ātrās laivas veda svaigas zivis uz Edo, pilsētu, ko tagad saucam par Tokiju."
+      },
+      {
+       "title": "Mazais vilnis",
+       "text": "Priekšplānā mazāks vilnis. Paskaties uz tā formu: smails, augšā balts. Tas ir otrs Fudzi kalns."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Japānā lasa no labās uz kreiso. Tāpēc acs ienāk attēlā pa labi, kopā ar laivām, un ietriecas tieši vilnī. Japāņu skatītājam vilnis nāk tieši pretī."
+    },
+    {
+     "type": "fact",
+     "text": "Mūža laikā Hokusai mainīja vārdu vairāk nekā trīsdesmit reižu. Viens no viņa pēdējiem vārdiem nozīmēja „Vecais vīrs, kas traks uz zīmēšanu“."
+    },
+    {
+     "type": "lines",
+     "text": "Vienkāršs attēls, aprēķināts līdz milimetram.",
+     "lines": [
+      {
+       "label": "Līkne",
+       "text": "Vilnis apraksta lielu loku, kas noslēdzas pats sevī. Visa attēla kreisā puse ir ieslēgta tajā."
+      },
+      {
+       "label": "Fudzi trijstūris",
+       "text": "Mazs, stabils, smails. Tas atrodas tieši viļņa iedobumā."
+      },
+      {
+       "label": "Tā dubultnieks",
+       "text": "Mazais vilnis priekšplānā atkārto kalna formu. Ūdens atdarina akmeni."
+      },
+      {
+       "label": "Lasīšanas virziens",
+       "text": "No labās uz kreiso: mēs slīdam pa viļņojumu līdz Fudzi, tad paceļam skatienu uz vilni."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kā tas tapa? Hokusai uzzīmēja attēlu uz plāna papīra. Griezējs uzlīmēja zīmējumu uz ķiršu koka plātnes un izgrieza visu, kas nebija līnija. Pēc tam iespiedējs uzklāja plātnei krāsu un piespieda tai papīru."
+    },
+    {
+     "type": "text",
+     "text": "Katrai krāsai vajadzēja savu izgrieztu plātni, un tās iespieda vienu pēc otras uz tās pašas lapas. Tāpēc grafikās ir tik maz krāsu."
+    },
+    {
+     "type": "key",
+     "text": "Katrai krāsai sava koka plātne: jo mazāk krāsu, jo vienkāršāka grafika. Hokusai šo ierobežojumu pārvērš stilā."
+    },
+    {
+     "type": "palette",
+     "text": "Ļoti maz krāsu, jo katrai vajadzīga sava izgriezta plātne. Pieskaries kādai.",
+     "swatches": [
+      {
+       "name": "Papīrs",
+       "text": "Visbiežākā krāsa nemaz nav iespiesta: tas ir tīrs papīrs, atstāts putām un sniegam."
+      },
+      {
+       "name": "Berlīnes zilais",
+       "text": "Zilais no Eiropas. Tas zīmē vilni, tā svītras un iedobumus."
+      },
+      {
+       "name": "Gaiši zils",
+       "text": "Tas pats zilais, atšķaidīts. Tas piešķir ūdenim apjomu."
+      },
+      {
+       "name": "Iekrāsotās debesis",
+       "text": "Bēšs tonis, tik tikko tumšāks par papīru, kas liek baltajām putām izcelties."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Par šo zilo. Tas ir Berlīnes zilais, ķīmisks pigments, kas izgudrots Eiropā un nesen ievests Japānā. Tas ir dziļš, neizbalē un radīja īstu sensāciju. Sērija lielā mērā tam pateicas par saviem panākumiem."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai savu attēlu parakstīja. Kur? Mājiens: ne apakšējā labajā stūrī.",
+     "spots": [
+      {
+       "title": "Kartušs",
+       "text": "Rāmītī: sērijas un attēla nosaukums, „Zem viļņa pie Kanagavas“. Pa kreisi no tā: Hokusai paraksts."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "19. gadsimta 50. gados Japāna atvērās tirdzniecībai, un tās grafikas nonāca Eiropā. Franču gleznotāji bija satriekti: plakani krāsu laukumi, skaidras kontūras, drosmīgs kadrējums. Monē tās kolekcionēja. Van Gogs tās kopēja."
+    },
+    {
+     "type": "key",
+     "text": "Šo aizraušanos sauc par japonismu. Bez japāņu grafikām impresionisms nebūtu izskatījies tāds, kāds tas ir."
+    },
+    {
+     "type": "text",
+     "text": "Un vēl pēdējais: tas nav cunami. Tas ir atklātas jūras vilnis, milzīgs, bet parasts, tāds, no kāda baidījās zvejnieki. Hokusai nerāda katastrofu. Viņš rāda sīkus cilvēkus dabas priekšā."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Fudzi kalns",
+       "text": "Īstais lapas temats ir šeit, pavisam sīks. Japānas svētais kalns ar sniega cepuri, pilnīgi nekustīgs vētras vidū."
+      },
+      {
+       "title": "Putas",
+       "text": "Paskaties uz viļņa galotni: putas beidzas ar saliektiem pirkstiem, kā nagi, kas tūlīt sakļausies ap laivām."
+      },
+      {
+       "title": "Airētāji",
+       "text": "Zvejnieki, saliekušies pār airiem, galvas noliektas. Šīs ātrās laivas veda svaigas zivis uz Edo, pilsētu, ko tagad saucam par Tokiju."
+      },
+      {
+       "title": "Mazais vilnis",
+       "text": "Priekšplānā mazāks vilnis. Paskaties uz tā formu: smails, augšā balts. Tas ir otrs Fudzi kalns."
+      },
+      {
+       "title": "Kartušs",
+       "text": "Rāmītī: sērijas un attēla nosaukums, „Zem viļņa pie Kanagavas“. Pa kreisi no tā: Hokusai paraksts."
+      },
+      {
+       "title": "Apakšējā laiva",
+       "text": "Tā ienirst viļņu ielejā. Pavisam ir trīs laivas un ap trīsdesmit vīru."
+      },
+      {
+       "title": "Debesis",
+       "text": "Gandrīz tukšas. Vienkārša toņu pāreja, ko panāca, pirms iespiešanas noslaukot daļu krāsas no plātnes."
+      },
+      {
+       "title": "Šļakatas",
+       "text": "Virs Fudzi krīt balti punktiņi. Tie izskatās kā sniegs uz kalna."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kas ir Lielais vilnis?",
+     "options": [
+      "Eļļas glezna",
+      "Kokgriezums",
+      "Akvarelis"
+     ],
+     "explanation": "Grafika, iespiesta tūkstošos eksemplāru."
+    },
+    {
+     "question": "Kurai sērijai tas pieder?",
+     "options": [
+      "Simt Edo skati",
+      "Trīsdesmit seši Fudzi kalna skati",
+      "Četri gadalaiki"
+     ],
+     "explanation": "Ar to sākas Hokusai sērija par Fudzi kalnu."
+    },
+    {
+     "question": "No kurienes nāk viļņa zilais?",
+     "options": [
+      "Lazurīts",
+      "Berlīnes zilais, ievests no Eiropas",
+      "Sasmalcināti gliemežvāki"
+     ],
+     "explanation": "Ķīmisks pigments, Japānā jauns, dziļš un noturīgs."
+    },
+    {
+     "question": "Ko atdarina mazā viļņa forma priekšplānā?",
+     "options": [
+      "Fudzi kalnu",
+      "Laivu",
+      "Mākoni"
+     ],
+     "explanation": "Ūdens atdarina kalnu."
+    },
+    {
+     "question": "Kāpēc grafikās ir tik maz krāsu?",
+     "options": [
+      "Krāsas bija aizliegtas",
+      "Katrai krāsai vajadzīga sava izgriezta plātne",
+      "Papīrs nenoturēja krāsu"
+     ],
+     "explanation": "Katrai krāsai sava plātne, un tās iespiež vienu pēc otras."
+    },
+    {
+     "question": "Kā sauc eiropiešu aizraušanos ar japāņu grafikām?",
+     "options": [
+      "Japonisms",
+      "Orientālisms",
+      "Kubisms"
+     ],
+     "explanation": "Monē grafikas kolekcionēja, Van Gogs tās kopēja."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Lielajam vilnim ir tikai viens eksemplārs.",
+     "explanation": "Tā ir grafika: iespiesti tūkstošiem eksemplāru."
+    },
+    {
+     "text": "Hokusai bija ap 70 gadu, kad to radīja.",
+     "explanation": "Viņš dzimis 1760. gadā, un sērija iznāca ap 1831. gadu."
+    },
+    {
+     "text": "Lielais vilnis attēlo cunami.",
+     "explanation": "Tas ir liels atklātas jūras vilnis, nevis cunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Ūdensrozes",
+   "artist": "Klods Monē",
+   "yearLabel": "1906",
+   "museum": "Čikāgas Mākslas institūts",
+   "teaser": "Apvāršņa vairs nav: tikai ūdens, ziedi un tajā atspoguļotās debesis.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Živerni Monē lika savā dārzā izrakt dīķi un iestādīja tajā ūdensrozes. Gandrīz trīsdesmit gadus šis dīķis bija viņa galvenais temats."
+    },
+    {
+     "type": "image",
+     "caption": "Detaļa · ziedi uz ūdens virsmas."
+    },
+    {
+     "type": "text",
+     "text": "Paskaties vērīgi: nav ne krasta, ne apvāršņa. Vairs nevar pateikt, kur beidzas ūdens un kur sākas debesu atspulgs."
+    },
+    {
+     "type": "key",
+     "text": "Bez apvāršņa glezna kļūst par virsmu: uz ūdeni mēs skatāmies tā, kā skatītos uz debesīm."
+    },
+    {
+     "type": "fact",
+     "text": "Monē algoja dārzniekus, kas kopa dīķi. Viens no viņiem katru rītu, pirms Monē ķērās pie gleznošanas, tīrīja ūdens virsmu."
+    },
+    {
+     "type": "text",
+     "text": "Monē uzgleznoja ap 250 audeklu ar ūdensrozēm. Tie paši ziedi, bet gaisma nekad nav tā pati."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kur Monē gleznoja savas ūdensrozes?",
+     "options": [
+      "Živerni",
+      "Parīzē",
+      "Venēcijā"
+     ],
+     "explanation": "Pats savas mājas dārzā."
+    },
+    {
+     "question": "Kā šajā gleznā nav?",
+     "options": [
+      "Ūdens",
+      "Apvāršņa",
+      "Ziedu"
+     ],
+     "explanation": "Ne krasta, ne debesu: tikai ūdens virsma."
+    },
+    {
+     "question": "Cik gleznu ar ūdensrozēm viņš radīja?",
+     "options": [
+      "Ap desmit",
+      "Ap 250",
+      "Vairāk nekā 2000"
+     ],
+     "explanation": "Milzīga sērija, tapusi gandrīz trīsdesmit gadu garumā."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monē savas ūdensrozes uzgleznoja tikai vienu reizi.",
+     "explanation": "Viņš uzgleznoja ap 250 versiju."
+    },
+    {
+     "text": "Ūdensrožu dīķis atradās paša Monē dārzā.",
+     "explanation": "Živerni, kur viņš lika to izrakt."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Iespaids. Saullēkts",
+   "artist": "Klods Monē",
+   "yearLabel": "1872",
+   "museum": "Marmotāna Monē muzejs, Parīze",
+   "teaser": "Glezna, kas joka pēc deva vārdu veselam mākslas virzienam.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Havras osta miglainā rītā. Monē uzliek dažus ātrus triepienus: laivas, mastus un oranžu sauli."
+    },
+    {
+     "type": "image",
+     "caption": "Detaļa · saule un tās atspulgs."
+    },
+    {
+     "type": "text",
+     "text": "1874. gadā audeklu izstādīja Parīzē. Kritiķis Luijs Leruā izsmēja tā franču nosaukumu, „Impression“, un nodēvēja šos gleznotājus par „impresionistiem“."
+    },
+    {
+     "type": "key",
+     "text": "Vārds „impresionisms“ cēlies no šīs gleznas. Tas sākās kā apvainojums un kļuva par nosaukumu."
+    },
+    {
+     "type": "fact",
+     "text": "Havra ir pilsēta, kurā Monē uzauga. Pusaudža gados viņš tur bija pazīstams ar savām karikatūrām."
+    },
+    {
+     "type": "text",
+     "text": "1985. gadā gleznu turklāt nozaga no Marmotāna muzeja. To atrada piecus gadus vēlāk."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kuru ostu Monē uzgleznoja?",
+     "options": [
+      "Marseļu",
+      "Havru",
+      "Venēciju"
+     ],
+     "explanation": "Pilsētu, kurā viņš uzauga."
+    },
+    {
+     "question": "Kam šī glezna deva vārdu?",
+     "options": [
+      "Impresionismam",
+      "Muzejam",
+      "Balvai"
+     ],
+     "explanation": "Kritiķis izsmēja nosaukumu, un vārds pielipa."
+    },
+    {
+     "question": "Kurā gadā to izstādīja Parīzē?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Tajā gadā kritiķis Luijs Leruā par to pasmējās."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Vārds „impresionists“ sākotnēji bija apvainojums.",
+     "explanation": "Tas cēlies no kritiķa Luija Leruā raksta."
+    },
+    {
+     "text": "Šajā gleznā redzama Marseļas osta.",
+     "explanation": "Tā ir Havras osta."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Skūpsts",
+   "artist": "Gustavs Klimts",
+   "yearLabel": "1908",
+   "museum": "Belvedēra, Vīne",
+   "teaser": "Divi mīlētāji, ietīti zeltā, ziedošas pļavas malā.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimts ir sava „zelta perioda“ virsotnē. Viņš uzklāj audeklam īstas zelta lapiņas, gluži kā uz ikonas."
+    },
+    {
+     "type": "image",
+     "caption": "Detaļa · abas sejas."
+    },
+    {
+     "type": "text",
+     "text": "Paskaties uz apģērbu. Vīrieša apmetni klāj melni un balti taisnstūri. Sievietes kleitu klāj apļi un ziedi."
+    },
+    {
+     "type": "image",
+     "caption": "Detaļa · taisnstūri un apļi."
+    },
+    {
+     "type": "key",
+     "text": "Taisnstūri viņam, apļi viņai: raksti izstāsta pāra stāstu."
+    },
+    {
+     "type": "fact",
+     "text": "Klimta tēvs bija zelta gravieris. Gleznotājs uzauga līdzās metālam, ko vēlāk liks savos audeklos."
+    },
+    {
+     "type": "text",
+     "text": "Austrijas valsts nopirka gleznu 1908. gadā, pirms tā vēl bija pilnībā pabeigta."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kādu materiālu izmantoja Klimts?",
+     "options": [
+      "Perlamutru",
+      "Zelta lapiņas",
+      "Bronzu"
+     ],
+     "explanation": "Tā ir viņa zelta perioda pazīme."
+    },
+    {
+     "question": "Kādi raksti klāj vīrieša apmetni?",
+     "options": [
+      "Apļi",
+      "Ziedi",
+      "Taisnstūri"
+     ],
+     "explanation": "Apļi un ziedi pieder sievietei."
+    },
+    {
+     "question": "Kas nopirka gleznu 1908. gadā?",
+     "options": [
+      "Austrijas valsts",
+      "Kāds franču kolekcionārs",
+      "Klimta tēvs"
+     ],
+     "explanation": "Pirms tā vēl bija pilnībā pabeigta."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimts izmantoja īstas zelta lapiņas.",
+     "explanation": "Tāpat kā vairākos citos sava zelta perioda audeklos."
+    },
+    {
+     "text": "Skūpsts glabājas Parīzē.",
+     "explanation": "Tas atrodas Vīnē, Belvedērā."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Saulespuķes",
+   "artist": "Vincents van Gogs",
+   "yearLabel": "1888",
+   "museum": "Nacionālā galerija, Londona",
+   "teaser": "Dzeltens uz dzeltena: pušķis, uzgleznots drauga sagaidīšanai.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "1888. gada augusts, Arla. Van Gogs gaida savu draugu Polu Gogēnu un grib izrotāt viņa istabu ar saulespuķēm."
+    },
+    {
+     "type": "image",
+     "caption": "Detaļa · ziedi visās dzīves stadijās."
+    },
+    {
+     "type": "text",
+     "text": "Viņš uzdrošinās lietot gandrīz vienu vienīgu krāsu: dzelteni ziedi, dzeltena vāze, dzeltens fons. Viss atkarīgs no toņiem un no krāsas kārtas biezuma."
+    },
+    {
+     "type": "key",
+     "text": "Gandrīz monohroma glezna: dzeltenais visos tā veidos."
+    },
+    {
+     "type": "fact",
+     "text": "Saulespuķes ātri novīst. Van Gogam bija jāglezno steigšus, sākot jau saullēktā, pirms ziedi nokāra galvas."
+    },
+    {
+     "type": "text",
+     "text": "Šīm saulespuķēm ir vairākas versijas. Daži ziedi vēl ir pumpuros, citi jau novītuši: pušķis stāsta arī par laika ritējumu."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kura istabu saulespuķēm bija jārotā?",
+     "options": [
+      "Pola Gogēna",
+      "Kloda Monē",
+      "Viņa brāļa Teo"
+     ],
+     "explanation": "Van Gogs viņu gaidīja Arlā."
+    },
+    {
+     "question": "Kurā pilsētā viņš tās gleznoja?",
+     "options": [
+      "Parīzē",
+      "Arlā",
+      "Amsterdamā"
+     ],
+     "explanation": "Francijas dienvidos, 1888. gada augustā."
+    },
+    {
+     "question": "Kas neparasts ir krāsās?",
+     "options": [
+      "Gandrīz viss ir dzeltens",
+      "Dzeltenā nav nemaz",
+      "Glezna ir melnbalta"
+     ],
+     "explanation": "Dzelteni ziedi, dzeltena vāze, dzeltens fons."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Saulespuķēm ir vairākas versijas.",
+     "explanation": "Van Gogs uzgleznoja veselu sēriju."
+    },
+    {
+     "text": "Dzīves laikā Van Gogs pārdeva savas Saulespuķes par milzu naudu.",
+     "explanation": "Dzīves laikā viņš nepārdeva gandrīz neko."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Liza",
+   "artist": "Leonardo da Vinči",
+   "yearLabel": "ap 1503–1519",
+   "museum": "Luvra, Parīze",
+   "teaser": "Pasaulē slavenākais smaids balstās uz kontūrām, kuras tu neredzi.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Tā ir slavenākā glezna pasaulē, un tā ir maza: tikai 77 × 53 centimetri, uzgleznota uz papeles koka dēļa. Daudzi Luvras apmeklētāji ir pārsteigti, cik tā neliela."
+    },
+    {
+     "type": "text",
+     "text": "Ap 1503. gadu Florencē zīda tirgotājs Frančesko del Džokondo lūdza Leonardo da Vinči uzgleznot viņa sievu Lizu Gerardīni."
+    },
+    {
+     "type": "key",
+     "text": "Mona Liza ir Lizas Gerardīni, florentiešu tirgotāja sievas, portrets. „Mona“ nozīmē vienkārši „kundze“."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo nebija tikai gleznotājs. Viņš bija arī inženieris, anatoms un izgudrotājs un atstāja tūkstošiem piezīmju lappušu, rakstītu spoguļrakstā."
+    },
+    {
+     "type": "tour",
+     "text": "Aplūko viņu visu. Tad pietuvojies tam, kas padarīja viņu par leģendu.",
+     "spots": [
+      {
+       "title": "Smaids",
+       "text": "Meklē līniju, kas iezīmē lūpas: tādas nav. Mutes kaktiņi izgaist ēnā. Tāpēc smaids šķiet mainīgs."
+      },
+      {
+       "title": "Acis",
+       "text": "Tas pats paņēmiens: acu kaktiņi izkūst ēnā. Ievēro arī, ka viņai nav ne uzacu, ne skropstu."
+      },
+      {
+       "title": "Rokas",
+       "text": "Viena atdusas uz otras, atslābināti. Leonardo veica līķu sekcijas, lai izprastu kaulus un muskuļus: šīm rokām ir svars."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Šim izplūdumam ir nosaukums: sfumato, no itāļu vārda „fumo“, dūmi. Leonardo uzklāj desmitiem ļoti plānu, gandrīz caurspīdīgu krāsas kārtiņu. Kontūras izzūd, un formas saplūst cita ar citu."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato ir mīkstas, dūmakainas kontūras. Tieši tāpēc smaidu nav iespējams notvert."
+    },
+    {
+     "type": "text",
+     "text": "Izmēģini pats. Skaties viņai acīs, un mute šķiet smaidām. Paskaties tieši uz muti, un smaids izgaist. To visu paveic ēnas mutes kaktiņos."
+    },
+    {
+     "type": "find",
+     "text": "Šai sejai kaut kā trūkst. Pieskaries vietai, kur tam vajadzētu būt.",
+     "spots": [
+      {
+       "title": "Uzacis",
+       "text": "Viņai nav ne uzacu, ne skropstu. Toreizējā mode vai krāsa, ko nodeldējušas senas tīrīšanas? Speciālisti par to strīdas joprojām."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tagad paskaties uz pozu. Pirms Leonardo portretus pārsvarā gleznoja profilā vai tikai līdz krūtīm. Viņš rāda figūru līdz viduklim, pagrieztu trīs ceturtdaļās pret mums, kopā ar rokām."
+    },
+    {
+     "type": "fact",
+     "text": "Jaunais gleznotājs Rafaels redzēja portretu Leonardo darbnīcā un tūlīt pārņēma šo pozu savos darbos."
+    },
+    {
+     "type": "lines",
+     "text": "Mierīga poza, dīvaina ainava. Paskaties, kā viss uzbūvēts.",
+     "lines": [
+      {
+       "label": "Piramīda",
+       "text": "Galva virsotnē, rokas un plaukstas pamatnē. Plata, stabila forma: viņa nekustas, viņa ir mierīgi iekārtojusies."
+      },
+      {
+       "label": "Apvārsnis pa kreisi",
+       "text": "Kreisajā pusē ainavas ūdens līmenis ir apmēram šeit."
+      },
+      {
+       "label": "Apvārsnis pa labi",
+       "text": "Labajā pusē tas ir augstāk. Abas ainavas puses nesakrīt, un daļa gleznas dīvainības rodas tieši no tā."
+      },
+      {
+       "label": "Taka",
+       "text": "Līkumota līnija, kas aizved skatienu tālumā, tāpat kā upes labajā pusē."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ainava nav īsta vieta. Tā ir sapņu pasaule no klintīm, ūdens un miglas, bez mājām un bez cilvēkiem. Tikai vienu lietu tajā uzcēlušas cilvēka rokas."
+    },
+    {
+     "type": "find",
+     "text": "Šajā tukšajā ainavā ir viena vienīga cilvēka celta būve. Kur ir tilts?",
+     "spots": [
+      {
+       "title": "Tilts",
+       "text": "Neliels akmens tilts ar vairākām arkām. Tā ir vienīgā cilvēka klātbūtnes zīme visā ainavā."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Fons ievēro likumu, ko Leonardo pats pierakstīja: gaisa perspektīvu. Gaiss nav pilnīgi caurspīdīgs. Jo tālāk kaut kas atrodas, jo zilāks, bālāks un miglaināks tas izskatās."
+    },
+    {
+     "type": "key",
+     "text": "Gaisa perspektīva: tālās lietas šķiet zilākas, bālākas un izplūdušākas. Leonardo bija viens no pirmajiem, kas to gleznoja apzināti."
+    },
+    {
+     "type": "palette",
+     "text": "Brūni un zaļi toņi, nedaudz zelta. Vecā laka visu padarījusi dzeltenīgu. Pieskaries krāsai.",
+     "swatches": [
+      {
+       "name": "Ēnas",
+       "text": "Kleita, mati, plīvurs. Gandrīz puse gleznas ir pustumsā."
+      },
+      {
+       "name": "Āda",
+       "text": "Seja, krūtis, rokas: trīs gaišie laukumi, izkārtoti trijstūrī."
+      },
+      {
+       "name": "Pelēkzaļās debesis",
+       "text": "Sākotnēji zilākas. Nodzeltējusī laka tās pabīdījusi uz zaļo pusi."
+      },
+      {
+       "name": "Brūnā zeme",
+       "text": "Ainavas klintis un takas abpus viņas pleciem."
+      },
+      {
+       "name": "Zaļā tāle",
+       "text": "Ūdens un kalni, attāluma mīkstināti."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo gleznu tā arī neatdeva. Viņš to paturēja, gadiem ilgi pie tās strādāja un paņēma līdzi uz Franciju, kad karalis Francisks I viņu tur aicināja. Kad Leonardo 1519. gadā nomira, portrets nonāca karaliskajā kolekcijā. Tāpēc tas atrodas Luvrā."
+    },
+    {
+     "type": "text",
+     "text": "Ilgu laiku tā bija viens šedevrs starp daudziem. Pasaules slavu tai atnesa noziegums: 1911. gada 21. augustā itāļu strādnieks Vinčenco Perudža noņēma to no sienas un aiznesa, paslēpis zem sava darba virsvalka."
+    },
+    {
+     "type": "fact",
+     "text": "Kamēr gleznas nebija, ļaudis Luvrā stāvēja rindā, lai tikai paskatītos uz tukšo vietu pie sienas."
+    },
+    {
+     "type": "text",
+     "text": "Avīzes visā pasaulē publicēja viņas attēlu. Kad 1913. gadā viņu atrada Florencē, Mona Liza vairs nebija vienkārši glezna. Viņa bija zvaigzne."
+    },
+    {
+     "type": "key",
+     "text": "Savu ģenialitāti Mona Liza ir parādā Leonardo, bet savu slavu zādzībai."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Smaids",
+       "text": "Meklē līniju, kas iezīmē lūpas: tādas nav. Mutes kaktiņi izgaist ēnā. Tāpēc smaids šķiet mainīgs."
+      },
+      {
+       "title": "Acis",
+       "text": "Tas pats paņēmiens: acu kaktiņi izkūst ēnā. Ievēro arī, ka viņai nav ne uzacu, ne skropstu."
+      },
+      {
+       "title": "Rokas",
+       "text": "Viena atdusas uz otras, atslābināti. Leonardo veica līķu sekcijas, lai izprastu kaulus un muskuļus: šīm rokām ir svars."
+      },
+      {
+       "title": "Tilts",
+       "text": "Neliels akmens tilts ar vairākām arkām. Tā ir vienīgā cilvēka klātbūtnes zīme visā ainavā."
+      },
+      {
+       "title": "Taka",
+       "text": "Taka, kas līkumo uz ezera pusi. Ainava nav īsta vieta: Leonardo to izdomā, balstoties uz saviem klinšu un ūdens pētījumiem."
+      },
+      {
+       "title": "Plīvurs",
+       "text": "Viņas matus sedz caurspīdīgs plīvurs. Tas ir tik smalks, ka uz pieres to tik tikko var saskatīt."
+      },
+      {
+       "title": "Tāle",
+       "text": "Jo tālāk kalni, jo zilāki un miglaināki tie kļūst. Leonardo pamanīja, ka arī gaisam ir sava krāsa."
+      },
+      {
+       "title": "Piedurkne",
+       "text": "Sīkas, zeltainas krokas, uzgleznotas cita pēc citas. Kleita ir tumša, un rotaslietu viņai nav: nekam nav jānovērš uzmanība no sejas."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kas ir sieviete portretā?",
+     "options": [
+      "Francijas karaliene",
+      "Liza Gerardīni, florentiešu tirgotāja sieva",
+      "Leonardo māte"
+     ],
+     "explanation": "Portretu pasūtīja viņas vīrs Frančesko del Džokondo."
+    },
+    {
+     "question": "Kā sauc mīksto, dūmakaino kontūru tehniku?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Puantilisms"
+     ],
+     "explanation": "No itāļu vārda „fumo“, dūmi."
+    },
+    {
+     "question": "Uz kā uzgleznota Mona Liza?",
+     "options": [
+      "Uz linu audekla",
+      "Uz papeles koka dēļa",
+      "Uz apmestas sienas"
+     ],
+     "explanation": "Uz papeles dēļa, kura izmērs ir 77 × 53 centimetri."
+    },
+    {
+     "question": "Kas notiek ar lietām tālumā?",
+     "options": [
+      "Tās kļūst spilgtākas",
+      "Tās kļūst zilākas, bālākas un miglainākas",
+      "To kontūras kļūst asākas"
+     ],
+     "explanation": "Tā ir gaisa perspektīva."
+    },
+    {
+     "question": "Kāpēc glezna atrodas Francijā?",
+     "options": [
+      "Napoleons to aizveda no Itālijas",
+      "Leonardo to atveda, un tā nonāca karaliskajā kolekcijā",
+      "Luvra to nopirka 1911. gadā"
+     ],
+     "explanation": "Leonardo ieradās Francijā pēc karaļa Franciska I aicinājuma."
+    },
+    {
+     "question": "Kas padarīja Monu Lizu pasaulslavenu?",
+     "options": [
+      "Zādzība no Luvras 1911. gadā",
+      "Izstāde Ņujorkā",
+      "Restaurācija"
+     ],
+     "explanation": "To nozaga Vinčenco Perudža, un atrada to 1913. gadā."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Liza ir uzgleznota uz audekla.",
+     "explanation": "Tā ir uzgleznota uz papeles koka dēļa."
+    },
+    {
+     "text": "Monu Lizu nozaga no Luvras 1911. gadā.",
+     "explanation": "To atrada divus gadus vēlāk."
+    },
+    {
+     "text": "Monai Lizai ir biezas, tumšas uzacis.",
+     "explanation": "Viņai nav nedz uzacu, nedz skropstu."
+    }
+   ]
+  }
+ }
+}

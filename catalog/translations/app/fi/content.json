@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Italian renessanssi",
+   "period": "1400- ja 1500-luku",
+   "summary": "Perspektiivi ja paluu antiikkiin",
+   "description": "Ensin Italiassa ja sitten koko Euroopassa taiteilijat löytävät antiikin uudelleen, tutkivat ihmisruumista ja keksivät perspektiivin. Maalauksesta tulee ikkuna maailmaan."
+  },
+  "siecledor": {
+   "name": "Alankomaiden kulta-aika",
+   "period": "1600-luku",
+   "summary": "Arkielämää ja valoa",
+   "description": "Vauraassa Alankomaiden tasavallassa taiteilijat maalaavat porvarien kodeille: hiljaisia sisätiloja, muotokuvia, asetelmia. Valosta tulee todellinen aihe."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1600-luvulta 1800-luvulle",
+   "summary": "Vedoksia ”kelluvasta maailmasta”",
+   "description": "Japanissa sarjoina painetut puupiirrokset esittävät näyttelijöitä, maisemia ja arjen kohtauksia. Niiden tasaiset värit ja rohkeat rajaukset ravistelivat myöhemmin eurooppalaisia maalareita."
+  },
+  "impressionnisme": {
+   "name": "Impressionismi",
+   "period": "1870- ja 1880-luku",
+   "summary": "Hetken valo kankaalle",
+   "description": "Joukko maalareita jättää ateljeen ja maalaa ulkona nopein, pienin vedoin. Yksityiskohdat eivät enää kiinnosta heitä, vaan se, miltä valo näyttää juuri tietyllä hetkellä."
+  },
+  "postimp": {
+   "name": "Postimpressionismi",
+   "period": "1886–1905",
+   "summary": "Väri ja tunne ensin",
+   "description": "Impressionismin jälkeen jokainen etsii oman tiensä. Väri ei enää jäljittele todellisuutta vaan ilmaisee, mitä maalari tuntee."
+  },
+  "secession": {
+   "name": "Jugend ja Wienin secessio",
+   "period": "Noin 1900",
+   "summary": "Kultaa, koristeita ja kaarevia linjoja",
+   "description": "Wienissä nuoret taiteilijat irtautuvat akatemiasta. He yhdistävät maalauksen, koristetaiteen ja käsityön ja tekevät koristeesta oman kielensä."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Tähtikirkas yö",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "MoMA, New York",
+   "teaser": "Pyörteinen taivas, maalattu muistista mielisairaalan huoneessa.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Kesäkuu 1889. Vincent van Gogh on 36-vuotias. Kuukautta aiemmin, vakavan romahduksen jälkeen Arlesissa, hän hakeutui omasta tahdostaan Saint-Rémy-de-Provencen mielisairaalaan Etelä-Ranskassa."
+    },
+    {
+     "type": "text",
+     "text": "Hänen makuuhuoneensa ikkuna antaa itään. Siitä näkyy vehnäpelto, Alpillesin kukkulat ja ennen aamunkoittoa taivas. Hän maalaa saman näkymän yhä uudelleen, kaikkina vuorokaudenaikoina."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh aloitti maalaamisen vasta 27-vuotiaana. Suunnilleen kymmenessä vuodessa syntyi noin 900 maalausta, joskus yksi päivässä."
+    },
+    {
+     "type": "tour",
+     "text": "Tässä on kuuluisin noista taivaista. Katso sitä ensin rauhassa ja napauta sitten, niin pääset sisään.",
+     "spots": [
+      {
+       "title": "Pyörre",
+       "text": "Keskellä kaksi suurta aaltoa kiertyy toistensa sisään. Mikään oikea taivas ei näytä tältä: hän maalaa sen, mitä tuntee, ei sitä, mitä näkee."
+      },
+      {
+       "title": "Kuu",
+       "text": "Oranssi sirppi keltaisen sädekehän keskellä. Se muistuttaa melkein aurinkoa. Van Gogh levittää maalin lyhyin vedoin, jotka kiertävät sitä."
+      },
+      {
+       "title": "Aamutähti",
+       "text": "Maalauksen valkoisin valo. Van Gogh kirjoitti veljelleen nähneensä ennen auringonnousua aamutähden, joka näytti hyvin suurelta. Se on luultavasti Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tätä kuvaa ei maalattu yöllä, eikä näkymän edessä. Van Gogh teki sen päivänvalossa mielisairaalan ateljeessaan, muistin ja mielikuvituksen varassa. Se oli hänelle poikkeuksellista: yleensä hän maalasi sitä, mikä oli hänen silmiensä edessä."
+    },
+    {
+     "type": "key",
+     "text": "Tähtikirkas yö maalattiin päivällä, muistista. Se ei ole näkymä. Se on näky."
+    },
+    {
+     "type": "text",
+     "text": "Hän oli haaveillut yötaivaasta jo pitkään. Vuotta aiemmin hän kirjoitti, että tähtien katseleminen sai hänet aina uneksimaan."
+    },
+    {
+     "type": "find",
+     "text": "Yksi tämän maiseman yksityiskohta on peräisin suoraan hänen lapsuudestaan Alankomaissa. Missä kirkontorni on?",
+     "spots": [
+      {
+       "title": "Kirkontorni",
+       "text": "Kapea, suippo huippu, samanlainen kuin niissä hollantilaisissa kylissä, joissa Van Gogh kasvoi. Provencen kirkontornit eivät näytä tältä."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Myös kylä on keksitty tai ainakin siirretty: sitä ei näkynyt hänen ikkunastaan. Van Gogh yhdistää todellisen taivaan, todelliset kukkulat ja muistista maalatun kylän."
+    },
+    {
+     "type": "fact",
+     "text": "Mielisairaalan ikkunassa oli rautakalterit. Hän jätti ne pois jokaisesta maalauksesta, joka esittää tätä näkymää."
+    },
+    {
+     "type": "lines",
+     "text": "Maalaus näyttää levottomalta. Todellisuudessa se on huolellisesti rakennettu.",
+     "lines": [
+      {
+       "label": "Sypressin pystylinja",
+       "text": "Se halkaisee koko kuvan maasta yläreunaan asti ja antaa mittakaavan: taivas on valtava."
+      },
+      {
+       "label": "Kaiku: kirkontorni",
+       "text": "Toinen, pikkuruinen pystylinja, joka vastaa sypressille. Toisen on tehnyt luonto, toisen ihminen."
+      },
+      {
+       "label": "Taivaan aalto",
+       "text": "Silmä seuraa tätä S-kirjainta vasemmalta oikealle, aina kuuhun asti."
+      },
+      {
+       "label": "Kukkuloiden rinne",
+       "text": "Vinolinja, joka laskee kohti kylää ja suojaa sitä kuin käsivarsi."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Katso nyt siveltimenjälkeä. Pehmeitä liukumia ei ole. Lyhyet, paksut vedot ovat vierekkäin, ja jokainen osoittaa omaan suuntaansa. Liike syntyy itse siveltimenvedosta."
+    },
+    {
+     "type": "text",
+     "text": "Maalarit kutsuvat tällaista paksua maalia nimellä ”impasto”. Van Gogh puristi värin joskus lähes suoraan tuubista. Läheltä katsottuna kankaan pinta on kuhmurainen kuin kohokartta."
+    },
+    {
+     "type": "tour",
+     "title": "Lähempää",
+     "text": "Mennään aivan kiinni maaliin.",
+     "spots": [
+      {
+       "title": "Maali",
+       "text": "Katso, miten paksua se on: maali on lyhyinä, raskaina vetoina, melkein kohokuviona. Tätä kutsutaan nimellä impasto."
+      },
+      {
+       "title": "Sypressi",
+       "text": "Tumma ja kiemurteleva kuin liekki, se yhdistää maan taivaaseen. Etelä-Ranskassa se on hautausmaiden puu. Van Goghista se oli yhtä kaunis kuin egyptiläinen obeliski."
+      },
+      {
+       "title": "Kukkulat",
+       "text": "Alpillesin kukkulat. Ne aaltoilevat kuin laineet, saman liikkeen kuljettamina kuin taivas."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sypressi on tärkeä. Se on kuvan tummin muoto ja ainoa, joka koskettaa sekä maata että taivaan yläreunaa. Van Gogh oli sinä kesänä lumoutunut näistä puista."
+    },
+    {
+     "type": "palette",
+     "text": "Sinistä, keltaista ja tuskin mitään muuta. Napauta väriä.",
+     "swatches": [
+      {
+       "name": "Syvä sininen",
+       "text": "Taivaan ja kukkuloiden syvyys. Van Gogh käytti ultramariinia ja koboltinsinistä."
+      },
+      {
+       "name": "Vaaleansininen",
+       "text": "Pyörteet. Paksuina vetoina levitettynä se saa taivaan pyörimään."
+      },
+      {
+       "name": "Keltainen",
+       "text": "Kuu, tähdet, ikkunat. Pieni osa pinnasta, mutta se valaisee kaiken."
+      },
+      {
+       "name": "Mustanvihreä",
+       "text": "Sypressi ja kylän varjot. Maalauksen tummin massa."
+      },
+      {
+       "name": "Vihertävä valkoinen",
+       "text": "Tähtien sädekehät: niiden ansiosta tähdet välkehtivät."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sininen ja keltainen ovat väriympyrässä lähes vastakkain. Vierekkäin asetettuina ne vahvistavat toisiaan. Van Gogh tiesi tämän ja käytti sitä saadakseen yönsä värisemään."
+    },
+    {
+     "type": "key",
+     "text": "Vastavärit vierekkäin voimistavat toisiaan. Siksi keltaiset tähdet hehkuvat sinistä vasten."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh kertoi veljelleen nähneensä aamutähden, hyvin suurena. Napauta maalauksen valkoisinta valoa.",
+     "spots": [
+      {
+       "title": "Aamutähti",
+       "text": "Maalauksen valkoisin valo. Van Gogh kirjoitti veljelleen nähneensä ennen auringonnousua aamutähden, joka näytti hyvin suurelta. Se on luultavasti Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Mitä hän itse ajatteli kuvasta? Ei paljon mitään. Kirjeissään hän kutsuu sitä pelkäksi yötutkielmaksi, ja näihin mielikuvituksesta maalattuihin kankaisiin hän suhtautuu epäillen."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh ei myynyt eläessään juuri mitään. Hänen veljensä Theo, joka oli taidekauppias, tuki häntä rahalla ja väreillä."
+    },
+    {
+     "type": "text",
+     "text": "Hän kuoli kolmetoista kuukautta myöhemmin, heinäkuussa 1890, 37-vuotiaana. Tähtikirkas yö päätyi New Yorkin Museum of Modern Artiin vuonna 1941."
+    },
+    {
+     "type": "key",
+     "text": "Van Goghilla siveltimenveto on itse aihe: jokaisella vedolla on suunta, ja juuri se panee taivaan liikkeelle."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Pyörre",
+       "text": "Keskellä kaksi suurta aaltoa kiertyy toistensa sisään. Mikään oikea taivas ei näytä tältä: hän maalaa sen, mitä tuntee, ei sitä, mitä näkee."
+      },
+      {
+       "title": "Kuu",
+       "text": "Oranssi sirppi keltaisen sädekehän keskellä. Se muistuttaa melkein aurinkoa. Van Gogh levittää maalin lyhyin vedoin, jotka kiertävät sitä."
+      },
+      {
+       "title": "Aamutähti",
+       "text": "Maalauksen valkoisin valo. Van Gogh kirjoitti veljelleen nähneensä ennen auringonnousua aamutähden, joka näytti hyvin suurelta. Se on luultavasti Venus."
+      },
+      {
+       "title": "Sypressi",
+       "text": "Tumma ja kiemurteleva kuin liekki, se yhdistää maan taivaaseen. Etelä-Ranskassa se on hautausmaiden puu. Van Goghista se oli yhtä kaunis kuin egyptiläinen obeliski."
+      },
+      {
+       "title": "Kirkontorni",
+       "text": "Kapea, suippo huippu, samanlainen kuin niissä hollantilaisissa kylissä, joissa Van Gogh kasvoi. Provencen kirkontornit eivät näytä tältä."
+      },
+      {
+       "title": "Kylä",
+       "text": "Muutama keltainen, valaistu ikkuna. Hän ei nähnyt tätä kylää huoneestaan: hän lisäsi sen muistista."
+      },
+      {
+       "title": "Kukkulat",
+       "text": "Alpillesin kukkulat. Ne aaltoilevat kuin laineet, saman liikkeen kuljettamina kuin taivas."
+      },
+      {
+       "title": "Maali",
+       "text": "Katso, miten paksua se on: maali on lyhyinä, raskaina vetoina, melkein kohokuviona. Tätä kutsutaan nimellä impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Missä Van Gogh oli, kun hän maalasi Tähtikirkkaan yön?",
+     "options": [
+      "Pariisissa",
+      "Saint-Rémy-de-Provencen mielisairaalassa",
+      "Amsterdamissa"
+     ],
+     "explanation": "Hän oli hakeutunut sinne itse kuukautta aiemmin."
+    },
+    {
+     "question": "Miten kuva maalattiin?",
+     "options": [
+      "Yöllä, näkymän edessä",
+      "Päivällä, muistin ja mielikuvituksen varassa",
+      "Valokuvan pohjalta"
+     ],
+     "explanation": "Päivällä, mielisairaalan ateljeessa."
+    },
+    {
+     "question": "Mikä yksityiskohta muistuttaa Alankomaista?",
+     "options": [
+      "Sypressi",
+      "Suippo kirkontorni",
+      "Kukkulat"
+     ],
+     "explanation": "Torninhuippu on kuin niiden kylien, joissa hän kasvoi."
+    },
+    {
+     "question": "Mitä on ”impasto”?",
+     "options": [
+      "Hyvin paksua maalia, melkein kohokuviota",
+      "Ohut, läpikuultava lasuuri",
+      "Hiililuonnos"
+     ],
+     "explanation": "Lyhyitä, raskaita vetoja, jotka kohoavat kankaan pinnasta."
+    },
+    {
+     "question": "Miksi keltaiset tähdet näyttävät niin kirkkailta?",
+     "options": [
+      "Ne on maalattu kullalla",
+      "Keltainen on vastavärinsä, sinisen, vieressä",
+      "Kangas on valaistu takaapäin"
+     ],
+     "explanation": "Vastavärit vierekkäin voimistavat toisiaan."
+    },
+    {
+     "question": "Minkä Van Gogh jätti pois tämän näkymän maalauksista?",
+     "options": [
+      "Ikkunansa kalterit",
+      "Kuun",
+      "Kukkulat"
+     ],
+     "explanation": "Mielisairaalan ikkunassa oli rautakalterit."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh maalasi Tähtikirkkaan yön ulkona, keskellä yötä.",
+     "explanation": "Hän maalasi sen päivällä, muistista, Saint-Rémyn mielisairaalassa."
+    },
+    {
+     "text": "Tähtikirkas yö on New Yorkissa.",
+     "explanation": "Se on ollut MoMAssa vuodesta 1941."
+    },
+    {
+     "text": "Van Gogh myi paljon maalauksia ja kuoli rikkaana.",
+     "explanation": "Hän ei myynyt juuri mitään; veli Theo tuki häntä."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Tyttö ja helmikorvakoru",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "n. 1665",
+   "museum": "Mauritshuis, Haag",
+   "teaser": "Vilkaisu olan yli, eikä kukaan tiedä, kuka hän on.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Tunnet nämä kasvot. Silti kyse ei ole muotokuvasta: kukaan ei tiedä, kuka tyttö on, eikä Vermeer luultavasti edes aikonut maalata ketään tiettyä ihmistä."
+    },
+    {
+     "type": "text",
+     "text": "1600-luvun Alankomaissa tällaisella kuvalla oli oma nimensä: ”tronie”, kasvotutkielma. Maalari tutkii sen avulla ilmettä, eksoottista asua tai valon vaikutusta. Tässä kaikkia kolmea yhtä aikaa."
+    },
+    {
+     "type": "key",
+     "text": "Tronie on kuviteltujen kasvojen tutkielma, tekosyy maalata ilme ja valo. Se ei ole todellisen ihmisen muotokuva."
+    },
+    {
+     "type": "tour",
+     "text": "Katso ensin koko maalausta: kasvot, jotka nousevat esiin pimeästä. Napauta, niin pääset lähemmäs.",
+     "spots": [
+      {
+       "title": "Katse",
+       "text": "Hän kääntyy sinua kohti kuin olisit juuri sanonut hänen nimensä. Yksi valkoinen piste kummassakin silmässä riittää tekemään katseesta kostean ja elävän."
+      },
+      {
+       "title": "Suu",
+       "text": "Hieman raollaan, kuin kesken lauseen. Katso pientä kirkasta pistettä suupielessä: yksi ainoa maalinkosketus, ja suu kiiltää."
+      },
+      {
+       "title": "Helmi",
+       "text": "Kaksi vetoa, ei enempää: valkoinen kiilto ylhäällä, kauluksen harmaa heijastus alhaalla. Ei ääriviivaa, ei koukkua. Silmäsi rakentaa helmen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Koko kuva perustuu yhteen liikkeeseen: hän kääntyy. Vartalo on profiilissa, kasvot kääntyvät meitä kohti. Tuntuu kuin olisimme yllättäneet hänet, tai kuin hän olisi juuri lähdössä. Siksi hän on niin elävä."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer eli koko elämänsä Delftissä, pienessä hollantilaisessa kaupungissa. Hän maalasi hitaasti, elätettävänä oli yksitoista lasta, ja hän kuoli velkaantuneena 43-vuotiaana."
+    },
+    {
+     "type": "text",
+     "text": "Huomaa turbaani. Yksikään hollantilaistyttö ei pukeutunut näin. Se on rooliasu, ripaus kaukaista itää, joka kiehtoi aikansa maalareita."
+    },
+    {
+     "type": "find",
+     "text": "Hänen kasvoilleen lankeaa valoa yhdestä lähteestä. Mihin se osuu? Napauta kasvojen kirkkainta kohtaa.",
+     "spots": [
+      {
+       "title": "Poski",
+       "text": "Valo tulee vasemmalta, hieman yläviistosta. Se osuu otsaan, poskeen ja nenään ja antaa kasvojen toisen puolen liukua varjoon."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer ei piirrä juuri lainkaan ääriviivoja. Katso nenänvartta: viivaa ei ole, on vain kirkas poski, joka kohtaa varjon. Kasvot on tehty valosta, ei viivoista."
+    },
+    {
+     "type": "key",
+     "text": "Valo vasemmalta, pehmeät varjot, ei kovia ääriviivoja: niistä Vermeerin tunnistaa."
+    },
+    {
+     "type": "lines",
+     "text": "Miten näin yksinkertainen kuva pysyy koossa? Kolme linjaa selittää sen.",
+     "lines": [
+      {
+       "label": "Valo",
+       "text": "Se tulee ylävasemmalta, kuin ikkunasta, jota emme näe."
+      },
+      {
+       "label": "Kolmio",
+       "text": "Turbaanin huipulta kumpaankin olkapäähän: vakaa, maahan tukeutuva muoto, joka tasapainottaa pään käännöksen."
+      },
+      {
+       "label": "Liepe",
+       "text": "Keltainen kangas laskeutuu oikealle ja tasapainottaa vasemmalle kääntyneet kasvot."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sitten sininen. Vermeer käytti luonnon ultramariinia, jota tehtiin jauhamalla lapislatsulia. Useimmat maalarit säästivät sen Neitsyt Marian viittaan, koska se oli niin kallista. Vermeer käytti sitä kaikkialla, jopa varjoissa."
+    },
+    {
+     "type": "fact",
+     "text": "Lapislatsuli tuli kaivoksista nykyisen Afganistanin alueelta. Nimi ”ultramariini” tarkoittaa ”meren takaa tulevaa”."
+    },
+    {
+     "type": "palette",
+     "text": "Viisi väriä muodostaa lähes koko maalauksen. Napauta yhtä ja katso, missä se piileskelee.",
+     "swatches": [
+      {
+       "name": "Tumma tausta",
+       "text": "Yli puolet pinnasta. Aikoinaan syvänvihreä verho, nyt lähes musta."
+      },
+      {
+       "name": "Ultramariini",
+       "text": "Lapislatsulin sininen. Se vie hyvin vähän tilaa, ja silti se on se, minkä näemme."
+      },
+      {
+       "name": "Ruskea okra",
+       "text": "Takin ja keltaisen kankaan varjot: lämmin ja halpa maaväri."
+      },
+      {
+       "name": "Ihon vaaleanpunainen",
+       "text": "Maalauksen kirkkain kohta. Silmämme hakeutuvat sinne ensimmäisenä."
+      },
+      {
+       "name": "Keltainen",
+       "text": "Takissa ja turbaanin liepeessä. Se vastaa siniselle."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vuonna 1994 maalaus restauroitiin. Kellastuneen lakan alta konservaattorit löysivät raikkaammat värit ja sen pienen kirkkaan pisteen suupielessä, jota kukaan ei ollut enää nähnyt."
+    },
+    {
+     "type": "text",
+     "text": "Entä tausta? Nykyään se näyttää tasaiselta ja mustalta. Tieteelliset analyysit ovat osoittaneet, että Vermeer maalasi siihen tummanvihreän verhon. Vihreät pigmentit ovat hajonneet ajan myötä."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer signeerasi tämän maalauksen. Mutta mihin? Katso tarkkaan, se on lähes näkymätön.",
+     "spots": [
+      {
+       "title": "Signeeraus",
+       "text": "”IVMeer” vasemmassa yläkulmassa. Nimi on maalattu vaalealla sävyllä tummalle taustalle, ja ajan mittaan se on melkein haalistunut näkyvistä."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Onko helmi edes helmi? Se on valtava. Jotkut asiantuntijat arvelevat, että se oli lakattua lasia tai kiillotettua tinaa. Sillä ei juuri ole väliä: maalattuna se on valopisara, eikä Vermeer halunnut muuta."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer ei maalaa esineitä. Hän maalaa valon, joka lankeaa niihin. Helmi on kaksi valkoista kosketusta."
+    },
+    {
+     "type": "text",
+     "text": "Vermeeriltä tunnetaan vain noin 37 maalausta. Kuolemansa jälkeen hän oli kaksi vuosisataa lähes unohdettu."
+    },
+    {
+     "type": "fact",
+     "text": "Vuonna 1881 eräs keräilijä osti tämän maalauksen huutokaupasta kahdella guldenilla, lähes ilmaiseksi. Hän testamenttasi sen Mauritshuis-museolle vuonna 1902."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Katse",
+       "text": "Hän kääntyy sinua kohti kuin olisit juuri sanonut hänen nimensä. Yksi valkoinen piste kummassakin silmässä riittää tekemään katseesta kostean ja elävän."
+      },
+      {
+       "title": "Suu",
+       "text": "Hieman raollaan, kuin kesken lauseen. Katso pientä kirkasta pistettä suupielessä: yksi ainoa maalinkosketus, ja suu kiiltää."
+      },
+      {
+       "title": "Helmi",
+       "text": "Kaksi vetoa, ei enempää: valkoinen kiilto ylhäällä, kauluksen harmaa heijastus alhaalla. Ei ääriviivaa, ei koukkua. Silmäsi rakentaa helmen."
+      },
+      {
+       "title": "Sininen turbaani",
+       "text": "Aitoa ultramariinia, joka tehtiin lapislatsulista, kivestä, jota tuotiin aina Afganistanista asti. Tuohon aikaan tämä pigmentti maksoi enemmän kuin kulta."
+      },
+      {
+       "title": "Keltainen liepe",
+       "text": "Keltainen kangas valuu alas hänen selkäänsä kuin liekki. Sininen ja keltainen: Vermeer rakasti tätä paria ja käytti sitä maalauksesta toiseen."
+      },
+      {
+       "title": "Valkoinen kaulus",
+       "text": "Valkoinen kaistale, maalattu yhdellä eleellä. Juuri tämä kaulus heijastuu helmen alaosaan."
+      },
+      {
+       "title": "Signeeraus",
+       "text": "”IVMeer” vasemmassa yläkulmassa. Nimi on maalattu vaalealla sävyllä tummalle taustalle, ja ajan mittaan se on melkein haalistunut näkyvistä."
+      },
+      {
+       "title": "Tausta",
+       "text": "Se ei ollut aina musta. Analyysit osoittavat, että Vermeer maalasi tähän tummanvihreän verhon. Vihreä on kadonnut vuosisatojen aikana."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mikä on ”tronie”?",
+     "options": [
+      "Tilattu muotokuva",
+      "Kuviteltujen kasvojen tutkielma",
+      "Omakuva"
+     ],
+     "explanation": "Tekosyy maalata ilme ja valo, ei todellinen ihminen."
+    },
+    {
+     "question": "Mistä turbaanin sininen on peräisin?",
+     "options": [
+      "Kasvista, indigosta",
+      "Kivestä, lapislatsulista",
+      "Simpukankuoresta"
+     ],
+     "explanation": "Jauhetusta lapislatsulista saadaan luonnon ultramariinia, joka oli tuolloin kultaa kalliimpaa."
+    },
+    {
+     "question": "Miten helmi on maalattu?",
+     "options": [
+      "Tarkalla ääriviivalla ja koukulla",
+      "Kahdella vaalealla kosketuksella, ilman ääriviivaa",
+      "Hopealehdellä"
+     ],
+     "explanation": "Valkoinen kiilto ja harmaa heijastus: silmäsi hoitaa loput."
+    },
+    {
+     "question": "Mistä valo tulee?",
+     "options": [
+      "Vasemmalta",
+      "Oikealta",
+      "Alhaalta"
+     ],
+     "explanation": "Ylävasemmalta, kuin näkymättömästä ikkunasta."
+    },
+    {
+     "question": "Mitä tausta alun perin oli?",
+     "options": [
+      "Tummanvihreä verho",
+      "Ikkuna",
+      "Kultainen seinä"
+     ],
+     "explanation": "Vihreät pigmentit hajosivat vuosisatojen aikana."
+    },
+    {
+     "question": "Missä Vermeer vietti koko elämänsä?",
+     "options": [
+      "Amsterdamissa",
+      "Delftissä",
+      "Haagissa"
+     ],
+     "explanation": "Hän eli ja työskenteli pienessä Delftin kaupungissa."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mallina olleen tytön nimi tunnetaan.",
+     "explanation": "Hänen henkilöllisyytensä on tuntematon: maalaus on tronie."
+    },
+    {
+     "text": "Turbaanin sininen on peräisin kivestä, lapislatsulista.",
+     "explanation": "Jauhettuna siitä saadaan luonnon ultramariinia."
+    },
+    {
+     "text": "Helmi on maalattu huolellisella, tarkalla ääriviivalla.",
+     "explanation": "Se on vain kaksi vaaleaa maalinkosketusta, ilman minkäänlaista ääriviivaa."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Suuri aalto Kanagawan edustalla",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "n. 1831",
+   "museum": "Puupiirros · lukuisia vedoksia",
+   "teaser": "Jättiläisaalto, ja kaukana taustalla pikkuruinen Fuji-vuori.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Tämä ei ole maalaus. Se on vedos: kuva kaiverretaan puulaattoihin, laattoihin levitetään mustetta ja ne painetaan paperia vasten. Suurta aaltoa ei siis ole vain yksi. Niitä on tuhansia."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai julkaisi sen noin vuonna 1831. Hän oli silloin noin 70-vuotias ja oli piirtänyt lapsesta asti. Kuva aloittaa sarjan, josta tuli kuuluisa: Kolmekymmentäkuusi näkymää Fuji-vuorelle."
+    },
+    {
+     "type": "key",
+     "text": "Suuri aalto on puupiirros, jota painettiin tuhansia kappaleita. Monella museolla eri puolilla maailmaa on oma vedoksensa."
+    },
+    {
+     "type": "fact",
+     "text": "Tällainen vedos oli halpa. Hokusain aikaan se maksoi suunnilleen saman verran kuin kulhollinen nuudeleita."
+    },
+    {
+     "type": "find",
+     "text": "Sarjan nimi on Kolmekymmentäkuusi näkymää Fuji-vuorelle. Missä Fuji sitten on?",
+     "spots": [
+      {
+       "title": "Fuji-vuori",
+       "text": "Vedoksen varsinainen aihe on tässä, pikkuruisena. Japanin pyhä vuori, lumihuippuinen ja täysin liikkumaton keskellä myrskyä."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Siinä on koko oivallus: Japanin korkein vuori on aaltoa pienempi. Hokusai leikittelee etäisyydellä. Lähellä oleva murskaa kaukaisen, kuin laajakulmaobjektiivilla otetussa valokuvassa."
+    },
+    {
+     "type": "text",
+     "text": "Fuji oli pyhä vuori. Uskottiin, että se kätki kuolemattomuuden salaisuuden. Hokusai oli siitä suorastaan pakkomielteinen ja piirsi sen joka suunnasta, kaikenlaisessa säässä."
+    },
+    {
+     "type": "tour",
+     "text": "Kuljetaan kuvan halki samaa reittiä kuin silmä.",
+     "spots": [
+      {
+       "title": "Vaahto",
+       "text": "Katso aallon harjaa: vaahto päättyy koukkuisiin sormiin, kuin kynsiin, jotka ovat juuri sulkeutumassa veneiden ympärille."
+      },
+      {
+       "title": "Soutajat",
+       "text": "Kalastajat kumartuvat airojensa ylle pää painuksissa. Nämä nopeat veneet kuljettivat tuoretta kalaa Edoon, kaupunkiin, jota nykyään kutsutaan Tokioksi."
+      },
+      {
+       "title": "Pieni aalto",
+       "text": "Etualalla on pienempi aalto. Katso sen muotoa: suippo ja huipulta valkoinen. Se on toinen Fuji-vuori."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Japanissa luetaan oikealta vasemmalle. Silmä tulee siis kuvaan oikealta, veneiden kohdalta, ja törmää suoraan aaltoon. Japanilaiselle katsojalle aalto vyöryy päin kasvoja."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai vaihtoi nimeään elämänsä aikana yli kolmekymmentä kertaa. Yksi hänen viimeisistä nimistään tarkoitti ”piirtämiseen hullaantunutta vanhaa miestä”."
+    },
+    {
+     "type": "lines",
+     "text": "Yksinkertainen kuva, joka on laskettu millilleen.",
+     "lines": [
+      {
+       "label": "Kaari",
+       "text": "Aalto piirtää suuren kaaren, joka sulkeutuu itseensä. Kuvan koko vasen puoli jää sen sisään."
+      },
+      {
+       "label": "Fujin kolmio",
+       "text": "Pieni, vakaa ja suippo. Se asettuu täsmälleen aallon notkoon."
+      },
+      {
+       "label": "Kaksoisolento",
+       "text": "Etualan pieni aalto toistaa vuoren muodon. Vesi jäljittelee kiveä."
+      },
+      {
+       "label": "Lukusuunta",
+       "text": "Oikealta vasemmalle: liu'umme mainingin mukana Fujille ja nostamme sitten katseen aaltoon."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Miten kuva tehtiin? Hokusai piirsi sen ohuelle paperille. Kaivertaja liimasi piirroksen kirsikkapuiseen laattaan ja kaiversi pois kaiken, mikä ei ollut viivaa. Sitten painaja levitti laattaan mustetta ja painoi paperin sitä vasten."
+    },
+    {
+     "type": "text",
+     "text": "Jokainen väri tarvitsi oman kaiverretun laattansa, ja ne painettiin peräkkäin samalle arkille. Siksi vedoksissa on niin vähän värejä."
+    },
+    {
+     "type": "key",
+     "text": "Yksi puulaatta väriä kohden: mitä vähemmän värejä, sitä yksinkertaisempi vedos. Hokusai tekee tästä rajoituksesta tyylin."
+    },
+    {
+     "type": "palette",
+     "text": "Hyvin vähän värejä, koska jokainen tarvitsee oman kaiverretun laattansa. Napauta yhtä.",
+     "swatches": [
+      {
+       "name": "Paperi",
+       "text": "Yleisintä väriä ei ole painettu lainkaan: se on paljas paperi, joka on jätetty tyhjäksi vaahtoa ja lunta varten."
+      },
+      {
+       "name": "Preussinsininen",
+       "text": "Euroopasta tullut sininen. Se piirtää aallon, sen raidat ja sen kourut."
+      },
+      {
+       "name": "Vaaleansininen",
+       "text": "Sama sininen laimennettuna. Se antaa vedelle muotoa ja massaa."
+      },
+      {
+       "name": "Sävytetty taivas",
+       "text": "Beige, tuskin paperia tummempi. Sitä vasten valkoinen vaahto erottuu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Siitä sinisestä vielä. Se on preussinsinistä, Euroopassa keksittyä kemiallista pigmenttiä, jota oli vasta alettu tuoda Japaniin. Se on syvää, se ei haalistu, ja se oli sensaatio. Sarja sai kiittää menestyksestään paljolti juuri sitä."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai signeerasi kuvansa. Mihin? Vihje: ei oikeaan alakulmaan.",
+     "spots": [
+      {
+       "title": "Kartussi",
+       "text": "Kehyksen sisällä on sarjan ja kuvan nimi, ”Aallon alla Kanagawan edustalla”. Sen vasemmalla puolella on Hokusain signeeraus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1850-luvulla Japani avautui ulkomaankaupalle, ja sen vedokset saapuivat Eurooppaan. Ranskalaiset maalarit hämmästyivät: tasaisia väripintoja, teräviä ääriviivoja, rohkeita rajauksia. Monet keräsi niitä. Van Gogh kopioi niitä."
+    },
+    {
+     "type": "key",
+     "text": "Tätä villitystä kutsutaan japonismiksi. Ilman japanilaisia vedoksia impressionismi ei olisi näyttänyt samalta."
+    },
+    {
+     "type": "text",
+     "text": "Vielä yksi asia: tämä ei ole tsunami. Se on avomeren aalto, valtava mutta tavallinen, juuri sellainen, jota kalastajat pelkäsivät. Hokusai ei kuvaa katastrofia. Hän kuvaa pieniä ihmisiä luonnon edessä."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Fuji-vuori",
+       "text": "Vedoksen varsinainen aihe on tässä, pikkuruisena. Japanin pyhä vuori, lumihuippuinen ja täysin liikkumaton keskellä myrskyä."
+      },
+      {
+       "title": "Vaahto",
+       "text": "Katso aallon harjaa: vaahto päättyy koukkuisiin sormiin, kuin kynsiin, jotka ovat juuri sulkeutumassa veneiden ympärille."
+      },
+      {
+       "title": "Soutajat",
+       "text": "Kalastajat kumartuvat airojensa ylle pää painuksissa. Nämä nopeat veneet kuljettivat tuoretta kalaa Edoon, kaupunkiin, jota nykyään kutsutaan Tokioksi."
+      },
+      {
+       "title": "Pieni aalto",
+       "text": "Etualalla on pienempi aalto. Katso sen muotoa: suippo ja huipulta valkoinen. Se on toinen Fuji-vuori."
+      },
+      {
+       "title": "Kartussi",
+       "text": "Kehyksen sisällä on sarjan ja kuvan nimi, ”Aallon alla Kanagawan edustalla”. Sen vasemmalla puolella on Hokusain signeeraus."
+      },
+      {
+       "title": "Alempi vene",
+       "text": "Se sukeltaa aallonpohjaan. Veneitä on kaikkiaan kolme ja miehiä noin kolmekymmentä."
+      },
+      {
+       "title": "Taivas",
+       "text": "Lähes tyhjä. Yksinkertainen liukuvärjäys, joka tehtiin pyyhkimällä mustetta puulaatalta ennen painamista."
+      },
+      {
+       "title": "Pärskeet",
+       "text": "Valkoisia pisaroita putoilee Fujin ylle. Ne näyttävät lumelta vuoren rinteillä."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mikä Suuri aalto on?",
+     "options": [
+      "Öljymaalaus",
+      "Puupiirros",
+      "Akvarelli"
+     ],
+     "explanation": "Vedos, jota painettiin tuhansia kappaleita."
+    },
+    {
+     "question": "Mihin sarjaan se kuuluu?",
+     "options": [
+      "Sata kuuluisaa näkymää Edosta",
+      "Kolmekymmentäkuusi näkymää Fuji-vuorelle",
+      "Neljä vuodenaikaa"
+     ],
+     "explanation": "Se aloittaa Hokusain Fuji-sarjan."
+    },
+    {
+     "question": "Mistä aallon sininen on peräisin?",
+     "options": [
+      "Lapislatsulista",
+      "Preussinsinisestä, joka tuotiin Euroopasta",
+      "Murskatuista simpukankuorista"
+     ],
+     "explanation": "Kemiallinen pigmentti, joka oli Japanissa uusi, syvä ja kestävä."
+    },
+    {
+     "question": "Minkä muodon etualan pieni aalto toistaa?",
+     "options": [
+      "Fuji-vuoren",
+      "Veneen",
+      "Pilven"
+     ],
+     "explanation": "Vesi jäljittelee vuorta."
+    },
+    {
+     "question": "Miksi vedoksissa on niin vähän värejä?",
+     "options": [
+      "Värit olivat kiellettyjä",
+      "Jokainen väri tarvitsee oman kaiverretun laattansa",
+      "Paperi ei pidättänyt mustetta"
+     ],
+     "explanation": "Yksi laatta väriä kohden, ja ne painettiin peräkkäin."
+    },
+    {
+     "question": "Mikä on japanilaisten vedosten eurooppalaisen villityksen nimi?",
+     "options": [
+      "Japonismi",
+      "Orientalismi",
+      "Kubismi"
+     ],
+     "explanation": "Monet keräsi vedoksia, Van Gogh kopioi niitä."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Suuresta aallosta on olemassa vain yksi kappale.",
+     "explanation": "Se on vedos: kappaleita painettiin tuhansia."
+    },
+    {
+     "text": "Hokusai oli noin 70-vuotias tehdessään sen.",
+     "explanation": "Hän syntyi vuonna 1760, ja sarja ilmestyi noin vuonna 1831."
+    },
+    {
+     "text": "Suuri aalto esittää tsunamia.",
+     "explanation": "Se on suuri avomeren aalto, ei tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Lumpeet",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Chicagon taideinstituutti",
+   "teaser": "Horisonttia ei enää ole: vain vesi, kukat ja vedestä heijastuva taivas.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Monet kaivatti Givernyn puutarhaansa lammen ja istutti siihen lumpeita. Lammesta tuli hänen aiheensa lähes kolmeksikymmeneksi vuodeksi."
+    },
+    {
+     "type": "image",
+     "caption": "Yksityiskohta · vedellä lepäävät kukat."
+    },
+    {
+     "type": "text",
+     "text": "Katso tarkkaan: rantaa ei ole, eikä horisonttia. Enää ei erota, missä vesi loppuu ja taivaan heijastus alkaa."
+    },
+    {
+     "type": "key",
+     "text": "Ilman horisonttia maalauksesta tulee pinta: katsomme vettä samalla tavalla kuin katsoisimme taivasta."
+    },
+    {
+     "type": "fact",
+     "text": "Monet palkkasi puutarhureita hoitamaan lampea. Yksi heistä puhdisti veden pinnan joka aamu, ennen kuin Monet aloitti maalaamisen."
+    },
+    {
+     "type": "text",
+     "text": "Monet maalasi noin 250 lummekangasta. Kukat ovat samat, mutta valo ei koskaan."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Missä Monet maalasi lumpeensa?",
+     "options": [
+      "Givernyssä",
+      "Pariisissa",
+      "Venetsiassa"
+     ],
+     "explanation": "Oman talonsa puutarhassa."
+    },
+    {
+     "question": "Mitä tästä maalauksesta puuttuu?",
+     "options": [
+      "Vesi",
+      "Horisontti",
+      "Kukat"
+     ],
+     "explanation": "Ei rantaa, ei taivasta: vain veden pinta."
+    },
+    {
+     "question": "Kuinka monta lumpemaalausta hän teki?",
+     "options": [
+      "Noin kymmenen",
+      "Noin 250",
+      "Yli 2 000"
+     ],
+     "explanation": "Valtava sarja, joka syntyi lähes kolmenkymmenen vuoden aikana."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet maalasi lumpeensa vain kerran.",
+     "explanation": "Hän maalasi niistä noin 250 versiota."
+    },
+    {
+     "text": "Lumpelampi oli Monet'n omassa puutarhassa.",
+     "explanation": "Givernyssä, jonne hän kaivatti sen."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Vaikutelma, auringonnousu",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Pariisi",
+   "teaser": "Maalaus, joka antoi koko taidesuuntaukselle nimen, alun perin pilkkana.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Le Havren satama usvaisena aamuna. Monet sivelee kankaalle muutaman nopean vedon: veneitä, mastoja ja oranssin auringon."
+    },
+    {
+     "type": "image",
+     "caption": "Yksityiskohta · aurinko ja sen heijastus."
+    },
+    {
+     "type": "text",
+     "text": "Vuonna 1874 kangas oli esillä Pariisissa. Kriitikko Louis Leroy pilkkasi teoksen nimeä, ranskaksi Impression, soleil levant, ja kutsui näitä maalareita ”impressionisteiksi”."
+    },
+    {
+     "type": "key",
+     "text": "Sana ”impressionismi” on peräisin tästä maalauksesta. Se syntyi haukkumasanaksi ja muuttui nimeksi."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre on kaupunki, jossa Monet kasvoi. Teini-ikäisenä hänet tunnettiin siellä pilapiirroksistaan."
+    },
+    {
+     "type": "text",
+     "text": "Maalaus on myös varastettu: se vietiin Marmottan-museosta vuonna 1985. Se löytyi viisi vuotta myöhemmin."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Minkä sataman Monet maalasi?",
+     "options": [
+      "Marseillen",
+      "Le Havren",
+      "Venetsian"
+     ],
+     "explanation": "Sen kaupungin, jossa hän kasvoi."
+    },
+    {
+     "question": "Mille tämä maalaus antoi nimensä?",
+     "options": [
+      "Impressionismille",
+      "Museolle",
+      "Palkinnolle"
+     ],
+     "explanation": "Kriitikko pilkkasi nimeä, ja sana jäi elämään."
+    },
+    {
+     "question": "Minä vuonna se oli esillä Pariisissa?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Kriitikko Louis Leroy pilkkasi sitä samana vuonna."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Sana ”impressionisti” oli alun perin haukkumasana.",
+     "explanation": "Se on peräisin kriitikko Louis Leroyn artikkelista."
+    },
+    {
+     "text": "Tämä maalaus esittää Marseillen satamaa.",
+     "explanation": "Se on Le Havren satama."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Suudelma",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Wien",
+   "teaser": "Kaksi rakastavaista kultaan kietoutuneina kukkivan niityn reunalla.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt on ”kultaisen kautensa” huipulla. Hän kiinnittää kankaaseen aitoa lehtikultaa, kuin uskonnolliseen ikoniin."
+    },
+    {
+     "type": "image",
+     "caption": "Yksityiskohta · kahdet kasvot."
+    },
+    {
+     "type": "text",
+     "text": "Katso vaatteita. Miehen kaapua peittävät mustat ja valkoiset suorakulmiot. Naisen asua peittävät ympyrät ja kukat."
+    },
+    {
+     "type": "image",
+     "caption": "Yksityiskohta · suorakulmioita ja ympyröitä."
+    },
+    {
+     "type": "key",
+     "text": "Suorakulmiot miehelle, ympyrät naiselle: kuviot kertovat parin tarinan."
+    },
+    {
+     "type": "fact",
+     "text": "Klimtin isä oli kultakaivertaja. Maalari kasvoi saman metallin keskellä, jota hän myöhemmin levitti kankailleen."
+    },
+    {
+     "type": "text",
+     "text": "Itävallan valtio osti maalauksen vuonna 1908, jo ennen kuin se oli kokonaan valmis."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mitä materiaalia Klimt käytti?",
+     "options": [
+      "Helmiäistä",
+      "Lehtikultaa",
+      "Pronssia"
+     ],
+     "explanation": "Se on hänen kultaisen kautensa tunnusmerkki."
+    },
+    {
+     "question": "Mitkä kuviot peittävät miehen kaapua?",
+     "options": [
+      "Ympyrät",
+      "Kukat",
+      "Suorakulmiot"
+     ],
+     "explanation": "Ympyrät ja kukat kuuluvat naiselle."
+    },
+    {
+     "question": "Kuka osti maalauksen vuonna 1908?",
+     "options": [
+      "Itävallan valtio",
+      "Ranskalainen keräilijä",
+      "Klimtin isä"
+     ],
+     "explanation": "Jo ennen kuin se oli kokonaan valmis."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt käytti aitoa lehtikultaa.",
+     "explanation": "Kuten useissa muissakin kultaisen kautensa maalauksissa."
+    },
+    {
+     "text": "Suudelma on Pariisissa.",
+     "explanation": "Se on Wienissä, Belvederessä."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Auringonkukat",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Lontoo",
+   "teaser": "Keltaista keltaisella: kukkakimppu, joka maalattiin ystävän tervetuliaisiksi.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Elokuu 1888, Arles. Van Gogh odottaa ystäväänsä Paul Gauguinia ja haluaa koristaa tämän huoneen auringonkukilla."
+    },
+    {
+     "type": "image",
+     "caption": "Yksityiskohta · kukkia kaikissa vaiheissa."
+    },
+    {
+     "type": "text",
+     "text": "Hän uskaltaa käyttää lähes yhtä ainoaa väriä: keltaiset kukat, keltainen maljakko, keltainen tausta. Kaikki on sävyjen ja maalin paksuuden varassa."
+    },
+    {
+     "type": "key",
+     "text": "Lähes yksivärinen maalaus: keltaista kaikissa muodoissaan."
+    },
+    {
+     "type": "fact",
+     "text": "Auringonkukat kuihtuvat nopeasti. Van Goghin piti maalata ripeästi, auringonnoususta alkaen, ennen kuin kukat nuupahtivat."
+    },
+    {
+     "type": "text",
+     "text": "Näistä auringonkukista on useita versioita. Osa kukista on vielä nupulla, osa jo kuihtunut: kimppu kertoo myös ajan kulumisesta."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kenen huonetta auringonkukkien oli määrä koristaa?",
+     "options": [
+      "Paul Gauguinin",
+      "Claude Monet'n",
+      "Hänen veljensä Theon"
+     ],
+     "explanation": "Van Gogh odotti häntä Arlesiin."
+    },
+    {
+     "question": "Missä kaupungissa hän maalasi ne?",
+     "options": [
+      "Pariisissa",
+      "Arlesissa",
+      "Amsterdamissa"
+     ],
+     "explanation": "Etelä-Ranskassa, elokuussa 1888."
+    },
+    {
+     "question": "Mikä väreissä on epätavallista?",
+     "options": [
+      "Lähes kaikki on keltaista",
+      "Keltaista ei ole lainkaan",
+      "Kuva on mustavalkoinen"
+     ],
+     "explanation": "Keltaiset kukat, keltainen maljakko, keltainen tausta."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Auringonkukista on useita versioita.",
+     "explanation": "Van Gogh maalasi niistä kokonaisen sarjan."
+    },
+    {
+     "text": "Van Gogh myi Auringonkukkansa eläessään omaisuudella.",
+     "explanation": "Hän ei myynyt eläessään juuri mitään."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "n. 1503–1519",
+   "museum": "Louvre, Pariisi",
+   "teaser": "Maailman kuuluisin hymy perustuu ääriviivoihin, joita ei näe.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Se on maailman kuuluisin maalaus, ja se on pieni: 77 × 53 senttimetriä, maalattu poppelipuiselle paneelille. Moni Louvren kävijä yllättyy sen koosta."
+    },
+    {
+     "type": "text",
+     "text": "Noin vuonna 1503 firenzeläinen silkkikauppias Francesco del Giocondo pyysi Leonardo da Vinciä maalaamaan muotokuvan vaimostaan Lisa Gherardinista."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa on muotokuva Lisa Gherardinista, firenzeläisen kauppiaan vaimosta. ”Mona” tarkoittaa yksinkertaisesti ”rouvaa”."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo ei ollut pelkkä maalari. Hän oli myös insinööri, anatomi ja keksijä, ja hän jätti jälkeensä tuhansia muistikirjan sivuja peilikirjoituksella täytettyinä."
+    },
+    {
+     "type": "tour",
+     "text": "Katso häntä ensin kokonaisuutena. Tule sitten lähemmäs sitä, mikä teki hänestä legendan.",
+     "spots": [
+      {
+       "title": "Hymy",
+       "text": "Etsi viivaa, joka piirtää huulet: sitä ei ole. Suupielet liukenevat varjoon. Siksi hymy tuntuu muuttuvan."
+      },
+      {
+       "title": "Silmät",
+       "text": "Sama temppu: silmäkulmat sulavat varjoon. Huomaa myös, ettei hänellä ole kulmakarvoja eikä ripsiä."
+      },
+      {
+       "title": "Kädet",
+       "text": "Ne lepäävät rentoina toistensa päällä. Leonardo leikkeli ruumiita ymmärtääkseen luita ja lihaksia: näillä käsillä on painoa."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tällä utuisuudella on nimi: sfumato, italian sanasta ”fumo”, savu. Leonardo levittää päällekkäin kymmeniä hyvin ohuita, lähes läpinäkyviä maalikerroksia. Ääriviivat katoavat ja muodot sulautuvat toisiinsa."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato tarkoittaa pehmeitä, savumaisia ääriviivoja. Sen ansiosta hymyä on mahdoton saada kiinni."
+    },
+    {
+     "type": "text",
+     "text": "Kokeile itse. Katso hänen silmiään, niin suu näyttää hymyilevän. Katso suoraan suuhun, niin hymy hiipuu. Työn tekevät suupielten varjot."
+    },
+    {
+     "type": "find",
+     "text": "Näistä kasvoista puuttuu jotain. Napauta kohtaa, jossa sen pitäisi olla.",
+     "spots": [
+      {
+       "title": "Kulmakarvat",
+       "text": "Hänellä ei ole kulmakarvoja eikä ripsiä. Aikakauden muotia, vai vanhoissa puhdistuksissa kulunutta maalia? Asiantuntijat kiistelevät siitä yhä."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Katso nyt asentoa. Ennen Leonardoa muotokuvat esitettiin useimmiten profiilissa tai rajattiin rinnan kohdalta. Hän näyttää hahmon vyötäröön asti, kolme neljäsosaa meihin päin kääntyneenä, kädet mukaan lukien."
+    },
+    {
+     "type": "fact",
+     "text": "Nuori maalari Rafael näki muotokuvan Leonardon ateljeessa ja lainasi asennon heti omiin teoksiinsa."
+    },
+    {
+     "type": "lines",
+     "text": "Rauhallinen asento, outo maisema. Katso, miten kaikki on rakennettu.",
+     "lines": [
+      {
+       "label": "Pyramidi",
+       "text": "Pää huipulla, käsivarret ja kädet pohjalla. Leveä, vakaa muoto: hän ei liiku, hän on asettunut."
+      },
+      {
+       "label": "Vasen horisontti",
+       "text": "Vasemmalla maiseman vesiraja on suunnilleen tässä."
+      },
+      {
+       "label": "Oikea horisontti",
+       "text": "Oikealla se on korkeammalla. Maiseman puoliskot eivät sovi yhteen, ja osa kuvan oudosta tunnelmasta syntyy juuri siitä."
+      },
+      {
+       "label": "Polku",
+       "text": "Mutkitteleva viiva, joka vie katseen kauas, kuten oikean puolen joet."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Maisema ei ole todellinen paikka. Se on kallioiden, veden ja usvan unimaailma, jossa ei ole taloja eikä ihmisiä. Vain yksi asia siinä on ihmiskäsin rakennettu."
+    },
+    {
+     "type": "find",
+     "text": "Tässä autiossa maisemassa on yksi ainoa ihmisen rakentama asia. Missä silta on?",
+     "spots": [
+      {
+       "title": "Silta",
+       "text": "Pieni kivisilta, jossa on useita kaaria. Se on koko maiseman ainoa merkki ihmisestä."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tausta noudattaa sääntöä, jonka Leonardo itse kirjasi muistiin: ilmaperspektiiviä. Ilma ei ole täysin kirkasta. Mitä kauempana jokin on, sitä sinisemmältä, vaaleammalta ja utuisemmalta se näyttää."
+    },
+    {
+     "type": "key",
+     "text": "Ilmaperspektiivi: kaukaiset asiat näyttävät sinisemmiltä, vaaleammilta ja sumeammilta. Leonardo oli ensimmäisiä, jotka maalasivat sen tarkoituksella."
+    },
+    {
+     "type": "palette",
+     "text": "Ruskeaa, vihreää, hiukan kultaa. Vanha lakka on kellastanut kaiken. Napauta väriä.",
+     "swatches": [
+      {
+       "name": "Varjot",
+       "text": "Puku, hiukset, huntu. Lähes puolet maalauksesta on puolivarjossa."
+      },
+      {
+       "name": "Iho",
+       "text": "Kasvot, rinta ja kädet: kolme vaaleaa kohtaa, jotka muodostavat kolmion."
+      },
+      {
+       "name": "Harmaanvihreä taivas",
+       "text": "Alun perin sinisempi. Kellastunut lakka on vetänyt sen kohti vihreää."
+      },
+      {
+       "name": "Ruskea maa",
+       "text": "Maiseman kalliot ja polut hänen olkapäidensä molemmin puolin."
+      },
+      {
+       "name": "Vihreä kaukaisuus",
+       "text": "Vesi ja vuoret, etäisyyden pehmentäminä."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo ei koskaan luovuttanut maalausta tilaajalle. Hän piti sen, muokkasi sitä vuosikausia ja vei sen mukanaan Ranskaan, kun kuningas Frans I kutsui hänet sinne. Kun Leonardo kuoli vuonna 1519, muotokuva siirtyi kuninkaalliseen kokoelmaan. Siksi se on Louvressa."
+    },
+    {
+     "type": "text",
+     "text": "Pitkään se oli vain yksi mestariteos muiden joukossa. Maailmanmaineensa se sai rikoksen ansiosta: 21. elokuuta 1911 italialainen työmies Vincenzo Peruggia nosti sen seinältä ja käveli ulos maalaus työtakkinsa alla."
+    },
+    {
+     "type": "fact",
+     "text": "Kun maalaus oli kateissa, väkijoukot jonottivat Louvreen vain nähdäkseen tyhjän kohdan seinällä."
+    },
+    {
+     "type": "text",
+     "text": "Sanomalehdet ympäri maailmaa julkaisivat hänen kuvansa. Kun maalaus löytyi Firenzestä vuonna 1913, Mona Lisa ei ollut enää pelkkä maalaus. Hän oli tähti."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa saa kiittää nerokkuudestaan Leonardoa ja maineestaan varkautta."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Hymy",
+       "text": "Etsi viivaa, joka piirtää huulet: sitä ei ole. Suupielet liukenevat varjoon. Siksi hymy tuntuu muuttuvan."
+      },
+      {
+       "title": "Silmät",
+       "text": "Sama temppu: silmäkulmat sulavat varjoon. Huomaa myös, ettei hänellä ole kulmakarvoja eikä ripsiä."
+      },
+      {
+       "title": "Kädet",
+       "text": "Ne lepäävät rentoina toistensa päällä. Leonardo leikkeli ruumiita ymmärtääkseen luita ja lihaksia: näillä käsillä on painoa."
+      },
+      {
+       "title": "Silta",
+       "text": "Pieni kivisilta, jossa on useita kaaria. Se on koko maiseman ainoa merkki ihmisestä."
+      },
+      {
+       "title": "Polku",
+       "text": "Polku kiemurtelee kohti järveä. Maisema ei ole todellinen paikka: Leonardo keksii sen kallioita ja vettä käsittelevien tutkimustensa pohjalta."
+      },
+      {
+       "title": "Huntu",
+       "text": "Läpikuultava huntu peittää hänen hiuksensa. Se on niin ohut, että otsalla sen tuskin erottaa."
+      },
+      {
+       "title": "Kaukaisuus",
+       "text": "Mitä kauempana vuoret ovat, sitä sinisemmiltä ja utuisemmilta ne näyttävät. Leonardo huomasi, että ilmalla itsellään on väri."
+      },
+      {
+       "title": "Hiha",
+       "text": "Tiheät kullanhohtoiset laskokset, maalattu yksi kerrallaan. Puku on tumma, eikä hänellä ole koruja: mikään ei saa viedä huomiota kasvoilta."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kuka muotokuvan nainen on?",
+     "options": [
+      "Ranskan kuningatar",
+      "Lisa Gherardini, firenzeläisen kauppiaan vaimo",
+      "Leonardon äiti"
+     ],
+     "explanation": "Hänen miehensä Francesco del Giocondo tilasi muotokuvan."
+    },
+    {
+     "question": "Mikä on pehmeiden, savumaisten ääriviivojen tekniikan nimi?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointillismi"
+     ],
+     "explanation": "Italian sanasta ”fumo”, savu."
+    },
+    {
+     "question": "Mille Mona Lisa on maalattu?",
+     "options": [
+      "Pellavakankaalle",
+      "Poppelipuiselle paneelille",
+      "Kipsiseinälle"
+     ],
+     "explanation": "Poppelipaneelille, jonka koko on 77 × 53 senttimetriä."
+    },
+    {
+     "question": "Mitä kaukaisille asioille tapahtuu?",
+     "options": [
+      "Ne muuttuvat voimakkaammiksi",
+      "Ne muuttuvat sinisemmiksi, vaaleammiksi ja utuisemmiksi",
+      "Niiden ääriviivat terävöityvät"
+     ],
+     "explanation": "Sitä kutsutaan ilmaperspektiiviksi."
+    },
+    {
+     "question": "Miksi maalaus on Ranskassa?",
+     "options": [
+      "Napoleon toi sen Italiasta",
+      "Leonardo toi sen, ja se siirtyi kuninkaalliseen kokoelmaan",
+      "Louvre osti sen vuonna 1911"
+     ],
+     "explanation": "Leonardo tuli Ranskaan kuningas Frans I:n kutsusta."
+    },
+    {
+     "question": "Mikä teki Mona Lisasta maailmankuulun?",
+     "options": [
+      "Sen varastaminen Louvresta vuonna 1911",
+      "Näyttely New Yorkissa",
+      "Sen restaurointi"
+     ],
+     "explanation": "Vincenzo Peruggia varasti sen, ja se löytyi vuonna 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Lisa on maalattu kankaalle.",
+     "explanation": "Se on maalattu poppelipuiselle paneelille."
+    },
+    {
+     "text": "Mona Lisa varastettiin Louvresta vuonna 1911.",
+     "explanation": "Se löytyi kaksi vuotta myöhemmin."
+    },
+    {
+     "text": "Mona Lisalla on paksut, tummat kulmakarvat.",
+     "explanation": "Hänellä ei ole lainkaan kulmakarvoja eikä ripsiä."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Itaalia renessanss",
+   "period": "15.–16. sajand",
+   "summary": "Perspektiiv ja tagasipöördumine antiikaja juurde",
+   "description": "Kõigepealt Itaalias, siis kogu Euroopas avastavad kunstnikud uuesti antiikaja, uurivad inimkeha ja leiutavad perspektiivi. Maalist saab aken maailma."
+  },
+  "siecledor": {
+   "name": "Hollandi kuldaeg",
+   "period": "17. sajand",
+   "summary": "Argielu ja valgus",
+   "description": "Jõukas Hollandi Vabariigis maalivad kunstnikud linnakodanike kodudele: vaikseid interjööre, portreesid, natüürmorte. Tõeliseks teemaks saab valgus."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "17.–19. sajand",
+   "summary": "„Hõljuva maailma“ pildid",
+   "description": "Jaapanis ilmuvad sarjadena puulõiked, mis kujutavad näitlejaid, maastikke ja argielu. Nende tasased värvipinnad ja julgelt kärbitud kaadrid raputavad hiljem Euroopa maalijaid."
+  },
+  "impressionnisme": {
+   "name": "Impressionism",
+   "period": "1870.–1880. aastad",
+   "summary": "Hetke valguse maalimine",
+   "description": "Rühm maalijaid lahkub ateljeest ja töötab vabas õhus, kiirete väikeste pintslitõmmetega. Neid ei huvita enam detailid, vaid see, kuidas valgus mõjub ühel kindlal hetkel."
+  },
+  "postimp": {
+   "name": "Postimpressionism",
+   "period": "1886–1905",
+   "summary": "Ennekõike värv ja tunne",
+   "description": "Pärast impressionismi otsib igaüks oma teed. Värv ei jäljenda enam tegelikkust, vaid väljendab seda, mida maalija tunneb."
+  },
+  "secession": {
+   "name": "Juugend ja Viini sessioon",
+   "period": "1900. aasta paiku",
+   "summary": "Kuld, ornament ja kaarjad jooned",
+   "description": "Viinis lõikavad noored kunstnikud end akadeemiast lahti. Nad sulatavad kokku maalikunsti, dekoratiivkunsti ja käsitöö ning teevad ornamendist omaette keele."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Tähine öö",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Modernkunstimuuseum, New York",
+   "teaser": "Keerlev taevas, mis on maalitud mälu järgi vaimuhaigla toas.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Juuni 1889. Vincent van Gogh on 36-aastane. Kuu aega varem, pärast rasket närvivapustust Arles'is, kirjutas ta end ise Saint-Rémy-de-Provence'i vaimuhaiglasse Lõuna-Prantsusmaal."
+    },
+    {
+     "type": "text",
+     "text": "Tema magamistoa aken avaneb itta. Sealt paistavad nisupõld, Alpilles' künkad ja enne koitu taevas. Ta maalib seda vaadet ikka ja jälle, igal kellaajal."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh hakkas maalima alles 27-aastaselt. Umbes kümne aastaga valmis tal ligi 900 maali, mõnikord üks päevas."
+    },
+    {
+     "type": "tour",
+     "text": "Siin on neist taevastest kõige kuulsam. Vaata see rahulikult üle, siis puuduta ja astu sisse.",
+     "spots": [
+      {
+       "title": "Keeris",
+       "text": "Keskel keerduvad kaks suurt lainet teineteise sisse. Päris taevas ei näe kunagi nii välja: ta maalib seda, mida tunneb, mitte seda, mida näeb."
+      },
+      {
+       "title": "Kuu",
+       "text": "Oranž sirp kollases valgusrõngas. See meenutab peaaegu päikest. Van Gogh paneb värvi lühikeste tõmmetena, mis tiirlevad selle ümber."
+      },
+      {
+       "title": "Hommikutäht",
+       "text": "Maali kõige valgem valgus. Van Gogh kirjutas vennale, et oli enne päikesetõusu näinud hommikutähte, väga suurt. Tõenäoliselt on see Veenus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Seda pilti ei maalitud öösel ega ka vaate ees. Van Gogh tegi selle päevavalgel, oma ateljees haiglas, mälu ja kujutlusvõime järgi. Tema puhul oli see haruldane: tavaliselt maalis ta seda, mis oli otse silme ees."
+    },
+    {
+     "type": "key",
+     "text": "„Tähine öö“ maaliti päeval, mälu järgi. See pole vaade. See on nägemus."
+    },
+    {
+     "type": "text",
+     "text": "Öötaevast oli ta unistanud juba ammu. Aasta varem kirjutas ta, et tähtede vaatamine paneb teda alati unistama."
+    },
+    {
+     "type": "find",
+     "text": "Üks detail selles maastikus pärineb otse tema lapsepõlvest Hollandis. Kus on kirikutorn?",
+     "spots": [
+      {
+       "title": "Kirikutorn",
+       "text": "Sihvakas terav tornitipp, nagu Hollandi külades, kus Van Gogh üles kasvas. Provence'i kirikutornid sellised ei ole."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ka küla on välja mõeldud või vähemalt ümber tõstetud: tema aknast seda ei paistnud. Van Gogh paneb kokku päris taeva, päris künkad ja mälust võetud küla."
+    },
+    {
+     "type": "fact",
+     "text": "Tema haiglaakna ees olid raudtrellid. Ühelgi selle vaate maalil neid ei ole."
+    },
+    {
+     "type": "lines",
+     "text": "Maal näib rahutu. Tegelikult on see hoolikalt üles ehitatud.",
+     "lines": [
+      {
+       "label": "Küpressi püstjoon",
+       "text": "See lõikab läbi kogu pildi, maast ülaservani, ja annab mõõtkava: taevas on tohutu."
+      },
+      {
+       "label": "Selle kaja: kirikutorn",
+       "text": "Teine, tilluke püstjoon, mis vastab küpressile. Üks on looduse, teine inimese tehtud."
+      },
+      {
+       "label": "Laine taevas",
+       "text": "Silm järgib seda S-kujulist joont vasakult paremale, kuni kuuni välja."
+      },
+      {
+       "label": "Küngaste nõlv",
+       "text": "Diagonaal, mis laskub küla poole ja hoiab seda kaitsvalt nagu käsivars."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vaata nüüd pintslitööd. Sujuvaid üleminekuid pole. Lühikesed paksud tõmbed on kõrvuti ja igaüks neist osutab kuhugi. Liikumise loob pintslitõmme ise."
+    },
+    {
+     "type": "text",
+     "text": "Sellist paksu värvikihti nimetavad maalijad impastoks. Mõnikord pigistas Van Gogh värvi peaaegu otse tuubist. Lähedalt vaadates on lõuendi pind konarlik nagu reljeefkaart."
+    },
+    {
+     "type": "tour",
+     "title": "Lähedalt",
+     "text": "Läheme värvile päris lähedale.",
+     "spots": [
+      {
+       "title": "Värv",
+       "text": "Vaata, kui paks see on: värv lasub lühikeste raskete tõmmetena, peaaegu reljeefselt. Seda nimetatakse impastoks."
+      },
+      {
+       "title": "Küpress",
+       "text": "Tume ja väändunud nagu leek, ühendab see maad ja taevast. Lõuna-Prantsusmaal on see surnuaedade puu. Van Goghi meelest oli küpress sama ilus kui Egiptuse obelisk."
+      },
+      {
+       "title": "Künkad",
+       "text": "Alpilles. Künkad lainetavad nagu meri ja neid kannab sama hoog mis taevastki."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Küpress on tähtis. See on pildi kõige tumedam kuju ja ainus, mis puudutab nii maad kui ka taeva ülaserva. Sel suvel olid need puud Van Goghi lausa lummanud."
+    },
+    {
+     "type": "palette",
+     "text": "Sinine, kollane ja peaaegu mitte midagi muud. Puuduta värvi.",
+     "swatches": [
+      {
+       "name": "Tumesinine",
+       "text": "Taeva ja küngaste sügavus. Van Gogh kasutas ultramariini ja koobaltsinist."
+      },
+      {
+       "name": "Helesinine",
+       "text": "Keerised. Paksude tõmmetena pandud, paneb see taeva pöörlema."
+      },
+      {
+       "name": "Kollane",
+       "text": "Kuu, tähed, aknad. Pinnast vaid tilluke osa, aga see valgustab kõike."
+      },
+      {
+       "name": "Rohekasmust",
+       "text": "Küpress ja küla varjud. Maali kõige tumedam mass."
+      },
+      {
+       "name": "Rohekasvalge",
+       "text": "Valgusrõngad tähtede ümber: just need panevad tähed virvendama."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sinine ja kollane asuvad värviringil peaaegu teineteise vastas. Kõrvuti pandult muudab kumbki teise tugevamaks. Van Gogh teadis seda ja kasutas seda, et panna oma ööd värelema."
+    },
+    {
+     "type": "key",
+     "text": "Vastandvärvid kõrvuti võimendavad teineteist. Sellepärast hõõguvadki kollased tähed sinise taustal."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh kirjutas vennale, et oli näinud hommikutähte, väga suurt. Puuduta maali kõige valgemat valgust.",
+     "spots": [
+      {
+       "title": "Hommikutäht",
+       "text": "Maali kõige valgem valgus. Van Gogh kirjutas vennale, et oli enne päikesetõusu näinud hommikutähte, väga suurt. Tõenäoliselt on see Veenus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Mida ta ise sellest pildist arvas? Mitte eriti palju. Kirjades nimetab ta seda lihtsalt öiseks etüüdiks ja kahtleb nendes kujutluse järgi maalitud lõuendites."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh ei müünud eluajal peaaegu midagi. Tema vend Theo, kunstikaupmees, toetas teda raha ja värvidega."
+    },
+    {
+     "type": "text",
+     "text": "Ta suri kolmteist kuud hiljem, 1890. aasta juulis, 37-aastaselt. „Tähine öö“ jõudis New Yorgi Modernkunstimuuseumi 1941. aastal."
+    },
+    {
+     "type": "key",
+     "text": "Van Goghil on teemaks pintslitõmme ise: igal tõmbel on suund ja just see paneb taeva liikuma."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Keeris",
+       "text": "Keskel keerduvad kaks suurt lainet teineteise sisse. Päris taevas ei näe kunagi nii välja: ta maalib seda, mida tunneb, mitte seda, mida näeb."
+      },
+      {
+       "title": "Kuu",
+       "text": "Oranž sirp kollases valgusrõngas. See meenutab peaaegu päikest. Van Gogh paneb värvi lühikeste tõmmetena, mis tiirlevad selle ümber."
+      },
+      {
+       "title": "Hommikutäht",
+       "text": "Maali kõige valgem valgus. Van Gogh kirjutas vennale, et oli enne päikesetõusu näinud hommikutähte, väga suurt. Tõenäoliselt on see Veenus."
+      },
+      {
+       "title": "Küpress",
+       "text": "Tume ja väändunud nagu leek, ühendab see maad ja taevast. Lõuna-Prantsusmaal on see surnuaedade puu. Van Goghi meelest oli küpress sama ilus kui Egiptuse obelisk."
+      },
+      {
+       "title": "Kirikutorn",
+       "text": "Sihvakas terav tornitipp, nagu Hollandi külades, kus Van Gogh üles kasvas. Provence'i kirikutornid sellised ei ole."
+      },
+      {
+       "title": "Küla",
+       "text": "Mõni kollaselt valgustatud aken. Oma toast ta seda küla ei näinud: ta lisas selle mälu järgi."
+      },
+      {
+       "title": "Künkad",
+       "text": "Alpilles. Künkad lainetavad nagu meri ja neid kannab sama hoog mis taevastki."
+      },
+      {
+       "title": "Värv",
+       "text": "Vaata, kui paks see on: värv lasub lühikeste raskete tõmmetena, peaaegu reljeefselt. Seda nimetatakse impastoks."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kus oli Van Gogh, kui ta maalis „Tähise öö“?",
+     "options": [
+      "Pariisis",
+      "Saint-Rémy-de-Provence'i vaimuhaiglas",
+      "Amsterdamis"
+     ],
+     "explanation": "Ta oli end sinna kuu aega varem ise sisse kirjutanud."
+    },
+    {
+     "question": "Kuidas see pilt maaliti?",
+     "options": [
+      "Öösel, vaate ees",
+      "Päeval, mälu ja kujutlusvõime järgi",
+      "Foto järgi"
+     ],
+     "explanation": "Päeval, tema ateljees haiglas."
+    },
+    {
+     "question": "Milline detail meenutab Hollandit?",
+     "options": [
+      "Küpress",
+      "Terav kirikutorn",
+      "Künkad"
+     ],
+     "explanation": "Tornitipp nagu nendes külades, kus ta üles kasvas."
+    },
+    {
+     "question": "Mis on „impasto“?",
+     "options": [
+      "Väga paks, peaaegu reljeefne värvikiht",
+      "Õhuke läbipaistev lasuur",
+      "Söega tehtud visand"
+     ],
+     "explanation": "Lühikesed rasked tõmbed, mis kerkivad lõuendilt esile."
+    },
+    {
+     "question": "Miks paistavad kollased tähed nii eredad?",
+     "options": [
+      "Need on maalitud kullaga",
+      "Kollane on oma vastandvärvi, sinise kõrval",
+      "Lõuend on tagant valgustatud"
+     ],
+     "explanation": "Vastandvärvid kõrvuti võimendavad teineteist."
+    },
+    {
+     "question": "Mille jättis Van Gogh selle vaate maalidelt välja?",
+     "options": [
+      "Akna trellid",
+      "Kuu",
+      "Künkad"
+     ],
+     "explanation": "Tema haiglaakna ees olid raudtrellid."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh maalis „Tähise öö“ õues, keset ööd.",
+     "explanation": "Ta maalis selle päeval, mälu järgi, Saint-Rémy vaimuhaiglas."
+    },
+    {
+     "text": "„Tähist ööd“ hoitakse New Yorgis.",
+     "explanation": "See on olnud Modernkunstimuuseumis alates 1941. aastast."
+    },
+    {
+     "text": "Van Gogh müüs palju maale ja suri rikkana.",
+     "explanation": "Ta ei müünud peaaegu midagi; teda toetas vend Theo."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Tüdruk pärlkõrvarõngaga",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "u 1665",
+   "museum": "Mauritshuis, Haag",
+   "teaser": "Pilk üle õla, ja keegi ei tea, kes ta on.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Sa tunned seda nägu. Ometi pole see portree: keegi ei tea, kes ta on, ja tõenäoliselt ei kavatsenudki Vermeer maalida kedagi kindlat."
+    },
+    {
+     "type": "text",
+     "text": "17. sajandi Hollandis oli sellisel pildil oma nimi: „tronie“ ehk näouurimus. Maalija uurib sellega mõnda ilmet, eksootilist kostüümi või valgusefekti. Siin kõiki kolme korraga."
+    },
+    {
+     "type": "key",
+     "text": "Tronie on väljamõeldud nägu, ettekääne ilme ja valguse maalimiseks. See ei ole päris inimese portree."
+    },
+    {
+     "type": "tour",
+     "text": "Vaata kõigepealt kogu maali: pimedusest esile kerkiv nägu. Puuduta, et lähemale minna.",
+     "spots": [
+      {
+       "title": "Pilk",
+       "text": "Ta pöördub sinu poole, nagu oleksid just tema nime hüüdnud. Üksainus valge täpp kummaski silmas teeb pilgu niiskeks ja elavaks."
+      },
+      {
+       "title": "Suu",
+       "text": "Veidi avatud, nagu poole lause pealt. Vaata tillukest heledat täppi suunurgas: üks värvipuudutus ja huuled läigivad."
+      },
+      {
+       "title": "Pärl",
+       "text": "Kaks tõmmet, mitte rohkem: üleval valge läige, all krae hall peegeldus. Ei mingit piirjoont ega konksu. Pärli paneb kokku sinu silm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kogu pilt toetub ühele liigutusele: ta pöördub. Keha on profiilis, nägu tuleb meie poole. Tundub, nagu oleksime ta ootamatult tabanud või nagu oleks ta just lahkumas. Just see teebki ta nii elavaks."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer elas kogu elu Delftis, väikeses Hollandi linnas. Ta maalis aeglaselt, tal oli üksteist last toita ja ta suri 43-aastaselt võlgades."
+    },
+    {
+     "type": "text",
+     "text": "Pane tähele turbanit. Ükski Hollandi tüdruk ei käinud nii riides. See on kostüüm, killuke kauget Idamaad, mis tolle aja maalijaid lummas."
+    },
+    {
+     "type": "find",
+     "text": "Tema näole langeb üksainus valgus. Kuhu see jõuab? Puuduta näo kõige heledamat kohta.",
+     "spots": [
+      {
+       "title": "Põsk",
+       "text": "Valgus tuleb vasakult, veidi ülevalt. See tabab otsaesist, põske ja nina ning laseb näo teisel poolel varju vajuda."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer ei joonista peaaegu üldse piirjooni. Vaata ninaselga: joont pole, on ainult hele põsk, mis kohtub varjuga. Nägu on tehtud valgusest, mitte joontest."
+    },
+    {
+     "type": "key",
+     "text": "Valgus vasakult, pehmed varjud, mitte ühtegi teravat piirjoont: see on Vermeeri käekiri."
+    },
+    {
+     "type": "lines",
+     "text": "Kuidas nii lihtne pilt koos püsib? Kolm joont annavad vastuse.",
+     "lines": [
+      {
+       "label": "Valgus",
+       "text": "See saabub ülevalt vasakult, justkui aknast, mida me ei näe."
+      },
+      {
+       "label": "Kolmnurk",
+       "text": "Turbani tipust mõlema õlani: kindel, maas seisev kuju, mis annab pea pöördele toe."
+      },
+      {
+       "label": "Langev riie",
+       "text": "Kollane riie langeb paremal alla ja tasakaalustab vasakule pööratud nägu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Nüüd sinine. Vermeer kasutas looduslikku ultramariini, mida saadi lasuriidi peeneks jahvatamisel. Enamik maalijaid hoidis seda Neitsi Maarja rüü jaoks, sest see oli nii kallis. Tema pani seda igale poole, isegi varjudesse."
+    },
+    {
+     "type": "fact",
+     "text": "Lasuriit tuli kaevandustest, mis asuvad tänapäeva Afganistanis. Nimi „ultramariin“ tähendab „mere tagant“."
+    },
+    {
+     "type": "palette",
+     "text": "Viis värvi moodustavad peaaegu kogu maali. Puuduta üht ja vaata, kuhu see peitub.",
+     "swatches": [
+      {
+       "name": "Tume taust",
+       "text": "Üle poole pinnast. Kunagi sügavroheline eesriie, nüüd peaaegu must."
+      },
+      {
+       "name": "Ultramariin",
+       "text": "Lasuriidi sinine. See võtab väga vähe ruumi, ometi näeme ainult seda."
+      },
+      {
+       "name": "Pruun ooker",
+       "text": "Jaki ja kollase riide varjud: soe ja odav mullavärv."
+      },
+      {
+       "name": "Naha roosa",
+       "text": "Maali kõige heledam osa. Silm läheb kõigepealt sinna."
+      },
+      {
+       "name": "Kollane",
+       "text": "Jakil ja turbani langeval otsal. See vastab sinisele."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1994. aastal maal restaureeriti. Kolletunud laki alt leidsid restauraatorid värskemad värvid ja selle väikese heleda täpi suunurgas, mida keegi enam ei näinud."
+    },
+    {
+     "type": "text",
+     "text": "Ja taust? Praegu paistab see lame ja must. Teaduslik analüüs on näidanud, et Vermeer maalis sinna tumerohelise eesriide. Rohelised pigmendid on aja jooksul lagunenud."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer signeeris selle maali. Aga kus? Vaata hoolega, signatuur on peaaegu nähtamatu.",
+     "spots": [
+      {
+       "title": "Signatuur",
+       "text": "„IVMeer“, üleval vasakul. Heleda tooniga tumedale taustale maalitud, on see aja jooksul peaaegu kustunud."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kas pärl on üldse pärl? See on hiiglaslik. Mõned asjatundjad arvavad, et see oli lakitud klaas või poleeritud tina. Vahet pole: maalil on see valgusetilk ja muud Vermeer ei tahtnudki."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer ei maali esemeid. Ta maalib valgust, mis neile langeb. Pärl on kaks valget puudutust."
+    },
+    {
+     "type": "text",
+     "text": "Vermeerilt teame ainult umbes 37 maali. Pärast tema surma oli ta kaks sajandit peaaegu unustatud."
+    },
+    {
+     "type": "fact",
+     "text": "1881. aastal ostis üks kollektsionäär selle maali oksjonilt kahe guldeni eest, peaaegu tühise raha eest. 1902. aastal pärandas ta selle Mauritshuisi muuseumile."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Pilk",
+       "text": "Ta pöördub sinu poole, nagu oleksid just tema nime hüüdnud. Üksainus valge täpp kummaski silmas teeb pilgu niiskeks ja elavaks."
+      },
+      {
+       "title": "Suu",
+       "text": "Veidi avatud, nagu poole lause pealt. Vaata tillukest heledat täppi suunurgas: üks värvipuudutus ja huuled läigivad."
+      },
+      {
+       "title": "Pärl",
+       "text": "Kaks tõmmet, mitte rohkem: üleval valge läige, all krae hall peegeldus. Ei mingit piirjoont ega konksu. Pärli paneb kokku sinu silm."
+      },
+      {
+       "title": "Sinine turban",
+       "text": "Ehtne ultramariin, tehtud lasuriidist, kivist, mis toodi kohale lausa Afganistanist. Tol ajal oli see pigment kullast kallim."
+      },
+      {
+       "title": "Langev kollane riie",
+       "text": "Kollane riie langeb mööda selga alla nagu leek. Sinine ja kollane: Vermeer armastas seda paari ja kasutas seda maalist maali."
+      },
+      {
+       "title": "Valge krae",
+       "text": "Valge riba, pandud ühe liigutusega. Just see krae peegeldub pärli alumises osas."
+      },
+      {
+       "title": "Signatuur",
+       "text": "„IVMeer“, üleval vasakul. Heleda tooniga tumedale taustale maalitud, on see aja jooksul peaaegu kustunud."
+      },
+      {
+       "title": "Taust",
+       "text": "See polnud alati must. Analüüs näitab, et Vermeer maalis siia tumerohelise eesriide. Roheline on sajandite jooksul kadunud."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mis on „tronie“?",
+     "options": [
+      "Tellitud portree",
+      "Väljamõeldud näo uurimus",
+      "Autoportree"
+     ],
+     "explanation": "Ettekääne ilme ja valguse maalimiseks, mitte päris inimene."
+    },
+    {
+     "question": "Kust pärineb turbani sinine?",
+     "options": [
+      "Taimest, indigost",
+      "Kivist, lasuriidist",
+      "Merekarbist"
+     ],
+     "explanation": "Jahvatatud lasuriidist saadi looduslik ultramariin, tol ajal kullast kallim."
+    },
+    {
+     "question": "Kuidas on pärl maalitud?",
+     "options": [
+      "Täpse piirjoone ja konksuga",
+      "Kahe heleda puudutusega, ilma piirjooneta",
+      "Hõbelehega"
+     ],
+     "explanation": "Valge läige, hall peegeldus: ülejäänu teeb sinu silm."
+    },
+    {
+     "question": "Kust valgus tuleb?",
+     "options": [
+      "Vasakult",
+      "Paremalt",
+      "Alt"
+     ],
+     "explanation": "Ülevalt vasakult, justkui nähtamatust aknast."
+    },
+    {
+     "question": "Mis oli taustal algselt?",
+     "options": [
+      "Tumeroheline eesriie",
+      "Aken",
+      "Kuldne sein"
+     ],
+     "explanation": "Rohelised pigmendid lagunesid sajandite jooksul."
+    },
+    {
+     "question": "Kus elas Vermeer kogu oma elu?",
+     "options": [
+      "Amsterdamis",
+      "Delftis",
+      "Haagis"
+     ],
+     "explanation": "Ta elas ja töötas väikeses Delfti linnas."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Me teame poseerinud tüdruku nime.",
+     "explanation": "Tema isik on teadmata: maal on tronie."
+    },
+    {
+     "text": "Turbani sinine pärineb kivist, lasuriidist.",
+     "explanation": "Jahvatatuna annab see loodusliku ultramariini."
+    },
+    {
+     "text": "Pärl on maalitud hoolika, detailse piirjoonega.",
+     "explanation": "See on vaid kaks heledat värvipuudutust, ilma igasuguse piirjooneta."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Kanagawa suur laine",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "u 1831",
+   "museum": "Puulõige · palju tõmmiseid",
+   "teaser": "Hiiglaslik laine ja kaugel taamal, pisikesena, Fuji mägi.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "See ei ole maal. See on puulõige: pilt lõigatakse puuplokki, plokk kaetakse värviga ja vajutatakse vastu paberit. Nii et „Suurt lainet“ pole olemas üheainsana. Neid on tuhandeid."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai avaldas selle 1831. aasta paiku. Ta oli siis ligi 70 ja oli joonistanud lapsest saati. Pildiga algab sari, mis sai kuulsaks: „Fuji mäe kolmkümmend kuus vaadet“."
+    },
+    {
+     "type": "key",
+     "text": "„Suur laine“ on puulõige, mida trükiti tuhandetes eksemplarides. See on olemas paljudes muuseumides üle maailma."
+    },
+    {
+     "type": "fact",
+     "text": "Selline leht oli odav. Hokusai ajal maksis see umbes sama palju kui kauss nuudleid."
+    },
+    {
+     "type": "find",
+     "text": "Sari kannab nime „Fuji mäe kolmkümmend kuus vaadet“. Kus siis on Fuji mägi?",
+     "spots": [
+      {
+       "title": "Fuji mägi",
+       "text": "Pildi tõeline teema on siin, pisikesena. Jaapani püha mägi lumise tipuga, täiesti liikumatu keset tormi."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Selles ongi geniaalsus: Jaapani kõrgeim mägi on lainest väiksem. Hokusai mängib kaugusega. Lähedal olev rõhub kaugel olevat, nagu lainurkfotol."
+    },
+    {
+     "type": "text",
+     "text": "Fuji mägi oli püha. Usuti, et see peidab surematuse saladust. Hokusaile sai see kinnisideeks ja ta joonistas seda igast küljest ja iga ilmaga."
+    },
+    {
+     "type": "tour",
+     "text": "Rändame üle pildi nii, nagu silm seda teeb.",
+     "spots": [
+      {
+       "title": "Vaht",
+       "text": "Vaata laineharja: vaht lõpeb kõverate sõrmedega, nagu küünised, mis kohe paatide ümber sulguvad."
+      },
+      {
+       "title": "Sõudjad",
+       "text": "Kalurid on aerude kohal küürus, pead maas. Need kiired paadid viisid värsket kala Edosse, linna, mida me praegu tunneme Tokyo nime all."
+      },
+      {
+       "title": "Väike laine",
+       "text": "Esiplaanil on väiksem laine. Vaata selle kuju: terav, tipust valge. See on teine Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Jaapanis loetakse paremalt vasakule. Nii siseneb silm pildile paremalt, koos paatidega, ja jookseb otse lainesse. Jaapani vaataja jaoks tuleb laine otse vastu."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai vahetas elu jooksul nime üle kolmekümne korra. Üks tema viimaseid nimesid tähendas „Joonistamisest hullunud vanamees“."
+    },
+    {
+     "type": "lines",
+     "text": "Lihtne pilt, mis on välja arvestatud millimeetri täpsusega.",
+     "lines": [
+      {
+       "label": "Kaar",
+       "text": "Laine joonistab suure kaare, mis sulgub iseenda sisse. Kogu pildi vasak pool jääb selle haardesse."
+      },
+      {
+       "label": "Fuji kolmnurk",
+       "text": "Väike, kindel, teravatipuline. See asub täpselt laine nõgususes."
+      },
+      {
+       "label": "Selle teisik",
+       "text": "Väike esiplaanilaine kordab mäe kuju. Vesi jäljendab kivi."
+      },
+      {
+       "label": "Lugemissuund",
+       "text": "Paremalt vasakule: libiseme mööda lainetust Fujini ja tõstame siis pilgu lainele."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kuidas see valmis? Hokusai joonistas pildi õhukesele paberile. Lõikaja liimis joonistuse kirsipuust plokile ja lõikas ära kõik, mis polnud joon. Seejärel kattis trükkal ploki värviga ja vajutas paberi selle vastu."
+    },
+    {
+     "type": "text",
+     "text": "Iga värv vajas oma lõigatud plokki ja need trükiti samale lehele üksteise järel. Sellepärast on puulõigetes nii vähe värve."
+    },
+    {
+     "type": "key",
+     "text": "Iga värvi jaoks oma puuplokk: mida vähem värve, seda lihtsam trükk. Hokusai teeb sellest piirangust stiili."
+    },
+    {
+     "type": "palette",
+     "text": "Väga vähe värve, sest igaüks vajab oma lõigatud plokki. Puuduta üht.",
+     "swatches": [
+      {
+       "name": "Paber",
+       "text": "Kõige sagedasem värv pole üldse trükitud: see on paljas paber, mis jäeti vahu ja lume jaoks puutumata."
+      },
+      {
+       "name": "Preisi sinine",
+       "text": "Euroopast pärit sinine. See joonistab laine, selle triibud ja nõgususe."
+      },
+      {
+       "name": "Helesinine",
+       "text": "Sama sinine, lahjendatult. See annab veele mahu."
+      },
+      {
+       "name": "Toonitud taevas",
+       "text": "Beež, mis on paberist vaevu tumedam ja toob valge vahu esile."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sellest sinisest veel. See on Preisi sinine, keemiline pigment, mis leiutati Euroopas ja jõudis Jaapanisse alles hiljuti. See on sügav, ei pleegi ja tekitas tõelise sensatsiooni. Sari võlgneb sellele suure osa oma edust."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai signeeris oma pildi. Kus? Vihje: mitte all paremas nurgas.",
+     "spots": [
+      {
+       "title": "Kartušš",
+       "text": "Raamistatud väljal on sarja ja pildi pealkiri, „Kanagawa avamere laine all“. Sellest vasakul on Hokusai signatuur."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1850. aastatel avas Jaapan end kaubandusele ja tema puulõiked jõudsid Euroopasse. Prantsuse maalijad olid vapustatud: tasased värvipinnad, selged piirjooned, julged kaadrid. Monet kogus neid. Van Gogh kopeeris neid."
+    },
+    {
+     "type": "key",
+     "text": "Seda vaimustust nimetatakse japonismiks. Ilma Jaapani puulõigeteta oleks impressionism näinud välja teistsugune."
+    },
+    {
+     "type": "text",
+     "text": "Veel üks asi: see pole tsunami. See on avamere laine, tohutu, aga tavaline, just selline, mida kalurid kartsid. Hokusai ei näita katastroofi. Ta näitab pisikesi inimesi silmitsi loodusega."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Fuji mägi",
+       "text": "Pildi tõeline teema on siin, pisikesena. Jaapani püha mägi lumise tipuga, täiesti liikumatu keset tormi."
+      },
+      {
+       "title": "Vaht",
+       "text": "Vaata laineharja: vaht lõpeb kõverate sõrmedega, nagu küünised, mis kohe paatide ümber sulguvad."
+      },
+      {
+       "title": "Sõudjad",
+       "text": "Kalurid on aerude kohal küürus, pead maas. Need kiired paadid viisid värsket kala Edosse, linna, mida me praegu tunneme Tokyo nime all."
+      },
+      {
+       "title": "Väike laine",
+       "text": "Esiplaanil on väiksem laine. Vaata selle kuju: terav, tipust valge. See on teine Fuji."
+      },
+      {
+       "title": "Kartušš",
+       "text": "Raamistatud väljal on sarja ja pildi pealkiri, „Kanagawa avamere laine all“. Sellest vasakul on Hokusai signatuur."
+      },
+      {
+       "title": "Alumine paat",
+       "text": "See sukeldub lainete vahele. Paate on kokku kolm ja mehi umbes kolmkümmend."
+      },
+      {
+       "title": "Taevas",
+       "text": "Peaaegu tühi. Lihtne üleminek, mis saadi nii, et värv pühiti enne trükkimist osaliselt plokilt maha."
+      },
+      {
+       "title": "Pritsmed",
+       "text": "Fuji kohale langevad valged täpid. Need näevad välja nagu lumi mäel."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mis on „Suur laine“?",
+     "options": [
+      "Õlimaal",
+      "Puulõige",
+      "Akvarell"
+     ],
+     "explanation": "Graafikaleht, mida trükiti tuhandetes eksemplarides."
+    },
+    {
+     "question": "Millisesse sarja see kuulub?",
+     "options": [
+      "„Edo sada vaadet“",
+      "„Fuji mäe kolmkümmend kuus vaadet“",
+      "„Neli aastaaega“"
+     ],
+     "explanation": "Sellega algab Hokusai Fuji-sari."
+    },
+    {
+     "question": "Kust pärineb laine sinine?",
+     "options": [
+      "Lasuriidist",
+      "Euroopast toodud Preisi sinisest",
+      "Purustatud merekarpidest"
+     ],
+     "explanation": "Keemiline pigment, mis oli Jaapanis uus, sügav ja püsiv."
+    },
+    {
+     "question": "Mille kuju kordab väike esiplaanilaine?",
+     "options": [
+      "Fuji mäe",
+      "Paadi",
+      "Pilve"
+     ],
+     "explanation": "Vesi jäljendab mäge."
+    },
+    {
+     "question": "Miks on puulõigetes nii vähe värve?",
+     "options": [
+      "Värvid olid keelatud",
+      "Iga värv vajab oma lõigatud plokki",
+      "Paber ei pidanud värvi kinni"
+     ],
+     "explanation": "Üks plokk iga värvi kohta, trükitud üksteise järel."
+    },
+    {
+     "question": "Kuidas nimetatakse Euroopa vaimustust Jaapani puulõigetest?",
+     "options": [
+      "Japonism",
+      "Orientalism",
+      "Kubism"
+     ],
+     "explanation": "Monet kogus puulõikeid, Van Gogh kopeeris neid."
+    }
+   ],
+   "facts": [
+    {
+     "text": "„Suurest lainest“ on olemas ainult üks eksemplar.",
+     "explanation": "See on puulõige: eksemplare trükiti tuhandeid."
+    },
+    {
+     "text": "Hokusai oli selle tegemise ajal umbes 70-aastane.",
+     "explanation": "Ta sündis 1760. aastal ja sari ilmus 1831. aasta paiku."
+    },
+    {
+     "text": "„Suur laine“ kujutab tsunamit.",
+     "explanation": "See on suur avamere laine, mitte tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Vesiroosid",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Chicago Kunstiinstituut",
+   "teaser": "Horisonti enam pole: ainult vesi, õied ja vees peegelduv taevas.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Giverny's lasi Monet oma aeda kaevata tiigi ja istutas sinna vesiroosid. Sellest tiigist sai tema teema peaaegu kolmekümneks aastaks."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · veepinnal puhkavad õied."
+    },
+    {
+     "type": "text",
+     "text": "Vaata lähemalt: pole kallast ega horisonti. Enam ei saa aru, kus lõpeb vesi ja kus algab taeva peegeldus."
+    },
+    {
+     "type": "key",
+     "text": "Ilma horisondita muutub maal pinnaks: me vaatame vett nii, nagu vaataksime taevast."
+    },
+    {
+     "type": "fact",
+     "text": "Monet' palgal olid aednikud, kes tiigi eest hoolt kandsid. Üks neist puhastas igal hommikul veepinna, enne kui Monet maalima hakkas."
+    },
+    {
+     "type": "text",
+     "text": "Monet maalis vesiroosidest umbes 250 lõuendit. Samad õied, aga mitte kunagi sama valgus."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kus maalis Monet oma vesiroose?",
+     "options": [
+      "Giverny's",
+      "Pariisis",
+      "Veneetsias"
+     ],
+     "explanation": "Oma maja aias."
+    },
+    {
+     "question": "Mis sellelt maalilt puudub?",
+     "options": [
+      "Vesi",
+      "Horisont",
+      "Õied"
+     ],
+     "explanation": "Ei kallast ega taevast: ainult veepind."
+    },
+    {
+     "question": "Mitu vesiroosimaali ta tegi?",
+     "options": [
+      "Umbes kümme",
+      "Umbes 250",
+      "Üle 2000"
+     ],
+     "explanation": "Tohutu sari, peaaegu kolmekümne aasta jooksul."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet maalis oma vesiroose ainult ühe korra.",
+     "explanation": "Ta maalis neist umbes 250 versiooni."
+    },
+    {
+     "text": "Vesiroositiik asus Monet' enda aias.",
+     "explanation": "Giverny's, kus ta lasi selle kaevata."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Mulje, päikesetõus",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Marmottan Monet muuseum, Pariis",
+   "teaser": "Maal, mis andis nime tervele kunstivoolule, ja seda pilkena.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Le Havre'i sadam udusel hommikul. Monet paneb lõuendile paar kiiret pintslitõmmet: paadid, mastid ja oranž päike."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · päike ja selle peegeldus."
+    },
+    {
+     "type": "text",
+     "text": "1874. aastal oli lõuend Pariisis väljas. Kriitik Louis Leroy tegi pealkirja üle nalja (prantsuse keeles „Impression“) ja nimetas neid maalijaid „impressionistideks“."
+    },
+    {
+     "type": "key",
+     "text": "Sõna „impressionism“ pärineb sellest maalist. Alguses oli see solvang, siis sai sellest nimi."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre on linn, kus Monet üles kasvas. Teismelisena oli ta seal tuntud oma karikatuuride poolest."
+    },
+    {
+     "type": "text",
+     "text": "Maal on ka varastatud: 1985. aastal viidi see Marmottani muuseumist minema. See leiti viis aastat hiljem."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mis linna sadamat Monet maalis?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Veneetsia"
+     ],
+     "explanation": "Linn, kus ta üles kasvas."
+    },
+    {
+     "question": "Millele andis see maal nime?",
+     "options": [
+      "Impressionismile",
+      "Muuseumile",
+      "Auhinnale"
+     ],
+     "explanation": "Kriitik pilkas pealkirja ja sõna jäi külge."
+    },
+    {
+     "question": "Mis aastal seda Pariisis näidati?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Samal aastal pilkas seda kriitik Louis Leroy."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Sõna „impressionist“ oli algul solvang.",
+     "explanation": "See pärineb kriitik Louis Leroy artiklist."
+    },
+    {
+     "text": "See maal kujutab Marseille' sadamat.",
+     "explanation": "See on Le Havre'i sadam."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Suudlus",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Viin",
+   "teaser": "Kaks kullasse mähitud armastajat õitseva aasa serval.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt on oma „kuldse perioodi“ tipus. Ta kinnitab lõuendile ehtsat lehtkulda, nagu see oleks religioosne ikoon."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · kaks nägu."
+    },
+    {
+     "type": "text",
+     "text": "Vaata riideid. Mehe rüü on täis musti ja valgeid ristkülikuid. Naise oma on täis ringe ja lilli."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · ristkülikud ja ringid."
+    },
+    {
+     "type": "key",
+     "text": "Ristkülikud mehele, ringid naisele: mustrid jutustavad paari lugu."
+    },
+    {
+     "type": "fact",
+     "text": "Klimti isa oli kullagraveerija. Maalija kasvas üles selle metalli keskel, mille ta hiljem oma lõuenditele pani."
+    },
+    {
+     "type": "text",
+     "text": "Austria riik ostis maali 1908. aastal, kui see polnud veel isegi päris valmis."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mis materjali Klimt kasutas?",
+     "options": [
+      "Pärlmutrit",
+      "Lehtkulda",
+      "Pronksi"
+     ],
+     "explanation": "See on tema kuldse perioodi tunnusmärk."
+    },
+    {
+     "question": "Millised mustrid katavad mehe rüüd?",
+     "options": [
+      "Ringid",
+      "Lilled",
+      "Ristkülikud"
+     ],
+     "explanation": "Ringid ja lilled kuuluvad naisele."
+    },
+    {
+     "question": "Kes ostis maali 1908. aastal?",
+     "options": [
+      "Austria riik",
+      "Üks Prantsuse kollektsionäär",
+      "Klimti isa"
+     ],
+     "explanation": "Enne kui see oli isegi päris valmis."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt kasutas ehtsat lehtkulda.",
+     "explanation": "Nagu mitmel teiselgi oma kuldse perioodi lõuendil."
+    },
+    {
+     "text": "„Suudlust“ hoitakse Pariisis.",
+     "explanation": "See on Viinis, Belvederes."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Päevalilled",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "Rahvusgalerii, London",
+   "teaser": "Kollane kollasel: kimp, mis maaliti sõbra vastuvõtuks.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "August 1888, Arles. Van Gogh ootab külla oma sõpra Paul Gauguini ja tahab tema toa päevalilledega kaunistada."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · õied igas eluetapis."
+    },
+    {
+     "type": "text",
+     "text": "Ta julgeb kasutada peaaegu ainult üht värvi: kollased õied, kollane vaas, kollane taust. Kõik oleneb toonidest ja värvikihi paksusest."
+    },
+    {
+     "type": "key",
+     "text": "Peaaegu ühevärviline maal: kollane kõigis oma varjundites."
+    },
+    {
+     "type": "fact",
+     "text": "Päevalilled närbuvad kiiresti. Van Gogh pidi tööle asuma juba päikesetõusul ja kiirustama, enne kui õied longu vajusid."
+    },
+    {
+     "type": "text",
+     "text": "Neist päevalilledest on mitu versiooni. Mõni õis on alles pungas, teine juba närbunud: kimp jutustab ka aja kulgemisest."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kelle tuba pidid päevalilled kaunistama?",
+     "options": [
+      "Paul Gauguini",
+      "Claude Monet'",
+      "Tema venna Theo"
+     ],
+     "explanation": "Van Gogh ootas teda Arles'is."
+    },
+    {
+     "question": "Mis linnas ta need maalis?",
+     "options": [
+      "Pariisis",
+      "Arles'is",
+      "Amsterdamis"
+     ],
+     "explanation": "Lõuna-Prantsusmaal, 1888. aasta augustis."
+    },
+    {
+     "question": "Mis on värvides ebatavalist?",
+     "options": [
+      "Peaaegu kõik on kollane",
+      "Kollast pole üldse",
+      "Pilt on mustvalge"
+     ],
+     "explanation": "Kollased õied, kollane vaas, kollane taust."
+    }
+   ],
+   "facts": [
+    {
+     "text": "„Päevalilledest“ on mitu versiooni.",
+     "explanation": "Van Gogh maalis neid terve sarja."
+    },
+    {
+     "text": "Van Gogh müüs oma „Päevalilled“ eluajal varanduse eest.",
+     "explanation": "Eluajal ei müünud ta peaaegu midagi."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "u 1503–1519",
+   "museum": "Louvre, Pariis",
+   "teaser": "Maailma kuulsaim naeratus sõltub piirjoontest, mida sa ei näe.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "See on maailma kuulsaim maal, ja see on väike: 77 × 53 cm, maalitud paplipuust tahvlile. Paljud Louvre'i külastajad on selle suurusest üllatunud."
+    },
+    {
+     "type": "text",
+     "text": "1503. aasta paiku palus Firenze siidikaupmees Francesco del Giocondo Leonardo da Vincil maalida oma naise Lisa Gherardini portree."
+    },
+    {
+     "type": "key",
+     "text": "„Mona Lisa“ on Firenze kaupmehe naise Lisa Gherardini portree. „Mona“ tähendab lihtsalt „proua“."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo polnud ainult maalija. Ta oli ka insener, anatoom ja leiutaja ning jättis maha tuhandeid peeglikirjas täidetud märkmikulehti."
+    },
+    {
+     "type": "tour",
+     "text": "Vaata teda tervikuna. Siis tule lähemale sellele, mis tegi temast legendi.",
+     "spots": [
+      {
+       "title": "Naeratus",
+       "text": "Otsi joont, mis huuled välja joonistab: seda pole. Suunurgad sulavad varju. Sellepärast näibki naeratus muutuvat."
+      },
+      {
+       "title": "Silmad",
+       "text": "Sama nõks: silmanurgad sulavad varju. Pane tähele ka seda, et tal pole kulme ega ripsmeid."
+      },
+      {
+       "title": "Käed",
+       "text": "Üks teise peal, lõdvalt. Leonardo lahkas surnukehi, et mõista luid ja lihaseid: neil kätel on kaal."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sellel hägususel on nimi: sfumato, itaalia sõnast „fumo“, suits. Leonardo laob üksteise peale kümneid väga õhukesi, peaaegu läbipaistvaid värvikihte. Piirjooned kaovad ja kujud sulavad üksteisesse."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato tähendab pehmeid, suitsuseid piirjooni. Just see teeb naeratuse tabamatuks."
+    },
+    {
+     "type": "text",
+     "text": "Proovi ise. Vaata talle silma ja suu näib naeratavat. Vaata otse suud ja naeratus kaob. Kogu töö teevad ära suunurkade varjud."
+    },
+    {
+     "type": "find",
+     "text": "Sellelt näolt puudub midagi. Puuduta kohta, kus see peaks olema.",
+     "spots": [
+      {
+       "title": "Kulmud",
+       "text": "Tal pole kulme ega ripsmeid. Tolle aja mood või vanade puhastustega kulunud värv? Asjatundjad vaidlevad selle üle siiani."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vaata nüüd poosi. Enne Leonardot kujutati portreedel inimesi enamasti profiilis või ainult rinnani. Tema näitab figuuri vööni, kolmveerandpöördes meie poole, koos kätega."
+    },
+    {
+     "type": "fact",
+     "text": "Noor maalija Raffael nägi portreed Leonardo ateljees ja võttis poosi kohe oma töödesse üle."
+    },
+    {
+     "type": "lines",
+     "text": "Rahulik poos, kummaline maastik. Vaata, kuidas see kõik on üles ehitatud.",
+     "lines": [
+      {
+       "label": "Püramiid",
+       "text": "Pea tipus, käsivarred ja käed all aluseks. Lai ja kindel kuju: ta ei liigu, ta on rahulikult paigal."
+      },
+      {
+       "label": "Horisont vasakul",
+       "text": "Vasakul jookseb maastiku veepiir umbes siit."
+      },
+      {
+       "label": "Horisont paremal",
+       "text": "Paremal on see kõrgemal. Maastiku kaks poolt ei klapi kokku ja osa pildi kummalisusest tulebki sellest."
+      },
+      {
+       "label": "Rada",
+       "text": "Looklev joon, mis juhib silma kaugusse, nagu jõed paremal pool."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Maastik ei ole päris koht. See on unenäoline maailm kaljudest, veest ja udust, kus pole maju ega inimesi. Ainult üks asi selles on inimkäte tehtud."
+    },
+    {
+     "type": "find",
+     "text": "Selles tühjas maastikus on üksainus inimese ehitatud rajatis. Kus on sild?",
+     "spots": [
+      {
+       "title": "Sild",
+       "text": "Väike mitme kaarega kivisild. See on kogu maastikus ainus märk inimese kohalolust."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Taust järgib reeglit, mille Leonardo ise kirja pani: õhuperspektiivi. Õhk ei ole täiesti läbipaistev. Mida kaugemal miski on, seda sinisem, kahvatum ja udusem see paistab."
+    },
+    {
+     "type": "key",
+     "text": "Õhuperspektiiv: kauged asjad paistavad sinisemad, kahvatumad ja hägusemad. Leonardo oli üks esimesi, kes seda teadlikult maalis."
+    },
+    {
+     "type": "palette",
+     "text": "Pruunid, rohelised, natuke kulda. Vana lakk on kõik kollaseks muutnud. Puuduta värvi.",
+     "swatches": [
+      {
+       "name": "Varjud",
+       "text": "Kleit, juuksed, loor. Peaaegu pool maalist on poolhämaruses."
+      },
+      {
+       "name": "Nahk",
+       "text": "Nägu, rind, käed: kolm heledat laiku, mis moodustavad kolmnurga."
+      },
+      {
+       "name": "Hallikasroheline taevas",
+       "text": "Algselt sinisem. Kolletunud lakk on selle rohelise poole nihutanud."
+      },
+      {
+       "name": "Pruun maa",
+       "text": "Maastiku kaljud ja rajad mõlemal pool tema õlgu."
+      },
+      {
+       "name": "Roheline kaugus",
+       "text": "Vesi ja mäed, mida kaugus pehmendab."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo ei andnud maali kunagi tellijale üle. Ta hoidis seda enda juures, töötas sellega aastaid edasi ja võttis selle kaasa Prantsusmaale, kui kuningas Franciscus I ta sinna kutsus. Kui ta 1519. aastal suri, läks portree kuninglikku kogusse. Sellepärast ongi see Louvre'is."
+    },
+    {
+     "type": "text",
+     "text": "Kaua oli see üks meistriteos paljude seas. Ülemaailmse kuulsuse tõi talle kuritegu: 21. augustil 1911 võttis Itaalia tööline Vincenzo Peruggia selle seinalt maha ja jalutas sellega töökitli all minema."
+    },
+    {
+     "type": "fact",
+     "text": "Kui maal oli kadunud, seisid rahvahulgad Louvre'is järjekorras lihtsalt selleks, et vaadata tühja kohta seinal."
+    },
+    {
+     "type": "text",
+     "text": "Ajalehed üle kogu maailma avaldasid tema pildi. Kui ta 1913. aastal Firenzest leiti, polnud „Mona Lisa“ enam lihtsalt maal. Ta oli staar."
+    },
+    {
+     "type": "key",
+     "text": "„Mona Lisa“ võlgneb oma geniaalsuse Leonardole ja kuulsuse vargusele."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Naeratus",
+       "text": "Otsi joont, mis huuled välja joonistab: seda pole. Suunurgad sulavad varju. Sellepärast näibki naeratus muutuvat."
+      },
+      {
+       "title": "Silmad",
+       "text": "Sama nõks: silmanurgad sulavad varju. Pane tähele ka seda, et tal pole kulme ega ripsmeid."
+      },
+      {
+       "title": "Käed",
+       "text": "Üks teise peal, lõdvalt. Leonardo lahkas surnukehi, et mõista luid ja lihaseid: neil kätel on kaal."
+      },
+      {
+       "title": "Sild",
+       "text": "Väike mitme kaarega kivisild. See on kogu maastikus ainus märk inimese kohalolust."
+      },
+      {
+       "title": "Rada",
+       "text": "Järve poole looklev rada. Maastik pole päris koht: Leonardo mõtleb selle välja oma kaljude ja vee uurimuste põhjal."
+      },
+      {
+       "title": "Loor",
+       "text": "Läbipaistev loor katab ta juukseid. See on nii õrn, et otsaesisel on seda vaevu näha."
+      },
+      {
+       "title": "Kaugus",
+       "text": "Mida kaugemal mäed on, seda sinisemad ja udusemad need on. Leonardo märkas, et ka õhul endal on värv."
+      },
+      {
+       "title": "Varrukas",
+       "text": "Tihedad kuldsed voldid, maalitud ükshaaval. Kleit on tume ja ehteid tal pole: miski ei tohi näolt tähelepanu kõrvale juhtida."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kes on portreel kujutatud naine?",
+     "options": [
+      "Prantsuse kuninganna",
+      "Lisa Gherardini, Firenze kaupmehe naine",
+      "Leonardo ema"
+     ],
+     "explanation": "Portree tellis tema abikaasa Francesco del Giocondo."
+    },
+    {
+     "question": "Kuidas nimetatakse pehmete, suitsuste piirjoonte tehnikat?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Puantillism"
+     ],
+     "explanation": "Itaalia sõnast „fumo“, mis tähendab suitsu."
+    },
+    {
+     "question": "Millele on „Mona Lisa“ maalitud?",
+     "options": [
+      "Linasele lõuendile",
+      "Paplipuust tahvlile",
+      "Krohvitud seinale"
+     ],
+     "explanation": "Paplipuust tahvlile mõõtudega 77 × 53 cm."
+    },
+    {
+     "question": "Mis juhtub kaugel asuvate asjadega?",
+     "options": [
+      "Need muutuvad erksamaks",
+      "Need muutuvad sinisemaks, kahvatumaks ja udusemaks",
+      "Nende piirjooned muutuvad teravamaks"
+     ],
+     "explanation": "See ongi õhuperspektiiv."
+    },
+    {
+     "question": "Miks on maal Prantsusmaal?",
+     "options": [
+      "Napoleon tõi selle Itaaliast",
+      "Leonardo tõi selle kaasa ja see läks kuninglikku kogusse",
+      "Louvre ostis selle 1911. aastal"
+     ],
+     "explanation": "Leonardo tuli Prantsusmaale kuningas Franciscus I kutsel."
+    },
+    {
+     "question": "Mis tegi „Mona Lisa“ maailmakuulsaks?",
+     "options": [
+      "Vargus Louvre'ist 1911. aastal",
+      "Näitus New Yorgis",
+      "Restaureerimine"
+     ],
+     "explanation": "Selle varastas Vincenzo Peruggia ja see leiti 1913. aastal."
+    }
+   ],
+   "facts": [
+    {
+     "text": "„Mona Lisa“ on maalitud lõuendile.",
+     "explanation": "See on maalitud paplipuust tahvlile."
+    },
+    {
+     "text": "„Mona Lisa“ varastati Louvre'ist 1911. aastal.",
+     "explanation": "See leiti kaks aastat hiljem."
+    },
+    {
+     "text": "„Mona Lisal“ on paksud tumedad kulmud.",
+     "explanation": "Tal pole üldse kulme ega ripsmeid."
+    }
+   ]
+  }
+ }
+}
