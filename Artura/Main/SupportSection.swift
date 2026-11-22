@@ -130,7 +130,7 @@ struct SupportSection: View {
                 .font(.system(size: 14, weight: .semibold))
                 .foregroundStyle(Palette.blue)
                 .frame(width: 32, height: 32)
-                .background(Circle().fill(Palette.sand))
+                .background(Circle().fill(Palette.mist))
             VStack(alignment: .leading, spacing: 1) {
                 Text(title).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 Text(detail).font(.aCaption).foregroundStyle(Palette.muted)

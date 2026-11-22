@@ -497,7 +497,8 @@ struct Sparkle: Shape {
 struct ChoiceRow: View {
     let title: String
     var subtitle: String? = nil
-    var symbol: String? = nil
+    /// Name of a small grainy illustration shown at the start of the row.
+    var image: String? = nil
     let selected: Bool
     var multiple: Bool = false
     let action: () -> Void
@@ -508,12 +509,17 @@ struct ChoiceRow: View {
             action()
         } label: {
             HStack(spacing: 14) {
-                if let symbol {
-                    Image(systemName: symbol)
-                        .font(.system(size: 18, weight: .semibold))
-                        .foregroundStyle(selected ? .white : Palette.blue)
-                        .frame(width: 40, height: 40)
-                        .background(Circle().fill(selected ? Color.white.opacity(0.16) : Palette.sand))
+                if let image {
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 46, height: 46)
+                        .clipShape(RoundedRectangle(cornerRadius: 13, style: .continuous))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 13, style: .continuous)
+                                .stroke(Color.white.opacity(selected ? 0.9 : 0), lineWidth: 2)
+                        )
+                        .accessibilityHidden(true)
                 }
                 VStack(alignment: .leading, spacing: 2) {
                     Text(title)
@@ -541,9 +547,10 @@ struct ChoiceRow: View {
                 }
                 .frame(width: 26, height: 26)
             }
-            .padding(.horizontal, 16)
+            .padding(.leading, image == nil ? 16 : 10)
+            .padding(.trailing, 16)
             .padding(.vertical, 10)
-            .frame(maxWidth: .infinity, minHeight: 62, alignment: .leading)
+            .frame(maxWidth: .infinity, minHeight: image == nil ? 62 : 66, alignment: .leading)
             .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.blue : Color.white))
             .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.blueDark : Palette.lip).offset(y: 3))
             .overlay(

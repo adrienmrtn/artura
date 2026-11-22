@@ -268,7 +268,7 @@ struct UnderstandScreen: View {
             .foregroundStyle(Palette.blue)
             .padding(.horizontal, 14)
             .frame(height: 36)
-            .background(Capsule().fill(Palette.sand))
+            .background(Capsule().fill(Palette.mist))
         }
     }
 }

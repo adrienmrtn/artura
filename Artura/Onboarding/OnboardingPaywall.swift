@@ -533,7 +533,7 @@ struct TrialScreen: View {
                         title: "Today",
                         text: "All of Artura unlocks, no limits.")
             VStack(alignment: .leading, spacing: 8) {
-                timelineRow(2, icon: "bell.fill", fill: Palette.sand, tint: Palette.blue,
+                timelineRow(2, icon: "bell.fill", fill: Palette.mist, tint: Palette.blue,
                             title: "Day \(max(1, offer.trialDays - 1)) · your reminder",
                             text: "The day before it ends, we'll let you know.")
                 notification
@@ -601,7 +601,7 @@ struct TrialScreen: View {
             Spacer(minLength: 0)
         }
         .padding(8)
-        .background(RoundedRectangle(cornerRadius: 14).fill(Palette.sandLight))
+        .background(RoundedRectangle(cornerRadius: 14).fill(Palette.mistLight))
     }
 
     private var reminderRow: some View {
@@ -1044,7 +1044,7 @@ struct PaywallScreen: View {
             }
             .padding(.horizontal, 18)
             .frame(maxWidth: .infinity, minHeight: badge == nil ? 60 : 72)
-            .background(RoundedRectangle(cornerRadius: 16).fill(selected ? Palette.sandLight : Palette.card))
+            .background(RoundedRectangle(cornerRadius: 16).fill(selected ? Palette.mistLight : Palette.card))
             .overlay(RoundedRectangle(cornerRadius: 16).stroke(selected ? Palette.blue : .clear, lineWidth: 2))
         }
         .buttonStyle(.pressable)

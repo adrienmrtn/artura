@@ -392,7 +392,7 @@ struct LoadingScreen: View {
 
                 // The Mona Lisa at the center of the progress ring
                 ZStack {
-                    Circle().fill(Palette.sand)
+                    Circle().fill(Palette.mist)
                     Image("joconde")
                         .resizable()
                         .scaledToFit()
@@ -431,7 +431,7 @@ struct LoadingScreen: View {
                         let active = stage == i
                         HStack(spacing: 12) {
                             ZStack {
-                                Circle().fill(done ? Palette.green : (active ? Palette.sand : Palette.line))
+                                Circle().fill(done ? Palette.green : (active ? Palette.mist : Palette.line))
                                 if done {
                                     Image(systemName: "checkmark")
                                         .font(.system(size: 12, weight: .bold))
@@ -617,8 +617,8 @@ struct PlanScreen: View {
         }
         .padding(.vertical, 12)
         .frame(maxWidth: .infinity)
-        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Palette.sandLight))
-        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Palette.sand, lineWidth: 1))
+        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Palette.mistLight))
+        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Palette.mist, lineWidth: 1))
     }
 
     private func recap(_ symbol: String, _ label: String, _ value: String) -> some View {
@@ -627,7 +627,7 @@ struct PlanScreen: View {
                 .font(.system(size: 14, weight: .semibold))
                 .foregroundStyle(Palette.blue)
                 .frame(width: 32, height: 32)
-                .background(Circle().fill(Palette.sand))
+                .background(Circle().fill(Palette.mist))
             Text(label).font(.aSmall).foregroundStyle(Palette.muted)
             Spacer(minLength: 8)
             Text(value).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
@@ -716,8 +716,8 @@ struct SocialProofScreen: View {
             }
             .padding(.vertical, 20)
             .frame(maxWidth: .infinity)
-            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.sandLight))
-            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.sand, lineWidth: 1))
+            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.mistLight))
+            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.mist, lineWidth: 1))
             .accessibilityElement(children: .ignore)
             .accessibilityLabel("More than \(SocialProof.learners) learners, rated \(SocialProof.rating) out of 5 on the App Store")
             .enter(2)
@@ -894,7 +894,7 @@ struct AccountScreen: View {
                 .font(.system(size: 16, weight: .semibold))
                 .foregroundStyle(Palette.blue)
                 .frame(width: 38, height: 38)
-                .background(Circle().fill(Palette.sand))
+                .background(Circle().fill(Palette.mist))
             Text(label)
                 .font(.figtree(13, .semibold))
                 .foregroundStyle(Palette.ink)
