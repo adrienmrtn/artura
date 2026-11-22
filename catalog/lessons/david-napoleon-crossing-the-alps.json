@@ -1,53 +1,334 @@
 {
-  "teaser": "He crossed the Alps on a mule. That is not what the king of Spain ordered.",
-  "focus": [0.55, 0.3],
-  "review_notes": "The image shows a red-orange cloak and a grey-white horse; the Malmaison version is usually described as having a yellow-orange cloak and a piebald horse, so please confirm the photo is the Malmaison canvas and not the Versailles or Vienna version.\nNapoleon's remark about likeness (\"it is enough that their genius lives there\") and the request to be shown \"calm on a fiery steed\" are traditional quotes reported by early biographers.\nProvenance: taken by Joseph Bonaparte to his American estate at Point Breeze, New Jersey, bequeathed to Malmaison in 1949 by Eugénie Bonaparte.\nNapoleon crossed on a mule led by a local guide a few days after the main army: standard account.\nPupil posing on a ladder: studio tradition.",
+  "teaser": "Painted for a Spanish palace, starring a horse he never rode over that pass.",
+  "focus": [
+    0.58,
+    0.24
+  ],
+  "review_notes": "First version (this one, Malmaison): commissioned by Charles IV of Spain for the Royal Palace in Madrid, painted 1800 to 1801, about 261 x 221 cm.\nCrossing of the Great St Bernard Pass in May 1800 with roughly 40,000 men; Battle of Marengo 14 June 1800.\nNapoleon's refusal to pose and his wish to be shown calm on a spirited horse are reported by David's early biographers; paraphrased, not quoted.\nUniform and hat from Marengo lent to David and an assistant posing on a ladder: traditional account.\nFive versions between 1801 and 1805 (Malmaison, Charlottenburg, two at Versailles, Belvedere Vienna).\nSignature on the horse's chest strap reads L. DAVID with the Revolutionary year IX; faint at this resolution.\nJoseph Bonaparte took the painting from Madrid, later kept it at Point Breeze, Bordentown, New Jersey; it reached Malmaison in 1949 through a descendant's bequest.\nDelaroche's mule version dated 1850.\nCharlemagne's crossing dated 773, Hannibal's 218 BC.",
   "lesson": [
-    {"type": "text", "text": "Picture a hall in the Royal Palace of Madrid, hung with portraits of famous generals. In 1800, King Charles IV of Spain wanted one more for that wall: the young French leader who had just beaten Austria. This canvas was painted to hang there, as a diplomatic gift between two countries that had recently been enemies."},
-    {"type": "text", "text": "The subject was fresh news. In May 1800, Napoleon Bonaparte led an army over the Great St Bernard Pass, a snowy route through the Alps, to surprise the Austrians in Italy. The job went to Jacques-Louis David, the most admired painter in France."},
-    {"type": "fact", "text": "The real crossing was far less glamorous. Bonaparte went over the pass on a mule, an animal much steadier than a horse on ice, led by a local guide, a few days after most of his troops."},
-    {"type": "text", "text": "David asked him to pose. Bonaparte refused. Nobody, he said, asks whether portraits of great men look like them: it is enough that their genius lives there. He is said to have asked for one thing only, to be shown calm on a fiery horse. So where do you put the calm, and where the fire?"},
-    {"type": "tour", "title": "Calm and fire", "text": "David split the two qualities between the rider and the animal. Follow them one at a time.", "spots": [
-      {"x": 0.6, "y": 0.225, "zoom": 3.6, "r": 0.07, "title": "The rider", "text": "Smooth skin, closed mouth, eyes fixed on you. He is on a rearing horse in a storm and his face shows no effort at all. This is an idea of Bonaparte, not a likeness taken from life."},
-      {"x": 0.36, "y": 0.22, "zoom": 3.4, "r": 0.08, "title": "The horse", "text": "The eye bulges, the mouth is open on the bit, the mane whips about. All the panic of the scene has been handed to the animal."},
-      {"x": 0.47, "y": 0.135, "zoom": 3.8, "r": 0.06, "title": "The bare hand", "text": "The left hand, gloved, holds the reins. The right is bare and points up, over the summit. A commander shows the way: he does not need to grip anything."}
-    ]},
-    {"type": "text", "text": "That contrast is the whole message. A man who stays this cool on such a horse can surely govern a country that has spent ten years in revolution. David belonged to Neoclassicism, a style that borrowed the clear outlines and heroic poses of ancient Greek and Roman art, and here he used it for a living politician."},
-    {"type": "text", "text": "With no sitter, David improvised. He borrowed the uniform and the two-cornered hat Bonaparte had worn at the battle of Marengo and dressed a mannequin in them. A pupil is said to have perched on a ladder to hold the pose. Then David built the picture like an architect."},
-    {"type": "lines", "text": "Three directions hold this picture together. They all push the same way.", "lines": [
-      {"points": [[0.0, 0.64], [0.6, 0.86]], "closed": false, "label": "The slope", "text": "The mountain path climbs from right to left. Horse and rider are set against it, so you feel the steepness in your own legs."},
-      {"points": [[0.86, 0.93], [0.6, 0.45], [0.47, 0.13]], "closed": false, "label": "The climb", "text": "From the back hooves on the rock, through the rider's body, to the tip of his finger: one long rising diagonal. A diagonal reads as movement, where a level line would read as rest."},
-      {"points": [[0.9, 0.3], [0.62, 0.2], [0.3, 0.17]], "closed": false, "label": "The wind", "text": "The cloak streams forward, in the direction he is pointing. Even the weather seems to push him toward Italy."}
-    ]},
-    {"type": "text", "text": "Notice what that wind does. The cloak wraps the rider in a great warm flame against a cold gray sky. The cloak and the gold trim are the only strong colors in the whole canvas, and they all belong to one man. The picture is about 2.6 meters tall (8.5 feet), so the horse is close to life size."},
-    {"type": "find", "text": "David wrote his hero into history, literally. Somewhere in this picture, a name is carved in capital letters. Tap it.", "spots": [
-      {"x": 0.12, "y": 0.91, "zoom": 3.2, "r": 0.1, "title": "BONAPARTE", "text": "Cut into the rock as if it had always been there. Just below, half hidden, you can make out the start of a second name: ANNIBAL. A third, KAROLVS MAGNVS, runs along the bottom edge."}
-    ]},
-    {"type": "text", "text": "Annibal is Hannibal, the general from Carthage who took his army and his elephants over the Alps to attack Rome around 218 BC. Karolus Magnus is Latin for Charlemagne, who crossed a thousand years later. In 1801 Bonaparte was not yet an emperor. The rocks already say what he would become."},
-    {"type": "fact", "text": "The portrait pleased Bonaparte so much that he ordered copies. David's studio produced five versions between 1801 and 1805. The horse changes coat from one to the next, and so does the color of the cloak."},
-    {"type": "text", "text": "And the army? Thousands of men dragged cannons over that pass, sometimes in hollowed tree trunks. In David's version they are squeezed into the gaps under the horse's belly, no taller than its hooves."},
-    {"type": "explore", "spots": [
-      {"x": 0.37, "y": 0.76, "zoom": 3.6, "r": 0.09, "title": "Hauling the cannon", "text": "A wheel, a gun barrel and men bent double. This small strip is the only honest part of the report: the crossing was hard labor."},
-      {"x": 0.11, "y": 0.66, "zoom": 3.6, "r": 0.08, "title": "Soldiers on the slope", "text": "A few hats and blue coats, climbing behind the front hooves. They look up the path, not at their commander."},
-      {"x": 0.6, "y": 0.42, "zoom": 2.4, "r": 0.13, "title": "The uniform", "text": "A general's dark blue coat with gold embroidery and a white sash. This was painted from the real clothes, lent to David."},
-      {"x": 0.57, "y": 0.66, "zoom": 3.2, "r": 0.07, "title": "Boot and stirrup", "text": "The leg hangs relaxed, toe pointed down. A rider on a horse rearing this high would be clinging on with his knees."},
-      {"x": 0.42, "y": 0.975, "zoom": 3.2, "r": 0.1, "title": "Charlemagne's name", "text": "KAROLVS MAGNVS IMP: Charles the Great, emperor. The carving is worn and partly cut by the frame, as if far older than the one above."},
-      {"x": 0.73, "y": 0.27, "zoom": 2.6, "r": 0.11, "title": "The hat", "text": "The bicorne, a hat with two points, worn sideways. With its tricolor cockade, the round badge of the Revolution, it became his trademark outline."}
-    ]},
-    {"type": "text", "text": "The painting did reach Madrid, but it did not stay. Napoleon's brother Joseph became king of Spain in 1808, lost the throne five years later, and took the canvas with him. It crossed the Atlantic to his estate in New Jersey, and only came back to France in 1949, to Malmaison, the house Napoleon had shared with Josephine."},
-    {"type": "fact", "text": "In 1850, the painter Paul Delaroche redid the scene the way it happened: a tired man in a gray coat, slumped on a mule, led by a guide through the snow. Both pictures are still famous."},
-    {"type": "text", "text": "So which one tells the truth about that day in May 1800? Delaroche gives you the facts. David gives you what an entire continent was about to believe. It is worth asking, in front of any official portrait, which of the two you are being shown."}
+    {
+      "type": "text",
+      "text": "This canvas was ordered for a wall in Madrid. In 1800 the king of Spain, Charles IV, wanted a portrait of France's new ruler for his Royal Palace, where it would join a gallery of great commanders. So the first viewers David had in mind were foreign courtiers who needed to be impressed."
+    },
+    {
+      "type": "text",
+      "text": "The subject was fresh news. In May 1800, Napoleon Bonaparte, thirty years old and First Consul of France, led some 40,000 men over the Great St Bernard Pass, high in the Alps, to surprise the Austrian army in Italy. A month later he beat them at Marengo."
+    },
+    {
+      "type": "fact",
+      "text": "Napoleon did not cross on a rearing stallion. He followed his troops a few days later, in fair weather, on a mule led by a local guide. A mule is slower and far safer on a mountain path."
+    },
+    {
+      "type": "text",
+      "text": "He also refused to pose. A likeness did not matter, he told David; what mattered was the character. His one instruction was to be shown calm on a fiery horse. David borrowed the uniform and hat worn at Marengo and had an assistant model them, perched on top of a ladder."
+    },
+    {
+      "type": "tour",
+      "title": "Calm on a fiery horse",
+      "text": "David turned that one sentence into four details.",
+      "spots": [
+        {
+          "x": 0.63,
+          "y": 0.2,
+          "zoom": 3.2,
+          "r": 0.07,
+          "title": "The face",
+          "text": "Smooth, pale, turned toward you. Not a hair is out of place under the two-cornered hat. He seems to be sitting for a portrait, not riding up a cliff."
+        },
+        {
+          "x": 0.38,
+          "y": 0.2,
+          "zoom": 3,
+          "r": 0.09,
+          "title": "The horse",
+          "text": "Now the animal: a rolling eye, flared nostrils, an open mouth showing teeth, ears back. All the fear in the picture belongs to the horse."
+        },
+        {
+          "x": 0.5,
+          "y": 0.115,
+          "zoom": 3.4,
+          "r": 0.06,
+          "title": "The bare hand",
+          "text": "The right hand, ungloved, points up and forward, beyond the edge of the canvas. The goal is somewhere you cannot see."
+        },
+        {
+          "x": 0.56,
+          "y": 0.35,
+          "zoom": 3.4,
+          "r": 0.06,
+          "title": "The gloved hand",
+          "text": "The left hand, in a white glove, holds the reins loosely against the mane. One hand is enough to control a panicking stallion."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Put the two halves together and you get the message. France had lived through ten years of revolution, terror and war. Here is the man who rides that wild energy without effort. The horse stands in for the country, and for history itself."
+    },
+    {
+      "type": "key",
+      "text": "This is a portrait of an idea, not of an event. David shows what Napoleon wanted people to believe about him: perfect calm in the middle of chaos."
+    },
+    {
+      "type": "text",
+      "text": "A message this simple needs a simple design. David trained in Rome and admired ancient sculpture, and he built pictures the way a mason builds a wall: a few strong lines first, everything else hung on them."
+    },
+    {
+      "type": "lines",
+      "text": "Almost everything here leans the same way.",
+      "lines": [
+        {
+          "points": [
+            [
+              0.9,
+              0.72
+            ],
+            [
+              0.62,
+              0.48
+            ],
+            [
+              0.38,
+              0.22
+            ]
+          ],
+          "closed": false,
+          "label": "The horse",
+          "text": "From rump to muzzle, the animal's body makes one long diagonal that climbs from lower right to upper left."
+        },
+        {
+          "points": [
+            [
+              0.66,
+              0.26
+            ],
+            [
+              0.57,
+              0.18
+            ],
+            [
+              0.49,
+              0.1
+            ]
+          ],
+          "closed": false,
+          "label": "The arm",
+          "text": "The pointing arm repeats that slope higher up, like a second arrow laid over the first."
+        },
+        {
+          "points": [
+            [
+              0.0,
+              0.66
+            ],
+            [
+              0.25,
+              0.74
+            ],
+            [
+              0.5,
+              0.82
+            ],
+            [
+              0.75,
+              0.89
+            ]
+          ],
+          "closed": false,
+          "label": "The mountain",
+          "text": "The dark ridge runs the other way, falling from left to right. Rider and ground form a big X, which is why the horse seems to burst upward."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Even the weather cooperates. The cloak, the mane and the tail all blow forward, in the direction of the pointing hand. A wind that strong should be in his face on a mountain pass. David puts it at his back, as if nature itself were pushing him to Italy."
+    },
+    {
+      "type": "fact",
+      "text": "David and his studio painted five versions between 1801 and 1805. You can tell them apart by color. Here the cloak is golden yellow and the horse is white with dark patches. In the later ones the cloak turns red."
+    },
+    {
+      "type": "text",
+      "text": "At the bottom left, the snow has been swept off a few slabs of rock. David carved a history lesson into them, in capital letters."
+    },
+    {
+      "type": "find",
+      "text": "Whose name is cut into the rock in the largest letters?",
+      "spots": [
+        {
+          "x": 0.1,
+          "y": 0.91,
+          "zoom": 3.4,
+          "r": 0.1,
+          "title": "BONAPARTE",
+          "text": "His name sits on top, in the cleanest letters. Under it, half cut off by the frame, you can read ANNIBAL and, further right, KAROLUS MAGNUS."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hannibal took his army and its elephants over the Alps in 218 BC to attack Rome. Charlemagne, Karolus Magnus in Latin, crossed in 773 to conquer northern Italy. Napoleon's name is added to the list, above the others. At that date he had ruled France for barely six months."
+    },
+    {
+      "type": "text",
+      "text": "The painter knew something about power. Jacques-Louis David had been a radical during the Revolution, voted for the death of Louis XVI, and went to prison when his political friends fell. His style, called Neoclassicism, copies the clear outlines and smooth, hard surfaces of ancient statues. You cannot see a single brushstroke."
+    },
+    {
+      "type": "text",
+      "text": "That polish makes the hero look carved. It also lets David tuck the real army into the gaps around the horse, small, bent and nearly the color of the rock."
+    },
+    {
+      "type": "explore",
+      "spots": [
+        {
+          "x": 0.27,
+          "y": 0.72,
+          "zoom": 3.4,
+          "r": 0.07,
+          "title": "A cannon wheel",
+          "text": "Under the horse's belly a gun carriage is being dragged uphill. Hauling the artillery over the pass was the truly hard part of the crossing."
+        },
+        {
+          "x": 0.08,
+          "y": 0.66,
+          "zoom": 3.2,
+          "r": 0.08,
+          "title": "The soldiers",
+          "text": "Men in blue coats and cocked hats trudge up the slope with their backs to you. Nobody painted their portraits."
+        },
+        {
+          "x": 0.3,
+          "y": 0.435,
+          "zoom": 4,
+          "r": 0.06,
+          "title": "The strap",
+          "text": "The dark strap across the horse's chest carries David's signature and the date in the Revolutionary calendar, year nine. The artist signs on the harness."
+        },
+        {
+          "x": 0.96,
+          "y": 0.83,
+          "zoom": 3.4,
+          "r": 0.05,
+          "title": "The flag",
+          "text": "At the right edge, a scrap of red, white and blue: the tricolor, far below, carried by troops still climbing."
+        },
+        {
+          "x": 0.33,
+          "y": 0.14,
+          "zoom": 2.4,
+          "r": 0.11,
+          "title": "The cloak",
+          "text": "The cloak flares into a great curl above the horse's head, almost a wing. It is the brightest patch of color on the canvas."
+        },
+        {
+          "x": 0.62,
+          "y": 0.75,
+          "zoom": 2.4,
+          "r": 0.12,
+          "title": "The tail",
+          "text": "The long tail streams forward between the hind legs, blown the same way as the cloak."
+        },
+        {
+          "x": 0.54,
+          "y": 0.5,
+          "zoom": 2.6,
+          "r": 0.1,
+          "title": "Sword and sash",
+          "text": "A curved saber hangs at his hip under a fringed sash. It stays sheathed. Up here he commands by pointing."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "The Madrid wall did not keep its picture long. In 1808 Napoleon put his brother Joseph on the Spanish throne. When Joseph fled five years later, he took the canvas with him, and eventually hung it in his house in New Jersey. A descendant left it in 1949 to Malmaison, the home near Paris where Napoleon lived at the time of the crossing."
+    },
+    {
+      "type": "fact",
+      "text": "In 1850 the painter Paul Delaroche produced his own version of the crossing: a tired man in a gray coat, hunched on a mule, led by a guide through the snow. It is closer to the facts, and far less famous."
+    },
+    {
+      "type": "text",
+      "text": "Everyone who reads about this picture learns about the mule. And still, when you think of Napoleon in the Alps, which image comes to mind?"
+    }
   ],
   "quiz": [
-    {"question": "Who ordered this painting?", "options": ["King Charles IV of Spain", "Napoleon's mother", "The Louvre"], "answer": 0, "explanation": "It was made for the Royal Palace in Madrid, as a diplomatic gesture."},
-    {"question": "What did Bonaparte really ride over the Great St Bernard Pass?", "options": ["A white stallion", "A sled", "A mule"], "answer": 2, "explanation": "A mule led by a local guide, much safer on ice than a horse."},
-    {"question": "How did David paint the uniform without Bonaparte posing?", "options": ["He invented it", "He put the borrowed clothes on a mannequin", "He copied an older portrait"], "answer": 1, "explanation": "He borrowed the uniform and hat worn at Marengo and dressed a mannequin."},
-    {"question": "Which names share the rocks with BONAPARTE?", "options": ["Caesar and Alexander", "Hannibal and Charlemagne", "Louis XIV and Joan of Arc"], "answer": 1, "explanation": "Both had led armies across the Alps before him."},
-    {"question": "Where does David put the panic of the scene?", "options": ["In the horse", "In the rider's face", "In the soldiers' gestures"], "answer": 0, "explanation": "The horse is wild-eyed so the rider can look perfectly calm."}
+    {
+      "question": "Who commissioned this first version of the painting?",
+      "options": [
+        "Napoleon himself",
+        "The king of Spain, Charles IV",
+        "The city of Paris"
+      ],
+      "answer": 1,
+      "explanation": "Charles IV ordered it for the Royal Palace in Madrid."
+    },
+    {
+      "question": "How did Napoleon actually cross the pass?",
+      "options": [
+        "On a mule led by a guide",
+        "On foot with his soldiers",
+        "On the white horse shown here"
+      ],
+      "answer": 0,
+      "explanation": "He followed his troops a few days later on a mule."
+    },
+    {
+      "question": "What was Napoleon's one instruction to David?",
+      "options": [
+        "To paint him smiling",
+        "To include his generals",
+        "To show him calm on a fiery horse"
+      ],
+      "answer": 2,
+      "explanation": "That contrast between calm rider and frightened horse carries the whole message."
+    },
+    {
+      "question": "Which names are carved in the rocks next to BONAPARTE?",
+      "options": [
+        "Caesar and Alexander",
+        "Hannibal and Charlemagne",
+        "Louis XIV and Henri IV"
+      ],
+      "answer": 1,
+      "explanation": "Both crossed the Alps with armies before Napoleon."
+    },
+    {
+      "question": "In which direction does the wind blow in the painting?",
+      "options": [
+        "Forward, toward the pointing hand",
+        "Straight into Napoleon's face",
+        "There is no wind"
+      ],
+      "answer": 0,
+      "explanation": "Cloak, mane and tail are all blown forward, as if nature were pushing him on."
+    },
+    {
+      "question": "Where did David place his signature?",
+      "options": [
+        "On the rock at lower left",
+        "On Napoleon's hat",
+        "On the strap across the horse's chest"
+      ],
+      "answer": 2,
+      "explanation": "The strap carries his name and the Revolutionary year nine."
+    }
   ],
   "facts": [
-    {"text": "Bonaparte sat for David for several weeks so the face would be accurate.", "isTrue": false, "explanation": "He refused to pose, saying likeness did not matter."},
-    {"text": "David's studio made five versions of this picture.", "isTrue": true, "explanation": "They were produced between 1801 and 1805, with different horses and cloaks."},
-    {"text": "The painting spent years in the United States.", "isTrue": true, "explanation": "Joseph Bonaparte took it to his New Jersey estate; it returned to France in 1949."}
+    {
+      "text": "Napoleon posed for David for many hours for this portrait.",
+      "isTrue": false,
+      "explanation": "He refused to pose; an assistant modeled the borrowed uniform on a ladder."
+    },
+    {
+      "text": "David and his studio made five versions of this painting.",
+      "isTrue": true,
+      "explanation": "They were painted between 1801 and 1805 and differ in the colors of cloak and horse."
+    },
+    {
+      "text": "The painting has always stayed in Europe.",
+      "isTrue": false,
+      "explanation": "Joseph Bonaparte hung it for a time in his house in New Jersey."
+    }
   ]
 }

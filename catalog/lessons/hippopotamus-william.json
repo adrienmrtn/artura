@@ -1,154 +1,39 @@
 {
- "teaser": "A small blue hippo, sealed in a tomb shaft and never meant to be seen by anyone alive.",
- "focus": [
-  0.6,
-  0.42
- ],
- "review_notes": "IMAGE MISMATCH: the catalog image shows a dark bronze/copper-alloy hippopotamus statuette with green corrosion, not the Met's blue faience hippo 'William' (accession 17.9.1). The lesson text describes William; the single interactive block points only at the general shape of the animal in the current image and must be redone once the correct image is in place.\nTomb attribution: shaft of the tomb chapel of the steward Senbi (II) at Meir, excavated 1910; Met purchase 1917.\nPunch article by Captain H. M. Raleigh, 18 March 1931; reprinted in the Met Bulletin the same year.\nThree of the four legs are modern restorations (Met).\nSize about 20 cm long, 11 cm high.",
- "lesson": [
-  {
-   "type": "text",
-   "text": "Meir, Middle Egypt, around 1900 BC. A shaft is cut straight down into the desert rock beside the tomb chapel of a steward named Senbi. At the bottom, next to the coffin, someone sets down a hippopotamus about the length of a hand. Then the shaft is filled in. The little animal is meant for darkness, and for one viewer only: the dead man."
-  },
-  {
-   "type": "text",
-   "text": "That hippo is the one New Yorkers call William. He is about 20 cm long (8 inches) and bright blue-green, with river plants painted in black lines across his back and sides: lotus buds, open lotus flowers, leaves. It is as if you were seeing the animal through the marsh it lives in."
-  },
-  {
-   "type": "fact",
-   "text": "The picture attached to this lesson is not William. It shows a dark metal hippo statuette, with no blue glaze and no painted flowers. Use it for the animal's shape only, and keep in mind that the real William is the color of a swimming pool."
-  },
-  {
-   "type": "text",
-   "text": "Why bury a hippo with a man you loved? To Egyptians the animal had two faces. It was among the most dangerous creatures on the Nile, able to overturn a boat and crush a field of crops in a night. It also sank under the water and rose again each morning, which made it a sign of rebirth."
-  },
-  {
-   "type": "text",
-   "text": "The lotus painted on William says the same thing in flowers. A lotus closes at night and opens again with the sun. So the tomb held a small machine for coming back to life: an animal that resurfaces, wrapped in a plant that reopens."
-  },
-  {
-   "type": "key",
-   "text": "An Egyptian tomb object is not decoration. It is equipment, placed there to do a job for the dead in the next life."
-  },
-  {
-   "type": "text",
-   "text": "But a helper this dangerous needed a safety catch. A statue, in Egyptian thinking, could become the thing it showed. A hippo loose in the afterlife might attack its owner. The answer was simple and brutal, and it concerns the part of the animal that touches the ground."
-  },
-  {
-   "type": "tour",
-   "title": "Shape of a hippo",
-   "text": "This stand-in statuette has the same build as William. Two places matter for his story.",
-   "spots": [
-    {
-     "x": 0.47,
-     "y": 0.76,
-     "zoom": 1.7,
-     "r": 0.28,
-     "title": "Four short legs",
-     "text": "Before burial, William's legs were snapped off on purpose so he could not charge. Three of the four you see on him at the Met today are modern replacements."
-    },
-    {
-     "x": 0.68,
-     "y": 0.42,
-     "zoom": 2.2,
-     "r": 0.16,
-     "title": "The heavy head",
-     "text": "Egyptian makers kept the head low and broad, eyes and ears set high, the way a hippo looks when only the top of its skull breaks the surface of the river."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "So the animal you meet in the museum has been repaired against the wishes of the people who buried him. They wanted him crippled. We wanted him whole. It is a small reminder that museums change what objects mean."
-  },
-  {
-   "type": "text",
-   "text": "His body is not clay and not stone. It is Egyptian faience: ground quartz mixed with a little lime and plant ash, shaped by hand, then fired. In the kiln the surface melts into a glassy skin, and a pinch of copper turns it blue-green. Egyptians called the material by a word meaning “dazzling”."
-  },
-  {
-   "type": "fact",
-   "text": "He got his name from a joke. In 1931 the British magazine Punch printed a story by Captain H. M. Raleigh, whose family kept a color print of the Met's hippo on the wall, called it William, and consulted its expression before making decisions."
-  },
-  {
-   "type": "text",
-   "text": "The museum reprinted the story, and the name stuck for good. The hippo had entered the collection in 1917. Since then he has become its unofficial mascot, copied as toys, mugs and children's books. A tomb guard for one Egyptian official now greets millions of strangers."
-  },
-  {
-   "type": "text",
-   "text": "He was not alone. Blue hippos like him were placed in many tombs of the same period, and several museums own one. What makes this one famous is partly his quality, the even glaze and the confident drawing, and partly the luck of a good nickname."
-  },
-  {
-   "type": "key",
-   "text": "William was made to be dangerous, then disarmed, then buried. Almost 4,000 years later he was dug up, mended and given a pet name. Each age has made a different animal of him."
-  }
- ],
- "quiz": [
-  {
-   "question": "Where was William placed around 1900 BC?",
-   "options": [
-    "In a temple courtyard",
-    "In a tomb shaft at Meir, beside a coffin",
-    "In a palace garden pool"
-   ],
-   "answer": 1,
-   "explanation": "He was set down in the burial shaft of the steward Senbi's tomb at Meir."
-  },
-  {
-   "question": "Why were his legs broken before burial?",
-   "options": [
-    "So he could not harm the dead man in the afterlife",
-    "To make him fit inside the coffin",
-    "They broke by accident in the kiln"
-   ],
-   "answer": 0,
-   "explanation": "A statue could become what it showed, so the hippo was disarmed."
-  },
-  {
-   "question": "What is Egyptian faience made from?",
-   "options": [
-    "River clay",
-    "Carved turquoise",
-    "Ground quartz, fired until the surface turns glassy"
-   ],
-   "answer": 2,
-   "explanation": "Faience is a quartz-based ceramic, colored blue-green with copper."
-  },
-  {
-   "question": "What do the lotus flowers painted on him suggest?",
-   "options": [
-    "Royal power",
-    "Rebirth, since the lotus reopens every morning",
-    "The name of the owner"
-   ],
-   "answer": 1,
-   "explanation": "The lotus closes at night and opens with the sun, a sign of rebirth."
-  },
-  {
-   "question": "Where does the name William come from?",
-   "options": [
-    "A 1931 story in the magazine Punch",
-    "The archaeologist who found him",
-    "An inscription under his belly"
-   ],
-   "answer": 0,
-   "explanation": "Captain H. M. Raleigh's family had nicknamed a print of the hippo William."
-  }
- ],
- "facts": [
-  {
-   "text": "William is carved from blue stone.",
-   "isTrue": false,
-   "explanation": "He is modeled in faience, a fired quartz ceramic with a glassy blue-green surface."
-  },
-  {
-   "text": "Most of the legs you see on William today are modern restorations.",
-   "isTrue": true,
-   "explanation": "His legs were deliberately broken in antiquity, and three were remade."
-  },
-  {
-   "text": "Ancient Egyptians saw the hippopotamus only as a harmless, friendly animal.",
-   "isTrue": false,
-   "explanation": "It was feared as one of the most dangerous animals on the Nile, and also linked to rebirth."
-  }
- ]
+  "teaser": "A blue hippo sealed in a tomb for 3,800 years, with its legs broken on purpose.",
+  "focus": [0.3, 0.45],
+  "review_notes": "Date about 1961 to 1878 BC (Dynasty 12); from the tomb chapel shaft of the steward Senbi II at Meir; length 20 cm.\nThree of the four legs were broken in antiquity and are modern restorations; the lesson does not say which one is original, since the photo does not make that certain.\nNickname from a story by H. M. Raleigh in the magazine Punch, 1931, reprinted by the Met.\nGift of Edward S. Harkness, 1917.\nHippos disappeared from Egypt in the 19th century.",
+  "lesson": [
+    {"type": "text", "text": "This animal was made for a place with no light at all: a burial shaft cut into the desert cliffs at Meir, in the middle of Egypt, around 1900 BC. It was set down beside a coffin, the shaft was filled in, and the plan was that no living person would ever lay eyes on it again."},
+    {"type": "text", "text": "The tomb belonged to a steward named Senbi, a well-off official. Among the things he took with him was this hippopotamus, about 20 centimeters long (8 inches), small enough to hold in two hands. It is bright blue, and it is covered in drawings."},
+    {"type": "text", "text": "Real hippos are gray-brown and have nothing on their skin. So the potter was not trying to copy one. The black outlines tell you where this hippo lives."},
+    {"type": "tour", "title": "Written on the skin", "text": "Three drawings, one habitat.", "spots": [
+      {"x": 0.57, "y": 0.4, "zoom": 2.6, "r": 0.1, "title": "An open lotus", "text": "On the flank, a water lily in full flower, its pointed petals fanning upward from a long stem that runs down the belly."},
+      {"x": 0.45, "y": 0.46, "zoom": 2.8, "r": 0.08, "title": "A bud", "text": "Next to it, a closed bud, shaped like a teardrop and filled with dots. Another one stands on the far side of the open flower."},
+      {"x": 0.74, "y": 0.56, "zoom": 2.8, "r": 0.08, "title": "A lily pad", "text": "Near the rump, a round floating leaf seen from above, with veins spreading from its center like spokes."}
+    ]},
+    {"type": "text", "text": "Put together, the plants are a marsh, and the blue is the Nile. The hippo is shown the way an Egyptian in a boat would meet one: half sunk among the lilies, with the river plants seeming to grow across its back. The body is animal and landscape at once."},
+    {"type": "fact", "text": "The material is called Egyptian faience, and it contains no clay. It is mostly crushed quartz, the mineral in sand, mixed into a paste, shaped, and fired. A little copper in the mix rises to the surface in the kiln and turns into this glassy turquoise skin."},
+    {"type": "text", "text": "Why bury a rich man with a hippo? Because of what the lotus does. The flower closes and sinks at dusk, then rises and opens at dawn. To Egyptians that was rebirth in miniature. A creature of the life-giving river, dressed in lotus, was a charm to help the dead man wake up again."},
+    {"type": "text", "text": "But the same animal overturned boats and trampled fields. A hippo was one of the most feared things on the Nile, and in a tomb, images were thought to come alive. The burial party took a precaution, and its trace is still visible."},
+    {"type": "find", "text": "Part of this hippo is a modern repair. Which part looks different from the rest?", "spots": [
+      {"x": 0.7, "y": 0.72, "zoom": 2.8, "r": 0.09, "title": "The legs", "text": "The legs are a flatter, duller blue than the glossy, crackled body. Three of the four were snapped off in ancient times and remade by the museum."}
+    ]},
+    {"type": "text", "text": "The breaks were deliberate. Before the tomb was closed, someone knocked the legs off so the hippo could not charge around in the afterlife and hurt its owner. He was allowed to bring the river's power with him, on the condition that it stayed put."},
+    {"type": "key", "text": "To the Egyptians an image was not a picture of a thing. It was the thing, with all its force. That is why this small statue had to be both invited and disarmed."},
+    {"type": "fact", "text": "The name is a joke that stuck. In 1931 a British humor magazine ran a story about a family who kept a print of the hippo on the wall, called him William, and read his expression before making decisions. The museum reprinted it, and the name has been his ever since."},
+    {"type": "fact", "text": "You will not meet his relatives on the Nile in Egypt anymore. Wild hippos, once common there, were hunted out of the country by the nineteenth century."},
+    {"type": "text", "text": "William came to the Metropolitan Museum in New York in 1917 and became its unofficial mascot, printed on bags, ties and children's books. An object made for total darkness, to be seen by one dead man, now stands on four legs under spotlights in front of millions."}
+  ],
+  "quiz": [
+    {"question": "What is William made of?", "options": ["Painted clay", "Faience, a fired paste of crushed quartz", "Carved turquoise stone"], "answer": 1, "explanation": "Egyptian faience contains no clay; copper gives it the blue glaze."},
+    {"question": "What do the black drawings on his body show?", "options": ["Lotus flowers, buds and leaves of the river marsh", "Hieroglyphs spelling the owner's name", "Fish and birds"], "answer": 0, "explanation": "They place the hippo among the water lilies of the Nile."},
+    {"question": "Why were his legs broken before burial?", "options": ["To fit him in the coffin", "By tomb robbers looking for gold", "So he could not harm the dead man in the afterlife"], "answer": 2, "explanation": "A dangerous animal's image had to be disarmed."},
+    {"question": "Why did the lotus suggest rebirth?", "options": ["It only grows on tombs", "It closes at dusk and opens again at dawn", "It never loses its petals"], "answer": 1, "explanation": "Its daily reopening looked like coming back to life."},
+    {"question": "Where does the name William come from?", "options": ["A humorous magazine story from 1931", "The archaeologist who found him", "An ancient inscription"], "answer": 0, "explanation": "A story about a family who consulted the hippo gave him the name."}
+  ],
+  "facts": [
+    {"text": "The statue was made to be displayed in the steward's house.", "isTrue": false, "explanation": "It was made for his tomb, sealed in a burial shaft."},
+    {"text": "William is about 20 centimeters long.", "isTrue": true, "explanation": "He is small enough to hold in two hands."},
+    {"text": "The blue color copies the real color of a hippopotamus.", "isTrue": false, "explanation": "Real hippos are gray-brown; the blue stands for the water of the Nile."}
+  ]
 }

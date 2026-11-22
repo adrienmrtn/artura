@@ -1,260 +1,38 @@
 {
- "teaser": "Half animal, half engine: a horse built from pistons, wheels and one coiled spring of bronze.",
- "focus": [
-  0.25,
-  0.35
- ],
- "review_notes": "IMAGE: the photo is a two-panel montage (left and right views) of an outdoor cast, apparently the Museum of Fine Arts, Houston cast in the Cullen Sculpture Garden, not the Centre Pompidou cast. The lesson says so in general terms.\nOriginal plaster about 44 cm high; Large Horse about 100 cm; 'Cheval majeur' 150 cm (1966, supervised by Marcel Duchamp): check figures.\nEnlargement to 1 m supervised by Jacques Villon around 1930-31: check date.\nRheumatic fever around 1898 ending his medical studies: check.\nServed as auxiliary doctor with a cavalry regiment (11th Cuirassiers); typhoid contracted late 1916; died 7 or 9 October 1918 in Cannes, aged 41: check.\nClaim that he intended to enlarge the horse himself: widely reported, check.\nAnatomical readings (leg, bowed neck, muzzle) are interpretations and are hedged in the text.",
- "lesson": [
-  {
-   "type": "text",
-   "text": "This horse was made for a tabletop. In 1914, in a garden studio in Puteaux, just west of Paris, Raymond Duchamp-Villon modeled it in plaster at about 44 cm high (17 in), small enough to carry under one arm. The bronze you see here stands about a meter tall (roughly 40 in), on a plinth, in the open air. The sculptor never saw it that way."
-  },
-  {
-   "type": "text",
-   "text": "Puteaux mattered. On Sundays, painters, poets and mathematicians gathered in the shared garden of Raymond and his brother Jacques Villon to argue about Cubism, the new way of breaking an object into planes and showing several sides of it at once. Most of them worked on canvas. Raymond wanted to know what the idea could do in three dimensions."
-  },
-  {
-   "type": "fact",
-   "text": "Art ran in the family. Raymond was the brother of the painter Jacques Villon, of Marcel Duchamp and of the painter Suzanne Duchamp. He joined his own surname to the one Jacques had adopted, so the two would not be confused."
-  },
-  {
-   "type": "text",
-   "text": "He started with something quite traditional: a horse and its rider, the oldest subject for a monument. Study after study, the rider disappeared, then the skin, then the anatomy. What stayed was the thing he actually cared about, which was not what a horse looks like but what a horse does: it gathers itself, then releases."
-  },
-  {
-   "type": "text",
-   "text": "To build that feeling, he borrowed from the workshop instead of the stable. The photo shows the bronze from two sides. Stay with the left-hand view first and look for parts you would expect inside an engine."
-  },
-  {
-   "type": "tour",
-   "title": "Animal or engine?",
-   "text": "Left view: three forms that belong as much to a machine as to a body.",
-   "spots": [
-    {
-     "x": 0.115,
-     "y": 0.4,
-     "zoom": 2.6,
-     "r": 0.085,
-     "title": "The wheel",
-     "text": "Curved bands wrap around a hub with a short axle sticking out. Where you might expect a shoulder or a haunch, there is something close to a flywheel."
-    },
-    {
-     "x": 0.255,
-     "y": 0.5,
-     "zoom": 2.2,
-     "r": 0.07,
-     "shape": "rect",
-     "title": "The rod",
-     "text": "A straight bar drops on a diagonal through the middle, like the connecting rod that drives a locomotive wheel. It can also be read as a leg, folded and ready to push."
-    },
-    {
-     "x": 0.325,
-     "y": 0.36,
-     "zoom": 3,
-     "r": 0.06,
-     "title": "The ring",
-     "text": "The rod passes behind a thick oval collar with nested ridges, a joint turned into a bearing. Everything rotates around points like this one."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "Wheel, rod, bearing. He had not swapped the horse for a machine, he had fused the two. The timing explains a lot: in 1914 the horse still pulled carts and carried armies, while the engine was taking over its work. People still measure engines in horsepower. This sculpture is that word given a body."
-  },
-  {
-   "type": "key",
-   "text": "Duchamp-Villon did not carve the look of a horse. He built the mechanics of its energy, using the vocabulary of pistons and wheels."
-  },
-  {
-   "type": "fact",
-   "text": "Before sculpture, he studied medicine in Paris. A long bout of rheumatic fever around 1898 interrupted his studies, and he taught himself to model during his recovery. He never went back."
-  },
-  {
-   "type": "text",
-   "text": "The parts are only half of it. The other half is how they are arranged. Nothing in this form stands straight or rests flat. The whole mass is wound up, like a spring pressed down before it jumps."
-  },
-  {
-   "type": "lines",
-   "text": "Follow the directions the forms take, first on the left view, then on the right.",
-   "lines": [
-    {
-     "points": [
-      [
-       0.05,
-       0.4
-      ],
-      [
-       0.1,
-       0.25
-      ],
-      [
-       0.2,
-       0.14
-      ],
-      [
-       0.3,
-       0.09
-      ],
-      [
-       0.4,
-       0.17
-      ],
-      [
-       0.455,
-       0.28
-      ],
-      [
-       0.44,
-       0.4
-      ]
-     ],
-     "closed": false,
-     "label": "The arch",
-     "text": "The upper mass rises from the left, crests, and curls back down like a bowed neck. The curve holds the energy in, the way a horse lowers its head before a jump."
-    },
-    {
-     "points": [
-      [
-       0.31,
-       0.29
-      ],
-      [
-       0.215,
-       0.72
-      ]
-     ],
-     "closed": false,
-     "label": "The thrust",
-     "text": "Against the curve, one hard straight line. It leans, so it feels like a push about to happen rather than a post holding weight."
-    },
-    {
-     "points": [
-      [
-       0.62,
-       0.07
-      ],
-      [
-       0.78,
-       0.17
-      ],
-      [
-       0.915,
-       0.4
-      ]
-     ],
-     "closed": false,
-     "label": "The other side",
-     "text": "Seen from the right view, the same sculpture becomes one long, smooth plane sliding downward. The tangle of parts hides behind a calm shell."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "That last line is the reason the photo needed two panels. A painting has one face. This object has no best side: walk a few steps and the coiled machine turns into a sleek hood, then back again. Cubist painters tried to pack several viewpoints onto a flat canvas. A sculptor gets them for free, as long as you keep moving."
-  },
-  {
-   "type": "text",
-   "text": "One small detail connects the two faces of the bronze. It is the only almost perfect sphere in the whole piece."
-  },
-  {
-   "type": "find",
-   "text": "In the left-hand view, the form that curls down like a bowed head ends in a small ball. Tap it.",
-   "spots": [
-    {
-     "x": 0.445,
-     "y": 0.405,
-     "zoom": 3.5,
-     "r": 0.04,
-     "title": "The ball",
-     "text": "A rounded knob hangs at the tip of the downward curl, part muzzle, part ball joint. In the right view you can spot it again, peeking out at the far left edge of the bronze."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "Then the war came. In August 1914 Duchamp-Villon joined the army as a medical officer attached to a cavalry regiment, surrounded daily by real horses. He kept thinking about his own, and about making it larger. In 1916, at the front, he caught typhoid fever. He died in a military hospital in Cannes in October 1918, a month before the armistice, aged 41."
-  },
-  {
-   "type": "fact",
-   "text": "The enlargement was a family job. Jacques Villon oversaw the one-meter version around 1930, following his brother's wishes. In 1966, Marcel Duchamp supervised an even bigger one, about 1.5 m high (5 ft), known as “Le Cheval majeur.”"
-  },
-  {
-   "type": "text",
-   "text": "So “The Large Horse” is dated 1914 for its idea, though the bronze itself is younger than its author. Casts stand in several museums, the Centre Pompidou in Paris among them, and this photo shows one placed outdoors in a sculpture garden. A form shaped on a table in a suburban studio ended up as the monument it was first meant to be, minus the rider."
-  },
-  {
-   "type": "key",
-   "text": "Walk around a sculpture before you judge it. Here, one side shows the machinery and the other shows the skin, and neither is the front."
-  }
- ],
- "quiz": [
-  {
-   "question": "How tall was the plaster horse Duchamp-Villon modeled in 1914?",
-   "options": [
-    "About 44 cm",
-    "About 1 meter",
-    "About 1.5 meters"
-   ],
-   "answer": 0,
-   "explanation": "The original was a tabletop plaster; the larger bronzes came after his death."
-  },
-  {
-   "question": "Which kind of forms did he mix with the horse's body?",
-   "options": [
-    "Leaves and branches",
-    "Machine parts such as rods and wheels",
-    "Musical instruments"
-   ],
-   "answer": 1,
-   "explanation": "The sculpture fuses animal energy with the vocabulary of engines."
-  },
-  {
-   "question": "What did the first studies for the sculpture show?",
-   "options": [
-    "A locomotive",
-    "A racing car",
-    "A horse with its rider"
-   ],
-   "answer": 2,
-   "explanation": "He began with a traditional horse and rider, then stripped it down."
-  },
-  {
-   "question": "Who supervised the one-meter enlargement?",
-   "options": [
-    "Pablo Picasso",
-    "His brother Jacques Villon",
-    "The sculptor himself, in 1914"
-   ],
-   "answer": 1,
-   "explanation": "Jacques Villon carried it out around 1930, after Raymond's death."
-  },
-  {
-   "question": "Why does the lesson show the bronze from two sides?",
-   "options": [
-    "Because it looks very different as you move around it",
-    "Because two different sculptures are compared",
-    "Because one side is damaged"
-   ],
-   "answer": 0,
-   "explanation": "One side shows tangled machinery, the other a long smooth plane."
-  }
- ],
- "facts": [
-  {
-   "text": "Duchamp-Villon saw his horse cast in bronze at one meter high.",
-   "isTrue": false,
-   "explanation": "He died in 1918; the enlargement was made later under his brother's supervision."
-  },
-  {
-   "text": "Raymond Duchamp-Villon was the brother of Marcel Duchamp.",
-   "isTrue": true,
-   "explanation": "Jacques Villon, Marcel Duchamp and Suzanne Duchamp were his siblings."
-  },
-  {
-   "text": "He trained as an engineer before turning to sculpture.",
-   "isTrue": false,
-   "explanation": "He studied medicine, and taught himself sculpture after an illness."
-  }
- ]
+  "teaser": "Half stallion, half engine, designed weeks before the war that made horses obsolete.",
+  "focus": [0.62, 0.35],
+  "review_notes": "The photo shows the dark bronze against a bright window, so interior forms are hard to read; only two interactive blocks on large regions are used, and readings of forms (hoof, neck, piston) are hedged.\nConceived 1914 as a small plaster; the artist died in 1918. Enlargements were made after his death under his brothers' supervision (about 1 m in 1930-31 with Jacques Villon; about 1.5 m in 1966 with Marcel Duchamp). The Nasher cast is taken to be the 1.5 m version: please confirm size and cast date.\nDuchamp-Villon studied medicine before turning to sculpture; served as a medical officer with a cavalry regiment; contracted typhoid in 1916.\nHis admiration in writing for the Eiffel Tower and iron engineering.",
+  "lesson": [
+    {"type": "text", "text": "This horse was first worked out for a garden shed. In Puteaux, a village on the western edge of Paris, three brothers had studios around a shared yard. On Sundays painters and poets came to argue about geometry, play chess and shoot at targets. One brother, Raymond, was modeling a horse in clay."},
+    {"type": "text", "text": "Raymond Duchamp-Villon had trained as a doctor until illness cut his studies short, and he knew anatomy from the inside. His first sketches for the project were ordinary: a rider on a rearing animal. Then he began to strip it down. The rider went. Skin, mane and tail went."},
+    {"type": "text", "text": "By the summer of 1914 almost nothing horse-like was left, and something else had taken its place. Circle the bronze as this photo shows it, against the windows of the Nasher in Dallas, and name the parts if you can."},
+    {"type": "tour", "title": "Animal or engine?", "text": "The dark shape is easier to read one piece at a time.", "spots": [
+      {"x": 0.8, "y": 0.27, "zoom": 1.9, "r": 0.2, "title": "The overhang", "text": "A heavy, curved mass thrusts forward at the top, ending in a rounded knob. Many people read a lowered neck and head here. Its edges are as clean as a machine hood."},
+      {"x": 0.32, "y": 0.4, "zoom": 2.0, "r": 0.17, "title": "Wheels within", "text": "On the left, nested arcs and flat discs sit one inside the other like gears or a flywheel. Where a real horse has a muscled haunch, this one has a mechanism."},
+      {"x": 0.5, "y": 0.68, "zoom": 2.0, "r": 0.14, "shape": "rect", "title": "The shaft", "text": "A straight bar drives down through the middle to a bent, flaring form near the base that suggests a hoof. It looks like a piston rod linking engine to ground."}
+    ]},
+    {"type": "text", "text": "This is Cubism carried into three dimensions. Cubist painters broke objects into flat facets and showed several sides at once. Duchamp-Villon does the same with solid metal, and adds a second idea: he fuses two subjects. A leg is a connecting rod. A joint is an axle."},
+    {"type": "fact", "text": "When war broke out in August 1914 he enlisted as a medical officer and was attached to a cavalry regiment. He kept refining the horse while on leave, after watching real ones under fire every day."},
+    {"type": "text", "text": "He never saw it at this size. He caught typhoid fever at the front and died in 1918, aged 41, leaving a plaster model under half a meter tall. His brothers, the painter Jacques Villon and the artist Marcel Duchamp, later had it enlarged in stages. This bronze stands about 1.5 meters (5 feet)."},
+    {"type": "key", "text": "The Large Horse does not show what a horse looks like. It shows what a horse does: it stores energy and releases it. The forms of a machine say that more directly than fur and muscle could."},
+    {"type": "text", "text": "Because it portrays force more than a body, the best way in is to follow where the force goes."},
+    {"type": "lines", "text": "Two movements run through the sculpture.", "lines": [
+      {"points": [[0.2, 0.47], [0.3, 0.3], [0.5, 0.2], [0.72, 0.13], [0.9, 0.25], [0.88, 0.4]], "closed": false, "label": "The arch", "text": "The outer contour rises from the left, swells over the top and curls down at the right, like a spring being wound or an animal gathering itself before a jump."},
+      {"points": [[0.72, 0.35], [0.55, 0.6], [0.47, 0.76]], "closed": false, "label": "The thrust", "text": "From the coiled center, a diagonal shoots down to the base. This is the release: power sent from the body into the ground, the way a piston turns pressure into motion."}
+    ]},
+    {"type": "fact", "text": "He loved engineering openly. In an essay he praised the Eiffel Tower, which many artists of his day still called ugly, as a triumph of iron and mathematics that sculptors should learn from."},
+    {"type": "text", "text": "There is an irony in the date. In 1914 armies still rode to war, and engine power was still measured in horses. Four years of machine guns and trucks ended that world. Duchamp-Villon's hybrid was modeled at the exact moment one kind of horsepower handed over to the other."}
+  ],
+  "quiz": [
+    {"question": "What did Duchamp-Villon study before becoming a sculptor?", "options": ["Engineering", "Medicine", "Law"], "answer": 1, "explanation": "He trained as a doctor until illness interrupted his studies."},
+    {"question": "What two things does the sculpture fuse?", "options": ["A horse and a machine", "A horse and a rider", "A horse and a bird"], "answer": 0, "explanation": "Gears, shafts and pistons take the place of muscles and joints."},
+    {"question": "Who had the sculpture enlarged to its present size?", "options": ["The artist himself in 1914", "The French army", "His brothers, after his death"], "answer": 2, "explanation": "He left only a small plaster; Jacques Villon and Marcel Duchamp oversaw the enlargements."},
+    {"question": "According to the lesson, what does the sculpture show about a horse?", "options": ["Its exact anatomy", "What it does: storing and releasing energy", "Its color and coat"], "answer": 1, "explanation": "It portrays force more than appearance."},
+    {"question": "Where were the brothers' studios?", "options": ["Puteaux, on the edge of Paris", "Dallas, Texas", "Rome"], "answer": 0, "explanation": "They shared a yard in Puteaux where artists met on Sundays."}
+  ],
+  "facts": [
+    {"text": "Duchamp-Villon's first sketches for the project already looked like a machine.", "isTrue": false, "explanation": "He began with an ordinary horse and rider and stripped it down step by step."},
+    {"text": "The artist served with a cavalry regiment during the First World War.", "isTrue": true, "explanation": "He was a medical officer attached to the cavalry."},
+    {"text": "He admired the Eiffel Tower and wrote in praise of it.", "isTrue": true, "explanation": "He saw it as a triumph of iron and mathematics."}
+  ]
 }

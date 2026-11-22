@@ -1,177 +1,41 @@
 {
- "teaser": "A woman king borrows a lion's body, and a style that was already four centuries old.",
- "focus": [
-  0.52,
-  0.16
- ],
- "review_notes": "IMAGE: the photo shows the Met's small limestone maned sphinx (acc. 31.3.94, usually titled 'Hatshepsut as a Maned Sphinx'), not the colossal granite 'Sphinx of Hatshepsut' (31.3.166). The lesson is written about the limestone sphinx shown.\nLength given as roughly one meter; check Met dimensions.\nSmooth pale areas described as modern plaster restoration, colored and rough areas as original stone.\nChest inscription read as 'Maatkare, beloved of Amun, given life forever' per the Met.\nReign dates c. 1479-1458 BC; destruction about 20 years after her death under Thutmose III.\nOriginal placement (a pair flanking the upper ramp at Deir el-Bahri) follows the Met's reconstruction.",
- "lesson": [
-  {
-   "type": "text",
-   "text": "One thousand years. That is roughly how old the Great Sphinx of Giza already was when this small sphinx was carved, around 1470 BC. For the person who ordered it, a sphinx was a deeply traditional image. Which was exactly why she wanted one."
-  },
-  {
-   "type": "text",
-   "text": "Her name was Hatshepsut. She was a king's daughter and a king's widow, and she began by ruling on behalf of her young stepson. Then, within a few years, she took the full titles of pharaoh for herself and held them for about two decades."
-  },
-  {
-   "type": "text",
-   "text": "Egypt had no word for a ruling queen and no images for one. A pharaoh was male by definition. So Hatshepsut's sculptors gave her the ancient kit of kingship, piece by piece, and a sphinx, a lion with a human head, was among the oldest pieces available."
-  },
-  {
-   "type": "tour",
-   "title": "Half animal, all king",
-   "text": "This sphinx is more lion than most. Follow the head from the top down.",
-   "spots": [
-    {
-     "x": 0.59,
-     "y": 0.09,
-     "zoom": 3.2,
-     "r": 0.05,
-     "title": "Lion's ears",
-     "text": "Round animal ears stand where human ones would be. The Great Sphinx wears a royal headcloth. Here the sculptor kept the lion's own ears and mane, so only the face is human."
-    },
-    {
-     "x": 0.44,
-     "y": 0.22,
-     "zoom": 2.8,
-     "r": 0.08,
-     "title": "The mane",
-     "text": "A stiff ruff frames the face, its fur drawn as fine cut lines. The warm orange patches are original painted surface: the whole statue was once colored."
-    },
-    {
-     "x": 0.525,
-     "y": 0.15,
-     "zoom": 3.6,
-     "r": 0.06,
-     "title": "The face",
-     "text": "Wide eyes, a small firm mouth, a pointed chin. Hatshepsut's statues share this delicate, slightly catlike face. On the forehead, a stump remains from the royal cobra."
-    },
-    {
-     "x": 0.535,
-     "y": 0.31,
-     "zoom": 2.6,
-     "r": 0.07,
-     "title": "The beard",
-     "text": "A long false beard, strapped on by kings at ceremonies. On a woman it was not a disguise. It was a badge of office, like a crown.",
-     "shape": "rect"
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "That mane was a quotation. Sphinxes with a lion's ruff had been made for kings of the Twelfth Dynasty, some four hundred years earlier, an age Egyptians looked back on as a classic. By copying their look, Hatshepsut claimed a place in their line."
-  },
-  {
-   "type": "fact",
-   "text": "The sphinx is a patchwork. The smooth, pale areas are modern plaster, filling gaps between the surviving chunks of limestone. The broken, darker surfaces, like the rough front of the base, are the ancient stone."
-  },
-  {
-   "type": "text",
-   "text": "It is in pieces because someone wanted it gone. About twenty years after Hatshepsut died, her stepson Thutmose III had her statues dragged out of her temple at Deir el-Bahri, near modern Luxor, smashed, and dumped in nearby pits."
-  },
-  {
-   "type": "text",
-   "text": "The smashing was thorough, but it missed something. Egyptians believed a name carried a person's existence. Erase the name and you erase the king. On this sphinx, her name is still there."
-  },
-  {
-   "type": "find",
-   "text": "Hatshepsut's name is carved somewhere on the lion's body. Where would a sculptor put it so that everyone approaching could read it?",
-   "spots": [
-    {
-     "x": 0.535,
-     "y": 0.47,
-     "zoom": 3.4,
-     "r": 0.06,
-     "title": "On the chest",
-     "text": "Between the forelegs, just under the tip of the beard, faint hieroglyphs sit inside an oval ring that marks a royal name. They give her throne name, Maatkare, “beloved of Amun.”"
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "Amun was the great god of Thebes, and her temple was built facing his across the Nile. This sphinx, about a meter long, was probably one of a pair guarding the upper ramp. Much bigger ones, carved in granite and weighing tons, lined the approach below."
-  },
-  {
-   "type": "fact",
-   "text": "Archaeologists from the Metropolitan Museum dug the fragments out of the dumps in the 1920s. Pieces of the same statues had already been carried off to other countries, and matching them up took years of patient jigsaw work."
-  },
-  {
-   "type": "text",
-   "text": "Why did Thutmose III wait twenty years? Hatred seems unlikely after so long. Many historians now think he was clearing the record so that his own son would inherit without a rival branch of the family, and without the precedent of a woman on the throne."
-  },
-  {
-   "type": "key",
-   "text": "Hatshepsut did not invent a new image for a female king. She took the oldest images of power in Egypt and put her own face and name on them."
-  }
- ],
- "quiz": [
-  {
-   "question": "What makes this sphinx unusual compared with the Great Sphinx?",
-   "options": [
-    "It has wings",
-    "It keeps a lion's mane and ears around the human face",
-    "It has a ram's head"
-   ],
-   "answer": 1,
-   "explanation": "Only the face is human: the ears and ruff belong to the lion."
-  },
-  {
-   "question": "Why did Hatshepsut copy a four-hundred-year-old style?",
-   "options": [
-    "To link herself to admired earlier kings",
-    "Because her sculptors knew no other",
-    "To save money"
-   ],
-   "answer": 0,
-   "explanation": "The maned sphinx quoted the Twelfth Dynasty, an age Egyptians saw as classic."
-  },
-  {
-   "question": "Who had her statues smashed?",
-   "options": [
-    "Roman soldiers",
-    "Tomb robbers",
-    "Her stepson Thutmose III"
-   ],
-   "answer": 2,
-   "explanation": "He ordered the destruction about twenty years after her death."
-  },
-  {
-   "question": "What are the smooth, pale parts of the statue?",
-   "options": [
-    "Modern plaster filling the gaps",
-    "Marble inlays",
-    "Original polished limestone"
-   ],
-   "answer": 0,
-   "explanation": "Restorers filled the missing areas between ancient fragments with plaster."
-  },
-  {
-   "question": "Where is her name carved?",
-   "options": [
-    "On the base",
-    "On the chest, between the forelegs",
-    "On the back of the head"
-   ],
-   "answer": 1,
-   "explanation": "A ring enclosing her throne name, Maatkare, sits under the beard."
-  }
- ],
- "facts": [
-  {
-   "text": "The false beard was meant to hide the fact that Hatshepsut was a woman.",
-   "isTrue": false,
-   "explanation": "It was a badge of kingship worn at ceremonies, not a disguise."
-  },
-  {
-   "text": "The Great Sphinx of Giza was already about a thousand years old in Hatshepsut's time.",
-   "isTrue": true,
-   "explanation": "This sphinx dates from around 1470 BC, roughly a millennium after Giza."
-  },
-  {
-   "text": "The statue was found intact inside Hatshepsut's temple.",
-   "isTrue": false,
-   "explanation": "It had been smashed and dumped, and was reassembled from fragments in the 1920s."
-  }
- ]
+  "teaser": "Seven tons of granite, a woman's face, a king's beard, and a body smashed on purpose.",
+  "focus": [0.48, 0.22],
+  "review_notes": "The image is small (500 x 362 px): only two interactive blocks, with large regions. The chest inscription and the joins between fragments cannot be made out reliably and are not pointed at.\nMet data: granite, about 164 cm high and 343 cm long, weight over seven tons; reign of Hatshepsut about 1479 to 1458 BC.\nOne of at least six granite sphinxes from her temple at Deir el-Bahri; smashed under Thutmose III about twenty years after her death and dumped in a nearby quarry.\nRecovered by the Metropolitan Museum's Egyptian Expedition in the 1920s (Herbert Winlock) and reassembled; came to New York in 1931 through the division of finds.\nAswan to Thebes given as roughly 200 km (125 miles).\nThe motive for the destruction (securing the succession rather than personal hatred) is the current scholarly view, not a certainty.",
+  "lesson": [
+    {"type": "text", "text": "This animal weighs more than seven tons, about as much as a full-grown elephant. It is carved from a single block of granite, 3.4 meters long (over 11 feet). And when archaeologists found it, it was in pieces at the bottom of a pit."},
+    {"type": "text", "text": "The face belongs to Hatshepsut, who ruled Egypt for about twenty years in the 1400s BC. She began as regent, governing in place of her young stepson. Within a few years she took the full title for herself: not queen, but king."},
+    {"type": "text", "text": "A sphinx is the king's head on a lion's body. It says that the ruler has a human mind and an animal's strength. Every pharaoh could be shown this way, so the form was ready-made. The question for her sculptors was what to put on the head."},
+    {"type": "tour", "title": "A king's head", "text": "From the neck up, everything is official equipment.", "spots": [
+      {"x": 0.48, "y": 0.18, "zoom": 2.4, "r": 0.09, "title": "The face", "text": "Wide eyes, a straight mouth, full cheeks. It is a calm, ageless mask, the standard face of a pharaoh, with nothing to tell you the sitter is a woman."},
+      {"x": 0.55, "y": 0.24, "zoom": 1.8, "r": 0.17, "title": "The headcloth", "text": "The striped cloth that flares out behind the ears and falls onto the chest is the nemes, worn only by kings. Its two flaps frame the face like a lion's mane."},
+      {"x": 0.47, "y": 0.36, "zoom": 2.4, "r": 0.08, "title": "The beard", "text": "A long, squared block hangs from the chin. It is the ceremonial false beard of kingship, the most surprising thing to find on her portrait."}
+    ]},
+    {"type": "text", "text": "The beard was not a disguise. Everyone at court knew who she was, and her inscriptions often keep feminine word endings. In Egypt the office of king had a fixed costume, and whoever held the office wore it in stone, beard included."},
+    {"type": "fact", "text": "Male pharaohs did not grow these beards either. The royal beard was a false one, tied on for ceremonies. On some statues you can see the strap carved along the jaw."},
+    {"type": "text", "text": "The stone is granite from Aswan, quarried roughly 200 kilometers (125 miles) up the Nile and floated downstream. Granite is too hard for copper chisels. Sculptors pounded it into shape with balls of even harder stone, then ground it smooth with sand. That labor was the point: granite meant forever."},
+    {"type": "text", "text": "She had at least six of these made for her temple at Deir el-Bahri, a terraced building set against the cliffs across the river from Thebes. They lined the route of religious processions, guarding the way in pairs."},
+    {"type": "fact", "text": "About twenty years after Hatshepsut died, her stepson and successor, Thutmose III, had her statues dragged out of the temple, broken up and thrown into a nearby quarry. Her name was chiseled off walls across Egypt."},
+    {"type": "text", "text": "The rubble lay buried for some 3,400 years. In the 1920s an expedition from the Metropolitan Museum dug out the quarry and found thousands of fragments. Sorting them was a giant jigsaw puzzle. This sphinx, pieced back together, came to New York in 1931. Walk around what was saved."},
+    {"type": "explore", "spots": [
+      {"x": 0.38, "y": 0.66, "zoom": 2, "r": 0.14, "title": "The front paws", "text": "Two massive paws stretch forward side by side, each toe marked by a groove. They are what make the creature feel heavy and patient."},
+      {"x": 0.56, "y": 0.5, "zoom": 2, "r": 0.12, "title": "The chest", "text": "Between the flaps of the headcloth the chest swells like a lion's. Human head and animal body join here with no visible seam."},
+      {"x": 0.81, "y": 0.58, "zoom": 2, "r": 0.12, "title": "The haunch", "text": "The hind leg is folded tight against the body, a compact curve of muscle. A lion resting, ready to rise."},
+      {"x": 0.5, "y": 0.84, "zoom": 1.6, "r": 0.2, "title": "The base", "text": "Animal and base are cut from the same block. You can see the speckled grain of the granite, pink, gray and black."},
+      {"x": 0.48, "y": 0.18, "zoom": 2.6, "r": 0.08, "title": "The gaze", "text": "The eyes look straight ahead and slightly up, over the heads of anyone walking past. A guardian does not look at visitors."}
+    ]},
+    {"type": "text", "text": "Why did Thutmose wait twenty years to erase her? Historians now doubt it was hatred. He may have wanted the royal line to run cleanly from father to son, with no woman king in between. Whatever the reason, it failed. The quarry kept every piece, and her face is back on its lion."}
+  ],
+  "quiz": [
+    {"question": "What is a sphinx, in Egyptian art?", "options": ["A bird with a human head", "A lion's body with the king's head", "A crocodile-headed god"], "answer": 1, "explanation": "It joins a human mind to a lion's strength."},
+    {"question": "Why does Hatshepsut wear a beard here?", "options": ["It was part of the official costume of a king", "The statue was recarved for a man", "She wanted to hide that she was a woman"], "answer": 0, "explanation": "The false beard belonged to the office, and whoever was king wore it."},
+    {"question": "What happened to the sphinx about twenty years after her death?", "options": ["It was shipped to Rome", "It was covered in gold", "It was smashed and dumped in a quarry"], "answer": 2, "explanation": "Thutmose III had her statues broken and thrown into a nearby quarry."},
+    {"question": "How was granite shaped?", "options": ["Pounded with harder stones and ground with sand", "Cut with copper saws", "Cast in molds"], "answer": 0, "explanation": "Copper was too soft, so sculptors pounded and ground the stone."},
+    {"question": "Where did the sphinx originally stand?", "options": ["Beside the Great Pyramid", "At her temple at Deir el-Bahri", "In a palace at Aswan"], "answer": 1, "explanation": "At least six of them lined the processional way of her temple."}
+  ],
+  "facts": [
+    {"text": "The sphinx was found intact, still standing at the temple.", "isTrue": false, "explanation": "It was dug out of a quarry in fragments and pieced back together."},
+    {"text": "Hatshepsut ruled Egypt with the title of king.", "isTrue": true, "explanation": "She began as regent and then took the full title of king."},
+    {"text": "The sphinx is made of soft limestone.", "isTrue": false, "explanation": "It is carved from Aswan granite, one of the hardest stones the Egyptians used."}
+  ]
 }

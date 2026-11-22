@@ -1,49 +1,308 @@
 {
-  "teaser": "The king's former mistress needed a new image. Her painter hid it in a statue.",
-  "focus": [0.45, 0.33],
-  "review_notes": "CATALOG MISMATCH: the supplied image is Boucher's standing portrait of Madame de Pompadour in a garden, dated 1759, in the Wallace Collection, London. It is NOT the 1756 reclining portrait in the Alte Pinakothek, Munich, named in the metadata. The lesson describes the image supplied (1759, Wallace Collection). Either the image or the year/museum must be corrected.\nStatue group identified by the Wallace Collection as Friendship consoling Love; related to Pigalle's sculptures for Pompadour (Madame de Pompadour as Friendship, 1753).\nDog identified as Inès, one of her two pet dogs.\nBoucher's failing eyesight in his later years is traditional.\nEnd of the physical relationship with Louis XV is usually dated around 1750-1751.\nCanvas size about 91 x 68 cm.",
-  "lesson": [
-    {"type": "text", "text": "In 1759 François Boucher was 56 and had more work than any painter in France. He ran the design side of the royal tapestry factory, supplied models for porcelain, painted scenery for the opera and still turned out canvases by the dozen. His eyes were beginning to tire. And one client came before all the others, as she had for more than ten years."},
-    {"type": "text", "text": "She was born Jeanne-Antoinette Poisson, a financier's daughter with no noble blood. In 1745 Louis XV made her his official mistress and gave her a title: Marquise de Pompadour. By 1759 the love affair had been over for years. Yet she still lived at Versailles, advised the king daily and helped choose his ministers. How do you paint that?"},
-    {"type": "fact", "text": "“Poisson” means “fish” in French. Her enemies at court never let her forget it. Mocking songs about her circulated in Paris under the name “poissonnades,” and getting caught writing one could mean prison."},
-    {"type": "text", "text": "Boucher had painted her many times. Three years earlier he had shown her reclining indoors in a green dress with a book, the woman of taste and learning. This time he takes her into a garden, stands her up, and puts the real message of the picture behind her right shoulder, in the shade."},
-    {"type": "tour", "title": "The message in stone", "text": "The pale shape at upper left is a statue. Read it from top to bottom.", "spots": [
-      {"x": 0.29, "y": 0.08, "zoom": 3, "r": 0.09, "title": "A woman looks down", "text": "A stone woman with curled hair bends her head gently. One hand rests on her chest. She stands for Friendship."},
-      {"x": 0.13, "y": 0.2, "zoom": 3.2, "r": 0.08, "title": "A child reaches up", "text": "A winged child stretches both arms toward her. This is Cupid, the god of love, and he is the one being comforted. Love is the small figure here, and Friendship the large one."},
-      {"x": 0.24, "y": 0.47, "zoom": 2.8, "r": 0.1, "title": "Her arm on the base", "text": "Pompadour leans her elbow on the statue's pedestal, pearls at her wrist. She claims the sculpture as her own emblem."}
-    ]},
-    {"type": "text", "text": "Friendship consoling Love: this was her official story. Passion had ended and something steadier had replaced it. She repeated the theme everywhere. A few years before, she had the sculptor Jean-Baptiste Pigalle carve her in marble as Friendship itself. Boucher's painted statue is a cousin of those garden marbles."},
-    {"type": "text", "text": "The statue is not the only loyal companion in the garden. A much smaller one sits lower down, half hidden among roses, and it is alive."},
-    {"type": "find", "text": "Pompadour brought a pet along. Where is it sitting?", "spots": [
-      {"x": 0.16, "y": 0.72, "zoom": 3.6, "r": 0.07, "title": "Inès", "text": "A small black-and-white spaniel perched on a green garden bench, head turned up toward her mistress. Her name was Inès. In portraits a dog meant faithfulness."}
-    ]},
-    {"type": "text", "text": "Statue and spaniel say the same thing twice: constancy. Both look toward her, and she looks at us. Now consider everything else in the picture, because it argues for something different. It argues for pleasure. This is Rococo, the light, curving, pastel style of mid-18th-century France, and Boucher was its most successful painter."},
-    {"type": "explore", "spots": [
-      {"x": 0.45, "y": 0.26, "zoom": 3.6, "r": 0.06, "title": "The face", "text": "Powdered gray hair, small pearls, and two round patches of rouge. At Versailles heavy pink on the cheeks was a sign of rank. She was 37 or 38."},
-      {"x": 0.45, "y": 0.32, "zoom": 4, "r": 0.05, "title": "The collar", "text": "A band of ruffled lace tied around the neck instead of a necklace. Boucher builds it from tiny curls of white and gray."},
-      {"x": 0.47, "y": 0.46, "zoom": 2.8, "r": 0.08, "title": "A ladder of bows", "text": "Ribbon bows run down the front of the bodice, each one smaller than the last. The row leads the eye down to the narrow waist."},
-      {"x": 0.52, "y": 0.385, "zoom": 4, "r": 0.04, "title": "The rose", "text": "One pink rose pinned at the neckline, the same color as her cheeks. More roses grow beside the bench and lie cut on the ground at her feet."},
-      {"x": 0.5, "y": 0.72, "zoom": 1.6, "r": 0.26, "title": "The gown", "text": "Peach-pink silk under bands of frothy lace and gauze. The skirt takes up nearly half the canvas, spread wide over hoops at the hips."},
-      {"x": 0.14, "y": 0.56, "zoom": 3.6, "r": 0.05, "title": "The fan", "text": "A closed fan dangles from her fingertips, pointing down, right above the dog. Her hand is completely relaxed."},
-      {"x": 0.59, "y": 0.925, "zoom": 4, "r": 0.04, "title": "One shoe", "text": "The tip of a pale silk slipper peeks out under the hem. It is the only sign that there are feet under all that fabric."}
-    ]},
-    {"type": "key", "text": "A court portrait is an argument. Here the dress speaks of beauty and wealth, and the statue and the dog speak of loyalty. Together they claim that Pompadour was the king's friend, and that her place at court was secure."},
-    {"type": "fact", "text": "Pompadour made art herself. She learned to engrave, which means cutting a design into a metal plate to print it on paper, and published a set of prints. Boucher helped as her teacher and reworked some of the plates."},
-    {"type": "text", "text": "The canvas is modest in size, about 91 by 68 centimeters (36 by 27 inches), a picture for a private room. It is the last portrait Boucher painted of her. She died at Versailles in 1764, at 42, worn out by lung disease. The king is said to have watched her coffin leave in the rain."},
-    {"type": "text", "text": "Boucher lost his protector just as taste was turning. The critic Denis Diderot attacked his sweet colors and rosy flesh as false and frivolous, and younger artists wanted Roman virtue instead. He was still named First Painter to the King in 1765, and died in 1770 in his studio at the Louvre."},
-    {"type": "fact", "text": "Her name outlived the criticism. The royal porcelain factory at Sèvres, which she championed, produced a famous pink glaze later known as “rose Pompadour.” And the hairstyle swept up high off the forehead still carries her title."},
-    {"type": "text", "text": "Today the portrait hangs in the Wallace Collection in London, a short walk from Fragonard's The Swing, which borrowed its Cupid from a statue she had ordered. Two paintings from the same world: in one a secret is being kept, in the other a reputation is being built."}
-  ],
-  "quiz": [
-    {"question": "What does the statue behind Madame de Pompadour represent?", "options": ["Victory crowning a king", "Friendship consoling Love", "Venus rising from the sea"], "answer": 1, "explanation": "A woman, Friendship, comforts the small winged Cupid."},
-    {"question": "Why was that theme useful to her in 1759?", "options": ["Her love affair with the king was over, but she remained his friend and adviser", "She was about to marry the king", "She was leaving the court for a convent"], "answer": 0, "explanation": "She presented her position as a lasting friendship."},
-    {"question": "What does the little spaniel stand for in a portrait like this?", "options": ["Wealth", "Hunting skill", "Faithfulness"], "answer": 2, "explanation": "Dogs were a common sign of loyalty."},
-    {"question": "What was Boucher's situation when he painted this?", "options": ["He was a young unknown looking for a first client", "He was 56, overloaded with work, and had served her for over a decade", "He had retired from painting"], "answer": 1, "explanation": "He was the busiest painter in France and she was his main client."},
-    {"question": "Which critic attacked Boucher's style as false and frivolous?", "options": ["Denis Diderot", "Jean-Baptiste Pigalle", "Louis XV"], "answer": 0, "explanation": "Diderot disliked his sweet colors and rosy flesh."}
-  ],
-  "facts": [
-    {"text": "Madame de Pompadour was born into one of the oldest noble families of France.", "isTrue": false, "explanation": "She was born Jeanne-Antoinette Poisson, a financier's daughter with no noble blood."},
-    {"text": "Pompadour learned to engrave and published her own prints.", "isTrue": true, "explanation": "Boucher taught her and helped with some of the plates."},
-    {"text": "In the statue, Cupid is the large figure and Friendship the small one.", "isTrue": false, "explanation": "It is the reverse: Friendship is large and comforts a small Cupid."}
-  ]
+ "teaser": "Yards of green silk, and a quiet argument about who really runs France.",
+ "focus": [
+  0.69,
+  0.35
+ ],
+ "review_notes": "Boucher named inspector at the Gobelins in 1755 and lodged in the Louvre from 1752: check dates.\nPompadour named lady-in-waiting (dame du palais) to the queen in February 1756: check.\nPainting shown at the Salon of 1757; size about 201 x 157 cm: check.\nOwnership: HypoVereinsbank collection on long-term loan to the Alte Pinakothek since 1971: check.\nThe dog is usually identified as her spaniel Mimi: check.\nThe objects on the floor are read as engraving and drawing tools; in this image they are small.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1756 François Boucher was 53 and had every reason to feel safe. He had rooms in the Louvre, a fresh appointment as inspector of the royal Gobelins tapestry works, and more orders than his hand could fill. Nearly all of it hung on one person: the woman in the green dress."
+  },
+  {
+   "type": "text",
+   "text": "She was born Jeanne-Antoinette Poisson, daughter of a financier, with no title at all. In 1745 she became the official mistress of King Louis XV and received the name Marquise de Pompadour. She took drawing lessons from Boucher, bought his pictures by the dozen, and had her brother put in charge of royal building works."
+  },
+  {
+   "type": "text",
+   "text": "By 1756 her position had changed in a way the court whispered about. She was 34 and no longer shared the king's bed. She had become something harder to name and harder to dismiss: his closest friend and adviser. That year she was even made lady-in-waiting to the queen. She needed a new image. Boucher got the job."
+  },
+  {
+   "type": "tour",
+   "title": "Reading the pose",
+   "text": "The picture is about 2 meters tall (6.5 feet). She is shown nearly life size, and every choice says “interrupted, not posing”.",
+   "spots": [
+    {
+     "x": 0.69,
+     "y": 0.33,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The glance away",
+     "text": "She looks off to the side, toward someone we cannot see. Rouge on the cheeks, powdered hair with a few flowers, a ribbon at the neck. Calm, awake, unbothered."
+    },
+    {
+     "x": 0.6,
+     "y": 0.6,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The book",
+     "text": "An open book rests in her hand, a finger keeping the page. She was reading when the visitor arrived and intends to go on."
+    },
+    {
+     "x": 0.63,
+     "y": 0.48,
+     "zoom": 2.6,
+     "r": 0.11,
+     "title": "The ladder of bows",
+     "text": "Pink ribbon bows run down the bodice, largest at the top. The French called this a ladder. Against the sea-green silk the pink does all the talking."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A reader, then, rather than a seductress. The pose borrows from portraits of learned men in their studies, and that was the message for a court that sneered at her birth. She had real grounds for it: she protected the authors of the great Encyclopédie and owned a library of several thousand volumes."
+  },
+  {
+   "type": "fact",
+   "text": "She did more than collect. Pompadour learned to etch, which means drawing on a copper plate with acid so it can be printed, and she published a set of her own prints. Boucher supplied many of the designs."
+  },
+  {
+   "type": "text",
+   "text": "So where is she sitting? You might think you are looking at a wall with a bookcase and a gilded clock. Check the right side of the picture, just behind her shoulder, before you decide."
+  },
+  {
+   "type": "find",
+   "text": "The back of her head appears a second time in the painting. Where?",
+   "spots": [
+    {
+     "x": 0.835,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The reflection",
+     "text": "Her gray chignon, seen from behind. The whole background is a huge mirror in a gilded frame. The bookcase and the clock stand on our side of the room, behind us."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That mirror changes the picture. The books and the clock are reflections, so her library is where we stand: the viewer is placed among her books. And the gold curtains to either side pull back like those of a theater. Boucher designed stage sets for the Paris Opera, and it shows."
+  },
+  {
+   "type": "fact",
+   "text": "The king's mistress was also the best friend porcelain ever had in France. She pushed the royal factory to move to Sèvres, near her own château, and a deep pink used there was later nicknamed “rose Pompadour”."
+  },
+  {
+   "type": "text",
+   "text": "Nothing here is painted from a quick sitting. The satin is built up with long, wet strokes of pale green over darker green, so the folds seem to crackle. Rococo is the name for this taste of the mid 1700s: curves, pastel colors, pleasure in surfaces. Boucher was its star."
+  },
+  {
+   "type": "key",
+   "text": "A state portrait without a throne: Boucher uses books, letters and a mirror, not crowns, to say that this woman holds power."
+  },
+  {
+   "type": "text",
+   "text": "With this much fabric, the picture could have collapsed into a heap of ruffles. It holds together because the silk, the furniture and the clutter follow a simple plan that you can trace with a finger."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines organize all that silk.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.7,
+       0.31
+      ],
+      [
+       0.5,
+       0.62
+      ],
+      [
+       0.05,
+       0.88
+      ]
+     ],
+     "closed": false,
+     "label": "The long slope",
+     "text": "From her face, down the skirt, to the far left corner: one great diagonal. It makes her seem to recline and to tower over us at once."
+    },
+    {
+     "points": [
+      [
+       0.7,
+       0.31
+      ],
+      [
+       0.78,
+       0.52
+      ],
+      [
+       0.82,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "Head to desk",
+     "text": "A short, steep line runs from her head along her resting arm to the writing table. Mind and correspondence are connected."
+    },
+    {
+     "points": [
+      [
+       0.17,
+       0.8
+      ],
+      [
+       0.3,
+       0.93
+      ],
+      [
+       0.93,
+       0.9
+      ]
+     ],
+     "closed": false,
+     "label": "The floor",
+     "text": "Along the bottom runs a trail of things dropped on the parquet: dog, roses, tools, books. Her interests are spread out like evidence."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That trail on the floor is the part people skip. It is a list of what she does all day. And the little writing table beside her elbow, its drawer left open, holds the most serious items of all."
+  },
+  {
+   "type": "fact",
+   "text": "The portrait was shown to the Paris public at the Salon of 1757, the official exhibition held in the Louvre. Anyone could walk in and see how the most powerful commoner in France wished to be seen."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.63,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Quill and drawer",
+     "text": "A quill stands in the inkwell of the open drawer, the key still in the lock. She has just been writing."
+    },
+    {
+     "x": 0.92,
+     "y": 0.61,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The sealed letter",
+     "text": "A folded letter, a stick of red sealing wax, a candle to melt it. Her notes went to ministers and generals."
+    },
+    {
+     "x": 0.17,
+     "y": 0.8,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The spaniel",
+     "text": "A small black and tan spaniel sits up and watches her. In portraits a dog stands for loyalty: here, hers to the king."
+    },
+    {
+     "x": 0.27,
+     "y": 0.935,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "Roses and tools",
+     "text": "Two cut roses beside slender drawing and engraving tools. The amateur artist has left her work on the floor."
+    },
+    {
+     "x": 0.05,
+     "y": 0.8,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Prints and scrolls",
+     "text": "Sheets of prints and rolled papers spill from a portfolio. They point to her taste for drawing and her interest in maps and building plans."
+    },
+    {
+     "x": 0.93,
+     "y": 0.9,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Red bindings",
+     "text": "Large books bound in red leather stamped with gold lie under the table. More reading, casually stacked."
+    },
+    {
+     "x": 0.33,
+     "y": 0.12,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The clock",
+     "text": "A gilded clock with a plump child lounging beside it, reflected in the mirror. Time is passing, which a woman of 34 at this court knew well."
+    },
+    {
+     "x": 0.33,
+     "y": 0.865,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The slippers",
+     "text": "Pink backless slippers peek out from under the hem: the one hint that this office is also a private room."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was Madame de Pompadour's position in 1756?",
+   "options": [
+    "Queen of France",
+    "The king's friend and adviser, and lady-in-waiting to the queen",
+    "A painter at the Gobelins works"
+   ],
+   "answer": 1,
+   "explanation": "She had stopped being his lover but remained his closest adviser."
+  },
+  {
+   "question": "What does the background of the portrait turn out to be?",
+   "options": [
+    "A large mirror",
+    "A painted tapestry",
+    "An open window"
+   ],
+   "answer": 0,
+   "explanation": "The back of her head is reflected in it."
+  },
+  {
+   "question": "Which art did Pompadour practice herself?",
+   "options": [
+    "Sculpture in marble",
+    "Fresco",
+    "Etching"
+   ],
+   "answer": 2,
+   "explanation": "She etched and published a set of her own prints."
+  },
+  {
+   "question": "What does Rococo mean?",
+   "options": [
+    "A mid-1700s taste for curves, pastel colors and rich surfaces",
+    "A strict, dark religious style",
+    "A kind of marble"
+   ],
+   "answer": 0,
+   "explanation": "Boucher was the leading Rococo painter."
+  },
+  {
+   "question": "What do the quill, sealing wax and letter suggest?",
+   "options": [
+    "That she is writing a novel",
+    "That she cannot read",
+    "That she takes part in the business of state"
+   ],
+   "answer": 2,
+   "explanation": "Her letters went to ministers and generals."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Madame de Pompadour was born into the high nobility.",
+   "isTrue": false,
+   "explanation": "She was born Jeanne-Antoinette Poisson, a financier's daughter with no title."
+  },
+  {
+   "text": "Boucher designed stage sets as well as paintings.",
+   "isTrue": true,
+   "explanation": "He worked for the Paris Opera, and the curtains in this portrait recall a stage."
+  },
+  {
+   "text": "The bookcase in the portrait is a reflection.",
+   "isTrue": true,
+   "explanation": "The whole background is a mirror, so the books stand on the viewer's side of the room."
+  }
+ ]
 }

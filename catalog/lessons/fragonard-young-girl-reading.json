@@ -1,0 +1,38 @@
+{
+  "teaser": "Painted at the speed of a sketch, with a second face hidden under the first.",
+  "focus": [0.43, 0.38],
+  "review_notes": "Date: the National Gallery of Art gives c. 1769.\nFantasy figures: a label on the back of one of them claims it was painted in one hour; applied here only as a general indication of speed.\nX-ray and imaging research at the NGA (published around 2015) showed an earlier head facing the viewer under the present profile.\nSheet of thumbnail sketches of the fantasy figures surfaced at a Paris auction in 2012 and linked this painting to the series.\nRuff incised with the wooden end of the brush: standard description, visible as scratched lines in the collar.\nGift to the NGA in 1961 from Ailsa Mellon Bruce in memory of her father Andrew W. Mellon.",
+  "lesson": [
+    {"type": "text", "text": "The first people to see this painting could probably be counted on two hands. There was no opening night and no review. Around 1769 Jean-Honoré Fragonard had all but stopped sending pictures to the Salon, the big public exhibition in Paris where reputations were made. He painted for friends and private clients, and they saw his work in the studio, sometimes while it was still wet."},
+    {"type": "text", "text": "That choice puzzled the art world. A few years earlier a huge, serious history painting had made him the great hope of French art. He walked away from that career. What his small circle got instead were pictures like this one, where the subject is almost nothing, a girl and a book, and the real show is the paint."},
+    {"type": "tour", "title": "Three speeds of paint", "text": "Fragonard changes his handwriting from one part of the canvas to the next. Compare them.", "spots": [
+      {"x": 0.42, "y": 0.33, "zoom": 2.8, "r": 0.1, "title": "Slow: the face", "text": "The profile is the calmest passage. Thin, blended touches, a lowered eyelid, a warm flush on the cheek. All of her attention goes down toward the page."},
+      {"x": 0.5, "y": 0.63, "zoom": 2.0, "r": 0.17, "title": "Fast: the dress", "text": "The yellow is laid in broad, loaded strokes that follow the folds. You can count them. Darker ochre for shadow, pale lemon for light, almost no blending."},
+      {"x": 0.79, "y": 0.6, "zoom": 2.0, "r": 0.16, "title": "Faster: the cushion", "text": "Lilac, white and rust are swept on in long curves. Up close it is abstract. From a step back it is a plump pillow pressed by her weight."},
+      {"x": 0.15, "y": 0.52, "zoom": 3.2, "r": 0.09, "title": "The book", "text": "A few grey dashes stand for lines of print. We will never know the title. Her little finger lifts off the cover, a small sign of an educated, at-ease reader."}
+    ]},
+    {"type": "text", "text": "This picture belongs to a group of about fifteen half-length portraits now called the “fantasy figures.” Sitters wear theatrical costumes with ruffs and ribbons, and each seems to have been dashed off in a single session. A note on the back of one says it was painted in an hour. Speed was the point: proof of a hand so sure it needed no corrections."},
+    {"type": "fact", "text": "For decades scholars argued whether this girl was really one of the fantasy figures. In 2012 a sheet of tiny sketches by Fragonard turned up at a Paris auction, showing the series in rows like a contact sheet. She was on it."},
+    {"type": "text", "text": "Hold on to that idea of a hand that never corrects, because the collar tells a stranger story. Its white frills are thick, soft paint. Fragonard wanted sharp pleats in it, and a brush tip was too blunt for the job. So he used something else."},
+    {"type": "find", "text": "Somewhere he turned the brush around and scratched into wet paint with its wooden end. Where?", "spots": [
+      {"x": 0.55, "y": 0.43, "zoom": 3.4, "r": 0.11, "title": "The ruff", "text": "Thin dark lines are dug into the white, exposing the layer beneath. Each scratch makes a pleat. He was drawing in paint the way you might draw in wet sand with a stick."}
+    ]},
+    {"type": "text", "text": "And the hand that never corrects? X-rays taken at the National Gallery of Art found another head under this one. In the first version the sitter looked straight out at us, like the other fantasy figures. Fragonard painted over that face and turned her into a profile lost in a book. A portrait became a picture of reading."},
+    {"type": "key", "text": "By turning her away from us, Fragonard changed the subject from a person to an activity. She is not posing. She is absorbed, and we are the ones kept waiting."},
+    {"type": "fact", "text": "Fragonard died in Paris in 1806, almost forgotten. The French Revolution had swept away his clients, and his airy style, known as Rococo, a light, decorative, pleasure-loving manner, had gone out of fashion."},
+    {"type": "fact", "text": "The painting reached Washington in 1961 as a gift from Ailsa Mellon Bruce, in memory of her father Andrew Mellon, the financier who founded the National Gallery of Art. It has been one of the museum's best-loved pictures ever since."},
+    {"type": "text", "text": "A century after it was made, painters such as Renoir and Berthe Morisot looked hard at brushwork like this, loose and visible and unashamed. So here is a question to take away. If the paint on that yellow sleeve had been smoothed until no stroke showed, would she seem more real to you, or less alive?"}
+  ],
+  "quiz": [
+    {"question": "Who first saw this painting?", "options": ["Crowds at the Paris Salon", "A small circle of friends and clients", "The king and his court at Versailles"], "answer": 1, "explanation": "Fragonard had nearly stopped exhibiting in public and worked for private patrons."},
+    {"question": "How did Fragonard make the pleats of the ruff?", "options": ["He scratched into wet paint with the wooden end of his brush", "He glued on real lace", "He drew them in ink afterwards"], "answer": 0, "explanation": "The thin lines are incised into the white paint."},
+    {"question": "What did X-rays reveal under the profile?", "options": ["A landscape", "A signature and date", "An earlier head facing the viewer"], "answer": 2, "explanation": "The sitter first looked out at us before Fragonard repainted her reading."},
+    {"question": "What are the “fantasy figures”?", "options": ["Portraits of mythological gods", "A group of quickly painted half-length portraits in theatrical costume", "Illustrations for a novel"], "answer": 1, "explanation": "About fifteen such pictures survive, each seemingly painted in one session."},
+    {"question": "Which part of the picture is painted most slowly and smoothly?", "options": ["The face", "The cushion", "The yellow dress"], "answer": 0, "explanation": "The profile is blended, while dress and cushion are swept on in broad strokes."}
+  ],
+  "facts": [
+    {"text": "A sheet of small sketches found in 2012 showed that this painting belongs to the fantasy figures.", "isTrue": true, "explanation": "The sketches surfaced at a Paris auction and include this composition."},
+    {"text": "The title of the girl's book is written clearly on the page.", "isTrue": false, "explanation": "The text is only a few grey dashes, so the book cannot be identified."},
+    {"text": "Fragonard died rich and celebrated.", "isTrue": false, "explanation": "He died in 1806 nearly forgotten, his style out of fashion."}
+  ]
+}

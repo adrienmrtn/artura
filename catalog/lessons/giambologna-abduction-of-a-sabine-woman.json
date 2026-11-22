@@ -1,38 +1,240 @@
 {
- "teaser": "Three bodies, one block, and no subject: the title was found after the carving was done.",
- "focus": [0.45, 0.2],
- "review_notes": "The catalog image is small (372 x 640 px): only two interactive blocks, pointing at large regions.\nHeight about 4.1 m (410 cm) is the usual figure for the marble group.\nThe story that the group was carved without a subject and named afterwards (suggestion attributed to the writer Raffaello Borghini) is the standard account: confirm.\nAnecdote of the young Giambologna showing an over-finished model to the old Michelangelo, who reshaped it: reported by early biographers, possibly embellished.\nThe statement that the Medici refused to let him return home to Flanders: commonly reported.\nFull-size plaster model kept at the Galleria dell'Accademia, Florence: to verify.\nBronze relief on the base showing the Sabine story: not visible in this photo, mentioned in text only.",
- "lesson": [
-  {"type": "text", "text": "4.1 meters. That is the height of this tower of bodies, about 13 and a half feet, and all of it comes from a single block of marble. Three life-size-plus figures, stacked one above the other, with no joins, no added pieces and almost nothing to hold them up but each other."},
-  {"type": "text", "text": "The sculptor was not Italian. Jean de Boulogne was born in Flanders, in the north, and came to Rome around 1550 to study ancient statues. He stopped in Florence on the way home and never left. The Italians bent his name into Giambologna."},
-  {"type": "fact", "text": "As a young man in Rome he took a small model, finished with great care, to the aged Michelangelo. The old master is said to have squashed the soft material in his hands, reshaped it in a few gestures and told him to learn to rough out a figure before polishing it."},
-  {"type": "text", "text": "Three decades later, Giambologna set himself the hardest problem a carver could imagine: several figures lifting one another, designed so that the group has no front and no back. A statue normally has a best side. This one was planned to refuse you that comfort."},
-  {"type": "lines", "text": "Two lines show how he did it.", "lines": [
-   {"points": [[0.52, 0.9], [0.24, 0.76], [0.33, 0.6], [0.56, 0.5], [0.69, 0.32], [0.46, 0.25], [0.33, 0.14], [0.6, 0.06]], "closed": false, "label": "The corkscrew", "text": "Start at the crouching man, climb through the one standing, end at the woman's fingertips. Your eye turns like a screw. Italians called this a “figura serpentinata,” a snake-like figure."},
-   {"points": [[0.17, 0.04], [0.78, 0.04], [0.78, 0.94], [0.17, 0.94]], "closed": true, "label": "The block", "text": "All three bodies fit inside a tall, narrow column: the shape of the quarried stone. Arms and legs fold back toward the center, so nothing needed to be added on."}
-  ]},
-  {"type": "text", "text": "Because the movement spirals, each step you take around the statue hides one face and reveals another. You never get the whole story from one place. In the open arcade on Florence's main square, where it has stood since 1583, people still circle it without quite knowing why."},
-  {"type": "fact", "text": "When the carving was finished, it had no title. Giambologna had wanted to show an old man, a young man and a woman, purely as a display of skill. Friends then proposed a story to fit: the early Romans, short of wives, carrying off the women of their neighbors, the Sabines."},
-  {"type": "text", "text": "So the title describes violence, and the scene is violent, but the sculptor was first of all solving a puzzle of ages and bodies. With that in mind, meet the three of them one by one."},
-  {"type": "tour", "title": "Three ages", "text": "From the ground up.", "spots": [
-   {"x": 0.34, "y": 0.66, "zoom": 1.9, "r": 0.24, "title": "The old man", "text": "Crouched between the legs of the victor, he twists to look up and throws a hand in front of his face. In the story chosen later, he became the woman's Sabine father or husband."},
-   {"x": 0.62, "y": 0.34, "zoom": 2, "r": 0.2, "title": "The young man", "text": "He stands astride the older one and lifts the woman clear off the ground. His head tips back toward her, and his hand presses into her hip."},
-   {"x": 0.45, "y": 0.13, "zoom": 2, "r": 0.24, "title": "The woman", "text": "She turns away from him, and her arm shoots out into empty air. That open hand is the top of the spiral and the thinnest, riskiest piece of marble in the group."}
-  ]},
-  {"type": "text", "text": "Florence's rulers, the Medici, knew what they had. They valued Giambologna so much that they are said to have refused him permission to travel home, for fear a foreign court would keep him. A bronze relief telling the Sabine story was added to the base, to make the new title official."},
-  {"type": "fact", "text": "Before touching the marble, he built the whole group at full size in plaster. That model survives. It stands today in the Accademia gallery in Florence, in the first room visitors cross on their way to Michelangelo's David."},
-  {"type": "key", "text": "This is one of the first large sculptures designed to be seen from every side. The subject came second. The real theme is movement that makes you walk."}
- ],
- "quiz": [
-  {"question": "Where was Giambologna born?", "options": ["Florence", "Rome", "Flanders, in northern Europe"], "answer": 2, "explanation": "He was Jean de Boulogne from Flanders, and settled in Florence."},
-  {"question": "What does “figura serpentinata” mean?", "options": ["A figure that twists upward like a snake", "A statue carved from green stone", "A figure seen only from the front"], "answer": 0, "explanation": "It is a spiraling, snake-like pose that leads the eye around the figure."},
-  {"question": "When was the Sabine subject chosen?", "options": ["Before the block was quarried", "After the carving was finished", "It was ordered by the pope"], "answer": 1, "explanation": "The group was carved as a display of skill and received its title afterwards."},
-  {"question": "How many blocks of marble make up the group?", "options": ["Three, one per figure", "Two, joined at the hips", "One"], "answer": 2, "explanation": "All three figures were carved from a single block."},
-  {"question": "What did Giambologna make before carving the marble?", "options": ["A full-size plaster model", "A painting of the scene", "A bronze copy"], "answer": 0, "explanation": "His full-size plaster model still exists in the Accademia in Florence."}
- ],
- "facts": [
-  {"text": "The statue was designed to be admired from one main viewpoint.", "isTrue": false, "explanation": "It was planned to have no front and no back, so that viewers walk around it."},
-  {"text": "The three figures show three different ages or types: an old man, a young man and a woman.", "isTrue": true, "explanation": "That contrast was the sculptor's starting idea, before any story was attached."},
-  {"text": "The woman's raised arm was carved separately and attached.", "isTrue": false, "explanation": "The whole group, arm included, comes from one block."}
- ]
+  "teaser": "Three bodies, one block of marble, and not a single side you could call the front.",
+  "focus": [
+    0.6,
+    0.18
+  ],
+  "review_notes": "The photo is taken from below and shows the upper two thirds of the group from one side; the young man's head is hidden and the base is out of frame. Only what this view shows is pointed at.\nHeight about 4.1 m, single block of marble; set up in the Loggia dei Lanzi in January 1583 (finished 1582).\nGiambologna born Jean de Boulogne in Douai, Flanders, 1529; in Italy from about 1550.\nCarved without a fixed subject; the title is credited to the writer Raffaello Borghini; a bronze relief of the Sabine story was added to the base.\nFull-size plaster model kept at the Galleria dell'Accademia, Florence.\nOften described as the first large sculpture group designed with no principal viewpoint.\nBernini's Rape of Proserpina dated 1621 to 1622.\nA dangling foot visible at left center of the photo was left out because it is unclear whose it is from this angle.",
+  "lesson": [
+    {
+      "type": "text",
+      "text": "One. That is the number of blocks of marble in this sculpture. Three intertwined bodies, stacked more than 4 meters high (about 13.5 feet), with arms flung into empty air, and no joins anywhere. If the chisel had slipped once near the top, there was no gluing it back."
+    },
+    {
+      "type": "text",
+      "text": "You are seeing it the way a passerby does in Florence: from the pavement of the main square, head tipped back, with a palace behind. From here the young man who does the lifting is mostly a back. That is fine. There are a dozen other good places to stand, and the sculptor planned for all of them."
+    },
+    {
+      "type": "text",
+      "text": "He was a foreigner. Jean de Boulogne was born in Flanders in 1529, traveled to Italy around the age of twenty to study ancient statues, and never went home. The Italians bent his name into Giambologna. He became the favorite sculptor of the Medici, the family that ruled Florence."
+    },
+    {
+      "type": "lines",
+      "text": "From any side, the group reads as a twist.",
+      "lines": [
+        {
+          "points": [
+            [
+              0.83,
+              0.78
+            ],
+            [
+              0.62,
+              0.74
+            ],
+            [
+              0.45,
+              0.66
+            ],
+            [
+              0.4,
+              0.52
+            ],
+            [
+              0.5,
+              0.36
+            ],
+            [
+              0.6,
+              0.22
+            ],
+            [
+              0.48,
+              0.14
+            ],
+            [
+              0.33,
+              0.07
+            ]
+          ],
+          "closed": false,
+          "label": "The spiral",
+          "text": "Start at the crouching man's head, climb the standing man's back, swing across the woman's body and out through her raised hand. The line never runs straight."
+        },
+        {
+          "points": [
+            [
+              0.24,
+              0.33
+            ],
+            [
+              0.45,
+              0.3
+            ],
+            [
+              0.68,
+              0.33
+            ],
+            [
+              0.77,
+              0.52
+            ]
+          ],
+          "closed": false,
+          "label": "The crossing",
+          "text": "Her body lies across the climb. His hand clamps her hip on the left, and her free arm falls open on the right, so the group spreads out as it rises."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Sculptors of the time had a name for this corkscrew: figura serpentinata, the snake-like figure. It belongs to Mannerism, a style of the 1500s that loved difficulty, elegance and bodies turned further than bodies turn. A twisting statue has no front. To finish seeing it, you have to walk."
+    },
+    {
+      "type": "key",
+      "text": "This group is designed to be seen from every side, with no single main view. The spiral makes your feet do part of the looking."
+    },
+    {
+      "type": "text",
+      "text": "Here is the odd part. When Giambologna carved it, the group had no subject. He wanted to prove that he could lock three figures into one rising block: an old man, a young man and a woman. What story they were acting out, he left for later."
+    },
+    {
+      "type": "fact",
+      "text": "The title was supplied afterward by a Florentine writer, Raffaello Borghini. He proposed the legend of the first Romans, who were short of wives and carried off the women of their neighbors, the Sabines. A bronze relief of that story was then added to the base to settle the matter."
+    },
+    {
+      "type": "tour",
+      "title": "Marble pretending",
+      "text": "With the story out of the way, what remains is what Giambologna cared about: stone behaving like flesh.",
+      "spots": [
+        {
+          "x": 0.33,
+          "y": 0.09,
+          "zoom": 3.2,
+          "r": 0.09,
+          "title": "A hand in the sky",
+          "text": "Her open hand is the highest point of the group, fingers spread against the blue. Each finger is free-standing marble, the thickness of a real finger."
+        },
+        {
+          "x": 0.22,
+          "y": 0.33,
+          "zoom": 3.4,
+          "r": 0.09,
+          "title": "The grip",
+          "text": "His fingers sink into her side, and the stone seems to give under them like skin. Nothing here is soft. It is all one hard, cold material."
+        },
+        {
+          "x": 0.7,
+          "y": 0.16,
+          "zoom": 3,
+          "r": 0.1,
+          "title": "Her profile",
+          "text": "Head thrown back over her shoulder, lips parted, tight curls deeply drilled. She looks away from both men, out over the square."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "That pressed flesh was a new kind of showing off, and other sculptors took note. Some forty years later in Rome, the young Bernini carved his own abduction, with a god's fingers digging into a thigh. He had studied Giambologna's trick."
+    },
+    {
+      "type": "fact",
+      "text": "Before touching the marble, Giambologna built the whole group at full size as a model. It survives. You can see it indoors in Florence, at the Accademia, the same museum that houses Michelangelo's David."
+    },
+    {
+      "type": "text",
+      "text": "So far you have met two of the three figures. The third is easy to miss from this angle, because he is in shadow and because the eye keeps racing upward."
+    },
+    {
+      "type": "find",
+      "text": "An older man crouches under the other two. Where is his head?",
+      "spots": [
+        {
+          "x": 0.83,
+          "y": 0.79,
+          "zoom": 2.8,
+          "r": 0.13,
+          "title": "The man underneath",
+          "text": "A dark, curly head twists upward at the lower right. Just above it, one hand is raised with fingers spread, as if to shield himself from what is happening overhead."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Trapped between the younger man's legs, he is the loser of the scene, perhaps a father or a husband. He also does a mason's job: his bent body is the wide, low mass that lets the rest climb so high."
+    },
+    {
+      "type": "text",
+      "text": "The statue has stood since 1583 in the Loggia dei Lanzi, an open arcade on the Piazza della Signoria, free to anyone crossing the square. If you go, start where this photo was taken. Then circle the group slowly, and count how many different sculptures you see."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How many blocks of marble make up the group?",
+      "options": [
+        "One",
+        "Three, one per figure",
+        "About a dozen"
+      ],
+      "answer": 0,
+      "explanation": "All three figures are carved from a single block."
+    },
+    {
+      "question": "What does “figura serpentinata” describe?",
+      "options": [
+        "A statue with snakes in its hair",
+        "A figure that twists upward in a spiral",
+        "A relief carved on a column"
+      ],
+      "answer": 1,
+      "explanation": "It is the snake-like, spiraling pose favored by Mannerist sculptors."
+    },
+    {
+      "question": "When did the group receive its subject?",
+      "options": [
+        "Before the marble was ordered",
+        "It was dictated by the Medici",
+        "After it was carved, on a writer's suggestion"
+      ],
+      "answer": 2,
+      "explanation": "Giambologna carved it as a display of skill, and Raffaello Borghini proposed the Sabine story afterward."
+    },
+    {
+      "question": "Where was Giambologna born?",
+      "options": [
+        "Florence",
+        "Flanders",
+        "Rome"
+      ],
+      "answer": 1,
+      "explanation": "He was born Jean de Boulogne in Flanders and settled in Italy."
+    },
+    {
+      "question": "Why should you walk around this sculpture?",
+      "options": [
+        "It has no single main view",
+        "The back is unfinished",
+        "The signature is hidden behind"
+      ],
+      "answer": 0,
+      "explanation": "It was designed to be seen from every side."
+    }
+  ],
+  "facts": [
+    {
+      "text": "Giambologna chose the Sabine story first and then designed the figures to fit it.",
+      "isTrue": false,
+      "explanation": "He carved the group without a subject; the title came afterward."
+    },
+    {
+      "text": "The full-size model for the group still exists in Florence.",
+      "isTrue": true,
+      "explanation": "It is kept indoors at the Accademia."
+    },
+    {
+      "text": "The statue is kept inside a museum, behind glass.",
+      "isTrue": false,
+      "explanation": "It stands in the open Loggia dei Lanzi on the Piazza della Signoria."
+    }
+  ]
 }

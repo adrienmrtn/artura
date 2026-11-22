@@ -1,35 +1,230 @@
 {
-  "teaser": "A woman sits and thinks. In 1905 that was enough to change sculpture.",
-  "focus": [0.3, 0.3],
-  "review_notes": "IMAGE: the photo shows a bronze cast in the Carrousel/Tuileries garden in Paris, seen from behind under snow. The Musée d'Orsay owns the marble version (carved 1923 to 1927). The face and front of the figure are not visible, so only two interactive blocks point at large shapes.\nMaillol's age (43) at the 1905 Salon d'Automne: born December 1861.\nOriginal title 'Woman' at the 1905 Salon and the later title 'The Mediterranean': verify.\nAndré Gide's comment is paraphrased from 'Elle est belle, elle ne signifie rien; c'est une oeuvre silencieuse'.\nHarry Kessler's stone commission (now in Winterthur) and Clotilde Maillol as model: verify.\n1964 gift by Dina Vierny with André Malraux: 'about twenty' bronzes (often given as 18).\nIdentification of the background group as Maillol's Three Nymphs is from the photo.",
-  "lesson": [
-    {"type": "text", "text": "Forty-three. That is how old Aristide Maillol was when he showed this figure, his first large sculpture, in Paris in 1905. Until a few years earlier he had been a painter and a designer of tapestries."},
-    {"type": "text", "text": "His eyes had forced the change. Weaving tiny colored threads strained them so badly that he had to stop. He began to shape wood and clay by hand instead, in his home village of Banyuls, on the Mediterranean coast near Spain."},
-    {"type": "text", "text": "He worked on this seated woman for about five years, changing an arm, moving a leg, trying it again. What was he hunting for? Not a face or a story. In this photo you see the figure from behind, and it still tells you the answer."},
-    {"type": "lines", "text": "Read the figure as a builder would: as a set of supports.", "lines": [
-      {"points": [[0.28, 0.12], [0.1, 0.57], [0.46, 0.57]], "closed": true, "label": "A closed shape", "text": "Head at the top, a foot and a hand at the corners. Nothing sticks out. The whole body fits inside one compact, stable form."},
-      {"points": [[0.41, 0.27], [0.44, 0.55]], "closed": false, "label": "The pillar", "text": "One arm drops straight down to the base and props the body up like a column."},
-      {"points": [[0.27, 0.19], [0.17, 0.31], [0.15, 0.36], [0.19, 0.52]], "closed": false, "label": "The stack", "text": "On the other side, head rests on hand, elbow rests on the raised knee, knee stands on the ground. Each part carries the one above."}
-    ]},
-    {"type": "text", "text": "So that was the goal: a body arranged like architecture, calm and balanced from every side, the back as worked out as the front. Maillol said he was looking for it the way one looks for the right proportions of a house."},
-    {"type": "fact", "text": "The writer André Gide saw it in 1905 and summed it up in a line that became famous. She is beautiful, he wrote, and she means nothing: it is a silent work."},
-    {"type": "text", "text": "“Means nothing” was praise. Sculpture at the time was full of drama. The giant of the day, Auguste Rodin, made bodies that twist, suffer and reach. Maillol's woman does none of that. She simply sits, heavy and at peace."},
-    {"type": "key", "text": "Maillol removed the story from sculpture and kept only the form: simple volumes, balance, stillness. Much of modern sculpture starts from that choice."},
-    {"type": "text", "text": "Even the title came afterward. In 1905 it was shown simply as “Woman.” Maillol later called it The Mediterranean, after the sunlit, classical world he felt in it. A German collector, Count Harry Kessler, ordered a stone version straight away."},
-    {"type": "fact", "text": "The marble in the Musée d'Orsay was ordered by the French state in 1923, and Maillol took about four years to finish it. The bronze in this photo sits outdoors in the gardens beside the Louvre, where snow and moss are free to settle on it."},
-    {"type": "text", "text": "She is not alone out there. In 1964 Maillol's last model, Dina Vierny, gave the French state about twenty of his bronzes for this garden. One of them is hiding in the distance of this very photo."},
-    {"type": "find", "text": "Far away, another group of Maillol's bronze women is standing in the snow. Where?", "spots": [{"x": 0.83, "y": 0.26, "zoom": 4, "r": 0.04, "title": "Three more Maillols", "text": "Three standing nudes on a low base, tiny at this distance. They are just as full and quiet as the seated woman, with the same weight on the ground."}]},
-    {"type": "text", "text": "Come back to the snow on her shoulders. A person would brush it off and hurry home. She stays, head on her hand, as she has since 1905. What do you think she is thinking about? Maillol made sure nobody could ever say."}
-  ],
-  "quiz": [
-    {"question": "What did Maillol do before turning to sculpture?", "options": ["He was an architect", "He painted and designed tapestries", "He was a fisherman"], "answer": 1, "explanation": "Eye strain from tapestry work pushed him toward sculpture."},
-    {"question": "What did André Gide admire in the figure?", "options": ["That it is beautiful and means nothing", "Its tragic expression", "Its patriotic message"], "answer": 0, "explanation": "Gide called it a silent work, and meant it as praise."},
-    {"question": "How does the figure differ from Rodin's sculptures?", "options": ["It is much larger", "It is carved in wood", "It is calm and still where his are dramatic"], "answer": 2, "explanation": "Maillol dropped drama and kept balanced, quiet volumes."},
-    {"question": "Under what title was the work first shown in 1905?", "options": ["The Mediterranean", "Woman", "Thought"], "answer": 1, "explanation": "The name The Mediterranean was given later."}
-  ],
-  "facts": [
-    {"text": "Maillol was already past forty when he showed his first large sculpture.", "isTrue": true, "explanation": "He was forty-three at the 1905 exhibition."},
-    {"text": "The Musée d'Orsay version is made of bronze.", "isTrue": false, "explanation": "The Orsay version is marble, ordered by the French state in 1923."},
-    {"text": "The figure illustrates a scene from a famous Greek myth.", "isTrue": false, "explanation": "It tells no story at all, which is exactly what Gide praised."}
-  ]
+ "teaser": "A woman sits and thinks. In 1905, that calm was a small revolution in sculpture.",
+ "focus": [
+  0.4,
+  0.3
+ ],
+ "review_notes": "Year: 1905 is the date of the plaster shown at the Salon d'Automne (as 'Femme'). The marble in this photo, in the Musée d'Orsay, was commissioned by the French State in 1923 and finished in 1927.\nMaillol was born in December 1861, so he was 43 at the opening of the 1905 Salon; the lesson says 'forty-three'.\nGide's comment is paraphrased from his 1905 Salon review (original: 'Elle est belle, elle ne signifie rien; c'est une oeuvre silencieuse').\nThe first stone version, for Count Harry Kessler, is in limestone and is now in Winterthur (Oskar Reinhart collection); the trip to Greece with Kessler was in 1908.\nModel: his wife Clotilde Narcis is the usual identification.\nHeight of the marble about 110 cm.\nThe bronze relief on the red wall behind is, I believe, Maillol's 'Desire' (1907); mentioned only as 'a bronze relief'.\nDina Vierny's gift of sculptures to the State (1964) installed in the Carrousel / Tuileries gardens.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Forty-three. That was Aristide Maillol's age when he showed his first large sculpture. Until his late thirties he had been a painter and a designer of tapestries. Then the close work at the loom strained his eyes so badly that he feared for his sight, and he turned to modeling clay with his hands. This figure is where that second career began."
+  },
+  {
+   "type": "text",
+   "text": "He showed it in plaster at the Paris Salon d'Automne of 1905, under the plainest possible title: Woman. It was the same exhibition where the violent colors of Matisse and his friends earned them the nickname “wild beasts”. Maillol's seated nude made far less noise. A few visitors grasped that it was just as radical."
+  },
+  {
+   "type": "fact",
+   "text": "The writer André Gide stopped in front of her and wrote one of the best-known lines in sculpture criticism: she is beautiful, he said, and she means nothing, a silent work. You would have to go far back in time, he added, to find such indifference to everything except beauty."
+  },
+  {
+   "type": "text",
+   "text": "Means nothing: in 1905 that was news. The giant of the day was Rodin, whose bronzes twist, suffer and tell stories, their surfaces rippling with thumb marks. Maillol offers no story at all. She is not Eve, not a goddess, not grieving. The surface is smooth and closed. What holds her together is geometry."
+  },
+  {
+   "type": "lines",
+   "text": "Forget for a moment that this is a body and see it as a construction.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.2,
+       0.73
+      ],
+      [
+       0.23,
+       0.27
+      ],
+      [
+       0.39,
+       0.04
+      ],
+      [
+       0.53,
+       0.14
+      ],
+      [
+       0.58,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "A block",
+     "text": "From her hand on the ground, up the straight arm, over the head and down the shin to the foot: the outline is nearly a square. The figure seems to fill an invisible box."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.35
+      ],
+      [
+       0.52,
+       0.8
+      ],
+      [
+       0.3,
+       0.68
+      ]
+     ],
+     "closed": true,
+     "label": "The raised leg",
+     "text": "Knee, foot and hip make a tall triangle, the central pillar of the pose. Shin and thigh are straight and simplified, almost like beams."
+    },
+    {
+     "points": [
+      [
+       0.46,
+       0.14
+      ],
+      [
+       0.52,
+       0.31
+      ],
+      [
+       0.5,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "Elbow on knee",
+     "text": "The bent arm stacks directly onto that pillar. The weight of the head travels down the forearm, through the elbow and into the knee."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nothing sticks out and nothing is left hanging. Every limb leans on another or returns to the block, so the eye circles inside the figure and never escapes. Maillol reached this slowly. He had been reworking the pose for several years, shifting an arm and a leg from one version to the next until the gaps closed."
+  },
+  {
+   "type": "tour",
+   "title": "Where the calm comes from",
+   "text": "This photo shows the marble from the front right. Four places carry the pose.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.16,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "A lowered face",
+     "text": "Eyes down, features broad and regular, hair gathered in a few big masses. The fingers only brush the head. There is thought here, but no drama."
+    },
+    {
+     "x": 0.51,
+     "y": 0.31,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The meeting point",
+     "text": "The elbow rests on the top of the knee. Two heavy rounded forms touch at a single spot, and the whole upper body balances on it."
+    },
+    {
+     "x": 0.21,
+     "y": 0.52,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "The standing arm",
+     "text": "On her other side a straight arm runs down like a column to the hand flat on the base. It props the torso and squares off the left edge.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.53,
+     "y": 0.79,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The feet",
+     "text": "One foot planted, the other tucked in behind it from the folded leg, toes carved in simple blocks. They sit at the very rim of the rough stone base."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The marble in this photograph is not the 1905 plaster. The French State ordered it from Maillol in 1923, and it took four years to carve. It stands a little over a meter high (about 3 ft 7 in), which is smaller than it feels. In the Musée d'Orsay it sits beneath the glass vault of the old railway station, a bronze relief hanging on the wall behind."
+  },
+  {
+   "type": "fact",
+   "text": "Maillol's first patron for the figure was a German count, Harry Kessler, who ordered a stone version right after seeing the plaster. Kessler later took the sculptor on a trip to Greece. Maillol came home saying the early Greek statues at Olympia had confirmed everything he was looking for."
+  },
+  {
+   "type": "text",
+   "text": "The name came afterward. Maillol was born and died in Banyuls-sur-Mer, a fishing town on the French Catalan coast, and he felt the figure held the light and stillness of that shore. So Woman became The Mediterranean. The model was most likely his wife, Clotilde, who had been one of the weavers in his tapestry workshop."
+  },
+  {
+   "type": "key",
+   "text": "Maillol took the story out of sculpture. What remains is volume, balance and stillness, an idea that opened the road to the simplified forms of much twentieth-century sculpture."
+  },
+  {
+   "type": "fact",
+   "text": "You can meet her outdoors for free. In 1964 Maillol's last model, Dina Vierny, gave a group of his sculptures to France, and they were set among the hedges of the Carrousel garden beside the Louvre. A bronze cast of The Mediterranean is among them."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did Maillol do before becoming a sculptor?",
+   "options": [
+    "He was a stonemason",
+    "He painted and designed tapestries",
+    "He was a sailor"
+   ],
+   "answer": 1,
+   "explanation": "Eye strain from tapestry work pushed him toward sculpture."
+  },
+  {
+   "question": "Under what title was the figure first shown in 1905?",
+   "options": [
+    "Woman",
+    "Venus",
+    "The Thinker"
+   ],
+   "answer": 0,
+   "explanation": "The name The Mediterranean came later."
+  },
+  {
+   "question": "How does the figure differ from Rodin's sculptures?",
+   "options": [
+    "It is much more agitated",
+    "It is painted in bright colors",
+    "It is smooth, calm and tells no story"
+   ],
+   "answer": 2,
+   "explanation": "Maillol replaced drama and rippling surfaces with still, closed volumes."
+  },
+  {
+   "question": "Where does the bent arm rest?",
+   "options": [
+    "On the base",
+    "On the raised knee",
+    "On her shoulder"
+   ],
+   "answer": 1,
+   "explanation": "The elbow sits on the knee, stacking the arm onto the leg."
+  },
+  {
+   "question": "When was the marble in this photo carved?",
+   "options": [
+    "In the 1920s, as a State commission",
+    "In 1905, for the Salon",
+    "In the 1960s, after his death"
+   ],
+   "answer": 0,
+   "explanation": "The State ordered it in 1923 and it was finished four years later."
+  }
+ ],
+ "facts": [
+  {
+   "text": "André Gide praised the figure because it told a moving story.",
+   "isTrue": false,
+   "explanation": "He admired it precisely because it meant nothing and was silent."
+  },
+  {
+   "text": "The outline of the seated figure fits almost into a square.",
+   "isTrue": true,
+   "explanation": "Arm, head, shin and base form a compact block."
+  },
+  {
+   "text": "Maillol was a teenager when he exhibited this sculpture.",
+   "isTrue": false,
+   "explanation": "He was forty-three and had only recently turned to sculpture."
+  }
+ ]
 }

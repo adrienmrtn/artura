@@ -1,40 +1,231 @@
 {
-  "teaser": "One breath too many and it bursts. Chardin stops the clock just before.",
-  "focus": [0.62, 0.6],
-  "review_notes": "IMAGE/METADATA MISMATCH: the image is the tall version framed by honeysuckle, which is the National Gallery of Art, Washington canvas (about 93 x 75 cm), not the nearly square Metropolitan Museum version (61 x 63 cm) named in the metadata. The lesson mentions the three versions and does not give dimensions.\nMillais's 'Bubbles' (1886) was bought and used as an advertisement by Pears soap.\nManet's 'Boy Blowing Bubbles' dates from 1867.\nThe Aved 'sausage' anecdote comes from early biographies of Chardin and may be embellished.\nThree known versions: New York (Met), Washington (NGA), Los Angeles (LACMA).\nA version was exhibited at the Salon of 1739.",
-  "lesson": [
-    {"type": "text", "text": "In 1886 the English painter John Everett Millais showed a curly-haired boy gazing up at a soap bubble. A soap company bought the picture, added a bar of its product, and turned it into one of the most famous advertisements of the century. Twenty years before, Édouard Manet had painted his own bubble blower. Both were looking back at this quiet canvas."},
-    {"type": "text", "text": "Jean Siméon Chardin painted it in Paris around 1733. Until then he had only painted things: dead rabbits, copper pots, fruit. He was in his thirties, respected, and stuck at the bottom of the art world's ladder, where still life, the painting of objects, was ranked below every picture with a person in it."},
-    {"type": "fact", "text": "According to an old story, the push came from a friend, the portrait painter Joseph Aved. When Chardin said Aved was wrong to refuse a well-paid portrait, Aved answered that a portrait was harder to paint than a sausage. Stung, Chardin started painting people."},
-    {"type": "text", "text": "He did not suddenly become a storyteller, though. He chose a subject with almost no action in it: a teenager leaning out of a window, blowing through a straw. Everything depends on one fragile object and on how still the boy must keep to make it."},
-    {"type": "tour", "title": "Holding a breath", "text": "Start at his mouth and travel down the straw.", "spots": [
-      {"x": 0.59, "y": 0.47, "zoom": 3, "r": 0.09, "title": "Lips and eyes", "text": "Eyes lowered, lips closed around the straw. He is not puffing his cheeks. He is letting air out as slowly as he can, the way you do when the bubble is already big."},
-      {"x": 0.675, "y": 0.715, "zoom": 2.8, "r": 0.1, "title": "The bubble", "text": "It is barely there: a thin pale ring, a few glints, and the stone ledge showing through. It sags a little under its own weight, about to drop or pop."},
-      {"x": 0.49, "y": 0.675, "zoom": 2.8, "r": 0.09, "title": "The braced hand", "text": "His left hand lies flat over the edge of the sill to steady his whole body. One hand works, the other anchors. The pose is a tripod."},
-      {"x": 0.39, "y": 0.48, "zoom": 3.5, "r": 0.07, "title": "A torn seam", "text": "The jacket has split at the shoulder, showing a flash of red lining and white shirt. Chardin paints an ordinary boy in worn clothes, with no attempt to dress him up."}
-    ]},
-    {"type": "text", "text": "You probably held your own breath for a second. That is the trick of the painting. A bubble this size lasts a moment, yet the canvas has kept it whole for nearly three hundred years. Chardin picked the one instant that cannot last and made it permanent."},
-    {"type": "key", "text": "Chardin's figure paintings have no plot. They show a person completely absorbed in a small task, and that absorption is what pulls you in."},
-    {"type": "text", "text": "Viewers of the 1730s also knew an older meaning. In Dutch pictures of the century before, bubbles stood for the shortness of life: bright, lovely, gone. There was even a Latin saying for it, “homo bulla”, man is a bubble. Chardin keeps the idea but drops the sermon. No skull, no hourglass. There is, however, a witness."},
-    {"type": "find", "text": "The boy is not alone at the window. Who is watching him?", "spots": [
-      {"x": 0.78, "y": 0.57, "zoom": 3, "r": 0.09, "title": "The little one", "text": "A much smaller child in a plumed cap, just tall enough for the eyes and nose to clear the sill. Painted in dim browns, the face is easy to miss, and it stares straight at the bubble."}
-    ]},
-    {"type": "text", "text": "That small face changes the scene. Now there are two ages at the window: one old enough to make the bubble, one still young enough to be amazed by it. And there is a third, outside the frame, old enough to know how it ends. That one is you."},
-    {"type": "fact", "text": "Chardin painted this composition at least three times. The versions are now in New York, Washington and Los Angeles, and they are not identical: this one is taller, with honeysuckle climbing around the stone window."},
-    {"type": "text", "text": "Repeating a picture was normal business for him. He worked slowly, straight onto the canvas with the model in front of him and almost no preparatory drawings, so a composition that succeeded was worth making again for another buyer."},
-    {"type": "fact", "text": "The soapy water sits in a plain drinking glass on the sill at far left, with a spare straw leaning in it. Just below, as if cut into the stone, Chardin put his signature."},
-    {"type": "text", "text": "Millais's bubble sold soap, and Manet's turned into a lesson in modern painting. Chardin's does less than either and holds longer. Come back to it in ten years. The boy will still be exhaling, and the bubble still will not have burst."}
-  ],
-  "quiz": [
-    {"question": "What did Chardin paint before he turned to figures?", "options": ["Still lifes of objects and food", "Royal portraits", "Battle scenes"], "answer": 0, "explanation": "He had been painting rabbits, pots and fruit, the lowest-ranked kind of picture."},
-    {"question": "What did soap bubbles stand for in older Dutch painting?", "options": ["Wealth and trade", "The shortness of life", "Cleanliness and virtue"], "answer": 1, "explanation": "The saying “homo bulla” means man is a bubble."},
-    {"question": "Who else is at the window?", "options": ["The boy's mother", "A dog", "A smaller child peeking over the sill"], "answer": 2, "explanation": "A little child in a plumed cap watches the bubble from the right."},
-    {"question": "What happened to Millais's later painting of a boy with a bubble?", "options": ["It was destroyed in a fire", "It became a soap advertisement", "It was bought by Manet"], "answer": 1, "explanation": "A soap company bought it and used it as an advertisement."},
-    {"question": "How many versions of Soap Bubbles are known?", "options": ["Only one", "At least three", "More than twenty"], "answer": 1, "explanation": "They are in New York, Washington and Los Angeles."}
-  ],
-  "facts": [
-    {"text": "The boy in the painting is dressed in fine, spotless clothes.", "isTrue": false, "explanation": "His jacket is torn at the shoulder seam."},
-    {"text": "Chardin usually worked directly on the canvas with almost no preparatory drawings.", "isTrue": true, "explanation": "He painted slowly from the model, which is one reason he repeated successful compositions."},
-    {"text": "Chardin added a skull to the windowsill to make the moral clear.", "isTrue": false, "explanation": "He kept the old meaning of the bubble but left out the usual symbols of death."}
-  ]
+ "teaser": "A boy, a straw and a bubble about to burst: Chardin stops time at its most fragile.",
+ "focus": [
+  0.66,
+  0.6
+ ],
+ "review_notes": "Opening: Millais's 'Bubbles' (1886) was bought by A. & F. Pears and used as a soap advertisement; Manet's 'Boy Blowing Bubbles' is 1867 (Gulbenkian, Lisbon).\nThree autograph versions: New York (Met), Washington (NGA), Los Angeles (LACMA). The Met version is dated about 1733-34.\nAved anecdote (the sausage) is reported by Chardin's friend Cochin; told here as a story.\nChardin's father was a master cabinetmaker who made billiard tables.\nThe verses on Filloeul's 1739 engraving compare soap bubbles to fickle women ('mainte Iris'): fairly sure, please check.\nThe tear in the jacket at the shoulder is visible in the image at about (0.40, 0.41).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In the 1880s, a painting of a curly-haired child watching a soap bubble was bought by the Pears company, which added a bar of its soap and printed it by the million. It became one of the most famous advertisements of the century. The painter, John Everett Millais, was borrowing an idea that was then 150 years old. This is where it started."
+  },
+  {
+   "type": "text",
+   "text": "Paris, around 1733. A teenage boy leans out over a stone windowsill, both arms planted on the ledge, and blows through a straw. At its tip hangs a bubble already as big as his fist. It sags a little under its own weight. One more breath might be too many. He is not alone at the window."
+  },
+  {
+   "type": "find",
+   "text": "Somebody else is holding their breath. Tap the second face in the picture.",
+   "spots": [
+    {
+     "x": 0.86,
+     "y": 0.58,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The little watcher",
+     "text": "A small child in a big feathered cap, so short that only the eyes and nose clear the ledge. Chardin paints the face thinly, half lost in shadow, staring at the bubble."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With that child, the painting becomes a picture about looking. The big boy stares at the bubble, the small one stares at it too, and you make three. Nobody speaks, nobody moves. Chardin has chosen the one second in the game when everything is suspended."
+  },
+  {
+   "type": "fact",
+   "text": "Chardin liked this picture enough to paint it at least three times. One version is in New York, one in Washington and one in Los Angeles. Repeating a successful composition for different buyers was normal business for him."
+  },
+  {
+   "type": "text",
+   "text": "He came to people late. The son of a Paris craftsman who made billiard tables, Chardin was known for painting dead rabbits, copper pots and fruit. The story goes that a portrait painter friend teased him: a face is harder to paint than a sausage. Soap Bubbles is among his very first answers, and he painted it with the same patience he gave to a pot."
+  },
+  {
+   "type": "text",
+   "text": "Educated viewers knew what a bubble meant. For two centuries, Dutch and French painters had used it as a symbol of how short life is: shining one moment, gone the next. Such reminders of mortality are called vanitas images. Chardin keeps the symbol and drops the sermon. Check how much plain, careful observation surrounds it."
+  },
+  {
+   "type": "tour",
+   "title": "Four things on a windowsill",
+   "text": "The painting is almost all brown and gray. The interest is in how differently each surface is handled.",
+   "spots": [
+    {
+     "x": 0.72,
+     "y": 0.77,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The bubble",
+     "text": "A film of gray-blue with two or three curved highlights and the ledge showing through it. It is not quite round: the lower half bulges, the way a real heavy bubble does."
+    },
+    {
+     "x": 0.63,
+     "y": 0.44,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "Lips and straw",
+     "text": "Flushed cheek, lowered eyelids, lips closed on a pale straw. His whole face is aimed down the straw. The breath is slow and controlled."
+    },
+    {
+     "x": 0.15,
+     "y": 0.64,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The glass",
+     "text": "A tumbler of cloudy soap water with a second straw standing in it. The liquid is thick, grainy paint, the rim a single thin stroke of light."
+    },
+    {
+     "x": 0.4,
+     "y": 0.41,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "A torn jacket",
+     "text": "At the shoulder seam the brown coat has split, and the white shirt shows through with a touch of red. This is no little prince posing: his clothes are worn."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That rip in the coat matters. So does the hair escaping its black ribbon. Rococo painting, the fashionable style of the 1730s, loved silk, pink skin and playful gods. Chardin gives Paris a boy from an ordinary household, in dull colors, doing something that costs nothing."
+  },
+  {
+   "type": "fact",
+   "text": "His colleagues were puzzled by his method. Chardin made almost no preparatory drawings. He set the model or the object in front of him and worked directly in paint, slowly, layer over layer, which is why he finished only a few pictures a year."
+  },
+  {
+   "type": "lines",
+   "text": "A game that lasts seconds is locked inside a very stable design.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.61,
+       0.13
+      ],
+      [
+       0.95,
+       0.7
+      ],
+      [
+       0.22,
+       0.7
+      ]
+     ],
+     "closed": true,
+     "label": "The pyramid",
+     "text": "Head at the top, elbow at left, bubble and child at right. The boy's body forms a broad triangle resting on the ledge, the most stable shape there is."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.705
+      ],
+      [
+       1.0,
+       0.705
+      ]
+     ],
+     "closed": false,
+     "label": "The ledge",
+     "text": "A hard horizontal of stone carries everything: arms, glass, even the artist's signature, written on the block at lower left."
+    },
+    {
+     "points": [
+      [
+       0.62,
+       0.44
+      ],
+      [
+       0.695,
+       0.67
+      ]
+     ],
+     "closed": false,
+     "label": "The straw",
+     "text": "One thin diagonal joins the mouth to the bubble. It is the path of the breath, and the only line in the picture that looks breakable."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Chardin surrounds the most fragile thing imaginable with weight: stone, thick cloth, a solid triangle. The contrast is what makes you feel how little time the bubble has."
+  },
+  {
+   "type": "fact",
+   "text": "When Chardin showed the picture at the Paris Salon of 1739, an engraver turned it into a print with a short poem underneath. The verses told a young man to study the bubbles well, since their brief shine would teach him how quickly some loves change."
+  },
+  {
+   "type": "text",
+   "text": "Manet painted his own boy with a bubble in 1867, Millais his in 1886, and then came the soap posters. All of them show the bubble floating or finished. Chardin's is still attached to the straw, still growing. Nearly three hundred years on, it has not burst yet."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who else is watching the bubble inside the painting?",
+   "options": [
+    "A small child peeking over the ledge",
+    "A dog under the window",
+    "A woman in the room behind"
+   ],
+   "answer": 0,
+   "explanation": "A child in a feathered cap looks on from the right."
+  },
+  {
+   "question": "What did soap bubbles traditionally stand for in painting?",
+   "options": [
+    "Wealth",
+    "The shortness of life",
+    "Cleanliness"
+   ],
+   "answer": 1,
+   "explanation": "A bubble shines briefly and vanishes, like a human life."
+  },
+  {
+   "question": "What was Chardin mainly known for before painting figures?",
+   "options": [
+    "Battle scenes",
+    "Portraits of the king",
+    "Still lifes of game, pots and fruit"
+   ],
+   "answer": 2,
+   "explanation": "He was a still-life painter who turned to people around 1733."
+  },
+  {
+   "question": "What detail shows the boy is not a rich child posing?",
+   "options": [
+    "His bare feet",
+    "The tear in his jacket",
+    "A patch on his hat"
+   ],
+   "answer": 1,
+   "explanation": "The coat is split at the shoulder seam."
+  },
+  {
+   "question": "What overall shape does the boy's body make?",
+   "options": [
+    "A circle",
+    "A zigzag",
+    "A triangle resting on the ledge"
+   ],
+   "answer": 2,
+   "explanation": "Head, elbow and bubble mark out a stable pyramid."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Chardin painted only one version of Soap Bubbles.",
+   "isTrue": false,
+   "explanation": "At least three exist, in New York, Washington and Los Angeles."
+  },
+  {
+   "text": "Chardin usually worked directly in paint, with almost no preparatory drawings.",
+   "isTrue": true,
+   "explanation": "He painted slowly from the model or object in front of him."
+  },
+  {
+   "text": "In the picture the bubble has already floated free of the straw.",
+   "isTrue": false,
+   "explanation": "It still hangs from the tip of the straw."
+  }
+ ]
 }

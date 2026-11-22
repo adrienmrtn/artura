@@ -1,176 +1,44 @@
 {
- "teaser": "The most famous face in Paris, painted by her closest friend, with the eyes left in shadow.",
- "focus": [
-  0.47,
-  0.2
- ],
- "review_notes": "IMAGE MISMATCH: the catalog entry is the 1876 Petit Palais portrait (Bernhardt reclining on a divan with a dog). The image supplied shows a different Clairin canvas: Bernhardt standing in an Egyptian setting with a lion skin, signed and dated in the 1890s (reads 1892 or 1893), probably in the role of Cleopatra. The lesson describes the image supplied and mentions the 1876 portrait; replace image or lesson as needed.\nBernhardt played Sardou's Cléopâtre in Paris in 1890: check that this canvas shows that role.\nThe 1876 portrait was given to the Petit Palais by her son Maurice in 1923.\nClairin's nickname “Jojotte”; friendship of about fifty years.\nCoffin photograph and pet cheetah are well documented; the live snakes on stage are reported as a rumor.",
- "lesson": [
-  {
-   "type": "text",
-   "text": "Here is the best-known actress of the nineteenth century, a woman whose face sold newspapers, posters and biscuit tins. And here is what her portraitist does with that face: he turns it away and lets a band of shadow fall right across the eyes."
-  },
-  {
-   "type": "text",
-   "text": "The sitter is Sarah Bernhardt. The painter is Georges Clairin, her friend for about fifty years. She called him “Jojotte.” He painted her again and again: at home, on stage, in costume. So the hidden eyes are not clumsiness. He knew this face better than anyone."
-  },
-  {
-   "type": "text",
-   "text": "His most famous portrait of her, shown at the Salon of 1876 and now in the Petit Palais, has her stretched on a divan in a white gown, staring at the viewer. The canvas in front of you is another meeting between the two friends, signed in the 1890s, and it plays the opposite game: Sarah as a character."
-  },
-  {
-   "type": "tour",
-   "title": "Who is she playing?",
-   "text": "The setting holds the answer. Follow three clues from the top of the canvas down.",
-   "spots": [
-    {
-     "x": 0.48,
-     "y": 0.055,
-     "zoom": 2.4,
-     "r": 0.2,
-     "shape": "circle",
-     "title": "Wings over the door",
-     "text": "A sun disk with spread wings crowns the doorway. It is an ancient Egyptian emblem of protection, carved above temple gates. We are in Egypt, or in a stage version of it."
-    },
-    {
-     "x": 0.47,
-     "y": 0.17,
-     "zoom": 3.2,
-     "r": 0.1,
-     "shape": "circle",
-     "title": "The profile",
-     "text": "Red hair bound with a garland, chin lifted, eyes lost in shade. It is the pose of someone listening to a voice offstage, more than of someone posing for a portrait."
-    },
-    {
-     "x": 0.82,
-     "y": 0.515,
-     "zoom": 2.8,
-     "r": 0.09,
-     "shape": "circle",
-     "title": "The dropped hand",
-     "text": "Her left hand hangs at arm's length, holding a bunch of flowers as if she had forgotten it. Her right hand rests on a pale stone block on the other side."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "An Egyptian queen with red hair and the whole room at her feet: almost certainly Cleopatra, a part Bernhardt played in Paris in 1890. Clairin is showing an actress in the middle of a role. That explains the turned head. On stage, you rarely look at the audience."
-  },
-  {
-   "type": "key",
-   "text": "A portrait of an actor can show two people at once: the person and the part. Clairin lets the part win and keeps the person in the shade."
-  },
-  {
-   "type": "fact",
-   "text": "Bernhardt worked hard at being talked about. She let herself be photographed lying in the coffin she kept at home, and she owned a cheetah among other wild pets. Rumor had it that she used live snakes for Cleopatra's death scene."
-  },
-  {
-   "type": "text",
-   "text": "With that reputation in mind, the fur spilling over the steps is more than a rug. Clairin has hidden a second face in the picture, and it stares out at you while hers does not."
-  },
-  {
-   "type": "find",
-   "text": "Someone in this painting is looking straight at you. Where?",
-   "spots": [
-    {
-     "x": 0.38,
-     "y": 0.865,
-     "zoom": 2.8,
-     "r": 0.1,
-     "shape": "circle",
-     "title": "The lion",
-     "text": "The skin under her feet still has its head, mane and muzzle, facing the viewer. A queen who walks on a lion: no subtler way to say who rules this room. Fallen pink flowers lie beside it."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "Clairin was an Orientalist, a European painter of scenes from North Africa and the Middle East, often more dreamed than observed. He had traveled to Morocco and Egypt, and he piles on the textures here: fur, carved wood, embroidered silk. Sarah herself is painted more softly than her dress."
-  },
-  {
-   "type": "text",
-   "text": "Look at how tall and narrow the canvas is. The figure fills it from garland to hem like a column, with the long robe hiding her feet. Bernhardt was famously thin, mocked for it by cartoonists. Clairin turns the thinness into a pillar of gold and pink."
-  },
-  {
-   "type": "fact",
-   "text": "Bernhardt was an artist too. She modeled and exhibited sculpture, showed work at the Paris Salon, and painted. Clairin was one of the friends who encouraged her, and the two sometimes worked side by side."
-  },
-  {
-   "type": "text",
-   "text": "Their friendship lasted until his death in 1919, at her house on the Breton island of Belle-Île. She outlived him by four years. By then cinema had recorded her, and cameras did what he never did in this picture: they looked her straight in the eye."
-  },
-  {
-   "type": "text",
-   "text": "Which leaves the question the painting started with. If you loved a face for fifty years, and the whole world already owned its photograph, would you paint the eyes again, or keep them for yourself?"
-  }
- ],
- "quiz": [
-  {
-   "question": "What is unusual about how Clairin shows Bernhardt's face here?",
-   "options": [
-    "It is turned away with the eyes in shadow",
-    "It is hidden behind a fan",
-    "It is painted twice"
-   ],
-   "answer": 0,
-   "explanation": "She is in profile and a band of shade covers her eyes."
-  },
-  {
-   "question": "Which emblem above the doorway places the scene in Egypt?",
-   "options": [
-    "A crescent moon",
-    "A winged sun disk",
-    "A pair of crossed swords"
-   ],
-   "answer": 1,
-   "explanation": "The winged sun disk was carved above Egyptian temple gates."
-  },
-  {
-   "question": "What lies under her feet, facing the viewer?",
-   "options": [
-    "A sleeping dog",
-    "A carved sphinx",
-    "A lion skin with its head"
-   ],
-   "answer": 2,
-   "explanation": "The fur rug keeps its head and mane, and it looks straight out."
-  },
-  {
-   "question": "What is an Orientalist painter?",
-   "options": [
-    "A European painter of North African and Middle Eastern scenes",
-    "A painter who works only in ink",
-    "A painter born in Asia"
-   ],
-   "answer": 0,
-   "explanation": "Orientalists painted these regions, often more dreamed than observed."
-  },
-  {
-   "question": "Besides acting, what did Sarah Bernhardt do?",
-   "options": [
-    "She composed operas",
-    "She made and exhibited sculpture",
-    "She designed buildings"
-   ],
-   "answer": 1,
-   "explanation": "She modeled sculpture, showed it at the Salon, and painted."
-  }
- ],
- "facts": [
-  {
-   "text": "Clairin and Bernhardt barely knew each other.",
-   "isTrue": false,
-   "explanation": "They were close friends for about fifty years."
-  },
-  {
-   "text": "Bernhardt let herself be photographed lying in a coffin.",
-   "isTrue": true,
-   "explanation": "She kept the coffin at home and used the picture for publicity."
-  },
-  {
-   "text": "In this canvas Bernhardt stares directly at the viewer.",
-   "isTrue": false,
-   "explanation": "Her head is turned and her eyes are in shadow; only the lion looks at us."
-  }
- ]
+  "teaser": "She is lying down. Nothing about her is at rest.",
+  "focus": [0.69, 0.36],
+  "review_notes": "Size about 250 x 200 cm; shown at the Paris Salon of 1876.\nBernhardt exhibited her own sculpture group Après la tempête at the same Salon of 1876 and received an honorable mention.\nSatin coffin: she owned one and was photographed in it; how often she slept in it is legend.\nMocking of her thinness by caricaturists is well documented; no specific caricature is cited.\nGift of the portrait to the City of Paris (Petit Palais) by her son Maurice Bernhardt in 1923.\nDog described as a borzoi (Russian wolfhound).\nThe dark object at the hem on the left is read as a black shoe; check on the original.",
+  "lesson": [
+    {"type": "text", "text": "The pose says rest: a woman stretched out on a divan, a cushion under her elbow, a dog asleep on the floor. The body says the opposite. Her shoulders face you, her hips turn away, her legs swing off the seat and her head tilts back against her hand. Try holding that for a minute. It is the least relaxed way a person has ever lain on a sofa."},
+    {"type": "text", "text": "She is Sarah Bernhardt, thirty-one years old in 1876 and the rising star of the Comédie-Française, the state theater of France. Audiences came for her voice and for the way she moved, coiling and uncoiling across a stage. Georges Clairin, a painter of her own age and one of her closest friends, set out to get that movement into a picture where nobody moves."},
+    {"type": "lines", "text": "Trace the path your eye takes through the white.", "lines": [
+      {"points": [[0.69, 0.34], [0.6, 0.44], [0.43, 0.51], [0.31, 0.62], [0.32, 0.77], [0.45, 0.84], [0.62, 0.88], [0.74, 0.93]], "closed": false, "label": "The serpentine", "text": "From her face the white runs down the body, pours off the divan, sweeps across the floor and ends at the dog's nose. One long S, like a ribbon dropped from a height."},
+      {"points": [[0.03, 0.52], [0.97, 0.62]], "closed": false, "label": "The divan", "text": "The seat is the only level thing in the room. She crosses it at a slant, so she seems to be sliding out of her own portrait."},
+      {"points": [[0.58, 0.8], [0.8, 0.75], [0.97, 0.8]], "closed": false, "label": "The echo", "text": "The hound's back repeats her reclining line lower down. Thin, long, pale and elegant: the dog is her double."}
+    ]},
+    {"type": "text", "text": "That S was a statement. Bernhardt was unusually slender at a time when fashion wanted curves, and Paris caricaturists drew her as a stick, a snake, an umbrella. Instead of padding her out, Clairin made thinness the theme. The dress clings, then spills, and the line never straightens."},
+    {"type": "fact", "text": "Bernhardt fed her own legend with care. She kept a satin-lined coffin in her bedroom and let herself be photographed lying in it, eyes closed, flowers on her chest. Prints of the photo sold well."},
+    {"type": "text", "text": "The setting looks private: a house gown, a corner of her own salon, palm leaves in the gloom. But she had the instincts of a stage designer, and nothing here is casual. The red velvet works like a curtain. The dark background pushes every bit of white forward. Even the things lying about have been chosen."},
+    {"type": "tour", "title": "Props", "text": "Three objects, each doing a job.", "spots": [
+      {"x": 0.69, "y": 0.35, "zoom": 3.2, "r": 0.08, "title": "The stare", "text": "Pale eyes fixed on you, red mouth closed, a froth of white feathers at the throat. Her face is small in this huge canvas and still the first thing you see."},
+      {"x": 0.43, "y": 0.58, "zoom": 2.8, "r": 0.1, "title": "The fan", "text": "Her hand lets a fan of white plumes with a gilded handle hang loose. It melts into the fur trim of the gown, so you find it late."},
+      {"x": 0.86, "y": 0.55, "zoom": 2.2, "r": 0.14, "title": "The cushions", "text": "Gold silk, then blue embroidered silk with flowers and a fringe of tassels. This is the taste of the 1870s for rich fabrics piled up like the tent of an Eastern tale."}
+    ]},
+    {"type": "text", "text": "Clairin knew those fabrics well. He had traveled in Spain and Morocco and was known for scenes of harems and palaces. For this picture he brought the same glow home to Paris. The handling is loose for an official exhibition piece: the fur and feathers are flicked on, and the satin is built from a few long, wet strokes of cream and grey."},
+    {"type": "fact", "text": "The canvas is about 2.5 meters tall and 2 meters wide, roughly 8 by 6.5 feet. On a wall, Bernhardt reclines at close to life size and the dog could get up and walk out."},
+    {"type": "text", "text": "A picture this large hides small things. One of them undoes the whole languid act. A woman truly lounging at home would have kicked her shoes off. Check whether this one did."},
+    {"type": "find", "text": "A single shoe peeks out from all that white. Where is it?", "spots": [
+      {"x": 0.21, "y": 0.7, "zoom": 3.6, "r": 0.06, "title": "The black shoe", "text": "A dark heeled shoe pokes from the hem at the far left, the only black note in the gown. She is dressed down to her feet, ready to stand and take a bow."}
+    ]},
+    {"type": "text", "text": "The portrait went on view at the Salon of 1876, the yearly exhibition that all of Paris visited. It was one of the most talked-about pictures of the season. People who had never bought a theater ticket now knew what Sarah Bernhardt looked like, and how she wanted to be seen."},
+    {"type": "fact", "text": "She was in that Salon twice. Bernhardt was a trained sculptor, and the same year she exhibited a marble group of her own, a Breton grandmother holding her drowned grandson. The jury gave it an honorable mention."},
+    {"type": "text", "text": "Four years later she quit the Comédie-Française, founded her own company and toured the world, from New York to Australia. Clairin kept painting her for decades, in costume as queens and heroines. This first big portrait stayed in her home until she died in 1923. Her son then gave it to the City of Paris."},
+    {"type": "key", "text": "A portrait can describe a person, or it can build a public character. Clairin and Bernhardt chose the second, and turned her most mocked feature, her thin, winding figure, into her signature."}
+  ],
+  "quiz": [
+    {"question": "What shape organizes the whole composition?", "options": ["A long S-curve running from her face to the dog", "A pyramid with her head at the top", "A circle around the cushions"], "answer": 0, "explanation": "The white of the gown winds down and across the floor in one serpentine line."},
+    {"question": "How did Clairin treat Bernhardt's much-mocked thinness?", "options": ["He hid it under a wide dress", "He made it the theme of the picture", "He painted her only from the shoulders up"], "answer": 1, "explanation": "The clinging, spiraling gown turns her slender figure into a trademark."},
+    {"question": "What small detail shows she is not really lounging?", "options": ["A script on the floor", "A clock on the wall", "A black shoe peeking from the hem"], "answer": 2, "explanation": "She is fully dressed down to her shoes, posing for an audience."},
+    {"question": "Besides acting, what did Bernhardt show at the Salon of 1876?", "options": ["A sculpture of her own", "A play she had written", "A dress she had designed"], "answer": 0, "explanation": "She exhibited a marble group and won an honorable mention."},
+    {"question": "How did the portrait reach the Petit Palais?", "options": ["Clairin sold it to the museum", "Her son gave it to the City of Paris after her death", "It was seized by the state"], "answer": 1, "explanation": "It stayed in her home until 1923, then her son donated it."}
+  ],
+  "facts": [
+    {"text": "Sarah Bernhardt owned a coffin and was photographed lying in it.", "isTrue": true, "explanation": "She used the image to build her legend, and prints of it sold well."},
+    {"text": "Clairin and Bernhardt met only once, for the sittings of this portrait.", "isTrue": false, "explanation": "They were close friends, and he painted her for decades."},
+    {"text": "The painting is a small picture meant to hang over a desk.", "isTrue": false, "explanation": "It is about 2.5 by 2 meters and shows her close to life size."}
+  ]
 }

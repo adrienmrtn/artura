@@ -1,44 +1,268 @@
 {
-  "teaser": "A marsh painted without a single drop of water, and a poem hidden in five syllables.",
-  "focus": [0.45, 0.42],
-  "review_notes": "The image shows only ONE screen of the Met's pair of six-panel screens (apparently the right-hand one, with signature and seal at its right edge); the lesson says so.\nDate: the Met dates the pair 'after 1709'; 1710 is an approximation.\nDimensions: each screen about 163.7 x 352.4 cm.\nPigments: blue from azurite and green from malachite are the standard mineral pigments for such screens; assumed here rather than taken from a technical report.\nKorin's family business Kariganeya (luxury textiles for court ladies) and his squandered inheritance: standard biography.\nEarlier 'Irises' screens (Nezu Museum, Tokyo, c. 1701-05) without the bridge: standard.\nAcquired by the Met in 1953: per museum credit line.\nThe acrostic poem (ka-ki-tsu-ba-ta) from Tales of Ise, episode 9: paraphrased, not quoted.",
-  "lesson": [
-    {"type": "text", "text": "Zero. That is how much water Ogata Kōrin painted in this picture of a swamp. Irises of this kind grow with their feet in the wet, and the wooden walkway exists only to keep travelers dry. Yet there is no ripple, no reflection, no bank. Just gold."},
-    {"type": "text", "text": "He left out more than that. No sky, no ground, no people. The image you see is one folding screen of a pair, about 3.5 meters wide (11 and a half feet), and it holds exactly two things: flowers and planks. For Kōrin's first viewers, those two things were enough to tell a whole story."},
-    {"type": "text", "text": "The story comes from the Tales of Ise, a book of poems and short episodes written some eight hundred years before Kōrin. A courtier, out of favor in the capital, travels east with friends. They stop to eat at a place called Yatsuhashi, “Eight Bridges”, where a river splits into eight channels, each crossed by a plank bridge. Irises are in bloom."},
-    {"type": "fact", "text": "Someone dares the courtier to write a poem in which each of the five lines starts with one syllable of the flower's name: ka, ki, tsu, ba, ta. He does, and the poem is about the wife he left behind. His friends cry so hard that their tears soak the dried rice they are eating."},
-    {"type": "key", "text": "Kōrin paints a story by removing the storyteller. Flowers plus a plank bridge was a code: any educated viewer supplied the traveler, the poem and the homesickness."},
-    {"type": "text", "text": "With the characters gone, the picture has to hold itself up by design alone. And Kōrin was raised on design. His family ran Kariganeya, a Kyoto shop that made luxurious kimono fabrics for the ladies of the court. He grew up among pattern books, and it shows in how he lays shapes across a surface."},
-    {"type": "lines", "text": "Trace how the screen is organized. It is closer to a textile pattern than to a view.", "lines": [
-      {"points": [[0.02, 0.63], [0.17, 0.63], [0.34, 0.19], [0.6, 0.19], [0.68, 0.05]], "closed": false, "label": "The zigzag", "text": "The bridge climbs from the left edge to the top in a stepped line: flat, slanted, flat, slanted. It is seen from straight above, like a diagram, while the flowers are seen from the side."},
-      {"points": [[0.03, 0.72], [0.3, 0.58], [0.45, 0.38], [0.63, 0.3], [0.75, 0.15], [0.93, 0.1]], "closed": false, "label": "The rising bloom", "text": "The blue flower heads drift upward from lower left to upper right, crossing under the bridge. Two diagonals travel together, like a melody and its bass line."},
-      {"points": [[0.52, 0.95], [0.98, 0.95], [0.98, 0.56], [0.72, 0.72]], "closed": true, "label": "The quiet corner", "text": "The lower right is left almost bare. That empty gold is where the water would be. Kōrin tucks his signature into it."}
-    ]},
-    {"type": "text", "text": "Two viewpoints in one image, then: a bridge in plan, flowers in profile. It breaks every rule of realistic space and nobody minds, because nothing here pretends to be a window. The gold leaf, laid in small squares, is a flat wall. The pigments are worth a closer view."},
-    {"type": "tour", "title": "Three materials", "text": "Blue, green and gray. Each is handled in a different way.", "spots": [
-      {"x": 0.44, "y": 0.45, "zoom": 3, "r": 0.09, "title": "Ground stone", "text": "The petals are a thick mineral blue, traditionally made from crushed azurite. Darker and lighter blues sit side by side with no shading between them, so each flower reads as a cut-out shape."},
-      {"x": 0.42, "y": 0.75, "zoom": 2.6, "r": 0.09, "title": "Blades", "text": "The leaves are single strokes of opaque green, one per blade, with no veins and no outlines. Where they overlap they simply merge into a green mass."},
-      {"x": 0.33, "y": 0.4, "zoom": 2.6, "r": 0.1, "title": "Weathered wood", "text": "The planks are ink, not mineral color. Kōrin let wet ink puddle and dry in blotches, a technique named tarashikomi. The stains become moss and rain-soaked timber."}
-    ]},
-    {"type": "text", "text": "So the most expensive materials, gold and ground stone, are applied flat and clean, and the humblest one, ink, is allowed to run wild. The bridge is the only thing on the screen that looks old and touched by weather. It is also the only thing people built."},
-    {"type": "fact", "text": "Kōrin spent his inheritance fast, on parties and fine things, and was nearly forty and short of money when he turned to painting for a living. The title “Hokkyō” that he writes before his name here was an honorary rank granted to artists, which he received in 1701."},
-    {"type": "text", "text": "The planks do not float. They rest on posts driven into the mud, tied in pairs with crossbars, and Kōrin shows these supports sticking out from under the walkway in several places."},
-    {"type": "find", "text": "Most posts hide under the bridge. Find the spot where a row of post tops pokes up above a plank.", "spots": [
-      {"x": 0.365, "y": 0.155, "zoom": 3.6, "r": 0.05, "title": "Post tops", "text": "Four short stubs with greenish caps rise above the top plank. Below the bridge, the same posts appear as little grids of crossed timber. They are the only hint that there is depth under the gold."}
-    ]},
-    {"type": "text", "text": "This was not his first try at the subject. Around ten years earlier he had painted a pair of screens with irises alone, no bridge at all, now in the Nezu Museum in Tokyo. Coming back to it, he added the planks, and with them the journey."},
-    {"type": "fact", "text": "The screens crossed an ocean much wider than the courtier's road east. The Metropolitan Museum of Art bought the pair in 1953, and it is one of the best-known Japanese paintings outside Japan."}
-  ],
-  "quiz": [
-    {"question": "What did the courtier's poem at Yatsuhashi have to do?", "options": ["Describe all eight bridges", "Begin each line with a syllable of the iris's name", "Be written on a fan"], "answer": 1, "explanation": "Each of its five lines starts with ka, ki, tsu, ba or ta."},
-    {"question": "From which angle is the bridge shown?", "options": ["From above, like a plan", "From the side, like the flowers", "From below, looking up"], "answer": 0, "explanation": "The bridge is seen from straight above while the irises are in profile."},
-    {"question": "Which part of the screen is painted with pooled, blotchy ink?", "options": ["The petals", "The leaves", "The planks of the bridge"], "answer": 2, "explanation": "Kōrin used tarashikomi on the planks to suggest weathered wood."},
-    {"question": "What was the business of Kōrin's family?", "options": ["Luxury kimono fabrics", "Gold beating", "Bridge building"], "answer": 0, "explanation": "The family shop, Kariganeya, supplied fine textiles to court ladies."},
-    {"question": "How does this work differ from Kōrin's earlier iris screens in Tokyo?", "options": ["It has no gold", "It adds the bridge", "It shows the poet"], "answer": 1, "explanation": "The earlier pair shows irises alone; here the planks bring in the journey."}
-  ],
-  "facts": [
-    {"text": "Kōrin painted the water of the marsh in silver.", "isTrue": false, "explanation": "There is no water at all: the gold ground stands in for it."},
-    {"text": "No person appears anywhere on the screen.", "isTrue": true, "explanation": "The traveler of the story is left out; flowers and bridge are enough to evoke him."},
-    {"text": "Kōrin became a professional painter as a teenager.", "isTrue": false, "explanation": "He turned to painting for a living when he was nearly forty, after spending his inheritance."}
-  ]
+ "teaser": "The title promises eight bridges. Count them, then ask where the story went.",
+ "focus": [
+  0.6,
+  0.45
+ ],
+ "review_notes": "The Met dates the screens 'after 1709'; the catalog year 1710 is an approximation.\nDimensions of each screen (about 164 x 352 cm) from the Met: check.\nKōrin's family business (the Kariganeya, textile merchants in Kyoto) and his spending of the inheritance: check.\nTarashikomi on the bridge planks: per the Met's description.\nHōitsu's 1815 woodblock book 'One Hundred Paintings by Kōrin': check.\nThe image is small (320 px high): the signatures are placed from the image but are only a few pixels wide.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Eight bridges in the title. One on the screens. And if you count the travelers, the river and the poet the story is about, you get zero each time. Ogata Kōrin has taken one of the best-known scenes in Japanese literature and deleted almost everything in it."
+  },
+  {
+   "type": "text",
+   "text": "The scene comes from the Tales of Ise, a collection of poems and short episodes about a thousand years old. A nobleman, traveling far from the capital, stops at Yatsuhashi, the “Eight Bridges,” where a river splits into eight channels. Irises are blooming in the marsh, and he is homesick."
+  },
+  {
+   "type": "fact",
+   "text": "A companion dares the nobleman to write a poem in which each of the five lines begins with a syllable of the Japanese word for iris, ka-ki-tsu-ba-ta. He does, and the poem is about the wife he left behind. The whole party weeps into its rice."
+  },
+  {
+   "type": "text",
+   "text": "Educated viewers in Kōrin's Japan knew this by heart. Irises plus a plank bridge was enough: their memory supplied the poet, the tears and the poem. So Kōrin could spend all his attention on the one thing left to design, the path across the gold."
+  },
+  {
+   "type": "lines",
+   "text": "The two screens stand side by side. Traditionally you read them from right to left.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.816,
+       0.11
+      ],
+      [
+       0.775,
+       0.25
+      ],
+      [
+       0.655,
+       0.25
+      ],
+      [
+       0.57,
+       0.63
+      ],
+      [
+       0.5,
+       0.63
+      ]
+     ],
+     "closed": false,
+     "label": "Coming down",
+     "text": "On the right screen the bridge enters from the top edge and drops in sharp angles. It is seen from above, almost like a plan."
+    },
+    {
+     "points": [
+      [
+       0.475,
+       0.63
+      ],
+      [
+       0.42,
+       0.63
+      ],
+      [
+       0.4,
+       0.72
+      ],
+      [
+       0.305,
+       0.72
+      ],
+      [
+       0.26,
+       0.89
+      ]
+     ],
+     "closed": false,
+     "label": "Leaving the frame",
+     "text": "It continues on the left screen, steps down again and exits at the bottom. Your eye has crossed the marsh in the traveler's place."
+    },
+    {
+     "points": [
+      [
+       0.04,
+       0.33
+      ],
+      [
+       0.16,
+       0.22
+      ],
+      [
+       0.3,
+       0.48
+      ],
+      [
+       0.47,
+       0.37
+      ],
+      [
+       0.54,
+       0.3
+      ],
+      [
+       0.7,
+       0.55
+      ],
+      [
+       0.87,
+       0.25
+      ],
+      [
+       0.96,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The flowers' wave",
+     "text": "The tops of the iris clumps rise and fall like a line of music, playing against the hard zigzag of the planks."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That zigzag is the only straight-edged thing in the picture, and it slices across twelve panels as boldly as a pattern on a robe. This is no accident. Kōrin grew up in Kyoto in a family that ran a luxury textile shop, selling kimono fabrics to the ladies of the court."
+  },
+  {
+   "type": "fact",
+   "text": "Kōrin inherited a share of the family fortune at about thirty and spent it on pleasure within a few years. He turned to painting seriously in his late thirties, partly because he needed the money."
+  },
+  {
+   "type": "text",
+   "text": "Each screen is about 164 cm high and 352 cm wide (roughly 5 ft 4 in by 11 ft 7 in), paper covered with squares of gold leaf, which is gold beaten thinner than a hair. Nothing tells you where the water is or where the sky starts. The gold is marsh, air and light at once."
+  },
+  {
+   "type": "tour",
+   "text": "Three ways of painting on the same gold, plus the artist's mark.",
+   "spots": [
+    {
+     "x": 0.14,
+     "y": 0.25,
+     "zoom": 3.4,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "Flowers without outlines",
+     "text": "The petals are patches of thick blue made from ground azurite, a mineral. No drawn contour holds them in. Lighter and darker blues suggest petals turning."
+    },
+    {
+     "x": 0.6,
+     "y": 0.45,
+     "zoom": 3.4,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "Puddled planks",
+     "text": "On the bridge, Kōrin dripped ink and color into paint that was still wet and let it pool. The blotchy result, a technique called tarashikomi, reads as old, mossy wood."
+    },
+    {
+     "x": 0.36,
+     "y": 0.25,
+     "zoom": 2.6,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "The grid of gold",
+     "text": "In the empty areas you can make out faint squares: the individual sheets of gold leaf, laid edge to edge by hand."
+    },
+    {
+     "x": 0.958,
+     "y": 0.68,
+     "zoom": 4.5,
+     "r": 0.04,
+     "shape": "arrow",
+     "title": "Signature",
+     "text": "A short column of characters and a small seal sit alone on the bare gold of the right screen. A matching signature marks the far left of the other screen."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The leaves are a second mineral, green malachite, laid on in flat blades. Blue, green, gold and the gray of the bridge: four colors for about seven meters of painting. Screens like these stood on the floor of a room and were folded in a zigzag themselves, so the bridge would have bent with the panels."
+  },
+  {
+   "type": "key",
+   "text": "Kōrin trusted his viewers to know the story, so he could leave it out. What remains is rhythm: a soft wave of flowers crossed by one hard broken line."
+  },
+  {
+   "type": "text",
+   "text": "He had painted irises on gold once before, on a famous pair of screens now in the Nezu Museum in Tokyo, with no bridge at all. Returning to the subject some years later, he added the planks. The Metropolitan Museum bought this later pair in 1953."
+  },
+  {
+   "type": "fact",
+   "text": "Kōrin founded no school and had no direct line of pupils. A century after his death, the painter Sakai Hōitsu tracked down his works and published them in a woodblock-printed book. The style is now called Rinpa, “school of Rin,” after the last syllable of Kōrin's name."
+  },
+  {
+   "type": "text",
+   "text": "Stand back from the gold one more time. A man once sat here, counted five syllables and missed his wife. Kōrin does not show him. He shows what the man was looking at when the poem came."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How many bridges actually appear on the screens?",
+   "options": [
+    "Eight",
+    "One zigzagging bridge",
+    "None"
+   ],
+   "answer": 1,
+   "explanation": "A single plank bridge crosses both screens."
+  },
+  {
+   "question": "In the Tales of Ise, what was special about the poem written at Yatsuhashi?",
+   "options": [
+    "Each line began with a syllable of the word for iris",
+    "It was carved on the bridge",
+    "It had eight lines, one per bridge"
+   ],
+   "answer": 0,
+   "explanation": "The five lines begin with ka, ki, tsu, ba, ta."
+  },
+  {
+   "question": "What was Kōrin's family business?",
+   "options": [
+    "Gold beating",
+    "Publishing",
+    "Luxury textiles"
+   ],
+   "answer": 2,
+   "explanation": "His family sold kimono fabrics in Kyoto."
+  },
+  {
+   "question": "What is tarashikomi?",
+   "options": [
+    "Folding a screen in a zigzag",
+    "Dripping ink or color into wet paint so it pools",
+    "Gluing gold leaf on paper"
+   ],
+   "answer": 1,
+   "explanation": "Kōrin used it on the planks of the bridge."
+  },
+  {
+   "question": "Where does the name Rinpa come from?",
+   "options": [
+    "From a district of Kyoto",
+    "From the Japanese word for iris",
+    "From the last syllable of Kōrin's name"
+   ],
+   "answer": 2,
+   "explanation": "Rinpa means school of Rin."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Kōrin painted the homesick traveler crossing the bridge.",
+   "isTrue": false,
+   "explanation": "No figure appears; viewers were expected to remember the story."
+  },
+  {
+   "text": "The blue of the petals comes from a ground mineral, azurite.",
+   "isTrue": true,
+   "explanation": "The petals are thick azurite blue, the leaves malachite green."
+  },
+  {
+   "text": "The screens are meant to be read from left to right.",
+   "isTrue": false,
+   "explanation": "Japanese screens are traditionally read from right to left."
+  }
+ ]
 }

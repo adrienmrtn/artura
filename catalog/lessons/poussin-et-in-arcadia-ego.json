@@ -1,172 +1,241 @@
 {
- "teaser": "Four Latin words on a tomb, and nobody has agreed on who is speaking.",
+ "teaser": "Four people, one tomb, and a sentence nobody is sure how to translate.",
  "focus": [
-  0.72,
-  0.36
+  0.47,
+  0.52
  ],
- "review_notes": "IMAGE/METADATA MISMATCH: the image is NOT the Louvre painting of about 1638 (Les Bergers d'Arcadie, horizontal, four calm figures, no skull). It shows Poussin's FIRST version of the subject, about 1627-28, in the Devonshire Collection at Chatsworth House (vertical, skull on the tomb, river god in the foreground), and it appears slightly cropped at the sides. The lesson is written about the picture on screen and says so openly, presenting the Louvre canvas as the later rethinking. If the image is replaced by the Louvre version, every coordinate and several paragraphs must be redone.\nGuercino's Et in Arcadia ego (about 1618-22, Rome, Galleria Nazionale d'Arte Antica) as the first appearance of the phrase: standard account.\nReading of the phrase as spoken by Death ('Even in Arcadia, I am') versus the later reading 'I too once lived in Arcadia': follows Panofsky's well-known essay.\nRiver god usually identified as Alpheus, the river of Arcadia.\nLouvre version bought by Louis XIV in 1685.\nPoussin's tomb monument in San Lorenzo in Lucina, Rome, commissioned by Chateaubriand around 1830, carries a relief of the Louvre composition.\nPoussin arrived in Rome in 1624 and was about 33 when he painted the first version.",
+ "review_notes": "Date: the Louvre gives about 1638-1640.\nThe earlier version (about 1627, Chatsworth) with a skull on the tomb: check.\nLouis XIV acquiring the picture in 1685: check.\nPoussin's use of small wax figures in a box: reported by early biographers.\nPoussin's tomb monument in San Lorenzo in Lucina, Rome, commissioned by Chateaubriand with a relief after this painting: check.\nThe shadow read as a scythe or as an allusion to the origin of painting is an interpretation.",
  "lesson": [
   {
    "type": "text",
-   "text": "A finger touches a letter. That is the whole event. Three people have come hurrying through the woods, found a block of stone in the bushes, and bent over it. One of them is spelling out what is cut into its side. He has reached the middle of the phrase. In a second he will understand it."
+   "text": "A fingertip touches a letter cut in stone. That is the whole event. A bearded shepherd has dropped to one knee in front of a tomb and is spelling out its inscription with his index finger, the way a child follows a line in a book. Three companions have stopped to watch him read."
   },
   {
    "type": "text",
-   "text": "They are in Arcadia. It is a real region of Greece, rough and mountainous, but ancient poets turned it into a dreamland: eternal spring, shepherds with nothing to do but sing and fall in love. For centuries the word meant the simple, happy life. No one in Arcadia expects bad news."
+   "text": "The words are Latin: Et in Arcadia ego. Arcadia is a real mountain region of Greece, but ancient poets turned it into a dream country where shepherds live in peace, sing and fall in love. Finding a tomb there is like finding a gravestone in a holiday brochure."
   },
   {
-   "type": "find",
-   "text": "The stone block is a tomb. Poussin put the proof on top of it, half lost in the dark. Can you make it out?",
-   "spots": [
+   "type": "text",
+   "text": "Poussin gives nobody an open mouth. The conversation happens through eyes and hands. He admired ancient Roman carved reliefs, where figures stand in a row like actors on a shallow stage, and he arranged these four the same way so that you can read them from one to the next."
+  },
+  {
+   "type": "lines",
+   "text": "Follow the looks and the pointing hands. They pass the discovery along like a message.",
+   "lines": [
     {
-     "x": 0.82,
-     "y": 0.27,
-     "zoom": 3.5,
-     "r": 0.06,
-     "title": "A skull",
-     "text": "A skull sits on the lid, turned toward the newcomers. They have not noticed it yet. They are busy with the words. You know before they do."
+     "points": [
+      [
+       0.29,
+       0.3
+      ],
+      [
+       0.4,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "Looking down",
+     "text": "The standing shepherd on the left, leaning on the tomb, lowers his eyes to his kneeling friend. He watches someone else do the reading."
+    },
+    {
+     "points": [
+      [
+       0.38,
+       0.57
+      ],
+      [
+       0.485,
+       0.57
+      ]
+     ],
+     "closed": false,
+     "label": "The reading arm",
+     "text": "The kneeling man's arm stretches flat toward the stone. His finger rests on the carved letters."
+    },
+    {
+     "points": [
+      [
+       0.58,
+       0.47
+      ],
+      [
+       0.485,
+       0.535
+      ]
+     ],
+     "closed": false,
+     "label": "A second finger",
+     "text": "The shepherd in red, one foot on a block, points at the same line of text. Two hands meet at one word."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.37
+      ],
+      [
+       0.63,
+       0.25
+      ]
+     ],
+     "closed": false,
+     "label": "The question",
+     "text": "While he points, the man in red twists his head up toward the woman, as if asking what it means. She looks down, calm, and does not reply."
     }
    ]
   },
   {
    "type": "text",
-   "text": "The words are Latin: ET IN ARCADIA EGO. Literally, “Even in Arcadia, I.” The verb is missing, as often in Latin. With the skull above, the speaker can only be Death: even here, in paradise, I exist. The shepherds are learning that their endless spring has an end."
-  },
-  {
-   "type": "fact",
-   "text": "The phrase sounds ancient but appears in no Roman author. Its first known use is in a painting made in Italy a few years earlier by Guercino, where two shepherds stumble on a large skull. Poussin, newly arrived in Rome, almost certainly saw it."
-  },
-  {
-   "type": "text",
-   "text": "Poussin was about 33, a Frenchman trying to make a living in Rome, and still painting with the warm reds and golden skin he admired in Titian. What he adds to Guercino is time. He does not show people staring at death. He shows the moment of reading, bodies still moving from the run."
-  },
-  {
-   "type": "tour",
-   "title": "One second, four reactions",
-   "text": "Follow the news as it travels from the stone back through the group.",
-   "spots": [
-    {
-     "x": 0.86,
-     "y": 0.37,
-     "zoom": 3.2,
-     "r": 0.08,
-     "title": "The reading finger",
-     "text": "A bearded shepherd traces the carved letters with his fingertip. ARCADIA is legible under his hand. Reading by touch slows the moment down to the speed of one letter at a time."
-    },
-    {
-     "x": 0.42,
-     "y": 0.33,
-     "zoom": 3,
-     "r": 0.08,
-     "title": "The second shepherd",
-     "text": "Younger, pressed against his friend's back, he strains to see over his shoulder. A staff still points up behind him. He has seen the stone but not yet read it."
-    },
-    {
-     "x": 0.2,
-     "y": 0.36,
-     "zoom": 2.6,
-     "r": 0.1,
-     "title": "The shepherdess",
-     "text": "She arrives last, skirt gathered in one hand, shoulder bare. Her face is the calmest of the three. Love and beauty have walked into the picture with her, and so they are warned as well."
-    },
-    {
-     "x": 0.66,
-     "y": 0.62,
-     "zoom": 2,
-     "r": 0.16,
-     "title": "The river god",
-     "text": "An old man crowned with reeds sits with his back to us, pouring water from a jar. He stands for a river of Arcadia. Water that runs out and never returns: time itself, unnoticed by all."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "Notice the lean. All three bodies tilt the same way, toward the top right, like grass in wind, and the lid of the tomb slants up to meet them. The whole picture rushes at the inscription. It is a young man's painting: fast, warm, a little theatrical."
-  },
-  {
-   "type": "text",
-   "text": "About ten years later Poussin painted the subject again, and that second canvas is the famous one, in the Louvre. It is wide where this is tall. The skull is gone. Nobody runs. Four figures stand quietly around a plain tomb, and one kneels to trace the letters, his arm casting a shadow on the stone."
+   "text": "So the reading travels from left to right and ends on a silence. The woman rests a hand on the young man's shoulder, a gesture of comfort more than an answer. Who she is, Poussin does not say. Some see a shepherdess, others a figure of wisdom, or of Death herself in gentle form."
   },
   {
    "type": "key",
-   "text": "Same four words, two moods. The first version is a shock: death interrupts. The second is a meditation: people stand and think about it. Poussin grew from one to the other."
+   "text": "The inscription can be read two ways. Either Death speaks: “Even in Arcadia, I am here.” Or the dead person speaks: “I too once lived in Arcadia.”"
   },
   {
    "type": "fact",
-   "text": "Without the skull, later readers heard a different voice in the sentence: not Death, but the person in the tomb, saying “I too once lived in Arcadia.” The poet Goethe used it that way, as a motto for his happy travels in Italy. Grammatically it is a mistake, and it stuck."
+   "text": "Poussin had already painted this subject about ten years earlier. That first version is all agitation: the shepherds rush at the tomb, and a skull sits on top of it. In the Louvre picture he removed the skull and the hurry."
   },
   {
    "type": "text",
-   "text": "King Louis XIV bought the Louvre version in 1685, twenty years after the painter's death. Poussin himself died in Rome in 1665. His tomb there, put up much later by a French admirer, carries a carving of his own shepherds bent over their inscription. He ended up inside his subject."
+   "text": "Without the skull, the idea of death has to come from somewhere else. Poussin hides it in plain light. The sun falls from the left, and the kneeling shepherd cannot touch the stone without casting something onto it."
+  },
+  {
+   "type": "find",
+   "text": "The reader is not alone on the stone. Something dark repeats his gesture. Where is it?",
+   "spots": [
+    {
+     "x": 0.46,
+     "y": 0.585,
+     "zoom": 3.4,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "His own shadow",
+     "text": "The man's head and arm throw a shadow on the tomb, and his finger meets the finger of the shadow. He is tracing the words about death and touching his own dark double at once."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The young man studies the words, but what he really finds is himself. This is how Poussin works: no skeleton, no hourglass, only a shadow that any sunny afternoon would produce. Painters of the Baroque, the theatrical style of the 1600s, usually preferred a louder kind of drama."
+  },
+  {
+   "type": "fact",
+   "text": "To compose a picture, Poussin is said to have modeled small wax figures, dressed them in bits of wet cloth and placed them in a box like a miniature stage, moving them around until the grouping and the light felt right."
+  },
+  {
+   "type": "text",
+   "text": "He was French but spent nearly all his working life in Rome, painting mid-sized canvases for a small circle of learned collectors. This one measures about 85 by 121 cm (33 by 48 inches). In 1685 it entered the collection of Louis XIV, and it has belonged to the French state ever since."
+  },
+  {
+   "type": "tour",
+   "text": "Three places where the stillness is built.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.56,
+     "zoom": 1.8,
+     "r": 0.22,
+     "shape": "circle",
+     "title": "The tomb",
+     "text": "A plain block of stone, set almost parallel to the picture surface. Its flat front works like a page that the figures gather around."
+    },
+    {
+     "x": 0.63,
+     "y": 0.25,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "A statue's profile",
+     "text": "The woman's face is drawn in pure profile, like a head on an ancient coin. Her yellow and blue robes are the brightest colors in the picture."
+    },
+    {
+     "x": 0.5,
+     "y": 0.15,
+     "zoom": 2,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "The trees",
+     "text": "Dark foliage rises behind the group against an evening sky. The light is warm and low: the day in Arcadia is ending too."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The picture later attracted another kind of reader. Treasure hunters and writers of conspiracy novels have searched its inscription for anagrams and its background hills for a secret location in southern France. None of it holds up, yet the tomb keeps tempting people to decode it."
+  },
+  {
+   "type": "text",
+   "text": "Poussin died in Rome in 1665. In the church of San Lorenzo in Lucina, the monument put up to him in the 1800s carries a marble relief of these same shepherds bending over their stone. The painter who showed four people reading a tomb now has visitors reading his."
   }
  ],
  "quiz": [
   {
-   "question": "In this early version, who is most likely “speaking” the words on the tomb?",
+   "question": "What is the kneeling shepherd doing?",
    "options": [
-    "The river god",
-    "Death",
-    "The shepherdess"
+    "Praying at the tomb",
+    "Tracing the inscription with his finger",
+    "Digging at its base"
    ],
    "answer": 1,
-   "explanation": "With a skull on the lid, the sentence means that death exists even in Arcadia."
+   "explanation": "He follows the carved letters with his index finger."
   },
   {
-   "question": "What did Arcadia stand for in poetry?",
+   "question": "What was Arcadia for ancient poets?",
    "options": [
-    "A simple, happy life among shepherds",
-    "A great city of marble",
-    "The underworld"
+    "An ideal land of peaceful shepherds",
+    "A city of marble temples",
+    "The kingdom of the dead"
    ],
    "answer": 0,
-   "explanation": "Ancient poets turned a rough Greek region into a land of eternal spring."
+   "explanation": "Poets made this Greek region a dream country of shepherds."
   },
   {
-   "question": "What is the bearded shepherd doing?",
+   "question": "What did Poussin remove compared with his earlier version?",
    "options": [
-    "Lifting the lid of the tomb",
-    "Praying",
-    "Tracing the carved letters with his finger"
+    "The woman",
+    "The inscription",
+    "The skull on the tomb"
    ],
    "answer": 2,
-   "explanation": "He reads the inscription by touch, one letter at a time."
+   "explanation": "The first version has a skull on the tomb; the Louvre picture does not."
   },
   {
-   "question": "What changed in the later version in the Louvre?",
+   "question": "Where does the idea of death appear in the Louvre picture, besides the tomb?",
    "options": [
-    "The skull is gone and the figures are calm",
-    "The shepherds are replaced by soldiers",
-    "The inscription is in French"
+    "In a skeleton behind the trees",
+    "In the reader's shadow on the stone",
+    "In a storm in the sky"
    ],
-   "answer": 0,
-   "explanation": "The second painting turns the shock into a quiet meditation."
+   "answer": 1,
+   "explanation": "The shepherd's shadow falls on the tomb and meets his finger."
   },
   {
-   "question": "Where does the phrase “Et in Arcadia ego” first appear?",
+   "question": "In which city did Poussin spend most of his career?",
    "options": [
-    "In a poem by Virgil",
-    "On a real Greek tomb",
-    "In a painting by Guercino"
+    "Paris",
+    "Athens",
+    "Rome"
    ],
    "answer": 2,
-   "explanation": "No ancient author uses it; Guercino's picture is its first known appearance."
+   "explanation": "He was French but worked in Rome."
   }
  ],
  "facts": [
   {
-   "text": "The words on the tomb are a quotation from an ancient Roman poet.",
+   "text": "The four figures are shown talking loudly to each other.",
    "isTrue": false,
-   "explanation": "The phrase is not found in any ancient text and first appears in the 1600s."
+   "explanation": "No mouth is open; they communicate through looks and gestures."
   },
   {
-   "text": "Poussin painted this subject twice, about ten years apart.",
+   "text": "The Latin sentence on the tomb has two possible meanings.",
    "isTrue": true,
-   "explanation": "The early, vertical version was followed by the wide canvas now in the Louvre."
+   "explanation": "It can be spoken by Death or by the person buried there."
   },
   {
-   "text": "The old man pouring water in the foreground is a river god.",
+   "text": "A relief of this painting decorates Poussin's own monument in Rome.",
    "isTrue": true,
-   "explanation": "He personifies a river of Arcadia, and his flowing water suggests passing time."
+   "explanation": "His monument in San Lorenzo in Lucina carries a relief of the shepherds."
   }
  ]
 }

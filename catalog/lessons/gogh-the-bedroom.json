@@ -1,295 +1,284 @@
 {
- "teaser": "In 2016 you could rent this room for ten dollars a night. Van Gogh painted it three times.",
+ "teaser": "In 2016 you could sleep in this room for ten dollars a night. The real one was gone.",
  "focus": [
-  0.62,
+  0.6,
   0.45
  ],
- "review_notes": "CATALOG ISSUE: the image appears to be the FIRST version (Van Gogh Museum, Amsterdam, October 1888: portraits of Boch and Milliet on the wall, pale blue walls, red blanket), not the Art Institute of Chicago version of 1889. Spots were kept to features shared by both versions, but the picture should be replaced.\nAirbnb replica by the Art Institute of Chicago, 2016, 10 dollars a night, booked within minutes: check.\nLeft door leading to the guest room (Gauguin's): per Van Gogh Museum description, check.\nFirst version damaged by damp/flooding while van Gogh was in hospital; Chicago copy made at Saint-Remy in September 1889; third, smaller version (Musee d'Orsay) for his mother and sister.\nWalls originally violet/lilac, faded as the red pigment degraded: per Van Gogh Museum and Art Institute research.\nYellow House damaged by bombing in 1944 and later demolished.\nChicago version entered the Art Institute in 1926 (Helen Birch Bartlett Memorial Collection).\nPortraits in the later versions differ from the first (a self-portrait among them): check wording.",
+ "review_notes": "The image shows the Chicago version (second of three, September 1889): the two portraits at top right match it.\nThe 2016 Art Institute of Chicago Airbnb replica at 10 dollars a night: check.\nRoy Lichtenstein's 'Bedroom at Arles' (1992): check.\nColor change (walls and doors originally more violet, a red pigment having faded): based on technical studies of the versions; check wording for the Chicago canvas specifically.\nThe Yellow House damaged by bombing in 1944 and later demolished: check.\nLeft door leading to the guest room used by Gauguin: check.\nThe woman's portrait at top right is unidentified; the left one is generally read as a self-portrait.\nAcquired by the Art Institute in 1926 (Helen Birch Bartlett Memorial Collection): check.",
  "lesson": [
   {
    "type": "text",
-   "text": "In 2016, a listing appeared on Airbnb: one small bedroom in Chicago, ten dollars a night, with a yellow bed, two straw chairs and crooked pictures on the wall. The Art Institute of Chicago had built a full-size copy of this painting that you could sleep in. It booked up within minutes."
+   "text": "In 2016, a listing appeared on Airbnb: a small room in Chicago with blue walls, a wooden bed and two straw chairs, ten dollars a night. The Art Institute of Chicago had built this painting in three dimensions, crooked pictures included. The nights sold out within minutes."
   },
   {
    "type": "text",
-   "text": "Why would anyone want to sleep inside a painting of a cheap rented room? Because Vincent van Gogh made it look like the safest place on earth. That was exactly his plan."
+   "text": "The pop artist Roy Lichtenstein had already redone the room in 1992 in his comic-strip style, with tidy modern chairs. Few interiors in art are this familiar. And yet the canvas in Chicago is a copy, painted by Van Gogh from memory of a room he no longer lived in."
   },
   {
    "type": "text",
-   "text": "In October 1888 he was living in Arles, in the south of France, in a small building he called the Yellow House. He had bought the furniture himself and was waiting for the painter Paul Gauguin to move in. After days of exhausting work, he decided to paint his own bedroom."
-  },
-  {
-   "type": "key",
-   "text": "Van Gogh wanted this picture to rest your mind. He wrote that the colors should suggest sleep, and that looking at it should rest the brain, or rather the imagination."
-  },
-  {
-   "type": "text",
-   "text": "The room holds almost nothing: a bed, a table, two chairs, a few clothes on pegs. His own things are here too. One of them is the hat he wore to paint outdoors under the southern sun."
-  },
-  {
-   "type": "find",
-   "text": "Van Gogh hung up his straw hat before painting. Can you spot it?",
-   "spots": [
-    {
-     "x": 0.565,
-     "y": 0.215,
-     "zoom": 3.6,
-     "r": 0.05,
-     "title": "The straw hat",
-     "text": "It hangs on the last peg, just behind the bed, next to his blue work smocks. These few clothes are the only sign of the man who lives here. He painted his room, and left himself out of it."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "An empty room, then, yet full of him. Notice also how few shadows there are. The chair legs, the table, the bed: nothing casts a shadow on the floor. Van Gogh said he had removed them on purpose and painted in flat areas of color, like the Japanese woodblock prints he collected."
+   "text": "The room was real. In 1888 he rented four rooms in a small yellow house in Arles, in the south of France, and for the first time in his life he had a home of his own. He bought a bed, twelve chairs and a mirror, and in October he painted his bedroom to show his brother Theo what it looked like."
   },
   {
    "type": "fact",
-   "text": "The room really was crooked. The Yellow House stood on an angled street corner, so the far wall of the bedroom ran at a slant. Part of what looks like a mistake in the drawing is simply the building."
+   "text": "While Van Gogh was in the hospital in Arles, the Rhône river flooded and damp got into the Yellow House. The first Bedroom was damaged. Theo suggested he copy it before it was repaired, and that is why this second canvas exists."
   },
   {
    "type": "text",
-   "text": "Still, the building does not explain everything. The floor seems to tip up, and the bed looks huge. Van Gogh pushed the perspective, the set of rules that makes a flat picture look deep, to bring the furniture toward you."
-  },
-  {
-   "type": "lines",
-   "text": "Two edges show how steeply the room is built.",
-   "lines": [
-    {
-     "points": [
-      [
-       0.6,
-       0.83
-      ],
-      [
-       0.46,
-       0.27
-      ]
-     ],
-     "closed": false,
-     "label": "The side of the bed",
-     "text": "This edge climbs almost straight up the picture. The bed takes over a third of the room, solid as a boat. He chose that sturdy shape because it spoke to him of rest."
-    },
-    {
-     "points": [
-      [
-       0.21,
-       0.99
-      ],
-      [
-       0.35,
-       0.5
-      ]
-     ],
-     "closed": false,
-     "label": "The floorboards",
-     "text": "The boards race toward the back wall, far faster than in a real room. You seem to be standing inside, looking down at your own feet."
-    },
-    {
-     "points": [
-      [
-       0.235,
-       0.0
-      ],
-      [
-       0.395,
-       0.0
-      ],
-      [
-       0.395,
-       0.285
-      ],
-      [
-       0.235,
-       0.285
-      ]
-     ],
-     "closed": true,
-     "label": "The closed view",
-     "text": "Where all this depth should lead, there is a window. Its shutters let in a greenish light but show nothing outside. The room keeps the world out."
-    }
-   ]
+   "text": "He painted the copy in September 1889, a year after the original and in a very different place: the asylum of Saint-Rémy, where he had committed himself after a series of breakdowns. He set the damaged canvas beside a fresh one of the same size, about 72 by 91 cm (28 by 36 inches)."
   },
   {
    "type": "text",
-   "text": "So the space is steep but sealed, and that is why it comforts. Everything in it is close at hand, big and simple, like furniture in a child's drawing. Nothing from outside can come in."
-  },
-  {
-   "type": "fact",
-   "text": "The colors you see are not quite the ones he painted. Van Gogh described the walls as pale violet. A red pigment in his mixture faded over time, and the violet turned to blue."
-  },
-  {
-   "type": "text",
-   "text": "Count the objects and a pattern appears. For a man who lived alone, van Gogh owned a surprising number of things in twos."
+   "text": "In his letters he explained what he was after. The picture should make you think of rest, of sleep in general. Color was to do everything. He listed each object with its color, as if dictating a recipe."
   },
   {
    "type": "tour",
-   "text": "Look for the pairs.",
+   "text": "Go through the room the way his letter does, color by color.",
    "spots": [
     {
-     "x": 0.57,
-     "y": 0.3,
-     "zoom": 3.0,
+     "x": 0.7,
+     "y": 0.52,
+     "zoom": 1.7,
+     "r": 0.24,
+     "shape": "circle",
+     "title": "The bed",
+     "text": "He called it the yellow of fresh butter. It is enormous, heavy as a ship, and takes up a third of the canvas. He wanted furniture that looked solid and lasting."
+    },
+    {
+     "x": 0.555,
+     "y": 0.49,
+     "zoom": 3,
      "r": 0.08,
-     "title": "Two pillows",
-     "text": "Two pillows lie side by side on a bed made for one sleeper. Some see only comfort here. Others see a wish for company."
+     "shape": "circle",
+     "title": "The red blanket",
+     "text": "One patch of scarlet in the whole room. Next to the greens and blues it glows hotter than it is: opposite colors, called complementaries, intensify each other."
     },
     {
-     "x": 0.39,
-     "y": 0.42,
+     "x": 0.31,
+     "y": 0.16,
+     "zoom": 2.4,
+     "r": 0.11,
+     "shape": "circle",
+     "title": "The window",
+     "text": "Green shutter frames, nearly closed, with yellow-green light behind the panes. There is no view. The outside world is shut out."
+    },
+    {
+     "x": 0.23,
+     "y": 0.37,
      "zoom": 2.8,
-     "r": 0.07,
-     "title": "Two chairs",
-     "text": "A second straw chair waits by the head of the bed, the twin of the one near the door. He had bought a whole set of chairs for the Yellow House, hoping other painters would join him.",
-     "shape": "rect"
-    },
-    {
-     "x": 0.71,
-     "y": 0.07,
-     "zoom": 3.0,
      "r": 0.1,
-     "title": "Two portraits",
-     "text": "Two faces hang above the bed. They change from one version of the painting to the next: friends from Arles in the first, other faces, his own among them, in the later ones."
+     "shape": "circle",
+     "title": "The washstand",
+     "text": "A blue jug and basin, bottles and a glass on an orange-brown table. This is the whole of his toilet kit, lined up neatly."
+    }
+   ],
+   "title": "A recipe in color"
+  },
+  {
+   "type": "text",
+   "text": "Notice what the colors do not have: shadows. No object darkens the floor beneath it. Van Gogh said he had left the shadows out on purpose, to paint in flat, clear tints like the Japanese woodblock prints he collected and pinned to his walls."
+  },
+  {
+   "type": "fact",
+   "text": "Some of the colors you see are not the ones he chose. He described the walls as pale violet. A red pigment in his mix has faded over the years, leaving them blue, so the room has shifted from the harmony he planned."
+  },
+  {
+   "type": "text",
+   "text": "The thick paint is still exactly his. He applied it in short loaded strokes that stand up from the canvas, a technique called impasto. On the floor the strokes run in every direction, green over pink over gray, like worn boards scrubbed too often."
+  },
+  {
+   "type": "text",
+   "text": "Above the bed hang the things that kept him company. In the first version, two of them were portraits of friends from Arles. For the copy painted in the asylum, he changed who was on the wall."
+  },
+  {
+   "type": "find",
+   "text": "Van Gogh put himself in his own room. Where is his face?",
+   "spots": [
+    {
+     "x": 0.65,
+     "y": 0.07,
+     "zoom": 3.6,
+     "r": 0.06,
+     "shape": "circle",
+     "title": "A self-portrait",
+     "text": "A man with reddish hair and beard on a green ground, hung at a tilt above the pillows. Beside him is a portrait of a woman whose identity is unknown. The friends from Arles are gone."
     }
    ]
   },
   {
    "type": "text",
-   "text": "Yes, versions. While van Gogh was in hospital that winter, damp damaged the first canvas. In September 1889, living in an asylum in Saint-Rémy, he copied it at the same size. That copy is the one that hangs in Chicago. Soon after, he painted a third, smaller one as a gift for his mother and sister."
+   "text": "That small face changes the mood. In 1888 the walls spoke of friendship and of a house waiting for guests. A year later the friends had scattered, and the man looking down at the empty bed is the painter himself, alone with a memory."
+  },
+  {
+   "type": "key",
+   "text": "The Bedroom is not a record of a room. It is a picture of what having a home meant to a man who had just lost it."
   },
   {
    "type": "text",
-   "text": "By then the life the picture promised was over. Gauguin had come and left after two stormy months, and van Gogh never lived in the Yellow House again. He was repainting, from memory and from his own canvas, a calm he no longer had."
-  },
-  {
-   "type": "fact",
-   "text": "You cannot visit the real room. The Yellow House was hit during a bombing raid in 1944 and later pulled down. The three paintings, in Amsterdam, Chicago and Paris, are what is left of it."
+   "text": "So is the room restful? Many viewers feel the opposite. The floor tips up, the bed's foot looms, the far wall seems to slide. Part of this is true to life: the room in the Yellow House really was an irregular shape, with one corner skewed. The rest is Van Gogh pressing everything close."
   },
   {
    "type": "explore",
    "spots": [
     {
-     "x": 0.25,
-     "y": 0.36,
-     "zoom": 3.0,
-     "r": 0.08,
-     "title": "The washstand",
-     "text": "A jug, a basin, bottles and a brush on a plain wooden table. This corner was all the bathroom he had."
+     "x": 0.09,
+     "y": 0.61,
+     "zoom": 2.4,
+     "r": 0.11,
+     "shape": "rect",
+     "title": "The near chair",
+     "text": "A plain straw-seated chair, cut by the left edge. It stands almost on your feet, as if you had just come through the door."
     },
     {
-     "x": 0.53,
-     "y": 0.47,
-     "zoom": 2.8,
-     "r": 0.07,
-     "title": "The red blanket",
-     "text": "The one strong red in the room. Van Gogh listed it carefully in his letters: scarlet blanket, butter yellow bed, lemon green pillows."
+     "x": 0.41,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.09,
+     "shape": "rect",
+     "title": "The second chair",
+     "text": "Pulled up by the bed and facing it. Two chairs, two pillows, one occupant: the room is furnished for company that is absent."
+    },
+    {
+     "x": 0.185,
+     "y": 0.17,
+     "zoom": 3.4,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "The mirror",
+     "text": "A black-framed mirror hangs by the window and reflects only pale light. No face appears in it: the room is shown without its occupant."
+    },
+    {
+     "x": 0.55,
+     "y": 0.26,
+     "zoom": 3,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "Clothes on pegs",
+     "text": "His blue work jackets hang from a rail behind the bed, and at the right end sits his straw hat."
+    },
+    {
+     "x": 0.48,
+     "y": 0.14,
+     "zoom": 3,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The landscape",
+     "text": "A small painting of a tree in a field, hung from a nail by a triangle of cord. Even on his bedroom wall he hung the countryside."
     },
     {
      "x": 0.12,
-     "y": 0.33,
+     "y": 0.38,
      "zoom": 2.8,
-     "r": 0.06,
+     "r": 0.07,
+     "shape": "rect",
      "title": "The towel",
-     "text": "A towel hangs from a nail by the door, striped in red. Even the smallest objects get a firm dark outline, as in a Japanese print.",
-     "shape": "rect"
+     "text": "A striped towel hangs from a nail by the door. Its red stripes echo the blanket across the room."
     },
     {
-     "x": 0.19,
-     "y": 0.16,
-     "zoom": 3.2,
-     "r": 0.05,
-     "title": "The mirror",
-     "text": "A small mirror hangs by the window. It reflects nothing you can read, only a patch of pale color."
+     "x": 0.45,
+     "y": 0.8,
+     "zoom": 1.8,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "The floor",
+     "text": "No two strokes agree. He wrote of red floor tiles, but here the floor has turned greenish gray with pink showing through."
     },
     {
-     "x": 0.08,
-     "y": 0.6,
-     "zoom": 2.2,
-     "r": 0.1,
-     "title": "The near chair",
-     "text": "Thick yellow strokes for the wood, green ones for the woven seat. The paint follows the direction of the straw.",
-     "shape": "rect"
-    },
-    {
-     "x": 0.04,
+     "x": 0.03,
      "y": 0.3,
-     "zoom": 2.2,
-     "r": 0.06,
+     "zoom": 2.4,
+     "r": 0.05,
+     "shape": "rect",
      "title": "The door on the left",
-     "text": "There is a door on each side of the room. This one led to the guest room he had prepared for Gauguin.",
-     "shape": "rect"
+     "text": "One of two doors that frame the picture. This one led to the guest room he prepared for the painter Paul Gauguin, who stayed two months."
     }
    ]
+  },
+  {
+   "type": "fact",
+   "text": "The Yellow House itself did not survive. It was damaged by bombs in 1944, during the Second World War, and was later pulled down. The bedroom now exists only in paint."
+  },
+  {
+   "type": "text",
+   "text": "He painted it a third time that same month, smaller, as a gift for his mother and sister. That one is in Paris, the first is in Amsterdam, and this one reached Chicago in 1926. Three cities each own the room, and when the Art Institute needed a fourth for its guests, it had to build it from the painting."
   }
  ],
  "quiz": [
   {
-   "question": "What feeling did van Gogh want this painting to give?",
+   "question": "Why did Van Gogh paint a second version of his bedroom?",
    "options": [
-    "Rest",
-    "Fear",
-    "Excitement"
-   ],
-   "answer": 0,
-   "explanation": "He wrote that the picture should rest the brain, or rather the imagination."
-  },
-  {
-   "question": "Why are there no shadows under the furniture?",
-   "options": [
-    "The paint has faded",
-    "He removed them on purpose, as in Japanese prints",
-    "The room had no window"
+    "A collector ordered one",
+    "The first had been damaged by damp after a flood",
+    "He disliked the first"
    ],
    "answer": 1,
-   "explanation": "He chose flat areas of color like the Japanese prints he collected."
+   "explanation": "The first canvas was damaged and Theo suggested copying it."
   },
   {
-   "question": "How many versions of The Bedroom did van Gogh paint?",
+   "question": "Where was he when he painted the Chicago version?",
    "options": [
-    "One",
-    "Two",
-    "Three"
-   ],
-   "answer": 2,
-   "explanation": "The first in 1888, then two more in 1889."
-  },
-  {
-   "question": "Why do the walls look blue today?",
-   "options": [
-    "A red pigment faded and the violet turned blue",
-    "A restorer repainted them",
-    "He ran out of violet paint"
+    "In the asylum at Saint-Rémy",
+    "In the Yellow House in Arles",
+    "In Paris with Theo"
    ],
    "answer": 0,
-   "explanation": "He described the walls as pale violet, but the red in the mixture faded."
+   "explanation": "He painted it in September 1889 at Saint-Rémy."
   },
   {
-   "question": "Where was van Gogh living when he painted the version now in Chicago?",
+   "question": "Why are there no shadows in the room?",
    "options": [
-    "In Paris with his brother",
-    "In the Yellow House",
-    "In an asylum in Saint-Rémy"
+    "The paint has faded",
+    "It is meant to be night",
+    "He left them out to imitate Japanese prints"
    ],
    "answer": 2,
-   "explanation": "He copied the damaged first canvas there in September 1889."
+   "explanation": "He wanted flat clear tints like the prints he collected."
+  },
+  {
+   "question": "What did he say the picture should suggest?",
+   "options": [
+    "Rest and sleep",
+    "Loneliness",
+    "Poverty"
+   ],
+   "answer": 0,
+   "explanation": "His letters say color should suggest rest or sleep."
+  },
+  {
+   "question": "Whose portrait hangs above the bed in this version?",
+   "options": [
+    "His brother Theo's",
+    "His own",
+    "Paul Gauguin's"
+   ],
+   "answer": 1,
+   "explanation": "He replaced a friend's portrait with a self-portrait."
+  },
+  {
+   "question": "What happened to the walls' color over time?",
+   "options": [
+    "They darkened to black",
+    "They were repainted by a restorer",
+    "A red pigment faded, turning violet into blue"
+   ],
+   "answer": 2,
+   "explanation": "He described the walls as pale violet; the red component has faded."
   }
  ],
  "facts": [
   {
-   "text": "The slanted far wall is partly real: the Yellow House stood on an angled corner.",
-   "isTrue": true,
-   "explanation": "The room itself was not a regular rectangle."
-  },
-  {
-   "text": "You can still visit van Gogh's bedroom in Arles today.",
+   "text": "The Yellow House in Arles can still be visited today.",
    "isTrue": false,
-   "explanation": "The Yellow House was bombed in 1944 and later demolished."
+   "explanation": "It was bombed in 1944 and later demolished."
   },
   {
-   "text": "Van Gogh's straw hat hangs on a peg behind the bed.",
+   "text": "Van Gogh painted three versions of the Bedroom.",
    "isTrue": true,
-   "explanation": "It hangs on the last peg beside his blue work smocks."
+   "explanation": "They are in Amsterdam, Chicago and Paris."
+  },
+  {
+   "text": "The Chicago canvas was painted in the bedroom itself.",
+   "isTrue": false,
+   "explanation": "It was copied from the first version at the asylum of Saint-Rémy."
   }
  ]
 }

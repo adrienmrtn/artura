@@ -1,39 +1,49 @@
 {
- "teaser": "Two old men cross a bridge at dusk. One of them may be leaving for good.",
- "focus": [0.62, 0.45],
- "review_notes": "IMAGE IS A PARTIAL VIEW: it shows only the left half of the painting (pavilion, bridge, old trees) plus the start of the colophons at far left; the right half with fishing boats and distant mountains is cut off. All spots point only at what is visible.\nThe reading of the scene as a farewell for a retiring friend follows the Met's catalogue interpretation; it is a hypothesis, stated as such.\nGuo Xi's dates (c. 1000 to c. 1090) and the dating of this scroll to about 1080 are approximate.\nDimensions 35.6 x 104.4 cm for the painting.\nGift of John M. Crawford Jr. to the Met, 1981.\nLarge calligraphy at the left edge is the first colophon (often given as Feng Zizhen, Yuan dynasty); not named in the lesson.",
- "lesson": [
-  {"type":"text","text":"It is late in the day and late in the year. Two old men, each leaning on a staff, each with a boy at his elbow, have reached a small bridge. Ahead of them, servants are already hauling baskets up a slope. In a moment the old men will arrive. Right now they are still on their way."},
-  {"type":"text","text":"Guo Xi painted this pause around 1080, when he was himself very old, probably close to eighty. He had spent his best years decorating palace halls with towering mountains for the emperor. Here he works small and low: a strip of silk about 36 centimeters (14 inches) high, meant to be unrolled on a table by one or two people."},
-  {"type":"find","text":"The two old men are tiny, and the mist is doing its best to hide them. Where is the bridge?","spots":[
-   {"x":0.35,"y":0.53,"zoom":4.5,"r":0.06,"title":"On the bridge","text":"Four figures in two pairs: a stooped elder with a staff, a small attendant close by, then the same again. The bridge is a rough slab on stone piers. A few flicks of the brush make each back bend."}
-  ]},
-  {"type":"text","text":"They are a few millimeters tall, and still you can read their age from their posture. Guo Xi could have put them in the center. Instead he placed them at the edge, with a long walk ahead, so that your eye has to travel the path before they do."},
-  {"type":"tour","title":"The road ahead of them","text":"From the bridge, follow the route uphill and to the right.","spots":[
-   {"x":0.468,"y":0.505,"zoom":4.5,"r":0.05,"title":"The servants","text":"Two figures bent under loads climb toward a flat terrace. Someone has sent the food and wine ahead. A gathering is being prepared."},
-   {"x":0.55,"y":0.32,"zoom":3.2,"r":0.07,"title":"The pavilion","text":"An open-sided building with a thatched, pointed roof stands on the knoll, half screened by branches. It is the destination, and it is empty for now."},
-   {"x":0.66,"y":0.44,"zoom":2,"r":0.13,"title":"The old trees","text":"Bare trunks twist up and end in hooked twigs that curl downward. Painters call these “crab-claw” branches. They are Guo Xi's signature, and here they are as bent and stubborn as the two men."},
-   {"x":0.69,"y":0.77,"zoom":2.4,"r":0.11,"title":"Cloud rocks","text":"The boulders in front have no hard edges. Guo Xi shaped them with wet, soft pools of ink so that they swell like clouds. Stone and vapor are made of the same stuff."}
-  ]},
-  {"type":"key","text":"Nothing here is only scenery. Old men, old trees, a fading day, a leafless season: every element repeats the same idea, the end of something."},
-  {"type":"fact","text":"Scholars at the Metropolitan Museum have suggested the scroll was a parting gift for a friend retiring from government service. In Guo Xi's world, officials who had served together often marked a farewell with a meal, poems and a painting."},
-  {"type":"text","text":"The title names the other subject. “Level distance” is the view you get when you stand on low ground and look far across flat country. There is no peak to climb with your eyes. Space opens sideways, and the farther things are, the paler the ink, until hills become a gray breath on the silk."},
-  {"type":"text","text":"You can test this at the left of the painting: behind the bridge, the hills are barely there, a few strokes of diluted wash. Much of the surface is simply bare silk standing in for river and fog. Guo Xi lets emptiness do the work."},
-  {"type":"fact","text":"What you see here is only the last stretch of the scroll. A handscroll is read from right to left, an arm's length at a time, so the bridge and pavilion are the ending. The earlier part, with fishing boats on open water, lies farther right."},
-  {"type":"text","text":"The bold writing at the far left edge is not part of the picture either. After the painting ends, later owners attached sheets of paper and wrote their responses, a custom that turns a scroll into a conversation several centuries long."},
-  {"type":"fact","text":"The scroll reached New York through John M. Crawford Jr., a collector who built one of the great private holdings of Chinese painting and calligraphy in the West. He gave it to the Metropolitan Museum in 1981."},
-  {"type":"text","text":"Go back to the bridge one more time. The men have not moved. The pavilion is still empty, the baskets still on their way. Guo Xi chose to stop the story one minute before the reunion, and so the meeting, and the goodbye after it, never has to happen."}
- ],
- "quiz": [
-  {"question":"What does “level distance” describe?","options":["A view looking straight up at a peak","A far view across flat, low country","A view from a mountaintop down into a valley"],"answer":1,"explanation":"It is the wide, sideways view from low ground, fading into pale ink."},
-  {"question":"What are “crab-claw” branches?","options":["Bare twigs that hook and curl downward","Pine needles painted in clusters","Roots that grip a rock"],"answer":0,"explanation":"The hooked, drooping twigs are a hallmark of Guo Xi's trees."},
-  {"question":"Which moment does the painting show?","options":["The friends eating in the pavilion","The friends saying goodbye at a boat","The old men still walking toward the pavilion"],"answer":2,"explanation":"They are on the bridge; the pavilion ahead is still empty."},
-  {"question":"How was a handscroll like this meant to be seen?","options":["Hung high on a palace wall","Unrolled on a table, read from right to left","Folded into a book"],"answer":1,"explanation":"One or two people unrolled it a section at a time, right to left."},
-  {"question":"What do museum scholars suggest the scroll was made for?","options":["A farewell to a retiring friend","A temple altar","A lesson for the emperor's children"],"answer":0,"explanation":"It may have been a parting gift for a fellow official leaving service."}
- ],
- "facts": [
-  {"text":"Guo Xi painted this scroll as a young man at the start of his career.","isTrue":false,"explanation":"It is a late work, made when he was probably close to eighty."},
-  {"text":"The rocks in the foreground are shaped with soft, wet ink so that they look like clouds.","isTrue":true,"explanation":"Guo Xi's boulders swell without hard edges, like vapor."},
-  {"text":"The bold calligraphy at the left edge was written by Guo Xi as part of the picture.","isTrue":false,"explanation":"It was added by a later owner on paper attached after the painting."}
- ]
+  "teaser": "Two old men are halfway across a bridge. In nine hundred years they have not reached the other side.",
+  "focus": [0.62, 0.42],
+  "review_notes": "IMAGE: the painting area in this image is much less elongated than the Met's stated dimensions (about 35.6 x 104.4 cm), so the right-hand part of the scroll, with fishing boats, appears to be cropped off; a strip of later calligraphy is visible at the left. Coordinates refer to what is shown.\nThe faint shape at the far right edge is described as a boat with a figure: low resolution, please check.\nMet's reading of the scene as a farewell, with elderly gentlemen approaching a pavilion where servants prepare a meal.\nGuo Xi served Emperor Shenzong (r. 1067 to 1085); treatise compiled by his son Guo Si.\nAnecdote (from Deng Chun, 12th century) that Guo Xi's paintings were later used as rags in the palace.\nAcquisition: gift of John M. Crawford Jr., 1981.\nThe large square seal at upper right is described only as a later owner's seal, without naming the owner.",
+  "lesson": [
+    {"type": "text", "text": "It is late in the year and late in the day. The leaves are gone. Mist is coming up off the water, and two old men, each with a servant at his elbow, have stopped in the middle of a small bridge. Ahead of them, a pavilion waits on the bank. That is the whole event."},
+    {"type": "text", "text": "Guo Xi painted it around 1080 in ink on silk, when he was the favorite landscape painter of the Chinese emperor. The format is a handscroll: a long horizontal strip kept rolled up, opened on a table an arm's length at a time, and read from right to left like a slow walk."},
+    {"type": "find", "text": "The travelers are tiny. Can you find the bridge they are crossing?", "spots": [
+      {"x": 0.35, "y": 0.53, "zoom": 4.0, "r": 0.06, "title": "On the bridge", "text": "Four small figures on a stone footbridge at the far left of the painting. The two taller ones stoop slightly: old men. The shorter ones beside them are attendants."}
+    ]},
+    {"type": "text", "text": "Since a scroll moves leftward, this bridge comes near the end of the journey, not the beginning. Many scholars read the picture as a goodbye: a painting made for a friend retiring from government, with a parting meal being laid out in the pavilion. The bare season fits the mood."},
+    {"type": "text", "text": "The second half of the title is a technical term. Guo Xi described three ways to give depth to a landscape. “Level distance” is the one you see here: you stand on low ground and look across flat water toward hills that dissolve into haze. Nothing towers. Space opens sideways."},
+    {"type": "fact", "text": "We know how Guo Xi thought because his son wrote it down. The son collected his father's remarks into a short book on landscape painting, one of the earliest and most quoted texts on art ever written in China."},
+    {"type": "text", "text": "The only material is black ink, ground from a solid stick with water. Yet the painting holds sharp things and soft things, near and far. The difference is all in how much water was on the brush."},
+    {"type": "tour", "title": "One ink, three touches", "text": "The same black, used three ways.", "spots": [
+      {"x": 0.66, "y": 0.34, "zoom": 3.2, "r": 0.1, "title": "Crab-claw branches", "text": "The twigs curl downward in sharp little hooks, drawn with the tip of a dry brush. Chinese writers call this “crab-claw” and it became Guo Xi's signature."},
+      {"x": 0.67, "y": 0.76, "zoom": 2.6, "r": 0.11, "title": "Rocks like clouds", "text": "The boulders in front have puffy, curling outlines and are shaded with wet, layered washes, thin films of diluted ink. They look almost as soft as the mist."},
+      {"x": 0.31, "y": 0.33, "zoom": 2.6, "r": 0.09, "title": "Hills made of breath", "text": "The far hills are one pale gray stain with no outline at all. The bare silk around them becomes fog and water without a single stroke."}
+    ]},
+    {"type": "text", "text": "Dry and dark for what is close, wet and pale for what is far: that is the entire system, and it is why the empty areas feel like air and not like blank cloth. The brown tone, by the way, is age. The silk was much lighter when the ink went on."},
+    {"type": "key", "text": "In a Chinese landscape the unpainted silk is not background. It is mist, water and distance, and it does as much work as the ink."},
+    {"type": "text", "text": "Then there are the trees of the title. Gnarled, leafless, clinging to rock, they stand at the center like the real subject. In Guo Xi's world old trees meant people who had endured: weathered officials, still upright after a hard career. The painter was an old man himself by then."},
+    {"type": "fact", "text": "Fame did not protect him. After his emperor died, taste at court shifted. A later writer tells of a visitor to the palace who found a workman wiping tables with a cloth, looked closer, and saw it was a landscape by Guo Xi."},
+    {"type": "text", "text": "The red stamps and the writing are not Guo Xi's. In China, owners and admirers pressed their seals onto a painting and added inscriptions to its mounting, generation after generation. A scroll collects its readers. Wander across it and you will meet some of them, along with a few people you have not spotted yet."},
+    {"type": "explore", "spots": [
+      {"x": 0.55, "y": 0.33, "zoom": 3.4, "r": 0.07, "title": "The pavilion", "text": "An open, two-level building with a railing, half hidden by branches. This is where the old men are headed."},
+      {"x": 0.47, "y": 0.5, "zoom": 4.0, "r": 0.05, "title": "Going ahead", "text": "Smaller figures hurry along the bank between the bridge and the trees, likely servants carrying things up to the pavilion."},
+      {"x": 0.76, "y": 0.5, "zoom": 3.0, "r": 0.09, "title": "The leaning tree", "text": "A second old tree reaches sideways over the water, with thin vines hanging straight down from its branches like threads."},
+      {"x": 0.877, "y": 0.836, "zoom": 4.5, "r": 0.04, "shape": "arrow", "title": "Two specks", "text": "On the path in the lower right, two minute travelers, barely two flicks of ink. They give the rocks their scale."},
+      {"x": 0.975, "y": 0.45, "zoom": 3.6, "r": 0.05, "title": "On the water", "text": "At the very edge, a faint shape on the river that looks like a small boat with someone in it. The view continues past the frame."},
+      {"x": 0.88, "y": 0.16, "zoom": 2.4, "r": 0.07, "title": "A collector's seal", "text": "This large square stamp in red paste was pressed onto the silk by a later owner. Smaller seals are scattered along the left edge of the painting."},
+      {"x": 0.06, "y": 0.5, "zoom": 1.8, "r": 0.07, "shape": "rect", "title": "Later brushwork", "text": "Big, fast characters on paper, mounted beside the painting by a later hand. Calligraphy and painting use the same brush and ink, and were prized equally."}
+    ]},
+    {"type": "fact", "text": "Very few paintings by named artists survive from eleventh-century China. This one reached the Metropolitan Museum in 1981 as a gift from a New York collector."},
+    {"type": "text", "text": "When a viewer finished with a handscroll, it was rolled shut and put back in its box. So the old men have been stopped on their bridge, rolled into darkness, and stopped there again each time someone opened it. Do they ever sit down to that meal? The scroll never says."}
+  ],
+  "quiz": [
+    {"question": "What does “level distance” mean in the title?", "options": ["A view from low ground across flat space toward hazy hills", "A view straight up at a towering peak", "A measurement written on the scroll"], "answer": 0, "explanation": "It is one of Guo Xi's three ways of showing depth: looking across, not up."},
+    {"question": "How was a handscroll meant to be looked at?", "options": ["Hung on a wall all year", "Unrolled a section at a time and read from right to left", "Viewed from left to right behind glass"], "answer": 1, "explanation": "It was opened on a table an arm's length at a time, right to left."},
+    {"question": "What makes the far hills look distant?", "options": ["They are painted in blue", "They are drawn with thick outlines", "They are a pale wet wash with no outline"], "answer": 2, "explanation": "Wet, pale ink for what is far; dry, dark ink for what is near."},
+    {"question": "What did old trees stand for in Guo Xi's time?", "options": ["Bad luck", "People who had endured, such as aged officials", "The emperor's wealth"], "answer": 1, "explanation": "Weathered trees suggested those who stayed upright through a hard life."},
+    {"question": "Who added the red seals on the painting?", "options": ["Later owners and admirers", "Guo Xi, to mark each tree", "The museum in 1981"], "answer": 0, "explanation": "Collectors pressed their seals onto works they owned over the centuries."}
+  ],
+  "facts": [
+    {"text": "The painting uses several colors of ink to separate near and far.", "isTrue": false, "explanation": "It is black ink only; depth comes from how wet or dry, dark or pale it is."},
+    {"text": "The curling twigs are known as “crab-claw” branches.", "isTrue": true, "explanation": "The hooked, downward-curling twigs are a hallmark of Guo Xi."},
+    {"text": "Guo Xi's ideas on landscape were written down by his son.", "isTrue": true, "explanation": "His son gathered his remarks into an influential book on painting."}
+  ]
 }

@@ -1,216 +1,237 @@
 {
- "teaser": "He is supposed to be all mind. So why did Rodin give him the body of a wrestler?",
+ "teaser": "The most famous image of thought shows a man working as hard as a weightlifter.",
  "focus": [
-  0.25,
+  0.62,
   0.3
  ],
- "review_notes": "IMAGE: the photo shows an outdoor bronze cast in front of a modern office building (a bank sign is visible), seen from the figure's left side and slightly behind. It is not the Musee Rodin cast in Paris. Spots describe only what this view shows.\nOriginal figure about 70 cm, designed around 1880 for The Gates of Hell; enlarged version about 1.9 m, shown in 1904; enlargement carried out by Henri Lebosse.\nBronze installed in front of the Pantheon in 1906 after a public subscription, moved to the Musee Rodin in 1922.\nRodin's statement that the figure thinks with every muscle, clenched fist and gripping toes: well-known quote, paraphrased here.\nName 'The Thinker' attributed to foundry workers noticing the likeness to Michelangelo's seated Lorenzo de' Medici ('Il Penseroso').\nCleveland Museum of Art cast damaged by a bomb in March 1970 and left unrepaired.\nMore than twenty full-size bronze casts worldwide.",
+ "review_notes": "The quotation about thinking 'with every muscle' is Rodin's much-cited statement about the figure (in translation); verify wording.\nThe figure's first size (about 70 cm) and the 1.89 m enlargement (about 1903, by Henri Lebossé), shown at the 1904 Salon: check.\nInstalled in front of the Panthéon in 1906 and moved to the Hôtel Biron (Musée Rodin) in 1922: check.\nCleveland cast damaged by a bomb in 1970 and left unrepaired: check.\nA cast marks Rodin's grave at Meudon: check.\nThe photo is taken from below on the figure's right side; details were placed from this view.",
  "lesson": [
   {
    "type": "text",
-   "text": "Thinking is the quietest thing a person can do. It needs no strength at all. Yet the most famous image of thought ever made is a naked giant with a furrowed back and thighs like tree trunks, who looks as if he could lift the rock he sits on. Something here does not add up, and Rodin meant it that way."
+   "text": "He is supposed to be the picture of the mind at work, and he has the body of a dockworker. Thinking needs no muscle. Yet every muscle here is switched on: the back is bunched, the neck is thick, the calves are tight. Rodin shows the quietest human activity as heavy labor."
   },
   {
    "type": "text",
-   "text": "The figure began small and with another job. Around 1880, Auguste Rodin was asked to make monumental bronze doors for a museum in Paris. He chose the subject himself: the Inferno of Dante, the medieval Italian poem about a journey through hell. The doors became known as The Gates of Hell."
+   "text": "He meant it. The figure thinks, he explained, not only with his brain and his knitted brow, but “with every muscle of his arms, back, and legs, with his clenched fist and gripping toes.” Try the pose yourself and you will find it is not a restful one."
+  },
+  {
+   "type": "tour",
+   "text": "This photo looks up at him from the garden path. Check Rodin's list against the bronze.",
+   "spots": [
+    {
+     "x": 0.69,
+     "y": 0.21,
+     "zoom": 3,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "Mouth on knuckles",
+     "text": "The chin does not rest lightly in the palm. He presses his mouth against the back of his bent hand, as if biting down on the thought."
+    },
+    {
+     "x": 0.67,
+     "y": 0.39,
+     "zoom": 2.8,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The crossed elbow",
+     "text": "His right elbow is planted on his left thigh, not the right one. To do that the whole upper body has to twist and fold forward."
+    },
+    {
+     "x": 0.73,
+     "y": 0.43,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "The idle hand",
+     "text": "The left hand hangs over the knee, heavy and open. It is the only relaxed thing in the figure."
+    },
+    {
+     "x": 0.55,
+     "y": 0.66,
+     "zoom": 2.8,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "Gripping toes",
+     "text": "The feet are not flat. The toes curl and clutch the rock, the way they do when you strain."
+    }
+   ],
+   "title": "A body thinking"
   },
   {
    "type": "text",
-   "text": "At the top of the doors, above the swarm of the damned, Rodin seated a man about 70 centimeters high (28 inches). He called him The Poet. This was Dante, looking down at the world he was inventing. Not a spectator of hell, but its author."
+   "text": "That twist is the secret of the pose. A man resting an elbow on the knee below it would look tired. Crossing over locks the body into a tight knot, so the stillness you see is held by effort, like a spring pressed down."
   },
   {
    "type": "fact",
-   "text": "The name we use came from the workshop. Foundry workers reportedly nicknamed the figure “the Thinker” because it reminded them of a brooding seated statue by Michelangelo known by that name in Italian."
+   "text": "He was not born as a thinker. Rodin first modeled him around 1880, about 70 cm high, to sit at the top of a huge sculpted doorway called The Gates of Hell. There he was The Poet: Dante, looking down at the damned souls of his own poem."
   },
   {
    "type": "text",
-   "text": "A poet from the 1300s would normally wear a long robe and a laurel wreath. Rodin stripped all of that away. Without clothes there is no century and no profession left, only a man. He wanted a body that could stand for anyone who has ever struggled with an idea."
-  },
-  {
-   "type": "text",
-   "text": "So how do you make thought visible, when it happens where no one can see? Rodin's answer was to treat it as labor. He once explained that his figure thinks not just with his brain but with every muscle of his arms, back and legs. The pose shows how."
+   "text": "The doorway was never finished to Rodin's satisfaction, but the little seated man outgrew it. Rodin showed him on his own, and people stopped calling him Dante. In about 1903 the figure was enlarged to roughly 1.89 meters (6 ft 2 in), larger than life, and exhibited in 1904. Naked, with no book or costume, he had become anyone who thinks."
   },
   {
    "type": "lines",
-   "text": "This photo catches him from the side and a little behind. Trace how the body folds.",
+   "text": "Three lines hold the pose together.",
    "lines": [
     {
      "points": [
       [
-       0.13,
-       0.18
+       0.69,
+       0.14
       ],
       [
-       0.3,
-       0.19
-      ],
-      [
-       0.46,
-       0.27
-      ],
-      [
-       0.56,
-       0.4
-      ]
-     ],
-     "closed": false,
-     "label": "The bowed back",
-     "text": "From skull to seat, one long curve. The spine bends like a bow under load, and the ridged muscles along it are working, not resting."
-    },
-    {
-     "points": [
-      [
-       0.3,
+       0.52,
        0.21
       ],
       [
-       0.22,
-       0.35
+       0.42,
+       0.32
       ],
       [
-       0.12,
-       0.4
+       0.35,
+       0.45
+      ],
+      [
+       0.33,
+       0.5
       ]
      ],
      "closed": false,
-     "label": "The near arm",
-     "text": "The arm on our side drops to the knee and the hand hangs loose. Behind it, the other arm crosses the body to prop up the chin: a twist no one holds for long in comfort."
+     "label": "The arc of the back",
+     "text": "From the crown of the head to the seat, the spine makes one long curve. The whole weight of the torso leans out over the knees."
     },
     {
      "points": [
       [
-       0.15,
-       0.41
+       0.655,
+       0.39
       ],
       [
-       0.28,
-       0.5
+       0.7,
+       0.3
       ],
       [
-       0.35,
-       0.57
+       0.68,
+       0.25
       ]
      ],
      "closed": false,
-     "label": "Down to the toes",
-     "text": "Thigh, shin and foot zigzag back under the body. Head, arms and legs all turn inward. Nothing in him opens toward the outside world."
-    }
-   ]
-  },
-  {
-   "type": "text",
-   "text": "Try the pose yourself: right elbow on the left knee, chin on the back of the hand. Your torso twists and your stomach tightens within seconds. Rodin picked a position that is uncomfortable on purpose. This man is not daydreaming. He is in the middle of an effort."
-  },
-  {
-   "type": "find",
-   "text": "Rodin said the figure thinks even with the part of the body farthest from his head. Can you find where the tension ends up?",
-   "spots": [
+     "label": "The prop",
+     "text": "The right forearm rises from the thigh to the mouth like a post. It carries the head, so the arc above does not collapse."
+    },
     {
-     "x": 0.34,
-     "y": 0.565,
-     "zoom": 3.6,
-     "r": 0.06,
-     "title": "The gripping toes",
-     "text": "His toes curl down and clutch the edge of the rock. Even here, as far from the brain as a body gets, nothing is relaxed."
+     "points": [
+      [
+       0.52,
+       0.44
+      ],
+      [
+       0.47,
+       0.56
+      ],
+      [
+       0.47,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "The pillar",
+     "text": "The near shin drops straight to the rock. Curve, prop and pillar: the figure is built like a piece of architecture."
     }
    ]
   },
   {
    "type": "text",
-   "text": "In 1904 Rodin had the little poet enlarged to about 1.9 meters (over 6 feet) and showed him alone, cut loose from the doors. On its own the figure changed meaning. Dante disappeared, and what remained was a monument to thinking itself."
+   "text": "The surface matters as much as the structure. Rodin modeled in clay with his fingers and left the lumps and hollows. Cast in bronze, they catch daylight in shifting patches, so the skin seems to move. The green is patina, the colored layer that forms on bronze through chemicals and weather."
   },
   {
    "type": "fact",
-   "text": "The enlargement was not carved or remodeled by hand from scratch. A specialist, Henri Lebossé, scaled up Rodin's sculptures using a mechanical device that copies a form point by point at a larger size."
+   "text": "Because a bronze is poured from a mold, the sculpture can exist many times over. More than twenty large casts of The Thinker sit in cities around the world. The one in Cleveland was damaged by a bomb in 1970 and is still displayed with its lower legs torn open."
   },
   {
    "type": "text",
-   "text": "Parisians paid for a bronze cast through a public collection, and in 1906 it was set in front of the Panthéon, the building where France buries its great men. It was moved in 1922 to the Musée Rodin. More than twenty other full-size casts now sit around the world, including the one in this photograph."
+   "text": "Read the stone under him in the photo. The pedestal says, in French, that the statue was offered to the people of Paris by public subscription, with the Roman numerals for 1906. Ordinary citizens paid for it, and it was set up in front of the Panthéon, the monument to France's great men."
   },
   {
    "type": "text",
-   "text": "That is a peculiarity of bronze. The sculptor models in clay, a mold is taken, and molten metal can be poured into it again and again. Each cast is an original in the eyes of the law and of museums, so The Thinker can be in Paris, Tokyo and outside an office block at once."
-  },
-  {
-   "type": "fact",
-   "text": "In 1970 a bomb was set off under the cast outside the Cleveland Museum of Art, tearing open its base and legs. The museum chose not to repair it and still displays the damaged figure."
-  },
-  {
-   "type": "text",
-   "text": "Rodin died in 1917 and is buried in Meudon, outside Paris. Over the grave sits a cast of The Thinker, placed there at his own wish. The man who started as Dante watching over hell ended as Rodin's headstone."
+   "text": "It was a political act as much as an artistic one. Many saw the muscular nude as a worker, an image of the common man thinking for himself. In 1922 the bronze was moved to the garden of the house where Rodin had worked, now the Musée Rodin, among the clipped yews you see around him."
   },
   {
    "type": "key",
-   "text": "Rodin showed thinking as something the whole body does. The muscles are not a contradiction of the mind: they are his way of making an invisible effort visible."
+   "text": "Rodin made thought visible by giving it a body. The idea is not in the face alone: it runs from the brow to the toes."
+  },
+  {
+   "type": "text",
+   "text": "Rodin was buried in 1917 at Meudon, outside Paris. At his wish, another cast of the same figure sits above the grave. Of all the things he had made, he wanted this one over him."
   }
  ],
  "quiz": [
   {
-   "question": "What was the figure first called?",
+   "question": "Who was the figure originally meant to represent?",
    "options": [
-    "The Poet",
-    "The Philosopher",
-    "The Worker"
+    "The poet Dante",
+    "Rodin himself",
+    "A Greek philosopher"
    ],
    "answer": 0,
-   "explanation": "Rodin named him The Poet, meaning Dante above The Gates of Hell."
+   "explanation": "He began as The Poet at the top of The Gates of Hell."
   },
   {
-   "question": "Why did Rodin leave the figure nude?",
+   "question": "Where does the right elbow rest?",
    "options": [
-    "He ran out of time to add clothes",
-    "Bronze cannot imitate fabric",
-    "So he would belong to no period and could stand for anyone"
+    "On the right knee",
+    "On the rock",
+    "On the left thigh"
    ],
    "answer": 2,
-   "explanation": "Without a robe or wreath, he is simply a man struggling with an idea."
+   "explanation": "The elbow crosses over to the left thigh, which twists the torso."
   },
   {
-   "question": "What do the figure's toes do?",
+   "question": "What is patina?",
    "options": [
-    "Hang loosely in the air",
-    "Grip the rock",
-    "Rest on a book"
+    "The mold used to cast bronze",
+    "The colored surface layer on bronze",
+    "A kind of clay"
    ],
    "answer": 1,
-   "explanation": "The toes curl and clutch the rock, tense like the rest of the body."
+   "explanation": "Patina is the green or brown layer formed by chemicals and weather."
   },
   {
-   "question": "Where was the large bronze first installed in Paris in 1906?",
+   "question": "How was the Paris statue paid for in 1906?",
    "options": [
-    "Inside the Louvre",
-    "On top of The Gates of Hell",
-    "In front of the Panthéon"
-   ],
-   "answer": 2,
-   "explanation": "It stood before the Panthéon until it moved to the Musée Rodin in 1922."
-  },
-  {
-   "question": "Why can The Thinker be seen in many cities at once?",
-   "options": [
-    "Bronze can be cast several times from a mold",
-    "Rodin carved many copies in marble",
-    "Most of them are plastic replicas"
+    "By public subscription",
+    "By the Musée Rodin",
+    "By Rodin's family"
    ],
    "answer": 0,
-   "explanation": "Molten bronze can be poured into the mold again and again."
+   "explanation": "The pedestal records that it was offered by public subscription."
+  },
+  {
+   "question": "Why can The Thinker be seen in many cities?",
+   "options": [
+    "Rodin carved several in marble",
+    "Bronze casts can be poured many times from a mold",
+    "The original travels on loan"
+   ],
+   "answer": 1,
+   "explanation": "More than twenty large bronze casts exist."
   }
  ],
  "facts": [
   {
-   "text": "The Thinker was originally about 70 centimeters high.",
+   "text": "The Thinker was first made as a small figure for a sculpted doorway.",
    "isTrue": true,
-   "explanation": "The first version sat at the top of The Gates of Hell at roughly that size."
+   "explanation": "He sat at the top of The Gates of Hell, about 70 cm high."
   },
   {
-   "text": "The pose is a relaxed, comfortable one.",
+   "text": "In Rodin's pose, the feet rest flat and relaxed on the rock.",
    "isTrue": false,
-   "explanation": "Elbow on the opposite knee twists the torso: Rodin chose an effortful pose."
+   "explanation": "The toes curl and grip the rock."
   },
   {
-   "text": "A cast of The Thinker sits over Rodin's grave.",
-   "isTrue": true,
-   "explanation": "He asked for one to be placed on his tomb in Meudon."
+   "text": "The statue has stood in the garden of the Musée Rodin since 1906.",
+   "isTrue": false,
+   "explanation": "It stood in front of the Panthéon from 1906 and moved in 1922."
   }
  ]
 }

@@ -1,206 +1,307 @@
 {
- "teaser": "Three workmen on their knees, refused by the official jury for being too vulgar a subject.",
+ "teaser": "Three men, one floor, and a jury that called the subject vulgar.",
  "focus": [
-  0.47,
-  0.5
+  0.52,
+  0.45
  ],
- "review_notes": "IMAGE MISMATCH: the image is not the 1875 Orsay canvas but a loose oil sketch for the composition (one worker kneeling upright at left near the window, two bent toward us). Coordinates were taken from this sketch and the lesson says openly that a study is shown. If the image is replaced by the finished painting, every coordinate must be redone and the third and fourth text blocks rewritten.\nImage is small and blurry: only large regions are pointed at, two interactive blocks.\nSketch assumed to be by Caillebotte (private collection): check.\nSalon rejection in 1875 for 'vulgar' subject; shown at the second Impressionist exhibition, 1876: check.\nZola's criticism of the painting's exactness as 'bourgeois': paraphrased, check.\nSetting thought to be the family home on rue de Miromesnil: check.\nDimensions of the finished canvas about 102 x 147 cm; entered the national collections in 1894 through the family after his death: check.",
+ "review_notes": "Setting: usually said to be the Caillebotte family home, rue de Miromesnil, Paris, in the room being prepared as the artist's studio.\nRejected by the Salon jury of 1875; shown at the second Impressionist exhibition, 1876.\nZola's 1876 comment is paraphrased, not quoted.\nBequest figures: about 68 works left to the State, about 40 accepted; The Floor Scrapers entered the national collections in 1894 as a gift of the heirs through Renoir, the executor.\nThe description of who does which task (plane vs scraper, the left man reaching for a file) is a reading of the image; the tools are small.\nPerspective lines are approximate, following the edges of the dark stripes.\nSize 102 x 146.5 cm.",
  "lesson": [
   {
    "type": "text",
-   "text": "Who made the floor you are standing on smooth? You have probably never asked. In 1875 hardly anyone in the art world asked either. Paintings showed gods, generals and well-dressed ladies. Then a 26-year-old named Gustave Caillebotte painted three men on their knees, scraping a wooden floor."
+   "text": "When did you last see a painting of people at work? Not a goddess, a general or a bowl of peaches, but somebody doing a job, on their knees, in a city apartment. In Paris in 1875 the honest answer was: almost never. Peasants in fields were acceptable. Workers from the city were not a subject for art."
   },
   {
    "type": "text",
-   "text": "The job was called “raboteur,” floor planer. New floorboards warp and cup as they dry, so workers shaved them flat by hand, dragging a steel blade toward themselves strip after strip. It was hot, dusty labor, and the men often worked stripped to the waist."
+   "text": "Gustave Caillebotte was 26 and had just finished his training in the studio of a respected academic painter. His family owned a grand house in a new district of Paris, and a room there was being fitted out for him. Three men came to refinish the oak floor. He watched them, made drawings, and painted this."
+  },
+  {
+   "type": "tour",
+   "title": "Three men",
+   "text": "All three are stripped to the waist, kneeling, arms stretched forward.",
+   "spots": [
+    {
+     "x": 0.17,
+     "y": 0.33,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "The one apart",
+     "text": "At left, a man works alone, face in shadow, his mustache just visible. He reaches across the boards toward a small tool lying beside a drift of shavings."
+    },
+    {
+     "x": 0.5,
+     "y": 0.47,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "The middle man",
+     "text": "Arms locked straight, both hands on his tool, he pulls it toward himself along a board. His head tilts toward his neighbor."
+    },
+    {
+     "x": 0.76,
+     "y": 0.42,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "His neighbor",
+     "text": "Same pose, mirrored. This one turns his head and seems to say something. Two workers chatting through a long afternoon: a tiny, true observation."
+    }
+   ]
   },
   {
    "type": "text",
-   "text": "What you see here is not the finished canvas at the Musée d'Orsay but a small oil study, painted fast while Caillebotte was working out his idea. The brushwork is rough and the faces are blanks. That is useful: with the details gone, the bones of the picture show clearly."
+   "text": "The stripes explain the job. The dark bands are old varnished wood that has not been touched yet. The pale areas are bare oak, already scraped. First the men plane down the ridges where boards meet, then they scrape the surface thin layer by thin layer. Curls of wood collect everywhere."
+  },
+  {
+   "type": "text",
+   "text": "Caillebotte records their trade with a kind of respect: the blades, the hammer for knocking down nails, the bag of tools by the wall. He also records how they get through the day. One object in this room has nothing to do with woodwork."
+  },
+  {
+   "type": "find",
+   "text": "The men have brought something to drink. Where is it?",
+   "spots": [
+    {
+     "x": 0.95,
+     "y": 0.62,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Wine and a glass",
+     "text": "On the right, on a marble hearth, a dark bottle and a small glass filled with red. Ordinary wine was part of a laborer's working day in Paris. Caillebotte passes no judgment.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A moralizing painter would have made that bottle a warning. Here it is simply there, like the hammer. This refusal to comment is what bothered people. The picture shows poor men working hard for a rich household, half naked, and offers neither pity nor a lesson."
+  },
+  {
+   "type": "fact",
+   "text": "Caillebotte sent the painting to the Salon, the huge official exhibition that could make a career. The jury of 1875 turned it down. The subject was judged vulgar: workers, bare torsos, a floor."
+  },
+  {
+   "type": "text",
+   "text": "So he changed sides. In 1876 he hung it with a group of painters who had been mocked two years earlier as “Impressionists”: Monet, Renoir, Degas, Pissarro. It was one of the most discussed pictures in their second show. The novelist Zola admired the nerve but found the precision too clean, almost like a photograph."
+  },
+  {
+   "type": "text",
+   "text": "Zola had a point. Monet dissolved things in light, while Caillebotte draws every board. What makes the picture modern is somewhere else: the place you are standing. You look steeply down at the floor, as if from a stepladder, and the room tips toward you."
   },
   {
    "type": "lines",
-   "text": "Even in a quick study, the room is built on firm lines.",
+   "text": "Trace the floorboards and see what they do to the space.",
    "lines": [
     {
      "points": [
       [
-       0.02,
-       0.72
+       0.43,
+       0.95
       ],
       [
-       0.36,
-       0.32
+       0.53,
+       0.29
       ]
      ],
      "closed": false,
-     "label": "The boards",
-     "text": "The floorboards rush away from us in long streaks. Each scraped strip is a line of perspective, the drawing system that makes a flat surface look deep."
+     "label": "A board edge",
+     "text": "Follow the edge of a dark stripe from the bottom of the canvas. It races away from you, climbing almost the whole height of the picture."
     },
     {
      "points": [
       [
-       0.62,
-       0.92
+       0.79,
+       0.95
       ],
       [
-       0.6,
-       0.36
+       0.7,
+       0.29
       ]
      ],
      "closed": false,
-     "label": "Another strip",
-     "text": "Farther right, the boards run almost straight up the picture. Together the streaks fan out from the far wall like spokes."
+     "label": "Another, leaning in",
+     "text": "On the right the boards lean the other way. The stripes squeeze together as they go back, like railway tracks, and pull your eye deep into the room."
     },
     {
      "points": [
       [
-       0.28,
-       0.24
+       0.0,
+       0.235
       ],
       [
-       0.22,
-       0.48
+       0.56,
+       0.235
       ],
       [
-       0.14,
-       0.8
+       0.9,
+       0.28
       ]
      ],
      "closed": false,
-     "label": "The light",
-     "text": "Daylight pours in from the window and slides across the floor toward us. The workers are seen against the light, so their bodies become dark shapes."
+     "label": "Where the floor ends",
+     "text": "The wall begins only here. Three quarters of the painting is floor. The horizon is pushed so high that the workers seem to slide toward you."
     }
    ]
   },
   {
    "type": "text",
-   "text": "Notice what this viewpoint does. We look down on the men from standing height, the position of the owner inspecting the job. And the floor, not the people, takes up most of the picture. It tilts up like a stage, shining where the light skims it."
+   "text": "Over that tilted floor comes the light, straight at you from the balcony window. It turns the wet, scraped wood into a mirror and leaves the men as dark shapes edged with shine along their backs and arms. Their muscles are drawn as carefully as those of a Greek hero in an art school exercise."
   },
   {
    "type": "fact",
-   "text": "The room was very likely in the Caillebotte family's own house in Paris, and the men were probably working for the family. The painter came from money: he had a law degree and never needed to sell a picture."
+   "text": "Caillebotte did not need to sell. His father had made a fortune supplying cloth and bedding to the French army, and died in 1874, leaving his sons rich. Gustave was trained as a lawyer and later designed and raced his own sailing yachts."
   },
   {
-   "type": "text",
-   "text": "He did not paint from a distance, though. He drew the workers again and again, studying how a body folds when it pulls a blade: back rounded, arms locked, weight thrown backward."
-  },
-  {
-   "type": "tour",
-   "title": "Bodies at work",
-   "text": "Three large zones of the study, and what each one sets up.",
+   "type": "explore",
    "spots": [
     {
-     "x": 0.47,
-     "y": 0.52,
-     "zoom": 1.9,
+     "x": 0.33,
+     "y": 0.1,
+     "zoom": 2.6,
      "r": 0.13,
-     "title": "The pull",
-     "text": "Head down, back curved, both arms stretched straight to the tool on the floor. The pose is a machine for pulling. In the final painting Caillebotte rendered these arms with the care usually kept for Greek heroes."
+     "title": "The balcony",
+     "text": "A window with a curling wrought-iron railing, the mark of a smart new Paris building. Outside, pale roofs dissolve in the glare. All the light in the picture enters here."
     },
     {
-     "x": 0.17,
-     "y": 0.36,
-     "zoom": 2.2,
-     "r": 0.09,
-     "title": "The third man",
-     "text": "At the left a worker kneels upright near the window, taking a break or tending his tool. He breaks the rhythm of the two bent backs.",
-     "shape": "rect"
+     "x": 0.3,
+     "y": 0.59,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Shavings",
+     "text": "Thin curls of oak, each painted with one or two twists of the brush. They are scattered all over, telling you where the blades have already passed."
+    },
+    {
+     "x": 0.66,
+     "y": 0.63,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The hammer",
+     "text": "Lying between the two men with its handle toward us, ready for driving down any nail head that would nick a blade."
+    },
+    {
+     "x": 0.42,
+     "y": 0.72,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Hands on the tool",
+     "text": "Both fists grip a block with a blade set in it. The straight arms turn the whole upper body into a lever."
+    },
+    {
+     "x": 0.62,
+     "y": 0.14,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "Gilded panels",
+     "text": "White wall paneling with gold moldings. The room is elegant, which makes the bare backs below it even more unexpected."
+    },
+    {
+     "x": 0.82,
+     "y": 0.93,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Signature and date",
+     "text": "“G. Caillebotte 1875”, written large in dark paint on the bare boards, slanting with the perspective of the floor."
     },
     {
      "x": 0.28,
-     "y": 0.13,
-     "zoom": 2.2,
-     "r": 0.14,
-     "title": "The window",
-     "text": "The only opening to the outside. You can make out the curls of an iron balcony railing against the pale daylight, a sign that this is a comfortable city apartment."
+     "y": 0.97,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "A spare blade",
+     "text": "At the very bottom edge, cut off by the frame, another tool waits. The cropping feels accidental, like a snapshot."
     }
    ]
   },
   {
    "type": "text",
-   "text": "Caillebotte sent the finished canvas, about 1 by 1.5 meters (40 by 58 inches), to the Salon, the official yearly exhibition in Paris. The jury refused it. Peasants in the fields were acceptable in art by then. City workmen, half undressed, in a rich man's room, were judged a vulgar subject."
+   "text": "After this picture, Caillebotte became the group's quiet engine. He paid for exhibitions, rented the rooms, and bought his friends' canvases when no one else would, at times covering Monet's rent. For a century he was remembered more as a patron than as a painter."
   },
   {
    "type": "fact",
-   "text": "The rejection pushed him toward the Impressionists. He showed the painting at their second exhibition in 1876, where it drew crowds. The novelist Emile Zola admired the skill but complained that it was too exact, as tidy as a photograph."
+   "text": "When he died in 1894 he left his collection, nearly seventy Impressionist works, to the French State. Officials hesitated for years and accepted only about forty. The Floor Scrapers arrived separately, offered by his family that same year."
   },
   {
    "type": "key",
-   "text": "The Floor Scrapers is one of the first paintings to treat urban manual labor as a subject worthy of a large canvas, without pity and without glory."
+   "text": "Caillebotte gave city laborers the scale, the anatomy and the seriousness that painting had reserved for heroes, and he did it without telling you what to think of them."
   },
   {
    "type": "text",
-   "text": "In the finished version a bottle of wine and a glass stand on the floor at the right, waiting for the break. After Caillebotte's death in 1894 the painting entered France's national collections. Next time you cross an old parquet floor, think of the backs that flattened it."
+   "text": "So, back to the first question. If paintings of people at work no longer surprise you, this floor is one reason. And in a nice twist, the room being prepared by these three men was meant to become the studio where pictures like this would be made."
   }
  ],
  "quiz": [
   {
-   "question": "What are the men in the painting doing?",
+   "question": "What do the dark stripes on the floor show?",
    "options": [
-    "Laying carpet",
-    "Scraping a wooden floor flat",
-    "Painting a ceiling"
+    "Shadows of the window bars",
+    "Old varnish that has not been scraped yet",
+    "Carpet runners"
    ],
    "answer": 1,
-   "explanation": "They are floor planers, shaving warped boards by hand."
+   "explanation": "Pale areas are bare scraped wood; dark bands are still varnished."
   },
   {
-   "question": "Why did the Salon jury refuse the painting in 1875?",
+   "question": "How did the Salon jury react in 1875?",
    "options": [
-    "The subject was judged vulgar",
-    "It was too small",
-    "It was unfinished"
+    "It rejected the painting",
+    "It gave it a gold medal",
+    "It bought it for the State"
    ],
    "answer": 0,
-   "explanation": "City workmen were not considered a fit subject for art."
+   "explanation": "The subject was judged vulgar and the picture was refused."
   },
   {
-   "question": "Where did Caillebotte show it the following year?",
+   "question": "What have the workers set down on the right?",
    "options": [
-    "At the Louvre",
-    "In London",
-    "At the second Impressionist exhibition"
+    "A lantern",
+    "A loaf of bread",
+    "A bottle of wine and a glass"
    ],
    "answer": 2,
-   "explanation": "He joined the Impressionists in 1876."
+   "explanation": "A bottle and a filled glass stand on the hearth."
   },
   {
-   "question": "From where do we see the workers?",
+   "question": "From where does the viewer seem to look at the scene?",
    "options": [
-    "From above, at standing height",
     "From floor level",
+    "From above, looking steeply down",
     "From outside the window"
    ],
-   "answer": 0,
-   "explanation": "We look down on them like the owner inspecting the job."
+   "answer": 1,
+   "explanation": "The high viewpoint makes the floor fill most of the canvas."
   },
   {
-   "question": "What did Zola dislike about the painting?",
+   "question": "Where did Caillebotte finally exhibit the picture in 1876?",
    "options": [
-    "Its dark colors",
-    "Its photographic exactness",
-    "Its mythological theme"
+    "At the second Impressionist exhibition",
+    "At the Louvre",
+    "In London"
    ],
-   "answer": 1,
-   "explanation": "He found it too precise, as tidy as a photograph."
+   "answer": 0,
+   "explanation": "He showed it with Monet, Renoir, Degas and Pissarro."
+  },
+  {
+   "question": "What else was Caillebotte for the Impressionists, besides a fellow painter?",
+   "options": [
+    "Their teacher",
+    "Their fiercest critic",
+    "A patron who bought their work and funded shows"
+   ],
+   "answer": 2,
+   "explanation": "He paid for exhibitions and bought his friends' paintings."
   }
  ],
  "facts": [
   {
-   "text": "Caillebotte was a poor workman who painted his own colleagues.",
-   "isTrue": false,
-   "explanation": "He was wealthy, held a law degree, and the room was likely in his family's house."
-  },
-  {
-   "text": "In the picture, the light comes from a window at the back of the room.",
+   "text": "About three quarters of the painting is taken up by the floor.",
    "isTrue": true,
-   "explanation": "The workers are seen against the daylight, as dark shapes."
+   "explanation": "The wall only begins near the top of the canvas."
   },
   {
-   "text": "The Salon jury welcomed the painting with a medal.",
+   "text": "Caillebotte painted the scene to earn money he badly needed.",
    "isTrue": false,
-   "explanation": "The jury rejected it as a vulgar subject."
+   "explanation": "He had inherited a fortune and did not need to sell."
+  },
+  {
+   "text": "The French State gladly accepted every work in Caillebotte's bequest.",
+   "isTrue": false,
+   "explanation": "Officials hesitated and accepted only about forty of nearly seventy."
   }
  ]
 }
