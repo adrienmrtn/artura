@@ -7,7 +7,7 @@ struct ReviewView: View {
     @EnvironmentObject private var content: ContentStore
 
     /// Labels of the two modes, shown by the picker: [Review, Practice].
-    private static let modes = [L("Review"), L("Practice")]
+    private static var modes: [String] { [L("Review"), L("Practice")] }
 
     @State private var mode = AppDebug.string("reviewMode") == "practice" ? ReviewView.modes[1] : ReviewView.modes[0]
     @State private var deck: ReviewDeck?

@@ -158,24 +158,53 @@ final class ContentStore: ObservableObject {
     @Published private(set) var movements: [Movement]
     @Published private(set) var artworks: [Artwork] { didSet { reindex() } }
 
-    private let bundled: ContentBundle
+    private var bundled: ContentBundle
     private var byId: [String: Artwork] = [:]
     private var dailyOrder: [Artwork] = []
     private var usesCatalog = false
+    /// Catalog text in the app's language, downloaded (nil in English or before the first download).
+    private var translation: RemoteTranslation?
     private var refreshing = false
 
     init() {
-        if let url = AppLanguage.resource("content", "json"),
-           let data = try? Data(contentsOf: url),
-           let bundle = try? JSONDecoder().decode(ContentBundle.self, from: data) {
-            bundled = bundle
-        } else {
-            assertionFailure("content.json missing or invalid")
-            bundled = ContentBundle(movements: [], artworks: [])
-        }
+        bundled = Self.loadBundled()
         movements = bundled.movements
         artworks = bundled.artworks
         reindex()
+    }
+
+    private static func loadBundled() -> ContentBundle {
+        guard let url = AppLanguage.resource("content", "json"),
+              let data = try? Data(contentsOf: url),
+              let bundle = try? JSONDecoder().decode(ContentBundle.self, from: data) else {
+            assertionFailure("content.json missing or invalid")
+            return ContentBundle(movements: [], artworks: [])
+        }
+        return bundle
+    }
+
+    /// The language was changed in the app: everything is shown again in the new language at once
+    /// (bundled content, saved catalog), then the online translations are downloaded.
+    @MainActor
+    func languageChanged() {
+        bundled = Self.loadBundled()
+        translation = CatalogCache.loadTranslation()
+        byId = [:]
+        if usesCatalog, let saved = CatalogCache.loadIndex(), !saved.artworks.isEmpty {
+            apply(saved)
+        } else {
+            movements = bundled.movements
+            artworks = bundled.artworks
+        }
+        guard !AppLanguage.isEnglish else { return }
+        let language = AppLanguage.code
+        Task { @MainActor in
+            guard let online = await Self.downloadTranslation(), !online.artworks.isEmpty,
+                  language == AppLanguage.code else { return }
+            CatalogCache.saveTranslation(online)
+            translation = online
+            if usesCatalog, let saved = CatalogCache.loadIndex(), !saved.artworks.isEmpty { apply(saved) }
+        }
     }
 
     private func reindex() {
@@ -232,6 +261,7 @@ final class ContentStore: ObservableObject {
     @MainActor
     func activateCatalog() {
         if !usesCatalog, let saved = CatalogCache.loadIndex(), !saved.artworks.isEmpty {
+            translation = CatalogCache.loadTranslation()
             apply(saved)
         }
         let age = CatalogCache.indexAge
@@ -239,9 +269,15 @@ final class ContentStore: ObservableObject {
         refreshing = true
         Task { @MainActor in
             defer { refreshing = false }
-            guard let fresh = try? await RemoteCatalog.index(palettes: Self.palettes), !fresh.artworks.isEmpty else {
-                return
+            async let index: ContentBundle? = try? await RemoteCatalog.index(palettes: Self.palettes)
+            async let texts: RemoteTranslation? = Self.downloadTranslation()
+            let fresh = await index
+            let online = await texts
+            if let online, !online.artworks.isEmpty {
+                CatalogCache.saveTranslation(online)
+                translation = online
             }
+            guard let fresh, !fresh.artworks.isEmpty else { return }
             CatalogCache.saveIndex(fresh)
             apply(fresh)
         }
@@ -250,14 +286,14 @@ final class ContentStore: ObservableObject {
     /// Replaces the catalog, keeping the lessons already on the device.
     @MainActor
     private func apply(_ english: ContentBundle) {
-        let bundle = TranslatedCatalog.current?.applied(to: english) ?? english
+        let bundle = TranslatedCatalog.current?.applied(to: english, online: translation) ?? english
         let saved = Set(CatalogCache.savedLessons)
         var list = bundle.artworks
         for i in list.indices where list[i].lesson.isEmpty {
             if let known = byId[list[i].id], !known.lesson.isEmpty {
                 list[i].lesson = known.lesson
                 list[i].quiz = known.quiz
-            } else if saved.contains(list[i].id), let content = CatalogCache.loadLesson(list[i].id) {
+            } else if saved.contains(Self.lessonKey(list[i].id)), let content = CatalogCache.loadLesson(Self.lessonKey(list[i].id)) {
                 list[i].lesson = content.lesson
                 list[i].quiz = content.quiz
             }
@@ -272,23 +308,43 @@ final class ContentStore: ObservableObject {
     func withLesson(_ artwork: Artwork) async -> Artwork? {
         if !artwork.lesson.isEmpty { return artwork }
         if let known = byId[artwork.id], !known.lesson.isEmpty { return known }
-        guard let content = try? await RemoteCatalog.lesson(artwork.id) else { return nil }
-        CatalogCache.saveLesson(content, slug: artwork.id)
+        let downloaded: LessonContent?
+        if AppLanguage.isEnglish {
+            downloaded = try? await RemoteCatalog.lesson(artwork.id)
+        } else {
+            downloaded = try? await RemoteCatalog.translatedLesson(artwork.id, language: AppLanguage.code)
+        }
+        guard let content = downloaded else { return nil }
+        CatalogCache.saveLesson(content, slug: Self.lessonKey(artwork.id))
         var full = byId[artwork.id] ?? artwork
         full.lesson = content.lesson
         full.quiz = content.quiz
         if let i = artworks.firstIndex(where: { $0.id == full.id }) { artworks[i] = full }
         return full
     }
+
+    /// Catalog text in the app's language (nil in English, or when it cannot be downloaded).
+    private static func downloadTranslation() async -> RemoteTranslation? {
+        guard !AppLanguage.isEnglish else { return nil }
+        return try? await RemoteCatalog.translations(AppLanguage.code)
+    }
+
+    /// Name of a lesson saved on the device: the slug in English, "slug.fr" in French, etc.
+    private static func lessonKey(_ id: String) -> String {
+        AppLanguage.isEnglish ? id : "\(id).\(AppLanguage.code)"
+    }
 }
 
 let avatarImages = ["ill_av1", "ill_av2", "ill_av3", "ill_av4", "ill_av5"]
-let avatarLabels = [L("Girl with the turban"), L("Man in the straw hat"), L("Cat in a beret"), L("The sun"), L("The moon")]
+var avatarLabels: [String] { [L("Girl with the turban"), L("Man in the straw hat"), L("Cat in a beret"), L("The sun"), L("The moon")] }
 
 /// The catalog in the app's language, when it is not English: the translated lessons bundled with the
 /// app (Resources/lessons.<code>.json, built by catalog/translations/app/app.py). Only the translated
 /// artworks are shown in that language, with their titles, movements, lessons, quizzes and facts.
 struct TranslatedCatalog: Decodable {
+    // Bundled with the app: the 100 translated lessons, used offline and before the first download.
+    // Online (`RemoteTranslation`, Supabase *_translations tables): titles, movements and facts, which win
+    // over the bundled ones, plus any lesson translated after this version of the app (downloaded on open).
     struct Meta: Decodable {
         let title: String
         let artist: String
@@ -304,7 +360,7 @@ struct TranslatedCatalog: Decodable {
         let meta: Meta
     }
 
-    struct MovementText: Decodable {
+    struct MovementText: Codable {
         let name: String
         let period: String?
         let summary: String?
@@ -314,28 +370,48 @@ struct TranslatedCatalog: Decodable {
     let movements: [String: MovementText]
     let lessons: [String: Lesson]
 
-    static let current: TranslatedCatalog? = {
-        guard !AppLanguage.isEnglish,
-              let url = Bundle.main.url(forResource: "lessons.\(AppLanguage.code)", withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return nil }
-        return try? JSONDecoder().decode(TranslatedCatalog.self, from: data)
-    }()
+    /// The bundled translations of the current language (nil in English). Reloaded when the language changes.
+    static var current: TranslatedCatalog? {
+        if let cached, cached.code == AppLanguage.code { return cached.catalog }
+        let catalog = load()
+        cached = (AppLanguage.code, catalog)
+        return catalog
+    }
+
+    private static var cached: (code: String, catalog: TranslatedCatalog?)?
+
+    private static func load() -> TranslatedCatalog? {
+        guard !AppLanguage.isEnglish else { return nil }
+        guard let url = Bundle.main.url(forResource: "lessons.\(AppLanguage.code)", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let catalog = try? JSONDecoder().decode(TranslatedCatalog.self, from: data) else {
+            return TranslatedCatalog(movements: [:], lessons: [:])
+        }
+        return catalog
+    }
 
     /// The online catalog restricted to the translated artworks, with their text in the app's language.
-    func applied(to bundle: ContentBundle) -> ContentBundle {
+    func applied(to bundle: ContentBundle, online: RemoteTranslation?) -> ContentBundle {
         let artworks = bundle.artworks.compactMap { a -> Artwork? in
-            guard let t = lessons[a.id] else { return nil }
+            let local = lessons[a.id]
+            let remote = online?.artworks[a.id]
+            guard let title = remote?.title ?? local?.meta.title,
+                  let artist = remote?.artist ?? local?.meta.artist else { return nil }
+            let facts = remote.map { $0.facts.isEmpty ? (local?.facts ?? []) : $0.facts } ?? (local?.facts ?? [])
             return Artwork(
-                id: a.id, title: t.meta.title, artist: t.meta.artist, year: a.year,
-                yearLabel: t.meta.year_label ?? a.yearLabel, museum: t.meta.museum ?? a.museum,
+                id: a.id, title: title, artist: artist, year: a.year,
+                yearLabel: remote?.yearLabel ?? local?.meta.year_label ?? a.yearLabel,
+                museum: remote?.museum ?? local?.meta.museum ?? a.museum,
                 movementId: a.movementId, image: a.image, hd: a.hd, palette: a.palette, focus: a.focus,
-                teaser: t.teaser, lesson: t.lesson, quiz: t.quiz, facts: t.facts,
+                teaser: remote?.teaser ?? local?.teaser ?? a.teaser,
+                lesson: local?.lesson ?? [], quiz: local?.quiz ?? [], facts: facts,
                 aspect: a.aspect, credit: a.credit
             )
         }
         guard !artworks.isEmpty else { return bundle }
         let covers = Dictionary(artworks.map { ($0.movementId, $0.id) }, uniquingKeysWith: { first, _ in first })
-        let movementTexts = movements
+        var movementTexts = movements
+        for (id, text) in online?.movements ?? [:] { movementTexts[id] = text }
         let shown = bundle.movements.compactMap { m -> Movement? in
             guard let cover = covers[m.id] else { return nil }
             let t = movementTexts[m.id]
@@ -344,4 +420,20 @@ struct TranslatedCatalog: Decodable {
         }
         return ContentBundle(movements: shown, artworks: artworks)
     }
+}
+
+/// The translations of the online catalog in one language (Supabase *_translations tables), kept on the device.
+struct RemoteTranslation: Codable {
+    struct ArtworkText: Codable {
+        let title: String
+        let artist: String
+        let yearLabel: String?
+        let museum: String?
+        let teaser: String?
+        let facts: [Fact]
+    }
+
+    let language: String
+    let movements: [String: TranslatedCatalog.MovementText]
+    let artworks: [String: ArtworkText]
 }

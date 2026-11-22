@@ -15,10 +15,15 @@ Verified: quiz answers, true/false values and zoom coordinates are identical to 
 - Rebuild after any change: `python3 catalog/translations/app/app.py extract`, translate new keys, `check`, `build`.
 - Not compiled here (no Xcode on Linux): only a syntax check was run. Build in Xcode before release.
 
-## Supabase (project "Artura", dsbhaddvzpswkjzqskhv): NOTHING LOADED YET
-1. Apply `supabase/migrations/20261122120000_translations.sql` (never applied: the approval prompt timed out). Six `*_translations` tables + two loader functions in schema `private`; English tables untouched; language codes are free-form (BCP 47).
-2. Load: 34 MB is far too much to paste through the SQL tool. Plan: a temporary Edge Function (service role, one-time token) that receives one merged lesson per request and calls `private.upsert_lesson_translation(slug, lang, json)`; call it from the container with curl; delete it afterwards. Movements: `private.upsert_movement_translations(lang, <movements part of meta.json>)`. DB language code = folder name, except `pt` -> `pt-BR` (`build.DB_CODE`).
-3. The iOS app does not read these tables: it uses the bundled translations. The tables are optional (for later updates without an app release).
+## Supabase (project "Artura"): LOADED
+- Migration `supabase/migrations/20261122120000_translations.sql` applied. Six `*_translations` tables, language codes as in iOS (`fr`, `pt-BR`, `sr-Latn`...).
+- Loaded on 2026-11-22: 29 languages x 100 lessons (2900 lessons, 49039 blocks, 15892 quiz questions, 8700 facts, 841 movement rows); quiz answers and block types checked against the English.
+- Loaded through a temporary Edge Function `import-translations`, now replaced by a disabled version (returns 410; can be deleted in the dashboard). To reload: redeploy a loader (see `app/load_supabase.py`) and call it.
+- The app reads these tables (`RemoteCatalog.translations`, `translatedLesson`): titles, movements and true/false come from Supabase when online, the bundled files are the offline fallback, and a lesson translated in the database but not bundled is downloaded when opened.
+
+## Language choice in the app
+- Welcome screen: native menu (globe) to switch language. Second screen of the onboarding: "Which language?", full list.
+- The switch is immediate (`AppLanguage.set`) and kept for the next launches (it writes `AppleLanguages`). The widget follows the iPhone / Settings language (no app group to share the choice).
 
 ## Known loose ends
 - Source inconsistencies in the English lessons, reported by translators and translated as written (Marc "two details" for three spots, Creation of Adam "three places" for four, Las Meninas nine vs eleven figures, Jonghelinck spelling, Bosch "strawberry" (madroño), Seurat/Gauguin "three kinds"/"two directions" line counts, Cezanne "five versions"). Worth fixing in the English first, then re-propagating.
