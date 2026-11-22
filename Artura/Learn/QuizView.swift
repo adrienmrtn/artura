@@ -119,7 +119,7 @@ struct QuizView: View {
         .padding(.top, 34)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(ArcTopShape().fill(Palette.sand).ignoresSafeArea(edges: .bottom))
+        .background(ArcTopShape().fill(Palette.mist).ignoresSafeArea(edges: .bottom))
     }
 
     private func pick(_ i: Int) {

@@ -180,7 +180,7 @@ struct LessonView: View {
             .padding(.horizontal, 16)
             .padding(.vertical, 14)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.sand))
+            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.mist))
         case "fact":
             VStack(alignment: .leading, spacing: 4) {
                 HStack(spacing: 6) {

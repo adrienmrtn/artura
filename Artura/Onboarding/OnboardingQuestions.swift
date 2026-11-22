@@ -115,12 +115,12 @@ struct MotivationScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    private let options: [(title: String, symbol: String)] = [
-        ("Learn about art", "paintpalette.fill"),
-        ("Become more cultured", "brain.head.profile"),
-        ("Have new things to talk about", "bubble.left.and.bubble.right.fill"),
-        ("Prepare for an exam", "graduationcap.fill"),
-        ("Just for fun", "sparkles")
+    private let options: [(title: String, image: String)] = [
+        ("Learn about art", "ill_goal_art"),
+        ("Become more cultured", "ill_goal_culture"),
+        ("Have new things to talk about", "ill_goal_talk"),
+        ("Prepare for an exam", "ill_goal_exam"),
+        ("Just for fun", "ill_goal_fun")
     ]
 
     private var chosen: [String] { user.profile.goals ?? [] }
@@ -132,7 +132,7 @@ struct MotivationScreen: View {
                     ctaEnabled: !chosen.isEmpty, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
-                    ChoiceRow(title: option.title, symbol: option.symbol,
+                    ChoiceRow(title: option.title, image: option.image,
                               selected: chosen.contains(option.title), multiple: true) {
                         toggle(option.title)
                     }

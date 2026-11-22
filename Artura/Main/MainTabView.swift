@@ -145,7 +145,7 @@ struct ResultView: View {
                     .font(.system(size: 54, weight: .bold))
                     .foregroundStyle(celebrate ? Palette.yellow : .white)
                     .frame(width: 132, height: 132)
-                    .background(Circle().fill(celebrate ? Palette.sand : Palette.green))
+                    .background(Circle().fill(celebrate ? Palette.mist : Palette.green))
                     .scaleEffect(pop ? 1 : 0.8)
                     .opacity(pop ? 1 : 0)
                 Text(title).font(.figtree(32, .semibold)).foregroundStyle(Palette.ink).appearUp(0.2)

@@ -11,11 +11,11 @@ enum DailyWidgetStyle {
 
 /// Colors and fonts of the app, repeated here because the extension does not see `Palette`.
 private enum WidgetLook {
-    static let bg = Color(red: 0xFB / 255, green: 0xF3 / 255, blue: 0xEA / 255)
+    static let bg = Color.white
     static let ink = Color(red: 0x2D / 255, green: 0x2C / 255, blue: 0x2B / 255)
     static let muted = Color(red: 0x5C / 255, green: 0x57 / 255, blue: 0x53 / 255)
-    static let blue = Color(red: 0x1C / 255, green: 0x36 / 255, blue: 0x5A / 255)
-    static let sand = Color(red: 0xF3 / 255, green: 0xE3 / 255, blue: 0xC3 / 255)
+    static let blue = Color(red: 0x00 / 255, green: 0x61 / 255, blue: 0xEF / 255)
+    static let mist = Color(red: 0xDC / 255, green: 0xEB / 255, blue: 0xFF / 255)
 
     private static let registered: Bool = {
         for name in ["Figtree_400Regular", "Figtree_600SemiBold", "Figtree_700Bold"] {
@@ -46,7 +46,7 @@ private struct WidgetPainting: View {
             )
             .clipped()
         } else {
-            WidgetLook.sand
+            WidgetLook.mist
         }
     }
 }
