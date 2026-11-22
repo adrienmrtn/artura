@@ -1,0 +1,210 @@
+{
+ "teaser": "Devět lidí, jeden pes a malíř, který jako by maloval tebe.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Spočítej, kolik lidí v téhle místnosti zírá přímo na tebe. Malíř ano. Holčička v bílém ano. A stejně tak žena v tmavých šatech vpravo. Teď ta nepříjemná otázka: proč by se na tebe v roce 1656 dívat španělský dvůr?"
+  },
+  {
+   "type": "text",
+   "text": "Ta místnost je skutečná. Byla to dlouhá galerie v Alcázaru, královském paláci v Madridu, kde měl Diego Velázquez svůj ateliér. Bylo mu 57 let a už přes třicet let byl malířem krále Filipa IV. A sám sebe namaloval do obrazu, se štětcem v ruce, za plátnem tak vysokým, že vidíme jen jeho zadní stranu."
+  },
+  {
+   "type": "find",
+   "text": "Dva lidé na tomto obraze nestojí v místnosti s ostatními. Klepni tam, kde podle tebe jsou.",
+   "spots": [
+    {
+     "title": "Zrcadlo",
+     "text": "Na zadní stěně září jeden rám, zatímco okolní obrazy zůstávají tmavé. Je to zrcadlo. Vidíme v něm pod červenou oponou nezřetelné hlavy krále Filipa IV. a královny Marianny."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Když se král s královnou objevují v zrcadle obráceném k nám, musejí stát tam, kde stojíme my. To vyřeší hádanku a otevře další tři. Maluje Velázquez jejich portrét? Odráží zrcadlo je, nebo plátno, na kterém pracuje? Právě vešli, aby ho vyrušili? Obraz to nikdy neříká."
+  },
+  {
+   "type": "key",
+   "text": "Las Meninas staví nejdůležitější lidi mimo obraz, na tvé místo. Nedíváš se na scénu. Stojíš v ní."
+  },
+  {
+   "type": "fact",
+   "text": "Skoro dvě století neměl obraz žádný poetický název. Palácové inventáře ho nazývaly „Rodina Filipa IV.“ Název Las Meninas se objevil až v katalogu Prada z roku 1843. Menina byla mladá šlechtična ve službách královského dítěte."
+  },
+  {
+   "type": "text",
+   "text": "Dívka uprostřed je infantka Margarita, pětiletá dcera krále. Všichni kolem ní mají u dvora svou službu a Velázquez znal každého z nich jménem. Skupinu oživuje to, že žádní dva z nich nedělají totéž očima."
+  },
+  {
+   "type": "tour",
+   "title": "Čtyři způsoby dívání",
+   "text": "Sleduj pohledy přes místnost, od malíře k dalekým dveřím.",
+   "spots": [
+    {
+     "title": "Malíř",
+     "text": "Velázquez se odklání od plátna, štětec zastavený. Tak se dívá ten, kdo srovnává model s tím, co dosud namaloval. Model je tam, kde jsi ty."
+    },
+    {
+     "title": "Infantka",
+     "text": "Hlavu stáčí doleva, ale oči jí sklouzávají zpět k nám, jako to děti dělají, když do místnosti vstoupí něco zajímavějšího."
+    },
+    {
+     "title": "Maribárbola",
+     "text": "Dvorní trpaslice z Německa v tmavomodrém. Dívá se na nás přímo a bez okázalosti, nejklidnější pohled na celém obraze."
+    },
+    {
+     "title": "Muž na schodech",
+     "text": "Ve světlých dveřích se na schodech zastavil José Nieto, královnin komoří, a ohlíží se. Je jediný, kdo vidí všechno: místnost, plátno i královský pár."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Někteří si příchozích už všimli, jiní ještě ne. Služebná klečící vlevo je pořád zaměstnaná infantkou. Chlapec úplně vpravo dráždí psa nohou. Právě ta směs dělá, že scéna působí jako jediná vteřina zachycená ve vzduchu, dvě stě let před prvním fotoaparátem."
+  },
+  {
+   "type": "text",
+   "text": "Za tím šarmem je ambice. Ve Španělsku se malířství stále zdaňovalo a pokládalo za řemeslo, jako truhlářství. Velázquez chtěl, aby bylo uznáno za ušlechtilé umění a on sám za šlechtice. Ukazuje proto malíře, jak přemýšlí, místo aby pracoval, doma mezi královskou rodinou, stejně vysokého jako kdokoli v místnosti."
+  },
+  {
+   "type": "fact",
+   "text": "Červený kříž na Velázquezově hrudi je odznak řádu Santiaga, rytířského titulu, který získal až roku 1659, tři roky po dokončení obrazu. Byl tam domalován později. Legenda praví, že si ho tam namaloval sám král."
+  },
+  {
+   "type": "text",
+   "text": "A teď zapomeň na lidi a všimni si, jak je plátno rozděleno. Na skupinový portrét je postaveno podivně: jeho velká část neobsahuje vůbec nikoho."
+  },
+  {
+   "type": "lines",
+   "text": "Tři linie ukazují, jak je místnost uspořádána.",
+   "lines": [
+    {
+     "label": "Prázdná polovina",
+     "text": "Všechno nad touto čárou je strop, stín a matné obrazy. Všech jedenáct postav žije v dolní polovině. Tmavý prostor nad nimi způsobuje, že místnost působí tak vysoko a tak tiše."
+    },
+    {
+     "label": "Vlna hlav",
+     "text": "Spoj hlavy od malíře po chlapce a dostaneš linii, která klesá, stoupá a zase klesá. Nikdo není seřazen jako na oficiálním portrétu."
+    },
+    {
+     "label": "Světlo zprava",
+     "text": "Denní světlo vstupuje z okna vpravo, které nevidíme. Nejsilněji dopadá na infantčiny světlé vlasy a šaty, takže září, aniž by musela být největší postavou."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Druhé světlo přichází z otevřených dveří vzadu, daleko za všemi. Mezi těmito dvěma světly maluje Velázquez něco velmi těžko malovatelného: vzduch samotný. Postavy jsou tím měkčí a šedší, čím hlouběji stojí, přesně jako by tomu bylo v dlouhém, zaprášeném sále."
+  },
+  {
+   "type": "text",
+   "text": "Dělá to s úžasně málo prostředky. Z druhého konce madridské galerie vypadají hedvábné látky jako sešité a naškrobené. Přistup k plátnu, které je asi 3,2 metru vysoké, a šaty se změní v uvolněné šlehy a šmouhy barvy. Detail vzniká v tvém oku, ne na povrchu."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Červený kříž",
+     "text": "Kříž Santiaga, domalovaný na černý kabátec o několik let později než zbytek."
+    },
+    {
+     "title": "Džbánek vody",
+     "text": "Klečící menina María Agustina Sarmiento podává infantce na podnose malý červený hliněný džbánek. Takové vonné hliněné nádoby byly módním způsobem, jak pít chladnou vodu."
+    },
+    {
+     "title": "Skryté plátno",
+     "text": "Vidíme jen dřevěný rám a surovou rubovou stranu látky. Je zhruba stejně vysoké jako samotné Las Meninas, což mnohé vede k otázce, zda je to právě obraz, který maluje."
+    },
+    {
+     "title": "Mastin",
+     "text": "Velký ospalý španělský mastin, trpělivý pod chlapcovou nohou. Srst je naznačena několika širokými suchými tahy."
+    },
+    {
+     "title": "Nicolasito",
+     "text": "Nicolasito Pertusato, mladý italský dvorní trpaslík, šťouchá do psa. Jen on se v místnosti skutečně pohybuje."
+    },
+    {
+     "title": "Dva ve stínu",
+     "text": "Dozorčí dáma v bílém vdovském čepci mluví se strážcem, který tam skoro není, tvář má rozmazanou. Velázquez je nechává pohltit přítmím."
+    },
+    {
+     "title": "Druhá menina",
+     "text": "Isabel de Velasco začíná pukrle. Tělo se jí ohýbá k infantce, ale oči se už obrátily k návštěvníkům."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Na Štědrý večer 1734 Alcázar vyhořel. Stovky obrazů byly ztraceny. Las Meninas byly zachráněny, poškozeny a později oříznuty na okrajích. Palác, který zobrazují, už neexistuje: na jeho místě stojí Královský palác v Madridu."
+  },
+  {
+   "type": "text",
+   "text": "Malíři kolem tohoto plátna kroužili od té doby. Ital Luca Giordano, který ho spatřil o generaci později, mu říkal „teologie malířství“, nejvyšší věc, jakou umění dokáže. V roce 1957 se Picasso na měsíce zavřel a namaloval 58 variací, v nichž obraz rozebral postavu po postavě."
+  },
+  {
+   "type": "text",
+   "text": "Velázquez zemřel roku 1660, čtyři roky po dokončení, a nezanechal žádné vysvětlení. První otázka tedy stále platí. Když stojíš před Las Meninas, jsi král, královna, návštěvník ve dveřích, nebo prostě další člověk, kterého se malíř rozhodl prozkoumat?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Kdo se objevuje v zrcadle na zadní stěně?",
+   "options": [
+    "Velázquez s manželkou",
+    "Král Filip IV. a královna Marianna",
+    "Dva infantčini bratři"
+   ],
+   "explanation": "Zářící rám je zrcadlo, v němž je vidět královský pár, který musí stát tam, kde stojí divák."
+  },
+  {
+   "question": "Co znamenalo slovo „menina“ u španělského dvora?",
+   "options": [
+    "Mladá šlechtična ve službách královského dítěte",
+    "Pomocnice dvorního malíře",
+    "Princezna, která zdědí trůn"
+   ],
+   "explanation": "Meniny byly mladé dvorní dámy, jako ty dvě, které obklopují infantku."
+  },
+  {
+   "question": "Čím je červený kříž na malířově hrudi překvapivý?",
+   "options": [
+    "Má špatnou barvu pro jeho řád",
+    "Namaloval ho Picasso",
+    "Tento rytířský titul získal tři roky po dokončení obrazu"
+   ],
+   "explanation": "Do řádu Santiaga vstoupil roku 1659, takže kříž byl domalován později."
+  },
+  {
+   "question": "Jak je využita horní polovina plátna?",
+   "options": [
+    "Je plná andělů",
+    "Je skoro prázdná: strop, stín a matné obrazy",
+    "Ukazuje druhou řadu dvořanů"
+   ],
+   "explanation": "Všechny postavy jsou v dolní polovině a tmavý prostor nad nimi činí místnost vysokou a tichou."
+  },
+  {
+   "question": "Co udělal Picasso roku 1957 s Las Meninas?",
+   "options": [
+    "Namaloval na jejich motivy 58 variací",
+    "Zrestauroval je pro Prado",
+    "Koupil jejich kopii"
+   ],
+   "explanation": "Měsíce přetvářel kompozici v sérii 58 pláten."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Obraz se jmenuje Las Meninas už od chvíle, kdy ho Velázquez dokončil.",
+   "explanation": "Byl veden jako „Rodina Filipa IV.“ a dnešní název dostal až roku 1843."
+  },
+  {
+   "text": "Las Meninas přežily požár, který zničil palác, v němž vznikly.",
+   "explanation": "Byly zachráněny, když roku 1734 shořel madridský Alcázar."
+  },
+  {
+   "text": "Hlavní světlo scény vychází z lustru na stropě.",
+   "explanation": "Denní světlo přichází z neviditelného okna vpravo, druhé světlo ze dveří vzadu."
+  }
+ ]
+}
