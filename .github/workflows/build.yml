@@ -86,6 +86,7 @@ jobs:
           shoot 00_splash welcome 6 -holdSplash YES
           shoot 01_welcome welcome 12 -noSplash YES
           shoot 02_hello hello 9 -noSplash YES
+          shoot 02b_helloTyping hello 2 -noSplash YES
           shoot 03_daily daily 5 -noSplash YES
           shoot 04_pocketMuseum pocketMuseum 5 -noSplash YES
           shoot 05_photo photo 5 -noSplash YES

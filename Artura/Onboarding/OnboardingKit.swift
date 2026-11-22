@@ -106,7 +106,7 @@ struct MascotBubble<Content: View>: View {
 
 // MARK: - The Mona Lisa speaks: typed text, one line after another
 
-/// Dialogue screen: the Mona Lisa says one or more lines, typed letter by letter.
+/// Dialogue screen: the Mona Lisa says one or more lines, its letters fading in one after another.
 /// A tap while typing shows the whole line; the next tap moves on.
 struct MascotTalkScreen<Extra: View>: View {
     let lines: [String]
@@ -118,9 +118,13 @@ struct MascotTalkScreen<Extra: View>: View {
     @ViewBuilder var extra: () -> Extra
 
     @State private var index = min(max(0, OnboardingDebug.int("onbLine")), 9)
-    @State private var count = 0
+    /// Seconds since the current line started to appear.
+    @State private var elapsed: Double = 0
     @State private var typing = true
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    /// How long each letter takes to fade in: the leading edge of the text is soft, not stepped.
+    private let fade = 0.22
 
     private var line: String { lines[min(index, lines.count - 1)] }
     private var isLast: Bool { index >= lines.count - 1 }
@@ -170,18 +174,43 @@ struct MascotTalkScreen<Extra: View>: View {
         .task(id: index) { await write() }
     }
 
-    /// Room for the whole line is reserved from the start: the bubble doesn't move while typing.
+    /// When each letter starts to appear, with a breath after punctuation, as when speaking.
+    private func schedule(_ characters: [Character]) -> [Double] {
+        var times: [Double] = []
+        var t = 0.0
+        for character in characters {
+            times.append(t)
+            switch character {
+            case ".", ":", "!", "?": t += 0.24
+            case ",": t += 0.12
+            default: t += 0.026
+            }
+        }
+        return times
+    }
+
+    /// Room for the whole line is reserved from the start: the bubble doesn't move while the text appears.
+    /// Letters fade in one after another, so the text flows instead of ticking.
     private var typedText: some View {
         let characters = Array(line)
-        let shown = String(characters.prefix(count))
-        let hidden = String(characters.dropFirst(count))
-        return (Text(shown) + Text(hidden).foregroundColor(.clear))
+        let times = schedule(characters)
+        var shown = 0
+        while shown < characters.count, elapsed >= times[shown] + fade { shown += 1 }
+        var text = Text(String(characters.prefix(shown)))
+        var i = shown
+        while i < characters.count, elapsed > times[i] {
+            let opacity = min(1, (elapsed - times[i]) / fade)
+            text = text + Text(String(characters[i])).foregroundColor(Palette.ink.opacity(opacity))
+            i += 1
+        }
+        text = text + Text(String(characters.dropFirst(i))).foregroundColor(.clear)
+        return text
             .font(.figtree(24, .semibold))
             .foregroundStyle(Palette.ink)
             .lineSpacing(3)
-            .multilineTextAlignment(.leading)
+            .multilineTextAlignment(.center)
             .fixedSize(horizontal: false, vertical: true)
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(maxWidth: .infinity, alignment: .center)
             .accessibilityLabel(line)
     }
 
@@ -189,10 +218,10 @@ struct MascotTalkScreen<Extra: View>: View {
         if typing {
             // First tap: show the whole line.
             typing = false
-            count = line.count
+            elapsed = .greatestFiniteMagnitude
             Haptics.tap()
         } else if !isLast {
-            count = 0
+            elapsed = 0
             typing = true
             withAnimation(.settle) { index += 1 }
         } else {
@@ -204,30 +233,31 @@ struct MascotTalkScreen<Extra: View>: View {
     private func write() async {
         let characters = Array(line)
         if reduceMotion {
-            count = characters.count
+            elapsed = .greatestFiniteMagnitude
             typing = false
             return
         }
+        let times = schedule(characters)
+        let total = (times.last ?? 0) + fade
         typing = true
+        elapsed = 0
         try? await Task.sleep(nanoseconds: 450_000_000)
-        while count < characters.count {
+        let start = Date()
+        var ticks = 0
+        while typing {
             if Task.isCancelled { return }
-            if !typing { break }
-            let character = characters[count]
-            count += 1
-            if count % 3 == 0 { Haptics.whisper() }
-            // A breath after punctuation, as when speaking.
-            let pause: Double
-            switch character {
-            case ".", ":", "!", "?": pause = 0.26
-            case ",": pause = 0.14
-            default: pause = 0.022
-            }
-            try? await Task.sleep(nanoseconds: UInt64(pause * 1_000_000_000))
+            let now = Date().timeIntervalSince(start)
+            if now >= total { break }
+            elapsed = now
+            // A light tick every few letters.
+            let reached = times.prefix { $0 <= now }.count
+            if reached / 4 > ticks { ticks = reached / 4; Haptics.whisper() }
+            try? await Task.sleep(nanoseconds: 16_000_000)
         }
         if Task.isCancelled { return }
+        if typing { Haptics.soft() }
+        elapsed = .greatestFiniteMagnitude
         typing = false
-        Haptics.soft()
     }
 }
 
