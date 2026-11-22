@@ -150,7 +150,7 @@ struct Quote: Identifiable {
 struct QuotesScreen: View {
     let onBack: () -> Void
     let onNext: () -> Void
-    /// Number of quotes revealed so far: each tap brings the next one, then the screen moves on.
+    /// Number of quotes revealed so far, none at first: each tap brings the next one, then the screen moves on.
     @State private var shown = min(max(0, OnboardingDebug.int("onbQuotesShown")), Quote.all.count)
 
     private let quotes = Quote.all
@@ -217,12 +217,6 @@ struct QuotesScreen: View {
         .contentShape(Rectangle())
         .onTapGesture(perform: advance)
         .accessibilityAddTraits(.isButton)
-        .onAppear {
-            // The first quote comes by itself; the others wait for a tap.
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                if shown == 0 { reveal() }
-            }
-        }
     }
 
     private func advance() {
