@@ -1,0 +1,178 @@
+{
+ "teaser": "Tout le monde connaît ce visage. Presque personne ne sait qui crie vraiment.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Quatre. C'est le nombre de Cris qu'Edvard Munch a réalisés de sa main : deux peintures et deux pastels, entre 1893 et 1910, sans compter une estampe qu'il pouvait tirer en noir et blanc. L'un des pastels s'est vendu en 2012 près de 120 millions de dollars. Voici la plus ancienne des versions peintes, celle de 1893, et la plus célèbre."
+  },
+  {
+   "type": "text",
+   "text": "Elle est aussi plus fragile qu'on ne l'imaginerait. Munch n'a pas pris de toile. Il a travaillé sur une feuille de carton de 91 centimètres sur 73,5, à la tempera, une peinture mate qui sèche vite, posée ici en couche mince, et au crayon gras. Par endroits, le carton brun reste à nu."
+  },
+  {
+   "type": "text",
+   "text": "Tout est parti d'une promenade. Munch l'a racontée par écrit plus d'une fois. Il marchait avec deux amis sur une route qui domine le fjord, au coucher du soleil. Le ciel est devenu rouge sang. Il s'est arrêté, épuisé, et s'est appuyé à la rambarde. Ses amis ont continué leur chemin."
+  },
+  {
+   "type": "find",
+   "text": "Munch n'était pas seul sur cette route. Où sont ses compagnons ?",
+   "spots": [
+    {
+     "title": "Les deux amis",
+     "text": "Deux silhouettes sombres, en chapeau, tout au bout de la rambarde, droites comme des piquets. Ils s'éloignent, ou n'ont rien remarqué. Ce qui se passe ici n'arrive qu'à une seule personne."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Cette distance compte, à cause de ce que Munch écrit ensuite. Debout là, tremblant d'angoisse, il a senti « un cri infini qui traversait la nature ». Relis cette phrase. Le cri ne sort pas du personnage. Il lui arrive dessus."
+  },
+  {
+   "type": "key",
+   "text": "Le personnage du Cri, très probablement, ne crie pas. Il plaque ses mains sur ses oreilles pour ne plus entendre un cri qui emplit le ciel et l'eau. Le premier titre donné par Munch, en allemand, voulait dire « Le Cri de la nature »."
+  },
+  {
+   "type": "text",
+   "text": "Comment peint-on un son ? La réponse de Munch est dans la construction. Il bâtit son image avec deux sortes de lignes qui ne vont pas ensemble, et il place le personnage du mauvais côté."
+  },
+  {
+   "type": "lines",
+   "text": "Deux mondes se partagent ce carton : l'un tiré à la règle, l'autre liquide.",
+   "lines": [
+    {
+     "label": "La rambarde",
+     "text": "Parfaitement droite, elle fonce vers les deux amis. La rambarde et les planches, c'est le monde construit par l'homme : mesuré, solide, rationnel. Les amis en font partie."
+    },
+    {
+     "label": "Le ciel",
+     "text": "Là-haut, plus rien de droit. Des bandes de rouge, d'orange et quelques traînées bleu-vert roulent sur le côté comme des ondes sonores."
+    },
+    {
+     "label": "Le fjord",
+     "text": "L'eau s'enroule en tourbillon et se déverse le long du côté droit. Terre et mer se fondent en un seul courant."
+    },
+    {
+     "label": "Le personnage",
+     "text": "Ce corps n'a pas d'os. Il ondule en S, comme le fjord derrière lui. Le personnage se tient sur le pont, mais il est dessiné dans la langue du paysage."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Le cri est donc déjà entré dans le corps. Voilà pourquoi le personnage a cette allure : Munch a retiré tout ce qui en ferait quelqu'un de précis, jusqu'à ce qu'il ne reste que l'émotion."
+  },
+  {
+   "type": "tour",
+   "title": "De tout près",
+   "text": "Trois endroits où l'on voit que Munch n'avait pas besoin de grand-chose.",
+   "spots": [
+    {
+     "title": "La tête",
+     "text": "Ni cheveux, ni oreilles, ni âge, ni sexe. Deux cercles pour les yeux, deux points pour le nez, un ovale pour la bouche. On est plus près du crâne ou de l'ampoule que du portrait : voilà pourquoi chacun peut s'y reconnaître."
+    },
+    {
+     "title": "Deux bateaux",
+     "text": "De minuscules navires à mâts sont à l'ancre sur le fjord jaune. En bas, la vie ordinaire du soir continue, sans le moindre trouble."
+    },
+    {
+     "title": "La surface du ciel",
+     "text": "Le rouge est traîné en longues touches sèches, avec des traits de crayon par-dessus. On peut les compter. Munch voulait de la vitesse et du brut, pas du fini."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Certains astronomes pensent que ce ciel rouge sang a existé. En 1883, le volcan Krakatoa explose en Indonésie, et ses poussières embrasent les couchers de soleil de toute l'Europe pendant des mois. Munch a alors 19 ou 20 ans. Ce n'est qu'une théorie : d'autres rappellent qu'il peignait des états d'âme, pas des bulletins météo."
+  },
+  {
+   "type": "text",
+   "text": "Quand le tableau est montré en Norvège, on met ouvertement en doute la santé mentale de son auteur. Munch vient d'une famille marquée par la maladie : sa mère et sa sœur aînée sont mortes de la tuberculose quand il était enfant, et une autre de ses sœurs a été soignée pour des troubles mentaux. Toute sa vie, il a eu peur de la folie."
+  },
+  {
+   "type": "fact",
+   "text": "En haut à gauche, dans le ciel, quelqu'un a écrit une phrase au crayon, en lettres minuscules : « Ne peut avoir été peint que par un fou ! » Pendant plus d'un siècle, on l'a attribuée à un visiteur furieux. En 2021, le musée a comparé les écritures sous lumière infrarouge. C'est celle de Munch."
+  },
+  {
+   "type": "text",
+   "text": "Pourquoi écrire cela sur son propre tableau ? Peut-être par ironie amère envers ses critiques, peut-être pour faire sienne l'insulte. Il ne l'a jamais effacée. Elle est trop pâle pour apparaître sur une photographie, mais à Oslo les visiteurs peuvent la chercher."
+  },
+  {
+   "type": "fact",
+   "text": "Le 12 février 1994, jour de l'ouverture des Jeux olympiques d'hiver en Norvège, deux hommes appuient une échelle contre le musée, brisent une fenêtre et emportent ce tableau en moins d'une minute. Ils laissent un mot : « Merci pour la mauvaise sécurité. » On le retrouve intact trois mois plus tard."
+  },
+  {
+   "type": "text",
+   "text": "Aujourd'hui, cette tête chauve à la bouche ouverte est un émoji, un masque de film d'horreur, un déguisement d'Halloween. Chaque copie emprunte le visage et oublie les deux amis qui s'éloignent. Reviens vers eux une dernière fois. Le plus dur, dans ce tableau, ce n'est pas le cri. C'est que personne d'autre ne l'entend."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Sur quoi cette version du Cri est-elle peinte ?",
+   "options": [
+    "Sur une toile",
+    "Sur un panneau de bois",
+    "Sur du carton"
+   ],
+   "explanation": "Munch a utilisé de la tempera et du crayon gras sur une feuille de carton."
+  },
+  {
+   "question": "D'après le récit de Munch lui-même, d'où vient le cri ?",
+   "options": [
+    "De la nature elle-même",
+    "De la bouche du personnage",
+    "Des deux amis"
+   ],
+   "explanation": "Il écrit avoir senti un cri infini qui traversait la nature."
+  },
+  {
+   "question": "Qui a écrit dans le ciel la phrase au crayon qui parle d'un fou ?",
+   "options": [
+    "Un visiteur furieux",
+    "Munch lui-même",
+    "Un gardien du musée"
+   ],
+   "explanation": "Une étude de l'écriture menée en 2021 a montré que c'est celle de Munch."
+  },
+  {
+   "question": "Comment le corps du personnage est-il dessiné, par rapport au pont ?",
+   "options": [
+    "En lignes droites, comme la rambarde",
+    "En courbes, comme le fjord et le ciel",
+    "Il n'est pas dessiné du tout"
+   ],
+   "explanation": "Le corps ondule en S, dans la langue du paysage."
+  },
+  {
+   "question": "Qu'est-il arrivé à ce tableau en 1994 ?",
+   "options": [
+    "Il a été volé le jour de l'ouverture des Jeux olympiques d'hiver",
+    "Il a été vendu 120 millions de dollars",
+    "Il a été endommagé par un incendie"
+   ],
+   "explanation": "Les voleurs l'ont emporté en moins d'une minute et ont laissé un mot moqueur."
+  },
+  {
+   "question": "Combien de versions du Cri Munch a-t-il réalisées de sa main ?",
+   "options": [
+    "Une",
+    "Quatre",
+    "Douze"
+   ],
+   "explanation": "Deux peintures et deux pastels, sans compter une estampe."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Les deux silhouettes du fond accourent pour aider le personnage qui crie.",
+   "explanation": "Elles se tiennent toutes droites au bout de la rambarde et ne remarquent rien."
+  },
+  {
+   "text": "Une théorie relie le ciel rouge à l'éruption du volcan Krakatoa.",
+   "explanation": "Ses poussières ont embrasé les couchers de soleil de toute l'Europe en 1883, mais ce lien n'est qu'une théorie."
+  },
+  {
+   "text": "Le Cri de 1893 est une peinture à l'huile sur toile.",
+   "explanation": "C'est de la tempera et du crayon gras sur carton."
+  }
+ ]
+}

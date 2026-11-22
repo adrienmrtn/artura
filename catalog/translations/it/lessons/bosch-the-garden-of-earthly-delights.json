@@ -1,0 +1,242 @@
+{
+ "teaser": "Un uomo fatto di guscio d'uovo e tronchi d'albero ti guarda dall'Inferno. Nessuno sa perché.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Un uomo sta in piedi nel buio, con i piedi in due barchette. Le gambe sono tronchi d'albero cavi. Il corpo è un guscio d'uovo rotto con dentro una taverna, e in testa porta un disco su cui alcuni demoni sfilano intorno a una cornamusa rosa. Gira il viso pallido sopra la spalla, quasi divertito."
+  },
+  {
+   "type": "find",
+   "text": "Questa creatura si nasconde da qualche parte nel dipinto qui sotto. Riesci a trovarla?",
+   "spots": [
+    {
+     "title": "L'Uomo-albero",
+     "text": "Lo chiamano l'Uomo-albero. Alcuni storici sospettano che il volto sia quello di Bosch, anche se niente lo dimostra. Ricordati di quello sguardo sopra la spalla: ci torneremo."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Adesso fai un passo indietro. L'Uomo-albero è una creatura tra centinaia in un trittico, cioè un dipinto fatto di tre pannelli uniti da cerniere. Aperto, misura circa 2,2 metri per 3,9. Hieronymus Bosch lo dipinse a olio su tavole di quercia intorno al 1500."
+  },
+  {
+   "type": "fact",
+   "text": "Richiudi i due pannelli laterali e i colori scompaiono. L'esterno mostra la Terra come un globo grigio e trasparente, pieno d'acqua per metà: probabilmente il mondo al terzo giorno della Creazione, prima degli animali e degli uomini. Aprirlo doveva essere uno shock."
+  },
+  {
+   "type": "text",
+   "text": "Di solito i trittici stavano sugli altari delle chiese. Questo, quasi di sicuro, non ci è mai stato: la prima notizia che ne abbiamo è del 1517 e lo colloca nel palazzo di un nobile a Bruxelles, un pezzo forte da mostrare agli ospiti. Si legge come una frase, da sinistra a destra, e Bosch ci ha messo qualche indizio per guidarti."
+  },
+  {
+   "type": "lines",
+   "text": "Tre indizi per capire come si collegano i pannelli.",
+   "lines": [
+    {
+     "label": "Un solo orizzonte",
+     "text": "Il pannello sinistro e quello centrale hanno lo stesso orizzonte, la stessa erba, lo stesso cielo. Il giardino affollato al centro nasce direttamente dall'Eden."
+    },
+    {
+     "label": "Dove si spezza",
+     "text": "Su questa cerniera il paesaggio si interrompe. Niente orizzonte, niente verde, niente luce del giorno: il pannello destro è una notte rischiarata soltanto dagli incendi."
+    },
+    {
+     "label": "Tre centri",
+     "text": "Ogni pannello ha nel cuore una strana struttura: una fontana rosa, un globo azzurro, l'Uomo-albero. Una fontana della vita, poi un fragile giocattolo, poi un guscio vuoto."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Bosch non era il suo cognome. Era nato Jheronimus van Aken e firmava con la forma abbreviata della sua città, 's-Hertogenbosch, negli attuali Paesi Bassi. Lì passò quasi tutta la vita, in una casa sulla piazza del mercato."
+  },
+  {
+   "type": "text",
+   "text": "La storia va dunque da un inizio a una fine: il Paradiso, poi un giardino di piaceri, poi il castigo. Sembra semplice. Lo diventa meno quando guardi da vicino proprio il Paradiso, che dovrebbe essere l'unico posto tranquillo del dipinto."
+  },
+  {
+   "type": "tour",
+   "title": "Guai in Paradiso",
+   "text": "Dio ha appena creato Eva. Da lontano, nel pannello sinistro tutto sembra calmo.",
+   "spots": [
+    {
+     "title": "La presentazione",
+     "text": "Dio, raffigurato giovane come Cristo, tiene Eva per il polso e la presenta ad Adamo, che si è appena svegliato. Adamo la fissa. In quello sguardo molti leggono la prima scintilla del desiderio."
+    },
+    {
+     "title": "La civetta",
+     "text": "Nel buco scuro alla base della fontana rosa c'è una civetta. Ai tempi di Bosch era un uccello notturno di malaugurio almeno quanto un simbolo di saggezza. Osserva dal centro esatto dell'Eden."
+    },
+    {
+     "title": "Il gatto",
+     "text": "Un gatto se ne va con un animaletto tra le fauci. Lì vicino certe creature strisciano fuori da uno stagno scuro e gli uccelli si azzuffano. Si uccide già, prima che qualcuno abbia toccato una mela."
+    },
+    {
+     "title": "La giraffa",
+     "text": "Bosch non vide mai una giraffa né un elefante. Probabilmente li copiò da disegni di viaggiatori, ed è per questo che questa è bianca e un po' sbagliata. L'Eden è popolato dalle cose più rare che conosceva."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nel Paradiso ci sono già un predatore e una civetta che osserva. Bosch sembra dire che i guai non sono cominciati nel giardino accanto: sono stati piantati il primo giorno. Con questo in mente, il grande pannello centrale diventa più difficile da giudicare."
+  },
+  {
+   "type": "text",
+   "text": "Centinaia di uomini e donne nudi cavalcano animali, fanno il bagno, mordicchiano bacche giganti e si infilano dentro conchiglie. Nessuno è vecchio, nessuno lavora, nessuno sembra provare vergogna. Non c'è documento che ci dica che cosa intendesse Bosch, e gli studiosi non sono ancora d'accordo: un monito contro la lussuria, o il sogno di un mondo come sarebbe stato se gli uomini non avessero mai peccato?"
+  },
+  {
+   "type": "text",
+   "text": "Qualunque risposta tu scelga, le prove stanno nelle piccole cose, e sono troppe per una visita guidata. Gira per il giardino per conto tuo. Fai attenzione ai frutti e agli uccelli più grandi delle persone, e a tutto quello che è fatto di vetro."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Il globo azzurro",
+     "text": "Al centro del lago galleggia un globo azzurro sormontato da guglie rosa. Figurine minuscole ci si arrampicano sopra e si siedono nelle sue aperture. Ha un'aria grandiosa e insieme fragile."
+    },
+    {
+     "title": "La giostra infinita",
+     "text": "Alcune donne fanno il bagno in una vasca rotonda mentre gli uomini girano loro intorno in sella a cavalli, cinghiali, un cammello e bestie più strane. In tondo, senza andare da nessuna parte: una giostra di vanitosi."
+    },
+    {
+     "title": "Amanti in una bolla",
+     "text": "Una coppia siede dentro una sfera trasparente che spunta da una pianta come una bolla di sapone. Un detto olandese dell'epoca paragonava la felicità al vetro: si rompe presto."
+    },
+    {
+     "title": "Uccelli giganti",
+     "text": "Un martin pescatore, un cardellino e altri uccelli torreggiano sui bagnanti in riva all'acqua. Le proporzioni sono rovesciate: qui i piccoli animali sono gli esseri umani."
+    },
+    {
+     "title": "La cozza",
+     "text": "Un uomo porta sulla schiena un'enorme conchiglia di cozza, con delle persone chiuse dentro. In tutto il giardino conchiglie, baccelli e frutti cavi fanno da nascondiglio."
+    },
+    {
+     "title": "Di nuovo la civetta",
+     "text": "Una civetta sta appollaiata sopra un cerchio di danzatori. L'uccello che osservava dalla fontana dell'Eden ci ha seguiti nel giardino."
+    },
+    {
+     "title": "La bacca gigante",
+     "text": "Alcune figure si stringono intorno a una bacca rossa grande quasi quanto loro. Dolce, lucente, e marcia nel giro di pochi giorni: un'immagine perfetta di un piacere che non dura."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Nel giardino tutto è delizioso e fragile: frutti che marciscono, vetro che si rompe, bolle che scoppiano. Che Bosch disapprovasse o fantasticasse, ha dipinto il piacere come qualcosa che non può durare."
+  },
+  {
+   "type": "fact",
+   "text": "Per secoli nessuno lo ha chiamato Il giardino delle delizie. Bosch non lasciò alcun titolo. Le prime descrizioni spagnole danno al quadro il nome del suo frutto, il dipinto della fragola, e il titolo che usiamo si è imposto molto più tardi."
+  },
+  {
+   "type": "text",
+   "text": "Come ha fatto a mantenere luminose e leggibili tante scene minuscole? Bosch lavorava con strati sottili, quasi trasparenti, di colore a olio su una preparazione bianca, che fa brillare i colori come smalto. Le indagini tecniche mostrano che cambiava idea strada facendo, ridisegnando le figure direttamente sulla tavola."
+  },
+  {
+   "type": "text",
+   "text": "Poi arriva il conto. Nel pannello destro le luci si spengono, e la stessa specie che giocava nel giardino viene braccata, divorata e derisa. L'idea più crudele di Bosch è che le cose di cui la gente godeva diventano gli strumenti che la fanno soffrire. Comincia dalla musica."
+  },
+  {
+   "type": "tour",
+   "title": "Il lato notturno",
+   "text": "Tre tappe nel buio, dall'alto del pannello verso il basso.",
+   "spots": [
+    {
+     "title": "Orecchie e lama",
+     "text": "Due orecchie giganti reggono in mezzo un coltello, come una macchina da guerra che passa sopra i dannati. Che cosa voglia dire, ognuno può tirare a indovinare: ed è parte della sua forza."
+    },
+    {
+     "title": "La lezione di musica",
+     "text": "Sotto un liuto e un'arpa giganti giace un peccatore schiacciato, con uno spartito scritto sul sedere. Gli strumenti del piacere sono diventati strumenti di tortura."
+    },
+    {
+     "title": "Il principe uccello",
+     "text": "Un mostro azzurro con la testa d'uccello e un calderone per cappello siede su un alto seggio e inghiotte una persona intera. Lo chiamano spesso il Principe dell'Inferno."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Le note sul sedere di quel peccatore si possono leggere. Nel 2014 una studentessa di musica dell'Oklahoma, Amelia Hamrick, le ha trascritte e ne ha pubblicato online una registrazione. Ha fatto il giro del mondo con un titolo non ufficiale: la canzone del sedere dall'Inferno."
+  },
+  {
+   "type": "text",
+   "text": "Il dipinto diventò presto un trofeo. Il re Filippo II di Spagna, appassionato collezionista di Bosch, nel 1593 lo fece mandare nel suo monastero-palazzo dell'Escorial. Negli anni Trenta del Novecento passò al Prado, a Madrid. Quattro secoli dopo Bosch i surrealisti, pittori di sogni come Salvador Dalí, lo rivendicarono come antenato."
+  },
+  {
+   "type": "text",
+   "text": "Torna all'Uomo-albero. All'Inferno tutti gli altri sono troppo occupati a soffrire per accorgersi di qualcosa. Lui solo si volta a guardare, sopra il suo corpo rotto, verso il giardino e verso di te. Un avvertimento, un rimpianto, o il mezzo sorriso di un pittore che si gode la propria invenzione? Bosch non l'ha mai detto."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Che cos'è un trittico?",
+   "options": [
+    "Un dipinto fatto di tre pannelli uniti da cerniere",
+    "Un dipinto con tre figure",
+    "Un dipinto fatto in tre giorni"
+   ],
+   "explanation": "Il Giardino è formato da tre tavole di quercia unite da cerniere, così i laterali si possono richiudere."
+  },
+  {
+   "question": "Che cosa hanno in comune il pannello sinistro e quello centrale?",
+   "options": [
+    "La stessa folla di figure",
+    "Lo stesso cielo notturno",
+    "Lo stesso orizzonte e lo stesso paesaggio"
+   ],
+   "explanation": "L'orizzonte li attraversa tutti e due, e il giardino sembra nascere dall'Eden."
+  },
+  {
+   "question": "Che cosa c'è nel buco scuro della fontana dell'Eden?",
+   "options": [
+    "Un serpente",
+    "Una civetta",
+    "Un gatto"
+   ],
+   "explanation": "Una civetta osserva dal centro del Paradiso, e un'altra compare nel giardino centrale."
+  },
+  {
+   "question": "Che cosa appare quando i pannelli laterali sono chiusi?",
+   "options": [
+    "Un ritratto di Bosch",
+    "La Terra come un globo grigio",
+    "Un secondo giardino"
+   ],
+   "explanation": "L'esterno mostra un globo senza colori, probabilmente il mondo al terzo giorno della Creazione."
+  },
+  {
+   "question": "Che cosa c'è scritto sul sedere di un peccatore nel pannello dell'Inferno?",
+   "options": [
+    "Una preghiera",
+    "La firma di Bosch",
+    "Uno spartito"
+   ],
+   "explanation": "Le note si possono leggere, e nel 2014 una studentessa le ha trascritte e registrate."
+  },
+  {
+   "question": "Quale re di Spagna fece mandare il dipinto all'Escorial?",
+   "options": [
+    "Filippo II",
+    "Carlo V",
+    "Filippo IV"
+   ],
+   "explanation": "Filippo II, appassionato collezionista di Bosch, lo fece mandare lì nel 1593."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Fu Bosch a dare al dipinto il titolo Il giardino delle delizie.",
+   "explanation": "Non lasciò alcun titolo; le prime descrizioni spagnole gli davano il nome della sua fragola."
+  },
+  {
+   "text": "Bosch prese il nome dalla sua città.",
+   "explanation": "Era nato Jheronimus van Aken e firmava con il nome di 's-Hertogenbosch."
+  },
+  {
+   "text": "Documenti dell'epoca di Bosch spiegano il significato del pannello centrale.",
+   "explanation": "Non esiste nessun documento del genere, e gli studiosi non sono ancora d'accordo."
+  }
+ ]
+}
