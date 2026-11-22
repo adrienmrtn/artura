@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Renaissance",
+   "period": "15th–16th century",
+   "summary": "Perspective and a return to antiquity",
+   "description": "In Italy, then across Europe, artists rediscover antiquity, study the human body and invent perspective. The painting becomes a window onto the world."
+  },
+  "siecledor": {
+   "name": "Dutch Golden Age",
+   "period": "17th century",
+   "summary": "Everyday life and light",
+   "description": "In the prosperous Dutch Republic, artists paint for middle-class homes: quiet interiors, portraits, still lifes. Light becomes the real subject."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "17th–19th century",
+   "summary": "Prints of the “floating world”",
+   "description": "In Japan, woodblock prints made in series show actors, landscapes and scenes of daily life. Their flat colors and bold crops would shake up European painters."
+  },
+  "impressionnisme": {
+   "name": "Impressionism",
+   "period": "1870s–1880s",
+   "summary": "Painting the light of the moment",
+   "description": "A group of painters leaves the studio to work outdoors, in quick little strokes. They are no longer after detail, but after the effect of light at a precise moment."
+  },
+  "postimp": {
+   "name": "Post-Impressionism",
+   "period": "1886–1905",
+   "summary": "Color and emotion first",
+   "description": "After Impressionism, everyone looks for their own path. Color no longer imitates reality: it expresses what the painter feels."
+  },
+  "secession": {
+   "name": "Vienna Secession",
+   "period": "Around 1900",
+   "summary": "Gold, ornament and curved lines",
+   "description": "In Vienna, young artists break with the academy. They blend painting, decoration and craft, and turn ornament into a language of its own."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "The Starry Night",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "MoMA, New York",
+   "teaser": "A swirling sky, painted from memory in an asylum room.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "June 1889. Vincent van Gogh is 36. A month earlier, he checked himself into the asylum of Saint-Rémy-de-Provence, in the south of France, after a severe breakdown in Arles."
+    },
+    {
+     "type": "text",
+     "text": "His bedroom faces east. Through the window he sees a wheat field, the hills of the Alpilles and, before dawn, the sky. He paints that view again and again, at every hour of the day."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh only started painting at 27. In about ten years he made around 900 paintings, sometimes one a day."
+    },
+    {
+     "type": "tour",
+     "text": "Here is the most famous of those skies. Take it in, then tap to step inside.",
+     "spots": [
+      {
+       "title": "The swirl",
+       "text": "In the center, two great waves curl into each other. No real sky looks like this: he paints what he feels, not what he sees."
+      },
+      {
+       "title": "The moon",
+       "text": "An orange crescent in a yellow halo. It almost looks like a sun. Van Gogh lays the paint in short strokes that circle around it."
+      },
+      {
+       "title": "The morning star",
+       "text": "The whitest light in the painting. Van Gogh wrote to his brother that he had seen the morning star, very big, before sunrise. It is probably Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "This picture was not painted at night, and not in front of the view. Van Gogh made it in daylight, in his studio at the asylum, from memory and imagination. That was unusual for him: he normally painted what was in front of his eyes."
+    },
+    {
+     "type": "key",
+     "text": "The Starry Night was painted by day, from memory. It is not a view. It is a vision."
+    },
+    {
+     "type": "text",
+     "text": "He had been dreaming of a night sky for a long time. A year earlier he wrote that looking at the stars always made him dream."
+    },
+    {
+     "type": "find",
+     "text": "One detail in this landscape comes straight from his childhood in the Netherlands. Where is the steeple?",
+     "spots": [
+      {
+       "title": "The steeple",
+       "text": "A thin, pointed spire, like the ones in the Dutch villages where Van Gogh grew up. Church towers in Provence do not look like this."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The village is invented too, or at least moved: it could not be seen from his window. Van Gogh combines a real sky, real hills and a village from memory."
+    },
+    {
+     "type": "fact",
+     "text": "His window at the asylum had iron bars. He left them out of every painting of the view."
+    },
+    {
+     "type": "lines",
+     "text": "The painting looks restless. It is actually carefully built.",
+     "lines": [
+      {
+       "label": "The vertical of the cypress",
+       "text": "It cuts through the whole picture, from the ground to the top edge, and sets the scale: the sky is immense."
+      },
+      {
+       "label": "Its echo: the steeple",
+       "text": "A second, tiny vertical that answers the cypress. One is natural, the other man-made."
+      },
+      {
+       "label": "The wave in the sky",
+       "text": "The eye follows this S from left to right, all the way to the moon."
+      },
+      {
+       "label": "The slope of the hills",
+       "text": "A diagonal that runs down toward the village and shelters it, like an arm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Now look at the brushwork. There are no smooth blends. Short, thick strokes sit side by side, each one pointing in a direction. The brushstroke itself creates the movement."
+    },
+    {
+     "type": "text",
+     "text": "Painters call this thick paint “impasto.” Van Gogh sometimes squeezed color almost straight from the tube. Up close, the surface of the canvas is rough like a relief map."
+    },
+    {
+     "type": "tour",
+     "title": "Up close",
+     "text": "Let's get close to the paint itself.",
+     "spots": [
+      {
+       "title": "The paint",
+       "text": "Look how thick it is: the paint sits in short, heavy strokes, almost in relief. This is called impasto."
+      },
+      {
+       "title": "The cypress",
+       "text": "Dark and twisted like a flame, it links the earth to the sky. In the south of France it is the tree of cemeteries. Van Gogh found it as beautiful as an Egyptian obelisk."
+      },
+      {
+       "title": "The hills",
+       "text": "The Alpilles. They roll like waves, carried along by the same motion as the sky."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The cypress matters. It is the darkest shape in the picture and the only one that touches both the ground and the top of the sky. Van Gogh was fascinated by these trees that summer."
+    },
+    {
+     "type": "palette",
+     "text": "Blue, yellow, and almost nothing else. Tap a color.",
+     "swatches": [
+      {
+       "name": "Deep blue",
+       "text": "The depth of the sky and the hills. Van Gogh used ultramarine and cobalt blue."
+      },
+      {
+       "name": "Light blue",
+       "text": "The swirls. Laid down in thick strokes, it makes the sky turn."
+      },
+      {
+       "name": "Yellow",
+       "text": "The moon, the stars, the windows. A tiny part of the surface, yet it lights up everything."
+      },
+      {
+       "name": "Green-black",
+       "text": "The cypress and the shadows of the village. The darkest mass in the painting."
+      },
+      {
+       "name": "Greenish white",
+       "text": "The halos around the stars: this is what makes them shimmer."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Blue and yellow sit almost opposite each other on the color wheel. Placed side by side, each makes the other look stronger. Van Gogh knew this and used it to make his nights vibrate."
+    },
+    {
+     "type": "key",
+     "text": "Opposite colors placed side by side intensify each other. That is why the yellow stars burn against the blue."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh told his brother he had seen the morning star, very big. Tap the whitest light in the painting.",
+     "spots": [
+      {
+       "title": "The morning star",
+       "text": "The whitest light in the painting. Van Gogh wrote to his brother that he had seen the morning star, very big, before sunrise. It is probably Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "What did he think of the picture? Not much. In his letters he calls it a simple night study, and he doubts these canvases painted from imagination."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh sold almost nothing during his lifetime. His brother Theo, an art dealer, supported him with money and paint."
+    },
+    {
+     "type": "text",
+     "text": "He died thirteen months later, in July 1890, at 37. The Starry Night entered the Museum of Modern Art in New York in 1941."
+    },
+    {
+     "type": "key",
+     "text": "With Van Gogh, the brushstroke is the subject: every stroke has a direction, and that is what sets the sky in motion."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "The swirl",
+       "text": "In the center, two great waves curl into each other. No real sky looks like this: he paints what he feels, not what he sees."
+      },
+      {
+       "title": "The moon",
+       "text": "An orange crescent in a yellow halo. It almost looks like a sun. Van Gogh lays the paint in short strokes that circle around it."
+      },
+      {
+       "title": "The morning star",
+       "text": "The whitest light in the painting. Van Gogh wrote to his brother that he had seen the morning star, very big, before sunrise. It is probably Venus."
+      },
+      {
+       "title": "The cypress",
+       "text": "Dark and twisted like a flame, it links the earth to the sky. In the south of France it is the tree of cemeteries. Van Gogh found it as beautiful as an Egyptian obelisk."
+      },
+      {
+       "title": "The steeple",
+       "text": "A thin, pointed spire, like the ones in the Dutch villages where Van Gogh grew up. Church towers in Provence do not look like this."
+      },
+      {
+       "title": "The village",
+       "text": "A few yellow windows, lit. He could not see this village from his room: he added it from memory."
+      },
+      {
+       "title": "The hills",
+       "text": "The Alpilles. They roll like waves, carried along by the same motion as the sky."
+      },
+      {
+       "title": "The paint",
+       "text": "Look how thick it is: the paint sits in short, heavy strokes, almost in relief. This is called impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Where was Van Gogh when he painted The Starry Night?",
+     "options": [
+      "In Paris",
+      "At the asylum of Saint-Rémy-de-Provence",
+      "In Amsterdam"
+     ],
+     "explanation": "He had checked himself in a month earlier."
+    },
+    {
+     "question": "How was the picture painted?",
+     "options": [
+      "At night, in front of the view",
+      "By day, from memory and imagination",
+      "From a photograph"
+     ],
+     "explanation": "By day, in his studio at the asylum."
+    },
+    {
+     "question": "Which detail recalls the Netherlands?",
+     "options": [
+      "The cypress",
+      "The pointed steeple",
+      "The hills"
+     ],
+     "explanation": "A spire like those of the villages where he grew up."
+    },
+    {
+     "question": "What is “impasto”?",
+     "options": [
+      "Very thick paint, almost in relief",
+      "A thin transparent glaze",
+      "A charcoal sketch"
+     ],
+     "explanation": "Short, heavy strokes that stand up from the canvas."
+    },
+    {
+     "question": "Why do the yellow stars look so bright?",
+     "options": [
+      "They are painted with gold",
+      "Yellow sits next to its opposite, blue",
+      "The canvas is lit from behind"
+     ],
+     "explanation": "Opposite colors side by side intensify each other."
+    },
+    {
+     "question": "What did Van Gogh leave out of his paintings of this view?",
+     "options": [
+      "The bars on his window",
+      "The moon",
+      "The hills"
+     ],
+     "explanation": "His asylum window had iron bars."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh painted The Starry Night outdoors, in the middle of the night.",
+     "explanation": "He painted it by day, from memory, at the asylum of Saint-Rémy."
+    },
+    {
+     "text": "The Starry Night is kept in New York.",
+     "explanation": "It has been at MoMA since 1941."
+    },
+    {
+     "text": "Van Gogh sold many paintings and died rich.",
+     "explanation": "He sold almost nothing; his brother Theo supported him."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Girl with a Pearl Earring",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "c. 1665",
+   "museum": "Mauritshuis, The Hague",
+   "teaser": "A glance over the shoulder, and nobody knows who she is.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "You know this face. But it is not a portrait: nobody knows who she is, and Vermeer probably never meant to paint anyone in particular."
+    },
+    {
+     "type": "text",
+     "text": "In the 17th-century Netherlands, this kind of picture had a name: a “tronie,” a study of a face. The painter uses it to explore an expression, an exotic costume, an effect of light. Here, all three at once."
+    },
+    {
+     "type": "key",
+     "text": "A tronie is an imagined face, an excuse to paint an expression and a light. It is not the portrait of a real person."
+    },
+    {
+     "type": "tour",
+     "text": "First, look at the whole painting: a face emerging from the dark. Tap to move closer.",
+     "spots": [
+      {
+       "title": "The gaze",
+       "text": "She turns toward you as if you had just called her name. A single white dot in each eye is enough to make it look wet and alive."
+      },
+      {
+       "title": "The mouth",
+       "text": "Slightly open, as if mid-sentence. Look at the tiny bright dot at the corner of the lips: one touch of paint, and the mouth glistens."
+      },
+      {
+       "title": "The pearl",
+       "text": "Two strokes, no more: a white highlight on top, a gray reflection of the collar below. No outline, no hook. Your eye builds the pearl."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The whole picture rests on one movement: she turns. Her body is in profile, her face comes toward us. It feels like we have caught her by surprise, or like she is about to leave. That is what makes her so alive."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer lived his entire life in Delft, a small Dutch town. He painted slowly, had eleven children to feed, and died in debt at 43."
+    },
+    {
+     "type": "text",
+     "text": "Notice the turban. No Dutch girl dressed like this. It is a costume, a touch of the faraway East that painters of the time found fascinating."
+    },
+    {
+     "type": "find",
+     "text": "One light source falls on her face. Where does it land? Tap the brightest part of her face.",
+     "spots": [
+      {
+       "title": "The cheek",
+       "text": "The light comes from the left, slightly above. It hits the forehead, the cheek and the nose, then lets the other half of the face slip into shadow."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer draws almost no outlines. Look at the bridge of the nose: there is no line, only a bright cheek meeting a shadow. The face is made of light, not of lines."
+    },
+    {
+     "type": "key",
+     "text": "Light from the left, soft shadows, no hard outlines: that is Vermeer's signature look."
+    },
+    {
+     "type": "lines",
+     "text": "How does such a simple picture hold together? Three lines explain it.",
+     "lines": [
+      {
+       "label": "The light",
+       "text": "It arrives from the upper left, as if from a window we cannot see."
+      },
+      {
+       "label": "The triangle",
+       "text": "From the top of the turban to both shoulders: a stable, grounded shape that steadies the turn of the head."
+      },
+      {
+       "label": "The fall",
+       "text": "The yellow cloth drops on the right and balances the face turned to the left."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Now, the blue. Vermeer used natural ultramarine, made by grinding lapis lazuli. Most painters saved it for the Virgin Mary's robe because it was so expensive. He put it everywhere, even in the shadows."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli came from mines in what is now Afghanistan. The name “ultramarine” means “from beyond the sea.”"
+    },
+    {
+     "type": "palette",
+     "text": "Five colors make up almost the whole painting. Tap one to see where it hides.",
+     "swatches": [
+      {
+       "name": "The dark background",
+       "text": "More than half of the surface. Once a deep green curtain, now almost black."
+      },
+      {
+       "name": "Ultramarine",
+       "text": "The blue of lapis lazuli. It takes up very little room, yet it is all we see."
+      },
+      {
+       "name": "Brown ocher",
+       "text": "The shadows of the jacket and of the yellow cloth: a warm, inexpensive earth color."
+      },
+      {
+       "name": "The pink of the skin",
+       "text": "The brightest part of the painting. Our eyes go there first."
+      },
+      {
+       "name": "Yellow",
+       "text": "On the jacket and the fall of the turban. It answers the blue."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In 1994, the painting was restored. Under a yellowed varnish, the restorers found fresher colors, and that small bright dot at the corner of the lips that nobody could see anymore."
+    },
+    {
+     "type": "text",
+     "text": "And the background? Today it looks flat and black. Scientific analysis has shown that Vermeer painted a dark green curtain there. The green pigments broke down with time."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer signed this painting. But where? Look closely, it is almost invisible.",
+     "spots": [
+      {
+       "title": "The signature",
+       "text": "“IVMeer,” top left. Painted in a light tone on the dark background, it has almost faded away over time."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Is the pearl even a pearl? It is huge. Some experts think it was varnished glass or polished tin. It hardly matters: in paint, it is a drop of light, and that is all Vermeer wanted."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer does not paint objects. He paints the light that falls on them. The pearl is two touches of white."
+    },
+    {
+     "type": "text",
+     "text": "We know of only about 37 paintings by Vermeer. After his death he was nearly forgotten for two centuries."
+    },
+    {
+     "type": "fact",
+     "text": "In 1881, a collector bought this painting at auction for two guilders, next to nothing. He left it to the Mauritshuis museum in 1902."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "The gaze",
+       "text": "She turns toward you as if you had just called her name. A single white dot in each eye is enough to make it look wet and alive."
+      },
+      {
+       "title": "The mouth",
+       "text": "Slightly open, as if mid-sentence. Look at the tiny bright dot at the corner of the lips: one touch of paint, and the mouth glistens."
+      },
+      {
+       "title": "The pearl",
+       "text": "Two strokes, no more: a white highlight on top, a gray reflection of the collar below. No outline, no hook. Your eye builds the pearl."
+      },
+      {
+       "title": "The blue turban",
+       "text": "Real ultramarine, made from lapis lazuli, a stone brought all the way from Afghanistan. Back then, this pigment cost more than gold."
+      },
+      {
+       "title": "The yellow fall",
+       "text": "The yellow cloth drops down her back like a flame. Blue and yellow: Vermeer loved this pair and used it in painting after painting."
+      },
+      {
+       "title": "The white collar",
+       "text": "A band of white laid down in a single gesture. It is the collar that reflects in the bottom of the pearl."
+      },
+      {
+       "title": "The signature",
+       "text": "“IVMeer,” top left. Painted in a light tone on the dark background, it has almost faded away over time."
+      },
+      {
+       "title": "The background",
+       "text": "It was not always black. Analysis shows Vermeer painted a dark green curtain here. The green has vanished over the centuries."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What is a “tronie”?",
+     "options": [
+      "A commissioned portrait",
+      "A study of an imagined face",
+      "A self-portrait"
+     ],
+     "explanation": "An excuse to paint an expression and a light, not a real person."
+    },
+    {
+     "question": "Where does the blue of the turban come from?",
+     "options": [
+      "A plant, indigo",
+      "A stone, lapis lazuli",
+      "A seashell"
+     ],
+     "explanation": "Ground lapis lazuli gives natural ultramarine, costlier than gold at the time."
+    },
+    {
+     "question": "How is the pearl painted?",
+     "options": [
+      "With a precise outline and a hook",
+      "With two light touches and no outline",
+      "With silver leaf"
+     ],
+     "explanation": "A white highlight, a gray reflection: your eye does the rest."
+    },
+    {
+     "question": "Where does the light come from?",
+     "options": [
+      "From the left",
+      "From the right",
+      "From below"
+     ],
+     "explanation": "From the upper left, as if from an unseen window."
+    },
+    {
+     "question": "What was the background originally?",
+     "options": [
+      "A dark green curtain",
+      "A window",
+      "A gold wall"
+     ],
+     "explanation": "The green pigments broke down over the centuries."
+    },
+    {
+     "question": "Where did Vermeer spend his whole life?",
+     "options": [
+      "Amsterdam",
+      "Delft",
+      "The Hague"
+     ],
+     "explanation": "He lived and worked in the small town of Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "We know the name of the girl who posed.",
+     "explanation": "Her identity is unknown: the painting is a tronie."
+    },
+    {
+     "text": "The blue of the turban comes from a stone, lapis lazuli.",
+     "explanation": "Ground up, it gives natural ultramarine."
+    },
+    {
+     "text": "The pearl is painted with a careful, detailed outline.",
+     "explanation": "It is just two touches of light paint, with no outline at all."
+    }
+   ]
+  },
+  "vague": {
+   "title": "The Great Wave off Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "c. 1831",
+   "museum": "Woodblock print · many impressions",
+   "teaser": "A giant wave, and far in the back, tiny, Mount Fuji.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "This is not a painting. It is a print: an image carved into blocks of wood, inked, then pressed onto paper. So there is not one Great Wave. There are thousands."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai published it around 1831. He was about 70 and had been drawing since childhood. It opens a series that became famous: Thirty-Six Views of Mount Fuji."
+    },
+    {
+     "type": "key",
+     "text": "The Great Wave is a woodblock print, made in thousands of copies. Many museums around the world own one."
+    },
+    {
+     "type": "fact",
+     "text": "A print like this was cheap. In Hokusai's day it cost about as much as a bowl of noodles."
+    },
+    {
+     "type": "find",
+     "text": "The series is called Thirty-Six Views of Mount Fuji. So where is Mount Fuji?",
+     "spots": [
+      {
+       "title": "Mount Fuji",
+       "text": "The real subject of the print is here, tiny. Japan's sacred mountain, capped with snow, perfectly still in the middle of the storm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "That is the stroke of genius: the tallest mountain in Japan is smaller than the wave. Hokusai plays with distance. What is near crushes what is far, like in a wide-angle photograph."
+    },
+    {
+     "type": "text",
+     "text": "Mount Fuji was sacred. People believed it held the secret of immortality. Hokusai was obsessed with it and drew it from every angle, in every kind of weather."
+    },
+    {
+     "type": "tour",
+     "text": "Let's travel across the image the way the eye does.",
+     "spots": [
+      {
+       "title": "The foam",
+       "text": "Look at the tip of the wave: the foam ends in hooked fingers, like claws about to close on the boats."
+      },
+      {
+       "title": "The rowers",
+       "text": "Fishermen bent over their oars, heads down. These fast boats carried fresh fish to Edo, the city we now call Tokyo."
+      },
+      {
+       "title": "The small wave",
+       "text": "In the foreground, a smaller wave. Look at its shape: pointed, white at the top. It is a second Mount Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In Japan, people read from right to left. So the eye enters on the right, with the boats, and runs straight into the wave. For a Japanese viewer, the wave comes head-on."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai changed his name more than thirty times in his life. One of his last names meant “Old Man Mad About Drawing.”"
+    },
+    {
+     "type": "lines",
+     "text": "A simple image, calculated to the millimeter.",
+     "lines": [
+      {
+       "label": "The curve",
+       "text": "The wave draws a great arc that closes in on itself. The whole left side of the image is caught inside it."
+      },
+      {
+       "label": "Fuji's triangle",
+       "text": "Small, stable, pointed. It sits exactly in the hollow of the wave."
+      },
+      {
+       "label": "Its double",
+       "text": "The small foreground wave repeats the shape of the mountain. Water imitates stone."
+      },
+      {
+       "label": "The reading direction",
+       "text": "From right to left: we slide along the swell to Fuji, then look up at the wave."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "How was it made? Hokusai drew the image on thin paper. A carver glued the drawing to a block of cherry wood and cut away everything that was not a line. Then a printer inked the block and pressed the paper onto it."
+    },
+    {
+     "type": "text",
+     "text": "Each color needed its own carved block, printed one after the other on the same sheet. That is why prints use so few colors."
+    },
+    {
+     "type": "key",
+     "text": "One woodblock per color: the fewer the colors, the simpler the print. Hokusai turns that limit into a style."
+    },
+    {
+     "type": "palette",
+     "text": "Very few colors, because each one needs its own carved block. Tap one.",
+     "swatches": [
+      {
+       "name": "The paper",
+       "text": "The most common color is not printed at all: it is the bare paper, left blank for the foam and the snow."
+      },
+      {
+       "name": "Prussian blue",
+       "text": "The blue from Europe. It draws the wave, its stripes and its hollows."
+      },
+      {
+       "name": "Light blue",
+       "text": "The same blue, diluted. It gives the water its volume."
+      },
+      {
+       "name": "The tinted sky",
+       "text": "A beige barely darker than the paper, which makes the white foam stand out."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "About that blue. It is Prussian blue, a chemical pigment invented in Europe and newly imported into Japan. It is deep, it does not fade, and it caused a sensation. The series owes much of its success to it."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai signed his image. Where? Hint: not in the bottom right corner.",
+     "spots": [
+      {
+       "title": "The cartouche",
+       "text": "Inside the frame: the title of the series and of the image, “Under the Wave off Kanagawa.” To its left: Hokusai's signature."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In the 1850s Japan opened to trade, and its prints reached Europe. French painters were stunned: flat areas of color, crisp outlines, daring crops. Monet collected them. Van Gogh copied them."
+    },
+    {
+     "type": "key",
+     "text": "This craze is called Japonisme. Without Japanese prints, Impressionism would not have looked the same."
+    },
+    {
+     "type": "text",
+     "text": "One last thing: this is not a tsunami. It is a wave of the open sea, enormous but ordinary, the kind fishermen feared. Hokusai is not showing a disaster. He is showing tiny men facing nature."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Mount Fuji",
+       "text": "The real subject of the print is here, tiny. Japan's sacred mountain, capped with snow, perfectly still in the middle of the storm."
+      },
+      {
+       "title": "The foam",
+       "text": "Look at the tip of the wave: the foam ends in hooked fingers, like claws about to close on the boats."
+      },
+      {
+       "title": "The rowers",
+       "text": "Fishermen bent over their oars, heads down. These fast boats carried fresh fish to Edo, the city we now call Tokyo."
+      },
+      {
+       "title": "The small wave",
+       "text": "In the foreground, a smaller wave. Look at its shape: pointed, white at the top. It is a second Mount Fuji."
+      },
+      {
+       "title": "The cartouche",
+       "text": "Inside the frame: the title of the series and of the image, “Under the Wave off Kanagawa.” To its left: Hokusai's signature."
+      },
+      {
+       "title": "The lower boat",
+       "text": "It dives into the trough. There are three boats in all, and about thirty men."
+      },
+      {
+       "title": "The sky",
+       "text": "Nearly empty. A simple gradient, made by wiping the ink on the woodblock before printing."
+      },
+      {
+       "title": "The spray",
+       "text": "White dots fall above Fuji. They look like snow on the mountain."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What is The Great Wave?",
+     "options": [
+      "An oil painting",
+      "A woodblock print",
+      "A watercolor"
+     ],
+     "explanation": "A print, made in thousands of copies."
+    },
+    {
+     "question": "Which series does it belong to?",
+     "options": [
+      "One Hundred Views of Edo",
+      "Thirty-Six Views of Mount Fuji",
+      "The Four Seasons"
+     ],
+     "explanation": "It opens Hokusai's series on Mount Fuji."
+    },
+    {
+     "question": "Where does the blue of the wave come from?",
+     "options": [
+      "Lapis lazuli",
+      "Prussian blue, imported from Europe",
+      "Crushed seashells"
+     ],
+     "explanation": "A chemical pigment that was new in Japan, deep and stable."
+    },
+    {
+     "question": "What shape does the small foreground wave repeat?",
+     "options": [
+      "Mount Fuji",
+      "A boat",
+      "A cloud"
+     ],
+     "explanation": "Water imitates the mountain."
+    },
+    {
+     "question": "Why do prints use so few colors?",
+     "options": [
+      "Colors were forbidden",
+      "Each color needs its own carved block",
+      "Paper could not hold ink"
+     ],
+     "explanation": "One block per color, printed one after another."
+    },
+    {
+     "question": "What is the European craze for Japanese prints called?",
+     "options": [
+      "Japonisme",
+      "Orientalism",
+      "Cubism"
+     ],
+     "explanation": "Monet collected the prints; Van Gogh copied them."
+    }
+   ],
+   "facts": [
+    {
+     "text": "There is only one copy of The Great Wave.",
+     "explanation": "It is a print: thousands of copies were made."
+    },
+    {
+     "text": "Hokusai was about 70 when he made it.",
+     "explanation": "He was born in 1760 and the series appeared around 1831."
+    },
+    {
+     "text": "The Great Wave shows a tsunami.",
+     "explanation": "It is a large wave of the open sea, not a tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Water Lilies",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "No horizon left: only water, flowers and the sky reflected in it.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "At Giverny, Monet had a pond dug in his garden and planted water lilies in it. That pond became his subject for nearly thirty years."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · the flowers resting on the water."
+    },
+    {
+     "type": "text",
+     "text": "Look closely: there is no bank and no horizon. You can no longer tell where the water ends and the reflection of the sky begins."
+    },
+    {
+     "type": "key",
+     "text": "Without a horizon, the painting becomes a surface: we look at the water the way we would look at the sky."
+    },
+    {
+     "type": "fact",
+     "text": "Monet employed gardeners to look after the pond. One of them cleaned the surface of the water every morning before he started painting."
+    },
+    {
+     "type": "text",
+     "text": "Monet painted about 250 canvases of water lilies. The same flowers, but never the same light."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Where did Monet paint his water lilies?",
+     "options": [
+      "At Giverny",
+      "In Paris",
+      "In Venice"
+     ],
+     "explanation": "In the garden of his own house."
+    },
+    {
+     "question": "What is missing from this painting?",
+     "options": [
+      "The water",
+      "The horizon",
+      "The flowers"
+     ],
+     "explanation": "No bank, no sky: only the surface of the water."
+    },
+    {
+     "question": "How many water lily paintings did he make?",
+     "options": [
+      "About ten",
+      "About 250",
+      "More than 2,000"
+     ],
+     "explanation": "A huge series, over nearly thirty years."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet painted his water lilies only once.",
+     "explanation": "He painted about 250 versions."
+    },
+    {
+     "text": "The water lily pond was in Monet's own garden.",
+     "explanation": "At Giverny, where he had it dug."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impression, Sunrise",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Paris",
+   "teaser": "The painting that gave a whole movement its name, as a joke.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "The port of Le Havre, on a misty morning. Monet lays down a few quick strokes: boats, masts, and an orange sun."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · the sun and its reflection."
+    },
+    {
+     "type": "text",
+     "text": "In 1874, the canvas was shown in Paris. A critic, Louis Leroy, made fun of the title and called these painters “Impressionists.”"
+    },
+    {
+     "type": "key",
+     "text": "The word “Impressionism” comes from this painting. It started as an insult and became a name."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre is the town where Monet grew up. As a teenager he was known there for his caricatures."
+    },
+    {
+     "type": "text",
+     "text": "The painting was also stolen, in 1985, from the Marmottan museum. It was found five years later."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Which port did Monet paint?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Venice"
+     ],
+     "explanation": "The town where he grew up."
+    },
+    {
+     "question": "What did this painting give its name to?",
+     "options": [
+      "Impressionism",
+      "A museum",
+      "A prize"
+     ],
+     "explanation": "A critic mocked the title, and the word stuck."
+    },
+    {
+     "question": "In what year was it shown in Paris?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "A critic, Louis Leroy, mocked it that year."
+    }
+   ],
+   "facts": [
+    {
+     "text": "The word “Impressionist” started out as an insult.",
+     "explanation": "It comes from an article by the critic Louis Leroy."
+    },
+    {
+     "text": "This painting shows the port of Marseille.",
+     "explanation": "It is the port of Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "The Kiss",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Vienna",
+   "teaser": "Two lovers wrapped in gold, at the edge of a flowering meadow.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt is at the height of his “Golden Period.” He applies real gold leaf to the canvas, as on a religious icon."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · the two faces."
+    },
+    {
+     "type": "text",
+     "text": "Look at the clothes. His robe is covered in black and white rectangles. Hers is covered in circles and flowers."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · rectangles and circles."
+    },
+    {
+     "type": "key",
+     "text": "Rectangles for him, circles for her: the patterns tell the story of the couple."
+    },
+    {
+     "type": "fact",
+     "text": "Klimt's father was a gold engraver. The painter grew up around the metal he would later put on his canvases."
+    },
+    {
+     "type": "text",
+     "text": "The Austrian state bought the painting in 1908, before it was even completely finished."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What material did Klimt use?",
+     "options": [
+      "Mother-of-pearl",
+      "Gold leaf",
+      "Bronze"
+     ],
+     "explanation": "It is the mark of his Golden Period."
+    },
+    {
+     "question": "Which patterns cover the man's robe?",
+     "options": [
+      "Circles",
+      "Flowers",
+      "Rectangles"
+     ],
+     "explanation": "The circles and flowers are for the woman."
+    },
+    {
+     "question": "Who bought the painting in 1908?",
+     "options": [
+      "The Austrian state",
+      "A French collector",
+      "Klimt's father"
+     ],
+     "explanation": "Before it was even completely finished."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt used real gold leaf.",
+     "explanation": "As in several canvases of his Golden Period."
+    },
+    {
+     "text": "The Kiss is kept in Paris.",
+     "explanation": "It is in Vienna, at the Belvedere."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Sunflowers",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, London",
+   "teaser": "Yellow on yellow: a bouquet painted to welcome a friend.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "August 1888, in Arles. Van Gogh is waiting for his friend Paul Gauguin and wants to decorate his room with sunflowers."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · flowers at every stage."
+    },
+    {
+     "type": "text",
+     "text": "He dares to use almost a single color: yellow flowers, yellow vase, yellow background. Everything depends on the shades and on the thickness of the paint."
+    },
+    {
+     "type": "key",
+     "text": "An almost monochrome painting: yellow in all its forms."
+    },
+    {
+     "type": "fact",
+     "text": "Sunflowers wilt fast. Van Gogh had to paint quickly, starting at sunrise, before the flowers drooped."
+    },
+    {
+     "type": "text",
+     "text": "There are several versions of these sunflowers. Some flowers are still in bud, others already wilted: the bouquet also tells the passing of time."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Whose room were the sunflowers meant to decorate?",
+     "options": [
+      "Paul Gauguin's",
+      "Claude Monet's",
+      "His brother Theo's"
+     ],
+     "explanation": "Van Gogh was waiting for him in Arles."
+    },
+    {
+     "question": "In which town did he paint them?",
+     "options": [
+      "Paris",
+      "Arles",
+      "Amsterdam"
+     ],
+     "explanation": "In the south of France, in August 1888."
+    },
+    {
+     "question": "What is unusual about the colors?",
+     "options": [
+      "Almost everything is yellow",
+      "There is no yellow at all",
+      "It is black and white"
+     ],
+     "explanation": "Yellow flowers, yellow vase, yellow background."
+    }
+   ],
+   "facts": [
+    {
+     "text": "There are several versions of the Sunflowers.",
+     "explanation": "Van Gogh painted a whole series."
+    },
+    {
+     "text": "Van Gogh sold his Sunflowers for a fortune during his lifetime.",
+     "explanation": "He sold almost nothing during his lifetime."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "c. 1503–1519",
+   "museum": "Louvre Museum, Paris",
+   "teaser": "The most famous smile in the world depends on outlines you cannot see.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "It is the most famous painting in the world, and it is small: 77 by 53 centimeters, about 30 by 21 inches, painted on a panel of poplar wood. Many visitors to the Louvre are surprised by its size."
+    },
+    {
+     "type": "text",
+     "text": "Around 1503, in Florence, a silk merchant named Francesco del Giocondo asked Leonardo da Vinci to paint his wife, Lisa Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "The Mona Lisa is a portrait of Lisa Gherardini, the wife of a Florentine merchant. “Mona” simply means “Madam.”"
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo was not only a painter. He was also an engineer, an anatomist and an inventor, and he left thousands of notebook pages written in mirror writing."
+    },
+    {
+     "type": "tour",
+     "text": "Look at her as a whole. Then come closer to what made her a legend.",
+     "spots": [
+      {
+       "title": "The smile",
+       "text": "Look for the line that draws the lips: there isn't one. The corners of the mouth dissolve into shadow. That is why the smile seems to change."
+      },
+      {
+       "title": "The eyes",
+       "text": "Same trick: the corners of the eyes melt into shadow. Notice, too, that she has no eyebrows and no eyelashes."
+      },
+      {
+       "title": "The hands",
+       "text": "Resting one on the other, relaxed. Leonardo dissected bodies to understand bones and muscles: these hands have weight."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "This blur has a name: sfumato, from the Italian “fumo,” smoke. Leonardo stacks dozens of very thin, almost transparent layers of paint. Outlines disappear and shapes melt into each other."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato means soft, smoky outlines. It is what makes the smile impossible to pin down."
+    },
+    {
+     "type": "text",
+     "text": "Try it yourself. Look at her eyes, and the mouth seems to smile. Look straight at the mouth, and the smile fades. The shadows at the corners do the work."
+    },
+    {
+     "type": "find",
+     "text": "Something is missing from this face. Tap the place where it should be.",
+     "spots": [
+      {
+       "title": "The eyebrows",
+       "text": "She has no eyebrows and no eyelashes. Fashion of the time, or paint worn away by old cleanings? Experts still argue about it."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Now look at the pose. Before Leonardo, portraits were mostly shown in profile, or cut off at the chest. He shows the figure down to the waist, turned three-quarters toward us, hands included."
+    },
+    {
+     "type": "fact",
+     "text": "The young painter Raphael saw the portrait in Leonardo's studio and immediately copied the pose in his own works."
+    },
+    {
+     "type": "lines",
+     "text": "A calm pose, a strange landscape. See how it is all built.",
+     "lines": [
+      {
+       "label": "The pyramid",
+       "text": "The head at the top, the arms and hands at the base. A wide, stable shape: she is not moving, she is settled."
+      },
+      {
+       "label": "The horizon on the left",
+       "text": "On the left, the waterline of the landscape sits about here."
+      },
+      {
+       "label": "The horizon on the right",
+       "text": "On the right, it is higher. The two halves of the landscape do not match up, and part of the picture's strangeness comes from that."
+      },
+      {
+       "label": "The path",
+       "text": "A winding line that leads the eye into the distance, like the rivers on the right side."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The landscape is not a real place. It is a dream world of rocks, water and mist, with no houses and no people. Only one thing in it was built by human hands."
+    },
+    {
+     "type": "find",
+     "text": "In this empty landscape, there is a single man-made structure. Where is the bridge?",
+     "spots": [
+      {
+       "title": "The bridge",
+       "text": "A small stone bridge with several arches. It is the only sign of human presence in the whole landscape."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "The background follows a rule Leonardo wrote down himself: atmospheric perspective. Air is not perfectly clear. The farther away something is, the bluer, paler and hazier it looks."
+    },
+    {
+     "type": "key",
+     "text": "Atmospheric perspective: distant things look bluer, paler and blurrier. Leonardo was among the first to paint it on purpose."
+    },
+    {
+     "type": "palette",
+     "text": "Browns, greens, a little gold. Old varnish has yellowed everything. Tap a color.",
+     "swatches": [
+      {
+       "name": "The shadows",
+       "text": "The dress, the hair, the veil. Nearly half the painting is in half-light."
+      },
+      {
+       "name": "The skin",
+       "text": "The face, the chest, the hands: the three bright spots, arranged in a triangle."
+      },
+      {
+       "name": "The gray-green sky",
+       "text": "Originally bluer. The yellowed varnish has pushed it toward green."
+      },
+      {
+       "name": "The brown earth",
+       "text": "The rocks and paths of the landscape, on either side of her shoulders."
+      },
+      {
+       "name": "The green distance",
+       "text": "The water and the mountains, softened by distance."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo never delivered the painting. He kept it, reworked it for years, and took it with him to France when King Francis I invited him there. When he died in 1519, the portrait entered the royal collection. That is why it is in the Louvre."
+    },
+    {
+     "type": "text",
+     "text": "For a long time it was one masterpiece among others. Its worldwide fame comes from a crime: on August 21, 1911, an Italian workman, Vincenzo Peruggia, lifted it off the wall and walked out with it under his smock."
+    },
+    {
+     "type": "fact",
+     "text": "While the painting was missing, crowds lined up at the Louvre just to look at the empty space on the wall."
+    },
+    {
+     "type": "text",
+     "text": "Newspapers around the world printed her picture. When she was found in Florence in 1913, the Mona Lisa was no longer just a painting. She was a star."
+    },
+    {
+     "type": "key",
+     "text": "The Mona Lisa owes her genius to Leonardo, and her fame to a theft."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "The smile",
+       "text": "Look for the line that draws the lips: there isn't one. The corners of the mouth dissolve into shadow. That is why the smile seems to change."
+      },
+      {
+       "title": "The eyes",
+       "text": "Same trick: the corners of the eyes melt into shadow. Notice, too, that she has no eyebrows and no eyelashes."
+      },
+      {
+       "title": "The hands",
+       "text": "Resting one on the other, relaxed. Leonardo dissected bodies to understand bones and muscles: these hands have weight."
+      },
+      {
+       "title": "The bridge",
+       "text": "A small stone bridge with several arches. It is the only sign of human presence in the whole landscape."
+      },
+      {
+       "title": "The path",
+       "text": "A path winding toward a lake. The landscape is not a real place: Leonardo invents it from his studies of rocks and water."
+      },
+      {
+       "title": "The veil",
+       "text": "A transparent veil covers her hair. It is so fine you can barely make it out on her forehead."
+      },
+      {
+       "title": "The distance",
+       "text": "The farther away the mountains are, the bluer and hazier they get. Leonardo noticed that air itself has a color."
+      },
+      {
+       "title": "The sleeve",
+       "text": "Tight golden folds, painted one by one. The dress is dark and she wears no jewelry: nothing should distract from the face."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Who is the woman in the portrait?",
+     "options": [
+      "A queen of France",
+      "Lisa Gherardini, wife of a Florentine merchant",
+      "Leonardo's mother"
+     ],
+     "explanation": "Her husband, Francesco del Giocondo, ordered the portrait."
+    },
+    {
+     "question": "What is the technique of soft, smoky outlines called?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointillism"
+     ],
+     "explanation": "From “fumo,” Italian for smoke."
+    },
+    {
+     "question": "What is the Mona Lisa painted on?",
+     "options": [
+      "A linen canvas",
+      "A panel of poplar wood",
+      "A plaster wall"
+     ],
+     "explanation": "A poplar panel of 77 by 53 centimeters."
+    },
+    {
+     "question": "What happens to things in the distance?",
+     "options": [
+      "They get more vivid",
+      "They get bluer, paler and hazier",
+      "Their outlines get sharper"
+     ],
+     "explanation": "That is atmospheric perspective."
+    },
+    {
+     "question": "Why is the painting in France?",
+     "options": [
+      "Napoleon took it from Italy",
+      "Leonardo brought it and it entered the royal collection",
+      "The Louvre bought it in 1911"
+     ],
+     "explanation": "Leonardo came to France at the invitation of King Francis I."
+    },
+    {
+     "question": "What made the Mona Lisa world-famous?",
+     "options": [
+      "Its theft from the Louvre in 1911",
+      "An exhibition in New York",
+      "Its restoration"
+     ],
+     "explanation": "Stolen by Vincenzo Peruggia, found in 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "The Mona Lisa is painted on canvas.",
+     "explanation": "It is painted on a panel of poplar wood."
+    },
+    {
+     "text": "The Mona Lisa was stolen from the Louvre in 1911.",
+     "explanation": "It was found two years later."
+    },
+    {
+     "text": "The Mona Lisa has thick, dark eyebrows.",
+     "explanation": "She has no eyebrows or eyelashes at all."
+    }
+   ]
+  }
+ }
+}

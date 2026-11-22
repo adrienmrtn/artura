@@ -8,6 +8,15 @@ struct FeedFilter: Hashable {
         case all = "Everything"
         case unread = "Not read yet"
         case read = "Already read"
+
+        /// Label shown on screen (the raw value is an identifier).
+        var label: String {
+            switch self {
+            case .all: return L("Everything")
+            case .unread: return L("Not read yet")
+            case .read: return L("Already read")
+            }
+        }
     }
 
     var movementId: String?
@@ -42,15 +51,14 @@ struct FeedFilter: Hashable {
 
     /// "19th century".
     static func label(forCentury century: Int) -> String {
-        let suffix: String
+        // L: "%@" is the century number; the English ordinal suffix (st, nd, rd, th) depends on it.
         switch (century % 10, century % 100) {
-        case (_, 11), (_, 12), (_, 13): suffix = "th"
-        case (1, _): suffix = "st"
-        case (2, _): suffix = "nd"
-        case (3, _): suffix = "rd"
-        default: suffix = "th"
+        case (_, 11), (_, 12), (_, 13): return L("%@th century", "\(century)")
+        case (1, _): return L("%@st century", "\(century)")
+        case (2, _): return L("%@nd century", "\(century)")
+        case (3, _): return L("%@rd century", "\(century)")
+        default: return L("%@th century", "\(century)")
         }
-        return "\(century)\(suffix) century"
     }
 }
 
@@ -146,10 +154,10 @@ struct FeedFilterSheet: View {
     var body: some View {
         VStack(spacing: 0) {
             HStack {
-                Text("Filter your feed").font(.aTitleSmall).foregroundStyle(Palette.ink)
+                Text(L("Filter your feed")).font(.aTitleSmall).foregroundStyle(Palette.ink)
                 Spacer()
                 if draft.isActive {
-                    Button("Reset") {
+                    Button(L("Reset")) {
                         Haptics.tap()
                         withAnimation(.snappy) { draft = FeedFilter() }
                     }
@@ -164,30 +172,30 @@ struct FeedFilterSheet: View {
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 22) {
-                    section("Movement") {
+                    section(L("Movement")) {
                         ForEach(content.movements) { movement in
                             FilterChip(title: movement.name, selected: draft.movementId == movement.id) {
                                 draft.movementId = draft.movementId == movement.id ? nil : movement.id
                             }
                         }
                     }
-                    section("Period") {
+                    section(L("Period")) {
                         ForEach(centuries, id: \.self) { century in
                             FilterChip(title: FeedFilter.label(forCentury: century), selected: draft.century == century) {
                                 draft.century = draft.century == century ? nil : century
                             }
                         }
                     }
-                    section("Artist") {
+                    section(L("Artist")) {
                         ForEach(artists, id: \.self) { artist in
                             FilterChip(title: artist, selected: draft.artist == artist) {
                                 draft.artist = draft.artist == artist ? nil : artist
                             }
                         }
                     }
-                    section("Show") {
+                    section(L("Show")) {
                         ForEach(FeedFilter.Status.allCases, id: \.rawValue) { status in
-                            FilterChip(title: status.rawValue, selected: draft.status == status) {
+                            FilterChip(title: status.label, selected: draft.status == status) {
                                 draft.status = status
                             }
                         }
@@ -199,7 +207,7 @@ struct FeedFilterSheet: View {
             }
             .scrollIndicators(.hidden)
 
-            Button(matchCount == 0 ? "No artwork matches" : "Show \(matchCount) artwork\(matchCount == 1 ? "" : "s")") {
+            Button(matchCount == 0 ? L("No artwork matches") : (matchCount == 1 ? L("Show 1 artwork") : L("Show %@ artworks", "\(matchCount)"))) {
                 Haptics.press()
                 filter = draft
                 dismiss()
@@ -255,7 +263,7 @@ struct FeedSearchSheet: View {
         VStack(alignment: .leading, spacing: 16) {
             HStack(spacing: 10) {
                 Image(systemName: "magnifyingglass").foregroundStyle(Palette.ink)
-                TextField("Artwork, artist, movement…", text: $query)
+                TextField(L("Artwork, artist, movement…"), text: $query)
                     .font(.figtree(16))
                     .foregroundStyle(Palette.ink)
                     .autocorrectionDisabled()
@@ -268,7 +276,7 @@ struct FeedSearchSheet: View {
                     } label: {
                         Image(systemName: "xmark.circle.fill").foregroundStyle(Palette.muted)
                     }
-                    .accessibilityLabel("Clear search")
+                    .accessibilityLabel(L("Clear search"))
                 }
             }
             .padding(.horizontal, 16)
@@ -282,7 +290,7 @@ struct FeedSearchSheet: View {
                     if trimmed.isEmpty {
                         suggestions
                     } else if results.isEmpty {
-                        Text("No artwork matches “\(trimmed)”.")
+                        Text(L("No artwork matches “%@”.", trimmed))
                             .font(.aBody).foregroundStyle(Palette.muted)
                             .padding(.top, 12)
                     } else {
@@ -309,7 +317,7 @@ struct FeedSearchSheet: View {
 
     @ViewBuilder
     private var suggestions: some View {
-        Text("Browse by movement").font(.aHeading).foregroundStyle(Palette.ink)
+        Text(L("Browse by movement")).font(.aHeading).foregroundStyle(Palette.ink)
         ChipFlow(spacing: 8) {
             ForEach(content.movements) { movement in
                 FilterChip(title: movement.name, selected: false) {
@@ -321,7 +329,7 @@ struct FeedSearchSheet: View {
             }
         }
         if !recent.isEmpty {
-            Text("Recently opened").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 8)
+            Text(L("Recently opened")).font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 8)
             ForEach(recent) { art in
                 ArtworkRow(artwork: art, done: user.profile.completedLessons.contains(art.id)) {
                     course = art

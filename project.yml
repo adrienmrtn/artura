@@ -43,6 +43,36 @@ targets:
       - path: Artura/Widget/DailyArtwork.swift
       - path: Artura/Widget/DailyArtworkWidgetView.swift
       - path: Artura/Resources/content.json
+      - path: Artura/Core/Localization.swift
+      - path: Artura/Resources/content.ar.json
+      - path: Artura/Resources/content.bg.json
+      - path: Artura/Resources/content.cs.json
+      - path: Artura/Resources/content.da.json
+      - path: Artura/Resources/content.de.json
+      - path: Artura/Resources/content.el.json
+      - path: Artura/Resources/content.es.json
+      - path: Artura/Resources/content.et.json
+      - path: Artura/Resources/content.fi.json
+      - path: Artura/Resources/content.fr.json
+      - path: Artura/Resources/content.he.json
+      - path: Artura/Resources/content.hr.json
+      - path: Artura/Resources/content.hu.json
+      - path: Artura/Resources/content.it.json
+      - path: Artura/Resources/content.ja.json
+      - path: Artura/Resources/content.lt.json
+      - path: Artura/Resources/content.lv.json
+      - path: Artura/Resources/content.nb.json
+      - path: Artura/Resources/content.nl.json
+      - path: Artura/Resources/content.pl.json
+      - path: Artura/Resources/content.pt-BR.json
+      - path: Artura/Resources/content.pt-PT.json
+      - path: Artura/Resources/content.ro.json
+      - path: Artura/Resources/content.ru.json
+      - path: Artura/Resources/content.sk.json
+      - path: Artura/Resources/content.sl.json
+      - path: Artura/Resources/content.sr-Latn.json
+      - path: Artura/Resources/content.sv.json
+      - path: Artura/Resources/content.tr.json
       - path: Artura/Fonts/Figtree_400Regular.ttf
       - path: Artura/Fonts/Figtree_600SemiBold.ttf
       - path: Artura/Fonts/Figtree_700Bold.ttf

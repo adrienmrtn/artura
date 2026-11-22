@@ -42,9 +42,10 @@ struct TrainingGame: View {
         VStack(alignment: .leading, spacing: 14) {
             if let round {
                 HStack {
-                    TagPill(text: "\(round.kind) · \(offset + index + 1) of \(offset + rounds.count)")
+                    // L: game type, then question number out of the day's total, e.g. "Palette · 3 of 30"
+                    TagPill(text: L("%@ · %@ of %@", round.kind, "\(offset + index + 1)", "\(offset + rounds.count)"))
                     Spacer()
-                    Text("\(score) point\(score == 1 ? "" : "s")")
+                    Text(score == 1 ? L("1 point") : L("%@ points", "\(score)"))
                         .font(.figtree(14, .semibold)).foregroundStyle(Palette.muted)
                 }
                 Text(round.prompt).font(.aTitleSmall).foregroundStyle(Palette.ink)
@@ -81,7 +82,7 @@ struct TrainingGame: View {
                 Spacer(minLength: 0)
 
                 if picked != nil {
-                    Button(isLast ? "Finish practice" : "Next") { advance() }
+                    Button(isLast ? L("Finish practice") : L("Next")) { advance() }
                         .buttonStyle(.primary)
                         .transition(.opacity)
                 }
@@ -140,7 +141,7 @@ struct TrainingGame: View {
         }
         .buttonStyle(.pressable)
         .disabled(answered)
-        .accessibilityLabel(choice.colors.isEmpty ? choice.title : "Palette")
+        .accessibilityLabel(choice.colors.isEmpty ? choice.title : L("Palette"))
     }
 
     private func pick(_ choice: Choice, round: Round) {
@@ -190,7 +191,7 @@ struct TrainingGame: View {
             case "zoom":
                 let options = (Array(others.prefix(3)) + [art]).shuffled()
                 result.append(Round(
-                    kind: "Mystery Zoom", prompt: "Which artwork is this detail from?",
+                    kind: L("Mystery Zoom"), prompt: L("Which artwork is this detail from?"),
                     image: art.image, zoom: 4, anchor: art.focusPoint,
                     choices: options.map { Choice(id: $0.id, title: $0.title, subtitle: $0.artist) },
                     correct: art.id, explanation: "\(art.title), \(art.artist)."
@@ -198,18 +199,18 @@ struct TrainingGame: View {
             case "palette":
                 let options = (Array(others.prefix(2)) + [art]).shuffled()
                 result.append(Round(
-                    kind: "Palette", prompt: "Which palette matches this painting?",
+                    kind: L("Palette"), prompt: L("Which palette matches this painting?"),
                     image: art.image,
                     choices: options.map { Choice(id: $0.id, title: $0.title, colors: $0.paletteColors) },
-                    correct: art.id, explanation: "These are the dominant colors of “\(art.title)”."
+                    correct: art.id, explanation: L("These are the dominant colors of “%@”.", art.title)
                 ))
             case "fact":
                 if facts.isEmpty { facts = content.allFacts.shuffled() }
                 guard let item = facts.popLast() else { continue }
                 result.append(Round(
-                    kind: "True or False", prompt: "True or false?",
+                    kind: L("True or False"), prompt: L("True or false?"),
                     image: item.artwork.image, statement: item.fact.text,
-                    choices: [Choice(id: "vrai", title: "True"), Choice(id: "faux", title: "False")],
+                    choices: [Choice(id: "vrai", title: L("True")), Choice(id: "faux", title: L("False"))],
                     correct: item.fact.isTrue ? "vrai" : "faux", explanation: item.fact.explanation
                 ))
             default:
@@ -217,7 +218,7 @@ struct TrainingGame: View {
                 let pair = [art, other].shuffled()
                 let older = art.year < other.year ? art : other
                 result.append(Round(
-                    kind: "Timeline", prompt: "Which one is older?",
+                    kind: L("Timeline"), prompt: L("Which one is older?"),
                     choices: pair.map { Choice(id: $0.id, title: $0.title, subtitle: $0.artist, thumb: $0.image) },
                     correct: older.id,
                     explanation: "\(pair[0].title): \(pair[0].yearLabel). \(pair[1].title): \(pair[1].yearLabel)."

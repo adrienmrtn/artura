@@ -17,7 +17,7 @@ enum DailyCatalog {
     private struct Bundle_: Decodable { let artworks: [DailyArtwork] }
 
     static let artworks: [DailyArtwork] = {
-        guard let url = Bundle.main.url(forResource: "content", withExtension: "json"),
+        guard let url = AppLanguage.resource("content", "json"),
               let data = try? Data(contentsOf: url),
               let bundle = try? JSONDecoder().decode(Bundle_.self, from: data) else { return [] }
         return bundle.artworks

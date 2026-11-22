@@ -19,8 +19,8 @@ struct ReviewSessionView: View {
             Palette.bg.ignoresSafeArea()
             if finished || deck.cards.isEmpty {
                 ResultView(
-                    title: score == deck.cards.count ? "Perfect score!" : (score * 2 >= deck.cards.count ? "Nicely done" : "Keep at it"),
-                    detail: "\(score) of \(deck.cards.count) correct",
+                    title: score == deck.cards.count ? L("Perfect score!") : (score * 2 >= deck.cards.count ? L("Nicely done") : L("Keep at it")),
+                    detail: L("%@ of %@ correct", "\(score)", "\(deck.cards.count)"),
                     celebrate: score * 2 >= deck.cards.count,
                     onDone: { dismiss() }
                 )
@@ -49,7 +49,7 @@ struct ReviewSessionView: View {
                     .background(Circle().fill(Palette.card))
             }
             .buttonStyle(.pressable)
-            .accessibilityLabel("Quit the session")
+            .accessibilityLabel(L("Quit the session"))
             ProgressTrack(value: Double(index + (picked == nil ? 0 : 1)) / Double(max(1, deck.cards.count)))
             Text("\(index + 1) / \(deck.cards.count)")
                 .font(.figtree(14, .medium))
@@ -105,7 +105,7 @@ struct ReviewSessionView: View {
             .scrollIndicators(.hidden)
             .scrollBounceBehavior(.basedOnSize)
 
-            Button(isLast ? "See my score" : "Next") { advance() }
+            Button(isLast ? L("See my score") : L("Next")) { advance() }
                 .buttonStyle(.primary)
                 .disabled(picked == nil)
                 .opacity(picked == nil ? 0.4 : 1)

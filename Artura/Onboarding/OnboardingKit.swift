@@ -36,9 +36,9 @@ enum SocialProof {
     static let rating = "4.8"
     /// Sample reviews: to be replaced with real App Store reviews.
     static let reviews = [
-        "Five minutes in the morning, and I finally see paintings differently.",
-        "The mini-games really help me remember names and dates.",
-        "I knew nothing about art. Now I look forward to the notification."
+        L("Five minutes in the morning, and I finally see paintings differently."),
+        L("The mini-games really help me remember names and dates."),
+        L("I knew nothing about art. Now I look forward to the notification.")
     ]
 }
 
@@ -111,7 +111,7 @@ struct MascotBubble<Content: View>: View {
 struct MascotTalkScreen<Extra: View>: View {
     let lines: [String]
     /// Button label on the last line.
-    var cta: String = "Continue"
+    var cta: String = L("Continue")
     var mascotSize: CGFloat = 156
     let onNext: () -> Void
     /// Content shown under the bubble, on the last line.
@@ -163,7 +163,7 @@ struct MascotTalkScreen<Extra: View>: View {
             Spacer(minLength: 16)
             Spacer(minLength: 0)
 
-            Button(isLast ? cta : "Continue") { advance() }
+            Button(isLast ? cta : L("Continue")) { advance() }
                 .buttonStyle(.primary)
         }
         .padding(.horizontal, 24)
@@ -262,7 +262,7 @@ struct MascotTalkScreen<Extra: View>: View {
 }
 
 extension MascotTalkScreen where Extra == EmptyView {
-    init(lines: [String], cta: String = "Continue", mascotSize: CGFloat = 156, onNext: @escaping () -> Void) {
+    init(lines: [String], cta: String = L("Continue"), mascotSize: CGFloat = 156, onNext: @escaping () -> Void) {
         self.init(lines: lines, cta: cta, mascotSize: mascotSize, onNext: onNext) { EmptyView() }
     }
 }

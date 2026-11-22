@@ -31,7 +31,7 @@ struct QuizView: View {
             }
 
             VStack(alignment: .leading, spacing: 8) {
-                TagPill(text: "Question \(index + 1) of \(artwork.quiz.count)")
+                TagPill(text: L("Question %@ of %@", "\(index + 1)", "\(artwork.quiz.count)"))
                 Text(question.question)
                     .font(.aTitleSmall)
                     .foregroundStyle(Palette.ink)
@@ -104,14 +104,14 @@ struct QuizView: View {
     private var feedback: some View {
         VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 2) {
-                Text(isCorrect ? "Good eye!" : "Not quite")
+                Text(isCorrect ? L("Good eye!") : L("Not quite"))
                     .font(.figtree(17, .semibold))
                 Text(question.explanation)
                     .font(.aSmall)
                     .fixedSize(horizontal: false, vertical: true)
             }
             .foregroundStyle(Palette.ink)
-            Button(isLast ? "Finish quiz" : "Next question") {
+            Button(isLast ? L("Finish quiz") : L("Next question")) {
                 advance()
             }
             .buttonStyle(.primary)

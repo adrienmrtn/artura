@@ -9,6 +9,15 @@ struct ExploreView: View {
         case artists = "Artists"
         case periods = "Periods"
         case museums = "Museums"
+
+        var label: String {
+            switch self {
+            case .movements: return L("Movements")
+            case .artists: return L("Artists")
+            case .periods: return L("Periods")
+            case .museums: return L("Museums")
+            }
+        }
     }
 
     @State private var filter: Filter = .movements
@@ -31,10 +40,10 @@ struct ExploreView: View {
             VStack(alignment: .leading, spacing: 14) {
                 SkyHeader {
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("Explore").font(.figtree(28, .semibold)).foregroundStyle(.white)
+                        Text(L("Explore")).font(.figtree(28, .semibold)).foregroundStyle(.white)
                         HStack(spacing: 10) {
                             Image(systemName: "magnifyingglass").foregroundStyle(Palette.ink)
-                            TextField("Artwork, artist, movement…", text: $query)
+                            TextField(L("Artwork, artist, movement…"), text: $query)
                                 .font(.figtree(15))
                                 .foregroundStyle(Palette.ink)
                                 .autocorrectionDisabled()
@@ -46,7 +55,7 @@ struct ExploreView: View {
                                 } label: {
                                     Image(systemName: "xmark.circle.fill").foregroundStyle(Palette.muted)
                                 }
-                                .accessibilityLabel("Clear search")
+                                .accessibilityLabel(L("Clear search"))
                             }
                         }
                         .padding(.horizontal, 16)
@@ -93,7 +102,7 @@ struct ExploreView: View {
                         Haptics.selection()
                         withAnimation(.snappy) { filter = item }
                     } label: {
-                        Text(item.rawValue)
+                        Text(item.label)
                             .font(.figtree(14, .semibold))
                             .foregroundStyle(filter == item ? .white : Palette.ink)
                             .padding(.horizontal, 16)
@@ -110,7 +119,7 @@ struct ExploreView: View {
     @ViewBuilder
     private var results: some View {
         if searchResults.isEmpty {
-            Text("No artwork matches “\(query)”.")
+            Text(L("No artwork matches “%@”.", query))
                 .font(.aBody).foregroundStyle(Palette.muted).padding(.top, 24)
         } else {
             ForEach(searchResults) { art in
@@ -131,7 +140,7 @@ struct ExploreView: View {
                 HStack(spacing: 0) {
                     ArtImage(name: cover.image).frame(width: 112, height: 124)
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("You're here · \(done) of \(all.count)").font(.figtree(12, .semibold))
+                        Text(L("You're here · %@ of %@", "\(done)", "\(all.count)")).font(.figtree(12, .semibold))
                         Text(current.name).font(.aCardTitle)
                         Text(current.summary).font(.aCaption).multilineTextAlignment(.leading)
                         Spacer(minLength: 0)
@@ -149,7 +158,7 @@ struct ExploreView: View {
             .appearUp(0.05)
         }
 
-        Text("The major movements").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
+        Text(L("The major movements")).font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
 
         ForEach(Array(content.movements.enumerated()), id: \.element.id) { i, item in
             Button {
@@ -224,7 +233,7 @@ struct MovementDetailView: View {
                         .font(.figtree(17)).lineSpacing(5).foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                Text("The artworks").font(.aHeading).foregroundStyle(Palette.ink)
+                Text(L("The artworks")).font(.aHeading).foregroundStyle(Palette.ink)
                 ForEach(content.artworks(in: movement.id)) { art in
                     ArtworkRow(artwork: art, done: user.profile.completedLessons.contains(art.id)) {
                         course = art

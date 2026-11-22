@@ -17,9 +17,9 @@ struct ChronologyGame: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 6) {
-                Text("From oldest to newest").font(.aTitleSmall).foregroundStyle(Palette.ink)
+                Text(L("From oldest to newest")).font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text(checked ? "\(score) artwork\(score == 1 ? "" : "s") in the right spot." : "Drag the artworks by the handle to put them in order.")
+                Text(checked ? (score == 1 ? L("1 artwork in the right spot.") : L("%@ artworks in the right spot.", "\(score)")) : L("Drag the artworks by the handle to put them in order."))
                     .font(.aBody).foregroundStyle(Palette.muted)
             }
             .padding(.horizontal, 24)
@@ -38,7 +38,7 @@ struct ChronologyGame: View {
             .scrollDisabled(true)
             .environment(\.editMode, .constant(checked ? .inactive : .active))
 
-            Button(checked ? "See my score" : "Check the order") {
+            Button(checked ? L("See my score") : L("Check the order")) {
                 if checked {
                     onFinish(score, items.count)
                 } else {

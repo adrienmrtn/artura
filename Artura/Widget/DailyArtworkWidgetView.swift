@@ -90,7 +90,7 @@ struct DailyWidgetContent: View {
             case .lockScreen: lockScreen(artwork)
             }
         } else {
-            Text("Open Artura to see today's artwork")
+            Text(L("Open Artura to see today's artwork"))
                 .font(WidgetLook.font(13, .semibold))
                 .foregroundStyle(WidgetLook.ink)
                 .multilineTextAlignment(.center)
@@ -99,7 +99,7 @@ struct DailyWidgetContent: View {
     }
 
     private var label: some View {
-        Text("ARTWORK OF THE DAY")
+        Text(L("ARTWORK OF THE DAY"))
             .font(WidgetLook.font(10, .bold))
             .tracking(0.8)
             .lineLimit(1)
@@ -179,7 +179,7 @@ struct DailyWidgetContent: View {
 
     private func lockScreen(_ artwork: DailyArtwork) -> some View {
         VStack(alignment: .leading, spacing: 1) {
-            Text("Artwork of the day")
+            Text(L("Artwork of the day"))
                 .font(.system(size: 11, weight: .semibold))
                 .opacity(0.7)
             Text(artwork.title)

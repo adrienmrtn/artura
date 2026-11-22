@@ -12,10 +12,10 @@ struct NameScreen: View {
     private var trimmed: String { name.trimmingCharacters(in: .whitespacesAndNewlines) }
 
     var body: some View {
-        OnbScaffold(title: "And you, what's your name?",
+        OnbScaffold(title: L("And you, what's your name?"),
                     spoken: true,
                     ctaEnabled: !trimmed.isEmpty, onNext: save) {
-            TextField("Your first name", text: $name)
+            TextField(L("Your first name"), text: $name)
                 .font(.figtree(24, .semibold))
                 .foregroundStyle(Palette.ink)
                 .textContentType(.givenName)
@@ -53,26 +53,26 @@ struct GenderScreen: View {
 
     private var title: String {
         if let name = user.profile.firstName, !name.isEmpty {
-            return "Nice to meet you, \(name)! You are…"
+            return L("Nice to meet you, %@! You are…", name)
         }
-        return "You are…"
+        return L("You are…")
     }
 
     var body: some View {
         OnbScaffold(title: title,
-                    subtitle: "So I can address you the right way.",
+                    subtitle: L("So I can address you the right way."),
                     spoken: true,
                     ctaEnabled: user.profile.gender != nil, onNext: onNext) {
             HStack(spacing: 12) {
-                portrait("ill_av1", "A woman", "femme")
-                portrait("ill_av2", "A man", "homme")
+                portrait("ill_av1", L("A woman"), "femme")
+                portrait("ill_av2", L("A man"), "homme")
             }
             .enter(2)
             VStack(spacing: 10) {
-                ChoiceRow(title: "Other", selected: user.profile.gender == "autre") {
+                ChoiceRow(title: L("Other"), selected: user.profile.gender == "autre") {
                     user.profile.gender = "autre"
                 }
-                ChoiceRow(title: "I'd rather not say", selected: user.profile.gender == "na") {
+                ChoiceRow(title: L("I'd rather not say"), selected: user.profile.gender == "na") {
                     user.profile.gender = "na"
                 }
             }
@@ -112,24 +112,25 @@ struct MotivationScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    private let options: [(title: String, image: String)] = [
-        ("Learn about art", "ill_goal_art"),
-        ("Become more cultured", "ill_goal_culture"),
-        ("Have new things to talk about", "ill_goal_talk"),
-        ("Prepare for an exam", "ill_goal_exam"),
-        ("Just for fun", "ill_goal_fun")
+    // `title` is the stored value (English); `label` is what is shown.
+    private let options: [(title: String, label: String, image: String)] = [
+        ("Learn about art", L("Learn about art"), "ill_goal_art"),
+        ("Become more cultured", L("Become more cultured"), "ill_goal_culture"),
+        ("Have new things to talk about", L("Have new things to talk about"), "ill_goal_talk"),
+        ("Prepare for an exam", L("Prepare for an exam"), "ill_goal_exam"),
+        ("Just for fun", L("Just for fun"), "ill_goal_fun")
     ]
 
     private var chosen: [String] { user.profile.goals ?? [] }
 
     var body: some View {
-        OnbScaffold(title: "What brings you here?",
-                    subtitle: "Choose as many as you like.",
+        OnbScaffold(title: L("What brings you here?"),
+                    subtitle: L("Choose as many as you like."),
                     spoken: true,
                     ctaEnabled: !chosen.isEmpty, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
-                    ChoiceRow(title: option.title, image: option.image,
+                    ChoiceRow(title: option.label, image: option.image,
                               selected: chosen.contains(option.title), multiple: true) {
                         toggle(option.title)
                     }
@@ -159,15 +160,15 @@ struct ArtsScreen: View {
     let onNext: () -> Void
 
     private let arts: [(id: String, title: String, image: String, soon: Bool)] = [
-        ("peinture", "Painting", "ill_palette", false),
-        ("sculpture", "Sculpture", "ill_sculpture", true),
-        ("architecture", "Architecture", "ill_musee", true),
-        ("photographie", "Photography", "ill_photo", true)
+        ("peinture", L("Painting"), "ill_palette", false),
+        ("sculpture", L("Sculpture"), "ill_sculpture", true),
+        ("architecture", L("Architecture"), "ill_musee", true),
+        ("photographie", L("Photography"), "ill_photo", true)
     ]
 
     var body: some View {
-        OnbScaffold(title: "Any art forms you'd like to explore?",
-                    subtitle: "Painting is ready. The others are on their way.",
+        OnbScaffold(title: L("Any art forms you'd like to explore?"),
+                    subtitle: L("Painting is ready. The others are on their way."),
                     spoken: true,
                     ctaEnabled: !user.profile.arts.isEmpty, onNext: onNext) {
             LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible())], spacing: 12) {
@@ -186,7 +187,7 @@ struct ArtsScreen: View {
                                 .frame(height: 96)
                                 .overlay(alignment: .topLeading) {
                                     if art.soon {
-                                        Text("Soon")
+                                        Text(L("Soon"))
                                             .font(.figtree(11, .semibold))
                                             .foregroundStyle(Palette.ink)
                                             .padding(.horizontal, 8)
@@ -223,7 +224,10 @@ struct ArtsScreen: View {
 // MARK: Single-choice question (shared template)
 
 struct ChoiceOption {
+    /// Stored value (English).
     let title: String
+    /// Text shown, when it differs from the stored value.
+    var label: String? = nil
     var subtitle: String? = nil
 }
 
@@ -238,7 +242,7 @@ struct ChoiceScreen: View {
         OnbScaffold(title: title, subtitle: subtitle, spoken: true, ctaEnabled: selection != nil, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(options.enumerated()), id: \.offset) { i, option in
-                    ChoiceRow(title: option.title, subtitle: option.subtitle, selected: selection == option.title) {
+                    ChoiceRow(title: option.label ?? option.title, subtitle: option.subtitle, selected: selection == option.title) {
                         selection = option.title
                     }
                     .enter(Double(i) + 2)
@@ -255,12 +259,12 @@ struct RecognizeScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        ChoiceScreen(title: "Do you often see artworks you can't name?",
-                     subtitle: "In a movie, on a poster, at a friend's place.",
+        ChoiceScreen(title: L("Do you often see artworks you can't name?"),
+                     subtitle: L("In a movie, on a poster, at a friend's place."),
                      options: [
-                        ChoiceOption(title: "All the time"),
-                        ChoiceOption(title: "Sometimes"),
-                        ChoiceOption(title: "Rarely")
+                        ChoiceOption(title: "All the time", label: L("All the time")),
+                        ChoiceOption(title: "Sometimes", label: L("Sometimes")),
+                        ChoiceOption(title: "Rarely", label: L("Rarely"))
                      ],
                      selection: $user.profile.unknownArt, onNext: onNext)
     }
@@ -274,12 +278,12 @@ struct KnowledgeScreen: View {
 
     // The option title is also the stored level (shown later on the profile).
     var body: some View {
-        ChoiceScreen(title: "How well do you know art history?",
-                     subtitle: "So I know where to start.",
+        ChoiceScreen(title: L("How well do you know art history?"),
+                     subtitle: L("So I know where to start."),
                      options: [
-                        ChoiceOption(title: "Beginner", subtitle: "Starting from scratch, and that's perfectly fine."),
-                        ChoiceOption(title: "Enthusiast", subtitle: "I know a few artists and movements."),
-                        ChoiceOption(title: "Connoisseur", subtitle: "I can tell a Monet from a Manet.")
+                        ChoiceOption(title: "Beginner", label: L("Beginner"), subtitle: L("Starting from scratch, and that's perfectly fine.")),
+                        ChoiceOption(title: "Enthusiast", label: L("Enthusiast"), subtitle: L("I know a few artists and movements.")),
+                        ChoiceOption(title: "Connoisseur", label: L("Connoisseur"), subtitle: L("I can tell a Monet from a Manet."))
                      ],
                      selection: $user.profile.level, onNext: onNext)
     }
@@ -292,12 +296,12 @@ struct MuseumScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        ChoiceScreen(title: "Do you go to museums often?",
+        ChoiceScreen(title: L("Do you go to museums often?"),
                      options: [
-                        ChoiceOption(title: "Almost never"),
-                        ChoiceOption(title: "Once or twice a year"),
-                        ChoiceOption(title: "A few times a year"),
-                        ChoiceOption(title: "Every chance I get")
+                        ChoiceOption(title: "Almost never", label: L("Almost never")),
+                        ChoiceOption(title: "Once or twice a year", label: L("Once or twice a year")),
+                        ChoiceOption(title: "A few times a year", label: L("A few times a year")),
+                        ChoiceOption(title: "Every chance I get", label: L("Every chance I get"))
                      ],
                      selection: $user.profile.museumHabit, onNext: onNext)
     }
@@ -315,7 +319,7 @@ struct PhoneTimeScreen: View {
     private var hours: Double { (raw * 2).rounded() / 2 }
 
     var body: some View {
-        OnbScaffold(title: "How much time do you spend on your phone each day?",
+        OnbScaffold(title: L("How much time do you spend on your phone each day?"),
                     spoken: true, onNext: save) {
             ArtImage(name: "ill_phone", zoom: glow ? 1.08 : 1, anchor: UnitPoint(x: 0.5, y: 0.45))
                 .frame(height: 170)
@@ -329,7 +333,7 @@ struct PhoneTimeScreen: View {
                     .monospacedDigit()
                     .contentTransition(.numericText(value: hours))
                     .animation(.snappy, value: hours)
-                Text("per day").font(.aBody).foregroundStyle(Palette.muted)
+                Text(L("per day")).font(.aBody).foregroundStyle(Palette.muted)
             }
             .frame(maxWidth: .infinity)
             .enter(3)
@@ -337,10 +341,10 @@ struct PhoneTimeScreen: View {
             VStack(spacing: 2) {
                 Slider(value: $raw, in: 1...10)
                     .tint(Palette.blue)
-                    .accessibilityLabel("Hours per day on your phone")
+                    .accessibilityLabel(L("Hours per day on your phone"))
                     .accessibilityValue(formatHours(hours))
                 HStack {
-                    Text("1h"); Spacer(); Text("5h"); Spacer(); Text("10h")
+                    Text(formatHours(1)); Spacer(); Text(formatHours(5)); Spacer(); Text(formatHours(10))
                 }
                 .font(.aCaption).foregroundStyle(Palette.muted)
             }
@@ -363,5 +367,5 @@ struct PhoneTimeScreen: View {
 /// "4h" or "4h 30".
 func formatHours(_ hours: Double) -> String {
     let whole = Int(hours)
-    return hours == Double(whole) ? "\(whole)h" : "\(whole)h 30"
+    return hours == Double(whole) ? L("%@h", "\(whole)") : L("%@h 30", "\(whole)")
 }

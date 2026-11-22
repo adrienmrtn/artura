@@ -111,12 +111,12 @@ enum RemoteCatalog {
             if let w = row.zoomWidth, let h = row.zoomHeight, w > 0, h > 0 { aspect = Double(w) / Double(h) }
             var credit: String?
             if row.attributionRequired == true {
-                let parts = [plain(row.author), plain(row.license), "via Wikimedia Commons"].compactMap { $0 }
-                credit = "Image: " + parts.joined(separator: ", ")
+                let parts = [plain(row.author), plain(row.license), L("via Wikimedia Commons")].compactMap { $0 }
+                credit = L("Image: %@", parts.joined(separator: ", "))
             }
             return Artwork(
                 id: row.slug, title: row.title, artist: row.artist, year: year,
-                yearLabel: row.yearLabel ?? (year < 0 ? "\(-year) BC" : "\(year)"),
+                yearLabel: row.yearLabel ?? (year < 0 ? L("%@ BC", "\(-year)") : "\(year)"),
                 museum: row.museum ?? "", movementId: row.movementId,
                 image: imageURL(row.slug, "large"), hd: imageURL(row.slug, "zoom"),
                 palette: palettes[row.slug] ?? [],

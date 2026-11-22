@@ -49,11 +49,11 @@ struct LessonBlock: Codable, Hashable {
     var interactiveTitle: String {
         if let title { return title }
         switch type {
-        case "tour": return "Guided tour"
-        case "find": return "Find it"
-        case "lines": return "Composition lines"
-        case "palette": return "The palette"
-        default: return "Free zoom"
+        case "tour": return L("Guided tour")
+        case "find": return L("Find it")
+        case "lines": return L("Composition lines")
+        case "palette": return L("The palette")
+        default: return L("Free zoom")
         }
     }
 
@@ -165,7 +165,7 @@ final class ContentStore: ObservableObject {
     private var refreshing = false
 
     init() {
-        if let url = Bundle.main.url(forResource: "content", withExtension: "json"),
+        if let url = AppLanguage.resource("content", "json"),
            let data = try? Data(contentsOf: url),
            let bundle = try? JSONDecoder().decode(ContentBundle.self, from: data) {
             bundled = bundle
@@ -249,7 +249,8 @@ final class ContentStore: ObservableObject {
 
     /// Replaces the catalog, keeping the lessons already on the device.
     @MainActor
-    private func apply(_ bundle: ContentBundle) {
+    private func apply(_ english: ContentBundle) {
+        let bundle = TranslatedCatalog.current?.applied(to: english) ?? english
         let saved = Set(CatalogCache.savedLessons)
         var list = bundle.artworks
         for i in list.indices where list[i].lesson.isEmpty {
@@ -282,4 +283,65 @@ final class ContentStore: ObservableObject {
 }
 
 let avatarImages = ["ill_av1", "ill_av2", "ill_av3", "ill_av4", "ill_av5"]
-let avatarLabels = ["Girl with the turban", "Man in the straw hat", "Cat in a beret", "The sun", "The moon"]
+let avatarLabels = [L("Girl with the turban"), L("Man in the straw hat"), L("Cat in a beret"), L("The sun"), L("The moon")]
+
+/// The catalog in the app's language, when it is not English: the translated lessons bundled with the
+/// app (Resources/lessons.<code>.json, built by catalog/translations/app/app.py). Only the translated
+/// artworks are shown in that language, with their titles, movements, lessons, quizzes and facts.
+struct TranslatedCatalog: Decodable {
+    struct Meta: Decodable {
+        let title: String
+        let artist: String
+        let year_label: String?
+        let museum: String?
+    }
+
+    struct Lesson: Decodable {
+        let teaser: String
+        let lesson: [LessonBlock]
+        let quiz: [QuizQuestion]
+        let facts: [Fact]
+        let meta: Meta
+    }
+
+    struct MovementText: Decodable {
+        let name: String
+        let period: String?
+        let summary: String?
+        let description: String?
+    }
+
+    let movements: [String: MovementText]
+    let lessons: [String: Lesson]
+
+    static let current: TranslatedCatalog? = {
+        guard !AppLanguage.isEnglish,
+              let url = Bundle.main.url(forResource: "lessons.\(AppLanguage.code)", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return nil }
+        return try? JSONDecoder().decode(TranslatedCatalog.self, from: data)
+    }()
+
+    /// The online catalog restricted to the translated artworks, with their text in the app's language.
+    func applied(to bundle: ContentBundle) -> ContentBundle {
+        let artworks = bundle.artworks.compactMap { a -> Artwork? in
+            guard let t = lessons[a.id] else { return nil }
+            return Artwork(
+                id: a.id, title: t.meta.title, artist: t.meta.artist, year: a.year,
+                yearLabel: t.meta.year_label ?? a.yearLabel, museum: t.meta.museum ?? a.museum,
+                movementId: a.movementId, image: a.image, hd: a.hd, palette: a.palette, focus: a.focus,
+                teaser: t.teaser, lesson: t.lesson, quiz: t.quiz, facts: t.facts,
+                aspect: a.aspect, credit: a.credit
+            )
+        }
+        guard !artworks.isEmpty else { return bundle }
+        let covers = Dictionary(artworks.map { ($0.movementId, $0.id) }, uniquingKeysWith: { first, _ in first })
+        let movementTexts = movements
+        let shown = bundle.movements.compactMap { m -> Movement? in
+            guard let cover = covers[m.id] else { return nil }
+            let t = movementTexts[m.id]
+            return Movement(id: m.id, name: t?.name ?? m.name, period: t?.period ?? m.period,
+                            summary: t?.summary ?? m.summary, cover: cover, description: t?.description ?? m.description)
+        }
+        return ContentBundle(movements: shown, artworks: artworks)
+    }
+}

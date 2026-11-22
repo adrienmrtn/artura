@@ -33,7 +33,7 @@ struct ReviewDeck: Identifiable {
 
     /// Today's review: questions drawn from the lessons already read.
     static func daily(artworks: [Artwork], all: [Artwork]) -> ReviewDeck {
-        ReviewDeck(title: "Today's review",
+        ReviewDeck(title: L("Today's review"),
                    cards: cards(from: artworks, all: all, limit: dailySize),
                    daily: true)
     }
@@ -61,7 +61,7 @@ struct ReviewDeck: Identifiable {
             // Questions written for the lesson's own quiz.
             for question in art.quiz where question.options.indices.contains(question.answer) {
                 cards.append(ReviewCard(
-                    kind: "From the lesson", prompt: question.question, image: art.image, anchor: art.focusPoint,
+                    kind: L("From the lesson"), prompt: question.question, image: art.image, anchor: art.focusPoint,
                     choices: question.options.enumerated().map { ReviewCard.Choice(id: "\($0.offset)", title: $0.element) },
                     correct: "\(question.answer)", explanation: question.explanation
                 ))
@@ -70,9 +70,9 @@ struct ReviewDeck: Identifiable {
             // Studio stories, true or false.
             for fact in art.facts {
                 cards.append(ReviewCard(
-                    kind: "True or false", prompt: "True or false?", image: art.image, anchor: art.focusPoint,
+                    kind: L("True or false"), prompt: L("True or false?"), image: art.image, anchor: art.focusPoint,
                     statement: fact.text,
-                    choices: [ReviewCard.Choice(id: "true", title: "True"), ReviewCard.Choice(id: "false", title: "False")],
+                    choices: [ReviewCard.Choice(id: "true", title: L("True")), ReviewCard.Choice(id: "false", title: L("False"))],
                     correct: fact.isTrue ? "true" : "false", explanation: fact.explanation
                 ))
             }
@@ -82,9 +82,9 @@ struct ReviewDeck: Identifiable {
             if otherTitles.count == 3 {
                 let options = (otherTitles + [art]).shuffled()
                 cards.append(ReviewCard(
-                    kind: "Name it", prompt: "What is this artwork called?", image: art.image, anchor: art.focusPoint,
+                    kind: L("Name it"), prompt: L("What is this artwork called?"), image: art.image, anchor: art.focusPoint,
                     choices: options.map { ReviewCard.Choice(id: $0.id, title: $0.title) },
-                    correct: art.id, explanation: "\(art.title), by \(art.artist) (\(art.yearLabel))."
+                    correct: art.id, explanation: L("%@, by %@ (%@).", art.title, art.artist, art.yearLabel)
                 ))
             }
 
@@ -93,9 +93,9 @@ struct ReviewDeck: Identifiable {
             if otherArtists.count == 3 {
                 let options = (otherArtists + [art.artist]).shuffled()
                 cards.append(ReviewCard(
-                    kind: "Who made it?", prompt: "Who made this artwork?", image: art.image, anchor: art.focusPoint,
+                    kind: L("Who made it?"), prompt: L("Who made this artwork?"), image: art.image, anchor: art.focusPoint,
                     choices: options.map { ReviewCard.Choice(id: $0, title: $0) },
-                    correct: art.artist, explanation: "\(art.title) is by \(art.artist), \(art.museum)."
+                    correct: art.artist, explanation: L("%@ is by %@, %@.", art.title, art.artist, art.museum)
                 ))
             }
         }
