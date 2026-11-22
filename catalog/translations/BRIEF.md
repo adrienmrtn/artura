@@ -52,3 +52,5 @@ Besides the languages named at the top, you may be asked for: European Portugues
 - Right-to-left (ar, he): write plain text; do not insert directional marks; keep Western digits; Latin-script names (e.g. in titles you keep in the original) stay as they are.
 - Scripts: names of artists and places follow the transliteration actually used in your language (Cyrillic, Greek, Arabic, Hebrew, Japanese katakana/kanji). The same name must be written the same way everywhere.
 - Character limits in this brief (teaser 130, spot/line text 300) count characters; they are comfortable for every language, but keep spot texts short in all of them.
+
+- European Portuguese (`pt-PT`) uses « » for quotations (not the “ ” given for Brazilian Portuguese above).
