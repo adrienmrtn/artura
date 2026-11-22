@@ -11,7 +11,7 @@
   },
   {
    "type": "text",
-   "text": "Od kod ta tišina? Začni s tem, kar slika beleži. 2. maja 1808 so se Madridčani uprli Napoleonovi vojski, ki je zasedla mesto. Upor je bil streti v nekaj urah. Tisto noč in v zgodnjih jutranjih urah 3. maja so francoski strelski vodi na robovih mesta v skupinah ustrelili na stotine zapornikov."
+   "text": "Od kod ta tišina? Začni s tem, kar slika beleži. 2. maja 1808 so se Madridčani uprli Napoleonovi vojski, ki je zasedla mesto. Upor je bil zadušen v nekaj urah. Tisto noč in v zgodnjih jutranjih urah 3. maja so francoski usmrtitveni vodi na robovih mesta v skupinah ustrelili na stotine zapornikov."
   },
   {
    "type": "text",
@@ -28,7 +28,7 @@
   {
    "type": "tour",
    "title": "Mož v belem",
-   "text": "Vse na sliki je razporejeno okoli ene postave. Ostani pri njej tri dotike.",
+   "text": "Vse na sliki je razporejeno okoli ene postave. Ostani ob njej skozi tri dotike.",
    "spots": [
     {
      "title": "Belo in rumeno",
@@ -54,7 +54,7 @@
    "spots": [
     {
      "title": "Fenjer",
-     "text": "Velik kvadraten fenjer stoji na prstenih tleh med ubijalci in žrtvami. Postavljen je bil, da bi vojaki lahko merili. Sveti sij starejše umetnosti je postal kos vojaške opreme."
+     "text": "Velik kvadraten fenjer stoji na zemlji med ubijalci in žrtvami. Postavljen je bil, da bi vojaki lahko merili. Sveti sij starejše umetnosti je postal kos vojaške opreme."
     }
    ]
   },
@@ -72,10 +72,10 @@
    "lines": [
     {
      "label": "Stena hrbtov",
-     "text": "Vojaki ponavljajo isto pozo, ramo ob rami, glave sklonjene k namerilnikom. Nobenega obraza ni videti. So ena sama oblika z mnogimi nogami."
+     "text": "Vojaki ponavljajo isto pozo, ramo ob rami, glave sklonjene k puškam. Nobenega obraza ni videti. So ena sama oblika z mnogimi nogami."
     },
     {
-     "label": "Mušketi",
+     "label": "Muškete",
      "text": "Cevi in bajoneti tečejo povsem vodoravno, edine ravne, trde črte na sliki. Ustavijo se nekaj korakov od prsi, v katere merijo. Na tej razdalji nihče ne zgreši."
     },
     {
@@ -127,7 +127,7 @@
   },
   {
    "type": "fact",
-   "text": "Ko je slika naposled prišla iz skladišča, so ji umetniki odgovorili naravnost. V šestdesetih letih 19. stoletja je Édouard Manet svojo „Usmrtitev cesarja Maksimilijana“ zgradil na Goyevem strelskem vodu. Leta 1951 je Pablo Picasso storil isto na sliki o korejski vojni, kjer je brezobrazne strelce spremenil v oklepljene robote."
+   "text": "Ko je slika naposled prišla iz skladišča, so ji umetniki odgovorili naravnost. V šestdesetih letih 19. stoletja je Édouard Manet svojo „Usmrtitev cesarja Maksimilijana“ zgradil na Goyevem usmrtitvenem vodu. Leta 1951 je Pablo Picasso storil isto na sliki o korejski vojni, kjer je brezobrazne strelce spremenil v oklepljene robote."
   },
   {
    "type": "text",
@@ -139,7 +139,7 @@
    "question": "Kateri dogodek beleži slika?",
    "options": [
     "Pomorsko bitko ob španski obali",
-    "Francoske strelske vode, ki po uporu streljajo madridske zapornike",
+    "Francoske usmrtitvene vode, ki po uporu streljajo madridske zapornike",
     "Kronanje Ferdinanda VII."
    ],
    "explanation": "Po uporu 2. maja 1808 so čez noč ustrelili na stotine zapornikov."
@@ -160,7 +160,7 @@
     "Naredi jih veliko manjše od žrtev",
     "Skrije jim vse obraze in ponavlja eno pozo"
    ],
-   "explanation": "Tvorijo brezobrazno steno hrbtov z vodoravnimi mušketi."
+   "explanation": "Tvorijo brezobrazno steno hrbtov z vodoravnimi mušketami."
   },
   {
    "question": "Katero starejšo podobo spominja poza osrednjega moža?",
@@ -187,7 +187,7 @@
     "Vincent van Gogh",
     "Édouard Manet"
    ],
-   "explanation": "Manetova „Usmrtitev cesarja Maksimilijana“ si izposoja Goyev strelski vod."
+   "explanation": "Manetova „Usmrtitev cesarja Maksimilijana“ si izposoja Goyev usmrtitveni vod."
   }
  ],
  "facts": [
