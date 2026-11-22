@@ -42,7 +42,7 @@ private struct ZoomableModifier: ViewModifier {
             }
             .zoomViewer($shown)
             .accessibilityAddTraits(.isButton)
-            .accessibilityHint("Opens the painting full screen")
+            .accessibilityHint(L("Opens the painting full screen"))
     }
 }
 
@@ -77,10 +77,10 @@ struct ZoomViewer: View {
             .buttonStyle(.pressable)
             .padding(.trailing, 16)
             .padding(.top, 8)
-            .accessibilityLabel("Close")
+            .accessibilityLabel(L("Close"))
         }
         .task { await load() }
-        .accessibilityLabel(target.title ?? "Painting")
+        .accessibilityLabel(target.title ?? L("Painting"))
     }
 
     /// Shows what is already at hand at once, then the large picture when it arrives.

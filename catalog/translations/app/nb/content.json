@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Den italienske renessansen",
+   "period": "1400- og 1500-tallet",
+   "summary": "Perspektiv og gjensyn med antikken",
+   "description": "Først i Italia, siden i hele Europa, gjenoppdager kunstnerne antikken, studerer menneskekroppen og finner opp perspektivet. Maleriet blir et vindu mot verden."
+  },
+  "siecledor": {
+   "name": "Den nederlandske gullalderen",
+   "period": "1600-tallet",
+   "summary": "Hverdagsliv og lys",
+   "description": "I den velstående nederlandske republikken maler kunstnerne for borgerskapets hjem: stille interiører, portretter, stilleben. Lyset blir det egentlige motivet."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1600- til 1800-tallet",
+   "summary": "Bilder fra «den flytende verden»",
+   "description": "I Japan lages det tresnitt i serier som viser skuespillere, landskap og scener fra dagliglivet. De rene fargeflatene og de dristige utsnittene skulle komme til å ryste Europas malere."
+  },
+  "impressionnisme": {
+   "name": "Impresjonisme",
+   "period": "1870- og 1880-årene",
+   "summary": "Å male øyeblikkets lys",
+   "description": "En gruppe malere forlater atelieret for å arbeide ute i det fri, med små, raske penselstrøk. De er ikke lenger ute etter detaljene, men etter lysets virkning i ett bestemt øyeblikk."
+  },
+  "postimp": {
+   "name": "Postimpresjonisme",
+   "period": "1886–1905",
+   "summary": "Farge og følelse først",
+   "description": "Etter impresjonismen leter hver og en etter sin egen vei. Fargen etterligner ikke lenger virkeligheten: Den uttrykker det maleren føler."
+  },
+  "secession": {
+   "name": "Jugendstil og Wiener Secession",
+   "period": "Rundt 1900",
+   "summary": "Gull, ornamenter og buede linjer",
+   "description": "I Wien bryter unge kunstnere med akademiet. De forener maleri, dekor og kunsthåndverk, og gjør ornamentet til et eget språk."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Stjernenatt",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Museum of Modern Art, New York",
+   "teaser": "En virvlende himmel, malt etter hukommelsen på et rom i et asyl.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Juni 1889. Vincent van Gogh er 36 år. En måned tidligere lot han seg frivillig legge inn på asylet i Saint-Rémy-de-Provence i Sør-Frankrike, etter et alvorlig sammenbrudd i Arles."
+    },
+    {
+     "type": "text",
+     "text": "Soverommet hans vender mot øst. Gjennom vinduet ser han en hveteåker, åsene i Alpilles og, før daggry, himmelen. Han maler den utsikten om og om igjen, til alle døgnets tider."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh begynte ikke å male før han var 27. På omtrent ti år laget han rundt 900 malerier, noen ganger ett om dagen."
+    },
+    {
+     "type": "tour",
+     "text": "Her er den mest berømte av alle disse himlene. Se på helheten først, og trykk så for å gå inn i bildet.",
+     "spots": [
+      {
+       "title": "Virvelen",
+       "text": "Midt i bildet krøller to store bølger seg inn i hverandre. Ingen virkelig himmel ser slik ut: Han maler det han føler, ikke det han ser."
+      },
+      {
+       "title": "Månen",
+       "text": "En oransje sigd i en gul glorie. Den ligner nesten en sol. Van Gogh legger på malingen i korte strøk som går i ring rundt den."
+      },
+      {
+       "title": "Morgenstjernen",
+       "text": "Det hviteste lyset i bildet. Van Gogh skrev til broren at han hadde sett morgenstjernen, svært stor, før soloppgang. Det er trolig Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bildet ble ikke malt om natten, og heller ikke foran utsikten. Van Gogh malte det i dagslys, i atelieret sitt på asylet, etter hukommelsen og fantasien. Det var uvanlig for ham: Ellers malte han det han hadde rett foran øynene."
+    },
+    {
+     "type": "key",
+     "text": "Stjernenatt ble malt om dagen, etter hukommelsen. Det er ikke en utsikt. Det er et syn."
+    },
+    {
+     "type": "text",
+     "text": "Han hadde lenge drømt om å male en nattehimmel. Et år tidligere skrev han at synet av stjernene alltid fikk ham til å drømme."
+    },
+    {
+     "type": "find",
+     "text": "Én detalj i dette landskapet kommer rett fra barndommen hans i Nederland. Hvor er kirkespiret?",
+     "spots": [
+      {
+       "title": "Kirkespiret",
+       "text": "Et tynt, spisst spir, slik man ser dem i de nederlandske landsbyene der van Gogh vokste opp. Kirketårnene i Provence ser ikke slik ut."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Også landsbyen er oppdiktet, eller i det minste flyttet: Den kunne ikke ses fra vinduet hans. Van Gogh setter sammen en virkelig himmel, virkelige åser og en landsby fra minnet."
+    },
+    {
+     "type": "fact",
+     "text": "Vinduet hans på asylet hadde jerngitter. Han utelot gitteret fra hvert eneste bilde han malte av utsikten."
+    },
+    {
+     "type": "lines",
+     "text": "Maleriet virker urolig. I virkeligheten er det nøye bygd opp.",
+     "lines": [
+      {
+       "label": "Sypressens loddrette linje",
+       "text": "Den skjærer gjennom hele bildet, fra bakken til øvre kant, og gir målestokken: Himmelen er enorm."
+      },
+      {
+       "label": "Ekkoet: kirkespiret",
+       "text": "En annen, bitte liten loddrett linje som svarer sypressen. Den ene er laget av naturen, den andre av mennesker."
+      },
+      {
+       "label": "Bølgen på himmelen",
+       "text": "Øyet følger denne S-en fra venstre mot høyre, helt bort til månen."
+      },
+      {
+       "label": "Åsenes skråning",
+       "text": "En diagonal som går ned mot landsbyen og skjermer den, som en arm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Se nå på penselstrøkene. Her er ingen glatte overganger. Korte, tykke strøk ligger side om side, og hvert av dem peker i sin retning. Det er selve penselstrøket som skaper bevegelsen."
+    },
+    {
+     "type": "text",
+     "text": "Malere kaller slik tykk maling «impasto». Van Gogh klemte noen ganger fargen nesten rett fra tuben. På nært hold er overflaten på lerretet ru som et relieffkart."
+    },
+    {
+     "type": "tour",
+     "title": "På nært hold",
+     "text": "La oss gå helt inntil selve malingen.",
+     "spots": [
+      {
+       "title": "Malingen",
+       "text": "Se hvor tykk den er: Malingen ligger i korte, tunge strøk, nesten i relieff. Dette kalles impasto."
+      },
+      {
+       "title": "Sypressen",
+       "text": "Mørk og vridd som en flamme binder den jorden til himmelen. I Sør-Frankrike er den kirkegårdenes tre. Van Gogh syntes den var like vakker som en egyptisk obelisk."
+      },
+      {
+       "title": "Åsene",
+       "text": "Alpilles. De ruller som bølger, båret av den samme bevegelsen som himmelen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sypressen er viktig. Den er den mørkeste formen i bildet, og den eneste som når både bakken og toppen av himmelen. Van Gogh var fascinert av disse trærne den sommeren."
+    },
+    {
+     "type": "palette",
+     "text": "Blått, gult og nesten ingenting annet. Trykk på en farge.",
+     "swatches": [
+      {
+       "name": "Dypblått",
+       "text": "Dybden i himmelen og åsene. Van Gogh brukte ultramarin og koboltblått."
+      },
+      {
+       "name": "Lyseblått",
+       "text": "Virvlene. Lagt på i tykke strøk får det himmelen til å snurre."
+      },
+      {
+       "name": "Gult",
+       "text": "Månen, stjernene, vinduene. En bitte liten del av flaten, og likevel lyser det opp alt."
+      },
+      {
+       "name": "Grønnsvart",
+       "text": "Sypressen og skyggene i landsbyen. Den mørkeste massen i bildet."
+      },
+      {
+       "name": "Grønnlig hvitt",
+       "text": "Gloriene rundt stjernene: Det er de som får dem til å flimre."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Blått og gult står nesten rett overfor hverandre i fargesirkelen. Satt side om side får de hverandre til å virke sterkere. Van Gogh visste det, og brukte det til å få nettene sine til å vibrere."
+    },
+    {
+     "type": "key",
+     "text": "Motsatte farger side om side forsterker hverandre. Derfor brenner de gule stjernene mot det blå."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh fortalte broren at han hadde sett morgenstjernen, svært stor. Trykk på det hviteste lyset i bildet.",
+     "spots": [
+      {
+       "title": "Morgenstjernen",
+       "text": "Det hviteste lyset i bildet. Van Gogh skrev til broren at han hadde sett morgenstjernen, svært stor, før soloppgang. Det er trolig Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Hva syntes han selv om bildet? Ikke stort. I brevene kaller han det bare en nattstudie, og han tviler på disse lerretene som er malt etter fantasien."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh solgte nesten ingenting mens han levde. Broren Theo, som var kunsthandler, støttet ham med penger og maling."
+    },
+    {
+     "type": "text",
+     "text": "Han døde tretten måneder senere, i juli 1890, 37 år gammel. Stjernenatt kom til Museum of Modern Art i New York i 1941."
+    },
+    {
+     "type": "key",
+     "text": "Hos van Gogh er penselstrøket selve motivet: Hvert strøk har en retning, og det er det som setter himmelen i bevegelse."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Virvelen",
+       "text": "Midt i bildet krøller to store bølger seg inn i hverandre. Ingen virkelig himmel ser slik ut: Han maler det han føler, ikke det han ser."
+      },
+      {
+       "title": "Månen",
+       "text": "En oransje sigd i en gul glorie. Den ligner nesten en sol. Van Gogh legger på malingen i korte strøk som går i ring rundt den."
+      },
+      {
+       "title": "Morgenstjernen",
+       "text": "Det hviteste lyset i bildet. Van Gogh skrev til broren at han hadde sett morgenstjernen, svært stor, før soloppgang. Det er trolig Venus."
+      },
+      {
+       "title": "Sypressen",
+       "text": "Mørk og vridd som en flamme binder den jorden til himmelen. I Sør-Frankrike er den kirkegårdenes tre. Van Gogh syntes den var like vakker som en egyptisk obelisk."
+      },
+      {
+       "title": "Kirkespiret",
+       "text": "Et tynt, spisst spir, slik man ser dem i de nederlandske landsbyene der van Gogh vokste opp. Kirketårnene i Provence ser ikke slik ut."
+      },
+      {
+       "title": "Landsbyen",
+       "text": "Noen få gule, opplyste vinduer. Han kunne ikke se denne landsbyen fra rommet sitt: Han la den til etter hukommelsen."
+      },
+      {
+       "title": "Åsene",
+       "text": "Alpilles. De ruller som bølger, båret av den samme bevegelsen som himmelen."
+      },
+      {
+       "title": "Malingen",
+       "text": "Se hvor tykk den er: Malingen ligger i korte, tunge strøk, nesten i relieff. Dette kalles impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hvor var van Gogh da han malte Stjernenatt?",
+     "options": [
+      "I Paris",
+      "På asylet i Saint-Rémy-de-Provence",
+      "I Amsterdam"
+     ],
+     "explanation": "Han hadde latt seg legge inn en måned tidligere."
+    },
+    {
+     "question": "Hvordan ble bildet malt?",
+     "options": [
+      "Om natten, foran utsikten",
+      "Om dagen, etter hukommelsen og fantasien",
+      "Etter et fotografi"
+     ],
+     "explanation": "Om dagen, i atelieret hans på asylet."
+    },
+    {
+     "question": "Hvilken detalj minner om Nederland?",
+     "options": [
+      "Sypressen",
+      "Det spisse kirkespiret",
+      "Åsene"
+     ],
+     "explanation": "Et spir som i landsbyene der han vokste opp."
+    },
+    {
+     "question": "Hva er «impasto»?",
+     "options": [
+      "Svært tykk maling, nesten i relieff",
+      "En tynn, gjennomsiktig lasur",
+      "En kullskisse"
+     ],
+     "explanation": "Korte, tunge strøk som står opp fra lerretet."
+    },
+    {
+     "question": "Hvorfor virker de gule stjernene så klare?",
+     "options": [
+      "De er malt med gull",
+      "Gult står ved siden av sin motsetning, blått",
+      "Lerretet er opplyst bakfra"
+     ],
+     "explanation": "Motsatte farger side om side forsterker hverandre."
+    },
+    {
+     "question": "Hva utelot van Gogh fra bildene sine av denne utsikten?",
+     "options": [
+      "Gitteret i vinduet",
+      "Månen",
+      "Åsene"
+     ],
+     "explanation": "Vinduet hans på asylet hadde jerngitter."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh malte Stjernenatt ute, midt på natten.",
+     "explanation": "Han malte det om dagen, etter hukommelsen, på asylet i Saint-Rémy."
+    },
+    {
+     "text": "Stjernenatt befinner seg i New York.",
+     "explanation": "Det har vært på MoMA siden 1941."
+    },
+    {
+     "text": "Van Gogh solgte mange malerier og døde rik.",
+     "explanation": "Han solgte nesten ingenting, og broren Theo forsørget ham."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Pike med perleøredobb",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "ca. 1665",
+   "museum": "Mauritshuis, Haag",
+   "teaser": "Et blikk over skulderen, og ingen vet hvem hun er.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Du kjenner dette ansiktet. Men det er ikke et portrett: Ingen vet hvem hun er, og Vermeer hadde nok aldri tenkt å male noen bestemt."
+    },
+    {
+     "type": "text",
+     "text": "I 1600-tallets Nederland hadde denne typen bilder et eget navn: en «tronie», en studie av et ansikt. Maleren bruker den til å utforske et uttrykk, et eksotisk kostyme, en lysvirkning. Her alle tre på én gang."
+    },
+    {
+     "type": "key",
+     "text": "En tronie er et oppdiktet ansikt, et påskudd for å male et uttrykk og et lys. Det er ikke et portrett av et virkelig menneske."
+    },
+    {
+     "type": "tour",
+     "text": "Se først på hele maleriet: et ansikt som stiger fram av mørket. Trykk for å komme nærmere.",
+     "spots": [
+      {
+       "title": "Blikket",
+       "text": "Hun snur seg mot deg, som om du nettopp sa navnet hennes. Én enkelt hvit prikk i hvert øye er nok til at blikket ser fuktig og levende ut."
+      },
+      {
+       "title": "Munnen",
+       "text": "Litt åpen, som midt i en setning. Se på den bitte lille lyse prikken i munnviken: ett eneste strøk, og munnen glinser."
+      },
+      {
+       "title": "Perlen",
+       "text": "To strøk, ikke mer: et hvitt lysglimt øverst, et grått gjenskinn av kragen nederst. Ingen kontur, ingen krok. Det er øyet ditt som bygger perlen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Hele bildet hviler på én bevegelse: Hun snur seg. Kroppen er i profil, ansiktet kommer mot oss. Det føles som om vi har overrasket henne, eller som om hun er på vei bort. Det er det som gjør henne så levende."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer levde hele livet i Delft, en liten nederlandsk by. Han malte langsomt, hadde elleve barn å forsørge og døde gjeldstynget, 43 år gammel."
+    },
+    {
+     "type": "text",
+     "text": "Legg merke til turbanen. Ingen nederlandsk pike gikk kledd slik. Den er et kostyme, et streif av det fjerne Østen, som datidens malere var fascinert av."
+    },
+    {
+     "type": "find",
+     "text": "Ett eneste lys faller på ansiktet hennes. Hvor treffer det? Trykk på den lyseste delen av ansiktet.",
+     "spots": [
+      {
+       "title": "Kinnet",
+       "text": "Lyset kommer fra venstre, litt ovenfra. Det treffer pannen, kinnet og nesen, og lar så den andre halvdelen av ansiktet gli inn i skyggen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer tegner nesten ingen konturer. Se på neseryggen: Det finnes ingen strek, bare et lyst kinn som møter en skygge. Ansiktet er bygd av lys, ikke av linjer."
+    },
+    {
+     "type": "key",
+     "text": "Lys fra venstre, myke skygger, ingen harde konturer: Det er Vermeers kjennemerke."
+    },
+    {
+     "type": "lines",
+     "text": "Hvordan kan et så enkelt bilde henge sammen? Tre linjer forklarer det.",
+     "lines": [
+      {
+       "label": "Lyset",
+       "text": "Det kommer ovenfra til venstre, som fra et vindu vi ikke ser."
+      },
+      {
+       "label": "Trekanten",
+       "text": "Fra toppen av turbanen ned til begge skuldrene: en stabil, jordfast form som holder hodets vending i ro."
+      },
+      {
+       "label": "Fallet",
+       "text": "Det gule stoffet faller ned til høyre og veier opp for ansiktet, som er vendt mot venstre."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Så til det blå. Vermeer brukte naturlig ultramarin, laget ved å male opp lapis lazuli. De fleste malere sparte det til jomfru Marias kappe, fordi det var så dyrt. Han brukte det overalt, til og med i skyggene."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli kom fra gruver i det som i dag er Afghanistan. Navnet «ultramarin» betyr «fra den andre siden av havet»."
+    },
+    {
+     "type": "palette",
+     "text": "Fem farger utgjør nesten hele maleriet. Trykk på en for å se hvor den gjemmer seg.",
+     "swatches": [
+      {
+       "name": "Mørk bakgrunn",
+       "text": "Mer enn halvparten av flaten. En gang et dypt grønt forheng, nå nesten svart."
+      },
+      {
+       "name": "Ultramarin",
+       "text": "Det blå fra lapis lazuli. Det tar nesten ingen plass, og likevel er det alt vi ser."
+      },
+      {
+       "name": "Brun oker",
+       "text": "Skyggene i jakken og i det gule stoffet: en varm og billig jordfarge."
+      },
+      {
+       "name": "Hudens rosa",
+       "text": "Den lyseste delen av maleriet. Det er dit øynene våre går først."
+      },
+      {
+       "name": "Gult",
+       "text": "På jakken og i stoffet som faller fra turbanen. Det svarer det blå."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "I 1994 ble maleriet restaurert. Under en gulnet ferniss fant konservatorene friskere farger, og den lille lyse prikken i munnviken som ingen lenger kunne se."
+    },
+    {
+     "type": "text",
+     "text": "Og bakgrunnen? I dag ser den flat og svart ut. Vitenskapelige analyser har vist at Vermeer malte et mørkegrønt forheng der. De grønne pigmentene er brutt ned med tiden."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer signerte dette maleriet. Men hvor? Se godt etter, for den er nesten usynlig.",
+     "spots": [
+      {
+       "title": "Signaturen",
+       "text": "«IVMeer», øverst til venstre. Den er malt i en lys tone på den mørke bakgrunnen, og med tiden har den nesten bleknet bort."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Er perlen i det hele tatt en perle? Den er enorm. Noen eksperter tror den var av fernissert glass eller polert tinn. Det spiller liten rolle: I maling er den en dråpe lys, og mer ville ikke Vermeer."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer maler ikke gjenstander. Han maler lyset som faller på dem. Perlen er to strøk med hvitt."
+    },
+    {
+     "type": "text",
+     "text": "Vi kjenner bare rundt 37 malerier av Vermeer. Etter at han døde, var han nesten glemt i to hundre år."
+    },
+    {
+     "type": "fact",
+     "text": "I 1881 kjøpte en samler dette maleriet på auksjon for to gylden, nesten ingenting. Han testamenterte det til Mauritshuis i 1902."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Blikket",
+       "text": "Hun snur seg mot deg, som om du nettopp sa navnet hennes. Én enkelt hvit prikk i hvert øye er nok til at blikket ser fuktig og levende ut."
+      },
+      {
+       "title": "Munnen",
+       "text": "Litt åpen, som midt i en setning. Se på den bitte lille lyse prikken i munnviken: ett eneste strøk, og munnen glinser."
+      },
+      {
+       "title": "Perlen",
+       "text": "To strøk, ikke mer: et hvitt lysglimt øverst, et grått gjenskinn av kragen nederst. Ingen kontur, ingen krok. Det er øyet ditt som bygger perlen."
+      },
+      {
+       "title": "Den blå turbanen",
+       "text": "Ekte ultramarin, laget av lapis lazuli, en stein som ble fraktet helt fra Afghanistan. Den gangen kostet dette pigmentet mer enn gull."
+      },
+      {
+       "title": "Det gule fallet",
+       "text": "Det gule stoffet faller nedover ryggen hennes som en flamme. Blått og gult: Vermeer elsket dette fargeparet og brukte det i maleri etter maleri."
+      },
+      {
+       "title": "Den hvite kragen",
+       "text": "Et bånd av hvitt, lagt på i én bevegelse. Det er kragen som speiler seg nederst i perlen."
+      },
+      {
+       "title": "Signaturen",
+       "text": "«IVMeer», øverst til venstre. Den er malt i en lys tone på den mørke bakgrunnen, og med tiden har den nesten bleknet bort."
+      },
+      {
+       "title": "Bakgrunnen",
+       "text": "Den har ikke alltid vært svart. Analyser viser at Vermeer malte et mørkegrønt forheng her. Det grønne har forsvunnet i løpet av århundrene."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hva er en «tronie»?",
+     "options": [
+      "Et bestilt portrett",
+      "En studie av et oppdiktet ansikt",
+      "Et selvportrett"
+     ],
+     "explanation": "Et påskudd for å male et uttrykk og et lys, ikke et virkelig menneske."
+    },
+    {
+     "question": "Hvor kommer det blå i turbanen fra?",
+     "options": [
+      "En plante, indigo",
+      "En stein, lapis lazuli",
+      "Et skjell"
+     ],
+     "explanation": "Oppmalt lapis lazuli gir naturlig ultramarin, som den gangen var dyrere enn gull."
+    },
+    {
+     "question": "Hvordan er perlen malt?",
+     "options": [
+      "Med en presis kontur og en krok",
+      "Med to lyse strøk og uten kontur",
+      "Med bladsølv"
+     ],
+     "explanation": "Et hvitt lysglimt, et grått gjenskinn: Øyet ditt gjør resten."
+    },
+    {
+     "question": "Hvor kommer lyset fra?",
+     "options": [
+      "Fra venstre",
+      "Fra høyre",
+      "Nedenfra"
+     ],
+     "explanation": "Ovenfra til venstre, som fra et vindu vi ikke ser."
+    },
+    {
+     "question": "Hva var bakgrunnen opprinnelig?",
+     "options": [
+      "Et mørkegrønt forheng",
+      "Et vindu",
+      "En gullvegg"
+     ],
+     "explanation": "De grønne pigmentene er brutt ned i løpet av århundrene."
+    },
+    {
+     "question": "Hvor tilbrakte Vermeer hele livet sitt?",
+     "options": [
+      "Amsterdam",
+      "Delft",
+      "Haag"
+     ],
+     "explanation": "Han levde og arbeidet i den lille byen Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Vi vet hva piken som satt modell, het.",
+     "explanation": "Ingen vet hvem hun er: Maleriet er en tronie."
+    },
+    {
+     "text": "Det blå i turbanen kommer fra en stein, lapis lazuli.",
+     "explanation": "Når den males opp, gir den naturlig ultramarin."
+    },
+    {
+     "text": "Perlen er malt med en omhyggelig, detaljert kontur.",
+     "explanation": "Den består bare av to lyse strøk, helt uten kontur."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Den store bølgen utenfor Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "ca. 1831",
+   "museum": "Tresnitt · mange avtrykk",
+   "teaser": "En kjempebølge, og langt der bak, bitte lite, Fuji-fjellet.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Dette er ikke et maleri. Det er et trykk: et bilde som er skåret inn i treblokker, svertet med farge og så trykt på papir. Derfor finnes det ikke én Store bølge. Det finnes tusenvis."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai ga det ut rundt 1831. Han var omkring 70 år og hadde tegnet siden han var barn. Bildet innleder en serie som ble berømt: Trettiseks utsikter over Fuji-fjellet."
+    },
+    {
+     "type": "key",
+     "text": "Den store bølgen er et tresnitt, trykt i tusenvis av eksemplarer. Mange museer verden over har et."
+    },
+    {
+     "type": "fact",
+     "text": "Et slikt trykk var billig. På Hokusais tid kostet det omtrent like mye som en bolle nudler."
+    },
+    {
+     "type": "find",
+     "text": "Serien heter Trettiseks utsikter over Fuji-fjellet. Så hvor er Fuji?",
+     "spots": [
+      {
+       "title": "Fuji-fjellet",
+       "text": "Trykkets egentlige motiv er her, bitte lite. Japans hellige fjell, med snø på toppen, helt stille midt i stormen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Det er selve genistreken: Japans høyeste fjell er mindre enn bølgen. Hokusai leker med avstanden. Det som er nært, knuser det som er langt borte, som i et fotografi tatt med vidvinkel."
+    },
+    {
+     "type": "text",
+     "text": "Fuji var hellig. Folk trodde at fjellet gjemte hemmeligheten bak evig liv. Hokusai var besatt av det og tegnet det fra alle kanter, i all slags vær."
+    },
+    {
+     "type": "tour",
+     "text": "La oss reise gjennom bildet slik øyet gjør.",
+     "spots": [
+      {
+       "title": "Skummet",
+       "text": "Se på toppen av bølgen: Skummet ender i krokete fingre, som klør som er i ferd med å lukke seg om båtene."
+      },
+      {
+       "title": "Roerne",
+       "text": "Fiskere bøyd over årene, med hodet senket. Disse raske båtene fraktet fersk fisk til Edo, byen vi i dag kaller Tokyo."
+      },
+      {
+       "title": "Den lille bølgen",
+       "text": "I forgrunnen ligger en mindre bølge. Se på formen: spiss og hvit på toppen. Den er et Fuji nummer to."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "I Japan leser man fra høyre mot venstre. Øyet kommer altså inn fra høyre, sammen med båtene, og løper rett inn i bølgen. For en japansk betrakter kommer bølgen rett imot en."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai skiftet navn mer enn tretti ganger i løpet av livet. Et av de siste navnene hans betydde «Gamlingen som er gal etter tegning»."
+    },
+    {
+     "type": "lines",
+     "text": "Et enkelt bilde, beregnet ned til millimeteren.",
+     "lines": [
+      {
+       "label": "Buen",
+       "text": "Bølgen tegner en stor bue som lukker seg om seg selv. Hele venstre side av bildet er fanget inni den."
+      },
+      {
+       "label": "Fujis trekant",
+       "text": "Liten, stabil og spiss. Den ligger nøyaktig i hulningen under bølgen."
+      },
+      {
+       "label": "Dobbeltgjengeren",
+       "text": "Den lille bølgen i forgrunnen gjentar fjellets form. Vannet etterligner steinen."
+      },
+      {
+       "label": "Leseretningen",
+       "text": "Fra høyre mot venstre: Vi glir langs dønningen fram til Fuji, og så løfter vi blikket mot bølgen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Hvordan ble det laget? Hokusai tegnet bildet på tynt papir. En treskjærer limte tegningen på en blokk av kirsebærtre og skar bort alt som ikke var linjer. Så sverte en trykker blokken og presset papiret mot den."
+    },
+    {
+     "type": "text",
+     "text": "Hver farge trengte sin egen utskårne blokk, og blokkene ble trykt etter hverandre på det samme arket. Derfor har tresnitt så få farger."
+    },
+    {
+     "type": "key",
+     "text": "Én treblokk per farge: Jo færre farger, desto enklere trykk. Hokusai gjør denne begrensningen til en stil."
+    },
+    {
+     "type": "palette",
+     "text": "Svært få farger, fordi hver av dem trenger sin egen utskårne blokk. Trykk på en.",
+     "swatches": [
+      {
+       "name": "Papiret",
+       "text": "Den vanligste fargen er ikke trykt i det hele tatt: Det er det nakne papiret, som er latt stå blankt for skummet og snøen."
+      },
+      {
+       "name": "Prøyssisk blått",
+       "text": "Det blå fra Europa. Det tegner bølgen, stripene i den og fordypningene."
+      },
+      {
+       "name": "Lyseblått",
+       "text": "Det samme blå, tynnet ut. Det gir vannet volum."
+      },
+      {
+       "name": "Tonet himmel",
+       "text": "En beige tone, knapt mørkere enn papiret, som får det hvite skummet til å tre fram."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Litt mer om det blå. Det er prøyssisk blått, et kjemisk pigment som ble funnet opp i Europa og nettopp hadde kommet til Japan. Det er dypt, det falmer ikke, og det vakte oppsikt. Serien skylder det mye av suksessen sin."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai signerte bildet sitt. Hvor? Et hint: ikke nede i høyre hjørne.",
+     "spots": [
+      {
+       "title": "Kartusjen",
+       "text": "Inni rammen står tittelen på serien og på bildet, «Under bølgen utenfor Kanagawa». Til venstre for den: Hokusais signatur."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "På 1850-tallet åpnet Japan seg for handel, og trykkene nådde Europa. De franske malerne ble målløse: rene fargeflater, skarpe konturer, dristige utsnitt. Monet samlet på dem. Van Gogh kopierte dem."
+    },
+    {
+     "type": "key",
+     "text": "Denne begeistringen kalles japonisme. Uten de japanske trykkene ville impresjonismen ikke sett ut som den gjør."
+    },
+    {
+     "type": "text",
+     "text": "En siste ting: Dette er ingen tsunami. Det er en bølge fra åpent hav, enorm, men helt vanlig, den typen fiskerne fryktet. Hokusai viser ikke en katastrofe. Han viser bitte små mennesker ansikt til ansikt med naturen."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Fuji-fjellet",
+       "text": "Trykkets egentlige motiv er her, bitte lite. Japans hellige fjell, med snø på toppen, helt stille midt i stormen."
+      },
+      {
+       "title": "Skummet",
+       "text": "Se på toppen av bølgen: Skummet ender i krokete fingre, som klør som er i ferd med å lukke seg om båtene."
+      },
+      {
+       "title": "Roerne",
+       "text": "Fiskere bøyd over årene, med hodet senket. Disse raske båtene fraktet fersk fisk til Edo, byen vi i dag kaller Tokyo."
+      },
+      {
+       "title": "Den lille bølgen",
+       "text": "I forgrunnen ligger en mindre bølge. Se på formen: spiss og hvit på toppen. Den er et Fuji nummer to."
+      },
+      {
+       "title": "Kartusjen",
+       "text": "Inni rammen står tittelen på serien og på bildet, «Under bølgen utenfor Kanagawa». Til venstre for den: Hokusais signatur."
+      },
+      {
+       "title": "Den nederste båten",
+       "text": "Den stuper ned i bølgedalen. Det er tre båter i alt, og omkring tretti menn."
+      },
+      {
+       "title": "Himmelen",
+       "text": "Nesten tom. En enkel fargeovergang, laget ved å tørke av fargen på treblokken før trykkingen."
+      },
+      {
+       "title": "Skumsprøytet",
+       "text": "Hvite prikker faller over Fuji. De ser ut som snø på fjellet."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hva er Den store bølgen?",
+     "options": [
+      "Et oljemaleri",
+      "Et tresnitt",
+      "En akvarell"
+     ],
+     "explanation": "Et trykk, laget i tusenvis av eksemplarer."
+    },
+    {
+     "question": "Hvilken serie hører det til?",
+     "options": [
+      "Hundre utsikter over Edo",
+      "Trettiseks utsikter over Fuji-fjellet",
+      "De fire årstidene"
+     ],
+     "explanation": "Det innleder Hokusais serie om Fuji."
+    },
+    {
+     "question": "Hvor kommer det blå i bølgen fra?",
+     "options": [
+      "Lapis lazuli",
+      "Prøyssisk blått, importert fra Europa",
+      "Knuste skjell"
+     ],
+     "explanation": "Et kjemisk pigment som var nytt i Japan, dypt og holdbart."
+    },
+    {
+     "question": "Hvilken form gjentar den lille bølgen i forgrunnen?",
+     "options": [
+      "Fuji-fjellet",
+      "En båt",
+      "En sky"
+     ],
+     "explanation": "Vannet etterligner fjellet."
+    },
+    {
+     "question": "Hvorfor har tresnitt så få farger?",
+     "options": [
+      "Farger var forbudt",
+      "Hver farge trenger sin egen utskårne blokk",
+      "Papiret tålte ikke blekk"
+     ],
+     "explanation": "Én blokk per farge, trykt etter hverandre."
+    },
+    {
+     "question": "Hva kalles den europeiske begeistringen for japanske tresnitt?",
+     "options": [
+      "Japonisme",
+      "Orientalisme",
+      "Kubisme"
+     ],
+     "explanation": "Monet samlet på trykkene, og van Gogh kopierte dem."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Det finnes bare ett eksemplar av Den store bølgen.",
+     "explanation": "Det er et trykk: Det ble laget tusenvis av eksemplarer."
+    },
+    {
+     "text": "Hokusai var omkring 70 år da han laget det.",
+     "explanation": "Han ble født i 1760, og serien kom ut rundt 1831."
+    },
+    {
+     "text": "Den store bølgen viser en tsunami.",
+     "explanation": "Det er en stor bølge fra åpent hav, ikke en tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Vannliljer",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "Ingen horisont lenger: bare vann, blomster og himmelen som speiler seg.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "I Giverny lot Monet grave ut en dam i hagen sin, og der plantet han vannliljer. Den dammen ble motivet hans i nesten tretti år."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · blomstene som hviler på vannet."
+    },
+    {
+     "type": "text",
+     "text": "Se godt etter: Her er ingen bredd og ingen horisont. Du kan ikke lenger se hvor vannet slutter og speilbildet av himmelen begynner."
+    },
+    {
+     "type": "key",
+     "text": "Uten horisont blir maleriet en flate: Vi ser på vannet slik vi ellers ser på himmelen."
+    },
+    {
+     "type": "fact",
+     "text": "Monet hadde gartnere til å stelle dammen. En av dem renset vannflaten hver morgen før han begynte å male."
+    },
+    {
+     "type": "text",
+     "text": "Monet malte rundt 250 lerreter med vannliljer. De samme blomstene, men aldri det samme lyset."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hvor malte Monet vannliljene sine?",
+     "options": [
+      "I Giverny",
+      "I Paris",
+      "I Venezia"
+     ],
+     "explanation": "I hagen ved sitt eget hus."
+    },
+    {
+     "question": "Hva mangler i dette maleriet?",
+     "options": [
+      "Vannet",
+      "Horisonten",
+      "Blomstene"
+     ],
+     "explanation": "Ingen bredd, ingen himmel: bare vannflaten."
+    },
+    {
+     "question": "Hvor mange vannliljemalerier laget han?",
+     "options": [
+      "Omtrent ti",
+      "Rundt 250",
+      "Mer enn 2000"
+     ],
+     "explanation": "En enorm serie, gjennom nesten tretti år."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet malte vannliljene sine bare én gang.",
+     "explanation": "Han malte rundt 250 versjoner."
+    },
+    {
+     "text": "Vannliljedammen lå i Monets egen hage.",
+     "explanation": "I Giverny, der han lot den grave ut."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impresjon, soloppgang",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Paris",
+   "teaser": "Maleriet som ga en hel kunstretning navnet sitt, som en spøk.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Havnen i Le Havre en tåkete morgen. Monet setter noen raske strøk: båter, master og en oransje sol."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · solen og speilbildet."
+    },
+    {
+     "type": "text",
+     "text": "I 1874 ble lerretet vist i Paris. En kritiker, Louis Leroy, gjorde narr av tittelen og kalte disse malerne «impresjonister»."
+    },
+    {
+     "type": "key",
+     "text": "Ordet «impresjonisme» kommer fra dette maleriet. Det begynte som en fornærmelse og endte som et navn."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre er byen der Monet vokste opp. Som tenåring var han kjent der for karikaturene sine."
+    },
+    {
+     "type": "text",
+     "text": "Maleriet ble også stjålet, fra Marmottan-museet i 1985. Det ble funnet igjen fem år senere."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hvilken havn malte Monet?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Venezia"
+     ],
+     "explanation": "Byen der han vokste opp."
+    },
+    {
+     "question": "Hva ga dette maleriet navn til?",
+     "options": [
+      "Impresjonismen",
+      "Et museum",
+      "En pris"
+     ],
+     "explanation": "En kritiker gjorde narr av tittelen, og ordet ble hengende ved."
+    },
+    {
+     "question": "Hvilket år ble det vist i Paris?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Det året gjorde kritikeren Louis Leroy narr av det."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Ordet «impresjonist» begynte som en fornærmelse.",
+     "explanation": "Det kommer fra en artikkel av kritikeren Louis Leroy."
+    },
+    {
+     "text": "Dette maleriet viser havnen i Marseille.",
+     "explanation": "Det er havnen i Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Kysset",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Wien",
+   "teaser": "To elskende svøpt i gull, i kanten av en blomstereng.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt er på høyden av sin «gullperiode». Han legger ekte bladgull på lerretet, som på et religiøst ikon."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · de to ansiktene."
+    },
+    {
+     "type": "text",
+     "text": "Se på klærne. Kappen hans er dekket av svarte og hvite rektangler. Hennes er full av sirkler og blomster."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · rektangler og sirkler."
+    },
+    {
+     "type": "key",
+     "text": "Rektangler for ham, sirkler for henne: Mønstrene forteller historien om paret."
+    },
+    {
+     "type": "fact",
+     "text": "Klimts far var gullgravør. Maleren vokste opp omgitt av det metallet han senere skulle legge på lerretene sine."
+    },
+    {
+     "type": "text",
+     "text": "Den østerrikske staten kjøpte maleriet i 1908, før det engang var helt ferdig."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hvilket materiale brukte Klimt?",
+     "options": [
+      "Perlemor",
+      "Bladgull",
+      "Bronse"
+     ],
+     "explanation": "Det er kjennemerket for gullperioden hans."
+    },
+    {
+     "question": "Hvilke mønstre dekker mannens kappe?",
+     "options": [
+      "Sirkler",
+      "Blomster",
+      "Rektangler"
+     ],
+     "explanation": "Sirklene og blomstene hører til kvinnen."
+    },
+    {
+     "question": "Hvem kjøpte maleriet i 1908?",
+     "options": [
+      "Den østerrikske staten",
+      "En fransk samler",
+      "Klimts far"
+     ],
+     "explanation": "Før det engang var helt ferdig."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt brukte ekte bladgull.",
+     "explanation": "Som i flere av lerretene fra gullperioden hans."
+    },
+    {
+     "text": "Kysset befinner seg i Paris.",
+     "explanation": "Det er i Wien, på Belvedere."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Solsikker",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, London",
+   "teaser": "Gult på gult: en bukett malt for å ta imot en venn.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "August 1888, i Arles. Van Gogh venter på vennen Paul Gauguin og vil pynte rommet hans med solsikker."
+    },
+    {
+     "type": "image",
+     "caption": "Detalj · blomster i alle stadier."
+    },
+    {
+     "type": "text",
+     "text": "Han våger å bruke nesten bare én farge: gule blomster, gul vase, gul bakgrunn. Alt avhenger av nyansene og av hvor tykt malingen ligger."
+    },
+    {
+     "type": "key",
+     "text": "Et nesten monokromt maleri: gult i alle varianter."
+    },
+    {
+     "type": "fact",
+     "text": "Solsikker visner fort. Van Gogh måtte male raskt, fra soloppgang av, før blomstene begynte å henge."
+    },
+    {
+     "type": "text",
+     "text": "Det finnes flere versjoner av disse solsikkene. Noen blomster er fortsatt knopper, andre har allerede visnet: Buketten forteller også om tiden som går."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hvem skulle solsikkene pynte rommet til?",
+     "options": [
+      "Paul Gauguin",
+      "Claude Monet",
+      "Broren Theo"
+     ],
+     "explanation": "Van Gogh ventet på ham i Arles."
+    },
+    {
+     "question": "I hvilken by malte han dem?",
+     "options": [
+      "Paris",
+      "Arles",
+      "Amsterdam"
+     ],
+     "explanation": "I Sør-Frankrike, i august 1888."
+    },
+    {
+     "question": "Hva er uvanlig med fargene?",
+     "options": [
+      "Nesten alt er gult",
+      "Det er ikke noe gult i det hele tatt",
+      "Det er i svart-hvitt"
+     ],
+     "explanation": "Gule blomster, gul vase, gul bakgrunn."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Det finnes flere versjoner av Solsikker.",
+     "explanation": "Van Gogh malte en hel serie."
+    },
+    {
+     "text": "Van Gogh solgte Solsikker for en formue mens han levde.",
+     "explanation": "Han solgte nesten ingenting mens han levde."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "ca. 1503–1519",
+   "museum": "Louvre, Paris",
+   "teaser": "Verdens mest berømte smil hviler på konturer du ikke kan se.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Det er verdens mest berømte maleri, og det er lite: 77 ganger 53 centimeter, malt på et panel av poppeltre. Mange av dem som besøker Louvre, blir overrasket når de ser det."
+    },
+    {
+     "type": "text",
+     "text": "Rundt 1503, i Firenze, ba en silkehandler ved navn Francesco del Giocondo Leonardo da Vinci om å male kona hans, Lisa Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa er et portrett av Lisa Gherardini, kona til en kjøpmann fra Firenze. «Mona» betyr rett og slett «frue»."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo var ikke bare maler. Han var også ingeniør, anatom og oppfinner, og han etterlot seg tusenvis av notatboksider skrevet med speilskrift."
+    },
+    {
+     "type": "tour",
+     "text": "Se på henne som helhet. Kom så nærmere det som gjorde henne til en legende.",
+     "spots": [
+      {
+       "title": "Smilet",
+       "text": "Let etter streken som tegner leppene: Den finnes ikke. Munnvikene løser seg opp i skygge. Derfor ser smilet ut til å forandre seg."
+      },
+      {
+       "title": "Øynene",
+       "text": "Samme triks: Øyekrokene smelter inn i skyggen. Legg også merke til at hun verken har øyenbryn eller øyenvipper."
+      },
+      {
+       "title": "Hendene",
+       "text": "De hviler avslappet over hverandre. Leonardo dissekerte lik for å forstå knokler og muskler: Disse hendene har tyngde."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Denne uskarpheten har et navn: sfumato, fra det italienske «fumo», røyk. Leonardo legger dusinvis av svært tynne, nesten gjennomsiktige lag maling oppå hverandre. Konturene forsvinner, og formene glir over i hverandre."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato betyr myke, røykaktige konturer. Det er det som gjør smilet umulig å gripe."
+    },
+    {
+     "type": "text",
+     "text": "Prøv selv. Se på øynene hennes, og munnen ser ut til å smile. Se rett på munnen, og smilet blekner. Det er skyggene i munnvikene som gjør jobben."
+    },
+    {
+     "type": "find",
+     "text": "Noe mangler i dette ansiktet. Trykk på stedet der det skulle vært.",
+     "spots": [
+      {
+       "title": "Øyenbrynene",
+       "text": "Hun har verken øyenbryn eller øyenvipper. Datidens mote, eller maling som er slitt bort av gamle rengjøringer? Ekspertene strides fortsatt om det."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Se så på stillingen. Før Leonardo ble portretter som regel vist i profil, eller skåret av ved brystet. Han viser figuren ned til livet, vendt tre fjerdedeler mot oss, og hendene er med."
+    },
+    {
+     "type": "fact",
+     "text": "Den unge maleren Rafael så portrettet i Leonardos atelier og tok straks stillingen i bruk i sine egne verk."
+    },
+    {
+     "type": "lines",
+     "text": "En rolig stilling, et underlig landskap. Se hvordan det hele er bygd opp.",
+     "lines": [
+      {
+       "label": "Pyramiden",
+       "text": "Hodet på toppen, armene og hendene ved foten. En bred, stabil form: Hun beveger seg ikke, hun sitter trygt."
+      },
+      {
+       "label": "Horisonten til venstre",
+       "text": "Til venstre ligger vannlinjen i landskapet omtrent her."
+      },
+      {
+       "label": "Horisonten til høyre",
+       "text": "Til høyre ligger den høyere. De to halvdelene av landskapet passer ikke sammen, og noe av det underlige ved bildet kommer nettopp derfra."
+      },
+      {
+       "label": "Stien",
+       "text": "En buktende linje som leder øyet innover i det fjerne, som elvene på høyre side."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Landskapet er ikke et virkelig sted. Det er en drømmeverden av klipper, vann og dis, uten hus og uten mennesker. Bare én ting i det er bygd av menneskehender."
+    },
+    {
+     "type": "find",
+     "text": "I dette tomme landskapet finnes det ett eneste byggverk. Hvor er broen?",
+     "spots": [
+      {
+       "title": "Broen",
+       "text": "En liten steinbro med flere buer. Den er det eneste sporet etter mennesker i hele landskapet."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bakgrunnen følger en regel Leonardo selv skrev ned: luftperspektiv. Luften er aldri helt klar. Jo lenger unna noe er, desto blåere, blekere og mer disig ser det ut."
+    },
+    {
+     "type": "key",
+     "text": "Luftperspektiv: Det som er langt borte, ser blåere, blekere og mer uskarpt ut. Leonardo var blant de første som malte det med vilje."
+    },
+    {
+     "type": "palette",
+     "text": "Brunt, grønt, litt gull. Gammel ferniss har gjort alt gulere. Trykk på en farge.",
+     "swatches": [
+      {
+       "name": "Skyggene",
+       "text": "Kjolen, håret, sløret. Nesten halve maleriet ligger i halvmørke."
+      },
+      {
+       "name": "Huden",
+       "text": "Ansiktet, brystet, hendene: de tre lyse flekkene, ordnet i en trekant."
+      },
+      {
+       "name": "Grågrønn himmel",
+       "text": "Opprinnelig blåere. Den gulnede fernissen har trukket den mot grønt."
+      },
+      {
+       "name": "Brun jord",
+       "text": "Klippene og stiene i landskapet, på begge sider av skuldrene hennes."
+      },
+      {
+       "name": "Det fjerne grønne",
+       "text": "Vannet og fjellene, dempet av avstanden."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo leverte aldri maleriet. Han beholdt det, arbeidet videre med det i årevis og tok det med seg til Frankrike da kong Frans I inviterte ham dit. Da han døde i 1519, gikk portrettet inn i den kongelige samlingen. Det er derfor det henger i Louvre."
+    },
+    {
+     "type": "text",
+     "text": "Lenge var det ett mesterverk blant mange. Verdensberømmelsen skyldes en forbrytelse: 21. august 1911 løftet en italiensk arbeider, Vincenzo Peruggia, maleriet ned fra veggen og gikk ut med det under arbeidskittelen."
+    },
+    {
+     "type": "fact",
+     "text": "Mens maleriet var borte, sto folk i kø på Louvre bare for å se på det tomme stedet på veggen."
+    },
+    {
+     "type": "text",
+     "text": "Aviser over hele verden trykte bildet hennes. Da hun ble funnet i Firenze i 1913, var Mona Lisa ikke lenger bare et maleri. Hun var en stjerne."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa skylder Leonardo sin genialitet, og et tyveri sin berømmelse."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Smilet",
+       "text": "Let etter streken som tegner leppene: Den finnes ikke. Munnvikene løser seg opp i skygge. Derfor ser smilet ut til å forandre seg."
+      },
+      {
+       "title": "Øynene",
+       "text": "Samme triks: Øyekrokene smelter inn i skyggen. Legg også merke til at hun verken har øyenbryn eller øyenvipper."
+      },
+      {
+       "title": "Hendene",
+       "text": "De hviler avslappet over hverandre. Leonardo dissekerte lik for å forstå knokler og muskler: Disse hendene har tyngde."
+      },
+      {
+       "title": "Broen",
+       "text": "En liten steinbro med flere buer. Den er det eneste sporet etter mennesker i hele landskapet."
+      },
+      {
+       "title": "Stien",
+       "text": "En sti som bukter seg mot en innsjø. Landskapet er ikke et virkelig sted: Leonardo dikter det opp ut fra studiene sine av klipper og vann."
+      },
+      {
+       "title": "Sløret",
+       "text": "Et gjennomsiktig slør dekker håret hennes. Det er så tynt at du knapt kan skimte det i pannen."
+      },
+      {
+       "title": "Det fjerne",
+       "text": "Jo lenger unna fjellene ligger, desto blåere og mer disige blir de. Leonardo la merke til at selve luften har en farge."
+      },
+      {
+       "title": "Ermet",
+       "text": "Tette, gylne folder, malt én for én. Kjolen er mørk, og hun bærer ingen smykker: Ingenting skal ta oppmerksomheten bort fra ansiktet."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hvem er kvinnen i portrettet?",
+     "options": [
+      "En fransk dronning",
+      "Lisa Gherardini, kona til en kjøpmann fra Firenze",
+      "Leonardos mor"
+     ],
+     "explanation": "Mannen hennes, Francesco del Giocondo, bestilte portrettet."
+    },
+    {
+     "question": "Hva kalles teknikken med myke, røykaktige konturer?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointillisme"
+     ],
+     "explanation": "Fra «fumo», italiensk for røyk."
+    },
+    {
+     "question": "Hva er Mona Lisa malt på?",
+     "options": [
+      "Et lerret av lin",
+      "Et panel av poppeltre",
+      "En gipsvegg"
+     ],
+     "explanation": "Et panel av poppeltre på 77 ganger 53 centimeter."
+    },
+    {
+     "question": "Hva skjer med det som er langt borte?",
+     "options": [
+      "Det får klarere farger",
+      "Det blir blåere, blekere og mer disig",
+      "Konturene blir skarpere"
+     ],
+     "explanation": "Det er luftperspektiv."
+    },
+    {
+     "question": "Hvorfor er maleriet i Frankrike?",
+     "options": [
+      "Napoleon tok det med seg fra Italia",
+      "Leonardo tok det med, og det gikk inn i den kongelige samlingen",
+      "Louvre kjøpte det i 1911"
+     ],
+     "explanation": "Leonardo kom til Frankrike etter invitasjon fra kong Frans I."
+    },
+    {
+     "question": "Hva gjorde Mona Lisa verdensberømt?",
+     "options": [
+      "Tyveriet fra Louvre i 1911",
+      "En utstilling i New York",
+      "Restaureringen"
+     ],
+     "explanation": "Stjålet av Vincenzo Peruggia, funnet igjen i 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Lisa er malt på lerret.",
+     "explanation": "Det er malt på et panel av poppeltre."
+    },
+    {
+     "text": "Mona Lisa ble stjålet fra Louvre i 1911.",
+     "explanation": "Det ble funnet igjen to år senere."
+    },
+    {
+     "text": "Mona Lisa har tykke, mørke øyenbryn.",
+     "explanation": "Hun har verken øyenbryn eller øyenvipper."
+    }
+   ]
+  }
+ }
+}

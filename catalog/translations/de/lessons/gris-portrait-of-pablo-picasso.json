@@ -1,0 +1,138 @@
+{
+ "teaser": "Das Dankeschön eines jungen Malers an seinen berühmten Nachbarn, ganz aus gekippten Flächen gebaut.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Zwei Spanier wohnten im selben schäbigen Atelierhaus auf dem Hügel von Montmartre in Paris. Der eine, Pablo Picasso, war in der Avantgarde bereits in aller Munde. Der andere, Juan Gris, sechs Jahre jünger, sah durch die offenen Türen zu, was sein Nachbar da trieb, und lernte. 1912 malte er dieses Bild, um Danke zu sagen."
+  },
+  {
+   "type": "text",
+   "text": "Gris war 1906 aus Madrid gekommen, 19 Jahre alt und fast ohne Geld. Jahrelang verdiente er die Miete mit Karikaturen für Witzblätter. Ernsthaft zu malen begann er erst um 1910. Dieses Porträt gehörte zu den ersten Bildern, die er öffentlich zu zeigen wagte, und er suchte sich dafür gleich das größte Motiv aus, das zu haben war."
+  },
+  {
+   "type": "fact",
+   "text": "„Juan Gris“ war ein erfundener Name. Geboren wurde er als José Victoriano González-Pérez. Gris heißt auf Spanisch „grau“, eine bescheidene Wahl für einen Maler, der später für seine kühlen, silbrigen Farben bekannt wurde."
+  },
+  {
+   "type": "text",
+   "text": "Der Stil ist der Kubismus, den Picasso und Georges Braque in den Jahren unmittelbar davor entwickelt hatten. Ein kubistischer Maler zeigt ein Ding nicht von einem einzigen Standpunkt aus. Er zerlegt es in flache Facetten, aus mehreren Blickwinkeln gesehen, und fügt sie auf der Leinwand neu zusammen. Wer da Modell saß, ist dann manchmal schwer zu erkennen. Deshalb lässt Gris einen klaren Hinweis auf den Beruf des Mannes stehen."
+  },
+  {
+   "type": "find",
+   "text": "Picasso ist als Maler dargestellt. Wo ist der Beweis?",
+   "spots": [
+    {
+     "title": "Die Palette",
+     "text": "Er hält eine Palette, den Daumen durch das Loch gesteckt. Darauf sitzen vier Farbkleckse: Blau, Gelb, Rot und Schwarz. Es sind fast die einzigen reinen Farben auf der ganzen Leinwand."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Alles andere ist Blaugrau, Creme und Braun, wie von einem kalten Fenster beleuchtet. Diese Zurückhaltung ist Absicht. Die frühen Kubisten verzichteten auf kräftige Farbe, damit nichts vom Aufbau ablenkt. Gris macht daraus einen Witz: Die wilden Farben des Malers liegen alle noch auf der Palette und warten."
+  },
+  {
+   "type": "text",
+   "text": "Vergleich das nun mit dem, was Picasso selbst 1912 malte: dichte, flirrende Bilder, in denen sich die Figur beinahe auflöst. Gris ist anders. Kopf, Kragen und Hände findest du auf Anhieb. Er hatte technisches Zeichnen gelernt, und das merkt man daran, wie er die Fläche ordnet."
+  },
+  {
+   "type": "lines",
+   "text": "Spüre die verborgene Ordnung hinter den Bruchstücken auf.",
+   "lines": [
+    {
+     "label": "Schräger Hintergrund",
+     "text": "Die Wand hinter Picasso wird von Diagonalen zerschnitten, die von rechts oben nach links unten fallen. Jeder Streifen ist auf einer Seite hell und auf der anderen schattiert, wie ein gefaltetes Blatt Papier."
+    },
+    {
+     "label": "Derselbe Winkel",
+     "text": "Die Schräge wiederholt sich, parallel zur ersten, bis hin zum Kopf. Durch die Wiederholung bekommt das Bild einen gleichmäßigen Takt statt Chaos."
+    },
+    {
+     "label": "Die Knöpfe",
+     "text": "Die Jackenknöpfe marschieren in die Gegenrichtung, von links oben nach rechts unten. Körper und Hintergrund kreuzen sich wie die zwei Striche eines X, und das hält die Figur fest an ihrem Platz."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Das Gesicht folgt derselben Logik. Ein Auge blickt dich von vorn an. Wange und Kiefer daneben schwenken herum, als würdest du sie von der Seite sehen. In einem einzigen Bild darfst du einmal um Picassos Kopf herumgehen. Und doch erkennst du ihn an der schweren Haarsträhne, die ihm in die Stirn fällt."
+  },
+  {
+   "type": "key",
+   "text": "Gris zeigte, dass der Kubismus klar sein kann. Er behielt den gebrochenen, vielseitigen Blick bei und fügte Ordnung hinzu, Licht und eine Ähnlichkeit, die man noch erkennt."
+  },
+  {
+   "type": "fact",
+   "text": "In die rechte untere Ecke schrieb Gris über seine Signatur eine Widmung auf Französisch: „Hommage à Pablo Picasso“. Ganz geschmeichelt war der Held nicht. Freunden zufolge blieb Picasso kühl gegenüber dem Jüngeren, der seine Sprache so schnell gelernt hatte."
+  },
+  {
+   "type": "text",
+   "text": "Das Publikum aber wurde aufmerksam. Im Frühjahr 1912 in Paris ausgestellt, machte das Porträt Gris zum dritten großen Namen des Kubismus neben Picasso und Braque. Ihm blieben noch fünfzehn Jahre: Er starb 1927, mit 40. Die Leinwand, etwa 93 Zentimeter hoch, hängt heute im Art Institute of Chicago."
+  },
+  {
+   "type": "key",
+   "text": "Eine Hommage kann auch eine leise Herausforderung sein. Gris malte seinen Lehrer im Stil des Lehrers und machte sich diesen Stil dabei zu eigen."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Womit verdiente Gris sein Geld, bevor er ernsthaft malte?",
+   "options": [
+    "Mit Mathematikunterricht",
+    "Mit Karikaturen für Witzblätter",
+    "Mit dem Verkauf von Picassos Gemälden"
+   ],
+   "explanation": "Nach seiner Ankunft in Paris 1906 zeichnete er jahrelang für Satirezeitschriften."
+  },
+  {
+   "question": "Welcher Gegenstand weist Picasso auf dem Porträt als Maler aus?",
+   "options": [
+    "Eine Staffelei hinter ihm",
+    "Ein Pinsel hinter dem Ohr",
+    "Eine Palette mit vier Farbklecksen"
+   ],
+   "explanation": "Er hält eine Palette mit Blau, Gelb, Rot und Schwarz."
+  },
+  {
+   "question": "Was macht ein kubistischer Maler mit seinem Motiv?",
+   "options": [
+    "Er zerlegt es in Facetten, aus mehreren Blickwinkeln gesehen",
+    "Er kopiert es so genau wie eine Fotografie",
+    "Er malt es nur in leuchtenden Grundfarben"
+   ],
+   "explanation": "Der Kubismus vereint mehrere Ansichten desselben Dings auf einer einzigen Fläche."
+  },
+  {
+   "question": "Was schrieb Gris in die rechte untere Ecke?",
+   "options": [
+    "Datum und Preis",
+    "Eine Widmung an Picasso",
+    "Eine Zeile spanischer Lyrik"
+   ],
+   "explanation": "Über seine Signatur setzte er die Worte „Hommage à Pablo Picasso“."
+  },
+  {
+   "question": "Wie verhalten sich die Knöpfe zu den Diagonalen im Hintergrund?",
+   "options": [
+    "Sie laufen in die Gegenrichtung und kreuzen sie",
+    "Sie folgen genau derselben Schräge",
+    "Sie bilden einen perfekten Kreis"
+   ],
+   "explanation": "Die Knöpfe laufen von links oben nach rechts unten und kreuzen die Schräge des Hintergrunds wie ein X."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Juan Gris war der Geburtsname des Künstlers.",
+   "explanation": "Geboren wurde er als José Victoriano González-Pérez. Den Namen Gris, also grau, wählte er selbst."
+  },
+  {
+   "text": "Die leuchtendsten Farben des Gemäldes liegen auf der Palette.",
+   "explanation": "Die Farbkleckse in Blau, Gelb, Rot und Schwarz heben sich vom Blaugrau und Creme ringsum ab."
+  },
+  {
+   "text": "Gris war älter als Picasso und brachte ihm den Kubismus bei.",
+   "explanation": "Gris war sechs Jahre jünger und lernte den Kubismus, indem er seinem Nachbarn Picasso zusah."
+  }
+ ]
+}

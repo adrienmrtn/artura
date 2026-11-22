@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "ネフェルティティ胸像",
+   "artist": "トトメス",
+   "year_label": "紀元前1345年",
+   "museum": "新博物館、ベルリン"
+  },
+  "mask-of-tutankhamun": {
+   "title": "ツタンカーメンの黄金のマスク",
+   "artist": "作者不詳（エジプト）",
+   "year_label": "紀元前1323年",
+   "museum": "大エジプト博物館、ギザ"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "サモトラケのニケ",
+   "artist": "作者不詳（ギリシア）",
+   "year_label": "紀元前190年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "antioch-venus-de-milo": {
+   "title": "ミロのヴィーナス",
+   "artist": "アンティオキアのアレクサンドロス",
+   "year_label": "紀元前120年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "キリストの哀悼（嘆き）",
+   "artist": "ジョット",
+   "year_label": "1305年",
+   "museum": "スクロヴェーニ礼拝堂、パドヴァ"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "ベリー公のいとも豪華なる時祷書（1月）",
+   "artist": "ランブール兄弟",
+   "year_label": "1416年",
+   "museum": "コンデ美術館、シャンティイ"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "アルノルフィーニ夫妻の肖像",
+   "artist": "ヤン・ファン・エイク",
+   "year_label": "1434年",
+   "museum": "ナショナル・ギャラリー、ロンドン"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "十字架降下",
+   "artist": "ロヒール・ファン・デル・ウェイデン",
+   "year_label": "1435年",
+   "museum": "プラド美術館、マドリード"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "快楽の園",
+   "artist": "ヒエロニムス・ボス",
+   "year_label": "1500年",
+   "museum": "プラド美術館、マドリード"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "ヴィーナスの誕生",
+   "artist": "サンドロ・ボッティチェリ",
+   "year_label": "1485年",
+   "museum": "ウフィツィ美術館、フィレンツェ"
+  },
+  "vinci-mona-lisa": {
+   "title": "モナ・リザ",
+   "artist": "レオナルド・ダ・ヴィンチ",
+   "year_label": "1503年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "vinci-the-last-supper": {
+   "title": "最後の晩餐",
+   "artist": "レオナルド・ダ・ヴィンチ",
+   "year_label": "1498年",
+   "museum": "サンタ・マリア・デッレ・グラツィエ教会、ミラノ"
+  },
+  "vinci-vitruvian-man": {
+   "title": "ウィトルウィウス的人体図",
+   "artist": "レオナルド・ダ・ヴィンチ",
+   "year_label": "1490年",
+   "museum": "ヴェネツィア・アカデミア美術館、ヴェネツィア"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "アダムの創造",
+   "artist": "ミケランジェロ",
+   "year_label": "1512年",
+   "museum": "システィーナ礼拝堂、ヴァチカン市国"
+  },
+  "michelangelo-david": {
+   "title": "ダヴィデ像",
+   "artist": "ミケランジェロ",
+   "year_label": "1504年",
+   "museum": "アカデミア美術館、フィレンツェ"
+  },
+  "michelangelo-pieta": {
+   "title": "ピエタ",
+   "artist": "ミケランジェロ",
+   "year_label": "1499年",
+   "museum": "サン・ピエトロ大聖堂、ヴァチカン市国"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "アテナイの学堂",
+   "artist": "ラファエロ",
+   "year_label": "1511年",
+   "museum": "ヴァチカン美術館、ヴァチカン市国"
+  },
+  "titian-venus-of-urbino": {
+   "title": "ウルビーノのヴィーナス",
+   "artist": "ティツィアーノ",
+   "year_label": "1538年",
+   "museum": "ウフィツィ美術館、フィレンツェ"
+  },
+  "durer-young-hare": {
+   "title": "野兎",
+   "artist": "アルブレヒト・デューラー",
+   "year_label": "1502年",
+   "museum": "アルベルティーナ美術館、ウィーン"
+  },
+  "younger-the-ambassadors": {
+   "title": "大使たち",
+   "artist": "小ハンス・ホルバイン",
+   "year_label": "1533年",
+   "museum": "ナショナル・ギャラリー、ロンドン"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "雪中の狩人",
+   "artist": "大ピーテル・ブリューゲル",
+   "year_label": "1565年",
+   "museum": "ウィーン美術史美術館、ウィーン"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "バベルの塔",
+   "artist": "大ピーテル・ブリューゲル",
+   "year_label": "1563年",
+   "museum": "ウィーン美術史美術館、ウィーン"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "長い首の聖母",
+   "artist": "パルミジャニーノ",
+   "year_label": "1540年",
+   "museum": "ウフィツィ美術館、フィレンツェ"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "オルガス伯の埋葬",
+   "artist": "エル・グレコ",
+   "year_label": "1586年",
+   "museum": "サント・トメ教会、トレド"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "ウェルトゥムヌス",
+   "artist": "ジュゼッペ・アルチンボルド",
+   "year_label": "1591年",
+   "museum": "スコークロステル城、スウェーデン"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "聖マタイの召命",
+   "artist": "カラヴァッジョ",
+   "year_label": "1600年",
+   "museum": "サン・ルイジ・ディ・フランチェージ教会、ローマ"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "ホロフェルネスの首を斬るユディト",
+   "artist": "アルテミジア・ジェンティレスキ",
+   "year_label": "1620年",
+   "museum": "ウフィツィ美術館、フィレンツェ"
+  },
+  "velazquez-las-meninas": {
+   "title": "ラス・メニーナス",
+   "artist": "ディエゴ・ベラスケス",
+   "year_label": "1656年",
+   "museum": "プラド美術館、マドリード"
+  },
+  "rubens-the-three-graces": {
+   "title": "三美神",
+   "artist": "ピーテル・パウル・ルーベンス",
+   "year_label": "1635年",
+   "museum": "プラド美術館、マドリード"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "アポロとダフネ",
+   "artist": "ジャン・ロレンツォ・ベルニーニ",
+   "year_label": "1625年",
+   "museum": "ボルゲーゼ美術館、ローマ"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "聖テレジアの法悦",
+   "artist": "ジャン・ロレンツォ・ベルニーニ",
+   "year_label": "1652年",
+   "museum": "サンタ・マリア・デッラ・ヴィットーリア教会、ローマ"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "夜警",
+   "artist": "レンブラント",
+   "year_label": "1642年",
+   "museum": "アムステルダム国立美術館、アムステルダム"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "テュルプ博士の解剖学講義",
+   "artist": "レンブラント",
+   "year_label": "1632年",
+   "museum": "マウリッツハイス美術館、ハーグ"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "真珠の耳飾りの少女",
+   "artist": "ヨハネス・フェルメール",
+   "year_label": "1665年",
+   "museum": "マウリッツハイス美術館、ハーグ"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "牛乳を注ぐ女",
+   "artist": "ヨハネス・フェルメール",
+   "year_label": "1660年",
+   "museum": "アムステルダム国立美術館、アムステルダム"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "ゴシキヒワ",
+   "artist": "カレル・ファブリティウス",
+   "year_label": "1654年",
+   "museum": "マウリッツハイス美術館、ハーグ"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "シテール島への巡礼",
+   "artist": "アントワーヌ・ワトー",
+   "year_label": "1717年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "fragonard-the-swing": {
+   "title": "ぶらんこ",
+   "artist": "ジャン・オノレ・フラゴナール",
+   "year_label": "1767年",
+   "museum": "ウォレス・コレクション、ロンドン"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "麦わら帽子の自画像",
+   "artist": "エリザベート・ヴィジェ・ルブラン",
+   "year_label": "1782年",
+   "museum": "ナショナル・ギャラリー、ロンドン"
+  },
+  "david-the-death-of-marat": {
+   "title": "マラーの死",
+   "artist": "ジャック＝ルイ・ダヴィッド",
+   "year_label": "1793年",
+   "museum": "ベルギー王立美術館、ブリュッセル"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "アルプスを越えるナポレオン",
+   "artist": "ジャック＝ルイ・ダヴィッド",
+   "year_label": "1801年",
+   "museum": "マルメゾン城"
+  },
+  "ingres-grande-odalisque": {
+   "title": "グランド・オダリスク",
+   "artist": "ジャン＝オーギュスト＝ドミニク・アングル",
+   "year_label": "1814年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "キューピッドの接吻で蘇るプシュケ",
+   "artist": "アントニオ・カノーヴァ",
+   "year_label": "1793年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "1808年5月3日",
+   "artist": "フランシスコ・デ・ゴヤ",
+   "year_label": "1814年",
+   "museum": "プラド美術館、マドリード"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "民衆を導く自由の女神",
+   "artist": "ウジェーヌ・ドラクロワ",
+   "year_label": "1830年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "メデュース号の筏",
+   "artist": "テオドール・ジェリコー",
+   "year_label": "1819年",
+   "museum": "ルーヴル美術館、パリ"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "雲海の上の旅人",
+   "artist": "カスパー・ダーヴィト・フリードリヒ",
+   "year_label": "1818年",
+   "museum": "ハンブルク美術館"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "戦艦テメレール号",
+   "artist": "J・M・W・ターナー",
+   "year_label": "1839年",
+   "museum": "ナショナル・ギャラリー、ロンドン"
+  },
+  "hayez-the-kiss": {
+   "title": "接吻",
+   "artist": "フランチェスコ・アイエツ",
+   "year_label": "1859年",
+   "museum": "ブレラ絵画館、ミラノ"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "神奈川沖浪裏",
+   "artist": "葛飾北斎",
+   "year_label": "1831年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "凱風快晴（赤富士）",
+   "artist": "葛飾北斎",
+   "year_label": "1831年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "大はしあたけの夕立",
+   "artist": "歌川広重",
+   "year_label": "1857年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "清明上河図",
+   "artist": "張択端",
+   "year_label": "1100年",
+   "museum": "故宮博物院、北京"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "風神雷神図屏風",
+   "artist": "俵屋宗達",
+   "year_label": "1630年",
+   "museum": "建仁寺、京都"
+  },
+  "courbet-the-desperate-man": {
+   "title": "絶望した男",
+   "artist": "ギュスターヴ・クールベ",
+   "year_label": "1845年",
+   "museum": "個人蔵"
+  },
+  "millet-the-gleaners": {
+   "title": "落穂拾い",
+   "artist": "ジャン＝フランソワ・ミレー",
+   "year_label": "1857年",
+   "museum": "オルセー美術館、パリ"
+  },
+  "manet-olympia": {
+   "title": "オランピア",
+   "artist": "エドゥアール・マネ",
+   "year_label": "1863年",
+   "museum": "オルセー美術館、パリ"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "草上の昼食",
+   "artist": "エドゥアール・マネ",
+   "year_label": "1863年",
+   "museum": "オルセー美術館、パリ"
+  },
+  "wood-american-gothic": {
+   "title": "アメリカン・ゴシック",
+   "artist": "グラント・ウッド",
+   "year_label": "1930年",
+   "museum": "シカゴ美術館"
+  },
+  "sargent-madame-x": {
+   "title": "マダムX",
+   "artist": "ジョン・シンガー・サージェント",
+   "year_label": "1884年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "灰色と黒のアレンジメント第1番（ホイッスラーの母）",
+   "artist": "ジェームズ・マクニール・ホイッスラー",
+   "year_label": "1871年",
+   "museum": "オルセー美術館、パリ"
+  },
+  "millais-ophelia": {
+   "title": "オフィーリア",
+   "artist": "ジョン・エヴァレット・ミレイ",
+   "year_label": "1852年",
+   "museum": "テート・ブリテン、ロンドン"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "シャロットの女",
+   "artist": "ジョン・ウィリアム・ウォーターハウス",
+   "year_label": "1888年",
+   "museum": "テート・ブリテン、ロンドン"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "ヴィーナスの誕生",
+   "artist": "アレクサンドル・カバネル",
+   "year_label": "1863年",
+   "museum": "オルセー美術館、パリ"
+  },
+  "gerome-pollice-verso": {
+   "title": "ポリス・ヴェルソ（親指を下に）",
+   "artist": "ジャン＝レオン・ジェローム",
+   "year_label": "1872年",
+   "museum": "フェニックス美術館"
+  },
+  "monet-impression-sunrise": {
+   "title": "印象、日の出",
+   "artist": "クロード・モネ",
+   "year_label": "1872年",
+   "museum": "マルモッタン・モネ美術館、パリ"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "日傘をさす女（モネ夫人と息子）",
+   "artist": "クロード・モネ",
+   "year_label": "1875年",
+   "museum": "ナショナル・ギャラリー・オブ・アート、ワシントン"
+  },
+  "monet-water-lilies": {
+   "title": "睡蓮",
+   "artist": "クロード・モネ",
+   "year_label": "1906年",
+   "museum": "シカゴ美術館"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "ムーラン・ド・ラ・ギャレットの舞踏会",
+   "artist": "ピエール＝オーギュスト・ルノワール",
+   "year_label": "1876年",
+   "museum": "オルセー美術館、パリ"
+  },
+  "degas-the-dance-class": {
+   "title": "ダンス教室",
+   "artist": "エドガー・ドガ",
+   "year_label": "1874年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "morisot-the-cradle": {
+   "title": "ゆりかご",
+   "artist": "ベルト・モリゾ",
+   "year_label": "1872年",
+   "museum": "オルセー美術館、パリ"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "浜辺の散歩",
+   "artist": "ホアキン・ソローリャ",
+   "year_label": "1909年",
+   "museum": "ソローリャ美術館、マドリード"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "グランド・ジャット島の日曜日の午後",
+   "artist": "ジョルジュ・スーラ",
+   "year_label": "1886年",
+   "museum": "シカゴ美術館"
+  },
+  "gogh-the-starry-night": {
+   "title": "星月夜",
+   "artist": "フィンセント・ファン・ゴッホ",
+   "year_label": "1889年",
+   "museum": "ニューヨーク近代美術館、ニューヨーク"
+  },
+  "gogh-sunflowers": {
+   "title": "ひまわり",
+   "artist": "フィンセント・ファン・ゴッホ",
+   "year_label": "1888年",
+   "museum": "ナショナル・ギャラリー、ロンドン"
+  },
+  "cezanne-the-card-players": {
+   "title": "カード遊びをする人々",
+   "artist": "ポール・セザンヌ",
+   "year_label": "1892年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "われわれはどこから来たのか われわれは何者か われわれはどこへ行くのか",
+   "artist": "ポール・ゴーギャン",
+   "year_label": "1897年",
+   "museum": "ボストン美術館"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "ムーラン・ルージュのラ・グリュ",
+   "artist": "アンリ・ド・トゥールーズ＝ロートレック",
+   "year_label": "1891年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "眠れるジプシー女",
+   "artist": "アンリ・ルソー",
+   "year_label": "1897年",
+   "museum": "ニューヨーク近代美術館、ニューヨーク"
+  },
+  "munch-the-scream": {
+   "title": "叫び",
+   "artist": "エドヴァルド・ムンク",
+   "year_label": "1893年",
+   "museum": "国立美術館、オスロ"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "死の島",
+   "artist": "アルノルト・ベックリン",
+   "year_label": "1880年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "rodin-the-thinker": {
+   "title": "考える人",
+   "artist": "オーギュスト・ロダン",
+   "year_label": "1904年",
+   "museum": "ロダン美術館、パリ"
+  },
+  "klimt-the-kiss": {
+   "title": "接吻",
+   "artist": "グスタフ・クリムト",
+   "year_label": "1908年",
+   "museum": "ベルヴェデーレ宮殿、ウィーン"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "アデーレ・ブロッホ＝バウアーの肖像I",
+   "artist": "グスタフ・クリムト",
+   "year_label": "1907年",
+   "museum": "ノイエ・ギャラリー、ニューヨーク"
+  },
+  "matisse-dance": {
+   "title": "ダンス",
+   "artist": "アンリ・マティス",
+   "year_label": "1910年",
+   "museum": "エルミタージュ美術館、サンクトペテルブルク"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "帽子の女",
+   "artist": "アンリ・マティス",
+   "year_label": "1905年",
+   "museum": "サンフランシスコ近代美術館"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "大きな青い馬",
+   "artist": "フランツ・マルク",
+   "year_label": "1911年",
+   "museum": "ウォーカー・アート・センター、ミネアポリス"
+  },
+  "modigliani-reclining-nude": {
+   "title": "横たわる裸婦",
+   "artist": "アメデオ・モディリアーニ",
+   "year_label": "1917年",
+   "museum": "メトロポリタン美術館、ニューヨーク"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "パブロ・ピカソの肖像",
+   "artist": "フアン・グリス",
+   "year_label": "1912年",
+   "museum": "シカゴ美術館"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "木々とエッフェル塔",
+   "artist": "ロベール・ドローネー",
+   "year_label": "1910年",
+   "museum": "ソロモン・R・グッゲンハイム美術館、ニューヨーク"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "空間における連続性の唯一の形態",
+   "artist": "ウンベルト・ボッチョーニ",
+   "year_label": "1913年",
+   "museum": "ニューヨーク近代美術館、ニューヨーク"
+  },
+  "boccioni-the-city-rises": {
+   "title": "都市の興隆",
+   "artist": "ウンベルト・ボッチョーニ",
+   "year_label": "1910年",
+   "museum": "ニューヨーク近代美術館、ニューヨーク"
+  },
+  "kandinsky-composition-viii": {
+   "title": "コンポジションVIII",
+   "artist": "ワシリー・カンディンスキー",
+   "year_label": "1923年",
+   "museum": "ソロモン・R・グッゲンハイム美術館、ニューヨーク"
+  },
+  "malevich-black-square": {
+   "title": "黒の正方形",
+   "artist": "カジミール・マレーヴィチ",
+   "year_label": "1915年",
+   "museum": "トレチャコフ美術館、モスクワ"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "赤、青、黄のコンポジションII",
+   "artist": "ピート・モンドリアン",
+   "year_label": "1930年",
+   "museum": "チューリッヒ美術館"
+  },
+  "klee-senecio": {
+   "title": "セネシオ",
+   "artist": "パウル・クレー",
+   "year_label": "1922年",
+   "museum": "バーゼル美術館"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild（ウントビルト）",
+   "artist": "クルト・シュヴィッタース",
+   "year_label": "1919年",
+   "museum": "シュトゥットガルト州立美術館"
+  },
+  "terracotta-army": {
+   "title": "兵馬俑",
+   "artist": "作者不詳（中国）",
+   "year_label": "紀元前210年",
+   "museum": "秦始皇帝陵博物院、西安"
+  },
+  "aztec-sun-stone": {
+   "title": "アステカの太陽の石",
+   "artist": "作者不詳（アステカ）",
+   "year_label": "1510年",
+   "museum": "国立人類学博物館、メキシコシティ"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "ホア・ハカナナイア（モアイ像）",
+   "artist": "作者不詳（ラパ・ヌイ）",
+   "year_label": "1200年",
+   "museum": "大英博物館、ロンドン"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "古代世界",
+   "period": "紀元前2600年〜紀元300年",
+   "summary": "神々と王と理想の肉体",
+   "description": "エジプトからギリシア、ローマまで、芸術家たちは王や神々、アスリートを永遠に残るように刻みました。理想の肉体を求めたその探究は、のちの西洋美術に何世紀にもわたってお手本を与えます。"
+  },
+  "gothic": {
+   "name": "ゴシックと初期ルネサンス",
+   "period": "1280〜1430年",
+   "summary": "金色の背景と、はじめての本物の感情",
+   "description": "教会や礼拝堂の壁画では、まだ金の背景が使われています。それでも人物たちは泣き、振り向き、重みをもち始めます。絵で物語を語る方法が、新しく生まれ変わろうとしていました。"
+  },
+  "early_netherlandish": {
+   "name": "初期ネーデルラント絵画",
+   "period": "1420〜1500年",
+   "summary": "油彩と、目を見張る細部",
+   "description": "フランドルの画家たちは油絵具を完成させ、毛皮もガラスも涙も映り込みも、あらゆるものを描き出しました。聖なる場面は、本物の家のような部屋へと移っていきます。"
+  },
+  "renaissance": {
+   "name": "イタリア・ルネサンス",
+   "period": "1420〜1570年",
+   "summary": "遠近法と古代への回帰",
+   "description": "イタリアで、そしてヨーロッパ中で、芸術家たちは古代を再発見し、人体を研究し、遠近法を発明しました。絵画は世界に向かって開かれた窓になります。"
+  },
+  "northern_renaissance": {
+   "name": "北方ルネサンス",
+   "period": "1490〜1570年",
+   "summary": "鋭い線と版画と奇妙な幻想",
+   "description": "アルプスの北では、芸術家たちがイタリアの思想に、細部への愛と日常へのまなざしを重ねました。版画のおかげで、その作品はヨーロッパ中に広まります。"
+  },
+  "mannerism": {
+   "name": "マニエリスム",
+   "period": "1520〜1610年",
+   "summary": "限界まで引き伸ばされた優美さ",
+   "description": "巨匠たちのあと、画家たちはわざと決まりを崩します。長い体、ねじれたポーズ、刺すような色。様式そのものが主役になりました。"
+  },
+  "baroque": {
+   "name": "バロック",
+   "period": "1600〜1700年",
+   "summary": "ドラマと動きと深い闇",
+   "description": "芸術は見る人の心を揺さぶろうとします。光と闇の強いコントラスト、躍動する体、劇場のような演出が、あなたを画面の中へ引き込みます。"
+  },
+  "siecledor": {
+   "name": "オランダ黄金時代",
+   "period": "1600〜1700年",
+   "summary": "日常の暮らしと光",
+   "description": "豊かなオランダ共和国では、画家たちは市民の家に飾る絵を描きました。静かな室内、肖像画、静物画。本当の主役は光になります。"
+  },
+  "rococo": {
+   "name": "ロココと18世紀",
+   "period": "1715〜1790年",
+   "summary": "軽やかさと楽しみとパステルカラー",
+   "description": "18世紀のサロンでは、絵画は遊び心に満ち、親しみやすいものになります。庭の宴、肖像画、やわらかな色。同じ頃、ありふれた暮らしを静かに見つめる画家もいました。"
+  },
+  "neoclassicism": {
+   "name": "新古典主義",
+   "period": "1760〜1860年",
+   "summary": "明快な線と古代の徳",
+   "description": "ローマやポンペイの遺跡に刺激を受けた芸術家たちは、簡潔な素描と英雄的な主題へ立ち返ります。絵は、楽しませるだけでなく、教えるものでもありました。"
+  },
+  "romanticism": {
+   "name": "ロマン主義",
+   "period": "1780〜1860年",
+   "summary": "感情と自然と崇高",
+   "description": "理性に代わって、感情が主役になります。嵐、廃墟、反乱、ひとりきりの人物。手に負えないほど大きな世界を前にした芸術家の心が、そこに表れています。"
+  },
+  "ukiyoe": {
+   "name": "浮世絵",
+   "period": "1680〜1860年",
+   "summary": "「浮世」を刷った版画",
+   "description": "日本では、役者や風景や暮らしの場面が、木版画のシリーズとして刷られました。平らな色面と大胆な構図は、のちにヨーロッパの画家たちを驚かせます。"
+  },
+  "east_asian": {
+   "name": "中国・日本の絵画",
+   "period": "750〜1720年",
+   "summary": "墨と絹と余白",
+   "description": "中国や日本の画家は、絹や紙、屏風に筆と墨で描きます。わずかな筆づかいとたっぷりの余白だけで、山や季節を感じさせることができました。"
+  },
+  "realism": {
+   "name": "写実主義",
+   "period": "1845〜1890年",
+   "summary": "ふつうの人々を、ありのままに",
+   "description": "画家たちは英雄や神話に背を向け、農民や労働者、現代の暮らしを飾らずに描きます。真実を見せること自体が、ひとつの主張になりました。"
+  },
+  "american": {
+   "name": "アメリカ絵画",
+   "period": "1780〜1930年",
+   "summary": "若い国が自分を見つめる",
+   "description": "若い共和国の肖像画から、雄大な風景画、都市の暮らしの情景まで。アメリカの画家たちは、自分たちだけの主題と光を探し求めます。"
+  },
+  "preraphaelite": {
+   "name": "ラファエル前派とヴィクトリア朝絵画",
+   "period": "1848〜1900年",
+   "summary": "鮮やかな色と伝説と細部",
+   "description": "ヴィクトリア朝のイギリスで、若い画家たちのグループがアカデミーのお決まりのやり方を退けました。伝説や詩を、強烈な色と、ほとんど執念ともいえる精密さで描きます。"
+  },
+  "academic": {
+   "name": "アカデミズム",
+   "period": "1830〜1900年",
+   "summary": "公式サロンの洗練された芸術",
+   "description": "大きな美術学校で学んだ画家たちは、解剖学と歴史画、そして完璧になめらかな仕上げを身につけていました。前衛にその座を奪われるまで、彼らは時代のスターでした。"
+  },
+  "impressionnisme": {
+   "name": "印象派",
+   "period": "1867〜1910年",
+   "summary": "その瞬間の光を描く",
+   "description": "画家たちはアトリエを出て、戸外で素早い小さな筆さばきで描きます。追い求めたのは細部ではなく、ある瞬間の光の効果でした。"
+  },
+  "neo_impressionism": {
+   "name": "新印象派",
+   "period": "1884〜1910年",
+   "summary": "色を、点ごとに",
+   "description": "画家たちは色に科学を持ち込みました。純粋な絵具の小さな点を並べると、見る人の目の中で混ざり合います。絵はモザイクのように、ゆっくりと組み上げられていきます。"
+  },
+  "postimp": {
+   "name": "後期印象派",
+   "period": "1885〜1910年",
+   "summary": "まず色と感情",
+   "description": "印象派のあと、画家たちはそれぞれの道を探します。色はもう現実をまねるものではなく、画家の感じたことを表すものになりました。"
+  },
+  "symbolism": {
+   "name": "象徴主義",
+   "period": "1860〜1915年",
+   "summary": "夢と神話と内なる世界",
+   "description": "目に見える世界を描くかわりに、この芸術家たちは思想や夢や恐れをほのめかします。絵は、理解するより先に、感じるためのものでした。"
+  },
+  "secession": {
+   "name": "アール・ヌーヴォーとウィーン分離派",
+   "period": "1890〜1918年",
+   "summary": "金と装飾と曲線",
+   "description": "ウィーンの若い芸術家たちは、アカデミーと決別します。絵画と装飾と工芸をひとつに溶け合わせ、装飾そのものをひとつの言語にしました。"
+  },
+  "fauvism": {
+   "name": "フォーヴィスム",
+   "period": "1904〜1917年",
+   "summary": "チューブから出したままの純色",
+   "description": "ほんの数年のあいだ、画家たちは激しく不自然な色と、のびのびとした筆づかいを使いました。批評家は彼らを「野獣」と呼び、その名前が定着します。"
+  },
+  "expressionism": {
+   "name": "表現主義",
+   "period": "1903〜1925年",
+   "summary": "ゆがんだ形と生の感情",
+   "description": "芸術家たちは形をねじり、色を強めて、不安や欲望や反抗を表します。大切なのは世界がどう見えるかではなく、どう感じられるかでした。"
+  },
+  "cubism": {
+   "name": "キュビスム",
+   "period": "1909〜1925年",
+   "summary": "いくつもの面から同時に見た物",
+   "description": "画家たちは物を小さな面に分け、ひとつの絵の中にいくつもの角度から描きました。500年続いた遠近法が、突然問い直されます。"
+  },
+  "futurism": {
+   "name": "未来派",
+   "period": "1909〜1920年",
+   "summary": "スピードと機械と現代都市",
+   "description": "イタリアの芸術家たちは、自動車や群衆や電気をたたえました。形を繰り返し、細かく分けることで、動きそのものを描こうとします。"
+  },
+  "abstraction": {
+   "name": "抽象芸術とアヴァンギャルド",
+   "period": "1907〜1930年",
+   "summary": "主題のない絵画",
+   "description": "線も形も色も、もう何かを表しません。それ自体が絵なのです。芸術家たちは、音楽のようにまっすぐ伝わる視覚の言葉を探しました。"
+  },
+  "dada_surrealism": {
+   "name": "ダダと初期シュルレアリスム",
+   "period": "1912〜1930年",
+   "summary": "偶然とナンセンスと夢",
+   "description": "第一次世界大戦への嫌悪から生まれたダダは、芸術そのものをあざ笑います。そのあとに続くシュルレアリスムは、夢や偶然や無意識を探っていきます。"
+  },
+  "world": {
+   "name": "アフリカ、アジア、アメリカ大陸の美術",
+   "period": "紀元前1200年〜1600年",
+   "summary": "聖なる品々と宮廷の芸術",
+   "description": "アフリカ、アジア、アメリカ大陸の青銅器や仮面、石の巨像、儀式の道具たち。美術館が生まれるずっと前に、儀式や神殿や王のために作られたものです。"
+  }
+ }
+}

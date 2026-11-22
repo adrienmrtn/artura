@@ -1,0 +1,219 @@
+{
+ "teaser": "Un scandale d'État peint à l'échelle d'un mur, avec un navire sauveur qu'on distingue à peine.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Cette toile a été conçue pour une salle bien précise : la grande galerie carrée du Louvre où, tous les ans ou tous les deux ans, l'État français tenait son exposition officielle, le Salon. Les murs y étaient couverts du sol au plafond. Pour s'y faire remarquer, un jeune peintre devait voir grand. Théodore Géricault, 27 ans, y apporte un tableau d'environ 5 mètres de haut sur 7 de large."
+  },
+  {
+   "type": "text",
+   "text": "Des toiles de cette taille, on les réservait aux rois, aux saints et aux héros de l'Antiquité. Géricault remplit la sienne d'un fait tiré des journaux : un naufrage vieux de trois ans à peine, que le gouvernement aurait bien voulu faire oublier. Dans le livret du Salon, le tableau figure sous un titre prudent et vague : « Scène de naufrage ». Tout le monde savait de quel naufrage il s'agissait."
+  },
+  {
+   "type": "text",
+   "text": "En juillet 1816, la frégate La Méduse, de la marine royale, s'échoue au large de l'Afrique de l'Ouest. Son capitaine devait son poste à la faveur du roi et n'avait presque pas navigué depuis vingt ans. Lui et les passagers de marque prennent les canots. Environ 147 autres personnes s'entassent sur un radeau bricolé avec des mâts et des planches, d'à peu près 20 mètres sur 7."
+  },
+  {
+   "type": "text",
+   "text": "Les canots devaient remorquer le radeau. On a lâché les cordes. Treize jours plus tard, il y restait quinze vivants. Entre-temps : les tempêtes, la mutinerie, la soif, la folie, le cannibalisme. Géricault avait tout cela à sa disposition. Il a choisi le matin où une voile est apparue à l'horizon."
+  },
+  {
+   "type": "find",
+   "text": "Le navire sauveur, l'Argus, est dans le tableau. Il est bien plus petit que tu ne l'imagines. Le vois-tu ?",
+   "spots": [
+    {
+     "title": "L'Argus",
+     "text": "Un point pâle sur l'horizon, à droite des hommes qui font des signes. Géricault l'a voulu minuscule : ce jour-là, le navire a poursuivi sa route sans les voir. Il n'est revenu que des heures plus tard."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Le tableau ne montre donc pas un sauvetage. Il montre l'instant où l'on ne sait pas. Tout s'y organise autour de ce point, et de la distance qui le sépare des hommes. Pour faire tenir vingt corps ensemble, Géricault avait besoin d'une charpente solide sous le chaos."
+  },
+  {
+   "type": "lines",
+   "text": "Trois lignes portent toute la composition, c'est-à-dire la façon dont les éléments d'un tableau sont disposés.",
+   "lines": [
+    {
+     "label": "La montée",
+     "text": "Des morts, en bas à gauche, à l'homme qui fait signe tout en haut, les corps s'élèvent comme une vague. En la suivant, tu passes du désespoir à l'épuisement, puis à l'espoir."
+    },
+    {
+     "label": "Le mât",
+     "text": "À gauche, le mât et les cordages forment une seconde pyramide, plus sombre. Sa pointe penche du côté opposé au navire sauveur."
+    },
+    {
+     "label": "Le vent",
+     "text": "La voile se gonfle vers la gauche. Le vent éloigne le radeau de l'Argus et le pousse droit sur la vague sombre qui se lève au bord gauche."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Deux forces tirent en sens contraire : les bras des hommes, tendus vers la droite ; le vent et la mer, qui entraînent vers la gauche. Entre les deux, le tableau retient son souffle."
+  },
+  {
+   "type": "fact",
+   "text": "Géricault a retrouvé deux rescapés, le chirurgien Savigny et l'ingénieur Corréard, dont le récit publié avait déclenché le scandale. Il a aussi mis la main sur le charpentier du radeau, à qui il en a fait construire une maquette pour l'atelier."
+  },
+  {
+   "type": "text",
+   "text": "Il loue un atelier assez vaste pour la toile, tout près d'un hôpital, et y travaille des mois sans presque sortir. Il étudie les malades et les mourants, et rapporte de la morgue des membres coupés pour apprendre la couleur de la chair morte. Ses amis se souvenaient de l'odeur. Il se serait rasé le crâne pour ne pas être tenté de sortir dans le monde."
+  },
+  {
+   "type": "text",
+   "text": "Et pourtant, les passagers de son radeau ne sont pas les rescapés squelettiques, brûlés de soleil et barbus des récits. Ils ont les épaules massives des statues antiques et des figures de Michel-Ange. Les critiques l'ont remarqué. Géricault voulait la dignité de la grande peinture pour des victimes ordinaires et anonymes."
+  },
+  {
+   "type": "tour",
+   "title": "Quatre personnages",
+   "text": "Suis la montée, d'en bas à gauche jusqu'en haut à droite, et arrête-toi sur quatre des figures.",
+   "spots": [
+    {
+     "title": "Le père",
+     "text": "Un homme âgé tient un jeune mort en travers de ses genoux, le regard dans le vide. Il est le seul à tourner le dos au navire. Pour lui, le sauvetage n'a plus d'importance."
+    },
+    {
+     "title": "Un modèle célèbre",
+     "text": "Pour l'homme couché face contre les planches, un bras étendu, c'est un jeune ami peintre qui a posé : Eugène Delacroix, futur chef de file de la peinture romantique française."
+    },
+    {
+     "title": "Près du mât",
+     "text": "Un homme montre l'horizon du doigt et se retourne pour prévenir les autres. La tradition reconnaît ici les deux rescapés que Géricault avait interrogés, Corréard et Savigny."
+    },
+    {
+     "title": "Le signal",
+     "text": "Tout en haut, hissé sur un tonneau par ses compagnons, un homme noir agite une étoffe vers le navire. En 1819, donner le sommet d'un tableau d'histoire à un marin africain, c'était prendre position."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Ce dernier choix était délibéré. La France avait encore des esclaves dans ses colonies, et La Méduse faisait route pour reprendre possession du Sénégal, plaque tournante de ce trafic. Géricault fréquentait des milieux qui réclamaient l'abolition de l'esclavage. Il a mis l'espoir de tous les passagers du radeau dans le bras de l'homme que sa société plaçait tout en bas."
+  },
+  {
+   "type": "fact",
+   "text": "Le modèle de l'homme qui fait signe serait Joseph, un modèle professionnel venu d'Haïti, bien connu dans les ateliers parisiens, qui a posé pour plusieurs peintres de l'époque."
+  },
+  {
+   "type": "text",
+   "text": "Au Salon, les réactions suivent les clivages politiques. Les adversaires de la monarchie restaurée applaudissent. Les royalistes y voient une attaque, et un tas de cadavres. Le jury décerne à Géricault une médaille d'or, mais l'État n'achète pas la toile. Il la roule, profondément découragé."
+  },
+  {
+   "type": "fact",
+   "text": "En 1820, le tableau traverse la Manche et est exposé dans une salle de Londres, avec entrée payante. Quelque 40 000 personnes paient pour le voir, et Géricault touche une part de la recette."
+  },
+  {
+   "type": "text",
+   "text": "Maintenant que tu connais l'histoire, les recoins de la toile parlent aussi. Promène-toi dedans à ta guise."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "La vague",
+     "text": "Un mur d'eau sombre se soulève au bord gauche, plus haut que l'horizon. C'est là que le vent les emmène."
+    },
+    {
+     "title": "Abandonné",
+     "text": "Un cadavre gît au bord, parmi les cordages et les débris. Pour obtenir cette peau gris-vert, Géricault a étudié des corps dans un hôpital voisin."
+    },
+    {
+     "title": "Le corps qui glisse",
+     "text": "En bas à droite, un corps enveloppé de blanc traîne dans la mer. Le bord du radeau est coupé par le cadre, comme si les planches se prolongeaient sous tes pieds."
+    },
+    {
+     "title": "Le linge blanc",
+     "text": "Un second homme secoue un linge pâle contre le ciel. Avec l'étoffe rouge et blanche, au-dessus, ce sont les notes les plus claires d'un tableau tout en bruns."
+    },
+    {
+     "title": "Les bras tendus",
+     "text": "Des hommes qui ne tiennent plus debout se hissent en s'agrippant à leurs voisins. Compte les mains levées vers la droite."
+    },
+    {
+     "title": "La voile",
+     "text": "Une toile rapiécée, gréée sur un mât court. Son immense forme brune répète les nuages d'orage et occupe près d'un quart du tableau."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "L'obscurité que tu vois est en partie un accident. Pour ses ombres les plus profondes, Géricault a utilisé du bitume, un brun proche du goudron qui ne sèche jamais complètement. En deux siècles, il a noirci et s'est craquelé, et le mal est irréversible. En 1859, le Louvre a fait peindre une copie grandeur nature, au cas où l'original viendrait à se perdre."
+  },
+  {
+   "type": "text",
+   "text": "Géricault meurt en 1824, à 32 ans, après des chutes de cheval et une longue maladie. Le Louvre achète le Radeau à sa succession la même année. Sur sa tombe, à Paris, un bas-relief de bronze le reproduit : le peintre repose, pour la postérité, sous le tableau que l'État n'avait pas voulu acheter."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Quel moment du drame Géricault a-t-il choisi de peindre ?",
+   "options": [
+    "L'échouage de la frégate",
+    "La première apparition d'un navire au loin",
+    "Les rescapés montant à bord de l'Argus"
+   ],
+   "explanation": "Il a retenu le matin où une voile est apparue à l'horizon, quand personne ne savait encore si elle viendrait."
+  },
+  {
+   "question": "Dans quelle direction le vent pousse-t-il le radeau ?",
+   "options": [
+    "Loin du navire sauveur",
+    "Vers le navire sauveur",
+    "Il n'y a pas de vent"
+   ],
+   "explanation": "La voile se gonfle vers la gauche, à l'opposé de l'Argus, qui est à droite."
+  },
+  {
+   "question": "Qui a posé pour l'homme couché face contre les planches, au premier plan ?",
+   "options": [
+    "Le chirurgien Savigny",
+    "Le charpentier du radeau",
+    "Le peintre Eugène Delacroix"
+   ],
+   "explanation": "Delacroix, le jeune ami de Géricault, a servi de modèle pour cette figure."
+  },
+  {
+   "question": "Pourquoi le tableau est-il devenu si sombre ?",
+   "options": [
+    "Il a été abîmé dans un incendie",
+    "Géricault a utilisé du bitume, qui noircit avec le temps",
+    "Il a été peint à la bougie"
+   ],
+   "explanation": "Le bitume ne sèche jamais complètement : il a noirci et s'est craquelé."
+  },
+  {
+   "question": "Que s'est-il passé au Salon de 1819 ?",
+   "options": [
+    "Le tableau a reçu une médaille, mais l'État ne l'a pas acheté",
+    "Le tableau a été refusé par le jury",
+    "Le roi l'a acheté le jour de l'ouverture"
+   ],
+   "explanation": "Géricault a reçu une médaille d'or, mais aucun achat de l'État n'a suivi."
+  },
+  {
+   "question": "Combien de personnes environ a-t-on fait monter sur le radeau ?",
+   "options": [
+    "15",
+    "147",
+    "1 000"
+   ],
+   "explanation": "Environ 147 personnes sont montées sur le radeau, et quinze étaient encore en vie treize jours plus tard."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Le navire sauveur occupe toute la partie droite du tableau.",
+   "explanation": "L'Argus n'est qu'un point minuscule sur l'horizon."
+  },
+  {
+   "text": "Géricault a fait construire une maquette par le charpentier du radeau.",
+   "explanation": "Il s'en est servi dans son atelier pour représenter le radeau avec exactitude."
+  },
+  {
+   "text": "Le tableau montre des rescapés maigres et affamés, exactement tels que les récits les décrivaient.",
+   "explanation": "Il leur a donné le corps musclé des statues antiques, ce que les critiques ont remarqué."
+  }
+ ]
+}

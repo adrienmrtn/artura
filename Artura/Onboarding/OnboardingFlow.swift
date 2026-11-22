@@ -80,7 +80,7 @@ struct OnboardingFlow: View {
             }
             .buttonStyle(.pressable)
             .padding(.leading, -12)
-            .accessibilityLabel("Back")
+            .accessibilityLabel(L("Back"))
             ProgressTrack(value: step.progress)
         }
         .frame(height: 44)
@@ -184,8 +184,8 @@ struct OnboardingFlow: View {
         case .lesson:
             if let course {
                 // An excerpt of the lesson: the beginning and a single interaction on the painting.
-                LessonView(artwork: course, pill: "Your first guided tour",
-                           blocks: course.previewLesson, finishTitle: "Finish the tour",
+                LessonView(artwork: course, pill: L("Your first guided tour"),
+                           blocks: course.previewLesson, finishTitle: L("Finish the tour"),
                            onSkip: next, onBack: back) {
                     user.profile.firstCourse = course.id
                     user.markOpened(course.id)
@@ -325,7 +325,7 @@ struct OnbScaffold<Content: View>: View {
     /// If true, the Mona Lisa asks the question, in a speech bubble.
     var spoken: Bool = false
     var mascotSize: CGFloat = 92
-    var cta: String = "Continue"
+    var cta: String = L("Continue")
     var ctaEnabled: Bool = true
     let onNext: () -> Void
     var secondaryTitle: String? = nil
@@ -406,7 +406,7 @@ struct StoryScaffold: View {
     var tag: String? = nil
     let title: String
     var subtitle: String? = nil
-    var cta: String = "Continue"
+    var cta: String = L("Continue")
     let onNext: () -> Void
 
     @State private var drift = false
@@ -461,7 +461,7 @@ struct StoryScaffold: View {
 struct HeroScaffold<Content: View>: View {
     let image: String
     var imageHeight: CGFloat = 410
-    var cta: String = "Continue"
+    var cta: String = L("Continue")
     let onNext: () -> Void
     var secondaryTitle: String? = nil
     var onSecondary: (() -> Void)? = nil

@@ -16,11 +16,11 @@ enum AppTab: Int, CaseIterable {
 
     var title: String {
         switch self {
-        case .today: return "Today"
-        case .explore: return "Explore"
-        case .review: return "Review"
-        case .games: return "Games"
-        case .profile: return "Profile"
+        case .today: return L("Today")
+        case .explore: return L("Explore")
+        case .review: return L("Review")
+        case .games: return L("Games")
+        case .profile: return L("Profile")
         }
     }
 
@@ -140,7 +140,7 @@ struct CourseFlow: View {
                         .background(Circle().fill(Palette.card))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Close")
+                .accessibilityLabel(L("Close"))
                 Spacer()
             }
             Spacer()
@@ -151,17 +151,17 @@ struct CourseFlow: View {
                 .font(.aHeading).foregroundStyle(Palette.ink)
                 .multilineTextAlignment(.center)
             if failed {
-                Text("This lesson could not be loaded. Check your connection and try again.")
+                Text(L("This lesson could not be loaded. Check your connection and try again."))
                     .font(.aSmall).foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
-                Button("Try again") {
+                Button(L("Try again")) {
                     Haptics.press()
                     attempt += 1
                 }
                 .buttonStyle(.primary)
             } else {
                 ProgressView().tint(Palette.blue)
-                Text("Preparing your lesson").font(.aSmall).foregroundStyle(Palette.muted)
+                Text(L("Preparing your lesson")).font(.aSmall).foregroundStyle(Palette.muted)
             }
             Spacer()
         }
@@ -219,8 +219,8 @@ private struct CourseContent: View {
                 .transition(.move(edge: .trailing).combined(with: .opacity))
             default:
                 ResultView(
-                    title: score == artwork.quiz.count ? "Perfect score!" : "Lesson complete",
-                    detail: "\(score) of \(artwork.quiz.count) correct",
+                    title: score == artwork.quiz.count ? L("Perfect score!") : L("Lesson complete"),
+                    detail: L("%@ of %@ correct", "\(score)", "\(artwork.quiz.count)"),
                     celebrate: score == artwork.quiz.count,
                     shareArtwork: artwork,
                     onDone: { dismiss() }
@@ -236,9 +236,9 @@ private struct CourseContent: View {
             switch kind {
             case .quiz:
                 LessonPaywall(artwork: artwork,
-                              title: "The quiz is part of Artura Pro",
-                              subtitle: "Test what you just read about \(artwork.title), and remember it for good.",
-                              closeTitle: "Not now",
+                              title: L("The quiz is part of Artura Pro"),
+                              subtitle: L("Test what you just read about %@, and remember it for good.", artwork.title),
+                              closeTitle: L("Not now"),
                               onClose: { wall = nil },
                               onUnlocked: {
                                   wall = nil
@@ -247,9 +247,9 @@ private struct CourseContent: View {
             case .lesson:
                 // No way to go on reading without subscribing: the only way out leaves the lesson.
                 LessonPaywall(artwork: artwork,
-                              title: "Continue this lesson",
-                              subtitle: "Read the rest of \(artwork.title), and every other lesson, with Artura Pro.",
-                              closeTitle: "Leave this lesson",
+                              title: L("Continue this lesson"),
+                              subtitle: L("Read the rest of %@, and every other lesson, with Artura Pro.", artwork.title),
+                              closeTitle: L("Leave this lesson"),
                               onClose: {
                                   wall = nil
                                   dismiss()
@@ -287,18 +287,18 @@ struct ResultView: View {
                 Text(detail).font(.aBody).foregroundStyle(Palette.muted).appearUp(0.3)
                 Spacer()
                 if let onReplay {
-                    Button("Play again", action: onReplay).buttonStyle(.secondary)
+                    Button(L("Play again"), action: onReplay).buttonStyle(.secondary)
                 }
                 if let shareArtwork {
                     ArtworkShareLink(artwork: shareArtwork) {
                         HStack(spacing: 8) {
                             Image(systemName: "square.and.arrow.up").font(.system(size: 15, weight: .semibold))
-                            Text("Share this artwork")
+                            Text(L("Share this artwork"))
                         }
                     }
                     .buttonStyle(.secondary)
                 }
-                Button("Done", action: onDone).buttonStyle(.primary)
+                Button(L("Done"), action: onDone).buttonStyle(.primary)
             }
             .multilineTextAlignment(.center)
             .padding(.horizontal, 24)

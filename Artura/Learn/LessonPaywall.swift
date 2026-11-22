@@ -15,17 +15,17 @@ struct LessonPaywall: View {
     let onUnlocked: () -> Void
 
     private let benefits = [
-        "Every lesson, as many as you like each day",
-        "The quiz at the end of each lesson",
-        "All games, no daily limit"
+        L("Every lesson, as many as you like each day"),
+        L("The quiz at the end of each lesson"),
+        L("All games, no daily limit")
     ]
 
     private var priceLine: String? {
         guard let yearly = pro.yearly else { return nil }
         if let offer = TrialOffer(yearly) {
-            return "\(offer.trialDays) days free, then \(offer.yearlyPrice) per year"
+            return L("%@ days free, then %@ per year", "\(offer.trialDays)", offer.yearlyPrice)
         }
-        return "\(yearly.displayPrice) per year"
+        return L("%@ per year", yearly.displayPrice)
     }
 
     var body: some View {
@@ -89,20 +89,20 @@ struct LessonPaywall: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text(pro.yearly.flatMap { TrialOffer($0) } == nil ? "Unlock Artura Pro" : "Start free trial")
+                        Text(pro.yearly.flatMap { TrialOffer($0) } == nil ? L("Unlock Artura Pro") : L("Start free trial"))
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(pro.yearly == nil || pro.isPurchasing)
                 .opacity(pro.yearly == nil ? 0.4 : 1)
 
-                Text(priceLine ?? "Price unavailable")
+                Text(priceLine ?? L("Price unavailable"))
                     .font(.figtree(14))
                     .foregroundStyle(Palette.muted)
                     .padding(.top, 8)
 
                 TextLinkButton(title: closeTitle, action: onClose)
-                Button("Restore purchases") {
+                Button(L("Restore purchases")) {
                     Task {
                         await pro.restore()
                         if pro.isPro {

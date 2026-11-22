@@ -112,7 +112,11 @@ final class UserStore: ObservableObject {
         var cal = Calendar(identifier: .gregorian)
         cal.firstWeekday = 2
         let today = Date()
-        let labels = ["M", "T", "W", "T", "F", "S", "S"]
+        // One-letter day names in the app's language, Monday first (the calendar's list starts on Sunday).
+        var symbolCalendar = Calendar(identifier: .gregorian)
+        symbolCalendar.locale = AppLanguage.locale
+        let symbols = symbolCalendar.veryShortStandaloneWeekdaySymbols
+        let labels = symbols.count == 7 ? Array(symbols[1...]) + [symbols[0]] : ["M", "T", "W", "T", "F", "S", "S"]
         guard let start = cal.dateInterval(of: .weekOfYear, for: today)?.start else { return [] }
         let days = Set(profile.playedDays)
         var result: [WeekDay] = []
@@ -242,10 +246,27 @@ final class UserStore: ObservableObject {
     }
 }
 
-/// Formats minutes since midnight (0..<1440) as a 12-hour time, e.g. "8:30 AM".
+/// Formats minutes since midnight (0..<1440) as a time in the app's language, e.g. "8:30 AM" in English, "08:30" in French.
 func formatMinutes(_ minutes: Int) -> String {
     let h = (minutes / 60) % 24
     let m = minutes % 60
-    let h12 = h % 12 == 0 ? 12 : h % 12
-    return "\(h12):\(m < 10 ? "0" : "")\(m) \(h < 12 ? "AM" : "PM")"
+    guard let date = minutesCalendar.date(from: DateComponents(year: 2000, month: 1, day: 1, hour: h, minute: m)) else {
+        return "\(h):\(m < 10 ? "0" : "")\(m)"
+    }
+    return minutesFormatter.string(from: date)
 }
+
+private let minutesCalendar: Calendar = {
+    var cal = Calendar(identifier: .gregorian)
+    cal.timeZone = TimeZone(identifier: "UTC") ?? .current
+    return cal
+}()
+
+private let minutesFormatter: DateFormatter = {
+    let f = DateFormatter()
+    f.calendar = minutesCalendar
+    f.timeZone = minutesCalendar.timeZone
+    f.locale = AppLanguage.locale
+    f.setLocalizedDateFormatFromTemplate("jmm")
+    return f
+}()

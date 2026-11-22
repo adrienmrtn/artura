@@ -7,18 +7,18 @@ struct WelcomeScreen: View {
     let onLogin: () -> Void
 
     var body: some View {
-        HeroScaffold(image: "ill_hero", imageHeight: 460, cta: "Get started", onNext: onNext,
-                     secondaryTitle: "I already have an account", onSecondary: onLogin) {
+        HeroScaffold(image: "ill_hero", imageHeight: 460, cta: L("Get started"), onNext: onNext,
+                     secondaryTitle: L("I already have an account"), onSecondary: onLogin) {
             Text("ARTURA")
                 .font(.figtree(13, .bold))
                 .tracking(3)
                 .foregroundStyle(Palette.blue)
                 .enter(0)
-            Text("Finally learn art")
+            Text(L("Finally learn art"))
                 .font(.figtree(36, .bold))
                 .foregroundStyle(Palette.ink)
                 .enter(1)
-            Text("5 minutes a day. Sessions tailored to you.")
+            Text(L("5 minutes a day. Sessions tailored to you."))
                 .font(.figtree(17))
                 .foregroundStyle(Palette.muted)
                 .fixedSize(horizontal: false, vertical: true)
@@ -38,11 +38,11 @@ struct DailyScreen: View {
                 .enter()
 
             VStack(spacing: 12) {
-                Text("One masterpiece a day")
+                Text(L("One masterpiece a day"))
                     .font(.figtree(34, .bold))
                     .foregroundStyle(Palette.ink)
                     .enter(2)
-                Text("Get cultured without even noticing.")
+                Text(L("Get cultured without even noticing."))
                     .font(.figtree(17))
                     .foregroundStyle(Palette.muted)
                     .enter(3)
@@ -52,12 +52,12 @@ struct DailyScreen: View {
             .padding(.top, 26)
 
             HStack(spacing: 12) {
-                proof(value: SocialProof.learners, label: "people already learning") {
+                proof(value: SocialProof.learners, label: L("people already learning")) {
                     Image(systemName: "person.2.fill")
                         .font(.system(size: 14, weight: .semibold))
                         .foregroundStyle(Palette.blue)
                 }
-                proof(value: SocialProof.rating, label: "average rating") {
+                proof(value: SocialProof.rating, label: L("average rating")) {
                     HStack(spacing: 2) {
                         ForEach(0..<5, id: \.self) { _ in
                             Image(systemName: "star.fill")
@@ -73,7 +73,7 @@ struct DailyScreen: View {
 
             Spacer(minLength: 16)
 
-            Button("Continue") { onNext() }
+            Button(L("Continue")) { onNext() }
                 .buttonStyle(.primary)
                 .padding(.horizontal, 24)
         }
@@ -110,8 +110,8 @@ struct PocketMuseumScreen: View {
 
     var body: some View {
         StoryScaffold(image: "ill_musee",
-                      title: "Artura is a museum in your pocket.",
-                      subtitle: "Built for art lovers, and for everyone who wants to become one.",
+                      title: L("Artura is a museum in your pocket."),
+                      subtitle: L("Built for art lovers, and for everyone who wants to become one."),
                       onNext: onNext)
     }
 }
@@ -123,9 +123,9 @@ struct PhotoScreen: View {
 
     var body: some View {
         StoryScaffold(image: "ill_photo",
-                      tag: "At the museum?",
-                      title: "Snap any artwork. Artura explains it.",
-                      subtitle: "And save the ones you want to remember to your collection.",
+                      tag: L("At the museum?"),
+                      title: L("Snap any artwork. Artura explains it."),
+                      subtitle: L("And save the ones you want to remember to your collection."),
                       onNext: onNext)
     }
 }
@@ -141,9 +141,9 @@ struct Quote: Identifiable {
 
     // Quotes to be checked (source and translation) before release.
     static let all: [Quote] = [
-        Quote(image: "portrait_klee", text: "Art does not reproduce the visible; it makes visible.", author: "Paul Klee", role: "Painter"),
-        Quote(image: "portrait_nietzsche", text: "We have art in order not to die of the truth.", author: "Friedrich Nietzsche", role: "Philosopher"),
-        Quote(image: "portrait_proust", text: "Through art alone are we able to emerge from ourselves.", author: "Marcel Proust", role: "Writer")
+        Quote(image: "portrait_klee", text: L("Art does not reproduce the visible; it makes visible."), author: "Paul Klee", role: L("Painter")),
+        Quote(image: "portrait_nietzsche", text: L("We have art in order not to die of the truth."), author: "Friedrich Nietzsche", role: L("Philosopher")),
+        Quote(image: "portrait_proust", text: L("Through art alone are we able to emerge from ourselves."), author: "Marcel Proust", role: L("Writer"))
     ]
 }
 
@@ -166,14 +166,14 @@ struct QuotesScreen: View {
             .buttonStyle(.pressable)
             .padding(.leading, -12)
             .padding(.top, 8)
-            .accessibilityLabel("Back")
+            .accessibilityLabel(L("Back"))
 
             VStack(alignment: .leading, spacing: 8) {
-                Text("This is why we built Artura")
+                Text(L("This is why we built Artura"))
                     .font(.aTitle)
                     .foregroundStyle(.white)
                     .fixedSize(horizontal: false, vertical: true)
-                Text("Art is timeless. They said it long before us.")
+                Text(L("Art is timeless. They said it long before us."))
                     .font(.aBody)
                     .foregroundStyle(Color.white.opacity(0.7))
                     .fixedSize(horizontal: false, vertical: true)
@@ -189,7 +189,7 @@ struct QuotesScreen: View {
                             .frame(width: 56, height: 56)
                             .clipShape(Circle())
                         VStack(alignment: .leading, spacing: 6) {
-                            Text("“\(quote.text)”")
+                            Text(L("“%@”", quote.text))
                                 .font(.serif(20, .medium))
                                 .italic()
                                 .foregroundStyle(.white)
@@ -241,7 +241,7 @@ struct TapHint: View {
     @State private var pulse = false
 
     var body: some View {
-        Text("Tap to continue")
+        Text(L("Tap to continue"))
             .font(.figtree(15, .semibold))
             .foregroundStyle(light ? Color.white.opacity(0.7) : Palette.muted)
             .opacity(pulse ? 1 : 0.45)
@@ -261,8 +261,8 @@ struct HelloScreen: View {
 
     var body: some View {
         MascotTalkScreen(lines: [
-            "Hi, I'm Artura. Every day, I'll show you one masterpiece and the story behind it."
-        ], cta: "Hi Artura!", mascotSize: 190, onNext: onNext)
+            L("Hi, I'm Artura. Every day, I'll show you one masterpiece and the story behind it.")
+        ], cta: L("Hi Artura!"), mascotSize: 190, onNext: onNext)
     }
 }
 
@@ -271,8 +271,8 @@ struct QuestionsIntroScreen: View {
 
     var body: some View {
         MascotTalkScreen(lines: [
-            "Let's get to know each other. A few quick questions, under a minute, to build your program."
-        ], cta: "Let's go", onNext: onNext)
+            L("Let's get to know each other. A few quick questions, under a minute, to build your program.")
+        ], cta: L("Let's go"), onNext: onNext)
     }
 }
 
@@ -283,15 +283,16 @@ struct TestIntroScreen: View {
     private var line: String {
         let start: String
         if let name = user.profile.firstName, !name.isEmpty {
-            start = "Great, \(name)."
+            start = L("Great, %@.", name)
         } else {
-            start = "Great."
+            start = L("Great.")
         }
-        return "\(start) Let's see what you already know: seven paintings, from the most famous to the hardest."
+        // L: "%@" is "Great, <name>." or "Great.", followed by the rest of the sentence.
+        return L("%@ Let's see what you already know: seven paintings, from the most famous to the hardest.", start)
     }
 
     var body: some View {
-        MascotTalkScreen(lines: [line], cta: "I'm ready", onNext: onNext)
+        MascotTalkScreen(lines: [line], cta: L("I'm ready"), onNext: onNext)
     }
 }
 
@@ -376,9 +377,9 @@ struct StudyScreen: View {
 
     var body: some View {
         TapStoryScreen(image: "ill_regard",
-                       tag: "A study at the Art Institute of Chicago",
-                       title: "26 seconds in front of a painting",
-                       text: "That's how long a visitor looks at a masterpiece, on average. Barely enough to read the label.",
+                       tag: L("A study at the Art Institute of Chicago"),
+                       title: L("26 seconds in front of a painting"),
+                       text: L("That's how long a visitor looks at a masterpiece, on average. Barely enough to read the label."),
                        onNext: onNext)
     }
 }
@@ -390,9 +391,9 @@ struct LearnToLookScreen: View {
 
     var body: some View {
         TapStoryScreen(image: "ill_oeil",
-                       tag: "Artura will help",
-                       title: "Looking can be learned",
-                       text: "Nobody is born knowing how to read a painting. Every day, I show you where to rest your eyes: a detail, a color, a gesture.",
+                       tag: L("Artura will help"),
+                       title: L("Looking can be learned"),
+                       text: L("Nobody is born knowing how to read a painting. Every day, I show you where to rest your eyes: a detail, a color, a gesture."),
                        onNext: onNext)
     }
 }
@@ -491,7 +492,7 @@ private struct AbilityBox: View {
         }
         .onAppear { if state >= 2 { burst = true } }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel(state >= 2 ? "\(title). \(text)" : "Locked")
+        .accessibilityLabel(state >= 2 ? "\(title). \(text)" : L("Locked"))
     }
 }
 
@@ -499,9 +500,9 @@ struct AbilitiesScreen: View {
     let onNext: () -> Void
 
     private let abilities: [(image: String, title: String, text: String)] = [
-        ("ill_oeil", "Look", "Spot what matters in a painting, even one you've never seen."),
-        ("ill_galerie", "Understand", "Who painted it, when, and why it changed everything."),
-        ("ill_goal_talk", "Talk about it", "Have something to say at the museum, or over dinner.")
+        ("ill_oeil", L("Look"), L("Spot what matters in a painting, even one you've never seen.")),
+        ("ill_galerie", L("Understand"), L("Who painted it, when, and why it changed everything.")),
+        ("ill_goal_talk", L("Talk about it"), L("Have something to say at the museum, or over dinner."))
     ]
 
     /// Boxes already open.
@@ -511,16 +512,16 @@ struct AbilitiesScreen: View {
 
     private var title: String {
         switch opened {
-        case 0: return "Soon, you'll know how to"
-        case 1: return "You'll learn how to look"
-        case 2: return "…how to understand"
-        default: return "…and how to talk about it"
+        case 0: return L("Soon, you'll know how to")
+        case 1: return L("You'll learn how to look")
+        case 2: return L("…how to understand")
+        default: return L("…and how to talk about it")
         }
     }
 
     var body: some View {
         OnbScaffold(title: title,
-                    subtitle: "A few minutes a day is all it takes.",
+                    subtitle: L("A few minutes a day is all it takes."),
                     ctaEnabled: cracking == nil, onNext: advance) {
             VStack(spacing: 12) {
                 ForEach(Array(abilities.enumerated()), id: \.offset) { i, ability in
@@ -566,9 +567,9 @@ struct ChooseCourseScreen: View {
     }
 
     var body: some View {
-        OnbScaffold(title: "Choose your first lesson",
-                    subtitle: "I'll show you how it works.",
-                    cta: "Start the lesson",
+        OnbScaffold(title: L("Choose your first lesson"),
+                    subtitle: L("I'll show you how it works."),
+                    cta: L("Start the lesson"),
                     ctaEnabled: user.profile.firstCourse != nil, onNext: onNext) {
             VStack(spacing: 10) {
                 ForEach(Array(courses.enumerated()), id: \.element.id) { i, artwork in
@@ -614,8 +615,8 @@ struct AttentionScreen: View {
 
     var body: some View {
         StoryScaffold(image: "ill_phone",
-                      title: "Your phone takes your attention. Art gives it back.",
-                      subtitle: "A few minutes with a single painting, and everything slows down.",
+                      title: L("Your phone takes your attention. Art gives it back."),
+                      subtitle: L("A few minutes with a single painting, and everything slows down."),
                       onNext: onNext)
     }
 }
@@ -627,7 +628,7 @@ struct AfterLessonScreen: View {
 
     var body: some View {
         MascotTalkScreen(lines: [
-            "This is how you'll learn from now on. Before we finish, let's build your program."
-        ], cta: "Build my program", onNext: onNext)
+            L("This is how you'll learn from now on. Before we finish, let's build your program.")
+        ], cta: L("Build my program"), onNext: onNext)
     }
 }

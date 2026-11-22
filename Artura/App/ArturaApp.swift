@@ -103,7 +103,7 @@ struct SplashView: View {
                                 .offset(y: i < letters ? 0 : 12)
                         }
                     }
-                    Text("Your daily dose of art, in your pocket")
+                    Text(L("Your daily dose of art, in your pocket"))
                         .font(.figtree(16, .medium))
                         .foregroundStyle(Palette.muted)
                         .multilineTextAlignment(.center)
@@ -114,7 +114,7 @@ struct SplashView: View {
             .padding(.horizontal, 32)
         }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Artura. Your daily dose of art, in your pocket.")
+        .accessibilityLabel(L("Artura. Your daily dose of art, in your pocket."))
         .onAppear(perform: play)
     }
 

@@ -74,7 +74,7 @@ struct PaintingStudio: View {
                     .background(Circle().fill(Color.white.opacity(0.14)))
             }
             .buttonStyle(.pressable)
-            .accessibilityLabel("Close and return to the lesson")
+            .accessibilityLabel(L("Close and return to the lesson"))
             HStack(spacing: 6) {
                 Image(systemName: block.interactiveIcon).font(.system(size: 13, weight: .semibold))
                 Text(block.interactiveTitle).font(.figtree(14, .semibold))
@@ -226,7 +226,7 @@ struct PaintingStudio: View {
                     .contentShape(Circle())
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(spot.title ?? "Detail")
+                .accessibilityLabel(spot.title ?? L("Detail"))
                 .scaleEffect(1 / zoom)
                 .position(x: spot.x * size.width, y: spot.y * size.height)
             }
@@ -241,34 +241,34 @@ struct PaintingStudio: View {
             if step >= 1, spots.indices.contains(step - 1) {
                 return (spots[step - 1].title, spots[step - 1].text ?? "")
             }
-            return (nil, block.text ?? "First, take in the whole painting.")
+            return (nil, block.text ?? L("First, take in the whole painting."))
         case "find":
             if let found, let target = spots.first {
-                return (found ? "Found it!" : "Close. It was here.", target.text ?? "")
+                return (found ? L("Found it!") : L("Close. It was here."), target.text ?? "")
             }
-            return ("Your turn", block.text ?? "")
+            return (L("Your turn"), block.text ?? "")
         case "lines":
             if step >= 1, lines.indices.contains(step - 1) {
                 return (lines[step - 1].label, lines[step - 1].text)
             }
-            return (nil, block.text ?? "How is this painting built?")
+            return (nil, block.text ?? L("How is this painting built?"))
         case "palette":
             if let selected, swatches.indices.contains(selected) {
                 return (swatches[selected].name, swatches[selected].text)
             }
-            return (nil, block.text ?? "Tap a color to see where it hides.")
+            return (nil, block.text ?? L("Tap a color to see where it hides."))
         default:
             if let selected, spots.indices.contains(selected) {
                 return (spots[selected].title, spots[selected].text ?? "")
             }
-            return (nil, block.text ?? "Pinch to zoom, drag to move around. Tap a dot for a detail.")
+            return (nil, block.text ?? L("Pinch to zoom, drag to move around. Tap a dot for a detail."))
         }
     }
 
     private var hint: String {
-        if block.type == "find", found == nil { return "Tap the painting" }
+        if block.type == "find", found == nil { return L("Tap the painting") }
         let last = (block.type == "find" && found != nil) || (stepCount > 0 && step >= stepCount)
-        return last ? "Tap to return to the lesson" : "Tap to continue"
+        return last ? L("Tap to return to the lesson") : L("Tap to continue")
     }
 
     private var panel: some View {
@@ -313,7 +313,7 @@ struct PaintingStudio: View {
             .transition(.opacity)
             Spacer(minLength: 0)
             if usesButton {
-                Button("Back to the lesson") { finish() }
+                Button(L("Back to the lesson")) { finish() }
                     .buttonStyle(.primary)
             } else {
                 Text(hint)

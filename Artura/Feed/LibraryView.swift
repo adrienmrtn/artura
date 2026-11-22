@@ -7,6 +7,15 @@ enum LibraryTab: String, CaseIterable, Identifiable {
 
     var id: String { rawValue }
 
+    /// Name shown on screen (the raw value is an identifier).
+    var label: String {
+        switch self {
+        case .favorites: return L("Favorites")
+        case .saved: return L("Saved")
+        case .history: return L("History")
+        }
+    }
+
     var emptyIcon: String {
         switch self {
         case .favorites: return "heart"
@@ -17,17 +26,17 @@ enum LibraryTab: String, CaseIterable, Identifiable {
 
     var emptyTitle: String {
         switch self {
-        case .favorites: return "No favorites yet"
-        case .saved: return "Nothing saved yet"
-        case .history: return "No history yet"
+        case .favorites: return L("No favorites yet")
+        case .saved: return L("Nothing saved yet")
+        case .history: return L("No history yet")
         }
     }
 
     var emptyDetail: String {
         switch self {
-        case .favorites: return "Tap the heart on an artwork to find it here."
-        case .saved: return "Tap the bookmark on an artwork to read it later."
-        case .history: return "The artworks you open will show up here."
+        case .favorites: return L("Tap the heart on an artwork to find it here.")
+        case .saved: return L("Tap the bookmark on an artwork to read it later.")
+        case .history: return L("The artworks you open will show up here.")
         }
     }
 }
@@ -54,14 +63,14 @@ struct LibraryView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("My library")
+            Text(L("My library"))
                 .font(.aTitle)
                 .foregroundStyle(Palette.ink)
                 .padding(.top, 24)
 
-            SegmentedPicker(options: LibraryTab.allCases.map(\.rawValue), selection: Binding(
-                get: { tab.rawValue },
-                set: { tab = LibraryTab(rawValue: $0) ?? .favorites }
+            SegmentedPicker(options: LibraryTab.allCases.map(\.label), selection: Binding(
+                get: { tab.label },
+                set: { newLabel in tab = LibraryTab.allCases.first(where: { $0.label == newLabel }) ?? .favorites }
             ))
 
             if items.isEmpty {
@@ -89,9 +98,9 @@ struct LibraryView: View {
                 }
                 .scrollIndicators(.hidden)
 
-                Button("Practice these \(items.count) artwork\(items.count == 1 ? "" : "s")") {
+                Button(items.count == 1 ? L("Practice this artwork") : L("Practice these %@ artworks", "\(items.count)")) {
                     Haptics.press()
-                    deck = ReviewDeck.practice(title: tab.rawValue, artworks: items, all: content.artworks)
+                    deck = ReviewDeck.practice(title: tab.label, artworks: items, all: content.artworks)
                 }
                 .buttonStyle(.primary)
                 .padding(.bottom, 16)
@@ -132,7 +141,7 @@ struct LibraryTile: View {
             }
         }
         .buttonStyle(.pressable)
-        .accessibilityLabel("\(artwork.title), \(artwork.artist)\(done ? ", read" : "")")
+        .accessibilityLabel(done ? L("%@, %@, read", artwork.title, artwork.artist) : "\(artwork.title), \(artwork.artist)")
     }
 }
 

@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Nefertiti Büstü",
+   "artist": "Thutmose",
+   "year_label": "MÖ 1345",
+   "museum": "Neues Museum, Berlin"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Tutankhamun'un Maskesi",
+   "artist": "Anonim (Mısır)",
+   "year_label": "MÖ 1323",
+   "museum": "Büyük Mısır Müzesi, Gize"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Semadirek Kanatlı Zaferi",
+   "artist": "Anonim (Yunanistan)",
+   "year_label": "MÖ 190",
+   "museum": "Louvre, Paris"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Milo Venüsü",
+   "artist": "Antakyalı Aleksandros",
+   "year_label": "MÖ 120",
+   "museum": "Louvre, Paris"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Ağıt (İsa'ya Ağıt)",
+   "artist": "Giotto",
+   "year_label": "1305",
+   "museum": "Scrovegni Şapeli, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Berry Dükü'nün Çok Zengin Saatleri: Ocak",
+   "artist": "Limbourg Kardeşler",
+   "year_label": "1416",
+   "museum": "Condé Müzesi, Chantilly"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Arnolfini'nin Evlenmesi",
+   "artist": "Jan van Eyck",
+   "year_label": "1434",
+   "museum": "National Gallery, Londra"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Çarmıhtan İndiriliş",
+   "artist": "Rogier van der Weyden",
+   "year_label": "1435",
+   "museum": "Prado, Madrid"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "Dünyevi Zevkler Bahçesi",
+   "artist": "Hieronymus Bosch",
+   "year_label": "1500",
+   "museum": "Prado, Madrid"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Venüs'ün Doğuşu",
+   "artist": "Sandro Botticelli",
+   "year_label": "1485",
+   "museum": "Uffizi, Floransa"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1503",
+   "museum": "Louvre, Paris"
+  },
+  "vinci-the-last-supper": {
+   "title": "Son Akşam Yemeği",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milano"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Vitruvius Adamı",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1490",
+   "museum": "Gallerie dell'Accademia, Venedik"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Âdem'in Yaratılışı",
+   "artist": "Michelangelo",
+   "year_label": "1512",
+   "museum": "Sistina Şapeli, Vatikan"
+  },
+  "michelangelo-david": {
+   "title": "Davut",
+   "artist": "Michelangelo",
+   "year_label": "1504",
+   "museum": "Galleria dell'Accademia, Floransa"
+  },
+  "michelangelo-pieta": {
+   "title": "Pietà",
+   "artist": "Michelangelo",
+   "year_label": "1499",
+   "museum": "Aziz Petrus Bazilikası, Vatikan"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Atina Okulu",
+   "artist": "Raffaello",
+   "year_label": "1511",
+   "museum": "Vatikan Müzeleri, Vatikan"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Urbino Venüsü",
+   "artist": "Tiziano",
+   "year_label": "1538",
+   "museum": "Uffizi, Floransa"
+  },
+  "durer-young-hare": {
+   "title": "Yabani Tavşan",
+   "artist": "Albrecht Dürer",
+   "year_label": "1502",
+   "museum": "Albertina, Viyana"
+  },
+  "younger-the-ambassadors": {
+   "title": "Elçiler",
+   "artist": "Genç Hans Holbein",
+   "year_label": "1533",
+   "museum": "National Gallery, Londra"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Karda Avcılar",
+   "artist": "Yaşlı Pieter Bruegel",
+   "year_label": "1565",
+   "museum": "Kunsthistorisches Museum, Viyana"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "Babil Kulesi",
+   "artist": "Yaşlı Pieter Bruegel",
+   "year_label": "1563",
+   "museum": "Kunsthistorisches Museum, Viyana"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Uzun Boyunlu Meryem",
+   "artist": "Parmigianino",
+   "year_label": "1540",
+   "museum": "Uffizi, Floransa"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Orgaz Kontu'nun Gömülmesi",
+   "artist": "El Greco",
+   "year_label": "1586",
+   "museum": "Santo Tomé Kilisesi, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumnus",
+   "artist": "Giuseppe Arcimboldo",
+   "year_label": "1591",
+   "museum": "Skokloster Şatosu, İsveç"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Aziz Matta'nın Çağrılışı",
+   "artist": "Caravaggio",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Roma"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judith Holofernes'in Başını Keserken",
+   "artist": "Artemisia Gentileschi",
+   "year_label": "1620",
+   "museum": "Uffizi, Floransa"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Diego Velázquez",
+   "year_label": "1656",
+   "museum": "Prado, Madrid"
+  },
+  "rubens-the-three-graces": {
+   "title": "Üç Güzeller",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Prado, Madrid"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apollon ve Daphne",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1625",
+   "museum": "Borghese Galerisi, Roma"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Azize Teresa'nın Vecdi",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Roma"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Gece Devriyesi",
+   "artist": "Rembrandt",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Dr. Nicolaes Tulp'un Anatomi Dersi",
+   "artist": "Rembrandt",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Lahey"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "İnci Küpeli Kız",
+   "artist": "Johannes Vermeer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Lahey"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "Sütçü Kız",
+   "artist": "Johannes Vermeer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "Saka Kuşu",
+   "artist": "Carel Fabritius",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Lahey"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Kythera Adası'na Yolculuk",
+   "artist": "Antoine Watteau",
+   "year_label": "1717",
+   "museum": "Louvre, Paris"
+  },
+  "fragonard-the-swing": {
+   "title": "Salıncak",
+   "artist": "Jean-Honoré Fragonard",
+   "year_label": "1767",
+   "museum": "Wallace Koleksiyonu, Londra"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Hasır Şapkalı Otoportre",
+   "artist": "Élisabeth Vigée Le Brun",
+   "year_label": "1782",
+   "museum": "National Gallery, Londra"
+  },
+  "david-the-death-of-marat": {
+   "title": "Marat'nın Ölümü",
+   "artist": "Jacques-Louis David",
+   "year_label": "1793",
+   "museum": "Belçika Kraliyet Güzel Sanatlar Müzeleri, Brüksel"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napolyon Alpleri Geçerken",
+   "artist": "Jacques-Louis David",
+   "year_label": "1801",
+   "museum": "Malmaison Şatosu"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Büyük Odalık",
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "year_label": "1814",
+   "museum": "Louvre, Paris"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Cupid'in Öpücüğüyle Canlanan Psykhe",
+   "artist": "Antonio Canova",
+   "year_label": "1793",
+   "museum": "Louvre, Paris"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "3 Mayıs 1808",
+   "artist": "Francisco Goya",
+   "year_label": "1814",
+   "museum": "Prado, Madrid"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "Halka Yol Gösteren Özgürlük",
+   "artist": "Eugène Delacroix",
+   "year_label": "1830",
+   "museum": "Louvre, Paris"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "Medusa'nın Salı",
+   "artist": "Théodore Géricault",
+   "year_label": "1819",
+   "museum": "Louvre, Paris"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Sis Denizi Üzerindeki Gezgin",
+   "artist": "Caspar David Friedrich",
+   "year_label": "1818",
+   "museum": "Hamburg Kunsthalle"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "Savaşçı Temeraire",
+   "artist": "J. M. W. Turner",
+   "year_label": "1839",
+   "museum": "National Gallery, Londra"
+  },
+  "hayez-the-kiss": {
+   "title": "Öpücük",
+   "artist": "Francesco Hayez",
+   "year_label": "1859",
+   "museum": "Brera Resim Galerisi, Milano"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "Kanagawa'nın Büyük Dalgası",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Güzel Rüzgâr, Açık Sabah (Kızıl Fuji)",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Shin-Ōhashi Köprüsü ve Atake'de Ani Sağanak",
+   "artist": "Utagawa Hiroshige",
+   "year_label": "1857",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Qingming Bayramı'nda Nehir Boyunca",
+   "artist": "Zhang Zeduan",
+   "year_label": "1100",
+   "museum": "Saray Müzesi, Pekin"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Rüzgâr Tanrısı ve Gök Gürültüsü Tanrısı",
+   "artist": "Tawaraya Sōtatsu",
+   "year_label": "1630",
+   "museum": "Kennin-ji, Kyoto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "Umutsuz Adam",
+   "artist": "Gustave Courbet",
+   "year_label": "1845",
+   "museum": "Özel koleksiyon"
+  },
+  "millet-the-gleaners": {
+   "title": "Başak Toplayan Kadınlar",
+   "artist": "Jean-François Millet",
+   "year_label": "1857",
+   "museum": "Orsay Müzesi, Paris"
+  },
+  "manet-olympia": {
+   "title": "Olympia",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Orsay Müzesi, Paris"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Kırda Öğle Yemeği",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Orsay Müzesi, Paris"
+  },
+  "wood-american-gothic": {
+   "title": "Amerikan Gotiği",
+   "artist": "Grant Wood",
+   "year_label": "1930",
+   "museum": "Chicago Sanat Enstitüsü"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "John Singer Sargent",
+   "year_label": "1884",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Gri ve Siyah Düzenleme No. 1 (Whistler'ın Annesi)",
+   "artist": "James McNeill Whistler",
+   "year_label": "1871",
+   "museum": "Orsay Müzesi, Paris"
+  },
+  "millais-ophelia": {
+   "title": "Ophelia",
+   "artist": "John Everett Millais",
+   "year_label": "1852",
+   "museum": "Tate Britain, Londra"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "Shalott Leydisi",
+   "artist": "John William Waterhouse",
+   "year_label": "1888",
+   "museum": "Tate Britain, Londra"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Venüs'ün Doğuşu",
+   "artist": "Alexandre Cabanel",
+   "year_label": "1863",
+   "museum": "Orsay Müzesi, Paris"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "Jean-Léon Gérôme",
+   "year_label": "1872",
+   "museum": "Phoenix Sanat Müzesi"
+  },
+  "monet-impression-sunrise": {
+   "title": "İzlenim: Gün Doğumu",
+   "artist": "Claude Monet",
+   "year_label": "1872",
+   "museum": "Marmottan Monet Müzesi, Paris"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Şemsiyeli Kadın (Madam Monet ve Oğlu)",
+   "artist": "Claude Monet",
+   "year_label": "1875",
+   "museum": "Ulusal Sanat Galerisi, Washington"
+  },
+  "monet-water-lilies": {
+   "title": "Nilüferler",
+   "artist": "Claude Monet",
+   "year_label": "1906",
+   "museum": "Chicago Sanat Enstitüsü"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Moulin de la Galette'te Balo",
+   "artist": "Pierre-Auguste Renoir",
+   "year_label": "1876",
+   "museum": "Orsay Müzesi, Paris"
+  },
+  "degas-the-dance-class": {
+   "title": "Dans Sınıfı",
+   "artist": "Edgar Degas",
+   "year_label": "1874",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "morisot-the-cradle": {
+   "title": "Beşik",
+   "artist": "Berthe Morisot",
+   "year_label": "1872",
+   "museum": "Orsay Müzesi, Paris"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Sahilde Yürüyüş",
+   "artist": "Joaquín Sorolla",
+   "year_label": "1909",
+   "museum": "Sorolla Müzesi, Madrid"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "Grande Jatte Adası'nda Bir Pazar Günü",
+   "artist": "Georges Seurat",
+   "year_label": "1886",
+   "museum": "Chicago Sanat Enstitüsü"
+  },
+  "gogh-the-starry-night": {
+   "title": "Yıldızlı Gece",
+   "artist": "Vincent van Gogh",
+   "year_label": "1889",
+   "museum": "Modern Sanat Müzesi (MoMA), New York"
+  },
+  "gogh-sunflowers": {
+   "title": "Ayçiçekleri",
+   "artist": "Vincent van Gogh",
+   "year_label": "1888",
+   "museum": "National Gallery, Londra"
+  },
+  "cezanne-the-card-players": {
+   "title": "İskambil Oynayanlar",
+   "artist": "Paul Cézanne",
+   "year_label": "1892",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "Nereden Geliyoruz? Neyiz? Nereye Gidiyoruz?",
+   "artist": "Paul Gauguin",
+   "year_label": "1897",
+   "museum": "Güzel Sanatlar Müzesi, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Henri de Toulouse-Lautrec",
+   "year_label": "1891",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Uyuyan Çingene",
+   "artist": "Henri Rousseau",
+   "year_label": "1897",
+   "museum": "Modern Sanat Müzesi (MoMA), New York"
+  },
+  "munch-the-scream": {
+   "title": "Çığlık",
+   "artist": "Edvard Munch",
+   "year_label": "1893",
+   "museum": "Ulusal Müze, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "Ölüler Adası",
+   "artist": "Arnold Böcklin",
+   "year_label": "1880",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "rodin-the-thinker": {
+   "title": "Düşünen Adam",
+   "artist": "Auguste Rodin",
+   "year_label": "1904",
+   "museum": "Rodin Müzesi, Paris"
+  },
+  "klimt-the-kiss": {
+   "title": "Öpücük",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Viyana"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Adele Bloch-Bauer'in Portresi I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, New York"
+  },
+  "matisse-dance": {
+   "title": "Dans",
+   "artist": "Henri Matisse",
+   "year_label": "1910",
+   "museum": "Ermitaj Müzesi, Sankt Petersburg"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Şapkalı Kadın",
+   "artist": "Henri Matisse",
+   "year_label": "1905",
+   "museum": "San Francisco Modern Sanat Müzesi"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "Büyük Mavi Atlar",
+   "artist": "Franz Marc",
+   "year_label": "1911",
+   "museum": "Walker Sanat Merkezi, Minneapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Uzanan Çıplak",
+   "artist": "Amedeo Modigliani",
+   "year_label": "1917",
+   "museum": "Metropolitan Sanat Müzesi, New York"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Pablo Picasso'nun Portresi",
+   "artist": "Juan Gris",
+   "year_label": "1912",
+   "museum": "Chicago Sanat Enstitüsü"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Ağaçlarla Eyfel Kulesi",
+   "artist": "Robert Delaunay",
+   "year_label": "1910",
+   "museum": "Solomon R. Guggenheim Müzesi, New York"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Uzamda Sürekliliğin Benzersiz Biçimleri",
+   "artist": "Umberto Boccioni",
+   "year_label": "1913",
+   "museum": "Modern Sanat Müzesi (MoMA), New York"
+  },
+  "boccioni-the-city-rises": {
+   "title": "Şehir Yükseliyor",
+   "artist": "Umberto Boccioni",
+   "year_label": "1910",
+   "museum": "Modern Sanat Müzesi (MoMA), New York"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Kompozisyon VIII",
+   "artist": "Wassily Kandinsky",
+   "year_label": "1923",
+   "museum": "Solomon R. Guggenheim Müzesi, New York"
+  },
+  "malevich-black-square": {
+   "title": "Siyah Kare",
+   "artist": "Kazimir Maleviç",
+   "year_label": "1915",
+   "museum": "Tretyakov Galerisi, Moskova"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Kırmızı, Mavi ve Sarı ile Kompozisyon II",
+   "artist": "Piet Mondrian",
+   "year_label": "1930",
+   "museum": "Kunsthaus Zürich"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Klee",
+   "year_label": "1922",
+   "museum": "Kunstmuseum Basel"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Schwitters",
+   "year_label": "1919",
+   "museum": "Staatsgalerie Stuttgart"
+  },
+  "terracotta-army": {
+   "title": "Terracotta Ordusu",
+   "artist": "Anonim (Çin)",
+   "year_label": "MÖ 210",
+   "museum": "İlk Qin İmparatoru'nun Mozolesi, Xi'an"
+  },
+  "aztec-sun-stone": {
+   "title": "Aztek Güneş Taşı",
+   "artist": "Anonim (Aztek)",
+   "year_label": "1510",
+   "museum": "Ulusal Antropoloji Müzesi, Meksiko"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (Moai)",
+   "artist": "Anonim (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "British Museum, Londra"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Antik Dünya",
+   "period": "MÖ 2600-MS 300",
+   "summary": "Tanrılar, hükümdarlar ve ideal beden",
+   "description": "Mısır'dan Yunan'a ve Roma'ya, sanatçılar hükümdarları, tanrıları ve atletleri sonsuza dek kalsın diye taşa işler. İdeal bedenin peşindeki bu arayış, Batı sanatına yüzyıllarca örnek olacaktır."
+  },
+  "gothic": {
+   "name": "Gotik ve Ön Rönesans",
+   "period": "1280-1430",
+   "summary": "Altın zeminler ve ilk gerçek duygular",
+   "description": "Kiliselerde ve şapellerde ressamlar hâlâ altın zemin üzerine çalışır, ama figürleri artık ağlamaya, dönmeye, ağırlık kazanmaya başlar. Resimle hikâye anlatmak yeniden icat edilmektedir."
+  },
+  "early_netherlandish": {
+   "name": "Erken Dönem Flaman Resmi",
+   "period": "1420-1500",
+   "summary": "Yağlı boya ve göz kamaştıran ayrıntı",
+   "description": "Flandre'de ressamlar yağlı boyayı kusursuzlaştırır ve onunla her şeyi anlatır: kürkü, camı, bir gözyaşını, bir yansımayı. Kutsal sahneler, gerçek evlere benzeyen odalara taşınır."
+  },
+  "renaissance": {
+   "name": "İtalyan Rönesansı",
+   "period": "1420-1570",
+   "summary": "Perspektif ve Antik Çağ'a dönüş",
+   "description": "Önce İtalya'da, sonra bütün Avrupa'da sanatçılar Antik Çağ'ı yeniden keşfeder, insan bedenini inceler ve perspektifi icat eder. Resim, dünyaya açılan bir pencereye dönüşür."
+  },
+  "northern_renaissance": {
+   "name": "Kuzey Rönesansı",
+   "period": "1490-1570",
+   "summary": "Keskin çizgiler, baskılar ve tuhaf hayaller",
+   "description": "Alplerin kuzeyinde sanatçılar, İtalya'dan gelen fikirleri ayrıntıya ve gündelik hayata duydukları sevgiyle harmanlar. Baskı sanatı, imgelerini bütün Avrupa'ya yayar."
+  },
+  "mannerism": {
+   "name": "Maniyerizm",
+   "period": "1520-1610",
+   "summary": "Sınırına kadar zorlanan zarafet",
+   "description": "Büyük ustalardan sonra ressamlar kuralları bile bile esnetir: upuzun bedenler, kıvrılan duruşlar, ekşi renkler. Üslubun kendisi konu hâline gelir."
+  },
+  "baroque": {
+   "name": "Barok",
+   "period": "1600-1700",
+   "summary": "Dram, hareket ve koyu gölgeler",
+   "description": "Sanat artık izleyeni sarsmak ister. Işıkla karanlığın sert karşıtlığı, hareket hâlindeki bedenler ve tiyatroyu andıran sahneleme seni olayın tam ortasına çeker."
+  },
+  "siecledor": {
+   "name": "Hollanda Altın Çağı",
+   "period": "1600-1700",
+   "summary": "Gündelik hayat ve ışık",
+   "description": "Zenginleşen Hollanda Cumhuriyeti'nde sanatçılar orta sınıfın evleri için resim yapar: sakin iç mekânlar, portreler, natürmortlar. Asıl konu ışığın kendisi olur."
+  },
+  "rococo": {
+   "name": "Rokoko ve 18. Yüzyıl",
+   "period": "1715-1790",
+   "summary": "Hafiflik, keyif ve pastel renkler",
+   "description": "18. yüzyıl salonlarında resim oyunbaz ve samimi bir havaya bürünür: bahçe eğlenceleri, portreler, yumuşak renkler. Aynı sıralarda birkaç sanatçı da sessizce sıradan hayata bakar."
+  },
+  "neoclassicism": {
+   "name": "Neoklasisizm",
+   "period": "1760-1860",
+   "summary": "Net çizgiler ve antik erdem",
+   "description": "Roma ve Pompei kalıntılarından ilham alan sanatçılar, yalın desene ve kahramanlık konularına geri döner. Resim hoşa gitmek kadar ders vermek için de vardır."
+  },
+  "romanticism": {
+   "name": "Romantizm",
+   "period": "1780-1860",
+   "summary": "Duygu, doğa ve yücelik",
+   "description": "Aklın yerini duygu alır. Fırtınalar, harabeler, isyanlar ve yalnız figürler, sanatçının baş edilemeyecek kadar büyük bir dünya karşısında hissettiklerini dile getirir."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1680-1860",
+   "summary": "“Yüzen dünya”nın baskıları",
+   "description": "Japonya'da seriler hâlinde üretilen ahşap baskılar oyuncuları, manzaraları ve gündelik hayattan sahneleri gösterir. Düz renkleri ve cesur kadrajları, Avrupalı ressamları derinden sarsacaktır."
+  },
+  "east_asian": {
+   "name": "Çin ve Japon Resmi",
+   "period": "750-1720",
+   "summary": "Mürekkep, ipek ve boşluk",
+   "description": "Çin'de ve Japonya'da ressamlar ipek, kâğıt ve paravan üzerine fırça ve mürekkeple çalışır. Bir dağı ya da bir mevsimi sezdirmek için birkaç fırça darbesi ve bolca boşluk yeter."
+  },
+  "realism": {
+   "name": "Realizm",
+   "period": "1845-1890",
+   "summary": "Sıradan insanlar, oldukları gibi",
+   "description": "Ressamlar kahramanlara ve mitlere sırt çevirir; köylüleri, işçileri ve modern hayatı hiç güzellemeden gösterir. Gerçeği göstermek başlı başına bir tavır olur."
+  },
+  "american": {
+   "name": "Amerikan Resmi",
+   "period": "1780-1930",
+   "summary": "Yeni bir ülke kendine bakıyor",
+   "description": "Genç cumhuriyetin portrelerinden uçsuz bucaksız manzaralara ve şehir hayatı sahnelerine, Amerikalı ressamlar kendilerine ait konuların ve kendilerine ait bir ışığın peşine düşer."
+  },
+  "preraphaelite": {
+   "name": "Ön Rafaelloculuk ve Viktorya Dönemi",
+   "period": "1848-1900",
+   "summary": "Parlak renk, efsane ve ayrıntı",
+   "description": "Viktorya dönemi Britanya'sında bir grup genç ressam akademinin hazır reçetelerini reddeder. Efsaneleri ve şiirleri yoğun renklerle, neredeyse saplantılı bir titizlikle resmederler."
+  },
+  "academic": {
+   "name": "Akademik Sanat",
+   "period": "1830-1900",
+   "summary": "Resmî Salon'un cilalı sanatı",
+   "description": "Büyük sanat okullarında yetişen bu ressamlar anatomide, tarihte ve pürüzsüz bitirişte ustadır. Avangard onları gölgede bırakana kadar çağlarının yıldızlarıydılar."
+  },
+  "impressionnisme": {
+   "name": "Empresyonizm",
+   "period": "1867-1910",
+   "summary": "Anın ışığını resmetmek",
+   "description": "Bir grup ressam atölyeden çıkıp açık havada, küçük ve hızlı fırça darbeleriyle çalışmaya başlar. Artık ayrıntının değil, ışığın belli bir andaki etkisinin peşindedirler."
+  },
+  "neo_impressionism": {
+   "name": "Neo-Empresyonizm",
+   "period": "1884-1910",
+   "summary": "Nokta nokta renk",
+   "description": "Ressamlar rengi bilimle ele alır: yan yana konan küçük saf boya noktaları, bakanın gözünde birbirine karışır. Resim, bir mozaik gibi sabırla örülür."
+  },
+  "postimp": {
+   "name": "Post-Empresyonizm",
+   "period": "1885-1910",
+   "summary": "Önce renk ve duygu",
+   "description": "Empresyonizmden sonra herkes kendi yolunu arar. Renk artık gerçeği taklit etmez: ressamın ne hissettiğini anlatır."
+  },
+  "symbolism": {
+   "name": "Sembolizm",
+   "period": "1860-1915",
+   "summary": "Düşler, mitler ve iç dünyalar",
+   "description": "Bu sanatçılar görünen dünyayı betimlemek yerine fikirleri, düşleri ve korkuları sezdirir. Resimleri anlaşılmadan önce hissedilsin diye yapılmıştır."
+  },
+  "secession": {
+   "name": "Art Nouveau ve Viyana Sezesyonu",
+   "period": "1890-1918",
+   "summary": "Altın, süsleme ve kıvrımlı çizgiler",
+   "description": "Viyana'da genç sanatçılar akademiyle yollarını ayırır. Resmi, süslemeyi ve zanaatı birbirine katar, süsü başlı başına bir dile dönüştürürler."
+  },
+  "fauvism": {
+   "name": "Fovizm",
+   "period": "1904-1917",
+   "summary": "Tüpten çıktığı gibi saf renk",
+   "description": "Birkaç fırtınalı yıl boyunca ressamlar sert, doğada olmayan renkler ve serbest fırça darbeleri kullanır. Eleştirmenler onlara “vahşi hayvanlar” der ve bu ad üstlerine yapışır."
+  },
+  "expressionism": {
+   "name": "Ekspresyonizm",
+   "period": "1903-1925",
+   "summary": "Çarpıtılmış biçimler, ham duygu",
+   "description": "Sanatçılar kaygıyı, arzuyu ya da isyanı anlatmak için biçimleri büker, renkleri zorlar. Önemli olan dünyanın nasıl göründüğü değil, nasıl hissettirdiğidir."
+  },
+  "cubism": {
+   "name": "Kübizm",
+   "period": "1909-1925",
+   "summary": "Aynı anda birkaç yönden görülen nesneler",
+   "description": "Ressamlar nesneleri yüzeylere böler ve aynı resimde birkaç açıdan birden gösterir. Beş yüzyıllık perspektif bir anda sorgulanır."
+  },
+  "futurism": {
+   "name": "Fütürizm",
+   "period": "1909-1920",
+   "summary": "Hız, makineler ve modern şehir",
+   "description": "İtalyan sanatçılar otomobilleri, kalabalıkları ve elektriği yüceltir. Biçimleri tekrarlayıp parçalayarak hareketin kendisini resmetmeye çalışırlar."
+  },
+  "abstraction": {
+   "name": "Soyutlama ve Avangard",
+   "period": "1907-1930",
+   "summary": "Konusu olmayan resim",
+   "description": "Çizgiler, biçimler ve renkler artık hiçbir şeyi temsil etmez: resim onların ta kendisidir. Sanatçılar müzik kadar dolaysız bir görsel dil arar."
+  },
+  "dada_surrealism": {
+   "name": "Dada ve Erken Sürrealizm",
+   "period": "1912-1930",
+   "summary": "Rastlantı, saçmalık ve düşler",
+   "description": "Birinci Dünya Savaşı'na duyulan tiksintiden doğan Dada, sanatın kendisiyle alay eder. Ardından gelen sürrealizm düşleri, rastlantıyı ve bilinçdışını keşfe çıkar."
+  },
+  "world": {
+   "name": "Afrika, Asya ve Amerika",
+   "period": "MÖ 1200-1600",
+   "summary": "Kutsal nesneler ve saray sanatı",
+   "description": "Afrika'dan, Asya'dan ve Amerika'dan bronzlar, maskeler, taştan devler ve ritüel nesneleri. Müzeler ortada yokken törenler, tapınaklar ve krallar için yapılmışlardı."
+  }
+ }
+}

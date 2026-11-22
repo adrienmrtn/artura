@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Italiaanse renaissance",
+   "period": "15e–16e eeuw",
+   "summary": "Perspectief en terug naar de oudheid",
+   "description": "In Italië, en daarna in heel Europa, herontdekken kunstenaars de oudheid, bestuderen ze het menselijk lichaam en vinden ze het perspectief uit. Het schilderij wordt een venster op de wereld."
+  },
+  "siecledor": {
+   "name": "Gouden Eeuw",
+   "period": "17e eeuw",
+   "summary": "Het dagelijks leven en het licht",
+   "description": "In de welvarende Republiek schilderen kunstenaars voor burgerhuizen: stille interieurs, portretten, stillevens. Het licht wordt het echte onderwerp."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "17e–19e eeuw",
+   "summary": "Prenten van de “vlietende wereld”",
+   "description": "In Japan tonen houtsneden, in series gemaakt, acteurs, landschappen en taferelen uit het dagelijks leven. Hun egale kleuren en gedurfde uitsneden zouden de Europese schilders danig opschudden."
+  },
+  "impressionnisme": {
+   "name": "Impressionisme",
+   "period": "Jaren 1870–1880",
+   "summary": "Het licht van het moment schilderen",
+   "description": "Een groep schilders verlaat het atelier om buiten te werken, met snelle penseelstreekjes. Ze zoeken niet langer het detail, maar het effect van het licht op één bepaald ogenblik."
+  },
+  "postimp": {
+   "name": "Postimpressionisme",
+   "period": "1886–1905",
+   "summary": "Eerst kleur en emotie",
+   "description": "Na het impressionisme zoekt iedereen zijn eigen weg. Kleur imiteert de werkelijkheid niet meer: ze drukt uit wat de schilder voelt."
+  },
+  "secession": {
+   "name": "Art nouveau en Weense Secessie",
+   "period": "Rond 1900",
+   "summary": "Goud, ornament en kronkelende lijnen",
+   "description": "In Wenen breken jonge kunstenaars met de academie. Ze laten schilderkunst, decoratie en ambacht in elkaar overvloeien en maken van het ornament een taal op zich."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "De sterrennacht",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Museum of Modern Art, New York",
+   "teaser": "Een kolkende hemel, uit het hoofd geschilderd in een kamer van een inrichting.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Juni 1889. Vincent van Gogh is 36. Een maand eerder heeft hij zich laten opnemen in de inrichting van Saint-Rémy-de-Provence, in Zuid-Frankrijk, na een zware inzinking in Arles."
+    },
+    {
+     "type": "text",
+     "text": "Zijn slaapkamer ligt op het oosten. Door het raam ziet hij een korenveld, de heuvels van de Alpilles en, voor het licht wordt, de hemel. Dat uitzicht schildert hij steeds opnieuw, op elk uur van de dag."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh begon pas op zijn 27e te schilderen. In een jaar of tien maakte hij zo'n 900 schilderijen, soms één per dag."
+    },
+    {
+     "type": "tour",
+     "text": "Dit is de beroemdste van al die hemels. Bekijk hem rustig en tik dan om erin te stappen.",
+     "spots": [
+      {
+       "title": "De werveling",
+       "text": "In het midden krullen twee grote golven in elkaar. Zo ziet geen echte hemel eruit: hij schildert wat hij voelt, niet wat hij ziet."
+      },
+      {
+       "title": "De maan",
+       "text": "Een oranje sikkel in een gele lichtkrans. Het lijkt bijna een zon. Van Gogh zet de verf in korte streken die eromheen draaien."
+      },
+      {
+       "title": "De morgenster",
+       "text": "Het witste licht van het schilderij. Van Gogh schreef zijn broer dat hij voor zonsopgang de morgenster had gezien, heel groot. Waarschijnlijk is het Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Dit doek is niet 's nachts geschilderd, en ook niet voor het uitzicht. Van Gogh maakte het bij daglicht, in zijn atelier in de inrichting, uit het hoofd en uit zijn verbeelding. Dat was ongewoon voor hem: meestal schilderde hij wat hij voor zich zag."
+    },
+    {
+     "type": "key",
+     "text": "De sterrennacht is overdag geschilderd, uit het hoofd. Het is geen uitzicht. Het is een visioen."
+    },
+    {
+     "type": "text",
+     "text": "Hij droomde al lang van een nachthemel. Een jaar eerder schreef hij dat de aanblik van de sterren hem altijd aan het dromen bracht."
+    },
+    {
+     "type": "find",
+     "text": "Eén detail in dit landschap komt rechtstreeks uit zijn jeugd in Nederland. Waar is de kerktoren?",
+     "spots": [
+      {
+       "title": "De kerktoren",
+       "text": "Een dunne, puntige spits, zoals in de Nederlandse dorpen waar Van Gogh opgroeide. Kerktorens in de Provence zien er heel anders uit."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ook het dorp is verzonnen, of op zijn minst verplaatst: vanuit zijn raam was het niet te zien. Van Gogh combineert een echte hemel, echte heuvels en een dorp uit zijn herinnering."
+    },
+    {
+     "type": "fact",
+     "text": "Zijn raam in de inrichting had ijzeren tralies. Op geen enkel schilderij van het uitzicht zijn ze te zien."
+    },
+    {
+     "type": "lines",
+     "text": "Het schilderij oogt onrustig. In werkelijkheid is het zorgvuldig opgebouwd.",
+     "lines": [
+      {
+       "label": "De verticaal van de cipres",
+       "text": "Hij snijdt door het hele doek, van de grond tot de bovenrand, en geeft de maat aan: de hemel is onmetelijk."
+      },
+      {
+       "label": "De echo: de kerktoren",
+       "text": "Een tweede, piepkleine verticaal die de cipres antwoordt. De ene is natuur, de andere mensenwerk."
+      },
+      {
+       "label": "De golf in de hemel",
+       "text": "Het oog volgt deze S van links naar rechts, helemaal tot aan de maan."
+      },
+      {
+       "label": "De helling van de heuvels",
+       "text": "Een diagonaal die naar het dorp afloopt en het beschermt, als een arm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kijk nu naar de toets. Nergens vloeien kleuren zacht in elkaar over. Korte, dikke streken staan naast elkaar, en elke streek wijst een kant op. De penseelstreek zelf maakt de beweging."
+    },
+    {
+     "type": "text",
+     "text": "Schilders noemen zulke dikke verf “impasto”. Van Gogh kneep de kleur soms bijna rechtstreeks uit de tube. Van dichtbij is het oppervlak van het doek zo ruw als een reliëfkaart."
+    },
+    {
+     "type": "tour",
+     "title": "Van dichtbij",
+     "text": "Laten we de verf zelf eens van dichtbij bekijken.",
+     "spots": [
+      {
+       "title": "De verf",
+       "text": "Kijk hoe dik ze is: de verf ligt er in korte, zware streken, bijna in reliëf. Dat heet impasto."
+      },
+      {
+       "title": "De cipres",
+       "text": "Donker en gedraaid als een vlam verbindt hij de aarde met de hemel. In Zuid-Frankrijk is het de boom van de begraafplaatsen. Van Gogh vond hem zo mooi als een Egyptische obelisk."
+      },
+      {
+       "title": "De heuvels",
+       "text": "De Alpilles. Ze golven als de zee, meegesleept door dezelfde beweging als de hemel."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "De cipres doet ertoe. Het is de donkerste vorm in het schilderij en de enige die zowel de grond als de top van de hemel raakt. Van Gogh was die zomer gefascineerd door deze bomen."
+    },
+    {
+     "type": "palette",
+     "text": "Blauw, geel en verder bijna niets. Tik op een kleur.",
+     "swatches": [
+      {
+       "name": "Diepblauw",
+       "text": "De diepte van de hemel en de heuvels. Van Gogh gebruikte ultramarijn en kobaltblauw."
+      },
+      {
+       "name": "Lichtblauw",
+       "text": "De wervelingen. In dikke streken neergezet laat het de hemel draaien."
+      },
+      {
+       "name": "Geel",
+       "text": "De maan, de sterren, de ramen. Een piepklein deel van het oppervlak, en toch licht het alles op."
+      },
+      {
+       "name": "Groenzwart",
+       "text": "De cipres en de schaduwen van het dorp. De donkerste massa van het schilderij."
+      },
+      {
+       "name": "Groenig wit",
+       "text": "De lichtkransen rond de sterren: daardoor lijken ze te fonkelen."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Blauw en geel staan bijna tegenover elkaar in de kleurencirkel. Naast elkaar gezet maken ze elkaar sterker. Van Gogh wist dat en gebruikte het om zijn nachten te laten trillen."
+    },
+    {
+     "type": "key",
+     "text": "Tegengestelde kleuren naast elkaar versterken elkaar. Daarom branden de gele sterren zo tegen het blauw."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh vertelde zijn broer dat hij de morgenster had gezien, heel groot. Tik op het witste licht van het schilderij.",
+     "spots": [
+      {
+       "title": "De morgenster",
+       "text": "Het witste licht van het schilderij. Van Gogh schreef zijn broer dat hij voor zonsopgang de morgenster had gezien, heel groot. Waarschijnlijk is het Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "En wat vond hij er zelf van? Niet veel. In zijn brieven noemt hij het een eenvoudige nachtstudie, en hij twijfelt aan die doeken uit de verbeelding."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh verkocht bij zijn leven bijna niets. Zijn broer Theo, kunsthandelaar, steunde hem met geld en verf."
+    },
+    {
+     "type": "text",
+     "text": "Dertien maanden later, in juli 1890, stierf hij, 37 jaar oud. De sterrennacht kwam in 1941 in het Museum of Modern Art in New York terecht."
+    },
+    {
+     "type": "key",
+     "text": "Bij Van Gogh is de penseelstreek het onderwerp: elke streek heeft een richting, en juist dat zet de hemel in beweging."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "De werveling",
+       "text": "In het midden krullen twee grote golven in elkaar. Zo ziet geen echte hemel eruit: hij schildert wat hij voelt, niet wat hij ziet."
+      },
+      {
+       "title": "De maan",
+       "text": "Een oranje sikkel in een gele lichtkrans. Het lijkt bijna een zon. Van Gogh zet de verf in korte streken die eromheen draaien."
+      },
+      {
+       "title": "De morgenster",
+       "text": "Het witste licht van het schilderij. Van Gogh schreef zijn broer dat hij voor zonsopgang de morgenster had gezien, heel groot. Waarschijnlijk is het Venus."
+      },
+      {
+       "title": "De cipres",
+       "text": "Donker en gedraaid als een vlam verbindt hij de aarde met de hemel. In Zuid-Frankrijk is het de boom van de begraafplaatsen. Van Gogh vond hem zo mooi als een Egyptische obelisk."
+      },
+      {
+       "title": "De kerktoren",
+       "text": "Een dunne, puntige spits, zoals in de Nederlandse dorpen waar Van Gogh opgroeide. Kerktorens in de Provence zien er heel anders uit."
+      },
+      {
+       "title": "Het dorp",
+       "text": "Een paar verlichte gele ramen. Vanuit zijn kamer kon hij dit dorp niet zien: hij voegde het uit zijn herinnering toe."
+      },
+      {
+       "title": "De heuvels",
+       "text": "De Alpilles. Ze golven als de zee, meegesleept door dezelfde beweging als de hemel."
+      },
+      {
+       "title": "De verf",
+       "text": "Kijk hoe dik ze is: de verf ligt er in korte, zware streken, bijna in reliëf. Dat heet impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Waar was Van Gogh toen hij De sterrennacht schilderde?",
+     "options": [
+      "In Parijs",
+      "In de inrichting van Saint-Rémy-de-Provence",
+      "In Amsterdam"
+     ],
+     "explanation": "Hij had zich er een maand eerder laten opnemen."
+    },
+    {
+     "question": "Hoe is het schilderij gemaakt?",
+     "options": [
+      "'s Nachts, voor het uitzicht",
+      "Overdag, uit het hoofd en uit zijn verbeelding",
+      "Naar een foto"
+     ],
+     "explanation": "Overdag, in zijn atelier in de inrichting."
+    },
+    {
+     "question": "Welk detail doet aan Nederland denken?",
+     "options": [
+      "De cipres",
+      "De puntige kerktoren",
+      "De heuvels"
+     ],
+     "explanation": "Een spits zoals in de dorpen waar hij opgroeide."
+    },
+    {
+     "question": "Wat is “impasto”?",
+     "options": [
+      "Heel dikke verf, bijna in reliëf",
+      "Een dun, doorzichtig glacis",
+      "Een schets in houtskool"
+     ],
+     "explanation": "Korte, zware streken die boven het doek uitsteken."
+    },
+    {
+     "question": "Waarom lijken de gele sterren zo fel?",
+     "options": [
+      "Ze zijn met goud geschilderd",
+      "Het geel staat naast zijn tegenpool, blauw",
+      "Het doek wordt van achteren verlicht"
+     ],
+     "explanation": "Tegengestelde kleuren naast elkaar versterken elkaar."
+    },
+    {
+     "question": "Wat liet Van Gogh weg op zijn schilderijen van dit uitzicht?",
+     "options": [
+      "De tralies voor zijn raam",
+      "De maan",
+      "De heuvels"
+     ],
+     "explanation": "Zijn raam in de inrichting had ijzeren tralies."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh schilderde De sterrennacht buiten, midden in de nacht.",
+     "explanation": "Hij schilderde het overdag, uit het hoofd, in de inrichting van Saint-Rémy."
+    },
+    {
+     "text": "De sterrennacht hangt in New York.",
+     "explanation": "Het is sinds 1941 in het MoMA."
+    },
+    {
+     "text": "Van Gogh verkocht veel schilderijen en stierf rijk.",
+     "explanation": "Hij verkocht bijna niets; zijn broer Theo steunde hem."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Meisje met de parel",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "ca. 1665",
+   "museum": "Mauritshuis, Den Haag",
+   "teaser": "Een blik over de schouder, en niemand weet wie ze is.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Je kent dit gezicht. Toch is het geen portret: niemand weet wie ze is, en Vermeer wilde waarschijnlijk ook niemand in het bijzonder schilderen."
+    },
+    {
+     "type": "text",
+     "text": "In de Republiek van de zeventiende eeuw had zo'n schilderij een naam: een “tronie”, een studie van een gezicht. De schilder onderzoekt er een uitdrukking mee, een exotisch kostuum, een lichteffect. Hier alle drie tegelijk."
+    },
+    {
+     "type": "key",
+     "text": "Een tronie is een verzonnen gezicht, een excuus om een uitdrukking en een licht te schilderen. Het is geen portret van een echt persoon."
+    },
+    {
+     "type": "tour",
+     "text": "Kijk eerst naar het hele schilderij: een gezicht dat uit het donker opduikt. Tik om dichterbij te komen.",
+     "spots": [
+      {
+       "title": "De blik",
+       "text": "Ze draait zich naar je om, alsof je net haar naam riep. Eén wit stipje in elk oog is genoeg om de blik vochtig en levend te maken."
+      },
+      {
+       "title": "De mond",
+       "text": "Een beetje open, alsof ze midden in een zin zit. Zie je het piepkleine lichtpuntje in de mondhoek? Eén toets verf, en de mond glanst."
+      },
+      {
+       "title": "De parel",
+       "text": "Twee streken, meer niet: bovenaan een witte glimlichtvlek, onderaan een grijze weerspiegeling van de kraag. Geen contour, geen haakje. Je oog maakt de parel zelf."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Het hele schilderij draait om één beweging: ze kijkt om. Haar lichaam staat en profil, haar gezicht komt naar ons toe. Het is alsof we haar verrassen, of alsof ze op het punt staat weg te gaan. Daardoor is ze zo levendig."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer woonde zijn hele leven in Delft, een kleine Hollandse stad. Hij schilderde traag, moest elf kinderen voeden en stierf op zijn 43e met schulden."
+    },
+    {
+     "type": "text",
+     "text": "Let op de tulband. Zo kleedde geen Hollands meisje zich. Het is een kostuum, een vleugje verre Oosten, waar de schilders van die tijd door gefascineerd waren."
+    },
+    {
+     "type": "find",
+     "text": "Er valt één lichtbron op haar gezicht. Waar komt het licht terecht? Tik op het lichtste deel van haar gezicht.",
+     "spots": [
+      {
+       "title": "De wang",
+       "text": "Het licht komt van links, iets van boven. Het raakt het voorhoofd, de wang en de neus, en laat de andere helft van het gezicht in de schaduw wegglijden."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer tekent bijna geen contouren. Kijk naar de neusrug: er staat geen lijn, alleen een lichte wang die een schaduw ontmoet. Het gezicht bestaat uit licht, niet uit lijnen."
+    },
+    {
+     "type": "key",
+     "text": "Licht van links, zachte schaduwen, geen harde contouren: zo herken je Vermeer."
+    },
+    {
+     "type": "lines",
+     "text": "Waarom staat zo'n eenvoudig beeld zo stevig? Drie lijnen verklaren het.",
+     "lines": [
+      {
+       "label": "Het licht",
+       "text": "Het komt van linksboven, als door een raam dat we niet zien."
+      },
+      {
+       "label": "De driehoek",
+       "text": "Van de top van de tulband naar beide schouders: een stevige, stabiele vorm die het omdraaien van het hoofd in evenwicht houdt."
+      },
+      {
+       "label": "De val",
+       "text": "De gele doek valt rechts naar beneden en houdt het gezicht, dat naar links draait, in balans."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "En dan het blauw. Vermeer gebruikte echt ultramarijn, gemaakt van fijngemalen lapis lazuli. De meeste schilders bewaarden het voor de mantel van de Maagd Maria, zo duur was het. Hij zette het overal, zelfs in de schaduwen."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli kwam uit mijnen in wat nu Afghanistan is. De naam “ultramarijn” betekent “van overzee”."
+    },
+    {
+     "type": "palette",
+     "text": "Vijf kleuren vormen bijna het hele schilderij. Tik op een kleur om te zien waar die zich verstopt.",
+     "swatches": [
+      {
+       "name": "De donkere achtergrond",
+       "text": "Meer dan de helft van het oppervlak. Ooit een diepgroen gordijn, nu bijna zwart."
+      },
+      {
+       "name": "Ultramarijn",
+       "text": "Het blauw van lapis lazuli. Het neemt maar weinig plaats in, en toch zie je niets anders."
+      },
+      {
+       "name": "Bruine oker",
+       "text": "De schaduwen van het jak en van de gele doek: een warme, goedkope aardkleur."
+      },
+      {
+       "name": "Het roze van de huid",
+       "text": "Het lichtste deel van het schilderij. Daar gaan onze ogen het eerst naartoe."
+      },
+      {
+       "name": "Geel",
+       "text": "Op het jak en de afhangende doek van de tulband. Het geeft antwoord op het blauw."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In 1994 werd het schilderij gerestaureerd. Onder een vergeelde vernislaag vonden de restauratoren frissere kleuren, en dat lichtpuntje in de mondhoek dat niemand meer kon zien."
+    },
+    {
+     "type": "text",
+     "text": "En de achtergrond? Nu ziet die er vlak en zwart uit. Wetenschappelijk onderzoek heeft aangetoond dat Vermeer er een donkergroen gordijn schilderde. De groene pigmenten zijn met de tijd afgebroken."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer heeft dit schilderij gesigneerd. Maar waar? Kijk goed, je ziet het bijna niet.",
+     "spots": [
+      {
+       "title": "De signatuur",
+       "text": "“IVMeer”, linksboven. In een lichte tint op de donkere achtergrond gezet, en met de tijd bijna helemaal vervaagd."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Is de parel eigenlijk wel een parel? Hij is enorm. Sommige deskundigen denken aan gevernist glas of gepolijst tin. Het maakt weinig uit: in verf is het een druppel licht, en meer wilde Vermeer niet."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer schildert geen voorwerpen. Hij schildert het licht dat erop valt. De parel is twee toetsen wit."
+    },
+    {
+     "type": "text",
+     "text": "We kennen maar een stuk of 37 schilderijen van Vermeer. Na zijn dood was hij twee eeuwen lang zo goed als vergeten."
+    },
+    {
+     "type": "fact",
+     "text": "In 1881 kocht een verzamelaar dit schilderij op een veiling voor twee gulden, een habbekrats. In 1902 liet hij het na aan het Mauritshuis."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "De blik",
+       "text": "Ze draait zich naar je om, alsof je net haar naam riep. Eén wit stipje in elk oog is genoeg om de blik vochtig en levend te maken."
+      },
+      {
+       "title": "De mond",
+       "text": "Een beetje open, alsof ze midden in een zin zit. Zie je het piepkleine lichtpuntje in de mondhoek? Eén toets verf, en de mond glanst."
+      },
+      {
+       "title": "De parel",
+       "text": "Twee streken, meer niet: bovenaan een witte glimlichtvlek, onderaan een grijze weerspiegeling van de kraag. Geen contour, geen haakje. Je oog maakt de parel zelf."
+      },
+      {
+       "title": "De blauwe tulband",
+       "text": "Echt ultramarijn, gemaakt van lapis lazuli, een steen die helemaal uit Afghanistan kwam. Toen was dit pigment duurder dan goud."
+      },
+      {
+       "title": "De gele val",
+       "text": "De gele doek valt als een vlam over haar rug. Blauw en geel: Vermeer hield van dit paar en gebruikte het op het ene schilderij na het andere."
+      },
+      {
+       "title": "De witte kraag",
+       "text": "Een strook wit, in één gebaar neergezet. Het is deze kraag die je onderaan in de parel weerspiegeld ziet."
+      },
+      {
+       "title": "De signatuur",
+       "text": "“IVMeer”, linksboven. In een lichte tint op de donkere achtergrond gezet, en met de tijd bijna helemaal vervaagd."
+      },
+      {
+       "title": "De achtergrond",
+       "text": "Die was niet altijd zwart. Onderzoek toont dat Vermeer hier een donkergroen gordijn schilderde. Het groen is in de loop van de eeuwen verdwenen."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wat is een “tronie”?",
+     "options": [
+      "Een portret in opdracht",
+      "Een studie van een verzonnen gezicht",
+      "Een zelfportret"
+     ],
+     "explanation": "Een excuus om een uitdrukking en een licht te schilderen, geen echt persoon."
+    },
+    {
+     "question": "Waar komt het blauw van de tulband vandaan?",
+     "options": [
+      "Uit een plant, indigo",
+      "Uit een steen, lapis lazuli",
+      "Uit een schelp"
+     ],
+     "explanation": "Gemalen lapis lazuli geeft echt ultramarijn, toen duurder dan goud."
+    },
+    {
+     "question": "Hoe is de parel geschilderd?",
+     "options": [
+      "Met een precieze contour en een haakje",
+      "Met twee lichte toetsen en zonder contour",
+      "Met bladzilver"
+     ],
+     "explanation": "Een witte glimlichtvlek, een grijze weerspiegeling: je oog doet de rest."
+    },
+    {
+     "question": "Waar komt het licht vandaan?",
+     "options": [
+      "Van links",
+      "Van rechts",
+      "Van onderen"
+     ],
+     "explanation": "Van linksboven, als door een onzichtbaar raam."
+    },
+    {
+     "question": "Wat was de achtergrond oorspronkelijk?",
+     "options": [
+      "Een donkergroen gordijn",
+      "Een raam",
+      "Een gouden muur"
+     ],
+     "explanation": "De groene pigmenten zijn in de loop van de eeuwen afgebroken."
+    },
+    {
+     "question": "Waar bracht Vermeer zijn hele leven door?",
+     "options": [
+      "Amsterdam",
+      "Delft",
+      "Den Haag"
+     ],
+     "explanation": "Hij woonde en werkte in het kleine Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "We weten hoe het meisje heette dat model stond.",
+     "explanation": "Wie ze was, weet niemand: het schilderij is een tronie."
+    },
+    {
+     "text": "Het blauw van de tulband komt uit een steen, lapis lazuli.",
+     "explanation": "Fijngemalen geeft die echt ultramarijn."
+    },
+    {
+     "text": "De parel is geschilderd met een zorgvuldige, gedetailleerde contour.",
+     "explanation": "Het zijn maar twee toetsen lichte verf, helemaal zonder contour."
+    }
+   ]
+  },
+  "vague": {
+   "title": "De grote golf bij Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "ca. 1831",
+   "museum": "Houtsnede · vele afdrukken",
+   "teaser": "Een reusachtige golf en ver op de achtergrond, piepklein, de berg Fuji.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Dit is geen schilderij. Het is een prent: een beeld dat in houten blokken is gesneden, ingeïnkt en daarna op papier gedrukt. Er bestaat dus niet één Grote golf. Er zijn er duizenden."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai bracht hem rond 1831 uit. Hij was een jaar of 70 en tekende al sinds zijn jeugd. De prent opent een reeks die beroemd zou worden: Zesendertig gezichten op de berg Fuji."
+    },
+    {
+     "type": "key",
+     "text": "De grote golf is een houtsnede, gedrukt in duizenden exemplaren. Veel musea over de hele wereld hebben er een."
+    },
+    {
+     "type": "fact",
+     "text": "Zo'n prent was goedkoop. In Hokusai's tijd kostte hij ongeveer evenveel als een kom noedels."
+    },
+    {
+     "type": "find",
+     "text": "De reeks heet Zesendertig gezichten op de berg Fuji. Waar is de Fuji dan?",
+     "spots": [
+      {
+       "title": "De berg Fuji",
+       "text": "Het echte onderwerp van de prent staat hier, piepklein. De heilige berg van Japan, met sneeuw op de top, doodstil midden in de storm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Dat is de geniale vondst: de hoogste berg van Japan is kleiner dan de golf. Hokusai speelt met afstand. Wat dichtbij is, verplettert wat ver weg is, zoals op een groothoekfoto."
+    },
+    {
+     "type": "text",
+     "text": "De Fuji was heilig. Men geloofde dat de berg het geheim van de onsterfelijkheid bewaarde. Hokusai was er bezeten van en tekende hem vanuit elke hoek, in elk weer."
+    },
+    {
+     "type": "tour",
+     "text": "Laten we door het beeld reizen zoals het oog dat doet.",
+     "spots": [
+      {
+       "title": "Het schuim",
+       "text": "Kijk naar de kam van de golf: het schuim loopt uit in kromme vingers, als klauwen die zich om de boten gaan sluiten."
+      },
+      {
+       "title": "De roeiers",
+       "text": "Vissers over hun riemen gebogen, het hoofd omlaag. Deze snelle boten brachten verse vis naar Edo, de stad die we nu Tokio noemen."
+      },
+      {
+       "title": "De kleine golf",
+       "text": "Op de voorgrond een kleinere golf. Kijk naar de vorm: puntig, wit aan de top. Het is een tweede Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In Japan lees je van rechts naar links. Het oog komt dus rechts binnen, bij de boten, en loopt recht op de golf af. Voor een Japanse kijker komt de golf dus recht op hem af."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai veranderde in zijn leven meer dan dertig keer van naam. Een van zijn laatste namen betekende “oude man, gek op tekenen”."
+    },
+    {
+     "type": "lines",
+     "text": "Een eenvoudig beeld, tot op de millimeter berekend.",
+     "lines": [
+      {
+       "label": "De boog",
+       "text": "De golf beschrijft een grote boog die zich om zichzelf sluit. De hele linkerkant van het beeld zit erin gevangen."
+      },
+      {
+       "label": "De driehoek van de Fuji",
+       "text": "Klein, stabiel, puntig. Hij staat precies in de holte van de golf."
+      },
+      {
+       "label": "Zijn dubbelganger",
+       "text": "De kleine golf op de voorgrond herhaalt de vorm van de berg. Het water bootst de steen na."
+      },
+      {
+       "label": "De leesrichting",
+       "text": "Van rechts naar links: we glijden over de deining naar de Fuji en kijken dan omhoog naar de golf."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Hoe werd zo'n prent gemaakt? Hokusai tekende het beeld op dun papier. Een houtsnijder plakte de tekening op een blok kersenhout en sneed alles weg wat geen lijn was. Daarna inktte een drukker het blok in en drukte het papier ertegenaan."
+    },
+    {
+     "type": "text",
+     "text": "Elke kleur had een eigen gesneden blok nodig, en die werden een voor een op hetzelfde vel gedrukt. Daarom hebben prenten zo weinig kleuren."
+    },
+    {
+     "type": "key",
+     "text": "Eén houtblok per kleur: hoe minder kleuren, hoe eenvoudiger de prent. Hokusai maakt van die beperking een stijl."
+    },
+    {
+     "type": "palette",
+     "text": "Heel weinig kleuren, want elke kleur heeft een eigen gesneden blok nodig. Tik op een kleur.",
+     "swatches": [
+      {
+       "name": "Het papier",
+       "text": "De meest voorkomende kleur is helemaal niet gedrukt: het is het kale papier, opengelaten voor het schuim en de sneeuw."
+      },
+      {
+       "name": "Pruisisch blauw",
+       "text": "Het blauw uit Europa. Het tekent de golf, de strepen en de holtes."
+      },
+      {
+       "name": "Lichtblauw",
+       "text": "Hetzelfde blauw, verdund. Het geeft het water volume."
+      },
+      {
+       "name": "De getinte lucht",
+       "text": "Een beige dat nauwelijks donkerder is dan het papier, waardoor het witte schuim eruit springt."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Over dat blauw gesproken. Het is Pruisisch blauw, een chemisch pigment dat in Europa was uitgevonden en pas sinds kort in Japan werd ingevoerd. Het is diep, het verbleekt niet en het sloeg in als een bom. De reeks dankt er een groot deel van haar succes aan."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai heeft zijn prent gesigneerd. Waar? Een hint: niet rechtsonder.",
+     "spots": [
+      {
+       "title": "De cartouche",
+       "text": "In het kadertje: de titel van de reeks en van de prent, “Onder de golf bij Kanagawa”. Links daarvan: de signatuur van Hokusai."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In de jaren 1850 ging Japan open voor de handel, en de prenten bereikten Europa. Franse schilders waren met stomheid geslagen: egale kleurvlakken, scherpe contouren, gedurfde uitsneden. Monet verzamelde ze. Van Gogh schilderde ze na."
+    },
+    {
+     "type": "key",
+     "text": "Die rage heet japonisme. Zonder Japanse prenten had het impressionisme er anders uitgezien."
+    },
+    {
+     "type": "text",
+     "text": "Nog één ding: dit is geen tsunami. Het is een golf van de open zee, enorm maar gewoon, het soort waar vissers bang voor waren. Hokusai toont geen ramp. Hij toont nietige mensen tegenover de natuur."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "De berg Fuji",
+       "text": "Het echte onderwerp van de prent staat hier, piepklein. De heilige berg van Japan, met sneeuw op de top, doodstil midden in de storm."
+      },
+      {
+       "title": "Het schuim",
+       "text": "Kijk naar de kam van de golf: het schuim loopt uit in kromme vingers, als klauwen die zich om de boten gaan sluiten."
+      },
+      {
+       "title": "De roeiers",
+       "text": "Vissers over hun riemen gebogen, het hoofd omlaag. Deze snelle boten brachten verse vis naar Edo, de stad die we nu Tokio noemen."
+      },
+      {
+       "title": "De kleine golf",
+       "text": "Op de voorgrond een kleinere golf. Kijk naar de vorm: puntig, wit aan de top. Het is een tweede Fuji."
+      },
+      {
+       "title": "De cartouche",
+       "text": "In het kadertje: de titel van de reeks en van de prent, “Onder de golf bij Kanagawa”. Links daarvan: de signatuur van Hokusai."
+      },
+      {
+       "title": "De onderste boot",
+       "text": "Hij duikt het golfdal in. Er zijn in totaal drie boten, met zo'n dertig man aan boord."
+      },
+      {
+       "title": "De lucht",
+       "text": "Bijna leeg. Een eenvoudig kleurverloop, gemaakt door de inkt op het houtblok weg te vegen voor het drukken."
+      },
+      {
+       "title": "Het opspattende water",
+       "text": "Boven de Fuji vallen witte stippen. Ze lijken op sneeuw die op de berg valt."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wat is De grote golf?",
+     "options": [
+      "Een olieverfschilderij",
+      "Een houtsnede",
+      "Een aquarel"
+     ],
+     "explanation": "Een prent, gedrukt in duizenden exemplaren."
+    },
+    {
+     "question": "Bij welke reeks hoort hij?",
+     "options": [
+      "Honderd gezichten op Edo",
+      "Zesendertig gezichten op de berg Fuji",
+      "De vier jaargetijden"
+     ],
+     "explanation": "Hij opent Hokusai's reeks over de berg Fuji."
+    },
+    {
+     "question": "Waar komt het blauw van de golf vandaan?",
+     "options": [
+      "Lapis lazuli",
+      "Pruisisch blauw, ingevoerd uit Europa",
+      "Gemalen schelpen"
+     ],
+     "explanation": "Een chemisch pigment dat nieuw was in Japan, diep en kleurvast."
+    },
+    {
+     "question": "Welke vorm herhaalt de kleine golf op de voorgrond?",
+     "options": [
+      "De berg Fuji",
+      "Een boot",
+      "Een wolk"
+     ],
+     "explanation": "Het water bootst de berg na."
+    },
+    {
+     "question": "Waarom hebben prenten zo weinig kleuren?",
+     "options": [
+      "Kleuren waren verboden",
+      "Elke kleur heeft een eigen gesneden blok nodig",
+      "Het papier hield geen inkt vast"
+     ],
+     "explanation": "Eén blok per kleur, een voor een gedrukt."
+    },
+    {
+     "question": "Hoe heet de Europese rage voor Japanse prenten?",
+     "options": [
+      "Japonisme",
+      "Oriëntalisme",
+      "Kubisme"
+     ],
+     "explanation": "Monet verzamelde de prenten; Van Gogh schilderde ze na."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Er bestaat maar één exemplaar van De grote golf.",
+     "explanation": "Het is een prent: er zijn duizenden exemplaren van gedrukt."
+    },
+    {
+     "text": "Hokusai was ongeveer 70 toen hij hem maakte.",
+     "explanation": "Hij werd geboren in 1760 en de reeks verscheen rond 1831."
+    },
+    {
+     "text": "De grote golf toont een tsunami.",
+     "explanation": "Het is een grote golf van de open zee, geen tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Waterlelies",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "Geen horizon meer: alleen water, bloemen en de hemel die erin weerspiegelt.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "In Giverny liet Monet een vijver in zijn tuin graven en er waterlelies in planten. Bijna dertig jaar lang was die vijver zijn onderwerp."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · de bloemen die op het water rusten."
+    },
+    {
+     "type": "text",
+     "text": "Kijk goed: er is geen oever en geen horizon. Je kunt niet meer zeggen waar het water ophoudt en de weerspiegeling van de hemel begint."
+    },
+    {
+     "type": "key",
+     "text": "Zonder horizon wordt het schilderij een vlak: we kijken naar het water zoals we naar de hemel zouden kijken."
+    },
+    {
+     "type": "fact",
+     "text": "Monet had tuinmannen in dienst voor de vijver. Een van hen maakte elke ochtend het wateroppervlak schoon voordat hij begon te schilderen."
+    },
+    {
+     "type": "text",
+     "text": "Monet schilderde zo'n 250 doeken met waterlelies. Steeds dezelfde bloemen, maar nooit hetzelfde licht."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Waar schilderde Monet zijn waterlelies?",
+     "options": [
+      "In Giverny",
+      "In Parijs",
+      "In Venetië"
+     ],
+     "explanation": "In de tuin van zijn eigen huis."
+    },
+    {
+     "question": "Wat ontbreekt er op dit schilderij?",
+     "options": [
+      "Het water",
+      "De horizon",
+      "De bloemen"
+     ],
+     "explanation": "Geen oever, geen hemel: alleen het wateroppervlak."
+    },
+    {
+     "question": "Hoeveel schilderijen met waterlelies maakte hij?",
+     "options": [
+      "Een stuk of tien",
+      "Zo'n 250",
+      "Meer dan 2000"
+     ],
+     "explanation": "Een enorme reeks, over bijna dertig jaar."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet schilderde zijn waterlelies maar één keer.",
+     "explanation": "Hij schilderde zo'n 250 versies."
+    },
+    {
+     "text": "De waterlelievijver lag in Monets eigen tuin.",
+     "explanation": "In Giverny, waar hij hem liet graven."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impression, soleil levant",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Parijs",
+   "teaser": "Het schilderij dat een hele stroming haar naam gaf, als grap.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "De haven van Le Havre, op een mistige ochtend. Monet zet een paar snelle streken neer: boten, masten en een oranje zon."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · de zon en haar weerspiegeling."
+    },
+    {
+     "type": "text",
+     "text": "In 1874 werd het doek in Parijs tentoongesteld. Een criticus, Louis Leroy, dreef de spot met de titel en noemde deze schilders “impressionisten”."
+    },
+    {
+     "type": "key",
+     "text": "Het woord “impressionisme” komt van dit schilderij. Het begon als belediging en werd een naam."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre is de stad waar Monet opgroeide. Als tiener stond hij er bekend om zijn karikaturen."
+    },
+    {
+     "type": "text",
+     "text": "Het schilderij werd ook nog gestolen, in 1985, uit het Musée Marmottan. Vijf jaar later werd het teruggevonden."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Welke haven schilderde Monet?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Venetië"
+     ],
+     "explanation": "De stad waar hij opgroeide."
+    },
+    {
+     "question": "Waaraan gaf dit schilderij zijn naam?",
+     "options": [
+      "Het impressionisme",
+      "Een museum",
+      "Een prijs"
+     ],
+     "explanation": "Een criticus dreef de spot met de titel, en het woord bleef hangen."
+    },
+    {
+     "question": "In welk jaar werd het in Parijs tentoongesteld?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Dat jaar dreef de criticus Louis Leroy er de spot mee."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Het woord “impressionist” begon als belediging.",
+     "explanation": "Het komt uit een artikel van de criticus Louis Leroy."
+    },
+    {
+     "text": "Dit schilderij toont de haven van Marseille.",
+     "explanation": "Het is de haven van Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "De kus",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Wenen",
+   "teaser": "Twee geliefden in goud gehuld, aan de rand van een bloeiende weide.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt zit op het hoogtepunt van zijn “gouden periode”. Hij brengt echt bladgoud aan op het doek, zoals op een religieuze icoon."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · de twee gezichten."
+    },
+    {
+     "type": "text",
+     "text": "Kijk naar de kleren. Zijn gewaad is bedekt met zwarte en witte rechthoeken. Het hare met cirkels en bloemen."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · rechthoeken en cirkels."
+    },
+    {
+     "type": "key",
+     "text": "Rechthoeken voor hem, cirkels voor haar: de motieven vertellen het verhaal van het paar."
+    },
+    {
+     "type": "fact",
+     "text": "Klimts vader was goudgraveur. De schilder groeide op tussen het metaal dat hij later op zijn doeken zou zetten."
+    },
+    {
+     "type": "text",
+     "text": "De Oostenrijkse staat kocht het schilderij in 1908, nog voordat het helemaal af was."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Welk materiaal gebruikte Klimt?",
+     "options": [
+      "Parelmoer",
+      "Bladgoud",
+      "Brons"
+     ],
+     "explanation": "Het is het kenmerk van zijn gouden periode."
+    },
+    {
+     "question": "Welke motieven staan op het gewaad van de man?",
+     "options": [
+      "Cirkels",
+      "Bloemen",
+      "Rechthoeken"
+     ],
+     "explanation": "De cirkels en bloemen zijn voor de vrouw."
+    },
+    {
+     "question": "Wie kocht het schilderij in 1908?",
+     "options": [
+      "De Oostenrijkse staat",
+      "Een Franse verzamelaar",
+      "De vader van Klimt"
+     ],
+     "explanation": "Nog voordat het helemaal af was."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt gebruikte echt bladgoud.",
+     "explanation": "Net als op meerdere doeken uit zijn gouden periode."
+    },
+    {
+     "text": "De kus hangt in Parijs.",
+     "explanation": "Het hangt in Wenen, in het Belvedere."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Zonnebloemen",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Londen",
+   "teaser": "Geel op geel: een boeket om een vriend mee te verwelkomen.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Augustus 1888, in Arles. Van Gogh wacht op zijn vriend Paul Gauguin en wil zijn kamer opfleuren met zonnebloemen."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · bloemen in elk stadium."
+    },
+    {
+     "type": "text",
+     "text": "Hij durft bijna maar één kleur te gebruiken: gele bloemen, gele vaas, gele achtergrond. Alles hangt af van de tinten en van de dikte van de verf."
+    },
+    {
+     "type": "key",
+     "text": "Een bijna monochroom schilderij: geel in al zijn gedaanten."
+    },
+    {
+     "type": "fact",
+     "text": "Zonnebloemen verwelken snel. Van Gogh moest vlug werken, vanaf zonsopgang, voordat de bloemen gingen hangen."
+    },
+    {
+     "type": "text",
+     "text": "Er bestaan meerdere versies van deze zonnebloemen. Sommige bloemen zitten nog in de knop, andere zijn al verwelkt: het boeket vertelt ook hoe de tijd verstrijkt."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wiens kamer moesten de zonnebloemen opfleuren?",
+     "options": [
+      "Die van Paul Gauguin",
+      "Die van Claude Monet",
+      "Die van zijn broer Theo"
+     ],
+     "explanation": "Van Gogh wachtte in Arles op hem."
+    },
+    {
+     "question": "In welke stad schilderde hij ze?",
+     "options": [
+      "Parijs",
+      "Arles",
+      "Amsterdam"
+     ],
+     "explanation": "In Zuid-Frankrijk, in augustus 1888."
+    },
+    {
+     "question": "Wat is er bijzonder aan de kleuren?",
+     "options": [
+      "Bijna alles is geel",
+      "Er zit helemaal geen geel in",
+      "Het is zwart-wit"
+     ],
+     "explanation": "Gele bloemen, gele vaas, gele achtergrond."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Er bestaan meerdere versies van de Zonnebloemen.",
+     "explanation": "Van Gogh schilderde een hele reeks."
+    },
+    {
+     "text": "Van Gogh verkocht zijn Zonnebloemen bij zijn leven voor een fortuin.",
+     "explanation": "Hij verkocht bij zijn leven bijna niets."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "ca. 1503–1519",
+   "museum": "Louvre, Parijs",
+   "teaser": "De beroemdste glimlach ter wereld draait om contouren die je niet ziet.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Het is het beroemdste schilderij ter wereld, en het is klein: 77 bij 53 centimeter, geschilderd op een paneel van populierenhout. Veel bezoekers van het Louvre staan versteld van hoe klein het is."
+    },
+    {
+     "type": "text",
+     "text": "Rond 1503 vroeg een Florentijnse zijdehandelaar, Francesco del Giocondo, aan Leonardo da Vinci of hij zijn vrouw Lisa Gherardini wilde schilderen."
+    },
+    {
+     "type": "key",
+     "text": "De Mona Lisa is een portret van Lisa Gherardini, de vrouw van een Florentijnse koopman. “Mona” betekent gewoon “mevrouw”."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo was niet alleen schilder. Hij was ook ingenieur, anatoom en uitvinder, en hij liet duizenden notitiebladen na, in spiegelschrift geschreven."
+    },
+    {
+     "type": "tour",
+     "text": "Bekijk haar eerst in haar geheel. Kom dan dichterbij, naar wat haar tot een legende maakte.",
+     "spots": [
+      {
+       "title": "De glimlach",
+       "text": "Zoek de lijn die de lippen tekent: die is er niet. De mondhoeken lossen op in de schaduw. Daarom lijkt de glimlach te veranderen."
+      },
+      {
+       "title": "De ogen",
+       "text": "Dezelfde truc: de ooghoeken smelten weg in de schaduw. Zie je ook dat ze geen wenkbrauwen en geen wimpers heeft?"
+      },
+      {
+       "title": "De handen",
+       "text": "Op elkaar gelegd, ontspannen. Leonardo ontleedde lichamen om botten en spieren te begrijpen: deze handen hebben gewicht."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Dat waas heeft een naam: sfumato, van het Italiaanse “fumo”, rook. Leonardo legt tientallen flinterdunne, bijna doorzichtige verflagen over elkaar. De contouren verdwijnen en de vormen vloeien in elkaar over."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato betekent zachte, rokerige contouren. Daardoor krijg je de glimlach nooit te pakken."
+    },
+    {
+     "type": "text",
+     "text": "Probeer het zelf. Kijk naar haar ogen, en de mond lijkt te glimlachen. Kijk recht naar de mond, en de glimlach verdwijnt. De schaduwen in de hoeken doen het werk."
+    },
+    {
+     "type": "find",
+     "text": "Er ontbreekt iets aan dit gezicht. Tik op de plek waar het zou moeten zitten.",
+     "spots": [
+      {
+       "title": "De wenkbrauwen",
+       "text": "Ze heeft geen wenkbrauwen en geen wimpers. De mode van die tijd, of verf die bij oude schoonmaakbeurten is weggesleten? Deskundigen zijn het er nog altijd niet over eens."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Kijk nu naar de houding. Vóór Leonardo werden portretten meestal en profil geschilderd, of afgesneden ter hoogte van de borst. Hij toont de figuur tot aan het middel, driekwart naar ons toe gedraaid, met de handen erbij."
+    },
+    {
+     "type": "fact",
+     "text": "De jonge schilder Rafaël zag het portret in Leonardo's atelier en nam de houding meteen over in zijn eigen werk."
+    },
+    {
+     "type": "lines",
+     "text": "Een rustige houding, een vreemd landschap. Kijk hoe het allemaal is opgebouwd.",
+     "lines": [
+      {
+       "label": "De piramide",
+       "text": "Het hoofd bovenaan, de armen en handen aan de basis. Een brede, stabiele vorm: ze beweegt niet, ze zit."
+      },
+      {
+       "label": "De horizon links",
+       "text": "Links ligt de waterlijn van het landschap ongeveer hier."
+      },
+      {
+       "label": "De horizon rechts",
+       "text": "Rechts ligt hij hoger. De twee helften van het landschap sluiten niet op elkaar aan, en dat maakt het schilderij voor een deel zo vreemd."
+      },
+      {
+       "label": "Het pad",
+       "text": "Een kronkelende lijn die het oog de verte in leidt, net als de rivieren aan de rechterkant."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Het landschap is geen bestaande plek. Het is een droomwereld van rotsen, water en nevel, zonder huizen en zonder mensen. Er staat maar één ding in dat door mensenhanden is gebouwd."
+    },
+    {
+     "type": "find",
+     "text": "In dit lege landschap staat één enkel bouwwerk. Waar is de brug?",
+     "spots": [
+      {
+       "title": "De brug",
+       "text": "Een kleine stenen brug met meerdere bogen. Het is het enige teken van menselijke aanwezigheid in het hele landschap."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "De achtergrond volgt een regel die Leonardo zelf opschreef: het luchtperspectief. Lucht is niet volkomen helder. Hoe verder iets weg is, hoe blauwer, bleker en waziger het eruitziet."
+    },
+    {
+     "type": "key",
+     "text": "Luchtperspectief: wat ver weg is, lijkt blauwer, bleker en waziger. Leonardo was een van de eersten die het bewust schilderden."
+    },
+    {
+     "type": "palette",
+     "text": "Bruin, groen, een beetje goud. Oude vernis heeft alles laten vergelen. Tik op een kleur.",
+     "swatches": [
+      {
+       "name": "De schaduwen",
+       "text": "De jurk, het haar, de sluier. Bijna de helft van het schilderij ligt in het halfduister."
+      },
+      {
+       "name": "De huid",
+       "text": "Het gezicht, de borst, de handen: de drie lichte plekken, in een driehoek geschikt."
+      },
+      {
+       "name": "Grijsgroene lucht",
+       "text": "Oorspronkelijk blauwer. De vergeelde vernis heeft hem naar het groen getrokken."
+      },
+      {
+       "name": "Bruine aarde",
+       "text": "De rotsen en paden van het landschap, aan weerszijden van haar schouders."
+      },
+      {
+       "name": "Groene verte",
+       "text": "Het water en de bergen, verzacht door de afstand."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo heeft het schilderij nooit afgeleverd. Hij hield het, werkte er jarenlang aan verder en nam het mee naar Frankrijk toen koning Frans I hem daar uitnodigde. Toen hij in 1519 stierf, kwam het portret in de koninklijke collectie. Daarom hangt het in het Louvre."
+    },
+    {
+     "type": "text",
+     "text": "Lange tijd was het een meesterwerk tussen vele andere. Zijn wereldfaam dankt het aan een misdaad: op 21 augustus 1911 haalde een Italiaanse arbeider, Vincenzo Peruggia, het van de muur en wandelde ermee naar buiten, onder zijn werkkiel."
+    },
+    {
+     "type": "fact",
+     "text": "Zolang het schilderij weg was, stonden er rijen mensen in het Louvre, alleen om naar de lege plek aan de muur te kijken."
+    },
+    {
+     "type": "text",
+     "text": "Kranten over de hele wereld drukten haar af. Toen ze in 1913 in Florence werd teruggevonden, was de Mona Lisa geen gewoon schilderij meer. Ze was een ster."
+    },
+    {
+     "type": "key",
+     "text": "De Mona Lisa dankt haar genialiteit aan Leonardo, en haar roem aan een diefstal."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "De glimlach",
+       "text": "Zoek de lijn die de lippen tekent: die is er niet. De mondhoeken lossen op in de schaduw. Daarom lijkt de glimlach te veranderen."
+      },
+      {
+       "title": "De ogen",
+       "text": "Dezelfde truc: de ooghoeken smelten weg in de schaduw. Zie je ook dat ze geen wenkbrauwen en geen wimpers heeft?"
+      },
+      {
+       "title": "De handen",
+       "text": "Op elkaar gelegd, ontspannen. Leonardo ontleedde lichamen om botten en spieren te begrijpen: deze handen hebben gewicht."
+      },
+      {
+       "title": "De brug",
+       "text": "Een kleine stenen brug met meerdere bogen. Het is het enige teken van menselijke aanwezigheid in het hele landschap."
+      },
+      {
+       "title": "Het pad",
+       "text": "Een pad dat naar een meer kronkelt. Het landschap is geen bestaande plek: Leonardo verzint het op basis van zijn studies van rotsen en water."
+      },
+      {
+       "title": "De sluier",
+       "text": "Een doorzichtige sluier bedekt haar haar. Hij is zo fijn dat je hem op haar voorhoofd nauwelijks ziet."
+      },
+      {
+       "title": "De verte",
+       "text": "Hoe verder weg de bergen liggen, hoe blauwer en waziger ze worden. Leonardo zag dat de lucht zelf een kleur heeft."
+      },
+      {
+       "title": "De mouw",
+       "text": "Strakke gouden plooien, een voor een geschilderd. De jurk is donker en ze draagt geen sieraden: niets mag afleiden van het gezicht."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wie is de vrouw op het portret?",
+     "options": [
+      "Een koningin van Frankrijk",
+      "Lisa Gherardini, vrouw van een Florentijnse koopman",
+      "De moeder van Leonardo"
+     ],
+     "explanation": "Haar man, Francesco del Giocondo, gaf de opdracht voor het portret."
+    },
+    {
+     "question": "Hoe heet de techniek van zachte, rokerige contouren?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointillisme"
+     ],
+     "explanation": "Van “fumo”, Italiaans voor rook."
+    },
+    {
+     "question": "Waarop is de Mona Lisa geschilderd?",
+     "options": [
+      "Op linnen doek",
+      "Op een paneel van populierenhout",
+      "Op een gepleisterde muur"
+     ],
+     "explanation": "Een populierenhouten paneel van 77 bij 53 centimeter."
+    },
+    {
+     "question": "Wat gebeurt er met dingen in de verte?",
+     "options": [
+      "Ze worden feller",
+      "Ze worden blauwer, bleker en waziger",
+      "Hun contouren worden scherper"
+     ],
+     "explanation": "Dat is luchtperspectief."
+    },
+    {
+     "question": "Waarom hangt het schilderij in Frankrijk?",
+     "options": [
+      "Napoleon nam het mee uit Italië",
+      "Leonardo nam het mee en het kwam in de koninklijke collectie",
+      "Het Louvre kocht het in 1911"
+     ],
+     "explanation": "Leonardo kwam naar Frankrijk op uitnodiging van koning Frans I."
+    },
+    {
+     "question": "Waardoor werd de Mona Lisa wereldberoemd?",
+     "options": [
+      "Door de diefstal uit het Louvre in 1911",
+      "Door een tentoonstelling in New York",
+      "Door haar restauratie"
+     ],
+     "explanation": "Gestolen door Vincenzo Peruggia, teruggevonden in 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "De Mona Lisa is op doek geschilderd.",
+     "explanation": "Ze is geschilderd op een paneel van populierenhout."
+    },
+    {
+     "text": "De Mona Lisa werd in 1911 uit het Louvre gestolen.",
+     "explanation": "Twee jaar later werd ze teruggevonden."
+    },
+    {
+     "text": "De Mona Lisa heeft dikke, donkere wenkbrauwen.",
+     "explanation": "Ze heeft helemaal geen wenkbrauwen of wimpers."
+    }
+   ]
+  }
+ }
+}

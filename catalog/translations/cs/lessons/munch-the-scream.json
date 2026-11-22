@@ -1,0 +1,178 @@
+{
+ "teaser": "Tuhle tvář zná každý. Skoro nikdo neví, kdo tu vlastně křičí.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Čtyři. Tolik Výkřiků vytvořil Edvard Munch vlastní rukou: dva obrazy a dva pastely mezi lety 1893 a 1910, k tomu grafiku, kterou mohl otiskovat černobíle. Jeden z pastelů se v roce 2012 prodal skoro za 120 milionů dolarů. Tohle je nejstarší malovaná verze, z roku 1893, a nejslavnější."
+  },
+  {
+   "type": "text",
+   "text": "Je také křehčí, než bys řekl. Munch nepoužil plátno. Pracoval na listu kartonu o rozměrech 91 × 73,5 centimetru, s tenkou temperou, rychle schnoucí matnou barvou, a s křídou. Místy prosvítá holý hnědý karton."
+  },
+  {
+   "type": "text",
+   "text": "Obraz začal procházkou. Munch si ji zapsal víckrát. Šel po cestě nad fjordem při západu slunce se dvěma přáteli. Obloha zrudla jako krev. Zastavil se, vyčerpaný, a opřel se o zábradlí. Přátelé šli dál."
+  },
+  {
+   "type": "find",
+   "text": "Munch na té cestě nebyl sám. Kde jsou jeho společníci?",
+   "spots": [
+    {
+     "title": "Dva přátelé",
+     "text": "Dvě tmavé postavy v kloboucích na vzdáleném konci zábradlí, rovné jako sloupky. Odcházejí, nebo si ničeho nevšimli. Ať se děje cokoli, děje se jen jednomu člověku."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Ta vzdálenost je důležitá kvůli tomu, co Munch napsal dál. Jak tam stál a třásl se úzkostí, ucítil „nekonečný výkřik procházející přírodou“. Přečti si to ještě jednou. Výkřik nevychází z postavy. Míří na ni."
+  },
+  {
+   "type": "key",
+   "text": "Člověk na Výkřiku nejspíš nekřičí. Ruce má přitisknuté k uším, aby zahnal křik, který plní oblohu i vodu. Munchův první název v němčině, Der Schrei der Natur, znamenal „Výkřik přírody“."
+  },
+  {
+   "type": "text",
+   "text": "Jak namalovat zvuk? Munchova odpověď je v konstrukci. Staví obraz ze dvou druhů linií, které k sobě nepatří, a postavu staví na špatnou stranu."
+  },
+  {
+   "type": "lines",
+   "text": "Na tomhle kartonu se dělí dva světy: jeden přímý, druhý tekutý.",
+   "lines": [
+    {
+     "label": "Zábradlí",
+     "text": "Přísně rovné, řítí se k přátelům. Zábradlí a prkna jsou svět vytvořený člověkem: změřený, pevný, rozumný. Přátelé stojí uvnitř něj."
+    },
+    {
+     "label": "Obloha",
+     "text": "Nahoře nic rovného. Pásy červené, oranžové a pár pruhů modrozelené se valí do stran jako zvukové vlny."
+    },
+    {
+     "label": "Fjord",
+     "text": "Voda se stáčí do víru a stéká po pravé straně. Země a moře splývají v jeden proud."
+    },
+    {
+     "label": "Postava",
+     "text": "Tělo nemá kosti. Kymácí se v esovité křivce jako fjord za ní. Postava stojí na mostě, ale je nakreslená řečí krajiny."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Výkřik tedy už vstoupil do těla. Proto postava vypadá tak, jak vypadá: Munch z ní strhal všechno, co by z ní dělalo konkrétního člověka, až zbyl jen pocit."
+  },
+  {
+   "type": "tour",
+   "title": "Zblízka",
+   "text": "Tři místa, kde vidíš, jak málo Munch potřeboval.",
+   "spots": [
+    {
+     "title": "Hlava",
+     "text": "Žádné vlasy, žádné uši, žádný věk, žádné pohlaví. Dva kruhy na oči, dvě tečky na nos, ovál na ústa. Je blíž lebce nebo žárovce než portrétu, a proto se v ní může poznat každý."
+    },
+    {
+     "title": "Dva čluny",
+     "text": "Drobné lodě se stožáry kotví na žlutém fjordu. Dole běží obyčejný večerní život, nerušený."
+    },
+    {
+     "title": "Povrch oblohy",
+     "text": "Červená je přetažená dlouhými suchými tahy a na nich jsou čáry křídy. Můžeš je spočítat. Munch chtěl rychlost a syrovost, ne uhlazenost."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Někteří astronomové si myslí, že krvavě rudá obloha byla skutečná. V roce 1883 vybuchla v Indonésii sopka Krakatoa a její prach nechal po několik měsíců po Evropě planout západy slunce. Munchovi bylo tehdy 19 nebo 20 let. Je to jen teorie a jiní upozorňují, že maloval nálady, ne zprávy o počasí."
+  },
+  {
+   "type": "text",
+   "text": "Když byl obraz vystaven v Norsku, lidé nahlas pochybovali o jeho příčetnosti. Munch pocházel z rodiny poznamenané nemocemi: jeho matka a starší sestra zemřely na tuberkulózu, když byl malý, a další sestra se léčila s duševní nemocí. Z šílenství měl strach celý život."
+  },
+  {
+   "type": "fact",
+   "text": "V levém horním rohu oblohy někdo drobným písmem tužkou napsal větu: „Mohl to namalovat jen šílenec!“ Přes sto let se to dávalo za vinu rozzlobenému návštěvníkovi. V roce 2021 muzeum porovnalo rukopis v infračerveném světle. Je to Munchova vlastní ruka."
+  },
+  {
+   "type": "text",
+   "text": "Proč by to psal na vlastní obraz? Možná jako hořký žert na účet kritiků, možná jako způsob, jak si tu urážku přivlastnit. Nikdy to nesmazal. Na fotografii je to příliš slabé, ale návštěvníci v Oslu to mohou hledat."
+  },
+  {
+   "type": "fact",
+   "text": "Dne 12. února 1994, v den zahájení zimních olympijských her v Norsku, opřeli dva muži o muzeum žebřík, rozbili okno a obraz odnesli za necelou minutu. Nechali tam vzkaz: „Díky za špatné zabezpečení.“ Po třech měsících se našel nepoškozený."
+  },
+  {
+   "type": "text",
+   "text": "Dnes je holá hlava s otevřenými ústy emotikon, maska z hororu, halloweenský kostým. Každá kopie si půjčí tvář a zapomene na dva přátele, kteří odcházejí. Vrať se k nim ještě jednou. Nejtěžší na tomto obraze není výkřik. Je to, že ho nikdo další neslyší."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Na čem je tahle verze Výkřiku namalovaná?",
+   "options": [
+    "Na plátně",
+    "Na dřevěné desce",
+    "Na kartonu"
+   ],
+   "explanation": "Munch použil temperu a křídu na list kartonu."
+  },
+  {
+   "question": "Odkud podle Munchova vlastního zápisu výkřik přichází?",
+   "options": [
+    "Z přírody samotné",
+    "Z úst postavy",
+    "Od dvou přátel"
+   ],
+   "explanation": "Napsal, že ucítil nekonečný výkřik procházející přírodou."
+  },
+  {
+   "question": "Kdo napsal tužkou na oblohu větu o šílenci?",
+   "options": [
+    "Rozzlobený návštěvník",
+    "Sám Munch",
+    "Hlídač muzea"
+   ],
+   "explanation": "Studie rukopisu z roku 2021 ukázala, že je to Munchova ruka."
+  },
+  {
+   "question": "Jak je nakreslené tělo postavy ve srovnání s mostem?",
+   "options": [
+    "Přímými čarami jako zábradlí",
+    "Křivkami jako fjord a obloha",
+    "Vůbec není nakreslené"
+   ],
+   "explanation": "Tělo se kymácí v esovité křivce, řečí krajiny."
+  },
+  {
+   "question": "Co se s obrazem stalo v roce 1994?",
+   "options": [
+    "Byl ukraden v den zahájení zimních olympijských her",
+    "Byl prodán za 120 milionů dolarů",
+    "Byl poškozen požárem"
+   ],
+   "explanation": "Zloději ho odnesli za necelou minutu a nechali posměšný vzkaz."
+  },
+  {
+   "question": "Kolik verzí Výkřiku Munch vytvořil vlastní rukou?",
+   "options": [
+    "Jednu",
+    "Čtyři",
+    "Dvanáct"
+   ],
+   "explanation": "Dva obrazy a dva pastely, k tomu grafiku."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Dvě postavy v pozadí běží k křičícímu člověku na pomoc.",
+   "explanation": "Stojí zpříma na vzdáleném konci zábradlí a nevšímají si ničeho."
+  },
+  {
+   "text": "Jedna teorie spojuje rudou oblohu s výbuchem sopky Krakatoa.",
+   "explanation": "Její prach způsobil v roce 1883 po celé Evropě pestré západy slunce, ale souvislost je jen teorie."
+  },
+  {
+   "text": "Výkřik z roku 1893 je olejomalba na plátně.",
+   "explanation": "Je to tempera a křída na kartonu."
+  }
+ ]
+}

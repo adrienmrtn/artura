@@ -17,13 +17,13 @@ struct PaletteGame: View {
         VStack(alignment: .leading, spacing: 14) {
             if let current {
                 HStack {
-                    TagPill(text: "Round \(index + 1) of \(rounds.count)")
+                    TagPill(text: L("Round %@ of %@", "\(index + 1)", "\(rounds.count)"))
                     Spacer()
-                    Text("\(score) point\(score == 1 ? "" : "s")")
+                    Text(score == 1 ? L("1 point") : L("%@ points", "\(score)"))
                         .font(.figtree(14, .semibold)).foregroundStyle(Palette.muted)
                         .contentTransition(.numericText())
                 }
-                Text("Which palette matches this painting?").font(.aTitleSmall).foregroundStyle(Palette.ink)
+                Text(L("Which palette matches this painting?")).font(.aTitleSmall).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
 
                 ArtImage(name: current.image)
@@ -43,7 +43,7 @@ struct PaletteGame: View {
                 Spacer(minLength: 0)
 
                 if selected != nil {
-                    Button(index >= rounds.count - 1 ? "See my score" : "Next") { advance() }
+                    Button(index >= rounds.count - 1 ? L("See my score") : L("Next")) { advance() }
                         .buttonStyle(.primary)
                         .transition(.opacity.combined(with: .offset(y: 16)))
                 }
@@ -81,7 +81,7 @@ struct PaletteGame: View {
         }
         .buttonStyle(.pressable)
         .disabled(answered)
-        .accessibilityLabel(answered && isAnswer ? "Correct palette" : "Palette")
+        .accessibilityLabel(answered && isAnswer ? L("Correct palette") : L("Palette"))
     }
 
     private func start() {

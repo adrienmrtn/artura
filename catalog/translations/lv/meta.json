@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Nefertiti krūšutēls",
+   "artist": "Tutmoss",
+   "year_label": "1345 p.m.ē.",
+   "museum": "Neues Museum, Berlīne"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Tutanhamona maska",
+   "artist": "Nezināms autors (Ēģipte)",
+   "year_label": "1323 p.m.ē.",
+   "museum": "Lielais Ēģiptes muzejs, Gīza"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Samotrakes Nīke",
+   "artist": "Nezināms autors (Grieķija)",
+   "year_label": "190 p.m.ē.",
+   "museum": "Luvra, Parīze"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Milo Venera",
+   "artist": "Aleksandrs no Antiohijas",
+   "year_label": "120 p.m.ē.",
+   "museum": "Luvra, Parīze"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Kristus apraudāšana",
+   "artist": "Džotto",
+   "year_label": "1305",
+   "museum": "Skrovenji kapela, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Hercoga de Berī ļoti bagātīgā stundu grāmata: janvāris",
+   "artist": "Limburgu brāļi",
+   "year_label": "1416",
+   "museum": "Kondē muzejs, Šantijī"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Arnolfini portrets",
+   "artist": "Jans van Eiks",
+   "year_label": "1434",
+   "museum": "Nacionālā galerija, Londona"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Nonemšana no krusta",
+   "artist": "Rožē van der Veidens",
+   "year_label": "1435",
+   "museum": "Prado, Madride"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "Zemes baudu dārzs",
+   "artist": "Hieronims Bošs",
+   "year_label": "1500",
+   "museum": "Prado, Madride"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Venēras dzimšana",
+   "artist": "Sandro Botičelli",
+   "year_label": "1485",
+   "museum": "Uffizi, Florence"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Liza",
+   "artist": "Leonardo da Vinči",
+   "year_label": "1503",
+   "museum": "Luvra, Parīze"
+  },
+  "vinci-the-last-supper": {
+   "title": "Pēdējā vakarēdiens",
+   "artist": "Leonardo da Vinči",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milāna"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Vitrūvija cilvēks",
+   "artist": "Leonardo da Vinči",
+   "year_label": "1490",
+   "museum": "Akadēmijas galerija, Venēcija"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Ādama radīšana",
+   "artist": "Mikelandželo",
+   "year_label": "1512",
+   "museum": "Sikstas kapela, Vatikāns"
+  },
+  "michelangelo-david": {
+   "title": "Dāvids",
+   "artist": "Mikelandželo",
+   "year_label": "1504",
+   "museum": "Akadēmijas galerija, Florence"
+  },
+  "michelangelo-pieta": {
+   "title": "Pjeta",
+   "artist": "Mikelandželo",
+   "year_label": "1499",
+   "museum": "Svētā Pētera bazilika, Vatikāns"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Atēnu skola",
+   "artist": "Rafaels",
+   "year_label": "1511",
+   "museum": "Vatikāna muzeji, Vatikāns"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Urbīnas Venera",
+   "artist": "Ticiāns",
+   "year_label": "1538",
+   "museum": "Uffizi, Florence"
+  },
+  "durer-young-hare": {
+   "title": "Jaunais zaķis",
+   "artist": "Albrehts Dīrers",
+   "year_label": "1502",
+   "museum": "Albertina, Vīne"
+  },
+  "younger-the-ambassadors": {
+   "title": "Vēstneši",
+   "artist": "Hans Holbeins Jaunākais",
+   "year_label": "1533",
+   "museum": "Nacionālā galerija, Londona"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Mednieki sniegā",
+   "artist": "Pīters Brēgels Vecākais",
+   "year_label": "1565",
+   "museum": "Mākslas vēstures muzejs, Vīne"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "Bābeles tornis",
+   "artist": "Pīters Brēgels Vecākais",
+   "year_label": "1563",
+   "museum": "Mākslas vēstures muzejs, Vīne"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Madonna ar garo kaklu",
+   "artist": "Parmidžanīno",
+   "year_label": "1540",
+   "museum": "Uffizi, Florence"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Grāfa Orgasa apbedīšana",
+   "artist": "El Greko",
+   "year_label": "1586",
+   "museum": "Santo Tomé, Toleda"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumns",
+   "artist": "Džuzepe Arčimboldo",
+   "year_label": "1591",
+   "museum": "Skoklostera pils, Zviedrija"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Svētā Mateja aicinājums",
+   "artist": "Karavadžo",
+   "year_label": "1600",
+   "museum": "San Luidži dei Frančezi, Roma"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judīte nogalina Holofernu",
+   "artist": "Artemisija Džentileski",
+   "year_label": "1620",
+   "museum": "Uffizi, Florence"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Djego Velaskess",
+   "year_label": "1656",
+   "museum": "Prado, Madride"
+  },
+  "rubens-the-three-graces": {
+   "title": "Trīs Grācijas",
+   "artist": "Pīters Pauls Rubenss",
+   "year_label": "1635",
+   "museum": "Prado, Madride"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apollons un Dafne",
+   "artist": "Džovanni Lorenco Bernīni",
+   "year_label": "1625",
+   "museum": "Borgēzes galerija, Roma"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Svētās Terēzes ekstāze",
+   "artist": "Džovanni Lorenco Bernīni",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Roma"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Nakts patruļa",
+   "artist": "Rembrants",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdama"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Doktora Nikolasa Tulpa anatomijas stunda",
+   "artist": "Rembrants",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Hāga"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Meitene ar pērļu auskaru",
+   "artist": "Johanness Vermērs",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Hāga"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "Piena meitene",
+   "artist": "Johanness Vermērs",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdama"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "Dadzītis",
+   "artist": "Karels Fabricijs",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Hāga"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Svētceļojums uz Kitēru",
+   "artist": "Antuāns Vato",
+   "year_label": "1717",
+   "museum": "Luvra, Parīze"
+  },
+  "fragonard-the-swing": {
+   "title": "Šūpoles",
+   "artist": "Žans Onorē Fragonārs",
+   "year_label": "1767",
+   "museum": "Voles kolekcija, Londona"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Pašportrets ar salmu cepuri",
+   "artist": "Elizabete Vižē Lebrēna",
+   "year_label": "1782",
+   "museum": "Nacionālā galerija, Londona"
+  },
+  "david-the-death-of-marat": {
+   "title": "Marā nāve",
+   "artist": "Žaks Luī Dāvids",
+   "year_label": "1793",
+   "museum": "Beļģijas Karaliskie tēlotājmākslas muzeji, Brisele"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napoleons šķērso Alpus",
+   "artist": "Žaks Luī Dāvids",
+   "year_label": "1801",
+   "museum": "Malmezonas pils"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Lielā odaliska",
+   "artist": "Žans Ogists Dominiks Engrs",
+   "year_label": "1814",
+   "museum": "Luvra, Parīze"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Psihe, ko atmodina Kupidona skūpsts",
+   "artist": "Antonio Kanova",
+   "year_label": "1793",
+   "museum": "Luvra, Parīze"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "1808. gada trešais maijs",
+   "artist": "Fransisko Goja",
+   "year_label": "1814",
+   "museum": "Prado, Madride"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "Brīvība, kas ved tautu",
+   "artist": "Ežēns Delakruā",
+   "year_label": "1830",
+   "museum": "Luvra, Parīze"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "Medūzas plosts",
+   "artist": "Teodors Žēriko",
+   "year_label": "1819",
+   "museum": "Luvra, Parīze"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Ceļotājs miglas jūras priekšā",
+   "artist": "Kaspars Dāvids Fridrihs",
+   "year_label": "1818",
+   "museum": "Hamburgas Kunsthalle"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "Kaujas kuģis Temeraire",
+   "artist": "Dž. M. V. Tērners",
+   "year_label": "1839",
+   "museum": "Nacionālā galerija, Londona"
+  },
+  "hayez-the-kiss": {
+   "title": "Skūpsts",
+   "artist": "Frančesko Ajecs",
+   "year_label": "1859",
+   "museum": "Brera pinakoteka, Milāna"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "Lielais vilnis pie Kanagavas",
+   "artist": "Katsušika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Skaidrs vējains rīts (Sarkanais Fudzi)",
+   "artist": "Katsušika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Pēkšņa lietusgāze pār Šin-Ohaši tiltu un Atake",
+   "artist": "Utagava Hirosige",
+   "year_label": "1857",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Gar upi Čiņminu svētkos",
+   "artist": "Džans Dzeduans",
+   "year_label": "1100",
+   "museum": "Pils muzejs, Pekina"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Vēja dievs un pērkona dievs",
+   "artist": "Tavaraja Sotacu",
+   "year_label": "1630",
+   "museum": "Kennin-ji, Kioto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "Izmisušais cilvēks",
+   "artist": "Gistavs Kurbē",
+   "year_label": "1845",
+   "museum": "Privātkolekcija"
+  },
+  "millet-the-gleaners": {
+   "title": "Vārpu lasītājas",
+   "artist": "Žans Fransuā Mijē",
+   "year_label": "1857",
+   "museum": "Orsē muzejs, Parīze"
+  },
+  "manet-olympia": {
+   "title": "Olimpija",
+   "artist": "Eduārs Manē",
+   "year_label": "1863",
+   "museum": "Orsē muzejs, Parīze"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Brokastis zālē",
+   "artist": "Eduārs Manē",
+   "year_label": "1863",
+   "museum": "Orsē muzejs, Parīze"
+  },
+  "wood-american-gothic": {
+   "title": "Amerikāņu gotika",
+   "artist": "Grants Vuds",
+   "year_label": "1930",
+   "museum": "Čikāgas Mākslas institūts"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "Džons Singers Sārdžents",
+   "year_label": "1884",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Kompozīcija pelēkā un melnā krāsā Nr. 1 (Vistlera māte)",
+   "artist": "Džeimss Makneils Vistlers",
+   "year_label": "1871",
+   "museum": "Orsē muzejs, Parīze"
+  },
+  "millais-ophelia": {
+   "title": "Ofēlija",
+   "artist": "Džons Everets Milē",
+   "year_label": "1852",
+   "museum": "Tate Britain, Londona"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "Šalotas lēdija",
+   "artist": "Džons Viljams Votērhauss",
+   "year_label": "1888",
+   "museum": "Tate Britain, Londona"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Venēras dzimšana",
+   "artist": "Aleksandrs Kabanels",
+   "year_label": "1863",
+   "museum": "Orsē muzejs, Parīze"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice verso",
+   "artist": "Žans Leons Žeroms",
+   "year_label": "1872",
+   "museum": "Fīniksas Mākslas muzejs"
+  },
+  "monet-impression-sunrise": {
+   "title": "Iespaids. Saullēkts",
+   "artist": "Klods Monē",
+   "year_label": "1872",
+   "museum": "Marmotāna Monē muzejs, Parīze"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Sieviete ar saulessargu (Monē kundze ar dēlu)",
+   "artist": "Klods Monē",
+   "year_label": "1875",
+   "museum": "Nacionālā mākslas galerija, Vašingtona"
+  },
+  "monet-water-lilies": {
+   "title": "Ūdensrozes",
+   "artist": "Klods Monē",
+   "year_label": "1906",
+   "museum": "Čikāgas Mākslas institūts"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Balle Moulin de la Galette",
+   "artist": "Pjērs Ogists Renuārs",
+   "year_label": "1876",
+   "museum": "Orsē muzejs, Parīze"
+  },
+  "degas-the-dance-class": {
+   "title": "Deju stunda",
+   "artist": "Edgars Degā",
+   "year_label": "1874",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "morisot-the-cradle": {
+   "title": "Šūpulis",
+   "artist": "Berta Morizo",
+   "year_label": "1872",
+   "museum": "Orsē muzejs, Parīze"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Pastaiga pa pludmali",
+   "artist": "Hoakins Sorolja",
+   "year_label": "1909",
+   "museum": "Sorollas muzejs, Madride"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "Svētdienas pēcpusdiena uz Lagrandžatas salas",
+   "artist": "Žoržs Sērā",
+   "year_label": "1886",
+   "museum": "Čikāgas Mākslas institūts"
+  },
+  "gogh-the-starry-night": {
+   "title": "Zvaigžņotā nakts",
+   "artist": "Vincents van Gogs",
+   "year_label": "1889",
+   "museum": "Mūsdienu mākslas muzejs, Ņujorka"
+  },
+  "gogh-sunflowers": {
+   "title": "Saulespuķes",
+   "artist": "Vincents van Gogs",
+   "year_label": "1888",
+   "museum": "Nacionālā galerija, Londona"
+  },
+  "cezanne-the-card-players": {
+   "title": "Kāršu spēlētāji",
+   "artist": "Pols Sezans",
+   "year_label": "1892",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "No kurienes mēs nākam? Kas mēs esam? Uz kurieni ejam?",
+   "artist": "Pols Gogēns",
+   "year_label": "1897",
+   "museum": "Bostonas Tēlotājmākslas muzejs"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Anrī de Tulūzs-Lotreks",
+   "year_label": "1891",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Aizmigusī čigāniete",
+   "artist": "Anrī Ruso",
+   "year_label": "1897",
+   "museum": "Mūsdienu mākslas muzejs, Ņujorka"
+  },
+  "munch-the-scream": {
+   "title": "Kliedziens",
+   "artist": "Edvards Munks",
+   "year_label": "1893",
+   "museum": "Nacionālais muzejs, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "Mirušo sala",
+   "artist": "Arnolds Bēklins",
+   "year_label": "1880",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "rodin-the-thinker": {
+   "title": "Domātājs",
+   "artist": "Ogists Rodēns",
+   "year_label": "1904",
+   "museum": "Rodēna muzejs, Parīze"
+  },
+  "klimt-the-kiss": {
+   "title": "Skūpsts",
+   "artist": "Gustavs Klimts",
+   "year_label": "1908",
+   "museum": "Belvedēra, Vīne"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Adēles Blohas-Baueres portrets I",
+   "artist": "Gustavs Klimts",
+   "year_label": "1907",
+   "museum": "Neue Galerie, Ņujorka"
+  },
+  "matisse-dance": {
+   "title": "Deja",
+   "artist": "Anrī Matiss",
+   "year_label": "1910",
+   "museum": "Ermitāža, Sanktpēterburga"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Sieviete ar cepuri",
+   "artist": "Anrī Matiss",
+   "year_label": "1905",
+   "museum": "Sanfrancisko Modernās mākslas muzejs"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "Lielie zilie zirgi",
+   "artist": "Francs Marks",
+   "year_label": "1911",
+   "museum": "Volkera mākslas centrs, Mineapolisa"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Guļošs akts",
+   "artist": "Amedeo Modiljāni",
+   "year_label": "1917",
+   "museum": "Metropolitēna mākslas muzejs, Ņujorka"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Pabla Pikaso portrets",
+   "artist": "Huans Griss",
+   "year_label": "1912",
+   "museum": "Čikāgas Mākslas institūts"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Eifeļa tornis ar kokiem",
+   "artist": "Roberts Delone",
+   "year_label": "1910",
+   "museum": "Solomona R. Gugenheima muzejs, Ņujorka"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Unikālās nepārtrauktības formas telpā",
+   "artist": "Umberto Bočoni",
+   "year_label": "1913",
+   "museum": "Mūsdienu mākslas muzejs, Ņujorka"
+  },
+  "boccioni-the-city-rises": {
+   "title": "Pilsēta ceļas",
+   "artist": "Umberto Bočoni",
+   "year_label": "1910",
+   "museum": "Mūsdienu mākslas muzejs, Ņujorka"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Kompozīcija VIII",
+   "artist": "Vasilijs Kandinskis",
+   "year_label": "1923",
+   "museum": "Solomona R. Gugenheima muzejs, Ņujorka"
+  },
+  "malevich-black-square": {
+   "title": "Melnais kvadrāts",
+   "artist": "Kazimirs Maļevičs",
+   "year_label": "1915",
+   "museum": "Tretjakova galerija, Maskava"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Kompozīcija II sarkanā, zilā un dzeltenā krāsā",
+   "artist": "Pīts Mondriāns",
+   "year_label": "1930",
+   "museum": "Ciriches Kunsthaus"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Pauls Klē",
+   "year_label": "1922",
+   "museum": "Bāzeles Mākslas muzejs"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurts Švitērs",
+   "year_label": "1919",
+   "museum": "Štutgartes Valsts galerija"
+  },
+  "terracotta-army": {
+   "title": "Terakotas karaspēks",
+   "artist": "Nezināms autors (Ķīna)",
+   "year_label": "210 p.m.ē.",
+   "museum": "Pirmā Cjiņ imperatora mauzolejs, Sjaņa"
+  },
+  "aztec-sun-stone": {
+   "title": "Acteku Saules akmens",
+   "artist": "Nezināms autors (acteki)",
+   "year_label": "1510",
+   "museum": "Nacionālais antropoloģijas muzejs, Mehiko"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananaia (moai)",
+   "artist": "Nezināms autors (Rapanui)",
+   "year_label": "1200",
+   "museum": "Britu muzejs, Londona"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Antīkā pasaule",
+   "period": "2600 p.m.ē.-300 m.ē.",
+   "summary": "Dievi, valdnieki un ideālais ķermenis",
+   "description": "No Ēģiptes līdz Grieķijai un Romai mākslinieki tēlo valdniekus, dievus un sportistus, kam jāpaliek uz mūžiem. Viņu meklētais ideālais ķermenis daudzus gadsimtus palika Rietumu mākslas paraugs."
+  },
+  "gothic": {
+   "name": "Gotika un protorenesanse",
+   "period": "1280-1430",
+   "summary": "Zelta fons un pirmās īstās jūtas",
+   "description": "Baznīcās un kapelās gleznotāji vēl strādā uz zelta fona, bet viņu tēli sāk raudāt, pagriezties un kļūt smagi kā īsti cilvēki. Stāstīšana attēlos top no jauna."
+  },
+  "early_netherlandish": {
+   "name": "Agrīnā Nīderlandes glezniecība",
+   "period": "1420-1500",
+   "summary": "Eļļas krāsa un mirdzoša smalkība",
+   "description": "Flandrijā gleznotāji pilnveido eļļas krāsu un ar to apraksta itin visu: kažokādu, stiklu, asaru, atspulgu. Svētās ainas pārceļas istabās, kas izskatās pēc īstām mājām."
+  },
+  "renaissance": {
+   "name": "Itāļu renesanse",
+   "period": "1420-1570",
+   "summary": "Perspektīva un atgriešanās pie antīkās pasaules",
+   "description": "Itālijā, vēlāk visā Eiropā, mākslinieki no jauna atklāj antīko pasauli, pēta cilvēka ķermeni un izgudro perspektīvu. Glezna kļūst par logu uz pasauli."
+  },
+  "northern_renaissance": {
+   "name": "Ziemeļu renesanse",
+   "period": "1490-1570",
+   "summary": "Precīzas līnijas, grafikas un dīvainas vīzijas",
+   "description": "Ziemeļos no Alpiem mākslinieki savieno itāļu idejas ar mīlestību uz sīkumiem un ikdienas dzīvi. Grafika izplata viņu attēlus pa visu Eiropu."
+  },
+  "mannerism": {
+   "name": "Manierisms",
+   "period": "1520-1610",
+   "summary": "Elegance, izstiepta līdz robežai",
+   "description": "Pēc lielajiem meistariem gleznotāji ar nodomu lauž noteikumus: garas miesas, savērpušās pozas, ēdīgas krāsas. Pats stils kļūst par tēmu."
+  },
+  "baroque": {
+   "name": "Baroks",
+   "period": "1600-1700",
+   "summary": "Drāma, kustība un dziļas ēnas",
+   "description": "Māksla grib aizkustināt skatītāju. Spēcīgi gaismas un ēnas kontrasti, kustīgi ķermeņi un teatrāla inscenējums ievelk tevi ainā."
+  },
+  "siecledor": {
+   "name": "Nīderlandes zelta laikmets",
+   "period": "1600-1700",
+   "summary": "Ikdienas dzīve un gaisma",
+   "description": "Turīgajā Nīderlandes Republikā mākslinieki glezno pilsoņu mājām: klusas iekštelpas, portretus, klusās dabas. Īstā tēma kļūst gaisma."
+  },
+  "rococo": {
+   "name": "Rokoko un 18. gadsimts",
+   "period": "1715-1790",
+   "summary": "Vieglums, bauda un pasteļtoņi",
+   "description": "Astoņpadsmitā gadsimta salonos glezniecība top rotaļīga un intīma: dārza svētki, portreti, maigas krāsas. Tai pašā laikā daži mākslinieki mierīgi vēro vienkāršu ikdienu."
+  },
+  "neoclassicism": {
+   "name": "Neoklasicisms",
+   "period": "1760-1860",
+   "summary": "Skaidras līnijas un antīkā tikumība",
+   "description": "Romas un Pompeju drupu iedvesmoti, mākslinieki atgriežas pie atturīga zīmējuma un varonīgiem sižetiem. Glezniecībai jāmāca tikpat daudz, cik jāiepriecina."
+  },
+  "romanticism": {
+   "name": "Romantisms",
+   "period": "1780-1860",
+   "summary": "Jūtas, daba un cildenais",
+   "description": "Jūtas uzvar prātu. Vētras, drupas, dumpji un vientuļas figūras izsaka to, ko mākslinieks izjūt pasaules priekšā, kas pārāk liela, lai to pieveiktu."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "1680-1860",
+   "summary": "“Mainīgās pasaules” grafikas",
+   "description": "Japānā sērijās izdotās kokgriezuma grafikas rāda aktierus, ainavas un ikdienas ainas. Plakanās krāsas un drosmīgais kadrējums satricinās Eiropas gleznotājus."
+  },
+  "east_asian": {
+   "name": "Ķīniešu un japāņu glezniecība",
+   "period": "750-1720",
+   "summary": "Tuša, zīds un tukša telpa",
+   "description": "Ķīnā un Japānā gleznotāji strādā ar otu un tušu uz zīda, papīra un saliekamiem ekrāniem. Pietiek ar dažiem triepieniem un daudz tukšas vietas, lai ataustu kalnu vai gadalaiku."
+  },
+  "realism": {
+   "name": "Reālisms",
+   "period": "1845-1890",
+   "summary": "Parasti cilvēki tādi, kādi viņi ir",
+   "description": "Gleznotāji novēršas no varoņiem un mītiem un rāda zemniekus, strādniekus un mūsdienu dzīvi bez glaimiem. Patiesības rādīšana kļūst par apliecinājumu pati par sevi."
+  },
+  "american": {
+   "name": "Amerikāņu glezniecība",
+   "period": "1780-1930",
+   "summary": "Jauna zeme ielūkojas sevī",
+   "description": "No jaunās republikas portretiem līdz plašām ainavām un pilsētas dzīves ainām amerikāņu gleznotāji meklē savas tēmas un savu gaismu."
+  },
+  "preraphaelite": {
+   "name": "Prerafaelīti un Viktorijas laikmets",
+   "period": "1848-1900",
+   "summary": "Spilgtas krāsas, leģendas un sīkumi",
+   "description": "Viktorijas laika Lielbritānijā jaunu gleznotāju grupa noraida akadēmiskās receptes. Viņi glezno leģendas un dzeju ar intensīvām krāsām un gandrīz apsēstu precizitāti."
+  },
+  "academic": {
+   "name": "Akadēmiskā māksla",
+   "period": "1830-1900",
+   "summary": "Oficiālā Salona izslīpētā māksla",
+   "description": "Lielajās mākslas skolās rūdītie gleznotāji meistarīgi pārvalda anatomiju, vēstures tēmas un pilnīgi gludu apdari. Savā laikā viņi bija zvaigznes, kamēr avangards tos nenovāca ēnā."
+  },
+  "impressionnisme": {
+   "name": "Impresionisms",
+   "period": "1867-1910",
+   "summary": "Brīža gaismas glezniecība",
+   "description": "Gleznotāju grupa atstāj darbnīcu un strādā brīvā dabā ātriem, sīkiem triepieniem. Viņus vairs neinteresē detaļas, bet gan gaismas efekts konkrētā mirklī."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpresionisms",
+   "period": "1884-1910",
+   "summary": "Krāsa, punkts pie punkta",
+   "description": "Gleznotāji pielieto zinātni krāsai: mazi tīras krāsas punkti, novietoti blakus, saplūst skatītāja acī. Glezna top lēni, kā mozaīka."
+  },
+  "postimp": {
+   "name": "Postimpresionisms",
+   "period": "1885-1910",
+   "summary": "Vispirms krāsa un emocijas",
+   "description": "Pēc impresionisma ikviens meklē savu ceļu. Krāsa vairs neatdarina īstenību, tā izsaka to, ko izjūt gleznotājs."
+  },
+  "symbolism": {
+   "name": "Simbolisms",
+   "period": "1860-1915",
+   "summary": "Sapņi, mīti un iekšējās pasaules",
+   "description": "Tā vietā, lai aprakstītu redzamo pasauli, šie mākslinieki liek nojaust idejas, sapņus un bailes. Viņu gleznas vispirms jāsajūt, tad jāsaprot."
+  },
+  "secession": {
+   "name": "Jūgendstils un Vīnes secesija",
+   "period": "1890-1918",
+   "summary": "Zelts, ornaments un liektas līnijas",
+   "description": "Vīnē jaunie mākslinieki atšķiras no akadēmijas. Viņi savij glezniecību, dekoru un amatniecību un padara ornamentu par savu valodu."
+  },
+  "fauvism": {
+   "name": "Fovisms",
+   "period": "1904-1917",
+   "summary": "Tīra krāsa tieši no tūbiņas",
+   "description": "Dažus sprādzienbīstamus gadus gleznotāji lieto spēcīgas, nedabiskas krāsas un brīvu otas rokrakstu. Kritiķi tos nosauca par “mežonīgajiem zvēriem”, un nosaukums pielipa."
+  },
+  "expressionism": {
+   "name": "Ekspresionisms",
+   "period": "1903-1925",
+   "summary": "Izkropļotas formas, kailas jūtas",
+   "description": "Mākslinieki izkropļo formas un pastiprina krāsas, lai izteiktu trauksmi, kaisli vai dumpi. Svarīgi nav tas, kā pasaule izskatās, bet kā tā tiek izjusta."
+  },
+  "cubism": {
+   "name": "Kubisms",
+   "period": "1909-1925",
+   "summary": "Priekšmeti, redzēti no vairākām pusēm reizē",
+   "description": "Gleznotāji sadala priekšmetus skaldnēs un rāda tos no vairākiem leņķiem vienā gleznā. Piecus gadsimtus veco perspektīvu piepeši apšauba."
+  },
+  "futurism": {
+   "name": "Futūrisms",
+   "period": "1909-1920",
+   "summary": "Ātrums, mašīnas un modernā pilsēta",
+   "description": "Itāļu mākslinieki slavina automobiļus, pūļus un elektrību. Viņi mēģina gleznot pašu kustību, atkārtojot un sadrumstalojot formas."
+  },
+  "abstraction": {
+   "name": "Abstrakcija un avangards",
+   "period": "1907-1930",
+   "summary": "Glezniecība bez sižeta",
+   "description": "Līnijas, formas un krāsas vairs neko nepārstāv: tās ir pati glezna. Mākslinieki meklē tikpat tiešu vizuālo valodu kā mūzika."
+  },
+  "dada_surrealism": {
+   "name": "Dadaisms un agrīnais sirreālisms",
+   "period": "1912-1930",
+   "summary": "Nejaušība, nesamērs un sapņi",
+   "description": "Dadaisms, dzimis no riebuma pret Pirmo pasaules karu, izsmej pašu mākslu. Tam seko sirreālisms, kas pēta sapņus, nejaušību un neapzināto."
+  },
+  "world": {
+   "name": "Āfrika, Āzija un Amerika",
+   "period": "1200 p.m.ē.-1600",
+   "summary": "Svēti priekšmeti un galmu māksla",
+   "description": "Bronzas darinājumi, maskas, akmens milži un rituāla priekšmeti no Āfrikas, Āzijas un Amerikas. Tos radīja ceremonijām, tempļiem un ķēniņiem jau ilgi pirms muzeju laikiem."
+  }
+ }
+}

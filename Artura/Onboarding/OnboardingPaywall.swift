@@ -13,9 +13,10 @@ enum Legal {
 
 private func dayCountWord(_ days: Int) -> String {
     switch days {
-    case 3: return "Three"
-    case 7: return "Seven"
-    case 14: return "Fourteen"
+    // L: number word starting the sentence "%@ days, everything unlocked."
+    case 3: return L("Three")
+    case 7: return L("Seven")
+    case 14: return L("Fourteen")
     default: return "\(days)"
     }
 }
@@ -161,11 +162,11 @@ struct GiftScreen: View {
                 Group {
                     if opened {
                         VStack(spacing: 12) {
-                            Text("Before you start, all of Artura is on us.")
+                            Text(L("Before you start, all of Artura is on us."))
                                 .font(.figtree(32, .bold))
                                 .foregroundStyle(Palette.ink)
                                 .fixedSize(horizontal: false, vertical: true)
-                            Text("\(dayCountWord(offer.trialDays)) days, everything unlocked. You'll see, it changes everything.")
+                            Text(L("%@ days, everything unlocked. You'll see, it changes everything.", dayCountWord(offer.trialDays)))
                                 .font(.figtree(17))
                                 .foregroundStyle(Palette.muted)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -176,10 +177,10 @@ struct GiftScreen: View {
                     } else {
                         MascotBubble(mascotSize: 118) {
                             VStack(spacing: 6) {
-                                Text("And the best for last…")
+                                Text(L("And the best for last…"))
                                     .font(.aTitleSmall)
                                     .foregroundStyle(Palette.ink)
-                                Text("I have a surprise for you.")
+                                Text(L("I have a surprise for you."))
                                     .font(.figtree(17))
                                     .foregroundStyle(Palette.muted)
                             }
@@ -205,12 +206,12 @@ struct GiftScreen: View {
 
                 Spacer(minLength: 20)
 
-                Button(opened ? "Claim my gift" : "Open my surprise") {
+                Button(opened ? L("Claim my gift") : L("Open my surprise")) {
                     if opened { onNext() } else { open() }
                 }
                 .buttonStyle(.primary)
 
-                Text("No commitment. Cancel anytime.")
+                Text(L("No commitment. Cancel anytime."))
                     .font(.aSmall)
                     .foregroundStyle(Palette.muted)
                     .frame(height: 36)
@@ -330,16 +331,16 @@ struct TrialNotificationPreview: View {
                 .frame(width: large ? 44 : 30, height: large ? 44 : 30)
                 .clipShape(RoundedRectangle(cornerRadius: large ? 10 : 7))
             VStack(alignment: .leading, spacing: large ? 2 : 0) {
-                Text("Your trial ends tomorrow")
+                Text(L("Your trial ends tomorrow"))
                     .font(.figtree(large ? 16 : 13, .bold))
                     .foregroundStyle(Palette.ink)
-                Text("Come back to your artworks.")
+                Text(L("Come back to your artworks."))
                     .font(.figtree(large ? 14 : 12))
                     .foregroundStyle(Palette.muted)
             }
             Spacer(minLength: 0)
             if large {
-                Text("now").font(.figtree(12)).foregroundStyle(Palette.muted)
+                Text(L("now")).font(.figtree(12)).foregroundStyle(Palette.muted)
             }
         }
         .padding(large ? 14 : 8)
@@ -360,7 +361,7 @@ struct TrialNotifScreen: View {
     /// Words of the title already turned bold: they thicken one by one.
     @State private var bold = 0
 
-    private static let words = "We'll send you a notification 1 day before your free trial ends"
+    private static let words = L("We'll send you a notification 1 day before your free trial ends")
         .split(separator: " ").map(String.init)
 
     /// The title, regular at first; each word turns bold in its turn.
@@ -409,7 +410,7 @@ struct TrialNotifScreen: View {
                     .foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
                     .accessibilityLabel(Self.words.joined(separator: " "))
-                Text("No bad surprises.")
+                Text(L("No bad surprises."))
                     .font(.figtree(18))
                     .foregroundStyle(Palette.muted)
             }
@@ -425,7 +426,7 @@ struct TrialNotifScreen: View {
             Button {
                 allow()
             } label: {
-                if asking { ProgressView().tint(.white) } else { Text("Continue") }
+                if asking { ProgressView().tint(.white) } else { Text(L("Continue")) }
             }
             .buttonStyle(.primary)
             .disabled(stage < 4 || asking)
@@ -485,14 +486,14 @@ struct TrialTimelineScreen: View {
     var body: some View {
         VStack(spacing: 0) {
             VStack(spacing: 10) {
-                Text("How your free trial works")
+                Text(L("How your free trial works"))
                     .font(.figtree(30, .bold))
                     .foregroundStyle(Palette.ink)
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
                 HStack(spacing: 8) {
                     CheckBadge(color: Palette.green, size: 22)
-                    Text("\(offer.zeroPrice) today")
+                    Text(L("%@ today", offer.zeroPrice))
                         .font(.figtree(17, .bold))
                         .foregroundStyle(Palette.ink)
                 }
@@ -509,7 +510,7 @@ struct TrialTimelineScreen: View {
             Spacer(minLength: 0)
 
             // The button only comes once the timeline has unfolded: no way to skip it.
-            Button("Continue") { onNext() }
+            Button(L("Continue")) { onNext() }
                 .buttonStyle(.primary)
                 .disabled(!done)
                 .opacity(done ? 1 : 0)
@@ -539,19 +540,19 @@ struct TrialTimelineScreen: View {
     private var timeline: some View {
         VStack(alignment: .leading, spacing: 22) {
             timelineRow(1, icon: "lock.open.fill", fill: Palette.blue, tint: .white,
-                        title: "Today",
-                        text: "All of Artura unlocks, no limits.")
+                        title: L("Today"),
+                        text: L("All of Artura unlocks, no limits."))
             VStack(alignment: .leading, spacing: 8) {
                 timelineRow(2, icon: "bell.fill", fill: Palette.mist, tint: Palette.blue,
-                            title: "Day \(max(1, offer.trialDays - 1)) · your reminder",
-                            text: "The day before it ends, we'll let you know.")
+                            title: L("Day %@ · your reminder", "\(max(1, offer.trialDays - 1))"),
+                            text: L("The day before it ends, we'll let you know."))
                 TrialNotificationPreview()
                     .padding(.leading, 48)
                     .opacity(revealed >= 2 ? 1 : 0)
             }
             timelineRow(3, icon: "seal.fill", fill: .white, tint: Palette.orange,
-                        title: "Day \(offer.trialDays) · Artura Pro",
-                        text: "\(offer.yearlyPrice) per year. Cancel before then, in two taps.")
+                        title: L("Day %@ · Artura Pro", "\(offer.trialDays)"),
+                        text: L("%@ per year. Cancel before then, in two taps.", offer.yearlyPrice))
         }
         .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -612,10 +613,12 @@ struct TrialScreen: View {
 
     /// "Try 3 days for free," highlighted, then the price in plain words.
     private var offerLine: AttributedString {
-        var free = AttributedString(" Try \(offer.trialDays) days for free, ")
+        // L: highlighted first half of "Try 3 days for free, then $4.99 per month (billed yearly at $59.99)"
+        var free = AttributedString(L(" Try %@ days for free, ", "\(offer.trialDays)"))
         free.foregroundColor = Palette.blue
         free.backgroundColor = Palette.mist
-        var rest = AttributedString(" then \(offer.monthlyPrice) per month (billed yearly at \(offer.yearlyPrice))")
+        // L: second half of the same sentence, after the highlighted "Try 3 days for free,"
+        var rest = AttributedString(L(" then %@ per month (billed yearly at %@)", offer.monthlyPrice, offer.yearlyPrice))
         rest.foregroundColor = Palette.ink
         return free + rest
     }
@@ -631,7 +634,7 @@ struct TrialScreen: View {
                         .frame(width: 44, height: 36)
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Close and continue for free")
+                .accessibilityLabel(L("Close and continue for free"))
                 .opacity(canClose ? 1 : 0)
                 .disabled(!canClose)
                 Spacer()
@@ -651,9 +654,9 @@ struct TrialScreen: View {
                     .lineSpacing(6)
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
-                    .accessibilityLabel("Try \(offer.trialDays) days for free, then \(offer.monthlyPrice) per month, billed yearly at \(offer.yearlyPrice)")
+                    .accessibilityLabel(L("Try %@ days for free, then %@ per month, billed yearly at %@", "\(offer.trialDays)", offer.monthlyPrice, offer.yearlyPrice))
 
-                Button("View other plans") {
+                Button(L("View other plans")) {
                     Haptics.tap()
                     showPlans = true
                 }
@@ -678,7 +681,7 @@ struct TrialScreen: View {
                 }
                 HStack(spacing: 6) {
                     Image(systemName: "checkmark.shield")
-                    Text("Secured with App Store")
+                    Text(L("Secured with App Store"))
                 }
                 .font(.figtree(14))
                 .foregroundStyle(Palette.muted)
@@ -695,8 +698,8 @@ struct TrialScreen: View {
                         ProgressView().tint(.white)
                     } else {
                         VStack(spacing: 2) {
-                            Text("Start free trial").font(.figtree(18, .bold))
-                            Text("2 taps to start, super easy to cancel")
+                            Text(L("Start free trial")).font(.figtree(18, .bold))
+                            Text(L("2 taps to start, super easy to cancel"))
                                 .font(.figtree(13))
                                 .foregroundStyle(Color.white.opacity(0.85))
                         }
@@ -713,12 +716,12 @@ struct TrialScreen: View {
 
             HStack(spacing: 0) {
                 if let terms = Legal.terms {
-                    Link("Terms", destination: terms).frame(maxWidth: .infinity)
+                    Link(L("Terms"), destination: terms).frame(maxWidth: .infinity)
                 }
                 if let privacy = Legal.privacy {
-                    Link("Privacy Policy", destination: privacy).frame(maxWidth: .infinity)
+                    Link(L("Privacy Policy"), destination: privacy).frame(maxWidth: .infinity)
                 }
-                Button("Restore Purchase") { restore() }.frame(maxWidth: .infinity)
+                Button(L("Restore Purchase")) { restore() }.frame(maxWidth: .infinity)
             }
             .font(.figtree(13))
             .foregroundStyle(Palette.muted)
@@ -847,8 +850,8 @@ struct ExitOfferSheet: View {
     private var extraDays: Int { max(0, offer.trialDays - baseDays) }
 
     private var title: String {
-        if let firstName, !firstName.isEmpty { return "Wait, \(firstName)…" }
-        return "Wait…"
+        if let firstName, !firstName.isEmpty { return L("Wait, %@…", firstName) }
+        return L("Wait…")
     }
 
     var body: some View {
@@ -860,8 +863,8 @@ struct ExitOfferSheet: View {
                         .font(.figtree(26, .bold))
                         .foregroundStyle(Palette.ink)
                     Text(discount > 0
-                         ? "Before you go: \(offer.trialDays) days free and \(discount)% off, so you can at least try Artura."
-                         : "Here are \(extraDays) extra days to explore all of Artura.")
+                         ? L("Before you go: %@ days free and %@%% off, so you can at least try Artura.", "\(offer.trialDays)", "\(discount)")
+                         : L("Here are %@ extra days to explore all of Artura.", "\(extraDays)"))
                         .font(.figtree(16))
                         .foregroundStyle(Palette.muted)
                         .fixedSize(horizontal: false, vertical: true)
@@ -887,13 +890,13 @@ struct ExitOfferSheet: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("Get my \(offer.trialDays)-day pass")
+                        Text(L("Get my %@-day pass", "\(offer.trialDays)"))
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(pro.isPurchasing)
 
-                Button("No thanks") {
+                Button(L("No thanks")) {
                     Haptics.tap()
                     onDecline()
                 }
@@ -902,7 +905,7 @@ struct ExitOfferSheet: View {
                 .underline()
                 .frame(height: 44)
 
-                Text("\(offer.zeroPrice) today, then \(offer.yearlyPrice) per year after \(offer.trialDays) days.")
+                Text(L("%@ today, then %@ per year after %@ days.", offer.zeroPrice, offer.yearlyPrice, "\(offer.trialDays)"))
                     .font(.aCaption)
                     .foregroundStyle(Palette.muted)
                     .multilineTextAlignment(.center)
@@ -934,17 +937,17 @@ struct ExitOfferSheet: View {
         VStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 12) {
                 HStack {
-                    Text("ARTURA PRO · VISITOR PASS")
+                    Text(L("ARTURA PRO · VISITOR PASS"))
                         .font(.figtree(11, .bold))
                         .tracking(2)
                         .foregroundStyle(Palette.muted)
                     Spacer(minLength: 0)
                 }
                 HStack(alignment: .firstTextBaseline, spacing: 10) {
-                    Text("\(offer.trialDays) days free")
+                    Text(L("%@ days free", "\(offer.trialDays)"))
                         .font(.figtree(30, .bold))
                         .foregroundStyle(Palette.ink)
-                    Text("\(baseDays) days")
+                    Text(L("%@ days", "\(baseDays)"))
                         .font(.figtree(16, .medium))
                         .foregroundStyle(Palette.muted)
                         .strikethrough()
@@ -957,10 +960,10 @@ struct ExitOfferSheet: View {
                     }
                 }
                 HStack {
-                    Text("Days 1–\(baseDays): your trial")
+                    Text(L("Days 1–%@: your trial", "\(baseDays)"))
                         .font(.figtree(13, .medium)).foregroundStyle(Palette.blue)
                     Spacer(minLength: 8)
-                    Text("Days \(baseDays + 1)–\(offer.trialDays): on us")
+                    Text(L("Days %@–%@: on us", "\(baseDays + 1)", "\(offer.trialDays)"))
                         .font(.figtree(13, .bold)).foregroundStyle(Palette.green)
                 }
             }
@@ -978,7 +981,7 @@ struct ExitOfferSheet: View {
                 VStack(alignment: .leading, spacing: 1) {
                     if discount > 0 {
                         HStack(alignment: .firstTextBaseline, spacing: 6) {
-                            Text("\(offer.yearlyPrice) / year")
+                            Text(L("%@ / year", offer.yearlyPrice))
                                 .font(.figtree(17, .bold)).foregroundStyle(Palette.ink)
                             Text(basePrice)
                                 .font(.figtree(14, .medium)).foregroundStyle(Palette.muted)
@@ -986,18 +989,18 @@ struct ExitOfferSheet: View {
                         }
                         .lineLimit(1)
                         .minimumScaleFactor(0.8)
-                        Text("Full access, after your free week")
+                        Text(L("Full access, after your free week"))
                             .font(.figtree(13)).foregroundStyle(Palette.muted)
                     } else {
-                        Text("Full access")
+                        Text(L("Full access"))
                             .font(.figtree(15, .bold)).foregroundStyle(Palette.ink)
-                        Text("Lessons, games and movements")
+                        Text(L("Lessons, games and movements"))
                             .font(.figtree(13)).foregroundStyle(Palette.muted)
                     }
                 }
                 Spacer(minLength: 8)
                 // The "free" stamp
-                Text(discount > 0 ? "\(discount)% OFF" : "+ \(extraDays) DAYS FREE")
+                Text(discount > 0 ? L("%@%% OFF", "\(discount)") : L("+ %@ DAYS FREE", "\(extraDays)"))
                     .font(.figtree(11, .bold))
                     .tracking(0.5)
                     .lineLimit(1)
@@ -1017,8 +1020,8 @@ struct ExitOfferSheet: View {
         .overlay(TicketShape().stroke(Palette.blue, lineWidth: 1.5))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(discount > 0
-            ? "Visitor pass: \(offer.trialDays) days free instead of \(baseDays), then \(offer.yearlyPrice) per year instead of \(basePrice)"
-            : "Visitor pass: \(offer.trialDays) days free instead of \(baseDays)")
+            ? L("Visitor pass: %@ days free instead of %@, then %@ per year instead of %@", "\(offer.trialDays)", "\(baseDays)", offer.yearlyPrice, basePrice)
+            : L("Visitor pass: %@ days free instead of %@", "\(offer.trialDays)", "\(baseDays)"))
     }
 }
 
@@ -1040,10 +1043,10 @@ struct PaywallScreen: View {
     @State private var yearlySelected = true
 
     private let benefits = [
-        "All games, no daily limit",
-        "All paths and their lessons",
-        "Stories in audio",
-        "No ads"
+        L("All games, no daily limit"),
+        L("All paths and their lessons"),
+        L("Stories in audio"),
+        L("No ads")
     ]
 
     private var selectedProduct: Product? { yearlySelected ? pro.yearly : pro.monthly }
@@ -1063,13 +1066,13 @@ struct PaywallScreen: View {
                         .background(Circle().fill(.white))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Close and continue for free")
+                .accessibilityLabel(L("Close and continue for free"))
                 .padding(.trailing, 16)
                 .padding(.top, 8)
             }
 
             VStack(spacing: 14) {
-                Text("Start your 3 days of Artura Pro")
+                Text(L("Start your 3 days of Artura Pro"))
                     .font(.aTitleSmall).foregroundStyle(Palette.ink).multilineTextAlignment(.center)
 
                 VStack(alignment: .leading, spacing: 9) {
@@ -1084,10 +1087,10 @@ struct PaywallScreen: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal, 6)
 
-                planRow(title: "Yearly", price: pro.yearly.map { "\($0.displayPrice) per year" }, badge: "3 days free", selected: yearlySelected) {
+                planRow(title: L("Yearly"), price: pro.yearly.map { L("%@ per year", $0.displayPrice) }, badge: L("3 days free"), selected: yearlySelected) {
                     yearlySelected = true
                 }
-                planRow(title: "Monthly", price: pro.monthly.map { "\($0.displayPrice) per month" }, badge: nil, selected: !yearlySelected) {
+                planRow(title: L("Monthly"), price: pro.monthly.map { L("%@ per month", $0.displayPrice) }, badge: nil, selected: !yearlySelected) {
                     yearlySelected = false
                 }
                 if let error = pro.lastError {
@@ -1106,15 +1109,15 @@ struct PaywallScreen: View {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("Start free trial")
+                        Text(L("Start free trial"))
                     }
                 }
                 .buttonStyle(.primary)
                 .disabled(selectedProduct == nil || pro.isPurchasing)
                 .opacity(selectedProduct == nil ? 0.4 : 1)
 
-                TextLinkButton(title: "Not now", action: onClose)
-                Button("Restore purchases") {
+                TextLinkButton(title: L("Not now"), action: onClose)
+                Button(L("Restore purchases")) {
                     Task {
                         await pro.restore()
                         if pro.isPro {
@@ -1148,7 +1151,7 @@ struct PaywallScreen: View {
                     Text(title).font(.bodyStrong).foregroundStyle(Palette.ink)
                 }
                 Spacer(minLength: 8)
-                Text(price ?? "Price unavailable").font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                Text(price ?? L("Price unavailable")).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 if selected { CheckBadge().transition(.scale) }
             }
             .padding(.horizontal, 18)

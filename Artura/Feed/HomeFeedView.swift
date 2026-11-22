@@ -138,20 +138,20 @@ struct HomeFeedView: View {
 
     private var topBar: some View {
         HStack(spacing: 8) {
-            barButton(pro.isPro ? "crown.fill" : "crown", label: pro.isPro ? "Artura Pro is active" : "Discover Artura Pro",
+            barButton(pro.isPro ? "crown.fill" : "crown", label: pro.isPro ? L("Artura Pro is active") : L("Discover Artura Pro"),
                       tint: pro.isPro ? Palette.yellow : Palette.ink) {
                 if !pro.isPro { showPaywall = true }
             }
-            barButton("books.vertical", label: "My library") { sheet = .library(.favorites) }
+            barButton("books.vertical", label: L("My library")) { sheet = .library(.favorites) }
 
             Spacer(minLength: 0)
             StreakChip(days: user.streak)
             Spacer(minLength: 0)
 
-            barButton("clock.arrow.circlepath", label: "History") { sheet = .library(.history) }
-            barButton("line.3.horizontal.decrease", label: filter.isActive ? "Filter, \(filter.count) active" : "Filter",
+            barButton("clock.arrow.circlepath", label: L("History")) { sheet = .library(.history) }
+            barButton("line.3.horizontal.decrease", label: filter.isActive ? L("Filter, %@ active", "\(filter.count)") : L("Filter"),
                       badge: filter.count) { sheet = .filter }
-            barButton("magnifyingglass", label: "Search") { sheet = .search }
+            barButton("magnifyingglass", label: L("Search")) { sheet = .search }
         }
         .padding(.horizontal, 16)
         .padding(.top, 6)
@@ -235,14 +235,14 @@ struct FeedCard: View {
                 .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
                 .overlay(alignment: .topLeading) {
                     if isDaily {
-                        TagPill(text: "Artwork of the day", fill: .white, foreground: Palette.blueText).padding(12)
+                        TagPill(text: L("Artwork of the day"), fill: .white, foreground: Palette.blueText).padding(12)
                     }
                 }
                 .overlay(alignment: .topTrailing) {
                     if read {
                         HStack(spacing: 5) {
                             Image(systemName: "checkmark").font(.system(size: 11, weight: .bold))
-                            Text("Read").font(.figtree(13, .semibold))
+                            Text(L("Read")).font(.figtree(13, .semibold))
                         }
                         .foregroundStyle(.white)
                         .padding(.horizontal, 10)
@@ -271,7 +271,7 @@ struct FeedCard: View {
                 .zoomViewer($zoomed)
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel("\(artwork.title), \(artwork.artist)")
-                .accessibilityHint("Opens the painting full screen")
+                .accessibilityHint(L("Opens the painting full screen"))
                 .accessibilityAddTraits(.isButton)
 
             VStack(spacing: 6) {
@@ -297,7 +297,7 @@ struct FeedCard: View {
                 onOpen()
             } label: {
                 HStack(spacing: 8) {
-                    Text(read ? "Read the story again" : "Discover the story")
+                    Text(read ? L("Read the story again") : L("Discover the story"))
                     Image(systemName: "arrow.right").font(.system(size: 14, weight: .bold))
                 }
             }
@@ -316,7 +316,7 @@ struct FeedCard: View {
                         .scaleEffect(liked ? 1.06 : 1)
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel(liked ? "Remove from favorites" : "Add to favorites")
+                .accessibilityLabel(liked ? L("Remove from favorites") : L("Add to favorites"))
                 Button {
                     Haptics.press()
                     withAnimation(.bouncy) { user.toggleSaved(artwork.id) }
@@ -325,7 +325,7 @@ struct FeedCard: View {
                         .scaleEffect(saved ? 1.06 : 1)
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel(saved ? "Remove from saved" : "Save for later")
+                .accessibilityLabel(saved ? L("Remove from saved") : L("Save for later"))
             }
             .padding(.top, 12)
 
@@ -370,13 +370,13 @@ struct FeedEndCard: View {
     let onExplore: () -> Void
 
     private var title: String {
-        if empty { return "Nothing here yet." }
-        return filtered ? "That's all for this filter." : "You're all caught up."
+        if empty { return L("Nothing here yet.") }
+        return filtered ? L("That's all for this filter.") : L("You're all caught up.")
     }
 
     private var detail: String {
-        if filtered { return "Clear the filter to see every artwork again." }
-        return "A new artwork arrives tomorrow. Until then, review what you've learned."
+        if filtered { return L("Clear the filter to see every artwork again.") }
+        return L("A new artwork arrives tomorrow. Until then, review what you've learned.")
     }
 
     var body: some View {
@@ -396,18 +396,18 @@ struct FeedEndCard: View {
             Spacer(minLength: 16)
             VStack(spacing: 10) {
                 if filtered {
-                    Button("Clear the filter") {
+                    Button(L("Clear the filter")) {
                         Haptics.tap()
                         onClearFilter()
                     }
                     .buttonStyle(.primary)
                 } else {
-                    Button("Review what I've learned") {
+                    Button(L("Review what I've learned")) {
                         Haptics.press()
                         onReview()
                     }
                     .buttonStyle(.primary)
-                    Button("Explore movements") {
+                    Button(L("Explore movements")) {
                         Haptics.tap()
                         onExplore()
                     }

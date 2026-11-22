@@ -1,0 +1,138 @@
+{
+ "teaser": "A young painter's thank-you to his famous neighbor, built entirely out of tilted planes.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Two Spaniards lived in the same shabby studio building on the hill of Montmartre in Paris. One, Pablo Picasso, was already the talk of the avant-garde. The other, Juan Gris, six years younger, watched what his neighbor was doing through the open doors and learned. In 1912 he painted this to say thank you."
+  },
+  {
+   "type": "text",
+   "text": "Gris had arrived from Madrid in 1906, aged 19, with almost no money. For years he paid the rent by drawing cartoons for humor magazines. He only began painting seriously around 1910. This portrait was among the first pictures he dared to show in public, and he chose the biggest subject available."
+  },
+  {
+   "type": "fact",
+   "text": "“Juan Gris” was an invented name. He was born José Victoriano González-Pérez. Gris means “gray” in Spanish, a modest choice for a painter who became known for cool, silvery color."
+  },
+  {
+   "type": "text",
+   "text": "The style is Cubism, which Picasso and Georges Braque had developed in the years just before. A Cubist painter does not show a thing from one spot. He breaks it into flat facets seen from several angles and fits them back together on the canvas. The sitter can get hard to read. So Gris leaves one clear clue to the man's profession."
+  },
+  {
+   "type": "find",
+   "text": "Picasso is shown as a painter. Where is the proof?",
+   "spots": [
+    {
+     "title": "The palette",
+     "text": "He holds a palette, thumb hooked through the hole. On it sit four dabs of paint: blue, yellow, red and black. They are almost the only pure colors in the whole canvas."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Everything else is blue-gray, cream and brown, as if lit by a cold window. That restraint is deliberate. Early Cubists set strong color aside so that nothing would distract from the structure. Gris then makes the joke that the painter's wild colors are all still on the palette, waiting."
+  },
+  {
+   "type": "text",
+   "text": "Now compare this with what Picasso himself was painting in 1912: dense, flickering pictures where the figure nearly dissolves. Gris is different. You can find the head, the collar, the hands at once. He was trained in technical drawing, and it shows in the way he organizes the surface."
+  },
+  {
+   "type": "lines",
+   "text": "Trace the hidden order behind the fragments.",
+   "lines": [
+    {
+     "label": "A slanting background",
+     "text": "The wall behind Picasso is sliced by diagonals falling from upper right to lower left. Each band is light on one side and shaded on the other, like a folded sheet of paper."
+    },
+    {
+     "label": "The same angle again",
+     "text": "The slant repeats, parallel to the first, all the way toward the head. The repetition gives the picture a steady beat instead of chaos."
+    },
+    {
+     "label": "The buttons",
+     "text": "The jacket buttons march down the opposite way, upper left to lower right. Body and background cross like the two strokes of an X, which locks the figure in place."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The face follows the same logic. One eye looks at you from the front. The cheek and jaw beside it swing round as if seen from the side. You are given a walk around Picasso's head in a single image, yet the heavy fringe of hair across his forehead still makes him recognizable."
+  },
+  {
+   "type": "key",
+   "text": "Gris showed that Cubism could be clear. He kept its broken, many-sided view, and added order, light and a likeness you can still read."
+  },
+  {
+   "type": "fact",
+   "text": "In the bottom right corner Gris wrote a dedication in French, “Hommage à Pablo Picasso,” above his signature. The hero was not entirely flattered. According to friends, Picasso stayed cool toward the younger man who had learned his language so fast."
+  },
+  {
+   "type": "text",
+   "text": "The public noticed, though. Shown in Paris in the spring of 1912, the portrait announced Gris as the third major name of Cubism beside Picasso and Braque. He had fifteen years left: he died in 1927, at 40. The canvas, about 93 centimeters tall (37 inches), now hangs in the Art Institute of Chicago."
+  },
+  {
+   "type": "key",
+   "text": "A tribute can also be a quiet challenge. Gris painted his teacher in the teacher's own style, and made the style his own while doing it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did Gris earn a living before he painted seriously?",
+   "options": [
+    "Teaching mathematics",
+    "Drawing cartoons for humor magazines",
+    "Selling Picasso's paintings"
+   ],
+   "explanation": "He drew for satirical magazines for years after arriving in Paris in 1906."
+  },
+  {
+   "question": "Which object identifies Picasso as a painter in the portrait?",
+   "options": [
+    "An easel behind him",
+    "A brush behind his ear",
+    "A palette with four dabs of color"
+   ],
+   "explanation": "He holds a palette carrying blue, yellow, red and black paint."
+  },
+  {
+   "question": "What does a Cubist painter do with a subject?",
+   "options": [
+    "Breaks it into facets seen from several angles",
+    "Copies it as exactly as a photograph",
+    "Paints it only in bright primary colors"
+   ],
+   "explanation": "Cubism combines several viewpoints of the same thing on one flat surface."
+  },
+  {
+   "question": "What did Gris write in the bottom right corner?",
+   "options": [
+    "The date and price",
+    "A dedication to Picasso",
+    "A line of Spanish poetry"
+   ],
+   "explanation": "He inscribed it “Hommage à Pablo Picasso” above his signature."
+  },
+  {
+   "question": "How do the buttons relate to the background diagonals?",
+   "options": [
+    "They run in the opposite direction, crossing them",
+    "They follow exactly the same slant",
+    "They form a perfect circle"
+   ],
+   "explanation": "The buttons descend from upper left to lower right, crossing the background's slant like an X."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Juan Gris was the artist's birth name.",
+   "explanation": "He was born José Victoriano González-Pérez and chose the name Gris, meaning gray."
+  },
+  {
+   "text": "The brightest colors in the painting are on the palette.",
+   "explanation": "The dabs of blue, yellow, red and black stand out against the blue-gray and cream of everything else."
+  },
+  {
+   "text": "Gris was older than Picasso and taught him Cubism.",
+   "explanation": "Gris was six years younger and learned Cubism by watching Picasso, his neighbor."
+  }
+ ]
+}

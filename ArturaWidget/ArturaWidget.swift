@@ -57,8 +57,8 @@ struct DailyArtworkWidget: Widget {
         StaticConfiguration(kind: "DailyArtwork", provider: DailyProvider()) { entry in
             DailyEntryView(entry: entry)
         }
-        .configurationDisplayName("Artwork of the day")
-        .description("A new masterpiece on your Home Screen, every day.")
+        .configurationDisplayName(L("Artwork of the day"))
+        .description(L("A new masterpiece on your Home Screen, every day."))
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .accessoryRectangular])
         .contentMarginsDisabled()
     }

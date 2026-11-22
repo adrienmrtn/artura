@@ -1,0 +1,242 @@
+{
+ "teaser": "Un homme fait de coquille d'œuf et de troncs d'arbre te regarde depuis l'Enfer. Nul ne sait pourquoi.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Un homme se tient dans le noir, les pieds posés dans deux petites barques. Ses jambes sont des troncs creux. Son corps est une coquille d'œuf fêlée qui abrite une taverne, et sur sa tête repose un disque où des démons défilent autour d'une cornemuse rose. Il tourne son visage pâle par-dessus son épaule, l'air presque amusé."
+  },
+  {
+   "type": "find",
+   "text": "Cette créature se cache quelque part dans le tableau ci-dessous. Sauras-tu la repérer ?",
+   "spots": [
+    {
+     "title": "L'Homme-arbre",
+     "text": "On l'appelle l'Homme-arbre. Certains historiens soupçonnent que ce visage est celui de Bosch lui-même, mais rien ne le prouve. Retiens bien ce regard par-dessus l'épaule : nous y reviendrons."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Prends maintenant du recul. L'Homme-arbre n'est qu'une créature parmi des centaines dans un triptyque, un tableau fait de trois panneaux reliés par des charnières. Ouvert, il mesure environ 2,20 mètres sur 3,90. Jérôme Bosch l'a peint à l'huile sur chêne, vers 1500."
+  },
+  {
+   "type": "fact",
+   "text": "Referme les deux volets, et les couleurs disparaissent. L'extérieur montre la Terre comme un globe gris et transparent, à moitié rempli d'eau : sans doute le monde au troisième jour de la Création, avant les animaux et les hommes. L'ouvrir devait provoquer un choc."
+  },
+  {
+   "type": "text",
+   "text": "D'ordinaire, les triptyques trônaient sur l'autel des églises. Celui-ci, presque à coup sûr, jamais : sa première mention date de 1517, dans le palais d'un noble à Bruxelles, où il épatait les invités. Il se lit comme une phrase, de gauche à droite, et Bosch y a glissé quelques indices pour te guider."
+  },
+  {
+   "type": "lines",
+   "text": "Trois indices sur la façon dont les panneaux s'enchaînent.",
+   "lines": [
+    {
+     "label": "Un seul horizon",
+     "text": "Le panneau de gauche et celui du centre partagent le même horizon, la même herbe, le même ciel. Le jardin grouillant du milieu pousse tout droit hors de l'Éden."
+    },
+    {
+     "label": "La rupture",
+     "text": "À cette charnière, le paysage s'arrête. Plus d'horizon, plus de verdure, plus de lumière du jour : le panneau de droite est une nuit éclairée seulement par des incendies."
+    },
+    {
+     "label": "Trois centres",
+     "text": "Chaque panneau a en son cœur une construction étrange : une fontaine rose, un globe bleu, l'Homme-arbre. Une fontaine de vie, puis un jouet fragile, puis une coquille vide."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Bosch n'était pas son nom de famille. Né Jheronimus van Aken, il signait d'une forme abrégée du nom de sa ville natale, 's-Hertogenbosch, Bois-le-Duc en français, dans les actuels Pays-Bas. Il y a passé presque toute sa vie, dans une maison sur la place du marché."
+  },
+  {
+   "type": "text",
+   "text": "L'histoire va donc d'un début à une fin : le Paradis, puis un jardin de plaisirs, puis le châtiment. Cela paraît simple. Ça l'est moins dès qu'on inspecte le Paradis lui-même, qui devrait être le seul endroit paisible du tableau."
+  },
+  {
+   "type": "tour",
+   "title": "Un Paradis pas si tranquille",
+   "text": "Dieu vient de créer Ève. De loin, tout semble calme sur le panneau de gauche.",
+   "spots": [
+    {
+     "title": "Les présentations",
+     "text": "Dieu, représenté jeune comme le Christ, tient Ève par le poignet et la présente à Adam, qui vient de se réveiller. Adam la fixe. Beaucoup voient dans ce regard la première étincelle du désir."
+    },
+    {
+     "title": "La chouette",
+     "text": "Dans le trou sombre, à la base de la fontaine rose, se tient une chouette. Au temps de Bosch, c'était un oiseau de nuit de mauvais augure autant qu'un symbole de sagesse. Elle guette depuis le centre exact de l'Éden."
+    },
+    {
+     "title": "Le chat",
+     "text": "Un chat s'éloigne, un petit animal dans la gueule. Tout près, des créatures rampent hors d'une mare sombre et des oiseaux se chamaillent. La tuerie a déjà commencé, avant même que quiconque ait touché une pomme."
+    },
+    {
+     "title": "La girafe",
+     "text": "Bosch n'a jamais vu de girafe ni d'éléphant. Il les a sans doute copiés sur des dessins de voyageurs, d'où cette girafe blanche et un peu bancale. L'Éden est peuplé de ce qu'il connaissait de plus rare."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Le Paradis abrite donc déjà un prédateur et une chouette aux aguets. Bosch semble dire que le mal n'a pas commencé dans le jardin d'à côté : il a été planté dès le premier jour. Avec cela en tête, l'immense panneau central devient plus difficile à juger."
+  },
+  {
+   "type": "text",
+   "text": "Des centaines d'hommes et de femmes nus chevauchent des animaux, se baignent, grignotent des baies géantes et se glissent dans des coquilles. Personne n'est vieux, personne ne travaille, personne ne semble avoir honte. Aucun document ne nous dit ce que Bosch a voulu faire, et les spécialistes ne sont toujours pas d'accord : une mise en garde contre la luxure, ou le rêve du monde tel qu'il aurait pu être si les humains n'avaient jamais péché ?"
+  },
+  {
+   "type": "text",
+   "text": "Quelle que soit ta réponse, les preuves se nichent dans les petites choses, et il y en a beaucoup trop pour une visite guidée. Promène-toi seul dans le jardin. Guette les fruits et les oiseaux plus grands que les gens, et tout ce qui est en verre."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Le globe bleu",
+     "text": "Au centre du lac flotte un globe bleu coiffé de flèches roses. De minuscules personnages y grimpent et s'assoient dans ses ouvertures. Il a l'air à la fois grandiose et cassable."
+    },
+    {
+     "title": "La ronde sans fin",
+     "text": "Des femmes se baignent dans un bassin rond, et des hommes tournent autour d'elles, montés sur des chevaux, des sangliers, un chameau et des bêtes plus étranges. Ils tournent, tournent, sans aller nulle part : un manège de la frime."
+    },
+    {
+     "title": "Amants dans une bulle",
+     "text": "Un couple est assis dans une sphère transparente qui sort d'une plante comme une bulle de savon. Un dicton néerlandais de l'époque comparait le bonheur au verre : il se brise vite."
+    },
+    {
+     "title": "Des oiseaux géants",
+     "text": "Un martin-pêcheur, un chardonneret et d'autres oiseaux dominent les baigneurs au bord de l'eau. L'échelle est inversée : ici, ce sont les humains, les petites bêtes."
+    },
+    {
+     "title": "La coquille de moule",
+     "text": "Un homme porte sur son dos une énorme coquille de moule, avec des gens enfermés dedans. Coquilles, cosses et fruits creux servent de cachettes dans tout le jardin."
+    },
+    {
+     "title": "Encore la chouette",
+     "text": "Une chouette est perchée au-dessus d'une ronde de danseurs. L'oiseau qui guettait depuis la fontaine de l'Éden nous a suivis dans le jardin."
+    },
+    {
+     "title": "La baie géante",
+     "text": "Des personnages s'agglutinent autour d'une baie rouge presque aussi grosse qu'eux. Sucrée, éclatante, et pourrie en quelques jours : la parfaite image d'un plaisir qui ne dure pas."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Dans le jardin, tout est délicieux et fragile : les fruits pourrissent, le verre se brise, les bulles éclatent. Que Bosch ait désapprouvé ou rêvassé, il a peint le plaisir comme une chose qui ne peut pas durer."
+  },
+  {
+   "type": "fact",
+   "text": "Pendant des siècles, personne ne l'a appelé Le Jardin des délices. Bosch n'a laissé aucun titre. Les premières descriptions espagnoles désignent le tableau d'après son fruit, comme le tableau de la fraise, et le titre que nous employons ne s'est imposé que bien plus tard."
+  },
+  {
+   "type": "text",
+   "text": "Comment a-t-il fait pour que tant de scènes minuscules restent lumineuses et lisibles ? Bosch travaillait par couches de peinture à l'huile fines, presque transparentes, sur une préparation blanche, ce qui fait briller les couleurs comme de l'émail. Les examens scientifiques montrent qu'il changeait d'avis en cours de route et redessinait des figures directement sur le panneau."
+  },
+  {
+   "type": "text",
+   "text": "Puis vient l'addition. Sur le panneau de droite, les lumières s'éteignent, et l'espèce qui s'amusait dans le jardin est maintenant traquée, dévorée et tournée en dérision. L'idée la plus cruelle de Bosch : ce qui faisait le plaisir des gens devient l'instrument de leur supplice. Commence par la musique."
+  },
+  {
+   "type": "tour",
+   "title": "Le côté nuit",
+   "text": "Trois haltes dans le noir, en descendant depuis le haut du panneau.",
+   "spots": [
+    {
+     "title": "Des oreilles, une lame",
+     "text": "Deux oreilles géantes portent entre elles un couteau, comme une machine de guerre qui roule sur les damnés. Ce que cela veut dire, chacun peut y aller de son hypothèse, et c'est en partie ce qui fait sa force."
+    },
+    {
+     "title": "La leçon de musique",
+     "text": "Sous un luth et une harpe géants, un pécheur gît écrasé, une partition inscrite en travers du derrière. Les instruments du plaisir sont devenus des instruments de torture."
+    },
+    {
+     "title": "Prince à tête d'oiseau",
+     "text": "Un monstre bleu à tête d'oiseau, coiffé d'un chaudron, siège sur une haute chaise et avale un être humain tout rond. On l'appelle souvent le Prince de l'Enfer."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Les notes inscrites sur le derrière de ce pécheur sont lisibles. En 2014, une étudiante en musique de l'Oklahoma, Amelia Hamrick, les a transcrites et en a mis un enregistrement en ligne. Il a fait le tour du monde sous un titre officieux : la chanson des fesses venue de l'Enfer."
+  },
+  {
+   "type": "text",
+   "text": "Le tableau est vite devenu un trophée. Le roi Philippe II d'Espagne, collectionneur passionné de Bosch, le fait envoyer en 1593 dans son monastère-palais de l'Escurial. Il rejoint le Prado, à Madrid, dans les années 1930. Quatre siècles après Bosch, les surréalistes, ces peintres du rêve comme Salvador Dalí, se sont réclamés de lui comme d'un ancêtre."
+  },
+  {
+   "type": "text",
+   "text": "Reviens à l'Homme-arbre. En Enfer, tous les autres sont trop occupés à souffrir pour remarquer quoi que ce soit. Lui seul se retourne, par-dessus son corps brisé, vers le jardin et vers toi. Un avertissement, un regret, ou le léger sourire d'un peintre ravi de sa propre invention ? Bosch ne l'a jamais dit."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Qu'est-ce qu'un triptyque ?",
+   "options": [
+    "Un tableau fait de trois panneaux reliés par des charnières",
+    "Un tableau à trois personnages",
+    "Un tableau peint en trois jours"
+   ],
+   "explanation": "Le Jardin est fait de trois panneaux de chêne réunis par des charnières : les volets peuvent donc se refermer."
+  },
+  {
+   "question": "Qu'ont en commun le panneau de gauche et celui du centre ?",
+   "options": [
+    "La même foule de personnages",
+    "Le même ciel nocturne",
+    "Le même horizon et le même paysage"
+   ],
+   "explanation": "L'horizon se prolonge de l'un à l'autre : le jardin semble ainsi pousser hors de l'Éden."
+  },
+  {
+   "question": "Qui se tient dans le trou sombre de la fontaine, dans l'Éden ?",
+   "options": [
+    "Un serpent",
+    "Une chouette",
+    "Un chat"
+   ],
+   "explanation": "Une chouette guette depuis le centre du Paradis, et une autre apparaît dans le jardin central."
+  },
+  {
+   "question": "Que voit-on quand les volets sont fermés ?",
+   "options": [
+    "Un portrait de Bosch",
+    "La Terre sous la forme d'un globe gris",
+    "Un second jardin"
+   ],
+   "explanation": "L'extérieur montre un globe sans couleurs, sans doute le monde au troisième jour de la Création."
+  },
+  {
+   "question": "Qu'est-ce qui est inscrit sur le derrière d'un pécheur, dans le panneau de l'Enfer ?",
+   "options": [
+    "Une prière",
+    "La signature de Bosch",
+    "Une partition"
+   ],
+   "explanation": "Les notes sont lisibles : une étudiante les a transcrites et enregistrées en 2014."
+  },
+  {
+   "question": "Quel roi d'Espagne a envoyé le tableau à l'Escurial ?",
+   "options": [
+    "Philippe II",
+    "Charles Quint",
+    "Philippe IV"
+   ],
+   "explanation": "Philippe II, grand collectionneur de Bosch, l'y a fait envoyer en 1593."
+  }
+ ],
+ "facts": [
+  {
+   "text": "C'est Bosch qui a donné au tableau le titre Le Jardin des délices.",
+   "explanation": "Il n'a laissé aucun titre ; les premières descriptions espagnoles le désignaient d'après sa fraise."
+  },
+  {
+   "text": "Bosch a tiré son nom de celui de sa ville natale.",
+   "explanation": "Né Jheronimus van Aken, il signait d'après 's-Hertogenbosch."
+  },
+  {
+   "text": "Des documents de l'époque de Bosch expliquent le sens du panneau central.",
+   "explanation": "Aucun document de ce genre n'existe, et les spécialistes ne sont toujours pas d'accord."
+  }
+ ]
+}

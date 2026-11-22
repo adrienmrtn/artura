@@ -20,13 +20,13 @@ struct ZoomGame: View {
         VStack(alignment: .leading, spacing: 14) {
             if let current {
                 HStack {
-                    TagPill(text: "Round \(index + 1) of \(rounds.count)")
+                    TagPill(text: L("Round %@ of %@", "\(index + 1)", "\(rounds.count)"))
                     Spacer()
-                    Text("\(score) point\(score == 1 ? "" : "s")")
+                    Text(score == 1 ? L("1 point") : L("%@ points", "\(score)"))
                         .font(.figtree(14, .semibold)).foregroundStyle(Palette.muted)
                         .contentTransition(.numericText())
                 }
-                Text("Which artwork is this detail from?").font(.aTitleSmall).foregroundStyle(Palette.ink)
+                Text(L("Which artwork is this detail from?")).font(.aTitleSmall).foregroundStyle(Palette.ink)
 
                 ArtImage(name: current.image, zoom: zoom, anchor: current.focusPoint)
                     .frame(height: 290)
@@ -38,7 +38,7 @@ struct ZoomGame: View {
                                 Haptics.soft()
                                 zoomStep += 1
                             } label: {
-                                Label("Zoom out", systemImage: "minus.magnifyingglass")
+                                Label(L("Zoom out"), systemImage: "minus.magnifyingglass")
                                     .font(.figtree(14, .semibold))
                                     .foregroundStyle(Palette.ink)
                                     .padding(.horizontal, 14)
@@ -60,7 +60,7 @@ struct ZoomGame: View {
                 Spacer(minLength: 0)
 
                 if selected != nil {
-                    Button(index >= rounds.count - 1 ? "See my score" : "Next") { advance() }
+                    Button(index >= rounds.count - 1 ? L("See my score") : L("Next")) { advance() }
                         .buttonStyle(.primary)
                         .transition(.opacity.combined(with: .offset(y: 16)))
                 }

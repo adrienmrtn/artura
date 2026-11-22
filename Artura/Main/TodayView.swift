@@ -10,14 +10,14 @@ struct TodayView: View {
 
     private var dateLabel: String {
         let f = DateFormatter()
-        f.locale = Locale(identifier: "en_US")
-        f.dateFormat = "EEEE, MMMM d"
+        f.locale = AppLanguage.locale
+        f.setLocalizedDateFormatFromTemplate("EEEEMMMMd")
         return f.string(from: Date())
     }
 
     private var greeting: String {
-        if let name = user.profile.firstName, !name.isEmpty { return "Hello, \(name)" }
-        return "Hello"
+        if let name = user.profile.firstName, !name.isEmpty { return L("Hello, %@", name) }
+        return L("Hello")
     }
 
     var body: some View {
@@ -67,13 +67,13 @@ struct TodayView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: "ill_bravo").frame(height: 230)
-                TagPill(text: "Today's artwork: done", fill: .white, foreground: Palette.blueText).padding(10)
+                TagPill(text: L("Today's artwork: done"), fill: .white, foreground: Palette.blueText).padding(10)
             }
             VStack(spacing: 12) {
                 VStack(spacing: 6) {
-                    Text("Nice work, you're done for today")
+                    Text(L("Nice work, you're done for today"))
                         .font(.figtree(24, .semibold)).foregroundStyle(Palette.ink)
-                    Text("Come back tomorrow for a new artwork. Until then, practice or explore another movement.")
+                    Text(L("Come back tomorrow for a new artwork. Until then, practice or explore another movement."))
                         .font(.aSmall).foregroundStyle(Palette.muted)
                 }
                 .multilineTextAlignment(.center)
@@ -83,12 +83,12 @@ struct TodayView: View {
                     Haptics.press()
                     training = true
                 }
-                Button("Explore movements") {
+                Button(L("Explore movements")) {
                     Haptics.tap()
                     onExplore()
                 }
                 .buttonStyle(.secondary)
-                TextLinkButton(title: "Revisit “\(art.title)”") { course = art }
+                TextLinkButton(title: L("Revisit “%@”", art.title)) { course = art }
             }
             .padding(.horizontal, 16)
             .padding(.top, 16)
@@ -101,8 +101,8 @@ struct TodayView: View {
 
     private var segmented: some View {
         HStack(spacing: 0) {
-            segment("For you", active: !showFavorites) { showFavorites = false }
-            segment("Favorites", active: showFavorites) { showFavorites = true }
+            segment(L("For you"), active: !showFavorites) { showFavorites = false }
+            segment(L("Favorites"), active: showFavorites) { showFavorites = true }
         }
         .padding(4)
         .background(Capsule().fill(Palette.card))
@@ -127,7 +127,7 @@ struct TodayView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: art.image).frame(height: 392).zoomable(art)
-                TagPill(text: "Artwork of the day", fill: .white, foreground: Palette.blueText).padding(10)
+                TagPill(text: L("Artwork of the day"), fill: .white, foreground: Palette.blueText).padding(10)
                 Button {
                     Haptics.press()
                     withAnimation(.bouncy) { user.toggleFavorite(art.id) }
@@ -140,14 +140,14 @@ struct TodayView: View {
                         .scaleEffect(user.isFavorite(art.id) ? 1.1 : 1)
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel(user.isFavorite(art.id) ? "Remove from favorites" : "Add to favorites")
+                .accessibilityLabel(user.isFavorite(art.id) ? L("Remove from favorites") : L("Add to favorites"))
                 .frame(maxWidth: .infinity, alignment: .trailing)
                 .padding(10)
             }
             HStack(spacing: 12) {
                 VStack(alignment: .leading, spacing: 3) {
                     Text(art.title).font(.aCardTitle).foregroundStyle(Palette.ink)
-                    Text("\(art.meta) · lesson and quiz").font(.aCaption).foregroundStyle(Palette.muted)
+                    Text(L("%@ · lesson and quiz", art.meta)).font(.aCaption).foregroundStyle(Palette.muted)
                 }
                 Spacer(minLength: 0)
                 Button {
@@ -161,7 +161,7 @@ struct TodayView: View {
                         .background(Circle().fill(Palette.blueDark).offset(y: 3))
                 }
                 .buttonStyle(.pressable)
-                .accessibilityLabel("Start the lesson")
+                .accessibilityLabel(L("Start the lesson"))
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 12)
@@ -182,8 +182,8 @@ struct TodayView: View {
         if items.isEmpty {
             VStack(spacing: 8) {
                 Image(systemName: "heart").font(.system(size: 30)).foregroundStyle(Palette.muted)
-                Text("No favorites yet").font(.bodyStrong).foregroundStyle(Palette.ink)
-                Text("Tap the heart on an artwork to find it here.")
+                Text(L("No favorites yet")).font(.bodyStrong).foregroundStyle(Palette.ink)
+                Text(L("Tap the heart on an artwork to find it here."))
                     .font(.aSmall).foregroundStyle(Palette.muted).multilineTextAlignment(.center)
             }
             .frame(maxWidth: .infinity)

@@ -1,0 +1,186 @@
+{
+ "teaser": "Um arquiteto romano lançou um enigma sobre o corpo. Quinze séculos depois, uma folha de papel o resolveu.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Por volta de 25 a.C., um arquiteto romano chamado Vitrúvio pôs por escrito uma afirmação sobre o corpo humano. Deite de costas um homem bem-proporcionado, dizia ele, com braços e pernas afastados, e um círculo traçado a partir do umbigo vai tocar os dedos das mãos e dos pés. Ponha-o de pé, de braços abertos, e ele cabe igualmente bem em um quadrado, porque a envergadura dos braços é igual à altura."
+  },
+  {
+   "type": "text",
+   "text": "O trecho está em um livro sobre a construção de templos. A ideia de Vitrúvio era que a boa arquitetura deveria copiar as proporções do corpo. Nenhuma ilustração do livro chegou até nós, de modo que, quando os estudiosos do Renascimento o redescobriram, os artistas começaram a tentar desenhar o homem no círculo e no quadrado. A maioria das tentativas saiu esticada ou dura."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo da Vinci encarou o enigma por volta de 1490, quando trabalhava em Milão. Outros tinham presumido que o círculo e o quadrado precisavam ter o mesmo centro, como um alvo. Confira se Leonardo concorda."
+  },
+  {
+   "type": "lines",
+   "text": "Quatro linhas revelam a solução de Leonardo.",
+   "lines": [
+    {
+     "label": "O círculo",
+     "text": "Com os braços erguidos e as pernas afastadas, as pontas dos dedos e as solas dos pés tocam o círculo. O centro é o umbigo, exatamente como exige o texto romano."
+    },
+    {
+     "label": "O quadrado",
+     "text": "De pés juntos e braços na horizontal, o homem toca os quatro lados. O quadrado se apoia na base do círculo, mas escapa dele nos cantos de cima."
+    },
+    {
+     "label": "Envergadura igual à altura",
+     "text": "Da ponta de um dedo à ponta do outro, os braços abertos têm a mesma medida que a altura do homem. É só por isso que a figura de pé cabe em um quadrado."
+    },
+    {
+     "label": "Dois centros",
+     "text": "O círculo gira em torno do umbigo. O centro do quadrado fica mais abaixo, na virilha. Leonardo deixa as duas formas deslizarem uma em relação à outra e, de repente, o corpo cabe nas duas sem se deformar."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Esse pequeno deslocamento é a descoberta inteira. Leonardo não entortou o homem para obedecer à geometria, como tinham feito os artistas anteriores. Confiou no corpo e mexeu na geometria. Depois foi além e, discretamente, corrigiu o autor antigo nos pontos em que suas próprias medições de homens reais não batiam."
+  },
+  {
+   "type": "key",
+   "text": "O Homem Vitruviano é tanto uma experiência quanto um desenho: um texto antigo posto à prova diante de um corpo real, e quem ganha é o corpo."
+  },
+  {
+   "type": "fact",
+   "text": "A folha é pequena, cerca de 34 por 24 centímetros, pouco maior que uma folha de sulfite. Leonardo primeiro riscou a construção com ponta de metal e compasso, depois passou por cima com pena e tinta marrom."
+  },
+  {
+   "type": "text",
+   "text": "Há também um truque de tempo ali. Você vê um homem com quatro braços e quatro pernas e o lê, sem esforço, como um único corpo mudando de posição. Combine os membros na sua cabeça e ele salta de uma pose para outra, um pouco como os quadros de uma animação, com quatrocentos anos de antecedência."
+  },
+  {
+   "type": "fact",
+   "text": "As linhas de texto correm ao contrário, da direita para a esquerda, e podem ser lidas normalmente em um espelho. Leonardo era canhoto e escreveu assim suas anotações pessoais a vida inteira, talvez só para não borrar com a mão a tinta ainda fresca."
+  },
+  {
+   "type": "text",
+   "text": "Trata-se, portanto, de uma página de caderno de trabalho, com palavras em volta da figura. O texto lista medidas, e o desenho traz pequenas marcas que quase ninguém percebe, porque todo mundo para na célebre silhueta."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Notas de cima",
+     "text": "Em escrita espelhada, Leonardo começa citando Vitrúvio e depois lista as unidades: quatro dedos fazem um palmo, quatro palmos um pé, seis palmos um côvado, quatro côvados um homem."
+    },
+    {
+     "title": "O rosto",
+     "text": "Um rosto severo, de cenho franzido, emoldurado por cachos espessos, muito mais individual do que um diagrama precisaria. Linhas tênues o atravessam e marcam as proporções do queixo, do nariz e da testa."
+    },
+    {
+     "title": "O umbigo",
+     "text": "A ponta do compasso ficou aqui. Todas as partes do círculo estão à mesma distância deste ponto."
+    },
+    {
+     "title": "A régua",
+     "text": "Sob o quadrado corre uma linha de medida dividida em palmos por pequenos traços, com marcas mais finas, de dedos, nas duas pontas. É a escala do próprio desenho."
+    },
+    {
+     "title": "Um pé de perfil",
+     "text": "Um dos pés de apoio aponta para nós, o outro vira de lado. Visto de perfil, dá para medir seu comprimento inteiro: para Leonardo, um pé é um sétimo da altura."
+    },
+    {
+     "title": "Uma mão erguida",
+     "text": "O dedo médio do braço erguido alcança o círculo na mesma altura do topo da cabeça, relação que Leonardo explica em suas notas."
+    },
+    {
+     "title": "Notas de baixo",
+     "text": "Mais proporções em escrita espelhada: a envergadura é igual à altura, o rosto é um décimo dela, e assim por diante, corpo abaixo, cada uma em uma fração simples."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Por que essas frações importavam tanto? Os pensadores do tempo de Leonardo adoravam a ideia de que o homem é um pequeno modelo do universo. O círculo representava o céu, o quadrado, a terra. Um corpo que toca os dois era, para eles, a prova de que o ser humano pertence aos dois mundos."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo nunca publicou a folha. Ela ficou entre seus papéis, passou por coleções particulares e entrou nas Gallerie dell'Accademia, em Veneza, em 1822. Só mais tarde virou um logotipo universal da medicina, da ciência, do esporte e do “ser humano” em geral."
+  },
+  {
+   "type": "fact",
+   "text": "Os italianos carregam este desenho no bolso: ele está cunhado na moeda italiana de um euro. Já o original quase nunca fica exposto. A luz desbota a tinta, por isso ele vive em uma reserva escura e climatizada e só é mostrado por pouco tempo, de anos em anos."
+  },
+  {
+   "type": "text",
+   "text": "Quando a França o pediu emprestado em 2019, para os 500 anos da morte de Leonardo, uma associação italiana de defesa do patrimônio foi à Justiça para impedir o empréstimo, alegando que a folha era frágil demais para viajar. Os juízes a deixaram partir. Ela ficou algumas semanas no Louvre e depois voltou para o escuro."
+  },
+  {
+   "type": "text",
+   "text": "Artistas e arquitetos posteriores não pararam de voltar à pergunta que Leonardo respondeu aqui. No século XX, o arquiteto Le Corbusier criou todo um sistema de medidas de construção em torno de um homem de pé com o braço erguido. A ideia de que nossos cômodos devem ser talhados sob medida para o nosso corpo começa com Vitrúvio, mas é este o rosto que ela tem."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "De onde veio a ideia de um homem dentro de um círculo e de um quadrado?",
+   "options": [
+    "De um manual de medicina medieval",
+    "De um livro de arquitetura do romano Vitrúvio",
+    "De um sonho que Leonardo anotou"
+   ],
+   "explanation": "Vitrúvio a descreveu em seu tratado sobre construção, e é por isso que o desenho leva o nome dele."
+  },
+  {
+   "question": "Qual foi a jogada decisiva de Leonardo para resolver o enigma?",
+   "options": [
+    "Deu centros diferentes ao círculo e ao quadrado",
+    "Fez os braços do homem mais compridos que o natural",
+    "Trocou o quadrado por um triângulo"
+   ],
+   "explanation": "O círculo tem o centro no umbigo, e o quadrado, na virilha. Assim o corpo cabe nos dois sem se deformar."
+  },
+  {
+   "question": "Por que a letra parece estranha?",
+   "options": [
+    "É um código inventado pela Accademia",
+    "Foi acrescentada por um dono posterior",
+    "É escrita espelhada, da direita para a esquerda"
+   ],
+   "explanation": "Canhoto, Leonardo escrevia suas notas ao contrário, legíveis em um espelho."
+  },
+  {
+   "question": "O que é a linha com pequenos traços sob o quadrado?",
+   "options": [
+    "Uma escala dividida em palmos e dedos",
+    "Uma rachadura no papel",
+    "Uma pauta musical"
+   ],
+   "explanation": "É uma escala de medida que usa as mesmas unidades das notas."
+  },
+  {
+   "question": "Por que o desenho original é exposto tão raramente?",
+   "options": [
+    "Ele pertence a um particular",
+    "A luz desbota a tinta da folha frágil",
+    "Ele é grande demais para ser pendurado"
+   ],
+   "explanation": "O papel e a tinta são sensíveis à luz, por isso ele passa quase todo o tempo em uma reserva escura."
+  },
+  {
+   "question": "Que parte do corpo toca o lado de cima do quadrado?",
+   "options": [
+    "Só as pontas dos dedos erguidos",
+    "Os ombros",
+    "O topo da cabeça"
+   ],
+   "explanation": "De pé, o homem encosta a cabeça no lado de cima e os pés no lado de baixo."
+  }
+ ],
+ "facts": [
+  {
+   "text": "No desenho de Leonardo, o círculo e o quadrado têm o mesmo centro.",
+   "explanation": "O círculo tem o centro no umbigo, e o quadrado, mais abaixo, na virilha."
+  },
+  {
+   "text": "O Homem Vitruviano aparece na moeda italiana de um euro.",
+   "explanation": "A Itália escolheu o desenho para a face nacional de sua moeda de um euro."
+  },
+  {
+   "text": "O desenho tem mais ou menos o tamanho de uma pessoa de verdade.",
+   "explanation": "A folha tem só uns 34 por 24 centímetros, perto de uma folha de sulfite."
+  }
+ ]
+}

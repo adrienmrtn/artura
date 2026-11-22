@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Itáliai reneszánsz",
+   "period": "15–16. század",
+   "summary": "Perspektíva és visszatérés az antikvitáshoz",
+   "description": "Itáliában, majd egész Európában a művészek újra felfedezik az antik világot, tanulmányozzák az emberi testet, és feltalálják a perspektívát. A festmény ablakká válik a világra."
+  },
+  "siecledor": {
+   "name": "Holland aranykor",
+   "period": "17. század",
+   "summary": "A mindennapok és a fény",
+   "description": "A virágzó Holland Köztársaságban a művészek polgári otthonokba festenek: csendes belső tereket, portrékat, csendéleteket. A fény lesz az igazi főszereplő."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "17–19. század",
+   "summary": "A „változó világ” fametszetei",
+   "description": "Japánban a sorozatban készülő fametszetek színészeket, tájakat és mindennapi jeleneteket mutatnak. Lapos színeik és merész képkivágásaik alaposan felrázzák majd az európai festőket."
+  },
+  "impressionnisme": {
+   "name": "Impresszionizmus",
+   "period": "1870-es és 1880-as évek",
+   "summary": "A pillanat fényét festeni",
+   "description": "Festők egy csoportja elhagyja a műtermet, és a szabadban dolgozik, gyors, apró ecsetvonásokkal. Már nem a részlet érdekli őket, hanem a fény hatása egy adott pillanatban."
+  },
+  "postimp": {
+   "name": "Posztimpresszionizmus",
+   "period": "1886–1905",
+   "summary": "Először a szín és az érzelem",
+   "description": "Az impresszionizmus után mindenki a maga útját keresi. A szín már nem a valóságot másolja, hanem azt fejezi ki, amit a festő érez."
+  },
+  "secession": {
+   "name": "Szecesszió és bécsi Secession",
+   "period": "1900 körül",
+   "summary": "Arany, díszítés és hajlított vonalak",
+   "description": "Bécsben fiatal művészek szakítanak az akadémiával. Egybeolvasztják a festészetet, a díszítést és a kézművességet, és a díszítményből külön nyelvet formálnak."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "A csillagos éj",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Modern Művészeti Múzeum, New York",
+   "teaser": "Kavargó égbolt, amelyet egy elmegyógyintézeti szobában festett meg emlékezetből.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "1889 júniusa. Vincent van Gogh 36 éves. Egy hónappal korábban, egy súlyos arles-i összeomlás után, önként vonult be a dél-franciaországi Saint-Rémy-de-Provence elmegyógyintézetébe."
+    },
+    {
+     "type": "text",
+     "text": "A szobája keletre néz. Az ablakból búzamezőt lát, mögötte az Alpilles dombjait, hajnal előtt pedig az eget. Ezt a látványt festi meg újra és újra, a nap minden szakában."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh csak 27 évesen kezdett festeni. Nagyjából tíz év alatt mintegy 900 festményt készített, néha naponta egyet."
+    },
+    {
+     "type": "tour",
+     "text": "Íme, ezek közül az egek közül a leghíresebb. Nézd meg egészében, aztán koppints, és lépj be a képbe.",
+     "spots": [
+      {
+       "title": "Az örvény",
+       "text": "Középen két hatalmas hullám csavarodik egymásba. Ilyen eget a valóságban nem látni: azt festi, amit érez, nem azt, amit lát."
+      },
+      {
+       "title": "A hold",
+       "text": "Narancssárga sarló sárga glóriában. Szinte napnak tűnik. Van Gogh körben futó, rövid vonásokkal rakja köré a festéket."
+      },
+      {
+       "title": "A hajnalcsillag",
+       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt nagyon nagynak látta a hajnalcsillagot. Valószínűleg a Vénusz."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ez a kép nem éjjel készült, és nem is a táj előtt. Van Gogh nappal festette, az intézeti műtermében, emlékezetből és képzeletből. Ez szokatlan volt tőle: máskor azt festette, ami a szeme előtt volt."
+    },
+    {
+     "type": "key",
+     "text": "A csillagos éj nappal készült, emlékezetből. Nem tájkép, hanem látomás."
+    },
+    {
+     "type": "text",
+     "text": "Régóta álmodott egy éjszakai égboltról. Egy évvel korábban azt írta, hogy a csillagok látványa mindig álmodozásra készteti."
+    },
+    {
+     "type": "find",
+     "text": "A táj egyik részlete egyenesen hollandiai gyerekkorából érkezik. Hol a templomtorony?",
+     "spots": [
+      {
+       "title": "A templomtorony",
+       "text": "Vékony, hegyes toronysisak, olyan, mint a holland falvakban, ahol Van Gogh felnőtt. A provence-i templomtornyok nem így néznek ki."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A falu is kitalált, vagy legalábbis máshonnan került ide: az ablakából nem lehetett látni. Van Gogh valódi eget, valódi dombokat és egy emlékezetből felidézett falut kever össze."
+    },
+    {
+     "type": "fact",
+     "text": "Az intézeti ablakán vasrács volt. A kilátásról készült festményei közül egyiken sem szerepel."
+    },
+    {
+     "type": "lines",
+     "text": "A kép nyugtalannak tűnik. Valójában gondosan megszerkesztett.",
+     "lines": [
+      {
+       "label": "A ciprus függőlegese",
+       "text": "A földtől a felső szélig átszeli az egész képet, és megadja a léptéket: az ég mérhetetlenül nagy."
+      },
+      {
+       "label": "A visszhangja: a torony",
+       "text": "Egy második, apró függőleges, amely felel a ciprusnak. Az egyiket a természet teremtette, a másikat ember építette."
+      },
+      {
+       "label": "Hullám az égen",
+       "text": "A szem balról jobbra követi ezt az S alakot, egészen a holdig."
+      },
+      {
+       "label": "A dombok lejtője",
+       "text": "Átló, amely a falu felé fut le, és úgy óvja, mint egy átkaroló kar."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Most nézd az ecsetkezelést. Sehol egy sima átmenet. Rövid, vastag vonások sorakoznak egymás mellett, mindegyik más irányba mutat. Maga az ecsetvonás teremti a mozgást."
+    },
+    {
+     "type": "text",
+     "text": "A festők ezt a vastag festékréteget „impasztónak” hívják. Van Gogh néha szinte egyenesen a tubusból nyomta a színt a vászonra. Közelről a felülete olyan göröngyös, mint egy domborzati térkép."
+    },
+    {
+     "type": "tour",
+     "title": "Közelről",
+     "text": "Menjünk egészen közel magához a festékhez.",
+     "spots": [
+      {
+       "title": "A festék",
+       "text": "Nézd, milyen vastag: rövid, súlyos vonásokban ül a vásznon, szinte domborműként. Ezt hívják impasztónak."
+      },
+      {
+       "title": "A ciprus",
+       "text": "Sötét, és úgy csavarodik, mint egy lángnyelv: összeköti a földet az éggel. Dél-Franciaországban a temetők fája. Van Gogh olyan szépnek találta, mint egy egyiptomi obeliszket."
+      },
+      {
+       "title": "A dombok",
+       "text": "Az Alpilles. Hullámként gördülnek, ugyanaz a lendület ragadja magával őket, mint az eget."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A ciprus fontos. Ez a kép legsötétebb formája, és egyedül ez ér el a földtől egészen az ég tetejéig. Van Gogh azon a nyáron a megszállottja lett ezeknek a fáknak."
+    },
+    {
+     "type": "palette",
+     "text": "Kék, sárga, és szinte semmi más. Koppints egy színre.",
+     "swatches": [
+      {
+       "name": "Mélykék",
+       "text": "Az ég és a dombok mélye. Van Gogh ultramarint és kobaltkéket használt."
+      },
+      {
+       "name": "Világoskék",
+       "text": "Az örvények. Vastag vonásokban felrakva forgásba hozza az eget."
+      },
+      {
+       "name": "Sárga",
+       "text": "A hold, a csillagok, az ablakok. A felületnek csak apró része, mégis mindent bevilágít."
+      },
+      {
+       "name": "Zöldesfekete",
+       "text": "A ciprus és a falu árnyékai. A kép legsötétebb tömbje."
+      },
+      {
+       "name": "Zöldesfehér",
+       "text": "A csillagok körüli glóriák: ettől vibrálnak."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A kék és a sárga szinte szemben áll egymással a színkörön. Egymás mellé téve kölcsönösen felerősítik egymást. Van Gogh tudta ezt, és ezzel tette vibrálóvá az éjszakáit."
+    },
+    {
+     "type": "key",
+     "text": "Az egymás mellé tett ellentétes színek felerősítik egymást. Ezért izzanak a sárga csillagok a kék előtt."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh azt írta az öccsének, hogy nagyon nagynak látta a hajnalcsillagot. Koppints a kép legfehérebb fényére.",
+     "spots": [
+      {
+       "title": "A hajnalcsillag",
+       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt nagyon nagynak látta a hajnalcsillagot. Valószínűleg a Vénusz."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "És ő mit gondolt a képről? Nem sokat. A leveleiben egyszerű éjszakai tanulmánynak nevezi, és kételkedik ezekben a képzeletből festett vásznakban."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh életében szinte semmit sem adott el. Az öccse, Theo, aki műkereskedő volt, pénzzel és festékkel támogatta."
+    },
+    {
+     "type": "text",
+     "text": "Tizenhárom hónappal később, 1890 júliusában halt meg, 37 évesen. A csillagos éj 1941-ben került a New York-i Modern Művészeti Múzeumba."
+    },
+    {
+     "type": "key",
+     "text": "Van Goghnál az ecsetvonás maga a téma: minden vonásnak iránya van, és ettől mozdul meg az ég."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Az örvény",
+       "text": "Középen két hatalmas hullám csavarodik egymásba. Ilyen eget a valóságban nem látni: azt festi, amit érez, nem azt, amit lát."
+      },
+      {
+       "title": "A hold",
+       "text": "Narancssárga sarló sárga glóriában. Szinte napnak tűnik. Van Gogh körben futó, rövid vonásokkal rakja köré a festéket."
+      },
+      {
+       "title": "A hajnalcsillag",
+       "text": "A kép legfehérebb fénye. Van Gogh azt írta az öccsének, hogy napkelte előtt nagyon nagynak látta a hajnalcsillagot. Valószínűleg a Vénusz."
+      },
+      {
+       "title": "A ciprus",
+       "text": "Sötét, és úgy csavarodik, mint egy lángnyelv: összeköti a földet az éggel. Dél-Franciaországban a temetők fája. Van Gogh olyan szépnek találta, mint egy egyiptomi obeliszket."
+      },
+      {
+       "title": "A templomtorony",
+       "text": "Vékony, hegyes toronysisak, olyan, mint a holland falvakban, ahol Van Gogh felnőtt. A provence-i templomtornyok nem így néznek ki."
+      },
+      {
+       "title": "A falu",
+       "text": "Néhány kivilágított, sárga ablak. Ezt a falut nem láthatta a szobájából: emlékezetből tette hozzá."
+      },
+      {
+       "title": "A dombok",
+       "text": "Az Alpilles. Hullámként gördülnek, ugyanaz a lendület ragadja magával őket, mint az eget."
+      },
+      {
+       "title": "A festék",
+       "text": "Nézd, milyen vastag: rövid, súlyos vonásokban ül a vásznon, szinte domborműként. Ezt hívják impasztónak."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hol volt Van Gogh, amikor A csillagos éjt festette?",
+     "options": [
+      "Párizsban",
+      "A Saint-Rémy-de-Provence-i elmegyógyintézetben",
+      "Amszterdamban"
+     ],
+     "explanation": "Egy hónappal korábban vonult be önként."
+    },
+    {
+     "question": "Hogyan készült a kép?",
+     "options": [
+      "Éjjel, a táj előtt",
+      "Nappal, emlékezetből és képzeletből",
+      "Egy fénykép alapján"
+     ],
+     "explanation": "Nappal, az intézeti műtermében."
+    },
+    {
+     "question": "Melyik részlet idézi fel Hollandiát?",
+     "options": [
+      "A ciprus",
+      "A hegyes templomtorony",
+      "A dombok"
+     ],
+     "explanation": "Olyan toronysisak, mint azokban a falvakban, ahol felnőtt."
+    },
+    {
+     "question": "Mi az „impasztó”?",
+     "options": [
+      "Nagyon vastag, szinte domború festékréteg",
+      "Vékony, áttetsző lazúr",
+      "Szénvázlat"
+     ],
+     "explanation": "Rövid, súlyos vonások, amelyek kiemelkednek a vászonból."
+    },
+    {
+     "question": "Miért ragyognak ennyire a sárga csillagok?",
+     "options": [
+      "Arannyal festették őket",
+      "A sárga a saját ellentéte, a kék mellett áll",
+      "A vásznat hátulról világítják meg"
+     ],
+     "explanation": "Az egymás mellé tett ellentétes színek felerősítik egymást."
+    },
+    {
+     "question": "Mit hagyott le Van Gogh a kilátásról készült festményeiről?",
+     "options": [
+      "Az ablaka rácsait",
+      "A holdat",
+      "A dombokat"
+     ],
+     "explanation": "Az intézeti ablakán vasrács volt."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh a szabadban, az éjszaka közepén festette A csillagos éjt.",
+     "explanation": "Nappal festette, emlékezetből, a Saint-Rémy-i intézetben."
+    },
+    {
+     "text": "A csillagos éj New Yorkban látható.",
+     "explanation": "1941 óta a MoMA, a Modern Művészeti Múzeum gyűjteményében van."
+    },
+    {
+     "text": "Van Gogh sok képet eladott, és gazdagon halt meg.",
+     "explanation": "Szinte semmit sem adott el, az öccse, Theo tartotta el."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Lány gyöngyfülbevalóval",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "kb. 1665",
+   "museum": "Mauritshuis, Hága",
+   "teaser": "Egy pillantás a válla fölött, és senki sem tudja, ki ő.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ismered ezt az arcot. Mégsem portré: senki sem tudja, ki ő, és Vermeer valószínűleg nem is akart megfesteni senkit konkrétan."
+    },
+    {
+     "type": "text",
+     "text": "A 17. századi Hollandiában az ilyen képnek külön neve volt: „tronie”, vagyis arctanulmány. A festő egy arckifejezést, egy egzotikus viseletet vagy egy fényhatást próbál ki rajta. Itt mindhármat egyszerre."
+    },
+    {
+     "type": "key",
+     "text": "A tronie elképzelt arc, ürügy arra, hogy a festő egy arckifejezést és egy fényt fessen meg. Nem egy valódi ember portréja."
+    },
+    {
+     "type": "tour",
+     "text": "Előbb nézd meg az egész képet: egy arc bukkan elő a sötétből. Koppints, és menj közelebb.",
+     "spots": [
+      {
+       "title": "A tekintet",
+       "text": "Úgy fordul feléd, mintha épp a nevén szólítottad volna. Egyetlen fehér pötty mindkét szemben, és a tekintet nedves, élő lesz."
+      },
+      {
+       "title": "A száj",
+       "text": "Kissé nyitva, mintha mondat közben volna. Nézd az apró fénypontot az ajka szegletében: egyetlen ecsetérintés, és a száj csillogni kezd."
+      },
+      {
+       "title": "A gyöngy",
+       "text": "Két vonás, nem több: fent egy fehér csillanás, lent a gallér szürke tükröződése. Se körvonal, se akasztó. A gyöngyöt a szemed rakja össze."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Az egész kép egyetlen mozdulatra épül: a lány megfordul. A teste profilban van, az arca felénk fordul. Mintha rajtakaptuk volna, vagy mintha épp indulni készülne. Ettől olyan eleven."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer egész életét Delftben, egy kis holland városban élte le. Lassan festett, tizenegy gyereket kellett eltartania, és 43 évesen, adósságok közt halt meg."
+    },
+    {
+     "type": "text",
+     "text": "Figyeld meg a turbánt. Holland lány nem öltözött így. Jelmez ez, egy csipetnyi távoli Kelet, amely annyira vonzotta a kor festőit."
+    },
+    {
+     "type": "find",
+     "text": "Egyetlen fényforrás világítja meg az arcát. Hová esik a fény? Koppints az arc legvilágosabb részére.",
+     "spots": [
+      {
+       "title": "Az orca",
+       "text": "A fény balról, kissé felülről érkezik. Megvilágítja a homlokot, az orcát és az orrot, az arc másik felét pedig hagyja árnyékba csúszni."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer szinte egyáltalán nem húz körvonalat. Nézd az orrnyerget: nincs ott vonal, csak egy világos orca találkozik egy árnyékkal. Az arc fényből épül, nem vonalakból."
+    },
+    {
+     "type": "key",
+     "text": "Fény balról, lágy árnyékok, kemény körvonalak nélkül: ez Vermeer kézjegye."
+    },
+    {
+     "type": "lines",
+     "text": "Hogyan áll össze egy ilyen egyszerű kép? Három vonal megmagyarázza.",
+     "lines": [
+      {
+       "label": "A fény",
+       "text": "Bal felülről érkezik, mintha egy ablakon át, amelyet nem látunk."
+      },
+      {
+       "label": "A háromszög",
+       "text": "A turbán csúcsától a két vállig: stabil, szilárdan álló forma, amely egyensúlyban tartja a fej fordulatát."
+      },
+      {
+       "label": "A lehulló kendő",
+       "text": "A sárga kendő jobbra hull alá, és ellensúlyozza a balra forduló arcot."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "És most a kék. Vermeer valódi ultramarint használt, amelyet lazúrkőből őröltek. A legtöbb festő Szűz Mária köpenyére tartogatta, mert rendkívül drága volt. Ő mindenhová tett belőle, még az árnyékokba is."
+    },
+    {
+     "type": "fact",
+     "text": "A lazúrkövet a mai Afganisztán területén bányászták. Az „ultramarin” név azt jelenti: „tengeren túli”."
+    },
+    {
+     "type": "palette",
+     "text": "Öt szín adja ki szinte az egész képet. Koppints egyre, és megmutatja, hol rejtőzik.",
+     "swatches": [
+      {
+       "name": "A sötét háttér",
+       "text": "A felület több mint fele. Egykor mélyzöld függöny volt, ma szinte fekete."
+      },
+      {
+       "name": "Ultramarin",
+       "text": "A lazúrkő kékje. Alig foglal helyet, mégis csak őt látjuk."
+      },
+      {
+       "name": "Barna okker",
+       "text": "A kabátka és a sárga kendő árnyékai: meleg, olcsó földszín."
+      },
+      {
+       "name": "A bőr rózsaszíne",
+       "text": "A kép legvilágosabb része. A szemünk először ide téved."
+      },
+      {
+       "name": "Sárga",
+       "text": "A kabátkán és a turbánról lehulló kendőn. Felel a kéknek."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1994-ben restaurálták a képet. Egy megsárgult lakkréteg alatt a restaurátorok frissebb színeket találtak, és azt az apró fénypontot az ajak szegletében, amelyet addigra már senki sem látott."
+    },
+    {
+     "type": "text",
+     "text": "És a háttér? Ma laposnak és feketének tűnik. A tudományos vizsgálatok kimutatták, hogy Vermeer sötétzöld függönyt festett oda. A zöld pigmentek idővel lebomlottak."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer szignálta ezt a képet. De hol? Nézd meg alaposan, szinte láthatatlan.",
+     "spots": [
+      {
+       "title": "A szignó",
+       "text": "„IVMeer”, bal fent. Világos tónussal festette a sötét háttérre, és az idők során szinte teljesen elhalványult."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Gyöngy-e egyáltalán a gyöngy? Hatalmas. Egyes szakértők szerint lakkozott üveg vagy csiszolt ón lehetett. Végül is mindegy: a festményen egy csepp fény, és Vermeer csak ennyit akart."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer nem tárgyakat fest, hanem a fényt, amely rájuk esik. A gyöngy két fehér ecsetérintés."
+    },
+    {
+     "type": "text",
+     "text": "Vermeertől mindössze 37 körüli festményt ismerünk. Halála után csaknem két évszázadra szinte elfelejtették."
+    },
+    {
+     "type": "fact",
+     "text": "1881-ben egy gyűjtő két guldenért, szinte fillérekért vette meg a képet egy árverésen. 1902-ben a Mauritshuis múzeumra hagyta."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "A tekintet",
+       "text": "Úgy fordul feléd, mintha épp a nevén szólítottad volna. Egyetlen fehér pötty mindkét szemben, és a tekintet nedves, élő lesz."
+      },
+      {
+       "title": "A száj",
+       "text": "Kissé nyitva, mintha mondat közben volna. Nézd az apró fénypontot az ajka szegletében: egyetlen ecsetérintés, és a száj csillogni kezd."
+      },
+      {
+       "title": "A gyöngy",
+       "text": "Két vonás, nem több: fent egy fehér csillanás, lent a gallér szürke tükröződése. Se körvonal, se akasztó. A gyöngyöt a szemed rakja össze."
+      },
+      {
+       "title": "A kék turbán",
+       "text": "Valódi ultramarin, lazúrkőből, amelyet egészen Afganisztánból hoztak. Akkoriban ez a pigment drágább volt az aranynál."
+      },
+      {
+       "title": "A sárga kendő",
+       "text": "A sárga kendő lángként hull alá a hátán. Kék és sárga: Vermeer imádta ezt a párost, és képről képre visszatért hozzá."
+      },
+      {
+       "title": "A fehér gallér",
+       "text": "Egyetlen mozdulattal felvitt fehér sáv. Ez a gallér tükröződik a gyöngy alján."
+      },
+      {
+       "title": "A szignó",
+       "text": "„IVMeer”, bal fent. Világos tónussal festette a sötét háttérre, és az idők során szinte teljesen elhalványult."
+      },
+      {
+       "title": "A háttér",
+       "text": "Nem mindig volt fekete. A vizsgálatok szerint Vermeer sötétzöld függönyt festett ide. A zöld az évszázadok alatt eltűnt."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mi az a „tronie”?",
+     "options": [
+      "Megrendelésre készült portré",
+      "Egy elképzelt arc tanulmánya",
+      "Önarckép"
+     ],
+     "explanation": "Ürügy egy arckifejezés és egy fény megfestésére, nem valódi ember."
+    },
+    {
+     "question": "Honnan származik a turbán kékje?",
+     "options": [
+      "Egy növényből, az indigóból",
+      "Egy kőből, a lazúrkőből",
+      "Egy kagylóból"
+     ],
+     "explanation": "Az őrölt lazúrkőből lesz a valódi ultramarin, amely akkoriban drágább volt az aranynál."
+    },
+    {
+     "question": "Hogyan festette meg a gyöngyöt?",
+     "options": [
+      "Pontos körvonallal és akasztóval",
+      "Két világos ecsetérintéssel, körvonal nélkül",
+      "Ezüstfüsttel"
+     ],
+     "explanation": "Egy fehér csillanás, egy szürke tükröződés: a többit a szemed végzi."
+    },
+    {
+     "question": "Honnan érkezik a fény?",
+     "options": [
+      "Balról",
+      "Jobbról",
+      "Alulról"
+     ],
+     "explanation": "Bal felülről, mintha egy nem látható ablakon át."
+    },
+    {
+     "question": "Mi volt eredetileg a háttérben?",
+     "options": [
+      "Sötétzöld függöny",
+      "Egy ablak",
+      "Aranyozott fal"
+     ],
+     "explanation": "A zöld pigmentek az évszázadok alatt lebomlottak."
+    },
+    {
+     "question": "Hol töltötte Vermeer az egész életét?",
+     "options": [
+      "Amszterdamban",
+      "Delftben",
+      "Hágában"
+     ],
+     "explanation": "A kis Delft városában élt és dolgozott."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Tudjuk, hogy hívták a lányt, aki modellt ült.",
+     "explanation": "Kiléte ismeretlen: a kép egy tronie."
+    },
+    {
+     "text": "A turbán kékje egy kőből, a lazúrkőből származik.",
+     "explanation": "Megőrölve adja a valódi ultramarint."
+    },
+    {
+     "text": "A gyöngyöt gondos, részletes körvonallal festette meg.",
+     "explanation": "Csupán két világos ecsetérintés, mindenféle körvonal nélkül."
+    }
+   ]
+  },
+  "vague": {
+   "title": "A kanagavai nagy hullám",
+   "artist": "Katsushika Hokuszai",
+   "yearLabel": "kb. 1831",
+   "museum": "Fametszet · számos levonat",
+   "teaser": "Óriási hullám, a háttérben pedig, egészen aprón, a Fudzsi.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ez nem festmény, hanem nyomat: fatáblákba vésett kép, amelyet befestékeztek, majd papírra nyomtak. Vagyis nem egy Nagy hullám létezik, hanem ezernyi."
+    },
+    {
+     "type": "text",
+     "text": "Hokuszai 1831 körül adta ki. Nagyjából 70 éves volt, és gyerekkora óta rajzolt. A kép egy később híressé vált sorozatot nyit meg: A Fudzsi harminchat látképét."
+    },
+    {
+     "type": "key",
+     "text": "A Nagy hullám fametszet, ezernyi példányban készült. A világ számos múzeumában van belőle egy."
+    },
+    {
+     "type": "fact",
+     "text": "Egy ilyen nyomat olcsó volt. Hokuszai idejében nagyjából annyiba került, mint egy tál tészta."
+    },
+    {
+     "type": "find",
+     "text": "A sorozat címe A Fudzsi harminchat látképe. Akkor hol van a Fudzsi?",
+     "spots": [
+      {
+       "title": "A Fudzsi",
+       "text": "Itt van a nyomat igazi témája, egészen aprón. Japán szent hegye, hósapkával, tökéletes nyugalomban a vihar közepén."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ez a zseniális húzás: Japán legmagasabb hegye kisebb a hullámnál. Hokuszai a távolsággal játszik. A közeli eltörpíti a távolit, akár egy nagylátószögű fényképen."
+    },
+    {
+     "type": "text",
+     "text": "A Fudzsi szent hegy volt. Úgy tartották, a halhatatlanság titkát őrzi. Hokuszai megszállottja volt, minden szögből és mindenféle időjárásban lerajzolta."
+    },
+    {
+     "type": "tour",
+     "text": "Járjuk be a képet úgy, ahogy a szem teszi.",
+     "spots": [
+      {
+       "title": "A tajték",
+       "text": "Nézd a hullám csúcsát: a tajték kampós ujjakban végződik, mint a karmok, amelyek mindjárt összezárulnak a csónakok fölött."
+      },
+      {
+       "title": "Az evezősök",
+       "text": "Evezőjük fölé görnyedő, lehajtott fejű halászok. Ezek a gyors csónakok friss halat vittek Edóba, abba a városba, amelyet ma Tokiónak hívunk."
+      },
+      {
+       "title": "A kis hullám",
+       "text": "Az előtérben egy kisebb hullám. Nézd meg a formáját: hegyes, a teteje fehér. Ez egy második Fudzsi."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Japánban jobbról balra olvasnak. A szem tehát jobbról lép be a képbe, a csónakokkal, és egyenesen a hullámnak fut. A japán néző számára a hullám szemből zúdul rá."
+    },
+    {
+     "type": "fact",
+     "text": "Hokuszai élete során több mint harmincszor változtatta meg a nevét. Egyik utolsó neve azt jelentette: „A rajzolásba bolondult öregember”."
+    },
+    {
+     "type": "lines",
+     "text": "Egyszerű kép, milliméterre kiszámítva.",
+     "lines": [
+      {
+       "label": "Az ív",
+       "text": "A hullám hatalmas, önmagába záruló ívet rajzol. A kép teljes bal fele ebbe zárul be."
+      },
+      {
+       "label": "A Fudzsi háromszöge",
+       "text": "Kicsi, stabil, hegyes. Pontosan a hullám öblében ül."
+      },
+      {
+       "label": "A hasonmása",
+       "text": "Az előtér kis hulláma megismétli a hegy formáját. A víz a követ utánozza."
+      },
+      {
+       "label": "Az olvasás iránya",
+       "text": "Jobbról balra: a hullámzáson végigsiklunk a Fudzsiig, aztán felnézünk a hullámra."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Hogyan készült? Hokuszai vékony papírra rajzolta a képet. Egy metsző a rajzot cseresznyefa táblára ragasztotta, és mindent kivésett, ami nem volt vonal. Aztán a nyomtató befestékezte a táblát, és rányomta a papírt."
+    },
+    {
+     "type": "text",
+     "text": "Minden színhez külön metszett tábla kellett, ezeket egymás után nyomták ugyanarra a lapra. Ezért van olyan kevés szín a nyomatokon."
+    },
+    {
+     "type": "key",
+     "text": "Színenként egy fatábla: minél kevesebb a szín, annál egyszerűbb a nyomat. Hokuszai ebből a korlátból stílust teremt."
+    },
+    {
+     "type": "palette",
+     "text": "Nagyon kevés szín, mert mindegyikhez külön metszett tábla kell. Koppints egyre.",
+     "swatches": [
+      {
+       "name": "A papír",
+       "text": "A leggyakoribb színt egyáltalán nem nyomták: ez a csupasz papír, amelyet üresen hagytak a tajtéknak és a hónak."
+      },
+      {
+       "name": "Berlini kék",
+       "text": "Az Európából jött kék. Ez rajzolja meg a hullámot, a csíkjait és az öbleit."
+      },
+      {
+       "name": "Világoskék",
+       "text": "Ugyanaz a kék, hígítva. Ez adja a víz tömegét."
+      },
+      {
+       "name": "A színezett ég",
+       "text": "Alig sötétebb bézs a papírnál, ettől válik ki a fehér tajték."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Erről a kékről még egy szót. Ez a berlini kék, Európában feltalált vegyi pigment, amelyet akkoriban kezdtek behozni Japánba. Mély, nem fakul, és szenzációt keltett. A sorozat sikerét nagyrészt neki köszönheti."
+    },
+    {
+     "type": "find",
+     "text": "Hokuszai szignálta a képét. Hol? Segítek: nem a jobb alsó sarokban.",
+     "spots": [
+      {
+       "title": "A kartus",
+       "text": "A keretben a sorozat és a kép címe áll: „A kanagavai hullám alatt”. Tőle balra Hokuszai szignója."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Az 1850-es években Japán megnyílt a kereskedelem előtt, és nyomatai eljutottak Európába. A francia festők elámultak: egyszínű foltok, éles körvonalak, merész képkivágások. Monet gyűjtötte őket. Van Gogh lemásolta őket."
+    },
+    {
+     "type": "key",
+     "text": "Ezt a lázat japonizmusnak hívják. A japán nyomatok nélkül az impresszionizmus nem így nézne ki."
+    },
+    {
+     "type": "text",
+     "text": "Még egy utolsó dolog: ez nem cunami. A nyílt tenger hulláma, hatalmas, de hétköznapi, amilyentől a halászok rettegtek. Hokuszai nem katasztrófát ábrázol, hanem apró embereket a természettel szemben."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "A Fudzsi",
+       "text": "Itt van a nyomat igazi témája, egészen aprón. Japán szent hegye, hósapkával, tökéletes nyugalomban a vihar közepén."
+      },
+      {
+       "title": "A tajték",
+       "text": "Nézd a hullám csúcsát: a tajték kampós ujjakban végződik, mint a karmok, amelyek mindjárt összezárulnak a csónakok fölött."
+      },
+      {
+       "title": "Az evezősök",
+       "text": "Evezőjük fölé görnyedő, lehajtott fejű halászok. Ezek a gyors csónakok friss halat vittek Edóba, abba a városba, amelyet ma Tokiónak hívunk."
+      },
+      {
+       "title": "A kis hullám",
+       "text": "Az előtérben egy kisebb hullám. Nézd meg a formáját: hegyes, a teteje fehér. Ez egy második Fudzsi."
+      },
+      {
+       "title": "A kartus",
+       "text": "A keretben a sorozat és a kép címe áll: „A kanagavai hullám alatt”. Tőle balra Hokuszai szignója."
+      },
+      {
+       "title": "Az alsó csónak",
+       "text": "A hullámvölgybe bukik alá. Összesen három csónak van a képen, és nagyjából harminc ember."
+      },
+      {
+       "title": "Az ég",
+       "text": "Szinte üres. Egyszerű színátmenet: nyomtatás előtt letörölték a festéket a fatábláról."
+      },
+      {
+       "title": "A permet",
+       "text": "Fehér pöttyök hullanak a Fudzsi fölött. Olyanok, mintha hó esne a hegyre."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Mi A kanagavai nagy hullám?",
+     "options": [
+      "Olajfestmény",
+      "Fametszet",
+      "Akvarell"
+     ],
+     "explanation": "Nyomat, amely ezernyi példányban készült."
+    },
+    {
+     "question": "Melyik sorozathoz tartozik?",
+     "options": [
+      "Edo száz híres látképe",
+      "A Fudzsi harminchat látképe",
+      "A négy évszak"
+     ],
+     "explanation": "Ez nyitja meg Hokuszai Fudzsi-sorozatát."
+    },
+    {
+     "question": "Honnan származik a hullám kékje?",
+     "options": [
+      "Lazúrkőből",
+      "Berlini kék, Európából behozva",
+      "Őrölt kagylóhéjból"
+     ],
+     "explanation": "Japánban új vegyi pigment volt, mély és tartós."
+    },
+    {
+     "question": "Milyen formát ismétel meg az előtér kis hulláma?",
+     "options": [
+      "A Fudzsiét",
+      "Egy csónakét",
+      "Egy felhőét"
+     ],
+     "explanation": "A víz a hegyet utánozza."
+    },
+    {
+     "question": "Miért olyan kevés szín van a nyomatokon?",
+     "options": [
+      "A színeket betiltották",
+      "Minden színhez külön metszett tábla kell",
+      "A papír nem tartotta meg a festéket"
+     ],
+     "explanation": "Színenként egy tábla, egymás után nyomva."
+    },
+    {
+     "question": "Hogy hívják a japán nyomatok iránti európai lázat?",
+     "options": [
+      "Japonizmus",
+      "Orientalizmus",
+      "Kubizmus"
+     ],
+     "explanation": "Monet gyűjtötte a nyomatokat, Van Gogh lemásolta őket."
+    }
+   ],
+   "facts": [
+    {
+     "text": "A Nagy hullámból csak egyetlen példány létezik.",
+     "explanation": "Nyomat: ezernyi példány készült belőle."
+    },
+    {
+     "text": "Hokuszai nagyjából 70 éves volt, amikor elkészítette.",
+     "explanation": "1760-ban született, a sorozat 1831 körül jelent meg."
+    },
+    {
+     "text": "A Nagy hullám cunamit ábrázol.",
+     "explanation": "A nyílt tenger nagy hulláma, nem cunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Vízililiomok",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Chicagói Művészeti Intézet",
+   "teaser": "Nincs többé horizont: csak víz, virágok és a bennük tükröződő ég.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Giverny-ben Monet tavat ásatott a kertjébe, és vízililiomokat ültetett bele. Ez a tó lett a témája csaknem harminc évre."
+    },
+    {
+     "type": "image",
+     "caption": "Részlet · a vízen nyugvó virágok."
+    },
+    {
+     "type": "text",
+     "text": "Nézd meg közelről: nincs part, és nincs horizont. Már nem tudod megmondani, hol ér véget a víz, és hol kezdődik az ég tükörképe."
+    },
+    {
+     "type": "key",
+     "text": "Horizont nélkül a festmény felületté válik: úgy nézzük a vizet, ahogy az eget néznénk."
+    },
+    {
+     "type": "fact",
+     "text": "Monet kertészeket fogadott a tó gondozására. Egyikük minden reggel megtisztította a víz felszínét, mielőtt a festő munkához látott."
+    },
+    {
+     "type": "text",
+     "text": "Monet mintegy 250 vásznat festett a vízililiomokról. Mindig ugyanazok a virágok, de sosem ugyanaz a fény."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Hol festette Monet a vízililiomait?",
+     "options": [
+      "Giverny-ben",
+      "Párizsban",
+      "Velencében"
+     ],
+     "explanation": "A saját háza kertjében."
+    },
+    {
+     "question": "Mi hiányzik erről a festményről?",
+     "options": [
+      "A víz",
+      "A horizont",
+      "A virágok"
+     ],
+     "explanation": "Se part, se ég: csak a víz felszíne."
+    },
+    {
+     "question": "Hány vízililiomos képet festett?",
+     "options": [
+      "Körülbelül tízet",
+      "Mintegy 250-et",
+      "Több mint 2000-et"
+     ],
+     "explanation": "Hatalmas sorozat, csaknem harminc év alatt."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet csak egyszer festette meg a vízililiomait.",
+     "explanation": "Mintegy 250 változatot festett."
+    },
+    {
+     "text": "A vízililiomos tó Monet saját kertjében volt.",
+     "explanation": "Giverny-ben, ahol ő maga ásatta."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impresszió, napfelkelte",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Marmottan Monet Múzeum, Párizs",
+   "teaser": "A kép, amely tréfából nevet adott egy egész irányzatnak.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Le Havre kikötője egy ködös reggelen. Monet néhány gyors ecsetvonást tesz a vászonra: csónakok, árbocok és egy narancssárga nap."
+    },
+    {
+     "type": "image",
+     "caption": "Részlet · a nap és a tükörképe."
+    },
+    {
+     "type": "text",
+     "text": "1874-ben Párizsban kiállították a vásznat. Egy kritikus, Louis Leroy kigúnyolta a címét, és „impresszionistáknak” csúfolta ezeket a festőket."
+    },
+    {
+     "type": "key",
+     "text": "Az „impresszionizmus” szó ettől a képtől ered. Sértésnek indult, és név lett belőle."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre-ban nőtt fel Monet. Kamaszként a karikatúráiról ismerték a városban."
+    },
+    {
+     "type": "text",
+     "text": "A képet 1985-ben ráadásul el is lopták a Marmottan múzeumból. Öt évvel később került elő."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Melyik kikötőt festette meg Monet?",
+     "options": [
+      "Marseille-t",
+      "Le Havre-t",
+      "Velencét"
+     ],
+     "explanation": "A várost, ahol felnőtt."
+    },
+    {
+     "question": "Minek adott nevet ez a festmény?",
+     "options": [
+      "Az impresszionizmusnak",
+      "Egy múzeumnak",
+      "Egy díjnak"
+     ],
+     "explanation": "Egy kritikus kigúnyolta a címét, és a szó rajta ragadt."
+    },
+    {
+     "question": "Melyik évben állították ki Párizsban?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Abban az évben gúnyolta ki egy kritikus, Louis Leroy."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Az „impresszionista” szó sértésként indult.",
+     "explanation": "Louis Leroy kritikus egyik cikkéből ered."
+    },
+    {
+     "text": "Ez a festmény Marseille kikötőjét ábrázolja.",
+     "explanation": "Le Havre kikötőjét ábrázolja."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "A csók",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Bécs",
+   "teaser": "Két szerelmes aranyba burkolózva, egy virágos rét szélén.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt „aranykorszakának” csúcsán jár. Valódi aranyfüstöt visz fel a vászonra, mint egy ikonra."
+    },
+    {
+     "type": "image",
+     "caption": "Részlet · a két arc."
+    },
+    {
+     "type": "text",
+     "text": "Nézd meg a ruhákat. A férfiét fekete és fehér téglalapok borítják, a nőét körök és virágok."
+    },
+    {
+     "type": "image",
+     "caption": "Részlet · téglalapok és körök."
+    },
+    {
+     "type": "key",
+     "text": "Téglalapok neki, körök a nőnek: a minták mesélik el a pár történetét."
+    },
+    {
+     "type": "fact",
+     "text": "Klimt apja aranyvésnök volt. A festő abban a fémben nőtt fel, amelyet később a vásznaira tett."
+    },
+    {
+     "type": "text",
+     "text": "Az osztrák állam 1908-ban megvásárolta a képet, még mielőtt teljesen elkészült volna."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Milyen anyagot használt Klimt?",
+     "options": [
+      "Gyöngyházat",
+      "Aranyfüstöt",
+      "Bronzot"
+     ],
+     "explanation": "Ez az aranykorszakának ismertetőjegye."
+    },
+    {
+     "question": "Milyen minták borítják a férfi ruháját?",
+     "options": [
+      "Körök",
+      "Virágok",
+      "Téglalapok"
+     ],
+     "explanation": "A körök és a virágok a nőé."
+    },
+    {
+     "question": "Ki vásárolta meg a képet 1908-ban?",
+     "options": [
+      "Az osztrák állam",
+      "Egy francia gyűjtő",
+      "Klimt apja"
+     ],
+     "explanation": "Még mielőtt teljesen elkészült volna."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt valódi aranyfüstöt használt.",
+     "explanation": "Ahogy aranykorszakának több vásznán is."
+    },
+    {
+     "text": "A csók Párizsban látható.",
+     "explanation": "Bécsben van, a Belvederében."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Napraforgók",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, London",
+   "teaser": "Sárga a sárgán: egy csokor, amellyel egy barátot akart fogadni.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "1888 augusztusa, Arles. Van Gogh a barátját, Paul Gauguint várja, és napraforgókkal akarja feldíszíteni a szobáját."
+    },
+    {
+     "type": "image",
+     "caption": "Részlet · virágok minden életszakaszban."
+    },
+    {
+     "type": "text",
+     "text": "Meri szinte egyetlen színnel megoldani: sárga virágok, sárga váza, sárga háttér. Minden az árnyalatokon és a festék vastagságán múlik."
+    },
+    {
+     "type": "key",
+     "text": "Szinte egyszínű festmény: a sárga minden alakjában."
+    },
+    {
+     "type": "fact",
+     "text": "A napraforgó gyorsan hervad. Van Goghnak sietnie kellett, napkeltekor kezdett, mielőtt a virágok lekonyultak volna."
+    },
+    {
+     "type": "text",
+     "text": "Ezekből a napraforgókból több változat is van. Egyes virágok még bimbók, mások már elhervadtak: a csokor az idő múlásáról is mesél."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kinek a szobáját díszítették volna a napraforgók?",
+     "options": [
+      "Paul Gauguinét",
+      "Claude Monet-ét",
+      "Az öccséét, Theóét"
+     ],
+     "explanation": "Van Gogh Arles-ban várta őt."
+    },
+    {
+     "question": "Melyik városban festette őket?",
+     "options": [
+      "Párizsban",
+      "Arles-ban",
+      "Amszterdamban"
+     ],
+     "explanation": "Dél-Franciaországban, 1888 augusztusában."
+    },
+    {
+     "question": "Mi szokatlan a színekben?",
+     "options": [
+      "Szinte minden sárga",
+      "Egyáltalán nincs benne sárga",
+      "Fekete-fehér"
+     ],
+     "explanation": "Sárga virágok, sárga váza, sárga háttér."
+    }
+   ],
+   "facts": [
+    {
+     "text": "A Napraforgóknak több változata is létezik.",
+     "explanation": "Van Gogh egész sorozatot festett belőlük."
+    },
+    {
+     "text": "Van Gogh még életében vagyonokért adta el a Napraforgókat.",
+     "explanation": "Életében szinte semmit sem adott el."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "kb. 1503–1519",
+   "museum": "Louvre, Párizs",
+   "teaser": "A világ leghíresebb mosolya láthatatlan körvonalakon múlik.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ez a világ leghíresebb festménye, és kicsi: 77 × 53 centiméter, nyárfa táblára festve. A Louvre látogatói közül sokan meglepődnek a méretén."
+    },
+    {
+     "type": "text",
+     "text": "1503 körül Firenzében egy selyemkereskedő, Francesco del Giocondo megkérte Leonardo da Vincit, hogy fesse meg a feleségét, Lisa Gherardinit."
+    },
+    {
+     "type": "key",
+     "text": "A Mona Lisa Lisa Gherardini, egy firenzei kereskedő feleségének portréja. A „Mona” egyszerűen annyit jelent: „asszony”."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo nem csak festő volt. Mérnök, anatómus és feltaláló is, és több ezer jegyzetfüzetlapot hagyott hátra, tükörírással teleírva."
+    },
+    {
+     "type": "tour",
+     "text": "Nézd meg egészében. Aztán menj közelebb ahhoz, ami legendává tette.",
+     "spots": [
+      {
+       "title": "A mosoly",
+       "text": "Keresd a vonalat, amely az ajkakat rajzolja: nincs ilyen. A szájzug beleolvad az árnyékba. Ezért tűnik úgy, mintha a mosoly változna."
+      },
+      {
+       "title": "A szemek",
+       "text": "Ugyanaz a trükk: a szemzugok is beleolvadnak az árnyékba. Figyeld meg azt is, hogy nincs se szemöldöke, se szempillája."
+      },
+      {
+       "title": "A kezek",
+       "text": "Egymáson nyugszanak, lazán. Leonardo holttesteket boncolt, hogy megértse a csontokat és az izmokat: ezeknek a kezeknek súlyuk van."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ennek az elmosódásnak neve van: sfumato, az olasz „fumo”, azaz füst szóból. Leonardo több tucat nagyon vékony, szinte áttetsző festékréteget visz fel egymásra. A körvonalak eltűnnek, a formák egymásba olvadnak."
+    },
+    {
+     "type": "key",
+     "text": "A sfumato lágy, füstös körvonalakat jelent. Ettől megfoghatatlan a mosoly."
+    },
+    {
+     "type": "text",
+     "text": "Próbáld ki magad. Nézz a szemébe, és a száj mosolyogni látszik. Nézz egyenesen a szájára, és a mosoly elhalványul. A szájzugok árnyékai végzik a munkát."
+    },
+    {
+     "type": "find",
+     "text": "Valami hiányzik erről az arcról. Koppints oda, ahol lennie kellene.",
+     "spots": [
+      {
+       "title": "A szemöldök",
+       "text": "Nincs se szemöldöke, se szempillája. A kor divatja volt, vagy a régi tisztítások koptatták le a festéket? A szakértők máig vitatkoznak róla."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Most nézd a pózt. Leonardo előtt a portrékat többnyire profilból festették, vagy mellmagasságban vágták el. Ő derékig mutatja az alakot, háromnegyed nézetben felénk fordulva, a kezekkel együtt."
+    },
+    {
+     "type": "fact",
+     "text": "A fiatal Raffaello meglátta a portrét Leonardo műhelyében, és rögtön átvette a pózt a saját műveiben."
+    },
+    {
+     "type": "lines",
+     "text": "Nyugodt póz, különös táj. Nézd meg, hogyan épül fel az egész.",
+     "lines": [
+      {
+       "label": "A piramis",
+       "text": "Fent a fej, alul a karok és a kezek. Széles, stabil forma: nem mozdul, szilárdan ül."
+      },
+      {
+       "label": "A bal oldali horizont",
+       "text": "Bal oldalon a táj vízszintje nagyjából itt húzódik."
+      },
+      {
+       "label": "A jobb oldali horizont",
+       "text": "Jobb oldalon magasabban van. A táj két fele nem illeszkedik egymáshoz, és a kép különössége részben ebből fakad."
+      },
+      {
+       "label": "Az ösvény",
+       "text": "Kanyargó vonal, amely a messzeségbe vezeti a szemet, akárcsak a jobb oldali folyók."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A táj nem valódi hely. Sziklákból, vízből és ködből álló álomvilág, házak és emberek nélkül. Egyetlen dolgot építettek benne emberi kezek."
+    },
+    {
+     "type": "find",
+     "text": "Ebben az üres tájban egyetlen ember alkotta építmény van. Hol a híd?",
+     "spots": [
+      {
+       "title": "A híd",
+       "text": "Kis kőhíd, több ívvel. Ez az emberi jelenlét egyetlen nyoma az egész tájban."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A háttér egy szabályt követ, amelyet Leonardo maga jegyzett le: a légperspektívát. A levegő nem tökéletesen átlátszó. Minél messzebb van valami, annál kékebbnek, halványabbnak és párásabbnak látszik."
+    },
+    {
+     "type": "key",
+     "text": "Légperspektíva: a távoli dolgok kékebbnek, halványabbnak és elmosódottabbnak látszanak. Leonardo az elsők között festette meg tudatosan."
+    },
+    {
+     "type": "palette",
+     "text": "Barnák, zöldek, egy kevés arany. A régi lakk mindent megsárgított. Koppints egy színre.",
+     "swatches": [
+      {
+       "name": "Az árnyékok",
+       "text": "A ruha, a haj, a fátyol. A kép csaknem fele félhomályban van."
+      },
+      {
+       "name": "A bőr",
+       "text": "Az arc, a mellkas, a kezek: a három világos folt háromszöget alkot."
+      },
+      {
+       "name": "Szürkészöld ég",
+       "text": "Eredetileg kékebb volt. A megsárgult lakk a zöld felé tolta."
+      },
+      {
+       "name": "Barna föld",
+       "text": "A táj sziklái és ösvényei, a vállai két oldalán."
+      },
+      {
+       "name": "Zöld messzeség",
+       "text": "A víz és a hegyek, a távolság tompítja őket."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo sosem adta át a képet. Megtartotta, éveken át dolgozott rajta, és magával vitte Franciaországba, amikor I. Ferenc király meghívta. Amikor 1519-ben meghalt, a portré a királyi gyűjteménybe került. Ezért van a Louvre-ban."
+    },
+    {
+     "type": "text",
+     "text": "Sokáig csak egy volt a remekművek közül. Világhírét egy bűntettnek köszönheti: 1911. augusztus 21-én egy olasz munkás, Vincenzo Peruggia leakasztotta a falról, és a köpenye alatt kisétált vele."
+    },
+    {
+     "type": "fact",
+     "text": "Amíg a kép eltűnt, tömegek álltak sorba a Louvre-ban, csak hogy megnézzék az üres helyet a falon."
+    },
+    {
+     "type": "text",
+     "text": "A világ minden táján közölték a képét az újságok. Amikor 1913-ban Firenzében előkerült, a Mona Lisa már nem csak egy festmény volt. Sztár lett."
+    },
+    {
+     "type": "key",
+     "text": "A Mona Lisa a zsenialitását Leonardónak köszönheti, a hírnevét egy lopásnak."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "A mosoly",
+       "text": "Keresd a vonalat, amely az ajkakat rajzolja: nincs ilyen. A szájzug beleolvad az árnyékba. Ezért tűnik úgy, mintha a mosoly változna."
+      },
+      {
+       "title": "A szemek",
+       "text": "Ugyanaz a trükk: a szemzugok is beleolvadnak az árnyékba. Figyeld meg azt is, hogy nincs se szemöldöke, se szempillája."
+      },
+      {
+       "title": "A kezek",
+       "text": "Egymáson nyugszanak, lazán. Leonardo holttesteket boncolt, hogy megértse a csontokat és az izmokat: ezeknek a kezeknek súlyuk van."
+      },
+      {
+       "title": "A híd",
+       "text": "Kis kőhíd, több ívvel. Ez az emberi jelenlét egyetlen nyoma az egész tájban."
+      },
+      {
+       "title": "Az ösvény",
+       "text": "Egy tó felé kanyargó ösvény. A táj nem valódi hely: Leonardo a sziklákról és a vízről készített tanulmányaiból találja ki."
+      },
+      {
+       "title": "A fátyol",
+       "text": "Áttetsző fátyol borítja a haját. Olyan finom, hogy a homlokán alig lehet kivenni."
+      },
+      {
+       "title": "A messzeség",
+       "text": "Minél messzebb vannak a hegyek, annál kékebbek és párásabbak. Leonardo észrevette, hogy magának a levegőnek is színe van."
+      },
+      {
+       "title": "A ruhaujj",
+       "text": "Sűrű, aranyos redők, egyenként megfestve. A ruha sötét, és semmilyen ékszert nem visel: semmi sem vonhatja el a figyelmet az arcról."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Ki a nő a portrén?",
+     "options": [
+      "Egy francia királyné",
+      "Lisa Gherardini, egy firenzei kereskedő felesége",
+      "Leonardo anyja"
+     ],
+     "explanation": "A férje, Francesco del Giocondo rendelte meg a portrét."
+    },
+    {
+     "question": "Hogy hívják a lágy, füstös körvonalak technikáját?",
+     "options": [
+      "Impasztó",
+      "Sfumato",
+      "Pointillizmus"
+     ],
+     "explanation": "Az olasz „fumo”, azaz füst szóból."
+    },
+    {
+     "question": "Mire festették a Mona Lisát?",
+     "options": [
+      "Lenvászonra",
+      "Nyárfa táblára",
+      "Vakolt falra"
+     ],
+     "explanation": "Egy 77 × 53 centiméteres nyárfa táblára."
+    },
+    {
+     "question": "Mi történik a távoli dolgokkal?",
+     "options": [
+      "Élénkebbek lesznek",
+      "Kékebbek, halványabbak és párásabbak lesznek",
+      "Élesebbek lesznek a körvonalaik"
+     ],
+     "explanation": "Ez a légperspektíva."
+    },
+    {
+     "question": "Miért van a kép Franciaországban?",
+     "options": [
+      "Napóleon hozta el Itáliából",
+      "Leonardo vitte magával, és a királyi gyűjteménybe került",
+      "A Louvre vásárolta meg 1911-ben"
+     ],
+     "explanation": "Leonardo I. Ferenc király meghívására érkezett Franciaországba."
+    },
+    {
+     "question": "Mitől lett világhírű a Mona Lisa?",
+     "options": [
+      "Az 1911-es lopástól a Louvre-ból",
+      "Egy New York-i kiállítástól",
+      "A restaurálásától"
+     ],
+     "explanation": "Vincenzo Peruggia lopta el, 1913-ban került elő."
+    }
+   ],
+   "facts": [
+    {
+     "text": "A Mona Lisát vászonra festették.",
+     "explanation": "Nyárfa táblára festették."
+    },
+    {
+     "text": "A Mona Lisát 1911-ben ellopták a Louvre-ból.",
+     "explanation": "Két évvel később került elő."
+    },
+    {
+     "text": "A Mona Lisának vastag, sötét szemöldöke van.",
+     "explanation": "Egyáltalán nincs se szemöldöke, se szempillája."
+    }
+   ]
+  }
+ }
+}

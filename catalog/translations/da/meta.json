@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Busten af Nefertiti",
+   "artist": "Thutmose",
+   "year_label": "1345 f.Kr.",
+   "museum": "Neues Museum, Berlin"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Tutankhamons dødsmaske",
+   "artist": "Ukendt (Egypten)",
+   "year_label": "1323 f.Kr.",
+   "museum": "Grand Egyptian Museum, Giza"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Nike fra Samothrake",
+   "artist": "Ukendt (Grækenland)",
+   "year_label": "190 f.Kr.",
+   "museum": "Louvre, Paris"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Venus fra Milo",
+   "artist": "Alexandros fra Antiochia",
+   "year_label": "120 f.Kr.",
+   "museum": "Louvre, Paris"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Begrædelsen (Sorgen over Kristus)",
+   "artist": "Giotto",
+   "year_label": "1305",
+   "museum": "Scrovegni-kapellet, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Très Riches Heures du Duc de Berry: Januar",
+   "artist": "Brødrene Limbourg",
+   "year_label": "1416",
+   "museum": "Musée Condé, Chantilly"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Arnolfinis bryllup",
+   "artist": "Jan van Eyck",
+   "year_label": "1434",
+   "museum": "National Gallery, London"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Nedtagelsen fra korset",
+   "artist": "Rogier van der Weyden",
+   "year_label": "1435",
+   "museum": "Prado, Madrid"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "Lysternes have",
+   "artist": "Hieronymus Bosch",
+   "year_label": "1500",
+   "museum": "Prado, Madrid"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Venus' fødsel",
+   "artist": "Sandro Botticelli",
+   "year_label": "1485",
+   "museum": "Uffizierne, Firenze"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1503",
+   "museum": "Louvre, Paris"
+  },
+  "vinci-the-last-supper": {
+   "title": "Den sidste nadver",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milano"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Den vitruvianske mand",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1490",
+   "museum": "Gallerie dell'Accademia, Venedig"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Adams skabelse",
+   "artist": "Michelangelo",
+   "year_label": "1512",
+   "museum": "Det Sixtinske Kapel, Vatikanstaten"
+  },
+  "michelangelo-david": {
+   "title": "David",
+   "artist": "Michelangelo",
+   "year_label": "1504",
+   "museum": "Galleria dell'Accademia, Firenze"
+  },
+  "michelangelo-pieta": {
+   "title": "Pietà",
+   "artist": "Michelangelo",
+   "year_label": "1499",
+   "museum": "Peterskirken, Vatikanstaten"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Skolen i Athen",
+   "artist": "Rafael",
+   "year_label": "1511",
+   "museum": "Vatikanmuseerne, Vatikanstaten"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Venus fra Urbino",
+   "artist": "Tizian",
+   "year_label": "1538",
+   "museum": "Uffizierne, Firenze"
+  },
+  "durer-young-hare": {
+   "title": "Ung hare",
+   "artist": "Albrecht Dürer",
+   "year_label": "1502",
+   "museum": "Albertina, Wien"
+  },
+  "younger-the-ambassadors": {
+   "title": "Gesandterne",
+   "artist": "Hans Holbein den Yngre",
+   "year_label": "1533",
+   "museum": "National Gallery, London"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Jægerne i sneen",
+   "artist": "Pieter Bruegel den Ældre",
+   "year_label": "1565",
+   "museum": "Kunsthistorisches Museum, Wien"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "Babelstårnet",
+   "artist": "Pieter Bruegel den Ældre",
+   "year_label": "1563",
+   "museum": "Kunsthistorisches Museum, Wien"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Madonna med den lange hals",
+   "artist": "Parmigianino",
+   "year_label": "1540",
+   "museum": "Uffizierne, Firenze"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Grev Orgaz' begravelse",
+   "artist": "El Greco",
+   "year_label": "1586",
+   "museum": "Santo Tomé, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumnus",
+   "artist": "Giuseppe Arcimboldo",
+   "year_label": "1591",
+   "museum": "Skokloster Slot, Sverige"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Matthæus' kaldelse",
+   "artist": "Caravaggio",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Rom"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judith halshugger Holofernes",
+   "artist": "Artemisia Gentileschi",
+   "year_label": "1620",
+   "museum": "Uffizierne, Firenze"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Diego Velázquez",
+   "year_label": "1656",
+   "museum": "Prado, Madrid"
+  },
+  "rubens-the-three-graces": {
+   "title": "De tre gratier",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Prado, Madrid"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apollon og Daphne",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1625",
+   "museum": "Galleria Borghese, Rom"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Den hellige Teresas ekstase",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Rom"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Nattevagten",
+   "artist": "Rembrandt",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Dr. Nicolaes Tulps anatomiske forelæsning",
+   "artist": "Rembrandt",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Haag"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Pige med perleørering",
+   "artist": "Johannes Vermeer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Haag"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "Mælkepigen",
+   "artist": "Johannes Vermeer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "Stillidsen",
+   "artist": "Carel Fabritius",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Haag"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Indskibningen til Kythera",
+   "artist": "Antoine Watteau",
+   "year_label": "1717",
+   "museum": "Louvre, Paris"
+  },
+  "fragonard-the-swing": {
+   "title": "Gyngen",
+   "artist": "Jean-Honoré Fragonard",
+   "year_label": "1767",
+   "museum": "Wallace Collection, London"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Selvportræt med stråhat",
+   "artist": "Élisabeth Vigée Le Brun",
+   "year_label": "1782",
+   "museum": "National Gallery, London"
+  },
+  "david-the-death-of-marat": {
+   "title": "Marats død",
+   "artist": "Jacques-Louis David",
+   "year_label": "1793",
+   "museum": "De Kongelige Museer for Skønne Kunster i Belgien, Bruxelles"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napoleon krydser Alperne",
+   "artist": "Jacques-Louis David",
+   "year_label": "1801",
+   "museum": "Malmaison Slot"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Den store odalisk",
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "year_label": "1814",
+   "museum": "Louvre, Paris"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Psyke vækkes af Amors kys",
+   "artist": "Antonio Canova",
+   "year_label": "1793",
+   "museum": "Louvre, Paris"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "Den 3. maj 1808",
+   "artist": "Francisco Goya",
+   "year_label": "1814",
+   "museum": "Prado, Madrid"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "Friheden fører folket",
+   "artist": "Eugène Delacroix",
+   "year_label": "1830",
+   "museum": "Louvre, Paris"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "Medusas tømmerflåde",
+   "artist": "Théodore Géricault",
+   "year_label": "1819",
+   "museum": "Louvre, Paris"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Vandreren over tågehavet",
+   "artist": "Caspar David Friedrich",
+   "year_label": "1818",
+   "museum": "Hamburger Kunsthalle"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "The Fighting Temeraire",
+   "artist": "J.M.W. Turner",
+   "year_label": "1839",
+   "museum": "National Gallery, London"
+  },
+  "hayez-the-kiss": {
+   "title": "Kysset",
+   "artist": "Francesco Hayez",
+   "year_label": "1859",
+   "museum": "Pinacoteca di Brera, Milano"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "Den store bølge ud for Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Let brise, klar morgen (Det røde Fuji)",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Pludselig regnbyge over Shin-Ōhashi-broen og Atake",
+   "artist": "Utagawa Hiroshige",
+   "year_label": "1857",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Langs floden under Qingming-festivalen",
+   "artist": "Zhang Zeduan",
+   "year_label": "1100",
+   "museum": "Paladsmuseet, Beijing"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Vindguden og tordenguden",
+   "artist": "Tawaraya Sōtatsu",
+   "year_label": "1630",
+   "museum": "Kennin-ji, Kyoto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "Den fortvivlede",
+   "artist": "Gustave Courbet",
+   "year_label": "1845",
+   "museum": "Privatsamling"
+  },
+  "millet-the-gleaners": {
+   "title": "Akssamlerskerne",
+   "artist": "Jean-François Millet",
+   "year_label": "1857",
+   "museum": "Musée d'Orsay, Paris"
+  },
+  "manet-olympia": {
+   "title": "Olympia",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Musée d'Orsay, Paris"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Frokost i det grønne",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Musée d'Orsay, Paris"
+  },
+  "wood-american-gothic": {
+   "title": "American Gothic",
+   "artist": "Grant Wood",
+   "year_label": "1930",
+   "museum": "Art Institute of Chicago"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "John Singer Sargent",
+   "year_label": "1884",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Arrangement i gråt og sort nr. 1 (Whistlers mor)",
+   "artist": "James McNeill Whistler",
+   "year_label": "1871",
+   "museum": "Musée d'Orsay, Paris"
+  },
+  "millais-ophelia": {
+   "title": "Ophelia",
+   "artist": "John Everett Millais",
+   "year_label": "1852",
+   "museum": "Tate Britain, London"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "The Lady of Shalott",
+   "artist": "John William Waterhouse",
+   "year_label": "1888",
+   "museum": "Tate Britain, London"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Venus' fødsel",
+   "artist": "Alexandre Cabanel",
+   "year_label": "1863",
+   "museum": "Musée d'Orsay, Paris"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "Jean-Léon Gérôme",
+   "year_label": "1872",
+   "museum": "Phoenix Art Museum"
+  },
+  "monet-impression-sunrise": {
+   "title": "Impression, solopgang",
+   "artist": "Claude Monet",
+   "year_label": "1872",
+   "museum": "Musée Marmottan Monet, Paris"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Kvinde med parasol: Madame Monet og hendes søn",
+   "artist": "Claude Monet",
+   "year_label": "1875",
+   "museum": "National Gallery of Art, Washington"
+  },
+  "monet-water-lilies": {
+   "title": "Åkander",
+   "artist": "Claude Monet",
+   "year_label": "1906",
+   "museum": "Art Institute of Chicago"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Bal på Moulin de la Galette",
+   "artist": "Pierre-Auguste Renoir",
+   "year_label": "1876",
+   "museum": "Musée d'Orsay, Paris"
+  },
+  "degas-the-dance-class": {
+   "title": "Danseklassen",
+   "artist": "Edgar Degas",
+   "year_label": "1874",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "morisot-the-cradle": {
+   "title": "Vuggen",
+   "artist": "Berthe Morisot",
+   "year_label": "1872",
+   "museum": "Musée d'Orsay, Paris"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Spadseretur på stranden",
+   "artist": "Joaquín Sorolla",
+   "year_label": "1909",
+   "museum": "Museo Sorolla, Madrid"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "En søndag på La Grande Jatte",
+   "artist": "Georges Seurat",
+   "year_label": "1886",
+   "museum": "Art Institute of Chicago"
+  },
+  "gogh-the-starry-night": {
+   "title": "Stjernenat",
+   "artist": "Vincent van Gogh",
+   "year_label": "1889",
+   "museum": "Museum of Modern Art, New York"
+  },
+  "gogh-sunflowers": {
+   "title": "Solsikker",
+   "artist": "Vincent van Gogh",
+   "year_label": "1888",
+   "museum": "National Gallery, London"
+  },
+  "cezanne-the-card-players": {
+   "title": "Kortspillerne",
+   "artist": "Paul Cézanne",
+   "year_label": "1892",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "Hvor kommer vi fra? Hvad er vi? Hvor går vi hen?",
+   "artist": "Paul Gauguin",
+   "year_label": "1897",
+   "museum": "Museum of Fine Arts, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Henri de Toulouse-Lautrec",
+   "year_label": "1891",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Den sovende sigøjnerske",
+   "artist": "Henri Rousseau",
+   "year_label": "1897",
+   "museum": "Museum of Modern Art, New York"
+  },
+  "munch-the-scream": {
+   "title": "Skriget",
+   "artist": "Edvard Munch",
+   "year_label": "1893",
+   "museum": "Nasjonalmuseet, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "Dødeøen",
+   "artist": "Arnold Böcklin",
+   "year_label": "1880",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rodin-the-thinker": {
+   "title": "Tænkeren",
+   "artist": "Auguste Rodin",
+   "year_label": "1904",
+   "museum": "Musée Rodin, Paris"
+  },
+  "klimt-the-kiss": {
+   "title": "Kysset",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Wien"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Portræt af Adele Bloch-Bauer I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, New York"
+  },
+  "matisse-dance": {
+   "title": "Dansen",
+   "artist": "Henri Matisse",
+   "year_label": "1910",
+   "museum": "Eremitagen, Sankt Petersborg"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Kvinde med hat",
+   "artist": "Henri Matisse",
+   "year_label": "1905",
+   "museum": "San Francisco Museum of Modern Art"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "De store blå heste",
+   "artist": "Franz Marc",
+   "year_label": "1911",
+   "museum": "Walker Art Center, Minneapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Liggende nøgen",
+   "artist": "Amedeo Modigliani",
+   "year_label": "1917",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Portræt af Pablo Picasso",
+   "artist": "Juan Gris",
+   "year_label": "1912",
+   "museum": "Art Institute of Chicago"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Eiffeltårnet med træer",
+   "artist": "Robert Delaunay",
+   "year_label": "1910",
+   "museum": "Solomon R. Guggenheim Museum, New York"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Unikke former for kontinuitet i rummet",
+   "artist": "Umberto Boccioni",
+   "year_label": "1913",
+   "museum": "Museum of Modern Art, New York"
+  },
+  "boccioni-the-city-rises": {
+   "title": "Byen rejser sig",
+   "artist": "Umberto Boccioni",
+   "year_label": "1910",
+   "museum": "Museum of Modern Art, New York"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Komposition VIII",
+   "artist": "Wassily Kandinsky",
+   "year_label": "1923",
+   "museum": "Solomon R. Guggenheim Museum, New York"
+  },
+  "malevich-black-square": {
+   "title": "Sort kvadrat",
+   "artist": "Kazimir Malevitj",
+   "year_label": "1915",
+   "museum": "Tretjakovgalleriet, Moskva"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Komposition II i rødt, blåt og gult",
+   "artist": "Piet Mondrian",
+   "year_label": "1930",
+   "museum": "Kunsthaus Zürich"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Klee",
+   "year_label": "1922",
+   "museum": "Kunstmuseum Basel"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Schwitters",
+   "year_label": "1919",
+   "museum": "Staatsgalerie Stuttgart"
+  },
+  "terracotta-army": {
+   "title": "Terrakottahæren",
+   "artist": "Ukendt (Kina)",
+   "year_label": "210 f.Kr.",
+   "museum": "Den første Qin-kejsers mausoleum, Xi'an"
+  },
+  "aztec-sun-stone": {
+   "title": "Aztekernes solsten",
+   "artist": "Ukendt (aztekisk)",
+   "year_label": "1510",
+   "museum": "Museo Nacional de Antropología, Mexico City"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (moai)",
+   "artist": "Ukendt (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "British Museum, London"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Oldtiden",
+   "period": "2600 f.Kr.-300 e.Kr.",
+   "summary": "Guder, herskere og den ideelle krop",
+   "description": "Fra Egypten til Grækenland og Rom hugger kunstnerne herskere, guder og atleter i sten, skabt til at vare evigt. Deres jagt på den ideelle krop blev forbilledet for århundreders vestlig kunst."
+  },
+  "gothic": {
+   "name": "Gotik og førrenæssance",
+   "period": "1280-1430",
+   "summary": "Guldgrund og de første ægte følelser",
+   "description": "I kirker og kapeller maler man stadig på guld, men nu begynder figurerne at græde, vende sig og få tyngde. Kunsten at fortælle i billeder bliver opfundet på ny."
+  },
+  "early_netherlandish": {
+   "name": "Tidlig nederlandsk malerkunst",
+   "period": "1420-1500",
+   "summary": "Oliemaling og blændende detaljer",
+   "description": "I Flandern forfiner malerne oliemaleriet og bruger det til at skildre alt: pelsværk, glas, en tåre, et genskin. De hellige scener flytter ind i stuer, der ligner rigtige hjem."
+  },
+  "renaissance": {
+   "name": "Italiensk renæssance",
+   "period": "1420-1570",
+   "summary": "Perspektivet og antikkens genkomst",
+   "description": "I Italien, og siden i hele Europa, genopdager kunstnerne antikken, studerer menneskekroppen og opfinder perspektivet. Maleriet bliver et vindue ud mod verden."
+  },
+  "northern_renaissance": {
+   "name": "Nordeuropæisk renæssance",
+   "period": "1490-1570",
+   "summary": "Skarpe streger, tryk og sære syner",
+   "description": "Nord for Alperne blander kunstnerne de italienske idéer med kærligheden til detaljen og hverdagen. Grafikken sender deres billeder ud over hele Europa."
+  },
+  "mannerism": {
+   "name": "Manierisme",
+   "period": "1520-1610",
+   "summary": "Elegance strakt til det yderste",
+   "description": "Efter de store mestre bøjer malerne reglerne med vilje: lange kroppe, snoede stillinger, syrlige farver. Selve stilen bliver motivet."
+  },
+  "baroque": {
+   "name": "Barok",
+   "period": "1600-1700",
+   "summary": "Drama, bevægelse og dybe skygger",
+   "description": "Nu vil kunsten gribe sin beskuer. Stærke kontraster mellem lys og mørke, kroppe i bevægelse og teatralsk iscenesættelse trækker dig helt ind i scenen."
+  },
+  "siecledor": {
+   "name": "Hollandsk guldalder",
+   "period": "1600-1700",
+   "summary": "Hverdagsliv og lys",
+   "description": "I den velstående hollandske republik maler kunstnerne til borgerskabets hjem: stille interiører, portrætter, stilleben. Lyset bliver det egentlige motiv."
+  },
+  "rococo": {
+   "name": "Rokoko og 1700-tallet",
+   "period": "1715-1790",
+   "summary": "Lethed, nydelse og pastelfarver",
+   "description": "I 1700-tallets saloner bliver maleriet legende og intimt: havefester, portrætter, bløde farver. Imens kaster enkelte kunstnere et stille blik på det helt almindelige liv."
+  },
+  "neoclassicism": {
+   "name": "Nyklassicisme",
+   "period": "1760-1860",
+   "summary": "Rene linjer og antikke dyder",
+   "description": "Inspireret af ruinerne i Rom og Pompeji vender kunstnerne tilbage til den stramme tegning og de heroiske motiver. Maleriet skal belære lige så meget, som det skal behage."
+  },
+  "romanticism": {
+   "name": "Romantik",
+   "period": "1780-1860",
+   "summary": "Følelse, natur og det sublime",
+   "description": "Følelsen tager over efter fornuften. Storme, ruiner, oprør og ensomme skikkelser udtrykker, hvad kunstneren mærker over for en verden, der er for stor til at beherske."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1680-1860",
+   "summary": "Tryk fra »den flydende verden«",
+   "description": "I Japan viser træsnit, trykt i serier, skuespillere, landskaber og scener fra dagligdagen. De flade farver og dristige beskæringer kom til at ryste de europæiske malere."
+  },
+  "east_asian": {
+   "name": "Kinesisk og japansk maleri",
+   "period": "750-1720",
+   "summary": "Tusch, silke og tomrum",
+   "description": "I Kina og Japan arbejder malerne med pensel og tusch på silke, papir og foldeskærme. Nogle få strøg og masser af tom flade er nok til at antyde et bjerg eller en årstid."
+  },
+  "realism": {
+   "name": "Realisme",
+   "period": "1845-1890",
+   "summary": "Almindelige mennesker, malet som de er",
+   "description": "Malerne vender helte og myter ryggen for at vise bønder, arbejdere og det moderne liv, uden at pynte på noget. At vise sandheden bliver et budskab i sig selv."
+  },
+  "american": {
+   "name": "Amerikansk maleri",
+   "period": "1780-1930",
+   "summary": "Et nyt land ser på sig selv",
+   "description": "Fra portrætter af den unge republik til vidtstrakte landskaber og scener fra storbyen: de amerikanske malere leder efter deres egne motiver og deres eget lys."
+  },
+  "preraphaelite": {
+   "name": "Prærafaelitterne og victoriatiden",
+   "period": "1848-1900",
+   "summary": "Klare farver, sagn og detaljer",
+   "description": "I victoriatidens Storbritannien gør en gruppe unge malere op med akademiets opskrifter. De maler sagn og digte med intense farver og en næsten manisk præcision."
+  },
+  "academic": {
+   "name": "Akademisk kunst",
+   "period": "1830-1900",
+   "summary": "Den polerede kunst fra den officielle Salon",
+   "description": "Uddannet på de store kunstakademier mestrer disse malere anatomi, historie og en fuldkommen glat overflade. De var deres tids stjerner, indtil avantgarden stillede dem i skyggen."
+  },
+  "impressionnisme": {
+   "name": "Impressionisme",
+   "period": "1867-1910",
+   "summary": "At male øjeblikkets lys",
+   "description": "En gruppe malere forlader atelieret for at arbejde udendørs, med hurtige små strøg. De går ikke længere efter detaljen, men efter lysets virkning i et bestemt øjeblik."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpressionisme",
+   "period": "1884-1910",
+   "summary": "Farven, prik for prik",
+   "description": "Malerne tager videnskaben med ind i farven: små prikker af ren maling, sat side om side, blander sig i beskuerens øje. Billedet bygges langsomt op, som en mosaik."
+  },
+  "postimp": {
+   "name": "Postimpressionisme",
+   "period": "1885-1910",
+   "summary": "Farve og følelse først",
+   "description": "Efter impressionismen søger hver kunstner sin egen vej. Farven efterligner ikke længere virkeligheden: den udtrykker, hvad maleren føler."
+  },
+  "symbolism": {
+   "name": "Symbolisme",
+   "period": "1860-1915",
+   "summary": "Drømme, myter og indre verdener",
+   "description": "I stedet for at beskrive den synlige verden antyder disse kunstnere idéer, drømme og angst. Deres billeder skal mærkes, før de bliver forstået."
+  },
+  "secession": {
+   "name": "Art nouveau og Wiener Secession",
+   "period": "1890-1918",
+   "summary": "Guld, ornamenter og buede linjer",
+   "description": "I Wien bryder unge kunstnere med akademiet. De forener maleri, dekoration og kunsthåndværk og gør ornamentet til et sprog i sig selv."
+  },
+  "fauvism": {
+   "name": "Fauvisme",
+   "period": "1904-1917",
+   "summary": "Ren farve, lige fra tuben",
+   "description": "I nogle få eksplosive år bruger malerne voldsomme, unaturlige farver og løse penselstrøg. Kritikerne kaldte dem vilde dyr, og navnet blev hængende."
+  },
+  "expressionism": {
+   "name": "Ekspressionisme",
+   "period": "1903-1925",
+   "summary": "Forvredne former, rå følelser",
+   "description": "Kunstnerne vrider formerne og presser farverne for at udtrykke angst, begær eller oprør. Det afgørende er ikke, hvordan verden ser ud, men hvordan den føles."
+  },
+  "cubism": {
+   "name": "Kubisme",
+   "period": "1909-1925",
+   "summary": "Tingene set fra flere sider på én gang",
+   "description": "Malerne splitter tingene op i facetter og viser dem fra flere vinkler i samme billede. Med ét bliver der sat spørgsmålstegn ved fem århundreders perspektiv."
+  },
+  "futurism": {
+   "name": "Futurisme",
+   "period": "1909-1920",
+   "summary": "Fart, maskiner og den moderne storby",
+   "description": "Italienske kunstnere hylder biler, menneskemængder og elektricitet. De prøver at male selve bevægelsen ved at gentage og splintre formerne."
+  },
+  "abstraction": {
+   "name": "Abstraktion og avantgarde",
+   "period": "1907-1930",
+   "summary": "Maleri uden motiv",
+   "description": "Linjer, former og farver forestiller ikke længere noget: de er billedet. Kunstnerne leder efter et billedsprog, der er lige så umiddelbart som musik."
+  },
+  "dada_surrealism": {
+   "name": "Dada og tidlig surrealisme",
+   "period": "1912-1930",
+   "summary": "Tilfældet, det absurde og drømmene",
+   "description": "Dada fødes af væmmelsen over Første Verdenskrig og gør grin med selve kunsten. Surrealismen følger efter og udforsker drømme, tilfældigheder og det ubevidste."
+  },
+  "world": {
+   "name": "Afrika, Asien og Amerika",
+   "period": "1200 f.Kr.-1600",
+   "summary": "Hellige genstande og hofkunst",
+   "description": "Bronzer, masker, stenkæmper og rituelle genstande fra Afrika, Asien og Amerika. De blev skabt til ceremonier, templer og konger, længe før der fandtes museer."
+  }
+ }
+}

@@ -9,21 +9,21 @@ enum GameKind: String, Identifiable, CaseIterable {
 
     var title: String {
         switch self {
-        case .zoom: return "Mystery Zoom"
-        case .chronology: return "Timeline"
-        case .palette: return "Palette"
-        case .trueFalse: return "True or False"
-        case .training: return "Practice"
+        case .zoom: return L("Mystery Zoom")
+        case .chronology: return L("Timeline")
+        case .palette: return L("Palette")
+        case .trueFalse: return L("True or False")
+        case .training: return L("Practice")
         }
     }
 
     var subtitle: String {
         switch self {
-        case .zoom: return "Guess the artwork from a detail · 1 min"
-        case .chronology: return "Put 4 artworks in date order · 2 min"
-        case .palette: return "Match the painting's colors · 1 min"
-        case .trueFalse: return "Studio stories · 1 min"
-        case .training: return "All four question types, mixed"
+        case .zoom: return L("Guess the artwork from a detail · 1 min")
+        case .chronology: return L("Put 4 artworks in date order · 2 min")
+        case .palette: return L("Match the painting's colors · 1 min")
+        case .trueFalse: return L("Studio stories · 1 min")
+        case .training: return L("All four question types, mixed")
         }
     }
 
@@ -55,7 +55,7 @@ struct GamesView: View {
                     ArtImage(name: "ill_musee", anchor: UnitPoint(x: 0.5, y: 0.1))
                         .frame(height: 160)
                         .clipShape(ArcHeaderShape())
-                    Text("Games")
+                    Text(L("Games"))
                         .font(.figtree(22, .semibold))
                         .foregroundStyle(Palette.ink)
                         .padding(.horizontal, 16)
@@ -71,7 +71,7 @@ struct GamesView: View {
                         TrainingButton { game = .training }
                     }
                     .padding(.vertical, 4)
-                    Text("Or pick a game").font(.aHeading).foregroundStyle(Palette.ink)
+                    Text(L("Or pick a game")).font(.aHeading).foregroundStyle(Palette.ink)
                     ForEach(Array(GameKind.listed.enumerated()), id: \.element.id) { i, kind in
                         gameRow(kind).appearUp(0.06 * Double(i + 1))
                     }
@@ -91,10 +91,10 @@ struct GamesView: View {
     private var weekCard: some View {
         VStack(spacing: 10) {
             HStack {
-                Text(user.streak == 0 ? "Start your streak" : "\(user.streak)-day streak")
+                Text(user.streak == 0 ? L("Start your streak") : L("%@-day streak", "\(user.streak)"))
                     .font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
                 Spacer()
-                Text(user.playedToday ? "Done for today" : "Play today to keep it")
+                Text(user.playedToday ? L("Done for today") : L("Play today to keep it"))
                     .font(.aCaption).foregroundStyle(Palette.muted)
             }
             HStack(spacing: 6) {
@@ -128,7 +128,7 @@ struct GamesView: View {
             HStack(spacing: 14) {
                 ArtImage(name: kind.image).frame(width: 96, height: 96)
                 VStack(alignment: .leading, spacing: 3) {
-                    if kind == daily { TagPill(text: "Daily challenge") }
+                    if kind == daily { TagPill(text: L("Daily challenge")) }
                     Text(kind.title).font(.aCardTitle).foregroundStyle(Palette.ink)
                     Text(kind.subtitle).font(.aCaption).foregroundStyle(Palette.muted)
                         .multilineTextAlignment(.leading)
@@ -159,10 +159,10 @@ struct GameHost: View {
             Palette.bg.ignoresSafeArea()
             if let result {
                 ResultView(
-                    title: trainingDone ? "You've finished today's practice!"
-                        : (result.score == result.total ? "Perfect score!" : (result.score * 2 >= result.total ? "Nicely done" : "Try again?")),
-                    detail: trainingDone ? "\(result.score) of \(result.total) · come back tomorrow for 30 new questions"
-                        : "\(result.score) of \(result.total)",
+                    title: trainingDone ? L("You've finished today's practice!")
+                        : (result.score == result.total ? L("Perfect score!") : (result.score * 2 >= result.total ? L("Nicely done") : L("Try again?"))),
+                    detail: trainingDone ? L("%@ of %@ · come back tomorrow for 30 new questions", "\(result.score)", "\(result.total)")
+                        : L("%@ of %@", "\(result.score)", "\(result.total)"),
                     celebrate: trainingDone || result.score * 2 >= result.total,
                     onReplay: kind == .training ? nil : {
                         Haptics.tap()
@@ -187,7 +187,7 @@ struct GameHost: View {
                                 .background(Circle().fill(Palette.card))
                         }
                         .buttonStyle(.pressable)
-                        .accessibilityLabel("Quit the game")
+                        .accessibilityLabel(L("Quit the game"))
                         Spacer()
                         Text(kind.title).font(.figtree(17, .semibold)).foregroundStyle(Palette.ink)
                         Spacer()
@@ -227,14 +227,14 @@ struct TrainingButton: View {
 
     private var caption: String {
         let goal = UserStore.trainingDailyGoal
-        if user.trainingFinished { return "You've finished today's practice. Come back tomorrow!" }
-        if user.trainingDoneToday == 0 { return "\(goal) questions a day, all four games mixed." }
-        return "\(user.trainingDoneToday) of \(goal) today · \(user.trainingRemaining) to go"
+        if user.trainingFinished { return L("You've finished today's practice. Come back tomorrow!") }
+        if user.trainingDoneToday == 0 { return L("%@ questions a day, all four games mixed.", "\(goal)") }
+        return L("%@ of %@ today · %@ to go", "\(user.trainingDoneToday)", "\(goal)", "\(user.trainingRemaining)")
     }
 
     var body: some View {
         VStack(spacing: 6) {
-            Button(user.trainingFinished ? "Practice done" : (user.trainingDoneToday == 0 ? "Practice" : "Resume practice")) {
+            Button(user.trainingFinished ? L("Practice done") : (user.trainingDoneToday == 0 ? L("Practice") : L("Resume practice"))) {
                 action()
             }
             .buttonStyle(.primary)

@@ -15,8 +15,8 @@ enum Reminder {
         let center = UNUserNotificationCenter.current()
         center.removePendingNotificationRequests(withIdentifiers: ["artura.daily"])
         let content = UNMutableNotificationContent()
-        content.title = "Your artwork of the day is waiting"
-        content.body = "Five minutes to look, understand, and remember."
+        content.title = L("Your artwork of the day is waiting")
+        content.body = L("Five minutes to look, understand, and remember.")
         content.sound = .default
         var components = DateComponents()
         components.hour = minutes / 60
@@ -34,8 +34,8 @@ enum Reminder {
         let center = UNUserNotificationCenter.current()
         center.removePendingNotificationRequests(withIdentifiers: ["artura.trial"])
         let content = UNMutableNotificationContent()
-        content.title = "Your free trial ends tomorrow"
-        content.body = "Keep going with Artura Pro, or cancel in one tap."
+        content.title = L("Your free trial ends tomorrow")
+        content.body = L("Keep going with Artura Pro, or cancel in one tap.")
         content.sound = .default
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: Double(max(1, trialDays - 1)) * 24 * 3600, repeats: false)
         center.add(UNNotificationRequest(identifier: "artura.trial", content: content, trigger: trigger))
@@ -82,7 +82,7 @@ final class ProStore: ObservableObject {
         do {
             products = try await Product.products(for: Self.allIDs)
         } catch {
-            lastError = "Couldn't load the plans."
+            lastError = L("Couldn't load the plans.")
         }
     }
 
@@ -112,7 +112,7 @@ final class ProStore: ObservableObject {
                     await refreshEntitlements()
                     return true
                 }
-                lastError = "The purchase couldn't be verified."
+                lastError = L("The purchase couldn't be verified.")
                 return false
             case .userCancelled, .pending:
                 return false
@@ -120,7 +120,7 @@ final class ProStore: ObservableObject {
                 return false
             }
         } catch {
-            lastError = "The purchase failed. Try again in a moment."
+            lastError = L("The purchase failed. Try again in a moment.")
             return false
         }
     }

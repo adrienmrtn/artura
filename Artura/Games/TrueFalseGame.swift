@@ -25,9 +25,9 @@ struct TrueFalseGame: View {
         VStack(spacing: 14) {
             if let card {
                 HStack {
-                    TagPill(text: "Card \(index + 1) of \(deck.count)")
+                    TagPill(text: L("Card %@ of %@", "\(index + 1)", "\(deck.count)"))
                     Spacer()
-                    Text("\(score) point\(score == 1 ? "" : "s")")
+                    Text(score == 1 ? L("1 point") : L("%@ points", "\(score)"))
                         .font(.figtree(14, .semibold)).foregroundStyle(Palette.muted)
                         .contentTransition(.numericText())
                 }
@@ -72,14 +72,14 @@ struct TrueFalseGame: View {
 
                 if answer == nil {
                     HStack(spacing: 12) {
-                        Button("False") { respond(false) }
+                        Button(L("False")) { respond(false) }
                             .buttonStyle(PillButtonStyle(fill: Palette.redSoft, lip: Color(hex: 0xF2C9C5), foreground: Color(hex: 0x8C1D18)))
-                        Button("True") { respond(true) }
+                        Button(L("True")) { respond(true) }
                             .buttonStyle(PillButtonStyle(fill: Palette.greenSoft, lip: Color(hex: 0xBFE6CD), foreground: Color(hex: 0x00663B)))
                     }
                     .transition(.opacity)
                 } else {
-                    Button(index >= deck.count - 1 ? "See my score" : "Next") { advance() }
+                    Button(index >= deck.count - 1 ? L("See my score") : L("Next")) { advance() }
                         .buttonStyle(.primary)
                         .transition(.opacity.combined(with: .offset(y: 16)))
                 }
@@ -100,8 +100,8 @@ struct TrueFalseGame: View {
         VStack(alignment: .leading, spacing: 0) {
             ArtImage(name: card.artwork.image)
                 .frame(height: 200)
-                .overlay(alignment: .topLeading) { stamp("True", Palette.green).opacity(stampOpacity(true)).padding(14) }
-                .overlay(alignment: .topTrailing) { stamp("False", Palette.red).opacity(stampOpacity(false)).padding(14) }
+                .overlay(alignment: .topLeading) { stamp(L("True"), Palette.green).opacity(stampOpacity(true)).padding(14) }
+                .overlay(alignment: .topTrailing) { stamp(L("False"), Palette.red).opacity(stampOpacity(false)).padding(14) }
             VStack(alignment: .leading, spacing: 10) {
                 Text(card.artwork.title).font(.figtree(13, .semibold)).foregroundStyle(Palette.blueText)
                 Text(card.fact.text)
@@ -109,7 +109,7 @@ struct TrueFalseGame: View {
                     .fixedSize(horizontal: false, vertical: true)
                 if answer != nil {
                     VStack(alignment: .leading, spacing: 2) {
-                        Text(isCorrect ? "Good eye!" : "Not quite. It was \(card.fact.isTrue ? "true" : "false").")
+                        Text(isCorrect ? L("Good eye!") : (card.fact.isTrue ? L("Not quite. It was true.") : L("Not quite. It was false.")))
                             .font(.bodyStrong).foregroundStyle(isCorrect ? Color(hex: 0x00663B) : Color(hex: 0x8C1D18))
                         Text(card.fact.explanation).font(.aSmall).foregroundStyle(Palette.ink)
                             .fixedSize(horizontal: false, vertical: true)
@@ -119,7 +119,7 @@ struct TrueFalseGame: View {
                     .background(RoundedRectangle(cornerRadius: 12).fill(isCorrect ? Palette.greenSoft : Palette.redSoft))
                     .transition(.opacity.combined(with: .offset(y: 10)))
                 } else {
-                    Text("Swipe right for true, left for false.")
+                    Text(L("Swipe right for true, left for false."))
                         .font(.aCaption).foregroundStyle(Palette.muted)
                 }
             }

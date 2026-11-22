@@ -4,10 +4,10 @@ import SwiftUI
 /// and scrolls it to the center of the screen.
 struct LessonView: View {
     let artwork: Artwork
-    var pill: String = "Lesson"
+    var pill: String = L("Lesson")
     /// Blocks to read. The whole lesson by default; onboarding passes an excerpt.
     var blocks: [LessonBlock]? = nil
-    var finishTitle: String = "Take the quiz"
+    var finishTitle: String = L("Take the quiz")
     /// When set, a "Skip" button replaces the counter in the top right.
     var onSkip: (() -> Void)? = nil
     /// Number of "Continue" taps allowed before `onBlocked` is called instead (nil: no limit).
@@ -38,10 +38,10 @@ struct LessonView: View {
                 }
                 .buttonStyle(.pressable)
                 .padding(.leading, -12)
-                .accessibilityLabel("Back")
+                .accessibilityLabel(L("Back"))
                 ProgressTrack(value: Double(revealed + 1) / Double(total + 1))
                 if let onSkip {
-                    Button("Skip") {
+                    Button(L("Skip")) {
                         Haptics.tap()
                         onSkip()
                     }
@@ -100,7 +100,7 @@ struct LessonView: View {
                 }
             }
 
-            Button(isDone ? finishTitle : "Continue") {
+            Button(isDone ? finishTitle : L("Continue")) {
                 if isDone {
                     Haptics.success()
                     onFinish()
@@ -161,7 +161,7 @@ struct LessonView: View {
                     )
                 VStack(alignment: .leading, spacing: 2) {
                     Text(block.interactiveTitle).font(.aCardTitle).foregroundStyle(.white)
-                    Text("Tap to reopen the painting").font(.aCaption).foregroundStyle(Color.white.opacity(0.75))
+                    Text(L("Tap to reopen the painting")).font(.aCaption).foregroundStyle(Color.white.opacity(0.75))
                 }
                 Spacer(minLength: 0)
                 Image(systemName: "arrow.up.left.and.arrow.down.right")
@@ -189,7 +189,7 @@ struct LessonView: View {
             }
         case "key":
             VStack(alignment: .leading, spacing: 4) {
-                Text("Key takeaway").font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
+                Text(L("Key takeaway")).font(.figtree(12, .semibold)).foregroundStyle(Palette.blueText)
                 Text(block.text ?? "").font(.bodyStrong).foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -201,7 +201,7 @@ struct LessonView: View {
             VStack(alignment: .leading, spacing: 4) {
                 HStack(spacing: 6) {
                     Image(systemName: "lightbulb.fill").font(.figtree(12, .semibold))
-                    Text("Did you know?").font(.figtree(12, .semibold))
+                    Text(L("Did you know?")).font(.figtree(12, .semibold))
                 }
                 .foregroundStyle(Palette.ink)
                 Text(block.text ?? "").font(.figtree(16)).foregroundStyle(Palette.ink)

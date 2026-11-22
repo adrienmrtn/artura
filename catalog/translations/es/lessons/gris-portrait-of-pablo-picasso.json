@@ -1,0 +1,138 @@
+{
+ "teaser": "El agradecimiento de un joven pintor a su famoso vecino, construido entero con planos inclinados.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Dos españoles vivían en el mismo destartalado edificio de talleres, en la colina de Montmartre, en París. Uno, Pablo Picasso, ya estaba en boca de toda la vanguardia. El otro, Juan Gris, seis años más joven, observaba por las puertas abiertas lo que hacía su vecino, y aprendía. En 1912 pintó esto para darle las gracias."
+  },
+  {
+   "type": "text",
+   "text": "Gris había llegado de Madrid en 1906, con 19 años y casi sin dinero. Durante años pagó el alquiler dibujando viñetas para revistas de humor. No empezó a pintar en serio hasta alrededor de 1910. Este retrato fue uno de los primeros cuadros que se atrevió a exponer en público, y eligió el tema más grande que tenía a mano."
+  },
+  {
+   "type": "fact",
+   "text": "«Juan Gris» era un nombre inventado. Al nacer se llamaba José Victoriano González-Pérez. Gris, como el color: una elección modesta para un pintor que acabaría siendo conocido por sus tonos fríos y plateados."
+  },
+  {
+   "type": "text",
+   "text": "El estilo es el cubismo, que Picasso y Georges Braque habían desarrollado en los años inmediatamente anteriores. Un pintor cubista no muestra una cosa desde un solo punto. La descompone en facetas planas vistas desde varios ángulos y las vuelve a encajar sobre el lienzo. El retratado puede volverse difícil de leer. Por eso Gris deja una pista clara sobre el oficio de este hombre."
+  },
+  {
+   "type": "find",
+   "text": "Picasso aparece retratado como pintor. ¿Dónde está la prueba?",
+   "spots": [
+    {
+     "title": "La paleta",
+     "text": "Sostiene una paleta, con el pulgar metido por el agujero. En ella hay cuatro toques de pintura: azul, amarillo, rojo y negro. Son casi los únicos colores puros de todo el lienzo."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Todo lo demás es gris azulado, crema y marrón, como iluminado por una ventana fría. Esa contención es deliberada. Los primeros cubistas dejaron de lado el color intenso para que nada distrajera de la estructura. Y Gris se permite una broma: los colores salvajes del pintor siguen todos ahí, en la paleta, esperando."
+  },
+  {
+   "type": "text",
+   "text": "Compáralo ahora con lo que pintaba el propio Picasso en 1912: cuadros densos, vibrantes, donde la figura casi se disuelve. Gris es otra cosa. Encuentras enseguida la cabeza, el cuello de la camisa, las manos. Se había formado en dibujo técnico, y se nota en su manera de organizar la superficie."
+  },
+  {
+   "type": "lines",
+   "text": "Sigue el orden oculto detrás de los fragmentos.",
+   "lines": [
+    {
+     "label": "Un fondo inclinado",
+     "text": "La pared que hay detrás de Picasso está cortada por diagonales que caen de arriba a la derecha hacia abajo a la izquierda. Cada franja es clara por un lado y sombreada por el otro, como una hoja de papel plegada."
+    },
+    {
+     "label": "El mismo ángulo",
+     "text": "La inclinación se repite, paralela a la primera, hasta llegar a la cabeza. Esa repetición le da al cuadro un compás regular en lugar de caos."
+    },
+    {
+     "label": "Los botones",
+     "text": "Los botones de la chaqueta bajan en fila en sentido contrario, de arriba a la izquierda hacia abajo a la derecha. Cuerpo y fondo se cruzan como los dos trazos de una X, y eso deja la figura bien sujeta en su sitio."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "La cara sigue la misma lógica. Un ojo te mira de frente. La mejilla y la mandíbula de al lado giran como si se vieran de perfil. En una sola imagen das una vuelta alrededor de la cabeza de Picasso, y aun así el espeso flequillo que le cruza la frente basta para reconocerlo."
+  },
+  {
+   "type": "key",
+   "text": "Gris demostró que el cubismo podía ser claro. Conservó su visión rota y de muchas caras, y le añadió orden, luz y un parecido que todavía se puede leer."
+  },
+  {
+   "type": "fact",
+   "text": "En la esquina inferior derecha, encima de la firma, Gris escribió una dedicatoria en francés: «Hommage à Pablo Picasso». Al homenajeado no le halagó del todo. Según sus amigos, Picasso se mantuvo frío con aquel hombre más joven que había aprendido su lenguaje tan deprisa."
+  },
+  {
+   "type": "text",
+   "text": "El público, en cambio, sí se fijó. Expuesto en París en la primavera de 1912, el retrato presentó a Gris como el tercer gran nombre del cubismo, junto a Picasso y Braque. Le quedaban quince años: murió en 1927, a los 40. El lienzo, de unos 93 centímetros de alto, cuelga hoy en el Instituto de Arte de Chicago."
+  },
+  {
+   "type": "key",
+   "text": "Un homenaje puede ser también un desafío discreto. Gris pintó a su maestro en el estilo del propio maestro, y de paso hizo suyo ese estilo."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "¿Cómo se ganaba la vida Gris antes de pintar en serio?",
+   "options": [
+    "Dando clases de matemáticas",
+    "Dibujando viñetas para revistas de humor",
+    "Vendiendo cuadros de Picasso"
+   ],
+   "explanation": "Dibujó durante años para revistas satíricas tras llegar a París en 1906."
+  },
+  {
+   "question": "¿Qué objeto identifica a Picasso como pintor en el retrato?",
+   "options": [
+    "Un caballete detrás de él",
+    "Un pincel detrás de la oreja",
+    "Una paleta con cuatro toques de color"
+   ],
+   "explanation": "Sostiene una paleta con pintura azul, amarilla, roja y negra."
+  },
+  {
+   "question": "¿Qué hace un pintor cubista con su tema?",
+   "options": [
+    "Lo descompone en facetas vistas desde varios ángulos",
+    "Lo copia con la exactitud de una fotografía",
+    "Lo pinta solo con colores primarios vivos"
+   ],
+   "explanation": "El cubismo reúne varios puntos de vista de una misma cosa en una sola superficie plana."
+  },
+  {
+   "question": "¿Qué escribió Gris en la esquina inferior derecha?",
+   "options": [
+    "La fecha y el precio",
+    "Una dedicatoria a Picasso",
+    "Un verso en español"
+   ],
+   "explanation": "Escribió «Hommage à Pablo Picasso» encima de su firma."
+  },
+  {
+   "question": "¿Qué relación guardan los botones con las diagonales del fondo?",
+   "options": [
+    "Van en sentido contrario y las cruzan",
+    "Siguen exactamente la misma inclinación",
+    "Forman un círculo perfecto"
+   ],
+   "explanation": "Los botones bajan de arriba a la izquierda hacia abajo a la derecha y cruzan la inclinación del fondo como una X."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Juan Gris era el nombre de nacimiento del artista.",
+   "explanation": "Al nacer se llamaba José Victoriano González-Pérez, y eligió el nombre de Gris, como el color."
+  },
+  {
+   "text": "Los colores más vivos del cuadro están en la paleta.",
+   "explanation": "Los toques de azul, amarillo, rojo y negro destacan sobre el gris azulado y el crema de todo lo demás."
+  },
+  {
+   "text": "Gris era mayor que Picasso y le enseñó el cubismo.",
+   "explanation": "Gris era seis años más joven y aprendió el cubismo observando a Picasso, su vecino."
+  }
+ ]
+}

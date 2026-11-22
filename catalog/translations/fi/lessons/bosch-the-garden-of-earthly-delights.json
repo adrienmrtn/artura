@@ -1,0 +1,242 @@
+{
+ "teaser": "Munankuoresta ja puunrungoista tehty mies katsoo sinua takaisin Helvetistä. Kukaan ei tiedä miksi.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Mies seisoo pimeässä jalat kahdessa pienessä veneessä. Hänen jalkansa ovat onttoja puunrunkoja. Hänen vartalonsa on rikkoutunut munankuori, jonka sisällä on kapakka, ja hänen päänsä päällä on kiekko, jolla riivaajat kulkevat vaaleanpunaisen säkkipillin ympärillä. Hän kääntää kalpeat kasvonsa olkansa yli, lähes huvittuneena."
+  },
+  {
+   "type": "find",
+   "text": "Tämä olento piilee jossakin alla olevassa maalauksessa. Näetkö hänet?",
+   "spots": [
+    {
+     "title": "Puumies",
+     "text": "Häntä kutsutaan Puumieheksi. Jotkut historioitsijat epäilevät, että kasvot ovat Boschin omat, vaikka mikään ei todista sitä. Muista tuo katse olan yli: palaamme siihen."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Astu nyt taaksepäin. Puumies on yksi olento sadoista triptyykissä, saranoilla yhdistetyistä kolmesta levystä muodostuvassa maalauksessa. Avattuna se on noin 2,2 × 3,9 metriä. Hieronymus Bosch maalasi sen öljyllä tammelle noin vuonna 1500."
+  },
+  {
+   "type": "fact",
+   "text": "Taita kaksi sivulevyä kiinni, ja värit katoavat. Ulkopuolella Maa on harmaa, läpikuultava pallo, joka on puoliksi täynnä vettä, luultavasti maailma luomisen kolmantena päivänä, ennen eläimiä ja ihmisiä. Sen avaamisen oli tarkoitus olla järkytys."
+  },
+  {
+   "type": "text",
+   "text": "Triptyykit seisoivat yleensä kirkkojen alttareilla. Tämä ei lähes varmasti koskaan seissyt: se mainitaan ensimmäisen kerran vuonna 1517 erään aatelismiehen palatsissa Brysselissä, vieraiden näyttelyesineenä. Sitä luetaan kuin lausetta vasemmalta oikealle, ja Bosch rakensi siihen muutaman vihjeen ohjaamaan sinua."
+  },
+  {
+   "type": "lines",
+   "text": "Kolme vihjettä siitä, miten levyt liittyvät toisiinsa.",
+   "lines": [
+    {
+     "label": "Yksi horisontti",
+     "text": "Vasen ja keskimmäinen levy jakavat saman horisontin, saman nurmen, saman taivaan. Keskellä oleva ihmisiä kuhiseva puutarha kasvaa suoraan Eedenistä."
+    },
+    {
+     "label": "Missä se katkeaa",
+     "text": "Tässä saranassa maisema loppuu. Ei horisonttia, ei vihreää, ei päivänvaloa: oikea levy on yö, jota valaisevat vain tulet."
+    },
+    {
+     "label": "Kolme keskusta",
+     "text": "Jokaisen levyn sydämessä on outo rakennelma: vaaleanpunainen lähde, sininen pallo, Puumies. Ensin elämän lähde, sitten hauras lelu, sitten ontto kuori."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Bosch ei ollut hänen sukunimensä. Hän syntyi nimellä Jheronimus van Aken ja allekirjoitti kotikaupunkinsa 's-Hertogenboschin, nykyisessä Alankomaissa, lyhennetyllä muodolla. Hän vietti siellä lähes koko elämänsä, talossa torin laidalla."
+  },
+  {
+   "type": "text",
+   "text": "Tarina siis kulkee alusta loppuun: Paratiisi, sitten nautintojen puutarha, sitten rangaistus. Se kuulostaa yksinkertaiselta. Yksinkertaisuus katoaa, kun tarkastelet Paratiisia itseään, jonka pitäisi olla kuvan ainoa rauhallinen paikka."
+  },
+  {
+   "type": "tour",
+   "title": "Ongelmia Paratiisissa",
+   "text": "Jumala on juuri luonut Eevan. Kaukaa katsottuna kaikki vasemmalla levyllä näyttää rauhalliselta.",
+   "spots": [
+    {
+     "title": "Esittely",
+     "text": "Jumala, nuorena kuin Kristus esitettynä, pitää Eevaa ranteesta ja esittelee hänet Aadamille, joka on juuri herännyt. Aadam tuijottaa. Monet katsojat lukevat tuon tuijotuksen halun ensimmäiseksi kipinäksi."
+    },
+    {
+     "title": "Pöllö",
+     "text": "Vaaleanpunaisen lähteen tyvessä olevassa pimeässä kolossa istuu pöllö. Boschin aikana pöllö oli yhtä lailla pahaenteinen yölintu kuin viisas. Se tarkkailee Eedenin tarkasta keskipisteestä."
+    },
+    {
+     "title": "Kissa",
+     "text": "Kissa kävelee tiehensä pieni eläin suussaan. Lähistöllä otukset ryömivät ulos tummasta lammesta ja linnut kinastelevat. Tappaminen on jo alkanut, ennen kuin kukaan on koskenut omenaan."
+    },
+    {
+     "title": "Kirahvi",
+     "text": "Bosch ei koskaan nähnyt kirahvia eikä norsua. Hän luultavasti kopioi ne matkaajien piirroksista, minkä vuoksi tämä kirahvi on valkoinen ja hieman pielessä. Eeden on täynnä harvinaisimpia asioita, jotka hän tunsi."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Paratiisissa on jo peto ja vahtiva pöllö. Bosch näyttää sanovan, ettei ongelma alkanut viereisestä puutarhasta: se istutettiin ensimmäisenä päivänä. Tämä mielessä valtavaa keskilevyä on vaikeampi arvioida."
+  },
+  {
+   "type": "text",
+   "text": "Sadat alastomat miehet ja naiset ratsastavat eläimillä, kylpevät, nakertavat jättimäisiä marjoja ja kiipeävät simpukankuoriin. Kukaan ei ole vanha, kukaan ei tee työtä, kukaan ei näytä häpeävän. Mikään asiakirja ei kerro, mitä Bosch tarkoitti, ja tutkijat ovat yhä erimielisiä: varoitus himosta vai uni maailmasta sellaisena kuin se voisi olla, jos ihminen ei olisi koskaan tehnyt syntiä?"
+  },
+  {
+   "type": "text",
+   "text": "Kumman valitsetkin, todisteet ovat pienissä asioissa, joita on aivan liikaa opastettuun kävelyyn. Kierrä puutarhaa omin päin. Katso hedelmiä ja lintuja, jotka ovat ihmisiä isompia, ja kaikkea lasista tehtyä."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Sininen pallo",
+     "text": "Järven keskellä kelluu sininen pallo, jonka päällä on vaaleanpunaisia torneja. Pienet hahmot kiipeävät sen päälle ja istuvat sen aukoissa. Se näyttää samaan aikaan upealta ja särkyvältä."
+    },
+    {
+     "title": "Loputon ratsastus",
+     "text": "Naiset kylpevät pyöreässä altaassa, ja miehet kiertävät heitä hevosilla, villisioilla, kamelilla ja oudommilla otuksilla. Kierros kierrokselta, mihinkään menemättä: esittelyn karuselli."
+    },
+    {
+     "title": "Rakastavaiset kuplassa",
+     "text": "Pariskunta istuu läpinäkyvän pallon sisällä, joka kasvaa kasvista kuin saippuakupla. Aikalainen hollantilainen sananparsi vertasi onnea lasiin: se rikkoutuu nopeasti."
+    },
+    {
+     "title": "Jättilinnut",
+     "text": "Kuningaskalastaja, tikli ja muut linnut kohoavat kylpijöiden yllä vedenrajassa. Mittakaava on käännetty: täällä ihmiset ovat pieniä eläimiä."
+    },
+    {
+     "title": "Simpukankuori",
+     "text": "Mies kantaa selässään valtavaa sinisimpukan kuorta, jonka sisään on suljettu ihmisiä. Kuoret, palkokuoret ja ontot hedelmät toimivat piilopaikkoina kaikkialla puutarhassa."
+    },
+    {
+     "title": "Pöllö taas",
+     "text": "Pöllö istuu tanssijoiden renkaan yläpuolella. Lintu, joka tarkkaili lähteeltä Eedenissä, on seurannut meitä puutarhaan."
+    },
+    {
+     "title": "Jättimarja",
+     "text": "Hahmot kerääntyvät lähes itsensä kokoisen punaisen marjan ympärille. Makea, kirkas ja päivissä mätä: sattuva kuva nautinnosta, joka ei kestä."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Kaikki puutarhassa on herkullista ja hauraata: hedelmät mätänevät, lasi särkyy, kuplat puhkeavat. Paheksuipa Bosch tai uneksiko hän, hän maalasi nautinnon asiana, joka ei voi kestää."
+  },
+  {
+   "type": "fact",
+   "text": "Vuosisatoja kukaan ei kutsunut sitä nimellä Maallisten ilojen puutarha. Bosch ei jättänyt nimeä. Varhaiset espanjalaiset kuvaukset nimeävät kuvan sen hedelmän mukaan, mansikan maalaukseksi, ja nykyisin käyttämämme nimi vakiintui paljon myöhemmin."
+  },
+  {
+   "type": "text",
+   "text": "Miten hän sai niin monet pienet kohtaukset pysymään kirkkaina ja luettavina? Bosch työskenteli ohuin, lähes läpinäkyvin öljyvärikerroksin valkoisen pohjan päällä, mikä saa värit hehkumaan kuin emali. Tekniset kuvaukset osoittavat, että hän muutti mieltään työn edetessä ja piirsi hahmoja uudelleen suoraan levylle."
+  },
+  {
+   "type": "text",
+   "text": "Sitten tulee lasku. Oikealla levyllä valot sammuvat, ja sama laji, joka leikki puutarhassa, on metsästetty, syöty ja pilkattu. Boschin julmin ajatus on, että asioista, joista ihmiset nauttivat, tulee työkaluja, jotka satuttavat heitä. Aloita musiikista."
+  },
+  {
+   "type": "tour",
+   "title": "Yön puoli",
+   "text": "Kolme pysäkkiä pimeässä, levyn yläosasta alaspäin.",
+   "spots": [
+    {
+     "title": "Korvat ja terä",
+     "text": "Kaksi jättimäistä korvaa kantaa veistä välissään kuin sotakonetta, joka vyöryy kirottujen yli. Mitä se tarkoittaa, on kenen tahansa arvattavissa, ja se on osa sen voimaa."
+    },
+    {
+     "title": "Musiikkitunti",
+     "text": "Jättimäisen luutun ja harpun alla syntinen makaa murskattuna, nuottikirjoitus kirjoitettuna hänen takapuolelleen. Nautinnon soittimista on tullut kidutuspenkkejä."
+    },
+    {
+     "title": "Lintupäinen ruhtinas",
+     "text": "Sininen hirviö, jolla on linnun pää ja padan muotoinen hattu, istuu korkealla tuolilla nielaisten ihmisen kokonaisena. Häntä kutsutaan usein Helvetin ruhtinaaksi."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Tuon syntisen takapuolella olevat nuotit ovat luettavissa. Vuonna 2014 oklahomalainen musiikinopiskelija Amelia Hamrick litteroi ne ja julkaisi äänityksen verkossa. Se levisi ympäri maailmaa epävirallisella nimellä: Helvetin pyllylaulu."
+  },
+  {
+   "type": "text",
+   "text": "Maalauksesta tuli pian palkinto. Espanjan kuningas Filip II, Boschin omistautunut keräilijä, lähetti sen luostaripalatsiinsa El Escorialiin vuonna 1593. Se siirtyi Madridin Pradoon 1930-luvulla. Neljä vuosisataa Boschin jälkeen surrealistit, unien maalarit kuten Salvador Dalí, ottivat hänet esi-isäkseen."
+  },
+  {
+   "type": "text",
+   "text": "Palaa Puumieheen. Kaikki muut Helvetissä ovat liian kiireisiä kärsimään huomatakseen mitään. Hän yksin katsoo takaisin, rikkinäisen vartalonsa yli, kohti puutarhaa ja kohti sinua. Varoitus, katumus vai maalarin heikko hymy, kun tämä nauttii omasta keksinnöstään? Bosch ei koskaan kertonut."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Mikä on triptyykki?",
+   "options": [
+    "Kolmesta saranoidusta levystä koostuva maalaus",
+    "Maalaus, jossa on kolme hahmoa",
+    "Kolmessa päivässä tehty maalaus"
+   ],
+   "explanation": "Puutarha on kolme saranoilla yhdistettyä tammilevyä, joten sivut voi taittaa kiinni."
+  },
+  {
+   "question": "Mitä vasen ja keskimmäinen levy jakavat?",
+   "options": [
+    "Saman hahmojoukon",
+    "Saman yötaivaan",
+    "Saman horisontin ja maiseman"
+   ],
+   "explanation": "Horisontti kulkee molempien läpi, joten puutarha näyttää kasvavan Eedenistä."
+  },
+  {
+   "question": "Mikä istuu Eedenin lähteen pimeässä kolossa?",
+   "options": [
+    "Käärme",
+    "Pöllö",
+    "Kissa"
+   ],
+   "explanation": "Pöllö tarkkailee Paratiisin keskeltä, ja toinen näkyy keskipuutarhassa."
+  },
+  {
+   "question": "Mitä näkyy, kun sivulevyt on suljettu?",
+   "options": [
+    "Boschin muotokuva",
+    "Maa harmaana pallona",
+    "Toinen puutarha"
+   ],
+   "explanation": "Ulkopuolella on väritön pallo, luultavasti maailma luomisen kolmantena päivänä."
+  },
+  {
+   "question": "Mitä on kirjoitettu syntisen takapuolelle Helvetin levyllä?",
+   "options": [
+    "Rukous",
+    "Boschin nimikirjoitus",
+    "Nuottikirjoitus"
+   ],
+   "explanation": "Nuotit ovat luettavissa, ja opiskelija litteroi ja äänitti ne vuonna 2014."
+  },
+  {
+   "question": "Mikä Espanjan kuningas lähetti maalauksen El Escorialiin?",
+   "options": [
+    "Filip II",
+    "Kaarle V",
+    "Filip IV"
+   ],
+   "explanation": "Filip II, innokas Boschin keräilijä, lähetti sen sinne vuonna 1593."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bosch antoi maalaukselle nimen Maallisten ilojen puutarha.",
+   "explanation": "Hän ei jättänyt nimeä. Varhaiset espanjalaiset kuvaukset nimesivät sen mansikan mukaan."
+  },
+  {
+   "text": "Bosch otti nimensä kotikaupungistaan.",
+   "explanation": "Hän syntyi nimellä Jheronimus van Aken ja allekirjoitti 's-Hertogenboschin mukaan."
+  },
+  {
+   "text": "Boschin ajan asiakirjat selittävät, mitä keskilevy tarkoittaa.",
+   "explanation": "Sellaista asiakirjaa ei ole, ja tutkijat ovat yhä erimielisiä."
+  }
+ ]
+}

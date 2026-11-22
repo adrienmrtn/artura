@@ -1,0 +1,210 @@
+{
+ "teaser": "Neuf personnes, un chien, et un peintre qui a tout l'air d'être en train de te peindre, toi.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Compte les personnes qui, dans cette pièce, te fixent droit dans les yeux. Le peintre. La petite fille en blanc. Et aussi la femme en robe sombre, à droite. Vient alors la question qui dérange : pourquoi une cour espagnole de 1656 te regarderait-elle, toi ?"
+  },
+  {
+   "type": "text",
+   "text": "La pièce a existé. C'était une longue galerie de l'Alcázar, le palais royal de Madrid, où Diego Vélasquez avait son atelier. Il avait 57 ans, et il était le peintre du roi Philippe IV depuis plus de trente ans. Et il s'est mis lui-même dans le tableau, pinceau en main, derrière une toile si haute qu'on n'en voit que le dos."
+  },
+  {
+   "type": "find",
+   "text": "Deux personnes de ce tableau ne se tiennent pas dans la pièce avec les autres. Touche l'endroit où tu penses les trouver.",
+   "spots": [
+    {
+     "title": "Le miroir",
+     "text": "Sur le mur du fond, un cadre luit alors que les tableaux autour restent sombres. C'est un miroir. On y devine, sous un rideau rouge, les têtes un peu floues du roi Philippe IV et de la reine Marie-Anne."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Si le roi et la reine apparaissent dans un miroir qui nous fait face, c'est qu'ils se tiennent là où nous sommes. L'énigme est résolue, et trois autres s'ouvrent. Vélasquez est-il en train de faire leur portrait ? Le miroir les reflète-t-il eux, ou la toile à laquelle il travaille ? Viennent-ils d'entrer et d'interrompre la séance ? Le tableau ne le dit jamais."
+  },
+  {
+   "type": "key",
+   "text": "Les Ménines placent les personnages les plus importants hors du tableau, à ta place. Tu ne regardes pas une scène. Tu es dedans."
+  },
+  {
+   "type": "fact",
+   "text": "Pendant près de deux siècles, le tableau n'a pas eu de nom poétique. Les inventaires du palais l'appelaient « La Famille de Philippe IV ». Le titre Las Meninas, Les Ménines en français, n'apparaît que dans un catalogue du Prado de 1843. Une ménine était une jeune fille noble attachée au service d'un enfant royal."
+  },
+  {
+   "type": "text",
+   "text": "La fillette au centre est l'infante Marguerite, cinq ans, la fille du roi. Autour d'elle, chacun occupe une fonction à la cour, et Vélasquez les connaissait tous par leur nom. Si le groupe paraît si vivant, c'est qu'il n'y en a pas deux qui fassent la même chose de leurs yeux."
+  },
+  {
+   "type": "tour",
+   "title": "Quatre façons de regarder",
+   "text": "Suis les regards à travers la pièce, du peintre jusqu'à la porte du fond.",
+   "spots": [
+    {
+     "title": "Le peintre",
+     "text": "Vélasquez prend du recul devant sa toile, le pinceau en suspens. C'est le regard de quelqu'un qui compare un modèle avec ce qu'il a déjà peint. Et le modèle se trouve là où tu es."
+    },
+    {
+     "title": "L'infante",
+     "text": "Sa tête se tourne vers la gauche, mais ses yeux reviennent glisser vers nous, comme font les enfants quand quelque chose de plus intéressant entre dans une pièce."
+    },
+    {
+     "title": "Maribárbola",
+     "text": "Une naine de cour venue d'Allemagne, en bleu sombre. Elle nous fait face, bien carrée, sans cérémonie : c'est le regard le plus ferme de tout le tableau."
+    },
+    {
+     "title": "L'homme dans l'escalier",
+     "text": "Dans l'embrasure lumineuse de la porte, José Nieto, le chambellan de la reine, s'arrête sur les marches et se retourne. Il est le seul à pouvoir tout voir : la pièce, la toile et le couple royal."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Certains ont remarqué, d'autres pas encore. La suivante agenouillée à gauche s'occupe toujours de l'infante. Le garçon, tout à droite, taquine le chien du bout du pied. C'est ce mélange qui donne à la scène l'allure d'une seconde saisie au vol, deux cents ans avant le premier appareil photo."
+  },
+  {
+   "type": "text",
+   "text": "Derrière le charme, il y a de l'ambition. En Espagne, la peinture était encore soumise à l'impôt et considérée comme un métier manuel, au même titre que la menuiserie. Vélasquez voulait qu'on la reconnaisse comme un art noble, et lui-même comme un gentilhomme. Il montre donc le peintre en train de penser plutôt que de travailler, à l'aise au milieu de la famille royale, aussi grand que n'importe qui dans la pièce."
+  },
+  {
+   "type": "fact",
+   "text": "La croix rouge sur la poitrine de Vélasquez est l'insigne de l'ordre de Santiago, un ordre de chevalerie où il n'a été admis qu'en 1659, trois ans après l'achèvement du tableau. Elle a été ajoutée plus tard. Une légende veut que le roi l'ait peinte de sa main."
+  },
+  {
+   "type": "text",
+   "text": "Oublie maintenant les personnages et regarde comment la toile est découpée. Pour un portrait de groupe, elle est bâtie d'étrange façon : une très grande partie ne contient absolument personne."
+  },
+  {
+   "type": "lines",
+   "text": "Trois lignes montrent comment la pièce est organisée.",
+   "lines": [
+    {
+     "label": "La moitié vide",
+     "text": "Au-dessus de cette ligne, il n'y a que le plafond, de l'ombre et des tableaux qu'on distingue mal. Les onze figures logent toutes dans la moitié inférieure. C'est cet espace sombre, au-dessus d'elles, qui rend la pièce si haute et si silencieuse."
+    },
+    {
+     "label": "Une vague de têtes",
+     "text": "Relie les têtes, du peintre jusqu'au garçon : la ligne plonge, remonte, replonge. Personne n'est aligné comme dans un portrait officiel."
+    },
+    {
+     "label": "La lumière de droite",
+     "text": "Le jour entre par une fenêtre située à droite, que nous ne voyons pas. Il frappe surtout les cheveux clairs et la robe de l'infante : elle resplendit sans avoir besoin d'être la plus grande figure."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Une seconde lumière vient de la porte ouverte au fond, loin derrière tout le monde. Entre ces deux lumières, Vélasquez peint quelque chose de très difficile à peindre : l'air lui-même. Plus les personnages sont loin, plus ils deviennent flous et gris, exactement comme dans une longue pièce poussiéreuse."
+  },
+  {
+   "type": "text",
+   "text": "Et il y parvient avec étonnamment peu de moyens. Depuis l'autre bout de la salle, à Madrid, les soieries paraissent cousues et amidonnées. Approche-toi de la toile, qui mesure environ 3,20 mètres de haut, et les robes se défont en touches lâches et en traînées de peinture. Le détail se fabrique dans ton œil, pas à la surface."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "La croix rouge",
+     "text": "La croix de Santiago, peinte sur le pourpoint noir quelques années après tout le reste."
+    },
+    {
+     "title": "Un peu d'eau",
+     "text": "La ménine agenouillée, María Agustina Sarmiento, présente à l'infante une petite cruche d'argile rouge sur un plateau. Boire de l'eau fraîche dans ces récipients d'argile parfumée était alors très à la mode."
+    },
+    {
+     "title": "La toile cachée",
+     "text": "On n'en voit que le châssis de bois et l'envers brut de la toile. Elle est à peu près aussi haute que Les Ménines elles-mêmes, et beaucoup se sont demandé si ce n'était pas justement ce tableau qu'il est en train de peindre."
+    },
+    {
+     "title": "Le mâtin",
+     "text": "Un gros mâtin espagnol ensommeillé, patient sous le pied du garçon. Son pelage est brossé en quelques touches larges et sèches."
+    },
+    {
+     "title": "Nicolasito",
+     "text": "Nicolasito Pertusato, un jeune nain italien de la cour, pousse le chien du pied. C'est le seul vrai mouvement de toute la pièce."
+    },
+    {
+     "title": "Deux dans l'ombre",
+     "text": "Une dame de compagnie, sous sa coiffe blanche de veuve, parle à un garde qui est à peine là, le visage laissé dans le flou. Vélasquez laisse la pénombre les engloutir."
+    },
+    {
+     "title": "La seconde ménine",
+     "text": "Isabel de Velasco esquisse une révérence. Son corps s'incline vers l'infante, mais ses yeux sont déjà partis vers les visiteurs."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "La veille de Noël 1734, l'Alcázar est détruit par un incendie. Des centaines de tableaux disparaissent. Les Ménines sont sauvées, abîmées, puis rognées sur les bords. Le palais qu'elles montrent n'existe plus : le Palais royal de Madrid s'élève à son emplacement."
+  },
+  {
+   "type": "text",
+   "text": "Depuis, les peintres n'ont jamais cessé de tourner autour de cette toile. L'Italien Luca Giordano, qui la découvre une génération plus tard, l'appelle « la théologie de la peinture », ce que cet art peut accomplir de plus haut. En 1957, Picasso s'enferme pendant des mois et en peint 58 variations, en la démontant figure après figure."
+  },
+  {
+   "type": "text",
+   "text": "Vélasquez est mort en 1660, quatre ans après l'avoir achevée, sans laisser d'explication. La première question reste donc entière. Devant Les Ménines, es-tu le roi, la reine, un visiteur à la porte, ou tout simplement la prochaine personne que le peintre a décidé d'étudier ?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Qui apparaît dans le miroir du mur du fond ?",
+   "options": [
+    "Vélasquez et sa femme",
+    "Le roi Philippe IV et la reine Marie-Anne",
+    "Les deux frères de l'infante"
+   ],
+   "explanation": "Le cadre qui luit est un miroir : il montre le couple royal, qui se tient donc à la place du spectateur."
+  },
+  {
+   "question": "Que désignait le mot « ménine » à la cour d'Espagne ?",
+   "options": [
+    "Une jeune fille noble au service d'un enfant royal",
+    "L'assistante d'un peintre de cour",
+    "Une princesse appelée à hériter du trône"
+   ],
+   "explanation": "Les ménines étaient de jeunes demoiselles d'honneur, comme les deux qui entourent l'infante."
+  },
+  {
+   "question": "Pourquoi la croix rouge sur la poitrine du peintre est-elle surprenante ?",
+   "options": [
+    "Elle n'est pas de la bonne couleur pour son ordre",
+    "C'est Picasso qui l'a peinte",
+    "Il n'a été admis dans cet ordre de chevalerie que trois ans après avoir fini le tableau"
+   ],
+   "explanation": "Il est entré dans l'ordre de Santiago en 1659 : la croix a donc été ajoutée plus tard."
+  },
+  {
+   "question": "Comment la moitié supérieure de la toile est-elle occupée ?",
+   "options": [
+    "Elle est remplie d'anges",
+    "Elle est presque vide : le plafond, de l'ombre et des tableaux qu'on distingue mal",
+    "Elle montre une seconde rangée de courtisans"
+   ],
+   "explanation": "Toutes les figures sont dans la moitié inférieure, et l'espace sombre au-dessus rend la pièce haute et silencieuse."
+  },
+  {
+   "question": "Qu'a fait Picasso avec Les Ménines en 1957 ?",
+   "options": [
+    "Il en a peint 58 variations",
+    "Il les a restaurées pour le Prado",
+    "Il en a acheté une copie"
+   ],
+   "explanation": "Il a passé des mois à retravailler la composition dans une série de 58 toiles."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Le tableau s'appelle Les Ménines depuis que Vélasquez l'a terminé.",
+   "explanation": "Il était inventorié comme « La Famille de Philippe IV » et n'a reçu son titre actuel qu'en 1843."
+  },
+  {
+   "text": "Les Ménines ont survécu à l'incendie qui a détruit le palais où elles ont été peintes.",
+   "explanation": "Elles ont été sauvées quand l'Alcázar de Madrid a brûlé, en 1734."
+  },
+  {
+   "text": "La lumière principale de la scène vient d'un lustre accroché au plafond.",
+   "explanation": "Le jour entre par une fenêtre invisible à droite, et une seconde lumière vient de la porte du fond."
+  }
+ ]
+}

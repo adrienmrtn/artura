@@ -7,20 +7,20 @@ struct WidgetGuideView: View {
     private let artwork = DailyCatalog.artwork()
 
     private let steps: [(symbol: String, text: String)] = [
-        ("hand.tap.fill", "Touch and hold an empty area of your Home Screen."),
-        ("plus.circle.fill", "Tap Edit, then Add Widget."),
-        ("magnifyingglass", "Search for Artura and pick a size."),
-        ("checkmark.circle.fill", "Tap Add Widget. A new artwork appears every day.")
+        ("hand.tap.fill", L("Touch and hold an empty area of your Home Screen.")),
+        ("plus.circle.fill", L("Tap Edit, then Add Widget.")),
+        ("magnifyingglass", L("Search for Artura and pick a size.")),
+        ("checkmark.circle.fill", L("Tap Add Widget. A new artwork appears every day."))
     ]
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("Artwork of the day widget")
+                    Text(L("Artwork of the day widget"))
                         .font(.aTitleSmall)
                         .foregroundStyle(Palette.ink)
-                    Text("One masterpiece on your Home Screen, every morning.")
+                    Text(L("One masterpiece on your Home Screen, every morning."))
                         .font(.aBody)
                         .foregroundStyle(Palette.muted)
                 }
@@ -30,7 +30,7 @@ struct WidgetGuideView: View {
                     preview(.small, width: 150, height: 150)
                     VStack(spacing: 6) {
                         Mascot(size: 92)
-                        Text("I'll hang a new painting here every day.")
+                        Text(L("I'll hang a new painting here every day."))
                             .font(.figtree(14, .semibold))
                             .foregroundStyle(Palette.ink)
                             .multilineTextAlignment(.center)
@@ -41,7 +41,7 @@ struct WidgetGuideView: View {
                 preview(.medium, width: nil, height: 150)
                 preview(.large, width: nil, height: 330)
 
-                Text("How to add it").font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
+                Text(L("How to add it")).font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
                 VStack(spacing: 0) {
                     ForEach(Array(steps.enumerated()), id: \.offset) { i, step in
                         HStack(spacing: 12) {
@@ -63,7 +63,7 @@ struct WidgetGuideView: View {
                 .padding(.horizontal, 16)
                 .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
 
-                Button("Got it") { dismiss() }
+                Button(L("Got it")) { dismiss() }
                     .buttonStyle(.primary)
                     .padding(.top, 4)
             }

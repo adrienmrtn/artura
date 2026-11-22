@@ -1,0 +1,186 @@
+{
+ "teaser": "A Roman architect set a riddle about the body. Fifteen centuries later, one sheet of paper solved it.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Around 25 BC, a Roman architect named Vitruvius wrote down a claim about the human body. Lay a well-built man on his back, he said, with arms and legs spread, and a circle drawn from his navel will touch his fingers and toes. Stand him up with arms out, and he fits a square just as well, because his arm span equals his height."
+  },
+  {
+   "type": "text",
+   "text": "The passage sits in a book about building temples. Vitruvius's point was that good architecture should copy the proportions of the body. The book had no surviving pictures, so when Renaissance scholars rediscovered it, artists started trying to draw the man in the circle and the square. Most attempts looked stretched or stiff."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo da Vinci took up the riddle around 1490, while working in Milan. Others had assumed the circle and the square must share the same center, like a target. Check whether Leonardo agrees."
+  },
+  {
+   "type": "lines",
+   "text": "Four lines reveal Leonardo's solution.",
+   "lines": [
+    {
+     "label": "The circle",
+     "text": "With arms raised and legs apart, fingertips and soles touch the circle. Its center is the navel, exactly as the Roman text demands."
+    },
+    {
+     "label": "The square",
+     "text": "Feet together and arms level, the man touches all four sides. The square rests on the bottom of the circle but pokes out of it at the upper corners."
+    },
+    {
+     "label": "Span equals height",
+     "text": "From fingertip to fingertip, the outstretched arms are as wide as the man is tall. That is why the standing figure fits a square at all."
+    },
+    {
+     "label": "Two centers",
+     "text": "The circle turns on the navel. The square's center lies lower, at the groin. Leonardo lets the two shapes slide apart, and the body suddenly fits both without being distorted."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That small shift is the whole discovery. Leonardo did not bend the man to obey the geometry, as earlier artists had. He trusted the body and moved the geometry. Then he went further and quietly corrected the ancient author where his own measurements of real men disagreed."
+  },
+  {
+   "type": "key",
+   "text": "Vitruvian Man is an experiment as much as a drawing: an old text tested against a real body, with the body winning."
+  },
+  {
+   "type": "fact",
+   "text": "The sheet is small, about 34 by 24 centimeters (13.5 by 9.5 inches), hardly bigger than a page of printer paper. Leonardo first scratched in the construction with a metal point and compass, then went over it in pen and brown ink."
+  },
+  {
+   "type": "text",
+   "text": "There is also a trick of time in it. You see one man with four arms and four legs, and you read him without effort as a single body changing position. Combine the limbs in your head and he jumps between poses, a little like the frames of an animation, four hundred years early."
+  },
+  {
+   "type": "fact",
+   "text": "The lines of text run backward, from right to left, and can be read normally in a mirror. Leonardo was left-handed and wrote his private notes this way all his life, perhaps simply to avoid smudging wet ink with his hand."
+  },
+  {
+   "type": "text",
+   "text": "So this is a page from a working notebook, with words wrapped around the figure. The writing lists measurements, and the drawing carries small marks most people never notice because they stop at the famous silhouette."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Notes above",
+     "text": "In mirror writing, Leonardo begins by naming Vitruvius, then lists the units: four fingers make a palm, four palms a foot, six palms a cubit, four cubits a man."
+    },
+    {
+     "title": "The face",
+     "text": "A stern, frowning face framed by thick curls, far more individual than a diagram needs. Faint lines cross it, marking the proportions of chin, nose and brow."
+    },
+    {
+     "title": "The navel",
+     "text": "The compass point stood here. Every part of the circle is the same distance from this spot."
+    },
+    {
+     "title": "The ruler",
+     "text": "Under the square runs a measuring line divided by small ticks into palms, with finer finger marks at both ends. It is the drawing's own scale bar."
+    },
+    {
+     "title": "A foot in profile",
+     "text": "One standing foot points at us, the other turns sideways. Shown from the side, its full length can be measured: Leonardo makes a foot one seventh of the height."
+    },
+    {
+     "title": "A raised hand",
+     "text": "The middle finger of the raised arm reaches the circle at the same level as the top of the head, a relation Leonardo spells out in his notes."
+    },
+    {
+     "title": "Notes below",
+     "text": "More proportions in mirror writing: the arm span equals the height, the face is a tenth of it, and so on down the body, each one a simple fraction."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Why did such fractions matter so much? Thinkers of Leonardo's time loved the idea that man is a small model of the universe. The circle stood for the heavens, the square for the earth. A body that touches both was, for them, proof that humans belong to both worlds."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo never published the sheet. It stayed among his papers, passed through private collections, and entered the Accademia in Venice in 1822. Only later did it become a universal logo for medicine, science, sport and “the human being” in general."
+  },
+  {
+   "type": "fact",
+   "text": "Italians carry this drawing in their pockets: it is stamped on the Italian one-euro coin. The original, in contrast, is almost never on view. Light fades the ink, so it lives in a dark, climate-controlled store and is shown only briefly every few years."
+  },
+  {
+   "type": "text",
+   "text": "When France asked to borrow it in 2019 for the 500th anniversary of Leonardo's death, an Italian heritage group went to court to stop the loan, arguing the sheet was too fragile to travel. The judges let it go. It hung in the Louvre for a few weeks, then went back into the dark."
+  },
+  {
+   "type": "text",
+   "text": "Later artists and architects kept returning to the question Leonardo answered here. In the twentieth century the architect Le Corbusier designed a whole system of building measurements around a standing man with a raised arm. The idea that our rooms should be cut to our bodies starts with Vitruvius, but it has this face."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where did the idea of a man inside a circle and a square come from?",
+   "options": [
+    "A medieval medical handbook",
+    "A book on architecture by the Roman Vitruvius",
+    "A dream Leonardo wrote down"
+   ],
+   "explanation": "Vitruvius described it in his treatise on building, which is why the drawing bears his name."
+  },
+  {
+   "question": "What was Leonardo's key move in solving the puzzle?",
+   "options": [
+    "He gave the circle and the square different centers",
+    "He made the man's arms longer than natural",
+    "He replaced the square with a triangle"
+   ],
+   "explanation": "The circle is centered on the navel and the square on the groin, so the body fits both undistorted."
+  },
+  {
+   "question": "Why does the handwriting look strange?",
+   "options": [
+    "It is in code invented by the Accademia",
+    "It was added by a later owner",
+    "It is mirror writing, running from right to left"
+   ],
+   "explanation": "Left-handed Leonardo wrote his notes backward, readable in a mirror."
+  },
+  {
+   "question": "What is the line with small ticks under the square?",
+   "options": [
+    "A scale divided into palms and fingers",
+    "A crack in the paper",
+    "A musical staff"
+   ],
+   "explanation": "It is a measuring scale using the same units as the notes."
+  },
+  {
+   "question": "Why is the original drawing so rarely exhibited?",
+   "options": [
+    "It is privately owned",
+    "Light fades the ink on the fragile sheet",
+    "It is too large to hang"
+   ],
+   "explanation": "The paper and ink are light-sensitive, so it is kept in dark storage most of the time."
+  },
+  {
+   "question": "Which part of the body touches the top of the square?",
+   "options": [
+    "The raised fingertips only",
+    "The shoulders",
+    "The top of the head"
+   ],
+   "explanation": "Standing upright, the man's head meets the top side and his feet the bottom side."
+  }
+ ],
+ "facts": [
+  {
+   "text": "In Leonardo's drawing, the circle and the square share the same center.",
+   "explanation": "The circle is centered on the navel and the square lower down, at the groin."
+  },
+  {
+   "text": "The Vitruvian Man appears on the Italian one-euro coin.",
+   "explanation": "Italy chose the drawing for the national side of its one-euro coin."
+  },
+  {
+   "text": "The drawing is roughly life-size.",
+   "explanation": "The sheet is only about 34 by 24 centimeters, close to a sheet of printer paper."
+  }
+ ]
+}

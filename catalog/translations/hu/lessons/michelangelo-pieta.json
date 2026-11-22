@@ -1,0 +1,215 @@
+{
+ "teaser": "Az egyetlen mű, amelyet Michelangelo valaha aláírt, és a történet szerint sértett büszkeségből tette.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Róma, 1500 körül. Zarándokok tódulnak egy kápolnába a régi Szent Péter-bazilika mellett, hogy megnézzék az új márványcsoportot, amelyről mindenki beszél. Köztük áll, a történet szerint, a fiatalember, aki faragta, felismerhetetlenül. Hallja, ahogy lombard látogatók hangosan dicsérik. Egyikük el is magyarázza, ki alkotta: hát egy milánói szobrász."
+  },
+  {
+   "type": "text",
+   "text": "Giorgio Vasari, aki ismerte Michelangelót, elmeséli, mi történt ezután. Aznap éjjel a szobrász lámpással és vésőkkel bezárkózott a kápolnába, és belevéste a nevét a kőbe, ott, ahol senki nem nézheti el. Vasari szerette a jó történeteket, ezért tarts kéznél egy csipet sót. A név azonban tényleg ott van."
+  },
+  {
+   "type": "find",
+   "text": "Hová faragnád a neved, hogy senki ne nézhessen Máriára anélkül, hogy el ne olvasná? Koppints a helyre.",
+   "spots": [
+    {
+     "title": "A szalag",
+     "text": "Egy sáv ível át Mária mellkasán a válltól a derékig. Rajta, latin nagybetűkkel: „Michelangelo Buonarroti, firenzei, készítette ezt.” Közvetlenül a szíve fölött fut."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Soha többé nem írt alá semmit. Sem a Sixtus-kápolna mennyezetét, sem egyetlen későbbi szobrát. Ezután már nem volt rá szüksége. A szalag a városát, Firenzét is megnevezi, kis döfés mindenkinek, aki azt hitte, hogy ilyen tehetség máshonnan jöhet."
+  },
+  {
+   "type": "fact",
+   "text": "Michelangelo 23 éves volt, amikor 1498-ban aláírta a szerződést. Támogatója, egy római bankár írásban megígérte, hogy az eredmény „Róma legszebb márványműve” lesz. Nagyjából egy évvel később át is adták."
+  },
+  {
+   "type": "text",
+   "text": "A megrendelő egy francia bíboros volt, aki a saját sírkápolnájába szánt szobrot. Pietàt kért, olaszul „részvétet”: Szűz Mária, ahogy halott fiát tartja a keresztre feszítés után. A téma Franciaországban és Németországban gyakori volt, általában fából faragták, merev, vérző Krisztussal, aki esetlenül feküdt az anyja ölében. Olaszországban még ritka volt."
+  },
+  {
+   "type": "text",
+   "text": "Az esetlenségnek oka volt. Egy felnőtt férfi nem fér el egy ülő nő ölében. Ha keresztbe fektetjük, mindkét oldalon kilóg, mint egy deszka. Michelangelónak egyetlen fehér carrarai márványtömbje volt, 174 cm magas, és ez a probléma."
+  },
+  {
+   "type": "lines",
+   "text": "A megoldása ruhába öltöztetett geometria. Három vonal mutatja, hogyan záródik össze a két test.",
+   "lines": [
+    {
+     "label": "Piramis",
+     "text": "Az egész csoport belefér egy háromszögbe, tetején Mária fejével, nagyon széles alappal. Ez a forma stabil és nyugodt, mint egy hegy."
+    },
+    {
+     "label": "Asztalnyi öl",
+     "text": "Mária térdei szélesen szétnyílnak a ruha alatt. Széles polcot alkotnak, amely elbír egy egész testet."
+    },
+    {
+     "label": "A test hajlik",
+     "text": "Krisztus nem deszka. A feje hátraesik, dereka belesüpped az ölébe, lábai a térdnél lehajlanak. A vonal követi Mária testét, ahelyett hogy keresztezné."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "És most a polc titka. Mária óriás. Ha felállna, magasan a fia fölé tornyosulna. Kis feje elrejti ezt, és a ruha is: a derék alatti mély redők észrevétlenül megduzzasztják az alsó testét. Elfogadod a trükköt, mert a redők annyira természetesen esnek."
+  },
+  {
+   "type": "key",
+   "text": "A Pietà azért tűnik könnyednek, mert Michelangelo szándékosan megszegte az arányok szabályait, aztán a bizonyítékot márványruha redői alá rejtette."
+  },
+  {
+   "type": "text",
+   "text": "Van egy második szabadsága is, és ezért rögtön megkapta a magáét. Jézus nagyjából 33 évesen halt meg, tehát az anyjának közel ötvenesnek kellene lennie. Itt fiatalabbnak látszik nála. Amikor megkérdezték, miért, Michelangelo Condivi, az életrajzírója szerint azt felelte, hogy a tökéletesen tiszta nő sokkal tovább megőrzi a frissességét, mint mások."
+  },
+  {
+   "type": "tour",
+   "title": "Gyász kiáltás nélkül",
+   "text": "A korábbi pietàk jajveszékelő anyát mutattak. Nézd, milyen keveset tesz ez, és mennyit mond.",
+   "spots": [
+    {
+     "title": "Az arca",
+     "text": "Lesütött szem, zárt száj, egyetlen könnycsepp sincs. A fájdalma befelé fordul. A sima, ráncok nélküli arc az, amelyet a kritikusok túl fiatalnak találtak."
+    },
+    {
+     "title": "Az ő arca",
+     "text": "A feje hátrabillen az anyja karján, ajka kissé nyitva. Nincs benne többé gyötrelem. Alvónak látszik, ahogy az Egyház leírta ezt a halált: ideiglenesnek."
+    },
+    {
+     "title": "A fogó kéz",
+     "text": "A jobb keze úgy szorítja a hóna alatt, hogy a húsa kidagad az ujjai között. Mégis ruharedő van az ő bőre és az övé között: nem érinti közvetlenül a szent testet."
+    },
+    {
+     "title": "A beszélő kéz",
+     "text": "A bal keze tenyérrel fölfelé nyílik feléd. Ez az egyetlen gesztus az egész csoportban. Felmutatja az áldozatot, és mintha azt kérdezné, mi mondanivaló maradt még."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Ez a nyitott kéz hordozza azt az érzelmet, amelyet az arca visszatart. Nagyon olasz döntés. Az északi szobrászok sebeket és könnyeket mutatva ébresztettek könyörületet. Michelangelo, aki ókori római szobrokon nőtt fel, azt hitte, hogy a szépség és a mozdulatlanság mélyebben megrendíthet a borzalomnál."
+  },
+  {
+   "type": "fact",
+   "text": "A beszélő kéz részben javítás. Négy ujja letörött 1736-ban, a szobor egyik szállítása közben, és egy restaurátor újra elkészítette."
+  },
+  {
+   "type": "text",
+   "text": "Aztán ott van maga a kő bőre. A vésők után reszelők jöttek, majd heteken át tartó dörzsölés habkővel és csiszolóanyagokkal, míg a márvány puha fényt nem kapott. Michelangelo egyetlen más műve sincs ilyen messzire csiszolva. Későbbi éveiben a felületeket gyakran érdesen, sőt befejezetlenül hagyta. Itt, 24 évesen azt akarta bizonyítani, hogy mindenre képes."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "A lehulló kar",
+     "text": "Krisztus jobb karja egyenesen lelóg, az ujjak lazán kunkorodnak a redők között. Holtsúlya bármely sebnél világosabban elmondja, hogy az élet elhagyta ezt a testet."
+    },
+    {
+     "title": "Bordák és izmok",
+     "text": "Michelangelo egy firenzei kórházban valódi holttesteket tanulmányozott. Meglátszik a mellkason, a megfeszült hason és a petyhüdt vállon, amelyet Mária keze felnyom."
+    },
+    {
+     "title": "Redők tája",
+     "text": "A test alatt a köntös mély völgyekre és éles gerincekre tör. Ezek a redők árnyékot fognak, kiemelik a halovány testet, és elrejtik, mekkora valójában Mária öle."
+    },
+    {
+     "title": "A fátyol",
+     "text": "A csuklya márványát a szélén olyan vékonyra faragta, hogy puha szövetnek hat. Árnyékba keretezi az arcot, mint egy kis saját kápolna."
+    },
+    {
+     "title": "Lógó lábak",
+     "text": "A lábak lelógnak az öléből, az egyik egy alacsony fatönkön nyugszik. Itt semmi nem érinti erővel a földet. A test szinte súlytalan."
+    },
+    {
+     "title": "A szikla",
+     "text": "Mária durva, repedezett kövön ül, nem trónon. Golgotát jelképezi, a keresztre feszítés dombját, és durva felülete még finomabbnak mutatja fölötte a csiszolt márványt."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "1964-ben a Pietà hajón átkelt az Atlanti-óceánon, úszó ládába csomagolva, hogy a New York-i világkiállításon bemutassák. A látogatók mozgójárdán suhantak el mellette."
+  },
+  {
+   "type": "text",
+   "text": "1972. május 21-én egy férfi átmászott az oltárkorláton, és kalapáccsal újra meg újra ütötte a szobrot. Mária bal karja a könyökénél letört. Az orra és az egyik szemhéja kicsorbult. A restaurátorok hónapokig illesztették vissza a töredékeket, amelyek egy részét a zsebre tett szemtanúk adták vissza."
+  },
+  {
+   "type": "text",
+   "text": "Azóta a Pietà golyóálló üveg mögött áll, a tömegtől néhány lépéssel hátrébb. Az első zarándokok annyira közel hajolhattak, hogy vitatkozni tudtak az alkotóján. Neked messziről kell elolvasnod a szalagot. De legalább tudod a nevet."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Hová vésette Michelangelo az aláírását?",
+   "options": [
+    "A Mária lába alatti sziklára",
+    "A Mária mellkasán átfutó szalagra",
+    "A csoport hátoldalára"
+   ],
+   "explanation": "A latin felirat a mellkasán átívelő sávon fut."
+  },
+  {
+   "question": "Mire utal a „pietà” szó?",
+   "options": [
+    "Mária, ahogy halott fiát tartja",
+    "Krisztus megkeresztelése",
+    "Temetéseken mondott ima"
+   ],
+   "explanation": "Olaszul „részvétet” jelent, és a halott Krisztust ölében tartó Szűz képét nevezi meg."
+  },
+  {
+   "question": "Hogyan fért el egy felnőtt férfi Mária ölében?",
+   "options": [
+    "Krisztust gyermekként faragta",
+    "Krisztust mellé ültette",
+    "Máriát jóval nagyobbra csinálta, és ruharedők alá rejtette"
+   ],
+   "explanation": "Mária túlméretezett, és köntösének mély redői elrejtik."
+  },
+  {
+   "question": "Miért néz ki Mária ilyen fiatalnak, a Condivi által közölt magyarázat szerint?",
+   "options": [
+    "A modell a szobrász nővére volt",
+    "A tisztaság frissen tartja a nőt",
+    "A márványtömb túl kicsi volt a ráncokhoz"
+   ],
+   "explanation": "Michelangelo állítólag azt mondta, hogy a tökéletesen tiszta nő megőrzi a fiatalságát."
+  },
+  {
+   "question": "Melyik gesztus hordozza Mária érzelmeinek nagy részét?",
+   "options": [
+    "Nyitott bal keze",
+    "Felemelt tekintete",
+    "Reszkető, lehajtott válla"
+   ],
+   "explanation": "Az arca mozdulatlan; a nyitott, felfelé fordított bal kéz beszél."
+  },
+  {
+   "question": "Mi történt a szoborral 1972-ben?",
+   "options": [
+    "Egy hétre ellopták",
+    "New Yorkba szállították",
+    "Kalapáccsal megtámadták"
+   ],
+   "explanation": "Egy férfi többször ráütött, eltörte Mária karját, és megrongálta az arcát."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Michelangelo a legtöbb szobrát aláírta.",
+   "explanation": "A Pietà az egyetlen mű, amelyet valaha aláírt."
+  },
+  {
+   "text": "A Pietà Michelangelo legjobban csiszolt műve.",
+   "explanation": "Heteken át dörzsölte a márványt; később a felületeket gyakran érdesen hagyta."
+  },
+  {
+   "text": "A Pietàt egy francia bíboros sírkápolnájának faragták.",
+   "explanation": "A bíboros a régi Szent Péter-bazilika melletti saját temetkezési kápolnájába rendelte."
+  }
+ ]
+}

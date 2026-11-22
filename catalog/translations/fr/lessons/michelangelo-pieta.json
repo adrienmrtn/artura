@@ -1,0 +1,215 @@
+{
+ "teaser": "La seule œuvre que Michel-Ange ait jamais signée, et par orgueil blessé, à en croire la légende.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Rome, vers 1500. Les pèlerins se pressent dans une chapelle voisine de l'ancienne basilique Saint-Pierre pour voir un nouveau groupe de marbre dont tout le monde parle. Parmi eux, raconte-t-on, se tient le jeune homme qui l'a sculpté, et que personne ne reconnaît. Il entend des visiteurs venus de Lombardie s'extasier bruyamment. L'un d'eux explique qui en est l'auteur : un sculpteur de Milan, évidemment."
+  },
+  {
+   "type": "text",
+   "text": "L'écrivain Giorgio Vasari, qui a connu Michel-Ange, rapporte la suite. Cette nuit-là, le sculpteur s'enferme dans la chapelle avec une lampe et ses ciseaux, et grave son nom dans la pierre, là où nul ne pourra le manquer. Vasari aimait les belles histoires : à prendre avec des pincettes, donc. Le nom, lui, est bel et bien là."
+  },
+  {
+   "type": "find",
+   "text": "Où graverais-tu ton nom pour que personne ne puisse regarder Marie sans le lire ? Touche l'endroit.",
+   "spots": [
+    {
+     "title": "Le bandeau",
+     "text": "Une bande barre la poitrine de Marie, de l'épaule à la taille. On y lit, en capitales latines : « Michel-Ange Buonarroti, Florentin, faisait ceci. » Elle passe juste sur son cœur."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Il n'a plus jamais rien signé. Ni le plafond de la chapelle Sixtine, ni aucune des statues qui ont suivi. Après celle-ci, il n'en avait plus besoin. Le bandeau nomme aussi sa ville, Florence : une petite pique à l'adresse de ceux qui croyaient qu'un tel talent venait d'ailleurs."
+  },
+  {
+   "type": "fact",
+   "text": "Michel-Ange a 23 ans quand il signe le contrat, en 1498. Son garant, un banquier romain, promet par écrit que le résultat sera « la plus belle œuvre de marbre qui soit à Rome ». Elle est livrée environ un an plus tard."
+  },
+  {
+   "type": "text",
+   "text": "Le commanditaire est un cardinal français qui veut une sculpture pour sa propre chapelle funéraire. Il demande une pietà, mot italien qui signifie « pitié » : la Vierge Marie tenant son fils mort après la crucifixion. Le sujet est courant en France et en Allemagne, où on le sculpte le plus souvent dans le bois, avec un Christ raide et sanglant, couché tant bien que mal en travers de sa mère. En Italie, il est encore rare."
+  },
+  {
+   "type": "text",
+   "text": "Cette maladresse a une cause. Un homme adulte ne tient pas sur les genoux d'une femme assise. Couche-le en travers, il dépasse des deux côtés comme une planche. Michel-Ange dispose d'un seul bloc de marbre blanc de Carrare, haut de 174 cm, et il a ce problème à résoudre."
+  },
+  {
+   "type": "lines",
+   "text": "Sa solution, c'est de la géométrie déguisée en étoffe. Trois lignes montrent comment les deux corps s'emboîtent.",
+   "lines": [
+    {
+     "label": "Une pyramide",
+     "text": "Le groupe entier s'inscrit dans un triangle, avec la tête de Marie au sommet et une base très large. Cette forme donne une impression de stabilité et de calme, comme une montagne."
+    },
+    {
+     "label": "Des genoux en table",
+     "text": "Sous la robe, les genoux de Marie sont très écartés. Ils forment une large tablette, assez vaste pour porter un corps entier."
+    },
+    {
+     "label": "Le corps ploie",
+     "text": "Le Christ n'est pas une planche. Sa tête bascule en arrière, sa taille s'enfonce dans le giron de sa mère, ses jambes se replient au genou. La ligne épouse le corps de Marie au lieu de le barrer."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Et maintenant, le secret de cette tablette. Marie est une géante. Si elle se levait, elle dominerait son fils de très haut. Sa petite tête le dissimule, et l'étoffe aussi : tous ces plis profonds, sous la taille, élargissent le bas de son corps sans que tu t'en aperçoives. Tu acceptes la tricherie, tant le drapé semble naturel."
+  },
+  {
+   "type": "key",
+   "text": "Si la Pietà paraît si évidente, c'est que Michel-Ange a enfreint exprès les règles des proportions, puis caché les preuves sous des plis d'étoffe en marbre."
+  },
+  {
+   "type": "text",
+   "text": "Il y a une seconde liberté, et on la lui a reprochée tout de suite. Jésus est mort vers 33 ans : sa mère devrait en avoir près de 50. Ici, elle paraît plus jeune que lui. Quand on lui demande pourquoi, Michel-Ange répond, d'après son biographe Condivi, qu'une femme d'une pureté parfaite garde sa fraîcheur bien plus longtemps que les autres."
+  },
+  {
+   "type": "tour",
+   "title": "Un chagrin sans cri",
+   "text": "Les pietàs plus anciennes montraient une mère qui hurle sa douleur. Regarde comme celle-ci en fait peu, et comme elle en dit long.",
+   "spots": [
+    {
+     "title": "Son visage à elle",
+     "text": "Les yeux baissés, la bouche close, pas une larme. Sa peine est tournée vers l'intérieur. Ce visage lisse, sans une ride, est celui que les critiques ont trouvé trop jeune."
+    },
+    {
+     "title": "Son visage à lui",
+     "text": "La tête bascule en arrière sur le bras de sa mère, les lèvres à peine entrouvertes. Il n'y reste aucune souffrance. Il semble dormir, et c'est ainsi que l'Église décrivait cette mort : provisoire."
+    },
+    {
+     "title": "La main qui tient",
+     "text": "Sa main droite le saisit sous le bras, si fermement que la chair gonfle entre ses doigts. Un pli d'étoffe s'interpose pourtant entre sa peau et celle de son fils : elle ne touche pas directement le corps sacré."
+    },
+    {
+     "title": "La main qui parle",
+     "text": "Sa main gauche s'ouvre vers toi, paume en l'air. C'est le seul geste de tout le groupe. Elle présente le sacrifice et semble demander ce qu'il reste à dire."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Cette main ouverte porte l'émotion que le visage retient. Le choix est très italien. Les sculpteurs du Nord faisaient naître la pitié en montrant des plaies et des larmes. Michel-Ange, nourri de statues de la Rome antique, pensait que la beauté et l'immobilité pouvaient émouvoir plus profondément que l'horreur."
+  },
+  {
+   "type": "fact",
+   "text": "La main qui parle est en partie une réparation. Quatre de ses doigts ont été brisés en 1736, lors d'un des déplacements de la statue, puis refaits par un restaurateur."
+  },
+  {
+   "type": "text",
+   "text": "Reste la peau de la pierre elle-même. Après les ciseaux viennent les limes, puis des semaines de frottement à la pierre ponce et aux abrasifs, jusqu'à ce que le marbre prenne un éclat doux. Aucune autre œuvre de Michel-Ange n'est polie à ce point. Plus tard, il laissera souvent ses surfaces rugueuses, voire inachevées. Ici, à 24 ans, il veut prouver qu'il sait tout faire."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Le bras qui tombe",
+     "text": "Le bras droit du Christ pend tout droit, les doigts mollement repliés parmi les plis. Ce poids mort te dit plus clairement que n'importe quelle plaie que la vie a quitté ce corps."
+    },
+    {
+     "title": "Côtes et muscles",
+     "text": "Michel-Ange avait étudié de vrais cadavres dans un hôpital de Florence. Cela se voit à la cage thoracique, au ventre étiré et à l'épaule relâchée que soulève la main de Marie."
+    },
+    {
+     "title": "Un paysage d'étoffe",
+     "text": "Sous le corps, la robe se creuse en vallées profondes et se dresse en crêtes vives. Ces plis accrochent l'ombre, font ressortir le corps pâle et dissimulent la vraie largeur des genoux de Marie."
+    },
+    {
+     "title": "Le voile",
+     "text": "Le marbre du voile est taillé si fin sur son bord qu'on croit voir un tissu souple. Il encadre le visage d'ombre, comme une petite chapelle à lui seul."
+    },
+    {
+     "title": "Les pieds en l'air",
+     "text": "Les jambes pendent au-delà des genoux de Marie et un pied repose sur une souche basse. Rien, ici, ne pèse vraiment sur le sol. Le corps semble presque sans poids."
+    },
+    {
+     "title": "Le rocher",
+     "text": "Marie n'est pas assise sur un trône mais sur une pierre brute et fendue. Elle figure le Golgotha, la colline de la crucifixion, et sa surface grossière rend le poli du dessus plus fin encore."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "En 1964, la Pietà traverse l'Atlantique en bateau, dans une caisse capable de flotter, pour être montrée à l'Exposition universelle de New York. Les visiteurs défilaient devant elle sur des tapis roulants."
+  },
+  {
+   "type": "text",
+   "text": "Le 21 mai 1972, un homme enjambe la balustrade de l'autel et frappe la statue à coups de marteau, encore et encore. Le bras gauche de Marie se détache au coude. Son nez et une paupière sont ébréchés. Les restaurateurs passent des mois à remettre les fragments en place, dont certains rendus par des témoins qui les avaient glissés dans leur poche."
+  },
+  {
+   "type": "text",
+   "text": "Depuis, la Pietà se tient derrière une vitre blindée, à plusieurs pas de la foule. Les premiers pèlerins pouvaient s'approcher assez pour se disputer sur le nom de son auteur. Toi, tu dois lire le bandeau de loin. Mais au moins, ce nom, tu le connais."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Où Michel-Ange a-t-il gravé sa signature ?",
+   "options": [
+    "Sur le rocher, sous les pieds de Marie",
+    "Sur le bandeau qui barre la poitrine de Marie",
+    "Au dos du groupe"
+   ],
+   "explanation": "L'inscription latine court le long de la bande qui traverse sa poitrine."
+  },
+  {
+   "question": "Que désigne le mot « pietà » ?",
+   "options": [
+    "Marie tenant son fils mort",
+    "Le baptême du Christ",
+    "Une prière dite aux enterrements"
+   ],
+   "explanation": "Le mot signifie « pitié » en italien et désigne l'image de la Vierge avec le Christ mort sur ses genoux."
+  },
+  {
+   "question": "Comment Michel-Ange fait-il tenir un homme adulte sur les genoux de Marie ?",
+   "options": [
+    "Il a sculpté le Christ en enfant",
+    "Il a assis le Christ à côté d'elle",
+    "Il a fait Marie bien plus grande et l'a caché sous le drapé"
+   ],
+   "explanation": "Marie est surdimensionnée, et les plis profonds de sa robe le dissimulent."
+  },
+  {
+   "question": "Pourquoi Marie paraît-elle si jeune, selon l'explication rapportée par Condivi ?",
+   "options": [
+    "Le modèle était la sœur du sculpteur",
+    "La pureté conserve à une femme sa fraîcheur",
+    "Le bloc de marbre était trop petit pour des rides"
+   ],
+   "explanation": "Michel-Ange aurait dit qu'une femme parfaitement pure garde sa jeunesse."
+  },
+  {
+   "question": "Quel geste porte l'essentiel de l'émotion de Marie ?",
+   "options": [
+    "Sa main gauche ouverte",
+    "Ses yeux levés au ciel",
+    "Ses épaules courbées, secouées de sanglots"
+   ],
+   "explanation": "Son visage reste immobile : c'est la main gauche ouverte, paume en l'air, qui parle."
+  },
+  {
+   "question": "Qu'est-il arrivé à la statue en 1972 ?",
+   "options": [
+    "Elle a été volée pendant une semaine",
+    "Elle a été expédiée à New York",
+    "Elle a été attaquée à coups de marteau"
+   ],
+   "explanation": "Un homme l'a frappée à plusieurs reprises, brisant le bras de Marie et abîmant son visage."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Michel-Ange a signé la plupart de ses sculptures.",
+   "explanation": "La Pietà est la seule œuvre qu'il ait jamais signée."
+  },
+  {
+   "text": "La Pietà est la plus polie de toutes les œuvres de Michel-Ange.",
+   "explanation": "Il a frotté le marbre pendant des semaines. Plus tard, il laissera souvent ses surfaces rugueuses."
+  },
+  {
+   "text": "La Pietà a été sculptée pour la chapelle funéraire d'un cardinal français.",
+   "explanation": "Le cardinal l'avait commandée pour sa propre chapelle funéraire, voisine de l'ancienne basilique Saint-Pierre."
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "teaser": "Dos jóvenes diplomáticos, un estante lleno de ciencia y una mancha en el suelo que se convierte en calavera.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Veintinueve y veinticinco. Son las edades de los dos hombres de este cuadro, y Hans Holbein escribió ambas cifras en la pintura para que nadie las olvidara. A nosotros nos parecen mayores, con sus pieles, sus barbas y su quietud. En 1533 eran jóvenes, poderosos, y estaban atrapados en Londres con una misión que no le gustaba a ninguno de los dos."
+  },
+  {
+   "type": "text",
+   "text": "A la izquierda está Jean de Dinteville, embajador del rey de Francia en la corte de Enrique VIII. A la derecha, su amigo Georges de Selve, obispo, que fue a visitarlo aquella primavera. El cuadro es casi cuadrado y mide unos 2 metros de lado, así que las figuras son de tamaño natural. En la sala te los encuentras cara a cara."
+  },
+  {
+   "type": "find",
+   "text": "La edad de Dinteville está escrita en algo que tiene en la mano. Toca el objeto.",
+   "spots": [
+    {
+     "title": "La daga",
+     "text": "La vaina dorada que sujeta con la mano derecha lleva una inscripción en latín con su edad: 29. De ella cuelga una borla pesada. Él es el hombre de la corte y de la espada."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "La cifra de De Selve es más discreta. Está escrita en el canto del libro cerrado que tiene bajo el codo derecho: 25. Una daga para uno, un libro para el otro. Holbein presenta a los amigos como dos maneras de vivir, la activa y la reflexiva, y luego llena el espacio que hay entre ellos con todo lo que su época se enorgullecía de saber."
+  },
+  {
+   "type": "fact",
+   "text": "Londres, primavera de 1533: Enrique VIII acababa de casarse en secreto con Ana Bolena y, para hacerlo, estaba rompiendo con el papa. La tarea de Dinteville era seguir la crisis de cerca para Francia. En una carta a los suyos se describió como el embajador más melancólico que jamás hubo."
+  },
+  {
+   "type": "text",
+   "text": "El mueble que hay entre los dos hombres tiene dos niveles, y su contenido está ordenado como una biblioteca. El estante de arriba pertenece al cielo: instrumentos para cartografiar las estrellas y medir el tiempo. El de abajo pertenece a la vida en la tierra: geografía, comercio y música. Visita los dos."
+  },
+  {
+   "type": "tour",
+   "title": "Dos estantes",
+   "text": "Arriba el cielo, abajo la tierra. No todo lo que hay en ellos funciona como debería.",
+   "spots": [
+    {
+     "title": "El globo celeste",
+     "text": "Un globo azul del firmamento, con las constelaciones dibujadas como animales y figuras. El codo de Dinteville descansa justo al lado."
+    },
+    {
+     "title": "El reloj de sol",
+     "text": "Un reloj de sol de muchas caras, con una pequeña aguja en cada una. Los investigadores que comprobaron las sombras descubrieron que las caras no coinciden entre sí. El tiempo anda desquiciado."
+    },
+    {
+     "title": "La Tierra",
+     "text": "Un globo terráqueo con Europa vuelta hacia nosotros. Holbein escribió en él el nombre de Polisy, el pueblo francés donde Dinteville tenía su castillo y donde iba a colgarse el cuadro."
+    },
+    {
+     "title": "El laúd",
+     "text": "Está pintado apuntando hacia nosotros, el ángulo más difícil de dibujar, como alarde de destreza. Una de sus cuerdas se ha roto. En un cuadro de diplomáticos, una cuerda rota dice que la armonía ha fracasado."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Una cuerda rota, relojes que no se ponen de acuerdo: pequeñas alarmas. En 1533, Europa se desgarraba entre los católicos y los seguidores de Martín Lutero, y los dos amigos dedicaron su carrera a intentar mantenerla unida. El himnario abierto junto al laúd muestra dos himnos de Lutero. Muchos lo leen como el deseo de que las iglesias volvieran a cantar juntas."
+  },
+  {
+   "type": "text",
+   "text": "Y ahora, lo más extraño que hay en ningún retrato del siglo XVI. Una mancha alargada, entre gris y blanca, flota sobre el suelo como un madero a la deriva o un borrón. Todo lo demás está pintado con una precisión de bisturí, así que a Holbein no se le fue la mano. Prueba esto: inclina el teléfono hasta dejarlo casi plano y mira la mancha de refilón desde el lado derecho de la pantalla, con los ojos entornados. O deja que las líneas lo hagan por ti."
+  },
+  {
+   "type": "lines",
+   "text": "La mancha tiene una dirección y un punto de vista secreto.",
+   "lines": [
+    {
+     "label": "El eje largo",
+     "text": "La forma está estirada con fuerza a lo largo de esta línea inclinada, mucho más allá de su longitud natural, y aplastada en el otro sentido."
+    },
+    {
+     "label": "Una calavera",
+     "text": "Dentro del contorno hay dos cuencas oscuras, el hueco de la nariz y una mandíbula, todo arrastrado de lado. Una imagen deformada para que solo se lea desde un punto se llama anamorfosis."
+    },
+    {
+     "label": "Dónde colocarse",
+     "text": "Prolonga el eje hasta el borde derecho. Un visitante situado ahí, pegado a la pared y mirando hacia atrás a lo largo de la línea, ve cómo la forma estirada se encoge hasta ser una calavera humana normal."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Una calavera, en medio de tanta piel, tanta seda y tanta ciencia. Es un memento mori, «recuerda que morirás» en latín: un aviso deslizado dentro de una imagen del éxito. Los dos hombres no pueden verla desde donde están. Tú tampoco, de frente. Solo encuentras la muerte cuando te apartas del punto de vista habitual."
+  },
+  {
+   "type": "fact",
+   "text": "Nadie sabe con certeza cómo iba a colgarse el cuadro. Una teoría lo sitúa junto a una puerta o en una escalera del castillo de Dinteville, de modo que quien pasara pillara la calavera con el rabillo del ojo."
+  },
+  {
+   "type": "text",
+   "text": "La muerte, sin embargo, recibe una respuesta, y es todavía más fácil pasarla por alto que la calavera. Holbein la metió en el mismísimo borde de la tabla, medio escondida tras la cortina verde, donde a casi ningún visitante se le ocurre mirar."
+  },
+  {
+   "type": "find",
+   "text": "Algo pequeño y plateado se esconde en una de las esquinas de arriba. ¿En cuál, y qué es?",
+   "spots": [
+    {
+     "title": "El crucifijo",
+     "text": "Una figurita de plata de Cristo en la cruz, que asoma donde termina la cortina. Para estos dos creyentes es la promesa que hay más allá de la calavera: la muerte no tiene la última palabra."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "El cuadro se lee en tres capas. De frente: riqueza, saber, amistad. De lado: la muerte debajo de todo. En la esquina: la esperanza detrás de todo."
+  },
+  {
+   "type": "text",
+   "text": "Holbein mete todo ese sermón sin estropear el retrato. Era un alemán que se había mudado a Londres en busca de trabajo, y pintaba al óleo sobre tablas de roble, superponiendo capas finas y vítreas. Así consigue el forro de piel suave del abrigo de Dinteville, la manga de raso rosa con sus brillos duros y la lana anudada de la alfombra. Cada material responde a la luz a su manera."
+  },
+  {
+   "type": "fact",
+   "text": "Holbein pintó alfombras turcas como la del estante de arriba tantas veces, y con tanta exactitud, que los expertos llaman hoy a todo ese tipo «alfombras Holbein»."
+  },
+  {
+   "type": "text",
+   "text": "El cuadro volvió a Francia con Dinteville y se perdió de vista durante siglos. Cuando la National Gallery de Londres lo compró en 1890, ya nadie recordaba quiénes eran los dos hombres. Una investigadora llamada Mary Hervey rebuscó en los archivos y les devolvió el nombre en 1900."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "La medalla",
+     "text": "De la cadena de oro de Dinteville cuelga la insignia de la Orden de San Miguel, el mayor honor que podía conceder un rey de Francia."
+    },
+    {
+     "title": "A los 25 años",
+     "text": "El libro cerrado bajo el codo de De Selve. En el canto lleva anotada en latín su edad, la compañera discreta de la cifra de la daga."
+    },
+    {
+     "title": "El libro de cuentas",
+     "text": "Un manual impreso de aritmética para mercaderes, entreabierto. La página que se ve trata de la división, una palabra con retintín en una Europa dividida."
+    },
+    {
+     "title": "El himnario",
+     "text": "Música y texto en alemán, pintados con tanta exactitud que se pueden identificar los dos himnos. Ambos son de Martín Lutero."
+    },
+    {
+     "title": "Las flautas",
+     "text": "Junto al himnario hay un estuche de cuero con flautas. Al juego le falta una: otro instrumento que ya no puede sonar afinado con los demás."
+    },
+    {
+     "title": "La ropa del obispo",
+     "text": "Una túnica larga y oscura de seda labrada, ningún arma, las manos cerradas. La contención de un hombre de Iglesia junto al raso rosa y el aplomo de Dinteville."
+    },
+    {
+     "title": "El suelo",
+     "text": "El dibujo de piedra taraceada copia uno real: el pavimento medieval que hay ante el altar mayor de la abadía de Westminster, en Londres, donde se corona a los monarcas ingleses."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Veintinueve y veinticinco. Dinteville vivió hasta los cincuenta, más o menos. De Selve murió ocho años después de posar, con unos treinta y dos. La calavera tenía razón, como siempre. Pero los dos amigos siguen ahí de pie, con sus mejores galas, y los visitantes siguen dando cada día un paso a un lado para encontrar lo que ellos dos no podían ver."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "¿Dónde escribió Holbein la edad de Dinteville?",
+   "options": [
+    "En la vaina de la daga",
+    "En el laúd",
+    "En la cortina verde"
+   ],
+   "explanation": "La vaina dorada que tiene en la mano lleva la inscripción."
+  },
+  {
+   "question": "¿Qué hay en el estante de arriba?",
+   "options": [
+    "Instrumentos musicales",
+    "Armas y armaduras",
+    "Instrumentos para estudiar el cielo y el tiempo"
+   ],
+   "explanation": "El estante superior pertenece al cielo: un globo celeste y relojes de sol."
+  },
+  {
+   "question": "¿Qué es una anamorfosis?",
+   "options": [
+    "Un retrato de dos personas",
+    "Una imagen deformada para que solo se lea bien desde un punto de vista",
+    "Una pintura hecha sobre tablas de roble"
+   ],
+   "explanation": "La calavera solo se ve bien de lado, mirando a lo largo de su eje."
+  },
+  {
+   "question": "¿Qué sugiere la cuerda rota del laúd?",
+   "options": [
+    "Que el laúd era barato",
+    "Que a Holbein no le gustaba la música",
+    "Que la armonía ha fracasado"
+   ],
+   "explanation": "Una cuerda rota era señal de discordia, muy propia de una Europa partida por la religión."
+  },
+  {
+   "question": "¿Qué hay medio escondido tras la cortina, en la esquina superior izquierda?",
+   "options": [
+    "Una segunda calavera",
+    "Un crucifijo de plata",
+    "El autorretrato de Holbein"
+   ],
+   "explanation": "Un pequeño crucifijo responde a la calavera con una promesa de salvación."
+  },
+  {
+   "question": "¿Qué lugar real copia el suelo?",
+   "options": [
+    "La abadía de Westminster",
+    "El castillo de Dinteville",
+    "San Pedro de Roma"
+   ],
+   "explanation": "El dibujo sigue el pavimento medieval de la abadía de Westminster."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Los dos retratados han sido conocidos por su nombre siempre, desde 1533 hasta hoy.",
+   "explanation": "Su identidad cayó en el olvido y no la recuperó hasta 1900 Mary Hervey."
+  },
+  {
+   "text": "La calavera se ve normal cuando el cuadro se mira de lado.",
+   "explanation": "Al mirar a lo largo de su eje largo, la forma estirada se encoge hasta volver a ser una calavera."
+  },
+  {
+   "text": "Los dos hombres del cuadro tenían más de cincuenta años cuando posaron.",
+   "explanation": "Tenían 29 y 25, como dicen las inscripciones."
+  }
+ ]
+}

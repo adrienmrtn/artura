@@ -6,9 +6,10 @@ struct ReviewView: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var content: ContentStore
 
-    private static let modes = ["Review", "Practice"]
+    /// Labels of the two modes, shown by the picker: [Review, Practice].
+    private static let modes = [L("Review"), L("Practice")]
 
-    @State private var mode = AppDebug.string("reviewMode") == "practice" ? "Practice" : "Review"
+    @State private var mode = AppDebug.string("reviewMode") == "practice" ? ReviewView.modes[1] : ReviewView.modes[0]
     @State private var deck: ReviewDeck?
     @State private var course: Artwork?
     @State private var library: LibraryTab?
@@ -39,8 +40,8 @@ struct ReviewView: View {
             VStack(alignment: .leading, spacing: 14) {
                 SkyHeader {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Review").font(.figtree(28, .semibold))
-                        Text("Remember what you've seen").font(.figtree(15))
+                        Text(L("Review")).font(.figtree(28, .semibold))
+                        Text(L("Remember what you've seen")).font(.figtree(15))
                     }
                     .foregroundStyle(.white)
                     .padding(.leading, 24)
@@ -49,14 +50,14 @@ struct ReviewView: View {
 
                 VStack(alignment: .leading, spacing: 16) {
                     SegmentedPicker(options: Self.modes, selection: $mode)
-                    if mode == "Review" {
+                    if mode == Self.modes[0] {
                         todayCard
-                        shelf(title: "Saved", icon: "bookmark.fill", tint: Palette.blue,
+                        shelf(title: L("Saved"), icon: "bookmark.fill", tint: Palette.blue,
                               items: savedArtworks, tab: .saved,
-                              empty: "Tap the bookmark on an artwork to read it later.")
-                        shelf(title: "Favorites", icon: "heart.fill", tint: Palette.orange,
+                              empty: L("Tap the bookmark on an artwork to read it later."))
+                        shelf(title: L("Favorites"), icon: "heart.fill", tint: Palette.orange,
                               items: favoriteArtworks, tab: .favorites,
-                              empty: "Tap the heart on an artwork to find it here.")
+                              empty: L("Tap the heart on an artwork to find it here."))
                     } else {
                         practiceOptions
                     }
@@ -89,16 +90,16 @@ struct ReviewView: View {
         VStack(spacing: 0) {
             HStack(alignment: .top, spacing: 12) {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("TODAY")
+                    Text(L("TODAY"))
                         .font(.figtree(12, .bold))
                         .tracking(2.5)
                         .foregroundStyle(Palette.muted)
                     if dailyCount == 0 {
-                        Text("Nothing to review yet")
+                        Text(L("Nothing to review yet"))
                             .font(.figtree(22, .semibold))
                             .foregroundStyle(Palette.ink)
                             .fixedSize(horizontal: false, vertical: true)
-                        Text("Read your first lesson, and its questions will come back here.")
+                        Text(L("Read your first lesson, and its questions will come back here."))
                             .font(.aSmall)
                             .foregroundStyle(Palette.muted)
                             .fixedSize(horizontal: false, vertical: true)
@@ -107,12 +108,13 @@ struct ReviewView: View {
                             Text("\(dailyCount)")
                                 .font(.figtree(52, .bold))
                                 .foregroundStyle(Palette.ink)
-                            Text(dailyCount == 1 ? "card" : "cards")
+                            // L: shown after the number of review cards, in a larger font ("10 cards").
+                            Text(dailyCount == 1 ? L("card") : L("cards"))
                                 .font(.figtree(22, .semibold))
                                 .foregroundStyle(Palette.ink)
                         }
-                        Text(user.reviewDoneToday ? "Done for today. Come back tomorrow for a new set."
-                                                  : "drawn from what you've read")
+                        Text(user.reviewDoneToday ? L("Done for today. Come back tomorrow for a new set.")
+                                                  : L("drawn from what you've read"))
                             .font(.aSmall)
                             .foregroundStyle(Palette.muted)
                             .fixedSize(horizontal: false, vertical: true)
@@ -140,7 +142,7 @@ struct ReviewView: View {
                     if user.reviewDoneToday && dailyCount > 0 {
                         CheckBadge(color: Palette.green, size: 22)
                     }
-                    Text(dailyCount == 0 ? "Open today's artwork" : (user.reviewDoneToday ? "Review again" : "Review now"))
+                    Text(dailyCount == 0 ? L("Open today's artwork") : (user.reviewDoneToday ? L("Review again") : L("Review now")))
                         .font(.figtree(17, .semibold))
                         .foregroundStyle(Palette.ink)
                     Spacer()
@@ -166,7 +168,7 @@ struct ReviewView: View {
                 Text(title).font(.aHeading).foregroundStyle(Palette.ink)
                 Spacer()
                 if !items.isEmpty {
-                    Button("See all \(items.count)") {
+                    Button(L("See all %@", "\(items.count)")) {
                         Haptics.tap()
                         library = tab
                     }
@@ -203,16 +205,16 @@ struct ReviewView: View {
 
     @ViewBuilder
     private var practiceOptions: some View {
-        Text("Choose what to practice").font(.aHeading).foregroundStyle(Palette.ink)
-        practiceRow(title: "My favorites", detail: "The artworks you liked",
+        Text(L("Choose what to practice")).font(.aHeading).foregroundStyle(Palette.ink)
+        practiceRow(title: L("My favorites"), detail: L("The artworks you liked"),
                     image: favoriteArtworks.first?.image ?? "ill_palette",
-                    artworks: favoriteArtworks, empty: "Like an artwork first")
-        practiceRow(title: "Everything I've read", detail: "Every lesson you've opened",
+                    artworks: favoriteArtworks, empty: L("Like an artwork first"))
+        practiceRow(title: L("Everything I've read"), detail: L("Every lesson you've opened"),
                     image: readArtworks.first?.image ?? "ill_oeil",
-                    artworks: readArtworks, empty: "Read a lesson first")
-        practiceRow(title: "All artworks", detail: "The whole collection, mixed",
+                    artworks: readArtworks, empty: L("Read a lesson first"))
+        practiceRow(title: L("All artworks"), detail: L("The whole collection, mixed"),
                     image: "ill_galerie",
-                    artworks: content.artworks, empty: "No artwork available")
+                    artworks: content.artworks, empty: L("No artwork available"))
     }
 
     private func practiceRow(title: String, detail: String, image: String, artworks: [Artwork], empty: String) -> some View {
@@ -225,7 +227,7 @@ struct ReviewView: View {
                 ArtImage(name: image).frame(width: 88, height: 88)
                 VStack(alignment: .leading, spacing: 3) {
                     Text(title).font(.aCardTitle).foregroundStyle(Palette.ink)
-                    Text(available == 0 ? empty : "\(detail) · \(artworks.count) artwork\(artworks.count == 1 ? "" : "s")")
+                    Text(available == 0 ? empty : (artworks.count == 1 ? L("%@ · 1 artwork", detail) : L("%@ · %@ artworks", detail, "\(artworks.count)")))
                         .font(.aCaption).foregroundStyle(Palette.muted)
                         .multilineTextAlignment(.leading)
                 }

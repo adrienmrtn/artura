@@ -11,7 +11,7 @@ enum AppLinks {
 extension Artwork {
     /// Text that goes with a shared artwork.
     var shareMessage: String {
-        var text = "“\(title)” by \(artist), \(yearLabel). I'm learning its story on Artura."
+        var text = L("“%@” by %@, %@. I'm learning its story on Artura.", title, artist, yearLabel)
         if let url = AppLinks.appStore { text += " \(url.absoluteString)" }
         return text
     }
@@ -46,7 +46,7 @@ struct ArtworkShareLink<Label: View>: View {
             }
         }
         .simultaneousGesture(TapGesture().onEnded { Haptics.tap() })
-        .accessibilityLabel("Share \(artwork.title)")
+        .accessibilityLabel(L("Share %@", artwork.title))
     }
 }
 

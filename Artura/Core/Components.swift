@@ -115,7 +115,7 @@ struct StreakChip: View {
     var body: some View {
         HStack(spacing: 6) {
             Image(systemName: "flame.fill").foregroundStyle(Palette.orange)
-            Text(days == 1 ? "\(days) day" : "\(days) days")
+            Text(days == 1 ? L("1 day") : L("%@ days", "\(days)"))
                 .font(.figtree(14, .semibold))
                 .foregroundStyle(Palette.ink)
         }
