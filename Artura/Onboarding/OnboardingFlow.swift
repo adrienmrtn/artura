@@ -95,9 +95,9 @@ struct OnboardingFlow: View {
         TrialOffer(pro.yearly) ?? TrialOffer(previewDays: 3)
     }
 
-    /// Last-minute offer: the same subscription with a longer trial.
+    /// Gift offer, shown once when the visitor is about to leave: a longer trial and a lower yearly price.
     private var extendedOffer: TrialOffer? {
-        TrialOffer(pro.yearlyExtended) ?? TrialOffer(previewDays: 7)
+        TrialOffer(pro.yearlyExtended) ?? TrialOffer(previewDays: 7, gift: true)
     }
 
     // MARK: Navigation

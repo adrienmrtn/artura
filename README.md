@@ -87,9 +87,9 @@ Produits attendus :
 
 - `Artura_yearly` (essai gratuit de 3 jours)
 - `Artura_monthly` (essai gratuit de 3 jours)
-- `Artura_yearly_trial7` (même abonnement annuel, essai gratuit de 7 jours : l'offre de dernière minute de l'onboarding)
+- `Artura_yearly_gift` (offre cadeau : annuel 40 % moins cher, essai gratuit de 7 jours ; proposée une fois quand on ferme l'écran d'essai ou qu'on annule la feuille de paiement)
 
-`Artura/Artura.storekit` permet de tester les achats dans le simulateur sans App Store Connect ; le schéma partagé le référence déjà. **Les prix qu'il contient (29,99 et 4,99) sont des valeurs de test**, à remplacer par les vrais tarifs, puis à créer à l'identique dans App Store Connect.
+`Artura/Artura.storekit` permet de tester les achats dans le simulateur sans App Store Connect ; le schéma partagé le référence déjà. **Les prix qu'il contient (29,99, 6,99 et 17,99) reprennent la zone 1 d'App Store Connect**, où les tarifs sont définis par pays.
 
 ## Connexion
 
@@ -101,7 +101,7 @@ Produits attendus :
 - L'onboarding annonce deux choses qui n'existent pas encore : la photo d'une œuvre expliquée par Artura et « près de 400 tableaux et artistes en un an » (le contenu compte aujourd'hui 8 œuvres).
 - Connexion Google : renseigner `GoogleAuth.clientID` (`Artura/Services/GoogleAuth.swift`) avec un identifiant client OAuth de type iOS créé dans Google Cloud Console. Sans lui, le bouton n'apparaît qu'en build Debug.
 - Renseigner `Legal.privacy` (`OnboardingPaywall.swift`) avec l'adresse de la politique de confidentialité.
-- Fixer les prix et créer les produits dans App Store Connect. Tant qu'ils n'existent pas, les écrans cadeau et essai gratuit s'affichent avec des prix d'exemple (`TrialOffer(previewDays:)`, 29,99 $) et le bouton d'essai ouvre simplement l'appli : à ne pas publier tel quel.
+- Fixer les prix et créer les produits dans App Store Connect. Tant qu'ils n'existent pas, les écrans cadeau et essai gratuit s'affichent avec des prix d'exemple (`TrialOffer(previewDays:)`, 29,99 $ et 17,99 $ pour l'offre cadeau) et le bouton d'essai ouvre simplement l'appli : à ne pas publier tel quel.
 - Vérifier les licences des reproductions (Wikimedia Commons) et celle des illustrations générées.
 - Renseigner `AppLinks.appStore` (`Artura/Feed/ArtworkShare.swift`) : le lien ajouté aux partages. L'adresse de support est `support@vikstudios.com`.
 - Widget : à tester sur un vrai téléphone (ajout à l'écran d'accueil, changement d'œuvre à minuit).

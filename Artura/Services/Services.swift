@@ -48,8 +48,8 @@ enum Reminder {
 final class ProStore: ObservableObject {
     static let yearlyID = "Artura_yearly"
     static let monthlyID = "Artura_monthly"
-    /// Same yearly subscription, with a 7-day trial instead of 3 (last-minute offer).
-    static let yearlyExtendedID = "Artura_yearly_trial7"
+    /// Gift offer: the yearly subscription 40% cheaper, with a 7-day trial instead of 3 (last-minute offer).
+    static let yearlyExtendedID = "Artura_yearly_gift"
     static let allIDs: Set<String> = [yearlyID, monthlyID, yearlyExtendedID]
 
     @Published var products: [Product] = []
@@ -101,6 +101,7 @@ final class ProStore: ObservableObject {
     /// Starts the purchase. Returns true if the subscription is active at the end.
     func purchase(_ product: Product) async -> Bool {
         isPurchasing = true
+        lastError = nil
         defer { isPurchasing = false }
         do {
             let result = try await product.purchase()
@@ -155,23 +156,27 @@ struct TrialOffer {
     let monthlyPrice: String
     /// "$0.00"
     let zeroPrice: String
+    /// Yearly price as a number, to compute the discount of the gift offer.
+    let yearlyAmount: Decimal
 
     init?(_ product: Product?) {
         guard let product, let days = product.trialDays else { return nil }
         self.product = product
         trialDays = days
         yearlyPrice = product.displayPrice
+        yearlyAmount = product.price
         monthlyPrice = (product.price / 12).formatted(product.priceFormatStyle)
         zeroPrice = Decimal(0).formatted(product.priceFormatStyle)
     }
 
     /// Sample values, used while the StoreKit product is not available (products not yet created in
     /// App Store Connect, screenshots). Nothing can be bought with it: the trial button just opens the app.
-    init(previewDays: Int) {
+    init(previewDays: Int, gift: Bool = false) {
         product = nil
         trialDays = previewDays
-        yearlyPrice = "$29.99"
-        monthlyPrice = "$2.50"
+        yearlyPrice = gift ? "$17.99" : "$29.99"
+        yearlyAmount = gift ? Decimal(string: "17.99")! : Decimal(string: "29.99")!
+        monthlyPrice = gift ? "$1.50" : "$2.50"
         zeroPrice = "$0.00"
     }
 }

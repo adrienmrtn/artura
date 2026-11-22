@@ -500,6 +500,7 @@ struct TrialScreen: View {
         .sheet(isPresented: $showExitOffer) {
             if let extendedOffer {
                 ExitOfferSheet(pro: pro, offer: extendedOffer, baseDays: offer.trialDays,
+                               basePrice: offer.yearlyPrice, discount: discount(of: extendedOffer),
                                firstName: user.profile.firstName,
                                onAccept: { buy(extendedOffer) },
                                onDecline: {
@@ -649,13 +650,24 @@ struct TrialScreen: View {
 
     private func close() {
         // One last offer before leaving, only once.
-        if let extendedOffer, !exitOfferSeen, extendedOffer.trialDays > offer.trialDays {
-            exitOfferSeen = true
-            Haptics.press()
-            showExitOffer = true
-        } else {
-            onFinish()
-        }
+        if !presentExitOffer() { onFinish() }
+    }
+
+    /// Shows the gift offer if it hasn't been shown yet. Returns false when there is nothing to show.
+    @discardableResult
+    private func presentExitOffer() -> Bool {
+        guard let extendedOffer, !exitOfferSeen, extendedOffer.trialDays > offer.trialDays else { return false }
+        exitOfferSeen = true
+        Haptics.press()
+        showExitOffer = true
+        return true
+    }
+
+    /// How much cheaper the gift offer is than the regular yearly price, in percent (0 if it isn't).
+    private func discount(of gift: TrialOffer) -> Int {
+        guard offer.yearlyAmount > 0, gift.yearlyAmount < offer.yearlyAmount else { return 0 }
+        let ratio = NSDecimalNumber(decimal: 1 - gift.yearlyAmount / offer.yearlyAmount).doubleValue
+        return Int((ratio * 100).rounded())
     }
 
     private func buy(_ chosen: TrialOffer) {
@@ -672,6 +684,10 @@ struct TrialScreen: View {
                 if reminder == true { Reminder.scheduleTrialEnding(trialDays: chosen.trialDays) }
                 showExitOffer = false
                 onFinish()
+            } else if pro.lastError == nil, !showExitOffer {
+                // The App Store sheet was opened, then dismissed: this is the moment for the gift offer.
+                try? await Task.sleep(nanoseconds: 450_000_000)
+                presentExitOffer()
             }
         }
     }
@@ -708,6 +724,10 @@ struct ExitOfferSheet: View {
     let offer: TrialOffer
     /// Length of the base trial, struck through next to the new one.
     let baseDays: Int
+    /// Regular yearly price, struck through next to the gift price.
+    let basePrice: String
+    /// Discount on the yearly price, in percent (0 = none).
+    let discount: Int
     let firstName: String?
     let onAccept: () -> Void
     let onDecline: () -> Void
@@ -730,7 +750,9 @@ struct ExitOfferSheet: View {
                     Text(title)
                         .font(.figtree(26, .bold))
                         .foregroundStyle(Palette.ink)
-                    Text("Here are \(extraDays) extra days to explore all of Artura.")
+                    Text(discount > 0
+                         ? "Before you go: \(offer.trialDays) days free and \(discount)% off, so you can at least try Artura."
+                         : "Here are \(extraDays) extra days to explore all of Artura.")
                         .font(.figtree(16))
                         .foregroundStyle(Palette.muted)
                         .fixedSize(horizontal: false, vertical: true)
@@ -845,14 +867,28 @@ struct ExitOfferSheet: View {
 
             HStack {
                 VStack(alignment: .leading, spacing: 1) {
-                    Text("Full access")
-                        .font(.figtree(15, .bold)).foregroundStyle(Palette.ink)
-                    Text("Lessons, games and movements")
-                        .font(.figtree(13)).foregroundStyle(Palette.muted)
+                    if discount > 0 {
+                        HStack(alignment: .firstTextBaseline, spacing: 6) {
+                            Text("\(offer.yearlyPrice) / year")
+                                .font(.figtree(17, .bold)).foregroundStyle(Palette.ink)
+                            Text(basePrice)
+                                .font(.figtree(14, .medium)).foregroundStyle(Palette.muted)
+                                .strikethrough()
+                        }
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.8)
+                        Text("Full access, after your free week")
+                            .font(.figtree(13)).foregroundStyle(Palette.muted)
+                    } else {
+                        Text("Full access")
+                            .font(.figtree(15, .bold)).foregroundStyle(Palette.ink)
+                        Text("Lessons, games and movements")
+                            .font(.figtree(13)).foregroundStyle(Palette.muted)
+                    }
                 }
                 Spacer(minLength: 8)
                 // The "free" stamp
-                Text("+ \(extraDays) DAYS FREE")
+                Text(discount > 0 ? "\(discount)% OFF" : "+ \(extraDays) DAYS FREE")
                     .font(.figtree(11, .bold))
                     .tracking(0.5)
                     .lineLimit(1)
@@ -871,7 +907,9 @@ struct ExitOfferSheet: View {
         .background(TicketShape().fill(.white).shadow(color: Palette.blueDark.opacity(0.12), radius: 16, y: 8))
         .overlay(TicketShape().stroke(Palette.blue, lineWidth: 1.5))
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Visitor pass: \(offer.trialDays) days free instead of \(baseDays)")
+        .accessibilityLabel(discount > 0
+            ? "Visitor pass: \(offer.trialDays) days free instead of \(baseDays), then \(offer.yearlyPrice) per year instead of \(basePrice)"
+            : "Visitor pass: \(offer.trialDays) days free instead of \(baseDays)")
     }
 }
 
