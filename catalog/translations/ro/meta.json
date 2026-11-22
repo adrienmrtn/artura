@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Bustul Nefertitei",
+   "artist": "Thutmose",
+   "year_label": "1345 î.Hr.",
+   "museum": "Neues Museum, Berlin"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Masca lui Tutankhamon",
+   "artist": "Anonim (Egipt)",
+   "year_label": "1323 î.Hr.",
+   "museum": "Marele Muzeu Egiptean, Giza"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Victoria din Samotracia",
+   "artist": "Anonim (Grecia)",
+   "year_label": "190 î.Hr.",
+   "museum": "Luvru, Paris"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Venus din Milo",
+   "artist": "Alexandros din Antiohia",
+   "year_label": "120 î.Hr.",
+   "museum": "Luvru, Paris"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Deplângerea lui Hristos",
+   "artist": "Giotto",
+   "year_label": "1305",
+   "museum": "Capela Scrovegni, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Prea Bogatele Ceasuri ale ducelui de Berry: ianuarie",
+   "artist": "Frații Limbourg",
+   "year_label": "1416",
+   "museum": "Muzeul Condé, Chantilly"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Portretul soților Arnolfini",
+   "artist": "Jan van Eyck",
+   "year_label": "1434",
+   "museum": "National Gallery, Londra"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Coborârea de pe cruce",
+   "artist": "Rogier van der Weyden",
+   "year_label": "1435",
+   "museum": "Prado, Madrid"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "Grădina plăcerilor pământești",
+   "artist": "Hieronymus Bosch",
+   "year_label": "1500",
+   "museum": "Prado, Madrid"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Nașterea lui Venus",
+   "artist": "Sandro Botticelli",
+   "year_label": "1485",
+   "museum": "Uffizi, Florența"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1503",
+   "museum": "Luvru, Paris"
+  },
+  "vinci-the-last-supper": {
+   "title": "Cina cea de Taină",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milano"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Omul vitruvian",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1490",
+   "museum": "Galeriile Academiei, Veneția"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Crearea lui Adam",
+   "artist": "Michelangelo",
+   "year_label": "1512",
+   "museum": "Capela Sixtină, Cetatea Vaticanului"
+  },
+  "michelangelo-david": {
+   "title": "David",
+   "artist": "Michelangelo",
+   "year_label": "1504",
+   "museum": "Galeria Academiei, Florența"
+  },
+  "michelangelo-pieta": {
+   "title": "Pietà",
+   "artist": "Michelangelo",
+   "year_label": "1499",
+   "museum": "Bazilica Sfântul Petru, Cetatea Vaticanului"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Școala din Atena",
+   "artist": "Rafael",
+   "year_label": "1511",
+   "museum": "Muzeele Vaticanului, Cetatea Vaticanului"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Venus din Urbino",
+   "artist": "Tițian",
+   "year_label": "1538",
+   "museum": "Uffizi, Florența"
+  },
+  "durer-young-hare": {
+   "title": "Iepurele",
+   "artist": "Albrecht Dürer",
+   "year_label": "1502",
+   "museum": "Albertina, Viena"
+  },
+  "younger-the-ambassadors": {
+   "title": "Ambasadorii",
+   "artist": "Hans Holbein cel Tânăr",
+   "year_label": "1533",
+   "museum": "National Gallery, Londra"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Vânătorii în zăpadă",
+   "artist": "Pieter Bruegel cel Bătrân",
+   "year_label": "1565",
+   "museum": "Kunsthistorisches Museum, Viena"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "Turnul Babel",
+   "artist": "Pieter Bruegel cel Bătrân",
+   "year_label": "1563",
+   "museum": "Kunsthistorisches Museum, Viena"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Madona cu gâtul lung",
+   "artist": "Parmigianino",
+   "year_label": "1540",
+   "museum": "Uffizi, Florența"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Înmormântarea contelui de Orgaz",
+   "artist": "El Greco",
+   "year_label": "1586",
+   "museum": "Santo Tomé, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumnus",
+   "artist": "Giuseppe Arcimboldo",
+   "year_label": "1591",
+   "museum": "Castelul Skokloster, Suedia"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Chemarea Sfântului Matei",
+   "artist": "Caravaggio",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Roma"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Iudita decapitându-l pe Holofern",
+   "artist": "Artemisia Gentileschi",
+   "year_label": "1620",
+   "museum": "Uffizi, Florența"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Diego Velázquez",
+   "year_label": "1656",
+   "museum": "Prado, Madrid"
+  },
+  "rubens-the-three-graces": {
+   "title": "Cele trei Grații",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Prado, Madrid"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apollo și Dafne",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1625",
+   "museum": "Galeria Borghese, Roma"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Extazul Sfintei Tereza",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Roma"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Rondul de noapte",
+   "artist": "Rembrandt",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Lecția de anatomie a doctorului Nicolaes Tulp",
+   "artist": "Rembrandt",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Haga"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Fata cu cercel de perlă",
+   "artist": "Johannes Vermeer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Haga"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "Lăptăreasa",
+   "artist": "Johannes Vermeer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "Sticletele",
+   "artist": "Carel Fabritius",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Haga"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Pelerinaj la Citera",
+   "artist": "Antoine Watteau",
+   "year_label": "1717",
+   "museum": "Luvru, Paris"
+  },
+  "fragonard-the-swing": {
+   "title": "Leagănul",
+   "artist": "Jean-Honoré Fragonard",
+   "year_label": "1767",
+   "museum": "Colecția Wallace, Londra"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Autoportret cu pălărie de paie",
+   "artist": "Élisabeth Vigée Le Brun",
+   "year_label": "1782",
+   "museum": "National Gallery, Londra"
+  },
+  "david-the-death-of-marat": {
+   "title": "Moartea lui Marat",
+   "artist": "Jacques-Louis David",
+   "year_label": "1793",
+   "museum": "Muzeele Regale de Arte Frumoase ale Belgiei, Bruxelles"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napoleon traversând Alpii",
+   "artist": "Jacques-Louis David",
+   "year_label": "1801",
+   "museum": "Castelul Malmaison"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Marea Odaliscă",
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "year_label": "1814",
+   "museum": "Luvru, Paris"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Psyche readusă la viață de sărutul lui Cupidon",
+   "artist": "Antonio Canova",
+   "year_label": "1793",
+   "museum": "Luvru, Paris"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "Împușcările din 3 mai 1808",
+   "artist": "Francisco Goya",
+   "year_label": "1814",
+   "museum": "Prado, Madrid"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "Libertatea conducând poporul",
+   "artist": "Eugène Delacroix",
+   "year_label": "1830",
+   "museum": "Luvru, Paris"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "Pluta Meduzei",
+   "artist": "Théodore Géricault",
+   "year_label": "1819",
+   "museum": "Luvru, Paris"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Călătorul deasupra mării de ceață",
+   "artist": "Caspar David Friedrich",
+   "year_label": "1818",
+   "museum": "Hamburger Kunsthalle"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "Nava de luptă Temeraire",
+   "artist": "J. M. W. Turner",
+   "year_label": "1839",
+   "museum": "National Gallery, Londra"
+  },
+  "hayez-the-kiss": {
+   "title": "Sărutul",
+   "artist": "Francesco Hayez",
+   "year_label": "1859",
+   "museum": "Pinacoteca di Brera, Milano"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "Marele val de la Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Vânt blând, dimineață senină (Fuji roșu)",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Aversă bruscă peste podul Shin-Ōhashi și Atake",
+   "artist": "Utagawa Hiroshige",
+   "year_label": "1857",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "De-a lungul râului în timpul sărbătorii Qingming",
+   "artist": "Zhang Zeduan",
+   "year_label": "1100",
+   "museum": "Muzeul Palatului, Beijing"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Zeul Vântului și zeul Tunetului",
+   "artist": "Tawaraya Sōtatsu",
+   "year_label": "1630",
+   "museum": "Kennin-ji, Kyoto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "Disperatul",
+   "artist": "Gustave Courbet",
+   "year_label": "1845",
+   "museum": "Colecție privată"
+  },
+  "millet-the-gleaners": {
+   "title": "Spicuitoarele",
+   "artist": "Jean-François Millet",
+   "year_label": "1857",
+   "museum": "Muzeul d'Orsay, Paris"
+  },
+  "manet-olympia": {
+   "title": "Olympia",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Muzeul d'Orsay, Paris"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Dejun pe iarbă",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Muzeul d'Orsay, Paris"
+  },
+  "wood-american-gothic": {
+   "title": "Gotic american",
+   "artist": "Grant Wood",
+   "year_label": "1930",
+   "museum": "Institutul de Artă din Chicago"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "John Singer Sargent",
+   "year_label": "1884",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Aranjament în gri și negru nr. 1 (Mama lui Whistler)",
+   "artist": "James McNeill Whistler",
+   "year_label": "1871",
+   "museum": "Muzeul d'Orsay, Paris"
+  },
+  "millais-ophelia": {
+   "title": "Ofelia",
+   "artist": "John Everett Millais",
+   "year_label": "1852",
+   "museum": "Tate Britain, Londra"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "Doamna din Shalott",
+   "artist": "John William Waterhouse",
+   "year_label": "1888",
+   "museum": "Tate Britain, Londra"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Nașterea lui Venus",
+   "artist": "Alexandre Cabanel",
+   "year_label": "1863",
+   "museum": "Muzeul d'Orsay, Paris"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "Jean-Léon Gérôme",
+   "year_label": "1872",
+   "museum": "Muzeul de Artă din Phoenix"
+  },
+  "monet-impression-sunrise": {
+   "title": "Impresie, răsărit de soare",
+   "artist": "Claude Monet",
+   "year_label": "1872",
+   "museum": "Muzeul Marmottan Monet, Paris"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Femeie cu umbrelă (Doamna Monet și fiul ei)",
+   "artist": "Claude Monet",
+   "year_label": "1875",
+   "museum": "Galeria Națională de Artă, Washington"
+  },
+  "monet-water-lilies": {
+   "title": "Nuferi",
+   "artist": "Claude Monet",
+   "year_label": "1906",
+   "museum": "Institutul de Artă din Chicago"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Balul de la Moulin de la Galette",
+   "artist": "Pierre-Auguste Renoir",
+   "year_label": "1876",
+   "museum": "Muzeul d'Orsay, Paris"
+  },
+  "degas-the-dance-class": {
+   "title": "Ora de dans",
+   "artist": "Edgar Degas",
+   "year_label": "1874",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "morisot-the-cradle": {
+   "title": "Leagănul copilului",
+   "artist": "Berthe Morisot",
+   "year_label": "1872",
+   "museum": "Muzeul d'Orsay, Paris"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Plimbare pe plajă",
+   "artist": "Joaquín Sorolla",
+   "year_label": "1909",
+   "museum": "Muzeul Sorolla, Madrid"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "O duminică după-amiază pe insula Grande Jatte",
+   "artist": "Georges Seurat",
+   "year_label": "1886",
+   "museum": "Institutul de Artă din Chicago"
+  },
+  "gogh-the-starry-night": {
+   "title": "Noapte înstelată",
+   "artist": "Vincent van Gogh",
+   "year_label": "1889",
+   "museum": "Muzeul de Artă Modernă, New York"
+  },
+  "gogh-sunflowers": {
+   "title": "Floarea-soarelui",
+   "artist": "Vincent van Gogh",
+   "year_label": "1888",
+   "museum": "National Gallery, Londra"
+  },
+  "cezanne-the-card-players": {
+   "title": "Jucătorii de cărți",
+   "artist": "Paul Cézanne",
+   "year_label": "1892",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "De unde venim? Cine suntem? Încotro ne îndreptăm?",
+   "artist": "Paul Gauguin",
+   "year_label": "1897",
+   "museum": "Muzeul de Arte Frumoase, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Henri de Toulouse-Lautrec",
+   "year_label": "1891",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Țiganca adormită",
+   "artist": "Henri Rousseau",
+   "year_label": "1897",
+   "museum": "Muzeul de Artă Modernă, New York"
+  },
+  "munch-the-scream": {
+   "title": "Țipătul",
+   "artist": "Edvard Munch",
+   "year_label": "1893",
+   "museum": "Muzeul Național, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "Insula morților",
+   "artist": "Arnold Böcklin",
+   "year_label": "1880",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rodin-the-thinker": {
+   "title": "Gânditorul",
+   "artist": "Auguste Rodin",
+   "year_label": "1904",
+   "museum": "Muzeul Rodin, Paris"
+  },
+  "klimt-the-kiss": {
+   "title": "Sărutul",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Viena"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Portretul Adelei Bloch-Bauer I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, New York"
+  },
+  "matisse-dance": {
+   "title": "Dansul",
+   "artist": "Henri Matisse",
+   "year_label": "1910",
+   "museum": "Ermitaj, Sankt Petersburg"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Femeie cu pălărie",
+   "artist": "Henri Matisse",
+   "year_label": "1905",
+   "museum": "Muzeul de Artă Modernă din San Francisco"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "Caii albaștri mari",
+   "artist": "Franz Marc",
+   "year_label": "1911",
+   "museum": "Walker Art Center, Minneapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Nud culcat",
+   "artist": "Amedeo Modigliani",
+   "year_label": "1917",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Portretul lui Pablo Picasso",
+   "artist": "Juan Gris",
+   "year_label": "1912",
+   "museum": "Institutul de Artă din Chicago"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Turnul Eiffel cu copaci",
+   "artist": "Robert Delaunay",
+   "year_label": "1910",
+   "museum": "Muzeul Solomon R. Guggenheim, New York"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Forme unice de continuitate în spațiu",
+   "artist": "Umberto Boccioni",
+   "year_label": "1913",
+   "museum": "Muzeul de Artă Modernă, New York"
+  },
+  "boccioni-the-city-rises": {
+   "title": "Orașul se ridică",
+   "artist": "Umberto Boccioni",
+   "year_label": "1910",
+   "museum": "Muzeul de Artă Modernă, New York"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Compoziția VIII",
+   "artist": "Vasili Kandinski",
+   "year_label": "1923",
+   "museum": "Muzeul Solomon R. Guggenheim, New York"
+  },
+  "malevich-black-square": {
+   "title": "Pătratul negru",
+   "artist": "Kazimir Malevici",
+   "year_label": "1915",
+   "museum": "Galeria Tretiakov, Moscova"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Compoziție II în roșu, albastru și galben",
+   "artist": "Piet Mondrian",
+   "year_label": "1930",
+   "museum": "Kunsthaus Zürich"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Klee",
+   "year_label": "1922",
+   "museum": "Kunstmuseum Basel"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Schwitters",
+   "year_label": "1919",
+   "museum": "Staatsgalerie Stuttgart"
+  },
+  "terracotta-army": {
+   "title": "Armata de teracotă",
+   "artist": "Anonim (China)",
+   "year_label": "210 î.Hr.",
+   "museum": "Mausoleul primului împărat Qin, Xi'an"
+  },
+  "aztec-sun-stone": {
+   "title": "Piatra Soarelui aztecă",
+   "artist": "Anonim (aztecii)",
+   "year_label": "1510",
+   "museum": "Muzeul Național de Antropologie, Ciudad de México"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (Moai)",
+   "artist": "Anonim (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "Muzeul Britanic, Londra"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Lumea antică",
+   "period": "2600 î.Hr.-300 d.Hr.",
+   "summary": "Zei, conducători și trupul ideal",
+   "description": "De la Egipt la Grecia și Roma, artiștii sculptează conducători, zei și atleți făcuți să dureze pentru totdeauna. Căutarea trupului ideal avea să rămână secole la rând modelul artei occidentale."
+  },
+  "gothic": {
+   "name": "Gotic și proto-Renaștere",
+   "period": "1280-1430",
+   "summary": "Fundal de aur și primele emoții adevărate",
+   "description": "În biserici și capele, pictorii lucrează încă pe aur, dar personajele lor încep să plângă, să se întoarcă, să aibă greutate. Arta de a povesti prin imagini se reinventează."
+  },
+  "early_netherlandish": {
+   "name": "Primitivii flamanzi",
+   "period": "1420-1500",
+   "summary": "Pictura în ulei și detalii uimitoare",
+   "description": "În Flandra, pictorii duc pictura în ulei la perfecțiune și o folosesc ca să descrie orice: blana, sticla, o lacrimă, o reflexie. Scenele sacre se mută în încăperi care seamănă cu niște case adevărate."
+  },
+  "renaissance": {
+   "name": "Renașterea italiană",
+   "period": "1420-1570",
+   "summary": "Perspectivă și întoarcerea la antichitate",
+   "description": "În Italia, apoi în toată Europa, artiștii redescoperă antichitatea, studiază corpul omenesc și inventează perspectiva. Tabloul devine o fereastră deschisă spre lume."
+  },
+  "northern_renaissance": {
+   "name": "Renașterea nordică",
+   "period": "1490-1570",
+   "summary": "Linii precise, gravuri și viziuni ciudate",
+   "description": "La nord de Alpi, artiștii îmbină ideile italiene cu dragostea pentru detaliu și pentru viața de zi cu zi. Gravura le răspândește imaginile în toată Europa."
+  },
+  "mannerism": {
+   "name": "Manierism",
+   "period": "1520-1610",
+   "summary": "Eleganța întinsă la maximum",
+   "description": "După marii maeștri, pictorii îndoaie regulile cu intenție: trupuri lungi, poze răsucite, culori acide. Stilul însuși devine subiectul tabloului."
+  },
+  "baroque": {
+   "name": "Baroc",
+   "period": "1600-1700",
+   "summary": "Dramă, mișcare și umbre adânci",
+   "description": "Arta vrea să te miște. Contrastele puternice de lumină și întuneric, trupurile în mișcare și punerea în scenă teatrală te trag în mijlocul scenei."
+  },
+  "siecledor": {
+   "name": "Epoca de aur olandeză",
+   "period": "1600-1700",
+   "summary": "Viața de zi cu zi și lumina",
+   "description": "În prospera Republică Olandeză, artiștii pictează pentru casele burghezilor: interioare liniștite, portrete, naturi moarte. Lumina devine adevăratul subiect."
+  },
+  "rococo": {
+   "name": "Rococo și secolul al XVIII-lea",
+   "period": "1715-1790",
+   "summary": "Ușurință, plăcere și culori pastelate",
+   "description": "În saloanele secolului al XVIII-lea, pictura devine jucăușă și intimă: petreceri în grădină, portrete, culori fine. În același timp, câțiva artiști privesc cu discreție viața obișnuită."
+  },
+  "neoclassicism": {
+   "name": "Neoclasicism",
+   "period": "1760-1860",
+   "summary": "Linii clare și virtute antică",
+   "description": "Inspirați de ruinele Romei și ale Pompeiului, artiștii se întorc la un desen sobru și la subiecte eroice. Pictura trebuie să învețe tot atât cât să încânte."
+  },
+  "romanticism": {
+   "name": "Romantism",
+   "period": "1780-1860",
+   "summary": "Emoție, natură și sublim",
+   "description": "Sentimentul ia locul rațiunii. Furtuni, ruine, revolte și siluete singuratice exprimă ce simte artistul în fața unei lumi prea mari ca s-o poată stăpâni."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1680-1860",
+   "summary": "Stampe din „lumea plutitoare”",
+   "description": "În Japonia, stampele gravate în lemn și tipărite în serii înfățișează actori, peisaje și scene din viața de zi cu zi. Culorile lor plate și cadrajele îndrăznețe aveau să-i zguduie pe pictorii europeni."
+  },
+  "east_asian": {
+   "name": "Pictura chineză și japoneză",
+   "period": "750-1720",
+   "summary": "Tuș, mătase și spațiu gol",
+   "description": "În China și în Japonia, pictorii lucrează cu pensula și tușul pe mătase, pe hârtie și pe paravane pliante. Câteva tușe și mult spațiu gol ajung ca să sugereze un munte sau un anotimp."
+  },
+  "realism": {
+   "name": "Realism",
+   "period": "1845-1890",
+   "summary": "Oameni obișnuiți, pictați așa cum sunt",
+   "description": "Pictorii își întorc privirea de la eroi și mituri și arată țărani, muncitori și viața modernă, fără s-o înfrumusețeze. A arăta adevărul devine o declarație în sine."
+  },
+  "american": {
+   "name": "Pictura americană",
+   "period": "1780-1930",
+   "summary": "O țară nouă se privește",
+   "description": "De la portretele tinerei republici la peisajele imense și la scenele din viața orașelor, pictorii americani își caută propriile subiecte și propria lumină."
+  },
+  "preraphaelite": {
+   "name": "Prerafaeliți și epoca victoriană",
+   "period": "1848-1900",
+   "summary": "Culoare vie, legende și detaliu",
+   "description": "În Marea Britanie victoriană, un grup de pictori tineri respinge rețetele academice. Ei pictează legende și poeme cu culori intense și cu o precizie aproape obsesivă."
+  },
+  "academic": {
+   "name": "Arta academică",
+   "period": "1830-1900",
+   "summary": "Arta lustruită a Salonului oficial",
+   "description": "Formați în marile școli de artă, acești pictori stăpânesc anatomia, istoria și un finisaj perfect neted. Au fost vedetele epocii lor, până când avangarda i-a lăsat în umbră."
+  },
+  "impressionnisme": {
+   "name": "Impresionism",
+   "period": "1867-1910",
+   "summary": "Lumina clipei pe pânză",
+   "description": "Un grup de pictori părăsește atelierul și lucrează în aer liber, din tușe mici și rapide. Nu mai caută detaliul, ci efectul luminii într-un moment anume."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpresionism",
+   "period": "1884-1910",
+   "summary": "Culoare, punct cu punct",
+   "description": "Pictorii aplică știința în folosirea culorii: puncte mici de culoare pură, puse unele lângă altele, se amestecă în ochiul privitorului. Tabloul se construiește încet, ca un mozaic."
+  },
+  "postimp": {
+   "name": "Postimpresionism",
+   "period": "1885-1910",
+   "summary": "Întâi culoarea și emoția",
+   "description": "După impresionism, fiecare își caută drumul. Culoarea nu mai imită realitatea: ea exprimă ce simte pictorul."
+  },
+  "symbolism": {
+   "name": "Simbolism",
+   "period": "1860-1915",
+   "summary": "Vise, mituri și lumi interioare",
+   "description": "În loc să descrie lumea vizibilă, acești artiști sugerează idei, vise și temeri. Tablourile lor trebuie simțite înainte de a fi înțelese."
+  },
+  "secession": {
+   "name": "Art Nouveau și Secesiunea vieneză",
+   "period": "1890-1918",
+   "summary": "Aur, ornament și linii curbe",
+   "description": "La Viena, artiștii tineri rup cu Academia. Ei îmbină pictura, decorația și meșteșugul și fac din ornament un limbaj de sine stătător."
+  },
+  "fauvism": {
+   "name": "Fovism",
+   "period": "1904-1917",
+   "summary": "Culoare pură, direct din tub",
+   "description": "Câțiva ani explozivi, pictorii folosesc culori violente, nenaturale, și o pensulație liberă. Criticii i-au numit „fiare sălbatice”, iar numele a rămas."
+  },
+  "expressionism": {
+   "name": "Expresionism",
+   "period": "1903-1925",
+   "summary": "Forme deformate, sentiment brut",
+   "description": "Artiștii răsucesc formele și împing culorile la extrem ca să exprime neliniștea, dorința sau revolta. Contează nu cum arată lumea, ci cum se simte."
+  },
+  "cubism": {
+   "name": "Cubism",
+   "period": "1909-1925",
+   "summary": "Obiecte văzute din mai multe părți deodată",
+   "description": "Pictorii sparg obiectele în fațete și le arată din mai multe unghiuri în același tablou. Cinci secole de perspectivă sunt puse deodată sub semnul întrebării."
+  },
+  "futurism": {
+   "name": "Futurism",
+   "period": "1909-1920",
+   "summary": "Viteză, mașini și orașul modern",
+   "description": "Artiștii italieni celebrează automobilele, mulțimile și electricitatea. Încearcă să picteze mișcarea însăși, repetând și fragmentând formele."
+  },
+  "abstraction": {
+   "name": "Abstracție și avangardă",
+   "period": "1907-1930",
+   "summary": "Pictură fără subiect",
+   "description": "Liniile, formele și culorile nu mai reprezintă nimic: ele sunt tabloul. Artiștii caută un limbaj vizual la fel de direct ca muzica."
+  },
+  "dada_surrealism": {
+   "name": "Dada și începuturile suprarealismului",
+   "period": "1912-1930",
+   "summary": "Întâmplare, nonsens și vise",
+   "description": "Născut din scârba față de Primul Război Mondial, dadaismul își bate joc de artă însăși. Îi urmează suprarealismul, care explorează visul, întâmplarea și inconștientul."
+  },
+  "world": {
+   "name": "Africa, Asia și Americile",
+   "period": "1200 î.Hr.-1600",
+   "summary": "Obiecte sacre și artă de curte",
+   "description": "Bronzuri, măști, giganți de piatră și obiecte rituale din Africa, Asia și Americi. Au fost făcute pentru ceremonii, temple și regi, cu mult înainte să existe muzee."
+  }
+ }
+}
