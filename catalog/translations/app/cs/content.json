@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Renesance",
+   "period": "15.–16. století",
+   "summary": "Perspektiva a návrat k antice",
+   "description": "V Itálii, a pak v celé Evropě, umělci znovu objevují antiku, studují lidské tělo a vynalézají perspektivu. Obraz se mění v okno do světa."
+  },
+  "siecledor": {
+   "name": "Nizozemský zlatý věk",
+   "period": "17. století",
+   "summary": "Všední život a světlo",
+   "description": "V bohaté Nizozemské republice umělci malují pro měšťanské domy: tiché interiéry, portréty, zátiší. Skutečným tématem se stává světlo."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "17.–19. století",
+   "summary": "Tisky „plovoucího světa“",
+   "description": "V Japonsku dřevořezy vydávané v sériích zobrazují herce, krajiny a výjevy všedního dne. Jejich plochými barvami a smělými výřezy se brzy nechají otřást evropští malíři."
+  },
+  "impressionnisme": {
+   "name": "Impresionismus",
+   "period": "70. a 80. léta 19. století",
+   "summary": "Malovat světlo okamžiku",
+   "description": "Skupina malířů opouští ateliér a pracuje venku, rychlými drobnými tahy. Už jim nejde o detail, ale o účinek světla v přesném okamžiku."
+  },
+  "postimp": {
+   "name": "Postimpresionismus",
+   "period": "1886–1905",
+   "summary": "Nejdřív barva a cit",
+   "description": "Po impresionismu si každý hledá svou vlastní cestu. Barva už nenapodobuje skutečnost: vyjadřuje, co malíř cítí."
+  },
+  "secession": {
+   "name": "Vídeňská secese",
+   "period": "Kolem roku 1900",
+   "summary": "Zlato, ornament a křivky",
+   "description": "Ve Vídni se mladí umělci rozcházejí s akademií. Spojují malbu, dekoraci a řemeslo a z ornamentu dělají samostatnou řeč."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Hvězdná noc",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "MoMA, New York",
+   "teaser": "Vířící obloha, namalovaná zpaměti v pokoji ústavu pro choromyslné.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Červen 1889. Vincentu van Goghovi je 36 let. Před měsícem se po těžkém zhroucení v Arles sám nechal přijmout do ústavu v Saint-Rémy-de-Provence na jihu Francie."
+    },
+    {
+     "type": "text",
+     "text": "Okno jeho ložnice hledí na východ. Vidí z něj pšeničné pole, kopce Alpilles a před svítáním i oblohu. Ten výhled maluje znovu a znovu, v každou denní hodinu."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh začal malovat až v 27 letech. Za zhruba deset let vytvořil kolem 900 obrazů, někdy i jeden denně."
+    },
+    {
+     "type": "tour",
+     "text": "Tohle je nejslavnější z těch oblohy. Prohlédni si ji celou a pak klepni a vstup dovnitř.",
+     "spots": [
+      {
+       "title": "Vír",
+       "text": "Uprostřed se do sebe stáčejí dvě obří vlny. Takhle žádná skutečná obloha nevypadá: maluje, co cítí, ne co vidí."
+      },
+      {
+       "title": "Měsíc",
+       "text": "Oranžový srpek ve žluté svatozáři. Skoro vypadá jako slunce. Van Gogh kolem něj klade barvu krátkými tahy, které ho obkružují."
+      },
+      {
+       "title": "Jitřenka",
+       "text": "Nejbělejší světlo na celém obraze. Van Gogh psal bratrovi, že před východem slunce viděl jitřenku, velikou. Nejspíš je to Venuše."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tenhle obraz nevznikl v noci a ani před skutečnou krajinou. Van Gogh ho namaloval za denního světla ve svém ateliéru v ústavu, zpaměti a podle fantazie. U něj to byla výjimka: obvykle maloval to, co měl přímo před očima."
+    },
+    {
+     "type": "key",
+     "text": "Hvězdná noc vznikla ve dne a zpaměti. Není to výhled. Je to vize."
+    },
+    {
+     "type": "text",
+     "text": "O noční obloze snil už dlouho. Rok předtím napsal, že když se dívá na hvězdy, vždycky se rozsní."
+    },
+    {
+     "type": "find",
+     "text": "Jeden detail téhle krajiny pochází přímo z jeho dětství v Nizozemsku. Kde je kostelní věž?",
+     "spots": [
+      {
+       "title": "Kostelní věž",
+       "text": "Tenká, špičatá věž, jako v nizozemských vesnicích, kde Van Gogh vyrůstal. Kostely v Provenci takové věže nemají."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vesnice je také vymyšlená, nebo aspoň přesunutá: z okna ji vidět nemohl. Van Gogh spojuje skutečnou oblohu, skutečné kopce a vesnici z paměti."
+    },
+    {
+     "type": "fact",
+     "text": "Okno v ústavu měl zamřížované. Na žádném obraze toho výhledu mříže nenajdeš: pokaždé je vynechal."
+    },
+    {
+     "type": "lines",
+     "text": "Obraz působí neklidně. Ve skutečnosti je pečlivě postavený.",
+     "lines": [
+      {
+       "label": "Svislice cypřiše",
+       "text": "Protíná celý obraz od země až k hornímu okraji a udává měřítko: obloha je nesmírná."
+      },
+      {
+       "label": "Její ozvěna: věž",
+       "text": "Druhá, drobná svislice, která cypřiši odpovídá. Jedna je z přírody, druhou postavil člověk."
+      },
+      {
+       "label": "Vlna na obloze",
+       "text": "Oko sleduje tohle S zleva doprava, až k měsíci."
+      },
+      {
+       "label": "Svah kopců",
+       "text": "Úhlopříčka, která klesá k vesnici a chrání ji jako paže."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Teď se podívej na rukopis štětce. Nikde žádné hladké přechody. Krátké, husté tahy leží jeden vedle druhého a každý míří jiným směrem. Pohyb vytváří samotný tah štětce."
+    },
+    {
+     "type": "text",
+     "text": "Takové husté barvě malíři říkají „impasto“. Van Gogh ji občas mačkal skoro rovnou z tuby. Zblízka je povrch plátna hrbolatý jako plastická mapa."
+    },
+    {
+     "type": "tour",
+     "title": "Zblízka",
+     "text": "Pojďme až k samotné barvě.",
+     "spots": [
+      {
+       "title": "Barva",
+       "text": "Všimni si, jak je hustá: leží v krátkých, těžkých tazích, skoro jako reliéf. Tomu se říká impasto."
+      },
+      {
+       "title": "Cypřiš",
+       "text": "Tmavý a zkroucený jako plamen spojuje zemi s nebem. Na jihu Francie je to strom hřbitovů. Van Goghovi připadal krásný jako egyptský obelisk."
+      },
+      {
+       "title": "Kopce",
+       "text": "Alpilles. Vlní se jako mořské vlny, unášené stejným pohybem jako obloha."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Na cypřiši záleží. Je to nejtmavší tvar na obraze a jediný, který se dotýká země i horního okraje oblohy. Tyhle stromy Van Gogha to léto fascinovaly."
+    },
+    {
+     "type": "palette",
+     "text": "Modrá, žlutá a skoro nic jiného. Klepni na barvu.",
+     "swatches": [
+      {
+       "name": "Tmavě modrá",
+       "text": "Hloubka oblohy a kopců. Van Gogh použil ultramarín a kobaltovou modř."
+      },
+      {
+       "name": "Světle modrá",
+       "text": "Víry. Nanesená hustými tahy roztáčí oblohu."
+      },
+      {
+       "name": "Žlutá",
+       "text": "Měsíc, hvězdy, okna. Zabírá nepatrnou část plochy, a přesto rozsvěcuje všechno."
+      },
+      {
+       "name": "Zelenočerná",
+       "text": "Cypřiš a stíny vesnice. Nejtmavší hmota celého obrazu."
+      },
+      {
+       "name": "Nazelenalá bílá",
+       "text": "Záře kolem hvězd: právě díky ní se třpytí."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Modrá a žlutá leží na barevném kruhu skoro naproti sobě. Když je dáš vedle sebe, jedna druhou zesílí. Van Gogh to věděl a díky tomu jeho noci vibrují."
+    },
+    {
+     "type": "key",
+     "text": "Protilehlé barvy položené vedle sebe se navzájem zesilují. Proto žluté hvězdy na modré obloze tak žhnou."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh bratrovi psal, že viděl jitřenku, velikou. Klepni na nejbělejší světlo obrazu.",
+     "spots": [
+      {
+       "title": "Jitřenka",
+       "text": "Nejbělejší světlo na celém obraze. Van Gogh psal bratrovi, že před východem slunce viděl jitřenku, velikou. Nejspíš je to Venuše."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A co si o obraze myslel on sám? Nic moc. V dopisech mu říká obyčejná noční studie a o plátnech malovaných z fantazie pochybuje."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh za života neprodal skoro nic. Jeho bratr Theo, obchodník s uměním, ho podporoval penězi i barvami."
+    },
+    {
+     "type": "text",
+     "text": "Zemřel o třináct měsíců později, v červenci 1890, ve 37 letech. Hvězdná noc se v roce 1941 dostala do Muzea moderního umění v New Yorku."
+    },
+    {
+     "type": "key",
+     "text": "U Van Gogha je námětem samotný tah štětce: každý má svůj směr, a právě to rozhýbe oblohu."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Vír",
+       "text": "Uprostřed se do sebe stáčejí dvě obří vlny. Takhle žádná skutečná obloha nevypadá: maluje, co cítí, ne co vidí."
+      },
+      {
+       "title": "Měsíc",
+       "text": "Oranžový srpek ve žluté svatozáři. Skoro vypadá jako slunce. Van Gogh kolem něj klade barvu krátkými tahy, které ho obkružují."
+      },
+      {
+       "title": "Jitřenka",
+       "text": "Nejbělejší světlo na celém obraze. Van Gogh psal bratrovi, že před východem slunce viděl jitřenku, velikou. Nejspíš je to Venuše."
+      },
+      {
+       "title": "Cypřiš",
+       "text": "Tmavý a zkroucený jako plamen spojuje zemi s nebem. Na jihu Francie je to strom hřbitovů. Van Goghovi připadal krásný jako egyptský obelisk."
+      },
+      {
+       "title": "Kostelní věž",
+       "text": "Tenká, špičatá věž, jako v nizozemských vesnicích, kde Van Gogh vyrůstal. Kostely v Provenci takové věže nemají."
+      },
+      {
+       "title": "Vesnice",
+       "text": "Pár rozsvícených žlutých oken. Ze svého pokoje tuhle vesnici vidět nemohl: přidal ji zpaměti."
+      },
+      {
+       "title": "Kopce",
+       "text": "Alpilles. Vlní se jako mořské vlny, unášené stejným pohybem jako obloha."
+      },
+      {
+       "title": "Barva",
+       "text": "Všimni si, jak je hustá: leží v krátkých, těžkých tazích, skoro jako reliéf. Tomu se říká impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kde byl Van Gogh, když maloval Hvězdnou noc?",
+     "options": [
+      "V Paříži",
+      "V ústavu v Saint-Rémy-de-Provence",
+      "V Amsterdamu"
+     ],
+     "explanation": "Sám se tam nechal přijmout o měsíc dřív."
+    },
+    {
+     "question": "Jak obraz vznikl?",
+     "options": [
+      "V noci, přímo před krajinou",
+      "Ve dne, zpaměti a podle fantazie",
+      "Podle fotografie"
+     ],
+     "explanation": "Ve dne, v jeho ateliéru v ústavu."
+    },
+    {
+     "question": "Který detail připomíná Nizozemsko?",
+     "options": [
+      "Cypřiš",
+      "Špičatá kostelní věž",
+      "Kopce"
+     ],
+     "explanation": "Věž jako ve vesnicích, kde vyrůstal."
+    },
+    {
+     "question": "Co je to „impasto“?",
+     "options": [
+      "Velmi hustá barva, skoro jako reliéf",
+      "Tenká průsvitná lazura",
+      "Skica uhlem"
+     ],
+     "explanation": "Krátké, těžké tahy, které vystupují z plátna."
+    },
+    {
+     "question": "Proč žluté hvězdy tolik září?",
+     "options": [
+      "Jsou namalované zlatem",
+      "Žlutá leží vedle své protilehlé barvy, modré",
+      "Plátno je prosvícené zezadu"
+     ],
+     "explanation": "Protilehlé barvy vedle sebe se navzájem zesilují."
+    },
+    {
+     "question": "Co Van Gogh na obrazech tohoto výhledu vynechal?",
+     "options": [
+      "Mříže na okně",
+      "Měsíc",
+      "Kopce"
+     ],
+     "explanation": "Okno v ústavu měl zamřížované."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh maloval Hvězdnou noc venku, uprostřed noci.",
+     "explanation": "Namaloval ji ve dne, zpaměti, v ústavu v Saint-Rémy."
+    },
+    {
+     "text": "Hvězdná noc je k vidění v New Yorku.",
+     "explanation": "V MoMA visí od roku 1941."
+    },
+    {
+     "text": "Van Gogh prodal spoustu obrazů a zemřel bohatý.",
+     "explanation": "Neprodal skoro nic, podporoval ho bratr Theo."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Dívka s perlou",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "kol. 1665",
+   "museum": "Mauritshuis, Haag",
+   "teaser": "Pohled přes rameno, a nikdo neví, kdo to je.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Tuhle tvář znáš. Jenže to není portrét: nikdo neví, kdo dívka je, a Vermeer nejspíš ani nechtěl namalovat nikoho konkrétního."
+    },
+    {
+     "type": "text",
+     "text": "V Nizozemsku 17. století měl takový obraz své jméno: „tronie“, studie tváře. Malíř si na ní zkouší výraz, exotický kostým nebo světelný efekt. Tady všechno najednou."
+    },
+    {
+     "type": "key",
+     "text": "Tronie je vymyšlená tvář, záminka namalovat výraz a světlo. Není to portrét skutečného člověka."
+    },
+    {
+     "type": "tour",
+     "text": "Nejdřív si prohlédni celý obraz: tvář, která vystupuje ze tmy. Klepni a pojď blíž.",
+     "spots": [
+      {
+       "title": "Pohled",
+       "text": "Otáčí se k tobě, jako bys ji právě oslovil. Stačí jediný bílý bod v každém oku, a pohled je vlhký a živý."
+      },
+      {
+       "title": "Ústa",
+       "text": "Pootevřená, jako by zrovna mluvila. Všimni si drobné světlé tečky v koutku rtů: jeden dotek štětce, a ústa se lesknou."
+      },
+      {
+       "title": "Perla",
+       "text": "Dva tahy, nic víc: nahoře bílý odlesk, dole šedý odraz límce. Žádný obrys, žádné očko. Perlu si složí tvoje oko."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Celý obraz stojí na jediném pohybu: dívka se otáčí. Tělo má z profilu, tvář obrací k nám. Jako bychom ji zaskočili, nebo jako by se chystala odejít. Proto působí tak živě."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer prožil celý život v Delftu, malém nizozemském městě. Maloval pomalu, musel živit jedenáct dětí a zemřel ve 43 letech v dluzích."
+    },
+    {
+     "type": "text",
+     "text": "Všimni si turbanu. Žádná nizozemská dívka se tak neoblékala. Je to kostým, kousek dalekého Orientu, který tehdejší malíře fascinoval."
+    },
+    {
+     "type": "find",
+     "text": "Na tvář dopadá světlo z jediného zdroje. Kam? Klepni na nejsvětlejší místo tváře.",
+     "spots": [
+      {
+       "title": "Tvář",
+       "text": "Světlo přichází zleva, trochu shora. Dopadá na čelo, tvář a nos a druhou polovinu obličeje nechává sklouznout do stínu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer skoro nekreslí obrysy. Podívej se na hřbet nosu: žádná linka, jen světlá tvář, která narazí na stín. Obličej je ze světla, ne z čar."
+    },
+    {
+     "type": "key",
+     "text": "Světlo zleva, měkké stíny, žádné ostré obrysy: to je Vermeerův rukopis."
+    },
+    {
+     "type": "lines",
+     "text": "Jak drží tak prostý obraz pohromadě? Vysvětlí to tři linie.",
+     "lines": [
+      {
+       "label": "Světlo",
+       "text": "Přichází zleva shora, jako by z okna, které nevidíme."
+      },
+      {
+       "label": "Trojúhelník",
+       "text": "Od vrcholu turbanu k oběma ramenům: pevný, stabilní tvar, který zklidňuje otočení hlavy."
+      },
+      {
+       "label": "Splývající látka",
+       "text": "Žlutá látka splývá vpravo a vyvažuje tvář otočenou doleva."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A teď ta modrá. Vermeer použil přírodní ultramarín, vyrobený rozdrcením lapisu lazuli. Byl tak drahý, že ho většina malířů šetřila na plášť Panny Marie. On ho dával všude, dokonce i do stínů."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli se těžil v dolech na území dnešního Afghánistánu. Slovo „ultramarín“ znamená „zpoza moře“."
+    },
+    {
+     "type": "palette",
+     "text": "Pět barev tvoří skoro celý obraz. Klepni na jednu a uvidíš, kde se skrývá.",
+     "swatches": [
+      {
+       "name": "Tmavé pozadí",
+       "text": "Víc než polovina plochy. Kdysi tmavozelený závěs, dnes skoro černá."
+      },
+      {
+       "name": "Ultramarín",
+       "text": "Modř z lapisu lazuli. Zabírá jen kousek místa, a přesto vidíme hlavně ji."
+      },
+      {
+       "name": "Hnědý okr",
+       "text": "Stíny kabátku a žluté látky: teplá a levná zemitá barva."
+      },
+      {
+       "name": "Růžová pleť",
+       "text": "Nejsvětlejší část obrazu. Oko tam míří nejdřív."
+      },
+      {
+       "name": "Žlutá",
+       "text": "Na kabátku a na splývajícím konci turbanu. Odpovídá modré."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "V roce 1994 obraz prošel restaurováním. Pod zažloutlým lakem restaurátoři objevili svěžejší barvy a tu malou světlou tečku v koutku rtů, kterou už nikdo neviděl."
+    },
+    {
+     "type": "text",
+     "text": "A pozadí? Dnes působí ploše a černě. Vědecký průzkum ukázal, že tam Vermeer namaloval tmavozelený závěs. Zelené pigmenty se časem rozložily."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer tenhle obraz podepsal. Ale kde? Dívej se pozorně, je skoro neviditelný.",
+     "spots": [
+      {
+       "title": "Podpis",
+       "text": "„IVMeer“, vlevo nahoře. Namalovaný světlým tónem na tmavém pozadí časem skoro vybledl."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Je ta perla vůbec perla? Je obrovská. Někteří odborníci si myslí, že šlo o lakované sklo nebo leštěný cín. Na tom skoro nesejde: v malbě je to kapka světla, a nic víc Vermeer nechtěl."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer nemaluje předměty. Maluje světlo, které na ně dopadá. Perla jsou dva doteky bílé."
+    },
+    {
+     "type": "text",
+     "text": "Od Vermeera známe jen asi 37 obrazů. Po jeho smrti na něj svět na dvě staletí téměř zapomněl."
+    },
+    {
+     "type": "fact",
+     "text": "V roce 1881 obraz koupil jeden sběratel v aukci za dva guldeny, tedy skoro za nic. V roce 1902 ho odkázal muzeu Mauritshuis."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Pohled",
+       "text": "Otáčí se k tobě, jako bys ji právě oslovil. Stačí jediný bílý bod v každém oku, a pohled je vlhký a živý."
+      },
+      {
+       "title": "Ústa",
+       "text": "Pootevřená, jako by zrovna mluvila. Všimni si drobné světlé tečky v koutku rtů: jeden dotek štětce, a ústa se lesknou."
+      },
+      {
+       "title": "Perla",
+       "text": "Dva tahy, nic víc: nahoře bílý odlesk, dole šedý odraz límce. Žádný obrys, žádné očko. Perlu si složí tvoje oko."
+      },
+      {
+       "title": "Modrý turban",
+       "text": "Pravý ultramarín z lapisu lazuli, kamene dovezeného až z Afghánistánu. Tenkrát byl ten pigment dražší než zlato."
+      },
+      {
+       "title": "Žlutý cíp",
+       "text": "Žlutá látka jí splývá po zádech jako plamen. Modrá a žlutá: tuhle dvojici měl Vermeer rád a používal ji v jednom obraze za druhým."
+      },
+      {
+       "title": "Bílý límec",
+       "text": "Pruh bílé nanesený jediným gestem. Právě tenhle límec se odráží ve spodní části perly."
+      },
+      {
+       "title": "Podpis",
+       "text": "„IVMeer“, vlevo nahoře. Namalovaný světlým tónem na tmavém pozadí časem skoro vybledl."
+      },
+      {
+       "title": "Pozadí",
+       "text": "Nebylo vždycky černé. Průzkum ukazuje, že tu Vermeer namaloval tmavozelený závěs. Zelená se během staletí vytratila."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Co je to „tronie“?",
+     "options": [
+      "Portrét na zakázku",
+      "Studie vymyšlené tváře",
+      "Autoportrét"
+     ],
+     "explanation": "Záminka namalovat výraz a světlo, ne skutečného člověka."
+    },
+    {
+     "question": "Odkud pochází modrá turbanu?",
+     "options": [
+      "Z rostliny, indigovníku",
+      "Z kamene, lapisu lazuli",
+      "Z mušle"
+     ],
+     "explanation": "Rozdrcený lapis lazuli dává přírodní ultramarín, tehdy dražší než zlato."
+    },
+    {
+     "question": "Jak je perla namalovaná?",
+     "options": [
+      "Přesným obrysem i s očkem",
+      "Dvěma světlými doteky, bez obrysu",
+      "Plátkovým stříbrem"
+     ],
+     "explanation": "Bílý odlesk, šedý odraz: zbytek si domyslí tvoje oko."
+    },
+    {
+     "question": "Odkud přichází světlo?",
+     "options": [
+      "Zleva",
+      "Zprava",
+      "Zespodu"
+     ],
+     "explanation": "Zleva shora, jako by z okna, které nevidíme."
+    },
+    {
+     "question": "Co bylo původně v pozadí?",
+     "options": [
+      "Tmavozelený závěs",
+      "Okno",
+      "Zlatá stěna"
+     ],
+     "explanation": "Zelené pigmenty se během staletí rozložily."
+    },
+    {
+     "question": "Kde Vermeer strávil celý život?",
+     "options": [
+      "V Amsterdamu",
+      "V Delftu",
+      "V Haagu"
+     ],
+     "explanation": "Žil a tvořil v malém městě Delftu."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Víme, jak se jmenovala dívka, která stála modelem.",
+     "explanation": "Kdo to byl, nevíme: obraz je tronie."
+    },
+    {
+     "text": "Modrá turbanu pochází z kamene, lapisu lazuli.",
+     "explanation": "Po rozdrcení dává přírodní ultramarín."
+    },
+    {
+     "text": "Perla je namalovaná pečlivým, podrobným obrysem.",
+     "explanation": "Jsou to jen dva doteky světlé barvy, bez jakéhokoli obrysu."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Velká vlna u pobřeží Kanagawy",
+   "artist": "Katsušika Hokusai",
+   "yearLabel": "kol. 1831",
+   "museum": "Dřevořez · mnoho otisků",
+   "teaser": "Obří vlna a daleko vzadu, maličká, hora Fudži.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Tohle není malba. Je to tisk: obraz vyřezaný do dřevěných desek, natřený barvou a otištěný na papír. Velká vlna proto neexistuje jen jedna. Jsou jich tisíce."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai ji vydal kolem roku 1831. Bylo mu asi 70 a kreslil od dětství. Otevírá jí sérii, která se proslavila: Třicet šest pohledů na horu Fudži."
+    },
+    {
+     "type": "key",
+     "text": "Velká vlna je dřevořez, vytištěný v tisících kusů. Vlastní ho spousta muzeí po celém světě."
+    },
+    {
+     "type": "fact",
+     "text": "Takový tisk byl levný. V Hokusaiově době stál zhruba tolik co miska nudlí."
+    },
+    {
+     "type": "find",
+     "text": "Série se jmenuje Třicet šest pohledů na horu Fudži. Tak kde je ta hora?",
+     "spots": [
+      {
+       "title": "Hora Fudži",
+       "text": "Tady je skutečný námět tisku, maličký. Posvátná hora Japonska se zasněženým vrcholem, uprostřed bouře naprosto klidná."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "V tom je ten geniální tah: nejvyšší hora Japonska je menší než vlna. Hokusai si hraje se vzdáleností. Blízké drtí vzdálené, jako na fotografii pořízené širokoúhlým objektivem."
+    },
+    {
+     "type": "text",
+     "text": "Fudži byla posvátná. Lidé věřili, že skrývá tajemství nesmrtelnosti. Hokusai jí byl posedlý a kreslil ji ze všech stran a za každého počasí."
+    },
+    {
+     "type": "tour",
+     "text": "Projdi obraz tak, jak ho prochází oko.",
+     "spots": [
+      {
+       "title": "Pěna",
+       "text": "Podívej se na hřeben vlny: pěna končí zahnutými prsty, jako drápy, které se každou chvíli sevřou kolem lodí."
+      },
+      {
+       "title": "Veslaři",
+       "text": "Rybáři skrčení nad vesly, hlavy skloněné. Tyhle rychlé lodě vozily čerstvé ryby do Eda, města, kterému dnes říkáme Tokio."
+      },
+      {
+       "title": "Malá vlna",
+       "text": "V popředí menší vlna. Všimni si jejího tvaru: špičatá, nahoře bílá. Je to druhá hora Fudži."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "V Japonsku se čte zprava doleva. Oko tedy vstoupí do obrazu vpravo, u lodí, a narazí přímo do vlny. Japonský divák ji má přímo proti sobě."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai během života změnil jméno víc než třicetkrát. Jedno z posledních znamenalo „Starý blázen do kreslení“."
+    },
+    {
+     "type": "text",
+     "text": "Jak takový tisk vznikl? Hokusai nakreslil obraz na tenký papír. Řezbář kresbu nalepil na desku z třešňového dřeva a vyřezal všechno, co nebylo linkou. Pak tiskař desku natřel barvou a přitiskl na ni papír."
+    },
+    {
+     "type": "lines",
+     "text": "Jednoduchý obraz, propočítaný na milimetr.",
+     "lines": [
+      {
+       "label": "Oblouk",
+       "text": "Vlna opisuje velký oblouk, který se uzavírá sám do sebe. Celá levá polovina obrazu je v něm uvězněná."
+      },
+      {
+       "label": "Trojúhelník Fudži",
+       "text": "Malý, stabilní, špičatý. Sedí přesně v prohlubni vlny."
+      },
+      {
+       "label": "Její dvojník",
+       "text": "Malá vlna v popředí opakuje tvar hory. Voda napodobuje kámen."
+      },
+      {
+       "label": "Směr čtení",
+       "text": "Zprava doleva: sklouzneme po vlnách až k Fudži a pak vzhlédneme k vlně."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Každá barva potřebovala vlastní vyřezanou desku a tiskly se jedna po druhé na tentýž list. Proto mají tisky tak málo barev."
+    },
+    {
+     "type": "key",
+     "text": "Jedna deska na jednu barvu: čím méně barev, tím jednodušší tisk. Hokusai z toho omezení udělal styl."
+    },
+    {
+     "type": "palette",
+     "text": "Barev je velmi málo, protože každá potřebuje vlastní vyřezanou desku. Klepni na jednu.",
+     "swatches": [
+      {
+       "name": "Papír",
+       "text": "Nejčastější barva vůbec není natištěná: je to holý papír, nechaný prázdný pro pěnu a sníh."
+      },
+      {
+       "name": "Pruská modř",
+       "text": "Modř z Evropy. Kreslí vlnu, její pruhy i prohlubně."
+      },
+      {
+       "name": "Světle modrá",
+       "text": "Tatáž modř, jen zředěná. Dává vodě objem."
+      },
+      {
+       "name": "Tónované nebe",
+       "text": "Béžová jen o málo tmavší než papír, díky které bílá pěna vynikne."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "K té modré. Je to pruská modř, chemický pigment vynalezený v Evropě a do Japonska tehdy čerstvě dovezený. Je sytá, nebledne a vyvolala senzaci. Série jí vděčí za velkou část svého úspěchu."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai svůj obraz podepsal. Kde? Nápověda: v pravém dolním rohu ne.",
+     "spots": [
+      {
+       "title": "Kartuš",
+       "text": "V rámečku je název série a obrazu, „Pod vlnou u Kanagawy“. Vlevo od něj Hokusaiův podpis."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "V 50. letech 19. století se Japonsko otevřelo obchodu a jeho tisky se dostaly do Evropy. Francouzské malíře ohromily: ploché barevné plochy, ostré obrysy, odvážné výřezy. Monet je sbíral. Van Gogh je kopíroval."
+    },
+    {
+     "type": "key",
+     "text": "Tomuhle šílenství se říká japonismus. Bez japonských tisků by impresionismus vypadal jinak."
+    },
+    {
+     "type": "text",
+     "text": "Ještě jedna věc: tohle není tsunami. Je to vlna z otevřeného moře, obrovská, ale obyčejná, taková, jaké se rybáři báli. Hokusai neukazuje katastrofu. Ukazuje drobné lidi tváří v tvář přírodě."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Hora Fudži",
+       "text": "Tady je skutečný námět tisku, maličký. Posvátná hora Japonska se zasněženým vrcholem, uprostřed bouře naprosto klidná."
+      },
+      {
+       "title": "Pěna",
+       "text": "Podívej se na hřeben vlny: pěna končí zahnutými prsty, jako drápy, které se každou chvíli sevřou kolem lodí."
+      },
+      {
+       "title": "Veslaři",
+       "text": "Rybáři skrčení nad vesly, hlavy skloněné. Tyhle rychlé lodě vozily čerstvé ryby do Eda, města, kterému dnes říkáme Tokio."
+      },
+      {
+       "title": "Malá vlna",
+       "text": "V popředí menší vlna. Všimni si jejího tvaru: špičatá, nahoře bílá. Je to druhá hora Fudži."
+      },
+      {
+       "title": "Kartuš",
+       "text": "V rámečku je název série a obrazu, „Pod vlnou u Kanagawy“. Vlevo od něj Hokusaiův podpis."
+      },
+      {
+       "title": "Spodní loď",
+       "text": "Noří se do údolí mezi vlnami. Lodě jsou celkem tři a mužů na nich asi třicet."
+      },
+      {
+       "title": "Nebe",
+       "text": "Skoro prázdné. Jednoduchý přechod, vytvořený setřením barvy z desky před tiskem."
+      },
+      {
+       "title": "Spršky",
+       "text": "Nad Fudži padají bílé tečky. Vypadají jako sníh na hoře."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Co je Velká vlna?",
+     "options": [
+      "Olejomalba",
+      "Dřevořez",
+      "Akvarel"
+     ],
+     "explanation": "Tisk, vytištěný v tisících kusů."
+    },
+    {
+     "question": "Do které série patří?",
+     "options": [
+      "Sto slavných pohledů na Edo",
+      "Třicet šest pohledů na horu Fudži",
+      "Čtvero ročních období"
+     ],
+     "explanation": "Otevírá Hokusaiovu sérii o hoře Fudži."
+    },
+    {
+     "question": "Odkud pochází modrá vlny?",
+     "options": [
+      "Z lapisu lazuli",
+      "Pruská modř, dovezená z Evropy",
+      "Z rozdrcených mušlí"
+     ],
+     "explanation": "Chemický pigment, v Japonsku nový, sytý a stálý."
+    },
+    {
+     "question": "Jaký tvar opakuje malá vlna v popředí?",
+     "options": [
+      "Horu Fudži",
+      "Loď",
+      "Mrak"
+     ],
+     "explanation": "Voda napodobuje horu."
+    },
+    {
+     "question": "Proč mají tisky tak málo barev?",
+     "options": [
+      "Barvy byly zakázané",
+      "Každá barva potřebuje vlastní vyřezanou desku",
+      "Papír neudržel barvu"
+     ],
+     "explanation": "Jedna deska na barvu, tištěné jedna po druhé."
+    },
+    {
+     "question": "Jak se říká evropskému šílenství po japonských tiscích?",
+     "options": [
+      "Japonismus",
+      "Orientalismus",
+      "Kubismus"
+     ],
+     "explanation": "Monet tisky sbíral, Van Gogh je kopíroval."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Velká vlna existuje jen v jednom exempláři.",
+     "explanation": "Je to tisk: vznikly jich tisíce."
+    },
+    {
+     "text": "Hokusaiovi bylo asi 70, když ji vytvořil.",
+     "explanation": "Narodil se v roce 1760 a série vyšla kolem roku 1831."
+    },
+    {
+     "text": "Velká vlna zobrazuje tsunami.",
+     "explanation": "Je to velká vlna z otevřeného moře, ne tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Lekníny",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "Žádný obzor: jen voda, květy a nebe, které se v ní zrcadlí.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "V Giverny si Monet nechal v zahradě vykopat jezírko a vysázel do něj lekníny. Na téměř třicet let se z něj stal jeho námět."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · květy položené na hladině."
+    },
+    {
+     "type": "text",
+     "text": "Podívej se pozorně: žádný břeh, žádný obzor. Už nepoznáš, kde končí voda a kde začíná odraz nebe."
+    },
+    {
+     "type": "key",
+     "text": "Bez obzoru se obraz mění v plochu: na vodu se díváme, jako bychom se dívali na nebe."
+    },
+    {
+     "type": "fact",
+     "text": "O jezírko se Monetovi starali zahradníci. Jeden z nich každé ráno čistil hladinu, než se malíř pustil do práce."
+    },
+    {
+     "type": "text",
+     "text": "Monet namaloval asi 250 pláten s lekníny. Pořád tytéž květy, ale nikdy totéž světlo."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kde Monet maloval své lekníny?",
+     "options": [
+      "V Giverny",
+      "V Paříži",
+      "V Benátkách"
+     ],
+     "explanation": "V zahradě svého vlastního domu."
+    },
+    {
+     "question": "Co na tomhle obraze chybí?",
+     "options": [
+      "Voda",
+      "Obzor",
+      "Květy"
+     ],
+     "explanation": "Žádný břeh, žádné nebe: jen vodní hladina."
+    },
+    {
+     "question": "Kolik obrazů s lekníny namaloval?",
+     "options": [
+      "Asi deset",
+      "Asi 250",
+      "Víc než 2 000"
+     ],
+     "explanation": "Obrovská série, kterou maloval téměř třicet let."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet namaloval lekníny jen jednou.",
+     "explanation": "Namaloval asi 250 verzí."
+    },
+    {
+     "text": "Jezírko s lekníny bylo v Monetově vlastní zahradě.",
+     "explanation": "V Giverny, kde si ho nechal vykopat."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Imprese, východ slunce",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Paříž",
+   "teaser": "Obraz, který dal jméno celému hnutí, a to jako vtip.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Přístav v Le Havru, mlhavé ráno. Monet nahodí pár rychlých tahů: lodě, stěžně a oranžové slunce."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · slunce a jeho odraz."
+    },
+    {
+     "type": "text",
+     "text": "V roce 1874 bylo plátno vystaveno v Paříži. Kritik Louis Leroy si z názvu vystřelil a tyhle malíře nazval „impresionisty“."
+    },
+    {
+     "type": "key",
+     "text": "Slovo „impresionismus“ pochází z tohoto obrazu. Začínalo jako urážka a stalo se jménem."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre je město, kde Monet vyrůstal. Jako dospívající tam byl známý svými karikaturami."
+    },
+    {
+     "type": "text",
+     "text": "Obraz byl navíc v roce 1985 ukraden z muzea Marmottan. Našel se o pět let později."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Který přístav Monet namaloval?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Benátky"
+     ],
+     "explanation": "Město, kde vyrůstal."
+    },
+    {
+     "question": "Čemu dal tento obraz jméno?",
+     "options": [
+      "Impresionismu",
+      "Muzeu",
+      "Ceně"
+     ],
+     "explanation": "Kritik se vysmál názvu a slovo se ujalo."
+    },
+    {
+     "question": "Ve kterém roce byl vystaven v Paříži?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Ten rok se mu vysmál kritik Louis Leroy."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Slovo „impresionista“ vzniklo jako urážka.",
+     "explanation": "Pochází z článku kritika Louise Leroye."
+    },
+    {
+     "text": "Tento obraz zobrazuje přístav v Marseille.",
+     "explanation": "Je to přístav v Le Havru."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Políbení",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Vídeň",
+   "teaser": "Dva milenci zahalení do zlata, na kraji rozkvetlé louky.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt je na vrcholu svého „zlatého období“. Na plátno klade skutečné plátkové zlato, jako na náboženskou ikonu."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · dvě tváře."
+    },
+    {
+     "type": "text",
+     "text": "Podívej se na oblečení. Jeho plášť pokrývají černé a bílé obdélníky. Její šaty kruhy a květy."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · obdélníky a kruhy."
+    },
+    {
+     "type": "key",
+     "text": "Obdélníky pro něj, kruhy pro ni: vzory vyprávějí příběh páru."
+    },
+    {
+     "type": "fact",
+     "text": "Klimtův otec byl rytec zlata. Malíř tedy vyrůstal obklopený kovem, který později kladl na svá plátna."
+    },
+    {
+     "type": "text",
+     "text": "Rakouský stát obraz koupil v roce 1908, ještě než byl úplně dokončený."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Jaký materiál Klimt použil?",
+     "options": [
+      "Perleť",
+      "Plátkové zlato",
+      "Bronz"
+     ],
+     "explanation": "Je to znak jeho zlatého období."
+    },
+    {
+     "question": "Jaké vzory pokrývají mužův plášť?",
+     "options": [
+      "Kruhy",
+      "Květy",
+      "Obdélníky"
+     ],
+     "explanation": "Kruhy a květy patří ženě."
+    },
+    {
+     "question": "Kdo obraz v roce 1908 koupil?",
+     "options": [
+      "Rakouský stát",
+      "Francouzský sběratel",
+      "Klimtův otec"
+     ],
+     "explanation": "Ještě než byl úplně dokončený."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt použil skutečné plátkové zlato.",
+     "explanation": "Stejně jako na několika dalších plátnech ze zlatého období."
+    },
+    {
+     "text": "Políbení visí v Paříži.",
+     "explanation": "Je ve Vídni, v Belvederu."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Slunečnice",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Londýn",
+   "teaser": "Žlutá na žluté: kytice namalovaná na uvítanou příteli.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Srpen 1888, Arles. Van Gogh čeká na svého přítele Paula Gauguina a chce mu pokoj vyzdobit slunečnicemi."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · květy v každém stadiu."
+    },
+    {
+     "type": "text",
+     "text": "Odváží se použít skoro jedinou barvu: žluté květy, žlutá váza, žluté pozadí. Všechno stojí na odstínech a na tloušťce barvy."
+    },
+    {
+     "type": "key",
+     "text": "Skoro jednobarevný obraz: žlutá ve všech podobách."
+    },
+    {
+     "type": "fact",
+     "text": "Slunečnice rychle vadnou. Van Gogh musel malovat rychle, od svítání, než květy svěsily hlavy."
+    },
+    {
+     "type": "text",
+     "text": "Těchhle slunečnic existuje několik verzí. Některé květy jsou ještě v poupěti, jiné už uvadlé: kytice vypráví i o plynutí času."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Čí pokoj měly slunečnice vyzdobit?",
+     "options": [
+      "Pokoj Paula Gauguina",
+      "Pokoj Clauda Moneta",
+      "Pokoj jeho bratra Thea"
+     ],
+     "explanation": "Van Gogh na něj čekal v Arles."
+    },
+    {
+     "question": "Ve kterém městě je namaloval?",
+     "options": [
+      "V Paříži",
+      "V Arles",
+      "V Amsterdamu"
+     ],
+     "explanation": "Na jihu Francie, v srpnu 1888."
+    },
+    {
+     "question": "Co je na barvách neobvyklé?",
+     "options": [
+      "Skoro všechno je žluté",
+      "Není tam vůbec žádná žlutá",
+      "Je černobílý"
+     ],
+     "explanation": "Žluté květy, žlutá váza, žluté pozadí."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Slunečnice existují v několika verzích.",
+     "explanation": "Van Gogh jich namaloval celou sérii."
+    },
+    {
+     "text": "Van Gogh prodal své Slunečnice ještě za života za celé jmění.",
+     "explanation": "Za života neprodal skoro nic."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "kol. 1503–1519",
+   "museum": "Louvre, Paříž",
+   "teaser": "Nejslavnější úsměv světa stojí na obrysech, které nevidíš.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Je to nejslavnější obraz na světě, a přitom malý: 77 × 53 centimetrů, namalovaný na topolové desce. Spoustu návštěvníků Louvru jeho velikost překvapí."
+    },
+    {
+     "type": "text",
+     "text": "Kolem roku 1503 požádal ve Florencii obchodník s hedvábím Francesco del Giocondo Leonarda da Vinci, aby namaloval jeho ženu Lisu Gherardiniovou."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa je portrét Lisy Gherardiniové, manželky florentského obchodníka. „Mona“ znamená prostě „paní“."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo nebyl jen malíř. Byl také inženýr, anatom a vynálezce a zanechal tisíce stránek poznámek psaných zrcadlovým písmem."
+    },
+    {
+     "type": "tour",
+     "text": "Prohlédni si ji celou. Pak se přibliž k tomu, co z ní udělalo legendu.",
+     "spots": [
+      {
+       "title": "Úsměv",
+       "text": "Hledej linku, která kreslí rty: žádná tam není. Koutky úst se rozplývají ve stínu. Proto se zdá, že se úsměv mění."
+      },
+      {
+       "title": "Oči",
+       "text": "Stejný trik: koutky očí se rozpouštějí ve stínu. Všimni si také, že nemá obočí ani řasy."
+      },
+      {
+       "title": "Ruce",
+       "text": "Uvolněně položené jedna na druhé. Leonardo pitval těla, aby pochopil kosti a svaly: tyhle ruce mají váhu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tenhle opar má své jméno: sfumato, z italského „fumo“, kouř. Leonardo vrší desítky velmi tenkých, skoro průhledných vrstev barvy. Obrysy mizí a tvary se do sebe vlévají."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato znamená měkké, zakouřené obrysy. Kvůli němu se úsměv nedá nikdy přesně zachytit."
+    },
+    {
+     "type": "text",
+     "text": "Zkus to sám. Dívej se jí do očí, a ústa se usmívají. Podívej se přímo na ústa, a úsměv vybledne. Všechnu práci odvádějí stíny v koutcích."
+    },
+    {
+     "type": "find",
+     "text": "V téhle tváři něco chybí. Klepni na místo, kde by to mělo být.",
+     "spots": [
+      {
+       "title": "Obočí",
+       "text": "Nemá obočí ani řasy. Tehdejší móda, nebo barva setřená starým čištěním? Odborníci se o tom přou dodnes."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Teď se podívej na pózu. Před Leonardem se portréty malovaly hlavně z profilu nebo končily u hrudi. On ukazuje postavu až do pasu, natočenou ze tří čtvrtin k nám, i s rukama."
+    },
+    {
+     "type": "fact",
+     "text": "Mladý malíř Raffael viděl portrét v Leonardově dílně a hned jeho pózu převzal do svých vlastních děl."
+    },
+    {
+     "type": "lines",
+     "text": "Klidná póza, podivná krajina. Podívej se, jak je to celé postavené.",
+     "lines": [
+      {
+       "label": "Pyramida",
+       "text": "Hlava nahoře, paže a ruce u základny. Široký, stabilní tvar: nehýbe se, spočívá."
+      },
+      {
+       "label": "Obzor vlevo",
+       "text": "Vlevo leží vodní hladina krajiny zhruba tady."
+      },
+      {
+       "label": "Obzor vpravo",
+       "text": "Vpravo je výš. Obě poloviny krajiny k sobě nesedí, a i z toho pramení část podivnosti obrazu."
+      },
+      {
+       "label": "Cesta",
+       "text": "Klikatá linie, která vede oko do dálky, stejně jako řeky na pravé straně."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Krajina není skutečné místo. Je to snový svět skal, vody a mlhy, bez domů a bez lidí. Jen jediná věc v ní vznikla lidskou rukou."
+    },
+    {
+     "type": "find",
+     "text": "V téhle prázdné krajině stojí jediná stavba od člověka. Kde je most?",
+     "spots": [
+      {
+       "title": "Most",
+       "text": "Malý kamenný most o několika obloucích. Jediná stopa lidské přítomnosti v celé krajině."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pozadí se řídí pravidlem, které si Leonardo sám zapsal: vzdušnou perspektivou. Vzduch není dokonale průzračný. Čím je něco dál, tím modřeji, bleději a mlhavěji vypadá."
+    },
+    {
+     "type": "key",
+     "text": "Vzdušná perspektiva: vzdálené věci vypadají modřejší, bledší a rozmazanější. Leonardo ji jako jeden z prvních maloval záměrně."
+    },
+    {
+     "type": "palette",
+     "text": "Hnědé, zelené, trocha zlaté. Starý lak všechno zažloutil. Klepni na barvu.",
+     "swatches": [
+      {
+       "name": "Stíny",
+       "text": "Šaty, vlasy, závoj. Skoro polovina obrazu je v polostínu."
+      },
+      {
+       "name": "Pleť",
+       "text": "Tvář, hruď, ruce: tři světlá místa, rozestavená do trojúhelníku."
+      },
+      {
+       "name": "Šedozelené nebe",
+       "text": "Původně modřejší. Zažloutlý lak ho posunul k zelené."
+      },
+      {
+       "name": "Hnědá země",
+       "text": "Skály a cesty krajiny, po obou stranách jejích ramen."
+      },
+      {
+       "name": "Zelená dálka",
+       "text": "Voda a hory, změkčené vzdáleností."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo obraz nikdy neodevzdal. Nechal si ho, léta na něm pracoval a vzal ho s sebou do Francie, když ho tam pozval král František I. Když v roce 1519 zemřel, portrét přešel do královské sbírky. Proto je dnes v Louvru."
+    },
+    {
+     "type": "text",
+     "text": "Dlouho to byl jeden mistrovský obraz z mnoha. Světovou slávu mu přinesl zločin: 21. srpna 1911 ho italský dělník Vincenzo Peruggia sundal ze zdi a odnesl pod pracovním pláštěm."
+    },
+    {
+     "type": "fact",
+     "text": "Zatímco obraz chyběl, stály v Louvru fronty lidí, kteří se chtěli podívat na prázdné místo na zdi."
+    },
+    {
+     "type": "text",
+     "text": "Noviny po celém světě otiskly její podobiznu. Když se v roce 1913 našla ve Florencii, nebyla už Mona Lisa jen obraz. Byla to hvězda."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa vděčí za svou genialitu Leonardovi a za svou slávu krádeži."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Úsměv",
+       "text": "Hledej linku, která kreslí rty: žádná tam není. Koutky úst se rozplývají ve stínu. Proto se zdá, že se úsměv mění."
+      },
+      {
+       "title": "Oči",
+       "text": "Stejný trik: koutky očí se rozpouštějí ve stínu. Všimni si také, že nemá obočí ani řasy."
+      },
+      {
+       "title": "Ruce",
+       "text": "Uvolněně položené jedna na druhé. Leonardo pitval těla, aby pochopil kosti a svaly: tyhle ruce mají váhu."
+      },
+      {
+       "title": "Most",
+       "text": "Malý kamenný most o několika obloucích. Jediná stopa lidské přítomnosti v celé krajině."
+      },
+      {
+       "title": "Cesta",
+       "text": "Cesta se klikatí k jezeru. Krajina není skutečné místo: Leonardo si ji vymýšlí podle svých studií skal a vody."
+      },
+      {
+       "title": "Závoj",
+       "text": "Vlasy jí zakrývá průsvitný závoj. Je tak jemný, že ho na čele sotva rozeznáš."
+      },
+      {
+       "title": "Dálka",
+       "text": "Čím jsou hory dál, tím jsou modřejší a mlhavější. Leonardo si všiml, že i sám vzduch má barvu."
+      },
+      {
+       "title": "Rukáv",
+       "text": "Husté zlatavé záhyby, malované jeden po druhém. Šaty jsou tmavé a nenosí žádné šperky: nic nemá odvádět pozornost od tváře."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kdo je žena na portrétu?",
+     "options": [
+      "Francouzská královna",
+      "Lisa Gherardiniová, manželka florentského obchodníka",
+      "Leonardova matka"
+     ],
+     "explanation": "Portrét objednal její manžel Francesco del Giocondo."
+    },
+    {
+     "question": "Jak se jmenuje technika měkkých, zakouřených obrysů?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointilismus"
+     ],
+     "explanation": "Z italského „fumo“, kouř."
+    },
+    {
+     "question": "Na čem je Mona Lisa namalovaná?",
+     "options": [
+      "Na lněném plátně",
+      "Na topolové desce",
+      "Na omítnuté zdi"
+     ],
+     "explanation": "Na topolové desce o rozměrech 77 × 53 centimetrů."
+    },
+    {
+     "question": "Co se děje s věcmi v dálce?",
+     "options": [
+      "Jsou sytější",
+      "Jsou modřejší, bledší a mlhavější",
+      "Mají ostřejší obrysy"
+     ],
+     "explanation": "To je vzdušná perspektiva."
+    },
+    {
+     "question": "Proč je obraz ve Francii?",
+     "options": [
+      "Odvezl ho z Itálie Napoleon",
+      "Přivezl ho Leonardo a obraz přešel do královské sbírky",
+      "Louvre ho koupil v roce 1911"
+     ],
+     "explanation": "Leonardo přijel do Francie na pozvání krále Františka I."
+    },
+    {
+     "question": "Co udělalo Monu Lisu světově slavnou?",
+     "options": [
+      "Její krádež z Louvru v roce 1911",
+      "Výstava v New Yorku",
+      "Její restaurování"
+     ],
+     "explanation": "Ukradl ji Vincenzo Peruggia, našla se v roce 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Lisa je namalovaná na plátně.",
+     "explanation": "Je namalovaná na topolové desce."
+    },
+    {
+     "text": "Mona Lisa byla v roce 1911 ukradena z Louvru.",
+     "explanation": "Našla se o dva roky později."
+    },
+    {
+     "text": "Mona Lisa má husté tmavé obočí.",
+     "explanation": "Nemá vůbec obočí ani řasy."
+    }
+   ]
+  }
+ }
+}
