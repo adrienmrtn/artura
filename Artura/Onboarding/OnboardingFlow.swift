@@ -8,9 +8,9 @@ enum OnbStep: Int, CaseIterable {
     // 3 · The test
     case testIntro, flashTest, flashResult
     // 4 · The demo
-    case understand, lesson, afterLesson
+    case learnToLook, study, abilities, chooseCourse, lesson, afterLesson
     // 5 · The turning point: that time can become knowledge
-    case phoneTime, phoneResult, projection, graph
+    case phoneTime, phoneResult, attention, projection, graph
     // 6 · The commitment
     case streak, reminder, widget, loading, plan, socialProof, account
     // 7 · The gift: the free trial
@@ -20,7 +20,7 @@ enum OnbStep: Int, CaseIterable {
     /// The others are full-page or have their own header.
     var showsBar: Bool {
         switch self {
-        case .welcome, .lesson, .loading, .account, .gift, .noCommitment, .trial: return false
+        case .welcome, .quotes, .lesson, .loading, .account, .gift, .noCommitment, .trial: return false
         default: return true
         }
     }
@@ -163,7 +163,7 @@ struct OnboardingFlow: View {
         case .daily: DailyScreen(onNext: next)
         case .pocketMuseum: PocketMuseumScreen(onNext: next)
         case .photo: PhotoScreen(onNext: next)
-        case .quotes: QuotesScreen(onNext: next)
+        case .quotes: QuotesScreen(onBack: back, onNext: next)
         case .questionsIntro: QuestionsIntroScreen(onNext: next)
         case .name: NameScreen(onNext: next)
         case .gender: GenderScreen(onNext: next)
@@ -175,7 +175,10 @@ struct OnboardingFlow: View {
         case .testIntro: TestIntroScreen(onNext: next)
         case .flashTest: FlashTestScreen(onNext: next)
         case .flashResult: FlashResultScreen(onNext: next)
-        case .understand: UnderstandScreen(artwork: course, onNext: next)
+        case .learnToLook: LearnToLookScreen(onNext: next)
+        case .study: StudyScreen(onNext: next)
+        case .abilities: AbilitiesScreen(onNext: next)
+        case .chooseCourse: ChooseCourseScreen(onNext: next)
         case .lesson:
             if let course {
                 // An excerpt of the lesson: the beginning and a single interaction on the painting.
@@ -191,6 +194,7 @@ struct OnboardingFlow: View {
         case .afterLesson: AfterLessonScreen(onNext: next)
         case .phoneTime: PhoneTimeScreen(onNext: next)
         case .phoneResult: PhoneResultScreen(onNext: next)
+        case .attention: AttentionScreen(onNext: next)
         case .projection: ProjectionScreen(onNext: next)
         case .graph: GraphScreen(onNext: next)
         case .streak: StreakScreen(onNext: next)

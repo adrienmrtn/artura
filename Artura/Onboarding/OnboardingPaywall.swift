@@ -556,8 +556,7 @@ struct TrialScreen: View {
                     .offset(x: 16 + 16.5, y: 16 + 18)
             }
         }
-        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(.white))
-        .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.line, lineWidth: 1))
+        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.card))
     }
 
     private func timelineRow(_ step: Int, icon: String, fill: Color, tint: Color, title: String, text: String) -> some View {
@@ -632,8 +631,7 @@ struct TrialScreen: View {
         .padding(.horizontal, 16)
         .padding(.vertical, 8)
         .frame(maxWidth: .infinity, minHeight: 56)
-        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(.white))
-        .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Palette.line, lineWidth: 1))
+        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.card))
     }
 
     // MARK: Actions
