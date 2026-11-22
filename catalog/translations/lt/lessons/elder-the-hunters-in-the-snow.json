@@ -3,7 +3,7 @@
  "lesson": [
   {
    "type": "text",
-   "text": "Dangus tokios spalvos kaip užšalęs tvenkinys. Nėra nei vėjo, nei saulės, nei šešėlių. Sniegas prarija visus garsus, išskyrus gal batų girgždėjimą ir vienos laužo liepsnos traškesį. Beveik jauti, kaip tirpsta pirštai. Retas paveikslas taip greitai priverčia pajusti temperatūrą."
+   "text": "Dangus tokios spalvos kaip užšalęs tvenkinys. Nėra nei vėjo, nei saulės, nei šešėlių. Sniegas prarija visus garsus, išskyrus gal batų girgždėjimą ir vieno laužo traškesį. Beveik jauti, kaip tirpsta pirštai. Retas paveikslas taip greitai priverčia pajusti temperatūrą."
   },
   {
    "type": "text",
@@ -15,7 +15,7 @@
   },
   {
    "type": "text",
-   "text": "Kaip nutapyti šaltį? Bruegelis tai daro beveik be spalvų: balta, juodai ruda ir viena ledinė pilkai žalia, kurią panaudoja dukart, dangui ir ledui, tarsi viena būtų kitos veidrodis. Jų fone vyrai, šunys ir medžiai atrodo kaip tamsūs iškirpti siluetai. Pavadinimas žada medžiotojus. Tad ką jie sumedžiojo?"
+   "text": "Kaip nutapyti šaltį? Bruegelis tai daro beveik be spalvų: balta, juodai ruda ir viena ledinė pilkai žalia, kurią panaudoja dukart, dangui ir ledui, tarsi viena būtų kitos veidrodis. Tame fone vyrai, šunys ir medžiai atrodo kaip tamsūs iškirpti siluetai. Pavadinimas žada medžiotojus. Tad ką jie sumedžiojo?"
   },
   {
    "type": "find",
@@ -45,7 +45,7 @@
   },
   {
    "type": "lines",
-   "text": "Stovi ant kalvos viršūnės, iškart už medžiotojų nugarų. Sek, kuriuo keliu žvilgsnis leidžiasi į slėnį.",
+   "text": "Esi kalvos viršūnėje, iškart už medžiotojų nugarų. Sek, kuriuo keliu žvilgsnis leidžiasi į slėnį.",
    "lines": [
     {
      "label": "Medžiotojų takas",
@@ -53,7 +53,7 @@
     },
     {
      "label": "Kalvos pakraštys",
-     "text": "Apsnigtas kalvagūbris įstrižai pjauna paveikslą. Čia viskas arti ir stambu. Toliau žemė staiga kyla žemyn ir apačioje atsiveria slėnis."
+     "text": "Apsnigtas kalvos kraštas įstrižai pjauna paveikslą. Čia viskas arti ir stambu. Toliau žemė staiga leidžiasi žemyn ir apačioje atsiveria slėnis."
     },
     {
      "label": "Kelias į tolį",
@@ -71,7 +71,7 @@
   },
   {
    "type": "text",
-   "text": "Kol kas paveikslas pasakoja apie tris pavargusius vyrus. Bet Bruegelis garsėjo kitu dalyku: scenos prikimšimu dešimčių mažų gyvenimų, kiekvieno užsiėmusio savais reikalais. Slėnyje žiema yra ne tik vargas. Tai ir darbas, ir žaidimai."
+   "text": "Kol kas paveikslas pasakoja apie tris pavargusius vyrus. Bet Bruegelis garsėjo kitu dalyku: mokėjo scenas prikimšti dešimčių mažų gyvenimų, kurių kiekvienas užsiėmęs savais reikalais. Slėnyje žiema yra ne tik vargas. Tai ir darbas, ir žaidimai."
   },
   {
    "type": "tour",
@@ -84,7 +84,7 @@
     },
     {
      "title": "Glėbys žabų",
-     "text": "Figūra eina per tiltelį po didžiuliu malkų ryšuliu. Tokią žiemą palaikyti namus šiltus yra kasdienis darbas."
+     "text": "Figūra eina per tiltelį po didžiuliu malkų ryšuliu. Tokią žiemą išlaikyti namus šiltus yra kasdienis darbas."
     },
     {
      "title": "Užšalę tvenkiniai",
@@ -109,11 +109,11 @@
    "spots": [
     {
      "title": "Kreiva iškaba",
-     "text": "Karčiamos iškaba kabo pakrypusi, laikosi vien už kampo. Tokios mažos apleistumo žymės stiprina įspūdį, kad čia sunkūs laikai."
+     "text": "Karčiamos iškaba kabo pakrypusi, laikosi vos už vieno kampo. Tokios mažos apleistumo žymės stiprina įspūdį, kad čia sunkūs laikai."
     },
     {
      "title": "Sklandantis paukštis",
-     "text": "Paukštis kybo ore išskleidęs sparnus, juoda figūra prieš žalią dangų. Jis pažymi tuščią erdvę tarp kalvos ir kalnų ir giliau išryškina nuokrypį."
+     "text": "Paukštis kybo ore išskleidęs sparnus, juoda figūra prieš žalią dangų. Jis pažymi tuščią erdvę tarp kalvos ir kalnų ir leidžia pajusti, koks gilus nusileidimas."
     },
     {
      "title": "Gauja",
