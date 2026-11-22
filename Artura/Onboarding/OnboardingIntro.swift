@@ -14,11 +14,11 @@ struct WelcomeScreen: View {
                 .tracking(3)
                 .foregroundStyle(Palette.blue)
                 .enter(0)
-            Text("Finally, learn art")
+            Text("Finally learn art")
                 .font(.figtree(36, .bold))
                 .foregroundStyle(Palette.ink)
                 .enter(1)
-            Text("5 minutes a day, with sessions made for you.")
+            Text("5 minutes a day. Sessions tailored to you.")
                 .font(.figtree(17))
                 .foregroundStyle(Palette.muted)
                 .fixedSize(horizontal: false, vertical: true)
@@ -112,7 +112,7 @@ struct PocketMuseumScreen: View {
     var body: some View {
         StoryScaffold(image: "ill_musee",
                       title: "Artura is a museum in your pocket.",
-                      subtitle: "Artura was made for art lovers.",
+                      subtitle: "Built for art lovers, and for everyone who wants to become one.",
                       onNext: onNext)
     }
 }
@@ -124,9 +124,9 @@ struct PhotoScreen: View {
 
     var body: some View {
         StoryScaffold(image: "ill_photo",
-                      tag: "And at the museum?",
-                      title: "Snap a photo of any artwork and ask what it means.",
-                      subtitle: "Then save the ones you want to remember to your collection.",
+                      tag: "At the museum?",
+                      title: "Snap any artwork. Artura explains it.",
+                      subtitle: "And save the ones you want to remember to your collection.",
                       onNext: onNext)
     }
 }
@@ -140,10 +140,10 @@ struct Quote: Identifiable {
     let role: String
     var id: String { author }
 
-    // Quotes to be verified (source and translation) before release.
+    // Quotes to be checked (source and translation) before release.
     static let all: [Quote] = [
         Quote(image: "portrait_klee", text: "Art does not reproduce the visible; it makes visible.", author: "Paul Klee", role: "Painter"),
-        Quote(image: "portrait_nietzsche", text: "We have art so that we shall not die of the truth.", author: "Friedrich Nietzsche", role: "Philosopher"),
+        Quote(image: "portrait_nietzsche", text: "We have art in order not to die of the truth.", author: "Friedrich Nietzsche", role: "Philosopher"),
         Quote(image: "portrait_proust", text: "Through art alone are we able to emerge from ourselves.", author: "Marcel Proust", role: "Writer")
     ]
 }
@@ -155,7 +155,7 @@ struct QuotesScreen: View {
     private let quotes = Quote.all
 
     var body: some View {
-        OnbScaffold(title: "This is why we created Artura",
+        OnbScaffold(title: "This is why we built Artura",
                     subtitle: "Art is timeless. They said it long before us.",
                     onNext: onNext) {
             VStack(spacing: 12) {
@@ -200,13 +200,24 @@ struct QuotesScreen: View {
 
 // MARK: The Mona Lisa speaks
 
+/// "Hi, I'm Artura": the character introduces herself, right after the welcome screen.
+struct HelloScreen: View {
+    let onNext: () -> Void
+
+    var body: some View {
+        MascotTalkScreen(lines: [
+            "Hi, I'm Artura. Every day, I'll show you one masterpiece and the story behind it."
+        ], cta: "Hi Artura!", mascotSize: 190, onNext: onNext)
+    }
+}
+
 struct QuestionsIntroScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        MascotScaffold(title: "A few questions to get to know you.",
-                       subtitle: "Less than a minute, for a program built around you.",
-                       cta: "Let's go", onNext: onNext)
+        MascotTalkScreen(lines: [
+            "Let's get to know each other. A few quick questions, under a minute, to build your program."
+        ], cta: "Let's go", onNext: onNext)
     }
 }
 
@@ -214,33 +225,40 @@ struct TestIntroScreen: View {
     @EnvironmentObject private var user: UserStore
     let onNext: () -> Void
 
-    private var title: String {
+    private var line: String {
+        let start: String
         if let name = user.profile.firstName, !name.isEmpty {
-            return "Great, \(name). Let's see what you already know."
+            start = "Great, \(name)."
+        } else {
+            start = "Great."
         }
-        return "Great. Let's see what you already know."
+        return "\(start) Let's see what you already know: seven paintings, from the most famous to the hardest."
     }
 
     var body: some View {
-        MascotScaffold(title: title,
-                       subtitle: "Seven paintings, from the most famous to the most obscure.",
-                       cta: user.agree("I'm ready", "I'm ready"), onNext: onNext)
+        MascotTalkScreen(lines: [line], cta: "I'm ready", onNext: onNext)
     }
 }
 
-// MARK: Understand, not just learn (typewriter text)
+// MARK: Before the guided tour: what Artura brings
 
 struct UnderstandScreen: View {
+    /// The painting of the guided tour that follows.
+    let artwork: Artwork?
     let onNext: () -> Void
 
-    var body: some View {
-        VStack(spacing: 0) {
-            Spacer(minLength: 8)
-            MascotBubble(mascotSize: 150) {
-                TypewriterText(text: "With Artura, you don't just learn names. You understand the story behind each painting, and what it means.")
-            }
-            .enter()
+    private var lines: [String] {
+        let subject = artwork.map { "\($0.title) by \($0.artist)" } ?? "a painting"
+        return [
+            "With me, you don't just learn names. You understand the story behind each painting, and what it really means.",
+            "I'll show you one artwork a day, with its whole story. Day after day, you'll get to know all the great works.",
+            "My goal: make culture accessible to everyone, in a simple and playful way. Art is a heritage everyone deserves to know.",
+            "Let's look at \(subject) together. Do you know its whole story? Let me guide you: the tour is interactive."
+        ]
+    }
 
+    var body: some View {
+        MascotTalkScreen(lines: lines, cta: "Start the tour", onNext: onNext) {
             HStack(spacing: 8) {
                 Image(systemName: "scope")
                     .font(.system(size: 14, weight: .semibold))
@@ -251,19 +269,18 @@ struct UnderstandScreen: View {
             .padding(.horizontal, 14)
             .frame(height: 36)
             .background(Capsule().fill(Palette.sand))
-            .padding(.top, 22)
-            .enter(4)
-
-            Spacer(minLength: 16)
-            Spacer(minLength: 0)
-
-            Button("Start the tour") { onNext() }
-                .buttonStyle(.primary)
         }
-        .padding(.horizontal, 24)
-        .padding(.top, 12)
-        .padding(.bottom, 16)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Palette.bg)
+    }
+}
+
+// MARK: After the guided tour
+
+struct AfterLessonScreen: View {
+    let onNext: () -> Void
+
+    var body: some View {
+        MascotTalkScreen(lines: [
+            "This is how you'll learn from now on. Before we finish, let's build your program."
+        ], cta: "Build my program", onNext: onNext)
     }
 }

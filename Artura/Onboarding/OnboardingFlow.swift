@@ -2,17 +2,17 @@ import SwiftUI
 
 enum OnbStep: Int, CaseIterable {
     // 1 · The promise
-    case welcome, daily, pocketMuseum, photo, quotes
+    case welcome, hello, daily, pocketMuseum, photo, quotes
     // 2 · Getting to know each other
     case questionsIntro, name, gender, motivation, arts, recognize, knowledge, museum
     // 3 · The test
     case testIntro, flashTest, flashResult
     // 4 · The demo
-    case understand, lesson
-    // 5 · The click: this time can become knowledge
+    case understand, lesson, afterLesson
+    // 5 · The turning point: that time can become knowledge
     case phoneTime, phoneResult, projection, graph
     // 6 · The commitment
-    case streak, reminder, loading, plan, account
+    case streak, reminder, widget, loading, plan, socialProof, account
     // 7 · The gift: the free trial
     case gift, noCommitment, trial
 
@@ -25,7 +25,7 @@ enum OnbStep: Int, CaseIterable {
         }
     }
 
-    /// Progress through the onboarding, from 0 to 1 (the bar is full at the account step).
+    /// Progress through the onboarding, from 0 to 1 (the bar is full at the account screen).
     var progress: Double {
         min(1, Double(rawValue) / Double(OnbStep.account.rawValue))
     }
@@ -34,8 +34,8 @@ enum OnbStep: Int, CaseIterable {
     var previous: OnbStep? {
         switch self {
         case .welcome, .gift, .noCommitment, .trial: return nil
-        // The loading screen replays on its own: skip it when going back.
-        case .plan: return .reminder
+        // The loading screen replays by itself: skip it when going back.
+        case .plan: return .widget
         default: return OnbStep(rawValue: rawValue - 1)
         }
     }
@@ -47,11 +47,11 @@ struct OnboardingFlow: View {
     @EnvironmentObject private var pro: ProStore
 
     @State private var step: OnbStep = OnboardingDebug.startStep ?? .welcome
-    /// Direction of the last move: it decides which side the screens slide from.
+    /// Direction of the last move: it decides which side the screens glide from.
     @State private var forward = true
     /// True during a screen change: a double tap doesn't skip a step.
     @State private var moving = false
-    /// True if we reached the account screen through "I already have an account".
+    /// True if the account screen was reached through "I already have an account".
     @State private var loginShortcut = false
 
     var body: some View {
@@ -90,14 +90,14 @@ struct OnboardingFlow: View {
         content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
     }
 
-    /// Trial offer shown at the end (nil until the product is loaded).
+    /// Trial offer shown at the end. Until the StoreKit product is loaded, sample prices keep the flow visible.
     private var offer: TrialOffer? {
-        TrialOffer(pro.yearly) ?? OnboardingDebug.previewOffer(days: 3)
+        TrialOffer(pro.yearly) ?? TrialOffer(previewDays: 3)
     }
 
-    /// Last-minute offer: the same subscription with a longer trial.
+    /// Gift offer, shown once when the visitor is about to leave: a longer trial and a lower yearly price.
     private var extendedOffer: TrialOffer? {
-        TrialOffer(pro.yearlyExtended) ?? OnboardingDebug.previewOffer(days: 7)
+        TrialOffer(pro.yearlyExtended) ?? TrialOffer(previewDays: 7, gift: true)
     }
 
     // MARK: Navigation
@@ -107,7 +107,7 @@ struct OnboardingFlow: View {
         moving = true
         let isForward = target.rawValue > step.rawValue
         if isForward != forward {
-            // The direction changes: let the current screen learn it before sliding it out.
+            // The direction changes: let the current screen learn it before sending it out.
             forward = isForward
             DispatchQueue.main.async { move(to: target) }
         } else {
@@ -123,7 +123,7 @@ struct OnboardingFlow: View {
     }
 
     private func next() {
-        // After the account comes the gift, if there is a trial offer to show.
+        // After the account comes the gift, if there is a trial offer to present.
         if step == .account, offer == nil || pro.isPro {
             finish()
         } else if let target = OnbStep(rawValue: step.rawValue + 1) {
@@ -159,6 +159,7 @@ struct OnboardingFlow: View {
                 loginShortcut = true
                 go(.account)
             })
+        case .hello: HelloScreen(onNext: next)
         case .daily: DailyScreen(onNext: next)
         case .pocketMuseum: PocketMuseumScreen(onNext: next)
         case .photo: PhotoScreen(onNext: next)
@@ -174,7 +175,7 @@ struct OnboardingFlow: View {
         case .testIntro: TestIntroScreen(onNext: next)
         case .flashTest: FlashTestScreen(onNext: next)
         case .flashResult: FlashResultScreen(onNext: next)
-        case .understand: UnderstandScreen(onNext: next)
+        case .understand: UnderstandScreen(artwork: course, onNext: next)
         case .lesson:
             if let course {
                 // An excerpt of the lesson: the beginning and a single interaction on the painting.
@@ -187,14 +188,17 @@ struct OnboardingFlow: View {
                     next()
                 }
             }
+        case .afterLesson: AfterLessonScreen(onNext: next)
         case .phoneTime: PhoneTimeScreen(onNext: next)
         case .phoneResult: PhoneResultScreen(onNext: next)
         case .projection: ProjectionScreen(onNext: next)
         case .graph: GraphScreen(onNext: next)
         case .streak: StreakScreen(onNext: next)
         case .reminder: ReminderScreen(onNext: next)
+        case .widget: WidgetScreen(onNext: next)
         case .loading: LoadingScreen(onNext: next)
         case .plan: PlanScreen(onNext: next)
+        case .socialProof: SocialProofScreen(onNext: next)
         case .account: AccountScreen(onBack: back, onNext: next)
         case .gift:
             if let offer { GiftScreen(offer: offer, onNext: next) }
@@ -218,7 +222,7 @@ private struct GlideEffect: ViewModifier {
 }
 
 extension AnyTransition {
-    /// The outgoing screen fades out quickly as it slides, the next one comes in from the opposite side and settles gently.
+    /// The outgoing screen fades out quickly while gliding, the next one comes in from the opposite side and settles gently.
     static func onbGlide(forward: Bool) -> AnyTransition {
         let side: CGFloat = forward ? 1 : -1
         return .asymmetric(
@@ -237,6 +241,15 @@ extension AnyTransition {
 /// Launch arguments (Debug builds only) to open a screen directly:
 /// `-onbStep graph`, `-onbName Max`, `-onbPreviewOffer YES` (full list in the README).
 enum OnboardingDebug {
+    /// True in a Debug build.
+    static var isDebug: Bool {
+        #if DEBUG
+        return true
+        #else
+        return false
+        #endif
+    }
+
     static var startStep: OnbStep? {
         #if DEBUG
         guard let name = UserDefaults.standard.string(forKey: "onbStep") else { return nil }
@@ -246,7 +259,7 @@ enum OnboardingDebug {
         #endif
     }
 
-    /// Sample offer, to see the trial screens without a loaded StoreKit product.
+    /// Sample offer, to view the trial screens without a loaded StoreKit product.
     static func previewOffer(days: Int) -> TrialOffer? {
         #if DEBUG
         guard UserDefaults.standard.bool(forKey: "onbPreviewOffer") else { return nil }
@@ -262,6 +275,15 @@ enum OnboardingDebug {
         return UserDefaults.standard.bool(forKey: key)
         #else
         return false
+        #endif
+    }
+
+    /// Integer passed as a launch argument (`-<key> 2`), 0 by default and outside Debug.
+    static func int(_ key: String) -> Int {
+        #if DEBUG
+        return UserDefaults.standard.integer(forKey: key)
+        #else
+        return 0
         #endif
     }
 
@@ -290,9 +312,9 @@ enum OnboardingDebug {
 struct OnbScaffold<Content: View>: View {
     let title: String
     var subtitle: String? = nil
-    /// If true, the Mona Lisa asks the question, in a bubble.
+    /// If true, the Mona Lisa asks the question, in a speech bubble.
     var spoken: Bool = false
-    var mascotSize: CGFloat = 104
+    var mascotSize: CGFloat = 92
     var cta: String = "Continue"
     var ctaEnabled: Bool = true
     let onNext: () -> Void
@@ -337,12 +359,12 @@ struct OnbScaffold<Content: View>: View {
             MascotBubble(mascotSize: mascotSize) {
                 VStack(spacing: 6) {
                     Text(title)
-                        .font(.aTitleSmall)
+                        .font(.figtree(23, .semibold))
                         .foregroundStyle(Palette.ink)
                         .fixedSize(horizontal: false, vertical: true)
                     if let subtitle {
                         Text(subtitle)
-                            .font(.aBody)
+                            .font(.figtree(15))
                             .foregroundStyle(Palette.muted)
                             .fixedSize(horizontal: false, vertical: true)
                     }
@@ -422,53 +444,6 @@ struct StoryScaffold: View {
             guard !reduceMotion else { return }
             withAnimation(.easeInOut(duration: 7).repeatForever(autoreverses: true)) { drift = true }
         }
-    }
-}
-
-/// Template for screens where the Mona Lisa speaks: the character, her bubble, a button.
-struct MascotScaffold<Extra: View>: View {
-    let title: String
-    var subtitle: String? = nil
-    var cta: String = "Continue"
-    let onNext: () -> Void
-    @ViewBuilder var extra: () -> Extra
-
-    var body: some View {
-        VStack(spacing: 0) {
-            Spacer(minLength: 8)
-            MascotBubble(mascotSize: 168) {
-                Text(title)
-                    .font(.aTitle)
-                    .foregroundStyle(Palette.ink)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            .enter()
-            if let subtitle {
-                Text(subtitle)
-                    .font(.figtree(17))
-                    .foregroundStyle(Palette.muted)
-                    .multilineTextAlignment(.center)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .padding(.top, 22)
-                    .enter(3)
-            }
-            extra()
-            Spacer(minLength: 16)
-            Spacer(minLength: 0)
-            Button(cta) { onNext() }
-                .buttonStyle(.primary)
-        }
-        .padding(.horizontal, 24)
-        .padding(.top, 12)
-        .padding(.bottom, 16)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Palette.bg)
-    }
-}
-
-extension MascotScaffold where Extra == EmptyView {
-    init(title: String, subtitle: String? = nil, cta: String = "Continue", onNext: @escaping () -> Void) {
-        self.init(title: title, subtitle: subtitle, cta: cta, onNext: onNext) { EmptyView() }
     }
 }
 

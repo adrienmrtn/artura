@@ -32,7 +32,7 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "com.vikstudios.artura.pro.yearly",
+          "productID" : "Artura_yearly",
           "recurringSubscriptionPeriod" : "P1Y",
           "referenceName" : "Artura Pro Yearly",
           "subscriptionGroupID" : "21500001",
@@ -41,7 +41,7 @@
         {
           "adHocOffers" : [],
           "codeOffers" : [],
-          "displayPrice" : "4.99",
+          "displayPrice" : "6.99",
           "familyShareable" : false,
           "groupNumber" : 2,
           "internalID" : "6750000002",
@@ -58,7 +58,7 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "com.vikstudios.artura.pro.monthly",
+          "productID" : "Artura_monthly",
           "recurringSubscriptionPeriod" : "P1M",
           "referenceName" : "Artura Pro Monthly",
           "subscriptionGroupID" : "21500001",
@@ -67,7 +67,7 @@
         {
           "adHocOffers" : [],
           "codeOffers" : [],
-          "displayPrice" : "29.99",
+          "displayPrice" : "17.99",
           "familyShareable" : false,
           "groupNumber" : 1,
           "internalID" : "6750000003",
@@ -84,7 +84,7 @@
               "locale" : "fr"
             }
           ],
-          "productID" : "com.vikstudios.artura.pro.yearly.trial7",
+          "productID" : "Artura_yearly_gift",
           "recurringSubscriptionPeriod" : "P1Y",
           "referenceName" : "Artura Pro annuel (essai 7 jours)",
           "subscriptionGroupID" : "21500001",

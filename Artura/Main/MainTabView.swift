@@ -1,12 +1,24 @@
 import SwiftUI
 
 enum AppTab: Int, CaseIterable {
-    case today, explore, games, profile
+    case today, explore, review, games, profile
+
+    /// Tab to open at launch, from the `-appTab` debug argument.
+    static var debugInitial: AppTab? {
+        switch AppDebug.string("appTab") {
+        case "explore": return .explore
+        case "review": return .review
+        case "games": return .games
+        case "profile": return .profile
+        default: return nil
+        }
+    }
 
     var title: String {
         switch self {
         case .today: return "Today"
         case .explore: return "Explore"
+        case .review: return "Review"
         case .games: return "Games"
         case .profile: return "Profile"
         }
@@ -16,6 +28,7 @@ enum AppTab: Int, CaseIterable {
         switch self {
         case .today: return "house.fill"
         case .explore: return "square.grid.2x2.fill"
+        case .review: return "bookmark.fill"
         case .games: return "puzzlepiece.fill"
         case .profile: return "person.fill"
         }
@@ -23,14 +36,17 @@ enum AppTab: Int, CaseIterable {
 }
 
 struct MainTabView: View {
-    @State private var tab: AppTab = .today
+    @State private var tab: AppTab = AppTab.debugInitial ?? .today
 
     var body: some View {
         VStack(spacing: 0) {
             ZStack {
                 switch tab {
-                case .today: TodayView(onExplore: { withAnimation(.snappy) { tab = .explore } })
+                case .today:
+                    HomeFeedView(onExplore: { withAnimation(.snappy) { tab = .explore } },
+                                 onReview: { withAnimation(.snappy) { tab = .review } })
                 case .explore: ExploreView()
+                case .review: ReviewView()
                 case .games: GamesView()
                 case .profile: ProfileView()
                 }
@@ -100,6 +116,7 @@ struct CourseFlow: View {
                     title: score == artwork.quiz.count ? "Perfect score!" : "Lesson complete",
                     detail: "\(score) of \(artwork.quiz.count) correct",
                     celebrate: score == artwork.quiz.count,
+                    shareArtwork: artwork,
                     onDone: { dismiss() }
                 )
                 .transition(.opacity)
@@ -114,6 +131,8 @@ struct ResultView: View {
     let title: String
     let detail: String
     var celebrate: Bool = true
+    /// Artwork to offer for sharing (end of a lesson).
+    var shareArtwork: Artwork? = nil
     var onReplay: (() -> Void)? = nil
     let onDone: () -> Void
     @State private var pop = false
@@ -134,6 +153,15 @@ struct ResultView: View {
                 Spacer()
                 if let onReplay {
                     Button("Play again", action: onReplay).buttonStyle(.secondary)
+                }
+                if let shareArtwork {
+                    ArtworkShareLink(artwork: shareArtwork) {
+                        HStack(spacing: 8) {
+                            Image(systemName: "square.and.arrow.up").font(.system(size: 15, weight: .semibold))
+                            Text("Share this artwork")
+                        }
+                    }
+                    .buttonStyle(.secondary)
                 }
                 Button("Done", action: onDone).buttonStyle(.primary)
             }

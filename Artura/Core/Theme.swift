@@ -23,8 +23,8 @@ extension Color {
 }
 
 enum Palette {
-    /// Fond des écrans : un blanc cassé légèrement beige.
-    static let bg = Color(hex: 0xFBF6EE)
+    /// Fond des écrans : un beige très clair.
+    static let bg = Color(hex: 0xFBF3EA)
     static let ink = Color(hex: 0x2D2C2B)
     static let muted = Color(hex: 0x5C5753)
     /// Cartes et rangées posées sur le fond, un ton plus soutenu que lui.

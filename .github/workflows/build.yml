@@ -1,7 +1,9 @@
 name: Build iOS
 
 # Compile l'appli pour le simulateur à chaque push sur une branche de travail.
-# Avec « [captures] » dans le message du commit, prend aussi une capture de chaque écran de l'onboarding.
+# Avec « [captures] » dans le message du commit, prend aussi une capture de chaque écran de l'onboarding
+# (ou de quelques-uns seulement : « [captures:33_account,28_widgetLock] »).
+# « [captures:app] » : seulement les écrans de l'appli (fil, bibliothèque, Review, profil).
 on:
   push:
     branches: ["claude/**"]
@@ -13,18 +15,38 @@ concurrency:
 
 jobs:
   build:
+    name: Xcode ${{ matrix.xcode }}
     runs-on: macos-15
-    timeout-minutes: 40
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        # 16.4 : le minimum pour ouvrir le projet. recent : le plus récent installé sur la machine.
+        xcode: ["16.4", "recent"]
     steps:
       - uses: actions/checkout@v4
-      - name: Version de Xcode
-        run: xcodebuild -version
+      - name: Choix de Xcode
+        run: |
+          if [ "${{ matrix.xcode }}" = "recent" ]; then
+            APP=$(ls -d /Applications/Xcode_[0-9]*.app | grep -vi beta | sort -V | tail -n 1)
+          else
+            APP=/Applications/Xcode_${{ matrix.xcode }}.app
+          fi
+          sudo xcode-select -s "$APP"
+          xcodebuild -version
       - name: Compilation (simulateur iPhone)
         run: |
           set -o pipefail
           xcodebuild -project Artura.xcodeproj -scheme Artura -configuration Debug \
             -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
             -derivedDataPath build CODE_SIGNING_ALLOWED=NO build 2>&1 | tee build.log | tail -n 30
+      - name: Compilation Release (configuration de TestFlight)
+        if: matrix.xcode == '16.4'
+        run: |
+          set -o pipefail
+          xcodebuild -project Artura.xcodeproj -scheme Artura -configuration Release \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build-release CODE_SIGNING_ALLOWED=NO build 2>&1 | tee -a build.log | tail -n 15
       - name: Erreurs et avertissements
         if: always()
         run: |
@@ -32,11 +54,20 @@ jobs:
           grep -E "^/.*: (error|warning):" build.log | sed "s#$GITHUB_WORKSPACE/##" | sort -u | head -n 200 || true
           grep -E "^(error|ld|clang): " build.log | sort -u | head -n 40 || true
           echo "@@ERRORS_END"
+          echo "@@WIDGET"
+          ls build/Build/Products/Debug-iphonesimulator/Artura.app/PlugIns/ArturaWidget.appex 2>&1 | head -n 30 || true
+          echo "@@WIDGET_END"
       - name: Captures d'écran de l'onboarding
-        if: contains(github.event.head_commit.message, '[captures]')
+        if: matrix.xcode == 'recent' && contains(github.event.head_commit.message, '[captures')
+        env:
+          MESSAGE: ${{ github.event.head_commit.message }}
         run: |
+          # « [captures] » : tous les écrans. « [captures:33_account,28_widgetLock] » : seulement ceux-là.
+          ONLY=$(printf '%s' "$MESSAGE" | sed -n 's/.*\[captures:\([^]]*\)\].*/\1/p' | head -n 1)
           APP=$(find build/Build/Products -maxdepth 2 -name "Artura.app" | head -n 1)
-          DEVICE=$(xcrun simctl list devices available | grep -E "iPhone 16 \(" | head -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          # Le téléphone standard le plus récent disponible
+          DEVICE=$(xcrun simctl list devices available | grep -E "iPhone 1[0-9] \(" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          xcrun simctl list devices available | grep -E "iPhone" | tail -n 12
           echo "Simulateur : $DEVICE · appli : $APP"
           xcrun simctl boot "$DEVICE"
           xcrun simctl bootstatus "$DEVICE" -b >/dev/null
@@ -46,6 +77,7 @@ jobs:
           # shoot <fichier> <étape> <attente en secondes> [arguments supplémentaires]
           shoot() {
             local name=$1 step=$2 wait=$3; shift 3
+            if [ -n "$ONLY" ] && [[ ",$ONLY," != *",$name,"* ]]; then return 0; fi
             xcrun simctl launch "$DEVICE" $BUNDLE -onbStep "$step" -onbName Max -onbPreviewOffer YES "$@" >/dev/null
             sleep "$wait"
             xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
@@ -53,40 +85,82 @@ jobs:
           }
           shoot 00_splash welcome 6 -holdSplash YES
           shoot 01_welcome welcome 12 -noSplash YES
-          shoot 02_daily daily 5 -noSplash YES
-          shoot 03_pocketMuseum pocketMuseum 5 -noSplash YES
-          shoot 04_photo photo 5 -noSplash YES
-          shoot 05_quotes quotes 6 -noSplash YES
-          shoot 06_questionsIntro questionsIntro 5 -noSplash YES
-          shoot 07_name name 5 -noSplash YES
-          shoot 08_gender gender 5 -noSplash YES
-          shoot 09_motivation motivation 5 -noSplash YES
-          shoot 10_arts arts 5 -noSplash YES
-          shoot 11_recognize recognize 5 -noSplash YES
-          shoot 12_knowledge knowledge 5 -noSplash YES
-          shoot 13_museum museum 5 -noSplash YES
-          shoot 14_testIntro testIntro 5 -noSplash YES
-          shoot 15_flashTest flashTest 5 -noSplash YES
-          shoot 16_flashResult flashResult 7 -noSplash YES
-          shoot 17_understand understand 10 -noSplash YES
-          shoot 18_lesson lesson 5 -noSplash YES
-          shoot 19_phoneTime phoneTime 5 -noSplash YES
-          shoot 20_phoneResult phoneResult 8 -noSplash YES
-          shoot 21_projection projection 7 -noSplash YES
-          shoot 22_graph graph 8 -noSplash YES
-          shoot 23_streak streak 6 -noSplash YES
-          shoot 24_reminder reminder 5 -noSplash YES
-          shoot 25_loading loading 11 -noSplash YES
-          shoot 26_plan plan 5 -noSplash YES
-          shoot 27_account account 5 -noSplash YES
-          shoot 28_gift gift 5 -noSplash YES
-          shoot 29_giftOpen gift 5 -noSplash YES -onbGiftOpen YES
-          shoot 30_noCommitment noCommitment 7 -noSplash YES
-          shoot 31_trial trial 12 -noSplash YES
-          shoot 32_exitOffer trial 6 -noSplash YES -onbExitOffer YES
-          xcrun simctl launch "$DEVICE" $BUNDLE -skipOnboarding YES -noSplash YES >/dev/null; sleep 6
-          xcrun simctl io "$DEVICE" screenshot shots/33_today.png >/dev/null 2>&1
-          xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
+          shoot 02_hello hello 9 -noSplash YES
+          shoot 02b_helloTyping hello 2 -noSplash YES
+          shoot 03_daily daily 5 -noSplash YES
+          shoot 04_pocketMuseum pocketMuseum 5 -noSplash YES
+          shoot 05_photo photo 5 -noSplash YES
+          shoot 06_quotes quotes 6 -noSplash YES
+          shoot 07_questionsIntro questionsIntro 9 -noSplash YES
+          shoot 08_name name 5 -noSplash YES
+          shoot 09_gender gender 5 -noSplash YES
+          shoot 10_motivation motivation 5 -noSplash YES
+          shoot 11_arts arts 5 -noSplash YES
+          shoot 12_recognize recognize 5 -noSplash YES
+          shoot 13_knowledge knowledge 5 -noSplash YES
+          shoot 14_museum museum 5 -noSplash YES
+          shoot 15_testIntro testIntro 9 -noSplash YES
+          shoot 16_flashTest flashTest 5 -noSplash YES
+          shoot 17_flashResult flashResult 7 -noSplash YES
+          shoot 18_understand understand 11 -noSplash YES
+          shoot 19_understand4 understand 12 -noSplash YES -onbLine 3
+          shoot 20_lesson lesson 5 -noSplash YES
+          shoot 21_afterLesson afterLesson 9 -noSplash YES
+          shoot 22_phoneTime phoneTime 5 -noSplash YES
+          shoot 23_phoneResult phoneResult 9 -noSplash YES
+          shoot 24_projection projection 8 -noSplash YES
+          shoot 25_graph graph 8 -noSplash YES
+          shoot 26_streak streak 6 -noSplash YES
+          shoot 27_reminder reminder 5 -noSplash YES
+          shoot 28_widgetLock widget 5 -noSplash YES
+          shoot 29_widgetHome widget 5 -noSplash YES -onbWidgetHome YES
+          shoot 30_loading loading 10 -noSplash YES
+          shoot 31_plan plan 5 -noSplash YES
+          shoot 32_socialProof socialProof 6 -noSplash YES
+          shoot 33_account account 5 -noSplash YES
+          shoot 34_gift gift 5 -noSplash YES
+          shoot 35_giftOpen gift 5 -noSplash YES -onbGiftOpen YES
+          shoot 36_noCommitment noCommitment 7 -noSplash YES
+          shoot 37_trial trial 16 -noSplash YES
+          shoot 38_exitOffer trial 7 -noSplash YES -onbExitOffer YES
+          # App screens, opened with a sample profile. "[captures:app]" takes only these.
+          shootApp() {
+            local name=$1 wait=$2; shift 2
+            if [ -n "$ONLY" ] && [ "$ONLY" != "app" ] && [[ ",$ONLY," != *",$name,"* ]]; then return 0; fi
+            xcrun simctl launch "$DEVICE" $BUNDLE -demoProfile YES -noSplash YES "$@" >/dev/null
+            sleep "$wait"
+            xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
+            xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
+          }
+          shootApp 60_feed 6
+          shootApp 61_feedFilter 5 -feedSheet filter
+          shootApp 62_feedSearch 6 -feedSheet search
+          shootApp 63_library 5 -feedSheet library
+          shootApp 64_history 5 -feedSheet history
+          shootApp 65_explore 5 -appTab explore
+          shootApp 66_review 5 -appTab review
+          shootApp 67_practice 5 -appTab review -reviewMode practice
+          shootApp 68_session 6 -appTab review -reviewSession YES
+          shootApp 69_games 5 -appTab games
+          shootApp 70_profile 5 -appTab profile
+          shootApp 74_profileSettings 5 -appTab profile -profileScroll bottom
+          shootApp 73_widgetGuide 5 -appTab profile -profileSheet widget
+          shootApp 71_reviewEmpty 5 -appTab review -demoEmpty YES
+          shootApp 72_feedEmptyProfile 5 -demoEmpty YES
+          # Quelques écrans denses sur un petit téléphone, pour vérifier que tout tient
+          SMALL=$(xcrun simctl list devices available | grep -E "iPhone SE \(3rd|iPhone 16e" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          if [ -n "$SMALL" ] && [ -z "$ONLY" ]; then
+            xcrun simctl shutdown "$DEVICE" || true
+            DEVICE=$SMALL
+            xcrun simctl boot "$DEVICE"; xcrun simctl bootstatus "$DEVICE" -b >/dev/null
+            xcrun simctl install "$DEVICE" "$APP"
+            shoot 50_se_trial trial 16 -noSplash YES
+            shoot 51_se_arts arts 5 -noSplash YES
+            shoot 52_se_phoneResult phoneResult 9 -noSplash YES
+            shoot 53_se_plan plan 5 -noSplash YES
+            shoot 54_se_account account 5 -noSplash YES
+            shoot 55_se_exitOffer trial 7 -noSplash YES -onbExitOffer YES
+          fi
           for f in shots/*.png; do
             sips -s format jpeg -s formatOptions 55 -Z 800 "$f" --out "${f%.png}.jpg" >/dev/null 2>&1
           done
