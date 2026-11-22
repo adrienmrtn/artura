@@ -19,3 +19,10 @@ pip install playwright && python -m playwright install chromium
 ARTURA_APP=../Artura/Resources SHOTS_OUT=../fastlane/screenshots python render.py          # toutes les langues
 ARTURA_APP=../Artura/Resources SHOTS_OUT=../fastlane/screenshots python render.py fr-FR    # une seule
 ```
+
+## iPad 13" (anglais seulement)
+
+`render_ipad.py` reprend les 6 compositions iPhone, les met à l'échelle sur la hauteur d'une capture
+iPad 13" (2064 × 2752) et les centre sur le même fond blanc. Le workflow « App Store screenshots iPad (English) »
+génère l'iPhone et l'iPad en-US ensemble dans `fastlane/screenshots_en` et les envoie
+(`fastlane screenshots_en`) : l'envoi remplace toutes les captures en-US, d'où les deux formats ensemble.

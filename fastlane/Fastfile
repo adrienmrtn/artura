@@ -88,4 +88,37 @@ platform :ios do
       precheck_include_in_app_purchases: false
     )
   end
+
+  desc "Captures anglais (en-US) : iPhone 6,9 pouces + iPad 13 pouces, depuis fastlane/screenshots_en"
+  lane :screenshots_en do
+    api_key = app_store_connect_api_key(
+      key_id: ENV.fetch("ASC_KEY_ID"),
+      issuer_id: ENV.fetch("ASC_ISSUER_ID"),
+      key_content: ENV.fetch("ASC_KEY_P8"),
+      is_key_content_base64: false
+    )
+
+    # Chemin absolu : le dossier de travail d'une lane est fastlane/, pas la racine du dépôt.
+    path = File.join(File.expand_path(FastlaneCore::FastlaneFolder.path), "screenshots_en")
+    files = Dir.glob(File.join(path, "en-US", "*.jpg"))
+    UI.user_error!("Aucune capture trouvée dans #{path}/en-US") if files.empty?
+    UI.message("#{files.size} captures à envoyer : " + files.map { |f| File.basename(f) }.sort.join(", "))
+
+    # overwrite_screenshots remplace TOUTES les captures de la langue envoyée (iPhone et iPad) :
+    # c'est pourquoi le dossier contient les deux. Les autres langues ne sont pas touchées.
+    deliver(
+      api_key: api_key,
+      app_identifier: "com.vikstudios.artura",
+      app_version: ENV.fetch("APP_VERSION", "2.0"),
+      screenshots_path: path,
+      overwrite_screenshots: true,
+      skip_binary_upload: true,
+      skip_metadata: true,
+      skip_screenshots: false,
+      skip_app_version_update: true,
+      force: true,
+      submit_for_review: false,
+      run_precheck_before_submit: false
+    )
+  end
 end
