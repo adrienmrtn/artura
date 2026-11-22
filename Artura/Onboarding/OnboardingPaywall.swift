@@ -375,6 +375,8 @@ struct TrialNotifScreen: View {
                     Text(word).font(.figtree(28, .regular)).opacity(on ? 0 : 1)
                     Text(word).font(.figtree(28, .bold)).opacity(on ? 1 : 0)
                 }
+                // Always its natural width: a word is never cut short with "…".
+                .fixedSize()
                 .scaleEffect(on ? 1 : 0.97)
             }
         }
