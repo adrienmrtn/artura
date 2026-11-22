@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Nofretete mellszobra",
+   "artist": "Thotmesz",
+   "year_label": "i. e. 1345",
+   "museum": "Neues Museum, Berlin"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Tutanhamon maszkja",
+   "artist": "Ismeretlen (Egyiptom)",
+   "year_label": "i. e. 1323",
+   "museum": "Nagy Egyiptomi Múzeum, Gíza"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Samothrakéi Niké",
+   "artist": "Ismeretlen (Görögország)",
+   "year_label": "i. e. 190",
+   "museum": "Louvre, Párizs"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Milói Vénusz",
+   "artist": "Antiochiai Alexandrosz",
+   "year_label": "i. e. 120",
+   "museum": "Louvre, Párizs"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Krisztus siratása",
+   "artist": "Giotto",
+   "year_label": "1305",
+   "museum": "Scrovegni-kápolna, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Berry herceg igen gazdag órakönyve: Január",
+   "artist": "Limbourg fivérek",
+   "year_label": "1416",
+   "museum": "Musée Condé, Chantilly"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Arnolfini-házaspár",
+   "artist": "Jan van Eyck",
+   "year_label": "1434",
+   "museum": "National Gallery, London"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Keresztlevétel",
+   "artist": "Rogier van der Weyden",
+   "year_label": "1435",
+   "museum": "Prado, Madrid"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "A földi örömök kertje",
+   "artist": "Hieronymus Bosch",
+   "year_label": "1500",
+   "museum": "Prado, Madrid"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Vénusz születése",
+   "artist": "Sandro Botticelli",
+   "year_label": "1485",
+   "museum": "Uffizi, Firenze"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1503",
+   "museum": "Louvre, Párizs"
+  },
+  "vinci-the-last-supper": {
+   "title": "Az utolsó vacsora",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milánó"
+  },
+  "vinci-vitruvian-man": {
+   "title": "A vitruviusi ember",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1490",
+   "museum": "Gallerie dell'Accademia, Velence"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Ádám teremtése",
+   "artist": "Michelangelo",
+   "year_label": "1512",
+   "museum": "Sixtus-kápolna, Vatikánváros"
+  },
+  "michelangelo-david": {
+   "title": "Dávid",
+   "artist": "Michelangelo",
+   "year_label": "1504",
+   "museum": "Galleria dell'Accademia, Firenze"
+  },
+  "michelangelo-pieta": {
+   "title": "Pietà",
+   "artist": "Michelangelo",
+   "year_label": "1499",
+   "museum": "Szent Péter-bazilika, Vatikánváros"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Az athéni iskola",
+   "artist": "Raffaello",
+   "year_label": "1511",
+   "museum": "Vatikáni Múzeumok, Vatikánváros"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Urbinói Vénusz",
+   "artist": "Tiziano",
+   "year_label": "1538",
+   "museum": "Uffizi, Firenze"
+  },
+  "durer-young-hare": {
+   "title": "Fiatal nyúl",
+   "artist": "Albrecht Dürer",
+   "year_label": "1502",
+   "museum": "Albertina, Bécs"
+  },
+  "younger-the-ambassadors": {
+   "title": "A követek",
+   "artist": "Ifjabb Hans Holbein",
+   "year_label": "1533",
+   "museum": "National Gallery, London"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Vadászok a hóban",
+   "artist": "Idősebb Pieter Bruegel",
+   "year_label": "1565",
+   "museum": "Kunsthistorisches Museum, Bécs"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "A babiloni torony",
+   "artist": "Idősebb Pieter Bruegel",
+   "year_label": "1563",
+   "museum": "Kunsthistorisches Museum, Bécs"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Hosszúnyakú Madonna",
+   "artist": "Parmigianino",
+   "year_label": "1540",
+   "museum": "Uffizi, Firenze"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Orgaz gróf temetése",
+   "artist": "El Greco",
+   "year_label": "1586",
+   "museum": "Santo Tomé, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumnus",
+   "artist": "Giuseppe Arcimboldo",
+   "year_label": "1591",
+   "museum": "Skokloster-kastély, Svédország"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Szent Máté elhívása",
+   "artist": "Caravaggio",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Róma"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judit lefejezi Holofernészt",
+   "artist": "Artemisia Gentileschi",
+   "year_label": "1620",
+   "museum": "Uffizi, Firenze"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Diego Velázquez",
+   "year_label": "1656",
+   "museum": "Prado, Madrid"
+  },
+  "rubens-the-three-graces": {
+   "title": "A három grácia",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Prado, Madrid"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apolló és Daphné",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1625",
+   "museum": "Galleria Borghese, Róma"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Szent Teréz extázisa",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Róma"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Az éjjeli őrjárat",
+   "artist": "Rembrandt",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amszterdam"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Dr. Nicolaes Tulp anatómiai leckéje",
+   "artist": "Rembrandt",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Hága"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Lány gyöngyfülbevalóval",
+   "artist": "Johannes Vermeer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Hága"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "A tejesasszony",
+   "artist": "Johannes Vermeer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amszterdam"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "A tengelic",
+   "artist": "Carel Fabritius",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Hága"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Zarándoklat Küthéra szigetére",
+   "artist": "Antoine Watteau",
+   "year_label": "1717",
+   "museum": "Louvre, Párizs"
+  },
+  "fragonard-the-swing": {
+   "title": "A hinta",
+   "artist": "Jean-Honoré Fragonard",
+   "year_label": "1767",
+   "museum": "Wallace Collection, London"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Önarckép szalmakalapban",
+   "artist": "Élisabeth Vigée Le Brun",
+   "year_label": "1782",
+   "museum": "National Gallery, London"
+  },
+  "david-the-death-of-marat": {
+   "title": "Marat halála",
+   "artist": "Jacques-Louis David",
+   "year_label": "1793",
+   "museum": "Belgiumi Királyi Szépművészeti Múzeumok, Brüsszel"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napóleon átkel az Alpokon",
+   "artist": "Jacques-Louis David",
+   "year_label": "1801",
+   "museum": "Malmaison-kastély"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Nagy odaliszk",
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "year_label": "1814",
+   "museum": "Louvre, Párizs"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Ámor csókja által feltámasztott Psyché",
+   "artist": "Antonio Canova",
+   "year_label": "1793",
+   "museum": "Louvre, Párizs"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "1808. május 3.",
+   "artist": "Francisco Goya",
+   "year_label": "1814",
+   "museum": "Prado, Madrid"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "A szabadság vezeti a népet",
+   "artist": "Eugène Delacroix",
+   "year_label": "1830",
+   "museum": "Louvre, Párizs"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "A Medúza tutaja",
+   "artist": "Théodore Géricault",
+   "year_label": "1819",
+   "museum": "Louvre, Párizs"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Vándor a ködtenger felett",
+   "artist": "Caspar David Friedrich",
+   "year_label": "1818",
+   "museum": "Hamburger Kunsthalle"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "A Téméraire utolsó útja",
+   "artist": "J. M. W. Turner",
+   "year_label": "1839",
+   "museum": "National Gallery, London"
+  },
+  "hayez-the-kiss": {
+   "title": "A csók",
+   "artist": "Francesco Hayez",
+   "year_label": "1859",
+   "museum": "Pinacoteca di Brera, Milánó"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "A kanagavai nagy hullám",
+   "artist": "Katsushika Hokuszai",
+   "year_label": "1831",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Szép szél, tiszta reggel (Vörös Fudzsi)",
+   "artist": "Katsushika Hokuszai",
+   "year_label": "1831",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Hirtelen zápor a Sin-Óhasi hídnál és Atakénál",
+   "artist": "Utagava Hirosige",
+   "year_label": "1857",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Folyó mentén a Csingming-ünnepen",
+   "artist": "Csang Cö-tuan",
+   "year_label": "1100",
+   "museum": "Palotamúzeum, Peking"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Szélisten és mennydörgésisten",
+   "artist": "Tavaraja Szótacu",
+   "year_label": "1630",
+   "museum": "Kennindzsi, Kiotó"
+  },
+  "courbet-the-desperate-man": {
+   "title": "A kétségbeesett ember",
+   "artist": "Gustave Courbet",
+   "year_label": "1845",
+   "museum": "Magángyűjtemény"
+  },
+  "millet-the-gleaners": {
+   "title": "A kalászszedők",
+   "artist": "Jean-François Millet",
+   "year_label": "1857",
+   "museum": "Orsay Múzeum, Párizs"
+  },
+  "manet-olympia": {
+   "title": "Olympia",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Orsay Múzeum, Párizs"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Reggeli a szabadban",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Orsay Múzeum, Párizs"
+  },
+  "wood-american-gothic": {
+   "title": "American Gothic",
+   "artist": "Grant Wood",
+   "year_label": "1930",
+   "museum": "Chicagói Művészeti Intézet"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "John Singer Sargent",
+   "year_label": "1884",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Elrendezés szürkében és feketében, 1. sz. (Whistler anyja)",
+   "artist": "James McNeill Whistler",
+   "year_label": "1871",
+   "museum": "Orsay Múzeum, Párizs"
+  },
+  "millais-ophelia": {
+   "title": "Ophelia",
+   "artist": "John Everett Millais",
+   "year_label": "1852",
+   "museum": "Tate Britain, London"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "A shalotti hölgy",
+   "artist": "John William Waterhouse",
+   "year_label": "1888",
+   "museum": "Tate Britain, London"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Vénusz születése",
+   "artist": "Alexandre Cabanel",
+   "year_label": "1863",
+   "museum": "Orsay Múzeum, Párizs"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice verso",
+   "artist": "Jean-Léon Gérôme",
+   "year_label": "1872",
+   "museum": "Phoenixi Művészeti Múzeum"
+  },
+  "monet-impression-sunrise": {
+   "title": "Impresszió, napfelkelte",
+   "artist": "Claude Monet",
+   "year_label": "1872",
+   "museum": "Marmottan Monet Múzeum, Párizs"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Nő napernyővel (Madame Monet és fia)",
+   "artist": "Claude Monet",
+   "year_label": "1875",
+   "museum": "National Gallery of Art, Washington"
+  },
+  "monet-water-lilies": {
+   "title": "Vízililiomok",
+   "artist": "Claude Monet",
+   "year_label": "1906",
+   "museum": "Chicagói Művészeti Intézet"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Bál a Moulin de la Galette-ben",
+   "artist": "Pierre-Auguste Renoir",
+   "year_label": "1876",
+   "museum": "Orsay Múzeum, Párizs"
+  },
+  "degas-the-dance-class": {
+   "title": "A táncóra",
+   "artist": "Edgar Degas",
+   "year_label": "1874",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "morisot-the-cradle": {
+   "title": "A bölcső",
+   "artist": "Berthe Morisot",
+   "year_label": "1872",
+   "museum": "Orsay Múzeum, Párizs"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Séta a tengerparton",
+   "artist": "Joaquín Sorolla",
+   "year_label": "1909",
+   "museum": "Sorolla Múzeum, Madrid"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "Vasárnap délután a Grande Jatte szigetén",
+   "artist": "Georges Seurat",
+   "year_label": "1886",
+   "museum": "Chicagói Művészeti Intézet"
+  },
+  "gogh-the-starry-night": {
+   "title": "A csillagos éj",
+   "artist": "Vincent van Gogh",
+   "year_label": "1889",
+   "museum": "Modern Művészeti Múzeum, New York"
+  },
+  "gogh-sunflowers": {
+   "title": "Napraforgók",
+   "artist": "Vincent van Gogh",
+   "year_label": "1888",
+   "museum": "National Gallery, London"
+  },
+  "cezanne-the-card-players": {
+   "title": "A kártyázók",
+   "artist": "Paul Cézanne",
+   "year_label": "1892",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "Honnan jövünk? Mik vagyunk? Hová megyünk?",
+   "artist": "Paul Gauguin",
+   "year_label": "1897",
+   "museum": "Szépművészeti Múzeum, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Henri de Toulouse-Lautrec",
+   "year_label": "1891",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Az alvó cigánylány",
+   "artist": "Henri Rousseau",
+   "year_label": "1897",
+   "museum": "Modern Művészeti Múzeum, New York"
+  },
+  "munch-the-scream": {
+   "title": "A sikoly",
+   "artist": "Edvard Munch",
+   "year_label": "1893",
+   "museum": "Nemzeti Múzeum, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "A halottak szigete",
+   "artist": "Arnold Böcklin",
+   "year_label": "1880",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "rodin-the-thinker": {
+   "title": "A gondolkodó",
+   "artist": "Auguste Rodin",
+   "year_label": "1904",
+   "museum": "Rodin Múzeum, Párizs"
+  },
+  "klimt-the-kiss": {
+   "title": "A csók",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Bécs"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Adele Bloch-Bauer portréja I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, New York"
+  },
+  "matisse-dance": {
+   "title": "A tánc",
+   "artist": "Henri Matisse",
+   "year_label": "1910",
+   "museum": "Ermitázs, Szentpétervár"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Nő kalapban",
+   "artist": "Henri Matisse",
+   "year_label": "1905",
+   "museum": "San Franciscó-i Modern Művészeti Múzeum"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "A nagy kék lovak",
+   "artist": "Franz Marc",
+   "year_label": "1911",
+   "museum": "Walker Art Center, Minneapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Fekvő akt",
+   "artist": "Amedeo Modigliani",
+   "year_label": "1917",
+   "museum": "Metropolitan Művészeti Múzeum, New York"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Pablo Picasso portréja",
+   "artist": "Juan Gris",
+   "year_label": "1912",
+   "museum": "Chicagói Művészeti Intézet"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Eiffel-torony fákkal",
+   "artist": "Robert Delaunay",
+   "year_label": "1910",
+   "museum": "Solomon R. Guggenheim Múzeum, New York"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "A folytonosság egyedi formái a térben",
+   "artist": "Umberto Boccioni",
+   "year_label": "1913",
+   "museum": "Modern Művészeti Múzeum, New York"
+  },
+  "boccioni-the-city-rises": {
+   "title": "A város ébred",
+   "artist": "Umberto Boccioni",
+   "year_label": "1910",
+   "museum": "Modern Művészeti Múzeum, New York"
+  },
+  "kandinsky-composition-viii": {
+   "title": "VIII. kompozíció",
+   "artist": "Vaszilij Kandinszkij",
+   "year_label": "1923",
+   "museum": "Solomon R. Guggenheim Múzeum, New York"
+  },
+  "malevich-black-square": {
+   "title": "Fekete négyzet",
+   "artist": "Kazimir Malevics",
+   "year_label": "1915",
+   "museum": "Tretyakov Képtár, Moszkva"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "II. kompozíció pirosban, kékben és sárgában",
+   "artist": "Piet Mondrian",
+   "year_label": "1930",
+   "museum": "Kunsthaus Zürich"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Klee",
+   "year_label": "1922",
+   "museum": "Kunstmuseum Basel"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Schwitters",
+   "year_label": "1919",
+   "museum": "Staatsgalerie Stuttgart"
+  },
+  "terracotta-army": {
+   "title": "Terrakotta hadsereg",
+   "artist": "Ismeretlen (Kína)",
+   "year_label": "i. e. 210",
+   "museum": "Az első Csin császár mauzóleuma, Hszian"
+  },
+  "aztec-sun-stone": {
+   "title": "Azték naptárkő",
+   "artist": "Ismeretlen (azték)",
+   "year_label": "1510",
+   "museum": "Nemzeti Antropológiai Múzeum, Mexikóváros"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (moai)",
+   "artist": "Ismeretlen (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "British Museum, London"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Az ókor",
+   "period": "i. e. 2600-i. sz. 300",
+   "summary": "Istenek, uralkodók és az eszményi test",
+   "description": "Egyiptomtól Görögországon át Rómáig a művészek uralkodókat, isteneket és sportolókat faragnak, hogy örökké megmaradjanak. Az eszményi test keresése évszázadokra mintát adott a nyugati művészetnek."
+  },
+  "gothic": {
+   "name": "Gótika és protoreneszánsz",
+   "period": "1280-1430",
+   "summary": "Aranyháttér és az első igazi érzelmek",
+   "description": "A templomokban és kápolnákban a festők még aranyháttérre dolgoznak, de alakjaik már sírnak, megfordulnak, súlyuk van. A képi történetmesélés újjászületik."
+  },
+  "early_netherlandish": {
+   "name": "Korai németalföldi festészet",
+   "period": "1420-1500",
+   "summary": "Olajfesték és káprázatos részletek",
+   "description": "Flandriában a festők tökélyre viszik az olajfestést, és vele mindent megmutatnak: a szőrmét, az üveget, egy könnycseppet, egy tükröződést. A szent jelenetek valódi otthonokra emlékeztető szobákba költöznek."
+  },
+  "renaissance": {
+   "name": "Itáliai reneszánsz",
+   "period": "1420-1570",
+   "summary": "Perspektíva és visszatérés az antikvitáshoz",
+   "description": "Itáliában, majd egész Európában a művészek újra felfedezik az antik világot, tanulmányozzák az emberi testet, és feltalálják a perspektívát. A festmény ablakká válik a világra."
+  },
+  "northern_renaissance": {
+   "name": "Északi reneszánsz",
+   "period": "1490-1570",
+   "summary": "Éles vonalak, grafikák és különös látomások",
+   "description": "Az Alpoktól északra a művészek az itáliai gondolatokat a részletek és a mindennapi élet szeretetével ötvözik. A nyomtatott grafika egész Európában elterjeszti a képeiket."
+  },
+  "mannerism": {
+   "name": "Manierizmus",
+   "period": "1520-1610",
+   "summary": "A határig nyújtott elegancia",
+   "description": "A nagy mesterek után a festők szándékosan feszegetik a szabályokat: hosszúra nyújtott testek, csavart pózok, savanyú színek. Maga a stílus lesz a téma."
+  },
+  "baroque": {
+   "name": "Barokk",
+   "period": "1600-1700",
+   "summary": "Dráma, mozgás és mély árnyék",
+   "description": "A művészet megindítani akarja a nézőt. Az éles fény-árnyék kontrasztok, a mozgásban lévő testek és a színpadias beállítás beránt a jelenet közepébe."
+  },
+  "siecledor": {
+   "name": "Holland aranykor",
+   "period": "1600-1700",
+   "summary": "A mindennapok és a fény",
+   "description": "A virágzó Holland Köztársaságban a művészek polgári otthonokba festenek: csendes belső tereket, portrékat, csendéleteket. A fény lesz az igazi főszereplő."
+  },
+  "rococo": {
+   "name": "Rokokó és a 18. század",
+   "period": "1715-1790",
+   "summary": "Könnyedség, élvezet és pasztellszínek",
+   "description": "A XVIII. századi szalonokban a festészet játékossá és bensőségessé válik: kerti mulatságok, portrék, lágy színek. Közben néhány művész csendes figyelemmel fordul a hétköznapi élet felé."
+  },
+  "neoclassicism": {
+   "name": "Klasszicizmus",
+   "period": "1760-1860",
+   "summary": "Tiszta vonalak és antik erények",
+   "description": "Róma és Pompeji romjai nyomán a művészek visszatérnek a józan rajzhoz és a hősi témákhoz. A festménynek éppúgy tanítania kell, mint gyönyörködtetnie."
+  },
+  "romanticism": {
+   "name": "Romantika",
+   "period": "1780-1860",
+   "summary": "Érzelem, természet és fenséges",
+   "description": "Az érzelem átveszi az ész helyét. Viharok, romok, lázadások és magányos alakok fejezik ki, amit a művész egy túl nagy, megfoghatatlan világ előtt érez."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "1680-1860",
+   "summary": "A „változó világ” fametszetei",
+   "description": "Japánban a sorozatban készülő fametszetek színészeket, tájakat és mindennapi jeleneteket mutatnak. Lapos színeik és merész képkivágásaik alaposan megrázzák majd az európai festőket."
+  },
+  "east_asian": {
+   "name": "Kínai és japán festészet",
+   "period": "750-1720",
+   "summary": "Tus, selyem és üres tér",
+   "description": "Kínában és Japánban a festők ecsettel és tussal dolgoznak selyemre, papírra és paravánokra. Néhány vonás és sok üres hely elég, hogy egy hegyet vagy egy évszakot megidézzenek."
+  },
+  "realism": {
+   "name": "Realizmus",
+   "period": "1845-1890",
+   "summary": "Egyszerű emberek, ahogy vannak",
+   "description": "A festők hátat fordítanak a hősöknek és a mítoszoknak, és szépítés nélkül mutatnak parasztokat, munkásokat és a modern életet. Az igazság megmutatása már önmagában állásfoglalás."
+  },
+  "american": {
+   "name": "Amerikai festészet",
+   "period": "1780-1930",
+   "summary": "Egy új ország a tükörbe néz",
+   "description": "A fiatal köztársaság portréitól a hatalmas tájképeken át a nagyvárosi életképekig az amerikai festők saját témát és saját fényt keresnek."
+  },
+  "preraphaelite": {
+   "name": "Preraffaelita festészet és viktoriánus kor",
+   "period": "1848-1900",
+   "summary": "Éles színek, legendák és részletek",
+   "description": "A viktoriánus Nagy-Britanniában fiatal festők egy csoportja elveti az akadémiai receptet. Legendákat és verseket festenek heves színekkel és szinte megszállott pontossággal."
+  },
+  "academic": {
+   "name": "Akadémizmus",
+   "period": "1830-1900",
+   "summary": "A hivatalos Szalon csiszolt művészete",
+   "description": "A nagy művészeti iskolákban képzett festők tökéletesen uralják az anatómiát, a történelmi témákat és a hibátlanul sima felületet. Korukban sztárok voltak, mielőtt az avantgárd elhomályosította őket."
+  },
+  "impressionnisme": {
+   "name": "Impresszionizmus",
+   "period": "1867-1910",
+   "summary": "A pillanat fényét festeni",
+   "description": "Festők egy csoportja elhagyja a műtermet, és a szabadban dolgozik, gyors, apró ecsetvonásokkal. Már nem a részlet érdekli őket, hanem a fény hatása egy adott pillanatban."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpresszionizmus",
+   "period": "1884-1910",
+   "summary": "Szín, pontról pontra",
+   "description": "A festők a tudományt hívják segítségül a színekhez: egymás mellé rakott apró, tiszta festékpontok a néző szemében keverednek össze. A kép lassan áll össze, akár egy mozaik."
+  },
+  "postimp": {
+   "name": "Posztimpresszionizmus",
+   "period": "1885-1910",
+   "summary": "Először a szín és az érzelem",
+   "description": "Az impresszionizmus után mindenki a maga útját keresi. A szín már nem a valóságot másolja, hanem azt fejezi ki, amit a festő érez."
+  },
+  "symbolism": {
+   "name": "Szimbolizmus",
+   "period": "1860-1915",
+   "summary": "Álmok, mítoszok és belső világok",
+   "description": "A látható világ leírása helyett ezek a művészek gondolatokat, álmokat és félelmeket sejtetnek. Képeiket előbb érezni kell, aztán megérteni."
+  },
+  "secession": {
+   "name": "Szecesszió és bécsi Secession",
+   "period": "1890-1918",
+   "summary": "Arany, díszítés és hajlított vonalak",
+   "description": "Bécsben fiatal művészek szakítanak az akadémiával. Egybeolvasztják a festészetet, a díszítést és a kézművességet, és a díszítményből külön nyelvet formálnak."
+  },
+  "fauvism": {
+   "name": "Fauvizmus",
+   "period": "1904-1917",
+   "summary": "Tiszta szín, egyenesen a tubusból",
+   "description": "Néhány robbanásszerű évig a festők hevesen természetellenes színeket és szabad ecsetkezelést használnak. A kritikusok vadállatoknak nevezték őket, és a név rajtuk maradt."
+  },
+  "expressionism": {
+   "name": "Expresszionizmus",
+   "period": "1903-1925",
+   "summary": "Eltorzított formák, nyers érzelem",
+   "description": "A művészek elcsavarják az alakokat és felfokozzák a színeket, hogy szorongást, vágyat vagy lázadást fejezzenek ki. Nem az számít, hogyan néz ki a világ, hanem hogy milyen érzés benne lenni."
+  },
+  "cubism": {
+   "name": "Kubizmus",
+   "period": "1909-1925",
+   "summary": "A tárgyak egyszerre több oldalról",
+   "description": "A festők a tárgyakat lapokra bontják, és ugyanazon a képen több szögből mutatják meg őket. Az ötszáz éves perspektíva hirtelen megkérdőjeleződik."
+  },
+  "futurism": {
+   "name": "Futurizmus",
+   "period": "1909-1920",
+   "summary": "Sebesség, gépek és a modern város",
+   "description": "Az olasz művészek az autókat, a tömeget és az elektromosságot ünneplik. A formák ismétlésével és széttörésével magát a mozgást próbálják megfesteni."
+  },
+  "abstraction": {
+   "name": "Absztrakció és avantgárd",
+   "period": "1907-1930",
+   "summary": "Festészet téma nélkül",
+   "description": "A vonalak, formák és színek már nem ábrázolnak semmit: ők maguk a kép. A művészek a zenéhez hasonlóan közvetlen képi nyelvet keresnek."
+  },
+  "dada_surrealism": {
+   "name": "Dada és korai szürrealizmus",
+   "period": "1912-1930",
+   "summary": "Véletlen, értelmetlenség és álmok",
+   "description": "Az első világháború iránti undorból született dada magát a művészetet gúnyolja. A szürrealizmus ezután az álmokat, a véletlent és a tudattalant kezdi kutatni."
+  },
+  "world": {
+   "name": "Afrika, Ázsia és Amerika",
+   "period": "i. e. 1200-1600",
+   "summary": "Szent tárgyak és udvari művészet",
+   "description": "Bronzszobrok, maszkok, kőóriások és rituális tárgyak Afrikából, Ázsiából és Amerikából. Szertartásokra, templomokba és királyoknak készültek, jóval a múzeumok előtt."
+  }
+ }
+}

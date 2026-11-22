@@ -3,7 +3,7 @@
  "lesson": [
   {
    "type": "text",
-   "text": "Paryż, październik 1910 roku. Obraz wisi w Salonie Jesiennym, wielkiej wystawie nowej sztuki, a ludzie stojący przed nim się śmieją. Krytycy piszą o dzikusach i ludożercach. Oburza ich kolor, rysunek, rozmiar i to, że czterdziestoletni dorosły mężczyzna maluje ciała tak, jak dziecko wycina je z papieru."
+   "text": "Paryż, październik 1910 roku. Obraz wisi w Salonie Jesiennym, wielkiej wystawie nowej sztuki, a ludzie stojący przed nim się śmieją. Krytycy piszą o dzikusach i ludożercach. Oburza ich kolor, rysunek, rozmiar i to, że dorosły czterdziestolatek maluje ciała tak, jak dziecko wycina je z papieru."
   },
   {
    "type": "text",
@@ -27,7 +27,7 @@
    "lines": [
     {
      "label": "Krąg",
-     "text": "Spleciona dłonie rysują krzywy owal, który dotyka trzech krawędzi płótna. Jest za duży na swoją ramę. Taniec wygląda, jakby miał zaraz wyrwać się z obrazu."
+     "text": "Splecione dłonie rysują krzywy owal, który dotyka trzech krawędzi płótna. Jest za duży na swoją ramę. Taniec wygląda, jakby miał zaraz wyrwać się z obrazu."
     },
     {
      "label": "Kotwica",
@@ -35,7 +35,7 @@
     },
     {
      "label": "Wzgórze",
-     "text": "Ziemia to jedno zielone wybrzuszenie, jak szczyt świata. Stopy ledwie w nie wciskają. Tancerki raczej sunął nad nim, niż na nim stoją."
+     "text": "Ziemia to jedno zielone wybrzuszenie, jak szczyt świata. Stopy ledwie w nie wciskają. Tancerki raczej suną nad nim, niż na nim stoją."
     }
    ]
   },
@@ -98,11 +98,11 @@
   },
   {
    "type": "fact",
-   "text": "Po rewolucji 1917 roku państwo radzieckie zagarnęło kolekcję Szczukina, a on sam dokończył życia na wygnaniu w Paryżu. W 1948 roku muzeum z jego obrazami zamknięto na rozkaz Stalina jako szkodliwe, a Taniec latami leżał w magazynie, zanim Ermitaż mógł go znów powiesić."
+   "text": "Po rewolucji 1917 roku państwo radzieckie zagarnęło kolekcję Szczukina, a on sam dożył swoich dni na wygnaniu w Paryżu. W 1948 roku muzeum z jego obrazami zamknięto na rozkaz Stalina jako szkodliwe, a Taniec latami leżał w magazynie, zanim Ermitaż mógł go znów powiesić."
   },
   {
    "type": "text",
-   "text": "Wyśmiany w Paryżu, wzbudzający wątpliwości u kupca, zamknięty przez rząd: przez jakieś pół wieku ten obraz był odrzucany. Dziś wisi w Petersburgu przed tłumami, które w większości się uśmiechają. Reagują na to samo, co zwiedzający w 1910 roku: na obraz, w którym prawie nic nie ma poza radością o pełnej głośności."
+   "text": "Wyśmiany w Paryżu, podważany przez własnego nabywcę, zamknięty przez rząd: przez jakieś pół wieku ten obraz był odrzucany. Dziś wisi w Petersburgu przed tłumami, które w większości się uśmiechają. Reagują na to samo, co zwiedzający w 1910 roku: na obraz, w którym prawie nic nie ma poza radością na cały głos."
   }
  ],
  "quiz": [
@@ -143,7 +143,6 @@
    "explanation": "Dłoń tancerki z przodu zatrzymuje się tuż przed dłonią prowadzącej."
   },
   {
-   "type": "",
    "question": "Gdzie po raz pierwszy pojawił się motyw kręgu?",
    "options": [
     "W tle Radości życia Matisse'a",
