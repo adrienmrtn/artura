@@ -1,0 +1,210 @@
+{
+ "teaser": "Nueve personas, un perro y un pintor que parece estar pintándote a ti.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Cuenta cuántas personas de esta sala te miran fijamente. El pintor, sí. La niña de blanco, también. Y la mujer del vestido oscuro, a la derecha. Ahora, la pregunta incómoda: ¿por qué iba a estar mirándote a ti una corte española de 1656?"
+  },
+  {
+   "type": "text",
+   "text": "La sala es real. Era una galería alargada del Alcázar, el palacio real de Madrid, donde Diego Velázquez tenía su taller. Tenía 57 años y llevaba más de treinta como pintor del rey Felipe IV. Y se ha metido en el cuadro, pincel en mano, detrás de un lienzo tan alto que solo le vemos el reverso."
+  },
+  {
+   "type": "find",
+   "text": "Dos personas de este cuadro no están en la sala con las demás. Toca donde creas que están.",
+   "spots": [
+    {
+     "title": "El espejo",
+     "text": "En la pared del fondo, un marco brilla mientras los cuadros que lo rodean siguen a oscuras. Es un espejo. En él, bajo una cortina roja, se adivinan las cabezas del rey Felipe IV y la reina Mariana."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Si los reyes aparecen en un espejo que tenemos enfrente, tienen que estar donde estamos nosotros. Eso resuelve el enigma, y abre otros tres. ¿Está Velázquez retratándolos? ¿El espejo los refleja a ellos, o refleja el lienzo en el que trabaja? ¿Acaban de entrar e interrumpen la sesión? El cuadro no lo dice nunca."
+  },
+  {
+   "type": "key",
+   "text": "Las meninas coloca a las personas más importantes fuera del cuadro, en tu lugar. No estás mirando una escena. Estás dentro de ella."
+  },
+  {
+   "type": "fact",
+   "text": "Durante casi dos siglos el cuadro no tuvo un nombre poético. Los inventarios de palacio lo llamaban «La familia de Felipe IV». El título de Las meninas no apareció hasta un catálogo del Prado de 1843. Una menina era una joven de familia noble que servía a un niño de la casa real."
+  },
+  {
+   "type": "text",
+   "text": "La niña del centro es la infanta Margarita, de cinco años, hija del rey. Todos los que la rodean tienen un cargo en la corte, y Velázquez los conocía a todos por su nombre. Lo que da vida al grupo es que no hay dos que hagan lo mismo con los ojos."
+  },
+  {
+   "type": "tour",
+   "title": "Cuatro maneras de mirar",
+   "text": "Sigue las miradas por la sala, desde el pintor hasta la puerta del fondo.",
+   "spots": [
+    {
+     "title": "El pintor",
+     "text": "Velázquez se aparta un poco del lienzo, con el pincel en suspenso. Es la mirada de quien compara al modelo con lo que lleva pintado. El modelo está donde estés tú."
+    },
+    {
+     "title": "La infanta",
+     "text": "Vuelve la cabeza hacia la izquierda, pero los ojos se le escapan hacia nosotros, como hacen los niños cuando entra en la habitación algo más interesante."
+    },
+    {
+     "title": "Maribárbola",
+     "text": "Una enana de la corte, alemana, vestida de azul oscuro. Nos mira de frente y sin ceremonias: es la mirada más firme de todo el cuadro."
+    },
+    {
+     "title": "El hombre de la escalera",
+     "text": "En el vano luminoso de la puerta, José Nieto, aposentador de la reina, se detiene en los peldaños y se vuelve a mirar. Es el único que puede verlo todo: la sala, el lienzo y la pareja real."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Unos se han dado cuenta, otros todavía no. La menina arrodillada a la izquierda sigue pendiente de la infanta. El niño del extremo derecho chincha al perro con el pie. Por esa mezcla la escena parece un segundo atrapado al vuelo, doscientos años antes de la primera cámara."
+  },
+  {
+   "type": "text",
+   "text": "Detrás del encanto hay ambición. En España la pintura todavía pagaba impuestos y se consideraba un oficio manual, como la carpintería. Velázquez quería que se reconociera como un arte noble, y que a él lo reconocieran como noble. Por eso muestra al pintor pensando y no trabajando, a sus anchas entre la realeza, tan alto como el que más."
+  },
+  {
+   "type": "fact",
+   "text": "La cruz roja que Velázquez lleva en el pecho es la insignia de la Orden de Santiago, una distinción de caballero que no recibió hasta 1659, tres años después de terminar el cuadro. Se añadió más tarde. Cuenta una leyenda que la pintó el propio rey."
+  },
+  {
+   "type": "text",
+   "text": "Ahora olvídate de la gente y fíjate en cómo está repartido el lienzo. Para ser un retrato de grupo, está construido de una manera extraña: en buena parte de él no hay nadie."
+  },
+  {
+   "type": "lines",
+   "text": "Tres líneas muestran cómo se organiza la sala.",
+   "lines": [
+    {
+     "label": "La mitad vacía",
+     "text": "Todo lo que queda por encima de esta línea es techo, sombra y cuadros en penumbra. Las once figuras viven en la mitad de abajo. Ese espacio oscuro sobre sus cabezas es lo que hace que la sala parezca tan alta y tan silenciosa."
+    },
+    {
+     "label": "Una ola de cabezas",
+     "text": "Une las cabezas, del pintor al niño, y te sale una línea que baja, sube y vuelve a bajar. Nadie está alineado como en un retrato oficial."
+    },
+    {
+     "label": "Luz desde la derecha",
+     "text": "La luz del día entra por una ventana de la derecha que no vemos. Donde más fuerte cae es en el pelo claro y el vestido de la infanta, que así brilla sin necesidad de ser la figura más grande."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Una segunda luz llega de la puerta abierta del fondo, muy por detrás de todos. Entre esas dos luces, Velázquez pinta algo dificilísimo de pintar: el aire. Las figuras se vuelven más borrosas y más grises cuanto más al fondo están, exactamente como ocurriría en una sala larga y polvorienta."
+  },
+  {
+   "type": "text",
+   "text": "Y lo hace con asombrosamente poco. Desde el otro lado de la sala, en Madrid, las sedas parecen cosidas y almidonadas. Acércate al lienzo, que mide unos 3,2 metros de alto, y los vestidos se deshacen en toques sueltos y manchas de pintura. El detalle se forma en tu ojo, no en la superficie."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "La cruz roja",
+     "text": "La cruz de Santiago, pintada sobre el jubón negro unos años después que el resto."
+    },
+    {
+     "title": "Un jarrito de agua",
+     "text": "La menina arrodillada, María Agustina Sarmiento, le ofrece a la infanta un jarrito de barro rojo en una bandeja. Estos vasos de barro perfumado, los búcaros, eran la manera elegante de beber agua fresca."
+    },
+    {
+     "title": "El lienzo oculto",
+     "text": "Solo vemos el bastidor de madera y el reverso crudo de la tela. Es más o menos tan alto como Las meninas, y por eso mucha gente se ha preguntado si este es el cuadro que está pintando."
+    },
+    {
+     "title": "El mastín",
+     "text": "Un mastín español grande y adormilado, paciente bajo el pie del niño. El pelaje está resuelto con unas pocas pinceladas anchas y secas."
+    },
+    {
+     "title": "Nicolasito",
+     "text": "Nicolasito Pertusato, un joven enano italiano de la corte, le da con el pie al perro. El suyo es el único movimiento de verdad en toda la sala."
+    },
+    {
+     "title": "Dos en la sombra",
+     "text": "Una dueña con tocas blancas de viuda habla con un guardia que apenas está ahí, con la cara reducida a un borrón. Velázquez deja que la penumbra se los trague."
+    },
+    {
+     "title": "La segunda menina",
+     "text": "Isabel de Velasco inicia una reverencia. El cuerpo se le inclina hacia la infanta, pero los ojos ya se le han ido hacia los visitantes."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "En la Nochebuena de 1734 el Alcázar ardió por completo. Se perdieron cientos de pinturas. Las meninas se salvó, aunque dañada, y más tarde se recortó por los bordes. El palacio que muestra ya no existe: en su solar se levanta hoy el Palacio Real de Madrid."
+  },
+  {
+   "type": "text",
+   "text": "Desde entonces los pintores no han dejado de dar vueltas alrededor de este lienzo. El italiano Luca Giordano, que lo vio una generación después, lo llamó «la teología de la pintura», lo más alto que este arte podía alcanzar. En 1957 Picasso se encerró durante meses y pintó 58 variaciones sobre él, desmontándolo figura por figura."
+  },
+  {
+   "type": "text",
+   "text": "Velázquez murió en 1660, cuatro años después de terminarlo, y no dejó ninguna explicación. Así que la primera pregunta sigue en pie. Cuando te plantas delante de Las meninas, ¿eres el rey, la reina, un visitante en la puerta o, sencillamente, la siguiente persona que el pintor ha decidido estudiar?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "¿Quiénes aparecen en el espejo de la pared del fondo?",
+   "options": [
+    "Velázquez y su mujer",
+    "El rey Felipe IV y la reina Mariana",
+    "Los dos hermanos de la infanta"
+   ],
+   "explanation": "El marco que brilla es un espejo y muestra a los reyes, que tienen que estar donde está el espectador."
+  },
+  {
+   "question": "¿Qué significaba la palabra «menina» en la corte española?",
+   "options": [
+    "Una joven noble que servía a un niño de la casa real",
+    "La ayudante de un pintor de corte",
+    "Una princesa destinada a heredar el trono"
+   ],
+   "explanation": "Las meninas eran jóvenes damas de compañía, como las dos que atienden a la infanta."
+  },
+  {
+   "question": "¿Por qué sorprende la cruz roja en el pecho del pintor?",
+   "options": [
+    "No es del color de su orden",
+    "La pintó Picasso",
+    "Fue nombrado caballero tres años después de terminar el cuadro"
+   ],
+   "explanation": "Ingresó en la Orden de Santiago en 1659, así que la cruz se añadió más tarde."
+  },
+  {
+   "question": "¿Cómo se usa la mitad superior del lienzo?",
+   "options": [
+    "Está llena de ángeles",
+    "Está casi vacía: techo, sombra y cuadros en penumbra",
+    "Muestra una segunda fila de cortesanos"
+   ],
+   "explanation": "Todas las figuras están en la mitad de abajo, y el espacio oscuro de arriba hace que la sala parezca alta y silenciosa."
+  },
+  {
+   "question": "¿Qué hizo Picasso con Las meninas en 1957?",
+   "options": [
+    "Pintó 58 variaciones sobre el cuadro",
+    "Lo restauró para el Prado",
+    "Compró una copia"
+   ],
+   "explanation": "Pasó meses reelaborando la composición en una serie de 58 lienzos."
+  }
+ ],
+ "facts": [
+  {
+   "text": "El cuadro se llama Las meninas desde que Velázquez lo terminó.",
+   "explanation": "Figuraba como «La familia de Felipe IV» y no recibió su título actual hasta 1843."
+  },
+  {
+   "text": "Las meninas sobrevivió al incendio que destruyó el palacio donde se pintó.",
+   "explanation": "Lo rescataron cuando ardió el Alcázar de Madrid, en 1734."
+  },
+  {
+   "text": "La luz principal de la escena procede de una lámpara de araña que cuelga del techo.",
+   "explanation": "La luz del día entra por una ventana que no se ve, a la derecha, y hay una segunda luz en la puerta del fondo."
+  }
+ ]
+}
