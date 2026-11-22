@@ -1,0 +1,186 @@
+{
+ "teaser": "Roomalainen arkkitehti esitti arvoituksen ihmisruumiista. Viisitoista vuosisataa myöhemmin yksi paperiarkki ratkaisi sen.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Noin vuonna 25 eKr. roomalainen arkkitehti Vitruvius kirjoitti ylös väitteen ihmisruumiista. Aseta hyvin rakennettu mies selälleen, hän sanoi, kädet ja jalat levällään, niin napaan asetetulla harpilla piirretty ympyrä koskettaa sormenpäitä ja varpaita. Nosta hänet seisomaan kädet sivuille, ja hän mahtuu yhtä hyvin neliöön, sillä hänen käsiensä väli on yhtä pitkä kuin hänen pituutensa."
+  },
+  {
+   "type": "text",
+   "text": "Kohta on kirjassa, joka kertoo temppelien rakentamisesta. Vitruviuksen ajatus oli, että hyvän arkkitehtuurin tulee jäljitellä ihmisruumiin mittasuhteita. Kirjan kuvat eivät olleet säilyneet, joten kun renessanssin oppineet löysivät sen uudelleen, taiteilijat alkoivat yrittää piirtää ympyrään ja neliöön mahtuvaa miestä. Useimmat yritykset näyttivät venytetyiltä tai jäykiltä."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo da Vinci tarttui arvoitukseen noin vuonna 1490 työskennellessään Milanossa. Muut olivat olettaneet, että ympyrällä ja neliöllä täytyy olla sama keskipiste, kuin taulussa. Tarkista, onko Leonardo samaa mieltä."
+  },
+  {
+   "type": "lines",
+   "text": "Neljä viivaa paljastaa Leonardon ratkaisun.",
+   "lines": [
+    {
+     "label": "Ympyrä",
+     "text": "Kädet ylhäällä ja jalat harallaan sormenpäät ja jalkapohjat koskettavat ympyrää. Sen keskipiste on napa, aivan kuten roomalainen teksti vaatii."
+    },
+    {
+     "label": "Neliö",
+     "text": "Jalat yhdessä ja kädet vaakasuorassa mies koskettaa kaikkia neljää sivua. Neliö lepää ympyrän alareunalla, mutta sen yläkulmat työntyvät ympyrän ulkopuolelle."
+    },
+    {
+     "label": "Väli on pituus",
+     "text": "Sormenpäästä sormenpäähän ojennetut kädet ovat yhtä leveät kuin mies on pitkä. Siksi seisova hahmo ylipäätään mahtuu neliöön."
+    },
+    {
+     "label": "Kaksi keskipistettä",
+     "text": "Ympyrä pyörii navan ympäri. Neliön keskipiste on alempana, nivusissa. Leonardo antaa kahden muodon liukua erilleen, ja yhtäkkiä keho mahtuu kumpaankin ilman vääristymää."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Tuo pieni siirto on koko keksintö. Leonardo ei taivuttanut miestä tottelemaan geometriaa, kuten aiemmat taiteilijat olivat tehneet. Hän luotti kehoon ja siirsi geometriaa. Sitten hän meni vielä pidemmälle ja korjasi antiikin kirjoittajaa hiljaa niissä kohdin, joissa hänen omat mittauksensa oikeilla miehillä olivat toista mieltä."
+  },
+  {
+   "type": "key",
+   "text": "Vitruviuksen mies on yhtä paljon koe kuin piirros: vanha teksti koeteltuna oikeaa ruumista vasten, ja ruumis voittaa."
+  },
+  {
+   "type": "fact",
+   "text": "Arkki on pieni, noin 34 × 24 senttimetriä, tuskin tulostuspaperia suurempi. Leonardo raapi ensin rakenteen näkyviin metallikärjellä ja harpilla ja kävi sen sitten läpi kynällä ja ruskealla musteella."
+  },
+  {
+   "type": "text",
+   "text": "Kuvassa on myös aikaan liittyvä temppu. Näet yhden miehen, jolla on neljä kättä ja neljä jalkaa, ja luet hänet vaivatta yhdeksi vartaloksi, joka vaihtaa asentoa. Yhdistä raajat mielessäsi, ja hän hyppii asennosta toiseen, vähän kuin animaation ruudut, nelisataa vuotta etuajassa."
+  },
+  {
+   "type": "fact",
+   "text": "Tekstirivit kulkevat takaperin, oikealta vasemmalle, ja ne voi lukea normaalisti peilistä. Leonardo oli vasenkätinen ja kirjoitti yksityiset muistiinpanonsa tällä tavalla koko elämänsä, ehkä vain välttääkseen märän musteen tahraamista kädellään."
+  },
+  {
+   "type": "text",
+   "text": "Tämä on siis sivu työmuistikirjasta, jossa sanat kiertävät hahmoa. Teksti luettelee mittoja, ja piirroksessa on pieniä merkintöjä, joita useimmat eivät huomaa, koska pysähtyvät kuuluisaan siluettiin."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Ylärivit",
+     "text": "Peilikirjoituksella Leonardo aloittaa mainitsemalla Vitruviuksen ja luettelee sitten yksiköt: neljä sormea on kämmenenleveys, neljä kämmenenleveyttä jalka, kuusi kämmenenleveyttä kyynärä, neljä kyynärää mies."
+    },
+    {
+     "title": "Kasvot",
+     "text": "Ankarat, rypistetyt kasvot paksujen kiharoiden kehystämänä, paljon yksilöllisemmät kuin kaavio vaatisi. Himmeät viivat kulkevat niiden poikki ja merkitsevät leuan, nenän ja otsan mittasuhteet."
+    },
+    {
+     "title": "Napa",
+     "text": "Harpin kärki oli tässä. Jokainen ympyrän kohta on yhtä kaukana tästä pisteestä."
+    },
+    {
+     "title": "Viivain",
+     "text": "Neliön alla kulkee mitta-asteikko, jonka pienet pykälät jakavat kämmenenleveyksiksi ja jonka molemmissa päissä on hienommat sormenleveyden merkit. Se on piirroksen oma mittakaavajana."
+    },
+    {
+     "title": "Jalka sivusta",
+     "text": "Toinen seisova jalka osoittaa meitä kohti, toinen on käännetty sivuttain. Sivusta nähtynä sen koko pituus voidaan mitata: Leonardon mukaan jalka on seitsemäsosa pituudesta."
+    },
+    {
+     "title": "Nostettu käsi",
+     "text": "Ylös nostetun käden keskisormi yltää ympyrään samalla korkeudella kuin pään laki. Suhteen Leonardo kertoo itse muistiinpanoissaan."
+    },
+    {
+     "title": "Alarivit",
+     "text": "Lisää mittasuhteita peilikirjoituksella: käsien väli on yhtä suuri kuin pituus, kasvot ovat kymmenesosa siitä, ja niin edelleen alas koko ruumiin, kukin yksinkertainen murtoluku."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Miksi tällaisilla murtoluvuilla oli niin suuri merkitys? Leonardon ajan ajattelijat rakastivat ajatusta, että ihminen on maailmankaikkeuden pieni malli. Ympyrä edusti taivasta ja neliö maata. Keho, joka koskettaa kumpaakin, oli heille todiste siitä, että ihminen kuuluu molempiin maailmoihin."
+  },
+  {
+   "type": "text",
+   "text": "Leonardo ei koskaan julkaissut arkkia. Se pysyi hänen papereidensa joukossa, kulki yksityiskokoelmien kautta ja päätyi vuonna 1822 Venetsian Gallerie dell'Accademiaan. Vasta myöhemmin siitä tuli yleinen tunnuskuva lääketieteelle, tieteelle, urheilulle ja ”ihmiselle” ylipäätään."
+  },
+  {
+   "type": "fact",
+   "text": "Italialaiset kantavat tätä piirrosta taskussaan: se on lyöty Italian yhden euron kolikkoon. Alkuperäinen sen sijaan on lähes aina piilossa. Valo haalistaa musteen, joten se säilytetään pimeässä, ilmastoidussa varastossa ja näytetään vain lyhyesti muutaman vuoden välein."
+  },
+  {
+   "type": "text",
+   "text": "Kun Ranska pyysi sitä lainaksi vuonna 2019 Leonardon kuoleman 500-vuotispäivän kunniaksi, italialainen kulttuuriperintöyhdistys vei asian oikeuteen estääkseen lainan ja väitti arkin olevan liian hauras matkustamaan. Tuomarit antoivat luvan. Piirros oli esillä Louvressa muutaman viikon ja palasi sitten pimeään."
+  },
+  {
+   "type": "text",
+   "text": "Myöhemmät taiteilijat ja arkkitehdit palasivat yhä uudelleen kysymykseen, johon Leonardo tässä vastasi. 1900-luvulla arkkitehti Le Corbusier suunnitteli kokonaisen rakennusmittojen järjestelmän seisovan, käden ylös nostaneen miehen ympärille. Ajatus siitä, että huoneemme pitäisi mitoittaa ruumiidemme mukaan, on peräisin Vitruviukselta, mutta kasvot sillä on tämän miehen."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Mistä ajatus ympyrään ja neliöön asetetusta miehestä on peräisin?",
+   "options": [
+    "Keskiajan lääketieteen käsikirjasta",
+    "Roomalaisen Vitruviuksen arkkitehtuurikirjasta",
+    "Leonardon kirjaamasta unesta"
+   ],
+   "explanation": "Vitruvius kuvasi sen rakentamista käsittelevässä tutkielmassaan, minkä vuoksi piirros kantaa hänen nimeään."
+  },
+  {
+   "question": "Mikä oli Leonardon ratkaiseva oivallus arvoituksen ratkaisemisessa?",
+   "options": [
+    "Hän antoi ympyrälle ja neliölle eri keskipisteet",
+    "Hän teki miehen käsistä luonnottoman pitkät",
+    "Hän korvasi neliön kolmiolla"
+   ],
+   "explanation": "Ympyrän keskipiste on napa ja neliön nivuset, joten keho mahtuu kumpaankin vääristymättä."
+  },
+  {
+   "question": "Miksi käsiala näyttää oudolta?",
+   "options": [
+    "Se on Gallerie dell'Accademian keksimää salakirjoitusta",
+    "Sen on lisännyt myöhempi omistaja",
+    "Se on peilikirjoitusta, joka kulkee oikealta vasemmalle"
+   ],
+   "explanation": "Vasenkätinen Leonardo kirjoitti muistiinpanonsa takaperin, ja ne voi lukea peilistä."
+  },
+  {
+   "question": "Mikä on neliön alla kulkeva pienin pykälin merkitty viiva?",
+   "options": [
+    "Kämmenenleveyksiin ja sormenleveyksiin jaettu asteikko",
+    "Halkeama paperissa",
+    "Nuottiviivasto"
+   ],
+   "explanation": "Se on mitta-asteikko, jossa on samat yksiköt kuin muistiinpanoissa."
+  },
+  {
+   "question": "Miksi alkuperäistä piirrosta esitellään niin harvoin?",
+   "options": [
+    "Se on yksityisomistuksessa",
+    "Valo haalistaa hauraan arkin musteen",
+    "Se on liian suuri ripustettavaksi"
+   ],
+   "explanation": "Paperi ja muste ovat valonarkoja, joten piirros säilytetään suurimman osan ajasta pimeässä."
+  },
+  {
+   "question": "Mikä ruumiinosa koskettaa neliön yläreunaa?",
+   "options": [
+    "Vain ylös nostetut sormenpäät",
+    "Hartiat",
+    "Pään laki"
+   ],
+   "explanation": "Pystyssä seistessään miehen pää koskettaa yläsivua ja jalat alasivua."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Leonardon piirroksessa ympyrällä ja neliöllä on sama keskipiste.",
+   "explanation": "Ympyrän keskipiste on napa ja neliön keskipiste alempana, nivusissa."
+  },
+  {
+   "text": "Vitruviuksen mies on Italian yhden euron kolikossa.",
+   "explanation": "Italia valitsi piirroksen yhden euron kolikkonsa kansalliselle puolelle."
+  },
+  {
+   "text": "Piirros on suunnilleen elävän kokoinen.",
+   "explanation": "Arkki on vain noin 34 × 24 senttimetriä, lähellä tulostuspaperin kokoa."
+  }
+ ]
+}
