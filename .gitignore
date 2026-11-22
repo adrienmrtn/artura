@@ -8,3 +8,6 @@ build/
 fastlane/screenshots/
 screenshots/node_modules/
 screenshots/.page.html
+fastlane/screenshots_en/
+screenshots/.page-ipad.html
+screenshots/__pycache__/

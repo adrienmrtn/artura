@@ -1,0 +1,68 @@
+name: App Store screenshots iPad (English)
+
+# À lancer à la main : onglet Actions > « App Store screenshots iPad (English) » > Run workflow.
+# Génère, en anglais (en-US) uniquement :
+#   - les 6 captures iPhone 6,9" (1290 x 2796), comme le workflow « App Store screenshots » ;
+#   - les 6 captures iPad 13" (2064 x 2752), mêmes écrans centrés sur fond blanc.
+# Les met en téléchargement (artefact « screenshots-en ») puis, si « upload » est coché, les envoie
+# sur App Store Connect. L'envoi remplace TOUTES les captures en-US (iPhone + iPad) ; les autres langues ne bougent pas.
+# Secrets : les mêmes que les autres workflows (ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8).
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version de l'app dans App Store Connect"
+        default: "2.0"
+        required: true
+      upload:
+        description: "Envoyer sur App Store Connect (décoché : génère seulement)"
+        type: boolean
+        default: true
+
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Outils de rendu (polices, Chromium)
+        working-directory: screenshots
+        run: |
+          npm install --no-audit --no-fund
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Captures iPhone (en-US) et iPad 13" (en-US)
+        working-directory: screenshots
+        env:
+          ARTURA_APP: ${{ github.workspace }}/Artura/Resources
+          SHOTS_OUT: ${{ github.workspace }}/fastlane/screenshots_en
+        run: |
+          python render.py en-US
+          python render_ipad.py
+          ls -l "$SHOTS_OUT/en-US"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-en
+          path: fastlane/screenshots_en
+
+      - uses: ruby/setup-ruby@v1
+        if: ${{ inputs.upload }}
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Envoi des captures vers App Store Connect
+        if: ${{ inputs.upload }}
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          APP_VERSION: ${{ inputs.version }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+        run: bundle exec fastlane screenshots_en
