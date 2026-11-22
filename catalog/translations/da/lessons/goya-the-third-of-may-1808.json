@@ -3,15 +3,15 @@
  "lesson": [
   {
    "type": "text",
-   "text": "Ingen skrev et ord. Da Goya afleverede dette lærred i 1814, var der, så vidt vi ved, ingen afsløring, ingen anmeldelse og intet takkebrev fra hoffet. De første, der så et af verdens mest berømte billeder, ser ud til at have kigget, intet sat på skrift og fået det gemt væk."
+   "text": "Ingen skrev et ord. Da Goya afleverede dette lærred i 1814, var der, så vidt vi ved, ingen afsløring, ingen anmeldelse og intet takkebrev fra hoffet. De første, der så et af verdens mest berømte billeder, ser ud til at have kigget, ikke skrevet et ord ned og fået det gemt væk."
   },
   {
    "type": "text",
-   "text": "Det blev væk i lang tid. Maleriet tilhørte den spanske krone og stod senere i Pradoens magasiner. Det optræder først i museets trykte katalog i 1872, næsten tres år efter, at det blev malet, og mere end fyrre efter Goyas død."
+   "text": "Det blev væk i lang tid. Maleriet tilhørte den spanske krone og stod senere i Pradomuseets magasiner. Det optræder først i museets trykte katalog i 1872, næsten tres år efter, at det blev malet, og mere end fyrre efter Goyas død."
   },
   {
    "type": "text",
-   "text": "Hvorfor tavsheden? Begynd med det, billedet fortæller om. Den 2. maj 1808 gjorde Madrids befolkning oprør mod Napoleons hær, som havde besat byen. Oprøret blev slået ned i løbet af få timer. Den nat og ind i de tidlige timer den 3. maj skød franske eksekutionspelotoner hundredvis af fanger i hold ved byens udkant."
+   "text": "Hvorfor tavsheden? Begynd med det, billedet fortæller om. Den 2. maj 1808 gjorde Madrids befolkning oprør mod Napoleons hær, som havde besat byen. Oprøret blev slået ned i løbet af få timer. Den nat og ind i de tidlige timer den 3. maj skød franske henrettelsespelotoner hundredvis af fanger i hold ved byens udkant."
   },
   {
    "type": "text",
@@ -36,7 +36,7 @@
     },
     {
      "title": "Ansigtet",
-     "text": "Mørke øjenbryn løftet, øjnene spile op, munden åben. Det er tegnet med få grove streger, nærmere en karikatur end et portræt. Han er ingen bestemt og kan derfor være hvem som helst."
+     "text": "Mørke øjenbryn løftet, øjnene spilet op, munden åben. Det er tegnet med få grove streger, nærmere en karikatur end et portræt. Han er ingen bestemt og kan derfor være hvem som helst."
     },
     {
      "title": "Den åbne håndflade",
@@ -54,7 +54,7 @@
    "spots": [
     {
      "title": "Lygten",
-     "text": "En stor firkantet lygte står i støvet mellem mordere og ofre. Den blev sat dér, så soldaterne kunne sigte. Ældre kunsts hellige skær er blevet til et stykke militærudstyr."
+     "text": "En stor firkantet lygte står i støvet mellem mordere og ofre. Den blev sat dér, så soldaterne kunne sigte. Ældre tiders hellige skær er blevet til et stykke militærudstyr."
     }
    ]
   },
@@ -93,7 +93,7 @@
    "spots": [
     {
      "title": "Den døde",
-     "text": "På ansigtet i en rød pøl, med armene slynget ud. Hans stilling spejler den løftede arme hos manden i hvidt: her ender den gestus."
+     "text": "Med ansigtet nedad i en rød pøl, med armene slynget ud. Hans stilling spejler de løftede arme hos manden i hvidt: her ender den gestus."
     },
     {
      "title": "Munken",
@@ -105,7 +105,7 @@
     },
     {
      "title": "Blikket",
-     "text": "Under en mørk hue stirrer denne mand lige ind i riflerne med knyttede næver løftet til hagen. Trods eller tilbageholdt rædsel."
+     "text": "Under en mørk hue stirrer denne mand lige ind i riflerne med knyttede næver løftet til hagen. Trods, eller rædsel, der holdes nede."
     },
     {
      "title": "Blodet",
@@ -127,7 +127,7 @@
   },
   {
    "type": "fact",
-   "text": "Da billedet endelig kom ud af magasinet, svarede kunstnerne direkte. I 1860'erne byggede Édouard Manet sin »Kejser Maximilians henrettelse« på Goyas eksekutionspeloton. I 1951 gjorde Pablo Picasso det samme i et maleri om Koreakrigen, hvor de ansigtsløse skytter er blevet til pansrede robotter."
+   "text": "Da billedet endelig kom ud af magasinet, svarede kunstnerne direkte. I 1860'erne byggede Édouard Manet sin »Kejser Maximilians henrettelse« på Goyas henrettelsespeloton. I 1951 gjorde Pablo Picasso det samme i et maleri om Koreakrigen, hvor de ansigtsløse skytter er blevet til pansrede robotter."
   },
   {
    "type": "text",
@@ -139,7 +139,7 @@
    "question": "Hvilken begivenhed skildrer maleriet?",
    "options": [
     "Et søslag ud for den spanske kyst",
-    "Franske eksekutionspelotoner, der skyder fanger fra Madrid efter et oprør",
+    "Franske henrettelsespelotoner, der skyder fanger fra Madrid efter et oprør",
     "Ferdinand 7.s kroning"
    ],
    "explanation": "Efter oprøret den 2. maj 1808 blev hundredvis af fanger skudt gennem natten."
@@ -172,7 +172,7 @@
    "explanation": "Hans udbredte arme og mærket i hans håndflade ligner korsfæstelsen."
   },
   {
-   "question": "Hvornår optræder maleriet første gang i Pradoens trykte katalog?",
+   "question": "Hvornår optræder maleriet første gang i Pradomuseets trykte katalog?",
    "options": [
     "1872",
     "1814",
@@ -187,7 +187,7 @@
     "Vincent van Gogh",
     "Édouard Manet"
    ],
-   "explanation": "Manets »Kejser Maximilians henrettelse« låner Goyas eksekutionspeloton."
+   "explanation": "Manets »Kejser Maximilians henrettelse« låner Goyas henrettelsespeloton."
   }
  ],
  "facts": [
