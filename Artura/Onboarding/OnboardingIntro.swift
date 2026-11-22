@@ -24,6 +24,75 @@ struct WelcomeScreen: View {
                 .fixedSize(horizontal: false, vertical: true)
                 .enter(2.5)
         }
+        .overlay(alignment: .topTrailing) {
+            LanguageMenu()
+                .padding(.trailing, 16)
+                .padding(.top, 8)
+        }
+    }
+}
+
+// MARK: Language
+
+/// Native iOS menu to switch the app's language, shown on the welcome screen.
+struct LanguageMenu: View {
+    @State private var selection = AppLanguage.code
+
+    var body: some View {
+        Menu {
+            Picker(L("Language"), selection: $selection) {
+                ForEach(AppLanguage.all, id: \.self) { code in
+                    Text(AppLanguage.name(of: code)).tag(code)
+                }
+            }
+        } label: {
+            HStack(spacing: 6) {
+                Image(systemName: "globe")
+                    .font(.system(size: 14, weight: .semibold))
+                Text(AppLanguage.name(of: selection))
+                    .font(.figtree(14, .semibold))
+                Image(systemName: "chevron.down")
+                    .font(.system(size: 11, weight: .bold))
+            }
+            .foregroundStyle(Palette.ink)
+            .padding(.horizontal, 12)
+            .padding(.vertical, 8)
+            .background(.ultraThinMaterial, in: Capsule())
+        }
+        .onChange(of: selection) { _, language in
+            Haptics.selection()
+            AppLanguage.set(language)
+        }
+        .accessibilityLabel(L("Language"))
+    }
+}
+
+/// "Which language?": the full list of the app's languages, each written in its own language.
+struct LanguageScreen: View {
+    let onNext: () -> Void
+    @State private var selection = AppLanguage.code
+
+    var body: some View {
+        OnbScaffold(title: L("Which language?"), subtitle: L("You can change it anytime in Settings."),
+                    spoken: true, onNext: onNext) {
+            VStack(spacing: 10) {
+                ForEach(AppLanguage.all, id: \.self) { code in
+                    ChoiceRow(title: AppLanguage.name(of: code), subtitle: nameInCurrentLanguage(code),
+                              selected: selection == code) {
+                        selection = code
+                        AppLanguage.set(code)
+                    }
+                }
+            }
+        }
+    }
+
+    /// "Allemand" under "Deutsch" when the app is in French; nothing for the current language.
+    private func nameInCurrentLanguage(_ code: String) -> String? {
+        guard code != selection,
+              let name = AppLanguage.locale.localizedString(forIdentifier: code) else { return nil }
+        let shown = String(name.prefix(1)).uppercased(with: AppLanguage.locale) + String(name.dropFirst())
+        return shown == AppLanguage.name(of: code) ? nil : shown
     }
 }
 
@@ -140,11 +209,13 @@ struct Quote: Identifiable {
     var id: String { author }
 
     // Quotes to be checked (source and translation) before release.
-    static let all: [Quote] = [
-        Quote(image: "portrait_klee", text: L("Art does not reproduce the visible; it makes visible."), author: "Paul Klee", role: L("Painter")),
-        Quote(image: "portrait_nietzsche", text: L("We have art in order not to die of the truth."), author: "Friedrich Nietzsche", role: L("Philosopher")),
-        Quote(image: "portrait_proust", text: L("Through art alone are we able to emerge from ourselves."), author: "Marcel Proust", role: L("Writer"))
-    ]
+    static var all: [Quote] {
+        [
+            Quote(image: "portrait_klee", text: L("Art does not reproduce the visible; it makes visible."), author: "Paul Klee", role: L("Painter")),
+            Quote(image: "portrait_nietzsche", text: L("We have art in order not to die of the truth."), author: "Friedrich Nietzsche", role: L("Philosopher")),
+            Quote(image: "portrait_proust", text: L("Through art alone are we able to emerge from ourselves."), author: "Marcel Proust", role: L("Writer"))
+        ]
+    }
 }
 
 struct QuotesScreen: View {

@@ -5,6 +5,8 @@ struct ArturaApp: App {
     @StateObject private var content = ContentStore()
     @StateObject private var user = UserStore()
     @StateObject private var pro = ProStore()
+    /// Language of the interface: changing it (onboarding) redraws the app in the new language.
+    @State private var language = AppLanguage.code
 
     init() {
         FontRegistrar.registerAll()
@@ -18,12 +20,32 @@ struct ArturaApp: App {
                 .environmentObject(pro)
                 .preferredColorScheme(.light)
                 .tint(Palette.blue)
+                .environment(\.locale, Locale(identifier: language))
+                .environment(\.layoutDirection, AppLanguage.isRightToLeft ? .rightToLeft : .leftToRight)
+                .environment(\.appLanguage, language)
+                .onReceive(NotificationCenter.default.publisher(for: .appLanguageChanged)) { _ in
+                    language = AppLanguage.code
+                    content.languageChanged()
+                }
         }
+    }
+}
+
+/// The current interface language, for views that must be rebuilt when it changes.
+private struct AppLanguageKey: EnvironmentKey {
+    static let defaultValue = AppLanguage.code
+}
+
+extension EnvironmentValues {
+    var appLanguage: String {
+        get { self[AppLanguageKey.self] }
+        set { self[AppLanguageKey.self] = newValue }
     }
 }
 
 struct RootView: View {
     @EnvironmentObject private var user: UserStore
+    @Environment(\.appLanguage) private var language
     @State private var splash = !OnboardingDebug.flag("noSplash")
 
     var body: some View {
@@ -48,6 +70,7 @@ struct RootView: View {
             Palette.bg.ignoresSafeArea()
             if user.profile.onboarded {
                 MainTabView()
+                    .id(language)
                     .transition(.opacity.combined(with: .scale(scale: 1.03)))
             } else {
                 OnboardingFlow()
