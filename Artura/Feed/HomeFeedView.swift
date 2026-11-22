@@ -59,6 +59,8 @@ struct HomeFeedView: View {
                                      showHint: index == 0 && items.count > 1,
                                      onOpen: { course = art })
                                 .frame(width: geo.size.width, height: geo.size.height)
+                                // The next paintings load while this one is on screen: no waiting when scrolling.
+                                .onAppear { preload(after: index) }
                         }
                         FeedEndCard(filtered: filter.isActive,
                                     empty: items.isEmpty,
@@ -116,6 +118,13 @@ struct HomeFeedView: View {
         let unread = others.filter { !user.profile.completedLessons.contains($0.id) }
         let read = others.filter { user.profile.completedLessons.contains($0.id) }
         order = ([daily].compactMap { $0 }) + (unread + read).map(\.id)
+    }
+
+    /// Downloads the pictures of the three artworks that follow the one at `index`.
+    private func preload(after index: Int) {
+        let list = items
+        guard index + 1 < list.count else { return }
+        ImageStore.shared.prefetch(list[(index + 1)...min(index + 3, list.count - 1)].map(\.image))
     }
 
     // MARK: Top bar
@@ -200,6 +209,7 @@ struct FeedCard: View {
     let onOpen: () -> Void
 
     @State private var burst = false
+    @State private var zoomed: ZoomTarget?
     @State private var drift = false
     @State private var nudge = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -247,12 +257,14 @@ struct FeedCard: View {
                 .contentShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
                 .onTapGesture(count: 2) { likeWithBurst() }
                 .onTapGesture {
+                    // A tap opens the painting full screen, where it can be zoomed.
                     Haptics.tap()
-                    onOpen()
+                    zoomed = ZoomTarget(artwork)
                 }
+                .zoomViewer($zoomed)
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel("\(artwork.title), \(artwork.artist)")
-                .accessibilityHint("Opens the lesson")
+                .accessibilityHint("Opens the painting full screen")
                 .accessibilityAddTraits(.isButton)
 
             VStack(spacing: 6) {

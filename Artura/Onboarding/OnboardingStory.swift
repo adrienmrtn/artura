@@ -239,7 +239,6 @@ struct FlashResultScreen: View {
                 }
                 .frame(maxWidth: .infinity)
             }
-            if verdictShown && score > 0 { ConfettiView() }
         }
         .onAppear(perform: play)
     }
@@ -762,7 +761,6 @@ struct StreakScreen: View {
             .padding(.top, 12)
             .padding(.bottom, 16)
 
-            if checked { ConfettiView() }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)

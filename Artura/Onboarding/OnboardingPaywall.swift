@@ -357,6 +357,20 @@ struct TrialNotifScreen: View {
     @State private var stage = 0
     @State private var ring = false
     @State private var asking = false
+    /// Words of the title already turned bold: they thicken one by one.
+    @State private var bold = 0
+
+    private static let words = "We'll send you a notification 1 day before your free trial ends"
+        .split(separator: " ").map(String.init)
+
+    /// The title, regular at first; each word turns bold in its turn.
+    private var boldingTitle: Text {
+        var text = Text("")
+        for (i, word) in Self.words.enumerated() {
+            text = text + Text(i == 0 ? word : " " + word).font(.figtree(28, i < bold ? .bold : .regular))
+        }
+        return text
+    }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -391,10 +405,10 @@ struct TrialNotifScreen: View {
                 .accessibilityHidden(true)
 
             VStack(spacing: 12) {
-                Text("We'll send you a notification 1 day before your free trial ends")
-                    .font(.figtree(28, .bold))
+                boldingTitle
                     .foregroundStyle(Palette.ink)
                     .fixedSize(horizontal: false, vertical: true)
+                    .accessibilityLabel(Self.words.joined(separator: " "))
                 Text("No bad surprises.")
                     .font(.figtree(18))
                     .foregroundStyle(Palette.muted)
@@ -438,7 +452,15 @@ struct TrialNotifScreen: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.7) {
             withAnimation(.settle) { stage = 3 }
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.9) {
+        // The words turn bold one after the other, each with a tap under the finger.
+        let step = 0.13
+        for i in 1...Self.words.count {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.3 + Double(i) * step) {
+                withAnimation(.easeOut(duration: 0.12)) { bold = i }
+                Haptics.rigid()
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.3 + Double(Self.words.count) * step + 0.6) {
             withAnimation(.gentle) { stage = 4 }
         }
     }
@@ -551,7 +573,6 @@ struct TrialTimelineScreen: View {
                     .offset(x: 18 + 16.5, y: 18 + 18)
             }
         }
-        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.card))
     }
 
     private func timelineRow(_ step: Int, icon: String, fill: Color, tint: Color, title: String, text: String) -> some View {

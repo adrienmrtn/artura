@@ -64,6 +64,7 @@ struct LessonView: View {
                         ArtImage(name: artwork.image)
                             .frame(height: 270)
                             .clipShape(RoundedRectangle(cornerRadius: 16))
+                            .zoomable(artwork)
                         if let credit = artwork.credit {
                             Text(credit).font(.figtree(11)).foregroundStyle(Palette.muted)
                         }
@@ -170,6 +171,7 @@ struct LessonView: View {
                 ArtImage(name: artwork.image, zoom: block.zoom ?? 2, anchor: block.unitAnchor)
                     .frame(height: 220)
                     .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .zoomable(artwork)
                 if let caption = block.caption {
                     Text(caption).font(.aCaption).foregroundStyle(Palette.muted)
                 }

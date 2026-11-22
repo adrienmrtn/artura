@@ -251,7 +251,6 @@ struct ResultView: View {
             .multilineTextAlignment(.center)
             .padding(.horizontal, 24)
             .padding(.bottom, 16)
-            if celebrate && pop { ConfettiView() }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
