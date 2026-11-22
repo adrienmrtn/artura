@@ -64,11 +64,15 @@ platform :ios do
 
     # Dossier temporaire avec uniquement name.txt : deliver n'envoie que ce qui existe.
     only_names = Dir.mktmpdir("artura-names")
-    Dir.glob("./fastlane/metadata/*/name.txt").each do |f|
+    # Chemin absolu : le dossier de travail d'une lane n'est pas forcément la racine du dépôt.
+    names = Dir.glob(File.join(File.expand_path(FastlaneCore::FastlaneFolder.path), "metadata", "*", "name.txt"))
+    UI.user_error!("Aucun name.txt trouvé dans fastlane/metadata") if names.empty?
+    names.each do |f|
       locale = File.basename(File.dirname(f))
       FileUtils.mkdir_p(File.join(only_names, locale))
       FileUtils.cp(f, File.join(only_names, locale, "name.txt"))
     end
+    UI.message("#{names.size} noms à envoyer : " + names.map { |f| File.basename(File.dirname(f)) }.sort.join(", "))
 
     deliver(
       api_key: api_key,
