@@ -1,0 +1,242 @@
+{
+ "teaser": "Ein Mann aus Eierschale und Baumstämmen blickt dich aus der Hölle an. Warum, weiß niemand.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Ein Mann steht im Dunkeln, die Füße in zwei kleinen Booten. Seine Beine sind hohle Baumstämme. Sein Leib ist eine aufgebrochene Eierschale mit einer Schenke darin, und auf dem Kopf trägt er eine Scheibe, auf der Dämonen um einen rosa Dudelsack ziehen. Sein bleiches Gesicht dreht er über die Schulter zurück, beinahe belustigt."
+  },
+  {
+   "type": "find",
+   "text": "Dieses Wesen versteckt sich irgendwo im Gemälde unten. Entdeckst du es?",
+   "spots": [
+    {
+     "title": "Der Baummensch",
+     "text": "Man nennt ihn den Baummenschen. Manche Historiker vermuten, das Gesicht sei Boschs eigenes, doch beweisen lässt sich das nicht. Merk dir diesen Blick über die Schulter: Wir kommen darauf zurück."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Tritt jetzt einen Schritt zurück. Der Baummensch ist ein Wesen unter Hunderten in einem Triptychon, einem Gemälde aus drei Tafeln, die mit Scharnieren verbunden sind. Aufgeklappt misst es etwa 2,2 mal 3,9 Meter. Hieronymus Bosch malte es um 1500 in Öl auf Eichenholz."
+  },
+  {
+   "type": "fact",
+   "text": "Klappt man die beiden Seitenflügel zu, sind die Farben weg. Die Außenseite zeigt die Erde als graue, durchsichtige Kugel, halb mit Wasser gefüllt. Vermutlich ist es die Welt am dritten Schöpfungstag, noch ohne Tiere und Menschen. Das Öffnen sollte ein Schock sein."
+  },
+  {
+   "type": "text",
+   "text": "Triptychen standen gewöhnlich auf Kirchenaltären. Dieses hier mit ziemlicher Sicherheit nie: Erstmals erwähnt wird es 1517 im Brüsseler Palast eines Adligen, als Prunkstück für Gäste. Es liest sich wie ein Satz, von links nach rechts, und Bosch hat ein paar Hinweise eingebaut, die dich leiten."
+  },
+  {
+   "type": "lines",
+   "text": "Drei Hinweise darauf, wie die Tafeln zusammenhängen.",
+   "lines": [
+    {
+     "label": "Ein Horizont",
+     "text": "Linke Tafel und Mitteltafel teilen sich denselben Horizont, dasselbe Gras, denselben Himmel. Der dicht bevölkerte Garten in der Mitte wächst unmittelbar aus dem Garten Eden heraus."
+    },
+    {
+     "label": "Hier reißt es ab",
+     "text": "An diesem Scharnier hört die Landschaft auf. Kein Horizont, kein Grün, kein Tageslicht: Die rechte Tafel ist eine Nacht, die nur von Feuern erhellt wird."
+    },
+    {
+     "label": "Drei Mittelpunkte",
+     "text": "Jede Tafel hat ein seltsames Gebilde in ihrer Mitte: einen rosa Brunnen, eine blaue Kugel, den Baummenschen. Erst ein Lebensbrunnen, dann ein zerbrechliches Spielzeug, dann eine hohle Schale."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Bosch war nicht sein Familienname. Geboren wurde er als Jheronimus van Aken, und er signierte mit einer Kurzform seiner Heimatstadt 's-Hertogenbosch in den heutigen Niederlanden. Dort verbrachte er fast sein ganzes Leben, in einem Haus am Marktplatz."
+  },
+  {
+   "type": "text",
+   "text": "Die Geschichte läuft also von einem Anfang zu einem Ende: Paradies, dann ein Garten der Lüste, dann die Strafe. Klingt einfach. Weniger einfach wird es, sobald du dir das Paradies genauer ansiehst, das doch der eine friedliche Ort im Bild sein müsste."
+  },
+  {
+   "type": "tour",
+   "title": "Ärger im Paradies",
+   "text": "Gott hat gerade Eva erschaffen. Aus der Ferne wirkt auf der linken Tafel alles ruhig.",
+   "spots": [
+    {
+     "title": "Die Vorstellung",
+     "text": "Gott, jung dargestellt wie Christus, hält Eva am Handgelenk und führt sie Adam zu, der eben erwacht ist. Adam starrt. Viele Betrachter lesen dieses Starren als den ersten Funken des Begehrens."
+    },
+    {
+     "title": "Die Eule",
+     "text": "Im dunklen Loch am Fuß des rosa Brunnens sitzt eine Eule. Zu Boschs Zeit galt sie ebenso sehr als nächtlicher Unglücksvogel wie als weises Tier. Sie beobachtet alles genau aus der Mitte von Eden."
+    },
+    {
+     "title": "Die Katze",
+     "text": "Eine Katze trägt ein kleines Tier im Maul davon. In der Nähe kriechen Geschöpfe aus einem dunklen Tümpel, und Vögel zanken sich. Das Töten hat schon begonnen, bevor irgendwer einen Apfel angerührt hat."
+    },
+    {
+     "title": "Die Giraffe",
+     "text": "Bosch hat nie eine Giraffe oder einen Elefanten gesehen. Er zeichnete sie wohl nach Skizzen von Reisenden ab, deshalb ist diese hier weiß und nicht ganz richtig. Eden ist mit dem Seltensten bestückt, das er kannte."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Schon im Paradies gibt es also ein Raubtier und eine lauernde Eule. Bosch scheint zu sagen: Das Unheil begann nicht erst im Garten nebenan, es wurde am ersten Tag gepflanzt. Mit diesem Gedanken im Kopf lässt sich die riesige Mitteltafel schwerer beurteilen."
+  },
+  {
+   "type": "text",
+   "text": "Hunderte nackter Männer und Frauen reiten auf Tieren, baden, knabbern an riesigen Beeren und klettern in Muschelschalen. Niemand ist alt, niemand arbeitet, niemand scheint sich zu schämen. Kein Dokument verrät uns, was Bosch gemeint hat, und die Forschung ist sich bis heute uneins: eine Warnung vor der Wollust? Oder der Traum von einer Welt, wie sie wäre, hätten die Menschen nie gesündigt?"
+  },
+  {
+   "type": "text",
+   "text": "Wofür du dich auch entscheidest, die Indizien stecken in den kleinen Dingen, und davon gibt es viel zu viele für einen geführten Rundgang. Streif auf eigene Faust durch den Garten. Achte auf Früchte und Vögel, die größer sind als Menschen, und auf alles, was aus Glas ist."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Die blaue Kugel",
+     "text": "Mitten im See schwimmt eine blaue Kugel, gekrönt von rosa Türmchen. Winzige Figuren klettern auf ihr herum und sitzen in ihren Öffnungen. Sie wirkt prächtig und zerbrechlich zugleich."
+    },
+    {
+     "title": "Der endlose Ritt",
+     "text": "Frauen baden in einem runden Teich, während Männer sie umkreisen: auf Pferden, Ebern, einem Kamel und merkwürdigeren Tieren. Immer rundherum, ohne Ziel. Ein Karussell der Angeberei."
+    },
+    {
+     "title": "Liebespaar in der Blase",
+     "text": "Ein Paar sitzt in einer durchsichtigen Kugel, die wie eine Seifenblase aus einer Pflanze wächst. Ein niederländisches Sprichwort der Zeit verglich das Glück mit Glas: wie leicht bricht das."
+    },
+    {
+     "title": "Riesenvögel",
+     "text": "Ein Eisvogel, ein Distelfink und andere Vögel ragen am Ufer hoch über den Badenden auf. Die Größenverhältnisse sind auf den Kopf gestellt: Hier sind die Menschen die kleinen Tiere."
+    },
+    {
+     "title": "Die Miesmuschel",
+     "text": "Ein Mann schleppt eine riesige Miesmuschel auf dem Rücken, in der Menschen eingeschlossen sind. Schalen, Schoten und hohle Früchte dienen überall im Garten als Verstecke."
+    },
+    {
+     "title": "Wieder die Eule",
+     "text": "Über einem Reigen von Tanzenden hockt eine Eule. Der Vogel, der in Eden aus dem Brunnen spähte, ist uns in den Garten gefolgt."
+    },
+    {
+     "title": "Die Riesenbeere",
+     "text": "Figuren scharen sich um eine rote Beere, fast so groß wie sie selbst. Süß, leuchtend und nach wenigen Tagen verfault: ein treffendes Bild für ein Vergnügen, das nicht hält."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Alles im Garten ist köstlich und zerbrechlich: Früchte, die faulen, Glas, das bricht, Blasen, die platzen. Ob Bosch nun missbilligte oder träumte, er malte die Lust als etwas, das nicht von Dauer sein kann."
+  },
+  {
+   "type": "fact",
+   "text": "Jahrhundertelang hieß das Bild bei niemandem Der Garten der Lüste. Bosch hat keinen Titel hinterlassen. Frühe spanische Beschreibungen benennen es nach seiner Frucht, als das Gemälde von der Erdbeere, und der heutige Titel setzte sich erst viel später durch."
+  },
+  {
+   "type": "text",
+   "text": "Wie hielt er so viele winzige Szenen leuchtend und lesbar? Bosch arbeitete mit dünnen, fast durchsichtigen Schichten Ölfarbe über einer weißen Grundierung. Das lässt die Farben strahlen wie Email. Technische Aufnahmen zeigen, dass er es sich unterwegs anders überlegte und Figuren direkt auf der Tafel neu zeichnete."
+  },
+  {
+   "type": "text",
+   "text": "Dann kommt die Rechnung. Auf der rechten Tafel gehen die Lichter aus, und dieselbe Gattung, die im Garten spielte, wird gejagt, gefressen und verhöhnt. Boschs grausamster Einfall: Was den Menschen Freude machte, wird zum Werkzeug, das sie quält. Fang mit der Musik an."
+  },
+  {
+   "type": "tour",
+   "title": "Die Nachtseite",
+   "text": "Drei Stationen im Dunkeln, auf der Tafel von oben nach unten.",
+   "spots": [
+    {
+     "title": "Ohren und eine Klinge",
+     "text": "Zwei riesige Ohren führen ein Messer zwischen sich, wie eine Kriegsmaschine, die über die Verdammten rollt. Was das bedeutet, kann jeder nur raten, und gerade darin liegt ein Teil seiner Wucht."
+    },
+    {
+     "title": "Die Musikstunde",
+     "text": "Unter einer riesigen Laute und einer Harfe liegt ein Sünder eingequetscht, quer über seinem Hintern stehen Noten geschrieben. Die Instrumente des Vergnügens sind zu Folterbänken geworden."
+    },
+    {
+     "title": "Der Fürst mit dem Vogelkopf",
+     "text": "Ein blaues Ungeheuer mit Vogelkopf und einem Kessel als Hut sitzt auf einem hohen Stuhl und verschlingt einen Menschen im Ganzen. Oft nennt man es den Höllenfürsten."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Die Noten auf dem Hintern dieses Sünders sind lesbar. 2014 schrieb Amelia Hamrick, eine Musikstudentin in Oklahoma, sie ab und stellte eine Aufnahme ins Netz. Sie ging um die Welt, unter einem inoffiziellen Titel: das Po-Lied aus der Hölle."
+  },
+  {
+   "type": "text",
+   "text": "Das Gemälde wurde bald zur begehrten Trophäe. König Philipp II. von Spanien, ein leidenschaftlicher Bosch-Sammler, ließ es 1593 in seinen Klosterpalast El Escorial bringen. In den 1930er-Jahren kam es in den Prado nach Madrid. Vier Jahrhunderte nach Bosch erklärten ihn die Surrealisten, Maler der Träume wie Salvador Dalí, zu ihrem Ahnherrn."
+  },
+  {
+   "type": "text",
+   "text": "Kehr zum Baummenschen zurück. Alle anderen in der Hölle sind zu sehr mit Leiden beschäftigt, um irgendetwas zu bemerken. Er allein blickt zurück, über seinen zerbrochenen Leib hinweg, zum Garten und zu dir. Eine Warnung, ein Bedauern oder das leise Lächeln eines Malers, der seine eigene Erfindung genießt? Bosch hat es nie verraten."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Was ist ein Triptychon?",
+   "options": [
+    "Ein Gemälde aus drei Tafeln, die mit Scharnieren verbunden sind",
+    "Ein Gemälde mit drei Figuren",
+    "Ein Gemälde, das in drei Tagen entstand"
+   ],
+   "explanation": "Der Garten besteht aus drei Eichentafeln mit Scharnieren, sodass sich die Seitenflügel zuklappen lassen."
+  },
+  {
+   "question": "Was haben die linke Tafel und die Mitteltafel gemeinsam?",
+   "options": [
+    "Dieselbe Menschenmenge",
+    "Denselben Nachthimmel",
+    "Denselben Horizont und dieselbe Landschaft"
+   ],
+   "explanation": "Der Horizont läuft über beide hinweg. So scheint der Garten aus Eden herauszuwachsen."
+  },
+  {
+   "question": "Was sitzt im dunklen Loch des Brunnens in Eden?",
+   "options": [
+    "Eine Schlange",
+    "Eine Eule",
+    "Eine Katze"
+   ],
+   "explanation": "Eine Eule beobachtet alles aus der Mitte des Paradieses, und eine weitere taucht im Garten der Mitteltafel auf."
+  },
+  {
+   "question": "Was erscheint, wenn die Seitenflügel geschlossen sind?",
+   "options": [
+    "Ein Bildnis von Bosch",
+    "Die Erde als graue Kugel",
+    "Ein zweiter Garten"
+   ],
+   "explanation": "Die Außenseite zeigt eine farblose Kugel, vermutlich die Welt am dritten Schöpfungstag."
+  },
+  {
+   "question": "Was steht auf der Höllentafel auf dem Hintern eines Sünders geschrieben?",
+   "options": [
+    "Ein Gebet",
+    "Boschs Signatur",
+    "Noten"
+   ],
+   "explanation": "Die Noten sind lesbar. Eine Studentin schrieb sie 2014 ab und nahm sie auf."
+  },
+  {
+   "question": "Welcher spanische König ließ das Gemälde nach El Escorial bringen?",
+   "options": [
+    "Philipp II.",
+    "Karl V.",
+    "Philipp IV."
+   ],
+   "explanation": "Philipp II., ein leidenschaftlicher Bosch-Sammler, ließ es 1593 dorthin bringen."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bosch gab dem Gemälde den Titel Der Garten der Lüste.",
+   "explanation": "Er hat keinen Titel hinterlassen. Frühe spanische Beschreibungen benannten es nach seiner Erdbeere."
+  },
+  {
+   "text": "Bosch nannte sich nach seiner Heimatstadt.",
+   "explanation": "Er wurde als Jheronimus van Aken geboren und signierte nach 's-Hertogenbosch."
+  },
+  {
+   "text": "Dokumente aus Boschs Zeit erklären, was die Mitteltafel bedeutet.",
+   "explanation": "Ein solches Dokument gibt es nicht, und die Forschung ist sich bis heute uneins."
+  }
+ ]
+}
