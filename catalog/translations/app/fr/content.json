@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Renaissance italienne",
+   "period": "XVe-XVIe siècle",
+   "summary": "La perspective et le retour à l'Antiquité",
+   "description": "En Italie, puis dans toute l'Europe, les artistes redécouvrent l'Antiquité, étudient le corps humain et inventent la perspective. Le tableau devient une fenêtre ouverte sur le monde."
+  },
+  "siecledor": {
+   "name": "Siècle d'or néerlandais",
+   "period": "XVIIe siècle",
+   "summary": "La vie de tous les jours et la lumière",
+   "description": "Dans la prospère république des Provinces-Unies, les artistes peignent pour les maisons bourgeoises : intérieurs paisibles, portraits, natures mortes. La lumière devient le vrai sujet."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "XVIIe-XIXe siècle",
+   "summary": "Les estampes du « monde flottant »",
+   "description": "Au Japon, des estampes gravées sur bois et publiées en séries montrent des acteurs, des paysages et des scènes de la vie quotidienne. Leurs aplats de couleur et leurs cadrages audacieux bouleverseront les peintres européens."
+  },
+  "impressionnisme": {
+   "name": "Impressionnisme",
+   "period": "Années 1870-1880",
+   "summary": "Peindre la lumière de l'instant",
+   "description": "Un groupe de peintres quitte l'atelier pour travailler en plein air, par petites touches rapides. Ils ne cherchent plus le détail, mais l'effet de la lumière à un moment précis."
+  },
+  "postimp": {
+   "name": "Postimpressionnisme",
+   "period": "1886-1905",
+   "summary": "La couleur et l'émotion d'abord",
+   "description": "Après l'impressionnisme, chacun cherche sa propre voie. La couleur n'imite plus le réel : elle exprime ce que ressent le peintre."
+  },
+  "secession": {
+   "name": "Art nouveau et Sécession viennoise",
+   "period": "Vers 1900",
+   "summary": "De l'or, des ornements et des courbes",
+   "description": "À Vienne, de jeunes artistes rompent avec l'Académie. Ils mêlent peinture, décor et artisanat, et font de l'ornement un langage à part entière."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "La Nuit étoilée",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Museum of Modern Art, New York",
+   "teaser": "Un ciel qui tourbillonne, peint de mémoire dans une chambre d'asile.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Juin 1889. Vincent van Gogh a 36 ans. Un mois plus tôt, après une grave crise à Arles, il est entré de lui-même à l'asile de Saint-Rémy-de-Provence, dans le sud de la France."
+    },
+    {
+     "type": "text",
+     "text": "Sa chambre donne à l'est. Par la fenêtre, il voit un champ de blé, les collines des Alpilles et, avant l'aube, le ciel. Cette vue, il la peint encore et encore, à toute heure du jour."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh n'a commencé à peindre qu'à 27 ans. En une dizaine d'années, il a réalisé environ 900 tableaux, parfois un par jour."
+    },
+    {
+     "type": "tour",
+     "text": "Voici le plus célèbre de ces ciels. Prends le temps de le regarder, puis touche l'image pour y entrer.",
+     "spots": [
+      {
+       "title": "Le tourbillon",
+       "text": "Au centre, deux grandes vagues s'enroulent l'une dans l'autre. Aucun ciel ne ressemble à ça : il peint ce qu'il ressent, pas ce qu'il voit."
+      },
+      {
+       "title": "La lune",
+       "text": "Un croissant orange dans un halo jaune. On dirait presque un soleil. Van Gogh pose la peinture en petites touches qui tournent autour."
+      },
+      {
+       "title": "L'étoile du matin",
+       "text": "La lumière la plus blanche du tableau. Van Gogh a écrit à son frère qu'il avait vu l'étoile du matin, très grande, avant le lever du soleil. C'est sans doute Vénus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ce tableau n'a pas été peint la nuit, ni devant le paysage. Van Gogh l'a fait en plein jour, dans son atelier de l'asile, de mémoire et d'imagination. C'était inhabituel chez lui : d'ordinaire, il peignait ce qu'il avait sous les yeux."
+    },
+    {
+     "type": "key",
+     "text": "La Nuit étoilée a été peinte de jour, de mémoire. Ce n'est pas une vue. C'est une vision."
+    },
+    {
+     "type": "text",
+     "text": "Il rêvait depuis longtemps de peindre un ciel de nuit. Un an plus tôt, il écrivait que la vue des étoiles le faisait toujours rêver."
+    },
+    {
+     "type": "find",
+     "text": "Un détail de ce paysage vient tout droit de son enfance aux Pays-Bas. Où est le clocher ?",
+     "spots": [
+      {
+       "title": "Le clocher",
+       "text": "Une flèche fine et pointue, comme dans les villages hollandais où Van Gogh a grandi. Les clochers de Provence n'ont pas du tout cette allure."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Le village est inventé lui aussi, ou du moins déplacé : on ne pouvait pas le voir depuis sa fenêtre. Van Gogh assemble un vrai ciel, de vraies collines et un village sorti de sa mémoire."
+    },
+    {
+     "type": "fact",
+     "text": "La fenêtre de sa chambre à l'asile avait des barreaux de fer. Il les a effacés de toutes ses toiles représentant cette vue."
+    },
+    {
+     "type": "lines",
+     "text": "Le tableau a l'air agité. En réalité, il est construit avec soin.",
+     "lines": [
+      {
+       "label": "La verticale du cyprès",
+       "text": "Il traverse toute l'image, du sol jusqu'au bord supérieur, et donne l'échelle : le ciel est immense."
+      },
+      {
+       "label": "Son écho : le clocher",
+       "text": "Une seconde verticale, minuscule, qui répond au cyprès. L'une est naturelle, l'autre bâtie par l'homme."
+      },
+      {
+       "label": "La vague du ciel",
+       "text": "L'œil suit ce S de gauche à droite, jusqu'à la lune."
+      },
+      {
+       "label": "La pente des collines",
+       "text": "Une diagonale qui descend vers le village et l'abrite, comme un bras."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Regarde maintenant la touche. Aucun dégradé lisse. Des coups de pinceau courts et épais se serrent les uns contre les autres, chacun orienté dans une direction. C'est la touche elle-même qui crée le mouvement."
+    },
+    {
+     "type": "text",
+     "text": "Les peintres appellent cette pâte épaisse l'« empâtement ». Van Gogh pressait parfois la couleur presque directement du tube sur la toile. De près, la surface de la toile est rugueuse comme une carte en relief."
+    },
+    {
+     "type": "tour",
+     "title": "De tout près",
+     "text": "Approchons-nous de la peinture elle-même.",
+     "spots": [
+      {
+       "title": "La matière",
+       "text": "Regarde son épaisseur : la peinture forme de petites touches lourdes, presque en relief. C'est ce qu'on appelle l'empâtement."
+      },
+      {
+       "title": "Le cyprès",
+       "text": "Sombre et tordu comme une flamme, il relie la terre au ciel. Dans le Midi, c'est l'arbre des cimetières. Van Gogh le trouvait aussi beau qu'un obélisque égyptien."
+      },
+      {
+       "title": "Les collines",
+       "text": "Les Alpilles. Elles ondulent comme des vagues, emportées par le même mouvement que le ciel."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Le cyprès compte beaucoup. C'est la forme la plus sombre du tableau, et la seule qui touche à la fois le sol et le haut du ciel. Cet été-là, Van Gogh était fasciné par ces arbres."
+    },
+    {
+     "type": "palette",
+     "text": "Du bleu, du jaune, et presque rien d'autre. Touche une couleur.",
+     "swatches": [
+      {
+       "name": "Bleu profond",
+       "text": "La profondeur du ciel et des collines. Van Gogh a utilisé du bleu outremer et du bleu de cobalt."
+      },
+      {
+       "name": "Bleu clair",
+       "text": "Les tourbillons. Posé en touches épaisses, il fait tourner le ciel."
+      },
+      {
+       "name": "Jaune",
+       "text": "La lune, les étoiles, les fenêtres. Une toute petite partie de la surface, et pourtant elle éclaire tout."
+      },
+      {
+       "name": "Noir verdâtre",
+       "text": "Le cyprès et les ombres du village. La masse la plus sombre du tableau."
+      },
+      {
+       "name": "Blanc verdâtre",
+       "text": "Les halos autour des étoiles : c'est grâce à eux qu'elles scintillent."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Sur le cercle chromatique, le bleu et le jaune sont presque face à face. Côte à côte, chacun fait paraître l'autre plus intense. Van Gogh le savait, et il s'en servait pour faire vibrer ses nuits."
+    },
+    {
+     "type": "key",
+     "text": "Deux couleurs opposées, placées côte à côte, se renforcent l'une l'autre. Voilà pourquoi les étoiles jaunes brûlent sur le bleu."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh a raconté à son frère qu'il avait vu l'étoile du matin, très grande. Touche la lumière la plus blanche du tableau.",
+     "spots": [
+      {
+       "title": "L'étoile du matin",
+       "text": "La lumière la plus blanche du tableau. Van Gogh a écrit à son frère qu'il avait vu l'étoile du matin, très grande, avant le lever du soleil. C'est sans doute Vénus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Et lui, qu'en pensait-il ? Pas grand-chose. Dans ses lettres, il parle d'une simple étude de nuit, et il doute de ces toiles peintes d'imagination."
+    },
+    {
+     "type": "fact",
+     "text": "De son vivant, Van Gogh n'a presque rien vendu. Son frère Théo, marchand d'art, le faisait vivre en lui envoyant de l'argent et des couleurs."
+    },
+    {
+     "type": "text",
+     "text": "Il meurt treize mois plus tard, en juillet 1890, à 37 ans. La Nuit étoilée entre au Museum of Modern Art de New York en 1941."
+    },
+    {
+     "type": "key",
+     "text": "Chez Van Gogh, la touche est le sujet : chaque coup de pinceau a une direction, et c'est ce qui met le ciel en mouvement."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Le tourbillon",
+       "text": "Au centre, deux grandes vagues s'enroulent l'une dans l'autre. Aucun ciel ne ressemble à ça : il peint ce qu'il ressent, pas ce qu'il voit."
+      },
+      {
+       "title": "La lune",
+       "text": "Un croissant orange dans un halo jaune. On dirait presque un soleil. Van Gogh pose la peinture en petites touches qui tournent autour."
+      },
+      {
+       "title": "L'étoile du matin",
+       "text": "La lumière la plus blanche du tableau. Van Gogh a écrit à son frère qu'il avait vu l'étoile du matin, très grande, avant le lever du soleil. C'est sans doute Vénus."
+      },
+      {
+       "title": "Le cyprès",
+       "text": "Sombre et tordu comme une flamme, il relie la terre au ciel. Dans le Midi, c'est l'arbre des cimetières. Van Gogh le trouvait aussi beau qu'un obélisque égyptien."
+      },
+      {
+       "title": "Le clocher",
+       "text": "Une flèche fine et pointue, comme dans les villages hollandais où Van Gogh a grandi. Les clochers de Provence n'ont pas du tout cette allure."
+      },
+      {
+       "title": "Le village",
+       "text": "Quelques fenêtres jaunes, allumées. Depuis sa chambre, il ne pouvait pas voir ce village : il l'a ajouté de mémoire."
+      },
+      {
+       "title": "Les collines",
+       "text": "Les Alpilles. Elles ondulent comme des vagues, emportées par le même mouvement que le ciel."
+      },
+      {
+       "title": "La matière",
+       "text": "Regarde son épaisseur : la peinture forme de petites touches lourdes, presque en relief. C'est ce qu'on appelle l'empâtement."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Où se trouvait Van Gogh quand il a peint La Nuit étoilée ?",
+     "options": [
+      "À Paris",
+      "À l'asile de Saint-Rémy-de-Provence",
+      "À Amsterdam"
+     ],
+     "explanation": "Il y était entré de lui-même un mois plus tôt."
+    },
+    {
+     "question": "Comment le tableau a-t-il été peint ?",
+     "options": [
+      "La nuit, devant le paysage",
+      "De jour, de mémoire et d'imagination",
+      "D'après une photographie"
+     ],
+     "explanation": "De jour, dans son atelier de l'asile."
+    },
+    {
+     "question": "Quel détail rappelle les Pays-Bas ?",
+     "options": [
+      "Le cyprès",
+      "Le clocher pointu",
+      "Les collines"
+     ],
+     "explanation": "Une flèche comme celles des villages de son enfance."
+    },
+    {
+     "question": "Qu'est-ce que l'« empâtement » ?",
+     "options": [
+      "Une peinture très épaisse, presque en relief",
+      "Un glacis fin et transparent",
+      "Une esquisse au fusain"
+     ],
+     "explanation": "Des touches courtes et lourdes qui dépassent de la toile."
+    },
+    {
+     "question": "Pourquoi les étoiles jaunes paraissent-elles si lumineuses ?",
+     "options": [
+      "Elles sont peintes à l'or",
+      "Le jaune est placé à côté de son opposé, le bleu",
+      "La toile est éclairée par-derrière"
+     ],
+     "explanation": "Deux couleurs opposées côte à côte se renforcent l'une l'autre."
+    },
+    {
+     "question": "Qu'est-ce que Van Gogh a effacé de ses toiles représentant cette vue ?",
+     "options": [
+      "Les barreaux de sa fenêtre",
+      "La lune",
+      "Les collines"
+     ],
+     "explanation": "La fenêtre de sa chambre à l'asile avait des barreaux de fer."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh a peint La Nuit étoilée en plein air, au milieu de la nuit.",
+     "explanation": "Il l'a peinte de jour, de mémoire, à l'asile de Saint-Rémy."
+    },
+    {
+     "text": "La Nuit étoilée est conservée à New York.",
+     "explanation": "Elle est au MoMA depuis 1941."
+    },
+    {
+     "text": "Van Gogh a vendu beaucoup de tableaux et il est mort riche.",
+     "explanation": "Il n'a presque rien vendu ; c'est son frère Théo qui le faisait vivre."
+    }
+   ]
+  },
+  "perle": {
+   "title": "La Jeune Fille à la perle",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "vers 1665",
+   "museum": "Mauritshuis, La Haye",
+   "teaser": "Un regard par-dessus l'épaule, et personne ne sait qui elle est.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ce visage, tu le connais. Pourtant, ce n'est pas un portrait : personne ne sait qui elle est, et Vermeer n'a sans doute jamais voulu peindre quelqu'un en particulier."
+    },
+    {
+     "type": "text",
+     "text": "Dans les Pays-Bas du XVIIe siècle, ce genre de tableau avait un nom : une « tronie », une étude de visage. Le peintre s'en sert pour explorer une expression, un costume exotique, un effet de lumière. Ici, les trois à la fois."
+    },
+    {
+     "type": "key",
+     "text": "Une tronie est un visage imaginé, un prétexte pour peindre une expression et une lumière. Ce n'est pas le portrait d'une personne réelle."
+    },
+    {
+     "type": "tour",
+     "text": "D'abord, regarde le tableau en entier : un visage qui surgit de l'ombre. Touche l'image pour t'approcher.",
+     "spots": [
+      {
+       "title": "Le regard",
+       "text": "Elle se tourne vers toi comme si tu venais de l'appeler. Un seul point blanc dans chaque œil suffit à le rendre humide et vivant."
+      },
+      {
+       "title": "La bouche",
+       "text": "Entrouverte, comme au milieu d'une phrase. Regarde le minuscule point clair au coin des lèvres : une seule touche de peinture, et la bouche brille."
+      },
+      {
+       "title": "La perle",
+       "text": "Deux touches, pas plus : un reflet blanc en haut, le reflet gris du col en bas. Ni contour, ni crochet. C'est ton œil qui fabrique la perle."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tout le tableau repose sur un seul mouvement : elle se retourne. Son corps est de profil, son visage vient vers nous. On a l'impression de l'avoir surprise, ou qu'elle va s'en aller. C'est ce qui la rend si vivante."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer a passé toute sa vie à Delft, une petite ville hollandaise. Il peignait lentement, avait onze enfants à nourrir et il est mort couvert de dettes à 43 ans."
+    },
+    {
+     "type": "text",
+     "text": "Regarde le turban. Aucune jeune Hollandaise ne s'habillait ainsi. C'est un costume, une touche de cet Orient lointain qui fascinait les peintres de l'époque."
+    },
+    {
+     "type": "find",
+     "text": "Une seule source de lumière éclaire son visage. Où tombe-t-elle ? Touche la partie la plus claire du visage.",
+     "spots": [
+      {
+       "title": "La joue",
+       "text": "La lumière vient de la gauche, un peu d'en haut. Elle frappe le front, la joue et le nez, puis laisse l'autre moitié du visage glisser dans l'ombre."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer ne trace presque aucun contour. Regarde l'arête du nez : il n'y a pas de ligne, seulement une joue claire qui rencontre une ombre. Le visage est fait de lumière, pas de traits."
+    },
+    {
+     "type": "key",
+     "text": "Une lumière venue de la gauche, des ombres douces, aucun contour dur : c'est la signature de Vermeer."
+    },
+    {
+     "type": "lines",
+     "text": "Comment une image aussi simple tient-elle debout ? Trois lignes l'expliquent.",
+     "lines": [
+      {
+       "label": "La lumière",
+       "text": "Elle arrive d'en haut à gauche, comme d'une fenêtre qu'on ne voit pas."
+      },
+      {
+       "label": "Le triangle",
+       "text": "Du sommet du turban jusqu'aux deux épaules : une forme stable, bien ancrée, qui équilibre la rotation de la tête."
+      },
+      {
+       "label": "La retombée",
+       "text": "Le tissu jaune tombe à droite et fait contrepoids au visage tourné vers la gauche."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Passons au bleu. Vermeer utilisait de l'outremer naturel, obtenu en broyant du lapis-lazuli. Il coûtait si cher que la plupart des peintres le réservaient au manteau de la Vierge. Lui en mettait partout, jusque dans les ombres."
+    },
+    {
+     "type": "fact",
+     "text": "Le lapis-lazuli venait de mines situées dans l'actuel Afghanistan. Le mot « outremer » veut dire « d'au-delà des mers »."
+    },
+    {
+     "type": "palette",
+     "text": "Cinq couleurs composent presque tout le tableau. Touches-en une pour voir où elle se cache.",
+     "swatches": [
+      {
+       "name": "Le fond sombre",
+       "text": "Plus de la moitié de la surface. Autrefois un rideau vert foncé, aujourd'hui presque noir."
+      },
+      {
+       "name": "Outremer",
+       "text": "Le bleu du lapis-lazuli. Il occupe très peu de place, et pourtant on ne voit que lui."
+      },
+      {
+       "name": "Ocre brun",
+       "text": "Les ombres de la veste et du tissu jaune : une terre chaude et bon marché."
+      },
+      {
+       "name": "Le rose de la peau",
+       "text": "La zone la plus claire du tableau. C'est là que notre regard va en premier."
+      },
+      {
+       "name": "Jaune",
+       "text": "Sur la veste et la retombée du turban. Il répond au bleu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "En 1994, le tableau a été restauré. Sous un vernis jauni, les restaurateurs ont retrouvé des couleurs plus fraîches, et ce petit point clair au coin des lèvres que plus personne ne voyait."
+    },
+    {
+     "type": "text",
+     "text": "Et le fond ? Aujourd'hui, il paraît noir et plat. Les analyses scientifiques ont montré que Vermeer y avait peint un rideau vert foncé. Les pigments verts se sont dégradés avec le temps."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer a signé ce tableau. Mais où ? Regarde bien, c'est presque invisible.",
+     "spots": [
+      {
+       "title": "La signature",
+       "text": "« IVMeer », en haut à gauche. Peinte dans un ton clair sur le fond sombre, elle s'est presque effacée avec le temps."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Et cette perle, en est-ce vraiment une ? Elle est énorme. Certains spécialistes pensent qu'il s'agissait de verre verni ou d'étain poli. Peu importe : en peinture, c'est une goutte de lumière, et Vermeer n'en demandait pas plus."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer ne peint pas les objets. Il peint la lumière qui tombe dessus. La perle, ce sont deux touches de blanc."
+    },
+    {
+     "type": "text",
+     "text": "On ne connaît qu'environ 37 tableaux de Vermeer. Après sa mort, il est resté presque oublié pendant deux siècles."
+    },
+    {
+     "type": "fact",
+     "text": "En 1881, un collectionneur a acheté ce tableau aux enchères pour deux florins, presque rien. Il l'a légué au musée du Mauritshuis en 1902."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Le regard",
+       "text": "Elle se tourne vers toi comme si tu venais de l'appeler. Un seul point blanc dans chaque œil suffit à le rendre humide et vivant."
+      },
+      {
+       "title": "La bouche",
+       "text": "Entrouverte, comme au milieu d'une phrase. Regarde le minuscule point clair au coin des lèvres : une seule touche de peinture, et la bouche brille."
+      },
+      {
+       "title": "La perle",
+       "text": "Deux touches, pas plus : un reflet blanc en haut, le reflet gris du col en bas. Ni contour, ni crochet. C'est ton œil qui fabrique la perle."
+      },
+      {
+       "title": "Le turban bleu",
+       "text": "Du véritable outremer, tiré du lapis-lazuli, une pierre venue de loin, d'Afghanistan. À l'époque, ce pigment coûtait plus cher que l'or."
+      },
+      {
+       "title": "La retombée jaune",
+       "text": "Le tissu jaune descend dans son dos comme une flamme. Bleu et jaune : Vermeer adorait ce duo et l'a repris de tableau en tableau."
+      },
+      {
+       "title": "Le col blanc",
+       "text": "Une bande blanche posée d'un seul geste. C'est ce col qui se reflète au bas de la perle."
+      },
+      {
+       "title": "La signature",
+       "text": "« IVMeer », en haut à gauche. Peinte dans un ton clair sur le fond sombre, elle s'est presque effacée avec le temps."
+      },
+      {
+       "title": "Le fond",
+       "text": "Il n'a pas toujours été noir. Les analyses montrent que Vermeer avait peint ici un rideau vert foncé. Le vert a disparu au fil des siècles."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Qu'est-ce qu'une « tronie » ?",
+     "options": [
+      "Un portrait de commande",
+      "Une étude de visage imaginé",
+      "Un autoportrait"
+     ],
+     "explanation": "Un prétexte pour peindre une expression et une lumière, pas une personne réelle."
+    },
+    {
+     "question": "D'où vient le bleu du turban ?",
+     "options": [
+      "D'une plante, l'indigo",
+      "D'une pierre, le lapis-lazuli",
+      "D'un coquillage"
+     ],
+     "explanation": "Le lapis-lazuli broyé donne l'outremer naturel, plus cher que l'or à l'époque."
+    },
+    {
+     "question": "Comment la perle est-elle peinte ?",
+     "options": [
+      "Avec un contour précis et un crochet",
+      "Avec deux touches claires, sans contour",
+      "Avec une feuille d'argent"
+     ],
+     "explanation": "Un reflet blanc, un reflet gris : ton œil fait le reste."
+    },
+    {
+     "question": "D'où vient la lumière ?",
+     "options": [
+      "De la gauche",
+      "De la droite",
+      "D'en bas"
+     ],
+     "explanation": "D'en haut à gauche, comme d'une fenêtre invisible."
+    },
+    {
+     "question": "Qu'y avait-il à l'origine dans le fond ?",
+     "options": [
+      "Un rideau vert foncé",
+      "Une fenêtre",
+      "Un mur doré"
+     ],
+     "explanation": "Les pigments verts se sont dégradés au fil des siècles."
+    },
+    {
+     "question": "Où Vermeer a-t-il passé toute sa vie ?",
+     "options": [
+      "Amsterdam",
+      "Delft",
+      "La Haye"
+     ],
+     "explanation": "Il a vécu et travaillé dans la petite ville de Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "On connaît le nom de la jeune fille qui a posé.",
+     "explanation": "On ignore qui elle est : le tableau est une tronie."
+    },
+    {
+     "text": "Le bleu du turban vient d'une pierre, le lapis-lazuli.",
+     "explanation": "Une fois broyé, il donne l'outremer naturel."
+    },
+    {
+     "text": "La perle est peinte avec un contour soigné et détaillé.",
+     "explanation": "Ce ne sont que deux touches de peinture claire, sans aucun contour."
+    }
+   ]
+  },
+  "vague": {
+   "title": "La Grande Vague de Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "vers 1831",
+   "museum": "Estampe · nombreux tirages",
+   "teaser": "Une vague géante et, tout au fond, minuscule, le mont Fuji.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Ce n'est pas une peinture. C'est une estampe : une image gravée dans des planches de bois, encrée, puis pressée sur du papier. Il n'existe donc pas une Grande Vague, mais des milliers."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai la publie vers 1831. Il a environ 70 ans et dessine depuis l'enfance. Elle ouvre une série devenue célèbre : les Trente-six vues du mont Fuji."
+    },
+    {
+     "type": "key",
+     "text": "La Grande Vague est une estampe sur bois, tirée à des milliers d'exemplaires. Beaucoup de musées dans le monde en possèdent une."
+    },
+    {
+     "type": "fact",
+     "text": "Une estampe comme celle-ci ne coûtait pas cher. À l'époque d'Hokusai, on la payait à peu près le prix d'un bol de nouilles."
+    },
+    {
+     "type": "find",
+     "text": "La série s'appelle les Trente-six vues du mont Fuji. Alors, où est le mont Fuji ?",
+     "spots": [
+      {
+       "title": "Le mont Fuji",
+       "text": "Le vrai sujet de l'estampe est là, minuscule. La montagne sacrée du Japon, coiffée de neige, parfaitement immobile au milieu de la tempête."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "C'est le coup de génie : la plus haute montagne du Japon est plus petite que la vague. Hokusai joue avec la distance. Ce qui est proche écrase ce qui est loin, comme sur une photo prise au grand-angle."
+    },
+    {
+     "type": "text",
+     "text": "Le mont Fuji était sacré. On croyait qu'il renfermait le secret de l'immortalité. Hokusai en était obsédé et l'a dessiné sous tous les angles, par tous les temps."
+    },
+    {
+     "type": "tour",
+     "text": "Parcourons l'image comme le fait l'œil.",
+     "spots": [
+      {
+       "title": "L'écume",
+       "text": "Regarde la pointe de la vague : l'écume se termine en doigts crochus, comme des griffes sur le point de se refermer sur les barques."
+      },
+      {
+       "title": "Les rameurs",
+       "text": "Des pêcheurs courbés sur leurs rames, tête baissée. Ces barques rapides apportaient le poisson frais à Edo, la ville qu'on appelle aujourd'hui Tokyo."
+      },
+      {
+       "title": "La petite vague",
+       "text": "Au premier plan, une vague plus petite. Regarde sa forme : pointue, blanche au sommet. C'est un second mont Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Au Japon, on lit de droite à gauche. L'œil entre donc par la droite, avec les barques, et fonce droit dans la vague. Pour un spectateur japonais, la vague arrive de face."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai a changé de nom plus de trente fois au cours de sa vie. L'un de ses derniers noms signifiait « le Vieux Fou de dessin »."
+    },
+    {
+     "type": "lines",
+     "text": "Une image simple, calculée au millimètre.",
+     "lines": [
+      {
+       "label": "La courbe",
+       "text": "La vague trace un grand arc qui se referme sur lui-même. Toute la moitié gauche de l'image est prise dedans."
+      },
+      {
+       "label": "Le triangle du Fuji",
+       "text": "Petit, stable, pointu. Il se loge exactement dans le creux de la vague."
+      },
+      {
+       "label": "Son double",
+       "text": "La petite vague du premier plan reprend la forme de la montagne. L'eau imite la pierre."
+      },
+      {
+       "label": "Le sens de lecture",
+       "text": "De droite à gauche : on glisse sur la houle jusqu'au Fuji, puis on lève les yeux vers la vague."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Comment l'a-t-on fabriquée ? Hokusai a dessiné l'image sur un papier fin. Un graveur a collé le dessin sur une planche de cerisier et a creusé tout ce qui n'était pas un trait. Puis un imprimeur a encré la planche et y a pressé la feuille."
+    },
+    {
+     "type": "text",
+     "text": "Chaque couleur demandait sa propre planche gravée, imprimée l'une après l'autre sur la même feuille. Voilà pourquoi les estampes utilisent si peu de couleurs."
+    },
+    {
+     "type": "key",
+     "text": "Une planche par couleur : moins il y a de couleurs, plus l'estampe est simple. Hokusai fait de cette contrainte un style."
+    },
+    {
+     "type": "palette",
+     "text": "Très peu de couleurs, car chacune exige sa propre planche gravée. Touches-en une.",
+     "swatches": [
+      {
+       "name": "Le papier",
+       "text": "La couleur la plus présente n'est pas imprimée du tout : c'est le papier nu, laissé en réserve pour l'écume et la neige."
+      },
+      {
+       "name": "Bleu de Prusse",
+       "text": "Le bleu venu d'Europe. Il dessine la vague, ses stries et ses creux."
+      },
+      {
+       "name": "Bleu clair",
+       "text": "Le même bleu, dilué. Il donne du volume à l'eau."
+      },
+      {
+       "name": "Le ciel teinté",
+       "text": "Un beige à peine plus foncé que le papier, qui fait ressortir le blanc de l'écume."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Parlons de ce bleu. C'est du bleu de Prusse, un pigment chimique inventé en Europe et tout juste importé au Japon. Il est profond, il ne pâlit pas, et il a fait sensation. La série lui doit une bonne part de son succès."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai a signé son image. Où ça ? Indice : pas dans le coin en bas à droite.",
+     "spots": [
+      {
+       "title": "Le cartouche",
+       "text": "Dans le cadre : le titre de la série et celui de l'image, « Sous la vague au large de Kanagawa ». À sa gauche : la signature d'Hokusai."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Dans les années 1850, le Japon s'ouvre au commerce, et ses estampes arrivent en Europe. Les peintres français sont stupéfaits : des aplats de couleur, des contours nets, des cadrages audacieux. Monet les collectionne. Van Gogh les copie."
+    },
+    {
+     "type": "key",
+     "text": "Cet engouement porte un nom : le japonisme. Sans les estampes japonaises, l'impressionnisme n'aurait pas eu le même visage."
+    },
+    {
+     "type": "text",
+     "text": "Une dernière chose : ce n'est pas un tsunami. C'est une vague du large, énorme mais ordinaire, de celles que redoutaient les pêcheurs. Hokusai ne montre pas une catastrophe. Il montre des hommes minuscules face à la nature."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Le mont Fuji",
+       "text": "Le vrai sujet de l'estampe est là, minuscule. La montagne sacrée du Japon, coiffée de neige, parfaitement immobile au milieu de la tempête."
+      },
+      {
+       "title": "L'écume",
+       "text": "Regarde la pointe de la vague : l'écume se termine en doigts crochus, comme des griffes sur le point de se refermer sur les barques."
+      },
+      {
+       "title": "Les rameurs",
+       "text": "Des pêcheurs courbés sur leurs rames, tête baissée. Ces barques rapides apportaient le poisson frais à Edo, la ville qu'on appelle aujourd'hui Tokyo."
+      },
+      {
+       "title": "La petite vague",
+       "text": "Au premier plan, une vague plus petite. Regarde sa forme : pointue, blanche au sommet. C'est un second mont Fuji."
+      },
+      {
+       "title": "Le cartouche",
+       "text": "Dans le cadre : le titre de la série et celui de l'image, « Sous la vague au large de Kanagawa ». À sa gauche : la signature d'Hokusai."
+      },
+      {
+       "title": "La barque du bas",
+       "text": "Elle plonge dans le creux. Il y a trois barques en tout, et une trentaine d'hommes."
+      },
+      {
+       "title": "Le ciel",
+       "text": "Presque vide. Un simple dégradé, obtenu en essuyant l'encre sur la planche avant l'impression."
+      },
+      {
+       "title": "Les embruns",
+       "text": "Des points blancs tombent au-dessus du Fuji. On dirait de la neige sur la montagne."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Qu'est-ce que La Grande Vague ?",
+     "options": [
+      "Une peinture à l'huile",
+      "Une estampe sur bois",
+      "Une aquarelle"
+     ],
+     "explanation": "Une estampe, tirée à des milliers d'exemplaires."
+    },
+    {
+     "question": "À quelle série appartient-elle ?",
+     "options": [
+      "Cent vues d'Edo",
+      "Trente-six vues du mont Fuji",
+      "Les Quatre Saisons"
+     ],
+     "explanation": "Elle ouvre la série d'Hokusai consacrée au mont Fuji."
+    },
+    {
+     "question": "D'où vient le bleu de la vague ?",
+     "options": [
+      "Du lapis-lazuli",
+      "Du bleu de Prusse, importé d'Europe",
+      "De coquillages broyés"
+     ],
+     "explanation": "Un pigment chimique tout nouveau au Japon, profond et stable."
+    },
+    {
+     "question": "Quelle forme la petite vague du premier plan reprend-elle ?",
+     "options": [
+      "Le mont Fuji",
+      "Une barque",
+      "Un nuage"
+     ],
+     "explanation": "L'eau imite la montagne."
+    },
+    {
+     "question": "Pourquoi les estampes utilisent-elles si peu de couleurs ?",
+     "options": [
+      "Les couleurs étaient interdites",
+      "Chaque couleur demande sa propre planche gravée",
+      "Le papier ne retenait pas l'encre"
+     ],
+     "explanation": "Une planche par couleur, imprimées l'une après l'autre."
+    },
+    {
+     "question": "Comment appelle-t-on l'engouement européen pour les estampes japonaises ?",
+     "options": [
+      "Le japonisme",
+      "L'orientalisme",
+      "Le cubisme"
+     ],
+     "explanation": "Monet collectionnait les estampes, Van Gogh les copiait."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Il n'existe qu'un seul exemplaire de La Grande Vague.",
+     "explanation": "C'est une estampe : on en a tiré des milliers d'exemplaires."
+    },
+    {
+     "text": "Hokusai avait environ 70 ans quand il l'a réalisée.",
+     "explanation": "Il est né en 1760, et la série a paru vers 1831."
+    },
+    {
+     "text": "La Grande Vague représente un tsunami.",
+     "explanation": "C'est une grosse vague du large, pas un tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Nymphéas",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "Plus d'horizon : rien que l'eau, les fleurs et le ciel qui s'y reflète.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "À Giverny, Monet a fait creuser un bassin dans son jardin et y a planté des nymphéas. Ce bassin est devenu son sujet pendant près de trente ans."
+    },
+    {
+     "type": "image",
+     "caption": "Détail · les fleurs posées sur l'eau."
+    },
+    {
+     "type": "text",
+     "text": "Regarde bien : il n'y a ni rive ni horizon. On ne sait plus où finit l'eau et où commence le reflet du ciel."
+    },
+    {
+     "type": "key",
+     "text": "Sans horizon, le tableau devient une surface : on regarde l'eau comme on regarderait le ciel."
+    },
+    {
+     "type": "fact",
+     "text": "Monet employait des jardiniers pour entretenir le bassin. L'un d'eux nettoyait la surface de l'eau chaque matin, avant qu'il ne se mette à peindre."
+    },
+    {
+     "type": "text",
+     "text": "Monet a peint environ 250 toiles de nymphéas. Les mêmes fleurs, mais jamais la même lumière."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Où Monet a-t-il peint ses nymphéas ?",
+     "options": [
+      "À Giverny",
+      "À Paris",
+      "À Venise"
+     ],
+     "explanation": "Dans le jardin de sa propre maison."
+    },
+    {
+     "question": "Qu'est-ce qui manque dans ce tableau ?",
+     "options": [
+      "L'eau",
+      "L'horizon",
+      "Les fleurs"
+     ],
+     "explanation": "Ni rive ni ciel : seulement la surface de l'eau."
+    },
+    {
+     "question": "Combien de tableaux de nymphéas a-t-il peints ?",
+     "options": [
+      "Une dizaine",
+      "Environ 250",
+      "Plus de 2 000"
+     ],
+     "explanation": "Une immense série, sur près de trente ans."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet n'a peint ses nymphéas qu'une seule fois.",
+     "explanation": "Il en a peint environ 250 versions."
+    },
+    {
+     "text": "Le bassin aux nymphéas se trouvait dans le jardin de Monet.",
+     "explanation": "À Giverny, où il l'avait fait creuser."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impression, soleil levant",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Paris",
+   "teaser": "Le tableau qui a donné son nom à tout un mouvement, par moquerie.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Le port du Havre, un matin de brume. Monet pose quelques touches rapides : des bateaux, des mâts et un soleil orange."
+    },
+    {
+     "type": "image",
+     "caption": "Détail · le soleil et son reflet."
+    },
+    {
+     "type": "text",
+     "text": "En 1874, la toile est exposée à Paris. Un critique, Louis Leroy, se moque du titre et traite ces peintres d'« impressionnistes »."
+    },
+    {
+     "type": "key",
+     "text": "Le mot « impressionnisme » vient de ce tableau. C'était une insulte, c'est devenu un nom."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre est la ville où Monet a grandi. Adolescent, il s'y était fait connaître pour ses caricatures."
+    },
+    {
+     "type": "text",
+     "text": "Le tableau a aussi été volé, en 1985, au musée Marmottan. On l'a retrouvé cinq ans plus tard."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Quel port Monet a-t-il peint ?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Venise"
+     ],
+     "explanation": "La ville où il a grandi."
+    },
+    {
+     "question": "À quoi ce tableau a-t-il donné son nom ?",
+     "options": [
+      "À l'impressionnisme",
+      "À un musée",
+      "À un prix"
+     ],
+     "explanation": "Un critique s'est moqué du titre, et le mot est resté."
+    },
+    {
+     "question": "En quelle année a-t-il été exposé à Paris ?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Cette année-là, un critique, Louis Leroy, s'en est moqué."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Le mot « impressionniste » était au départ une insulte.",
+     "explanation": "Il vient d'un article du critique Louis Leroy."
+    },
+    {
+     "text": "Ce tableau représente le port de Marseille.",
+     "explanation": "C'est le port du Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Le Baiser",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvédère, Vienne",
+   "teaser": "Deux amants enveloppés d'or, au bord d'un pré en fleurs.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt est en pleine « période dorée ». Il applique de la vraie feuille d'or sur la toile, comme sur une icône religieuse."
+    },
+    {
+     "type": "image",
+     "caption": "Détail · les deux visages."
+    },
+    {
+     "type": "text",
+     "text": "Regarde les vêtements. La robe de l'homme est couverte de rectangles noirs et blancs. Celle de la femme, de cercles et de fleurs."
+    },
+    {
+     "type": "image",
+     "caption": "Détail · rectangles et cercles."
+    },
+    {
+     "type": "key",
+     "text": "Des rectangles pour lui, des cercles pour elle : les motifs racontent l'histoire du couple."
+    },
+    {
+     "type": "fact",
+     "text": "Le père de Klimt était graveur sur or. Le peintre a grandi au milieu de ce métal qu'il allait plus tard poser sur ses toiles."
+    },
+    {
+     "type": "text",
+     "text": "L'État autrichien a acheté le tableau en 1908, avant même qu'il soit tout à fait terminé."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Quel matériau Klimt a-t-il utilisé ?",
+     "options": [
+      "La nacre",
+      "La feuille d'or",
+      "Le bronze"
+     ],
+     "explanation": "C'est la marque de sa période dorée."
+    },
+    {
+     "question": "Quels motifs couvrent la robe de l'homme ?",
+     "options": [
+      "Des cercles",
+      "Des fleurs",
+      "Des rectangles"
+     ],
+     "explanation": "Les cercles et les fleurs sont pour la femme."
+    },
+    {
+     "question": "Qui a acheté le tableau en 1908 ?",
+     "options": [
+      "L'État autrichien",
+      "Un collectionneur français",
+      "Le père de Klimt"
+     ],
+     "explanation": "Avant même qu'il soit tout à fait terminé."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt a utilisé de la vraie feuille d'or.",
+     "explanation": "Comme dans plusieurs toiles de sa période dorée."
+    },
+    {
+     "text": "Le Baiser est conservé à Paris.",
+     "explanation": "Il se trouve à Vienne, au Belvédère."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Les Tournesols",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Londres",
+   "teaser": "Du jaune sur du jaune : un bouquet peint pour accueillir un ami.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Août 1888, à Arles. Van Gogh attend son ami Paul Gauguin et veut décorer sa chambre avec des tournesols."
+    },
+    {
+     "type": "image",
+     "caption": "Détail · des fleurs à tous les stades."
+    },
+    {
+     "type": "text",
+     "text": "Il ose une seule couleur, ou presque : fleurs jaunes, vase jaune, fond jaune. Tout repose sur les nuances et sur l'épaisseur de la peinture."
+    },
+    {
+     "type": "key",
+     "text": "Un tableau presque monochrome : le jaune sous toutes ses formes."
+    },
+    {
+     "type": "fact",
+     "text": "Les tournesols fanent vite. Van Gogh devait peindre rapidement, dès le lever du soleil, avant que les fleurs ne s'affaissent."
+    },
+    {
+     "type": "text",
+     "text": "Il existe plusieurs versions de ces tournesols. Certaines fleurs sont encore en bouton, d'autres déjà fanées : le bouquet raconte aussi le temps qui passe."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Les tournesols devaient décorer la chambre de qui ?",
+     "options": [
+      "De Paul Gauguin",
+      "De Claude Monet",
+      "De son frère Théo"
+     ],
+     "explanation": "Van Gogh l'attendait à Arles."
+    },
+    {
+     "question": "Dans quelle ville les a-t-il peints ?",
+     "options": [
+      "Paris",
+      "Arles",
+      "Amsterdam"
+     ],
+     "explanation": "Dans le sud de la France, en août 1888."
+    },
+    {
+     "question": "Qu'ont de particulier les couleurs ?",
+     "options": [
+      "Presque tout est jaune",
+      "Il n'y a pas de jaune du tout",
+      "Tout est en noir et blanc"
+     ],
+     "explanation": "Fleurs jaunes, vase jaune, fond jaune."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Il existe plusieurs versions des Tournesols.",
+     "explanation": "Van Gogh en a peint toute une série."
+    },
+    {
+     "text": "Van Gogh a vendu ses Tournesols une fortune de son vivant.",
+     "explanation": "De son vivant, il n'a presque rien vendu."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "La Joconde",
+   "artist": "Léonard de Vinci",
+   "yearLabel": "vers 1503–1519",
+   "museum": "Musée du Louvre, Paris",
+   "teaser": "Le sourire le plus célèbre du monde tient à des contours qu'on ne voit pas.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "C'est le tableau le plus célèbre du monde, et il est petit : 77 sur 53 centimètres, peint sur un panneau de bois de peuplier. Beaucoup de visiteurs du Louvre sont surpris par sa taille."
+    },
+    {
+     "type": "text",
+     "text": "Vers 1503, à Florence, un marchand de soie nommé Francesco del Giocondo demande à Léonard de Vinci de peindre son épouse, Lisa Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "La Joconde est le portrait de Lisa Gherardini, l'épouse d'un marchand florentin. Dans son autre nom, Mona Lisa, « Mona » veut simplement dire « Madame »."
+    },
+    {
+     "type": "fact",
+     "text": "Léonard n'était pas seulement peintre. Il était aussi ingénieur, anatomiste et inventeur, et il a laissé des milliers de pages de carnets écrites en écriture inversée, à lire dans un miroir."
+    },
+    {
+     "type": "tour",
+     "text": "Regarde-la dans son ensemble. Puis approche-toi de ce qui en a fait une légende.",
+     "spots": [
+      {
+       "title": "Le sourire",
+       "text": "Cherche le trait qui dessine les lèvres : il n'y en a pas. Les coins de la bouche se perdent dans l'ombre. C'est pour ça que le sourire semble changer."
+      },
+      {
+       "title": "Les yeux",
+       "text": "Même astuce : les coins des yeux se fondent dans l'ombre. Remarque aussi qu'elle n'a ni sourcils ni cils."
+      },
+      {
+       "title": "Les mains",
+       "text": "Posées l'une sur l'autre, détendues. Léonard disséquait des corps pour comprendre les os et les muscles : ces mains ont un poids."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ce flou a un nom : le sfumato, de l'italien « fumo », la fumée. Léonard superpose des dizaines de couches de peinture très fines, presque transparentes. Les contours disparaissent et les formes se fondent les unes dans les autres."
+    },
+    {
+     "type": "key",
+     "text": "Le sfumato, ce sont des contours doux, comme voilés de fumée. C'est lui qui rend ce sourire impossible à saisir."
+    },
+    {
+     "type": "text",
+     "text": "Fais l'essai. Regarde ses yeux, et la bouche semble sourire. Regarde la bouche en face, et le sourire s'efface. Ce sont les ombres au coin des lèvres qui font tout."
+    },
+    {
+     "type": "find",
+     "text": "Il manque quelque chose sur ce visage. Touche l'endroit où ça devrait se trouver.",
+     "spots": [
+      {
+       "title": "Les sourcils",
+       "text": "Elle n'a ni sourcils ni cils. Mode de l'époque, ou peinture usée par d'anciens nettoyages ? Les spécialistes en débattent encore."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Regarde maintenant la pose. Avant Léonard, on peignait surtout les portraits de profil, ou coupés à hauteur de poitrine. Lui montre son modèle jusqu'à la taille, tourné de trois quarts vers nous, les mains comprises."
+    },
+    {
+     "type": "fact",
+     "text": "Le jeune Raphaël a vu le portrait dans l'atelier de Léonard et en a aussitôt repris la pose dans ses propres œuvres."
+    },
+    {
+     "type": "lines",
+     "text": "Une pose calme, un paysage étrange. Vois comment tout est construit.",
+     "lines": [
+      {
+       "label": "La pyramide",
+       "text": "La tête au sommet, les bras et les mains à la base. Une forme large et stable : elle ne bouge pas, elle est installée."
+      },
+      {
+       "label": "L'horizon à gauche",
+       "text": "À gauche, la ligne d'eau du paysage se situe à peu près ici."
+      },
+      {
+       "label": "L'horizon à droite",
+       "text": "À droite, elle est plus haute. Les deux moitiés du paysage ne se raccordent pas, et c'est en partie de là que vient l'étrangeté du tableau."
+      },
+      {
+       "label": "Le chemin",
+       "text": "Une ligne sinueuse qui entraîne l'œil vers le lointain, comme les rivières sur la droite."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ce paysage n'existe nulle part. C'est un monde rêvé, fait de rochers, d'eau et de brume, sans maisons ni personne. Une seule chose y a été construite par l'homme."
+    },
+    {
+     "type": "find",
+     "text": "Dans ce paysage désert, il n'y a qu'un seul ouvrage humain. Où est le pont ?",
+     "spots": [
+      {
+       "title": "Le pont",
+       "text": "Un petit pont de pierre à plusieurs arches. C'est la seule trace de présence humaine dans tout le paysage."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Le fond obéit à une règle que Léonard a lui-même mise par écrit : la perspective atmosphérique. L'air n'est jamais parfaitement transparent. Plus une chose est loin, plus elle paraît bleue, pâle et brumeuse."
+    },
+    {
+     "type": "key",
+     "text": "Perspective atmosphérique : au loin, tout paraît plus bleu, plus pâle et plus flou. Léonard a été l'un des premiers à la peindre délibérément."
+    },
+    {
+     "type": "palette",
+     "text": "Des bruns, des verts, un peu d'or. Les vieux vernis ont tout jauni. Touche une couleur.",
+     "swatches": [
+      {
+       "name": "Les ombres",
+       "text": "La robe, les cheveux, le voile. Près de la moitié du tableau baigne dans la pénombre."
+      },
+      {
+       "name": "La peau",
+       "text": "Le visage, la poitrine, les mains : les trois zones claires, disposées en triangle."
+      },
+      {
+       "name": "Le ciel gris-vert",
+       "text": "À l'origine, il était plus bleu. Le vernis jauni l'a fait tirer vers le vert."
+      },
+      {
+       "name": "La terre brune",
+       "text": "Les rochers et les chemins du paysage, de part et d'autre de ses épaules."
+      },
+      {
+       "name": "Le lointain vert",
+       "text": "L'eau et les montagnes, adoucies par la distance."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Léonard n'a jamais livré le tableau. Il l'a gardé, l'a retouché pendant des années et l'a emporté en France quand le roi François Ier l'y a invité. À sa mort, en 1519, le portrait est entré dans les collections royales. Voilà pourquoi il est au Louvre."
+    },
+    {
+     "type": "text",
+     "text": "Longtemps, il n'a été qu'un chef-d'œuvre parmi d'autres. Sa gloire mondiale, il la doit à un crime : le 21 août 1911, un ouvrier italien, Vincenzo Peruggia, l'a décroché du mur et il est sorti avec, caché sous sa blouse."
+    },
+    {
+     "type": "fact",
+     "text": "Pendant la disparition du tableau, des foules ont fait la queue au Louvre rien que pour voir l'emplacement vide sur le mur."
+    },
+    {
+     "type": "text",
+     "text": "Les journaux du monde entier ont publié son image. Quand on l'a retrouvée à Florence en 1913, la Joconde n'était plus seulement un tableau. C'était une star."
+    },
+    {
+     "type": "key",
+     "text": "La Joconde doit son génie à Léonard, et sa célébrité à un vol."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Le sourire",
+       "text": "Cherche le trait qui dessine les lèvres : il n'y en a pas. Les coins de la bouche se perdent dans l'ombre. C'est pour ça que le sourire semble changer."
+      },
+      {
+       "title": "Les yeux",
+       "text": "Même astuce : les coins des yeux se fondent dans l'ombre. Remarque aussi qu'elle n'a ni sourcils ni cils."
+      },
+      {
+       "title": "Les mains",
+       "text": "Posées l'une sur l'autre, détendues. Léonard disséquait des corps pour comprendre les os et les muscles : ces mains ont un poids."
+      },
+      {
+       "title": "Le pont",
+       "text": "Un petit pont de pierre à plusieurs arches. C'est la seule trace de présence humaine dans tout le paysage."
+      },
+      {
+       "title": "Le chemin",
+       "text": "Un chemin qui serpente vers un lac. Ce paysage n'existe pas : Léonard l'invente à partir de ses études de rochers et d'eau."
+      },
+      {
+       "title": "Le voile",
+       "text": "Un voile transparent couvre ses cheveux. Il est si fin qu'on le distingue à peine sur son front."
+      },
+      {
+       "title": "Le lointain",
+       "text": "Plus les montagnes sont loin, plus elles deviennent bleues et brumeuses. Léonard avait remarqué que l'air lui-même a une couleur."
+      },
+      {
+       "title": "La manche",
+       "text": "Des plis dorés et serrés, peints un à un. La robe est sombre et elle ne porte aucun bijou : rien ne doit détourner l'attention du visage."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Qui est la femme du portrait ?",
+     "options": [
+      "Une reine de France",
+      "Lisa Gherardini, épouse d'un marchand florentin",
+      "La mère de Léonard"
+     ],
+     "explanation": "C'est son mari, Francesco del Giocondo, qui a commandé le portrait."
+    },
+    {
+     "question": "Comment s'appelle la technique des contours doux, comme voilés de fumée ?",
+     "options": [
+      "L'empâtement",
+      "Le sfumato",
+      "Le pointillisme"
+     ],
+     "explanation": "De « fumo », la fumée en italien."
+    },
+    {
+     "question": "Sur quel support la Joconde est-elle peinte ?",
+     "options": [
+      "Une toile de lin",
+      "Un panneau de bois de peuplier",
+      "Un mur de plâtre"
+     ],
+     "explanation": "Un panneau de peuplier de 77 sur 53 centimètres."
+    },
+    {
+     "question": "Que deviennent les choses au loin ?",
+     "options": [
+      "Elles deviennent plus vives",
+      "Elles deviennent plus bleues, plus pâles et plus brumeuses",
+      "Leurs contours deviennent plus nets"
+     ],
+     "explanation": "C'est la perspective atmosphérique."
+    },
+    {
+     "question": "Pourquoi le tableau est-il en France ?",
+     "options": [
+      "Napoléon l'a rapporté d'Italie",
+      "Léonard l'a apporté et il est entré dans les collections royales",
+      "Le Louvre l'a acheté en 1911"
+     ],
+     "explanation": "Léonard est venu en France à l'invitation du roi François Ier."
+    },
+    {
+     "question": "Qu'est-ce qui a rendu la Joconde célèbre dans le monde entier ?",
+     "options": [
+      "Son vol au Louvre en 1911",
+      "Une exposition à New York",
+      "Sa restauration"
+     ],
+     "explanation": "Volée par Vincenzo Peruggia, retrouvée en 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "La Joconde est peinte sur toile.",
+     "explanation": "Elle est peinte sur un panneau de bois de peuplier."
+    },
+    {
+     "text": "La Joconde a été volée au Louvre en 1911.",
+     "explanation": "On l'a retrouvée deux ans plus tard."
+    },
+    {
+     "text": "La Joconde a des sourcils épais et foncés.",
+     "explanation": "Elle n'a ni sourcils ni cils."
+    }
+   ]
+  }
+ }
+}

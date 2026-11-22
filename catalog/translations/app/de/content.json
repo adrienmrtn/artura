@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Renaissance",
+   "period": "15. bis 16. Jahrhundert",
+   "summary": "Perspektive und die Rückkehr zur Antike",
+   "description": "Erst in Italien, dann in ganz Europa entdecken die Künstler die Antike wieder, studieren den menschlichen Körper und erfinden die Perspektive. Das Gemälde wird zum Fenster in die Welt."
+  },
+  "siecledor": {
+   "name": "Goldenes Zeitalter der Niederlande",
+   "period": "17. Jahrhundert",
+   "summary": "Der Alltag und das Licht",
+   "description": "In der wohlhabenden Republik der Niederlande malen die Künstler für bürgerliche Häuser: stille Interieurs, Porträts, Stillleben. Das eigentliche Thema ist das Licht."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "17. bis 19. Jahrhundert",
+   "summary": "Bilder der „fließenden Welt“",
+   "description": "In Japan zeigen in Serien gedruckte Farbholzschnitte Schauspieler, Landschaften und Szenen aus dem Alltag. Ihre flächigen Farben und kühnen Bildausschnitte sollten später die Maler Europas aufrütteln."
+  },
+  "impressionnisme": {
+   "name": "Impressionismus",
+   "period": "1870er und 1880er Jahre",
+   "summary": "Das Licht des Augenblicks malen",
+   "description": "Eine Gruppe von Malern verlässt das Atelier und arbeitet im Freien, mit schnellen kleinen Pinselstrichen. Es geht ihnen nicht mehr um das Detail, sondern um die Wirkung des Lichts in einem ganz bestimmten Moment."
+  },
+  "postimp": {
+   "name": "Postimpressionismus",
+   "period": "1886–1905",
+   "summary": "Farbe und Gefühl zuerst",
+   "description": "Nach dem Impressionismus sucht jeder seinen eigenen Weg. Die Farbe ahmt die Wirklichkeit nicht mehr nach: Sie drückt aus, was der Maler empfindet."
+  },
+  "secession": {
+   "name": "Wiener Secession",
+   "period": "Um 1900",
+   "summary": "Gold, Ornament und geschwungene Linien",
+   "description": "In Wien brechen junge Künstler mit der Akademie. Sie verbinden Malerei, Dekoration und Kunsthandwerk und machen aus dem Ornament eine eigene Sprache."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Sternennacht",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "MoMA, New York",
+   "teaser": "Ein wirbelnder Himmel, aus dem Gedächtnis gemalt, in einer Heilanstalt.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Juni 1889. Vincent van Gogh ist 36 Jahre alt. Nach einem schweren Zusammenbruch in Arles hat er sich einen Monat zuvor selbst in die Heilanstalt von Saint-Rémy-de-Provence einweisen lassen, im Süden Frankreichs."
+    },
+    {
+     "type": "text",
+     "text": "Sein Zimmer liegt nach Osten. Aus dem Fenster sieht er ein Weizenfeld, die Hügel der Alpilles und vor der Morgendämmerung den Himmel. Diesen Ausblick malt er wieder und wieder, zu jeder Tageszeit."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh fing erst mit 27 an zu malen. In rund zehn Jahren schuf er etwa 900 Gemälde, manchmal eines am Tag."
+    },
+    {
+     "type": "tour",
+     "text": "Hier ist der berühmteste dieser Himmel. Schau ihn dir in Ruhe an und tippe dann, um einzutauchen.",
+     "spots": [
+      {
+       "title": "Der Wirbel",
+       "text": "In der Mitte rollen sich zwei große Wellen ineinander. So sieht kein echter Himmel aus: Er malt, was er fühlt, nicht was er sieht."
+      },
+      {
+       "title": "Der Mond",
+       "text": "Eine orange Sichel in einem gelben Lichthof. Fast könnte man sie für eine Sonne halten. Van Gogh setzt die Farbe in kurzen Strichen, die um sie kreisen."
+      },
+      {
+       "title": "Der Morgenstern",
+       "text": "Das weißeste Licht im ganzen Bild. Van Gogh schrieb seinem Bruder, er habe vor Sonnenaufgang den Morgenstern gesehen, sehr groß. Wahrscheinlich ist es die Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Gemalt wurde dieses Bild weder bei Nacht noch vor dem Motiv. Van Gogh malte es bei Tageslicht in seinem Atelier in der Anstalt, aus dem Gedächtnis und aus der Fantasie. Für ihn war das ungewöhnlich: Sonst malte er, was er vor Augen hatte."
+    },
+    {
+     "type": "key",
+     "text": "Die Sternennacht entstand am Tag, aus dem Gedächtnis. Sie ist keine Ansicht. Sie ist eine Vision."
+    },
+    {
+     "type": "text",
+     "text": "Von einem Nachthimmel träumte er schon lange. Ein Jahr zuvor hatte er geschrieben, der Anblick der Sterne bringe ihn immer zum Träumen."
+    },
+    {
+     "type": "find",
+     "text": "Ein Detail in dieser Landschaft stammt direkt aus seiner Kindheit in den Niederlanden. Wo ist der Kirchturm?",
+     "spots": [
+      {
+       "title": "Der Kirchturm",
+       "text": "Eine schmale, spitze Turmspitze, wie in den niederländischen Dörfern, in denen van Gogh aufwuchs. Die Kirchtürme der Provence sehen ganz anders aus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Auch das Dorf ist erfunden oder zumindest versetzt: Von seinem Fenster aus war es nicht zu sehen. Van Gogh kombiniert einen echten Himmel und echte Hügel mit einem Dorf aus der Erinnerung."
+    },
+    {
+     "type": "fact",
+     "text": "Das Fenster seines Zimmers in der Anstalt war vergittert. Auf keinem seiner Bilder von diesem Ausblick sind die Gitterstäbe zu sehen."
+    },
+    {
+     "type": "lines",
+     "text": "Das Bild wirkt unruhig. Dabei ist es sorgfältig aufgebaut.",
+     "lines": [
+      {
+       "label": "Die Senkrechte der Zypresse",
+       "text": "Sie durchschneidet das ganze Bild, vom Boden bis zum oberen Rand, und gibt den Maßstab vor: Der Himmel ist gewaltig."
+      },
+      {
+       "label": "Ihr Echo: der Kirchturm",
+       "text": "Eine zweite, winzige Senkrechte, die der Zypresse antwortet. Die eine stammt aus der Natur, die andere von Menschenhand."
+      },
+      {
+       "label": "Die Welle am Himmel",
+       "text": "Dein Blick folgt diesem S von links nach rechts, bis hin zum Mond."
+      },
+      {
+       "label": "Der Hang der Hügel",
+       "text": "Eine Diagonale, die zum Dorf hin abfällt und es schützend umfängt wie ein Arm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Achte jetzt auf den Pinselstrich. Nirgends gibt es weiche Übergänge. Kurze, dicke Striche stehen dicht nebeneinander, und jeder zeigt in eine Richtung. Der Pinselstrich selbst erzeugt die Bewegung."
+    },
+    {
+     "type": "text",
+     "text": "So dick aufgetragene Farbe nennen Maler „Impasto“. Manchmal drückte van Gogh die Farbe fast direkt aus der Tube auf die Leinwand. Aus der Nähe ist ihre Oberfläche rau wie eine Reliefkarte."
+    },
+    {
+     "type": "tour",
+     "title": "Ganz nah",
+     "text": "Gehen wir ganz nah an die Farbe heran.",
+     "spots": [
+      {
+       "title": "Die Farbe",
+       "text": "Sieh nur, wie dick sie ist: Die Farbe liegt in kurzen, schweren Strichen auf, fast wie ein Relief. Das nennt man Impasto."
+      },
+      {
+       "title": "Die Zypresse",
+       "text": "Dunkel und gewunden wie eine Flamme verbindet sie die Erde mit dem Himmel. In Südfrankreich ist sie der Baum der Friedhöfe. Van Gogh fand sie so schön wie einen ägyptischen Obelisken."
+      },
+      {
+       "title": "Die Hügel",
+       "text": "Die Alpilles. Sie wogen wie Wellen, mitgerissen vom selben Schwung wie der Himmel."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Die Zypresse spielt eine wichtige Rolle. Sie ist die dunkelste Form im Bild und die einzige, die zugleich den Boden und den oberen Rand des Himmels berührt. In jenem Sommer war van Gogh ganz besessen von diesen Bäumen."
+    },
+    {
+     "type": "palette",
+     "text": "Blau, Gelb und sonst fast nichts. Tippe auf eine Farbe.",
+     "swatches": [
+      {
+       "name": "Tiefblau",
+       "text": "Die Tiefe des Himmels und der Hügel. Van Gogh verwendete Ultramarin und Kobaltblau."
+      },
+      {
+       "name": "Hellblau",
+       "text": "Die Wirbel. In dicken Strichen aufgetragen, bringt es den Himmel zum Kreisen."
+      },
+      {
+       "name": "Gelb",
+       "text": "Der Mond, die Sterne, die Fenster. Nur ein winziger Teil der Fläche, und doch bringt es alles zum Leuchten."
+      },
+      {
+       "name": "Schwarzgrün",
+       "text": "Die Zypresse und die Schatten im Dorf. Die dunkelste Masse des ganzen Bildes."
+      },
+      {
+       "name": "Grünliches Weiß",
+       "text": "Die Lichthöfe um die Sterne: Sie lassen sie flimmern."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Blau und Gelb liegen im Farbkreis fast genau gegenüber. Nebeneinandergesetzt, lässt jede Farbe die andere kräftiger wirken. Van Gogh wusste das und nutzte es, um seine Nächte zum Vibrieren zu bringen."
+    },
+    {
+     "type": "key",
+     "text": "Gegenfarben steigern sich gegenseitig, wenn sie nebeneinanderstehen. Deshalb glühen die gelben Sterne so vor dem Blau."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh erzählte seinem Bruder, er habe den Morgenstern gesehen, sehr groß. Tippe auf das weißeste Licht im Bild.",
+     "spots": [
+      {
+       "title": "Der Morgenstern",
+       "text": "Das weißeste Licht im ganzen Bild. Van Gogh schrieb seinem Bruder, er habe vor Sonnenaufgang den Morgenstern gesehen, sehr groß. Wahrscheinlich ist es die Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Und was hielt er selbst von dem Bild? Nicht viel. In seinen Briefen nennt er es eine bloße Nachtstudie, und an diesen aus der Fantasie gemalten Bildern zweifelt er."
+    },
+    {
+     "type": "fact",
+     "text": "Zu Lebzeiten verkaufte van Gogh so gut wie nichts. Sein Bruder Theo, ein Kunsthändler, unterstützte ihn mit Geld und Farben."
+    },
+    {
+     "type": "text",
+     "text": "Dreizehn Monate später, im Juli 1890, starb er mit 37 Jahren. Die Sternennacht kam 1941 ins Museum of Modern Art in New York."
+    },
+    {
+     "type": "key",
+     "text": "Bei van Gogh ist der Pinselstrich das eigentliche Thema: Jeder Strich hat eine Richtung, und genau das setzt den Himmel in Bewegung."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Der Wirbel",
+       "text": "In der Mitte rollen sich zwei große Wellen ineinander. So sieht kein echter Himmel aus: Er malt, was er fühlt, nicht was er sieht."
+      },
+      {
+       "title": "Der Mond",
+       "text": "Eine orange Sichel in einem gelben Lichthof. Fast könnte man sie für eine Sonne halten. Van Gogh setzt die Farbe in kurzen Strichen, die um sie kreisen."
+      },
+      {
+       "title": "Der Morgenstern",
+       "text": "Das weißeste Licht im ganzen Bild. Van Gogh schrieb seinem Bruder, er habe vor Sonnenaufgang den Morgenstern gesehen, sehr groß. Wahrscheinlich ist es die Venus."
+      },
+      {
+       "title": "Die Zypresse",
+       "text": "Dunkel und gewunden wie eine Flamme verbindet sie die Erde mit dem Himmel. In Südfrankreich ist sie der Baum der Friedhöfe. Van Gogh fand sie so schön wie einen ägyptischen Obelisken."
+      },
+      {
+       "title": "Der Kirchturm",
+       "text": "Eine schmale, spitze Turmspitze, wie in den niederländischen Dörfern, in denen van Gogh aufwuchs. Die Kirchtürme der Provence sehen ganz anders aus."
+      },
+      {
+       "title": "Das Dorf",
+       "text": "Ein paar erleuchtete gelbe Fenster. Von seinem Zimmer aus konnte er dieses Dorf nicht sehen: Er hat es aus der Erinnerung hinzugefügt."
+      },
+      {
+       "title": "Die Hügel",
+       "text": "Die Alpilles. Sie wogen wie Wellen, mitgerissen vom selben Schwung wie der Himmel."
+      },
+      {
+       "title": "Die Farbe",
+       "text": "Sieh nur, wie dick sie ist: Die Farbe liegt in kurzen, schweren Strichen auf, fast wie ein Relief. Das nennt man Impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wo war van Gogh, als er die Sternennacht malte?",
+     "options": [
+      "In Paris",
+      "In der Heilanstalt von Saint-Rémy-de-Provence",
+      "In Amsterdam"
+     ],
+     "explanation": "Er hatte sich einen Monat zuvor selbst einweisen lassen."
+    },
+    {
+     "question": "Wie entstand das Bild?",
+     "options": [
+      "Nachts, vor dem Motiv",
+      "Am Tag, aus dem Gedächtnis und aus der Fantasie",
+      "Nach einer Fotografie"
+     ],
+     "explanation": "Am Tag, in seinem Atelier in der Anstalt."
+    },
+    {
+     "question": "Welches Detail erinnert an die Niederlande?",
+     "options": [
+      "Die Zypresse",
+      "Der spitze Kirchturm",
+      "Die Hügel"
+     ],
+     "explanation": "Eine Turmspitze wie in den Dörfern seiner Kindheit."
+    },
+    {
+     "question": "Was ist „Impasto“?",
+     "options": [
+      "Sehr dick aufgetragene Farbe, fast wie ein Relief",
+      "Eine dünne, durchscheinende Lasur",
+      "Eine Kohleskizze"
+     ],
+     "explanation": "Kurze, schwere Striche, die aus der Leinwand hervortreten."
+    },
+    {
+     "question": "Warum wirken die gelben Sterne so hell?",
+     "options": [
+      "Sie sind mit Gold gemalt",
+      "Das Gelb steht neben seiner Gegenfarbe, dem Blau",
+      "Die Leinwand wird von hinten beleuchtet"
+     ],
+     "explanation": "Gegenfarben nebeneinander steigern sich gegenseitig."
+    },
+    {
+     "question": "Was ließ van Gogh auf seinen Bildern von diesem Ausblick weg?",
+     "options": [
+      "Die Gitterstäbe vor seinem Fenster",
+      "Den Mond",
+      "Die Hügel"
+     ],
+     "explanation": "Das Fenster seines Zimmers in der Anstalt war vergittert."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh malte die Sternennacht im Freien, mitten in der Nacht.",
+     "explanation": "Er malte sie am Tag, aus dem Gedächtnis, in der Anstalt von Saint-Rémy."
+    },
+    {
+     "text": "Die Sternennacht befindet sich in New York.",
+     "explanation": "Seit 1941 hängt sie im MoMA."
+    },
+    {
+     "text": "Van Gogh verkaufte viele Bilder und starb als reicher Mann.",
+     "explanation": "Er verkaufte so gut wie nichts. Sein Bruder Theo unterstützte ihn."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Das Mädchen mit dem Perlenohrring",
+   "artist": "Jan Vermeer",
+   "yearLabel": "um 1665",
+   "museum": "Mauritshuis, Den Haag",
+   "teaser": "Ein Blick über die Schulter, und niemand weiß, wer sie ist.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Dieses Gesicht kennst du. Ein Porträt ist es trotzdem nicht: Niemand weiß, wer sie ist, und wahrscheinlich wollte Vermeer auch gar keine bestimmte Person malen."
+    },
+    {
+     "type": "text",
+     "text": "In den Niederlanden des 17. Jahrhunderts hatten solche Bilder einen eigenen Namen: „Tronie“, also Kopfstudie. Der Maler erkundet damit einen Gesichtsausdruck, ein exotisches Kostüm oder eine Lichtwirkung. Hier alles drei zugleich."
+    },
+    {
+     "type": "key",
+     "text": "Eine Tronie ist ein erfundenes Gesicht, ein Vorwand, um einen Ausdruck und ein Licht zu malen. Sie ist nicht das Bildnis eines echten Menschen."
+    },
+    {
+     "type": "tour",
+     "text": "Schau dir zuerst das ganze Bild an: ein Gesicht, das aus dem Dunkel auftaucht. Tippe, um näher heranzugehen.",
+     "spots": [
+      {
+       "title": "Der Blick",
+       "text": "Sie dreht sich zu dir um, als hättest du gerade ihren Namen gerufen. Ein einziger weißer Punkt in jedem Auge genügt, damit das Auge feucht und lebendig wirkt."
+      },
+      {
+       "title": "Der Mund",
+       "text": "Leicht geöffnet, als wäre sie mitten im Satz. Sieh dir den winzigen hellen Punkt im Mundwinkel an: ein einziger Farbtupfer, und schon glänzen die Lippen."
+      },
+      {
+       "title": "Die Perle",
+       "text": "Zwei Pinselstriche, mehr nicht: oben ein weißes Glanzlicht, unten ein grauer Widerschein des Kragens. Kein Umriss, kein Haken. Die Perle entsteht erst in deinem Auge."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Das ganze Bild lebt von einer einzigen Bewegung: Sie dreht sich um. Ihr Körper ist im Profil, ihr Gesicht wendet sich uns zu. Es ist, als hätten wir sie überrascht oder als wollte sie gleich gehen. Genau das macht sie so lebendig."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer verbrachte sein ganzes Leben in Delft, einer kleinen niederländischen Stadt. Er malte langsam, hatte elf Kinder zu ernähren und starb mit 43 Jahren verschuldet."
+    },
+    {
+     "type": "text",
+     "text": "Achte auf den Turban. So kleidete sich kein niederländisches Mädchen. Es ist ein Kostüm, ein Hauch des fernen Orients, der die Maler jener Zeit faszinierte."
+    },
+    {
+     "type": "find",
+     "text": "Eine einzige Lichtquelle fällt auf ihr Gesicht. Wo trifft sie auf? Tippe auf die hellste Stelle des Gesichts.",
+     "spots": [
+      {
+       "title": "Die Wange",
+       "text": "Das Licht kommt von links, etwas von oben. Es trifft Stirn, Wange und Nase und lässt die andere Gesichtshälfte im Schatten versinken."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer zeichnet kaum Umrisse. Sieh dir den Nasenrücken an: Da ist keine Linie, nur eine helle Wange, die auf einen Schatten trifft. Das Gesicht besteht aus Licht, nicht aus Linien."
+    },
+    {
+     "type": "key",
+     "text": "Licht von links, weiche Schatten, keine harten Umrisse: Daran erkennt man Vermeer."
+    },
+    {
+     "type": "lines",
+     "text": "Wie hält ein so schlichtes Bild zusammen? Drei Linien erklären es.",
+     "lines": [
+      {
+       "label": "Das Licht",
+       "text": "Es fällt von links oben ein, wie durch ein Fenster, das wir nicht sehen."
+      },
+      {
+       "label": "Das Dreieck",
+       "text": "Von der Spitze des Turbans zu beiden Schultern: eine stabile, fest stehende Form, die die Drehung des Kopfes auffängt."
+      },
+      {
+       "label": "Das fallende Tuch",
+       "text": "Das gelbe Tuch fällt rechts herab und hält dem nach links gewandten Gesicht die Waage."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Und jetzt das Blau. Vermeer verwendete natürliches Ultramarin, gewonnen aus zermahlenem Lapislazuli. Die meisten Maler sparten es für den Mantel der Jungfrau Maria auf, so teuer war es. Er setzte es überall ein, sogar in den Schatten."
+    },
+    {
+     "type": "fact",
+     "text": "Lapislazuli stammte aus Minen im heutigen Afghanistan. Der Name „Ultramarin“ bedeutet „von jenseits des Meeres“."
+    },
+    {
+     "type": "palette",
+     "text": "Fünf Farben machen fast das ganze Bild aus. Tippe auf eine, um zu sehen, wo sie sich versteckt.",
+     "swatches": [
+      {
+       "name": "Dunkler Hintergrund",
+       "text": "Mehr als die Hälfte der Fläche. Einst ein tiefgrüner Vorhang, heute fast schwarz."
+      },
+      {
+       "name": "Ultramarin",
+       "text": "Das Blau des Lapislazuli. Es nimmt kaum Platz ein und zieht doch alle Blicke auf sich."
+      },
+      {
+       "name": "Brauner Ocker",
+       "text": "Die Schatten der Jacke und des gelben Tuchs: eine warme, billige Erdfarbe."
+      },
+      {
+       "name": "Rosiger Hautton",
+       "text": "Die hellste Stelle des Bildes. Dorthin wandert unser Blick zuerst."
+      },
+      {
+       "name": "Gelb",
+       "text": "Auf der Jacke und dem herabfallenden Tuch des Turbans. Es antwortet dem Blau."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "1994 wurde das Gemälde restauriert. Unter einem vergilbten Firnis fanden die Restauratoren frischere Farben und jenen kleinen hellen Punkt im Mundwinkel, den niemand mehr sehen konnte."
+    },
+    {
+     "type": "text",
+     "text": "Und der Hintergrund? Heute wirkt er flach und schwarz. Naturwissenschaftliche Untersuchungen haben gezeigt, dass Vermeer dort einen dunkelgrünen Vorhang gemalt hat. Die grünen Pigmente haben sich mit der Zeit zersetzt."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer hat dieses Bild signiert. Aber wo? Schau genau hin, die Signatur ist fast unsichtbar.",
+     "spots": [
+      {
+       "title": "Die Signatur",
+       "text": "„IVMeer“, oben links. In einem hellen Ton auf den dunklen Grund gemalt, ist sie mit der Zeit fast verblasst."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ist die Perle überhaupt eine Perle? Sie ist riesig. Manche Fachleute halten sie für lackiertes Glas oder poliertes Zinn. Im Grunde ist das egal: Gemalt ist sie ein Tropfen Licht, und mehr wollte Vermeer nicht."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer malt keine Gegenstände. Er malt das Licht, das auf sie fällt. Die Perle besteht aus zwei weißen Tupfern."
+    },
+    {
+     "type": "text",
+     "text": "Von Vermeer kennen wir nur etwa 37 Gemälde. Nach seinem Tod geriet er für zwei Jahrhunderte fast völlig in Vergessenheit."
+    },
+    {
+     "type": "fact",
+     "text": "1881 ersteigerte ein Sammler das Bild für zwei Gulden, also so gut wie nichts. 1902 vermachte er es dem Mauritshuis."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Der Blick",
+       "text": "Sie dreht sich zu dir um, als hättest du gerade ihren Namen gerufen. Ein einziger weißer Punkt in jedem Auge genügt, damit das Auge feucht und lebendig wirkt."
+      },
+      {
+       "title": "Der Mund",
+       "text": "Leicht geöffnet, als wäre sie mitten im Satz. Sieh dir den winzigen hellen Punkt im Mundwinkel an: ein einziger Farbtupfer, und schon glänzen die Lippen."
+      },
+      {
+       "title": "Die Perle",
+       "text": "Zwei Pinselstriche, mehr nicht: oben ein weißes Glanzlicht, unten ein grauer Widerschein des Kragens. Kein Umriss, kein Haken. Die Perle entsteht erst in deinem Auge."
+      },
+      {
+       "title": "Der blaue Turban",
+       "text": "Echtes Ultramarin, gewonnen aus Lapislazuli, einem Stein, der den weiten Weg aus Afghanistan kam. Damals war dieses Pigment teurer als Gold."
+      },
+      {
+       "title": "Das gelbe Tuch",
+       "text": "Das gelbe Tuch fällt ihr wie eine Flamme über den Rücken. Blau und Gelb: Vermeer liebte dieses Paar und setzte es in einem Bild nach dem anderen ein."
+      },
+      {
+       "title": "Der weiße Kragen",
+       "text": "Ein weißes Band, in einem einzigen Zug hingesetzt. Dieser Kragen spiegelt sich unten in der Perle."
+      },
+      {
+       "title": "Die Signatur",
+       "text": "„IVMeer“, oben links. In einem hellen Ton auf den dunklen Grund gemalt, ist sie mit der Zeit fast verblasst."
+      },
+      {
+       "title": "Der Hintergrund",
+       "text": "Er war nicht immer schwarz. Untersuchungen zeigen, dass Vermeer hier einen dunkelgrünen Vorhang gemalt hat. Das Grün ist im Lauf der Jahrhunderte verschwunden."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Was ist eine „Tronie“?",
+     "options": [
+      "Ein Porträt im Auftrag",
+      "Die Studie eines erfundenen Gesichts",
+      "Ein Selbstbildnis"
+     ],
+     "explanation": "Ein Vorwand, um einen Ausdruck und ein Licht zu malen, kein echter Mensch."
+    },
+    {
+     "question": "Woher stammt das Blau des Turbans?",
+     "options": [
+      "Aus einer Pflanze, dem Indigo",
+      "Aus einem Stein, dem Lapislazuli",
+      "Aus einer Muschel"
+     ],
+     "explanation": "Zermahlener Lapislazuli ergibt natürliches Ultramarin, damals teurer als Gold."
+    },
+    {
+     "question": "Wie ist die Perle gemalt?",
+     "options": [
+      "Mit einem genauen Umriss und einem Haken",
+      "Mit zwei hellen Tupfern und ohne Umriss",
+      "Mit Blattsilber"
+     ],
+     "explanation": "Ein weißes Glanzlicht, ein grauer Widerschein: Den Rest erledigt dein Auge."
+    },
+    {
+     "question": "Woher kommt das Licht?",
+     "options": [
+      "Von links",
+      "Von rechts",
+      "Von unten"
+     ],
+     "explanation": "Von links oben, wie durch ein unsichtbares Fenster."
+    },
+    {
+     "question": "Was war der Hintergrund ursprünglich?",
+     "options": [
+      "Ein dunkelgrüner Vorhang",
+      "Ein Fenster",
+      "Eine goldene Wand"
+     ],
+     "explanation": "Die grünen Pigmente haben sich im Lauf der Jahrhunderte zersetzt."
+    },
+    {
+     "question": "Wo verbrachte Vermeer sein ganzes Leben?",
+     "options": [
+      "In Amsterdam",
+      "In Delft",
+      "In Den Haag"
+     ],
+     "explanation": "Er lebte und arbeitete in der kleinen Stadt Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Wir kennen den Namen des Mädchens, das Modell saß.",
+     "explanation": "Wer sie war, weiß niemand: Das Bild ist eine Tronie."
+    },
+    {
+     "text": "Das Blau des Turbans stammt aus einem Stein, dem Lapislazuli.",
+     "explanation": "Zermahlen ergibt er natürliches Ultramarin."
+    },
+    {
+     "text": "Die Perle ist mit einem sorgfältigen, genauen Umriss gemalt.",
+     "explanation": "Sie besteht nur aus zwei hellen Farbtupfern, ganz ohne Umriss."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Die große Welle vor Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "um 1831",
+   "museum": "Farbholzschnitt · zahlreiche Abzüge",
+   "teaser": "Eine riesige Welle und ganz hinten, winzig klein, der Fuji.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Das hier ist kein Gemälde. Es ist ein Druck: ein Bild, das in Holzblöcke geschnitten, eingefärbt und dann auf Papier gedruckt wurde. Es gibt also nicht die eine Große Welle. Es gibt Tausende."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai veröffentlichte sie um 1831. Er war damals etwa 70 und zeichnete seit seiner Kindheit. Mit ihr beginnt eine Serie, die berühmt werden sollte: die 36 Ansichten des Berges Fuji."
+    },
+    {
+     "type": "key",
+     "text": "Die große Welle ist ein Farbholzschnitt, gedruckt in Tausenden Exemplaren. Viele Museen auf der ganzen Welt besitzen eines."
+    },
+    {
+     "type": "fact",
+     "text": "Ein solcher Druck war billig. Zu Hokusais Zeit kostete er ungefähr so viel wie eine Schale Nudeln."
+    },
+    {
+     "type": "find",
+     "text": "Die Serie heißt 36 Ansichten des Berges Fuji. Und wo ist nun der Fuji?",
+     "spots": [
+      {
+       "title": "Der Fuji",
+       "text": "Hier steckt das eigentliche Thema des Drucks, winzig klein. Der heilige Berg Japans mit seiner Schneekappe, vollkommen ruhig mitten im Sturm."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Das ist der geniale Einfall: Der höchste Berg Japans ist kleiner als die Welle. Hokusai spielt mit der Entfernung. Das Nahe erdrückt das Ferne, wie auf einem Foto mit Weitwinkel."
+    },
+    {
+     "type": "text",
+     "text": "Der Fuji galt als heilig. Man glaubte, er berge das Geheimnis der Unsterblichkeit. Hokusai war wie besessen von ihm und zeichnete ihn aus jedem Blickwinkel, bei jedem Wetter."
+    },
+    {
+     "type": "tour",
+     "text": "Lass uns durch das Bild wandern, so wie es das Auge tut.",
+     "spots": [
+      {
+       "title": "Die Gischt",
+       "text": "Sieh dir den Kamm der Welle an: Die Gischt läuft in gekrümmte Finger aus, wie Krallen, die sich gleich um die Boote schließen."
+      },
+      {
+       "title": "Die Ruderer",
+       "text": "Fischer, über ihre Ruder gebeugt, die Köpfe eingezogen. Diese schnellen Boote brachten frischen Fisch nach Edo, in die Stadt, die wir heute Tokio nennen."
+      },
+      {
+       "title": "Die kleine Welle",
+       "text": "Im Vordergrund eine kleinere Welle. Schau dir ihre Form an: spitz, oben weiß. Sie ist ein zweiter Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In Japan liest man von rechts nach links. Das Auge steigt also rechts ein, bei den Booten, und läuft direkt in die Welle hinein. Für einen japanischen Betrachter kommt die Welle frontal auf ihn zu."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai änderte im Lauf seines Lebens mehr als dreißigmal seinen Namen. Einer seiner letzten bedeutete „der vom Zeichnen besessene alte Mann“."
+    },
+    {
+     "type": "lines",
+     "text": "Ein schlichtes Bild, auf den Millimeter berechnet.",
+     "lines": [
+      {
+       "label": "Der Bogen",
+       "text": "Die Welle beschreibt einen großen Bogen, der sich in sich selbst schließt. Die ganze linke Bildhälfte ist darin gefangen."
+      },
+      {
+       "label": "Das Dreieck des Fuji",
+       "text": "Klein, stabil, spitz. Es sitzt genau in der Mulde der Welle."
+      },
+      {
+       "label": "Sein Doppelgänger",
+       "text": "Die kleine Welle im Vordergrund wiederholt die Form des Berges. Das Wasser ahmt den Stein nach."
+      },
+      {
+       "label": "Die Leserichtung",
+       "text": "Von rechts nach links: Wir gleiten über die Dünung bis zum Fuji und blicken dann hinauf zur Welle."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Wie entstand so ein Druck? Hokusai zeichnete das Bild auf dünnes Papier. Ein Holzschneider klebte die Zeichnung auf einen Block aus Kirschholz und schnitt alles weg, was keine Linie war. Dann färbte ein Drucker den Block ein und presste das Papier darauf."
+    },
+    {
+     "type": "text",
+     "text": "Für jede Farbe brauchte man einen eigenen geschnittenen Block, und alle wurden nacheinander auf dasselbe Blatt gedruckt. Deshalb kommen solche Drucke mit so wenigen Farben aus."
+    },
+    {
+     "type": "key",
+     "text": "Ein Holzblock pro Farbe: Je weniger Farben, desto einfacher der Druck. Hokusai macht aus dieser Grenze einen Stil."
+    },
+    {
+     "type": "palette",
+     "text": "Sehr wenige Farben, denn jede braucht ihren eigenen Block. Tippe auf eine.",
+     "swatches": [
+      {
+       "name": "Das Papier",
+       "text": "Die häufigste Farbe ist gar nicht gedruckt: Es ist das nackte Papier, für Gischt und Schnee einfach frei gelassen."
+      },
+      {
+       "name": "Preußischblau",
+       "text": "Das Blau aus Europa. Es zeichnet die Welle, ihre Streifen und ihre Mulden."
+      },
+      {
+       "name": "Hellblau",
+       "text": "Dasselbe Blau, nur verdünnt. Es gibt dem Wasser Volumen."
+      },
+      {
+       "name": "Getönter Himmel",
+       "text": "Ein Beige, kaum dunkler als das Papier, vor dem sich die weiße Gischt abhebt."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Apropos Blau. Es ist Preußischblau, ein in Europa erfundenes chemisches Pigment, das gerade erst nach Japan eingeführt worden war. Es ist tief, es verblasst nicht, und es war eine Sensation. Die Serie verdankt ihm einen großen Teil ihres Erfolgs."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai hat sein Bild signiert. Wo? Kleiner Tipp: nicht unten rechts in der Ecke.",
+     "spots": [
+      {
+       "title": "Die Kartusche",
+       "text": "Im Rahmen stehen der Titel der Serie und der des Bildes, „Unter der Welle vor Kanagawa“. Links daneben: Hokusais Signatur."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "In den 1850er Jahren öffnete sich Japan dem Handel, und seine Drucke gelangten nach Europa. Die französischen Maler waren verblüfft: flächige Farben, klare Umrisse, gewagte Bildausschnitte. Monet sammelte sie. Van Gogh kopierte sie."
+    },
+    {
+     "type": "key",
+     "text": "Diese Begeisterung nennt man Japonismus. Ohne die japanischen Drucke hätte der Impressionismus anders ausgesehen."
+    },
+    {
+     "type": "text",
+     "text": "Eines noch: Das ist kein Tsunami. Es ist eine Welle der offenen See, gewaltig, aber ganz gewöhnlich, wie sie die Fischer fürchteten. Hokusai zeigt keine Katastrophe. Er zeigt winzige Menschen im Angesicht der Natur."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Der Fuji",
+       "text": "Hier steckt das eigentliche Thema des Drucks, winzig klein. Der heilige Berg Japans mit seiner Schneekappe, vollkommen ruhig mitten im Sturm."
+      },
+      {
+       "title": "Die Gischt",
+       "text": "Sieh dir den Kamm der Welle an: Die Gischt läuft in gekrümmte Finger aus, wie Krallen, die sich gleich um die Boote schließen."
+      },
+      {
+       "title": "Die Ruderer",
+       "text": "Fischer, über ihre Ruder gebeugt, die Köpfe eingezogen. Diese schnellen Boote brachten frischen Fisch nach Edo, in die Stadt, die wir heute Tokio nennen."
+      },
+      {
+       "title": "Die kleine Welle",
+       "text": "Im Vordergrund eine kleinere Welle. Schau dir ihre Form an: spitz, oben weiß. Sie ist ein zweiter Fuji."
+      },
+      {
+       "title": "Die Kartusche",
+       "text": "Im Rahmen stehen der Titel der Serie und der des Bildes, „Unter der Welle vor Kanagawa“. Links daneben: Hokusais Signatur."
+      },
+      {
+       "title": "Das untere Boot",
+       "text": "Es taucht ins Wellental ein. Insgesamt sind es drei Boote und etwa dreißig Männer."
+      },
+      {
+       "title": "Der Himmel",
+       "text": "Fast leer. Ein schlichter Farbverlauf, entstanden, indem man die Farbe vor dem Drucken auf dem Holzblock teilweise abwischte."
+      },
+      {
+       "title": "Die Gischtflocken",
+       "text": "Über dem Fuji rieseln weiße Punkte herab. Sie sehen aus wie Schnee auf dem Berg."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Was ist Die große Welle?",
+     "options": [
+      "Ein Ölgemälde",
+      "Ein Farbholzschnitt",
+      "Ein Aquarell"
+     ],
+     "explanation": "Ein Druck, hergestellt in Tausenden Exemplaren."
+    },
+    {
+     "question": "Zu welcher Serie gehört sie?",
+     "options": [
+      "100 berühmte Ansichten von Edo",
+      "36 Ansichten des Berges Fuji",
+      "Die vier Jahreszeiten"
+     ],
+     "explanation": "Mit ihr beginnt Hokusais Serie über den Fuji."
+    },
+    {
+     "question": "Woher stammt das Blau der Welle?",
+     "options": [
+      "Aus Lapislazuli",
+      "Preußischblau, eingeführt aus Europa",
+      "Aus zerstoßenen Muscheln"
+     ],
+     "explanation": "Ein chemisches Pigment, neu in Japan, tief und lichtbeständig."
+    },
+    {
+     "question": "Welche Form wiederholt die kleine Welle im Vordergrund?",
+     "options": [
+      "Den Fuji",
+      "Ein Boot",
+      "Eine Wolke"
+     ],
+     "explanation": "Das Wasser ahmt den Berg nach."
+    },
+    {
+     "question": "Warum kommen Drucke mit so wenigen Farben aus?",
+     "options": [
+      "Farben waren verboten",
+      "Jede Farbe braucht einen eigenen geschnittenen Block",
+      "Das Papier konnte die Farbe nicht halten"
+     ],
+     "explanation": "Ein Block pro Farbe, einer nach dem anderen gedruckt."
+    },
+    {
+     "question": "Wie nennt man die europäische Begeisterung für japanische Drucke?",
+     "options": [
+      "Japonismus",
+      "Orientalismus",
+      "Kubismus"
+     ],
+     "explanation": "Monet sammelte die Drucke, van Gogh kopierte sie."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Von der Großen Welle gibt es nur ein einziges Exemplar.",
+     "explanation": "Sie ist ein Druck: Es wurden Tausende Exemplare hergestellt."
+    },
+    {
+     "text": "Hokusai war etwa 70, als er sie schuf.",
+     "explanation": "Er wurde 1760 geboren, und die Serie erschien um 1831."
+    },
+    {
+     "text": "Die große Welle zeigt einen Tsunami.",
+     "explanation": "Sie zeigt eine große Welle der offenen See, keinen Tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Seerosen",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "Kein Horizont mehr: nur Wasser, Blüten und der Himmel, der sich darin spiegelt.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "In Giverny ließ Monet in seinem Garten einen Teich ausheben und darin Seerosen pflanzen. Fast dreißig Jahre lang wurde dieser Teich sein Motiv."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · die Blüten, die auf dem Wasser ruhen."
+    },
+    {
+     "type": "text",
+     "text": "Schau genau hin: Es gibt kein Ufer und keinen Horizont. Man kann nicht mehr sagen, wo das Wasser aufhört und das Spiegelbild des Himmels beginnt."
+    },
+    {
+     "type": "key",
+     "text": "Ohne Horizont wird das Bild zur Fläche: Wir betrachten das Wasser, wie wir sonst den Himmel betrachten."
+    },
+    {
+     "type": "fact",
+     "text": "Monet beschäftigte Gärtner, die sich um den Teich kümmerten. Einer von ihnen reinigte jeden Morgen die Wasseroberfläche, bevor der Maler zu arbeiten begann."
+    },
+    {
+     "type": "text",
+     "text": "Monet malte etwa 250 Bilder mit Seerosen. Immer dieselben Blüten, aber nie dasselbe Licht."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wo malte Monet seine Seerosen?",
+     "options": [
+      "In Giverny",
+      "In Paris",
+      "In Venedig"
+     ],
+     "explanation": "Im Garten seines eigenen Hauses."
+    },
+    {
+     "question": "Was fehlt auf diesem Bild?",
+     "options": [
+      "Das Wasser",
+      "Der Horizont",
+      "Die Blüten"
+     ],
+     "explanation": "Kein Ufer, kein Himmel: nur die Wasseroberfläche."
+    },
+    {
+     "question": "Wie viele Seerosenbilder malte er?",
+     "options": [
+      "Etwa zehn",
+      "Etwa 250",
+      "Mehr als 2000"
+     ],
+     "explanation": "Eine riesige Serie, entstanden in fast dreißig Jahren."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet malte seine Seerosen nur ein einziges Mal.",
+     "explanation": "Er malte etwa 250 Fassungen."
+    },
+    {
+     "text": "Der Seerosenteich lag in Monets eigenem Garten.",
+     "explanation": "In Giverny, wo er ihn hatte ausheben lassen."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impression, Sonnenaufgang",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Paris",
+   "teaser": "Das Bild, das einer ganzen Bewegung ihren Namen gab, und zwar aus Spott.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Der Hafen von Le Havre an einem dunstigen Morgen. Monet setzt ein paar schnelle Pinselstriche: Boote, Masten und eine orangefarbene Sonne."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · die Sonne und ihr Spiegelbild."
+    },
+    {
+     "type": "text",
+     "text": "1874 wurde das Bild in Paris ausgestellt. Ein Kritiker, Louis Leroy, machte sich über den Titel lustig und nannte diese Maler spöttisch „Impressionisten“."
+    },
+    {
+     "type": "key",
+     "text": "Das Wort „Impressionismus“ geht auf dieses Bild zurück. Was als Beleidigung begann, wurde zum Namen."
+    },
+    {
+     "type": "fact",
+     "text": "In Le Havre ist Monet aufgewachsen. Schon als Jugendlicher war er dort für seine Karikaturen bekannt."
+    },
+    {
+     "type": "text",
+     "text": "Das Bild wurde 1985 außerdem aus dem Musée Marmottan gestohlen. Fünf Jahre später tauchte es wieder auf."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Welchen Hafen hat Monet gemalt?",
+     "options": [
+      "Marseille",
+      "Le Havre",
+      "Venedig"
+     ],
+     "explanation": "Die Stadt, in der er aufgewachsen ist."
+    },
+    {
+     "question": "Wofür lieferte dieses Bild den Namen?",
+     "options": [
+      "Für den Impressionismus",
+      "Für ein Museum",
+      "Für einen Preis"
+     ],
+     "explanation": "Ein Kritiker spottete über den Titel, und das Wort blieb hängen."
+    },
+    {
+     "question": "In welchem Jahr wurde es in Paris ausgestellt?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "In diesem Jahr machte sich der Kritiker Louis Leroy darüber lustig."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Das Wort „Impressionist“ war ursprünglich eine Beleidigung.",
+     "explanation": "Es stammt aus einem Artikel des Kritikers Louis Leroy."
+    },
+    {
+     "text": "Dieses Bild zeigt den Hafen von Marseille.",
+     "explanation": "Es ist der Hafen von Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Der Kuss",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Wien",
+   "teaser": "Zwei Liebende, in Gold gehüllt, am Rand einer blühenden Wiese.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt steht auf dem Höhepunkt seiner „Goldenen Periode“. Er bringt echtes Blattgold auf die Leinwand, wie bei einer religiösen Ikone."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · die beiden Gesichter."
+    },
+    {
+     "type": "text",
+     "text": "Sieh dir die Gewänder an. Seines ist mit schwarzen und weißen Rechtecken übersät. Ihres mit Kreisen und Blumen."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · Rechtecke und Kreise."
+    },
+    {
+     "type": "key",
+     "text": "Rechtecke für ihn, Kreise für sie: Die Muster erzählen die Geschichte des Paares."
+    },
+    {
+     "type": "fact",
+     "text": "Klimts Vater war Goldgraveur. Der Maler wuchs also mit dem Metall auf, das er später auf seine Leinwände bringen sollte."
+    },
+    {
+     "type": "text",
+     "text": "Der österreichische Staat kaufte das Gemälde 1908, noch bevor es ganz fertig war."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Welches Material verwendete Klimt?",
+     "options": [
+      "Perlmutt",
+      "Blattgold",
+      "Bronze"
+     ],
+     "explanation": "Es ist das Kennzeichen seiner Goldenen Periode."
+    },
+    {
+     "question": "Welche Muster bedecken das Gewand des Mannes?",
+     "options": [
+      "Kreise",
+      "Blumen",
+      "Rechtecke"
+     ],
+     "explanation": "Die Kreise und Blumen gehören zur Frau."
+    },
+    {
+     "question": "Wer kaufte das Gemälde 1908?",
+     "options": [
+      "Der österreichische Staat",
+      "Ein französischer Sammler",
+      "Klimts Vater"
+     ],
+     "explanation": "Noch bevor es ganz fertig war."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt verwendete echtes Blattgold.",
+     "explanation": "Wie auf mehreren Bildern seiner Goldenen Periode."
+    },
+    {
+     "text": "Der Kuss befindet sich in Paris.",
+     "explanation": "Er hängt in Wien, im Belvedere."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Sonnenblumen",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, London",
+   "teaser": "Gelb auf Gelb: ein Strauß, gemalt, um einen Freund willkommen zu heißen.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "August 1888 in Arles. Van Gogh wartet auf seinen Freund Paul Gauguin und möchte dessen Zimmer mit Sonnenblumen schmücken."
+    },
+    {
+     "type": "image",
+     "caption": "Detail · Blüten in jedem Stadium."
+    },
+    {
+     "type": "text",
+     "text": "Er wagt es, fast nur eine einzige Farbe zu verwenden: gelbe Blüten, gelbe Vase, gelber Hintergrund. Alles hängt von den Abstufungen ab und davon, wie dick die Farbe aufgetragen ist."
+    },
+    {
+     "type": "key",
+     "text": "Ein fast monochromes Bild: Gelb in all seinen Spielarten."
+    },
+    {
+     "type": "fact",
+     "text": "Sonnenblumen welken schnell. Van Gogh musste zügig malen, gleich bei Sonnenaufgang, bevor die Blüten die Köpfe hängen ließen."
+    },
+    {
+     "type": "text",
+     "text": "Von diesen Sonnenblumen gibt es mehrere Fassungen. Manche Blüten sind noch Knospen, andere schon verwelkt: Der Strauß erzählt auch vom Vergehen der Zeit."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wessen Zimmer sollten die Sonnenblumen schmücken?",
+     "options": [
+      "Das von Paul Gauguin",
+      "Das von Claude Monet",
+      "Das seines Bruders Theo"
+     ],
+     "explanation": "Van Gogh wartete in Arles auf ihn."
+    },
+    {
+     "question": "In welcher Stadt malte er sie?",
+     "options": [
+      "In Paris",
+      "In Arles",
+      "In Amsterdam"
+     ],
+     "explanation": "Im Süden Frankreichs, im August 1888."
+    },
+    {
+     "question": "Was ist an den Farben ungewöhnlich?",
+     "options": [
+      "Fast alles ist gelb",
+      "Es gibt überhaupt kein Gelb",
+      "Es ist schwarz-weiß"
+     ],
+     "explanation": "Gelbe Blüten, gelbe Vase, gelber Hintergrund."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Von den Sonnenblumen gibt es mehrere Fassungen.",
+     "explanation": "Van Gogh malte eine ganze Serie."
+    },
+    {
+     "text": "Van Gogh verkaufte seine Sonnenblumen zu Lebzeiten für ein Vermögen.",
+     "explanation": "Zu Lebzeiten verkaufte er so gut wie nichts."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "um 1503–1519",
+   "museum": "Louvre, Paris",
+   "teaser": "Das berühmteste Lächeln der Welt beruht auf Umrissen, die du nicht siehst.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Es ist das berühmteste Gemälde der Welt, und es ist klein: 77 mal 53 Zentimeter, gemalt auf eine Tafel aus Pappelholz. Viele Besucher im Louvre staunen, wie klein es ist."
+    },
+    {
+     "type": "text",
+     "text": "Um 1503 bat in Florenz ein Seidenhändler namens Francesco del Giocondo Leonardo da Vinci, seine Frau zu porträtieren: Lisa Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "Die Mona Lisa ist das Bildnis von Lisa Gherardini, der Frau eines Florentiner Kaufmanns. „Mona“ ist einfach die Anrede „Frau“."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo war nicht nur Maler. Er war auch Ingenieur, Anatom und Erfinder und hinterließ Tausende Notizbuchseiten in Spiegelschrift."
+    },
+    {
+     "type": "tour",
+     "text": "Betrachte sie zuerst als Ganzes. Dann komm näher an das heran, was sie zur Legende gemacht hat.",
+     "spots": [
+      {
+       "title": "Das Lächeln",
+       "text": "Such die Linie, die die Lippen zeichnet: Es gibt keine. Die Mundwinkel lösen sich im Schatten auf. Deshalb scheint sich das Lächeln zu verändern."
+      },
+      {
+       "title": "Die Augen",
+       "text": "Derselbe Trick: Die Augenwinkel verschwimmen im Schatten. Fällt dir auch auf, dass sie weder Augenbrauen noch Wimpern hat?"
+      },
+      {
+       "title": "Die Hände",
+       "text": "Entspannt ruht die eine auf der anderen. Leonardo sezierte Leichen, um Knochen und Muskeln zu verstehen: Diese Hände haben Gewicht."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Diese Unschärfe hat einen Namen: Sfumato, vom italienischen „fumo“, Rauch. Leonardo legt Dutzende hauchdünne, fast durchsichtige Farbschichten übereinander. Die Umrisse verschwinden, und die Formen gehen ineinander über."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato bedeutet weiche, rauchige Umrisse. Deshalb lässt sich das Lächeln nicht festhalten."
+    },
+    {
+     "type": "text",
+     "text": "Probier es selbst aus. Schau ihr in die Augen, und der Mund scheint zu lächeln. Schau direkt auf den Mund, und das Lächeln verblasst. Das bewirken allein die Schatten in den Mundwinkeln."
+    },
+    {
+     "type": "find",
+     "text": "In diesem Gesicht fehlt etwas. Tippe auf die Stelle, wo es sein müsste.",
+     "spots": [
+      {
+       "title": "Die Augenbrauen",
+       "text": "Sie hat weder Augenbrauen noch Wimpern. Mode der Zeit oder Farbe, die bei alten Reinigungen abgerieben wurde? Darüber streiten die Fachleute bis heute."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Achte jetzt auf die Haltung. Vor Leonardo zeigten Porträts meist das Profil oder endeten an der Brust. Er zeigt die Figur bis zur Taille, im Dreiviertelprofil uns zugewandt, mitsamt den Händen."
+    },
+    {
+     "type": "fact",
+     "text": "Der junge Raffael sah das Bildnis in Leonardos Werkstatt und übernahm die Haltung sofort in seine eigenen Werke."
+    },
+    {
+     "type": "lines",
+     "text": "Eine ruhige Haltung, eine seltsame Landschaft. Sieh dir an, wie alles aufgebaut ist.",
+     "lines": [
+      {
+       "label": "Die Pyramide",
+       "text": "Oben der Kopf, unten Arme und Hände. Eine breite, stabile Form: Sie bewegt sich nicht, sie ruht in sich."
+      },
+      {
+       "label": "Der Horizont links",
+       "text": "Links liegt die Wasserlinie der Landschaft ungefähr hier."
+      },
+      {
+       "label": "Der Horizont rechts",
+       "text": "Rechts liegt sie höher. Die beiden Hälften der Landschaft passen nicht zusammen, und daher rührt ein Teil der Fremdheit des Bildes."
+      },
+      {
+       "label": "Der Weg",
+       "text": "Eine gewundene Linie, die den Blick in die Ferne führt, wie die Flüsse auf der rechten Seite."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Die Landschaft ist kein realer Ort. Sie ist eine Traumwelt aus Felsen, Wasser und Nebel, ohne Häuser und ohne Menschen. Nur eines darin ist von Menschenhand gebaut."
+    },
+    {
+     "type": "find",
+     "text": "In dieser leeren Landschaft gibt es ein einziges Bauwerk von Menschenhand. Wo ist die Brücke?",
+     "spots": [
+      {
+       "title": "Die Brücke",
+       "text": "Eine kleine Steinbrücke mit mehreren Bögen. Sie ist das einzige Zeichen menschlicher Gegenwart in der ganzen Landschaft."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Der Hintergrund folgt einer Regel, die Leonardo selbst aufgeschrieben hat: der Luftperspektive. Die Luft ist nie ganz klar. Je weiter etwas entfernt ist, desto blauer, blasser und dunstiger wirkt es."
+    },
+    {
+     "type": "key",
+     "text": "Luftperspektive: Was fern ist, wirkt blauer, blasser und verschwommener. Leonardo gehörte zu den Ersten, die das bewusst malten."
+    },
+    {
+     "type": "palette",
+     "text": "Braun, Grün, ein wenig Gold. Alter Firnis hat alles vergilbt. Tippe auf eine Farbe.",
+     "swatches": [
+      {
+       "name": "Die Schatten",
+       "text": "Das Kleid, das Haar, der Schleier. Fast das halbe Bild liegt im Halbdunkel."
+      },
+      {
+       "name": "Die Haut",
+       "text": "Gesicht, Brust und Hände: die drei hellen Stellen, angeordnet in einem Dreieck."
+      },
+      {
+       "name": "Graugrüner Himmel",
+       "text": "Ursprünglich blauer. Der vergilbte Firnis hat ihn ins Grünliche verschoben."
+      },
+      {
+       "name": "Braune Erde",
+       "text": "Die Felsen und Wege der Landschaft, links und rechts ihrer Schultern."
+      },
+      {
+       "name": "Grüne Ferne",
+       "text": "Das Wasser und die Berge, gedämpft durch die Entfernung."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo hat das Bild nie abgeliefert. Er behielt es, überarbeitete es jahrelang und nahm es mit nach Frankreich, als König Franz I. ihn dorthin einlud. Nach seinem Tod 1519 kam das Bildnis in die königliche Sammlung. Deshalb hängt es heute im Louvre."
+    },
+    {
+     "type": "text",
+     "text": "Lange war es ein Meisterwerk unter vielen. Weltberühmt wurde es durch ein Verbrechen: Am 21. August 1911 nahm ein italienischer Handwerker, Vincenzo Peruggia, es von der Wand und spazierte damit unter seinem Kittel hinaus."
+    },
+    {
+     "type": "fact",
+     "text": "Solange das Bild verschwunden war, standen die Menschen im Louvre Schlange, nur um die leere Stelle an der Wand zu sehen."
+    },
+    {
+     "type": "text",
+     "text": "Zeitungen in aller Welt druckten ihr Bild. Als sie 1913 in Florenz wieder auftauchte, war die Mona Lisa nicht mehr bloß ein Gemälde. Sie war ein Star."
+    },
+    {
+     "type": "key",
+     "text": "Ihre Genialität verdankt die Mona Lisa Leonardo, ihren Ruhm einem Diebstahl."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Das Lächeln",
+       "text": "Such die Linie, die die Lippen zeichnet: Es gibt keine. Die Mundwinkel lösen sich im Schatten auf. Deshalb scheint sich das Lächeln zu verändern."
+      },
+      {
+       "title": "Die Augen",
+       "text": "Derselbe Trick: Die Augenwinkel verschwimmen im Schatten. Fällt dir auch auf, dass sie weder Augenbrauen noch Wimpern hat?"
+      },
+      {
+       "title": "Die Hände",
+       "text": "Entspannt ruht die eine auf der anderen. Leonardo sezierte Leichen, um Knochen und Muskeln zu verstehen: Diese Hände haben Gewicht."
+      },
+      {
+       "title": "Die Brücke",
+       "text": "Eine kleine Steinbrücke mit mehreren Bögen. Sie ist das einzige Zeichen menschlicher Gegenwart in der ganzen Landschaft."
+      },
+      {
+       "title": "Der Weg",
+       "text": "Ein Weg, der sich zu einem See hinschlängelt. Die Landschaft ist kein realer Ort: Leonardo erfindet sie aus seinen Studien von Felsen und Wasser."
+      },
+      {
+       "title": "Der Schleier",
+       "text": "Ein durchsichtiger Schleier bedeckt ihr Haar. Er ist so fein, dass du ihn auf der Stirn kaum erkennst."
+      },
+      {
+       "title": "Die Ferne",
+       "text": "Je weiter die Berge entfernt sind, desto blauer und dunstiger werden sie. Leonardo bemerkte, dass die Luft selbst eine Farbe hat."
+      },
+      {
+       "title": "Der Ärmel",
+       "text": "Enge goldene Falten, eine nach der anderen gemalt. Das Kleid ist dunkel, und sie trägt keinen Schmuck: Nichts soll vom Gesicht ablenken."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Wer ist die Frau auf dem Bildnis?",
+     "options": [
+      "Eine Königin von Frankreich",
+      "Lisa Gherardini, die Frau eines Florentiner Kaufmanns",
+      "Leonardos Mutter"
+     ],
+     "explanation": "Ihr Mann, Francesco del Giocondo, gab das Bildnis in Auftrag."
+    },
+    {
+     "question": "Wie heißt die Technik der weichen, rauchigen Umrisse?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointillismus"
+     ],
+     "explanation": "Von „fumo“, italienisch für Rauch."
+    },
+    {
+     "question": "Worauf ist die Mona Lisa gemalt?",
+     "options": [
+      "Auf eine Leinwand",
+      "Auf eine Tafel aus Pappelholz",
+      "Auf eine verputzte Wand"
+     ],
+     "explanation": "Eine Pappelholztafel von 77 mal 53 Zentimetern."
+    },
+    {
+     "question": "Was geschieht mit Dingen in der Ferne?",
+     "options": [
+      "Sie werden leuchtender",
+      "Sie werden blauer, blasser und dunstiger",
+      "Ihre Umrisse werden schärfer"
+     ],
+     "explanation": "Das ist die Luftperspektive."
+    },
+    {
+     "question": "Warum befindet sich das Bild in Frankreich?",
+     "options": [
+      "Napoleon hat es aus Italien mitgenommen",
+      "Leonardo brachte es mit, und es kam in die königliche Sammlung",
+      "Der Louvre hat es 1911 gekauft"
+     ],
+     "explanation": "Leonardo kam auf Einladung von König Franz I. nach Frankreich."
+    },
+    {
+     "question": "Was machte die Mona Lisa weltberühmt?",
+     "options": [
+      "Ihr Diebstahl aus dem Louvre 1911",
+      "Eine Ausstellung in New York",
+      "Ihre Restaurierung"
+     ],
+     "explanation": "Gestohlen von Vincenzo Peruggia, wiedergefunden 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Die Mona Lisa ist auf Leinwand gemalt.",
+     "explanation": "Sie ist auf eine Tafel aus Pappelholz gemalt."
+    },
+    {
+     "text": "Die Mona Lisa wurde 1911 aus dem Louvre gestohlen.",
+     "explanation": "Zwei Jahre später wurde sie wiedergefunden."
+    },
+    {
+     "text": "Die Mona Lisa hat dichte, dunkle Augenbrauen.",
+     "explanation": "Sie hat überhaupt keine Augenbrauen und keine Wimpern."
+    }
+   ]
+  }
+ }
+}

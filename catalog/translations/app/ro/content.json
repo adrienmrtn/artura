@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Renașterea",
+   "period": "secolele XV–XVI",
+   "summary": "Perspectivă și întoarcerea la antichitate",
+   "description": "În Italia, apoi în toată Europa, artiștii redescoperă antichitatea, studiază corpul omenesc și inventează perspectiva. Tabloul devine o fereastră deschisă spre lume."
+  },
+  "siecledor": {
+   "name": "Epoca de aur olandeză",
+   "period": "secolul al XVII-lea",
+   "summary": "Viața de zi cu zi și lumina",
+   "description": "În prospera Republică Olandeză, artiștii pictează pentru casele burghezilor: interioare liniștite, portrete, naturi moarte. Lumina devine adevăratul subiect."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "secolele XVII–XIX",
+   "summary": "Stampe din „lumea plutitoare”",
+   "description": "În Japonia, stampele gravate în lemn și tipărite în serii înfățișează actori, peisaje și scene din viața de zi cu zi. Culorile lor plate și cadrajele îndrăznețe aveau să-i zguduie pe pictorii europeni."
+  },
+  "impressionnisme": {
+   "name": "Impresionism",
+   "period": "anii 1870–1880",
+   "summary": "Lumina clipei pe pânză",
+   "description": "Un grup de pictori părăsește atelierul și lucrează în aer liber, din tușe mici și rapide. Nu mai caută detaliul, ci efectul luminii într-un moment anume."
+  },
+  "postimp": {
+   "name": "Postimpresionism",
+   "period": "1886–1905",
+   "summary": "Întâi culoarea și emoția",
+   "description": "După impresionism, fiecare își caută drumul. Culoarea nu mai imită realitatea: ea exprimă ce simte pictorul."
+  },
+  "secession": {
+   "name": "Secesiunea vieneză",
+   "period": "În jurul anului 1900",
+   "summary": "Aur, ornament și linii curbe",
+   "description": "La Viena, artiștii tineri rup cu Academia. Ei îmbină pictura, decorația și meșteșugul și fac din ornament un limbaj de sine stătător."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Noapte înstelată",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "Muzeul de Artă Modernă, New York",
+   "teaser": "Un cer în vârtejuri, pictat din memorie într-o cameră de azil.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Iunie 1889. Vincent van Gogh are 36 de ani. Cu o lună în urmă, după o criză gravă la Arles, s-a internat de bunăvoie în azilul de la Saint-Rémy-de-Provence, în sudul Franței."
+    },
+    {
+     "type": "text",
+     "text": "Camera lui dă spre est. Pe fereastră vede un lan de grâu, dealurile Alpilles și, înainte de zori, cerul. Pictează priveliștea asta iar și iar, la toate orele zilei."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh s-a apucat de pictură abia la 27 de ani. În vreo zece ani a făcut în jur de 900 de tablouri, uneori câte unul pe zi."
+    },
+    {
+     "type": "tour",
+     "text": "Iată cel mai faimos dintre cerurile acelea. Privește-l în întregime, apoi atinge ca să intri în el.",
+     "spots": [
+      {
+       "title": "Vârtejul",
+       "text": "În mijloc, două valuri mari se încolăcesc unul în altul. Niciun cer adevărat nu arată așa: el pictează ce simte, nu ce vede."
+      },
+      {
+       "title": "Luna",
+       "text": "Un corn portocaliu într-o aureolă galbenă. Aproape că pare un soare. Van Gogh așază vopseaua în tușe scurte care se rotesc în jurul ei."
+      },
+      {
+       "title": "Luceafărul",
+       "text": "Cea mai albă lumină din tablou. Van Gogh i-a scris fratelui său că văzuse luceafărul de dimineață, foarte mare, înainte de răsărit. Cel mai probabil e Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tabloul nu a fost pictat noaptea și nici cu priveliștea în față. Van Gogh l-a făcut ziua, în atelierul de la azil, din memorie și din imaginație. Pentru el era ceva neobișnuit: de regulă picta ce avea sub ochi."
+    },
+    {
+     "type": "key",
+     "text": "Noapte înstelată a fost pictată ziua, din memorie. Nu e o priveliște. E o viziune."
+    },
+    {
+     "type": "text",
+     "text": "Visa de mult la un cer de noapte. Cu un an înainte scrisese că, ori de câte ori se uita la stele, începea să viseze."
+    },
+    {
+     "type": "find",
+     "text": "Un detaliu din acest peisaj vine direct din copilăria lui în Țările de Jos. Unde e turla?",
+     "spots": [
+      {
+       "title": "Turla",
+       "text": "O turlă subțire și ascuțită, ca acelea din satele olandeze în care a crescut Van Gogh. Clopotnițele din Provence nu arată deloc așa."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Și satul e inventat, sau cel puțin mutat: de la fereastra lui nu avea cum să-l vadă. Van Gogh pune laolaltă un cer adevărat, dealuri adevărate și un sat din amintire."
+    },
+    {
+     "type": "fact",
+     "text": "Fereastra lui de la azil avea gratii de fier. Le-a lăsat deoparte în toate tablourile cu priveliștea aceasta."
+    },
+    {
+     "type": "lines",
+     "text": "Tabloul pare agitat. De fapt, e construit cu mare grijă.",
+     "lines": [
+      {
+       "label": "Verticala chiparosului",
+       "text": "Străbate tot tabloul, de la pământ până la marginea de sus, și dă măsura: cerul e imens."
+      },
+      {
+       "label": "Ecoul ei: turla",
+       "text": "O a doua verticală, minusculă, care îi răspunde chiparosului. Una e făcută de natură, cealaltă de om."
+      },
+      {
+       "label": "Valul de pe cer",
+       "text": "Ochiul urmează acest S de la stânga la dreapta, până la lună."
+      },
+      {
+       "label": "Panta dealurilor",
+       "text": "O diagonală care coboară spre sat și îl adăpostește, ca un braț."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Acum uită-te la pensulație. Nicio trecere lină de la o culoare la alta. Tușe scurte și groase stau una lângă alta, fiecare îndreptată într-o direcție. Mișcarea se naște chiar din tușa de pensulă."
+    },
+    {
+     "type": "text",
+     "text": "Pictorii numesc vopseaua așezată atât de gros „impasto”. Van Gogh stoarcea uneori culoarea aproape direct din tub. Văzută de aproape, suprafața pânzei e aspră ca o hartă în relief."
+    },
+    {
+     "type": "tour",
+     "title": "De aproape",
+     "text": "Hai să ne apropiem de vopseaua însăși.",
+     "spots": [
+      {
+       "title": "Vopseaua",
+       "text": "Uite cât e de groasă: stă în tușe scurte și grele, aproape în relief. Asta se numește impasto."
+      },
+      {
+       "title": "Chiparosul",
+       "text": "Întunecat și răsucit ca o flacără, leagă pământul de cer. În sudul Franței e copacul cimitirelor. Lui Van Gogh i se părea la fel de frumos ca un obelisc egiptean."
+      },
+      {
+       "title": "Dealurile",
+       "text": "Alpilles. Se rostogolesc ca niște valuri, purtate de aceeași mișcare ca cerul."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Chiparosul contează. E forma cea mai întunecată din tablou și singura care atinge și pământul, și vârful cerului. În vara aceea, Van Gogh era fascinat de acești copaci."
+    },
+    {
+     "type": "palette",
+     "text": "Albastru, galben și aproape nimic altceva. Atinge o culoare.",
+     "swatches": [
+      {
+       "name": "Albastru adânc",
+       "text": "Adâncimea cerului și a dealurilor. Van Gogh a folosit ultramarin și albastru de cobalt."
+      },
+      {
+       "name": "Albastru deschis",
+       "text": "Vârtejurile. Așezat în tușe groase, face cerul să se rotească."
+      },
+      {
+       "name": "Galben",
+       "text": "Luna, stelele, ferestrele. O parte minusculă din suprafață, și totuși luminează totul."
+      },
+      {
+       "name": "Negru-verzui",
+       "text": "Chiparosul și umbrele satului. Masa cea mai întunecată din tablou."
+      },
+      {
+       "name": "Alb-verzui",
+       "text": "Aureolele din jurul stelelor: ele le fac să sclipească."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Albastrul și galbenul stau aproape față în față pe cercul culorilor. Puse una lângă alta, fiecare o face pe cealaltă să pară mai puternică. Van Gogh știa asta și se folosea de ea ca să-și facă nopțile să vibreze."
+    },
+    {
+     "type": "key",
+     "text": "Culorile opuse, puse una lângă alta, se întăresc reciproc. De aceea stelele galbene ard pe fondul albastru."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh i-a spus fratelui său că văzuse luceafărul de dimineață, foarte mare. Atinge cea mai albă lumină din tablou.",
+     "spots": [
+      {
+       "title": "Luceafărul",
+       "text": "Cea mai albă lumină din tablou. Van Gogh i-a scris fratelui său că văzuse luceafărul de dimineață, foarte mare, înainte de răsărit. Cel mai probabil e Venus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Și ce credea el despre tablou? Nu mare lucru. În scrisori îl numește un simplu studiu de noapte și se îndoiește de pânzele acestea pictate din imaginație."
+    },
+    {
+     "type": "fact",
+     "text": "Cât a trăit, Van Gogh n-a vândut aproape nimic. Fratele lui, Theo, negustor de artă, îl întreținea cu bani și cu vopsele."
+    },
+    {
+     "type": "text",
+     "text": "A murit treisprezece luni mai târziu, în iulie 1890, la 37 de ani. Noapte înstelată a intrat în colecția Muzeului de Artă Modernă din New York în 1941."
+    },
+    {
+     "type": "key",
+     "text": "La Van Gogh, tușa e subiectul: fiecare tușă are o direcție, și tocmai asta pune cerul în mișcare."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Vârtejul",
+       "text": "În mijloc, două valuri mari se încolăcesc unul în altul. Niciun cer adevărat nu arată așa: el pictează ce simte, nu ce vede."
+      },
+      {
+       "title": "Luna",
+       "text": "Un corn portocaliu într-o aureolă galbenă. Aproape că pare un soare. Van Gogh așază vopseaua în tușe scurte care se rotesc în jurul ei."
+      },
+      {
+       "title": "Luceafărul",
+       "text": "Cea mai albă lumină din tablou. Van Gogh i-a scris fratelui său că văzuse luceafărul de dimineață, foarte mare, înainte de răsărit. Cel mai probabil e Venus."
+      },
+      {
+       "title": "Chiparosul",
+       "text": "Întunecat și răsucit ca o flacără, leagă pământul de cer. În sudul Franței e copacul cimitirelor. Lui Van Gogh i se părea la fel de frumos ca un obelisc egiptean."
+      },
+      {
+       "title": "Turla",
+       "text": "O turlă subțire și ascuțită, ca acelea din satele olandeze în care a crescut Van Gogh. Clopotnițele din Provence nu arată deloc așa."
+      },
+      {
+       "title": "Satul",
+       "text": "Câteva ferestre galbene, aprinse. Din camera lui nu vedea satul acesta: l-a adăugat din memorie."
+      },
+      {
+       "title": "Dealurile",
+       "text": "Alpilles. Se rostogolesc ca niște valuri, purtate de aceeași mișcare ca cerul."
+      },
+      {
+       "title": "Vopseaua",
+       "text": "Uite cât e de groasă: stă în tușe scurte și grele, aproape în relief. Asta se numește impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Unde se afla Van Gogh când a pictat Noapte înstelată?",
+     "options": [
+      "La Paris",
+      "La azilul din Saint-Rémy-de-Provence",
+      "La Amsterdam"
+     ],
+     "explanation": "Se internase acolo de bunăvoie cu o lună înainte."
+    },
+    {
+     "question": "Cum a fost pictat tabloul?",
+     "options": [
+      "Noaptea, cu priveliștea în față",
+      "Ziua, din memorie și din imaginație",
+      "După o fotografie"
+     ],
+     "explanation": "Ziua, în atelierul lui de la azil."
+    },
+    {
+     "question": "Ce detaliu amintește de Țările de Jos?",
+     "options": [
+      "Chiparosul",
+      "Turla ascuțită",
+      "Dealurile"
+     ],
+     "explanation": "O turlă ca acelea din satele în care a crescut."
+    },
+    {
+     "question": "Ce înseamnă „impasto”?",
+     "options": [
+      "Vopsea foarte groasă, aproape în relief",
+      "Un strat subțire și transparent",
+      "O schiță în cărbune"
+     ],
+     "explanation": "Tușe scurte și grele, care ies în relief din pânză."
+    },
+    {
+     "question": "De ce par stelele galbene atât de strălucitoare?",
+     "options": [
+      "Sunt pictate cu aur",
+      "Galbenul stă lângă opusul lui, albastrul",
+      "Pânza e luminată din spate"
+     ],
+     "explanation": "Culorile opuse, puse una lângă alta, se întăresc reciproc."
+    },
+    {
+     "question": "Ce a lăsat Van Gogh deoparte din tablourile cu această priveliște?",
+     "options": [
+      "Gratiile de la fereastră",
+      "Luna",
+      "Dealurile"
+     ],
+     "explanation": "Fereastra lui de la azil avea gratii de fier."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh a pictat Noapte înstelată afară, în miez de noapte.",
+     "explanation": "A pictat-o ziua, din memorie, la azilul din Saint-Rémy."
+    },
+    {
+     "text": "Noapte înstelată se află la New York.",
+     "explanation": "Este la Muzeul de Artă Modernă din 1941."
+    },
+    {
+     "text": "Van Gogh a vândut multe tablouri și a murit bogat.",
+     "explanation": "N-a vândut aproape nimic; fratele lui, Theo, îl întreținea."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Fata cu cercel de perlă",
+   "artist": "Johannes Vermeer",
+   "yearLabel": "cca 1665",
+   "museum": "Mauritshuis, Haga",
+   "teaser": "O privire peste umăr, și nimeni nu știe cine e ea.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Chipul acesta îl cunoști. Și totuși nu e un portret: nimeni nu știe cine e ea, iar Vermeer probabil nici n-a vrut să picteze pe cineva anume."
+    },
+    {
+     "type": "text",
+     "text": "În Țările de Jos ale secolului al XVII-lea, genul acesta de tablou avea un nume: „tronie”, un studiu de chip. Pictorul se folosea de el ca să exploreze o expresie, un costum exotic, un efect de lumină. Aici, pe toate trei deodată."
+    },
+    {
+     "type": "key",
+     "text": "O tronie e un chip imaginat, un pretext ca să pictezi o expresie și o lumină. Nu e portretul unei persoane reale."
+    },
+    {
+     "type": "tour",
+     "text": "Mai întâi, privește tabloul întreg: un chip care iese din întuneric. Atinge ca să te apropii.",
+     "spots": [
+      {
+       "title": "Privirea",
+       "text": "Se întoarce spre tine de parcă tocmai ai strigat-o pe nume. Un singur punct alb în fiecare ochi ajunge ca privirea să pară umedă și vie."
+      },
+      {
+       "title": "Gura",
+       "text": "Ușor întredeschisă, ca la mijlocul unei fraze. Uită-te la punctul luminos minuscul din colțul buzelor: o singură atingere de pensulă, și gura lucește."
+      },
+      {
+       "title": "Perla",
+       "text": "Două tușe, nimic mai mult: o lumină albă sus, reflexul cenușiu al gulerului jos. Niciun contur, niciun cârlig. Perla o construiește ochiul tău."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tot tabloul se sprijină pe o singură mișcare: ea se întoarce. Trupul e din profil, chipul vine spre noi. Parcă am fi surprins-o, sau parcă e gata să plece. De aici vine toată viața ei."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer și-a petrecut toată viața la Delft, un mic oraș olandez. Picta încet, avea unsprezece copii de hrănit și a murit plin de datorii, la 43 de ani."
+    },
+    {
+     "type": "text",
+     "text": "Uită-te la turban. Nicio fată olandeză nu se îmbrăca așa. E un costum, o adiere a Orientului îndepărtat, care îi fascina pe pictorii vremii."
+    },
+    {
+     "type": "find",
+     "text": "Pe chipul ei cade o singură sursă de lumină. Unde ajunge? Atinge partea cea mai luminoasă a feței.",
+     "spots": [
+      {
+       "title": "Obrazul",
+       "text": "Lumina vine din stânga, puțin de sus. Atinge fruntea, obrazul și nasul, apoi lasă cealaltă jumătate a feței să alunece în umbră."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer nu desenează aproape niciun contur. Uită-te la șaua nasului: nu e nicio linie, doar un obraz luminat care întâlnește o umbră. Chipul e făcut din lumină, nu din linii."
+    },
+    {
+     "type": "key",
+     "text": "Lumină din stânga, umbre moi, niciun contur apăsat: asta e semnătura lui Vermeer."
+    },
+    {
+     "type": "lines",
+     "text": "Cum se ține laolaltă un tablou atât de simplu? Trei linii lămuresc totul.",
+     "lines": [
+      {
+       "label": "Lumina",
+       "text": "Vine din stânga sus, ca de la o fereastră pe care n-o vedem."
+      },
+      {
+       "label": "Triunghiul",
+       "text": "Din vârful turbanului până la cei doi umeri: o formă stabilă, bine așezată, care echilibrează întoarcerea capului."
+      },
+      {
+       "label": "Căderea",
+       "text": "Pânza galbenă cade în dreapta și echilibrează chipul întors spre stânga."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Acum, albastrul. Vermeer a folosit ultramarin natural, obținut prin măcinarea lapislazuliului. Fiindcă era atât de scump, majoritatea pictorilor îl păstrau pentru mantia Fecioarei Maria. El l-a pus peste tot, chiar și în umbre."
+    },
+    {
+     "type": "fact",
+     "text": "Lapislazuliul venea din minele aflate în ceea ce este azi Afganistan. Numele „ultramarin” înseamnă „de dincolo de mare”."
+    },
+    {
+     "type": "palette",
+     "text": "Cinci culori alcătuiesc aproape tot tabloul. Atinge una ca să vezi unde se ascunde.",
+     "swatches": [
+      {
+       "name": "Fundalul întunecat",
+       "text": "Mai mult de jumătate din suprafață. Cândva o draperie verde-închis, azi aproape neagră."
+      },
+      {
+       "name": "Ultramarin",
+       "text": "Albastrul lapislazuliului. Ocupă foarte puțin loc, și totuși doar pe el îl vedem."
+      },
+      {
+       "name": "Ocru brun",
+       "text": "Umbrele hainei și ale pânzei galbene: o culoare de pământ, caldă și ieftină."
+      },
+      {
+       "name": "Rozul pielii",
+       "text": "Partea cea mai luminoasă a tabloului. Acolo ne fuge privirea mai întâi."
+      },
+      {
+       "name": "Galben",
+       "text": "Pe haină și pe căderea turbanului. Îi răspunde albastrului."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "În 1994, tabloul a fost restaurat. Sub un vernis îngălbenit, restauratorii au găsit culori mai proaspete și micul punct luminos din colțul buzelor, pe care nu-l mai vedea nimeni."
+    },
+    {
+     "type": "text",
+     "text": "Și fundalul? Azi pare plat și negru. Analizele științifice au arătat că Vermeer pictase acolo o draperie verde-închis. Pigmenții verzi s-au degradat cu timpul."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer și-a semnat tabloul. Dar unde? Uită-te atent, aproape că nu se vede.",
+     "spots": [
+      {
+       "title": "Semnătura",
+       "text": "„IVMeer”, în stânga sus. Pictată într-un ton deschis pe fundalul întunecat, aproape s-a șters cu timpul."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Oare perla e chiar o perlă? E uriașă. Unii specialiști cred că era din sticlă lăcuită sau din cositor lustruit. Nici nu prea contează: în pictură e o picătură de lumină, și doar asta voia Vermeer."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer nu pictează obiecte. Pictează lumina care cade pe ele. Perla e făcută din două atingeri de alb."
+    },
+    {
+     "type": "text",
+     "text": "Cunoaștem doar vreo 37 de tablouri de Vermeer. După moarte, a fost aproape uitat timp de două secole."
+    },
+    {
+     "type": "fact",
+     "text": "În 1881, un colecționar a cumpărat tabloul la licitație cu doi guldeni, adică pe nimic. L-a lăsat muzeului Mauritshuis în 1902."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Privirea",
+       "text": "Se întoarce spre tine de parcă tocmai ai strigat-o pe nume. Un singur punct alb în fiecare ochi ajunge ca privirea să pară umedă și vie."
+      },
+      {
+       "title": "Gura",
+       "text": "Ușor întredeschisă, ca la mijlocul unei fraze. Uită-te la punctul luminos minuscul din colțul buzelor: o singură atingere de pensulă, și gura lucește."
+      },
+      {
+       "title": "Perla",
+       "text": "Două tușe, nimic mai mult: o lumină albă sus, reflexul cenușiu al gulerului jos. Niciun contur, niciun cârlig. Perla o construiește ochiul tău."
+      },
+      {
+       "title": "Turbanul albastru",
+       "text": "Ultramarin adevărat, făcut din lapislazuli, o piatră adusă tocmai din Afganistan. Pe atunci, pigmentul acesta costa mai mult decât aurul."
+      },
+      {
+       "title": "Căderea galbenă",
+       "text": "Pânza galbenă îi cade pe spate ca o flacără. Albastru și galben: Vermeer iubea perechea asta și a folosit-o în tablou după tablou."
+      },
+      {
+       "title": "Gulerul alb",
+       "text": "O dungă de alb așternută dintr-un singur gest. E gulerul care se reflectă în partea de jos a perlei."
+      },
+      {
+       "title": "Semnătura",
+       "text": "„IVMeer”, în stânga sus. Pictată într-un ton deschis pe fundalul întunecat, aproape s-a șters cu timpul."
+      },
+      {
+       "title": "Fundalul",
+       "text": "Nu a fost mereu negru. Analizele arată că Vermeer a pictat aici o draperie verde-închis. Verdele a dispărut de-a lungul secolelor."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Ce este o „tronie”?",
+     "options": [
+      "Un portret comandat",
+      "Un studiu al unui chip imaginat",
+      "Un autoportret"
+     ],
+     "explanation": "Un pretext ca să pictezi o expresie și o lumină, nu o persoană reală."
+    },
+    {
+     "question": "De unde vine albastrul turbanului?",
+     "options": [
+      "Dintr-o plantă, indigoul",
+      "Dintr-o piatră, lapislazuliul",
+      "Dintr-o scoică"
+     ],
+     "explanation": "Lapislazuliul măcinat dă ultramarinul natural, pe atunci mai scump decât aurul."
+    },
+    {
+     "question": "Cum e pictată perla?",
+     "options": [
+      "Cu un contur precis și un cârlig",
+      "Cu două atingeri de lumină și fără contur",
+      "Cu foiță de argint"
+     ],
+     "explanation": "O lumină albă, un reflex cenușiu: restul îl face ochiul tău."
+    },
+    {
+     "question": "De unde vine lumina?",
+     "options": [
+      "Din stânga",
+      "Din dreapta",
+      "De jos"
+     ],
+     "explanation": "Din stânga sus, ca de la o fereastră nevăzută."
+    },
+    {
+     "question": "Ce era la început în fundal?",
+     "options": [
+      "O draperie verde-închis",
+      "O fereastră",
+      "Un perete aurit"
+     ],
+     "explanation": "Pigmenții verzi s-au degradat de-a lungul secolelor."
+    },
+    {
+     "question": "Unde și-a petrecut Vermeer toată viața?",
+     "options": [
+      "La Amsterdam",
+      "La Delft",
+      "La Haga"
+     ],
+     "explanation": "A trăit și a lucrat în micul oraș Delft."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Știm cum o chema pe fata care a pozat.",
+     "explanation": "Identitatea ei nu se cunoaște: tabloul e o tronie."
+    },
+    {
+     "text": "Albastrul turbanului vine dintr-o piatră, lapislazuliul.",
+     "explanation": "Măcinat, dă ultramarinul natural."
+    },
+    {
+     "text": "Perla e pictată cu un contur atent și detaliat.",
+     "explanation": "E făcută doar din două atingeri de vopsea deschisă, fără niciun contur."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Marele val de la Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "cca 1831",
+   "museum": "Xilogravură · numeroase exemplare",
+   "teaser": "Un val uriaș și, departe în fundal, minuscul, muntele Fuji.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Nu e o pictură. E o stampă: o imagine sculptată în blocuri de lemn, acoperită cu tuș, apoi presată pe hârtie. Așa că nu există un singur Mare val. Există mii."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai a publicat-o pe la 1831. Avea vreo 70 de ani și desena de mic copil. Cu ea începe o serie care avea să devină celebră: Treizeci și șase de vederi ale muntelui Fuji."
+    },
+    {
+     "type": "key",
+     "text": "Marele val e o xilogravură, tipărită în mii de exemplare. Multe muzee din lume au câte una."
+    },
+    {
+     "type": "fact",
+     "text": "O stampă ca aceasta era ieftină. Pe vremea lui Hokusai costa cam cât un castron de tăiței."
+    },
+    {
+     "type": "find",
+     "text": "Seria se numește Treizeci și șase de vederi ale muntelui Fuji. Și atunci, unde e muntele Fuji?",
+     "spots": [
+      {
+       "title": "Muntele Fuji",
+       "text": "Adevăratul subiect al stampei e aici, minuscul. Muntele sacru al Japoniei, cu vârful înzăpezit, stă perfect nemișcat în mijlocul furtunii."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Aici e lovitura de geniu: cel mai înalt munte al Japoniei e mai mic decât valul. Hokusai se joacă cu distanța. Ce e aproape strivește ce e departe, ca într-o fotografie făcută cu un obiectiv cu unghi larg."
+    },
+    {
+     "type": "text",
+     "text": "Muntele Fuji era sacru. Oamenii credeau că ascunde taina nemuririi. Hokusai era obsedat de el și l-a desenat din toate unghiurile, pe orice vreme."
+    },
+    {
+     "type": "tour",
+     "text": "Hai să străbatem imaginea așa cum o face ochiul.",
+     "spots": [
+      {
+       "title": "Spuma",
+       "text": "Uită-te la creasta valului: spuma se termină în degete încârligate, ca niște gheare gata să se strângă peste bărci."
+      },
+      {
+       "title": "Vâslașii",
+       "text": "Pescari aplecați peste vâsle, cu capul în jos. Bărcile acestea rapide duceau pește proaspăt la Edo, orașul pe care azi îl numim Tokyo."
+      },
+      {
+       "title": "Valul mic",
+       "text": "În prim-plan, un val mai mic. Uită-te la forma lui: ascuțit, alb în vârf. E un al doilea munte Fuji."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "În Japonia se citește de la dreapta la stânga. Așa că ochiul intră prin dreapta, odată cu bărcile, și dă drept în val. Pentru un privitor japonez, valul vine din față."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai și-a schimbat numele de peste treizeci de ori în viață. Unul dintre ultimele însemna „Bătrânul nebun după desen”."
+    },
+    {
+     "type": "lines",
+     "text": "O imagine simplă, calculată la milimetru.",
+     "lines": [
+      {
+       "label": "Curba",
+       "text": "Valul desenează un arc uriaș care se închide asupra lui însuși. Toată partea stângă a imaginii e prinsă înăuntru."
+      },
+      {
+       "label": "Triunghiul lui Fuji",
+       "text": "Mic, stabil, ascuțit. Stă exact în scobitura valului."
+      },
+      {
+       "label": "Dublura lui",
+       "text": "Valul mic din prim-plan repetă forma muntelui. Apa imită piatra."
+      },
+      {
+       "label": "Sensul lecturii",
+       "text": "De la dreapta la stânga: alunecăm pe hulă până la Fuji, apoi ridicăm privirea spre val."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Cum a fost făcută? Hokusai a desenat imaginea pe hârtie subțire. Un gravor a lipit desenul pe un bloc de lemn de cireș și a scobit tot ce nu era linie. Apoi un tipograf a dat blocul cu tuș și a presat hârtia pe el."
+    },
+    {
+     "type": "text",
+     "text": "Fiecare culoare avea nevoie de propriul bloc gravat, tipărit unul după altul pe aceeași foaie. De aceea stampele folosesc atât de puține culori."
+    },
+    {
+     "type": "key",
+     "text": "Câte un bloc de lemn pentru fiecare culoare: cu cât sunt mai puține culori, cu atât stampa e mai simplă. Hokusai face din această limită un stil."
+    },
+    {
+     "type": "palette",
+     "text": "Foarte puține culori, pentru că fiecare are nevoie de propriul bloc gravat. Atinge una.",
+     "swatches": [
+      {
+       "name": "Hârtia",
+       "text": "Culoarea cea mai răspândită nici nu e tipărită: e hârtia goală, lăsată albă pentru spumă și zăpadă."
+      },
+      {
+       "name": "Albastru de Prusia",
+       "text": "Albastrul venit din Europa. El desenează valul, dungile și scobiturile lui."
+      },
+      {
+       "name": "Albastru deschis",
+       "text": "Același albastru, diluat. Îi dă apei volum."
+      },
+      {
+       "name": "Cerul nuanțat",
+       "text": "Un bej abia mai închis decât hârtia, care scoate în evidență spuma albă."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Despre albastrul acesta. E albastru de Prusia, un pigment chimic inventat în Europa și abia ajuns în Japonia. E adânc, nu se decolorează și a făcut senzație. Seria îi datorează mult din succesul ei."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai și-a semnat imaginea. Unde? Un indiciu: nu în colțul din dreapta jos.",
+     "spots": [
+      {
+       "title": "Cartușul",
+       "text": "În chenar: titlul seriei și al imaginii, „Sub valul de la Kanagawa”. În stânga lui: semnătura lui Hokusai."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "În anii 1850, Japonia s-a deschis comerțului, iar stampele ei au ajuns în Europa. Pictorii francezi au rămas uluiți: suprafețe plate de culoare, contururi clare, încadraturi îndrăznețe. Monet le colecționa. Van Gogh le copia."
+    },
+    {
+     "type": "key",
+     "text": "Această modă se numește japonism. Fără stampele japoneze, impresionismul n-ar fi arătat la fel."
+    },
+    {
+     "type": "text",
+     "text": "Încă un lucru: nu e un tsunami. E un val din larg, uriaș, dar obișnuit, de felul celor de care se temeau pescarii. Hokusai nu arată o catastrofă. Arată niște oameni mărunți în fața naturii."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Muntele Fuji",
+       "text": "Adevăratul subiect al stampei e aici, minuscul. Muntele sacru al Japoniei, cu vârful înzăpezit, stă perfect nemișcat în mijlocul furtunii."
+      },
+      {
+       "title": "Spuma",
+       "text": "Uită-te la creasta valului: spuma se termină în degete încârligate, ca niște gheare gata să se strângă peste bărci."
+      },
+      {
+       "title": "Vâslașii",
+       "text": "Pescari aplecați peste vâsle, cu capul în jos. Bărcile acestea rapide duceau pește proaspăt la Edo, orașul pe care azi îl numim Tokyo."
+      },
+      {
+       "title": "Valul mic",
+       "text": "În prim-plan, un val mai mic. Uită-te la forma lui: ascuțit, alb în vârf. E un al doilea munte Fuji."
+      },
+      {
+       "title": "Cartușul",
+       "text": "În chenar: titlul seriei și al imaginii, „Sub valul de la Kanagawa”. În stânga lui: semnătura lui Hokusai."
+      },
+      {
+       "title": "Barca de jos",
+       "text": "Se afundă în scobitura valului. Sunt trei bărci cu totul și vreo treizeci de oameni."
+      },
+      {
+       "title": "Cerul",
+       "text": "Aproape gol. Un simplu degradeu, obținut prin ștergerea tușului de pe blocul de lemn înainte de tipărire."
+      },
+      {
+       "title": "Stropii",
+       "text": "Puncte albe cad deasupra lui Fuji. Parcă ar fi zăpadă pe munte."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Ce este Marele val?",
+     "options": [
+      "O pictură în ulei",
+      "O xilogravură",
+      "O acuarelă"
+     ],
+     "explanation": "O stampă, tipărită în mii de exemplare."
+    },
+    {
+     "question": "Din ce serie face parte?",
+     "options": [
+      "O sută de vederi celebre din Edo",
+      "Treizeci și șase de vederi ale muntelui Fuji",
+      "Cele patru anotimpuri"
+     ],
+     "explanation": "Cu ea începe seria lui Hokusai despre muntele Fuji."
+    },
+    {
+     "question": "De unde vine albastrul valului?",
+     "options": [
+      "Din lapislazuli",
+      "Din albastrul de Prusia, adus din Europa",
+      "Din scoici măcinate"
+     ],
+     "explanation": "Un pigment chimic nou în Japonia, adânc și stabil."
+    },
+    {
+     "question": "Ce formă repetă valul mic din prim-plan?",
+     "options": [
+      "Muntele Fuji",
+      "O barcă",
+      "Un nor"
+     ],
+     "explanation": "Apa imită muntele."
+    },
+    {
+     "question": "De ce folosesc stampele atât de puține culori?",
+     "options": [
+      "Culorile erau interzise",
+      "Fiecare culoare are nevoie de propriul bloc gravat",
+      "Hârtia nu putea ține tușul"
+     ],
+     "explanation": "Câte un bloc pentru fiecare culoare, tipărite unul după altul."
+    },
+    {
+     "question": "Cum se numește moda europeană a stampelor japoneze?",
+     "options": [
+      "Japonism",
+      "Orientalism",
+      "Cubism"
+     ],
+     "explanation": "Monet colecționa stampele; Van Gogh le copia."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Din Marele val există un singur exemplar.",
+     "explanation": "E o stampă: s-au tipărit mii de exemplare."
+    },
+    {
+     "text": "Hokusai avea vreo 70 de ani când a făcut-o.",
+     "explanation": "S-a născut în 1760, iar seria a apărut pe la 1831."
+    },
+    {
+     "text": "Marele val înfățișează un tsunami.",
+     "explanation": "E un val mare din larg, nu un tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Nuferi",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Institutul de Artă din Chicago",
+   "teaser": "Niciun orizont: doar apă, flori și cerul care se oglindește în ea.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "La Giverny, Monet a pus să i se sape un iaz în grădină și a plantat nuferi în el. Iazul acesta i-a fost subiect aproape treizeci de ani."
+    },
+    {
+     "type": "image",
+     "caption": "Detaliu · florile care plutesc pe apă."
+    },
+    {
+     "type": "text",
+     "text": "Privește atent: nu e niciun mal și niciun orizont. Nu mai poți spune unde se termină apa și unde începe reflexia cerului."
+    },
+    {
+     "type": "key",
+     "text": "Fără orizont, tabloul devine o suprafață: privim apa așa cum am privi cerul."
+    },
+    {
+     "type": "fact",
+     "text": "Monet plătea grădinari care să îngrijească iazul. Unul dintre ei curăța în fiecare dimineață suprafața apei, înainte ca pictorul să se apuce de lucru."
+    },
+    {
+     "type": "text",
+     "text": "Monet a pictat vreo 250 de pânze cu nuferi. Aceleași flori, dar niciodată aceeași lumină."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Unde și-a pictat Monet nuferii?",
+     "options": [
+      "La Giverny",
+      "La Paris",
+      "La Veneția"
+     ],
+     "explanation": "În grădina propriei case."
+    },
+    {
+     "question": "Ce lipsește din acest tablou?",
+     "options": [
+      "Apa",
+      "Orizontul",
+      "Florile"
+     ],
+     "explanation": "Niciun mal, niciun cer: doar suprafața apei."
+    },
+    {
+     "question": "Câte tablouri cu nuferi a pictat?",
+     "options": [
+      "Vreo zece",
+      "Vreo 250",
+      "Peste 2.000"
+     ],
+     "explanation": "O serie uriașă, de-a lungul a aproape treizeci de ani."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet și-a pictat nuferii o singură dată.",
+     "explanation": "A pictat vreo 250 de versiuni."
+    },
+    {
+     "text": "Iazul cu nuferi se afla chiar în grădina lui Monet.",
+     "explanation": "La Giverny, unde pusese să fie săpat."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impresie, răsărit de soare",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Muzeul Marmottan Monet, Paris",
+   "teaser": "Tabloul care, în glumă, a dat numele unui întreg curent.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Portul din Le Havre, într-o dimineață cu ceață. Monet așterne câteva tușe rapide: bărci, catarge și un soare portocaliu."
+    },
+    {
+     "type": "image",
+     "caption": "Detaliu · soarele și reflexia lui."
+    },
+    {
+     "type": "text",
+     "text": "În 1874, pânza a fost expusă la Paris. Un critic, Louis Leroy, și-a bătut joc de titlu și i-a numit pe acești pictori „impresioniști”."
+    },
+    {
+     "type": "key",
+     "text": "Cuvântul „impresionism” vine de la acest tablou. A început ca o insultă și a ajuns un nume."
+    },
+    {
+     "type": "fact",
+     "text": "Le Havre e orașul în care a crescut Monet. Încă din adolescență era cunoscut acolo pentru caricaturile lui."
+    },
+    {
+     "type": "text",
+     "text": "Tabloul a fost și furat, în 1985, din muzeul Marmottan. A fost găsit cinci ani mai târziu."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Ce port a pictat Monet?",
+     "options": [
+      "Marsilia",
+      "Le Havre",
+      "Veneția"
+     ],
+     "explanation": "Orașul în care a crescut."
+    },
+    {
+     "question": "Cui i-a dat numele acest tablou?",
+     "options": [
+      "Impresionismului",
+      "Unui muzeu",
+      "Unui premiu"
+     ],
+     "explanation": "Un critic a luat în râs titlul, iar cuvântul a rămas."
+    },
+    {
+     "question": "În ce an a fost expus la Paris?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "În acel an și-a bătut joc de el un critic, Louis Leroy."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Cuvântul „impresionist” a fost la început o insultă.",
+     "explanation": "Vine dintr-un articol al criticului Louis Leroy."
+    },
+    {
+     "text": "Tabloul înfățișează portul din Marsilia.",
+     "explanation": "Este portul din Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Sărutul",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belvedere, Viena",
+   "teaser": "Doi îndrăgostiți învăluiți în aur, la marginea unei pajiști înflorite.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt e în plină „perioadă de aur”. Lipește pe pânză foiță de aur adevărată, ca pe o icoană."
+    },
+    {
+     "type": "image",
+     "caption": "Detaliu · cele două chipuri."
+    },
+    {
+     "type": "text",
+     "text": "Uită-te la haine. Veșmântul lui e acoperit cu dreptunghiuri albe și negre. Al ei, cu cercuri și flori."
+    },
+    {
+     "type": "image",
+     "caption": "Detaliu · dreptunghiuri și cercuri."
+    },
+    {
+     "type": "key",
+     "text": "Dreptunghiuri pentru el, cercuri pentru ea: motivele spun povestea cuplului."
+    },
+    {
+     "type": "fact",
+     "text": "Tatăl lui Klimt era gravor în aur. Pictorul a crescut în preajma metalului pe care avea să-l pună mai târziu pe pânzele lui."
+    },
+    {
+     "type": "text",
+     "text": "Statul austriac a cumpărat tabloul în 1908, înainte ca el să fie complet terminat."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Ce material a folosit Klimt?",
+     "options": [
+      "Sidef",
+      "Foiță de aur",
+      "Bronz"
+     ],
+     "explanation": "E semnul distinctiv al perioadei lui de aur."
+    },
+    {
+     "question": "Ce motive acoperă veșmântul bărbatului?",
+     "options": [
+      "Cercuri",
+      "Flori",
+      "Dreptunghiuri"
+     ],
+     "explanation": "Cercurile și florile sunt pentru femeie."
+    },
+    {
+     "question": "Cine a cumpărat tabloul în 1908?",
+     "options": [
+      "Statul austriac",
+      "Un colecționar francez",
+      "Tatăl lui Klimt"
+     ],
+     "explanation": "Înainte ca tabloul să fie complet terminat."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt a folosit foiță de aur adevărată.",
+     "explanation": "Ca în mai multe pânze din perioada lui de aur."
+    },
+    {
+     "text": "Sărutul se află la Paris.",
+     "explanation": "Se află la Viena, la Belvedere."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Floarea-soarelui",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Londra",
+   "teaser": "Galben pe galben: un buchet pictat ca să întâmpine un prieten.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "August 1888, la Arles. Van Gogh îl așteaptă pe prietenul lui, Paul Gauguin, și vrea să-i decoreze camera cu floarea-soarelui."
+    },
+    {
+     "type": "image",
+     "caption": "Detaliu · flori în toate stadiile."
+    },
+    {
+     "type": "text",
+     "text": "Are curajul să folosească aproape o singură culoare: flori galbene, vază galbenă, fundal galben. Totul ține de nuanțe și de grosimea vopselei."
+    },
+    {
+     "type": "key",
+     "text": "Un tablou aproape monocrom: galbenul în toate formele lui."
+    },
+    {
+     "type": "fact",
+     "text": "Floarea-soarelui se ofilește repede. Van Gogh trebuia să picteze iute, din zori, înainte ca florile să-și lase capul în jos."
+    },
+    {
+     "type": "text",
+     "text": "Tabloul are mai multe versiuni. Unele flori sunt încă boboci, altele deja ofilite: buchetul povestește și trecerea timpului."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Camera cui urmau s-o decoreze florile-soarelui?",
+     "options": [
+      "A lui Paul Gauguin",
+      "A lui Claude Monet",
+      "A fratelui său, Theo"
+     ],
+     "explanation": "Van Gogh îl aștepta la Arles."
+    },
+    {
+     "question": "În ce oraș le-a pictat?",
+     "options": [
+      "Paris",
+      "Arles",
+      "Amsterdam"
+     ],
+     "explanation": "În sudul Franței, în august 1888."
+    },
+    {
+     "question": "Ce au neobișnuit culorile?",
+     "options": [
+      "Aproape totul e galben",
+      "Nu există deloc galben",
+      "Totul e alb și negru"
+     ],
+     "explanation": "Flori galbene, vază galbenă, fundal galben."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Tabloul Floarea-soarelui are mai multe versiuni.",
+     "explanation": "Van Gogh a pictat o serie întreagă."
+    },
+    {
+     "text": "Van Gogh și-a vândut în timpul vieții florile-soarelui pentru o avere.",
+     "explanation": "Cât a trăit, n-a vândut aproape nimic."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "cca 1503–1519",
+   "museum": "Luvru, Paris",
+   "teaser": "Cel mai faimos zâmbet din lume ține de niște contururi pe care nu le vezi.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "E cel mai faimos tablou din lume, și e mic: 77 pe 53 de centimetri, pictat pe un panou de lemn de plop. Mulți vizitatori ai Luvrului se miră cât de mic e."
+    },
+    {
+     "type": "text",
+     "text": "Pe la 1503, la Florența, un negustor de mătase pe nume Francesco del Giocondo i-a cerut lui Leonardo da Vinci să-i picteze soția, pe Lisa Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa e portretul Lisei Gherardini, soția unui negustor florentin. „Mona” înseamnă pur și simplu „doamna”."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo nu era doar pictor. Era și inginer, anatomist și inventator și a lăsat mii de pagini de caiet scrise în oglindă."
+    },
+    {
+     "type": "tour",
+     "text": "Privește-o în întregime. Apoi apropie-te de ce a făcut din ea o legendă.",
+     "spots": [
+      {
+       "title": "Zâmbetul",
+       "text": "Caută linia care desenează buzele: nu există. Colțurile gurii se topesc în umbră. De aceea zâmbetul pare să se schimbe."
+      },
+      {
+       "title": "Ochii",
+       "text": "Același truc: colțurile ochilor se pierd în umbră. Observă și că nu are nici sprâncene, nici gene."
+      },
+      {
+       "title": "Mâinile",
+       "text": "Așezate una peste alta, relaxate. Leonardo diseca trupuri ca să înțeleagă oasele și mușchii: mâinile acestea au greutate."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Estomparea aceasta are un nume: sfumato, de la cuvântul italian „fumo”, fum. Leonardo suprapune zeci de straturi de vopsea foarte subțiri, aproape transparente. Contururile dispar, iar formele se topesc unele în altele."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato înseamnă contururi moi, ca de fum. Datorită lui, zâmbetul îți scapă mereu printre degete."
+    },
+    {
+     "type": "text",
+     "text": "Încearcă și tu. Uită-te în ochii ei, și gura pare să zâmbească. Uită-te drept la gură, și zâmbetul se stinge. Umbrele din colțuri fac toată treaba."
+    },
+    {
+     "type": "find",
+     "text": "Ceva lipsește de pe chipul acesta. Atinge locul unde ar trebui să fie.",
+     "spots": [
+      {
+       "title": "Sprâncenele",
+       "text": "Nu are nici sprâncene, nici gene. Moda vremii sau vopsea ștearsă de curățări vechi? Specialiștii încă se contrazic."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Acum uită-te la poză. Înainte de Leonardo, portretele erau mai ales din profil sau tăiate la piept. El arată figura până la talie, întoarsă trei sferturi spre noi, cu mâini cu tot."
+    },
+    {
+     "type": "fact",
+     "text": "Tânărul Rafael a văzut portretul în atelierul lui Leonardo și i-a preluat imediat poza în propriile lucrări."
+    },
+    {
+     "type": "lines",
+     "text": "O poză calmă, un peisaj ciudat. Vezi cum e construit totul.",
+     "lines": [
+      {
+       "label": "Piramida",
+       "text": "Capul în vârf, brațele și mâinile la bază. O formă largă și stabilă: ea nu se mișcă, stă așezată."
+      },
+      {
+       "label": "Orizontul din stânga",
+       "text": "În stânga, linia apei din peisaj se află cam pe aici."
+      },
+      {
+       "label": "Orizontul din dreapta",
+       "text": "În dreapta e mai sus. Cele două jumătăți ale peisajului nu se potrivesc, și de aici vine o parte din ciudățenia tabloului."
+      },
+      {
+       "label": "Drumul",
+       "text": "O linie șerpuită care duce privirea în depărtare, ca râurile din partea dreaptă."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Peisajul nu e un loc real. E o lume de vis, din stânci, apă și ceață, fără case și fără oameni. Un singur lucru din el e făcut de mâna omului."
+    },
+    {
+     "type": "find",
+     "text": "În acest peisaj pustiu există o singură construcție omenească. Unde e podul?",
+     "spots": [
+      {
+       "title": "Podul",
+       "text": "Un mic pod de piatră, cu mai multe arcade. E singurul semn de prezență omenească din tot peisajul."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Fundalul urmează o regulă pe care Leonardo a scris-o chiar el: perspectiva atmosferică. Aerul nu e perfect limpede. Cu cât un lucru e mai departe, cu atât pare mai albastru, mai palid și mai încețoșat."
+    },
+    {
+     "type": "key",
+     "text": "Perspectiva atmosferică: lucrurile îndepărtate par mai albastre, mai palide și mai neclare. Leonardo a fost printre primii care au pictat-o intenționat."
+    },
+    {
+     "type": "palette",
+     "text": "Maro, verde, puțin auriu. Vernisul vechi a îngălbenit totul. Atinge o culoare.",
+     "swatches": [
+      {
+       "name": "Umbrele",
+       "text": "Rochia, părul, voalul. Aproape jumătate din tablou stă în semiumbră."
+      },
+      {
+       "name": "Pielea",
+       "text": "Chipul, pieptul, mâinile: cele trei pete luminoase, așezate în triunghi."
+      },
+      {
+       "name": "Cerul gri-verzui",
+       "text": "La început era mai albastru. Vernisul îngălbenit l-a împins spre verde."
+      },
+      {
+       "name": "Pământul maro",
+       "text": "Stâncile și cărările peisajului, de o parte și de alta a umerilor ei."
+      },
+      {
+       "name": "Depărtarea verde",
+       "text": "Apa și munții, înmuiați de distanță."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo nu a predat niciodată tabloul. L-a păstrat, l-a tot reluat ani de zile și l-a luat cu el în Franța, când regele Francisc I l-a invitat acolo. La moartea lui, în 1519, portretul a intrat în colecția regală. De aceea se află la Luvru."
+    },
+    {
+     "type": "text",
+     "text": "Multă vreme a fost o capodoperă printre altele. Faima mondială i-o datorează unei crime: pe 21 august 1911, un muncitor italian, Vincenzo Peruggia, l-a dat jos de pe perete și a ieșit cu el pe sub halat."
+    },
+    {
+     "type": "fact",
+     "text": "Cât a lipsit tabloul, oamenii stăteau la coadă la Luvru doar ca să vadă locul gol de pe perete."
+    },
+    {
+     "type": "text",
+     "text": "Ziarele din toată lumea i-au publicat chipul. Când a fost găsită la Florența, în 1913, Mona Lisa nu mai era doar un tablou. Era o vedetă."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa își datorează geniul lui Leonardo, iar faima, unui furt."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Zâmbetul",
+       "text": "Caută linia care desenează buzele: nu există. Colțurile gurii se topesc în umbră. De aceea zâmbetul pare să se schimbe."
+      },
+      {
+       "title": "Ochii",
+       "text": "Același truc: colțurile ochilor se pierd în umbră. Observă și că nu are nici sprâncene, nici gene."
+      },
+      {
+       "title": "Mâinile",
+       "text": "Așezate una peste alta, relaxate. Leonardo diseca trupuri ca să înțeleagă oasele și mușchii: mâinile acestea au greutate."
+      },
+      {
+       "title": "Podul",
+       "text": "Un mic pod de piatră, cu mai multe arcade. E singurul semn de prezență omenească din tot peisajul."
+      },
+      {
+       "title": "Drumul",
+       "text": "Un drum care șerpuiește spre un lac. Peisajul nu e un loc real: Leonardo îl inventează pornind de la studiile lui despre stânci și apă."
+      },
+      {
+       "title": "Voalul",
+       "text": "Un voal transparent îi acoperă părul. E atât de fin, încât abia îl mai distingi pe frunte."
+      },
+      {
+       "title": "Depărtarea",
+       "text": "Cu cât munții sunt mai departe, cu atât devin mai albaștri și mai încețoșați. Leonardo a observat că și aerul are o culoare."
+      },
+      {
+       "title": "Mâneca",
+       "text": "Falduri strânse, aurii, pictate unul câte unul. Rochia e închisă la culoare și nu poartă nicio bijuterie: nimic nu trebuie să abată privirea de la chip."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Cine este femeia din portret?",
+     "options": [
+      "O regină a Franței",
+      "Lisa Gherardini, soția unui negustor florentin",
+      "Mama lui Leonardo"
+     ],
+     "explanation": "Soțul ei, Francesco del Giocondo, a comandat portretul."
+    },
+    {
+     "question": "Cum se numește tehnica contururilor moi, ca de fum?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Pointilism"
+     ],
+     "explanation": "De la „fumo”, care în italiană înseamnă fum."
+    },
+    {
+     "question": "Pe ce e pictată Mona Lisa?",
+     "options": [
+      "Pe o pânză de in",
+      "Pe un panou de lemn de plop",
+      "Pe un perete tencuit"
+     ],
+     "explanation": "Un panou de plop de 77 pe 53 de centimetri."
+    },
+    {
+     "question": "Ce se întâmplă cu lucrurile din depărtare?",
+     "options": [
+      "Devin mai vii",
+      "Devin mai albastre, mai palide și mai încețoșate",
+      "Contururile lor devin mai clare"
+     ],
+     "explanation": "Asta e perspectiva atmosferică."
+    },
+    {
+     "question": "De ce se află tabloul în Franța?",
+     "options": [
+      "Napoleon l-a luat din Italia",
+      "Leonardo l-a adus, iar tabloul a intrat în colecția regală",
+      "Luvrul l-a cumpărat în 1911"
+     ],
+     "explanation": "Leonardo a venit în Franța la invitația regelui Francisc I."
+    },
+    {
+     "question": "Ce a făcut-o pe Mona Lisa celebră în toată lumea?",
+     "options": [
+      "Furtul ei de la Luvru, în 1911",
+      "O expoziție la New York",
+      "Restaurarea ei"
+     ],
+     "explanation": "Furată de Vincenzo Peruggia, găsită în 1913."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Lisa e pictată pe pânză.",
+     "explanation": "E pictată pe un panou de lemn de plop."
+    },
+    {
+     "text": "Mona Lisa a fost furată de la Luvru în 1911.",
+     "explanation": "A fost găsită doi ani mai târziu."
+    },
+    {
+     "text": "Mona Lisa are sprâncene groase și închise la culoare.",
+     "explanation": "Nu are deloc nici sprâncene, nici gene."
+    }
+   ]
+  }
+ }
+}

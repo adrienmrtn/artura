@@ -1,0 +1,1413 @@
+{
+ "movements": {
+  "renaissance": {
+   "name": "Renesans",
+   "period": "XV–XVI wiek",
+   "summary": "Perspektywa i powrót do antyku",
+   "description": "We Włoszech, a potem w całej Europie, artyści na nowo odkrywają antyk, studiują ludzkie ciało i wynajdują perspektywę. Obraz staje się oknem na świat."
+  },
+  "siecledor": {
+   "name": "Złoty wiek malarstwa holenderskiego",
+   "period": "XVII wiek",
+   "summary": "Codzienność i światło",
+   "description": "W zamożnej Republice Zjednoczonych Prowincji artyści malują dla mieszczańskich domów: ciche wnętrza, portrety, martwe natury. Prawdziwym tematem staje się światło."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "XVII–XIX wiek",
+   "summary": "Drzeworyty „przepływającego świata”",
+   "description": "W Japonii drzeworyty wydawane w seriach pokazują aktorów, pejzaże i sceny z codziennego życia. Ich płaskie plamy barw i śmiałe kadry wstrząsną kiedyś europejskimi malarzami."
+  },
+  "impressionnisme": {
+   "name": "Impresjonizm",
+   "period": "Lata 70. i 80. XIX wieku",
+   "summary": "Malować światło chwili",
+   "description": "Grupa malarzy wychodzi z pracowni, by pracować w plenerze, szybkimi, drobnymi pociągnięciami pędzla. Nie gonią już za szczegółem, tylko za efektem światła w jednej, konkretnej chwili."
+  },
+  "postimp": {
+   "name": "Postimpresjonizm",
+   "period": "1886–1905",
+   "summary": "Najpierw kolor i emocja",
+   "description": "Po impresjonizmie każdy szuka własnej drogi. Kolor nie naśladuje już rzeczywistości: wyraża to, co czuje malarz."
+  },
+  "secession": {
+   "name": "Secesja Wiedeńska",
+   "period": "Około 1900 roku",
+   "summary": "Złoto, ornament i falująca linia",
+   "description": "W Wiedniu młodzi artyści zrywają z akademią. Łączą malarstwo, dekorację i rzemiosło, a z ornamentu robią osobny język."
+  }
+ },
+ "artworks": {
+  "nuit": {
+   "title": "Gwiaździsta noc",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1889",
+   "museum": "MoMA, Nowy Jork",
+   "teaser": "Wirujące niebo, namalowane z pamięci w zakładzie dla obłąkanych.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Czerwiec 1889 roku. Vincent van Gogh ma 36 lat. Miesiąc wcześniej, po ciężkim załamaniu w Arles, sam zgłosił się do zakładu dla obłąkanych w Saint-Rémy-de-Provence, na południu Francji."
+    },
+    {
+     "type": "text",
+     "text": "Okno jego sypialni wychodzi na wschód. Widać z niego pole pszenicy, wzgórza Alpilles, a przed świtem niebo. Van Gogh maluje ten widok w kółko, o każdej porze dnia."
+    },
+    {
+     "type": "fact",
+     "text": "Van Gogh zaczął malować dopiero jako 27-latek. W ciągu mniej więcej dziesięciu lat stworzył około 900 obrazów, czasem jeden dziennie."
+    },
+    {
+     "type": "tour",
+     "text": "Oto najsłynniejszy z tych widoków. Przyjrzyj mu się, a potem dotknij, żeby wejść do środka.",
+     "spots": [
+      {
+       "title": "Wir",
+       "text": "Pośrodku dwie wielkie fale zwijają się jedna w drugą. Żadne prawdziwe niebo tak nie wygląda: Van Gogh maluje to, co czuje, a nie to, co widzi."
+      },
+      {
+       "title": "Księżyc",
+       "text": "Pomarańczowy sierp w żółtej aureoli. Wygląda prawie jak słońce. Van Gogh kładzie farbę krótkimi pociągnięciami, które krążą wokół niego."
+      },
+      {
+       "title": "Gwiazda Poranna",
+       "text": "Najbielsze światło na obrazie. Van Gogh pisał bratu, że przed wschodem słońca widział Gwiazdę Poranną, bardzo dużą. To najpewniej Wenus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ten obraz nie powstał nocą ani przed samym widokiem. Van Gogh namalował go za dnia, w swojej pracowni w zakładzie, z pamięci i z wyobraźni. To było do niego niepodobne: zwykle malował to, co miał przed oczami."
+    },
+    {
+     "type": "key",
+     "text": "Gwiaździsta noc powstała w dzień, z pamięci. To nie widok. To wizja."
+    },
+    {
+     "type": "text",
+     "text": "O nocnym niebie marzył od dawna. Rok wcześniej pisał, że patrzenie na gwiazdy zawsze pobudza go do marzeń."
+    },
+    {
+     "type": "find",
+     "text": "Jeden szczegół tego pejzażu pochodzi prosto z jego dzieciństwa w Holandii. Gdzie jest wieża kościoła?",
+     "spots": [
+      {
+       "title": "Wieża kościoła",
+       "text": "Smukła, ostra iglica, jak w holenderskich wioskach, w których Van Gogh dorastał. Kościelne wieże w Prowansji wyglądają zupełnie inaczej."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Wioska też jest zmyślona, a w każdym razie przeniesiona: z okna nie było jej widać. Van Gogh łączy prawdziwe niebo, prawdziwe wzgórza i wioskę z pamięci."
+    },
+    {
+     "type": "fact",
+     "text": "Okno jego pokoju w zakładzie miało żelazne kraty. Na żadnym obrazie tego widoku ich nie namalował."
+    },
+    {
+     "type": "lines",
+     "text": "Obraz wydaje się niespokojny. W rzeczywistości jest starannie zbudowany.",
+     "lines": [
+      {
+       "label": "Pion cyprysa",
+       "text": "Przecina cały obraz, od ziemi po górną krawędź, i wyznacza skalę: niebo jest ogromne."
+      },
+      {
+       "label": "Jego echo: wieża",
+       "text": "Drugi, maleńki pion, który odpowiada cyprysowi. Jeden stworzyła natura, drugi człowiek."
+      },
+      {
+       "label": "Fala na niebie",
+       "text": "Oko biegnie za tym S od lewej do prawej, aż do księżyca."
+      },
+      {
+       "label": "Zbocze wzgórz",
+       "text": "Ukośna linia, która opada ku wiosce i otula ją jak ramię."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Teraz spójrz na pracę pędzla. Nie ma tu gładkich przejść. Krótkie, grube pociągnięcia leżą jedno obok drugiego i każde ma swój kierunek. Ruch tworzy samo pociągnięcie pędzla."
+    },
+    {
+     "type": "text",
+     "text": "Tak grubo nałożoną farbę malarze nazywają „impasto”. Van Gogh czasem wyciskał kolor niemal prosto z tubki. Z bliska powierzchnia płótna jest chropowata jak mapa plastyczna."
+    },
+    {
+     "type": "tour",
+     "title": "Z bliska",
+     "text": "Podejdźmy do samej farby.",
+     "spots": [
+      {
+       "title": "Farba",
+       "text": "Zobacz, jak jest gruba: leży krótkimi, ciężkimi pociągnięciami, prawie jak relief. To właśnie impasto."
+      },
+      {
+       "title": "Cyprys",
+       "text": "Ciemny i poskręcany jak płomień, łączy ziemię z niebem. Na południu Francji to drzewo cmentarne. Van Gogh uważał, że jest piękny jak egipski obelisk."
+      },
+      {
+       "title": "Wzgórza",
+       "text": "To Alpilles. Falują jak morze, porwane tym samym ruchem co niebo."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Cyprys jest ważny. To najciemniejszy kształt na obrazie i jedyny, który dotyka zarazem ziemi i samej góry nieba. Tego lata Van Gogh był zafascynowany tymi drzewami."
+    },
+    {
+     "type": "palette",
+     "text": "Błękit, żółć i prawie nic poza tym. Dotknij koloru.",
+     "swatches": [
+      {
+       "name": "Głęboki błękit",
+       "text": "Głębia nieba i wzgórz. Van Gogh użył ultramaryny i błękitu kobaltowego."
+      },
+      {
+       "name": "Jasny błękit",
+       "text": "Wiry. Położony grubymi pociągnięciami sprawia, że niebo się obraca."
+      },
+      {
+       "name": "Żółć",
+       "text": "Księżyc, gwiazdy, okna. Zajmuje maleńki skrawek powierzchni, a rozświetla wszystko."
+      },
+      {
+       "name": "Zielona czerń",
+       "text": "Cyprys i cienie wioski. Najciemniejsza plama na obrazie."
+      },
+      {
+       "name": "Zielonkawa biel",
+       "text": "Aureole wokół gwiazd: to dzięki nim gwiazdy migoczą."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Na kole barw błękit i żółć leżą niemal naprzeciw siebie. Postawione obok siebie, wzajemnie się wzmacniają. Van Gogh o tym wiedział i dzięki temu jego noce drgają."
+    },
+    {
+     "type": "key",
+     "text": "Kolory dopełniające postawione obok siebie nawzajem się wzmacniają. Dlatego żółte gwiazdy płoną na tle błękitu."
+    },
+    {
+     "type": "find",
+     "text": "Van Gogh napisał bratu, że widział Gwiazdę Poranną, bardzo dużą. Dotknij najbielszego światła na obrazie.",
+     "spots": [
+      {
+       "title": "Gwiazda Poranna",
+       "text": "Najbielsze światło na obrazie. Van Gogh pisał bratu, że przed wschodem słońca widział Gwiazdę Poranną, bardzo dużą. To najpewniej Wenus."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A co on sam myślał o tym obrazie? Niewiele. W listach nazywa go zwykłym studium nocy i ma wątpliwości co do płócien malowanych z wyobraźni."
+    },
+    {
+     "type": "fact",
+     "text": "Za życia Van Gogh nie sprzedał prawie nic. Utrzymywał go brat Theo, marszand, który przysyłał mu pieniądze i farby."
+    },
+    {
+     "type": "text",
+     "text": "Zmarł trzynaście miesięcy później, w lipcu 1890 roku, w wieku 37 lat. Gwiaździsta noc trafiła do Museum of Modern Art w Nowym Jorku w 1941 roku."
+    },
+    {
+     "type": "key",
+     "text": "U Van Gogha tematem jest samo pociągnięcie pędzla: każde ma swój kierunek i to ono wprawia niebo w ruch."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Wir",
+       "text": "Pośrodku dwie wielkie fale zwijają się jedna w drugą. Żadne prawdziwe niebo tak nie wygląda: Van Gogh maluje to, co czuje, a nie to, co widzi."
+      },
+      {
+       "title": "Księżyc",
+       "text": "Pomarańczowy sierp w żółtej aureoli. Wygląda prawie jak słońce. Van Gogh kładzie farbę krótkimi pociągnięciami, które krążą wokół niego."
+      },
+      {
+       "title": "Gwiazda Poranna",
+       "text": "Najbielsze światło na obrazie. Van Gogh pisał bratu, że przed wschodem słońca widział Gwiazdę Poranną, bardzo dużą. To najpewniej Wenus."
+      },
+      {
+       "title": "Cyprys",
+       "text": "Ciemny i poskręcany jak płomień, łączy ziemię z niebem. Na południu Francji to drzewo cmentarne. Van Gogh uważał, że jest piękny jak egipski obelisk."
+      },
+      {
+       "title": "Wieża kościoła",
+       "text": "Smukła, ostra iglica, jak w holenderskich wioskach, w których Van Gogh dorastał. Kościelne wieże w Prowansji wyglądają zupełnie inaczej."
+      },
+      {
+       "title": "Wioska",
+       "text": "Kilka żółtych, oświetlonych okien. Ze swojego pokoju nie widział tej wioski: dodał ją z pamięci."
+      },
+      {
+       "title": "Wzgórza",
+       "text": "To Alpilles. Falują jak morze, porwane tym samym ruchem co niebo."
+      },
+      {
+       "title": "Farba",
+       "text": "Zobacz, jak jest gruba: leży krótkimi, ciężkimi pociągnięciami, prawie jak relief. To właśnie impasto."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Gdzie przebywał Van Gogh, kiedy malował Gwiaździstą noc?",
+     "options": [
+      "W Paryżu",
+      "W zakładzie dla obłąkanych w Saint-Rémy-de-Provence",
+      "W Amsterdamie"
+     ],
+     "explanation": "Sam zgłosił się tam miesiąc wcześniej."
+    },
+    {
+     "question": "Jak powstał ten obraz?",
+     "options": [
+      "Nocą, przed samym widokiem",
+      "Za dnia, z pamięci i z wyobraźni",
+      "Na podstawie fotografii"
+     ],
+     "explanation": "Za dnia, w jego pracowni w zakładzie."
+    },
+    {
+     "question": "Który szczegół przypomina Holandię?",
+     "options": [
+      "Cyprys",
+      "Ostra wieża kościoła",
+      "Wzgórza"
+     ],
+     "explanation": "Iglica jak w wioskach, w których dorastał."
+    },
+    {
+     "question": "Co to jest „impasto”?",
+     "options": [
+      "Bardzo gruba farba, niemal jak relief",
+      "Cienki, przejrzysty laserunek",
+      "Szkic węglem"
+     ],
+     "explanation": "Krótkie, ciężkie pociągnięcia, które wystają z płótna."
+    },
+    {
+     "question": "Dlaczego żółte gwiazdy wydają się tak jasne?",
+     "options": [
+      "Są namalowane złotem",
+      "Żółć leży obok swojego przeciwieństwa, błękitu",
+      "Płótno jest podświetlone od tyłu"
+     ],
+     "explanation": "Kolory dopełniające postawione obok siebie nawzajem się wzmacniają."
+    },
+    {
+     "question": "Czego Van Gogh nie umieścił na obrazach tego widoku?",
+     "options": [
+      "Krat w swoim oknie",
+      "Księżyca",
+      "Wzgórz"
+     ],
+     "explanation": "Okno jego pokoju w zakładzie miało żelazne kraty."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Van Gogh namalował Gwiaździstą noc w plenerze, w środku nocy.",
+     "explanation": "Namalował ją za dnia, z pamięci, w zakładzie w Saint-Rémy."
+    },
+    {
+     "text": "Gwiaździsta noc znajduje się w Nowym Jorku.",
+     "explanation": "Od 1941 roku jest w MoMA."
+    },
+    {
+     "text": "Van Gogh sprzedał wiele obrazów i zmarł jako bogacz.",
+     "explanation": "Nie sprzedał prawie nic; utrzymywał go brat Theo."
+    }
+   ]
+  },
+  "perle": {
+   "title": "Dziewczyna z perłą",
+   "artist": "Jan Vermeer",
+   "yearLabel": "ok. 1665",
+   "museum": "Mauritshuis, Haga",
+   "teaser": "Spojrzenie przez ramię, a nikt nie wie, kim ona jest.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Znasz tę twarz. A jednak to nie portret: nikt nie wie, kim jest ta dziewczyna, a Vermeer najpewniej wcale nie zamierzał malować nikogo konkretnego."
+    },
+    {
+     "type": "text",
+     "text": "W Holandii XVII wieku taki obraz miał swoją nazwę: „tronie”, czyli studium twarzy. Malarz bada na nim wyraz twarzy, egzotyczny strój albo efekt światła. Tutaj wszystko naraz."
+    },
+    {
+     "type": "key",
+     "text": "Tronie to twarz wymyślona, pretekst do namalowania wyrazu i światła. To nie portret prawdziwej osoby."
+    },
+    {
+     "type": "tour",
+     "text": "Najpierw obejrzyj cały obraz: twarz wyłaniająca się z ciemności. Dotknij, żeby podejść bliżej.",
+     "spots": [
+      {
+       "title": "Spojrzenie",
+       "text": "Odwraca się do ciebie, jakbyś właśnie zawołał ją po imieniu. Wystarczy jedna biała kropka w każdym oku, by spojrzenie stało się wilgotne i żywe."
+      },
+      {
+       "title": "Usta",
+       "text": "Lekko rozchylone, jakby urwała w pół zdania. Spójrz na maleńki jasny punkt w kąciku warg: jedno dotknięcie pędzla i usta lśnią."
+      },
+      {
+       "title": "Perła",
+       "text": "Dwa pociągnięcia, nic więcej: biały błysk u góry, szary odblask kołnierzyka u dołu. Bez konturu, bez zawieszki. Perłę składa twoje oko."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Cały obraz opiera się na jednym ruchu: ona się odwraca. Ciało ustawione jest z profilu, twarz zwraca się ku nam. Jakbyśmy ją zaskoczyli albo jakby właśnie miała wyjść. To dlatego wydaje się tak żywa."
+    },
+    {
+     "type": "fact",
+     "text": "Vermeer całe życie spędził w Delfcie, niewielkim holenderskim mieście. Malował powoli, miał do wykarmienia jedenaścioro dzieci i zmarł w długach w wieku 43 lat."
+    },
+    {
+     "type": "text",
+     "text": "Zwróć uwagę na turban. Żadna holenderska dziewczyna tak się nie ubierała. To kostium, odrobina dalekiego Wschodu, który tak fascynował ówczesnych malarzy."
+    },
+    {
+     "type": "find",
+     "text": "Na jej twarz pada światło z jednego źródła. Gdzie trafia? Dotknij najjaśniejszego miejsca na twarzy.",
+     "spots": [
+      {
+       "title": "Policzek",
+       "text": "Światło pada z lewej, nieco z góry. Trafia w czoło, policzek i nos, a drugą połowę twarzy pozwala zanurzyć się w cieniu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vermeer prawie nie rysuje konturów. Spójrz na grzbiet nosa: nie ma tam żadnej linii, tylko jasny policzek, który styka się z cieniem. Ta twarz jest zbudowana ze światła, nie z kresek."
+    },
+    {
+     "type": "key",
+     "text": "Światło z lewej, miękkie cienie, żadnych ostrych konturów: po tym poznasz Vermeera."
+    },
+    {
+     "type": "lines",
+     "text": "Jak tak prosty obraz trzyma się w całości? Wyjaśniają to trzy linie.",
+     "lines": [
+      {
+       "label": "Światło",
+       "text": "Wpada z lewej, od góry, jakby przez okno, którego nie widzimy."
+      },
+      {
+       "label": "Trójkąt",
+       "text": "Od czubka turbanu do obu ramion: stabilna, osadzona figura, która równoważy obrót głowy."
+      },
+      {
+       "label": "Opadająca tkanina",
+       "text": "Żółta tkanina spływa po prawej i równoważy twarz zwróconą w lewo."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "A teraz błękit. Vermeer używał naturalnej ultramaryny, którą uzyskiwano, ucierając lapis lazuli. Była tak droga, że większość malarzy zostawiała ją na płaszcz Matki Boskiej. On kładł ją wszędzie, nawet w cieniach."
+    },
+    {
+     "type": "fact",
+     "text": "Lapis lazuli pochodził z kopalń na terenie dzisiejszego Afganistanu. Nazwa „ultramaryna” znaczy „zza morza”."
+    },
+    {
+     "type": "palette",
+     "text": "Pięć kolorów wypełnia prawie cały obraz. Dotknij jednego, żeby zobaczyć, gdzie się kryje.",
+     "swatches": [
+      {
+       "name": "Ciemne tło",
+       "text": "Ponad połowa powierzchni. Kiedyś głęboka zielona zasłona, dziś niemal czerń."
+      },
+      {
+       "name": "Ultramaryna",
+       "text": "Błękit z lapis lazuli. Zajmuje bardzo mało miejsca, a i tak widzimy tylko jego."
+      },
+      {
+       "name": "Brązowa ochra",
+       "text": "Cienie kaftana i żółtej tkaniny: ciepła, tania barwa ziemna."
+      },
+      {
+       "name": "Róż skóry",
+       "text": "Najjaśniejsza część obrazu. Tam najpierw biegnie nasz wzrok."
+      },
+      {
+       "name": "Żółć",
+       "text": "Na kaftanie i na opadającym końcu turbanu. Odpowiada błękitowi."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "W 1994 roku obraz odrestaurowano. Pod pożółkłym werniksem konserwatorzy odkryli świeższe kolory i ten mały jasny punkt w kąciku warg, którego nikt już nie widział."
+    },
+    {
+     "type": "text",
+     "text": "A tło? Dziś wygląda na płaskie i czarne. Badania naukowe wykazały, że Vermeer namalował tam ciemnozieloną zasłonę. Zielone pigmenty z czasem się rozłożyły."
+    },
+    {
+     "type": "find",
+     "text": "Vermeer podpisał ten obraz. Tylko gdzie? Przyjrzyj się uważnie, podpis jest prawie niewidoczny.",
+     "spots": [
+      {
+       "title": "Podpis",
+       "text": "„IVMeer”, w lewym górnym rogu. Namalowany jasnym tonem na ciemnym tle, z czasem prawie całkiem wyblakł."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Czy ta perła to w ogóle perła? Jest ogromna. Niektórzy znawcy uważają, że to lakierowane szkło albo polerowana cyna. Nie ma to większego znaczenia: w malarstwie to kropla światła i tylko tego chciał Vermeer."
+    },
+    {
+     "type": "key",
+     "text": "Vermeer nie maluje przedmiotów. Maluje światło, które na nie pada. Perła to dwa dotknięcia bieli."
+    },
+    {
+     "type": "text",
+     "text": "Znamy zaledwie około 37 obrazów Vermeera. Po jego śmierci niemal na dwa stulecia o nim zapomniano."
+    },
+    {
+     "type": "fact",
+     "text": "W 1881 roku pewien kolekcjoner kupił ten obraz na aukcji za dwa guldeny, czyli za grosze. W 1902 roku zapisał go muzeum Mauritshuis."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Spojrzenie",
+       "text": "Odwraca się do ciebie, jakbyś właśnie zawołał ją po imieniu. Wystarczy jedna biała kropka w każdym oku, by spojrzenie stało się wilgotne i żywe."
+      },
+      {
+       "title": "Usta",
+       "text": "Lekko rozchylone, jakby urwała w pół zdania. Spójrz na maleńki jasny punkt w kąciku warg: jedno dotknięcie pędzla i usta lśnią."
+      },
+      {
+       "title": "Perła",
+       "text": "Dwa pociągnięcia, nic więcej: biały błysk u góry, szary odblask kołnierzyka u dołu. Bez konturu, bez zawieszki. Perłę składa twoje oko."
+      },
+      {
+       "title": "Niebieski turban",
+       "text": "Prawdziwa ultramaryna z lapis lazuli, kamienia sprowadzanego aż z Afganistanu. W tamtych czasach ten pigment kosztował więcej niż złoto."
+      },
+      {
+       "title": "Żółta tkanina",
+       "text": "Żółta tkanina spływa jej po plecach jak płomień. Błękit i żółć: Vermeer kochał tę parę i używał jej na obrazie za obrazem."
+      },
+      {
+       "title": "Biały kołnierzyk",
+       "text": "Pas bieli położony jednym ruchem. To właśnie on odbija się w dolnej części perły."
+      },
+      {
+       "title": "Podpis",
+       "text": "„IVMeer”, w lewym górnym rogu. Namalowany jasnym tonem na ciemnym tle, z czasem prawie całkiem wyblakł."
+      },
+      {
+       "title": "Tło",
+       "text": "Nie zawsze było czarne. Badania pokazują, że Vermeer namalował tu ciemnozieloną zasłonę. Zieleń zniknęła z biegiem stuleci."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Co to jest „tronie”?",
+     "options": [
+      "Portret na zamówienie",
+      "Studium wymyślonej twarzy",
+      "Autoportret"
+     ],
+     "explanation": "Pretekst do namalowania wyrazu i światła, a nie prawdziwej osoby."
+    },
+    {
+     "question": "Skąd pochodzi błękit turbanu?",
+     "options": [
+      "Z rośliny, indygo",
+      "Z kamienia, lapis lazuli",
+      "Z muszli"
+     ],
+     "explanation": "Utarty lapis lazuli daje naturalną ultramarynę, droższą wtedy niż złoto."
+    },
+    {
+     "question": "Jak namalowana jest perła?",
+     "options": [
+      "Precyzyjnym konturem, z zawieszką",
+      "Dwoma jasnymi dotknięciami, bez konturu",
+      "Płatkiem srebra"
+     ],
+     "explanation": "Biały błysk, szary odblask: resztę robi twoje oko."
+    },
+    {
+     "question": "Skąd pada światło?",
+     "options": [
+      "Z lewej",
+      "Z prawej",
+      "Od dołu"
+     ],
+     "explanation": "Z lewej, od góry, jakby przez niewidoczne okno."
+    },
+    {
+     "question": "Czym pierwotnie było tło?",
+     "options": [
+      "Ciemnozieloną zasłoną",
+      "Oknem",
+      "Złotą ścianą"
+     ],
+     "explanation": "Zielone pigmenty rozłożyły się z biegiem stuleci."
+    },
+    {
+     "question": "Gdzie Vermeer spędził całe życie?",
+     "options": [
+      "W Amsterdamie",
+      "W Delfcie",
+      "W Hadze"
+     ],
+     "explanation": "Żył i pracował w niewielkim Delfcie."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Znamy imię dziewczyny, która pozowała.",
+     "explanation": "Nie wiadomo, kim była: ten obraz to tronie."
+    },
+    {
+     "text": "Błękit turbanu pochodzi z kamienia, lapis lazuli.",
+     "explanation": "Utarty na proszek daje naturalną ultramarynę."
+    },
+    {
+     "text": "Perła ma staranny, dokładnie wyrysowany kontur.",
+     "explanation": "To tylko dwa dotknięcia jasnej farby, bez żadnego konturu."
+    }
+   ]
+  },
+  "vague": {
+   "title": "Wielka fala w Kanagawie",
+   "artist": "Katsushika Hokusai",
+   "yearLabel": "ok. 1831",
+   "museum": "Drzeworyt · wiele odbitek",
+   "teaser": "Olbrzymia fala, a daleko w tle, maleńka, góra Fudżi.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "To nie jest obraz. To drzeworyt: rysunek wycięty w drewnianych klockach, pokryty farbą i odbity na papierze. Nie istnieje więc jedna Wielka fala. Są ich tysiące."
+    },
+    {
+     "type": "text",
+     "text": "Hokusai wydał ją około 1831 roku. Miał wtedy mniej więcej 70 lat i rysował od dziecka. Fala otwiera serię, która stała się sławna: Trzydzieści sześć widoków góry Fudżi."
+    },
+    {
+     "type": "key",
+     "text": "Wielka fala to drzeworyt, odbity w tysiącach egzemplarzy. Ma ją wiele muzeów na całym świecie."
+    },
+    {
+     "type": "fact",
+     "text": "Taka odbitka była tania. W czasach Hokusaia kosztowała mniej więcej tyle, co miska makaronu."
+    },
+    {
+     "type": "find",
+     "text": "Seria nazywa się Trzydzieści sześć widoków góry Fudżi. Gdzie więc jest Fudżi?",
+     "spots": [
+      {
+       "title": "Góra Fudżi",
+       "text": "Prawdziwy temat drzeworytu jest tutaj, maleńki. Święta góra Japonii, w śnieżnej czapie, zupełnie nieruchoma pośrodku burzy."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Na tym polega geniusz: najwyższa góra Japonii jest mniejsza od fali. Hokusai gra odległością. To, co blisko, przytłacza to, co daleko, jak na zdjęciu zrobionym szerokokątnym obiektywem."
+    },
+    {
+     "type": "text",
+     "text": "Fudżi była górą świętą. Wierzono, że kryje tajemnicę nieśmiertelności. Hokusai miał na jej punkcie obsesję i rysował ją z każdej strony, w każdą pogodę."
+    },
+    {
+     "type": "tour",
+     "text": "Przejdźmy przez obraz tak, jak wędruje po nim oko.",
+     "spots": [
+      {
+       "title": "Piana",
+       "text": "Spójrz na grzbiet fali: piana kończy się zakrzywionymi palcami, jak szpony, które zaraz zacisną się na łodziach."
+      },
+      {
+       "title": "Wioślarze",
+       "text": "Rybacy pochyleni nad wiosłami, z opuszczonymi głowami. Te szybkie łodzie wiozły świeże ryby do Edo, miasta, które dziś nazywamy Tokio."
+      },
+      {
+       "title": "Mała fala",
+       "text": "Na pierwszym planie mniejsza fala. Przyjrzyj się jej kształtowi: spiczasta, biała na szczycie. To druga góra Fudżi."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "W Japonii czyta się od prawej do lewej. Oko wchodzi więc w obraz z prawej strony, razem z łodziami, i wpada prosto na falę. Dla japońskiego widza fala nadciąga z naprzeciwka."
+    },
+    {
+     "type": "fact",
+     "text": "Hokusai zmieniał imię ponad trzydzieści razy. Jedno z ostatnich znaczyło „Stary człowiek szalony na punkcie rysowania”."
+    },
+    {
+     "type": "lines",
+     "text": "Prosty obraz, wyliczony co do milimetra.",
+     "lines": [
+      {
+       "label": "Łuk",
+       "text": "Fala kreśli wielki łuk, który zamyka się sam w sobie. Cała lewa strona obrazu zostaje w nim uwięziona."
+      },
+      {
+       "label": "Trójkąt Fudżi",
+       "text": "Mały, stabilny, spiczasty. Leży dokładnie w zagłębieniu fali."
+      },
+      {
+       "label": "Jej sobowtór",
+       "text": "Mała fala na pierwszym planie powtarza kształt góry. Woda naśladuje kamień."
+      },
+      {
+       "label": "Kierunek czytania",
+       "text": "Od prawej do lewej: suniemy po fali aż do Fudżi, a potem podnosimy wzrok ku wielkiej fali."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Jak to powstało? Hokusai narysował obraz na cienkim papierze. Rytownik przykleił rysunek do klocka z drewna wiśniowego i wyciął wszystko, co nie było linią. Potem drukarz nałożył farbę na klocek i docisnął do niego papier."
+    },
+    {
+     "type": "text",
+     "text": "Każdy kolor wymagał osobnego klocka, odbijanego po kolei na tym samym arkuszu. Dlatego drzeworyty mają tak mało kolorów."
+    },
+    {
+     "type": "key",
+     "text": "Jeden klocek na jeden kolor: im mniej barw, tym prostsza odbitka. Hokusai zamienia to ograniczenie w styl."
+    },
+    {
+     "type": "palette",
+     "text": "Bardzo mało kolorów, bo każdy wymaga osobnego klocka. Dotknij jednego.",
+     "swatches": [
+      {
+       "name": "Papier",
+       "text": "Najczęstszego koloru wcale nie odbito: to goły papier, zostawiony na pianę i śnieg."
+      },
+      {
+       "name": "Błękit pruski",
+       "text": "Błękit z Europy. Rysuje falę, jej prążki i zagłębienia."
+      },
+      {
+       "name": "Jasny błękit",
+       "text": "Ten sam błękit, rozcieńczony. Nadaje wodzie objętość."
+      },
+      {
+       "name": "Przyciemnione niebo",
+       "text": "Beż odrobinę ciemniejszy od papieru, dzięki któremu biała piana się wyróżnia."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Wróćmy do tego błękitu. To błękit pruski, syntetyczny pigment wynaleziony w Europie i świeżo sprowadzony do Japonii. Jest głęboki, nie blaknie i wywołał sensację. Seria w dużej mierze zawdzięcza mu swój sukces."
+    },
+    {
+     "type": "find",
+     "text": "Hokusai podpisał swój obraz. Gdzie? Podpowiedź: nie w prawym dolnym rogu.",
+     "spots": [
+      {
+       "title": "Kartusz",
+       "text": "W ramce: tytuł serii i samego obrazu, „Pod falą w Kanagawie”. Po jego lewej stronie podpis Hokusaia."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "W latach 50. XIX wieku Japonia otworzyła się na handel, a jej drzeworyty dotarły do Europy. Francuscy malarze oniemieli: płaskie plamy koloru, wyraźne kontury, śmiałe kadry. Monet je kolekcjonował. Van Gogh je kopiował."
+    },
+    {
+     "type": "key",
+     "text": "Tę modę nazywamy japonizmem. Bez japońskich drzeworytów impresjonizm wyglądałby inaczej."
+    },
+    {
+     "type": "text",
+     "text": "I jeszcze jedno: to nie tsunami. To fala z otwartego morza, ogromna, ale zwyczajna, taka, jakiej bali się rybacy. Hokusai nie pokazuje katastrofy. Pokazuje maleńkich ludzi w obliczu natury."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Góra Fudżi",
+       "text": "Prawdziwy temat drzeworytu jest tutaj, maleńki. Święta góra Japonii, w śnieżnej czapie, zupełnie nieruchoma pośrodku burzy."
+      },
+      {
+       "title": "Piana",
+       "text": "Spójrz na grzbiet fali: piana kończy się zakrzywionymi palcami, jak szpony, które zaraz zacisną się na łodziach."
+      },
+      {
+       "title": "Wioślarze",
+       "text": "Rybacy pochyleni nad wiosłami, z opuszczonymi głowami. Te szybkie łodzie wiozły świeże ryby do Edo, miasta, które dziś nazywamy Tokio."
+      },
+      {
+       "title": "Mała fala",
+       "text": "Na pierwszym planie mniejsza fala. Przyjrzyj się jej kształtowi: spiczasta, biała na szczycie. To druga góra Fudżi."
+      },
+      {
+       "title": "Kartusz",
+       "text": "W ramce: tytuł serii i samego obrazu, „Pod falą w Kanagawie”. Po jego lewej stronie podpis Hokusaia."
+      },
+      {
+       "title": "Dolna łódź",
+       "text": "Nurkuje w dolinę między falami. Łodzie są w sumie trzy, a ludzi około trzydziestu."
+      },
+      {
+       "title": "Niebo",
+       "text": "Prawie puste. Zwykłe przejście tonalne, uzyskane przez przetarcie farby na klocku przed odbiciem."
+      },
+      {
+       "title": "Bryzgi",
+       "text": "Białe kropki spadają nad Fudżi. Wyglądają jak śnieg na górze."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Czym jest Wielka fala?",
+     "options": [
+      "Obrazem olejnym",
+      "Drzeworytem",
+      "Akwarelą"
+     ],
+     "explanation": "To odbitka, wykonana w tysiącach egzemplarzy."
+    },
+    {
+     "question": "Do jakiej serii należy?",
+     "options": [
+      "Sto widoków Edo",
+      "Trzydzieści sześć widoków góry Fudżi",
+      "Cztery pory roku"
+     ],
+     "explanation": "Otwiera serię Hokusaia poświęconą górze Fudżi."
+    },
+    {
+     "question": "Skąd pochodzi błękit fali?",
+     "options": [
+      "Z lapis lazuli",
+      "To błękit pruski, sprowadzony z Europy",
+      "Z utartych muszli"
+     ],
+     "explanation": "Syntetyczny pigment, nowy w Japonii, głęboki i trwały."
+    },
+    {
+     "question": "Jaki kształt powtarza mała fala na pierwszym planie?",
+     "options": [
+      "Góry Fudżi",
+      "Łodzi",
+      "Chmury"
+     ],
+     "explanation": "Woda naśladuje górę."
+    },
+    {
+     "question": "Dlaczego drzeworyty mają tak mało kolorów?",
+     "options": [
+      "Kolory były zakazane",
+      "Każdy kolor wymaga osobnego klocka",
+      "Papier nie utrzymywał farby"
+     ],
+     "explanation": "Jeden klocek na kolor, odbijany jeden po drugim."
+    },
+    {
+     "question": "Jak nazywa się europejska moda na japońskie drzeworyty?",
+     "options": [
+      "Japonizm",
+      "Orientalizm",
+      "Kubizm"
+     ],
+     "explanation": "Monet kolekcjonował drzeworyty, Van Gogh je kopiował."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Istnieje tylko jeden egzemplarz Wielkiej fali.",
+     "explanation": "To drzeworyt: odbito tysiące egzemplarzy."
+    },
+    {
+     "text": "Hokusai miał około 70 lat, kiedy ją stworzył.",
+     "explanation": "Urodził się w 1760 roku, a seria ukazała się około 1831 roku."
+    },
+    {
+     "text": "Wielka fala przedstawia tsunami.",
+     "explanation": "To duża fala z otwartego morza, a nie tsunami."
+    }
+   ]
+  },
+  "nympheas": {
+   "title": "Nenufary",
+   "artist": "Claude Monet",
+   "yearLabel": "1906",
+   "museum": "Art Institute of Chicago",
+   "teaser": "Nie ma już horyzontu: tylko woda, kwiaty i odbite w niej niebo.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "W Giverny Monet kazał wykopać w ogrodzie staw i posadził w nim nenufary. Ten staw był jego tematem przez prawie trzydzieści lat."
+    },
+    {
+     "type": "image",
+     "caption": "Detal · kwiaty spoczywające na wodzie."
+    },
+    {
+     "type": "text",
+     "text": "Przyjrzyj się: nie ma brzegu ani horyzontu. Nie da się już powiedzieć, gdzie kończy się woda, a zaczyna odbicie nieba."
+    },
+    {
+     "type": "key",
+     "text": "Bez horyzontu obraz staje się powierzchnią: patrzymy na wodę tak, jak patrzylibyśmy na niebo."
+    },
+    {
+     "type": "fact",
+     "text": "Monet zatrudniał ogrodników, którzy dbali o staw. Jeden z nich co rano, zanim malarz zabrał się do pracy, oczyszczał taflę wody."
+    },
+    {
+     "type": "text",
+     "text": "Monet namalował około 250 płócien z nenufarami. Te same kwiaty, ale nigdy to samo światło."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Gdzie Monet malował swoje nenufary?",
+     "options": [
+      "W Giverny",
+      "W Paryżu",
+      "W Wenecji"
+     ],
+     "explanation": "W ogrodzie własnego domu."
+    },
+    {
+     "question": "Czego brakuje na tym obrazie?",
+     "options": [
+      "Wody",
+      "Horyzontu",
+      "Kwiatów"
+     ],
+     "explanation": "Nie ma brzegu ani nieba: tylko tafla wody."
+    },
+    {
+     "question": "Ile obrazów z nenufarami namalował?",
+     "options": [
+      "Około dziesięciu",
+      "Około 250",
+      "Ponad 2000"
+     ],
+     "explanation": "Ogromna seria, malowana przez prawie trzydzieści lat."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Monet namalował nenufary tylko raz.",
+     "explanation": "Namalował około 250 wersji."
+    },
+    {
+     "text": "Staw z nenufarami znajdował się w ogrodzie Moneta.",
+     "explanation": "W Giverny, gdzie kazał go wykopać."
+    }
+   ]
+  },
+  "impression": {
+   "title": "Impresja, wschód słońca",
+   "artist": "Claude Monet",
+   "yearLabel": "1872",
+   "museum": "Musée Marmottan Monet, Paryż",
+   "teaser": "Obraz, który dla żartu dał nazwę całemu kierunkowi.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Port w Le Havre we mglisty poranek. Monet kładzie kilka szybkich pociągnięć: łodzie, maszty i pomarańczowe słońce."
+    },
+    {
+     "type": "image",
+     "caption": "Detal · słońce i jego odbicie."
+    },
+    {
+     "type": "text",
+     "text": "W 1874 roku płótno pokazano w Paryżu. Krytyk Louis Leroy wyśmiał tytuł i nazwał tych malarzy „impresjonistami”."
+    },
+    {
+     "type": "key",
+     "text": "Słowo „impresjonizm” wzięło się od tego obrazu. Zaczęło się jako obelga, a stało się nazwą."
+    },
+    {
+     "type": "fact",
+     "text": "W Le Havre Monet dorastał. Jako nastolatek był tam znany ze swoich karykatur."
+    },
+    {
+     "type": "text",
+     "text": "Obraz został też skradziony, w 1985 roku, z Musée Marmottan. Odnaleziono go pięć lat później."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Jaki port namalował Monet?",
+     "options": [
+      "Marsylię",
+      "Le Havre",
+      "Wenecję"
+     ],
+     "explanation": "Miasto, w którym dorastał."
+    },
+    {
+     "question": "Czemu ten obraz dał nazwę?",
+     "options": [
+      "Impresjonizmowi",
+      "Muzeum",
+      "Nagrodzie"
+     ],
+     "explanation": "Krytyk wyśmiał tytuł, a słowo przylgnęło."
+    },
+    {
+     "question": "W którym roku pokazano go w Paryżu?",
+     "options": [
+      "1850",
+      "1874",
+      "1900"
+     ],
+     "explanation": "Właśnie wtedy wyśmiał go krytyk Louis Leroy."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Słowo „impresjonista” było na początku obelgą.",
+     "explanation": "Pochodzi z artykułu krytyka Louisa Leroya."
+    },
+    {
+     "text": "Ten obraz przedstawia port w Marsylii.",
+     "explanation": "To port w Le Havre."
+    }
+   ]
+  },
+  "baiser": {
+   "title": "Pocałunek",
+   "artist": "Gustav Klimt",
+   "yearLabel": "1908",
+   "museum": "Belweder, Wiedeń",
+   "teaser": "Dwoje kochanków spowitych złotem, na skraju kwitnącej łąki.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Klimt jest u szczytu swojego „złotego okresu”. Nakłada na płótno prawdziwe płatki złota, jak na religijnej ikonie."
+    },
+    {
+     "type": "image",
+     "caption": "Detal · dwie twarze."
+    },
+    {
+     "type": "text",
+     "text": "Spójrz na stroje. Jego szata pokryta jest czarnymi i białymi prostokątami. Jej szata to koła i kwiaty."
+    },
+    {
+     "type": "image",
+     "caption": "Detal · prostokąty i koła."
+    },
+    {
+     "type": "key",
+     "text": "Prostokąty dla niego, koła dla niej: to wzory opowiadają historię tej pary."
+    },
+    {
+     "type": "fact",
+     "text": "Ojciec Klimta był grawerem złota. Malarz dorastał wśród metalu, który później kładł na swoje płótna."
+    },
+    {
+     "type": "text",
+     "text": "Państwo austriackie kupiło obraz w 1908 roku, zanim jeszcze został całkiem ukończony."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Jakiego materiału użył Klimt?",
+     "options": [
+      "Masy perłowej",
+      "Płatków złota",
+      "Brązu"
+     ],
+     "explanation": "To znak rozpoznawczy jego złotego okresu."
+    },
+    {
+     "question": "Jakie wzory pokrywają szatę mężczyzny?",
+     "options": [
+      "Koła",
+      "Kwiaty",
+      "Prostokąty"
+     ],
+     "explanation": "Koła i kwiaty należą do kobiety."
+    },
+    {
+     "question": "Kto kupił obraz w 1908 roku?",
+     "options": [
+      "Państwo austriackie",
+      "Francuski kolekcjoner",
+      "Ojciec Klimta"
+     ],
+     "explanation": "Zanim jeszcze został całkiem ukończony."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Klimt używał prawdziwych płatków złota.",
+     "explanation": "Tak jak na kilku płótnach ze swojego złotego okresu."
+    },
+    {
+     "text": "Pocałunek znajduje się w Paryżu.",
+     "explanation": "Jest w Wiedniu, w Belwederze."
+    }
+   ]
+  },
+  "tournesols": {
+   "title": "Słoneczniki",
+   "artist": "Vincent van Gogh",
+   "yearLabel": "1888",
+   "museum": "National Gallery, Londyn",
+   "teaser": "Żółć na żółci: bukiet namalowany na powitanie przyjaciela.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "Sierpień 1888 roku, Arles. Van Gogh czeka na swojego przyjaciela Paula Gauguina i chce ozdobić słonecznikami jego pokój."
+    },
+    {
+     "type": "image",
+     "caption": "Detal · kwiaty w każdej fazie."
+    },
+    {
+     "type": "text",
+     "text": "Ma odwagę użyć niemal jednego koloru: żółte kwiaty, żółty wazon, żółte tło. Wszystko zależy od odcieni i od grubości farby."
+    },
+    {
+     "type": "key",
+     "text": "Obraz prawie monochromatyczny: żółć we wszystkich odmianach."
+    },
+    {
+     "type": "fact",
+     "text": "Słoneczniki szybko więdną. Van Gogh musiał malować szybko, od wschodu słońca, zanim kwiaty zwiesiły głowy."
+    },
+    {
+     "type": "text",
+     "text": "Istnieje kilka wersji tych słoneczników. Niektóre kwiaty są jeszcze w pąkach, inne już przekwitły: bukiet opowiada też o upływie czasu."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Czyj pokój miały ozdobić słoneczniki?",
+     "options": [
+      "Paula Gauguina",
+      "Claude'a Moneta",
+      "Jego brata Theo"
+     ],
+     "explanation": "Van Gogh czekał na niego w Arles."
+    },
+    {
+     "question": "W jakim mieście je namalował?",
+     "options": [
+      "W Paryżu",
+      "W Arles",
+      "W Amsterdamie"
+     ],
+     "explanation": "Na południu Francji, w sierpniu 1888 roku."
+    },
+    {
+     "question": "Co jest niezwykłego w kolorach?",
+     "options": [
+      "Prawie wszystko jest żółte",
+      "Nie ma w ogóle żółci",
+      "Obraz jest czarno-biały"
+     ],
+     "explanation": "Żółte kwiaty, żółty wazon, żółte tło."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Istnieje kilka wersji Słoneczników.",
+     "explanation": "Van Gogh namalował całą serię."
+    },
+    {
+     "text": "Van Gogh sprzedał za życia swoje Słoneczniki za fortunę.",
+     "explanation": "Za życia nie sprzedał prawie nic."
+    }
+   ]
+  },
+  "joconde": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "yearLabel": "ok. 1503–1519",
+   "museum": "Luwr, Paryż",
+   "teaser": "Najsłynniejszy uśmiech świata zależy od konturów, których nie widać.",
+   "lesson": [
+    {
+     "type": "text",
+     "text": "To najsłynniejszy obraz na świecie, a przy tym niewielki: 77 na 53 cm, namalowany na desce z drewna topolowego. Wielu zwiedzających Luwr zaskakuje jego rozmiar."
+    },
+    {
+     "type": "text",
+     "text": "Około 1503 roku we Florencji kupiec jedwabny Francesco del Giocondo poprosił Leonarda da Vinci, by namalował jego żonę, Lisę Gherardini."
+    },
+    {
+     "type": "key",
+     "text": "Mona Lisa to portret Lisy Gherardini, żony florenckiego kupca. „Mona” znaczy po prostu „pani”."
+    },
+    {
+     "type": "fact",
+     "text": "Leonardo był nie tylko malarzem. Był też inżynierem, anatomem i wynalazcą, a po sobie zostawił tysiące stron notatek zapisanych pismem lustrzanym."
+    },
+    {
+     "type": "tour",
+     "text": "Obejrzyj ją w całości. Potem podejdź bliżej do tego, co uczyniło ją legendą.",
+     "spots": [
+      {
+       "title": "Uśmiech",
+       "text": "Poszukaj linii, która rysuje wargi: nie ma jej. Kąciki ust rozpływają się w cieniu. Dlatego uśmiech zdaje się zmieniać."
+      },
+      {
+       "title": "Oczy",
+       "text": "Ten sam trik: kąciki oczu rozpływają się w cieniu. Zauważ też, że nie ma brwi ani rzęs."
+      },
+      {
+       "title": "Dłonie",
+       "text": "Złożone jedna na drugiej, swobodne. Leonardo przeprowadzał sekcje zwłok, by zrozumieć kości i mięśnie: te dłonie mają ciężar."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "To rozmycie ma swoją nazwę: sfumato, od włoskiego „fumo”, czyli dym. Leonardo kładzie dziesiątki bardzo cienkich, niemal przejrzystych warstw farby. Kontury znikają, a kształty przenikają się nawzajem."
+    },
+    {
+     "type": "key",
+     "text": "Sfumato to miękkie, zadymione kontury. To przez nie uśmiechu nie da się uchwycić."
+    },
+    {
+     "type": "text",
+     "text": "Sprawdź sam. Patrz jej w oczy, a usta zdają się uśmiechać. Spójrz prosto na usta, a uśmiech gaśnie. Całą robotę wykonują cienie w kącikach."
+    },
+    {
+     "type": "find",
+     "text": "Czegoś brakuje w tej twarzy. Dotknij miejsca, gdzie powinno być.",
+     "spots": [
+      {
+       "title": "Brwi",
+       "text": "Nie ma brwi ani rzęs. Moda tamtych czasów czy farba starta podczas dawnych czyszczeń? Znawcy wciąż się o to spierają."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Teraz spójrz na pozę. Przed Leonardem portrety pokazywano zwykle z profilu albo ucinano na wysokości piersi. On pokazuje postać do pasa, obróconą w trzech czwartych ku nam, razem z dłońmi."
+    },
+    {
+     "type": "fact",
+     "text": "Młody Rafael zobaczył ten portret w pracowni Leonarda i od razu przejął tę pozę we własnych dziełach."
+    },
+    {
+     "type": "lines",
+     "text": "Spokojna poza, dziwny pejzaż. Zobacz, jak to wszystko jest zbudowane.",
+     "lines": [
+      {
+       "label": "Piramida",
+       "text": "Głowa na szczycie, ramiona i dłonie u podstawy. Szeroka, stabilna figura: ona się nie porusza, ona trwa."
+      },
+      {
+       "label": "Horyzont po lewej",
+       "text": "Po lewej stronie linia wody w pejzażu leży mniej więcej tutaj."
+      },
+      {
+       "label": "Horyzont po prawej",
+       "text": "Po prawej jest wyżej. Obie połowy pejzażu do siebie nie pasują i stąd po części bierze się dziwność obrazu."
+      },
+      {
+       "label": "Ścieżka",
+       "text": "Wijąca się linia, która prowadzi wzrok w dal, jak rzeki po prawej stronie."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ten pejzaż nie jest prawdziwym miejscem. To senny świat skał, wody i mgły, bez domów i bez ludzi. Tylko jedną rzecz zbudowały w nim ludzkie ręce."
+    },
+    {
+     "type": "find",
+     "text": "W tym pustym pejzażu stoi jedna jedyna budowla wzniesiona przez człowieka. Gdzie jest most?",
+     "spots": [
+      {
+       "title": "Most",
+       "text": "Mały kamienny most o kilku łukach. To jedyny ślad ludzkiej obecności w całym pejzażu."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Tło podlega regule, którą Leonardo sam spisał: perspektywie powietrznej. Powietrze nie jest idealnie przejrzyste. Im coś jest dalej, tym wydaje się bardziej niebieskie, bledsze i zamglone."
+    },
+    {
+     "type": "key",
+     "text": "Perspektywa powietrzna: to, co daleko, jest bardziej niebieskie, bledsze i rozmyte. Leonardo był jednym z pierwszych, którzy malowali ją świadomie."
+    },
+    {
+     "type": "palette",
+     "text": "Brązy, zielenie, odrobina złota. Stary werniks wszystko zażółcił. Dotknij koloru.",
+     "swatches": [
+      {
+       "name": "Cienie",
+       "text": "Suknia, włosy, welon. Prawie pół obrazu tonie w półmroku."
+      },
+      {
+       "name": "Skóra",
+       "text": "Twarz, dekolt, dłonie: trzy jasne plamy ułożone w trójkąt."
+      },
+      {
+       "name": "Szarozielone niebo",
+       "text": "Pierwotnie bardziej niebieskie. Pożółkły werniks przesunął je ku zieleni."
+      },
+      {
+       "name": "Brązowa ziemia",
+       "text": "Skały i ścieżki pejzażu, po obu stronach jej ramion."
+      },
+      {
+       "name": "Zielona dal",
+       "text": "Woda i góry, złagodzone przez odległość."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Leonardo nigdy nie oddał obrazu. Zatrzymał go, latami poprawiał i zabrał ze sobą do Francji, gdy zaprosił go tam król Franciszek I. Po jego śmierci w 1519 roku portret trafił do kolekcji królewskiej. Dlatego wisi w Luwrze."
+    },
+    {
+     "type": "text",
+     "text": "Przez długi czas był jednym arcydziełem spośród wielu. Światową sławę zawdzięcza przestępstwu: 21 sierpnia 1911 roku włoski robotnik Vincenzo Peruggia zdjął go ze ściany i wyszedł z nim ukrytym pod kitlem."
+    },
+    {
+     "type": "fact",
+     "text": "Kiedy obrazu nie było, tłumy ustawiały się w kolejce do Luwru tylko po to, żeby popatrzeć na puste miejsce na ścianie."
+    },
+    {
+     "type": "text",
+     "text": "Gazety na całym świecie drukowały jej wizerunek. Kiedy w 1913 roku odnaleziono ją we Florencji, Mona Lisa nie była już tylko obrazem. Była gwiazdą."
+    },
+    {
+     "type": "key",
+     "text": "Swój geniusz Mona Lisa zawdzięcza Leonardowi, a sławę kradzieży."
+    },
+    {
+     "type": "explore",
+     "spots": [
+      {
+       "title": "Uśmiech",
+       "text": "Poszukaj linii, która rysuje wargi: nie ma jej. Kąciki ust rozpływają się w cieniu. Dlatego uśmiech zdaje się zmieniać."
+      },
+      {
+       "title": "Oczy",
+       "text": "Ten sam trik: kąciki oczu rozpływają się w cieniu. Zauważ też, że nie ma brwi ani rzęs."
+      },
+      {
+       "title": "Dłonie",
+       "text": "Złożone jedna na drugiej, swobodne. Leonardo przeprowadzał sekcje zwłok, by zrozumieć kości i mięśnie: te dłonie mają ciężar."
+      },
+      {
+       "title": "Most",
+       "text": "Mały kamienny most o kilku łukach. To jedyny ślad ludzkiej obecności w całym pejzażu."
+      },
+      {
+       "title": "Ścieżka",
+       "text": "Ścieżka wije się ku jezioru. Ten pejzaż nie jest prawdziwym miejscem: Leonardo wymyśla go na podstawie swoich studiów skał i wody."
+      },
+      {
+       "title": "Welon",
+       "text": "Przejrzysty welon okrywa jej włosy. Jest tak delikatny, że na czole ledwie go widać."
+      },
+      {
+       "title": "Dal",
+       "text": "Im dalej leżą góry, tym są bardziej niebieskie i zamglone. Leonardo zauważył, że samo powietrze ma kolor."
+      },
+      {
+       "title": "Rękaw",
+       "text": "Drobne złociste fałdy, malowane jedna po drugiej. Suknia jest ciemna, a ona nie nosi żadnej biżuterii: nic nie może odwracać uwagi od twarzy."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Kim jest kobieta z portretu?",
+     "options": [
+      "Królową Francji",
+      "Lisą Gherardini, żoną florenckiego kupca",
+      "Matką Leonarda"
+     ],
+     "explanation": "Portret zamówił jej mąż, Francesco del Giocondo."
+    },
+    {
+     "question": "Jak nazywa się technika miękkich, zadymionych konturów?",
+     "options": [
+      "Impasto",
+      "Sfumato",
+      "Puentylizm"
+     ],
+     "explanation": "Od włoskiego „fumo”, czyli dym."
+    },
+    {
+     "question": "Na czym namalowano Mona Lisę?",
+     "options": [
+      "Na płótnie lnianym",
+      "Na desce z drewna topolowego",
+      "Na tynku ściany"
+     ],
+     "explanation": "Na topolowej desce o wymiarach 77 na 53 cm."
+    },
+    {
+     "question": "Co dzieje się z tym, co daleko?",
+     "options": [
+      "Staje się bardziej jaskrawe",
+      "Staje się bardziej niebieskie, bledsze i zamglone",
+      "Ma ostrzejsze kontury"
+     ],
+     "explanation": "To właśnie perspektywa powietrzna."
+    },
+    {
+     "question": "Dlaczego obraz jest we Francji?",
+     "options": [
+      "Napoleon wywiózł go z Włoch",
+      "Leonardo go przywiózł, a potem obraz trafił do kolekcji królewskiej",
+      "Luwr kupił go w 1911 roku"
+     ],
+     "explanation": "Leonardo przybył do Francji na zaproszenie króla Franciszka I."
+    },
+    {
+     "question": "Co przyniosło Mona Lisie światową sławę?",
+     "options": [
+      "Kradzież z Luwru w 1911 roku",
+      "Wystawa w Nowym Jorku",
+      "Konserwacja"
+     ],
+     "explanation": "Ukradł ją Vincenzo Peruggia, odnaleziono ją w 1913 roku."
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mona Lisa jest namalowana na płótnie.",
+     "explanation": "Namalowano ją na desce z drewna topolowego."
+    },
+    {
+     "text": "Mona Lisa została skradziona z Luwru w 1911 roku.",
+     "explanation": "Odnaleziono ją dwa lata później."
+    },
+    {
+     "text": "Mona Lisa ma gęste, ciemne brwi.",
+     "explanation": "W ogóle nie ma brwi ani rzęs."
+    }
+   ]
+  }
+ }
+}
