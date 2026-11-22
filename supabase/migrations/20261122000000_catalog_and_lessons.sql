@@ -28,6 +28,7 @@ create table public.artworks (
   author text,
   credit text,
   image_match text,
+  image_note text,
   teaser text,
   focus_x real,
   focus_y real,
