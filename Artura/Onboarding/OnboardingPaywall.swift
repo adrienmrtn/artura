@@ -989,7 +989,7 @@ struct ExitOfferSheet: View {
                         }
                         .lineLimit(1)
                         .minimumScaleFactor(0.8)
-                        Text(L("Full access, after your free week"))
+                        Text(L("Full access, after your free trial"))
                             .font(.figtree(13)).foregroundStyle(Palette.muted)
                     } else {
                         Text(L("Full access"))
