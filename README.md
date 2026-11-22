@@ -85,9 +85,9 @@ Tout le contenu est dans `Artura/Resources/content.json`. Ajouter une œuvre = a
 
 Produits attendus :
 
-- `com.vikstudios.artura.pro.yearly` (essai gratuit de 3 jours)
-- `com.vikstudios.artura.pro.monthly` (essai gratuit de 3 jours)
-- `com.vikstudios.artura.pro.yearly.trial7` (même abonnement annuel, essai gratuit de 7 jours : l'offre de dernière minute de l'onboarding)
+- `Artura_yearly` (essai gratuit de 3 jours)
+- `Artura_monthly` (essai gratuit de 3 jours)
+- `Artura_yearly_trial7` (même abonnement annuel, essai gratuit de 7 jours : l'offre de dernière minute de l'onboarding)
 
 `Artura/Artura.storekit` permet de tester les achats dans le simulateur sans App Store Connect ; le schéma partagé le référence déjà. **Les prix qu'il contient (29,99 et 4,99) sont des valeurs de test**, à remplacer par les vrais tarifs, puis à créer à l'identique dans App Store Connect.
 

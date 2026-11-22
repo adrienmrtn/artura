@@ -46,10 +46,10 @@ enum Reminder {
 
 @MainActor
 final class ProStore: ObservableObject {
-    static let yearlyID = "com.vikstudios.artura.pro.yearly"
-    static let monthlyID = "com.vikstudios.artura.pro.monthly"
+    static let yearlyID = "Artura_yearly"
+    static let monthlyID = "Artura_monthly"
     /// Same yearly subscription, with a 7-day trial instead of 3 (last-minute offer).
-    static let yearlyExtendedID = "com.vikstudios.artura.pro.yearly.trial7"
+    static let yearlyExtendedID = "Artura_yearly_trial7"
     static let allIDs: Set<String> = [yearlyID, monthlyID, yearlyExtendedID]
 
     @Published var products: [Product] = []
