@@ -304,49 +304,15 @@ struct WidgetScreen: View {
         }
     }
 
+    /// A real Home Screen with the Artura widget (screenshot taken on an iPhone).
     private var homeScreen: some View {
-        ZStack {
-            wallpaper
-            VStack(spacing: 14) {
-                // The Home Screen widget: the artwork, large
-                ZStack(alignment: .bottomLeading) {
-                    if let artwork {
-                        ArtImage(name: artwork.image)
-                    }
-                    LinearGradient(colors: [.clear, .black.opacity(0.65)], startPoint: .center, endPoint: .bottom)
-                    VStack(alignment: .leading, spacing: 1) {
-                        Text("Artwork of the day")
-                            .font(.system(size: 10, weight: .semibold))
-                            .foregroundStyle(.white.opacity(0.8))
-                        Text(artwork?.title ?? "")
-                            .font(.system(size: 15, weight: .bold))
-                            .foregroundStyle(.white)
-                            .lineLimit(1)
-                    }
-                    .padding(10)
-                }
-                .frame(height: 128)
-                .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-                .padding(.top, 50)
-                .scaleEffect(popped ? 1 : 0.86)
-                .opacity(popped ? 1 : 0)
-
-                // Dummy apps, to situate the widget
-                ForEach(0..<3, id: \.self) { _ in
-                    HStack(spacing: 0) {
-                        ForEach(0..<4, id: \.self) { column in
-                            RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                .fill(.white.opacity(0.2))
-                                .frame(width: 36, height: 36)
-                            if column < 3 { Spacer(minLength: 0) }
-                        }
-                    }
-                }
-                Spacer()
-                Capsule().fill(.white.opacity(0.8)).frame(width: 84, height: 4).padding(.bottom, 8)
-            }
-            .padding(.horizontal, 14)
-        }
+        Image("widget_home")
+            .resizable()
+            .scaledToFill()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .clipped()
+            .scaleEffect(popped ? 1 : 1.04)
+            .opacity(popped ? 1 : 0)
     }
 }
 

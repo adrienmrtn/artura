@@ -10,10 +10,14 @@ struct LessonView: View {
     var finishTitle: String = "Take the quiz"
     /// When set, a "Skip" button replaces the counter in the top right.
     var onSkip: (() -> Void)? = nil
+    /// Number of "Continue" taps allowed before `onBlocked` is called instead (nil: no limit).
+    var freeTaps: Int? = nil
+    var onBlocked: (() -> Void)? = nil
     let onBack: () -> Void
     let onFinish: () -> Void
 
     @State private var revealed = 0
+    @State private var taps = 0
     /// Interactive block opened full screen on the painting.
     @State private var studio: Int?
 
@@ -64,6 +68,7 @@ struct LessonView: View {
                         ArtImage(name: artwork.image)
                             .frame(height: 270)
                             .clipShape(RoundedRectangle(cornerRadius: 16))
+                            .zoomable(artwork)
                         if let credit = artwork.credit {
                             Text(credit).font(.figtree(11)).foregroundStyle(Palette.muted)
                         }
@@ -100,6 +105,13 @@ struct LessonView: View {
                     Haptics.success()
                     onFinish()
                 } else {
+                    taps += 1
+                    if let freeTaps, taps > freeTaps {
+                        // The lesson stops here for a free reader.
+                        Haptics.press()
+                        onBlocked?()
+                        return
+                    }
                     Haptics.soft()
                     let index = revealed
                     withAnimation(.easeOut(duration: 0.15)) { revealed += 1 }
@@ -170,6 +182,7 @@ struct LessonView: View {
                 ArtImage(name: artwork.image, zoom: block.zoom ?? 2, anchor: block.unitAnchor)
                     .frame(height: 220)
                     .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .zoomable(artwork)
                 if let caption = block.caption {
                     Text(caption).font(.aCaption).foregroundStyle(Palette.muted)
                 }
