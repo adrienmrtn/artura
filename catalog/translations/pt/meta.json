@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Busto de Nefertiti",
+   "artist": "Tutemés",
+   "year_label": "1345 a.C.",
+   "museum": "Neues Museum, Berlim"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Máscara de Tutancâmon",
+   "artist": "Anônimo (Egito)",
+   "year_label": "1323 a.C.",
+   "museum": "Grande Museu Egípcio, Gizé"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Vitória de Samotrácia",
+   "artist": "Anônimo (Grécia)",
+   "year_label": "190 a.C.",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Vênus de Milo",
+   "artist": "Alexandre de Antioquia",
+   "year_label": "120 a.C.",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Lamentação (O Pranto sobre o Cristo Morto)",
+   "artist": "Giotto",
+   "year_label": "1305",
+   "museum": "Capela Scrovegni, Pádua"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "As Riquíssimas Horas do Duque de Berry: Janeiro",
+   "artist": "Irmãos Limbourg",
+   "year_label": "1416",
+   "museum": "Museu Condé, Chantilly"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "O Casal Arnolfini",
+   "artist": "Jan van Eyck",
+   "year_label": "1434",
+   "museum": "National Gallery, Londres"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "A Descida da Cruz",
+   "artist": "Rogier van der Weyden",
+   "year_label": "1435",
+   "museum": "Museu do Prado, Madri"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "O Jardim das Delícias Terrenas",
+   "artist": "Hieronymus Bosch",
+   "year_label": "1500",
+   "museum": "Museu do Prado, Madri"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "O Nascimento de Vênus",
+   "artist": "Sandro Botticelli",
+   "year_label": "1485",
+   "museum": "Galeria Uffizi, Florença"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1503",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "vinci-the-last-supper": {
+   "title": "A Última Ceia",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milão"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Homem Vitruviano",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1490",
+   "museum": "Gallerie dell'Accademia, Veneza"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "A Criação de Adão",
+   "artist": "Michelangelo",
+   "year_label": "1512",
+   "museum": "Capela Sistina, Cidade do Vaticano"
+  },
+  "michelangelo-david": {
+   "title": "Davi",
+   "artist": "Michelangelo",
+   "year_label": "1504",
+   "museum": "Galleria dell'Accademia, Florença"
+  },
+  "michelangelo-pieta": {
+   "title": "Pietà",
+   "artist": "Michelangelo",
+   "year_label": "1499",
+   "museum": "Basílica de São Pedro, Cidade do Vaticano"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "A Escola de Atenas",
+   "artist": "Rafael",
+   "year_label": "1511",
+   "museum": "Museus Vaticanos, Cidade do Vaticano"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Vênus de Urbino",
+   "artist": "Ticiano",
+   "year_label": "1538",
+   "museum": "Galeria Uffizi, Florença"
+  },
+  "durer-young-hare": {
+   "title": "Lebre Jovem",
+   "artist": "Albrecht Dürer",
+   "year_label": "1502",
+   "museum": "Albertina, Viena"
+  },
+  "younger-the-ambassadors": {
+   "title": "Os Embaixadores",
+   "artist": "Hans Holbein, o Jovem",
+   "year_label": "1533",
+   "museum": "National Gallery, Londres"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Os Caçadores na Neve",
+   "artist": "Pieter Bruegel, o Velho",
+   "year_label": "1565",
+   "museum": "Kunsthistorisches Museum, Viena"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "A Torre de Babel",
+   "artist": "Pieter Bruegel, o Velho",
+   "year_label": "1563",
+   "museum": "Kunsthistorisches Museum, Viena"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Madona do Pescoço Longo",
+   "artist": "Parmigianino",
+   "year_label": "1540",
+   "museum": "Galeria Uffizi, Florença"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "O Enterro do Conde de Orgaz",
+   "artist": "El Greco",
+   "year_label": "1586",
+   "museum": "Igreja de Santo Tomé, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumno",
+   "artist": "Giuseppe Arcimboldo",
+   "year_label": "1591",
+   "museum": "Castelo de Skokloster, Suécia"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "A Vocação de São Mateus",
+   "artist": "Caravaggio",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Roma"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judite Decapitando Holofernes",
+   "artist": "Artemisia Gentileschi",
+   "year_label": "1620",
+   "museum": "Galeria Uffizi, Florença"
+  },
+  "velazquez-las-meninas": {
+   "title": "As Meninas",
+   "artist": "Diego Velázquez",
+   "year_label": "1656",
+   "museum": "Museu do Prado, Madri"
+  },
+  "rubens-the-three-graces": {
+   "title": "As Três Graças",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Museu do Prado, Madri"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apolo e Dafne",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1625",
+   "museum": "Galeria Borghese, Roma"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "O Êxtase de Santa Teresa",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Roma"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "A Ronda Noturna",
+   "artist": "Rembrandt",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdã"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "A Lição de Anatomia do Dr. Nicolaes Tulp",
+   "artist": "Rembrandt",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Haia"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Moça com Brinco de Pérola",
+   "artist": "Johannes Vermeer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Haia"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "A Leiteira",
+   "artist": "Johannes Vermeer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdã"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "O Pintassilgo",
+   "artist": "Carel Fabritius",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Haia"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Peregrinação à Ilha de Citera",
+   "artist": "Antoine Watteau",
+   "year_label": "1717",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "fragonard-the-swing": {
+   "title": "O Balanço",
+   "artist": "Jean-Honoré Fragonard",
+   "year_label": "1767",
+   "museum": "Wallace Collection, Londres"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Autorretrato com Chapéu de Palha",
+   "artist": "Élisabeth Vigée Le Brun",
+   "year_label": "1782",
+   "museum": "National Gallery, Londres"
+  },
+  "david-the-death-of-marat": {
+   "title": "A Morte de Marat",
+   "artist": "Jacques-Louis David",
+   "year_label": "1793",
+   "museum": "Museus Reais de Belas-Artes da Bélgica, Bruxelas"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napoleão Cruzando os Alpes",
+   "artist": "Jacques-Louis David",
+   "year_label": "1801",
+   "museum": "Castelo de Malmaison"
+  },
+  "ingres-grande-odalisque": {
+   "title": "A Grande Odalisca",
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "year_label": "1814",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Psiquê Reanimada pelo Beijo do Amor",
+   "artist": "Antonio Canova",
+   "year_label": "1793",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "O Três de Maio de 1808",
+   "artist": "Francisco de Goya",
+   "year_label": "1814",
+   "museum": "Museu do Prado, Madri"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "A Liberdade Guiando o Povo",
+   "artist": "Eugène Delacroix",
+   "year_label": "1830",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "A Balsa da Medusa",
+   "artist": "Théodore Géricault",
+   "year_label": "1819",
+   "museum": "Museu do Louvre, Paris"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Caminhante sobre o Mar de Névoa",
+   "artist": "Caspar David Friedrich",
+   "year_label": "1818",
+   "museum": "Kunsthalle de Hamburgo"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "O Combatente Téméraire",
+   "artist": "J. M. W. Turner",
+   "year_label": "1839",
+   "museum": "National Gallery, Londres"
+  },
+  "hayez-the-kiss": {
+   "title": "O Beijo",
+   "artist": "Francesco Hayez",
+   "year_label": "1859",
+   "museum": "Pinacoteca de Brera, Milão"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "A Grande Onda de Kanagawa",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Vento Sul, Céu Claro (Fuji Vermelho)",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Chuva Repentina sobre a Ponte Shin-Ōhashi e Atake",
+   "artist": "Utagawa Hiroshige",
+   "year_label": "1857",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Ao Longo do Rio Durante o Festival Qingming",
+   "artist": "Zhang Zeduan",
+   "year_label": "1100",
+   "museum": "Museu do Palácio, Pequim"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Deus do Vento e Deus do Trovão",
+   "artist": "Tawaraya Sōtatsu",
+   "year_label": "1630",
+   "museum": "Kennin-ji, Quioto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "O Desesperado",
+   "artist": "Gustave Courbet",
+   "year_label": "1845",
+   "museum": "Coleção particular"
+  },
+  "millet-the-gleaners": {
+   "title": "As Respigadoras",
+   "artist": "Jean-François Millet",
+   "year_label": "1857",
+   "museum": "Museu d'Orsay, Paris"
+  },
+  "manet-olympia": {
+   "title": "Olympia",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Museu d'Orsay, Paris"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Almoço na Relva",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Museu d'Orsay, Paris"
+  },
+  "wood-american-gothic": {
+   "title": "Gótico Americano",
+   "artist": "Grant Wood",
+   "year_label": "1930",
+   "museum": "Instituto de Arte de Chicago"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "John Singer Sargent",
+   "year_label": "1884",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Arranjo em Cinza e Preto nº 1 (A Mãe de Whistler)",
+   "artist": "James McNeill Whistler",
+   "year_label": "1871",
+   "museum": "Museu d'Orsay, Paris"
+  },
+  "millais-ophelia": {
+   "title": "Ofélia",
+   "artist": "John Everett Millais",
+   "year_label": "1852",
+   "museum": "Tate Britain, Londres"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "A Dama de Shalott",
+   "artist": "John William Waterhouse",
+   "year_label": "1888",
+   "museum": "Tate Britain, Londres"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "O Nascimento de Vênus",
+   "artist": "Alexandre Cabanel",
+   "year_label": "1863",
+   "museum": "Museu d'Orsay, Paris"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "Jean-Léon Gérôme",
+   "year_label": "1872",
+   "museum": "Museu de Arte de Phoenix"
+  },
+  "monet-impression-sunrise": {
+   "title": "Impressão, Nascer do Sol",
+   "artist": "Claude Monet",
+   "year_label": "1872",
+   "museum": "Museu Marmottan Monet, Paris"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Mulher com Sombrinha: Madame Monet e Seu Filho",
+   "artist": "Claude Monet",
+   "year_label": "1875",
+   "museum": "Galeria Nacional de Arte, Washington"
+  },
+  "monet-water-lilies": {
+   "title": "Ninfeias",
+   "artist": "Claude Monet",
+   "year_label": "1906",
+   "museum": "Instituto de Arte de Chicago"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "O Baile no Moulin de la Galette",
+   "artist": "Pierre-Auguste Renoir",
+   "year_label": "1876",
+   "museum": "Museu d'Orsay, Paris"
+  },
+  "degas-the-dance-class": {
+   "title": "A Aula de Dança",
+   "artist": "Edgar Degas",
+   "year_label": "1874",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "morisot-the-cradle": {
+   "title": "O Berço",
+   "artist": "Berthe Morisot",
+   "year_label": "1872",
+   "museum": "Museu d'Orsay, Paris"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Passeio à Beira-Mar",
+   "artist": "Joaquín Sorolla",
+   "year_label": "1909",
+   "museum": "Museu Sorolla, Madri"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "Uma Tarde de Domingo na Ilha de Grande Jatte",
+   "artist": "Georges Seurat",
+   "year_label": "1886",
+   "museum": "Instituto de Arte de Chicago"
+  },
+  "gogh-the-starry-night": {
+   "title": "A Noite Estrelada",
+   "artist": "Vincent van Gogh",
+   "year_label": "1889",
+   "museum": "Museu de Arte Moderna (MoMA), Nova York"
+  },
+  "gogh-sunflowers": {
+   "title": "Os Girassóis",
+   "artist": "Vincent van Gogh",
+   "year_label": "1888",
+   "museum": "National Gallery, Londres"
+  },
+  "cezanne-the-card-players": {
+   "title": "Os Jogadores de Cartas",
+   "artist": "Paul Cézanne",
+   "year_label": "1892",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "De Onde Viemos? O Que Somos? Para Onde Vamos?",
+   "artist": "Paul Gauguin",
+   "year_label": "1897",
+   "museum": "Museu de Belas-Artes, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Henri de Toulouse-Lautrec",
+   "year_label": "1891",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "A Cigana Adormecida",
+   "artist": "Henri Rousseau",
+   "year_label": "1897",
+   "museum": "Museu de Arte Moderna (MoMA), Nova York"
+  },
+  "munch-the-scream": {
+   "title": "O Grito",
+   "artist": "Edvard Munch",
+   "year_label": "1893",
+   "museum": "Museu Nacional, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "A Ilha dos Mortos",
+   "artist": "Arnold Böcklin",
+   "year_label": "1880",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "rodin-the-thinker": {
+   "title": "O Pensador",
+   "artist": "Auguste Rodin",
+   "year_label": "1904",
+   "museum": "Museu Rodin, Paris"
+  },
+  "klimt-the-kiss": {
+   "title": "O Beijo",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Viena"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Retrato de Adele Bloch-Bauer I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, Nova York"
+  },
+  "matisse-dance": {
+   "title": "A Dança",
+   "artist": "Henri Matisse",
+   "year_label": "1910",
+   "museum": "Museu Hermitage, São Petersburgo"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Mulher com Chapéu",
+   "artist": "Henri Matisse",
+   "year_label": "1905",
+   "museum": "Museu de Arte Moderna de São Francisco"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "Os Grandes Cavalos Azuis",
+   "artist": "Franz Marc",
+   "year_label": "1911",
+   "museum": "Walker Art Center, Minneapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Nu Deitado",
+   "artist": "Amedeo Modigliani",
+   "year_label": "1917",
+   "museum": "Metropolitan Museum of Art, Nova York"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Retrato de Pablo Picasso",
+   "artist": "Juan Gris",
+   "year_label": "1912",
+   "museum": "Instituto de Arte de Chicago"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Torre Eiffel com Árvores",
+   "artist": "Robert Delaunay",
+   "year_label": "1910",
+   "museum": "Museu Solomon R. Guggenheim, Nova York"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Formas Únicas de Continuidade no Espaço",
+   "artist": "Umberto Boccioni",
+   "year_label": "1913",
+   "museum": "Museu de Arte Moderna (MoMA), Nova York"
+  },
+  "boccioni-the-city-rises": {
+   "title": "A Cidade se Levanta",
+   "artist": "Umberto Boccioni",
+   "year_label": "1910",
+   "museum": "Museu de Arte Moderna (MoMA), Nova York"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Composição VIII",
+   "artist": "Wassily Kandinsky",
+   "year_label": "1923",
+   "museum": "Museu Solomon R. Guggenheim, Nova York"
+  },
+  "malevich-black-square": {
+   "title": "Quadrado Negro",
+   "artist": "Kazimir Malevich",
+   "year_label": "1915",
+   "museum": "Galeria Tretyakov, Moscou"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Composição II em Vermelho, Azul e Amarelo",
+   "artist": "Piet Mondrian",
+   "year_label": "1930",
+   "museum": "Kunsthaus de Zurique"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Klee",
+   "year_label": "1922",
+   "museum": "Kunstmuseum Basel, Basileia"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Schwitters",
+   "year_label": "1919",
+   "museum": "Staatsgalerie, Stuttgart"
+  },
+  "terracotta-army": {
+   "title": "Exército de Terracota",
+   "artist": "Anônimo (China)",
+   "year_label": "210 a.C.",
+   "museum": "Mausoléu do Primeiro Imperador Qin, Xi'an"
+  },
+  "aztec-sun-stone": {
+   "title": "Pedra do Sol Asteca",
+   "artist": "Anônimo (asteca)",
+   "year_label": "1510",
+   "museum": "Museu Nacional de Antropologia, Cidade do México"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (Moai)",
+   "artist": "Anônimo (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "Museu Britânico, Londres"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Antiguidade",
+   "period": "2600 a.C.-300 d.C.",
+   "summary": "Deuses, soberanos e o corpo ideal",
+   "description": "Do Egito à Grécia e a Roma, os artistas esculpem soberanos, deuses e atletas feitos para durar para sempre. Essa busca pelo corpo ideal serviu de modelo para séculos de arte ocidental."
+  },
+  "gothic": {
+   "name": "Gótico e Proto-Renascimento",
+   "period": "1280-1430",
+   "summary": "Fundos dourados e as primeiras emoções de verdade",
+   "description": "Nas igrejas e capelas, os pintores ainda trabalham sobre fundo de ouro, mas suas figuras começam a chorar, a se virar, a ter peso. A arte de contar histórias em imagens está sendo reinventada."
+  },
+  "early_netherlandish": {
+   "name": "Primitivos Flamengos",
+   "period": "1420-1500",
+   "summary": "Tinta a óleo e detalhes deslumbrantes",
+   "description": "Em Flandres, os pintores aperfeiçoam a tinta a óleo e a usam para descrever tudo: um pelo, um vidro, uma lágrima, um reflexo. As cenas sagradas se mudam para cômodos que parecem casas de verdade."
+  },
+  "renaissance": {
+   "name": "Renascimento Italiano",
+   "period": "1420-1570",
+   "summary": "A perspectiva e a volta à Antiguidade",
+   "description": "Na Itália, e depois em toda a Europa, os artistas redescobrem a Antiguidade, estudam o corpo humano e inventam a perspectiva. O quadro vira uma janela aberta para o mundo."
+  },
+  "northern_renaissance": {
+   "name": "Renascimento Nórdico",
+   "period": "1490-1570",
+   "summary": "Traço preciso, gravuras e visões estranhas",
+   "description": "Ao norte dos Alpes, os artistas misturam as ideias italianas com o gosto pelo detalhe e pela vida cotidiana. A gravura espalha suas imagens por toda a Europa."
+  },
+  "mannerism": {
+   "name": "Maneirismo",
+   "period": "1520-1610",
+   "summary": "A elegância esticada até o limite",
+   "description": "Depois dos grandes mestres, os pintores quebram as regras de propósito: corpos alongados, poses retorcidas, cores ácidas. O próprio estilo vira o assunto."
+  },
+  "baroque": {
+   "name": "Barroco",
+   "period": "1600-1700",
+   "summary": "Drama, movimento e sombras profundas",
+   "description": "A arte quer comover quem olha. Fortes contrastes de luz e sombra, corpos em movimento e uma encenação teatral puxam você para dentro da cena."
+  },
+  "siecledor": {
+   "name": "Século de Ouro Holandês",
+   "period": "1600-1700",
+   "summary": "A vida de todo dia e a luz",
+   "description": "Na próspera República Holandesa, os artistas pintam para as casas da burguesia: interiores tranquilos, retratos, naturezas-mortas. A luz se torna o verdadeiro assunto."
+  },
+  "rococo": {
+   "name": "Rococó e Século XVIII",
+   "period": "1715-1790",
+   "summary": "Leveza, prazer e tons pastel",
+   "description": "Nos salões do século XVIII, a pintura fica brincalhona e íntima: festas nos jardins, retratos, cores suaves. Enquanto isso, alguns artistas olham em silêncio para a vida comum."
+  },
+  "neoclassicism": {
+   "name": "Neoclassicismo",
+   "period": "1760-1860",
+   "summary": "Linhas claras e virtude antiga",
+   "description": "Inspirados pelas ruínas de Roma e de Pompeia, os artistas voltam ao desenho sóbrio e aos temas heroicos. A pintura deve ensinar tanto quanto agradar."
+  },
+  "romanticism": {
+   "name": "Romantismo",
+   "period": "1780-1860",
+   "summary": "Emoção, natureza e o sublime",
+   "description": "O sentimento toma o lugar da razão. Tempestades, ruínas, revoltas e figuras solitárias expressam o que o artista sente diante de um mundo grande demais para ser dominado."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1680-1860",
+   "summary": "Estampas do “mundo flutuante”",
+   "description": "No Japão, xilogravuras feitas em série mostram atores, paisagens e cenas do dia a dia. Suas cores chapadas e seus enquadramentos ousados iriam sacudir os pintores europeus."
+  },
+  "east_asian": {
+   "name": "Pintura Chinesa e Japonesa",
+   "period": "750-1720",
+   "summary": "Nanquim, seda e espaço vazio",
+   "description": "Na China e no Japão, os pintores trabalham com pincel e nanquim sobre seda, papel e biombos. Poucas pinceladas e muito espaço vazio bastam para sugerir uma montanha ou uma estação do ano."
+  },
+  "realism": {
+   "name": "Realismo",
+   "period": "1845-1890",
+   "summary": "Gente comum, pintada como ela é",
+   "description": "Os pintores deixam de lado heróis e mitos para mostrar camponeses, operários e a vida moderna, sem embelezar nada. Mostrar a verdade já é, por si só, tomar posição."
+  },
+  "american": {
+   "name": "Pintura Americana",
+   "period": "1780-1930",
+   "summary": "Um país novo olha para si mesmo",
+   "description": "Dos retratos da jovem república às paisagens imensas e às cenas da vida urbana, os pintores americanos buscam temas, e uma luz, que sejam só seus."
+  },
+  "preraphaelite": {
+   "name": "Pré-Rafaelitas e Era Vitoriana",
+   "period": "1848-1900",
+   "summary": "Cores vivas, lendas e detalhes",
+   "description": "Na Grã-Bretanha vitoriana, um grupo de jovens pintores rejeita as receitas acadêmicas. Eles pintam lendas e poemas com cores intensas e uma precisão quase obsessiva."
+  },
+  "academic": {
+   "name": "Arte Acadêmica",
+   "period": "1830-1900",
+   "summary": "A arte polida do Salão oficial",
+   "description": "Formados nas grandes escolas de belas-artes, esses pintores dominam a anatomia, a história e um acabamento perfeitamente liso. Foram as estrelas de sua época, até serem ofuscados pelas vanguardas."
+  },
+  "impressionnisme": {
+   "name": "Impressionismo",
+   "period": "1867-1910",
+   "summary": "Pintar a luz do instante",
+   "description": "Um grupo de pintores sai do ateliê para trabalhar ao ar livre, com pinceladas pequenas e rápidas. Eles já não buscam o detalhe, e sim o efeito da luz em um momento preciso."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpressionismo",
+   "period": "1884-1910",
+   "summary": "A cor, ponto por ponto",
+   "description": "Os pintores aplicam a ciência à cor: pontinhos de tinta pura, colocados lado a lado, se misturam no olho de quem vê. O quadro é construído devagar, como um mosaico."
+  },
+  "postimp": {
+   "name": "Pós-Impressionismo",
+   "period": "1885-1910",
+   "summary": "Cor e emoção em primeiro lugar",
+   "description": "Depois do Impressionismo, cada um procura o próprio caminho. A cor já não imita a realidade: ela expressa o que o pintor sente."
+  },
+  "symbolism": {
+   "name": "Simbolismo",
+   "period": "1860-1915",
+   "summary": "Sonhos, mitos e mundos interiores",
+   "description": "Em vez de descrever o mundo visível, esses artistas sugerem ideias, sonhos e medos. Seus quadros são feitos para serem sentidos antes de serem entendidos."
+  },
+  "secession": {
+   "name": "Art Nouveau e Secessão de Viena",
+   "period": "1890-1918",
+   "summary": "Ouro, ornamento e linhas curvas",
+   "description": "Em Viena, jovens artistas rompem com a academia. Eles unem pintura, decoração e artesanato e fazem do ornamento uma linguagem própria."
+  },
+  "fauvism": {
+   "name": "Fauvismo",
+   "period": "1904-1917",
+   "summary": "Cor pura, direto do tubo",
+   "description": "Durante alguns anos explosivos, os pintores usam cores violentas, nada naturais, e pinceladas soltas. Os críticos os chamaram de feras, e o apelido pegou."
+  },
+  "expressionism": {
+   "name": "Expressionismo",
+   "period": "1903-1925",
+   "summary": "Formas distorcidas, emoção em estado bruto",
+   "description": "Os artistas torcem as formas e levam as cores ao extremo para expressar angústia, desejo ou revolta. O que importa não é a aparência do mundo, e sim o que ele faz sentir."
+  },
+  "cubism": {
+   "name": "Cubismo",
+   "period": "1909-1925",
+   "summary": "Objetos vistos de vários lados ao mesmo tempo",
+   "description": "Os pintores quebram os objetos em facetas e os mostram de vários ângulos no mesmo quadro. De repente, cinco séculos de perspectiva são postos em xeque."
+  },
+  "futurism": {
+   "name": "Futurismo",
+   "period": "1909-1920",
+   "summary": "Velocidade, máquinas e a cidade moderna",
+   "description": "Artistas italianos celebram os carros, as multidões e a eletricidade. Eles tentam pintar o próprio movimento, repetindo e fragmentando as formas."
+  },
+  "abstraction": {
+   "name": "Abstração e Vanguardas",
+   "period": "1907-1930",
+   "summary": "Pintura sem tema",
+   "description": "Linhas, formas e cores já não representam nada: elas são o quadro. Os artistas buscam uma linguagem visual tão direta quanto a música."
+  },
+  "dada_surrealism": {
+   "name": "Dadá e Início do Surrealismo",
+   "period": "1912-1930",
+   "summary": "Acaso, absurdo e sonhos",
+   "description": "Nascido da repulsa pela Primeira Guerra Mundial, o Dadá zomba da própria arte. Em seguida vem o Surrealismo, que explora os sonhos, o acaso e o inconsciente."
+  },
+  "world": {
+   "name": "África, Ásia e Américas",
+   "period": "1200 a.C.-1600",
+   "summary": "Objetos sagrados e arte de corte",
+   "description": "Bronzes, máscaras, gigantes de pedra e objetos rituais da África, da Ásia e das Américas. Foram feitos para cerimônias, templos e reis, muito antes de existirem museus."
+  }
+ }
+}
