@@ -43,6 +43,7 @@ struct QuizView: View {
             ArtImage(name: artwork.image)
                 .frame(height: 190)
                 .clipShape(RoundedRectangle(cornerRadius: 16))
+                .zoomable(artwork)
 
             VStack(spacing: 10) {
                 ForEach(Array(question.options.enumerated()), id: \.offset) { i, option in

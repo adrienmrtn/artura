@@ -126,7 +126,7 @@ struct TodayView: View {
     private func dailyCard(_ art: Artwork) -> some View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
-                ArtImage(name: art.image).frame(height: 392)
+                ArtImage(name: art.image).frame(height: 392).zoomable(art)
                 TagPill(text: "Artwork of the day", fill: .white, foreground: Palette.blueText).padding(10)
                 Button {
                     Haptics.press()

@@ -245,34 +245,3 @@ extension View {
         modifier(AppearUp(delay: delay))
     }
 }
-
-// MARK: - Confetti
-
-struct ConfettiView: View {
-    @State private var fall = false
-    private let colors: [Color] = [Palette.yellow, Palette.pink, Palette.blue, Palette.orange, Palette.green]
-
-    var body: some View {
-        GeometryReader { geo in
-            ZStack {
-                ForEach(0..<36, id: \.self) { i in
-                    let x = CGFloat((i * 37) % 100) / 100 * geo.size.width
-                    let delay = Double((i * 13) % 10) / 20
-                    RoundedRectangle(cornerRadius: 2)
-                        .fill(colors[i % colors.count])
-                        .frame(width: 8, height: 14)
-                        .rotationEffect(.degrees(fall ? Double(i * 47 % 360) : 0))
-                        .position(x: x, y: fall ? geo.size.height + 40 : -40)
-                        .animation(.easeIn(duration: 1.8 + Double(i % 5) * 0.2).delay(delay), value: fall)
-                }
-            }
-        }
-        .allowsHitTesting(false)
-        .onAppear {
-            fall = true
-            for i in 1...3 {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.18 * Double(i)) { Haptics.rigid() }
-            }
-        }
-    }
-}

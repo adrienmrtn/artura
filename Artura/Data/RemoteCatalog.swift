@@ -247,6 +247,13 @@ final class ImageStore {
         memory.object(forKey: url as NSString)
     }
 
+    /// Downloads in the background the pictures that will be needed soon (those of the catalog only).
+    func prefetch(_ urls: [String]) {
+        for url in urls where url.hasPrefix("http") && cached(url) == nil {
+            Task(priority: .utility) { _ = await load(url) }
+        }
+    }
+
     func load(_ url: String) async -> UIImage? {
         if let image = cached(url) { return image }
         guard let address = URL(string: url),
