@@ -1,0 +1,329 @@
+{
+ "teaser": "Klimt won a gold medal with this painting, then repainted it anyway.",
+ "focus": [
+  0.62,
+  0.3
+ ],
+ "review_notes": "Opening: the painting was shown in the Austrian pavilion (designed by Josef Hoffmann) at the 1911 International Art Exhibition in Rome, where Klimt had his own room; it was not literally commissioned for that room.\nFirst prize / gold medal in Rome 1911: check exact wording of the award.\nGold background replaced by grey-green and ornaments added around 1915 (some sources say 1912/13 to 1915/16).\nKlimt's mother Anna died in February 1915.\nNovember 2022 attack at the Leopold Museum by climate activists with a black oily liquid; glass protected the painting.\nDimensions approx. 178 x 198 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Rome, 1911. Italy is celebrating fifty years as a nation with a huge international art show, and Austria has built a white pavilion designed by the architect Josef Hoffmann. Inside, Gustav Klimt gets a room of his own. This is the big canvas he sends there, nearly two meters wide (about 6.5 feet)."
+  },
+  {
+   "type": "text",
+   "text": "The jury gave it first prize. But the picture Rome applauded is not quite the one you see now. In 1911 the two groups floated on a background of shining gold, like most of Klimt's famous work from those years."
+  },
+  {
+   "type": "fact",
+   "text": "About four years after winning the prize, Klimt took the finished, celebrated painting back onto his easel and painted out the gold. He replaced it with this dull grey-green, and added more figures and patterns."
+  },
+  {
+   "type": "text",
+   "text": "Why spoil a winner? Part of the answer is in how the canvas is split. Klimt does not mix his two subjects. He sets them apart and lets the emptiness between them do the talking."
+  },
+  {
+   "type": "lines",
+   "text": "Three shapes organize the whole canvas.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.36,
+       0.04
+      ],
+      [
+       0.36,
+       0.96
+      ]
+     ],
+     "closed": false,
+     "label": "The gap",
+     "text": "A band of dark, empty paint separates the two sides from top to bottom. Nothing crosses it. All the tension of the picture sits in this strip of nothing."
+    },
+    {
+     "points": [
+      [
+       0.16,
+       0.96
+      ],
+      [
+       0.13,
+       0.5
+      ],
+      [
+       0.22,
+       0.08
+      ]
+     ],
+     "closed": false,
+     "label": "Death leans in",
+     "text": "The thin figure on the left is not standing straight. Its body bends toward the right, head pushed forward, like someone peering over a fence."
+    },
+    {
+     "points": [
+      [
+       0.43,
+       0.15
+      ],
+      [
+       0.55,
+       0.02
+      ],
+      [
+       0.72,
+       0.02
+      ],
+      [
+       0.87,
+       0.2
+      ],
+      [
+       0.97,
+       0.5
+      ],
+      [
+       0.98,
+       0.9
+      ],
+      [
+       0.8,
+       0.99
+      ],
+      [
+       0.55,
+       0.99
+      ],
+      [
+       0.46,
+       0.75
+      ],
+      [
+       0.44,
+       0.45
+      ]
+     ],
+     "closed": true,
+     "label": "The bundle of life",
+     "text": "On the right, bodies are packed into one rounded mass, wrapped in bright cloth. No one stands alone. Humanity is shown as a single warm heap."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the left side waits and watches, and the right side sleeps. Against gold, that standoff looked like a jewel. Against grey, it feels like night. Klimt made the mood colder on purpose."
+  },
+  {
+   "type": "key",
+   "text": "Klimt builds the drama from distance. Death never touches Life in this picture: it only looks."
+  },
+  {
+   "type": "text",
+   "text": "Now meet the watcher. For centuries, painters gave Death a scythe and a black hood. Klimt dresses his very differently."
+  },
+  {
+   "type": "tour",
+   "title": "The figure on the left",
+   "text": "Three stops on Death, from the head down.",
+   "spots": [
+    {
+     "x": 0.22,
+     "y": 0.12,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "A grinning skull",
+     "text": "The skull is tilted toward the sleepers and seems to smile. Klimt paints it with thick grey and white strokes, so it looks rougher than the smooth faces opposite."
+    },
+    {
+     "x": 0.15,
+     "y": 0.17,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The club",
+     "text": "No scythe here. Bony hands grip a short orange club, raised to the shoulder. It is the only warm color on this side, and it is a weapon."
+    },
+    {
+     "x": 0.15,
+     "y": 0.6,
+     "zoom": 1.5,
+     "r": 0.13,
+     "title": "A robe of crosses",
+     "text": "The long robe is a patchwork of blues, purples and blacks covered in crosses, like a walking graveyard. Klimt added much of this pattern when he reworked the canvas.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Death is awake, alert, armed. And across the gap? Babies, lovers, an old woman, all with their eyes shut. They do not know they are being watched. Or almost all of them."
+  },
+  {
+   "type": "find",
+   "text": "One person in the heap of sleepers has her eyes wide open. Can you find her?",
+   "spots": [
+    {
+     "x": 0.478,
+     "y": 0.155,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The one who sees",
+     "text": "At the left edge of the group, the figure closest to Death, a young woman stares out with pale open eyes. She is the only human who seems to know what stands across the dark."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That single open pair of eyes changes the story. Life here is not simply innocent. Someone has noticed, and she does not scream or run. She just looks back."
+  },
+  {
+   "type": "fact",
+   "text": "Death was not an abstract idea for Klimt. In 1892 he lost both his father and his younger brother Ernst within months. And in 1915, the year linked to the reworking of this canvas, his mother died."
+  },
+  {
+   "type": "text",
+   "text": "The human side is also a quiet lesson in time. Klimt stacks the ages of life into one pile: a newborn, young women, a couple, a grandmother. You read a whole lifetime without leaving the bundle."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.66,
+     "y": 0.1,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Mother and child",
+     "text": "At the top, a woman rests her cheek on a baby's head. The child's bare back and legs are painted in soft pinks: the very start of life, placed highest."
+    },
+    {
+     "x": 0.74,
+     "y": 0.25,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The old woman",
+     "text": "Under a blue headscarf, a lined face bows downward. She is the oldest of the group, and Klimt paints her skin greyer than everyone else's."
+    },
+    {
+     "x": 0.68,
+     "y": 0.43,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "The man's back",
+     "text": "A muscular, tanned back curves over a woman. He is the only man in the picture, and he hides his face against her."
+    },
+    {
+     "x": 0.75,
+     "y": 0.57,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The bowed head",
+     "text": "The woman he holds lets her head drop forward, hair falling, pale arms folded. Their embrace is the heart of the heap."
+    },
+    {
+     "x": 0.6,
+     "y": 0.72,
+     "zoom": 2,
+     "r": 0.13,
+     "title": "Circles and flowers",
+     "text": "Life's cloth is covered in rings, spirals and blossoms in orange, pink and green. Compare it with the hard crosses across the gap: round shapes for the living, straight ones for Death."
+    },
+    {
+     "x": 0.36,
+     "y": 0.5,
+     "zoom": 1.6,
+     "r": 0.1,
+     "title": "The repainted ground",
+     "text": "This murky grey-green covers what was once gold. You can see loose, visible brushstrokes: Klimt did not try to make the new background pretty."
+    },
+    {
+     "x": 0.83,
+     "y": 0.945,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "Signature",
+     "text": "Klimt signs in stacked capital letters, GUSTAV over KLIMT, tucked into the pattern at the bottom right."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "When Klimt repainted the canvas, Europe was deep in the First World War. The glittering Vienna that had loved his gold was disappearing. He himself died in 1918, after a stroke, at fifty-five."
+  },
+  {
+   "type": "fact",
+   "text": "In November 2022, climate activists threw a black, oily liquid at this painting in the Leopold Museum in Vienna. A sheet of protective glass took the hit, and the canvas itself was not harmed."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the woman with open eyes. Is she afraid, or simply curious? Klimt gives no answer, and that is why people still stand in front of this canvas for a long time."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did the background look like when the painting won its prize in Rome in 1911?",
+   "options": [
+    "Grey-green, as today",
+    "Gold",
+    "Bright red"
+   ],
+   "answer": 1,
+   "explanation": "Klimt later painted over the original gold with a dull grey-green."
+  },
+  {
+   "question": "What does Klimt's Death hold instead of a scythe?",
+   "options": [
+    "A short orange club",
+    "An hourglass",
+    "A lantern"
+   ],
+   "answer": 0,
+   "explanation": "Bony hands grip a small orange club raised to the shoulder."
+  },
+  {
+   "question": "What covers Death's robe?",
+   "options": [
+    "Flowers and spirals",
+    "Golden coins",
+    "Crosses"
+   ],
+   "answer": 2,
+   "explanation": "The robe is a dark patchwork filled with crosses, like a graveyard."
+  },
+  {
+   "question": "Who in the human group has open eyes?",
+   "options": [
+    "The old woman in the blue scarf",
+    "A young woman at the left edge, nearest Death",
+    "The baby"
+   ],
+   "answer": 1,
+   "explanation": "Only the young woman closest to Death looks out with open eyes."
+  },
+  {
+   "question": "Does Death touch the group of the living in this picture?",
+   "options": [
+    "Yes, it grabs the old woman",
+    "Yes, it rests a hand on the baby",
+    "No, a dark empty gap separates them"
+   ],
+   "answer": 2,
+   "explanation": "A band of empty paint runs between the two sides, and nothing crosses it."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Klimt reworked this painting years after it had already won a first prize.",
+   "isTrue": true,
+   "explanation": "He took it back around 1915 and replaced the gold background with grey-green."
+  },
+  {
+   "text": "Everyone in the group of the living is asleep.",
+   "isTrue": false,
+   "explanation": "One young woman at the left edge has her eyes wide open."
+  },
+  {
+   "text": "The painting was damaged beyond repair in a 2022 protest.",
+   "isTrue": false,
+   "explanation": "Protective glass took the liquid, and the canvas was unharmed."
+  }
+ ]
+}

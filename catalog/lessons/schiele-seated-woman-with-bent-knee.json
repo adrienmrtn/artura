@@ -1,0 +1,38 @@
+{
+ "teaser": "She rests her cheek on her knee and stares back. One of her feet was never finished.",
+ "focus": [0.57, 0.31],
+ "review_notes": "Neulengbach 1912: 24 days in custody, more than a hundred drawings seized, judge burned one drawing in court (standard accounts).\nModel identity is disputed (Adele Harms, Edith, or a professional model); lesson says it is not known.\nMedium given as gouache, watercolor and black crayon on paper, 46 x 30.5 cm: confirm with National Gallery Prague.\nClaim that Schiele colored drawings later, without the model, comes from contemporaries' accounts.\nEstimate of about 3,000 works on paper to confirm.",
+ "lesson": [
+  {"type":"text","text":"In April 1912, a judge in a small Austrian town held one of Egon Schiele's drawings over a candle and burned it in the courtroom. The artist, 21 years old, had spent 24 days in jail. Police had seized more than a hundred of his drawings as indecent."},
+  {"type":"text","text":"He was shaken, but he did not change subject. Five years later he drew this: a young woman in her underwear and black stockings, folded up on the floor, looking straight at whoever is looking at her. The difference between 1912 and 1917 is not what he shows. It is how calmly he shows it."},
+  {"type":"text","text":"The sheet is small, about 46 by 30.5 cm (18 by 12 inches), close to a page from a large sketchbook. Schiele worked with black crayon for the outline, then watercolor and gouache, an opaque water-based paint that covers like a thin layer of plaster."},
+  {"type":"key","text":"For Schiele, a drawing was not a preparation for a painting. It was the finished thing, signed and sold as such."},
+  {"type":"text","text":"Notice what is missing. No chair, no floor line, no shadow, no wall. The woman sits on nothing. Schiele drops his figures onto blank paper, so the outline of the body has to do all the work a room would normally do."},
+  {"type":"fact","text":"People who watched Schiele draw said he worked fast and almost never erased. He often added the color afterward, from memory, once the model had gone home."},
+  {"type":"text","text":"That method leaves traces. If the line comes first and the color later, some parts may never get their color at all. On this sheet, one part of her body is still only a few strokes of crayon."},
+  {"type":"find","text":"One part of the figure was left as a bare outline, with no paint. Can you spot it?","spots":[
+   {"x":0.82,"y":0.75,"zoom":3,"r":0.10,"title":"The sketched foot","text":"Below her clasped hands, the lower leg and shoe are a few quick crayon lines on empty paper. Schiele stopped here. The eye completes the leg without help."}
+  ]},
+  {"type":"text","text":"He could have finished that foot in a minute. Leaving it open was a choice, and a modern one: the drawing admits it is a drawing. The colored parts gain force from the bare ones, the way a pause makes the next word land harder."},
+  {"type":"text","text":"So where did the paint go? Into four zones, each handled differently: a green top, dark stockings, orange-red hair, and skin that is anything but skin-colored."},
+  {"type":"tour","title":"Four ways to paint","text":"Follow the brush from the face down to the corner of the sheet.","spots":[
+   {"x":0.56,"y":0.31,"zoom":3.2,"r":0.09,"title":"The stare","text":"Her cheek lies on her knee and her head is sideways, yet both eyes fix you. The red mouth is a single small accent. She looks neither shy nor seductive, just watchful."},
+   {"x":0.32,"y":0.46,"zoom":3,"r":0.09,"title":"Skin in patches","text":"On the arm, dabs of orange, pink and green sit side by side without blending. Schiele paints flesh as something blotchy and alive, not porcelain."},
+   {"x":0.17,"y":0.42,"zoom":2.2,"r":0.13,"title":"The green top","text":"Broad, streaky strokes of emerald, with paper showing through. You can count the movements of the brush."},
+   {"x":0.745,"y":0.873,"zoom":4,"r":0.05,"title":"The boxed signature","text":"Name and year are lettered inside a little square, like a stamp. Schiele placed it carefully, as one more shape in the composition."}
+  ]},
+  {"type":"fact","text":"Schiele lived only 28 years, yet he left roughly 3,000 works on paper. Drawings like this one were what collectors bought from him, and what paid the rent."},
+  {"type":"text","text":"Nobody knows for certain who she is. His wife Edith, her sister Adele and a paid model have all been proposed. Does it matter? She is curled up tight, knee raised like a shield, hands locked around her ankle. And still she is the one doing the looking. Who is studying whom?"}
+ ],
+ "quiz": [
+  {"question":"What happened to Schiele in 1912?","options":["He won a state prize for drawing","He was jailed and a judge burned one of his drawings","He moved to Prague to teach"],"answer":1,"explanation":"He spent 24 days in jail and a drawing was burned in court."},
+  {"question":"Which part of the figure is left as a bare crayon outline?","options":["Her lower leg and shoe at the right","Her hair","Her green top"],"answer":0,"explanation":"Below the clasped hands, the foot is only a few lines on empty paper."},
+  {"question":"What is gouache?","options":["A kind of oil varnish","A soft black crayon","An opaque water-based paint"],"answer":2,"explanation":"Gouache covers more solidly than watercolor."},
+  {"question":"What surrounds the woman on the sheet?","options":["A bedroom interior","Blank paper","A garden"],"answer":1,"explanation":"Schiele gives no chair, floor or shadow: only the figure."}
+ ],
+ "facts": [
+  {"text":"Schiele usually colored his drawings while the model was still posing.","isTrue":false,"explanation":"Witnesses said he often added color afterward, from memory."},
+  {"text":"The signature is lettered inside a small square, like a stamp.","isTrue":true,"explanation":"The boxed name and year sit near the lower right of the sheet."},
+  {"text":"The identity of the model is firmly documented.","isTrue":false,"explanation":"Edith, Adele Harms and a professional model have all been suggested."}
+ ]
+}

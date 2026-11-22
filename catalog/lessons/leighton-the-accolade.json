@@ -1,0 +1,48 @@
+{
+  "teaser": "A queen, a sword, a kneeling knight. Did the Middle Ages ever look like this?",
+  "focus": [0.48, 0.3],
+  "review_notes": "Edmund Blair Leighton was not related to Frederic, Lord Leighton: standard statement.\nBiography: son of painter Charles Blair Leighton, who died when Edmund was a small child; worked in a tea merchant's office before art school; exhibited at the Royal Academy for about four decades without being elected a member; collected old armor, furniture and costume as props. Please verify.\nThe scene has no confirmed literary source; lesson says so.\nEtymology of 'accolade' (from a word for neck, originally an embrace) is standard.\nCanvas approx. 182 x 108 cm, private collection.",
+  "lesson": [
+    {"type": "text", "text": "What do you picture when someone says “the age of chivalry”? For a great many people, it is this: a young queen in a white gown, a sword, a knight on his knees. The image feels like a memory of the Middle Ages. It was painted in London in 1901, the year Queen Victoria died."},
+    {"type": "text", "text": "The ceremony is real enough. An accolade is the act that makes a man a knight. The word comes from an old term for the neck, because the earliest version was an embrace or a light blow there. The tap of a sword blade on the shoulder, the form you know, came later."},
+    {"type": "text", "text": "Edmund Blair Leighton builds the whole scene on that tap. The canvas is tall and narrow, about 1.8 meters high (six feet), and one object cuts across it at an angle. Everything else stands still around it."},
+    {"type": "lines", "text": "Three lines hold the picture together.", "lines": [
+      {"points": [[0.5, 0.33], [0.67, 0.47], [0.92, 0.63]], "closed": false, "label": "The blade", "text": "The sword runs from her hand down across his right shoulder. It is the only link between the two figures: they do not touch, and they do not look at each other."},
+      {"points": [[0.4, 0.12], [0.47, 0.3], [0.52, 0.42]], "closed": false, "label": "Her gaze", "text": "She looks down along her own arm toward his bowed head. He looks at the floor. The power in the room flows one way, from her to him."},
+      {"points": [[0.0, 0.83], [0.45, 0.8], [0.72, 0.74], [0.98, 0.72]], "closed": false, "label": "The step", "text": "She stands on a raised stone platform and he kneels below it. One step is enough to tell you who rules."}
+    ]},
+    {"type": "text", "text": "Who are they? Nobody knows. People have suggested Guinevere and Lancelot, but the painter named no one and quoted no book. That is unusual for a Victorian history picture, and it is one reason the image travels so well. It is every knighting, not one."},
+    {"type": "fact", "text": "The two famous Leightons of Victorian painting were not related. Frederic, Lord Leighton, painter of Flaming June, was the grand president of the Royal Academy. Edmund Blair Leighton showed there for some forty years and was never even elected a member."},
+    {"type": "text", "text": "Edmund's father was a painter who died when the boy was very small, and Edmund worked in a tea merchant's office before he could afford art school. What he became was a specialist: a patient reconstructor of medieval dress and metal. Check how far he pushes the surfaces."},
+    {"type": "tour", "title": "Silk, steel, leather", "text": "Each material is painted with a different touch.", "spots": [
+      {"x": 0.57, "y": 0.6, "zoom": 3, "r": 0.1, "title": "Chain mail", "text": "The knight's armor is mail: thousands of small iron rings linked into a flexible shirt. Leighton paints the rings one by one, with a glint on each, down the arm and across the legs."},
+      {"x": 0.3, "y": 0.72, "zoom": 2.2, "r": 0.14, "title": "The gown", "text": "Cream silk falls in heavy folds and pools on the step, its hem stiff with gold embroidery. The soft sheen is the opposite of the hard sparkle of the mail."},
+      {"x": 0.86, "y": 0.8, "zoom": 3, "r": 0.09, "title": "The helmet", "text": "His helmet stands on the floor beside him, polished enough to catch the light of the room. A knight bares his head before his sovereign."}
+    ]},
+    {"type": "fact", "text": "Leighton did not invent such details from pictures. He collected old armor, weapons, furniture and costumes, and set them up in his studio so he could paint metal and cloth from the real object."},
+    {"type": "text", "text": "This careful, storybook Middle Ages descends from the Pre-Raphaelites, the English painters who half a century earlier had turned to medieval legend and bright, exact detail. By 1901 their rebellion had become a comfortable popular style. Abroad, Picasso was already twenty."},
+    {"type": "explore", "spots": [
+      {"x": 0.69, "y": 0.56, "zoom": 3, "r": 0.09, "title": "Black eagle", "text": "A black eagle with a golden crescent spreads across his red surcoat, the cloth tunic worn over armor. It is his heraldic badge, the sign by which he is known."},
+      {"x": 0.96, "y": 0.47, "zoom": 2.6, "r": 0.08, "shape": "rect", "title": "The same eagle", "text": "The badge appears again on the shield at the right edge, held ready by an attendant. Once knighted, he will carry it himself."},
+      {"x": 0.76, "y": 0.15, "zoom": 3.2, "r": 0.08, "title": "The old man", "text": "A white-bearded elder watches from the shadows with a hard, measuring face. Not everyone in the hall looks pleased."},
+      {"x": 0.9, "y": 0.22, "zoom": 3, "r": 0.08, "title": "The boy", "text": "A fair-haired youth stands in front of the crowd, an adult's hands on his shoulders. He is watching the future he hopes for."},
+      {"x": 0.4, "y": 0.08, "zoom": 3.6, "r": 0.06, "title": "The crown", "text": "A gold circlet set with pearls sits on loose red-gold hair that falls below her waist. She is very young for a ruler, and that is part of the picture's charm."},
+      {"x": 0.51, "y": 0.74, "zoom": 3.6, "r": 0.05, "title": "Clasped hands", "text": "His hands are folded together in front of him like a man at prayer. Becoming a knight was a religious vow as well as a military rank."},
+      {"x": 0.5, "y": 0.94, "zoom": 2.6, "r": 0.1, "title": "The cushion", "text": "A laced leather cushion lies on the floor before him, a small mercy for iron-clad knees on stone."}
+    ]},
+    {"type": "fact", "text": "The original canvas is in a private collection, so very few people have stood in front of it. Its fame comes almost entirely from reproductions: prints, posters, book covers, and now screens."},
+    {"type": "text", "text": "So, back to the question. The Middle Ages never looked quite like this: so clean, so quiet, so kind. But films, fantasy novels and games still borrow the pose. When a picture of the past is repeated often enough, it starts to stand in for the past itself."}
+  ],
+  "quiz": [
+    {"question": "What is an accolade?", "options": ["A royal wedding", "The ceremony that makes someone a knight", "A medieval tournament"], "answer": 1, "explanation": "It is the act of knighting, here a tap of the sword on the shoulder."},
+    {"question": "How was Edmund Blair Leighton related to Frederic, Lord Leighton?", "options": ["He was his son", "He was his brother", "They were not related"], "answer": 2, "explanation": "The two painters simply shared a surname."},
+    {"question": "What links the queen and the knight in the composition?", "options": ["The sword blade", "Their joined hands", "A shared glance"], "answer": 0, "explanation": "They neither touch nor look at each other: only the sword connects them."},
+    {"question": "How did Leighton paint armor and costume so convincingly?", "options": ["He copied them from photographs of films", "He collected real old pieces and painted from them", "He hired knights as models"], "answer": 1, "explanation": "He kept armor, furniture and costumes in his studio as props."},
+    {"question": "Which story does the painting illustrate?", "options": ["No confirmed story: the painter named no one", "The crowning of Queen Victoria", "A scene from Shakespeare's Henry V"], "answer": 0, "explanation": "People have guessed at Guinevere and Lancelot, but Leighton gave no source."}
+  ],
+  "facts": [
+    {"text": "The Accolade was painted during the Middle Ages.", "isTrue": false, "explanation": "It was painted in London in 1901."},
+    {"text": "The knight's heraldic eagle appears twice in the picture.", "isTrue": true, "explanation": "It is on his red surcoat and again on the shield at the right edge."},
+    {"text": "The painting hangs in a major public museum.", "isTrue": false, "explanation": "It belongs to a private collection and is known mostly through reproductions."}
+  ]
+}

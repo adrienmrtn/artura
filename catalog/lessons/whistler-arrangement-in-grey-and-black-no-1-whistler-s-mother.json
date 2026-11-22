@@ -1,0 +1,258 @@
+{
+ "teaser": "He insisted it was an arrangement of gray and black. The world insisted it was Mom.",
+ "focus": [
+  0.76,
+  0.2
+ ],
+ "review_notes": "Story that a model failed to show up and that Anna first posed standing: traditional account, check.\nRoyal Academy 1872: accepted only after Sir William Boxall threatened to resign; last picture Whistler showed there: check.\nBought by the French state in 1891 for 4,000 francs: check figure.\nThe print on the wall is identified as Whistler's etching 'Black Lion Wharf' (1859).\nUS postage stamp of 1934 for Mother's Day with a vase of flowers added.\nAnna Whistler was 67 in 1871. Canvas about 144 x 162 cm.\nWhistler's remark about the public and the identity of the portrait is paraphrased from 'The Gentle Art of Making Enemies'.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1871 James McNeill Whistler was 37, American, and living in London on the bank of the Thames. He was known more for his sharp tongue than for sales. And he shared his house with his mother, Anna, a devout widow of 67 who had moved in several years earlier and quietly reorganized his bohemian life."
+  },
+  {
+   "type": "fact",
+   "text": "According to the story told in his circle, the portrait began by chance: a model failed to turn up, and Whistler asked his mother to pose instead. She first stood, but the long sessions were too tiring, so he sat her down in profile."
+  },
+  {
+   "type": "text",
+   "text": "He gave the result a title borrowed from music: “Arrangement in Grey and Black.” An arrangement is a way of organizing notes. Whistler meant that shapes and tones could be organized the same way, for the pleasure of the eye, whoever the sitter was."
+  },
+  {
+   "type": "text",
+   "text": "He said as much himself: the picture interested him because it showed his mother, but why should the public care who she was? Test his claim. Forget the person for a minute and look only at shapes."
+  },
+  {
+   "type": "lines",
+   "text": "Strip the picture down to its skeleton.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.315,
+       0.04
+      ],
+      [
+       0.56,
+       0.04
+      ],
+      [
+       0.56,
+       0.225
+      ],
+      [
+       0.315,
+       0.225
+      ]
+     ],
+     "closed": true,
+     "label": "A rectangle",
+     "text": "The framed print on the wall: a pale rectangle inside a black one. It sets the rule for the whole picture, which is built from flat, straight-edged shapes."
+    },
+    {
+     "points": [
+      [
+       0.29,
+       0.0
+      ],
+      [
+       0.29,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "A vertical",
+     "text": "The edge of the dark curtain cuts the canvas from top to bottom. To its left, pattern. To its right, bare gray wall."
+    },
+    {
+     "points": [
+      [
+       0.29,
+       0.605
+      ],
+      [
+       1.0,
+       0.605
+      ]
+     ],
+     "closed": false,
+     "label": "A horizontal",
+     "text": "The dark baseboard runs straight across, parallel to the frame, and fixes the figure in place like a line under a word."
+    },
+    {
+     "points": [
+      [
+       0.78,
+       0.1
+      ],
+      [
+       0.87,
+       0.3
+      ],
+      [
+       0.6,
+       0.42
+      ],
+      [
+       0.25,
+       0.7
+      ],
+      [
+       0.45,
+       1.0
+      ],
+      [
+       0.83,
+       0.9
+      ],
+      [
+       0.85,
+       0.45
+      ]
+     ],
+     "closed": true,
+     "label": "One soft shape",
+     "text": "Against all those straight lines, the black dress is a single large slanted mass, from head to footstool. It is the only big shape with a curved edge."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Whistler argued that a painting is first an arrangement of shapes and tones, and only second a picture of something. That idea, radical in 1871, runs through much of modern art."
+  },
+  {
+   "type": "text",
+   "text": "The paint matches the mood. Whistler thinned his oils until they were nearly liquid and brushed them on in veils so slight that the weave of the canvas shows through. Nothing is thick, nothing shines. And yet he did sign it, in a place most visitors miss."
+  },
+  {
+   "type": "find",
+   "text": "Whistler signed with an emblem instead of his name. It hides in the darkest part of the picture. Where?",
+   "spots": [
+    {
+     "x": 0.25,
+     "y": 0.047,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The butterfly",
+     "text": "A small round mark near the top of the curtain: his butterfly monogram, built from his initials. He placed it like one more element of the design, the way Japanese printmakers placed their seals."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That taste for Japan is in the curtain too, with its scattered pale blossoms. And then, of course, there is the part of the picture that refuses to be only a shape."
+  },
+  {
+   "type": "tour",
+   "title": "The person in the arrangement",
+   "text": "Three places where the mother wins over the theory.",
+   "spots": [
+    {
+     "x": 0.76,
+     "y": 0.17,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The face",
+     "text": "The most carefully painted area. Pink in the cheek, a firm mouth, eyes fixed straight ahead. A white lace cap with long ribbons frames it against the gray wall."
+    },
+    {
+     "x": 0.59,
+     "y": 0.42,
+     "zoom": 3.4,
+     "r": 0.08,
+     "title": "The hands",
+     "text": "Folded in her lap around a lace handkerchief, the second bright spot in the picture. They rest without fidgeting: the patience of someone used to sitting still."
+    },
+    {
+     "x": 0.44,
+     "y": 0.11,
+     "zoom": 2.8,
+     "r": 0.14,
+     "title": "The print",
+     "text": "A view of the Thames, one of Whistler's own etchings, which are prints made from a metal plate. The son hangs a piece of his work beside his mother."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "London nearly refused it. The Royal Academy only hung the painting in 1872 after one member threatened to resign in protest. Whistler never showed there again, and for years he used the canvas as security for loans."
+  },
+  {
+   "type": "text",
+   "text": "Rescue came from France. In 1891 the French state bought it for a modest 4,000 francs, a huge honor for a living American. His reputation rose almost overnight, and the picture has belonged to Paris ever since."
+  },
+  {
+   "type": "fact",
+   "text": "In 1934 the United States put the painting on a Mother's Day stamp, and the designers added a vase of flowers at her feet to make it cozier. The man who wanted you to ignore the subject had produced the most famous image of motherhood in American culture."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why did Whistler call the painting an “Arrangement”?",
+   "options": [
+    "His mother arranged flowers",
+    "He saw painting, like music, as an ordering of shapes and tones",
+    "It was arranged for a client"
+   ],
+   "answer": 1,
+   "explanation": "The musical title says the design matters more than the sitter."
+  },
+  {
+   "question": "How did Whistler sign the picture?",
+   "options": [
+    "With a butterfly emblem on the curtain",
+    "With his full name on the wall",
+    "He left it unsigned"
+   ],
+   "answer": 0,
+   "explanation": "His butterfly monogram sits near the top of the dark curtain."
+  },
+  {
+   "question": "What hangs on the wall behind his mother?",
+   "options": [
+    "A mirror",
+    "A portrait of his father",
+    "One of his own etchings of the Thames"
+   ],
+   "answer": 2,
+   "explanation": "The framed print is a Thames view by Whistler himself."
+  },
+  {
+   "question": "Who bought the painting in 1891?",
+   "options": [
+    "The Royal Academy",
+    "The French state",
+    "An American collector"
+   ],
+   "answer": 1,
+   "explanation": "France bought it, and it has belonged to Paris ever since."
+  },
+  {
+   "question": "How is the paint applied?",
+   "options": [
+    "In thick, glossy ridges",
+    "In small dots of pure color",
+    "In very thin, liquid layers"
+   ],
+   "answer": 2,
+   "explanation": "Whistler thinned his oils so much that the canvas weave shows through."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Royal Academy welcomed the painting with enthusiasm in 1872.",
+   "isTrue": false,
+   "explanation": "It was nearly rejected and hung only after a member threatened to resign."
+  },
+  {
+   "text": "A 1934 American stamp added flowers that are not in the painting.",
+   "isTrue": true,
+   "explanation": "The Mother's Day stamp added a vase of flowers at her feet."
+  },
+  {
+   "text": "Whistler's mother posed standing in the final picture.",
+   "isTrue": false,
+   "explanation": "She is seated in profile; standing proved too tiring."
+  }
+ ]
+}

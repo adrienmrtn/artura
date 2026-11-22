@@ -1,0 +1,44 @@
+{
+  "teaser": "Half a second before the lance lands, with a whole town holding its breath on the walls.",
+  "focus": [0.45, 0.3],
+  "review_notes": "Date about 1434-35; tempera on panel, about 155.6 x 98.1 cm.\nCentral panel of an altarpiece whose four side scenes of the saint's martyrdom are in the Louvre.\nOriginal location possibly the chapel of Saint George in the Palau de la Generalitat, Barcelona: uncertain, lesson says 'probably'.\nMartorell documented in Barcelona from 1427, died 1452; only one surviving work tied to him by contract (altarpiece of Saint Peter from Púbol, 1437).\nLegend details (two sheep a day, lottery, princess leading the wounded dragon by her belt) follow the Golden Legend, about 1260.\nDragon episode added to George's story centuries after his death (about 11th century onward).\nSant Jordi, 23 April: roses and books in Catalonia; rose bush growing from the dragon's blood is the Catalan folk version.\nThe two crowned figures in the draped box are read as the king and queen; they are very small in the image.",
+  "lesson": [
+    {"type": "text", "text": "Nothing has happened yet. The horse is up on its hind legs. The knight has raised a lance longer than he is. The dragon has turned its head and opened its jaws wide enough to count the teeth. Bernat Martorell stops the story half a second before impact and leaves you there."},
+    {"type": "text", "text": "A frozen moment only works if you can feel what comes next. Martorell arranges the whole panel so that your eye is pushed, hard, toward one spot. Three lines do most of it."},
+    {"type": "lines", "text": "Follow the force through the picture.", "lines": [
+      {"points": [[0.13, 0.0], [0.21, 0.135], [0.56, 0.625]], "closed": false, "label": "The lance", "text": "It enters from the top edge, passes through George's raised fist and crosses his body and the horse's. The longest straight line in a picture full of curves."},
+      {"points": [[0.56, 0.625], [0.64, 0.75]], "closed": false, "label": "The missing piece", "text": "Extend the lance by a hand's width and it lands in the open red mouth. Your eye finishes the thrust the painter held back."},
+      {"points": [[0.03, 0.62], [0.28, 0.585], [0.52, 0.56], [0.69, 0.47]], "closed": false, "label": "The horse", "text": "The white back rises from tail to head like a wave about to break. The front hooves hang in the air right above the dragon's snout."}
+    ]},
+    {"type": "text", "text": "The tale comes from the Golden Legend, a book of saints' lives written around 1260 that everyone in medieval Europe knew. A dragon poisons a town with its breath. To keep it calm, people feed it two sheep a day. When sheep run short they send one sheep and one person, chosen by lottery. One day the lot falls on the king's daughter."},
+    {"type": "fact", "text": "Saint George was honored as a Roman soldier executed for his Christian faith around the year 303. The dragon joined his story only many centuries later, and then it took over completely."},
+    {"type": "text", "text": "So this monster has been eating for a long time, and Martorell wants you to know it. The sandy ground around the fight is not empty. Among the stones he has scattered the leftovers of earlier meals, animal and otherwise."},
+    {"type": "find", "text": "Not all the dragon's victims were sheep. Can you find proof?", "spots": [
+      {"x": 0.59, "y": 0.975, "zoom": 3.6, "r": 0.06, "title": "A human skull", "text": "At the very bottom edge, a skull stares up with empty sockets. To its left lie the horned skull of a ram and loose bones. This is what waits for the princess if the lance misses."}
+    ]},
+    {"type": "text", "text": "Martorell enjoys this kind of thing. Lizards creep over the rocks by the dragon's cave. The beast's bat wings are dotted with eye-like spots. The halo and the studs on the black armor are not painted flat: they are modeled in plaster and gilded, so they stood out and caught the candlelight in the chapel."},
+    {"type": "fact", "text": "Martorell ran the leading workshop in Barcelona until his death in 1452, yet only one surviving painting is tied to him by a written contract. Every other work, including this one, is given to him because its style matches."},
+    {"type": "text", "text": "Now lift your eyes from the fight. The land behind tilts up like a map, with no sky to speak of, so that nothing is hidden: garden plots, paths, a moat, a castle. And the castle is full. This duel has an audience."},
+    {"type": "tour", "title": "The spectators", "text": "Four witnesses, from the walls down to the field.", "spots": [
+      {"x": 0.43, "y": 0.095, "zoom": 3.8, "r": 0.07, "title": "The townspeople", "text": "Heads in red, green and blue hats squeeze onto a balcony and the tower above it. They lean over the edge the way people do at a street accident."},
+      {"x": 0.567, "y": 0.05, "zoom": 3.8, "r": 0.07, "title": "The royal box", "text": "A red and gold cloth hangs over the wall, marking the place of honor. The two tiny crowned figures behind it are the king and queen, watching their own daughter's fate."},
+      {"x": 0.7, "y": 0.27, "zoom": 2.2, "r": 0.13, "shape": "rect", "title": "The princess", "text": "She kneels on the hill and prays, in a crown and a pink robe lined with ermine, the white fur of royalty. She is dressed for a ceremony. Her face gives nothing away."},
+      {"x": 0.91, "y": 0.256, "zoom": 3, "r": 0.09, "title": "The sheep", "text": "Behind her a ram grazes, unbothered. It is the other half of today's meal for the dragon, sent out with her according to the town's rule."}
+    ]},
+    {"type": "key", "text": "The fight takes up the bottom half, but the top half gives it weight. By painting the watchers, Martorell reminds you that a whole town lives or dies on one thrust."},
+    {"type": "text", "text": "The panel, about 1.5 meters tall (5 ft), was the center of an altarpiece painted in Barcelona around 1434. It was probably made for the chapel of the Catalan government palace. Four smaller scenes of the saint's later torture and death once stood beside it. They are now in the Louvre in Paris, an ocean away from their centerpiece."},
+    {"type": "fact", "text": "George, or Sant Jordi, is the patron saint of Catalonia. In the local version of the legend a rose bush grows where the dragon's blood falls. Every April 23, people in Barcelona still give each other roses, and books."}
+  ],
+  "quiz": [
+    {"question": "Which moment of the story does Martorell paint?", "options": ["The dragon already dead", "The instant just before the lance strikes", "The princess leaving the town"], "answer": 1, "explanation": "The lance tip has not yet reached the dragon's open mouth."},
+    {"question": "According to the legend, why was the princess sent to the dragon?", "options": ["She was chosen by lottery", "She volunteered to fight it", "She was being punished by her father"], "answer": 0, "explanation": "When sheep ran short, a person chosen by lot was sent with a sheep."},
+    {"question": "How did Martorell make the halo and armor studs stand out?", "options": ["He glued on real jewels", "He painted them with oil glazes", "He modeled them in plaster and gilded them"], "answer": 2, "explanation": "The raised, gilded plaster caught the candlelight."},
+    {"question": "Where are the side panels of this altarpiece today?", "options": ["In the Louvre, Paris", "In Barcelona cathedral", "They were destroyed"], "answer": 0, "explanation": "The four scenes of the saint's martyrdom are in the Louvre."},
+    {"question": "Who watches from behind the red and gold cloth on the castle wall?", "options": ["Soldiers with crossbows", "The king and queen", "Monks from the town"], "answer": 1, "explanation": "The draped box marks the royal couple, the princess's parents."}
+  ],
+  "facts": [
+    {"text": "The dragon was part of Saint George's story from the very beginning.", "isTrue": false, "explanation": "It was added many centuries after his death around 303."},
+    {"text": "Bones and a human skull lie on the ground around the dragon.", "isTrue": true, "explanation": "They are the remains of its earlier victims."},
+    {"text": "Dozens of signed paintings by Martorell survive.", "isTrue": false, "explanation": "Only one surviving work is tied to him by a contract. The rest are attributed by style."}
+  ]
+}

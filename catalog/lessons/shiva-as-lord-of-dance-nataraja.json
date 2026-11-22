@@ -1,0 +1,303 @@
+{
+ "teaser": "One foot in the air, a universe ending and beginning. All in a single beat.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "IMAGE MISMATCH LIKELY: the photo appears to be the Nataraja of the Cleveland Museum of Art (grey studio backdrop, no flying hair locks), not the Metropolitan Museum's bronze (1987.80.1), which shows streaming hair and a sash. The lesson avoids Met-specific measurements; replace the image and re-check coordinates if the Met work is required.\nRodin's essay on a Nataraja bronze (written 1913, published 1921).\nCERN statue: 2 m Nataraja given by India in 2004.\nChidambaram as the mythic site of the dance.\nHoles in the base used for carrying poles in processions.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A drumbeat has just sounded. The left leg is swinging across the body and has not yet come down. Scarves, jewels and limbs are all caught at the top of the movement, in the split second when a dancer seems to hang in the air. That is the instant this bronze holds, and has held for about a thousand years."
+  },
+  {
+   "type": "text",
+   "text": "The dancer is Shiva, one of the great gods of Hinduism, in his form as Nataraja, “Lord of the Dance.” His dance is not entertainment. With it he destroys a worn-out universe and sets a new one going. Creation and destruction are steps in the same choreography."
+  },
+  {
+   "type": "text",
+   "text": "The image took its classic shape in South India under the Chola kings, who ruled the Tamil country from roughly the 9th to the 13th century. Their bronze casters turned a complicated idea into a silhouette you can read from across a temple courtyard."
+  },
+  {
+   "type": "lines",
+   "text": "Before the details, the design. Three shapes hold everything together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.51,
+       0.18
+      ],
+      [
+       0.8,
+       0.27
+      ],
+      [
+       0.91,
+       0.5
+      ],
+      [
+       0.82,
+       0.76
+      ],
+      [
+       0.62,
+       0.87
+      ],
+      [
+       0.38,
+       0.87
+      ],
+      [
+       0.2,
+       0.76
+      ],
+      [
+       0.11,
+       0.5
+      ],
+      [
+       0.22,
+       0.27
+      ]
+     ],
+     "closed": true,
+     "label": "The ring",
+     "text": "A hoop edged with small flames encloses the god. It stands for the cosmos, and for the fire that will consume it at the end of each cycle."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.22
+      ],
+      [
+       0.52,
+       0.5
+      ],
+      [
+       0.5,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "The still axis",
+     "text": "Head, torso and standing leg stack into one near-vertical line. However wild the dance, its center does not move."
+    },
+    {
+     "points": [
+      [
+       0.22,
+       0.38
+      ],
+      [
+       0.5,
+       0.41
+      ],
+      [
+       0.84,
+       0.4
+      ]
+     ],
+     "closed": false,
+     "label": "The spread arms",
+     "text": "The two upper arms reach out to touch the ring on both sides, like the spokes of a wheel."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "A circle for the universe, a vertical for stillness, and limbs flung out between them: the Nataraja makes balance out of motion."
+  },
+  {
+   "type": "text",
+   "text": "Shiva has four arms here. That is not anatomy, it is grammar. Indian sculptors gave gods extra arms so that one body could say several things at once. Each hand holds an object or forms a mudra, a hand gesture with a fixed meaning."
+  },
+  {
+   "type": "tour",
+   "title": "Four hands, four messages",
+   "text": "Read the hands in order, as a worshipper would.",
+   "spots": [
+    {
+     "x": 0.24,
+     "y": 0.365,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The drum",
+     "text": "A small hourglass-shaped drum, pinched at the waist. Its beat is the first sound of creation, the rhythm that starts time."
+    },
+    {
+     "x": 0.83,
+     "y": 0.385,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The flame",
+     "text": "On the opposite palm, a tongue of fire: the force that ends the world. Creation and destruction are held at the same height, perfectly level."
+    },
+    {
+     "x": 0.34,
+     "y": 0.44,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The raised palm",
+     "text": "An open hand facing you, fingers up. The gesture means “do not be afraid.”"
+    },
+    {
+     "x": 0.34,
+     "y": 0.53,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The pointing hand",
+     "text": "This arm crosses the chest and droops like an elephant's trunk. It points down toward the lifted foot, where the worshipper finds refuge."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the hands say: I make, I unmake, do not fear, come here. The whole theology fits in a glance. But the standing foot is busy too."
+  },
+  {
+   "type": "fact",
+   "text": "In 2004 India gave CERN, the European physics laboratory near Geneva, a two-meter Nataraja. It stands outside among the buildings, a nod to the idea of a universe in constant motion."
+  },
+  {
+   "type": "text",
+   "text": "A dancer needs a floor. Shiva's is alive."
+  },
+  {
+   "type": "find",
+   "text": "Someone is being trampled. Find the small figure under the god's foot.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.845,
+     "zoom": 3.4,
+     "r": 0.09,
+     "title": "The dwarf of ignorance",
+     "text": "A chubby little figure lies on its belly, head lifted. He stands for ignorance and forgetfulness. Shiva does not kill him: he keeps him pinned, dancing on his back."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Ignorance is held down, not wiped out. It is a strikingly realistic idea for an image of a god. And notice the face far above the struggle: eyes lowered, lips almost smiling, as untroubled as the body is busy."
+  },
+  {
+   "type": "text",
+   "text": "How was such an openwork object made? By the lost-wax method. The sculptor modeled the full figure in wax, coated it in clay, and heated it so the wax ran out. Molten metal was poured into the hollow. Then the clay mold was broken to free the bronze."
+  },
+  {
+   "type": "fact",
+   "text": "Because the mold had to be smashed, no Chola bronze could be cast twice. Every Nataraja began with a new wax model made by hand."
+  },
+  {
+   "type": "text",
+   "text": "These sculptures were not made to stand still in a showcase. In the temple, the god was believed to be present in the bronze. Priests bathed it, dressed it in silk, hung it with flower garlands, and on festival days took it out to see and be seen by the town."
+  },
+  {
+   "type": "find",
+   "text": "The bronze itself tells you it was built to travel. Where is the evidence?",
+   "spots": [
+    {
+     "x": 0.57,
+     "y": 0.945,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "Holes in the base",
+     "text": "Round openings pierce the lotus pedestal. Poles were slid through them so the god could be carried through the streets on the shoulders of bearers."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Imagine it then: swaying above a crowd, wrapped in cloth and jasmine, lit by oil lamps, with real drums playing. The frozen step would have seemed to move."
+  },
+  {
+   "type": "fact",
+   "text": "The French sculptor Auguste Rodin was shown photographs of a Chola Nataraja late in his life and wrote an admiring text about it, praising the grace of its limbs."
+  },
+  {
+   "type": "text",
+   "text": "In a museum the silk and the flowers are gone, and what remains is pure line. That is one way to see it. The other is to remember the beat it is waiting for, the one that lets the foot finally land."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does Shiva's dance do, according to the lesson?",
+   "options": [
+    "It celebrates a military victory",
+    "It destroys one universe and starts a new one",
+    "It brings the monsoon rain"
+   ],
+   "answer": 1,
+   "explanation": "His dance ends a worn-out cosmos and begins another."
+  },
+  {
+   "question": "What does the raised open palm mean?",
+   "options": [
+    "Do not be afraid",
+    "Stop the music",
+    "Give an offering"
+   ],
+   "answer": 0,
+   "explanation": "It is the gesture of reassurance."
+  },
+  {
+   "question": "What lies under Shiva's standing foot?",
+   "options": [
+    "A lotus bud",
+    "A coiled snake",
+    "A dwarf standing for ignorance"
+   ],
+   "answer": 2,
+   "explanation": "He pins down the dwarf of ignorance without killing him."
+  },
+  {
+   "question": "Why could no Chola bronze be cast twice?",
+   "options": [
+    "The mold was broken to release the metal",
+    "Kings forbade copies",
+    "The wax was too expensive"
+   ],
+   "answer": 0,
+   "explanation": "Lost-wax casting destroys both the wax model and the clay mold."
+  },
+  {
+   "question": "What were the holes in the base for?",
+   "options": [
+    "Draining rainwater",
+    "Poles for carrying the statue in processions",
+    "Fixing it to a temple wall"
+   ],
+   "answer": 1,
+   "explanation": "Bearers slid poles through them to carry the god."
+  },
+  {
+   "question": "Which two objects do the upper hands hold?",
+   "options": [
+    "A sword and a shield",
+    "A lotus and a conch",
+    "A drum and a flame"
+   ],
+   "answer": 2,
+   "explanation": "The drum stands for creation and the flame for destruction."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The ring of flames around Shiva stands for the cosmos.",
+   "isTrue": true,
+   "explanation": "It also evokes the fire that ends each cycle of the universe."
+  },
+  {
+   "text": "Chola temple bronzes were meant to be seen bare and motionless.",
+   "isTrue": false,
+   "explanation": "They were dressed, garlanded and carried in processions."
+  },
+  {
+   "text": "The four arms show that Chola sculptors misunderstood anatomy.",
+   "isTrue": false,
+   "explanation": "Extra arms let one figure express several meanings at once."
+  }
+ ]
+}

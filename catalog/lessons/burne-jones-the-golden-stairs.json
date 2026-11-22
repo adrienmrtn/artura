@@ -1,0 +1,280 @@
+{
+ "teaser": "Eighteen women come down a staircase. Nobody has ever found out why.",
+ "focus": [
+  0.8,
+  0.44
+ ],
+ "review_notes": "The image appears slightly cropped at the left edge (the top-left figure is cut).\nNumber of figures: eighteen in the painting.\nBodies drawn from the Italian model Antonia Caiva, faces from women of the artist's circle (his daughter Margaret, May Morris): check.\nRejected titles 'The King's Wedding' and 'Music on the Stairs': check.\nDesigned 1872, begun 1876, finished 1880 for the Grosvenor Gallery.\nPater quote ('All art constantly aspires towards the condition of music', 1877) is genuine.\nGilbert and Sullivan's Patience (1881) mocks the Grosvenor Gallery ('greenery-yallery, Grosvenor Gallery').\nBequeathed to the Tate by Lord Battersea, 1924.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A bare foot hangs in the air above a stone step. Lower down, another is just landing. Count the feet you can see and almost every one is caught between two stairs. This picture stops the clock halfway through a footstep, and then refuses to tell you where the footsteps lead."
+  },
+  {
+   "type": "text",
+   "text": "Eighteen young women wind down a spiral staircase and file through a doorway at the bottom left. They carry instruments, but hardly anyone plays. A few whisper. That is the entire event. There is no source for it in any poem, myth or Bible story."
+  },
+  {
+   "type": "lines",
+   "text": "With no plot to follow, the eye follows the route. Trace it from the top.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.05,
+       0.1
+      ],
+      [
+       0.3,
+       0.17
+      ],
+      [
+       0.6,
+       0.2
+      ],
+      [
+       0.88,
+       0.24
+      ],
+      [
+       0.86,
+       0.45
+      ],
+      [
+       0.72,
+       0.68
+      ],
+      [
+       0.48,
+       0.76
+      ],
+      [
+       0.25,
+       0.7
+      ],
+      [
+       0.06,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The procession",
+     "text": "The figures enter top left, cross to the right, then swing back down to the left. The line of women draws a backward S, like a ribbon unrolling."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.4
+      ],
+      [
+       0.25,
+       0.41
+      ],
+      [
+       0.45,
+       0.47
+      ],
+      [
+       0.57,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The arch",
+     "text": "The staircase curls over a pale stone arch. The curve is the hardest edge in the picture, and it separates the upper group from the lower one."
+    },
+    {
+     "points": [
+      [
+       0.59,
+       0.62
+      ],
+      [
+       0.59,
+       0.9
+      ],
+      [
+       0.95,
+       0.9
+      ]
+     ],
+     "closed": false,
+     "label": "The empty corner",
+     "text": "Bottom right, bare steps and nothing else. Burne-Jones leaves this space open so the crowd has somewhere to have come from."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "When it was shown in London in 1880, critics hunted for the story. Who are they? Where are they going? Is it a wedding? Burne-Jones had tried out titles such as “The King's Wedding” and “Music on the Stairs,” then settled on one that explains nothing."
+  },
+  {
+   "type": "key",
+   "text": "The Golden Stairs has a subject but no story. It asks to be enjoyed the way you enjoy a piece of music: for rhythm, repetition and mood, not for meaning."
+  },
+  {
+   "type": "fact",
+   "text": "Three years before, the Oxford critic Walter Pater had written a sentence that became a slogan for painters like Burne-Jones: “All art constantly aspires towards the condition of music.” This canvas reads like a reply."
+  },
+  {
+   "type": "text",
+   "text": "The rhythm comes from sameness. The women share one height, one build, one crinkled silver-white dress. Burne-Jones is said to have drawn all the bodies from a single Italian model, then given them the faces of girls he knew, his own daughter Margaret among them."
+  },
+  {
+   "type": "text",
+   "text": "He had never been to art school. He went to Oxford to become a clergyman, met William Morris there, and spent decades designing stained glass for Morris's firm. That habit shows: the canvas is as tall and thin as a church window, 2.7 meters high (nearly 9 feet) and under half as wide."
+  },
+  {
+   "type": "find",
+   "text": "Not every creature on these stairs is a young woman. Something is perched high above them. Where?",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.045,
+     "zoom": 3.6,
+     "r": 0.12,
+     "title": "The doves",
+     "text": "White doves sit on the tiled roof, beside a small patch of blue. It is the only sky in the painting and the only real color apart from silver, gold and the dark green of the leaves.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That scrap of blue matters because everything below it is nearly colorless. A picture this pale was daring in 1880, when exhibition walls glowed with reds and browns. He worked on it, on and off, for eight years."
+  },
+  {
+   "type": "fact",
+   "text": "The look caught on fast. Within a year, a comic opera by Gilbert and Sullivan was filling a London theater with lovesick maidens in droopy pale gowns, and its songs poked fun at the gallery where this painting had hung."
+  },
+  {
+   "type": "text",
+   "text": "Since there is no plot to solve, the best way through is the way you would watch strangers pass on a real staircase: one face at a time, guessing at each, knowing you will never be told."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.82,
+     "y": 0.46,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The violinist",
+     "text": "She is the only one whose instrument is tucked ready to play, and she looks out toward us with a faint smile. Many people find their eye resting here.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.84,
+     "y": 0.24,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "Looking down",
+     "text": "A woman with a leaf wreath bends over the edge of the stair to see the ones below. Her glance joins the top half of the procession to the bottom."
+    },
+    {
+     "x": 0.47,
+     "y": 0.25,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "The long trumpet",
+     "text": "A slim silver trumpet held upright like a walking staff. The instruments here are props for silence. The music is about to begin, or has just ended.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.4,
+     "y": 0.56,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "A whisper",
+     "text": "Two heads lean together under the dark branches. It is the closest thing to an incident in the whole canvas."
+    },
+    {
+     "x": 0.74,
+     "y": 0.77,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Bare feet",
+     "text": "Every foot is bare on the cold stone, toes flexed, mid-step. Shoes would make noise. These eighteen women descend without a sound."
+    },
+    {
+     "x": 0.08,
+     "y": 0.62,
+     "zoom": 2.6,
+     "r": 0.11,
+     "title": "The last look back",
+     "text": "At the doorway, a wreathed head in profile, bowed toward the way out. In a moment she will be gone, and the next one will take her place."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What story does The Golden Stairs illustrate?",
+   "options": [
+    "A Greek myth about the Muses",
+    "None: it has no known story",
+    "A scene from the Bible"
+   ],
+   "answer": 1,
+   "explanation": "Burne-Jones gave it a subject and a mood but no narrative."
+  },
+  {
+   "question": "Which art did Walter Pater say all art aspires toward?",
+   "options": [
+    "Music",
+    "Poetry",
+    "Architecture"
+   ],
+   "answer": 0,
+   "explanation": "Pater wrote that all art aspires “towards the condition of music.”"
+  },
+  {
+   "question": "What other craft shaped the tall, narrow format of the painting?",
+   "options": [
+    "Book illustration",
+    "Tapestry weaving",
+    "Stained glass design"
+   ],
+   "answer": 2,
+   "explanation": "Burne-Jones spent decades designing church windows for William Morris's firm."
+  },
+  {
+   "question": "What sits on the roof at the top of the picture?",
+   "options": [
+    "A cat",
+    "White doves",
+    "A weather vane"
+   ],
+   "answer": 1,
+   "explanation": "Doves perch beside the only patch of blue sky."
+  },
+  {
+   "question": "What do all the women have on their feet?",
+   "options": [
+    "Nothing",
+    "Golden sandals",
+    "Soft slippers"
+   ],
+   "answer": 0,
+   "explanation": "They are barefoot on the stone, which makes the descent silent."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Burne-Jones trained at an art academy from the age of fifteen.",
+   "isTrue": false,
+   "explanation": "He never went to art school and first studied at Oxford to become a clergyman."
+  },
+  {
+   "text": "Critics in 1880 searched in vain for the painting's story.",
+   "isTrue": true,
+   "explanation": "The picture deliberately offers none."
+  },
+  {
+   "text": "The painting is wider than it is tall.",
+   "isTrue": false,
+   "explanation": "It is about 2.7 meters high and less than half as wide."
+  }
+ ]
+}

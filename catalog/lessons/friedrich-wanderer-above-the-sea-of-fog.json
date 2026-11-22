@@ -1,0 +1,44 @@
+{
+  "teaser": "The most famous back in art belonged to a painter who died almost forgotten.",
+  "focus": [0.5, 0.45],
+  "review_notes": "Claim that there is no record of the painting being exhibited or discussed in Friedrich's lifetime, and that it surfaced on the Berlin art market in the 1930s before entering the Hamburger Kunsthalle in 1970.\nFriedrich passed over for the Dresden landscape professorship in 1824.\nIdentification of the rocks: Kaiserkrone (foreground) and Zirkelstein (right); the left mountain is usually called the Rosenberg or Kaltenberg.\nThe green coat as 'old German costume' of the anti-Napoleonic volunteers, and the idea of a memorial portrait, are scholarly hypotheses.\nDate is often given as c. 1817-1818. Size 94.8 x 74.8 cm.\nQuote on painting what one sees within oneself is from Friedrich's own writings (translation varies).",
+  "lesson": [
+    {"type": "text", "text": "Caspar David Friedrich died in Dresden in 1840, poor, half paralyzed by a stroke, and out of fashion. The art academy had passed him over for its landscape professorship years before. Buyers had moved on to brighter, more realistic scenery. As far as anyone can tell, this painting was never even mentioned in print while he lived."},
+    {"type": "text", "text": "Today it sells philosophy paperbacks, hiking gear and film posters. Few images have traveled so far from so little notice. What did a neglected canvas, not even a meter tall (94.8 by 74.8 cm, about 37 by 29 inches), have that the admired pictures of 1818 lacked?"},
+    {"type": "text", "text": "Start with a refusal. A portrait is supposed to show a face. Friedrich turns his man around and plants him dead center, so the largest thing in the picture is a dark coat. German has a word for this device: Rückenfigur, “figure seen from behind.” Friedrich did not invent it, but he made it his signature."},
+    {"type": "key", "text": "A figure seen from behind does two jobs at once: he blocks your view, and he lends you his eyes. You cannot look at him without looking with him."},
+    {"type": "text", "text": "The effect is not left to chance. The land itself has been arranged around his body, almost like stage scenery sliding into place."},
+    {"type": "lines", "text": "Watch how the landscape points at one spot.", "lines": [
+      {"points": [[0.0, 0.375], [0.2, 0.41], [0.43, 0.455]], "closed": false, "label": "Left ridge", "text": "The gray slope on the left slides down and stops at the man's chest."},
+      {"points": [[1.0, 0.385], [0.8, 0.41], [0.59, 0.45]], "closed": false, "label": "Right ridge", "text": "Its twin comes in from the right at nearly the same angle. The two ridges meet where his heart would be."},
+      {"points": [[0.5, 0.33], [0.5, 0.72]], "closed": false, "label": "The axis", "text": "He stands on the exact vertical middle of the canvas, straight as a plumb line. Nothing else in the picture is this rigid or this dark."},
+      {"points": [[0.24, 0.7], [0.48, 0.63], [0.72, 0.78], [0.93, 0.87]], "closed": false, "label": "The pedestal", "text": "The dark rock rises to a point under his feet, like the base of a statue. Below it, you are given no ground to stand on."}
+    ]},
+    {"type": "text", "text": "No such viewpoint exists. Friedrich walked the sandstone hills along the Elbe river, southeast of Dresden, and drew single rocks in pencil, carefully dated. Years later, indoors, he assembled them like a collage. Several of the rocks can still be found, but miles apart from one another."},
+    {"type": "fact", "text": "Visitors described Friedrich's studio as almost empty: an easel, a chair, a table, bare walls. He believed that objects around him would disturb the picture forming in his mind."},
+    {"type": "text", "text": "He put the idea in a sentence that painters still quote: an artist should paint not only what he sees in front of him, but also what he sees within himself. The fog is the tool for that. It erases the valleys and leaves only islands."},
+    {"type": "tour", "title": "Islands in the fog", "text": "Three stops, from the nearest thing to the farthest.", "spots": [
+      {"x": 0.495, "y": 0.355, "zoom": 3.6, "r": 0.06, "title": "Wind", "text": "Reddish hair, tossed to the left. It is the only movement on him and the only warm color against the cold sky. Friedrich himself was red-blond, and some see a self-portrait."},
+      {"x": 0.17, "y": 0.56, "zoom": 2.4, "r": 0.14, "title": "Rock teeth", "text": "Sandstone pillars poke through the mist, painted sharply. Then their feet dissolve. You cannot tell how deep the drop is, and that is the point."},
+      {"x": 0.77, "y": 0.37, "zoom": 3.2, "r": 0.07, "title": "The far rock", "text": "A lone flat-topped block on the skyline, pale as breath. It matches a real outcrop in the Elbe hills, moved here from elsewhere to balance the mountain on the left."}
+    ]},
+    {"type": "text", "text": "Notice that nothing sits between those rock teeth and that far block. Painters of the time led the eye into depth step by step, with a path, a river or a row of trees. Friedrich jumps from a few meters away to many miles, and lets the fog cover the gap."},
+    {"type": "fact", "text": "The dark green coat may be a political clue. Some historians read it as the “old German costume” worn by students and volunteers who had fought Napoleon, a dress the authorities soon treated as a sign of dangerous ideas."},
+    {"type": "text", "text": "So who is he? A conqueror on a summit, a mourner, a dead soldier being remembered, the painter himself? Each reading has its defenders. Friedrich left no explanation, and the picture works because it does not settle: the man's mood is whatever you bring up the mountain with you."},
+    {"type": "fact", "text": "The canvas only surfaced on the Berlin art market in the 1930s, about a century after it was painted. The museum in Hamburg bought it in 1970."},
+    {"type": "text", "text": "Go back to the man who died forgotten. His comeback began around 1900, when a new generation, tired of faithful scenery, discovered a painter who had treated landscape as a state of mind. They had been taught to look for it by the artists who came after him."},
+    {"type": "key", "text": "He was not rejected for painting badly. He was set aside for painting something his time had no use for yet: the inside of a person, shown as weather."}
+  ],
+  "quiz": [
+    {"question": "What does the German word Rückenfigur mean?", "options": ["A figure in fog", "A figure seen from behind", "A mountain climber"], "answer": 1, "explanation": "It names a figure shown from the back, Friedrich's signature device."},
+    {"question": "How did Friedrich build this landscape?", "options": ["He painted it outdoors in one morning", "He copied it from a travel print", "He combined separate pencil studies of rocks in his studio"], "answer": 2, "explanation": "The rocks exist, but miles apart; he assembled them indoors."},
+    {"question": "Where do the two gray ridges meet?", "options": ["At the man's chest", "At the top of the left mountain", "At the bottom edge of the canvas"], "answer": 0, "explanation": "Both slopes slide down toward the center of his body."},
+    {"question": "What was Friedrich's studio like?", "options": ["Crowded with stuffed birds and rocks", "Nearly empty", "Open to the sky"], "answer": 1, "explanation": "He kept it bare so nothing would disturb the image in his mind."},
+    {"question": "What may the green coat hint at?", "options": ["The man's wealth", "A hunting trip", "Sympathy with those who had fought Napoleon"], "answer": 2, "explanation": "Some historians read it as the old German costume of the volunteers."}
+  ],
+  "facts": [
+    {"text": "The painting was a celebrated success during Friedrich's lifetime.", "isTrue": false, "explanation": "It seems to have gone unmentioned; he died poor and out of fashion."},
+    {"text": "The view in the painting cannot be found from any single real spot.", "isTrue": true, "explanation": "Friedrich combined rocks he had drawn in different places."},
+    {"text": "The man stands exactly on the vertical middle of the canvas.", "isTrue": true, "explanation": "His body forms the central axis of the picture."}
+  ]
+}

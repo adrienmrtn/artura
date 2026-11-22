@@ -1,0 +1,299 @@
+{
+ "teaser": "A thief once cut it from its frame with a potato peeler. Its own subject is a kind of spying.",
+ "focus": [
+  0.46,
+  0.47
+ ],
+ "review_notes": "1971 theft: Palais des Beaux-Arts, Brussels, night of 23-24 September 1971, exhibition 'Rembrandt and his Age'; thief Mario Roymans, 21; canvas cut out with a potato peeler and carried in a back pocket; ransom demand of 200 million Belgian francs for refugees from East Pakistan; arrest on 6 October 1971; restoration took close to a year. Check each detail.\nThe instrument is a cittern (often called a lute).\nSea-and-ship reading of the painting on the wall comes from Dutch emblem books (Jan Harmensz Krul).\nDimensions 44 x 38.5 cm.\nDate given as 1669; usually dated c. 1669-1670.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "200 million Belgian francs. That was the ransom asked for this painting in the autumn of 1971. It had been lent to an exhibition in Brussels. One night a 21-year-old hotel waiter hid in the building, took it off the wall, and found that the frame would not fit through the window."
+  },
+  {
+   "type": "text",
+   "text": "So he cut the canvas out of its frame with a potato peeler and stuffed it into his back pocket. The picture is small, 44 by 38.5 centimeters, roughly 17 by 15 inches. He wanted the money sent to refugees fleeing famine and war in East Pakistan. He was caught within two weeks."
+  },
+  {
+   "type": "fact",
+   "text": "The stolen canvas spent part of those two weeks buried in a forest, then hidden in the thief's room. Paint had flaked off along the cut edges and wherever it had been folded. Restorers at the Rijksmuseum needed nearly a year to repair it."
+  },
+  {
+   "type": "text",
+   "text": "There is an irony in that story. The thief looked at something he was not supposed to touch, at night, from a hiding place. That is exactly the position Vermeer puts you in. Before the two women, notice where you are standing."
+  },
+  {
+   "type": "lines",
+   "text": "You are not in the room. Vermeer builds a dark box around your eyes.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.235,
+       0.0
+      ],
+      [
+       0.235,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "The left doorpost",
+     "text": "Everything left of this line is a dim wall in an unlit room, where you stand. It takes up almost a quarter of the picture and shows next to nothing."
+    },
+    {
+     "points": [
+      [
+       0.685,
+       0.2
+      ],
+      [
+       0.685,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "The right doorpost",
+     "text": "On this side, another dark strip: a chair, some sheet music, a hanging cloth. The lit room is squeezed into a tall slot between the two."
+    },
+    {
+     "points": [
+      [
+       0.34,
+       0.0
+      ],
+      [
+       0.6,
+       0.18
+      ],
+      [
+       0.99,
+       0.22
+      ]
+     ],
+     "closed": false,
+     "label": "The curtain",
+     "text": "A heavy curtain is pulled up and aside. Someone has just lifted it, or forgot to let it fall. Either way, the view feels stolen."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Dutch painters had a word for this trick: doorkijkje, a “look-through”, a view from one room into another. It makes a flat picture feel deep. It also turns the viewer into a witness, someone in a corridor who was not meant to see."
+  },
+  {
+   "type": "text",
+   "text": "And what you catch is the instant after a delivery. A maid has just handed her mistress a letter. The mistress was playing music. She has not opened the envelope. She has only looked up."
+  },
+  {
+   "type": "tour",
+   "title": "One second, two faces",
+   "text": "The whole story sits in a small triangle: a face, another face, a hand.",
+   "spots": [
+    {
+     "x": 0.475,
+     "y": 0.44,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "The mistress",
+     "text": "Her eyes roll up toward the maid, wide and uneasy, mouth slightly open. She is asking a question without saying a word. Pearls, yellow satin and fur trim mark her as wealthy."
+    },
+    {
+     "x": 0.365,
+     "y": 0.34,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "The maid",
+     "text": "The maid looks down and smiles, one hand on her hip. She seems to know who wrote the letter, and she is in no hurry to worry about it."
+    },
+    {
+     "x": 0.42,
+     "y": 0.51,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The letter",
+     "text": "Still sealed, held between two fingers. Her other hand keeps hold of the instrument. She has not decided whether to stop playing."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The instrument is a cittern, a cousin of the lute with metal strings. In Dutch pictures of this time, making music often stands for love: two people in harmony, or one person waiting for the other. So the title is a fair guess, even though no one can read the letter."
+  },
+  {
+   "type": "fact",
+   "text": "Vermeer never named this painting, or any of his paintings. Titles like “The Love Letter” were given later by dealers and museums, based on what the pictures seemed to show."
+  },
+  {
+   "type": "text",
+   "text": "Will the letter bring good news? Vermeer answers the mistress's worried look himself, without a word, using a picture inside the picture."
+  },
+  {
+   "type": "find",
+   "text": "Somewhere in this room a ship sails on a calm sea. Where?",
+   "spots": [
+    {
+     "x": 0.41,
+     "y": 0.29,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "The seascape",
+     "text": "Right behind the maid's head hangs a painting of a boat under a mild sky. A popular Dutch image compared love to the sea and the lover to a ship. Smooth water meant all is well."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the maid's smile and the quiet sea agree: this romance is going fine. But look down, and the picture adds a gentle joke at the mistress's expense. The floor is full of things that should have been put away."
+  },
+  {
+   "type": "key",
+   "text": "Vermeer tells a story the way a good film does: no words, just a glance, a held breath and a few objects placed where the eye will stumble on them."
+  },
+  {
+   "type": "fact",
+   "text": "Vermeer was not the first to stage a scene through a doorway. His fellow Delft painter Pieter de Hooch made such views a specialty a decade earlier. Vermeer took the idea and tightened it until the doorway worked like a keyhole."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.36,
+     "y": 0.945,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "Kicked-off slippers",
+     "text": "A pair of slippers lies in the doorway, left where they fell. In Dutch pictures, stray shoes often hinted at a mind busy with love."
+    },
+    {
+     "x": 0.61,
+     "y": 0.9,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The broom",
+     "text": "A broom leans against the doorpost, its job unfinished. The housework has stopped while the heart is busy.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.28,
+     "y": 0.68,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The laundry basket",
+     "text": "A wicker basket of linen waits by the maid's feet. It tells you what she was doing a minute ago."
+    },
+    {
+     "x": 0.3,
+     "y": 0.79,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The sewing cushion",
+     "text": "A blue cushion used for needlework sits on the tiles, dropped next to the basket. It is one more task set aside for a tune on the cittern."
+    },
+    {
+     "x": 0.27,
+     "y": 0.605,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The signature",
+     "text": "On the wall just left of the maid's skirt, Vermeer signed his name in dark letters."
+    },
+    {
+     "x": 0.78,
+     "y": 0.86,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Sheet music",
+     "text": "In the dark at the right, crumpled pages of music lie on a chair. Even out here in the shadows, somebody has been thinking about songs."
+    },
+    {
+     "x": 0.4,
+     "y": 0.1,
+     "zoom": 2.6,
+     "r": 0.11,
+     "title": "The upper painting",
+     "text": "Above the seascape hangs a landscape with a lone figure on a sandy road, perhaps the absent traveler himself."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What tool did the thief use to cut the painting from its frame in 1971?",
+   "options": [
+    "A razor blade",
+    "A potato peeler",
+    "A pair of scissors"
+   ],
+   "answer": 1,
+   "explanation": "He cut the canvas out with a potato peeler and put it in his back pocket."
+  },
+  {
+   "question": "What does the Dutch word doorkijkje mean?",
+   "options": [
+    "A view through a doorway into another room",
+    "A love letter",
+    "A kind of string instrument"
+   ],
+   "answer": 0,
+   "explanation": "It is a “look-through”, a view from one space into another."
+  },
+  {
+   "question": "What is the mistress doing with the letter?",
+   "options": [
+    "Reading it aloud",
+    "Tearing it up",
+    "Holding it, still unopened"
+   ],
+   "answer": 2,
+   "explanation": "She has only just received it and looks up at the maid."
+  },
+  {
+   "question": "What does the calm seascape on the wall suggest?",
+   "options": [
+    "That the lover has drowned",
+    "That the love affair is going smoothly",
+    "That the family owns ships"
+   ],
+   "answer": 1,
+   "explanation": "Love was compared to the sea, and calm water was a good sign."
+  },
+  {
+   "question": "Which instrument is the mistress holding?",
+   "options": [
+    "A cittern",
+    "A violin",
+    "A flute"
+   ],
+   "answer": 0,
+   "explanation": "A cittern is a relative of the lute with metal strings."
+  },
+  {
+   "question": "Who gave the painting its title?",
+   "options": [
+    "Vermeer, on the back of the canvas",
+    "Later dealers and museums",
+    "The woman who posed for it"
+   ],
+   "answer": 1,
+   "explanation": "Vermeer never titled his paintings."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The viewer of The Love Letter stands in the same bright room as the two women.",
+   "isTrue": false,
+   "explanation": "We look in from a dark room, through a doorway."
+  },
+  {
+   "text": "The maid looks worried while the mistress smiles.",
+   "isTrue": false,
+   "explanation": "It is the reverse: the mistress looks uneasy and the maid smiles."
+  },
+  {
+   "text": "After the theft, the painting needed close to a year of restoration.",
+   "isTrue": true,
+   "explanation": "Paint had flaked along the cut edges and folds."
+  }
+ ]
+}

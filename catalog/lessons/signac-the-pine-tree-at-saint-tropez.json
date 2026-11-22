@@ -1,0 +1,173 @@
+{
+ "teaser": "What color is a tree trunk? Signac's answer: orange, pink, red and a little violet.",
+ "focus": [
+  0.45,
+  0.4
+ ],
+ "review_notes": "The tree is usually identified as the Bertaud pine near Saint-Tropez (painting also known as Le Pin de Bertaud).\nProvenance from the Ivan Morozov collection, nationalized after 1917: verify.\nSignac reached Saint-Tropez by boat (the Olympia) in 1892 and later bought the villa La Hune.\nMatisse's stay in summer 1904 and Luxe, calme et volupté.\nSignac's habit of making watercolors outdoors and painting oils in the studio.\nThe small yellow-green shape at the foot of the tree is not identified in the lesson.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "What color is a tree trunk? Brown, you would say, or gray. Now check this one. Paul Signac has built it from orange, salmon pink and brick red, with strokes of violet where the shade falls. And yet you never doubt for a second that it is a pine under a hot sun."
+  },
+  {
+   "type": "text",
+   "text": "The tree stood near Saint-Tropez, on the French Mediterranean coast. Today the name means yachts and film stars. When Signac sailed into the harbor on his own boat in 1892, it was a remote fishing port with no railway. He rented a house, then bought one, and stayed for some twenty years."
+  },
+  {
+   "type": "text",
+   "text": "This is an umbrella pine, the kind whose branches spread into a wide flat dome. Its job in a Provençal landscape is shade. Signac gives the canopy nearly half the canvas and lets it throw a cool blue shadow over everything beneath."
+  },
+  {
+   "type": "tour",
+   "title": "A tree in three temperatures",
+   "text": "Follow the heat from the top of the tree to the ground.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.2,
+     "zoom": 2,
+     "r": 0.2,
+     "title": "The sunlit crown",
+     "text": "Where light strikes the needles, they turn orange and gold. Green appears only deeper in, mixed with blue."
+    },
+    {
+     "x": 0.47,
+     "y": 0.47,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The branches",
+     "text": "Twisting limbs in dark blue and green show through the canopy. They are in shadow, so Signac paints them in cool colors."
+    },
+    {
+     "x": 0.47,
+     "y": 0.72,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The trunk",
+     "text": "Reflected light from the hot ground fires the bark with orange and pink. The left side, in shade, carries violet touches.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.6,
+     "y": 0.9,
+     "zoom": 2.2,
+     "r": 0.18,
+     "title": "The ground",
+     "text": "Pink and pale lilac earth, with patches of blue where shadows fall. No brown anywhere."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice the size of the strokes. They are not dots anymore. In the 1880s, Signac and his friend Georges Seurat had painted with tiny points meant to fuse in the eye. Seurat died in 1891. In the South, Signac slowly widened his touch into small bricks of paint, each one clearly visible, like the tiles of a mosaic."
+  },
+  {
+   "type": "key",
+   "text": "Signac stopped asking colors to blend. Each brick of paint stays itself, and the picture works like a mosaic: the harmony comes from how neighbors answer each other."
+  },
+  {
+   "type": "fact",
+   "text": "Signac rarely painted his oils outdoors. He walked or sailed with a box of watercolors, filled sheets with quick notes on the spot, then composed the canvas calmly in his studio."
+  },
+  {
+   "type": "text",
+   "text": "So this tree is less a snapshot than an arrangement. The colors are chosen in pairs of opposites, orange against blue, yellow against violet, because such pairs make each other vibrate. Between the bricks, slivers of pale ground are left bare, and they let the whole surface breathe."
+  },
+  {
+   "type": "find",
+   "text": "The pine has a rival for height on the left: a group of dark, narrow trees. Where are they?",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.57,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The cypresses",
+     "text": "Slim spires in deep blue and violet. Their upright shapes and cold color make the pine look even broader and warmer."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That contrast, a warm dome beside cold spires, is the whole composition in miniature. Young painters understood the lesson quickly. Henri Matisse spent the summer of 1904 near Signac in Saint-Tropez, tried the brick-like touch himself, and within a year was pushing color further still with the group nicknamed the Fauves, the “wild beasts”."
+  },
+  {
+   "type": "fact",
+   "text": "The painting hangs in Moscow because Russian collectors were among the boldest buyers of new French art before the First World War. Their collections were taken over by the state after the 1917 revolution and later shared between Moscow and Saint Petersburg."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the first question. A trunk is brown only if you ignore the light around it. Under a southern noon, with red earth below and blue sky above, it borrows from both. Signac did not paint the color of the bark. He painted the color of the afternoon."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What kind of strokes does Signac use in this 1909 painting?",
+   "options": [
+    "Invisible, blended strokes",
+    "Small bricks of paint like mosaic tiles",
+    "Long sweeping lines"
+   ],
+   "answer": 1,
+   "explanation": "He had widened the early dots into visible rectangular touches."
+  },
+  {
+   "question": "How did Signac first arrive in Saint-Tropez?",
+   "options": [
+    "On his own boat",
+    "By train",
+    "On foot from Paris"
+   ],
+   "answer": 0,
+   "explanation": "He sailed into the harbor in 1892; there was no railway."
+  },
+  {
+   "question": "Why are the branches under the canopy painted blue and green?",
+   "options": [
+    "Signac ran out of brown",
+    "They are covered in moss",
+    "They are in shadow, so he uses cool colors"
+   ],
+   "answer": 2,
+   "explanation": "Shaded parts get cool colors, sunlit parts warm ones."
+  },
+  {
+   "question": "Which painter worked near Signac in the summer of 1904?",
+   "options": [
+    "Henri Matisse",
+    "Georges Seurat",
+    "Claude Monet"
+   ],
+   "answer": 0,
+   "explanation": "Matisse tried Signac's touch before becoming a leader of the Fauves."
+  },
+  {
+   "question": "Where did Signac usually paint his oil canvases?",
+   "options": [
+    "Outdoors in front of the subject",
+    "On his boat",
+    "In the studio, from watercolor notes"
+   ],
+   "answer": 2,
+   "explanation": "He made watercolors on the spot and composed the oils indoors."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The trunk of the pine is painted mostly in browns and grays.",
+   "isTrue": false,
+   "explanation": "It is built from orange, pink and red with violet in the shade."
+  },
+  {
+   "text": "Saint-Tropez was a quiet fishing port when Signac settled there.",
+   "isTrue": true,
+   "explanation": "In 1892 it was remote and had no railway."
+  },
+  {
+   "text": "By 1909 Signac's dots had become smaller than ever.",
+   "isTrue": false,
+   "explanation": "His touch had grown into larger, clearly visible bricks of paint."
+  }
+ ]
+}

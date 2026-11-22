@@ -1,0 +1,176 @@
+{
+ "teaser": "The most famous face in Paris, painted by her closest friend, with the eyes left in shadow.",
+ "focus": [
+  0.47,
+  0.2
+ ],
+ "review_notes": "IMAGE MISMATCH: the catalog entry is the 1876 Petit Palais portrait (Bernhardt reclining on a divan with a dog). The image supplied shows a different Clairin canvas: Bernhardt standing in an Egyptian setting with a lion skin, signed and dated in the 1890s (reads 1892 or 1893), probably in the role of Cleopatra. The lesson describes the image supplied and mentions the 1876 portrait; replace image or lesson as needed.\nBernhardt played Sardou's Cléopâtre in Paris in 1890: check that this canvas shows that role.\nThe 1876 portrait was given to the Petit Palais by her son Maurice in 1923.\nClairin's nickname “Jojotte”; friendship of about fifty years.\nCoffin photograph and pet cheetah are well documented; the live snakes on stage are reported as a rumor.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Here is the best-known actress of the nineteenth century, a woman whose face sold newspapers, posters and biscuit tins. And here is what her portraitist does with that face: he turns it away and lets a band of shadow fall right across the eyes."
+  },
+  {
+   "type": "text",
+   "text": "The sitter is Sarah Bernhardt. The painter is Georges Clairin, her friend for about fifty years. She called him “Jojotte.” He painted her again and again: at home, on stage, in costume. So the hidden eyes are not clumsiness. He knew this face better than anyone."
+  },
+  {
+   "type": "text",
+   "text": "His most famous portrait of her, shown at the Salon of 1876 and now in the Petit Palais, has her stretched on a divan in a white gown, staring at the viewer. The canvas in front of you is another meeting between the two friends, signed in the 1890s, and it plays the opposite game: Sarah as a character."
+  },
+  {
+   "type": "tour",
+   "title": "Who is she playing?",
+   "text": "The setting holds the answer. Follow three clues from the top of the canvas down.",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.055,
+     "zoom": 2.4,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "Wings over the door",
+     "text": "A sun disk with spread wings crowns the doorway. It is an ancient Egyptian emblem of protection, carved above temple gates. We are in Egypt, or in a stage version of it."
+    },
+    {
+     "x": 0.47,
+     "y": 0.17,
+     "zoom": 3.2,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The profile",
+     "text": "Red hair bound with a garland, chin lifted, eyes lost in shade. It is the pose of someone listening to a voice offstage, more than of someone posing for a portrait."
+    },
+    {
+     "x": 0.82,
+     "y": 0.515,
+     "zoom": 2.8,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "The dropped hand",
+     "text": "Her left hand hangs at arm's length, holding a bunch of flowers as if she had forgotten it. Her right hand rests on a pale stone block on the other side."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "An Egyptian queen with red hair and the whole room at her feet: almost certainly Cleopatra, a part Bernhardt played in Paris in 1890. Clairin is showing an actress in the middle of a role. That explains the turned head. On stage, you rarely look at the audience."
+  },
+  {
+   "type": "key",
+   "text": "A portrait of an actor can show two people at once: the person and the part. Clairin lets the part win and keeps the person in the shade."
+  },
+  {
+   "type": "fact",
+   "text": "Bernhardt worked hard at being talked about. She let herself be photographed lying in the coffin she kept at home, and she owned a cheetah among other wild pets. Rumor had it that she used live snakes for Cleopatra's death scene."
+  },
+  {
+   "type": "text",
+   "text": "With that reputation in mind, the fur spilling over the steps is more than a rug. Clairin has hidden a second face in the picture, and it stares out at you while hers does not."
+  },
+  {
+   "type": "find",
+   "text": "Someone in this painting is looking straight at you. Where?",
+   "spots": [
+    {
+     "x": 0.38,
+     "y": 0.865,
+     "zoom": 2.8,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The lion",
+     "text": "The skin under her feet still has its head, mane and muzzle, facing the viewer. A queen who walks on a lion: no subtler way to say who rules this room. Fallen pink flowers lie beside it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Clairin was an Orientalist, a European painter of scenes from North Africa and the Middle East, often more dreamed than observed. He had traveled to Morocco and Egypt, and he piles on the textures here: fur, carved wood, embroidered silk. Sarah herself is painted more softly than her dress."
+  },
+  {
+   "type": "text",
+   "text": "Look at how tall and narrow the canvas is. The figure fills it from garland to hem like a column, with the long robe hiding her feet. Bernhardt was famously thin, mocked for it by cartoonists. Clairin turns the thinness into a pillar of gold and pink."
+  },
+  {
+   "type": "fact",
+   "text": "Bernhardt was an artist too. She modeled and exhibited sculpture, showed work at the Paris Salon, and painted. Clairin was one of the friends who encouraged her, and the two sometimes worked side by side."
+  },
+  {
+   "type": "text",
+   "text": "Their friendship lasted until his death in 1919, at her house on the Breton island of Belle-Île. She outlived him by four years. By then cinema had recorded her, and cameras did what he never did in this picture: they looked her straight in the eye."
+  },
+  {
+   "type": "text",
+   "text": "Which leaves the question the painting started with. If you loved a face for fifty years, and the whole world already owned its photograph, would you paint the eyes again, or keep them for yourself?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is unusual about how Clairin shows Bernhardt's face here?",
+   "options": [
+    "It is turned away with the eyes in shadow",
+    "It is hidden behind a fan",
+    "It is painted twice"
+   ],
+   "answer": 0,
+   "explanation": "She is in profile and a band of shade covers her eyes."
+  },
+  {
+   "question": "Which emblem above the doorway places the scene in Egypt?",
+   "options": [
+    "A crescent moon",
+    "A winged sun disk",
+    "A pair of crossed swords"
+   ],
+   "answer": 1,
+   "explanation": "The winged sun disk was carved above Egyptian temple gates."
+  },
+  {
+   "question": "What lies under her feet, facing the viewer?",
+   "options": [
+    "A sleeping dog",
+    "A carved sphinx",
+    "A lion skin with its head"
+   ],
+   "answer": 2,
+   "explanation": "The fur rug keeps its head and mane, and it looks straight out."
+  },
+  {
+   "question": "What is an Orientalist painter?",
+   "options": [
+    "A European painter of North African and Middle Eastern scenes",
+    "A painter who works only in ink",
+    "A painter born in Asia"
+   ],
+   "answer": 0,
+   "explanation": "Orientalists painted these regions, often more dreamed than observed."
+  },
+  {
+   "question": "Besides acting, what did Sarah Bernhardt do?",
+   "options": [
+    "She composed operas",
+    "She made and exhibited sculpture",
+    "She designed buildings"
+   ],
+   "answer": 1,
+   "explanation": "She modeled sculpture, showed it at the Salon, and painted."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Clairin and Bernhardt barely knew each other.",
+   "isTrue": false,
+   "explanation": "They were close friends for about fifty years."
+  },
+  {
+   "text": "Bernhardt let herself be photographed lying in a coffin.",
+   "isTrue": true,
+   "explanation": "She kept the coffin at home and used the picture for publicity."
+  },
+  {
+   "text": "In this canvas Bernhardt stares directly at the viewer.",
+   "isTrue": false,
+   "explanation": "Her head is turned and her eyes are in shadow; only the lion looks at us."
+  }
+ ]
+}

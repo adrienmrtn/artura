@@ -1,0 +1,45 @@
+{
+  "teaser": "A muddy road, two rows of skinny trees, and the most famous vanishing point in Dutch art.",
+  "focus": [0.48, 0.6],
+  "review_notes": "Trees planted in 1664 according to Middelharnis local records (National Gallery catalogue).\nHobbema appointed wine gauger in Amsterdam in 1668, the year of his marriage to Eeltje Vinck.\nDimensions 103.5 x 141 cm.\nClaim that Hobbema first painted, then removed, an extra tree on each side in the foreground (National Gallery technical examination).\nThe tripod-like mast right of the avenue is described as a beacon for shipping.\nDied 1709, buried in a pauper's grave in Amsterdam.\nAcquired by the National Gallery in 1871.",
+  "lesson": [
+    {"type": "text", "text": "Twenty-five. That is the age of these trees. Village records show that the avenue leading into Middelharnis was planted in 1664, and Meindert Hobbema dated his painting 1689. Very few landscapes of the 1600s can be checked against a town archive like this one."},
+    {"type": "text", "text": "Middelharnis is a small harbor village on an island in the delta of South Holland. The land is as flat as a table, reclaimed from the sea and drained by ditches. On paper, it is a hopeless subject: no hill, no ruin, no waterfall. Just a straight track."},
+    {"type": "text", "text": "Hobbema turned the flatness into the event. He stood dead center on the road and let everything rush away from him. Painters call this one-point perspective: lines that are parallel in reality appear to meet at a single spot on the horizon, the vanishing point."},
+    {"type": "lines", "text": "Watch how the whole landscape is tied to one point, just above the walker's head.", "lines": [
+      {"points": [[0.33, 0.2], [0.42, 0.56], [0.485, 0.76]], "closed": false, "label": "Left treetops", "text": "The crowns on the left step down from the top of the picture toward the horizon. The trees are all about the same height. Only distance shrinks them."},
+      {"points": [[0.66, 0.22], [0.57, 0.52], [0.485, 0.76]], "closed": false, "label": "Right treetops", "text": "The right row does the same, a little lower and closer. The two rows form a tall V of open sky, and the V points at the village."},
+      {"points": [[0.33, 1.0], [0.485, 0.76], [0.68, 1.0]], "closed": false, "label": "The road", "text": "The edges of the track close in from the bottom corners toward the same spot. Sky and ground make two arrows, tip to tip."},
+      {"points": [[0.0, 0.765], [1.0, 0.765]], "closed": false, "label": "The horizon", "text": "The horizon sits low, about a quarter of the way up. The other three quarters belong to clouds. In the Dutch lowlands the sky is the scenery."}
+    ]},
+    {"type": "text", "text": "You probably felt it: the picture pulls you in, as if you were about to take a step. The ruts in the mud help, since they are drawn as converging lines too. But a perfectly symmetrical view would be stiff, so Hobbema breaks the mirror on purpose."},
+    {"type": "text", "text": "The trees lean and twist, each one differently. The left side opens onto fields, the right side is busy with a farm. And the trees themselves look strange: bare poles with a tuft on top, because their side branches have been lopped off year after year, a common way of harvesting firewood."},
+    {"type": "fact", "text": "Hobbema seems to have changed his mind while working. Examination of the canvas suggests he first painted an extra tree in the foreground on each side, then covered them with sky, which made the entrance to the avenue wider and more inviting."},
+    {"type": "text", "text": "Nothing here is wild. Every part of this land has been planted, dug or trimmed by someone, and Hobbema put that someone in the picture. He is on the right, among rows of young plants, and he is hard at work."},
+    {"type": "find", "text": "On the right, a man is tending young trees. Can you find him?", "spots": [
+      {"x": 0.88, "y": 0.83, "zoom": 3.6, "r": 0.06, "shape": "rect", "title": "The nurseryman", "text": "A man in dark clothes reaches up to prune a sapling in a tree nursery. The neat rows around him are the future: young trees like these will become an avenue like the one beside him."}
+    ]},
+    {"type": "key", "text": "This is a portrait of a landscape made by people. Road, ditches, trees and nursery are all human work, and the perspective lines show that order as clearly as a plan."},
+    {"type": "text", "text": "The date holds a second surprise. In 1668 Hobbema had married and taken a steady city job in Amsterdam as a wine gauger, an official who measured imported barrels of wine for tax. After that he painted very little. This picture came twenty-one years into his office career."},
+    {"type": "tour", "title": "Signs of life", "text": "A quiet afternoon, but the village is going about its business. Three stops along the horizon.", "spots": [
+      {"x": 0.28, "y": 0.675, "zoom": 3.4, "r": 0.06, "shape": "rect", "title": "The church tower", "text": "The tower of the Middelharnis church rises over orange roofs. On a flat island a tower is visible for miles, so it guided sailors as well as churchgoers."},
+      {"x": 0.47, "y": 0.775, "zoom": 4, "r": 0.05, "title": "Man and dog", "text": "A hunter strolls toward us with a gun on his shoulder and a dog at his heels. He stands almost exactly on the vanishing point, so your eye lands on him first."},
+      {"x": 0.685, "y": 0.77, "zoom": 3.6, "r": 0.07, "title": "A chat by the barn", "text": "A man and a woman have stopped to talk on the side path, in front of a barn with a mossy red roof. Left of them, a tall tripod of poles stands near the water as a marker for boats."}
+    ]},
+    {"type": "fact", "text": "Hobbema learned landscape from Jacob van Ruisdael, the greatest Dutch painter of forests and skies. The two were friends, and Ruisdael was a witness at Hobbema's wedding."},
+    {"type": "text", "text": "Fame came late and from abroad. Hobbema died poor in 1709 and was buried in a pauper's grave. A century later British collectors fell for his work, and painters such as John Constable studied his way with trees and clouds. The National Gallery bought this canvas in 1871."},
+    {"type": "key", "text": "Next time you see a photo of a road shrinking toward the horizon, on a film poster or an album cover, remember a part-time painter on a Dutch island who made that view unforgettable with 25-year-old trees."}
+  ],
+  "quiz": [
+    {"question": "How do we know the age of the trees in the painting?", "options": ["Hobbema wrote it on the back", "Village records say they were planted in 1664", "Scientists counted the rings"], "answer": 1, "explanation": "The planting date is in the Middelharnis archives, 25 years before the painting."},
+    {"question": "What is a vanishing point?", "options": ["The spot where parallel lines seem to meet on the horizon", "The darkest area of a painting", "The place where the artist signs"], "answer": 0, "explanation": "In one-point perspective, lines that are parallel in reality appear to meet there."},
+    {"question": "Why do the trees look like poles with tufts on top?", "options": ["A storm stripped them", "Hobbema could not paint leaves", "Their side branches were regularly cut off"], "answer": 2, "explanation": "Lopping the side branches was a common way to harvest firewood."},
+    {"question": "What job did Hobbema hold in Amsterdam from 1668?", "options": ["Wine gauger", "Harbor pilot", "Church organist"], "answer": 0, "explanation": "He measured imported barrels of wine for tax."},
+    {"question": "Who taught Hobbema landscape painting?", "options": ["John Constable", "Jacob van Ruisdael", "Rembrandt"], "answer": 1, "explanation": "Ruisdael was his teacher and a witness at his wedding."}
+  ],
+  "facts": [
+    {"text": "The horizon in this painting sits high, leaving little room for sky.", "isTrue": false, "explanation": "The horizon is low and about three quarters of the picture is sky."},
+    {"text": "Hobbema painted this view long after taking a full-time office job.", "isTrue": true, "explanation": "It is dated 1689, twenty-one years after he became a wine gauger."},
+    {"text": "Hobbema died rich and celebrated in his own country.", "isTrue": false, "explanation": "He died poor in 1709, and fame came a century later through British collectors."}
+  ]
+}

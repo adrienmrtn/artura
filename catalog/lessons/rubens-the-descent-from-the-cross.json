@@ -1,0 +1,53 @@
+{
+  "teaser": "Eight people, one white sheet, and a body that must not fall.",
+  "focus": [0.52, 0.38],
+  "review_notes": "The image shows the whole open triptych (three panels separated by white gaps), so coordinates were placed on the full montage.\nDimensions: central panel about 4.2 x 3.1 m. Commission by the Arquebusiers' guild in 1611, central panel delivered 1612, wings 1614.\nFee of 2,400 guilders plus a pair of gloves for Rubens's wife Isabella Brant: from guild accounts, check.\nChrist's pose as an echo of the ancient Laocoön group is a common art-historical observation.\nRemoval to Paris by French troops in 1794 and return in 1815.\n“A Dog of Flanders” (Ouida, 1872) and its fame in Japan; in the story the paintings were kept behind curtains for paying visitors.",
+  "lesson": [
+    {"type": "text", "text": "How do you get a dead man down from a cross? He is a grown adult, limp, several meters above the ground, and you love him. You have two ladders, a long piece of cloth and some friends. Peter Paul Rubens treats the most sacred moment of the Christian story as exactly this practical problem."},
+    {"type": "text", "text": "He painted it for the cathedral of Antwerp, his home town in today's Belgium, where it still hangs. It is a triptych, a picture in three hinged parts: a big center and two wings that can close over it like doors. The center alone is about 4.2 meters tall (almost 14 feet), painted in oil on oak boards."},
+    {"type": "text", "text": "In the middle panel eight people work around the body. Rubens gives every one of them a task, and every hand a grip. One of them has more to hold than he has hands for."},
+    {"type": "find", "text": "Somebody at the top has run out of hands and found another way to hold the sheet. Who?", "spots": [
+      {"x": 0.63, "y": 0.11, "zoom": 3.5, "r": 0.06, "title": "Held in his teeth", "text": "The gray-haired man leaning over the crossbeam clamps the cloth between his teeth. One arm steadies him on the wood, the other lets Christ's arm go. A raw, almost shocking detail for an altar."}
+    ]},
+    {"type": "text", "text": "That bite tells you how Rubens thinks. Grief, here, is shown as effort: weight, balance, straining backs. He had come home in 1608 after eight years in Italy, where he had drawn ancient statues and muscular Renaissance bodies day after day. Now watch how he organizes all that muscle."},
+    {"type": "lines", "text": "Three lines hold the center panel together.", "lines": [
+      {"points": [[0.66, 0.1], [0.6, 0.25], [0.53, 0.42], [0.47, 0.58]], "closed": false, "label": "The slide", "text": "The white sheet and the pale body form one diagonal from top right to bottom left. It works like a chute: you feel the body slipping down along it."},
+      {"points": [[0.55, 0.06], [0.63, 0.1], [0.67, 0.33], [0.59, 0.5], [0.47, 0.6], [0.41, 0.47], [0.43, 0.3], [0.5, 0.15]], "closed": true, "label": "A ring of helpers", "text": "The eight figures close into an oval around Christ. Wherever the body might go, a hand or a shoulder is already there. Nobody stands outside the circle."},
+      {"points": [[0.55, 0.92], [0.57, 0.7], [0.6, 0.5]], "closed": false, "label": "The brace", "text": "The young man in red, the apostle John, leans back with one foot on the ladder and takes the weight on his chest. His bright figure is the prop that keeps the whole group standing."}
+    ]},
+    {"type": "text", "text": "Now the light. The scene happens at dusk, under a black sky, and there is no torch or moon. The brightness seems to come from the body and its sheet, as if they were the lamp. This strong play of light against dark is called chiaroscuro, and Rubens had seen Caravaggio push it to extremes in Rome."},
+    {"type": "key", "text": "Rubens makes sorrow physical. A diagonal of white, a ring of hands and one bracing figure turn a religious scene into a moment of shared, careful work."},
+    {"type": "fact", "text": "According to the accounts of the men who ordered it, Rubens received 2,400 guilders for the triptych, and his wife, Isabella Brant, was given a pair of gloves as a thank-you."},
+    {"type": "text", "text": "Those men were Antwerp's guild of arquebusiers, a civic militia armed with early guns. Their patron saint was Christopher, a giant who, in legend, carried the Christ child across a river. His name means “Christ-bearer”. Rubens built the whole triptych on that one word. See if the wings make sense now."},
+    {"type": "tour", "title": "Three ways to carry Christ", "text": "Left wing, right wing, then back to the middle.", "spots": [
+      {"x": 0.08, "y": 0.37, "zoom": 2.6, "r": 0.07, "shape": "rect", "title": "Carried before birth", "text": "On the left, Mary, in red under a broad traveling hat, visits her cousin Elizabeth. Her hand rests on her belly: she is pregnant and carries Christ inside her."},
+      {"x": 0.86, "y": 0.43, "zoom": 2.8, "r": 0.07, "title": "Carried as a baby", "text": "On the right, in a grand temple, the old priest Simeon lifts the infant in his arms and looks up to heaven. His gold-embroidered robe catches the light around the child."},
+      {"x": 0.53, "y": 0.37, "zoom": 2, "r": 0.1, "shape": "rect", "title": "Carried in death", "text": "And in the center, the same body, grown and lifeless, borne by friends. Three panels, three bearers. The saint's name is spelled out in pictures without the saint appearing once."}
+    ]},
+    {"type": "text", "text": "Saint Christopher is there after all, but outside. He is painted on the back of the wings, so the giant only appeared when the triptych was shut. For the guild this was a clever way around church rules that preferred scenes from the life of Christ on an altar."},
+    {"type": "text", "text": "Back to the middle panel, where the lower half belongs to the women and to a few objects left on the ground. Rubens is as precise about tenderness as he is about lifting."},
+    {"type": "explore", "spots": [
+      {"x": 0.47, "y": 0.61, "zoom": 3.5, "r": 0.05, "title": "A foot on a shoulder", "text": "Christ's foot comes to rest on the bare shoulder of the blonde woman kneeling below, Mary Magdalene. In the Gospel story she once washed his feet. She receives them one last time."},
+      {"x": 0.425, "y": 0.47, "zoom": 3, "r": 0.07, "title": "The mother", "text": "Mary, in dark blue, her face gray with grief, stretches both arms up toward her son. She does not faint, as in many older pictures. She helps."},
+      {"x": 0.57, "y": 0.55, "zoom": 2, "r": 0.1, "shape": "rect", "title": "John in red", "text": "The red robe is the largest patch of color in the panel. It pulls your eye to the place where the body is about to land, and it warms the cold white above."},
+      {"x": 0.52, "y": 0.34, "zoom": 3, "r": 0.07, "title": "The fallen head", "text": "The head drops onto the shoulder, mouth slightly open, skin tinged gray-green against the clean sheet. Thin lines of blood run from the wound in his side."},
+      {"x": 0.69, "y": 0.95, "zoom": 4, "r": 0.05, "title": "The basin", "text": "At the foot of the ladder, a copper dish holds the crown of thorns and the nails in a pool of blood. The torture is over. Its tools have been set aside like dirty instruments."},
+      {"x": 0.63, "y": 0.945, "zoom": 4.5, "r": 0.04, "shape": "arrow", "title": "The notice", "text": "Beside the dish lies the crumpled paper that was nailed above Christ's head on the cross, naming him king of the Jews."}
+    ]},
+    {"type": "text", "text": "The painting's fame made it a prize. In 1794 French revolutionary troops took it down and carted it to Paris for the new museum in the Louvre. It came home to Antwerp in 1815, after Napoleon's defeat, to a celebrating city."},
+    {"type": "fact", "text": "In the 1872 English novel “A Dog of Flanders”, a poor boy longs to see this Rubens, kept behind a curtain for paying visitors. He finally does, by moonlight, on the night he dies. The story is so loved in Japan that Japanese travelers come to Antwerp for it."}
+  ],
+  "quiz": [
+    {"question": "How does the old man at the top hold the sheet?", "options": ["With a rope", "With his teeth", "Tied around his wrist"], "answer": 1, "explanation": "His hands are busy, so he grips the cloth between his teeth."},
+    {"question": "What is a triptych?", "options": ["A picture in three hinged parts", "A painting on copper", "A ceiling painting"], "answer": 0, "explanation": "It has a center and two wings that can close over it like doors."},
+    {"question": "What idea links the three panels?", "options": ["Three miracles of Saint Christopher", "Three views of Antwerp", "Three ways of carrying Christ"], "answer": 2, "explanation": "Mary carries him unborn, Simeon as a baby, and his friends in death."},
+    {"question": "Where does the light in the central panel seem to come from?", "options": ["A torch on the ladder", "Christ's body and the white sheet", "The moon"], "answer": 1, "explanation": "There is no visible source, so the pale body and cloth act as the lamp."},
+    {"question": "Who ordered the painting?", "options": ["Antwerp's guild of arquebusiers", "The King of Spain", "Napoleon"], "answer": 0, "explanation": "The civic militia guild commissioned it for its altar in the cathedral."},
+    {"question": "Which figure takes the weight of the body from below?", "options": ["Mary Magdalene", "Simeon", "John, the young man in red"], "answer": 2, "explanation": "John leans back with a foot on the ladder and braces the body against his chest."}
+  ],
+  "facts": [
+    {"text": "Saint Christopher appears in the middle of the central panel.", "isTrue": false, "explanation": "He is painted on the outside of the wings, visible only when the triptych is closed."},
+    {"text": "French troops took the painting to Paris, and it returned to Antwerp in 1815.", "isTrue": true, "explanation": "It was removed in 1794 and came back after Napoleon's defeat."},
+    {"text": "The triptych is painted on wooden boards.", "isTrue": true, "explanation": "It is oil paint on oak panels."}
+  ]
+}

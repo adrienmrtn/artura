@@ -1,0 +1,45 @@
+{
+  "teaser": "Death waves an hourglass. A devil reaches out. The rider does not even turn his head.",
+  "focus": [0.5, 0.3],
+  "review_notes": "Opening interprets 'a failure or rejection' as Death and the Devil failing to stop the knight.\nDürer called the print 'Reuter' (Rider) in his Netherlands diary.\nLink to Erasmus's 'Handbook of the Christian Soldier' (1503) is a common but debated reading, presented as such.\nA corrected hind hoof (trace of an earlier position) is reported in the literature; the lesson mentions it without pointing at it. Please verify.\nNietzsche gave an impression of the print to Richard Wagner (1870). Later nationalist and Nazi appropriation of the knight.\nThe 'S' before the date is usually read as 'Salus' (in the year of grace); presented as likely.\nSheet about 24.5 x 19 cm.",
+  "lesson": [
+    {"type": "text", "text": "Two creatures are working hard to get this man's attention, and both are failing. One rides beside him and shakes an hourglass in his face. The other trots behind, close enough to touch his back. He gives them nothing. Not a glance, not a flinch, not a quicker step from his horse."},
+    {"type": "text", "text": "The picture is an engraving, printed from lines cut into a copper plate, and it is small: about 24.5 by 19 cm (under 10 by 8 inches). Albrecht Dürer made it in Nuremberg in 1513, at 42, when he was already the most famous artist north of the Alps. Meet the three riders on this narrow path."},
+    {"type": "tour", "title": "Who is on the road", "text": "A rocky gorge, bare trees, no sky to speak of. Three faces share it.", "spots": [
+      {"x": 0.37, "y": 0.28, "zoom": 3.4, "r": 0.08, "title": "Death", "text": "A rotting face with no nose or lips, a crown, and snakes coiled around the neck and head. Not a clean skeleton: a corpse that still has a beard. He looks straight at the knight."},
+      {"x": 0.255, "y": 0.27, "zoom": 4, "r": 0.05, "title": "The hourglass", "text": "Death holds it up like a referee showing the clock. Sand is still in the upper half. The message is simple: your time is measured, and I am the one counting."},
+      {"x": 0.8, "y": 0.4, "zoom": 3, "r": 0.1, "title": "The Devil", "text": "A pig's snout, a goat's eye, a ram's curled horn and one long curved horn on top. Dürer stitched him together from farm animals. He carries a pike and stares at the rider's back."},
+      {"x": 0.52, "y": 0.21, "zoom": 3.4, "r": 0.07, "title": "The knight", "text": "Visor up, jaw set, eyes fixed on the road ahead. There is even a hint of a grim smile. His face is older and more lined than you might expect of a hero."}
+    ]},
+    {"type": "text", "text": "Who is he? Many readers connect him to a book of 1503 by the Dutch scholar Erasmus, which told Christians to live like soldiers and to treat every ghost and demon on the way as nothing. Others see a robber knight heading for trouble. The picture does not settle it."},
+    {"type": "fact", "text": "The famous title is not Dürer's. In his own travel diary he listed this print with a single word, “Reuter”, which just means “rider”. Death and the Devil joined the title long after he was gone."},
+    {"type": "text", "text": "Dürer cared at least as much about the horse. He had crossed the Alps twice to study in Italy, where artists were hunting for the ideal proportions of a horse, the way the Greeks had for the human body. He built this one with ruler and compass before he ever cut it into copper. You can still feel the geometry underneath."},
+    {"type": "lines", "text": "Three straight lines hold the whole crowded scene together.", "lines": [
+      {"points": [[0.1, 0.46], [0.9, 0.5]], "closed": false, "label": "The level march", "text": "From the horse's muzzle to its rump runs an almost flat line, parallel to the edge of the sheet. Horse and rider cross the picture like a carved frieze, steady as a ruler."},
+      {"points": [[0.52, 0.17], [0.47, 0.5], [0.42, 0.71]], "closed": false, "label": "The upright", "text": "Helmet, chest, knee, heel: the knight sits nearly vertical. Everything around him twists, from roots to horns to snakes. He is the one stable thing in the gorge."},
+      {"points": [[0.04, 0.55], [0.43, 0.34], [0.97, 0.06]], "closed": false, "label": "The lance", "text": "The lance cuts across from bottom left to top right, resting on his shoulder. Near its tip hangs a fox's tail. It passes right over Death's shoulder as if he were not there."}
+    ]},
+    {"type": "key", "text": "The knight's calm is drawn, not just told: straight lines and right angles for him, tangles and curls for everything that threatens him."},
+    {"type": "text", "text": "Now think about what a burin, the engraver's little steel blade, can do: one thing. It cuts a line. Yet here polished steel, horsehide, dog fur, dead wood and crumbling rock each feel different. Dürer gets all of it from lines alone, changing their length, their spacing and the way they cross."},
+    {"type": "fact", "text": "Copper does not forgive. To change a line you must scrape and hammer the metal smooth, then cut again. Specialists report that Dürer moved one of the horse's hind hooves this way, and that a faint trace of the first position can still be seen on good impressions."},
+    {"type": "text", "text": "The ground under the hooves is busy too. A dog runs alongside, ears flying, usually read as loyalty keeping pace with courage. One much smaller animal on this road has had enough and is leaving."},
+    {"type": "find", "text": "A lizard is running the opposite way from everyone else. Where is it?", "spots": [
+      {"x": 0.77, "y": 0.92, "zoom": 4, "r": 0.06, "title": "The lizard", "text": "Under the horse's hind legs a lizard scurries to the right, toward the edge of the sheet, while the whole procession moves left. Whatever lies ahead, it wants no part of it."}
+    ]},
+    {"type": "text", "text": "In the opposite corner a skull sits on a stump, right in the horse's path, beside a tablet with Dürer's monogram and “S. 1513”. The S most likely stands for the Latin word for grace, as in “year of grace”. Far above, a castle crowns the hill: perhaps home, perhaps the goal. The path to it is not shown."},
+    {"type": "fact", "text": "The philosopher Friedrich Nietzsche loved this print and gave an impression of it to the composer Richard Wagner in 1870. Later, German nationalists and then the Nazis claimed the knight as their emblem, a use that has nothing to do with 1513."},
+    {"type": "text", "text": "Return to those two failures at the start. Death shows the clock, the Devil reaches out, and the picture stops one step before we learn how it ends. Dürer leaves the knight forever mid-stride, which is the only place courage can actually be seen."}
+  ],
+  "quiz": [
+    {"question": "What did Dürer himself call this print?", "options": ["The Christian Soldier", "Rider", "The Triumph of Death"], "answer": 1, "explanation": "His diary lists it simply as “Reuter”, meaning rider."},
+    {"question": "What does Death hold up to the knight?", "options": ["An hourglass", "A sword", "A mirror"], "answer": 0, "explanation": "Death shows him an hourglass with sand still running."},
+    {"question": "How does Dürer make steel, fur and rock look different?", "options": ["With different colors of ink", "By pressing real textures into the plate", "Only by varying the cut lines"], "answer": 2, "explanation": "A burin only cuts lines, so every texture comes from their length, spacing and crossing."},
+    {"question": "Which animal runs against the direction of the procession?", "options": ["The dog", "The lizard", "Death's horse"], "answer": 1, "explanation": "The lizard under the hind legs flees to the right."},
+    {"question": "Why did Dürer plan the horse with ruler and compass?", "options": ["He was looking for ideal proportions, as Italian artists were", "He had never seen a real horse", "The buyer demanded exact measurements"], "answer": 0, "explanation": "He had studied in Italy, where artists searched for the perfect proportions of a horse."}
+  ],
+  "facts": [
+    {"text": "The knight turns to look Death in the eye.", "isTrue": false, "explanation": "He keeps his eyes on the road and ignores both Death and the Devil."},
+    {"text": "A fox's tail hangs near the tip of the knight's lance.", "isTrue": true, "explanation": "The lesson points it out along the diagonal of the lance."},
+    {"text": "The print is a large painting on canvas.", "isTrue": false, "explanation": "It is a small engraving on paper, under 10 by 8 inches."}
+  ]
+}

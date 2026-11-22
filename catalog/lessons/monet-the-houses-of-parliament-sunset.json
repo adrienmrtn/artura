@@ -1,0 +1,228 @@
+{
+ "teaser": "London's seat of power, dissolved into a blue ghost by coal smoke and a setting sun.",
+ "focus": [
+  0.42,
+  0.4
+ ],
+ "review_notes": "'Nearly one hundred' London canvases over three stays (1899, 1900, 1901) is the commonly cited figure.\nViewpoint: a terrace of St Thomas' Hospital, opposite Parliament. The tall tower is taken to be the Victoria Tower.\nMonet's remark that London would not be beautiful without its fog: paraphrased from interviews, not quoted.\nPalace of Westminster rebuilt after the 1834 fire and completed around 1870.\n1904 Durand-Ruel exhibition of 37 Thames views.\nMonet asking John Singer Sargent for a photograph of Parliament, and his reply that his methods were nobody's business: from his correspondence with Durand-Ruel, check wording.\n2006 study using the sun's position in the series (Baker and Thornes, University of Birmingham): confirm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Nearly one hundred. That is how many canvases of London Monet started during three winter stays in 1899, 1900 and 1901. He finished none of them on the spot. He shipped the whole lot home to France, and this one only received its signature in 1903."
+  },
+  {
+   "type": "text",
+   "text": "Most mornings he painted the Thames bridges from his balcony at the Savoy Hotel. Late in the afternoon he crossed the river to St Thomas' Hospital, where a terrace looked straight across the water at the Houses of Parliament. From there the sun went down behind the building, and that decided everything about the picture."
+  },
+  {
+   "type": "lines",
+   "text": "Three simple directions hold this canvas together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.13,
+       0.7
+      ],
+      [
+       1.0,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "The waterline",
+     "text": "The building meets the river in one level band. Everything above is air, everything below is reflection."
+    },
+    {
+     "points": [
+      [
+       0.415,
+       0.14
+      ],
+      [
+       0.415,
+       0.68
+      ]
+     ],
+     "closed": false,
+     "label": "The tower",
+     "text": "The tallest tower shoots straight up and breaks the horizontal. It is the only firm vertical in the picture, and it sits left of center."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.2
+      ],
+      [
+       0.17,
+       0.62
+      ],
+      [
+       0.12,
+       0.92
+      ]
+     ],
+     "closed": false,
+     "label": "The sun's path",
+     "text": "The sun is the pale yellow glare in the upper left. Its light drops down the canvas and lands as a trail of orange dashes on the water."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With the sun behind it, the palace has no windows, no stone, no clock. It is a single flat shape. Painters call this effect contre-jour, French for “against the daylight”: the subject stands between you and the light, so you see only its silhouette."
+  },
+  {
+   "type": "fact",
+   "text": "The haze was not just weather. Around 1900 London burned coal in every home and factory, and the smoke mixed with river mist into a thick colored fog. Monet adored it. He said the city would not be beautiful without it, and he sulked on clear mornings."
+  },
+  {
+   "type": "text",
+   "text": "The building itself was younger than Monet. The old palace burned down in 1834, and the towers you see here, in a style imitating medieval Gothic, were only completed around 1870. He was painting a modern landmark, and he gave it two colors."
+  },
+  {
+   "type": "text",
+   "text": "Those two colors are blue and orange. On a color wheel they sit opposite each other, which makes them complementary: placed side by side, each one makes the other look stronger. The whole picture runs on that pairing."
+  },
+  {
+   "type": "tour",
+   "title": "Orange against blue",
+   "text": "Follow the two colors from the sky down to the river.",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.2,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The sun",
+     "text": "There is no disc. Monet gives a pale lemon blur, brushed in every direction, where the sun burns through the fog."
+    },
+    {
+     "x": 0.415,
+     "y": 0.25,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The tower's edge",
+     "text": "The outline is feathered with upward strokes, as if the stone were evaporating. Dark blue, green and violet are streaked together inside it.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.2,
+     "y": 0.88,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The river",
+     "text": "Short horizontal dashes of orange, pink and yellow lie right next to dashes of blue and turquoise. They are not blended. Your eye does the mixing, and the water seems to flicker."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Complementary colors, such as orange and blue, intensify each other when they sit side by side. Monet uses the pair to make fog glow."
+  },
+  {
+   "type": "text",
+   "text": "Back in Giverny he lined the London canvases up in his studio and worked on them together for years, tuning one against another. Some critics felt cheated: wasn't an Impressionist supposed to paint in front of nature? Monet answered that how he made his pictures was nobody's business but his own."
+  },
+  {
+   "type": "fact",
+   "text": "He even asked his friend, the American painter John Singer Sargent, to send him a photograph of Parliament to help him finish the series."
+  },
+  {
+   "type": "text",
+   "text": "This was not his first London fog. In 1870, a young man with no money, he had fled there to escape a war between France and Prussia, and discovered the misty Thames pictures of the English painter J. M. W. Turner. Thirty years later he came back rich and famous to try the subject himself. One more thing is easy to miss in all this haze."
+  },
+  {
+   "type": "find",
+   "text": "Someone is out on the river this evening. Where?",
+   "spots": [
+    {
+     "x": 0.58,
+     "y": 0.74,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A boat",
+     "text": "A dark figure stands in a low boat, drawn with a few strokes of deep blue. A second small boat follows just to the right. They are the only people in sight."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "One boatman, under the building where an empire was governed. Monet shows no politicians, no traffic, no flag. Power has become a blue shadow, and the true subject is the half hour before the light goes."
+  },
+  {
+   "type": "fact",
+   "text": "A century later, scientists used the position of the sun in Monet's Parliament pictures to work out where he had stood and at what time of year and day he was looking."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where did Monet stand to paint the Houses of Parliament?",
+   "options": [
+    "On Westminster Bridge",
+    "On a terrace of St Thomas' Hospital, across the river",
+    "In a boat on the Thames"
+   ],
+   "answer": 1,
+   "explanation": "The hospital terrace faced Parliament directly across the water."
+  },
+  {
+   "question": "What does contre-jour mean?",
+   "options": [
+    "Painting against the light, so the subject becomes a silhouette",
+    "Painting at night by lamplight",
+    "Painting with a palette knife"
+   ],
+   "answer": 0,
+   "explanation": "The sun sets behind the palace, turning it into a flat dark shape."
+  },
+  {
+   "question": "Why do orange and blue work so strongly together here?",
+   "options": [
+    "They are both warm colors",
+    "They are the cheapest pigments",
+    "They are complementary colors"
+   ],
+   "answer": 2,
+   "explanation": "Opposite on the color wheel, they intensify each other side by side."
+  },
+  {
+   "question": "What made London's fog so thick and colorful around 1900?",
+   "options": [
+    "Sea spray",
+    "Coal smoke mixed with river mist",
+    "Volcanic ash"
+   ],
+   "answer": 1,
+   "explanation": "Coal burned in homes and factories mixed with the Thames mist."
+  },
+  {
+   "question": "Where was this painting completed?",
+   "options": [
+    "On the spot in London",
+    "In a Paris hotel",
+    "In Monet's studio at Giverny"
+   ],
+   "answer": 2,
+   "explanation": "He shipped the canvases home and worked on them together for years."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Monet finished his London paintings on the spot, in front of the river.",
+   "isTrue": false,
+   "explanation": "None was finished in London; he completed them in his studio in France."
+  },
+  {
+   "text": "Monet first came to London in 1870 to escape a war.",
+   "isTrue": true,
+   "explanation": "He fled the war between France and Prussia and discovered Turner's work there."
+  },
+  {
+   "text": "Monet disliked London's fog and waited for clear days.",
+   "isTrue": false,
+   "explanation": "He loved the fog and said the city would not be beautiful without it."
+  }
+ ]
+}

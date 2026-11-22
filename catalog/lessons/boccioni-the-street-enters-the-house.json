@@ -1,0 +1,272 @@
+{
+ "teaser": "His mother leans over the balcony, and the whole neighborhood pours in.",
+ "focus": [
+  0.5,
+  0.55
+ ],
+ "review_notes": "Dimensions about 100 x 100.6 cm.\nThe woman is identified as Boccioni's mother (standard reading).\nThe catalogue of the 1912 Futurist exhibition is paraphrased, not quoted: the sensation of opening a window, with the life and noise of the street rushing in.\nTour of the 1912 exhibition: Paris, London, Berlin, Brussels.\nBoccioni's flat near Porta Romana in Milan overlooking building works.\nThe balcony figures at left and right and the horses are identified from the image; the reading that they are onlookers on neighboring balconies should be checked.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "What does a city sound like when you open the window? Not what does it look like. Hammers, shouting, hooves on cobblestones, a cart, someone calling from across the street, all of it arriving in the same second. In 1911 Boccioni tried to put that second on a square meter of canvas."
+  },
+  {
+   "type": "text",
+   "text": "The setup is ordinary. A woman in a blue and white dress stands on a balcony with her back to you, hands on the railing, looking down at a construction site. She is the painter's mother, his most patient model, and the balcony is very likely the family's own in Milan."
+  },
+  {
+   "type": "fact",
+   "text": "Boccioni painted and drew his mother again and again: sewing, reading, sitting by a window. She became the fixed point of an art devoted to things that will not hold still."
+  },
+  {
+   "type": "text",
+   "text": "Now let your eyes go where hers go. Below her, a pit swarms with workers among bare wooden poles. Around the pit, apartment blocks rise. And none of those buildings stands straight."
+  },
+  {
+   "type": "lines",
+   "text": "Trace the walls of the houses around the square.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.7,
+       0.02
+      ],
+      [
+       0.76,
+       0.38
+      ]
+     ],
+     "closed": false,
+     "label": "Leaning in",
+     "text": "The white facade on the right tips toward the center, its rows of windows sliding downhill."
+    },
+    {
+     "points": [
+      [
+       0.99,
+       0.1
+      ],
+      [
+       0.84,
+       0.5
+      ],
+      [
+       0.8,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "The purple wall",
+     "text": "The nearest house on the right folds over like a breaking wave. Its dark windows become tilted diamonds."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.1
+      ],
+      [
+       0.1,
+       0.45
+      ],
+      [
+       0.04,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "The left side",
+     "text": "On the left, the walls bend the other way. Together the two sides form a funnel."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.3
+      ],
+      [
+       0.5,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "Where it all lands",
+     "text": "Every slanted wall points to the same place: the woman's head and shoulders. The city is falling onto her."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That funnel is the title made visible. Boccioni does not want you to stand outside the scene and inspect it, as you would a view by an older master. He wants you on the balcony, at the center, with the street coming at you from all sides."
+  },
+  {
+   "type": "key",
+   "text": "The Futurists called this simultaneity: showing in one image the many things you see, hear and remember in a single moment, instead of one frozen view."
+  },
+  {
+   "type": "text",
+   "text": "Sound is the hardest thing to paint, so he translates it. Loud becomes bright. The colors are pushed to full strength, yellow against violet, orange against blue, laid on in short separate strokes so the surface itself seems to vibrate."
+  },
+  {
+   "type": "find",
+   "text": "The noise does not stop at the railing. Something from the street is running right through the balcony beside her. What, and where?",
+   "spots": [
+    {
+     "x": 0.79,
+     "y": 0.76,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "A horse",
+     "text": "A red-brown horse gallops across the railing at her right hip, legs flung out. There are more on her left. The traffic of the street passes straight through her body."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That is the kind of thing a camera could never record and a mind does all the time. You hear hooves, you picture a horse, and for an instant it is with you on the balcony. Boccioni paints the picturing."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.49,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "Her head",
+     "text": "A dark knot of blue and green hair, seen from behind. No face. You stand where the painter stood and look past her, sharing her view."
+    },
+    {
+     "x": 0.52,
+     "y": 0.72,
+     "zoom": 1.8,
+     "r": 0.17,
+     "title": "The dress",
+     "text": "Her back is a cascade of pale blue, white and green strokes, the calmest and largest shape in the picture. Light from the street seems to pass through it."
+    },
+    {
+     "x": 0.3,
+     "y": 0.4,
+     "zoom": 3.0,
+     "r": 0.1,
+     "title": "Workers and poles",
+     "text": "Small men in white shirts climb and carry among scaffolding poles. The poles are plain strokes of ochre. Count the figures and you will lose track."
+    },
+    {
+     "x": 0.07,
+     "y": 0.34,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "A neighbor",
+     "text": "At the left edge, a figure in blue leans over another balcony. You are not the only one watching the building site."
+    },
+    {
+     "x": 0.8,
+     "y": 0.48,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Across the way",
+     "text": "On the right, another figure stands at a railing. Three balconies, three watchers, one shared noise."
+    },
+    {
+     "x": 0.37,
+     "y": 0.84,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "Iron scroll",
+     "text": "The balcony railing ends in a dark green spiral of wrought iron. It is the one piece of the house that stays solid while the street floods in."
+    },
+    {
+     "x": 0.48,
+     "y": 0.14,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The far block",
+     "text": "Straight ahead, a cream-colored building with red-brown windows closes the square. Above it, a slice of flat blue sky is the only quiet area."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "When the Futurists took their work to Paris in early 1912, the catalogue explained this picture in a single image: the sensation you get on opening a window, when all the life and noise of the street rush in together. The show then traveled to London, Berlin and Brussels."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is almost a perfect square, about 100 centimeters, or 39 inches, on each side. With no long side to suggest a horizon or a standing figure, the eye is free to spin around the center."
+  },
+  {
+   "type": "text",
+   "text": "Today the painting lives at the Sprengel Museum in Hanover, Germany. The neighborhood it shows was finished long ago. Next time a window lets in a wall of noise, try to notice how many things you are perceiving at once. That is the question Boccioni was asking."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who is the woman on the balcony?",
+   "options": [
+    "A neighbor",
+    "The painter's mother",
+    "A hired model from Paris"
+   ],
+   "answer": 1,
+   "explanation": "Boccioni's mother was his most frequent model."
+  },
+  {
+   "question": "What are the buildings around the square doing?",
+   "options": [
+    "Standing perfectly upright",
+    "Burning",
+    "Leaning in toward the woman"
+   ],
+   "answer": 2,
+   "explanation": "The facades tilt and form a funnel pointing at her."
+  },
+  {
+   "question": "What does “simultaneity” mean for the Futurists?",
+   "options": [
+    "Showing many sensations of one moment in a single image",
+    "Painting two canvases at the same time",
+    "Copying a photograph"
+   ],
+   "answer": 0,
+   "explanation": "It combines what you see, hear and remember in one instant."
+  },
+  {
+   "question": "What passes straight through the balcony beside the woman?",
+   "options": [
+    "A tram",
+    "A flock of pigeons",
+    "Galloping horses"
+   ],
+   "answer": 2,
+   "explanation": "Horses from the street run across the railing at her sides."
+  },
+  {
+   "question": "How did Boccioni suggest loud noise?",
+   "options": [
+    "With gray tones",
+    "With strong, clashing colors in short strokes",
+    "By writing words on the canvas"
+   ],
+   "answer": 1,
+   "explanation": "Bright contrasts such as yellow against violet make the surface vibrate."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The woman on the balcony looks out of the picture at the viewer.",
+   "isTrue": false,
+   "explanation": "She is seen from behind, and we look past her at the street."
+  },
+  {
+   "text": "The painting is nearly square.",
+   "isTrue": true,
+   "explanation": "It measures about 100 centimeters on each side."
+  },
+  {
+   "text": "The painting hangs in the Museum of Modern Art in New York.",
+   "isTrue": false,
+   "explanation": "It is in the Sprengel Museum in Hanover."
+  }
+ ]
+}

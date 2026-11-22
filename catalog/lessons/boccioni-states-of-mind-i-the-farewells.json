@@ -1,0 +1,293 @@
+{
+ "teaser": "A train station painted as a feeling, with one cold number in the middle of it.",
+ "focus": [
+  0.55,
+  0.4
+ ],
+ "review_notes": "The available image seems slightly cropped at the edges and has a pale strip along the bottom; coordinates follow this image.\nDimensions 70.5 x 96.2 cm.\nBoccioni's autumn 1911 trip to Paris (guided by Severini) and his repainting of the triptych afterwards.\nParis exhibition at Bernheim-Jeune, February 1912; paraphrase of the catalogue description of the three kinds of lines.\nGift of Nelson A. Rockefeller to MoMA, 1979.\nReading of individual shapes (pylon, signal discs, embracing couples) is from the image and from standard descriptions.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Everything in this picture melts. Smoke curls, bodies blur into green waves, iron dissolves into steam. And then, dead center, sits something that refuses to melt at all: the number 6943, in crisp yellow digits, as flat and exact as a label on a crate."
+  },
+  {
+   "type": "text",
+   "text": "That clash is the subject. Boccioni is painting a railway station at the moment a train leaves, and he wants two things on one canvas: the machine, hard and numbered, and the emotion of the people it is about to separate, which has no edges at all."
+  },
+  {
+   "type": "find",
+   "text": "The number belongs to a locomotive. Its funnel and boiler are hidden in the steam above. Can you find them?",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.17,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The engine",
+     "text": "Dark rings stacked on top of each other: the smokestack and round boiler, seen from the front. Pale steam, edged in orange, billows out to both sides."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Once you have the engine, the rest falls into place. The digits are its registration number, painted on the cab. Boccioni shows the locomotive from the front, from the side and in pieces, all at once, as if several glances had been laid over each other."
+  },
+  {
+   "type": "fact",
+   "text": "Painted or stenciled numbers and letters were a brand-new trick in 1911. Georges Braque and Pablo Picasso had just begun putting them into their Cubist pictures in Paris, and Boccioni picked up the idea within months."
+  },
+  {
+   "type": "text",
+   "text": "He had seen those pictures himself. In the fall of 1911 he traveled to Paris, where his friend Gino Severini took him around the studios. Boccioni came home to Milan and reworked his station pictures with the sharp, splintered planes he had just discovered."
+  },
+  {
+   "type": "text",
+   "text": "But Cubism was cool and analytical, a way of studying a guitar or a bottle. Boccioni wanted it to carry feeling. So around the engine he sends long, swelling currents of dark green, and inside those currents he hides people."
+  },
+  {
+   "type": "tour",
+   "title": "Inside the waves",
+   "text": "The green bands on both sides are not smoke. Follow them slowly.",
+   "spots": [
+    {
+     "x": 0.21,
+     "y": 0.38,
+     "zoom": 2.8,
+     "r": 0.11,
+     "title": "An embrace",
+     "text": "Two figures press together, heads touching, arms wrapped around each other. Their bodies are faceted like cut stone, and tinted the green of the steam that carries them."
+    },
+    {
+     "x": 0.85,
+     "y": 0.38,
+     "zoom": 2.8,
+     "r": 0.11,
+     "title": "The same couple again",
+     "text": "On the right, another clinging pair. Many viewers read these as the same goodbye, repeated across the canvas the way a memory replays."
+    },
+    {
+     "x": 0.6,
+     "y": 0.62,
+     "zoom": 2.4,
+     "r": 0.15,
+     "title": "The current",
+     "text": "Lower down, the embraces pile up and tumble along a diagonal stream. You can no longer count the people. The parting has become a single flowing motion."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Boccioni called these pictures States of Mind. The aim was to paint what a place feels like from the inside, with the things in it bent by emotion."
+  },
+  {
+   "type": "text",
+   "text": "The Farewells is the first panel of three. The second, Those Who Go, shows the passengers swept away in slanting streaks. The third, Those Who Stay, shows the ones left behind, walking home under heavy vertical lines like rain. Each mood has its own kind of line, and here it is the wave."
+  },
+  {
+   "type": "lines",
+   "text": "See how the whole surface is organized by curves, with one hard exception.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.5
+      ],
+      [
+       0.15,
+       0.6
+      ],
+      [
+       0.35,
+       0.8
+      ],
+      [
+       0.6,
+       0.84
+      ],
+      [
+       0.85,
+       0.8
+      ],
+      [
+       1.0,
+       0.72
+      ]
+     ],
+     "closed": false,
+     "label": "The undertow",
+     "text": "A broad wave sags across the lower half and carries the embracing figures with it. Boccioni wanted these swaying lines to feel like the confusion of saying goodbye."
+    },
+    {
+     "points": [
+      [
+       0.38,
+       0.33
+      ],
+      [
+       0.5,
+       0.42
+      ],
+      [
+       0.62,
+       0.4
+      ],
+      [
+       0.75,
+       0.28
+      ],
+      [
+       0.86,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The orange ribbon",
+     "text": "A band of red and yellow snakes up to the right from the engine, like firelight on steam. It is the hottest color in a dark picture."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.37
+      ],
+      [
+       0.635,
+       0.37
+      ]
+     ],
+     "closed": false,
+     "label": "The straight line",
+     "text": "The only thing that sits perfectly level: 6943. Against all those curves, the number reads like a fact you cannot argue with. The train will leave on time."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The three States of Mind panels were shown together in Paris in February 1912, at the first Futurist exhibition outside Italy. They stayed together afterwards, and Nelson Rockefeller, a former U.S. vice president, gave the set to the Museum of Modern Art in 1979."
+  },
+  {
+   "type": "text",
+   "text": "There are small signs of the station scattered through the fog, too. They are easy to overlook because they are so plain: a pylon, a couple of signal lights. Each one is a piece of the same cold system as the number."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.13,
+     "y": 0.11,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "The pylon",
+     "text": "A lattice mast with crossbars stands at upper left, drawn in thin black lines. Electricity and railways arrive together.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.49,
+     "y": 0.5,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "Red disc",
+     "text": "A round red light glows just below the number, like a signal lamp, or a tail light seen through steam."
+    },
+    {
+     "x": 0.08,
+     "y": 0.83,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Yellow lamp",
+     "text": "A yellow disc ringed in black shines at lower left. In the dark greens, these few lights are the only pure colors."
+    },
+    {
+     "x": 0.575,
+     "y": 0.37,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "6943",
+     "text": "Flat digits with no shadow and no perspective. They sit on the surface of the canvas while everything around them sinks into depth."
+    },
+    {
+     "x": 0.37,
+     "y": 0.52,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Dark wedge",
+     "text": "A black triangular mass below the boiler: the heavy front of the locomotive, pointing straight at you."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The canvas is small, about 70 by 96 centimeters, a little over 2 by 3 feet. Boccioni packed into it an idea that film and comics would later take for granted: that a single image can hold several moments, and that a number on a machine can break your heart."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the number 6943?",
+   "options": [
+    "The price of the painting",
+    "The registration number of the locomotive",
+    "A platform number invented by critics"
+   ],
+   "answer": 1,
+   "explanation": "The digits are the engine's number, painted on its cab."
+  },
+  {
+   "question": "What is hidden in the green waves on either side?",
+   "options": [
+    "Embracing couples",
+    "Horses",
+    "Trees"
+   ],
+   "answer": 0,
+   "explanation": "People holding each other in farewell are carried along in the green currents."
+  },
+  {
+   "question": "What did Boccioni bring back from his 1911 trip to Paris?",
+   "options": [
+    "A taste for landscapes",
+    "A new kind of paint",
+    "The splintered planes and lettering of Cubism"
+   ],
+   "answer": 2,
+   "explanation": "He reworked his station pictures after seeing Cubist works there."
+  },
+  {
+   "question": "The Farewells is the first of how many States of Mind panels?",
+   "options": [
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "answer": 1,
+   "explanation": "It is followed by Those Who Go and Those Who Stay."
+  },
+  {
+   "question": "Which kind of line dominates The Farewells?",
+   "options": [
+    "Swaying waves",
+    "Strict verticals",
+    "A checkerboard grid"
+   ],
+   "answer": 0,
+   "explanation": "Boccioni gave the goodbye its own kind of line, the wave."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The three States of Mind paintings are split between three different museums.",
+   "isTrue": false,
+   "explanation": "They stayed together and were given as a set to the Museum of Modern Art in 1979."
+  },
+  {
+   "text": "Boccioni borrowed the idea of painted numbers from the Cubists.",
+   "isTrue": true,
+   "explanation": "Braque and Picasso had just begun putting numbers and letters in their pictures."
+  },
+  {
+   "text": "The Farewells is a huge canvas, more than 3 meters wide.",
+   "isTrue": false,
+   "explanation": "It is small, about 70 by 96 centimeters."
+  }
+ ]
+}

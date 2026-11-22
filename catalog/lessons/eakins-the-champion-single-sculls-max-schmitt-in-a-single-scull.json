@@ -1,0 +1,39 @@
+{
+  "teaser": "A racing champion painted at a standstill, and the artist rowing away in the background.",
+  "focus": [0.51, 0.66],
+  "review_notes": "Schmitt won the single sculls championship on the Schuylkill on October 5, 1870.\nEakins studied in Paris (1866 to 1869, with Jean-Léon Gérôme), visited Spain, returned to Philadelphia in 1870.\nEakins's self-portrait in the far scull, with his name and the date 1871 on the boat: standard identification, lettering not legible at this image size.\nSchmitt's boat is named Josie (not mentioned as legible).\nThe dark dashes on the water read as oar puddles tracing Schmitt's course: common reading in the literature.\nBridges: Girard Avenue Bridge and the Connecting Railroad Bridge.\nDimensions about 82 x 118 cm (32 x 46 in). Met purchase 1934.\nEakins made around two dozen rowing works between 1871 and 1874 (approximate).",
+  "lesson": [
+    {"type": "text", "text": "The title promises a champion, and the man in the boat had just won the biggest rowing race in Philadelphia. So where is the race? No rivals, no finish line, no crowd. The fastest sculler on the river has stopped pulling. His oars trail flat on the water and he twists around to look at you, a little out of breath."},
+    {"type": "text", "text": "That is the puzzle Thomas Eakins sets up: a picture about speed in which almost nothing moves. The river is glass. The trees are bare and rust colored. The light is the low gold of a late autumn afternoon. Victory is shown the way an athlete actually lives it, alone, afterward, on an ordinary practice day."},
+    {"type": "text", "text": "The rower is Max Schmitt, a lawyer and a friend of the painter since their school days. On October 5, 1870, he won the single sculls championship on the Schuylkill River. A scull is a racing shell so narrow that the rower balances it with two long oars, like a tightrope walker with a pole."},
+    {"type": "fact", "text": "Rowing was one of the great spectator sports in America in the 1870s. Big races drew thousands of people to the riverbanks, newspapers printed the results, and money changed hands on the outcome."},
+    {"type": "text", "text": "Eakins had come home that same year after nearly four years in Europe, where he trained in Paris and studied the old Spanish painters. He was 26 and wanted a subject that belonged to his own city and his own time. He rowed on this river himself. He even says so inside the painting."},
+    {"type": "find", "text": "Eakins painted himself into the scene, in a boat of his own. Can you spot him?", "spots": [
+      {"x": 0.625, "y": 0.555, "zoom": 3.6, "r": 0.06, "title": "The painter rows", "text": "In the middle distance a second sculler in a white shirt pulls away from us. It is Eakins. He lettered his name and the year, 1871, on the side of his boat: a signature that floats."}
+    ]},
+    {"type": "text", "text": "Signing a picture on a boat was a quiet statement. It says: I was there, I know this from the seat, not from the shore. And unlike Schmitt, the painter is still at work, bent forward in the middle of a stroke, while his friend rests on his win."},
+    {"type": "key", "text": "Eakins believed a modern painter should paint modern life he knew firsthand. Here an athlete in a sleeveless shirt gets the calm and dignity older art kept for heroes and saints."},
+    {"type": "text", "text": "The stillness is not vague, either. Eakins was obsessed with accuracy. He worked out his pictures with ruled perspective drawings, the geometric method for making flat things look deep, and plotted boats and reflections almost like an engineer. The river is full of small exact observations."},
+    {"type": "tour", "title": "Reading the river", "text": "Three places where the water keeps a record.", "spots": [
+      {"x": 0.42, "y": 0.61, "zoom": 2.6, "r": 0.1, "title": "Oar marks", "text": "Rows of short dark dashes sit on the surface. These are the swirls left where Schmitt's oar blades dipped, stroke after stroke. They draw the path he has just rowed."},
+      {"x": 0.51, "y": 0.73, "zoom": 2.8, "r": 0.08, "title": "The reflection", "text": "Under the shell, Schmitt's body and the yellow hull repeat upside down, slightly broken. Only very flat water does this. Eakins is telling you there is no wind at all."},
+      {"x": 0.44, "y": 0.44, "zoom": 2.6, "r": 0.12, "title": "Two bridges", "text": "A white iron bridge and, behind it, a stone railroad bridge with red arches. Below them a puff of white steam rises from a small boat. This is an industrial city, not wilderness."}
+    ]},
+    {"type": "text", "text": "Once you have seen the oar marks, the picture stops being frozen. It has a before: the curve of Schmitt's course. It has a now: the glide. And with the steamer, a crew in a red boat near the bank and Eakins pulling into the distance, it has other lives going on at their own pace."},
+    {"type": "fact", "text": "This was the first of a whole series. Over the next few years Eakins made about two dozen paintings and watercolors of rowers on the Schuylkill, then dropped the subject and never returned to it."},
+    {"type": "fact", "text": "The canvas is modest, about 82 by 118 centimeters, or 32 by 46 inches, and it sold to no museum in the artist's lifetime. The Metropolitan Museum bought it in 1934, eighteen years after Eakins died."},
+    {"type": "key", "text": "A moment of rest can hold more time than a moment of action. Eakins paints the pause, and lets the water tell you what came before."}
+  ],
+  "quiz": [
+    {"question": "What is surprising about how the champion is shown?", "options": ["He is losing the race", "He is resting, not racing", "He is standing on the riverbank"], "answer": 1, "explanation": "Schmitt glides with his oars trailing and turns to look at us."},
+    {"question": "Where is Eakins in the painting?", "options": ["Rowing a scull in the middle distance", "Standing on the bridge", "Sitting in the red boat"], "answer": 0, "explanation": "He painted himself rowing away and put his name on his boat."},
+    {"question": "What do the short dark dashes on the water show?", "options": ["Floating leaves", "Shadows of clouds", "Where Schmitt's oars dipped on earlier strokes"], "answer": 2, "explanation": "The swirls left by the blades trace the course he has just rowed."},
+    {"question": "What is a scull?", "options": ["A narrow racing boat rowed with two oars", "A kind of bridge", "A rowing trophy"], "answer": 0, "explanation": "The shell is so narrow that the oars help keep it balanced."},
+    {"question": "How did Eakins plan pictures like this one?", "options": ["He painted them outdoors in one sitting", "He copied newspaper engravings", "He used ruled perspective drawings"], "answer": 2, "explanation": "He plotted boats and reflections with careful geometric drawings."}
+  ],
+  "facts": [
+    {"text": "Max Schmitt was a stranger whom Eakins hired as a model.", "isTrue": false, "explanation": "Schmitt was a friend of the painter since their school days."},
+    {"text": "The scene includes bridges and a steam-powered boat.", "isTrue": true, "explanation": "An iron bridge, a stone railroad bridge and a puff of steam place the river in a modern city."},
+    {"text": "Eakins painted rowers for the rest of his life.", "isTrue": false, "explanation": "He made about two dozen rowing works in a few years, then gave up the subject."}
+  ]
+}

@@ -1,0 +1,262 @@
+{
+ "teaser": "Two teenagers, one sheet of cloth, and a storm nobody at the 1880 Salon could quite explain.",
+ "focus": [
+  0.45,
+  0.37
+ ],
+ "review_notes": "Dimensions 234.3 x 156.8 cm (Met).\nCommissioned by Catharine Lorillard Wolfe on the advice of her cousin John Wolfe, owner of Springtime; bequeathed to the Met in 1887.\nSalon critics proposed Paul et Virginie and Daphnis and Chloe as sources (Met catalogue).\nWolfe described as the only woman among the Met's founding subscribers.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas stands 234 centimeters tall, about 7 feet 8 inches. Hung on a wall, the two runners are close to life-size, and their bare feet land roughly at the height of your knees. Pierre-Auguste Cot wanted you to feel they might run straight out of the frame."
+  },
+  {
+   "type": "text",
+   "text": "The scale was a choice with a price tag. In 1880 a picture this big was made for the Paris Salon, the giant yearly exhibition where thousands of works competed for attention. Large figures, polished like porcelain, were how a painter got noticed in that crowd."
+  },
+  {
+   "type": "text",
+   "text": "So what is happening? A boy and a girl hurry along a forest path. They hold a single piece of cloth above their heads like a sail. The painter gives you almost no sky, so the weather has to be read on the fabric and on their faces."
+  },
+  {
+   "type": "tour",
+   "title": "Reading the weather",
+   "text": "Three places tell you how strong the wind is and how each runner feels about it.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.22,
+     "zoom": 1.9,
+     "r": 0.26,
+     "shape": "circle",
+     "title": "The makeshift umbrella",
+     "text": "The golden cloth swells like a sail. Its folds are the only thing in the picture that shows the wind, and Cot paints them thin enough for the light to pass through the top edge."
+    },
+    {
+     "x": 0.45,
+     "y": 0.36,
+     "zoom": 3.4,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "Her face",
+     "text": "She looks back and up, toward the sky behind them. Her brow is tense, her lips are closed. She is the one who takes the storm seriously."
+    },
+    {
+     "x": 0.33,
+     "y": 0.36,
+     "zoom": 3.4,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "His face",
+     "text": "He does not check the sky at all. He watches her, with the start of a smile. For him the storm is a lucky excuse to hold her close."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Cot splits one event into two feelings: she fears the storm, he enjoys the run. That small gap between them is the real subject."
+  },
+  {
+   "type": "text",
+   "text": "Notice how little she is wearing. Her dress is a veil of white, and Cot built it the academic way: he painted the body first, then laid thin, see-through layers of paint, called glazes, over the skin. Critics in 1880 admired the trick and raised an eyebrow at how much it revealed."
+  },
+  {
+   "type": "fact",
+   "text": "The painting was ordered by Catharine Lorillard Wolfe, a New York heiress and the only woman among the first subscribers who founded the Metropolitan Museum. Her cousin already owned Cot's earlier hit, Springtime, and urged her to commission a companion."
+  },
+  {
+   "type": "text",
+   "text": "Visitors to the Salon argued about who these two were. Some named Paul and Virginie, heroes of a French novel who run through the rain under her overskirt. Others said Daphnis and Chloe, the shepherd lovers of an ancient Greek romance. Cot never settled it. One object at the boy's belt leans toward the shepherds."
+  },
+  {
+   "type": "find",
+   "text": "Something hangs at the boy's waist that a shepherd would carry. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.43,
+     "y": 0.555,
+     "zoom": 3.6,
+     "r": 0.06,
+     "shape": "circle",
+     "title": "The horn",
+     "text": "A hunting or herding horn, tied on with a blue sash over an animal skin. It suits Daphnis the goatherd better than Paul, who grew up on a tropical island plantation."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The horn and the fur push the scene back into a dreamy ancient world. That mattered. In the 1880s a nearly naked girl was acceptable in a painting only if she belonged to myth or literature, far from modern Paris."
+  },
+  {
+   "type": "text",
+   "text": "Now the engineering. Two bodies in full run could look like a tangle. Cot organizes them with a few strong directions, so that the picture feels fast and stays easy to read."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines hold the runners together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.14,
+       0.19
+      ],
+      [
+       0.3,
+       0.12
+      ],
+      [
+       0.5,
+       0.13
+      ],
+      [
+       0.67,
+       0.24
+      ],
+      [
+       0.68,
+       0.4
+      ]
+     ],
+     "closed": false,
+     "label": "The arch",
+     "text": "The cloth draws a dome over both heads. It joins the two figures into a single shape, like a roof over one small house."
+    },
+    {
+     "points": [
+      [
+       0.43,
+       0.32
+      ],
+      [
+       0.5,
+       0.6
+      ],
+      [
+       0.55,
+       0.92
+      ]
+     ],
+     "closed": false,
+     "label": "The lean",
+     "text": "From their heads to their toes the bodies tilt, heads behind, feet ahead toward us on the right. Nothing stands upright, so nothing stands still."
+    },
+    {
+     "points": [
+      [
+       0.62,
+       0.6
+      ],
+      [
+       0.78,
+       0.67
+      ],
+      [
+       0.93,
+       0.7
+      ]
+     ],
+     "closed": false,
+     "label": "The kick",
+     "text": "Her back leg flies out to the right, the foot in mid-air. It works like the motion lines in a comic strip: it tells you where they just were."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Only the tips of their toes touch the ground. Real runners never land like this, on both forefeet at once. The pose comes from ballet and from studio models holding still, which is why the couple seems to float more than sprint."
+  },
+  {
+   "type": "text",
+   "text": "One clue to the storm is easy to miss, because Cot tucked it into the darkest corner of the canvas, far above the runners' heads."
+  },
+  {
+   "type": "find",
+   "text": "Where is the lightning?",
+   "spots": [
+    {
+     "x": 0.74,
+     "y": 0.035,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "A thin flash",
+     "text": "In the top right, a pale streak cuts through the clouds. It is the only direct sign of the storm in the whole painting, and it sits exactly where the girl is looking back."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Catharine Wolfe died in 1887 and left her pictures to the Met. The Storm has been on view there ever since, one of the most copied images in the museum: on fans, tiles, calendars, puzzle boxes. Critics moved on from this smooth style long ago. Visitors never did."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How do the two runners react to the storm?",
+   "options": [
+    "Both are terrified",
+    "She looks back anxiously while he smiles at her",
+    "He is afraid and she laughs"
+   ],
+   "answer": 1,
+   "explanation": "Her tense face checks the sky, while he watches her with the start of a smile."
+  },
+  {
+   "question": "What is a glaze, the technique Cot used for the white dress?",
+   "options": [
+    "A thin, see-through layer of paint",
+    "A thick paste applied with a knife",
+    "A coat of wax rubbed on the canvas"
+   ],
+   "answer": 0,
+   "explanation": "Glazes are transparent layers laid over the painted body to suggest a veil."
+  },
+  {
+   "question": "Which object at the boy's belt suggests he is a shepherd like Daphnis?",
+   "options": [
+    "A flute",
+    "A dagger",
+    "A horn"
+   ],
+   "answer": 2,
+   "explanation": "A horn hangs from his blue sash, over an animal skin."
+  },
+  {
+   "question": "Who commissioned the painting?",
+   "options": [
+    "Catharine Lorillard Wolfe",
+    "The French state",
+    "The painter's teacher"
+   ],
+   "answer": 0,
+   "explanation": "The New York collector ordered it and later left it to the Metropolitan Museum."
+  },
+  {
+   "question": "Where did Cot place the lightning?",
+   "options": [
+    "Behind the boy's shoulder",
+    "Reflected in a puddle",
+    "In the top right corner"
+   ],
+   "answer": 2,
+   "explanation": "A pale streak crosses the clouds in the upper right."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The figures in The Storm are close to life-size.",
+   "isTrue": true,
+   "explanation": "The canvas is about 234 cm (7 ft 8 in) tall."
+  },
+  {
+   "text": "Cot clearly stated that the couple are Paul and Virginie.",
+   "isTrue": false,
+   "explanation": "He never settled the question, and critics also proposed Daphnis and Chloe."
+  },
+  {
+   "text": "The runners touch the ground only with the tips of their toes.",
+   "isTrue": true,
+   "explanation": "The pose comes from ballet and studio models, not from real running."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "teaser": "Her neck stretches upward, her head sinks down. One sculpture, two directions.",
+  "focus": [0.58, 0.38],
+  "review_notes": "IMAGE: the photo shows only a bust (head and shoulders, reddish terracotta-like cast) taken from the Kneeling Woman, not the full figure. The lesson says so and points only at the bust.\nHeight of the full figure about 176 cm (5 ft 9 in): verify.\nMaterial described as cast stone for the full figure; material and color of the bust in the photo should be checked.\nTheodore Roosevelt's 1913 remark is paraphrased ('though obviously mammalian it is not especially human').\n1927 toppling of the cast in Duisburg: verify.\nInclusion in the 1937 'Degenerate Art' exhibition in Munich and prominent display at documenta 1955 in Kassel: verify.\nLehmbruck Museum designed by his son Manfred Lehmbruck, opened 1964: verify.",
+  "lesson": [
+    {"type": "text", "text": "Something in this figure does not add up. The neck climbs, long and straight, as if the woman wanted to grow taller. Then the head tips forward and down, eyes lowered. She rises and gives way in the same breath."},
+    {"type": "text", "text": "The complete sculpture doubles the puzzle. It shows a woman on her knees who is nevertheless about 176 centimeters high (5 ft 9 in), taller than most people standing. What you see in this photo is the bust alone, a version Lehmbruck made of just the head and shoulders."},
+    {"type": "text", "text": "Wilhelm Lehmbruck was thirty in 1911, a miner's son from Duisburg, in Germany's coal country. He had moved to Paris the year before. There he saw the calm, rounded nudes of Aristide Maillol and at first worked in that manner. Then he began to pull his figures like taffy."},
+    {"type": "lines", "text": "Two axes meet in this bust, and they disagree.", "lines": [
+      {"points": [[0.52, 0.78], [0.47, 0.6], [0.47, 0.42]], "closed": false, "label": "Up", "text": "The neck is a tall, nearly bare column, far longer than any real neck. It carries the eye upward from the shoulders."},
+      {"points": [[0.86, 0.13], [0.68, 0.3], [0.5, 0.5]], "closed": false, "label": "Down", "text": "The head breaks away from that column and slopes steeply forward, from the crown of the hair to the chin."},
+      {"points": [[0.13, 0.72], [0.35, 0.6], [0.47, 0.57], [0.7, 0.6], [0.98, 0.72]], "closed": false, "label": "The shoulders", "text": "Below, the shoulders fall away in a wide, soft slope. They give the neck something calm to rise from."}
+    ]},
+    {"type": "text", "text": "Why stretch a body like this? Because Lehmbruck was not after a likeness. A long limb reads as longing, a bent head as inwardness. This is what Expressionism means: the shape of a thing is changed until it carries a feeling."},
+    {"type": "fact", "text": "Lehmbruck often chose cast stone, a cement-like mix poured into a mold, over costly bronze or marble. It was cheap, it could be tinted, and its matte skin swallows light instead of reflecting it."},
+    {"type": "text", "text": "That quiet, dry surface suits the mood. Nothing shines or distracts. So the few places where Lehmbruck did add detail count for a great deal."},
+    {"type": "tour", "title": "Almost nothing", "text": "Three places, each handled a different way.", "spots": [
+      {"x": 0.56, "y": 0.35, "zoom": 3.4, "r": 0.07, "title": "The lowered eye", "text": "The lid is closed or nearly so, set in a deep shadowed socket. She looks at nothing outside herself. The whole sculpture turns inward here."},
+      {"x": 0.68, "y": 0.2, "zoom": 2.4, "r": 0.2, "title": "The hair", "text": "A close cap of small lumps, pressed on with the fingers and left rough. It is the only busy surface, a crown above a bare face."},
+      {"x": 0.17, "y": 0.78, "zoom": 2.6, "r": 0.1, "title": "The cut", "text": "The arm simply stops in a clean slice. Lehmbruck treats the body as a fragment, like a damaged ancient statue, so that nothing competes with head and neck."}
+    ]},
+    {"type": "text", "text": "Not everyone was moved. The Kneeling Woman crossed the Atlantic for the Armory Show of 1913, the exhibition that introduced modern art to America. Former president Theodore Roosevelt reviewed it and wrote that the figure was clearly a mammal but not especially human."},
+    {"type": "text", "text": "Then came the war. Lehmbruck served as an orderly in a military hospital and never recovered from what he saw there. In 1919, at thirty-eight, he took his own life in Berlin."},
+    {"type": "fact", "text": "The sculpture went on being attacked without him. In 1927 a cast put up in a public garden in his hometown was pushed off its base at night. Ten years later the Nazis displayed the Kneeling Woman in their “Degenerate Art” show, meant to mock modern artists."},
+    {"type": "text", "text": "After 1945 the same figure became a sign of a new start. In 1955 it was given a place of honor at the first documenta in Kassel, the exhibition that reconnected Germany with the modern art it had banned."},
+    {"type": "fact", "text": "The museum in Duisburg that holds the sculpture is a family affair: it was designed by the sculptor's son, the architect Manfred Lehmbruck, and opened in 1964."},
+    {"type": "key", "text": "Lehmbruck showed that a body can be stretched far from nature and become more human for it. The neck that rises and the head that bows are one feeling, held in clay."}
+  ],
+  "quiz": [
+    {"question": "What is contradictory about the complete Kneeling Woman?", "options": ["She kneels but is taller than most standing people", "She smiles while crying", "She is made of metal painted as wood"], "answer": 0, "explanation": "The kneeling figure is about 176 cm high."},
+    {"question": "Why did Lehmbruck stretch the neck and limbs?", "options": ["He lacked anatomical training", "To fit a narrow niche", "To make the form carry a feeling"], "answer": 2, "explanation": "Changing shapes to express emotion is the core of Expressionism."},
+    {"question": "Who mocked the figure as a mammal but not especially human?", "options": ["Aristide Maillol", "Theodore Roosevelt", "Lehmbruck's son"], "answer": 1, "explanation": "Roosevelt wrote this after seeing it at the 1913 Armory Show."},
+    {"question": "What happened to the sculpture in 1937?", "options": ["It was sold to an American museum", "It won a state prize", "The Nazis showed it in their “Degenerate Art” exhibition"], "answer": 2, "explanation": "It was displayed there to ridicule modern art."},
+    {"question": "What is cast stone?", "options": ["A cement-like mix poured into a mold", "Marble polished with wax", "Bronze with a gray coating"], "answer": 0, "explanation": "Lehmbruck liked it because it was cheap, tintable and matte."}
+  ],
+  "facts": [
+    {"text": "Lehmbruck made the Kneeling Woman while living in Paris.", "isTrue": true, "explanation": "He had moved there in 1910, a year before making it."},
+    {"text": "The hair is the smoothest part of the bust.", "isTrue": false, "explanation": "The hair is a rough cap of small lumps, while the face is bare and smooth."},
+    {"text": "The Lehmbruck Museum was designed by the sculptor's son.", "isTrue": true, "explanation": "The architect Manfred Lehmbruck designed it."}
+  ]
+}

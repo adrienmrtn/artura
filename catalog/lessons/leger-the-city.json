@@ -1,0 +1,327 @@
+{
+ "teaser": "One second on a Paris street in 1919: posters, girders, smoke, letters. All at once.",
+ "focus": [
+  0.47,
+  0.6
+ ],
+ "review_notes": "Check: dimensions about 231 x 298 cm; A. E. Gallatin Collection, Philadelphia Museum of Art (Gallatin bought it from the artist in the 1930s and showed it in his Gallery of Living Art in New York).\nCheck: Léger served as a sapper and stretcher bearer, was gassed near Verdun in 1916 and discharged in 1917; his remark about the breech of a 75 mm gun in sunlight is paraphrased, not quoted.\nCheck: Ballet mécanique, 1924.\nThe green silhouette at right is read as a figure on a poster, and the stacked dark discs as smoke: common readings, but interpretations.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "You come up the stairs into the street and for one second everything arrives together. A red poster. A slice of scaffolding. Half a word in huge letters. A lamp post so close it cuts the view in two. Before your brain has sorted any of it, the second is over."
+  },
+  {
+   "type": "text",
+   "text": "Fernand Léger wanted that second, unsorted. He painted it in 1919 on a canvas nearly three meters wide and over two meters high (about 10 by 7.5 feet), large enough that when you stand before it the edges slip out of your sight, just as they do in a real street."
+  },
+  {
+   "type": "fact",
+   "text": "Léger spent the First World War at the front as a sapper and stretcher bearer, and was gassed near Verdun in 1916. He said the sight that changed him was not a painting but the open breech of a 75 mm gun shining in the sun."
+  },
+  {
+   "type": "text",
+   "text": "He came home convinced that polished metal and plain manufactured things had a beauty of their own, and that painters were ignoring it. Paris in peacetime gave him more of it: billboards several stories high, shop signs, cranes, traffic. The city had become a wall of messages."
+  },
+  {
+   "type": "text",
+   "text": "In all that noise, people are easy to miss. Léger put some in. They are not where a painter would normally place the heroes of a picture, and they do not look like heroes."
+  },
+  {
+   "type": "find",
+   "text": "There are human figures in this city. Where are they?",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.68,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "Two gray walkers",
+     "text": "On the staircase in the middle, two figures made of gray tubes and globes, with no faces. They are the only rounded, shaded things in a picture of flat colors.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Faceless, colorless, built like machine parts: the citizens have taken on the look of their surroundings. Notice also that the stairs they use are the only place where the picture opens into depth. Everywhere else it is as flat as a billboard."
+  },
+  {
+   "type": "text",
+   "text": "That flatness is the heart of the method. Léger does not draw a street in perspective, with buildings shrinking toward a far point. He takes pieces of the street and lays them side by side like sheets of colored paper, overlapping, each cut off by the next."
+  },
+  {
+   "type": "tour",
+   "title": "Pieces of the street",
+   "text": "Four fragments, lifted from a walk and pinned next to each other.",
+   "spots": [
+    {
+     "x": 0.12,
+     "y": 0.68,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Letters",
+     "text": "A giant stenciled B and bits of other letters. Words are everywhere in a modern street, and you read only scraps of them as you pass. Léger keeps the scraps."
+    },
+    {
+     "x": 0.81,
+     "y": 0.37,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The poster",
+     "text": "A red panel with nested frames and a green silhouette that suggests a figure. Advertising posters were the brightest things in the city, and he treats them as ready-made paintings."
+    },
+    {
+     "x": 0.08,
+     "y": 0.12,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Steel lattice",
+     "text": "Crisscrossed girders at the top left, with more further down the edge and at the far right. Cranes, pylons, perhaps a hint of the Eiffel Tower: the skeleton of the new city."
+    },
+    {
+     "x": 0.55,
+     "y": 0.25,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "Smoke",
+     "text": "A column of dark discs stacked one on another. Even smoke, the softest thing in town, is turned into a row of solid machine-made shapes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nothing in that tour was blurred, and nothing was pretty in the old sense. Each fragment has a hard edge and a flat, unmixed color. Léger liked to say he wanted his pictures to hold their own against a well-made machine."
+  },
+  {
+   "type": "key",
+   "text": "The City borrows the language of the street itself: flat color, hard edges, big letters, sudden cuts. A modern subject is painted in a modern way of seeing."
+  },
+  {
+   "type": "fact",
+   "text": "The painting crossed the Atlantic early. The New York collector A. E. Gallatin bought it from Léger and hung it in his Gallery of Living Art, a free public room in a university building, where young American painters could study it years before most museums showed such work."
+  },
+  {
+   "type": "text",
+   "text": "With so many pieces, why does the picture not fall apart? Because underneath the jumble there is a strict frame, as firm as the steel it shows."
+  },
+  {
+   "type": "lines",
+   "text": "Strip away the color and three things hold the wall of fragments in place.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.7,
+       0.0
+      ],
+      [
+       0.7,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "The column",
+     "text": "A mauve post runs from top to bottom, closest to you of everything. It splits the view like a lamp post right in front of your nose."
+    },
+    {
+     "points": [
+      [
+       0.44,
+       0.5
+      ],
+      [
+       0.5,
+       0.58
+      ],
+      [
+       0.5,
+       0.78
+      ],
+      [
+       0.47,
+       0.95
+      ]
+     ],
+     "closed": false,
+     "label": "The way in",
+     "text": "The staircase and its two walkers make the single path into depth. Your eye goes down it, then bounces back to the surface."
+    },
+    {
+     "points": [
+      [
+       0.14,
+       0.5
+      ],
+      [
+       0.33,
+       0.36
+      ],
+      [
+       0.42,
+       0.4
+      ],
+      [
+       0.42,
+       0.66
+      ],
+      [
+       0.14,
+       0.62
+      ]
+     ],
+     "closed": true,
+     "label": "Blue and yellow",
+     "text": "A big blue slab meets a yellow curve. These calm, wide shapes on the left balance the busy red and white panels on the right."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Vertical bars like that column recur across the whole width: black, white, red, mauve. They work like the beat in a piece of music. The colored shapes are the notes placed on top."
+  },
+  {
+   "type": "fact",
+   "text": "Five years later Léger made a film, Ballet mécanique, with no story at all: pistons, saucepan lids, a swinging pendulum, a woman's smile, cut together at speed. It does in time what The City does on canvas."
+  },
+  {
+   "type": "text",
+   "text": "The palette is tiny for so large a surface. Red, yellow, blue, green, a mauve, plus black and white. The same handful a sign painter or a printer of posters would have used in 1919. Léger was not above his sources. He admired them."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.77,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The target",
+     "text": "Arcs of red, yellow and white, like a traffic signal or a shop sign seen from the side. Pure geometry that still smells of the street."
+    },
+    {
+     "x": 0.39,
+     "y": 0.52,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "Yellow curve",
+     "text": "A big yellow shape with a rounded edge, shaded slightly along one side. It may be a column or an awning. It does not need to be named to do its job."
+    },
+    {
+     "x": 0.61,
+     "y": 0.3,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Broken word",
+     "text": "White blocks on black: the edges of large letters cut off by the mauve column. You sense a sign without being able to read it."
+    },
+    {
+     "x": 0.48,
+     "y": 0.85,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "Second walker",
+     "text": "Lower on the stairs, a second gray figure with a globe for a head. It is heading down and out of the picture."
+    },
+    {
+     "x": 0.95,
+     "y": 0.31,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "Pylon",
+     "text": "A thin lattice tower at the right edge, a twin to the girders on the far left. The two bracket the scene like the sides of a stage."
+    },
+    {
+     "x": 0.92,
+     "y": 0.96,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Signature",
+     "text": "“F. LEGER 1919” in neat capitals, lettered like one more sign in the street."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Léger hoped that people who worked among machines and billboards would recognize their own world in his painting and find it beautiful. Whether they did is another matter. But walk through any city center today, among screens, logos and scaffolding, and that one second of 1919 still feels familiar."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How does Léger show the street?",
+   "options": [
+    "In deep, accurate perspective",
+    "As flat fragments laid side by side",
+    "As a view from an airplane"
+   ],
+   "answer": 1,
+   "explanation": "He overlaps flat pieces like sheets of colored paper instead of using perspective."
+  },
+  {
+   "question": "What do the human figures in the painting look like?",
+   "options": [
+    "Faceless gray figures built from tubes and globes",
+    "Elegant ladies in bright dresses",
+    "Children playing"
+   ],
+   "answer": 0,
+   "explanation": "The two walkers on the stairs are gray and mechanical, with no faces."
+  },
+  {
+   "question": "What wartime sight did Léger say changed his view of beauty?",
+   "options": [
+    "A ruined cathedral",
+    "A field of poppies",
+    "The breech of a gun shining in the sun"
+   ],
+   "answer": 2,
+   "explanation": "He was struck by the gleaming breech of a 75 mm gun."
+  },
+  {
+   "question": "What runs from the top of the canvas to the bottom, right in front of everything else?",
+   "options": [
+    "A river",
+    "A mauve column",
+    "A red ribbon"
+   ],
+   "answer": 1,
+   "explanation": "The mauve post splits the view like a lamp post close to your face."
+  },
+  {
+   "question": "What did Léger make five years after The City?",
+   "options": [
+    "A film called Ballet mécanique",
+    "A bronze statue of a worker",
+    "A tapestry for a cathedral"
+   ],
+   "answer": 0,
+   "explanation": "His 1924 film cuts machine parts and faces together with no story."
+  },
+  {
+   "question": "Roughly how wide is the painting?",
+   "options": [
+    "One meter",
+    "Nearly three meters",
+    "Ten meters"
+   ],
+   "answer": 1,
+   "explanation": "It is nearly three meters wide and over two meters high."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The City uses a very small set of flat colors, much like a poster.",
+   "isTrue": true,
+   "explanation": "Red, yellow, blue, green, mauve, black and white make up almost the whole picture."
+  },
+  {
+   "text": "Léger filled The City with detailed portraits of Parisians.",
+   "isTrue": false,
+   "explanation": "There are only two faceless gray figures, on the staircase."
+  },
+  {
+   "text": "Smoke in the painting is shown as a column of stacked discs.",
+   "isTrue": true,
+   "explanation": "Léger turns even smoke into solid, regular shapes."
+  }
+ ]
+}

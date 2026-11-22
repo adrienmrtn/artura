@@ -1,0 +1,44 @@
+{
+  "teaser": "Someone wrote on this painting after the artist died, and turned a bird into a politician.",
+  "focus": [0.53, 0.32],
+  "review_notes": "Oil on canvas, 144 x 171 cm, about 1650.\nThe three white inscriptions (DE VIAND VAN DE STAAT above the dog, DE RAAD-PENSIONARIS under the swan, HOLLAND on the egg) were added by a later, unknown owner; all three are legible in the working image.\nJohan de Witt: Grand Pensionary of Holland from 1653, killed with his brother Cornelis by a mob in The Hague on 20 August 1672. Asselijn died in 1652, before De Witt took office.\nFirst acquisition of the Nationale Konst-Gallery (forerunner of the Rijksmuseum) in 1800; price commonly given as 100 guilders. Please verify the price.\nAsselijn's nickname 'Krabbetje' (little crab), given by fellow Dutch artists in Rome because of a deformed hand; Rembrandt etched his portrait about 1647.\nThe swan is a mute swan, shown about life-size: 'about life-size' is the usual description.\nMonogram A at lower right (about x 0.95, y 0.87).",
+  "lesson": [
+    {"type": "text", "text": "Have you ever walked too close to a swan's nest? If so, you know this pose. The neck snakes forward, the wings come up like sails, and out of that elegant white bird comes a hiss you feel in your stomach. A swan defending its eggs can frighten a grown adult into backing off."},
+    {"type": "text", "text": "Jan Asselijn painted that instant around 1650, on a canvas 1.44 meters high and 1.71 wide (about 4 ft 9 in by 5 ft 7 in). The bird is about as big as a real one. Hung on a wall, it comes at you at your own height. So who is it so angry at?"},
+    {"type": "find", "text": "The swan is not hissing at you. Its enemy is already in the picture, and close. Find it.", "spots": [
+      {"x": 0.125, "y": 0.85, "zoom": 3, "r": 0.09, "title": "The dog", "text": "A dark, shaggy dog swims in from the lower left, head up, eyes on the nest. It is almost the color of the bank behind it, so you spot the swan's fury before you see the cause."}
+    ]},
+    {"type": "text", "text": "That delay is the painter's best trick. He gives the cause a dark corner and the effect the whole canvas, so the picture hits you first as a pure explosion of white. Then he pins that explosion in place with a few strong directions."},
+    {"type": "lines", "text": "Three lines explain why the bird looks so huge.", "lines": [
+      {"points": [[0.05, 0.47], [0.98, 0.09]], "closed": false, "label": "Wingtip to wingtip", "text": "The wings stretch from one edge of the canvas to the other on a rising diagonal. The bird is too big for its frame, and one wing is cut off by it."},
+      {"points": [[0.52, 0.31], [0.13, 0.83]], "closed": false, "label": "The line of attack", "text": "From the open beak, a second diagonal drops straight to the dog. The two cross like an X, the shape of a collision."},
+      {"points": [[0.0, 0.6], [0.45, 0.62]], "closed": false, "label": "A low horizon", "text": "The land sits far down in the picture. You are placed near the ground, about where the dog is, looking up at the swan against the sky."}
+    ]},
+    {"type": "text", "text": "Feathers finish the job. Small white ones drift through the blue at the left, and another has landed near the nest: the wings have just snapped open. Asselijn paints the plumage with surprising variety, creamy and thick on the breast, thin and gray where light shines through the flight feathers."},
+    {"type": "fact", "text": "Asselijn was known to his friends as Krabbetje, “little crab.” Dutch artists living in Rome, where he spent several years, gave each other nicknames, and his came from a hand that was misshapen from birth. Rembrandt etched his portrait and tucked that hand out of sight."},
+    {"type": "text", "text": "He was not an animal painter. Asselijn made his name with sunny Italian landscapes full of ruins and herdsmen, sold to Dutch buyers who had never been south. Nothing else in his work resembles this bird, and nobody knows who asked him for it or why. He died in 1652, about two years after painting it."},
+    {"type": "text", "text": "Then somebody decided the picture needed explaining. An owner whose name is lost took a brush and white paint and wrote on it, in three places. You may have noticed pale letters already."},
+    {"type": "tour", "title": "Three labels", "text": "The words are Dutch. Read them in this order.", "spots": [
+      {"x": 0.92, "y": 0.665, "zoom": 3.4, "r": 0.07, "title": "On the egg", "text": "HOLLAND. The egg in the nest of reeds is the richest and most powerful province of the Dutch Republic."},
+      {"x": 0.56, "y": 0.835, "zoom": 2.8, "r": 0.13, "title": "Under the swan", "text": "DE RAAD-PENSIONARIS: the Grand Pensionary, the top official of Holland and in practice the leader of the Republic. The swan is a statesman."},
+      {"x": 0.11, "y": 0.765, "zoom": 2.8, "r": 0.12, "title": "Above the dog", "text": "DE VIAND VAN DE STAAT: the enemy of the state. The swimming dog now stands for whoever threatens the country."}
+    ]},
+    {"type": "text", "text": "With those words a nature scene became an allegory, a picture in which each thing stands for an idea. The Grand Pensionary everyone had in mind was Johan de Witt, who ran the Republic for almost twenty years and in 1672 was killed with his brother by a mob in The Hague. The swan was read as De Witt, guarding Holland."},
+    {"type": "fact", "text": "The dates do not fit. De Witt became Grand Pensionary in 1653. Asselijn had died the year before. Whatever the painter meant by his swan, he cannot have meant the man the inscriptions point to."},
+    {"type": "key", "text": "A painting's meaning is not fixed when the painter puts down the brush. Later owners can rewrite it, here quite literally, and the new meaning can become the reason it is kept."},
+    {"type": "fact", "text": "The patriotic reading paid off. In 1800 the Nationale Konst-Gallery, the brand-new national museum that later grew into the Rijksmuseum, made its very first purchase. It chose this swan, taken to be a tribute to De Witt, and paid 100 guilders."},
+    {"type": "text", "text": "The museum has never removed the lettering. It is part of the object's history now, like a note in the margin of an old book. So you can look at this canvas two ways: as a national hero in feathers, or as what Asselijn most likely saw one day by the water, a furious bird and a dog about to regret everything."}
+  ],
+  "quiz": [
+    {"question": "What is the swan defending itself against?", "options": ["A hunter with a gun", "A dog swimming toward its nest", "A storm"], "answer": 1, "explanation": "A dark dog approaches from the lower left corner."},
+    {"question": "Who wrote the white words on the painting?", "options": ["A later owner, after the painter's death", "Asselijn himself", "Rembrandt"], "answer": 0, "explanation": "An unknown owner added the three inscriptions to turn the scene into a political picture."},
+    {"question": "What is written on the egg?", "options": ["The painter's name", "Amsterdam", "Holland"], "answer": 2, "explanation": "The egg stands for the province of Holland, guarded by the swan."},
+    {"question": "Why can the swan not have been painted as Johan de Witt?", "options": ["De Witt disliked swans", "Asselijn died before De Witt became Grand Pensionary", "The painting was made in Italy"], "answer": 1, "explanation": "Asselijn died in 1652 and De Witt took office in 1653."},
+    {"question": "What kind of pictures was Asselijn mainly known for?", "options": ["Italian landscapes with ruins and herdsmen", "Portraits of merchants", "Still lifes of flowers"], "answer": 0, "explanation": "The swan is an exception in the work of a landscape painter."}
+  ],
+  "facts": [
+    {"text": "This was the first painting bought by the museum that became the Rijksmuseum.", "isTrue": true, "explanation": "The Nationale Konst-Gallery acquired it in 1800 as its first purchase."},
+    {"text": "The horizon is placed high, so that you look down on the swan.", "isTrue": false, "explanation": "The horizon is low, which puts you near the ground looking up at the bird."},
+    {"text": "An allegory is a picture in which things stand for ideas.", "isTrue": true, "explanation": "The inscriptions turn the swan, the egg and the dog into a statesman, a province and an enemy."}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+ "teaser": "Two old men cross a bridge at dusk. One of them may be leaving for good.",
+ "focus": [0.62, 0.45],
+ "review_notes": "IMAGE IS A PARTIAL VIEW: it shows only the left half of the painting (pavilion, bridge, old trees) plus the start of the colophons at far left; the right half with fishing boats and distant mountains is cut off. All spots point only at what is visible.\nThe reading of the scene as a farewell for a retiring friend follows the Met's catalogue interpretation; it is a hypothesis, stated as such.\nGuo Xi's dates (c. 1000 to c. 1090) and the dating of this scroll to about 1080 are approximate.\nDimensions 35.6 x 104.4 cm for the painting.\nGift of John M. Crawford Jr. to the Met, 1981.\nLarge calligraphy at the left edge is the first colophon (often given as Feng Zizhen, Yuan dynasty); not named in the lesson.",
+ "lesson": [
+  {"type":"text","text":"It is late in the day and late in the year. Two old men, each leaning on a staff, each with a boy at his elbow, have reached a small bridge. Ahead of them, servants are already hauling baskets up a slope. In a moment the old men will arrive. Right now they are still on their way."},
+  {"type":"text","text":"Guo Xi painted this pause around 1080, when he was himself very old, probably close to eighty. He had spent his best years decorating palace halls with towering mountains for the emperor. Here he works small and low: a strip of silk about 36 centimeters (14 inches) high, meant to be unrolled on a table by one or two people."},
+  {"type":"find","text":"The two old men are tiny, and the mist is doing its best to hide them. Where is the bridge?","spots":[
+   {"x":0.35,"y":0.53,"zoom":4.5,"r":0.06,"title":"On the bridge","text":"Four figures in two pairs: a stooped elder with a staff, a small attendant close by, then the same again. The bridge is a rough slab on stone piers. A few flicks of the brush make each back bend."}
+  ]},
+  {"type":"text","text":"They are a few millimeters tall, and still you can read their age from their posture. Guo Xi could have put them in the center. Instead he placed them at the edge, with a long walk ahead, so that your eye has to travel the path before they do."},
+  {"type":"tour","title":"The road ahead of them","text":"From the bridge, follow the route uphill and to the right.","spots":[
+   {"x":0.468,"y":0.505,"zoom":4.5,"r":0.05,"title":"The servants","text":"Two figures bent under loads climb toward a flat terrace. Someone has sent the food and wine ahead. A gathering is being prepared."},
+   {"x":0.55,"y":0.32,"zoom":3.2,"r":0.07,"title":"The pavilion","text":"An open-sided building with a thatched, pointed roof stands on the knoll, half screened by branches. It is the destination, and it is empty for now."},
+   {"x":0.66,"y":0.44,"zoom":2,"r":0.13,"title":"The old trees","text":"Bare trunks twist up and end in hooked twigs that curl downward. Painters call these “crab-claw” branches. They are Guo Xi's signature, and here they are as bent and stubborn as the two men."},
+   {"x":0.69,"y":0.77,"zoom":2.4,"r":0.11,"title":"Cloud rocks","text":"The boulders in front have no hard edges. Guo Xi shaped them with wet, soft pools of ink so that they swell like clouds. Stone and vapor are made of the same stuff."}
+  ]},
+  {"type":"key","text":"Nothing here is only scenery. Old men, old trees, a fading day, a leafless season: every element repeats the same idea, the end of something."},
+  {"type":"fact","text":"Scholars at the Metropolitan Museum have suggested the scroll was a parting gift for a friend retiring from government service. In Guo Xi's world, officials who had served together often marked a farewell with a meal, poems and a painting."},
+  {"type":"text","text":"The title names the other subject. “Level distance” is the view you get when you stand on low ground and look far across flat country. There is no peak to climb with your eyes. Space opens sideways, and the farther things are, the paler the ink, until hills become a gray breath on the silk."},
+  {"type":"text","text":"You can test this at the left of the painting: behind the bridge, the hills are barely there, a few strokes of diluted wash. Much of the surface is simply bare silk standing in for river and fog. Guo Xi lets emptiness do the work."},
+  {"type":"fact","text":"What you see here is only the last stretch of the scroll. A handscroll is read from right to left, an arm's length at a time, so the bridge and pavilion are the ending. The earlier part, with fishing boats on open water, lies farther right."},
+  {"type":"text","text":"The bold writing at the far left edge is not part of the picture either. After the painting ends, later owners attached sheets of paper and wrote their responses, a custom that turns a scroll into a conversation several centuries long."},
+  {"type":"fact","text":"The scroll reached New York through John M. Crawford Jr., a collector who built one of the great private holdings of Chinese painting and calligraphy in the West. He gave it to the Metropolitan Museum in 1981."},
+  {"type":"text","text":"Go back to the bridge one more time. The men have not moved. The pavilion is still empty, the baskets still on their way. Guo Xi chose to stop the story one minute before the reunion, and so the meeting, and the goodbye after it, never has to happen."}
+ ],
+ "quiz": [
+  {"question":"What does “level distance” describe?","options":["A view looking straight up at a peak","A far view across flat, low country","A view from a mountaintop down into a valley"],"answer":1,"explanation":"It is the wide, sideways view from low ground, fading into pale ink."},
+  {"question":"What are “crab-claw” branches?","options":["Bare twigs that hook and curl downward","Pine needles painted in clusters","Roots that grip a rock"],"answer":0,"explanation":"The hooked, drooping twigs are a hallmark of Guo Xi's trees."},
+  {"question":"Which moment does the painting show?","options":["The friends eating in the pavilion","The friends saying goodbye at a boat","The old men still walking toward the pavilion"],"answer":2,"explanation":"They are on the bridge; the pavilion ahead is still empty."},
+  {"question":"How was a handscroll like this meant to be seen?","options":["Hung high on a palace wall","Unrolled on a table, read from right to left","Folded into a book"],"answer":1,"explanation":"One or two people unrolled it a section at a time, right to left."},
+  {"question":"What do museum scholars suggest the scroll was made for?","options":["A farewell to a retiring friend","A temple altar","A lesson for the emperor's children"],"answer":0,"explanation":"It may have been a parting gift for a fellow official leaving service."}
+ ],
+ "facts": [
+  {"text":"Guo Xi painted this scroll as a young man at the start of his career.","isTrue":false,"explanation":"It is a late work, made when he was probably close to eighty."},
+  {"text":"The rocks in the foreground are shaped with soft, wet ink so that they look like clouds.","isTrue":true,"explanation":"Guo Xi's boulders swell without hard edges, like vapor."},
+  {"text":"The bold calligraphy at the left edge was written by Guo Xi as part of the picture.","isTrue":false,"explanation":"It was added by a later owner on paper attached after the painting."}
+ ]
+}

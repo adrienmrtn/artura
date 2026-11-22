@@ -1,0 +1,241 @@
+{
+ "teaser": "Half portrait, half landscape, and one mysterious patch the painter never filled in.",
+ "focus": [
+  0.3,
+  0.42
+ ],
+ "review_notes": "Gainsborough's return to Sudbury around 1748-49 after struggling to sell landscapes in London: standard account, dates approximate.\nAges at marriage (Robert about 22, Frances about 16) and marriage date November 1748.\nGainsborough's use of dressed artist's dolls for small early portraits: widely assumed, not documented for this picture.\nFirst public exhibition at Ipswich in 1927 and National Gallery purchase in 1960 for 130,000 pounds: please confirm figures.\nThe oak still standing at the Auberies: reported by the National Gallery and local sources.\nThe letter about walking off with his viola da gamba is paraphrased from a letter to William Jackson.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Thomas Gainsborough wanted to paint trees, clouds and fields. He had left Suffolk for London at thirteen to learn how. By his early twenties he had to admit that nobody was buying his landscapes. Around 1748 he moved back to his small home town of Sudbury and took the work that paid: portraits of the local gentry."
+  },
+  {
+   "type": "text",
+   "text": "Two of them were Robert Andrews and Frances Carter, married in November 1748. He was about twenty-two, she about sixteen, and the match joined two family fortunes. The painter, hardly older than the groom, was asked for a wedding portrait. He delivered something no client had quite seen before."
+  },
+  {
+   "type": "text",
+   "text": "A normal double portrait puts the couple in the middle. Here the canvas is small and wide, about 70 by 119 centimeters (27 by 47 inches), and the way Gainsborough fills it is odd."
+  },
+  {
+   "type": "lines",
+   "text": "See how the space is shared out.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.5,
+       0.03
+      ],
+      [
+       0.5,
+       0.97
+      ]
+     ],
+     "closed": false,
+     "label": "The halfway mark",
+     "text": "Everything human sits left of this line: husband, wife, dog, bench. The whole right half is given to fields and sky. The failed landscape painter has smuggled a landscape into a paid portrait."
+    },
+    {
+     "points": [
+      [
+       0.29,
+       0.02
+      ],
+      [
+       0.26,
+       0.5
+      ],
+      [
+       0.25,
+       0.86
+      ]
+     ],
+     "closed": false,
+     "label": "The oak",
+     "text": "The thick trunk rises right behind the couple like a family tree. Old oaks stood for deep roots and lasting property, exactly what a young landowner wanted to claim."
+    },
+    {
+     "points": [
+      [
+       0.86,
+       0.8
+      ],
+      [
+       0.72,
+       0.62
+      ],
+      [
+       0.8,
+       0.57
+      ],
+      [
+       0.76,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The way in",
+     "text": "Your eye is led from the sheaves across the stubble, past the white gate and up to the far hills. All of it, nearly to the horizon, belongs to them."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the right half is not a backdrop. It is the Auberies, the couple's real estate outside Sudbury, and it is painted as carefully as their faces. Mr Andrews was a keen improver of his farm, and the picture shows off what was modern about it."
+  },
+  {
+   "type": "tour",
+   "title": "A portrait of a farm",
+   "text": "Four things a visitor in 1750 would have noticed about this land.",
+   "spots": [
+    {
+     "x": 0.86,
+     "y": 0.72,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "Sheaves in rows",
+     "text": "The wheat is cut and bound. The stubble runs in neat straight lines, a sign that the seed was sown by a seed drill, a recent machine, and not scattered by hand."
+    },
+    {
+     "x": 0.67,
+     "y": 0.565,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "Fenced sheep",
+     "text": "Tiny white dots: a flock kept in its own enclosed field behind a wooden fence, the up-to-date way to breed good animals."
+    },
+    {
+     "x": 0.815,
+     "y": 0.572,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "The white gate",
+     "text": "A neat five-bar gate closes the field. Enclosing land with fences and gates was the big change in English farming at the time.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.465,
+     "y": 0.44,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "A church tower",
+     "text": "Between the trees stands a pale tower, usually said to be the Sudbury church where the couple married.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "A portrait can describe people by what they own. Here the land is the second sitter, and maybe the main one."
+  },
+  {
+   "type": "fact",
+   "text": "The oak is reported to be still alive on the same spot in Suffolk, more than 270 years after Gainsborough painted it."
+  },
+  {
+   "type": "text",
+   "text": "Now the couple. He lounges with a gun under his arm and a dog at his heel. She sits bolt upright in sky-blue silk. Their bodies look a bit like dolls, and there is a likely reason: Gainsborough often worked from small jointed dolls dressed in clothes. One part of her was left undone."
+  },
+  {
+   "type": "find",
+   "text": "Somewhere on the figures, the painter simply stopped. Can you spot the unfinished area?",
+   "spots": [
+    {
+     "x": 0.365,
+     "y": 0.57,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The blank lap",
+     "text": "Between her hands is a brownish patch of bare underpaint with a few sketchy strokes. Something was meant to go here, and it never did."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nobody knows what belongs in that gap. A dead pheasant, shot by her husband, is the favorite guess. Others propose a book, a piece of needlework, or a space kept for a future baby. Nor do we know why the picture was handed over this way."
+  },
+  {
+   "type": "fact",
+   "text": "The painting stayed with the Andrews family for two centuries, almost unknown. It was first shown in public in 1927, and the National Gallery bought it in 1960 for 130,000 pounds."
+  },
+  {
+   "type": "text",
+   "text": "Fame brought arguments. In 1972 the critic John Berger held it up as a picture about ownership: two landowners whose cool faces say “this is ours.” Others answer that the fresh, rain-washed fields show a painter simply in love with his county. Both readings fit what you see."
+  },
+  {
+   "type": "text",
+   "text": "Gainsborough became one of the most sought-after portrait painters in England, and grumbled about it. In a letter he said he was sick of portraits and wished he could take his viola da gamba, a kind of cello, and walk off to a village to paint landscapes. In Sudbury, at twenty-three, he had found a way to do both on one canvas."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why did Gainsborough turn to portraits as a young man?",
+   "options": [
+    "His landscapes did not sell",
+    "A king ordered him to",
+    "He disliked painting outdoors"
+   ],
+   "answer": 0,
+   "explanation": "He could not make a living from landscapes, so he painted the local gentry."
+  },
+  {
+   "question": "What do the straight lines of stubble tell you?",
+   "options": [
+    "The field was flooded",
+    "The seed was sown with a seed drill",
+    "The harvest failed"
+   ],
+   "answer": 1,
+   "explanation": "Neat rows were a sign of the new seed drill, not hand sowing."
+  },
+  {
+   "question": "Where is the unfinished area?",
+   "options": [
+    "In the sky",
+    "On the dog",
+    "On Mrs Andrews's lap"
+   ],
+   "answer": 2,
+   "explanation": "A patch of bare underpaint sits between her hands."
+  },
+  {
+   "question": "What did John Berger see in the painting in 1972?",
+   "options": [
+    "A religious allegory",
+    "A picture about owning land",
+    "A secret self-portrait"
+   ],
+   "answer": 1,
+   "explanation": "He read it as two landowners displaying their property."
+  },
+  {
+   "question": "How does the composition divide the canvas?",
+   "options": [
+    "Figures on the left, land on the right",
+    "Figures in the center, land all around",
+    "Land on top, figures below"
+   ],
+   "answer": 0,
+   "explanation": "Everything human sits in the left half."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The landscape in the picture is an imaginary Italian scene.",
+   "isTrue": false,
+   "explanation": "It is the Auberies, the couple's real estate near Sudbury in Suffolk."
+  },
+  {
+   "text": "The painting remained in the Andrews family for about two hundred years.",
+   "isTrue": true,
+   "explanation": "It was only shown publicly in 1927 and sold to the National Gallery in 1960."
+  },
+  {
+   "text": "We know for certain that a pheasant was planned for Mrs Andrews's lap.",
+   "isTrue": false,
+   "explanation": "The pheasant is only the most popular guess; nobody knows what was intended."
+  }
+ ]
+}

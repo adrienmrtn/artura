@@ -1,0 +1,253 @@
+{
+ "teaser": "His eyes are made of rock crystal, and they have been watching visitors for 4,500 years.",
+ "focus": [
+  0.5,
+  0.2
+ ],
+ "review_notes": "Height given as 53.7 cm.\nEye construction (red-veined white magnesite, rock crystal, copper clips, colored material behind the crystal) follows the Louvre's published study.\nNipples described as wooden pegs.\nDiscovery: Auguste Mariette, Saqqara, November 1850.\nLiteracy estimate (about one in a hundred) is a common scholarly guess.\nThe brush is assumed lost from the right hand (viewer's left); the hand position is visible in the photo.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Wax museum figures, film puppets, the hyperrealist sculptures that make gallery visitors jump: all of them depend on one trick. Get the eyes right, give them a wet glint, and the rest of the body comes alive. An Egyptian workshop had this figured out about 4,500 years ago."
+  },
+  {
+   "type": "text",
+   "text": "The proof sits cross-legged in the Louvre in Paris. He is carved from limestone and painted, and he is small: 53.7 centimeters high, about 21 inches. People who stand in front of him often report the same odd feeling of being looked at."
+  },
+  {
+   "type": "tour",
+   "title": "A face that looks back",
+   "text": "Start where every visitor starts.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.185,
+     "zoom": 4,
+     "r": 0.07,
+     "title": "The eyes",
+     "text": "Each eye is a piece of white stone with fine red veins, set with a polished lens of rock crystal. The crystal catches light the way a living cornea does. Copper clips, now greenish blue, hold them in place."
+    },
+    {
+     "x": 0.5,
+     "y": 0.25,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "Lean features",
+     "text": "Sharp cheekbones, a thin mouth pressed shut, hollow cheeks. This is not the smooth, ageless face Egyptian sculptors gave their kings. It looks like one particular man."
+    },
+    {
+     "x": 0.5,
+     "y": 0.125,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "Cropped hair",
+     "text": "The hair is a cap of black paint, chipped in places so the pale stone shows through. The black line around the eyes is paint too, imitating the kohl that Egyptians wore."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those crystal lenses were shaped with real optical cunning. The back of each one was coated with a colored material that gives the iris its tint, and the pupil is a small hole drilled into the back. When you walk past, the reflections shift, and the gaze seems to follow."
+  },
+  {
+   "type": "fact",
+   "text": "The scribe's nipples are not painted. They are two small wooden pegs pushed into holes in the stone."
+  },
+  {
+   "type": "text",
+   "text": "So who is he? Nobody knows. The French archaeologist Auguste Mariette dug him up in 1850 at Saqqara, the vast cemetery of ancient Memphis. The statue must once have sat on a larger base carved with a name and titles, and that base was never found."
+  },
+  {
+   "type": "text",
+   "text": "His job, at least, is clear from his pose. Scribes were the people who could read and write in a country where perhaps one person in a hundred could. They counted grain, recorded taxes and drafted royal orders. He is shown mid-task, and one part of his kit has gone missing."
+  },
+  {
+   "type": "find",
+   "text": "He was holding a writing brush. Tap the hand that has lost it.",
+   "spots": [
+    {
+     "x": 0.385,
+     "y": 0.665,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The writing hand",
+     "text": "His right hand, on your left. Thumb and fingers pinch together around empty air. A reed brush, probably a separate piece, once sat in that grip, poised above the sheet."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now the whole pose makes sense. His other hand grips the rolled end of a papyrus, the paper Egyptians made from river reeds, and the open part lies flat across his lap. His white kilt, pulled tight between his knees, serves as a desk. He has stopped writing and is waiting for the next word."
+  },
+  {
+   "type": "fact",
+   "text": "Egyptians valued this career openly. A teaching text copied by schoolboys for centuries mocks every other trade, from the smelly fisherman to the worn-out potter, and concludes that only the scribe is his own boss."
+  },
+  {
+   "type": "text",
+   "text": "Go back to his body with that in mind. The chest is soft, and a fold of flesh sags above the navel. For a king this would be unthinkable. For an official it was a boast: here is a man who eats well and does not labor in the fields."
+  },
+  {
+   "type": "text",
+   "text": "Yet for all its lifelike detail, the statue follows a strict plan. Egyptian sculptors drew their figure on the faces of the stone block before cutting, and they built for eternity, which meant stable, closed, hard to break."
+  },
+  {
+   "type": "lines",
+   "text": "See how the lifelike body is locked into simple geometry.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.5,
+       0.1
+      ],
+      [
+       0.09,
+       0.8
+      ],
+      [
+       0.88,
+       0.8
+      ]
+     ],
+     "closed": true,
+     "label": "A pyramid",
+     "text": "Head at the peak, knees at the corners. The same stable shape as the great tombs built in his lifetime. Nothing sticks out that could snap off."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.1
+      ],
+      [
+       0.5,
+       0.93
+      ]
+     ],
+     "closed": false,
+     "label": "The axis",
+     "text": "Nose, breastbone and navel sit on one vertical line. The figure faces dead ahead, as Egyptian statues almost always do, to meet whoever stands before it."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.67
+      ],
+      [
+       0.47,
+       0.69
+      ],
+      [
+       0.56,
+       0.67
+      ],
+      [
+       0.62,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "The break in symmetry",
+     "text": "Only the hands differ: one open to write, one closed on the roll. That small imbalance is what makes him look caught in the middle of an action."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Whom was he meant to face? Not museum visitors. The statue was made for a tomb, where it served as a spare body for the owner's spirit and received offerings of food. Its alert look was meant to last forever, in the dark."
+  },
+  {
+   "type": "fact",
+   "text": "The paint you see is largely original. The reddish brown skin is the standard color for men in Egyptian art, made from ocher, an earth rich in iron. Women were usually painted a paler yellow."
+  },
+  {
+   "type": "text",
+   "text": "When Mariette's finds reached Paris, this figure startled a public that thought of Egyptian art as stiff and remote. Here was a middle-aged civil servant with a paunch and a sharp stare. He has been one of the Louvre's most visited residents ever since."
+  },
+  {
+   "type": "key",
+   "text": "The scribe joins two things that rarely meet: a rigid, timeless pose and the face of one living individual. The crystal eyes are where the two click together."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What are the scribe's eyes made of?",
+   "options": [
+    "Painted limestone only",
+    "White stone with rock crystal lenses",
+    "Blue glass beads"
+   ],
+   "answer": 1,
+   "explanation": "Red-veined white stone set with polished rock crystal, held by copper clips."
+  },
+  {
+   "question": "Why is his name unknown?",
+   "options": [
+    "He was a slave",
+    "The inscription was erased by a rival",
+    "The inscribed base was never found"
+   ],
+   "answer": 2,
+   "explanation": "The larger base that would have carried his name and titles is missing."
+  },
+  {
+   "question": "What did the soft belly signal to Egyptians?",
+   "options": [
+    "Prosperity and a job away from manual labor",
+    "Old age and illness",
+    "A sculptor's mistake"
+   ],
+   "answer": 0,
+   "explanation": "Flesh showed that an official ate well and did not work in the fields."
+  },
+  {
+   "question": "Where was the statue meant to stand?",
+   "options": [
+    "In a school for scribes",
+    "In a royal palace",
+    "In a tomb"
+   ],
+   "answer": 2,
+   "explanation": "It was a tomb statue, a spare body for the owner's spirit."
+  },
+  {
+   "question": "Which overall shape organizes the figure?",
+   "options": [
+    "A spiral",
+    "A pyramid, from head to knees",
+    "A circle"
+   ],
+   "answer": 1,
+   "explanation": "Head at the top and knees at the corners form a stable triangle."
+  },
+  {
+   "question": "What is missing from his right hand?",
+   "options": [
+    "A writing brush",
+    "A cup",
+    "A seal ring"
+   ],
+   "answer": 0,
+   "explanation": "The fingers still pinch the spot where a reed brush once sat."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Seated Scribe is life-size.",
+   "isTrue": false,
+   "explanation": "It is only 53.7 centimeters high, about 21 inches."
+  },
+  {
+   "text": "The scribe's nipples are small wooden pegs set into the stone.",
+   "isTrue": true,
+   "explanation": "The sculptor inserted two wooden pegs rather than painting them."
+  },
+  {
+   "text": "In ancient Egypt, most people could read and write.",
+   "isTrue": false,
+   "explanation": "Perhaps one person in a hundred could, which made scribes powerful."
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "teaser": "Is she starting to smile, or has she just stopped? Leonardo made sure you cannot tell.",
+ "focus": [
+  0.46,
+  0.27
+ ],
+ "review_notes": "Glaze thickness (single layers of a few thousandths of a millimeter) is based on a 2010 X-ray fluorescence study; wording kept general.\nEyebrows: Vasari mentions them, and a 2007 scan by Pascal Cotte reported traces; presented as likely lost.\nThe mismatch of left and right horizons is a standard observation; the line positions are approximate because the landscape is hazy.\nPeruggia hid in the museum overnight in some accounts and entered on Monday morning in others; lesson only says he walked out with it.\nPicasso questioned and Apollinaire briefly jailed in 1911: check.\nCatalog year 1503 is the start date; Leonardo worked on it for many more years.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A mouth takes about half a second to break into a smile, and about as long to let it go. This portrait sits somewhere inside that half second. You cannot say whether the smile is arriving or leaving, and each time you check, the answer seems to have changed."
+  },
+  {
+   "type": "text",
+   "text": "That doubt was engineered. Leonardo da Vinci had noticed that we read a face mainly at the corners of the mouth and the corners of the eyes. So those are exactly the places where he refused to draw anything definite."
+  },
+  {
+   "type": "tour",
+   "title": "Where the expression hides",
+   "text": "Three places where you would expect a line, and find a haze instead.",
+   "spots": [
+    {
+     "x": 0.46,
+     "y": 0.312,
+     "zoom": 4.0,
+     "r": 0.07,
+     "title": "The mouth",
+     "text": "Try to find the exact point where the lips end. You can't. Each corner melts into a soft shadow, so your brain has to guess the curve, and it guesses differently each time."
+    },
+    {
+     "x": 0.45,
+     "y": 0.232,
+     "zoom": 3.6,
+     "r": 0.1,
+     "title": "The eyes",
+     "text": "The outer corners fade into the same brown mist. Her gaze meets yours, but the muscles that would tell you her mood are hidden."
+    },
+    {
+     "x": 0.4,
+     "y": 0.84,
+     "zoom": 2.4,
+     "r": 0.17,
+     "title": "The hands",
+     "text": "Her right hand rests on her left wrist. No outline separates finger from finger, only slow changes from light to dark. The pose is completely at rest."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "This smoky blending has a name: sfumato, from the Italian word for smoke. Leonardo built it with oil paint thinned until it was almost transparent, laid in film after film. Each film is only a few thousandths of a millimeter thick. No brushstroke can be seen anywhere on the face."
+  },
+  {
+   "type": "fact",
+   "text": "She has no eyebrows and no eyelashes. A writer of the 1500s described them in detail, so they were probably there once and have faded or been cleaned away over five centuries."
+  },
+  {
+   "type": "text",
+   "text": "The sitter is Lisa Gherardini, wife of a Florentine silk merchant named Francesco del Giocondo. That is why Italians call the picture La Gioconda. Leonardo began it in Florence around 1503, when Lisa was in her mid twenties."
+  },
+  {
+   "type": "text",
+   "text": "Then he did something a working portrait painter was not supposed to do. He never handed it over. The panel went with him from city to city, and finally to France, where he died in 1519. He kept retouching it for years. The merchant never got his wife's portrait."
+  },
+  {
+   "type": "key",
+   "text": "The Mona Lisa began as a commission and turned into a private experiment. Leonardo used it to test how much a face can say when nothing in it is sharply drawn."
+  },
+  {
+   "type": "text",
+   "text": "Behind her he tried a second experiment. The landscape is a place that exists nowhere: rocks, water and winding paths, with no houses and no people. Yet human hands have built exactly one thing in it."
+  },
+  {
+   "type": "find",
+   "text": "One man-made structure stands in this wilderness. Search the background.",
+   "spots": [
+    {
+     "x": 0.84,
+     "y": 0.456,
+     "zoom": 4.5,
+     "r": 0.05,
+     "title": "The bridge",
+     "text": "A low stone bridge with several arches crosses the river just above her shoulder. It is the only trace of human life in the whole landscape."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Keep your eye on that side, then jump across to the other. The water behind her right shoulder and the water behind her left do not sit at the same height. Her head hides the place where the two halves ought to join."
+  },
+  {
+   "type": "lines",
+   "text": "Compare the two halves of the background, then see how the figure holds them together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.39
+      ],
+      [
+       0.3,
+       0.39
+      ]
+     ],
+     "closed": false,
+     "label": "Left side",
+     "text": "On this side the lake and the land lie low, around the level of her chin."
+    },
+    {
+     "points": [
+      [
+       0.66,
+       0.275
+      ],
+      [
+       1.0,
+       0.275
+      ]
+     ],
+     "closed": false,
+     "label": "Right side",
+     "text": "Here the high lake sits clearly above, near eye level. The two views cannot belong to one continuous landscape."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.09
+      ],
+      [
+       0.05,
+       0.97
+      ],
+      [
+       0.95,
+       0.97
+      ]
+     ],
+     "closed": true,
+     "label": "The pyramid",
+     "text": "Her body forms a broad triangle from the hands up to the head. This stable shape hides the join and keeps the picture calm."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The mismatch gives the picture a faint instability, as if she rose slightly when your eyes cross from one side to the other. The pose itself was new, too. Italian portraits had mostly been stiff side views cut at the chest. Leonardo turned her toward you and included her hands."
+  },
+  {
+   "type": "fact",
+   "text": "The painting is smaller than most visitors expect: 77 by 53 cm (about 30 by 21 in). It is painted on a single plank of poplar wood, not on canvas, and the plank has a fine crack running down from the top."
+  },
+  {
+   "type": "text",
+   "text": "For centuries it was admired by artists and not much known beyond them. Mass fame arrived on August 21, 1911. An Italian handyman, Vincenzo Peruggia, who had worked at the Louvre, lifted it off the wall and walked out with it hidden under his work smock."
+  },
+  {
+   "type": "fact",
+   "text": "Police questioned the young Pablo Picasso about the theft and briefly jailed his friend, the poet Guillaume Apollinaire. Both were innocent. Meanwhile crowds lined up at the Louvre to stare at the empty space on the wall."
+  },
+  {
+   "type": "text",
+   "text": "The panel was gone for more than two years. Peruggia was caught in Florence in 1913 when he tried to sell it to an art dealer. By then her face had been on front pages around the world. Today she sits behind bulletproof glass, seen by millions each year."
+  },
+  {
+   "type": "text",
+   "text": "So when you stand in that crowd, what are you looking at? A study in smoke that a painter could not bear to finish, or the most famous stolen object in history? Go back to the corners of her mouth before you answer."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does “sfumato” describe?",
+   "options": [
+    "A way of blending tones so softly that no outlines show",
+    "A type of wooden panel",
+    "A style of gilded frame"
+   ],
+   "answer": 0,
+   "explanation": "The word comes from the Italian for smoke."
+  },
+  {
+   "question": "Why is the smile so hard to read?",
+   "options": [
+    "The paint has cracked over the lips",
+    "The corners of the mouth and eyes dissolve into shadow",
+    "She is partly hidden by a veil"
+   ],
+   "answer": 1,
+   "explanation": "Leonardo blurred exactly the places where we read expression."
+  },
+  {
+   "question": "What is the only man-made thing in the landscape?",
+   "options": [
+    "A tower",
+    "A boat",
+    "A bridge"
+   ],
+   "answer": 2,
+   "explanation": "A stone bridge with arches crosses the river above her shoulder."
+  },
+  {
+   "question": "What happened to the portrait after Leonardo painted it?",
+   "options": [
+    "He kept it until his death",
+    "He delivered it to Lisa's husband",
+    "He sold it to the Pope"
+   ],
+   "answer": 0,
+   "explanation": "He never handed it over and took it with him to France."
+  },
+  {
+   "question": "What event made the painting famous worldwide?",
+   "options": [
+    "A fire at the Louvre",
+    "Its theft in 1911",
+    "A royal wedding"
+   ],
+   "answer": 1,
+   "explanation": "Vincenzo Peruggia stole it and it was missing for more than two years."
+  },
+  {
+   "question": "What is odd about the background?",
+   "options": [
+    "It shows a real view of Florence",
+    "It is painted on a separate panel",
+    "The left and right sides do not line up"
+   ],
+   "answer": 2,
+   "explanation": "The water on the right sits higher than on the left."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Mona Lisa is painted on canvas.",
+   "isTrue": false,
+   "explanation": "It is painted on a single plank of poplar wood."
+  },
+  {
+   "text": "Picasso was questioned by police after the 1911 theft.",
+   "isTrue": true,
+   "explanation": "He was questioned and was innocent, the thief was Vincenzo Peruggia."
+  },
+  {
+   "text": "Lisa's husband received the finished portrait in 1503.",
+   "isTrue": false,
+   "explanation": "Leonardo never delivered it and kept it until he died in 1519."
+  }
+ ]
+}

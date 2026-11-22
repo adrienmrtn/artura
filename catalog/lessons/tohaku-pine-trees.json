@@ -1,0 +1,37 @@
+{
+  "teaser": "Soot, water and thin paper: Japan's most beloved painting is mostly left blank.",
+  "focus": [0.39, 0.4],
+  "review_notes": "The image shows only ONE screen of the pair (the right-hand screen, with the seals at its right edge); the lesson says so.\nDate: the screens are undated; 1595 is a conventional estimate (usually given as 'late 16th century').\nTheory that the screens are remounted preparatory sketches (misaligned paper seams, coarse paper) and that the seals were added later: widely repeated by the Tokyo National Museum and scholars, but still a hypothesis.\nLink between the painting and the death of Tohaku's son Kyuzo (1593, aged 26) is a traditional reading, not documented.\nNeedles painted with a stiff or split brush (straw or bamboo): commonly stated, not proven.\nDimensions per screen: 156.8 x 356 cm.\nShown about two weeks each January at the Tokyo National Museum: check current practice.",
+  "lesson": [
+    {"type": "text", "text": "The list of materials is very short. Paper, thin and a little coarse. Ink, which in East Asia means soot from burned pine wood or oil, bound with animal glue and ground with water. That is all. No gold, no color, on a surface about 3.5 meters wide (11 and a half feet) and as tall as a person. You are seeing one of two screens that stand side by side."},
+    {"type": "text", "text": "And most of that paper is untouched. Hasegawa Tōhaku painted a handful of pines and then stopped. In sixteenth-century Japan, the palaces of warlords were covered in gold leaf and giant, muscular trees. This is the opposite: a room-sized picture that is mostly nothing."},
+    {"type": "text", "text": "Except that the nothing does a job. With one bottle of ink, a painter has only one way to say “near” and “far”: add more water or less. Dark means close. Pale means the air has swallowed it. Follow three steps into the fog."},
+    {"type": "tour", "title": "Into the mist", "text": "Six tall panels, hinged like an accordion. Start with the blackest ink.", "spots": [
+      {"x": 0.39, "y": 0.35, "zoom": 2.4, "r": 0.09, "shape": "rect", "title": "The near pine", "text": "Thick, almost dry black ink, laid in quick slanting strokes. Each stroke is a tuft of needles. This tree stands right in front of you, wet with fog."},
+      {"x": 0.2, "y": 0.33, "zoom": 2.2, "r": 0.1, "title": "The ghosts", "text": "Same trees, same brush, far more water. These pines are a few dozen steps back, and the mist has already bleached them to gray shadows."},
+      {"x": 0.72, "y": 0.5, "zoom": 1.5, "r": 0.12, "title": "The blank panel", "text": "An entire panel with almost no ink at all. Yet you do not read it as empty paper. After the trees, your eye fills it with damp morning air."}
+    ]},
+    {"type": "key", "text": "Tōhaku paints the fog by not painting it. The bare paper becomes air only because the trees around it fade by degrees."},
+    {"type": "text", "text": "Go back to the dark needles in your mind. They are not drawn one by one with a fine tip. The strokes are rough and fast, probably made with a stiff brush, perhaps of straw or split bamboo, dragged upward. Up close the tree is a storm of scratches. From across the room it is a pine."},
+    {"type": "fact", "text": "The sheets of paper are joined unevenly, and the seams do not line up from panel to panel. Many specialists think these were never meant to be finished screens: they may be full-size working sketches for a wall painting, cut and mounted later by someone else."},
+    {"type": "text", "text": "Who was he? Tōhaku was born in 1539 on the remote Noto coast and painted Buddhist pictures there before moving to Kyoto in his thirties, an outsider with no famous name. He studied old Chinese ink paintings kept in Zen temples, above all those of the monk Muqi, who made mist out of wet, pale washes."},
+    {"type": "text", "text": "By the early 1590s he had won a great commission from the ruler Toyotomi Hideyoshi and worked on it with his son Kyūzō, a gifted painter. Then, in 1593, Kyūzō died at 26. Nobody knows exactly when the pines were painted, but people have long wanted to see a father's silence in them."},
+    {"type": "text", "text": "If these began as sketches, where is the proof of who made them? There is no signature. There is only a pair of small red marks, stamped rather than painted, somewhere near an edge."},
+    {"type": "find", "text": "Two tiny red squares are the only color on the whole screen. Can you spot them?", "spots": [
+      {"x": 0.96, "y": 0.52, "zoom": 4.5, "r": 0.03, "title": "The seals", "text": "Two seals, pressed in red paste beside the last pine. They carry Tōhaku's names, yet they differ from the seals on his other works, so they were probably added after his time."}
+    ]},
+    {"type": "fact", "text": "The screens are too fragile for permanent display. The Tokyo National Museum traditionally brings them out for about two weeks around the New Year, and visitors line up to stand in front of them."},
+    {"type": "text", "text": "A sketch, unsigned, possibly unfinished, on cheap paper, is now a National Treasure and regularly named among the best-loved paintings in Japan. If Tōhaku had gone on to finish it with gold and color, would anyone still stop in front of it?"}
+  ],
+  "quiz": [
+    {"question": "How does Tōhaku show that a pine is far away?", "options": ["He paints it smaller and higher up", "He thins the ink with more water", "He outlines it in gold"], "answer": 1, "explanation": "Pale, watery ink reads as distance; thick black ink reads as close."},
+    {"question": "What is East Asian ink made of?", "options": ["Soot bound with animal glue", "Crushed blue stone", "Squid ink and oil"], "answer": 0, "explanation": "The lesson describes it as soot bound with glue and ground with water."},
+    {"question": "Why do many specialists think the screens began as working sketches?", "options": ["Tōhaku wrote so on the back", "The paper seams do not line up between panels", "The trees are drawn in pencil"], "answer": 1, "explanation": "The unevenly joined sheets suggest the paintings were cut and mounted later."},
+    {"question": "Which earlier painter's misty ink pictures did Tōhaku study?", "options": ["The Chinese monk Muqi", "His son Kyūzō", "Toyotomi Hideyoshi"], "answer": 0, "explanation": "He studied Muqi's paintings kept in Zen temples."}
+  ],
+  "facts": [
+    {"text": "The only color on the screen is two small red seals.", "isTrue": true, "explanation": "Everything else is black ink on paper; the seals are stamped in red."},
+    {"text": "Tōhaku signed the screens in large brushed characters.", "isTrue": false, "explanation": "There is no signature, only two seals that were probably added later."},
+    {"text": "The pines are painted on a background of gold leaf.", "isTrue": false, "explanation": "The screen is ink on bare paper, the opposite of the gold palace painting of its time."}
+  ]
+}

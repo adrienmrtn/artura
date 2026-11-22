@@ -1,0 +1,334 @@
+{
+ "teaser": "A tenth-century ghost story, starring a skeleton drawn with the precision of a medical textbook.",
+ "focus": [
+  0.45,
+  0.35
+ ],
+ "review_notes": "Source: Santo Kyoden's novel Uto Yasukata chugiden (1807), in which many ordinary-sized skeletons appear; Kuniyoshi's single giant is his invention.\nAnatomical accuracy attributed to study of Western (Dutch) anatomical illustrations: generally accepted, no specific source documented.\nGashadokuro: a 20th-century yokai whose illustrations borrowed Kuniyoshi's skeleton.\nSecond warrior labelled Arai-maru in the print (name label read from the image).\nTenpo reforms: actor and courtesan prints banned in 1842.\nMasakado: declared himself emperor 939, killed 940; head mound in Otemachi, Tokyo.\nSheet size approximate (each about 37 x 25 cm).\nKuniyoshi's cats: reported by his pupils.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Something in this picture does not belong. The story is a legend of sorcery set in tenth-century Japan. The monster is a skeleton with every rib, vertebra and joint in its right place, the kind of drawing you would expect in a doctor's manual. Magic on one side, science on the other, sharing one sheet of paper. Or rather, three."
+  },
+  {
+   "type": "text",
+   "text": "Utagawa Kuniyoshi designed it around 1844 as a triptych: three separate woodblock prints, each about 37 by 25 centimeters (14.5 by 10 inches), sold as a set and placed side by side. The usual habit was to make each sheet work on its own, with a figure in each. Kuniyoshi did something else."
+  },
+  {
+   "type": "lines",
+   "text": "Three sheets, but how many pictures?",
+   "lines": [
+    {
+     "points": [
+      [
+       0.335,
+       0.02
+      ],
+      [
+       0.335,
+       0.98
+      ]
+     ],
+     "closed": false,
+     "label": "First seam",
+     "text": "The left sheet ends here. It holds the witch, almost a complete picture by herself."
+    },
+    {
+     "points": [
+      [
+       0.665,
+       0.02
+      ],
+      [
+       0.665,
+       0.98
+      ]
+     ],
+     "closed": false,
+     "label": "Second seam",
+     "text": "The right sheet begins here. Alone, it would be a puzzling close-up of ribs."
+    },
+    {
+     "points": [
+      [
+       0.37,
+       0.42
+      ],
+      [
+       0.44,
+       0.22
+      ],
+      [
+       0.6,
+       0.26
+      ],
+      [
+       0.76,
+       0.18
+      ],
+      [
+       0.92,
+       0.3
+      ],
+      [
+       0.9,
+       0.62
+      ],
+      [
+       0.75,
+       0.75
+      ]
+     ],
+     "closed": false,
+     "label": "One body",
+     "text": "The skeleton ignores the seams. Hand, skull, shoulder, ribcage and spine sweep across two full sheets and into the third."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "By letting a single creature spill over three sheets, Kuniyoshi turned the triptych from three pictures in a row into one wide screen."
+  },
+  {
+   "type": "text",
+   "text": "Now the story. In 940 a warlord named Taira no Masakado, who had declared himself emperor, was killed and his rebellion crushed. Legend gave him a daughter, Princess Takiyasha, who stayed in the ruins of his palace, learned magic, and plotted revenge. The emperor sent a warrior, Oya no Taro Mitsukuni, to root her out."
+  },
+  {
+   "type": "fact",
+   "text": "Masakado's ghost is still taken seriously. A small stone monument in Tokyo's financial district marks the spot where his severed head is said to have landed, and office workers leave offerings there."
+  },
+  {
+   "type": "text",
+   "text": "The print shows the moment they meet. Read it as people in Edo would have, from right to left or left to right as you like, but with one question in mind: who is in control here?"
+  },
+  {
+   "type": "tour",
+   "title": "Cast of three",
+   "text": "A sorceress, a soldier and what she has called up.",
+   "spots": [
+    {
+     "x": 0.15,
+     "y": 0.42,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "Takiyasha",
+     "text": "She stands calm, hair loose, reading a spell from an open scroll. In the whole scene she is the only figure standing upright and the only one who is not struggling.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.44,
+     "y": 0.3,
+     "zoom": 2,
+     "r": 0.14,
+     "title": "The skull",
+     "text": "Dark sockets tilt down toward the men. The shading in gray gives the bone roundness, with the cheekbone, nasal cavity and teeth all correctly placed."
+    },
+    {
+     "x": 0.4,
+     "y": 0.62,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Mitsukuni",
+     "text": "The emperor's man kneels with his sword across his knee and stares straight up. He does not run. In the legend, his nerve is what defeats the witch."
+    },
+    {
+     "x": 0.53,
+     "y": 0.73,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "The other man",
+     "text": "A second warrior is doubled over on the floor, face pressed down. His name label calls him Arai-maru. He makes Mitsukuni's steadiness look braver."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "In the novel Kuniyoshi drew on, published in 1807 by the writer Santo Kyoden, the witch conjures a whole crowd of skeletons, each the size of a man. Kuniyoshi threw out the crowd and made one giant. It was his idea, and it is why the image stuck."
+  },
+  {
+   "type": "text",
+   "text": "Where did he learn bones this well? Japan was closed to almost all foreigners, but Dutch traders were allowed one small outpost, and their books trickled in. European anatomy plates had been copied and studied in Japan since the 1770s. Kuniyoshi collected Western pictures and borrowed from them openly. His specter is not standing still for a diagram, though."
+  },
+  {
+   "type": "find",
+   "text": "The skeleton is not only looming. One part of it is already inside the room, doing something. Where?",
+   "spots": [
+    {
+     "x": 0.37,
+     "y": 0.43,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The fingers",
+     "text": "Long finger bones hook around the hanging blinds and drag them aside like a curtain. That small action tells you the thing is alive, curious, and coming in."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those blinds matter. They are the tattered bamboo screens of Masakado's ruined palace, hanging in shreds. The skeleton parts them the way a stagehand parts a curtain, and that is no accident: Edo audiences knew this tale from the kabuki stage, with its trapdoors and special effects."
+  },
+  {
+   "type": "fact",
+   "text": "Two years before this print, the government had banned pictures of actors and courtesans as a waste of money and morals. Publishers needed other subjects fast. Warriors, legends and monsters, Kuniyoshi's specialty, were suddenly the safest thing to sell."
+  },
+  {
+   "type": "text",
+   "text": "He had been ready for years. Born in 1797, the son of a silk dyer, Kuniyoshi struggled until his thirties, when a series of tattooed outlaw heroes made him famous. Violent motion, odd viewpoints and creatures too big for the frame became his signature."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.075,
+     "y": 0.06,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The caption",
+     "text": "A block of text tells the story so far, for buyers who needed a reminder of who Takiyasha was."
+    },
+    {
+     "x": 0.1,
+     "y": 0.2,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "Palace lattice",
+     "text": "A black grid of window lattice, one of the last intact pieces of the palace. Its rigid squares set off the wild curves elsewhere."
+    },
+    {
+     "x": 0.3,
+     "y": 0.3,
+     "zoom": 2,
+     "r": 0.09,
+     "title": "Shredded blinds",
+     "text": "Hundreds of fine parallel lines, each carved by hand, fan out where the bamboo slats have come loose.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.525,
+     "y": 0.52,
+     "zoom": 3.2,
+     "r": 0.05,
+     "title": "A name tag",
+     "text": "Red labels name the characters, like captions in a comic. This one reads Oya Taro Mitsukuni.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.82,
+     "y": 0.33,
+     "zoom": 1.6,
+     "r": 0.17,
+     "title": "The ribcage",
+     "text": "Ribs curve from breastbone to spine in the correct number of loops, with black night showing between them."
+    },
+    {
+     "x": 0.9,
+     "y": 0.65,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "Spine and hip",
+     "text": "Stacked vertebrae run down to the pelvis. The skeleton is crouching, which means that standing up it would be far taller than the palace."
+    },
+    {
+     "x": 0.96,
+     "y": 0.9,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "Signature",
+     "text": "Kuniyoshi signed each of the three sheets, with his red seal below, because the sheets were printed and could be sold separately.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Kuniyoshi adored cats. His pupils remembered a studio overrun with them, and the master drawing with a kitten tucked inside his kimono. He kept a small altar for those that died."
+  },
+  {
+   "type": "text",
+   "text": "The giant skeleton outlived its story. In the twentieth century, Japanese books of yokai, the monsters of folklore, introduced a new one: the gashadokuro, a towering skeleton made from the bones of the unburied dead. Illustrators modeled it on this print. It has stalked through manga, anime and video games ever since."
+  },
+  {
+   "type": "text",
+   "text": "So the contradiction you started with was the invention. Old legend gave Kuniyoshi the fear. Foreign science gave him the bones. Put together, they made a monster convincing enough that people forgot he had made it up."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is a triptych?",
+   "options": [
+    "A set of three sheets or panels forming one work",
+    "A print in three colors",
+    "A story with three heroes"
+   ],
+   "answer": 0,
+   "explanation": "Here, three woodblock prints placed side by side."
+  },
+  {
+   "question": "What was new about how Kuniyoshi used the three sheets?",
+   "options": [
+    "He printed them on silk",
+    "He let one figure stretch across all of them",
+    "He left the middle one blank"
+   ],
+   "answer": 1,
+   "explanation": "The skeleton sweeps over the seams instead of staying in one sheet."
+  },
+  {
+   "question": "Who is Princess Takiyasha in the legend?",
+   "options": [
+    "The emperor's sister",
+    "Mitsukuni's wife",
+    "The daughter of the rebel Masakado"
+   ],
+   "answer": 2,
+   "explanation": "She stays in his ruined palace and learns magic to avenge him."
+  },
+  {
+   "question": "How does Kuniyoshi's monster differ from the 1807 novel?",
+   "options": [
+    "The novel has many man-sized skeletons, he drew one giant",
+    "The novel has a dragon",
+    "The novel has no monster"
+   ],
+   "answer": 0,
+   "explanation": "Merging the crowd into a single giant was his idea."
+  },
+  {
+   "question": "What is the skeleton doing with its hand?",
+   "options": [
+    "Holding a sword",
+    "Pulling aside the palace blinds",
+    "Pointing at the witch"
+   ],
+   "answer": 1,
+   "explanation": "Its finger bones hook around the tattered bamboo blinds."
+  },
+  {
+   "question": "Why were legends and warriors good business in the 1840s?",
+   "options": [
+    "Foreign tourists wanted them",
+    "Paper had become cheaper",
+    "Prints of actors and courtesans had just been banned"
+   ],
+   "answer": 2,
+   "explanation": "The ban pushed publishers toward heroic and legendary subjects."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The skeleton's anatomy is largely accurate.",
+   "isTrue": true,
+   "explanation": "Kuniyoshi drew on European anatomical pictures that had reached Japan."
+  },
+  {
+   "text": "Mitsukuni is shown running away in terror.",
+   "isTrue": false,
+   "explanation": "He kneels with his sword and stares up at the skull."
+  },
+  {
+   "text": "The gashadokuro monster of manga is an ancient folk legend that Kuniyoshi illustrated.",
+   "isTrue": false,
+   "explanation": "It is a twentieth-century creation modeled on his print."
+  }
+ ]
+}

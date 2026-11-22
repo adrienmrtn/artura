@@ -1,0 +1,39 @@
+{
+  "teaser": "A bank collapse pushed Degas toward pastel. Then he hid a man in black behind the scenery.",
+  "focus": [0.68, 0.5],
+  "review_notes": "Orsay dates the work c. 1876-77 (catalog year given: 1878) and says it was probably shown at the 1877 Impressionist exhibition; the lesson says “probably”.\nFigure of roughly 1,500 works on dancers is the commonly cited estimate.\nThe man in the wings is usually read as an abonné (subscriber/protector); this is interpretation, not a documented identity.",
+  "lesson": [
+    {"type": "text", "text": "In 1874 Degas's father died, and the family bank in Naples and Paris turned out to be hollow. Debts everywhere. To save the family name, Edgar sold his house and his art collection and, for the first time in his life, had to paint for money. He was forty and used to working only when he pleased."},
+    {"type": "text", "text": "The failure changed his art. Big oil paintings took him months. Pastels, sticks of pure powdered color, could be finished fast and sold fast. He called these saleable pieces his “articles”, half joking, half bitter. This little dancer, about 58 by 42 cm (23 by 17 in), is one of them."},
+    {"type": "fact", "text": "Under the pastel there is a print. Degas first drew the scene in greasy black ink on a metal plate and ran it through a press with a sheet of paper. This technique, the monotype, gives only one good impression. He then colored it by hand."},
+    {"type": "text", "text": "The subject looks like pure charm: a ballerina alone in the light, arm raised, receiving her applause. But Degas knew the Paris Opera from the inside, and he did not leave her completely alone on that stage."},
+    {"type": "find", "text": "Someone who is not a dancer is watching from the wings. Where is he?", "spots": [
+      {"x": 0.19, "y": 0.41, "zoom": 3.0, "r": 0.09, "shape": "rect", "title": "The man in black", "text": "A black evening suit, hands apparently in his pockets, and no face: the scenery cuts it off. He stands where the public cannot go, beside a dancer in a yellow tutu."}
+    ]},
+    {"type": "text", "text": "Wealthy season-ticket holders, the abonnés, had a privilege that sounds odd today: they could walk backstage. Most dancers came from poor families and earned little. A rich “protector” could pay for lessons and rent, and expected something in return. Everybody in the audience knew what a black suit in the wings meant."},
+    {"type": "key", "text": "Degas shows the glamour and its price in the same image: the star in the light, and in the shadows the man who may be paying for her career."},
+    {"type": "text", "text": "Now back to the dancer herself. You are looking down at her, as if from a box hanging over the side of the stage. From up there the body is squashed and tilted, and stage lighting does unusual things to a face."},
+    {"type": "tour", "title": "A body seen from above", "text": "Three places where the high viewpoint and the stage lights change everything.", "spots": [
+      {"x": 0.66, "y": 0.46, "zoom": 3.4, "r": 0.08, "title": "Light from below", "text": "Her chin, throat and chest are the brightest parts, her eyes are in shadow. The gas footlights shine upward from the stage edge. A black ribbon flies off her neck with the movement."},
+      {"x": 0.73, "y": 0.75, "zoom": 3.0, "r": 0.08, "shape": "rect", "title": "One leg only", "text": "She balances on a single leg. The other is stretched out behind her and vanishes behind the tutu, because we see her from above and in front."},
+      {"x": 0.7, "y": 0.6, "zoom": 2.4, "r": 0.14, "title": "A cloud of chalk", "text": "The tutu is pastel rubbed and smudged until it glows, then touched with red and orange flowers. No outline holds it in. It looks as if it is still spinning."}
+    ]},
+    {"type": "text", "text": "Notice how much of the sheet is bare floor. More than half the picture is an empty gray-green stage, swept with loose strokes. The dancer is pushed to the right as if she had just arrived there and will be gone in a second. The scenery above is a blur of orange and blue, as it would be for someone following her with opera glasses."},
+    {"type": "fact", "text": "Degas produced around 1,500 paintings, pastels, drawings and prints of dancers, roughly half of everything he made. He once explained that the ballet was for him a pretext for painting movement and pretty fabrics."},
+    {"type": "text", "text": "The pastel was probably shown at the third Impressionist exhibition in 1877. Its first owner was a fellow painter, Gustave Caillebotte, who was rich enough to buy his friends' work when few others would."},
+    {"type": "fact", "text": "Caillebotte left his collection to the French state when he died in 1894. Officials argued for two years and refused part of it. Degas's pastels, this one included, were accepted, which is why you can see it in Paris today."},
+    {"type": "key", "text": "A picture born from a bankruptcy, sold as an “article”, ended up in a national museum. Next time you see a Degas dancer, check the edges of the stage."}
+  ],
+  "quiz": [
+    {"question": "What event forced Degas to start making works for quick sale?", "options": ["A fire in his studio", "The collapse of his family's bank after his father's death", "A lost lawsuit against a dealer"], "answer": 1, "explanation": "The bank's debts surfaced in 1874 and Degas sold his house and collection to help cover them."},
+    {"question": "What lies underneath the pastel colors?", "options": ["A monotype, a one-off print in black ink", "A photograph", "An oil sketch on canvas"], "answer": 0, "explanation": "Degas printed the scene from an inked metal plate, then worked over it in pastel."},
+    {"question": "Who is the man half hidden in the wings most likely to be?", "options": ["The conductor", "A stagehand", "A wealthy subscriber with backstage access"], "answer": 2, "explanation": "Abonnés could go backstage, and some acted as paying “protectors” of dancers."},
+    {"question": "Why are the dancer's chin and throat brighter than her eyes?", "options": ["She wears white makeup only on her neck", "The footlights shine up from the edge of the stage", "The paper has faded at the top"], "answer": 1, "explanation": "Gas footlights lit performers from below."},
+    {"question": "Who first owned the work?", "options": ["The painter Gustave Caillebotte", "The Paris Opera", "Degas's brother"], "answer": 0, "explanation": "Caillebotte bought it and left it to the French state in 1894."}
+  ],
+  "facts": [
+    {"text": "We see the dancer from the level of the orchestra seats, looking up.", "isTrue": false, "explanation": "The viewpoint is high, as from a box above the side of the stage."},
+    {"text": "Degas called his quickly sold works his “articles”.", "isTrue": true, "explanation": "After the family bankruptcy he used that word for the pieces he made to sell."},
+    {"text": "The face of the man in the wings is hidden by the scenery.", "isTrue": true, "explanation": "Only his black suit shows: the stage set cuts off his head."}
+  ]
+}

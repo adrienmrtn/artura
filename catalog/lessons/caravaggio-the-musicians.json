@@ -1,0 +1,50 @@
+{
+  "teaser": "Four boys, one lute being tuned, and a painter who had just escaped poverty.",
+  "focus": [0.47, 0.25],
+  "review_notes": "Early Roman years (hospital stay, hack work on flowers and fruit in Giuseppe Cesari's studio, pictures sold cheaply) come from early biographers Mancini, Baglione and Bellori.\nThe second boy from the right as a self-portrait, and the lutenist as Mario Minniti, are traditional identifications, not documented.\nBaglione's mention of the picture is paraphrased.\nThe painting resurfaced in England and was bought by the Met in 1952: check the wording.\nThe instrument held by the second boy is usually described as a cornetto; it is barely visible in this image and is not pointed at.\nDimensions about 92 x 118.5 cm.",
+  "lesson": [
+    {"type": "text", "text": "A few years before this picture, Caravaggio was losing. He had come to Rome in his early twenties with no money and no patron. He painted flowers and fruit in another artist's workshop, the lowest job in the trade. He landed in a hospital for the poor. The pictures he tried to sell on his own went for almost nothing."},
+    {"type": "text", "text": "Then one buyer changed everything. Cardinal Francesco del Monte, a cultured churchman who loved music and science, saw his work at a dealer's shop, bought it, and invited the painter to live in his palace. Room, food, and a small salary. The Musicians is one of the first things Caravaggio made under that roof."},
+    {"type": "fact", "text": "Del Monte's palace was full of sound. The cardinal collected instruments, kept singers in his household, and hosted private concerts for his guests. Caravaggio only had to walk down a corridor to find his subject."},
+    {"type": "text", "text": "The canvas is not large, about 92 by 118 cm (3 by 4 feet), and four half-dressed boys are packed into it shoulder to shoulder. No stage, no audience, no room behind them. Before reading it as a concert, meet them one at a time."},
+    {"type": "tour", "title": "Four boys", "text": "Start with the one in the red cloak and move to the right.", "spots": [
+      {"x": 0.46, "y": 0.22, "zoom": 2.8, "r": 0.09, "shape": "circle", "title": "The lutenist", "text": "Lips parted, eyes heavy and a little wet, he looks toward you without quite seeing you. He is listening to his instrument, not performing."},
+      {"x": 0.63, "y": 0.17, "zoom": 3.0, "r": 0.08, "shape": "circle", "title": "The face in the back", "text": "This boy turns from the shadows and looks straight out, mouth open. Many historians think he has Caravaggio's own features."},
+      {"x": 0.78, "y": 0.42, "zoom": 1.8, "r": 0.17, "shape": "circle", "title": "The turned back", "text": "The nearest figure shows you only his neck and bare shoulder. He bends over a sheet of music, so the brightest thing in the picture is a boy ignoring you."},
+      {"x": 0.12, "y": 0.22, "zoom": 2.8, "r": 0.09, "shape": "circle", "title": "The boy on the left", "text": "Head down, busy with his hands, he takes no part in the music. He seems to belong to a different picture. Keep him in mind."}
+    ]},
+    {"type": "text", "text": "Notice what is missing: nobody is playing. The lutenist's left hand is up on the pegs, the small knobs that tighten the strings. He is tuning. The reader is still studying his part. Caravaggio chose the minutes before the music, when everyone is waiting and nothing has started."},
+    {"type": "key", "text": "Caravaggio painted the preparation, not the performance: a concert shown as an ordinary moment between real people."},
+    {"type": "text", "text": "Real people is the important phrase. Painters of the 1590s usually built figures from drawings and ideal models. Caravaggio put live boys in front of him and painted them as they were, with red lips, plump hands and tired eyes. One early biographer singled this picture out as a concert of youths painted from life, and painted very well."},
+    {"type": "fact", "text": "No drawing by Caravaggio is known. He seems to have worked directly on the canvas with the model in front of him, which shocked colleagues trained to prepare every figure on paper first."},
+    {"type": "text", "text": "And yet this is not simply a rehearsal in a palace room. The boy on the left, the one who ignored the music, gives the game away. He has something on his back that no page or choirboy ever had."},
+    {"type": "find", "text": "One of the four is not a human being. Find the proof.", "spots": [
+      {"x": 0.3, "y": 0.15, "zoom": 2.4, "r": 0.11, "title": "Wings", "text": "Dark feathers rise behind his shoulder, and arrows poke out of a quiver beside him. He is Cupid, god of love, slipped in among the musicians."}
+    ]},
+    {"type": "text", "text": "With Cupid in the room, the scene becomes an allegory, meaning a picture where figures stand for ideas. Here the idea is that music and love go together. The songs performed in houses like del Monte's were mostly love songs, and the lutenist's damp eyes suggest the one he is about to sing is a sad one."},
+    {"type": "text", "text": "So the painting plays two games at once. The boys wear loose white shirts and draperies that hint at ancient Greece, but their haircuts and faces are from a Roman street in the 1590s. Caravaggio would keep doing this all his life: old stories, played by the people next door."},
+    {"type": "explore", "spots": [
+      {"x": 0.12, "y": 0.75, "zoom": 3.2, "r": 0.06, "title": "Grapes", "text": "Cupid is picking a bunch of pale grapes. Wine, like music, was thought to lighten the heart, and fruit was what Caravaggio had painted for a living only a few years before."},
+      {"x": 0.57, "y": 0.39, "zoom": 3.0, "r": 0.08, "title": "Tuning pegs", "text": "The lute's head bends back sharply, studded with dark pegs. The fingers at the far end are turning one of them."},
+      {"x": 0.56, "y": 0.63, "zoom": 3.0, "r": 0.07, "title": "The part book", "text": "A small printed music book, held open with one hand. The notes on these pages are too worn to identify the song today."},
+      {"x": 0.52, "y": 0.92, "zoom": 2.6, "r": 0.09, "title": "A spare violin", "text": "A violin and its bow lie on the front edge, next to another open score. They look like an invitation: one more player is expected, and the free seat is yours."},
+      {"x": 0.89, "y": 0.68, "zoom": 2.4, "r": 0.09, "title": "The red sash", "text": "A dark red ribbon ties the white drapery in a big loose knot. It answers the lutenist's red cloak on the other side and holds the group together."},
+      {"x": 0.22, "y": 0.66, "zoom": 2.6, "r": 0.08, "title": "The plucking hand", "text": "The right hand rests on the strings above the lute's round belly, fingers spread, ready but silent."}
+    ]},
+    {"type": "fact", "text": "For a long time nobody knew where this canvas was. It resurfaced in England in the twentieth century, worn and scraped by old cleanings, and the Metropolitan Museum bought it in 1952."},
+    {"type": "text", "text": "The wear is still visible in the thin, flat passages of paint. What survived is the idea, and it spread fast. Within a generation, half-length musicians around a table became one of the favorite subjects of painters from Rome to Utrecht."},
+    {"type": "text", "text": "One question stays open. If the boy at the back really is Caravaggio, he painted himself looking out at the person who rescued him. Is that face grateful, or is it sizing up the next client?"}
+  ],
+  "quiz": [
+    {"question": "What was Caravaggio's situation in Rome before Cardinal del Monte took him in?", "options": ["He was already the Pope's painter", "He was poor, doing low-paid workshop jobs", "He was a successful musician"], "answer": 1, "explanation": "He painted flowers and fruit for another artist and sold his own pictures for very little."},
+    {"question": "What is the lute player actually doing?", "options": ["Tuning his instrument", "Playing a fast dance", "Putting the lute away"], "answer": 0, "explanation": "His left hand is on the pegs: the music has not started yet."},
+    {"question": "How do we know the boy on the left is Cupid?", "options": ["He wears a crown", "He holds a torch", "He has wings and a quiver of arrows"], "answer": 2, "explanation": "Dark wings rise behind his shoulder and arrows sit beside him."},
+    {"question": "What idea does the picture stand for?", "options": ["The victory of Rome", "The link between music and love", "The four seasons"], "answer": 1, "explanation": "Cupid's presence turns the concert into an allegory of music and love."},
+    {"question": "What made Caravaggio's working method unusual?", "options": ["He painted directly from live models, with no known drawings", "He only painted at night", "He never used red"], "answer": 0, "explanation": "No drawing by him is known; he worked on the canvas with the model in front of him."}
+  ],
+  "facts": [
+    {"text": "The Musicians shows a concert in full swing.", "isTrue": false, "explanation": "Nobody is playing: one boy tunes, another reads his part."},
+    {"text": "The Metropolitan Museum bought the painting in 1952 after it had been lost from view for a long time.", "isTrue": true, "explanation": "It resurfaced in England in the twentieth century."},
+    {"text": "A violin lies unused at the front of the picture.", "isTrue": true, "explanation": "Violin and bow rest on the front edge beside an open score."}
+  ]
+}

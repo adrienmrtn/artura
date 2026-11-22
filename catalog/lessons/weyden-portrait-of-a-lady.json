@@ -1,0 +1,225 @@
+{
+ "teaser": "Nobody knows her name. Her lowered eyes and her full lower lip tell two different stories.",
+ "focus": [
+  0.43,
+  0.36
+ ],
+ "review_notes": "Size given as about 37 x 27 cm (NGA overall panel dimensions).\nNicholas of Cusa calling Rogier 'the greatest of painters' (maximus pictor, De visione Dei, 1453).\nGift of Andrew Mellon to the new National Gallery, 1937.\nThe room it was made for is not documented; the lesson says so and presents a private house as the likely setting.\nPlucked hairline and eyebrows as court fashion.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This panel was never meant for a museum wall, and probably not for a church either. It is about 37 centimeters tall (under 15 inches), smaller than a sheet of newspaper. A picture this size was made for a private house in the Netherlands of the 1460s: a wall in a family room, or a chest from which it was taken out and held in the hands."
+  },
+  {
+   "type": "text",
+   "text": "Which house? Nobody knows. No document names the woman, the family that paid, or the room. All we have is the painter: Rogier van der Weyden, official painter of the city of Brussels, then around 60 and the most sought-after artist north of the Alps."
+  },
+  {
+   "type": "fact",
+   "text": "Rogier was born Rogier de le Pasture in the French-speaking town of Tournai. When he moved to Dutch-speaking Brussels he translated his name: “pasture” became “weyden,” which means meadows."
+  },
+  {
+   "type": "text",
+   "text": "Portraits of the time usually tried to record a face as it was, wrinkle by wrinkle. Rogier does something stranger. He treats this young woman almost like a piece of architecture, and builds her out of a few clean shapes before he paints a single eyelash."
+  },
+  {
+   "type": "lines",
+   "text": "Three shapes hold the whole picture together. Watch them appear.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.58
+      ],
+      [
+       0.6,
+       0.02
+      ],
+      [
+       0.99,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The tent",
+     "text": "The veil falls from the top of her cap to both edges of the panel. It makes a wide pale triangle, and her face sits inside it like a figure under a canopy."
+    },
+    {
+     "points": [
+      [
+       0.36,
+       0.51
+      ],
+      [
+       0.46,
+       0.83
+      ],
+      [
+       0.68,
+       0.52
+      ]
+     ],
+     "closed": false,
+     "label": "The V",
+     "text": "The neckline of her dark dress is the same triangle turned upside down. It points straight down at her hands."
+    },
+    {
+     "points": [
+      [
+       0.28,
+       0.89
+      ],
+      [
+       0.7,
+       0.9
+      ]
+     ],
+     "closed": false,
+     "label": "The red bar",
+     "text": "The only strong color in the painting is this belt. It closes the V like an underline and stops your eye from sliding out of the bottom."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the calm you feel is constructed. Pale triangle, dark triangle, one stroke of red, all against a flat blue-green background with no room, no window, no furniture. With nothing else to read, you start reading her."
+  },
+  {
+   "type": "key",
+   "text": "Rogier does not copy a face, he designs one. A few simple shapes give the portrait its stillness, and that stillness is what lets tiny signs of feeling show."
+  },
+  {
+   "type": "text",
+   "text": "And the signs do not agree with each other. Her pose says modesty, the quality most praised in a noblewoman of her day. Other parts of her say something less obedient. Go and see where."
+  },
+  {
+   "type": "tour",
+   "title": "Reading her",
+   "text": "Four places where the painter tells you who she is, or who she is supposed to be.",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.2,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The forehead",
+     "text": "Her hairline starts very far back, and her eyebrows are almost gone. Fashionable women plucked both. A high, bare forehead was the height of elegance."
+    },
+    {
+     "x": 0.43,
+     "y": 0.305,
+     "zoom": 3,
+     "r": 0.13,
+     "title": "The eyes",
+     "text": "She looks down and away, never at you. Lowered eyes were the sign of a humble, well-raised lady. Rogier draws the lids as two neat arcs."
+    },
+    {
+     "x": 0.43,
+     "y": 0.425,
+     "zoom": 3.6,
+     "r": 0.08,
+     "title": "The mouth",
+     "text": "The lower lip is full and deeply colored, the warmest spot on the face. Against so much restraint, it reads as appetite, or at least as a will of her own."
+    },
+    {
+     "x": 0.31,
+     "y": 0.93,
+     "zoom": 2.6,
+     "r": 0.14,
+     "title": "The hands",
+     "text": "Her fingers are pressed together so tightly that the hands look squeezed into the corner. Gold rings and a gilded buckle say money. The grip says tension."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That is the small drama of the picture: a person holding herself in. Rogier was famous for emotion, for weeping saints and collapsing mourners in his church paintings. Here he gets the same charge out of a lip and ten fingers."
+  },
+  {
+   "type": "fact",
+   "text": "Not one painting signed by Rogier van der Weyden survives. Every work given to him today, this one included, has been attributed by comparing styles and by a handful of old documents."
+  },
+  {
+   "type": "text",
+   "text": "The panel spent centuries in private hands, as it was meant to. In 1937 the American banker Andrew Mellon gave it to the brand-new National Gallery of Art in Washington, where millions of strangers now stand in front of a picture made for one household."
+  },
+  {
+   "type": "fact",
+   "text": "In Rogier's lifetime, the scholar and cardinal Nicholas of Cusa called him “the greatest of painters.” After his death in 1464 his name faded so completely that many of his pictures were long credited to other artists."
+  },
+  {
+   "type": "text",
+   "text": "People have tried to give her a name, a duke's daughter among others, and nothing has been proved. Does knowing so little about her make you look less, or more?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What kind of place was this small portrait most likely made for?",
+   "options": [
+    "A private house",
+    "A cathedral altar",
+    "A town hall"
+   ],
+   "answer": 0,
+   "explanation": "Its small size suits a private home, though no document names the house."
+  },
+  {
+   "question": "Which is the only strong color in the painting?",
+   "options": [
+    "The blue of her eyes",
+    "The red of her belt",
+    "The green of her dress"
+   ],
+   "answer": 1,
+   "explanation": "The red belt is the single bright note and closes the composition at the bottom."
+  },
+  {
+   "question": "Why is her forehead so high?",
+   "options": [
+    "She is ill",
+    "The panel was cut down",
+    "Fashionable women plucked their hairline"
+   ],
+   "answer": 2,
+   "explanation": "A high, bare forehead was considered elegant, so the hairline and eyebrows were plucked."
+  },
+  {
+   "question": "What did Rogier do with his family name when he moved to Brussels?",
+   "options": [
+    "He dropped it",
+    "He translated it into Dutch",
+    "He took his wife's name"
+   ],
+   "answer": 1,
+   "explanation": "De le Pasture became van der Weyden, both meaning meadows or pasture."
+  },
+  {
+   "question": "Which detail works against her modest pose?",
+   "options": [
+    "Her full, strongly colored lower lip",
+    "A smile",
+    "A direct stare at the viewer"
+   ],
+   "answer": 0,
+   "explanation": "The full lower lip is the warmest spot of the face and suggests a will of her own."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The woman in the portrait has been firmly identified as a duke's daughter.",
+   "isTrue": false,
+   "explanation": "Names have been proposed, but nothing has been proved."
+  },
+  {
+   "text": "No painting signed by Rogier van der Weyden survives.",
+   "isTrue": true,
+   "explanation": "All his works are attributed through style and a few documents."
+  },
+  {
+   "text": "The lady looks straight out at the viewer.",
+   "isTrue": false,
+   "explanation": "Her eyes are lowered and turned away, a sign of modesty."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+  "teaser": "Four days of painting, months of rehearsal: the biggest canvas Kandinsky ever attempted.",
+  "focus": [0.42, 0.53],
+  "review_notes": "Painted 25 to 28 November 1913 in Munich; Gabriele Münter's four progress photographs: please confirm dates.\n'More than 30' preparatory studies (drawings, watercolors, oil sketches) is the commonly cited count.\nDimensions 200 x 300 cm; described as his largest painting.\nThemes identified in the studies (Flood, Last Judgment, Resurrection, Paradise) follow standard scholarship.\nThe shape at lower left is read as the rowboat-with-oars motif by scholars; it is an interpretation of an abstract form.\nPiano comparison is paraphrased from Concerning the Spiritual in Art (published at the end of 1911).\nCompositions I to III destroyed during World War II.",
+  "lesson": [
+    {"type": "text", "text": "Four days. That is how long Wassily Kandinsky needed, from November 25 to 28, 1913, to cover a canvas two meters high and three meters wide (about 6.5 by 10 feet). It is the largest painting he ever made, and it looks like an explosion caught in mid-air."},
+    {"type": "text", "text": "The number is misleading, though. Before those four days came months of rehearsal: more than thirty drawings, watercolors and oil studies, more than he prepared for any other picture. Nothing that looks accidental here was left to chance."},
+    {"type": "fact", "text": "We can watch it grow. The painter Gabriele Münter, Kandinsky's partner, photographed the canvas in their Munich home at the end of each working day. Her four photographs show him fixing the center first and then filling outward."},
+    {"type": "text", "text": "That is useful advice for you too. Faced with this much noise, the eye does not know where to land. So begin where he began, and then let the camera carry you outward to the edges."},
+    {"type": "tour", "title": "From the center out", "text": "Follow the order of the work itself: one anchor, then the forces around it.", "spots": [
+      {"x": 0.42, "y": 0.54, "zoom": 2.6, "r": 0.1, "title": "The eye of the storm", "text": "A yellow-green oval ringed in dark lines and crossed by black strokes. It is the only form that feels closed, and everything else seems to spin around it."},
+      {"x": 0.35, "y": 0.38, "zoom": 2.4, "r": 0.09, "title": "The blue arc", "text": "A heavy curve of deep blue arches over the oval like a raised eyebrow. Its dark weight pins the center in place."},
+      {"x": 0.73, "y": 0.45, "zoom": 1.8, "r": 0.14, "title": "A white clearing", "text": "On the right, pale shapes open up like a gap in clouds. After the crowded left side, the eye can breathe here."},
+      {"x": 0.9, "y": 0.85, "zoom": 1.8, "r": 0.13, "title": "The quiet corner", "text": "Broad, warm ochre with almost no lines. The picture ends its journey in calm, far from the tangle where it started."}
+    ]},
+    {"type": "text", "text": "Dense on the left, open on the right, a knot in the middle. Even with no object to name, you have just read a structure. Kandinsky wanted exactly this: a picture you follow in time, the way you follow a piece of music."},
+    {"type": "text", "text": "Yet the forms did not come from nowhere. In the studies you can trace older subjects he had painted for years: the Flood, the Last Judgment, the Resurrection, the Garden of Paradise. Stories of a world destroyed and a world reborn. In the final canvas he dissolved them until almost nothing readable was left. Almost."},
+    {"type": "find", "text": "One survivor from those stories is a rowboat with oars, reduced to a few strokes. It sits low in the picture. Can you spot it?", "spots": [
+      {"x": 0.075, "y": 0.86, "zoom": 3, "r": 0.09, "title": "The boat", "text": "A curved hull outlined in dark blue, with thick black bars slanting across it: the oars. In earlier works Kandinsky painted this boat clearly, with rowers fighting the waves."}
+    ]},
+    {"type": "text", "text": "Why bury the boat instead of showing it? Kandinsky believed a recognizable object hijacks your attention. You see “boat,” you think of the sea, and you stop feeling the color. So he kept the energy of his subjects and veiled their outlines."},
+    {"type": "fact", "text": "Two years earlier he had laid out the theory in a short book, Concerning the Spiritual in Art. In it he compares painting to a piano: color is the keyboard, the eye is the hammer, and the soul is the instrument with many strings."},
+    {"type": "text", "text": "The title comes from the same thinking. A “Composition” was his highest category, borrowed from music: a large work, slowly prepared, in which every part answers another. He was strict about the word. In more than thirty years he gave it to only ten paintings."},
+    {"type": "fact", "text": "You can no longer see the first three. Compositions I, II and III were destroyed during World War II and survive only in black-and-white photographs and in studies."},
+    {"type": "text", "text": "If it is built like music, it should have currents and rests. It does. Three of them are strong enough to draw."},
+    {"type": "lines", "text": "The hidden traffic of the picture.", "lines": [
+      {"points": [[0.04, 0.93], [0.42, 0.54], [0.96, 0.1]], "closed": false, "label": "The rising diagonal", "text": "From the boat in the lower left, through the central oval, up to the top right corner. Most of the shapes lean along this slope, which gives the whole canvas its upward rush."},
+      {"points": [[0.42, 0.42], [0.49, 0.46], [0.52, 0.54], [0.49, 0.63], [0.42, 0.66], [0.35, 0.63], [0.32, 0.54], [0.35, 0.46]], "closed": true, "label": "The whirlpool", "text": "Around the oval, black strokes fan out like spokes. This is the densest drawing in the painting, the place where the tension is highest."},
+      {"points": [[0.66, 0.98], [0.78, 0.84], [0.99, 0.6]], "closed": false, "label": "Where the noise drops", "text": "Beyond this edge the thin black lines stop and wide, soft color takes over. It works like the slow closing bars after a storm of sound."}
+    ]},
+    {"type": "text", "text": "Notice what did the work in each case. On the left, thin black lines, scratchy and fast, like high notes. On the right, big soft patches with blurred edges, like low sustained ones. Kandinsky plays the two against each other across three meters."},
+    {"type": "text", "text": "The timing was fragile. Eight months after he signed the canvas, World War I began. As a Russian citizen Kandinsky had to leave Germany within days, and the Munich years with Münter were over. The painting ended up in Russia, where it now hangs in Moscow's Tretyakov Gallery."},
+    {"type": "text", "text": "There is no correct route through the picture from here on. Wander. A few places are worth a stop, mostly because each one is painted differently from its neighbor."},
+    {"type": "explore", "spots": [
+      {"x": 0.1, "y": 0.055, "zoom": 2.6, "r": 0.1, "title": "Wavy bands", "text": "Stacked ripples of yellow, orange and red in the top left corner, with a loose blue thread running through them. Some see water, others a sunset. Kandinsky leaves it open."},
+      {"x": 0.17, "y": 0.34, "zoom": 2.6, "r": 0.09, "title": "The hatched arc", "text": "A long bow crossed by dozens of short orange and red ticks, like a ladder bent into a curve. It is pure drawing laid over the color."},
+      {"x": 0.15, "y": 0.73, "zoom": 3.2, "r": 0.06, "title": "A small green creature", "text": "An oval of green with fine lines sticking out like legs or bristles. It looks like an insect, a reminder that these forms keep flirting with living things."},
+      {"x": 0.62, "y": 0.07, "zoom": 3, "r": 0.06, "title": "The ringed eye", "text": "A white center inside a blue ring inside a red one. Its hard, bright target shape stands out against the smeared colors nearby."},
+      {"x": 0.47, "y": 0.34, "zoom": 3, "r": 0.06, "title": "Red with scratches", "text": "A patch of hot orange-red crossed by thin black lines that radiate like cracks. Color and line sit on top of each other without agreeing."},
+      {"x": 0.87, "y": 0.44, "zoom": 2.2, "r": 0.11, "title": "The dark cluster", "text": "On the right edge, deep red, black and green pile up into something almost like a figure. It is the heaviest spot on the calm side, a last rumble."}
+    ]},
+    {"type": "key", "text": "Composition VII has no subject to recognize, but it is not chaos: it was rehearsed in dozens of studies and is organized by direction, density and contrast, the way music is organized by rhythm and volume."},
+    {"type": "text", "text": "Kandinsky gave it four days. Next time you meet a picture like this, try giving it four minutes without asking what it shows. Ask where it is loud, where it is quiet, and which way it moves."}
+  ],
+  "quiz": [
+    {"question": "How long did Kandinsky take to paint the final canvas?", "options": ["Four days", "Four months", "Four years"], "answer": 0, "explanation": "He painted it from November 25 to 28, 1913, after months of studies."},
+    {"question": "How do we know the order in which the canvas was painted?", "options": ["Kandinsky filmed himself", "Gabriele Münter photographed it each day", "X-rays revealed it in the 1990s"], "answer": 1, "explanation": "Münter's four photographs record the canvas at the end of each working day."},
+    {"question": "Which hidden motif survives in the lower left corner?", "options": ["A church tower", "A rider on a horse", "A rowboat with oars"], "answer": 2, "explanation": "A curved hull with black bars for oars is a trace of his earlier Flood imagery."},
+    {"question": "Why did Kandinsky veil recognizable objects?", "options": ["He could not draw them well", "He thought objects distract from feeling the color", "His dealer asked him to"], "answer": 1, "explanation": "He believed a recognizable object takes over your attention and weakens the effect of color."},
+    {"question": "How many paintings did he title 'Composition' in his whole life?", "options": ["Ten", "Thirty", "Over a hundred"], "answer": 0, "explanation": "He reserved the word for his most ambitious works, only ten in all."},
+    {"question": "What happened to Compositions I, II and III?", "options": ["They are in the Tretyakov Gallery", "They were destroyed in World War II", "Kandinsky painted over them"], "answer": 1, "explanation": "The first three were lost in the war and are known from photographs and studies."}
+  ],
+  "facts": [
+    {"text": "Composition VII was improvised with no preparation.", "isTrue": false, "explanation": "More than thirty drawings, watercolors and oil studies came before it."},
+    {"text": "The left side of the painting is denser and more linear than the right.", "isTrue": true, "explanation": "Thin black lines crowd the left, while the right opens into broad soft color."},
+    {"text": "Kandinsky compared painting to playing a piano.", "isTrue": true, "explanation": "In his book, color is the keyboard, the eye the hammer and the soul the strings."}
+  ]
+}

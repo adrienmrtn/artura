@@ -1,0 +1,64 @@
+{
+  "teaser": "A dying painter, a tired barmaid, and a mirror that refuses to behave.",
+  "focus": [0.49, 0.2],
+  "review_notes": "Manet's illness described in general terms (pain and loss of control in the left leg; amputation shortly before his death on 30 April 1883).\nLegion of Honor at the end of 1881 through Antonin Proust.\nSuzon, a real Folies-Bergère barmaid, posing in the studio behind a marble table: standard account.\nWoman in white with yellow gloves identified as Méry Laurent: traditional identification.\nX-rays showing the reflection was first painted closer to the barmaid, and the 2000 photographic reconstruction (Malcolm Park) showing the view is possible from an off-center viewpoint: please confirm.\nBass red triangle as the first registered UK trademark (1876).\nWhite globes as electric lights: the Folies-Bergère had electric lighting by this date.",
+  "lesson": [
+    {"type": "text", "text": "In 1881 Édouard Manet could barely stand at his easel. A disease of the nervous system was eating at his left leg. He walked with a cane, tired within an hour, and often painted sitting down. He was 49, and he was starting the largest, most complicated picture of his final years."},
+    {"type": "text", "text": "The timing was bitter. After two decades of mockery, honors were finally coming. That winter an old school friend, now minister for the arts, got him the Legion of Honor. Manet's reaction, by all accounts, was that it came too late."},
+    {"type": "text", "text": "His subject was the opposite of a sickroom. The Folies-Bergère was the noisiest music hall in Paris: acrobats, ballets, an orchestra, and a promenade where people drank, smoked and looked each other over. Manet had been a regular. Now he could no longer spend his nights there."},
+    {"type": "fact", "text": "So the bar came to him. He made quick sketches on the spot, then had a marble counter set up in his studio and loaded it with bottles. A real barmaid from the Folies-Bergère, known as Suzon, came to pose behind it."},
+    {"type": "text", "text": "Before anything else, you need to know where you are standing. Suzon faces you across the counter. But the crowd, the lights, the balcony: none of that is in front of you. It is behind your back."},
+    {"type": "tour", "title": "A wall of glass", "text": "Three clues that everything behind her is a reflection.", "spots": [
+      {"x": 0.31, "y": 0.815, "zoom": 3, "r": 0.07, "title": "The gold frame", "text": "A gilded band runs behind her wrists, at counter height. It is the bottom edge of a huge mirror that covers the whole wall."},
+      {"x": 0.2, "y": 0.3, "zoom": 2.4, "r": 0.14, "title": "The balcony", "text": "Rows of top hats and pale faces across the hall, sketched in dabs. This is the audience, reflected. You are standing among them."},
+      {"x": 0.08, "y": 0.125, "zoom": 3, "r": 0.06, "title": "A white globe", "text": "Flat white discs with no glow around them. These are the hall's electric lamps, a novelty at the time, and their hard light reaches the whole room."}
+    ]},
+    {"type": "text", "text": "Once you accept the mirror, a problem appears. If Suzon faces you squarely and the mirror is right behind her, her reflection should be hidden by her own body. Instead her back shows up far to the right, leaning toward a man in a top hat. And you, who should be that man, are nowhere."},
+    {"type": "lines", "text": "Trace the trouble.", "lines": [
+      {"points": [[0.49, 0.03], [0.49, 0.92]], "closed": false, "label": "The axis", "text": "She stands dead center, upright and symmetrical, like a figure on an altar. Her reflection ought to sit directly behind this line."},
+      {"points": [[0.49, 0.26], [0.82, 0.26]], "closed": false, "label": "The slide", "text": "Instead it has slipped a third of the canvas to the right. The reflected woman also leans forward, while the real one stands straight."},
+      {"points": [[0.0, 0.815], [1.0, 0.815]], "closed": false, "label": "The mirror's edge", "text": "The frame runs perfectly parallel to the counter. So the mirror is not angled, which would have been the easy explanation."}
+    ]},
+    {"type": "text", "text": "Critics in 1882 called it a blunder. A cartoonist redrew the scene “corrected”, adding the missing customer in front of the bar. But Manet was a superb technician, and the evidence says the choice was deliberate."},
+    {"type": "fact", "text": "X-rays show that he first painted the reflection closer to the barmaid, nearer to where it belongs, and then moved it away. In 2000 a researcher rebuilt the bar and photographed it: from a viewpoint off to one side, the arrangement nearly works."},
+    {"type": "text", "text": "Why move it? One reading: the picture shows two moments, or two versions of one woman. In the mirror she is at work, bending toward a customer. In front of you she has stepped out of the transaction and is alone with her thoughts, in the middle of the loudest room in Paris."},
+    {"type": "key", "text": "Manet bends the rules of reflection to say something a correct mirror could not: a person can be surrounded by a crowd and entirely somewhere else."},
+    {"type": "text", "text": "While she drifts, the show goes on. Manet reduces the whole evening's entertainment to a scrap at the very edge of the canvas. Hardly anybody in the audience seems to be watching it."},
+    {"type": "find", "text": "An acrobat is performing right now. Can you find what is visible of them?", "spots": [
+      {"x": 0.047, "y": 0.05, "zoom": 4, "r": 0.045, "title": "Two green boots", "text": "A pair of legs in green ankle boots, standing on a trapeze bar. The rest of the performer is cut off by the frame, like a snapshot taken a second too early."}
+    ]},
+    {"type": "text", "text": "That cropping was a new way of composing in the 1880s, picked up from photography and Japanese prints. It tells you the world continues beyond the frame. Down on the counter, though, Manet does the reverse: he slows down and paints each thing completely."},
+    {"type": "tour", "title": "The counter", "text": "A still life, meaning a painting of objects, laid out along the marble.", "spots": [
+      {"x": 0.74, "y": 0.72, "zoom": 3, "r": 0.09, "title": "The oranges", "text": "The hottest color in the picture, in a glass dish built from a few strokes of white and blue. They pull your eye right, toward the reflection."},
+      {"x": 0.57, "y": 0.73, "zoom": 3, "r": 0.07, "title": "Two roses", "text": "A cream rose and a pink one in a wine glass. The water line and the stems are just visible. Flowers in a glass were nearly all Manet could paint in his last months."},
+      {"x": 0.925, "y": 0.845, "zoom": 3.6, "r": 0.05, "title": "The red triangle", "text": "A brown bottle with a red triangle on its label: Bass pale ale, from England. A real brand, painted as a brand. The bar caters to British tourists."},
+      {"x": 0.04, "y": 0.85, "zoom": 4, "r": 0.045, "title": "A signed bottle", "text": "On the label of the red bottle at far left, Manet wrote his name and the date, 1882. He signs as if he were one more product on sale."}
+    ]},
+    {"type": "fact", "text": "The Bass red triangle was the first trademark ever registered in the United Kingdom, in 1876. Six years later it was in a French painting, which makes it a very early case of a logo in art."},
+    {"type": "text", "text": "Everything on this counter is for sale: champagne, beer, liqueurs, fruit. In 1882 many viewers assumed the barmaid might be too. Music-hall barmaids had that reputation. Manet neither confirms nor denies it. He places her among the goods and then gives her a face you cannot price."},
+    {"type": "explore", "spots": [
+      {"x": 0.49, "y": 0.15, "zoom": 3, "r": 0.09, "title": "Her face", "text": "Flushed cheeks, eyes that do not quite meet yours, mouth closed. Tired? Sad? Bored? Manet leaves it unreadable on purpose."},
+      {"x": 0.485, "y": 0.335, "zoom": 3.6, "r": 0.045, "title": "The locket", "text": "A gold locket on a black ribbon, resting on bare skin framed by lace. Below it, a small bunch of flowers is pinned to her bodice."},
+      {"x": 0.82, "y": 0.28, "zoom": 2, "r": 0.14, "title": "The reflection", "text": "Her back, her blond chignon, and a stance that leans in. The paint here is looser and greyer than on the real woman, as if seen through smoke."},
+      {"x": 0.95, "y": 0.15, "zoom": 3, "r": 0.07, "title": "The customer", "text": "Top hat, mustache, eyes on her. He exists only in the glass. He stands exactly where you are standing."},
+      {"x": 0.12, "y": 0.335, "zoom": 3.4, "r": 0.05, "title": "Yellow gloves", "text": "A woman in white leans on the balcony rail, chin on her gloved hands. She is usually identified as Méry Laurent, a close friend of Manet's."},
+      {"x": 0.19, "y": 0.7, "zoom": 2.6, "r": 0.08, "title": "Champagne", "text": "Gold foil caps catching the electric light. The foil is thick, bright paint dragged over dark green glass."},
+      {"x": 0.3, "y": 0.08, "zoom": 2.4, "r": 0.11, "title": "The chandelier", "text": "A blur of white and yellow strokes. No single crystal is drawn, yet you read glitter at once."}
+    ]},
+    {"type": "text", "text": "The painting hung at the Salon in the spring of 1882. It was the last big picture Manet finished. The following April his leg was amputated, and he died days later, at 51."},
+    {"type": "text", "text": "So think again about who is looking at Suzon. A man who loved this place and knew he would not be going back. Perhaps that is why the customer in the mirror stands so close, and why the spot in front of the bar, your spot, is empty."}
+  ],
+  "quiz": [
+    {"question": "Where did Manet paint most of this picture?", "options": ["Inside the Folies-Bergère, during shows", "In his studio, with a counter set up for the purpose", "In a café near the Salon"], "answer": 1, "explanation": "Too ill for nights out, he rebuilt the bar in his studio and had the barmaid Suzon pose there."},
+    {"question": "What is the gold band behind the barmaid's wrists?", "options": ["The bottom of a mirror frame", "A shelf of bottles", "The balcony rail"], "answer": 0, "explanation": "It is the edge of the mirror that covers the wall behind her."},
+    {"question": "What is odd about the barmaid's reflection?", "options": ["It is missing altogether", "It shows a different woman's face", "It is shifted far to the right"], "answer": 2, "explanation": "A reflection directly behind her should be hidden by her body, but it appears a third of the canvas away."},
+    {"question": "What do X-rays reveal about the reflection?", "options": ["Manet first painted it closer to her, then moved it", "It was added by another painter", "It was originally a window"], "answer": 0, "explanation": "The shift was a deliberate change, not a mistake."},
+    {"question": "What can you see of the acrobat?", "options": ["A face in the crowd", "Two legs in green boots on a trapeze", "A shadow on the ceiling"], "answer": 1, "explanation": "Only the feet appear in the top left corner; the frame cuts off the rest."},
+    {"question": "Where did Manet sign the painting?", "options": ["On the marble counter", "On the mirror frame", "On a bottle label"], "answer": 2, "explanation": "His name and the date 1882 are on the label of the red bottle at far left."}
+  ],
+  "facts": [
+    {"text": "The red triangle on the beer bottles is the logo of a real English brewery.", "isTrue": true, "explanation": "It is the Bass pale ale trademark, the first registered in the United Kingdom."},
+    {"text": "The crowd in the painting is standing behind the barmaid.", "isTrue": false, "explanation": "The crowd is a reflection in a mirror; the hall is behind the viewer."},
+    {"text": "Manet painted this picture at the start of his career.", "isTrue": false, "explanation": "It was the last big picture he finished, a year before his death in 1883."}
+  ]
+}

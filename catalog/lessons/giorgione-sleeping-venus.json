@@ -1,0 +1,303 @@
+{
+ "teaser": "Every reclining nude in Western painting descends from this sleeper. She never finished her own picture.",
+ "focus": [
+  0.3,
+  0.5
+ ],
+ "review_notes": "Michiel (1525) saw the picture in Girolamo Marcello's house and wrote that the landscape and a Cupid were finished by Titian.\nThe Cupid at Venus's feet, damaged, was painted over during a restoration in 1843 and is known from X-rays; marker position for him is approximate (right of center, near her feet).\nSize about 108.5 x 175 cm.\nThe farm buildings recur in Titian's Noli me tangere (National Gallery, London).\nIn Dresden since 1699 (bought for Augustus the Strong); taken to the Soviet Union in 1945 with the Dresden collection and returned in 1955.\nOften linked to the 1507 marriage of Girolamo Marcello; kept vague in the text.\nCatalog year 1510 is the conventional date (c. 1508 to 1510).\nClaim that no earlier European painting made a life-size reclining female nude its single subject.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1538 Titian painted a naked woman lying on a bed, hand resting between her thighs, and sent her to the Duke of Urbino. In 1863 Édouard Manet copied that pose for a Parisian woman staring down the public, and caused one of the great scandals of French art. Both pictures are replies to this one."
+  },
+  {
+   "type": "text",
+   "text": "So you are looking at the beginning of a line. Before about 1510, no European painter had made a life-size nude woman, stretched across the whole width of a canvas, the single subject of a picture. Giorgione did it in Venice, for a patrician named Girolamo Marcello, and the type has not left painting since."
+  },
+  {
+   "type": "text",
+   "text": "What makes her different from her descendants is in her face. Titian's woman looks at you. Manet's dares you. This one is asleep, and that changes your position: you are not being invited, you have simply come upon her. Then see what the land behind her is doing."
+  },
+  {
+   "type": "lines",
+   "text": "Trace the body, then trace the country behind it.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.09,
+       0.36
+      ],
+      [
+       0.21,
+       0.42
+      ],
+      [
+       0.33,
+       0.55
+      ],
+      [
+       0.5,
+       0.62
+      ],
+      [
+       0.68,
+       0.74
+      ],
+      [
+       0.87,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "The body",
+     "text": "From the raised elbow to the toes, the figure makes one long, shallow diagonal across almost the full width of the canvas."
+    },
+    {
+     "points": [
+      [
+       0.25,
+       0.38
+      ],
+      [
+       0.42,
+       0.4
+      ],
+      [
+       0.56,
+       0.42
+      ],
+      [
+       0.7,
+       0.4
+      ],
+      [
+       0.85,
+       0.36
+      ],
+      [
+       1.0,
+       0.38
+      ]
+     ],
+     "closed": false,
+     "label": "The hills",
+     "text": "The rolling ground behind her rises and dips in slow curves like those of her hip and thigh. Land and woman are drawn with the same line."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.42
+      ],
+      [
+       0.1,
+       0.62
+      ],
+      [
+       0.3,
+       0.76
+      ],
+      [
+       0.34,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The red cushion",
+     "text": "A deep red cloth props up her shoulders. It is the only strong color in the picture, and it sets off the pale, cool skin lying on it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That rhyme is the idea of the painting. She is not placed in front of a landscape as in front of a curtain. Her sleep seems to spread over the fields: late light, no wind, nobody on the road. Later writers had a word for this soft blending of figure, air and quiet: Giorgionesque."
+  },
+  {
+   "type": "fact",
+   "text": "X-rays show a small Cupid sitting at her feet, on the right. He was badly damaged, and a restorer painted him out in 1843. Without her son beside her, nothing in the picture actually tells you that this is the goddess of love."
+  },
+  {
+   "type": "text",
+   "text": "Giorgione died of plague in 1510, in his early thirties, and the canvas was not done. A Venetian collector, Marcantonio Michiel, saw it in Marcello's house in 1525 and noted who had completed it: the landscape and the Cupid were finished by Titian, then a young painter who had worked beside Giorgione."
+  },
+  {
+   "type": "tour",
+   "title": "Two hands",
+   "text": "Where does one painter stop and the other start? Nobody can draw the border exactly, but three areas are the usual suspects.",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.3,
+     "zoom": 2.6,
+     "r": 0.13,
+     "shape": "circle",
+     "title": "The farm",
+     "text": "This cluster of roofs on a hill is thought to be Titian's. He reused almost the same buildings in a painting of his own now in London, like a signature."
+    },
+    {
+     "x": 0.5,
+     "y": 0.88,
+     "zoom": 2,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "The white sheet",
+     "text": "The crisp, broken folds with their silvery highlights are sharper and busier than the rest. Many scholars see the younger painter's energy here."
+    },
+    {
+     "x": 0.82,
+     "y": 0.62,
+     "zoom": 2,
+     "r": 0.13,
+     "shape": "circle",
+     "title": "The missing Cupid",
+     "text": "Somewhere in this dark green stretch near her feet sat the little god, painted over in the 1800s. The empty lawn is a repair, not the original design."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the calmest picture of the Venetian Renaissance is a joint work, interrupted by a death and patched by a restorer three centuries later. It does not look like it. The sleeping body holds everything together, which says a lot about how strong the first idea was."
+  },
+  {
+   "type": "fact",
+   "text": "The painting has been in Dresden since 1699, bought for the Saxon ruler Augustus the Strong. In 1945 it was taken to the Soviet Union with the rest of the Dresden collection, and it came back ten years later."
+  },
+  {
+   "type": "key",
+   "text": "A sleeping figure cannot perform for you. Giorgione's nude is at peace with the landscape and unaware of the viewer, and that is exactly what Titian and Manet later chose to undo."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.42,
+     "zoom": 3.6,
+     "r": 0.06,
+     "shape": "circle",
+     "title": "Her face",
+     "text": "Eyes closed, head tipped onto her raised arm, lips barely parted. No expression is aimed at anyone."
+    },
+    {
+     "x": 0.1,
+     "y": 0.34,
+     "zoom": 3,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "The raised arm",
+     "text": "Folding the arm behind the head opens the whole torso to view. It is a pose borrowed from ancient sculpture of sleepers."
+    },
+    {
+     "x": 0.49,
+     "y": 0.63,
+     "zoom": 3.4,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "The left hand",
+     "text": "The gesture Titian and Manet both kept. Here the fingers are slack, the hand of someone asleep."
+    },
+    {
+     "x": 0.3,
+     "y": 0.36,
+     "zoom": 3.4,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "Blue mountains",
+     "text": "Far hills painted pale blue. Painters had learned that distance cools colors, and used it to push space back for miles."
+    },
+    {
+     "x": 0.6,
+     "y": 0.27,
+     "zoom": 3,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "The lone tree",
+     "text": "A dark tree on the ridge, placed above her hips, pins the middle of the wide horizon."
+    },
+    {
+     "x": 0.87,
+     "y": 0.83,
+     "zoom": 3.4,
+     "r": 0.06,
+     "shape": "circle",
+     "title": "The feet",
+     "text": "One foot tucked behind the other at the far right. The body ends a hand's width from the frame."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "At about 1.75 meters wide (nearly 6 feet), the canvas shows the woman close to life size. Standing in front of it, you are roughly as long as she is."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which later painting directly borrowed this pose?",
+   "options": [
+    "Titian's Venus of Urbino",
+    "Botticelli's Birth of Venus",
+    "Leonardo's Mona Lisa"
+   ],
+   "answer": 0,
+   "explanation": "Titian reused the reclining pose in 1538, and Manet then borrowed it from Titian."
+  },
+  {
+   "question": "What is the main difference between Giorgione's nude and those of Titian and Manet?",
+   "options": [
+    "She is standing",
+    "She is asleep and unaware of the viewer",
+    "She is fully dressed"
+   ],
+   "answer": 1,
+   "explanation": "Her closed eyes mean she does not address the viewer at all."
+  },
+  {
+   "question": "Who finished the painting after Giorgione died?",
+   "options": [
+    "Giovanni Bellini",
+    "Manet",
+    "Titian"
+   ],
+   "answer": 2,
+   "explanation": "Michiel recorded in 1525 that Titian completed the landscape and the Cupid."
+  },
+  {
+   "question": "What happened to the Cupid at her feet?",
+   "options": [
+    "He was cut off the canvas",
+    "He was painted over by a restorer in 1843",
+    "He was never painted"
+   ],
+   "answer": 1,
+   "explanation": "He was damaged and covered, and is now known from X-rays."
+  },
+  {
+   "question": "How does the landscape relate to the body?",
+   "options": [
+    "Its hills echo the curves of the figure",
+    "It is a flat gold background",
+    "It shows a storm about to break"
+   ],
+   "answer": 0,
+   "explanation": "The slow curves of the ground repeat those of her hip and thigh."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The woman in Sleeping Venus looks straight at the viewer.",
+   "isTrue": false,
+   "explanation": "Her eyes are closed; the direct gaze came later with Titian and Manet."
+  },
+  {
+   "text": "Giorgione left the canvas unfinished when he died in 1510.",
+   "isTrue": true,
+   "explanation": "Titian completed the landscape and a Cupid."
+  },
+  {
+   "text": "The painting has always hung in Venice.",
+   "isTrue": false,
+   "explanation": "It has been in Dresden since 1699, apart from ten years in the Soviet Union after 1945."
+  }
+ ]
+}

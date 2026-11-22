@@ -1,0 +1,240 @@
+{
+ "teaser": "Local farmers tried to stop this pond from existing. Monet dug it anyway, then painted it for decades.",
+ "focus": [
+  0.55,
+  0.3
+ ],
+ "review_notes": "Opposition of Giverny residents to the diversion of the Ru in 1893, and Monet's angry letter telling his wife to throw the aquatic plants in the river: well documented but check wording (paraphrased, not quoted).\nPermission granted by the prefect of the Eure in summer 1893.\nBridge built around 1895 and painted green; wisteria trellis added in the following decade.\nMonet's collection of more than 200 Japanese prints; he never visited Japan.\nLatour-Marliac nursery as supplier of colored hardy water lilies (shown at the 1889 Paris World's Fair).\nThe bridge now at Giverny is a reconstruction from the garden's restoration in the 1970s.\nCount of 12 bridge views painted in 1899 (18 across 1899-1900).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1893 Claude Monet asked the authorities for permission to divert a little stream called the Ru into a plot he had just bought in Giverny. He wanted a pond. His neighbors said no. Farmers who watered their cattle downstream feared that his strange foreign plants would poison the water."
+  },
+  {
+   "type": "text",
+   "text": "Monet was furious. In a letter to his wife he raged that the plants might as well be thrown in the river. Then he calmed down, wrote to the prefect, the government's local official, and explained that the pond was only for pleasure and for having subjects to paint. A few months later he got his permit."
+  },
+  {
+   "type": "text",
+   "text": "So the scene in front of you is not wild nature. Every reed and flower was ordered, planted and placed. Around 1895 Monet added the last piece: an arched wooden footbridge, modeled on the ones he knew from Japanese woodblock prints."
+  },
+  {
+   "type": "fact",
+   "text": "Monet never set foot in Japan. He knew it from paper: he owned more than two hundred Japanese prints, by artists such as Hokusai and Hiroshige, and hung them all over his house, including the dining room."
+  },
+  {
+   "type": "text",
+   "text": "He waited for the garden to grow in. Then, in the summer of 1899, he set up his easel at the edge of the pond and painted the bridge again and again, twelve canvases that year. This is one of them. Before you look at the flowers, notice how firmly the picture is built."
+  },
+  {
+   "type": "lines",
+   "text": "A simple skeleton holds all this greenery together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0,
+       0.14
+      ],
+      [
+       0.25,
+       0.07
+      ],
+      [
+       0.5,
+       0.045
+      ],
+      [
+       0.75,
+       0.07
+      ],
+      [
+       1,
+       0.14
+      ]
+     ],
+     "closed": false,
+     "label": "The arc",
+     "text": "The handrail sweeps from one edge to the other without showing where it lands. The bridge has no ends, so it seems to float, and the garden seems to continue beyond the frame."
+    },
+    {
+     "points": [
+      [
+       0.12,
+       0.52
+      ],
+      [
+       0.88,
+       0.52
+      ]
+     ],
+     "closed": false,
+     "label": "Bands of lilies",
+     "text": "The lily pads lie in horizontal strips. Each strip is thinner and closer to the next as you go up, which is how Monet tells you the water stretches away from you."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.58
+      ],
+      [
+       0.4,
+       0.9
+      ]
+     ],
+     "closed": false,
+     "label": "Reflections",
+     "text": "Between the strips, the strokes turn vertical. These are willows and reeds mirrored in the water. Flat pads, upright reflections: two directions make one surface."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Curve above, stripes below. The design is nearly symmetrical, calm as a pattern. That is another lesson from Japanese prints, which favored bold shapes, cropped views and flat areas over deep, window-like space."
+  },
+  {
+   "type": "key",
+   "text": "Monet first made his subject with a spade and a plant catalog, and only then with a brush. The garden was his largest work of art."
+  },
+  {
+   "type": "text",
+   "text": "Something is missing from this landscape, and once you spot the absence you cannot unsee it. The trees fill the top of the canvas right to the edge. There is no horizon and no open sky above the bridge."
+  },
+  {
+   "type": "find",
+   "text": "Monet hid a small piece of blue sky in the picture anyway. Where is it?",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.93,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Sky in the water",
+     "text": "A streak of blue lies at the very bottom, between the lily pads. It is the sky, reflected. In this painting you look down to see what is overhead."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That trick, the world above shown only on the water below, would occupy Monet for the rest of his life. Here it is still a small note. Twenty years later it would be the entire painting."
+  },
+  {
+   "type": "fact",
+   "text": "The water lilies were a novelty. A nurseryman in southwest France, Joseph Bory Latour-Marliac, had recently bred hardy lilies in pinks, yellows and reds. Monet saw them in Paris and ordered from his catalog."
+  },
+  {
+   "type": "tour",
+   "title": "Made of touches",
+   "text": "Come closer. The calm design is made of restless paint.",
+   "spots": [
+    {
+     "x": 0.69,
+     "y": 0.655,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "White blossoms",
+     "text": "Each flower is two or three thick dabs of white, with a faint mirror image under it. The paint stands up from the canvas like icing."
+    },
+    {
+     "x": 0.56,
+     "y": 0.36,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Reeds under the bridge",
+     "text": "Long, quick, upward strokes of light green and yellow fan out like a fountain. This clump sits right at the center, under the highest point of the arch."
+    },
+    {
+     "x": 0.34,
+     "y": 0.17,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "A bridge post",
+     "text": "The wood is not one green. Pale blue, turquoise and lilac strokes sit side by side, because the bridge is in shade and takes on the cool colors around it.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "If you visit Giverny today, the bridge looks different: it carries a canopy of wisteria, added some years after this picture, and the structure itself is a faithful rebuild. The 1899 paintings show the bridge at its plainest."
+  },
+  {
+   "type": "fact",
+   "text": "Keeping the motif perfect took staff. Monet eventually employed a team of gardeners, and visitors reported that one of them had the job of looking after the pond and its lilies alone."
+  },
+  {
+   "type": "text",
+   "text": "The farmers of Giverny worried about a few exotic plants in their stream. They could not have guessed that the small pond they tried to block would become one of the most painted patches of water in history."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why did Monet's neighbors oppose his pond?",
+   "options": [
+    "They feared his foreign plants would poison the water for their cattle",
+    "They disliked his paintings",
+    "They wanted the land for a railway"
+   ],
+   "answer": 0,
+   "explanation": "Farmers downstream worried about the exotic plants."
+  },
+  {
+   "question": "Where did the idea for the arched bridge come from?",
+   "options": [
+    "A trip Monet made to Tokyo",
+    "Japanese woodblock prints he collected",
+    "A bridge in Venice"
+   ],
+   "answer": 1,
+   "explanation": "Monet never went to Japan but owned over two hundred prints."
+  },
+  {
+   "question": "Where does the sky appear in this painting?",
+   "options": [
+    "Above the trees",
+    "Nowhere at all",
+    "Only as a reflection at the bottom of the pond"
+   ],
+   "answer": 2,
+   "explanation": "A streak of blue between the lily pads is the reflected sky."
+  },
+  {
+   "question": "How does Monet show that the pond recedes into the distance?",
+   "options": [
+    "The lily strips get thinner and closer together toward the top",
+    "He paints a horizon line",
+    "The far lilies are painted gray"
+   ],
+   "answer": 0,
+   "explanation": "Narrowing horizontal bands suggest depth."
+  },
+  {
+   "question": "Why does the bridge seem to float?",
+   "options": [
+    "It is painted white",
+    "Its ends are cut off by the edges of the canvas",
+    "It has no railings"
+   ],
+   "answer": 1,
+   "explanation": "The arc crosses the whole canvas without showing where it lands."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The pond in this painting was a natural feature that Monet discovered on a walk.",
+   "isTrue": false,
+   "explanation": "He had it dug and planted after getting permission to divert a stream."
+  },
+  {
+   "text": "Monet painted twelve views of the bridge in 1899.",
+   "isTrue": true,
+   "explanation": "This canvas is one of the twelve he made that summer."
+  },
+  {
+   "text": "The bridge in the painting is covered with wisteria.",
+   "isTrue": false,
+   "explanation": "The wisteria canopy was added some years later."
+  }
+ ]
+}

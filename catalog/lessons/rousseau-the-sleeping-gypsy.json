@@ -1,0 +1,298 @@
+{
+ "teaser": "He offered it to his hometown. The mayor never bought it. Then it vanished for 25 years.",
+ "focus": [
+  0.66,
+  0.55
+ ],
+ "review_notes": "Offer to the mayor of Laval in 1898 for 1,800 to 2,000 francs; the quoted description is from that letter in the usual English translation (wording varies by translator).\nRediscovery in 1923 at a Paris charcoal dealer's (by critic Louis Vauxcelles), bought by Kahnweiler 1924, then John Quinn: details vary by source.\nRumor that Derain painted it as a hoax circulated in the 1920s.\nMoMA acquisition 1939 (gift of Mrs. Simon Guggenheim).\nRousseau retired from the toll service in 1893.\nTitle uses the historical term 'Gypsy' (French: La Bohémienne endormie).\nWorking method 'one color at a time' comes from Ardengo Soffici's account of watching him paint (reported for the jungle greens).\nSpot text says the sleeper's parted lips show teeth: check on a high-resolution image.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1898, Henri Rousseau wrote to the mayor of Laval, the small French town where he was born. He had a painting to offer his hometown, for somewhere between 1,800 and 2,000 francs. He was 54, and he hoped Laval would be proud to own a work by one of its sons. The town did not buy it."
+  },
+  {
+   "type": "text",
+   "text": "His letter described the picture with care. A wandering woman, a mandolin player, lies overcome by fatigue in a deep sleep, her jar of drinking water beside her. A lion happens to pass, picks up her scent, and does not devour her. He added: “There is a moonlight effect, very poetic.”"
+  },
+  {
+   "type": "text",
+   "text": "You can understand why a provincial mayor hesitated. In 1898, good painting meant convincing anatomy, soft shadows and correct perspective. Rousseau had taught himself, and it showed. Paris critics had been laughing at his entries for more than ten years."
+  },
+  {
+   "type": "fact",
+   "text": "Rousseau's nickname, Le Douanier, means “the customs officer.” It flatters him. He was a clerk at the Paris toll gates, checking carts for goods that owed city tax. He retired in 1893, at 49, to paint full time on a tiny pension."
+  },
+  {
+   "type": "text",
+   "text": "Now read his description again against the canvas. He says the lion does not eat her. Fine. But the painting never promises that. Everything hangs on one meeting, and Rousseau gives you just enough clues to keep you unsure."
+  },
+  {
+   "type": "tour",
+   "title": "A meeting in the desert",
+   "text": "Follow the lion from tail to nose, then meet the sleeper.",
+   "spots": [
+    {
+     "x": 0.17,
+     "y": 0.28,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "The tail",
+     "text": "Stiff, raised, with a pale tuft at the tip. A relaxed cat lets its tail hang. This one is alert."
+    },
+    {
+     "x": 0.68,
+     "y": 0.47,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "One round eye",
+     "text": "A perfect yellow circle, wide open, turned out of the picture toward you rather than down at the woman. Curious? Hungry? The eye gives nothing away."
+    },
+    {
+     "x": 0.79,
+     "y": 0.64,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The sleeper",
+     "text": "Her face is turned up to us, eyes closed, and her mouth shows a row of teeth, almost a smile. Whatever she is dreaming, it is not a nightmare."
+    },
+    {
+     "x": 0.63,
+     "y": 0.77,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The staff",
+     "text": "Even asleep, her hand stays closed around her walking stick. It is her only defense, and it would not be much use."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the picture is a held breath. Nothing has happened yet, and nothing in it tells you what comes next. That open ending is rare in 1890s painting, which loved clear stories with clear morals."
+  },
+  {
+   "type": "text",
+   "text": "The setting adds to the strangeness. The sand is smooth and empty, the water flat, the hills bare. Scan the ground around the lion and the woman: there is not a single footprint. Neither of them seems to have walked here."
+  },
+  {
+   "type": "fact",
+   "text": "A visitor who watched Rousseau at work reported an unusual habit: he painted one color at a time, finishing every patch of one tone across the canvas before mixing the next. It helps explain why each area looks so even and sealed."
+  },
+  {
+   "type": "text",
+   "text": "Critics said he could not draw. Yet the arrangement of this canvas is anything but clumsy. It is built from a few big, calm shapes that answer one another."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines hold the whole scene together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.6
+      ],
+      [
+       0.38,
+       0.6
+      ],
+      [
+       0.62,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "The water's edge",
+     "text": "A dead-level horizon divides the canvas into sky above, earth below. Nothing moves along it. The stillness of the picture starts here."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.38
+      ],
+      [
+       0.52,
+       0.33
+      ],
+      [
+       0.68,
+       0.42
+      ]
+     ],
+     "closed": false,
+     "label": "The lion's back",
+     "text": "The animal stands as a long horizontal block, dark against the sky, like a bridge over the sleeper. He covers her more than he threatens her."
+    },
+    {
+     "points": [
+      [
+       0.3,
+       0.76
+      ],
+      [
+       0.56,
+       0.7
+      ],
+      [
+       0.84,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The sleeper",
+     "text": "Her body slopes gently upward toward the lion's muzzle. The two figures meet at a single point, nose to shoulder, and the eye keeps returning there."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Inside those calm shapes, Rousseau spends his patience on surfaces. He admired the polished, official painters of his day and wanted the same finish. He simply applied it to things no official painter would have dreamed up."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.84,
+     "y": 0.08,
+     "zoom": 3.2,
+     "r": 0.05,
+     "title": "The moon",
+     "text": "A full moon with a faint face modeled in gray. It is the only light source, yet the shadows on the ground are barely there."
+    },
+    {
+     "x": 0.59,
+     "y": 0.45,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The mane",
+     "text": "Each lock is a separate wavy stroke, combed like hair in a barber's window. Rousseau paints what he knows about a mane, strand by strand."
+    },
+    {
+     "x": 0.48,
+     "y": 0.8,
+     "zoom": 2,
+     "r": 0.14,
+     "title": "The striped robe",
+     "text": "Bands of pink, blue, yellow and green ripple over her body. These are the brightest colors in the picture, and they make the sleeper glow against brown sand."
+    },
+    {
+     "x": 0.74,
+     "y": 0.83,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The mandolin",
+     "text": "Seen from straight above while the woman is seen from the side. Count the strings and pegs: he draws the instrument as a diagram, complete and exact."
+    },
+    {
+     "x": 0.955,
+     "y": 0.8,
+     "zoom": 2.8,
+     "r": 0.06,
+     "title": "The water jar",
+     "text": "A plain clay jar, the “vase with drinking water” of his letter. Its red-brown repeats the lion's color at the far edge of the canvas."
+    },
+    {
+     "x": 0.31,
+     "y": 0.77,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Bare feet",
+     "text": "Dark toes with pale nails, pointing at us. She has walked a long way, Rousseau wants you to know, even if the sand kept no trace."
+    },
+    {
+     "x": 0.94,
+     "y": 0.965,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "Signature",
+     "text": "“Henri Rousseau” and the date, 1897, in careful script. He showed the canvas that spring in Paris at the Salon des Indépendants, an exhibition with no jury."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "After Laval's refusal, the canvas dropped out of sight. It turned up again in Paris in 1923, reportedly in the shop of a charcoal merchant. Rousseau had been dead for thirteen years, and by then the young painters who had once teased him were famous."
+  },
+  {
+   "type": "fact",
+   "text": "The picture was so odd, and so suddenly found, that a rumor ran through 1920s Paris: it was a fake, a prank painted by the modern artist André Derain. It was not. An American collector, John Quinn, bought it, and in 1939 it entered the Museum of Modern Art in New York."
+  },
+  {
+   "type": "key",
+   "text": "Rousseau did not paint a story with an ending. He painted the second before one, and left the rest to you."
+  },
+  {
+   "type": "text",
+   "text": "The canvas is large, about 1.3 by 2 meters (roughly 4 by 6.5 feet), so in the museum the lion is nearly as big as a real one. Stand in front of it and the old question comes back, still unanswered. Is he passing by, or has he just arrived?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What happened when Rousseau offered the painting to his hometown of Laval?",
+   "options": [
+    "The town bought it for 2,000 francs",
+    "The town did not buy it",
+    "The mayor asked for a different subject"
+   ],
+   "answer": 1,
+   "explanation": "Laval turned down his offer, and the painting later disappeared from view."
+  },
+  {
+   "question": "What did Rousseau actually do for a living before retiring?",
+   "options": [
+    "He was a toll clerk in Paris",
+    "He was a lion tamer",
+    "He was a ship's customs captain"
+   ],
+   "answer": 0,
+   "explanation": "He checked goods at the Paris toll gates; “customs officer” was a flattering nickname."
+  },
+  {
+   "question": "What is missing from the sand around the two figures?",
+   "options": [
+    "Shadows of the mountains",
+    "Stars",
+    "Footprints"
+   ],
+   "answer": 2,
+   "explanation": "The sand is perfectly smooth, as if neither the lion nor the woman had walked there."
+  },
+  {
+   "question": "According to Rousseau's own letter, what does the lion do?",
+   "options": [
+    "It attacks the sleeper",
+    "It picks up her scent but does not devour her",
+    "It guards her water jar"
+   ],
+   "answer": 1,
+   "explanation": "He wrote that the lion catches her scent yet does not eat her."
+  },
+  {
+   "question": "What rumor surrounded the painting when it resurfaced in the 1920s?",
+   "options": [
+    "That it was a fake painted by André Derain",
+    "That it had been stolen from Laval",
+    "That the lion was added later"
+   ],
+   "answer": 0,
+   "explanation": "Some people believed it was a hoax by Derain; it was genuine."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The lion's eye looks down at the sleeping woman.",
+   "isTrue": false,
+   "explanation": "The round yellow eye is turned outward, toward the viewer."
+  },
+  {
+   "text": "The painting was lost from view for about a quarter of a century before turning up in Paris.",
+   "isTrue": true,
+   "explanation": "It resurfaced in 1923 after Laval declined it in 1898."
+  },
+  {
+   "text": "Rousseau trained at the official art school in Paris.",
+   "isTrue": false,
+   "explanation": "He was self-taught and worked as a toll clerk until 1893."
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "teaser": "A real shark attack in Havana harbor, painted by a man who had never seen a shark.",
+ "focus": [
+  0.5,
+  0.75
+ ],
+ "review_notes": "Attack: Havana harbor, 1749, Brook Watson aged 14; first strike took flesh from the right calf, second took the right foot; leg amputated below the knee. Lord Mayor of London 1796-97.\nWatson probably commissioned the painting (generally assumed, not documented).\nWill: bequeathed to Christ's Hospital as 'a most usefull Lesson to Youth'; bought by the NGA in 1963.\nPreparatory drawings show a white sailor where the Black sailor now stands.\nWatson's pose is usually linked to ancient sculpture (Borghese Gladiator / Laocoon); the lesson stays general.\nSecond full-size version in the Museum of Fine Arts, Boston.\nSize about 182 x 230 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Nothing in this picture has happened yet. The hands have not reached the boy. The harpoon has not come down. The jaws have not closed. Copley stops the clock one heartbeat before all three, and leaves you to hold your breath for the next 250 years."
+  },
+  {
+   "type": "text",
+   "text": "The scene is true. In 1749 a 14-year-old orphan named Brook Watson, working on a trading ship, went for a swim in the harbor of Havana, Cuba. A shark struck him. It tore the flesh from his right calf, came back and took his foot at the ankle, then turned for a third pass. That third pass is the painting."
+  },
+  {
+   "type": "tour",
+   "title": "Three unfinished actions",
+   "text": "Each group in the picture is caught a fraction of a second too early.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.7,
+     "zoom": 2.8,
+     "r": 0.13,
+     "title": "Hands that fall short",
+     "text": "Two sailors hang over the side, one gripping the other's shirt. Their fingers and Watson's raised hand grasp at the same patch of air and miss."
+    },
+    {
+     "x": 0.69,
+     "y": 0.17,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "The boat hook",
+     "text": "A young officer plants one foot on the bow and drives a long boat hook downward. His hair and coat fly back with the effort. The point is still in the air.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.7,
+     "y": 0.84,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The jaws",
+     "text": "The mouth gapes wider than any real shark's, ringed with small pale teeth. It is aimed straight at the boy's head."
+    },
+    {
+     "x": 0.435,
+     "y": 0.825,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "Watson's face",
+     "text": "Upside down, mouth open, eyes rolled toward the shark. His long fair hair streams out in the water like weed."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "He lived. His shipmates hauled him in, and a surgeon removed the leg below the knee. Brook Watson went on to become a wealthy merchant, a member of Parliament and, in 1796, Lord Mayor of London, walking on a wooden leg the whole way."
+  },
+  {
+   "type": "fact",
+   "text": "Watson probably ordered the picture himself, almost thirty years after the attack. It is a rare thing: a self-made man commissioning a huge painting of the worst day of his life."
+  },
+  {
+   "type": "text",
+   "text": "John Singleton Copley was a newcomer too. Boston's best portrait painter, he had sailed for Europe in 1774, just before the American Revolution, hoping to try history painting: big canvases of noble events, then ranked as the highest kind of art. Its heroes were generals, saints and kings."
+  },
+  {
+   "type": "text",
+   "text": "A cabin boy bitten while swimming was none of those. Copley's nerve was to treat a recent accident, with no famous name in it, as seriously as a battle. To do that he built it the way the old masters built their grandest scenes."
+  },
+  {
+   "type": "lines",
+   "text": "Under the panic there is strict geometry.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.04,
+       0.56
+      ],
+      [
+       0.585,
+       0.11
+      ],
+      [
+       0.86,
+       0.58
+      ]
+     ],
+     "closed": true,
+     "label": "The pyramid",
+     "text": "Boat and crew form a triangle with its base on the water and its peak at the standing sailor's head. A stable shape that makes the chaos readable."
+    },
+    {
+     "points": [
+      [
+       0.655,
+       0.0
+      ],
+      [
+       0.7,
+       0.28
+      ],
+      [
+       0.775,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The strike",
+     "text": "The boat hook cuts a steep diagonal from the top edge toward the shark's back. It is the fastest line in the picture."
+    },
+    {
+     "points": [
+      [
+       0.46,
+       0.29
+      ],
+      [
+       0.52,
+       0.5
+      ],
+      [
+       0.39,
+       0.72
+      ],
+      [
+       0.54,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "The chain of arms",
+     "text": "From the standing sailor's open hand, through the old man's fists on a shirt, down to the reaching fingers and across to Watson: one human chain, with a gap at the end."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Look at who stands at the top of that pyramid. A Black sailor, upright and calm, holds the rescue rope while his other hand opens toward the boy. Copley's drawings show he first planned a white man there. In 1778, giving that central place to a Black figure, shown with dignity, was highly unusual. Why he made the change is still debated."
+  },
+  {
+   "type": "fact",
+   "text": "Copley never set foot in Cuba. He pieced Havana together from prints and maps in London: the towers of the city on the left, the Morro Castle fortress guarding the harbor mouth on the right."
+  },
+  {
+   "type": "text",
+   "text": "About that rope. It runs from the sailor's hand, down the side of the boat and into the waves. A rescue line is useless unless it arrives. Did this one?"
+  },
+  {
+   "type": "find",
+   "text": "Follow the rope into the water. Find the spot where it actually touches Watson.",
+   "spots": [
+    {
+     "x": 0.445,
+     "y": 0.78,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "So close",
+     "text": "The rope has fallen across his raised arm near the elbow. He has not grabbed it. His open hand is still stretched toward the men, his eyes are on the shark."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Help is literally resting on him and he does not know it. Copley also strips the boy naked and stretches him out like a marble statue from ancient Greece or Rome, the sort every art student copied. The pale body against the dark green water is the first thing you see and the last thing you forget."
+  },
+  {
+   "type": "text",
+   "text": "The shark is another matter. Copley had almost certainly never seen one, and it shows. Wander around the canvas and judge his animal for yourself, along with a few things he got quietly right."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.645,
+     "y": 0.72,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "A strange nostril",
+     "text": "A deep slit sits high on the snout, like a blowhole. Real shark nostrils are small openings underneath, near the mouth."
+    },
+    {
+     "x": 0.72,
+     "y": 0.735,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "The eye",
+     "text": "Yellow, round and set to look forward like a cat's. It gives the beast an expression, which is exactly what makes it frightening."
+    },
+    {
+     "x": 0.93,
+     "y": 0.44,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The tail",
+     "text": "Far off to the right a tail fin rises from the swell, telling you how long the body under the water must be."
+    },
+    {
+     "x": 0.13,
+     "y": 0.92,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The missing foot",
+     "text": "One foot shows above the surface. The other leg fades into murky water. Copley hints at the wound and spares us the sight of it."
+    },
+    {
+     "x": 0.52,
+     "y": 0.42,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The old sailor",
+     "text": "Bald, jaw clenched, he anchors a younger man by the shirt with both fists. Nobody gave him an order. He just holds on."
+    },
+    {
+     "x": 0.66,
+     "y": 0.43,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The oarsman",
+     "text": "A sailor in a striped shirt keeps rowing and stares past us, wide-eyed. Someone has to keep the boat steady."
+    },
+    {
+     "x": 0.19,
+     "y": 0.25,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The harbor",
+     "text": "Ships at anchor, sails drying, church towers in a golden haze. An ordinary calm morning goes on a few hundred yards away."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The picture was the hit of the Royal Academy show in 1778, and Copley painted a second full-size version to keep for himself. That one now hangs in Boston, the city he left and never saw again."
+  },
+  {
+   "type": "text",
+   "text": "Londoners had never seen anything like it: terror as entertainment, with an ordinary person at the center. You can draw a line from here to the shipwrecks of Romantic painting forty years later, and on to every poster of a fin cutting through water."
+  },
+  {
+   "type": "key",
+   "text": "Copley proved that a modern, unglamorous event could carry the weight of grand painting, as long as the picture was built with care and stopped at the right second."
+  },
+  {
+   "type": "text",
+   "text": "Watson left the canvas in his will to Christ's Hospital, a London school for poor children, hoping it would be “a most usefull Lesson to Youth.” Generations of pupils grew up under it: proof that an orphan with one leg could end up running the city."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which moment of the attack does Copley paint?",
+   "options": [
+    "The shark's first bite",
+    "The shark's third pass, just before rescue",
+    "Watson safe in the boat"
+   ],
+   "answer": 1,
+   "explanation": "The shark had struck twice and was returning a third time."
+  },
+  {
+   "question": "Where did the attack take place?",
+   "options": [
+    "Boston harbor",
+    "The Thames in London",
+    "Havana harbor, Cuba"
+   ],
+   "answer": 2,
+   "explanation": "Watson was swimming in the harbor of Havana in 1749."
+  },
+  {
+   "question": "What happened to Brook Watson afterwards?",
+   "options": [
+    "He became Lord Mayor of London",
+    "He died of his wounds",
+    "He became a painter"
+   ],
+   "answer": 0,
+   "explanation": "He lost his leg below the knee but rose to be Lord Mayor in 1796."
+  },
+  {
+   "question": "Who stands at the top of the pyramid of figures?",
+   "options": [
+    "Copley himself",
+    "The ship's captain",
+    "A Black sailor holding the rope"
+   ],
+   "answer": 2,
+   "explanation": "He occupies the peak of the composition, rope in hand."
+  },
+  {
+   "question": "Where is the rescue rope when the picture freezes?",
+   "options": [
+    "Still coiled in the boat",
+    "Lying across Watson's raised arm",
+    "In the shark's mouth"
+   ],
+   "answer": 1,
+   "explanation": "It has landed on his arm, but he has not grasped it."
+  },
+  {
+   "question": "How did Copley know what Havana looked like?",
+   "options": [
+    "From prints and maps",
+    "He grew up there",
+    "Watson took him on a trip"
+   ],
+   "answer": 0,
+   "explanation": "He never went to Cuba and worked from printed views."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Copley based the shark on animals he had studied in the Caribbean.",
+   "isTrue": false,
+   "explanation": "He had almost certainly never seen a shark, which is why its nostril and eye look wrong."
+  },
+  {
+   "text": "Brook Watson gave the painting to a school as a lesson for young people.",
+   "isTrue": true,
+   "explanation": "He bequeathed it to Christ's Hospital in London."
+  },
+  {
+   "text": "History painting in Copley's day usually showed ordinary people in everyday accidents.",
+   "isTrue": false,
+   "explanation": "Its usual heroes were generals, saints and kings, which made Copley's choice daring."
+  }
+ ]
+}

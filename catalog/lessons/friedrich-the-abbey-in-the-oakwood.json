@@ -1,0 +1,45 @@
+{
+  "teaser": "A funeral walks into a ruined church at dusk. Look up: something new is in the sky.",
+  "focus": [0.5, 0.58],
+  "review_notes": "Friedrich's father died in November 1809; Swedish Pomerania (with Greifswald) under French occupation from 1807.\nThe 1808-09 quarrel over the Tetschen Altar (critic Basilius von Ramdohr).\nPair bought by the Prussian king in 1810 for 450 thalers; Friedrich elected member of the Berlin Academy the same year.\nRuin based on Eldena Abbey near Greifswald; local reuse of its bricks, and protection of the ruin from the late 1820s.\nThe image is very dark in its lower third: the coffin, the crucifix in the portal and the open grave are described from the literature and are only dimly visible here; the monks and leaning crosses are visible.\nThe crescent is usually read as a waxing (new) moon; some authors discuss dawn versus dusk.\nRestoration of both pendants in Berlin, 2013-2016.\nDate usually given as 1809-10; size 110.4 x 171 cm.",
+  "lesson": [
+    {"type": "text", "text": "The year he painted this, Caspar David Friedrich was 35, unmarried, and living in plain rented rooms in Dresden. He earned little. His father, a soap and candle maker, died in November 1809 in the family's hometown of Greifswald, on the Baltic coast. And that hometown, like most of Germany, was under Napoleon's armies."},
+    {"type": "text", "text": "His career was at a risky point as well. A few months earlier a critic had publicly attacked him for daring to use a landscape as a church altarpiece. Friedrich's answer was to go further. He began two large canvases of the same size, with almost nothing cheerful in either of them. This is the second."},
+    {"type": "text", "text": "The ruin is real. It is what remained of Eldena, a medieval monastery a short walk from where Friedrich grew up. He had drawn it since his twenties. In life it stood in open fields near a village. In the painting he moved it into a ring of dead-looking oaks and added snow, fog and a graveyard."},
+    {"type": "fact", "text": "For generations, people living near Eldena had carted off its bricks to build with. Friedrich's pictures made the ruin famous, and in the decades that followed it was finally protected. You can still visit it."},
+    {"type": "text", "text": "The canvas is the size of a large dining table, 110 by 171 cm (about 43 by 67 inches), and its bottom third is nearly black. Your eyes need time, as they would outdoors at nightfall. Then small shapes start to separate from the dark."},
+    {"type": "tour", "title": "Out of the dark", "text": "Begin where the light is and go down into the shadow.", "spots": [
+      {"x": 0.495, "y": 0.6, "zoom": 3, "r": 0.07, "shape": "rect", "title": "The window", "text": "One tall Gothic window, its stone tracery still intact, cut out against the glowing sky. No roof, no glass. It is all that is left of the church wall."},
+      {"x": 0.48, "y": 0.89, "zoom": 3.4, "r": 0.09, "title": "The procession", "text": "Small hooded figures, monks in dark robes, file toward the doorway under the window. They are carrying a coffin into a church that no longer exists."},
+      {"x": 0.745, "y": 0.92, "zoom": 3.4, "r": 0.06, "title": "Leaning crosses", "text": "Grave markers tilt in the snow on every side. The cemetery is as neglected as the building. Whoever is being buried joins people already forgotten."}
+    ]},
+    {"type": "text", "text": "Monks had been gone from Eldena for almost three hundred years when Friedrich painted them. So this is no scene he witnessed. It is closer to a vision: a burial held by ghosts, in a ruin, in winter, among trees that look dead. Every element says the same thing, ending."},
+    {"type": "key", "text": "Friedrich builds meaning the way a poet does, by piling up images that rhyme: bare oak, broken wall, tilted cross, open grave."},
+    {"type": "text", "text": "And yet the picture is not only dark. The mist behind the trees glows a soft yellow, and the upper sky is lighter than the ground. Friedrich also placed one very small object up there that changes the mood for anyone who notices it."},
+    {"type": "find", "text": "Something thin and bright hangs in the sky. Can you find it?", "spots": [{"x": 0.642, "y": 0.285, "zoom": 4.5, "r": 0.03, "title": "The crescent", "text": "A hair-thin sickle moon, above and to the right of the ruin. A moon this slender is just beginning to grow. In a painting about endings, it is a quiet sign of a beginning."}]},
+    {"type": "text", "text": "Friedrich was a believing Lutheran, and for him death opened onto something. The funeral moves toward the portal and the light behind it, away from us. Viewers in occupied Germany could also read a second hope into the oaks, a tree long tied to the idea of the German nation: stripped by winter, but not felled."},
+    {"type": "fact", "text": "The painter built this gloom from a narrow palette of browns, grays and yellows, laid on in thin, smooth layers with hardly a visible brushstroke. Old varnish later turned the whole surface darker and yellower, until a restoration in Berlin in the 2010s cleaned it."},
+    {"type": "text", "text": "In the autumn of 1810 he sent the two canvases to the big exhibition in Berlin. They hung as a pair: an empty seashore above, this graveyard below. People argued about them. Then the king of Prussia bought both, for 450 thalers, and the Berlin art academy elected Friedrich a member. The poor painter from the provinces was suddenly a name."},
+    {"type": "explore", "spots": [
+      {"x": 0.37, "y": 0.46, "zoom": 2.2, "r": 0.11, "shape": "rect", "title": "The tall oak", "text": "Each twisted branch is drawn like handwriting. Friedrich copied oaks from his own nature sketches, often using the same tree in several paintings."},
+      {"x": 0.63, "y": 0.44, "zoom": 2.4, "r": 0.09, "shape": "rect", "title": "The broken trunk", "text": "This oak has lost its crown. The stump ends in splinters, yet side branches still reach out toward the moon."},
+      {"x": 0.17, "y": 0.5, "zoom": 2.4, "r": 0.09, "title": "Bent by wind", "text": "The outer trees are smaller and lean inward, so that the whole grove curves around the ruin like a broken arch."},
+      {"x": 0.86, "y": 0.57, "zoom": 2, "r": 0.13, "title": "The band of light", "text": "Where the fog meets the sky the yellow is strongest. There is no visible sun. The light seems to come from the mist itself."},
+      {"x": 0.5, "y": 0.955, "zoom": 3, "r": 0.08, "title": "The foreground", "text": "A darker patch in the snow in front of the monks is usually described as an open grave. The procession has walked past it."},
+      {"x": 0.495, "y": 0.52, "zoom": 3, "r": 0.08, "title": "The wall's edge", "text": "The top of the ruin is ragged, with brick showing. The straight lines of the window are the only geometry in a picture full of crooked things."}
+    ]},
+    {"type": "text", "text": "Success did not make him cheerful. For the next thirty years Friedrich kept returning to ruins, graves and bare trees. But remember the crescent the next time one of his pictures looks hopeless to you. He nearly always leaves one small light somewhere."}
+  ],
+  "quiz": [
+    {"question": "What was Friedrich's situation when he painted this?", "options": ["He was a wealthy court painter", "He was poor, and his father had just died", "He was in exile in Paris"], "answer": 1, "explanation": "He was 35, earning little, and lost his father in November 1809."},
+    {"question": "What real place is the ruin based on?", "options": ["A cathedral in Dresden", "A castle on the Rhine", "Eldena, a monastery near his hometown"], "answer": 2, "explanation": "He had drawn the Eldena ruin near Greifswald since his twenties."},
+    {"question": "What are the small hooded figures doing?", "options": ["Carrying a coffin toward the doorway", "Rebuilding the wall", "Cutting down the oaks"], "answer": 0, "explanation": "A procession of monks brings a coffin into the roofless church."},
+    {"question": "What quiet sign of a beginning hangs in the sky?", "options": ["A rainbow", "A thin crescent moon", "A flock of doves"], "answer": 1, "explanation": "A slender moon is one that is just starting to grow."},
+    {"question": "What happened after the painting was shown in Berlin in 1810?", "options": ["It was destroyed by an angry viewer", "It was sent back unsold", "The king of Prussia bought it with its companion"], "answer": 2, "explanation": "The king paid 450 thalers for the pair and the academy made Friedrich a member."}
+  ],
+  "facts": [
+    {"text": "Friedrich painted the ruin exactly as it stood, in the middle of an oak forest.", "isTrue": false, "explanation": "The real ruin stood in open fields; he added the oaks, snow and graveyard."},
+    {"text": "The painting was exhibited as one of a pair.", "isTrue": true, "explanation": "It hung with a seashore picture of the same size."},
+    {"text": "Monks still lived at the abbey when Friedrich painted it.", "isTrue": false, "explanation": "They had been gone for almost three hundred years."}
+  ]
+}

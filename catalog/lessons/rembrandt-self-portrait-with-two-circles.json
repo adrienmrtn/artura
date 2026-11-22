@@ -1,0 +1,240 @@
+{
+ "teaser": "Buyers said his late paintings looked unfinished. This one answers them without a word.",
+ "focus": [
+  0.44,
+  0.3
+ ],
+ "review_notes": "Houbraken's anecdotes (1718): Rembrandt pulling visitors back from his pictures because the smell of paint would bother them; a portrait so thickly painted it could be lifted by the nose. Reported decades after his death.\nX-ray findings: he first showed himself in the act of painting with a raised arm, and with the tools in the other hand as in a mirror.\nLines scratched into wet paint with the brush handle: located here in the white shirt from what the image shows; literature also mentions the moustache.\nDate: catalog says 1665; scholars give about 1665 to 1669. Unsigned and undated.\nSize about 114 x 94 cm. Given to the nation with Kenwood by the Earl of Iveagh, 1927.\nTheories on the circles (world map hemispheres, Giotto's freehand circle) are hypotheses.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "People who visited Rembrandt's studio in his last years tended to walk right up to the canvases, noses almost on the paint. According to an early biographer, he would pull them back, saying the smell of the colors would bother them. His pictures were not made to be inspected like jewelry."
+  },
+  {
+   "type": "text",
+   "text": "Many Amsterdam buyers disagreed. By the 1660s, fashion favored smooth, polished surfaces where no brushstroke showed. Rembrandt's late work looked rough to them, even unfinished. One joke claimed the paint on a portrait of his was so thick you could lift it by the nose."
+  },
+  {
+   "type": "text",
+   "text": "This is the man they were talking about, near sixty, painting himself at work. He wears a fur-trimmed robe and a plain white linen cap. He has no gold chain and no fancy hat. He stands square to you with the tools of his trade."
+  },
+  {
+   "type": "find",
+   "text": "He holds his equipment in one bundle. Where is it?",
+   "spots": [
+    {
+     "x": 0.62,
+     "y": 0.65,
+     "zoom": 2.6,
+     "r": 0.14,
+     "title": "Palette, brushes, stick",
+     "text": "A flat wooden palette, a handful of brushes and a long maulstick, the rod painters lean on to steady the wrist. The hand that grips them is a blur of a few brown strokes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That missing hand is a choice. Rembrandt could paint fingers better than almost anyone alive. Here he leaves them as a smear, because a sharp hand would pull your eye down and away from the face. He decides what you look at by deciding what to finish."
+  },
+  {
+   "type": "fact",
+   "text": "X-rays show he began differently: with an arm raised, in the act of painting. He also first put the tools in the other hand, exactly as his mirror showed them, then swapped them so he would not look left-handed."
+  },
+  {
+   "type": "text",
+   "text": "Now the wall behind him. Most portraits of the time used a dark, empty background. Rembrandt painted a pale surface, and on it, two huge curves that run off the edges of the canvas."
+  },
+  {
+   "type": "lines",
+   "text": "Neither circle is complete. Trace what is there.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.86,
+       0.02
+      ],
+      [
+       0.76,
+       0.11
+      ],
+      [
+       0.715,
+       0.23
+      ],
+      [
+       0.715,
+       0.34
+      ],
+      [
+       0.75,
+       0.45
+      ],
+      [
+       0.82,
+       0.52
+      ],
+      [
+       0.9,
+       0.555
+      ],
+      [
+       0.99,
+       0.57
+      ]
+     ],
+     "closed": false,
+     "label": "The right circle",
+     "text": "A big arc drawn in thin dark paint, cut off by the canvas edge. It looks steady enough to have been swung in a single movement of the arm."
+    },
+    {
+     "points": [
+      [
+       0.35,
+       0.07
+      ],
+      [
+       0.38,
+       0.13
+      ],
+      [
+       0.395,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The left circle",
+     "text": "Only a short stretch survives above his cap before his own head hides the rest. He stands in front of the circles, between them."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nobody knows for sure what they are. Some think of the twin round maps of the world that hung in Dutch homes. Others recall a story about the Italian painter Giotto, who proved his skill to a pope's messenger by drawing a perfect circle freehand. Rembrandt left no explanation."
+  },
+  {
+   "type": "key",
+   "text": "If the Giotto reading is right, the circles are a quiet boast: a painter accused of sloppiness stands in front of the hardest shape to draw by hand."
+  },
+  {
+   "type": "text",
+   "text": "The roughness his critics disliked is everywhere, and it is deliberate. From arm's length the surface is a mess of dabs. From across a room it turns into flesh, cloth and hair. He is asking you to stand back, just as he told his visitors."
+  },
+  {
+   "type": "tour",
+   "title": "Rough on purpose",
+   "text": "Three places where you can see how the paint went on.",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.2,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The cap",
+     "text": "A few fat strokes of white, almost sculpted. You can follow the direction of the brush as it pushed the paint around."
+    },
+    {
+     "x": 0.44,
+     "y": 0.31,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The face",
+     "text": "The most worked area of the canvas. Layers of pink, yellow and gray build the sagging skin, with one eye sunk deeper in shadow than the other."
+    },
+    {
+     "x": 0.45,
+     "y": 0.45,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The shirt",
+     "text": "In the white linen under his chin, wiry lines were scratched into the wet paint, most likely with the wooden end of the brush."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The picture is neither signed nor dated, which is unusual for Rembrandt. That, and the sketchy lower half, have led some scholars to wonder whether he considered it finished at all."
+  },
+  {
+   "type": "text",
+   "text": "His life then was hard. He had gone bankrupt in 1656 and lost his grand house and his art collection. Hendrickje Stoffels, his partner, died in 1663. He was living in a rented house in a modest part of Amsterdam, still painting, still taking pupils."
+  },
+  {
+   "type": "text",
+   "text": "Two centuries on, the roughness had become the attraction. Painters of the 1800s who wanted visible brushwork looked to his late canvases as proof it could be done. The portrait now hangs at Kenwood House in London, part of a collection left to the public in 1927."
+  },
+  {
+   "type": "text",
+   "text": "So was he answering his critics, or simply painting what the mirror gave him that day? Stand back from the face, then come close to the hand, and decide which distance he meant you to keep."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did many Amsterdam buyers of the 1660s think of Rembrandt's late style?",
+   "options": [
+    "It was too smooth and cold",
+    "It looked rough, even unfinished",
+    "It was too colorful"
+   ],
+   "answer": 1,
+   "explanation": "Fashion favored polished surfaces, and his thick, visible strokes looked unfinished."
+  },
+  {
+   "question": "What is a maulstick?",
+   "options": [
+    "A rod a painter leans on to steady the wrist",
+    "A knife for mixing paint",
+    "A stick for drawing circles"
+   ],
+   "answer": 0,
+   "explanation": "It is the long rod he holds with his palette and brushes."
+  },
+  {
+   "question": "According to one theory, which painter's story do the circles recall?",
+   "options": [
+    "Leonardo",
+    "Vermeer",
+    "Giotto"
+   ],
+   "answer": 2,
+   "explanation": "Giotto was said to have proved his skill by drawing a perfect circle freehand."
+  },
+  {
+   "question": "How did Rembrandt paint the hand that holds the tools?",
+   "options": [
+    "In great detail, with every knuckle",
+    "He hid it behind the robe",
+    "As a blur of a few strokes"
+   ],
+   "answer": 2,
+   "explanation": "He left it vague so that your attention stays on the face."
+  },
+  {
+   "question": "What did X-rays reveal about the first version?",
+   "options": [
+    "He was shown in the act of painting, arm raised",
+    "He wore a gold chain",
+    "There were no circles"
+   ],
+   "answer": 0,
+   "explanation": "He began with a raised arm, then changed to the still pose we see."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting carries a clear signature and the date 1665.",
+   "isTrue": false,
+   "explanation": "It is neither signed nor dated, which is unusual for Rembrandt."
+  },
+  {
+   "text": "Rembrandt had gone bankrupt about ten years before painting this portrait.",
+   "isTrue": true,
+   "explanation": "He went bankrupt in 1656 and lost his house and collection."
+  },
+  {
+   "text": "Both circles on the wall are complete.",
+   "isTrue": false,
+   "explanation": "Each is cut off, one by the canvas edge and one by his own head."
+  }
+ ]
+}

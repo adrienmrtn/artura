@@ -1,0 +1,168 @@
+{
+ "teaser": "Turn this picture on its side and you get a vase of flowers. Redon did the opposite.",
+ "focus": [
+  0.55,
+  0.55
+ ],
+ "review_notes": "National Gallery dates the pastel about 1905-8; size about 64 x 91 cm: check.\nThe claim that Redon began it as an upright flower still life and then turned the sheet comes from the National Gallery's account: check wording.\nSale of the family estate Peyrelebade in 1897; Légion d'honneur 1903; own room at the 1904 Salon d'Automne: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1905 Odilon Redon was 65, and for the first time in his life things were easy. For decades he had been the man of strange black drawings, admired by a few poets and ignored by buyers. Now collectors wanted his flowers. The year before, a big Paris exhibition, the Salon d'Automne, had given him a room of his own."
+  },
+  {
+   "type": "text",
+   "text": "The change had started with a loss. In 1897 his family had to sell Peyrelebade, the lonely estate near Bordeaux where he grew up and where most of his dark charcoals were made. It hurt him. But he noticed afterward that the black was leaving his work, and color was taking its place."
+  },
+  {
+   "type": "text",
+   "text": "His favorite tool became pastel: sticks of almost pure powdered pigment, held together with very little binder. You draw and color in one move. Nothing has to dry, the tones stay as bright as the day they were made, and you can smudge them with a finger into a haze."
+  },
+  {
+   "type": "text",
+   "text": "Most of what he sold were bouquets in vases. This sheet began as one of them. The mass of blossoms on the left seems to have been drawn first, with the paper standing upright. Then Redon turned it on its side, and saw something else."
+  },
+  {
+   "type": "find",
+   "text": "A person is hidden in this picture. Can you find her face?",
+   "spots": [
+    {
+     "x": 0.76,
+     "y": 0.75,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Ophelia",
+     "text": "A woman's head in profile, facing left, in the lower right. Her eye is closed and her skin is the same ochre as the sky. A string of small white flowers runs through her hair."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With a profile and a title, a still life turned into a tragedy. Ophelia is the young woman in Shakespeare's Hamlet who loses her mind after her father is killed. She falls into a stream while hanging garlands of flowers on a willow, and drowns, singing."
+  },
+  {
+   "type": "fact",
+   "text": "English painters had made Ophelia famous half a century earlier. For his 1852 version, John Everett Millais had his model lie fully dressed in a bathtub for hours, and painted each riverside plant with a botanist's accuracy. Redon wanted none of that precision."
+  },
+  {
+   "type": "text",
+   "text": "So what was a bouquet has become the flowers she gathered, and the blue beneath her has become the water. Redon changed almost nothing in the drawing. He only changed what we take it for."
+  },
+  {
+   "type": "tour",
+   "title": "Flowers, water, sky",
+   "text": "Three zones, three ways of handling the same sticks of color.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.47,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The bouquet",
+     "text": "Red blooms dotted with white, sea-green leaves and bright blue petals, each shape crisp. None can be named with certainty. They are flowers of the imagination, floating free of any vase."
+    },
+    {
+     "x": 0.7,
+     "y": 0.47,
+     "zoom": 2,
+     "r": 0.14,
+     "title": "The blue pool",
+     "text": "Here the pastel is rubbed until no stroke remains, a soft cloud of turquoise. It can be read as water, as distance, or as the place where she is sinking."
+    },
+    {
+     "x": 0.75,
+     "y": 0.15,
+     "zoom": 1.9,
+     "r": 0.17,
+     "title": "The sky",
+     "text": "Yellow ochre and a patch of pink, dragged across the paper so its grain shows through. Against a brown cliff at the right, it glows like a late afternoon."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Redon does not illustrate the drowning. He lets color and a closed eye suggest it, and leaves you to decide whether she is dying, dreaming or already part of the landscape."
+  },
+  {
+   "type": "fact",
+   "text": "A pastel never truly sets. The powder sits on the surface of the paper and can be smeared by a single touch, which is why works like this one are kept under glass and shown in low light."
+  },
+  {
+   "type": "text",
+   "text": "One small mark breaks the calm. Just under Ophelia's chin, a few scribbled red lines cross the pale paper. They are the last sharp accent in the picture, placed where her body would meet the water."
+  },
+  {
+   "type": "text",
+   "text": "Redon drew Ophelia several times in these years, always with closed eyes. He liked subjects that stand at a threshold: sleep, silence, the moment before disappearing. You may still see only a bouquet turned sideways. He would not have minded."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did this picture apparently begin?",
+   "options": [
+    "As an upright still life of flowers in a vase",
+    "As a portrait of Redon's wife",
+    "As a copy of a painting by Millais"
+   ],
+   "answer": 0,
+   "explanation": "Redon seems to have turned a flower piece on its side."
+  },
+  {
+   "question": "What is pastel?",
+   "options": [
+    "Paint mixed with egg",
+    "Sticks of nearly pure powdered pigment",
+    "Ink diluted with water"
+   ],
+   "answer": 1,
+   "explanation": "Pastel is powdered pigment with very little binder."
+  },
+  {
+   "question": "Where is Ophelia's face?",
+   "options": [
+    "In the center of the bouquet",
+    "In the upper left corner",
+    "In the lower right, in profile"
+   ],
+   "answer": 2,
+   "explanation": "Her profile, eye closed, sits in the lower right."
+  },
+  {
+   "question": "Which play does Ophelia come from?",
+   "options": [
+    "Romeo and Juliet",
+    "Macbeth",
+    "Hamlet"
+   ],
+   "answer": 2,
+   "explanation": "She is the young woman who drowns in Shakespeare's Hamlet."
+  },
+  {
+   "question": "What painful event of 1897 went along with Redon's turn to color?",
+   "options": [
+    "The sale of the family estate, Peyrelebade",
+    "A fire in his Paris studio",
+    "His exile from France"
+   ],
+   "answer": 0,
+   "explanation": "The estate where he made his black drawings was sold."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Redon painted each plant so that it can be identified by species.",
+   "isTrue": false,
+   "explanation": "His flowers are imaginary; that kind of accuracy was Millais's approach."
+  },
+  {
+   "text": "Pastel works are kept under glass because the powder smears easily.",
+   "isTrue": true,
+   "explanation": "The pigment sits loose on the paper's surface."
+  },
+  {
+   "text": "In 1905 Redon was still unknown and unable to sell his work.",
+   "isTrue": false,
+   "explanation": "By then collectors sought his flowers and he had been given his own room at the Salon d'Automne."
+  }
+ ]
+}

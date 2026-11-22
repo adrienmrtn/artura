@@ -1,0 +1,335 @@
+{
+ "teaser": "Four Russian words, one triangle, one circle: a civil war told in geometry.",
+ "focus": [
+  0.55,
+  0.5
+ ],
+ "review_notes": "Date: usually given as 1919 or 1919-20; printed in Vitebsk by the political directorate of the Western Front (the bottom line reads 'Litizdat Politupravleniya Zapfronta').\nThe image may be a later reprint of the lithograph; original impressions are extremely rare.\nNikolai Kolli's 1918 'Red Wedge' monument in Moscow is often cited as a precedent.\nThe 1985 British musicians' collective Red Wedge took its name from the poster.\n'ЛЛ' at lower left is read as Lissitzky's initials (Lazar Lissitzky).\nLissitzky was turned away by the St Petersburg art academy (Jewish quota) and studied architecture in Darmstadt; the story of touring Europe on foot is traditional (kept as 'is said to').",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The point has just gone in. A red triangle, coming fast from the upper left, has broken the edge of a white circle and its tip is already near the center. Splinters fly. One second earlier, the circle was whole. One second later, it will be split. The poster holds that exact moment of impact."
+  },
+  {
+   "type": "text",
+   "text": "It was printed in the middle of a real war. After the 1917 revolution, Russia fell into civil war between the Reds, the Bolsheviks who had taken power, and the Whites, a loose alliance of their enemies. The artist, El Lissitzky, was on the Red side, and this sheet was made to be pasted on walls."
+  },
+  {
+   "type": "text",
+   "text": "So the colors are not a style choice. They are the two armies. And the title is not a caption added later: it is written on the image itself, in four words scattered across the sheet. Their order tells you how to read the picture."
+  },
+  {
+   "type": "tour",
+   "title": "Reading the slogan",
+   "text": "Four Russian words, placed so your eye follows the attack. Tap through them in order.",
+   "spots": [
+    {
+     "x": 0.135,
+     "y": 0.17,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "КЛИНОМ",
+     "text": "“With the wedge.” Black letters set on a slant, climbing at the same angle as the triangle's upper edge. The word leans into the charge."
+    },
+    {
+     "x": 0.175,
+     "y": 0.53,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "КРАСНЫМ",
+     "text": "“The red one.” Outlined letters running downhill along the triangle's lower edge. Word and shape now point together at the target."
+    },
+    {
+     "x": 0.715,
+     "y": 0.79,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "БЕЙ",
+     "text": "“Beat!” The only red word, and it sits inside the white circle. The order to strike has already landed in enemy territory."
+    },
+    {
+     "x": 0.84,
+     "y": 0.885,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "БЕЛЫХ",
+     "text": "“The Whites.” Gray, shaky letters pushed down into the corner, below and outside their own circle. The enemy is named last, and smallest."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Put together: “With the red wedge, beat the Whites.” You do not need to read Russian to get it, and that was the plan. Much of the population could not read at all. A triangle stabbing a circle is understood in half a second by anyone, in any language."
+  },
+  {
+   "type": "fact",
+   "text": "Lissitzky trained as an architect, not as a painter. Turned away by the art academy in St. Petersburg, which limited the number of Jewish students, he went to study in Darmstadt, Germany, and is said to have traveled around Europe on foot, sketching buildings."
+  },
+  {
+   "type": "text",
+   "text": "In 1919 the painter Marc Chagall invited him to teach at the art school in Vitebsk, a provincial town now in Belarus. A few months later Kazimir Malevich arrived there too, bringing Suprematism, his art of floating squares, bars and circles. Lissitzky was converted almost overnight."
+  },
+  {
+   "type": "text",
+   "text": "What he added was a purpose. Malevich's shapes drifted in a space outside the world. Lissitzky gave the same shapes a direction, an enemy and a job to do. The construction of the sheet shows how deliberately he aimed them."
+  },
+  {
+   "type": "lines",
+   "text": "Three decisions that turn flat shapes into a collision.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.15,
+       0.46
+      ],
+      [
+       0.27,
+       0.17
+      ],
+      [
+       0.66,
+       0.59
+      ]
+     ],
+     "closed": true,
+     "label": "The wedge",
+     "text": "A long, narrow triangle: the sharpest shape there is. It enters from the left, the side we start reading from, so it feels like it is moving forward."
+    },
+    {
+     "points": [
+      [
+       0.67,
+       0.03
+      ],
+      [
+       0.3,
+       0.96
+      ]
+     ],
+     "closed": false,
+     "label": "The front line",
+     "text": "A diagonal splits the sheet into a white zone and a black zone. The wedge starts in the light and drives into the dark, where the circle sits."
+    },
+    {
+     "points": [
+      [
+       0.66,
+       0.32
+      ],
+      [
+       0.8,
+       0.38
+      ],
+      [
+       0.88,
+       0.52
+      ],
+      [
+       0.88,
+       0.68
+      ],
+      [
+       0.8,
+       0.82
+      ],
+      [
+       0.66,
+       0.875
+      ],
+      [
+       0.52,
+       0.82
+      ],
+      [
+       0.45,
+       0.7
+      ],
+      [
+       0.44,
+       0.55
+      ],
+      [
+       0.5,
+       0.4
+      ]
+     ],
+     "closed": true,
+     "label": "The circle",
+     "text": "Round, closed and still: the circle is everything the wedge is not. Notice that it has no way to fight back. Its only possible fate is to be opened."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Lissitzky showed that abstract shapes could carry a message as clearly as a drawing of soldiers. Modern graphic design, from logos to protest posters, starts here."
+  },
+  {
+   "type": "fact",
+   "text": "At the bottom right of the sheet is the word УНОВИС, “Unovis.” It was the name of the group Malevich founded with his Vitebsk students and colleagues, short for “Champions of the New Art.” Members sewed a small black square onto their sleeves."
+  },
+  {
+   "type": "text",
+   "text": "Battle scenes usually have debris, and this one does too. Lissitzky scattered small fragments around the main shapes, and he left his own mark on the sheet. It is easy to miss."
+  },
+  {
+   "type": "find",
+   "text": "The artist signed with two small letters that look like twin peaks. Can you spot them?",
+   "spots": [
+    {
+     "x": 0.045,
+     "y": 0.945,
+     "zoom": 4,
+     "r": 0.035,
+     "title": "ЛЛ",
+     "text": "Two Cyrillic letters L, for Lazar Lissitzky, his given name. He drew them as two little wedges, so even the signature repeats the weapon of the picture.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "He later called his own abstract works “Prouns,” and described them as a station where you change trains between painting and architecture. In the 1920s he carried these ideas to Germany, designing books, exhibition rooms and typography that shaped the look of the century."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.64,
+     "y": 0.58,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "The tip",
+     "text": "The point of the wedge, deep inside the circle. Red against pure white: the highest contrast on the sheet marks the spot of impact."
+    },
+    {
+     "x": 0.52,
+     "y": 0.28,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Gray block",
+     "text": "A speckled gray slab straddles the front line, half on white, half on black. It reads like a wall or barricade being shoved aside."
+    },
+    {
+     "x": 0.6,
+     "y": 0.36,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Red shards",
+     "text": "Thin red slivers slip into the circle ahead of the main wedge, with a second one to the right. The big triangle is not attacking alone."
+    },
+    {
+     "x": 0.74,
+     "y": 0.12,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Flying debris",
+     "text": "Small white and red bars tumble through the black, top right. They suggest something already shattered and thrown outward."
+    },
+    {
+     "x": 0.26,
+     "y": 0.76,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Red bars",
+     "text": "A red line and a red block with three short teeth, calm and upright in the white zone. Order behind the lines, chaos at the front."
+    },
+    {
+     "x": 0.25,
+     "y": 0.985,
+     "zoom": 2.8,
+     "r": 0.2,
+     "title": "The small print",
+     "text": "The bottom line names the publisher: the political department of the Red Army's Western Front. This was official war propaganda."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "In 1985 a group of British musicians, including Billy Bragg and Paul Weller, formed a collective to campaign against the government of Margaret Thatcher. They named it Red Wedge, after this poster."
+  },
+  {
+   "type": "text",
+   "text": "The state this poster fought for dissolved in 1991, but the wedge outlived it. Whenever a simple shape on a poster makes you feel that a side is being taken, Lissitzky's triangle is somewhere behind it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who were the “Whites” in the title?",
+   "options": [
+    "The enemies of the Bolsheviks in the Russian Civil War",
+    "A rival group of abstract painters",
+    "Foreign art critics"
+   ],
+   "answer": 0,
+   "explanation": "The Whites were the forces fighting the Bolshevik Reds after the 1917 revolution."
+  },
+  {
+   "question": "Which word of the slogan is printed in red, inside the white circle?",
+   "options": [
+    "КЛИНОМ, “with the wedge”",
+    "БЕЛЫХ, “the Whites”",
+    "БЕЙ, “beat”"
+   ],
+   "answer": 2,
+   "explanation": "The command “Beat!” is the only red word and it sits inside the circle."
+  },
+  {
+   "question": "What had Lissitzky trained as?",
+   "options": [
+    "A printer",
+    "An architect",
+    "A soldier"
+   ],
+   "answer": 1,
+   "explanation": "He studied architecture in Darmstadt, Germany."
+  },
+  {
+   "question": "Why was a picture made of simple shapes useful as propaganda?",
+   "options": [
+    "It could be understood instantly, even by people who could not read",
+    "It was cheaper than hiring soldiers",
+    "It hid the message from the enemy"
+   ],
+   "answer": 0,
+   "explanation": "Much of the population could not read, and a triangle stabbing a circle needs no words."
+  },
+  {
+   "question": "What was Unovis?",
+   "options": [
+    "The army unit Lissitzky served in",
+    "A group founded by Malevich in Vitebsk",
+    "The printing technique used for the poster"
+   ],
+   "answer": 1,
+   "explanation": "Unovis, “Champions of the New Art,” was Malevich's group at the Vitebsk art school."
+  },
+  {
+   "question": "What did Lissitzky change about Malevich's floating shapes?",
+   "options": [
+    "He gave them realistic shading",
+    "He replaced them with photographs",
+    "He gave them a direction and a political job"
+   ],
+   "answer": 2,
+   "explanation": "He turned Suprematist geometry into a message with an aim and an enemy."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The red wedge enters the picture from the right-hand side.",
+   "isTrue": false,
+   "explanation": "It comes from the upper left, the side from which we begin to read."
+  },
+  {
+   "text": "Lissitzky signed the poster with two letters shaped like small wedges.",
+   "isTrue": true,
+   "explanation": "The two Cyrillic L's at lower left stand for Lazar Lissitzky."
+  },
+  {
+   "text": "A 1980s collective of British musicians took its name from this poster.",
+   "isTrue": true,
+   "explanation": "Red Wedge, formed in 1985, borrowed the name."
+  }
+ ]
+}

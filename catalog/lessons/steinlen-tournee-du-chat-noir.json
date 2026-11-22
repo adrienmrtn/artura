@@ -1,0 +1,39 @@
+{
+  "teaser": "The world's most famous cat was advertising a cabaret that had one year left.",
+  "focus": [0.48, 0.2],
+  "review_notes": "Cabaret dates: opened 1881, Salis died March 1897 and the cabaret closed that year.\nHalo inscription read as 'Mont-Joye Montmartre' (pun on the battle cry 'Montjoie Saint-Denis'): partly legible in the image.\nWaiters dressed in the green uniform of the Académie française and Salis insulting guests: traditional anecdotes.\nErik Satie working as a pianist at the Chat Noir: standard biography.\nSteinlen's house nicknamed 'Cat's Cottage': commonly reported.\nLarge format given as about 136 x 96 cm; smaller versions exist.",
+  "lesson": [
+    {"type": "text", "text": "Sixteen. That is how many years the Chat Noir cabaret existed, from 1881 to 1897. This poster dates from 1896, so the cat on it was announcing the future of a place that had about one year to live. The cabaret is long gone. The cat is on fridge magnets in every souvenir shop in Paris."},
+    {"type": "text", "text": "Le Chat Noir, “The Black Cat,” was a cramped, noisy room in Montmartre, the hilltop neighborhood of Paris where rents were low and painters, poets and musicians piled in. You went there to drink, to hear songs that mocked the government, and to be seen among artists. It is often called the first modern cabaret."},
+    {"type": "fact", "text": "The owner, Rodolphe Salis, greeted customers with insults and dressed his waiters in the green embroidered uniform of the French Academy, the country's most solemn institution. People paid extra for the privilege."},
+    {"type": "text", "text": "In 1896 Salis took his show on the road, and he needed a poster. The word “Tournée” means tour. Start with the small word at the top right, though: “Prochainement,” coming soon. The sheet was printed with that promise so each town could add its own dates."},
+    {"type": "text", "text": "The artist was Théophile Steinlen, a Swiss-born illustrator who had moved to Montmartre in 1881, the very year the cabaret opened, and became one of its regulars. He gave Salis's cat the treatment painters usually reserve for saints. And he wrote something inside the halo."},
+    {"type": "find", "text": "There are words hidden in this poster that most people never read. Where are they?", "spots": [
+      {"x": 0.48, "y": 0.14, "zoom": 2.4, "r": 0.2, "title": "The halo", "text": "Around the red disc runs the phrase “Mont-Joye Montmartre,” a twist on the war cry of medieval French kings, “Montjoie Saint-Denis!” The cat is crowned patron saint of the neighborhood."}
+    ]},
+    {"type": "text", "text": "A holy alley cat, with a royal battle cry: that is the humor of the Chat Noir in one image. Nothing was sacred, and everything was done with a straight face. Now look at how little Steinlen needed to pull it off, because the economy of this poster is its real lesson."},
+    {"type": "tour", "title": "Almost nothing", "text": "Black, red, and the color of the paper. That is nearly the whole recipe.", "spots": [
+      {"x": 0.5, "y": 0.175, "zoom": 3.2, "r": 0.1, "title": "The stare", "text": "Two yellow almond eyes with slit pupils, aimed straight at you. No fur, no modeling, just a flat black mask. The whiskers shoot out past the halo like antennae."},
+      {"x": 0.3, "y": 0.5, "zoom": 1.7, "r": 0.22, "title": "A silhouette with a seam", "text": "The body is a single black shape. A thin pale outline, jagged where the fur bristles, is all that separates chest, haunch and tail. Steinlen draws scruffiness with zigzags."},
+      {"x": 0.47, "y": 0.69, "zoom": 3, "r": 0.09, "title": "The paws", "text": "The front paws grip the top of the red block as if it were a wall. The lettering below becomes a place the cat can sit on."},
+      {"x": 0.3, "y": 0.84, "zoom": 2.4, "r": 0.14, "title": "Tail and letter", "text": "The tail drops into the red panel and curls right over the R of “Rodolphe.” Animal and alphabet are drawn by the same hand and tangle together."}
+    ]},
+    {"type": "text", "text": "The letters deserve a second look too. Nothing here was set in type: Steinlen drew every character by hand, a little wobbly, switching from black to red in the middle of a word. A poster had to be read from across a street by someone walking. Big flat shapes and a few loud colors did that job better than any detailed painting."},
+    {"type": "fact", "text": "Steinlen was obsessed with cats. They prowl through hundreds of his drawings, and his home in Montmartre was reportedly known as “Cat's Cottage” for the strays that came and went."},
+    {"type": "text", "text": "The largest version of the poster stands about 136 cm tall (roughly four and a half feet), close to the size of a child. On a wall, the cat looked down at you. Steinlen also drew for cheap newspapers and spent his career picturing the poor of Paris: laundresses, miners, strikers. This aloof, slightly menacing street cat belongs to that world, not to a cushion."},
+    {"type": "fact", "text": "Among the musicians who earned a living at the Chat Noir was a young pianist named Erik Satie, later one of the most original composers in France."},
+    {"type": "key", "text": "Salis died in 1897 and his cabaret closed with him. An advertisement outlived the thing it advertised, because one strong silhouette is easier to remember than any evening."}
+  ],
+  "quiz": [
+    {"question": "What does “Prochainement” at the top of the poster mean?", "options": ["Sold out", "Coming soon", "Free entry"], "answer": 1, "explanation": "The poster announced a tour that was coming soon to town."},
+    {"question": "What was Le Chat Noir?", "options": ["A cabaret in Montmartre", "A brand of ink", "A Paris newspaper for cat owners"], "answer": 0, "explanation": "It was a cabaret in Montmartre, open from 1881 to 1897."},
+    {"question": "What is written inside the cat's halo?", "options": ["The artist's name", "The price of a ticket", "“Mont-Joye Montmartre”"], "answer": 2, "explanation": "The phrase twists a royal battle cry into a salute to Montmartre."},
+    {"question": "How did Steinlen make the lettering?", "options": ["With metal type", "He drew every letter by hand", "With stencils bought from the printer"], "answer": 1, "explanation": "All the letters are hand-drawn, changing color in mid-word."},
+    {"question": "Who was Rodolphe Salis?", "options": ["The owner of the cabaret", "The printer", "The cat's real name"], "answer": 0, "explanation": "Salis ran the Chat Noir and took its show on tour."}
+  ],
+  "facts": [
+    {"text": "The cat's fur is painted hair by hair.", "isTrue": false, "explanation": "The body is one flat black shape with a thin pale outline."},
+    {"text": "The Chat Noir cabaret closed about a year after this poster was made.", "isTrue": true, "explanation": "The poster dates from 1896 and the cabaret closed in 1897 after Salis died."},
+    {"text": "Steinlen was born in Switzerland.", "isTrue": true, "explanation": "He was Swiss-born and moved to Montmartre in 1881."}
+  ]
+}

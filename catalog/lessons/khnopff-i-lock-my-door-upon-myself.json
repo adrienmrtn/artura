@@ -1,0 +1,255 @@
+{
+ "teaser": "She has shut out the whole world. The painting asks what is left once the door is locked.",
+ "focus": [
+  0.39,
+  0.45
+ ],
+ "review_notes": "Opening interprets 'a failure or rejection' as the refusal that is the painting's subject (and Khnopff abandoning law school around 1876).\nBought for the Munich state collection in 1893: date to verify.\nThe model is often said to be an English acquaintance or based on Marguerite Khnopff; the lesson does not name her.\nGolden circle on the studio floor: reported by visitors, verify.\nThe Hypnos head derives from the bronze head in the British Museum; Khnopff owned a cast and placed it on an altar in his house.\nThe flowers are called orange lilies or day lilies depending on the source.\nSize 72 x 140 cm to verify.\nThe Neue Pinakothek has been closed for renovation for several years; the work may be displayed elsewhere in Munich.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This is a painting of a refusal. No visitors, no conversation, no street noise, no future plans. A woman has turned the key on everyone, and Fernand Khnopff gives her decision a title in the first person: “I lock my door upon myself.”"
+  },
+  {
+   "type": "text",
+   "text": "The words are not his. They come from a poem by the English writer Christina Rossetti, in which a speaker bars out the crowd and then discovers a harder problem. You can lock other people out. You cannot lock out yourself."
+  },
+  {
+   "type": "fact",
+   "text": "Khnopff knew about saying no. His family of judges and lawyers sent him to law school in Brussels. He dropped out after about a year, spent his time reading poetry and went to study painting instead."
+  },
+  {
+   "type": "text",
+   "text": "The room she has chosen is hard to read. Boards, panels and frames slide behind one another like stage flats. Nothing tells you clearly where a wall ends or which openings are windows, mirrors or pictures. That confusion is deliberate: it is a mind, more than a house."
+  },
+  {
+   "type": "find",
+   "text": "She is alone in the room, but high above her someone keeps watch. Find the other head.",
+   "spots": [
+    {
+     "x": 0.63,
+     "y": 0.1,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Hypnos",
+     "text": "A white bust with a single blue wing at its temple. This is Hypnos, the Greek god of sleep. Beside it hangs a red poppy, the flower opium comes from. Sleep and dreams preside over this room."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Khnopff copied that head from an ancient bronze he had seen in the British Museum in London, a Hypnos that has lost one of its two wings. He owned a plaster cast of it and treated it almost as a household god."
+  },
+  {
+   "type": "key",
+   "text": "The single wing explains the whole picture. For Khnopff, shutting the door was not a punishment. It was the way into sleep, dream and imagination, the only places he thought worth living in."
+  },
+  {
+   "type": "text",
+   "text": "Now the woman herself. She leans forward on her folded hands and looks in your direction, yet you never quite meet her. Three small things in her face and hands produce that effect."
+  },
+  {
+   "type": "tour",
+   "title": "Present and absent",
+   "text": "Her pose is relaxed. Her attention is somewhere you cannot follow.",
+   "spots": [
+    {
+     "x": 0.385,
+     "y": 0.42,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "Pale eyes",
+     "text": "The irises are a washed-out gray-green, so light they nearly vanish into the whites. She seems to look through you at something behind your back."
+    },
+    {
+     "x": 0.44,
+     "y": 0.525,
+     "zoom": 4.5,
+     "r": 0.03,
+     "title": "The ring",
+     "text": "One ring shines on her hand. A promise made, a tie to someone outside? Khnopff plants the clue and gives no story to go with it.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.37,
+     "y": 0.3,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "A cloud of red hair",
+     "text": "The loose, coppery hair is a salute to English painters such as Rossetti and Burne-Jones, whose dreamy red-haired women Khnopff adored."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That English connection ran deep. Khnopff spoke the language, visited London often and became friends with Edward Burne-Jones, a painter of knights and sleeping princesses. In Brussels he was known as a reserved, impeccably dressed lover of all things English."
+  },
+  {
+   "type": "text",
+   "text": "In front of the woman stand three tall stems with orange lilies. They are not in a vase, and they do not seem to grow from anything. They rise like bars between her and us, and each one tells the time differently."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.1,
+     "y": 0.37,
+     "zoom": 2.8,
+     "r": 0.06,
+     "title": "First lily",
+     "text": "On the left, the petals already droop and curl. The stem below is dry and brown.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.61,
+     "y": 0.4,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Second lily",
+     "text": "The central flower is the fullest, but its petals have started to fold and fade. It stands directly beneath the god of sleep.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.905,
+     "y": 0.42,
+     "zoom": 3,
+     "r": 0.05,
+     "title": "Third lily",
+     "text": "On the right, a flower hangs closed and limp. Read together, the three stems look like stages of a life running down.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.845,
+     "y": 0.3,
+     "zoom": 3.5,
+     "r": 0.08,
+     "title": "The empty street",
+     "text": "One opening shows old house fronts and a single figure in black walking away. It may be a window or a painting. It is the only trace of the world she has left."
+    },
+    {
+     "x": 0.285,
+     "y": 0.12,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "Circles",
+     "text": "Round shapes hang on the wall like blind mirrors. They reflect nothing. In this room even the mirrors refuse to look outward."
+    },
+    {
+     "x": 0.55,
+     "y": 0.67,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Blue cloth",
+     "text": "A strip of bright blue fabric lies along the edge of the table. It echoes the blue wing above, tying the dreamer to her god."
+    },
+    {
+     "x": 0.5,
+     "y": 0.85,
+     "zoom": 1.6,
+     "r": 0.25,
+     "title": "The dark slab",
+     "text": "The whole bottom of the picture is a black surface she leans on. Table, piano lid or coffin? It works as a barrier keeping you at a distance."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Did you notice how few colors there are? Grays, browns and dull golds cover nearly everything. Against them, the orange of the lilies, the red of the hair and two notes of blue ring out like single keys struck on a piano in an empty house."
+  },
+  {
+   "type": "fact",
+   "text": "Khnopff used the same Rossetti poem twice in 1891. A second, much smaller work takes its title from another line of it: “Who shall deliver me?”"
+  },
+  {
+   "type": "text",
+   "text": "The picture traveled quickly. Shown abroad soon after it was finished, it was bought in 1893 for the Bavarian state collection in Munich. A Belgian painter in his early thirties suddenly had a major work in one of Germany's great museums."
+  },
+  {
+   "type": "fact",
+   "text": "The painter lived as his picture suggests. His Brussels studio is said to have had a golden circle marked on the floor, and he stood inside it to work, sealed off from the rest of the room."
+  },
+  {
+   "type": "text",
+   "text": "Rossetti's poem ends with a prayer to be freed from oneself. Khnopff's painting stops earlier, at the moment the key turns. Whether the woman behind the lilies is at peace or imprisoned is the question he hands to you."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where does the title come from?",
+   "options": [
+    "A poem by Christina Rossetti",
+    "A play by Shakespeare",
+    "A letter from the painter's sister"
+   ],
+   "answer": 0,
+   "explanation": "The line is taken from a Christina Rossetti poem."
+  },
+  {
+   "question": "Who is the winged white head on the shelf?",
+   "options": [
+    "Mercury, messenger of the gods",
+    "Hypnos, god of sleep",
+    "Cupid, god of love"
+   ],
+   "answer": 1,
+   "explanation": "It is Hypnos, copied from an ancient bronze in the British Museum."
+  },
+  {
+   "question": "Which flower hangs next to the bust?",
+   "options": [
+    "A white rose",
+    "A sunflower",
+    "A red poppy"
+   ],
+   "answer": 2,
+   "explanation": "A red poppy, the flower opium comes from, hangs beside Hypnos."
+  },
+  {
+   "question": "What can be seen in the opening on the right?",
+   "options": [
+    "A deserted street with one figure in black",
+    "A stormy sea",
+    "A garden full of children"
+   ],
+   "answer": 0,
+   "explanation": "Old house fronts and one departing figure are the only trace of the outside world."
+  },
+  {
+   "question": "What did Khnopff study before turning to painting?",
+   "options": [
+    "Medicine",
+    "Architecture",
+    "Law"
+   ],
+   "answer": 2,
+   "explanation": "He dropped out of law school in Brussels."
+  },
+  {
+   "question": "What do the three lilies suggest when read together?",
+   "options": [
+    "The three seasons of harvest",
+    "Stages of fading, like a life running down",
+    "The colors of the Belgian flag"
+   ],
+   "answer": 1,
+   "explanation": "Each stem shows a flower at a different point of wilting."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Hypnos head in the painting has only one wing.",
+   "isTrue": true,
+   "explanation": "Like the ancient bronze it copies, it has lost one of its two wings."
+  },
+  {
+   "text": "The painting is full of bright, saturated colors.",
+   "isTrue": false,
+   "explanation": "It is mostly gray, brown and dull gold, with a few accents of orange, red and blue."
+  },
+  {
+   "text": "Khnopff admired English painters such as Burne-Jones.",
+   "isTrue": true,
+   "explanation": "He visited London often and became Burne-Jones's friend."
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "teaser": "Three nudes having breakfast, assembled like engines and as calm as statues.",
+ "focus": [
+  0.45,
+  0.45
+ ],
+ "review_notes": "Check: French title Le Grand Déjeuner; about 183.5 x 251.5 cm; acquired by MoMA in 1942 (Mrs. Simon Guggenheim Fund) while Léger was living in the United States.\nCheck: Léger married Jeanne Lohy in December 1919 and turned 40 in 1921.\nCheck: Léger's work for the Ballets Suédois (Skating Rink, 1922; La Création du monde, 1923) follows this painting closely.\nThe dark animal on the couch is read as a cat (some descriptions call it a cat, a few a dog).\nCheck: Léger's statement that the human body has no more importance than keys or bicycles (paraphrased).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1921 Fernand Léger turned forty. He had survived the trenches and a gas attack, married Jeanne Lohy, the woman who had waited for him through the war, and settled back into his Paris studio. For the first time in years, nothing was exploding around him."
+  },
+  {
+   "type": "text",
+   "text": "His painting had been all pistons, discs and city noise. Now he wanted something slower and larger. He chose the most traditional subject a French painter could pick, female nudes at rest in a room, and gave it about two and a half meters of canvas (over 8 feet wide)."
+  },
+  {
+   "type": "text",
+   "text": "Its French title is Le Grand Déjeuner, roughly “the big breakfast.” Three women, a red table, cups, a book. A scene of leisure that painters had been producing for centuries. Then you meet the women themselves."
+  },
+  {
+   "type": "tour",
+   "title": "The three sitters",
+   "text": "Each of them looks straight out at you, and none of them gives anything away.",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.4,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The woman on the left",
+     "text": "A gray-white face with identical almond eyes and a small straight mouth. Her hair falls in one stiff black slab, more like a sheet of metal than like hair."
+    },
+    {
+     "x": 0.27,
+     "y": 0.13,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The woman above",
+     "text": "She leans on her elbow along the back of the couch. Her arm is a smooth cylinder and her shoulder a ball, joined like parts turned on a lathe."
+    },
+    {
+     "x": 0.69,
+     "y": 0.4,
+     "zoom": 1.9,
+     "r": 0.17,
+     "title": "The woman with the cup",
+     "text": "The only one with warm, tan skin. She sits upright, stirring a cup, an open book on her lap. Her breast and knees are perfect spheres.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "No smile, no blush, no difference in age or mood between them. Léger has removed everything a nude was supposed to offer: softness, charm, a story. He said outright that for him the human body mattered no more than a key or a bicycle. It was a form to build with."
+  },
+  {
+   "type": "key",
+   "text": "Léger treats people and objects as equals. A woman, a teapot and a table leg are all made of the same polished, well-fitted parts."
+  },
+  {
+   "type": "fact",
+   "text": "Before he ever painted a machine with affection, Léger had lived among them. In the war he served beside miners, mechanics and metalworkers, and he later said those men and their plain talk taught him more than the museums had."
+  },
+  {
+   "type": "text",
+   "text": "If the bodies are machine-like, the room is busier than any machine. Stripes, diamonds, checks, rectangles inside rectangles. It can feel like too much. But there is a firm order under it, and it is what keeps three large nudes from drifting apart."
+  },
+  {
+   "type": "lines",
+   "text": "Three structures run beneath the pattern.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.4
+      ],
+      [
+       0.56,
+       0.41
+      ],
+      [
+       0.96,
+       0.41
+      ]
+     ],
+     "closed": false,
+     "label": "The long horizontal",
+     "text": "The couch draws a level line from one edge to the other. The two pale women lie along it, as steady as a shelf."
+    },
+    {
+     "points": [
+      [
+       0.69,
+       0.05
+      ],
+      [
+       0.69,
+       0.95
+      ]
+     ],
+     "closed": false,
+     "label": "The upright",
+     "text": "The seated woman rises from her feet to the top of her head in one column. She is the vertical that crosses the long horizontal."
+    },
+    {
+     "points": [
+      [
+       0.3,
+       0.62
+      ],
+      [
+       0.51,
+       0.62
+      ],
+      [
+       0.51,
+       0.9
+      ],
+      [
+       0.3,
+       0.9
+      ]
+     ],
+     "closed": true,
+     "label": "The red table",
+     "text": "A hot red square between the cool grays on the left and the tan figure on the right. It is the hinge of the whole picture."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Horizontals, verticals and one block of strong color: it is close to what Mondrian was doing in the same city in the same year, only with people left in. Léger wanted the calm of classical painting, the kind found in Poussin or Ingres, rebuilt with the hard clarity of his own time."
+  },
+  {
+   "type": "fact",
+   "text": "French artists after the war talked about a “return to order”: away from prewar experiments, back to the figure, balance and tradition. Picasso drew monumental women in those years too. Léger joined in, but kept his machine finish."
+  },
+  {
+   "type": "text",
+   "text": "Among all this stiffness, one resident of the room is fast asleep and could not care less about order."
+  },
+  {
+   "type": "find",
+   "text": "A pet is dozing somewhere in this interior. Find it.",
+   "spots": [
+    {
+     "x": 0.87,
+     "y": 0.38,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The black cat",
+     "text": "A dark animal curled on the couch behind the seated woman, drawn as a few rounded black shapes. It is the one soft, sleepy thing here, and easy to mistake for a cushion."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The cat is a nod to tradition as well. A famous black cat stretches at the foot of Manet's Olympia, the nude that scandalized Paris in 1865. Léger's version causes no scandal. It naps. His breakfast room is a place where nothing is going to happen, and that stillness was what he was after."
+  },
+  {
+   "type": "fact",
+   "text": "The painting left Europe twenty years later, as did its author. In 1942, while Léger was living in the United States to escape the German occupation of France, the Museum of Modern Art in New York bought it. He could go and see it there."
+  },
+  {
+   "type": "text",
+   "text": "So which is it: a warm picture of women at ease, or a cold one of bodies turned into equipment? Léger meant it as praise. For a man back from the war, well-made, dependable and at rest were the best words he knew."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the French title of Three Women?",
+   "options": [
+    "Le Grand Déjeuner",
+    "Les Demoiselles",
+    "La Ville"
+   ],
+   "answer": 0,
+   "explanation": "It means roughly “the big breakfast.”"
+  },
+  {
+   "question": "How does the seated woman on the right differ from the other two?",
+   "options": [
+    "She is smiling",
+    "She has warm, tan skin while the others are gray-white",
+    "She is wearing a dress"
+   ],
+   "answer": 1,
+   "explanation": "She is the only figure painted in a warm skin tone."
+  },
+  {
+   "question": "What did Léger say about the human body in his painting?",
+   "options": [
+    "It was sacred",
+    "It should never be painted",
+    "It mattered no more than a key or a bicycle"
+   ],
+   "answer": 2,
+   "explanation": "He treated the body as a form to build with, like any object."
+  },
+  {
+   "question": "Which animal sleeps on the couch?",
+   "options": [
+    "A black cat",
+    "A white dog",
+    "A parrot"
+   ],
+   "answer": 0,
+   "explanation": "A dark cat is curled up behind the seated woman."
+  },
+  {
+   "question": "Where was Léger living when the Museum of Modern Art bought the painting in 1942?",
+   "options": [
+    "In Moscow",
+    "In the United States",
+    "In Normandy"
+   ],
+   "answer": 1,
+   "explanation": "He spent the war years in the United States."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The three women each show a different, vivid emotion.",
+   "isTrue": false,
+   "explanation": "All three have the same blank, impersonal expression."
+  },
+  {
+   "text": "A red table sits near the center of the composition.",
+   "isTrue": true,
+   "explanation": "Its strong red links the cool left side and the warm right side."
+  },
+  {
+   "text": "Léger painted Three Women before he fought in the First World War.",
+   "isTrue": false,
+   "explanation": "He painted it in 1921, after surviving the trenches and a gas attack."
+  }
+ ]
+}

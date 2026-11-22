@@ -1,0 +1,58 @@
+{
+  "teaser": "Lovers on the island of Venus. Three centuries on, nobody agrees whether they are coming or going.",
+  "focus": [0.6, 0.64],
+  "review_notes": "Dimensions 129 x 194 cm.\nWatteau approved by the Académie royale in 1712, reception piece delivered in August 1717; the register entry with the title crossed out and replaced by 'une feste galante'.\nRodin's reading of the three couples as stages of one action (from his conversations with Paul Gsell, 1911).\nAnecdote that art students in Jacques-Louis David's time threw bread pellets at the painting.\nEarly accounts (Caylus, Gersaint) that Watteau used too much oil and worked hastily, harming his pictures.\nSecond version (c. 1718) made for Jean de Jullienne, later bought by Frederick the Great, now Charlottenburg Palace, Berlin.\nDebussy's L'isle joyeuse (1904) commonly said to be inspired by this painting.\nThe 'arriving or leaving' debate: Michael Levey (1961) argued they are leaving.",
+  "lesson": [
+    {"type": "text", "text": "Are these people arriving, or going home? It sounds like a question with an obvious answer. The title says “pilgrimage to”, so they must be on their way. Keep the question in mind anyway, because the painting itself gives a different answer than its name."},
+    {"type": "text", "text": "Cythera is a Greek island. In ancient myth, Venus, the goddess of love, came ashore there after her birth from the sea. For Parisians around 1700 it was a nickname for a dreamland where everyone falls in love. Operas and comedies sent their characters off to it as “pilgrims”."},
+    {"type": "text", "text": "Watteau's couples wear the costume of that game: short capes and long walking staffs, borrowed from religious pilgrims. If this is a holy place of love, the goddess ought to be somewhere. She is, in a way."},
+    {"type": "find", "text": "Venus is present, but only in stone. Where is she?", "spots": [
+      {"x": 0.875, "y": 0.45, "zoom": 2.6, "r": 0.07, "shape": "rect", "title": "The statue of Venus", "text": "At the edge of the wood stands a weathered bust on a pillar, with no arms. The pilgrims have wound it with pink roses. A quiver of arrows, Cupid's weapon, is tied at its foot."}
+    ]},
+    {"type": "text", "text": "Roses already offered to the goddess: that means the visit has taken place. These people are on Cythera, and the day is ending. Many historians now read the picture as a departure, which gives it a very different flavor. The party is over and nobody wants to go."},
+    {"type": "fact", "text": "Even the first owners hesitated over the name. In 1717 the secretary of the French Royal Academy wrote the title in the register, then crossed it out and put “une fête galante” instead, a courtship party. The term became the name of a whole kind of painting."},
+    {"type": "text", "text": "A fête galante shows elegant people outdoors, flirting, making music, doing nothing useful. No gods, no heroes, no lesson. Watteau, born in 1684 in Valenciennes near the Flemish border, more or less created the type, mixing what he saw in Paris parks with what he saw on stage."},
+    {"type": "text", "text": "The right-hand slope holds three couples, each busy with its own small negotiation. Read them from the statue outward, right to left, and something clever appears."},
+    {"type": "tour", "title": "Three couples, one story", "text": "Start beside the statue and move left along the top of the hill.", "spots": [
+      {"x": 0.72, "y": 0.69, "zoom": 3, "r": 0.08, "title": "Still seated", "text": "A man kneels close and murmurs into a woman's ear. She looks down at her fan and stays where she is. She is not ready to leave."},
+      {"x": 0.8, "y": 0.775, "zoom": 3.8, "r": 0.05, "title": "A small helper", "text": "Beside her sits a child in a dark cape, perched on a quiver of arrows. It is Cupid, dressed as a pilgrim, pulling at the hem of her skirt to hurry her along."},
+      {"x": 0.605, "y": 0.66, "zoom": 3, "r": 0.08, "title": "Getting up", "text": "The next man is on his feet and takes his partner by both hands to pull her up from the grass. We see her from behind, her gold dress still spread on the ground."},
+      {"x": 0.52, "y": 0.61, "zoom": 3, "r": 0.08, "shape": "rect", "title": "The look back", "text": "The third pair is leaving. He has an arm around her waist and points his staff downhill. She turns her head for one more look at the place they are giving up."}
+    ]},
+    {"type": "text", "text": "Persuading, rising, walking away. The sculptor Rodin, who adored this picture, said the three couples could be one couple shown at three moments. Long before cinema, Watteau laid out a short film across a hillside."},
+    {"type": "key", "text": "The subject is not a place or an event. It is a feeling stretched over time: the reluctance to leave a happy moment that is already ending."},
+    {"type": "text", "text": "The painting was an exam piece. In 1712 the Academy, the official body that trained and ranked French artists, accepted Watteau as a candidate and, unusually, let him choose his own subject. Then he made them wait. It took five years and several reminders before he delivered."},
+    {"type": "text", "text": "From the hilltop the figures spill downhill to the water in one unbroken ribbon. Watteau avoids straight lines everywhere. The picture moves in curves, the hallmark of the style later called Rococo: light, playful, fond of S-shapes and pale colors."},
+    {"type": "lines", "text": "Trace the path of the whole procession, then the two halves it connects.", "lines": [
+      {"points": [[0.875, 0.45], [0.73, 0.68], [0.6, 0.64], [0.52, 0.6], [0.44, 0.74], [0.33, 0.77], [0.2, 0.77], [0.07, 0.72]], "closed": false, "label": "The ribbon", "text": "From the statue, over the three couples, down the slope to the group below and on to the boat. One wavy line carries about twenty people from love to departure."},
+      {"points": [[0.07, 0.68], [0.18, 0.62], [0.17, 0.5], [0.16, 0.4]], "closed": false, "label": "The spiral of cupids", "text": "Above the boat the line does not stop. It lifts off the ground as a twist of flying cupids and dissolves into the sky."},
+      {"points": [[0.52, 0.0], [0.56, 0.3], [0.5, 0.5], [0.36, 0.8], [0.3, 1.0]], "closed": false, "label": "Warm and cool", "text": "Right of this line: russet trees, earth, gold silk. Left of it: blue mist, water and far mountains. The lovers are walking out of the warm half into the cool one."}
+    ]},
+    {"type": "text", "text": "That drift from warm to cool is where the sadness comes from. The trees are turning, the light is late, and the far shore is barely there, a few strokes of blue and white. Watteau painted thinly and fast, letting colors melt into each other like watercolor."},
+    {"type": "fact", "text": "His friends complained about his habits. Watteau worked in a hurry, rarely cleaned his palette and thinned his paint with a great deal of oil. Many of his pictures darkened and cracked sooner than they should have."},
+    {"type": "text", "text": "He may have felt time pressing. Watteau was ill for years, probably with tuberculosis, and died in 1721 at 36, four years after handing in this canvas. A friend ordered a second, brighter version, which Frederick the Great of Prussia later bought. It is still in Berlin."},
+    {"type": "explore", "spots": [
+      {"x": 0.06, "y": 0.73, "zoom": 2.6, "r": 0.08, "shape": "rect", "title": "The boat", "text": "A gilded prow shaped like a shell, with a winged figure, waits under a red canopy. A cupid climbs on top of the cloth. This is no fishing boat: it belongs to the dream."},
+      {"x": 0.195, "y": 0.66, "zoom": 3.2, "r": 0.06, "title": "The oarsmen", "text": "Two half-naked rowers lean on their poles, tanned and muscular. They look like figures from an old mythological painting who wandered in among the silk coats."},
+      {"x": 0.156, "y": 0.44, "zoom": 3, "r": 0.07, "title": "The torch", "text": "One of the flying cupids carries a burning torch, an old emblem of love's flame. The little bodies are pink smudges against the haze."},
+      {"x": 0.325, "y": 0.775, "zoom": 3.2, "r": 0.06, "shape": "rect", "title": "The striped suit", "text": "Down by the shore a man in shimmering gray silk steers his partner along with his staff in hand. Watteau drew such figures from life in chalk and reused them in paintings."},
+      {"x": 0.466, "y": 0.745, "zoom": 4, "r": 0.04, "title": "The dog", "text": "A small spaniel trots at the heels of the departing couple and looks back, just as the woman does. Dogs in love scenes often hint at faithfulness."},
+      {"x": 0.34, "y": 0.39, "zoom": 2.2, "r": 0.12, "title": "The far shore", "text": "Snowy peaks rise out of the mist, more cloud than rock. Is that the mainland they return to, or the real Cythera, still out of reach? The haze keeps the secret."}
+    ]},
+    {"type": "fact", "text": "Two generations later, taste turned harsh and heroic, and Watteau stood for everything frivolous. Art students in Paris are said to have thrown bread pellets at this very canvas for fun."},
+    {"type": "text", "text": "It survived the pellets. In the 1800s poets and painters fell for its sweet sadness again, and in 1904 the composer Debussy wrote a piano piece, L'isle joyeuse, said to be inspired by it. So: arriving or leaving? Watteau gave you every clue, and then left the far shore blank."}
+  ],
+  "quiz": [
+    {"question": "Why was Cythera linked with love?", "options": ["Myth said Venus came ashore there", "It was the French king's wedding place", "Watteau was born there"], "answer": 0, "explanation": "In ancient myth the goddess of love landed on the island after her birth."},
+    {"question": "What clue suggests the pilgrims are already on the island?", "options": ["They carry suitcases", "The statue of Venus is already hung with roses", "The boat has no oars"], "answer": 1, "explanation": "The offerings to the goddess have been made, so the visit has happened."},
+    {"question": "What is a “fête galante”?", "options": ["A battle scene", "A portrait of a king", "A scene of elegant people flirting outdoors"], "answer": 2, "explanation": "The Academy used the term for this painting, and it named a new type of picture."},
+    {"question": "How did Rodin read the three couples on the hill?", "options": ["As three sisters and their husbands", "As one couple shown at three moments", "As actors from three plays"], "answer": 1, "explanation": "He saw persuading, rising and leaving as stages of a single action."},
+    {"question": "How long did the Academy wait for Watteau's exam piece?", "options": ["Five years", "Five weeks", "Twenty years"], "answer": 0, "explanation": "He was accepted as a candidate in 1712 and delivered in 1717."},
+    {"question": "Who is the child tugging at the seated woman's skirt?", "options": ["Her daughter", "A servant boy", "Cupid dressed as a pilgrim"], "answer": 2, "explanation": "He sits on a quiver of arrows, the sign of Cupid."}
+  ],
+  "facts": [
+    {"text": "The Academy told Watteau exactly which subject to paint.", "isTrue": false, "explanation": "Unusually, he was allowed to choose his own subject."},
+    {"text": "The right half of the painting is warmer in color than the left.", "isTrue": true, "explanation": "Russet trees and gold silk on the right give way to blue mist and water on the left."},
+    {"text": "Watteau lived into his eighties.", "isTrue": false, "explanation": "He died in 1721 at the age of 36."}
+  ]
+}

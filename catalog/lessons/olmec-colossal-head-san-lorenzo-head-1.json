@@ -1,0 +1,245 @@
+{
+ "teaser": "A giant stone eye stared up from a muddy trail. The rest of the face was still underground.",
+ "focus": [
+  0.52,
+  0.55
+ ],
+ "review_notes": "IMAGE MISMATCH LIKELY: the photo (outdoors among palms, eroded face, clawed headdress) looks like La Venta Monument 1 in the Parque-Museo La Venta, Villahermosa, not San Lorenzo Head 1 ('El Rey') in Xalapa. Interactive blocks therefore point only at large features common to all colossal heads; replace the image and re-check coordinates.\nDiscovery: Matthew Stirling, 1945-46, eye exposed by erosion of a path; nickname El Rey.\nSize of San Lorenzo Head 1: about 2.84 m high, about 25 tons.\nBasalt from the Tuxtla Mountains (Cerro Cintepec), roughly 60 km or more away.\n17 known colossal heads, 10 from San Lorenzo.\nSome heads recarved from thrones (argued by James Porter).\nMelgar's 1860s account and the 'overturned kettle' story concern the Tres Zapotes head.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The first people to meet this face in modern times saw only an eye. Rain had worn down a trail at San Lorenzo, in the Mexican state of Veracruz, and a large stone eye was looking up out of the ground. In 1945 villagers led the archaeologist Matthew Stirling to the spot. His team dug, and a head taller than any of them came out of the earth, lying on its back."
+  },
+  {
+   "type": "text",
+   "text": "They called it El Rey, the King. It stands about 2.84 meters high (over 9 feet) and weighs around 25 tons, as much as four or five elephants. It is roughly three thousand years old, the work of the Olmec, one of the earliest civilizations of the Americas."
+  },
+  {
+   "type": "fact",
+   "text": "Decades earlier, a farm worker had struck a similar head at another site while clearing forest. He reportedly took the rounded top for the bottom of a huge overturned cooking pot."
+  },
+  {
+   "type": "text",
+   "text": "Seventeen of these heads are known today, ten of them from San Lorenzo. No two are alike. Each has its own headgear and its own features, which is why most specialists read them as portraits of individual rulers, not gods."
+  },
+  {
+   "type": "text",
+   "text": "They do share a family look, though. Three features come back every time."
+  },
+  {
+   "type": "tour",
+   "title": "The family look",
+   "text": "What every colossal head has in common.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.25,
+     "zoom": 1.7,
+     "r": 0.28,
+     "title": "A tight helmet",
+     "text": "A close-fitting cap with a thick band across the brow, carved with its own emblems. It may be protective gear for war or for the ritual ball game. Each ruler wears a different one."
+    },
+    {
+     "x": 0.56,
+     "y": 0.48,
+     "zoom": 2,
+     "r": 0.2,
+     "title": "Heavy eyes, broad nose",
+     "text": "Fleshy lids under a frowning brow and a wide, flat nose. The sculptor worked in shallow relief, barely cutting into the boulder."
+    },
+    {
+     "x": 0.54,
+     "y": 0.69,
+     "zoom": 2.2,
+     "r": 0.17,
+     "title": "The downturned mouth",
+     "text": "Full lips, corners pulled down. It is not sadness. It is the stern, closed expression of someone who does not need to speak to be obeyed."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "You may have noticed how little stone was removed. That is partly a choice and partly a constraint. The Olmec had no metal tools. They shaped this rock by pounding and grinding it with harder stones, for months."
+  },
+  {
+   "type": "text",
+   "text": "The rock itself is basalt, a dense volcanic stone. None of it occurs at San Lorenzo. It came from the Tuxtla Mountains, some 60 kilometers (about 40 miles) away, hauled by people with no wheels and no pack animals, probably on sledges and river rafts."
+  },
+  {
+   "type": "fact",
+   "text": "Several heads have a strangely flat back. One explanation is that they were recarved from the massive stone thrones of earlier rulers, turning a king's seat into a king's face."
+  },
+  {
+   "type": "text",
+   "text": "With that in mind, see how the carving obeys the block it came from."
+  },
+  {
+   "type": "lines",
+   "text": "The face is drawn onto the boulder, not cut free from it.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.2,
+       0.35
+      ],
+      [
+       0.3,
+       0.11
+      ],
+      [
+       0.5,
+       0.04
+      ],
+      [
+       0.74,
+       0.09
+      ],
+      [
+       0.87,
+       0.3
+      ],
+      [
+       0.89,
+       0.6
+      ],
+      [
+       0.87,
+       0.82
+      ],
+      [
+       0.6,
+       0.89
+      ],
+      [
+       0.3,
+       0.86
+      ],
+      [
+       0.17,
+       0.6
+      ]
+     ],
+     "closed": true,
+     "label": "The boulder",
+     "text": "The outline is still that of a rounded rock. No neck, no chin jutting out, nothing fragile. It was made to survive, and it did."
+    },
+    {
+     "points": [
+      [
+       0.17,
+       0.39
+      ],
+      [
+       0.45,
+       0.37
+      ],
+      [
+       0.89,
+       0.385
+      ]
+     ],
+     "closed": false,
+     "label": "The helmet rim",
+     "text": "One strong horizontal divides the block in two: emblem above, person below. The identity sits in the top third."
+    },
+    {
+     "points": [
+      [
+       0.38,
+       0.72
+      ],
+      [
+       0.52,
+       0.64
+      ],
+      [
+       0.68,
+       0.72
+      ]
+     ],
+     "closed": false,
+     "label": "The arc of the mouth",
+     "text": "The lips repeat the curve of the whole stone in miniature, bending down at both ends."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Moving 25 tons across swamps demanded hundreds of workers, food to feed them, and someone with the authority to order it all. The head is a portrait, but it is also a receipt: proof of how much labor one person could command around 1000 BC."
+  },
+  {
+   "type": "key",
+   "text": "An Olmec colossal head is power you can measure: a ruler's face carved with stone tools into a boulder dragged some 60 kilometers by human strength alone."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What first revealed San Lorenzo Head 1?",
+   "options": [
+    "An eye exposed on an eroded trail",
+    "A map left by Spanish settlers",
+    "A flood that rolled it into a river"
+   ],
+   "answer": 0,
+   "explanation": "Rain had worn a path down until the eye showed."
+  },
+  {
+   "question": "What do most specialists think the heads represent?",
+   "options": [
+    "Rain gods",
+    "Individual rulers",
+    "Defeated enemies"
+   ],
+   "answer": 1,
+   "explanation": "Each head has its own features and headgear, like a portrait."
+  },
+  {
+   "question": "How did the Olmec shape the basalt?",
+   "options": [
+    "With iron chisels",
+    "By casting it in molds",
+    "By pounding and grinding with harder stones"
+   ],
+   "answer": 2,
+   "explanation": "They had no metal tools."
+  },
+  {
+   "question": "Where did the stone come from?",
+   "options": [
+    "The Tuxtla Mountains, about 60 km away",
+    "A quarry under San Lorenzo itself",
+    "The Pacific coast"
+   ],
+   "answer": 0,
+   "explanation": "Basalt does not occur at San Lorenzo and had to be hauled in."
+  },
+  {
+   "question": "Why might some heads have a flat back?",
+   "options": [
+    "They were sawn in half",
+    "They were recarved from stone thrones",
+    "They were worn flat by rivers"
+   ],
+   "answer": 1,
+   "explanation": "One explanation is that older thrones were turned into heads."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Olmec moved the boulders using wheeled carts pulled by oxen.",
+   "isTrue": false,
+   "explanation": "They had neither wheels nor pack animals."
+  },
+  {
+   "text": "Seventeen colossal heads are known, and no two are alike.",
+   "isTrue": true,
+   "explanation": "Each one has individual features and headgear."
+  },
+  {
+   "text": "The nickname of San Lorenzo Head 1 is El Rey, the King.",
+   "isTrue": true,
+   "explanation": "The excavators gave it that name."
+  }
+ ]
+}

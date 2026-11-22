@@ -1,0 +1,265 @@
+{
+ "teaser": "A whole city made of nothing but rectangles, triangles and one burning circle.",
+ "focus": [
+  0.6,
+  0.2
+ ],
+ "review_notes": "The opening uses the typical public reaction to Klee's childlike pictures ('my child could do that'); no documented reaction to this specific painting is cited.\nKlee's own interest in children's drawings (including keeping his own and studying his son's) is well documented but stated in general terms.\nTunisia 1914 diary quote: 'Color and I are one. I am a painter.'\nKlee and Kandinsky sharing a Masters' House duplex in Dessau from 1926.\nHandwritten catalog of roughly 9,000 works.\nMedium oil on canvas, about 50 x 59 cm: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "“My kid could paint that.” Paul Klee heard some version of this sentence for most of his career. Visitors stood in front of his bright little pictures, saw building blocks and wobbly shapes, and decided the grown man behind them had never learned to draw."
+  },
+  {
+   "type": "text",
+   "text": "Klee was not offended. He had kept his own childhood drawings and studied his son's with real respect, because children draw what a thing means, not how it looks. But in 1928 he was also a professor at the Bauhaus, Germany's most demanding design school. This toy castle is engineered."
+  },
+  {
+   "type": "tour",
+   "title": "The building kit",
+   "text": "Three kinds of piece, and how each is used.",
+   "spots": [
+    {
+     "x": 0.63,
+     "y": 0.575,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Roofs",
+     "text": "Three triangles in a row, two yellow and one red, each on a small box. A triangle on a rectangle: the oldest sign for “house” there is."
+    },
+    {
+     "x": 0.22,
+     "y": 0.21,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "A striped tower",
+     "text": "Up here the blocks get thin and crowded, like windows stacked on windows, or like piano keys. Narrow pieces make this corner feel tall and busy.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.87,
+     "y": 0.17,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The red tower",
+     "text": "One long, pure red rectangle, far taller than its neighbors. Nothing decorates it. Size and color alone make it a tower.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "You just read rectangles as walls and triangles as roofs, with no doors, no shadows and no perspective, which is the trick of making a flat picture look deep. Color does the rest. Warm reds and oranges set the heat of the day. A few squares of blue and green cool it down, like shade."
+  },
+  {
+   "type": "fact",
+   "text": "Klee thought of himself mainly as a draftsman until he was 34. Then, on a two-week trip to Tunisia in 1914, the light changed his mind. He wrote in his diary: “Color and I are one. I am a painter.”"
+  },
+  {
+   "type": "text",
+   "text": "Above the roofs hangs the sun, a rough orange disc that looks rubbed onto the dark red sky. In a city of straight edges, it stands out as the one great curve. Except it is not quite alone."
+  },
+  {
+   "type": "find",
+   "text": "Apart from the sun, Klee allowed one more curve into the city. Where is it?",
+   "spots": [
+    {
+     "x": 0.83,
+     "y": 0.955,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The gate",
+     "text": "A red arch at the very bottom right: a gateway. It is the only opening in the whole castle, and it echoes the sun in the opposite corner. One curve to shine, one to walk through."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With the gate, the pattern turns into a place. Someone could enter. Klee liked this double life of shapes: step back and you see a town at sunset, step closer and you see a quilt of colored patches that stand for nothing at all."
+  },
+  {
+   "type": "fact",
+   "text": "In Dessau, Klee lived in a house designed by the Bauhaus director, split down the middle into two homes. The painter on the other side of the wall was his friend Wassily Kandinsky, a pioneer of abstract art."
+  },
+  {
+   "type": "text",
+   "text": "Klee was also a musician, and he often compared a painting to a piece of music for several voices. Here the voices are repeated shapes. Each one sets up a beat, and your eye follows it across the canvas."
+  },
+  {
+   "type": "lines",
+   "text": "Three rhythms playing at once.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.545,
+       0.61
+      ],
+      [
+       0.58,
+       0.535
+      ],
+      [
+       0.61,
+       0.61
+      ],
+      [
+       0.635,
+       0.535
+      ],
+      [
+       0.66,
+       0.61
+      ],
+      [
+       0.69,
+       0.535
+      ],
+      [
+       0.715,
+       0.61
+      ]
+     ],
+     "closed": false,
+     "label": "Zigzag",
+     "text": "The roofs go up, down, up, down. Lower in the picture, smaller triangles repeat the same zigzag faster, like quick notes under a slow melody."
+    },
+    {
+     "points": [
+      [
+       0.87,
+       0.07
+      ],
+      [
+       0.87,
+       0.26
+      ]
+     ],
+     "closed": false,
+     "label": "Upright",
+     "text": "Tall, narrow blocks pull the eye straight upward. Without them the city would lie flat like a rug. With them, it climbs."
+    },
+    {
+     "points": [
+      [
+       0.61,
+       0.065
+      ],
+      [
+       0.665,
+       0.095
+      ],
+      [
+       0.688,
+       0.16
+      ],
+      [
+       0.665,
+       0.225
+      ],
+      [
+       0.61,
+       0.255
+      ],
+      [
+       0.555,
+       0.225
+      ],
+      [
+       0.532,
+       0.16
+      ],
+      [
+       0.555,
+       0.095
+      ]
+     ],
+     "closed": true,
+     "label": "The rest",
+     "text": "A circle has no corners and no direction. After all those ticking edges, the sun is a long held note."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Look for the red handwriting in the sky to the right of the sun: Klee's signature and the year 1928. He logged every work in a handwritten catalog, with a number and a title, and ended up listing around 9,000."
+  },
+  {
+   "type": "key",
+   "text": "Klee kept the freedom of a child's drawing and added the planning of a composer. Simple shapes are not the same as simple thinking."
+  },
+  {
+   "type": "text",
+   "text": "So, could a child paint it? A child could certainly have the idea. What takes a lifetime is knowing that the sun needs a gate to answer it, and that one green square in the right spot can cool a whole red wall."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which shapes does Klee use to build his castle?",
+   "options": [
+    "Mostly circles and ovals",
+    "Rectangles and triangles, plus one large circle for the sun",
+    "Realistic stones and bricks"
+   ],
+   "answer": 1,
+   "explanation": "The city is made of rectangles and triangles under a round sun."
+  },
+  {
+   "question": "Besides the sun, where is the only other curve?",
+   "options": [
+    "In an arched gate at the bottom right",
+    "In a flag on the tall tower",
+    "In a river at the left"
+   ],
+   "answer": 0,
+   "explanation": "A red arch forms the castle's single gateway."
+  },
+  {
+   "question": "What did Klee write after his 1914 trip to Tunisia?",
+   "options": [
+    "“Line is everything.”",
+    "“I will never paint again.”",
+    "“Color and I are one. I am a painter.”"
+   ],
+   "answer": 2,
+   "explanation": "The light of Tunisia convinced him he was a painter of color."
+  },
+  {
+   "question": "Who was Klee's next-door neighbor in Dessau?",
+   "options": [
+    "Pablo Picasso",
+    "Wassily Kandinsky",
+    "Henri Matisse"
+   ],
+   "answer": 1,
+   "explanation": "The two friends shared a double house built for Bauhaus teachers."
+  },
+  {
+   "question": "What is perspective, as the lesson explains it?",
+   "options": [
+    "The trick of making a flat picture look deep",
+    "A kind of red paint",
+    "A way of signing a painting"
+   ],
+   "answer": 0,
+   "explanation": "Klee does without it here: his city stays flat."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Klee was teaching at the Bauhaus when he painted Castle and Sun.",
+   "isTrue": true,
+   "explanation": "In 1928 he was a professor there."
+  },
+  {
+   "text": "Klee was insulted by children's drawings and refused to look at them.",
+   "isTrue": false,
+   "explanation": "He kept his own childhood drawings and studied his son's with respect."
+  },
+  {
+   "text": "The castle is drawn with careful shadows and perspective.",
+   "isTrue": false,
+   "explanation": "There are no shadows and no perspective, only flat blocks of color."
+  }
+ ]
+}

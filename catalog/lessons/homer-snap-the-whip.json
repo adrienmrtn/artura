@@ -1,0 +1,247 @@
+{
+ "teaser": "Barefoot boys, a red schoolhouse, and a country trying to feel young again after a war.",
+ "focus": [
+  0.47,
+  0.47
+ ],
+ "review_notes": "Homer's 1872 situation (age 36, moved into the Tenth Street Studio Building that year, living mainly from Harper's Weekly illustrations, gave up illustration in 1875): check.\nSchoolhouse associated with Hurley, New York: check.\nTwo versions: larger one at the Butler Institute of American Art (Youngstown, Ohio) with a mountain background, shown at the 1876 Centennial Exposition; the Met version is smaller (about 30.5 x 50.8 cm) with open sky: check which was painted first (the lesson does not say).\nWood engraving published in Harper's Weekly on September 20, 1873: check.\nHomer's Civil War work as artist-correspondent for Harper's Weekly: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1872 Winslow Homer was 36, single, and not yet able to live from his paintings. He had just moved into a studio building on Tenth Street in New York. His rent was paid by drawing: for fifteen years he had supplied pictures to illustrated magazines, above all Harper's Weekly."
+  },
+  {
+   "type": "text",
+   "text": "Magazine work taught him two things. Tell a story in one image, and draw what ordinary readers know. In summer he escaped the city for farm country in upstate New York, sketchbook in hand. There he found the subject of this small canvas: recess."
+  },
+  {
+   "type": "text",
+   "text": "The game is called snap the whip, or crack the whip. Children hold hands in a line and run. Then the boys at one end stop dead and dig in their heels. The line swings around them like a whip, faster and faster toward the far end, until someone cannot hold on."
+  },
+  {
+   "type": "lines",
+   "text": "Homer painted the split second when the whip snaps. Trace the force through the line.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.95,
+       0.44
+      ],
+      [
+       0.8,
+       0.455
+      ],
+      [
+       0.6,
+       0.465
+      ]
+     ],
+     "closed": false,
+     "label": "The anchors",
+     "text": "On the right, two boys lean back hard and a third stretches between them and the runners. Their linked arms are pulled almost straight: the line is tight as a rope."
+    },
+    {
+     "points": [
+      [
+       0.6,
+       0.465
+      ],
+      [
+       0.37,
+       0.5
+      ],
+      [
+       0.17,
+       0.55
+      ]
+     ],
+     "closed": false,
+     "label": "The whip",
+     "text": "Toward the left the chain bends and speeds up. Bodies tilt forward, legs fly, and the last link has already broken."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.33
+      ],
+      [
+       0.58,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "The tilt",
+     "text": "The tall boy in the middle leans at a steep angle, held up only by the hands on either side. Let go and he falls."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the picture is really a diagram of trust. Every boy depends on the grip of his neighbors. The ones who brace take the strain, the ones at the end take the risk, and the one tumbling in the grass on the left has just paid for it. Nobody is hurt. He will be back in line in a minute."
+  },
+  {
+   "type": "fact",
+   "text": "Most of the boys run barefoot. In the countryside, shoes were costly and often saved for church and cold weather, so summer meant running on grass, stones and all."
+  },
+  {
+   "type": "text",
+   "text": "Why did this simple scene matter so much in 1872? The Civil War had ended only seven years earlier. Homer had seen it up close, sent to the front by Harper's Weekly to draw soldiers. Boys this age were the first generation to grow up after it. Viewers looked at them and saw a country getting a second chance."
+  },
+  {
+   "type": "key",
+   "text": "A children's game carries a grown-up idea: after a war that tore the nation apart, here are people holding on to each other."
+  },
+  {
+   "type": "text",
+   "text": "The red building behind them carried meaning too. The one-room schoolhouse, where a single teacher taught all ages together, was already becoming a memory as families left farms for cities and factories. Homer painted it the way people wanted to remember it."
+  },
+  {
+   "type": "fact",
+   "text": "There are two Snap the Whip paintings. A larger one, now in Youngstown, Ohio, has a wall of mountains behind the school. In the Metropolitan Museum's version the hills are gone and wide sky takes their place."
+  },
+  {
+   "type": "text",
+   "text": "That open sky changes the mood. With no mountains to close the view, the meadow feels bigger and the boys freer. The size is a surprise as well: the canvas is only about 30 by 51 centimeters (12 by 20 inches), not much larger than a magazine spread. The rest is yours to wander."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.54,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The fallen",
+     "text": "The last boy in the line has been flung off and lands on hands and knees, one shoe kicked up behind him. His brown clothes almost melt into the grass."
+    },
+    {
+     "x": 0.69,
+     "y": 0.33,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The schoolhouse",
+     "text": "Plain red boards, one door, a window with a white curtain, a chimney. The door stands open and dark: class is not over, only paused."
+    },
+    {
+     "x": 0.47,
+     "y": 0.73,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "Bare feet",
+     "text": "Heels up, toes pushing off. Homer catches each foot at a different point of the stride, which is what makes the line seem to move."
+    },
+    {
+     "x": 0.26,
+     "y": 0.84,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Wildflowers",
+     "text": "White, blue and red flowers and loose stalks fill the foreground, dabbed in quickly. They put you down in the grass at a child's height."
+    },
+    {
+     "x": 0.93,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Digging in",
+     "text": "The two boys at the right end lean far back, one with his face tipped to the sky. Their whole weight is the anchor of the game."
+    },
+    {
+     "x": 0.1,
+     "y": 0.445,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The village",
+     "text": "Far off on the horizon, white houses and a thin church steeple mark a village. Home and the adult world are close, but kept very small."
+    },
+    {
+     "x": 0.7,
+     "y": 0.72,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "Short shadows",
+     "text": "Dark shadows pool right under the runners. The sun is high: it is the middle of the day, and the middle of summer."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Homer did not stay with this sunny world. Within a few years he gave up magazine work, and his later subjects grew harder: fishermen, storms, the open sea. Snap the Whip belongs to the brief period when he painted America at play."
+  },
+  {
+   "type": "fact",
+   "text": "The image reached far more people in print than on canvas. In September 1873 Harper's Weekly published it as a large wood engraving, delivered to homes all over the country."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How was Homer earning his living in 1872?",
+   "options": [
+    "As a magazine illustrator",
+    "As a schoolteacher",
+    "From large painting sales"
+   ],
+   "answer": 0,
+   "explanation": "He had drawn for magazines such as Harper's Weekly for fifteen years."
+  },
+  {
+   "question": "In the game, what do the boys at the anchoring end do?",
+   "options": [
+    "Run fastest",
+    "Stop and brace so the line swings around them",
+    "Let go first"
+   ],
+   "answer": 1,
+   "explanation": "They dig in their heels, and the far end gets flung off."
+  },
+  {
+   "question": "Why did the scene feel hopeful to viewers in 1872?",
+   "options": [
+    "It showed a new kind of school",
+    "It advertised country holidays",
+    "These boys were growing up after the Civil War"
+   ],
+   "answer": 2,
+   "explanation": "They stood for a country getting a second chance."
+  },
+  {
+   "question": "How does the Met's version differ from the larger one in Ohio?",
+   "options": [
+    "It has more children",
+    "It has open sky where the other has mountains",
+    "It is set in winter"
+   ],
+   "answer": 1,
+   "explanation": "The hills behind the school are replaced by wide sky."
+  },
+  {
+   "question": "What do most of the boys have on their feet?",
+   "options": [
+    "Nothing: they are barefoot",
+    "Heavy winter boots",
+    "Wooden clogs"
+   ],
+   "answer": 0,
+   "explanation": "Shoes were often saved for church and cold weather."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Met's Snap the Whip is a huge canvas, wider than a door is tall.",
+   "isTrue": false,
+   "explanation": "It is only about 30 by 51 centimeters."
+  },
+  {
+   "text": "Homer had drawn Civil War soldiers at the front for a magazine.",
+   "isTrue": true,
+   "explanation": "Harper's Weekly sent him to cover the war."
+  },
+  {
+   "text": "The image was also published as a wood engraving in Harper's Weekly.",
+   "isTrue": true,
+   "explanation": "It appeared there in September 1873."
+  }
+ ]
+}

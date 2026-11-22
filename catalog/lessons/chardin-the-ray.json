@@ -1,0 +1,57 @@
+{
+  "teaser": "A gutted fish hangs from a hook. And it seems to be smiling at you.",
+  "focus": [0.47, 0.4],
+  "review_notes": "Dimensions about 114 x 146 cm (Louvre: 114.5 x 146 cm).\nShown at the open-air Exposition de la Jeunesse, Place Dauphine, Paris, on Corpus Christi day 1728.\nChardin was approved and received into the Royal Academy on the same day, 25 September 1728, with The Ray and The Buffet as reception pieces.\nThe Largillière anecdote (mistaking the pictures for Flemish works) comes from early biographers.\nDiderot quote is from his Salon of 1763 (said of this painting; translation paraphrased closely).\nProust compared the ray to the nave of a polychrome cathedral in an early essay on Chardin (c. 1895).\nMatisse copied The Ray in the Louvre in the 1890s; Soutine painted still lifes with a rayfish in the 1920s; Cézanne drew after it: check.\nThe 'face' is the underside of the ray (mouth, nostrils); the true eyes are on the upper side.\nThe vegetables at lower left read as leeks or spring onions.",
+  "lesson": [
+    {"type": "text", "text": "The animal in the middle of this picture is dead. It has been slit open, emptied and hung on an iron hook. And yet it has a face, pale and wide, with two dark eyes and a small curved mouth, and the face looks pleased. That is the knot at the center of The Ray: butchery and a smile in the same body."},
+    {"type": "text", "text": "A ray, or skate, is a flat fish that was common in Paris markets, sold for the wings. Jean Siméon Chardin was 28 when he painted this one in 1728, an unknown still life painter, meaning a painter of objects and food instead of people. He made it big: about 114 by 146 centimeters (45 by 57 inches), close to the size of a real kitchen table."},
+    {"type": "tour", "title": "The hanging fish", "text": "Go from the hook down through the body.", "spots": [
+      {"x": 0.49, "y": 0.09, "zoom": 3, "r": 0.06, "title": "The hook", "text": "A dark iron hook pierces the snout and pins the fish to the stone wall. Everything below hangs from this single point, pulled into a kite shape by its own weight."},
+      {"x": 0.49, "y": 0.26, "zoom": 3, "r": 0.09, "title": "The “face”", "text": "Two dark hollows and a soft curved slit: you read eyes and a mouth at once. The expression seems gentle, even amused, right above the wound."},
+      {"x": 0.44, "y": 0.5, "zoom": 2.4, "r": 0.13, "title": "The opened belly", "text": "Reds, pinks and wet whites in thick, broken strokes. Step near and it is only paint. Step back and it glistens like something you could smell."}
+    ]},
+    {"type": "text", "text": "So the picture pulls two ways. The flesh says “meat”. The face says “someone”. Chardin does nothing to settle it. He paints both with the same patient attention, and lets your stomach and your sympathy argue."},
+    {"type": "fact", "text": "The smile is an accident of anatomy. You are seeing the underside of the ray. The “eyes” are its nostrils and the “smile” is its mouth, which sits under the body for feeding on the sea floor. The real eyes are on the other side, against the wall."},
+    {"type": "text", "text": "The fish is not the only tension. The scene splits into two halves that behave differently, and a second, quieter structure holds them together."},
+    {"type": "lines", "text": "Three shapes organize the kitchen shelf.", "lines": [
+      {"points": [[0.49, 0.14], [0.68, 0.5], [0.28, 0.5]], "closed": true, "label": "The pyramid", "text": "The ray forms a broad triangle with the hook at its tip. It is the tallest, palest thing in the picture, hung like an altarpiece over a table."},
+      {"points": [[0.1, 0.35], [0.2, 0.55], [0.3, 0.72], [0.42, 0.8]], "closed": false, "label": "The living side", "text": "On the left, things move or once moved: a cat with its back arched, opened oysters, two fish sliding over the ledge. This side is all nerves."},
+      {"points": [[0.62, 0.32], [0.73, 0.4], [0.85, 0.47], [0.95, 0.65]], "closed": false, "label": "The made side", "text": "On the right, only manufactured objects: a bottle, a copper pot, a glazed jug, a skimmer. Round, heavy, silent. The ray hangs between the two worlds."}
+    ]},
+    {"type": "text", "text": "Painters call a still life “dead nature” in French, nature morte. Chardin slips real life into it. The cat is the only creature here with a pulse, and it has just landed on the oysters, fur on end. Is it frightened by the ray, or about to steal a fish? Its panic makes everything else look even stiller."},
+    {"type": "text", "text": "Stillness is not flatness, though. A shelf seen straight on could look like a strip of wallpaper. Chardin borrowed an old trick from Dutch painters to push the scene out of the canvas and into your room."},
+    {"type": "find", "text": "One object hangs over the edge of the stone shelf and points out toward you. Tap it.", "spots": [
+      {"x": 0.74, "y": 0.815, "zoom": 3.2, "r": 0.07, "title": "The knife", "text": "Its handle sticks out past the ledge, half hidden in the fold of the white cloth, as if you could take it. It is also the tool that opened the fish: the evidence left at the scene."}
+    ]},
+    {"type": "key", "text": "Chardin proved that a painting does not need a noble subject to be serious. A fish, a cat and a few pots are enough, if they are looked at hard enough."},
+    {"type": "text", "text": "In 1728 that was a risky bet. The Royal Academy, which controlled artistic careers in France, ranked subjects in a strict order: history and religion at the top, then portraits, then landscape, and at the very bottom, still life. A painter of dead fish started with a ceiling over his head."},
+    {"type": "text", "text": "That June, Chardin hung The Ray in the open air on the Place Dauphine in Paris, at a one-day show where young artists without official standing could be seen. Academy members noticed. In September he applied, and was accepted as a full member the same day, which normally took two separate steps."},
+    {"type": "fact", "text": "An early biographer tells that Chardin set his canvases in a side room at the Academy without his name. The famous portraitist Nicolas de Largillière admired them as the work of some fine Flemish master, then learned who had made them."},
+    {"type": "explore", "spots": [
+      {"x": 0.2, "y": 0.52, "zoom": 2.6, "r": 0.11, "title": "The cat", "text": "Tabby patches on white, tail straight up, eyes wide. Its front paws are planted on an opened oyster. The fur is done in short dry strokes that bristle."},
+      {"x": 0.26, "y": 0.75, "zoom": 2.8, "r": 0.1, "title": "Oysters", "text": "Opened shells with a gray, slippery shine inside. A touch of pale paint on the wet flesh is enough to make them look cold."},
+      {"x": 0.41, "y": 0.8, "zoom": 2.8, "r": 0.09, "title": "Two small fish", "text": "They lie head down over the edge of the shelf, mouths open. Their dull silver matches the stone, so they almost disappear."},
+      {"x": 0.6, "y": 0.75, "zoom": 2, "r": 0.14, "title": "The white cloth", "text": "A crumpled napkin spills off the ledge in one big bright shape. It is the lightest area of the right side and balances the pale fish above."},
+      {"x": 0.72, "y": 0.42, "zoom": 2.4, "r": 0.11, "title": "Copper", "text": "A copper pot tipped on its side shows its tinned inside. Chardin's copper never sparkles. It glows dully, the way worn kitchen metal really does."},
+      {"x": 0.85, "y": 0.62, "zoom": 2.2, "r": 0.11, "title": "The green jug", "text": "A dark glazed stoneware jug, nearly black, with a few sharp highlights on the shoulder. It stands like a full stop at the end of the shelf."},
+      {"x": 0.14, "y": 0.8, "zoom": 2.8, "r": 0.09, "title": "Leeks", "text": "A bundle of leeks or spring onions hangs over the edge at far left, pale roots dangling. With the fish, they are the ingredients of a meal not yet cooked."}
+    ]},
+    {"type": "text", "text": "Thirty-five years later the critic Denis Diderot stood in front of the picture and wrote one of the most quoted lines in French art writing: the object is disgusting, but it is the very flesh of the fish, its skin, its blood. He urged young painters to go and learn from it the secret of “redeeming” an ugly subject through talent."},
+    {"type": "fact", "text": "Painters kept coming. As a student in the 1890s, Henri Matisse set up his easel in the Louvre and copied The Ray. In the 1920s Chaïm Soutine painted his own hanging rayfish, wilder and redder, in open homage."},
+    {"type": "text", "text": "The novelist Marcel Proust, writing as a young man, saw something else in the opened fish: the nave of a cathedral, with its arches of colored stone. Monster, meat, face, church. Few pictures of a kitchen shelf have been asked to be so many things."},
+    {"type": "key", "text": "Return to the smile. Knowing it is only a mouth on the wrong side of a fish does not make it go away. Paint can make you believe two opposite things at once, and Chardin leaves both standing."}
+  ],
+  "quiz": [
+    {"question": "What is the “face” of the ray actually made of?", "options": ["Its real eyes and gills", "Its nostrils and mouth, on the underside", "Marks added by the painter as a joke"], "answer": 1, "explanation": "The true eyes are on the other side of the body."},
+    {"question": "Where did still life rank in the Royal Academy's order of subjects?", "options": ["At the bottom", "At the top", "Just below history painting"], "answer": 0, "explanation": "History and religion came first, still life last."},
+    {"question": "Which object juts out over the shelf toward the viewer?", "options": ["The copper pot", "The bottle", "The knife"], "answer": 2, "explanation": "Its handle hangs past the ledge, an old Dutch trick for creating depth."},
+    {"question": "What is the only living creature in the painting?", "options": ["The ray", "The cat", "A bird"], "answer": 1, "explanation": "The cat, back arched, stands on the oysters at left."},
+    {"question": "What was unusual about Chardin's entry into the Academy in 1728?", "options": ["He was accepted as a full member on the day he applied", "He was the first foreigner admitted", "He was admitted as a history painter"], "answer": 0, "explanation": "Admission normally took two separate steps."},
+    {"question": "Which later painter copied The Ray in the Louvre as a student?", "options": ["Claude Monet", "Pablo Picasso", "Henri Matisse"], "answer": 2, "explanation": "Matisse copied it in the 1890s."}
+  ],
+  "facts": [
+    {"text": "Diderot called the subject of The Ray disgusting and praised the painting anyway.", "isTrue": true, "explanation": "He wrote that it was the very flesh, skin and blood of the fish."},
+    {"text": "The Ray is a tiny picture, about the size of a book.", "isTrue": false, "explanation": "It measures about 114 by 146 cm, close to a real table."},
+    {"text": "Chardin first showed The Ray inside the royal palace.", "isTrue": false, "explanation": "He hung it outdoors on the Place Dauphine at a one-day show for young artists."}
+  ]
+}

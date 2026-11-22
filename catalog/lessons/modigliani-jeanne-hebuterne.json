@@ -1,0 +1,42 @@
+{
+ "teaser": "A finger touches her cheek, her head tips, and her eyes are painted without pupils.",
+ "focus": [0.42, 0.25],
+ "review_notes": "Jeanne was pregnant with their second child in 1919; the lesson links the loose chemise to this, as the Met does.\nModigliani died January 24, 1920; Jeanne fell from her parents' fifth-floor window in the early hours of January 26 (lesson says 'less than two days later').\nReburial beside Modigliani at Pere Lachaise around 1930 to confirm.\n'More than twenty portraits of her' is the usual count.\nMet credit: Gift of Mr. and Mrs. Nate B. Spingold, 1956; size about 91.4 x 73 cm.",
+ "lesson": [
+  {"type":"text","text":"Her finger has just come to rest against her cheek. Her head is tipping to one side, the way it does when you stop listening to the room and start following a thought. Her other hand lies forgotten in her lap. That is the instant: nothing is happening, and she has drifted off inside it."},
+  {"type":"text","text":"She is Jeanne Hébuterne, 21 years old, an art student and a painter herself. The man at the easel is Amedeo Modigliani, 35, her partner of two years. They have a baby daughter, and in this picture Jeanne is expecting their second child. The loose white chemise falls over a rounded belly."},
+  {"type":"text","text":"He painted her more than twenty times, always clothed, though he was notorious for his nudes. The portraits of Jeanne are quieter than anything else he made. This one is fairly large, about 91 by 73 cm (36 by 29 inches), and it is almost entirely one long, slow curve."},
+  {"type":"lines","text":"Follow the curve from the top of her head to her fingertips.","lines":[
+   {"points":[[0.40,0.07],[0.42,0.25],[0.45,0.36],[0.38,0.55],[0.28,0.75],[0.45,0.93]],"closed":false,"label":"The S","text":"Head, neck, shoulder, arm, hand: one S-shaped line runs the full height of the canvas. Modigliani bends anatomy until it flows like handwriting."},
+   {"points":[[0.52,0.32],[0.66,0.30],[0.88,0.40]],"closed":false,"label":"The propped arm","text":"Her forearm reaches out to rest on the chair back. It is the one straight, firm line, the bracket that holds the tilted head."},
+   {"points":[[0.37,0.08],[0.46,0.31]],"closed":false,"label":"The tilt","text":"The axis of the face leans well off vertical. Tilt a head and a portrait stops being formal. It becomes a mood."}
+  ]},
+  {"type":"text","text":"That neck is impossible, of course. So are the sloping shoulders and the arm that seems to have no bones. Modigliani had been a sculptor of long stone heads, and he had studied the elegant, stretched Madonnas of early Italian painting. He stretches Jeanne the same way, on purpose."},
+  {"type":"key","text":"Modigliani's distortions are not mistakes. Lengthening a neck or a face was his way of turning a real person into a rhythm."},
+  {"type":"fact","text":"Friends called Jeanne “Noix de Coco”, coconut, for the contrast between her very pale skin and her dark auburn hair. Modigliani pushes that contrast here: the hair is almost red, the skin almost gold."},
+  {"type":"text","text":"He also keeps his palette tight. Count the main colors and you will find only four or five, each given its own territory. And then there are the eyes, which have troubled viewers for a century."},
+  {"type":"tour","title":"Few colors, strange eyes","text":"Four stops, from her gaze to the hand she has forgotten.","spots":[
+   {"x":0.39,"y":0.23,"zoom":3.6,"r":0.07,"title":"Eyes without pupils","text":"Two pale blue almonds, no iris, no pupil. She cannot look at you. The blankness turns her attention inward, like a mask or an ancient statue."},
+   {"x":0.53,"y":0.33,"zoom":3,"r":0.08,"title":"The hand at the cheek","text":"Long fingers curl loosely, one touching the jaw. The pose of someone thinking, drawn with a single brown outline."},
+   {"x":0.75,"y":0.68,"zoom":1.8,"r":0.18,"title":"The ochre chair","text":"A big block of yellow-brown, brushed thinly so the canvas grain shows. It warms the right side and balances the cool white dress."},
+   {"x":0.47,"y":0.93,"zoom":2.8,"r":0.08,"title":"The other hand","text":"Down in her lap, the fingers hang slack. Nothing in this body is tense. The whole figure is at rest."}
+  ]},
+  {"type":"text","text":"Behind her the wall splits in two: olive and gray on the left, blue on the right, meeting just above her head. It is barely a room. Modigliani scrubs the paint on thinly and lets the brushmarks show, so the background shimmers while the figure stays calm."},
+  {"type":"fact","text":"Jeanne's parents, a conservative Catholic family, opposed the relationship with a penniless, hard-drinking foreign painter. The couple never married."},
+  {"type":"text","text":"Within a year both were dead. Modigliani died of tubercular meningitis on January 24, 1920. Less than two days later, eight months pregnant, Jeanne threw herself from a window of her parents' fifth-floor apartment. She was 21."},
+  {"type":"fact","text":"Her family first buried her apart from him. Years later they allowed her to be moved beside Modigliani in Père Lachaise cemetery in Paris, under one stone that calls her his devoted companion."},
+  {"type":"text","text":"Knowing that, it is tempting to read sadness into the blank eyes. Try not to. On the day he painted this, none of it had happened. There was only an afternoon, a chair, a white dress, and a young woman who had stopped posing for a second and started thinking about something else."}
+ ],
+ "quiz": [
+  {"question":"What is unusual about Jeanne's eyes in this portrait?","options":["They are closed","They have no pupils or irises","They look in two directions"],"answer":1,"explanation":"They are pale blue almonds, blank like those of a mask."},
+  {"question":"Who was Jeanne Hébuterne?","options":["Modigliani's partner, and a painter herself","His dealer's wife","A professional model he met once"],"answer":0,"explanation":"She was an art student and his companion for the last years of his life."},
+  {"question":"Why are her neck and shoulders so stretched?","options":["The canvas was damaged and restretched","He painted quickly and made errors","He lengthened forms on purpose, as in his sculpture"],"answer":2,"explanation":"The distortion is deliberate, a way of making the figure flow."},
+  {"question":"What shape runs through the whole figure?","options":["A triangle","A long S-curve","A circle"],"answer":1,"explanation":"Head, neck, arm and hand form one S from top to bottom."},
+  {"question":"What does the loose white chemise suggest?","options":["That she is pregnant","That she is dressed for a ball","That she is in mourning"],"answer":0,"explanation":"In 1919 Jeanne was expecting the couple's second child."}
+ ],
+ "facts": [
+  {"text":"Modigliani painted Jeanne many times, but never nude.","isTrue":true,"explanation":"He made more than twenty portraits of her, always clothed."},
+  {"text":"Jeanne and Modigliani were married with her parents' blessing.","isTrue":false,"explanation":"Her family opposed the relationship and the couple never married."},
+  {"text":"The background is a detailed room with furniture and a window.","isTrue":false,"explanation":"It is just two thinly brushed zones, olive-gray and blue."}
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "teaser": "A mother pulls a veil between her sleeping baby and you. Nobody bought it for 58 years.",
+  "focus": [0.45, 0.5],
+  "review_notes": "The mirrored bent arms of mother and child are a standard reading (Musée d'Orsay); the baby's arm is faint in the image.\nBlanche Pontillon was born in December 1871; painting made in Paris in 1872.\nAcquired by the Louvre in 1930 from the sitter's family; now at Orsay.",
+  "lesson": [
+    {"type": "text", "text": "A hand has just closed on the edge of a gauze curtain. In half a second it will pull, and the veil will fall between the sleeping baby and the rest of the room. That is the instant Berthe Morisot stops: the gesture is begun, not finished, and the mother's eyes have not moved from the child."},
+    {"type": "text", "text": "The mother is Edma, the painter's older sister. The baby is Blanche, Edma's second child, a few months old. The year is 1872 and Edma has come to stay with her family in Paris. Berthe, thirty-one and unmarried, sets up her easel in the bedroom."},
+    {"type": "text", "text": "There is a second story under the tender one. Edma had been a painter too. The sisters trained side by side and showed at the Salon, the official Paris exhibition, year after year. Then Edma married a naval officer in 1869 and put her brushes away. Berthe is painting the life she herself has so far refused."},
+    {"type": "fact", "text": "The Morisot sisters took lessons from the landscape painter Camille Corot. Their first teacher had warned their mother that with such talent they would become real painters, which in their social world, he said, would be “a catastrophe”."},
+    {"type": "text", "text": "How do you paint a look? A stare has no color and no shape. Morisot solves it with geometry: she builds the picture so that everything slides from one face to the other."},
+    {"type": "lines", "text": "Three lines hold the mother and child together.", "lines": [
+      {"points": [[0.4, 0.43], [0.7, 0.69]], "closed": false, "label": "The gaze", "text": "From Edma's eye to Blanche's closed eyes: one straight diagonal. It is the invisible thread of the painting, and everything else is hung on it."},
+      {"points": [[0.76, 0.06], [0.47, 0.62], [0.15, 0.74]], "closed": false, "label": "The veil's edge", "text": "The curtain, trimmed with a pink ribbon, drops from the top of the canopy to Edma's fingers. It crosses the gaze like the second stroke of an X."},
+      {"points": [[0.41, 0.6], [0.5, 0.53], [0.43, 0.48]], "closed": false, "label": "The bent arm", "text": "Edma props her cheek on her hand, elbow folded. Inside the cradle the baby's arm is folded beside her head the same way. Mother and daughter echo each other."}
+    ]},
+    {"type": "key", "text": "The Cradle turns a feeling into structure: two diagonals that cross, a gaze and a veil, are enough to make you feel both closeness and protection."},
+    {"type": "text", "text": "Once you have seen the structure, see how little paint carries it. Half the canvas is white on white: muslin over linen over skin. Morisot had to make transparent cloth out of opaque oil paint, and she did it with speed, not with detail."},
+    {"type": "tour", "title": "Painting what you can see through", "text": "Three whites, three ways of handling the brush.", "spots": [
+      {"x": 0.7, "y": 0.69, "zoom": 3.2, "r": 0.1, "title": "The baby, veiled", "text": "Blanche's face is a soft pink blur with barely a mark for the eyes. A thin gray-white film is dragged over it. We see her as her mother does, through gauze."},
+      {"x": 0.14, "y": 0.73, "zoom": 3.4, "r": 0.08, "title": "The hand that pulls", "text": "A few fast strokes for the fingers, pinching the ribbon-edged veil. This small hand is the only action in the whole picture."},
+      {"x": 0.4, "y": 0.47, "zoom": 2.6, "r": 0.12, "title": "Edma's profile", "text": "Here the brush slows down. Lowered eyelid, black ribbon at the neck, dark dress: the one firm, dark shape that anchors all the floating white around it."}
+    ]},
+    {"type": "text", "text": "Two years later, in 1874, a group of painters tired of being refused by the Salon rented a photographer's former studio and held their own show. It became known as the first Impressionist exhibition. Morisot was the only woman among the thirty artists. The Cradle hung there, near works by Monet, Renoir and Degas."},
+    {"type": "fact", "text": "Hardly anyone noticed it. A few reviewers praised its grace, and no buyer came forward. Morisot tried again to sell it, gave up and withdrew it. The canvas, only 56 by 46 cm (22 by 18 in), stayed with Edma and her daughter."},
+    {"type": "text", "text": "It remained in the family until 1930, when the Louvre bought it. Today it is among the most reproduced images of motherhood in French art. Blanche, the sleeping baby, lived long enough to see her own portrait enter a national museum."}
+  ],
+  "quiz": [
+    {"question": "Who is the woman watching the baby?", "options": ["The painter herself", "Edma, the painter's sister", "A hired nurse"], "answer": 1, "explanation": "Edma Morisot is shown with her daughter Blanche."},
+    {"question": "What had Edma given up after her marriage?", "options": ["Painting", "Living in France", "Her family name only"], "answer": 0, "explanation": "She trained and exhibited alongside Berthe, then stopped painting when she married in 1869."},
+    {"question": "Which two lines cross to structure the picture?", "options": ["The horizon and a tree", "The cradle's legs and the floorboards", "The mother's gaze and the edge of the veil"], "answer": 2, "explanation": "The diagonal of the gaze crosses the diagonal of the ribbon-trimmed curtain."},
+    {"question": "Where was the painting shown in 1874?", "options": ["At the official Salon", "At the first Impressionist exhibition", "In a London gallery"], "answer": 1, "explanation": "It hung in the independent show later called the first Impressionist exhibition, where Morisot was the only woman."},
+    {"question": "What happened to the painting after that exhibition?", "options": ["It stayed in the family until the Louvre bought it in 1930", "A collector bought it on opening day", "Morisot destroyed it"], "answer": 0, "explanation": "It found no buyer and remained with Edma and her daughter for decades."}
+  ],
+  "facts": [
+    {"text": "The mother's hand is in the middle of drawing the veil over the cradle.", "isTrue": true, "explanation": "Morisot freezes the gesture as the fingers close on the curtain's edge."},
+    {"text": "The Cradle was an instant success with buyers in 1874.", "isTrue": false, "explanation": "It attracted little attention and did not sell."},
+    {"text": "Morisot was one of several women in the first Impressionist exhibition.", "isTrue": false, "explanation": "She was the only woman among the thirty exhibitors."}
+  ]
+}

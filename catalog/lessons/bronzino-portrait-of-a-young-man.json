@@ -1,0 +1,169 @@
+{
+ "teaser": "He gives you one cool look and tells you nothing. That was the whole idea.",
+ "focus": [
+  0.47,
+  0.2
+ ],
+ "review_notes": "IMAGE MISMATCH: the image is not the Metropolitan Museum's Portrait of a Young Man (standing youth with a book, green wall, grotesque furniture, 1530s). It shows the Bronzino Portrait of a Young Man with a pink curtain and a statue of Bacchus, which I believe is in the National Gallery, London (usually dated c. 1550-55). The lesson describes the image shown and therefore avoids naming a museum or exact year.\nSitter unidentified.\nStatue read as Bacchus (vine leaves and grapes in hair) with a small child or satyr at its feet: based on what is visible; meaning for the sitter unknown.\nBronzino as court painter to Cosimo I, pupil of Pontormo and a poet: standard facts.\nBlack as the most expensive, fashionable dye in 16th-century courts; Castiglione's Book of the Courtier (1528) recommending dark dress and 'sprezzatura'.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "How long could you hold this face without giving anything away? No smile, no frown, eyes level, mouth closed. Try it in a mirror for ten seconds. The young man in this portrait has been doing it for almost five hundred years, and we still do not know his name."
+  },
+  {
+   "type": "text",
+   "text": "Agnolo Bronzino painted him in Florence, where he worked for the ruling Medici family and portrayed half the court. His sitters share a family resemblance that has nothing to do with blood: smooth, pale, distant, perfectly dressed. Bronzino did not flatter people by making them friendly. He made them untouchable."
+  },
+  {
+   "type": "text",
+   "text": "Before the details, take in the proportions. The body is a great dark pyramid that fills the lower two thirds of the panel, and the head on top is small and fine. Bronzino enlarged the shoulders and sleeves so the sitter looms over you, a trick of the courtly style called Mannerism, which preferred elegance to accuracy."
+  },
+  {
+   "type": "fact",
+   "text": "That black is a status symbol, not modesty. Deep, even black was among the hardest and most expensive colors to dye in the 1500s, and a famous guide to court manners advised gentlemen to wear dark clothes to look serious."
+  },
+  {
+   "type": "text",
+   "text": "With so much black, the painter needed only a few places to prove his skill. Each one is small, sharp and placed where your eye cannot avoid it."
+  },
+  {
+   "type": "tour",
+   "title": "Where the skill shows",
+   "text": "Three bright areas float on the dark coat.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.2,
+     "zoom": 2.6,
+     "r": 0.14,
+     "title": "The face",
+     "text": "Skin like polished stone, with no visible brushstroke. One eye looks straight at you while the head stays turned: he grants you a glance, not his attention."
+    },
+    {
+     "x": 0.55,
+     "y": 0.42,
+     "zoom": 3.4,
+     "r": 0.09,
+     "title": "The collar",
+     "text": "A white collar edged with tiny openwork lace, painted hole by hole. It is the only fussy thing he wears, and it frames the face like a setting holds a gem."
+    },
+    {
+     "x": 0.2,
+     "y": 0.93,
+     "zoom": 2.4,
+     "r": 0.16,
+     "title": "The hands",
+     "text": "Long fingers rest on the pages of an open book or a sheaf of papers, on a green table. One hand lifts a corner, as if you had interrupted his reading."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The papers matter. In Renaissance Florence a portrait was a statement about who you were, and this one says: I read. A book or a letter under the hand marked the sitter as educated, at ease with poetry and ideas. Bronzino, who wrote verse himself, moved in exactly those circles."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the wall of pink. A curtain of shot silk falls behind him in long folds, loud enough to make the black look even blacker. It also hides most of the room. Most, but not all. Something is standing at the edge, in the gap."
+  },
+  {
+   "type": "find",
+   "text": "He is not alone in the room. Someone made of stone is smiling behind the curtain. Where?",
+   "spots": [
+    {
+     "x": 0.08,
+     "y": 0.5,
+     "zoom": 2.4,
+     "r": 0.11,
+     "title": "The statue",
+     "text": "A grayish marble figure with grapes and vine leaves in its hair: Bacchus, the ancient god of wine. It has lost an arm, like a real antique, and a small child clings at its feet.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Compare the two faces. The stone god grins and tilts his head, loose and tipsy. The living man is rigid and sealed. Bronzino has swapped the roles: the marble is alive and the flesh is as cool as marble. Whether the god hints at the sitter's tastes or simply at his love of antiquity, nobody can say."
+  },
+  {
+   "type": "fact",
+   "text": "Bronzino got his nickname, “the bronze one,” possibly from his dark complexion or reddish hair. His real name was Agnolo di Cosimo. He learned his trade from Pontormo, who treated him almost as a son."
+  },
+  {
+   "type": "key",
+   "text": "A Bronzino portrait shows rank, taste and self-control, and keeps the person private. The mask is the likeness."
+  },
+  {
+   "type": "text",
+   "text": "So go back to the question at the start. Ten seconds of that expression is tiring. A lifetime of it was a court skill, practiced like fencing. What the young man was like when the curtain closed is the one thing the painting was designed not to show."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What do we know about the sitter's identity?",
+   "options": [
+    "He is Duke Cosimo de' Medici",
+    "He is the painter himself",
+    "His name is unknown"
+   ],
+   "answer": 2,
+   "explanation": "The young man has never been identified."
+  },
+  {
+   "question": "Why was wearing black a sign of status?",
+   "options": [
+    "Deep black dye was difficult and expensive to make",
+    "Only priests were allowed other colors",
+    "Black was the Medici family color"
+   ],
+   "answer": 0,
+   "explanation": "Even, deep black was costly, and court manners recommended dark clothes."
+  },
+  {
+   "question": "Which god does the statue behind the curtain represent?",
+   "options": [
+    "Mars, god of war",
+    "Bacchus, god of wine",
+    "Apollo, god of music"
+   ],
+   "answer": 1,
+   "explanation": "The grapes and vine leaves in its hair identify Bacchus."
+  },
+  {
+   "question": "What do the papers under his hands suggest?",
+   "options": [
+    "That he is educated and reads",
+    "That he is a banker counting debts",
+    "That he is signing a treaty"
+   ],
+   "answer": 0,
+   "explanation": "A book or papers marked a sitter as cultivated."
+  },
+  {
+   "question": "How did Bronzino change the body's proportions?",
+   "options": [
+    "He made the head huge",
+    "He shortened the arms",
+    "He enlarged the body and kept the head small"
+   ],
+   "answer": 2,
+   "explanation": "The broad dark body makes the sitter loom, a Mannerist choice of elegance over accuracy."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The statue in the background is smiling while the sitter is not.",
+   "isTrue": true,
+   "explanation": "The marble Bacchus grins, in contrast with the young man's sealed expression."
+  },
+  {
+   "text": "Bronzino left thick, visible brushstrokes on the face.",
+   "isTrue": false,
+   "explanation": "He blended the paint until the skin looked like polished stone."
+  },
+  {
+   "text": "Bronzino was trained by Pontormo.",
+   "isTrue": true,
+   "explanation": "He learned from Pontormo, who treated him almost as a son."
+  }
+ ]
+}

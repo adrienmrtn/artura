@@ -1,0 +1,51 @@
+{
+  "teaser": "A bronze horse and rider, balanced on two hooves by a man who had never sculpted before.",
+  "focus": [0.6, 0.35],
+  "review_notes": "Height given as about 60 cm (2 ft): check against the Met cast.\nLaunch price of $250 at Tiffany & Co. is from memory.\nFigure of 'more than 275 authorized casts' and the 1900 switch from sand casting (Henry-Bonnard) to lost wax (Roman Bronze Works) should be verified.\nPlaywright Augustus Thomas and sculptor Frederick Ruckstull as the people who pushed Remington to model: verify.\nRemington's 'endure in bronze' remark to Owen Wister is paraphrased, not quoted.\nRough Riders' gift to Theodore Roosevelt in 1898 and the presence of a cast in the Oval Office: verify wording.\nThe loose stirrup on the far side is identified from the photo; the object in the raised hand is read as a quirt (short whip).",
+  "lesson": [
+    {"type": "text", "text": "This sculpture is about 60 centimeters high, roughly two feet. It would fit on a desk. And all of that bronze, a full-grown horse and a grown man, comes down to the ground through just two hooves."},
+    {"type": "text", "text": "A “broncho” was a horse that had never carried a saddle. The buster was the cowboy paid to stay on its back until the animal gave up. Frederic Remington chose the worst second of that job: the horse rears straight up, and nobody knows yet who wins."},
+    {"type": "text", "text": "The rider is in more trouble than he looks. One of his feet has just lost its support. The proof hangs somewhere under the horse, on the side turned away from you."},
+    {"type": "find", "text": "A stirrup is swinging empty. Can you spot it?", "spots": [{"x": 0.65, "y": 0.52, "zoom": 3.2, "r": 0.06, "title": "The empty stirrup", "text": "Seen under the horse's chest, on the far side: a stirrup with no boot in it. The cowboy is holding on with one foot, his knees and one fistful of mane."}]},
+    {"type": "text", "text": "That flying stirrup tells you this is not a parade portrait. Remington wanted an accident about to happen. In 1895, American bronzes were mostly generals sitting calmly on calm horses. This one bucks."},
+    {"type": "fact", "text": "Remington had never made a sculpture before this one. He was a famous magazine illustrator. A playwright friend watched him draw and told him he saw things in the round, like a sculptor. A neighbor who was a sculptor lent advice, and Remington bought clay."},
+    {"type": "text", "text": "A beginner's first problem was a brutal one. Bronze is heavy, and a rearing horse puts nearly all its weight high in the air and off to one side. So how does the thing stay up?"},
+    {"type": "lines", "text": "Follow the weight from the top of the sculpture to the base.", "lines": [
+      {"points": [[0.1, 0.17], [0.3, 0.18], [0.55, 0.2], [0.64, 0.22]], "closed": false, "label": "The arms", "text": "The rider's arms stretch into one long bar, like a tightrope walker's pole. The whip hand flies back while the other hand grabs forward."},
+      {"points": [[0.78, 0.36], [0.55, 0.42], [0.4, 0.6], [0.3, 0.75]], "closed": false, "label": "The rising body", "text": "The horse's body climbs in a steep diagonal from haunch to head. Everything on this line is in the air."},
+      {"points": [[0.3, 0.86], [0.52, 0.86]], "closed": false, "label": "Two hooves", "text": "Only the hind hooves touch the ground. Metal hidden inside the legs carries the full weight down into the base."}
+    ]},
+    {"type": "text", "text": "The trick is that the mass leans back as much as it leans forward. The tail and the cowboy's thrown-back arm sit behind the hooves, the horse's head and forelegs in front. The bronze balances the way a real rider tries to."},
+    {"type": "fact", "text": "The first casts went on sale at Tiffany & Co. in New York, next to the silver and the jewelry. The price was about 250 dollars, several months of wages for a real cowboy."},
+    {"type": "text", "text": "Remington knew what he was modeling. Born in upstate New York in 1861, he first went west at nineteen, later tried sheep ranching in Kansas, and filled sketchbooks with saddles, bits and boots. That stock of detail is all over this small bronze."},
+    {"type": "tour", "title": "Man against horse", "text": "Two faces, two very different moods.", "spots": [
+      {"x": 0.42, "y": 0.15, "zoom": 3.4, "r": 0.09, "title": "The buster", "text": "Under the wide hat, a mustached face looking down at the horse's neck. No panic, no grin. He is concentrating, reading the next move."},
+      {"x": 0.76, "y": 0.4, "zoom": 3, "r": 0.1, "title": "The broncho", "text": "The head is pulled down and in, the eye wide, the nostrils flared. The mane whips back over the neck. This animal is furious."},
+      {"x": 0.64, "y": 0.23, "zoom": 3.4, "r": 0.07, "title": "The grip", "text": "The cowboy's hand is buried in the mane together with the rein. It is his main anchor now that a stirrup is gone."}
+    ]},
+    {"type": "key", "text": "Remington froze a movement at the instant when the outcome is still open. That suspense, more than the cowboy costume, is what made the sculpture new."},
+    {"type": "text", "text": "The public loved it at once, and it never stopped selling. More than 275 authorized casts were made, far more than of any American bronze of its day. From about 1900 a new foundry cast it from wax models, which let Remington rework details from one copy to the next."},
+    {"type": "fact", "text": "In 1898 the Rough Riders, the volunteer cavalry of the Spanish-American War, gave a cast to their colonel as a farewell gift. His name was Theodore Roosevelt. Since then a cast has often stood in the Oval Office."},
+    {"type": "text", "text": "Remington died in 1909, at forty-eight. By then the open range he had sketched was fenced and crossed by railroads. He had told a friend that his paintings might fade, but that he would endure in bronze. Go around the sculpture once more and judge for yourself."},
+    {"type": "explore", "spots": [
+      {"x": 0.1, "y": 0.17, "zoom": 3.6, "r": 0.05, "title": "The whip hand", "text": "The arm is flung back with a short whip, called a quirt, in the fist. It works as a counterweight more than as a threat."},
+      {"x": 0.39, "y": 0.5, "zoom": 3.2, "r": 0.07, "title": "The foot that holds", "text": "On this side the boot is still in its stirrup, pressed hard against the horse's flank."},
+      {"x": 0.72, "y": 0.47, "zoom": 2.6, "r": 0.14, "title": "Forelegs", "text": "Both front legs are folded in the air, hooves hanging. A moment later they will crash down, or the horse will go over backward."},
+      {"x": 0.17, "y": 0.69, "zoom": 3, "r": 0.09, "title": "The tail", "text": "The tail streams out behind like a flag. It adds weight behind the hooves and tells you how fast the horse just moved."},
+      {"x": 0.53, "y": 0.72, "zoom": 2.6, "r": 0.09, "title": "The loose rope", "text": "A twisted cord hangs free and curls at its end. It is made of real twisted wire, added to the bronze, and it swings where nothing else does."},
+      {"x": 0.5, "y": 0.93, "zoom": 2, "r": 0.28, "title": "The ground", "text": "The base is modeled as rough, churned earth. It is also wide and heavy on purpose: it is what keeps the whole tower from tipping."}
+    ]}
+  ],
+  "quiz": [
+    {"question": "What was a “broncho buster”?", "options": ["A rodeo clown", "A cowboy who broke in unridden horses", "A cavalry officer"], "answer": 1, "explanation": "The buster's job was to stay on a horse that had never been saddled until it gave in."},
+    {"question": "How much sculpting experience did Remington have before this work?", "options": ["None, it was his first sculpture", "Ten years as a monument maker", "He trained in a Paris foundry"], "answer": 0, "explanation": "He was a magazine illustrator who had never modeled before."},
+    {"question": "Which detail shows the rider is in real danger?", "options": ["His hat is falling off", "He has dropped the reins", "One stirrup swings empty"], "answer": 2, "explanation": "An empty stirrup on the far side shows he has lost one foothold."},
+    {"question": "How does the bronze stay upright?", "options": ["A hidden rod under the belly", "Its weight is spread in front of and behind the two hind hooves", "The forelegs touch the base"], "answer": 1, "explanation": "Tail and thrown-back arm balance the head and forelegs over the two hind hooves."},
+    {"question": "Who received a cast from the Rough Riders in 1898?", "options": ["Theodore Roosevelt", "Buffalo Bill", "Remington himself"], "answer": 0, "explanation": "The regiment gave it to their colonel, Theodore Roosevelt."}
+  ],
+  "facts": [
+    {"text": "The Broncho Buster is a life-size monument.", "isTrue": false, "explanation": "It is only about 60 cm (2 ft) high, small enough for a desk."},
+    {"text": "The first casts were sold at Tiffany & Co.", "isTrue": true, "explanation": "The New York jeweler offered them for about 250 dollars."},
+    {"text": "Only one cast of the sculpture was ever made.", "isTrue": false, "explanation": "More than 275 authorized casts exist."}
+  ]
+}

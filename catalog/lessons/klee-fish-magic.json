@@ -1,0 +1,317 @@
+{
+ "teaser": "A black tank where fish, flowers, a moon and a clock all float in the same water.",
+ "focus": [
+  0.52,
+  0.4
+ ],
+ "review_notes": "Opening uses the Bauhaus being forced out of Weimar (funding cut 1924, move to Dessau 1925) as the 'rejection'.\nKlee's visit to the Naples aquarium is dated 1902 (Italian trip 1901-02).\nCentral glued piece of muslin: stated per Philadelphia Museum of Art description; its edges are not pointed at.\nAbout 50 hand puppets made for Felix between 1916 and 1925.\nKlee shown in the first Surrealist group exhibition, Paris, November 1925.\nThe figure at bottom center is commonly described as having a double face; the pointed-hat figure at bottom left as a clown. Both readings are interpretive.\nArensberg gift to Philadelphia dated 1950.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1925 the Bauhaus is thrown out of town. The art school where Paul Klee teaches has lost its funding from a hostile regional government, and Weimar wants it gone. Teachers and students pack up and move to Dessau, an industrial city willing to take them."
+  },
+  {
+   "type": "text",
+   "text": "In that same unsettled year, Klee paints one of his calmest pictures. No protest, no politics. Just a dark, silent tank, about 77 by 98 cm (30 by 39 in), where things glow as if lit from inside. Its title sounds like a spell: Fish Magic."
+  },
+  {
+   "type": "text",
+   "text": "The glow comes from a trick you may have tried as a child. Klee first covered the surface with bright colors, then buried them under black. Afterwards he scratched and rubbed the black away in places, so the color underneath shines through like light in deep water."
+  },
+  {
+   "type": "tour",
+   "title": "Drawn by scratching",
+   "text": "Three places where the color comes up from under the dark.",
+   "spots": [
+    {
+     "x": 0.18,
+     "y": 0.44,
+     "zoom": 3,
+     "r": 0.11,
+     "title": "The violet fish",
+     "text": "Its scales and spines are fine pale lines cut into the dark. The fish is less painted than engraved, like a drawing on a blackboard."
+    },
+    {
+     "x": 0.76,
+     "y": 0.525,
+     "zoom": 3,
+     "r": 0.13,
+     "title": "The blue fish",
+     "text": "A long body covered in tiny marks, with a spiral where the gill should be. Klee gives each fish its own pattern, as if each were a different kind of writing."
+    },
+    {
+     "x": 0.885,
+     "y": 0.1,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The daisy",
+     "text": "A flower blooming at the top of an aquarium. Its blue-white petals are rubbed out of the black, soft at the edges, like chalk."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A daisy underwater? That is the first rule of this picture: borders are open. Fish swim past garden flowers. A moon and several glowing discs hang in the same space. Sea, sky and earth have been poured into one tank and stirred."
+  },
+  {
+   "type": "fact",
+   "text": "As a young man, Klee spent hours in front of the tanks of the famous aquarium in Naples, Italy. He wrote home about the strange creatures behind the glass. More than twenty years later, they were still swimming through his pictures."
+  },
+  {
+   "type": "text",
+   "text": "In the middle of all this drifting nature sits one object that belongs to none of those worlds. It was built by people, and it measures something fish know nothing about."
+  },
+  {
+   "type": "find",
+   "text": "One human-made instrument hangs among the fish. Can you tap it?",
+   "spots": [
+    {
+     "x": 0.515,
+     "y": 0.385,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The clock",
+     "text": "A clock face with a few numbers still readable, hanging inside a tall, thin frame like a bell tower or a cage. Time is caught in the net with everything else."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A clock changes the mood. The fish seem to float forever, but the clock says: this moment will pass. Notice how small it is, and how the thin white frame around it rises to a point, like a fishing net lifted out of the water."
+  },
+  {
+   "type": "fact",
+   "text": "The center of the picture is literally a picture within the picture. Klee glued a separate piece of fine cloth onto the larger canvas before painting, so the clock and its surroundings sit on their own patch, like a small curtain."
+  },
+  {
+   "type": "lines",
+   "text": "And a curtain needs a cord. Klee drew one.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.525,
+       0.08
+      ],
+      [
+       0.93,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "The cord",
+     "text": "A single thin line runs from the top of the tower down to the right edge, ending at an orange disc. It looks like a string someone could pull to whisk the middle of the scene away."
+    },
+    {
+     "points": [
+      [
+       0.525,
+       0.08
+      ],
+      [
+       0.48,
+       0.17
+      ],
+      [
+       0.48,
+       0.5
+      ],
+      [
+       0.55,
+       0.52
+      ],
+      [
+       0.565,
+       0.17
+      ],
+      [
+       0.525,
+       0.08
+      ]
+     ],
+     "closed": true,
+     "label": "The cage",
+     "text": "These pale lines enclose the clock in a tall, pointed box. Tower, net or birdcage: Klee lets one outline be all three."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A cord, a curtain, a show about to begin. Klee loved the theater, and this painting behaves like a stage set in the dark just before the lights come up. Which raises a question: who is the audience?"
+  },
+  {
+   "type": "fact",
+   "text": "Klee built about fifty hand puppets for his son Felix, with heads made from plaster, matchboxes, bones and electrical sockets. Felix staged shows with them in the family apartment, mocking his father's Bauhaus colleagues."
+  },
+  {
+   "type": "find",
+   "text": "Someone at the bottom of the tank is waving at you. Where?",
+   "spots": [
+    {
+     "x": 0.64,
+     "y": 0.8,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The spectator",
+     "text": "A doll-like figure with blue eyes and a red heart for a mouth raises an orange hand. Many viewers read the head as two faces at once, one looking out, one turned aside."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "People are tiny here, and pushed to the bottom edge. In the lower left corner, a second head in a pointed hat peeks in from the side, like a clown arriving late. Nature gets the big stage. Humans are visitors, pressing their faces to the glass."
+  },
+  {
+   "type": "text",
+   "text": "In Paris, a group of young poets and painters noticed. The Surrealists, who wanted art to follow dreams instead of logic, hung Klee's work in their very first group exhibition in November 1925. He never joined them. He simply was already where they wanted to go."
+  },
+  {
+   "type": "key",
+   "text": "Fish Magic works by removing, not adding. The colors were there first, and Klee scratched his way back down to them through the black."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.435,
+     "y": 0.265,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Moon and planet",
+     "text": "A yellow disc tucked inside a blue crescent, with a dusting of stars beneath. Night sky and deep sea share the same black."
+    },
+    {
+     "x": 0.2,
+     "y": 0.08,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "The pink disc",
+     "text": "A pale sun or moon in the top corner. With the other discs, it gives the tank a slow orbit, like a small planetarium."
+    },
+    {
+     "x": 0.75,
+     "y": 0.415,
+     "zoom": 3,
+     "r": 0.11,
+     "title": "The orange fish",
+     "text": "The fattest fish in the tank, with a criss-cross pattern on its body like netting. It glides straight toward the clock."
+    },
+    {
+     "x": 0.85,
+     "y": 0.73,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The bouquet",
+     "text": "Spiky flowers in a pale green vase, set on top of an hourglass shape. Even the flower stand quietly measures time."
+    },
+    {
+     "x": 0.25,
+     "y": 0.8,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The balancing act",
+     "text": "A red ball rests on two cones meeting tip to tip. Klee enjoyed these impossible balances, half juggling trick, half geometry lesson."
+    },
+    {
+     "x": 0.05,
+     "y": 0.83,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The latecomer",
+     "text": "A cone-shaped hat with a small round face under it, leaning in from the edge. Easy to miss, like someone watching from the wings."
+    },
+    {
+     "x": 0.935,
+     "y": 0.455,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "End of the cord",
+     "text": "The long diagonal line stops at this orange ball. A weight, a buoy or a handle: the picture's one invitation to pull."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The American collectors Louise and Walter Arensberg bought the painting and gave it, with the rest of their collection, to the Philadelphia Museum of Art in 1950. It hangs there still. Visitors tend to lean in close and go quiet, the way people do at an aquarium."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did Klee make the colors glow out of the dark?",
+   "options": [
+    "He mixed glitter into the paint",
+    "He scratched and rubbed through a black layer to the colors beneath",
+    "He painted on glass lit from behind"
+   ],
+   "answer": 1,
+   "explanation": "The bright colors lie under the black and were uncovered by scratching."
+  },
+  {
+   "question": "What happened to the Bauhaus in 1925, the year of the painting?",
+   "options": [
+    "It was forced out of Weimar and moved to Dessau",
+    "It won a national prize",
+    "It was founded"
+   ],
+   "answer": 0,
+   "explanation": "The school lost its funding in Weimar and relocated to Dessau."
+  },
+  {
+   "question": "Which human-made object hangs in the center of the tank?",
+   "options": [
+    "A lantern",
+    "An anchor",
+    "A clock"
+   ],
+   "answer": 2,
+   "explanation": "A small clock face sits inside a tall pointed frame."
+  },
+  {
+   "question": "What does the long diagonal line suggest?",
+   "options": [
+    "A ray of sunlight",
+    "A cord that could pull the central patch away like a curtain",
+    "A crack in the aquarium glass"
+   ],
+   "answer": 1,
+   "explanation": "It reads as a curtain cord, fitting the theater-like mood."
+  },
+  {
+   "question": "How was Klee connected to the Surrealists?",
+   "options": [
+    "They showed his work in their first group exhibition, though he never joined",
+    "He wrote their manifesto",
+    "He publicly attacked them"
+   ],
+   "answer": 0,
+   "explanation": "They exhibited him in Paris in 1925, but he stayed independent."
+  },
+  {
+   "question": "What did Klee make for his son Felix?",
+   "options": [
+    "A real aquarium",
+    "About fifty hand puppets",
+    "A violin"
+   ],
+   "answer": 1,
+   "explanation": "He built puppets from plaster, matchboxes and other scraps."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Everything in Fish Magic is a sea creature.",
+   "isTrue": false,
+   "explanation": "Flowers, a moon, a clock and small human figures share the water with the fish."
+  },
+  {
+   "text": "The central part of the painting sits on a separate piece of cloth glued to the canvas.",
+   "isTrue": true,
+   "explanation": "Klee attached a patch of fine cloth, making a picture within the picture."
+  },
+  {
+   "text": "Klee was an official member of the Surrealist group.",
+   "isTrue": false,
+   "explanation": "The Surrealists exhibited his work, but he never joined them."
+  }
+ ]
+}

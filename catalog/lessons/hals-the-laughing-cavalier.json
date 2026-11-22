@@ -1,0 +1,302 @@
+{
+ "teaser": "He is not laughing and he is not a cavalier. So who is the man in the lace collar?",
+ "focus": [
+  0.42,
+  0.3
+ ],
+ "review_notes": "Opening (Hals's situation in 1624): born 1582/83, so about 41-42; first wife Anneke Harmensdr died 1615; married Lysbeth Reyniers in 1617; repeated records of small unpaid debts throughout his life. No document describes the year 1624 specifically.\nBanquet of the Officers of the St George Militia Company, 1616, as the work that made his name.\nInscription AETA. SVAE 26 / A° 1624 (visible top right).\nSitter possibly Tieleman Roosterman, Haarlem textile merchant (proposal by Pieter Biesboer); painted by Hals in 1634. Unproven, stated as such.\nSleeve emblems (Mercury's staff and winged hat, lovers' knots, flaming horns of plenty, arrows, bees): identified by the Wallace Collection; in our image the caduceus, knots and flames can be made out, bees cannot. Spot positions deserve a check on the zoom image.\nVan Gogh, letter to Theo, 1885: 'Frans Hals must have had twenty-seven blacks' (paraphrased).\nHals received support from the city of Haarlem in his last years; died 1666.\n1865 Paris sale (Pourtalès collection): the 4th Marquess of Hertford outbid Baron James de Rothschild and paid 51,000 francs, more than six times the estimate.\nShown at the Bethnal Green Museum, London, 1872-75; called 'The Laughing Cavalier' from the Royal Academy exhibition of 1888. Wallace Collection opened to the public in 1900.\nSize about 83 x 67 cm.\nGolden knob in the crook of the arm read as the pommel of his rapier: per the Wallace Collection.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Haarlem, 1624. Frans Hals is a little over forty. His first wife has been dead nine years, he has remarried, and the house keeps filling with children. The town's records follow him through life for small unpaid bills. He has one thing to sell, and nobody in the Dutch Republic sells it better: a face that seems alive."
+  },
+  {
+   "type": "text",
+   "text": "Eight years earlier a huge group portrait of the city's militia officers at a banquet had made his name. Haarlem was rich from linen and beer, and its merchants wanted their likeness on the wall. That year a young man came to the studio in the most expensive jacket Hals had ever been asked to paint. Hals noted two facts about him on the canvas."
+  },
+  {
+   "type": "find",
+   "text": "The sitter's age and the year are written on the painting. Where?",
+   "spots": [
+    {
+     "x": 0.91,
+     "y": 0.065,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Top right corner",
+     "text": "In thin dark letters: AETA SVAE 26, A° 1624. It is abbreviated Latin for “aged 26, in the year 1624.” An age, a date, and no name."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So we know he was twenty-six, and for a long time that was all. One recent proposal names Tieleman Roosterman, a wealthy Haarlem cloth merchant whom Hals painted again ten years later. It fits the clothes, but nothing proves it. What the picture does give us is his attitude, and that comes from the pose."
+  },
+  {
+   "type": "lines",
+   "text": "Hals builds the swagger out of slanting lines. Nothing here is level.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.19,
+       0.3
+      ],
+      [
+       0.74,
+       0.11
+      ]
+     ],
+     "closed": false,
+     "label": "The hat",
+     "text": "The wide black brim tips up to the right like a raised eyebrow. It frames the face in a dark halo against the gray wall."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.28
+      ],
+      [
+       0.92,
+       0.75
+      ]
+     ],
+     "closed": false,
+     "label": "Head to elbow",
+     "text": "His body turns away from you while his head turns back. The long slope from eyes to elbow gives the portrait its twist."
+    },
+    {
+     "points": [
+      [
+       0.8,
+       0.52
+      ],
+      [
+       0.93,
+       0.74
+      ],
+      [
+       0.62,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "Arm on hip",
+     "text": "Hand planted on the hip, elbow pushed out toward the edge of the canvas. In portraits of the time this was the stance of a man sure of himself."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "One more trick: Hals paints him from slightly below. You see the underside of his chin, and his eyes come down to you over the mustache. Because he looks straight at the painter, the gaze appears to follow you around the room. Visitors to the gallery in London test it every day."
+  },
+  {
+   "type": "key",
+   "text": "Before Hals, portraits tended to look posed and still. He made a sitter seem caught in passing, just turning toward you, about to speak."
+  },
+  {
+   "type": "text",
+   "text": "Now the jacket. From a distance the sleeve is a glitter of gold on black. But the embroidery is not a pattern of leaves and swirls. It is a set of small pictures, emblems that an educated viewer of 1624 could read like words."
+  },
+  {
+   "type": "tour",
+   "title": "Reading a sleeve",
+   "text": "The silk is stitched in gold, white and red thread. Three emblems to pick out.",
+   "spots": [
+    {
+     "x": 0.82,
+     "y": 0.66,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Mercury's staff",
+     "text": "A rod with a winged cap on top. It belongs to Mercury, the Roman god of trade and good luck: a fitting badge for a merchant."
+    },
+    {
+     "x": 0.78,
+     "y": 0.755,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Lovers' knot",
+     "text": "Looped gold cord tied into a four-leaf knot, a sign of faithful love. Several of these are scattered over the sleeve."
+    },
+    {
+     "x": 0.715,
+     "y": 0.805,
+     "zoom": 4,
+     "r": 0.07,
+     "title": "Flames and arrows",
+     "text": "Tongues of fire, and nearby thin arrows. Burning hearts and Cupid's arrows were the standard vocabulary of love."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Love and luck, then. Some historians have wondered whether the picture marked an engagement, but no matching portrait of a bride is known. What is certain is the message of money. Silk, gold thread and that much lace cost a fortune, and he shows them off at the nearest point to your eye."
+  },
+  {
+   "type": "fact",
+   "text": "Vincent van Gogh studied Hals closely two and a half centuries later. He wrote to his brother that Frans Hals must have had twenty-seven different blacks. The cloak slung around this sitter's waist shows what he meant."
+  },
+  {
+   "type": "text",
+   "text": "Hals worked fast, laying wet paint into wet paint without waiting for layers to dry. He was also shrewd about where to be careful. The emblems are neat because the client paid for them to be read. Elsewhere the brush runs free. Wander over the surface and compare."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.41,
+     "y": 0.335,
+     "zoom": 3.5,
+     "r": 0.08,
+     "title": "The mustache",
+     "text": "Waxed tips sweep up toward the eyes. The lips beneath are closed. Most of the famous smile is really this upward curve of hair."
+    },
+    {
+     "x": 0.43,
+     "y": 0.265,
+     "zoom": 4,
+     "r": 0.07,
+     "title": "The eyes",
+     "text": "Slightly narrowed, with heavy lids, looking down at you. They are the calmest, most carefully painted part of the picture."
+    },
+    {
+     "x": 0.5,
+     "y": 0.5,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The collar",
+     "text": "A soft, drooping lace collar, a recent fashion in 1624. Its frothy edge is made of short dabs of white and gray."
+    },
+    {
+     "x": 0.52,
+     "y": 0.9,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "The cuff",
+     "text": "Lace again, at the wrist. Here Hals does spell out the pattern, circle by circle, in white on black."
+    },
+    {
+     "x": 0.61,
+     "y": 0.73,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "A golden knob",
+     "text": "Tucked into the crook of his arm is the pommel of a rapier, the rounded end of its handle. He is armed, like any gentleman."
+    },
+    {
+     "x": 0.63,
+     "y": 0.82,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The orange sash",
+     "text": "A few broad swipes of orange and brown. No detail at all, and yet you read it as folded silk."
+    },
+    {
+     "x": 0.9,
+     "y": 0.38,
+     "zoom": 2,
+     "r": 0.1,
+     "title": "His shadow",
+     "text": "A soft shadow falls on the wall to the right. It tells you the light comes from the left and pushes him forward, off the background."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Hals kept painting into his eighties and died in 1666, living on a small allowance from the city. Then taste turned against him. For two centuries his quick brushwork looked careless to collectors who liked a polished finish, and his pictures sold for very little."
+  },
+  {
+   "type": "fact",
+   "text": "This portrait reversed that in one afternoon. At a Paris auction in 1865, the English collector Lord Hertford and the banker James de Rothschild both wanted it. Hertford won at 51,000 francs, more than six times the estimate. The duel made headlines, and the painter with them."
+  },
+  {
+   "type": "text",
+   "text": "Suddenly Hals was modern. Young painters such as Édouard Manet looked to him for proof that visible, rapid strokes could be the main event. When Hertford's collection was shown in a working-class district of London in the 1870s, crowds lined up in front of the unnamed young man. He has stayed in London ever since, at the Wallace Collection."
+  },
+  {
+   "type": "fact",
+   "text": "He got his nickname there. Hals's canvas had been listed simply as a portrait of a man. Victorian visitors and journalists began calling him the Laughing Cavalier, and by 1888 the title was official. Both words are wrong: his mouth is shut, and nothing says he ever rode to war."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does the inscription in the top right corner tell us?",
+   "options": [
+    "The sitter's name",
+    "The sitter's age and the year",
+    "The price of the portrait"
+   ],
+   "answer": 1,
+   "explanation": "It reads “aged 26, in the year 1624,” with no name."
+  },
+  {
+   "question": "What do the emblems on the sleeve mostly refer to?",
+   "options": [
+    "Love and good fortune",
+    "Battles he fought",
+    "His family's coat of arms"
+   ],
+   "answer": 0,
+   "explanation": "Mercury's staff, lovers' knots, flames and arrows speak of luck and love."
+  },
+  {
+   "question": "Why do his eyes seem to follow you?",
+   "options": [
+    "Hals used a mirror",
+    "The eyes were repainted later",
+    "He looks straight out at the painter"
+   ],
+   "answer": 2,
+   "explanation": "A sitter who looks directly out seems to meet your eye from any position."
+  },
+  {
+   "question": "What did Van Gogh say about Hals?",
+   "options": [
+    "That he painted too slowly",
+    "That he must have had twenty-seven blacks",
+    "That he never used black"
+   ],
+   "answer": 1,
+   "explanation": "Van Gogh admired the variety of blacks in Hals's paintings."
+  },
+  {
+   "question": "What happened at the Paris auction of 1865?",
+   "options": [
+    "Two collectors fought over it and the price soared",
+    "Nobody bid on it",
+    "It was stolen before the sale"
+   ],
+   "answer": 0,
+   "explanation": "Lord Hertford outbid James de Rothschild at more than six times the estimate."
+  },
+  {
+   "question": "Why is the famous title misleading?",
+   "options": [
+    "He is a king, not a cavalier",
+    "The painting is not by Hals",
+    "He is smiling with closed lips and was not a soldier"
+   ],
+   "answer": 2,
+   "explanation": "The Victorian nickname is wrong on both counts."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Hals gave the painting the title “The Laughing Cavalier.”",
+   "isTrue": false,
+   "explanation": "The name was invented in Victorian London, more than 250 years later."
+  },
+  {
+   "text": "We know the sitter was 26 years old.",
+   "isTrue": true,
+   "explanation": "Hals wrote his age and the year 1624 on the canvas."
+  },
+  {
+   "text": "Hals's reputation stayed high without interruption after his death.",
+   "isTrue": false,
+   "explanation": "For about two centuries his loose brushwork was out of favor and his prices were low."
+  }
+ ]
+}

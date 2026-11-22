@@ -1,0 +1,43 @@
+{
+  "teaser": "An archer with no arrow and no string, and you still feel the shot coming.",
+  "focus": [0.35, 0.42],
+  "review_notes": "The photo shows a gilded bronze cast in a museum in New York (it appears to be the Metropolitan Museum's cast), not the one in the Musée Bourdelle, Paris.\nClaim that the figure was printed on French school exercise-book covers is from memory: verify.\nList of cities with casts (Tokyo, Buenos Aires, Brussels, Prague): verify.\nModel: Commandant André Doyen-Parigot, killed at Verdun in 1916; his request not to be recognizable: verify.\nPatron Gabriel Thomas and his temporary exclusive right to the first cast: verify.\nHeight about 2.5 m (8 ft).\nGiacometti's years in Bourdelle's class (1922 to 1927) and Germaine Richier as a pupil: verify.\nLink to the archaic archer from the temple of Aegina is a common art-historical comparison.",
+  "lesson": [
+    {"type": "text", "text": "For decades, French children carried this archer in their schoolbags: his silhouette was printed on the covers of exercise books. Casts of him stand in Tokyo, Buenos Aires, Brussels and Prague. The one in this photo is gilded and lives beside a window in New York."},
+    {"type": "text", "text": "Few modern sculptures have traveled so far. The reason is easy to test: squint at it. Even as a dark shape with no details, you understand it at once. A body, a bow, an enormous effort."},
+    {"type": "text", "text": "The subject comes from Greek myth. Hercules, Herakles in Greek, had twelve impossible labors to complete. In the sixth he had to shoot down the birds of Lake Stymphalus, man-eaters with beaks of bronze. Bourdelle shows the instant before the arrow leaves."},
+    {"type": "fact", "text": "The man who posed was not a professional model but a cavalry officer and athlete, André Doyen-Parigot. He asked that his face not be recognizable, so Bourdelle invented another head. The officer was killed at Verdun in 1916."},
+    {"type": "text", "text": "Holding this pose was torture, and it is anatomically stretched: no real leg opens that wide. Bourdelle was not copying a body. He was building a machine out of one. Three lines show how it works."},
+    {"type": "lines", "text": "Watch how the body and the weapon pull against each other.", "lines": [
+      {"points": [[0.14, 0.105], [0.3, 0.14], [0.45, 0.22], [0.55, 0.33], [0.59, 0.45], [0.56, 0.55], [0.47, 0.61]], "closed": false, "label": "The bow", "text": "A huge curve, taller than the man. It rises far above his head and ends near his knee."},
+      {"points": [[0.1, 0.44], [0.3, 0.42], [0.53, 0.3]], "closed": false, "label": "The draw", "text": "From the hand pulled back behind the head to the fist on the bow: one straight line of muscle, stretched like the missing string."},
+      {"points": [[0.27, 0.6], [0.4, 0.47], [0.6, 0.44], [0.75, 0.42]], "closed": false, "label": "The leg", "text": "The far leg shoots out sideways and slams into the rock. It pushes one way while the arm pulls the other. The body itself is bent like a bow."}
+    ]},
+    {"type": "text", "text": "Did you catch what is absent? There is no string and no arrow. Bourdelle left them out, and nobody misses them, because the tension is written in the limbs. He also left wide gaps of empty air between arm, bow and leg. In this photo the sky fills them."},
+    {"type": "key", "text": "Bourdelle sculpted with empty space as much as with bronze. The holes in the figure are part of its shape."},
+    {"type": "text", "text": "This was a break with his own teacher. Bourdelle had spent about fifteen years as an assistant carving marble for Auguste Rodin, whose surfaces ripple with soft flesh and feeling. Here the pupil wanted the opposite: hard, simple, built like architecture."},
+    {"type": "tour", "title": "Rough and ancient", "text": "Three places where Bourdelle turns away from Rodin's softness.", "spots": [
+      {"x": 0.24, "y": 0.39, "zoom": 3.2, "r": 0.08, "title": "The head", "text": "A flat profile, a cap of short hair, a nose in one line with the brow. It recalls Greek statues from before the classical age, stiff and stylized on purpose."},
+      {"x": 0.52, "y": 0.31, "zoom": 3.4, "r": 0.06, "title": "The bow hand", "text": "The fist grips the wood with knuckles like knots. Muscles along the forearm are cut in broad planes, not smoothed."},
+      {"x": 0.29, "y": 0.58, "zoom": 2.6, "r": 0.1, "title": "The kneeling leg", "text": "The near leg folds and digs into the stone. Thigh and calf are thick blocks, closer to tree roots than to an anatomy lesson."}
+    ]},
+    {"type": "text", "text": "That head borrows from an archaic Greek archer carved around 500 BC for a temple on the island of Aegina. In 1909, looking that far back was a way of moving forward. Picasso and others were doing the same with African and Iberian carving."},
+    {"type": "fact", "text": "A banker and patron, Gabriel Thomas, bought the first bronze and for a time held the exclusive right to it. He later hired Bourdelle to carve the reliefs on the front of a new Paris theater, the Théâtre des Champs-Élysées."},
+    {"type": "text", "text": "The whole pose depends on one point of contact. Without it the archer would simply fall over, pulled backward by his own draw."},
+    {"type": "find", "text": "Where does Hercules brace himself against the rock? Tap the spot.", "spots": [{"x": 0.74, "y": 0.42, "zoom": 3, "r": 0.07, "title": "The braced foot", "text": "The foot is planted flat against the top of the boulder, toes spread. All the force of the draw passes through this sole into the stone."}]},
+    {"type": "text", "text": "Shown in Paris in 1910, the archer, about 2.5 meters high (8 ft), made Bourdelle famous at nearly fifty. He went on to teach for twenty years in Montparnasse."},
+    {"type": "text", "text": "Among his pupils was a young Swiss named Alberto Giacometti, who stayed about five years, and Germaine Richier. Think of Giacometti's thin walking men, all tension and empty air. Something of this bow is still bending in them."}
+  ],
+  "quiz": [
+    {"question": "Which labor of Hercules does the sculpture show?", "options": ["Killing the Nemean lion", "Shooting the birds of Lake Stymphalus", "Cleaning the Augean stables"], "answer": 1, "explanation": "It is the sixth labor, against man-eating birds with bronze beaks."},
+    {"question": "What did Bourdelle leave out of the sculpture?", "options": ["The string and the arrow", "The rock", "The archer's right arm"], "answer": 0, "explanation": "The tension of the body makes string and arrow unnecessary."},
+    {"question": "Who posed for the figure?", "options": ["Auguste Rodin", "A circus strongman", "A cavalry officer who asked not to be recognizable"], "answer": 2, "explanation": "André Doyen-Parigot posed, and Bourdelle gave the figure an invented head."},
+    {"question": "For whom had Bourdelle worked as an assistant for about fifteen years?", "options": ["Aristide Maillol", "Auguste Rodin", "Alberto Giacometti"], "answer": 1, "explanation": "He carved marble for Rodin before breaking with his soft style."},
+    {"question": "What older art inspired the archer's head?", "options": ["Archaic Greek sculpture", "Roman emperor portraits", "Gothic cathedral statues"], "answer": 0, "explanation": "The stylized profile recalls an archaic archer from the temple of Aegina."}
+  ],
+  "facts": [
+    {"text": "The archer's far foot pushes against a boulder.", "isTrue": true, "explanation": "That braced foot carries the force of the draw into the rock."},
+    {"text": "Alberto Giacometti was Bourdelle's teacher.", "isTrue": false, "explanation": "It was the reverse: Giacometti studied under Bourdelle in Montparnasse."},
+    {"text": "The face is a faithful portrait of the man who posed.", "isTrue": false, "explanation": "The model asked not to be recognized, so Bourdelle invented the head."}
+  ]
+}

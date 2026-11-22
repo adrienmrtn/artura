@@ -1,0 +1,40 @@
+{
+  "teaser": "The most famous rhinoceros in history was drawn by a man who never saw one.",
+  "focus": [0.8, 0.55],
+  "review_notes": "Arrival in Lisbon on 20 May 1515; gift from Sultan Muzaffar II of Gujarat via Afonso de Albuquerque to King Manuel I; fight with a young elephant on 3 June 1515.\nShipwreck off the Ligurian coast in early 1516 on the way to Pope Leo X.\nThe German text printed above the image gives the year as 1513 (visible in this impression), an error for 1515.\nEstimate of 4,000 to 5,000 impressions sold in Dürer's lifetime is commonly quoted but uncertain.\nClaim that the image stayed in some German schoolbooks into the 20th century is widely repeated; please verify.\nClara the rhinoceros toured Europe from 1741.\nThe image may be an impression from another collection than the Met (collector's stamp at lower right); the print is the same woodcut.",
+  "lesson": [
+    {"type": "text", "text": "Lisbon, May 20, 1515. A ship from India ties up at the dock and the crowd on the quay goes quiet, then loud. Down the gangway comes an animal no living European has seen: gray, enormous, a horn on its nose. The last ones on the continent had died in Roman arenas more than a thousand years earlier."},
+    {"type": "text", "text": "It was a diplomatic gift. An Indian sultan had given it to the Portuguese governor, who shipped it home to King Manuel I. The king, a man who already kept elephants, knew what the ancient Roman writers claimed: that the rhinoceros and the elephant were born enemies. He decided to test it."},
+    {"type": "fact", "text": "The match took place in a Lisbon courtyard that June. By the accounts that survive, the young elephant took one look at the rhinoceros, turned around and bolted. The rhinoceros won without moving."},
+    {"type": "text", "text": "News traveled by letter. A description and a rough sketch reached Nuremberg, 2,000 km (about 1,200 miles) away, where Albrecht Dürer read them and smelled a bestseller. He never saw the animal. He had some sentences, someone else's drawing, and his own idea of what such a monster ought to look like."},
+    {"type": "text", "text": "Nuremberg was a city of armorers, and Dürer himself designed armor. So when the letter spoke of thick, hard skin, his hand reached for what it knew. Follow what he built."},
+    {"type": "tour", "title": "A knight on four legs", "text": "Read the animal from back to front, as if you were inspecting a suit of armor.", "spots": [
+      {"x": 0.33, "y": 0.42, "zoom": 2, "r": 0.17, "title": "The breastplate", "text": "The flank is one great curved shell with ribs fanning out from the top, like a steel plate hammered over an anvil. Its edge is trimmed with a neat border, as armor would be."},
+      {"x": 0.2, "y": 0.2, "zoom": 2.6, "r": 0.11, "title": "The saw-edged rump", "text": "A row of small spikes runs along the back. The plates overlap at the hips and seem bolted together. The spots sprinkled all over may come from a line in the letter comparing its color to a speckled tortoise."},
+      {"x": 0.56, "y": 0.75, "zoom": 2.6, "r": 0.1, "shape": "rect", "title": "Scaly legs", "text": "The legs are covered in scales like a reptile's, or like the chain mail worn under plate armor. They end in tidy rounded toes."},
+      {"x": 0.88, "y": 0.6, "zoom": 2.2, "r": 0.13, "title": "The head", "text": "Here Dürer is closest to the truth: the heavy drooping lip, the small eye set low, the horn rising from the nose. The neck above it is wrapped in what looks like a collar of plates."}
+    ]},
+    {"type": "text", "text": "He was not entirely wrong. The Indian rhinoceros really does have skin that hangs in deep folds, so that from a distance it seems to wear separate plates. Dürer turned the folds into metalwork. There is one addition, though, that no rhinoceros has ever had."},
+    {"type": "find", "text": "Dürer gave his rhinoceros a second horn, in a place where no horn grows. Find it.", "spots": [
+      {"x": 0.675, "y": 0.215, "zoom": 3.6, "r": 0.05, "title": "The extra horn", "text": "A small twisted horn sits on the shoulders, pointing forward like a spike on a helmet. No rhinoceros of any species has one there. Nobody knows if it came from the lost sketch or from Dürer."}
+    ]},
+    {"type": "key", "text": "A picture can be wrong and still win. For Europeans who would never see the animal, Dürer's invention simply was the rhinoceros."},
+    {"type": "text", "text": "It won because of how it was made. This is a woodcut: the image is drawn on a plank, the wood around each line is carved away, and the raised lines are inked and pressed onto paper like a stamp. Woodcuts were cheap and quick to print. Thousands of copies of this sheet are thought to have been sold in Dürer's lifetime alone."},
+    {"type": "fact", "text": "The lines of German above the animal tell its story, and they begin with a mistake. They say the rhinoceros arrived in the year 1513. The correct date, 1515, sits right beside the animal's back, above the name and the AD monogram."},
+    {"type": "text", "text": "The real animal had a shorter career. The king sent it on to Rome as a present for the pope. In early 1516 the ship went down in a storm off the Italian coast. The rhinoceros, chained to the deck, drowned. Dürer's version had no such weakness."},
+    {"type": "fact", "text": "For more than two centuries, books of natural history copied this woodcut, extra horn and all, as a true portrait. It lost its authority only in the 1740s, when a living rhinoceros named Clara was toured through Europe and people could compare."},
+    {"type": "key", "text": "The woodblock was reprinted long after Dürer died, even after it cracked. Before photography, whoever printed the first convincing image of a thing decided what it looked like."}
+  ],
+  "quiz": [
+    {"question": "How did Dürer learn what the rhinoceros looked like?", "options": ["He traveled to Lisbon to draw it", "From a written description and someone else's sketch", "From an ancient Roman statue"], "answer": 1, "explanation": "He never saw the animal and worked from a letter and a sketch sent to Nuremberg."},
+    {"question": "What happened when the king set the rhinoceros against an elephant?", "options": ["The elephant ran away", "The rhinoceros was badly hurt", "The two animals ignored each other"], "answer": 0, "explanation": "By surviving accounts, the young elephant turned and fled."},
+    {"question": "Where did Dürer place a horn that no rhinoceros has?", "options": ["On the tail", "On the forehead", "On the shoulders"], "answer": 2, "explanation": "A small twisted horn sits on the animal's shoulders."},
+    {"question": "Why could this image spread so widely?", "options": ["It was a woodcut, cheap and quick to print in large numbers", "It was painted on the wall of a famous church", "The pope ordered copies for every city"], "answer": 0, "explanation": "A woodblock works like a stamp and can print thousands of sheets."},
+    {"question": "What was the fate of the real animal?", "options": ["It lived for years in the pope's zoo", "It drowned in a shipwreck on its way to Rome", "It was sent back to India"], "answer": 1, "explanation": "The ship carrying it to the pope sank in a storm in early 1516."}
+  ],
+  "facts": [
+    {"text": "The printed text above the rhinoceros gives the wrong year for its arrival.", "isTrue": true, "explanation": "It says 1513, while the animal arrived in 1515."},
+    {"text": "The skin folds of a real Indian rhinoceros look nothing like plates.", "isTrue": false, "explanation": "Its skin hangs in deep folds that do resemble separate plates, which Dürer exaggerated into armor."},
+    {"text": "Dürer's woodcut was used as a true portrait of the animal for more than 200 years.", "isTrue": true, "explanation": "Natural history books copied it until living rhinoceroses were shown in Europe in the 1740s."}
+  ]
+}

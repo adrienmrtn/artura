@@ -1,0 +1,289 @@
+{
+ "teaser": "Six prophets and six weeping angels: all that remains of a cross that once rose out of a well.",
+ "focus": [
+  0.48,
+  0.33
+ ],
+ "review_notes": "This photo shows the Zechariah face of the hexagon (inscription 'zacharias propheta' visible); Moses himself is NOT visible. Flanking figures identified as Jeremiah (left, with open book) and Daniel (right) from the known order Moses-David-Jeremiah-Zechariah-Daniel-Isaiah: please check.\nDates 1395-1405 (catalog 1405); Sluter died in the winter of 1405/06.\nPainting by Jean Malouel and gilding by Herman of Cologne; copper spectacles for Jeremiah by the goldsmith Hennequin de Hacht: documented in the ducal accounts, please verify the names.\nZechariah's scroll: Zech. 11:12, 'Appenderunt mercedem meam triginta argenteos'.\nOriginal total height with the cross sometimes given as about 13 m; the lesson avoids a figure.\nFragment of the Christ kept in the Musée archéologique de Dijon.\nThe site is today a psychiatric hospital (Centre hospitalier La Chartreuse).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "How do you make a block of limestone look tired, old and sad? Around 1400 most sculptors would not have asked the question. Statues were slim and graceful, and they smiled politely. Then a carver from the Netherlands came to Dijon and gave stone the weight of a real body."
+  },
+  {
+   "type": "text",
+   "text": "His name was Claus Sluter, and he worked for Philip the Bold, Duke of Burgundy, one of the richest princes in Europe. Philip had founded a monastery just outside Dijon, the Chartreuse de Champmol, to hold his family's tombs. Sluter spent the last twenty years of his life carving for it."
+  },
+  {
+   "type": "text",
+   "text": "In the middle of the monks' cloister was a well. Between 1395 and 1405 Sluter built a monument in it: a six-sided stone pier standing in the water, with a prophet on each side and, on top, a tall cross with the crucified Christ. The cross is gone. The pier is what you see."
+  },
+  {
+   "type": "lines",
+   "text": "The photo catches the pier at an angle. Three lines sort out its architecture.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.3,
+       0.38
+      ],
+      [
+       0.3,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "One corner",
+     "text": "A slim column with a leafy capital marks a corner of the hexagon. To its left begins another side, with another prophet, seen here from the flank."
+    },
+    {
+     "points": [
+      [
+       0.645,
+       0.37
+      ],
+      [
+       0.645,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The next corner",
+     "text": "A second column closes the central side. Each prophet has his own flat panel, but notice how sleeves and scrolls spill in front of the columns."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.2
+      ],
+      [
+       0.33,
+       0.14
+      ],
+      [
+       0.47,
+       0.2
+      ],
+      [
+       0.6,
+       0.14
+      ],
+      [
+       0.72,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "A roof of wings",
+     "text": "Above, angels stand on the capitals at the corners. Their spread wings meet over each prophet's head and carry the ledge that held the cross."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Six sides, six prophets: Moses, David, Jeremiah, Zechariah, Daniel and Isaiah. Moses is the most imposing, and the whole monument ended up with his name. But he is on another side. The man facing you here has his name written at his feet."
+  },
+  {
+   "type": "find",
+   "text": "Sluter's painter labeled each prophet in Gothic letters. Find this one's name.",
+   "spots": [
+    {
+     "x": 0.36,
+     "y": 0.865,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "Zacharias",
+     "text": "Painted in black on the base: “zacharias propheta,” Zechariah the prophet. The letters are the same angular script that medieval scribes used in books."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Zechariah holds a long scroll that unrolls down his left side. It carries a line from his book in the Bible: “They weighed out my wages, thirty pieces of silver.” Christians read it as a prediction of Judas selling Jesus. Each of the six prophets holds a text that announces Christ's death."
+  },
+  {
+   "type": "key",
+   "text": "The monument worked like a stage. The prophets below foretold the Crucifixion, and the Crucifixion happened above their heads. The angels in between are already crying."
+  },
+  {
+   "type": "fact",
+   "text": "The cross and its figures suffered badly from weather and neglect and were gone by the end of the 1700s. A fragment of the Christ, head and torso, survives in a museum in Dijon."
+  },
+  {
+   "type": "text",
+   "text": "Now consider how Sluter carved the man himself. Zechariah's face is lowered, his brow creased, his long beard split in two. He does not pose. He looks like someone who has just said a terrible thing and wishes he had not needed to."
+  },
+  {
+   "type": "text",
+   "text": "And the cloth. In the art of the time, drapery fell in thin, elegant curves. Sluter's mantle is thick as a blanket. It bunches at the elbows, sags over the belt and piles up on the base in heavy loops. You sense a solid body underneath, with shoulders and a stomach."
+  },
+  {
+   "type": "fact",
+   "text": "The statues were fully painted by Jean Malouel, the duke's court painter, and partly gilded. The accounts even record a pair of gilded copper spectacles made by a goldsmith for the nose of the prophet Jeremiah."
+  },
+  {
+   "type": "text",
+   "text": "Much of that color has worn off, but not all. In this photo you can still catch blue on the robes of the angels and gold on their wings. Wander over the stone and compare what each figure is doing with their sorrow."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.3,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Zechariah's face",
+     "text": "Deep eye sockets, sunken cheeks, a heavy hat with a jeweled band. The head tilts down toward the scroll, away from us."
+    },
+    {
+     "x": 0.24,
+     "y": 0.17,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "An angel leaning",
+     "text": "This angel rests a cheek on one hand, head sunk to the side. Blue paint still clings to the drapery."
+    },
+    {
+     "x": 0.71,
+     "y": 0.17,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "An angel in tears",
+     "text": "The neighbor presses a hand to the face as if wiping an eye. Each of the six angels grieves with a different gesture."
+    },
+    {
+     "x": 0.62,
+     "y": 0.59,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The scroll",
+     "text": "Lines of Gothic script run down the parchment, beginning “Appenderunt.” The end curls up on itself at the bottom, carved thin as real vellum.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.45,
+     "y": 0.72,
+     "zoom": 2,
+     "r": 0.18,
+     "title": "The mantle",
+     "text": "Broad folds drop from the arms and break into loops over the feet. Sluter cut deep to get these dark shadows."
+    },
+    {
+     "x": 0.14,
+     "y": 0.5,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Jeremiah's book",
+     "text": "On the neighboring side a prophet holds a thick open book. He is probably Jeremiah, the one who was given the copper spectacles."
+    },
+    {
+     "x": 0.77,
+     "y": 0.6,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "Daniel's cloak",
+     "text": "On the right you see another prophet from the side. An embroidered border runs down the edge of his cloak, with traces of blue lining.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The white-robed monks of Champmol lived mostly in silence, each in his own small house around this cloister. For them the painted prophets, lifesize and almost alive, must have been the loudest thing in the monastery."
+  },
+  {
+   "type": "text",
+   "text": "Sluter died within months of finishing the work. His heavy, breathing figures changed the direction of sculpture north of the Alps for a century, and painters such as Jan van Eyck would soon chase the same solid realism in oil."
+  },
+  {
+   "type": "fact",
+   "text": "The monastery was sold and largely demolished after the French Revolution. Today the site is a hospital, and the well stands in its grounds inside a small building put up to shelter it."
+  },
+  {
+   "type": "text",
+   "text": "So back to the opening question. Sluter's answer was not a sad face alone. It was weight: a head that hangs, cloth that drags, wings that droop. Sorrow, for him, was something gravity does."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What originally stood on top of the pier?",
+   "options": [
+    "A fountain with a lion",
+    "A statue of Philip the Bold",
+    "A tall cross with the crucified Christ"
+   ],
+   "answer": 2,
+   "explanation": "The prophets formed the base of a great Crucifixion."
+  },
+  {
+   "question": "How many prophets surround the monument?",
+   "options": [
+    "Six",
+    "Four",
+    "Twelve"
+   ],
+   "answer": 0,
+   "explanation": "The pier is six-sided, with one prophet per side."
+  },
+  {
+   "question": "What does Zechariah's scroll speak of?",
+   "options": [
+    "A flood",
+    "Thirty pieces of silver",
+    "The building of a temple"
+   ],
+   "answer": 1,
+   "explanation": "The line was read as a prediction of Judas's betrayal."
+  },
+  {
+   "question": "Who was Sluter's patron?",
+   "options": [
+    "Philip the Bold, Duke of Burgundy",
+    "The King of England",
+    "The Pope"
+   ],
+   "answer": 0,
+   "explanation": "Philip founded the Chartreuse de Champmol for his family's tombs."
+  },
+  {
+   "question": "What is distinctive about Sluter's drapery?",
+   "options": [
+    "It is thin and transparent",
+    "It is thick and heavy, suggesting a solid body",
+    "It is left unfinished"
+   ],
+   "answer": 1,
+   "explanation": "His mantles bunch and sag like real heavy cloth."
+  },
+  {
+   "question": "What unusual accessory was made for the prophet Jeremiah?",
+   "options": [
+    "A silver sword",
+    "A glass lantern",
+    "Gilded copper spectacles"
+   ],
+   "answer": 2,
+   "explanation": "The accounts record spectacles made by a goldsmith."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The statues of the Well of Moses were originally left as bare stone.",
+   "isTrue": false,
+   "explanation": "They were painted by Jean Malouel and partly gilded."
+  },
+  {
+   "text": "The monument takes its name from one of its six prophets.",
+   "isTrue": true,
+   "explanation": "Moses is the most imposing of the six."
+  },
+  {
+   "text": "The Chartreuse de Champmol is still an active monastery.",
+   "isTrue": false,
+   "explanation": "It was largely demolished after the Revolution; the site is now a hospital."
+  }
+ ]
+}

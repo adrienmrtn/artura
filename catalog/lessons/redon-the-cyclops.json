@@ -1,0 +1,162 @@
+{
+ "teaser": "A one-eyed giant peeks over a mountain at a sleeping nymph. He looks more shy than dangerous.",
+ "focus": [
+  0.36,
+  0.27
+ ],
+ "review_notes": "Date: the Kröller-Müller Museum gives c. 1914; some sources give 1898-1900.\nSupport: oil on cardboard mounted on panel, about 66 x 53 cm: check.\nRedon had the largest group of works of any artist at the 1913 Armory Show: check.\nThe pale shape near the lower right edge (around x 0.87, y 0.72) is not interpreted in the lesson.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Nothing moves. A giant has raised his head above the ridge of a mountain, and for this one second he just looks. Below him, in a hollow full of flowers, a naked woman sleeps with her arm over her head. She has not seen him. He has not made a sound."
+  },
+  {
+   "type": "text",
+   "text": "The giant is Polyphemus, a Cyclops, one of the one-eyed monsters of Greek myth. The sleeper is Galatea, a sea nymph. In the old poem by Ovid, he loves her and she loves a shepherd named Acis. When Polyphemus finds the couple together, he crushes Acis under a rock."
+  },
+  {
+   "type": "text",
+   "text": "Odilon Redon paints none of that. No rival, no rock, no rage. He picks the moment before anything happens, when the monster is still only someone watching a person he cannot have."
+  },
+  {
+   "type": "find",
+   "text": "Galatea is easy to miss among all the color. Where is she lying?",
+   "spots": [
+    {
+     "x": 0.67,
+     "y": 0.64,
+     "zoom": 2.4,
+     "r": 0.16,
+     "title": "Galatea",
+     "text": "Her pale body lies on a diagonal in a nest of plants, head to the upper right, one arm folded over her face. Redon gives her almost the same tones as the flowers, as if she grew there."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "She nearly melts into the hillside. The paint around her is a crust of dabs in violet, rust, green and pink that could be blossoms, coral or moss. Redon loved that doubt. He wanted shapes that suggest several things at once and let you finish them yourself."
+  },
+  {
+   "type": "fact",
+   "text": "As a young man in Bordeaux, Redon was friends with a botanist, Armand Clavaud, who showed him plants and tiny organisms under a microscope. The half-plant, half-animal growths in his pictures owe a lot to those sessions."
+  },
+  {
+   "type": "text",
+   "text": "Now go back up the slope to the watcher. A Cyclops should be terrifying. Redon had to decide what a single enormous eye would express."
+  },
+  {
+   "type": "tour",
+   "title": "The watcher",
+   "text": "Three stops on the giant, from the eye down to the rock he hides behind.",
+   "spots": [
+    {
+     "x": 0.34,
+     "y": 0.245,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The eye",
+     "text": "One huge eye with a dark pupil fills the middle of the face. It tilts downward toward the sleeper. There is no anger in it. It looks wide, damp and a little worried."
+    },
+    {
+     "x": 0.33,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The mouth",
+     "text": "Under the eye, a small red curve. It could be a timid smile or a mouth held shut. Either way, this is the face of someone trying not to wake her."
+    },
+    {
+     "x": 0.74,
+     "y": 0.37,
+     "zoom": 2,
+     "r": 0.14,
+     "title": "Shoulder or rock?",
+     "text": "His arm stretches along the ridge and blends into it. Brown skin becomes brown stone, so the giant seems part of the mountain itself."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Redon makes the monster the gentle one. The painting is about longing from a distance, not about an attack."
+  },
+  {
+   "type": "text",
+   "text": "Eyes had haunted Redon for decades. Until he was about fifty he worked almost only in black: charcoal drawings and lithographs he called his “noirs.” One of the most famous, from 1882, shows a giant eyeball rising into the sky as a hot-air balloon."
+  },
+  {
+   "type": "text",
+   "text": "Then, in the 1890s, color flooded in. By the time of this painting he was in his seventies and working in pastel and oil with the brightest tones he could find. The eye is still here, but the nightmare around it has become a garden."
+  },
+  {
+   "type": "fact",
+   "text": "In 1913, about a year before this picture, Redon was shown at the Armory Show in New York, the exhibition that introduced modern art to America. He had more works on view there than any other artist, ahead of Cézanne, Picasso or Matisse."
+  },
+  {
+   "type": "text",
+   "text": "Redon said he wanted to put “the logic of the visible at the service of the invisible.” A few years after his death in 1916, the Surrealists, artists who painted dreams on purpose, would claim him as a forerunner."
+  },
+  {
+   "type": "text",
+   "text": "Return to that frozen second. The eye is open, the nymph asleep. Redon never tells us whether Polyphemus will stay behind his mountain. He leaves the giant where most of us have been at least once: looking, and not daring."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which moment of the myth does Redon choose?",
+   "options": [
+    "Polyphemus crushing Acis with a rock",
+    "The giant silently watching the sleeping Galatea",
+    "Galatea fleeing into the sea"
+   ],
+   "answer": 1,
+   "explanation": "He paints the quiet instant before anything happens."
+  },
+  {
+   "question": "What were Redon's “noirs”?",
+   "options": [
+    "His charcoal drawings and lithographs in black",
+    "His night landscapes in oil",
+    "His sculptures in dark bronze"
+   ],
+   "answer": 0,
+   "explanation": "He worked almost only in black until about fifty."
+  },
+  {
+   "question": "Who introduced the young Redon to life under the microscope?",
+   "options": [
+    "The poet Ovid",
+    "The painter Cézanne",
+    "The botanist Armand Clavaud"
+   ],
+   "answer": 2,
+   "explanation": "Clavaud was a botanist friend in Bordeaux."
+  },
+  {
+   "question": "How does Redon present the Cyclops?",
+   "options": [
+    "As a furious attacker",
+    "As a shy, gentle watcher",
+    "As a sleeping giant"
+   ],
+   "answer": 1,
+   "explanation": "The eye and the small mouth look timid, not angry."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Acis, Galatea's lover, appears in the painting.",
+   "isTrue": false,
+   "explanation": "Redon leaves out the rival and the violence entirely."
+  },
+  {
+   "text": "Redon had more works at the 1913 Armory Show than any other artist.",
+   "isTrue": true,
+   "explanation": "He was the best represented artist in the exhibition."
+  },
+  {
+   "text": "Redon used bright color throughout his whole career.",
+   "isTrue": false,
+   "explanation": "For decades he worked almost only in black."
+  }
+ ]
+}

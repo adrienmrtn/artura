@@ -1,0 +1,36 @@
+{
+  "teaser": "Eight years before a famous art movement took its name, this small horseman was already galloping.",
+  "focus": [0.74, 0.54],
+  "review_notes": "The available image is low resolution; spots point only at large areas.\nKandinsky's remark about the group's name (he and Marc both loved blue, Marc horses, he riders) is paraphrased from his 1930 recollection.\nMonet haystack anecdote: Kandinsky saw the painting at an exhibition in Moscow in 1896.\nThe idea that the rider may hold a second figure (a child) is a reading some authors propose, not an established fact.\nCover of the 1912 almanac showing a rider saint (St. George): please confirm.",
+  "lesson": [
+    {"type": "text", "text": "In 1911, two painters in Bavaria needed a title for a yearbook of new art. Wassily Kandinsky and Franz Marc settled on Der Blaue Reiter, The Blue Rider. The name stuck to the whole circle of artists around them, and today it labels one of the best known movements in modern art. The odd part: Kandinsky had already painted a blue rider, this one, eight years before."},
+    {"type": "text", "text": "He later explained the choice with a shrug. Both men loved blue, Marc loved horses, he loved riders, so the name came by itself. The little canvas of 1903 was not a manifesto. It became one in hindsight."},
+    {"type": "text", "text": "In 1903 Kandinsky was 36 and, as a painter, still a beginner. He had been a law scholar in Moscow with a university career ahead of him. At 30 he gave it up, moved to Munich and enrolled in art classes next to students ten years younger."},
+    {"type": "fact", "text": "One of the shocks that pushed him to quit law was a Monet. At a Moscow exhibition in 1896 he stood before one of the French painter's haystacks and could not tell what it showed. He was annoyed, then fascinated: the picture gripped him anyway, without its subject."},
+    {"type": "text", "text": "Keep that haystack in mind and look at what he does here. Most of the canvas is a sloping meadow, a wide field of green and yellow. The hero named in the title takes up very little of it."},
+    {"type": "find", "text": "A horse and rider are crossing this hillside. Tap them.", "spots": [
+      {"x": 0.76, "y": 0.54, "zoom": 2.6, "r": 0.15, "title": "The rider", "text": "A white horse at full stretch, legs flung out front and back, and on it a hunched shape in a dark blue cloak. No face, no reins you can make out. Only speed."}
+    ]},
+    {"type": "text", "text": "He is small, off to the right, and about to leave the picture. Kandinsky gives you no clue about who he is or where he is going. A messenger? A knight from a fairy tale? Some viewers even think they see a second figure in his arms. The paint is too loose to settle it, and that looseness is a choice."},
+    {"type": "text", "text": "The whole surface is built from short, thick dabs laid side by side, a method learned from the French Impressionists, who painted light with broken touches of color instead of smooth blending. But Kandinsky pushes the colors further than nature would."},
+    {"type": "tour", "title": "Color turned up", "text": "Three places where the color says more than the scene does.", "spots": [
+      {"x": 0.8, "y": 0.14, "zoom": 2, "r": 0.2, "title": "The autumn birches", "text": "A wall of orange and rust, with pale trunks as thin vertical strokes. It burns against the cool sky and makes the season unmistakable."},
+      {"x": 0.58, "y": 0.58, "zoom": 2.6, "r": 0.1, "title": "A violet shadow", "text": "Under the horse the shadow is not gray or black but a deep blue-violet, dragged along the ground in the direction of the gallop."},
+      {"x": 0.15, "y": 0.26, "zoom": 2, "r": 0.16, "title": "The dark woods", "text": "On the left a band of forest in purple and navy. It pushes the bright meadow forward and makes the hillside feel like a stage."}
+    ]},
+    {"type": "fact", "text": "Riders never left him. When the Blue Rider almanac came out in 1912, its cover carried a horseman too, a saint on horseback drawn by Kandinsky. In his later abstract paintings the rider shrinks to a few curved lines, a kind of private shorthand."},
+    {"type": "key", "text": "This is Kandinsky before abstraction: a recognizable scene in which color and movement already count for more than the story."},
+    {"type": "text", "text": "The painting hangs in a private collection, so few people ever stand in front of it. Its title travels everywhere without it. Which makes you wonder what the rider was to Kandinsky himself in 1903: a fairy tale, a memory of Russia, or already a picture of a man riding away from everything he knew?"}
+  ],
+  "quiz": [
+    {"question": "What did the name 'The Blue Rider' come to designate in 1911?", "options": ["A horse race in Munich", "A yearbook and a circle of artists", "A Russian folk tale"], "answer": 1, "explanation": "Kandinsky and Franz Marc used it for their almanac, and it became the group's name."},
+    {"question": "What was Kandinsky's profession before he turned to painting?", "options": ["Law scholar", "Musician", "Doctor"], "answer": 0, "explanation": "He left a legal career in Moscow at 30 to study art in Munich."},
+    {"question": "Which painting unsettled him at a Moscow exhibition in 1896?", "options": ["A portrait by Rembrandt", "A horse by Franz Marc", "A haystack by Monet"], "answer": 2, "explanation": "He could not recognize the subject of Monet's haystack, yet the picture gripped him."},
+    {"question": "What color is the shadow under the horse?", "options": ["Plain black", "Blue-violet", "Bright red"], "answer": 1, "explanation": "Kandinsky paints the shadow in a deep blue-violet instead of gray or black."}
+  ],
+  "facts": [
+    {"text": "Kandinsky painted this picture after the Blue Rider group was founded.", "isTrue": false, "explanation": "The painting dates from 1903, eight years before the name was chosen in 1911."},
+    {"text": "The rider occupies only a small part of the canvas.", "isTrue": true, "explanation": "Most of the picture is meadow; the horseman is small and off to the right."},
+    {"text": "Kandinsky had painted since childhood and never had another career.", "isTrue": false, "explanation": "He began studying painting at 30, after working as a law scholar."}
+  ]
+}

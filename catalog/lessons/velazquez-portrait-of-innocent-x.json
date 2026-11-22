@@ -1,0 +1,46 @@
+{
+  "teaser": "One painter copied this pope more than forty times and never dared to see him.",
+  "focus": [0.42, 0.27],
+  "review_notes": "Francis Bacon: “more than forty” variations over about two decades (usually given as around 45-50) and his avoiding the original while in Rome in 1954.\n“Troppo vero” (too true) is a traditional, undocumented remark, presented as reported.\nPayment by gold chain and medallion, and Velázquez declining money as a servant of the king: from early biographers (Palomino).\nInscription on the paper paraphrased, not quoted.\nPainting displayed in a small room with Bernini's bust of the same pope at the Galleria Doria Pamphilj.",
+  "lesson": [
+    {"type": "text", "text": "More than forty. That is how many times the British painter Francis Bacon reworked this portrait, across some twenty years of the last century. His popes scream, blur and dissolve inside glass cages. He worked from reproductions pinned to his studio wall and never stood in front of the original."},
+    {"type": "text", "text": "What kind of picture gets that far under a painter's skin? An old man in a chair. Velázquez painted him in Rome in 1650. He was 51, the Spanish king's painter, sent to Italy to buy art for the royal palaces. The sitter was 75: Pope Innocent X, head of the Catholic Church."},
+    {"type": "text", "text": "A papal portrait had a job to do. It should show the office: calm, holy, above ordinary moods. Velázquez kept the traditional pose, seated and turned slightly to one side, as Raphael and Titian had painted earlier popes. Then he filled it with a real person. Meet him."},
+    {"type": "tour", "title": "The man in the chair", "text": "Three stops, all above the white collar and on one hand.", "spots": [
+      {"x": 0.42, "y": 0.25, "zoom": 4, "r": 0.06, "title": "The eyes", "text": "Small, pale and sideways, under a lowered brow. He is not posing, he is sizing someone up. That someone is the painter, and now it is you."},
+      {"x": 0.43, "y": 0.31, "zoom": 3.5, "r": 0.07, "title": "Mouth and beard", "text": "The lips are pressed thin beneath a wispy mustache and a patchy gray beard. The skin is flushed and shiny, almost as red as the cap. Nothing has been flattered."},
+      {"x": 0.385, "y": 0.665, "zoom": 3.5, "r": 0.07, "title": "The ring hand", "text": "His right hand hangs off the armrest, relaxed, with a dark stone ring that visitors would have kissed. Power here does not need to make a fist."}
+    ]},
+    {"type": "text", "text": "The story goes that when the pope saw the result he said “troppo vero”: too true. People of the time described Innocent as suspicious and short-tempered, and it is all there. Yet he did not reject the picture. He kept it, and he rewarded its author."},
+    {"type": "fact", "text": "Early accounts say Velázquez turned down payment in money, since he served a king and was no painter for hire. The pope gave him a gold chain with a medallion of himself instead."},
+    {"type": "text", "text": "Now forget the face and count colors. There are almost only two: red and white. Red curtain, red chair back, red cap, red cape, red face. Making five reds sit beside each other without turning into one flat stain is a showpiece of skill. Wander over the surface and see how each is built."},
+    {"type": "explore", "spots": [
+      {"x": 0.42, "y": 0.5, "zoom": 1.8, "r": 0.2, "title": "The satin cape", "text": "The short cape shines like wet paint. Its gleam is made of long streaks of pink and near-white dragged over crimson, placed exactly where silk would catch the light."},
+      {"x": 0.39, "y": 0.17, "zoom": 3, "r": 0.07, "title": "The cap", "text": "A red cap with a soft, dented top. Its red is darker and less glossy than the cape below, the difference between two fabrics told in color alone."},
+      {"x": 0.8, "y": 0.3, "zoom": 1.6, "r": 0.17, "title": "The curtain", "text": "Behind him hangs a heavy curtain, a third red: deep, dull, brushed in broad vertical sweeps. It closes the space like a wall, so nothing distracts from him."},
+      {"x": 0.55, "y": 0.83, "zoom": 1.7, "r": 0.22, "title": "The white robe", "text": "The linen garment over his knees is a storm of loose strokes: gray, cream, a little green. Close up it is nearly abstract. From three steps back it becomes thin pleated cloth."},
+      {"x": 0.06, "y": 0.14, "zoom": 3.5, "r": 0.06, "title": "Gilded finial", "text": "The chair's gold knobs are blobs and squiggles of yellow on brown. Velázquez gives you the sparkle of carved gilt wood without drawing one clear leaf."}
+    ]},
+    {"type": "text", "text": "This is what painters have envied ever since. Velázquez does not describe things thread by thread. He puts down the fewest strokes that will make your eye finish the job, a freedom he had sharpened by studying the Venetian painters, Titian above all, on this very trip."},
+    {"type": "key", "text": "The portrait is truthful twice over: about a difficult man's character, and about how little paint it takes to make silk, linen and skin appear."},
+    {"type": "text", "text": "One object in the picture is neither red nor cloth, and it is where Velázquez speaks in his own name. He did not sign in a corner of the canvas. He handed his signature to the pope."},
+    {"type": "find", "text": "Where is the painter's name hidden?", "spots": [
+      {"x": 0.91, "y": 0.65, "zoom": 3.5, "r": 0.08, "title": "The note", "text": "In his left hand the pope holds a folded paper with lines of handwriting. It is addressed to His Holiness Innocent X and names its sender: Diego de Silva Velázquez, painter to the King of Spain."}
+    ]},
+    {"type": "text", "text": "So the signature is disguised as a letter, the sort of written request a pope received every day. It is a neat piece of self-promotion. The most powerful man in Rome is shown holding a note from a Spaniard, who makes sure to mention which king he works for."},
+    {"type": "fact", "text": "The portrait has never been sold. It still belongs to the descendants of the pope's family, and hangs in their palace in central Rome, the Galleria Doria Pamphilj, in a small room it shares with a marble bust of the same man."},
+    {"type": "text", "text": "Francis Bacon did travel to Rome, in 1954, in the middle of his pope years. He stayed for weeks and did not go to that small room. He later called the portrait one of the greatest ever painted. Perhaps forty versions were his way of meeting those eyes without having to stand under them."}
+  ],
+  "quiz": [
+    {"question": "Where did Velázquez put his signature?", "options": ["On the back of the chair", "On the paper in the pope's hand", "In the bottom left corner"], "answer": 1, "explanation": "The folded note the pope holds names Velázquez as its sender."},
+    {"question": "What is the pope reported to have said about the portrait?", "options": ["“Too true”", "“Too red”", "“Too large”"], "answer": 0, "explanation": "Tradition gives his reaction as “troppo vero”, too true."},
+    {"question": "Which two colors dominate the painting?", "options": ["Black and gold", "Blue and white", "Red and white"], "answer": 2, "explanation": "Curtain, chair, cap, cape and face are red, and the robe and collar are white."},
+    {"question": "Why was Velázquez in Rome in 1650?", "options": ["He had been exiled from Spain", "He was buying art for the Spanish king", "He was studying to be a priest"], "answer": 1, "explanation": "Philip IV had sent him to Italy to acquire works for the royal palaces."},
+    {"question": "Which modern painter made more than forty versions of this portrait?", "options": ["Francis Bacon", "Pablo Picasso", "Andy Warhol"], "answer": 0, "explanation": "Bacon reworked it for about two decades without seeing the original."}
+  ],
+  "facts": [
+    {"text": "The portrait still belongs to the family of the pope it shows.", "isTrue": true, "explanation": "It hangs in the Galleria Doria Pamphilj, the family's palace in Rome."},
+    {"text": "Francis Bacon painted his popes while sitting in front of the original in Rome.", "isTrue": false, "explanation": "He worked from reproductions and avoided the painting even when he was in Rome."},
+    {"text": "The gold details of the chair are painted leaf by leaf with a fine brush.", "isTrue": false, "explanation": "They are loose blobs and squiggles of yellow that only suggest carved gilt wood."}
+  ]
+}

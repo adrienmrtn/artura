@@ -1,0 +1,244 @@
+{
+ "teaser": "A monster climbs a man's chest and stares into his eyes. In 1864, Paris could not look away.",
+ "focus": [
+  0.55,
+  0.32
+ ],
+ "review_notes": "Bought at the 1864 Salon by Prince Napoleon for 8,000 francs: check.\nDaumier caricature of the Salon public puzzling over the 'cat with a woman's head': check.\nBequest of William H. Herriman to the Met, 1920: check.\nMeanings given to the snake, urn and fig tree are common readings, not Moreau's documented statements.\nMoreau was 38 in 1864 and had not shown at the Salon for several years: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Paris, spring 1864. At the Salon, the giant yearly exhibition, people push toward a tall narrow canvas by a 38-year-old almost nobody knows. It wins a medal. Newspapers argue about it for weeks. A cousin of the emperor, Prince Napoleon, buys it for 8,000 francs."
+  },
+  {
+   "type": "text",
+   "text": "What stopped the crowd was a strange embrace. A creature with a woman's head, a lion's body and an eagle's wings has leapt onto a young man's chest. Her claws are planted in his skin. Their faces are a hand's width apart, and neither one blinks."
+  },
+  {
+   "type": "text",
+   "text": "The story comes from ancient Greece. A sphinx guards the road to the city of Thebes and asks every traveler a riddle: what walks on four legs in the morning, two at noon and three in the evening? Whoever fails is killed. Oedipus is the first to answer: a human being, who crawls, walks, then leans on a stick."
+  },
+  {
+   "type": "lines",
+   "text": "Moreau builds the whole meeting out of a few directions.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.5,
+       0.31
+      ],
+      [
+       0.63,
+       0.27
+      ]
+     ],
+     "closed": false,
+     "label": "The stare",
+     "text": "Her eyes look up, his look down, and the line between them is very short. The fight in this picture is not physical. It is a contest of minds."
+    },
+    {
+     "points": [
+      [
+       0.83,
+       0.18
+      ],
+      [
+       0.68,
+       0.86
+      ]
+     ],
+     "closed": false,
+     "label": "The spear",
+     "text": "Oedipus holds a long red spear, but its point rests on the ground. He is armed and does not use it. He will win by thinking."
+    },
+    {
+     "points": [
+      [
+       0.25,
+       0.13
+      ],
+      [
+       0.4,
+       0.4
+      ],
+      [
+       0.35,
+       0.62
+      ],
+      [
+       0.38,
+       0.84
+      ]
+     ],
+     "closed": false,
+     "label": "The climb",
+     "text": "From wing tips to hind paws, the sphinx's body makes one long curve pressed against him. She clings more than she attacks."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That closeness was the shock. Everyone at the Salon knew the famous version by Ingres, painted in 1808, where Oedipus leans forward and reasons with the sphinx from a safe distance, like a lawyer. Moreau removed the distance. His monster is beautiful, and she is touching him."
+  },
+  {
+   "type": "fact",
+   "text": "The cartoonist Honoré Daumier drew the Salon public in front of the picture, with a puzzled visitor wondering why a cat with a woman's head should be called a sphinx. Being mocked by Daumier was a sure sign that all of Paris was talking about you."
+  },
+  {
+   "type": "text",
+   "text": "Oedipus looks calm, but the bottom edge of the canvas shows what happens to people who get the riddle wrong."
+  },
+  {
+   "type": "find",
+   "text": "Earlier travelers did not make it. Find the hand of one of them, still gripping the rock.",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.935,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The hand",
+     "text": "Pale fingers clutch the edge of the stone ledge from below. The rest of the body has fallen into the ravine. Oedipus stands just above, his bare foot inches away."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "One hand is enough to tell us the ground under Oedipus is a graveyard. Moreau prefers a clue to a display. The whole right side of the picture works the same way, with objects placed like words in a sentence."
+  },
+  {
+   "type": "tour",
+   "title": "Reading the margins",
+   "text": "Four details around the figures, each one carrying a hint.",
+   "spots": [
+    {
+     "x": 0.75,
+     "y": 0.94,
+     "zoom": 2.6,
+     "r": 0.13,
+     "title": "A foot and a crown",
+     "text": "In the corner, a gray foot sticks up next to a small gold crown and red cloth. Even a king failed here. Rank does not help with the riddle."
+    },
+    {
+     "x": 0.88,
+     "y": 0.77,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The snake",
+     "text": "A snake winds up the pale column. It is usually read as a sign of death, climbing toward the urn above."
+    },
+    {
+     "x": 0.87,
+     "y": 0.58,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The urn",
+     "text": "An antique vase decorated with winged griffins tops the column, like a funeral monument set at the edge of the cliff."
+    },
+    {
+     "x": 0.1,
+     "y": 0.8,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The fig tree",
+     "text": "A small tree with broad leaves and dark fruit grows from the rock at lower left, a touch of life on the side of the abyss.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "None of this looked like other French painting of 1864. Moreau had spent two years in Italy copying Renaissance masters such as Mantegna and Carpaccio. He brought back their hard outlines, stiff poses and love of precise ornament, and used them on a Greek myth."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is over two meters tall (206 x 105 cm, about 81 x 41 in), so Oedipus is close to life size. Its narrow, upright shape squeezes the two bodies together and leaves the sphinx nowhere to go but up."
+  },
+  {
+   "type": "key",
+   "text": "Moreau turned a famous myth into a silent face-off. Male and female, human and animal, reason and instinct: the picture holds them in balance one second before the answer."
+  },
+  {
+   "type": "text",
+   "text": "You know how it ends. Beaten, the sphinx throws herself into the ravine. Oedipus enters Thebes as a hero, becomes its king, and walks straight into the fate he was trying to escape. The cleverest man in Greece understood the riddle about mankind, but not himself."
+  },
+  {
+   "type": "fact",
+   "text": "After his death in 1898 Moreau left his Paris house and thousands of paintings and drawings to the French state. It is still a museum. This canvas is not in it: it crossed the Atlantic, and an American collector, William Herriman, left it to the Metropolitan Museum in 1920."
+  },
+  {
+   "type": "text",
+   "text": "Sigmund Freud later made Oedipus the most analyzed character in history. Long before that, Moreau had already sensed that the monster on the cliff road might be something a man carries on his own chest."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the answer to the sphinx's riddle?",
+   "options": [
+    "A human being",
+    "The sun",
+    "A lion"
+   ],
+   "answer": 0,
+   "explanation": "A person crawls, then walks, then uses a stick."
+  },
+  {
+   "question": "How did the 1864 Salon public receive the painting?",
+   "options": [
+    "It was refused by the jury",
+    "Nobody noticed it",
+    "It caused a sensation and won a medal"
+   ],
+   "answer": 2,
+   "explanation": "Crowds gathered, the press argued and Prince Napoleon bought it."
+  },
+  {
+   "question": "What does Oedipus do with his spear in the picture?",
+   "options": [
+    "He aims it at the sphinx",
+    "He rests its point on the ground",
+    "He has broken it in two"
+   ],
+   "answer": 1,
+   "explanation": "He is armed but will win with his mind."
+  },
+  {
+   "question": "How does Moreau's version differ from the 1808 one by Ingres?",
+   "options": [
+    "The sphinx clings to Oedipus's body",
+    "The scene takes place indoors",
+    "Oedipus is shown as an old man"
+   ],
+   "answer": 0,
+   "explanation": "Ingres kept the two apart; Moreau puts them chest to chest."
+  },
+  {
+   "question": "Which artists did Moreau copy during his stay in Italy?",
+   "options": [
+    "Mantegna and Carpaccio",
+    "Monet and Renoir",
+    "Rubens and Rembrandt"
+   ],
+   "answer": 0,
+   "explanation": "He studied Renaissance masters and their sharp outlines."
+  }
+ ],
+ "facts": [
+  {
+   "text": "A hand gripping the rock at the bottom belongs to an earlier victim of the sphinx.",
+   "isTrue": true,
+   "explanation": "It is all that remains visible of a traveler who failed the riddle."
+  },
+  {
+   "text": "The painting hangs in the Gustave Moreau Museum in Paris.",
+   "isTrue": false,
+   "explanation": "It is at the Metropolitan Museum in New York, a bequest of 1920."
+  },
+  {
+   "text": "In Moreau's picture, Oedipus is stabbing the sphinx.",
+   "isTrue": false,
+   "explanation": "His spear points at the ground; the contest is one of minds."
+  }
+ ]
+}

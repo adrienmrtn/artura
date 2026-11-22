@@ -1,0 +1,323 @@
+{
+ "teaser": "A roaring sea strait, printed on a sheet of paper no bigger than a magazine page.",
+ "focus": [
+  0.46,
+  0.84
+ ],
+ "review_notes": "Sheet size given as about 36 x 24 cm (standard vertical oban), not measured on the Met impression.\nClaim that Hiroshige probably never visited Naruto and worked from illustrated guidebooks: widely stated, not certain.\nSeries count: 69 views plus a contents sheet, published 1853-1856.\nBirds identified as plovers by convention; whirlpools up to about 20 m across at spring tides.\nNarutomaki fish cake and the manga character Naruto Uzumaki both named after these whirlpools.\nHiroshige's death in 1858 is usually linked to the cholera epidemic, not proven.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This sea fits in two hands. The sheet measures about 36 by 24 centimeters (14 by 9.5 inches), roughly a magazine page. It is paper made from mulberry bark, thin, light and tough enough to be pressed by hand onto one carved woodblock after another, one block for each color."
+  },
+  {
+   "type": "text",
+   "text": "The place is real. Naruto is a narrow strait between the islands of Awaji and Shikoku, in what was then Awa Province. Twice a day the tide forces its way through, the two seas on either side sit at different heights, and the water starts to spin."
+  },
+  {
+   "type": "fact",
+   "text": "At the strongest tides, the Naruto whirlpools can reach about 20 meters (65 feet) across. Today tourists watch them from boats and from a glass-floored walkway under a highway bridge."
+  },
+  {
+   "type": "text",
+   "text": "Hiroshige almost certainly never stood on this shore. For a series covering every province of Japan, he leaned on illustrated travel guides and then rebuilt each view his own way. So what you see is less a report than an arrangement. Start with the color, because the color is doing something a carved line cannot."
+  },
+  {
+   "type": "tour",
+   "title": "Color wiped by hand",
+   "text": "Three places where the color fades smoothly instead of stopping at a line.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.045,
+     "zoom": 1.8,
+     "r": 0.28,
+     "title": "The top of the sky",
+     "text": "A band of deep blue melts downward into pale paper. The printer wiped the wet block with a cloth before pressing the sheet, so the ink thins out gradually. The technique is called bokashi."
+    },
+    {
+     "x": 0.5,
+     "y": 0.325,
+     "zoom": 2.2,
+     "r": 0.25,
+     "title": "A strip of pink",
+     "text": "Just above the hills the sky turns rose. It is another wiped gradation, and it sets the hour: early morning or evening, with calm air over a violent sea."
+    },
+    {
+     "x": 0.25,
+     "y": 0.7,
+     "zoom": 2.4,
+     "r": 0.16,
+     "title": "The dark hollow",
+     "text": "Here the blue goes nearly black, then lightens. That one shadow makes the water look as if it drops away, like the inner slope of a funnel."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Each of those fades had to be redone by hand for every single sheet, so no two impressions are quite alike. The blue itself was a novelty: Prussian blue, a synthetic pigment invented in Europe that reached Japanese printers in quantity only around 1830. It was stronger and more stable than the plant blues used before."
+  },
+  {
+   "type": "key",
+   "text": "In a Japanese print, the artist only drew the design. A carver cut the blocks and a printer mixed and wiped the colors. The soft gradations are the printer's handwriting."
+  },
+  {
+   "type": "text",
+   "text": "The name Naruto is written with two characters that mean “roaring gate”. Hiroshige seems to have taken that literally. He did not simply paint water. He built a gate and put the roar in front of it."
+  },
+  {
+   "type": "lines",
+   "text": "How the picture is built, one line at a time.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.06,
+       0.2
+      ],
+      [
+       0.14,
+       0.35
+      ],
+      [
+       0.28,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "Left post",
+     "text": "Rust-colored rocks climb the left edge, with foam breaking over their top."
+    },
+    {
+     "points": [
+      [
+       0.95,
+       0.31
+      ],
+      [
+       0.85,
+       0.4
+      ],
+      [
+       0.66,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "Right post",
+     "text": "A second group of rocks answers from the right. Together the two sides frame an opening: the gate in the name."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.33
+      ],
+      [
+       0.85,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "The still line",
+     "text": "Through the gate lies a flat horizon and a quiet shore. It is the only straight, restful line in the print."
+    },
+    {
+     "points": [
+      [
+       0.46,
+       0.855
+      ],
+      [
+       0.52,
+       0.84
+      ],
+      [
+       0.53,
+       0.88
+      ],
+      [
+       0.44,
+       0.9
+      ],
+      [
+       0.36,
+       0.86
+      ],
+      [
+       0.4,
+       0.8
+      ],
+      [
+       0.55,
+       0.78
+      ],
+      [
+       0.68,
+       0.84
+      ],
+      [
+       0.72,
+       0.91
+      ],
+      [
+       0.8,
+       0.84
+      ],
+      [
+       0.92,
+       0.75
+      ]
+     ],
+     "closed": false,
+     "label": "The spiral",
+     "text": "Below, everything curves. The whirlpool winds outward from its eye and throws a white arm of foam toward the right edge."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice where he placed you. The spiral sits at the very bottom, right under your feet, while calm lies far away at the top. A tall, narrow sheet makes that possible. Most earlier landscape series, including Hiroshige's own famous road views, were wide. Here he turned the paper upright and stacked near on top of far."
+  },
+  {
+   "type": "fact",
+   "text": "The pink-swirled slice of fish cake floating in a bowl of ramen is called narutomaki, after these whirlpools. So is the manga hero Naruto Uzumaki: “uzumaki” means spiral or whirlpool."
+  },
+  {
+   "type": "text",
+   "text": "The print belongs to “Famous Views of the Sixty-odd Provinces”, a set of 69 landscapes issued between 1853 and 1856. Buyers who would never travel that far could own the whole country, sheet by sheet, for the price of a cheap meal each. The margins of the picture still carry the marks of that trade."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.88,
+     "y": 0.14,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Two labels",
+     "text": "The red strip gives the series title. The yellow one names the place: Awa, view of Naruto. Text and picture share the sheet like a caption on a postcard.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.09,
+     "y": 0.71,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Hiroshige's name",
+     "text": "His signature runs down a red panel, set where the water is darkest so it reads clearly.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.08,
+     "y": 0.91,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "The publisher",
+     "text": "This small round seal belongs to the publisher, who paid for the blocks, hired the carvers and printers, and sold the sheets."
+    },
+    {
+     "x": 0.2,
+     "y": 0.14,
+     "zoom": 2.2,
+     "r": 0.17,
+     "title": "Foam like fingers",
+     "text": "The spray is plain unprinted paper, cut out by the blue around it. Its curled tips recall the claws of Hokusai's Great Wave, made about 25 years earlier."
+    },
+    {
+     "x": 0.55,
+     "y": 0.24,
+     "zoom": 2.4,
+     "r": 0.2,
+     "title": "A flock",
+     "text": "Small white birds, usually read as plovers, cross the empty sky. They give the scale: the rocks and waves are huge."
+    },
+    {
+     "x": 0.68,
+     "y": 0.52,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "A rock mid-stream",
+     "text": "Brown fading to gray, with dots of green for moss or shrubs. One more wiped gradation, this time on stone."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Hiroshige was born into a family of low-ranking samurai who served as fire wardens at Edo Castle. He inherited the post at 12, after losing both parents within a year, and kept it for years while he trained as a print designer."
+  },
+  {
+   "type": "text",
+   "text": "He died in 1858, three years after this print, as cholera swept through Edo. By then American warships had forced Japan's ports open, and sheets like this one soon traveled to Europe. In Paris in 1887, Vincent van Gogh copied two Hiroshige prints in oil paint to understand how flat color and bold cropping could carry so much feeling."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does the name Naruto mean?",
+   "options": [
+    "Blue spiral",
+    "Roaring gate",
+    "Morning tide"
+   ],
+   "answer": 1,
+   "explanation": "The two characters mean “roaring gate”, and the rocks in the print form a gate."
+  },
+  {
+   "question": "What is bokashi?",
+   "options": [
+    "A smooth color fade made by wiping the inked block",
+    "A type of mulberry paper",
+    "The publisher's round seal"
+   ],
+   "answer": 0,
+   "explanation": "The printer wipes the wet block so the color thins out gradually."
+  },
+  {
+   "question": "What was unusual about the format of this landscape series?",
+   "options": [
+    "It was printed on silk",
+    "It was round",
+    "The sheets are upright rather than wide"
+   ],
+   "answer": 2,
+   "explanation": "Hiroshige turned the paper vertically and stacked near on top of far."
+  },
+  {
+   "question": "Where did the strong blue pigment come from?",
+   "options": [
+    "It was a synthetic pigment invented in Europe",
+    "It was ground from seashells at Naruto",
+    "It was pressed from indigo leaves"
+   ],
+   "answer": 0,
+   "explanation": "Prussian blue reached Japanese printers in quantity around 1830."
+  },
+  {
+   "question": "Which European painter copied Hiroshige prints in oil in 1887?",
+   "options": [
+    "Claude Monet",
+    "Vincent van Gogh",
+    "Paul Cézanne"
+   ],
+   "answer": 1,
+   "explanation": "Van Gogh copied two Hiroshige prints in Paris."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The white foam in this print is thick white paint.",
+   "isTrue": false,
+   "explanation": "It is bare paper left unprinted, surrounded by blue."
+  },
+  {
+   "text": "Every impression of this print is slightly different.",
+   "isTrue": true,
+   "explanation": "The color gradations were wiped by hand for each sheet."
+  },
+  {
+   "text": "Hiroshige carved the woodblocks himself.",
+   "isTrue": false,
+   "explanation": "He drew the design; a carver and a printer did the rest."
+  }
+ ]
+}

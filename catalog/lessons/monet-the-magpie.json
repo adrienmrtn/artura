@@ -1,0 +1,180 @@
+{
+ "teaser": "The Salon jury turned it down in 1869. The problem was the color of the shadows.",
+ "focus": [
+  0.21,
+  0.46
+ ],
+ "review_notes": "Rejected by the Salon jury of 1869 (together with a seascape): check.\nLouis Gaudibert, a Le Havre patron, helping Monet settle near Étretat in late 1868: check.\nThe account of Monet painting in the snow with a foot warmer and three coats is from a journalist's report about Honfleur a couple of winters earlier, not about this painting; the lesson says so.\n'About 140 snow scenes' over his career and 'the largest of them': commonly cited figures, check.\nEntered the national collection (Musée d'Orsay) in 1984: check.\nSize 89 x 130 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In the spring of 1869 the jury of the Paris Salon looked at this snow scene and said no. The Salon was the huge official exhibition where careers were made, and a refusal meant no buyers. Monet was 28, a father, and deeply in debt. He had counted on this canvas."
+  },
+  {
+   "type": "text",
+   "text": "He had painted it a few months earlier near Étretat, on the Normandy coast, where a patron from Le Havre named Louis Gaudibert had helped him rent a house for the winter. For once he had a warm home, his companion Camille and their baby son beside him, and outside, heavy snow under a clear sky."
+  },
+  {
+   "type": "text",
+   "text": "The picture is big for a landscape made of so little: 89 by 130 centimeters (about 35 by 51 inches) of field, fence, a few trees and a roof. And one living creature, which gives the painting its name."
+  },
+  {
+   "type": "find",
+   "text": "The title promises a magpie. It takes up almost no room. Where is it sitting?",
+   "spots": [
+    {
+     "x": 0.205,
+     "y": 0.455,
+     "zoom": 3.8,
+     "r": 0.04,
+     "title": "The magpie",
+     "text": "A black bird with a touch of blue, on the top bar of a rough wooden gate. It is the darkest thing in the picture, a single note on a staff of five lines."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Everything else in the painting is arranged around that small black comma. Take the bird away in your mind and the scene goes silent and flat. With it, the white has something to be white against, and you sense the cold stillness of a morning when even a bird stays put."
+  },
+  {
+   "type": "fact",
+   "text": "Two winters earlier, a journalist had come across Monet painting outdoors in the snow at Honfleur. He described a foot warmer, an easel, and a man wrapped in three coats and wearing gloves, his face half frozen."
+  },
+  {
+   "type": "text",
+   "text": "Now, the shadows. In 1869 painters were taught that a shadow is the object’s own color made darker, with brown, gray or black. Monet stood in the snow and saw something else. Follow the light across the picture and name the colors you actually find."
+  },
+  {
+   "type": "tour",
+   "title": "Not one white",
+   "text": "The sun is low, behind the fence. It throws the shadows toward you.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.72,
+     "zoom": 2.2,
+     "r": 0.2,
+     "title": "Blue shadows",
+     "text": "The long shadow of the fence is blue and violet, not gray. Snow in shade reflects the sky above it, and Monet painted exactly that."
+    },
+    {
+     "x": 0.45,
+     "y": 0.535,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "Sunlit crest",
+     "text": "Along the top of the fence the snow catches full sun. Here the white is warm, mixed with cream and a little yellow, laid on thickly."
+    },
+    {
+     "x": 0.3,
+     "y": 0.2,
+     "zoom": 2,
+     "r": 0.18,
+     "title": "A yellowish sky",
+     "text": "The sky is not blue at all near the horizon but pale yellow and gray. That warm light is what makes the blue shadows look so blue."
+    },
+    {
+     "x": 0.68,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.14,
+     "title": "Pink wall, red chimneys",
+     "text": "The house wall glows pinkish beige and two chimneys add specks of brick red, the only truly warm colors in the scene."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Shadows have color. Yellow sunlight and blue shadow are opposites that sharpen each other, and Monet built a whole white landscape out of that pair."
+  },
+  {
+   "type": "text",
+   "text": "To the jury this looked wrong, even careless: pale, chalky, without the dark tones that gave a proper painting its depth. The brushwork did not help. Monet left visible dabs and strokes everywhere, which in 1869 read as a sketch, not a finished work."
+  },
+  {
+   "type": "text",
+   "text": "He did not change course. The rejection, along with others in those years, pushed him and his friends toward an idea that took shape five years later: showing their work themselves, without any jury. That first independent exhibition, in 1874, gave the Impressionists their name."
+  },
+  {
+   "type": "fact",
+   "text": "Monet went on to paint around 140 snow scenes in his life. This early one is the largest of them all."
+  },
+  {
+   "type": "text",
+   "text": "As for the refused picture, it stayed in private hands for more than a century and entered France’s national collection only in 1984. Today it hangs in the Musée d’Orsay, where it is one of the most loved paintings in the building."
+  },
+  {
+   "type": "text",
+   "text": "Next time you walk out on a bright winter morning, check the shadows on the snow. You will see that the jury was wrong and the magpie’s painter was right."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What happened when Monet submitted The Magpie to the Salon of 1869?",
+   "options": [
+    "It won a medal",
+    "The jury rejected it",
+    "It was bought by the state"
+   ],
+   "answer": 1,
+   "explanation": "The jury refused it, a serious blow for a painter in debt."
+  },
+  {
+   "question": "What color are the shadows on the snow?",
+   "options": [
+    "Blue and violet",
+    "Brown and black",
+    "Pure gray"
+   ],
+   "answer": 0,
+   "explanation": "Monet painted the shadows blue because shaded snow reflects the sky."
+  },
+  {
+   "question": "Where is the magpie perched?",
+   "options": [
+    "On a chimney",
+    "On a branch of the big tree",
+    "On the top bar of a wooden gate"
+   ],
+   "answer": 2,
+   "explanation": "It sits on the gate at the left, the darkest spot in the picture."
+  },
+  {
+   "question": "Where did Monet paint this scene?",
+   "options": [
+    "In Paris",
+    "Near Étretat in Normandy",
+    "In the Alps"
+   ],
+   "answer": 1,
+   "explanation": "A patron had helped him rent a house near Étretat for the winter of 1868 to 1869."
+  },
+  {
+   "question": "When did the painting enter France’s national collection?",
+   "options": [
+    "1869",
+    "1900",
+    "1984"
+   ],
+   "answer": 2,
+   "explanation": "It stayed in private hands for over a century, until 1984."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The only truly warm colors in the scene are the house wall and its red chimneys.",
+   "isTrue": true,
+   "explanation": "Almost everything else is white, blue, violet or pale yellow."
+  },
+  {
+   "text": "Painters in 1869 were generally taught to make shadows blue.",
+   "isTrue": false,
+   "explanation": "They were taught to darken shadows with brown, gray or black, which is why Monet’s blue shocked."
+  },
+  {
+   "text": "The Magpie is the largest of Monet’s many snow scenes.",
+   "isTrue": true,
+   "explanation": "He painted around 140 snowscapes and this early one is the biggest."
+  }
+ ]
+}

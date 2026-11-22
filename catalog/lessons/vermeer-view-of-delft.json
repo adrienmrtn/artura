@@ -1,0 +1,330 @@
+{
+ "teaser": "The front of the town is in shadow and the back is in sunshine. That was Vermeer's boldest idea.",
+ "focus": [
+  0.66,
+  0.62
+ ],
+ "review_notes": "Dimensions 96.5 x 115.7 cm.\nClock on the Schiedam Gate usually read as about 7:10 in the morning.\nNieuwe Kerk tower shown without its bells, used to date the picture to 1660-1661.\nSold for 200 guilders at the 1696 Amsterdam sale, the highest price for a Vermeer there; bought by the Dutch state in 1822 for 2,900 guilders, assigned to the Mauritshuis by King William I.\nSand or coarse pigment grains in the roof paint: reported in technical studies, check wording.\nA male figure painted out beside the two women (pentimento).\nProust: letter to Jean-Louis Vaudoyer (1921) calling it the most beautiful painting in the world; Bergotte's death scene in The Captive (published 1923). Which exact patch is the 'little patch of yellow wall' is debated; the spot points to the sunlit area right of the Rotterdam Gate.\nCamera obscura use is a hypothesis, stated as such.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Something is the wrong way around in this picture. The buildings closest to you, along the water, sit in shade. The roofs far behind them blaze in full sun. Painters normally do the opposite: a bright foreground, a hazy distance. Vermeer puts a cloud over the front of the town and lets the light fall behind it."
+  },
+  {
+   "type": "text",
+   "text": "It works because that is how weather behaves. A rain cloud has just passed. One part of Delft is still under it and another is already drying in the sun. You are not shown a town so much as a particular minute over a town."
+  },
+  {
+   "type": "text",
+   "text": "That minute can even be read. Vermeer painted a public clock into the view, on the gate building near the middle of the far bank."
+  },
+  {
+   "type": "find",
+   "text": "There is a clock on one of the buildings across the water. Can you find it?",
+   "spots": [
+    {
+     "x": 0.44,
+     "y": 0.6,
+     "zoom": 4.2,
+     "r": 0.05,
+     "title": "The clock",
+     "text": "On the front of the Schiedam Gate, under the little bell turret. Its hands point to shortly after seven. With the sun on the right, in the east, this is an early morning."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Seven in the morning, then, in the early 1660s. The quay is nearly empty. A few people wait by a barge, and two women talk on the sand. Vermeer stood, or rather sat, on the upper floor of a house across the harbor, looking north at his hometown."
+  },
+  {
+   "type": "fact",
+   "text": "This is a big picture by Vermeer's standards: about 97 by 116 centimeters, or 38 by 46 inches. Most of his paintings are small enough to carry under one arm. He seems to have saved his largest canvas of these years for his own town."
+  },
+  {
+   "type": "text",
+   "text": "More than half of that canvas is sky. The town is a thin band, squeezed between cloud and water. Three long stripes do most of the work."
+  },
+  {
+   "type": "lines",
+   "text": "The picture is stacked in layers, like a cake seen from the side.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.14
+      ],
+      [
+       0.3,
+       0.17
+      ],
+      [
+       0.62,
+       0.1
+      ],
+      [
+       1.0,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The dark cloud",
+     "text": "A gray cloud hangs along the top edge. It is the cause of the shadow below. It also pushes your eye down toward the town like a lowered eyelid."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.74
+      ],
+      [
+       0.45,
+       0.74
+      ],
+      [
+       1.0,
+       0.71
+      ]
+     ],
+     "closed": false,
+     "label": "The shaded quay",
+     "text": "The waterline is a dark, nearly straight strip of walls, gates and hulls. It reads almost as a silhouette."
+    },
+    {
+     "points": [
+      [
+       0.3,
+       0.63
+      ],
+      [
+       0.64,
+       0.6
+      ],
+      [
+       1.0,
+       0.65
+      ]
+     ],
+     "closed": false,
+     "label": "The sunlit town",
+     "text": "Just behind, roofs and the church tower catch the sun. The brightest things in the picture are the farthest away, so your eye is pulled deep into the town."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.885
+      ],
+      [
+       0.25,
+       0.91
+      ],
+      [
+       0.55,
+       0.955
+      ],
+      [
+       0.78,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "The near shore",
+     "text": "A curve of pale sand, where you stand. It is the only diagonal in a painting made of horizontals, and it leads you in."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The sunlit tower belongs to the New Church, where the princes of Orange, the founding family of the Dutch state, are buried. Vermeer lights it like a spotlight. A view that looks like plain observation carries a quiet touch of pride."
+  },
+  {
+   "type": "fact",
+   "text": "In 1654, a few years before this view, a gunpowder store blew up in the middle of Delft. The blast flattened whole streets and killed many people, among them the painter Carel Fabritius. The calm town in Vermeer's picture had only recently been rebuilt."
+  },
+  {
+   "type": "text",
+   "text": "Up close, the calm breaks into something livelier. Vermeer does not draw bricks and planks here. He scatters paint: grains, blobs and tiny bright dots that only turn into a boat or a roof when you step back."
+  },
+  {
+   "type": "tour",
+   "title": "Paint that behaves like light",
+   "text": "Three places where the brush stops describing and starts sparkling.",
+   "spots": [
+    {
+     "x": 0.87,
+     "y": 0.735,
+     "zoom": 3.4,
+     "r": 0.09,
+     "title": "The herring boats",
+     "text": "The dark hulls are sprinkled with pale dots, like light glinting off wet wood. They are not rivets or ropes. They are pure sparkle, placed where the eye expects it."
+    },
+    {
+     "x": 0.2,
+     "y": 0.63,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "Gritty roofs",
+     "text": "These red roofs have a rough, sandy surface. Vermeer made the paint itself coarse, so the tiles catch real light the way real tiles do."
+    },
+    {
+     "x": 0.85,
+     "y": 0.88,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "Stretched reflections",
+     "text": "The gate towers reflect in the water, but far too long: the dark shapes reach almost to your shore. Vermeer stretched them to tie the far bank to the near one."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those soft dots resemble what you see in a camera obscura, a darkened box with a lens that projects an image onto a surface, the ancestor of the camera. Out-of-focus highlights swell into little discs. Many historians think Vermeer studied such a device. No document proves it."
+  },
+  {
+   "type": "key",
+   "text": "View of Delft is less a portrait of a town than a portrait of its weather: one cloud, one break of sun, one morning that will not come back."
+  },
+  {
+   "type": "fact",
+   "text": "In 1696 it sold for 200 guilders, the highest price of any Vermeer in that auction. In 1822 the Dutch state paid 2,900 guilders for it, and the king sent it to the Mauritshuis in The Hague, where it still hangs."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.64,
+     "y": 0.56,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The New Church",
+     "text": "The pale tower stands in full sun. It is shown without its bells, which were being replaced around 1660. That gap helps date the picture.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.86,
+     "y": 0.62,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The Rotterdam Gate",
+     "text": "A fortified gate with two pointed turrets, half in shadow. It was pulled down in the 1800s. Today the painting is the best record of how it looked."
+    },
+    {
+     "x": 0.95,
+     "y": 0.655,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "A patch of yellow",
+     "text": "Sunlit walls and roofs glow at the far right. The novelist Marcel Proust made a “little patch of yellow wall” in this painting famous. Readers still argue over which patch he meant."
+    },
+    {
+     "x": 0.29,
+     "y": 0.87,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "Two women",
+     "text": "They chat on the sand, one with a basket. Vermeer first painted a man beside them, then painted him out. His ghost can be detected under the surface."
+    },
+    {
+     "x": 0.07,
+     "y": 0.85,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The passengers",
+     "text": "A small group waits beside a barge, the public transport of the time. Horse-drawn boats linked Delft to nearby cities on a timetable."
+    },
+    {
+     "x": 0.57,
+     "y": 0.72,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The bridge",
+     "text": "A stone bridge joins the two gates. Through its arch, a canal runs into the heart of the town."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Marcel Proust saw the picture in 1902 and never got over it. He called it the most beautiful painting in the world. In his great novel, an old writer drags himself to an exhibition to see it one more time, stares at the yellow wall, and dies in front of it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is unusual about the light in View of Delft?",
+   "options": [
+    "The foreground buildings are in shadow while the distance is sunlit",
+    "The sun is shown as a red disc",
+    "There are no shadows at all"
+   ],
+   "answer": 0,
+   "explanation": "A cloud shades the front of the town while the sun falls behind it."
+  },
+  {
+   "question": "What time does the clock on the gate show?",
+   "options": [
+    "Noon",
+    "Shortly after seven in the morning",
+    "Midnight"
+   ],
+   "answer": 1,
+   "explanation": "The hands on the Schiedam Gate point to just past seven."
+  },
+  {
+   "question": "How much of the canvas is sky?",
+   "options": [
+    "A thin strip",
+    "About a quarter",
+    "More than half"
+   ],
+   "answer": 2,
+   "explanation": "The town is a narrow band between a huge sky and the water."
+  },
+  {
+   "question": "What did Vermeer do to the reflections of the gate towers?",
+   "options": [
+    "He left them out",
+    "He stretched them so they nearly reach the near shore",
+    "He painted them upside down"
+   ],
+   "answer": 1,
+   "explanation": "The long reflections link the far bank to the foreground."
+  },
+  {
+   "question": "Which writer called it the most beautiful painting in the world?",
+   "options": [
+    "Marcel Proust",
+    "Charles Dickens",
+    "Leo Tolstoy"
+   ],
+   "answer": 0,
+   "explanation": "Proust saw it in 1902 and put it in his novel."
+  },
+  {
+   "question": "What is a camera obscura?",
+   "options": [
+    "A type of varnish",
+    "A dark box with a lens that projects an image",
+    "A painter's stool"
+   ],
+   "answer": 1,
+   "explanation": "It is an optical device, the ancestor of the camera, that Vermeer may have studied."
+  }
+ ],
+ "facts": [
+  {
+   "text": "View of Delft is one of Vermeer's smallest paintings.",
+   "isTrue": false,
+   "explanation": "At about 97 by 116 cm, it is large for him."
+  },
+  {
+   "text": "The church tower in the sun is shown without its bells.",
+   "isTrue": true,
+   "explanation": "The bells were being replaced around 1660, which helps date the work."
+  },
+  {
+   "text": "There is written proof that Vermeer used a camera obscura.",
+   "isTrue": false,
+   "explanation": "Many historians suspect it, but no document proves it."
+  }
+ ]
+}

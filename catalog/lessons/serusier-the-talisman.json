@@ -1,0 +1,181 @@
+{
+ "teaser": "A painting lesson on a panel smaller than a sheet of paper, carried to Paris like a relic.",
+ "focus": [
+  0.45,
+  0.32
+ ],
+ "review_notes": "Denis's sentence (Art et Critique, 1890) is given in a standard English translation.\nGauguin's instructions are paraphrased from Maurice Denis's later account, not quoted.\nInscription on the back: 'Fait en octobre 1888 sous la direction de Gauguin par P. Sérusier Pont-Aven'.\nCigar-box-lid legend contradicted by Musée d'Orsay research (2018 exhibition): check wording.\nDenis kept the panel until his death in 1943; acquired by Orsay in 1985: check.\nSérusier was 'massier' (student monitor) at the Académie Julian.\nDimensions 27 x 21.5 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In 1890 a twenty-year-old painter named Maurice Denis published a sentence that art students still learn by heart: remember that a picture, before being a war horse, a nude woman or some story, is essentially a flat surface covered with colors arranged in a certain order."
+  },
+  {
+   "type": "text",
+   "text": "It reads like the first line of modern art, and in a way it is. Twenty years later painters would drop the war horse and the story altogether and keep only the colors. But Denis did not come up with the idea alone. He was describing a small wooden panel a friend had shown him two years before. This one."
+  },
+  {
+   "type": "text",
+   "text": "October 1888, Pont-Aven, a village in Brittany, in the west of France. Paul Sérusier, in his early twenties, is a well-behaved student from a Paris art school on his last day of vacation. He finally dares to ask the most talked-about painter in the village, Paul Gauguin, for advice. Gauguin takes him to a wood beside the river."
+  },
+  {
+   "type": "fact",
+   "text": "The wood has a name fit for a novel: the Bois d'Amour, the Wood of Love. It runs along the Aven, the river that gives Pont-Aven its name, and painters still set up easels there today."
+  },
+  {
+   "type": "text",
+   "text": "The picture can look like pure pattern, patches of color with no subject. It is not. Sérusier was standing in front of a real riverbank, and at least one solid, ordinary thing from that morning is still easy to recognize."
+  },
+  {
+   "type": "find",
+   "text": "There is a building among the trees. Where is it?",
+   "spots": [
+    {
+     "x": 0.74,
+     "y": 0.26,
+     "zoom": 2.8,
+     "r": 0.11,
+     "shape": "circle",
+     "title": "The mill",
+     "text": "A dark blue roof, a lilac wall: a house or mill on the bank, reduced to two slabs of paint. Everything around it is real too. The upper part of the panel is the bank, the lower part its reflection in the river."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So this is a landscape, only one painted by dictation. As Denis later told it, Gauguin stood behind the young man and asked questions. How do you see these trees? Yellow? Then use yellow. That shadow looks rather blue? Paint it with the purest blue you have."
+  },
+  {
+   "type": "tour",
+   "title": "Gauguin's dictation",
+   "text": "Follow the lesson stroke by stroke, the way Sérusier heard it.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.2,
+     "zoom": 2.0,
+     "r": 0.17,
+     "shape": "circle",
+     "title": "Trees: yellow",
+     "text": "Autumn beeches become one cloud of yellow, straight from the tube. No leaves, no branches, no light and shade. The color alone says “tree in October.”"
+    },
+    {
+     "x": 0.4,
+     "y": 0.33,
+     "zoom": 2.8,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "Trunks: blue",
+     "text": "A row of thin pale blue strokes, each a single pull of the brush. Trunks in shadow looked bluish, so they are simply blue."
+    },
+    {
+     "x": 0.14,
+     "y": 0.37,
+     "zoom": 2.4,
+     "r": 0.12,
+     "shape": "circle",
+     "title": "Leaves: vermilion",
+     "text": "The red-orange band is the bank, covered in fallen leaves. Vermilion is a bright orange-red pigment. Gauguin's rule: if it looks red, use your strongest red."
+    },
+    {
+     "x": 0.5,
+     "y": 0.72,
+     "zoom": 1.8,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "The river",
+     "text": "Below the green line of the bank everything repeats, looser and upside down: yellow for the trees, blue for the trunks. The water is a mirror made of the same few colors."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "What you just followed took perhaps one morning. Sérusier never came back to finish it, and that is the point: the wood shows through in places, edges are left ragged. Painters had always mixed their colors to imitate what they saw. Here, color is stronger than the thing it stands for."
+  },
+  {
+   "type": "fact",
+   "text": "On the back, Sérusier wrote that the panel was made in October 1888 “under the direction of Gauguin.” For a long time it was said to be the lid of a cigar box. Researchers at the Musée d'Orsay found it is just a small, plain panel, 27 by 21.5 centimeters, about the size of a paperback."
+  },
+  {
+   "type": "text",
+   "text": "He carried it back to Paris and showed it to his friends at school: Denis, Pierre Bonnard, Paul Ranson and others. They were stunned. They gave the little landscape the name it still bears, The Talisman, a lucky charm, and formed a group around it."
+  },
+  {
+   "type": "fact",
+   "text": "The friends called themselves the Nabis, from a Hebrew word for “prophets.” They gave each other nicknames, met for ritual dinners, and treated the panel almost as a holy object. Denis kept it in his home until he died in 1943."
+  },
+  {
+   "type": "key",
+   "text": "The Talisman shifted the question a painter asks. Not “what does this tree look like?” but “what color do I feel when I see it?” Once that was allowed, a painting could be true without being a copy."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who directed Sérusier while he painted this panel?",
+   "options": [
+    "Maurice Denis",
+    "Paul Gauguin",
+    "Pierre Bonnard"
+   ],
+   "answer": 1,
+   "explanation": "Sérusier noted on the back that it was made under Gauguin's direction."
+  },
+  {
+   "question": "What does the lower part of the picture show?",
+   "options": [
+    "A field of wheat",
+    "A road in autumn",
+    "The reflection of the bank in the river"
+   ],
+   "answer": 2,
+   "explanation": "Below the green line of the bank, the trees and trunks repeat upside down in the water."
+  },
+  {
+   "question": "What does the name “Nabis” mean?",
+   "options": [
+    "Prophets",
+    "Brothers",
+    "Savages"
+   ],
+   "answer": 0,
+   "explanation": "The group took its name from a Hebrew word for prophets."
+  },
+  {
+   "question": "According to Denis's famous sentence, what is a picture first of all?",
+   "options": [
+    "A window onto nature",
+    "A flat surface covered with colors in a certain order",
+    "A story told with a brush"
+   ],
+   "answer": 1,
+   "explanation": "Denis wrote it in 1890, two years after seeing this panel."
+  },
+  {
+   "question": "How did Sérusier paint the tree trunks in shadow?",
+   "options": [
+    "In pale blue strokes",
+    "In black outlines",
+    "In dark brown"
+   ],
+   "answer": 0,
+   "explanation": "They looked bluish, so he made them blue."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Talisman is a large canvas meant for a public exhibition.",
+   "isTrue": false,
+   "explanation": "It is a small wooden panel, 27 by 21.5 centimeters, painted as an exercise."
+  },
+  {
+   "text": "The painting shows a real place in Brittany.",
+   "isTrue": true,
+   "explanation": "It is the bank of the Aven river at the Bois d'Amour in Pont-Aven."
+  },
+  {
+   "text": "Sérusier worked on the panel for months to finish every detail.",
+   "isTrue": false,
+   "explanation": "It was painted quickly and left with rough edges, never reworked."
+  }
+ ]
+}

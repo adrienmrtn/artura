@@ -1,0 +1,273 @@
+{
+ "teaser": "One second before he pulls free. The goddess of love is about to lose an argument with two dogs.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "CATALOG MISMATCH: the image shows the Prado version (Madrid, 1554: Cupid asleep under the tree, quiver hanging in the branches, three dogs, figure in a burst of light, inventory number painted at lower left), not the Metropolitan Museum version (Cupid awake holding a dove, two dogs, a rainbow). The lesson describes what the image shows and says openly that several versions exist. Either swap the image for the Met canvas and adjust the find/explore spots, or change museum to Museo del Prado and year to 1554.\nFirst version sent to Philip in London in 1554; Philip's complaint about a crease across the canvas: verify.\nTitian's letter about showing the back view to vary from the Danaë: verify wording.\nBorghini's 1584 criticism of Titian for departing from Ovid: verify.\nThe small figure in the sky read as Venus returning in her chariot (some say Apollo or the dawn): interpretation.\n“Around thirty” surviving versions by Titian, his workshop and copyists: approximate.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "He has already taken the step. His weight is on the front foot, the spear is up, the dogs are straining at the leash. She has thrown both arms around his chest and is still half sitting, so that his stride is dragging her off her seat. In one second he will be gone. Titian stops the clock right here, with the outcome still undecided."
+  },
+  {
+   "type": "text",
+   "text": "The two are Venus, goddess of love, and Adonis, a young hunter, the one mortal she could not bear to lose. The Roman poet Ovid tells the story. She warns him against dangerous animals. He goes hunting anyway, a wild boar gores him, and he dies. From his blood she makes a red flower grow, the anemone."
+  },
+  {
+   "type": "fact",
+   "text": "In Ovid's poem this scene does not exist. There, it is Venus who leaves, flying off in her chariot after giving her warning. The clinging goddess and the lover who shrugs her off are Titian's own invention, and a writer of the 1580s scolded him in print for getting the story wrong."
+  },
+  {
+   "type": "text",
+   "text": "Why change it? Because a goodbye where nobody resists is not much of a picture. By making her hold on and making him go, Titian turns a myth into a tug of war. You can measure it."
+  },
+  {
+   "type": "lines",
+   "text": "Three pulls, in three directions.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.45,
+       0.44
+      ],
+      [
+       0.55,
+       0.5
+      ],
+      [
+       0.66,
+       0.44
+      ]
+     ],
+     "closed": false,
+     "label": "Her arms",
+     "text": "Her arms close around his chest like a rope. This is the only thing holding him in the left half of the picture, the half with shade, a cushion and a sleeping child."
+    },
+    {
+     "points": [
+      [
+       0.64,
+       0.67
+      ],
+      [
+       0.76,
+       0.6
+      ],
+      [
+       0.88,
+       0.53
+      ]
+     ],
+     "closed": false,
+     "label": "The leash",
+     "text": "His left hand grips a leash, and three hunting dogs haul on it toward the right, out into open country. They want to leave even more than he does."
+    },
+    {
+     "points": [
+      [
+       0.31,
+       0.06
+      ],
+      [
+       0.36,
+       0.27
+      ],
+      [
+       0.4,
+       0.46
+      ]
+     ],
+     "closed": false,
+     "label": "The spear",
+     "text": "His right arm holds the spear upright, and it cuts between the lovers and the trees like a barrier. His body is turned toward her, but the arm and the weapon have already chosen."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Caught between those pulls, his face is the calmest thing in the painting. He looks down at her without anger and without doubt. He simply does not believe the warning. Everything around the couple, though, has been arranged by Titian to tell you that he should."
+  },
+  {
+   "type": "find",
+   "text": "Love should be fighting for her. Instead he is off duty. Where is Cupid?",
+   "spots": [
+    {
+     "x": 0.24,
+     "y": 0.455,
+     "zoom": 3.0,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "Asleep",
+     "text": "Cupid, her son, dozes in the shade under the trees, curled on his side. With the god of desire asleep, Venus has lost her power over Adonis at the worst possible moment."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Cupid's nap explains the whole disaster, and it was one of the details Titian and his assistants changed from one version to the next. Yes, versions. This composition was such a success that it was repeated again and again, and around thirty examples survive, by Titian, by his workshop and by copyists. They hang in Madrid, New York, London, Washington and elsewhere."
+  },
+  {
+   "type": "text",
+   "text": "The first was painted for a prince: Philip of Spain, soon to be King Philip II. It reached him in London in 1554, where he had just married the English queen, Mary Tudor. In the variant now in New York's Metropolitan Museum, the canvas is smaller, Cupid is awake and clutches a dove, and a rainbow crosses the sky."
+  },
+  {
+   "type": "fact",
+   "text": "Philip's canvas arrived damaged. The prince complained in a letter that it had a crease running right across the middle, apparently from the way it had been folded for the journey."
+  },
+  {
+   "type": "text",
+   "text": "Titian called this picture and its companions “poesie,” poems in paint. He explained to Philip that an earlier one, Danaë, had shown a nude woman from the front, so this time he would show the other side and give the room some variety. Venus is all back: a long twisting spine, seen from behind, with her face almost hidden."
+  },
+  {
+   "type": "text",
+   "text": "That twist is hard to draw and harder to make graceful. Her hips face one way, her shoulders the other, one foot braces against the ground. Titian was competing with ancient sculpture and with Michelangelo, showing that a painter in Venice could turn a body in space as well as anyone in Rome."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.37,
+     "y": 0.6,
+     "zoom": 2.0,
+     "r": 0.14,
+     "shape": "circle",
+     "title": "The back",
+     "text": "A single curve from the nape to the hip, lit pale against the dark trees. She sits on a purple velvet jacket trimmed with gold, thrown over a rock."
+    },
+    {
+     "x": 0.6,
+     "y": 0.31,
+     "zoom": 3.2,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "His face",
+     "text": "Short curls, eyes lowered to hers, mouth closed. No struggle shows. That quietness is what makes him impossible to stop."
+    },
+    {
+     "x": 0.13,
+     "y": 0.19,
+     "zoom": 3.0,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "Bow and quiver",
+     "text": "Cupid's weapons hang from a branch, out of reach, arrows still in their case. Love is not only asleep, it is disarmed."
+    },
+    {
+     "x": 0.14,
+     "y": 0.86,
+     "zoom": 3.2,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The golden jar",
+     "text": "A metal vessel lies tipped on its side in the grass. She has knocked it over in her rush to catch him."
+    },
+    {
+     "x": 0.87,
+     "y": 0.55,
+     "zoom": 2.6,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The lead dog",
+     "text": "A big pale hound strains forward with its mouth open, another dark head just behind it. For them the hunt has begun."
+    },
+    {
+     "x": 0.68,
+     "y": 0.85,
+     "zoom": 2.8,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "The dog that turns",
+     "text": "The nearest dog twists its head back toward the couple, as if asking what the delay is."
+    },
+    {
+     "x": 0.79,
+     "y": 0.11,
+     "zoom": 3.6,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "A light in the clouds",
+     "text": "High up, a tiny figure rides a burst of light that rakes down across the sky. It is often read as Venus herself in her chariot, a little later, racing back when it is already too late."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "If that reading is right, the painting holds two moments. Down here, the instant before he breaks away. Up there, the instant after the boar, when she comes back to find him. The beam of light falls toward the very hill his dogs are pulling him to."
+  },
+  {
+   "type": "key",
+   "text": "Titian chose the last second in which the story could still go either way. You know the ending, the people in the picture do not, and that gap is where the feeling comes from."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "In Ovid's poem, who actually leaves?",
+   "options": [
+    "Adonis walks away from Venus",
+    "Venus leaves after warning Adonis",
+    "Cupid carries Adonis off"
+   ],
+   "answer": 1,
+   "explanation": "Titian invented the scene of Adonis pulling away, and was criticized for it."
+  },
+  {
+   "question": "What is Cupid doing in this version?",
+   "options": [
+    "Sleeping under the trees",
+    "Shooting an arrow at Adonis",
+    "Holding the dogs"
+   ],
+   "answer": 0,
+   "explanation": "He is asleep, and his bow and quiver hang from a branch."
+  },
+  {
+   "question": "For whom was the first version painted?",
+   "options": [
+    "The Pope",
+    "The Duke of Urbino",
+    "Philip of Spain"
+   ],
+   "answer": 2,
+   "explanation": "It was sent to Prince Philip in London in 1554."
+  },
+  {
+   "question": "Why did Titian show Venus from behind?",
+   "options": [
+    "To hide a mistake",
+    "To vary from an earlier picture that showed a nude from the front",
+    "Because Philip ordered it"
+   ],
+   "answer": 1,
+   "explanation": "He told Philip that after the frontal Danaë he wanted to show the other side."
+  },
+  {
+   "question": "How does Adonis die in the myth?",
+   "options": [
+    "He is gored by a wild boar",
+    "He drowns at sea",
+    "He is struck by lightning"
+   ],
+   "answer": 0,
+   "explanation": "A boar kills him during the hunt, and Venus makes a flower grow from his blood."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Only one painting of this composition exists.",
+   "isTrue": false,
+   "explanation": "About thirty versions survive, by Titian, his workshop and copyists."
+  },
+  {
+   "text": "The dogs are pulling Adonis away from Venus.",
+   "isTrue": true,
+   "explanation": "They strain at the leash toward the open country on the right."
+  },
+  {
+   "text": "Adonis looks furious as he pushes Venus away.",
+   "isTrue": false,
+   "explanation": "His face is calm: he simply does not believe her warning."
+  }
+ ]
+}

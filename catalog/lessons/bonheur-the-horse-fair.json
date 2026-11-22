@@ -1,0 +1,48 @@
+{
+  "teaser": "To paint these horses, Rosa Bonheur needed a police permit to wear trousers.",
+  "focus": [0.5, 0.48],
+  "review_notes": "Bordeaux declining to buy the painting for 12,000 francs: widely reported, please confirm.\nSale to Gambart for 40,000 francs and Vanderbilt's 1887 purchase for $53,000: from the Met's own account, worth a check.\nThe capped rider in the center as a self-portrait is a tradition, not a documented fact (worded as such).\nMetadata year 1855: the painting was shown at the Salon of 1853 and retouched until 1855 (Met dates it 1852-55).\nThe dome at left identified as the Salpêtrière hospital chapel.",
+  "lesson": [
+    {"type": "text", "text": "This picture was built for one room: the Paris Salon, the giant official exhibition where thousands of paintings hung frame against frame, up to the ceiling. To be noticed there, you had to be loud. Rosa Bonheur answered with a canvas about 2.4 meters high and 5 meters wide (8 by 16.5 feet). The horses are close to life size."},
+    {"type": "text", "text": "Size was also a statement. In the 1850s, huge canvases were reserved for kings, battles and gods. Women painters were expected to stay small: flowers, portraits, pets. Bonheur took the format of a history painting and filled it with workhorses and the men who trade them."},
+    {"type": "text", "text": "The scene is real. The Paris horse market was held on the tree-lined Boulevard de l'Hôpital. Dealers trotted their animals in a loop so buyers could judge how they moved. Bonheur turns that loop into the engine of the whole painting."},
+    {"type": "lines", "text": "Follow how she organizes thirty-odd bodies without a single one standing still.", "lines": [
+      {"points": [[0.03, 0.62], [0.2, 0.56], [0.36, 0.44], [0.48, 0.4], [0.63, 0.46], [0.78, 0.52], [0.93, 0.56]], "closed": false, "label": "The wave", "text": "The procession rises from the left, peaks with the rearing horses in the middle, then sinks to the right. It reads like a wave rolling past you."},
+      {"points": [[0.14, 0.33], [0.4, 0.14], [0.68, 0.02]], "closed": false, "label": "The trees", "text": "The tree line climbs toward the right and pushes your eye the same way the horses are heading. Sky on the left, a green wall on the right."},
+      {"points": [[0.0, 0.84], [1.0, 0.84]], "closed": false, "label": "The empty ground", "text": "A strip of bare, dusty earth runs along the bottom. Nothing stands between you and the hooves, so you feel placed at the edge of the track."}
+    ]},
+    {"type": "text", "text": "That rolling band of bodies had a model. Bonheur said she was thinking of the Parthenon frieze, the long marble relief of riders carved in ancient Athens. She gave a cattle-market crowd the rhythm of Greek sculpture, and nobody at the Salon missed the ambition."},
+    {"type": "fact", "text": "For a year and a half, Bonheur went to the horse market twice a week to sketch. To avoid harassment she dressed as a man, which was illegal for women in Paris. She had to get a police permit for it, renewable every six months and signed off by a doctor."},
+    {"type": "text", "text": "All those sketching sessions show in the animals. Most are Percherons, the heavy draft breed from Normandy that pulled the buses and delivery carts of Paris. She knew their anatomy from years of drawing in markets and even slaughterhouses. Each horse here has its own coat, temper and gait."},
+    {"type": "tour", "title": "Three tempers", "text": "The same market, three very different animals.", "spots": [
+      {"x": 0.47, "y": 0.44, "zoom": 2.6, "r": 0.09, "title": "The white rearer", "text": "The brightest shape in the picture. Its forelegs strike the air, its eye rolls back toward the rider beside it. Bonheur parks the peak of the drama exactly in the middle."},
+      {"x": 0.42, "y": 0.34, "zoom": 2.8, "r": 0.08, "title": "The black horse", "text": "Higher still, a dark horse throws its head up against the trees. Its rider in a blue smock leans back and pulls. Dark against dark: you sense it more than you see it."},
+      {"x": 0.68, "y": 0.58, "zoom": 2.2, "r": 0.12, "title": "The dappled pair", "text": "Two grey Percherons trot calmly, seen from behind. Their tails are knotted up, as was done for draft horses on show. The dapples on the rump are painted spot by spot."}
+    ]},
+    {"type": "text", "text": "Notice what the men are doing in all this. They shout, pull, hang on. None of them is in charge for long. Bonheur gives the horses the faces and the feelings, and the humans the supporting roles. That reversal is a good part of why the picture felt so fresh."},
+    {"type": "text", "text": "One rider is different. Almost everyone here is busy with a horse. But near the center, a single face looks straight out of the picture, toward you."},
+    {"type": "find", "text": "Somebody in this stampede is calmly looking at you. Can you spot the face?", "spots": [
+      {"x": 0.522, "y": 0.39, "zoom": 3.6, "r": 0.045, "title": "The rider in the cap", "text": "In a dark cap and blue smock, right next to the white horse. A long tradition says this is Bonheur herself, in the men's clothes she wore to the market. She never confirmed it."}
+    ]},
+    {"type": "fact", "text": "Bonheur offered the painting to Bordeaux, the city where she was born, for 12,000 francs. The city said no. A London dealer, Ernest Gambart, then bought it for 40,000 and toured it around Britain, where Queen Victoria asked for a private viewing."},
+    {"type": "text", "text": "The tour, and the prints made after the painting, turned Bonheur into one of the most famous artists alive, especially in Britain and the United States. In 1865 Empress Eugénie came to her studio in person to pin on the Legion of Honor. Bonheur was the first woman artist to receive it."},
+    {"type": "text", "text": "The setting has one more thing to tell. Paris is nearly invisible in this picture: just dust, trees and sky. Yet on the far left, Bonheur slipped in a landmark that tells any Parisian exactly where they are standing."},
+    {"type": "find", "text": "A building hides in the haze. Where is it?", "spots": [
+      {"x": 0.095, "y": 0.37, "zoom": 3.4, "r": 0.05, "title": "The dome", "text": "The grey dome of the Salpêtrière hospital chapel, a neighbor of the horse market. It is painted so thinly that it seems made of the same dust the hooves are kicking up."}
+    ]},
+    {"type": "fact", "text": "In 1887 the railroad heir Cornelius Vanderbilt II paid $53,000 for the painting at auction and gave it straight to the Metropolitan Museum. It has been one of the museum's most popular pictures ever since."},
+    {"type": "key", "text": "Bonheur took the scale and rhythm reserved for heroes and gave them to working animals she had studied for months. Patient observation, painted at the size of an epic."}
+  ],
+  "quiz": [
+    {"question": "Why did Bonheur need a police permit while preparing this painting?", "options": ["To bring horses into her studio", "To wear men's clothes at the horse market", "To exhibit at the Salon as a woman"], "answer": 1, "explanation": "Women needed official permission to wear trousers in Paris, and she dressed as a man to sketch in peace."},
+    {"question": "Which ancient work did she have in mind for the long band of riders?", "options": ["The Parthenon frieze", "Trajan's Column", "The Bayeux Tapestry"], "answer": 0, "explanation": "She cited the frieze of riders carved for the Parthenon in Athens."},
+    {"question": "What kind of horses are most of the animals shown?", "options": ["Arabian racehorses", "Wild ponies", "Percherons, heavy draft horses"], "answer": 2, "explanation": "Percherons were the workhorses that pulled the buses and carts of Paris."},
+    {"question": "What happened when Bonheur offered the painting to her birth city, Bordeaux?", "options": ["The city turned it down", "The city paid double", "It was hung in the town hall"], "answer": 0, "explanation": "Bordeaux declined, and a London dealer bought it for much more."},
+    {"question": "What landmark appears faintly on the far left?", "options": ["The Eiffel Tower", "The dome of the Salpêtrière chapel", "Notre-Dame's towers"], "answer": 1, "explanation": "The hospital's dome stood beside the horse market on the Boulevard de l'Hôpital."}
+  ],
+  "facts": [
+    {"text": "The horses in The Horse Fair are painted close to life size.", "isTrue": true, "explanation": "The canvas is about 2.4 by 5 meters, a scale usually kept for history paintings."},
+    {"text": "Bonheur painted the scene from imagination, without visiting the market.", "isTrue": false, "explanation": "She sketched at the Paris horse market twice a week for a year and a half."},
+    {"text": "Rosa Bonheur was the first woman artist to receive the Legion of Honor.", "isTrue": true, "explanation": "Empress Eugénie brought it to her studio in 1865."}
+  ]
+}

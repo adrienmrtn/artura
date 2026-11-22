@@ -1,0 +1,43 @@
+{
+  "teaser": "Two apples, one bite already taken: Cranach stops the story a second before the fall is complete.",
+  "focus": [0.6, 0.25],
+  "review_notes": "IMAGE/METADATA MISMATCH: the image is not the Courtauld Adam and Eve of 1526 (a single landscape scene with a vine, many animals and Adam scratching his head). It shows a different Cranach Adam and Eve on a black background, with Eve holding a bitten apple; it looks like the early version (c. 1510) in the National Museum, Warsaw. The lesson describes only what this image shows and gives no date, size or museum.\nThe pale horizontal scar across Adam's shoulders and the vertical line through the trunk are described as visible damage or a join in the wooden support; not checked against a conservation report.\n'More than fifty' Adam and Eve pictures from Cranach and his workshop: commonly cited figure.\nCoat of arms with the winged serpent granted in 1508 by Frederick the Wise.\nCranach as witness at Luther's wedding (1525) and godfather to his first child (1526).",
+  "lesson": [
+    {"type": "text", "text": "Before it is a garden, this picture is a piece of timber. Cranach painted on wooden boards, as nearly every painter north of the Alps did in his day, before canvas took over. Wood moves with every damp winter, and it shows: a pale scar crosses Adam's shoulders, and a hard straight line splits the tree from top to bottom."},
+    {"type": "text", "text": "On that wood, two bodies and almost nothing else. The story is one of the oldest in the Bible: the first man, the first woman, one forbidden tree, one piece of fruit. Painters usually choose the moment before the bite. Lucas Cranach picks a slightly later second, and he leaves the proof in plain sight."},
+    {"type": "find", "text": "One of the two apples has already been bitten. Tap it.", "spots": [
+      {"x": 0.565, "y": 0.29, "zoom": 3.5, "r": 0.05, "title": "The bite", "text": "Eve holds it up between her fingers, white flesh showing where her teeth went in. She has eaten. Adam's apple, down by his hip, is still whole."}
+    ]},
+    {"type": "text", "text": "So the picture sits between two bites. Hers is done. His is coming: the fruit is already in his hand. In the Book of Genesis, the first thing the pair feel after eating is shame at being naked. Cranach slips that in ahead of schedule, with a few well placed leaves."},
+    {"type": "fact", "text": "Cranach signed his pictures with a snake. His mark was a tiny winged serpent holding a ring in its mouth, taken from the coat of arms a prince granted him in 1508."},
+    {"type": "text", "text": "With so little in the frame, every element has a job. There are three characters here, and each one is busy with something different. Meet the tempter first, then the man, then the woman."},
+    {"type": "tour", "title": "Three characters", "text": "A snake, a man, a woman, and a tree between them.", "spots": [
+      {"x": 0.64, "y": 0.16, "zoom": 3.2, "r": 0.07, "title": "The serpent", "text": "A yellow-green snake slides down a pale branch, jaws open, its head stretched toward Eve's ear. No human face, no wings: just an animal, close enough to whisper."},
+      {"x": 0.27, "y": 0.15, "zoom": 2.6, "r": 0.1, "title": "Adam's face", "text": "Tight curls, a short beard, a slightly creased brow. He is not looking at the fruit or at us. His eyes go sideways, across the tree, to her."},
+      {"x": 0.39, "y": 0.55, "zoom": 2.4, "r": 0.12, "title": "Twig and apple", "text": "One hand pins a leafy twig across his hips. Just below it, the other cradles a red and yellow apple, held low, as if he has not quite decided."},
+      {"x": 0.81, "y": 0.47, "zoom": 2.4, "r": 0.1, "title": "Eve's second apple", "text": "Her other hand holds another fruit at her waist. Its long stem dangles down with a few leaves, and that thin stalk is all the covering she gets."}
+    ]},
+    {"type": "text", "text": "Notice who acts and who watches. Eve holds two apples and looks out of the picture with a calm, almost sleepy face. Adam only stares at her. Church tradition mostly blamed the woman, and Cranach's staging agrees. Yet he gives Adam fruit of his own, so nobody here stays innocent for long."},
+    {"type": "lines", "text": "The whole drama fits in three short paths across the black.", "lines": [
+      {"points": [[0.3, 0.155], [0.74, 0.165]], "closed": false, "label": "Adam's look", "text": "From under his curls, straight across the trunk to Eve's face. He takes his cue from her."},
+      {"points": [[0.6, 0.13], [0.67, 0.185], [0.73, 0.17]], "closed": false, "label": "The serpent's reach", "text": "The snake's body curves off the branch and its head points at Eve, not at Adam. Its work on her is finished, and it stays close anyway."},
+      {"points": [[0.565, 0.29], [0.445, 0.585]], "closed": false, "label": "Apple to apple", "text": "From her bitten fruit down to his whole one. This is the path the sin is about to travel, and it crosses the tree that stands between them."}
+    ]},
+    {"type": "text", "text": "Cranach painted this scene again and again. With his sons and assistants in the Saxon town of Wittenberg, he ran one of the busiest workshops in Europe, and more than fifty Adam and Eve pictures came out of it. Some crowd the garden with deer, a lion, a stork. This one clears everything away and sets pale skin against black."},
+    {"type": "fact", "text": "Cranach was a close friend of Martin Luther, the monk whose protest split the Western church. He painted Luther's portrait many times, was a witness at his wedding in 1525, and became godfather to his first child."},
+    {"type": "text", "text": "The subject also had a practical side. Around 1500, a naked body was hard to justify on a wall in northern Europe. Adam and Eve were the exception, since the Bible itself says they wore nothing. The first sinners became the respectable way to study, paint and sell the human figure, and buyers lined up."},
+    {"type": "key", "text": "Cranach turns a sermon into suspense: one apple bitten, one waiting, and a black background that leaves you nowhere else to look."}
+  ],
+  "quiz": [
+    {"question": "Which apple has already been bitten?", "options": ["The one Adam holds by his hip", "The one Eve holds up in her raised hand", "Neither, both are whole"], "answer": 1, "explanation": "Eve's raised apple shows white flesh where she bit it, while Adam's is still whole."},
+    {"question": "What did Cranach paint this picture on?", "options": ["Wooden boards", "Canvas", "A plaster wall"], "answer": 0, "explanation": "Like most northern painters of his day, he worked on wood."},
+    {"question": "What mark did Cranach use as a signature?", "options": ["A small apple", "His initials inside a crown", "A winged serpent holding a ring"], "answer": 2, "explanation": "The winged serpent came from the coat of arms he was granted in 1508."},
+    {"question": "Where is Adam looking?", "options": ["At Eve", "At the snake", "Straight at the viewer"], "answer": 0, "explanation": "His eyes go sideways across the tree to Eve's face."},
+    {"question": "Why were Adam and Eve a convenient subject for painters around 1500?", "options": ["The church paid extra for them", "They gave an accepted reason to paint nude figures", "They were easy to paint without models"], "answer": 1, "explanation": "The Bible says the pair were naked, so the subject made the nude respectable."}
+  ],
+  "facts": [
+    {"text": "Cranach and his workshop produced more than fifty pictures of Adam and Eve.", "isTrue": true, "explanation": "The scene was one of the workshop's best sellers."},
+    {"text": "In this picture the serpent has a human face.", "isTrue": false, "explanation": "It is painted as a plain yellow-green snake with open jaws."},
+    {"text": "Cranach and Martin Luther were bitter enemies.", "isTrue": false, "explanation": "They were close friends: Cranach witnessed Luther's wedding and was godfather to his first child."}
+  ]
+}

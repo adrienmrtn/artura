@@ -1,0 +1,45 @@
+{
+ "teaser": "Five travelers, one hill, and a storm printed in three shades of grey.",
+ "focus": [0.45, 0.62],
+ "review_notes": "Biography: born 1797, son of a fire warden at Edo Castle, both parents died 1809, pupil of Utagawa Toyohiro, handed on the fire warden post (1823, fully by 1832): standard accounts.\nThe 1832 journey along the Tokaido with an official procession is traditional and now doubted by scholars; lesson says so.\nUmbrella inscription (publisher's name Takenouchi and 'fifty-three stations') is present on many impressions; on this image the marks are visible but small. Verify on this impression.\nShono is the 45th station (46th print of 55).\nMatch is 'fulltext': image shows the Hoeido Tokaido 'Shono', consistent with the title; could not confirm it is the Met impression.\nClaims that he redrew the Tokaido more than twenty times and that designers were paid a flat fee: verify.",
+ "lesson": [
+  {"type":"text","text":"In 1833 Utagawa Hiroshige was thirty-six and had just bet everything on pictures. He had been born into a modest samurai family whose inherited job was fire warden at Edo Castle. Orphaned at twelve, he took over the post as a child. Now he had passed it on to a relative and had only his brush to live on."},
+  {"type":"text","text":"It was not an obvious bet. For years he had drawn actors and pretty women like everyone else in the trade, without much notice. Landscape was a newer market, and Hokusai, a generation older, had just shaken it up with his views of Mount Fuji."},
+  {"type":"text","text":"Then a small publishing house called Hoeido gave Hiroshige a big commission: the whole Tokaido, the coastal highway linking Edo, where the shogun ruled, to Kyoto, where the emperor lived. Fifty-three rest stations lined the road. Add the start and the finish and you get fifty-five prints."},
+  {"type":"fact","text":"Tradition says Hiroshige walked the road in 1832 with an official party bringing horses to the emperor. Many historians now doubt it, and think he leaned on illustrated guidebooks for stations he never saw."},
+  {"type":"text","text":"Shono is station forty-five, a plain little post town. It had no famous temple and no view. So Hiroshige gave it weather. A summer cloudburst hits a hillside, and five people who were strangers a second ago are suddenly all doing the same thing: running."},
+  {"type":"tour","title":"Uphill, downhill","text":"The travelers split into two groups that flee in opposite directions.","spots":[
+   {"x":0.33,"y":0.58,"zoom":2.4,"r":0.14,"title":"The litter","text":"Two bare-legged porters haul a kago, a seat slung from a pole, up the slope. A yellow rain cover hides the passenger completely. Someone paid to stay dry."},
+   {"x":0.23,"y":0.52,"zoom":3,"r":0.07,"title":"Straw raincoat","text":"Ahead of them a man climbs alone, bent under a cape of layered straw with his hat pushed out in front. The cape sheds water like a thatched roof."},
+   {"x":0.63,"y":0.72,"zoom":2.4,"r":0.13,"title":"Going down","text":"Two men rush the other way. One grips a half-open umbrella against the wind. The other, in a straw cape, ducks so low that his face disappears."}
+  ]},
+  {"type":"text","text":"Nobody in this picture has a face you could recognize. Hats, capes and umbrellas turn all five into bundles with legs. Hiroshige is not telling you who they are. He is showing what rain does to a body: it folds it forward."},
+  {"type":"fact","text":"The umbrella doubles as an advertisement. On many copies it carries the publisher's name, Takenouchi, and the words “fifty-three stations,” a plug for the series printed right inside the picture."},
+  {"type":"text","text":"Step back from the people and the scene becomes almost a diagram. Three slanting forces cut across the sheet, and none of them agree."},
+  {"type":"lines","text":"Three slants that never line up.","lines":[
+   {"points":[[0.05,0.48],[0.5,0.72],[0.9,0.94]],"closed":false,"label":"The road","text":"The hill drops from upper left to lower right, a blue wedge under the travelers' feet. Half of them fight it, half are carried down by it."},
+   {"points":[[0.32,0.14],[0.15,0.42]],"closed":false,"label":"The rain","text":"Pale grey streaks fall the opposite way, from upper right to lower left, driven by the wind. They hit the climbers in the back and the others in the face."},
+   {"points":[[0.38,0.33],[0.6,0.22],[0.88,0.13]],"closed":false,"label":"The treetops","text":"The crests of the bamboo grove climb toward the upper right in jagged steps, every tip bent the same way by the gust."}
+  ]},
+  {"type":"key","text":"Diagonals read as movement. With a slope, slanting rain and bent trees all pulling different ways, the picture feels unstable before you even notice the people."},
+  {"type":"text","text":"The grove behind them holds the cleverest idea in the print. There is no outline anywhere in those trees. They are stacked silhouettes, a darker grey in front of a paler one, each from its own carved block. Things seen through heavy rain lose their edges first, and Hiroshige prints exactly that."},
+  {"type":"find","text":"The travelers are running toward shelter. Can you find where the village is?","spots":[
+   {"x":0.84,"y":0.63,"zoom":2.6,"r":0.11,"title":"Rooftops","text":"Low thatched roofs poke out of the bamboo at the right edge, half buried in leaves. This corner is all you ever see of Shono itself. The storm is the real subject."}
+  ]},
+  {"type":"text","text":"The bet paid off. The Tokaido series sold on a scale no landscape set had before, and the blocks were reprinted until the lines wore soft. Hiroshige went on to draw the same highway again and again for other publishers, more than twenty times over."},
+  {"type":"fact","text":"Fame did not make him rich. Print designers were paid a flat fee per drawing, and the profits from reprints went to the publisher."},
+  {"type":"text","text":"He designed thousands of prints in the twenty-five years he had left. But ask people which one they picture when they hear his name, and it is often this hillside, drawn the year he had no safety net."}
+ ],
+ "quiz": [
+  {"question":"What job had Hiroshige's family held before he lived from his art?","options":["Rice merchant","Fire warden at Edo Castle","Temple carpenter"],"answer":1,"explanation":"He inherited the fire warden post as a child and later passed it on."},
+  {"question":"What was the Tokaido?","options":["A highway linking Edo and Kyoto","A river north of Edo","A publishing house"],"answer":0,"explanation":"It was the coastal road between the shogun's city and the emperor's."},
+  {"question":"How are the trees in the background printed?","options":["With thick black outlines","Painted by hand afterwards","As flat silhouettes in different greys, without outlines"],"answer":2,"explanation":"Stacked grey silhouettes imitate how rain blurs distant things."},
+  {"question":"What is a kago?","options":["A straw raincoat","A seat slung from a pole and carried by porters","A roadside inn"],"answer":1,"explanation":"Two porters carry the covered kago up the hill."},
+  {"question":"What do many copies carry on the umbrella?","options":["The publisher's name and the series title","A poem about rain","The date of the storm"],"answer":0,"explanation":"The umbrella advertises the publisher Takenouchi and the fifty-three stations."}
+ ],
+ "facts": [
+  {"text":"The Tokaido series has fifty-five prints.","isTrue":true,"explanation":"Fifty-three stations plus the starting point and the destination."},
+  {"text":"Historians are certain Hiroshige sketched every station on the spot.","isTrue":false,"explanation":"The 1832 journey is doubted, and he probably used guidebooks too."},
+  {"text":"Hiroshige grew wealthy from reprints of the series.","isTrue":false,"explanation":"Designers got a flat fee and publishers kept the reprint profits."}
+ ]
+}

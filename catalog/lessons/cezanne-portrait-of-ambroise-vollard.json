@@ -1,0 +1,38 @@
+{
+  "teaser": "After 115 sittings, Cézanne gave up. He was pleased with one thing only: the shirt.",
+  "focus": [0.47, 0.22],
+  "review_notes": "All anecdotes (115 sittings, 'sit like an apple', fall from the chair on a packing case, 'not dissatisfied with the shirt front', the two bare spots on the hand) come from Vollard's own memoir of Cézanne; he was a lively storyteller, so the lesson presents them as his account.\nThe two unpainted spots on the hand are documented but cannot be clearly distinguished in this reproduction; the spot points at the hand as a whole.\nSittings ran from about 8 a.m. to 11:30 a.m. in the Paris studio on rue Hégésippe-Moreau: verify hours.\nVollard died in 1939; the lesson says he left the portrait to the City of Paris (bequest, entered the Petit Palais afterwards): verify wording.\nThe 1895 Vollard show: about 150 works, shown in rotation.\nPicasso's Cubist portrait of Vollard dated 1910 (Pushkin Museum).",
+  "lesson": [
+    {"type": "text", "text": "This portrait is a painting its author walked away from. Paul Cézanne asked his dealer, Ambroise Vollard, to sit for him in Paris in 1899. According to Vollard, he came back 115 times. Then Cézanne left for his home in Aix-en-Provence, saying he would continue when he had made some progress. He never touched it again."},
+    {"type": "text", "text": "Vollard was no ordinary sitter. Four years earlier, when Cézanne was nearly forgotten in Paris, this young dealer had given him his first solo exhibition and filled a small shop with 150 of his canvases. Much of Cézanne's late fame started there. So the man in the brown suit had every reason to be patient."},
+    {"type": "fact", "text": "The sittings began around eight in the morning and lasted hours. Vollard sat on a chair balanced on a wobbly packing case. One day he dozed off and crashed to the floor. Cézanne was furious: “Do I have to tell you again you must sit like an apple? Does an apple move?”"},
+    {"type": "text", "text": "That line says a lot about how Cézanne worked. He did not chat with his model or hunt for a flattering expression. He studied a person the way he studied fruit on a table: as a set of colored planes that had to lock together. When he finally stopped, he told Vollard he was “not dissatisfied” with a single passage. Which one would you guess?"},
+    {"type": "find", "text": "Tap the part of the portrait Cézanne said he was not unhappy with.", "spots": [
+      {"x": 0.5, "y": 0.42, "zoom": 2.8, "r": 0.1, "title": "The shirt front", "text": "This white wedge was the only part he approved of. It is not really white: it is built from touches of blue, gray and cream, and it is the brightest thing in the whole canvas."}
+    ]},
+    {"type": "text", "text": "From Cézanne, “not dissatisfied” was high praise. Everything else, he felt, was still unresolved. For him each touch of color changed all its neighbors, so a wrong note in one corner could force him to repaint the entire picture. That fear slowed him down more than anything, and it left traces on the canvas."},
+    {"type": "tour", "title": "A portrait under construction", "text": "Three places where you can see Cézanne thinking.", "spots": [
+      {"x": 0.42, "y": 0.69, "zoom": 3.0, "r": 0.09, "title": "The hands", "text": "Vollard noticed two tiny spots of bare canvas on one hand and pointed them out. Cézanne answered that if he put the wrong color there, he would have to start the whole picture again from that point."},
+      {"x": 0.47, "y": 0.2, "zoom": 3.0, "r": 0.1, "title": "A face in planes", "text": "Forehead, cheek and nose are flat patches of orange, ocher and green set at angles, like facets. The eyes are dark hollows with no sparkle. This is a head built, not a mood caught."},
+      {"x": 0.12, "y": 0.17, "zoom": 2.6, "r": 0.12, "title": "The window", "text": "Behind him, a window shows loose shapes in gray and orange, perhaps rooftops and chimney pots. It is the only cool, light corner, and it balances the white shirt across the picture."}
+    ]},
+    {"type": "text", "text": "Step back from those details and the whole figure reads as one dark, heavy pyramid: crossed legs at the base, sloping shoulders, the small head on top. The thick black outlines around the jacket were redrawn many times. A hundred mornings of work are stacked in those lines."},
+    {"type": "key", "text": "For Cézanne a portrait was not about personality. It was a problem of construction, solved one patch of color at a time."},
+    {"type": "fact", "text": "Vollard later became one of the most painted men in Paris. Renoir, Bonnard and Picasso all made portraits of him. Picasso's version from 1910 breaks his face into shards, a Cubist answer to the facets Cézanne had started here."},
+    {"type": "text", "text": "Vollard kept the painting all his life, unfinished as it was, and wrote the story of the sittings in a book about Cézanne that is still read today. He left the portrait to the City of Paris, which is why it hangs in the Petit Palais, the city's own fine arts museum."},
+    {"type": "fact", "text": "The canvas is about 100 by 81 centimeters (39 by 32 inches), an ordinary portrait size. Spread over 115 sittings, that works out to a patch barely bigger than a playing card per morning."},
+    {"type": "text", "text": "So was it a failure? Cézanne thought it was not yet a success. Young painters who saw it a few years later thought it was a door opening. If a face could be built from planes of color instead of copied, a painter was free to rebuild anything. Whether a picture can be both abandoned and complete is a question this one leaves with you."}
+  ],
+  "quiz": [
+    {"question": "According to Vollard, how many times did he sit for this portrait?", "options": ["15", "115", "About 50"], "answer": 1, "explanation": "Vollard counted 115 sittings before Cézanne abandoned the work."},
+    {"question": "What did Cézanne tell his sitter to imitate?", "options": ["A statue", "A mountain", "An apple"], "answer": 2, "explanation": "After Vollard fell off his chair, Cézanne asked whether an apple moves."},
+    {"question": "Which part of the painting was Cézanne “not dissatisfied” with?", "options": ["The shirt front", "The eyes", "The window"], "answer": 0, "explanation": "He singled out the white shirt front as the one passage that satisfied him."},
+    {"question": "Why did Cézanne leave tiny spots of the hand unpainted?", "options": ["He ran out of paint", "A wrong color there would force him to redo the whole picture", "Vollard asked him to"], "answer": 1, "explanation": "He believed every touch affected all the others, so he waited for the right tone."},
+    {"question": "What had Vollard done for Cézanne four years before?", "options": ["Given him his first solo exhibition", "Taught him to paint", "Bought his studio"], "answer": 0, "explanation": "Vollard's 1895 show put Cézanne back in front of the Paris public."}
+  ],
+  "facts": [
+    {"text": "Cézanne finished the portrait and declared it his best work.", "isTrue": false, "explanation": "He abandoned it after 115 sittings and never returned to it."},
+    {"text": "Vollard once fell asleep and tumbled off his chair during a sitting.", "isTrue": true, "explanation": "The chair stood on a wobbly packing case, and Cézanne scolded him for moving."},
+    {"text": "The portrait hangs in the Petit Palais because Vollard left it to the City of Paris.", "isTrue": true, "explanation": "He kept it all his life and bequeathed it to the city."}
+  ]
+}

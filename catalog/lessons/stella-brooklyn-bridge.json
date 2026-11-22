@@ -1,0 +1,267 @@
+{
+ "teaser": "A daily commute across the East River, repainted as a cathedral of steel and electric light.",
+ "focus": [
+  0.5,
+  0.25
+ ],
+ "review_notes": "First showing at the Bourgeois Galleries, New York, 1920, and the description of its reception as admiring: check details.\nKatherine Dreier / Société Anonyme acquisition and 1941 gift to Yale: check.\nStella quote ('as if on the threshold of a new religion or in the presence of a new divinity') from his essay 'The Brooklyn Bridge (A Page of My Life)': check exact wording.\nStella living in Williamsburg, Brooklyn, and teaching Italian at a seminary there around 1916-18: check.\nHart Crane wanting the painting as frontispiece for 'The Bridge' (1930): check.\nReading of lower half as subway tunnels and signal lights is the standard interpretation.\nSize about 215 x 194 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "New Yorkers who walked into a Manhattan gallery in 1920 knew the Brooklyn Bridge by heart. Thousands crossed it every day, by trolley, by train or on foot. What they found on the wall was their commute, taller than a person, dark as a church and glittering like a jewel case. Reviewers gave it more attention than anything else in the show."
+  },
+  {
+   "type": "text",
+   "text": "The painter was Joseph Stella, an Italian immigrant then in his early forties. Nobody had asked him for this picture. He had spent night after night alone on the bridge's walkway, and he later wrote that he felt there “as if on the threshold of a new religion or in the presence of a new divinity.”"
+  },
+  {
+   "type": "text",
+   "text": "A religion needs a temple, and Stella builds one out of a traffic structure. Start with the skeleton of the picture, which is as strict as the plan of a church."
+  },
+  {
+   "type": "lines",
+   "text": "Stella organizes the whole canvas around a center line and two great slanting cables.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.5,
+       0.02
+      ],
+      [
+       0.5,
+       0.98
+      ]
+     ],
+     "closed": false,
+     "label": "The axis",
+     "text": "Tower above, tunnel in the middle, red glow below: all stacked on one vertical line. The picture is almost perfectly symmetrical, like an altar."
+    },
+    {
+     "points": [
+      [
+       0.08,
+       0.47
+      ],
+      [
+       0.27,
+       0.3
+      ],
+      [
+       0.48,
+       0.11
+      ]
+     ],
+     "closed": false,
+     "label": "Left cable",
+     "text": "A pale band climbs from the left edge to the top of the tower. It looks as much like a beam of light as a steel rope."
+    },
+    {
+     "points": [
+      [
+       0.55,
+       0.1
+      ],
+      [
+       0.75,
+       0.38
+      ],
+      [
+       0.97,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "Right cable",
+     "text": "Its twin falls away to the right. Together the two make a steep roof shape, with the tower at its peak."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.5
+      ],
+      [
+       0.98,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "The deck",
+     "text": "A horizontal break cuts the canvas in half. Above it: the bridge in the open night. Below it: what runs underneath."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That symmetry is the first reason the picture feels sacred. The second is the tower itself. The real Brooklyn Bridge, opened in 1883, is held up by two stone towers designed in the Gothic style, the style of medieval cathedrals with their pointed arches."
+  },
+  {
+   "type": "find",
+   "text": "Each stone tower of the bridge is pierced by two tall pointed arches, like church windows. Stella kept them. Where are they?",
+   "spots": [
+    {
+     "x": 0.495,
+     "y": 0.195,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The Gothic arches",
+     "text": "Two deep blue pointed openings glow in the dark tower, one beside the other. Higher up, a second, fainter pair repeats them: the far tower seen through the near one."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Through those arches you look down the roadway into blue distance, the way you look down the long central aisle of a church toward the altar. Stella grew up in southern Italy surrounded by old churches. In New York he found the same upward pull in steel and stone."
+  },
+  {
+   "type": "fact",
+   "text": "Stella arrived at Ellis Island in 1896, at 18, and began by studying medicine like his older brother, a doctor. He dropped it within about a year to draw."
+  },
+  {
+   "type": "text",
+   "text": "When he painted this, he was living in Brooklyn and teaching Italian to pay the rent. The bridge was his walk at night. He described those hours as frightening as well as thrilling: the black water far below, the towers of Manhattan pressing in, the trains rumbling under his feet."
+  },
+  {
+   "type": "text",
+   "text": "That rumble matters. The lower half of the picture is where the fear lives, and it shows things you could never see at the same time as the tower."
+  },
+  {
+   "type": "tour",
+   "title": "Under the roadway",
+   "text": "Below the middle line, Stella takes you underground.",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.58,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The tunnel mouth",
+     "text": "A dark arched opening with a yellow lamp at the top and a red one beneath it, like railway signals. Thin lines fan out from it: the rush of a train coming at you."
+    },
+    {
+     "x": 0.48,
+     "y": 0.83,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The red gem",
+     "text": "A circle cut into facets of red, purple and black, like a ruby or a furnace door. It is the hottest color in a cold picture, and it sits at the very bottom, like something buried."
+    },
+    {
+     "x": 0.67,
+     "y": 0.83,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The vaulted passage",
+     "text": "Fine ruled lines draw a row of arches receding into pale light, a corridor or station seen in perspective."
+    },
+    {
+     "x": 0.1,
+     "y": 0.5,
+     "zoom": 1.8,
+     "r": 0.1,
+     "title": "A pillar of light",
+     "text": "Along the left edge a tall whitish column runs nearly from top to bottom. Is it a steel pier, or a searchlight? Stella lets it be both.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Tower from the front, tunnels from inside, cables from below: several viewpoints packed into one image. Stella had picked this up in Europe from the Italian Futurists, who painted modern life as overlapping fragments to convey speed and noise. He slows their method down. Nothing races here. It hums."
+  },
+  {
+   "type": "key",
+   "text": "Stella turns a piece of engineering into a place of worship: symmetry, pointed arches and colored light borrowed from the cathedral, applied to steel and electricity."
+  },
+  {
+   "type": "text",
+   "text": "Even the surface plays along. The blues are thin and glowing, laid over black outlines that work like the lead strips holding pieces of stained glass together. Seen at full size, about 2.15 m high (7 ft), the painting towers over you much as the bridge does."
+  },
+  {
+   "type": "fact",
+   "text": "Stella could not let the subject go. He painted the bridge again as one of the five panels of “The Voice of the City of New York Interpreted”, finished in 1922, and again in 1939, almost twenty years after this first version."
+  },
+  {
+   "type": "text",
+   "text": "The picture was bought for the Société Anonyme, a pioneering collection of modern art founded by the collector Katherine Dreier with the artists Marcel Duchamp and Man Ray. The collection was given to Yale University in 1941, which is why a New York icon lives in New Haven."
+  },
+  {
+   "type": "fact",
+   "text": "The poet Hart Crane, who wrote a book-length poem called “The Bridge” in 1930, admired Stella's painting so much that he hoped to use it as the opening image of his book."
+  },
+  {
+   "type": "text",
+   "text": "Stand on the walkway today and the view is cluttered with tourists and bicycles. But wait until dark, look up at the cables closing over your head, and you may see what an immigrant schoolteacher saw: not a way to get to work, but the cathedral of a new country."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which older kind of building does Stella's bridge most resemble?",
+   "options": [
+    "A Gothic cathedral",
+    "A Greek temple",
+    "A castle"
+   ],
+   "answer": 0,
+   "explanation": "The symmetry, pointed arches and glowing blues all borrow from the cathedral."
+  },
+  {
+   "question": "What does the lower half of the painting show?",
+   "options": [
+    "Boats on the East River",
+    "Crowds on the walkway",
+    "Tunnels and signal lights beneath the roadway"
+   ],
+   "answer": 2,
+   "explanation": "Below the middle line Stella paints the underground world of trains."
+  },
+  {
+   "question": "How did Stella know the bridge so well?",
+   "options": [
+    "He helped build it",
+    "He walked on it at night while living in Brooklyn",
+    "He only studied photographs of it"
+   ],
+   "answer": 1,
+   "explanation": "He lived in Brooklyn and spent nights alone on the walkway."
+  },
+  {
+   "question": "What do the black outlines around the blue areas recall?",
+   "options": [
+    "The lead strips of stained glass",
+    "Newspaper print",
+    "Musical notes"
+   ],
+   "answer": 0,
+   "explanation": "They hold the glowing colors the way lead holds pieces of colored glass."
+  },
+  {
+   "question": "Why is the painting at Yale?",
+   "options": [
+    "Stella taught there",
+    "Yale commissioned it",
+    "It came with the Société Anonyme collection given in 1941"
+   ],
+   "answer": 2,
+   "explanation": "Katherine Dreier's collection of modern art was given to the university."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The real Brooklyn Bridge has stone towers with pointed Gothic arches.",
+   "isTrue": true,
+   "explanation": "The bridge opened in 1883 with towers in the Gothic style, and Stella kept their arches."
+  },
+  {
+   "text": "Stella painted the Brooklyn Bridge only once.",
+   "isTrue": false,
+   "explanation": "He returned to it in 1922 and again in 1939."
+  },
+  {
+   "text": "The painting shows the bridge from a single, fixed viewpoint.",
+   "isTrue": false,
+   "explanation": "It combines the tower seen from the front with tunnels and cables seen from other positions."
+  }
+ ]
+}

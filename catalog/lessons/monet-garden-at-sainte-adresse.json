@@ -1,0 +1,359 @@
+{
+ "teaser": "A sunny family terrace where nobody speaks, built like a Japanese print.",
+ "focus": [
+  0.45,
+  0.6
+ ],
+ "review_notes": "Identification of the sitters follows the Met: Monet's father Adolphe seated at right; cousin Jeanne-Marguerite Lecadre standing with her father Dr. Adolphe Lecadre; seated woman perhaps Sophie Lecadre. All 'probably'.\nMonet later calling the picture his 'Chinese painting with flags': check wording.\nHokusai source print (Sazai Hall of the Temple of the Five Hundred Rakan) owned by Monet and still at Giverny.\nJean Monet born in Paris on August 8, 1867, while Monet was at Sainte-Adresse.\nEye trouble in summer 1867 and doctor's order to stop painting outdoors (letter to Bazille).\nShown at the fourth Impressionist exhibition, 1879.\nMet purchase in 1967 for about $1.4 million, then a record for Monet: confirm.\nThe meaning of the red and yellow flag is debated; the lesson does not identify it.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This painting says two opposite things at once. The path, the wicker chairs and the long shadows tell you there is room to stroll in. The fence, the sea and the sky tell you the reverse: they pile up one above the other like three strips of colored paper, flat as a poster."
+  },
+  {
+   "type": "lines",
+   "text": "See how the picture is assembled from straight bands and two masts.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.565
+      ],
+      [
+       0.66,
+       0.57
+      ]
+     ],
+     "closed": false,
+     "label": "The fence",
+     "text": "The first band, the garden, ends at this fence. Flowers and people are packed below it."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.365
+      ],
+      [
+       1.0,
+       0.365
+      ]
+     ],
+     "closed": false,
+     "label": "The horizon",
+     "text": "The second band is the sea, the third is the sky. The horizon sits high, which tips the water up like a wall."
+    },
+    {
+     "points": [
+      [
+       0.662,
+       0.08
+      ],
+      [
+       0.66,
+       0.63
+      ]
+     ],
+     "closed": false,
+     "label": "A flagpole",
+     "text": "Each pole stands in the garden but climbs through sea and sky. The two of them pin the three bands together, like stitches."
+    },
+    {
+     "points": [
+      [
+       0.98,
+       0.97
+      ],
+      [
+       0.7,
+       0.64
+      ]
+     ],
+     "closed": false,
+     "label": "The path",
+     "text": "The only strong diagonal. This edge of the gravel path is what tells your eye there is depth to walk into."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Monet did not invent this way of stacking space. In the 1860s Japanese woodblock prints were arriving in France, with their high viewpoints, flat color and bold cut-off shapes. Parisian painters were stunned by them. Monet later referred to this canvas as his “Chinese painting with flags,” at a time when people mixed up the two countries freely."
+  },
+  {
+   "type": "fact",
+   "text": "The likely model is a print by Hokusai showing people on a temple terrace gazing at Mount Fuji. Monet owned a copy. It still hangs in his house at Giverny, among the more than 200 Japanese prints he collected."
+  },
+  {
+   "type": "text",
+   "text": "He was 26 and painting his own relatives. The terrace belonged to his aunt, in Sainte-Adresse, a seaside suburb of the port of Le Havre where he had grown up. Meet the family."
+  },
+  {
+   "type": "tour",
+   "title": "Four relatives",
+   "text": "Four people share this terrace. See how each one is placed.",
+   "spots": [
+    {
+     "x": 0.73,
+     "y": 0.76,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The father",
+     "text": "The man in the straw hat is probably Adolphe Monet, the painter's father. He sits with his cane, turned away from us, watching the others.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.5,
+     "y": 0.77,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Under the parasol",
+     "text": "A woman, perhaps a cousin, shows us only her back. Her white parasol hides her head entirely. It is also the brightest patch of paint in the picture."
+    },
+    {
+     "x": 0.41,
+     "y": 0.55,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "The couple at the fence",
+     "text": "Probably Monet's cousin Jeanne-Marguerite with her father, a doctor. She holds a yellow parasol; he wears a top hat. They face each other but stand apart.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Not one face is turned toward us, and nobody seems to be talking. That stiffness may be a clue. The summer of 1867 was miserable for Monet. He was penniless and living on his family's charity, while in Paris his companion Camille was about to give birth to their son. His father disapproved of her and wanted him to walk away."
+  },
+  {
+   "type": "fact",
+   "text": "That same summer Monet's eyes gave out. A doctor ordered him to stop painting outdoors for a while, a frightening verdict for a young man who had staked everything on working in the open air."
+  },
+  {
+   "type": "text",
+   "text": "Now lift your eyes from the family to the water. Le Havre was one of the busiest ports in France, and Monet fills the horizon with traffic. It is a careful inventory of a moment when shipping was changing."
+  },
+  {
+   "type": "find",
+   "text": "Most of these ships use the wind. Find one that burns coal.",
+   "spots": [
+    {
+     "x": 0.62,
+     "y": 0.34,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "A steamer",
+     "text": "A trail of dark smoke drifts from a low steamship. There are more farther right. Side by side on one horizon: tall masts with sails, and the engines that were replacing them."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Sail and steam, old and new. The terrace has the same double character. Wicker armchairs, parasols and a trip to the coast were the pleasures of a newly comfortable middle class, brought to the sea by the railway. Monet is painting modern leisure, with modern industry puffing in the background."
+  },
+  {
+   "type": "text",
+   "text": "And he paints it in hard, bright sun. Indoors, in a studio, colors are softened by shade. Outdoors at noon they hit you. Monet wanted that shock on canvas, so he set pure colors next to each other with very little blending."
+  },
+  {
+   "type": "tour",
+   "title": "Sunlight in paint",
+   "text": "Four places where the brush gives you the weather.",
+   "spots": [
+    {
+     "x": 0.72,
+     "y": 0.15,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The tricolor",
+     "text": "The French flag is a few fat strokes of blue, white and red, bent by the wind. The folds are painted wet and fast, with no drawing underneath."
+    },
+    {
+     "x": 0.07,
+     "y": 0.52,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Gladioli",
+     "text": "Tall red flower spikes are stabbed in with single touches of vermilion, a bright orange-red, against dark green leaves.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.42,
+     "y": 0.92,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "Nasturtiums",
+     "text": "Dots of orange, yellow and red scattered over green. From a step back they turn into a flowerbed shimmering in the heat."
+    },
+    {
+     "x": 0.86,
+     "y": 0.93,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Chair shadows",
+     "text": "The shadows on the gravel are blue-gray, not black, and their edges are crisp. That sharpness tells you the sun is strong."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Seven years before the word Impressionism existed, Monet was already building a picture out of bright, separate touches of color and colored shadows."
+  },
+  {
+   "type": "text",
+   "text": "Still, compare this with his later, hazier work. The edges here are firm, the figures are solid, every flag and mast is clear. He is halfway between the careful finish expected in the 1860s and the freedom to come. He kept the canvas for twelve years before showing it, in 1879, at one of the Impressionists' group exhibitions."
+  },
+  {
+   "type": "fact",
+   "text": "In 1967 the Metropolitan Museum of Art bought the painting at a London auction for about 1.4 million dollars, at the time the highest price ever paid for a Monet."
+  },
+  {
+   "type": "text",
+   "text": "The picture rewards slow wandering, because Monet tucked small events into every band. Start at the fence and work out to sea."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.27,
+     "y": 0.45,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Fishing boat",
+     "text": "A dark-sailed boat passes close to shore. Its brown sails are the darkest notes on the water and make the sea around them look greener."
+    },
+    {
+     "x": 0.2,
+     "y": 0.14,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Red and yellow flag",
+     "text": "The second flag, in red and yellow, streams the same way as the tricolor. Both tell you a stiff breeze is blowing in from the left."
+    },
+    {
+     "x": 0.34,
+     "y": 0.8,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "The empty chair",
+     "text": "One wicker armchair is unoccupied and angled toward the sea. It leaves a seat free, right at the front of the picture."
+    },
+    {
+     "x": 0.745,
+     "y": 0.355,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Tall ship",
+     "text": "A large sailing vessel with several masts sits on the horizon, painted in tiny strokes of gray and white."
+    },
+    {
+     "x": 0.72,
+     "y": 0.53,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "The gate",
+     "text": "A red trellis gate closes the terrace, and a fence runs on to the right. Its warm color jumps forward against the cool sea."
+    },
+    {
+     "x": 0.55,
+     "y": 0.2,
+     "zoom": 2,
+     "r": 0.15,
+     "title": "The sky",
+     "text": "Long gray-white clouds are brushed in level streaks. They repeat the horizon and strengthen the flat, layered look."
+    },
+    {
+     "x": 0.9,
+     "y": 0.975,
+     "zoom": 3.5,
+     "r": 0.09,
+     "title": "Signature",
+     "text": "“Claude Monet,” in dark paint on the sunlit gravel."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So is it deep or flat? Both, and that is why it still looks fresh. And that empty chair, turned to the water, has been waiting since 1867 for someone to sit down and decide."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What kind of art inspired the stacked, flat bands of this composition?",
+   "options": [
+    "Japanese woodblock prints",
+    "Roman mosaics",
+    "Dutch still lifes"
+   ],
+   "answer": 0,
+   "explanation": "Monet collected Japanese prints, and a Hokusai is the likely model."
+  },
+  {
+   "question": "Who is the man in the straw hat probably?",
+   "options": [
+    "Monet himself",
+    "Monet's father",
+    "A local fisherman"
+   ],
+   "answer": 1,
+   "explanation": "He is thought to be Adolphe Monet, the painter's father."
+  },
+  {
+   "question": "What two kinds of ships share the horizon?",
+   "options": [
+    "Warships and rowboats",
+    "Canoes and ferries",
+    "Sailing ships and steamers"
+   ],
+   "answer": 2,
+   "explanation": "Monet shows sail and steam side by side off Le Havre."
+  },
+  {
+   "question": "What color are the shadows of the chairs on the gravel?",
+   "options": [
+    "Blue-gray",
+    "Black",
+    "Brown"
+   ],
+   "answer": 0,
+   "explanation": "Monet paints them blue-gray with crisp edges, a sign of strong sun."
+  },
+  {
+   "question": "When was the painting first shown to the public?",
+   "options": [
+    "In 1867, the year it was painted",
+    "In 1879, twelve years later",
+    "Only after Monet's death"
+   ],
+   "answer": 1,
+   "explanation": "Monet kept it for twelve years before showing it with the Impressionists."
+  },
+  {
+   "question": "What personal trouble weighed on Monet in the summer of 1867?",
+   "options": [
+    "He was about to be drafted",
+    "His house had burned down",
+    "He was broke and his father disapproved of his companion"
+   ],
+   "answer": 2,
+   "explanation": "He depended on his family while Camille, in Paris, was about to give birth."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Everyone on the terrace is looking out at the viewer.",
+   "isTrue": false,
+   "explanation": "No face is turned toward us; two figures show only their backs."
+  },
+  {
+   "text": "The horizon is placed high, which makes the sea look like a flat wall.",
+   "isTrue": true,
+   "explanation": "The high horizon stacks garden, sea and sky into three bands."
+  },
+  {
+   "text": "The Metropolitan Museum bought the painting in 1967 for a record price.",
+   "isTrue": true,
+   "explanation": "It paid about 1.4 million dollars, then the most ever paid for a Monet."
+  }
+ ]
+}

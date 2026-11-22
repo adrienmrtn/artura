@@ -1,0 +1,47 @@
+{
+  "teaser": "Seville's painters wanted its author banned. Visitors thought it was a statue.",
+  "focus": [0.5, 0.3],
+  "review_notes": "1630 guild dispute: the Seville painters' guild, with Alonso Cano among the complainants, demanded Zurbarán take the master's examination; he appealed to the city council, which supported him. Check details.\n1626 contract with the Dominicans of San Pablo el Real: 21 paintings in eight months for 4,000 reales.\nPalomino: the picture hung in a chapel behind a closed grille and was taken for sculpture.\nLight described as coming from the right (as the Art Institute describes it).\nSigned and dated 1627 on the painted paper at the foot of the cross; often called his earliest signed and dated work.\nFour nails follow Francisco Pacheco's argument.\nLater history: English Jesuit college at Canterbury, bought by the Art Institute of Chicago in 1954.\nSize about 290 x 165 cm.",
+  "lesson": [
+    {"type": "text", "text": "In 1630 the painters' guild of Seville tried to shut Francisco de Zurbarán out. He was an outsider from the countryside, they said, and he had never passed the city's examination for master painters. Either he sat the test or he stopped working. Zurbarán refused the test. The city council took his side."},
+    {"type": "text", "text": "The council had a reason, and you are looking at it. Three years earlier Zurbarán, then 28 and living in the small town of Llerena, had painted this Crucifixion for the Dominican friars of San Pablo in Seville. It was part of a job nobody envied: 21 pictures in eight months, for a modest fee."},
+    {"type": "text", "text": "The canvas is nearly 3 meters tall (about 9.5 feet), so the body is life-size. And it is alone. Other painters crowded the scene with a weeping mother, soldiers, a stormy sky, the hill of Golgotha. Zurbarán deletes all of it and leaves a man, a cross and blackness."},
+    {"type": "fact", "text": "The painting first hung in a dim chapel off the friary's sacristy, behind a closed iron grille. An early biographer, Antonio Palomino, reported that everyone who saw it there without being told took it for a sculpture."},
+    {"type": "text", "text": "That mistake was natural in Seville. The city loved life-size wooden Christs, carved, painted in flesh tones and carried through the streets at Easter. Zurbarán makes paint compete with wood. He does it with one hard light from the right and no soft transitions into the background. Travel down the figure and watch how solid each part becomes."},
+    {"type": "tour", "title": "A body you could walk around", "text": "From the plaque at the top down to the feet, everything is modeled as if lit by a single window.", "spots": [
+      {"x": 0.525, "y": 0.085, "zoom": 3.5, "r": 0.09, "title": "The plaque", "text": "The sign nailed above the cross gives the charge in three scripts, Hebrew, Greek and Latin: Jesus of Nazareth, King of the Jews. Even the two small nails holding it cast shadows."},
+      {"x": 0.47, "y": 0.27, "zoom": 3, "r": 0.11, "title": "The head", "text": "The head has dropped onto the right shoulder, eyes closed. No crown of thorns, almost no blood. Death has already come, and it looks like sleep."},
+      {"x": 0.54, "y": 0.5, "zoom": 2.4, "r": 0.17, "title": "The white cloth", "text": "The loincloth is the brightest thing in the picture. Its heavy, crumpled folds are painted with as much care as the body, and one end hangs free at the hip like real linen."},
+      {"x": 0.555, "y": 0.775, "zoom": 3.6, "r": 0.08, "title": "The feet", "text": "Each foot has its own nail and rests side by side on a wooden ledge. Thin trails of blood run toward the toes. Many painters crossed the feet and used one nail."}
+    ]},
+    {"type": "text", "text": "Those two nails in the feet were a statement. Francisco Pacheco, Seville's leading art theorist and the teacher of Velázquez, had argued at length that Christ was fixed with four nails, not three. Four nails also change the pose. With the feet apart on a support, the body does not twist. It hangs straight."},
+    {"type": "lines", "text": "That straightness gives the picture its strange quiet. Here is how it is built.", "lines": [
+      {"points": [[0.53, 0.12], [0.53, 0.98]], "closed": false, "label": "The post", "text": "The upright of the cross runs dead center from top to bottom. The picture is almost perfectly symmetrical, like an object placed on an altar."},
+      {"points": [[0.12, 0.165], [0.5, 0.3], [0.86, 0.14]], "closed": false, "label": "The arms", "text": "The arms make a wide V. The body has sunk under its own weight, and this sag is the only sign of how heavy it is."},
+      {"points": [[0.45, 0.25], [0.54, 0.43], [0.555, 0.78]], "closed": false, "label": "The lean", "text": "From the tilted head to the feet, the body bends in one slow curve to the left of the post. That small departure from the center keeps the figure human."}
+    ]},
+    {"type": "text", "text": "No scream, no struggle, no crowd. The friars who prepared for Mass in front of this picture were trained to meditate: to imagine a sacred scene so vividly that it seemed present in the room. Zurbarán gives them exactly that, a presence and silence around it."},
+    {"type": "key", "text": "Zurbarán's power comes from subtraction. Take away the story, the setting and the witnesses, light what remains like a statue, and the viewer is left alone with the subject."},
+    {"type": "text", "text": "He seems to have known this canvas would count. He signed it, and not in a corner with a quick scrawl. He invented a small object for his name and placed it inside the scene."},
+    {"type": "find", "text": "Somewhere on the cross, Zurbarán left his signature on a painted scrap. Where is it?", "spots": [
+      {"x": 0.515, "y": 0.932, "zoom": 4, "r": 0.05, "title": "The paper", "text": "A crumpled slip of white paper looks pinned to the foot of the post. On it he wrote his name and the year, 1627. It casts a shadow, like everything else here."}
+    ]},
+    {"type": "text", "text": "A painted note of this kind is a trick of the eye: it pretends to be a real piece of paper stuck onto the picture. Here it also works as a claim. On the very work that people mistook for carved wood, the painter reminds you that it is all paint, and whose."},
+    {"type": "fact", "text": "In 1629, two years after this picture, Seville's city council formally invited Zurbarán to move there with his family and workshop, arguing that painting was an ornament to the city. He accepted."},
+    {"type": "text", "text": "The friary of San Pablo lost its paintings in the upheavals of the 1800s, when French troops occupied Seville and Spain later closed its monasteries. The Crucifixion left the country and spent many years in a Jesuit college in England, little noticed. The Art Institute of Chicago bought it in 1954."},
+    {"type": "fact", "text": "One of the painters who signed the guild's complaint against Zurbarán was Alonso Cano, his exact contemporary, who became famous in his own right as a painter, sculptor and architect."},
+    {"type": "text", "text": "As far as anyone knows, Zurbarán never did take that examination. He went on to become the favorite painter of Spain's monasteries. The guild asked for a test piece, and it had been hanging behind a grille in San Pablo since 1627."}
+  ],
+  "quiz": [
+    {"question": "Why did Seville's painters' guild object to Zurbarán in 1630?", "options": ["He had copied another painter", "He had not passed the city's examination", "He charged too much"], "answer": 1, "explanation": "He was an outsider who had never taken the master's exam, and he refused to sit it."},
+    {"question": "What did early visitors think they were seeing behind the chapel grille?", "options": ["A sculpture", "A stained-glass window", "A mirror"], "answer": 0, "explanation": "Palomino reported that people took the painted figure for a carved one."},
+    {"question": "How many nails hold Christ in this painting?", "options": ["Three", "Five", "Four"], "answer": 2, "explanation": "Each foot has its own nail, following Pacheco's argument for four nails."},
+    {"question": "Where did Zurbarán put his signature?", "options": ["On the plaque above the cross", "On a painted scrap of paper at the foot of the cross", "On the white loincloth"], "answer": 1, "explanation": "A small crumpled paper near the bottom carries his name and the date 1627."},
+    {"question": "What is missing from this Crucifixion compared with most others?", "options": ["The cross", "The nails", "Any witnesses or landscape"], "answer": 2, "explanation": "Zurbarán removed the mourners, soldiers, sky and hill, leaving only the figure against black."}
+  ],
+  "facts": [
+    {"text": "The painting was made for a Dominican friary in Seville.", "isTrue": true, "explanation": "It was part of a commission of 21 pictures for the friars of San Pablo."},
+    {"text": "Zurbarán painted a stormy sky behind the cross.", "isTrue": false, "explanation": "The background is plain darkness, with no sky or landscape."},
+    {"text": "After this success, Zurbarán finally agreed to take the guild's exam.", "isTrue": false, "explanation": "He refused, and the city council backed him."}
+  ]
+}

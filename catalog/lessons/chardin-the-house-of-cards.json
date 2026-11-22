@@ -1,0 +1,46 @@
+{
+  "teaser": "A boy, a deck of cards and nothing else. Why is it so hard to look away?",
+  "focus": [0.42, 0.55],
+  "review_notes": "Chardin's lifetime output is usually estimated at a little over 200 paintings: check wording.\nFour painted versions of the House of Cards theme are generally counted (Washington, London, Paris, Waddesdon Manor).\nChardin's father was a master cabinetmaker who made billiard tables, including for the king.\nThe idea that the boy's apron marks him as a servant tidying up after a card party comes from museum commentary on this version: check.\nEighteenth-century French playing cards had plain backs and no corner numbers.\nThe moralizing verse comes from a print made after one of the versions (not necessarily this canvas).\nThe face card in the drawer reads as a jack of hearts.",
+  "lesson": [
+    {"type": "text", "text": "About 200. That is roughly how many paintings Jean Siméon Chardin finished in a working life of more than fifty years, an average of four a year. Other painters of his time turned out that many in a season. This boy and his cards took him weeks."},
+    {"type": "text", "text": "Why so slow? Chardin made almost no sketches. He set the model or the object in front of him and worked directly on the canvas, layer over layer, scraping and repainting until the tones sat right. A friend watching him could wait a long time between two brushstrokes."},
+    {"type": "fact", "text": "Game tables were family business. Chardin's father was a Paris cabinetmaker who specialized in billiard tables and supplied them to the king. The son grew up among green cloth and polished wood."},
+    {"type": "text", "text": "The table here is a card table covered in green baize, a felt-like wool. The adults' game is over. A boy has stayed behind and is standing the cards on edge, each one bent slightly down the middle so it will hold. Before you study him, check what the players left."},
+    {"type": "find", "text": "Only one card in the whole picture shows you its printed face. Where is it?", "spots": [
+      {"x": 0.17, "y": 0.865, "zoom": 3.2, "r": 0.07, "title": "The jack in the drawer", "text": "A court card with a red heart sticks out of the half-open drawer, next to a plain white one. A jack was also called a knave, a trickster: a small reminder of what cards are usually for."}
+    ]},
+    {"type": "text", "text": "And the white rectangle beside it? That is simply the back of a card. Playing cards of the 1700s had blank backs and no numbers in the corners. So the row the boy is building looks like a little white wall, with only a few red and black pips showing where a card faces us."},
+    {"type": "lines", "text": "With so little in the room, the picture has to hold together through its geometry.", "lines": [
+      {"points": [[0.47, 0.33], [0.3, 0.68]], "closed": false, "label": "His gaze", "text": "From the lowered eye to the card in his fingers. This slanted line is the whole drama. Nothing else in the picture moves."},
+      {"points": [[0.0, 0.84], [0.76, 0.84]], "closed": false, "label": "The table edge", "text": "A long, calm horizontal, level as a shelf. It is the steady thing against which the wobbly cards are measured."},
+      {"points": [[0.47, 0.22], [0.9, 0.72], [0.2, 0.72]], "closed": true, "label": "A solid triangle", "text": "Head, back and forearms make a broad pyramid. The boy is the stable structure in the picture. What he builds is not."},
+      {"points": [[0.1, 0.9], [0.47, 0.895], [0.47, 0.96]], "closed": false, "label": "The open drawer", "text": "The drawer juts out toward you, the only thing that breaks the flat front of the table. It nudges the scene into your space."}
+    ]},
+    {"type": "key", "text": "Chardin builds calm out of structure: a few big shapes, one diagonal, one long horizontal. The stillness you feel is engineered."},
+    {"type": "text", "text": "The background is a bare wall, yet it is not one flat color. It is brushed from greens, grays and browns that shift as the light fades to the right. Chardin spent as much care on this empty air as on the face, which is why the figure seems to sit in a real room."},
+    {"type": "explore", "spots": [
+      {"x": 0.5, "y": 0.36, "zoom": 2.8, "r": 0.1, "title": "The profile", "text": "A pure side view, like a head on a coin. One flushed cheek, lips pressed together. You cannot meet his eyes, so you watch what he watches."},
+      {"x": 0.31, "y": 0.7, "zoom": 3, "r": 0.09, "title": "Two hands", "text": "The left hand steadies the last card in the row while the right brings the next one, already bent. The fingers barely grip."},
+      {"x": 0.1, "y": 0.72, "zoom": 2.8, "r": 0.11, "title": "The row", "text": "Thick, creamy paint for each card, with red hearts and dark spades dabbed on top. The cards cast small shadows on the green cloth."},
+      {"x": 0.5, "y": 0.82, "zoom": 3.5, "r": 0.06, "title": "Coins and counters", "text": "A few round pieces lie forgotten on the baize, the stakes of the grown-ups' game. Money was on this table a moment ago."},
+      {"x": 0.76, "y": 0.29, "zoom": 2.8, "r": 0.08, "title": "The ribbon", "text": "A dark blue bow ties his hair at the back, the neatest and brightest touch in his outfit. Its cool blue answers the green of the table."},
+      {"x": 0.57, "y": 0.57, "zoom": 2.2, "r": 0.1, "title": "The apron", "text": "A gray-blue apron hangs from his neck over the brown coat. It may mean he is a young servant, sent to clear the table and distracted on the way."}
+    ]},
+    {"type": "fact", "text": "The subject sold. Chardin painted boys building card houses at least four times, with different models and poses, and prints spread the image further. One print carried a verse asking which is more solid: the child's castle or the plans of adults."},
+    {"type": "text", "text": "That verse gives the old moral. A house of cards is every human project, one breath from collapse. But Chardin does not paint the fall, or even a wobble. He paints the concentration, and treats it with complete respect."},
+    {"type": "key", "text": "A painter who needed weeks for one small canvas chose a boy lost in slow, careful, useless work. Is he smiling at the child, or recognizing himself?"}
+  ],
+  "quiz": [
+    {"question": "Roughly how many paintings did Chardin finish in his career?", "options": ["About 200", "About 2,000", "About 20"], "answer": 0, "explanation": "He averaged about four a year over more than fifty years."},
+    {"question": "Why is the card next to the jack plain white?", "options": ["It is unfinished", "It is a letter, not a card", "Cards then had blank backs"], "answer": 2, "explanation": "Playing cards of the 1700s had plain backs and no corner numbers."},
+    {"question": "What did Chardin's father make for a living?", "options": ["Playing cards", "Billiard tables", "Picture frames"], "answer": 1, "explanation": "He was a cabinetmaker who supplied billiard tables, including to the king."},
+    {"question": "How did Chardin usually work?", "options": ["From quick sketches made outdoors", "From memory, at great speed", "Directly on the canvas, slowly, with the model in front of him"], "answer": 2, "explanation": "He made almost no preparatory drawings and repainted until the tones were right."},
+    {"question": "What does a house of cards traditionally stand for?", "options": ["The fragility of human plans", "Victory in war", "A happy marriage"], "answer": 0, "explanation": "A print after the picture asked whether adult projects were any more solid."}
+  ],
+  "facts": [
+    {"text": "Chardin shows the card house at the moment it collapses.", "isTrue": false, "explanation": "Nothing falls; he paints the boy's concentration."},
+    {"text": "The boy is shown in strict profile.", "isTrue": true, "explanation": "We see him from the side, so we follow his gaze to the cards."},
+    {"text": "Chardin painted the theme of the card house only once.", "isTrue": false, "explanation": "He painted it at least four times."}
+  ]
+}

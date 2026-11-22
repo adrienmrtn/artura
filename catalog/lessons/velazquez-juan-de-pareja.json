@@ -1,0 +1,38 @@
+{
+  "teaser": "He stands like a lord. On the day this was painted, the law called him property.",
+  "focus": [0.45, 0.32],
+  "review_notes": "Pareja's birthplace (Antequera) and African descent through his mother: standard account, documents are thin.\nExhibition at the Pantheon on 19 March 1650 and the “truth” remark come from Palomino (1724), paraphrased here, as does the story of Pareja carrying the portrait to friends.\nFreedom document signed in Rome in November 1650, taking effect after four more years of service.\nThe small white touch at the elbow is described as shirt showing through a worn or torn sleeve: common reading, check.\nMet purchase in 1970 for about $5.5 million, then an auction record for a painting.\nPareja's self-portrait at the far left of his “Calling of Saint Matthew” (1661, Prado), holding a paper with his name.",
+  "lesson": [
+    {"type": "text", "text": "Everything in this portrait says “gentleman”. The half-turned stance, the arm folded across the waist, the steady look aimed slightly down at you: this is how dukes had themselves painted. But Juan de Pareja was not a duke. When he posed, in Rome in 1650, he was enslaved, and the man holding the brush was his owner."},
+    {"type": "text", "text": "Pareja was born in southern Spain, and his mother was probably of African descent. For years he had worked in Velázquez's studio in Madrid, grinding colors and preparing canvases. When the king sent Velázquez to Italy, Pareja traveled with him."},
+    {"type": "text", "text": "In Rome, Velázquez was about to paint the pope, and he wanted to get his hand in first. He needed a head to practice on, painted from life. He chose the person who knew his way of working better than anyone. What began as an exercise did not stay one."},
+    {"type": "tour", "title": "Three things he chose to show", "text": "The canvas is small, about 81 by 70 cm (32 by 28 inches), and nearly bare. Go where the paint is thickest.", "spots": [
+      {"x": 0.44, "y": 0.31, "zoom": 3.2, "r": 0.11, "title": "The face", "text": "Light falls on the forehead and the bridge of the nose and leaves the far cheek in shadow. The dark eyes meet yours without asking for anything. He looks neither humble nor defiant, simply present."},
+      {"x": 0.37, "y": 0.56, "zoom": 2.5, "r": 0.2, "title": "The collar", "text": "A wide white collar with a ragged lace edge, the single bright shape in the picture. It is done in fast, dry strokes that skip over the weave of the canvas, and it frames the head like a pedestal."},
+      {"x": 0.73, "y": 0.86, "zoom": 3, "r": 0.1, "title": "The hand", "text": "One hand rests at the waist, half sketched: a few warm strokes for knuckles, a darker one between the fingers. It holds the cloak closed, a gesture of self-possession."}
+    ]},
+    {"type": "text", "text": "Notice what is missing: color. Apart from the skin, the whole picture is gray, olive, black and white. No red curtain, no table, no view. Velázquez spends everything on one person and the air around him, and that air, a greenish gray brushed thin, makes the figure seem to stand a step in front of the wall."},
+    {"type": "fact", "text": "In March 1650 the portrait was hung in a public exhibition at the Pantheon, the ancient domed temple in Rome. An early biographer wrote that painters of every nation agreed the other pictures there looked like painting, and this one alone like truth."},
+    {"type": "text", "text": "The same writer tells a better story. Before the show, Velázquez sent Pareja to the houses of friends, carrying his own portrait. They looked from the canvas to the man at the door and back again, unsure which of the two they should speak to."},
+    {"type": "text", "text": "For all its dignity, the picture does not dress its sitter up as something he was not. His clothes are good but worn, and Velázquez left a small, honest sign of it."},
+    {"type": "find", "text": "Besides the collar, there is one other spot of white on his clothes. Where?", "spots": [
+      {"x": 0.27, "y": 0.905, "zoom": 4, "r": 0.05, "title": "The elbow", "text": "Low on the sleeve, a few dabs of white: his shirt showing through the dark cloth where the elbow has worn through. A lordly pose, and a jacket with a hole in it."}
+    ]},
+    {"type": "text", "text": "That hole and that lace are the whole picture in two details. Later that same year, still in Rome, Velázquez signed a paper granting Pareja his freedom, on condition that he serve four more years. No one knows whether the portrait's success played a part. It is hard to believe it did not."},
+    {"type": "text", "text": "Pareja used his freedom to paint. He worked in Madrid as an independent artist until his death in 1670. In his largest surviving canvas, a Bible scene now in the Prado, he put himself at the far left edge, looking out, holding a slip of paper with his own signature."},
+    {"type": "fact", "text": "When the Metropolitan Museum of Art bought this portrait at a London auction in 1970, it paid about 5.5 million dollars, more than had ever been bid for a painting at auction until then."},
+    {"type": "key", "text": "A portrait can grant what the world withholds. Velázquez gave an enslaved man the pose, the light and the attention reserved for the powerful, months before the law gave him anything."}
+  ],
+  "quiz": [
+    {"question": "Why did Velázquez paint Juan de Pareja in Rome?", "options": ["As practice before painting the pope", "Pareja paid him for it", "The Spanish king ordered it"], "answer": 0, "explanation": "He wanted to warm up with a head from life before his papal portrait."},
+    {"question": "What was Pareja's legal status when he posed?", "options": ["A free apprentice", "A Roman nobleman", "Enslaved, owned by Velázquez"], "answer": 2, "explanation": "He was enslaved and worked in Velázquez's studio."},
+    {"question": "What does the small white mark low on the sleeve show?", "options": ["A medal", "The shirt showing through a worn elbow", "A letter tucked in the sleeve"], "answer": 1, "explanation": "The white is his shirt, visible through a hole in the dark sleeve."},
+    {"question": "Where was the portrait first shown to the public?", "options": ["In the Prado", "In the Pantheon in Rome", "In the Vatican"], "answer": 1, "explanation": "It was exhibited at the Pantheon in March 1650."},
+    {"question": "What did Pareja do after he was freed?", "options": ["He became a painter in his own right", "He returned to Rome as a dealer", "He joined the army"], "answer": 0, "explanation": "He worked as an independent artist in Madrid until 1670."}
+  ],
+  "facts": [
+    {"text": "The portrait is painted with a rich range of reds and blues.", "isTrue": false, "explanation": "Apart from the skin, it uses almost only gray, olive, black and white."},
+    {"text": "Velázquez signed a document freeing Pareja in the same year he painted him.", "isTrue": true, "explanation": "The paper was signed in Rome in 1650, with four more years of service required."},
+    {"text": "Pareja was freed on the spot, with no conditions.", "isTrue": false, "explanation": "His freedom was to take effect only after four more years of service."}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "teaser": "A mountain-sized building site, hundreds of ant-sized workers, and a design that cannot stand.",
+  "focus": [0.52, 0.35],
+  "review_notes": "Size 114 x 155 cm, oil on oak, signed and dated 1563.\nKing traditionally identified as Nimrod (from Josephus, not named as builder in Genesis); kneeling on both knees as an 'Eastern' custom is a standard reading.\nBruegel's Italian journey about 1552-1554 and the Colosseum as model.\nStructural flaws (unfinished lower levels, apparent lean toward the city) are standard observations; the lean is subtle in this image.\nNicolaes Jonghelinck owned sixteen Bruegels and pledged them in 1566 as security for a friend's tax debt to the city of Antwerp.\nSecond version in Rotterdam (Museum Boijmans Van Beuningen); lost miniature on ivory mentioned in the inventory of Giulio Clovio.\n'About forty' surviving paintings, twelve in the Kunsthistorisches Museum, Vienna.\nFigures are tiny at this image resolution: spots point at groups and machines that are clearly distinguishable.",
+  "lesson": [
+    {"type": "text", "text": "What language would you shout in if the crane beside you started to slip? In this painting, thousands of workers are about to face that problem. For now they still understand each other. They haul, cut, lift and stack, and the tower climbs past the clouds. Pieter Bruegel paints the last good day on the building site."},
+    {"type": "text", "text": "The story takes only nine verses in the Book of Genesis. After the Flood, all people speak one language. They decide to build a city with a tower that reaches heaven, to make a name for themselves. God sees their pride, scrambles their speech into many languages and scatters them. The work stops, and the place is called Babel."},
+    {"type": "text", "text": "Bruegel painted his version in 1563 in Antwerp, on an oak panel 114 centimeters high and 155 wide (about 45 by 61 inches). That is not huge. But he fills it with hundreds of figures no bigger than grains of rice, so the tower reads as a mountain. Begin in the one corner where people are large enough to have faces."},
+    {"type": "tour", "title": "The royal visit", "text": "Bottom left, on a hill above the site: the man who ordered all this.", "spots": [
+      {"x": 0.195, "y": 0.85, "zoom": 3.2, "r": 0.05, "title": "The king", "text": "A crowned, bearded man in a long pale cloak, with armed guards at his back. Tradition names him Nimrod, the ruler who commanded the tower. He has come to inspect."},
+      {"x": 0.265, "y": 0.905, "zoom": 3.5, "r": 0.05, "title": "On their knees", "text": "A stonecutter drops to the ground in front of him, cap off beside him. Kneeling on both knees was seen as an Eastern custom: Bruegel's way of saying this is a distant tyrant."},
+      {"x": 0.05, "y": 0.92, "zoom": 3.0, "r": 0.07, "title": "Still working", "text": "Further left, men go on chiseling the big pale blocks. One sits with his back to the whole ceremony. The job is too large to stop for a visit."}
+    ]},
+    {"type": "text", "text": "The king is tiny next to his project, and his visit is only slowing it down. That is typical of Bruegel: the powerful man gets a corner and looks slightly ridiculous, while the real subject looms behind him. So what exactly did he order?"},
+    {"type": "fact", "text": "About ten years earlier Bruegel had traveled to Italy and seen the Colosseum in Rome. His tower borrows its stacked rings of arches. To Christians of his day the Colosseum was the ruin of a proud empire that had persecuted believers: a fitting model for a doomed building."},
+    {"type": "text", "text": "A Roman ruin, then, inflated to the scale of a mountain. But how do you make something feel that big on a panel smaller than a dining table? Bruegel uses two very simple devices, and both can be drawn."},
+    {"type": "lines", "text": "Two lines carry the whole illusion of size.", "lines": [
+      {"points": [[0.0, 0.36], [1.0, 0.355]], "closed": false, "label": "The horizon", "text": "Land and sea end here, about a third of the way down. We look from high up, like a bird. Everything above this line is tower against sky, taller than the weather."},
+      {"points": [[0.2, 0.63], [0.3, 0.13], [0.49, 0.02], [0.71, 0.09], [0.84, 0.62]], "closed": false, "label": "The outline", "text": "A stepped cone that fills most of the width and pushes right up to the top edge. Bruegel gives the tower almost no room in its own picture, so it seems about to burst the frame."}
+    ]},
+    {"type": "text", "text": "Now study the structure as an engineer would. Something is wrong. The outer skin of pale stone looks finished on the left, while on the right the red brick core lies open like a wound. Upper floors are going up before the lower ones are complete. And the whole spiral seems to sag a little toward the city."},
+    {"type": "key", "text": "Bruegel's tower does not need a thunderbolt from heaven. It is failing by design: too big, badly planned, built in the wrong order. Pride is the engineering flaw."},
+    {"type": "text", "text": "And yet the labor is painted with affection. Bruegel had clearly spent time on real building sites and docks. The machines are the real machines of the 1560s, drawn so accurately that historians of technology use the picture as evidence. One of them runs on legs."},
+    {"type": "find", "text": "Halfway up, on a ledge, a big dark crane is driven by men walking inside a wheel. Find it.", "spots": [
+      {"x": 0.705, "y": 0.475, "zoom": 3.5, "r": 0.05, "title": "The treadwheel crane", "text": "A dark timber crane with a large wheel in its side and an arm pointing up. Men tread inside the wheel, like hamsters, to wind the rope and lift a stone. Antwerp's harbor used cranes just like it."}
+    ]},
+    {"type": "text", "text": "A harbor crane, cargo ships, a town of gabled roofs: this is less Babylon than Bruegel's own city. In the 1560s Antwerp was one of the richest ports in Europe, growing fast and full of merchants from Italy, Spain, Portugal, Germany and England. A city of many tongues, building feverishly. His first viewers did not need the comparison spelled out."},
+    {"type": "fact", "text": "The first owner was Nicolaes Jonghelinck, an Antwerp banker who owned sixteen paintings by Bruegel. In 1566 he pledged the whole collection as security for a friend's unpaid taxes, and the list drawn up then is how we know the tower was his."},
+    {"type": "text", "text": "Bruegel returned to the subject more than once. A second, smaller Tower of Babel, darker and even more crowded, hangs in Rotterdam. An earlier one, painted in miniature on ivory during his stay in Rome, is lost. The theme of grand plans coming undone would not let him go. This panel rewards slow wandering, so take the site at your own pace."},
+    {"type": "explore", "spots": [
+      {"x": 0.47, "y": 0.07, "zoom": 2.6, "r": 0.09, "title": "Through the cloud", "text": "A white cloud drifts in front of the upper rings, with scaffolding poking out above it. The builders have reached the sky, just as they planned."},
+      {"x": 0.6, "y": 0.22, "zoom": 2.4, "r": 0.1, "title": "The brick core", "text": "Behind the stone facing, the inside is red brick: ring after ring of arches going deeper, like the chambers of a shell."},
+      {"x": 0.68, "y": 0.3, "zoom": 2.6, "r": 0.07, "title": "Living rock", "text": "A gray crag juts out through the masonry. The tower is wrapped around a natural mountain, and the builders have not yet covered it."},
+      {"x": 0.65, "y": 0.655, "zoom": 3.2, "r": 0.06, "title": "Moving in", "text": "Small houses with red roofs are wedged into the lower levels. People are already living in a building that is nowhere near finished."},
+      {"x": 0.74, "y": 0.655, "zoom": 3.2, "r": 0.05, "title": "A second wheel", "text": "Another hoist with a large wheel, mounted on a timber frame above the quay, lifts cargo from the waterside up to the first ramp."},
+      {"x": 0.94, "y": 0.68, "zoom": 2.6, "r": 0.08, "title": "The harbor", "text": "Sailing ships crowd the quay with their sails furled. Stone, brick and lime arrive by water, the cheapest way to move heavy loads."},
+      {"x": 0.1, "y": 0.52, "zoom": 2.2, "r": 0.11, "title": "The city", "text": "A sea of small gabled roofs, exactly like a Flemish town. Next to the tower its houses look like gravel."}
+    ]},
+    {"type": "fact", "text": "Only about forty paintings by Bruegel survive. Twelve of them, this one included, hang in a single museum in Vienna, thanks to the Habsburg emperors who collected him."},
+    {"type": "text", "text": "Go back to the first question. Bruegel never shows the moment the languages split. There is no lightning, no angel, no panic. He leaves you in the quiet afternoon before, with every worker still sure the plan makes sense. Which afternoon are we in?"}
+  ],
+  "quiz": [
+    {"question": "Which real building inspired the look of Bruegel's tower?", "options": ["The Colosseum in Rome", "The cathedral of Antwerp", "The pyramids of Egypt"], "answer": 0, "explanation": "Bruegel had seen the Colosseum on his trip to Italy and borrowed its rings of arches."},
+    {"question": "Where is the king in the painting?", "options": ["At the very top of the tower", "On a ship in the harbor", "In the bottom left corner, visiting the stonecutters"], "answer": 2, "explanation": "He stands small in the lower left corner while workers kneel before him."},
+    {"question": "How is the big crane on the ledge powered?", "options": ["By a water wheel", "By men walking inside a wheel", "By horses"], "answer": 1, "explanation": "It is a treadwheel crane, turned by people walking inside it."},
+    {"question": "What is wrong with the tower as a building?", "options": ["It is made entirely of wood", "It has no doors or windows", "Upper parts are being built before lower parts are finished"], "answer": 2, "explanation": "The construction is out of order, so the tower is failing by its own design."},
+    {"question": "Which city of Bruegel's time does the scene resemble?", "options": ["Rome", "Antwerp", "Vienna"], "answer": 1, "explanation": "The port, cranes and gabled houses recall booming, many-tongued Antwerp."}
+  ],
+  "facts": [
+    {"text": "Bruegel shows God striking the tower with lightning.", "isTrue": false, "explanation": "He paints the calm before the confusion: no lightning, no angels, no panic."},
+    {"text": "Bruegel painted the Tower of Babel more than once.", "isTrue": true, "explanation": "A smaller version hangs in Rotterdam and an early miniature on ivory is lost."},
+    {"text": "The panel is larger than a house wall, which is why the tower looks so big.", "isTrue": false, "explanation": "It is only 114 by 155 centimeters: the sense of size comes from the tiny figures and the high viewpoint."}
+  ]
+}

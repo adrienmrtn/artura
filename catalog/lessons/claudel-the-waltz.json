@@ -1,0 +1,38 @@
+{
+  "teaser": "A state inspector found these two dancers far too close, and asked her to dress them.",
+  "focus": [0.3, 0.25],
+  "review_notes": "The photo is a soft-focus, sepia art photograph of a bronze cast: only large areas could be placed, so the lesson has two interactive blocks and no fine details.\nArmand Dayot's 1892 inspection and his objections (nudity, closeness of the couple) are paraphrased, not quoted.\nThe state marble commission was never carried out: check wording.\nDebussy owning a cast and keeping it on his mantelpiece until his death: widely reported, check.\nWomen admitted to the École des Beaux-Arts in 1897.\nEugène Blot edition from 1905, small format (about 46 cm): check size.\nYear 1893 is the first Salon showing of the plaster; versions date from 1889 to 1905.",
+  "lesson": [
+    {"type": "text", "text": "The first person to judge this sculpture officially was a civil servant. In 1892 Camille Claudel, twenty-seven, asked the French state to order her dancing couple in marble. An arts inspector, Armand Dayot, came to her studio to see the plaster. At that stage the two dancers were entirely naked."},
+    {"type": "text", "text": "His report mixed admiration with alarm. He praised the skill and the movement. But he judged the bodies too real and too closely pressed together to be shown in public. His advice: clothe them, and the piece could be reconsidered."},
+    {"type": "fact", "text": "Dayot's unease had a context. Women were not admitted to France's national art school, the École des Beaux-Arts, until 1897, largely to keep them away from classes with nude models. A woman sculpting a naked embrace broke two rules at once."},
+    {"type": "text", "text": "Claudel could have refused. Instead she spent months on the problem and came back with an answer that was not really obedience. She left the man nude and the woman bare to the hips. Below, she added a long sweep of cloth. Trace it, and you see what she did with the order to cover up."},
+    {"type": "lines", "text": "Two movements run through the group.", "lines": [
+      {"points": [[0.2, 0.1], [0.36, 0.4], [0.52, 0.8]], "closed": false, "label": "The tilt", "text": "The couple leans far off the vertical, from the heads at upper left to the feet at lower right. Real dancers this far over would fall. They are caught at the tipping point of a turn."},
+      {"points": [[0.36, 0.42], [0.5, 0.56], [0.68, 0.7], [0.8, 0.84]], "closed": false, "label": "The train", "text": "The drapery streams away behind them like the train of a ball gown flung out by the spin. It is clothing only in name. Its real job is to show speed."},
+      {"points": [[0.52, 0.8], [0.3, 0.86], [0.2, 0.7], [0.3, 0.5]], "closed": false, "label": "The counterweight", "text": "At the bottom the cloth piles into a heavy mass. This is what physically props up the leaning bodies. The modesty Dayot asked for became the engineering."}
+    ]},
+    {"type": "text", "text": "So the cloth does two things the inspector never asked for. It makes the waltz turn, and it lets the figures lean further than bronze should allow. Claudel used a restriction as a tool, and the dance grew more dizzying with clothes than without."},
+    {"type": "key", "text": "The Waltz is built on lost balance. The couple is not posing in a dance step. They are falling together, and the sculpture holds them just before the fall."},
+    {"type": "text", "text": "Claudel had spent nearly ten years in Auguste Rodin's studio, as assistant, collaborator and lover, and their affair was coming apart as she worked on this. Her lovers are quieter than his. The feeling sits in three places where the bodies touch."},
+    {"type": "tour", "title": "Three points of contact", "text": "The photograph is soft, but the three places are clear enough.", "spots": [
+      {"x": 0.18, "y": 0.15, "zoom": 2.8, "r": 0.15, "title": "The heads", "text": "He bends down toward her neck. She lets her head drop against him, face turned away. No kiss, no look exchanged. Two people who have stopped watching the room."},
+      {"x": 0.6, "y": 0.32, "zoom": 3.2, "r": 0.08, "title": "The joined hands", "text": "The arms stretch out to the side and the hands meet at the far end, in the open-air grip of a ballroom waltz. It is the only formal, public gesture in the whole group."},
+      {"x": 0.42, "y": 0.36, "zoom": 3.0, "r": 0.1, "title": "The hand at her waist", "text": "His other hand rests on her side, fingers spread, just where the skin ends and the drapery begins. This hand is all that keeps her from sliding away."}
+    ]},
+    {"type": "text", "text": "The dressed version went on view at the Paris Salon of 1893 and was admired. The marble the state had dangled never followed. The Waltz survived another way: in small bronzes, around knee height or less, sold by dealers to private buyers for their homes."},
+    {"type": "fact", "text": "The composer Claude Debussy, a friend of Claudel's around 1890, owned a cast of The Waltz. He is said to have kept it on his mantelpiece until he died in 1918."},
+    {"type": "text", "text": "A sculpture refused as a public monument ended up on mantelpieces, close to people, at the scale of a private feeling. That may suit it better. Looking at the two dancers, would you say the cloth hides them, or gives them away?"}
+  ],
+  "quiz": [
+    {"question": "What did the state inspector ask Claudel to change?", "options": ["Make the group larger", "Clothe the naked dancers", "Replace the man with a second woman"], "answer": 1, "explanation": "He found the nude couple too real and too close, and advised her to dress them."},
+    {"question": "What does the drapery do in the final version?", "options": ["It shows the speed of the turn and props up the leaning bodies", "It hides both dancers completely", "It carries the artist's signature"], "answer": 0, "explanation": "The train suggests the spin, and its mass at the base supports the tilt."},
+    {"question": "How do the dancers stand?", "options": ["Perfectly upright", "Seated on a bench", "Leaning far off balance"], "answer": 2, "explanation": "The couple tilts as if about to fall, caught at the tipping point of the turn."},
+    {"question": "Which musician owned a cast of The Waltz?", "options": ["Claude Debussy", "Frédéric Chopin", "Johann Strauss"], "answer": 0, "explanation": "Debussy, a friend of Claudel's, is said to have kept it on his mantelpiece."}
+  ],
+  "facts": [
+    {"text": "In the first plaster seen by the inspector, both dancers were entirely naked.", "isTrue": true, "explanation": "The drapery was added afterward, in response to his report."},
+    {"text": "The dancers gaze into each other's eyes.", "isTrue": false, "explanation": "He bends toward her neck and her face is turned away. No look is exchanged."},
+    {"text": "After Claudel added the drapery, the state had the group carved in marble.", "isTrue": false, "explanation": "The marble never followed. The work spread through small bronze casts."}
+  ]
+}

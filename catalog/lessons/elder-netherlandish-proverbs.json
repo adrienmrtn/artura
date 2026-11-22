@@ -1,0 +1,352 @@
+{
+ "teaser": "A whole village where every single person is getting something wrong.",
+ "focus": [
+  0.47,
+  0.75
+ ],
+ "review_notes": "Number of proverbs: usually given as more than 100 (about 126 in common lists); the lesson says 'over a hundred'.\nFrans Hogenberg's proverb print 'The Blue Cloak' is dated about 1558 with roughly 40 sayings.\nAt least 16 copies from Pieter Brueghel the Younger's workshop is the usual figure; the lesson says 'more than a dozen'.\nBruegel changed his signature from Brueghel to Bruegel in 1559.\nMeanings of individual proverbs follow the standard identifications; wording of 16th-century sayings varies between sources.\nBerlin museums acquired the panel in 1914.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A man in a nightshirt, with a sword at his hip and only one shoe on, is running head first into a brick wall. He will lose. Nearby, someone shovels earth into a pit after the calf has already drowned in it. Someone else has dropped his porridge and is trying to scoop it back up. In this village, nobody succeeds at anything."
+  },
+  {
+   "type": "text",
+   "text": "That is the idea. Each little scene acts out a proverb, a short popular saying, and nearly every one is about a way of failing: being stubborn, too late, greedy, two-faced or just foolish. Bruegel squeezed over a hundred of them onto one oak panel about 117 by 163 cm (46 by 64 inches)."
+  },
+  {
+   "type": "find",
+   "text": "Start with the first failure. Where is the man banging his head against a brick wall?",
+   "spots": [
+    {
+     "x": 0.175,
+     "y": 0.85,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Head against the wall",
+     "text": "Bottom left, charging a wall that juts into the yard. English has kept this saying exactly. His half-armor and single shoe add a second jab: he is ready for a fight but not for the day."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "You understood that one without help, more than four centuries later and in another language. Others have traveled just as well. The armored man crouching a little higher up, hugging a cat, is “armed to the teeth” and trying to “bell the cat”: all that steel for a small, risky job."
+  },
+  {
+   "type": "fact",
+   "text": "Proverbs were a craze in the 1500s. The scholar Erasmus of Rotterdam published a collection of ancient sayings in 1500 and kept enlarging it all his life, until it held more than four thousand. Educated people collected proverbs the way others collect stamps."
+  },
+  {
+   "type": "text",
+   "text": "Bruegel was not the first to draw them. About a year earlier a printmaker, Frans Hogenberg, had sold an engraving with some forty proverbs scattered over a sheet. Bruegel's leap was to build one believable place, with a farmhouse, an inn, a river and a sea, where all the sayings happen at once like a normal afternoon."
+  },
+  {
+   "type": "tour",
+   "title": "Three you still say",
+   "text": "These sayings barely need translating.",
+   "spots": [
+    {
+     "x": 0.7,
+     "y": 0.44,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "Big fish, little fish",
+     "text": "In the river, a large fish swallows a smaller one. “Big fish eat little fish”: the powerful live off the weak. Bruegel had already designed a famous print on this theme."
+    },
+    {
+     "x": 0.61,
+     "y": 0.8,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Before swine",
+     "text": "A man in brown scatters flowers in front of pigs. The Dutch version says roses where English says pearls. Either way, good things are wasted on those who cannot value them."
+    },
+    {
+     "x": 0.8,
+     "y": 0.87,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Spilled porridge",
+     "text": "Kneeling by the table, he tries to spoon his porridge back off the ground. English cries over spilled milk. What is done cannot be undone."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Not every saying survived. Some need a guide, and those are the ones that show how differently people once spoke. The most important of them stands right in the middle, in the brightest colors of the picture, and it gave the painting its old name."
+  },
+  {
+   "type": "find",
+   "text": "A woman in a red dress is wrapping her husband in a hooded cloak. Find the couple.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.75,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The blue cloak",
+     "text": "To “hang a blue cloak” on your husband meant to cheat on him. Blue stood for deceit. For a long time the whole painting was simply called The Blue Cloak."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Deceit, then, sits at the center of the village. A second sign hangs on the farmhouse wall at far left: a globe with its cross pointing down. It is the emblem of a world turned upside down, where right and wrong have swapped places. Another old title for the picture was The Folly of the World."
+  },
+  {
+   "type": "key",
+   "text": "Bruegel does not preach or name a villain. He lays human foolishness out like a map and trusts you to recognize your neighbors, and yourself, somewhere on it."
+  },
+  {
+   "type": "fact",
+   "text": "1559 is also the year the painter changed his own name. Until then he signed “Brueghel”. From this point on he dropped the h and signed BRVEGEL in capital letters, and nobody knows why. His sons put the h back."
+  },
+  {
+   "type": "text",
+   "text": "The picture was a game from the start. Owners would have stood in front of it with guests, competing to name the sayings. To play it well you have to move in close, because some of the best jokes are tucked into corners, on the roof, or right at the edge."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.045,
+     "y": 0.88,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The devil on a pillow",
+     "text": "A fierce woman ties a devil down onto a cushion. She “could bind the devil himself to a pillow”: stubbornness beats everything."
+    },
+    {
+     "x": 0.17,
+     "y": 0.13,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "A roof of tarts",
+     "text": "The farmhouse is tiled with round pies. “The roof is covered with tarts” described a place of fantastic plenty, where food grows on houses."
+    },
+    {
+     "x": 0.055,
+     "y": 0.41,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The world upside down",
+     "text": "A blue globe with the cross underneath. This small sign tells you how to read the whole village."
+    },
+    {
+     "x": 0.51,
+     "y": 0.87,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Too late",
+     "text": "He fills in the pit after the calf has drowned in it. You can see the animal in the hole below his spade."
+    },
+    {
+     "x": 0.735,
+     "y": 0.63,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "A false beard for Christ",
+     "text": "A monk ties a beard of flax onto the seated Christ. The saying mocked those who hide trickery behind a show of piety."
+    },
+    {
+     "x": 0.69,
+     "y": 0.76,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "World on a thumb",
+     "text": "The dandy in the pink cape balances a globe on his thumb: everything turns his way. Under him another man crawls through a globe, because you must stoop to get on in the world."
+    },
+    {
+     "x": 0.535,
+     "y": 0.065,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "Cloak in the wind",
+     "text": "On top of the tower a man holds his cloak out to catch the breeze. He changes his opinions with the weather."
+    },
+    {
+     "x": 0.87,
+     "y": 0.85,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Between two loaves",
+     "text": "Stretched across the table, he cannot reach from one loaf to the next. He cannot make ends meet."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice what holds all this together. The figures are small and evenly spread, and you look down on them from above, so no one blocks anyone else. Reds and blues repeat across the panel like beats. Your eye hops from one to the next instead of settling."
+  },
+  {
+   "type": "fact",
+   "text": "Bruegel's elder son, Pieter the Younger, was about five when his father died. He built a career on repainting his father's hits, and his workshop turned out more than a dozen versions of this picture for buyers who wanted their own village of fools."
+  },
+  {
+   "type": "text",
+   "text": "The original went through private collections for centuries before the Berlin museums bought it in 1914. Researchers still argue over a few scenes, and lists of the proverbs do not all reach the same total."
+  },
+  {
+   "type": "lines",
+   "text": "One last look at the whole. Three places anchor the map.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.2
+      ],
+      [
+       0.13,
+       0.01
+      ],
+      [
+       0.42,
+       0.2
+      ],
+      [
+       0.3,
+       0.5
+      ],
+      [
+       0.0,
+       0.5
+      ]
+     ],
+     "closed": true,
+     "label": "The farmhouse",
+     "text": "Upper left: private life, cards, gossip at the windows. The upside-down globe hangs on this wall."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.1
+      ],
+      [
+       0.7,
+       0.1
+      ],
+      [
+       0.7,
+       0.42
+      ],
+      [
+       0.52,
+       0.42
+      ]
+     ],
+     "closed": true,
+     "label": "The tower",
+     "text": "Center top: people shouting into the wind and watching which way it blows. Opinion and rumor live up here."
+    },
+    {
+     "points": [
+      [
+       0.38,
+       0.62
+      ],
+      [
+       0.47,
+       0.75
+      ],
+      [
+       0.62,
+       0.8
+      ],
+      [
+       0.74,
+       0.63
+      ]
+     ],
+     "closed": false,
+     "label": "The street",
+     "text": "Across the middle: the blue cloak, the pigs, the false beard. Bruegel lines up his sharpest scenes about cheating where you cannot miss them."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "And the man at the wall? Bruegel has frozen him one step before impact. He has been about to hit those bricks since 1559, which may be the best illustration of the proverb anyone could ask for."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did hanging a blue cloak on your husband mean?",
+   "options": [
+    "Protecting him from the cold",
+    "Cheating on him",
+    "Making him a rich man"
+   ],
+   "answer": 1,
+   "explanation": "Blue stood for deceit, and the cloak marked the betrayed husband."
+  },
+  {
+   "question": "What does the globe with its cross pointing down stand for?",
+   "options": [
+    "A world turned upside down",
+    "A shop selling maps",
+    "The end of a voyage"
+   ],
+   "answer": 0,
+   "explanation": "It is the emblem of a topsy-turvy world where right and wrong are swapped."
+  },
+  {
+   "question": "What was new about Bruegel's version of the proverb theme?",
+   "options": [
+    "He was the first artist ever to illustrate a proverb",
+    "He wrote each saying under its scene",
+    "He set all the sayings in one believable village"
+   ],
+   "answer": 2,
+   "explanation": "An earlier print scattered them over a sheet; Bruegel built a single place."
+  },
+  {
+   "question": "Which animal replaces the “pearls” of the English saying about swine?",
+   "options": [
+    "None: the Dutch saying uses roses",
+    "Geese",
+    "Fish"
+   ],
+   "answer": 0,
+   "explanation": "The Dutch version casts roses before swine."
+  },
+  {
+   "question": "Who produced many later copies of the painting?",
+   "options": [
+    "Erasmus of Rotterdam",
+    "Frans Hogenberg",
+    "Bruegel's son Pieter the Younger"
+   ],
+   "answer": 2,
+   "explanation": "His workshop repainted his father's popular compositions."
+  },
+  {
+   "question": "What does the man filling a pit illustrate?",
+   "options": [
+    "Acting too late",
+    "Hiding stolen money",
+    "Working for free"
+   ],
+   "answer": 0,
+   "explanation": "He fills the pit after the calf has already drowned."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting was once known as The Blue Cloak.",
+   "isTrue": true,
+   "explanation": "The cheated husband's cloak at the center gave it that name."
+  },
+  {
+   "text": "Bruegel wrote the text of each proverb next to its scene.",
+   "isTrue": false,
+   "explanation": "There are no captions; viewers had to guess the sayings."
+  },
+  {
+   "text": "In 1559 Bruegel began signing his name without the letter h.",
+   "isTrue": true,
+   "explanation": "From that year he signed BRVEGEL instead of Brueghel."
+  }
+ ]
+}

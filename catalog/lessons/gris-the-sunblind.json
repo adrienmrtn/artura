@@ -1,0 +1,38 @@
+{
+  "teaser": "Two objects, a window blind, and a real newspaper glued on in the last summer of peace.",
+  "focus": [0.45, 0.5],
+  "review_notes": "Tate describes the work as gouache, paper collage, chalk and charcoal on canvas, 92.1 x 72.6 cm, purchased 1946: verify.\nWhich areas besides the newspaper are pasted paper (blue-gray glass, brown table) is judged from the image and Tate's description: verify.\nLe Socialiste identified as a local socialist paper from the Pyrenees region, linked to Gris's summer 1914 stay in Collioure: verify.\nBraque making the first papier colle in 1912 with wood-grain wallpaper bought in Avignon.\nGris's birth name José Victoriano González-Pérez.",
+  "lesson": [
+    {"type": "text", "text": "Two. That is the number of objects on this table: one glass and one newspaper. Above them hangs a slatted blind. Three things in all, in a picture nearly a meter tall (92 by 73 cm, about 36 by 29 in), and still your eye needs a while to sort out what is what."},
+    {"type": "text", "text": "The newspaper is easy, its name is printed on it. The blind is easy too, with its stripes and chains. The glass is the hard one. Juan Gris has taken it apart and laid the pieces flat, like a sewing pattern. Its biggest piece is a color you would not expect for glass."},
+    {"type": "find", "text": "Where is the wine glass? Tap the part of it that touches the table.", "spots": [
+      {"x": 0.47, "y": 0.7, "zoom": 2.2, "r": 0.11, "title": "The foot of the glass", "text": "The rounded bottom edge of the blue-gray shape is the base. Above it, the same flat color climbs to the top of the picture: the glass, stretched tall, with white chalk arcs marking its curved rim."}
+    ]},
+    {"type": "text", "text": "That blue-gray glass is a single cut-out. So is much of the brown table. This is papier collé, French for “pasted paper”: the artist cuts shapes from paper, glues them down, and draws or paints over and around them. The paper stands in for the object, and at the same time stays stubbornly, visibly paper."},
+    {"type": "fact", "text": "Pasted paper was two years old. In 1912 Georges Braque spotted a roll of wallpaper printed to look like oak in a shop in Avignon, bought it, and glued strips into a drawing. Picasso followed within weeks. By 1914 Gris was handling the technique with more precision than either of them."},
+    {"type": "text", "text": "Gris liked to mix the real and the faked in one picture and let you work out which is which. Here a genuine scrap of the day's news sits next to things that are only drawn. Four spots show how the mixture works."},
+    {"type": "tour", "title": "Real, drawn, pasted", "text": "From the top of the window down to the table.", "spots": [
+      {"x": 0.18, "y": 0.26, "zoom": 2.2, "r": 0.15, "title": "The blind", "text": "Brown and cream bands, each slat shaded so it seems to tilt. A beaded chain runs down through them. This is the most illusionistic part of the picture, the one place Gris wants to fool your eye."},
+      {"x": 0.2, "y": 0.68, "zoom": 2.2, "r": 0.16, "title": "Le Socialiste", "text": "A real newspaper, glued on at a slant. Newsprint browns with age, so it was much paler in 1914. A political paper is no accident in a summer when Europe was sliding toward war."},
+      {"x": 0.63, "y": 0.75, "zoom": 2.4, "r": 0.12, "title": "A shadow in charcoal", "text": "This dark, grainy patch is the shadow of the glass, rubbed straight onto the brown. An object made of flat paper cannot cast a shadow, yet Gris gives it one anyway."},
+      {"x": 0.12, "y": 0.56, "zoom": 2.6, "r": 0.1, "title": "Blue light", "text": "Dabs of bright blue and white, flicked on with a brush. They read as daylight leaking in around the blind and breaking up on the table."}
+    ]},
+    {"type": "text", "text": "Put those together and the scene has a temperature. The blind is down because it is hot. The room is dim and brown, the light outside is blinding, and it gets in only as stripes and blue sparks. For a picture built of scissors and glue, it is surprisingly good at saying “noon in the south.”"},
+    {"type": "key", "text": "Collage let Cubists stop imitating things and start assembling them. A piece of paper can be itself and a wine glass at once, and the pleasure lies in holding both ideas."},
+    {"type": "fact", "text": "Juan Gris was a made-up name. He was born José Victoriano González-Pérez in Madrid and renamed himself around the time he moved to Paris in 1906. Gris means “gray” in both Spanish and French, a modest choice for a painter who loved color."},
+    {"type": "text", "text": "The date under the signature, bottom left, reads 1914. Gris spent that summer in Collioure, a fishing town near the Spanish border, and the newspaper is thought to be a local one. In August the war began, his friends were called up, and the playful season of pasted paper was over almost at once."},
+    {"type": "text", "text": "The Tate bought The Sunblind in 1946, when few British collectors wanted Cubism. It is fragile: paper, glue, chalk and charcoal were never meant to last like oil paint. The newspaper keeps darkening, slowly, as every newspaper does. The headline of a single day in 1914 is still aging in front of you."}
+  ],
+  "quiz": [
+    {"question": "How many objects sit on the table in The Sunblind?", "options": ["Two: a glass and a newspaper", "Five, including a guitar", "None, it is abstract"], "answer": 0, "explanation": "Gris limits himself to a glass and a newspaper under a window blind."},
+    {"question": "What does “papier collé” mean?", "options": ["Painted wood", "Pasted paper", "Folded card"], "answer": 1, "explanation": "It is the French term for cutting and gluing paper into a picture."},
+    {"question": "Which part of the picture is a real printed object?", "options": ["The chain of the blind", "The shadow of the glass", "The newspaper Le Socialiste"], "answer": 2, "explanation": "An actual newspaper is glued onto the surface."},
+    {"question": "Who first glued wood-grain wallpaper into a drawing in 1912?", "options": ["Juan Gris", "Georges Braque", "Henri Matisse"], "answer": 1, "explanation": "Braque bought the fake-oak wallpaper in Avignon; Picasso and Gris followed."},
+    {"question": "What does the name “Gris” mean?", "options": ["Gray", "Glass", "Great"], "answer": 0, "explanation": "It means gray in Spanish and French, and was a name he chose himself."}
+  ],
+  "facts": [
+    {"text": "The glass in The Sunblind is shown as a flat blue-gray shape.", "isTrue": true, "explanation": "Its base rests on the table and the same flat color rises up the picture."},
+    {"text": "The newspaper in the picture looked browner in 1914 than it does today.", "isTrue": false, "explanation": "Newsprint darkens with age, so it was paler when Gris glued it on."},
+    {"text": "Juan Gris was the name on the artist's birth certificate.", "isTrue": false, "explanation": "He was born José Victoriano González-Pérez and adopted the name Gris."}
+  ]
+}

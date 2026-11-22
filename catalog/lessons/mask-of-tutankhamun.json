@@ -1,0 +1,323 @@
+{
+ "teaser": "Ten kilos of gold made for one viewer only: the gods who had to recognize a dead teenager.",
+ "focus": [
+  0.52,
+  0.3
+ ],
+ "review_notes": "LOCATION: the mask moved in 2025 from the Egyptian Museum in Tahrir, Cairo, to the Grand Egyptian Museum in Giza; the catalog museum may need updating.\nWeight 10.23 kg, height 54 cm.\nMask uncovered by Carter in October 1925; removed from the mummy with heated knives.\nBlue stripes of the headcloth are glass imitating lapis lazuli; eyes quartz and obsidian.\nBeard incident: detached in 2014, glued with epoxy, properly restored with beeswax in 2015.\nTheory that the mask was first made for another (female) ruler is Nicholas Reeves's and is disputed; worded as a theory.\nTutankhamun's age at death about 18 or 19; reign c. 1332-1323 BC.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "If you had to make a face that could never rot, crack or fade, what would you make it from? The Egyptians had an answer ready. Gold does not tarnish. It comes out of the ground shining and stays that way, so they called it the flesh of the gods."
+  },
+  {
+   "type": "text",
+   "text": "This mask is that idea carried out in full: 10.23 kilograms of gold, more than 22 pounds, beaten into the likeness of a king who died at about eighteen or nineteen, around 1323 BC. It is 54 centimeters tall, 21 inches, big enough to cover his head and shoulders."
+  },
+  {
+   "type": "text",
+   "text": "It was never a portrait for the living. It sat directly on the wrapped mummy, inside three nested coffins, a stone box and four gilded shrines. Its job was to give the dead king a face that would last, so that his spirit could find its way back to its body."
+  },
+  {
+   "type": "fact",
+   "text": "The mask is made of two sheets of gold hammered together, and the metal is not uniform. The face is a slightly paler alloy than the headcloth, perhaps to give the skin its own glow."
+  },
+  {
+   "type": "text",
+   "text": "Everything on it is a piece of royal equipment. The striped headcloth is the nemes, worn only by the pharaoh. And on the brow, two creatures stand guard where most Egyptian kings are shown with one."
+  },
+  {
+   "type": "find",
+   "text": "A rearing cobra is easy to spot on the forehead. Which other animal sits beside it?",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.135,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "A vulture",
+     "text": "To the left of the cobra, a vulture's head with a dark beak. The vulture stood for the south of Egypt and the cobra for the north. Together they say: lord of both halves of the country."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The cobra and the vulture are solid gold, with tiny inlays. Now move down to the face they protect. The gold is so reflective that it is hard to read as skin. What makes it a face is everything that is not gold."
+  },
+  {
+   "type": "tour",
+   "title": "What the gold is holding",
+   "text": "Three places where color does the work.",
+   "spots": [
+    {
+     "x": 0.52,
+     "y": 0.285,
+     "zoom": 2.8,
+     "r": 0.13,
+     "title": "The eyes",
+     "text": "White quartz for the eyeball, black obsidian, a volcanic glass, for the pupil. Brows and eye lines are deep blue lapis lazuli, a stone brought from what is now Afghanistan."
+    },
+    {
+     "x": 0.25,
+     "y": 0.4,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The stripes",
+     "text": "The blue bands of the headcloth look like lapis too, but they are glass colored to imitate it. Glass was a new luxury material then, and counted as precious."
+    },
+    {
+     "x": 0.535,
+     "y": 0.56,
+     "zoom": 2.4,
+     "r": 0.08,
+     "title": "The beard",
+     "text": "A plaited tube of gold and dark blue inlay, curling forward at the tip. This is the beard of the gods, not of living kings, whose false beards were straight. It marks him as already divine.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That curled beard points to one god in particular: Osiris, ruler of the dead, who was murdered and came back to life. Every pharaoh hoped to become Osiris at death. The mask shows Tutankhamun after the change, serene and beyond harm."
+  },
+  {
+   "type": "fact",
+   "text": "The beard came off in 2014 when museum staff were working on the display case. It was hurriedly stuck back with epoxy glue, which left a visible ring. A year later conservators removed the glue and reattached it with beeswax, the adhesive the ancient goldsmiths had used."
+  },
+  {
+   "type": "text",
+   "text": "Not much of his own life matched this calm. Tutankhamun became king at about nine, after his father Akhenaten had overturned the old religion. The boy's advisers restored the old gods. He ruled roughly ten years, left no surviving heir, and was buried in a small tomb, in a hurry."
+  },
+  {
+   "type": "text",
+   "text": "That hurry may have left a mark on the mask itself. Some of the objects in the tomb were secondhand, made for earlier royals and relabeled. One British Egyptologist has argued the mask was among them. His main clue is on the sides of the head."
+  },
+  {
+   "type": "lines",
+   "text": "Three things frame the face and tell you how to read it.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.2,
+       0.29
+      ],
+      [
+       0.335,
+       0.355
+      ]
+     ],
+     "closed": false,
+     "label": "A pierced ear",
+     "text": "Each earlobe has a hole for an earring. In Egyptian art grown kings rarely show them, while women and children do. For some, that hints at a mask begun for a queen. Others answer: he died young."
+    },
+    {
+     "points": [
+      [
+       0.29,
+       0.2
+      ],
+      [
+       0.11,
+       0.48
+      ],
+      [
+       0.24,
+       0.5
+      ],
+      [
+       0.26,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The headcloth",
+     "text": "The nemes spreads wide at the temples, then drops in two straight lappets onto the chest. It works like a picture frame, pushing the small face forward."
+    },
+    {
+     "points": [
+      [
+       0.11,
+       0.62
+      ],
+      [
+       0.2,
+       0.82
+      ],
+      [
+       0.5,
+       0.9
+      ],
+      [
+       0.82,
+       0.82
+      ],
+      [
+       0.93,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The collar",
+     "text": "A dozen curved rows of stone and glass run from shoulder to shoulder. At each end, on the shoulders, the collar closes with a small falcon's head."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Whoever it was first meant for, the mask did its work unseen for about 3,250 years. Robbers got into the tomb twice in antiquity but never reached the burial chamber's inner coffins. Later, rubble from another tomb buried the entrance, and it was forgotten."
+  },
+  {
+   "type": "fact",
+   "text": "Howard Carter found the tomb's first step in November 1922, but he did not see the mask until October 1925. It took him that long to work through the shrines and coffins around it."
+  },
+  {
+   "type": "text",
+   "text": "Getting it off was brutal. The resins poured over the mummy at the funeral had set like tar and glued the mask to the head. Carter's team ended up using heated knives to free it, damaging the body in the process."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.555,
+     "y": 0.115,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The cobra",
+     "text": "Hood spread, ready to strike. Its body is inlaid in bands of blue, red and turquoise, and it coils back over the top of the head."
+    },
+    {
+     "x": 0.515,
+     "y": 0.39,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "The mouth",
+     "text": "Full lips with softly sagging corners, a family feature shared with other portraits from his father's reign. One of the few parts that seems personal."
+    },
+    {
+     "x": 0.16,
+     "y": 0.56,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "A falcon's head",
+     "text": "The end of the collar, on the shoulder. The falcon is Horus, the god every living king embodied. There is a twin on the other side."
+    },
+    {
+     "x": 0.53,
+     "y": 0.75,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Rows of the collar",
+     "text": "Dark blue, red brown and turquoise bars set in thin gold cells, one by one. The technique is called cloisonné: each piece sits in its own little walled compartment."
+    },
+    {
+     "x": 0.7,
+     "y": 0.33,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The left ear",
+     "text": "The hole in the lobe is clear here. When found, both holes were covered with small disks of gold foil."
+    },
+    {
+     "x": 0.52,
+     "y": 0.94,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "The outer edge",
+     "text": "The last row is a fringe of drop-shaped beads. Below it, the gold edge is uneven: the mask ends where the mummy's wrapped chest began."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "On the back and shoulders, where you cannot see in this photograph, lines of hieroglyphs carry a spell. It names each part of the face and hands it to a god for safekeeping: your right eye is the night boat of the sun, your left eye is the day boat, and so on."
+  },
+  {
+   "type": "key",
+   "text": "The mask was not built to be admired. It was a working object: gold so the face would never decay, symbols so the gods would know a king, a spell so nothing could be taken from him."
+  },
+  {
+   "type": "text",
+   "text": "Millions of people have now looked at a thing designed for none of them. In 2025 it left the old museum in central Cairo for a new one beside the pyramids of Giza. It is still doing the one job nobody planned for it: keeping an obscure young king's name alive."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why did Egyptians choose gold for the mask?",
+   "options": [
+    "It was the cheapest metal",
+    "It never tarnishes, and they called it the flesh of the gods",
+    "It was easy to paint"
+   ],
+   "answer": 1,
+   "explanation": "Gold's permanence made it the fitting material for an eternal face."
+  },
+  {
+   "question": "Which two animals guard the forehead?",
+   "options": [
+    "A cobra and a vulture",
+    "A lion and a falcon",
+    "A scarab and a cat"
+   ],
+   "answer": 0,
+   "explanation": "They stand for northern and southern Egypt."
+  },
+  {
+   "question": "What are the blue stripes of the headcloth made of?",
+   "options": [
+    "Lapis lazuli",
+    "Paint",
+    "Glass imitating lapis lazuli"
+   ],
+   "answer": 2,
+   "explanation": "Colored glass was a new and precious material at the time."
+  },
+  {
+   "question": "What does the curled, plaited beard indicate?",
+   "options": [
+    "That he was an old man",
+    "That he is shown as a god, like Osiris",
+    "That he was a soldier"
+   ],
+   "answer": 1,
+   "explanation": "Living kings wore straight false beards; the curled one belongs to gods."
+  },
+  {
+   "question": "How was the beard correctly reattached in 2015?",
+   "options": [
+    "With beeswax",
+    "With gold solder",
+    "With epoxy glue"
+   ],
+   "answer": 0,
+   "explanation": "Conservators removed the epoxy and used beeswax, as the ancient goldsmiths had."
+  },
+  {
+   "question": "What feature has led one scholar to suggest the mask was begun for someone else?",
+   "options": [
+    "The shape of the nose",
+    "The pierced ears",
+    "The color of the eyes"
+   ],
+   "answer": 1,
+   "explanation": "Pierced lobes are rare on images of grown kings and common on women and children."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Howard Carter saw the mask the same day he found the tomb.",
+   "isTrue": false,
+   "explanation": "The tomb was found in November 1922, the mask only in October 1925."
+  },
+  {
+   "text": "The mask weighs a little over 10 kilograms.",
+   "isTrue": true,
+   "explanation": "It contains 10.23 kilograms of gold, more than 22 pounds."
+  },
+  {
+   "text": "The mask was made to be displayed in a temple for worshippers.",
+   "isTrue": false,
+   "explanation": "It lay on the mummy, hidden inside coffins and shrines."
+  }
+ ]
+}

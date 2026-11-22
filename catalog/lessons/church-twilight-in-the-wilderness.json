@@ -1,0 +1,225 @@
+{
+ "teaser": "A sky on fire, a lake, a forest, and not one human being.",
+ "focus": [
+  0.47,
+  0.6
+ ],
+ "review_notes": "Size about 101.6 x 162.6 cm (40 x 64 in).\nBased on sketches from Maine (Mount Katahdin region and Mount Desert Island); a composite, not one site.\nRole of new cadmium-based yellows and oranges in Church's sunset palette is commonly stated; check wording.\nThe bird on the dead tree at upper left is tiny in this image (around x 0.04, y 0.49).\nReading the picture as an omen of the Civil War is a later interpretation, not a documented statement by Church.\nCleveland Museum of Art acquired it in 1965.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Zero. That is how many people are in this painting. Also zero cabins, boats, paths, fences or wisps of chimney smoke. In 1860, American landscapes nearly always included some sign that a human had been there, even if it was just an ax-cut stump. Frederic Church removed every one."
+  },
+  {
+   "type": "text",
+   "text": "What remains is a lake between wooded hills at the last minute of sunset. The sun itself has already dropped behind the ridge. Its light shoots upward from below the horizon and sets the underside of the clouds burning red, while the land sinks into near black."
+  },
+  {
+   "type": "text",
+   "text": "The title says wilderness, and Church knew a real one. For years he had spent summers in Maine, hiking and sketching around Mount Katahdin and along the coast. The painting is not a portrait of one lake, though. He built it in his New York studio from many small oil sketches of skies and trees."
+  },
+  {
+   "type": "fact",
+   "text": "Church had a habit of dashing outside with paints at sunset. His sky studies were done in minutes on small pieces of board, because a cloud's color can change completely in the time it takes to mix it."
+  },
+  {
+   "type": "text",
+   "text": "He did leave one living thing in the picture. It is far smaller than you would expect in a canvas more than a meter and a half wide (about 64 inches)."
+  },
+  {
+   "type": "find",
+   "text": "A single bird is perched somewhere in this landscape, watching the sunset with you. Where?",
+   "spots": [
+    {
+     "x": 0.04,
+     "y": 0.49,
+     "zoom": 4.5,
+     "r": 0.04,
+     "title": "The lookout",
+     "text": "At the far left, on the very tip of a dead tree, sits a tiny dark bird. It is the only witness inside the picture, and it faces the same way you do.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "With that bird, the emptiness becomes something watched, and you are watching from a rocky ledge on the right, high above the water. Now turn to what takes up two thirds of the canvas: the sky. It looks wild, but it is strictly organized."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines hold this sunset together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.27,
+       0.41
+      ],
+      [
+       0.4,
+       0.25
+      ],
+      [
+       0.56,
+       0.06
+      ]
+     ],
+     "closed": false,
+     "label": "The red diagonal",
+     "text": "The clouds lie in long parallel bands that slant up toward the right. Seen from below, such bands seem to fan out from the spot where the sun went down, and they pull your eye back to it."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.58
+      ],
+      [
+       0.1,
+       0.61
+      ],
+      [
+       0.22,
+       0.65
+      ],
+      [
+       0.32,
+       0.63
+      ],
+      [
+       0.42,
+       0.67
+      ],
+      [
+       0.52,
+       0.67
+      ],
+      [
+       0.62,
+       0.68
+      ],
+      [
+       0.75,
+       0.64
+      ],
+      [
+       1.0,
+       0.62
+      ]
+     ],
+     "closed": false,
+     "label": "The dark horizon",
+     "text": "The hills are a flat silhouette, almost without detail. Against them the yellow gap at the center looks far brighter than any paint really is."
+    },
+    {
+     "points": [
+      [
+       0.48,
+       0.64
+      ],
+      [
+       0.44,
+       0.78
+      ],
+      [
+       0.4,
+       0.92
+      ]
+     ],
+     "closed": false,
+     "label": "The echo in the lake",
+     "text": "The red of the sky comes down a second time in the water. The lake works as a mirror placed in the dark half of the picture, so the glow is not trapped at the top."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice the colors he places beside the red: slivers of cold blue-green sky at the upper left and right. Red and green are opposites, and each makes the other look stronger. Without those cool patches the sky would turn muddy."
+  },
+  {
+   "type": "fact",
+   "text": "Reds and oranges this strong were partly a gift of chemistry. In Church's lifetime, color makers put new metal-based pigments on the market, including brilliant cadmium yellows and oranges that earlier painters never had."
+  },
+  {
+   "type": "key",
+   "text": "The drama here comes from contrast and not from added events. Church set a very bright sky against a nearly black, silent land and put nothing between them."
+  },
+  {
+   "type": "text",
+   "text": "The painting was shown in New York in 1860 and admired at once. Within a year the United States was at war with itself. Many later viewers have read that blood-red sky as a warning, as if the country's untouched Eden were seeing its last calm evening."
+  },
+  {
+   "type": "text",
+   "text": "Did Church intend that? He left no statement saying so. He may simply have wanted the most intense sunset ever put on canvas. Standing in front of it, you get to decide which painting you see: a quiet evening or the edge of a storm."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is missing from this landscape, unusually for 1860?",
+   "options": [
+    "Any trace of human beings",
+    "Any water",
+    "Any trees"
+   ],
+   "answer": 0,
+   "explanation": "There are no people, buildings, boats or paths at all."
+  },
+  {
+   "question": "Where is the sun in the picture?",
+   "options": [
+    "High above the clouds",
+    "Reflected in the lake",
+    "Already below the horizon, lighting the clouds from underneath"
+   ],
+   "answer": 2,
+   "explanation": "The sun has set behind the ridge and its light strikes the clouds from below."
+  },
+  {
+   "question": "How did Church make the red clouds look even more intense?",
+   "options": [
+    "He added gold leaf",
+    "He set patches of cool blue-green sky next to them",
+    "He varnished only the sky"
+   ],
+   "answer": 1,
+   "explanation": "Red and green are opposites and strengthen each other."
+  },
+  {
+   "question": "Which region inspired the scenery?",
+   "options": [
+    "The Rocky Mountains",
+    "The Andes",
+    "The woods and lakes of Maine"
+   ],
+   "answer": 2,
+   "explanation": "Church sketched for years in Maine, around Mount Katahdin and the coast."
+  },
+  {
+   "question": "What is the only living creature shown?",
+   "options": [
+    "A small bird on a dead tree",
+    "A deer at the water's edge",
+    "A fisherman in a canoe"
+   ],
+   "answer": 0,
+   "explanation": "A tiny bird sits on top of the bare tree at the far left."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Church painted this view on the spot, in a single evening, beside a Maine lake.",
+   "isTrue": false,
+   "explanation": "He composed it in his New York studio from many quick outdoor sketches."
+  },
+  {
+   "text": "The lake repeats the red of the sky in the darker lower half of the painting.",
+   "isTrue": true,
+   "explanation": "The water acts as a mirror that carries the glow downward."
+  },
+  {
+   "text": "Church wrote that the painting was a prophecy of the Civil War.",
+   "isTrue": false,
+   "explanation": "That reading came from later viewers; he left no such statement."
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "teaser": "No shore, no sky, no horizon: just two people and a wall of blue.",
+ "focus": [0.5, 0.3],
+ "review_notes": "Mary Cassatt's The Boating Party (1893-94, National Gallery of Art) as a response to this painting; her advice to the Havemeyers and the phrase 'the last word in painting' (reported by Louisine Havemeyer).\nMan usually identified as Rodolphe Leenhoff, Manet's brother-in-law; woman unidentified.\nPainted summer 1874 at Gennevilliers; shown at the Salon of 1879.\nMet: technical study shows the man first held the rope in his right hand.\nSome 1879 critics objected to the intensity of the blue water.\nHavemeyer bequest to the Met, 1929.",
+ "lesson": [
+  {"type":"text","text":"About twenty years after this picture, the American painter Mary Cassatt made one of her most famous canvases: a man seen from close up steering a small boat, a woman facing him, bright water rising to the top of the frame. She called it The Boating Party. She had seen the idea before, and she knew exactly where."},
+  {"type":"text","text":"Here is the source. Manet painted it in the summer of 1874, on the Seine just outside Paris, where his family had a house. Across the river lived Claude Monet, twelve years younger, who worked outdoors every day and kept telling Manet to try it."},
+  {"type":"text","text":"Manet was a studio painter, famous for blacks and grays. That summer he gave in. He lightened his colors, took up a sunny subject, and came back with something even his young friends had not done. To see what, ask a simple question: where does the water stop?"},
+  {"type":"lines","text":"Search for the far bank. Then see how the picture is fenced in.","lines":[
+   {"points":[[0.02,0.03],[0.98,0.03]],"closed":false,"label":"No horizon","text":"The river climbs all the way to the top edge. No shore, no sky. Manet looks down into the boat from above, so water becomes a flat blue backdrop."},
+   {"points":[[0.8,0.03],[0.99,0.37]],"closed":false,"label":"A sail, sliced","text":"The boom and sail are cut off by the frame. We are told there is a sail without being shown it, as in a snapshot."},
+   {"points":[[0.05,0.72],[0.3,0.52],[0.7,0.52],[0.99,0.68]],"closed":false,"label":"Half a boat","text":"The hull curves in from the left and runs out of the right side. The frame cannot hold it. You feel you are sitting aboard, a step from the couple."}
+  ]},
+  {"type":"text","text":"High viewpoint, flat color, objects chopped by the border: these tricks came from Japanese woodblock prints, which had been pouring into Paris since the 1860s and which Manet collected. European painting had always tucked its scenes neatly inside the frame. The prints showed him he could cut."},
+  {"type":"fact","text":"The man is usually said to be Rodolphe Leenhoff, the brother of Manet's wife. His white shirt, white flannel trousers and straw boater with a blue band were the weekend outfit of boating clubs along the Seine."},
+  {"type":"key","text":"Cropping is a choice. By leaving out the horizon and slicing the boat, Manet turns a pleasant outing into something sudden and close, like a glance."},
+  {"type":"text","text":"Now the paint itself. Manet does not treat every part of the canvas the same way. He saves his sharpest drawing for one face and lets the rest dissolve into strokes, as if your eye had time to focus on only one thing."},
+  {"type":"tour","title":"Sharp and loose","text":"Three surfaces, three speeds of brush.","spots":[
+   {"x":0.5,"y":0.2,"zoom":3,"r":0.09,"title":"The helmsman","text":"Tanned skin, blond mustache, eyes fixed on us from under the hat's shadow. This is the most finished patch of the painting, and the only gaze that meets yours."},
+   {"x":0.24,"y":0.68,"zoom":2.2,"r":0.15,"title":"A striped dress","text":"Up close the dress is a storm of blue, violet and white dashes. Manet does not draw the fabric. He lets quick strokes flicker the way sunlit cotton does."},
+   {"x":0.24,"y":0.5,"zoom":3.2,"r":0.08,"title":"Behind a veil","text":"Her profile is blurred by a thin veil tied over her hat, painted as a few pale streaks across the cheek. She looks out at the river, not at him and not at us."},
+   {"x":0.86,"y":0.5,"zoom":2.4,"r":0.1,"title":"The rope","text":"A single line drops from the boom to the hull. Study of the canvas shows Manet first put this rope in the man's right hand, then changed his mind and left the hand resting empty."}
+  ]},
+  {"type":"text","text":"He held the picture back for five years, then sent it to the official Paris exhibition of 1879. Reviewers argued about the blue. Too strong, some said, a wall of color with no depth. A few understood that this was the point."},
+  {"type":"fact","text":"Mary Cassatt urged her friends the Havemeyers, wealthy New York collectors, to buy the painting, reportedly calling it “the last word in painting.” They did, and it reached the Metropolitan Museum with their bequest in 1929."},
+  {"type":"text","text":"So the echo runs both ways. Cassatt borrowed the composition for her own boat, and she also made sure the original crossed the ocean. One question stays open, and Manet never answered it: the man looks at us as if we had just spoken. What did we say?"}
+ ],
+ "quiz": [
+  {"question":"What is missing from the top of this painting?","options":["The man's hat","A horizon and sky","The signature"],"answer":1,"explanation":"The water rises to the top edge with no shore or sky."},
+  {"question":"Where did Manet find the idea of cutting objects with the frame?","options":["Japanese woodblock prints","Ancient Roman mosaics","Dutch still lifes"],"answer":0,"explanation":"Japanese prints, which he collected, used high viewpoints and bold cropping."},
+  {"question":"Which part of the picture is painted most precisely?","options":["The woman's dress","The sail","The man's face"],"answer":2,"explanation":"The helmsman's face is the most finished area; the dress is loose strokes."},
+  {"question":"What did Manet change while painting?","options":["He removed a third passenger","He moved the rope out of the man's right hand","He repainted the water green"],"answer":1,"explanation":"The rope was first held in the man's right hand."},
+  {"question":"Which later painter echoed this composition and helped it reach America?","options":["Mary Cassatt","Georgia O'Keeffe","Winslow Homer"],"answer":0,"explanation":"Cassatt painted The Boating Party and urged the Havemeyers to buy Manet's canvas."}
+ ],
+ "facts": [
+  {"text":"Manet showed Boating to the public the same summer he painted it.","isTrue":false,"explanation":"He painted it in 1874 and exhibited it only in 1879."},
+  {"text":"The woman in the boat looks directly at the viewer.","isTrue":false,"explanation":"She is in profile behind a veil, looking at the river; only the man looks at us."},
+  {"text":"Claude Monet lived nearby and encouraged Manet to paint outdoors.","isTrue":true,"explanation":"Monet lived across the river that summer and pushed Manet toward open-air painting."}
+ ]
+}

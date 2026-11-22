@@ -1,0 +1,367 @@
+{
+ "teaser": "Bellini painted the gods. Titian painted the mountain. One canvas, two geniuses, fifteen years apart.",
+ "focus": [
+  0.5,
+  0.68
+ ],
+ "review_notes": "Signed and dated 1514 on the cartellino on the wooden tub at lower right; Bellini died in 1516.\nStory from Ovid's Fasti: Priapus and the sleeping nymph Lotis, betrayed by the braying of Silenus's donkey.\nIdentification of the gods follows the National Gallery of Art: Mercury (helmet, staff), Jupiter (eagle), Neptune (trident), Bacchus as a child at the barrel, Silenus with the donkey, Apollo drinking at right. Some identifications are debated.\nPainted for Alfonso d'Este's camerino in Ferrara; landscape first altered by Dosso Dossi, then repainted by Titian around 1529.\nX-rays show Bellini's original band of trees across the whole background.\nBlue-and-white bowls as among the earliest depictions of Chinese porcelain in European painting.\nSize about 170 x 188 cm.\nLeft Ferrara for Rome in 1598 (Aldobrandini); later Dukes of Northumberland; Widener collection; National Gallery of Art since 1942.\nBird in the tree is usually called a pheasant.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Can you tell where one painter stops and another begins? This canvas carries the proud signature of Giovanni Bellini, the grand old man of Venetian painting, with the date 1514. Yet about a third of what you see was painted over by his former pupil Titian, some fifteen years later. Keep that question in your pocket. First, the party."
+  },
+  {
+   "type": "text",
+   "text": "The guests are the gods of ancient Rome, on a picnic in the woods. They do not look it. They sit on the ground like tired farmhands, pass bowls, doze. The story comes from the Roman poet Ovid, and it is a dirty joke: while everyone is drowsy with wine, one guest tries to take advantage of a sleeping nymph."
+  },
+  {
+   "type": "find",
+   "text": "Someone at this picnic is up to no good. Who?",
+   "spots": [
+    {
+     "x": 0.855,
+     "y": 0.66,
+     "zoom": 2.8,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "Priapus",
+     "text": "At the far right, a man in green bends over the sleeping nymph Lotis and lifts the hem of her white dress. He is Priapus, a god of fertility with a bad reputation."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "In Ovid's telling he does not get far. At that exact moment a donkey brays, Lotis wakes, and the whole company laughs at Priapus. Bellini chooses the second before the bray. The donkey is there, at the other end of the canvas, with its mouth still shut."
+  },
+  {
+   "type": "fact",
+   "text": "Bellini was in his eighties, or close to it, when he signed this. He had spent sixty years painting Madonnas and saints. A racy pagan picnic was nearly a new subject for him, and he died two years later."
+  },
+  {
+   "type": "text",
+   "text": "The man who ordered it was Alfonso d'Este, Duke of Ferrara, soldier, cannon maker and collector. He wanted a private study lined with scenes of ancient pleasure by the best painters alive. Bellini's canvas came first. Now, who is who? Gods in art carry objects, called attributes, that work like name tags."
+  },
+  {
+   "type": "tour",
+   "title": "Name tags",
+   "text": "Four guests, each with a clue.",
+   "spots": [
+    {
+     "x": 0.345,
+     "y": 0.72,
+     "zoom": 2.8,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "Mercury",
+     "text": "The young man lounging in a polished metal helmet is the messenger god. His staff, the caduceus, rests against his shoulder."
+    },
+    {
+     "x": 0.455,
+     "y": 0.675,
+     "zoom": 3,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "Jupiter",
+     "text": "The king of the gods drinks from a cup, wearing a red cloak and a wreath. His bird, a dark eagle, is tucked in beside him."
+    },
+    {
+     "x": 0.205,
+     "y": 0.75,
+     "zoom": 3,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "Bacchus",
+     "text": "The god of wine appears as a small boy in blue with vine leaves in his hair, kneeling to fill a glass jug from the barrel."
+    },
+    {
+     "x": 0.17,
+     "y": 0.57,
+     "zoom": 2.6,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "Silenus and the donkey",
+     "text": "Bald old Silenus, companion of Bacchus, keeps a hand on his gray donkey. This is the animal whose bray will ruin the plan."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "They are comic, and they are painted with total seriousness. See the weight of the silks, apricot, pink, acid green, and the way each color sits next to its opposite. Bellini's gods have no thunder in them. They have the dignity of people painted by someone who has looked hard at people for a very long time."
+  },
+  {
+   "type": "fact",
+   "text": "The blue-and-white bowls are Chinese porcelain of the Ming dynasty, a rare luxury in Europe at the time. They are among the earliest pictures of Chinese porcelain in Western painting, and three of them appear here."
+  },
+  {
+   "type": "text",
+   "text": "Now back to the first question. After Bellini died, the duke hung works by Titian beside this one, wild scenes with rushing figures and dramatic landscapes. The old man's picture, with its calm wall of trees, suddenly looked stiff. So the background was reworked, and finally Titian himself took a brush to it."
+  },
+  {
+   "type": "lines",
+   "text": "The join between the two painters runs through the background.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.14
+      ],
+      [
+       0.3,
+       0.12
+      ],
+      [
+       0.45,
+       0.14
+      ],
+      [
+       0.55,
+       0.3
+      ],
+      [
+       0.56,
+       0.46
+      ],
+      [
+       0.4,
+       0.5
+      ],
+      [
+       0.0,
+       0.5
+      ]
+     ],
+     "closed": true,
+     "label": "Titian's mountain",
+     "text": "The craggy hill, the rough foliage and the stormy blue sky at the left are Titian's, painted around 1529. The brushwork is looser and the shapes heave."
+    },
+    {
+     "points": [
+      [
+       0.6,
+       0.5
+      ],
+      [
+       0.6,
+       0.3
+      ],
+      [
+       0.72,
+       0.28
+      ],
+      [
+       0.98,
+       0.28
+      ],
+      [
+       0.98,
+       0.5
+      ]
+     ],
+     "closed": true,
+     "label": "Bellini's trees",
+     "text": "On the right, Bellini's original screen of slim, straight trunks survives, with gold light between them. X-rays show this grove once ran the full width."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.52
+      ],
+      [
+       0.3,
+       0.5
+      ],
+      [
+       0.6,
+       0.5
+      ],
+      [
+       1.0,
+       0.52
+      ]
+     ],
+     "closed": false,
+     "label": "The line he respected",
+     "text": "Titian stopped at the heads. He did not repaint his old master's figures, so the gods below this line are still Bellini's."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "One picture, two ages of Venetian painting. Bellini's half is still and clear, every edge in place. Titian's half moves. The canvas shows the handover from one to the other."
+  },
+  {
+   "type": "text",
+   "text": "Scientists who studied the canvas in the 1900s found that Bellini had already revised it himself. He seems to have made his gods more godlike as he went, adding attributes and lowering a few necklines, perhaps because the duke found the first version too modest."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.93,
+     "y": 0.73,
+     "zoom": 3,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "Lotis",
+     "text": "The nymph sleeps propped against a tree stump, cheek on her hand, one shoulder bare. She is the only person here with no idea what is going on."
+    },
+    {
+     "x": 0.945,
+     "y": 0.925,
+     "zoom": 4.5,
+     "r": 0.04,
+     "shape": "circle",
+     "title": "The signature",
+     "text": "A paper label on the wooden tub bears Bellini's name and the date 1514, in Latin. He signed as the sole author. He could not know."
+    },
+    {
+     "x": 0.82,
+     "y": 0.19,
+     "zoom": 4,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "The bird",
+     "text": "A long-tailed bird, usually called a pheasant, perches on a branch high in the trees, above the heads of the gods."
+    },
+    {
+     "x": 0.53,
+     "y": 0.62,
+     "zoom": 3.4,
+     "r": 0.06,
+     "shape": "circle",
+     "title": "A porcelain bowl",
+     "text": "A nymph carries a deep blue-and-white bowl. Its painted pattern is copied closely enough to recognize as Chinese ware."
+    },
+    {
+     "x": 0.05,
+     "y": 0.6,
+     "zoom": 2.8,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The satyr",
+     "text": "Half man, half goat, seen from behind with a jug balanced on his head. Satyrs are the usual staff at a party of Bacchus."
+    },
+    {
+     "x": 0.76,
+     "y": 0.69,
+     "zoom": 3.2,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "Apollo",
+     "text": "Crowned with laurel, the god of music tips a bowl to his mouth. Even he has given up on conversation."
+    },
+    {
+     "x": 0.63,
+     "y": 0.86,
+     "zoom": 3.4,
+     "r": 0.06,
+     "shape": "circle",
+     "title": "The fruit bowl",
+     "text": "A second porcelain bowl sits on the grass, heaped with fruit. Nobody is eating. This is a party in its last hour."
+    },
+    {
+     "x": 0.4,
+     "y": 0.3,
+     "zoom": 2,
+     "r": 0.18,
+     "shape": "circle",
+     "title": "Titian's crag",
+     "text": "Rough, dark, alive with broken light. Compare its handling with the smooth faces below, and you see two temperaments."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The painting stayed in the duke's study in Ferrara until 1598, then spent centuries in Roman and English collections. It crossed the Atlantic in the 1920s and has belonged to the National Gallery of Art in Washington since 1942."
+  },
+  {
+   "type": "text",
+   "text": "It is big, about 1.7 by 1.9 meters (roughly 5 and a half by 6 feet), so the gods sit in front of you at nearly human scale. Stand close and you are at the edge of the picnic blanket, among cups left on the grass."
+  },
+  {
+   "type": "key",
+   "text": "So where does one painter stop? Roughly at the treetops. And the real surprise is that Titian, who could have erased his teacher, chose to leave the old man's gods exactly as they were."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who repainted much of the landscape after Bellini's death?",
+   "options": [
+    "Giorgione",
+    "Titian",
+    "Raphael"
+   ],
+   "answer": 1,
+   "explanation": "Titian reworked the left background around 1529."
+  },
+  {
+   "question": "What stops Priapus in Ovid's story?",
+   "options": [
+    "A donkey brays and wakes Lotis",
+    "Jupiter strikes him with lightning",
+    "Mercury steals his cloak"
+   ],
+   "answer": 0,
+   "explanation": "The bray of Silenus's donkey wakes the nymph and the gods laugh at him."
+  },
+  {
+   "question": "What are attributes in a picture of gods?",
+   "options": [
+    "The painter's fees",
+    "Hidden signatures",
+    "Objects that identify each figure"
+   ],
+   "answer": 2,
+   "explanation": "Mercury's helmet and staff or Jupiter's eagle work like name tags."
+  },
+  {
+   "question": "Which part of the painting is still Bellini's?",
+   "options": [
+    "The mountain on the left",
+    "Only the sky",
+    "The figures and the grove of trees on the right"
+   ],
+   "answer": 2,
+   "explanation": "Titian stopped at the heads and left the right-hand trees."
+  },
+  {
+   "question": "What is special about the blue-and-white bowls?",
+   "options": [
+    "They are among the earliest depictions of Chinese porcelain in Western painting",
+    "They were added in the 1800s",
+    "They are made of glass"
+   ],
+   "answer": 0,
+   "explanation": "They show Ming porcelain, a rare luxury in Europe then."
+  },
+  {
+   "question": "For whom was the picture painted?",
+   "options": [
+    "The Doge of Venice",
+    "Alfonso d'Este, Duke of Ferrara",
+    "The Pope"
+   ],
+   "answer": 1,
+   "explanation": "It was the first canvas for the duke's private study."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Titian repainted the faces of Bellini's gods.",
+   "isTrue": false,
+   "explanation": "He changed the background and left the figures alone."
+  },
+  {
+   "text": "Bellini signed and dated the canvas 1514.",
+   "isTrue": true,
+   "explanation": "His name and the date are on a paper label painted on the wooden tub."
+  },
+  {
+   "text": "In the picture, Bacchus is shown as a bearded old man.",
+   "isTrue": false,
+   "explanation": "He appears as a small boy in blue filling a jug from the barrel; the bald old man is Silenus."
+  }
+ ]
+}

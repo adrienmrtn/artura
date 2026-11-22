@@ -1,0 +1,53 @@
+{
+  "teaser": "A night scene painted outdoors, in the dark, without a single stroke of black.",
+  "focus": [0.42, 0.55],
+  "review_notes": "Letter to his sister Willemien (September 1888) about a night picture without black: paraphrased.\nClaim that the painting is unsigned and was identified through his letters.\nThe Last Supper reading (researcher Jared Baxter, 2010s) is presented as an unproven suggestion.\nThe café on the Place du Forum in Arles was later repainted yellow and renamed after Van Gogh: check current status.\nFirst shown in 1891 under a title like “Coffeehouse, in the evening”: left out of the text, but dimensions about 81 x 65 cm are given.",
+  "lesson": [
+    {"type": "text", "text": "A waiter in a white apron has just stepped between two tables. A couple is crossing the square. A horse is pulling a carriage out of the dark street behind them. Nobody has noticed the man with the easel, standing on the cobblestones of the Place du Forum in Arles, one evening in the middle of September 1888."},
+    {"type": "find", "text": "Start with the waiter. He is the brightest figure on the terrace. Where is he standing?", "spots": [
+      {"x": 0.42, "y": 0.6, "zoom": 3.4, "r": 0.06, "shape": "rect", "title": "The waiter", "text": "A column of white among dark customers. No face, no hands: a few vertical strokes are enough. He catches the full light of the lamp, so he works almost like a second lantern."}
+    ]},
+    {"type": "text", "text": "That man with the easel was doing something close to absurd. Painters normally made night scenes in the studio the next day, from a sketch. Vincent van Gogh set up outdoors, in the dark, and painted the night on the spot. He wrote to his sister that it amused him enormously, even if he sometimes mistook a blue for a green in the gloom."},
+    {"type": "fact", "text": "In the same letter he pointed out his proudest trick: a night picture with no black in it. The darkness is made of blue, violet and green. The shadows on the far houses are deep blue, never the color of soot."},
+    {"type": "text", "text": "Why refuse black? Because he had learned in Paris, from the Impressionists, that shadows have color, and that two opposite colors make each other vibrate when they touch. Blue and orange are such a pair, called complementary colors. Yellow and violet are another. He built the whole picture on that single idea."},
+    {"type": "tour", "title": "Warm against cold", "text": "Three places where the yellow world of the café meets the blue world of the night.", "spots": [
+      {"x": 0.38, "y": 0.49, "zoom": 3, "r": 0.07, "title": "The gas lamp", "text": "One big lantern hangs under the awning. It is the source of everything yellow here. Gas lighting was still a modern thing, and it changed what a city looked like after sunset."},
+      {"x": 0.3, "y": 0.4, "zoom": 1.8, "r": 0.2, "title": "Wall and awning", "text": "The wall was not really yellow. It was the lamp that made it so, and he painted what he saw: sulfur yellow and a touch of lime green, in long strokes that follow the cloth."},
+      {"x": 0.62, "y": 0.2, "zoom": 2.2, "r": 0.14, "title": "The stars", "text": "White and pale yellow blobs with soft halos, like small flowers scattered on blue. This is the first starry sky he ever painted. The more famous ones came later."}
+    ]},
+    {"type": "text", "text": "Those flower-like stars were not a careless shortcut. He wanted the sky to hold as much color as the street, and he said that night seemed to him more alive and more richly colored than day. A year later he would let the stars swell and spin over a village. Here they are still quiet, pinned above a small-town square."},
+    {"type": "text", "text": "The scene could tip into chaos, with its tilted tables and wobbly houses. It does not, because underneath the thick paint lies a strict piece of drawing. Before he ever went south, Vincent had trained himself with a perspective frame, a wooden rectangle strung with threads that helps a beginner see how lines run into depth."},
+    {"type": "lines", "text": "Trace how the picture funnels you into the dark street.", "lines": [
+      {"points": [[0.17, 0.16], [0.55, 0.34], [0.62, 0.5]], "closed": false, "label": "Edge of the awning", "text": "The awning's edge shoots down from the upper left toward the middle of the picture, pointing like an arrow at the street."},
+      {"points": [[0.15, 0.79], [0.45, 0.66], [0.6, 0.58]], "closed": false, "label": "Edge of the terrace", "text": "The orange floor of the terrace narrows as it goes back. Its border climbs to meet the awning's line near the same spot."},
+      {"points": [[1.0, 0.72], [0.8, 0.6], [0.63, 0.55]], "closed": false, "label": "The right-hand houses", "text": "On the other side the dark fronts and their lit shop slide inward too. All three lines close on the black gap where the carriage appears."}
+    ]},
+    {"type": "text", "text": "So your eye is pulled from the bright terrace into the unknown, and the picture is half welcome, half mystery. The empty tables in front matter as well. They leave you a chair. You are not watching customers from across the square: you are about to sit down."},
+    {"type": "fact", "text": "The café still exists. Its walls were later repainted bright yellow so that the real building would match the painting, and it has traded for years on the artist's name. Tourists photograph it from the exact spot where he stood."},
+    {"type": "text", "text": "Thick paint carries the rest. On the ground, each cobblestone is one curved dab, orange where the lamplight reaches, blue and violet where it does not. Paint laid this heavily, so that it stands up from the canvas, is called impasto. It lets the light of the room you stand in catch on the ridges, and the pavement actually glitters."},
+    {"type": "fact", "text": "Some researchers have counted about twelve seated figures around the waiter in white and noticed a cross shape in the window behind him. They suggest a hidden Last Supper. Van Gogh, a pastor's son, never mentioned it, and the idea remains a guess."},
+    {"type": "explore", "spots": [
+      {"x": 0.54, "y": 0.55, "zoom": 3.6, "r": 0.05, "title": "Horse and carriage", "text": "A pale horse emerges from the street, lit from the side. Two or three strokes of yellow and green are all there is of it."},
+      {"x": 0.71, "y": 0.59, "zoom": 3.2, "r": 0.07, "title": "The passersby", "text": "A woman in red, a couple walking arm in arm, a man in yellow who has stopped. Their feet do not quite touch the ground: he had seconds to catch each one."},
+      {"x": 0.44, "y": 0.75, "zoom": 2.6, "r": 0.1, "title": "Empty tables", "text": "Round tops painted in pale green and white, reflecting the lamp. The spindly chairs are drawn in dark outline, like ironwork."},
+      {"x": 0.88, "y": 0.32, "zoom": 2.2, "r": 0.12, "title": "A green tree", "text": "Branches of a tree lean in from the right edge. Their green sits between the yellow and the blue and helps the two halves of the picture talk to each other."},
+      {"x": 0.86, "y": 0.52, "zoom": 2.6, "r": 0.1, "title": "The lit shop", "text": "Across the square, another window glows orange and yellow. A smaller echo of the café, so the warmth is not all on one side."},
+      {"x": 0.5, "y": 0.9, "zoom": 2, "r": 0.18, "title": "Cobblestones", "text": "Dark arcs over orange, violet and blue. The stones grow larger toward you, a simple way to make the ground rush forward under your feet."},
+      {"x": 0.08, "y": 0.55, "zoom": 2, "r": 0.1, "shape": "rect", "title": "The blue doorframe", "text": "A slab of blue woodwork at the left edge, cut off by the frame. It works like a doorway you look out from, and its cold color makes the yellow hotter."}
+    ]},
+    {"type": "text", "text": "Vincent never signed this canvas, about 81 by 65 centimeters (32 by 26 inches). We know it is his because he described it in three letters. In the following days he carried his easel to the riverbank to try the night again, with more sky and more stars."},
+    {"type": "key", "text": "Darkness in a painting does not need black. Give the night its own colors and set them against a warm light: both become stronger."}
+  ],
+  "quiz": [
+    {"question": "What was unusual about the way this night scene was made?", "options": ["It was painted from a photograph", "It was painted outdoors, at night, on the spot", "It was painted in a studio in Paris"], "answer": 1, "explanation": "Van Gogh set up his easel on the square after dark instead of working from a sketch the next day."},
+    {"question": "Which color did Van Gogh proudly leave out of this night picture?", "options": ["Black", "Yellow", "Green"], "answer": 0, "explanation": "He told his sister it was a night picture without black, made of blue, violet and green."},
+    {"question": "Why does the café wall look yellow?", "options": ["It had just been repainted yellow", "The moon was shining on it", "A large gas lamp lit it"], "answer": 2, "explanation": "The lantern under the awning turned the wall sulfur yellow; the building was only painted yellow much later."},
+    {"question": "Where do the main lines of the composition lead the eye?", "options": ["Up to the brightest star", "Into the dark street behind the terrace", "Down to the bottom left corner"], "answer": 1, "explanation": "The awning, the terrace edge and the houses all converge on the dark gap of the street."},
+    {"question": "How do we know the unsigned painting is by Van Gogh?", "options": ["He described it in his letters", "A fingerprint was found in the paint", "The café owner kept a receipt"], "answer": 0, "explanation": "He wrote about the picture in three letters."}
+  ],
+  "facts": [
+    {"text": "This is the first painting in which Van Gogh painted a starry sky.", "isTrue": true, "explanation": "The starry skies over the Rhône and over Saint-Rémy came afterward."},
+    {"text": "Van Gogh confirmed in a letter that the terrace hides a Last Supper.", "isTrue": false, "explanation": "He never mentioned it; the idea is a later researcher's guess."},
+    {"text": "The empty tables in the foreground leave room for the viewer to imagine sitting down.", "isTrue": true, "explanation": "They place you at the edge of the terrace instead of far across the square."}
+  ]
+}

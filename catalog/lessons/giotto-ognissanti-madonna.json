@@ -1,0 +1,48 @@
+{
+  "teaser": "A queen of heaven who weighs something: her knees push through the cloak and her lips are parted.",
+  "focus": [0.5, 0.33],
+  "review_notes": "Opening: “Giotto” is a brand of school pencils and markers made by the Italian company FILA, and its logo shows the shepherd-boy legend (boy drawing on a rock, Cimabue watching): check the logo description.\nDimensions 325 x 204 cm; date c. 1310 (often given as c. 1306-10).\nThe object held by the standing angel on the right is usually read as a pyx (container for the consecrated host): interpretation.\nThe Humiliati and the wool trade: check wording.\nThe three Maestà panels (Cimabue, Duccio, Giotto) share a room at the Uffizi: true of the long-standing display, check current hang.\nDante quote is a paraphrase of Purgatorio XI, 94-96.\nThe sheep legend and the O story both come from Vasari (1550) and are presented as legends.\nGiotto named master of works of Florence Cathedral in 1334, died 1337 with the bell tower unfinished.",
+  "lesson": [
+    {"type": "text", "text": "Open a pencil case in an Italian primary school and there is a good chance the name printed on the colored pencils is Giotto. The brand's logo shows a boy drawing on a rock while a man looks over his shoulder. Seven centuries on, a medieval painter is still the national shorthand for “learning to draw”."},
+    {"type": "text", "text": "The logo tells a legend. Young Giotto, a shepherd, was scratching a sheep onto a flat stone when the famous painter Cimabue rode past, stopped, and took him on as a pupil. The tale was written down two centuries after his death and is probably invented. Its point is still accurate: this was the man who drew what he saw."},
+    {"type": "text", "text": "Here is what that looks like at full scale. The panel is 3.25 meters tall (over 10 and a half feet), poplar wood covered in gold leaf and tempera, a paint made of pigment and egg yolk. Giotto made it around 1310 for Ognissanti, “All Saints”, a Florentine church run by an order of monks who lived from the wool trade."},
+    {"type": "text", "text": "The subject was a century old already: Mary on a throne as queen of heaven, a type called a Maestà, “majesty”. Earlier versions float, slim and weightless, on the gold. Giotto's Mary sits. Check for yourself where her body is."},
+    {"type": "tour", "title": "A body under the cloth", "text": "Four places where the paint behaves like flesh and fabric.", "spots": [
+      {"x": 0.47, "y": 0.63, "zoom": 2.2, "r": 0.16, "title": "The knees", "text": "Two knees push forward under the blue cloak, and the fabric stretches between them. Her lap becomes a real shelf, deep enough for a child to sit on."},
+      {"x": 0.46, "y": 0.37, "zoom": 2.8, "r": 0.1, "title": "The white tunic", "text": "The cloth goes from bright to shadowed as it curves away, so you read a rounded chest beneath it. No gold lines stand in for folds here, only light and dark."},
+      {"x": 0.475, "y": 0.268, "zoom": 4.5, "r": 0.04, "title": "The mouth", "text": "Her lips are slightly open, and a thin pale line between them hints at teeth. A holy face caught mid-breath was something new."},
+      {"x": 0.61, "y": 0.41, "zoom": 2.8, "r": 0.1, "title": "The Child", "text": "Chubby cheeks, a thick neck, a solid little body. He blesses with one hand and grips a rolled scroll in the other, as heavy on her knee as a real toddler."}
+    ]},
+    {"type": "text", "text": "The trick behind all four is the same: shading. Giotto slides each color from light to dark so that a form seems to turn away from you, like a column lit from one side. Painters call this modeling. It sounds obvious now. Before him, Italian painters mostly described folds with a net of thin golden lines."},
+    {"type": "fact", "text": "At the Uffizi in Florence, this panel has long shared a room with two other giant enthroned Madonnas, one by Cimabue and one by Duccio, painted about twenty-five years earlier. You can compare three generations of the same subject just by turning your head."},
+    {"type": "text", "text": "A heavy body needs somewhere to sit, so the throne changes too. It is no longer a flat golden pattern behind her. It is a small piece of architecture with steps, side walls and a pointed canopy. And Giotto proves it is hollow in a slightly cheeky way."},
+    {"type": "find", "text": "Somebody is watching Mary through the throne itself. Can you find one of them?", "spots": [
+      {"x": 0.775, "y": 0.37, "zoom": 3.6, "r": 0.05, "title": "Through the opening", "text": "A bearded saint peers through the open side panel of the throne. Another does the same on the left. If you can look through it, it has an inside, and they are standing behind it."}
+    ]},
+    {"type": "text", "text": "The crowd follows the same logic. Halos in front slice across the faces behind them. Giotto is willing to half hide a saint for the sake of depth. The rules of perspective, the geometry that makes painted space look measurable, would be worked out in this same city about a century later. He gets there by eye."},
+    {"type": "key", "text": "Giotto kept the gold and the old subject, but he put real weight and real space inside them. From here on, a painting could be a place rather than a pattern."},
+    {"type": "text", "text": "One thing he does not loosen is the order. With so many figures, the panel could turn into a jumble of heads. It does not, because everyone in it has been given the same task."},
+    {"type": "lines", "text": "Trace where the attention goes.", "lines": [
+      {"points": [[0.16, 0.72], [0.44, 0.28]], "closed": false, "label": "From the lower left", "text": "The kneeling angel in white tips its head back and looks steeply up. Its gaze lands on Mary's face."},
+      {"points": [[0.82, 0.72], [0.5, 0.28]], "closed": false, "label": "From the lower right", "text": "Its twin mirrors the look from the other side. Every other face in the crowd turns the same way."},
+      {"points": [[0.47, 0.19], [0.24, 0.76], [0.76, 0.76]], "closed": true, "label": "The pyramid", "text": "Mary's cloak spreads from her head to a wide base on the throne's step. A triangle is the steadiest shape there is, and it makes her look immovable."}
+    ]},
+    {"type": "text", "text": "The angels also bring presents. The two standing ones hold out a crown and a small golden box. The two kneeling ones offer vases of white lilies and red roses, flowers long tied to Mary. Notice their wings: gray at the shoulder, then running through yellow and orange to red."},
+    {"type": "fact", "text": "Another legend: a pope's envoy asked Giotto for a sample of his skill. He dipped a brush in red, and in one sweep of the arm drew a flawless circle, freehand. “Rounder than Giotto's O” became an Italian saying."},
+    {"type": "text", "text": "He was famous while he lived, which was rare for a medieval craftsman. The poet Dante, writing in those same years, noted that Cimabue once thought he ruled the field of painting, and now the cry was all for Giotto. A painter's name had become news."},
+    {"type": "fact", "text": "In 1334 Florence put him in charge of building its cathedral. He designed the bell tower, still known as Giotto's Campanile, and died three years later with only its lowest part standing."},
+    {"type": "text", "text": "So the name on the pencil box is a fair choice. What the brand promises a six-year-old is roughly what this panel announced around 1310: stop copying the old formula, and draw the knee where a knee would actually be."}
+  ],
+  "quiz": [
+    {"question": "What is a Maestà?", "options": ["A portrait of a king", "An image of Mary enthroned as queen of heaven", "A scene of the Last Judgment"], "answer": 1, "explanation": "The word means “majesty” and names the type of picture showing Mary on a throne."},
+    {"question": "How does Giotto make Mary's body look solid?", "options": ["By shading colors from light to dark", "By outlining it in thick black", "By covering it in gold lines"], "answer": 0, "explanation": "This shading, called modeling, makes forms seem to turn in space."},
+    {"question": "What shows that the throne is hollow?", "options": ["A door stands open at its base", "The Child's shadow falls on it", "Saints look through its side openings"], "answer": 2, "explanation": "A bearded saint on each side peers through the throne's open panels."},
+    {"question": "What do the kneeling angels offer?", "options": ["Vases of lilies and roses", "A crown and a sword", "Musical instruments"], "answer": 0, "explanation": "They hold vases of white lilies and red roses, flowers associated with Mary."},
+    {"question": "What paint did Giotto use on this panel?", "options": ["Oil paint", "Fresco", "Tempera, bound with egg yolk"], "answer": 2, "explanation": "The panel is poplar wood covered with gold leaf and egg tempera."}
+  ],
+  "facts": [
+    {"text": "Mary's lips are slightly parted in this painting.", "isTrue": true, "explanation": "A thin pale line between her lips even hints at teeth."},
+    {"text": "Giotto built the throne using the mathematical rules of perspective.", "isTrue": false, "explanation": "Those rules were worked out about a century later. He constructed the space by eye."},
+    {"text": "The story of Giotto drawing a sheep on a rock was recorded during his lifetime.", "isTrue": false, "explanation": "It was written down about two centuries after his death and is probably a legend."}
+  ]
+}

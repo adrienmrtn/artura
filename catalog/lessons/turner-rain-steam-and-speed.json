@@ -1,0 +1,273 @@
+{
+ "teaser": "Thirty years before the Impressionists, Turner painted something nobody had tried: speed.",
+ "focus": [
+  0.65,
+  0.6
+ ],
+ "review_notes": "Monet and Pissarro seeing Turner's work in London in 1870-71 is documented; that Monet had this specific canvas in mind at the Gare Saint-Lazare is not, and the text avoids claiming it.\nThe hare is described but not pointed at: it is not legible in this reproduction.\nThe plough spot (far right edge, about 0.94, 0.67) is only a faint brown mark in this image; please check it lands on the ploughman.\nPale figures on the left bank are traditionally described as people waving or dancing.\nLady Simon's story is presented as a story, not as fact.\nTrain speeds of 50 mph and more on the Great Western in the 1840s.\nThackeray's reaction is paraphrased, not quoted.\nLady Simon's account gives “nearly nine minutes” for the time the man kept his head out of the window.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Paris, 1877. Claude Monet sets up his easel inside the Saint-Lazare train station and paints a dozen canvases of locomotives dissolving in their own steam. They are now treasures of Impressionism, the French movement that put fleeting light and weather ahead of sharp detail. Monet had spent months in London a few years earlier, looking hard at Turner."
+  },
+  {
+   "type": "text",
+   "text": "Whatever he remembered there, an Englishman of 69 had reached the subject first. In 1844, when most painters still thought railways too ugly for art, Turner sent this to the Royal Academy in London. Its full title reads like a list of ingredients: Rain, Steam and Speed, The Great Western Railway."
+  },
+  {
+   "type": "text",
+   "text": "Two of the three are things you can see. The third is not. Rain is visible, steam is visible, but speed is only a relationship between a thing and the time it takes. Turner's solution is in the geometry: he makes the whole picture rush at you."
+  },
+  {
+   "type": "lines",
+   "text": "See how the bridge is drawn. Almost nothing else in the picture has an edge.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.56,
+       0.56
+      ],
+      [
+       0.5,
+       0.85
+      ],
+      [
+       0.5,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "Left edge of the viaduct",
+     "text": "The near wall of the railway bridge plunges steeply down the canvas. It is the darkest, firmest stroke in the painting."
+    },
+    {
+     "points": [
+      [
+       0.68,
+       0.6
+      ],
+      [
+       1.0,
+       0.77
+      ]
+     ],
+     "closed": false,
+     "label": "Right edge",
+     "text": "The far wall shoots off to the side at a much flatter angle. The two edges open like scissors, far wider than a real bridge would appear."
+    },
+    {
+     "points": [
+      [
+       0.64,
+       0.57
+      ],
+      [
+       0.66,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "The train's path",
+     "text": "The engine sits at the narrow end of this wedge, heading for the wide end, where you are standing. In a moment it will fill the bottom of the picture."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Painters had long used perspective, the trick of making parallel lines meet in the distance, to build calm, deep spaces. Turner stretches it until it feels like acceleration. Then he rubs out everything on either side, so the bridge is the one hard fact in a world of spray."
+  },
+  {
+   "type": "fact",
+   "text": "The bridge is real. It crosses the River Thames at Maidenhead, west of London, and was designed by the engineer Isambard Kingdom Brunel. Its brick arches were so wide and so flat that critics predicted it would fall down. Trains still cross it today."
+  },
+  {
+   "type": "text",
+   "text": "The train itself is tiny, and Turner painted it oddly. Its details are worth a slow pass, because they show how little he cared about engineering and how much about effect."
+  },
+  {
+   "type": "tour",
+   "title": "The engine",
+   "text": "A black shape with a glowing face, coming out of the rain.",
+   "spots": [
+    {
+     "x": 0.66,
+     "y": 0.555,
+     "zoom": 4,
+     "r": 0.035,
+     "title": "The funnel",
+     "text": "A single tall black chimney, the sharpest object in the entire painting. Everything else about the locomotive is a smudge.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.652,
+     "y": 0.635,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "A glowing front",
+     "text": "White and red dabs burn on the front of the engine like an open furnace. On a real locomotive the fire is at the back. Turner turns the machine inside out so you can see its heat."
+    },
+    {
+     "x": 0.595,
+     "y": 0.585,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Open carriages",
+     "text": "A pale streak trails behind the engine: the carriages, with flecks for passengers. The cheapest seats on early trains had no roof, so these travelers are out in the rain."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those soaked passengers connect to a story told years later by a woman named Lady Simon. She said that on a train in a storm, an elderly man opposite her asked to open the window, leaned his head out into the downpour for nearly nine minutes, then sat back with his eyes shut. She later recognized the scene at the Academy. Historians are unsure how much of it to believe."
+  },
+  {
+   "type": "fact",
+   "text": "Trains on this line could run at more than 50 miles an hour (about 80 km/h). No human being had ever moved that fast over land before the railways. For Turner's first viewers, speed was a brand-new bodily sensation, and a slightly frightening one."
+  },
+  {
+   "type": "text",
+   "text": "The left half of the canvas keeps a different time. There the river is wide and slow, and an older stone bridge carries a road. Something small is floating on the water between the two bridges."
+  },
+  {
+   "type": "find",
+   "text": "On the river at the left, someone is traveling at a very different pace from the train. Where?",
+   "spots": [
+    {
+     "x": 0.149,
+     "y": 0.787,
+     "zoom": 4,
+     "r": 0.045,
+     "title": "A rowing boat",
+     "text": "A little boat with one or two figures drifts on the Thames. A few brown flicks of the brush are enough. It moves at the speed people had moved for thousands of years."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Turner added one more slow thing, now almost lost. On the tracks ahead of the engine he painted a hare, the fastest animal of the English fields, running for its life. The thin paint has grown transparent with age, and in most photographs, including this one, you cannot make it out."
+  },
+  {
+   "type": "key",
+   "text": "Turner did not paint a train. He painted what it felt like when the modern world arrived: loud, wet, thrilling and too fast to see properly."
+  },
+  {
+   "type": "text",
+   "text": "One reviewer of 1844, the novelist William Thackeray, admitted he had no idea how the rain and the light had been made, and advised readers to hurry to see the picture before the engine dashed out of it. A joke, and also the first accurate description of what Turner had invented."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.07,
+     "y": 0.645,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The old road bridge",
+     "text": "Pale stone arches with blue water showing through them. The old way of crossing the river, built for horses and carts."
+    },
+    {
+     "x": 0.33,
+     "y": 0.737,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Figures on the bank",
+     "text": "A cluster of pale upright dabs at the water's edge. They are usually read as people on the shore, waving at the train or dancing."
+    },
+    {
+     "x": 0.944,
+     "y": 0.674,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "A plough",
+     "text": "Near the right edge, a faint brown mark in the yellow field is a man ploughing with horses. Slow farm work goes on beside the railway."
+    },
+    {
+     "x": 0.3,
+     "y": 0.3,
+     "zoom": 1.6,
+     "r": 0.25,
+     "title": "The rain",
+     "text": "No raindrops, only slanting veils of cream, gray and blue scraped across the sky. Turner used rags, knives and his fingers as well as brushes."
+    },
+    {
+     "x": 0.56,
+     "y": 0.82,
+     "zoom": 2,
+     "r": 0.12,
+     "title": "Thick brown paint",
+     "text": "The bridge wall is laid on in dense, dark strokes. Against all the mist, this heavy paint gives the railway its weight."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which of the three things in the title cannot be seen directly?",
+   "options": [
+    "Rain",
+    "Steam",
+    "Speed"
+   ],
+   "answer": 2,
+   "explanation": "Speed is not a visible object, so Turner had to suggest it through the composition."
+  },
+  {
+   "question": "How does Turner make the train feel fast?",
+   "options": [
+    "With steep, widely opening bridge edges that rush toward you",
+    "By painting motion blur behind the wheels",
+    "By showing passengers holding their hats"
+   ],
+   "answer": 0,
+   "explanation": "The exaggerated perspective of the viaduct makes the picture seem to accelerate."
+  },
+  {
+   "question": "What is strange about the front of the locomotive?",
+   "options": [
+    "It has no chimney",
+    "It glows like a furnace, though the fire on a real engine is at the back",
+    "It is painted bright blue"
+   ],
+   "answer": 1,
+   "explanation": "Turner shows the engine's fire on its face to make its heat visible."
+  },
+  {
+   "question": "Which engineer designed the railway bridge in the painting?",
+   "options": [
+    "Isambard Kingdom Brunel",
+    "George Stephenson",
+    "Gustave Eiffel"
+   ],
+   "answer": 0,
+   "explanation": "Brunel designed the bridge over the Thames at Maidenhead."
+  },
+  {
+   "question": "What animal did Turner paint running ahead of the train?",
+   "options": [
+    "A fox",
+    "A dog",
+    "A hare"
+   ],
+   "answer": 2,
+   "explanation": "A hare, now very hard to see because the paint has turned transparent."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Turner painted this picture when he was a young man starting out.",
+   "isTrue": false,
+   "explanation": "He was 69 when he exhibited it in 1844."
+  },
+  {
+   "text": "The bridge in the painting is a real one that still carries trains.",
+   "isTrue": true,
+   "explanation": "It is Brunel's railway bridge at Maidenhead, still in use."
+  },
+  {
+   "text": "Monet painted his steam-filled train stations before Turner painted this.",
+   "isTrue": false,
+   "explanation": "Monet's station pictures date from 1877, more than thirty years later."
+  }
+ ]
+}

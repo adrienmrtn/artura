@@ -1,0 +1,44 @@
+{
+ "teaser": "A sculptor paints a family, and nobody can agree on which way the baby is going.",
+ "focus": [0.47, 0.25],
+ "review_notes": "IMAGE: shows the painted roundel only, without its original carved frame (mentioned in a fact block but not visible).\nDate: usually given as about 1504 to 1507; linked either to the Doni-Strozzi wedding (early 1504) or to the birth of their daughter Maria (1507).\nPrice anecdote (70 ducats, 40 offered, 140 demanded) comes from Vasari; versions differ.\nFrame attributed to the del Tasso workshop, with Strozzi crescent moons: check.\n“Only finished panel painting”: the two London panels attributed to him are unfinished.\nMedium usually given as tempera (tempera grassa, with some oil) on panel; diameter about 120 cm.\nLaocoön unearthed in Rome in January 1506 with Michelangelo present; its influence on the background nudes is a common hypothesis.\nUse of male models for Mary: an inference from his drawings, not documented for this painting.",
+ "lesson": [
+  {"type": "text", "text": "Is she handing the baby over, or taking him back? Study Mary's arms and try to decide. She twists to reach over her shoulder, the old man behind her has the child under the arms, and the boy has one foot on her arm and a fist in her hair. Five hundred years on, there is still no agreed answer."},
+  {"type": "text", "text": "The painter would not have minded. Michelangelo was about 30 and famous in Florence for a marble giant, the David. What interested him was the body in the middle of an action, turning, lifting, balancing. A finished gesture is a pose. An unfinished one holds your eye."},
+  {"type": "tour", "title": "The hand-off", "text": "Follow the action up through the group.", "spots": [
+   {"x": 0.57, "y": 0.37, "zoom": 2.6, "r": 0.13, "title": "A working arm", "text": "Mary's sleeve is pushed up over a strong, bare forearm. Earlier Madonnas rarely showed so much muscle. He probably studied a male model, as he often did for female figures."},
+   {"x": 0.4, "y": 0.2, "zoom": 3.0, "r": 0.1, "title": "The child", "text": "The boy climbs over her shoulder, looking down at her. His left hand presses on her head for balance, like any toddler being lifted. Nothing is steady yet."},
+   {"x": 0.56, "y": 0.11, "zoom": 3.0, "r": 0.1, "title": "Joseph", "text": "Usually Joseph stands off to the side in pictures of this family. Here he is the highest head in the group, crouching behind Mary, focused entirely on not dropping the child."}
+  ]},
+  {"type": "text", "text": "Three bodies locked into one block, like figures cut from a single stone. That is how a carver thinks. Michelangelo said that painting was at its best the more it resembled sculpture, and here every edge is crisp, every fold of cloth looks hard enough to knock on."},
+  {"type": "fact", "text": "This is the only finished painting on a wooden panel by Michelangelo that survives. Almost everything else he painted is on walls and ceilings. It is round, 120 cm across (about 4 ft): a tondo, the Italian word for a circular picture, a shape Florentine families liked for their homes."},
+  {"type": "text", "text": "The buyer was Agnolo Doni, a rich cloth merchant who had married Maddalena Strozzi, from one of the grandest families in town. The picture may mark the wedding or the birth of their first child. Doni also had the couple's portraits painted by the young Raphael."},
+  {"type": "fact", "text": "The writer Vasari tells that Doni tried to bargain. The price was 70 ducats, and he sent 40. Michelangelo demanded the painting back or 140, double the original sum. Doni, who knew what he had, paid."},
+  {"type": "text", "text": "Now the colors. No soft shadows here, no smoky blending of the kind Leonardo was teaching Florence. Instead of darkening a color to model a fold, Michelangelo often switches to another color altogether, the way shot silk changes as it moves."},
+  {"type": "lines", "text": "Three color changes, each traced along a fold.", "lines": [
+   {"points": [[0.2, 0.67], [0.24, 0.55], [0.36, 0.5]], "closed": false, "label": "Yellow into orange", "text": "Joseph's robe is lemon yellow where light hits and hot orange in the hollows. The shadow is not a darker yellow. It is a different color."},
+   {"points": [[0.52, 0.68], [0.52, 0.56], [0.47, 0.42]], "closed": false, "label": "Pink into white", "text": "Mary's dress bleaches almost to white over her chest and stomach and deepens to rose at the edges. The highlights are as bright as polished stone."},
+   {"points": [[0.33, 0.85], [0.52, 0.76], [0.75, 0.86], [0.86, 0.75]], "closed": false, "label": "Blue ridges", "text": "Her cloak runs from pale sky blue on the ridges to deep blue in the valleys, with edges sharp as folded metal."}
+  ]},
+  {"type": "key", "text": "Michelangelo paints like a sculptor: hard edges, bodies packed into one block, and shadows made by changing color instead of adding darkness. A few years later he took this language to the Sistine ceiling."},
+  {"type": "text", "text": "Behind the family runs a gray stone ledge, and behind the ledge something odd for a religious picture: five naked young men lounging against a wall, paying no attention at all. Between their world and the family's, one small figure does look in."},
+  {"type": "find", "text": "Someone is watching the family from behind the gray ledge. Tap him.", "spots": [
+   {"x": 0.925, "y": 0.48, "zoom": 3.2, "r": 0.08, "title": "John the Baptist", "text": "A curly-haired boy in an animal skin gazes up at the group. He is the young John the Baptist, patron saint of Florence. He stands on the far side of the ledge, but he is the only one there who turns toward the family."}
+  ]},
+  {"type": "text", "text": "A common reading goes like this. The nudes are the ancient world, before Christianity. The family in front is the new era. John, who announced Christ, is the hinge between the two. Others think the men are waiting for baptism. Michelangelo, as usual, explained nothing."},
+  {"type": "fact", "text": "In January 1506 a marble group of a father and sons crushed by snakes, the Laocoön, was dug up in a Roman vineyard. Michelangelo was among the first to see it. Some scholars find its twisting bodies echoed in the nudes behind the Holy Family."},
+  {"type": "text", "text": "The twisting seated mother, the acid colors, the athletes with no clear job: painters of the next generation in Florence took all of it and pushed it further. But start again with the arms. Giving or receiving? Your answer says something about how you read a picture."}
+ ],
+ "quiz": [
+  {"question": "What is a tondo?", "options": ["A painting on wet plaster", "A circular picture", "A portrait in profile"], "answer": 1, "explanation": "Tondo is the Italian word for a round painting."},
+  {"question": "How does Michelangelo often model the folds of cloth here?", "options": ["By switching to a different color in the shadow", "By blurring the edges like smoke", "By adding black to every color"], "answer": 0, "explanation": "Joseph's robe goes from yellow to orange instead of to a darker yellow."},
+  {"question": "Who watches the family from behind the gray ledge?", "options": ["Agnolo Doni", "An angel", "The young John the Baptist"], "answer": 2, "explanation": "The boy in an animal skin is John, patron saint of Florence."},
+  {"question": "According to Vasari, what happened when Doni tried to pay less?", "options": ["Michelangelo doubled the price", "Michelangelo destroyed the painting", "Michelangelo gave it to him for free"], "answer": 0, "explanation": "The price went from 70 ducats to 140, and Doni paid."},
+  {"question": "What is unusual about Joseph in this picture?", "options": ["He is missing", "He is the highest head in the group and takes part in the action", "He is shown as a young man"], "answer": 1, "explanation": "He usually stands aside; here he crouches behind Mary holding the child."}
+ ],
+ "facts": [
+  {"text": "Michelangelo left many finished paintings on wooden panels.", "isTrue": false, "explanation": "This is the only finished one that survives."},
+  {"text": "Michelangelo believed painting was at its best when it resembled sculpture.", "isTrue": true, "explanation": "The hard edges and block-like group show a carver's thinking."},
+  {"text": "The naked young men in the background are clearly identified by a written inscription.", "isTrue": false, "explanation": "Michelangelo explained nothing, and their meaning is still debated."}
+ ]
+}

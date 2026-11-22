@@ -1,0 +1,45 @@
+{
+  "teaser": "You may have met her in a kitchen cupboard: she has been selling cocoa for over a century.",
+  "focus": [0.6, 0.28],
+  "review_notes": "Baker's Chocolate (Walter Baker & Co., Dorchester, Massachusetts): trademark 'La Belle Chocolatière' adopted in 1883 after Henry L. Pierce saw the pastel in Dresden.\nPurchased in Venice in 1745 by Count Francesco Algarotti for Augustus III; Algarotti's description of it as 'a Holbein in pastel' (paraphrased, not quoted in the lesson).\nSupport is parchment; size about 82.5 x 52.5 cm.\nLegend of Anna Baltauf marrying Prince Dietrichstein is presented as an unproven legend.\nStored at Königstein Fortress during World War II: please confirm.\nLiotard lived in Constantinople about 1738 to 1742 and kept Turkish dress and a long beard in Vienna.\nMuseum dates the work c. 1744-45.",
+  "lesson": [
+    {"type": "text", "text": "Open an American pantry and you might find her on a box of baking chocolate: a maid in a white apron, seen from the side, carrying a tray. In 1883 the Baker's chocolate company of Massachusetts made her its trademark. Its president had seen the original in Dresden and never forgot it."},
+    {"type": "text", "text": "The original is not a logo, and not even a painting in the usual sense. It is a pastel, made in Vienna around 1744 by the Swiss artist Jean-Étienne Liotard. Pastel means sticks of almost pure powdered color, rubbed dry onto the surface. No oil, no brush, no varnish."},
+    {"type": "fact", "text": "Liotard had just spent four years in Constantinople, today's Istanbul. He came back to Europe wearing Turkish robes, a fur hat and a beard down to his waist, and kept the outfit. Vienna's court called him “the Turkish painter” and lined up for portraits."},
+    {"type": "text", "text": "Powder is a strange tool for what Liotard wanted, which was precision. He disliked visible strokes and smoothed them away until the hand of the artist disappeared. The test of that ambition sits on the tray, where three different materials meet within a few centimeters."},
+    {"type": "tour", "title": "On the tray", "text": "Glass, porcelain, lacquer: follow how each one catches the light.", "spots": [
+      {"x": 0.765, "y": 0.285, "zoom": 4, "r": 0.06, "title": "The cup", "text": "White porcelain with painted flowers, filled to the brim with dark chocolate. It sits in a metal holder fixed to the saucer, made so that a full cup would not slide on the way to the table."},
+      {"x": 0.63, "y": 0.295, "zoom": 4, "r": 0.05, "title": "The water", "text": "Hot chocolate was thick and rich, so it came with a glass of water. Liotard draws the waterline, the thick base, and the tray seen through the liquid, slightly shifted."},
+      {"x": 0.58, "y": 0.345, "zoom": 3.2, "r": 0.09, "title": "Two hands", "text": "One hand in front, one behind, thumbs on the rim. The dark tray is polished enough to mirror the saucer. She walks steadily: nothing here is about to spill."}
+    ]},
+    {"type": "text", "text": "Chocolate in the 1740s was an expensive import, a drink for the rich. The girl carrying it will not taste it. And yet Liotard gives her the full length of a large sheet of parchment, about 82 centimeters (32 inches) high, a format usually kept for people with titles."},
+    {"type": "text", "text": "He also gives her nothing else. No kitchen, no mistress waiting, no story. Just a pale wall, a wooden floor, and daylight. That daylight has a source, and Liotard left one small proof of where it is."},
+    {"type": "find", "text": "The room has a window that we cannot see. One object on the tray shows it to you. Tap it.", "spots": [
+      {"x": 0.63, "y": 0.3, "zoom": 4.5, "r": 0.04, "title": "The window in the glass", "text": "On the curve of the glass, small bright rectangles: the panes of a window, reflected. With a few touches of white chalk, Liotard tells you the room continues behind your shoulder."}
+    ]},
+    {"type": "text", "text": "The pastel was sold almost at once. In 1745, in Venice, an Italian count buying for the ruler of Saxony picked it out for the royal collection in Dresden. He praised its lack of shadows and its finish, and compared it to the work of the German master Holbein."},
+    {"type": "fact", "text": "Nobody knows who she was. A romantic legend says she was a Viennese servant named Anna Baltauf who married a prince after he fell for her over a cup of chocolate. It is a lovely story with no solid evidence behind it."},
+    {"type": "key", "text": "Liotard treated a servant at work with the patience other artists saved for queens. Take away the anecdote, and what remains is attention itself."},
+    {"type": "explore", "spots": [
+      {"x": 0.38, "y": 0.075, "zoom": 3, "r": 0.1, "title": "The bonnet", "text": "Pink silk, a pale blue ribbon, a lace edge. Three textures in one small cap, each drawn with a different pressure of the chalk."},
+      {"x": 0.44, "y": 0.1, "zoom": 3.5, "r": 0.06, "title": "A strict profile", "text": "She is seen exactly from the side, eyes lowered toward the tray. A profile keeps a person at a distance: she does not pose for us, she is busy."},
+      {"x": 0.34, "y": 0.33, "zoom": 2.4, "r": 0.11, "title": "The jacket", "text": "The one warm color in the picture, a golden brown. Its sharp folds shine like stiff silk, against the soft white scarf crossed over her chest."},
+      {"x": 0.42, "y": 0.68, "zoom": 1.8, "r": 0.2, "title": "Fold lines", "text": "The apron shows a grid of creases, as if it had just been unfolded from a cupboard. Liotard records them one by one, like a map."},
+      {"x": 0.16, "y": 0.68, "zoom": 2, "r": 0.1, "shape": "rect", "title": "The grey-blue skirt", "text": "Behind the apron, a cooler fabric with a soft sheen. It keeps her figure from dissolving into the pale wall."},
+      {"x": 0.46, "y": 0.955, "zoom": 3.5, "r": 0.07, "title": "A step", "text": "The only sign of movement: one heeled shoe peeking out below the hem. The floorboards beneath are drawn plank by plank."}
+    ]},
+    {"type": "fact", "text": "Pastel never fully sticks. A hard knock can shake the powder loose, so this picture almost never leaves Dresden. During World War II it was hidden away in a fortress outside the city, and it came through unharmed."}
+  ],
+  "quiz": [
+    {"question": "What is this picture made with?", "options": ["Oil paint on canvas", "Watercolor on paper", "Pastel, sticks of dry powdered color"], "answer": 2, "explanation": "It is a pastel on parchment, with no brush and no oil."},
+    {"question": "Why is there a glass of water next to the chocolate?", "options": ["Thick hot chocolate was served with water", "The maid is thirsty", "It is used to rinse the cup"], "answer": 0, "explanation": "Chocolate was rich and thick, so a glass of water came with it."},
+    {"question": "What does the glass reveal about the room?", "options": ["A second person watching", "A window, reflected on its surface", "A candle burning nearby"], "answer": 1, "explanation": "Small bright rectangles on the glass are the reflected panes of a window."},
+    {"question": "Why was Liotard nicknamed “the Turkish painter”?", "options": ["He was born in Turkey", "He painted only sultans", "He kept wearing Turkish dress and a long beard after living in Constantinople"], "answer": 2, "explanation": "He returned from four years in Constantinople and kept the outfit."},
+    {"question": "How did the girl end up on American chocolate boxes?", "options": ["A chocolate company made her its trademark in 1883", "Liotard sold the image to a merchant himself", "She was a relative of the company's founder"], "answer": 0, "explanation": "Baker's adopted her as its trademark after its president saw the pastel in Dresden."}
+  ],
+  "facts": [
+    {"text": "Historians have proved that the model later married a prince.", "isTrue": false, "explanation": "That is a legend; her identity is unknown."},
+    {"text": "The cup sits in a holder designed to stop it from sliding on the saucer.", "isTrue": true, "explanation": "The metal holder on the saucer kept a full cup steady while it was carried."},
+    {"text": "Liotard liked to leave bold, visible strokes in his work.", "isTrue": false, "explanation": "He smoothed his strokes away until they could not be seen."}
+  ]
+}

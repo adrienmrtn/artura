@@ -1,0 +1,196 @@
+{
+ "teaser": "Van Gogh could list this painting's colors by heart. One of them had been hiding for a century.",
+ "focus": [
+  0.47,
+  0.36
+ ],
+ "review_notes": "Image matches the listed work (Woman in Blue Reading a Letter, Rijksmuseum).\nVan Gogh's letter to Emile Bernard (Arles, late July 1888) mentions a Vermeer of a 'very beautiful Dutch lady, pregnant' and lists the palette as blue, lemon yellow, pearl gray, black, white; I paraphrase rather than quote. Check wording.\nRestoration 2010-2011 at the Rijksmuseum removed yellowed varnish.\nMap identified as Balthasar Florisz van Berckenrode's map of Holland and West Friesland, also seen in Officer and Laughing Girl (Frick Collection).\nBequest of Adriaan van der Hoop to the city of Amsterdam (1854), on loan to the Rijksmuseum since 1885; often described as the first Vermeer to enter the Rijksmuseum.\nPearls on the table are very faint in this reproduction.\nDimensions 46.5 x 39 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In the summer of 1888, Vincent van Gogh wrote from the south of France to a painter friend. Did he know an artist called Vermeer, who had painted a very beautiful Dutch lady, pregnant? Then Van Gogh listed the strange painter's palette from memory: blue, lemon yellow, pearl gray, black, white."
+  },
+  {
+   "type": "text",
+   "text": "The lady was almost certainly this one. Van Gogh had seen her in Amsterdam three years earlier, and she had stayed with him. He was struck by the same thing that strikes you now: how few colors Vermeer needs. Take away the blue and there is nearly nothing left but the color of sand."
+  },
+  {
+   "type": "fact",
+   "text": "That blue is ultramarine, made by grinding lapis lazuli, a stone brought from mines in what is now Afghanistan. It cost more than most painters could justify. Vermeer used it lavishly here, and even stirred a little into the shadows on the white wall."
+  },
+  {
+   "type": "text",
+   "text": "The room gives almost no clues. There is no window in the picture, only its light, pouring in from the left. There is no envelope, no sender. Everything that could explain the scene is held back. What is left is a woman, a sheet of paper, and the few seconds in which she reads it."
+  },
+  {
+   "type": "tour",
+   "title": "Reading her reading",
+   "text": "Since nobody speaks, the story has to be gathered from three places.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.27,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "Parted lips",
+     "text": "Her head is bowed and her mouth slightly open, as if she were forming the words. Her eye is a soft shadow. Vermeer blurs the face so you cannot settle on one feeling."
+    },
+    {
+     "x": 0.4,
+     "y": 0.42,
+     "zoom": 3.4,
+     "r": 0.08,
+     "title": "Two tight hands",
+     "text": "She grips the letter with both hands, elbows pressed in. It is the only tension in the whole body. Whatever it says, it matters."
+    },
+    {
+     "x": 0.3,
+     "y": 0.67,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The table",
+     "text": "A second sheet lies on the table: the letter runs to more than a page. Beside it, barely visible in the dark, is a string of pearls she seems to have put down to read."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now the question Van Gogh thought he had answered. Is she pregnant? Perhaps. But the loose satin jacket she wears was ordinary indoor dress in the 1660s, and it gave many women that bell shape. Vermeer leaves it open, like everything else in the room."
+  },
+  {
+   "type": "text",
+   "text": "Behind her hangs a map of Holland, the same one Vermeer hung in another of his interiors. A map points outside, to roads, ports and long distances. In a country of sailors and merchants, a letter usually came from far away, and from someone missed."
+  },
+  {
+   "type": "fact",
+   "text": "For more than a century the painting looked greenish and dull. Old varnish had turned yellow, and yellow over blue reads as green. A restoration in 2010 and 2011 removed it. The jacket came back blue, and details surfaced that nobody had noticed, like the brass nails on the chairs."
+  },
+  {
+   "type": "text",
+   "text": "With the fog lifted, you can see how carefully the calm is built. Vermeer sets her in a frame of straight edges: the map above, a chair on each side. And he bends one rule of nature to keep her still."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.14,
+     "y": 0.6,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The left chair",
+     "text": "Blue leather, brass nails catching the light, and a bluish shadow on the wall behind. Vermeer saw that shadows on a white wall are not gray. They carry color."
+    },
+    {
+     "x": 0.6,
+     "y": 0.5,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "No shadow",
+     "text": "The chair casts a shadow, yet the woman casts almost none on the wall beside her. Without it she seems to float in the light, outside of time."
+    },
+    {
+     "x": 0.26,
+     "y": 0.425,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The map rod",
+     "text": "A dark rod with a blue knob weighs the map down. It runs across the picture exactly at the height of her hands and the letter, like an underline."
+    },
+    {
+     "x": 0.7,
+     "y": 0.2,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "The map",
+     "text": "Painted in ochre only, with rivers and coastlines turned on their side. Its busy surface makes the smooth blue jacket in front of it look even quieter."
+    },
+    {
+     "x": 0.92,
+     "y": 0.7,
+     "zoom": 2.2,
+     "r": 0.1,
+     "title": "The right chair",
+     "text": "A second chair, cut by the frame, closes the scene on the right. Its empty seat faces her. Some viewers read it as the place of the person who wrote.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "A banker named Adriaan van der Hoop left the painting to the city of Amsterdam when he died in 1854. It has been on loan to the Rijksmuseum since 1885, which makes it the first Vermeer the museum could show."
+  },
+  {
+   "type": "key",
+   "text": "Vermeer tells you almost nothing about this woman, and that is why you keep looking. The letter stays private. You are only allowed the silence around it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which later painter described this picture's colors in a letter?",
+   "options": [
+    "Pablo Picasso",
+    "Vincent van Gogh",
+    "Claude Monet"
+   ],
+   "answer": 1,
+   "explanation": "Van Gogh wrote about it to a friend in 1888, listing Vermeer's palette."
+  },
+  {
+   "question": "What is the blue pigment made from?",
+   "options": [
+    "Ground lapis lazuli stone",
+    "Crushed blue flowers",
+    "Burnt copper"
+   ],
+   "answer": 0,
+   "explanation": "Ultramarine comes from lapis lazuli and was very expensive."
+  },
+  {
+   "question": "Why did the painting look greenish before 2010?",
+   "options": [
+    "Vermeer painted it green",
+    "It was hung under green glass",
+    "Its old varnish had turned yellow"
+   ],
+   "answer": 2,
+   "explanation": "Yellowed varnish over blue paint reads as green; restorers removed it."
+  },
+  {
+   "question": "What lies on the table next to the second sheet of the letter?",
+   "options": [
+    "A wine glass",
+    "A string of pearls",
+    "A candle"
+   ],
+   "answer": 1,
+   "explanation": "Pearls rest in the shadow, as if she set them down to read."
+  },
+  {
+   "question": "What is unusual about the wall behind the woman?",
+   "options": [
+    "She casts almost no shadow on it",
+    "It has a large window",
+    "It is painted gold"
+   ],
+   "answer": 0,
+   "explanation": "The chair casts a shadow, but Vermeer gives her almost none."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The window that lights the room is visible on the left of the painting.",
+   "isTrue": false,
+   "explanation": "Only the light is shown; the window itself is outside the frame."
+  },
+  {
+   "text": "Vermeer mixed some of his costly blue into the shadows on the white wall.",
+   "isTrue": true,
+   "explanation": "The shadows behind the chair are bluish, not gray."
+  },
+  {
+   "text": "Historians are certain that the woman is pregnant.",
+   "isTrue": false,
+   "explanation": "Her loose jacket was normal indoor dress, so the question stays open."
+  }
+ ]
+}

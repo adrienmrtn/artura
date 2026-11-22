@@ -1,0 +1,335 @@
+{
+ "teaser": "A saint is struck by a vision. Bellini paints everything except the vision.",
+ "focus": [
+  0.6,
+  0.62
+ ],
+ "review_notes": "Stigmata on Mount La Verna, 1224; Francis died 1226.\nThe faint wound marks on the hands are reported by the Frick; they are barely visible in this reproduction, so the spot text is cautious.\nBird near the water spout is usually identified as a kingfisher; the grey bird near the donkey as a heron; the donkey sometimes as an onager (wild ass).\nMoses readings (removed sandals, water from the rock) are scholarly interpretations.\nMichiel saw the panel in Taddeo Contarini's house in 1525 and said it was made for Zuan Michiel.\nFrick technical study (2010) found the panel was trimmed at the top; whether a seraph was ever painted there is unknown.\nHenry Clay Frick bought it in 1915. Size about 124.6 x 142 cm, oil on poplar.\nQuote from Marcantonio Michiel (mirabilmente finito e ricercato) translated as wonderfully finished and studied.\nFrick displayed it in his Living Hall; claim that he used to sit in that room.\nCatalog year 1480 is approximate (usually c. 1476 to 1480).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Everything in this picture says that something enormous is happening. A barefoot monk has stepped out of his shelter, thrown his arms wide and lifted his face, mouth open. And in the place he is looking at, there is nothing. No angel, no figure in the clouds. Only daylight on rock."
+  },
+  {
+   "type": "text",
+   "text": "The monk is Francis of Assisi, the rich merchant's son who gave everything away and founded an order of wandering preachers. In 1224, two years before his death, he withdrew to a mountain called La Verna to pray. There, his followers said, the wounds of the crucified Christ appeared on his own hands, feet and side. These marks are called the stigmata."
+  },
+  {
+   "type": "text",
+   "text": "Painters before Bellini had a fixed recipe for that scene: a six-winged angel bearing a crucified figure hovers in the sky, and thin gold rays shoot down to the saint's body. Around 1480, Giovanni Bellini kept the saint and left out the special effects. So what is doing the miracle?"
+  },
+  {
+   "type": "lines",
+   "text": "Follow the light. It has a direction, and it is not quite the sun's.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.02,
+       0.02
+      ],
+      [
+       0.14,
+       0.16
+      ],
+      [
+       0.2,
+       0.24
+      ]
+     ],
+     "closed": false,
+     "label": "A glow in the corner",
+     "text": "At the top left the clouds flare yellow, and the young laurel tree below them bends and shines as if a strong wind and light had just hit it."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.24
+      ],
+      [
+       0.42,
+       0.44
+      ],
+      [
+       0.6,
+       0.6
+      ]
+     ],
+     "closed": false,
+     "label": "Across the valley",
+     "text": "Draw on from the tree and you arrive at Francis's chest. He faces exactly this way, body and gaze turned up toward the corner."
+    },
+    {
+     "points": [
+      [
+       0.58,
+       0.945
+      ],
+      [
+       0.65,
+       0.935
+      ],
+      [
+       0.72,
+       0.93
+      ]
+     ],
+     "closed": false,
+     "label": "His shadow",
+     "text": "A shadow stretches along the ground behind him, to the right. Whatever lights him comes from the upper left, low and strong."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Bellini's answer is that the light itself is the visitor. He trusts paint to carry a religious event with no supernatural figure at all, only a change in the sky that one man feels and the rest of the valley does not. A shepherd goes on minding his flock in the distance. A donkey stands and waits."
+  },
+  {
+   "type": "fact",
+   "text": "Look for wounds and you will have trouble. Bellini painted only small, faint marks on the open palms, so discreet that for a long time people argued about whether the picture shows the stigmata at all, or Francis simply singing his hymn of praise to the sun."
+  },
+  {
+   "type": "key",
+   "text": "Sacred light and ordinary daylight are the same paint here. Bellini lets the natural world do the work that gold rays and angels used to do."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the word “desert”. It means wilderness, the lonely place where hermits go, and this one is no wasteland. Francis is remembered as the saint who preached to birds and called the sun his brother, and Bellini fills his retreat with living things and with the few objects a hermit owns."
+  },
+  {
+   "type": "tour",
+   "title": "The hermit's cell",
+   "text": "Behind him, under the cliff, is where he lives.",
+   "spots": [
+    {
+     "x": 0.89,
+     "y": 0.72,
+     "zoom": 3,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The desk",
+     "text": "A rough reading desk knocked together from planks, with a closed red book. He has left his reading to come outside."
+    },
+    {
+     "x": 0.975,
+     "y": 0.652,
+     "zoom": 4.5,
+     "r": 0.035,
+     "shape": "arrow",
+     "title": "The skull",
+     "text": "On the corner of the desk sits a skull, a hermit's reminder that life is short. Above it, a thin cross of reeds stands against the dark."
+    },
+    {
+     "x": 0.895,
+     "y": 0.95,
+     "zoom": 4,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "The sandals",
+     "text": "His wooden sandals lie under the desk. He stands barefoot, as Moses did in the Bible when told he was on holy ground."
+    },
+    {
+     "x": 0.83,
+     "y": 0.3,
+     "zoom": 2.2,
+     "r": 0.16,
+     "shape": "circle",
+     "title": "The grapevine",
+     "text": "A vine trained over poles makes a roof for the cell. Someone has woven a wattle fence behind it. This wilderness is cared for."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Each of those objects is painted as if it mattered as much as the saint. That was new in Italy. Bellini had studied pictures from the Netherlands, where painters used oil to describe every leaf and nail, and he brought that patience to a Venetian panel more than a meter wide (124 by 142 centimeters, about 49 by 56 inches)."
+  },
+  {
+   "type": "fact",
+   "text": "The rock is not gray. Bellini painted the cliff in blue-greens that turn cream where the light strikes, a color scheme found nowhere in nature. It makes the stone look lit from inside, like the walls of a cold cathedral."
+  },
+  {
+   "type": "find",
+   "text": "Francis preached to the birds. A tall gray one, a heron, stands very still in this landscape. Where?",
+   "spots": [
+    {
+     "x": 0.11,
+     "y": 0.475,
+     "zoom": 4,
+     "r": 0.04,
+     "shape": "circle",
+     "title": "The heron",
+     "text": "It stands on a ledge at the left, facing the donkey across a patch of grass. Both are still, and both are turned toward the saint's side of the picture."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The donkey beside it may be the plain animal Francis rode when he was too weak to walk. Further back, a walled town climbs a hill with a castle on top. It is the world he walked away from, close enough to see, with its towers painted as lovingly as the weeds at his feet."
+  },
+  {
+   "type": "text",
+   "text": "The first owner we can name was a Venetian official, Zuan Michiel. By 1525 the panel hung in the palace of Taddeo Contarini, where a visitor admired its landscape “wonderfully finished and studied”. It was a private picture for long looking, and that suits it."
+  },
+  {
+   "type": "fact",
+   "text": "The American steel magnate Henry Clay Frick bought the painting in 1915. It still hangs in his former New York mansion, in the room where he used to sit, and it is many visitors' favorite thing in the house."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.61,
+     "y": 0.565,
+     "zoom": 4,
+     "r": 0.05,
+     "shape": "circle",
+     "title": "His face",
+     "text": "Head back, lips parted, eyes fixed on the upper left. Bellini paints awe without any drama in the body: the feet are planted, the robe hangs straight."
+    },
+    {
+     "x": 0.51,
+     "y": 0.724,
+     "zoom": 4,
+     "r": 0.04,
+     "shape": "circle",
+     "title": "The open hand",
+     "text": "Palm turned out to receive. Any wound here is a tiny dark touch you can barely make out, even at this size."
+    },
+    {
+     "x": 0.126,
+     "y": 0.957,
+     "zoom": 4.5,
+     "r": 0.04,
+     "shape": "circle",
+     "title": "The signature",
+     "text": "A scrap of paper caught on a dead twig carries the painter's name in Latin capitals. A small trick: paint pretending to be a label that blew in."
+    },
+    {
+     "x": 0.057,
+     "y": 0.805,
+     "zoom": 4,
+     "r": 0.045,
+     "shape": "circle",
+     "title": "The spout",
+     "text": "Water runs from a pipe set in the rocks at the far left. Some scholars link it to Moses striking water from a stone in the desert."
+    },
+    {
+     "x": 0.246,
+     "y": 0.79,
+     "zoom": 4.5,
+     "r": 0.035,
+     "shape": "arrow",
+     "title": "A small bird",
+     "text": "A dark little bird perches on the bare stone ledge, usually said to be a kingfisher. You could look at this panel for years before meeting it."
+    },
+    {
+     "x": 0.39,
+     "y": 0.15,
+     "zoom": 3.2,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The castle",
+     "text": "A fortress in warm evening color crowns the hill. Power and walls, a short walk from a man who owns a book and a skull."
+    },
+    {
+     "x": 0.12,
+     "y": 0.385,
+     "zoom": 4,
+     "r": 0.045,
+     "shape": "circle",
+     "title": "The shepherd",
+     "text": "A tiny figure with his sheep, on the far side of the fence. He notices nothing. Miracles in Bellini happen quietly."
+    },
+    {
+     "x": 0.524,
+     "y": 0.775,
+     "zoom": 4.5,
+     "r": 0.035,
+     "shape": "arrow",
+     "title": "The rabbit",
+     "text": "Just under the saint's outstretched hand, a rabbit pokes its head out of a gap in the dry stone wall. It is the nearest witness, and it is not afraid."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is missing from Bellini's version of the scene, compared with earlier ones?",
+   "options": [
+    "The saint's robe",
+    "The winged angel and gold rays in the sky",
+    "The landscape"
+   ],
+   "answer": 1,
+   "explanation": "Earlier painters showed a six-winged angel and rays; Bellini shows only light."
+  },
+  {
+   "question": "Where does the light striking Francis come from?",
+   "options": [
+    "The upper left",
+    "Directly overhead",
+    "The cave behind him"
+   ],
+   "answer": 0,
+   "explanation": "The glowing corner, the bent laurel and his shadow all point to the upper left."
+  },
+  {
+   "question": "Why is Francis barefoot, according to one reading?",
+   "options": [
+    "He has lost his shoes in the river",
+    "Monks were forbidden shoes",
+    "Like Moses, he stands on holy ground"
+   ],
+   "answer": 2,
+   "explanation": "His sandals lie under the desk, recalling Moses removing his."
+  },
+  {
+   "question": "What does “desert” mean in the title?",
+   "options": [
+    "A sandy wasteland",
+    "A wilderness where hermits withdraw",
+    "An abandoned city"
+   ],
+   "answer": 1,
+   "explanation": "It is the lonely place of prayer, and here it is full of life."
+  },
+  {
+   "question": "Which painting tradition taught Bellini this patient detail?",
+   "options": [
+    "Netherlandish oil painting",
+    "Byzantine mosaics",
+    "Ancient Greek vases"
+   ],
+   "answer": 0,
+   "explanation": "He had studied pictures from the Netherlands, where every leaf was described in oil."
+  },
+  {
+   "question": "How does the shepherd in the distance react to the event?",
+   "options": [
+    "He kneels",
+    "He runs away",
+    "He notices nothing"
+   ],
+   "answer": 2,
+   "explanation": "He goes on minding his flock."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bellini shows a six-winged angel above Saint Francis.",
+   "isTrue": false,
+   "explanation": "He left the angel out and let the light carry the event."
+  },
+  {
+   "text": "The stigmata are painted as large, bleeding wounds.",
+   "isTrue": false,
+   "explanation": "Only small faint marks appear on the palms, and people long debated whether they were there."
+  },
+  {
+   "text": "Henry Clay Frick bought the painting in 1915.",
+   "isTrue": true,
+   "explanation": "It still hangs in his former mansion in New York."
+  }
+ ]
+}

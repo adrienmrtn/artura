@@ -1,0 +1,260 @@
+{
+ "teaser": "A widow asked for a picture to dream by. Europe ended up dreaming it with her.",
+ "focus": [
+  0.42,
+  0.6
+ ],
+ "review_notes": "IMAGE MISMATCH: the image is not the Met's 1880 panel (darker, about 74 x 122 cm, ratio 1.65). Its proportions (about 1.88) and daylight sky match the later 80 x 150 cm versions, most likely the third version of 1883 (Alte Nationalgalerie, Berlin). The lesson text is written for the Met version and the series; spots point only at motifs shared by all versions.\nMarie Berna commission, 'a picture to dream by', coffin and white figure added at her request: per the Met's catalog entry.\nTitle coined by dealer Fritz Gurlitt in 1883; Böcklin called it 'a picture for dreaming over'.\nFourth version destroyed in World War II (often said: Berlin bank vault / Rotterdam); kept vague.\nHitler bought the third version in 1933.\nRachmaninoff's symphonic poem (1909) was inspired by a black and white reproduction seen in Paris.\nNabokov's remark about prints 'in every Berlin home' comes from his novel Despair; paraphrased.\nEnglish Cemetery in Florence and burial of infant daughter Maria there: common hypothesis, presented as such.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The version of this picture in New York is painted on a wooden panel, not on canvas. It measures about 74 by 122 cm (29 by 48 in), small enough for one person to carry across a room. Wood gives a hard, smooth surface, and paint laid on it keeps a dense, enamel-like depth. For a scene of rock, still water and silence, that matters."
+  },
+  {
+   "type": "text",
+   "text": "Spring 1880, Florence. A young widow named Marie Berna visited the studio of the Swiss painter Arnold Böcklin and saw an unfinished picture on his easel: a rocky island at dusk, with a boat gliding toward it. She ordered a second one for herself, and asked for something specific: a picture to dream by."
+  },
+  {
+   "type": "text",
+   "text": "Her husband had died years earlier, and she was about to remarry. At her request, Böcklin added two things to the boat. They changed a moody landscape into a funeral, and he liked the result so much that he went back and painted them into the first version too."
+  },
+  {
+   "type": "tour",
+   "title": "The passengers",
+   "text": "Everything in the picture is still except this small boat. Three stops on board.",
+   "spots": [
+    {
+     "x": 0.375,
+     "y": 0.825,
+     "zoom": 4.5,
+     "r": 0.035,
+     "title": "The white figure",
+     "text": "Standing, wrapped in white from head to foot, back turned to us. A mourner, a priest, a soul? Böcklin never said. It is the brightest thing in the whole picture.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.397,
+     "y": 0.853,
+     "zoom": 4.5,
+     "r": 0.035,
+     "title": "The coffin",
+     "text": "In front of the figure lies a box draped in white and hung with garlands. This is one of the two additions Marie Berna asked for. Without it, the boat could be going anywhere."
+    },
+    {
+     "x": 0.345,
+     "y": 0.85,
+     "zoom": 4.5,
+     "r": 0.035,
+     "title": "The rower",
+     "text": "A dark figure at the oars, seen from behind. Many viewers think of Charon, the ferryman who carries the dead across the river Styx in Greek myth. Here the water is flat and the oars barely disturb it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice that nobody faces you. Rower and passenger both look toward the island, so you look with them. You are placed just behind the boat, a little above the water, as if you were following in a second one."
+  },
+  {
+   "type": "fact",
+   "text": "Böcklin did not call it Island of the Dead. He spoke of it as a picture for dreaming over. The famous title came from his Berlin art dealer, Fritz Gurlitt, in 1883, and it stuck so firmly that it now covers every version."
+  },
+  {
+   "type": "text",
+   "text": "Because there are several. Between 1880 and 1886 Böcklin painted the island five times, for different buyers, changing the light, the size and the height of the rocks each time. Four survive, in Basel, New York, Berlin and Leipzig. The fourth was lost in World War II and is known only from a black and white photograph."
+  },
+  {
+   "type": "text",
+   "text": "So why did one image hold so many people? Part of the answer is how it is built. The island has almost no detail to read, and a very strict geometry."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines hold the whole picture together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.8
+      ],
+      [
+       1.0,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The water line",
+     "text": "A dead-level horizontal from edge to edge. No waves, no wind. Level lines feel calm, and this one also feels final."
+    },
+    {
+     "points": [
+      [
+       0.57,
+       0.07
+      ],
+      [
+       0.57,
+       0.72
+      ]
+     ],
+     "closed": false,
+     "label": "The cypresses",
+     "text": "The trees shoot straight up, darker than anything else. Cypresses have been planted in Mediterranean cemeteries since antiquity, so the tree itself says graveyard."
+    },
+    {
+     "points": [
+      [
+       0.13,
+       0.8
+      ],
+      [
+       0.16,
+       0.25
+      ],
+      [
+       0.3,
+       0.08
+      ],
+      [
+       0.36,
+       0.3
+      ],
+      [
+       0.36,
+       0.72
+      ],
+      [
+       0.63,
+       0.72
+      ],
+      [
+       0.66,
+       0.3
+      ],
+      [
+       0.8,
+       0.1
+      ],
+      [
+       0.83,
+       0.45
+      ],
+      [
+       0.84,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The open arms",
+     "text": "The two cliffs curve around the dark center like a horseshoe. The island is a harbor with one entrance, and the boat is pointed straight at it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Level water, upright trees, a wall of rock that closes behind them. The picture gives the eye one way in and no way out. That is why it feels quiet instead of frightening: the journey is nearly over, and nothing is going to interrupt it."
+  },
+  {
+   "type": "text",
+   "text": "The island is not empty rock, though. Somebody has cut into it, and the cuts tell you what the place is for."
+  },
+  {
+   "type": "find",
+   "text": "The coffin has a destination. Find the openings carved into the cliff on the left.",
+   "spots": [
+    {
+     "x": 0.265,
+     "y": 0.46,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Burial chambers",
+     "text": "Dark rectangular doorways are cut into the rock face, with more below them. They are tombs. The whole island is a cemetery, hollowed out like the rock-cut graves of the ancient Mediterranean."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "No real island matches it. One likely source is the English Cemetery in Florence, a walled mound of cypresses close to Böcklin's studio, where his baby daughter Maria was buried. He and his wife lost eight of their fourteen children. He knew this subject from the inside."
+  },
+  {
+   "type": "fact",
+   "text": "Around 1900, prints of the picture hung in living rooms all over German-speaking Europe. Vladimir Nabokov later joked in a novel that you could find it in every Berlin home. Sigmund Freud and Lenin are both said to have owned a reproduction."
+  },
+  {
+   "type": "fact",
+   "text": "In 1909 the Russian composer Sergei Rachmaninoff wrote a twenty-minute orchestral piece named after it. He had only seen a black and white reproduction. Its rocking rhythm, five beats to the bar, imitates the pull of the oars."
+  },
+  {
+   "type": "key",
+   "text": "Böcklin painted a mood, not a story. By refusing to say who is in the boat or where the island lies, he left the picture open enough for each viewer to put a private loss into it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did Marie Berna ask Böcklin to add to the boat?",
+   "options": [
+    "A sail and a lantern",
+    "A coffin and a figure in white",
+    "Her own portrait"
+   ],
+   "answer": 1,
+   "explanation": "The draped coffin and the standing white figure were added at her request."
+  },
+  {
+   "question": "Who gave the picture the title Island of the Dead?",
+   "options": [
+    "Böcklin's dealer, Fritz Gurlitt",
+    "Marie Berna",
+    "Sergei Rachmaninoff"
+   ],
+   "answer": 0,
+   "explanation": "The dealer coined it in 1883; Böcklin spoke of a picture for dreaming over."
+  },
+  {
+   "question": "How many versions of the island did Böcklin paint?",
+   "options": [
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "answer": 2,
+   "explanation": "He painted five between 1880 and 1886, and four survive."
+  },
+  {
+   "question": "What are the dark rectangular openings in the left cliff?",
+   "options": [
+    "Windows of a monastery",
+    "Tombs cut into the rock",
+    "Caves used by fishermen"
+   ],
+   "answer": 1,
+   "explanation": "They are burial chambers, which makes the island a cemetery."
+  },
+  {
+   "question": "Why do cypress trees suit this subject?",
+   "options": [
+    "They have long been planted in Mediterranean cemeteries",
+    "They only grow on islands",
+    "Böcklin had them in his studio"
+   ],
+   "answer": 0,
+   "explanation": "The cypress is the traditional graveyard tree of the Mediterranean."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The version in New York is painted on a wooden panel.",
+   "isTrue": true,
+   "explanation": "The Met's picture is oil on wood, about 74 by 122 cm."
+  },
+  {
+   "text": "Rachmaninoff composed his piece after studying the painting in color for weeks.",
+   "isTrue": false,
+   "explanation": "He knew it from a black and white reproduction."
+  },
+  {
+   "text": "The rower and the white figure both turn to look at the viewer.",
+   "isTrue": false,
+   "explanation": "Both have their backs to us and face the island."
+  }
+ ]
+}

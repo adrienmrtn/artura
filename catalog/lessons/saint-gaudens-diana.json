@@ -1,0 +1,38 @@
+{
+  "teaser": "New York's most scandalous weathervane spun naked and golden above Madison Square.",
+  "focus": [0.55, 0.42],
+  "review_notes": "The photo is blurry, taken from below and tilted (the figure leans in the frame; she stands upright in reality), so only large features are pointed at.\nThe Met's Diana is a half-size gilded bronze cast made in 1928 after the 1892-93 model; the listed year 1894 is approximate (second tower version installed November 1893).\nFirst version: about 18 ft (5.5 m), around 1,800 lb, installed 1891, moved to the 1893 Chicago World's Fair. Second version: about 13 ft (4 m), hollow gilded copper.\nSaint-Gaudens waiving his fee and Stanford White paying the costs: check.\nBody modeled by Julia Baird, face based on Davida Johnson Clark: usual attribution, check.\nAnthony Comstock's protests: commonly reported, check.\nClaim that it was among the first statues lit by electric light at night: check.\nTower figure in the Philadelphia Museum of Art since 1932; Garden demolished 1925.",
+  "lesson": [
+    {"type": "text", "text": "Around 1890, Augustus Saint-Gaudens had everything a sculptor could want except time. He was the most requested artist in America for war memorials and public heroes, and he was late on nearly all of them. One memorial alone would take him fourteen years. He also had a secret: a second household, with his model Davida Clark and their young son."},
+    {"type": "text", "text": "Into this overloaded life walked his closest friend, the architect Stanford White. White was finishing Madison Square Garden, a huge New York entertainment palace with a tower modeled on one in Seville. He wanted something for the very top. Saint-Gaudens said yes, and waived his fee. For once, nobody was asking him for a general on a horse."},
+    {"type": "fact", "text": "The first Diana, hoisted up in 1891, was a mistake. At 18 feet (5.5 meters) she looked out of scale with the tower and was too heavy to turn in the wind. Both friends agreed, took her down within a year and paid for a new one."},
+    {"type": "text", "text": "The second Diana went up in 1893: 13 feet tall (4 meters), hollow, made of thin copper sheets and covered in gold leaf. She had one job besides beauty. She was a weathervane, a figure that swings to show where the wind blows. That explains the strangest thing about her pose."},
+    {"type": "find", "text": "A hunting goddess should stand firmly to shoot. On what is this one standing?", "spots": [
+      {"x": 0.49, "y": 0.75, "zoom": 3.4, "r": 0.06, "title": "The ball", "text": "A small sphere, touched only by the toes of one foot. On the tower, the figure pivoted on a point like this. The whole body is balanced over a single spot so the wind can spin it."}
+    ]},
+    {"type": "text", "text": "So Diana is designed like a machine part. Weight in front, the bow, is balanced by weight behind, the lifted leg. Her arrow pointed into the wind. New Yorkers checked the weather by looking up at a goddess, some 350 feet above the street, among the highest points of the city at the time."},
+    {"type": "fact", "text": "She was Saint-Gaudens's only female nude, and not everyone approved. The anti-vice campaigner Anthony Comstock protested against a naked woman over the city. It did not help his cause that she was lit by electric lamps at night, a novelty, and visible for miles."},
+    {"type": "text", "text": "Diana is the Roman goddess of the hunt and the moon, sworn to remain unmarried. Saint-Gaudens stripped her to essentials: no deer, no hounds, no cloak. The outline had to read from far below against the sky, so every part is thin, clear and stretched."},
+    {"type": "tour", "title": "A shape cut for the sky", "text": "The photo is taken from below, as people saw her on the tower.", "spots": [
+      {"x": 0.7, "y": 0.39, "zoom": 2.6, "r": 0.13, "title": "Bow and arrow", "text": "The bow is fully drawn and the arrow lies level. Together they make a crossbar over the slim vertical of the body: the classic silhouette of a weathervane, an arrow on a mast."},
+      {"x": 0.55, "y": 0.36, "zoom": 3.4, "r": 0.06, "title": "The head", "text": "Small, with hair tied up tight, turned to sight along the arrow. The face is thought to be based on Davida Clark, the woman at the center of the sculptor's hidden life."},
+      {"x": 0.34, "y": 0.68, "zoom": 2.8, "r": 0.09, "title": "The lifted leg", "text": "One leg swings back, foot pointed like a dancer's. It makes her seem to run on air. In practice it is a counterweight for the outstretched arm and bow."}
+    ]},
+    {"type": "text", "text": "The gilded Diana in the Metropolitan Museum is not the one from the tower. It is a half-size bronze, cast in 1928, long after Saint-Gaudens's death in 1907. Her fame had created a demand for smaller versions, and he had begun producing reductions himself in the 1890s."},
+    {"type": "fact", "text": "Madison Square Garden was demolished in 1925. The tower Diana spent years in storage while New York failed to find her a home, then went to the Philadelphia Museum of Art in 1932. She still stands at the top of its great staircase."},
+    {"type": "key", "text": "Diana was a gift between friends, and it shows. Freed from clients and committees, a sculptor known for solemn bronze heroes made the lightest figure of his career."},
+    {"type": "text", "text": "There is an irony in seeing her indoors, fixed in place, at eye level with a balcony. She was built to move, to flash in the sun and to be seen as a tiny golden mark from the street. What you get in exchange is closeness: the chance to notice how little holds her up."}
+  ],
+  "quiz": [
+    {"question": "What was Diana's practical function on the tower?", "options": ["A lightning rod", "A weathervane", "A clock"], "answer": 1, "explanation": "She pivoted with the wind, and her arrow pointed into it."},
+    {"question": "Why was the first version taken down?", "options": ["It was too big for the tower and too heavy to turn", "It was struck by lightning", "It was stolen"], "answer": 0, "explanation": "At 18 feet she looked out of scale and did not spin properly."},
+    {"question": "Why is one leg lifted behind her?", "options": ["She has been wounded", "The sculptor ran out of copper", "It balances the weight of the arm and bow"], "answer": 2, "explanation": "The pose works as a counterweight so the figure balances over one point."},
+    {"question": "Who asked Saint-Gaudens for the statue?", "options": ["The mayor of New York", "His friend, the architect Stanford White", "The Metropolitan Museum"], "answer": 1, "explanation": "White designed Madison Square Garden and wanted a figure for its tower."},
+    {"question": "What is the Diana in the Metropolitan Museum?", "options": ["A half-size cast made in 1928", "The original from the tower", "A marble copy"], "answer": 0, "explanation": "The tower figure is in Philadelphia. The Met's is a smaller gilded bronze."}
+  ],
+  "facts": [
+    {"text": "Diana stands with both feet flat on a wide base.", "isTrue": false, "explanation": "She balances on the toes of one foot, on a small ball."},
+    {"text": "Diana was Saint-Gaudens's only female nude.", "isTrue": true, "explanation": "He was known for clothed heroes and memorials. This was his one exception."},
+    {"text": "The Diana from the tower is now in the Philadelphia Museum of Art.", "isTrue": true, "explanation": "After the Garden was demolished in 1925, she went to Philadelphia in 1932."}
+  ]
+}

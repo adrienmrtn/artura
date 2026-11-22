@@ -1,0 +1,217 @@
+{
+ "teaser": "Monet thought this sunset was too personal to show the Salon. He was probably right.",
+ "focus": [
+  0.47,
+  0.45
+ ],
+ "review_notes": "Monet's letter to Théodore Duret (March 1880) saying one of his three large canvases was too much to his own taste to send to the Salon is paraphrased; it is generally identified with this painting. Check.\nSalon of 1880: a tamer view of Lavacourt accepted, The Ice Floes rejected. Check.\nShown in Monet's solo exhibition at the offices of La Vie Moderne, June 1880: fairly sure, check.\nCamille Monet died 5 September 1879 at Vétheuil; winter 1879-80 exceptionally cold, Seine frozen then thaw in early January 1880.\nSize about 100 x 150 cm.\nThe image includes a sliver of the gilt frame at the edges.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The sun has about ten minutes left. It hangs just above the roofs of a village, small and orange, already dim enough to stare at. The river below is turning pink. In a moment the disc will touch the chimneys, and the color will drain out of everything you see here."
+  },
+  {
+   "type": "text",
+   "text": "That brief window is the whole painting. Monet stood on the bank at Vétheuil, a village on the Seine northwest of Paris, and faced Lavacourt on the far shore. He knew a sunset cannot be copied at leisure. You get a few minutes of it, and then you finish from memory."
+  },
+  {
+   "type": "tour",
+   "title": "Where the orange lives",
+   "text": "Almost the entire canvas is gray, green and dull pink. The pure color is kept for two places.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.42,
+     "zoom": 3.8,
+     "r": 0.04,
+     "title": "The disc",
+     "text": "A flat orange circle with a paler ring around it, the mark of a sun seen through mist. It is tiny: you could cover it with a coin."
+    },
+    {
+     "x": 0.475,
+     "y": 0.69,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The reflection",
+     "text": "Not a smooth streak but separate horizontal dashes of orange and pink, stacked like rungs. Each dash is one ripple catching the light."
+    },
+    {
+     "x": 0.3,
+     "y": 0.47,
+     "zoom": 2.6,
+     "r": 0.14,
+     "title": "Lavacourt",
+     "text": "The village is a blue-green silhouette, roofs and trees melted together by haze. Monet draws no windows and no doors, only the outline against the sky."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those stacked dashes were a trick Monet had used before. Eight years earlier he had painted an orange sun over the harbor of Le Havre and called it Impression, Sunrise, the picture that gave Impressionism its name. Here he returns to the same idea on a canvas three times as wide, about 100 by 150 centimeters (39 by 59 inches)."
+  },
+  {
+   "type": "fact",
+   "text": "The winter of 1879 to 1880 was one of the coldest France had known. The Seine froze solid at Vétheuil, and when the thaw came in January the ice broke up with a noise that woke the village at night."
+  },
+  {
+   "type": "text",
+   "text": "The cold was not the only weight on him. His wife Camille had died in September 1879, at 32, after a long illness. He was left in Vétheuil with two small sons and almost no money. The empty, hushed river he painted that winter is hard to separate from the season he was living through."
+  },
+  {
+   "type": "text",
+   "text": "The stillness is also built. Nothing in the composition tilts or hurries, and a couple of very simple lines, one upright and one level, explain why the scene feels so settled."
+  },
+  {
+   "type": "lines",
+   "text": "A cross, with dark weights hung on either side.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.47,
+       0.42
+      ],
+      [
+       0.475,
+       0.97
+      ]
+     ],
+     "closed": false,
+     "label": "The drop of light",
+     "text": "Sun and reflection sit on one vertical, just left of center. It runs from the disc to the bottom edge like a plumb line."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.5
+      ],
+      [
+       0.98,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "The far bank",
+     "text": "The shoreline cuts the picture almost exactly in half: sky above, water below, each repeating the other’s pinks."
+    },
+    {
+     "points": [
+      [
+       0.64,
+       0.6
+      ],
+      [
+       0.78,
+       0.52
+      ],
+      [
+       0.98,
+       0.5
+      ],
+      [
+       0.98,
+       0.72
+      ],
+      [
+       0.72,
+       0.7
+      ]
+     ],
+     "closed": true,
+     "label": "The island",
+     "text": "A dark bank with a bare tree closes the right side. With the tangle of branches at lower left, it frames the glowing middle like half-drawn curtains."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Inside that calm frame, the only moving things are two small boats near the far shore, each with a pair of figures, placed just beside the path of light. They are a few dark strokes. Without them the river would have no scale, and no life."
+  },
+  {
+   "type": "text",
+   "text": "Monet planned this canvas for the Salon of 1880, the official exhibition he had avoided for ten years and now needed for the money. Then he hesitated. He wrote to a friend that one of his big pictures was too much to his own taste, and that the jury would refuse it. He sent a tamer view of Lavacourt instead, which was accepted."
+  },
+  {
+   "type": "fact",
+   "text": "His return to the Salon infuriated some of his Impressionist friends, who had sworn off the official system. Degas was the angriest and treated it as a betrayal."
+  },
+  {
+   "type": "key",
+   "text": "The picture Monet held back is the one that looks ahead. A whole landscape reduced to haze, two colors and a single instant: this is the road that leads to his late water lilies."
+  },
+  {
+   "type": "text",
+   "text": "It hangs today in the Petit Palais in Paris. Stand in front of it for ten minutes, the time that sun had left, and notice that it never sets."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which village is silhouetted on the far bank?",
+   "options": [
+    "Giverny",
+    "Lavacourt",
+    "Argenteuil"
+   ],
+   "answer": 1,
+   "explanation": "Monet stood at Vétheuil and looked across the Seine to Lavacourt."
+  },
+  {
+   "question": "How is the sun’s reflection painted?",
+   "options": [
+    "As separate horizontal dashes of orange",
+    "As one smooth golden line",
+    "It is not shown"
+   ],
+   "answer": 0,
+   "explanation": "Stacked dashes stand for individual ripples catching the light."
+  },
+  {
+   "question": "Which earlier painting by Monet does this one echo?",
+   "options": [
+    "The Magpie",
+    "Women in the Garden",
+    "Impression, Sunrise"
+   ],
+   "answer": 2,
+   "explanation": "Both show a small orange sun and its broken reflection on water."
+  },
+  {
+   "question": "Why did Monet not send this canvas to the Salon of 1880?",
+   "options": [
+    "It was too large to transport",
+    "He felt it was too personal and would be refused",
+    "It was already sold"
+   ],
+   "answer": 1,
+   "explanation": "He wrote that it was too much to his own taste and sent a tamer view instead."
+  },
+  {
+   "question": "What had happened in Monet’s life a few months before?",
+   "options": [
+    "He had moved to London",
+    "He had won a Salon medal",
+    "His wife Camille had died"
+   ],
+   "answer": 2,
+   "explanation": "Camille died in September 1879, leaving him with two young sons."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The sun and its reflection line up on one vertical, just left of center.",
+   "isTrue": true,
+   "explanation": "That vertical crosses the horizontal far bank and steadies the whole picture."
+  },
+  {
+   "text": "Degas congratulated Monet warmly on returning to the Salon.",
+   "isTrue": false,
+   "explanation": "Degas was furious and saw it as a betrayal of the Impressionist group."
+  },
+  {
+   "text": "The river in the painting is crowded with boats.",
+   "isTrue": false,
+   "explanation": "There are only two small boats, a few dark strokes near the far shore."
+  }
+ ]
+}

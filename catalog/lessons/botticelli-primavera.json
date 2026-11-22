@@ -1,0 +1,361 @@
+{
+ "teaser": "Nine figures, hundreds of flowers, and a meaning nobody has managed to pin down.",
+ "focus": [
+  0.52,
+  0.35
+ ],
+ "review_notes": "Vasari's claim that Botticelli died poor is reported as Vasari's account.\nUffizi 1815, then Accademia 1853 to 1919: check dates.\nPlant counts (about 500 plants, about 190 flowering species) come from the botanical study linked to the 1982 restoration; figures vary by source.\n1499 inventory placing it above a daybed in Lorenzo di Pierfrancesco de' Medici's town house, and the link to his 1482 wedding to Semiramide Appiani: standard scholarship, the wedding link is a hypothesis.\nMontegufoni storage during World War II: check.\nCupid's blindfold is not legible at this image size but is well documented.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "When Sandro Botticelli died in 1510, Florence had moved on. The new names were Leonardo, Michelangelo and Raphael, and his graceful, linear style looked old. The writer Vasari says he ended his days poor and unable to work. For about three hundred years, his name meant very little."
+  },
+  {
+   "type": "text",
+   "text": "This painting shared his eclipse. It hung in a Medici country villa, reached the Uffizi in 1815, and was then sent to another Florentine museum for decades, as if nobody knew what to do with it. Travelers on the grand tour of Italy walked past Botticelli to get to Raphael."
+  },
+  {
+   "type": "text",
+   "text": "The comeback started in England in the 1800s. Painters and critics tired of polished academic art fell for his thin, wistful figures. By 1919 the panel was back in the Uffizi for good. The picture you are looking at went from forgotten to one of the most reproduced images in Europe."
+  },
+  {
+   "type": "fact",
+   "text": "Botticelli never called it “Primavera,” Italian for spring. The name comes from Vasari, who saw it around 1550 and wrote that it showed Venus and the Graces “signifying spring.” The original title, if it had one, is lost."
+  },
+  {
+   "type": "text",
+   "text": "What did the rediscoverers find? A wooden panel over three meters wide (203 by 314 cm, about 6 ft 8 in by 10 ft 4 in), with nine figures strung across an orange grove. No one tells you who they are. But one corner is clear, and it begins with something strange coming out of a mouth."
+  },
+  {
+   "type": "find",
+   "text": "On the right, a girl is being grabbed. Something is spilling from her lips. Tap it.",
+   "spots": [
+    {
+     "x": 0.755,
+     "y": 0.385,
+     "zoom": 4.0,
+     "r": 0.05,
+     "title": "Flowers from her mouth",
+     "text": "A sprig of flowers falls from her lips as she twists to look at her pursuer. She is the nymph Chloris, and she is changing as you watch."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The story comes from the Roman poet Ovid. Zephyr, the west wind, chases the nymph Chloris and takes her by force. Then he marries her and makes her Flora, goddess of flowers. So the frightened girl and the calm woman in the flowered dress beside her are the same person, before and after."
+  },
+  {
+   "type": "text",
+   "text": "That means this half of the painting runs from right to left, against the way you read a page. Once you accept that direction, the rest of the grove starts to organize itself."
+  },
+  {
+   "type": "lines",
+   "text": "Four lines, starting at the right edge, where the wind blows in.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.83,
+       0.28
+      ],
+      [
+       0.755,
+       0.39
+      ],
+      [
+       0.67,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "Wind, nymph, goddess",
+     "text": "Blue-skinned Zephyr dives through the trees, Chloris flees, Flora steps forward. One story told in three bodies, moving left."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.45
+      ],
+      [
+       0.43,
+       0.26
+      ],
+      [
+       0.48,
+       0.17
+      ],
+      [
+       0.535,
+       0.14
+      ],
+      [
+       0.6,
+       0.18
+      ],
+      [
+       0.64,
+       0.27
+      ],
+      [
+       0.64,
+       0.45
+      ]
+     ],
+     "closed": false,
+     "label": "The arch",
+     "text": "Behind Venus the dark trees part and pale sky shows through in a rounded shape. It works like a halo and tells you she is in charge here."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.12
+      ],
+      [
+       0.41,
+       0.19
+      ],
+      [
+       0.3,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "The arrow",
+     "text": "Above her, Cupid aims a flaming arrow down to the left. Follow it and you land on the middle of three dancing women."
+    },
+    {
+     "points": [
+      [
+       0.29,
+       0.38
+      ],
+      [
+       0.13,
+       0.34
+      ]
+     ],
+     "closed": false,
+     "label": "The glance",
+     "text": "That middle dancer is already looking away from the circle, toward the young man at the far left. The arrow has not left the bow, but the result is in."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Venus stands slightly behind the others, a step higher, one hand raised like a hostess greeting you. She is dressed, not nude, and wears the headdress of a married Florentine woman. The bush behind her is myrtle, the plant sacred to her."
+  },
+  {
+   "type": "key",
+   "text": "Primavera is not a single scene. It is a chain of episodes about love, read from right to left, with Venus at the center as its calm ruler."
+  },
+  {
+   "type": "text",
+   "text": "Now drop your eyes to the ground. Botticelli painted in tempera, pigment bound with egg yolk, which dries in minutes and forces the painter to build with tiny strokes. He used that patience on the meadow, flower by flower."
+  },
+  {
+   "type": "fact",
+   "text": "Botanists who studied the panel counted around 500 individual plants, including roughly 190 different kinds of flowers. Many can be named, and most bloom around Florence between March and May."
+  },
+  {
+   "type": "text",
+   "text": "Much of that garden was invisible for a long time. Layers of old varnish had turned the grove into a brown gloom. A restoration finished in 1982 removed them and the flowers came back. The left side of the panel gained the most, so that is where to go next."
+  },
+  {
+   "type": "tour",
+   "title": "The left side",
+   "text": "Three dancers and a man who ignores them.",
+   "spots": [
+    {
+     "x": 0.275,
+     "y": 0.275,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "Linked fingers",
+     "text": "Two of the Three Graces, goddesses of charm and generosity, lace their fingers high above their heads. The dance is a closed ring of hands."
+    },
+    {
+     "x": 0.31,
+     "y": 0.6,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "Dresses like water",
+     "text": "Their gowns are nearly transparent. Botticelli drew them with thin white lines over the skin, so the cloth is more outline than fabric."
+    },
+    {
+     "x": 0.065,
+     "y": 0.14,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "Mercury's wand",
+     "text": "Mercury, messenger of the gods, reaches up with his staff into a few gray wisps at the top corner. He is pushing clouds out of the garden. Nothing may spoil the season."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Mercury wears winged boots and a sword, and he turns his back on everyone. He is the picture's exit, the point where the story leaves the garden. Some scholars read the row of figures as a calendar: Zephyr's blustery March on the right, Mercury's May on the left."
+  },
+  {
+   "type": "text",
+   "text": "Others tie it to a wedding. In 1482 a young Medici cousin, Lorenzo di Pierfrancesco, married Semiramide Appiani. An inventory from 1499 lists this panel in his town house in Florence, hung above a daybed. A painting about desire turning into marriage would suit a bridal room."
+  },
+  {
+   "type": "fact",
+   "text": "During the Second World War the panel was evacuated from Florence and stored in a castle in the Tuscan countryside, Montegufoni, along with other Uffizi treasures. Allied soldiers found them there in 1944, unharmed."
+  },
+  {
+   "type": "text",
+   "text": "Calendar, wedding gift, a lesson in philosophy for a teenager: every reading explains some figures and stumbles on others. So the fairest way to finish is to wander the grove yourself and decide which story you believe."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.52,
+     "y": 0.09,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "Cupid",
+     "text": "Venus's son hovers over her head, blindfolded, because love does not look where it strikes. His arrow is tipped with fire."
+    },
+    {
+     "x": 0.515,
+     "y": 0.25,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "Venus's face",
+     "text": "Head tilted, eyes on you. She is the only figure who clearly acknowledges the viewer."
+    },
+    {
+     "x": 0.665,
+     "y": 0.335,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "Flora",
+     "text": "She wears a wreath and a collar of flowers and almost smiles, a rare thing in Botticelli. Her dress is embroidered with blooms."
+    },
+    {
+     "x": 0.66,
+     "y": 0.58,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "A lap of roses",
+     "text": "Flora carries roses in a fold of her dress and is about to scatter them on the grass."
+    },
+    {
+     "x": 0.8,
+     "y": 0.28,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Zephyr",
+     "text": "His skin is a cold blue-green and his cheeks are puffed. The trees bend where he pushes through, the only trees in the grove that move."
+    },
+    {
+     "x": 0.3,
+     "y": 0.1,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "Oranges",
+     "text": "Fruit and white blossom hang on the same branches, as they really do on orange trees. Golden fruit was also a badge of the Medici family."
+    },
+    {
+     "x": 0.6,
+     "y": 0.9,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "The meadow",
+     "text": "Dozens of small flowers stand out against near-black grass, each painted on its own, like a woven tapestry."
+    },
+    {
+     "x": 0.1,
+     "y": 0.83,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Winged boots",
+     "text": "Mercury's boots, the footwear of a messenger. His feet are planted, though. He is the stillest figure in the painting."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who gave the painting the name “Primavera”?",
+   "options": [
+    "Botticelli himself",
+    "The writer Vasari, decades later",
+    "The Uffizi in 1919"
+   ],
+   "answer": 1,
+   "explanation": "Vasari saw it around 1550 and said it signified spring."
+  },
+  {
+   "question": "In which direction does the story on the right side run?",
+   "options": [
+    "From right to left",
+    "From left to right",
+    "From top to bottom"
+   ],
+   "answer": 0,
+   "explanation": "Zephyr enters at the right edge and the story moves left."
+  },
+  {
+   "question": "Who are the girl with flowers in her mouth and the woman in the flowered dress?",
+   "options": [
+    "Mother and daughter",
+    "Two of the Three Graces",
+    "The same person, before and after her change"
+   ],
+   "answer": 2,
+   "explanation": "Chloris becomes Flora, goddess of flowers."
+  },
+  {
+   "question": "What is Mercury doing with his raised staff?",
+   "options": [
+    "Picking an orange",
+    "Pushing clouds away",
+    "Pointing at Venus"
+   ],
+   "answer": 1,
+   "explanation": "He stirs away a few gray wisps so nothing spoils the garden."
+  },
+  {
+   "question": "What did the 1982 restoration reveal?",
+   "options": [
+    "A hidden tenth figure",
+    "Botticelli's signature",
+    "The flowers, hidden under dark varnish"
+   ],
+   "answer": 2,
+   "explanation": "Removing old varnish brought the meadow back."
+  },
+  {
+   "question": "Where does Cupid's arrow point?",
+   "options": [
+    "At the middle Grace",
+    "At Flora",
+    "At Mercury"
+   ],
+   "answer": 0,
+   "explanation": "Follow the arrow and you land on the middle dancer."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Botticelli was famous without interruption from his lifetime to today.",
+   "isTrue": false,
+   "explanation": "He was largely forgotten for about three hundred years and rediscovered in the 1800s."
+  },
+  {
+   "text": "Botanists have identified roughly 190 kinds of flowers in the painting.",
+   "isTrue": true,
+   "explanation": "About 500 plants were counted, including some 190 flowering kinds."
+  },
+  {
+   "text": "Venus appears nude at the center of Primavera.",
+   "isTrue": false,
+   "explanation": "She is clothed and wears the headdress of a married Florentine woman."
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "teaser": "A young father in debt paints a servant pouring milk, and makes it feel like a ceremony.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "Date: catalog says 1658; the Rijksmuseum gives about 1660.\nVermeer's situation: married Catharina Bolnes in 1653, lived in the house of his mother-in-law Maria Thins, 1657 loan of 200 guilders from Pieter van Ruijven; Van Ruijven as probable first owner.\n1696 Amsterdam sale: 175 guilders, second highest price of the 21 Vermeers sold.\n1908 purchase by the Rijksmuseum with state support after public debate.\nTechnical research: painted-over jug rack on the wall and fire basket on the floor (Rijksmuseum, 2022).\nPinhole for the perspective lines above her right hand: the lines drawn here are approximate.\nFoot warmer and Cupid tile as hints of love; bread-and-milk dish (pudding or porridge) is an interpretation.\nSize about 45.5 x 41 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Around 1658 Johannes Vermeer was in his mid-twenties, married for five years, and short of money. He and his wife Catharina lived in Delft in the house of her mother, with children arriving almost yearly. The year before, he had borrowed 200 guilders from a wealthy neighbor."
+  },
+  {
+   "type": "text",
+   "text": "That neighbor, Pieter van Ruijven, became the main buyer of his work, and this painting was probably among the ones he took. So a servant pouring milk may have helped keep a crowded household running. Vermeer knew kitchens like this one. He lived above one."
+  },
+  {
+   "type": "text",
+   "text": "She is not really a milkmaid, a woman who milks cows. She is a kitchen maid, and she is cooking. Stale bread lies broken on the table. Milk goes into a squat earthenware pot. The likely result is a bread pudding or porridge, a way to waste nothing."
+  },
+  {
+   "type": "fact",
+   "text": "The picture is small: about 45.5 by 41 centimeters (18 by 16 inches). People who know it from posters are often startled in the museum. You could carry it under one arm."
+  },
+  {
+   "type": "text",
+   "text": "Nothing moves except the milk. Her arms are locked, her eyes lowered, her whole body tuned to keeping that thin stream steady. Vermeer picked the one task in a kitchen that forces a person to be still, then let the light do the rest."
+  },
+  {
+   "type": "lines",
+   "text": "Where does the light come from, and where does the room lead your eye?",
+   "lines": [
+    {
+     "points": [
+      [
+       0.04,
+       0.2
+      ],
+      [
+       0.3,
+       0.38
+      ],
+      [
+       0.56,
+       0.27
+      ]
+     ],
+     "closed": false,
+     "label": "Daylight",
+     "text": "It enters through the window on the left, slides along the wall and lands on her cap, forehead and yellow jacket."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.36
+      ],
+      [
+       0.1,
+       0.39
+      ],
+      [
+       0.33,
+       0.46
+      ]
+     ],
+     "closed": false,
+     "label": "The window ledge",
+     "text": "Lines that run into the room, like the bottom of the window frame, aim at a point just above the hand that grips the jug. The room itself points at the task."
+    },
+    {
+     "points": [
+      [
+       0.335,
+       0.585
+      ],
+      [
+       0.335,
+       0.625
+      ]
+     ],
+     "closed": false,
+     "label": "The stream",
+     "text": "A short vertical thread of white, the only motion in the scene. Everything else has been arranged to lead you here."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Specialists found a tiny pinhole in the canvas just above her right hand. Vermeer seems to have stuck a pin there and stretched strings from it to rule the slanting lines of the window."
+  },
+  {
+   "type": "text",
+   "text": "The table is where he lets himself go. He paints the bread with paint that seems to sparkle, not with brown strokes that follow the form. He builds it from dots."
+  },
+  {
+   "type": "tour",
+   "title": "On the table",
+   "text": "A still life sits inside the scene. Still life means a painting of objects, such as food and dishes.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.68,
+     "zoom": 3.4,
+     "r": 0.08,
+     "title": "The broken rolls",
+     "text": "The crust is covered in tiny bright dots of thick paint. They do not describe seeds so much as light bouncing off a rough surface. Painters call this pointillé."
+    },
+    {
+     "x": 0.215,
+     "y": 0.665,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The loaf and basket",
+     "text": "More dots on the loaf and along the woven rim. Up close they look like grains of sand. From a step back, they make the bread look crusty and fresh."
+    },
+    {
+     "x": 0.34,
+     "y": 0.6,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "Jug and pot",
+     "text": "The dark mouth of the jug hides the milk inside, so the white stream seems to appear from nowhere. Both vessels are plain red earthenware."
+    },
+    {
+     "x": 0.2,
+     "y": 0.6,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The blue jug",
+     "text": "A stoneware beer jug with a lid, glazed deep blue and flecked with highlights. Its shine sets off the dull clay next to it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those dots are one reason people have wondered whether Vermeer used a camera obscura, a darkened box with a lens that projects an image, and blurs bright points into little discs. No document proves it. What is certain is that he looked at light very hard."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the wall. A painter in a hurry would have made it a flat gray. Vermeer treats the plaster as a subject of its own, with stains, cracks and the scars left by things that once hung there."
+  },
+  {
+   "type": "find",
+   "text": "Somebody hammered a nail into this bare wall and left it. Can you find it?",
+   "spots": [
+    {
+     "x": 0.461,
+     "y": 0.037,
+     "zoom": 4.5,
+     "r": 0.035,
+     "title": "The nail",
+     "text": "High on the wall, a single nail casts a small shadow to the right. Lower down are dark holes where others were pulled out. This is a used wall, in a house that has been lived in.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The wall was not always so empty. Under the paint, scanning has revealed a rack of jugs behind her head and a large basket on the floor. Vermeer painted both out. Each removal left more blank plaster, and more quiet around the figure."
+  },
+  {
+   "type": "key",
+   "text": "Vermeer made the picture stronger by taking things away. The empty wall is what lets one woman and one stream of milk hold your attention."
+  },
+  {
+   "type": "text",
+   "text": "In the space where the basket used to be, he put something smaller, low down in the right corner. It is easy to overlook, and it may add a second meaning to a scene that seems to have none."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.845,
+     "y": 0.885,
+     "zoom": 3.4,
+     "r": 0.08,
+     "title": "The foot warmer",
+     "text": "A wooden box holding a clay dish of glowing coals, used to warm feet under long skirts. In Dutch pictures of the time it could hint at desire or at steady affection."
+    },
+    {
+     "x": 0.747,
+     "y": 0.853,
+     "zoom": 4.5,
+     "r": 0.035,
+     "title": "The Cupid tile",
+     "text": "Along the base of the wall runs a row of blue Delft tiles. On this one, a tiny figure with a bow: Cupid, the god of love.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.565,
+     "y": 0.27,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Her face",
+     "text": "Half in shadow, eyes down. Vermeer gives her no smile and no story, only attention."
+    },
+    {
+     "x": 0.6,
+     "y": 0.62,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The apron",
+     "text": "A large field of ultramarine, the costly blue made from lapis lazuli, spent here on a servant's work clothes."
+    },
+    {
+     "x": 0.21,
+     "y": 0.24,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The basket",
+     "text": "A wicker basket hangs by the window, probably for bread, its weave picked out strand by strand."
+    },
+    {
+     "x": 0.275,
+     "y": 0.345,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The brass pail",
+     "text": "Polished metal with a handle, catching the window light in a few sharp white strokes."
+    },
+    {
+     "x": 0.63,
+     "y": 0.5,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The forearms",
+     "text": "Her sleeves are pushed up. The skin of the arms is redder and rougher than the face, the arms of someone who works with her hands."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Whether the tile and the warmer are a wink about a maid's daydreams, or just kitchen furniture, nobody can settle. What people have always agreed on is her dignity. Earlier Dutch painters often showed kitchen maids as jokes. Vermeer paints one as if she mattered."
+  },
+  {
+   "type": "fact",
+   "text": "At an Amsterdam auction in 1696, this small canvas fetched 175 guilders, the second highest price among 21 Vermeers sold that day. In 1908, when it risked leaving the country, the Dutch state helped the Rijksmuseum buy it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was Vermeer's situation around the time he painted this?",
+   "options": [
+    "A rich court painter in The Hague",
+    "A young, indebted father living in his mother-in-law's house",
+    "An old man near the end of his career"
+   ],
+   "answer": 1,
+   "explanation": "He was in his mid-twenties, with a growing family and a recent loan of 200 guilders."
+  },
+  {
+   "question": "What is the woman most likely doing?",
+   "options": [
+    "Preparing a dish of bread and milk",
+    "Selling milk at a market",
+    "Washing dishes"
+   ],
+   "answer": 0,
+   "explanation": "Stale bread and milk suggest a pudding or porridge."
+  },
+  {
+   "question": "How did Vermeer paint the crust of the bread?",
+   "options": [
+    "With long smooth strokes",
+    "With a palette knife",
+    "With tiny bright dots of thick paint"
+   ],
+   "answer": 2,
+   "explanation": "The dots, called pointillé, imitate light sparkling on a rough surface."
+  },
+  {
+   "question": "What did scans reveal under the bare wall?",
+   "options": [
+    "A map of Holland",
+    "A jug rack that Vermeer painted out",
+    "A second woman"
+   ],
+   "answer": 1,
+   "explanation": "He removed a rack of jugs and a basket on the floor, leaving the wall empty."
+  },
+  {
+   "question": "What appears on one of the blue tiles near the floor?",
+   "options": [
+    "Cupid with a bow",
+    "A windmill",
+    "A ship"
+   ],
+   "answer": 0,
+   "explanation": "A tiny Cupid stands on the tile next to the foot warmer."
+  },
+  {
+   "question": "What is a camera obscura?",
+   "options": [
+    "A type of blue pigment",
+    "A dark kitchen cellar",
+    "A darkened box with a lens that projects an image"
+   ],
+   "answer": 2,
+   "explanation": "Some think Vermeer used one, though no document proves it."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Milkmaid is a large painting, taller than a person.",
+   "isTrue": false,
+   "explanation": "It measures only about 45.5 by 41 centimeters."
+  },
+  {
+   "text": "A pinhole above the maid's right hand suggests Vermeer used strings to rule his perspective lines.",
+   "isTrue": true,
+   "explanation": "He seems to have fixed a pin there and stretched strings from it."
+  },
+  {
+   "text": "The woman in the picture is shown milking a cow.",
+   "isTrue": false,
+   "explanation": "She is a kitchen maid pouring milk into a pot to cook with."
+  }
+ ]
+}

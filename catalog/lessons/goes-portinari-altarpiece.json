@@ -1,0 +1,291 @@
+{
+ "teaser": "A banker's giant Nativity that sailed from Flanders to Florence and stunned the painters there.",
+ "focus": [
+  0.52,
+  0.5
+ ],
+ "review_notes": "The available image is small (960 px wide for a 6 m triptych), so spots are limited to large regions and moderate zooms.\nHugo's breakdown around 1481 on the way back from Cologne, as told in Gaspar Ofhuys's chronicle; entry into the Red Cloister placed 'around 1477'.\nArrival in Florence in May 1483 and the sixteen porters.\nDimensions about 2.5 x 5.9 m open.\nIdentification of the boys as Antonio and Pigello, the girl as Margherita; saints Anthony Abbot, Thomas, Margaret, Mary Magdalene.\nGhirlandaio's Adoration of the Shepherds (1485, Santa Trinita) borrowing the shepherds.\nTommaso Portinari's loans to Charles the Bold and the closing of the Medici branch in Bruges.\nTransfer to the Uffizi in 1900.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Around 1481, in a monastery outside Brussels, a lay brother began to cry out that he was damned and lost. He tried to hurt himself, and the other monks had to hold him back. His name was Hugo van der Goes. A few years earlier he had been the most admired painter in the Netherlands."
+  },
+  {
+   "type": "text",
+   "text": "A fellow monk wrote down what he thought had broken him: Hugo was tormented by the idea that he could never finish all the pictures he had promised, and that what he made was not good enough. The man who felt like a failure had just painted this."
+  },
+  {
+   "type": "text",
+   "text": "It is a triptych, a painting in three hinged panels: a wide center and two wings that could fold shut over it. Open, it measures about 2.5 meters high and nearly 6 meters across (roughly 8 by 19 feet). Many of the figures are as big as you are."
+  },
+  {
+   "type": "text",
+   "text": "The man who ordered it was not Flemish. Tommaso Portinari, from Florence, ran the Bruges office of the Medici bank. He wanted a spectacular altarpiece for Sant'Egidio, the church of the Florentine hospital his ancestors had founded, and he hired the best painter where he lived."
+  },
+  {
+   "type": "tour",
+   "title": "The center",
+   "text": "The middle panel shows the birth of Christ. Start with the people closest to the baby, and notice how different their sizes are.",
+   "spots": [
+    {
+     "x": 0.485,
+     "y": 0.36,
+     "zoom": 2.2,
+     "r": 0.07,
+     "title": "Mary",
+     "text": "She kneels in dark blue, hands barely touching, eyes down. She is by far the largest figure. There is no joy on her face: she seems to know already how this child's life will end.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.536,
+     "y": 0.73,
+     "zoom": 2.8,
+     "r": 0.06,
+     "title": "The child",
+     "text": "No crib, no blanket, no straw. The newborn lies naked on the bare ground, with thin gold rays around him. Everyone keeps their distance, leaving a ring of empty floor."
+    },
+    {
+     "x": 0.57,
+     "y": 0.42,
+     "zoom": 2.8,
+     "r": 0.05,
+     "title": "Small angels",
+     "text": "These two angels in blue kneel right beside Mary, yet they come up to her waist. The scale is not a mistake. Hugo sizes people by importance, as medieval painters did."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That mix is what makes the picture feel so odd and so tense. The faces, cloth and light are painted with a realism that was brand new. The sizes follow an old rule that had nothing to do with realism. Two ways of seeing share one stable."
+  },
+  {
+   "type": "fact",
+   "text": "Getting it to Italy was an expedition. The panels went by ship around Europe to Pisa, then up the river Arno by barge, and arrived in Florence in 1483. It is said to have taken sixteen porters to carry them to the hospital."
+  },
+  {
+   "type": "text",
+   "text": "When Florentine painters came to see the newcomer, one group of figures drew them more than any other. They are not saints, and they are not rich."
+  },
+  {
+   "type": "find",
+   "text": "Three working men have just rushed in from the fields. Where are they?",
+   "spots": [
+    {
+     "x": 0.665,
+     "y": 0.33,
+     "zoom": 2.6,
+     "r": 0.075,
+     "title": "The shepherds",
+     "text": "Rough hands, stubble, an open mouth, a hat pulled off in a hurry. Each one reacts differently: one prays, one spreads his hands, one cranes forward to see. Nobody in Florence had painted poor men this truthfully."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Two years later the Florentine painter Domenico Ghirlandaio put three very similar shepherds into his own Nativity for a chapel across town. Others studied the textures: fur, velvet, skin. Much of that came from oil paint, which Flemish artists handled with a skill Italians were still learning."
+  },
+  {
+   "type": "key",
+   "text": "The Portinari Altarpiece was a delivery of northern oil painting to the heart of the Italian Renaissance. Its plain, wrinkled shepherds taught Florence a new kind of truthfulness."
+  },
+  {
+   "type": "text",
+   "text": "At the very front, closer to you than any person, Hugo sets down a few objects on the ground. They look like a still life, a quiet arrangement of things. Each one is a message about the baby behind it."
+  },
+  {
+   "type": "tour",
+   "title": "Flowers and wheat",
+   "text": "Three things placed at the bottom edge, right where the priest stood at the altar.",
+   "spots": [
+    {
+     "x": 0.457,
+     "y": 0.87,
+     "zoom": 3,
+     "r": 0.04,
+     "title": "The jar",
+     "text": "A painted pottery jar holds orange lilies and irises. Red-orange flowers were read as the blood of the Passion, and irises, called sword lilies, as the sorrow that would pierce Mary."
+    },
+    {
+     "x": 0.487,
+     "y": 0.86,
+     "zoom": 3,
+     "r": 0.04,
+     "title": "The glass",
+     "text": "Next to it stands a clear glass with dark columbines. The glass lets light through without breaking, an old image for Mary's purity."
+    },
+    {
+     "x": 0.51,
+     "y": 0.93,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "The wheat",
+     "text": "A sheaf of wheat lies on the ground. Bethlehem means “house of bread,” and during Mass, at the altar just below this spot, bread stands for the body of Christ."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The jar is an albarello, a type of pharmacy jar from Spain that rich Europeans collected. It was a fitting choice for a painting made for a hospital."
+  },
+  {
+   "type": "text",
+   "text": "Then come the wings, and with them the family that paid. The custom was to have yourself painted kneeling at the holy scene, watched over by the saints you were named after. The Portinari are all here, much smaller than their protectors."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.19,
+     "y": 0.55,
+     "zoom": 2.6,
+     "r": 0.05,
+     "title": "Tommaso",
+     "text": "The banker himself, kneeling in black at the edge of the left wing, hands joined. Saint Thomas, his name saint, stands above him."
+    },
+    {
+     "x": 0.06,
+     "y": 0.72,
+     "zoom": 3,
+     "r": 0.045,
+     "title": "The sons",
+     "text": "Two small boys kneel behind their father, pressed close together: Antonio and little Pigello."
+    },
+    {
+     "x": 0.1,
+     "y": 0.3,
+     "zoom": 2,
+     "r": 0.09,
+     "title": "Two giants",
+     "text": "Saint Anthony, the bearded old hermit in black, and Saint Thomas in red and green. They tower over the family like guardians."
+    },
+    {
+     "x": 0.048,
+     "y": 0.17,
+     "zoom": 3,
+     "r": 0.04,
+     "title": "The journey",
+     "text": "Far back on the rocky path, two tiny figures: Joseph helps the pregnant Mary down the hill on the way to Bethlehem. The story before the story."
+    },
+    {
+     "x": 0.81,
+     "y": 0.57,
+     "zoom": 2.6,
+     "r": 0.05,
+     "title": "Maria",
+     "text": "Tommaso's wife, Maria Baroncelli, in profile, wearing the tall pointed headdress of Flemish fashion with a veil falling from it."
+    },
+    {
+     "x": 0.915,
+     "y": 0.72,
+     "zoom": 3,
+     "r": 0.04,
+     "title": "Margherita",
+     "text": "Their daughter, in green, kneels in front of her mother. She may be the first real little girl in Flemish painting whose face you remember."
+    },
+    {
+     "x": 0.91,
+     "y": 0.33,
+     "zoom": 2,
+     "r": 0.09,
+     "title": "Two saints",
+     "text": "Saint Margaret in red with a book, and Mary Magdalene in white and gold brocade holding her jar of ointment. Behind them, bare winter trees."
+    },
+    {
+     "x": 0.81,
+     "y": 0.37,
+     "zoom": 3,
+     "r": 0.05,
+     "title": "Riders",
+     "text": "In the distance a group with horses stops on the road. These are the Three Kings and their servants, still on their way."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Tommaso Portinari's own story ended badly. He lent huge sums of Medici money to the Duke of Burgundy, who died in battle in 1477 without repaying. The Medici shut their Bruges office and Tommaso spent years fighting ruin."
+  },
+  {
+   "type": "text",
+   "text": "Hugo died in his monastery in 1482. The altarpiece reached Florence the following year. He never learned that the painters of the proudest art city in Europe had lined up to study it, and it hangs today in the Uffizi among the Italians it surprised."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who commissioned the altarpiece?",
+   "options": [
+    "A Flemish duke",
+    "A Florentine banker working in Bruges",
+    "The monks of Hugo's monastery"
+   ],
+   "answer": 1,
+   "explanation": "Tommaso Portinari ran the Medici bank's Bruges office."
+  },
+  {
+   "question": "Why are the angels so much smaller than Mary?",
+   "options": [
+    "They are far away",
+    "The panel was repainted",
+    "Hugo sized figures by importance"
+   ],
+   "answer": 2,
+   "explanation": "He keeps the medieval rule that more important figures are larger."
+  },
+  {
+   "question": "Which figures impressed Florentine painters most?",
+   "options": [
+    "The shepherds",
+    "The Three Kings",
+    "The angels"
+   ],
+   "answer": 0,
+   "explanation": "The rough, truthful shepherds were soon imitated by Ghirlandaio."
+  },
+  {
+   "question": "What does the sheaf of wheat in the foreground refer to?",
+   "options": [
+    "The harvest season",
+    "The bread of the Mass and Bethlehem, “house of bread”",
+    "The wealth of the Portinari"
+   ],
+   "answer": 1,
+   "explanation": "Wheat points to the bread that stands for Christ's body."
+  },
+  {
+   "question": "Where does the newborn Christ lie?",
+   "options": [
+    "In a wooden crib",
+    "On Mary's lap",
+    "On the bare ground"
+   ],
+   "answer": 2,
+   "explanation": "He lies naked on the ground, surrounded by empty floor."
+  },
+  {
+   "question": "What is a triptych?",
+   "options": [
+    "A painting in three hinged panels",
+    "A painting on canvas",
+    "A portrait of three people"
+   ],
+   "answer": 0,
+   "explanation": "A center panel with two wings that can fold over it."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Hugo van der Goes traveled to Florence to see his altarpiece installed.",
+   "isTrue": false,
+   "explanation": "He died in 1482, a year before it arrived."
+  },
+  {
+   "text": "The family of the donor is painted on the wings, smaller than their patron saints.",
+   "isTrue": true,
+   "explanation": "Tommaso, his wife and three children kneel below much larger saints."
+  },
+  {
+   "text": "The altarpiece was painted in Florence by a local artist.",
+   "isTrue": false,
+   "explanation": "It was painted in Flanders and shipped to Italy."
+  }
+ ]
+}

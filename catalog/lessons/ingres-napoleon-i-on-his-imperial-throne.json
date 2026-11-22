@@ -1,0 +1,289 @@
+{
+ "teaser": "A 26-year-old paints his emperor like a god on a throne. Paris is not impressed.",
+ "focus": [
+  0.5,
+  0.22
+ ],
+ "review_notes": "'Zero sittings' and 'nobody had ordered it': the usual account is that Napoleon did not pose and that the work was not a state commission (it was bought by the Corps législatif); worded with 'as far as we know'.\nDimensions about 259 x 162 cm.\nSources of the pose (Jupiter statues, van Eyck's God the Father in the Ghent Altarpiece, then in the Louvre) are the standard art-historical reading.\nDavid's reported reaction ('unintelligible') is from later accounts; worded as 'is reported'.\nIngres left Paris for Rome in autumn 1806, around the opening of the Salon, and returned to live in Paris in 1824 (18 years).\nBees: small gold motifs on the red velvet are too small to verify individually in this image; the lesson does not point at them.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Zero. As far as we know, that is the number of times Napoleon posed for this portrait. Jean-Auguste-Dominique Ingres was 26, nobody seems to have ordered the picture from him, and he painted the most powerful man in Europe larger than life, on a canvas 2.6 meters tall (about 8 and a half feet)."
+  },
+  {
+   "type": "text",
+   "text": "Napoleon had crowned himself Emperor of the French in December 1804. Two years later this painting appeared at the Salon, the official art exhibition in Paris. It shows him in his coronation robes. But what hits you first is not a robe. It is how rigid everything is."
+  },
+  {
+   "type": "lines",
+   "text": "Four lines hold the whole image in place.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.5,
+       0.1
+      ],
+      [
+       0.5,
+       0.98
+      ]
+     ],
+     "closed": false,
+     "label": "The axis",
+     "text": "Nose, chin and the cross on his chest all sit on one vertical line. He faces you dead on, like a statue at the back of a temple."
+    },
+    {
+     "points": [
+      [
+       0.21,
+       0.3
+      ],
+      [
+       0.24,
+       0.19
+      ],
+      [
+       0.33,
+       0.12
+      ],
+      [
+       0.5,
+       0.09
+      ],
+      [
+       0.67,
+       0.12
+      ],
+      [
+       0.76,
+       0.19
+      ],
+      [
+       0.79,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "The halo",
+     "text": "The gilded back of the throne curves behind his head like the gold disc behind a saint in a church painting. It is furniture, and it is also a halo."
+    },
+    {
+     "points": [
+      [
+       0.08,
+       0.08
+      ],
+      [
+       0.3,
+       0.875
+      ]
+     ],
+     "closed": false,
+     "label": "The scepter",
+     "text": "A long gold staff slants across the left side. It breaks the symmetry just enough to keep the picture from freezing."
+    },
+    {
+     "points": [
+      [
+       0.83,
+       0.16
+      ],
+      [
+       0.6,
+       0.47
+      ]
+     ],
+     "closed": false,
+     "label": "The second staff",
+     "text": "A shorter staff leans the other way. The two form an open V that frames the emperor's head and chest."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "None of this was clumsiness. Painters of the day showed rulers standing, turned a little, in a believable room. Ingres reached much further back: to ancient statues of Jupiter, king of the Roman gods, seated facing front, and to medieval images of God enthroned. He wanted a picture people would obey."
+  },
+  {
+   "type": "fact",
+   "text": "One likely model was close at hand. The central panels of the Ghent Altarpiece, painted by Jan van Eyck in 1432, were then in the Louvre, carried off from Belgium by French armies. Its God the Father sits facing front in red robes, one hand raised."
+  },
+  {
+   "type": "text",
+   "text": "Then come the objects, and every one is a claim. Napoleon was a soldier from Corsica with no royal blood, so his coronation borrowed symbols from a thousand years of rulers. Ingres painted each with the sharpness of a goldsmith's catalog. Tap them in any order."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.2,
+     "zoom": 3,
+     "r": 0.11,
+     "title": "Laurel and face",
+     "text": "Gold laurel leaves, the crown of Roman emperors, over a face as pale and still as wax. A stiff lace collar cuts the head off from the body, like a mask laid on top of the robes."
+    },
+    {
+     "x": 0.075,
+     "y": 0.06,
+     "zoom": 3.5,
+     "r": 0.07,
+     "title": "The scepter",
+     "text": "The tall staff is topped by a tiny seated figure. This scepter was made for King Charles V in the 1300s, and the statuette shows Charlemagne, the emperor Napoleon called his predecessor."
+    },
+    {
+     "x": 0.83,
+     "y": 0.155,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "Hand of justice",
+     "text": "An ivory hand with thumb and two fingers raised, the gesture of blessing. French kings carried it to show they were the highest judge in the land.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.685,
+     "y": 0.43,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The sword",
+     "text": "A jeweled hilt at his hip, on a sword modeled after the one legend gave to Charlemagne. His gloved hand rests just below it."
+    },
+    {
+     "x": 0.5,
+     "y": 0.37,
+     "zoom": 2.6,
+     "r": 0.13,
+     "title": "The collar",
+     "text": "On the white fur lies a heavy gold chain with a star hanging from it: the grand collar of the Legion of Honor, the order of merit Napoleon himself founded in 1802."
+    },
+    {
+     "x": 0.13,
+     "y": 0.415,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Ivory globe",
+     "text": "A polished ball caps each arm of the throne. Ingres gives its soft highlight the same care as the emperor's face."
+    },
+    {
+     "x": 0.6,
+     "y": 0.78,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The slipper",
+     "text": "A white shoe embroidered in gold rests on a cushion. Even the imperial foot is not allowed to touch the floor."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Charlemagne, again and again. He had ruled a thousand years earlier, and Napoleon wanted to look like his heir, stepping over the kings the Revolution had just removed. The white fur dotted with black tails is ermine, the fur of royalty. And the red velvet is sprinkled with small gold insects."
+  },
+  {
+   "type": "fact",
+   "text": "The insects are bees, Napoleon's personal emblem. He took them from golden bees discovered in 1653 in the tomb of Childeric, a king of the Franks who died in 481. They gave him an emblem older than the lily of the French kings."
+  },
+  {
+   "type": "text",
+   "text": "One more creature guards the throne, and after the emperor it is the largest thing in the picture."
+  },
+  {
+   "type": "find",
+   "text": "An eagle is hiding in plain sight. Where?",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.93,
+     "zoom": 1.9,
+     "r": 0.22,
+     "title": "The carpet",
+     "text": "Woven into the carpet under the throne: an eagle with spread wings, its head turned to one side. Like the laurel crown it comes from ancient Rome, whose armies marched behind eagle standards."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So how did Paris receive this blazing icon? Badly. Critics called it “Gothic”, by which they meant stiff and medieval, a step backward. They mocked the pale face. Even Ingres's teacher, Jacques-Louis David, is reported to have found it baffling. The public expected a modern hero and got something closer to a church image."
+  },
+  {
+   "type": "key",
+   "text": "Ingres chose power over likeness. By borrowing the frontal pose of gods and the regalia of old kings, he painted an office, the Emperor, more than a man named Napoleon."
+  },
+  {
+   "type": "text",
+   "text": "Ingres did not hear the laughter in person. Back in 1801 he had won the Prix de Rome, a state scholarship that sent the best young artists to study in Italy, but the money to send him came only in 1806. He left Paris around the time the Salon opened. Friends mailed him the reviews. Hurt, he stayed in Italy for 18 years."
+  },
+  {
+   "type": "fact",
+   "text": "The painting now hangs in the Musée de l'Armée in Paris, inside the Invalides. A short walk away, under the golden dome of the same building, lies Napoleon's tomb."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How is Napoleon posed in this portrait?",
+   "options": [
+    "Standing, turned to one side",
+    "Seated, facing straight ahead",
+    "On horseback"
+   ],
+   "answer": 1,
+   "explanation": "He sits dead center and frontal, like an ancient statue of a god."
+  },
+  {
+   "question": "What does the curved back of the throne suggest behind his head?",
+   "options": [
+    "A halo",
+    "A rising sun on a flag",
+    "A shield"
+   ],
+   "answer": 0,
+   "explanation": "The gilded circle works like the gold disc behind a saint."
+  },
+  {
+   "question": "Which earlier ruler do the scepter and sword point back to?",
+   "options": [
+    "Julius Caesar",
+    "Louis XIV",
+    "Charlemagne"
+   ],
+   "answer": 2,
+   "explanation": "The scepter carries his statuette and the sword is modeled on his legendary one."
+  },
+  {
+   "question": "How did critics react at the Salon of 1806?",
+   "options": [
+    "They called it stiff and “Gothic”",
+    "They praised its realism",
+    "They ignored it"
+   ],
+   "answer": 0,
+   "explanation": "The frontal, medieval look struck them as a step backward."
+  },
+  {
+   "question": "What emblem did Napoleon borrow from the tomb of the Frankish king Childeric?",
+   "options": [
+    "The lily",
+    "The bee",
+    "The lion"
+   ],
+   "answer": 1,
+   "explanation": "Golden bees found in the tomb in 1653 became his personal emblem."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Ingres was in his mid-twenties when he painted this portrait.",
+   "isTrue": true,
+   "explanation": "He was 26."
+  },
+  {
+   "text": "The eagle in the picture is perched on the back of the throne.",
+   "isTrue": false,
+   "explanation": "It is woven into the carpet under the throne."
+  },
+  {
+   "text": "Napoleon sat for Ingres many times so the painter could capture his face.",
+   "isTrue": false,
+   "explanation": "As far as we know, he never posed for this portrait at all."
+  }
+ ]
+}

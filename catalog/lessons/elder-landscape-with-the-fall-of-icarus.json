@@ -1,0 +1,340 @@
+{
+ "teaser": "A boy falls out of the sky and drowns. Nobody in the picture looks up from work.",
+ "focus": [
+  0.43,
+  0.62
+ ],
+ "review_notes": "Dimensions 73.5 x 112 cm, oil on canvas; nearly all Bruegel oils are on oak panel (he also made a few glue-size paintings on linen).\nMuseum acquired the painting in 1912.\nAttribution: now widely considered an early copy of a lost Bruegel original; second version in the Van Buuren Museum, Brussels, includes Daedalus in the sky.\nFlemish proverb 'No plough stops for a dying man' and the reading of the pale shape in the thicket as a dead man's head are standard interpretations, not documented intentions.\nSword and purse at lower left: usually linked to proverbs about money and weapons; kept vague.\nAuden's poem written in Brussels in winter 1938; William Carlos Williams poem published 1960.\nPartridge = Perdix from Ovid, Metamorphoses VIII.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This picture is painted in oil on canvas, about 73 by 112 centimeters (29 by 44 inches). That sounds ordinary. For Pieter Bruegel it is a red flag: almost every oil painting we have from his hand is on a thick oak panel. The cloth under this paint is the first clue to a mystery that is still open."
+  },
+  {
+   "type": "text",
+   "text": "Hold that thought, and start with the title instead. Icarus is the boy from Greek myth whose father, Daedalus, built him wings of feathers and wax. He flew too close to the sun, the wax melted, and he dropped into the sea. So this should be a picture of a disaster. Where is it?"
+  },
+  {
+   "type": "find",
+   "text": "Icarus has just hit the water. Can you find what is left of him above the surface?",
+   "spots": [
+    {
+     "x": 0.855,
+     "y": 0.76,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "Two legs",
+     "text": "Two pale legs kick in the green water, with a few loose feathers drifting down around them. That is the entire hero of the painting: a splash, close to the bottom edge, about to vanish."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A whole myth squeezed into a splash the size of your thumb. Everything else, the huge field, the glowing bay, the ships, belongs to people who have no idea that anything happened. The painter turned the story inside out: the background became the subject, and the subject became a footnote."
+  },
+  {
+   "type": "fact",
+   "text": "The Roman poet Ovid, who told the story best, mentions three witnesses: a fisherman, a shepherd and a ploughman. In his poem they stare up in amazement and take the flying figures for gods. The painter kept all three, and gave them something else to do."
+  },
+  {
+   "type": "tour",
+   "title": "Three witnesses",
+   "text": "Ovid's three men are all here. Follow them from the largest to the smallest, and check where each one is looking.",
+   "spots": [
+    {
+     "x": 0.43,
+     "y": 0.62,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The ploughman",
+     "text": "The biggest figure in the picture, in a red shirt, eyes on the furrow his plough is cutting. His foot is mid-step. The work goes on.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.515,
+     "y": 0.56,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The shepherd",
+     "text": "He leans on his staff and looks up, but to the left, away from the splash. Is he watching Daedalus still flying? In this version the sky he stares at is empty.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.863,
+     "y": 0.927,
+     "zoom": 3.8,
+     "r": 0.05,
+     "title": "The fisherman",
+     "text": "He sits a few steps from the drowning boy, arm stretched toward his line. He is the closest of the three, and he keeps his back curved over the water."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Three people, three ways of missing it. Many viewers connect the scene with an old Flemish proverb: “No plough stops for a dying man.” The world does not pause for your tragedy. It has fields to finish before dark."
+  },
+  {
+   "type": "text",
+   "text": "Now the composition, meaning the way the picture is arranged. A painter who wanted you to pity Icarus would put him in the middle and light him up. This one built a route for your eye that almost never reaches the boy."
+  },
+  {
+   "type": "lines",
+   "text": "Watch how the picture steers you away from its own title.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.03,
+       0.72
+      ],
+      [
+       0.3,
+       0.78
+      ],
+      [
+       0.55,
+       0.86
+      ],
+      [
+       0.48,
+       0.97
+      ]
+     ],
+     "closed": false,
+     "label": "The furrows",
+     "text": "The plowed ridges curve like steps from the left edge to the ploughman's feet. They pull you into the picture toward him, not toward the sea."
+    },
+    {
+     "points": [
+      [
+       0.43,
+       0.55
+      ],
+      [
+       0.55,
+       0.4
+      ],
+      [
+       0.66,
+       0.255
+      ]
+     ],
+     "closed": false,
+     "label": "Up to the sun",
+     "text": "From the red shirt, the eye jumps across the bright bay to the pale disc of the sun on the horizon, the brightest point of the whole canvas."
+    },
+    {
+     "points": [
+      [
+       0.66,
+       0.255
+      ],
+      [
+       0.82,
+       0.5
+      ],
+      [
+       0.855,
+       0.76
+      ]
+     ],
+     "closed": false,
+     "label": "The long way down",
+     "text": "Only then, sliding down past the big ship, do you reach the legs. Icarus is the last stop on the tour, and plenty of visitors leave before it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Did something about that sun bother you? It is sitting on the horizon. Yet the wax on the wings had to be melted by a sun burning high overhead. Either the fall took hours, or the painter did not mind the gap. Nobody has settled it."
+  },
+  {
+   "type": "fact",
+   "text": "A second version of this picture hangs elsewhere in Brussels, in the Van Buuren Museum. There, Daedalus is still up in the sky, which finally explains what the shepherd is gaping at. Both versions probably descend from one lost original."
+  },
+  {
+   "type": "text",
+   "text": "The left half hides darker things. In the thicket above the horse, and on the rock in the corner, are two details that most people only notice the third or fourth time."
+  },
+  {
+   "type": "tour",
+   "title": "The quiet corner",
+   "text": "Two small things on the left. Neither belongs to Ovid's story.",
+   "spots": [
+    {
+     "x": 0.089,
+     "y": 0.54,
+     "zoom": 4.5,
+     "r": 0.04,
+     "title": "A pale face",
+     "text": "A small pale shape lies in the bushes just beyond the horse. It is usually read as the head of a dead man, left unburied in the undergrowth. Another death the plough has passed without stopping.",
+     "shape": "arrow"
+    },
+    {
+     "x": 0.154,
+     "y": 0.86,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "Sword and purse",
+     "text": "On the rock lie a dagger or short sword and a full money bag. They are thought to point to a proverb about wealth and weapons, though scholars still argue over which one."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the canvas is full of small sayings and small deaths, laid into a landscape so pleasant you could hang it in a dining room. That mix of beauty and bluntness is what people mean when they talk about Bruegel: peasants, proverbs, and a calm, slightly merciless eye."
+  },
+  {
+   "type": "text",
+   "text": "Which brings back the cloth. The museum bought the painting in 1912 as a Bruegel. Later technical studies raised doubts, and the handling of the paint looked weaker than his. Today most specialists think this is an early copy of a lost original by Bruegel, which is why the label says “attributed.”"
+  },
+  {
+   "type": "key",
+   "text": "The idea is certainly his, even if the hand may not be: tell a famous tragedy by showing everyone who failed to notice it."
+  },
+  {
+   "type": "fact",
+   "text": "In the winter of 1938 the English poet W. H. Auden stood in front of this picture in Brussels and wrote “Musée des Beaux Arts,” a poem about how suffering happens while someone else is eating or just walking along. It may now be more famous than the painting."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.855,
+     "y": 0.76,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "Icarus",
+     "text": "Legs, foam and a scatter of feathers. The ship beside him has its sails full and is already leaving."
+    },
+    {
+     "x": 0.824,
+     "y": 0.835,
+     "zoom": 4.2,
+     "r": 0.04,
+     "title": "The partridge",
+     "text": "A bird perches on a branch right above the fisherman. In Ovid a partridge watches the fall with glee: it was once Perdix, a boy Daedalus pushed off a tower out of envy."
+    },
+    {
+     "x": 0.82,
+     "y": 0.55,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The ship",
+     "text": "A merchant ship, painted rope by rope, its sails swollen with wind. Trade was the pride of the Low Countries in the 1500s. Its bow points away from the drowning boy."
+    },
+    {
+     "x": 0.66,
+     "y": 0.255,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "The sun",
+     "text": "A half disc on the horizon, washing the sea in yellow. Rising or setting? The painting does not say, and the myth needs it at its highest."
+    },
+    {
+     "x": 0.37,
+     "y": 0.26,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The white city",
+     "text": "A harbor town shimmers below fantastical cliffs. No such coast exists in Flanders: it mixes memories of the Alps and Italy, which Bruegel crossed as a young man."
+    },
+    {
+     "x": 0.15,
+     "y": 0.68,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The horse",
+     "text": "The plough horse is seen from behind, head down, as absorbed in the job as its master. Even the animals are busy."
+    },
+    {
+     "x": 0.56,
+     "y": 0.63,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "The dog",
+     "text": "The shepherd's dog sits patiently at his feet while the flock wanders toward the cliff edge. Nobody here is in a hurry."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What part of Icarus is visible in the painting?",
+   "options": [
+    "His wings spread on the waves",
+    "Two legs kicking in the water",
+    "His face looking up at the sun"
+   ],
+   "answer": 1,
+   "explanation": "Only his legs and a few feathers show above the sea, near the bottom right."
+  },
+  {
+   "question": "Which three witnesses did the painter borrow from Ovid's poem?",
+   "options": [
+    "A fisherman, a shepherd and a ploughman",
+    "A sailor, a king and a priest",
+    "A hunter, a miller and a merchant"
+   ],
+   "answer": 0,
+   "explanation": "Ovid names an angler, a shepherd and a ploughman, and all three are in the picture."
+  },
+  {
+   "question": "Why does the support of this painting make experts suspicious?",
+   "options": [
+    "It is on copper, which Bruegel never owned",
+    "It is on paper glued to wood",
+    "It is oil on canvas, while Bruegel's oils are almost all on oak panel"
+   ],
+   "answer": 2,
+   "explanation": "The canvas is one of the clues suggesting it may be a copy of a lost original."
+  },
+  {
+   "question": "What is odd about the sun?",
+   "options": [
+    "It is on the horizon, though it should be high enough to melt wax",
+    "It is painted green",
+    "There are two of them"
+   ],
+   "answer": 0,
+   "explanation": "The myth needs a blazing midday sun, but this one sits low on the horizon."
+  },
+  {
+   "question": "Which poet wrote “Musée des Beaux Arts” after seeing this painting?",
+   "options": [
+    "William Shakespeare",
+    "Ovid",
+    "W. H. Auden"
+   ],
+   "answer": 2,
+   "explanation": "Auden wrote the poem in Brussels in the winter of 1938."
+  },
+  {
+   "question": "What does the second version in the Van Buuren Museum add?",
+   "options": [
+    "A storm sinking the ship",
+    "Daedalus flying in the sky",
+    "A crowd on the shore"
+   ],
+   "answer": 1,
+   "explanation": "There Daedalus is still airborne, which explains the shepherd's upward stare."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The ploughman is the largest figure in the painting.",
+   "isTrue": true,
+   "explanation": "He dominates the foreground, while Icarus is reduced to two tiny legs."
+  },
+  {
+   "text": "Experts agree without doubt that Bruegel painted this canvas himself.",
+   "isTrue": false,
+   "explanation": "Most specialists now think it is an early copy of a lost Bruegel original."
+  },
+  {
+   "text": "In Ovid's version, the three witnesses ignore the flying figures.",
+   "isTrue": false,
+   "explanation": "In the poem they stare in amazement and take them for gods; the indifference is the painter's twist."
+  }
+ ]
+}

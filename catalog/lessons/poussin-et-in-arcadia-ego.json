@@ -1,0 +1,172 @@
+{
+ "teaser": "Four Latin words on a tomb, and nobody has agreed on who is speaking.",
+ "focus": [
+  0.72,
+  0.36
+ ],
+ "review_notes": "IMAGE/METADATA MISMATCH: the image is NOT the Louvre painting of about 1638 (Les Bergers d'Arcadie, horizontal, four calm figures, no skull). It shows Poussin's FIRST version of the subject, about 1627-28, in the Devonshire Collection at Chatsworth House (vertical, skull on the tomb, river god in the foreground), and it appears slightly cropped at the sides. The lesson is written about the picture on screen and says so openly, presenting the Louvre canvas as the later rethinking. If the image is replaced by the Louvre version, every coordinate and several paragraphs must be redone.\nGuercino's Et in Arcadia ego (about 1618-22, Rome, Galleria Nazionale d'Arte Antica) as the first appearance of the phrase: standard account.\nReading of the phrase as spoken by Death ('Even in Arcadia, I am') versus the later reading 'I too once lived in Arcadia': follows Panofsky's well-known essay.\nRiver god usually identified as Alpheus, the river of Arcadia.\nLouvre version bought by Louis XIV in 1685.\nPoussin's tomb monument in San Lorenzo in Lucina, Rome, commissioned by Chateaubriand around 1830, carries a relief of the Louvre composition.\nPoussin arrived in Rome in 1624 and was about 33 when he painted the first version.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "A finger touches a letter. That is the whole event. Three people have come hurrying through the woods, found a block of stone in the bushes, and bent over it. One of them is spelling out what is cut into its side. He has reached the middle of the phrase. In a second he will understand it."
+  },
+  {
+   "type": "text",
+   "text": "They are in Arcadia. It is a real region of Greece, rough and mountainous, but ancient poets turned it into a dreamland: eternal spring, shepherds with nothing to do but sing and fall in love. For centuries the word meant the simple, happy life. No one in Arcadia expects bad news."
+  },
+  {
+   "type": "find",
+   "text": "The stone block is a tomb. Poussin put the proof on top of it, half lost in the dark. Can you make it out?",
+   "spots": [
+    {
+     "x": 0.82,
+     "y": 0.27,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "A skull",
+     "text": "A skull sits on the lid, turned toward the newcomers. They have not noticed it yet. They are busy with the words. You know before they do."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The words are Latin: ET IN ARCADIA EGO. Literally, “Even in Arcadia, I.” The verb is missing, as often in Latin. With the skull above, the speaker can only be Death: even here, in paradise, I exist. The shepherds are learning that their endless spring has an end."
+  },
+  {
+   "type": "fact",
+   "text": "The phrase sounds ancient but appears in no Roman author. Its first known use is in a painting made in Italy a few years earlier by Guercino, where two shepherds stumble on a large skull. Poussin, newly arrived in Rome, almost certainly saw it."
+  },
+  {
+   "type": "text",
+   "text": "Poussin was about 33, a Frenchman trying to make a living in Rome, and still painting with the warm reds and golden skin he admired in Titian. What he adds to Guercino is time. He does not show people staring at death. He shows the moment of reading, bodies still moving from the run."
+  },
+  {
+   "type": "tour",
+   "title": "One second, four reactions",
+   "text": "Follow the news as it travels from the stone back through the group.",
+   "spots": [
+    {
+     "x": 0.86,
+     "y": 0.37,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The reading finger",
+     "text": "A bearded shepherd traces the carved letters with his fingertip. ARCADIA is legible under his hand. Reading by touch slows the moment down to the speed of one letter at a time."
+    },
+    {
+     "x": 0.42,
+     "y": 0.33,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The second shepherd",
+     "text": "Younger, pressed against his friend's back, he strains to see over his shoulder. A staff still points up behind him. He has seen the stone but not yet read it."
+    },
+    {
+     "x": 0.2,
+     "y": 0.36,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The shepherdess",
+     "text": "She arrives last, skirt gathered in one hand, shoulder bare. Her face is the calmest of the three. Love and beauty have walked into the picture with her, and so they are warned as well."
+    },
+    {
+     "x": 0.66,
+     "y": 0.62,
+     "zoom": 2,
+     "r": 0.16,
+     "title": "The river god",
+     "text": "An old man crowned with reeds sits with his back to us, pouring water from a jar. He stands for a river of Arcadia. Water that runs out and never returns: time itself, unnoticed by all."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice the lean. All three bodies tilt the same way, toward the top right, like grass in wind, and the lid of the tomb slants up to meet them. The whole picture rushes at the inscription. It is a young man's painting: fast, warm, a little theatrical."
+  },
+  {
+   "type": "text",
+   "text": "About ten years later Poussin painted the subject again, and that second canvas is the famous one, in the Louvre. It is wide where this is tall. The skull is gone. Nobody runs. Four figures stand quietly around a plain tomb, and one kneels to trace the letters, his arm casting a shadow on the stone."
+  },
+  {
+   "type": "key",
+   "text": "Same four words, two moods. The first version is a shock: death interrupts. The second is a meditation: people stand and think about it. Poussin grew from one to the other."
+  },
+  {
+   "type": "fact",
+   "text": "Without the skull, later readers heard a different voice in the sentence: not Death, but the person in the tomb, saying “I too once lived in Arcadia.” The poet Goethe used it that way, as a motto for his happy travels in Italy. Grammatically it is a mistake, and it stuck."
+  },
+  {
+   "type": "text",
+   "text": "King Louis XIV bought the Louvre version in 1685, twenty years after the painter's death. Poussin himself died in Rome in 1665. His tomb there, put up much later by a French admirer, carries a carving of his own shepherds bent over their inscription. He ended up inside his subject."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "In this early version, who is most likely “speaking” the words on the tomb?",
+   "options": [
+    "The river god",
+    "Death",
+    "The shepherdess"
+   ],
+   "answer": 1,
+   "explanation": "With a skull on the lid, the sentence means that death exists even in Arcadia."
+  },
+  {
+   "question": "What did Arcadia stand for in poetry?",
+   "options": [
+    "A simple, happy life among shepherds",
+    "A great city of marble",
+    "The underworld"
+   ],
+   "answer": 0,
+   "explanation": "Ancient poets turned a rough Greek region into a land of eternal spring."
+  },
+  {
+   "question": "What is the bearded shepherd doing?",
+   "options": [
+    "Lifting the lid of the tomb",
+    "Praying",
+    "Tracing the carved letters with his finger"
+   ],
+   "answer": 2,
+   "explanation": "He reads the inscription by touch, one letter at a time."
+  },
+  {
+   "question": "What changed in the later version in the Louvre?",
+   "options": [
+    "The skull is gone and the figures are calm",
+    "The shepherds are replaced by soldiers",
+    "The inscription is in French"
+   ],
+   "answer": 0,
+   "explanation": "The second painting turns the shock into a quiet meditation."
+  },
+  {
+   "question": "Where does the phrase “Et in Arcadia ego” first appear?",
+   "options": [
+    "In a poem by Virgil",
+    "On a real Greek tomb",
+    "In a painting by Guercino"
+   ],
+   "answer": 2,
+   "explanation": "No ancient author uses it; Guercino's picture is its first known appearance."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The words on the tomb are a quotation from an ancient Roman poet.",
+   "isTrue": false,
+   "explanation": "The phrase is not found in any ancient text and first appears in the 1600s."
+  },
+  {
+   "text": "Poussin painted this subject twice, about ten years apart.",
+   "isTrue": true,
+   "explanation": "The early, vertical version was followed by the wide canvas now in the Louvre."
+  },
+  {
+   "text": "The old man pouring water in the foreground is a river god.",
+   "isTrue": true,
+   "explanation": "He personifies a river of Arcadia, and his flowing water suggests passing time."
+  }
+ ]
+}

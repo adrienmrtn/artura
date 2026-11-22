@@ -1,0 +1,56 @@
+{
+  "teaser": "A war painting where the most important weapon is a hand on a shoulder.",
+  "focus": [0.52, 0.5],
+  "review_notes": "Spinola dying financially ruined after funding Spanish troops from his own fortune: widely repeated, worth a check.\nThe man at the far right edge as a self-portrait of Velázquez is an old, unproven tradition (presented as such).\nVelázquez using prints of the siege for the landscape (Jacques Callot's engraved map is the usual candidate) is presented without naming the source.\nThe Hall of Realms building now belonging to the Prado (former Army Museum) should be confirmed.",
+  "lesson": [
+    {"type": "text", "text": "This canvas is just over three meters high and more than three and a half wide, roughly 10 by 12 feet. The men in front are as big as you are. Stand before it in Madrid and your eyes are level with their belts and sword hilts, as if you had walked up behind a crowd and were trying to see past it."},
+    {"type": "text", "text": "It was made to fill a wall. Around 1634, King Philip IV of Spain was decorating the throne room of a new palace in Madrid, the Hall of Realms. He ordered twelve huge pictures of recent Spanish victories from the best painters at court. Diego Velázquez, his favorite, was given the town of Breda."},
+    {"type": "fact", "text": "The siege of Breda, a fortified Dutch town, lasted close to ten months. Spanish troops ringed it with trenches and simply waited for the food to run out. The town gave up in June 1625."},
+    {"type": "text", "text": "The other painters in the room mostly did what was expected: a general on horseback up front, pointing, with tiny soldiers fighting far below. Velázquez put both commanders on foot, on the same patch of mud, and chose the quietest minute of the whole war. Start in the middle, where two men meet."},
+    {"type": "tour", "title": "The handover", "text": "Dutch on the left, Spanish on the right. Everything turns on the gap between two men.", "spots": [
+      {"x": 0.55, "y": 0.57, "zoom": 4, "r": 0.04, "title": "The key", "text": "A dark iron key on a ribbon, held out against the brightest patch of the picture so you cannot miss it. It stands for the town itself. Notice that nobody has taken it yet."},
+      {"x": 0.52, "y": 0.5, "zoom": 3, "r": 0.09, "title": "The hand", "text": "The Spanish general, Ambrogio Spinola, reaches out and rests his hand on his enemy's shoulder. He seems to be stopping him from kneeling. Winner and loser lean toward each other like old acquaintances."},
+      {"x": 0.47, "y": 0.62, "zoom": 2.2, "r": 0.1, "shape": "rect", "title": "Justin of Nassau", "text": "The Dutch governor bends at the waist and the knee, hat already off. His loose brown and gold suit looks soft and tired next to the Spaniard's black armor."},
+      {"x": 0.62, "y": 0.69, "zoom": 3, "r": 0.08, "title": "Hat and baton", "text": "Spinola has dismounted and holds his own hat in his left hand, together with the wooden baton that marks his command. He greets a beaten man bareheaded, as an equal."}
+    ]},
+    {"type": "text", "text": "That gesture is the message. A king who can afford to be gentle with his enemies must be very sure of his strength. So the kindness you just saw is also propaganda, images made to sell a ruler's power, only of a far more intelligent sort than a pile of dead Dutchmen."},
+    {"type": "key", "text": "Velázquez turned a victory picture into a picture of good manners. The triumph is shown by the way the winner treats the loser."},
+    {"type": "text", "text": "He was never at Breda. He painted the scene about ten years later, in Madrid. But he did know Spinola: in 1629 the two had sailed to Italy on the same ship. The general died the following year, so the calm, slightly weary face in the center was painted from memory, with affection."},
+    {"type": "fact", "text": "Spain's great general was not Spanish. Spinola came from a banking family in Genoa, Italy, and paid for much of his army out of his own pocket. He is said to have died close to ruin, still waiting for the Spanish crown to repay him."},
+    {"type": "text", "text": "Now step back from the two men and compare their armies. Velázquez does not need corpses to tell you who won. He does it with sticks."},
+    {"type": "lines", "text": "Three lines show how the two sides are built.", "lines": [
+      {"points": [[0.62, 0.3], [0.99, 0.3]], "closed": false, "label": "A wall of pikes", "text": "On the Spanish side, about thirty long pikes stand upright, tight as a fence, and cut into the sky. They read as discipline. A few lean, just enough to feel real."},
+      {"points": [[0.02, 0.3], [0.2, 0.3]], "closed": false, "label": "A handful of poles", "text": "On the Dutch side there are only a few weapons: short halberds, a pike or two, orange pennants hanging loose. The contrast with the right is the score of the war."},
+      {"points": [[0.36, 0.42], [0.5, 0.6], [0.66, 0.42]], "closed": false, "label": "The opening", "text": "The two crowds part in a V. Through the gap you see pale daylight and tiny rows of troops far away. The key hangs exactly at the bottom of this bright wedge."}
+    ]},
+    {"type": "text", "text": "Those pikes gave the painting its Spanish nickname, “Las Lanzas”, the lances. They are easy to remember. The men under them are easier to overlook, and they are odd for a victory scene: nobody cheers. Some chat, some stare into space."},
+    {"type": "text", "text": "Velázquez spent his days painting real courtiers, and he gave these soldiers real faces instead of heroic masks. One of them has even stopped watching the ceremony."},
+    {"type": "find", "text": "Among the Spaniards, one man ignores the handover and looks straight out at you. Can you catch his eye?", "spots": [
+      {"x": 0.965, "y": 0.44, "zoom": 4, "r": 0.05, "title": "The man at the edge", "text": "Squeezed against the frame under a pale hat, with a mustache and a lace collar, he turns to us. An old tradition says this is Velázquez himself. There is no proof, but it is a tempting place to sign."}
+    ]},
+    {"type": "text", "text": "A figure who looks out of a picture works like a doorman. He admits that you are there, and invites you in. Velázquez liked the device enough to use it on both sides: a Dutchman on the far left does the same. The scene is watched from inside as well as from outside."},
+    {"type": "fact", "text": "In the bottom right corner lies a creased sheet of white paper. Painters often put their signature on such a sheet. Velázquez left this one blank, and nobody knows why."},
+    {"type": "text", "text": "The rest of the canvas is worth wandering through on your own. Much of it is painted with surprising freedom: thin, quick, almost watery in the distance, thick and exact on a sleeve or a horse's hide."},
+    {"type": "explore", "spots": [
+      {"x": 0.8, "y": 0.62, "zoom": 1.8, "r": 0.14, "title": "A horse's rear", "text": "A fifth of this royal picture is the back end of a brown horse. It blocks our way in on the right, and its turning body pushes your eye toward the center."},
+      {"x": 0.08, "y": 0.43, "zoom": 3.5, "r": 0.05, "title": "The Dutch onlooker", "text": "Under a wide black hat, a Dutch soldier with a gun on his shoulder looks at us. He is the mirror of the Spaniard at the opposite edge."},
+      {"x": 0.29, "y": 0.5, "zoom": 2.8, "r": 0.07, "title": "The boy in white", "text": "A young Dutchman in a pale jacket lifts a finger as if making a point to his neighbor. Defeat has not stopped the conversation. The white is laid on in loose, creamy strokes."},
+      {"x": 0.3, "y": 0.28, "zoom": 2, "r": 0.1, "title": "Smoke", "text": "Columns of gray smoke rise from the plain. The fighting and burning are over there, small and hazy. Velázquez pushes the violence into the weather."},
+      {"x": 0.93, "y": 0.29, "zoom": 2.5, "r": 0.07, "title": "The checkered flag", "text": "A big blue and white checked banner sags over the Spanish troops, with a pink one behind it. The squares are dabbed in without outlines, yet the cloth folds convincingly."},
+      {"x": 0.96, "y": 0.95, "zoom": 4, "r": 0.04, "title": "The blank sheet", "text": "Here is the empty paper, lying on a stone. A place prepared for a name that never came."}
+    ]},
+    {"type": "text", "text": "History added a bitter footnote. In 1637, only about two years after the paint dried, the Dutch took Breda back for good. The victory hung in the king's throne room long after it had been undone. What lasted was not the conquest but the hand on the shoulder."}
+  ],
+  "quiz": [
+    {"question": "What does the key in the center stand for?", "options": ["The king's treasury", "The town of Breda", "Spinola's rank"], "answer": 1, "explanation": "The Dutch governor hands over the key as a symbol of the surrendered town."},
+    {"question": "What is Spinola doing with his right hand?", "options": ["Resting it on his enemy's shoulder", "Pointing at the battlefield", "Gripping his sword"], "answer": 0, "explanation": "He touches Justin of Nassau's shoulder, as if to keep him from kneeling."},
+    {"question": "Why is the painting nicknamed “Las Lanzas”?", "options": ["It hung in an armory", "Lances lie broken on the ground", "A wall of upright pikes rises on the Spanish side"], "answer": 2, "explanation": "The fence of long pikes against the sky is its most memorable feature."},
+    {"question": "Was Velázquez present at the surrender?", "options": ["Yes, as a soldier", "No, he painted it about ten years later in Madrid", "Yes, as the king's envoy"], "answer": 1, "explanation": "He never saw Breda and worked years later, though he had met Spinola."},
+    {"question": "What is unusual about the sheet of paper in the bottom right corner?", "options": ["It is blank", "It shows a map of Breda", "It carries the king's seal"], "answer": 0, "explanation": "The sheet where a signature might go was left empty."}
+  ],
+  "facts": [
+    {"text": "The painting was one of twelve victory pictures made for a throne room in Madrid.", "isTrue": true, "explanation": "Philip IV ordered twelve battle scenes for the Hall of Realms."},
+    {"text": "Spinola, the Spanish commander, was born in Spain.", "isTrue": false, "explanation": "He came from a banking family in Genoa, Italy."},
+    {"text": "Breda stayed in Spanish hands for a century after the painting was made.", "isTrue": false, "explanation": "The Dutch retook the town in 1637, about two years later."}
+  ]
+}

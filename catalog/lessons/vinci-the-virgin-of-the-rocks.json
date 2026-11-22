@@ -1,0 +1,57 @@
+{
+ "teaser": "Four figures in a cave, three hands in the air, and a contract that went wrong for 25 years.",
+ "focus": [0.5, 0.6],
+ "review_notes": "Transfer from wood panel to canvas in 1806 (restorer Hacquin): check date.\nSize about 199 x 122 cm.\nContract of 25 April 1483 with the Confraternity of the Immaculate Conception, San Francesco Grande, Milan, shared with Ambrogio and Evangelista de Predis; deadline 8 December 1483; dispute settled around 1506 to 1508: standard account, check wording.\nThe angel is often identified as Uriel (from the apocryphal legend), not named in the contract.\nHow the Louvre version left Milan is undocumented; recorded at Fontainebleau in 1625.\nLeonardo's cave passage is paraphrased from the Codex Arundel, not quoted.\nPlants: iris at lower left and fan palm behind John are the usual identifications.\nCatalog year 1486 is the usual end date (1483 to 1486).",
+ "lesson": [
+  {"type": "text", "text": "This picture is not on the surface Leonardo painted it on. He worked on a wooden panel about two meters tall (199 by 122 cm, roughly 6 ft 6 in by 4 ft). In 1806 restorers in Paris, worried about the wood, shaved it away from behind and glued the thin skin of paint onto canvas."},
+  {"type": "text", "text": "The operation saved the image and cost it some of its freshness. Add centuries of yellowed varnish, and you get the dim, golden-brown cave you see here. Leonardo's colors were cooler and clearer. Keep that in mind: you are looking at a survivor."},
+  {"type": "text", "text": "It began as a job with a deadline. In April 1483 a religious brotherhood in Milan hired Leonardo, newly arrived from Florence and about 31, with two local painters, the de Predis brothers. They wanted the center panel of a huge carved and gilded altarpiece for their chapel, ready in under eight months."},
+  {"type": "fact", "text": "The contract was detailed. It asked for Mary in a cloak of gold brocade and ultramarine blue, with God the Father overhead and plenty of gilding. Leonardo delivered almost none of it: no gold, no God, no halos, and a setting nobody had asked for."},
+  {"type": "text", "text": "What he painted instead is a legend that is not in the Bible. Fleeing to Egypt, the Holy Family meets the infant John the Baptist, who is living in the wilderness under the care of an angel. Two babies, a mother and an angel: so which child is which? The hands tell you."},
+  {"type": "tour", "title": "A conversation of hands", "text": "Nobody speaks. Follow four gestures, from left to right.", "spots": [
+   {"x": 0.26, "y": 0.685, "zoom": 3.6, "r": 0.07, "title": "Praying", "text": "The child on the left kneels and presses his palms together. He is John the Baptist, adoring the other baby. Mary's arm wraps around his shoulder, which is why many people take him for Jesus."},
+   {"x": 0.62, "y": 0.585, "zoom": 3.4, "r": 0.08, "title": "Hovering", "text": "Mary's left hand floats in the air, fingers spread, seen from below. It hangs over her son's head like a small roof. Painting a hand pointing toward the viewer like this was a real feat of drawing."},
+   {"x": 0.6, "y": 0.67, "zoom": 3.6, "r": 0.07, "title": "Pointing", "text": "Directly beneath it, the angel's finger points across the picture at John. It slices through the empty space between Mary's hand and the baby below."},
+   {"x": 0.565, "y": 0.725, "zoom": 3.8, "r": 0.06, "title": "Blessing", "text": "The child on the right raises two fingers. That is the sign of blessing, and it answers John's prayer. This one is Jesus, sitting lowest of all, at the edge of the water."}
+  ]},
+  {"type": "text", "text": "Three hands stacked in a column, hover, point, bless, and a fourth pair answering from the left. In earlier altarpieces holy figures stood in a row, each in a separate slot. Here they are tied together by gestures and glances, like people who know each other."},
+  {"type": "text", "text": "Leonardo also tied them together with geometry. Florentine painters had been experimenting with ways to make a group feel stable and calm. His answer here became a model that younger artists, Raphael above all, copied for decades."},
+  {"type": "lines", "text": "Three lines show how the group is built.", "lines": [
+   {"points": [[0.47, 0.41], [0.04, 0.77], [0.88, 0.89]], "closed": true, "label": "The pyramid", "text": "Mary's head is the peak. John's back forms one slope, the angel's red cloak the other. A wide base and a single summit: the group feels as solid as the rocks around it."},
+   {"points": [[0.47, 0.45], [0.22, 0.63], [0.6, 0.74], [0.73, 0.6], [0.6, 0.67], [0.24, 0.66]], "closed": false, "label": "The relay of glances", "text": "Mary looks down at John. John looks at Jesus. Jesus looks back at John. The angel's finger sends you to John again. Your eye never finds the exit."},
+   {"points": [[0.73, 0.6], [0.5, 0.95]], "closed": false, "label": "The way out", "text": "Only the angel breaks the circle. Its eyes drift out of the picture, toward where you stand. It is your invitation in."}
+  ]},
+  {"type": "key", "text": "Leonardo turned a row of holy figures into one living group: a pyramid held together by hands and looks instead of gold and thrones."},
+  {"type": "text", "text": "Now the faces. Try to find the line where Mary's cheek ends and the shadow begins. You cannot. Leonardo blended tones so gradually that edges dissolve. Italians later called this sfumato, from fumo, smoke: forms that appear out of the dark the way things do at dusk."},
+  {"type": "fact", "text": "Caves fascinated Leonardo. In a notebook he described arriving at the mouth of a great cavern and bending to peer in, torn between two feelings: fear of the threatening dark, and desire to see whether something marvelous lay inside."},
+  {"type": "text", "text": "He painted this grotto like someone who had climbed into a few. The rocks are layered and cracked the way real rock weathers, and the plants grow where damp and light would let them. Geologists and botanists still enjoy naming what they find."},
+  {"type": "explore", "spots": [
+   {"x": 0.47, "y": 0.445, "zoom": 3.2, "r": 0.09, "title": "Mary's face", "text": "Eyes lowered, lit from the upper left. The shadows under her brow and chin have no edges. This softness is sfumato."},
+   {"x": 0.74, "y": 0.595, "zoom": 3.4, "r": 0.08, "title": "The angel", "text": "Curls, a half smile, and a sideways look that leaves the scene. Many visitors find this the most beautiful head Leonardo ever painted."},
+   {"x": 0.42, "y": 0.625, "zoom": 2.8, "r": 0.1, "title": "A flash of yellow", "text": "The lining of Mary's cloak turns outward at her waist in a fold of gold-yellow. It is the brightest note in the picture and sits at its very center."},
+   {"x": 0.2, "y": 0.36, "zoom": 2.6, "r": 0.13, "title": "The distance", "text": "Through a gap, pale peaks rise from misty water. Far things look bluer and blurrier because of the air in between. Leonardo studied this effect and used it deliberately."},
+   {"x": 0.07, "y": 0.87, "zoom": 2.8, "r": 0.08, "shape": "rect", "title": "Sword leaves", "text": "A clump of long, blade-shaped leaves, usually identified as an iris. Leonardo drew plants from life and gave each species its real habit of growth."},
+   {"x": 0.09, "y": 0.56, "zoom": 2.8, "r": 0.08, "title": "A fan palm", "text": "Spiky fans of palm spread behind John. Palm branches were a Christian sign of martyrdom, a quiet hint at how the Baptist's life would end."},
+   {"x": 0.76, "y": 0.33, "zoom": 2.6, "r": 0.1, "title": "A window in the rock", "text": "A second opening lights a tall pillar of stone. The cave is not a wall behind the figures. It has depth, passages and its own daylight."}
+  ]},
+  {"type": "text", "text": "The brotherhood was not delighted. Arguments over money and over the picture itself dragged on for about 25 years. They ended only when a second version was installed in the chapel around 1508. That one now hangs in the National Gallery in London."},
+  {"type": "fact", "text": "The London version quietly corrects the first. The angel no longer points and no longer looks out. Halos appear, and John carries a cross so that nobody mixes up the two children. Those last additions were probably made by later hands."},
+  {"type": "text", "text": "So what did the angel's finger say that had to be removed? Perhaps only that it gave John too much importance. One small thing in the Paris picture shows how carefully Leonardo thought about where his figures actually are."},
+  {"type": "find", "text": "The ground stops just in front of the figures. One baby steadies himself with a hand at the very brink. Tap that hand.", "spots": [
+   {"x": 0.67, "y": 0.89, "zoom": 3.6, "r": 0.06, "title": "At the edge", "text": "Jesus leans on his left hand, fingers spread on the rim of the bank. Below it the ground drops to dark water. The holy group sits on a ledge, cut off from us by a gap."}
+  ]},
+  {"type": "text", "text": "Nobody knows exactly how this first version left Milan. By 1625 it was in the French royal collection at Fontainebleau, and it passed to the Louvre with the rest of the king's pictures. Two paintings, two cities, one contract: art historians are still arguing over the details."}
+ ],
+ "quiz": [
+  {"question": "What happened to the painting in 1806?", "options": ["It was stolen from the Louvre", "Its paint layer was moved from wood to canvas", "A second version was painted"], "answer": 1, "explanation": "Restorers removed the wooden panel and glued the paint layer onto canvas."},
+  {"question": "Which child is Jesus?", "options": ["The one on the right, raising two fingers", "The one on the left, praying", "The lesson says nobody can tell"], "answer": 0, "explanation": "The baby giving the sign of blessing is Jesus; the praying child is John the Baptist."},
+  {"question": "What does “sfumato” mean?", "options": ["A triangular composition", "Painting on wet plaster", "Smoky blending with no hard edges"], "answer": 2, "explanation": "The word comes from fumo, smoke, and describes edges that dissolve into shadow."},
+  {"question": "Which figure looks out of the picture?", "options": ["Mary", "The angel", "John the Baptist"], "answer": 1, "explanation": "The angel's glance leaves the circle of looks and drifts toward the viewer."},
+  {"question": "How does the London version differ?", "options": ["The angel no longer points", "Mary is missing", "It is set in a garden"], "answer": 0, "explanation": "In London the angel neither points nor looks out, and halos and a cross were added."}
+ ],
+ "facts": [
+  {"text": "Leonardo followed the contract closely, with gold brocade and God the Father overhead.", "isTrue": false, "explanation": "He delivered no gold, no God the Father and no halos."},
+  {"text": "The dispute over the commission lasted about 25 years.", "isTrue": true, "explanation": "It ended only when a second version was installed around 1508."},
+  {"text": "The meeting of the infant Jesus and the infant John in a cave is told in the Bible.", "isTrue": false, "explanation": "It comes from a later legend about the flight to Egypt."}
+ ]
+}

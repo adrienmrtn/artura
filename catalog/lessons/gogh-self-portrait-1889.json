@@ -1,0 +1,37 @@
+{
+  "teaser": "Painted on the first day he could stand again, in a spare room of an asylum.",
+  "focus": [0.42, 0.32],
+  "review_notes": "Letter to Theo (early September 1889): 'I began the first day I got up, I was thin and pale as a ghost', 'dark violet-blue and the head whitish with yellow hair': paraphrased, please check wording.\nJuly 1889 attack during which he tried to swallow paint, and the weeks without access to his studio: check.\nCanvas size about 57 x 44 cm; John Hay Whitney collection, entered the National Gallery of Art in 1998: check.\nClaim that the visible ear is his undamaged right ear (mirror reasoning): check.",
+  "lesson": [
+    {"type": "text", "text": "The room had a barred window and a view of a walled wheat field. It was a spare cell on the ground floor of Saint-Paul-de-Mausole, an old monastery turned asylum near Saint-Rémy, in the south of France. The doctors let one patient use it as a studio. This picture was made there, for a mirror and for one reader far away: his brother Theo in Paris."},
+    {"type": "text", "text": "Van Gogh had checked himself in that spring, in May 1889. In July a violent attack struck while he was painting outdoors. For weeks afterward he was kept away from his paints, partly because he had tried to swallow some during the crisis. When the studio door reopened at the end of the summer, he chose his own face as the first subject."},
+    {"type": "fact", "text": "He told Theo he started this canvas the very first day he got out of bed, when he was, in his own words, thin and pale as a ghost."},
+    {"type": "text", "text": "So what does a man paint when he wants to prove he is still a painter? Not a patient. He puts on his blue work smock and picks up the tools of the trade. One of his hands is in the picture, although it is easy to miss."},
+    {"type": "find", "text": "Somewhere in this portrait, a thumb is holding everything together. Can you tap it?", "spots": [{"x": 0.22, "y": 0.885, "zoom": 3.2, "r": 0.07, "title": "The thumb", "text": "It pokes through the hole of the wooden palette, the only bit of his body shown besides the head. Brushes fan out to the left, and fresh blobs of paint line the bottom edge."}]},
+    {"type": "text", "text": "Those blobs on the palette are a small inventory of the picture itself: orange, blue, green, a touch of pink. He is showing you his ingredients, then showing you what he cooked with them. The palette says “I am at work” more firmly than any letter could."},
+    {"type": "text", "text": "Now the face. Skin is not really green, and hair is not really orange flame. Van Gogh knew that. He was after what he called a color effect: a pale, yellowish head set against deep violet blue, so that each color makes the other look stronger."},
+    {"type": "tour", "title": "A face built from color", "text": "Three places where he trades realism for intensity.", "spots": [
+      {"x": 0.4, "y": 0.24, "zoom": 2.8, "r": 0.1, "title": "Green shadows", "text": "The forehead and temple are modeled in pale green and yellow, not brown or gray. The sickly tint is deliberate: it is how he saw himself in the mirror that day."},
+      {"x": 0.6, "y": 0.17, "zoom": 2.4, "r": 0.13, "title": "Orange on blue", "text": "Orange and blue are complementary colors, opposites that make each other vibrate when placed side by side. The hair seems to glow because the wall behind it is its exact opposite."},
+      {"x": 0.42, "y": 0.315, "zoom": 3.2, "r": 0.1, "title": "The eyes", "text": "Ringed with green and set under a hard brow, they look slightly past you, the sideways glance of someone checking a mirror. Each one is only a few strokes."}
+    ]},
+    {"type": "key", "text": "Van Gogh used color to say how something felt, not how it looked. A green face can be more truthful than a pink one."},
+    {"type": "text", "text": "The background deserves a second pass too. It is not a wall. It is a field of short, thick strokes running in different directions, like iron filings around a magnet. The smock picks up the same blue in longer, flowing lines, so the figure and the air around him seem made of one restless material."},
+    {"type": "fact", "text": "A mirror flips left and right. The ear you see here is his undamaged one: he had cut his left ear eight months earlier, and it stays turned away, out of the picture."},
+    {"type": "text", "text": "He painted himself more than thirty times in about four years, largely because he could not pay models. This is among the last, and one of the few where he holds his tools. He stayed at the asylum until May 1890 and died that July, at thirty-seven."},
+    {"type": "text", "text": "The canvas is modest, about 57 by 44 cm (22 by 17 in). It spent much of the twentieth century in the home of the American collector John Hay Whitney, and has belonged to the National Gallery of Art in Washington since 1998."},
+    {"type": "key", "text": "Go back to that spare room for a second. The bars, the doctors and the illness are all left out. What he kept is a palette, a smock and a steady look: a job description."}
+  ],
+  "quiz": [
+    {"question": "Where did Van Gogh paint this self-portrait?", "options": ["In his brother's apartment in Paris", "In a room of the asylum near Saint-Rémy", "In the Yellow House in Arles"], "answer": 1, "explanation": "He used a spare ground-floor room of Saint-Paul-de-Mausole as a studio."},
+    {"question": "Why does the orange hair seem to glow?", "options": ["It sits against blue, its complementary color", "He mixed gold dust into the paint", "It was varnished more heavily"], "answer": 0, "explanation": "Orange and blue are opposites that strengthen each other side by side."},
+    {"question": "What is the only part of his body shown besides the head?", "options": ["His left ear", "His whole right hand", "A thumb through the palette"], "answer": 2, "explanation": "The thumb pokes through the hole of the palette in the lower left."},
+    {"question": "Which ear is hidden from view in this portrait?", "options": ["The injured left ear", "The right ear", "Neither, both are visible"], "answer": 0, "explanation": "The mirror image shows his intact ear, and the cut left ear stays turned away."},
+    {"question": "What did he say he looked like when he began the picture?", "options": ["Strong as a peasant", "Thin and pale as a ghost", "Red as a brick"], "answer": 1, "explanation": "He wrote to Theo that he was thin and pale as a ghost."}
+  ],
+  "facts": [
+    {"text": "Van Gogh painted this portrait wearing his patient's uniform, with no sign of his profession.", "isTrue": false, "explanation": "He wears a painter's smock and holds a palette and brushes."},
+    {"text": "He began the canvas on the first day he got out of bed after a serious attack.", "isTrue": true, "explanation": "That is what he told his brother Theo."},
+    {"text": "The background shows the walled wheat field outside his window.", "isTrue": false, "explanation": "The background is an abstract field of thick blue strokes."}
+  ]
+}

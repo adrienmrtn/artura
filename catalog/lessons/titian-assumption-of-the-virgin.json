@@ -1,0 +1,246 @@
+{
+ "teaser": "The friars who ordered it were not sure they wanted it. It stands seven meters tall.",
+ "focus": [
+  0.48,
+  0.36
+ ],
+ "review_notes": "Unveiling on 19 May 1518 (diary of Marin Sanudo): verify.\nThe friars' unease, the complaint about oversized apostles and the imperial envoy's offer to buy the panel come from Dolce (1557) and Ridolfi (1648); presented as tradition, not documented fact.\nDimensions about 690 x 360 cm on wood panel; said to be the largest altarpiece in Venice: verify.\nCommissioned 1516 by the prior, Fra Germano da Casale: verify.\nMoved to the Accademia in the 1810s and returned to the Frari in 1919: verify.\nWagner seeing it in 1861 and linking it to his return to Die Meistersinger (from his autobiography): verify.\nThis reproduction is small for such a tall work; spots point only at large regions.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "On May 19, 1518, a crowd filled the great brick church of the Frari in Venice to see what had been hidden behind scaffolding for two years. What they found startled them. The figures were huge, the reds blazed, and everything was in motion. According to writers of the time, many painters and churchgoers disliked it at first: they were used to quiet, still, carefully finished Madonnas."
+  },
+  {
+   "type": "text",
+   "text": "The friars themselves were uneasy. One old story says the prior kept visiting Titian at work to complain that the apostles were far too big, and that the friars only made up their minds when an ambassador of the emperor offered to buy the panel from them. Whether or not every detail is true, the first reaction was doubt, not applause."
+  },
+  {
+   "type": "fact",
+   "text": "The painting is about 6.9 meters high and 3.6 wide (roughly 22.5 by 12 feet), bigger than any altarpiece Venice had seen. It is not on canvas but on wood: thick planks joined edge to edge."
+  },
+  {
+   "type": "text",
+   "text": "Titian was around 30 and had never attempted anything on this scale. The subject is the Assumption: the belief that Mary, mother of Jesus, was taken up to heaven, body and soul, at the end of her life. Painters before him usually showed her rising calmly while the apostles, the companions of Jesus, prayed around an empty tomb. Titian threw out the tomb and the calm."
+  },
+  {
+   "type": "tour",
+   "title": "Three floors",
+   "text": "The picture is stacked like a building. Climb it from the ground up.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.78,
+     "zoom": 1.6,
+     "r": 0.3,
+     "shape": "circle",
+     "title": "Earth",
+     "text": "The apostles crowd the bottom in shadow, heavy and solid, arms flung up. Their feet stand on a strip of ground at the very level of the real altar, as if they were in the church with you."
+    },
+    {
+     "x": 0.52,
+     "y": 0.63,
+     "zoom": 2.6,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The reaching arm",
+     "text": "One apostle in red, his back to you, stretches both arms toward her. His hands cross the band of pale sky and nearly touch the cloud. He is the bridge between the two worlds."
+    },
+    {
+     "x": 0.47,
+     "y": 0.38,
+     "zoom": 1.9,
+     "r": 0.2,
+     "shape": "circle",
+     "title": "Mary",
+     "text": "She stands on a cloud pushed upward by a swarm of child angels, arms open, face lifted. Her dress and cloak swing as if caught in wind. She is not floating. She is being carried, fast."
+    },
+    {
+     "x": 0.48,
+     "y": 0.15,
+     "zoom": 2.2,
+     "r": 0.18,
+     "shape": "circle",
+     "title": "God the Father",
+     "text": "At the top God leans down from a blaze of gold, dark against the light, with an angel at each side. He is seen from below and sharply shortened, the way you would see someone hovering overhead."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Did you notice the light? The apostles stand in ordinary daylight under a cool blue sky. Above the clouds, the air itself turns to gold. Titian separates earth and heaven not with a line but with a change of weather, and the further up you look, the warmer and brighter it gets."
+  },
+  {
+   "type": "fact",
+   "text": "The Frari is a long Gothic church, and the altarpiece was planned to be read from the far end of it, through the arch of the friars' choir screen, some distance away. The giant apostles the prior complained about are sized for that walk."
+  },
+  {
+   "type": "text",
+   "text": "From far away, faces and fingers vanish. What survives is geometry and color. That is the secret of the composition, and it is surprisingly simple once someone draws it for you."
+  },
+  {
+   "type": "lines",
+   "text": "Two shapes, one inside the other, organize dozens of bodies.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.27,
+       0.76
+      ],
+      [
+       0.47,
+       0.33
+      ],
+      [
+       0.64,
+       0.76
+      ]
+     ],
+     "closed": true,
+     "label": "A triangle of red",
+     "text": "Two apostles wear bright red, one on the left and one seen from behind on the right. Join them to Mary's red dress and you get a triangle that pulls your eye straight up from the crowd to her."
+    },
+    {
+     "points": [
+      [
+       0.5,
+       0.072
+      ],
+      [
+       0.71,
+       0.103
+      ],
+      [
+       0.864,
+       0.186
+      ],
+      [
+       0.92,
+       0.3
+      ],
+      [
+       0.864,
+       0.414
+      ],
+      [
+       0.71,
+       0.497
+      ],
+      [
+       0.5,
+       0.528
+      ],
+      [
+       0.29,
+       0.497
+      ],
+      [
+       0.136,
+       0.414
+      ],
+      [
+       0.08,
+       0.3
+      ],
+      [
+       0.136,
+       0.186
+      ],
+      [
+       0.29,
+       0.103
+      ]
+     ],
+     "closed": true,
+     "label": "A circle of heaven",
+     "text": "The rounded top of the frame and the curving bank of cloud beneath Mary's feet complete each other into a ring of golden light. She rises inside it, and God waits at its upper edge."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Triangle below, circle above: a stable shape for earth and a perfect one for heaven, locked together by three patches of the same red. Once the first shock passed, Venice understood what it was looking at. Giovanni Bellini, the old master of quiet Madonnas, had died in 1516. After 1518, nobody questioned who led painting in the city."
+  },
+  {
+   "type": "text",
+   "text": "For about a century, from the 1810s until 1919, the panel hung in a museum, the Accademia in Venice. There the composer Richard Wagner saw it in 1861 and wrote that it stirred him so deeply that he resolved to write his opera Die Meistersinger. Then it went home, back to the altar it was built for."
+  },
+  {
+   "type": "fact",
+   "text": "Titian never really left this church. He died in Venice in 1576, during an epidemic of plague, and was buried in the Frari, a short walk down the nave from his own painting."
+  },
+  {
+   "type": "key",
+   "text": "The Assumption was designed for one precise spot and for viewers far away. Its oversized figures, its three reds and its two simple shapes are answers to a building, which is why its first audience, standing close, was puzzled."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did many of the first viewers react in 1518?",
+   "options": [
+    "With doubt and criticism",
+    "With immediate applause",
+    "They ignored it"
+   ],
+   "answer": 0,
+   "explanation": "People used to calm Madonnas found it too big, too bright and too agitated."
+  },
+  {
+   "question": "What is the painting made on?",
+   "options": [
+    "A single canvas",
+    "A plastered wall",
+    "Wooden planks"
+   ],
+   "answer": 2,
+   "explanation": "It is a panel of thick planks joined together, about 6.9 meters high."
+  },
+  {
+   "question": "How does Titian separate heaven from earth?",
+   "options": [
+    "With a painted stone wall",
+    "With a change of light, from blue daylight to gold",
+    "With a line of text"
+   ],
+   "answer": 1,
+   "explanation": "The apostles stand under a cool sky, while everything above the clouds glows gold."
+  },
+  {
+   "question": "Which color forms the triangle linking the apostles to Mary?",
+   "options": [
+    "Blue",
+    "Green",
+    "Red"
+   ],
+   "answer": 2,
+   "explanation": "Two apostles in red and Mary's red dress make a triangle that leads the eye upward."
+  },
+  {
+   "question": "Why are the apostles so large?",
+   "options": [
+    "The altarpiece was meant to be read from far down the church",
+    "Titian ran out of space above",
+    "The friars asked for giants"
+   ],
+   "answer": 0,
+   "explanation": "The picture was planned to be seen from a distance, through the choir arch."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The apostles gather around an empty tomb at the bottom of the picture.",
+   "isTrue": false,
+   "explanation": "Titian left the traditional tomb out and filled the ground with the apostles themselves."
+  },
+  {
+   "text": "Titian is buried in the same church as this painting.",
+   "isTrue": true,
+   "explanation": "He died in 1576 and was buried in the Frari."
+  },
+  {
+   "text": "The altarpiece has never left the Frari.",
+   "isTrue": false,
+   "explanation": "It hung in the Accademia museum for about a century before returning in 1919."
+  }
+ ]
+}

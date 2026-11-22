@@ -1,0 +1,172 @@
+{
+ "teaser": "The sweetest picture in Washington was painted by a rebel who learned his trade on teacups.",
+ "focus": [
+  0.52,
+  0.3
+ ],
+ "review_notes": "The claim that this is one of the most reproduced/popular works of the National Gallery of Art is commonly stated; the list of products (puzzles, tins, needlepoint) is general, not a specific documented case.\nRenoir apprenticed as a porcelain painter at 13 (Lévy Frères, Paris); the 'Monsieur Rubens' nickname is a traditional anecdote.\nSitter and garden are unidentified (suggestions include Monet's garden at Argenteuil); the lesson says they are unknown.\nChester Dale Collection, entered the NGA after his death in 1962.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "You may have met this child long before you knew who painted her. For decades she has been printed on jigsaw puzzles, cookie tins, calendars, greeting cards and needlepoint kits. At the National Gallery of Art in Washington she is one of the most reproduced pictures in the building."
+  },
+  {
+   "type": "text",
+   "text": "All that sweetness hides how risky the picture was in 1876. Renoir was 35 and belonged to a group the Paris press treated as a joke: the Impressionists, painters who worked in quick, visible touches of bright color and often outdoors. A child dissolving into a sunny garden was not what a respectable portrait looked like."
+  },
+  {
+   "type": "fact",
+   "text": "Renoir's first paid job had nothing to do with canvas. At 13 he was apprenticed in a Paris porcelain workshop, where he painted bouquets on cups and plates. He was so quick at it that his workmates teased him by calling him “Monsieur Rubens.”"
+  },
+  {
+   "type": "text",
+   "text": "The porcelain painter never quite left him. Travel down the child from her bow to her boots and notice which parts are treated like delicate china and which are simply brushed in."
+  },
+  {
+   "type": "tour",
+   "title": "From bow to boots",
+   "text": "Four stops down the figure.",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.09,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The red bow",
+     "text": "A few strokes of pure vermilion, the hottest color in the picture. It answers the red flowers in the bed behind her and pulls your eye straight to her head."
+    },
+    {
+     "x": 0.52,
+     "y": 0.22,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "The face",
+     "text": "Skin as smooth as glazed china, with blue eyes, a red mouth and a tiny earring. Her blond hair, by contrast, is a soft cloud with no edge at all."
+    },
+    {
+     "x": 0.5,
+     "y": 0.45,
+     "zoom": 2.2,
+     "r": 0.17,
+     "title": "Blue and white",
+     "text": "The dress is deep blue velvet trimmed with wide white lace. Renoir does not draw the lace. He scatters small white and pale blue touches until your eye reads a pattern."
+    },
+    {
+     "x": 0.52,
+     "y": 0.86,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The boots",
+     "text": "Dark blue ankle boots with a row of white dots for buttons. They plant her firmly on the path, a little apart, in the way of a child told to stand still."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now think about where Renoir was standing, or rather kneeling. There is no sky and no horizon. The lawn rises behind her like a green wall, and the path tilts up to the right. He painted from the child's height, so we meet her eye to eye instead of looking down on her as adults do."
+  },
+  {
+   "type": "key",
+   "text": "Renoir brings the viewpoint down to the child's level. The garden fills the whole canvas, and she becomes one more thing blooming in it."
+  },
+  {
+   "type": "text",
+   "text": "Her title mentions only the watering can, the green one she holds against her dress. But both of her hands are busy, and the second one carries the reason she looks so pleased with herself."
+  },
+  {
+   "type": "find",
+   "text": "She is holding something besides the watering can. Can you find it?",
+   "spots": [
+    {
+     "x": 0.67,
+     "y": 0.6,
+     "zoom": 3.6,
+     "r": 0.07,
+     "title": "Two daisies",
+     "text": "In her other hand, a couple of white daisies with yellow centers, freshly picked. Each one is three or four touches of the brush."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A can to water with and flowers already picked: she is playing gardener, and she has been caught in the middle of her game. Nobody knows for certain who she was or whose garden this is. Renoir left only his name and the year, “76,” at the bottom right."
+  },
+  {
+   "type": "fact",
+   "text": "The painting came to Washington through Chester Dale, a New York banker who filled his home with French pictures and promised them to the young National Gallery. His collection arrived there after his death in 1962."
+  },
+  {
+   "type": "text",
+   "text": "The charm was also good business. Renoir was short of money in the 1870s, and pictures of well-dressed, happy children were exactly what could persuade wealthy parents to order a portrait from an Impressionist. The picture did its job for him then, and the cookie tins show it still does."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was Renoir's first trade?",
+   "options": [
+    "Painting on porcelain",
+    "Engraving banknotes",
+    "Building stage sets"
+   ],
+   "answer": 0,
+   "explanation": "He was apprenticed at 13 in a porcelain workshop, painting flowers on cups and plates."
+  },
+  {
+   "question": "What is unusual about the viewpoint?",
+   "options": [
+    "We look down from a balcony",
+    "We see her from the height of a child",
+    "We see her from behind"
+   ],
+   "answer": 1,
+   "explanation": "Renoir painted from low down, so there is no sky and we meet her at eye level."
+  },
+  {
+   "question": "What does the girl hold in her second hand?",
+   "options": [
+    "A doll",
+    "A hoop",
+    "Daisies"
+   ],
+   "answer": 2,
+   "explanation": "She carries two freshly picked daisies."
+  },
+  {
+   "question": "How does Renoir paint the lace on the dress?",
+   "options": [
+    "With small scattered touches of white and pale blue",
+    "With a fine drawn outline for every thread",
+    "By gluing on real lace"
+   ],
+   "answer": 0,
+   "explanation": "He suggests the pattern with dabs rather than drawing it."
+  },
+  {
+   "question": "Who was the girl?",
+   "options": [
+    "Renoir's daughter",
+    "A princess of France",
+    "Her identity is unknown"
+   ],
+   "answer": 2,
+   "explanation": "Neither the child nor the garden has been identified for certain."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting shows a wide blue sky above the garden.",
+   "isTrue": false,
+   "explanation": "There is no sky at all: the lawn and flower beds rise to the top of the canvas."
+  },
+  {
+   "text": "Renoir painted this picture in 1876 and dated it on the canvas.",
+   "isTrue": true,
+   "explanation": "The signature at the bottom right is followed by “76.”"
+  },
+  {
+   "text": "Renoir began his career as a painter of porcelain.",
+   "isTrue": true,
+   "explanation": "He trained in a Paris porcelain workshop from the age of 13."
+  }
+ ]
+}

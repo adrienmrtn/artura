@@ -1,0 +1,39 @@
+{
+  "teaser": "One candle, two flames, and a woman who has turned her face away from us.",
+  "focus": [0.6, 0.38],
+  "review_notes": "Date: the Met gives about 1640.\nSize about 133 x 102 cm (52 x 40 in).\nFour autograph Magdalens by La Tour are usually counted: Met (Wrightsman), Louvre (Terff), National Gallery of Art Washington (Fabius), LACMA (smoking flame). Confirm the count.\nGift of Mr. and Mrs. Charles Wrightsman to the Met, 1978.\nMary Magdalen as a former sinner is church tradition, not stated in the Gospels; the lesson says 'tradition'.\nThe Gospel wording about the first witness of the Resurrection follows John 20.\nPlague and war in Lorraine in the 1630s as context for the popularity of penitent saints: general context, not documented for this commission.",
+  "lesson": [
+    {"type": "text", "text": "Two. That is how many flames burn in this painting. But count the candles in the room and you get only one. The second flame is a ghost: a reflection in a mirror. Georges de La Tour built an entire picture on that doubling, and on the darkness around it."},
+    {"type": "text", "text": "More than half of the canvas is nearly black. In that night sits a young woman in a white blouse and a red skirt, her long hair loose down her back. She does not look at us. We see the back of her head, the edge of a cheek, and her clasped hands."},
+    {"type": "text", "text": "She is Mary Magdalen. Church tradition made her a woman who lived for pleasure and luxury, met Jesus, and gave it all up. Painters loved the moment of her change of heart, called penitence: the instant a person looks at their life and decides to live differently."},
+    {"type": "fact", "text": "La Tour returned to this subject again and again. Four of his Magdalens survive, in New York, Paris, Washington and Los Angeles. Each shows the same woman alone at night with a flame and a skull, and no two are arranged the same way."},
+    {"type": "text", "text": "How do you paint a decision, something that happens inside a head we cannot even see? La Tour's answer is to let the objects speak for her. Some sit on the table. Others have already been thrown away."},
+    {"type": "find", "text": "She has stripped off her jewelry. Some of it did not land on the table. Where did it fall?", "spots": [
+      {"x": 0.8, "y": 0.94, "zoom": 3.2, "r": 0.13, "title": "Jewels on the floor", "text": "Down in the dark near her feet lie an earring and lengths of gold chain, dropped like trash. You almost miss them, which is the point: they no longer count."}
+    ]},
+    {"type": "text", "text": "With the jewels on the ground, the story has a before and an after. What remains in the light is a short list of things, and each one had a clear meaning for viewers of the 1600s."},
+    {"type": "tour", "title": "What the light keeps", "text": "Travel from the mirror down to her lap.", "spots": [
+      {"x": 0.72, "y": 0.32, "zoom": 2.6, "r": 0.11, "title": "Flame and reflection", "text": "The real candle stands in front in its holder. Its twin, shorter and a little dimmer, lives in the glass. A flame burns down and goes out, so it stands for a life passing."},
+      {"x": 0.72, "y": 0.22, "zoom": 2.4, "r": 0.18, "title": "The mirror", "text": "A heavy gilded frame, the most expensive object here. Mirrors meant vanity, the love of one's own looks. This one no longer shows her face, only the light."},
+      {"x": 0.9, "y": 0.49, "zoom": 3.5, "r": 0.08, "title": "The pearls", "text": "A rope of pearls lies in a heap by the candlestick, taken off and pushed aside. She has not yet thrown it to the floor with the rest."},
+      {"x": 0.57, "y": 0.47, "zoom": 3, "r": 0.1, "title": "Hands on a skull", "text": "Her fingers are laced together on top of a skull resting in her lap. She holds death calmly, like a book she has finished reading. The gesture is closer to prayer than to fear."}
+    ]},
+    {"type": "key", "text": "A candle, a mirror, a skull: pictures built from reminders that life is short are called vanitas. La Tour turns that old list of symbols into a single quiet moment."},
+    {"type": "text", "text": "The style does the rest. La Tour simplifies everything the flame touches. The sleeve becomes a smooth cylinder, the skull an egg, the skirt one long red slope running to the floor. There is no wrinkle of worry and no tear. The silence comes from that geometry."},
+    {"type": "fact", "text": "The trick of lighting a scene with one visible flame came from followers of the Italian painter Caravaggio, especially Dutch artists who had worked in Rome. La Tour, living in the small duchy of Lorraine, made it so much his own that candlelight became his trademark."},
+    {"type": "text", "text": "His home region was going through terrible years of war and plague when he painted these night scenes. Pictures of saints who face death and choose calm had an obvious appeal. That may be why collectors kept asking him for one more Magdalen."},
+    {"type": "key", "text": "Go back to the two flames. One is the thing itself, one is only its image. She is turned toward them, deciding which kind of life she wants, and La Tour stops the clock just before we learn her face."}
+  ],
+  "quiz": [
+    {"question": "Why are there two flames in the picture?", "options": ["Two candles stand on the table", "One candle is reflected in the mirror", "An oil lamp burns behind the candle"], "answer": 1, "explanation": "The second flame is the mirror image of the single candle."},
+    {"question": "What does Mary Magdalen rest her hands on?", "options": ["A skull", "A Bible", "A jewelry box"], "answer": 0, "explanation": "Her clasped hands lie on a skull in her lap."},
+    {"question": "Where has some of her jewelry ended up?", "options": ["Around her neck", "Inside the mirror frame", "On the floor at the bottom of the picture"], "answer": 2, "explanation": "An earring and chains lie discarded in the dark near her feet."},
+    {"question": "What is a vanitas?", "options": ["A portrait of a saint", "A picture built on reminders that life is short", "A painting made at night"], "answer": 1, "explanation": "Candles, mirrors and skulls are typical vanitas symbols."},
+    {"question": "How many Magdalens by La Tour survive?", "options": ["Four", "One", "Twelve"], "answer": 0, "explanation": "They are in New York, Paris, Washington and Los Angeles."}
+  ],
+  "facts": [
+    {"text": "Mary Magdalen looks straight out at the viewer.", "isTrue": false, "explanation": "She is turned away, and we see little more than the edge of her cheek."},
+    {"text": "La Tour painted the folds and objects as simple, smooth shapes.", "isTrue": true, "explanation": "The sleeve, the skull and the skirt are reduced to near-geometric forms."},
+    {"text": "The mirror in the painting shows her face.", "isTrue": false, "explanation": "It reflects only the candle and its flame."}
+  ]
+}

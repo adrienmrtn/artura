@@ -1,0 +1,331 @@
+{
+ "teaser": "A red sofa in the middle of the jungle. Rousseau had a perfectly good explanation.",
+ "focus": [
+  0.2,
+  0.52
+ ],
+ "review_notes": "Apollinaire's 1910 review saying that this year nobody laughed is paraphrased, not quoted.\nRousseau's explanation of the sofa was given in a letter to the critic André Dupont (1910), paraphrased.\nPoem lines are paraphrased from the verse Rousseau attached to the painting.\n'More than twenty shades of green' is the figure commonly given (MoMA).\nPicasso bought a Rousseau portrait for five francs from a junk dealer; banquet held in November 1908.\nYadwigha said to be a Polish woman Rousseau loved in his youth: based on his own statements.\nSofa identified as the one in his studio.\nDimensions approx. 204.5 x 298.5 cm. Bought by dealer Ambroise Vollard in 1910; at MoMA since 1954 (gift of Nelson A. Rockefeller).\nMonkeys in the orange tree are dark and hard to see on small reproductions.\nRousseau's published waltz 'Clémence' (1904), named after his first wife.\nSmall attendance at his funeral (usually given as seven people).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Paris, spring 1910. For twenty-five years, visitors to the Salon des Indépendants, a big yearly show with no jury, had made a habit of stopping at Henri Rousseau's pictures to laugh. This year he sent one enormous canvas. The poet Guillaume Apollinaire went to see it and reported something new: nobody was laughing."
+  },
+  {
+   "type": "text",
+   "text": "What quieted them was this wall of leaves, about 2 meters high and 3 meters wide (roughly 6.5 by 10 feet). Rousseau was 65. He had started it months earlier in his one-room studio, and it would be the last large picture he finished."
+  },
+  {
+   "type": "text",
+   "text": "Not everyone was won over. One thing puzzled even friendly viewers, and it sits in plain view on the left: a naked woman on a parlor sofa, with a jungle growing around the furniture. What is a living-room couch doing among the lotus flowers?"
+  },
+  {
+   "type": "text",
+   "text": "A critic asked him exactly that. Rousseau answered patiently, as if it were obvious. The woman has fallen asleep on her sofa in Paris. She is dreaming that she has been carried into this forest, and she hears the music of a charmer's pipe. The sofa is real. Everything else is her dream."
+  },
+  {
+   "type": "tour",
+   "title": "The dreamer and her dream",
+   "text": "Start with what is real, then cross into the forest.",
+   "spots": [
+    {
+     "x": 0.38,
+     "y": 0.62,
+     "zoom": 2,
+     "r": 0.16,
+     "title": "The sofa",
+     "text": "Dark red velvet with a curved wooden frame, the kind found in any modest French home of the time. Rousseau owned one like it in his studio. It is the only object from the waking world."
+    },
+    {
+     "x": 0.17,
+     "y": 0.5,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Yadwigha",
+     "text": "He named her Yadwigha, after a Polish woman he said he had loved when he was young. Long braids, a firm profile, wide-open eyes. In her own dream she is awake."
+    },
+    {
+     "x": 0.31,
+     "y": 0.52,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The hand",
+     "text": "Her arm stretches along the sofa back and her fingers open toward the forest. She is not afraid. She points, or reaches, like someone greeting what she sees."
+    },
+    {
+     "x": 0.61,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The charmer",
+     "text": "A dark figure in a striped skirt plays a pipe, almost dissolved into the shadows. Only the eyes and the pale instrument stand out. This is the music she hears.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Rousseau did not trust the picture to explain itself. He hung a short poem beside it. In it, Yadwigha, gently asleep, hears the notes of a pipe played by a kindly charmer, while the moon shines on the flowers and the green trees, and the wild snakes lend an ear to the tune."
+  },
+  {
+   "type": "fact",
+   "text": "Painter, poet, and musician too: Rousseau played the violin, gave music lessons to neighborhood children to make ends meet, and published a waltz he had composed. He named it “Clémence,” after his first wife."
+  },
+  {
+   "type": "text",
+   "text": "The poem says the animals are listening. Look at how he arranges that. Almost every creature in the forest is turned toward something, and their attention makes a kind of invisible web across the canvas."
+  },
+  {
+   "type": "lines",
+   "text": "Trace who is looking at whom.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.18,
+       0.49
+      ],
+      [
+       0.31,
+       0.52
+      ],
+      [
+       0.6,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "Her gaze and gesture",
+     "text": "Yadwigha's eyes and her outstretched arm both lead to the right, straight toward the pipe player. She listens with her whole body."
+    },
+    {
+     "points": [
+      [
+       0.54,
+       0.6
+      ],
+      [
+       0.3,
+       0.55
+      ]
+     ],
+     "closed": false,
+     "label": "The lioness",
+     "text": "The lioness on the left lifts her head toward the sofa. Of the two big cats, she is the one watching the newcomer."
+    },
+    {
+     "points": [
+      [
+       0.635,
+       0.67
+      ],
+      [
+       0.635,
+       0.98
+      ]
+     ],
+     "closed": false,
+     "label": "The lion",
+     "text": "The other lion stares directly out of the canvas with round yellow eyes. His gaze lands on you, and you become one more creature in the audience."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those round, startled eyes have a history. Rousseau never saw a lion in the wild. He never left France. His big cats come from zoo visits, stuffed specimens and picture books, which is why they look a little like toys, and why their stare feels closer to wonder than to hunger."
+  },
+  {
+   "type": "text",
+   "text": "The forest hides more than cats. Rousseau packed it the way a child packs a drawing, filling every gap, and some of the residents are easy to miss because he painted them in the same grays and greens as the leaves."
+  },
+  {
+   "type": "find",
+   "text": "The largest animal in the picture is also the best hidden. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.37,
+     "y": 0.4,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "An elephant",
+     "text": "A gray elephant stands behind the foliage, above the sofa. You can make out one small eye, the big ear and the trunk lifted among the stems. It is listening too."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "An elephant squeezed between flower stalks tells you how this jungle works. Nothing is to scale. Lotus blossoms are as big as the woman's head, and leaves from different climates share the same branch. Rousseau built it leaf by leaf, each one outlined and finished before the next."
+  },
+  {
+   "type": "fact",
+   "text": "People who have counted say the painting holds more than twenty distinct shades of green. Rousseau mixed each one on purpose and kept them separate, so the forest reads as layers of flat cutouts stacked from front to back."
+  },
+  {
+   "type": "text",
+   "text": "That flatness is what the young avant-garde, the artists pushing for a new kind of painting, loved in him. They were tired of the tricks that make a canvas imitate a window. Here was a man who ignored those tricks without even trying."
+  },
+  {
+   "type": "fact",
+   "text": "In 1908 Pablo Picasso threw a banquet in Rousseau's honor in his Montmartre studio. He had bought one of the old man's portraits for five francs from a junk dealer who sold it as canvas to paint over. Rousseau sat on a makeshift throne and played his violin."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.075,
+     "zoom": 3,
+     "r": 0.05,
+     "title": "The moon",
+     "text": "A full white moon in a daytime-blue sky. The poem says it shines on the flowers, but no moonlight falls anywhere. Each leaf carries its own light."
+    },
+    {
+     "x": 0.46,
+     "y": 0.19,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "Oranges",
+     "text": "A tree heavy with oranges, the sort Rousseau could see growing in tubs in Paris hothouses. Two dark monkeys hide among the fruit to the left and right."
+    },
+    {
+     "x": 0.16,
+     "y": 0.14,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "The pale bird",
+     "text": "A gray and yellow bird perched high on the left, wings folded, turned toward the music below."
+    },
+    {
+     "x": 0.52,
+     "y": 0.21,
+     "zoom": 3.2,
+     "r": 0.05,
+     "title": "A second bird",
+     "text": "Dark, with an orange breast, sitting dead center under the oranges. It faces the charmer like a spectator with a good seat."
+    },
+    {
+     "x": 0.75,
+     "y": 0.81,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The snake",
+     "text": "A pink-orange snake slides through the plants toward the lower right. In the poem, the snakes are the ones who “lend an ear” to the tune."
+    },
+    {
+     "x": 0.07,
+     "y": 0.44,
+     "zoom": 2.4,
+     "r": 0.09,
+     "title": "Blue lotus",
+     "text": "Giant lotus flowers on tall stems surround the sofa. They bloom in pink, white and blue, far larger than life, like lamps placed around a stage."
+    },
+    {
+     "x": 0.54,
+     "y": 0.6,
+     "zoom": 2.8,
+     "r": 0.06,
+     "title": "The lioness",
+     "text": "Head raised, ears pricked, eyes on the dreamer. Her body is lost in the leaves, so she seems to grow out of the plants."
+    },
+    {
+     "x": 0.92,
+     "y": 0.95,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Signature and date",
+     "text": "“Henri Rousseau 1910,” in the corner. He would not sign another large painting."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The art dealer Ambroise Vollard bought the canvas that same year. Rousseau had little time to enjoy it. In September 1910, a neglected wound on his leg turned to gangrene, and he died in a Paris hospital. Only a handful of friends followed the coffin."
+  },
+  {
+   "type": "text",
+   "text": "A decade later, a group of writers and painters who called themselves Surrealists made dreams their whole program. A sofa in a jungle would have seemed perfectly natural to them. Rousseau had gotten there first, and he had explained it in one sentence."
+  },
+  {
+   "type": "key",
+   "text": "The Dream shows two places at once, a Paris room and a forest, joined by nothing more than a sleeping mind. The laughter stopped when viewers realized he meant it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did Rousseau explain the sofa in the jungle?",
+   "options": [
+    "It was left there by explorers",
+    "The woman is asleep on it in Paris and dreaming the forest",
+    "It symbolizes the French colonies"
+   ],
+   "answer": 1,
+   "explanation": "He said she fell asleep on her sofa and dreams she has been carried into the forest."
+  },
+  {
+   "question": "What did Rousseau hang beside the painting?",
+   "options": [
+    "A poem",
+    "A map of Africa",
+    "A photograph of his model"
+   ],
+   "answer": 0,
+   "explanation": "He wrote a short poem about Yadwigha hearing the charmer's pipe in her dream."
+  },
+  {
+   "question": "Which large animal hides in the foliage above the sofa?",
+   "options": [
+    "A giraffe",
+    "A rhinoceros",
+    "An elephant"
+   ],
+   "answer": 2,
+   "explanation": "A gray elephant stands behind the stems, its eye and ear just visible."
+  },
+  {
+   "question": "Where does the lion in the center direct its gaze?",
+   "options": [
+    "At the snake",
+    "Straight out at the viewer",
+    "At the moon"
+   ],
+   "answer": 1,
+   "explanation": "Its round yellow eyes stare directly out of the canvas."
+  },
+  {
+   "question": "What did Picasso do for Rousseau in 1908?",
+   "options": [
+    "He threw a banquet in his honor",
+    "He paid for a trip to Mexico",
+    "He bought The Dream"
+   ],
+   "answer": 0,
+   "explanation": "Picasso hosted a banquet for him in his Montmartre studio."
+  },
+  {
+   "question": "What happened to Rousseau a few months after showing The Dream?",
+   "options": [
+    "He moved to Poland",
+    "He stopped painting to teach music",
+    "He died of an infected leg wound"
+   ],
+   "answer": 2,
+   "explanation": "He died in September 1910 after a leg wound turned to gangrene."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Rousseau painted the jungle after years of travel in the tropics.",
+   "isTrue": false,
+   "explanation": "He never left France; his animals came from zoos, stuffed specimens and picture books."
+  },
+  {
+   "text": "The Dream is about 2 meters high and 3 meters wide.",
+   "isTrue": true,
+   "explanation": "It is his largest jungle picture, roughly 6.5 by 10 feet."
+  },
+  {
+   "text": "The woman on the sofa is fast asleep with her eyes closed.",
+   "isTrue": false,
+   "explanation": "Inside her own dream Yadwigha is shown wide awake, looking and reaching toward the music."
+  }
+ ]
+}

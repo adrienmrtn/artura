@@ -1,0 +1,49 @@
+{
+  "teaser": "A hired teenager, a borrowed pose from the old masters, and a face painted in green and blue.",
+  "focus": [0.5, 0.2],
+  "review_notes": "National Gallery of Art dates the canvas 1888-1890; Collection of Mr. and Mrs. Paul Mellon, gift 1995.\nModel identified as Michelangelo di Rosa, a young Italian professional model; four oil versions (Washington, Zurich Bührle Collection, MoMA New York, Barnes Foundation) plus watercolors.\nPainted in Cézanne's Paris apartment on the quai d'Anjou, Île Saint-Louis.\nBührle version stolen in Zurich in February 2008 and recovered in Belgrade in April 2012; valued at around 100 million dollars.\nVollard's account of 115 sittings and 'sit like an apple' comes from Vollard's own memoir.\nComparison of the hand-on-hip pose to sixteenth-century Italian portraits is a standard art-historical reading.",
+  "lesson": [
+    {"type": "text", "text": "How old would you say he is? Fifteen, sixteen? He stands with a fist on his hip like a young prince posing for a court painter. But his eyes do not quite meet yours, his mouth gives nothing away, and his cheeks are streaked with green. Who is he?"},
+    {"type": "text", "text": "His name was Michelangelo di Rosa, and posing was his job. Around 1888 to 1890 Paul Cézanne was living in an apartment on an island in the middle of Paris, and he did something he almost never did: he hired a professional model. Paris was full of young Italians who made a living this way, standing for hours in artists' studios."},
+    {"type": "tour", "title": "Meeting the model", "text": "Start with the three things that make him a person: a face, a costume, a hand.", "spots": [
+      {"x": 0.5, "y": 0.17, "zoom": 3.2, "r": 0.1, "title": "The face", "text": "Pale skin, but the shadows are blue and green and the cheeks pink and orange. The eyes sit slightly uneven. He looks toward you without really landing on you."},
+      {"x": 0.52, "y": 0.47, "zoom": 2.2, "r": 0.16, "title": "The waistcoat", "text": "The one hot color in a cool picture. Several reds, from brick to scarlet, are brushed in slanted patches. With the blue tie and soft hat, it suggests Italian country dress."},
+      {"x": 0.32, "y": 0.61, "zoom": 3.2, "r": 0.09, "title": "The hand on the hip", "text": "Fingers spread over the hip, painted in grays, pinks and violets. It is more a sketch of a hand than a hand, yet it carries all of the boy's attitude."}
+    ]},
+    {"type": "text", "text": "That fist on the hip has a long history. Sixteenth-century Italian painters used it for dukes and young noblemen: one elbow thrust out, the other arm hanging, a look of cool self-possession. Cézanne had spent years copying such pictures in the Louvre. He gave the aristocrat's pose to a working boy paid by the hour."},
+    {"type": "fact", "text": "Cézanne was a famously hard painter to sit for. His dealer, Ambroise Vollard, later claimed he posed 115 times for a single portrait, and that when he dozed off and shifted, the painter snapped at him to sit still like an apple."},
+    {"type": "text", "text": "Which tells you what Cézanne wanted from a sitter. Not a mood, not a life story, but a form that stayed put while he studied how its colors met. The boy posed for at least four oil paintings in the red waistcoat: seated, in profile, leaning on a table, and here, standing straight and facing us."},
+    {"type": "fact", "text": "The seated version in Zurich was stolen at gunpoint in February 2008, in one of Europe's biggest art robberies. Police recovered it four years later in Belgrade, Serbia. It was valued at about 100 million dollars."},
+    {"type": "text", "text": "Back to the standing boy. A body facing straight ahead can look as dull as a passport photo. Cézanne prevents that by setting everything around the figure on a slant, and by quietly stretching the figure itself."},
+    {"type": "lines", "text": "How a still pose is made to move.", "lines": [
+      {"points": [[0.37, 0.36], [0.17, 0.47], [0.33, 0.62]], "closed": true, "label": "The elbow", "text": "The bent arm forms a sharp triangle jutting to the left. It is the pose's one aggressive angle, the part borrowed from portraits of noblemen."},
+      {"points": [[0.72, 0.34], [0.8, 0.6], [0.72, 0.92]], "closed": false, "label": "The long arm", "text": "The other arm drops in one slow curve to a hand near the bottom edge. Measure it against the torso: it is longer than a real arm, and the picture needs that length."},
+      {"points": [[0.7, 0.02], [0.82, 0.22], [1.0, 0.45]], "closed": false, "label": "The curtain", "text": "Behind him a heavy drape sweeps down toward the right. Its diagonal pushes against the upright body and keeps the background from going flat."}
+    ]},
+    {"type": "text", "text": "The stretched arm was no mistake. Cézanne lengthened and shortened limbs whenever the balance of the canvas asked for it. A real arm would have ended higher and left an empty hole at the lower right. Critics mocked such liberties at the time. Painters of the next generation, Matisse and Modigliani among them, treated them as permission."},
+    {"type": "key", "text": "For Cézanne, a figure had to be right for the painting before it was right for anatomy."},
+    {"type": "text", "text": "Notice, too, that the boy and the room are made of the same stuff. The blue of his tie returns in the curtain. The ochres of the drapery come back in his trousers. His shirt sleeve nearly dissolves into the pale folds beside it. Nothing is outlined and then filled in. The whole surface is built at once, patch by patch."},
+    {"type": "explore", "spots": [
+      {"x": 0.52, "y": 0.06, "zoom": 2.6, "r": 0.14, "title": "The hat", "text": "A dark, soft hat with a wide brim, cropped by the top of the canvas. It frames the pale face like a shadowed halo."},
+      {"x": 0.52, "y": 0.36, "zoom": 3, "r": 0.07, "title": "The tie", "text": "A knot of strong blue against the white collar, right at the top of the red. Blue, white and red meet here in the tightest spot of the picture."},
+      {"x": 0.25, "y": 0.15, "zoom": 2.6, "r": 0.09, "title": "Patterned fabric", "text": "On the left hangs a different cloth, with leafy shapes in green and salmon. It hints at a furnished apartment without describing one."},
+      {"x": 0.55, "y": 0.71, "zoom": 2.4, "r": 0.13, "title": "The sash", "text": "A broad blue band circles the waist below the waistcoat. It cools the red from underneath, as the tie does from above."},
+      {"x": 0.7, "y": 0.92, "zoom": 3, "r": 0.08, "title": "The lower hand", "text": "Loosely brushed in reddish tones, almost unfinished. Cézanne often left the ends of things open like this, to keep the picture breathing."},
+      {"x": 0.88, "y": 0.35, "zoom": 1.8, "r": 0.13, "shape": "rect", "title": "The big drape", "text": "Cream, blue and gray strokes follow the fall of the folds. In places the paint is so thin that the weave of the canvas shows through."}
+    ]},
+    {"type": "fact", "text": "This canvas belonged to Paul Mellon, an American philanthropist whose father founded the National Gallery of Art. Paul and his wife Bunny gave the museum more than a thousand works. The boy arrived in Washington in 1995."},
+    {"type": "text", "text": "We know almost nothing more about Michelangelo di Rosa. No letters, no later career, no photograph. A teenager stood in a Paris room for a few weeks, was paid, and left. And yet his face now hangs in four museums. What do you think he was looking at?"}
+  ],
+  "quiz": [
+    {"question": "Who was the boy in the red waistcoat?", "options": ["Cézanne's son", "A young Italian professional model", "A young nobleman from Aix"], "answer": 1, "explanation": "Michelangelo di Rosa was paid to pose."},
+    {"question": "Where does the hand-on-hip pose come from?", "options": ["Sixteenth-century Italian portraits of noblemen", "Photographs of circus performers", "Japanese prints"], "answer": 0, "explanation": "Cézanne borrowed a pose once used for dukes and young aristocrats."},
+    {"question": "Why is the hanging arm longer than a real arm?", "options": ["Cézanne could not draw anatomy", "The canvas was later enlarged", "The balance of the picture needed that length"], "answer": 2, "explanation": "He stretched limbs when the composition asked for it."},
+    {"question": "What happened to the seated version of this subject in 2008?", "options": ["It was stolen in Zurich and recovered four years later", "It was destroyed in a fire", "It was sold at auction in New York"], "answer": 0, "explanation": "It was taken at gunpoint and found in Belgrade in 2012."},
+    {"question": "What colors does Cézanne use in the shadows of the face?", "options": ["Brown and black", "Blue and green", "Only gray"], "answer": 1, "explanation": "The shadows of the pale face are blue and green."}
+  ],
+  "facts": [
+    {"text": "Cézanne painted the boy in the red waistcoat only once.", "isTrue": false, "explanation": "He posed for at least four oil paintings."},
+    {"text": "Cézanne's dealer claimed he was told to sit still like an apple.", "isTrue": true, "explanation": "Ambroise Vollard told this story about his own portrait sittings."},
+    {"text": "The blue of the boy's tie appears nowhere else in the painting.", "isTrue": false, "explanation": "The same blue returns in the curtain and the sash."}
+  ]
+}

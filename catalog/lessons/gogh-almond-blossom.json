@@ -1,0 +1,39 @@
+{
+  "teaser": "A birth present for a baby who would grow up to found a museum around it.",
+  "focus": [0.52, 0.45],
+  "review_notes": "Nephew Vincent Willem born 31 January 1890; painting intended for Theo and Jo's bedroom: check.\nVan Gogh suffered a new attack shortly after finishing it (late February 1890) and missed the rest of the blossom season: check.\nThe blossoms were originally pinker; the red pigment has faded with light (Van Gogh Museum research): check.\nFirst sale of a painting ('The Red Vineyard', 400 francs, early 1890) and Albert Aurier's article of January 1890: check.\nVan Gogh Museum opened in 1973, founded through the nephew's efforts: check.\nSize about 73 x 92 cm: check.",
+  "lesson": [
+    {"type": "text", "text": "February 1890. Vincent van Gogh was 36 and had been living for nine months in an asylum in the south of France. He had no income of his own: his younger brother Theo, an art dealer in Paris, paid for the room, the paint and the canvas. Between attacks of illness that could knock him out for weeks, he worked."},
+    {"type": "text", "text": "That winter brought an odd run of good news. A critic had just published the first enthusiastic article about him, and one of his paintings had found a buyer at an exhibition in Brussels. Then, on January 31, a letter came from Paris. Theo and his wife Jo had a son, and they were naming him Vincent."},
+    {"type": "text", "text": "He was moved, and a little embarrassed. He set to work at once on a present for the baby: big branches of almond blossom against a blue sky, meant to hang in the parents' bedroom. Almond trees flower as early as February in Provence, before any leaves appear. They are the first sign that winter is losing."},
+    {"type": "fact", "text": "Vincent's reaction to the choice of name was modest. He wrote that he would have preferred the boy to be called after their father, Theodorus, rather than after him."},
+    {"type": "text", "text": "The picture has no trunk, no ground, no horizon and no shadow. You are lying under the tree, or you are a child being held up to it. That cropped view came from the Japanese woodblock prints Van Gogh collected, where a flowering branch often cuts across flat, empty color."},
+    {"type": "lines", "text": "With no ground to stand on, the branches have to organize everything themselves.", "lines": [
+      {"points": [[0.75, 0.99], [0.55, 0.87], [0.38, 0.81], [0.22, 0.79]], "closed": false, "label": "The main limb", "text": "One thick, knotted branch enters from the bottom edge and bends to the left. It is the only heavy thing in the picture, and it is cut off before we learn where it comes from."},
+      {"points": [[0.33, 0.8], [0.3, 0.6], [0.2, 0.36], [0.1, 0.06]], "closed": false, "label": "Reaching up left", "text": "Smaller branches climb from it toward the top corner, getting thinner at every fork."},
+      {"points": [[0.55, 0.86], [0.53, 0.58], [0.65, 0.42], [0.86, 0.19], [0.99, 0.14]], "closed": false, "label": "Reaching up right", "text": "Another arm zigzags up and out of the picture on the right. The tree clearly continues beyond the frame in every direction."}
+    ]},
+    {"type": "text", "text": "Notice that every one of those branches wears a dark edge. Van Gogh draws with the brush, running a blue-black or dark green contour along the wood, then fills it with stripes of pale green. That firm outline against flat color is another lesson taken from Japanese prints."},
+    {"type": "key", "text": "Japanese prints taught Van Gogh that a picture needs no horizon and no shadows: a bold outline, a daring crop and one field of color can be enough."},
+    {"type": "text", "text": "The flowers are handled differently. Each petal is a thick curl of paint, placed on top of the finished sky. But the color you see today is not quite the color he left."},
+    {"type": "tour", "title": "Petals and buds", "text": "Two blossoms, and the sky between them.", "spots": [
+      {"x": 0.31, "y": 0.68, "zoom": 3.6, "r": 0.05, "title": "The whitest flower", "text": "One blossom stands out, almost pure white with stiff petals. Most of the others are creamy or greenish. Many were once pinker: the red pigment he used has faded with light."},
+      {"x": 0.73, "y": 0.31, "zoom": 3.0, "r": 0.07, "title": "Traces of pink", "text": "Around this cluster you can still catch rosy edges and small red marks on the buds. They hint at the warmer, pinker tree he actually painted."},
+      {"x": 0.3, "y": 0.2, "zoom": 2.2, "r": 0.13, "title": "The sky", "text": "The blue is not flat. It shifts between turquoise and a deeper blue in short, criss-crossing strokes, brushed carefully around each twig."}
+    ]},
+    {"type": "text", "text": "The effort cost him. Shortly after finishing the canvas he suffered one of his worst attacks, and when he recovered weeks later the blossom was over. He regretted it bitterly: he had hoped to paint a whole series of trees in flower. He died that July, five months after the baby's birth."},
+    {"type": "fact", "text": "The baby, Vincent Willem van Gogh, inherited his uncle's paintings and spent his later life finding them a permanent home. The result was the Van Gogh Museum in Amsterdam, which opened in 1973. His birth present hangs there."}
+  ],
+  "quiz": [
+    {"question": "Why did Van Gogh paint Almond Blossom?", "options": ["As a gift for his newborn nephew", "As a commission from a Japanese collector", "To decorate the asylum chapel"], "answer": 0, "explanation": "It celebrated the birth of Theo and Jo's son, named Vincent after him."},
+    {"question": "Who paid for Van Gogh's room, paint and canvas?", "options": ["The French state", "The asylum doctors", "His brother Theo"], "answer": 2, "explanation": "Theo, an art dealer in Paris, supported him financially."},
+    {"question": "What did Van Gogh borrow from Japanese prints here?", "options": ["Gold leaf backgrounds", "A cropped view with outlines and flat color", "Deep shadows and candlelight"], "answer": 1, "explanation": "The branch cut by the frame, the dark contours and the flat sky all echo Japanese woodblock prints."},
+    {"question": "How have the blossoms changed since 1890?", "options": ["They have darkened to brown", "They were repainted by a restorer", "They have lost much of their pink"], "answer": 2, "explanation": "The red pigment has faded with light, leaving the flowers whiter."},
+    {"question": "What did the baby do as an adult?", "options": ["He helped create the Van Gogh Museum", "He sold the painting to an American collector", "He became a painter of orchards"], "answer": 0, "explanation": "Vincent Willem van Gogh worked to give the collection a home, the museum that opened in 1973."}
+  ],
+  "facts": [
+    {"text": "Almond trees in Provence can flower as early as February, before their leaves appear.", "isTrue": true, "explanation": "That early bloom makes them a sign of new life at the end of winter."},
+    {"text": "The painting shows the whole almond tree, from roots to crown.", "isTrue": false, "explanation": "There is no trunk and no ground, only branches against the sky."},
+    {"text": "After this canvas, Van Gogh went on to paint a long series of blossoming trees that spring.", "isTrue": false, "explanation": "An attack of illness stopped him, and the blossom was over when he recovered."}
+  ]
+}

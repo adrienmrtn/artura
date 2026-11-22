@@ -1,0 +1,241 @@
+{
+ "teaser": "A boy in red, a pet magpie on a string, and three cats who have not blinked since 1788.",
+ "focus": [
+  0.46,
+  0.3
+ ],
+ "review_notes": "Boy born April 1784, died 1792 aged eight: per the Met.\nFather: Count of Altamira, a director of the Banco de San Carlos, who commissioned several family portraits from Goya.\nBache bequest 1949; arrangement letting Kitty Miller (Bache's daughter) keep the painting at home part of each year until 1979: please verify.\nSymbolic readings (caged birds as innocence/soul, cats as menace) are interpretations, presented as such.\nNumber of finches in the cage not stated because they cannot be counted reliably in the image.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Four. That is the age of the boy in the red suit, give or take a few months. And eight is the age at which he died. Almost everything people feel in front of this portrait comes from knowing the second number while looking at the first."
+  },
+  {
+   "type": "text",
+   "text": "His name runs along the bottom of the canvas in capital letters: Manuel Osorio Manrique de Zúñiga, born in April 1784. His father was the Count of Altamira, one of the richest noblemen in Spain and a director of the national bank. Around 1787 the count hired Goya to paint his family, one member at a time."
+  },
+  {
+   "type": "text",
+   "text": "Goya was in his early forties, climbing fast at court, and very good with children. He dressed Manuel in a bright red one-piece outfit with a satin sash and lace collar, and stood him alone in an empty, greenish room. The boy holds a string. At the other end is his pet: a magpie."
+  },
+  {
+   "type": "text",
+   "text": "Children's portraits of the time often include a pet bird. It was a familiar toy, and for Christians a bird also stood for the soul. But Goya added an audience for this bird, and part of that audience is easy to miss."
+  },
+  {
+   "type": "find",
+   "text": "Two cats are plain to see beside the magpie. A third one is hiding. Where?",
+   "spots": [
+    {
+     "x": 0.27,
+     "y": 0.62,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The black cat",
+     "text": "Only two yellow eyes and the tips of two ears emerge from the darkness behind the others. Goya painted it black on near-black, so it appears after the rest, like something you notice too late."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Once you have seen all three, the mood of the picture changes. The cats are not playing. They are fixed on the bird with the patience of hunters, and the only thing between them and a meal is a child who is looking somewhere else entirely."
+  },
+  {
+   "type": "lines",
+   "text": "Trace who is looking at what.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.2,
+       0.695
+      ],
+      [
+       0.28,
+       0.79
+      ]
+     ],
+     "closed": false,
+     "label": "The calico's stare",
+     "text": "Wide eyes aimed down at the magpie, body crouched low."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.685
+      ],
+      [
+       0.29,
+       0.79
+      ]
+     ],
+     "closed": false,
+     "label": "The tabby's stare",
+     "text": "The gray cat watches the same spot. With the black cat behind, three gazes meet on the bird."
+    },
+    {
+     "points": [
+      [
+       0.23,
+       0.49
+      ],
+      [
+       0.22,
+       0.6
+      ],
+      [
+       0.26,
+       0.76
+      ],
+      [
+       0.26,
+       0.85
+      ]
+     ],
+     "closed": false,
+     "label": "The string",
+     "text": "A thin cord drops from Manuel's hand to the magpie's leg. It is all that keeps the bird near him, and all that keeps it from flying out of reach of the cats."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.265
+      ],
+      [
+       0.53,
+       0.265
+      ]
+     ],
+     "closed": false,
+     "label": "The boy's eyes",
+     "text": "Level and wide open, they point straight out of the picture, at us. He sees none of what is happening at his feet."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Many viewers read the scene as a picture of childhood itself: innocence standing calmly, unaware, a step away from danger. Goya never explained it, and the reading stays open."
+  },
+  {
+   "type": "fact",
+   "text": "Goya signed this portrait through the bird. The magpie holds a small card in its beak, and on it are the painter's name and a tiny drawing of a palette and brushes."
+  },
+  {
+   "type": "text",
+   "text": "Two more details reward a slower visit, one at the bird's beak and one on the right side of the floor. Together they show how carefully Goya staged this apparently simple nursery scene."
+  },
+  {
+   "type": "tour",
+   "text": "A signature and a second kind of pet.",
+   "spots": [
+    {
+     "x": 0.39,
+     "y": 0.84,
+     "zoom": 4.2,
+     "r": 0.05,
+     "title": "Goya's calling card",
+     "text": "The card in the magpie's beak works like a business card left on the floor of a noble house. The painter is a visitor here, and makes sure you know who called."
+    },
+    {
+     "x": 0.74,
+     "y": 0.73,
+     "zoom": 2.6,
+     "r": 0.13,
+     "title": "The green cage",
+     "text": "A cage full of small finches sits safely on the floor. These birds are protected by bars. The magpie, out in the open, has only a string and a child."
+    },
+    {
+     "x": 0.46,
+     "y": 0.27,
+     "zoom": 3.0,
+     "r": 0.09,
+     "title": "The face",
+     "text": "Huge dark eyes, a pale forehead, lips closed. Goya painted the skin thinly and softly, while the lace below is a flurry of quick white strokes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Manuel died in 1792. The portrait was painted while he was alive and healthy, so it was never meant as a memorial. History turned it into one. The stillness and the watching cats now look like a warning that nobody in the room could have read."
+  },
+  {
+   "type": "fact",
+   "text": "The American banker Jules Bache bought the painting in the 1920s and left it to the Metropolitan Museum in 1949. His daughter loved it so much that the museum let her keep it in her apartment for part of each year until her death in 1979."
+  },
+  {
+   "type": "key",
+   "text": "Goya could paint a perfectly charming society portrait and still plant three pairs of unblinking eyes in the shadows. That mix of sweetness and unease runs through his whole career."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How old was Manuel when he died?",
+   "options": [
+    "Four",
+    "Eight",
+    "Sixteen"
+   ],
+   "answer": 1,
+   "explanation": "He was born in 1784 and died in 1792, at eight."
+  },
+  {
+   "question": "How did Goya sign the painting?",
+   "options": [
+    "On a card held in the magpie's beak",
+    "On the boy's sash",
+    "On the cage door"
+   ],
+   "answer": 0,
+   "explanation": "The card bears his name and a little palette with brushes."
+  },
+  {
+   "question": "How many cats are in the picture?",
+   "options": [
+    "One",
+    "Two",
+    "Three"
+   ],
+   "answer": 2,
+   "explanation": "Two are obvious, and a black one hides in the shadow behind them."
+  },
+  {
+   "question": "Where is Manuel looking?",
+   "options": [
+    "At the magpie",
+    "At the cats",
+    "Straight out at the viewer"
+   ],
+   "answer": 2,
+   "explanation": "He faces us and sees nothing of the drama at his feet."
+  },
+  {
+   "question": "Who commissioned the portrait?",
+   "options": [
+    "The boy's father, the Count of Altamira",
+    "King Charles IV",
+    "The Metropolitan Museum"
+   ],
+   "answer": 0,
+   "explanation": "The count had Goya paint several members of his family."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The portrait was painted after Manuel's death, as a memorial.",
+   "isTrue": false,
+   "explanation": "It was made around 1787-88, while he was alive; he died in 1792."
+  },
+  {
+   "text": "The magpie is tied to a string that the boy holds.",
+   "isTrue": true,
+   "explanation": "A thin cord runs from his hand to the bird's leg."
+  },
+  {
+   "text": "The small finches in the picture are flying free around the room.",
+   "isTrue": false,
+   "explanation": "They are shut safely inside a green cage on the floor."
+  }
+ ]
+}

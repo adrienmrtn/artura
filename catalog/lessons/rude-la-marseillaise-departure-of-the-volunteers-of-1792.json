@@ -1,0 +1,319 @@
+{
+ "teaser": "In 2018, a broken plaster face made front pages worldwide. Its original still screams on the Arc.",
+ "focus": [
+  0.47,
+  0.28
+ ],
+ "review_notes": "Opening: on December 1, 2018, during the 'yellow vest' riots, a plaster cast of the head of the Genius from Rude's relief, displayed inside the Arc de Triomphe, was smashed. Please confirm it was a plaster cast of this head (widely reported).\nHeight of the group given as about 12.7 m.\nAnecdote that Rude's wife Sophie Frémiet posed for the shouting face while he told her to shout louder: traditional story, presented as 'the story goes'.\nSword breaking off in 1916 around the start of the Battle of Verdun and the relief being covered: a popular story, presented as such. The dark blade visible in the photo looks like a later replacement or a different material; please check.\nRude living in Brussels from 1815 to 1827 after Napoleon's fall.\nThe bird on the standard at upper left is read as the Gallic rooster.\nThe other three groups: Cortot (Triumph of 1810) and Etex (Resistance, Peace).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "December 2018. Photographs of a shattered white face travel around the world: a woman's head in plaster, mouth wide open, one cheek smashed in during a riot inside the Arc de Triomphe in Paris. Many people recognized her at once. The plaster was a cast. The real face is outside, carved in stone, and has been shouting since 1836."
+  },
+  {
+   "type": "text",
+   "text": "She belongs to a sculpted group nearly 12.7 meters tall (over 40 feet) on the right-hand pier of the arch as you face it from the Champs-Élysées. Its official name is The Departure of the Volunteers of 1792. Almost nobody calls it that."
+  },
+  {
+   "type": "text",
+   "text": "In 1792, revolutionary France was being invaded, and ordinary citizens volunteered to defend the border. That same year a marching song from the Rhine army reached Paris with volunteers from Marseille. Parisians named the song after them, and later named this sculpture after the song."
+  },
+  {
+   "type": "fact",
+   "text": "The Arc de Triomphe has four giant sculpted groups, by three different sculptors. People passing by tend to remember only this one, and guidebooks have been unkind to the other three ever since."
+  },
+  {
+   "type": "text",
+   "text": "François Rude had a personal stake in the subject. His father, a stove maker in Dijon, had been one of those volunteers. Rude himself was loyal to Napoleon and spent twelve years in Brussels after the emperor fell. He was around fifty when this commission finally gave him a wall worthy of his temper."
+  },
+  {
+   "type": "text",
+   "text": "The group is a high relief: figures carved from the wall's own limestone, some so deeply cut that they are nearly free of it. Rude stacked it in two stories. Above, one flying figure. Below, a knot of men."
+  },
+  {
+   "type": "tour",
+   "title": "Two stories",
+   "text": "Start at the top, where the noise comes from.",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.27,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The shout",
+     "text": "Brows knotted, mouth open as wide as stone allows. She is the Genius of Liberty, or of War, or of the homeland: nobody has settled it. Viewers simply heard the anthem."
+    },
+    {
+     "x": 0.62,
+     "y": 0.26,
+     "zoom": 1.8,
+     "r": 0.2,
+     "title": "Wings and arm",
+     "text": "Her huge wings and raised arm take up almost half the group. She does not stand on anything. She is launched sideways over the men's heads."
+    },
+    {
+     "x": 0.45,
+     "y": 0.5,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The chief",
+     "text": "A bearded veteran turns to look back and swings his helmet in the air to rally the others. His other arm rests around a boy's shoulders."
+    },
+    {
+     "x": 0.58,
+     "y": 0.58,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The boy",
+     "text": "A naked adolescent, fist tight on his sword, looks up at the older man. Youth and experience leave together: that is the whole program in two figures.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "You may have noticed something odd. These are supposed to be Frenchmen of 1792, and not one wears a tricorn hat or carries a musket. Rude dressed them in chain mail, breastplates and ancient helmets, or in nothing at all."
+  },
+  {
+   "type": "text",
+   "text": "The choice was deliberate. Clothes date quickly, and a uniform would have tied the scene to one regime in a country that had changed regimes four times in forty years. Armor from no particular century turns a political memory into something closer to legend."
+  },
+  {
+   "type": "find",
+   "text": "One small animal does tell you which country this is. It is perched high up, away from the figures. Can you find it?",
+   "spots": [
+    {
+     "x": 0.21,
+     "y": 0.24,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The rooster",
+     "text": "A rooster stands on top of the standard, the emblem of the Gauls and of France. It sits where a Roman legion would have carried its eagle."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The story goes that Rude's wife, the painter Sophie Frémiet, posed for the shouting face, and that he kept urging her to shout louder while he modeled it."
+  },
+  {
+   "type": "text",
+   "text": "What makes the stone seem to move? Not the legs: several of these men are still standing in place. The motion comes from the way every line leans the same way."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines, all pushing toward the left edge.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.86,
+       0.33
+      ],
+      [
+       0.48,
+       0.27
+      ],
+      [
+       0.24,
+       0.3
+      ],
+      [
+       0.11,
+       0.295
+      ]
+     ],
+     "closed": false,
+     "label": "The command",
+     "text": "Wing, face, outstretched arm and sword form one long horizontal arrow. She is not looking where she flies: she turns her head back to call the men."
+    },
+    {
+     "points": [
+      [
+       0.74,
+       0.8
+      ],
+      [
+       0.58,
+       0.58
+      ],
+      [
+       0.45,
+       0.48
+      ],
+      [
+       0.31,
+       0.43
+      ]
+     ],
+     "closed": false,
+     "label": "The surge",
+     "text": "From the old soldier at the right, up through the boy and the chief to the waving helmet: a rising diagonal, like a wave about to break."
+    },
+    {
+     "points": [
+      [
+       0.2,
+       0.5
+      ],
+      [
+       0.83,
+       0.5
+      ]
+     ],
+     "closed": false,
+     "label": "The seam",
+     "text": "A row of heads divides the two stories. Above it, a single body in open space. Below, bodies packed shoulder to shoulder, with barely a gap of wall between them."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That leaning, crowded energy is why Rude is counted among the Romantics, the generation that preferred emotion and movement to calm balance. His training had been strictly classical, and the nudes and helmets show it. The scream belongs to another age entirely."
+  },
+  {
+   "type": "text",
+   "text": "Critics in 1836 were split. Some found the open mouth vulgar, a grimace unworthy of a monument. The public took to it immediately, and the nickname stuck so well that it replaced the title."
+  },
+  {
+   "type": "fact",
+   "text": "A popular story says the Genius's sword snapped off in 1916, around the start of the Battle of Verdun, and that the group was quickly covered so Parisians would not read it as a bad omen."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.17,
+     "y": 0.3,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The blade",
+     "text": "The sword tip pokes beyond the block of figures, darker than the stone around it. It points the way out of the picture, toward the border."
+    },
+    {
+     "x": 0.24,
+     "y": 0.52,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The trumpeter",
+     "text": "Seen from behind in a crested helmet and mail shirt, he blows the call. Rude gives the group its own soundtrack."
+    },
+    {
+     "x": 0.31,
+     "y": 0.62,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Stringing the bow",
+     "text": "A man folds himself double to bend his bow. His curved back is the lowest, tightest shape in the group, a spring being loaded."
+    },
+    {
+     "x": 0.72,
+     "y": 0.54,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The old soldier",
+     "text": "Helmeted, gray-bearded, wrapped in a cloak, he walks at the rear with his hand on his sword. Too old to fight, perhaps, and going anyway."
+    },
+    {
+     "x": 0.5,
+     "y": 0.76,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Shield underfoot",
+     "text": "A large round shield lies behind the marching legs, filling what would otherwise be a hole of blank wall between them."
+    },
+    {
+     "x": 0.25,
+     "y": 0.38,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Bundle of spears",
+     "text": "Lances, a wreath and a rolled flag pile up behind the Genius's arm. Rude lets no corner of his block go quiet."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Rude gave a nation's anthem a face: a figure whose open mouth you can almost hear. He did it by mixing classical bodies with a Romantic surge of motion in a single direction."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the official title of the group nicknamed La Marseillaise?",
+   "options": [
+    "The Triumph of Napoleon",
+    "The Departure of the Volunteers of 1792",
+    "Liberty Leading the People"
+   ],
+   "answer": 1,
+   "explanation": "The nickname, taken from the anthem, replaced the official title in everyday use."
+  },
+  {
+   "question": "How are the volunteers dressed?",
+   "options": [
+    "In the uniforms of 1792",
+    "In the fashions of 1836",
+    "In ancient armor, or nude"
+   ],
+   "answer": 2,
+   "explanation": "Rude chose timeless armor and nudity instead of dated uniforms."
+  },
+  {
+   "question": "Which detail identifies France in the relief?",
+   "options": [
+    "A rooster on top of the standard",
+    "A tricolor ribbon",
+    "A map on the shield"
+   ],
+   "answer": 0,
+   "explanation": "The rooster, emblem of the Gauls, stands where a Roman eagle would be."
+  },
+  {
+   "question": "What is a high relief?",
+   "options": [
+    "A statue cast in bronze",
+    "A painting made to look like sculpture",
+    "Figures carved from a wall, projecting far out of it"
+   ],
+   "answer": 2,
+   "explanation": "The figures stay attached to the wall but are cut very deeply."
+  },
+  {
+   "question": "What personal link did Rude have with the subject?",
+   "options": [
+    "His father had been a volunteer",
+    "He wrote the anthem's words",
+    "He was born in Marseille"
+   ],
+   "answer": 0,
+   "explanation": "His father, a stove maker in Dijon, had volunteered."
+  },
+  {
+   "question": "Where does the sense of movement mainly come from?",
+   "options": [
+    "The men are all shown running",
+    "Every main line leans in the same direction",
+    "The wall behind is carved with clouds"
+   ],
+   "answer": 1,
+   "explanation": "Sword, wings, arms and helmet all push toward the left."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The winged figure at the top looks straight ahead in the direction she flies.",
+   "isTrue": false,
+   "explanation": "She turns her head back toward the men to call them on."
+  },
+  {
+   "text": "Rude carved all four sculpted groups of the Arc de Triomphe.",
+   "isTrue": false,
+   "explanation": "The four groups are by three different sculptors; Rude made only this one."
+  },
+  {
+   "text": "Some critics in 1836 found the screaming mouth vulgar.",
+   "isTrue": true,
+   "explanation": "The open mouth was called a grimace by some, while the public loved it."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "teaser": "Painted from a rocking boat by a new mother, then carried out of a museum under a student's arm.",
+  "focus": [0.53, 0.33],
+  "review_notes": "Charles Ephrussi's 1880 line about grinding flower petals on her palette: check wording and that it was written of the 1880 exhibition.\nWhether Morisot painted in the boat itself or partly from the bank/studio is not documented; the lesson says “very likely”.\n1956 theft: the painting then hung at the Tate Gallery, taken on 12 April 1956 by Paul Hogan and Billy Fogarty; returned within days.\nHugh Lane bought the picture in 1912 (date not used in lesson).",
+  "lesson": [
+    {"type": "text", "text": "1879 was a quiet year for Berthe Morisot, and not by choice. Her daughter Julie had been born the previous November. Morisot was thirty-seven, the birth had left her weak, and that spring the Impressionists held their fourth exhibition without her. It is the only one of the group's eight shows she ever missed."},
+    {"type": "text", "text": "She was not short of money. Her husband Eugène Manet, brother of the painter Édouard, had private means, and so did she. What she lacked was strength and time. So she painted close to home. The family lived in Passy, on the western edge of Paris, a short walk from the lakes of the Bois de Boulogne."},
+    {"type": "text", "text": "That summer she hired two models, dressed them as fashionable Parisians and put them in one of the park's rowboats. The canvas is small enough to carry under one arm: about 46 by 75 cm (18 by 30 in). Notice where you are sitting. The boat's edge runs out of the picture beside you. You are the third passenger."},
+    {"type": "fact", "text": "The Bois de Boulogne was barely twenty years old as a park. Napoleon III had turned a royal hunting forest into a public garden with artificial lakes in the 1850s, and renting a boat there was a new middle-class pleasure."},
+    {"type": "text", "text": "The two women behave differently. One faces you, hands folded, a little stiff, as people are when they know they are being watched. The other has turned her head away toward the water. Something out there has caught her attention."},
+    {"type": "find", "text": "What is the woman in blue looking at? Find it on the lake.", "spots": [
+      {"x": 0.76, "y": 0.52, "zoom": 3.2, "r": 0.08, "title": "The ducks", "text": "Ducks paddling past, close to the boat. They are made of a few dabs: black, white, a touch of red-orange. Step back and they swim. Come close and they dissolve into paint."}
+    ]},
+    {"type": "text", "text": "Those ducks tell you how the whole picture was made. Morisot very likely worked on the water or right at its edge, where nothing holds still: the boat rocks, the light flickers, the models shift. There is no time to draw outlines. She lets the brush move as fast as the things it describes."},
+    {"type": "tour", "title": "Handwriting in paint", "text": "Three kinds of brushstroke, each matched to what it shows.", "spots": [
+      {"x": 0.36, "y": 0.42, "zoom": 3.0, "r": 0.1, "title": "Zigzag water", "text": "The lake is written in quick zigzags of white, blue and green, like a signature repeated. Each one is a ripple catching light. The bare canvas shows between them."},
+      {"x": 0.55, "y": 0.47, "zoom": 2.6, "r": 0.11, "title": "A dress of dashes", "text": "The pale dress is built from short strokes of gray, lilac and white, with dots for a pattern. The same marks as the water: figure and lake are woven from one fabric."},
+      {"x": 0.53, "y": 0.31, "zoom": 3.6, "r": 0.06, "title": "The calm face", "text": "Only here does the paint settle. Small, smooth touches for the eyes and mouth. It is the one still point in a picture where everything else shimmers."}
+    ]},
+    {"type": "key", "text": "Morisot's sketchy touch is not unfinished work. It is a way of making paint behave like light on moving water: fast, broken and never twice the same."},
+    {"type": "text", "text": "She showed the painting at the fifth Impressionist exhibition in 1880, her return to the group. Reviewers who mocked her colleagues were often kinder to her, though they tended to praise her “feminine charm” more than her nerve. One critic wrote that she seemed to grind flower petals on her palette."},
+    {"type": "explore", "spots": [
+      {"x": 0.2, "y": 0.24, "zoom": 3.0, "r": 0.08, "title": "The turned head", "text": "A profile in warm orange and pink under a straw hat. By turning her away, Morisot gives the scene a natural, unposed air."},
+      {"x": 0.53, "y": 0.19, "zoom": 3.2, "r": 0.07, "title": "The dark blue ribbon", "text": "The deepest color in the painting sits on this hat. That knot of dark blue pulls your eye to the center before anything else."},
+      {"x": 0.42, "y": 0.82, "zoom": 2.6, "r": 0.11, "title": "The folded parasol", "text": "A bright blue parasol lies closed across her lap. A lady of the time protected her skin from the sun, yet this one has put her shade away."},
+      {"x": 0.3, "y": 0.13, "zoom": 3.0, "r": 0.09, "title": "The far bank", "text": "A band of lawn, a few trees, tiny specks that may be strollers or a carriage. The city park is reduced to a green ribbon across the top."},
+      {"x": 0.88, "y": 0.22, "zoom": 2.2, "r": 0.11, "title": "Overhanging leaves", "text": "Big sweeps of green from a tree leaning over the water. The strokes go in every direction, like leaves moved by a breeze."},
+      {"x": 0.91, "y": 0.92, "zoom": 3.4, "r": 0.08, "title": "Her signature", "text": "“Berthe Morisot”, written along the side of the boat. She signed with her own name all her life, never as Madame Manet."}
+    ]},
+    {"type": "text", "text": "The picture later belonged to Sir Hugh Lane, an Irish dealer who drowned when the Lusitania was sunk in 1915. His will left his French paintings to London. An unwitnessed note changed that to Dublin. The two cities argued over them for decades."},
+    {"type": "fact", "text": "On April 12, 1956, two Irish students lifted Summer's Day off the wall of the Tate Gallery in London and walked out with it, to protest that the Lane pictures should be in Dublin. A press photographer caught them on the steps. It was handed back a few days later."},
+    {"type": "fact", "text": "The dispute ended in a compromise that still holds: the Lane paintings are shared, and travel between London and Dublin in turns. Morisot's small boat trip has been crossing the Irish Sea ever since."}
+  ],
+  "quiz": [
+    {"question": "Why did Morisot miss the 1879 Impressionist exhibition?", "options": ["She had quarreled with Degas", "She was weak after the birth of her daughter", "She was traveling in Italy"], "answer": 1, "explanation": "Julie was born in November 1878 and Morisot's health kept her out of the show."},
+    {"question": "Where is the scene set?", "options": ["On a lake in the Bois de Boulogne, in Paris", "On the Thames in London", "On the coast of Normandy"], "answer": 0, "explanation": "Morisot lived in Passy, a short walk from the park's lakes."},
+    {"question": "What has caught the attention of the woman in blue?", "options": ["A second boat", "A child on the bank", "Ducks swimming past"], "answer": 2, "explanation": "A few dabs of black, white and orange show ducks beside the boat."},
+    {"question": "How did Morisot paint the surface of the lake?", "options": ["With smooth, blended layers", "With rapid zigzag strokes", "With tiny regular dots"], "answer": 1, "explanation": "The water is written in quick zigzags of white, blue and green."},
+    {"question": "What happened to the painting in 1956?", "options": ["Two Irish students took it from the Tate as a protest", "It was damaged by a flood", "It was sold to a museum in New York"], "answer": 0, "explanation": "They wanted Hugh Lane's pictures to go to Dublin, and returned the painting days later."}
+  ],
+  "facts": [
+    {"text": "Morisot missed several of the eight Impressionist exhibitions.", "isTrue": false, "explanation": "She missed only one, in 1879, after her daughter's birth."},
+    {"text": "The viewer seems to be sitting in the boat with the two women.", "isTrue": true, "explanation": "The boat's edge runs out of the frame beside us, placing us on board."},
+    {"text": "Morisot signed the picture “Madame Manet”.", "isTrue": false, "explanation": "The signature on the boat reads Berthe Morisot, the name she always used."}
+  ]
+}

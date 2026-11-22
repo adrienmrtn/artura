@@ -1,0 +1,38 @@
+{
+  "teaser": "Painted to decorate one guest's bedroom. The guest wanted to take them home.",
+  "focus": [0.58, 0.36],
+  "review_notes": "IMAGE/METADATA MISMATCH: the image shows the version with twelve sunflowers on a turquoise background (Neue Pinakothek, Munich, August 1888), not the National Gallery, London version (fourteen or fifteen flowers on a yellow background). The lesson describes the image as shown and says its yellow sibling is in London. Either the image or the museum field should be corrected, and the text adjusted.\nGauguin preferring Vincent's sunflowers to Monet's: reported by Vincent in a letter to Theo (late 1888), paraphrased.\n1987 sale of a Sunflowers at Christie's London to the Yasuda insurance company for about 39.9 million dollars.\nOne of the August 1888 versions destroyed in Japan in 1945.\nReason for signing “Vincent” (foreigners mispronouncing Van Gogh): from his letters.",
+  "lesson": [
+    {"type": "text", "text": "The first public for these flowers was one man. In late October 1888 the painter Paul Gauguin stepped off a train in Arles, in the south of France, and was shown to a small bedroom in a yellow house. On its white walls hung sunflowers, painted for him. His verdict mattered more to Vincent van Gogh than any critic's."},
+    {"type": "text", "text": "Gauguin was not an easy man to impress, and he was impressed. Vincent proudly reported to his brother that Gauguin had seen a sunflower still life by the great Claude Monet and liked Vincent's better. Later Gauguin asked to keep one. During his stay he even painted a portrait of his host at the easel, painting sunflowers."},
+    {"type": "fact", "text": "That portrait shows something that could not have happened. Gauguin painted it in December, when no sunflower blooms in Provence. He was painting Vincent as he already saw him: the sunflower man."},
+    {"type": "text", "text": "The flowers had been done in August, in a hurry. Vincent started at sunrise each day because the blooms wilted within hours, and in about a week he had four canvases. Two he judged good enough for Gauguin's room. The one on your screen, with twelve flowers against turquoise, is one of them. Its sibling, on a yellow background, is the version in London's National Gallery."},
+    {"type": "text", "text": "A bouquet in a vase sounds like the calmest subject in art. But he did not pick twelve fresh flowers. He painted a whole life cycle in one pot, from blooms just opened to heads that have dropped their petals and gone to seed."},
+    {"type": "tour", "title": "Three ages of a flower", "text": "Travel from the youngest bloom to the oldest.", "spots": [
+      {"x": 0.81, "y": 0.34, "zoom": 2.6, "r": 0.12, "title": "In full bloom", "text": "A dark red heart ringed by thin yellow petals, each one a single flick of the brush. This flower faces you squarely, like an eye."},
+      {"x": 0.56, "y": 0.33, "zoom": 2.4, "r": 0.13, "title": "Gone to seed", "text": "No petals left, just a shaggy ball of seeds. He builds it with short, thick dabs of ocher and orange, so the paint itself is as bristly as the seed head."},
+      {"x": 0.82, "y": 0.63, "zoom": 2.8, "r": 0.1, "title": "The drooping one", "text": "On a bent stem, a small flower hangs its head, its green leaves curling like claws. It leans out of the bouquet, over the edge of the table."}
+    ]},
+    {"type": "text", "text": "Run your eye over those seed heads again in your memory: the paint stands up from the surface. This thick application is called impasto, and Vincent sometimes squeezed color almost straight from the tube. The technique was possible because of new factory-made pigments, above all a family of bright yellows known as chrome yellow."},
+    {"type": "fact", "text": "Chrome yellow has a flaw. Chemists studying Van Gogh's paintings have shown that under years of light some of it slowly turns brownish. The sunflowers were once sharper and more lemony than the ones we see today."},
+    {"type": "text", "text": "With color doing so much work, everything else is kept simple. A table, a wall, a vase. No shadows fall anywhere. The vase is flat, cut in two by a line, and outlined in blue like a figure in a Japanese woodblock print, an art form Vincent collected and adored. And he left something on the vase that most painters would tuck into a corner."},
+    {"type": "find", "text": "The picture is signed, but not at the bottom edge. Where did he write his name?", "spots": [
+      {"x": 0.43, "y": 0.83, "zoom": 3.4, "r": 0.07, "title": "“Vincent”", "text": "Written across the belly of the vase like a potter's mark. He signed with his first name only, explaining that people outside the Netherlands could not pronounce “Van Gogh”."}
+    ]},
+    {"type": "text", "text": "After Gauguin left Arles in December, following a violent quarrel, Vincent painted three more versions from his own canvases, copying himself. He imagined pairs of sunflower pictures hung on either side of a portrait, like the wings of an altarpiece. That makes seven sunflower bouquets in all."},
+    {"type": "fact", "text": "Not all seven survive. One was destroyed in Japan in 1945, during the bombing of the Second World War. In 1987 another sold at auction in London for about 39.9 million dollars, at the time the highest price ever paid for a painting."},
+    {"type": "key", "text": "Van Gogh turned a still life into a signature: a subject so tied to one painter that a single yellow petal now says his name."}
+  ],
+  "quiz": [
+    {"question": "For whom did Van Gogh paint the sunflowers of August 1888?", "options": ["His brother Theo's gallery", "Paul Gauguin, to decorate his bedroom", "A flower merchant in Arles"], "answer": 1, "explanation": "They were meant to decorate the room Gauguin would occupy in the Yellow House."},
+    {"question": "Why did he start painting at sunrise?", "options": ["The flowers wilted within hours", "He could not afford lamp oil", "The house was too hot at noon"], "answer": 0, "explanation": "Cut sunflowers fade fast, so he raced them and finished four canvases in about a week."},
+    {"question": "Why are the sunflowers less bright today than in 1888?", "options": ["A restorer overcleaned them", "They were varnished in brown", "Some chrome yellow paint darkens with light"], "answer": 2, "explanation": "Chemists have shown that chrome yellow can slowly turn brownish under light."},
+    {"question": "Where is the signature?", "options": ["On the vase", "In the bottom right corner", "On the back only"], "answer": 0, "explanation": "“Vincent” is written across the belly of the vase."},
+    {"question": "How many sunflower bouquets did Van Gogh paint in Arles in total?", "options": ["Two", "Twelve", "Seven"], "answer": 2, "explanation": "Four in August 1888, then three repetitions after Gauguin left."}
+  ],
+  "facts": [
+    {"text": "Gauguin painted Van Gogh at work on sunflowers in December, when none were in bloom.", "isTrue": true, "explanation": "The portrait is an invention showing Vincent as the painter of sunflowers."},
+    {"text": "All twelve flowers in the vase are freshly opened.", "isTrue": false, "explanation": "The bouquet mixes blooms, drooping flowers and heads gone to seed."},
+    {"text": "Van Gogh signed “Vincent” because foreigners had trouble pronouncing his family name.", "isTrue": true, "explanation": "He explained this choice himself in his letters."}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "teaser": "A small canvas, three years of work, and a boy who was painted out and replaced by an anchor.",
+  "focus": [0.45, 0.58],
+  "review_notes": "Dimensions given as about 61 x 97 cm (24 x 38 in).\nInfrared study at the National Gallery: a fourth boy near the mast and a second schooner on the right were painted out; the anchor at the bow replaced the boy. Check wording against NGA text.\nPainted 1873 to 1876 from watercolors made in Gloucester in summer 1873.\nShown at the National Academy of Design and at the Centennial Exposition in Philadelphia, both 1876, under the title A Fair Wind.\nUS postage stamp of 1962 reproducing the painting.\nHomer's 1867 stay in Paris and the link to Japanese prints is a common scholarly reading, not documented by Homer himself.",
+  "lesson": [
+    {"type": "text", "text": "This canvas is about 61 centimeters high and 97 wide, roughly 24 by 38 inches. You could carry it under one arm. Yet it holds a whole open sea, a tilting boat and four people, and Winslow Homer needed three years, from 1873 to 1876, to get it right."},
+    {"type": "text", "text": "It began on a beach. In the summer of 1873 Homer stayed in Gloucester, a fishing port in Massachusetts, and tried watercolor seriously for the first time. He painted local boys on the docks and in boats. One of those quick sheets showed a small sailboat leaning in the wind. Back in his New York studio, he turned it into oil."},
+    {"type": "fact", "text": "Before he painted children on boats, Homer drew soldiers. During the Civil War he was sent to the front as an illustrator for the magazine Harper's Weekly, sketching camp life for readers at home."},
+    {"type": "text", "text": "The boat is a catboat, a wide little craft with one mast and one sail, used for fishing close to shore. The wind is pushing so hard that the whole hull heels, which means it leans to one side. Homer had to make you feel that lean without making the picture itself fall over. Watch how he does it."},
+    {"type": "lines", "text": "Three lines hold this picture in balance.", "lines": [
+      {"points": [[0.0, 0.69], [1.0, 0.69]], "closed": false, "label": "The horizon", "text": "Perfectly level and placed low, about two thirds down. It is the one calm thing here, and it gives your eye a ruler to measure every tilt against."},
+      {"points": [[0.05, 0.0], [0.27, 0.58]], "closed": false, "label": "The mast", "text": "The mast leans hard to the left and runs out of the frame. You never see the top of the sail, so the wind feels bigger than the canvas."},
+      {"points": [[0.33, 0.52], [0.41, 0.46], [0.56, 0.42]], "closed": false, "label": "The crew", "text": "The heads climb toward the right, the opposite way. The crew sits on the high side to keep the boat from tipping, and their weight balances the painting too."}
+    ]},
+    {"type": "text", "text": "So the left half is crowded with sail, wood and bodies, and the right half is almost empty: sky, water, one far ship. That kind of lopsided layout was unusual in American painting. Many historians connect it to the Japanese woodblock prints Homer could have seen in Paris in 1867, where a big form is often cut by the edge and answered by empty space."},
+    {"type": "key", "text": "A picture does not need symmetry to feel stable. Homer balances a heavy, tilted boat with nothing but a level horizon and a wide stretch of open air."},
+    {"type": "text", "text": "The painting you see is not the first version. When the National Gallery examined it with infrared light, which can reveal drawing hidden under the paint, earlier ideas showed up. There was once a fourth boy sitting near the mast. Homer removed him and put an object in his place."},
+    {"type": "find", "text": "Homer swapped a boy for a piece of ship's equipment at the front of the boat. Can you tap it?", "spots": [
+      {"x": 0.26, "y": 0.535, "zoom": 3.6, "r": 0.05, "title": "The anchor", "text": "A dark iron anchor lies on the bow beside the mast. In Homer's time an anchor was a familiar emblem of hope. It sits exactly where a passenger used to be."}
+    ]},
+    {"type": "text", "text": "Hope was a timely subject. The painting was finished in 1876, the year the United States turned one hundred, barely a decade after a war that had nearly split it. A boat steered by the young, running fast toward a clear horizon, was read by many viewers as a picture of the country's own future."},
+    {"type": "fact", "text": "Homer called the picture A Fair Wind. “Breezing Up” was a nickname that stuck after it was exhibited, a sailor's phrase for a wind that is getting stronger. The museum keeps both titles today."},
+    {"type": "text", "text": "Now meet the crew one by one. Nobody on board is looking at anybody else, and nobody is looking at you."},
+    {"type": "tour", "title": "On board", "text": "Three boys, one man, and a day's work at the bottom of the boat.", "spots": [
+      {"x": 0.58, "y": 0.5, "zoom": 2.6, "r": 0.09, "shape": "rect", "title": "The boy at the stern", "text": "He sits highest, on the edge of the stern, with the line that controls the rudder in his hand. The youngest sailor is steering, eyes fixed on the distance."},
+      {"x": 0.48, "y": 0.58, "zoom": 3, "r": 0.07, "title": "The man in red", "text": "The only adult crouches low in a red shirt and holds the rope that trims the sail. His shirt is the warmest color in the picture, placed almost dead center."},
+      {"x": 0.34, "y": 0.75, "zoom": 3.4, "r": 0.06, "title": "The catch", "text": "Silver flecks in the bottom of the hull: fish. This is not a pleasure cruise. They are coming home from fishing."},
+      {"x": 0.55, "y": 0.79, "zoom": 2.8, "r": 0.09, "title": "Gloucester", "text": "The boat's name is painted on the stern, the same port where Homer made his first watercolors. Just below, the rudder throws up white spray."}
+    ]},
+    {"type": "text", "text": "The public loved it at once. It was shown in New York and then at the great Centennial Exposition in Philadelphia, and critics who had often found Homer's work rough praised its freshness. It has stayed one of the best known American pictures ever since."},
+    {"type": "fact", "text": "In 1962 the United States Post Office printed this painting on a stamp honoring Homer, so millions of envelopes carried the little catboat across the country."},
+    {"type": "explore", "spots": [
+      {"x": 0.9, "y": 0.6, "zoom": 3, "r": 0.07, "shape": "rect", "title": "The schooner", "text": "A larger two-masted ship sails far off. Infrared study shows Homer once painted a second one on this side, then took it out to leave the horizon open."},
+      {"x": 0.765, "y": 0.27, "zoom": 4, "r": 0.03, "shape": "arrow", "title": "A gull", "text": "One white bird, a few strokes of paint, is enough to tell you how high and wide this sky is."},
+      {"x": 0.07, "y": 0.5, "zoom": 2, "r": 0.1, "title": "The sail", "text": "Sunlight comes through the canvas and turns it pale and warm. The sail is cut by the frame on two sides, like a close-up."},
+      {"x": 0.33, "y": 0.53, "zoom": 3, "r": 0.06, "title": "The boy lying down", "text": "Stretched along the deck with his boots toward the bow, he looks completely at ease on a boat leaning this far."},
+      {"x": 0.75, "y": 0.82, "zoom": 2.2, "r": 0.1, "title": "The chop", "text": "The water is built from short dark green strokes topped with thick white paint. These small broken waves are what sailors call chop."},
+      {"x": 0.93, "y": 0.945, "zoom": 3.6, "r": 0.06, "title": "Signature", "text": "Homer signed and dated the canvas in dark paint in the corner, right in the waves: 1876."}
+    ]},
+    {"type": "text", "text": "Homer would later paint the sea as a killer, with wrecks, storms and lonely men in small boats. That makes this afternoon precious. The wind is strong but fair, the fish are caught, and the boy at the rudder has no reason yet to doubt the horizon."}
+  ],
+  "quiz": [
+    {"question": "Where did Homer make the watercolors that led to this painting?", "options": ["Gloucester, Massachusetts", "Paris, France", "Philadelphia, Pennsylvania"], "answer": 0, "explanation": "He spent the summer of 1873 in the fishing port of Gloucester."},
+    {"question": "What replaced the fourth boy Homer painted out?", "options": ["A second sail", "A basket of fish", "An anchor"], "answer": 2, "explanation": "An anchor, a familiar emblem of hope, sits at the bow where the boy used to be."},
+    {"question": "What keeps the tilted composition steady?", "options": ["A symmetrical layout", "A level, low horizon", "A dark frame of clouds"], "answer": 1, "explanation": "The flat horizon gives the eye a fixed line to measure the tilt against."},
+    {"question": "Who is steering the boat?", "options": ["The man in the red shirt", "The boy lying on the deck", "The boy sitting at the stern"], "answer": 2, "explanation": "The boy on the stern holds the line that controls the rudder."},
+    {"question": "Why did the painting feel so timely in 1876?", "options": ["The United States was celebrating its hundredth year", "Gloucester had just been founded", "Homer had just returned from the Civil War"], "answer": 0, "explanation": "Viewers read the young crew heading for the horizon as an image of the country's future."}
+  ],
+  "facts": [
+    {"text": "Homer's own title for the painting was A Fair Wind.", "isTrue": true, "explanation": "“Breezing Up” was a nickname that became attached to it after it was exhibited."},
+    {"text": "The boat is out for a pleasure sail with nothing on board.", "isTrue": false, "explanation": "Fish glint in the bottom of the hull: the crew is returning from fishing."},
+    {"text": "Homer worked as a war illustrator before painting scenes like this one.", "isTrue": true, "explanation": "He covered the Civil War for the magazine Harper's Weekly."}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "teaser": "A canvas the height of a tall man, painted to sell a prince a ceiling bigger than two tennis courts.",
+  "focus": [0.45, 0.52],
+  "review_notes": "Identification of the sides (Europe bottom, America top, Asia left with the elephant, Africa right with the camel and parasol) follows the Met's reading of the sketch; please confirm left/right.\nMars and Venus on the dark cloud, Mercury upper left, Saturn with scythe upper right: standard identifications, please confirm.\nPresentation date of April 20, 1752, to Prince-Bishop Carl Philipp von Greiffenclau.\nFresco dimensions given as about 19 x 30.5 m and 'around 600 square meters'.\nArrival in Würzburg in December 1750 with sons Giandomenico and Lorenzo.\nMarch 1945 fire: vault survived; US officer John Davis Skilton organized the emergency roof.\nIn the finished fresco Tiepolo added a portrait of the prince-bishop, of Neumann and of himself, absent from the sketch.",
+  "lesson": [
+    {"type": "text", "text": "This canvas is 1.85 meters tall, about 6 feet. You could carry it under one arm with a friend's help. Yet it describes something no one could ever move: a ceiling roughly 19 by 30 meters (62 by 100 feet), floating above the grand staircase of a palace in Würzburg, Germany."},
+    {"type": "text", "text": "In other words, you are looking at a sales pitch. In April 1752, the Venetian painter Giovanni Battista Tiepolo showed this oil sketch to his client, Prince-Bishop Carl Philipp von Greiffenclau. The message was simple: here is what I will paint over your stairs, if you agree."},
+    {"type": "text", "text": "A sketch of this kind is called a modello, Italian for “model”: a small, finished painting that lets a patron approve a huge project before any scaffolding goes up. And it explains the strangest thing about this picture. Turn your phone around in your mind: there is no single right way up."},
+    {"type": "lines", "text": "A ceiling is seen from all four sides of a room. So each edge of the sketch has its own ground to stand on.", "lines": [
+      {"points": [[0.1, 0.94], [0.9, 0.94]], "closed": false, "label": "Europe", "text": "The bottom edge reads normally. A woman sits enthroned before a temple, with a globe, a horse and musicians around her. This is Europe, shown as the home of the arts."},
+      {"points": [[0.9, 0.06], [0.1, 0.06]], "closed": false, "label": "America", "text": "Along the top, everyone hangs head down. Seen from the opposite side of the staircase they would stand upright. A figure in a feathered headdress stands for America."},
+      {"points": [[0.06, 0.85], [0.06, 0.15]], "closed": false, "label": "Asia", "text": "The left edge is a crowd tipped sideways. Among the robes you can pick out the grey trunk of an elephant, the animal Europeans linked with Asia."},
+      {"points": [[0.94, 0.15], [0.94, 0.85]], "closed": false, "label": "Africa", "text": "On the right, a parasol, bales of goods and a camel with a red saddle cloth: Africa, pictured as a land of caravans and trade."}
+    ]},
+    {"type": "text", "text": "Four continents, because in 1752 Europeans counted only four. They form a frame of heavy, earthy colors: browns, reds, deep blues. Inside that frame, everything turns pale and weightless. Tiepolo has opened the roof."},
+    {"type": "fact", "text": "The staircase was designed by the architect Balthasar Neumann with one enormous vault and no supporting columns. Skeptics expected it to collapse. It is still standing, and it even held when the palace burned in a bombing raid in March 1945."},
+    {"type": "text", "text": "Somebody rules this open sky. He is small, he is far away, and yet the whole picture leans toward him. Tiepolo made him easy to spot with a trick of pure light."},
+    {"type": "find", "text": "The sun god Apollo is somewhere in these clouds. Where does the light come from?", "spots": [
+      {"x": 0.34, "y": 0.5, "zoom": 3.2, "r": 0.07, "title": "Apollo", "text": "A pale nude figure raises one arm in front of a golden disk with rays. Apollo is about to begin his daily ride across the sky. Tiepolo gives him no dark outline at all: he is almost made of light."}
+    ]},
+    {"type": "text", "text": "The flattery was not subtle. If Apollo brings light to the four corners of the world, then the prince who owns this staircase lives at the center of it all. A visitor climbing the steps would rise, literally, toward the sun."},
+    {"type": "text", "text": "Around Apollo drift other gods. Each one also names a planet, which is why the title speaks of planets and continents. Their bodies are seen from below, legs first, as if you were standing under them. Painters call this view “di sotto in su,” Italian for “from below, upward.”"},
+    {"type": "tour", "title": "Traffic in the sky", "text": "Three groups of gods, three different ways of floating.", "spots": [
+      {"x": 0.35, "y": 0.31, "zoom": 3, "r": 0.08, "title": "Mercury", "text": "Arms flung wide, he dives across the open sky. Mercury is the messenger of the gods, so Tiepolo paints him as the fastest thing in the picture."},
+      {"x": 0.73, "y": 0.22, "zoom": 3, "r": 0.08, "title": "Saturn", "text": "An old winged man with a long curved scythe. Saturn also stands for Time, which cuts everything down. He sits right next to Africa's parasol, where sky and earth meet."},
+      {"x": 0.37, "y": 0.72, "zoom": 2.6, "r": 0.11, "title": "Mars and Venus", "text": "On the darkest cloud, a helmeted warrior leans toward a goddess wrapped in blue. War and Love, together. Above them a little cupid plays with the wheel of a chariot."},
+      {"x": 0.6, "y": 0.5, "zoom": 2.4, "r": 0.11, "title": "The sun's horses", "text": "One dark horse, one white, held back by winged girls. They are being brought to Apollo's chariot. Seen from underneath, their bellies and hooves come first."}
+    ]},
+    {"type": "fact", "text": "Tiepolo did not come alone. He traveled from Venice to Würzburg in 1750 with two of his sons, Giandomenico, in his early twenties, and Lorenzo, still a teenager. Both worked on the scaffolding beside him."},
+    {"type": "text", "text": "Why plan so carefully? Because the ceiling would be a fresco, paint brushed onto fresh, wet plaster. Plaster dries in a day, and once dry it cannot be reworked. Every figure had to be decided before the first morning of work. This canvas is where the thinking happened, in slow, forgiving oil paint."},
+    {"type": "text", "text": "Now find the four corners. Those chalk-white nudes sitting among shells and garlands are not people at all. Tiepolo is painting fake sculpture, imitating the plaster decoration that would surround the real ceiling. Even the frame is an illusion."},
+    {"type": "fact", "text": "The finished ceiling covers around 600 square meters and is often called the largest ceiling fresco in the world. On it, Tiepolo slipped in things the sketch does not have, including a portrait of the prince-bishop and one of himself."},
+    {"type": "key", "text": "A ceiling painting has no top or bottom: it is built to be read while you walk beneath it. Tiepolo's sketch lets you hold that whole turning sky in your hands at once."}
+  ],
+  "quiz": [
+    {"question": "What was this canvas made for?", "options": ["To decorate a bedroom in Venice", "To show a client the plan for a huge ceiling", "To record a ceiling after it was finished"], "answer": 1, "explanation": "It is a modello, a model shown to the prince-bishop before the fresco was painted."},
+    {"question": "Why do the figures along the top edge appear upside down?", "options": ["A ceiling is seen from every side of the room", "The canvas was hung the wrong way", "Tiepolo wanted to show them falling"], "answer": 0, "explanation": "Each edge has its own ground, meant for a viewer standing on the opposite side."},
+    {"question": "Which animal helps you recognize Asia on the left edge?", "options": ["A camel", "A crocodile", "An elephant"], "answer": 2, "explanation": "The grey trunk of an elephant appears among the figures on the left."},
+    {"question": "What does “di sotto in su” mean?", "options": ["Painted on wet plaster", "Seen from below, upward", "Painted to look like sculpture"], "answer": 1, "explanation": "It is the Italian term for figures shown as if you stood beneath them."},
+    {"question": "Why must a fresco be planned so carefully in advance?", "options": ["Wet plaster dries within a day and cannot be reworked", "The colors are extremely expensive", "It has to be painted in the dark"], "answer": 0, "explanation": "Fresco is painted on fresh plaster, which leaves no time for second thoughts."}
+  ],
+  "facts": [
+    {"text": "The white nude figures in the corners represent real marble statues that stood in the palace.", "isTrue": false, "explanation": "They are painted imitations of the plaster decoration planned around the ceiling."},
+    {"text": "Tiepolo brought two of his sons to Würzburg to work with him.", "isTrue": true, "explanation": "Giandomenico and Lorenzo both assisted him there."},
+    {"text": "The sketch shows five continents around the sky.", "isTrue": false, "explanation": "Europeans of 1752 counted four: Europe, Asia, Africa and America."}
+  ]
+}

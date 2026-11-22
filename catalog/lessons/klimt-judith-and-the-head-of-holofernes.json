@@ -1,0 +1,231 @@
+{
+ "teaser": "Count the eyes in this painting. There are three, and the third belongs to a dead man.",
+ "focus": [
+  0.57,
+  0.29
+ ],
+ "review_notes": "Dimensions 84 x 42 cm.\nFrame made by Georg Klimt after Gustav's design: confirm material (usually described as embossed, gilded copper on wood).\nBackground motifs said to derive from an Assyrian relief from Sennacherib's palace at Nineveh: scholarly attribution, confirm.\nModel often identified as Adele Bloch-Bauer: unproven, flagged as such in the text.\nJudith II dated 1909, Ca' Pesaro, Venice.\nDescribed as among Klimt's first oil paintings with real gold leaf.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Three eyes. Two of them, half closed, belong to the woman who stares down at you. The third is shut for good, squeezed against the right-hand edge of the picture where almost nobody looks first. It belongs to the man whose head she is holding."
+  },
+  {
+   "type": "text",
+   "text": "The story comes from the Book of Judith. An Assyrian army is besieging a Jewish town. Judith, a widow, walks into the enemy camp, charms the general Holofernes, waits until he is drunk and cuts off his head with his own sword. Her town is saved. For centuries she stood for courage and virtue."
+  },
+  {
+   "type": "find",
+   "text": "The painting is named for two people. Where is Holofernes?",
+   "spots": [
+    {
+     "x": 0.88,
+     "y": 0.8,
+     "zoom": 3.0,
+     "r": 0.09,
+     "title": "Half a head",
+     "text": "Dark hair, a closed eyelid, a bearded cheek. The frame slices him down the middle. Her fingers rest in his hair as lightly as on a pet."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Painters before Klimt loved this subject for its action: the sword, the struggle, the blood, the maid waiting with a sack. Klimt removes all of it. There is no weapon and no wound here, only what comes after, and the hero of the story barely fits into his own picture."
+  },
+  {
+   "type": "key",
+   "text": "Klimt moves the subject from the deed to the woman. What is on show is not a beheading but how Judith feels about it."
+  },
+  {
+   "type": "text",
+   "text": "So how does she feel? The answer is in a face painted with a softness that nothing else in the picture has. Around it everything is flat gold and pattern; the face alone looks like someone you could meet in a Vienna café in 1901."
+  },
+  {
+   "type": "tour",
+   "title": "Reading her face",
+   "text": "Travel from her eyes down to her throat.",
+   "spots": [
+    {
+     "x": 0.57,
+     "y": 0.265,
+     "zoom": 3.4,
+     "r": 0.09,
+     "title": "The eyes",
+     "text": "One lid droops lower than the other. She looks down at you from above, chin lifted, as if you were the one kneeling."
+    },
+    {
+     "x": 0.57,
+     "y": 0.33,
+     "zoom": 3.8,
+     "r": 0.06,
+     "title": "The mouth",
+     "text": "Lips parted, teeth showing. Not a smile, not a snarl. Viewers in 1901 read it as pleasure, and that was the scandal."
+    },
+    {
+     "x": 0.58,
+     "y": 0.455,
+     "zoom": 3.0,
+     "r": 0.1,
+     "title": "The collar",
+     "text": "A wide gold choker set with stones, the height of fashion in Klimt's Vienna. It also cuts straight across her neck, so that her own head seems to float free of her body."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The face is so individual that people have long tried to name the model. The most repeated guess is Adele Bloch-Bauer, a Viennese society hostess Klimt later painted in gold, who wore jeweled chokers like this one. No document proves it."
+  },
+  {
+   "type": "text",
+   "text": "A biblical heroine with a modern face, a half-open robe and a look of satisfaction was more than many could accept. Their solution was simple: they renamed her. For years, catalogs and magazines called the picture Salome, after the dancer who demanded a prophet's head. A wicked woman made more sense to them than a pious one who enjoyed herself."
+  },
+  {
+   "type": "text",
+   "text": "Klimt had seen that coming, or at least he left no room for doubt. The proof is not on the canvas at all. It sits above it, and it explains why the picture can never be honestly mistaken for anything else."
+  },
+  {
+   "type": "lines",
+   "text": "Three cuts organize the picture, and one of them is made of metal.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.1,
+       0.02
+      ],
+      [
+       0.9,
+       0.02
+      ],
+      [
+       0.9,
+       0.1
+      ],
+      [
+       0.1,
+       0.1
+      ]
+     ],
+     "closed": true,
+     "label": "The name",
+     "text": "JUDITH UND HOLOFERNES, in raised letters across the top of the frame. Anyone calling her Salome had to ignore a title stamped in metal."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.455
+      ],
+      [
+       0.69,
+       0.455
+      ]
+     ],
+     "closed": false,
+     "label": "Her neck",
+     "text": "The choker draws a hard horizontal across Judith's throat: an echo, on the living woman, of what she did to the man."
+    },
+    {
+     "points": [
+      [
+       0.925,
+       0.62
+      ],
+      [
+       0.925,
+       0.92
+      ]
+     ],
+     "closed": false,
+     "label": "His head",
+     "text": "The frame's inner edge comes down through the middle of Holofernes's face. Klimt beheads him a second time, with the border of the picture."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The frame is a family production. Gustav designed it and his younger brother Georg, a metalworker, made it. Klimt treated it as part of the work, and the painting has kept it ever since."
+  },
+  {
+   "type": "text",
+   "text": "Behind Judith, the gold is not just glitter. The fig trees, the vines and the hills built of little scales are borrowed from ancient Assyrian stone reliefs, the art of Holofernes's own people. And this is among the first oil paintings in which Klimt laid real gold leaf, the step that opened his golden years."
+  },
+  {
+   "type": "fact",
+   "text": "Klimt returned to her in 1909 with a second Judith, now in Venice: taller, thinner, with clawed hands and the head swinging in a sack of hair. That one, too, was promptly nicknamed Salome."
+  },
+  {
+   "type": "text",
+   "text": "It is a small picture, 84 by 42 centimeters (about 33 by 17 in), narrow as a door panel. Step back from the gold and return to the count you started with. Two eyes are looking at you. They have not blinked since 1901."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where is Holofernes in the painting?",
+   "options": [
+    "Lying at Judith's feet",
+    "Half hidden at the right edge, cut by the frame",
+    "He does not appear at all"
+   ],
+   "answer": 1,
+   "explanation": "Only half of his head shows, at lower right."
+  },
+  {
+   "question": "What did Klimt leave out that earlier painters showed?",
+   "options": [
+    "The sword and the act of killing",
+    "Judith's jewelry",
+    "The gold background"
+   ],
+   "answer": 0,
+   "explanation": "There is no weapon, no blood and no struggle."
+  },
+  {
+   "question": "Why did people call the picture Salome?",
+   "options": [
+    "Klimt first gave it that title",
+    "The frame says Salome",
+    "A sensual, satisfied Judith clashed with her image as a virtuous heroine"
+   ],
+   "answer": 2,
+   "explanation": "Renaming her a villain was easier than accepting this Judith."
+  },
+  {
+   "question": "Who made the metal frame?",
+   "options": [
+    "Klimt's brother Georg",
+    "The Belvedere museum",
+    "Adele Bloch-Bauer's husband"
+   ],
+   "answer": 0,
+   "explanation": "Gustav designed it and his brother Georg, a metalworker, made it."
+  },
+  {
+   "question": "Where do the trees and scaly hills in the background come from?",
+   "options": [
+    "Japanese prints",
+    "Assyrian stone reliefs",
+    "Viennese wallpaper"
+   ],
+   "answer": 1,
+   "explanation": "They echo the ancient art of Holofernes's own people."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The title of the painting is written on its frame.",
+   "isTrue": true,
+   "explanation": "JUDITH UND HOLOFERNES runs across the top in raised letters."
+  },
+  {
+   "text": "Judith holds a bloody sword in her right hand.",
+   "isTrue": false,
+   "explanation": "Klimt shows no weapon at all."
+  },
+  {
+   "text": "It is proven that Adele Bloch-Bauer posed for Judith.",
+   "isTrue": false,
+   "explanation": "She is the most repeated guess, but no document proves it."
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "teaser": "A flour mill under a heavy sky: the subject experts ranked lowest became a national icon.",
+ "focus": [
+  0.7,
+  0.47
+ ],
+ "review_notes": "Opening is an interpretation: 17th-century art theory ranked landscape low; no specific rejection of this painting is documented.\nThe mill in the painting no longer exists; the surviving mill in Wijk bij Duurstede (Rijn en Lek, built on a town gate) is a different one: check wording.\nBuildings identified as the bishop's castle (center) and the tower of St. Martin's church (right): standard identification.\nVan der Hoop bequest to the city of Amsterdam in 1854, on loan to the Rijksmuseum: check.\nConstable's admiration for Ruisdael is well documented, but no link to this specific painting is claimed.\nDimensions 83 x 101 cm.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "By the rules of its century, this painting was a loser before it was begun. Art theorists of the 1600s kept a ranking of subjects. At the top: scenes from the Bible and ancient history, full of noble figures. Near the bottom: landscape. And a landscape whose hero is a machine for grinding grain? That hardly counted as a subject at all."
+  },
+  {
+   "type": "text",
+   "text": "Jacob van Ruisdael ignored the ranking. Around 1670 he was in his early forties, living in Amsterdam, and he had painted almost nothing but land, water and weather for 25 years. Here he takes a working mill in the small river town of Wijk bij Duurstede and gives it the kind of presence painters usually saved for a king on horseback."
+  },
+  {
+   "type": "text",
+   "text": "How do you make a mill look heroic? Ruisdael's first decision is where to put your eyes. He sets you very low, almost at water level, as if you were sitting in a rowing boat among the reeds."
+  },
+  {
+   "type": "lines",
+   "text": "Four lines hold this picture together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.715
+      ],
+      [
+       0.3,
+       0.72
+      ],
+      [
+       0.6,
+       0.7
+      ],
+      [
+       1.0,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "A low horizon",
+     "text": "Land and water take up barely the bottom third. Because you look from so low, everything that stands up has to rise against the sky."
+    },
+    {
+     "points": [
+      [
+       0.71,
+       0.63
+      ],
+      [
+       0.71,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "The tower",
+     "text": "The stone body of the mill is the one strong vertical. Sunlight catches its left side, so it glows pale against dark cloud."
+    },
+    {
+     "points": [
+      [
+       0.607,
+       0.498
+      ],
+      [
+       0.696,
+       0.38
+      ],
+      [
+       0.75,
+       0.316
+      ]
+     ],
+     "closed": false,
+     "label": "The sails",
+     "text": "The sails cut diagonally across the sky. Follow their slant and you find the cloud banks leaning the same way, as if mill and weather were one mechanism."
+    },
+    {
+     "points": [
+      [
+       0.97,
+       0.84
+      ],
+      [
+       0.75,
+       0.8
+      ],
+      [
+       0.5,
+       0.78
+      ],
+      [
+       0.28,
+       0.76
+      ]
+     ],
+     "closed": false,
+     "label": "The shoreline",
+     "text": "A wall of wooden posts sweeps from the right corner toward the open river. It leads your eye out to the sailboat and the distance."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the grandeur is built, not found. A low seat, a tall object, a sky that leans with it. Nothing in the scene is rare or costly. Ruisdael simply gives ordinary things the full weight of his attention, and the sky two thirds of his canvas."
+  },
+  {
+   "type": "key",
+   "text": "Ruisdael showed that a picture's importance does not come from its subject. It comes from how the painter looks at it."
+  },
+  {
+   "type": "fact",
+   "text": "To the people who first saw this painting, a windmill was not quaint. Mills ground the grain for bread, sawed timber for ships and pumped water off the land. Much of the Netherlands lies at or below sea level and stayed dry only because of them."
+  },
+  {
+   "type": "text",
+   "text": "The place is real. Wijk bij Duurstede sits where the river Lek carries Rhine water toward the sea. But Ruisdael was no surveyor. He kept the town's landmarks and arranged them to suit his picture, small and low, so the mill would tower above them."
+  },
+  {
+   "type": "tour",
+   "title": "A real town, rearranged",
+   "text": "Three details along the bank, from left to right.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.665,
+     "zoom": 4,
+     "r": 0.06,
+     "title": "The castle",
+     "text": "Roofs and a slim spire rise behind the trees: the old castle of the bishops of Utrecht, once the town's seat of power. Here it is far smaller than the mill."
+    },
+    {
+     "x": 0.946,
+     "y": 0.596,
+     "zoom": 4.5,
+     "r": 0.04,
+     "title": "A blunt tower",
+     "text": "At the far right, the squat tower of St. Martin's church, which was never finished. Church and castle are pushed to the edges of the stage."
+    },
+    {
+     "x": 0.86,
+     "y": 0.717,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "Three women",
+     "text": "Three women in white caps and aprons walk up the path from the river. Their whites are the brightest touches on the land, and they give the mill its scale."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Castle, church, mill: the old powers stand small in the haze and the working machine dominates. Many viewers have read that as a portrait of the Dutch Republic itself, a country run by merchants and millers, not bishops. Whether Ruisdael meant it, nobody knows. He left no letters about his art."
+  },
+  {
+   "type": "find",
+   "text": "The mill is at work, and the miller has stepped outside. Where is he?",
+   "spots": [
+    {
+     "x": 0.653,
+     "y": 0.533,
+     "zoom": 5,
+     "r": 0.03,
+     "title": "On the gallery",
+     "text": "A tiny figure leans on the railing of the wooden gallery that circles the tower. From up there the miller could reach the sails and watch the weather coming in.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That speck of a man is the key to the size of everything else. Next to him the tower is enormous, and next to the tower the clouds are bigger still. Ruisdael stacks the scales: person, building, sky."
+  },
+  {
+   "type": "fact",
+   "text": "If you visit Wijk bij Duurstede today you will be shown a windmill perched on top of an old town gate, and many people take it for this one. It is not. The mill Ruisdael painted was later pulled down."
+  },
+  {
+   "type": "text",
+   "text": "His skies changed what later painters thought a landscape could be. In England, a century and a half later, John Constable studied and copied Ruisdael's pictures. Constable called the sky the “chief organ of sentiment” in a landscape, a lesson this canvas teaches better than any book."
+  },
+  {
+   "type": "fact",
+   "text": "The painting, about 83 by 101 cm (33 by 40 inches), belonged to the Amsterdam banker Adriaan van der Hoop. He left his collection to the city in 1854, and the city still owns it: the Rijksmuseum shows it on long-term loan."
+  },
+  {
+   "type": "text",
+   "text": "Stand in front of it now and the old ranking seems absurd. Crowds pass grand history paintings to stop here, at a gray afternoon on a river, with wind in the reeds and rain on the way."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why was a landscape considered a minor subject in the 1600s?",
+   "options": [
+    "Landscapes were illegal",
+    "Theorists ranked Bible and history scenes far above it",
+    "Paint for skies was too expensive"
+   ],
+   "answer": 1,
+   "explanation": "Art theory of the time placed history painting at the top and landscape near the bottom."
+  },
+  {
+   "question": "Where does Ruisdael place the viewer?",
+   "options": [
+    "Very low, near the water",
+    "High up on the mill's gallery",
+    "Inside the castle"
+   ],
+   "answer": 0,
+   "explanation": "The low viewpoint makes the mill rise against the sky."
+  },
+  {
+   "question": "How much of the canvas does the sky take?",
+   "options": [
+    "About a quarter",
+    "About half",
+    "About two thirds"
+   ],
+   "answer": 2,
+   "explanation": "Land and water fill only the bottom third."
+  },
+  {
+   "question": "Which English painter studied and copied Ruisdael?",
+   "options": [
+    "John Constable",
+    "William Hogarth",
+    "Francis Bacon"
+   ],
+   "answer": 0,
+   "explanation": "Constable admired Ruisdael's skies and copied his works."
+  },
+  {
+   "question": "What is true of the mill in the painting?",
+   "options": [
+    "It was invented by the painter",
+    "It is the mill on the town gate you can visit today",
+    "It was later pulled down"
+   ],
+   "answer": 2,
+   "explanation": "The mill Ruisdael painted no longer exists; the one on the gate is a different mill."
+  }
+ ],
+ "facts": [
+  {
+   "text": "In the painting, the castle and the church are shown larger than the windmill.",
+   "isTrue": false,
+   "explanation": "Ruisdael keeps them small and low so the mill dominates."
+  },
+  {
+   "text": "A tiny figure stands on the gallery of the mill.",
+   "isTrue": true,
+   "explanation": "The miller leans on the railing, and his size shows how big the tower is."
+  },
+  {
+   "text": "Ruisdael left detailed letters explaining the meaning of this picture.",
+   "isTrue": false,
+   "explanation": "He left no writings about his art, so any symbolic reading is a guess."
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+  "teaser": "Two men, a few cards, no money on the table. Cézanne painted this game five times.",
+  "focus": [0.45, 0.5],
+  "review_notes": "IMAGE MISMATCH: the catalog lists the Metropolitan Museum version (three seated players and a standing onlooker, about 1890-92). The image shows one of the later two-player versions (it looks like the Courtauld Gallery canvas, London, about 1892-96). The lesson is written about the two-player image and says so openly.\nLéger, The Card Game (1917, Kröller-Müller Museum), painted while recovering after being gassed near Verdun.\nReported private sale of one two-player version to Qatar around 2011 for more than 250 million dollars (press reports, never officially confirmed).\nModels were workers on the Jas de Bouffan estate; the pipe smoker is usually identified as the gardener known as Père Alexandre.\nLe Nain card players in the Musée Granet, Aix, as a likely source.\nTheft of a Card Players (now Musée d'Orsay) from an exhibition in Aix in August 1961, recovered the following year; French stamp of the painting issued 1961.",
+  "lesson": [
+    {"type": "text", "text": "In 1917 a French soldier named Fernand Léger, recovering after being gassed near Verdun, painted his comrades playing cards. He turned them into machines: arms like steel tubes, hands like pliers. He said openly where the idea of bodies built from cylinders came from. From an old painter in Provence, and from pictures like this one."},
+    {"type": "text", "text": "Cézanne's own card players are no robots. They are farmhands from the Jas de Bouffan, his family's estate outside Aix-en-Provence, men he paid to sit still. He painted them in the early 1890s, when he was past fifty, rich by inheritance, and almost unknown to the public."},
+    {"type": "fact", "text": "There are five Card Players in all. The Metropolitan Museum's canvas is an early, busier one, with three men at the table and a fourth standing behind, pipe in mouth. The picture on your screen belongs to the later group, where Cézanne cut the cast down to two."},
+    {"type": "text", "text": "Painters had shown card games for centuries, and nearly always as stories: a cheat slipping an ace from his belt, a drunk brawl, a young fool being robbed. So what is the story here? Check the usual clues, one by one."},
+    {"type": "tour", "title": "Looking for a plot", "text": "Four places where an older painter would have hidden a drama.", "spots": [
+      {"x": 0.29, "y": 0.33, "zoom": 3, "r": 0.09, "title": "The face on the left", "text": "Eyes lowered under the hat brim, a white clay pipe clamped in the mouth. No smirk, no worry. He is reading his cards and nothing else."},
+      {"x": 0.7, "y": 0.32, "zoom": 3, "r": 0.09, "title": "The face on the right", "text": "Younger, with a mustache, head tipped forward. His expression is as closed as his partner's. Neither man looks at the other."},
+      {"x": 0.5, "y": 0.62, "zoom": 2.2, "r": 0.13, "title": "The table", "text": "A rust-colored cloth and nothing on it. No coins, no glasses, no pile of played cards. Whatever is at stake, Cézanne is not telling."},
+      {"x": 0.55, "y": 0.2, "zoom": 2, "r": 0.16, "title": "The room", "text": "Dark panels, a reddish strip, some gray shapes that never quite become objects. It could be a farm room or a café. The setting is kept as quiet as the men."}
+    ]},
+    {"type": "text", "text": "No cheat, no stakes, no winner. Cézanne took a subject famous for noise and drained the noise out of it. What remains is concentration: two people sitting opposite each other, completely absorbed. He treated them with the gravity other painters kept for saints."},
+    {"type": "key", "text": "Cézanne removed the story from a storytelling subject. The picture is about two solid bodies facing each other, and about how long a moment can last."},
+    {"type": "text", "text": "Without a plot, the eye starts hunting for differences. The men look like a matched pair at first, a hat and a jacket on each side. They are not. Even the way each one holds his hand of cards is different."},
+    {"type": "find", "text": "Only one of the players lets you see the pale faces of his cards. Tap them.", "spots": [
+      {"x": 0.41, "y": 0.47, "zoom": 3.5, "r": 0.06, "title": "The open hand", "text": "The pipe smoker's cards fan out white, flecked with red and blue. They are the brightest spot in the painting. His partner's cards, just to the right, are turned away and painted dark."}
+    ]},
+    {"type": "text", "text": "Once you start, the opposites pile up. Left: a tall hat with a hard crown, a gray-blue jacket, a straight back, bright cards. Right: a soft, dented hat, a yellowish jacket, a rounded slump, dark cards. One man is cool in color and stiff, the other warm and loose."},
+    {"type": "fact", "text": "Cézanne probably knew an older card game very well. The museum in Aix, a short walk from his school, owned a seventeenth-century Card Players by the Le Nain brothers, painters of sober peasant scenes."},
+    {"type": "text", "text": "All this balance is engineered. Cézanne built the picture like a carpenter builds a frame, with a few strong beams. Yet he also made sure the frame is slightly off, because a perfectly centered picture would feel dead."},
+    {"type": "lines", "text": "Three beams hold the two men together.", "lines": [
+      {"points": [[0.17, 0.75], [0.4, 0.57], [0.5, 0.55], [0.6, 0.57], [0.86, 0.7]], "closed": false, "label": "The arms", "text": "The forearms slope down toward the middle and almost touch. Together they draw a wide, shallow V, with the four hands gathered at its lowest point."},
+      {"points": [[0.48, 0.5], [0.48, 0.95]], "closed": false, "label": "The gap", "text": "The space between the two hands falls a little left of center. Cézanne shifted the whole game sideways, so the right-hand player gets more room and more weight."},
+      {"points": [[0.33, 0.79], [0.55, 0.795], [0.76, 0.81]], "closed": false, "label": "The table edge", "text": "The table does not sit level. It sinks slightly as it runs to the right, and its legs lean with it. The furniture is as hand-built as the men."}
+    ]},
+    {"type": "text", "text": "That leaning table is typical. Cézanne did not correct things with a ruler. He adjusted every edge by eye until the painted surface felt balanced, even if the room no longer obeyed the laws of perspective, the system for making flat pictures look deep."},
+    {"type": "text", "text": "And the bodies really are built from simple volumes. A hat is a short cylinder. A sleeve is a bent tube. A knee under the table is a block. Each is made of small, slanted patches of color laid side by side, with no smooth blending. This is exactly what Léger, Picasso and Braque seized on a few years after Cézanne died in 1906."},
+    {"type": "fact", "text": "In August 1961 thieves emptied a Cézanne exhibition in Aix of eight paintings, a Card Players among them. France had just printed the picture on a postage stamp. The paintings were recovered the following year."},
+    {"type": "text", "text": "Money finally did land on this table. Around 2011, one of the two-player versions was reportedly sold in private to the royal family of Qatar for more than 250 million dollars, at the time the highest price ever said to be paid for a work of art."},
+    {"type": "explore", "spots": [
+      {"x": 0.24, "y": 0.2, "zoom": 2.8, "r": 0.1, "title": "The tall hat", "text": "A stiff crown and a wide brim, modeled in tan and brown patches. It works almost like a stovepipe: a clean cylinder sitting on the head."},
+      {"x": 0.72, "y": 0.23, "zoom": 2.8, "r": 0.1, "title": "The soft hat", "text": "Its crown is crushed and its brim droops. Everything about this player is rounder and looser than his partner."},
+      {"x": 0.31, "y": 0.36, "zoom": 4, "r": 0.05, "shape": "arrow", "title": "The pipe", "text": "A few strokes of white for a cheap clay pipe. No smoke rises from it. Even the pipe is at rest."},
+      {"x": 0.83, "y": 0.6, "zoom": 2.2, "r": 0.14, "title": "The yellow jacket", "text": "Ochre, cream, green and gray patches sit next to each other like tiles. Step back and they read as heavy cloth catching the light."},
+      {"x": 0.07, "y": 0.75, "zoom": 2.2, "r": 0.06, "shape": "rect", "title": "The chair back", "text": "A single upright post rises behind the left player. It repeats his straight spine and closes the picture on that side."},
+      {"x": 0.37, "y": 0.9, "zoom": 2.4, "r": 0.09, "title": "The cloth corner", "text": "The tablecloth hangs in a stiff point, more like folded sheet metal than fabric. Below it, the men's knees nearly meet in the dark."}
+    ]},
+    {"type": "text", "text": "Nobody knows what game they are playing, or who is ahead. Cézanne stopped the hand before anyone lays a card down. More than a century later, they are still thinking."}
+  ],
+  "quiz": [
+    {"question": "Which later painter turned card-playing soldiers into machine-like figures, citing Cézanne's example?", "options": ["Fernand Léger", "Claude Monet", "Edgar Degas"], "answer": 0, "explanation": "Léger painted his card players in 1917 with bodies made of tubes and cylinders."},
+    {"question": "Who posed for the card players?", "options": ["Professional actors from Paris", "Farmhands from Cézanne's family estate", "Cézanne's fellow painters"], "answer": 1, "explanation": "They were workers from the Jas de Bouffan, near Aix-en-Provence."},
+    {"question": "What is missing from the table, compared with older paintings of card games?", "options": ["A tablecloth", "The players' hands", "Money, drinks and any sign of cheating"], "answer": 2, "explanation": "Cézanne removed the stakes and the story."},
+    {"question": "How many versions of The Card Players did Cézanne paint?", "options": ["Two", "Five", "Twelve"], "answer": 1, "explanation": "There are five, some with more figures and three with two players."},
+    {"question": "How is the Metropolitan Museum's version different from the two-player picture?", "options": ["It shows three players and a standing onlooker", "It is set outdoors", "It shows women playing"], "answer": 0, "explanation": "The Met canvas is an earlier, busier version with four men."},
+    {"question": "Which player shows the bright faces of his cards?", "options": ["The man on the right", "Neither of them", "The pipe smoker on the left"], "answer": 2, "explanation": "His white cards fan toward us while his partner's are turned away."}
+  ],
+  "facts": [
+    {"text": "The two card players are near mirror images, identical in hat, jacket and posture.", "isTrue": false, "explanation": "They are opposites: stiff and cool on the left, slumped and warm on the right."},
+    {"text": "A Card Players by Cézanne was stolen from an exhibition in Aix in 1961.", "isTrue": true, "explanation": "Eight Cézannes were taken and recovered the following year."},
+    {"text": "The table in the painting is perfectly level.", "isTrue": false, "explanation": "It tilts slightly, because Cézanne adjusted edges by eye, not with a ruler."}
+  ]
+}

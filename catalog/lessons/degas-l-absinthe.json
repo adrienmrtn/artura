@@ -1,0 +1,57 @@
+{
+  "teaser": "Two friends posed as strangers in a Paris café, and London hissed at the result.",
+  "focus": [0.56, 0.24],
+  "review_notes": "George Moore's reaction (“What a slut!”) is quoted from his 1893 article; check exact wording.\nThe man's drink is traditionally identified as a mazagran (cold coffee); this is a common reading, not documented by Degas.\nHissing at the 1892 Christie's sale is widely reported; worth confirming.\nPainted 1875-76; whether it actually hung in the 1876 Impressionist exhibition is debated, so the lesson does not claim it.",
+  "lesson": [
+    {"type": "text", "text": "Place Pigalle, Paris, the mid-1870s. On the corner stands the Café de la Nouvelle Athènes, where Manet, Degas and their friends argue about painting most evenings. This picture is set on its benches. Not in the evening, though. The light in the mirror is pale and cold, the light of a morning when nobody has anything to say."},
+    {"type": "text", "text": "Degas did not set up his easel among the customers. He asked two friends to pose in his studio and rebuilt the café from memory around them. The woman is Ellen Andrée, a young actress. The man is Marcellin Desboutin, a painter and printmaker known all over the neighborhood."},
+    {"type": "text", "text": "So nothing here was caught by chance. Every glass, every shadow was placed. Which makes the first thing to check quite simple: what exactly did Degas put on those tables?"},
+    {"type": "tour", "title": "What is on the tables", "text": "Three objects, three clues about the hour and the mood.", "spots": [
+      {"x": 0.66, "y": 0.38, "zoom": 3.2, "r": 0.07, "title": "The pale green glass", "text": "Absinthe, a strong spirit flavored with wormwood and anise. Poured neat it is green. Add water and it turns this cloudy, milky color. Her glass is full. She has not touched it."},
+      {"x": 0.82, "y": 0.38, "zoom": 3.2, "r": 0.07, "title": "His brown drink", "text": "The man's tall glass holds something dark. It is usually read as a mazagran, cold black coffee, the classic remedy for the morning after."},
+      {"x": 0.38, "y": 0.46, "zoom": 2.6, "r": 0.11, "title": "The empty carafe", "text": "On the next table, a water carafe on a tray. It is empty, and nobody sits behind it. Degas gives one of his three tables to an absence."}
+    ]},
+    {"type": "text", "text": "A full glass, a cure for a hangover, an empty bottle. The props tell you about time passing slowly. The two people do the rest: they share a bench and nothing else. Her shoulders drop, her feet splay under the table. He leans away on his elbow, pipe in his mouth, looking at something outside the frame."},
+    {"type": "fact", "text": "Absinthe was so popular in France that late afternoon was nicknamed “the green hour”. Blamed for madness and crime, it was banned in the country in 1915 and stayed illegal there for almost a century."},
+    {"type": "text", "text": "Now notice where Degas has seated them. A portrait painter would put the faces in the middle. Here the top right corner is crowded and half the canvas is bare tabletop. That strange layout is doing the storytelling."},
+    {"type": "lines", "text": "Follow the route your eye is forced to take.", "lines": [
+      {"points": [[0.28, 0.93], [0.08, 0.72], [0.68, 0.54], [0.56, 0.43], [0.95, 0.49]], "closed": false, "label": "The zigzag", "text": "You enter at the bottom, slide along the newspaper, cross the middle table and only then reach the drinkers. It feels like sitting two tables away and glancing over."},
+      {"points": [[0.37, 0.02], [1.0, 0.02], [1.0, 0.5], [0.37, 0.5]], "closed": true, "label": "The crowded corner", "text": "Both figures are squeezed into this quarter of the picture. The man is even cut by the edge, as in a snapshot taken too fast."},
+      {"points": [[0.54, 0.2], [0.47, 0.4]], "closed": false, "label": "Her gaze", "text": "Her eyes drift down and to the side, toward nothing in particular. They do not meet the glass, the man, or you."},
+      {"points": [[0.92, 0.16], [1.0, 0.15]], "closed": false, "label": "His gaze", "text": "He looks the opposite way, out of the painting. Two lines of sight that never cross: this is how you paint loneliness for two."}
+    ]},
+    {"type": "key", "text": "Degas tells the story with the composition, the way things are arranged on the canvas. Empty space, an off-center couple and two gazes that never meet say more than any facial expression."},
+    {"type": "text", "text": "Where did he learn to cut a figure in half and leave a big void up front? Partly from Japanese woodblock prints, which were flooding into Paris and which he collected. Partly from photography, still young, with its accidental croppings. Degas borrowed the accident and planned it carefully."},
+    {"type": "text", "text": "He also left a small joke for anyone who studies the tables long enough. They are slabs of marble floating in the air: not one of them has a leg. And down in the front, among the things left on the nearest table, the painter has slipped something of his own."},
+    {"type": "find", "text": "Degas signed this painting in an unusual spot. Can you find his name?", "spots": [
+      {"x": 0.28, "y": 0.94, "zoom": 3.5, "r": 0.08, "title": "Signed on the table", "text": "“Degas”, written in dark paint on the front table, just below a small match holder and beside a newspaper on its wooden rod. He signs as if he were the customer sitting here. That customer is now you."}
+    ]},
+    {"type": "text", "text": "The picture's troubles began when it left France. An English collector from Brighton, Henry Hill, bought it soon after it was painted, when it was simply called “In a Café”. After his death it came up for auction at Christie's in London in 1892. People in the saleroom hissed."},
+    {"type": "text", "text": "A year later it was shown in a London gallery under a new, blunter title: L'Absinthe. Victorian critics read it as a sermon on French vice, or as an insult to art. The writer George Moore, who actually admired Degas, described the woman with the words “What a slut!” He later regretted it."},
+    {"type": "fact", "text": "The scandal stuck to the models. Ellen Andrée was a working actress who also posed for Manet and Renoir, and Desboutin was a respected artist. Both spent years being taken for the two wrecks they had only pretended to be."},
+    {"type": "text", "text": "Degas never said the painting was a warning about alcohol. He painted laundresses yawning, dancers scratching their backs, jockeys waiting. What interested him was the body when it thinks nobody is watching. The café was one more stage for that."},
+    {"type": "explore", "spots": [
+      {"x": 0.54, "y": 0.19, "zoom": 3.0, "r": 0.09, "title": "Her face", "text": "Heavy eyelids, a mouth slightly open, color only in the cheeks. Degas paints it thinly, with almost no outline, so the face seems to fade into the wall."},
+      {"x": 0.53, "y": 0.08, "zoom": 2.8, "r": 0.08, "title": "The hat", "text": "A fashionable hat with a big pale ribbon, slightly crooked. She dressed up to come here. It makes the slump of the rest of her body sadder."},
+      {"x": 0.24, "y": 0.11, "zoom": 2.5, "r": 0.1, "title": "Shadows in the mirror", "text": "The wall behind them is a mirror. It shows two dark silhouettes, the backs of their heads, against morning light from a window we never see."},
+      {"x": 0.94, "y": 0.2, "zoom": 3.2, "r": 0.07, "title": "The pipe", "text": "Desboutin was rarely seen without his pipe. Bloodshot eye, battered hat pushed back: he played the part of the bohemian very well."},
+      {"x": 0.12, "y": 0.74, "zoom": 2.4, "r": 0.11, "title": "The newspaper", "text": "Cafés lent newspapers clamped on wooden rods. This one bridges the gap between two tables and starts the zigzag that leads you to the couple."},
+      {"x": 0.62, "y": 0.81, "zoom": 2.8, "r": 0.1, "title": "Her shoes", "text": "White bows on her shoes, feet turned outward, planted flat. A tiny detail of posture that tells you how long she has been sitting."}
+    ]},
+    {"type": "fact", "text": "The canvas is not large: about 92 by 68 cm (36 by 27 in). It returned to France when the banker and collector Isaac de Camondo bought it, and he left it to the Louvre in 1911."},
+    {"type": "text", "text": "The Nouvelle Athènes itself is gone. The building on place Pigalle burned and was pulled down in 2004. What remains of the café is this bench, this mirror and a glass of absinthe that will never be drunk."}
+  ],
+  "quiz": [
+    {"question": "Who are the two people in the painting?", "options": ["Two strangers Degas sketched in secret", "An actress and an artist, both friends who posed for him", "Degas's sister and her husband"], "answer": 1, "explanation": "Ellen Andrée, an actress, and Marcellin Desboutin, a painter and printmaker, posed in Degas's studio."},
+    {"question": "Why is the woman's drink cloudy and pale?", "options": ["Absinthe turns milky when water is added", "It is a glass of milk", "The varnish has aged"], "answer": 0, "explanation": "Absinthe is green when neat and becomes cloudy once diluted with water."},
+    {"question": "What is odd about the café tables?", "options": ["They are round instead of square", "They are covered in graffiti", "They have no legs"], "answer": 2, "explanation": "Degas painted the marble tops floating, without a single leg."},
+    {"question": "Where did Degas sign the picture?", "options": ["On the mirror", "On the front table, near the match holder", "On the woman's hat"], "answer": 1, "explanation": "His name sits on the nearest table, as if he were the customer seated there."},
+    {"question": "How did the London public react in the early 1890s?", "options": ["With hisses and outraged reviews", "With total indifference", "By crowning it picture of the year"], "answer": 0, "explanation": "It was hissed at auction in 1892 and attacked by critics when exhibited in 1893."},
+    {"question": "Which two sources helped Degas dare such an off-center layout?", "options": ["Greek sculpture and stained glass", "Japanese prints and photography", "Dutch still lifes and tapestries"], "answer": 1, "explanation": "The lesson links his cropping and empty foreground to Japanese woodblock prints and to photography."}
+  ],
+  "facts": [
+    {"text": "Degas painted the scene on the spot, at a table of the café.", "isTrue": false, "explanation": "He had his two friends pose in his studio and rebuilt the café around them."},
+    {"text": "The painting was first called simply “In a Café”.", "isTrue": true, "explanation": "The title L'Absinthe arrived later, when it was exhibited in London in 1893."},
+    {"text": "The two drinkers look at each other across the table.", "isTrue": false, "explanation": "She stares down at nothing and he looks out of the frame: their gazes never cross."}
+  ]
+}

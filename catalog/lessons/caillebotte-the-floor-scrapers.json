@@ -1,0 +1,206 @@
+{
+ "teaser": "Three workmen on their knees, refused by the official jury for being too vulgar a subject.",
+ "focus": [
+  0.47,
+  0.5
+ ],
+ "review_notes": "IMAGE MISMATCH: the image is not the 1875 Orsay canvas but a loose oil sketch for the composition (one worker kneeling upright at left near the window, two bent toward us). Coordinates were taken from this sketch and the lesson says openly that a study is shown. If the image is replaced by the finished painting, every coordinate must be redone and the third and fourth text blocks rewritten.\nImage is small and blurry: only large regions are pointed at, two interactive blocks.\nSketch assumed to be by Caillebotte (private collection): check.\nSalon rejection in 1875 for 'vulgar' subject; shown at the second Impressionist exhibition, 1876: check.\nZola's criticism of the painting's exactness as 'bourgeois': paraphrased, check.\nSetting thought to be the family home on rue de Miromesnil: check.\nDimensions of the finished canvas about 102 x 147 cm; entered the national collections in 1894 through the family after his death: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Who made the floor you are standing on smooth? You have probably never asked. In 1875 hardly anyone in the art world asked either. Paintings showed gods, generals and well-dressed ladies. Then a 26-year-old named Gustave Caillebotte painted three men on their knees, scraping a wooden floor."
+  },
+  {
+   "type": "text",
+   "text": "The job was called “raboteur,” floor planer. New floorboards warp and cup as they dry, so workers shaved them flat by hand, dragging a steel blade toward themselves strip after strip. It was hot, dusty labor, and the men often worked stripped to the waist."
+  },
+  {
+   "type": "text",
+   "text": "What you see here is not the finished canvas at the Musée d'Orsay but a small oil study, painted fast while Caillebotte was working out his idea. The brushwork is rough and the faces are blanks. That is useful: with the details gone, the bones of the picture show clearly."
+  },
+  {
+   "type": "lines",
+   "text": "Even in a quick study, the room is built on firm lines.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.02,
+       0.72
+      ],
+      [
+       0.36,
+       0.32
+      ]
+     ],
+     "closed": false,
+     "label": "The boards",
+     "text": "The floorboards rush away from us in long streaks. Each scraped strip is a line of perspective, the drawing system that makes a flat surface look deep."
+    },
+    {
+     "points": [
+      [
+       0.62,
+       0.92
+      ],
+      [
+       0.6,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "Another strip",
+     "text": "Farther right, the boards run almost straight up the picture. Together the streaks fan out from the far wall like spokes."
+    },
+    {
+     "points": [
+      [
+       0.28,
+       0.24
+      ],
+      [
+       0.22,
+       0.48
+      ],
+      [
+       0.14,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The light",
+     "text": "Daylight pours in from the window and slides across the floor toward us. The workers are seen against the light, so their bodies become dark shapes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice what this viewpoint does. We look down on the men from standing height, the position of the owner inspecting the job. And the floor, not the people, takes up most of the picture. It tilts up like a stage, shining where the light skims it."
+  },
+  {
+   "type": "fact",
+   "text": "The room was very likely in the Caillebotte family's own house in Paris, and the men were probably working for the family. The painter came from money: he had a law degree and never needed to sell a picture."
+  },
+  {
+   "type": "text",
+   "text": "He did not paint from a distance, though. He drew the workers again and again, studying how a body folds when it pulls a blade: back rounded, arms locked, weight thrown backward."
+  },
+  {
+   "type": "tour",
+   "title": "Bodies at work",
+   "text": "Three large zones of the study, and what each one sets up.",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.52,
+     "zoom": 1.9,
+     "r": 0.13,
+     "title": "The pull",
+     "text": "Head down, back curved, both arms stretched straight to the tool on the floor. The pose is a machine for pulling. In the final painting Caillebotte rendered these arms with the care usually kept for Greek heroes."
+    },
+    {
+     "x": 0.17,
+     "y": 0.36,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "The third man",
+     "text": "At the left a worker kneels upright near the window, taking a break or tending his tool. He breaks the rhythm of the two bent backs.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.28,
+     "y": 0.13,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "The window",
+     "text": "The only opening to the outside. You can make out the curls of an iron balcony railing against the pale daylight, a sign that this is a comfortable city apartment."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Caillebotte sent the finished canvas, about 1 by 1.5 meters (40 by 58 inches), to the Salon, the official yearly exhibition in Paris. The jury refused it. Peasants in the fields were acceptable in art by then. City workmen, half undressed, in a rich man's room, were judged a vulgar subject."
+  },
+  {
+   "type": "fact",
+   "text": "The rejection pushed him toward the Impressionists. He showed the painting at their second exhibition in 1876, where it drew crowds. The novelist Emile Zola admired the skill but complained that it was too exact, as tidy as a photograph."
+  },
+  {
+   "type": "key",
+   "text": "The Floor Scrapers is one of the first paintings to treat urban manual labor as a subject worthy of a large canvas, without pity and without glory."
+  },
+  {
+   "type": "text",
+   "text": "In the finished version a bottle of wine and a glass stand on the floor at the right, waiting for the break. After Caillebotte's death in 1894 the painting entered France's national collections. Next time you cross an old parquet floor, think of the backs that flattened it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What are the men in the painting doing?",
+   "options": [
+    "Laying carpet",
+    "Scraping a wooden floor flat",
+    "Painting a ceiling"
+   ],
+   "answer": 1,
+   "explanation": "They are floor planers, shaving warped boards by hand."
+  },
+  {
+   "question": "Why did the Salon jury refuse the painting in 1875?",
+   "options": [
+    "The subject was judged vulgar",
+    "It was too small",
+    "It was unfinished"
+   ],
+   "answer": 0,
+   "explanation": "City workmen were not considered a fit subject for art."
+  },
+  {
+   "question": "Where did Caillebotte show it the following year?",
+   "options": [
+    "At the Louvre",
+    "In London",
+    "At the second Impressionist exhibition"
+   ],
+   "answer": 2,
+   "explanation": "He joined the Impressionists in 1876."
+  },
+  {
+   "question": "From where do we see the workers?",
+   "options": [
+    "From above, at standing height",
+    "From floor level",
+    "From outside the window"
+   ],
+   "answer": 0,
+   "explanation": "We look down on them like the owner inspecting the job."
+  },
+  {
+   "question": "What did Zola dislike about the painting?",
+   "options": [
+    "Its dark colors",
+    "Its photographic exactness",
+    "Its mythological theme"
+   ],
+   "answer": 1,
+   "explanation": "He found it too precise, as tidy as a photograph."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Caillebotte was a poor workman who painted his own colleagues.",
+   "isTrue": false,
+   "explanation": "He was wealthy, held a law degree, and the room was likely in his family's house."
+  },
+  {
+   "text": "In the picture, the light comes from a window at the back of the room.",
+   "isTrue": true,
+   "explanation": "The workers are seen against the daylight, as dark shapes."
+  },
+  {
+   "text": "The Salon jury welcomed the painting with a medal.",
+   "isTrue": false,
+   "explanation": "The jury rejected it as a vulgar subject."
+  }
+ ]
+}

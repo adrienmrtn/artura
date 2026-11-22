@@ -1,0 +1,226 @@
+{
+ "teaser": "Tilt a grid by 45 degrees and you can lose your best ally. Van Doesburg did.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "Dimensions given as 100 x 100 cm: confirm with the Stedelijk Museum.\nMondrian's break with De Stijl dated to 1925, linked to Van Doesburg's diagonals; the lesson paraphrases his reaction and does not quote the letter.\nVan Doesburg's birth name Christian Emil Marie Küpper; death in Davos in 1931 at age 47.\nUnofficial De Stijl course in Weimar in 1922, outside the Bauhaus.\nAubette, Strasbourg, completed 1928, soon altered, restored decades later.\nThe yellow looks muted (mustard) in this reproduction.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Forty-five. That is the number of degrees by which Theo van Doesburg rotated his grid in 1924. It sounds like nothing. Within a year it had helped split the most disciplined art group in Europe and cost him his closest partner."
+  },
+  {
+   "type": "text",
+   "text": "The group was De Stijl, Dutch for “The Style”. Van Doesburg founded its magazine in 1917 together with Piet Mondrian. Their shared rule was strict: straight lines, right angles, primary colors, and only two directions allowed, upright and level."
+  },
+  {
+   "type": "text",
+   "text": "For Mondrian, those two directions were close to sacred. Horizontal and vertical stood for the basic opposites of the world, held in calm balance. A slanted line, to him, was a private whim that broke the calm."
+  },
+  {
+   "type": "text",
+   "text": "Van Doesburg got restless. A calm balance, he argued, is not how modern life feels. Streets, machines and bodies move. He wanted a painting that pushes against the wall it hangs on, and he found the simplest possible way to do it."
+  },
+  {
+   "type": "lines",
+   "text": "The canvas is a square, one meter (about 39 inches) on each side. Every edge inside it runs at a slant.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.34
+      ],
+      [
+       0.66,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "First diagonal",
+     "text": "One unbroken edge falls from the left side to the bottom. It separates red from white, then red from black, then black from white, without ever bending."
+    },
+    {
+     "points": [
+      [
+       0.99,
+       0.33
+      ],
+      [
+       0.51,
+       0.83
+      ]
+     ],
+     "closed": false,
+     "label": "Second diagonal",
+     "text": "This edge crosses the first at a right angle. So the grid itself is still made of perfect right angles. It has only been turned."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.0
+      ],
+      [
+       0.67,
+       0.0
+      ],
+      [
+       0.99,
+       0.33
+      ],
+      [
+       0.51,
+       0.83
+      ],
+      [
+       0.0,
+       0.34
+      ]
+     ],
+     "closed": true,
+     "label": "The red square",
+     "text": "The red is a big square standing on its point. Its top corner is cut off by the canvas, so the shape seems larger than the picture that holds it."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "The “counter” in the title means against: the composition runs against the vertical and horizontal edges of the canvas, and of the room around it."
+  },
+  {
+   "type": "text",
+   "text": "That is the whole trick, and you just traced it. Nothing in the painting lines up with the frame. The red square wants to keep sliding, the black wedge at lower left drags downward, the blue rises on the right. Hang this in a room of doors and windows and it disagrees with all of them."
+  },
+  {
+   "type": "fact",
+   "text": "Mondrian had already painted canvases turned on their point, like a diamond. But inside them his lines stayed perfectly upright and level. Van Doesburg did the reverse: he kept the canvas straight and turned everything inside it."
+  },
+  {
+   "type": "text",
+   "text": "Mondrian saw the new pictures and felt the rule had been broken by the very man who had helped write it. In 1925 he stopped contributing to De Stijl. Van Doesburg gave his new direction a name, Elementarism, and kept going."
+  },
+  {
+   "type": "text",
+   "text": "Another difference from Mondrian is easy to miss: there are no black lines. The planes of color meet edge to edge. Black is still present, though, as a solid shape with real weight in the lower left corner."
+  },
+  {
+   "type": "fact",
+   "text": "Theo van Doesburg was not his birth name. He was born Christian Emil Marie Küpper in Utrecht in 1883, and adopted the surname of his stepfather when he began to paint."
+  },
+  {
+   "type": "text",
+   "text": "The palette follows the De Stijl recipe: red, yellow, blue, black, white. Or nearly. One small area in this painting belongs to none of those five."
+  },
+  {
+   "type": "find",
+   "text": "One plane is neither a primary color, nor black, nor white. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.9,
+     "y": 0.95,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The gray triangle",
+     "text": "A small gray wedge tucked into the bottom right corner. Beside the blue and the bright white it reads almost like a shadow, and it gives that corner a quieter end than a hard white would."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Gray was allowed in De Stijl as a “non-color”, a step between white and black. Here it softens the one corner where the eye finally leaves the picture, after being thrown around by the red."
+  },
+  {
+   "type": "fact",
+   "text": "In 1922 Van Doesburg moved to Weimar, home of the famous Bauhaus design school. The school did not hire him, so he set up his own course nearby, and Bauhaus students came to hear him anyway."
+  },
+  {
+   "type": "text",
+   "text": "He soon took the diagonal off the canvas. For the Aubette, an entertainment complex in Strasbourg finished in 1928, he covered the walls and ceiling of a cinema and dance hall with huge slanted color fields. Customers found it disorienting, and within a few years it was covered over. It was restored decades later."
+  },
+  {
+   "type": "text",
+   "text": "Van Doesburg died in Davos, Switzerland, in 1931, at 47. He and Mondrian had made peace not long before. The argument they had, whether a picture should rest or move, has never really been settled."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did Van Doesburg change in 1924?",
+   "options": [
+    "He added curves",
+    "He rotated the grid by 45 degrees",
+    "He gave up color"
+   ],
+   "answer": 1,
+   "explanation": "He turned the whole grid so that every edge runs diagonally."
+  },
+  {
+   "question": "What does “counter” mean in the title?",
+   "options": [
+    "A shop counter",
+    "Counting the planes",
+    "Against the edges of the canvas and the room"
+   ],
+   "answer": 2,
+   "explanation": "The composition runs against the vertical and horizontal of its surroundings."
+  },
+  {
+   "question": "How did Mondrian react to the diagonal?",
+   "options": [
+    "He stopped contributing to De Stijl in 1925",
+    "He copied it at once",
+    "He bought the painting"
+   ],
+   "answer": 0,
+   "explanation": "He felt the group's rule had been broken and withdrew."
+  },
+  {
+   "question": "What is missing here compared with a Mondrian?",
+   "options": [
+    "The color red",
+    "Right angles",
+    "Black lines between the planes"
+   ],
+   "answer": 2,
+   "explanation": "The color planes meet edge to edge, with no black lines."
+  },
+  {
+   "question": "Which color hides in the bottom right corner?",
+   "options": [
+    "Green",
+    "Gray",
+    "Orange"
+   ],
+   "answer": 1,
+   "explanation": "A small gray triangle sits in the lower right corner."
+  },
+  {
+   "question": "Where did Van Doesburg use giant diagonals on walls and ceiling?",
+   "options": [
+    "The Aubette in Strasbourg",
+    "The Bauhaus in Weimar",
+    "The Stedelijk Museum"
+   ],
+   "answer": 0,
+   "explanation": "He designed the cinema and dance hall of the Aubette, finished in 1928."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The grid in this painting is no longer made of right angles.",
+   "isTrue": false,
+   "explanation": "The angles are still right angles; the grid has only been turned 45 degrees."
+  },
+  {
+   "text": "Theo van Doesburg was born with a different name.",
+   "isTrue": true,
+   "explanation": "He was born Christian Emil Marie Küpper and took his stepfather's surname."
+  },
+  {
+   "text": "The red square fits entirely inside the canvas.",
+   "isTrue": false,
+   "explanation": "Its top corner is cut off by the upper edge."
+  }
+ ]
+}

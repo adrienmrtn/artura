@@ -1,0 +1,44 @@
+{
+  "teaser": "This red room was sold, exhibited and admired as a blue one. Then Matisse changed his mind.",
+  "focus": [0.62, 0.5],
+  "review_notes": "The canvas was exhibited at the 1908 Salon d'Automne as Harmony in Blue and repainted red afterwards (standard account; some sources add an even earlier green stage, left out here).\nTraces of the earlier blue visible along the edges of the canvas: reported by the Hermitage; not pointed at because they cannot be seen in this image.\nThe fabric identified as a blue-and-white printed cotton (often called toile de Jouy) owned by Matisse.\nTransfer to the Hermitage in 1948: check.\nSignature and date read from the image at lower left.",
+  "lesson": [
+    {"type": "text", "text": "In 1908 Henri Matisse finished a large picture of a dining room, and he decided it had failed. The awkward part: it was already sold. The Moscow collector Sergei Shchukin had bought it under the title Harmony in Blue, and it had hung in a Paris exhibition under that name. Blue walls, blue tablecloth."},
+    {"type": "text", "text": "Matisse took it back to the studio and covered every bit of blue with red. Not a corner here and there: the whole room. He explained to Shchukin that the first version was simply not decorative enough. The collector, to his credit, accepted a painting quite different from the one he had paid for."},
+    {"type": "find", "text": "Matisse left the proof of when he finished, written small on the canvas. Where did he sign and date it?", "spots": [
+      {"x": 0.055, "y": 0.975, "zoom": 4.0, "r": 0.06, "title": "Henri Matisse 1908", "text": "Bottom left, in dark paint on the red, under the leg of the chair. One date for a picture that was, in a sense, painted twice in the same year."}
+    ]},
+    {"type": "text", "text": "With the signature found, look at what the red did. A normal room has a floor, a table that sticks out toward you, and a wall behind. Here the tablecloth and the wallpaper are the same red with the same blue pattern, so table and wall melt into one sheet. Your eye has to hunt for the place where one stops."},
+    {"type": "lines", "text": "There are only a few clues left that this is a room with depth.", "lines": [
+      {"points": [[0.14, 0.615], [0.46, 0.602]], "closed": false, "label": "The table edge", "text": "A thin dark line, easy to miss. It is nearly all that separates the horizontal table from the vertical wall."},
+      {"points": [[0.0, 0.0], [0.37, 0.0], [0.37, 0.59], [0.0, 0.57]], "closed": true, "label": "Window or picture?", "text": "The orange frame is drawn at an angle, like a window with a thick sill. Yet the garden inside is as flat as a painting hung on the wall. Matisse lets you hesitate."},
+      {"points": [[0.0, 0.83], [0.20, 0.95]], "closed": false, "label": "The chair seat", "text": "The straw seat tilts back in a diagonal. It is the one object that insists on being three-dimensional, pushed to the corner."}
+    ]},
+    {"type": "key", "text": "Harmony in Red treats a painting as a flat, decorated surface first and a view into a room second. Color, spread evenly, can cancel depth."},
+    {"type": "fact", "text": "The blue pattern is real. Matisse owned a length of printed cotton with blue baskets and looping branches on a white ground, and he loved it so much that it appears in several of his paintings. Here he blew it up to giant size and changed its background color at will."},
+    {"type": "text", "text": "He came by that taste honestly. Matisse grew up in Bohain, a town in northern France that lived from weaving luxury fabrics, and he collected scraps of cloth all his life. He called them his working library. In this picture the textile is no longer a prop: it runs the show."},
+    {"type": "tour", "title": "Pattern takes over", "text": "Follow how the fabric's flowers and the real ones get mixed up.", "spots": [
+      {"x": 0.57, "y": 0.19, "zoom": 2.4, "r": 0.13, "title": "A basket on the wall", "text": "Part of the wallpaper: a blue basket of flowers held between two curling branches. It is painted as boldly as any object in the room."},
+      {"x": 0.52, "y": 0.47, "zoom": 2.6, "r": 0.12, "title": "A real bouquet", "text": "Yellow sprays and red blooms in a glass vase, standing on a fruit dish. Its stems rise into the wallpaper branches, so the real and the printed touch."},
+      {"x": 0.83, "y": 0.52, "zoom": 2.0, "r": 0.16, "title": "The maid", "text": "She arranges fruit on a stand, head bowed, face reduced to a profile. Her dark top and white apron are flat shapes, and her round bun echoes the fruit."},
+      {"x": 0.30, "y": 0.67, "zoom": 3.0, "r": 0.09, "title": "Loose fruit", "text": "Lemons and an orange lie on the cloth with no shadows at all. They read like extra motifs added to the pattern."}
+    ]},
+    {"type": "text", "text": "Now the left side makes sense. Outside the frame it is early spring: white blossom on the trees, a green lawn, a small pink house under a deep blue sky. Green is the opposite of red on the color wheel, so that cool rectangle makes the room burn hotter, and the room makes the garden feel fresher."},
+    {"type": "fact", "text": "Shchukin hung the canvas in the dining room of his Moscow mansion, where an entire wall was already packed with paintings by Gauguin. He opened his home to the public on Sundays, so young Russian artists saw the newest French painting before most Parisians did."},
+    {"type": "text", "text": "After the 1917 revolution the Soviet state seized Shchukin's collection, and he ended his life in exile in Paris. His pictures were later divided between Moscow and what is now Saint Petersburg, which is how this French dining room came to the Hermitage."},
+    {"type": "text", "text": "The canvas is 180 by 220 centimeters, roughly 6 by 7 feet, so in front of it the red fills most of what you can see. Matisse once wrote that he dreamed of an art as restful as a good armchair. This is a strange armchair, loud and hot, and still people sit in front of it for a long time."},
+    {"type": "fact", "text": "The subject was an old favorite. Eleven years earlier, as a cautious young painter, Matisse had shown The Dinner Table: a maid leaning over a laid table, in browns and silvers, with careful reflections in the glassware. Harmony in Red is the same scene after he stopped being cautious."}
+  ],
+  "quiz": [
+    {"question": "Under what title was the painting first sold and exhibited?", "options": ["Harmony in Green", "Harmony in Blue", "The Red Room"], "answer": 1, "explanation": "It was a blue picture until Matisse repainted it red."},
+    {"question": "Why do the table and the wall seem to merge?", "options": ["They share the same red and the same blue pattern", "The room is shown at night", "The table is hidden by the maid"], "answer": 0, "explanation": "One color and one pattern cover both, so depth almost disappears."},
+    {"question": "Where does the blue pattern of baskets and branches come from?", "options": ["Shchukin's dining room wallpaper", "A Japanese print", "A printed cotton fabric Matisse owned"], "answer": 2, "explanation": "He owned the cloth and used it in several paintings."},
+    {"question": "What does the green garden on the left do for the red room?", "options": ["It makes the red look duller", "It makes the red look hotter, as green is its opposite", "It shows the time of day"], "answer": 1, "explanation": "Opposite colors placed side by side strengthen each other."},
+    {"question": "Who commissioned and owned the painting?", "options": ["Sergei Shchukin", "Gertrude Stein", "Albert Barnes"], "answer": 0, "explanation": "The Moscow collector hung it in his dining room."}
+  ],
+  "facts": [
+    {"text": "Matisse repainted the picture from blue to red after it had already been sold.", "isTrue": true, "explanation": "Shchukin had bought it as Harmony in Blue."},
+    {"text": "The fruit on the table casts long, realistic shadows.", "isTrue": false, "explanation": "The fruit has no shadows and reads almost as part of the pattern."},
+    {"text": "Matisse grew up in a town known for weaving textiles.", "isTrue": true, "explanation": "Bohain, in northern France, lived from luxury fabrics."}
+  ]
+}

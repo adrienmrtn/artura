@@ -1,0 +1,47 @@
+{
+  "teaser": "Drawn by a 21-year-old with a pen, a bottle of ink and four years left to live.",
+  "focus": [0.57, 0.17],
+  "review_notes": "Klaus Voormann's Revolver cover (1966) being influenced by Beardsley, and the 1966 V&A Beardsley exhibition triggering a revival: widely reported, please confirm wording.\nOriginal drawing is at the Harvard Art Museums (Fogg), about 23 x 17 cm: check.\nWilde's reported complaint that the drawings were 'too Japanese' for his 'Byzantine' play: commonly quoted, paraphrased here.\nThe right-hand figure is usually identified as the Young Syrian (Narraboth), sometimes as Iokanaan; lesson follows the usual reading.\nBeardsley's visit to Whistler's Peacock Room in 1891: standard biography.\nThe three-pronged mark at top right is described as Beardsley's Japanese-inspired emblem.",
+  "lesson": [
+    {"type": "text", "text": "London, 1966. The Victoria and Albert Museum opens a show of drawings by a long-dead Victorian, and young people line up for it. Within months his black-and-white women are on bedroom posters and boutique walls, and the cover of the Beatles album Revolver, drawn in pen and ink that same year, carries his unmistakable flavor. The Victorian was Aubrey Beardsley."},
+    {"type": "text", "text": "This is one of the drawings they came for. Beardsley made it in 1893, at 21, as an illustration for Oscar Wilde's play Salome. In the Bible story, Salome dances for King Herod and demands the head of John the Baptist as her reward. Wilde turned her into a princess consumed by desire. Beardsley made her stranger still."},
+    {"type": "text", "text": "In the scene, Salome wants to see the imprisoned prophet. The guard who holds the key is a young Syrian captain, hopelessly in love with her. She leans in and works on him with promises. Beardsley tells all of this with the shape of her body, before you even reach the faces."},
+    {"type": "lines", "text": "Watch how three lines carry the whole encounter.", "lines": [
+      {"points": [[0.53, 0.13], [0.35, 0.2], [0.2, 0.42], [0.12, 0.62], [0.05, 0.85], [0.12, 0.97]], "closed": false, "label": "The swoop", "text": "From her head, Salome's back runs down the page in one unbroken curve. She bends over the young man like a wave about to fall."},
+      {"points": [[0.12, 0.97], [0.45, 0.99], [0.8, 0.95], [0.87, 0.85], [0.7, 0.68], [0.57, 0.6]], "closed": false, "label": "The skirt returns", "text": "The hem sweeps along the bottom and climbs back up to the Syrian's feet. Her dress nearly encircles him. He has nowhere to step."},
+      {"points": [[0.44, 0.3], [0.43, 0.5], [0.52, 0.62], [0.8, 0.69], [0.92, 0.88]], "closed": false, "label": "A single thread", "text": "A hair-thin line with a pendant at its end drifts from her robe out across the empty right side, as casual as a fishing line."}
+    ]},
+    {"type": "text", "text": "Notice how much of that swooping shape is simply blank paper. Beardsley leaves Salome's cloak empty and lets the black skirt and the outer line define it. He learned this from Japanese woodblock prints, which were flooding into Europe: flat shapes, no shading, and empty space treated as a full partner in the design."},
+    {"type": "fact", "text": "Beardsley was largely self-taught. A year before this drawing he was a clerk in a London insurance office, sketching at night by candlelight."},
+    {"type": "text", "text": "The peacock is not in Wilde's stage directions. Beardsley took it from a room. In 1891 he visited the London dining room that the painter James McNeill Whistler had covered in blue and gold peacocks, and the bird stayed with him. It suited Salome: beautiful, proud, all display."},
+    {"type": "tour", "title": "Peacock, three times", "text": "The bird appears in the drawing in three different ways.", "spots": [
+      {"x": 0.3, "y": 0.75, "zoom": 1.8, "r": 0.24, "title": "The skirt", "text": "Scales, crescents and long plumes are scratched out in white against solid black. It reads as embroidery, as feathers and as a fanned tail all at once."},
+      {"x": 0.17, "y": 0.25, "zoom": 2.6, "r": 0.12, "title": "The bird itself", "text": "Behind Salome stands an actual peacock, its long neck a black S, its crest a pair of horns, its tail a fan of scale-like feathers."},
+      {"x": 0.42, "y": 0.07, "zoom": 2.8, "r": 0.13, "title": "The headdress", "text": "Peacock feathers again, each one tipped with a dark “eye,” spraying from her hair like a firework."}
+    ]},
+    {"type": "text", "text": "Behind the bird, look at the cloud of dots. That haze is the closest thing to gray in the whole image, and there is a practical reason. The book was printed by line block, a new photographic process that could reproduce a pen line perfectly but knew only two states: ink or no ink. Beardsley designed for the machine. Dots were his gray."},
+    {"type": "key", "text": "Beardsley turned a printing limitation into a style: pure black, pure white, and a line so sure it needs nothing else."},
+    {"type": "text", "text": "Now the faces. Salome's is in profile, eyes narrowed, almost predatory. The Syrian turns toward us with heavy-lidded eyes under a cap of curls. Many viewers cannot tell at first which figure is the man. That confusion is deliberate. Beardsley enjoyed unsettling Victorian certainties about who should look like what."},
+    {"type": "fact", "text": "Wilde's play was banned from the London stage in 1892 because it put biblical characters in a theater. It could be printed, though, which is how Beardsley came to illustrate it."},
+    {"type": "text", "text": "Wilde himself was uneasy about the pictures. He reportedly grumbled that they were too Japanese for a play he thought of as Byzantine, and he suspected, correctly, that the illustrator was stealing the show. In other plates of the book Beardsley even slipped in mocking caricatures of the author's face."},
+    {"type": "find", "text": "Beardsley did not sign this drawing with his name. He left a personal emblem instead, three upright strokes. Where is it?", "spots": [
+      {"x": 0.86, "y": 0.11, "zoom": 3.2, "r": 0.06, "title": "The emblem", "text": "Three slender marks, like candles or flames, float in the top right corner. Beardsley invented this device in imitation of the seals on Japanese prints."}
+    ]},
+    {"type": "text", "text": "The book came out in 1894 and made him famous and notorious in one stroke. The next year Wilde was arrested and tried for “gross indecency.” Beardsley had nothing to do with the case, but his name was tied to Wilde's in the public mind, and he lost his job as art editor of a fashionable magazine."},
+    {"type": "fact", "text": "Beardsley had tuberculosis from childhood and knew his time was short. He died in 1898, aged 25. His entire career lasted about six years."},
+    {"type": "text", "text": "Which brings us back to 1966. A generation raised on color television fell for drawings with no color at all. Maybe that was the appeal. In a few square inches of ink, Beardsley had already found what poster designers of the sixties were after: elegance with a hint of danger."}
+  ],
+  "quiz": [
+    {"question": "The Peacock Skirt was made to illustrate which text?", "options": ["Oscar Wilde's play Salome", "A Japanese fairy tale", "A Beatles songbook"], "answer": 0, "explanation": "Beardsley drew it in 1893 for the English edition of Wilde's Salome."},
+    {"question": "Why did Beardsley use dots instead of gray shading?", "options": ["He had run out of ink", "Line block printing could only print pure black or nothing", "Wilde asked for dots"], "answer": 1, "explanation": "The process had no grays, so a haze of dots stood in for them."},
+    {"question": "Where did Beardsley's peacock idea come from?", "options": ["Wilde's stage directions", "A trip to India", "A London dining room decorated by Whistler"], "answer": 2, "explanation": "He had visited Whistler's Peacock Room in 1891."},
+    {"question": "What did Beardsley borrow from Japanese prints?", "options": ["Flat shapes and active empty space", "Bright colors", "Realistic shadows"], "answer": 0, "explanation": "Flat forms, no shading and blank paper used as part of the design."},
+    {"question": "How old was Beardsley when he died?", "options": ["45", "25", "65"], "answer": 1, "explanation": "He died of tuberculosis in 1898 at 25."},
+    {"question": "How is the drawing signed?", "options": ["With his full name", "It is not marked at all", "With an emblem of three upright strokes"], "answer": 2, "explanation": "The three-pronged mark in the top right corner is his personal device."}
+  ],
+  "facts": [
+    {"text": "Salome's cloak is filled with fine gray shading.", "isTrue": false, "explanation": "The cloak is blank paper, defined only by its outline and the black skirt."},
+    {"text": "Wilde's Salome was banned from the London stage.", "isTrue": true, "explanation": "It was refused in 1892 because it showed biblical characters."},
+    {"text": "Beardsley trained for ten years at an art academy.", "isTrue": false, "explanation": "He was largely self-taught and had worked as an insurance clerk."}
+  ]
+}

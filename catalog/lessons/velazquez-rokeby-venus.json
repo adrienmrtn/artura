@@ -1,0 +1,42 @@
+{
+  "teaser": "She has her back to you, and yet she may be the one doing the looking.",
+  "focus": [0.45, 0.42],
+  "review_notes": "November 2023 hammer attack on the protective glass by two Just Stop Oil activists: confirm date and that the canvas itself was reported unharmed apart from minor surface damage.\nMary Richardson: 10 March 1914, meat cleaver, six months (the maximum sentence); number of cuts not stated in the lesson.\nPurchase in 1906 for £45,000 through the National Art Collections Fund.\nMorritt hanging the picture high above a fireplace at Rokeby Park (from his letter to Walter Scott) is paraphrased, please check.\nFirst record in 1651 in the collection of Gaspar de Haro, later Marqués del Carpio.",
+  "lesson": [
+    {"type": "text", "text": "In November 2023, two climate activists walked up to this painting in London's National Gallery and struck its protective glass with small hammers. They had picked their target with care. They were repeating, on purpose, an attack made on the same picture more than a century earlier."},
+    {"type": "text", "text": "That first attack came in March 1914. Mary Richardson, a suffragette, a campaigner for women's right to vote, slipped a meat cleaver into the gallery and slashed the canvas across the back and hips. She was protesting the arrest of her movement's leader, Emmeline Pankhurst."},
+    {"type": "fact", "text": "Richardson was given six months in prison, the longest sentence then possible for damaging a work of art. Newspapers nicknamed her “Slasher Mary” and described the cuts as if they were wounds on a living woman."},
+    {"type": "text", "text": "Why this painting, twice? Partly because Britain had made it a national treasure: in 1906 it was bought for the nation for £45,000, a huge sum raised from the public. And partly because of what it shows, which is also why it is so strange to look at."},
+    {"type": "text", "text": "A woman lies on a bed, naked, seen from behind. A winged child tells you who she is: he is Cupid, so she must be his mother Venus, the Roman goddess of love. Take away the wings and nothing here is mythical. Now follow how Velázquez steers your eyes across her."},
+    {"type": "lines", "text": "Three paths: one for the body, two for the gaze.", "lines": [
+      {"points": [[0.03, 0.69], [0.25, 0.62], [0.42, 0.58], [0.55, 0.57], [0.66, 0.5], [0.76, 0.43], [0.8, 0.33]], "closed": false, "label": "One long curve", "text": "From the toes on the left to the head on the right, her outline is a single slow wave that spans nearly the whole canvas. Your eye rides it like a hillside."},
+      {"points": [[0.78, 0.33], [0.42, 0.37]], "closed": false, "label": "Her look", "text": "Her head turns away from us toward the mirror. We arrive at the dark frame expecting to finally meet her."},
+      {"points": [[0.41, 0.37], [0.47, 0.98]], "closed": false, "label": "The look back", "text": "The face in the glass does not look at her body or at Cupid. It is angled out of the picture, toward the spot where you are standing."}
+    ]},
+    {"type": "text", "text": "Here is the catch. A mirror works both ways: if you can see her face in it, then she, from where she lies, sees yours. She is not admiring herself at all. The woman who seemed unaware of being watched has been watching her watcher the whole time."},
+    {"type": "key", "text": "The mirror turns a picture to be looked at into a picture about looking. You came to observe Venus and find yourself observed."},
+    {"type": "text", "text": "Psychologists later named this the “Venus effect”: we assume a person in a painted mirror sees what we see. Velázquez also bends the rules. The reflection is too large for a mirror that far away, and he kept it oddly vague. Zoom in on what he sharpened and what he left soft."},
+    {"type": "tour", "title": "Sharp and soft", "text": "The mirror first, then the two things around it.", "spots": [
+      {"x": 0.41, "y": 0.37, "zoom": 3.5, "r": 0.07, "title": "A smudged face", "text": "The features are a blur of gray and pink, broader and plainer than you would guess from her elegant back. Nobody can be recognized. Whether to protect a model or to tease us, he refuses a portrait."},
+      {"x": 0.36, "y": 0.27, "zoom": 3, "r": 0.09, "title": "Pink ribbons", "text": "Silky pink ribbons loop over the black frame and through Cupid's hands. They may be the blindfold or the bonds of love. Each one is a few flicks of a loaded brush."},
+      {"x": 0.2, "y": 0.33, "zoom": 2, "r": 0.13, "shape": "rect", "title": "An idle Cupid", "text": "The god of desire has no bow and no arrows here. He kneels and holds a mirror like a patient servant, blue sash across his chest, his own face in shadow."},
+      {"x": 0.68, "y": 0.57, "zoom": 2, "r": 0.15, "title": "Skin on gray", "text": "Her warm skin lies against cold gray-black silk, with a white sheet beneath and a red curtain behind. Three plain colors make the flesh glow without any hard outline."}
+    ]},
+    {"type": "text", "text": "A picture like this was dangerous in Spain. The Church frowned on nudes, and painters could be punished for making them. This is the only female nude by Velázquez that survives. It was a private pleasure: by 1651 it belonged to a young Madrid nobleman known for collecting both art and love affairs."},
+    {"type": "fact", "text": "“Rokeby” is not Spanish. It is Rokeby Park, a country house in the north of England where the painting hung for most of the 1800s. Its owner there placed it high above a fireplace, so that ladies could politely avoid looking at it."},
+    {"type": "text", "text": "After the 1914 attack, the gallery's restorer mended the cuts so well that you will struggle to find them today. In 2023 the glass cracked and the canvas was spared. The painting went back on the wall, where she still turns her back on everyone."},
+    {"type": "text", "text": "So two protests, a century apart, chose the same quiet picture of a woman at rest. Is it the fame, the nudity, or that blurred face in the mirror that seems to look back and ask what you want from her?"}
+  ],
+  "quiz": [
+    {"question": "How do we know the woman is Venus?", "options": ["Her name is written on the mirror", "She holds a golden apple", "The winged child beside her is Cupid, her son"], "answer": 2, "explanation": "Cupid's presence is the only mythological clue in the picture."},
+    {"question": "According to the lesson, what does Venus actually see in the mirror?", "options": ["You, the viewer", "Her own face", "Cupid"], "answer": 0, "explanation": "If we can see her face in the mirror, she sees us from where she lies."},
+    {"question": "Who attacked the painting in 1914?", "options": ["A rival painter", "A suffragette named Mary Richardson", "A museum guard"], "answer": 1, "explanation": "Richardson slashed it to protest the arrest of Emmeline Pankhurst."},
+    {"question": "Where does the name “Rokeby” come from?", "options": ["The model's family name", "A Spanish word for mirror", "An English country house where the painting once hung"], "answer": 2, "explanation": "It hung at Rokeby Park in northern England during the 1800s."},
+    {"question": "How did Velázquez paint the face in the mirror?", "options": ["As a precise portrait", "Blurred and hard to identify", "Hidden behind the ribbons"], "answer": 1, "explanation": "The reflection is a soft smudge that cannot be recognized as anyone."}
+  ],
+  "facts": [
+    {"text": "This is the only female nude by Velázquez that survives.", "isTrue": true, "explanation": "Nudes were risky in Spain, and no other one by him has come down to us."},
+    {"text": "Cupid is shown aiming his bow at Venus.", "isTrue": false, "explanation": "He has no bow or arrows here and simply holds the mirror."},
+    {"text": "The painting was bought for the British nation in 1906.", "isTrue": true, "explanation": "It was purchased for £45,000 with money raised from the public."}
+  ]
+}

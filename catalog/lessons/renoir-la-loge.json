@@ -1,0 +1,239 @@
+{
+ "teaser": "A night at the theater, and neither of them is watching the stage.",
+ "focus": [
+  0.38,
+  0.3
+ ],
+ "review_notes": "Models: Nini Lopez (nicknamed 'Gueule de raie', fish-face) and Renoir's brother Edmond.\nSold to the dealer known as père Martin for 425 francs, which Renoir said he needed for his rent.\nThe saying that black is 'the queen of colors' is attributed to Renoir; given here as attributed.\nSamuel Courtauld bought the painting in 1925; his fortune came from rayon (artificial silk).\nPhotograph of the painting is slightly glossy/dark on the right; coordinates taken from it.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Two people have paid for one of the best seats in the house. The lights are up, the evening has begun. And neither of them is watching the play. That is the oddity at the heart of La Loge, a French title that means the theater box."
+  },
+  {
+   "type": "text",
+   "text": "So where are they looking? Each of them has chosen a different direction, and Renoir uses the whole design of the picture to make sure you notice."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines, none of them pointing at a stage.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.66,
+       0.14
+      ],
+      [
+       0.97,
+       0.03
+      ]
+     ],
+     "closed": false,
+     "label": "His gaze",
+     "text": "The man tips his head back and aims his opera glasses high and to the side. He is scanning the upper boxes of the theater, studying other spectators."
+    },
+    {
+     "points": [
+      [
+       0.04,
+       0.71
+      ],
+      [
+       0.3,
+       0.43
+      ],
+      [
+       0.4,
+       0.3
+      ],
+      [
+       0.57,
+       0.45
+      ],
+      [
+       0.72,
+       0.78
+      ]
+     ],
+     "closed": false,
+     "label": "The black arrows",
+     "text": "The bold stripes of her dress run upward from both sides and meet under her chin. They work like arrows aimed at her face, which looks straight out at you."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.84
+      ],
+      [
+       0.55,
+       1.0
+      ]
+     ],
+     "closed": false,
+     "label": "The ledge",
+     "text": "The velvet edge of the box slants across the corner. To see the couple from here, you would have to be floating in the auditorium, or seated in a box across the way."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That last line gives the game away. We are the audience in the opposite box, doing exactly what the man is doing. In Paris in the 1870s the auditorium stayed lit during the performance, and a box was a shop window. You went to the theater to see who was there, and to be seen in your best clothes."
+  },
+  {
+   "type": "text",
+   "text": "He is using his binoculars. She came equipped as well, though you have to search a little to see with what."
+  },
+  {
+   "type": "find",
+   "text": "She has her own opera glasses. Where are they?",
+   "spots": [
+    {
+     "x": 0.2,
+     "y": 0.85,
+     "zoom": 3.2,
+     "r": 0.09,
+     "title": "Lowered glasses",
+     "text": "A small gold pair, held loosely in her white-gloved hand on the ledge, below a gold bracelet. She has put them down. Her part tonight is to be looked at."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Visitors in 1874 were not sure what to make of her. Was she an elegant lady with her husband, or a cocotte, the Parisian word for a kept woman dressed above her station? The heavy makeup and the avalanche of pearls kept critics guessing, and Renoir never settled the question."
+  },
+  {
+   "type": "fact",
+   "text": "Neither of them was a theatergoer that day. Renoir posed the scene in his studio. The woman was Nini Lopez, a favorite model from Montmartre, and the gentleman behind her was the painter's younger brother Edmond, a journalist."
+  },
+  {
+   "type": "text",
+   "text": "Then there is the black. Impressionist painters are famous for banning black from their palettes and mixing shadows from blues and violets. Renoir did the opposite here. A saying attributed to him calls black the queen of colors, and this dress is his proof."
+  },
+  {
+   "type": "tour",
+   "title": "Sharp and soft",
+   "text": "Renoir spends his precision on her and almost none on him.",
+   "spots": [
+    {
+     "x": 0.38,
+     "y": 0.28,
+     "zoom": 3,
+     "r": 0.11,
+     "title": "Her face",
+     "text": "Powder-white skin, blue-shadowed eyes, a small red mouth, an earring catching the light. It is the most finished area of the canvas, and the only place where every edge is clear."
+    },
+    {
+     "x": 0.2,
+     "y": 0.6,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The stripes",
+     "text": "Each black band is laid on in long liquid strokes over white and pale blue. The edges stay soft and feathery, so the fabric seems to shift as she breathes."
+    },
+    {
+     "x": 0.47,
+     "y": 0.63,
+     "zoom": 3,
+     "r": 0.1,
+     "title": "The corsage",
+     "text": "Pink roses and dark leaves pinned at her bodice, made of a few thick dabs. Another rose sits in her hair. Close up they are almost abstract."
+    },
+    {
+     "x": 0.7,
+     "y": 0.17,
+     "zoom": 2.8,
+     "r": 0.12,
+     "title": "Edmond",
+     "text": "His face is half hidden by the binoculars and left blurry on purpose, a few strokes of shadow, mustache and white glove. He is a supporting actor."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "La Loge turns the spectators into the spectacle. In modern Paris, Renoir suggests, looking at each other had become the real entertainment."
+  },
+  {
+   "type": "text",
+   "text": "The picture hung at a historic event: the first exhibition of the group soon to be called the Impressionists, which opened in April 1874 in the former studio of the photographer Nadar. Most of the works there were mocked. This one, with its recognizable subject and its glamour, was among the few that reviewers liked."
+  },
+  {
+   "type": "fact",
+   "text": "Praise did not find it a buyer at the show. Renoir ended up letting it go to a small dealer known as père Martin for 425 francs. He later said that was exactly the sum he owed for his rent."
+  },
+  {
+   "type": "text",
+   "text": "In 1925 the English industrialist Samuel Courtauld bought La Loge for the collection that became London's Courtauld Gallery. His fortune came from manufacturing rayon, an artificial silk. A fabric maker had spent his money on a picture that is mostly painted fabric."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the man in the box looking at?",
+   "options": [
+    "The stage below",
+    "Other spectators, higher up in the theater",
+    "The woman beside him"
+   ],
+   "answer": 1,
+   "explanation": "His opera glasses point up and sideways, toward the other boxes."
+  },
+  {
+   "question": "Who posed as the gentleman?",
+   "options": [
+    "Renoir's brother Edmond",
+    "The dealer père Martin",
+    "The photographer Nadar"
+   ],
+   "answer": 0,
+   "explanation": "Edmond Renoir, a journalist, modeled in his brother's studio."
+  },
+  {
+   "question": "What is unusual about Renoir's use of color here?",
+   "options": [
+    "He uses no white at all",
+    "He paints everything in red",
+    "He relies heavily on black, which Impressionists usually avoided"
+   ],
+   "answer": 2,
+   "explanation": "The striped dress is built on bold black bands."
+  },
+  {
+   "question": "Where was La Loge first shown?",
+   "options": [
+    "At the first Impressionist exhibition in 1874",
+    "At the Paris Opera",
+    "At the Courtauld Gallery"
+   ],
+   "answer": 0,
+   "explanation": "It hung in Nadar's former studio in April 1874."
+  },
+  {
+   "question": "Where are the woman's opera glasses?",
+   "options": [
+    "Raised to her eyes",
+    "In her gloved hand, resting on the ledge",
+    "On the man's lap"
+   ],
+   "answer": 1,
+   "explanation": "She has lowered them: she is there to be seen."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Renoir painted the couple from life during a performance.",
+   "isTrue": false,
+   "explanation": "The scene was posed in his studio with a model and his brother."
+  },
+  {
+   "text": "Renoir sold the painting for 425 francs, the amount of his rent.",
+   "isTrue": true,
+   "explanation": "A small dealer called père Martin bought it for that sum."
+  },
+  {
+   "text": "In 1870s Paris, theater auditoriums stayed lit during the show.",
+   "isTrue": true,
+   "explanation": "That is why boxes were places to be seen as much as to watch."
+  }
+ ]
+}

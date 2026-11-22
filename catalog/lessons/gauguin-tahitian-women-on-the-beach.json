@@ -1,0 +1,195 @@
+{
+ "teaser": "Two women, one small canvas, and two ways of dressing that tell the story of an island.",
+ "focus": [
+  0.6,
+  0.3
+ ],
+ "review_notes": "Dimensions given as about 69 x 91 cm.\nDrouot auction of February 1891 raising almost 10,000 francs.\nDeparture from Marseille 1 April 1891, arrival in Papeete 9 June 1891; King Pomare V died a few days later.\nClaim that pareo cloth was printed in European mills and imported.\nSecond version: Parau api, 1892, Dresden, where the right-hand woman wears a pareo instead of the pink dress.\nThe small object on the sand is described here only as a small box (often said to be a matchbox).",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is about 69 centimeters high and 91 wide (27 by 36 inches). You could carry it under one arm. Yet the two women sit so close to us that the painting cannot hold them: a knee, a foot and the top of a head run off the edges."
+  },
+  {
+   "type": "text",
+   "text": "Paul Gauguin painted it in 1891, a few months after stepping off the boat in Tahiti. He was 43, a former stockbroker who had left his job, then his family, then Europe, convinced that painting had grown tired and that he would find something fresher on the far side of the world."
+  },
+  {
+   "type": "fact",
+   "text": "To pay for the trip, Gauguin auctioned about thirty of his paintings in Paris in February 1891. The sale brought in almost 10,000 francs. The voyage from Marseille then took more than two months."
+  },
+  {
+   "type": "text",
+   "text": "What he found was not the untouched paradise he had imagined. Tahiti had been a French colony for a decade, and missionaries had been at work there for much longer. You can read that history in the clothes of the two women, if you compare them."
+  },
+  {
+   "type": "tour",
+   "title": "Two ways of dressing",
+   "text": "Same beach, same afternoon, two very different outfits.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.52,
+     "zoom": 2.0,
+     "r": 0.17,
+     "title": "The pareo",
+     "text": "A length of cotton wrapped around the body, bright red with big white flowers. It looks purely Polynesian, but by 1891 this kind of cloth was printed in European mills and shipped to the islands."
+    },
+    {
+     "x": 0.8,
+     "y": 0.5,
+     "zoom": 1.7,
+     "r": 0.2,
+     "title": "The mission dress",
+     "text": "A long, loose, high-necked gown with sleeves to the wrist. Missionaries brought this style to the Pacific to cover women's bodies. Gauguin paints it in pinks and violets with visible, sweeping strokes."
+    },
+    {
+     "x": 0.75,
+     "y": 0.2,
+     "zoom": 3.0,
+     "r": 0.09,
+     "title": "A sideways glance",
+     "text": "Her head is turned one way, her eyes slide the other. She does not look at the painter, or at her companion. The expression is hard to name: bored, wary, somewhere else."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the picture is quieter and more honest than the dream that brought him there. Neither woman smiles or poses. One looks down at the sand, the other looks away. Gauguin spoke little Tahitian in those first months, and the painting keeps that distance: he is close enough to touch them and still outside their thoughts."
+  },
+  {
+   "type": "text",
+   "text": "He was just as interested in how to build the picture. Behind the women there is no deep space, no sky, no distant boat. Where you would expect a view, he stacks colors like strips of cloth."
+  },
+  {
+   "type": "lines",
+   "text": "Follow the background from the sand up to the top edge.",
+   "lines": [
+    {
+     "points": [
+      [
+       0,
+       0.27
+      ],
+      [
+       1,
+       0.27
+      ]
+     ],
+     "closed": false,
+     "label": "Where the sand stops",
+     "text": "The yellow beach ends in a straight edge, right behind the women's shoulders. No shadow, no gradual fade: one color simply meets the next."
+    },
+    {
+     "points": [
+      [
+       0,
+       0.2
+      ],
+      [
+       1,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "A dark strip",
+     "text": "Above the sand lies a band of near-black blue. It is water, but painted as a flat ribbon with almost no ripples."
+    },
+    {
+     "points": [
+      [
+       0,
+       0.11
+      ],
+      [
+       1,
+       0.11
+      ]
+     ],
+     "closed": false,
+     "label": "Green, then deep sea",
+     "text": "A band of flat green, then dark sea again with thin white streaks for breaking waves. The horizon sits so high that the sky never appears."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Gauguin flattens the world into bands and patches of strong color with clear edges. The picture stops pretending to be a window and admits it is a surface."
+  },
+  {
+   "type": "text",
+   "text": "This was the lesson he had worked out in Brittany before leaving, partly from Japanese woodblock prints, which were flat, cropped and boldly outlined. Tahiti gave him new colors to try it on. Notice how the red pareo and the pink dress almost clash, and how little modeling, meaning shading that makes a form look round, he uses on the cloth."
+  },
+  {
+   "type": "fact",
+   "text": "Gauguin landed in Papeete in June 1891. A few days later Pomare V, the last king of Tahiti, died. Gauguin watched the funeral and felt he had arrived just as the old island was ending."
+  },
+  {
+   "type": "text",
+   "text": "A year later he painted the same two women again. In that second version the pink mission dress is gone, replaced by a pareo. It is a small change, and a telling one: he was already editing Tahiti to look more like the place he had hoped to find."
+  },
+  {
+   "type": "text",
+   "text": "The first version, the one you have been looking at, went back to France and now hangs in the Musée d'Orsay in Paris. Stand in front of it and the size surprises people. They expect something monumental. It is the women who are monumental, not the canvas."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does the high-necked pink dress tell you about Tahiti in 1891?",
+   "options": [
+    "That missionaries had changed how women dressed",
+    "That the woman was a member of the royal family",
+    "That Gauguin brought costumes from Paris"
+   ],
+   "answer": 0,
+   "explanation": "The long, loose gown was a style introduced by missionaries to cover women's bodies."
+  },
+  {
+   "question": "How does Gauguin paint the background behind the two women?",
+   "options": [
+    "As a deep view with a wide sky",
+    "As a blur of small dots",
+    "As flat horizontal bands of color"
+   ],
+   "answer": 2,
+   "explanation": "Sand, dark water, green and sea are stacked as strips, with no sky at all."
+  },
+  {
+   "question": "How did Gauguin raise money for his trip?",
+   "options": [
+    "He sold his house in Brittany",
+    "He auctioned about thirty paintings in Paris",
+    "He was given a prize by a museum"
+   ],
+   "answer": 1,
+   "explanation": "A sale of his paintings in February 1891 brought in almost 10,000 francs."
+  },
+  {
+   "question": "What changed when he painted the two women again a year later?",
+   "options": [
+    "The pink mission dress was replaced by a pareo",
+    "The beach became a forest",
+    "A third woman was added"
+   ],
+   "answer": 0,
+   "explanation": "In the second version the right-hand woman wears a pareo."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting is huge, more than two meters wide.",
+   "isTrue": false,
+   "explanation": "It is only about 69 by 91 centimeters, which is why the women seem to burst out of it."
+  },
+  {
+   "text": "The sky takes up the top third of the picture.",
+   "isTrue": false,
+   "explanation": "There is no sky: the horizon is pushed so high that only bands of sand and water appear."
+  },
+  {
+   "text": "Gauguin had worked as a stockbroker before becoming a full-time painter.",
+   "isTrue": true,
+   "explanation": "He left the stock exchange, and later his family and Europe, to paint."
+  }
+ ]
+}

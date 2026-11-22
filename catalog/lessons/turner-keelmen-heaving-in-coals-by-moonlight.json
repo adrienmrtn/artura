@@ -1,0 +1,295 @@
+{
+ "teaser": "A factory owner asked for a picture of men shoveling coal at night. Turner gave him the moon.",
+ "focus": [
+  0.36,
+  0.37
+ ],
+ "review_notes": "Commission by Henry McConnel, Manchester cotton manufacturer, as a companion to Turner's Venice picture of 1834 (both now National Gallery of Art, Washington).\nA keel's load of roughly 20 tons of coal.\nThe flat floating object at lower center right (about 0.71, 0.84) is described neutrally as a float with a figure on it; its exact nature is unclear in this image.\nThe scene is the River Tyne near Shields, based on an earlier Turner watercolor.\nMoon painted in thick raised paint: visible in close photographs, worth confirming.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "What do you look at first when a picture has both a full moon and a fire in it? Try it here before reading on. Most eyes go straight to the cool white disc in the sky, and only later drift to the hot orange flares on the right. Turner is counting on that order."
+  },
+  {
+   "type": "text",
+   "text": "The fires are where the title is. Keelmen were the laborers of the River Tyne in northeast England. They ferried coal downriver from the mines in wide, flat-bottomed barges called keels, then shoveled it by hand into the seagoing ships that would carry it to London. Each keel held about 20 tons. The work went on through the night."
+  },
+  {
+   "type": "text",
+   "text": "The painting was ordered in 1835 by Henry McConnel, who owned cotton mills in Manchester. His machines ran on exactly this coal. A year earlier he had bought a sunny Turner view of Venice, a city of palaces whose trading power was long gone. Now he wanted a partner for it."
+  },
+  {
+   "type": "key",
+   "text": "Hung side by side, the two pictures made an argument: Venice dozing in daylight, its glory past, and Britain awake at midnight, working. Coal was the new gold."
+  },
+  {
+   "type": "text",
+   "text": "Yet Turner gives the workers a corner and hands the middle of the canvas to empty light. The composition is close to a stage with the curtains drawn back."
+  },
+  {
+   "type": "lines",
+   "text": "Three shapes organize the night.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.36,
+       0.37
+      ],
+      [
+       0.25,
+       0.25
+      ],
+      [
+       0.36,
+       0.14
+      ],
+      [
+       0.5,
+       0.22
+      ],
+      [
+       0.55,
+       0.4
+      ],
+      [
+       0.5,
+       0.58
+      ],
+      [
+       0.36,
+       0.63
+      ],
+      [
+       0.22,
+       0.58
+      ],
+      [
+       0.17,
+       0.4
+      ]
+     ],
+     "closed": true,
+     "label": "The halo",
+     "text": "Around the moon, the sky opens into a great pale oval. The clouds are brushed in rings, so the light seems to push outward from the center."
+    },
+    {
+     "points": [
+      [
+       0.36,
+       0.4
+      ],
+      [
+       0.35,
+       0.62
+      ],
+      [
+       0.35,
+       0.98
+      ]
+     ],
+     "closed": false,
+     "label": "The silver road",
+     "text": "Straight below the moon, its reflection runs down the river to the bottom edge. It is a path nobody is using."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.3
+      ],
+      [
+       0.1,
+       0.52
+      ],
+      [
+       0.2,
+       0.6
+      ],
+      [
+       0.36,
+       0.65
+      ],
+      [
+       0.6,
+       0.63
+      ],
+      [
+       0.75,
+       0.4
+      ],
+      [
+       0.97,
+       0.15
+      ]
+     ],
+     "closed": false,
+     "label": "Two dark wings",
+     "text": "Ships close in from both sides, their masts stepping down toward the middle. They frame the glow like the sides of a tunnel."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Everything in that tunnel is cold: blue, silver, pale yellow. The warm colors are all packed into the right-hand quarter, where the ships are darkest and the smoke is thickest. That is where the men are, and in the gloom they take some finding."
+  },
+  {
+   "type": "find",
+   "text": "Flares are burning among the ships on the right. Can you spot a keelman standing in front of one?",
+   "spots": [
+    {
+     "x": 0.872,
+     "y": 0.71,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "A man at work",
+     "text": "A black upright figure stands on a low barge, cut out against the torchlight. Around him, stooped shapes are shoveling. Turner shows the keelmen only as silhouettes."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "No faces, no muscles, no heroics. The men are reduced to outlines by their own lamps, and the coal they move is invisible, black on black. What you can see is its effect: orange fire, brown smoke climbing into the blue and smearing the clean sky. The industry announces itself as a stain on the moonlight."
+  },
+  {
+   "type": "fact",
+   "text": "The moon is the thickest spot of paint on the canvas. Turner built it up as a raised white disc, so in the gallery it catches real light from the room and shines a little, like a tiny relief sculpture."
+  },
+  {
+   "type": "text",
+   "text": "He knew this river well. Years earlier he had made a watercolor of the same stretch of the Tyne for a series on England's rivers, and he reused it as his starting point. By 1835 the keelmen's trade was already shrinking, as new loading docks let coal pour from railway wagons straight into ships."
+  },
+  {
+   "type": "fact",
+   "text": "The pair is still a pair. McConnel's Venice picture and his Tyne picture both ended up, more than a century later, in the National Gallery of Art in Washington, where you can compare sunlit Italy with moonlit England for yourself."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.97,
+     "y": 0.655,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The brightest flare",
+     "text": "A torch blazes white-hot at its core with a red cloud of lit smoke around it. It is the warmest point in the picture, pushed almost off the edge."
+    },
+    {
+     "x": 0.782,
+     "y": 0.68,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "A second torch",
+     "text": "A smaller yellow lamp glows under the hull of a dark ship, its light trembling on the water below."
+    },
+    {
+     "x": 0.712,
+     "y": 0.843,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The float",
+     "text": "A flat, pale object drifts in the foreground with a small dark figure crouched on it, caught between the moon's light and the torches'."
+    },
+    {
+     "x": 0.19,
+     "y": 0.78,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Buoys",
+     "text": "Two round floats sit dark in the bright water, marking the channel. Their hard edges make the shimmer around them look even softer."
+    },
+    {
+     "x": 0.06,
+     "y": 0.55,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "Ships under sail",
+     "text": "On the cool side of the river, tall ships hang in the still air with their pale sails set, waiting for cargo or wind.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.52,
+     "y": 0.635,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "A far-off ship",
+     "text": "At the end of the tunnel of light, a tiny vessel sits on the horizon. It shows how far the river runs before it reaches the sea.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So which is the subject, the moon or the men? McConnel paid for a picture of labor and received one where labor is a glow at the margin of a vast, calm night. Whether that honors the keelmen or hides them is still up to you."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What was a keelman's job?",
+   "options": [
+    "Building ships",
+    "Ferrying coal by barge and shoveling it into seagoing ships",
+    "Guiding ships with lanterns"
+   ],
+   "answer": 1,
+   "explanation": "Keelmen carried coal down the Tyne in flat barges and loaded it by hand."
+  },
+  {
+   "question": "Who commissioned the painting?",
+   "options": [
+    "A Manchester cotton mill owner",
+    "The Royal Navy",
+    "A coal miners' union"
+   ],
+   "answer": 0,
+   "explanation": "Henry McConnel, whose mills ran on coal, ordered it."
+  },
+  {
+   "question": "Which painting was it made to hang beside?",
+   "options": [
+    "A storm at sea",
+    "A portrait of the patron",
+    "A sunlit view of Venice"
+   ],
+   "answer": 2,
+   "explanation": "It was a partner to a Turner view of Venice bought the year before."
+  },
+  {
+   "question": "How are the keelmen shown?",
+   "options": [
+    "As detailed portraits",
+    "As dark silhouettes against torchlight",
+    "They are not in the picture at all"
+   ],
+   "answer": 1,
+   "explanation": "They appear only as black outlines in front of the flares."
+  },
+  {
+   "question": "Where are the warm colors concentrated?",
+   "options": [
+    "In the right-hand quarter, around the torches",
+    "Around the moon",
+    "Along the bottom edge"
+   ],
+   "answer": 0,
+   "explanation": "The orange fire and brown smoke are packed into the right side."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The moon is painted more thinly than anything else in the picture.",
+   "isTrue": false,
+   "explanation": "It is the thickest spot of paint, built up as a raised white disc."
+  },
+  {
+   "text": "The river in the painting is the Tyne, in northeast England.",
+   "isTrue": true,
+   "explanation": "Keelmen worked the Tyne, carrying coal down to the ships."
+  },
+  {
+   "text": "The coal being loaded was destined for London.",
+   "isTrue": true,
+   "explanation": "Seagoing ships carried the Tyne's coal to London."
+  }
+ ]
+}

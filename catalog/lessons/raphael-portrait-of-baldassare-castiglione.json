@@ -1,0 +1,40 @@
+{
+  "teaser": "A man in gray fur turns to hear what you just said. Rembrandt couldn't stop thinking about him.",
+  "focus": [0.47, 0.33],
+  "review_notes": "Date around 1514-1515; canvas about 82 x 67 cm.\nCastiglione's Latin elegy, written in the voice of his wife Ippolita and mentioning their small son greeting the portrait: well attested.\nFur identified as gray squirrel: the usual description.\nRaphael's drawing after the Mona Lisa (Louvre) supports the link to Leonardo.\nRembrandt's sketch at the 1639 Amsterdam sale, his note of 3,500 guilders, and the 1640 self-portrait in London.\nEntered the French royal collection under Louis XIV in 1661.\nThe gold object at the lower center is described only as a gold fastening.",
+  "lesson": [
+    {"type": "text", "text": "You have just said something to this man. He was sitting half turned away, hands folded, and now his head has come around and his eyes have found yours. He has not answered yet. The whole portrait lives in that half second between hearing and replying."},
+    {"type": "text", "text": "His name is Baldassare Castiglione. Around 1514 he was in Rome as ambassador for the Duke of Urbino, the small hill town where Raphael was born. The two men were close friends. So this is something rare for the time: a portrait made out of affection as much as for a fee."},
+    {"type": "fact", "text": "Castiglione wrote one of the bestsellers of the 1500s, The Book of the Courtier, a guide to behaving well at court. Its most famous word is “sprezzatura”: the art of doing difficult things as if they cost you no effort at all."},
+    {"type": "text", "text": "His book also gives advice on clothes. A gentleman, it says, should dress soberly, in black or dark colors, and leave the peacock outfits to others. Raphael paints his friend exactly as he preached, in winter dress. Then he sets himself a challenge: a whole picture in black, gray, white and beige."},
+    {"type": "tour", "title": "Four textures", "text": "With color nearly switched off, Raphael makes each surface feel different to the touch.", "spots": [
+      {"x": 0.465, "y": 0.31, "zoom": 3.6, "r": 0.1, "title": "The eyes", "text": "Clear blue, the only cool, bright color on the canvas. Each has a tiny point of white light. Around them, fine lines and slightly reddened lids: this is a man of about 36, not an ideal."},
+      {"x": 0.5, "y": 0.22, "zoom": 2.2, "r": 0.22, "title": "The black hat", "text": "A soft cap over a wide beret, cut with notches. Its dark outline against the pale wall works like a frame around the face. On the left sits a small badge."},
+      {"x": 0.7, "y": 0.73, "zoom": 2.2, "r": 0.2, "title": "Gray fur", "text": "The puffed sleeve is squirrel fur, brushed in long, loose, silvery strokes. You can almost feel the nap change direction where the sleeve bends."},
+      {"x": 0.2, "y": 0.945, "zoom": 3.2, "r": 0.1, "title": "The hands", "text": "Clasped, relaxed, and sliced through by the bottom edge. Because they are cut off, he seems to sit very near us, on our side of the frame."}
+    ]},
+    {"type": "text", "text": "Now think about what is missing. No column, no curtain, no window with a view, no coat of arms. Behind him there is only a warm, empty wall, lit from the left. Nothing tells you his rank. You are left alone with a face, which is what makes the picture feel so modern."},
+    {"type": "key", "text": "Restraint can be richer than display. By limiting himself to a few quiet tones, Raphael makes you notice everything else: the softness of fur, the depth of velvet, and above all the intelligence in a look."},
+    {"type": "text", "text": "The pose has a famous ancestor. Ten years earlier in Florence, Raphael had made a drawing of Leonardo's Mona Lisa: body turned three quarters, hands folded low, head toward the viewer. He borrows that arrangement here and removes the landscape and the mystery. Castiglione is simply present."},
+    {"type": "fact", "text": "While Castiglione was away on missions, the portrait stayed home with his family. He wrote a poem in Latin in which his wife speaks: she talks to the picture, jokes with it, and their little son recognizes it and greets his father."},
+    {"type": "text", "text": "It is painted on canvas, not on the wooden panels Raphael normally used, and it is small: about 82 by 67 centimeters (32 by 26 inches). The weave of the cloth shows through the thin paint and adds to the matte, velvety look. In all that soft gray he allowed himself a single hard glint."},
+    {"type": "find", "text": "Somewhere on his clothes, Raphael placed one small spot of shining gold. Can you spot it?", "spots": [
+      {"x": 0.438, "y": 0.877, "zoom": 4, "r": 0.05, "title": "A gold fastening", "text": "A round gold ornament, half hidden between the fur and the black sleeve, with one bright highlight. It is the only jewelry in sight, and it whispers."}
+    ]},
+    {"type": "text", "text": "That hidden glint is sprezzatura in paint: wealth that does not insist. Painters understood the lesson. In 1639 the portrait came up at an auction in Amsterdam, and a local artist in the crowd pulled out his pen and sketched it on the spot."},
+    {"type": "fact", "text": "The artist was Rembrandt. On his quick drawing he noted the sale price, 3,500 guilders, a very large sum. The following year he painted himself in the same pose, arm on a ledge, beret on his head, looking out like Castiglione."},
+    {"type": "text", "text": "The buyer took the picture to Paris, and in 1661 it entered the collection of King Louis XIV. It has been in the Louvre ever since, and painters have kept on copying it. Five hundred years later the man in gray is still turning toward you. What would you say to keep him listening?"}
+  ],
+  "quiz": [
+    {"question": "What does “sprezzatura” mean?", "options": ["Making hard things look effortless", "Painting with very thick paint", "A portrait shown in profile"], "answer": 0, "explanation": "Castiglione's book praised the art of hiding effort."},
+    {"question": "Which is the only cool, bright color in the portrait?", "options": ["The red of his lips", "The blue of his eyes", "The green of the wall"], "answer": 1, "explanation": "Everything else is black, gray, white or beige."},
+    {"question": "Which earlier painting inspired the pose?", "options": ["Michelangelo's Doni Tondo", "Botticelli's Birth of Venus", "Leonardo's Mona Lisa"], "answer": 2, "explanation": "Raphael had drawn the Mona Lisa in Florence and reused its turn of the body and folded hands."},
+    {"question": "Who sketched the portrait at an auction in 1639?", "options": ["Rubens", "Rembrandt", "Vermeer"], "answer": 1, "explanation": "Rembrandt drew it in Amsterdam and noted the price on the sheet."},
+    {"question": "What is behind Castiglione?", "options": ["A plain, warm, empty wall", "A view of Urbino", "A red curtain and a column"], "answer": 0, "explanation": "Raphael left out every prop so that only the man remains."}
+  ],
+  "facts": [
+    {"text": "The portrait is painted on canvas.", "isTrue": true, "explanation": "Unusually for Raphael, who mostly used wooden panels, and the weave shows through."},
+    {"text": "Castiglione wears bright red and gold to show his rank.", "isTrue": false, "explanation": "He wears sober black, gray fur and white, as his own book advised."},
+    {"text": "Raphael and Castiglione barely knew each other.", "isTrue": false, "explanation": "They were close friends, both tied to the court of Urbino."}
+  ]
+}

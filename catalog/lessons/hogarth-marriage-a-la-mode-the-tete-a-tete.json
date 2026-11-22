@@ -1,0 +1,285 @@
+{
+ "teaser": "Breakfast after noon, a dog sniffing a pocket, a broken sword: a marriage read like a crime scene.",
+ "focus": [
+  0.72,
+  0.5
+ ],
+ "review_notes": "1751 sale: John Lane of Hillingdon obtained the six paintings for 120 guineas (126 pounds) as effectively the only bidder; date usually given as 6 June 1751.\nThe husband is called Viscount Squanderfield in the series (name from scene 1 and later commentary).\nThe object the wife holds above her head is often read as a pocket mirror; left vague in the lesson.\nClock reads roughly 12:20; described only as 'past noon'.\nBook on the floor identified as Hoyle on whist (1742) per National Gallery.\nSeries entered the National Gallery with the Angerstein collection in 1824.\nBlack patch as sign of venereal disease: standard reading.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "In June 1751 William Hogarth put six paintings up for sale and waited for the bidders. One man turned up ready to buy. John Lane walked away with all six for 126 pounds, a price that humiliated the most famous artist in London. This is the second of those six pictures."
+  },
+  {
+   "type": "text",
+   "text": "The flop is strange, because the story was already a hit. Hogarth made his money from engravings, prints pulled in large numbers from copper plates, and the prints of this series had sold very well in 1745. People loved the tale: a bankrupt earl marries his son to a rich merchant's daughter. He gets money, she gets a title, nobody gets love."
+  },
+  {
+   "type": "text",
+   "text": "Scene one was the contract. Here, a few months later, we are in the couple's fine new London house. The title means a private chat, literally “head to head” in French. Before reading the faces, check the hour."
+  },
+  {
+   "type": "find",
+   "text": "A clock in this room tells you how late the day already is. Where is it?",
+   "spots": [
+    {
+     "x": 0.93,
+     "y": 0.19,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "Past noon",
+     "text": "A gilt clock sits in a tangle of green leaves, with a cat above it, fish beside it and a fat little idol below. Its hands show that midday has passed. Breakfast is only now on the table."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Past noon, and the candles in the back room have burned all night. Nobody in this house went to bed at a decent hour, and the two of them did not spend the night together. Their bodies say the rest."
+  },
+  {
+   "type": "tour",
+   "title": "Three bodies, three moods",
+   "text": "No one in this room is speaking to anyone else.",
+   "spots": [
+    {
+     "x": 0.86,
+     "y": 0.55,
+     "zoom": 2,
+     "r": 0.14,
+     "title": "The husband",
+     "text": "Hat still on, hands deep in his pockets, legs flung out, he stares at nothing. He has just come home, exhausted and probably hung over.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.71,
+     "y": 0.46,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The wife",
+     "text": "She stretches and yawns, with a sideways glance at her husband that is more amused than worried. She has had her own long night."
+    },
+    {
+     "x": 0.12,
+     "y": 0.48,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The steward",
+     "text": "The man who keeps the accounts gives up. He raises his eyes and one hand to heaven and leaves with a fistful of bills. Only one of them has been paid.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Hogarth named his characters like labels on jars. The young husband is Viscount Squanderfield: to squander is to waste money."
+  },
+  {
+   "type": "text",
+   "text": "Where has the viscount been? Hogarth never tells you in words. He leaves clues around the armchair, as a crime writer would, and gives the job of detective to the smallest character in the room."
+  },
+  {
+   "type": "tour",
+   "title": "The evidence",
+   "text": "Three clues, all within reach of the husband's chair.",
+   "spots": [
+    {
+     "x": 0.905,
+     "y": 0.71,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The dog's discovery",
+     "text": "A little dog stretches up to sniff at his coat pocket. Poking out of it is a woman's lace cap. It does not belong to his wife."
+    },
+    {
+     "x": 0.81,
+     "y": 0.89,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The sword",
+     "text": "His sword lies on the carpet, still in its scabbard and snapped. There was a brawl last night, and he did not win it."
+    },
+    {
+     "x": 0.885,
+     "y": 0.475,
+     "zoom": 4.2,
+     "r": 0.04,
+     "title": "A black spot",
+     "text": "Just under his ear is a round black patch. Across the series this mark hints at syphilis, a sexual disease then treated with mercury.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Hogarth tells stories without a narrator. Objects do the talking, and you become the detective."
+  },
+  {
+   "type": "text",
+   "text": "Her night left traces too. In the far room a servant yawns among chairs pushed about. Playing cards litter the floor. Near her feet lies a book on how to win at whist, a card game for money. In front, a chair has been knocked over with the music books and violin cases still on it."
+  },
+  {
+   "type": "fact",
+   "text": "That card book was real and brand new. Edmond Hoyle's guide to whist came out in 1742 and sold so well that English speakers still say “according to Hoyle” to mean “by the rules.”"
+  },
+  {
+   "type": "text",
+   "text": "There is a third target: taste. The rooms follow the grand Italian-inspired style that rich Londoners adored, and they are stuffed with expensive imports. Hogarth, who thought English buyers were being fleeced by dealers in foreign art, had fun with every shelf. Wander around it yourself."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.755,
+     "y": 0.25,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The Roman bust",
+     "text": "Pride of place on the mantel goes to an antique head with a broken nose. For Hogarth, damaged antiques bought at high prices summed up a collector's foolishness."
+    },
+    {
+     "x": 0.83,
+     "y": 0.32,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The figurines",
+     "text": "A crowd of squat imported figures and jars lines the shelf, bought by the dozen because they were in fashion."
+    },
+    {
+     "x": 0.77,
+     "y": 0.15,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "Cupid among ruins",
+     "text": "Over the fireplace, the god of love plays the bagpipes, sitting in rubble. Love in this house is already a ruin."
+    },
+    {
+     "x": 0.39,
+     "y": 0.28,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The curtained picture",
+     "text": "Next to three solemn saints hangs a canvas so indecent it is kept behind a green curtain. Only a bare foot sticks out."
+    },
+    {
+     "x": 0.43,
+     "y": 0.44,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The yawning servant",
+     "text": "A footman in a nightcap stretches and yawns. Last night's party kept the whole household up."
+    },
+    {
+     "x": 0.46,
+     "y": 0.81,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Hoyle on the floor",
+     "text": "The whist manual lies open where it fell, near the wife's slipper."
+    },
+    {
+     "x": 0.2,
+     "y": 0.9,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "Music on the carpet",
+     "text": "Violin cases and an open music book lie beside the upturned chair. In older pictures, a couple making music meant harmony. Here the instruments are shut."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "For all the mockery, notice how lovely the paint is: her pink skirt, the silvery tablecloth, the soft greens of the wall. Hogarth attacked French fashion and painted in a light, pretty manner learned from French artists. He even hired engravers from Paris to make the prints, because they were the best."
+  },
+  {
+   "type": "fact",
+   "text": "Hogarth was so often copied by pirate printers that he lobbied Parliament for protection. The Engravers' Copyright Act of 1735 is still nicknamed Hogarth's Act."
+  },
+  {
+   "type": "text",
+   "text": "The story ends badly in four more scenes. The wife takes a lover, the lover kills the viscount, the lover is hanged, and she swallows poison. “À la mode” means “in fashion”: Hogarth's point is that marrying for rank and cash was the fashion, and that it killed people."
+  },
+  {
+   "type": "text",
+   "text": "The six pictures had a happier fate than their characters. In 1824, when Britain bought the first paintings for its new National Gallery, the series that had drawn a single buyer in 1751 was among them. It has hung there ever since."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did the sale of the six paintings go in 1751?",
+   "options": [
+    "They sparked a bidding war",
+    "A single buyer got all six cheaply",
+    "They were seized by the king"
+   ],
+   "answer": 1,
+   "explanation": "John Lane bought the whole series for 126 pounds."
+  },
+  {
+   "question": "What gives away the husband's night out?",
+   "options": [
+    "A letter on the table",
+    "A woman's cap in his pocket, sniffed by the dog",
+    "A portrait of his mistress on the wall"
+   ],
+   "answer": 1,
+   "explanation": "The dog noses at a lace cap that is not his wife's."
+  },
+  {
+   "question": "What does the title phrase “tête à tête” literally mean?",
+   "options": [
+    "Head to head",
+    "Late breakfast",
+    "Marriage of fashion"
+   ],
+   "answer": 0,
+   "explanation": "It is French for a private conversation, which this couple is not having."
+  },
+  {
+   "question": "What is the steward carrying as he leaves?",
+   "options": [
+    "A tray of tea",
+    "A stack of unpaid bills",
+    "The wife's jewels"
+   ],
+   "answer": 1,
+   "explanation": "He walks out in despair with the household bills."
+  },
+  {
+   "question": "Where did Hogarth earn most of his money?",
+   "options": [
+    "From selling engravings",
+    "From royal portraits",
+    "From teaching at a university"
+   ],
+   "answer": 0,
+   "explanation": "He sold prints in large numbers; the paintings themselves sold poorly."
+  },
+  {
+   "question": "Why is one picture in the far room kept behind a curtain?",
+   "options": [
+    "It is unfinished",
+    "It is too indecent to show",
+    "It is a mirror"
+   ],
+   "answer": 1,
+   "explanation": "Only a bare foot peeks out of the hidden, improper painting."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The scene takes place early in the morning, at dawn.",
+   "isTrue": false,
+   "explanation": "The clock shows it is already past noon."
+  },
+  {
+   "text": "The book on the floor is a guide to the card game whist.",
+   "isTrue": true,
+   "explanation": "It is Hoyle's whist manual, first published in 1742."
+  },
+  {
+   "text": "The series ends with the couple happily reconciled.",
+   "isTrue": false,
+   "explanation": "The husband is killed by her lover and she takes poison."
+  }
+ ]
+}

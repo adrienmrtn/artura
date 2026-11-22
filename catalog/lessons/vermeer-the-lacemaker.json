@@ -1,0 +1,231 @@
+{
+ "teaser": "Two threads pulled tight, one held breath: Vermeer's smallest painting.",
+ "focus": [
+  0.52,
+  0.45
+ ],
+ "review_notes": "Size 24.5 x 21 cm; usually called Vermeer's smallest painting. Dated about 1669-1670. Canvas mounted on panel.\nThe two taut threads between her fingers are very faint in our image; the tour spot is centred on the hands and pins, not on the threads themselves.\nCamera obscura: debated, stated as unproven.\nSmall book on the table read as a prayer book or Bible: usual reading, stated as 'probably'.\nLight from the right: unusual for Vermeer, whose interiors are nearly all lit from the left.\nRenoir is reported to have called it one of the two most beautiful paintings in the world, with Watteau's Pilgrimage to Cythera (both in the Louvre): commonly repeated, source is Vollard's memoir.\nAcquired by the Louvre in 1870, the first Vermeer to enter the museum.\nDalí: permission to copy the painting in the Louvre in 1955; his version explodes into rhinoceros-horn shapes; he also took a reproduction to the rhinoceros enclosure of the Vincennes zoo in Paris. Please verify dates.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Two threads are pulled tight between her fingers. In one second she will cross the little wooden bobbins and push in another pin. Vermeer stops the clock just before that. Her lips are closed, her eyes lowered, her shoulders rounded forward. It is the instant when a person forgets everything but the tip of her own fingers."
+  },
+  {
+   "type": "text",
+   "text": "To see it you have to lean in the same way. The picture is tiny: 24.5 by 21 cm, roughly 10 by 8 inches, the smallest thing Vermeer ever painted. He made it around 1670 and came closer to his model than he ever had. She fills the frame. There is no window, no floor, no room."
+  },
+  {
+   "type": "text",
+   "text": "Getting this close caused a problem that few painters before him had bothered with. Hold a finger near your face and focus on it: the rest of the world goes soft. Vermeer paints that."
+  },
+  {
+   "type": "tour",
+   "title": "Sharp and soft",
+   "text": "Three stops, starting where her eyes are and moving toward you.",
+   "spots": [
+    {
+     "x": 0.63,
+     "y": 0.535,
+     "zoom": 3.5,
+     "r": 0.1,
+     "title": "The hands",
+     "text": "Here everything is crisp: fingernails, the pale bobbins she holds, the pins standing in the blue and pink pillow. This is the one zone in full focus."
+    },
+    {
+     "x": 0.367,
+     "y": 0.75,
+     "zoom": 3.5,
+     "r": 0.1,
+     "title": "Red thread",
+     "text": "Nearer to you, red thread pours out of a sewing cushion. It is not drawn as strands. It is trickled on like liquid, with a few bright dots."
+    },
+    {
+     "x": 0.167,
+     "y": 0.685,
+     "zoom": 3.5,
+     "r": 0.08,
+     "title": "White thread",
+     "text": "A hank of white thread hangs beside a tassel, a few loose streaks on dark blue. The foreground is one soft blur."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Painters of his day normally made every object equally sharp, near or far. Vermeer makes the foreground melt, the way it does for an eye or a lens fixed on the hands. Many historians think he studied a camera obscura, a dark box with a lens that throws an image onto a screen. No document proves it."
+  },
+  {
+   "type": "fact",
+   "text": "She is making bobbin lace. The threads are wound on small sticks, the bobbins, then crossed and twisted around pins stuck in a pillow. A collar's worth could take weeks, and fine lace cost a small fortune in the 1600s."
+  },
+  {
+   "type": "text",
+   "text": "For Dutch viewers a woman bent over needlework carried a message. She stood for diligence, the home kept in order, time not wasted. Painters often added an object to make the point about virtue plain. Vermeer adds one too, small and shut."
+  },
+  {
+   "type": "find",
+   "text": "There is a little book on the table. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.456,
+     "y": 0.663,
+     "zoom": 3.5,
+     "r": 0.07,
+     "title": "The small book",
+     "text": "A yellowish volume with dark ribbon ties lies closed beside the sewing cushion. It is probably a prayer book or a Bible. Work and prayer sit side by side."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Other artists who painted lacemakers showed the whole household: the broom, the shoes, the tiled floor. Vermeer cuts all of it away and leaves a bare gray wall. The book is the only hint of a moral. Everything else is given over to attention itself."
+  },
+  {
+   "type": "text",
+   "text": "He also changes his habits. In nearly all his interiors daylight comes from a window on the left. Here it arrives from the right and falls on her forehead and working hand. And the shapes of her body, quite simply, point where she is looking."
+  },
+  {
+   "type": "lines",
+   "text": "Why can you not help staring at her hands? Three lines lead there.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.97,
+       0.22
+      ],
+      [
+       0.6,
+       0.42
+      ]
+     ],
+     "closed": false,
+     "label": "Light from the right",
+     "text": "The light slants in from the right side. It brightens her forehead, her nose and the fingers, and leaves the back of her head in shade."
+    },
+    {
+     "points": [
+      [
+       0.47,
+       0.37
+      ],
+      [
+       0.62,
+       0.53
+      ]
+     ],
+     "closed": false,
+     "label": "Her gaze",
+     "text": "A short, steep line from her lowered eyelids to the pins. The whole picture is built on those few centimeters."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.1
+      ],
+      [
+       0.05,
+       0.6
+      ],
+      [
+       0.9,
+       0.6
+      ]
+     ],
+     "closed": true,
+     "label": "A pyramid",
+     "text": "Hair, shoulders and table form a broad triangle that rests on the tabletop. It makes a tiny picture feel solid and still."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Vermeer paints concentration by copying how concentration sees: one small zone in perfect focus, and the rest of the world dissolved."
+  },
+  {
+   "type": "fact",
+   "text": "The painter Pierre-Auguste Renoir is said to have called this one of the two most beautiful paintings in the world. The other, by Watteau, hung in the same museum."
+  },
+  {
+   "type": "text",
+   "text": "That museum is the Louvre, which bought the picture in 1870. It was the first Vermeer to enter the collection, at a time when French critics were just rediscovering a painter forgotten for two hundred years. Yellow bodice, blue cushion, red thread: the three plainest colors there are, on a surface you could cover with your hand."
+  },
+  {
+   "type": "fact",
+   "text": "Salvador Dalí was obsessed with it. In 1955 he obtained permission to set up his easel in the Louvre and copy it. What he painted was the lacemaker bursting apart into rhinoceros horns. He then took a reproduction of the picture to a Paris zoo and posed with it beside a live rhinoceros."
+  },
+  {
+   "type": "text",
+   "text": "Come back to the two threads. More than three centuries on, she still has not crossed them. The pin is not in yet. Very few paintings have made so much out of an action so small, held for so long."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which part of the painting is in sharpest focus?",
+   "options": [
+    "The red thread in front",
+    "Her hands and the pins",
+    "The wall behind her"
+   ],
+   "answer": 1,
+   "explanation": "The hands, bobbins and pins are crisp while the foreground is blurred."
+  },
+  {
+   "question": "What is a camera obscura?",
+   "options": [
+    "A dark box with a lens that projects an image",
+    "A type of magnifying glass for lace",
+    "An early photograph"
+   ],
+   "answer": 0,
+   "explanation": "It is a dark box whose lens throws an image onto a screen."
+  },
+  {
+   "question": "What does the small book on the table probably stand for?",
+   "options": [
+    "Her account book",
+    "A novel she is hiding",
+    "Prayer or faith, alongside work"
+   ],
+   "answer": 2,
+   "explanation": "It is probably a prayer book or Bible, pairing work with piety."
+  },
+  {
+   "question": "From which side does the light come?",
+   "options": [
+    "From the left, as usual in Vermeer",
+    "From the right",
+    "From a candle on the table"
+   ],
+   "answer": 1,
+   "explanation": "Unusually for Vermeer, the light falls from the right."
+  },
+  {
+   "question": "What did Dalí turn the lacemaker into in his copy?",
+   "options": [
+    "Rhinoceros horns",
+    "Melting clocks",
+    "A swarm of ants"
+   ],
+   "answer": 0,
+   "explanation": "His version shows her bursting into rhinoceros horns."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Lacemaker is the smallest painting Vermeer made.",
+   "isTrue": true,
+   "explanation": "It measures only 24.5 by 21 cm."
+  },
+  {
+   "text": "Vermeer drew every strand of the red thread with a fine brush.",
+   "isTrue": false,
+   "explanation": "The red thread is trickled on like liquid, deliberately out of focus."
+  },
+  {
+   "text": "The painting shows the whole room, with a window and a tiled floor.",
+   "isTrue": false,
+   "explanation": "Vermeer cut the room away and left only a bare wall."
+  }
+ ]
+}

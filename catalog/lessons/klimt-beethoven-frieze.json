@@ -1,0 +1,228 @@
+{
+ "teaser": "Klimt tried to paint Beethoven's Ninth Symphony on three walls. It was meant to last one summer.",
+ "focus": [
+  0.47,
+  0.33
+ ],
+ "review_notes": "The image is a view of the whole room at the Secession, so the frieze is small and partly in steep perspective; interactive blocks point only at large regions. The statues and the small bronze in the room are not part of the frieze.\nLength about 34 m, height about 2 m.\nMahler conducting an arrangement of the Ninth's finale at the opening of the 1902 exhibition: confirm.\nProvenance: Carl Reininghaus, then August Lederer (1915), seized 1938, returned after 1945 with export ban, bought by Austria 1973, on view at the Secession since 1986; restitution claim rejected 2015.\nMaterials: casein paint, gold, stucco and applied objects (mother-of-pearl, glass, buttons, curtain rings) on plaster.\nIdentification of the gold figure on the right wall as Poetry with her lyre, from a small view.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Can you paint a piece of music? Not the orchestra, not the composer at his piano, but what the music does to you over an hour: the dread, the struggle, the release at the end. In 1902 Gustav Klimt tried, with Beethoven's Ninth Symphony and three walls."
+  },
+  {
+   "type": "text",
+   "text": "The occasion was an exhibition at the Secession, the building a group of Viennese artists had put up to show art on their own terms. The whole show was a shrine to Beethoven, built around a marble statue of him by the German sculptor Max Klinger. Klimt's job was the side hall you passed through on the way."
+  },
+  {
+   "type": "text",
+   "text": "He painted a band about two meters high and 34 meters long (over 110 ft) at the top of the walls, above head height. In the photo you are standing in the room built for it today. You read it like a sentence, wall by wall."
+  },
+  {
+   "type": "lines",
+   "text": "Follow the frieze in the order Klimt intended.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.03,
+       0.13
+      ],
+      [
+       0.31,
+       0.29
+      ]
+     ],
+     "closed": false,
+     "label": "Longing",
+     "text": "The left wall. Pale figures float along a nearly empty band, then the weak beg a knight in golden armor to fight for their happiness. Notice how much bare plaster Klimt leaves."
+    },
+    {
+     "points": [
+      [
+       0.33,
+       0.33
+      ],
+      [
+       0.7,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "The enemy",
+     "text": "The short end wall, packed edge to edge. Here are the hostile forces: sickness, madness, death, lust and excess, gathered around a monster."
+    },
+    {
+     "points": [
+      [
+       0.72,
+       0.29
+      ],
+      [
+       0.97,
+       0.13
+      ]
+     ],
+     "closed": false,
+     "label": "Joy",
+     "text": "The right wall. The floating figures pass over the monsters, meet a golden figure with a lyre, and the story ends in a choir and an embrace."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Empty, then crowded, then empty again: the rhythm of the three walls works like quiet and loud passages in music. The long pale stretches are not unfinished. They are the pauses."
+  },
+  {
+   "type": "fact",
+   "text": "The frieze was made to be thrown away. Like the rest of the exhibition decor it was meant to come down when the show closed, so Klimt painted fast, straight onto cheap plaster on a wooden lattice. A collector bought it, and it was sawn off the walls in sections."
+  },
+  {
+   "type": "text",
+   "text": "Because it was temporary, Klimt allowed himself anything. Besides paint and gold he pressed real objects into the surface: mother-of-pearl, colored glass, buttons, even curtain rings. Most of that richness he spent on the wall of the enemies."
+  },
+  {
+   "type": "tour",
+   "title": "The hostile forces",
+   "text": "The end wall is the darkest and densest part of the room.",
+   "spots": [
+    {
+     "x": 0.417,
+     "y": 0.32,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Typhoeus",
+     "text": "A shaggy giant ape with a gaping mouth, taken from Greek myth, where he is a monster even the gods fear. He fills the wall from top to bottom."
+    },
+    {
+     "x": 0.365,
+     "y": 0.345,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "His daughters",
+     "text": "Three thin, pale women with snakes in their dark hair: the Gorgons. Above them hover figures of sickness, madness and death."
+    },
+    {
+     "x": 0.475,
+     "y": 0.36,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Excess",
+     "text": "A cluster of women stands for lust and wantonness. Below them, a heavy figure in a bright blue patterned skirt is Intemperance, which means too much of everything."
+    },
+    {
+     "x": 0.6,
+     "y": 0.34,
+     "zoom": 3.0,
+     "r": 0.1,
+     "title": "Wings and coils",
+     "text": "The right half of the wall is all pattern: the monster's blue feathered wings above, his serpent body below. A lone gray figure crouching inside it is called Gnawing Grief."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Visitors in 1902 were appalled. The naked, bony and sagging bodies on this wall were called obscene, and critics asked what any of it had to do with Beethoven. Klimt made you walk past the monsters to earn the beauty. One detail of the giant was even designed to follow you across the room."
+  },
+  {
+   "type": "find",
+   "text": "The ape's eyes are made of mother-of-pearl. Can you spot them shining?",
+   "spots": [
+    {
+     "x": 0.416,
+     "y": 0.275,
+     "zoom": 4.5,
+     "r": 0.03,
+     "title": "Two pale dots",
+     "text": "High on the end wall, in the dark mass of fur, two small bright points catch the light. Shell reflects more than paint, so the eyes glint as you move.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The ending, on the right wall, is a kiss. A naked couple embraces in front of a choir of women, an image of the line from the symphony's chorus that offers “this kiss to the whole world.” Six years later Klimt would return to that embrace and wrap it in gold as The Kiss."
+  },
+  {
+   "type": "fact",
+   "text": "At the opening, the composer Gustav Mahler, then director of the Vienna opera, conducted a passage from the Ninth Symphony's finale arranged for wind instruments. The exhibition drew tens of thousands of visitors."
+  },
+  {
+   "type": "text",
+   "text": "The frieze's own story was rougher. Its second owners, a Jewish family of collectors, had it seized in 1938. After the war it was returned on paper but barred from leaving Austria, and it sat in storage for decades until the state bought it in 1973. Since 1986 it has been back in the Secession, in a basement room made to its exact measure."
+  },
+  {
+   "type": "key",
+   "text": "A decoration built for one summer became Klimt's largest surviving statement: art as a path through fear toward joy, to be walked, not just looked at."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does the frieze try to translate into images?",
+   "options": [
+    "Beethoven's life story",
+    "Beethoven's Ninth Symphony",
+    "A Viennese opera"
+   ],
+   "answer": 1,
+   "explanation": "It follows the symphony's journey from longing through struggle to joy."
+  },
+  {
+   "question": "What was supposed to happen to the frieze after the 1902 exhibition?",
+   "options": [
+    "It was to be taken down and discarded",
+    "It was to move to the university",
+    "It was to be turned into a mosaic"
+   ],
+   "answer": 0,
+   "explanation": "It was temporary decor, painted on cheap plaster."
+  },
+  {
+   "question": "Which wall holds the hostile forces?",
+   "options": [
+    "The left long wall",
+    "The right long wall",
+    "The short end wall"
+   ],
+   "answer": 2,
+   "explanation": "The monsters crowd the narrow wall in the middle of the sequence."
+  },
+  {
+   "question": "What are the giant ape's eyes made of?",
+   "options": [
+    "Mother-of-pearl",
+    "Gold leaf",
+    "White paint"
+   ],
+   "answer": 0,
+   "explanation": "Klimt set real shell into the plaster so the eyes would glint."
+  },
+  {
+   "question": "How does the frieze end?",
+   "options": [
+    "With the knight killing the monster",
+    "With Beethoven's portrait",
+    "With a choir and a kissing couple"
+   ],
+   "answer": 2,
+   "explanation": "The last scene illustrates “this kiss to the whole world.”"
+  }
+ ],
+ "facts": [
+  {
+   "text": "The long empty stretches of the frieze are areas Klimt never finished.",
+   "isTrue": false,
+   "explanation": "They are deliberate pauses between the crowded scenes."
+  },
+  {
+   "text": "Klimt pressed buttons and curtain rings into the surface.",
+   "isTrue": true,
+   "explanation": "Along with glass and mother-of-pearl, they add texture and shine."
+  },
+  {
+   "text": "The frieze has hung in the Secession without interruption since 1902.",
+   "isTrue": false,
+   "explanation": "It was removed, sold, seized and stored, and only returned there in 1986."
+  }
+ ]
+}

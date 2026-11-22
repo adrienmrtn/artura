@@ -1,0 +1,39 @@
+{
+  "teaser": "One mountain, painted more than sixty times. Here a pine tree stands right in its way.",
+  "focus": [0.48, 0.4],
+  "review_notes": "Number of Sainte-Victoire works: 'more than sixty' oils and watercolors is the cautious common count (some sources say over eighty).\nThe Met dates the canvas 1882-85; viewpoint is Montbriand, the property of Cézanne's brother-in-law Maxime Conil, west of Aix.\nLetter to Zola of 14 April 1878 describing the mountain seen from the train as a 'beautiful motif'.\nMountain height about 1,011 m.\nThe viaduct carries the Aix-Marseille railway line, opened in the 1870s.\nH. O. Havemeyer Collection, bequest of Mrs. Havemeyer, 1929.\nCézanne's death in October 1906 after being caught in a storm while painting outdoors.",
+  "lesson": [
+    {"type": "text", "text": "More than sixty. That is roughly how many times Paul Cézanne painted or drew this one limestone mountain in oil and watercolor. Mont Sainte-Victoire rises about 1,000 meters (3,300 ft) above the countryside east of Aix-en-Provence, the town where he was born and where he died."},
+    {"type": "text", "text": "This is one of the early ones, from the first half of the 1880s. He set up his easel on a hill at Montbriand, a farm his sister's husband had just bought, and looked east across the valley of the Arc river. The mountain is still far off, pale and pinkish on the left. It does not dominate yet. In the late versions it will fill the canvas."},
+    {"type": "fact", "text": "Cézanne first wrote about the view from a moving train. In 1878 he told his boyhood friend, the novelist Émile Zola, that as the line crossed this valley the mountain appeared and he thought: what a beautiful motif. A motif was his word for a subject worth painting."},
+    {"type": "text", "text": "That railway is in the picture. Cézanne is often imagined as a painter of timeless nature, yet he put a piece of brand-new engineering right in the middle of his valley. It is easy to mistake for something much older."},
+    {"type": "find", "text": "A long bridge on arches carries the train across the valley. Where is it?", "spots": [
+      {"x": 0.6, "y": 0.5, "zoom": 3, "r": 0.13, "title": "The viaduct", "text": "A pale strip on a row of small arches, running to the right edge. It was a few years old, built for the Aix to Marseille line, yet it sits in the valley like a Roman aqueduct."}
+    ]},
+    {"type": "text", "text": "That calm, ancient look is no accident. Cézanne admired the classical landscapes of the seventeenth century, where every hill and temple is placed in careful order. He wanted the fresh color of the Impressionists, who painted outdoors and fast, with the solidity of those old pictures. So he arranged this view around a few firm lines."},
+    {"type": "lines", "text": "A valley organized like a building.", "lines": [
+      {"points": [[0.5, 0.2], [0.485, 0.45], [0.465, 0.85]], "closed": false, "label": "The pine", "text": "A bare trunk runs almost the full height of the canvas and splits the view in two. Most painters would have stepped aside. Cézanne made the obstacle his central pillar."},
+      {"points": [[0.48, 0.495], [0.72, 0.505], [0.96, 0.51]], "closed": false, "label": "The viaduct", "text": "A long level line crosses the trunk at a right angle. Vertical tree, horizontal bridge: the picture hangs on this cross."},
+      {"points": [[0.3, 0.6], [0.5, 0.7], [0.6, 0.82], [0.68, 0.93]], "closed": false, "label": "The road", "text": "A pale road cuts the fields on a diagonal and passes behind the trunk. It is the one line that moves, leading you from the foreground into the valley."},
+      {"points": [[0.2, 0.25], [0.27, 0.19], [0.36, 0.27], [0.55, 0.33], [0.78, 0.39]], "closed": false, "label": "The ridge", "text": "The mountain's profile climbs to its peak, then slides down in a long slope to the right, behind the pine's green crown."}
+    ]},
+    {"type": "text", "text": "Now notice what fills the spaces between those lines. The fields are small patches of green, ochre and orange, laid down in short parallel strokes that all slant the same way. The sky gets the same touch as the grass. Near and far are woven from one fabric, which is why the mountain seems both distant and pressed flat against the surface."},
+    {"type": "key", "text": "Cézanne did not copy a view. He rebuilt it stroke by stroke, so the painting holds together as a flat pattern and as a deep space at the same time."},
+    {"type": "fact", "text": "The canvas was bought by the Havemeyers, a New York sugar-refining family who were among the first Americans to collect Cézanne. It came to the Metropolitan Museum with their bequest in 1929."},
+    {"type": "text", "text": "The row of trunks on the left works like a stage curtain pulled aside. Behind them, tiny cube-shaped farmhouses dot the plain, each one a couple of strokes of cream and orange. Twenty-five years later, young painters in Paris would look at houses like these and push the idea much further. Their style got the name Cubism."},
+    {"type": "text", "text": "Cézanne kept returning to the mountain for two more decades, moving closer, loosening the strokes, until the last versions are almost mosaics of blue and green. In October 1906 he was caught in a storm while painting outdoors, collapsed on the road home, and died a few days later."},
+    {"type": "fact", "text": "The name means “Mountain of Holy Victory.” A local tradition links it to a Roman general's defeat of invading tribes on the plain below, about a hundred years before our era."}
+  ],
+  "quiz": [
+    {"question": "Roughly how many times did Cézanne paint or draw Mont Sainte-Victoire?", "options": ["About five", "More than sixty", "Exactly twelve"], "answer": 1, "explanation": "He returned to the mountain in more than sixty oils and watercolors."},
+    {"question": "What is the long arched structure in the valley?", "options": ["A railway viaduct, only a few years old", "A Roman aqueduct", "A medieval city wall"], "answer": 0, "explanation": "It carried the Aix to Marseille train line."},
+    {"question": "What did Cézanne do with the pine tree that blocks the view?", "options": ["He left it out", "He moved it to the edge", "He made it the central pillar of the picture"], "answer": 2, "explanation": "The trunk splits the canvas and crosses the viaduct at a right angle."},
+    {"question": "How are the fields painted?", "options": ["In short parallel strokes that slant the same way", "In smooth, invisible blending", "In dots of pure color"], "answer": 0, "explanation": "The same slanted touch covers fields and sky alike."},
+    {"question": "What did Cézanne mean by a “motif”?", "options": ["A decorative border", "A subject worth painting", "A musical theme"], "answer": 1, "explanation": "He used the word for a view or subject he wanted to paint."}
+  ],
+  "facts": [
+    {"text": "Cézanne first described this view after seeing it from a train.", "isTrue": true, "explanation": "He wrote to Zola about it in 1878 as the line crossed the Arc valley."},
+    {"text": "In this early version the mountain fills the whole canvas.", "isTrue": false, "explanation": "Here it is distant and pale; it only fills the canvas in the late versions."},
+    {"text": "The painting reached the Metropolitan Museum through the Havemeyer family.", "isTrue": true, "explanation": "It came with the Havemeyer bequest in 1929."}
+  ]
+}

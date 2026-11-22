@@ -1,0 +1,231 @@
+{
+ "teaser": "A tree called Life, with a black bird of death sitting in its branches.",
+ "focus": [
+  0.5,
+  0.5
+ ],
+ "review_notes": "The image shows one panel of Klimt's full-size working drawings (cartoons) for the Stoclet Frieze, kept at MAK, not the finished mosaic in Brussels.\nDating: commission 1905, mosaic installed 1911; the catalog year 1909 falls inside the design period.\nPanel height given as about 2 m; check.\nMaterials of the drawings: tempera, watercolor, gold and silver paint, chalk, pencil and opaque white on paper.\nMosaic executed by Leopold Forstner's workshop with the Wiener Werkstätte.\nReading of the black bird as death and the eye motifs as Egyptian are standard interpretations, not statements by Klimt.\nThe legible word near (0.33,0.63) looks like 'Mosaik' but the handwriting is hard to read at this resolution.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The title promises life: a tree whose branches curl upward and outward without end. Yet the darkest thing in the picture sits right in those branches. A black bird, heavy and still, the kind of bird that stories use to announce death."
+  },
+  {
+   "type": "find",
+   "text": "Everything here is gold, beige and curling. Find the one black bird.",
+   "spots": [
+    {
+     "x": 0.79,
+     "y": 0.51,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "The watcher",
+     "text": "A bird of prey seen in profile, with a small red eye and feathers drawn as rows of gray scales. It grips a branch with white claws and breaks the rhythm of the spirals like a full stop.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Klimt does not choose between the two. The tree keeps growing, the bird keeps watching, and both belong to the same design. Life with death lodged inside it: an old idea, told here without a single human figure."
+  },
+  {
+   "type": "text",
+   "text": "Now, what kind of object are you looking at? Not a finished painting. The paper is stained, patched with white, and covered in scribbles. This is a cartoon, which in art means a full-size working drawing made to be copied into another material."
+  },
+  {
+   "type": "fact",
+   "text": "In 1905 the Belgian banker Adolphe Stoclet asked the Viennese architect Josef Hoffmann to build him a house in Brussels, with no fixed budget. Klimt was given the dining room. His frieze, a long band of decoration running along the wall, took until 1911 to install."
+  },
+  {
+   "type": "text",
+   "text": "Klimt drew the frieze in Vienna at full scale, on sheets about two meters (6.5 ft) high, and craftsmen then translated it into a mosaic of marble, enamel, glass, gilded tiles and semi-precious stones. He could not be on site every day, so he wrote his orders directly onto the drawing."
+  },
+  {
+   "type": "tour",
+   "title": "A drawing that gives orders",
+   "text": "Traces of the workshop are all over the sheet.",
+   "spots": [
+    {
+     "x": 0.33,
+     "y": 0.6,
+     "zoom": 3.4,
+     "r": 0.09,
+     "title": "Pencil notes",
+     "text": "Lines of handwriting run beside the trunk. They are Klimt's instructions to the mosaic makers: which material goes where, what should shine, what should stay matte."
+    },
+    {
+     "x": 0.2,
+     "y": 0.44,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "White patches",
+     "text": "Smears of opaque white cover earlier ideas. Klimt changed his mind here and painted over it, the way you would use correction fluid."
+    },
+    {
+     "x": 0.5,
+     "y": 0.76,
+     "zoom": 2.4,
+     "r": 0.13,
+     "title": "The trunk",
+     "text": "Greenish gold paint, speckled and patched with ovals, stands in for metal and enamel. In the dining room these shapes became hard, glittering inlays.",
+     "shape": "rect"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Seeing the notes changes how you read the picture. Klimt is not painting light or space here. He is designing a surface, piece by piece, like a jeweler planning a brooch seven meters long. The spirals have no shading and no depth because the wall they were meant for would supply the shine."
+  },
+  {
+   "type": "key",
+   "text": "In the Stoclet Frieze, ornament is no longer the decoration around a picture. The ornament is the picture."
+  },
+  {
+   "type": "text",
+   "text": "This was a new kind of job for a painter. Nobody asked Klimt for a subject. A rich client, an architect friend and a team of craftsmen wanted the most beautiful wall they could build together. Vienna had a word for this dream, Gesamtkunstwerk: a total work of art in which building, furniture and pictures form a single design."
+  },
+  {
+   "type": "fact",
+   "text": "The mosaic was assembled in Vienna by the workshop of Leopold Forstner together with the Wiener Werkstätte, a cooperative of designers and craftspeople founded in 1903, and shipped to Brussels in sections."
+  },
+  {
+   "type": "text",
+   "text": "The patterns come from far apart. The coiling branches recall ancient spirals found from Mycenae to Celtic metalwork. The eyes tucked among them look Egyptian. The flat gold comes from the Byzantine mosaics Klimt had admired in Ravenna. He stirs them into something that belongs to no country and no century."
+  },
+  {
+   "type": "text",
+   "text": "On the two long walls of the dining room, the tree spreads behind two scenes. On one side, a single dancer waits, known as Expectation. On the other, a couple embraces: Fulfillment. This panel is a stretch of pure tree between them. Roam through it and see how many small inventions it holds."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.74,
+     "y": 0.14,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "An eye",
+     "text": "A blue and white eye under a domed lid, hanging from a stem like a fruit. Several of them watch from the branches."
+    },
+    {
+     "x": 0.5,
+     "y": 0.32,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "A spiral",
+     "text": "Each branch ends by curling in on itself. Klimt draws them freehand, so no two are the same size or wind the same number of times."
+    },
+    {
+     "x": 0.26,
+     "y": 0.28,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Triangle leaves",
+     "text": "A row of small green triangles, as close as this tree comes to foliage."
+    },
+    {
+     "x": 0.5,
+     "y": 0.59,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The fork",
+     "text": "Where the trunk divides, the bark becomes a mosaic already: black and white ovals, gray scales, dark blue triangles."
+    },
+    {
+     "x": 0.15,
+     "y": 0.92,
+     "zoom": 2.2,
+     "r": 0.16,
+     "title": "The meadow",
+     "text": "At the roots, a strip of dense, bright flowers in blue, red and pink. The only saturated color on the sheet."
+    },
+    {
+     "x": 0.76,
+     "y": 0.87,
+     "zoom": 3.0,
+     "r": 0.08,
+     "title": "A rosebush",
+     "text": "A rounded bush of pink blossoms stands alone on the gold ground, drawn like a pattern on fabric."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The Stoclet house still stands in Brussels and has been on UNESCO's World Heritage list since 2009, but it remains private and closed to visitors. For almost everyone, these drawings in Vienna are the only way to see Klimt's tree."
+  },
+  {
+   "type": "text",
+   "text": "So the sketch has become the monument. Paper, pencil and a few corrections now stand in for marble and gold. And up in its branches the black bird still sits, exactly where Klimt told the craftsmen to put it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is a cartoon, in the sense used here?",
+   "options": [
+    "A humorous drawing",
+    "A full-size working drawing to be copied into another material",
+    "A small first sketch"
+   ],
+   "answer": 1,
+   "explanation": "Klimt's cartoons were the 1:1 models for the mosaic."
+  },
+  {
+   "question": "Which room of the Stoclet house was the frieze made for?",
+   "options": [
+    "The dining room",
+    "The library",
+    "The entrance hall"
+   ],
+   "answer": 0,
+   "explanation": "Klimt designed the dining room walls."
+  },
+  {
+   "question": "What are the pencil scribbles on the sheet?",
+   "options": [
+    "Later museum inventory numbers",
+    "A poem by Klimt",
+    "Instructions to the mosaic makers"
+   ],
+   "answer": 2,
+   "explanation": "Klimt wrote on the drawing which materials to use where."
+  },
+  {
+   "question": "What sits in the branches as a reminder of death?",
+   "options": [
+    "A skull",
+    "A black bird",
+    "A snake"
+   ],
+   "answer": 1,
+   "explanation": "A dark bird of prey perches among the spirals."
+  },
+  {
+   "question": "Why do most people know the frieze from the drawings in Vienna?",
+   "options": [
+    "The mosaic was destroyed",
+    "The mosaic was never made",
+    "The house in Brussels is private and closed to visitors"
+   ],
+   "answer": 2,
+   "explanation": "The Stoclet house is a World Heritage site but cannot be visited."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Klimt painted the Tree of Life directly onto the wall in Brussels.",
+   "isTrue": false,
+   "explanation": "He drew it full size in Vienna and craftsmen made it as a mosaic."
+  },
+  {
+   "text": "Adolphe Stoclet set no fixed budget for his house.",
+   "isTrue": true,
+   "explanation": "The banker gave Hoffmann and his artists free rein."
+  },
+  {
+   "text": "The spirals are carefully shaded to look round and deep.",
+   "isTrue": false,
+   "explanation": "They are flat, with no shading, because they were a design for a surface."
+  }
+ ]
+}

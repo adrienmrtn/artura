@@ -1,0 +1,50 @@
+{
+  "teaser": "A king's folding prayer picture, in which heaven itself wears his badge.",
+  "focus": [0.38, 0.58],
+  "review_notes": "Panel size about 53 x 37 cm each; date range c. 1395-99 (catalog year 1397).\nOrb at the top of the banner (about 1 cm, island with white castle, sea of silver leaf) was found during the cleaning of 1992: check wording.\nRichard II born 6 January 1367, the feast of the Epiphany, also kept as the feast of Christ's baptism.\nBroomcod collar as emblem of Charles VI of France; Richard married Isabella of France (aged about six) in 1396.\nLost altarpiece in Rome showing Richard offering England to the Virgin as her dowry: known from 17th-century descriptions.\nEleven angels: count checked on the image.\nBought by the National Gallery in 1929 from the Earl of Pembroke, Wilton House.",
+  "lesson": [
+    {"type": "text", "text": "This painting was never meant for a wall. It was made for wherever one man knelt to pray: a private chapel, a tent, a room in whichever castle he was sleeping in that week. Close its two oak panels like a book and each is barely larger than a sheet of office paper, 53 by 37 cm (about 21 by 14.5 in)."},
+    {"type": "text", "text": "The man was Richard II, king of England, crowned in 1377 at the age of ten. The picture was painted for him around 1395 to 1399. A diptych is simply a painting on two hinged panels, and this one was his portable altar. Nobody knows who painted it. No signature, no contract, not even agreement on whether the artist was English or French."},
+    {"type": "fact", "text": "The name has nothing to do with the king. For more than two centuries the panels belonged to the Earls of Pembroke and hung at Wilton House, their home in the south of England. The National Gallery bought them in 1929."},
+    {"type": "text", "text": "Start on the left. Richard kneels in a robe of red and gold, and three men stand behind him the way sponsors stand behind someone they are introducing. All three have halos. Each carries one object, and that object is his name tag."},
+    {"type": "tour", "title": "Three sponsors", "text": "Three saints, three objects. Go from left to right.", "spots": [
+      {"x": 0.135, "y": 0.33, "zoom": 2.4, "r": 0.09, "title": "The arrow", "text": "Saint Edmund, an English king killed by Viking raiders in 869. Legend says they shot him full of arrows, so he holds one like a scepter."},
+      {"x": 0.255, "y": 0.4, "zoom": 3, "r": 0.06, "title": "The ring", "text": "Edward the Confessor, another English king, pinches a ring between two fingers. The story goes that he gave it to a beggar who was really Saint John in disguise."},
+      {"x": 0.42, "y": 0.44, "zoom": 2.8, "r": 0.07, "title": "The lamb", "text": "John the Baptist, barefoot in a camel skin, cradles a lamb, his usual symbol for Christ. His other hand rests on Richard's shoulder: he is the one doing the introducing."}
+    ]},
+    {"type": "text", "text": "The choice is personal. Two of the three are English kings who became saints: Richard's holy predecessors. The third is his own patron. Richard was born on January 6, a day the Church linked to the baptism of Christ by John. And January 6 is also the feast of the three kings who knelt before the Child. Count the crowns on this panel."},
+    {"type": "key", "text": "A devotional picture can also be a political statement. Richard prays here, and at the same time shows himself backed by sainted kings, as if his crown came straight from heaven."},
+    {"type": "text", "text": "Now cross the hinge. The right panel is heaven, and heaven is blue: the Virgin, the Child and eleven angels on a carpet of flowers. Something on the angels' dresses should not be there, though. Compare the jewel on Richard's chest with what the angels wear over their hearts."},
+    {"type": "tour", "title": "One badge, two worlds", "text": "Two places, the same small white animal.", "spots": [
+      {"x": 0.383, "y": 0.672, "zoom": 4, "r": 0.04, "title": "The king's jewel", "text": "A white hart, a male deer, lying down with a gold crown around its neck. This was Richard's personal emblem. His servants and supporters wore it to show whose side they were on."},
+      {"x": 0.776, "y": 0.356, "zoom": 4, "r": 0.04, "title": "An angel's badge", "text": "The same white hart, pinned on blue. Every angel in the picture has one. The court of heaven is dressed as Richard's household."}
+    ]},
+    {"type": "text", "text": "It is a bold idea: angels in a king's uniform. Richard and the angels also wear collars made of little seed pods, the pods of the broom plant. That was the emblem of the French king Charles VI, whose young daughter Richard married in 1396. It is one of the clues that date the painting to the last years of his reign."},
+    {"type": "fact", "text": "All that blue is ultramarine, a pigment ground from lapis lazuli, a stone that was mined in what is now Afghanistan and carried across a continent. In the Middle Ages it could cost as much as gold, and here it covers nearly half the picture."},
+    {"type": "text", "text": "A hinge and a strip of frame separate the king from the Virgin. The painter had to make two separate boards feel like one meeting. He did it without a single figure crossing the gap. Watch how."},
+    {"type": "lines", "text": "Nothing touches across the hinge. Everything else does the work.", "lines": [
+      {"points": [[0.5, 0.0], [0.5, 1.0]], "closed": false, "label": "The hinge", "text": "On the left, bare earth and a dark wood. On the right, a meadow of roses and violets. The fold is the border between Richard's world and paradise."},
+      {"points": [[0.385, 0.555], [0.61, 0.355]], "closed": false, "label": "The king looks up", "text": "Richard's eyes travel in a straight line over the gap to the Child. His open hands are empty, held apart like someone about to be handed something."},
+      {"points": [[0.6, 0.36], [0.57, 0.38], [0.43, 0.64]], "closed": false, "label": "The Child answers", "text": "The Child leans out of his mother's arms toward the king, right hand lifted in blessing. Mary holds his foot to keep him steady."},
+      {"points": [[0.83, 0.63], [0.69, 0.725], [0.5, 0.7]], "closed": false, "label": "An angel points", "text": "The kneeling angel in front turns to the Virgin but stretches an arm back toward Richard, as if saying: this is the one."}
+    ]},
+    {"type": "text", "text": "So what is Richard waiting to receive? The likeliest answer flies above the angels: the white banner with a red cross. It was a sign of Christ's victory over death, and also the flag of Saint George, patron of England. In 1992, when the painting was cleaned, restorers found that the banner had kept a secret for 600 years."},
+    {"type": "find", "text": "The secret is a tiny ball, no wider than a fingernail. It sits at the very top of the banner. Can you tap it?", "spots": [
+      {"x": 0.532, "y": 0.015, "zoom": 5, "r": 0.03, "shape": "arrow", "title": "The orb", "text": "Inside this ball, about 1 cm across, the painter put a green island with a white castle, set in a sea of real silver leaf that has since turned dark. Almost certainly it is England."}
+    ]},
+    {"type": "text", "text": "An island on a flag, passing between a king and the Virgin. Old descriptions of a lost altarpiece in Rome showed Richard offering England to Mary as her dowry, her own property. The diptych seems to paint the other half of that exchange: the kingdom blessed and handed back for him to rule in her name."},
+    {"type": "text", "text": "Heaven did not keep its side of the bargain for long. In 1399 Richard's cousin Henry seized the throne, and by early 1400 Richard was dead in a castle prison, about 33 years old. The little folding picture outlived the king, his badge and his dynasty. The angels are still wearing his colors."}
+  ],
+  "quiz": [
+    {"question": "What was the Wilton Diptych made for?", "options": ["The high altar of a cathedral", "A king's private prayer, wherever he traveled", "A town hall in London"], "answer": 1, "explanation": "It is a small folding altar made for Richard II's personal devotion."},
+    {"question": "Which animal was Richard II's personal emblem?", "options": ["A white hart", "A golden lion", "A black eagle"], "answer": 0, "explanation": "Richard wears a white hart, and so does every angel."},
+    {"question": "How can you recognize Edward the Confessor in the left panel?", "options": ["He carries a lamb", "He holds an arrow", "He holds up a ring"], "answer": 2, "explanation": "Legend says he gave his ring to a beggar who was Saint John in disguise."},
+    {"question": "What did restorers find at the top of the banner in 1992?", "options": ["The painter's signature", "A date written in gold", "A tiny orb showing an island with a castle"], "answer": 2, "explanation": "The 1 cm orb holds a green island in a silver sea, probably England."},
+    {"question": "What is the blue pigment made from?", "options": ["Lapis lazuli, a stone from far-off mines", "Crushed sea shells", "Blue flowers from the meadow"], "answer": 0, "explanation": "Ultramarine was ground from lapis lazuli and could cost as much as gold."}
+  ],
+  "facts": [
+    {"text": "The painter of the Wilton Diptych signed it on the frame.", "isTrue": false, "explanation": "The artist is unknown, and experts do not even agree on whether he was English or French."},
+    {"text": "The angels wear the same badge as the king.", "isTrue": true, "explanation": "Each angel has Richard's white hart pinned over the heart."},
+    {"text": "The Christ Child reaches across the hinge and touches Richard's hands.", "isTrue": false, "explanation": "No figure crosses the gap: gazes and gestures connect the two panels."}
+  ]
+}

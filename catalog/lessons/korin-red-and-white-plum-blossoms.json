@@ -1,0 +1,50 @@
+{
+  "teaser": "Two trees that look alive, and between them a river that looks like wallpaper.",
+  "focus": [0.62, 0.55],
+  "review_notes": "Date: painted in Korin's last years (he died in 1716); usually dated c. 1712-16.\nStream technique: a 2003-04 study suggested no metal leaf; a 2010-11 study for the MOA Museum concluded the ground is real gold leaf and the stream is silver leaf blackened with sulfur, the swirls protected by a resist. The lesson presents the later conclusion as 'the current view'; please check wording.\nSignatures: right screen 'Seisei Korin', left screen 'Hokkyo Korin': per standard descriptions.\nReading of old white tree vs. young red tree is an interpretation.\nKlimt's interest in Rinpa-style gold and pattern is often suggested; kept deliberately vague.\nDimensions: each screen 156 x 172.2 cm.\nAnnual February display at the MOA Museum of Art, Atami: check current practice.\nEarlier ownership by the Tsugaru family: commonly stated; not used in the text.",
+  "lesson": [
+    {"type": "text", "text": "Something in this picture does not agree with itself. The two plum trees are rough, stained, crooked, close to how old bark really is. The river between them is a flat dark shape filled with neat curls, like a printed fabric. Half of the painting observes nature. The other half is pure ornament."},
+    {"type": "text", "text": "Ogata Kōrin put both on the same sheet of gold on purpose. He painted this pair of two-panel screens near the end of his life, in the 1710s, and he died in 1716 at 58. Each screen is about 1.6 meters high and 1.7 wide (5 feet 1 by 5 feet 8). They stand side by side, and the river runs across the gap."},
+    {"type": "tour", "title": "Two languages", "text": "Compare how the wood is painted with how the water is painted.", "spots": [
+      {"x": 0.85, "y": 0.62, "zoom": 2.4, "r": 0.1, "shape": "rect", "title": "The red plum's trunk", "text": "No outline. Dark ink was brushed on, then greens and more ink were dripped in while it was wet. They spread and dried as stains, with pale rings where lichen would grow."},
+      {"x": 0.08, "y": 0.68, "zoom": 2.4, "r": 0.11, "title": "The white plum's base", "text": "The same puddled, mottled surface, here in a heavy mass that enters from the left edge. This dripping method is called tarashikomi. Chance does part of the painting."},
+      {"x": 0.6, "y": 0.62, "zoom": 2, "r": 0.15, "title": "The stream", "text": "Nothing left to chance here. Every swirl is a clean, even band, repeated like a stencil. Water is turned into a sign for water."}
+    ]},
+    {"type": "text", "text": "So the trees are made by letting go, and the water by total control. You might expect the reverse: wood is solid, water is the thing that flows. Kōrin swaps them. The trunks seem to seep and the current stands still."},
+    {"type": "fact", "text": "That curling water became a brand. Japanese designers still call it Kōrin nami, “Kōrin waves”, and his simplified round plum flower is known as Kōrin ume. Both turned up on kimono, lacquer boxes and sweets for generations after him."},
+    {"type": "text", "text": "The stream did not always look so dark. Researchers examined the screens with X-rays and microscopes, and the current view is that Kōrin covered the river in silver leaf, protected the swirls, and let the rest tarnish to black with sulfur. Picture it new: a bright metallic river between gold banks."},
+    {"type": "text", "text": "Now the layout. The river takes up the whole middle and widens toward you, pushing the trees out to the sides. Each tree answers it differently."},
+    {"type": "lines", "text": "Three movements, one per actor.", "lines": [
+      {"points": [[0.63, 0.0], [0.59, 0.12], [0.63, 0.3], [0.74, 0.47], [0.79, 0.65], [0.76, 0.87], [0.72, 1.0]], "closed": false, "label": "The swelling bank", "text": "The river enters narrow at the top and bulges out in a big S. Its edge is the strongest line in the painting, and it nearly touches the red plum's roots."},
+      {"points": [[0.1, 0.02], [0.17, 0.35], [0.2, 0.55], [0.245, 0.71], [0.31, 0.5], [0.33, 0.2]], "closed": false, "label": "The dive", "text": "On the left, a branch of the white plum drops steeply, bends sharply at its lowest point and sends thin shoots straight back up. Its trunk is mostly outside the picture."},
+      {"points": [[0.82, 0.9], [0.84, 0.6], [0.86, 0.3], [0.88, 0.02]], "closed": false, "label": "The climb", "text": "On the right, the red plum stands on its own feet and pushes upward, forking as it goes. It is the only vertical in a picture made of curves."}
+    ]},
+    {"type": "text", "text": "One tree leans in from offstage and bows. The other plants itself and rises. People have read the pair as age and youth, or as two temperaments facing each other across time, with the river as the years passing. Kōrin left no explanation, so you are free to choose."},
+    {"type": "key", "text": "The painting works because it refuses to pick a side. Careful observation and bold pattern sit together on one surface, and each makes the other look stronger."},
+    {"type": "fact", "text": "Kōrin never founded a school, and never called himself part of one. The word Rinpa, used today for this whole decorative tradition, was coined long after his death. It simply means “school of Rin”, taken from the second half of his name."},
+    {"type": "text", "text": "Plum trees flower in February in Japan, on bare branches, often in snow. They are the first sign that winter will end, which is why the blossoms here matter more than their size suggests. Wander over the surface and see how little paint each one needed."},
+    {"type": "explore", "spots": [
+      {"x": 0.73, "y": 0.11, "zoom": 3.4, "r": 0.06, "title": "Red blossoms", "text": "Each open flower is a few round dabs of red with no drawn outline. The buds are single dots running up the twig."},
+      {"x": 0.31, "y": 0.12, "zoom": 3.4, "r": 0.06, "title": "White blossoms", "text": "Pale discs of white, thick enough to stand slightly proud of the gold. Against bright metal they are quiet, almost hidden."},
+      {"x": 0.245, "y": 0.7, "zoom": 3, "r": 0.06, "title": "The elbow", "text": "The lowest point of the diving branch. It bends back on itself in a sharp V just above the water, then the shoots spring upward."},
+      {"x": 0.59, "y": 0.06, "zoom": 2.6, "r": 0.08, "title": "The source", "text": "At the top the river is only a narrow neck. Seen this way, the whole dark shape reads as distance: far away up here, close and wide at your feet."},
+      {"x": 0.02, "y": 0.77, "zoom": 3.6, "r": 0.04, "title": "Left signature", "text": "Kōrin signs with his honorary title, Hokkyō, and adds a round seal."},
+      {"x": 0.965, "y": 0.77, "zoom": 3.6, "r": 0.04, "title": "Right signature", "text": "On this side he signs with a different name, Seisei, one of the art names he used late in life. Two trees, two signatures."},
+      {"x": 0.4, "y": 0.62, "zoom": 2.8, "r": 0.08, "title": "Swirls up close", "text": "Brownish curls on near-black. If the silver theory is right, the brown bands are where the metal was shielded and the black is where it tarnished."}
+    ]},
+    {"type": "text", "text": "When Japanese screens and prints reached Europe in the late 1800s, artists there were hungry for exactly this: gold grounds, flat pattern, a living thing set against ornament. You can feel a similar taste in the shimmering backgrounds of Gustav Klimt in Vienna."},
+    {"type": "fact", "text": "The screens are a National Treasure and live at the MOA Museum of Art in Atami, a hillside town on the coast. By tradition the museum shows them once a year, in February, when its own plum garden is in bloom."}
+  ],
+  "quiz": [
+    {"question": "How are the tree trunks painted?", "options": ["With fine outlines filled in carefully", "By dripping ink and color into wet paint and letting it spread", "With cut pieces of silver leaf"], "answer": 1, "explanation": "This is tarashikomi, where pooled color dries into stains."},
+    {"question": "According to the current view, what was the stream originally?", "options": ["Bright silver leaf", "Blue mineral paint", "Bare paper"], "answer": 0, "explanation": "Researchers think it was silver leaf, later blackened with sulfur around the protected swirls."},
+    {"question": "Which tree has most of its trunk outside the picture?", "options": ["The red plum on the right", "Both equally", "The white plum on the left"], "answer": 2, "explanation": "The white plum leans in from the left edge; the red plum stands fully inside."},
+    {"question": "Where does the word Rinpa come from?", "options": ["From the name of a Kyoto temple", "From the second half of Kōrin's name", "From the Japanese word for plum"], "answer": 1, "explanation": "It means “school of Rin” and was coined long after he died."},
+    {"question": "Why does the museum show the screens in February?", "options": ["That is when plum trees bloom", "That is Kōrin's birthday", "The gold needs cold air"], "answer": 0, "explanation": "The display is timed to the plum blossom season."}
+  ],
+  "facts": [
+    {"text": "Kōrin signed the two screens with two different names.", "isTrue": true, "explanation": "One carries his title Hokkyō, the other the art name Seisei."},
+    {"text": "The red plum tree is the only strong vertical in the composition.", "isTrue": true, "explanation": "Everything else, from the river to the white plum's branch, is built on curves."},
+    {"text": "Kōrin founded the Rinpa school and gave it its name.", "isTrue": false, "explanation": "He founded no school; the term was invented long after his death."}
+  ]
+}

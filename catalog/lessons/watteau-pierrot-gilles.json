@@ -1,0 +1,54 @@
+{
+  "teaser": "A clown stands still, arms hanging, and nobody knows who ordered him or why.",
+  "focus": [0.45, 0.17],
+  "review_notes": "The café-signboard theory (former actor Belloni) is a hypothesis, presented as such.\nDenon purchase: price of 150 francs, dealer on the place du Carrousel, chalked couplet on the canvas, and David's disapproval are from traditional accounts.\nDate is usually given as about 1718-1719; no document survives.\nIdentification of the side figures (Doctor, Leander, Isabelle, Captain) is the usual reading, not certain.\nLa Caze bequest to the Louvre: 1869.",
+  "lesson": [
+    {"type": "text", "text": "Picture a Paris café around 1719, run by a retired actor who spent years playing the white clown. One theory says this canvas was painted for him, to hang at his door like a shop sign. It is only a theory. No contract, no letter and no bill survive. For a painting this famous, we know almost nothing about where it was meant to go."},
+    {"type": "text", "text": "The sign idea comes from its size. Antoine Watteau usually painted small pictures, the kind you hold in two hands, filled with tiny lovers in parks. This one is about 1.85 meters tall (a little over 6 feet). The figure is nearly as big as you. Something unusual was asked of him, and he answered with a man who does nothing at all."},
+    {"type": "fact", "text": "Around 1804 the first director of the Louvre, Vivant Denon, is said to have spotted the canvas in a dealer's shop near the museum and bought it for 150 francs. Someone had chalked a rhyme on it, roughly: “How happy Pierrot would be, if he had the art of pleasing you.”"},
+    {"type": "text", "text": "He is Pierrot, a stock character of the commedia dell'arte, the Italian street comedy where each role always wears the same costume and behaves the same way. Pierrot is the naive servant, the one the others trick. So why does he look so tall and so serious here? The answer is in where Watteau puts your eyes."},
+    {"type": "lines", "text": "Three lines show how the picture is built around your point of view.", "lines": [
+      {"points": [[0.45, 0.07], [0.44, 0.96]], "closed": false, "label": "One straight column", "text": "From hat to shoes, the body runs straight down the canvas, slightly left of center. The row of buttons follows it. No twist, no gesture, no lean."},
+      {"points": [[0.13, 0.62], [0.60, 0.70], [0.67, 0.72], [0.83, 0.73]], "closed": false, "label": "Everyone else", "text": "The four other heads all sit below Pierrot's hands. They seem to be standing in a hollow behind the mound he is on."},
+      {"points": [[0.27, 0.33], [0.36, 0.08], [0.54, 0.06], [0.64, 0.33]], "closed": false, "label": "Alone in the sky", "text": "His head and shoulders rise into empty blue. Nothing touches them. You are looking up at him, the way you look up at an actor from the front row."}
+    ]},
+    {"type": "text", "text": "That low viewpoint is the trick. Painters used it for kings and saints, to make them tower over us. Watteau gives it to the lowest character in the troupe. The mound becomes a kind of stage, the hollow behind it a kind of backstage, and you are the audience he has to face."},
+    {"type": "text", "text": "And he faces you with nothing to hide behind. No prop, no joke, no partner. All he has is the costume, and the costume does not help him much."},
+    {"type": "tour", "title": "A suit that does not fit", "text": "Follow the white from top to bottom. Watteau makes every part of it slightly wrong.", "spots": [
+      {"x": 0.45, "y": 0.17, "zoom": 3.2, "r": 0.1, "title": "The face", "text": "A round hat like a halo, pink ears, heavy eyelids. The mouth is closed and gives nothing away. People have read sadness, shyness, boredom and patience in it."},
+      {"x": 0.32, "y": 0.4, "zoom": 2.6, "r": 0.09, "title": "The sleeve", "text": "The sleeves are far too long, so the satin bunches up in thick rings at the elbow. Watteau paints each fold with gray shadow and a streak of pure white."},
+      {"x": 0.44, "y": 0.56, "zoom": 2.4, "r": 0.16, "title": "The hands", "text": "Two pink hands hang open at his sides, fingers loose. They are doing nothing, which is the hardest thing to ask of an actor on a stage."},
+      {"x": 0.43, "y": 0.93, "zoom": 2.8, "r": 0.13, "title": "The shoes", "text": "The trousers stop well above the ankle. Below them, gray stockings and white shoes tied with salmon ribbons, the only bright color on him, turned out like a dancer's."}
+    ]},
+    {"type": "key", "text": "Watteau took a comic type everyone laughed at and painted him life-size, from below, standing still. The comedy drains away and a person is left."},
+    {"type": "fact", "text": "Watteau was ill for most of his short career, very likely with tuberculosis, a lung disease with no cure then. He died in 1721 at 36, about two years after painting this. Friends described him as restless, shy and never satisfied with his work."},
+    {"type": "text", "text": "Now drop your eyes to the others. Three of them are caught up in their own business on the right, and a man in black grins on the left. None of them looks at Pierrot, and none of them looks at you. One creature in the picture does."},
+    {"type": "find", "text": "Apart from Pierrot, a single eye in this painting looks straight out at you. Whose is it?", "spots": [
+      {"x": 0.3, "y": 0.795, "zoom": 3.6, "r": 0.06, "title": "The donkey", "text": "A dark, wet eye, low down beside Pierrot's knee, with pink ribbons tied on its head. The donkey carries the man in black. Like Pierrot, it is the one that gets led around."}
+    ]},
+    {"type": "text", "text": "Many viewers feel that eye is the saddest thing in the painting. Pierrot and the donkey share the same patience. The rider in black with the white ruff is usually read as the Doctor, the pompous know-it-all of the troupe. On the other side, a man in red pulls on the rope to drag animal and rider forward."},
+    {"type": "text", "text": "Who posed? Nobody can say. Some see a real actor, others a friend of the painter, others a kind of self-portrait in spirit: Watteau, the outsider from the north who painted parties he stood at the edge of. The face is specific enough to be someone, and that is all we have."},
+    {"type": "fact", "text": "For about two centuries the painting was called “Gilles,” after another white-clad clown of the French fairground theaters. Scholars later argued the costume is Pierrot's, and the Louvre now uses that name. Many books still print both."},
+    {"type": "explore", "spots": [
+      {"x": 0.13, "y": 0.63, "zoom": 3, "r": 0.08, "title": "The Doctor", "text": "Black cap, black gown, a ruff painted in quick dabs of white. He grins up from the left edge, riding the donkey. His is the only laughing face."},
+      {"x": 0.6, "y": 0.7, "zoom": 3.2, "r": 0.06, "title": "The crested hat", "text": "A young man with a hat like a rooster's comb, mouth half open, staring off to the left. He is often identified as Leander, the handsome lover of the plays."},
+      {"x": 0.67, "y": 0.73, "zoom": 3.2, "r": 0.06, "title": "The woman", "text": "The only woman, in profile, hair pinned up, watching the donkey with a slight frown. She is usually called Isabelle, the lover's sweetheart."},
+      {"x": 0.83, "y": 0.75, "zoom": 2.4, "r": 0.12, "title": "The man in red", "text": "A big red beret and a red jacket, the loudest color in the picture. His arm stretches left to haul on the rope. Often read as the Captain, the troupe's braggart."},
+      {"x": 0.93, "y": 0.42, "zoom": 2.8, "r": 0.07, "title": "A stone face", "text": "Half lost in the leaves, a sculpted head with pointed features: a faun, a goat-eared spirit of the woods from ancient myth. It smirks in the direction of Pierrot."},
+      {"x": 0.72, "y": 0.34, "zoom": 1.8, "r": 0.14, "title": "Umbrella pines", "text": "These flat-topped trees are Italian, not Parisian. They make the park behind him look like a painted stage backdrop."}
+    ]},
+    {"type": "text", "text": "Denon's friends reportedly thought he had wasted his money. Later the picture belonged to a Paris doctor, Louis La Caze, who left it to the Louvre in 1869. By then the sad white clown had become a figure of his own, in pantomime, in poems, in photographs, then in Picasso's paintings. Was he sad before Watteau, or did this canvas make him so?"}
+  ],
+  "quiz": [
+    {"question": "What is unusual about this painting compared with most of Watteau's work?", "options": ["It is painted on wood", "It is very large, with a nearly life-size figure", "It has no landscape"], "answer": 1, "explanation": "Watteau usually painted small pictures; this one is about 1.85 meters tall."},
+    {"question": "From where does the viewer see Pierrot?", "options": ["From below, as from the front row", "From above, as from a balcony", "From far away across a park"], "answer": 0, "explanation": "The low viewpoint lifts his head and shoulders into the sky."},
+    {"question": "Besides Pierrot, who looks straight out of the painting?", "options": ["The man in red", "The woman", "The donkey"], "answer": 2, "explanation": "The donkey's dark eye, beside Pierrot's knee, meets ours."},
+    {"question": "What is the commedia dell'arte?", "options": ["Italian street comedy with fixed characters and costumes", "A school of French court painters", "A type of oil paint"], "answer": 0, "explanation": "Each role, like Pierrot or the Doctor, kept the same costume and behavior."},
+    {"question": "What name did the painting carry for about two centuries?", "options": ["Harlequin", "Gilles", "Leander"], "answer": 1, "explanation": "It was long called “Gilles,” after another white-clad fairground clown."}
+  ],
+  "facts": [
+    {"text": "We have the original contract showing who ordered this painting from Watteau.", "isTrue": false, "explanation": "No contract, letter or bill survives; the café-sign story is only a theory."},
+    {"text": "Pierrot's sleeves are too long and his trousers too short.", "isTrue": true, "explanation": "The satin bunches at his elbows and the trousers stop above the ankle."},
+    {"text": "Watteau lived to old age and painted this near the start of a long career.", "isTrue": false, "explanation": "He died in 1721 at 36, about two years after painting it."}
+  ]
+}

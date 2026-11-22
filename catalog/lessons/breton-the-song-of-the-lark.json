@@ -1,0 +1,35 @@
+{
+ "teaser": "The bird in the title takes up less than a thousandth of the canvas.",
+ "focus": [0.56, 0.22],
+ "review_notes": "Lark identified as the small bird at upper left (about x 0.25, y 0.06); its share of the canvas is an estimate from the image.\n1934 Chicago Daily News contest ('America's best-loved picture') and Eleanor Roosevelt unveiling it at the Century of Progress fair.\nVan Gogh's 1880 walk to Courrieres, turning back at Breton's studio wall.\nWilla Cather's 1915 novel named after the painting.\nBill Murray's account (2014) of seeing the painting after a failed first stage performance in Chicago.\nHenry Field collection, given to the Art Institute in 1894.\nBreton memoir: La Vie d'un artiste (1890).\nClaim that museum experts in the 1930s were embarrassed by the painting's popularity.\nSun is read as rising (dawn), per the Art Institute.",
+ "lesson": [
+  {"type":"text","text":"Less than one thousandth. That is roughly the share of this canvas given to the lark, the bird the painting is named after. The other 99.9 percent goes to a field, a sky and a barefoot girl who has stopped walking."},
+  {"type":"find","text":"The lark is in the picture, singing. Can you spot it?","spots":[{"x":0.25,"y":0.058,"zoom":4,"r":0.04,"shape":"arrow","title":"The lark","text":"A dark fleck with two wings, high in the pale sky. Skylarks sing while climbing, often so high you hear them long before you see them. Breton makes you search the way she does."}]},
+  {"type":"text","text":"So the real subject is listening. Jules Breton had a problem no painter can solve directly: a sound. His solution was to paint a person hearing it, and to make her reaction so clear that you supply the song yourself."},
+  {"type":"tour","title":"How to paint a sound","text":"Three places where Breton shows the effect of the song instead of the song.","spots":[
+   {"x":0.56,"y":0.19,"zoom":3,"r":0.1,"title":"Her face","text":"Chin lifted, lips parted, eyes turned up and to the side. She is not looking at the bird. She has stopped, mid-breath, to hear it."},
+   {"x":0.32,"y":0.55,"zoom":2.6,"r":0.1,"title":"The sickle","text":"The curved blade hangs forgotten in her right hand. It tells you where she was going: to cut grain by hand, bent over all day."},
+   {"x":0.55,"y":0.88,"zoom":2.6,"r":0.11,"title":"Bare feet","text":"Planted on the dirt path, one ahead of the other, caught in the middle of a step. Larks sing at first light, so this is the walk to work, not the walk home."}
+  ]},
+  {"type":"text","text":"That changes how you read the red disc on the horizon. It is a sunrise. The light comes from behind her, which is why her face and blouse sit in cool shadow while the sky glows orange. Painters call this effect contre-jour, French for “against the daylight.”"},
+  {"type":"fact","text":"Breton wrote poetry as well as painting. He published several volumes of verse and, late in life, a memoir about growing up in the countryside he never stopped painting."},
+  {"type":"text","text":"He grew up in Courrières, a farming village in northern France, and painted its people for forty years. But compare him with harsher painters of rural life: his workers are never broken by the job. This girl is strong, upright, almost a statue. Admirers found that noble. Critics found it too pretty to be true."},
+  {"type":"fact","text":"In 1880 a young, unknown Vincent van Gogh walked for days across northern France to meet Breton, his hero. He reached the village, saw the brick wall of the painter's smart new studio, lost his nerve and walked back."},
+  {"type":"key","text":"Breton belongs to Realism because of his subject, ordinary farm workers, but he paints them with the dignity older art kept for saints and goddesses."},
+  {"type":"text","text":"The picture soon left France for a Chicago collector, and America adopted it. In 1915 the novelist Willa Cather borrowed its title for a book about a small-town girl who becomes an opera singer. In 1934 a newspaper contest named it the best-loved painting in the country, and First Lady Eleanor Roosevelt unveiled it at the Chicago World's Fair."},
+  {"type":"fact","text":"By then, museum experts were embarrassed by it. Modern art had arrived, and a sweet farm girl at dawn was exactly the kind of picture serious critics wanted to move to the basement. The public voted for it anyway."},
+  {"type":"text","text":"One more listener. The actor Bill Murray has told how, as a young man in Chicago, he walked into the museum after a disastrous night on stage, feeling his life was over. He stood in front of this girl and thought: she has no great prospects either, yet the sun is coming up and she gets another try. He walked out and kept going."}
+ ],
+ "quiz": [
+  {"question":"How does Breton paint the sound of the lark?","options":["With musical notes in the sky","By showing a person stopping to listen","By painting the bird very large"],"answer":1,"explanation":"He paints the listener's reaction and lets you imagine the song."},
+  {"question":"What time of day is it?","options":["Sunrise","Noon","Sunset after work"],"answer":0,"explanation":"Larks sing at first light, and she is on her way to work."},
+  {"question":"What is the girl holding?","options":["A basket of wheat","A water jug","A sickle"],"answer":2,"explanation":"A sickle, the curved blade used to cut grain by hand."},
+  {"question":"Which famous painter walked for days to meet Breton and then turned back?","options":["Claude Monet","Vincent van Gogh","Paul Gauguin"],"answer":1,"explanation":"Van Gogh reached Breton's studio wall in 1880 and lost his nerve."},
+  {"question":"What happened to the painting in 1934?","options":["It was voted America's best-loved painting","It was stolen from the museum","It was sold to a French collector"],"answer":0,"explanation":"A newspaper contest gave it that title and Eleanor Roosevelt unveiled it."}
+ ],
+ "facts": [
+  {"text":"The girl's face is lit from the front by the sun.","isTrue":false,"explanation":"The sun is behind her, so her face is in shadow against a glowing sky."},
+  {"text":"Jules Breton was also a published poet.","isTrue":true,"explanation":"He published several volumes of verse alongside his painting."},
+  {"text":"Willa Cather's novel The Song of the Lark gave the painting its title.","isTrue":false,"explanation":"It was the reverse: Cather took her 1915 title from Breton's 1884 painting."}
+ ]
+}

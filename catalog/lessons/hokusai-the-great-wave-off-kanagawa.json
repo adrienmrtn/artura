@@ -1,0 +1,340 @@
+{
+ "teaser": "The tallest mountain in Japan is the smallest thing in this picture. Hokusai meant it.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "Sheet size given as about 25 x 37 cm.\nPrice comparison (about a double helping of noodles) and the estimate of several thousand impressions are the figures usually quoted by museums; both are estimates.\nBoats identified as oshiokuri-bune, fast boats carrying fresh fish to Edo, with eight rowers each (rowers cannot be counted precisely in this image).\nWave height estimate of roughly 10 to 12 m comes from published studies using the boats as a scale.\nPrussian blue: synthetic pigment first made in Berlin in the early 1700s, reaching Japan in quantity through Dutch and Chinese trade around the late 1820s.\nDebussy's La Mer (1905) score cover; the wave on the Japanese 1,000 yen note issued in 2024.\nSignature reading: 'from the brush of Hokusai, changing his name to Iitsu'; more than thirty names over his life.\nThe image includes a white paper margin around the print; coordinates were taken from the image as supplied.\nHokusai's difficult 1820s (death of his wife, grandson's gambling debts).\nVan Gogh praising the wave in a letter to his brother (1888).\nReading of the dark band of sky as early morning is an interpretation.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Mount Fuji is 3,776 meters high, the tallest and most sacred peak in Japan. In this picture it would fit inside a fishing boat. A wave, which lasts a few seconds and then is gone, towers over a mountain that has stood for a hundred thousand years. Everything in this image is built on that reversal."
+  },
+  {
+   "type": "text",
+   "text": "The trick is distance. Fuji is far away on the horizon, the wave is right in front of us, and Hokusai refuses to soften the gap with haze or middle ground. Near and far are pressed flat against each other. The result is that the eye compares them directly, as if they were two objects on a table."
+  },
+  {
+   "type": "lines",
+   "text": "Three shapes organize the whole sheet. The mountain is the still point they all turn around.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.02,
+       0.35
+      ],
+      [
+       0.15,
+       0.22
+      ],
+      [
+       0.3,
+       0.12
+      ],
+      [
+       0.4,
+       0.1
+      ],
+      [
+       0.5,
+       0.14
+      ],
+      [
+       0.56,
+       0.24
+      ],
+      [
+       0.59,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "The arc",
+     "text": "The back of the wave rises from the left edge and curls over at the top. It is about to come down exactly where Fuji sits."
+    },
+    {
+     "points": [
+      [
+       0.42,
+       0.5
+      ],
+      [
+       0.44,
+       0.38
+      ],
+      [
+       0.52,
+       0.3
+      ],
+      [
+       0.59,
+       0.36
+      ],
+      [
+       0.62,
+       0.5
+      ],
+      [
+       0.66,
+       0.62
+      ],
+      [
+       0.56,
+       0.68
+      ],
+      [
+       0.46,
+       0.6
+      ]
+     ],
+     "closed": true,
+     "label": "The hollow",
+     "text": "Under the crest, the sky forms an empty pocket. Hokusai drops the mountain into the bottom of it, like a pearl in an open hand."
+    },
+    {
+     "points": [
+      [
+       0.56,
+       0.69
+      ],
+      [
+       0.635,
+       0.625
+      ],
+      [
+       0.71,
+       0.69
+      ]
+     ],
+     "closed": false,
+     "label": "The triangle",
+     "text": "Fuji itself: two straight slopes and a snowy tip. In a picture made entirely of curves, it is the only calm, straight-edged form."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the sea frames the mountain the way a hand might cup a small precious thing, or the way a mouth closes on it. Both readings are there. And Hokusai adds an echo that many people overlook, even after years of seeing this image on mugs and T-shirts."
+  },
+  {
+   "type": "find",
+   "text": "There is a second “Mount Fuji” in the picture, made of water. Where is it?",
+   "spots": [
+    {
+     "x": 0.35,
+     "y": 0.57,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The wave that plays mountain",
+     "text": "In the foreground a smaller wave rises to a white point, with the same sloping sides and snowy cap as Fuji. Water imitates rock. For one second, the two are twins."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "The Great Wave sets what passes against what lasts: a wave shaped like a mountain, and a mountain made as small as a wave."
+  },
+  {
+   "type": "fact",
+   "text": "This is not a tsunami. Tsunamis look like a fast-rising tide, not a curling breaker. Hokusai shows a huge storm wave in open water. Using the boats as a ruler, researchers estimate it at roughly 10 to 12 meters high, about the height of a three-story house."
+  },
+  {
+   "type": "text",
+   "text": "Those boats are easy to skip, and they change the meaning completely. Without them this would be a seascape. With them it is a scene of people in danger. There are three, long and narrow, and their crews are doing the only thing possible."
+  },
+  {
+   "type": "tour",
+   "title": "The crews",
+   "text": "Three boats, each at a different moment of the same ordeal.",
+   "spots": [
+    {
+     "x": 0.16,
+     "y": 0.63,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Already inside",
+     "text": "On the left, a boat is half swallowed by the wave. You can see its wooden deck and oar racks, and a couple of heads at the stern. The foam closes around it."
+    },
+    {
+     "x": 0.83,
+     "y": 0.6,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Climbing",
+     "text": "This boat rides up the next swell. The rowers, in dark blue, lie flat over their oars with heads down. Nobody looks up and nobody panics."
+    },
+    {
+     "x": 0.75,
+     "y": 0.86,
+     "zoom": 3.4,
+     "r": 0.07,
+     "title": "Holding on",
+     "text": "In the nearest boat a row of pale heads clings to the side. These were fast boats that carried fresh fish to the markets of Edo, today's Tokyo. This is a commute gone wrong."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The men bow as if in prayer, and the foam above them ends in hooked fingers, like claws reaching down. European Romantic painters of the same years showed storms with terror and screaming. Hokusai shows discipline. His rowers do not fight the sea. They wait for the right moment."
+  },
+  {
+   "type": "text",
+   "text": "One more thing shapes how the picture feels. Japanese text and images were read from right to left. A viewer in 1831 entered the scene on the right, traveled with the boats, and met the wave head-on, as a wall. Western eyes, coming from the left, ride in on the wave's back and miss the collision."
+  },
+  {
+   "type": "fact",
+   "text": "That deep blue was a foreign novelty. It is Prussian blue, a synthetic pigment invented in Berlin in the early 1700s and newly affordable in Japan. It was stronger and more lasting than local plant blues, and the publisher advertised the series on the strength of it."
+  },
+  {
+   "type": "text",
+   "text": "What you are looking at is not a painting. It is a woodblock print, about 25 by 37 centimeters, the size of a sheet of office paper laid sideways. Hokusai drew the design. Carvers cut it into cherry wood, one block for each color, and printers pressed sheets of paper onto the inked blocks by hand."
+  },
+  {
+   "type": "fact",
+   "text": "Because it was printed, it was cheap. A copy cost about as much as a double helping of noodles, and several thousand were probably made before the blocks wore out. The impressions that survive are now shared out among museums around the world, including this one in New York."
+  },
+  {
+   "type": "text",
+   "text": "Hokusai was around 70 when he designed it, after a hard decade that included the death of his wife and a grandson's gambling debts. The print belongs to a series called Thirty-Six Views of Mount Fuji, which sold so well that ten more views were added. The mountain appears in every one, sometimes huge, sometimes a speck."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.56,
+     "y": 0.32,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The claws",
+     "text": "Each tip of foam splits into small curled hooks. Real spray never looks like this. Hokusai turns water into something with fingers, almost a living creature."
+    },
+    {
+     "x": 0.62,
+     "y": 0.5,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "Spray or snow?",
+     "text": "White dots drift down from the crest across the sky, right above the snowy peak. They are sea spray, and they also read as snow falling on Fuji."
+    },
+    {
+     "x": 0.64,
+     "y": 0.66,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "Mount Fuji",
+     "text": "Blue slopes, white cap, and a band of dark sky behind it that makes the snow stand out. The dark band suggests early morning, with the light still low."
+    },
+    {
+     "x": 0.095,
+     "y": 0.18,
+     "zoom": 3.4,
+     "r": 0.05,
+     "shape": "rect",
+     "title": "The title box",
+     "text": "The framed text gives the series and the title: Thirty-Six Views of Mount Fuji, Under the Wave off Kanagawa. “Under the wave”: the title puts you with the rowers."
+    },
+    {
+     "x": 0.055,
+     "y": 0.25,
+     "zoom": 3.6,
+     "r": 0.04,
+     "shape": "rect",
+     "title": "The signature",
+     "text": "It reads roughly “from the brush of Hokusai, who has changed his name to Iitsu.” He used more than thirty names in his life, taking a new one whenever he felt his art had changed."
+    },
+    {
+     "x": 0.83,
+     "y": 0.75,
+     "zoom": 2.2,
+     "r": 0.12,
+     "title": "Stripes of sea",
+     "text": "The swell is drawn in flat bands: dark blue, light blue, bare paper. No blending. Each tone is a separate woodblock, printed one after another on the same sheet."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "When Japan opened to foreign trade in the 1850s, prints like this reached Paris and startled artists there: flat color, bold outlines, a subject cut off by the frame. Van Gogh admired the wave in a letter. Debussy put it on the cover of his orchestral piece La Mer in 1905. In 2024 Japan printed it on the 1,000 yen note. The cheap sheet outlasted the mountain's rivals."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What kind of object is The Great Wave?",
+   "options": [
+    "An oil painting on canvas",
+    "A woodblock print on paper",
+    "A painted folding screen"
+   ],
+   "answer": 1,
+   "explanation": "It was printed by hand from carved wooden blocks, one for each color."
+  },
+  {
+   "question": "What hides in the foreground, to the left of the real Mount Fuji?",
+   "options": [
+    "A smaller wave shaped like Fuji",
+    "A fourth boat",
+    "A temple"
+   ],
+   "answer": 0,
+   "explanation": "A foreground wave rises to a white point and echoes the shape of the mountain."
+  },
+  {
+   "question": "What were the three boats used for?",
+   "options": [
+    "Carrying soldiers",
+    "Whale hunting",
+    "Rushing fresh fish to market in Edo"
+   ],
+   "answer": 2,
+   "explanation": "They were fast boats that delivered fresh fish to the markets of Edo, today's Tokyo."
+  },
+  {
+   "question": "Why was the blue in this print special in 1831?",
+   "options": [
+    "It was made from crushed gemstones",
+    "It was Prussian blue, a synthetic pigment from Europe",
+    "It was painted on by hand after printing"
+   ],
+   "answer": 1,
+   "explanation": "Prussian blue was invented in Berlin and had just become affordable in Japan."
+  },
+  {
+   "question": "How would a Japanese viewer of the time have read the picture?",
+   "options": [
+    "From right to left, meeting the wave head-on",
+    "From left to right, riding the wave",
+    "From the bottom to the top"
+   ],
+   "answer": 0,
+   "explanation": "Japanese images were read right to left, so the wave rises against the viewer."
+  },
+  {
+   "question": "About how old was Hokusai when he designed it?",
+   "options": [
+    "30",
+    "50",
+    "70"
+   ],
+   "answer": 2,
+   "explanation": "He was around 70, after a difficult decade in his personal life."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The Great Wave shows a tsunami.",
+   "isTrue": false,
+   "explanation": "It is a large storm wave in open water, and tsunamis do not curl and break this way."
+  },
+  {
+   "text": "When it was new, a copy cost about as much as a double helping of noodles.",
+   "isTrue": true,
+   "explanation": "Prints were made by the thousand and sold cheaply."
+  },
+  {
+   "text": "The series Thirty-Six Views of Mount Fuji ended up containing forty-six prints.",
+   "isTrue": true,
+   "explanation": "It sold so well that ten extra views were added."
+  }
+ ]
+}

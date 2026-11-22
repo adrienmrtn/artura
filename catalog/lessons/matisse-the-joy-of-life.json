@@ -1,0 +1,55 @@
+{
+  "teaser": "One painting, sent alone to a Paris show. Picasso saw it and went home to answer back.",
+  "focus": [0.52, 0.55],
+  "review_notes": "Matisse showing only this one work at the 1906 Salon des Indépendants: widely reported, worth confirming.\nSignac's letter (“gone to the dogs”) is a commonly quoted translation.\nBarnes purchase date given as 1923, via the Danish collector Christian Tetzen-Lund: check.\nBarnes ban on color reproduction lasting into the 1990s: check.\nCadmium yellow degradation studies (published around 2015): wording kept general.\nLeo Stein quote “the most important painting of our time” is commonly cited, kept paraphrased.",
+  "lesson": [
+    {"type": "text", "text": "Paris, spring 1906. The Salon des Indépendants is a huge show with no jury, where thousands of pictures fight for attention. Most painters send several. Henri Matisse sends one. It is nearly 2.4 meters wide (about 8 feet), and he has built it to hold a wall by itself."},
+    {"type": "text", "text": "He had spent the previous summer in Collioure, a fishing port near the Spanish border, painting with colors straight from the tube. Critics had just nicknamed his group “les fauves”, the wild beasts. This canvas, worked out over the winter in a rented Paris studio, was his reply: wild color, but arranged as calmly as a tapestry."},
+    {"type": "text", "text": "The subject is one of the oldest in European art: a golden age, a land with no work, no clothes and no clocks. Painters had shown it for centuries with soft flesh and believable trees. Matisse keeps the dream and throws out the believability. Meet the inhabitants."},
+    {"type": "tour", "title": "Who lives here", "text": "Sixteen people, a few goats, and not one of them in a hurry.", "spots": [
+      {"x": 0.09, "y": 0.55, "zoom": 2.8, "r": 0.07, "shape": "rect", "title": "The garland", "text": "A woman lifts her arms to wind ivy around her body. Her skin is left almost the color of the canvas, held together by a single dark contour."},
+      {"x": 0.52, "y": 0.88, "zoom": 2.6, "r": 0.14, "title": "The double flute", "text": "A pink figure lies on a patch of blue grass and plays two pipes at once. Music is the only activity in this country, along with love and sleep."},
+      {"x": 0.88, "y": 0.82, "zoom": 2.2, "r": 0.15, "title": "The lovers", "text": "Two bodies fold into one rounded shape. Count the heads: you will only find one clearly. Matisse fuses the couple so the outline matters more than the anatomy."},
+      {"x": 0.87, "y": 0.54, "zoom": 3.2, "r": 0.07, "title": "The goatherd", "text": "A small orange boy pipes to his goats. He is the one figure with a job, borrowed from ancient pastoral poetry, where shepherds spend their days making songs."}
+    ]},
+    {"type": "text", "text": "Did the sizes bother you? The goatherd is tiny, yet the two women lying next to him are giants. The lovers in the corner are bigger still, and the flute player beside them is half their scale. Nothing shrinks with distance the way it should. Each group lives in its own bubble, sized by how much room the design can give it."},
+    {"type": "fact", "text": "Paul Signac, a painter who had supported Matisse and even bought one of his earlier canvases, was furious. He wrote to a friend that Matisse “seems to have gone to the dogs” and complained of flat colors ringed by a line as thick as a thumb."},
+    {"type": "text", "text": "That thick line was the real provocation. For twenty years, advanced painting in France had meant small touches of color and no outlines at all. Matisse brings drawing back, but as something that swings and loops across the surface, an arabesque: a flowing, decorative curve borrowed from Islamic ornament."},
+    {"type": "lines", "text": "Three shapes hold this loose-looking meadow together.", "lines": [
+      {"points": [[0.36, 0.385], [0.72, 0.385]], "closed": false, "label": "The sea", "text": "One blue band, perfectly level. It is the only straight line in the picture, and everything curved leans on it."},
+      {"points": [[0.38, 0.71], [0.48, 0.66], [0.59, 0.63], [0.66, 0.56], [0.74, 0.60], [0.83, 0.70]], "closed": false, "label": "The long arch", "text": "The two reclining women form one slow wave, feet to feet. Their bodies are outlined in green and red, colors no shadow ever had."},
+      {"points": [[0.49, 0.42], [0.55, 0.44], [0.57, 0.50], [0.55, 0.56], [0.49, 0.58], [0.43, 0.56], [0.42, 0.50], [0.44, 0.44]], "closed": true, "label": "The ring", "text": "At the exact center of the canvas, far away, a circle of dancers spins. The whole meadow seems to turn around it."}
+    ]},
+    {"type": "key", "text": "In The Joy of Life, color and line stop describing things and start composing, like notes in music. A tree can be pink and a shadow can be green if the harmony needs it."},
+    {"type": "text", "text": "The trees do the same work as stage curtains. On the left they glow orange and yellow, on the right they cool to green and lilac, and between them they pull apart to show a pale sky. You are looking into a clearing as you would look into a theater."},
+    {"type": "fact", "text": "The yellows you see are not the ones Matisse painted. He used cadmium yellow, a new and brilliant pigment at the time, and in places it has slowly faded to ivory or turned brownish. Conservation scientists have studied this painting to understand why."},
+    {"type": "text", "text": "The picture was bought by Leo and Gertrude Stein, American siblings whose Paris apartment was the place to see new art. A young Spaniard was a regular guest there. Pablo Picasso had to look at Matisse's triumph every Saturday evening."},
+    {"type": "text", "text": "The following year Picasso painted Les Demoiselles d'Avignon: also a large canvas of nudes, but jagged, cramped and confrontational where Matisse's is spacious and sweet. Many historians read it as a direct answer. The rivalry between the two men, which lasted half a century, starts in this meadow."},
+    {"type": "find", "text": "Matisse liked one small group here so much that he later gave it a canvas of its own, larger than this entire painting. Can you tap it?", "spots": [
+      {"x": 0.49, "y": 0.50, "zoom": 3.4, "r": 0.09, "title": "The round dance", "text": "Six tiny figures holding hands in a ring. Three years later Matisse enlarged this idea into Dance, with five dancers each bigger than a real person."}
+    ]},
+    {"type": "text", "text": "So a detail you could cover with your palm became one of the most famous images of the twentieth century. That is typical of how Matisse worked: he rarely abandoned a good shape. He turned it over, simplified it, and tried it again at another scale."},
+    {"type": "fact", "text": "The American collector Albert Barnes bought the painting in the 1920s and hung it on a stair landing in his private foundation near Philadelphia. For decades visitors were few, and color reproductions were forbidden, so this hugely influential picture was known mostly in black and white."},
+    {"type": "explore", "spots": [
+      {"x": 0.23, "y": 0.53, "zoom": 3.0, "r": 0.08, "shape": "rect", "title": "The embrace", "text": "Two standing figures painted in pale blue-gray, as if cut from the same sheet. One reaches an arm out toward the meadow."},
+      {"x": 0.18, "y": 0.76, "zoom": 2.8, "r": 0.11, "title": "Picking flowers", "text": "A crouching woman bends her back into a perfect hoop. Her body repeats the curve of the tree trunks above her."},
+      {"x": 0.62, "y": 0.64, "zoom": 2.2, "r": 0.14, "title": "Red hair, black hair", "text": "The two central nudes meet at their heads. The orange hair of one is set right against the green shadow of the other: opposite colors that make each other louder."},
+      {"x": 0.91, "y": 0.58, "zoom": 4.0, "r": 0.05, "title": "The goats", "text": "A few quick strokes in gray and white. Up close they are barely animals at all, yet from a distance nobody misreads them."},
+      {"x": 0.79, "y": 0.30, "zoom": 2.4, "r": 0.10, "title": "A pink tree", "text": "The foliage is a lilac cloud with a dark green outline. Matisse picked the color for what it does next to the yellow ground, not for botany."},
+      {"x": 0.14, "y": 0.15, "zoom": 2.0, "r": 0.14, "title": "Thin paint", "text": "In this corner the color is scrubbed on so lightly that the weave of the canvas shows. Matisse left it looking fresh instead of finished."}
+    ]},
+    {"type": "text", "text": "Since 2012 the Barnes collection has lived in central Philadelphia, and the painting is easier to visit than at any time in its life. It still hangs high, away from the main rooms. Stand under it and ask yourself the question Picasso must have asked: after this, what is a painter allowed to do?"}
+  ],
+  "quiz": [
+    {"question": "What was unusual about Matisse's entry to the 1906 Salon des Indépendants?", "options": ["He sent a sculpture", "He sent only this one painting", "He was refused by the jury"], "answer": 1, "explanation": "The show had no jury, and Matisse chose to send a single large canvas."},
+    {"question": "What did Paul Signac dislike about the picture?", "options": ["Its flat colors and thick outlines", "Its small size", "Its religious subject"], "answer": 0, "explanation": "He complained of flat tints surrounded by a line as thick as a thumb."},
+    {"question": "Which later work by Matisse grew out of the small ring of dancers in the center?", "options": ["The Red Studio", "Goldfish", "Dance"], "answer": 2, "explanation": "He enlarged the round dance into the monumental Dance three years later."},
+    {"question": "Why do some yellow areas look paler or browner today?", "options": ["The cadmium yellow pigment has changed over time", "Matisse scraped them off", "A restorer repainted them"], "answer": 0, "explanation": "The cadmium yellow he used has faded or darkened in places."},
+    {"question": "Which painting is often read as Picasso's answer to The Joy of Life?", "options": ["Guernica", "Les Demoiselles d'Avignon", "The Old Guitarist"], "answer": 1, "explanation": "Picasso painted it the following year after seeing Matisse's canvas at the Steins' home."}
+  ],
+  "facts": [
+    {"text": "The figures in The Joy of Life get smaller with distance according to strict perspective.", "isTrue": false, "explanation": "Their sizes are inconsistent: each group is scaled to suit the design."},
+    {"text": "The first owners of the painting were Leo and Gertrude Stein.", "isTrue": true, "explanation": "The American siblings bought it and hung it in their Paris apartment."},
+    {"text": "For decades the Barnes Foundation did not allow the painting to be reproduced in color.", "isTrue": true, "explanation": "It was known mostly through black-and-white images."}
+  ]
+}

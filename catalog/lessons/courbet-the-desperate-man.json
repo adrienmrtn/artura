@@ -1,0 +1,38 @@
+{
+  "teaser": "For thirty years its only audience was the man in the picture.",
+  "focus": [0.48, 0.42],
+  "review_notes": "Date: the catalog gives 1845; the work is usually dated 1843-45, and the red inscription at lower left of this image seems to read '41' above the signature. Lesson says 'in his mid-twenties' and avoids a precise year.\nSize 45 x 54 cm.\nClaim that the painting was never exhibited in Courbet's lifetime and stayed with him until his death in 1877 at La Tour-de-Peilz: standard account, please confirm.\nDr Paul Collin's description of the picture in the Swiss studio in 1877 is paraphrased, not quoted.\nSalon statistics (about two dozen works submitted in the 1840s, three accepted): approximate, lesson says 'almost everything'.\nVendome Column bill of about 323,000 francs.\nOwnership: catalog says private collection. In 2025 it was announced that the painting belongs to Qatar Museums and is on long loan to the Musee d'Orsay; the lesson mentions this cautiously, verify or cut.",
+  "lesson": [
+    {"type": "text", "text": "The first known reaction to this picture comes from a doctor. In 1877, Paul Collin was called to a house on Lake Geneva to care for a dying man, and he noticed a small canvas in the studio: a young fellow tearing at his hair, eyes wide. The patient was the same man, thirty years older and unrecognizable. He had named it Despair."},
+    {"type": "text", "text": "That is nearly the whole early audience. Gustave Courbet painted this self-portrait in his mid-twenties and never sold it, and as far as we know never exhibited it. It followed him from studio to studio for three decades, a face made to grab a crowd that almost nobody saw."},
+    {"type": "fact", "text": "It is much smaller than its fame suggests: about 45 by 54 centimeters (18 by 21 inches). The head is close to life-size, which means that in front of the real canvas you stand nose to nose with him."},
+    {"type": "text", "text": "The young Courbet had come to Paris from a small town in eastern France, sure of his genius. Paris was less sure. Through the 1840s the Salon, the official exhibition that could make a career, turned down almost everything he sent. Short of money for models, he used the one who was free: himself, again and again, in different roles."},
+    {"type": "text", "text": "Here the role is a man at the breaking point. But how do you paint panic with a still face in a mirror? Courbet solves it with three things: the eyes, the hands and the mouth. Go through them one by one."},
+    {"type": "tour", "title": "Anatomy of a panic", "text": "Three places where the feeling is built.", "spots": [
+      {"x": 0.47, "y": 0.39, "zoom": 3, "r": 0.13, "title": "The eyes", "text": "White shows all around each iris, the look of real alarm. A tiny bright dot in each pupil makes them wet and alive. They are aimed straight at you, or at his mirror."},
+      {"x": 0.2, "y": 0.37, "zoom": 2.8, "r": 0.11, "title": "The hands", "text": "One hand claws into the hair at the temple, the other clamps down on top of the skull. Tendons and veins stand out. These are a strong man's hands with nothing to hit."},
+      {"x": 0.48, "y": 0.56, "zoom": 3.2, "r": 0.08, "title": "The mouth", "text": "The lips are parted but no cry comes. With the red cheeks beside them, they suggest someone who has been running, or has just been told something he cannot take in."}
+    ]},
+    {"type": "text", "text": "There is a touch of theater in all this, and Courbet knew it. The loose white shirt and long hair are the costume of the Romantic artist, the misunderstood genius that young painters of the 1840s loved to play. He is trying on a legend."},
+    {"type": "text", "text": "What keeps it from being only a pose is the way the picture is cut. Portraits are usually upright, with air around the sitter. This one is turned on its side and the figure is too big for it, so the elbows hit the edges."},
+    {"type": "lines", "text": "Two lines show how tightly he is boxed in.", "lines": [
+      {"points": [[0.02, 0.46], [0.2, 0.3], [0.5, 0.04], [0.76, 0.26], [0.97, 0.36]], "closed": false, "label": "The arms", "text": "From elbow to elbow, the arms form a roof over the head and run out of room on both sides. Wherever your eye starts, it slides down into the face."},
+      {"points": [[0.0, 0.0], [0.2, 0.15], [0.42, 0.3]], "closed": false, "label": "The light", "text": "Hard light falls from the upper left, like a lamp in a dark room. It bleaches the forehead and the sleeves and leaves the jaw and neck in shadow."}
+    ]},
+    {"type": "key", "text": "A cropped, sideways frame and a blast of light turn a mirror study into a close-up. Courbet invented the feeling of a film still about fifty years before cinema existed."},
+    {"type": "fact", "text": "When the doctor saw it, Courbet was in exile in Switzerland. After the Paris uprising of 1871 he was blamed for the toppling of a Napoleonic monument, the Vendôme Column, and billed more than 300,000 francs to rebuild it. He fled in 1873 and took this picture with him."},
+    {"type": "text", "text": "He died there on the last day of 1877, ruined, with his young self still on the wall. The painting stayed in private hands and has rarely been shown since. In 2025 it reappeared on loan at the Musée d'Orsay in Paris. So the question the picture asks is finally public: is he looking at you, or still only at himself?"}
+  ],
+  "quiz": [
+    {"question": "Who is the model for The Desperate Man?", "options": ["A hired actor", "Courbet himself", "The doctor Paul Collin"], "answer": 1, "explanation": "It is a self-portrait painted when Courbet was in his mid-twenties."},
+    {"question": "What is unusual about the shape of this portrait?", "options": ["It is wider than it is tall, and the figure barely fits", "It is round", "It is taller than a door"], "answer": 0, "explanation": "The horizontal format crops the elbows and pushes the face toward you."},
+    {"question": "Where does the light come from?", "options": ["From below", "From behind the head", "From the upper left"], "answer": 2, "explanation": "It strikes the forehead and sleeves from the upper left and leaves the jaw in shadow."},
+    {"question": "What happened to the painting during Courbet's life?", "options": ["He kept it with him and took it into exile", "It won a medal at the Salon", "He sold it to the Emperor"], "answer": 0, "explanation": "He never sold it and carried it to Switzerland in 1873."},
+    {"question": "Why did Courbet paint himself so often in the 1840s?", "options": ["Self-portraits were required by the Salon", "He was short of money for models and wanted to try on roles", "He had no other subjects in mind"], "answer": 1, "explanation": "He was the one model who cost nothing, and he used himself to play different characters."}
+  ],
+  "facts": [
+    {"text": "The Desperate Man is a huge canvas, several meters wide.", "isTrue": false, "explanation": "It measures only about 45 by 54 centimeters."},
+    {"text": "Courbet had the painting with him when he died in Switzerland.", "isTrue": true, "explanation": "A doctor described seeing it in his studio there in 1877."},
+    {"text": "In the picture, his mouth is wide open in a scream.", "isTrue": false, "explanation": "The lips are only parted, and no cry comes out."}
+  ]
+}

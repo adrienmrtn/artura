@@ -1,0 +1,38 @@
+{
+  "teaser": "The most copied hands in the world were a working sketch for a painting that burned.",
+  "focus": [0.3, 0.5],
+  "review_notes": "Brush and gray and white ink on blue prepared paper, about 29 x 20 cm, 1508.\nStudy for the hands of a kneeling apostle in the Heller Altarpiece (commissioned 1507 by the Frankfurt merchant Jakob Heller, delivered 1509). Central panel by Dürer destroyed in the Munich Residenz fire of 1729; known from a copy by Jobst Harrich in Frankfurt.\nPopular legend of the brother who worked in the mines: no historical basis (Dürer's father was a goldsmith; his brothers Endres and Hans became a goldsmith and a painter).\nDürer's letters to Heller: complaints about time and pay and the remark that he would stick to engraving are paraphrased.\nThe sheet was originally larger and also carried a study of an apostle's head, later cut off: reported by the Albertina, check.\nWhose hands served as model is unknown (a suggestion that they are Dürer's own is unproven and left out).",
+  "lesson": [
+    {"type": "text", "text": "Whose hands are these? You have probably met them before: on a sympathy card, a gravestone, a pendant, a tattoo, a plaster plaque in a grandparent's hallway. Few images have been reproduced as often. Most people who own a copy could not tell you who drew them, and the story they may have heard is not true."},
+    {"type": "text", "text": "The story goes that two poor brothers both wanted to be artists. One went down the mines to pay for the other's training, and when Albrecht came home famous, his brother's fingers were too ruined to hold a brush. So Albrecht drew them in tribute. It is moving, and invented. Dürer's father was a goldsmith, and no brother of his was a miner."},
+    {"type": "text", "text": "The facts are drier. In 1507 a rich merchant from Frankfurt, Jakob Heller, ordered an altarpiece from Dürer, a large painting to stand on a church altar. Dürer prepared it with unusual care, drawing heads, feet, folds of cloth and hands one by one. These belong to an apostle who kneels at the front and looks up at the Virgin Mary rising to heaven."},
+    {"type": "fact", "text": "The painting these hands were made for no longer exists. A later owner, the Duke of Bavaria, took Dürer's panel to his palace in Munich, where it burned in a fire in 1729. Only an old copy shows what it looked like. The sketch outlived the finished work."},
+    {"type": "text", "text": "The sheet is about 29 by 20 centimeters (11 by 8 inches), so the hands are close to life-size. Dürer first coated the paper with blue color. Then he drew with the tip of a brush, using only two inks: one dark gray, one white. No pencil, no pen, no eraser. Three tones in all, and each has its own job."},
+    {"type": "tour", "title": "Three tones", "text": "Blue, dark, white: see what each one is used for.", "spots": [
+      {"x": 0.28, "y": 0.56, "zoom": 2.6, "r": 0.11, "title": "White for light", "text": "On the back of the nearer hand, fine white lines curve around the knuckles and tendons like contour lines on a map. Wherever light strikes the skin, Dürer draws it in."},
+      {"x": 0.5, "y": 0.52, "zoom": 2.8, "r": 0.09, "title": "Dark for shadow", "text": "Along the far edge of the hands and down the wrist, dense dark strokes cross each other. This net of lines, called hatching, turns the form away from the light."},
+      {"x": 0.57, "y": 0.75, "zoom": 2.4, "r": 0.12, "title": "A sleeve in a few lines", "text": "The turned-back cuff is treated faster: a wash of thin gray, then a quick lattice of white on top. Finished hands, summary sleeve. He knew what he needed from this sheet."},
+      {"x": 0.76, "y": 0.4, "zoom": 1.6, "r": 0.18, "title": "Blue for everything else", "text": "The right half is left empty. The same untouched blue also sits inside the hands, between the white and dark lines, as the middle tone of the skin."}
+    ]},
+    {"type": "text", "text": "This is the economy of the method. On white paper an artist can only add darkness. On a colored sheet he starts in the middle and can go both ways, toward shadow and toward light. Dürer had seen the technique in Venice. The colored ground does half the modeling before the brush even arrives."},
+    {"type": "key", "text": "The hands look solid because of three tones working together: the blue paper for the middle, dark lines for shadow, white lines for light."},
+    {"type": "text", "text": "They also look real because they are not tidy. A symbol of prayer would be two perfect mirror halves. These are somebody's actual hands, a little bony, veins raised, and the two sides do not quite match. One finger in particular refuses to line up."},
+    {"type": "find", "text": "Most of the fingers lie neatly side by side. One digit stands apart. Which?", "spots": [
+      {"x": 0.42, "y": 0.34, "zoom": 3.6, "r": 0.05, "title": "The stray thumb", "text": "A thumb sticks up on its own behind the others, nail toward us, slightly bent. A copyist tidying things up would have tucked it in. Dürer drew what was in front of him."}
+    ]},
+    {"type": "fact", "text": "The job the sketch was made for soured. In his letters to Heller, Dürer complained that the altarpiece had eaten more than a year, asked for a higher fee, and declared he would go back to engraving, which paid better for less trouble."},
+    {"type": "text", "text": "The sheet was once larger and held a second study, an apostle's head, later cut away. What remained began its second life centuries afterward, when cheap printing put it in millions of homes as an emblem of faith. So, whose hands? A model in a Nuremberg workshop in 1508. Nobody wrote down the name."}
+  ],
+  "quiz": [
+    {"question": "What were the hands drawn for?", "options": ["A tribute to Dürer's brother", "A study for an apostle in an altarpiece", "An illustration for a prayer book"], "answer": 1, "explanation": "They prepare the hands of a kneeling apostle in the altarpiece ordered by Jakob Heller."},
+    {"question": "What happened to the finished painting?", "options": ["It burned in a palace fire in 1729", "It hangs next to the drawing in Vienna", "It was never started"], "answer": 0, "explanation": "Dürer's panel was destroyed by fire in Munich; only a copy survives."},
+    {"question": "What does the blue paper do in the drawing?", "options": ["It hides mistakes", "It imitates the sky", "It serves as the middle tone between light and shadow"], "answer": 2, "explanation": "Starting from a colored ground lets the artist add both darks and white lights."},
+    {"question": "What is hatching?", "options": ["A net of drawn lines used to create shadow", "Scratching into wet paint", "Coating paper with color"], "answer": 0, "explanation": "The dense dark strokes along the far edge of the hands are hatching."},
+    {"question": "Which detail shows Dürer drew real hands as he saw them?", "options": ["A ring on one finger", "A thumb that sticks up apart from the rest", "A scar across the knuckles"], "answer": 1, "explanation": "The stray thumb breaks the symmetry a symbol would have."}
+  ],
+  "facts": [
+    {"text": "Dürer drew the hands in honor of a brother who worked in the mines.", "isTrue": false, "explanation": "That is a popular legend; they are a study for an altarpiece."},
+    {"text": "The drawing uses only dark and white ink on blue paper.", "isTrue": true, "explanation": "Three tones in all: the blue ground, dark lines and white lines."},
+    {"text": "The sheet has always had the size it has today.", "isTrue": false, "explanation": "It was once larger and included a study of an apostle's head."}
+  ]
+}

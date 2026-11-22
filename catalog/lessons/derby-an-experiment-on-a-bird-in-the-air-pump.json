@@ -1,0 +1,60 @@
+{
+  "teaser": "A white bird is running out of air, and one man's hand decides what happens next.",
+  "focus": [0.5, 0.3],
+  "review_notes": "Painted in Derby for the 1768 Society of Artists exhibition in London (Spring Gardens): confirm venue.\nFirst owner Dr Benjamin Bates of Aylesbury: confirm.\nMezzotint by Valentine Green published 1769: confirm.\nObject in the jar described as 'usually read as a human skull': some scholars propose other readings.\nThe seated man at left is said to hold a watch to time the experiment: the hand is visible on the table at about (0.41, 0.74) but the watch is tiny in this image.\nWright's friendships with Lunar Society members (Erasmus Darwin, John Whitehurst) and the full-moon meeting habit of that society.\nGiven to the National Gallery in 1863: confirm.\nDimensions 183 x 244 cm.",
+  "lesson": [
+    {"type": "text", "text": "This picture was built for a wall in London. In the spring of 1768 the Society of Artists opened its yearly exhibition, a room hung frame against frame from floor to ceiling, where hundreds of paintings fought for a visitor's eye. Joseph Wright sent this one down from Derby, a market town some 200 kilometers (125 miles) to the north."},
+    {"type": "text", "text": "He made it to win that fight. The canvas is about 1.8 by 2.4 meters (6 by 8 feet), a size painters normally kept for kings, saints and battles. And it is dark, so dark that in a bright room full of portraits it must have looked like a hole in the wall with a fire burning inside."},
+    {"type": "text", "text": "The fire is a single candle, and the subject is a science show. In the 1760s traveling lecturers carried instruments from town to town and performed in private homes for a fee. The star instrument was the air pump, which sucks the air out of a glass globe. Put a living creature inside, and the audience sees what air is for."},
+    {"type": "tour", "title": "The machine", "text": "Follow the experiment from bottom to top, the way the air leaves the globe.", "spots": [
+      {"x": 0.39, "y": 0.62, "zoom": 3, "r": 0.07, "shape": "rect", "title": "Brass cylinders", "text": "The twin barrels of the pump. A crank drives pistons inside them, and each stroke pulls a little more air out of the glass above."},
+      {"x": 0.5, "y": 0.265, "zoom": 3.4, "r": 0.07, "title": "The bird", "text": "A white cockatoo has collapsed at the bottom of the globe, one wing spread. It is suffocating. Such a costly, exotic bird would rarely have been risked: lecturers used sparrows or mice."},
+      {"x": 0.53, "y": 0.1, "zoom": 3.4, "r": 0.05, "title": "The hand on the valve", "text": "The lecturer's left hand sits on the stopper at the top of the globe. One twist lets the air rush back in and the bird lives. Wright stops the story before the twist."}
+    ]},
+    {"type": "text", "text": "So the painting is a held breath. Nothing tells you whether that hand will move in time. Wright could have painted the happy ending, with the bird fluttering back to life. He chose the second when nobody in the room knows."},
+    {"type": "fact", "text": "The air pump was already more than a century old. Otto von Guericke built the first one in Germany around 1650, and Robert Boyle used an improved model in the 1660s to test animals in a vacuum. By Wright's day it was closer to a parlor entertainment than to cutting-edge research."},
+    {"type": "text", "text": "With the machine understood, the real subject comes forward: the people. Wright gives each of the ten figures a different answer to the same event. It works like a survey of how humans meet a new and troubling kind of knowledge."},
+    {"type": "explore", "spots": [
+      {"x": 0.385, "y": 0.28, "zoom": 3, "r": 0.07, "title": "The lecturer", "text": "Long gray hair, red robe, and eyes aimed straight out of the picture at you. He is the only one who looks at the viewer, as if asking you to decide for him."},
+      {"x": 0.66, "y": 0.5, "zoom": 3, "r": 0.06, "title": "The girl who cannot watch", "text": "The older girl covers her eyes with her hand. Her whole body turns away from the globe."},
+      {"x": 0.59, "y": 0.56, "zoom": 3.2, "r": 0.05, "title": "The girl who must watch", "text": "Her little sister stares up at the bird, worried but unable to look away. Her face is the brightest thing in the room after the jar."},
+      {"x": 0.61, "y": 0.39, "zoom": 2.8, "r": 0.07, "title": "The explainer", "text": "A man wraps an arm around the girls and points up at the globe. Is he comforting them or teaching them? Probably both."},
+      {"x": 0.21, "y": 0.35, "zoom": 2.6, "r": 0.09, "title": "The couple", "text": "A young man and a woman in a white lace cap look only at each other. For them the experiment is background noise."},
+      {"x": 0.3, "y": 0.52, "zoom": 2.4, "r": 0.08, "title": "The timekeeper", "text": "Seen from behind in dark green, this man leans in calmly with his hand on the table. He is usually said to hold a watch, counting how long the bird lasts."},
+      {"x": 0.775, "y": 0.53, "zoom": 2.8, "r": 0.07, "title": "The thinker", "text": "An older man with gray hair ignores the bird completely. Chin lowered, he gazes at the glass jar on the table."}
+    ]},
+    {"type": "key", "text": "Wright did not paint an experiment. He painted ten reactions to it: curiosity, fear, indifference, calculation, tenderness, doubt. The question he leaves with you is which of them is yours."},
+    {"type": "text", "text": "Now, where does the light come from? You can feel a candle, yet you cannot see a flame anywhere. Wright hid it, and the hiding place is the strangest object on the table."},
+    {"type": "find", "text": "The only lamp in the room is concealed behind something. Tap the object that glows.", "spots": [
+      {"x": 0.495, "y": 0.67, "zoom": 3.6, "r": 0.06, "title": "The jar", "text": "A large glass of cloudy liquid stands in front of the candle and shines like a lantern. The dark lump floating inside is usually read as a human skull, an old reminder that everything alive will die."}
+    ]},
+    {"type": "text", "text": "A skull lit by a candle was a stock symbol in older religious paintings: it told the viewer that life is short. Wright slips it into a modern living room, right under a dying bird, and seats a thoughtful old man in front of it. The new science has not chased the old questions away."},
+    {"type": "fact", "text": "Wright had no need to imagine this crowd. Derby and nearby Birmingham were home to a circle of doctors, clockmakers and factory owners who met to discuss experiments. Some of them, including the physician Erasmus Darwin, grandfather of Charles Darwin, were his friends and sitters."},
+    {"type": "text", "text": "The way the picture is lit has a name: chiaroscuro, Italian for “light-dark,” meaning strong contrasts between bright and shadowed areas. Painters had used it for 150 years, mostly for saints and martyrs. Wright's twist was to spend that sacred, dramatic light on a glass globe and a brass pump."},
+    {"type": "lines", "text": "Two sources of light, and one path your eye is made to climb.", "lines": [
+      {"points": [[0.495, 0.66], [0.2, 0.36], [0.385, 0.28], [0.61, 0.38], [0.78, 0.52], [0.495, 0.66]], "closed": true, "label": "The ring of faces", "text": "The hidden candle lights the faces from below and they form a rough oval around the table. Beyond that ring, the room dissolves into black."},
+      {"points": [[0.495, 0.66], [0.5, 0.27], [0.53, 0.1]], "closed": false, "label": "The vertical", "text": "Jar, bird, hand. The three objects that hold the story sit one above the other on the central axis, like a sentence read upward: death, a life in danger, a choice."},
+      {"points": [[0.92, 0.25], [0.83, 0.4]], "closed": false, "label": "The second light", "text": "At the far right a cold light enters: a full moon between clouds, seen through the window. It touches a boy who stands apart from the warm circle."}
+    ]},
+    {"type": "text", "text": "That boy is the last riddle. He holds a cord attached to the empty birdcage hanging above him. He may be lowering it, ready to welcome the cockatoo back. Or he may be hoisting it away because it will not be needed. His face, turned toward us, gives nothing away."},
+    {"type": "find", "text": "The cockatoo's home is still in the room. Can you spot the empty cage?", "spots": [
+      {"x": 0.8, "y": 0.13, "zoom": 2.6, "r": 0.08, "title": "The cage", "text": "A domed wire cage hangs near the ceiling, almost swallowed by shadow. Its door is the picture's quiet promise, or its quiet threat."}
+    ]},
+    {"type": "fact", "text": "Most people in the 1700s met this painting in black and white. A year after the exhibition it was copied as a mezzotint, a printing method that builds an image from velvety blacks toward the lights. The technique suited Wright's candlelit scenes perfectly, and the prints sold across Europe."},
+    {"type": "text", "text": "The canvas itself went to a private buyer and stayed out of public view for decades before being given to the National Gallery in 1863. Critics there long treated Wright as a provincial curiosity. Today the room in London where it hangs is rarely empty, and people still argue in front of it about the hand on the valve."},
+    {"type": "text", "text": "Go back to the lecturer's eyes one more time. Two and a half centuries on, he is still looking out, hand raised, waiting. The air has not come back in yet."}
+  ],
+  "quiz": [
+    {"question": "Where does the light in the room come from?", "options": ["A fireplace on the left", "A candle hidden behind a glass jar", "A chandelier above the table"], "answer": 1, "explanation": "Wright hides the candle behind the jar of cloudy liquid, which glows like a lantern."},
+    {"question": "What does an air pump do?", "options": ["It removes the air from a glass globe", "It heats air to make it glow", "It fills a balloon with gas"], "answer": 0, "explanation": "The pump's pistons pull the air out of the globe, creating a vacuum."},
+    {"question": "Which figure looks directly at the viewer?", "options": ["The girl hiding her face", "The old man by the jar", "The lecturer in the red robe"], "answer": 2, "explanation": "The gray-haired lecturer stares out of the picture, as if handing you the decision."},
+    {"question": "What was unusual about the size of this canvas?", "options": ["It was tiny, made to be held in the hand", "It was as large as paintings of kings and battles", "It was round"], "answer": 1, "explanation": "At about 1.8 by 2.4 meters it used a scale normally reserved for grand subjects."},
+    {"question": "What does “chiaroscuro” mean?", "options": ["Strong contrast between light and dark", "Painting on wet plaster", "A scene from daily life"], "answer": 0, "explanation": "It is Italian for “light-dark” and describes dramatic contrasts of bright and shadowed areas."},
+    {"question": "How did most people of the time get to know the picture?", "options": ["Through a touring show of the canvas", "Through newspaper descriptions only", "Through black-and-white mezzotint prints"], "answer": 2, "explanation": "A mezzotint made a year after the exhibition spread the image across Europe."}
+  ],
+  "facts": [
+    {"text": "The painting shows the bird flying free after the experiment.", "isTrue": false, "explanation": "Wright freezes the scene before anyone knows whether the bird will be saved."},
+    {"text": "The air pump had been invented more than a hundred years before Wright painted it.", "isTrue": true, "explanation": "Otto von Guericke built the first one around 1650."},
+    {"text": "A sun rising in the window gives the room its second source of light.", "isTrue": false, "explanation": "It is a full moon between clouds, at the far right."}
+  ]
+}

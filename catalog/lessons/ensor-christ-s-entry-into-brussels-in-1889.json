@@ -1,0 +1,299 @@
+{
+ "teaser": "Jesus rides into a modern city. Try to find him in the parade.",
+ "focus": [
+  0.46,
+  0.4
+ ],
+ "review_notes": "Size about 253 x 431 cm (Getty: 252.7 x 430.5 cm).\nPainted in the attic studio above the family souvenir shop in Ostend; canvas too large for the room, worked on in sections while partly rolled or tacked to the wall.\nRejected by Les XX for the 1889 exhibition; first public showing in 1929 (Brussels retrospective); Ensor made a baron the same year.\nChrist's face often read as a self-portrait of Ensor.\nResponse to Seurat's Grande Jatte shown at Les XX in 1887.\nBought by the Getty Museum in 1987.\nBanner readings from the image: 'VIVE LA SOCIALE', 'FANFARES DOCTRINAIRES TOUJOURS REUSSI', 'VIVE JESUS ROI DE BRUXELLES'; signature 'J. ENSOR 1888' on the green platform.\nThe foreground figure in a mitre with a baton is read as a bishop acting as drum major.\nThe title's date (1889) versus the painted date (1888): the listed year 1888 is the date of execution.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "If Jesus rode into your city this weekend, in the middle of a street festival, how long would it take anyone to look up? James Ensor asked himself that question in 1888 and answered it on a canvas about 2.5 meters high and 4.3 meters wide (roughly 8 by 14 feet). His answer was not flattering."
+  },
+  {
+   "type": "text",
+   "text": "The title borrows from the Gospel story of Palm Sunday, when Jesus enters Jerusalem on a donkey and crowds lay branches in his path. Ensor moves the event to the capital of Belgium and dates it one year into the future. Then he buries the guest of honor in his own welcome party."
+  },
+  {
+   "type": "find",
+   "text": "Christ is in this picture. Tap where you think he is.",
+   "spots": [
+    {
+     "x": 0.456,
+     "y": 0.345,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "Christ on the donkey",
+     "text": "A small figure in red with a big yellow halo, one hand raised in blessing, riding a gray donkey. He sits in the middle of the canvas, yet he is one of the smallest faces in it. Nobody near him is looking."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That is the joke and the wound of the painting. The center is where a hero should be, and Ensor puts him there, but at the size of a thumbnail, halfway back, behind a brass band. The crowd is not following him. It is marching in front of him, blocking the view."
+  },
+  {
+   "type": "fact",
+   "text": "Ensor grew up above his family's souvenir shop in the seaside town of Ostend. It sold seashells, china, stuffed fish and, at carnival time, papier-mâché masks. The grinning faces that fill his paintings were literally the stock of the family business."
+  },
+  {
+   "type": "text",
+   "text": "So what is everyone celebrating, if not him? Read the signs. Ensor wrote slogans all over the scene, the way a street is plastered with posters before an election."
+  },
+  {
+   "type": "tour",
+   "title": "Reading the banners",
+   "text": "Three pieces of text, three things the crowd cares about more than Christ.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.085,
+     "zoom": 1.8,
+     "r": 0.26,
+     "title": "Vive la Sociale",
+     "text": "A red banner stretches across the top: “Long live the Social,” a left-wing rallying cry of the day for a welfare state. Politics hangs over the whole parade, literally above Christ's head."
+    },
+    {
+     "x": 0.31,
+     "y": 0.38,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The band's flag",
+     "text": "A diamond-shaped pennant reads “Fanfares doctrinaires, toujours réussi”: doctrinaire brass bands, always a success. A jab at people who march behind fixed ideas and congratulate themselves."
+    },
+    {
+     "x": 0.96,
+     "y": 0.64,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "King of Brussels",
+     "text": "On a red placard at the right edge: “Vive Jésus, roi de Bruxelles.” Long live Jesus, king of Brussels. He is welcomed as a local celebrity, a mascot for the city."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Socialists, the army, the Church, the town council: everyone has turned up with a banner, and each group is using the occasion for itself. Ensor does not pick a side. The picture is rude to all of them equally."
+  },
+  {
+   "type": "text",
+   "text": "He was twenty-eight and furious. A year earlier the Brussels avant-garde had gone wild for a visiting French picture, Georges Seurat's Sunday on La Grande Jatte, built from thousands of tidy dots. Ensor, until then the local rebel, felt pushed aside. His reply was this: huge, loud, and as untidy as he could make it."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas was too big for his attic studio. He is said to have painted it in sections, with part of the cloth rolled up or tacked to the wall, so that he could not step back and see the whole thing while he worked."
+  },
+  {
+   "type": "text",
+   "text": "That may be why it is organized less like a view and more like a flood. Still, there is a structure under the noise."
+  },
+  {
+   "type": "lines",
+   "text": "Two lines show how the crowd moves.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.3,
+       0.12
+      ],
+      [
+       0.02,
+       0.98
+      ],
+      [
+       0.98,
+       0.98
+      ],
+      [
+       0.72,
+       0.12
+      ]
+     ],
+     "closed": true,
+     "label": "The funnel",
+     "text": "The street is narrow and far away at the top, then spreads to fill the whole bottom edge. The parade pours down and outward, straight at you. There is no pavement left to stand on."
+    },
+    {
+     "points": [
+      [
+       0.0,
+       0.52
+      ],
+      [
+       0.78,
+       0.52
+      ]
+     ],
+     "closed": false,
+     "label": "The wall of soldiers",
+     "text": "A band of identical caps and faces crosses the middle. This military band separates Christ, behind, from the masked mob in front. He is cut off by a marching fence."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The nearer the figures come, the bigger and uglier they get, until the front row is a wall of heads as large as your hand. Many are not faces at all but masks, and with Ensor you can never tell which is which. For him a mask did not hide a person. It showed what the person was really like."
+  },
+  {
+   "type": "fact",
+   "text": "His own friends turned the painting down. Les XX, the Brussels artists' group Ensor had helped to found, refused to hang it in 1889. It stayed in his house for decades and was not shown in public until 1929, the same year the king of Belgium made him a baron."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.13,
+     "y": 0.89,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "Death in a top hat",
+     "text": "A skull under a tall green hat grins from the bottom left corner. Skeletons join most of Ensor's crowds. Death is simply another guest at the carnival."
+    },
+    {
+     "x": 0.225,
+     "y": 0.74,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The kiss",
+     "text": "Two heads pressed together, one with bulging eyes rolled upward. A couple too busy with each other to notice who is passing behind them."
+    },
+    {
+     "x": 0.53,
+     "y": 0.83,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The bishop",
+     "text": "A fat figure in a pointed mitre, the tall hat of a bishop, leads the procession with a baton like a drum major. The Church marches at the front, with its back to Christ."
+    },
+    {
+     "x": 0.46,
+     "y": 0.55,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The bandmaster",
+     "text": "Among the soldiers, a mustached man in glasses with a chest full of medals. Authority here is a costume, another mask among the masks."
+    },
+    {
+     "x": 0.8,
+     "y": 0.33,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The platform",
+     "text": "On a green stage stand a few dressed-up officials, one in a blue coat with a white sash. They have the best view and are chatting among themselves."
+    },
+    {
+     "x": 0.955,
+     "y": 0.22,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "The clown",
+     "text": "Next to the dignitaries, a clown in a white suit with red dots and a pointed yellow hat. Ensor sets officials and fools on the same stage."
+    },
+    {
+     "x": 0.84,
+     "y": 0.72,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "Signature",
+     "text": "“J. Ensor 1888,” written in red on the green front of the platform. He dated the picture to the year he painted it, not the year in its title."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice the paint as well as the people. Pure red, green, blue and white sit side by side, barely mixed, put on with brushes, knives and whatever was at hand. In 1888 almost nobody painted with this rawness. The German Expressionists, who a generation later used harsh color and distortion to show feeling, looked back at Ensor as one of their own."
+  },
+  {
+   "type": "text",
+   "text": "Many viewers think the tiny Christ has Ensor's own features: the artist as the ignored prophet, swallowed by a public that prefers a parade. It is a self-pitying idea, and a funny one, and he surely meant both."
+  },
+  {
+   "type": "key",
+   "text": "Ensor turned a sacred procession into a carnival to say something about crowds: each group cheers for its own banner, and the person the day was meant for becomes the hardest one to find."
+  },
+  {
+   "type": "text",
+   "text": "The painting now hangs in Los Angeles, bought by the Getty Museum in 1987, far from Brussels and from the attic in Ostend. Stand in front of it and the front row of masks is exactly at your height. You are not watching the parade. You are in its way."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where is Christ in the composition?",
+   "options": [
+    "Huge, in the front row",
+    "Small, in the middle, behind a marching band",
+    "Absent, only named on a banner"
+   ],
+   "answer": 1,
+   "explanation": "He rides a donkey at the center but is tiny and blocked by the band."
+  },
+  {
+   "question": "What did Ensor's family shop in Ostend sell at carnival time?",
+   "options": [
+    "Masks",
+    "Brass instruments",
+    "Religious paintings"
+   ],
+   "answer": 0,
+   "explanation": "The shop's papier-mâché masks became the faces in his pictures."
+  },
+  {
+   "question": "How did the artists' group Les XX react to the painting in 1889?",
+   "options": [
+    "They gave it a prize",
+    "They bought it for a museum",
+    "They refused to exhibit it"
+   ],
+   "answer": 2,
+   "explanation": "The group Ensor had helped found turned it down."
+  },
+  {
+   "question": "Which painting's success in Brussels provoked Ensor to make this one?",
+   "options": [
+    "Seurat's Sunday on La Grande Jatte",
+    "Manet's Olympia",
+    "Van Gogh's Starry Night"
+   ],
+   "answer": 0,
+   "explanation": "Seurat's dotted picture had made Ensor feel pushed aside."
+  },
+  {
+   "question": "What does the banner across the top say?",
+   "options": [
+    "Long live the King",
+    "Vive la Sociale",
+    "Welcome to Brussels"
+   ],
+   "answer": 1,
+   "explanation": "The red banner carries a left-wing political slogan."
+  },
+  {
+   "question": "For Ensor, what did a mask do?",
+   "options": [
+    "It protected a person's privacy",
+    "It was only a carnival decoration",
+    "It revealed what a person was really like"
+   ],
+   "answer": 2,
+   "explanation": "He used masks to expose character, not to hide it."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting was first shown to the public more than forty years after it was made.",
+   "isTrue": true,
+   "explanation": "Painted in 1888, it was not exhibited publicly until 1929."
+  },
+  {
+   "text": "Ensor painted the picture in a vast studio where he could always see the entire canvas.",
+   "isTrue": false,
+   "explanation": "His attic was too small, and he is said to have worked on it in sections."
+  },
+  {
+   "text": "A skeleton in a green top hat appears in the crowd.",
+   "isTrue": true,
+   "explanation": "A skull under a tall green hat grins from the bottom left corner."
+  }
+ ]
+}

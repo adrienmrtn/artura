@@ -1,0 +1,329 @@
+{
+ "teaser": "A deaf painter turned a frozen Dutch winter into a crowd you can almost hear.",
+ "focus": [
+  0.62,
+  0.6
+ ],
+ "review_notes": "IMAGE MISMATCH: the image is the Winter Landscape with Ice Skaters in the Bergen art museum (KODE, Norway), not the larger Rijksmuseum painting of the same title (the one with the brewery and the bird trap made from a door). The lesson describes only what this image shows and avoids naming the museum.\nOpening claim that the picture was made for the open market and a private house is the general rule for Dutch paintings of the time, not a documented fact about this panel.\nAvercamp is traditionally described as deaf and mute (nickname 'de Stomme van Kampen'; his mother's 1633 will calls him 'mute and miserable'); deafness is inferred.\nWinter of 1607-08 as exceptionally severe: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Picture a room in a Dutch town around 1610. Tiled floor, a heavy oak cupboard, a peat fire. This painting was made for a wall like that one. Not for an altar, not for a prince's gallery: for a brewer, a cloth merchant or a notary, who probably bought it ready-made, the way you would buy a print today."
+  },
+  {
+   "type": "text",
+   "text": "That was new. In the young Dutch Republic, churches had been stripped of images and there was no royal court handing out commissions. So painters worked for the open market and painted what ordinary buyers wanted to live with. Hendrick Avercamp, about 23 years old in 1608, bet on one subject: winter."
+  },
+  {
+   "type": "fact",
+   "text": "The bet was well timed. Europe was in the grip of what historians call the Little Ice Age, a run of centuries with unusually harsh winters. The winter of 1607 to 1608 was one of the worst on record, and Dutch rivers and canals froze solid for weeks."
+  },
+  {
+   "type": "text",
+   "text": "When water freezes in a country built on water, everything changes. The canals stop being roads for boats and become a public square. Rich and poor, who normally live apart, end up on the same sheet of ice. That mixing is Avercamp's real subject. Follow the ice from the far distance toward you."
+  },
+  {
+   "type": "tour",
+   "title": "From far to near",
+   "text": "The crowd is not a blur. Each small figure is busy with something.",
+   "spots": [
+    {
+     "x": 0.77,
+     "y": 0.37,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "A horse on the ice",
+     "text": "Far off, a horse pulls a sleigh across the frozen water. The ice is thick enough to carry animals and freight: for a few weeks it is the best road in the country."
+    },
+    {
+     "x": 0.855,
+     "y": 0.585,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "Still at work",
+     "text": "A man walks through the skaters with a huge bundle of reeds on his back. Not everyone here is on holiday. For him the ice is a shortcut."
+    },
+    {
+     "x": 0.775,
+     "y": 0.665,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "Dressed to be seen",
+     "text": "A lady in a wide black gown skates beside a gentleman in white sleeves. Fine clothes, stiff collars: the ice is also a place to show off."
+    },
+    {
+     "x": 0.855,
+     "y": 0.82,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "Hand in hand",
+     "text": "Two couples glide toward us holding hands, the woman in front wearing a bright red skirt. Courting on skates was a favorite Dutch joke, since love, like ice, is slippery."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Notice what you just did: you read the picture like a page of short stories. Buyers loved that. A painting like this was something to stand in front of with guests, pointing and laughing. And Avercamp always included a little bad luck, because a crowd on ice without a fall would be a lie."
+  },
+  {
+   "type": "find",
+   "text": "Somebody in the middle of the crowd has just fallen, and their hat has rolled away. Can you spot them?",
+   "spots": [
+    {
+     "x": 0.72,
+     "y": 0.637,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The tumble",
+     "text": "A figure sits flat on the ice in a white collar, and a dark hat lies a short slide away to the right. Nobody stops to help. Falls like this appear in almost every Avercamp."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The fall is funny, and it is also a small warning. Seventeenth-century viewers liked a picture that entertained and nudged at the same time. Life is slippery, pride comes before a fall: you could take the moral or leave it and simply enjoy the skating."
+  },
+  {
+   "type": "text",
+   "text": "Now the man himself. Avercamp was born in Amsterdam in 1585 and grew up in Kampen, a quiet harbor town where his father was the apothecary. He never spoke. Documents of the time call him “the Mute of Kampen”, and he was most likely deaf as well."
+  },
+  {
+   "type": "key",
+   "text": "A painter who lived in silence spent his life watching how people stand, lean, bend and balance. In his pictures a body's posture does all the talking."
+  },
+  {
+   "type": "text",
+   "text": "How do you fit a hundred people into one picture and keep them all visible? Avercamp borrowed a trick from the older Flemish painter Pieter Bruegel: he looks down from above, as if from an upstairs window, and pushes the horizon high up. Three lines show how the space is built."
+  },
+  {
+   "type": "lines",
+   "text": "The picture is a stage seen from a balcony.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.0,
+       0.3
+      ],
+      [
+       0.35,
+       0.3
+      ],
+      [
+       0.7,
+       0.3
+      ],
+      [
+       1.0,
+       0.3
+      ]
+     ],
+     "closed": false,
+     "label": "A high horizon",
+     "text": "Land and ice only meet the sky up here, in the top third. Everything below is floor space, tilted toward you so that no skater hides another."
+    },
+    {
+     "points": [
+      [
+       0.95,
+       0.97
+      ],
+      [
+       0.82,
+       0.7
+      ],
+      [
+       0.76,
+       0.45
+      ],
+      [
+       0.75,
+       0.33
+      ]
+     ],
+     "closed": false,
+     "label": "The frozen road",
+     "text": "The open ice narrows as it climbs toward the horizon. Figures shrink along it, from finger-sized at the bottom to tiny dashes at the top."
+    },
+    {
+     "points": [
+      [
+       0.4,
+       0.78
+      ],
+      [
+       0.385,
+       0.6
+      ],
+      [
+       0.36,
+       0.45
+      ],
+      [
+       0.335,
+       0.28
+      ],
+      [
+       0.3,
+       0.1
+      ]
+     ],
+     "closed": false,
+     "label": "The tree",
+     "text": "A bare trunk leans across the left half, dark against the pale sky. It works like a curtain pulled aside and makes the distance feel deeper."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Color does the rest. Up close the coats are strong: red, black, ocher. Farther away everything fades into the same milky pink and gray as the sky, until castle, trees and people almost dissolve. Painters call this atmospheric perspective: making distant things paler and hazier, the way real air does."
+  },
+  {
+   "type": "fact",
+   "text": "Avercamp did not paint these crowds on the spot. He filled sheets with pen and watercolor sketches of single figures, a fisherman, a lady, a boy on skates, then reused them in his studio. Some figures turn up in several different paintings."
+  },
+  {
+   "type": "text",
+   "text": "The left side of the picture is a different world. No skating, no finery: a farmyard under snow, a well, a beehive on a post, birds picking at the ground. You can wander it on your own."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.27,
+     "zoom": 2.4,
+     "r": 0.1,
+     "title": "The castle",
+     "text": "A round tower and a tall pink-roofed house rise from the ice. No one has matched it to a real place: Avercamp's villages are usually invented from parts."
+    },
+    {
+     "x": 0.29,
+     "y": 0.9,
+     "zoom": 3.2,
+     "r": 0.05,
+     "title": "Two onlookers",
+     "text": "Two men stand with their backs to us at the edge of the bank and watch the ice, just as we do. They mark where the viewer stands.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.176,
+     "y": 0.87,
+     "zoom": 4,
+     "r": 0.04,
+     "title": "The beehive",
+     "text": "A woven straw hive sits on a post, empty and capped with snow. In winter the farm's small industries wait."
+    },
+    {
+     "x": 0.2,
+     "y": 0.72,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "Hungry birds",
+     "text": "Small birds hop over the trampled snow in the yard looking for grain. More perch in the branches above. Winter is hard on them too."
+    },
+    {
+     "x": 0.47,
+     "y": 0.64,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "A stranded boat",
+     "text": "A rowing boat lies frozen at an angle in the ice. In summer it was transport. Now people simply walk around it."
+    },
+    {
+     "x": 0.515,
+     "y": 0.86,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "Feathers and lace",
+     "text": "Close to us, a group in rich dress, one with a tall red plume on his hat. Avercamp puts the best costumes where you can study them."
+    },
+    {
+     "x": 0.76,
+     "y": 0.885,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "The push sled",
+     "text": "A man in a pale coat bends over a low sled and shoves it along. Sleds like this carried children, shopping or anyone who could not skate."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "A stick-and-ball game called kolf was hugely popular on Dutch ice, and it shows up in many of Avercamp's scenes. Players tried to hit a target with as few strokes as possible. It is often described as a cousin of golf."
+  },
+  {
+   "type": "text",
+   "text": "Avercamp stayed in Kampen and painted winter for the rest of his life, until his death in 1634. He more or less invented the Dutch ice scene, and dozens of painters copied the formula. Today the canals rarely freeze hard enough to carry a crowd. When they do, the Dutch still pour onto the ice, and the newspapers still say it looks like an Avercamp."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What kind of buyer was a painting like this made for?",
+   "options": [
+    "A church that needed an altarpiece",
+    "An ordinary well-off citizen, for his home",
+    "The king of the Netherlands"
+   ],
+   "answer": 1,
+   "explanation": "Dutch painters worked for the open market and for the walls of private houses."
+  },
+  {
+   "question": "What was Avercamp's nickname?",
+   "options": [
+    "The Mute of Kampen",
+    "The Skater of Amsterdam",
+    "The Winter King"
+   ],
+   "answer": 0,
+   "explanation": "He never spoke and was known as “the Mute of Kampen”."
+  },
+  {
+   "question": "Why is the horizon placed so high in the picture?",
+   "options": [
+    "Because the sky was too hard to paint",
+    "Because the panel was cut down",
+    "To tilt the ice toward us so every figure stays visible"
+   ],
+   "answer": 2,
+   "explanation": "A high viewpoint, borrowed from Bruegel, lets a whole crowd fit without figures hiding each other."
+  },
+  {
+   "question": "What is atmospheric perspective?",
+   "options": [
+    "Painting distant things paler and hazier",
+    "Drawing lines that meet at one point",
+    "Painting outdoors in bad weather"
+   ],
+   "answer": 0,
+   "explanation": "Far-off things fade toward the color of the sky, as they do in real air."
+  },
+  {
+   "question": "How did Avercamp build his crowds?",
+   "options": [
+    "He painted everything on the ice in one day",
+    "He reused figure sketches made in pen and watercolor",
+    "He copied them from photographs"
+   ],
+   "answer": 1,
+   "explanation": "He kept sheets of figure studies and combined them in the studio."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Avercamp painted this scene during a period of unusually cold winters in Europe.",
+   "isTrue": true,
+   "explanation": "Historians call it the Little Ice Age, and the winter of 1607 to 1608 was especially severe."
+  },
+  {
+   "text": "In Avercamp's ice scenes, rich and poor are kept on separate parts of the ice.",
+   "isTrue": false,
+   "explanation": "The frozen canal mixes everyone: fine ladies skate past workers carrying loads."
+  },
+  {
+   "text": "Avercamp spent his career traveling between the great courts of Europe.",
+   "isTrue": false,
+   "explanation": "He lived and worked in the quiet town of Kampen until his death in 1634."
+  }
+ ]
+}

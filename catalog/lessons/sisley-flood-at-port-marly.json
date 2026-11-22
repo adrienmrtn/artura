@@ -1,0 +1,38 @@
+{
+  "teaser": "A river swallowed a village street. Sisley painted it as the calmest day of the year.",
+  "focus": [0.3, 0.6],
+  "review_notes": "IMAGE MISMATCH: the image is not the Musée d'Orsay canvas (RF 2020, with the 'À St Nicolas' wine shop seen across open water). It appears to be another 1876 version of the same flood, most likely the one in the Museo Thyssen-Bornemisza, Madrid (signed 'Sisley 76' lower right, iron sign bracket at left, dry ground in front). The lesson text is written to fit the image shown and speaks of the series; replace the image or the museum credit.\nThe image is small and soft: only two interactive blocks, on large regions.\nFavorable reception of the flood pictures at the 1876 Impressionist exhibition, in contrast with Albert Wolff's hostile review of the show: check wording.\nPrices: one flood canvas (the Orsay one) sold by Sisley for 180 francs and bought by Isaac de Camondo for 43,000 francs in 1900: commonly cited, check.\nSisley's request for French nationality was never completed; he died British in January 1899.\nReading of the foreground as wet ground at the edge of the water, and of the small shapes at right as a boat with passengers, is from a low-resolution image.",
+  "lesson": [
+    {"type": "text", "text": "In April 1876 a Paris newspaper critic described the second Impressionist exhibition as the work of “five or six lunatics.” Visitors came to laugh. Yet in front of Alfred Sisley's pictures of a flooded village, the mockery tended to stop. Even reviewers hostile to the group admitted that these were true, and quietly beautiful."},
+    {"type": "text", "text": "The village was Port-Marly, on the Seine west of Paris. Sisley lived a short walk away. That spring the river rose over its banks and into the streets, and he went down to the water's edge again and again, painting the same corner from several angles. This canvas is one of that group."},
+    {"type": "text", "text": "A flood was a classic subject for drama. Earlier painters filled such scenes with drowning families and lightning. So ask yourself, before going in: where is the disaster here?"},
+    {"type": "tour", "title": "A very quiet catastrophe", "text": "Three areas tell you how Sisley chose to see the event.", "spots": [
+      {"x": 0.55, "y": 0.3, "zoom": 1.5, "r": 0.28, "title": "The sky", "text": "More than half of the canvas is sky: fresh blue, with white clouds brushed in quickly. The storm is over. The weather that caused the flood has already left."},
+      {"x": 0.83, "y": 0.68, "zoom": 2.2, "r": 0.14, "title": "Trees in the river", "text": "A row of trees that should line a riverside walk now stands in pale water. Their trunks are the only measure of how far the Seine has come."},
+      {"x": 0.2, "y": 0.62, "zoom": 2.2, "r": 0.13, "title": "The street corner", "text": "Pink walls, a red roof, blue shutters, and people gathered at the door. The houses are painted as solid, sunlit blocks. Nothing is collapsing."}
+    ]},
+    {"type": "text", "text": "No panic, then. The people by the houses stand and talk. The trees throw calm reflections. Sisley treats the flood as a change of landscape, almost a change of season: a street has become a lake for a few days, and the light on it is lovely."},
+    {"type": "key", "text": "Sisley paints what the flood looks like, not what it means. That refusal to dramatize is close to the heart of Impressionism."},
+    {"type": "fact", "text": "Sisley was born in Paris and spent nearly all his life in France, but his parents were English and so was his passport. He asked for French nationality late in life and died before the paperwork was complete."},
+    {"type": "text", "text": "His method suited the subject. He worked outdoors, directly on the canvas, with short strokes placed side by side. Water and sky are built from the same blues and whites, so one seems to continue into the other. The ground in front is a mesh of ochre, rust and cream that reads as wet earth only when you stand back."},
+    {"type": "text", "text": "Villagers did not stay home during those days. Flat-bottomed boats took over from carts, and planks were laid from door to door. Sisley tucked one of those boats into this view."},
+    {"type": "find", "text": "Somewhere under the flooded trees, a small boat carries a few people. Can you make it out?", "spots": [
+      {"x": 0.9, "y": 0.81, "zoom": 3, "r": 0.07, "title": "The ferry", "text": "A dark sliver on the pale water, with two or three upright dabs for passengers. A man stands on the bank nearby. Life goes on, by other means."}
+    ]},
+    {"type": "text", "text": "That boat is the size of a fingernail, and it changes the mood of the whole picture. It tells you the water is shallow, the people are coping, and the painter is watching as a neighbor would, without alarm."},
+    {"type": "fact", "text": "Sisley sold one of his flood canvases for 180 francs. In 1900, the year after he died poor, a collector paid 43,000 francs for the same picture at auction. It later entered the French national collection."},
+    {"type": "text", "text": "He never knew that kind of success. Of the Impressionist circle he stayed the most faithful to pure landscape and earned the least from it. The Port-Marly pictures are now counted among the finest things the movement produced, which leaves a fair question: would the first laughing visitors recognize what they had walked past?"}
+  ],
+  "quiz": [
+    {"question": "How did critics in 1876 tend to respond to Sisley's flood pictures?", "options": ["They found them the worst of the show", "Even hostile ones found something to admire", "They ignored them completely"], "answer": 1, "explanation": "Reviewers who mocked the group still acknowledged the truth and beauty of these scenes."},
+    {"question": "What takes up more than half of this canvas?", "options": ["The sky", "The flooded street", "The houses"], "answer": 0, "explanation": "A clear blue sky with white clouds fills most of the picture."},
+    {"question": "How does Sisley treat the flood?", "options": ["As a tragedy with victims", "As a punishment from heaven", "As a calm change in the landscape"], "answer": 2, "explanation": "He shows light on water and people coping, with no drama."},
+    {"question": "What nationality was Sisley?", "options": ["French", "British", "Dutch"], "answer": 1, "explanation": "Born in Paris to English parents, he remained British all his life."},
+    {"question": "What does the small boat suggest?", "options": ["That villagers are carrying on with daily life", "That a rescue has failed", "That Sisley painted from the water"], "answer": 0, "explanation": "Boats replaced carts for a few days, and people simply adapted."}
+  ],
+  "facts": [
+    {"text": "Sisley painted the Port-Marly flood only once.", "isTrue": false, "explanation": "He returned several times and painted the same corner from different angles."},
+    {"text": "A flood canvas Sisley sold for 180 francs fetched 43,000 francs the year after his death.", "isTrue": true, "explanation": "A collector paid that sum at auction in 1900."},
+    {"text": "The sky in this picture is dark and stormy.", "isTrue": false, "explanation": "It is a fresh blue with white clouds; the bad weather has passed."}
+  ]
+}

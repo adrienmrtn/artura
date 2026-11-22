@@ -1,0 +1,50 @@
+{
+  "teaser": "Cézanne had a slot cut in his studio wall for canvases this big. He never finished this one.",
+  "focus": [0.5, 0.68],
+  "review_notes": "Studio at Les Lauves: tall narrow slot in the north wall for moving large canvases (standard account, check wording).\nPhiladelphia purchase in 1937 for $110,000 through the W. P. Wilstach Fund, criticized in the press during the Depression: verify figure.\nCount of 14 bathers is the usual figure; the far-left figure is hard to read.\nThe small shapes on the far bank are usually described as two figures (sometimes a figure and a horse).\nHenry Moore saw this version in Auguste Pellerin's collection in Paris in 1922: verify.\nDimensions 210.5 x 250.8 cm.",
+  "lesson": [
+    {"type": "text", "text": "In 1902 Paul Cézanne moved into a studio he had built on a hill above Aix-en-Provence, on the road called Les Lauves. One wall has an odd feature you can still visit today: a tall, narrow slot, like a mail slot for giants. It was cut so that very large canvases could be passed in and out. This is one of the paintings that slot was made for."},
+    {"type": "text", "text": "The canvas is about 2.1 meters high and 2.5 meters wide (roughly 7 by 8 feet), the largest Cézanne ever painted. He was in his sixties, diabetic, and living almost like a hermit. He worked on it for about seven years and was still at it when he died in October 1906."},
+    {"type": "text", "text": "The subject sounds simple: women bathing by a river. Painters had done it for centuries, usually with soft skin and a mythological excuse. Cézanne wanted to join that grand tradition, but his real interest was elsewhere. He treats the scene almost like a building. Before you look at the bodies, notice what the trees are doing."},
+    {"type": "lines", "text": "The whole picture hangs on a few big directions.", "lines": [
+      {"points": [[0.1, 0.7], [0.47, 0.0]], "closed": false, "label": "Left trunks", "text": "The trees on the left all lean inward at nearly the same angle. Real trees do not grow this obediently. Cézanne bent them to suit the picture."},
+      {"points": [[0.85, 0.6], [0.57, 0.0]], "closed": false, "label": "Right trunk", "text": "The big trunk on the right answers them. Together they make a pointed arch, like the vault of a Gothic church, with open sky in the middle."},
+      {"points": [[0.0, 0.6], [1.0, 0.6]], "closed": false, "label": "The far bank", "text": "The opposite shore runs flat across the canvas and closes the base of the arch. The result is a great triangle, the most stable shape there is."},
+      {"points": [[0.3, 0.75], [0.5, 0.89], [0.63, 0.75]], "closed": false, "label": "Reaching arms", "text": "At the bottom, arms stretch toward one point on the ground. They draw a small upside-down echo of the arch above."}
+    ]},
+    {"type": "text", "text": "So the women are not really relaxing. The two groups lean in like the trees do, and their backs repeat the slope of the trunks. Bodies, branches and sky are all being fitted into one design. That was Cézanne's ambition: to make something as solid and ordered as the old paintings in the museums, using the broken color he had learned from the Impressionists."},
+    {"type": "fact", "text": "Cézanne almost never used nude models for his bathers. He was shy, he feared gossip in small-town Aix, and he said he was too old to ask women to undress for him. He relied on drawings from his student days and on sketches made in front of sculptures and paintings at the Louvre."},
+    {"type": "text", "text": "That explains a lot. These women have heavy limbs, simplified backs and very little individuality. They are closer to statues than to people Cézanne knew. And with fourteen of them filling the bank, it is easy to miss that someone else is in the water."},
+    {"type": "find", "text": "One figure is not on the shore at all. Can you spot the swimmer?", "spots": [
+      {"x": 0.47, "y": 0.725, "zoom": 3.6, "r": 0.06, "title": "The swimmer", "text": "A few strokes of pale flesh and blue in the middle of the river. One woman on the left stretches her arm out toward this tiny figure, which sits right at the center of the triangle."}
+    ]},
+    {"type": "text", "text": "The center of the painting is not a body. It is water, a far bank and sky. Cézanne pushed the crowd to the sides and left the middle open, so your eye travels through the arch and out into the distance. In the other two big versions of this subject, the figures press much closer together."},
+    {"type": "key", "text": "Cézanne built this picture like architecture: an arch of trees, a triangle of bodies, and an open center where your eye can escape."},
+    {"type": "text", "text": "Is it finished? Cézanne would probably have said no. He painted in small parallel touches, laid side by side like tiles, and he would rather leave a patch empty than fill it with a color he was not sure of. On this canvas the hesitation is visible everywhere."},
+    {"type": "tour", "title": "Where the brush stopped", "text": "Four places where the painting shows how it was made.", "spots": [
+      {"x": 0.8, "y": 0.47, "zoom": 3.4, "r": 0.06, "title": "A face like a mask", "text": "The standing bather on the right has eyes, a nose and a mouth reduced to a few dark marks. She looks straight out, but not at anyone."},
+      {"x": 0.82, "y": 0.69, "zoom": 3.0, "r": 0.08, "title": "No features", "text": "Lower down, this head is an oval with only a hint of a face. Around it, the creamy patches are thin paint and bare primed canvas left showing."},
+      {"x": 0.445, "y": 0.63, "zoom": 4.2, "r": 0.05, "title": "The far bank", "text": "Small pale shapes stand on the other shore, usually read as two onlookers. They are barely described, yet they are what the arch frames."},
+      {"x": 0.385, "y": 0.55, "zoom": 4.0, "r": 0.04, "shape": "rect", "title": "A steeple", "text": "A pointed tower rises behind the trees. It is one of the few hints that this timeless scene sits near a real village."}
+    ]},
+    {"type": "text", "text": "Notice also the dark blue outlines around arms and backs. Cézanne redrew them again and again, so some limbs seem to have two or three edges. He was not correcting mistakes so much as searching for the place where a body meets the air."},
+    {"type": "fact", "text": "There are three “Large Bathers.” One is at the Barnes Foundation, also in Philadelphia, and one is at the National Gallery in London. This is the biggest and the last, and it is the only one with so much empty sky."},
+    {"type": "text", "text": "A year after Cézanne died, Paris held a large memorial exhibition of his work. Young painters came out stunned. Henri Matisse and Pablo Picasso both studied his bathers closely, and Picasso's angular, mask-faced women of 1907 owe them a great deal. Both men are said to have called Cézanne “the father of us all.”"},
+    {"type": "fact", "text": "The Philadelphia Museum of Art bought the painting in 1937 for $110,000. It was the middle of the Great Depression, and local newspapers complained that the money could have been better spent on people in need."},
+    {"type": "text", "text": "The sculptor Henry Moore saw this canvas in Paris as a young man, when it still belonged to a private collector. He later said the bathers seemed to him like figures cut out of mountain rock, and that the sight stayed with him for life."},
+    {"type": "key", "text": "A painting left unfinished by an old man in a provincial studio became a starting point for the art of the twentieth century."},
+    {"type": "text", "text": "Back in Aix, the studio at Les Lauves is still there, with its tall north window and the slot in the wall. The opening is empty now. Everything that passed through it has gone to museums on the other side of the world."}
+  ],
+  "quiz": [
+    {"question": "Why did Cézanne's studio have a tall slot in the wall?", "options": ["To let in north light", "To move very large canvases in and out", "To air out paint fumes"], "answer": 1, "explanation": "The slot let oversized canvases like this one pass through the wall."},
+    {"question": "What shape do the leaning trees form?", "options": ["A pointed arch, like a church vault", "A perfect circle", "A spiral"], "answer": 0, "explanation": "The trunks lean toward each other and make an arch that frames the open center."},
+    {"question": "Where did Cézanne mostly find his bather figures?", "options": ["Professional nude models in Aix", "Photographs", "Old student drawings and sketches made at the Louvre"], "answer": 2, "explanation": "He was too shy to hire nude models and reused earlier drawings and museum studies."},
+    {"question": "What lies at the very center of the composition?", "options": ["The largest bather", "Water, a far bank and sky", "A still life of fruit"], "answer": 1, "explanation": "Cézanne pushed the figures to the sides and left the middle open."},
+    {"question": "How did people in Philadelphia react to the 1937 purchase?", "options": ["Newspapers criticized the cost during the Depression", "Nobody noticed", "A parade was held"], "answer": 0, "explanation": "At $110,000 in hard times, the purchase drew complaints in the local press."}
+  ],
+  "facts": [
+    {"text": "Cézanne completed this painting and signed it shortly before he died.", "isTrue": false, "explanation": "He was still working on it at his death in 1906, and parts of the canvas remain bare."},
+    {"text": "There are three large versions of Cézanne's bathers, and two of them are in Philadelphia.", "isTrue": true, "explanation": "One is at the Philadelphia Museum of Art, one at the Barnes Foundation, and the third is in London."},
+    {"text": "A small swimmer is painted in the middle of the river.", "isTrue": true, "explanation": "A few strokes in the water show a figure swimming at the center of the triangle."}
+  ]
+}

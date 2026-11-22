@@ -1,0 +1,212 @@
+{
+ "teaser": "Four birds, one wire, one crank. Turn the handle and decide if you hear a song or a scream.",
+ "focus": [
+  0.45,
+  0.45
+ ],
+ "review_notes": "Acquisition by the Berlin Nationalgalerie is given as 1923: check the date.\nSeized as 'degenerate' and sold through a dealer, bought by MoMA in 1939: check wording against MoMA provenance.\nGunther Schuller's Seven Studies on Themes of Paul Klee dated 1959.\nThe reading of the pink rectangle as a pit or trap is a common interpretation, not Klee's own statement.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Weimar, 1922. Paul Klee teaches at the Bauhaus, a new German school with a bold plan: bring artists and machines together to design the modern world. Around him, colleagues draw lamps, chairs and factories. Everything is supposed to be useful."
+  },
+  {
+   "type": "text",
+   "text": "Klee answers with this small sheet of paper. He draws a machine too. It is thin as a hair, it wobbles, and it has exactly one moving part. Before anything else, try to work out how you would switch it on."
+  },
+  {
+   "type": "find",
+   "text": "This machine has no button and no engine. Where would you put your hand to make it run?",
+   "spots": [
+    {
+     "x": 0.78,
+     "y": 0.69,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "The crank",
+     "text": "A handle on a bent rod, like the one on a music box or a barrel organ. It is the only solid, shaded thing in the drawing. Everything else depends on it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the power is you. Turn the handle and the wavy wire should spin, and whatever is clamped to it has to move along. Follow the wire to the left and you meet the passengers: four creatures, each gripping it with thin feet."
+  },
+  {
+   "type": "tour",
+   "title": "The four singers",
+   "text": "Four birds, four characters. Meet them from left to right.",
+   "spots": [
+    {
+     "x": 0.32,
+     "y": 0.34,
+     "zoom": 3,
+     "r": 0.07,
+     "title": "The exclamation",
+     "text": "The tallest bird throws its head straight up. A black shape shoots out of its beak like a printed exclamation mark: a note you can see.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.46,
+     "y": 0.47,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The tired one",
+     "text": "This head hangs down, beak to the ground, with a feathery scribble beneath it. Not every bird in the choir wants to sing."
+    },
+    {
+     "x": 0.53,
+     "y": 0.36,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The wide eye",
+     "text": "A huge round eye and an open beak with a curl inside. Its neck is a coiled spring, half animal, half spare part."
+    },
+    {
+     "x": 0.63,
+     "y": 0.465,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The arrow",
+     "text": "The last bird fires a barbed line out of its beak, like an arrow. The song has turned into something sharp."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Are these living birds chained to a device, or mechanical toys pretending to be alive? Klee does not decide for you. The German title, Die Zwitscher-Maschine, glues a cheerful word, “twitter”, to a cold one, “machine”, and leaves them stuck together."
+  },
+  {
+   "type": "fact",
+   "text": "Klee was a trained violinist, good enough to play in the orchestra of his home town, Bern, as a young man. He practiced almost every day of his life, and he often built pictures the way a composer builds a score."
+  },
+  {
+   "type": "text",
+   "text": "The lines look scratchy and a little broken, and that is on purpose. Klee invented his own tracing method. He coated a sheet with black oil paint, laid it face down on clean paper, and went over a drawing on top with a needle. The line printed through. So did something else."
+  },
+  {
+   "type": "tour",
+   "title": "Traces of the hand",
+   "text": "The tracing left accidents, and Klee kept them all.",
+   "spots": [
+    {
+     "x": 0.1,
+     "y": 0.42,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The smudges",
+     "text": "Wherever his hand rested on the sheet, black paint pressed through as a soft cloud. These stains give the air its dirt and its depth."
+    },
+    {
+     "x": 0.5,
+     "y": 0.14,
+     "zoom": 1.8,
+     "r": 0.25,
+     "title": "Blue and pink air",
+     "text": "After the tracing, he washed watercolor over the sheet: cool blue in the middle, pink mist above. It could be dawn, when birds start up."
+    },
+    {
+     "x": 0.72,
+     "y": 0.04,
+     "zoom": 3.5,
+     "r": 0.12,
+     "title": "The title",
+     "text": "Klee wrote the name in pencil at the top, in old German handwriting: Zwitscher-Maschine."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now look under the wire. The whole contraption hovers above a pink rectangle on thin legs. Some people see a little stage. Others see a pit, with the birds as bait and the crank as a trap. The same drawing can be funny at noon and frightening at night."
+  },
+  {
+   "type": "key",
+   "text": "Klee shows that a line can carry a mood by itself. A wobbling wire and four open beaks are enough to make you hear a sound, and to wonder if it is joyful or desperate."
+  },
+  {
+   "type": "text",
+   "text": "Germany's national gallery in Berlin bought the sheet in the 1920s. Then the Nazis came to power. They hated modern art, called it “degenerate”, which means sick or corrupt, and pulled thousands of works out of German museums. This one was among them."
+  },
+  {
+   "type": "fact",
+   "text": "The Nazi state sold the confiscated drawing abroad through an art dealer. The Museum of Modern Art in New York bought it in 1939, and it has stayed there ever since."
+  },
+  {
+   "type": "text",
+   "text": "Musicians could not leave it alone. Several composers have written pieces named after it, trying to play what the picture only draws. The best known is by the American Gunther Schuller, who set seven Klee pictures to music in 1959."
+  },
+  {
+   "type": "text",
+   "text": "Go back to the Bauhaus for a second. A school that believed in useful machines kept, on its staff, a man who drew a useless one. Maybe that was Klee's question to his colleagues, and to us: what happens to a song when you can produce it by turning a handle?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How would you start the Twittering Machine?",
+   "options": [
+    "By pressing a pedal",
+    "By turning a hand crank",
+    "By winding a key in a bird's back"
+   ],
+   "answer": 1,
+   "explanation": "A hand crank on the right is the machine's only control."
+  },
+  {
+   "question": "Where was Klee working when he made it?",
+   "options": [
+    "At the Bauhaus school in Weimar",
+    "In a Paris studio",
+    "At the Museum of Modern Art"
+   ],
+   "answer": 0,
+   "explanation": "He taught at the Bauhaus, a school meant to unite art and industry."
+  },
+  {
+   "question": "Why do the lines look broken and smudged?",
+   "options": [
+    "The paper was damaged in a fire",
+    "Klee drew with his left hand",
+    "He traced the drawing through a sheet coated with black oil paint"
+   ],
+   "answer": 2,
+   "explanation": "His oil transfer method printed the line, and the pressure of his hand, onto the paper."
+  },
+  {
+   "question": "What did the Nazi government do with the work?",
+   "options": [
+    "Hung it in Hitler's office",
+    "Removed it from a Berlin museum and sold it abroad",
+    "Burned it in public"
+   ],
+   "answer": 1,
+   "explanation": "It was confiscated as “degenerate” and sold, then bought by MoMA in 1939."
+  },
+  {
+   "question": "Which other art did Klee practice seriously?",
+   "options": [
+    "Violin playing",
+    "Ballet",
+    "Architecture"
+   ],
+   "answer": 0,
+   "explanation": "He was a trained violinist and played almost daily."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The machine in the picture runs on a small steam engine.",
+   "isTrue": false,
+   "explanation": "Its only source of power is a hand crank."
+  },
+  {
+   "text": "Composers have written music inspired by this drawing.",
+   "isTrue": true,
+   "explanation": "Several have, including Gunther Schuller in 1959."
+  },
+  {
+   "text": "Klee painted the Twittering Machine in thick oil paint on a large canvas.",
+   "isTrue": false,
+   "explanation": "It is a small work on paper, made with traced oil paint lines, ink and watercolor."
+  }
+ ]
+}

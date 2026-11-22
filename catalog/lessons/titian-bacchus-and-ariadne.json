@@ -1,0 +1,343 @@
+{
+ "teaser": "Two famous painters failed to deliver for an impatient duke. Titian got the job, and made a god jump.",
+ "focus": [
+  0.44,
+  0.42
+ ],
+ "review_notes": "Fra Bartolommeo (d. 1517) and Raphael (d. 1520) as Alfonso d'Este's earlier choices for the Camerino, Raphael having sent only a drawing: verify.\nThe duke's menagerie including a cheetah: stated by the National Gallery, verify.\nPigments (ultramarine, orpiment/realgar in the orange drapery): National Gallery technical studies, verify.\nCanvas rolled up twice in its first century; cleaning of 1967-69 and the controversy: verify.\nCamerino dismantled 1598; National Gallery purchase 1826: verify.\nSignature TICIANVS F. on the urn at lower left is not legible in this reproduction.\nSnake-wreathed figure as an echo of the Laocoön (found 1506): standard reading.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This painting exists because two others were never made. Around 1514, Alfonso d'Este, Duke of Ferrara, decided to line a small private room in his castle with pictures of ancient gods at play, each by one of the best painters in Italy. He ordered one from Fra Bartolommeo in Florence, who died in 1517. He ordered another from Raphael in Rome, who sent a drawing, stalled for years, and died in 1520."
+  },
+  {
+   "type": "text",
+   "text": "So the duke turned, a little desperately, to a Venetian in his early thirties who had already painted one canvas for the room: Titian. He was not much faster. The duke wrote angry letters and threatened him. Titian finally brought the canvas to Ferrara by boat in 1523 and finished it on the spot."
+  },
+  {
+   "type": "fact",
+   "text": "The duke's room was known as the Alabaster Chamber, after the white stone reliefs that decorated it. It was a study, a place to read, show off and escape the court, and guests were let in a few at a time."
+  },
+  {
+   "type": "text",
+   "text": "The story comes from Roman poets. Princess Ariadne has helped the hero Theseus kill the Minotaur, and sailed away with him. He leaves her asleep on the island of Naxos and goes. She wakes, runs to the shore, and at that moment Bacchus, god of wine, arrives with his noisy followers and falls in love on sight."
+  },
+  {
+   "type": "tour",
+   "title": "The meeting",
+   "text": "Read the picture from left to right, the way the story happens.",
+   "spots": [
+    {
+     "x": 0.035,
+     "y": 0.535,
+     "zoom": 4.5,
+     "r": 0.04,
+     "shape": "arrow",
+     "title": "The ship",
+     "text": "Far out on the water, a tiny white sail. That is Theseus leaving. The whole story of the abandonment is told in a few strokes at the very edge of the canvas."
+    },
+    {
+     "x": 0.09,
+     "y": 0.6,
+     "zoom": 1.9,
+     "r": 0.11,
+     "shape": "rect",
+     "title": "Ariadne",
+     "text": "She was walking toward the sea, one arm still raised to the ship. Now her body twists back toward the noise behind her. Feet one way, head the other: she is caught between two lives."
+    },
+    {
+     "x": 0.44,
+     "y": 0.43,
+     "zoom": 2.2,
+     "r": 0.13,
+     "shape": "circle",
+     "title": "Bacchus",
+     "text": "The god has thrown himself off his chariot. One foot still touches it, the other hangs in the air, and his pink cloak streams out behind. His eyes are locked on her."
+    },
+    {
+     "x": 0.27,
+     "y": 0.62,
+     "zoom": 2.6,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "The cheetahs",
+     "text": "Two spotted cats pull the chariot, and they have stopped to look at each other, as calm as their master is wild. The poets speak of tigers or panthers. Titian painted cheetahs."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Why cheetahs? Probably because Titian could study them. Duke Alfonso kept a collection of exotic animals at Ferrara, and it is said to have included a cheetah. A painter who wanted his myth to feel real took his models where he found them."
+  },
+  {
+   "type": "text",
+   "text": "Now look at where Bacchus is: in mid-air. Painters before Titian showed gods standing, sitting, gesturing. Almost nobody had painted a figure that has left the ground and not yet landed. You know he will come down, and that knowledge makes the still picture feel as if it is moving."
+  },
+  {
+   "type": "fact",
+   "text": "The man wrapped in snakes on the right borrows his pose from an ancient marble group, the Laocoön, dug out of a Roman vineyard in 1506. Every ambitious artist of Titian's generation knew it, at least from drawings."
+  },
+  {
+   "type": "text",
+   "text": "In the old poems the story has a happy ending. Bacchus marries Ariadne, and as a wedding gift he takes her crown and throws it into the sky, where it stays forever as a ring of stars. Titian could not paint the before and the after in separate frames. He put the ending into the same picture."
+  },
+  {
+   "type": "find",
+   "text": "Ariadne's future is already hanging over her. Where is the crown of stars?",
+   "spots": [
+    {
+     "x": 0.14,
+     "y": 0.045,
+     "zoom": 3.5,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "Corona Borealis",
+     "text": "A small circle of stars in broad daylight, high in the top left corner, almost straight above her head. It is the constellation still called the Northern Crown."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The stars turn the picture into a kind of time machine. Past at the far left, with the ship. Present in the middle, with the leap. Future at the top, with the crown. Ariadne has not seen any of it yet. She has only just turned around."
+  },
+  {
+   "type": "lines",
+   "text": "Three invisible forces hold all of this together.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.36,
+       0.39
+      ],
+      [
+       0.115,
+       0.47
+      ]
+     ],
+     "closed": false,
+     "label": "The look",
+     "text": "A straight line runs between his eyes and hers across a stretch of empty sky. Nothing else in the painting crosses it. Titian cleared the space so that the glance could travel."
+    },
+    {
+     "points": [
+      [
+       0.14,
+       0.05
+      ],
+      [
+       0.1,
+       0.45
+      ]
+     ],
+     "closed": false,
+     "label": "Crown to head",
+     "text": "Drop a line from the stars and it falls onto Ariadne. The gift she will receive sits directly above the person who will receive it."
+    },
+    {
+     "points": [
+      [
+       0.97,
+       0.45
+      ],
+      [
+       0.75,
+       0.55
+      ],
+      [
+       0.55,
+       0.6
+      ],
+      [
+       0.4,
+       0.66
+      ]
+     ],
+     "closed": false,
+     "label": "The push",
+     "text": "The followers of Bacchus pour in from the right, downhill, shoulder first. Their momentum is what launches him. All the brown, crowded half of the canvas shoves toward the blue, empty half."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That split is the real design: a wedge of cool blue on the left, a wedge of warm earth and flesh on the right, and Bacchus jumping across the border between them. Calm and riot, loneliness and company. Venice taught its painters to build a picture out of color like this, where Florence taught them to start from drawn outlines."
+  },
+  {
+   "type": "fact",
+   "text": "The blue of the sky and of Ariadne's dress is ultramarine, made by grinding lapis lazuli, a stone mined in what is now Afghanistan. It cost more than gold. Venice was Europe's great market for pigments, and Titian used nearly every color money could buy here."
+  },
+  {
+   "type": "text",
+   "text": "The crowd deserves a slower visit. These are the companions of the god of wine: women who dance with cymbals and tambourines, satyrs (half man, half goat), and people who have, frankly, been tearing animals apart. Titian mixes the charming and the alarming on purpose."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.68,
+     "zoom": 3.0,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The little satyr",
+     "text": "A child with goat legs and flowers in his hair strolls toward you, the only figure who meets your eye. He drags something on a string."
+    },
+    {
+     "x": 0.6,
+     "y": 0.91,
+     "zoom": 3.4,
+     "r": 0.07,
+     "shape": "circle",
+     "title": "A calf's head",
+     "text": "This is what the child is pulling: the severed head of a calf. The revels of Bacchus were not polite."
+    },
+    {
+     "x": 0.37,
+     "y": 0.885,
+     "zoom": 3.2,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "The dog",
+     "text": "A small black and white dog barks at the little satyr. It is an ordinary pet, and it is not impressed by mythology."
+    },
+    {
+     "x": 0.6,
+     "y": 0.45,
+     "zoom": 2.6,
+     "r": 0.1,
+     "shape": "circle",
+     "title": "Cymbals",
+     "text": "A woman in blue and orange lifts a cymbal over her head and holds the other at her hip. Her pose mirrors Ariadne's on the far side of the picture."
+    },
+    {
+     "x": 0.74,
+     "y": 0.6,
+     "zoom": 2.2,
+     "r": 0.12,
+     "shape": "circle",
+     "title": "The snake man",
+     "text": "A bearded, muscular figure wrestles with snakes that coil around his waist and legs. Here is the ancient statue, turned back into a living body."
+    },
+    {
+     "x": 0.84,
+     "y": 0.4,
+     "zoom": 2.8,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "Silenus",
+     "text": "At the back, a fat old man slumps asleep on a donkey, held up by his neighbors. He is Silenus, the tutor of Bacchus, drunk as always."
+    },
+    {
+     "x": 0.92,
+     "y": 0.3,
+     "zoom": 2.8,
+     "r": 0.08,
+     "shape": "circle",
+     "title": "A raised leg",
+     "text": "One reveler waves an animal's leg above his head like a flag. The feast has already started."
+    },
+    {
+     "x": 0.13,
+     "y": 0.89,
+     "zoom": 3.0,
+     "r": 0.09,
+     "shape": "circle",
+     "title": "The urn",
+     "text": "A bronze vessel lies tipped over on a yellow cloth, where Ariadne dropped her things. Titian signed the painting on it, in Latin."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The duke's room did not last. In 1598 Ferrara passed to the Pope, the pictures were carried off to Rome, and the set was scattered. This one changed hands several times before London's National Gallery bought it in 1826, when the museum was two years old."
+  },
+  {
+   "type": "text",
+   "text": "The canvas had a rough life. It was rolled up twice during its first hundred years, which made paint flake off, and it was later covered in brown varnish. When restorers cleaned it in the late 1960s, the sky came out a blue so intense that some visitors refused to believe Titian had meant it."
+  },
+  {
+   "type": "key",
+   "text": "Titian's great trick here is time. One canvas holds a departure, a leap in mid-air and a future written in stars, and color, not outline, is what carries you from one to the next."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why did the commission end up with Titian?",
+   "options": [
+    "He offered the lowest price",
+    "The duke's earlier choices, including Raphael, died without delivering",
+    "He was born in Ferrara"
+   ],
+   "answer": 1,
+   "explanation": "Fra Bartolommeo and Raphael both died before painting their pictures for the room."
+  },
+  {
+   "question": "What is the tiny sail at the left edge?",
+   "options": [
+    "The ship of Theseus, leaving Ariadne behind",
+    "Bacchus's own boat",
+    "A fishing boat from Venice"
+   ],
+   "answer": 0,
+   "explanation": "Theseus has abandoned Ariadne on Naxos and is sailing away."
+  },
+  {
+   "question": "What do the stars above Ariadne stand for?",
+   "options": [
+    "The time of night",
+    "The duke's coat of arms",
+    "Her crown, which Bacchus will turn into a constellation"
+   ],
+   "answer": 2,
+   "explanation": "The circle of stars is the Northern Crown, his wedding gift to her."
+  },
+  {
+   "question": "Which animals pull the chariot of Bacchus?",
+   "options": [
+    "Lions",
+    "Cheetahs",
+    "Horses"
+   ],
+   "answer": 1,
+   "explanation": "Titian painted cheetahs, probably studied in the duke's own animal collection."
+  },
+  {
+   "question": "What was the costly blue pigment made from?",
+   "options": [
+    "Lapis lazuli",
+    "Crushed glass",
+    "Indigo leaves"
+   ],
+   "answer": 0,
+   "explanation": "Ultramarine comes from ground lapis lazuli, more expensive than gold."
+  },
+  {
+   "question": "The snake-wrapped man echoes which ancient work?",
+   "options": [
+    "The Venus de Milo",
+    "The Laocoön",
+    "The Parthenon frieze"
+   ],
+   "answer": 1,
+   "explanation": "His pose borrows from the Laocoön, unearthed in Rome in 1506."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bacchus is shown calmly seated in his chariot.",
+   "isTrue": false,
+   "explanation": "He is in mid-leap, one foot still on the chariot and the other in the air."
+  },
+  {
+   "text": "The painting was made for a small private room in a duke's castle.",
+   "isTrue": true,
+   "explanation": "It was part of a set of mythological pictures for Alfonso d'Este's study in Ferrara."
+  },
+  {
+   "text": "When the painting was cleaned in the 1960s, the sky turned out to be dull gray.",
+   "isTrue": false,
+   "explanation": "The cleaning revealed a blue so strong that some people doubted it."
+  }
+ ]
+}

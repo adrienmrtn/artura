@@ -1,0 +1,247 @@
+{
+ "teaser": "A dazzling blue wall, a boy, a python, and a place that never existed.",
+ "focus": [
+  0.62,
+  0.52
+ ],
+ "review_notes": "Tile wall based on the Iznik panels of the Topkapı Palace, Istanbul; floor based on a Cairo mosque (often identified as the Mosque of Amr): check.\nCalligraphy frieze partly legible (a Koranic verse) and partly garbled: per scholarship summarized by the Clark and Wikipedia.\nCover of Edward Said's Orientalism (1978); Linda Nochlin's essay “The Imaginary Orient” (1983).\nSize about 82 x 121 cm.\nAcquired by Robert Sterling Clark in 1942: check.\nGérôme's Middle East trips and use of photographs and sketches as sources.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The flute holds one note. The python's head hangs in the air at the end of the boy's raised arm, and a dozen men sit against the wall without moving. Jean-Léon Gérôme stops the show at the second when nothing has happened yet and anything could."
+  },
+  {
+   "type": "find",
+   "text": "Where is the head of the snake?",
+   "spots": [
+    {
+     "x": 0.535,
+     "y": 0.365,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The head",
+     "text": "It rises well above the boy, held up at the end of his arm, right beside a round shield hanging on the wall. The pale underside of the snake catches the light."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "From that head the heavy body runs down the arm, loops twice around the boy's waist and hangs behind his knees. He wears nothing. And he has his back to you: whatever his face shows, only the men against the wall get to see it. You are placed behind the performance, watching the watchers."
+  },
+  {
+   "type": "text",
+   "text": "Gérôme painted this in Paris around 1879, at 55. He had traveled to Egypt and Turkey several times and returned with sketches, photographs, costumes and weapons. European buyers loved such scenes of the “Orient”, their word for North Africa and the Middle East. The style has a name: Orientalism."
+  },
+  {
+   "type": "fact",
+   "text": "The canvas is smaller than its fame suggests: about 82 by 121 centimeters (32 by 48 inches). Every tile and floor crack is painted at the scale of a miniature."
+  },
+  {
+   "type": "text",
+   "text": "It looks like a photograph of a real room. It is not. Researchers who tracked down each element found that the room was assembled from pieces hundreds of miles apart, like a stage set."
+  },
+  {
+   "type": "tour",
+   "title": "A room made of three countries",
+   "text": "See where each part comes from.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.28,
+     "zoom": 1.8,
+     "r": 0.25,
+     "title": "The blue wall",
+     "text": "These tile panels copy ones in the Topkapı Palace in Istanbul, home of the Ottoman sultans. They were made in the town of Iznik in the 1500s."
+    },
+    {
+     "x": 0.3,
+     "y": 0.88,
+     "zoom": 2.0,
+     "r": 0.2,
+     "title": "The stone floor",
+     "text": "The worn paving with its round inlays is modeled on a mosque in Cairo, Egypt. A different city, a different country."
+    },
+    {
+     "x": 0.31,
+     "y": 0.6,
+     "zoom": 2.2,
+     "r": 0.18,
+     "title": "The audience",
+     "text": "Turbans, a pointed steel helmet, long spears, robes of several regions. The men form a costume collection more than a believable group."
+    },
+    {
+     "x": 0.5,
+     "y": 0.05,
+     "zoom": 2.0,
+     "r": 0.25,
+     "title": "The writing",
+     "text": "A band of Arabic calligraphy runs along the top. Part of it can be read as a verse of the Koran. Farther along, the letters turn into shapes that only imitate writing."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the precision is a kind of disguise. Because each tile is so exact, you trust the whole. Critics call this a “reality effect”: a flood of small true details that makes an invented scene feel like eyewitness reporting."
+  },
+  {
+   "type": "text",
+   "text": "And what does the invention say? Idle men, a naked child, a dangerous animal, a splendid building left to crumble. For a Paris audience in the age of colonial empires, the picture confirmed a flattering story: that the East was beautiful, sensual, lazy and stuck in the past."
+  },
+  {
+   "type": "find",
+   "text": "The wall is magnificent, but Gérôme painted it damaged. Find a place where tiles have fallen off.",
+   "spots": [
+    {
+     "x": 0.21,
+     "y": 0.115,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "A missing tile",
+     "text": "Near the top left, bare brown plaster shows where tiles are gone. There are more gaps along the left edge. The message: nobody here repairs anything."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "In 1978 the scholar Edward Said put this painting on the cover of “Orientalism”, his book about how the West imagined the East. It has been the emblem of that debate ever since."
+  },
+  {
+   "type": "text",
+   "text": "The art historian Linda Nochlin pushed the point further in 1983. She noted what the picture leaves out: no Europeans, no tourists, no painter, no sign of the modern world that was arriving fast. The smooth, strokeless surface hides the hand that made it, as if the scene simply existed."
+  },
+  {
+   "type": "key",
+   "text": "A painting can be accurate in every detail and still be a fiction. Ask what was put together, and for whom."
+  },
+  {
+   "type": "text",
+   "text": "None of that cancels the pleasure of the paint. The blues shift from turquoise to cold silver as the wall recedes, and one soft shadow slides across the floor. You can admire the skill and question the story at the same time. Most viewers today do both."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.63,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The charmer",
+     "text": "An old man, bare-chested and cross-legged, plays a long flute. In this show he is the snake charmer of the title. The boy only handles the animal."
+    },
+    {
+     "x": 0.39,
+     "y": 0.58,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The chief",
+     "text": "A white-bearded man in a green turban lies back with a sword across his lap. He looks entertained and completely at ease."
+    },
+    {
+     "x": 0.19,
+     "y": 0.67,
+     "zoom": 3.2,
+     "r": 0.07,
+     "title": "The child",
+     "text": "The smallest spectator sits in front, holding a stick taller than himself and staring hard."
+    },
+    {
+     "x": 0.48,
+     "y": 0.84,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "The basket",
+     "text": "A woven basket with its lid beside it: the python's traveling home. It is the nearest object to you."
+    },
+    {
+     "x": 0.45,
+     "y": 0.42,
+     "zoom": 2.8,
+     "r": 0.09,
+     "title": "Shield and spears",
+     "text": "A round metal shield hangs on the wall with spears crossed behind it. Gérôme owned a studio collection of such weapons."
+    },
+    {
+     "x": 0.68,
+     "y": 0.56,
+     "zoom": 2.4,
+     "r": 0.12,
+     "title": "The coils",
+     "text": "The scales are painted in grey and black patches with small highlights. You sense the animal's weight on the boy's hips."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The painting belongs to the Clark Art Institute in Massachusetts, the same museum that owns Bouguereau's “Nymphs and Satyr”. Its founder liked French academic polish when few other collectors did."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why can't you see the boy's face?",
+   "options": [
+    "It is hidden by the snake",
+    "He stands with his back to you",
+    "He wears a mask"
+   ],
+   "answer": 1,
+   "explanation": "He faces the audience on the wall, so you watch from behind."
+  },
+  {
+   "question": "Where do the blue tiles really come from?",
+   "options": [
+    "A palace in Istanbul",
+    "A mosque in Cairo",
+    "A temple in India"
+   ],
+   "answer": 0,
+   "explanation": "They copy Iznik tile panels in the Topkapı Palace, Istanbul."
+  },
+  {
+   "question": "What is “Orientalism” in painting?",
+   "options": [
+    "Art made by Middle Eastern painters",
+    "A technique using only blue",
+    "European scenes of North Africa and the Middle East"
+   ],
+   "answer": 2,
+   "explanation": "It names the Western taste for imagined scenes of the “Orient”."
+  },
+  {
+   "question": "Which book used this painting on its cover?",
+   "options": [
+    "Orientalism by Edward Said",
+    "The Story of Art",
+    "The Arabian Nights"
+   ],
+   "answer": 0,
+   "explanation": "Edward Said's 1978 book made the picture an emblem of the debate."
+  },
+  {
+   "question": "Who plays the flute?",
+   "options": [
+    "The boy",
+    "The chief in the green turban",
+    "An old man sitting on the right"
+   ],
+   "answer": 2,
+   "explanation": "The seated old man is the charmer; the boy handles the snake."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The room in the painting is a faithful view of one real building.",
+   "isTrue": false,
+   "explanation": "It combines tiles from Istanbul and a floor from Cairo."
+  },
+  {
+   "text": "Gérôme painted missing tiles on the wall.",
+   "isTrue": true,
+   "explanation": "Bare patches near the top left suggest a neglected building."
+  },
+  {
+   "text": "The canvas is larger than a person.",
+   "isTrue": false,
+   "explanation": "It measures only about 82 by 121 centimeters."
+  }
+ ]
+}

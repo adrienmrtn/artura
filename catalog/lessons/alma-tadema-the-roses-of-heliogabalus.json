@@ -1,0 +1,60 @@
+{
+  "teaser": "The prettiest pink in Victorian art is a murder weapon.",
+  "focus": [0.55, 0.3],
+  "review_notes": "Source text: Historia Augusta, Life of Elagabalus, says 'violets and other flowers'; Alma-Tadema changed them to roses. The source is considered unreliable.\nCommission: Sir John Aird, £4,000. Roses sent from the French Riviera weekly for about four months in winter 1887-88.\nDimensions approx. 132 x 214 cm; the near golden-ratio proportion is an observation often made.\n1960 auction: reported as bought in (unsold) at 105 guineas; later owned by Allen Funt; sold 1993 at Christie's for about £1.5 million. Please verify figures.\nIdentification of the emperor as the reclining figure in the gold robe is standard. The lesson does not name the companions.\nBronze group in the background is usually said to be based on a marble Dionysus with a satyr and panther in the Vatican.\nInfluence on Hollywood (DeMille; Gladiator, 2000) is well documented in general terms.",
+  "lesson": [
+    {"type": "text", "text": "Everything in this picture says party. Pink petals drift through warm air, guests lounge on cushions, there is fruit on the table and music from a pipe. And yet the subject is a mass killing. The people in the foreground are being smothered. The petals are the weapon."},
+    {"type": "text", "text": "The host is a Roman emperor known as Heliogabalus, or Elagabalus. He took the throne in the year 218, aged about fourteen, and was murdered by his own guards four years later. Roman writers, who loathed him, filled his biography with tales of insane luxury and casual cruelty."},
+    {"type": "text", "text": "One tale says he had a dining room with a false ceiling that could tip open. During a banquet he released such a mass of flowers on his guests that some, unable to crawl out, suffocated. Historians doubt it ever happened. Lawrence Alma-Tadema, in 1888, painted it as if he had been there."},
+    {"type": "lines", "text": "The canvas is split into two worlds. See how sharply he separates them.", "lines": [
+      {"points": [[0.24, 0.5], [0.62, 0.52], [1.0, 0.53]], "closed": false, "label": "The ledge", "text": "A marble step runs across the middle. Above it: the emperor's raised dining platform, dry and safe. Below it: a sunken floor filling with petals."},
+      {"points": [[0.28, 0.08], [0.2, 0.2], [0.08, 0.36], [0.0, 0.5]], "closed": false, "label": "The avalanche", "text": "At the top left a cream awning has been let loose. The petals pour off it in a slope that widens as it falls and covers the whole left half of the picture."},
+      {"points": [[0.52, 0.27], [0.4, 0.5], [0.24, 0.72]], "closed": false, "label": "The spectator's view", "text": "From his couch, the man in gold looks down this diagonal onto the heads below. The scene is arranged for him like a show in a theater."}
+    ]},
+    {"type": "text", "text": "So the picture has a balcony and a pit. Upstairs, people who know what is happening. Downstairs, people who are only starting to find out. Start with the ones upstairs: their faces are the cruelest part of the painting, because of how little is on them."},
+    {"type": "tour", "title": "The high table", "text": "Six people recline around a table of fruit. Move along the row.", "spots": [
+      {"x": 0.51, "y": 0.27, "zoom": 3.2, "r": 0.07, "title": "The emperor", "text": "The young man in a robe of gold silk, cup in hand, leaning on one elbow. He watches the floor below with mild interest, as you might watch rain."},
+      {"x": 0.665, "y": 0.24, "zoom": 3.4, "r": 0.06, "title": "The drinker", "text": "A heavy man crowned with vine leaves lifts a blue bowl of wine toward the falling petals. He is toasting the spectacle."},
+      {"x": 0.76, "y": 0.24, "zoom": 3, "r": 0.08, "title": "Bored guests", "text": "Three heads crowned with flowers lean together. One rests on a neighbor's shoulder, eyes nearly closed. For them this is a slow afternoon."}
+    ]},
+    {"type": "fact", "text": "The ancient text speaks of “violets and other flowers.” Alma-Tadema switched them to roses. To Victorians the rose stood for love and beauty, which made it a far more disturbing thing to die under."},
+    {"type": "text", "text": "He then had a practical problem: thousands of rose petals, in a London winter. He liked to paint from the real thing, and a petal wilts in a day. The solution was expensive, and typical of a man who never guessed at a detail he could look at."},
+    {"type": "fact", "text": "For about four months in the winter of 1887 to 1888, boxes of fresh roses were sent to his London studio every week from the French Riviera, so that he would always have a living petal in front of him."},
+    {"type": "text", "text": "Now the pit. Nobody down there is screaming. Alma-Tadema catches the moment just before panic, when a prank has gone on a little too long. Some guests still play along. Others have gone quiet."},
+    {"type": "find", "text": "Among the victims in the lower half, one woman is not looking at the petals or at her neighbors. She is looking at you. Find her.", "spots": [{"x": 0.795, "y": 0.74, "zoom": 3.2, "r": 0.07, "title": "The woman who sees you", "text": "Propped on green cushions at the right, flowers in her hair, she stares straight out of the picture. She holds a pomegranate, a fruit the ancient world tied to death. She seems to know."}]},
+    {"type": "text", "text": "That stare changes your position. Until you meet it, you have been enjoying the pink from the same safe distance as the emperor. She makes you one of the watchers. The painting's beauty is a trap for the viewer too."},
+    {"type": "text", "text": "Alma-Tadema was born in a Dutch village in 1836 and settled in London in 1870. A visit to the ruins of Pompeii on his honeymoon had fixed his subject for life: the daily existence of rich Romans, rebuilt from museum objects, measured drawings and a huge archive of photographs."},
+    {"type": "tour", "title": "Props from the museum", "text": "Much of what you see was copied from real antiquities.", "spots": [
+      {"x": 0.61, "y": 0.09, "zoom": 3.4, "r": 0.06, "title": "Bronze Dionysus", "text": "Against the sky stands a dark statue group of the wine god with a small companion and a panther, modeled on an ancient sculpture. Dionysus is the god of feasts that get out of hand."},
+      {"x": 0.34, "y": 0.13, "zoom": 3, "r": 0.08, "title": "The piper", "text": "A woman wrapped in a spotted animal skin plays the double pipes, the usual music of a Roman banquet. She keeps playing as the petals fall."},
+      {"x": 0.89, "y": 0.28, "zoom": 2, "r": 0.12, "shape": "rect", "title": "Green marble", "text": "The veined green column is pure Alma-Tadema. His skill with polished stone was so famous that the magazine Punch nicknamed him the “marbellous” painter."}
+    ]},
+    {"type": "fact", "text": "The buyer was Sir John Aird, an engineer whose firm later built the first dam on the Nile at Aswan. He paid £4,000, a very large sum in 1888, and the picture went on show at London's Royal Academy that summer."},
+    {"type": "text", "text": "Then the fashion turned. After Alma-Tadema's death in 1912 his polished Romans looked like everything modern art was against. By 1960 this canvas reportedly could not find a buyer at auction for around a hundred guineas. In 1993 it sold for about one and a half million pounds."},
+    {"type": "text", "text": "One group never stopped looking at him: filmmakers. Designers of Hollywood's Roman epics, from the silent era of Cecil B. DeMille to Gladiator in 2000, studied his pictures for sets, costumes and lighting. If you can picture a Roman banquet, part of that image is probably his."},
+    {"type": "explore", "spots": [
+      {"x": 0.13, "y": 0.78, "zoom": 3.4, "r": 0.06, "title": "Going under", "text": "At the far left a blond woman's face is level with the surface of the petals, blue eyes open, one hand still above the drift."},
+      {"x": 0.21, "y": 0.72, "zoom": 3, "r": 0.07, "title": "Back to us", "text": "A man in a wreath of leaves, seen from behind, turns his head toward the platform. He may be the first to look for the host."},
+      {"x": 0.55, "y": 0.78, "zoom": 2.8, "r": 0.08, "title": "The feather fan", "text": "A woman raises her arm and a white feather fan over her head as a shield. It is the only gesture of self-defense in the picture."},
+      {"x": 0.24, "y": 0.46, "zoom": 3.2, "r": 0.06, "title": "Head down", "text": "A guest crowned with orange flowers bends forward under the heaviest part of the fall, face lowered into the petals."},
+      {"x": 0.93, "y": 0.48, "zoom": 2.6, "r": 0.08, "shape": "rect", "title": "The man in green", "text": "A bearded man with braided hair stands safely beside the column and looks up toward the emperor, not down at the victims."},
+      {"x": 0.63, "y": 0.31, "zoom": 3, "r": 0.08, "title": "Still life", "text": "Grapes, figs, pomegranates and pears piled on the table. A few petals have landed on the fruit: up here they are only decoration."},
+      {"x": 0.66, "y": 0.61, "zoom": 3.6, "r": 0.04, "title": "Bronze mask", "text": "A bearded bronze face is set into the wall between the two levels, staring out over the pit like one more spectator."}
+    ]},
+    {"type": "key", "text": "Alma-Tadema makes horror out of charm. Nothing ugly is shown: the cruelty lies in the gap between the calm faces above and the rising petals below."},
+    {"type": "text", "text": "Go back to the first impression: a party. It still looks like one. That is the unease the painting leaves you with. How much pink would it take before you noticed something was wrong?"}
+  ],
+  "quiz": [
+    {"question": "What is actually happening to the guests in the foreground?", "options": ["They are being smothered under flowers", "They are celebrating a wedding", "They are sleeping after the feast"], "answer": 0, "explanation": "According to the tale, the emperor buried his guests in flowers until some suffocated."},
+    {"question": "Which flowers does the ancient text mention?", "options": ["Roses only", "Violets and other flowers", "Lotus blossoms"], "answer": 1, "explanation": "Alma-Tadema changed the violets to roses."},
+    {"question": "How did the painter get fresh rose petals in winter?", "options": ["He grew them in a greenhouse in his studio", "He used silk imitations", "They were sent weekly from the French Riviera"], "answer": 2, "explanation": "Roses arrived every week for about four months."},
+    {"question": "What divides the emperor's party from the victims?", "options": ["A marble ledge between a raised platform and a sunken floor", "A locked bronze door", "A row of soldiers"], "answer": 0, "explanation": "The watchers recline on a raised platform above the pit filling with petals."},
+    {"question": "Who kept studying Alma-Tadema's pictures when critics had dropped him?", "options": ["Abstract painters", "Hollywood set and costume designers", "Botanists"], "answer": 1, "explanation": "Makers of Roman epics, from DeMille to Gladiator, used his paintings as a model."},
+    {"question": "What is the woman who looks out at the viewer holding?", "options": ["A wine cup", "A feather fan", "A pomegranate"], "answer": 2, "explanation": "She holds a pomegranate, a fruit the ancient world linked to death."}
+  ],
+  "facts": [
+    {"text": "Historians are sure this banquet took place exactly as painted.", "isTrue": false, "explanation": "The tale comes from hostile Roman writers and historians doubt it happened."},
+    {"text": "Alma-Tadema was born in the Netherlands.", "isTrue": true, "explanation": "He was born in a Dutch village in 1836 and moved to London in 1870."},
+    {"text": "Heliogabalus became emperor as a teenager.", "isTrue": true, "explanation": "He took the throne at about fourteen and was murdered four years later."}
+  ]
+}

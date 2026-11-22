@@ -1,0 +1,44 @@
+{
+  "teaser": "A hotel window, a rainy boulevard, and three kinds of light fighting for the same street.",
+  "focus": [0.55, 0.68],
+  "review_notes": "Image match was 'fulltext': the image does show the National Gallery night view (NG4119).\nHotel: Grand Hôtel de Russie, 1 rue Drouot, room taken in February 1897; building said to have been demolished in the 1920s when Boulevard Haussmann was completed: check.\nClaim that this is the only night scene of the 14 Boulevard Montmartre views, never signed and not exhibited in Pissarro's lifetime (National Gallery text).\nIdentification of light sources (electric arc lamps in the center, gas in shop windows, oil lamps on cabs) follows the National Gallery description.\nAcquired by the National Gallery in 1925 through the Courtauld Fund.\nSize 53.3 x 64.8 cm.",
+  "lesson": [
+    {"type": "text", "text": "This painting was made from a bedroom. In February 1897 Camille Pissarro rented a room in the Grand Hôtel de Russie, on the corner of the rue Drouot in Paris. Its window looked straight down the Boulevard Montmartre. He set his easel there and, for about two months, the window was his whole studio."},
+    {"type": "text", "text": "He had a medical reason to stay indoors. A stubborn infection in one eye flared up in wind and dust, and his doctor had warned him off working in the open air. For a painter who had spent forty years in fields and orchards, that sounded like a sentence. The hotel window turned it into an opportunity."},
+    {"type": "text", "text": "From that one spot he painted the boulevard fourteen times: in sun, in fog, in rain, during a carnival parade. Only once did he wait for dark. Standing at the glass after dinner, he found a street that no longer looked like the daytime one at all."},
+    {"type": "fact", "text": "The hotel no longer exists. The building on the corner was pulled down in the 1920s when the city finally pushed Boulevard Haussmann through to meet the older boulevards. Pissarro's viewpoint now hangs in mid-air above an intersection."},
+    {"type": "text", "text": "Paris in 1897 was in the middle of a change of lighting. Gas had lit the city for decades, and electricity was arriving street by street. On the big boulevards both burned side by side, and they did not have the same color. Pissarro noticed, and built his picture on the difference."},
+    {"type": "tour", "title": "Three lights", "text": "Each kind of lamp has its own color here. Follow them from the coldest to the warmest.", "spots": [
+      {"x": 0.585, "y": 0.75, "zoom": 3.2, "r": 0.05, "title": "Electric white", "text": "A hard, bluish-white globe on its tall post. This is the new electric light. Pissarro gives it the thickest, palest dab of paint in the whole canvas."},
+      {"x": 0.83, "y": 0.66, "zoom": 2.2, "r": 0.15, "title": "Gas orange", "text": "Shop and café windows glow orange and yellow. They are lit by gas, a warmer and softer flame. The fronts melt into one long band of fire."},
+      {"x": 0.43, "y": 0.735, "zoom": 3.6, "r": 0.04, "title": "Two small lamps", "text": "A cab comes toward you, carrying a pair of reddish lamps like eyes. Carriage lanterns burned oil, the oldest light on the street."}
+    ]},
+    {"type": "text", "text": "Now that you have seen the lamps, notice where their light ends up: on the ground. The roadway is wet, and the paint there is dragged in loose vertical strokes of orange, grey and violet. Rain turns the boulevard into a mirror, so the street is lit twice, once from above and once from below."},
+    {"type": "key", "text": "Pissarro is not painting buildings at night. He is painting what artificial light does to a wet city, which was a brand new sight in the 1890s."},
+    {"type": "text", "text": "Almost half of the canvas is given to a sky of deep blue, with nothing in it. No moon, no stars. That large quiet shape matters: it presses the eye down into the narrow trench of the street, where everything flickers."},
+    {"type": "lines", "text": "The whole picture is a wedge. Three lines are enough to show how it is built.", "lines": [
+      {"points": [[1.0, 0.13], [0.53, 0.42], [0.4, 0.5]], "closed": false, "label": "Roofline, right", "text": "The rooftops on the right fall steeply toward the far end of the boulevard. The slope is fast because Pissarro stands close to these buildings and high above them."},
+      {"points": [[0.0, 0.22], [0.2, 0.4], [0.33, 0.5]], "closed": false, "label": "Roofline, left", "text": "The left side answers with a shorter slope. The two roofs cut the dark sky into a triangle pointing down the street."},
+      {"points": [[0.33, 0.52], [0.36, 0.56], [0.4, 0.6]], "closed": false, "label": "The string of lamps", "text": "A row of white lamps shrinks into the distance like beads on a thread. Their regular spacing tells your eye how deep the street runs."}
+    ]},
+    {"type": "text", "text": "Those converging lines are the only firm structure in the painting. Everything else is suggestion. The people on the sidewalks are a few dark commas against the shop windows. A line of waiting cabs along the left is a stack of blots with sparks on them. Step back and they become a crowd; step close and they are paint."},
+    {"type": "fact", "text": "Pissarro never signed this canvas and never showed it in public. It stayed with him and then with his family, which suggests he saw it as a private experiment and not a picture for sale."},
+    {"type": "find", "text": "A café on the left keeps its terrace lit under striped awnings. Can you spot its yellow lamps?", "spots": [
+      {"x": 0.09, "y": 0.66, "zoom": 3, "r": 0.09, "title": "The café terrace", "text": "Little yellow globes hang under the slanting awnings, at the very edge of the canvas. The café is cut off by the frame, as if you leaned out of the window and could see no further."}
+    ]},
+    {"type": "text", "text": "The canvas is small, about 53 by 65 cm (21 by 25 in), roughly the size of the window pane he looked through. In 1925 it entered the National Gallery in London. Night views of modern cities became a favorite subject for painters and photographers in the following century."},
+    {"type": "text", "text": "And the man at the window? He was 66, with a white beard down to his chest. He left the hotel in April, and never painted another street by night."}
+  ],
+  "quiz": [
+    {"question": "Where did Pissarro stand to paint this view?", "options": ["On a café terrace", "At the window of a hotel room", "On the roof of the Opera"], "answer": 1, "explanation": "He rented a room in the Grand Hôtel de Russie and painted from its window."},
+    {"question": "Why was he working indoors?", "options": ["An eye infection made outdoor work risky", "He was hiding from creditors", "The police had banned easels on the boulevards"], "answer": 0, "explanation": "Wind and dust aggravated his eye, so his doctor advised against painting outside."},
+    {"question": "What color does Pissarro give the new electric lamps?", "options": ["Warm orange", "Deep red", "Bluish white"], "answer": 2, "explanation": "Electric light is the cold white; the orange belongs to the gas-lit shop windows."},
+    {"question": "Why is the roadway so full of color?", "options": ["It is covered with fallen leaves", "It is wet and reflects the lamps", "It is paved with colored tiles"], "answer": 1, "explanation": "Rain has made the street a mirror for the lights above it."},
+    {"question": "How many of the fourteen Boulevard Montmartre views show the street at night?", "options": ["One", "Four", "Seven"], "answer": 0, "explanation": "This is the only night scene in the series."}
+  ],
+  "facts": [
+    {"text": "Pissarro signed this painting and sold it at once.", "isTrue": false, "explanation": "He never signed it or exhibited it; it stayed with him and his family."},
+    {"text": "The sky in this painting has no moon and no stars.", "isTrue": true, "explanation": "It is a plain field of deep blue that pushes attention down to the street."},
+    {"text": "The hotel where Pissarro painted still welcomes guests today.", "isTrue": false, "explanation": "The building was demolished in the 1920s to complete Boulevard Haussmann."}
+  ]
+}

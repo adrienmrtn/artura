@@ -1,0 +1,243 @@
+{
+ "teaser": "A broken boat, circling sharks, a ship too far away. Homer refused to say how it ends.",
+ "focus": [
+  0.58,
+  0.48
+ ],
+ "review_notes": "Homer's reply to his dealer about the 'ladies' (that the man would be rescued and live happily ever after) is paraphrased, not quoted: check against the Knoedler letter of 1902.\nHomer reworked the canvas after its 1900 showing; the distant ship is stated here as 'thought to be' among the later additions: check Met catalogue.\nMet purchase in 1906 for $4,500 after the National Academy jury urged it: check.\nDeath of Homer's father in 1898; Bahamas trips in 1884-85 and 1898-99: check.\nRed flecks read as blood or as floating seaweed: both interpretations exist.\nBoat's name and home port (Anna, Key West) on the stern are not legible in the app image and are not pointed at.\nAlain Locke's praise and Kerry James Marshall's 2003 response: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Nothing has happened yet. That is the moment Winslow Homer chose. The mast has already snapped, the storm has already passed, and the man on deck is still alive. The next minute could bring rescue or the end. The painting stops the clock exactly between the two."
+  },
+  {
+   "type": "text",
+   "text": "The setting is the Gulf Stream, the warm, fast ocean current that runs up from the Gulf of Mexico past Florida and the Bahamas. A small fishing boat drifts on it with no mast, no sail and no rudder. One man lies propped on an elbow. Around him, Homer has arranged trouble on every side."
+  },
+  {
+   "type": "tour",
+   "title": "Counting the dangers",
+   "text": "Go around the boat and see what this sailor is facing.",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.8,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Open jaws",
+     "text": "A shark rolls on its side just under the hull, mouth wide, teeth showing. It is close enough to touch the boat."
+    },
+    {
+     "x": 0.33,
+     "y": 0.47,
+     "zoom": 3.0,
+     "r": 0.07,
+     "title": "The stump",
+     "text": "At the bow, splintered wood and tangled rope are all that remain of the mast and bowsprit. Without them the boat cannot be steered anywhere."
+    },
+    {
+     "x": 0.84,
+     "y": 0.12,
+     "zoom": 2.2,
+     "r": 0.13,
+     "title": "The waterspout",
+     "text": "On the horizon at right, a gray funnel joins sea and sky. It is a waterspout, a tornado over water. Is it leaving or coming back?"
+    },
+    {
+     "x": 0.35,
+     "y": 0.94,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "Red in the water",
+     "text": "Streaks of red float on the dark waves in the foreground. Blood, say some viewers. Drifting seaweed, say others. Homer lets it stay ambiguous."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Sharks, wreckage, storm, red water. And in the middle of all that, the sailor is not screaming, praying or fighting. His body is tense but his face is turned calmly aside. He is not even looking at the sharks."
+  },
+  {
+   "type": "key",
+   "text": "Homer gives you every sign of disaster and one man who refuses to act out despair. The tension between those two things is the subject."
+  },
+  {
+   "type": "fact",
+   "text": "The stalks spilling across the deck are sugarcane. It is the man's only supply: something to chew for moisture and sugar while he drifts."
+  },
+  {
+   "type": "text",
+   "text": "Homer knew these waters. He first sailed to the Bahamas in the winter of 1884 and painted watercolors of sharks around a wrecked boat. He returned in 1898. Back in his studio at Prouts Neck, on the cold coast of Maine, he turned fifteen years of tropical notes into this one oil painting."
+  },
+  {
+   "type": "text",
+   "text": "He was 63, and his father had died a few months earlier. Many writers see the picture as a meditation on mortality, on being alone in front of the end. Homer, a famously private man, confirmed nothing. But he did plant one small thing in the picture that complicates the story."
+  },
+  {
+   "type": "find",
+   "text": "Help may exist. Somewhere on the horizon is a ship. Find it.",
+   "spots": [
+    {
+     "x": 0.24,
+     "y": 0.195,
+     "zoom": 4.0,
+     "r": 0.05,
+     "title": "A full-rigged ship",
+     "text": "Far off at upper left, a ghostly ship under full sail crosses the horizon. It is thought to be one of the things Homer added when he reworked the canvas after its first exhibition."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Now put the two halves together. Rescue is on the left. The sailor looks to the right. He has not seen the ship, or he has seen it and knows it is too far. The whole drama is drawn in the directions people and things are facing."
+  },
+  {
+   "type": "lines",
+   "text": "Three directions that never meet.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.61,
+       0.41
+      ],
+      [
+       0.93,
+       0.36
+      ]
+     ],
+     "closed": false,
+     "label": "His gaze",
+     "text": "The man stares off to the right, past the edge of the picture, toward the waterspout side."
+    },
+    {
+     "points": [
+      [
+       0.6,
+       0.42
+      ],
+      [
+       0.25,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The ship he does not see",
+     "text": "Behind his shoulder, the ship sails on at the opposite side of the canvas. The distance between them is the widest in the picture."
+    },
+    {
+     "points": [
+      [
+       0.29,
+       0.47
+      ],
+      [
+       0.66,
+       0.5
+      ],
+      [
+       0.63,
+       0.63
+      ],
+      [
+       0.4,
+       0.68
+      ]
+     ],
+     "closed": false,
+     "label": "The tilting deck",
+     "text": "The boat heels toward us, so the deck becomes a slanted stage. We look down onto it, and the man seems ready to slide toward the sharks."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "When the painting was shown, people wanted to know what happens next. It was offered for sale for years and nobody bought it: too grim for a living room. His dealer passed along the worried questions of some lady visitors."
+  },
+  {
+   "type": "fact",
+   "text": "Homer's answer was dry. He told the dealer to let the ladies know that the poor man would be rescued, go home to his friends and live happily ever after. He added that the subject of the picture was all there in its title."
+  },
+  {
+   "type": "text",
+   "text": "In 1906 the painting hung at the National Academy of Design in New York. The artists on the jury were so struck that they urged the Metropolitan Museum to buy it. The museum paid $4,500, and the picture has been there since."
+  },
+  {
+   "type": "text",
+   "text": "It matters too who the hero is. In 1899 Black figures in American art were mostly comic or sentimental extras. Homer painted a Black man as the lone, dignified center of a serious drama. The philosopher Alain Locke later praised it for that, and in 2003 the painter Kerry James Marshall made his own Gulf Stream in reply."
+  },
+  {
+   "type": "key",
+   "text": "The clock is still stopped. More than a century on, the ship has not come closer, the sharks have not struck, and the answer is still left to whoever is looking."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What moment does Homer show?",
+   "options": [
+    "The shipwreck itself",
+    "The rescue of the sailor",
+    "A suspended instant after the storm, before any outcome"
+   ],
+   "answer": 2,
+   "explanation": "The mast is already gone and nothing is decided yet."
+  },
+  {
+   "question": "What lies scattered on the deck?",
+   "options": [
+    "Sugarcane stalks",
+    "Fishing nets",
+    "Bananas"
+   ],
+   "answer": 0,
+   "explanation": "The sugarcane is the sailor's only supply."
+  },
+  {
+   "question": "Where is the sailor looking?",
+   "options": [
+    "Straight at the sharks",
+    "Away from the distant ship",
+    "Up at the sky in prayer"
+   ],
+   "answer": 1,
+   "explanation": "He looks to the right while the ship passes on the far left."
+  },
+  {
+   "question": "How did the Metropolitan Museum come to buy the painting?",
+   "options": [
+    "Homer donated it",
+    "Artists on a jury urged the museum to buy it in 1906",
+    "A shipping company gave it"
+   ],
+   "answer": 1,
+   "explanation": "The National Academy jury pushed for the purchase, at $4,500."
+  },
+  {
+   "question": "What did Homer tell the worried lady visitors, through his dealer?",
+   "options": [
+    "That the man would be rescued and live happily ever after",
+    "That the man was already dead",
+    "That he would repaint the ending"
+   ],
+   "answer": 0,
+   "explanation": "A dry, teasing answer that explained nothing."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Homer painted The Gulf Stream on a boat in the Bahamas.",
+   "isTrue": false,
+   "explanation": "He painted it in his studio in Maine, using years of notes and watercolors from the Bahamas."
+  },
+  {
+   "text": "The funnel shape on the horizon is a waterspout.",
+   "isTrue": true,
+   "explanation": "It is a tornado over water, at the upper right."
+  },
+  {
+   "text": "The painting sold immediately after it was first shown.",
+   "isTrue": false,
+   "explanation": "It stayed unsold for years because buyers found it too grim."
+  }
+ ]
+}

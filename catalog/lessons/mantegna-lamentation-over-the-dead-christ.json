@@ -1,0 +1,249 @@
+{
+ "teaser": "You are placed at the feet of a corpse. That was the painter's whole plan.",
+ "focus": [
+  0.52,
+  0.3
+ ],
+ "review_notes": "Date is debated (1470s to about 1500); the catalog year 1480 is used.\nThe 1506 letter by Ludovico Mantegna mentioning a “Cristo in scurto” and the sale to Cardinal Sigismondo Gonzaga: standard account, check wording.\nThe idea that Mantegna meant it for his own funerary chapel is a hypothesis (stated as such).\nThird mourner identified as Mary Magdalene: probable, not certain.\nJohn Berger's comparison with the 1967 photograph of Che Guevara: check.\nBrera acquisition date 1824: check.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "The first people known to have looked at this canvas were not worshippers or critics. They were the painter's sons. Andrea Mantegna died in Mantua in September 1506, leaving debts, and his family went through the studio to see what could be sold."
+  },
+  {
+   "type": "text",
+   "text": "Within weeks his son Ludovico wrote to the ruling Gonzaga family with a list. One item was “a foreshortened Christ.” No holy title, just a job description. Their reaction was practical: this is rare, this is by our father's own hand, this will fetch money."
+  },
+  {
+   "type": "fact",
+   "text": "The painting had apparently never left Mantegna's studio. One theory is that he kept it for his own burial chapel. Instead it was sold to a cardinal of the Gonzaga family to help settle the estate."
+  },
+  {
+   "type": "text",
+   "text": "The word in that letter is the key to the picture. Foreshortening means drawing something that points straight at you, so its length is squeezed into a small space. A whole adult body lies here, and yet on the canvas it is barely taller than it is wide."
+  },
+  {
+   "type": "lines",
+   "text": "Three lines show how hard the body has been compressed, and where the painter puts you.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.56,
+       0.93
+      ],
+      [
+       0.56,
+       0.6
+      ],
+      [
+       0.55,
+       0.35
+      ],
+      [
+       0.54,
+       0.12
+      ]
+     ],
+     "closed": false,
+     "label": "Head to heel",
+     "text": "This line is the full length of a man, about six feet. On the canvas it covers less ground than the width of his shoulders and arms."
+    },
+    {
+     "points": [
+      [
+       0.43,
+       0.86
+      ],
+      [
+       0.7,
+       0.87
+      ],
+      [
+       0.54,
+       0.12
+      ]
+     ],
+     "closed": true,
+     "label": "The funnel",
+     "text": "From the two soles, the body narrows toward the face like a road running to the horizon. Your eye is pulled up it whether you want to go or not."
+    },
+    {
+     "points": [
+      [
+       0.97,
+       0.56
+      ],
+      [
+       0.865,
+       0.32
+      ]
+     ],
+     "closed": false,
+     "label": "The slab",
+     "text": "The edge of the stone bed slants inward too. It confirms where you stand: at the foot of the slab, close enough to touch the feet."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Here is the surprise. If Mantegna had followed the rules of perspective strictly, the feet, being nearest, would be enormous and the head tiny. He did the opposite of what a camera does. He shrank the feet and enlarged the head and chest."
+  },
+  {
+   "type": "key",
+   "text": "Mantegna broke perspective on purpose. He kept the shock of the viewpoint but made sure the face, not the feet, is where your eye comes to rest."
+  },
+  {
+   "type": "text",
+   "text": "Nothing softens the view. The paint is tempera bound with animal glue, on fine canvas only 68 by 81 cm (about 27 by 32 in). This mix dries matte and chalky, with no shine, so the flesh takes the color of the stone beneath it. The picture looks carved as much as painted."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.56,
+     "y": 0.865,
+     "zoom": 2.4,
+     "r": 0.16,
+     "title": "The soles",
+     "text": "Two nail holes, one in each foot. The skin around them is torn and dry like split leather. There is no blood, the body has been washed."
+    },
+    {
+     "x": 0.75,
+     "y": 0.555,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The hand",
+     "text": "The fingers curl upward, stiff. Mantegna tilts the hand so the wound faces you, even though a relaxed hand would not sit this way."
+    },
+    {
+     "x": 0.54,
+     "y": 0.12,
+     "zoom": 3.0,
+     "r": 0.09,
+     "title": "The face",
+     "text": "Head rolled to one side on a pink cushion, lips slightly open, brow still creased. A faint ring of a halo is the only sign that this is not an ordinary dead man."
+    },
+    {
+     "x": 0.5,
+     "y": 0.55,
+     "zoom": 2.0,
+     "r": 0.18,
+     "title": "The sheet",
+     "text": "The cloth clings to the legs in hard, wet-looking folds. Mantegna loved ancient Roman sculpture, and he paints linen as if it were cut from marble."
+    },
+    {
+     "x": 0.815,
+     "y": 0.27,
+     "zoom": 4.0,
+     "r": 0.05,
+     "title": "The jar",
+     "text": "A small lidded jar stands in the shadows beside the cushion. It holds the ointment used to prepare the body for burial."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That jar explains the stone. Tradition says Christ's body was laid on a slab to be anointed before burial, known as the Stone of Unction. So this is a precise moment: the washing is done and the tomb comes next. The mourners have been pushed to the very edge of the scene."
+  },
+  {
+   "type": "text",
+   "text": "Two of them are easy to see on the left: an old woman pressing a cloth to her eyes, and a figure with clasped hands, cut off by the frame. But the Gospels put more people at this scene, and Mantegna squeezed one more in."
+  },
+  {
+   "type": "find",
+   "text": "There is a third mourner, almost entirely hidden. Only part of a face shows. Where?",
+   "spots": [
+    {
+     "x": 0.16,
+     "y": 0.055,
+     "zoom": 4.0,
+     "r": 0.05,
+     "title": "An open mouth",
+     "text": "In the dark above the old woman's head you can make out a nose and a mouth open in a cry. This is probably Mary Magdalene. Mantegna gives her a few square inches."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The old woman is the Virgin Mary, and she is shown as she would have been: aged, wrinkled, her mouth pulled out of shape by crying. The clasped hands belong to Saint John. Painters of the time usually kept grief graceful. Mantegna let it be ugly."
+  },
+  {
+   "type": "fact",
+   "text": "In 1967 a press photograph showed the body of the revolutionary Che Guevara laid out on a slab, seen from the feet. The writer John Berger pointed out how closely it echoed Mantegna's canvas, painted nearly five centuries earlier."
+  },
+  {
+   "type": "text",
+   "text": "The sons saw an asset on a list. Since 1824 the canvas has hung in the Brera gallery in Milan, and visitors do what the composition tells them to do. They stop at the feet, and they travel slowly up to the face."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "How did Mantegna's son describe the painting in 1506?",
+   "options": [
+    "As an altarpiece for Mantua cathedral",
+    "As “a foreshortened Christ”",
+    "As an unfinished sketch"
+   ],
+   "answer": 1,
+   "explanation": "He listed it by its technique, not by a holy title."
+  },
+  {
+   "question": "What does foreshortening mean?",
+   "options": [
+    "Drawing something that points toward you, squeezed into a short space",
+    "Painting with very short brushes",
+    "Cutting a canvas down to fit a frame"
+   ],
+   "answer": 0,
+   "explanation": "The length of the body is compressed because it points at the viewer."
+  },
+  {
+   "question": "How did Mantegna cheat the rules of perspective?",
+   "options": [
+    "He made the feet gigantic",
+    "He left out the legs",
+    "He shrank the feet and enlarged the head"
+   ],
+   "answer": 2,
+   "explanation": "Strict perspective would give huge feet and a tiny head, he did the reverse."
+  },
+  {
+   "question": "What does the small jar near the cushion hold?",
+   "options": [
+    "Ointment for preparing the body",
+    "Water for the mourners",
+    "The painter's pigments"
+   ],
+   "answer": 0,
+   "explanation": "The body lies on the slab where it was anointed before burial."
+  },
+  {
+   "question": "Why do the colors look so dull and stony?",
+   "options": [
+    "The painting was damaged by fire",
+    "It is painted in glue-based tempera, which dries matte",
+    "It was painted at night"
+   ],
+   "answer": 1,
+   "explanation": "Glue tempera dries chalky and without shine."
+  }
+ ],
+ "facts": [
+  {
+   "text": "The painting was found in Mantegna's studio when he died.",
+   "isTrue": true,
+   "explanation": "His sons listed it among the works left there in 1506."
+  },
+  {
+   "text": "Christ's feet are painted much larger than strict perspective would require.",
+   "isTrue": false,
+   "explanation": "They are smaller, Mantegna shrank them so the face would dominate."
+  },
+  {
+   "text": "Three mourners appear at the left edge, one of them almost hidden.",
+   "isTrue": true,
+   "explanation": "Besides Mary and John, an open mouth belongs to a third figure, probably Mary Magdalene."
+  }
+ ]
+}

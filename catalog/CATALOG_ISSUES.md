@@ -1,0 +1,110 @@
+# Catalog issues found while writing lessons
+
+Lessons written in the full run: 515 (plus 30 pilot). Each note below comes from the writer who looked at the image.
+
+## Not written: image shows another work
+
+- `rembrandt-self-portrait-1659`: wrong image: the file shows a young Rembrandt self-portrait of about 1629 (beret, open mouth, eyes in shadow; probably the Indianapolis panel), not the 1659 National Gallery of Art self-portrait, so no lesson was written
+- `steen-the-merry-family`: Image mismatch, no lesson written: the image (Commons File:Jan_Steen_005.jpg, Yorck Project, Wikidata Q29443162) is a different Jan Steen painting, an outdoor merry company under an arbor (kittens on a table, man raising a glass, child with violin, owl, dogs and a crow), not the Rijksmuseum's The Merry Family (SK-C-229, interior with a family at table and a note on the mantel). Coordinates on this image would be wrong for the listed work; the catalog needs the correct image.
+- `fragonard-young-girl-reading`: wrong image: the file shows Corot's Young Girl Reading (c. 1868, National Gallery of Art, signed COROT at lower right), not Fragonard's painting of the girl in a yellow dress; no lesson written because every coordinate would point at the wrong work
+- `monet-poppy-field`: Wrong image: the file shows a later Monet poppy field with three poplars and no figures (apparently one of the Giverny versions, c. 1890), not the 1873 Orsay painting with the woman and child with a parasol. No lesson written, since coordinates could not match the listed work; the image needs replacing.
+
+## Written, but the image or metadata needs a look
+
+- `martini-annunciation-with-st-margaret-and-st-ansanus`: Image includes the museum wall and plinth around the altarpiece, and the right-hand saint titled Margaret is identified by some scholars as St. Maxima.
+- `lorenzetti-the-allegory-of-good-and-bad-government`: Image is a dim interior photo of the whole Sala dei Nove rather than a reproduction of the fresco; details are unreadable, so only large regions are pointed at and a better image is needed.
+- `brothers-tres-riches-heures-du-duc-de-berry`: Image is a single folio of the manuscript, the Anatomical (Zodiac) Man, not one of the famous calendar pages; the lesson is written around that page.
+- `campin-merode-altarpiece`: Image includes the gilded frame around the three panels (coordinates account for it); Met dates the work ca. 1427-32.
+- `weyden-the-descent-from-the-cross`: Image shows the T-shaped panel on a black ground, so the two upper corners are black rectangles that are not part of the painting.
+- `goes-portinari-altarpiece`: Image is only 960x409 px for a 6 m triptych, so spots are limited to large regions; a higher-resolution file would help.
+- `memling-diptych-of-maarten-van-nieuwenhove`: Image is a low-quality reproduction with an added tan border and drop shadow around the two panels (original frames cropped away); should be replaced with a clean photo.
+- `masaccio-the-tribute-money`: Image is a crop of the central group only; the two side episodes (Peter at the lake, Peter paying) and the building are not in the image.
+- `michelangelo-the-last-judgment`: Image is an angled in-situ photo of the altar wall including side walls and ceiling (fresco fills only about x 0.15-0.80), so figures are small; a frontal, cropped image would be better.
+- `titian-venus-and-adonis`: Image shows the Prado version (Madrid, 1554: sleeping Cupid, quiver in the tree, three dogs, figure in a burst of light), not the Metropolitan Museum canvas (Cupid awake with a dove, rainbow); lesson describes the image and mentions that versions differ.
+- `durer-the-rhinoceros`: Impression shown carries a collector's stamp at lower right and may come from a collection other than the Met; same woodcut.
+- `grunewald-isenheim-altarpiece`: Image is an installation photo of the closed view only (Crucifixion, two saints, predella) with museum room visible around it; the opened views are not shown.
+- `altdorfer-the-battle-of-alexander-at-issus`: Image is low resolution for the tiny figures; the Darius and Alexander coordinates should be checked on a sharper image.
+- `elder-adam-and-eve`: Image is not the Courtauld 1526 Adam and Eve (no landscape or animals); it shows a different Cranach version on a black background with Eve holding a bitten apple, probably the c. 1510 Warsaw panel.
+- `younger-portrait-of-henry-viii`: Image is not the Thyssen panel portrait: it is George Vertue's engraving after the lost Whitehall mural (Henry VII, Elizabeth of York, Henry VIII, Jane Seymour); the lesson was written about the image shown.
+- `elder-the-triumph-of-death`: Image is only 960 px wide, so spots are limited to large groups; the panel is unsigned and undated (catalog year 1562 is approximate).
+- `bronzino-portrait-of-a-young-man`: Image is not the Met's Portrait of a Young Man (c. 1535): it shows a different Bronzino Portrait of a Young Man (pink curtain, Bacchus statue), which I believe is the National Gallery, London picture of c. 1550-55; the lesson describes the image shown and names no museum or year.
+- `arcimboldo-summer`: The date woven into the shoulder in the image reads 157_ (apparently 1573), so the photo is probably a later replica (Louvre or Denver), not the 1563 Vienna painting; the lesson avoids stating the date shown.
+- `caravaggio-supper-at-emmaus`: Image is Caravaggio's second Supper at Emmaus (1606, Pinacoteca di Brera, Milan), not the 1601 National Gallery London version in the metadata; the lesson describes the Brera picture shown and says so, so fix the image or the metadata.
+- `gentileschi-judith-slaying-holofernes`: Image shows the earlier Naples (Capodimonte, c.1612-13) version with Judith in blue, not the Uffizi c.1620 version (gold dress) named in the metadata; lesson says which version is on screen.
+- `rubens-the-descent-from-the-cross`: Image is a montage of the whole open triptych (three panels separated by white gaps), not the central panel alone; coordinates are placed on the full montage.
+- `poussin-et-in-arcadia-ego`: Image is not the Louvre painting (c. 1638) but Poussin's earlier first version (c. 1627-28, Chatsworth House, vertical, with skull and river god), slightly cropped; lesson was written for the image shown and says so.
+- `tour-the-fortune-teller`: Year 1632 is an estimate; the Met dates it only 'probably 1630s'.
+- `rembrandt-self-portrait-with-two-circles`: Catalog year 1665 is an estimate; the work is unsigned and undated, usually given as about 1665 to 1669.
+- `vermeer-the-milkmaid`: Catalog year 1658; the Rijksmuseum dates it about 1660.
+- `avercamp-winter-landscape-with-ice-skaters`: Image is the Bergen (KODE) Avercamp of the same title, not the Rijksmuseum painting; lesson describes the image shown and avoids naming the museum.
+- `boucher-madame-de-pompadour`: Image is Boucher's 1759 standing garden portrait of Pompadour (Wallace Collection, London), not the 1756 reclining portrait in the Alte Pinakothek, Munich; the lesson describes the image supplied, so the image or the year/museum must be corrected.
+- `chardin-soap-bubbles`: Image is the tall honeysuckle-framed version held by the National Gallery of Art, Washington, not the nearly square Metropolitan Museum version named in the metadata.
+- `david-napoleon-crossing-the-alps`: Image shows a red-orange cloak and grey-white horse; please confirm it is the Malmaison canvas and not the Versailles/Vienna version (Malmaison is usually described with a yellow-orange cloak and piebald horse).
+- `blake-newton`: Image is the correct Tate work; listed year 1795 is the design date, but the Tate impression is generally thought to have been printed around 1804-5.
+- `hokusai-rainstorm-beneath-the-summit`: Image shows the correct design, but its very saturated colors suggest a different impression or later reproduction, not necessarily the Met's sheet.
+- `hokusai-kajikazawa-in-kai-province`: Image is a later multi-color impression (green rock, orange mist), possibly a modern recut, and may not be the Art Institute of Chicago sheet.
+- `hiroshige-shono-driving-rain`: Image shows the right print (Hoeido Tokaido, Shono) but could not be confirmed as the Met impression (match was fulltext).
+- `xi-old-trees-level-distance`: Image shows only the left half of the painting (bridge, pavilion, old trees) plus the start of the colophons; the right half with the fishing boats is cut off.
+- `gongwang-dwelling-in-the-fuchun-mountains`: Image is a 1280x44 px strip of the whole scroll including colophons (painting is only about the right 60%); too panoramic for detail zooms, so the lesson has a single tour over four broad stretches.
+- `tohaku-pine-trees`: Image shows only one screen (the right-hand one) of the pair of six-panel screens.
+- `korin-irises-at-yatsuhashi-eight-bridges`: Image shows only one screen (apparently the right-hand one) of the Met's pair of six-panel screens.
+- `courbet-the-stone-breakers`: Image is a harsh color reproduction from pre-war photography (the painting was destroyed in 1945); colors are approximate.
+- `courbet-the-desperate-man`: Catalog year 1845 is uncertain (usually dated 1843-45, and the inscription in the image seems to read '41'); 'Private collection' may be outdated, as the work was reported in 2025 as owned by Qatar Museums and on loan to the Musée d'Orsay.
+- `courbet-young-ladies-on-the-banks-of-the-seine`: Image appears to be the smaller, sketchier National Gallery London version (4:3 proportions), not the large Petit Palais Salon painting (174 x 206 cm).
+- `bonheur-the-horse-fair`: Listed year 1855 is the retouching date; the painting was shown at the Salon of 1853 (Met dates it 1852-55).
+- `church-niagara`: Image is a gallery photograph that includes the gold frame and some glare, with duller colors than the painting; a clean reproduction would be better.
+- `hunt-the-awakening-conscience`: Image shows the panel unframed, with Hunt's handwritten notes visible in the top corners normally hidden by the arched frame; the lesson mentions this.
+- `rossetti-lady-lilith`: Image is the 1867 watercolor replica in the Metropolitan Museum (dated 1867, Fanny Cornforth's face), not the Delaware oil with Alexa Wilding's repainted face.
+- `burne-jones-the-golden-stairs`: Image appears slightly cropped at the left edge (top-left figure cut off).
+- `clairin-portrait-of-sarah-bernhardt`: Image is not the 1876 Petit Palais divan portrait: it shows a different Clairin canvas (Bernhardt standing in an Egyptian setting with a lion skin, signed 1890s, probably as Cleopatra); the lesson describes the image supplied.
+- `monet-water-lilies-agapanthus`: Museum dates the work c. 1915-26 (catalog says 1920); image is small (960x473) and includes the picture frame.
+- `degas-the-star-l-etoile`: Musée d'Orsay dates this pastel c. 1876-77, not 1878; image matches the listed work.
+- `degas-the-millinery-shop`: Art Institute of Chicago dates the work 1879/86 rather than a single year 1885.
+- `caillebotte-the-floor-scrapers`: Image is not the 1875 Orsay canvas but a small, blurry oil sketch for it (one worker kneeling at left, two bent toward us); the lesson says a study is shown and its coordinates fit the sketch, so replace the image and redo the lesson's coordinates if the finished painting is wanted.
+- `sisley-flood-at-port-marly`: Image is not the Musée d'Orsay canvas: it shows another 1876 version of the flood (most likely the Thyssen-Bornemisza one, with iron sign bracket and dry foreground), and is low resolution.
+- `gogh-sunflowers`: Image shows the Munich (Neue Pinakothek) version with twelve sunflowers on a turquoise background, not the National Gallery London version (yellow background); lesson describes the image shown.
+- `gogh-the-bedroom`: Image shows the first version of The Bedroom (Van Gogh Museum, Amsterdam, 1888, with the Boch and Milliet portraits), not the 1889 Art Institute of Chicago version; lesson spots were limited to features common to both.
+- `cezanne-the-card-players`: Image shows a two-player version of The Card Players (looks like the Courtauld canvas), not the Met's four-figure version listed; lesson is written about the two-player image and says so.
+- `gauguin-where-do-we-come-from-what-are-we-where-are-we-going`: Image is small and very panoramic (960 px wide); spots point at whole figures only, and the painting is dated 1897 but was likely finished in early 1898.
+- `toulouse-lautrec-at-the-moulin-rouge`: Catalog year 1895; the Art Institute of Chicago dates the painting 1892/95.
+- `toulouse-lautrec-moulin-rouge-la-goulue`: Image shows the poster without its top strip (the third 'Moulin Rouge' line of the complete three-sheet poster).
+- `redon-the-cyclops`: Year 1914 follows the Kröller-Müller dating (c. 1914); some sources give 1898-1900.
+- `redon-ophelia-among-the-flowers`: National Gallery dates the pastel about 1905-8 rather than exactly 1905.
+- `bocklin-island-of-the-dead`: Image is not the Met's 1880 panel (ratio 1.65, dark sky): its 1.88 ratio and daylight sky match a later 80 x 150 cm version, most likely the 1883 Berlin (Alte Nationalgalerie) one.
+- `klimt-the-tree-of-life-stoclet-frieze`: Image shows one panel of Klimt's working drawing (cartoon) at MAK, not the finished mosaic; design dates 1905-1911, so the year 1909 is approximate.
+- `klimt-beethoven-frieze`: Image is a photo of the whole Secession room (with unrelated statues), so the frieze is small and seen in perspective; a flat reproduction of the frieze would allow better zooms.
+- `mucha-the-seasons`: Image is a low-resolution (1280x640) composite of the four 1896 panels with oversaturated warm color; it does match the listed series.
+- `matisse-dance`: Image shows Dance (I), 1909, MoMA New York (pale pink figures), not the 1910 Hermitage version listed; the lesson states this and points only at what the image shows.
+- `derain-charing-cross-bridge-london`: Image appears to be the Musée d'Orsay version (embankment with green road, wall label 'also known as Westminster Bridge'), not the National Gallery of Art, Washington canvas; photo is small and includes frame and wall.
+- `marc-the-large-blue-horses`: Image looks like an older, over-saturated colour reproduction of the correct work; a better scan would be preferable.
+- `soutine-carcass-of-beef`: Image is very tall (ratio about 0.56), matching the Grenoble version (about 202 x 114 cm) rather than the Buffalo canvas (about 140 x 108 cm); verify which version it shows.
+- `delaunay-champs-de-mars-the-red-tower`: Image matches the work; the Art Institute of Chicago dates it 1911/23 (reworked in 1923) rather than 1911 alone.
+- `delaunay-eiffel-tower`: Image shows the Guggenheim's 'Eiffel Tower with Trees' (c. 1910, ochre tower seen through foliage), not the red 'Eiffel Tower' of 1911; lesson describes the image shown.
+- `leger-contrast-of-forms`: Image is a gallery photo including the frame and wall, not a clean reproduction of the canvas.
+- `boccioni-states-of-mind-i-the-farewells`: Image looks slightly cropped at the edges and has a pale strip along the bottom; a cleaner scan would be better.
+- `kandinsky-the-blue-rider`: Image is low resolution and nearly square, so spots point only at large areas.
+- `kandinsky-composition-viii`: Image is a gallery photograph that includes a thin strip of the frame at the edges.
+- `picabia-dances-at-the-spring`: Image is the correct Philadelphia version (title and 1912 signature visible), but the work is Cubist, not Dada/Surrealist as the movement field says.
+- `sphinx-of-hatshepsut`: Image shows the Met's small limestone maned sphinx (31.3.94, 'Hatshepsut as a Maned Sphinx'), not the colossal granite 'Sphinx of Hatshepsut' (31.3.166); lesson is written about the sphinx shown.
+- `mask-of-tutankhamun`: Museum is listed as Egyptian Museum, Cairo, but the mask moved to the Grand Egyptian Museum, Giza, in 2025.
+- `hippopotamus-william`: Image is not William: it shows a dark bronze/copper-alloy hippo statuette, not the Met's blue faience hippo with painted lotus; lesson text describes William, the single tour only points at generic shape and must be redone when the image is replaced.
+- `charioteer-of-delphi`: Photo shows only the upper two thirds of the statue (cropped below the belt, no feet).
+- `riace-bronzes`: Image is a wide, low-resolution gallery view (960 px) with both statues small; interactive spots limited to large regions.
+- `olmec-colossal-head-san-lorenzo-head-1`: Image looks like La Venta Monument 1 (outdoors in Parque-Museo La Venta, Villahermosa), not San Lorenzo Head 1 in Xalapa; lesson points only at generic features.
+- `shiva-as-lord-of-dance-nataraja`: Image appears to be the Cleveland Museum of Art Nataraja (no flying hair locks, grey studio backdrop), not the Metropolitan Museum bronze.
+- `great-buddha-of-kamakura`: Image is small and heavily HDR-processed; a cleaner photo would be preferable.
+- `sluter-well-of-moses`: Photo shows only the Zechariah side of the hexagon (with Jeremiah and Daniel at the edges); Moses himself is not visible.
+- `ghiberti-gates-of-paradise`: Image shows the doors in situ on the Florence Baptistery (the replica installed in 1990, partly behind a railing), not the originals in the Museo dell'Opera del Duomo; panels are small, so spots point only at whole panels.
+- `cellini-perseus-with-the-head-of-medusa`: A modern black pole (equipment) crosses the right side of the photo; image otherwise correct.
+- `giambologna-abduction-of-a-sabine-woman`: Image is very small (372x640 px), so zooms are limited to large regions.
+- `houdon-voltaire-seated`: Photo is LACMA's cast version of Houdon's Seated Voltaire (credit Museum Associates/LACMA), not the 1781 marble at the Comédie-Française; same composition.
+- `canova-the-three-graces`: Year 1817 is the date of the second (V&A/Edinburgh) version; the Hermitage marble shown is usually dated 1813-1816.
+- `rodin-the-thinker`: Photo shows an outdoor cast in front of a modern office building (bank sign visible), seen from the side/back, not the Musée Rodin cast in Paris.
+- `rodin-the-kiss`: Image appears to show a plaster version of The Kiss rather than the large marble in the Musée Rodin; composition is the same.
+- `rodin-monument-to-balzac`: Image shows a green-patina bronze cast in a park (probably Middelheim, Antwerp), not the Musée Rodin cast; same work.
+- `claudel-the-waltz`: Image is a soft-focus sepia art photograph of a cast; fine details are not legible.
+- `saint-gaudens-diana`: Photo is blurry and tilted, taken from below; the Met cast is a half-size version cast in 1928 from the 1892-93 model, so the listed year 1894 is approximate.
+- `bourdelle-hercules-the-archer`: Image shows a gilded bronze cast in a New York museum (apparently the Met), not the cast at the Musée Bourdelle, Paris.
+- `maillol-the-mediterranean`: Image shows the bronze cast in the Tuileries/Carrousel garden, seen from behind under snow, not the Orsay marble; face and front are not visible.
+- `lehmbruck-kneeling-woman`: Image shows only a bust (head and shoulders, terracotta-colored) derived from the Kneeling Woman, not the full kneeling figure.
+- `duchamp-villon-the-large-horse`: Image is a two-panel montage (two views) of an outdoor cast, apparently the Museum of Fine Arts Houston cast, not the Centre Pompidou cast.

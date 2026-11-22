@@ -1,0 +1,39 @@
+{
+  "teaser": "One tiny man, one enormous sky, and almost nothing else. In 1810 that was shocking.",
+  "focus": [0.36, 0.84],
+  "review_notes": "Kleist's line about eyelids being cut away comes from his 1810 text in the Berliner Abendblätter (reworking a draft by Brentano and Arnim); translation varies.\nMarie von Kügelgen's 1809 studio visit and her complaint that there was nothing to look at.\nInfrared examination showing ships Friedrich painted out (usually given as two, sometimes three).\nPurchased by King Frederick William III in 1810 at the wish of the 15-year-old crown prince.\nDate usually given as 1808-10; size 110 x 171.5 cm. The sky fills roughly four fifths of the height in this image.\nThe image is small: the gulls and whitecaps are only specks at this resolution.",
+  "lesson": [
+    {"type": "text", "text": "A man walking along a beach has just stopped. He stands on a low dune, bareheaded, one hand lifted toward his chin. The wind is up: you can tell from the white crests on the black water. No ship is passing, no storm is breaking, no sun is setting. The moment this picture freezes is a moment when nothing happens."},
+    {"type": "text", "text": "Caspar David Friedrich worked on this nothing for about two years, in Dresden, between 1808 and 1810. The canvas is wide, 110 by 171.5 cm (about 43 by 68 inches). Standing in front of it, you face a wall of air before you ever notice that someone is there."},
+    {"type": "find", "text": "Find the man. He is the only upright thing in the entire painting.", "spots": [{"x": 0.358, "y": 0.857, "zoom": 4.5, "r": 0.035, "shape": "rect", "title": "The monk", "text": "A thin dark figure in a long robe, left of center, his pale head just reaching the line of the sea. Many think Friedrich gave him his own features."}]},
+    {"type": "text", "text": "He is small enough to cover with a fingertip. Friedrich could have made him larger, or put him in the middle. He did neither. To feel what the painter did with all the remaining space, divide the canvas into its layers."},
+    {"type": "lines", "text": "Three bands, stacked.", "lines": [
+      {"points": [[0.0, 0.92], [0.2, 0.9], [0.36, 0.885], [0.6, 0.9], [1.0, 0.925]], "closed": false, "label": "Sand", "text": "A pale strip of dune, barely a tenth of the height. It rises gently to a crest right where the monk stands, the one hill in a flat world."},
+      {"points": [[0.0, 0.8], [1.0, 0.8]], "closed": false, "label": "Sea", "text": "The horizon is a ruler-straight line, very low. The sea below it is a narrow band of near black. Nothing crosses it."},
+      {"points": [[0.02, 0.02], [0.98, 0.02], [0.98, 0.78], [0.02, 0.78]], "closed": true, "label": "Sky", "text": "Everything else, about four fifths of the canvas, is sky: dark fog at the bottom, lifting into gray clouds and then a clear, pale blue."}
+    ]},
+    {"type": "key", "text": "Friedrich removed everything a landscape used to need: trees at the sides, a path into the distance, a story. What is left is a person measured against space."},
+    {"type": "fact", "text": "He removed things literally. Infrared images, which let researchers see drawings and earlier paint under the surface, show that Friedrich first painted sailing ships on the water. He then covered them over."},
+    {"type": "text", "text": "People who saw it in progress were uneasy. A visitor to the studio complained that there was nothing to rest the eye on: no boat, not even a sea monster. When it was exhibited in Berlin in 1810, the writer Heinrich von Kleist found a harsher image. With nothing in front but the frame, he wrote, it felt as if one's eyelids had been cut away."},
+    {"type": "text", "text": "Kleist meant it as praise and as a warning. Older landscapes gave you something to stand behind. This one leaves you as exposed as the monk. Is he praying, doubting, or simply feeling small? Friedrich, a devout Protestant, gives no hint, and no comfort either."},
+    {"type": "fact", "text": "The buyer was the king of Prussia. He is said to have purchased the painting because his fifteen-year-old son, the crown prince, insisted on it."},
+    {"type": "text", "text": "The sky is not empty, though. With the bands in mind, spend a little time in the largest one."},
+    {"type": "tour", "title": "Inside the sky", "text": "Two places where the gray comes alive.", "spots": [
+      {"x": 0.38, "y": 0.45, "zoom": 2, "r": 0.15, "title": "The break", "text": "Above the monk, a little to the right, the clouds turn white and the blue shows through. It is the only light in the picture, and it sits far over his head."},
+      {"x": 0.27, "y": 0.8, "zoom": 3.6, "r": 0.09, "title": "White specks", "text": "Tiny pale marks along the horizon: gulls in the air and foam on the waves. They are the only company he has, and the only sign that the wind is blowing."}
+    ]},
+    {"type": "text", "text": "A century and a half later, painters such as Mark Rothko filled canvases with soft horizontal bands of color and no figures at all. Art historians looking for an ancestor kept coming back to this beach. Cover the monk with your finger and you are close to an abstract painting. Take your finger away, and the instant returns: a man, stopped, with the whole sky to answer to."}
+  ],
+  "quiz": [
+    {"question": "What happens in the moment the painting shows?", "options": ["A ship sinks in a storm", "A man has simply stopped on a dune", "The sun rises over the sea"], "answer": 1, "explanation": "The picture freezes an instant in which nothing dramatic occurs."},
+    {"question": "What did infrared images reveal under the paint?", "options": ["Sailing ships that Friedrich painted out", "A second monk", "A lighthouse"], "answer": 0, "explanation": "He first painted ships on the sea, then covered them."},
+    {"question": "About how much of the canvas is sky?", "options": ["One third", "Half", "About four fifths"], "answer": 2, "explanation": "The sea and the sand are squeezed into narrow bands at the bottom."},
+    {"question": "What did the writer Heinrich von Kleist say looking at it felt like?", "options": ["Falling asleep", "Having one's eyelids cut away", "Listening to an organ"], "answer": 1, "explanation": "With no foreground to hide behind, the viewer feels fully exposed."},
+    {"question": "Which later painter is often compared with this work?", "options": ["Mark Rothko", "Claude Monet", "Pablo Picasso"], "answer": 0, "explanation": "Rothko's soft horizontal bands of color recall its three layers."}
+  ],
+  "facts": [
+    {"text": "The monk stands in the exact center of the painting.", "isTrue": false, "explanation": "He stands left of center, on the crest of the dune."},
+    {"text": "A studio visitor complained there was nothing in the picture to look at.", "isTrue": true, "explanation": "She missed a boat or even a sea monster to rest the eye on."},
+    {"text": "The horizon is placed high, near the top of the canvas.", "isTrue": false, "explanation": "It runs very low, leaving most of the surface to the sky."}
+  ]
+}

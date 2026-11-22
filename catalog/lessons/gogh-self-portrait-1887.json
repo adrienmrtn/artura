@@ -1,0 +1,41 @@
+{
+  "teaser": "Sent back to the beginners' class at 32, he found a cheaper model: the man in the mirror.",
+  "focus": [0.5, 0.4],
+  "review_notes": "Antwerp academy, early 1886: the teachers decided to move Van Gogh down to the beginners' drawing class, a verdict issued around the time he left for Paris: check.\nRijksmuseum work (Self-Portrait with Grey Felt Hat, SK-A-3262) is painted on cardboard, about 42 x 34 cm: check.\nAbout 25 or more self-portraits painted in Paris 1886-1888: check.\nHe bought a mirror in Paris for this purpose: commonly stated, check.\nA second, better-known Self-Portrait with Grey Felt Hat (winter 1887-88) is in the Van Gogh Museum: check that the two are not confused.",
+  "lesson": [
+    {"type": "text", "text": "In early 1886 the teachers of the Antwerp art academy looked over the drawings of a 32-year-old Dutch student and reached a verdict: back to the beginners' class. Vincent van Gogh did not stay to hear it. He had already taken a train to Paris and turned up unannounced at his brother Theo's door."},
+    {"type": "text", "text": "Paris gave him no warmer welcome. Nobody bought his pictures, and he could not pay people to pose. His answer was practical. He bought a decent mirror and became his own model, free and always available. In two years in the city he painted himself more than twenty-five times."},
+    {"type": "text", "text": "This one dates from 1887. He shows himself as a city man in a gray felt hat, jacket and blue cravat, nothing like the rough painter of peasants he had been in Holland. And the paint itself has changed. It is laid down in separate little dashes, each one left visible."},
+    {"type": "tour", "title": "Three kinds of dashes", "text": "Follow how the strokes change direction from one zone to the next.", "spots": [
+      {"x": 0.85, "y": 0.45, "zoom": 2.2, "r": 0.13, "title": "Slanting rain", "text": "The background is a curtain of blue-green dashes, all leaning the same way. Instead of a flat wall, the air around him seems to move."},
+      {"x": 0.5, "y": 0.62, "zoom": 2.8, "r": 0.11, "title": "The beard", "text": "Here the strokes fan outward from the mouth, in orange, red and ocher. They follow the growth of the hair, so the brushwork itself describes the form."},
+      {"x": 0.78, "y": 0.82, "zoom": 2.4, "r": 0.14, "title": "A tweed of dabs", "text": "The jacket is a crumble of tiny touches: brown, green, pink, dark red. From a step back they blend into rough cloth. Up close they are confetti."}
+    ]},
+    {"type": "text", "text": "He had borrowed the idea from painters he met in Paris. Georges Seurat and Paul Signac were building pictures from thousands of tidy dots of pure color, a method called Pointillism, counting on the viewer's eye to mix them. Van Gogh tried it and lost patience. His dots stretched into dashes, and the dashes started to follow his hand and his mood."},
+    {"type": "fact", "text": "This portrait is not on canvas. He painted it on a piece of cardboard about 42 by 34 cm (16.5 by 13.5 in), a cheap support for a painter counting every franc."},
+    {"type": "text", "text": "The new friends also taught him to trust strong, unmixed color. Most of the picture stays in a cool family of blues and gray greens, with the warm beard in the middle. But he slipped in one stroke that belongs to neither family, a single line of pure red."},
+    {"type": "find", "text": "One long stroke of bright red cuts through the cool colors. Where is it?", "spots": [{"x": 0.42, "y": 0.75, "zoom": 3.4, "r": 0.07, "title": "The red line", "text": "A red diagonal runs along the edge of the shirt, right beside the bright blue cravat. Next to that blue it looks even redder. It is there for the eye, not because clothing demanded it."}]},
+    {"type": "key", "text": "In Paris, Van Gogh stopped blending paint smooth. A visible brushstroke became a tool of its own, able to show direction, texture and feeling."},
+    {"type": "fact", "text": "Paris changed his palette fast. Barely two years earlier, in Holland, he had painted “The Potato Eaters” almost entirely in muddy browns and dark greens."},
+    {"type": "explore", "spots": [
+      {"x": 0.38, "y": 0.37, "zoom": 3.4, "r": 0.07, "title": "Green iris", "text": "The eye is a spot of green ringed with red and pink. Red and green are opposites, so the gaze gains a tense, unsettled edge."},
+      {"x": 0.5, "y": 0.18, "zoom": 2.0, "r": 0.2, "title": "The felt hat", "text": "A soft gray hat with a dark band, city wear. He paints it in broad curved strokes that wrap around the crown and make it look round."},
+      {"x": 0.52, "y": 0.33, "zoom": 3.0, "r": 0.1, "title": "The frown", "text": "Short pale strokes knit together between the eyebrows. The serious, slightly wary expression returns in nearly all his self-portraits."},
+      {"x": 0.47, "y": 0.75, "zoom": 3.0, "r": 0.08, "title": "The cravat", "text": "Thick, wet touches of light blue and turquoise, the brightest cool note in the picture, set right under the warm beard."},
+      {"x": 0.74, "y": 0.47, "zoom": 3.0, "r": 0.07, "title": "The ear", "text": "Pink and red against the blue-green background. This is a mirror image, so left and right are swapped compared with what a visitor would have seen."}
+    ]},
+    {"type": "text", "text": "The mirror portraits were training, not vanity. Each one let him test a color pairing or a way of handling the brush without spending anything on a sitter. By the time he left for the south of France in February 1888, the rejected student had built a style nobody could mistake for anyone else's."}
+  ],
+  "quiz": [
+    {"question": "Why did Van Gogh paint himself so often in Paris?", "options": ["Collectors kept ordering his portrait", "He could not afford to pay models", "His brother forbade him to paint outdoors"], "answer": 1, "explanation": "A mirror was a free model for a painter with no money and no buyers."},
+    {"question": "What is this portrait painted on?", "options": ["Cardboard", "A wooden panel", "A linen tea towel"], "answer": 0, "explanation": "He used a piece of cardboard, a cheap support."},
+    {"question": "Which technique, seen in Paris, inspired the separate touches of color?", "options": ["Fresco", "Engraving", "Pointillism"], "answer": 2, "explanation": "Seurat and Signac built pictures from small dots of pure color."},
+    {"question": "What did Van Gogh do with the Pointillist dot?", "options": ["He copied it exactly for the rest of his life", "He stretched it into dashes that follow the forms", "He refused to try it"], "answer": 1, "explanation": "His dots became directional dashes, like those that fan out in the beard."},
+    {"question": "Where is the single stroke of pure red?", "options": ["Beside the blue cravat", "On the hat band", "In the background"], "answer": 0, "explanation": "A red diagonal runs along the shirt, next to the cravat."}
+  ],
+  "facts": [
+    {"text": "The academy in Antwerp judged that Van Gogh belonged in the beginners' class.", "isTrue": true, "explanation": "That verdict came in early 1886, as he was leaving for Paris."},
+    {"text": "Van Gogh followed the Pointillist method strictly, using only neat round dots.", "isTrue": false, "explanation": "He turned the dots into longer dashes that change direction."},
+    {"text": "In this portrait he presents himself in the clothes of a farm laborer.", "isTrue": false, "explanation": "He wears a felt hat, jacket and cravat, the outfit of a city man."}
+  ]
+}

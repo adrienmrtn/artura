@@ -1,0 +1,222 @@
+{
+ "teaser": "Vermeer painted a chair in the corner, then erased it. The empty wall is the point.",
+ "focus": [
+  0.5,
+  0.42
+ ],
+ "review_notes": "Painted-out chair with lion-head finials in the left foreground and a map that originally extended behind the woman's head: reported by the Metropolitan Museum from technical examination.\nSize 45.7 x 40.6 cm.\nThe white hood and collar as a linen cover worn during the morning toilette: usual costume-history reading.\nSilver-gilt pitcher and basin as a washing set, and as traditional signs of purity: usual reading.\nBought by Henry G. Marquand in Paris in 1887 for $800, given to the Met in 1889, the first Vermeer to enter an American collection: per the Met. Please verify the price.\n'About a third of the surviving Vermeers are now in the United States' (roughly 12 to 14 of about 36): approximate.\nNatural ultramarine (ground lapis lazuli) costing more than most pigments and imported from what is now Afghanistan: standard.\nMap: usually identified as a map of the Seventeen Provinces published by Huyck Allart; the lesson only calls it a map of the Netherlands.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This painting began with something Vermeer threw away. In the lower left corner, where you now see bare wall, he first painted a chair with carved lion heads on its back. The map on the wall reached much farther left, right behind the woman's head. He looked at both, changed his mind, and painted them out."
+  },
+  {
+   "type": "text",
+   "text": "Modern imaging found them under the surface. What he kept, around 1662, is very little: a young woman, a window, a pitcher, on a canvas about 46 by 41 cm (18 by 16 inches). With the chair gone, the plain plaster wall becomes one of the main characters. Which raises a simple question: what color is it?"
+  },
+  {
+   "type": "tour",
+   "title": "Hunting for blue",
+   "text": "You would say the wall and the linen are white. Check three places.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.38,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "The hood",
+     "text": "Her starched linen hood is white only where the light hits. The folds in shadow are pale blue, and along the edge you can see the wall through the thin cloth."
+    },
+    {
+     "x": 0.06,
+     "y": 0.45,
+     "zoom": 2.2,
+     "r": 0.09,
+     "title": "The window",
+     "text": "The leaded glass is the source: cool blue daylight, broken by the pattern of the panes. Her hand rests on the frame, half in that light.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.67,
+     "y": 0.655,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "The pitcher",
+     "text": "A stripe of pure blue runs down the side of the gilded pitcher. It is the reflection of the blue cloth lying on the chair behind it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Vermeer noticed what most painters of his time ignored: a shadow on white is not gray. It takes its tint from the sky and from whatever stands nearby. Two centuries later the Impressionists would turn colored shadows into a rule. He simply painted what the morning light did."
+  },
+  {
+   "type": "fact",
+   "text": "His blue was natural ultramarine, made by grinding lapis lazuli, a stone carried to Europe from the mountains of what is now Afghanistan. It cost more than almost any other color. Most painters saved it for a holy robe. Vermeer mixed it into shadows on a wall."
+  },
+  {
+   "type": "text",
+   "text": "The metal objects go further than the linen. Polished silver has no color of its own. It borrows everything from its surroundings, and Vermeer follows each borrowed patch. The best one is easy to miss, because it sits on the underside of something."
+  },
+  {
+   "type": "find",
+   "text": "Somewhere on the table, silver has turned red and blue. Where is the carpet reflected?",
+   "spots": [
+    {
+     "x": 0.63,
+     "y": 0.757,
+     "zoom": 3,
+     "r": 0.09,
+     "title": "Under the basin",
+     "text": "The curved underside of the basin mirrors the tablecloth beneath it. Red, blue and ocher smear across the metal: the carpet's pattern, bent by the curve."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "That thick cloth is a carpet from the Near East. Such rugs were far too precious for a Dutch floor, so families spread them over tables. Glass tints linen, cloth tints the pitcher, carpet tints the basin: every object in the room touches every other through light."
+  },
+  {
+   "type": "fact",
+   "text": "The hood and wide collar are not everyday wear. Women put on a linen cover like this in the morning, to protect their clothes while washing and doing their hair. The pitcher and basin form a washing set, and painters had long used the pair as a sign of purity."
+  },
+  {
+   "type": "key",
+   "text": "Nothing is happening here: no letter, no visitor, no story. Vermeer's subject is a pause in an ordinary morning, and the way daylight ties a room together."
+  },
+  {
+   "type": "text",
+   "text": "Even her gesture is a pause. One hand on the window, one on the pitcher, eyes lowered between the two. Is she opening the window or closing it? About to pour, or about to water plants on the sill? Vermeer catches her between two actions and declines to say."
+  },
+  {
+   "type": "fact",
+   "text": "In 1887 the New York banker Henry Marquand bought the picture in Paris for $800 and soon gave it to the young Metropolitan Museum. It was the first Vermeer to cross the Atlantic. Today about a third of his surviving paintings are in the United States."
+  },
+  {
+   "type": "text",
+   "text": "Go back into the room on your own. One thing to hunt for: Vermeer deleted a lion-headed chair from the corner, but a second one survived elsewhere in the picture."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.12,
+     "y": 0.86,
+     "zoom": 1.8,
+     "r": 0.13,
+     "title": "The missing chair",
+     "text": "This patch of wall and shadow is where the first chair stood. Vermeer covered it so that nothing would block the way into the room."
+    },
+    {
+     "x": 0.763,
+     "y": 0.6,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "The chair that stayed",
+     "text": "A carved lion head tops the chair behind the table, with brass nails down its leather back. This one he kept."
+    },
+    {
+     "x": 0.89,
+     "y": 0.755,
+     "zoom": 3,
+     "r": 0.08,
+     "title": "The jewelry box",
+     "text": "A small gilded box, lid open, with a blue ribbon hanging out. Jewels are close at hand, but she has not put them on yet."
+    },
+    {
+     "x": 0.1,
+     "y": 0.4,
+     "zoom": 3.5,
+     "r": 0.05,
+     "title": "Hand on the window",
+     "text": "Her fingers curl around the window frame. Seen through and beside the glass, they turn dim and warm against the cool panes."
+    },
+    {
+     "x": 0.84,
+     "y": 0.2,
+     "zoom": 1.8,
+     "r": 0.17,
+     "title": "The map",
+     "text": "A wall map of the Netherlands hangs from a rod with a blue-black knob. It once ran behind her head. Cut back, it leaves her framed by plain wall."
+    },
+    {
+     "x": 0.88,
+     "y": 0.64,
+     "zoom": 2.5,
+     "r": 0.1,
+     "title": "The blue cloth",
+     "text": "A heap of bright blue fabric lies over the chair. This is the cloth mirrored as a stripe on the pitcher."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What did Vermeer paint out of the lower left corner?",
+   "options": [
+    "A dog",
+    "A chair with lion heads",
+    "A second woman"
+   ],
+   "answer": 1,
+   "explanation": "Imaging shows a lion-headed chair that he covered with bare wall."
+  },
+  {
+   "question": "What color are the shadows in the white hood?",
+   "options": [
+    "Pale blue",
+    "Brown",
+    "Pure gray"
+   ],
+   "answer": 0,
+   "explanation": "The folds in shadow take a blue tint from the daylight."
+  },
+  {
+   "question": "What was natural ultramarine made from?",
+   "options": [
+    "Crushed blue glass",
+    "A plant called indigo",
+    "Ground lapis lazuli, a stone"
+   ],
+   "answer": 2,
+   "explanation": "Ultramarine came from ground lapis lazuli and was extremely expensive."
+  },
+  {
+   "question": "What does the underside of the basin reflect?",
+   "options": [
+    "The carpet on the table",
+    "The woman's face",
+    "The window"
+   ],
+   "answer": 0,
+   "explanation": "Its curved underside mirrors the red and blue carpet beneath it."
+  },
+  {
+   "question": "Why does the painting matter in American museum history?",
+   "options": [
+    "It was painted in New York",
+    "It was the first Vermeer to reach the United States",
+    "It was stolen and never found"
+   ],
+   "answer": 1,
+   "explanation": "Henry Marquand bought it in 1887 and gave it to the Metropolitan Museum."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Dutch families usually laid their Near Eastern carpets on the floor.",
+   "isTrue": false,
+   "explanation": "They were too precious for floors and were spread over tables."
+  },
+  {
+   "text": "The map on the wall originally extended behind the woman's head.",
+   "isTrue": true,
+   "explanation": "Vermeer shortened it, leaving plain wall around her."
+  },
+  {
+   "text": "The white linen hood was ordinary street wear.",
+   "isTrue": false,
+   "explanation": "It was a cover worn in the morning while washing and doing one's hair."
+  }
+ ]
+}

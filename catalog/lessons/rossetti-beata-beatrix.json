@@ -1,0 +1,309 @@
+{
+ "teaser": "A red bird drops a poppy into a woman's open hands. The flower is a confession.",
+ "focus": [
+  0.55,
+  0.2
+ ],
+ "review_notes": "Opening relies on the Tate account: Rossetti had begun the picture years earlier, set it aside, and took it up again after Elizabeth Siddal's death (painted c.1864-70).\nSundial shadow said to mark nine, the hour of Beatrice's death (9 June 1290): standard reading; the numerals are not legible in the image.\nRossetti called the bird 'a messenger of death'; he nicknamed Siddal 'the Dove'.\nFrame inscriptions (date of Beatrice's death, 'Quomodo sedet sola civitas'): check.\nLeft figure = Love, right figure = Dante, per Rossetti's own description; background bridge usually identified as the Ponte Vecchio.\nCommissioned by William Cowper-Temple; given to the nation in 1889 by his widow, Lady Mount-Temple.\nBirmingham replica left unfinished at his death and completed by Ford Madox Brown.\nExhumation of poems October 1869, Highgate Cemetery.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This painting started life as a false start. Rossetti sketched the idea onto a canvas, lost his way, and put it aside for years. When he finally picked it up again, around 1864, the woman he had drawn from was dead, and the abandoned picture had become the only kind he could paint of her."
+  },
+  {
+   "type": "text",
+   "text": "She was Elizabeth Siddal, called Lizzie: a model, then a poet and painter herself, and from 1860 his wife. Their marriage was short and unhappy. In 1861 their daughter was stillborn. In February 1862 Lizzie died from an overdose of laudanum, a liquid form of opium sold freely as a medicine."
+  },
+  {
+   "type": "text",
+   "text": "Rossetti did not paint a deathbed. He reached for the poet he was named after. Dante, the great writer of medieval Florence, loved a woman called Beatrice from a distance and mourned her early death in a small book, the Vita Nuova. Rossetti had translated it into English as a young man."
+  },
+  {
+   "type": "text",
+   "text": "So Lizzie becomes Beatrice, seated on a balcony above Florence, eyes closed, face lifted. Rossetti insisted this was not death itself. He called it a trance: the instant she is carried, still breathing, from one world to the next. And he put a clock in the picture to mark that instant."
+  },
+  {
+   "type": "find",
+   "text": "Something here tells the time. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.8,
+     "y": 0.43,
+     "zoom": 2.8,
+     "r": 0.14,
+     "title": "The sundial",
+     "text": "A sundial on the parapet, its blade casting a shadow. The shadow is said to fall on nine: in Dante's telling, Beatrice died at the ninth hour of the ninth of June, 1290."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Nine follows Beatrice everywhere in Dante's book. He first saw her when they were both about nine years old, and met her again nine years later. Rossetti's sundial squeezes all of that into one glowing disc, and stops time on it."
+  },
+  {
+   "type": "fact",
+   "text": "Rossetti designed the frame himself and wrote on it. It carries the date of Beatrice's death and a Latin line from the Bible that Dante quoted in his grief, about a city left sitting alone."
+  },
+  {
+   "type": "text",
+   "text": "Now the strangest thing in the picture. Low on the right, almost in her lap, something red arrives. Everything else is green dusk and gold haze, so the red has the force of an alarm."
+  },
+  {
+   "type": "tour",
+   "title": "The messenger",
+   "text": "Start with the bird and follow what it brings, down to her hands.",
+   "spots": [
+    {
+     "x": 0.72,
+     "y": 0.68,
+     "zoom": 2.6,
+     "r": 0.16,
+     "title": "The red dove",
+     "text": "A dove, but scarlet, with a thin gold halo over its head. Rossetti called it a messenger of death. Red was also his color for love, so the bird carries both."
+    },
+    {
+     "x": 0.68,
+     "y": 0.765,
+     "zoom": 3.4,
+     "r": 0.08,
+     "title": "The white poppy",
+     "text": "In its beak, a pale poppy, dropped toward her hands. Poppies give opium, and opium gives laudanum: the drug that killed Lizzie. The bird is delivering the cause of death."
+    },
+    {
+     "x": 0.8,
+     "y": 0.86,
+     "zoom": 2.8,
+     "r": 0.13,
+     "title": "The open hands",
+     "text": "Her hands lie loose and upturned in her lap. She does not reach or resist. She receives the flower the way one receives something in church."
+    },
+    {
+     "x": 0.57,
+     "y": 0.2,
+     "zoom": 2.4,
+     "r": 0.14,
+     "title": "The face",
+     "text": "Eyes shut, lips slightly parted, chin raised toward a light we cannot see. The edge of her hair burns orange, as though the sun were setting directly behind her head."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Rossetti's pet name for Lizzie was “the Dove,” and he sometimes drew a little dove in place of her name. The bird in this painting is her own emblem, sent to fetch her."
+  },
+  {
+   "type": "text",
+   "text": "Notice how little is sharp. The young Rossetti had been one of the Pre-Raphaelites, who prized crisp outlines and every leaf in focus. Here the edges are dissolved in a warm fog. He is painting a vision, and a vision cannot have hard edges."
+  },
+  {
+   "type": "text",
+   "text": "In that fog, on either side of her head, stand two small figures. She cannot see them, and they are not looking at her. They are looking at each other, across her."
+  },
+  {
+   "type": "lines",
+   "text": "Three directions organize the picture. The first one passes right behind her closed eyes.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.84,
+       0.2
+      ],
+      [
+       0.12,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "Dante's stare",
+     "text": "On the right, a dark figure: Dante. He looks straight across the picture at the glowing red figure on the left, who is Love and holds a flickering flame."
+    },
+    {
+     "points": [
+      [
+       0.95,
+       0.6
+      ],
+      [
+       0.68,
+       0.7
+      ],
+      [
+       0.8,
+       0.86
+      ]
+     ],
+     "closed": false,
+     "label": "The descent",
+     "text": "The bird swoops in from the right edge and down to her hands. It is the only fast movement in a picture where everything else is still."
+    },
+    {
+     "points": [
+      [
+       0.8,
+       0.86
+      ],
+      [
+       0.5,
+       0.55
+      ],
+      [
+       0.57,
+       0.16
+      ]
+     ],
+     "closed": false,
+     "label": "The ascent",
+     "text": "From her hands, the body rises through the green shoulders to the lifted face. Death comes down on one diagonal, and she goes up on the other."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Beata Beatrix means “Blessed Beatrice.” Rossetti used a 600-year-old love story as a mask, so that he could paint his own wife's death without showing it."
+  },
+  {
+   "type": "text",
+   "text": "The colors are a code too. Green stood for hope and life, and the gray-purple of her sleeves for sorrow. The whole scene sits between the two, the way dusk sits between day and night."
+  },
+  {
+   "type": "fact",
+   "text": "At Lizzie's funeral, Rossetti laid the only manuscript of his poems in her coffin, against her hair. Seven years later, in 1869, he had the grave opened at night in Highgate Cemetery to get the notebook back, and published the poems."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.12,
+     "y": 0.27,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Love",
+     "text": "A figure in red with a red halo, holding a small flame. In Dante's book, Love appears as a person who walks, speaks and carries the poet's burning heart.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.84,
+     "y": 0.25,
+     "zoom": 2.6,
+     "r": 0.12,
+     "title": "Dante",
+     "text": "Barely more than a shadow in a long robe and cap. The poet is the witness here, and perhaps a stand-in for the painter.",
+     "shape": "rect"
+    },
+    {
+     "x": 0.33,
+     "y": 0.09,
+     "zoom": 3.4,
+     "r": 0.1,
+     "title": "The bridge",
+     "text": "Arches over a pale river: a hint of Florence and its old bridge on the Arno. The city is far away and washed with sunset."
+    },
+    {
+     "x": 0.3,
+     "y": 0.6,
+     "zoom": 1.8,
+     "r": 0.22,
+     "title": "The green robe",
+     "text": "Broad and almost shapeless, brushed in soft strokes. It turns her body into a single dark slope leading up to the face."
+    },
+    {
+     "x": 0.035,
+     "y": 0.955,
+     "zoom": 4,
+     "r": 0.05,
+     "title": "The monogram",
+     "text": "In the bottom left corner, a small red circle: Rossetti's initials woven into a seal, his usual signature.",
+     "shape": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The picture was painted for William Cowper-Temple, a politician who admired Rossetti. After his death, his widow gave it to the nation in his memory in 1889. It hangs at Tate Britain: 86 by 66 centimeters (about 34 by 26 inches), smaller than its reputation."
+  },
+  {
+   "type": "text",
+   "text": "Other collectors wanted the image, and Rossetti reluctantly agreed to paint it again. He found the copies painful to make. One was still unfinished in his studio when he died in 1882, and his old friend Ford Madox Brown completed it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What does the red dove carry in its beak?",
+   "options": [
+    "An olive branch",
+    "A white poppy",
+    "A letter from Dante"
+   ],
+   "answer": 1,
+   "explanation": "The poppy points to laudanum, the opium drug that killed Elizabeth Siddal."
+  },
+  {
+   "question": "Which medieval book gave Rossetti the story of Beatrice?",
+   "options": [
+    "Dante's Vita Nuova",
+    "Chaucer's Canterbury Tales",
+    "The Golden Legend"
+   ],
+   "answer": 0,
+   "explanation": "Dante mourned Beatrice in the Vita Nuova, which Rossetti had translated."
+  },
+  {
+   "question": "The dark figure on the right looks across the picture at whom?",
+   "options": [
+    "Beatrice",
+    "The viewer",
+    "The red figure of Love"
+   ],
+   "answer": 2,
+   "explanation": "Dante stares across at Love, who holds a flame on the left."
+  },
+  {
+   "question": "How did Rossetti describe Beatrice's state in the painting?",
+   "options": [
+    "A trance between two worlds",
+    "A peaceful sleep after a meal",
+    "A faint from summer heat"
+   ],
+   "answer": 0,
+   "explanation": "He said it was not death itself but a trance, a passage from one world to the next."
+  },
+  {
+   "question": "What did Rossetti recover from his wife's grave in 1869?",
+   "options": [
+    "Her wedding ring",
+    "A lock of hair",
+    "A notebook of his poems"
+   ],
+   "answer": 2,
+   "explanation": "He had buried his manuscript poems with her and had them dug up seven years later."
+  },
+  {
+   "question": "What does the sundial's shadow point to?",
+   "options": [
+    "Noon",
+    "Nine",
+    "Midnight"
+   ],
+   "answer": 1,
+   "explanation": "Nine is the number Dante ties to Beatrice, including the hour of her death."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Rossetti painted Beata Beatrix in a few weeks, right after his wedding.",
+   "isTrue": false,
+   "explanation": "He had abandoned the canvas for years and returned to it after his wife's death."
+  },
+  {
+   "text": "The frame was designed by Rossetti and carries the date of Beatrice's death.",
+   "isTrue": true,
+   "explanation": "He treated the frame as part of the work and inscribed it."
+  },
+  {
+   "text": "Rossetti's nickname for Elizabeth Siddal was “the Dove.”",
+   "isTrue": true,
+   "explanation": "The bird in the painting is her own emblem."
+  }
+ ]
+}

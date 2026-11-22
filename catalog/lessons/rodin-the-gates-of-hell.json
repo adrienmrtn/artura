@@ -1,0 +1,60 @@
+{
+  "teaser": "A door ordered for a museum that was never built, and that was never meant to open.",
+  "focus": [0.5, 0.31],
+  "review_notes": "Site of the planned Museum of Decorative Arts = ruins of the Cour des Comptes, later Gare d'Orsay: check wording.\nDimensions about 6.35 m x 4 m and 'more than 180 figures' (Musée Rodin figures; some sources say over 200).\nThe Kiss removed from the Gates around 1886: check date.\nFirst bronze casts ordered by Jules Mastbaum in the 1920s, after Rodin's death in 1917: the listed year 1917 is the end of Rodin's work, not the casting date.\nPositions of Ugolino and of Paolo and Francesca on the left door were placed from the image; the relief is dark, a human check of those two spots is welcome.\nList of cities with casts (Philadelphia, Paris, Tokyo, Zurich, Stanford, Seoul, Mexico City): verify before publishing.",
+  "lesson": [
+    {"type": "text", "text": "Picture a new museum on the banks of the Seine, in Paris, devoted to furniture, ceramics and fine craft. In 1880 the French state planned exactly that, and it needed a grand entrance. The museum was never built. Its door was, and the door outgrew everything it was meant for."},
+    {"type": "text", "text": "The order went to Auguste Rodin, a forty-year-old sculptor who had just been accused of cheating because one of his statues looked too alive. He was free to choose the subject. He picked a poem: Dante's Inferno, the medieval journey through the circles of hell."},
+    {"type": "fact", "text": "The site set aside for the museum became a train station instead, the Gare d'Orsay. That station is now the Musée d'Orsay, where a full-size plaster of the Gates stands today, close to the spot the door was ordered for."},
+    {"type": "text", "text": "The result is more than 6 meters tall (about 20 feet) and 4 meters wide, with more than 180 figures. That is too much to take in at once. So read it the way a visitor would have, walking up to the entrance: from the top down."},
+    {"type": "tour", "title": "Above the doors", "text": "Three zones crown the door before the panels even begin.", "spots": [
+      {"x": 0.49, "y": 0.09, "zoom": 3.2, "r": 0.13, "title": "The Three Shades", "text": "Three souls of the dead, heads bowed so low their necks run flat with their shoulders. It is one single figure, cast three times and turned. Their arms meet and point down, toward what waits below."},
+      {"x": 0.5, "y": 0.31, "zoom": 3.4, "r": 0.08, "title": "The Thinker", "text": "Seated right in the middle, chin on his hand. He looks down on the whole scene. You know him as a statue on his own, but he was born here, as a small figure above a door."},
+      {"x": 0.5, "y": 0.34, "zoom": 2.0, "r": 0.28, "title": "The tympanum", "text": "The panel above a doorway is called a tympanum. Here it is packed with a restless crowd on either side of the Thinker: the newly damned arriving in hell."}
+    ]},
+    {"type": "text", "text": "Rodin first called that seated man The Poet. He was Dante himself, imagining his poem while the damned swirl beneath him. Enlarged and shown alone some years later, he lost his name and became something wider: anyone at all, struggling with a thought."},
+    {"type": "key", "text": "The Gates worked like a quarry. The Thinker, The Three Shades and many other famous Rodins started as small figures on this door, then left it to live on their own."},
+    {"type": "text", "text": "Now the two door panels. Rodin's model was a Renaissance bronze door in Florence, by Ghiberti, divided into tidy square scenes. He began with squares too, then threw them out. Nothing separates the bodies here. They rise, slide and drop through one molten surface, and some have nothing to stand on at all."},
+    {"type": "find", "text": "One man is hanging on by his arms, his body arched backward into empty space. He is right at the top of the left door. Can you spot him?", "spots": [
+      {"x": 0.36, "y": 0.425, "zoom": 3.6, "r": 0.07, "title": "The Falling Man", "text": "He clings to the underside of the lintel, the beam above the doors, back bent and head thrown out toward you. Nothing is under his feet. He is not falling yet. He is about to."}
+    ]},
+    {"type": "text", "text": "That hanging man shows how Rodin worked. He kept plaster figures by the dozen in his studio and tried them in new positions: upright, sideways, upside down. A body modeled lying down could be hung from a beam. Gravity was one more thing he felt free to change."},
+    {"type": "fact", "text": "The Kiss was made for this door. It showed two of Dante's doomed lovers at the moment they first embrace. Around 1886 Rodin took it off: the couple looked too happy for hell."},
+    {"type": "text", "text": "Few scenes can be matched to a line of Dante, and Rodin did not mind. Two stories from the poem did stay, one above the other on the left door. Both are hard to read in the dark bronze, which is why they are worth a visit with a guide."},
+    {"type": "tour", "title": "Two stories from Dante", "text": "Halfway down the left door, a father. Just under him, two lovers.", "spots": [
+      {"x": 0.36, "y": 0.685, "zoom": 3.6, "r": 0.08, "title": "Ugolino", "text": "A man on all fours, crawling over bodies. Count Ugolino was locked in a tower with his children and left to starve. Dante hints that hunger finally won over grief."},
+      {"x": 0.38, "y": 0.745, "zoom": 3.6, "r": 0.08, "title": "Paolo and Francesca", "text": "Two stretched bodies swept sideways together. Lovers killed by her husband, they are blown through hell by a wind that never stops. This pair replaced the calmer Kiss."}
+    ]},
+    {"type": "text", "text": "The state expected its door in 1885. That year came and went. With no museum to hang it on, nobody pressed very hard, and Rodin kept the plaster in his studio as a private laboratory, adding and removing figures for decades."},
+    {"type": "text", "text": "All this turmoil sits inside something very steady. Step back from the bodies for a second and see what holds them: a plain piece of architecture, with a center and a frame."},
+    {"type": "lines", "text": "Two simple shapes keep the chaos readable.", "lines": [
+      {"points": [[0.49, 0.03], [0.5, 0.31], [0.5, 0.93]], "closed": false, "label": "The plumb line", "text": "From the Three Shades through the Thinker and down the seam between the doors: one vertical axis. Everything dangerous happens on either side of a line that does not move."},
+      {"points": [[0.21, 0.41], [0.78, 0.41], [0.78, 0.86], [0.21, 0.86]], "closed": true, "label": "The frame", "text": "The two panels form one calm rectangle. Inside it nothing is straight. The contrast between a rigid border and a boiling surface is what makes the surface feel so alive."},
+      {"points": [[0.2, 0.25], [0.79, 0.25], [0.79, 0.4], [0.2, 0.4]], "closed": true, "label": "The stage", "text": "The tympanum is a deep box, like a small theater. Its figures stand almost free of the background and catch real shadows."}
+    ]},
+    {"type": "text", "text": "Rodin died in 1917, thirty-seven years after the order. He never saw the Gates in bronze. In 1900 he had shown the plaster at his own exhibition, but stripped of most of its figures, as if he could not decide it was finished."},
+    {"type": "fact", "text": "The first bronzes exist thanks to a movie-theater owner. In the 1920s Jules Mastbaum of Philadelphia paid for two casts, one for the museum he was founding at home and one for the Musée Rodin in Paris. More followed, from Tokyo to Zurich."},
+    {"type": "explore", "spots": [
+      {"x": 0.49, "y": 0.09, "zoom": 3.0, "r": 0.13, "title": "The Three Shades", "text": "One figure repeated three times. Repeating a cast instead of inventing three different men was a bold, almost modern idea for the 1880s."},
+      {"x": 0.5, "y": 0.31, "zoom": 3.4, "r": 0.08, "title": "The Thinker", "text": "On the door he is only about 70 cm tall (28 inches). The version you find in gardens and museums is an enlargement made later."},
+      {"x": 0.36, "y": 0.425, "zoom": 3.4, "r": 0.07, "title": "The Falling Man", "text": "His head and shoulder push out past the door frame. Rodin lets the sculpture spill over its own architecture."},
+      {"x": 0.53, "y": 0.5, "zoom": 3.4, "r": 0.06, "title": "A body in mid-air", "text": "Next to the central seam, a small figure with spread arms seems to fly or tumble. The background behind it is left smooth, like empty air."},
+      {"x": 0.86, "y": 0.58, "zoom": 2.0, "r": 0.09, "shape": "rect", "title": "The right pilaster", "text": "The flat column framing a door is a pilaster. This one is a ladder of bodies climbing over each other, couples and single figures, stacked from floor to cornice."},
+      {"x": 0.14, "y": 0.62, "zoom": 2.0, "r": 0.09, "shape": "rect", "title": "The left pilaster", "text": "Its twin on the other side. The figures are in low relief, barely rising from the bronze, so the eye slides back to the deeper drama in the middle."},
+      {"x": 0.37, "y": 0.69, "zoom": 2.8, "r": 0.11, "title": "The deepest knot", "text": "Ugolino and, under him, the two lovers. The thickest tangle of bodies sits low on the left door, about level with a visitor's eyes."}
+    ]},
+    {"type": "text", "text": "One last thing. Go back to the place it was made for: a museum entrance. These doors have no hinges that work and no handle. They cannot open. Rodin was asked for a way into a building and delivered, in the end, a wall you can only look at."}
+  ],
+  "quiz": [
+    {"question": "What was the Gates of Hell ordered for?", "options": ["A cathedral in Florence", "A museum of decorative arts in Paris that was never built", "Rodin's own tomb"], "answer": 1, "explanation": "The French state ordered it in 1880 as the entrance to a planned museum that never existed."},
+    {"question": "Who was the Thinker originally meant to be?", "options": ["Dante, the poet of the Inferno", "Rodin himself", "The Greek god Hermes"], "answer": 0, "explanation": "Rodin first called him The Poet: Dante imagining his poem above the damned."},
+    {"question": "What is special about the Three Shades at the top?", "options": ["They are carved in marble", "They are portraits of three kings", "They are the same figure cast three times"], "answer": 2, "explanation": "Rodin repeated one figure three times, turned at different angles."},
+    {"question": "Why did Rodin remove The Kiss from the door?", "options": ["It was too heavy for the bronze", "The couple looked too happy for hell", "The state demanded it"], "answer": 1, "explanation": "The tender embrace did not fit the suffering around it, so he took it off around 1886."},
+    {"question": "Did Rodin ever see the Gates cast in bronze?", "options": ["No, the first bronzes were made after his death", "Yes, in 1885", "Yes, at his 1900 exhibition"], "answer": 0, "explanation": "He died in 1917, and the first casts were paid for in the 1920s by Jules Mastbaum."}
+  ],
+  "facts": [
+    {"text": "Rodin delivered the Gates on time, in 1885.", "isTrue": false, "explanation": "He kept working on the plaster for thirty-seven years and never delivered it."},
+    {"text": "A plaster of the Gates stands today in the Musée d'Orsay, on the site once planned for the museum.", "isTrue": true, "explanation": "The site became the Gare d'Orsay, now the Musée d'Orsay."},
+    {"text": "Like Ghiberti's door in Florence, the finished panels are divided into neat square scenes.", "isTrue": false, "explanation": "Rodin began with squares, then abandoned them for one continuous surface."}
+  ]
+}

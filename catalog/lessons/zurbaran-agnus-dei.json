@@ -1,0 +1,37 @@
+{
+  "teaser": "A tied lamb on a stone ledge, and nothing else. Why does it feel like a prayer?",
+  "focus": [0.3, 0.58],
+  "review_notes": "Painted for private devotion in a home or small oratory: this is the usual scholarly assumption, no commission document is known.\nPrado dates the work 1635-1640 and describes the animal as a merino lamb of 8 to 12 months.\nPalomino anecdote: a Seville collector valued his Zurbarán lamb above a hundred live sheep (Palomino, 1724).\nAbout six autograph versions are known; the San Diego Museum of Art version has a halo and a Latin inscription.\nPrado acquired the painting in 1986.\nSize about 37 x 62 cm.",
+  "lesson": [
+    {"type": "text", "text": "This picture was not made for a church. It is only about 37 by 62 centimeters (15 by 24 inches), the size of a small window. Paintings like it hung in private rooms in Seville: a bedroom, a study, a tiny home chapel. One person stood in front of it, close, and alone."},
+    {"type": "text", "text": "What that person saw was a young merino sheep, less than a year old, lying on a gray stone slab with its four legs tied together. Behind it there is only darkness. No shepherd, no knife, no field, no sky."},
+    {"type": "fact", "text": "An early Spanish biographer, Antonio Palomino, wrote of an art lover in Seville who owned a lamb painted by Zurbarán and said he valued it more than a hundred living sheep."},
+    {"type": "text", "text": "The title is Latin for “Lamb of God”, a name the Bible gives to Jesus: the innocent one who is sacrificed for others. Painters usually spelled this out with a halo or a line of scripture. Zurbarán removes every sign. So where does the feeling of something sacred come from? From the way he paints wool, bone and skin."},
+    {"type": "tour", "title": "Painted like a portrait", "text": "Zurbarán gives an animal the patience he would give a saint's face. Follow it from back to muzzle.", "spots": [
+      {"x": 0.56, "y": 0.4, "zoom": 2.2, "r": 0.14, "title": "The fleece", "text": "Hundreds of tight curls, each with its own lit edge and shadow. The wool is cream and gray, a little dirty on the flank. This is a farm animal, not a symbol cut from paper."},
+      {"x": 0.27, "y": 0.53, "zoom": 3, "r": 0.08, "title": "The horns", "text": "Two young horns curl around the ear, ridged and yellowish like old ivory. They tell you the animal is a male, the kind chosen for sacrifice in the Bible."},
+      {"x": 0.17, "y": 0.63, "zoom": 3.6, "r": 0.07, "title": "The face", "text": "The eye is half open and looks down. The pink nose rests on the stone. The lamb is alive and awake, and it does not pull against anything."}
+    ]},
+    {"type": "text", "text": "That calm is the heart of the picture. A real sheep with its legs tied would kick and strain. This one lies as still as the stone under it. For a believer in 1640, the stillness recalled a verse from the prophet Isaiah, about a servant led “like a lamb to the slaughter” who does not open his mouth."},
+    {"type": "text", "text": "Zurbarán knew sheep. He was born in 1598 in Fuente de Cantos, a village in Extremadura, the dry western region of Spain where wool was the main wealth and merino flocks crossed the land every year. He almost certainly painted this from a real animal set in front of him."},
+    {"type": "find", "text": "Only one small object in the whole painting was made by human hands. Can you spot it?", "spots": [
+      {"x": 0.66, "y": 0.76, "zoom": 3.5, "r": 0.05, "title": "The cord", "text": "A thin loop of cord, wound once around the four crossed legs. It is the whole story: someone tied this animal and will come back for it."}
+    ]},
+    {"type": "text", "text": "A few centimeters of string, and the picture changes from a sleeping animal to a waiting one. The strong side light on a black ground does the rest. Painters call this tenebrism: lighting a subject sharply against deep shadow, as if by a single lamp in a dark room."},
+    {"type": "fact", "text": "Zurbarán painted this subject about six times. In a version now in San Diego he added a thin halo and a Latin inscription, as if some buyers wanted the message spelled out. The Prado picture has neither."},
+    {"type": "key", "text": "Zurbarán shows that a painting can be religious without a single religious sign. Attention is enough: look at a humble thing long and carefully, and it starts to carry meaning."},
+    {"type": "text", "text": "The painting stayed in private hands for more than three centuries, which is where it was always meant to live. The Prado bought it only in 1986. Today it hangs in one of the busiest museums in the world, and people still lower their voices in front of it."},
+    {"type": "text", "text": "So what is it, in the end? A still life of an animal bound for market, or an image of Christ? Zurbarán leaves both doors open. Which one did you walk through first?"}
+  ],
+  "quiz": [
+    {"question": "Where would a painting like this have hung in the 1600s?", "options": ["Above the main altar of a cathedral", "In a private room or small home chapel", "In a butcher's shop"], "answer": 1, "explanation": "Its small size suits private prayer at close range, not a large church."},
+    {"question": "What does “Agnus Dei” mean?", "options": ["Lamb of God", "Day of wrath", "Good shepherd"], "answer": 0, "explanation": "It is the Latin name the Bible gives to Jesus as the innocent sacrifice."},
+    {"question": "Which detail tells you the lamb is waiting for something?", "options": ["A knife on the ledge", "A halo above its head", "A cord around its legs"], "answer": 2, "explanation": "The thin cord binding the four legs is the only man-made object in the picture."},
+    {"question": "What is tenebrism?", "options": ["Painting with very pale colors", "Lighting a subject sharply against deep shadow", "Painting animals from memory"], "answer": 1, "explanation": "The lamb is lit from the side against a black ground, like an object under one lamp."}
+  ],
+  "facts": [
+    {"text": "The Prado's lamb has a halo above its head.", "isTrue": false, "explanation": "This version has no halo and no inscription, unlike the one in San Diego."},
+    {"text": "Zurbarán came from a sheep-farming region of Spain.", "isTrue": true, "explanation": "He was born in Extremadura, where merino wool was the main wealth."},
+    {"text": "Zurbarán painted this subject only once.", "isTrue": false, "explanation": "About six versions are known."}
+  ]
+}

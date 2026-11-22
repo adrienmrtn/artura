@@ -1,0 +1,348 @@
+{
+ "teaser": "Four gray giants, one snake, and eight years of repainting on a canvas wider than a car is long.",
+ "focus": [
+  0.62,
+  0.3
+ ],
+ "review_notes": "The image is a gallery photo that includes a strip of wall around the canvas; coordinates refer to the photo.\nCatalog year 1917 is the completion date; the canvas was worked on in 1909-10, 1913 and 1916-17.\nCheck: Matisse reportedly called it one of the five most pivotal works of his career (Art Institute of Chicago wording).\nCheck: early sketch for Shchukin showed bathers by a waterfall in pinks and blues close to Dance.\nCheck: Matisse turned down for military service in 1914 at age 44; mother behind German lines in Bohain.\nCatalog movement is fauvism, but the lesson explains that this work moves far away from it.\nCheck: 'at least six distinct states' reconstructed by the 2010 technical study, and that Shchukin refused the third panel because the staircase had room for only two.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This canvas is about 2.6 meters high and 3.9 meters wide, roughly 8.5 by 13 feet. The four figures are taller than you are. Matisse could not reach the top without climbing, and he could not see the whole thing without backing across his studio. He lived with it that way for eight years."
+  },
+  {
+   "type": "text",
+   "text": "It began in 1909 as a cheerful idea. A Russian textile merchant, Sergei Shchukin, wanted large panels for the staircase of his Moscow mansion. Matisse proposed three scenes: a dance, a group of musicians, and bathers resting by the water."
+  },
+  {
+   "type": "fact",
+   "text": "Shchukin said yes to Dance and Music, and no to the bathers. He had only room for two panels on his staircase. The rejected third canvas stayed in France, and that refusal is the reason it had time to become something else."
+  },
+  {
+   "type": "text",
+   "text": "The first version was soft: rosy bodies, blue water, a waterfall, the same sunny palette as Dance. Almost nothing of that is left. To understand what replaced it, start with the background, because it is no longer a landscape at all."
+  },
+  {
+   "type": "lines",
+   "text": "Matisse cut the scene into four upright strips, like panels of a folding screen.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.03,
+       0.06
+      ],
+      [
+       0.38,
+       0.06
+      ],
+      [
+       0.38,
+       0.91
+      ],
+      [
+       0.03,
+       0.91
+      ]
+     ],
+     "closed": true,
+     "label": "The green band",
+     "text": "The only strip that still looks like nature. Curved leaves drawn with thick black lines fill it from top to bottom."
+    },
+    {
+     "points": [
+      [
+       0.38,
+       0.06
+      ],
+      [
+       0.52,
+       0.06
+      ],
+      [
+       0.52,
+       0.91
+      ],
+      [
+       0.38,
+       0.91
+      ]
+     ],
+     "closed": true,
+     "label": "The black band",
+     "text": "This was the river. Matisse turned it into a slab of pure black standing upright, with no ripple and no reflection."
+    },
+    {
+     "points": [
+      [
+       0.52,
+       0.06
+      ],
+      [
+       0.75,
+       0.06
+      ],
+      [
+       0.75,
+       0.91
+      ],
+      [
+       0.52,
+       0.91
+      ]
+     ],
+     "closed": true,
+     "label": "The white band",
+     "text": "A bank of pale, chalky white. One figure stands inside it like a statue in a niche."
+    },
+    {
+     "points": [
+      [
+       0.75,
+       0.06
+      ],
+      [
+       0.98,
+       0.06
+      ],
+      [
+       0.98,
+       0.91
+      ],
+      [
+       0.75,
+       0.91
+      ]
+     ],
+     "closed": true,
+     "label": "Gray and blue",
+     "text": "The last strip splits again into dark gray and a cool blue. The fourth bather stands right on the seam."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those bands arrived late, around 1916. By then Matisse had spent years watching Picasso and Braque invent Cubism, a way of painting that breaks things into flat, angular planes instead of copying how they look. He never joined them. But on this canvas he tested how far he could go in their direction."
+  },
+  {
+   "type": "text",
+   "text": "The bodies changed even more than the setting. In 1913 he scraped off the pink flesh and rebuilt each bather in gray, straight and heavy as a column. Then he went back again and again, until each one became a different answer to the same question: how little do you need to paint a person?"
+  },
+  {
+   "type": "tour",
+   "title": "Four bathers",
+   "text": "Go from left to right. Each figure is built in a different way.",
+   "spots": [
+    {
+     "x": 0.15,
+     "y": 0.47,
+     "zoom": 1.7,
+     "r": 0.09,
+     "shape": "rect",
+     "title": "Seen from behind",
+     "text": "She walks into the leaves with her back to us. Her body is a long gray plank edged in black, with a few touches of pink left over from earlier versions."
+    },
+    {
+     "x": 0.4,
+     "y": 0.33,
+     "zoom": 1.8,
+     "r": 0.11,
+     "shape": "rect",
+     "title": "The seated one",
+     "text": "She sits on the bank and her legs drop into the black river. Her upper body dissolves into blocks of blue, gray and white that barely add up to a torso."
+    },
+    {
+     "x": 0.61,
+     "y": 0.45,
+     "zoom": 1.7,
+     "r": 0.1,
+     "shape": "rect",
+     "title": "Head bowed",
+     "text": "A gray disk for a head, tipped forward. Her arms fold across her body. She is the most sculptural of the four, as if carved from stone."
+    },
+    {
+     "x": 0.82,
+     "y": 0.45,
+     "zoom": 1.7,
+     "r": 0.1,
+     "shape": "rect",
+     "title": "Facing you",
+     "text": "The only bather who faces us, and she has no face: just a white oval. Two black rings stand for her breasts."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "None of the four has eyes, a mouth or an expression. Matisse removed everything personal so that the bodies work like columns holding up the picture."
+  },
+  {
+   "type": "fact",
+   "text": "Between the two campaigns of work, Matisse traveled twice to Morocco, in 1912 and 1913. The fat, curved leaves on the left owe a lot to the gardens he drew in Tangier."
+  },
+  {
+   "type": "text",
+   "text": "Why did a painter famous for joy end up with gray, black and silence? Part of the answer is the date. In 1914 the First World War began. Matisse, then 44, tried to enlist and was turned down. His mother was trapped behind German lines in northern France, and friends were at the front."
+  },
+  {
+   "type": "text",
+   "text": "He never painted a battle. Yet during the war his pictures became stricter and darker than at any other time in his life, and this is the largest of them. One small creature in the picture hints that this riverbank is not a carefree place."
+  },
+  {
+   "type": "find",
+   "text": "Something alive is rising from the bottom edge of the painting. Can you spot it?",
+   "spots": [
+    {
+     "x": 0.49,
+     "y": 0.77,
+     "zoom": 3,
+     "r": 0.05,
+     "shape": "rect",
+     "title": "The snake",
+     "text": "A pale snake rears up along the black band, its pointed head aimed at the bathers. In a garden with nude figures, a serpent recalls Eden just before things go wrong."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "The snake sits exactly where the dark river meets the white bank, at the center of the canvas. It is thin and easy to miss, but once you have seen it the stillness of the four women feels different. They look less like people relaxing and more like people waiting."
+  },
+  {
+   "type": "fact",
+   "text": "The surface is a record of its own history. Matisse scraped, scratched and repainted so often that X-rays and old studio photographs let researchers reconstruct at least six distinct states of the picture, buried one under another."
+  },
+  {
+   "type": "text",
+   "text": "You can sense that struggle in the paint itself. The grays are not flat: they are brushed thinly over older colors, and pink, blue and green show through at the edges. Matisse left those traces on purpose. He wanted the picture to keep the memory of its changes."
+  },
+  {
+   "type": "text",
+   "text": "He considered the painting finished in 1917 and kept thinking about it for decades. Late in life he named it among the handful of works that had mattered most in his career. The Art Institute of Chicago bought it in 1953, the year before he died."
+  },
+  {
+   "type": "key",
+   "text": "Bathers by a River is a painting about subtraction. It started as a decoration for a staircase and ended, eight years later, as one of the most severe pictures of the twentieth century."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.82,
+     "y": 0.12,
+     "zoom": 3.2,
+     "r": 0.05,
+     "title": "The blank face",
+     "text": "A plain white oval against dark gray. With no features to read, you look at the pose and the proportions instead."
+    },
+    {
+     "x": 0.82,
+     "y": 0.27,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Two rings",
+     "text": "Breasts reduced to two black circles, drawn almost like a diagram. Around them the flesh is the warmest pink left in the painting."
+    },
+    {
+     "x": 0.28,
+     "y": 0.8,
+     "zoom": 2.4,
+     "r": 0.11,
+     "title": "Gray leaves",
+     "text": "At the bottom the foliage loses its green and turns gray, as if the color were draining out of the plants toward the black river."
+    },
+    {
+     "x": 0.5,
+     "y": 0.52,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "Legs in the river",
+     "text": "The seated bather's feet hang over the black strip. White curved strokes beside them may be all that remains of splashing water."
+    },
+    {
+     "x": 0.6,
+     "y": 0.13,
+     "zoom": 3,
+     "r": 0.06,
+     "title": "The bowed head",
+     "text": "A gray circle with one black curve under it. That single line is enough to tell you the head is lowered."
+    },
+    {
+     "x": 0.1,
+     "y": 0.89,
+     "zoom": 3.5,
+     "r": 0.06,
+     "title": "Signature",
+     "text": "Matisse signed in the bottom left corner, small and discreet, on the green band."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Who was this painting first intended for?",
+   "options": [
+    "A Russian collector's staircase",
+    "A Paris church",
+    "The Art Institute of Chicago"
+   ],
+   "answer": 0,
+   "explanation": "Matisse proposed it to Sergei Shchukin for his Moscow mansion, along with Dance and Music."
+  },
+  {
+   "question": "What did Matisse do to the background in the final stage?",
+   "options": [
+    "He added a sunset",
+    "He painted a detailed forest",
+    "He divided it into four vertical bands"
+   ],
+   "answer": 2,
+   "explanation": "Green, black, white and gray-blue strips replaced the original landscape."
+  },
+  {
+   "question": "What do the four bathers' faces have in common?",
+   "options": [
+    "They all smile",
+    "They have no features",
+    "They are portraits of Matisse's family"
+   ],
+   "answer": 1,
+   "explanation": "Matisse removed eyes, mouths and expressions so the bodies act like columns."
+  },
+  {
+   "question": "Which animal appears at the bottom center?",
+   "options": [
+    "A fish",
+    "A swan",
+    "A snake"
+   ],
+   "answer": 2,
+   "explanation": "A pale snake rises along the black band, pointing toward the bathers."
+  },
+  {
+   "question": "Which world event overlapped with the last years of work on the canvas?",
+   "options": [
+    "The First World War",
+    "The Russian Revolution of 1905",
+    "The Great Depression"
+   ],
+   "answer": 0,
+   "explanation": "The war began in 1914, and Matisse's painting grew darker and stricter during it."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Matisse painted Bathers by a River in a single summer.",
+   "isTrue": false,
+   "explanation": "He worked on it in several campaigns over about eight years, from 1909 to 1917."
+  },
+  {
+   "text": "The first version of the picture used pinks and blues close to those of Dance.",
+   "isTrue": true,
+   "explanation": "It began as a soft, sunny scene before Matisse scraped it down and rebuilt it in gray."
+  },
+  {
+   "text": "Shchukin hung the painting on his staircase in Moscow.",
+   "isTrue": false,
+   "explanation": "He took only Dance and Music, so the bathers stayed in Matisse's studio."
+  }
+ ]
+}

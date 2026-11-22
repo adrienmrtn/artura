@@ -1,0 +1,206 @@
+{
+ "teaser": "A portrait with no skin, no hair and no bones: only what a garden gives in July.",
+ "focus": [
+  0.55,
+  0.38
+ ],
+ "review_notes": "IMAGE/METADATA: the date woven into the shoulder in this image reads 157_ (apparently 1573 or 1572), not 1563, so the photo is probably one of the later replicas (Louvre 1573 with its floral border cropped off, or Denver 1572) rather than the Vienna original. The lesson avoids stating the date shown, the support and the exact size.\nPresentation of the Seasons and Elements to Maximilian II on New Year's Day 1569 with a poem by Giovanni Battista Fonteo.\nReplica set sent to the Elector of Saxony (the 1573 set now in the Louvre).\nSurrealist rediscovery: Arcimboldo included in MoMA's 1936 exhibition “Fantastic Art, Dada, Surrealism”.\nIdentification of individual fruits and vegetables (cucumber nose, peach cheek, pear chin, pea-pod teeth, corn ear, garlic) follows the usual descriptions.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "This picture is about the size of a bathroom mirror, well under a meter tall (around two and a half feet). So the head in it is roughly as big as yours. Stand in front of it and you face a profile at human scale, built like a real person, in which not one square inch is human."
+  },
+  {
+   "type": "text",
+   "text": "The painter, Giuseppe Arcimboldo, came from Milan, where he had designed stained glass for the cathedral alongside his father. In 1562 he moved north to serve the Habsburg emperors in Vienna, and later Prague. He would stay at that court for about 25 years, under three rulers in a row."
+  },
+  {
+   "type": "text",
+   "text": "In 1563 he invented a set of four heads, one for each season, and Summer was among them. The emperor liked the idea so much that Arcimboldo had to repeat the series again and again, so several Summers exist today. He treated each one like a formal court portrait, signature included. He just put the signature in an odd place."
+  },
+  {
+   "type": "find",
+   "text": "Arcimboldo signed this portrait without using a pen or a corner of the picture. Can you spot his name?",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.64,
+     "zoom": 3,
+     "r": 0.17,
+     "title": "Woven into the collar",
+     "text": "The letters GIUSEPPE ARCIMBOLDO F. are braided into the straw collar. The F stands for the Latin “fecit”: he made it. Just below, on the shoulder, he wove the date the same way."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "A coat of straw with the maker's name plaited into it is a court joke, and the court got it at once. These people wore embroidered collars with mottos and monograms. Arcimboldo gives Summer the same luxury, in the cheapest material of the harvest. The humor is in the perfect seriousness of the craft."
+  },
+  {
+   "type": "fact",
+   "text": "Painting was only part of Arcimboldo's job. He also designed costumes, masks and floats for imperial weddings and tournaments, the grand parties where a whole court dressed up as gods, seasons and continents."
+  },
+  {
+   "type": "text",
+   "text": "Now, how does the trick hold together? Each fruit is painted as carefully as a botanist would draw it, with its own bruises, shine and shadow. Yet from three steps back they lock into a cheek, a nose, a grin. Your brain flips between the two readings and cannot hold both at once. Try it, piece by piece."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.56,
+     "y": 0.37,
+     "zoom": 2.6,
+     "r": 0.08,
+     "title": "The cheek",
+     "text": "A ripe peach, pink where a face would blush. It is the largest fruit in the head, placed exactly where the cheekbone catches the light."
+    },
+    {
+     "x": 0.69,
+     "y": 0.37,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "The nose",
+     "text": "A knobbly green cucumber, hanging at just the right angle. Its warts become the pores of a sunburned nose."
+    },
+    {
+     "x": 0.61,
+     "y": 0.31,
+     "zoom": 3.6,
+     "r": 0.05,
+     "title": "The eye",
+     "text": "A dark, glossy cherry sits between two small pears that act as eyelids. The bright dot of reflected light on the cherry turns it into a pupil looking ahead."
+    },
+    {
+     "x": 0.63,
+     "y": 0.46,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The smile",
+     "text": "An open pea pod. The row of peas inside reads as a set of small teeth, and the cherries around it as lips."
+    },
+    {
+     "x": 0.54,
+     "y": 0.49,
+     "zoom": 2.8,
+     "r": 0.07,
+     "title": "The chin",
+     "text": "A yellow pear, round and slightly heavy. With the peach above, it gives Summer the full face of a well-fed young adult."
+    },
+    {
+     "x": 0.35,
+     "y": 0.3,
+     "zoom": 2.8,
+     "r": 0.08,
+     "title": "The ear",
+     "text": "An ear of corn in its pale husk, standing where the ear would be. Corn came from the Americas and was still a novelty in Europe, the kind of rarity an emperor's garden showed off."
+    },
+    {
+     "x": 0.45,
+     "y": 0.42,
+     "zoom": 3.2,
+     "r": 0.06,
+     "title": "Garlic at the jaw",
+     "text": "White bulbs of garlic with their roots still on fill the hollow behind the jaw. Arcimboldo needs a pale, bony shape here, and finds it in the kitchen."
+    },
+    {
+     "x": 0.81,
+     "y": 0.74,
+     "zoom": 2.6,
+     "r": 0.09,
+     "title": "The artichoke",
+     "text": "One artichoke sprouts from the chest like a flower in a buttonhole. In the 1500s it was an expensive delicacy, another quiet sign of a rich table."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Everything you just zoomed in on ripens in the same weeks. That was the rule Arcimboldo set himself: each season is built only from what that season produces. His Winter is a gnarled tree stump, his Spring is made of flowers. Read in order, the four heads also age, from youth in Spring to an old man in Winter. Summer is the young adult."
+  },
+  {
+   "type": "key",
+   "text": "Arcimboldo's heads work because both readings are fully true: a precise still life, which means a picture of objects such as fruit or flowers, and a convincing portrait. Neither one is a disguise for the other."
+  },
+  {
+   "type": "text",
+   "text": "For the emperor the joke carried flattery. If the seasons and the fruits of the earth come together in harmony to form one head, the ruler they honor must hold the world in the same order. On New Year's Day 1569 the Seasons were formally presented to Maximilian II, with a poem written to explain them."
+  },
+  {
+   "type": "fact",
+   "text": "Some of Arcimboldo's later pictures work in two directions. Hang one way, it is a bowl of vegetables or a plate of roast meat. Turn it upside down and a face appears, with the bowl as a hat."
+  },
+  {
+   "type": "text",
+   "text": "After his death in 1593 these heads were filed away as curiosities for more than three centuries. Then, in the 1930s, the Surrealists, artists fascinated by dreams and double images, recognized him as an ancestor. A court entertainer from the 1500s suddenly looked like the most modern painter in the museum."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Where did Arcimboldo sign this painting?",
+   "options": [
+    "In the bottom right corner",
+    "In the woven straw collar",
+    "On the artichoke"
+   ],
+   "answer": 1,
+   "explanation": "His name is braided into the straw collar, followed by F for “fecit”."
+  },
+  {
+   "question": "What rule decides which plants go into each head?",
+   "options": [
+    "Only what ripens in that season",
+    "Only plants from the Americas",
+    "Only the emperor's favorite foods"
+   ],
+   "answer": 0,
+   "explanation": "Each season is built from what that season produces."
+  },
+  {
+   "question": "What forms Summer's teeth?",
+   "options": [
+    "Kernels of corn",
+    "Cloves of garlic",
+    "Peas in an open pod"
+   ],
+   "answer": 2,
+   "explanation": "The smile is an open pea pod with its row of peas."
+  },
+  {
+   "question": "Who was Arcimboldo working for when he invented the Seasons?",
+   "options": [
+    "The Pope in Rome",
+    "The Habsburg emperors",
+    "The dukes of Milan"
+   ],
+   "answer": 1,
+   "explanation": "He served the Habsburg court in Vienna and later Prague."
+  },
+  {
+   "question": "Which modern artists rediscovered Arcimboldo in the 1930s?",
+   "options": [
+    "The Surrealists",
+    "The Impressionists",
+    "The Cubists"
+   ],
+   "answer": 0,
+   "explanation": "The Surrealists, lovers of double images, saw him as an ancestor."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Summer's ear is an ear of corn, a plant that had only recently arrived from the Americas.",
+   "isTrue": true,
+   "explanation": "Corn was still a novelty in Europe and stands exactly where the ear would be."
+  },
+  {
+   "text": "Arcimboldo painted Summer only once.",
+   "isTrue": false,
+   "explanation": "The emperor liked the Seasons so much that Arcimboldo repeated the series several times."
+  },
+  {
+   "text": "In the full series, the four heads are all the same age.",
+   "isTrue": false,
+   "explanation": "They age through the year, from youth in Spring to an old man in Winter."
+  }
+ ]
+}

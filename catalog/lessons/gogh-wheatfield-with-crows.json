@@ -1,0 +1,45 @@
+{
+  "teaser": "Everyone calls it his last painting. It almost certainly is not.",
+  "focus": [0.6, 0.42],
+  "review_notes": "Dimensions 50.5 x 103 cm per Van Gogh Museum.\nLetter quotes (around 10 July 1890, to Theo and Jo) are given in English translation: 'sadness, extreme loneliness' and 'healthy and fortifying about the countryside'.\nClaim that Tree Roots is now considered the probable last painting, and that its location was identified in 2020.\nLust for Life (1956) shows the painting as his final work.\nRoughly one painting a day during the 70 days in Auvers is the commonly cited figure.",
+  "lesson": [
+    {"type": "text", "text": "This canvas is exactly twice as wide as it is tall: about 50 by 103 cm (20 by 40 in). Van Gogh made it by choosing a format painters call a double square. It is too wide to take in at once. Your eyes have to sweep across it, the way they would across a real field."},
+    {"type": "text", "text": "He used this stretched shape for about a dozen pictures in the summer of 1890, all painted around Auvers-sur-Oise, a village an hour north of Paris. He had arrived in May, fresh from a year in an asylum in the south, and he was working at a furious pace: roughly one painting a day."},
+    {"type": "text", "text": "The wide format does something odd here. There is no tree, no house, no person to rest on. Only three bands: sky, wheat, earth. And cutting through the earth, three paths. Follow each one and see where it takes you."},
+    {"type": "lines", "text": "Three tracks start at the bottom edge, right where you are standing.", "lines": [
+      {"points": [[0.12, 0.99], [0.07, 0.75], [0.04, 0.6], [0.0, 0.5]], "closed": false, "label": "The left path", "text": "It bends away and slides out of the picture at the left edge. You never learn where it goes."},
+      {"points": [[0.38, 0.99], [0.52, 0.8], [0.61, 0.65], [0.53, 0.52]], "closed": false, "label": "The middle path", "text": "Bordered with green grass, it curls into the wheat and simply stops. There is no horizon at the end of it, only a wall of yellow."},
+      {"points": [[0.62, 0.99], [0.8, 0.86], [1.0, 0.78]], "closed": false, "label": "The right path", "text": "The third track escapes through the right side. Three roads, and not one of them leads into the distance."}
+    ]},
+    {"type": "text", "text": "A normal landscape pulls you toward a far point. This one spreads you out sideways and blocks the way forward. That is a big part of why the picture feels uneasy, long before you know anything about the man who painted it."},
+    {"type": "fact", "text": "The 1956 Hollywood film Lust for Life shows Van Gogh painting this very canvas, crows attacking him, moments before he shoots himself. The scene is invented, but it fixed the legend of the “last painting” in millions of minds."},
+    {"type": "text", "text": "The facts are less tidy. Van Gogh described pictures like this one in a letter around July 10. He shot himself on July 27 and died two days later, and he painted other canvases in between. Researchers now think his final work was probably Tree Roots, a tangle of trunks whose exact spot on a village road was only identified in 2020."},
+    {"type": "text", "text": "In that July letter he wrote of “vast fields of wheat under troubled skies” and said he had not needed to go out of his way to express sadness and extreme loneliness. Then, in the next breath, he added that these canvases would show what he found healthy and fortifying about the countryside. Both things at once."},
+    {"type": "key", "text": "This is not a suicide note in paint. Van Gogh himself saw sadness and strength in the same field."},
+    {"type": "text", "text": "The birds carry that same double meaning. Are they flying toward you, like a threat, or away over the wheat, like something leaving? Nothing in the picture settles it. Most of them travel together in a loose stream on the right. One does not."},
+    {"type": "find", "text": "One crow has left the flock and flies alone, far to the left, in front of a pale cloud. Can you spot it?", "spots": [
+      {"x": 0.265, "y": 0.305, "zoom": 3.5, "r": 0.05, "title": "The straggler", "text": "A single dark bird crosses the round white cloud. Against that pale disk it stands out more than any crow in the flock, and it pulls your eye to the quiet left half of the sky."}
+    ]},
+    {"type": "text", "text": "Up close, that crow is hardly a bird at all. It is a couple of quick black marks. The whole picture is built this way, from strokes you can count, laid on so thick that the paint stands up from the canvas. Painters call this impasto: paint used almost like a paste."},
+    {"type": "tour", "title": "How it is painted", "text": "Three places where you can watch the brush at work.", "spots": [
+      {"x": 0.72, "y": 0.34, "zoom": 3.2, "r": 0.1, "title": "Birds in two strokes", "text": "Each crow is a flattened M or a single bent dash of black. No beaks, no feathers. Their size shrinks toward the upper right, which is the only hint of depth in the sky."},
+      {"x": 0.57, "y": 0.25, "zoom": 2.8, "r": 0.08, "title": "The second cloud", "text": "A swirl of white and pale blue, turned like a whirlpool. The strokes circle around it, so the cloud seems to spin while the dark blue presses in from above."},
+      {"x": 0.3, "y": 0.42, "zoom": 3, "r": 0.1, "title": "Where wheat meets sky", "text": "Short dabs of yellow, ochre and rust push up against the blue. Yellow-orange and blue are opposites on the color wheel, and each makes the other look more intense."}
+    ]},
+    {"type": "fact", "text": "The strong yellows Van Gogh loved came from chrome yellow, a fairly new factory-made pigment. It is unstable: in several of his paintings it has slowly browned with exposure to light, so his fields were once even brighter."},
+    {"type": "text", "text": "He sold almost nothing in his lifetime. After his death the canvases went to his brother Theo, who died six months later, and then to Theo's widow, Jo. She kept the collection together, published the letters, and lent pictures to show after show. This field stayed in the family until it entered the museum in Amsterdam that bears his name."},
+    {"type": "text", "text": "So go back to the shape of the thing: a canvas twice as wide as it is tall, with three roads and no way through. The legend says it shows a man at the end. The letter says it shows wheat he found fortifying. The painting is wide enough to hold both."}
+  ],
+  "quiz": [
+    {"question": "What is unusual about the shape of this canvas?", "options": ["It is twice as wide as it is tall", "It is perfectly square", "It is round"], "answer": 0, "explanation": "It is a double square, about 50 by 103 cm."},
+    {"question": "What do the three paths have in common?", "options": ["They all lead to a village", "None of them leads into the distance", "They meet at the horizon"], "answer": 1, "explanation": "Two slip out at the sides and the middle one stops in the wheat."},
+    {"question": "Which painting do researchers now think was probably his last?", "options": ["Wheatfield with Crows", "The Starry Night", "Tree Roots"], "answer": 2, "explanation": "Tree Roots is considered the probable final work."},
+    {"question": "What is impasto?", "options": ["A thin, transparent wash of color", "Paint laid on thickly, like a paste", "A drawing made under the paint"], "answer": 1, "explanation": "Impasto is paint so thick it stands up from the canvas."},
+    {"question": "Who kept Van Gogh's paintings together after he and his brother died?", "options": ["Theo's widow, Jo", "The village doctor", "The French state"], "answer": 0, "explanation": "Jo kept the collection, published the letters and lent pictures to exhibitions."}
+  ],
+  "facts": [
+    {"text": "The film Lust for Life shows Van Gogh painting this picture just before his death.", "isTrue": true, "explanation": "The 1956 film invented that scene and spread the legend."},
+    {"text": "In his letter, Van Gogh said these wheat fields expressed only despair.", "isTrue": false, "explanation": "He mentioned sadness and loneliness, but also what he found healthy and fortifying in the countryside."},
+    {"text": "Each crow is painted in careful detail, with beak and feathers.", "isTrue": false, "explanation": "Each bird is just one or two quick black strokes."}
+  ]
+}

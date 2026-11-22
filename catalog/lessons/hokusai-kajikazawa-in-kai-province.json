@@ -1,0 +1,46 @@
+{
+ "teaser": "A fisherman, a rock and four thin lines quietly redraw Mount Fuji.",
+ "focus": [0.55, 0.42],
+ "review_notes": "The image shows a multi-color impression (green rock, orange mist band); the earliest impressions were printed almost entirely in blue. Check that the image matches the Art Institute of Chicago sheet.\nWhether the man is casting lines or hauling a net is debated; lesson says 'lines' only.\nPublisher Nishimuraya Yohachi; series total of 46 prints; Hokusai about 70 years old: standard accounts.\nHokusai's remark about work before age seventy is paraphrased from the postscript to One Hundred Views of Mount Fuji (1834).",
+ "lesson": [
+  {"type":"text","text":"This picture was never meant for a wall. It was made for a shop counter in Edo, the city we now call Tokyo. Around 1831 a publisher named Nishimuraya Yohachi stacked sheets like this one in his store, and passersby bought them the way you might buy a magazine."},
+  {"type":"text","text":"So picture it in your hands, not behind glass. The sheet is about 26 by 38 centimeters (10 by 15 inches), light enough to hold close, pass to a friend, and slip back into a box. Everything Hokusai draws here is built to work at arm's length."},
+  {"type":"text","text":"The place in the title is real. Kajikazawa is a village in Kai Province, inland from Mount Fuji, where mountain streams join to become the Fuji River, known for its violent rapids. Hokusai gives you one rock, one man leaning into the void, and water that never sits still."},
+  {"type":"fact","text":"The series is called Thirty-six Views of Mount Fuji, but it sold so well that the publisher kept ordering more. The final count is forty-six."},
+  {"type":"text","text":"Fuji itself is easy to miss. It floats at the top, drawn with a single thin outline, almost a ghost above the mist. Yet Hokusai has hidden a second Fuji lower down, made of things that have nothing to do with a mountain."},
+  {"type":"lines","text":"Two triangles, one made of stone and string.","lines":[
+   {"points":[[0.53,0.13],[0.65,0.02],[0.99,0.27]],"closed":false,"label":"The mountain","text":"Fuji's outline: a short slope on the left, a peak, then a long slope sliding out of the picture to the right."},
+   {"points":[[0.02,0.5],[0.59,0.38],[0.9,0.85]],"closed":false,"label":"Its echo","text":"The rock climbs to the fisherman, and his lines fall away to the right. Same peak, same long right-hand slope. The man's body is the summit."}
+  ]},
+  {"type":"key","text":"Hokusai rhymes shapes. The calm mountain and the tense fisherman share one triangle, so the eternal and the everyday answer each other across the mist."},
+  {"type":"text","text":"That echo also tells you how the man is standing. He is bent forward at the very edge, feet together, his whole weight held by the pull of the lines. If the river lets go, he falls. Now look for the person who is not straining at all."},
+  {"type":"find","text":"The fisherman is not alone on the rock. Where is his companion?","spots":[
+   {"x":0.43,"y":0.5,"zoom":3.2,"r":0.06,"title":"The helper","text":"A small figure crouches behind him, head down over a round basket for the catch. He does not even watch the river. His stillness makes the standing man's effort look greater."}
+  ]},
+  {"type":"text","text":"Then there is the blue. The deep, saturated tone of the water comes from Prussian blue, a pigment invented in Berlin and imported into Japan. It was richer and held up better than the plant-based blues printers had used before, and Edo buyers were crazy about it."},
+  {"type":"fact","text":"The earliest sheets of this design were printed almost entirely in shades of blue. Colors such as the green of the rock and the orange band in the sky were added in later printings like the one shown here."},
+  {"type":"text","text":"A print like this is teamwork. Hokusai drew the design on thin paper. A carver pasted it onto a cherry wood block and cut away everything except the lines. A printer then inked one block per color and rubbed the paper onto each in turn. This is woodblock printing, and it let one drawing become thousands of sheets."},
+  {"type":"text","text":"Hokusai was about seventy when the series appeared. He later wrote that nothing he had drawn before that age was really worth counting. These Fuji prints are, by his own measure, where he begins."},
+  {"type":"explore","spots":[
+   {"x":0.65,"y":0.08,"zoom":2.2,"r":0.14,"title":"Fuji","text":"One fine line and a wash of blue fading downward. No snow cap, no detail. The mountain is more a presence than an object."},
+   {"x":0.55,"y":0.4,"zoom":3,"r":0.08,"title":"The fisherman","text":"Red checked jacket, straw skirt, legs braced. His arm continues straight into the lines, as if man and tackle were a single tool."},
+   {"x":0.75,"y":0.6,"zoom":2,"r":0.16,"title":"The lines","text":"Four hair-thin strokes fan out from his fist and vanish into the foam. Each one had to be left standing in the wood while the carver cut away everything around it."},
+   {"x":0.62,"y":0.8,"zoom":2.2,"r":0.16,"title":"The rapids","text":"The foam is drawn as hundreds of little hooked fingers. You may know these claws from Hokusai's Great Wave, which belongs to the same series."},
+   {"x":0.3,"y":0.11,"zoom":1.8,"r":0.2,"title":"The mist","text":"A flat band hides the land between river and mountain. It is an old Japanese painting device: cover the middle distance and let the eye jump straight from near to far."},
+   {"x":0.08,"y":0.17,"zoom":3,"r":0.06,"title":"Title and signature","text":"The framed box gives the series and the place. Beside it Hokusai signs with the name he was using then, Iitsu, noting that he was formerly Hokusai."}
+  ]},
+  {"type":"fact","text":"Hokusai changed his artist name around thirty times over his life, often handing the old one to a pupil. “Hokusai” is only the one that stuck."}
+ ],
+ "quiz": [
+  {"question":"Where would someone in 1831 have first met this picture?","options":["In a temple hall","In a publisher's print shop in Edo","In the shogun's private collection"],"answer":1,"explanation":"Prints like this were sold over the counter by publishers such as Nishimuraya Yohachi."},
+  {"question":"What repeats the shape of Mount Fuji lower in the picture?","options":["The rock and the fishing lines","The crouching helper's basket","The band of mist"],"answer":0,"explanation":"The rock rises to the fisherman and his lines slope away, forming a second triangle."},
+  {"question":"Where did the strong blue pigment come from?","options":["It was ground from Japanese river stones","It was pressed from indigo leaves in Kai Province","It was Prussian blue, invented in Berlin and imported"],"answer":2,"explanation":"Prussian blue was an imported pigment, richer than earlier plant-based blues."},
+  {"question":"How many prints does the Thirty-six Views of Mount Fuji actually contain?","options":["Forty-six","Thirty-six","One hundred"],"answer":0,"explanation":"Ten more designs were added because the series sold so well."},
+  {"question":"What is the small crouching figure doing?","options":["Pulling on the lines too","Bending over a basket, not watching the river","Pointing at Mount Fuji"],"answer":1,"explanation":"He is bent over the catch basket, which makes the fisherman's strain stand out."}
+ ],
+ "facts": [
+  {"text":"The first printings of this design were almost entirely blue.","isTrue":true,"explanation":"Green, orange and other colors were added in later printings."},
+  {"text":"Hokusai was a young beginner when he designed the Fuji series.","isTrue":false,"explanation":"He was about seventy years old."},
+  {"text":"Kajikazawa is an imaginary place invented for the print.","isTrue":false,"explanation":"It is a real village where streams join to form the Fuji River."}
+ ]
+}

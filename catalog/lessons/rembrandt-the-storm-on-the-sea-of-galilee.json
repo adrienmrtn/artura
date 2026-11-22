@@ -1,0 +1,306 @@
+{
+ "teaser": "Rembrandt's only seascape. Its frame has been empty since 1990.",
+ "focus": [
+  0.47,
+  0.62
+ ],
+ "review_notes": "Figure count: 14 people in the boat (Christ, twelve disciples plus one); my count of the image agrees but some are hard to see.\nIdentification of the man in the cap looking out as a Rembrandt self-portrait is traditional.\nTheft: early morning of March 18, 1990; two men dressed as police officers; 13 works; estimated value about 500 million dollars; reward 10 million dollars.\nCanvas cut from its stretcher; size about 160 x 128 cm.\nIsabella Stewart Gardner bought the painting in 1898.\nComposition source: engraving after Maarten de Vos.\nThe image file is a pre-theft photograph of the painting.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Half of this boat is in full light and half is in darkness. In the bright half, men are fighting the sea with everything they have. In the dark half sits the one man who is in no danger at all. Rembrandt has put the hero of the story in the dimmest part of the picture."
+  },
+  {
+   "type": "text",
+   "text": "The story comes from the Gospels. Jesus and his disciples are crossing the Sea of Galilee when a violent storm rises. Jesus is asleep. The terrified disciples wake him: “Master, do you not care that we are dying?” He stands, tells the wind and water to be still, and they obey. Rembrandt paints the seconds just before."
+  },
+  {
+   "type": "text",
+   "text": "He was 27 and had just moved to Amsterdam, a city that lived off the sea. His buyers were merchants who knew exactly what a ship in trouble looked like. Italian painters would have set this scene on a calm, classical lake. He chose a Dutch fishing boat and North Sea weather."
+  },
+  {
+   "type": "lines",
+   "text": "The picture is built on slanting lines, and that is why it feels as if it is moving.",
+   "lines": [
+    {
+     "points": [
+      [
+       0.41,
+       0.585
+      ],
+      [
+       0.7,
+       0.2
+      ]
+     ],
+     "closed": false,
+     "label": "The mast",
+     "text": "The mast leans far to the right. In a painting, upright lines feel stable and slanted ones feel as if they are falling. This one cuts across the whole canvas."
+    },
+    {
+     "points": [
+      [
+       0.22,
+       0.66
+      ],
+      [
+       0.86,
+       0.82
+      ]
+     ],
+     "closed": false,
+     "label": "The hull",
+     "text": "The bow is thrown up on a wave while the stern sinks into a trough. The deck is tilted like a seesaw, opposing the slant of the mast."
+    },
+    {
+     "points": [
+      [
+       0.02,
+       0.22
+      ],
+      [
+       0.3,
+       0.5
+      ],
+      [
+       0.2,
+       0.8
+      ]
+     ],
+     "closed": false,
+     "label": "The light",
+     "text": "A gap in the clouds at the upper left sends light down onto the bow and the breaking wave. The storm may already be tearing open."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Those two diagonals cross near the foot of the mast, where the brightest sailors are bunched. Everything above them is coming apart: the mainsail is ripped, and a rope has snapped and whips loose in the air on the right."
+  },
+  {
+   "type": "fact",
+   "text": "This is the only seascape Rembrandt ever painted. He lived his whole life in a seafaring country and, as far as we know, never traveled outside it."
+  },
+  {
+   "type": "text",
+   "text": "Now count heads. The Gospel story needs thirteen people: Jesus and twelve disciples. There are fourteen in the boat. And one of them is not looking at the waves or the sail or at Jesus."
+  },
+  {
+   "type": "find",
+   "text": "One man in the boat is looking straight at you. He holds a rope with one hand and his cap with the other. Where is he?",
+   "spots": [
+    {
+     "x": 0.497,
+     "y": 0.72,
+     "zoom": 4.0,
+     "r": 0.05,
+     "title": "The fourteenth man",
+     "text": "He has a pinkish cap and a blue jacket, and his face is turned out of the picture. Tradition says this is Rembrandt himself, who boarded his own painting."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "He appears in several of his early Bible scenes this way, as a bystander who makes eye contact with you. Here the look is hard to read. It may be fear, or he may simply be asking whether you see what he sees."
+  },
+  {
+   "type": "tour",
+   "title": "Four ways to face a storm",
+   "text": "Rembrandt gives every man his own reaction. Move from the bow to the stern.",
+   "spots": [
+    {
+     "x": 0.33,
+     "y": 0.52,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The climber",
+     "text": "High on the bow, a sailor hauls at the torn sail, his whole weight on the rope. He is the brightest figure and the one working hardest."
+    },
+    {
+     "x": 0.55,
+     "y": 0.8,
+     "zoom": 3.6,
+     "r": 0.06,
+     "title": "The sick man",
+     "text": "A figure in red hangs over the side, head down toward the water. Rembrandt included seasickness in a sacred scene."
+    },
+    {
+     "x": 0.61,
+     "y": 0.7,
+     "zoom": 3.2,
+     "r": 0.08,
+     "title": "The pleaders",
+     "text": "Three men crowd around Jesus. One grips his arm and another leans in to shout, at the moment the Gospel describes."
+    },
+    {
+     "x": 0.655,
+     "y": 0.73,
+     "zoom": 3.8,
+     "r": 0.05,
+     "title": "Christ",
+     "text": "He is just awake, half lying, with a faint glow around his head. His is the only calm face on board, and it sits in shadow."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "And at the very back, a man in red holds the tiller, the handle of the rudder, and stares ahead. He has not given up steering. He is the hinge between the two halves of the boat, the workers in the light and the pleaders in the dark."
+  },
+  {
+   "type": "key",
+   "text": "Rembrandt places faith in the shadows and frantic effort in the light. The painting does not tell you which one saves the boat, and it leaves you with the question."
+  },
+  {
+   "type": "fact",
+   "text": "Isabella Stewart Gardner, a Boston collector, bought the painting in 1898 and hung it in the museum she built in the form of a Venetian palace. Her will ordered that nothing in the galleries be rearranged after her death."
+  },
+  {
+   "type": "text",
+   "text": "In the early hours of March 18, 1990, two men dressed as police officers talked their way into that museum. They tied up the guards and spent more than an hour inside. They left with thirteen works. This one, about 1.6 meters tall (5 ft 3 in), was cut out of its frame."
+  },
+  {
+   "type": "fact",
+   "text": "The stolen works have been valued at around 500 million dollars, the largest art theft on record. The museum offers a 10 million dollar reward. No one has been convicted of the theft, and nothing has come back."
+  },
+  {
+   "type": "text",
+   "text": "Because of the founder's will, the gallery has not been rehung. The frame is still on the wall, empty, with the wall covering showing through where the sea used to be. Visitors stand in front of it every day."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "x": 0.83,
+     "y": 0.4,
+     "zoom": 2.6,
+     "r": 0.1,
+     "title": "The snapped rope",
+     "text": "A line has broken and curls loose against the dark sky, its pulley block swinging. It shows the force of the wind better than the waves do."
+    },
+    {
+     "x": 0.77,
+     "y": 0.15,
+     "zoom": 3.4,
+     "r": 0.05,
+     "title": "The flag",
+     "text": "At the masthead a small dark flag streams out to the right, the direction the wind is driving the boat."
+    },
+    {
+     "x": 0.2,
+     "y": 0.63,
+     "zoom": 2.2,
+     "r": 0.14,
+     "title": "The breaking wave",
+     "text": "White foam explodes over the bow in thick, bright paint. The lit foam is almost the same color as the sail above it."
+    },
+    {
+     "x": 0.73,
+     "y": 0.7,
+     "zoom": 3.4,
+     "r": 0.06,
+     "title": "The helmsman",
+     "text": "Both hands are on the tiller and his eyes are fixed forward. He is the only one near Jesus who is still doing his job."
+    },
+    {
+     "x": 0.39,
+     "y": 0.6,
+     "zoom": 2.8,
+     "r": 0.1,
+     "title": "Around the mast",
+     "text": "Several men cling to the mast and rigging, their clothes yellow and white in the light. One has been knocked nearly flat by the spray."
+    },
+    {
+     "x": 0.22,
+     "y": 0.25,
+     "zoom": 1.6,
+     "r": 0.22,
+     "title": "The break in the sky",
+     "text": "Blue shows behind the brown clouds. The calm is on its way before anyone in the boat knows it."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "So the man in the cap is still looking out of the picture, wherever the picture is. For more than thirty years almost no one has been able to look back at him."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which moment of the Gospel story does Rembrandt show?",
+   "options": [
+    "The calm after the miracle",
+    "The disciples waking Jesus during the storm",
+    "The boat leaving the shore"
+   ],
+   "answer": 1,
+   "explanation": "He paints the seconds just before Jesus calms the storm."
+  },
+  {
+   "question": "Why do the slanting mast and hull matter?",
+   "options": [
+    "They make the scene feel unstable and in motion",
+    "They hide the figures",
+    "They follow a rule of the surgeons' guild"
+   ],
+   "answer": 0,
+   "explanation": "Diagonal lines feel as if they are falling, unlike upright ones."
+  },
+  {
+   "question": "Who is the fourteenth man in the boat thought to be?",
+   "options": [
+    "A Roman soldier",
+    "The collector who bought it",
+    "Rembrandt himself"
+   ],
+   "answer": 2,
+   "explanation": "The man in the cap who looks out at you is traditionally read as a self-portrait."
+  },
+  {
+   "question": "What happened to the painting in 1990?",
+   "options": [
+    "It was damaged by fire",
+    "It was stolen from a Boston museum",
+    "It was sold to the Rijksmuseum"
+   ],
+   "answer": 1,
+   "explanation": "Thieves dressed as police officers took it and twelve other works."
+  },
+  {
+   "question": "Why does an empty frame still hang in the gallery?",
+   "options": [
+    "The founder's will forbids rearranging the rooms",
+    "The frame is too heavy to move",
+    "A copy is being painted"
+   ],
+   "answer": 0,
+   "explanation": "Isabella Stewart Gardner ordered that nothing be rearranged."
+  },
+  {
+   "question": "Where in the boat does Jesus sit?",
+   "options": [
+    "In the bright bow",
+    "At the top of the mast",
+    "In the shadowed stern"
+   ],
+   "answer": 2,
+   "explanation": "The calm figure of Christ is in the dark half of the boat."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Rembrandt painted dozens of seascapes.",
+   "isTrue": false,
+   "explanation": "This is his only one."
+  },
+  {
+   "text": "One figure in the boat is being seasick over the side.",
+   "isTrue": true,
+   "explanation": "A man in red hangs over the edge, head toward the water."
+  },
+  {
+   "text": "The painting was recovered a few years after the theft.",
+   "isTrue": false,
+   "explanation": "It has been missing since 1990."
+  }
+ ]
+}

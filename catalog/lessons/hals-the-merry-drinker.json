@@ -1,0 +1,39 @@
+{
+  "teaser": "A stranger has been raising his glass to passersby for four centuries, and the paint still looks wet.",
+  "focus": [0.46, 0.4],
+  "review_notes": "Dimensions 81 x 66.5 cm, oil on canvas; date usually given as about 1628-1630.\nOfficial Rijksmuseum title: 'A Militiaman Holding a Berkemeyer, Known as The Merry Drinker'. Sitter unknown.\nMedal on the chain: said in the literature to carry a portrait of Prince Maurits of Orange; the lesson says 'thought to show'. Not legible in the working image.\nMonogram at the right edge: reads as FH (joined letters) in the image at about x 0.97, y 0.57; check spot on the zoom image.\nNo drawing securely attributed to Hals survives; he is believed to have painted directly on the canvas.\nBought for the Dutch national collection at an auction in 1816 (price often given as 325 guilders, not stated in the lesson).\nVan Gogh's remark about Hals having 'no fewer than twenty-seven blacks' (letter of 1885) is paraphrased.\nHals received a yearly pension from the city of Haarlem from 1662; died 1666.\nThe highlight on the glass is described as a reflection, 'perhaps a window'; this is an interpretation.",
+  "lesson": [
+    {"type": "text", "text": "Eighty-one centimeters of canvas, top to bottom (about 32 inches). That is all. On it, a man from the waist up at roughly the size of a real man, so near the front that his glass seems to stick out into the room. The paint is so thin in places that you can see the weave of the cloth through his hat."},
+    {"type": "text", "text": "Frans Hals painted him in Haarlem, a prosperous Dutch town of brewers and linen bleachers, around 1629. Nobody knows the man's name. His leather-colored jacket and sash suggest a militiaman, a member of the civic guard that every Dutch town kept for its defense, and that mostly met to eat and drink."},
+    {"type": "text", "text": "What makes him unusual is the mouth. People who paid for a portrait in the 1600s wanted to look serious, rich and calm. This man has pink cheeks, wet lips and something half said. One hand is up, the other tips a glass your way. He seems to have turned toward you a second ago."},
+    {"type": "fact", "text": "The glass has a name: a berkemeyer, a wide funnel-shaped cup on a thick stem covered with little glass knobs. The knobs were practical. Dutch feasts were eaten largely with the fingers, and they kept a greasy hand from losing its grip."},
+    {"type": "text", "text": "A split second is hard to paint, because paint takes time. Hals's answer was speed. As far as anyone can tell he did not prepare with careful drawings: not one drawing by him is known. He seems to have attacked the canvas directly, putting fresh strokes into paint that was still wet. Go near and the man comes apart."},
+    {"type": "tour", "title": "Up close", "text": "From here he looks finished and solid. Three places show how little paint that takes.", "spots": [
+      {"x": 0.47, "y": 0.61, "zoom": 2.6, "r": 0.17, "title": "The lace collar", "text": "No thread of lace is drawn. The collar is a flurry of short white and gray dashes, each laid down once and left alone. Your eye does the knitting."},
+      {"x": 0.845, "y": 0.77, "zoom": 3.2, "r": 0.1, "title": "The glass", "text": "A few pale lines for the rim, a golden smear for the wine, and one sharp white mark: a reflection, perhaps of a window. That single stroke is what makes the glass feel hard and cold."},
+      {"x": 0.13, "y": 0.76, "zoom": 2.8, "r": 0.13, "title": "The raised hand", "text": "The fingers are brown slashes, blurred as if they were moving. Below them the cuff is a handful of zigzags. Hals paints a gesture, not an anatomy lesson."}
+    ]},
+    {"type": "text", "text": "Notice what he kept slow. The eyes, the nostrils and the corner of the mustache are firmer than anything else on the canvas. Everything loose swirls around that small sharp center, the way a real face stays clear to you while the rest of a noisy room goes soft."},
+    {"type": "key", "text": "Hals found that a sketchy stroke can look more alive than a polished one. He left the marks of his brush in plain sight, two centuries before that became normal."},
+    {"type": "text", "text": "He is not only a drinker, though. On his chest hangs something a simple tavern regular would not own, a small object that hints at where his loyalties lie."},
+    {"type": "find", "text": "This man carries a second, tiny portrait on his body. Where?", "spots": [
+      {"x": 0.493, "y": 0.895, "zoom": 3.6, "r": 0.06, "title": "The medal", "text": "A gold medal on a double chain, painted in thick yellow blobs. It is thought to show Prince Maurits of Orange, the military leader of the young Dutch Republic. A toast, then, with politics in it."}
+    ]},
+    {"type": "fact", "text": "Hals signed quietly. On the bare wall at the right edge, level with the shoulder, sit two joined letters, F and H, brushed in a gray barely darker than the background. Most visitors walk past without seeing them."},
+    {"type": "text", "text": "Fame did not make him rich. Hals had a large family, was often in debt, and in his eighties lived on a small yearly allowance from the town. After his death in 1666 his loose manner fell out of fashion and was called careless. The Dutch state bought this canvas at an auction in 1816, when few people were fighting over him."},
+    {"type": "fact", "text": "Painters brought him back. In the 1860s and 1870s French artists such as Édouard Manet traveled to Holland to study his brushwork. Vincent van Gogh, after a visit to the Rijksmuseum in 1885, wrote in wonder that Hals must have had more than two dozen different blacks."},
+    {"type": "text", "text": "Look back at the hat with that in mind. It is the largest shape in the picture, a dark wheel behind the face, and it is not one black but several, warm and cool, thin and thick. The man himself has not moved. He is still about to say something, and the glass is still full."}
+  ],
+  "quiz": [
+    {"question": "Why was this man's expression unusual for a portrait of the 1600s?", "options": ["He looks merry and about to speak, when sitters wanted to look serious", "He is shown asleep", "He hides his face under his hat"], "answer": 0, "explanation": "Paying sitters usually wanted to appear calm and dignified, not laughing with a drink."},
+    {"question": "What is a berkemeyer?", "options": ["A kind of wide-brimmed hat", "A funnel-shaped drinking glass with a knobbly stem", "A militia flag"], "answer": 1, "explanation": "It is the wide glass in his hand, with knobs on the stem for grip."},
+    {"question": "How does Hals paint the lace collar?", "options": ["Thread by thread with a tiny brush", "With gold leaf", "With quick dashes of white and gray that the eye joins together"], "answer": 2, "explanation": "No lace is drawn: separate strokes read as lace from a distance."},
+    {"question": "What hangs from the chain on his chest?", "options": ["A watch", "A medal thought to show Prince Maurits of Orange", "A key"], "answer": 1, "explanation": "The gold medal gives the toast a political flavor."},
+    {"question": "Which later artists helped restore Hals's reputation?", "options": ["Manet and Van Gogh", "Michelangelo and Raphael", "Picasso and Dalí"], "answer": 0, "explanation": "French painters traveled to study him, and Van Gogh praised his many blacks."}
+  ],
+  "facts": [
+    {"text": "Many preparatory drawings by Frans Hals survive.", "isTrue": false, "explanation": "No drawing by him is known; he seems to have painted directly on the canvas."},
+    {"text": "The sharpest painting in the picture is around the eyes and mouth.", "isTrue": true, "explanation": "Hals kept the center of the face firm and let everything around it stay loose."},
+    {"text": "Hals died a wealthy man.", "isTrue": false, "explanation": "He was often in debt and lived on a town allowance in his last years."}
+  ]
+}
