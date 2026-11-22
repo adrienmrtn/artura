@@ -6,7 +6,7 @@ gothic,Madonna and Child,Duccio,1300,"Metropolitan Museum of Art, New York",met,
 gothic,Annunciation with St. Margaret and St. Ansanus,Simone Martini,1333,"Uffizi, Florence",commons,2d,
 gothic,The Allegory of Good and Bad Government,Ambrogio Lorenzetti,1339,"Palazzo Pubblico, Siena",commons,2d,fresco
 gothic,Wilton Diptych,Unknown,1397,"National Gallery, London",commons,2d,
-gothic,Très Riches Heures du Duc de Berry,Limbourg brothers,1416,"Musée Condé, Chantilly",commons,2d,manuscript; pick one month page
+gothic,Très Riches Heures du Duc de Berry: January,Limbourg brothers,1416,"Musée Condé, Chantilly",commons,2d,manuscript; pick one month page
 gothic,Adoration of the Magi,Gentile da Fabriano,1423,"Uffizi, Florence",commons,2d,
 gothic,Saint George and the Dragon,Bernat Martorell,1435,Art Institute of Chicago,aic,2d,
 early_netherlandish,Ghent Altarpiece,Jan van Eyck,1432,"St Bavo's Cathedral, Ghent",commons,2d,
@@ -126,7 +126,7 @@ siecledor,Aristotle with a Bust of Homer,Rembrandt,1653,"Metropolitan Museum of 
 siecledor,Self-Portrait (1659),Rembrandt,1659,"National Gallery of Art, Washington",nga,2d,
 siecledor,Self-Portrait with Two Circles,Rembrandt,1665,"Kenwood House, London",commons,2d,
 siecledor,Girl with a Pearl Earring,Johannes Vermeer,1665,"Mauritshuis, The Hague",commons,2d,
-siecledor,The Milkmaid,Johannes Vermeer,1658,"Rijksmuseum, Amsterdam",rijksmuseum,2d,
+siecledor,The Milkmaid,Johannes Vermeer,1660,"Rijksmuseum, Amsterdam",rijksmuseum,2d,
 siecledor,The Little Street,Johannes Vermeer,1658,"Rijksmuseum, Amsterdam",rijksmuseum,2d,
 siecledor,Woman Reading a Letter,Johannes Vermeer,1663,"Rijksmuseum, Amsterdam",rijksmuseum,2d,
 siecledor,The Love Letter,Johannes Vermeer,1669,"Rijksmuseum, Amsterdam",rijksmuseum,2d,
@@ -247,7 +247,7 @@ realism,The Gleaners,Jean-François Millet,1857,"Musée d'Orsay, Paris",commons,
 realism,The Angelus,Jean-François Millet,1859,"Musée d'Orsay, Paris",commons,2d,
 realism,The Sower,Jean-François Millet,1850,"Museum of Fine Arts, Boston",commons,2d,
 realism,The Third-Class Carriage,Honoré Daumier,1863,"Metropolitan Museum of Art, New York",met,2d,
-realism,The Horse Fair,Rosa Bonheur,1855,"Metropolitan Museum of Art, New York",met,2d,
+realism,The Horse Fair,Rosa Bonheur,1853,"Metropolitan Museum of Art, New York",met,2d,
 realism,Ploughing in the Nivernais,Rosa Bonheur,1849,"Musée d'Orsay, Paris",commons,2d,
 realism,Olympia,Édouard Manet,1863,"Musée d'Orsay, Paris",commons,2d,
 realism,Le Déjeuner sur l'herbe,Édouard Manet,1863,"Musée d'Orsay, Paris",commons,2d,
@@ -333,7 +333,7 @@ impressionnisme,Madame Georges Charpentier and Her Children,Pierre-Auguste Renoi
 impressionnisme,La Loge,Pierre-Auguste Renoir,1874,"Courtauld Gallery, London",commons,2d,
 impressionnisme,The Dance Class,Edgar Degas,1874,"Metropolitan Museum of Art, New York",met,2d,
 impressionnisme,L'Absinthe,Edgar Degas,1876,"Musée d'Orsay, Paris",commons,2d,
-impressionnisme,The Star (L'Étoile),Edgar Degas,1878,"Musée d'Orsay, Paris",commons,2d,pastel
+impressionnisme,The Star (L'Étoile),Edgar Degas,1877,"Musée d'Orsay, Paris",commons,2d,pastel
 impressionnisme,The Millinery Shop,Edgar Degas,1885,Art Institute of Chicago,aic,2d,
 impressionnisme,The Cradle,Berthe Morisot,1872,"Musée d'Orsay, Paris",commons,2d,
 impressionnisme,Summer's Day,Berthe Morisot,1879,"National Gallery, London",commons,2d,
@@ -432,7 +432,7 @@ fauvism,Dance,Henri Matisse,1910,"Hermitage, Saint Petersburg",commons,2d,
 fauvism,The Red Studio,Henri Matisse,1911,"Museum of Modern Art, New York",commons,2d,
 fauvism,Goldfish,Henri Matisse,1912,"Pushkin Museum, Moscow",commons,2d,
 fauvism,Bathers by a River,Henri Matisse,1917,Art Institute of Chicago,aic,2d,check is_public_domain flag; else commons
-fauvism,"Charing Cross Bridge, London",André Derain,1906,"National Gallery of Art, Washington",nga,2d,check open-access flag; else commons
+fauvism,"Charing Cross Bridge, London",André Derain,1906,"Musée d'Orsay, Paris",nga,2d,check open-access flag; else commons
 fauvism,Mountains at Collioure,André Derain,1905,"National Gallery of Art, Washington",nga,2d,check open-access flag; else commons
 fauvism,"The Turning Road, L'Estaque",André Derain,1906,"Museum of Fine Arts, Houston",commons,2d,
 expressionism,"Street, Berlin",Ernst Ludwig Kirchner,1913,"Museum of Modern Art, New York",commons,2d,
@@ -451,14 +451,14 @@ expressionism,The Embrace,Egon Schiele,1917,"Belvedere, Vienna",commons,2d,
 expressionism,Seated Woman with Bent Knee,Egon Schiele,1917,National Gallery Prague,commons,2d,
 expressionism,Reclining Nude,Amedeo Modigliani,1917,"Metropolitan Museum of Art, New York",met,2d,nudity
 expressionism,Jeanne Hébuterne,Amedeo Modigliani,1919,"Metropolitan Museum of Art, New York",met,2d,
-expressionism,Carcass of Beef,Chaïm Soutine,1925,Buffalo AKG Art Museum,commons,2d,
+expressionism,Carcass of Beef,Chaïm Soutine,1925,Musée de Grenoble,commons,2d,
 expressionism,Woman with Dead Child,Käthe Kollwitz,1903,Etching (multiple collections),commons,2d,print
 cubism,Portrait of Pablo Picasso,Juan Gris,1912,Art Institute of Chicago,aic,2d,
 cubism,Still Life with Checked Tablecloth,Juan Gris,1915,"Metropolitan Museum of Art, New York",met,2d,
 cubism,The Sunblind,Juan Gris,1914,"Tate Modern, London",commons,2d,
 cubism,Man in a Café,Juan Gris,1912,Philadelphia Museum of Art,commons,2d,
 cubism,Champs de Mars: The Red Tower,Robert Delaunay,1911,Art Institute of Chicago,aic,2d,
-cubism,Eiffel Tower,Robert Delaunay,1911,"Solomon R. Guggenheim Museum, New York",commons,2d,
+cubism,Eiffel Tower with Trees,Robert Delaunay,1910,"Solomon R. Guggenheim Museum, New York",commons,2d,
 cubism,Simultaneous Windows on the City,Robert Delaunay,1912,Hamburger Kunsthalle,commons,2d,
 cubism,Contrast of Forms,Fernand Léger,1913,"Museum of Modern Art, New York",commons,2d,
 cubism,The City,Fernand Léger,1919,Philadelphia Museum of Art,commons,2d,
@@ -492,7 +492,7 @@ abstraction,Senecio,Paul Klee,1922,Kunstmuseum Basel,commons,2d,
 abstraction,Twittering Machine,Paul Klee,1922,"Museum of Modern Art, New York",commons,2d,
 abstraction,Fish Magic,Paul Klee,1925,Philadelphia Museum of Art,commons,2d,
 abstraction,Castle and Sun,Paul Klee,1928,Private collection,commons,2d,
-dada_surrealism,Dances at the Spring,Francis Picabia,1912,Philadelphia Museum of Art,commons,2d,
+cubism,Dances at the Spring,Francis Picabia,1912,Philadelphia Museum of Art,commons,2d,
 dada_surrealism,Udnie,Francis Picabia,1913,"Centre Pompidou, Paris",commons,2d,
 dada_surrealism,I See Again in Memory My Dear Udnie,Francis Picabia,1914,"Museum of Modern Art, New York",commons,2d,
 dada_surrealism,Das Undbild,Kurt Schwitters,1919,Staatsgalerie Stuttgart,commons,2d,
@@ -500,7 +500,7 @@ dada_surrealism,"Mama, Papa Is Wounded!",Yves Tanguy,1927,"Museum of Modern Art,
 antiquity,The Seated Scribe,Unknown (Egypt),-2500,"Louvre, Paris",commons,sculpture,sculpture
 antiquity,Sphinx of Hatshepsut,Unknown (Egypt),-1470,"Metropolitan Museum of Art, New York",met,sculpture,sculpture
 antiquity,Bust of Nefertiti,Thutmose,-1345,"Neues Museum, Berlin",commons,sculpture,sculpture
-antiquity,Mask of Tutankhamun,Unknown (Egypt),-1323,"Egyptian Museum, Cairo",commons,sculpture,sculpture
+antiquity,Mask of Tutankhamun,Unknown (Egypt),-1323,"Grand Egyptian Museum, Giza",commons,sculpture,sculpture
 antiquity,"Hippopotamus (""William"")",Unknown (Egypt),-1900,"Metropolitan Museum of Art, New York",met,sculpture,sculpture
 antiquity,Human-Headed Winged Lion (Lamassu),Unknown (Assyria),-870,"Metropolitan Museum of Art, New York",met,sculpture,sculpture
 antiquity,Marble Statue of a Kouros,Unknown (Greece),-590,"Metropolitan Museum of Art, New York",met,sculpture,sculpture
@@ -541,7 +541,7 @@ baroque,Ecstasy of Saint Teresa,Gian Lorenzo Bernini,1652,"Santa Maria della Vit
 rococo,Voltaire Seated,Jean-Antoine Houdon,1781,"Comédie-Française, Paris",commons,sculpture,sculpture
 neoclassicism,Psyche Revived by Cupid's Kiss,Antonio Canova,1793,"Louvre, Paris",commons,sculpture,sculpture
 neoclassicism,Perseus with the Head of Medusa,Antonio Canova,1806,"Metropolitan Museum of Art, New York",met,sculpture,sculpture
-neoclassicism,The Three Graces,Antonio Canova,1817,"Hermitage, Saint Petersburg",commons,sculpture,sculpture
+neoclassicism,The Three Graces,Antonio Canova,1816,"Hermitage, Saint Petersburg",commons,sculpture,sculpture
 romanticism,La Marseillaise (Departure of the Volunteers of 1792),François Rude,1836,"Arc de Triomphe, Paris",commons,sculpture,sculpture
 impressionnisme,Little Dancer Aged Fourteen,Edgar Degas,1881,"National Gallery of Art, Washington",nga,sculpture,sculpture
 symbolism,The Thinker,Auguste Rodin,1904,"Musée Rodin, Paris",commons,sculpture,sculpture; casts also at Cleveland
@@ -557,5 +557,5 @@ secession,Hercules the Archer,Antoine Bourdelle,1909,"Musée Bourdelle, Paris",p
 secession,The Mediterranean,Aristide Maillol,1905,"Musée d'Orsay, Paris",commons,sculpture,sculpture
 expressionism,Kneeling Woman,Wilhelm Lehmbruck,1911,"Lehmbruck Museum, Duisburg",commons,sculpture,sculpture
 expressionism,Woman's Head,Amedeo Modigliani,1912,"Metropolitan Museum of Art, New York",met,sculpture,sculpture
-cubism,The Large Horse,Raymond Duchamp-Villon,1914,"Centre Pompidou, Paris",commons,sculpture,sculpture
+cubism,The Large Horse,Raymond Duchamp-Villon,1914,"Nasher Sculpture Center, Dallas",commons,sculpture,sculpture
 futurism,Unique Forms of Continuity in Space,Umberto Boccioni,1913,"Museum of Modern Art, New York",commons,sculpture,sculpture
