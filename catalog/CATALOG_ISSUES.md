@@ -108,3 +108,6 @@ Lessons written in the full run: 515 (plus 30 pilot). Each note below comes from
 - `maillol-the-mediterranean`: Image shows the bronze cast in the Tuileries/Carrousel garden, seen from behind under snow, not the Orsay marble; face and front are not visible.
 - `lehmbruck-kneeling-woman`: Image shows only a bust (head and shoulders, terracotta-colored) derived from the Kneeling Woman, not the full kneeling figure.
 - `duchamp-villon-the-large-horse`: Image is a two-panel montage (two views) of an outdoor cast, apparently the Museum of Fine Arts Houston cast, not the Centre Pompidou cast.
+- `caravaggio-the-crucifixion-of-saint-andrew`: Image is only 500 px wide, so spots are limited to large regions; a larger file would help.
+- `hiroshige-night-snow-at-kambara`: Variant with the dark sky band at the horizon; the exact impression (museum) cannot be confirmed from the image.
+- `stella-battle-of-lights-coney-island-mardi-gras`: Catalog year is 1914; the work is usually dated 1913-14.

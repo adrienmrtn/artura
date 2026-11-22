@@ -1,0 +1,45 @@
+{
+  "teaser": "New York laughed at this painting in 1914. It is seven feet of electricity and noise.",
+  "focus": [0.5, 0.35],
+  "review_notes": "Opening: the painting was first shown in early 1914 at the Montross Gallery, New York, and was widely mocked in the press; check the venue and tone of the reviews (no review is quoted).\nYear: the work is usually dated 1913-14; the catalog gives 1914.\nStella's trip to Coney Island for the September 1913 Mardi Gras is from his own later account.\nThe figure of 250,000 light bulbs for Luna Park is the commonly cited one.\nLetters: PARK and COM are clearly legible in the image; the orange letters to their left look like FELT and are generally linked to Feltman's restaurant, but this reading should be checked.\nThe central tower is usually identified as Luna Park's electric tower.\nSize 195.6 x 215.3 cm. Gift of the Societe Anonyme collection to Yale in 1941.",
+  "lesson": [
+    {"type": "text", "text": "When this canvas went on view in New York in early 1914, the newspapers had a fine time. Critics called it a jumble and a joke at the public's expense. Its author, Joseph Stella, was thirty-six and until then known for careful, sober drawings of immigrants and steelworkers. Most people thought he had lost his mind."},
+    {"type": "text", "text": "What he had lost was his patience with careful and sober. Stella had come from southern Italy to New York at eighteen. In 1909 he went back to Europe, and in Paris he ran into the Futurists, young Italian painters who wanted art to match the speed of trains, the glare of electric lamps and the roar of crowds. He came home looking for an American subject loud enough."},
+    {"type": "text", "text": "He found it one September night in 1913, at the end of the line: Coney Island, Brooklyn's amusement district by the sea. It was Mardi Gras week, the yearly parade that closed the summer season. Hundreds of thousands of people, brass bands, roller coasters, and above all, light. One park alone, Luna Park, burned some 250,000 bulbs."},
+    {"type": "fact", "text": "In 1913 most American homes still had no electricity. For many visitors, Coney Island at night was the brightest thing they had ever seen. People came just to stand and stare at the lit towers."},
+    {"type": "text", "text": "So how do you paint a place where everything happens at once? Stella's answer was to give up the single view. He chops the scene into hundreds of facets, like a shattered mirror, and lets pieces of rides, signs and bodies overlap. The Futurists called this simultaneity: showing many moments and angles in one image. Even so, the chaos has a skeleton."},
+    {"type": "lines", "text": "Three things hold the explosion together.", "lines": [
+      {"points": [[0.48, 0.03], [0.49, 0.3], [0.5, 0.6]], "closed": false, "label": "The tower", "text": "A vertical spine runs down the middle, from a needle-shaped spire studded with dots of light. The whole picture is hung on this mast."},
+      {"points": [[0.0, 0.3], [0.41, 0.39], [0.17, 0.0], [0.41, 0.39], [0.0, 0.47]], "closed": false, "label": "The beams", "text": "Pale shafts shoot outward from a hub near the center, like searchlights or the spokes of a spinning ride. Your eye is flung to the edges and pulled back."},
+      {"points": [[0.0, 0.88], [0.5, 0.92], [1.0, 0.88]], "closed": false, "label": "The floor", "text": "Along the bottom the colors turn dark and the shards get small. This is the crowd, a mass of heads seen from above, with all the brightness overhead."}
+    ]},
+    {"type": "text", "text": "Light above, people below, a tower in between: it is almost the layout of an old altarpiece, with heaven on top. Stella, raised Catholic in a hill town, knew those well. He simply replaced the saints with light bulbs. And he left a few clues in plain letters, so that you would know exactly where you are."},
+    {"type": "find", "text": "A real sign survives in the wreckage. Hunt for a four-letter word.", "spots": [
+      {"x": 0.57, "y": 0.615, "zoom": 3.6, "r": 0.06, "title": "PARK", "text": "Just right of center, in green-gold capitals: PARK. Beside it float the letters COM, and further left some orange ones. They are scraps of the glowing signs along the avenue."}
+    ]},
+    {"type": "key", "text": "Stella does not paint what Coney Island looked like. He paints what it did to you: the dizziness, the din, the feeling of being swallowed by a crowd."},
+    {"type": "fact", "text": "The canvas is enormous for an experiment: nearly 2 by 2.15 meters (about 6.5 by 7 feet). Standing in front of it, you cannot see the edges and the center at the same time, which is the point."},
+    {"type": "explore", "spots": [
+      {"x": 0.49, "y": 0.2, "zoom": 2.8, "r": 0.09, "shape": "rect", "title": "The electric tower", "text": "Rows of white and colored dots climb the spire. Each dot is one bulb. Stella dabs them on as thick little points over the flat color."},
+      {"x": 0.565, "y": 0.355, "zoom": 3.2, "r": 0.08, "title": "A wheel of lamps", "text": "A red disc ringed with pale dots, with spokes inside: a turning ride, or a lit sign, tilted toward you."},
+      {"x": 0.43, "y": 0.61, "zoom": 3.4, "r": 0.07, "title": "Orange letters", "text": "These capitals are harder to read. Many see FELT, the start of Feltman's, the huge Coney Island restaurant known for its hot dogs."},
+      {"x": 0.73, "y": 0.58, "zoom": 2.6, "r": 0.12, "title": "Loops and lattice", "text": "White lines curl into loops and crisscross like trestles. They suggest the wooden frames and swooping tracks of the roller coasters."},
+      {"x": 0.56, "y": 0.87, "zoom": 2.8, "r": 0.1, "title": "A whirl in red", "text": "In the hottest patch of red at the bottom, a white curl spins like a dancer or a firework. Is it a figure? Stella leaves it open."},
+      {"x": 0.3, "y": 0.95, "zoom": 2.6, "r": 0.14, "title": "The crowd", "text": "Thousands of small dark tiles, each a head or a hat. Nobody has a face. The crowd is one more surface for the lights to fall on."},
+      {"x": 0.25, "y": 0.06, "zoom": 2.2, "r": 0.13, "title": "A beam in the sky", "text": "A long blue-green band slices across the top corner. Searchlights swept the sky over the parks every night."}
+    ]},
+    {"type": "text", "text": "The laughter did not last. The picture is now counted as the first major Futurist painting made in America, and Stella went on to give New York another emblem: his towering views of the Brooklyn Bridge. Luna Park itself burned down in 1944. This is how its lights are remembered."}
+  ],
+  "quiz": [
+    {"question": "How did the New York press react when the painting was first shown?", "options": ["It ignored the painting", "It mocked it as an unreadable jumble", "It praised it as a triumph"], "answer": 1, "explanation": "Critics treated it as a jumble and a joke."},
+    {"question": "What is Futurism, according to the lesson?", "options": ["A movement that wanted art to match the speed, light and noise of modern life", "A style of calm country landscapes", "A revival of ancient Roman painting"], "answer": 0, "explanation": "The Italian Futurists celebrated trains, electric lamps and crowds."},
+    {"question": "What word can you clearly read in the painting?", "options": ["LUNA", "CONEY", "PARK"], "answer": 2, "explanation": "The capitals PARK appear just right of center."},
+    {"question": "What does the dark band along the bottom represent?", "options": ["The crowd, seen from above", "The sea at night", "The painter's signature block"], "answer": 0, "explanation": "The small dark shards are the heads of the crowd beneath the lights."},
+    {"question": "What does simultaneity mean in this context?", "options": ["Two painters working on one canvas", "Showing many moments and viewpoints in a single image", "Painting a scene in a single sitting"], "answer": 1, "explanation": "Stella overlaps fragments of rides, signs and bodies instead of one view."}
+  ],
+  "facts": [
+    {"text": "Stella was born in New York to Italian parents.", "isTrue": false, "explanation": "He was born in southern Italy and arrived in New York at eighteen."},
+    {"text": "In 1913 most American homes had no electric light.", "isTrue": true, "explanation": "That is why Coney Island's hundreds of thousands of bulbs amazed visitors."},
+    {"text": "The Mardi Gras in the title took place in February, as in New Orleans.", "isTrue": false, "explanation": "Coney Island's Mardi Gras was a September parade closing the summer season."}
+  ]
+}

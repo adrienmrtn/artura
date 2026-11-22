@@ -1,0 +1,217 @@
+{
+  "teaser": "An executioner climbs a ladder to free a dying man, and finds his arms will not obey.",
+  "focus": [
+    0.6,
+    0.15
+  ],
+  "review_notes": "The source image is only 500 px wide: all spots are limited to large, clearly readable regions (faces, torso, armor, feet); the rope around the ankles is just visible.\nFirst owner: the Count of Benavente, Spanish viceroy of Naples 1603-1610, took the painting to Valladolid in 1610; check the claim that it was the highest valued picture in the family's 1653 inventory (1,500 ducats, figure not given in the lesson).\nThe old woman's swollen neck is usually read as a goiter; at this image size the swelling is hard to confirm, so the lesson mentions it in text and points only at her face and neck in general.\nCleveland bought the painting in 1976; conservation in public view began in 2014 and the work returned to the walls in 2017: check dates.\nLegend details (two days of preaching, crowd of 20,000, paralyzed arms) follow the Golden Legend.\nSize 202.5 x 152.7 cm.",
+  "lesson": [
+    {
+      "type": "text",
+      "text": "The first person to live with this painting could not part with it. He was the Count of Benavente, who ruled Naples for the king of Spain. When his term ended in 1610, he had the canvas, taller than a door at about 2 meters (6.5 feet), shipped home to his palace in Valladolid. Naples kept only copies, made by painters who had hurried to study it."
+    },
+    {
+      "type": "text",
+      "text": "What had gripped them? Caravaggio arrived in Naples in late 1606 as a fugitive. A few months earlier, in Rome, he had killed a man in a street fight and fled with a death sentence on his head. Naples, crowded and Spanish-ruled, welcomed him anyway. Within weeks the most wanted man in Italian painting was also the busiest."
+    },
+    {
+      "type": "text",
+      "text": "The viceroy was devoted to Saint Andrew, the fisherman apostle whose relics lie in nearby Amalfi. He asked for the saint's death. Caravaggio chose the strangest minute of the old legend, one almost nobody had painted before."
+    },
+    {
+      "type": "text",
+      "text": "The story goes like this. Tied to a cross rather than nailed, so that he would die slowly, Andrew preached to the crowd for two days. The crowd, some twenty thousand people in the legend, turned on the Roman governor and demanded his release. The governor gave in. But Andrew prayed to be allowed to die where he was. So when the executioners reached up to untie him, their arms froze."
+    },
+    {
+      "type": "tour",
+      "title": "A rescue that fails",
+      "text": "Follow the action from the top of the ladder down to the saint's feet.",
+      "spots": [
+        {
+          "x": 0.09,
+          "y": 0.1,
+          "zoom": 3.2,
+          "r": 0.1,
+          "title": "Hands at the rope",
+          "text": "The man on the ladder has both fists at the knot around Andrew's wrist. He is not tying it. He is trying to undo it, and cannot."
+        },
+        {
+          "x": 0.2,
+          "y": 0.3,
+          "zoom": 2.2,
+          "r": 0.17,
+          "title": "A back, no face",
+          "text": "We never see who he is. Caravaggio turns him away from us and lights only the strain in his shoulders and the white shirt slipping off them."
+        },
+        {
+          "x": 0.62,
+          "y": 0.13,
+          "zoom": 3.4,
+          "r": 0.09,
+          "title": "The last breath",
+          "text": "Andrew's head drops to the side, eyes half closed, mouth slack inside the gray beard. He is dying at this very moment, exactly as he asked."
+        },
+        {
+          "x": 0.52,
+          "y": 0.8,
+          "zoom": 3,
+          "r": 0.1,
+          "title": "Hanging feet",
+          "text": "The feet dangle above the ground, bound at the ankles with thin cord. No nails, no blood: a death by exhaustion, painted without any softening."
+        }
+      ]
+    },
+    {
+      "type": "key",
+      "text": "Caravaggio does not paint a miracle with angels and golden clouds. He paints a man whose muscles suddenly refuse to work, and lets you understand the rest."
+    },
+    {
+      "type": "text",
+      "text": "That was his revolution, and the reason young painters copied him. His method has a name: tenebrism, from the Italian word for darkness. Most of the canvas sinks into black, and a hard light picks out only what matters. Here it falls from the upper left onto a rib cage painted from a real, aging model, every hollow counted."
+    },
+    {
+      "type": "text",
+      "text": "Below the cross stand the witnesses, and they are no heroes. An old woman with a deeply lined face. A man with his mouth open. A soldier in black armor, probably the governor himself, hand on his hip. Where are they all looking?"
+    },
+    {
+      "type": "lines",
+      "text": "Three people, one target. Trace their eyes.",
+      "lines": [
+        {
+          "points": [
+            [
+              0.13,
+              0.71
+            ],
+            [
+              0.6,
+              0.14
+            ]
+          ],
+          "closed": false,
+          "label": "The old woman",
+          "text": "From the bottom corner her gaze climbs the whole height of the canvas. She stands where you stand, looking up, and so she teaches you how to look."
+        },
+        {
+          "points": [
+            [
+              0.63,
+              0.65
+            ],
+            [
+              0.62,
+              0.16
+            ]
+          ],
+          "closed": false,
+          "label": "The open mouth",
+          "text": "This man stares almost straight up, his lips parted. He is the crowd's voice, caught between a shout and silence."
+        },
+        {
+          "points": [
+            [
+              0.73,
+              0.6
+            ],
+            [
+              0.63,
+              0.15
+            ]
+          ],
+          "closed": false,
+          "label": "The man in armor",
+          "text": "The officer tips his head back too. Power, in this picture, is reduced to watching. The light glints on his steel sleeve and does nothing for him."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Every line ends at the same tilted head. Nothing else in the painting moves, yet the picture feels tense, because all its energy is spent on looking. Caravaggio even kept the cross upright and plain. The X-shaped cross that later became Saint Andrew's emblem would have made a tidier symbol and a weaker scene."
+    },
+    {
+      "type": "fact",
+      "text": "The old woman's neck looks swollen to many viewers. Doctors and historians read it as a goiter, a thyroid condition then common among the poor around Naples. Caravaggio painted his saints' witnesses from the people in the street outside."
+    },
+    {
+      "type": "text",
+      "text": "The canvas stayed in Spain for centuries and slipped out of sight. It resurfaced in the twentieth century, and the Cleveland Museum of Art bought it in 1976. It is one of very few late Caravaggios in the United States."
+    },
+    {
+      "type": "fact",
+      "text": "From 2014, Cleveland's conservators cleaned the painting in a gallery, in front of visitors, removing old yellowed varnish. The work went back on the wall in 2017 with its darks deeper and its flesh colder than anyone alive had seen them."
+    },
+    {
+      "type": "text",
+      "text": "Caravaggio himself had three years left. He would run on to Malta, to Sicily, back to Naples, painting darker each time, and die in 1610, the same year the viceroy sailed for Spain with a dying saint in his luggage."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the executioner on the ladder trying to do?",
+      "options": [
+        "Tighten the ropes",
+        "Untie the saint",
+        "Raise the cross"
+      ],
+      "answer": 1,
+      "explanation": "He has been ordered to release Andrew, but his arms are suddenly paralyzed."
+    },
+    {
+      "question": "Why was Caravaggio in Naples?",
+      "options": [
+        "He had fled Rome after killing a man",
+        "The Pope had sent him as ambassador",
+        "He was born there"
+      ],
+      "answer": 0,
+      "explanation": "He escaped Rome in 1606 with a death sentence after a fatal street fight."
+    },
+    {
+      "question": "What does tenebrism mean?",
+      "options": [
+        "Painting on wet plaster",
+        "Using only earth colors",
+        "Plunging most of the picture into darkness and lighting only the essential"
+      ],
+      "answer": 2,
+      "explanation": "The word comes from the Italian for darkness."
+    },
+    {
+      "question": "Who first owned the painting?",
+      "options": [
+        "A Roman cardinal",
+        "The Spanish viceroy of Naples",
+        "A Cleveland collector"
+      ],
+      "answer": 1,
+      "explanation": "The Count of Benavente commissioned it and took it to Spain in 1610."
+    },
+    {
+      "question": "Where do the three witnesses below the cross look?",
+      "options": [
+        "At each other",
+        "Out at the viewer",
+        "Up at Andrew's face"
+      ],
+      "answer": 2,
+      "explanation": "All three gazes converge on the saint's tilted head."
+    }
+  ],
+  "facts": [
+    {
+      "text": "Saint Andrew is nailed to the cross in this painting.",
+      "isTrue": false,
+      "explanation": "He is tied with ropes at the wrists and ankles, so that he would die slowly."
+    },
+    {
+      "text": "Cleveland conservators cleaned the painting in front of museum visitors.",
+      "isTrue": true,
+      "explanation": "The treatment took place in a public gallery from 2014."
+    },
+    {
+      "text": "Caravaggio shows Andrew on an X-shaped cross.",
+      "isTrue": false,
+      "explanation": "He chose a plain upright cross, not the X shape that later became the saint's emblem."
+    }
+  ]
+}

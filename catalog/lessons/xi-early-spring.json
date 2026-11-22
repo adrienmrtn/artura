@@ -1,0 +1,61 @@
+{
+  "teaser": "A mountain that seems to breathe, painted for an emperor and nearly lost as a cleaning rag.",
+  "focus": [0.5, 0.62],
+  "review_notes": "The cleaning-rag story comes from Deng Chun's Huaji (12th century): his father is said to have seen palace workers wiping tables with discarded Guo Xi silks. It concerns Guo Xi's palace paintings in general, not this scroll specifically; the lesson says so.\nSeasonal mountain passage and the three distances are paraphrased from the treatise Linquan gaozhi (Lofty Message of Forests and Streams), compiled by his son Guo Si.\nThe inscription at upper right is a poem added by the Qianlong emperor in 1759 (the date characters are legible in the image): check.\nThe signature at the left edge gives the title, the year (1072) and Guo Xi's name: check reading.\nTiny figures: the image clearly shows a boat with figures at lower left and a figure with a pole on the right bank; other travelers described in the literature are not pointed at because they cannot be made out here.\nSize 158.3 x 108.1 cm, ink and light color on silk.",
+  "lesson": [
+    {"type": "text", "text": "Emperor Shenzong of China could not get enough of Guo Xi. In the 1070s he had the painter's landscapes hung through hall after hall of the palace. Then the emperor died, tastes changed, and the pictures came down. A generation later, an official reported seeing palace workers wipe tables with pieces of old painted silk. He looked closer. They were Guo Xis."},
+    {"type": "text", "text": "This scroll escaped the rag pile. It is almost the only work that everyone agrees is by his hand, and it is signed and dated 1072. It is painted in ink, with faint touches of color, on a length of silk about 1.58 meters tall (just over 5 feet). The silk has darkened to the brown of strong tea."},
+    {"type": "text", "text": "Before you search for anything, let your eye do what it wants. It probably starts at the dark rocks and pines at the bottom, then wanders upward. That path is planned."},
+    {"type": "lines", "text": "The mountain has a spine. Follow it from the ground to the peak.", "lines": [
+      {"points": [[0.5, 0.95], [0.52, 0.8], [0.45, 0.66], [0.56, 0.55], [0.44, 0.42], [0.5, 0.28], [0.52, 0.1]], "closed": false, "label": "The serpentine", "text": "The central ridge swings left, right, left again as it rises. Chinese writers compared such a ridge to a dragon's body: the rock looks as if it could move."},
+      {"points": [[0.52, 0.03], [0.52, 0.97]], "closed": false, "label": "The axis", "text": "Yet the summit sits directly above the foreground boulders. The swaying mass hangs on a straight vertical, like a ruler standing among his court."},
+      {"points": [[0.0, 0.5], [0.2, 0.48], [0.4, 0.5]], "closed": false, "label": "The escape", "text": "On the left, the rock opens and a valley runs away toward the horizon. After all that climbing, the eye is given a place to rest."}
+    ]},
+    {"type": "key", "text": "A Chinese landscape of this period is not a view from one spot. It is a journey: you look up, you look into, you look across, all in one picture."},
+    {"type": "text", "text": "Guo Xi explained this himself. His son wrote down his teaching in a book whose title can be translated as The Lofty Message of Forests and Streams. In it he describes three ways a mountain can recede, which he calls the three distances. This scroll uses all of them."},
+    {"type": "tour", "title": "Three distances", "text": "One painting, three ways of seeing far.", "spots": [
+      {"x": 0.5, "y": 0.14, "zoom": 2.2, "r": 0.17, "title": "High distance", "text": "From below, you look up at the summit. It towers at the top of the silk, its crown bristling with tiny trees, pale because of the air in between."},
+      {"x": 0.76, "y": 0.58, "zoom": 2.4, "r": 0.14, "title": "Deep distance", "text": "Here you look into the mountain. A gorge cuts back between the cliffs, with a waterfall dropping through it and tiled roofs tucked high up inside."},
+      {"x": 0.13, "y": 0.5, "zoom": 2.4, "r": 0.14, "title": "Level distance", "text": "And here you look across. Low hills and a winding river fade into bare silk, as flat and open as the rest is steep."}
+    ]},
+    {"type": "text", "text": "Three viewpoints that could never be seen together from one place. European painters would later spend centuries perfecting a single fixed viewpoint. Guo Xi wanted the opposite. A good landscape, he wrote, is one you can walk through and even live in, not just look at."},
+    {"type": "fact", "text": "Guo Xi argued that a painted landscape let a busy official enjoy the mountains without leaving his desk. His audience was made of men tied to their duties at court, who dreamed of rivers and solitude."},
+    {"type": "text", "text": "So he put walkers in. They are very small, a few flicks of the brush, because next to a mountain a person is very small. Finding them changes the scale of everything around them."},
+    {"type": "find", "text": "Somewhere along the water's edge, people have arrived by boat. Where are they?", "spots": [
+      {"x": 0.24, "y": 0.87, "zoom": 4, "r": 0.06, "title": "The landing", "text": "At the lower left a slender boat is drawn up to the shore, with small figures beside it. Beside them the boulders become cliffs, and the pines become giants."}
+    ]},
+    {"type": "text", "text": "Now the title. Nothing here is green, and no flower blooms. The trees are still bare. How is this spring? Because the season is told through water and air. Ice has let go: streams run again and spill over ledges. Mist rises from the warming ground and hides the middle of the mountain."},
+    {"type": "fact", "text": "In his treatise Guo Xi gave each season a mood. Spring mountains, he said, are soft and seem to smile. Summer ones are lush, autumn ones bright and neat, and winter mountains look as if they are asleep."},
+    {"type": "text", "text": "To make rock feel soft, he invented a way of painting it. He worked in layers of wet, diluted ink, letting the washes blur, then drew curling outlines over them. The boulders swell like clouds. The bare branches do the reverse: they hook downward in sharp little strokes that later painters named crab claws."},
+    {"type": "tour", "title": "The brush at work", "text": "Two opposite kinds of mark, a few centimeters apart.", "spots": [
+      {"x": 0.42, "y": 0.93, "zoom": 2.6, "r": 0.14, "title": "Cloud rocks", "text": "The foreground boulders have no hard edges. Pale and dark ink melt into each other, and the rounded outlines billow like a cloud bank."},
+      {"x": 0.5, "y": 0.6, "zoom": 3, "r": 0.1, "title": "Crab claws", "text": "On these leafless trees every twig ends in a small downward hook. The strokes are fast, dry and black against the mist."},
+      {"x": 0.52, "y": 0.72, "zoom": 2.6, "r": 0.1, "shape": "rect", "title": "The great pines", "text": "Two tall pines stand at the very center. Guo Xi compared a great pine among lesser trees to a noble man among ordinary people."},
+      {"x": 0.46, "y": 0.47, "zoom": 2.2, "r": 0.15, "title": "Painted with nothing", "text": "The mist is simply silk left almost untouched. It cuts the mountain in two, so the upper cliffs seem to float."}
+    ]},
+    {"type": "text", "text": "That floating effect carried a message at court. A stable peak ruling over orderly slopes, with temples, fishermen and travelers each in their place, was an image of a well-governed empire. Early spring, when everything begins again, flattered a young emperor in the middle of large reforms."},
+    {"type": "fact", "text": "The neat columns of writing at the upper right are not by Guo Xi. They are a poem added in 1759, almost seven hundred years later, by the Qianlong emperor, who liked to write on the old paintings he owned. The red stamps are the seals of emperors and collectors."},
+    {"type": "explore", "spots": [
+      {"x": 0.045, "y": 0.43, "zoom": 4.5, "r": 0.04, "title": "Guo Xi's signature", "text": "A thin column of characters at the left edge gives the title, the year and the painter's name. It is modest and easy to miss."},
+      {"x": 0.73, "y": 0.09, "zoom": 2.8, "r": 0.11, "title": "The emperor's poem", "text": "Qianlong's verses, written in 1759 in confident black ink, sit in the sky beside the summit."},
+      {"x": 0.77, "y": 0.53, "zoom": 3.4, "r": 0.09, "title": "Roofs in the gorge", "text": "A cluster of halls with sweeping tiled roofs, probably a temple, is half hidden by pines high in the ravine."},
+      {"x": 0.82, "y": 0.72, "zoom": 3.2, "r": 0.07, "title": "Meltwater", "text": "The stream fans out over a ledge in white threads and foams among stones. Running water is the surest sign that winter is over."},
+      {"x": 0.93, "y": 0.85, "zoom": 4.2, "r": 0.05, "title": "A man with a pole", "text": "On the right bank a single tiny figure stands with a long pole. He is hardly taller than one of the red seals beside him."},
+      {"x": 0.27, "y": 0.03, "zoom": 3, "r": 0.07, "title": "Imperial seals", "text": "Large red seals at the top were pressed by later imperial owners. Each one says, in effect: this passed through my hands."}
+    ]},
+    {"type": "text", "text": "The scroll stayed in the imperial collection in Beijing for centuries. In the 1930s it was packed into a crate and moved across China ahead of war, then shipped to Taiwan in the late 1940s. It now lives in Taipei, where it is shown only rarely, to protect the silk from light."}
+  ],
+  "quiz": [
+    {"question": "What does the opening story say happened to some of Guo Xi's palace paintings?", "options": ["They were burned in a fire", "They were used as rags to wipe tables", "They were sold abroad"], "answer": 1, "explanation": "After Emperor Shenzong died, the paintings came down and some ended up as cleaning cloths."},
+    {"question": "What are Guo Xi's three distances?", "options": ["High, deep and level", "Near, middle and far", "Morning, noon and night"], "answer": 0, "explanation": "You look up at the peak, into the gorge and across the valley."},
+    {"question": "With no flowers or green leaves, how does the painting show spring?", "options": ["Through birds returning", "Through farmers sowing", "Through running water and rising mist"], "answer": 2, "explanation": "The thaw sets the streams flowing and lifts mist from the warming ground."},
+    {"question": "Who wrote the poem at the upper right?", "options": ["Guo Xi", "Guo Xi's son", "The Qianlong emperor, in 1759"], "answer": 2, "explanation": "It was added almost seven hundred years after the painting was made."},
+    {"question": "What are the hooked twigs on the bare trees called?", "options": ["Crab claws", "Dragon veins", "Rain dots"], "answer": 0, "explanation": "Later painters named the downward-hooking strokes crab claws."},
+    {"question": "Why are the human figures so small?", "options": ["They were added by a later hand", "To make the mountain feel immense", "Silk cannot hold fine detail"], "answer": 1, "explanation": "Once you find them, the boulders become cliffs and the pines giants."}
+  ],
+  "facts": [
+    {"text": "Early Spring is painted from a single fixed viewpoint.", "isTrue": false, "explanation": "It combines three different ways of looking: up, into and across."},
+    {"text": "The mist in the middle of the mountain is silk left almost bare.", "isTrue": true, "explanation": "Guo Xi suggests mist by leaving the silk nearly untouched."},
+    {"text": "The scroll is painted in oil on canvas.", "isTrue": false, "explanation": "It is ink with faint color on silk."}
+  ]
+}

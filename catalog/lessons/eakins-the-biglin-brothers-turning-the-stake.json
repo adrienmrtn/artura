@@ -1,0 +1,55 @@
+{
+  "teaser": "Two champions, one wooden post, and a painter hiding in a boat behind them.",
+  "focus": [0.45, 0.63],
+  "review_notes": "Race: May 20, 1872, Schuylkill River, Philadelphia; five miles with a turn at the halfway stake; Biglin brothers (New York) against Henry Coulter and Lewis Cavitt (Pittsburgh); reported as the first pair-oared race in the United States: check.\nIdentification of the rowers: John Biglin at stroke (left figure, nearer the stern) backing water, Barney at bow (right figure) pulling. This matches the oars as painted, but check against the Cleveland Museum's description.\nEakins is said to have painted himself in the single scull at left, arm raised; a raised arm is visible in the image. Check.\nThe purse of 2,000 dollars and the Biglins' winning margin (about a minute) are stated from memory: check.\nEakins was forced out of the Pennsylvania Academy in 1886 after removing a loincloth from a male model in a class that included women.\nSize 101.3 x 151.4 cm.",
+  "lesson": [
+    {"type": "text", "text": "How do you turn around a boat that is as long as a city bus and barely wider than your hips? You cannot steer it. It has no rudder to speak of, and you are sitting in it backward. And today, with thousands of people watching from the riverbank, the turn will decide who goes home with the money."},
+    {"type": "text", "text": "That is the problem facing John and Barney Biglin on May 20, 1872. The brothers, professional oarsmen from New York, are racing a pair from Pittsburgh on the Schuylkill River in Philadelphia. The course is five miles: two and a half upstream, around a stake planted in the water, and back."},
+    {"type": "text", "text": "Each crew has its own stake, marked with a flag in its color. The Biglins wear blue. Their rivals wear red. Thomas Eakins, who painted the scene the following year, picked the half-second when the brothers reach their flag."},
+    {"type": "tour", "title": "How to pivot a racing shell", "text": "The answer to the opening question is in their hands. Watch one brother, then the other.", "spots": [
+      {"x": 0.38, "y": 0.63, "zoom": 2.8, "r": 0.09, "shape": "rect", "title": "John holds", "text": "The brother on the left grips the oar on our side of the boat and jams it into the water as a brake. His forearms are locked and his jaw is set."},
+      {"x": 0.58, "y": 0.63, "zoom": 2.8, "r": 0.09, "shape": "rect", "title": "Barney pulls", "text": "The other keeps rowing on the far side. One oar stopped, one oar driving: the long hull has no choice but to swing around. He glances down to check the turn."},
+      {"x": 0.78, "y": 0.86, "zoom": 3, "r": 0.09, "title": "The braking blade", "text": "John's oar ends here, buried in the brown water beside the post, with a ripple of foam trailing from it. This is the hinge of the whole maneuver."},
+      {"x": 0.705, "y": 0.25, "zoom": 2.4, "r": 0.09, "shape": "rect", "title": "The blue flag", "text": "Their marker. It hangs heavy against the sky, the largest patch of pure color in the picture, and it matches the scarves tied around their heads."}
+    ]},
+    {"type": "text", "text": "Notice what Eakins leaves out: any sign of a struggle. No spray, no grimace, no blur. Rowing well looks calm from outside, and he knew it firsthand. He rowed on this river himself and counted oarsmen among his friends."},
+    {"type": "fact", "text": "Professional rowing was one of the most popular spectator sports in 1870s America. Crowds lined rivers by the tens of thousands, newspapers printed stroke-by-stroke accounts, and heavy bets rode on every race."},
+    {"type": "text", "text": "Eakins was twenty-eight and had been back from Paris for less than three years. There he had trained under a painter famous for polished scenes of ancient Rome. He came home with the same exacting technique and aimed it at something no academy would have suggested: working athletes on his hometown river."},
+    {"type": "key", "text": "Eakins treated a modern sports event with the seriousness older painters kept for battles and myths. For him, skill was the heroic subject."},
+    {"type": "text", "text": "So where is the other boat? A race needs a loser, and a painter that devoted to facts would not skip one. The rival crew is here, and so is the crowd, and so is a certain young man who wanted it known that he was present."},
+    {"type": "find", "text": "A lone rower in the distance raises one arm, as if cheering. Eakins is said to have painted himself there. Find him.", "spots": [
+      {"x": 0.205, "y": 0.525, "zoom": 4.5, "r": 0.05, "title": "The painter, waving", "text": "In a single scull on the left, a tiny figure lifts his arm. It is a signature in the form of a person: the artist as an eyewitness on the water."}
+    ]},
+    {"type": "text", "text": "Now the calm of the picture starts to feel different. The distance is full of noise. Around that small waving figure are flags, boats and a bank packed with people. Eakins keeps them tiny and hazy so the two brothers can stay sharp and silent in front."},
+    {"type": "explore", "spots": [
+      {"x": 0.63, "y": 0.535, "zoom": 4, "r": 0.06, "title": "The crew in red", "text": "The Pittsburgh pair, in red caps, are still on their way to the turn. The Biglins have reached their stake first."},
+      {"x": 0.095, "y": 0.47, "zoom": 4, "r": 0.04, "shape": "arrow", "title": "The red flag", "text": "Far to the left stands the rivals' stake with its red flag. Two posts, two colors, so the boats would not collide at the turn."},
+      {"x": 0.17, "y": 0.445, "zoom": 3.6, "r": 0.09, "title": "The crowd", "text": "Dots of paint on the far bank turn into hundreds of spectators, crammed along the shore and up the slope."},
+      {"x": 0.93, "y": 0.46, "zoom": 3.4, "r": 0.07, "title": "Paddle steamer", "text": "A steamboat with a big side wheel carries more onlookers. A puff of white steam rises against the trees."},
+      {"x": 0.45, "y": 0.73, "zoom": 3.4, "r": 0.07, "title": "The oarlock", "text": "The oar pivots in a metal bracket fixed outside the hull. Eakins paints the hardware like an engineer."},
+      {"x": 0.4, "y": 0.9, "zoom": 2.2, "r": 0.14, "title": "Reflections", "text": "The brothers' reflections break up in the ripples under the boat. He worked out where each one should fall."}
+    ]},
+    {"type": "text", "text": "That last point is literal. Before touching the canvas, Eakins drew the scene in perspective, the geometric method for making flat lines look like depth. He plotted the boat on a measured grid, as an architect would a building, and calculated the reflections. The painting itself was done indoors, in the studio."},
+    {"type": "lines", "text": "The geometry is still there under the paint.", "lines": [
+      {"points": [[0.0, 0.83], [0.5, 0.77], [0.99, 0.7]], "closed": false, "label": "The hull", "text": "The boat is a ruler laid across the canvas, tilting slightly upward to the right. It tells you the shell is angled away from you, already beginning to turn."},
+      {"points": [[0.705, 0.07], [0.72, 0.95]], "closed": false, "label": "The stake", "text": "One near-vertical post, from the flag to its reflection, pins the whole picture. Everything else is horizontal: water, bank, treeline."},
+      {"points": [[0.29, 0.68], [0.45, 0.73], [0.78, 0.86]], "closed": false, "label": "The near oar", "text": "The oar runs from John's fists through the oarlock to the blade at the post. It ties the man to the stake. You can read the physics of the turn along it."}
+    ]},
+    {"type": "text", "text": "A horizontal, a vertical, a diagonal. With three lines Eakins makes a moment of violent effort look as stable as a diagram. The low afternoon sun, coming from the left, does the rest. It models every muscle in the brothers' arms and leaves their faces in half shadow."},
+    {"type": "fact", "text": "The Biglins won. They crossed the line about a minute ahead and took a purse reported at 2,000 dollars, several years' wages for a laborer at the time."},
+    {"type": "text", "text": "Eakins painted rowers for only a few years, then moved on to surgeons, boxers and portraits, always with the same refusal to flatter. It cost him. In 1886 he lost his teaching post in Philadelphia after removing the cloth from a nude male model in a class that included women. He sold very few pictures in his lifetime."},
+    {"type": "text", "text": "Go back to the blade in the water. Nothing in the painting is more ordinary than that brown ripple, and everything depends on it. Eakins asks you to admire a thing done correctly. He spent his career making that same request, mostly to a public that was not ready to hear it."}
+  ],
+  "quiz": [
+    {"question": "How do the brothers turn the boat around the stake?", "options": ["They both stop rowing and drift", "One brakes with his oar while the other keeps pulling", "They jump out and swing it by hand"], "answer": 1, "explanation": "One oar held in the water and one driving makes the hull pivot."},
+    {"question": "What tells you which stake belongs to the Biglins?", "options": ["The blue flag, matching their head scarves", "Their name painted on the post", "It is the taller one"], "answer": 0, "explanation": "Each crew had a stake with a flag in its own color."},
+    {"question": "Where is Eakins said to have painted himself?", "options": ["On the steamboat", "In the crowd on the bank", "In a single scull in the distance, arm raised"], "answer": 2, "explanation": "The tiny waving rower on the left is taken to be the artist."},
+    {"question": "How did Eakins prepare the picture?", "options": ["He painted it on the riverbank during the race", "He copied a newspaper photograph", "He made measured perspective drawings and painted in the studio"], "answer": 2, "explanation": "He plotted the boat and its reflections on a grid before painting."},
+    {"question": "Why did Eakins lose his teaching post in 1886?", "options": ["He removed the cloth from a nude male model in a mixed class", "He refused to teach perspective", "He spent too much time rowing"], "answer": 0, "explanation": "The incident scandalized Philadelphia and he was forced out."}
+  ],
+  "facts": [
+    {"text": "The rival crew in red is already ahead of the Biglins.", "isTrue": false, "explanation": "The Biglins reach their stake first and the red crew is still approaching."},
+    {"text": "The race course included a turn around a post in the river.", "isTrue": true, "explanation": "Crews rowed two and a half miles, turned at a stake and rowed back."},
+    {"text": "Eakins had never rowed and relied on what others told him.", "isTrue": false, "explanation": "He rowed on the Schuylkill himself and knew oarsmen personally."}
+  ]
+}
