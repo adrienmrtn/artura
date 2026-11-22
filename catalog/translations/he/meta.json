@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "פסל החזה של נפרטיטי",
+   "artist": "תחותמס",
+   "year_label": "1345 לפנה\"ס",
+   "museum": "המוזיאון החדש, ברלין"
+  },
+  "mask-of-tutankhamun": {
+   "title": "מסכת תות ענח'אמון",
+   "artist": "אלמוני (מצרים)",
+   "year_label": "1323 לפנה\"ס",
+   "museum": "המוזיאון המצרי הגדול, גיזה"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "ניקי מסמותרקי (הניצחון המכונף)",
+   "artist": "אלמוני (יוון)",
+   "year_label": "190 לפנה\"ס",
+   "museum": "הלובר, פריז"
+  },
+  "antioch-venus-de-milo": {
+   "title": "ונוס ממילוס",
+   "artist": "אלכסנדרוס מאנטיוכיה",
+   "year_label": "120 לפנה\"ס",
+   "museum": "הלובר, פריז"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "קינה על ישו (האבל על ישו)",
+   "artist": "ג'וטו",
+   "year_label": "1305",
+   "museum": "קפלת סקרוביני, פדובה"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Très Riches Heures du Duc de Berry: ינואר",
+   "artist": "האחים לימבורג",
+   "year_label": "1416",
+   "museum": "מוזיאון קונדה, שנטיי"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "דיוקן ארנולפיני",
+   "artist": "יאן ואן אייק",
+   "year_label": "1434",
+   "museum": "הגלריה הלאומית, לונדון"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "הורדה מן הצלב",
+   "artist": "רוחייר ואן דר וויידן",
+   "year_label": "1435",
+   "museum": "הפראדו, מדריד"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "גן התענוגות",
+   "artist": "הירונימוס בוש",
+   "year_label": "1500",
+   "museum": "הפראדו, מדריד"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "הולדת ונוס",
+   "artist": "סנדרו בוטיצ'לי",
+   "year_label": "1485",
+   "museum": "גלריית אופיצי, פירנצה"
+  },
+  "vinci-mona-lisa": {
+   "title": "מונה ליזה",
+   "artist": "לאונרדו דה וינצ'י",
+   "year_label": "1503",
+   "museum": "הלובר, פריז"
+  },
+  "vinci-the-last-supper": {
+   "title": "הסעודה האחרונה",
+   "artist": "לאונרדו דה וינצ'י",
+   "year_label": "1498",
+   "museum": "סנטה מריה דלה גרצ'ה, מילאנו"
+  },
+  "vinci-vitruvian-man": {
+   "title": "האדם הוויטרובי",
+   "artist": "לאונרדו דה וינצ'י",
+   "year_label": "1490",
+   "museum": "גלריות האקדמיה, ונציה"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "בריאת האדם",
+   "artist": "מיכלאנג'לו",
+   "year_label": "1512",
+   "museum": "הקפלה הסיסטינית, קריית הוותיקן"
+  },
+  "michelangelo-david": {
+   "title": "דוד",
+   "artist": "מיכלאנג'לו",
+   "year_label": "1504",
+   "museum": "גלריית האקדמיה, פירנצה"
+  },
+  "michelangelo-pieta": {
+   "title": "הפייטה",
+   "artist": "מיכלאנג'לו",
+   "year_label": "1499",
+   "museum": "בזיליקת פטרוס הקדוש, קריית הוותיקן"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "בית הספר של אתונה",
+   "artist": "רפאל",
+   "year_label": "1511",
+   "museum": "מוזיאוני הוותיקן, קריית הוותיקן"
+  },
+  "titian-venus-of-urbino": {
+   "title": "ונוס מאורבינו",
+   "artist": "טיציאן",
+   "year_label": "1538",
+   "museum": "גלריית אופיצי, פירנצה"
+  },
+  "durer-young-hare": {
+   "title": "ארנבון צעיר",
+   "artist": "אלברכט דירר",
+   "year_label": "1502",
+   "museum": "אלברטינה, וינה"
+  },
+  "younger-the-ambassadors": {
+   "title": "השגרירים",
+   "artist": "הנס הולביין הצעיר",
+   "year_label": "1533",
+   "museum": "הגלריה הלאומית, לונדון"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "הציידים בשלג",
+   "artist": "פיטר ברויגל האב",
+   "year_label": "1565",
+   "museum": "מוזיאון ההיסטוריה של האמנות, וינה"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "מגדל בבל",
+   "artist": "פיטר ברויגל האב",
+   "year_label": "1563",
+   "museum": "מוזיאון ההיסטוריה של האמנות, וינה"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "המדונה בעלת הצוואר הארוך",
+   "artist": "פרמיג'אנינו",
+   "year_label": "1540",
+   "museum": "גלריית אופיצי, פירנצה"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "קבורת הרוזן מאורגאס",
+   "artist": "אל גרקו",
+   "year_label": "1586",
+   "museum": "סנטו תומה, טולדו"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "ורטומנוס",
+   "artist": "ג'וזפה ארצ'ימבולדו",
+   "year_label": "1591",
+   "museum": "טירת סקוקלוסטר, שוודיה"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "קריאתו של מתי הקדוש",
+   "artist": "קרווג'ו",
+   "year_label": "1600",
+   "museum": "סן לואיג'י דיי פרנצ'זי, רומא"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "יהודית כורתת את ראשו של הולופרנס",
+   "artist": "ארטמיסיה ג'נטילסקי",
+   "year_label": "1620",
+   "museum": "גלריית אופיצי, פירנצה"
+  },
+  "velazquez-las-meninas": {
+   "title": "לאס מנינאס",
+   "artist": "דייגו ולסקס",
+   "year_label": "1656",
+   "museum": "הפראדו, מדריד"
+  },
+  "rubens-the-three-graces": {
+   "title": "שלוש החסדים",
+   "artist": "פטר פאול רובנס",
+   "year_label": "1635",
+   "museum": "הפראדו, מדריד"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "אפולו ודפנה",
+   "artist": "ג'אן לורנצו ברניני",
+   "year_label": "1625",
+   "museum": "גלריה בורגזה, רומא"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "אקסטזת תרזה הקדושה",
+   "artist": "ג'אן לורנצו ברניני",
+   "year_label": "1652",
+   "museum": "סנטה מריה דלה ויטוריה, רומא"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "משמר הלילה",
+   "artist": "רמברנדט",
+   "year_label": "1642",
+   "museum": "הרייקסמוזיאום, אמסטרדם"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "שיעור האנטומיה של ד\"ר ניקולאס טולפ",
+   "artist": "רמברנדט",
+   "year_label": "1632",
+   "museum": "מאוריצהאוס, האג"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "נערה עם עגיל פנינה",
+   "artist": "יוהנס ורמיר",
+   "year_label": "1665",
+   "museum": "מאוריצהאוס, האג"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "מוזגת החלב",
+   "artist": "יוהנס ורמיר",
+   "year_label": "1660",
+   "museum": "הרייקסמוזיאום, אמסטרדם"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "החוחית",
+   "artist": "קארל פבריציוס",
+   "year_label": "1654",
+   "museum": "מאוריצהאוס, האג"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "העלייה לרגל לקיתרה",
+   "artist": "אנטואן ואטו",
+   "year_label": "1717",
+   "museum": "הלובר, פריז"
+  },
+  "fragonard-the-swing": {
+   "title": "הנדנדה",
+   "artist": "ז'אן-אונורה פראגונאר",
+   "year_label": "1767",
+   "museum": "אוסף וולאס, לונדון"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "דיוקן עצמי בכובע קש",
+   "artist": "אליזבת ויז'ה לברן",
+   "year_label": "1782",
+   "museum": "הגלריה הלאומית, לונדון"
+  },
+  "david-the-death-of-marat": {
+   "title": "מותו של מארה",
+   "artist": "ז'אק-לואי דויד",
+   "year_label": "1793",
+   "museum": "המוזיאונים המלכותיים לאמנויות יפות של בלגיה, בריסל"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "נפוליאון חוצה את האלפים",
+   "artist": "ז'אק-לואי דויד",
+   "year_label": "1801",
+   "museum": "טירת מלמזון"
+  },
+  "ingres-grande-odalisque": {
+   "title": "האודליסקה הגדולה",
+   "artist": "ז'אן-אוגוסט-דומיניק אנגר",
+   "year_label": "1814",
+   "museum": "הלובר, פריז"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "פסיכה מוחזרת לחיים בנשיקת קופידון",
+   "artist": "אנטוניו קנובה",
+   "year_label": "1793",
+   "museum": "הלובר, פריז"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "השלישי במאי 1808",
+   "artist": "פרנסיסקו גויה",
+   "year_label": "1814",
+   "museum": "הפראדו, מדריד"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "החירות מובילה את העם",
+   "artist": "אז'ן דלקרואה",
+   "year_label": "1830",
+   "museum": "הלובר, פריז"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "רפסודת המדוזה",
+   "artist": "תאודור ז'ריקו",
+   "year_label": "1819",
+   "museum": "הלובר, פריז"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "הנודד מעל ים הערפל",
+   "artist": "קספר דויד פרידריך",
+   "year_label": "1818",
+   "museum": "קונסטהאלה המבורג"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "הטמרר הלוחם",
+   "artist": "ג'וזף מאלורד וויליאם טרנר",
+   "year_label": "1839",
+   "museum": "הגלריה הלאומית, לונדון"
+  },
+  "hayez-the-kiss": {
+   "title": "הנשיקה",
+   "artist": "פרנצ'סקו האייץ",
+   "year_label": "1859",
+   "museum": "פינקוטקת ברה, מילאנו"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "הגל הגדול מחוף קנגאווה",
+   "artist": "קטסושיקה הוקוסאי",
+   "year_label": "1831",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "רוח נעימה, בוקר בהיר (פוג'י האדום)",
+   "artist": "קטסושיקה הוקוסאי",
+   "year_label": "1831",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "גשם פתאומי מעל גשר שין-אוהאשי ואטקה",
+   "artist": "אוטגאווה הירושיגה",
+   "year_label": "1857",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "לאורך הנהר בפסטיבל צ'ינגמינג",
+   "artist": "ז'אנג ז'ידואן",
+   "year_label": "1100",
+   "museum": "מוזיאון הארמון, בייג'ינג"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "אל הרוח ואל הרעם",
+   "artist": "טווארייה סוטצו",
+   "year_label": "1630",
+   "museum": "מקדש קנין-ג'י, קיוטו"
+  },
+  "courbet-the-desperate-man": {
+   "title": "האיש הנואש",
+   "artist": "גוסטב קורבה",
+   "year_label": "1845",
+   "museum": "אוסף פרטי"
+  },
+  "millet-the-gleaners": {
+   "title": "המלקטות",
+   "artist": "ז'אן-פרנסואה מילה",
+   "year_label": "1857",
+   "museum": "מוזיאון ד'אורסיי, פריז"
+  },
+  "manet-olympia": {
+   "title": "אולימפיה",
+   "artist": "אדואר מאנה",
+   "year_label": "1863",
+   "museum": "מוזיאון ד'אורסיי, פריז"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "ארוחת צהריים על הדשא",
+   "artist": "אדואר מאנה",
+   "year_label": "1863",
+   "museum": "מוזיאון ד'אורסיי, פריז"
+  },
+  "wood-american-gothic": {
+   "title": "גותיקה אמריקאית",
+   "artist": "גראנט ווד",
+   "year_label": "1930",
+   "museum": "המכון לאמנות של שיקגו"
+  },
+  "sargent-madame-x": {
+   "title": "מאדאם X",
+   "artist": "ג'ון סינגר סרג'נט",
+   "year_label": "1884",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "קומפוזיציה באפור ושחור מס' 1 (אמו של ויסלר)",
+   "artist": "ג'יימס מקניל ויסלר",
+   "year_label": "1871",
+   "museum": "מוזיאון ד'אורסיי, פריז"
+  },
+  "millais-ophelia": {
+   "title": "אופליה",
+   "artist": "ג'ון אוורט מילאיס",
+   "year_label": "1852",
+   "museum": "טייט בריטן, לונדון"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "הגברת משאלוט",
+   "artist": "ג'ון וויליאם ווטרהאוס",
+   "year_label": "1888",
+   "museum": "טייט בריטן, לונדון"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "הולדת ונוס",
+   "artist": "אלכסנדר קבנל",
+   "year_label": "1863",
+   "museum": "מוזיאון ד'אורסיי, פריז"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "ז'אן-לאון ז'רום",
+   "year_label": "1872",
+   "museum": "מוזיאון פיניקס לאמנות"
+  },
+  "monet-impression-sunrise": {
+   "title": "רושם, זריחה",
+   "artist": "קלוד מונה",
+   "year_label": "1872",
+   "museum": "מוזיאון מרמוטן מונה, פריז"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "אישה עם שמשייה: מאדאם מונה ובנה",
+   "artist": "קלוד מונה",
+   "year_label": "1875",
+   "museum": "הגלריה הלאומית לאמנות, וושינגטון"
+  },
+  "monet-water-lilies": {
+   "title": "חבצלות מים",
+   "artist": "קלוד מונה",
+   "year_label": "1906",
+   "museum": "המכון לאמנות של שיקגו"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "נשף בטחנת לה גאלט",
+   "artist": "פייר-אוגוסט רנואר",
+   "year_label": "1876",
+   "museum": "מוזיאון ד'אורסיי, פריז"
+  },
+  "degas-the-dance-class": {
+   "title": "שיעור הריקוד",
+   "artist": "אדגר דגה",
+   "year_label": "1874",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "morisot-the-cradle": {
+   "title": "העריסה",
+   "artist": "ברת מוריזו",
+   "year_label": "1872",
+   "museum": "מוזיאון ד'אורסיי, פריז"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "טיול על החוף",
+   "artist": "חואקין סורוליה",
+   "year_label": "1909",
+   "museum": "מוזיאון סורוליה, מדריד"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "יום ראשון בלה גראנד ז'אט",
+   "artist": "ז'ורז' סרה",
+   "year_label": "1886",
+   "museum": "המכון לאמנות של שיקגו"
+  },
+  "gogh-the-starry-night": {
+   "title": "הלילה זרוע הכוכבים",
+   "artist": "וינסנט ואן גוך",
+   "year_label": "1889",
+   "museum": "המוזיאון לאמנות מודרנית, ניו יורק"
+  },
+  "gogh-sunflowers": {
+   "title": "החמניות",
+   "artist": "וינסנט ואן גוך",
+   "year_label": "1888",
+   "museum": "הגלריה הלאומית, לונדון"
+  },
+  "cezanne-the-card-players": {
+   "title": "שחקני הקלפים",
+   "artist": "פול סזאן",
+   "year_label": "1892",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "מאין באנו? מה אנחנו? לאן אנו הולכים?",
+   "artist": "פול גוגן",
+   "year_label": "1897",
+   "museum": "מוזיאון לאמנויות יפות, בוסטון"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "מולן רוז': לה גולו",
+   "artist": "אנרי דה טולוז-לוטרק",
+   "year_label": "1891",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "הצוענייה הישנה",
+   "artist": "אנרי רוסו",
+   "year_label": "1897",
+   "museum": "המוזיאון לאמנות מודרנית, ניו יורק"
+  },
+  "munch-the-scream": {
+   "title": "הצעקה",
+   "artist": "אדוורד מונק",
+   "year_label": "1893",
+   "museum": "המוזיאון הלאומי, אוסלו"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "אי המתים",
+   "artist": "ארנולד בקלין",
+   "year_label": "1880",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "rodin-the-thinker": {
+   "title": "החושב",
+   "artist": "אוגוסט רודן",
+   "year_label": "1904",
+   "museum": "מוזיאון רודן, פריז"
+  },
+  "klimt-the-kiss": {
+   "title": "הנשיקה",
+   "artist": "גוסטב קלימט",
+   "year_label": "1908",
+   "museum": "בלוודרה, וינה"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "דיוקן אדלה בלוך-באואר הראשונה",
+   "artist": "גוסטב קלימט",
+   "year_label": "1907",
+   "museum": "הנוי גלרי, ניו יורק"
+  },
+  "matisse-dance": {
+   "title": "ריקוד",
+   "artist": "אנרי מאטיס",
+   "year_label": "1910",
+   "museum": "ההרמיטאז', סנקט פטרבורג"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "אישה עם כובע",
+   "artist": "אנרי מאטיס",
+   "year_label": "1905",
+   "museum": "מוזיאון סן פרנסיסקו לאמנות מודרנית"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "הסוסים הכחולים הגדולים",
+   "artist": "פרנץ מארק",
+   "year_label": "1911",
+   "museum": "מרכז האמנות ווקר, מיניאפוליס"
+  },
+  "modigliani-reclining-nude": {
+   "title": "עירום שוכב",
+   "artist": "אמדאו מודיליאני",
+   "year_label": "1917",
+   "museum": "המוזיאון המטרופוליטן לאמנות, ניו יורק"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "דיוקן פבלו פיקאסו",
+   "artist": "חואן גריס",
+   "year_label": "1912",
+   "museum": "המכון לאמנות של שיקגו"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "מגדל אייפל עם עצים",
+   "artist": "רוברט דלונה",
+   "year_label": "1910",
+   "museum": "מוזיאון סולומון ר. גוגנהיים, ניו יורק"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "צורות ייחודיות של רציפות בחלל",
+   "artist": "אומברטו בוצ'וני",
+   "year_label": "1913",
+   "museum": "המוזיאון לאמנות מודרנית, ניו יורק"
+  },
+  "boccioni-the-city-rises": {
+   "title": "העיר עולה",
+   "artist": "אומברטו בוצ'וני",
+   "year_label": "1910",
+   "museum": "המוזיאון לאמנות מודרנית, ניו יורק"
+  },
+  "kandinsky-composition-viii": {
+   "title": "קומפוזיציה VIII",
+   "artist": "וסילי קנדינסקי",
+   "year_label": "1923",
+   "museum": "מוזיאון סולומון ר. גוגנהיים, ניו יורק"
+  },
+  "malevich-black-square": {
+   "title": "הריבוע השחור",
+   "artist": "קזימיר מלביץ'",
+   "year_label": "1915",
+   "museum": "גלריית טרטיאקוב, מוסקבה"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "קומפוזיציה II באדום, כחול וצהוב",
+   "artist": "פיט מונדריאן",
+   "year_label": "1930",
+   "museum": "קונסטהאוס ציריך"
+  },
+  "klee-senecio": {
+   "title": "סנסיו",
+   "artist": "פאול קלה",
+   "year_label": "1922",
+   "museum": "קונסטמוזאום באזל"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "קורט שוויטרס",
+   "year_label": "1919",
+   "museum": "הגלריה הממלכתית של שטוטגרט"
+  },
+  "terracotta-army": {
+   "title": "צבא הטרקוטה",
+   "artist": "אלמוני (סין)",
+   "year_label": "210 לפנה\"ס",
+   "museum": "המאוזוליאום של הקיסר הראשון של שושלת צ'ין, שיאן"
+  },
+  "aztec-sun-stone": {
+   "title": "אבן השמש האצטקית",
+   "artist": "אלמוני (אצטקים)",
+   "year_label": "1510",
+   "museum": "המוזיאון הלאומי לאנתרופולוגיה, מקסיקו סיטי"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "הואה האקאנאנאיה (מואי)",
+   "artist": "אלמוני (רפה נוי)",
+   "year_label": "1200",
+   "museum": "המוזיאון הבריטי, לונדון"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "העולם העתיק",
+   "period": "2600 לפנה\"ס-300 לספירה",
+   "summary": "אלים, שליטים והגוף האידיאלי",
+   "description": "ממצרים ועד יוון ורומא, אמנים מפסלים שליטים, אלים וספורטאים שנועדו להישאר לנצח. החיפוש אחר הגוף המושלם הפך לדגם לאמנות המערב במשך מאות שנים."
+  },
+  "gothic": {
+   "name": "גותי ופרוטו-רנסנס",
+   "period": "1280-1430",
+   "summary": "רקע זהב והרגשות האמיתיים הראשונים",
+   "description": "בכנסיות ובקפלות הציירים עוד עובדים על רקע זהב, אבל הדמויות שלהם מתחילות לבכות, להסתובב ולהיות כבדות. אמנות הסיפור בציור נולדת מחדש."
+  },
+  "early_netherlandish": {
+   "name": "ציור נידרלנדי קדום",
+   "period": "1420-1500",
+   "summary": "צבעי שמן ופרטים מסנוורים",
+   "description": "בפלנדריה הציירים משכללים את צבעי השמן ומשתמשים בהם כדי לתאר הכול: פרווה, זכוכית, דמעה, השתקפות. סצנות קדושות עוברות אל חדרים שנראים כמו בתים אמיתיים."
+  },
+  "renaissance": {
+   "name": "הרנסנס האיטלקי",
+   "period": "1420-1570",
+   "summary": "פרספקטיבה וחזרה אל העת העתיקה",
+   "description": "באיטליה, ואחר כך בכל אירופה, אמנים מגלים מחדש את העת העתיקה, חוקרים את גוף האדם וממציאים את הפרספקטיבה. הציור הופך לחלון אל העולם."
+  },
+  "northern_renaissance": {
+   "name": "הרנסנס הצפוני",
+   "period": "1490-1570",
+   "summary": "קווים חדים, הדפסים וחזיונות מוזרים",
+   "description": "מצפון להרי האלפים אמנים מערבבים רעיונות איטלקיים עם אהבה לפרטים ולחיי היומיום. ההדפס מפיץ את התמונות שלהם בכל אירופה."
+  },
+  "mannerism": {
+   "name": "מנייריזם",
+   "period": "1520-1610",
+   "summary": "אלגנטיות עד קצה הגבול",
+   "description": "אחרי גדולי המאסטרים הציירים מעקמים את הכללים בכוונה: גופים ארוכים, תנוחות מפותלות, צבעים חומציים. הסגנון עצמו הופך לנושא."
+  },
+  "baroque": {
+   "name": "בארוק",
+   "period": "1600-1700",
+   "summary": "דרמה, תנועה וצל עמוק",
+   "description": "האמנות יוצאת לרגש את הצופה. ניגודים חזקים של אור וצל, גופים בתנועה והעמדה תיאטרלית מושכים אותך אל תוך הסצנה."
+  },
+  "siecledor": {
+   "name": "תור הזהב ההולנדי",
+   "period": "1600-1700",
+   "summary": "חיי היומיום והאור",
+   "description": "ברפובליקה ההולנדית המשגשגת אמנים מציירים לבתי המעמד הבינוני: חדרים שקטים, דיוקנאות, טבע דומם. האור הופך לנושא האמיתי."
+  },
+  "rococo": {
+   "name": "רוקוקו והמאה ה-18",
+   "period": "1715-1790",
+   "summary": "קלילות, הנאה וצבעי פסטל",
+   "description": "בסלונים של המאה ה-18 הציור נעשה שובב ואינטימי: מסיבות בגן, דיוקנאות, צבעים רכים. במקביל, כמה אמנים מביטים בשקט בחיים הרגילים."
+  },
+  "neoclassicism": {
+   "name": "ניאו-קלאסיציזם",
+   "period": "1760-1860",
+   "summary": "קווים ברורים ואצילות עתיקה",
+   "description": "בהשראת חורבות רומא ופומפיי חוזרים האמנים לרישום מאופק ולנושאים הרואיים. הציור אמור ללמד לא פחות משהוא אמור ליהנות."
+  },
+  "romanticism": {
+   "name": "רומנטיקה",
+   "period": "1780-1860",
+   "summary": "רגש, טבע והנשגב",
+   "description": "הרגש תופס את מקומו של ההיגיון. סערות, חורבות, מרידות ודמויות בודדות מבטאים את מה שהאמן מרגיש מול עולם גדול מכדי לשלוט בו."
+  },
+  "ukiyoe": {
+   "name": "אוקיו-אה",
+   "period": "1680-1860",
+   "summary": "הדפסים של \"העולם הצף\"",
+   "description": "ביפן הדפסי עץ בסדרות מציגים שחקנים, נופים וסצנות מחיי היומיום. הצבעים השטוחים והחיתוכים הנועזים שלהם יטלטלו את הציירים באירופה."
+  },
+  "east_asian": {
+   "name": "ציור סיני ויפני",
+   "period": "750-1720",
+   "summary": "דיו, משי ומרחב ריק",
+   "description": "בסין וביפן ציירים עובדים במכחול ובדיו על משי, על נייר ועל פרגודים מתקפלים. כמה משיכות מכחול והרבה מרחב ריק מספיקים כדי לרמוז על הר או על עונה."
+  },
+  "realism": {
+   "name": "ריאליזם",
+   "period": "1845-1890",
+   "summary": "אנשים רגילים, כפי שהם",
+   "description": "הציירים מפנים עורף לגיבורים ולמיתוסים ומציגים איכרים, פועלים וחיים מודרניים, בלי להחניף להם. להראות את האמת הופך להצהרה בפני עצמה."
+  },
+  "american": {
+   "name": "הציור האמריקאי",
+   "period": "1780-1930",
+   "summary": "מדינה חדשה מביטה בעצמה",
+   "description": "מדיוקנאות הרפובליקה הצעירה ועד נופים עצומים וסצנות מחיי העיר, הציירים האמריקאים מחפשים נושאים משלהם, ואור משלהם."
+  },
+  "preraphaelite": {
+   "name": "הפרה-רפאליטים והתקופה הוויקטוריאנית",
+   "period": "1848-1900",
+   "summary": "צבע עז, אגדה ופרטים",
+   "description": "בבריטניה הוויקטוריאנית קבוצת ציירים צעירים דוחה את המתכונים האקדמיים. הם מציירים אגדות ושירים בצבעים עזים ובדיוק כמעט אובססיבי."
+  },
+  "academic": {
+   "name": "אמנות אקדמית",
+   "period": "1830-1900",
+   "summary": "האמנות המלוטשת של הסלון הרשמי",
+   "description": "הציירים האלה התאמנו בבתי הספר הגדולים לאמנות ושלטו באנטומיה, בהיסטוריה ובגימור חלק לגמרי. הם היו כוכבי תקופתם, עד שהאוונגרד האפיל עליהם."
+  },
+  "impressionnisme": {
+   "name": "אימפרסיוניזם",
+   "period": "1867-1910",
+   "summary": "לצייר את אור הרגע",
+   "description": "קבוצת ציירים יוצאת מהסטודיו לעבוד בחוץ, במשיכות קטנות ומהירות. הם כבר לא רודפים אחרי הפרטים, אלא אחרי השפעת האור ברגע מסוים."
+  },
+  "neo_impressionism": {
+   "name": "ניאו-אימפרסיוניזם",
+   "period": "1884-1910",
+   "summary": "צבע, נקודה אחר נקודה",
+   "description": "הציירים מחילים מדע על הצבע: נקודות קטנות של צבע טהור, זו לצד זו, מתמזגות בעיני הצופה. התמונה נבנית לאט, כמו פסיפס."
+  },
+  "postimp": {
+   "name": "פוסט-אימפרסיוניזם",
+   "period": "1885-1910",
+   "summary": "קודם כול צבע ורגש",
+   "description": "אחרי האימפרסיוניזם כל אחד מחפש את דרכו. הצבע כבר לא מחקה את המציאות: הוא מבטא את מה שהצייר מרגיש."
+  },
+  "symbolism": {
+   "name": "סימבוליזם",
+   "period": "1860-1915",
+   "summary": "חלומות, מיתוסים ועולמות פנימיים",
+   "description": "במקום לתאר את העולם הנראה, האמנים האלה רומזים על רעיונות, חלומות ופחדים. את התמונות שלהם צריך להרגיש לפני שמבינים אותן."
+  },
+  "secession": {
+   "name": "ארט נובו והסצסיון הווינאי",
+   "period": "1890-1918",
+   "summary": "זהב, קישוט וקווים מעוקלים",
+   "description": "בווינה אמנים צעירים נפרדים מהאקדמיה. הם מערבבים ציור, עיצוב ואומנות והופכים את הקישוט לשפה בפני עצמה."
+  },
+  "fauvism": {
+   "name": "פוביזם",
+   "period": "1904-1917",
+   "summary": "צבע טהור, ישר מהשפופרת",
+   "description": "במשך כמה שנים סוערות הציירים משתמשים בצבעים עזים ובלתי טבעיים ובמכחול חופשי. המבקרים קראו להם חיות פרא, והשם נשאר."
+  },
+  "expressionism": {
+   "name": "אקספרסיוניזם",
+   "period": "1903-1925",
+   "summary": "צורות מעוותות, רגש גולמי",
+   "description": "אמנים מעוותים צורות ומעצימים צבעים כדי לבטא חרדה, תשוקה או מרד. מה שחשוב הוא לא איך העולם נראה, אלא איך הוא מרגיש."
+  },
+  "cubism": {
+   "name": "קוביזם",
+   "period": "1909-1925",
+   "summary": "חפצים שנראים מכמה צדדים בבת אחת",
+   "description": "הציירים מפרקים חפצים לפאות ומציגים אותם מכמה זוויות באותה תמונה. חמש מאות שנות פרספקטיבה מוטלות פתאום בספק."
+  },
+  "futurism": {
+   "name": "פוטוריזם",
+   "period": "1909-1920",
+   "summary": "מהירות, מכונות והעיר המודרנית",
+   "description": "אמנים איטלקים חוגגים מכוניות, המונים וחשמל. הם מנסים לצייר את התנועה עצמה, על ידי חזרה על הצורות ופירוקן."
+  },
+  "abstraction": {
+   "name": "אבסטרקציה ואוונגרד",
+   "period": "1907-1930",
+   "summary": "ציור בלי נושא",
+   "description": "קווים, צורות וצבעים כבר לא מייצגים דבר: הם התמונה עצמה. האמנים מחפשים שפה חזותית ישירה כמו מוזיקה."
+  },
+  "dada_surrealism": {
+   "name": "דאדא וסוריאליזם מוקדם",
+   "period": "1912-1930",
+   "summary": "מקרה, שטויות וחלומות",
+   "description": "דאדא נולדה מהגועל ממלחמת העולם הראשונה ולועגת לאמנות עצמה. הסוריאליזם בא אחריה וחוקר חלומות, מקרה ואת הלא מודע."
+  },
+  "world": {
+   "name": "אפריקה, אסיה ואמריקה",
+   "period": "1200 לפנה\"ס-1600",
+   "summary": "חפצים קדושים ואמנות החצר",
+   "description": "ברונזות, מסכות, ענקי אבן וחפצי פולחן מאפריקה, מאסיה ומאמריקה. הם נוצרו לטקסים, למקדשים ולמלכים, הרבה לפני שהיו מוזיאונים."
+  }
+ }
+}

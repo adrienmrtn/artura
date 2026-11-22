@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Nefertiti büst",
+   "artist": "Thutmose",
+   "year_label": "1345 eKr",
+   "museum": "Neues Museum, Berlin"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Tutanhamoni mask",
+   "artist": "Tundmatu (Egiptus)",
+   "year_label": "1323 eKr",
+   "museum": "Suur Egiptuse muuseum, Giza"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Samothrake Nike",
+   "artist": "Tundmatu (Kreeka)",
+   "year_label": "190 eKr",
+   "museum": "Louvre, Pariis"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Milose Aphrodite (Venus de Milo)",
+   "artist": "Antiookia Aleksandros",
+   "year_label": "120 eKr",
+   "museum": "Louvre, Pariis"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Kristuse leinamine",
+   "artist": "Giotto",
+   "year_label": "1305",
+   "museum": "Scrovegni kabel, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Berry hertsogi rikkalik tundideraamat: jaanuar",
+   "artist": "Limbourgi vennad",
+   "year_label": "1416",
+   "museum": "Condé muuseum, Chantilly"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Arnolfini portree",
+   "artist": "Jan van Eyck",
+   "year_label": "1434",
+   "museum": "Rahvusgalerii, London"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Ristilt mahavõtmine",
+   "artist": "Rogier van der Weyden",
+   "year_label": "1435",
+   "museum": "Prado muuseum, Madrid"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "Maiste naudingute aed",
+   "artist": "Hieronymus Bosch",
+   "year_label": "1500",
+   "museum": "Prado muuseum, Madrid"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Veenuse sünd",
+   "artist": "Sandro Botticelli",
+   "year_label": "1485",
+   "museum": "Uffizi galerii, Firenze"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1503",
+   "museum": "Louvre, Pariis"
+  },
+  "vinci-the-last-supper": {
+   "title": "Püha õhtusöömaaeg",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Milano"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Vitruviuse mees",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1490",
+   "museum": "Gallerie dell'Accademia, Veneetsia"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Aadama loomine",
+   "artist": "Michelangelo",
+   "year_label": "1512",
+   "museum": "Sixtuse kabel, Vatikan"
+  },
+  "michelangelo-david": {
+   "title": "Taavet",
+   "artist": "Michelangelo",
+   "year_label": "1504",
+   "museum": "Galleria dell'Accademia, Firenze"
+  },
+  "michelangelo-pieta": {
+   "title": "Pietà",
+   "artist": "Michelangelo",
+   "year_label": "1499",
+   "museum": "Püha Peetruse basiilika, Vatikan"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Ateena kool",
+   "artist": "Raffael",
+   "year_label": "1511",
+   "museum": "Vatikani muuseumid, Vatikan"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Urbino Veenus",
+   "artist": "Tizian",
+   "year_label": "1538",
+   "museum": "Uffizi galerii, Firenze"
+  },
+  "durer-young-hare": {
+   "title": "Noor jänes",
+   "artist": "Albrecht Dürer",
+   "year_label": "1502",
+   "museum": "Albertina, Viin"
+  },
+  "younger-the-ambassadors": {
+   "title": "Saadikud",
+   "artist": "Hans Holbein noorem",
+   "year_label": "1533",
+   "museum": "Rahvusgalerii, London"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Jahimehed lumes",
+   "artist": "Pieter Bruegel vanem",
+   "year_label": "1565",
+   "museum": "Kunsthistorisches Museum, Viin"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "Babeli torn",
+   "artist": "Pieter Bruegel vanem",
+   "year_label": "1563",
+   "museum": "Kunsthistorisches Museum, Viin"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Pikakaelaga Madonna",
+   "artist": "Parmigianino",
+   "year_label": "1540",
+   "museum": "Uffizi galerii, Firenze"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Orgazi krahvi matus",
+   "artist": "El Greco",
+   "year_label": "1586",
+   "museum": "Santo Tomé kirik, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumnus",
+   "artist": "Giuseppe Arcimboldo",
+   "year_label": "1591",
+   "museum": "Skoklostri loss, Rootsi"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Püha Matteuse kutsumine",
+   "artist": "Caravaggio",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Rooma"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judith tapmas Holofernest",
+   "artist": "Artemisia Gentileschi",
+   "year_label": "1620",
+   "museum": "Uffizi galerii, Firenze"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Diego Velázquez",
+   "year_label": "1656",
+   "museum": "Prado muuseum, Madrid"
+  },
+  "rubens-the-three-graces": {
+   "title": "Kolm gratsiat",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Prado muuseum, Madrid"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apollon ja Daphne",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1625",
+   "museum": "Galleria Borghese, Rooma"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Püha Teresa ekstaas",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Rooma"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Öine vahtkond",
+   "artist": "Rembrandt",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Dr Nicolaes Tulpi anatoomiatund",
+   "artist": "Rembrandt",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Haag"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Tüdruk pärlkõrvarõngaga",
+   "artist": "Johannes Vermeer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Haag"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "Piimatüdruk",
+   "artist": "Johannes Vermeer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "Ohakalind",
+   "artist": "Carel Fabritius",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Haag"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Palverännak Kythera saarele",
+   "artist": "Antoine Watteau",
+   "year_label": "1717",
+   "museum": "Louvre, Pariis"
+  },
+  "fragonard-the-swing": {
+   "title": "Kiik",
+   "artist": "Jean-Honoré Fragonard",
+   "year_label": "1767",
+   "museum": "Wallace'i kollektsioon, London"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Autoportree õlgkübaraga",
+   "artist": "Élisabeth Vigée Le Brun",
+   "year_label": "1782",
+   "museum": "Rahvusgalerii, London"
+  },
+  "david-the-death-of-marat": {
+   "title": "Marat' surm",
+   "artist": "Jacques-Louis David",
+   "year_label": "1793",
+   "museum": "Belgia Kuninglikud Kaunite Kunstide Muuseumid, Brüssel"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napoleon Alpe ületamas",
+   "artist": "Jacques-Louis David",
+   "year_label": "1801",
+   "museum": "Malmaisoni loss"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Suur odalisk",
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "year_label": "1814",
+   "museum": "Louvre, Pariis"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Psyche, kelle Amor suudlusega ellu äratab",
+   "artist": "Antonio Canova",
+   "year_label": "1793",
+   "museum": "Louvre, Pariis"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "Kolmas mai 1808",
+   "artist": "Francisco Goya",
+   "year_label": "1814",
+   "museum": "Prado muuseum, Madrid"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "Vabadus rahvast juhtimas",
+   "artist": "Eugène Delacroix",
+   "year_label": "1830",
+   "museum": "Louvre, Pariis"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "Medusa parv",
+   "artist": "Théodore Géricault",
+   "year_label": "1819",
+   "museum": "Louvre, Pariis"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Rändur udumere kohal",
+   "artist": "Caspar David Friedrich",
+   "year_label": "1818",
+   "museum": "Hamburgi Kunsthalle"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "Võitleja Téméraire",
+   "artist": "J. M. W. Turner",
+   "year_label": "1839",
+   "museum": "Rahvusgalerii, London"
+  },
+  "hayez-the-kiss": {
+   "title": "Suudlus",
+   "artist": "Francesco Hayez",
+   "year_label": "1859",
+   "museum": "Brera pinakoteek, Milano"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "Kanagawa suur laine",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Selge tuuline hommik (Punane Fuji)",
+   "artist": "Katsushika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Äkiline hoovihm Shin-Ōhashi silla ja Atake kohal",
+   "artist": "Utagawa Hiroshige",
+   "year_label": "1857",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Piki jõge Qingmingi pühal",
+   "artist": "Zhang Zeduan",
+   "year_label": "1100",
+   "museum": "Keisripalee muuseum, Peking"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Tuulejumal ja äikesejumal",
+   "artist": "Tawaraya Sōtatsu",
+   "year_label": "1630",
+   "museum": "Kennin-ji, Kyoto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "Meeleheitel mees",
+   "artist": "Gustave Courbet",
+   "year_label": "1845",
+   "museum": "Erakogu"
+  },
+  "millet-the-gleaners": {
+   "title": "Järelkorjajad",
+   "artist": "Jean-François Millet",
+   "year_label": "1857",
+   "museum": "Orsay muuseum, Pariis"
+  },
+  "manet-olympia": {
+   "title": "Olympia",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Orsay muuseum, Pariis"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Hommikueine murul",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Orsay muuseum, Pariis"
+  },
+  "wood-american-gothic": {
+   "title": "Ameerika gootika",
+   "artist": "Grant Wood",
+   "year_label": "1930",
+   "museum": "Chicago Kunstiinstituut"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "John Singer Sargent",
+   "year_label": "1884",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Kompositsioon hallis ja mustas nr 1 (Whistleri ema)",
+   "artist": "James McNeill Whistler",
+   "year_label": "1871",
+   "museum": "Orsay muuseum, Pariis"
+  },
+  "millais-ophelia": {
+   "title": "Ophelia",
+   "artist": "John Everett Millais",
+   "year_label": "1852",
+   "museum": "Tate Britain, London"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "Shalott' preili",
+   "artist": "John William Waterhouse",
+   "year_label": "1888",
+   "museum": "Tate Britain, London"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Veenuse sünd",
+   "artist": "Alexandre Cabanel",
+   "year_label": "1863",
+   "museum": "Orsay muuseum, Pariis"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "Jean-Léon Gérôme",
+   "year_label": "1872",
+   "museum": "Phoenixi kunstimuuseum"
+  },
+  "monet-impression-sunrise": {
+   "title": "Mulje, päikesetõus",
+   "artist": "Claude Monet",
+   "year_label": "1872",
+   "museum": "Marmottan Monet muuseum, Pariis"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Naine päevavarjuga: Madame Monet ja tema poeg",
+   "artist": "Claude Monet",
+   "year_label": "1875",
+   "museum": "Rahvuslik Kunstigalerii, Washington"
+  },
+  "monet-water-lilies": {
+   "title": "Vesiroosid",
+   "artist": "Claude Monet",
+   "year_label": "1906",
+   "museum": "Chicago Kunstiinstituut"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Moulin de la Galette'i ball",
+   "artist": "Pierre-Auguste Renoir",
+   "year_label": "1876",
+   "museum": "Orsay muuseum, Pariis"
+  },
+  "degas-the-dance-class": {
+   "title": "Tantsutund",
+   "artist": "Edgar Degas",
+   "year_label": "1874",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "morisot-the-cradle": {
+   "title": "Hälli",
+   "artist": "Berthe Morisot",
+   "year_label": "1872",
+   "museum": "Orsay muuseum, Pariis"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Jalutuskäik rannal",
+   "artist": "Joaquín Sorolla",
+   "year_label": "1909",
+   "museum": "Sorolla muuseum, Madrid"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "Pühapäev La Grande Jatte'i saarel",
+   "artist": "Georges Seurat",
+   "year_label": "1886",
+   "museum": "Chicago Kunstiinstituut"
+  },
+  "gogh-the-starry-night": {
+   "title": "Tähine öö",
+   "artist": "Vincent van Gogh",
+   "year_label": "1889",
+   "museum": "Modernkunstimuuseum, New York"
+  },
+  "gogh-sunflowers": {
+   "title": "Päevalilled",
+   "artist": "Vincent van Gogh",
+   "year_label": "1888",
+   "museum": "Rahvusgalerii, London"
+  },
+  "cezanne-the-card-players": {
+   "title": "Kaardimängijad",
+   "artist": "Paul Cézanne",
+   "year_label": "1892",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "Kust me tuleme? Kes me oleme? Kuhu me läheme?",
+   "artist": "Paul Gauguin",
+   "year_label": "1897",
+   "museum": "Kaunite Kunstide Muuseum, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Henri de Toulouse-Lautrec",
+   "year_label": "1891",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Magav mustlanna",
+   "artist": "Henri Rousseau",
+   "year_label": "1897",
+   "museum": "Modernkunstimuuseum, New York"
+  },
+  "munch-the-scream": {
+   "title": "Karje",
+   "artist": "Edvard Munch",
+   "year_label": "1893",
+   "museum": "Rahvusmuuseum, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "Surnute saar",
+   "artist": "Arnold Böcklin",
+   "year_label": "1880",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rodin-the-thinker": {
+   "title": "Mõtleja",
+   "artist": "Auguste Rodin",
+   "year_label": "1904",
+   "museum": "Rodini muuseum, Pariis"
+  },
+  "klimt-the-kiss": {
+   "title": "Suudlus",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Viin"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Adele Bloch-Baueri portree I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, New York"
+  },
+  "matisse-dance": {
+   "title": "Tants",
+   "artist": "Henri Matisse",
+   "year_label": "1910",
+   "museum": "Ermitaaž, Peterburi"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Naine kaabuga",
+   "artist": "Henri Matisse",
+   "year_label": "1905",
+   "museum": "San Francisco Modernkunstimuuseum"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "Suured sinised hobused",
+   "artist": "Franz Marc",
+   "year_label": "1911",
+   "museum": "Walker Art Center, Minneapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Lamav akt",
+   "artist": "Amedeo Modigliani",
+   "year_label": "1917",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Pablo Picasso portree",
+   "artist": "Juan Gris",
+   "year_label": "1912",
+   "museum": "Chicago Kunstiinstituut"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Eiffeli torn puudega",
+   "artist": "Robert Delaunay",
+   "year_label": "1910",
+   "museum": "Solomon R. Guggenheimi muuseum, New York"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Ainulaadsed pidevuse vormid ruumis",
+   "artist": "Umberto Boccioni",
+   "year_label": "1913",
+   "museum": "Modernkunstimuuseum, New York"
+  },
+  "boccioni-the-city-rises": {
+   "title": "Linn tõuseb",
+   "artist": "Umberto Boccioni",
+   "year_label": "1910",
+   "museum": "Modernkunstimuuseum, New York"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Kompositsioon VIII",
+   "artist": "Wassily Kandinsky",
+   "year_label": "1923",
+   "museum": "Solomon R. Guggenheimi muuseum, New York"
+  },
+  "malevich-black-square": {
+   "title": "Must ruut",
+   "artist": "Kasimir Malevitš",
+   "year_label": "1915",
+   "museum": "Tretjakovi galerii, Moskva"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Kompositsioon II punases, sinises ja kollases",
+   "artist": "Piet Mondrian",
+   "year_label": "1930",
+   "museum": "Kunsthaus Zürich"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Klee",
+   "year_label": "1922",
+   "museum": "Baseli kunstimuuseum"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Schwitters",
+   "year_label": "1919",
+   "museum": "Stuttgarti Staatsgalerie"
+  },
+  "terracotta-army": {
+   "title": "Terrakotasõjavägi",
+   "artist": "Tundmatu (Hiina)",
+   "year_label": "210 eKr",
+   "museum": "Esimese Qini keisri mausoleum, Xi'an"
+  },
+  "aztec-sun-stone": {
+   "title": "Asteekide päikesekivi",
+   "artist": "Tundmatu (asteegid)",
+   "year_label": "1510",
+   "museum": "Rahvuslik Antropoloogiamuuseum, Mexico"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (moai)",
+   "artist": "Tundmatu (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "Briti muuseum, London"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Antiikmaailm",
+   "period": "2600 eKr-300 pKr",
+   "summary": "Jumalad, valitsejad ja ideaalne keha",
+   "description": "Egiptusest Kreeka ja Roomani nikerdavad kunstnikud valitsejaid, jumalaid ja sportlasi, kes peavad kestma igavesti. Otsing ideaalse keha järele sai sajanditeks Lääne kunsti eeskujuks."
+  },
+  "gothic": {
+   "name": "Gooti kunst ja protorenessanss",
+   "period": "1280-1430",
+   "summary": "Kuldne taust ja esimesed päris tunded",
+   "description": "Kirikutes ja kabelites maalivad kunstnikud veel kullale, kuid nende tegelased hakkavad nutma, pöörduma ja omama kaalu. Pildis jutustamine leiutatakse uuesti."
+  },
+  "early_netherlandish": {
+   "name": "Varane Madalmaade kunst",
+   "period": "1420-1500",
+   "summary": "Õlivärv ja pimestav detailitäpsus",
+   "description": "Flandrias viivad maalijad õlivärvi täiuseni ja kirjeldavad sellega kõike: karusnahka, klaasi, pisarat, peegeldust. Pühad stseenid kolivad tubadesse, mis näevad välja nagu päris kodud."
+  },
+  "renaissance": {
+   "name": "Itaalia renessanss",
+   "period": "1420-1570",
+   "summary": "Perspektiiv ja tagasipöördumine antiikaja juurde",
+   "description": "Itaalias ja siis kogu Euroopas avastavad kunstnikud antiikaja uuesti, uurivad inimkeha ja leiutavad perspektiivi. Maal muutub aknaks maailma."
+  },
+  "northern_renaissance": {
+   "name": "Põhja-Euroopa renessanss",
+   "period": "1490-1570",
+   "summary": "Terav joon, graafika ja kummalised nägemused",
+   "description": "Alpidest põhja pool segavad kunstnikud itaalia ideid armastusega detailide ja igapäevaelu vastu. Graafika viib nende pildid kogu Euroopasse."
+  },
+  "mannerism": {
+   "name": "Manerism",
+   "period": "1520-1610",
+   "summary": "Elegants, venitatud äärmuseni",
+   "description": "Suurmeistrite järel painutavad maalijad reegleid meelega: pikad kehad, väändunud poosid, happelised värvid. Stiil ise saab teemaks."
+  },
+  "baroque": {
+   "name": "Barokk",
+   "period": "1600-1700",
+   "summary": "Draama, liikumine ja sügav vari",
+   "description": "Kunst tahab vaatajat liigutada. Tugevad valguse ja varju kontrastid, liikuvad kehad ja teatraalne lavastus tõmbavad su stseeni sisse."
+  },
+  "siecledor": {
+   "name": "Hollandi kuldaeg",
+   "period": "1600-1700",
+   "summary": "Igapäevaelu ja valgus",
+   "description": "Jõukas Hollandi Vabariigis maalivad kunstnikud kodanlikele kodudele: vaikseid interjööre, portreesid, natüürmorte. Tõeliseks teemaks saab valgus."
+  },
+  "rococo": {
+   "name": "Rokokoo ja 18. sajand",
+   "period": "1715-1790",
+   "summary": "Kergus, nauding ja pastellvärvid",
+   "description": "Kaheksateistkümnenda sajandi salongides muutub maalikunst mänguliseks ja intiimseks: aiapeod, portreed, õrnad toonid. Samal ajal vaatavad mõned kunstnikud vaikselt tavalist elu."
+  },
+  "neoclassicism": {
+   "name": "Uusklassitsism",
+   "period": "1760-1860",
+   "summary": "Selged jooned ja antiikne voorus",
+   "description": "Rooma ja Pompeji varemetest inspireerituna pöörduvad kunstnikud tagasi kaine joonistuse ja kangelaslike teemade juurde. Maal peab õpetama sama palju kui rõõmustama."
+  },
+  "romanticism": {
+   "name": "Romantism",
+   "period": "1780-1860",
+   "summary": "Tunded, loodus ja ülev",
+   "description": "Tunded võtavad mõistuselt võimu. Tormid, varemed, mässud ja üksildased kujud väljendavad, mida kunstnik tunneb maailma ees, mis on liiga suur, et seda vallutada."
+  },
+  "ukiyoe": {
+   "name": "Ukiyo-e",
+   "period": "1680-1860",
+   "summary": "„Hõljuva maailma“ pildid",
+   "description": "Jaapanis kujutavad sarjadena trükitud puulõiked näitlejaid, maastikke ja igapäevaelu stseene. Nende lamedad värvipinnad ja julged lõiked raputavad hiljem Euroopa maalijaid."
+  },
+  "east_asian": {
+   "name": "Hiina ja Jaapani maalikunst",
+   "period": "750-1720",
+   "summary": "Tušš, siid ja tühi ruum",
+   "description": "Hiinas ja Jaapanis maalitakse pintsli ja tušiga siidile, paberile ja kokkupandavatele ekraanidele. Mõni pintslitõmme ja palju tühja ruumi on küllalt, et vihjata mäele või aastaajale."
+  },
+  "realism": {
+   "name": "Realism",
+   "period": "1845-1890",
+   "summary": "Tavalised inimesed sellistena, nagu nad on",
+   "description": "Maalijad pöörduvad kangelastest ja müütidest ära ning näitavad talupoegi, töölisi ja tänapäevast elu ilma neid ilustamata. Tõe näitamisest saab omaette avaldus."
+  },
+  "american": {
+   "name": "Ameerika maalikunst",
+   "period": "1780-1930",
+   "summary": "Noor riik vaatab iseennast",
+   "description": "Noore vabariigi portreedest laiade maastike ja linnaelu stseenideni otsivad Ameerika maalijad oma teemasid ja oma valgust."
+  },
+  "preraphaelite": {
+   "name": "Prerafaeliidid ja Viktoriaanlik aeg",
+   "period": "1848-1900",
+   "summary": "Särav värv, legend ja detail",
+   "description": "Viktoriaanlikus Suurbritannias lükkab rühm noori maalijaid tagasi akadeemilised retseptid. Nad maalivad legende ja luulet intensiivsete värvide ja peaaegu kinnismõtteliselt täpselt."
+  },
+  "academic": {
+   "name": "Akadeemiline kunst",
+   "period": "1830-1900",
+   "summary": "Ametliku salongi lihvitud kunst",
+   "description": "Suurtes kunstikoolides koolitatud maalijad valdavad anatoomiat, ajalugu ja täiesti siledat pinda. Nad olid oma aja staarid, kuni avangard nad varju surus."
+  },
+  "impressionnisme": {
+   "name": "Impressionism",
+   "period": "1867-1910",
+   "summary": "Hetke valguse maalimine",
+   "description": "Maalijate rühm lahkub ateljeest ja töötab vabas õhus kiirete väikeste pintslitõmmetega. Neid ei huvita enam detailid, vaid valguse mõju just selles hetkes."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpressionism",
+   "period": "1884-1910",
+   "summary": "Värv täpp-täpi haaval",
+   "description": "Maalijad rakendavad värvile teadust: puhta värvi väikesed täpid, mis on pandud kõrvuti, sulavad vaataja silmas kokku. Pilt kasvab aeglaselt, nagu mosaiik."
+  },
+  "postimp": {
+   "name": "Postimpressionism",
+   "period": "1885-1910",
+   "summary": "Värv ja tunne eelkõige",
+   "description": "Pärast impressionismi otsib igaüks oma teed. Värv ei jäljenda enam tegelikkust, vaid väljendab seda, mida maalija tunneb."
+  },
+  "symbolism": {
+   "name": "Sümbolism",
+   "period": "1860-1915",
+   "summary": "Unenäod, müüdid ja sisemaailmad",
+   "description": "Nähtava maailma kirjeldamise asemel vihjavad need kunstnikud ideedele, unenägudele ja hirmudele. Nende pilte tuleb enne tunda kui mõista."
+  },
+  "secession": {
+   "name": "Juugend ja Viini sessioon",
+   "period": "1890-1918",
+   "summary": "Kuld, ornament ja kaarduvad jooned",
+   "description": "Viinis murravad noored kunstnikud akadeemiaga. Nad ühendavad maali, dekoratsiooni ja käsitöö ning teevad ornamendist omaette keele."
+  },
+  "fauvism": {
+   "name": "Fovism",
+   "period": "1904-1917",
+   "summary": "Puhas värv otse tuubist",
+   "description": "Mõne plahvatusliku aasta jooksul kasutavad maalijad kiljuvaid, ebaloomulikke värve ja vabat pintslikäsitlust. Kriitikud nimetasid neid metsloomadeks ja nimi jäi külge."
+  },
+  "expressionism": {
+   "name": "Ekspressionism",
+   "period": "1903-1925",
+   "summary": "Moonutatud vormid, toored tunded",
+   "description": "Kunstnikud väänavad vorme ja ajavad värve äärmuseni, et väljendada ärevust, himu või mässu. Tähtis pole, kuidas maailm välja näeb, vaid kuidas see tundub."
+  },
+  "cubism": {
+   "name": "Kubism",
+   "period": "1909-1925",
+   "summary": "Asjad nähtuna korraga mitmelt küljelt",
+   "description": "Maalijad lõhuvad esemed tahkudeks ja näitavad neid ühes pildis mitmest vaatenurgast. Viis sajandit perspektiivi kahtluse alla seatud ühe hoobiga."
+  },
+  "futurism": {
+   "name": "Futurism",
+   "period": "1909-1920",
+   "summary": "Kiirus, masinad ja tänapäevane linn",
+   "description": "Itaalia kunstnikud ülistavad autosid, rahvahulki ja elektrit. Nad püüavad maalida liikumist ennast, korrates ja killustades vorme."
+  },
+  "abstraction": {
+   "name": "Abstraktsioon ja avangard",
+   "period": "1907-1930",
+   "summary": "Maal ilma teemata",
+   "description": "Jooned, vormid ja värvid ei kujuta enam midagi: need on ise pilt. Kunstnikud otsivad visuaalset keelt, mis on sama otsene kui muusika."
+  },
+  "dada_surrealism": {
+   "name": "Dada ja varane sürrealism",
+   "period": "1912-1930",
+   "summary": "Juhus, mõttetus ja unenäod",
+   "description": "Esimese maailmasõja vastu tunnetatud vastikusest sündinud dada pilkab kunsti ennast. Sürrealism järgneb ja uurib unenägusid, juhust ja alateadvust."
+  },
+  "world": {
+   "name": "Aafrika, Aasia ja Ameerika",
+   "period": "1200 eKr-1600",
+   "summary": "Pühad esemed ja õukonnakunst",
+   "description": "Pronksid, maskid, kivihiiglased ja rituaaliesemed Aafrikast, Aasiast ja Ameerikast. Need tehti tseremooniateks, templiteks ja kuningatele, kaua enne muuseumide tekkimist."
+  }
+ }
+}
