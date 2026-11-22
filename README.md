@@ -47,6 +47,7 @@ Pour ouvrir directement un écran en build Debug, ajouter des arguments de lance
 | `-onbGiftOpen YES` | Écran cadeau déjà ouvert |
 | `-onbExitOffer YES` | Ouvre l'offre « 7 jours » dès l'écran d'essai |
 | `-onbQuotesShown 3` | Nombre de citations déjà affichées sur l'écran des citations |
+| `-onbShown 2` | Nombre de blocs déjà révélés sur les pages qui se dévoilent au toucher (étude, regarder, les trois cases) |
 | `-onbLine 2` | Réplique affichée d'abord sur un écran où la Joconde parle (0 = la première) |
 | `-onbWidgetHome YES` | Écran du widget en version « écran d'accueil » |
 | `-noSplash YES` | Saute l'écran de lancement |

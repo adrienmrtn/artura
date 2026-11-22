@@ -130,7 +130,6 @@ struct HomeFeedView: View {
 
             Spacer(minLength: 0)
             StreakChip(days: user.streak)
-                .overlay(Capsule().stroke(Palette.line, lineWidth: 1))
             Spacer(minLength: 0)
 
             barButton("clock.arrow.circlepath", label: "History") { sheet = .library(.history) }
@@ -140,6 +139,9 @@ struct HomeFeedView: View {
         }
         .padding(.horizontal, 16)
         .padding(.top, 6)
+        .padding(.bottom, 10)
+        // Blue header behind the buttons, up to the top of the screen.
+        .background(Palette.sky.ignoresSafeArea(edges: .top))
     }
 
     private func barButton(_ symbol: String, label: String, tint: Color = Palette.ink, badge: Int = 0,
@@ -153,7 +155,6 @@ struct HomeFeedView: View {
                 .foregroundStyle(tint)
                 .frame(width: 42, height: 42)
                 .background(Circle().fill(.white))
-                .overlay(Circle().stroke(Palette.line, lineWidth: 1))
                 .overlay(alignment: .topTrailing) {
                     if badge > 0 {
                         Text("\(badge)")
@@ -210,7 +211,7 @@ struct FeedCard: View {
     var body: some View {
         VStack(spacing: 0) {
             // Room for the top bar, which floats above the feed.
-            Color.clear.frame(height: 58)
+            Color.clear.frame(height: 68)
 
             ArtImage(name: artwork.image, zoom: drift ? 1.06 : 1, anchor: artwork.focusPoint)
                 .frame(minHeight: 160, maxHeight: .infinity)

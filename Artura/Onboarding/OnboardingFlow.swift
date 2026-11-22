@@ -8,19 +8,19 @@ enum OnbStep: Int, CaseIterable {
     // 3 · The test
     case testIntro, flashTest, flashResult
     // 4 · The demo
-    case learnToLook, study, abilities, chooseCourse, lesson, afterLesson
+    case study, learnToLook, abilities, chooseCourse, lesson, afterLesson
     // 5 · The turning point: that time can become knowledge
     case phoneTime, phoneResult, attention, projection, graph
     // 6 · The commitment
     case streak, reminder, widget, loading, plan, socialProof, account
     // 7 · The gift: the free trial
-    case gift, noCommitment, trial
+    case gift, trialNotif, trialTimeline, trial
 
     /// Screens that show the shared bar (back + progress).
     /// The others are full-page or have their own header.
     var showsBar: Bool {
         switch self {
-        case .welcome, .quotes, .lesson, .loading, .account, .gift, .noCommitment, .trial: return false
+        case .welcome, .quotes, .lesson, .loading, .account, .gift, .trialNotif, .trialTimeline, .trial: return false
         default: return true
         }
     }
@@ -33,7 +33,7 @@ enum OnbStep: Int, CaseIterable {
     /// Screen shown when going back (nil = no way back).
     var previous: OnbStep? {
         switch self {
-        case .welcome, .gift, .noCommitment, .trial: return nil
+        case .welcome, .gift, .trialNotif, .trialTimeline, .trial: return nil
         // The loading screen replays by itself: skip it when going back.
         case .plan: return .widget
         default: return OnbStep(rawValue: rawValue - 1)
@@ -53,6 +53,8 @@ struct OnboardingFlow: View {
     @State private var moving = false
     /// True if the account screen was reached through "I already have an account".
     @State private var loginShortcut = false
+    /// True if the visitor allowed the reminder sent the day before the trial ends.
+    @State private var trialReminder = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -175,8 +177,8 @@ struct OnboardingFlow: View {
         case .testIntro: TestIntroScreen(onNext: next)
         case .flashTest: FlashTestScreen(onNext: next)
         case .flashResult: FlashResultScreen(onNext: next)
-        case .learnToLook: LearnToLookScreen(onNext: next)
         case .study: StudyScreen(onNext: next)
+        case .learnToLook: LearnToLookScreen(onNext: next)
         case .abilities: AbilitiesScreen(onNext: next)
         case .chooseCourse: ChooseCourseScreen(onNext: next)
         case .lesson:
@@ -206,10 +208,14 @@ struct OnboardingFlow: View {
         case .account: AccountScreen(onBack: back, onNext: next)
         case .gift:
             if let offer { GiftScreen(offer: offer, onNext: next) }
-        case .noCommitment:
-            if let offer { NoCommitmentScreen(offer: offer, onNext: next) }
+        case .trialNotif:
+            if let offer { TrialNotifScreen(offer: offer, reminder: $trialReminder, onNext: next) }
+        case .trialTimeline:
+            if let offer { TrialTimelineScreen(offer: offer, onNext: next) }
         case .trial:
-            if let offer { TrialScreen(offer: offer, extendedOffer: extendedOffer, onFinish: finish) }
+            if let offer {
+                TrialScreen(offer: offer, extendedOffer: extendedOffer, reminder: trialReminder, onFinish: finish)
+            }
         }
     }
 }

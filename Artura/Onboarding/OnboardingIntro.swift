@@ -150,7 +150,7 @@ struct Quote: Identifiable {
 struct QuotesScreen: View {
     let onBack: () -> Void
     let onNext: () -> Void
-    /// Number of quotes revealed so far: each tap brings the next one, then the screen moves on.
+    /// Number of quotes revealed so far, none at first: each tap brings the next one, then the screen moves on.
     @State private var shown = min(max(0, OnboardingDebug.int("onbQuotesShown")), Quote.all.count)
 
     private let quotes = Quote.all
@@ -217,12 +217,6 @@ struct QuotesScreen: View {
         .contentShape(Rectangle())
         .onTapGesture(perform: advance)
         .accessibilityAddTraits(.isButton)
-        .onAppear {
-            // The first quote comes by itself; the others wait for a tap.
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                if shown == 0 { reveal() }
-            }
-        }
     }
 
     private func advance() {
@@ -301,17 +295,77 @@ struct TestIntroScreen: View {
     }
 }
 
-// MARK: Before the guided tour: looking can be learned
+// MARK: Story pages revealed tap by tap
 
-struct LearnToLookScreen: View {
+/// An illustration, then a tag and a title, then a text: each tap brings the next block.
+/// Once everything is there, a tap anywhere moves on.
+struct TapStoryScreen: View {
+    let image: String
+    let tag: String
+    let title: String
+    let text: String
     let onNext: () -> Void
 
+    /// Blocks revealed so far: 0 = the illustration alone, 1 = tag and title, 2 = the text.
+    @State private var shown = 0
+    @State private var drift = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     var body: some View {
-        StoryScaffold(image: "ill_oeil",
-                      tag: "Artura will help",
-                      title: "Looking can be learned",
-                      subtitle: "Nobody is born knowing how to read a painting. Every day, I show you where to rest your eyes: a detail, a color, a gesture.",
-                      onNext: onNext)
+        VStack(spacing: 0) {
+            ArtImage(name: image, zoom: drift ? 1.09 : 1)
+                .frame(minHeight: 180, maxHeight: 330)
+                .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
+                .enter()
+
+            VStack(spacing: 12) {
+                TagPill(text: tag)
+                Text(title)
+                    .font(.aTitle)
+                    .foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .multilineTextAlignment(.center)
+            .padding(.top, 28)
+            .opacity(shown >= 1 ? 1 : 0)
+            .offset(y: shown >= 1 ? 0 : 18)
+
+            Text(text)
+                .font(.figtree(17))
+                .foregroundStyle(Palette.muted)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.top, 12)
+                .opacity(shown >= 2 ? 1 : 0)
+                .offset(y: shown >= 2 ? 0 : 18)
+
+            Spacer(minLength: 16)
+
+            TapHint()
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .background(Palette.bg)
+        .contentShape(Rectangle())
+        .onTapGesture(perform: advance)
+        .accessibilityAddTraits(.isButton)
+        .onAppear {
+            shown = min(max(0, OnboardingDebug.int("onbShown")), 2)
+            guard !reduceMotion else { return }
+            withAnimation(.easeInOut(duration: 7).repeatForever(autoreverses: true)) { drift = true }
+        }
+    }
+
+    private func advance() {
+        if shown < 2 {
+            withAnimation(.settle) { shown += 1 }
+            Haptics.soft()
+        } else {
+            Haptics.tap()
+            onNext()
+        }
     }
 }
 
@@ -321,15 +375,125 @@ struct StudyScreen: View {
     let onNext: () -> Void
 
     var body: some View {
-        StoryScaffold(image: "ill_regard",
-                      tag: "A study at the Art Institute of Chicago",
-                      title: "26 seconds in front of a painting",
-                      subtitle: "That's how long a visitor looks at a masterpiece, on average. Barely enough to read the label.",
-                      onNext: onNext)
+        TapStoryScreen(image: "ill_regard",
+                       tag: "A study at the Art Institute of Chicago",
+                       title: "26 seconds in front of a painting",
+                       text: "That's how long a visitor looks at a masterpiece, on average. Barely enough to read the label.",
+                       onNext: onNext)
+    }
+}
+
+// MARK: Looking can be learned
+
+struct LearnToLookScreen: View {
+    let onNext: () -> Void
+
+    var body: some View {
+        TapStoryScreen(image: "ill_oeil",
+                       tag: "Artura will help",
+                       title: "Looking can be learned",
+                       text: "Nobody is born knowing how to read a painting. Every day, I show you where to rest your eyes: a detail, a color, a gesture.",
+                       onNext: onNext)
     }
 }
 
 // MARK: What you'll be able to do
+
+/// A jagged crack running across a card.
+private struct CrackShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        let points: [(CGFloat, CGFloat)] = [
+            (0.0, 0.42), (0.14, 0.58), (0.27, 0.36), (0.41, 0.66), (0.5, 0.44),
+            (0.62, 0.7), (0.74, 0.38), (0.87, 0.6), (1.0, 0.46)
+        ]
+        var p = Path()
+        for (i, point) in points.enumerated() {
+            let at = CGPoint(x: rect.minX + rect.width * point.0, y: rect.minY + rect.height * point.1)
+            if i == 0 { p.move(to: at) } else { p.addLine(to: at) }
+        }
+        // Two small branches
+        p.move(to: CGPoint(x: rect.minX + rect.width * 0.27, y: rect.minY + rect.height * 0.36))
+        p.addLine(to: CGPoint(x: rect.minX + rect.width * 0.33, y: rect.minY + rect.height * 0.08))
+        p.move(to: CGPoint(x: rect.minX + rect.width * 0.62, y: rect.minY + rect.height * 0.7))
+        p.addLine(to: CGPoint(x: rect.minX + rect.width * 0.7, y: rect.minY + rect.height * 0.96))
+        return p
+    }
+}
+
+/// One ability: a locked box that cracks, bursts into pieces, then shows what it held.
+private struct AbilityBox: View {
+    let image: String
+    let title: String
+    let text: String
+    /// 0: locked, 1: cracking, 2: open.
+    let state: Int
+
+    @State private var burst = false
+
+    var body: some View {
+        ZStack {
+            // What the box holds
+            HStack(spacing: 14) {
+                ArtImage(name: image)
+                    .frame(width: 72, height: 72)
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(title).font(.aHeading).foregroundStyle(Palette.ink)
+                    Text(text)
+                        .font(.aSmall)
+                        .foregroundStyle(Palette.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 0)
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity, minHeight: 96)
+            .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.mistLight))
+            .opacity(state >= 2 ? 1 : 0)
+            .scaleEffect(state >= 2 ? 1 : 0.92)
+
+            // The locked lid, with its crack
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .fill(Palette.card)
+                .overlay {
+                    Image(systemName: "lock.fill")
+                        .font(.system(size: 22, weight: .semibold))
+                        .foregroundStyle(Palette.lip)
+                }
+                .overlay {
+                    CrackShape()
+                        .trim(from: 0, to: state >= 1 ? 1 : 0)
+                        .stroke(Palette.ink.opacity(0.75), style: StrokeStyle(lineWidth: 2, lineCap: .round, lineJoin: .round))
+                        .padding(.horizontal, 6)
+                }
+                .frame(minHeight: 96)
+                .opacity(state >= 2 ? 0 : 1)
+                .scaleEffect(state >= 2 ? 1.06 : 1)
+                .offset(x: state == 1 ? 3 : 0)
+
+            // The pieces flying away
+            ForEach(0..<12, id: \.self) { i in
+                let angle = Double(i) / 12 * 2 * .pi + 0.3
+                RoundedRectangle(cornerRadius: 3)
+                    .fill(i % 3 == 0 ? Palette.lip : Palette.card)
+                    .frame(width: CGFloat(10 + (i * 7) % 12), height: CGFloat(8 + (i * 5) % 10))
+                    .rotationEffect(.degrees(burst ? Double(i * 53 % 360) : 0))
+                    .offset(x: burst ? CGFloat(cos(angle)) * CGFloat(110 + (i * 17) % 60) : 0,
+                            y: burst ? CGFloat(sin(angle)) * CGFloat(60 + (i * 11) % 40) : 0)
+                    .opacity(state >= 2 && !burst ? 1 : 0)
+            }
+            .allowsHitTesting(false)
+        }
+        .frame(maxWidth: .infinity)
+        .onChange(of: state) { _, new in
+            guard new >= 2 else { return }
+            withAnimation(.easeOut(duration: 0.6)) { burst = true }
+        }
+        .onAppear { if state >= 2 { burst = true } }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(state >= 2 ? "\(title). \(text)" : "Locked")
+    }
+}
 
 struct AbilitiesScreen: View {
     let onNext: () -> Void
@@ -340,29 +504,50 @@ struct AbilitiesScreen: View {
         ("ill_goal_talk", "Talk about it", "Have something to say at the museum, or over dinner.")
     ]
 
+    /// Boxes already open.
+    @State private var opened = min(max(0, OnboardingDebug.int("onbShown")), 3)
+    /// Index of the box that is cracking, if any.
+    @State private var cracking: Int?
+
+    private var title: String {
+        switch opened {
+        case 0: return "Soon, you'll know how to"
+        case 1: return "You'll learn how to look"
+        case 2: return "…how to understand"
+        default: return "…and how to talk about it"
+        }
+    }
+
     var body: some View {
-        OnbScaffold(title: "Soon, you'll know how to",
+        OnbScaffold(title: title,
                     subtitle: "A few minutes a day is all it takes.",
-                    onNext: onNext) {
+                    ctaEnabled: cracking == nil, onNext: advance) {
             VStack(spacing: 12) {
                 ForEach(Array(abilities.enumerated()), id: \.offset) { i, ability in
-                    HStack(spacing: 14) {
-                        ArtImage(name: ability.image)
-                            .frame(width: 72, height: 72)
-                            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-                        VStack(alignment: .leading, spacing: 3) {
-                            Text(ability.title).font(.aHeading).foregroundStyle(Palette.ink)
-                            Text(ability.text)
-                                .font(.aSmall)
-                                .foregroundStyle(Palette.muted)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        Spacer(minLength: 0)
-                    }
-                    .padding(12)
-                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.card))
-                    .enter(Double(i) * 1.5 + 2)
+                    AbilityBox(image: ability.image, title: ability.title, text: ability.text,
+                               state: i < opened ? 2 : (cracking == i ? 1 : 0))
+                        .enter(Double(i) + 2)
                 }
+            }
+        }
+        .animation(.gentle, value: opened)
+    }
+
+    /// Each press cracks the next box open; once all three are open, the button moves on.
+    private func advance() {
+        guard cracking == nil else { return }
+        guard opened < abilities.count else {
+            onNext()
+            return
+        }
+        let index = opened
+        Haptics.rigid()
+        withAnimation(.easeOut(duration: 0.45)) { cracking = index }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.55) {
+            Haptics.heavy()
+            withAnimation(.easeOut(duration: 0.3)) {
+                opened = index + 1
+                cracking = nil
             }
         }
     }

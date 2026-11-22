@@ -316,104 +316,160 @@ struct TrialClock: View {
     }
 }
 
-struct NoCommitmentScreen: View {
-    let offer: TrialOffer
-    let onNext: () -> Void
+// MARK: - 2 · A notification the day before the trial ends
 
-    /// "the day before" stands out in bold in the middle of the sentence.
-    private var reminderLine: Text {
-        Text("You'll get a reminder ")
-            + Text("the day before").font(.figtree(19, .bold))
-            + Text(" your trial ends.")
-    }
+/// Preview of the notification sent the day before the end.
+struct TrialNotificationPreview: View {
+    var large: Bool = false
 
     var body: some View {
-        ZStack {
-            RaysBackground()
-
-            VStack(spacing: 0) {
-                VStack(spacing: 12) {
-                    Text("No commitment.")
-                        .font(.figtree(36, .bold))
-                        .foregroundStyle(Palette.ink)
-                        .enter()
-                    reminderLine
-                        .font(.figtree(19))
-                        .foregroundStyle(Palette.ink)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .enter(1.5)
-                    Text("Plenty of time to explore, and to decide.")
-                        .font(.figtree(17))
-                        .foregroundStyle(Palette.muted)
-                        .enter(3)
-                }
-                .multilineTextAlignment(.center)
-                .padding(.top, 44)
-
-                Spacer(minLength: 16)
-
-                TrialClock(days: offer.trialDays)
-                    .enter(4)
-
-                Spacer(minLength: 16)
-                Spacer(minLength: 0)
-
-                Button("Try it for \(offer.zeroPrice)") { onNext() }
-                    .buttonStyle(.primary)
-                Text("No commitment. Cancel anytime.")
-                    .font(.aSmall)
+        HStack(spacing: large ? 12 : 10) {
+            Image("logo")
+                .resizable()
+                .scaledToFill()
+                .frame(width: large ? 44 : 30, height: large ? 44 : 30)
+                .clipShape(RoundedRectangle(cornerRadius: large ? 10 : 7))
+            VStack(alignment: .leading, spacing: large ? 2 : 0) {
+                Text("Your trial ends tomorrow")
+                    .font(.figtree(large ? 16 : 13, .bold))
+                    .foregroundStyle(Palette.ink)
+                Text("Come back to your artworks.")
+                    .font(.figtree(large ? 14 : 12))
                     .foregroundStyle(Palette.muted)
-                    .frame(height: 36)
             }
-            .padding(.horizontal, 24)
-            .padding(.top, 12)
-            .padding(.bottom, 4)
+            Spacer(minLength: 0)
+            if large {
+                Text("now").font(.figtree(12)).foregroundStyle(Palette.muted)
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Palette.bg)
+        .padding(large ? 14 : 8)
+        .background(RoundedRectangle(cornerRadius: large ? 22 : 14, style: .continuous).fill(large ? Color.white : Palette.mistLight))
     }
 }
 
-// MARK: - 3 · How your trial works (paywall)
-
-struct TrialScreen: View {
-    @EnvironmentObject private var pro: ProStore
-    @EnvironmentObject private var user: UserStore
+struct TrialNotifScreen: View {
     let offer: TrialOffer
-    /// The same subscription with a longer trial, offered when closing.
-    let extendedOffer: TrialOffer?
-    let onFinish: () -> Void
+    /// True once the visitor has allowed the reminder.
+    @Binding var reminder: Bool
+    let onNext: () -> Void
 
-    @State private var canClose = false
-    @State private var showExitOffer = OnboardingDebug.flag("onbExitOffer")
-    @State private var exitOfferSeen = false
-    @State private var reminder: Bool?
-    /// Timeline steps already revealed (0 to 3): they come in one by one, slowly.
-    @State private var revealed = 0
-    @State private var grow = false
-
-    /// Delay before the close button appears, in seconds.
-    private let closeDelay: Double = 12
+    /// 0: nothing, 1: the bell, 2: the notification, 3: the texts, 4: the button.
+    @State private var stage = 0
+    @State private var ring = false
+    @State private var asking = false
 
     var body: some View {
         VStack(spacing: 0) {
-            // The close button: discreet, no background, and only after a while.
-            HStack {
-                Button(action: close) {
-                    Image(systemName: "xmark")
-                        .font(.system(size: 15, weight: .semibold))
-                        .foregroundStyle(Palette.muted.opacity(0.7))
-                        .frame(width: 44, height: 36)
-                }
-                .buttonStyle(.pressable)
-                .accessibilityLabel("Close and continue for free")
-                .opacity(canClose ? 1 : 0)
-                .disabled(!canClose)
-                Spacer()
-            }
-            .padding(.leading, 8)
+            Spacer(minLength: 12)
 
-            // 1 · The title and today's price
+            ZStack {
+                Circle().fill(Palette.mist).frame(width: 190, height: 190)
+                Image(systemName: "bell.fill")
+                    .font(.system(size: 84, weight: .semibold))
+                    .foregroundStyle(Palette.blue)
+                    .rotationEffect(.degrees(ring ? 14 : -14), anchor: .top)
+                    .overlay(alignment: .topTrailing) {
+                        Text("1")
+                            .font(.figtree(18, .bold))
+                            .foregroundStyle(.white)
+                            .frame(width: 34, height: 34)
+                            .background(Circle().fill(Palette.orange))
+                            .offset(x: 8, y: -4)
+                            .scaleEffect(stage >= 2 ? 1 : 0.2)
+                            .opacity(stage >= 2 ? 1 : 0)
+                    }
+            }
+            .scaleEffect(stage >= 1 ? 1 : 0.7)
+            .opacity(stage >= 1 ? 1 : 0)
+            .accessibilityHidden(true)
+
+            TrialNotificationPreview(large: true)
+                .shadow(color: Palette.blueDark.opacity(0.14), radius: 18, y: 8)
+                .padding(.top, -26)
+                .opacity(stage >= 2 ? 1 : 0)
+                .offset(y: stage >= 2 ? 0 : -24)
+                .accessibilityHidden(true)
+
+            VStack(spacing: 12) {
+                Text("We'll send you a notification 1 day before your free trial ends")
+                    .font(.figtree(28, .bold))
+                    .foregroundStyle(Palette.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("No bad surprises.")
+                    .font(.figtree(18))
+                    .foregroundStyle(Palette.muted)
+            }
+            .multilineTextAlignment(.center)
+            .padding(.top, 32)
+            .opacity(stage >= 3 ? 1 : 0)
+            .offset(y: stage >= 3 ? 0 : 14)
+
+            Spacer(minLength: 16)
+            Spacer(minLength: 0)
+
+            // The button only comes once the animation is over: no way to skip it.
+            Button {
+                allow()
+            } label: {
+                if asking { ProgressView().tint(.white) } else { Text("Continue") }
+            }
+            .buttonStyle(.primary)
+            .disabled(stage < 4 || asking)
+            .opacity(stage >= 4 ? 1 : 0)
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Palette.bg)
+        .onAppear(perform: play)
+    }
+
+    private func play() {
+        withAnimation(.settle.delay(0.3)) { stage = 1 }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+            withAnimation(.easeInOut(duration: 0.16).repeatCount(7, autoreverses: true)) { ring = true }
+            Haptics.rigid()
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.9) {
+            withAnimation(.settle) { stage = 2 }
+            Haptics.soft()
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.7) {
+            withAnimation(.settle) { stage = 3 }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.9) {
+            withAnimation(.gentle) { stage = 4 }
+        }
+    }
+
+    /// Asks for the notification permission (the system only asks once), then moves on.
+    private func allow() {
+        asking = true
+        Task {
+            let granted = await Reminder.requestPermission()
+            await MainActor.run {
+                reminder = granted
+                asking = false
+                onNext()
+            }
+        }
+    }
+}
+
+// MARK: - 3 · How your trial works (timeline)
+
+struct TrialTimelineScreen: View {
+    let offer: TrialOffer
+    let onNext: () -> Void
+
+    /// Timeline steps already revealed (0 to 3): they come in one by one, slowly.
+    @State private var revealed = 0
+    @State private var grow = false
+    @State private var done = false
+
+    var body: some View {
+        VStack(spacing: 0) {
             VStack(spacing: 10) {
                 Text("How your free trial works")
                     .font(.figtree(30, .bold))
@@ -427,91 +483,29 @@ struct TrialScreen: View {
                         .foregroundStyle(Palette.ink)
                 }
             }
-            .padding(.horizontal, 24)
+            .padding(.top, 44)
             .enter()
 
-            Spacer(minLength: 14)
+            Spacer(minLength: 20)
 
-            // 2 · The timeline, compact
             timeline
-                .padding(.horizontal, 24)
                 .enter(2)
 
-            reminderRow
-                .padding(.horizontal, 24)
-                .padding(.top, 10)
-                .enter(3)
+            Spacer(minLength: 20)
+            Spacer(minLength: 0)
 
-            Spacer(minLength: 14)
-
-            // 3 · The action and the price
-            VStack(spacing: 0) {
-                if let error = pro.lastError {
-                    Text(error)
-                        .font(.aCaption)
-                        .foregroundStyle(Palette.red)
-                        .padding(.bottom, 6)
-                }
-                Button {
-                    buy(offer)
-                } label: {
-                    if pro.isPurchasing {
-                        ProgressView().tint(.white)
-                    } else {
-                        HStack(spacing: 10) {
-                            Text("Start my free trial")
-                            Image(systemName: "chevron.right").font(.system(size: 14, weight: .bold))
-                        }
-                    }
-                }
+            // The button only comes once the timeline has unfolded: no way to skip it.
+            Button("Continue") { onNext() }
                 .buttonStyle(.primary)
-                .disabled(pro.isPurchasing)
-
-                Text("\(offer.trialDays) days free, then \(offer.yearlyPrice) per year")
-                    .font(.figtree(14))
-                    .foregroundStyle(Palette.muted)
-                    .padding(.top, 12)
-                Text("That's \(offer.monthlyPrice) per month")
-                    .font(.figtree(14, .bold))
-                    .foregroundStyle(Palette.ink)
-                    .padding(.top, 2)
-
-                HStack(spacing: 20) {
-                    Button("Restore") { restore() }
-                    if let terms = Legal.terms { Link("Terms", destination: terms) }
-                    if let privacy = Legal.privacy { Link("Privacy", destination: privacy) }
-                }
-                .font(.figtree(13))
-                .foregroundStyle(Palette.muted)
-                .tint(Palette.muted)
-                .underline()
-                .frame(height: 38)
-            }
-            .padding(.horizontal, 24)
+                .disabled(!done)
+                .opacity(done ? 1 : 0)
         }
-        .padding(.bottom, 4)
+        .padding(.horizontal, 24)
+        .padding(.top, 12)
+        .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
-        .task {
-            try? await Task.sleep(nanoseconds: UInt64(closeDelay * 1_000_000_000))
-            withAnimation(.easeInOut(duration: 0.9)) { canClose = true }
-        }
         .onAppear(perform: play)
-        .sheet(isPresented: $showExitOffer) {
-            if let extendedOffer {
-                ExitOfferSheet(pro: pro, offer: extendedOffer, baseDays: offer.trialDays,
-                               basePrice: offer.yearlyPrice, discount: discount(of: extendedOffer),
-                               firstName: user.profile.firstName,
-                               onAccept: { buy(extendedOffer) },
-                               onDecline: {
-                                   showExitOffer = false
-                                   DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) { onFinish() }
-                               })
-                .presentationDetents([.large])
-                .presentationDragIndicator(.visible)
-                .presentationCornerRadius(34)
-            }
-        }
     }
 
     /// The timeline unfolds slowly: the line goes down, each step appears when it reaches it.
@@ -523,12 +517,13 @@ struct TrialScreen: View {
                 Haptics.soft()
             }
         }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.7 + 2.4 + 1.2) {
+            withAnimation(.gentle) { done = true }
+        }
     }
 
-    // MARK: Timeline
-
     private var timeline: some View {
-        VStack(alignment: .leading, spacing: 14) {
+        VStack(alignment: .leading, spacing: 22) {
             timelineRow(1, icon: "lock.open.fill", fill: Palette.blue, tint: .white,
                         title: "Today",
                         text: "All of Artura unlocks, no limits.")
@@ -536,7 +531,7 @@ struct TrialScreen: View {
                 timelineRow(2, icon: "bell.fill", fill: Palette.mist, tint: Palette.blue,
                             title: "Day \(max(1, offer.trialDays - 1)) · your reminder",
                             text: "The day before it ends, we'll let you know.")
-                notification
+                TrialNotificationPreview()
                     .padding(.leading, 48)
                     .opacity(revealed >= 2 ? 1 : 0)
             }
@@ -544,7 +539,7 @@ struct TrialScreen: View {
                         title: "Day \(offer.trialDays) · Artura Pro",
                         text: "\(offer.yearlyPrice) per year. Cancel before then, in two taps.")
         }
-        .padding(16)
+        .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(alignment: .topLeading) {
             // The line connecting the three steps.
@@ -552,8 +547,8 @@ struct TrialScreen: View {
                 Capsule()
                     .fill(LinearGradient(colors: [Palette.blue, Palette.yellow, Palette.orange],
                                          startPoint: .top, endPoint: .bottom))
-                    .frame(width: 3, height: grow ? max(0, geo.size.height - 76) : 0)
-                    .offset(x: 16 + 16.5, y: 16 + 18)
+                    .frame(width: 3, height: grow ? max(0, geo.size.height - 80) : 0)
+                    .offset(x: 18 + 16.5, y: 18 + 18)
             }
         }
         .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.card))
@@ -580,71 +575,175 @@ struct TrialScreen: View {
         .opacity(revealed >= step ? 1 : 0)
         .offset(y: revealed >= step ? 0 : 8)
     }
+}
 
-    /// Preview of the notification sent the day before the end.
-    private var notification: some View {
-        HStack(spacing: 10) {
-            Image("logo")
-                .resizable()
-                .scaledToFill()
-                .frame(width: 30, height: 30)
-                .clipShape(RoundedRectangle(cornerRadius: 7))
-            VStack(alignment: .leading, spacing: 0) {
-                Text("Your trial ends tomorrow")
-                    .font(.figtree(13, .bold))
-                    .foregroundStyle(Palette.ink)
-                Text("Come back to your artworks.")
-                    .font(.figtree(12))
-                    .foregroundStyle(Palette.muted)
-            }
-            Spacer(minLength: 0)
-        }
-        .padding(8)
-        .background(RoundedRectangle(cornerRadius: 14).fill(Palette.mistLight))
+// MARK: - 4 · The paywall
+
+struct TrialScreen: View {
+    @EnvironmentObject private var pro: ProStore
+    @EnvironmentObject private var user: UserStore
+    let offer: TrialOffer
+    /// The same subscription with a longer trial, offered when closing.
+    let extendedOffer: TrialOffer?
+    /// True if the visitor asked to be reminded the day before the trial ends.
+    var reminder: Bool = false
+    let onFinish: () -> Void
+
+    @State private var canClose = false
+    @State private var showExitOffer = OnboardingDebug.flag("onbExitOffer")
+    @State private var exitOfferSeen = false
+    @State private var showPlans = false
+
+    /// Delay before the close button appears, in seconds.
+    private let closeDelay: Double = 6
+
+    /// "Try 3 days for free," highlighted, then the price in plain words.
+    private var offerLine: AttributedString {
+        var free = AttributedString(" Try \(offer.trialDays) days for free, ")
+        free.foregroundColor = Palette.blue
+        free.backgroundColor = Palette.mist
+        var rest = AttributedString(" then \(offer.monthlyPrice) per month (billed yearly at \(offer.yearlyPrice))")
+        rest.foregroundColor = Palette.ink
+        return free + rest
     }
 
-    private var reminderRow: some View {
-        HStack(spacing: 12) {
-            Text(reminder == false ? "Notifications are off. Turn them on in Settings."
-                                   : "Remind me the day before it ends")
-                .font(.figtree(15, .medium))
-                .foregroundStyle(Palette.ink)
-                .fixedSize(horizontal: false, vertical: true)
-            Spacer(minLength: 8)
-            if reminder == true {
-                HStack(spacing: 6) {
-                    Image(systemName: "checkmark").font(.system(size: 12, weight: .bold))
-                    Text("On").font(.figtree(15, .bold))
+    var body: some View {
+        VStack(spacing: 0) {
+            // The close button: discreet, no background, and only after a while.
+            HStack {
+                Button(action: close) {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(Palette.muted.opacity(0.7))
+                        .frame(width: 44, height: 36)
                 }
-                .foregroundStyle(Palette.green)
-                .transition(.opacity)
-            } else if reminder == nil {
-                Button("Turn on") { askReminder() }
-                    .font(.figtree(15, .bold))
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 18)
-                    .frame(height: 38)
-                    .background(Capsule().fill(Palette.blue))
-                    .buttonStyle(.pressable)
+                .buttonStyle(.pressable)
+                .accessibilityLabel("Close and continue for free")
+                .opacity(canClose ? 1 : 0)
+                .disabled(!canClose)
+                Spacer()
+            }
+            .padding(.leading, 8)
+
+            Spacer(minLength: 8)
+
+            ArtImage(name: "ill_premium", anchor: UnitPoint(x: 0.5, y: 0.4))
+                .frame(width: 210, height: 210)
+                .clipShape(RoundedRectangle(cornerRadius: 36, style: .continuous))
+                .enter()
+
+            VStack(spacing: 18) {
+                Text(offerLine)
+                    .font(.figtree(24, .medium))
+                    .lineSpacing(6)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .accessibilityLabel("Try \(offer.trialDays) days for free, then \(offer.monthlyPrice) per month, billed yearly at \(offer.yearlyPrice)")
+
+                Button("View other plans") {
+                    Haptics.tap()
+                    showPlans = true
+                }
+                .font(.figtree(16, .semibold))
+                .foregroundStyle(Palette.muted)
+                .frame(height: 44)
+                .buttonStyle(.pressable)
+            }
+            .padding(.horizontal, 28)
+            .padding(.top, 32)
+            .enter(2)
+
+            Spacer(minLength: 12)
+            Spacer(minLength: 0)
+
+            VStack(spacing: 6) {
+                if let error = pro.lastError {
+                    Text(error)
+                        .font(.aCaption)
+                        .foregroundStyle(Palette.red)
+                        .multilineTextAlignment(.center)
+                }
+                HStack(spacing: 6) {
+                    Image(systemName: "checkmark.shield")
+                    Text("Secured with App Store")
+                }
+                .font(.figtree(14))
+                .foregroundStyle(Palette.muted)
+                .padding(.bottom, 8)
+            }
+            .padding(.horizontal, 24)
+
+            // The action, on a pale blue band
+            VStack(spacing: 0) {
+                Button {
+                    buy(offer)
+                } label: {
+                    if pro.isPurchasing {
+                        ProgressView().tint(.white)
+                    } else {
+                        VStack(spacing: 2) {
+                            Text("Start free trial").font(.figtree(18, .bold))
+                            Text("2 taps to start, super easy to cancel")
+                                .font(.figtree(13))
+                                .foregroundStyle(Color.white.opacity(0.85))
+                        }
+                    }
+                }
+                .buttonStyle(PillButtonStyle(height: 66))
+                .disabled(pro.isPurchasing)
+            }
+            .padding(.horizontal, 16)
+            .padding(.top, 14)
+            .padding(.bottom, 17)
+            .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.mist))
+            .padding(.horizontal, 8)
+
+            HStack(spacing: 0) {
+                if let terms = Legal.terms {
+                    Link("Terms", destination: terms).frame(maxWidth: .infinity)
+                }
+                if let privacy = Legal.privacy {
+                    Link("Privacy Policy", destination: privacy).frame(maxWidth: .infinity)
+                }
+                Button("Restore Purchase") { restore() }.frame(maxWidth: .infinity)
+            }
+            .font(.figtree(13))
+            .foregroundStyle(Palette.muted)
+            .tint(Palette.muted)
+            .frame(height: 40)
+            .padding(.horizontal, 16)
+        }
+        .padding(.bottom, 4)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Palette.bg)
+        .task {
+            try? await Task.sleep(nanoseconds: UInt64(closeDelay * 1_000_000_000))
+            withAnimation(.easeInOut(duration: 0.9)) { canClose = true }
+        }
+        .sheet(isPresented: $showPlans) {
+            PaywallScreen(onClose: {
+                showPlans = false
+                if pro.isPro { onFinish() }
+            })
+        }
+        .sheet(isPresented: $showExitOffer) {
+            if let extendedOffer {
+                ExitOfferSheet(pro: pro, offer: extendedOffer, baseDays: offer.trialDays,
+                               basePrice: offer.yearlyPrice, discount: discount(of: extendedOffer),
+                               firstName: user.profile.firstName,
+                               onAccept: { buy(extendedOffer) },
+                               onDecline: {
+                                   showExitOffer = false
+                                   DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) { onFinish() }
+                               })
+                .presentationDetents([.large])
+                .presentationDragIndicator(.visible)
+                .presentationCornerRadius(34)
             }
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 8)
-        .frame(maxWidth: .infinity, minHeight: 56)
-        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.card))
     }
 
     // MARK: Actions
-
-    private func askReminder() {
-        Task {
-            let granted = await Reminder.requestPermission()
-            await MainActor.run {
-                withAnimation(.gentle) { reminder = granted }
-                if granted { Haptics.success() }
-            }
-        }
-    }
 
     private func close() {
         // One last offer before leaving, only once.
@@ -679,7 +778,7 @@ struct TrialScreen: View {
             let ok = await pro.purchase(product)
             if ok {
                 Haptics.success()
-                if reminder == true { Reminder.scheduleTrialEnding(trialDays: chosen.trialDays) }
+                if reminder { Reminder.scheduleTrialEnding(trialDays: chosen.trialDays) }
                 showExitOffer = false
                 onFinish()
             } else if pro.lastError == nil, !showExitOffer {

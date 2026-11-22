@@ -103,9 +103,10 @@ jobs:
           shoot 16_flashTest flashTest 5 -noSplash YES
           shoot 17_flashResult flashResult 7 -noSplash YES
           shoot 06b_quotesAll quotes 6 -noSplash YES -onbQuotesShown 3
-          shoot 18_learnToLook learnToLook 5 -noSplash YES
-          shoot 18b_study study 5 -noSplash YES
+          shoot 18_study study 5 -noSplash YES -onbShown 2
+          shoot 18b_learnToLook learnToLook 5 -noSplash YES -onbShown 1
           shoot 19_abilities abilities 6 -noSplash YES
+          shoot 19a_abilitiesOpen abilities 6 -noSplash YES -onbShown 2
           shoot 19b_chooseCourse chooseCourse 6 -noSplash YES
           shoot 20_lesson lesson 5 -noSplash YES
           shoot 21_afterLesson afterLesson 9 -noSplash YES
@@ -124,8 +125,9 @@ jobs:
           shoot 33_account account 5 -noSplash YES
           shoot 34_gift gift 5 -noSplash YES
           shoot 35_giftOpen gift 5 -noSplash YES -onbGiftOpen YES
-          shoot 36_noCommitment noCommitment 7 -noSplash YES
-          shoot 37_trial trial 16 -noSplash YES
+          shoot 36_trialNotif trialNotif 7 -noSplash YES
+          shoot 36b_trialTimeline trialTimeline 8 -noSplash YES
+          shoot 37_trial trial 9 -noSplash YES
           shoot 38_exitOffer trial 7 -noSplash YES -onbExitOffer YES
           # App screens, opened with a sample profile. "[captures:app]" takes only these.
           shootApp() {
