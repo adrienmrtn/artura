@@ -1,0 +1,210 @@
+{
+ "teaser": "Dokuz kişi, bir köpek ve sanki seni resmeden bir ressam.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "Bu odada doğrudan sana bakanları say. Ressam bakıyor. Beyazlı küçük kız bakıyor. Sağdaki koyu elbiseli kadın da öyle. Şimdi rahatsız edici soru: 1656'daki bir İspanyol sarayı neden sana bakıyor olsun?"
+  },
+  {
+   "type": "text",
+   "text": "Oda gerçek. Madrid'deki kraliyet sarayı Alcázar'da, Diego Velázquez'in atölyesinin bulunduğu uzun bir galeri. Velázquez 57 yaşında ve otuz yılı aşkın süredir Kral IV. Felipe'nin ressamı. Kendini de resme koymuş: elinde fırça, öyle yüksek bir tuvalin ardında ki yalnızca arka yüzü görünüyor."
+  },
+  {
+   "type": "find",
+   "text": "Bu resimde iki kişi odada ötekilerle birlikte durmuyor. Nerede olduklarını düşünüyorsan dokun.",
+   "spots": [
+    {
+     "title": "Ayna",
+     "text": "Arka duvarda, çevresindeki tablolar karanlıkken tek bir çerçeve parlıyor. Bu bir ayna. İçinde, kırmızı bir perdenin altında, Kral IV. Felipe ile Kraliçe Mariana'nın silik başları görünüyor."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Kral ve kraliçe bize bakan bir aynada görünüyorsa, bizim durduğumuz yerde duruyor olmalılar. Bu bilmeceyi çözüyor ve üç yenisini açıyor. Velázquez onların portresini mi yapıyor? Ayna onları mı yansıtıyor, yoksa üzerinde çalıştığı tuvali mi? Yoksa içeri girip işi mi kesmişler? Resim bunu hiç söylemiyor."
+  },
+  {
+   "type": "key",
+   "text": "Las Meninas en önemli kişileri resmin dışına, senin yerine koyuyor. Bir sahneye bakmıyorsun. Sahnenin içinde duruyorsun."
+  },
+  {
+   "type": "fact",
+   "text": "Yaklaşık iki yüzyıl boyunca resmin şiirsel bir adı yoktu. Saray envanterleri ona “IV. Felipe'nin Ailesi” diyordu. Las Meninas başlığı ancak 1843 tarihli bir Prado kataloğunda ortaya çıktı. Menina, kraliyet çocuğuna hizmet eden genç bir soylu kızdı."
+  },
+  {
+   "type": "text",
+   "text": "Ortadaki kız, beş yaşındaki Infanta Margarita, kralın kızı. Çevresindeki herkesin sarayda bir görevi var ve Velázquez her birini adıyla tanıyordu. Grubu canlı kılan şey, hiçbirinin gözleriyle aynı şeyi yapmıyor olması."
+  },
+  {
+   "type": "tour",
+   "title": "Bakmanın dört yolu",
+   "text": "Bakışları odanın bir ucundan öbürüne, ressamdan uzaktaki kapıya kadar izle.",
+   "spots": [
+    {
+     "title": "Ressam",
+     "text": "Velázquez tuvalinden geriye yaslanmış, fırçası havada. Bu, bir modeli şimdiye dek resmettikleriyle karşılaştıran birinin bakışı. Model, tam senin durduğun yerde."
+    },
+    {
+     "title": "Infanta",
+     "text": "Başı sola dönük ama gözleri bize doğru kayıyor; odaya daha ilginç bir şey girince çocukların yaptığı gibi."
+    },
+    {
+     "title": "Maribárbola",
+     "text": "Koyu mavili, Almanya'dan gelme bir saray cücesi. Bize tam karşıdan ve resmiyetsizce bakıyor; resmin en sabit bakışı."
+    },
+    {
+     "title": "Merdivendeki adam",
+     "text": "Aydınlık kapı aralığında, kraliçenin saray nazırı José Nieto basamaklarda durmuş, geriye bakıyor. Her şeyi görebilen tek kişi o: oda, tuval ve kraliyet çifti."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Kimi fark etmiş, kimi henüz değil. Solda diz çöken hizmetçi hâlâ infantayla meşgul. En sağdaki çocuk ayağıyla köpeği dürtüyor. Bu karışım yüzünden sahne, ilk fotoğraf makinesinden iki yüz yıl önce havada yakalanmış tek bir saniye gibi duruyor."
+  },
+  {
+   "type": "text",
+   "text": "Bu çekiciliğin ardında bir hırs var. İspanya'da resim hâlâ vergiye tabiydi ve marangozluk gibi bir el sanatı sayılıyordu. Velázquez onun soylu bir sanat olarak, kendisinin de soylu bir adam olarak tanınmasını istiyordu. Bu yüzden ressamı çalışırken değil düşünürken, kraliyet mensuplarının arasında rahat ve odadaki herkes kadar uzun boylu gösteriyor."
+  },
+  {
+   "type": "fact",
+   "text": "Velázquez'in göğsündeki kırmızı haç, Santiago Tarikatı'nın nişanı; resim bittikten üç yıl sonra, 1659'da aldığı bir şövalyelik unvanı. Haç sonradan eklendi. Bir efsaneye göre onu kral kendi eliyle çizmiş."
+  },
+  {
+   "type": "text",
+   "text": "Şimdi insanları unut ve tuvalin nasıl bölündüğüne bak. Bir grup portresi için tuhaf kurulmuş: büyük bir kısmında hiç kimse yok."
+  },
+  {
+   "type": "lines",
+   "text": "Üç çizgi, odanın nasıl düzenlendiğini gösteriyor.",
+   "lines": [
+    {
+     "label": "Boş yarı",
+     "text": "Bu çizginin üstündeki her şey tavan, gölge ve loş tablolar. On bir figürün hepsi alt yarıda yaşıyor. Üstlerindeki karanlık boşluk, odayı bu kadar yüksek ve bu kadar sessiz hissettiren şey."
+    },
+    {
+     "label": "Baş dalgası",
+     "text": "Başları ressamdan çocuğa kadar birleştirirsen inen, çıkan, yine inen bir çizgi elde edersin. Resmî bir portredeki gibi kimse hizaya dizilmemiş."
+    },
+    {
+     "label": "Sağdan ışık",
+     "text": "Gün ışığı, göremediğimiz sağdaki bir pencereden giriyor. En sert infantanın soluk saçına ve elbisesine düşüyor; böylece en büyük figür olmaya gerek duymadan parlıyor."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "İkinci bir ışık, herkesin çok gerisindeki açık kapıdan geliyor. Bu iki ışığın arasında Velázquez, resmi en zor şeyi resmediyor: havanın kendisini. Figürler derine indikçe, uzun ve tozlu bir odada olacakları gibi, yumuşuyor ve grileşiyor."
+  },
+  {
+   "type": "text",
+   "text": "Bunu şaşırtıcı derecede az şeyle yapıyor. Madrid'deki galerinin karşı ucundan bakınca ipekler dikilmiş ve kolalanmış görünür. Yaklaşık 3,2 metre yüksekliğindeki tuvale yaklaştığında elbiseler gevşek fırça darbelerine ve sürmelere dönüşür. Ayrıntıyı yüzey değil, senin gözün yaratıyor."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Kırmızı haç",
+     "text": "Siyah ceketin üstüne, resmin geri kalanından birkaç yıl sonra çizilen Santiago Haçı."
+    },
+    {
+     "title": "Bir bardak su",
+     "text": "Diz çöken menina María Agustina Sarmiento, infantaya bir tepsi üstünde küçük kırmızı bir kil kap uzatıyor. Böyle kokulu kil kaplar, serin su içmenin moda yoluydu."
+    },
+    {
+     "title": "Gizli tuval",
+     "text": "Yalnızca ahşap şasi ve kumaşın çıplak arkası görünüyor. Las Meninas'ın kendisi kadar yüksek; bu yüzden birçok kişi, onun üzerinde çalıştığı resmin bu olup olmadığını merak etmiş."
+    },
+    {
+     "title": "Mastif",
+     "text": "Büyük, uykulu bir İspanyol mastifi, çocuğun ayağı altında sabırlı. Tüyü birkaç geniş, kuru fırça darbesiyle çekilmiş."
+    },
+    {
+     "title": "Nicolasito",
+     "text": "Sarayın genç İtalyan cücesi Nicolasito Pertusato köpeği dürtüyor. Odadaki tek gerçek hareket onunki."
+    },
+    {
+     "title": "Gölgedeki ikili",
+     "text": "Beyaz dul başlığı takmış bir refakatçi, zar zor orada olan bir muhafızla konuşuyor; muhafızın yüzü bir bulanıklık olarak bırakılmış. Velázquez yarı karanlığın onları yutmasına izin veriyor."
+    },
+    {
+     "title": "İkinci menina",
+     "text": "Isabel de Velasco reverans yapmaya başlıyor. Bedeni infantaya doğru eğiliyor ama gözleri çoktan ziyaretçilere gitmiş."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "1734 Noel arifesinde Alcázar yandı. Yüzlerce resim kayboldu. Las Meninas kurtarıldı, hasar gördü ve sonradan kenarlarından kırpıldı. Gösterdiği saray artık yok: yerinde Madrid Kraliyet Sarayı duruyor."
+  },
+  {
+   "type": "text",
+   "text": "Ressamlar o günden beri bu tuvalin çevresinde dönüp duruyor. İtalyan Luca Giordano, bir kuşak sonra onu görünce “resmin teolojisi” dedi: sanatın yapabileceği en yüce şey. 1957'de Picasso aylarca kendini kapatıp ona 58 varyasyon yaptı, onu figür figür söküp ayırarak."
+  },
+  {
+   "type": "text",
+   "text": "Velázquez onu bitirdikten dört yıl sonra, 1660'ta öldü ve hiçbir açıklama bırakmadı. Yani ilk soru hâlâ ortada. Las Meninas'ın karşısında durduğunda sen kimsin: kral mı, kraliçe mi, kapıdaki bir ziyaretçi mi, yoksa ressamın incelemeye karar verdiği sıradaki kişi mi?"
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Arka duvardaki aynada kim görünüyor?",
+   "options": [
+    "Velázquez ve eşi",
+    "Kral IV. Felipe ile Kraliçe Mariana",
+    "İnfantanın iki kardeşi"
+   ],
+   "explanation": "Parlayan çerçeve, kraliyet çiftini gösteren bir ayna; çift, izleyicinin durduğu yerde duruyor olmalı."
+  },
+  {
+   "question": "“Menina” sözcüğü İspanyol sarayında ne demekti?",
+   "options": [
+    "Kraliyet çocuğuna hizmet eden genç bir soylu kız",
+    "Saray ressamının yardımcısı",
+    "Tahtı devralacak bir prenses"
+   ],
+   "explanation": "Meninalar, infantaya eşlik eden ikisi gibi genç nedimelerdi."
+  },
+  {
+   "question": "Ressamın göğsündeki kırmızı haç neden şaşırtıcı?",
+   "options": [
+    "Tarikatının rengine uymuyor",
+    "Picasso tarafından yapılmış",
+    "O şövalyelik unvanını resmi bitirdikten üç yıl sonra aldı"
+   ],
+   "explanation": "Santiago Tarikatı'na 1659'da girdi, yani haç sonradan eklendi."
+  },
+  {
+   "question": "Tuvalin üst yarısı nasıl kullanılmış?",
+   "options": [
+    "Meleklerle dolu",
+    "Neredeyse boş: tavan, gölge ve loş tablolar",
+    "İkinci bir saray mensupları sırası gösteriyor"
+   ],
+   "explanation": "Bütün figürler alt yarıda; üstteki karanlık boşluk odayı yüksek ve sessiz hissettiriyor."
+  },
+  {
+   "question": "Picasso 1957'de Las Meninas'la ne yaptı?",
+   "options": [
+    "Ona 58 varyasyon yaptı",
+    "Prado için restore etti",
+    "Bir kopyasını satın aldı"
+   ],
+   "explanation": "Aylarca kompozisyon üzerinde çalışıp 58 tuvalden oluşan bir seri yaptı."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Resme, Velázquez onu bitirdiğinden beri Las Meninas deniyor.",
+   "explanation": "“IV. Felipe'nin Ailesi” olarak kayıtlıydı; bugünkü adını ancak 1843'te aldı."
+  },
+  {
+   "text": "Las Meninas, yapıldığı sarayı yok eden yangından sağ çıktı.",
+   "explanation": "Madrid Alcázar'ı 1734'te yanarken kurtarıldı."
+  },
+  {
+   "text": "Sahnedeki ana ışık tavandaki bir avizeden geliyor.",
+   "explanation": "Gün ışığı sağdaki, görünmeyen bir pencereden geliyor; ikinci ışık da arkadaki kapıdan."
+  }
+ ]
+}
