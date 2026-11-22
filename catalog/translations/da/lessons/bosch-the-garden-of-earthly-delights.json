@@ -1,0 +1,242 @@
+{
+ "teaser": "En mand af æggeskal og træstammer ser tilbage på dig fra helvede. Ingen ved hvorfor.",
+ "lesson": [
+  {
+   "type": "text",
+   "text": "En mand står i mørket med fødderne i to små både. Hans ben er hule træstammer. Hans krop er en revnet æggeskal med en kro indeni, og på hovedet sidder en skive, hvor dæmoner paraderer rundt om en lyserød sækkepibe. Han drejer sit blege ansigt over skulderen, næsten morskab i blikket."
+  },
+  {
+   "type": "find",
+   "text": "Dette væsen gemmer sig et sted i maleriet herunder. Kan du få øje på ham?",
+   "spots": [
+    {
+     "title": "Træmanden",
+     "text": "Man kalder ham Træmanden. Nogle historikere har en mistanke om, at ansigtet er Boschs eget, selv om intet beviser det. Husk det blik over skulderen: vi vender tilbage til det."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Træd nu et skridt tilbage. Træmanden er ét væsen blandt hundreder i et triptykon, et maleri bestående af tre ophængte paneler. Åbent måler det cirka 2,2 gange 3,9 meter. Hieronymus Bosch malede det i olie på eg omkring 1500."
+  },
+  {
+   "type": "fact",
+   "text": "Fold de to sidepaneler i, og farverne forsvinder. På ydersiden ses Jorden som en grå, gennemsigtig kugle halvt fyldt med vand, formentlig verden på skabelsens tredje dag, før dyr og mennesker. At åbne det var tænkt som et chok."
+  },
+  {
+   "type": "text",
+   "text": "Triptykoner stod som regel på kirkealtre. Dette gjorde næsten helt sikkert aldrig: det er første gang nævnt i 1517 i en adelsmands palads i Bruxelles, som pragtstykke for gæster. Det læses som en sætning, fra venstre mod højre, og Bosch har bygget nogle fingerpeg ind til at guide dig."
+  },
+  {
+   "type": "lines",
+   "text": "Tre fingerpeg om, hvordan panelerne hænger sammen.",
+   "lines": [
+    {
+     "label": "Én horisont",
+     "text": "Det venstre og det midterste panel deler den samme horisont, det samme græs, den samme himmel. Den myldrende have i midten vokser direkte ud af Eden."
+    },
+    {
+     "label": "Hvor det brister",
+     "text": "Ved denne hængsel stopper landskabet. Ingen horisont, intet grønt, intet dagslys: det højre panel er en nat, der kun oplyses af brande."
+    },
+    {
+     "label": "Tre centre",
+     "text": "Hvert panel har en mærkelig konstruktion i hjertet: en lyserød fontæne, en blå kugle, Træmanden. Først en livets kilde, så et skrøbeligt legetøj, så en hul skal."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Bosch var ikke hans familienavn. Han blev født som Jheronimus van Aken og signerede med en kortform af sin fødeby, 's-Hertogenbosch, i det nuværende Holland. Han tilbragte næsten hele sit liv dér, i et hus ved torvet."
+  },
+  {
+   "type": "text",
+   "text": "Så historien løber fra en begyndelse til en slutning: Paradis, så en have af nydelser, så straf. Det lyder enkelt. Det bliver mindre enkelt, når man undersøger selve Paradis, der burde være billedets eneste fredfyldte sted."
+  },
+  {
+   "type": "tour",
+   "title": "Ballade i Paradis",
+   "text": "Gud har lige skabt Eva. Set på afstand ser alt på det venstre panel roligt ud.",
+   "spots": [
+    {
+     "title": "Præsentationen",
+     "text": "Gud, vist ung som Kristus, holder Eva i håndleddet og præsenterer hende for Adam, der lige er vågnet. Adam stirrer. Mange beskuere læser det blik som den første gnist af begær."
+    },
+    {
+     "title": "Uglen",
+     "text": "I det mørke hul i foden af den lyserøde fontæne sidder en ugle. I Boschs tid var en ugle lige så meget en natfugl med dårligt varsel som en vis en. Den kigger med fra Edens præcise midte."
+    },
+    {
+     "title": "Katten",
+     "text": "En kat går afsted med et lille dyr i kæften. I nærheden kravler væsener op af en mørk dam, og fugle skændes. Drabet er allerede begyndt, før nogen har rørt et æble."
+    },
+    {
+     "title": "Giraffen",
+     "text": "Bosch så aldrig en giraf eller en elefant. Han har sandsynligvis kopieret dem fra rejsendes tegninger, og derfor er denne hvid og lidt forkert. Eden er fyldt med de sjældneste ting, han kendte."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Paradis rummer allerede et rovdyr og en vågen ugle. Bosch ser ud til at sige, at ballade ikke begyndte i haven ved siden af: den blev plantet på første dag. Med det in mente bliver det enorme midterpanel sværere at bedømme."
+  },
+  {
+   "type": "text",
+   "text": "Hundreder af nøgne mænd og kvinder rider på dyr, bader, nipper til kæmpebær og kravler ind i skaller. Ingen er gamle, ingen arbejder, ingen synes at skamme sig. Intet dokument fortæller os, hvad Bosch mente, og forskerne er stadig uenige: en advarsel mod begær eller en drøm om verden, som den kunne være, hvis menneskene aldrig havde syndet?"
+  },
+  {
+   "type": "text",
+   "text": "Uanset hvad du vælger, ligger beviserne i de små ting, og der er alt for mange til en guidet rundtur. Strejf selv rundt i haven. Hold øje med frugt og fugle, der er større end mennesker, og med alt, der er lavet af glas."
+  },
+  {
+   "type": "explore",
+   "spots": [
+    {
+     "title": "Den blå kugle",
+     "text": "Midt i søen svæver en blå kugle med lyserøde spir. Små skikkelser klatrer på den og sidder i dens åbninger. Den ser både storslået og skrøbelig ud."
+    },
+    {
+     "title": "Den endeløse tur",
+     "text": "Kvinder bader i en rund pøl, mens mænd cirkler om dem på heste, vildsvin, en kamel og endnu mærkeligere dyr. Rundt og rundt uden at nå nogen steder: en karrusel af at vise sig frem."
+    },
+    {
+     "title": "Elskende i en boble",
+     "text": "Et par sidder inde i en gennemsigtig kugle, der vokser ud af en plante som en sæbeboble. Et hollandsk ordsprog fra tiden sammenlignede lykke med glas: det går hurtigt i stykker."
+    },
+    {
+     "title": "Kæmpefugle",
+     "text": "En isfugl, en stillits og andre fugle tårner sig op over de badende ved vandkanten. Størrelsesforholdet er vendt om: her er menneskene de små dyr."
+    },
+    {
+     "title": "Muslingeskallen",
+     "text": "En mand bærer en kæmpe muslingeskal på ryggen, med mennesker lukket inde i den. Skaller, bælge og hule frugter fungerer som gemmesteder overalt i haven."
+    },
+    {
+     "title": "Uglen igen",
+     "text": "En ugle sidder over en ring af dansere. Fuglen, der så til fra fontænen i Eden, er fulgt med os ind i haven."
+    },
+    {
+     "title": "Kæmpebæret",
+     "text": "Skikkelser klynger sig om et rødt bær, næsten så stort som dem selv. Sødt, skinnende og rådnet på få dage: et fint billede på en nydelse, der ikke varer."
+    }
+   ]
+  },
+  {
+   "type": "key",
+   "text": "Alt i haven er lækkert og skrøbeligt: frugt, der rådner, glas, der går i stykker, bobler, der brister. Uanset om Bosch misbilligede eller dagdrømte, malede han nydelse som noget, der ikke kan vare."
+  },
+  {
+   "type": "fact",
+   "text": "I århundreder kaldte ingen det Lysternes have. Bosch efterlod ingen titel. Tidlige spanske beskrivelser opkaldte billedet efter dets frugt, som jordbærmaleriet, og den titel, vi bruger i dag, slog igennem meget senere."
+  },
+  {
+   "type": "text",
+   "text": "Hvordan holdt han så mange små scener klare og læsbare? Bosch arbejdede i tynde, næsten gennemsigtige lag af oliemaling over en hvid grund, hvilket får farverne til at gløde som emalje. Tekniske skanninger viser, at han skiftede mening undervejs og tegnede figurerne om direkte på panelet."
+  },
+  {
+   "type": "text",
+   "text": "Så kommer regningen. På det højre panel slukkes lysene, og de samme arter, der legede i haven, bliver jagtet, spist og hånet. Boschs grusomste idé er, at de ting, folk nød, bliver de redskaber, der gør dem ondt. Begynd med musikken."
+  },
+  {
+   "type": "tour",
+   "title": "Natsiden",
+   "text": "Tre stop i mørket, fra toppen af panelet og nedad.",
+   "spots": [
+    {
+     "title": "Ører og en klinge",
+     "text": "To kæmpeører bærer en kniv mellem sig som en krigsmaskine, der ruller hen over de fordømte. Hvad det betyder, er enhver gætværk, og det er en del af dens kraft."
+    },
+    {
+     "title": "Musiktimen",
+     "text": "Under en kæmpelut og en harpe ligger en synder knust, med en nodepartitur skrevet hen over sin bagdel. Nydelsens instrumenter er blevet torturredskaber."
+    },
+    {
+     "title": "Fuglehovedprinsen",
+     "text": "Et blåt uhyre med fuglehoved og en kedel til hat sidder på en høj stol og sluger et menneske hel. Han kaldes ofte Helvedes Fyrste."
+    }
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Noderne på den synders bagdel kan læses. I 2014 transskriberede en musikstuderende i Oklahoma, Amelia Hamrick, dem og lagde en optagelse ud på nettet. Den spredte sig over hele verden under en uofficiel titel: numsesangen fra helvede."
+  },
+  {
+   "type": "text",
+   "text": "Maleriet blev hurtigt en trofæ. Kong Filip 2. af Spanien, en hengiven Bosch-samler, lod det sende til sit kloster-palads El Escorial i 1593. Det kom til Prado i Madrid i 1930'erne. Fire århundreder efter Bosch gjorde surrealisterne, drømmemalere som Salvador Dalí, krav på ham som forfader."
+  },
+  {
+   "type": "text",
+   "text": "Vend tilbage til Træmanden. Alle andre i helvede har for travlt med at lide til at lægge mærke til noget. Han alene kigger tilbage, over sin ødelagte krop, mod haven og mod dig. En advarsel, en fortrydelse eller et svagt smil fra en maler, der nyder sin egen opfindelse? Bosch sagde det aldrig."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Hvad er et triptykon?",
+   "options": [
+    "Et maleri bestående af tre ophængte paneler",
+    "Et maleri med tre figurer",
+    "Et maleri lavet på tre dage"
+   ],
+   "explanation": "Lysternes have er tre egepaneler forbundet med hængsler, så siderne kan foldes i."
+  },
+  {
+   "question": "Hvad har det venstre og det midterste panel til fælles?",
+   "options": [
+    "Den samme skare af figurer",
+    "Den samme nattehimmel",
+    "Den samme horisont og det samme landskab"
+   ],
+   "explanation": "Horisonten løber hen over begge, så haven ser ud til at vokse ud af Eden."
+  },
+  {
+   "question": "Hvad sidder i det mørke hul i fontænen i Eden?",
+   "options": [
+    "En slange",
+    "En ugle",
+    "En kat"
+   ],
+   "explanation": "En ugle holder øje fra midten af Paradis, og en anden dukker op i den centrale have."
+  },
+  {
+   "question": "Hvad ses, når sidepanelerne er lukket?",
+   "options": [
+    "Et portræt af Bosch",
+    "Jorden som en grå kugle",
+    "En anden have"
+   ],
+   "explanation": "Ydersiden viser en farveløs kugle, formentlig verden på skabelsens tredje dag."
+  },
+  {
+   "question": "Hvad er skrevet på en synders bagdel i helvedespanelet?",
+   "options": [
+    "En bøn",
+    "Boschs signatur",
+    "Et nodepartitur"
+   ],
+   "explanation": "Noderne kan læses, og en studerende transskriberede og indspillede dem i 2014."
+  },
+  {
+   "question": "Hvilken spansk konge sendte maleriet til El Escorial?",
+   "options": [
+    "Filip 2.",
+    "Karl 5.",
+    "Filip 4."
+   ],
+   "explanation": "Filip 2., en ivrig Bosch-samler, lod det sende dertil i 1593."
+  }
+ ],
+ "facts": [
+  {
+   "text": "Bosch gav maleriet titlen Lysternes have.",
+   "explanation": "Han efterlod ingen titel; tidlige spanske beskrivelser opkaldte det efter dets jordbær."
+  },
+  {
+   "text": "Bosch tog sit navn fra sin fødeby.",
+   "explanation": "Han blev født som Jheronimus van Aken og signerede efter 's-Hertogenbosch."
+  },
+  {
+   "text": "Dokumenter fra Boschs tid forklarer, hvad midterpanelet betyder.",
+   "explanation": "Der findes intet sådant dokument, og forskerne er stadig uenige om det."
+  }
+ ]
+}
