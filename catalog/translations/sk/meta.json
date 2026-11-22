@@ -1,0 +1,780 @@
+{
+ "artworks": {
+  "thutmose-bust-of-nefertiti": {
+   "title": "Busta Nefertiti",
+   "artist": "Thutmose",
+   "year_label": "1345 pred Kr.",
+   "museum": "Neues Museum, Berlín"
+  },
+  "mask-of-tutankhamun": {
+   "title": "Maska Tutanchamona",
+   "artist": "Neznámy autor (Egypt)",
+   "year_label": "1323 pred Kr.",
+   "museum": "Veľké egyptské múzeum, Gíza"
+  },
+  "winged-victory-of-samothrace": {
+   "title": "Níké zo Samothráke",
+   "artist": "Neznámy autor (Grécko)",
+   "year_label": "190 pred Kr.",
+   "museum": "Louvre, Paríž"
+  },
+  "antioch-venus-de-milo": {
+   "title": "Venuša Miloská",
+   "artist": "Alexandros z Antiochie",
+   "year_label": "120 pred Kr.",
+   "museum": "Louvre, Paríž"
+  },
+  "giotto-lamentation-the-mourning-of-christ": {
+   "title": "Oplakávanie Krista",
+   "artist": "Giotto",
+   "year_label": "1305",
+   "museum": "Scrovegniho kaplnka, Padova"
+  },
+  "brothers-tres-riches-heures-du-duc-de-berry": {
+   "title": "Très Riches Heures du Duc de Berry: január",
+   "artist": "Bratia z Limbourgu",
+   "year_label": "1416",
+   "museum": "Musée Condé, Chantilly"
+  },
+  "eyck-arnolfini-portrait": {
+   "title": "Portrét manželov Arnolfiniovcov",
+   "artist": "Jan van Eyck",
+   "year_label": "1434",
+   "museum": "National Gallery, Londýn"
+  },
+  "weyden-the-descent-from-the-cross": {
+   "title": "Zosňatie z kríža",
+   "artist": "Rogier van der Weyden",
+   "year_label": "1435",
+   "museum": "Prado, Madrid"
+  },
+  "bosch-the-garden-of-earthly-delights": {
+   "title": "Záhrada pozemských radostí",
+   "artist": "Hieronymus Bosch",
+   "year_label": "1500",
+   "museum": "Prado, Madrid"
+  },
+  "botticelli-the-birth-of-venus": {
+   "title": "Zrodenie Venuše",
+   "artist": "Sandro Botticelli",
+   "year_label": "1485",
+   "museum": "Uffizi, Florencia"
+  },
+  "vinci-mona-lisa": {
+   "title": "Mona Lisa",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1503",
+   "museum": "Louvre, Paríž"
+  },
+  "vinci-the-last-supper": {
+   "title": "Posledná večera",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1498",
+   "museum": "Santa Maria delle Grazie, Miláno"
+  },
+  "vinci-vitruvian-man": {
+   "title": "Vitruviánsky muž",
+   "artist": "Leonardo da Vinci",
+   "year_label": "1490",
+   "museum": "Gallerie dell'Accademia, Benátky"
+  },
+  "michelangelo-the-creation-of-adam": {
+   "title": "Stvorenie Adama",
+   "artist": "Michelangelo",
+   "year_label": "1512",
+   "museum": "Sixtínska kaplnka, Vatikán"
+  },
+  "michelangelo-david": {
+   "title": "Dávid",
+   "artist": "Michelangelo",
+   "year_label": "1504",
+   "museum": "Galleria dell'Accademia, Florencia"
+  },
+  "michelangelo-pieta": {
+   "title": "Pietà",
+   "artist": "Michelangelo",
+   "year_label": "1499",
+   "museum": "Bazilika svätého Petra, Vatikán"
+  },
+  "raphael-the-school-of-athens": {
+   "title": "Aténska škola",
+   "artist": "Raffaello Santi",
+   "year_label": "1511",
+   "museum": "Vatikánske múzeá, Vatikán"
+  },
+  "titian-venus-of-urbino": {
+   "title": "Venuša Urbinská",
+   "artist": "Tizian",
+   "year_label": "1538",
+   "museum": "Uffizi, Florencia"
+  },
+  "durer-young-hare": {
+   "title": "Mladý zajac",
+   "artist": "Albrecht Dürer",
+   "year_label": "1502",
+   "museum": "Albertina, Viedeň"
+  },
+  "younger-the-ambassadors": {
+   "title": "Vyslanci",
+   "artist": "Hans Holbein mladší",
+   "year_label": "1533",
+   "museum": "National Gallery, Londýn"
+  },
+  "elder-the-hunters-in-the-snow": {
+   "title": "Lovci v snehu",
+   "artist": "Pieter Bruegel starší",
+   "year_label": "1565",
+   "museum": "Kunsthistorisches Museum, Viedeň"
+  },
+  "elder-the-tower-of-babel": {
+   "title": "Babylonská veža",
+   "artist": "Pieter Bruegel starší",
+   "year_label": "1563",
+   "museum": "Kunsthistorisches Museum, Viedeň"
+  },
+  "parmigianino-madonna-with-the-long-neck": {
+   "title": "Madona s dlhým krkom",
+   "artist": "Parmigianino",
+   "year_label": "1540",
+   "museum": "Uffizi, Florencia"
+  },
+  "greco-the-burial-of-the-count-of-orgaz": {
+   "title": "Pohreb grófa z Orgazu",
+   "artist": "El Greco",
+   "year_label": "1586",
+   "museum": "Santo Tomé, Toledo"
+  },
+  "arcimboldo-vertumnus": {
+   "title": "Vertumnus",
+   "artist": "Giuseppe Arcimboldo",
+   "year_label": "1591",
+   "museum": "Zámok Skokloster, Švédsko"
+  },
+  "caravaggio-the-calling-of-saint-matthew": {
+   "title": "Povolanie svätého Matúša",
+   "artist": "Caravaggio",
+   "year_label": "1600",
+   "museum": "San Luigi dei Francesi, Rím"
+  },
+  "gentileschi-judith-slaying-holofernes": {
+   "title": "Judita zabíja Holofernesa",
+   "artist": "Artemisia Gentileschi",
+   "year_label": "1620",
+   "museum": "Uffizi, Florencia"
+  },
+  "velazquez-las-meninas": {
+   "title": "Las Meninas",
+   "artist": "Diego Velázquez",
+   "year_label": "1656",
+   "museum": "Prado, Madrid"
+  },
+  "rubens-the-three-graces": {
+   "title": "Tri Gracie",
+   "artist": "Peter Paul Rubens",
+   "year_label": "1635",
+   "museum": "Prado, Madrid"
+  },
+  "bernini-apollo-and-daphne": {
+   "title": "Apolón a Dafné",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1625",
+   "museum": "Galleria Borghese, Rím"
+  },
+  "bernini-ecstasy-of-saint-teresa": {
+   "title": "Extáza svätej Terézie",
+   "artist": "Gian Lorenzo Bernini",
+   "year_label": "1652",
+   "museum": "Santa Maria della Vittoria, Rím"
+  },
+  "rembrandt-the-night-watch": {
+   "title": "Nočná hliadka",
+   "artist": "Rembrandt",
+   "year_label": "1642",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "rembrandt-the-anatomy-lesson-of-dr-nicolaes-tulp": {
+   "title": "Anatómia doktora Tulpa",
+   "artist": "Rembrandt",
+   "year_label": "1632",
+   "museum": "Mauritshuis, Haag"
+  },
+  "vermeer-girl-with-a-pearl-earring": {
+   "title": "Dievča s perlovou náušnicou",
+   "artist": "Johannes Vermeer",
+   "year_label": "1665",
+   "museum": "Mauritshuis, Haag"
+  },
+  "vermeer-the-milkmaid": {
+   "title": "Mliekarka",
+   "artist": "Johannes Vermeer",
+   "year_label": "1660",
+   "museum": "Rijksmuseum, Amsterdam"
+  },
+  "fabritius-the-goldfinch": {
+   "title": "Stehlík",
+   "artist": "Carel Fabritius",
+   "year_label": "1654",
+   "museum": "Mauritshuis, Haag"
+  },
+  "watteau-pilgrimage-to-cythera": {
+   "title": "Púť na ostrov Cythéra",
+   "artist": "Antoine Watteau",
+   "year_label": "1717",
+   "museum": "Louvre, Paríž"
+  },
+  "fragonard-the-swing": {
+   "title": "Hojdačka",
+   "artist": "Jean-Honoré Fragonard",
+   "year_label": "1767",
+   "museum": "Wallace Collection, Londýn"
+  },
+  "brun-self-portrait-in-a-straw-hat": {
+   "title": "Autoportrét v slamenom klobúku",
+   "artist": "Élisabeth Vigée Le Brun",
+   "year_label": "1782",
+   "museum": "National Gallery, Londýn"
+  },
+  "david-the-death-of-marat": {
+   "title": "Maratova smrť",
+   "artist": "Jacques-Louis David",
+   "year_label": "1793",
+   "museum": "Kráľovské múzeá výtvarných umení Belgicka, Brusel"
+  },
+  "david-napoleon-crossing-the-alps": {
+   "title": "Napoleon prechádza cez Alpy",
+   "artist": "Jacques-Louis David",
+   "year_label": "1801",
+   "museum": "Zámok Malmaison"
+  },
+  "ingres-grande-odalisque": {
+   "title": "Veľká odaliska",
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "year_label": "1814",
+   "museum": "Louvre, Paríž"
+  },
+  "canova-psyche-revived-by-cupid-s-kiss": {
+   "title": "Psyché oživená Amorovým bozkom",
+   "artist": "Antonio Canova",
+   "year_label": "1793",
+   "museum": "Louvre, Paríž"
+  },
+  "goya-the-third-of-may-1808": {
+   "title": "Tretí máj 1808",
+   "artist": "Francisco Goya",
+   "year_label": "1814",
+   "museum": "Prado, Madrid"
+  },
+  "delacroix-liberty-leading-the-people": {
+   "title": "Sloboda vedie ľud",
+   "artist": "Eugène Delacroix",
+   "year_label": "1830",
+   "museum": "Louvre, Paríž"
+  },
+  "gericault-the-raft-of-the-medusa": {
+   "title": "Plť Medúzy",
+   "artist": "Théodore Géricault",
+   "year_label": "1819",
+   "museum": "Louvre, Paríž"
+  },
+  "friedrich-wanderer-above-the-sea-of-fog": {
+   "title": "Pútnik nad morom hmly",
+   "artist": "Caspar David Friedrich",
+   "year_label": "1818",
+   "museum": "Hamburger Kunsthalle"
+  },
+  "turner-the-fighting-temeraire": {
+   "title": "Bojovný Temeraire",
+   "artist": "J. M. W. Turner",
+   "year_label": "1839",
+   "museum": "National Gallery, Londýn"
+  },
+  "hayez-the-kiss": {
+   "title": "Bozk",
+   "artist": "Francesco Hayez",
+   "year_label": "1859",
+   "museum": "Pinacoteca di Brera, Miláno"
+  },
+  "hokusai-the-great-wave-off-kanagawa": {
+   "title": "Veľká vlna pri Kanagawe",
+   "artist": "Katsušika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hokusai-fine-wind-clear-morning-red-fuji": {
+   "title": "Jasný vietor, jasné ráno (Červený Fudži)",
+   "artist": "Katsušika Hokusai",
+   "year_label": "1831",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "hiroshige-sudden-shower-over-shin-ohashi-bridge-and-atake": {
+   "title": "Náhly dážď nad mostom Šin-Óhaši a Atake",
+   "artist": "Utagawa Hirošige",
+   "year_label": "1857",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "zeduan-along-the-river-during-the-qingming-festival": {
+   "title": "Pozdĺž rieky počas sviatku Čching-ming",
+   "artist": "Čang Ce-tuan",
+   "year_label": "1100",
+   "museum": "Palácové múzeum, Peking"
+  },
+  "sotatsu-wind-god-and-thunder-god": {
+   "title": "Boh vetra a boh hromu",
+   "artist": "Tawaraya Sótacu",
+   "year_label": "1630",
+   "museum": "Kennin-dži, Kjóto"
+  },
+  "courbet-the-desperate-man": {
+   "title": "Zúfalý muž",
+   "artist": "Gustave Courbet",
+   "year_label": "1845",
+   "museum": "Súkromná zbierka"
+  },
+  "millet-the-gleaners": {
+   "title": "Zberačky klasov",
+   "artist": "Jean-François Millet",
+   "year_label": "1857",
+   "museum": "Musée d'Orsay, Paríž"
+  },
+  "manet-olympia": {
+   "title": "Olympia",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Musée d'Orsay, Paríž"
+  },
+  "manet-le-dejeuner-sur-l-herbe": {
+   "title": "Obed v tráve",
+   "artist": "Édouard Manet",
+   "year_label": "1863",
+   "museum": "Musée d'Orsay, Paríž"
+  },
+  "wood-american-gothic": {
+   "title": "Americká gotika",
+   "artist": "Grant Wood",
+   "year_label": "1930",
+   "museum": "Art Institute of Chicago"
+  },
+  "sargent-madame-x": {
+   "title": "Madame X",
+   "artist": "John Singer Sargent",
+   "year_label": "1884",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "whistler-arrangement-in-grey-and-black-no-1-whistler-s-mother": {
+   "title": "Aranžmán v sivej a čiernej č. 1 (Whistlerova matka)",
+   "artist": "James McNeill Whistler",
+   "year_label": "1871",
+   "museum": "Musée d'Orsay, Paríž"
+  },
+  "millais-ophelia": {
+   "title": "Ofélia",
+   "artist": "John Everett Millais",
+   "year_label": "1852",
+   "museum": "Tate Britain, Londýn"
+  },
+  "waterhouse-the-lady-of-shalott": {
+   "title": "Dáma zo Shalott",
+   "artist": "John William Waterhouse",
+   "year_label": "1888",
+   "museum": "Tate Britain, Londýn"
+  },
+  "cabanel-the-birth-of-venus": {
+   "title": "Zrodenie Venuše",
+   "artist": "Alexandre Cabanel",
+   "year_label": "1863",
+   "museum": "Musée d'Orsay, Paríž"
+  },
+  "gerome-pollice-verso": {
+   "title": "Pollice Verso",
+   "artist": "Jean-Léon Gérôme",
+   "year_label": "1872",
+   "museum": "Phoenix Art Museum"
+  },
+  "monet-impression-sunrise": {
+   "title": "Dojem, východ slnka",
+   "artist": "Claude Monet",
+   "year_label": "1872",
+   "museum": "Musée Marmottan Monet, Paríž"
+  },
+  "monet-woman-with-a-parasol-madame-monet-and-her-son": {
+   "title": "Žena so slnečníkom: Madame Monetová so synom",
+   "artist": "Claude Monet",
+   "year_label": "1875",
+   "museum": "National Gallery of Art, Washington"
+  },
+  "monet-water-lilies": {
+   "title": "Lekná",
+   "artist": "Claude Monet",
+   "year_label": "1906",
+   "museum": "Art Institute of Chicago"
+  },
+  "renoir-bal-du-moulin-de-la-galette": {
+   "title": "Bál v Moulin de la Galette",
+   "artist": "Pierre-Auguste Renoir",
+   "year_label": "1876",
+   "museum": "Musée d'Orsay, Paríž"
+  },
+  "degas-the-dance-class": {
+   "title": "Tanečná hodina",
+   "artist": "Edgar Degas",
+   "year_label": "1874",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "morisot-the-cradle": {
+   "title": "Kolíska",
+   "artist": "Berthe Morisot",
+   "year_label": "1872",
+   "museum": "Musée d'Orsay, Paríž"
+  },
+  "sorolla-walk-on-the-beach": {
+   "title": "Prechádzka po pláži",
+   "artist": "Joaquín Sorolla",
+   "year_label": "1909",
+   "museum": "Museo Sorolla, Madrid"
+  },
+  "seurat-a-sunday-on-la-grande-jatte": {
+   "title": "Nedeľné popoludnie na ostrove La Grande Jatte",
+   "artist": "Georges Seurat",
+   "year_label": "1886",
+   "museum": "Art Institute of Chicago"
+  },
+  "gogh-the-starry-night": {
+   "title": "Hviezdna noc",
+   "artist": "Vincent van Gogh",
+   "year_label": "1889",
+   "museum": "Múzeum moderného umenia, New York"
+  },
+  "gogh-sunflowers": {
+   "title": "Slnečnice",
+   "artist": "Vincent van Gogh",
+   "year_label": "1888",
+   "museum": "National Gallery, Londýn"
+  },
+  "cezanne-the-card-players": {
+   "title": "Hráči kariet",
+   "artist": "Paul Cézanne",
+   "year_label": "1892",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gauguin-where-do-we-come-from-what-are-we-where-are-we-going": {
+   "title": "Odkiaľ prichádzame? Čo sme? Kam smerujeme?",
+   "artist": "Paul Gauguin",
+   "year_label": "1897",
+   "museum": "Múzeum výtvarných umení, Boston"
+  },
+  "toulouse-lautrec-moulin-rouge-la-goulue": {
+   "title": "Moulin Rouge: La Goulue",
+   "artist": "Henri de Toulouse-Lautrec",
+   "year_label": "1891",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rousseau-the-sleeping-gypsy": {
+   "title": "Spiaca Cigánka",
+   "artist": "Henri Rousseau",
+   "year_label": "1897",
+   "museum": "Múzeum moderného umenia, New York"
+  },
+  "munch-the-scream": {
+   "title": "Výkrik",
+   "artist": "Edvard Munch",
+   "year_label": "1893",
+   "museum": "Národné múzeum, Oslo"
+  },
+  "bocklin-island-of-the-dead": {
+   "title": "Ostrov mŕtvych",
+   "artist": "Arnold Böcklin",
+   "year_label": "1880",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "rodin-the-thinker": {
+   "title": "Mysliteľ",
+   "artist": "Auguste Rodin",
+   "year_label": "1904",
+   "museum": "Rodinovo múzeum, Paríž"
+  },
+  "klimt-the-kiss": {
+   "title": "Bozk",
+   "artist": "Gustav Klimt",
+   "year_label": "1908",
+   "museum": "Belvedere, Viedeň"
+  },
+  "klimt-portrait-of-adele-bloch-bauer-i": {
+   "title": "Portrét Adely Bloch-Bauerovej I",
+   "artist": "Gustav Klimt",
+   "year_label": "1907",
+   "museum": "Neue Galerie, New York"
+  },
+  "matisse-dance": {
+   "title": "Tanec",
+   "artist": "Henri Matisse",
+   "year_label": "1910",
+   "museum": "Ermitáž, Petrohrad"
+  },
+  "matisse-woman-with-a-hat": {
+   "title": "Žena v klobúku",
+   "artist": "Henri Matisse",
+   "year_label": "1905",
+   "museum": "Múzeum moderného umenia v San Franciscu"
+  },
+  "marc-the-large-blue-horses": {
+   "title": "Veľké modré kone",
+   "artist": "Franz Marc",
+   "year_label": "1911",
+   "museum": "Walker Art Center, Minneapolis"
+  },
+  "modigliani-reclining-nude": {
+   "title": "Ležiaci akt",
+   "artist": "Amedeo Modigliani",
+   "year_label": "1917",
+   "museum": "Metropolitan Museum of Art, New York"
+  },
+  "gris-portrait-of-pablo-picasso": {
+   "title": "Portrét Pabla Picassa",
+   "artist": "Juan Gris",
+   "year_label": "1912",
+   "museum": "Art Institute of Chicago"
+  },
+  "delaunay-eiffel-tower": {
+   "title": "Eiffelova veža so stromami",
+   "artist": "Robert Delaunay",
+   "year_label": "1910",
+   "museum": "Guggenheimovo múzeum, New York"
+  },
+  "boccioni-unique-forms-of-continuity-in-space": {
+   "title": "Jedinečné formy kontinuity v priestore",
+   "artist": "Umberto Boccioni",
+   "year_label": "1913",
+   "museum": "Múzeum moderného umenia, New York"
+  },
+  "boccioni-the-city-rises": {
+   "title": "Mesto sa dvíha",
+   "artist": "Umberto Boccioni",
+   "year_label": "1910",
+   "museum": "Múzeum moderného umenia, New York"
+  },
+  "kandinsky-composition-viii": {
+   "title": "Kompozícia VIII",
+   "artist": "Vasilij Kandinskij",
+   "year_label": "1923",
+   "museum": "Guggenheimovo múzeum, New York"
+  },
+  "malevich-black-square": {
+   "title": "Čierny štvorec",
+   "artist": "Kazimir Malevič",
+   "year_label": "1915",
+   "museum": "Treťjakovská galéria, Moskva"
+  },
+  "mondrian-composition-ii-in-red-blue-and-yellow": {
+   "title": "Kompozícia II v červenej, modrej a žltej",
+   "artist": "Piet Mondrian",
+   "year_label": "1930",
+   "museum": "Kunsthaus Zürich"
+  },
+  "klee-senecio": {
+   "title": "Senecio",
+   "artist": "Paul Klee",
+   "year_label": "1922",
+   "museum": "Kunstmuseum Basel"
+  },
+  "schwitters-das-undbild": {
+   "title": "Das Undbild",
+   "artist": "Kurt Schwitters",
+   "year_label": "1919",
+   "museum": "Staatsgalerie Stuttgart"
+  },
+  "terracotta-army": {
+   "title": "Terakotová armáda",
+   "artist": "Neznámy autor (Čína)",
+   "year_label": "210 pred Kr.",
+   "museum": "Mauzóleum prvého cisára dynastie Čchin, Si-an"
+  },
+  "aztec-sun-stone": {
+   "title": "Aztécky slnečný kameň",
+   "artist": "Neznámy autor (Aztékovia)",
+   "year_label": "1510",
+   "museum": "Národné antropologické múzeum, Mexiko"
+  },
+  "hoa-hakananai-a-moai": {
+   "title": "Hoa Hakananai'a (Moai)",
+   "artist": "Neznámy autor (Rapa Nui)",
+   "year_label": "1200",
+   "museum": "British Museum, Londýn"
+  }
+ },
+ "movements": {
+  "antiquity": {
+   "name": "Staroveký svet",
+   "period": "2600 pred Kr. až 300 po Kr.",
+   "summary": "Bohovia, panovníci a ideálne telo",
+   "description": "Od Egypta cez Grécko až po Rím vytesávajú umelci panovníkov, bohov a športovcov, ktorí majú vydržať naveky. Ich hľadanie ideálneho tela sa na stáročia stalo vzorom pre západné umenie."
+  },
+  "gothic": {
+   "name": "Gotika a protorenesancia",
+   "period": "1280-1430",
+   "summary": "Zlaté pozadia a prvé skutočné city",
+   "description": "V kostoloch a kaplnkách maliari ešte maľujú na zlato, no ich postavy sa už začínajú plakať, otáčať a mať váhu. Rozprávanie obrazmi sa rodí odznova."
+  },
+  "early_netherlandish": {
+   "name": "Staroholandské maliarstvo",
+   "period": "1420-1500",
+   "summary": "Olejová farba a oslnivý detail",
+   "description": "Vo Flámsku maliari zdokonaľujú olejovú farbu a opisujú ňou úplne všetko: kožušinu, sklo, slzu, odraz. Posvätné výjavy sa sťahujú do izieb, ktoré vyzerajú ako skutočné domovy."
+  },
+  "renaissance": {
+   "name": "Talianska renesancia",
+   "period": "1420-1570",
+   "summary": "Perspektíva a návrat k antike",
+   "description": "V Taliansku, a potom v celej Európe, umelci znovu objavujú antiku, študujú ľudské telo a vynachádzajú perspektívu. Obraz sa mení na okno do sveta."
+  },
+  "northern_renaissance": {
+   "name": "Severská renesancia",
+   "period": "1490-1570",
+   "summary": "Ostré línie, grafiky a čudné vízie",
+   "description": "Na sever od Álp miešajú umelci talianske myšlienky s láskou k detailu a k všedným chvíľam života. Grafika roznáša ich obrazy po celej Európe."
+  },
+  "mannerism": {
+   "name": "Manierizmus",
+   "period": "1520-1610",
+   "summary": "Elegancia natiahnutá až na hranicu",
+   "description": "Po veľkých majstroch začínajú maliari zámerne ohýbať pravidlá: pretiahnuté telá, skrútené pózy, ostré farby. Predmetom obrazu sa stáva samotný štýl."
+  },
+  "baroque": {
+   "name": "Barok",
+   "period": "1600-1700",
+   "summary": "Dráma, pohyb a hlboký tieň",
+   "description": "Umenie chce pohnúť divákom. Silné kontrasty svetla a tmy, telá v pohybe a divadelná réžia ťa vťahujú priamo do deja."
+  },
+  "siecledor": {
+   "name": "Zlatý vek holandského maliarstva",
+   "period": "1600-1700",
+   "summary": "Každodenný život a svetlo",
+   "description": "V prosperujúcej Holandskej republike maľujú umelci pre meštianske domy: tiché interiéry, portréty, zátišia. Skutočnou témou sa stáva svetlo."
+  },
+  "rococo": {
+   "name": "Rokoko a 18. storočie",
+   "period": "1715-1790",
+   "summary": "Ľahkosť, rozkoš a pastelové farby",
+   "description": "V salónoch 18. storočia sa maliarstvo stáva hravým a intímnym: záhradné slávnosti, portréty, jemné farby. Súčasne sa niekoľko umelcov potichu díva na obyčajný život."
+  },
+  "neoclassicism": {
+   "name": "Klasicizmus",
+   "period": "1760-1860",
+   "summary": "Jasné línie a antická cnosť",
+   "description": "Umelci sa inšpirujú ruinami Ríma a Pompejí a vracajú sa k striedmej kresbe a hrdinským námetom. Maliarstvo má poúčať rovnako ako tešiť."
+  },
+  "romanticism": {
+   "name": "Romantizmus",
+   "period": "1780-1860",
+   "summary": "Cit, príroda a vznešenosť",
+   "description": "Cit víťazí nad rozumom. Búrky, ruiny, vzbury a osamelé postavy vyjadrujú, čo umelec cíti pred svetom, ktorý je príliš veľký na to, aby ho zvládol."
+  },
+  "ukiyoe": {
+   "name": "Ukijo-e",
+   "period": "1680-1860",
+   "summary": "Grafiky „plynúceho sveta“",
+   "description": "V Japonsku drevorezy tlačené v sériách zobrazujú hercov, krajiny a výjavy z každodenného života. Ich plošné farby a odvážne výseky mali otriasť európskymi maliarmi."
+  },
+  "east_asian": {
+   "name": "Čínske a japonské maliarstvo",
+   "period": "750-1720",
+   "summary": "Tuš, hodváb a prázdny priestor",
+   "description": "V Číne a v Japonsku maliari pracujú štetcom a tušom na hodváb, papier a skladacie paravány. Na naznačenie hory či ročného obdobia stačí pár ťahov a veľa prázdneho miesta."
+  },
+  "realism": {
+   "name": "Realizmus",
+   "period": "1845-1890",
+   "summary": "Obyčajní ľudia takí, akí sú",
+   "description": "Maliari sa odvracajú od hrdinov a mýtov a ukazujú roľníkov, robotníkov a moderný život bez prikrášľovania. Povedať pravdu sa stáva vyhlásením samo osebe."
+  },
+  "american": {
+   "name": "Americké maliarstvo",
+   "period": "1780-1930",
+   "summary": "Nová krajina sa pozerá na seba",
+   "description": "Od portrétov mladej republiky cez rozľahlé krajiny až po výjavy z mestského života hľadajú americkí maliari vlastné námety a vlastné svetlo."
+  },
+  "preraphaelite": {
+   "name": "Prerafaelity a viktoriánske umenie",
+   "period": "1848-1900",
+   "summary": "Žiarivá farba, legenda a detail",
+   "description": "Vo viktoriánskej Británii skupina mladých maliarov odmieta akademické recepty. Legendy a básne maľujú intenzívnymi farbami a takmer posadnutou presnosťou."
+  },
+  "academic": {
+   "name": "Akademické umenie",
+   "period": "1830-1900",
+   "summary": "Vyleštené umenie oficiálneho salónu",
+   "description": "Maliari vychovaní vo veľkých umeleckých školách ovládajú anatómiu, dejiny a dokonale hladký povrch. Boli hviezdami svojej doby, kým ich nezatienila avantgarda."
+  },
+  "impressionnisme": {
+   "name": "Impresionizmus",
+   "period": "1867-1910",
+   "summary": "Maľovať svetlo okamihu",
+   "description": "Skupina maliarov opúšťa ateliér a pracuje vonku v rýchlych malých ťahoch. Nezaujíma ich detail, ale účinok svetla v presne určenej chvíli."
+  },
+  "neo_impressionism": {
+   "name": "Neoimpresionizmus",
+   "period": "1884-1910",
+   "summary": "Farba bodku po bodke",
+   "description": "Maliari využívajú na farbu vedu: malé bodky čistej farby položené vedľa seba sa spoja až v oku diváka. Obraz sa buduje pomaly, ako mozaika."
+  },
+  "postimp": {
+   "name": "Postimpresionizmus",
+   "period": "1885-1910",
+   "summary": "Farba a cit na prvom mieste",
+   "description": "Po impresionizme hľadá každý vlastnú cestu. Farba už nenapodobňuje skutočnosť: vyjadruje, čo maliar cíti."
+  },
+  "symbolism": {
+   "name": "Symbolizmus",
+   "period": "1860-1915",
+   "summary": "Sny, mýty a vnútorné svety",
+   "description": "Namiesto opisu viditeľného sveta tvoria títo umelci náznaky myšlienok, snov a strachov. Ich obrazy sa majú najprv precítiť a až potom pochopiť."
+  },
+  "secession": {
+   "name": "Secesia a viedenská secesia",
+   "period": "1890-1918",
+   "summary": "Zlato, ornament a oblé línie",
+   "description": "Vo Viedni sa mladí umelci rozchádzajú s akadémiou. Spájajú maliarstvo, dekoráciu a remeslo a z ornamentu robia samostatnú reč."
+  },
+  "fauvism": {
+   "name": "Fauvizmus",
+   "period": "1904-1917",
+   "summary": "Čistá farba rovno z tuby",
+   "description": "Počas niekoľkých výbušných rokov používajú maliari divoké, neprirodzené farby a voľný ťah štetca. Kritici ich nazvali šelmami a názov im zostal."
+  },
+  "expressionism": {
+   "name": "Expresionizmus",
+   "period": "1903-1925",
+   "summary": "Skreslené tvary, surový cit",
+   "description": "Umelci krútia tvary a vyhrávajú farby, aby vyjadrili úzkosť, túžbu či vzburu. Nezáleží na tom, ako svet vyzerá, ale ako sa cíti."
+  },
+  "cubism": {
+   "name": "Kubizmus",
+   "period": "1909-1925",
+   "summary": "Predmety videné z viacerých strán naraz",
+   "description": "Maliari lámu predmety na fazety a ukazujú ich z viacerých uhlov v jednom obraze. Päť storočí perspektívy sa zrazu spochybňuje."
+  },
+  "futurism": {
+   "name": "Futurizmus",
+   "period": "1909-1920",
+   "summary": "Rýchlosť, stroje a moderné mesto",
+   "description": "Talianski umelci oslavujú autá, davy a elektrinu. Pohyb samotný sa snažia zachytiť opakovaním a rozkladom tvarov."
+  },
+  "abstraction": {
+   "name": "Abstrakcia a avantgarda",
+   "period": "1907-1930",
+   "summary": "Maliarstvo bez námetu",
+   "description": "Čiary, tvary a farby už nič nezobrazujú: sú samotným obrazom. Umelci hľadajú vizuálnu reč, ktorá by bola taká priama ako hudba."
+  },
+  "dada_surrealism": {
+   "name": "Dada a raný surrealizmus",
+   "period": "1912-1930",
+   "summary": "Náhoda, nezmysel a sny",
+   "description": "Dada sa zrodila z odporu k prvej svetovej vojne a vysmieva sa samotnému umeniu. Surrealizmus ju nasleduje a skúma sny, náhodu a nevedomie."
+  },
+  "world": {
+   "name": "Afrika, Ázia a Amerika",
+   "period": "1200 pred Kr. až 1600",
+   "summary": "Posvätné predmety a dvorské umenie",
+   "description": "Bronzy, masky, kamenní obri a rituálne predmety z Afriky, Ázie a Ameriky. Vznikali pre obrady, chrámy a kráľov, dávno predtým, ako existovali múzeá."
+  }
+ }
+}
