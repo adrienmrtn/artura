@@ -103,12 +103,12 @@ struct LessonView: View {
             Button(isDone ? finishTitle : L("Continue")) {
                 if isDone {
                     Haptics.success()
-                    Analytics.track("lesson_finished", ["artwork": artwork.id, "context": pill, "blocks": total])
+                    trackLesson("lesson_finished", block: total)
                     onFinish()
                 } else {
                     taps += 1
                     if let freeTaps, taps > freeTaps {
-                        Analytics.track("lesson_blocked", ["artwork": artwork.id, "block": revealed, "blocks": total])
+                        trackLesson("lesson_blocked", block: revealed)
                         // The lesson stops here for a free reader.
                         Haptics.press()
                         onBlocked?()
@@ -129,21 +129,9 @@ struct LessonView: View {
         }
         .padding(.top, 8)
         .background(Palette.bg)
-        .onAppear {
-            Analytics.track("lesson_opened", ["artwork": artwork.id, "context": pill, "blocks": total])
-        }
-        .onChange(of: revealed) { _, shown in
-            Analytics.track("lesson_progress", [
-                "artwork": artwork.id, "context": pill, "block": shown, "blocks": total,
-                "percent": total > 0 ? Int((Double(shown) / Double(total) * 100).rounded()) : 100
-            ])
-        }
-        .onDisappear {
-            Analytics.track("lesson_closed", [
-                "artwork": artwork.id, "context": pill, "block": revealed, "blocks": total,
-                "percent": total > 0 ? Int((Double(revealed) / Double(total) * 100).rounded()) : 100
-            ])
-        }
+        .onAppear { trackLesson("lesson_opened", block: 0) }
+        .onChange(of: revealed) { _, shown in trackLesson("lesson_progress", block: shown) }
+        .onDisappear { trackLesson("lesson_closed", block: revealed) }
         .overlay {
             if let studio, lesson.indices.contains(studio) {
                 PaintingStudio(artwork: artwork, block: lesson[studio]) {
@@ -153,6 +141,15 @@ struct LessonView: View {
                 .transition(.opacity)
             }
         }
+    }
+
+    /// Records where the reader is in the lesson (blocks read and percentage).
+    private func trackLesson(_ name: String, block: Int) {
+        let percent = total > 0 ? Int((Double(block) / Double(total) * 100).rounded()) : 100
+        let properties: [String: Any] = [
+            "artwork": artwork.id, "context": pill, "block": block, "blocks": total, "percent": percent
+        ]
+        Analytics.track(name, properties)
     }
 
     private func open(_ index: Int) {
