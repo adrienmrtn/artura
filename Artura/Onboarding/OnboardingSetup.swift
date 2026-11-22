@@ -452,8 +452,7 @@ struct LoadingScreen: View {
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 6)
-                .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.white))
-                .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
+                .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
                 .padding(.top, 20)
 
                 Spacer(minLength: 16)
@@ -535,66 +534,91 @@ struct PlanScreen: View {
     let onNext: () -> Void
     @State private var picking = false
 
-    /// The first painting of the program: the one from the guided tour.
-    private var firstArtwork: Artwork? {
-        content.artwork(user.profile.firstCourse) ?? content.artwork("nuit") ?? content.artworks.first
+    /// The movement of the first lesson: the first path of the program.
+    private var movement: Movement? {
+        content.movement(content.artwork(user.profile.firstCourse)?.movementId) ?? content.movements.first
     }
 
-    private var title: String {
-        if let name = user.profile.firstName, !name.isEmpty {
-            return "\(name), here's your program."
-        }
-        return "Here's your program."
-    }
+    /// Soft mauve behind the avatar block.
+    private static let mauve = Color(hex: 0xEDE3FF)
 
     var body: some View {
-        OnbScaffold(title: title,
-                    subtitle: "Here's where you'll be in 30 days.",
-                    spoken: true, cta: "Sounds good", onNext: onNext) {
-            HStack(spacing: 10) {
-                projection("\(min(30, content.artworks.count))", "artworks")
-                projection(hoursIn30Days, "of art")
-                projection("30", "day streak")
+        OnbScaffold(title: "In 30 days",
+                    subtitle: "Here's where you'll be, at your own pace.",
+                    cta: "Sounds good", onNext: onNext) {
+            Group {
+                if picking {
+                    AvatarPicker(selection: $user.profile.avatar, size: 52) {
+                        withAnimation(.gentle) { picking = false }
+                    }
+                    .padding(.horizontal, 12)
+                    .transition(.opacity)
+                } else {
+                    HStack(spacing: 14) {
+                        ArtImage(name: avatarImages[min(user.profile.avatar, avatarImages.count - 1)])
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Your avatar").font(.bodyStrong).foregroundStyle(Palette.ink)
+                            Text("Shown on your profile").font(.aCaption).foregroundStyle(Palette.muted)
+                        }
+                        Spacer(minLength: 0)
+                        Button("Change") {
+                            Haptics.tap()
+                            withAnimation(.gentle) { picking = true }
+                        }
+                        .font(.figtree(14, .semibold))
+                        .foregroundStyle(Palette.blueText)
+                        .padding(.horizontal, 16)
+                        .frame(height: 44)
+                        .background(Capsule().fill(.white))
+                        .buttonStyle(.pressable)
+                    }
+                    .padding(.horizontal, 12)
+                    .transition(.opacity)
+                }
             }
-            .enter(2)
+            .frame(height: 84)
+            .frame(maxWidth: .infinity)
+            .background(RoundedRectangle(cornerRadius: 16).fill(Self.mauve))
+            .enter(1)
 
-            if let first = firstArtwork {
-                HStack(spacing: 14) {
-                    ArtImage(name: first.image)
-                        .frame(width: 84, height: 84)
-                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-                    VStack(alignment: .leading, spacing: 4) {
-                        TagPill(text: "Your first masterpiece")
-                        Text(first.title).font(.aCardTitle).foregroundStyle(Palette.ink)
-                        Text(first.meta).font(.aCaption).foregroundStyle(Palette.muted)
+            if let movement, let cover = content.artwork(movement.cover) {
+                HStack(spacing: 0) {
+                    ArtImage(name: cover.image).frame(width: 104, height: 112)
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text("Your first path").font(.figtree(12, .semibold))
+                        Text(movement.name).font(.aCardTitle)
+                        Text(movement.summary).font(.aCaption)
                             .fixedSize(horizontal: false, vertical: true)
                     }
+                    .foregroundStyle(Palette.ink)
+                    .padding(.horizontal, 14)
                     Spacer(minLength: 0)
                 }
-                .padding(12)
-                .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.white))
-                .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
-                .enter(3)
+                .background(Palette.yellow)
+                .clipShape(RoundedRectangle(cornerRadius: 16))
+                .enter(2)
             }
+
+            HStack(spacing: 10) {
+                projection("\(min(30, content.artworks.count))", "artworks")
+                projection(hoursIn30Days, "of looking")
+                projection("\(max(1, min(content.movements.count, 3)))", "movements")
+            }
+            .enter(3)
 
             VStack(spacing: 0) {
-                recap("target", "Goal", goalLabel)
-                divider
-                recap("clock.fill", "Every day", "\(user.profile.minutes) min")
-                divider
-                recap("bell.fill", "Reminder", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Off")
-                divider
-                avatarRow
+                recap("Goal", goalLabel)
+                Divider()
+                recap("Every day", "\(user.profile.minutes) min")
+                Divider()
+                recap("Reminder", user.profile.reminderOn ? formatMinutes(user.profile.reminderMinutes) : "Off")
             }
-            .padding(.horizontal, 14)
-            .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.white))
-            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
+            .padding(.horizontal, 16)
+            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
             .enter(4)
         }
-    }
-
-    private var divider: some View {
-        Rectangle().fill(Palette.line).frame(height: 1)
     }
 
     /// The first chosen motivation, with the count of the others.
@@ -607,27 +631,26 @@ struct PlanScreen: View {
     /// Total viewing time over 30 days, based on the chosen pace.
     private var hoursIn30Days: String {
         let minutes = user.profile.minutes * 30
-        return minutes % 60 == 0 ? "\(minutes / 60)h" : "\(minutes / 60)h \(minutes % 60)"
+        return minutes % 60 == 0 ? "\(minutes / 60) h" : "\(minutes / 60) h \(minutes % 60)"
     }
 
     private func projection(_ value: String, _ label: String) -> some View {
-        VStack(spacing: 2) {
-            Text(value).font(.figtree(24, .bold)).foregroundStyle(Palette.blue)
-            Text(label).font(.figtree(13, .medium)).foregroundStyle(Palette.muted)
+        VStack(alignment: .leading, spacing: 2) {
+            Text(value).font(.figtree(24, .semibold)).foregroundStyle(Palette.ink)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+            Text(label).font(.aSmall).foregroundStyle(Palette.ink)
+                .lineLimit(1)
+                .minimumScaleFactor(0.8)
         }
-        .padding(.vertical, 12)
-        .frame(maxWidth: .infinity)
-        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Palette.mistLight))
-        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Palette.mist, lineWidth: 1))
+        .padding(.horizontal, 12)
+        .padding(.vertical, 14)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: 16).fill(Palette.mist))
     }
 
-    private func recap(_ symbol: String, _ label: String, _ value: String) -> some View {
+    private func recap(_ label: String, _ value: String) -> some View {
         HStack(spacing: 12) {
-            Image(systemName: symbol)
-                .font(.system(size: 14, weight: .semibold))
-                .foregroundStyle(Palette.blue)
-                .frame(width: 32, height: 32)
-                .background(Circle().fill(Palette.mist))
             Text(label).font(.aSmall).foregroundStyle(Palette.muted)
             Spacer(minLength: 8)
             Text(value).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
@@ -635,35 +658,6 @@ struct PlanScreen: View {
                 .lineLimit(2)
         }
         .frame(minHeight: 52)
-    }
-
-    /// The profile avatar, editable in place.
-    private var avatarRow: some View {
-        VStack(spacing: 0) {
-            HStack(spacing: 12) {
-                ArtImage(name: avatarImages[min(user.profile.avatar, avatarImages.count - 1)])
-                    .frame(width: 32, height: 32)
-                    .clipShape(Circle())
-                Text("Your avatar").font(.aSmall).foregroundStyle(Palette.muted)
-                Spacer(minLength: 8)
-                Button(picking ? "Close" : "Change") {
-                    Haptics.tap()
-                    withAnimation(.gentle) { picking.toggle() }
-                }
-                .font(.figtree(14, .semibold))
-                .foregroundStyle(Palette.blue)
-                .frame(height: 44)
-                .buttonStyle(.pressable)
-            }
-            .frame(minHeight: 52)
-            if picking {
-                AvatarPicker(selection: $user.profile.avatar, size: 48) {
-                    withAnimation(.gentle) { picking = false }
-                }
-                .padding(.bottom, 12)
-                .transition(.opacity)
-            }
-        }
     }
 }
 
@@ -744,8 +738,7 @@ struct SocialProofScreen: View {
                         Spacer(minLength: 0)
                     }
                     .padding(14)
-                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(.white))
-                    .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Palette.line, lineWidth: 1))
+                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.card))
                     .enter(Double(i) * 1.5 + 4)
                 }
             }

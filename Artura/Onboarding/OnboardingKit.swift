@@ -493,7 +493,7 @@ struct Sparkle: Shape {
 // MARK: - Answer row
 
 /// Selectable answer for onboarding questions (single or multiple choice).
-/// White at rest; blue with white text once chosen.
+/// A plain light card; once chosen, a pale blue card with a blue outline and a check.
 struct ChoiceRow: View {
     let title: String
     var subtitle: String? = nil
@@ -515,20 +515,16 @@ struct ChoiceRow: View {
                         .scaledToFill()
                         .frame(width: 46, height: 46)
                         .clipShape(RoundedRectangle(cornerRadius: 13, style: .continuous))
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 13, style: .continuous)
-                                .stroke(Color.white.opacity(selected ? 0.9 : 0), lineWidth: 2)
-                        )
                         .accessibilityHidden(true)
                 }
                 VStack(alignment: .leading, spacing: 2) {
                     Text(title)
                         .font(.bodyStrong)
-                        .foregroundStyle(selected ? .white : Palette.ink)
+                        .foregroundStyle(Palette.ink)
                     if let subtitle {
                         Text(subtitle)
                             .font(.aCaption)
-                            .foregroundStyle(selected ? Color.white.opacity(0.8) : Palette.muted)
+                            .foregroundStyle(Palette.muted)
                     }
                 }
                 .multilineTextAlignment(.leading)
@@ -536,27 +532,23 @@ struct ChoiceRow: View {
                 // Circle for a single choice, rounded square for a multiple choice.
                 ZStack {
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
-                        .fill(selected ? Color.white : Color.clear)
+                        .fill(selected ? Palette.blue : Color.white)
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
-                        .stroke(selected ? Color.white : Palette.lip, lineWidth: 2)
+                        .stroke(selected ? Palette.blue : Palette.lip, lineWidth: 2)
                     Image(systemName: "checkmark")
                         .font(.system(size: 12, weight: .bold))
-                        .foregroundStyle(Palette.blue)
+                        .foregroundStyle(.white)
                         .scaleEffect(selected ? 1 : 0.4)
                         .opacity(selected ? 1 : 0)
                 }
                 .frame(width: 26, height: 26)
             }
-            .padding(.leading, image == nil ? 16 : 10)
+            .padding(.leading, image == nil ? 18 : 10)
             .padding(.trailing, 16)
             .padding(.vertical, 10)
-            .frame(maxWidth: .infinity, minHeight: image == nil ? 62 : 66, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.blue : Color.white))
-            .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.blueDark : Palette.lip).offset(y: 3))
-            .overlay(
-                RoundedRectangle(cornerRadius: 18)
-                    .stroke(selected ? Palette.blue : Palette.line, lineWidth: 1)
-            )
+            .frame(maxWidth: .infinity, minHeight: image == nil ? 64 : 66, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 16).fill(selected ? Palette.mistLight : Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 16).stroke(selected ? Palette.blue : .clear, lineWidth: 2))
         }
         .buttonStyle(.pressable)
         .animation(.snappy, value: selected)

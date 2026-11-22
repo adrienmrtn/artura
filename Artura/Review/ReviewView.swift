@@ -153,8 +153,7 @@ struct ReviewView: View {
             }
             .buttonStyle(.pressable)
         }
-        .background(RoundedRectangle(cornerRadius: 20).fill(.white))
-        .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
+        .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
         .appearUp(0.05)
     }
 

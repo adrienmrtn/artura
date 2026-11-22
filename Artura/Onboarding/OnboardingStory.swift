@@ -338,14 +338,22 @@ struct PhoneResultScreen: View {
 
             Spacer(minLength: 16)
 
-            Button("Continue") { onNext() }
-                .buttonStyle(.primary)
+            // No button: a tap anywhere moves on, once everything has appeared.
+            TapHint()
+                .opacity(stage >= 4 ? 1 : 0)
         }
         .padding(.horizontal, 24)
         .padding(.top, 12)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
+        .contentShape(Rectangle())
+        .onTapGesture {
+            guard stage >= 4 else { return }
+            Haptics.tap()
+            onNext()
+        }
+        .accessibilityAddTraits(.isButton)
         .onAppear(perform: play)
         .onDisappear { ticker?.invalidate() }
     }
@@ -406,6 +414,9 @@ struct PhoneResultScreen: View {
             withAnimation(.settle) { stage = 3 }
             Haptics.soft()
         }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8 + countDuration + 1.3) {
+            withAnimation(.gentle) { stage = 4 }
+        }
     }
 }
 
@@ -417,6 +428,8 @@ struct ProjectionScreen: View {
     @State private var value: Double = 0
     @State private var shown = 0
     @State private var detailShown = false
+    /// True once the count and the detail line are in: the tap then moves on.
+    @State private var done = false
 
     private let target: Double = 400
     private let countDuration = 2.4
@@ -462,14 +475,21 @@ struct ProjectionScreen: View {
             }
             .frame(maxHeight: .infinity)
 
-            Button("Continue") { onNext() }
-                .buttonStyle(.primary)
-                .padding(.horizontal, 24)
+            // No button: a tap anywhere moves on, once the count is over.
+            TapHint()
+                .opacity(done ? 1 : 0)
         }
         .padding(.top, 4)
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
+        .contentShape(Rectangle())
+        .onTapGesture {
+            guard done else { return }
+            Haptics.tap()
+            onNext()
+        }
+        .accessibilityAddTraits(.isButton)
         .onAppear(perform: play)
     }
 
@@ -486,6 +506,9 @@ struct ProjectionScreen: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.6 + countDuration * 0.85) {
             Haptics.heavy()
             withAnimation(.settle) { detailShown = true }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6 + countDuration + 0.4) {
+            withAnimation(.gentle) { done = true }
         }
     }
 }
@@ -582,7 +605,6 @@ struct GrowthChart: View {
         }
         .padding(16)
         .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
-        .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Chart: with Artura, your knowledge climbs steadily over a year; with no routine, it stays almost flat.")
         .onAppear {
@@ -642,7 +664,6 @@ struct GraphScreen: View {
             .padding(.horizontal, 18)
             .padding(.vertical, 12)
             .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
-            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Palette.line, lineWidth: 1))
             .enter(4)
         }
     }
@@ -729,7 +750,6 @@ struct StreakScreen: View {
                 .padding(.horizontal, 12)
                 .padding(.vertical, 14)
                 .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
-                .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
                 .padding(.top, 22)
                 .enter(6)
 

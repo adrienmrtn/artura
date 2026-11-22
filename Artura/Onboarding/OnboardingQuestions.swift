@@ -26,11 +26,8 @@ struct NameScreen: View {
                 .onSubmit { if !trimmed.isEmpty { save() } }
                 .padding(.horizontal, 18)
                 .frame(height: 68)
-                .background(RoundedRectangle(cornerRadius: 18).fill(.white))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 18)
-                        .stroke(focused ? Palette.blue : Palette.line, lineWidth: focused ? 2 : 1)
-                )
+                .background(RoundedRectangle(cornerRadius: 18).fill(Palette.card))
+                .overlay(RoundedRectangle(cornerRadius: 18).stroke(focused ? Palette.blue : .clear, lineWidth: 2))
                 .animation(.snappy, value: focused)
                 .enter(2)
         }
@@ -93,15 +90,15 @@ struct GenderScreen: View {
                 ArtImage(name: image).frame(height: 132)
                 Text(label)
                     .font(.figtree(17, .semibold))
-                    .foregroundStyle(selected ? .white : Palette.ink)
+                    .foregroundStyle(Palette.ink)
             }
             .padding(.bottom, 14)
-            .background(selected ? Palette.blue : Color.white)
+            .background(selected ? Palette.mistLight : Palette.card)
             .clipShape(RoundedRectangle(cornerRadius: 20))
-            .overlay(
-                RoundedRectangle(cornerRadius: 20)
-                    .stroke(selected ? Palette.blue : Palette.line, lineWidth: selected ? 3 : 1)
-            )
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(selected ? Palette.blue : .clear, lineWidth: 3))
+            .overlay(alignment: .topTrailing) {
+                if selected { CheckBadge().padding(8).transition(.scale.combined(with: .opacity)) }
+            }
         }
         .buttonStyle(.pressable)
         .animation(.snappy, value: selected)
@@ -200,18 +197,15 @@ struct ArtsScreen: View {
                                 }
                             Text(art.title)
                                 .font(.bodyStrong)
-                                .foregroundStyle(selected ? .white : Palette.ink)
+                                .foregroundStyle(Palette.ink)
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.85)
                                 .padding(.horizontal, 12)
                                 .padding(.bottom, 12)
                         }
-                        .background(selected ? Palette.blue : Color.white)
+                        .background(selected ? Palette.mistLight : Palette.card)
                         .clipShape(RoundedRectangle(cornerRadius: 18))
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 18)
-                                .stroke(selected ? Palette.blue : Palette.line, lineWidth: selected ? 3 : 1)
-                        )
+                        .overlay(RoundedRectangle(cornerRadius: 18).stroke(selected ? Palette.blue : .clear, lineWidth: 3))
                         .overlay(alignment: .topTrailing) {
                             if selected { CheckBadge(color: Palette.blue).padding(8).transition(.scale.combined(with: .opacity)) }
                         }

@@ -98,7 +98,6 @@ struct DailyScreen: View {
         .padding(.horizontal, 8)
         .frame(maxWidth: .infinity)
         .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
-        .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("\(value) \(label)")
     }
@@ -149,16 +148,40 @@ struct Quote: Identifiable {
 }
 
 struct QuotesScreen: View {
+    let onBack: () -> Void
     let onNext: () -> Void
-    @State private var shown = 0
+    /// Number of quotes revealed so far: each tap brings the next one, then the screen moves on.
+    @State private var shown = min(max(0, OnboardingDebug.int("onbQuotesShown")), Quote.all.count)
 
     private let quotes = Quote.all
 
     var body: some View {
-        OnbScaffold(title: "This is why we built Artura",
-                    subtitle: "Art is timeless. They said it long before us.",
-                    onNext: onNext) {
-            VStack(spacing: 12) {
+        VStack(alignment: .leading, spacing: 0) {
+            Button(action: onBack) {
+                Image(systemName: "chevron.left")
+                    .font(.system(size: 20, weight: .bold))
+                    .foregroundStyle(.white)
+                    .frame(width: 44, height: 44)
+            }
+            .buttonStyle(.pressable)
+            .padding(.leading, -12)
+            .padding(.top, 8)
+            .accessibilityLabel("Back")
+
+            VStack(alignment: .leading, spacing: 8) {
+                Text("This is why we built Artura")
+                    .font(.aTitle)
+                    .foregroundStyle(.white)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("Art is timeless. They said it long before us.")
+                    .font(.aBody)
+                    .foregroundStyle(Color.white.opacity(0.7))
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(.top, 12)
+            .enter()
+
+            VStack(alignment: .leading, spacing: 28) {
                 ForEach(Array(quotes.enumerated()), id: \.element.id) { i, quote in
                     HStack(alignment: .top, spacing: 14) {
                         ArtImage(name: quote.image, anchor: .top)
@@ -167,34 +190,72 @@ struct QuotesScreen: View {
                             .clipShape(Circle())
                         VStack(alignment: .leading, spacing: 6) {
                             Text("“\(quote.text)”")
-                                .font(.serif(18, .medium))
+                                .font(.serif(20, .medium))
                                 .italic()
-                                .foregroundStyle(Palette.ink)
+                                .foregroundStyle(.white)
                                 .fixedSize(horizontal: false, vertical: true)
                             Text("\(quote.author) · \(quote.role)")
                                 .font(.aCaption)
-                                .foregroundStyle(Palette.muted)
+                                .foregroundStyle(Color.white.opacity(0.6))
                         }
                         Spacer(minLength: 0)
                     }
-                    .padding(16)
-                    .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
-                    .overlay(RoundedRectangle(cornerRadius: 20).stroke(Palette.line, lineWidth: 1))
                     .opacity(i < shown ? 1 : 0)
                     .offset(y: i < shown ? 0 : 18)
                 }
             }
-            .padding(.top, 4)
+            .padding(.top, 36)
+
+            Spacer(minLength: 16)
+
+            TapHint(light: true)
         }
+        .padding(.horizontal, 24)
+        .padding(.bottom, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(Color.black.ignoresSafeArea())
+        .contentShape(Rectangle())
+        .onTapGesture(perform: advance)
+        .accessibilityAddTraits(.isButton)
         .onAppear {
-            // The quotes come in one by one, without blocking anything.
-            for i in 1...quotes.count {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.45 + Double(i - 1) * 0.6) {
-                    withAnimation(.settle) { shown = max(shown, i) }
-                    Haptics.soft()
-                }
+            // The first quote comes by itself; the others wait for a tap.
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                if shown == 0 { reveal() }
             }
         }
+    }
+
+    private func advance() {
+        if shown < quotes.count {
+            reveal()
+        } else {
+            Haptics.tap()
+            onNext()
+        }
+    }
+
+    private func reveal() {
+        withAnimation(.settle) { shown += 1 }
+        Haptics.soft()
+    }
+}
+
+/// "Tap to continue", at the bottom of screens that move on with a tap anywhere.
+struct TapHint: View {
+    /// White text, for dark screens.
+    var light: Bool = false
+    @State private var pulse = false
+
+    var body: some View {
+        Text("Tap to continue")
+            .font(.figtree(15, .semibold))
+            .foregroundStyle(light ? Color.white.opacity(0.7) : Palette.muted)
+            .opacity(pulse ? 1 : 0.45)
+            .frame(maxWidth: .infinity)
+            .frame(height: 56)
+            .onAppear {
+                withAnimation(.easeInOut(duration: 1.1).repeatForever(autoreverses: true)) { pulse = true }
+            }
     }
 }
 
@@ -240,36 +301,137 @@ struct TestIntroScreen: View {
     }
 }
 
-// MARK: Before the guided tour: what Artura brings
+// MARK: Before the guided tour: looking can be learned
 
-struct UnderstandScreen: View {
-    /// The painting of the guided tour that follows.
-    let artwork: Artwork?
+struct LearnToLookScreen: View {
     let onNext: () -> Void
 
-    private var lines: [String] {
-        let subject = artwork.map { "\($0.title) by \($0.artist)" } ?? "a painting"
-        return [
-            "With me, you don't just learn names. You understand the story behind each painting, and what it really means.",
-            "I'll show you one artwork a day, with its whole story. Day after day, you'll get to know all the great works.",
-            "My goal: make culture accessible to everyone, in a simple and playful way. Art is a heritage everyone deserves to know.",
-            "Let's look at \(subject) together. Do you know its whole story? Let me guide you: the tour is interactive."
-        ]
+    var body: some View {
+        StoryScaffold(image: "ill_oeil",
+                      tag: "Artura will help",
+                      title: "Looking can be learned",
+                      subtitle: "Nobody is born knowing how to read a painting. Every day, I show you where to rest your eyes: a detail, a color, a gesture.",
+                      onNext: onNext)
+    }
+}
+
+// MARK: The Chicago study
+
+struct StudyScreen: View {
+    let onNext: () -> Void
+
+    var body: some View {
+        StoryScaffold(image: "ill_regard",
+                      tag: "A study at the Art Institute of Chicago",
+                      title: "26 seconds in front of a painting",
+                      subtitle: "That's how long a visitor looks at a masterpiece, on average. Barely enough to read the label.",
+                      onNext: onNext)
+    }
+}
+
+// MARK: What you'll be able to do
+
+struct AbilitiesScreen: View {
+    let onNext: () -> Void
+
+    private let abilities: [(image: String, title: String, text: String)] = [
+        ("ill_oeil", "Look", "Spot what matters in a painting, even one you've never seen."),
+        ("ill_galerie", "Understand", "Who painted it, when, and why it changed everything."),
+        ("ill_goal_talk", "Talk about it", "Have something to say at the museum, or over dinner.")
+    ]
+
+    var body: some View {
+        OnbScaffold(title: "Soon, you'll know how to",
+                    subtitle: "A few minutes a day is all it takes.",
+                    onNext: onNext) {
+            VStack(spacing: 12) {
+                ForEach(Array(abilities.enumerated()), id: \.offset) { i, ability in
+                    HStack(spacing: 14) {
+                        ArtImage(name: ability.image)
+                            .frame(width: 72, height: 72)
+                            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        VStack(alignment: .leading, spacing: 3) {
+                            Text(ability.title).font(.aHeading).foregroundStyle(Palette.ink)
+                            Text(ability.text)
+                                .font(.aSmall)
+                                .foregroundStyle(Palette.muted)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(12)
+                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.card))
+                    .enter(Double(i) * 1.5 + 2)
+                }
+            }
+        }
+    }
+}
+
+// MARK: Choose your first lesson
+
+struct ChooseCourseScreen: View {
+    @EnvironmentObject private var user: UserStore
+    @EnvironmentObject private var content: ContentStore
+    let onNext: () -> Void
+
+    /// The paintings whose lesson is a full interactive tour.
+    private var courses: [Artwork] {
+        Array(content.artworks.filter { $0.lesson.contains { $0.isInteractive } }.prefix(4))
     }
 
     var body: some View {
-        MascotTalkScreen(lines: lines, cta: "Start the tour", onNext: onNext) {
-            HStack(spacing: 8) {
-                Image(systemName: "scope")
-                    .font(.system(size: 14, weight: .semibold))
-                Text("Your first guided tour · 2 min")
-                    .font(.figtree(14, .semibold))
+        OnbScaffold(title: "Choose your first lesson",
+                    subtitle: "I'll show you how it works.",
+                    cta: "Start the lesson",
+                    ctaEnabled: user.profile.firstCourse != nil, onNext: onNext) {
+            VStack(spacing: 10) {
+                ForEach(Array(courses.enumerated()), id: \.element.id) { i, artwork in
+                    let selected = user.profile.firstCourse == artwork.id
+                    Button {
+                        Haptics.selection()
+                        user.profile.firstCourse = artwork.id
+                    } label: {
+                        HStack(spacing: 14) {
+                            ArtImage(name: artwork.image)
+                                .frame(width: 64, height: 64)
+                                .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(artwork.title).font(.bodyStrong).foregroundStyle(Palette.ink)
+                                Text(artwork.meta).font(.aCaption).foregroundStyle(Palette.muted)
+                            }
+                            .multilineTextAlignment(.leading)
+                            Spacer(minLength: 8)
+                            if selected {
+                                CheckBadge().transition(.scale.combined(with: .opacity))
+                            }
+                        }
+                        .padding(10)
+                        .padding(.trailing, 6)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(RoundedRectangle(cornerRadius: 18).fill(selected ? Palette.mistLight : Palette.card))
+                        .overlay(RoundedRectangle(cornerRadius: 18).stroke(selected ? Palette.blue : .clear, lineWidth: 2))
+                    }
+                    .buttonStyle(.pressable)
+                    .animation(.snappy, value: selected)
+                    .accessibilityAddTraits(selected ? .isSelected : [])
+                    .enter(Double(i) + 2)
+                }
             }
-            .foregroundStyle(Palette.blue)
-            .padding(.horizontal, 14)
-            .frame(height: 36)
-            .background(Capsule().fill(Palette.mist))
         }
+    }
+}
+
+// MARK: Your phone takes your attention, art gives it back
+
+struct AttentionScreen: View {
+    let onNext: () -> Void
+
+    var body: some View {
+        StoryScaffold(image: "ill_phone",
+                      title: "Your phone takes your attention. Art gives it back.",
+                      subtitle: "A few minutes with a single painting, and everything slows down.",
+                      onNext: onNext)
     }
 }
 
