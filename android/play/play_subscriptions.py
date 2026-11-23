@@ -2,7 +2,7 @@
 """Creates (or updates) the 3 Artura Pro subscriptions on Google Play, like asc_subscriptions.py for iOS.
 
 - artura_yearly       base plan "yearly"  (P1Y), free trial offer "trial" of 3 days
-- artura_monthly      base plan "monthly" (P1M), free trial offer "trial" of 3 days
+- artura_monthly      base plan "monthly" (P1M), no free trial (an existing "trial" offer is deactivated)
 - artura_yearly_gift  base plan "yearly"  (P1Y), free trial offer "trial" of 7 days
 
 Prices: the same tiers as the App Store (fastlane/subscriptions/pricing.json): the tier price in US dollars
@@ -31,7 +31,7 @@ MONTHLY_USD = "6.99"
 # Google Play product id → (iOS product id, pricing kind, base plan id, billing period, free trial)
 PRODUCTS = {
     "artura_yearly": ("Artura_yearly", "yearly", "yearly", "P1Y", "P3D"),
-    "artura_monthly": ("Artura_monthly", "monthly", "monthly", "P1M", "P3D"),
+    "artura_monthly": ("Artura_monthly", "monthly", "monthly", "P1M", None),
     "artura_yearly_gift": ("Artura_yearly_gift", "gift", "yearly", "P1Y", "P7D"),
 }
 
@@ -169,7 +169,7 @@ def run(dry):
         sys.exit("\n".join(problems))
     play = Play(dry)
     for play_id, (ios_id, kind, plan_id, period, trial) in PRODUCTS.items():
-        print(f"\n== {play_id} ({period}, essai {trial})")
+        print(f"\n== {play_id} ({period}, essai {trial or 'aucun'})")
         regional = play.regional_prices(kind, pricing)
         sample = {c["regionCode"]: c["price"] for c in regional}
         for r in ("US", "FR", "DE", "BR", "IN"):
@@ -194,30 +194,37 @@ def run(dry):
             print("  création de l'abonnement")
             play.call("POST", "/subscriptions", body, {**params, "productId": play_id})
         else:
-            print("  mise à jour (noms, descriptions, prix des nouveaux abonnés)")
+            print("  mise à jour des noms et descriptions (les prix ne changent pas)")
             plans = existing.get("basePlans", [])
             for p in plans:
                 if p["basePlanId"] == plan_id:
                     p["regionalConfigs"] = regional
             body["basePlans"] = plans or [base_plan]
             play.call("PATCH", f"/subscriptions/{play_id}", body,
-                      {**params, "updateMask": "listings,basePlans", "allowMissing": "true"})
+                      {**params, "updateMask": "listings"})
         plan_path = f"/subscriptions/{play_id}/basePlans/{plan_id}"
         play.call("POST", f"{plan_path}:activate", {"packageName": PACKAGE, "productId": play_id, "basePlanId": plan_id})
 
         offers = play.call("GET", f"{plan_path}/offers", write=False) if existing else None
-        if not any(o.get("offerId") == "trial" for o in (offers or {}).get("subscriptionOffers", [])):
+        has_trial = any(o.get("offerId") == "trial" for o in (offers or {}).get("subscriptionOffers", []))
+        offer_path = f"{plan_path}/offers/trial"
+        offer_ids = {"packageName": PACKAGE, "productId": play_id, "basePlanId": plan_id, "offerId": "trial"}
+        if trial is None:
+            if has_trial:
+                print("  pas d'essai gratuit : désactivation de l'offre d'essai")
+                play.call("POST", f"{offer_path}:deactivate", offer_ids)
+            continue
+        if not has_trial:
             print(f"  offre d'essai gratuit de {trial}")
             offer = {
-                "packageName": PACKAGE, "productId": play_id, "basePlanId": plan_id, "offerId": "trial",
+                **offer_ids,
                 "phases": [{"recurrenceCount": 1, "duration": trial,
                             "regionalConfigs": [{"regionCode": c["regionCode"], "free": {}} for c in regional]}],
                 "targeting": {"acquisitionRule": {"scope": {"thisSubscription": {}}}},
                 "regionalConfigs": [{"regionCode": c["regionCode"], "newSubscriberAvailability": True} for c in regional],
             }
             play.call("POST", f"{plan_path}/offers", offer, {**params, "offerId": "trial"})
-        play.call("POST", f"{plan_path}/offers/trial:activate",
-                  {"packageName": PACKAGE, "productId": play_id, "basePlanId": plan_id, "offerId": "trial"})
+        play.call("POST", f"{offer_path}:activate", offer_ids)
     print("\nTerminé." + (" (simulation : rien n'a été écrit)" if dry else ""))
 
 
