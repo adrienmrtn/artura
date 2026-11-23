@@ -774,7 +774,7 @@ fun SignInButtons(message: String?, onMessage: (String?) -> Unit, onDone: () -> 
         onMessage(null)
         if (!GoogleAuth.isConfigured) {
             Haptics.warning()
-            onMessage(L("Google sign-in isn't set up yet (client ID missing in GoogleAuth.swift)."))
+            onMessage("Google sign-in isn't set up yet (webClientId missing in GoogleAuth.kt).")
             return
         }
         val activity = context as? Activity ?: return
