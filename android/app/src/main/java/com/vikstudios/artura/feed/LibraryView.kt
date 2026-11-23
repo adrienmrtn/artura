@@ -1,5 +1,9 @@
 package com.vikstudios.artura.feed
 
+import com.vikstudios.artura.app.rememberLastNonNull
+import com.vikstudios.artura.review.ReviewDeck
+import com.vikstudios.artura.review.ReviewSessionView
+
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -88,14 +92,6 @@ enum class LibraryTab {
         }
 }
 
-/**
- * The practice session opened by "Practice these artworks" (iOS: `ReviewDeck.practice` + `ReviewSessionView`).
- * Set by the Review port: `LibraryPractice.session = { title, artworks, all, onDismiss -> ... }`.
- * While it is null, the button is hidden.
- */
-object LibraryPractice {
-    var session: (@Composable (title: String, artworks: List<Artwork>, all: List<Artwork>, onDismiss: () -> Unit) -> Unit)? = null
-}
 
 /** The user's library: liked artworks, saved artworks and the ones already opened. Shown in a sheet. */
 @Composable
@@ -104,7 +100,7 @@ fun LibraryView(initialTab: LibraryTab) {
     val content = LocalContent.current
     var tab by remember { mutableStateOf(initialTab) }
     var course by remember { mutableStateOf<Artwork?>(null) }
-    var practice by remember { mutableStateOf(false) }
+    var deck by remember { mutableStateOf<ReviewDeck?>(null) }
 
     val ids = when (tab) {
         LibraryTab.Favorites -> user.profile.favorites.reversed()
@@ -140,25 +136,23 @@ fun LibraryView(initialTab: LibraryTab) {
                     LibraryTile(art, user.profile.completedLessons.contains(art.id)) { course = art }
                 }
             }
-            if (LibraryPractice.session != null) {
-                PillButton(
-                    if (items.size == 1) L("Practice this artwork") else L("Practice these %@ artworks", "${items.size}"),
-                    Modifier.padding(bottom = 16.dp),
-                ) {
-                    Haptics.press()
-                    practice = true
-                }
+            PillButton(
+                if (items.size == 1) L("Practice this artwork") else L("Practice these %@ artworks", "${items.size}"),
+                Modifier.padding(bottom = 16.dp),
+            ) {
+                Haptics.press()
+                deck = ReviewDeck.practice(tab.label, items, content.artworks)
             }
         }
     }
 
-    val open = course
-    FullScreenCover(visible = open != null, onDismiss = { course = null }) {
+    val open = rememberLastNonNull(course)
+    FullScreenCover(visible = course != null, onDismiss = { course = null }) {
         if (open != null) CourseFlow(open) { course = null }
     }
-    val session = LibraryPractice.session
-    FullScreenCover(visible = practice && session != null, onDismiss = { practice = false }) {
-        session?.invoke(tab.label, items, content.artworks) { practice = false }
+    val shownDeck = rememberLastNonNull(deck)
+    FullScreenCover(visible = deck != null, onDismiss = { deck = null }) {
+        if (shownDeck != null) ReviewSessionView(shownDeck) { deck = null }
     }
 }
 

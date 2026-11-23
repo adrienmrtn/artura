@@ -48,6 +48,9 @@ import androidx.compose.ui.unit.sp
 import com.vikstudios.artura.app.AppDebug
 import com.vikstudios.artura.app.FullScreenCover
 import com.vikstudios.artura.app.rememberLastNonNull
+import com.vikstudios.artura.feed.FeedSheetCover
+import com.vikstudios.artura.feed.LibraryView
+import androidx.compose.runtime.key
 import com.vikstudios.artura.app.LocalContent
 import com.vikstudios.artura.app.LocalUser
 import com.vikstudios.artura.core.AType
@@ -148,11 +151,9 @@ fun ReviewView() {
     FullScreenCover(visible = course != null, onDismiss = { course = null }) {
         if (shownCourse != null) CourseFlow(shownCourse) { course = null }
     }
-    library?.let { tab ->
-        // Lessons and sessions open over the whole app: the sheet closes first (it is a window above the covers).
-        ReviewLibrarySheet(tab, onDismiss = { library = null },
-            onOpen = { library = null; course = it },
-            onPractice = { library = null; deck = it })
+    val shownLibrary = rememberLastNonNull(library)
+    FeedSheetCover(visible = library != null, onDismiss = { library = null }) {
+        shownLibrary?.let { tab -> key(tab) { LibraryView(tab) } }
     }
 }
 
@@ -265,54 +266,6 @@ private fun PracticeRow(
  * Kept here so the Review tab does not depend on the feed's port; it can be replaced by the feed's LibraryView.
  */
 @OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun ReviewLibrarySheet(initial: LibraryTab, onDismiss: () -> Unit, onOpen: (Artwork) -> Unit, onPractice: (ReviewDeck) -> Unit) {
-    val user = LocalUser.current
-    val content = LocalContent.current
-    var tab by remember { mutableStateOf(initial) }
-    val profile = user.profile
-    val ids = when (tab) {
-        LibraryTab.Favorites -> profile.favorites.reversed()
-        LibraryTab.Saved -> (profile.saved ?: emptyList()).reversed()
-        LibraryTab.History -> profile.opened.reversed()
-    }
-    val items = ids.mapNotNull { content.artwork(it) }
-
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        containerColor = Palette.bg,
-    ) {
-        Column(Modifier.fillMaxWidth().fillMaxHeight(0.92f).padding(horizontal = 24.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            Text(L("My library"), style = AType.title, color = Palette.ink, modifier = Modifier.padding(top = 8.dp))
-            val labels = LibraryTab.entries.map { it.label }
-            SegmentedPicker(labels, tab.label, onSelect = { label -> tab = LibraryTab.entries.firstOrNull { it.label == label } ?: LibraryTab.Favorites })
-            if (items.isEmpty()) {
-                EmptyLibrary(tab)
-            } else {
-                Column(Modifier.weight(1f).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-                    items.chunked(2).forEach { pair ->
-                        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                            pair.forEach { art ->
-                                LibraryTile(art, done = profile.completedLessons.contains(art.id), modifier = Modifier.weight(1f)) { onOpen(art) }
-                            }
-                            if (pair.size == 1) Spacer(Modifier.weight(1f))
-                        }
-                    }
-                    Spacer(Modifier.height(16.dp))
-                }
-                PillButton(
-                    if (items.size == 1) L("Practice this artwork") else L("Practice these %@ artworks", "${items.size}"),
-                    Modifier.padding(bottom = 16.dp),
-                ) {
-                    Haptics.press()
-                    onPractice(ReviewDeck.practice(tab.label, items, content.artworks))
-                }
-            }
-        }
-    }
-}
-
 @Composable
 private fun ColumnScope.EmptyLibrary(tab: LibraryTab) {
     val (title, detail) = when (tab) {
