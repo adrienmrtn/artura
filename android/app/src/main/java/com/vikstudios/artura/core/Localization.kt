@@ -115,7 +115,7 @@ object AppLanguage {
     fun translate(english: String): String {
         table[english]?.let { return it }
         // Android-only texts that name the store: reuse the iOS translation and swap the store's name.
-        storeKeys[english]?.let { ios -> table[ios]?.let { return toGooglePlay(it) } }
+        if (!isEnglish) storeKeys[english]?.let { ios -> table[ios]?.let { return toGooglePlay(it) } }
         return english
     }
 
