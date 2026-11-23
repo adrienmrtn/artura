@@ -5,6 +5,8 @@ name: Google Play store
 #     e-mail de contact), reprise des textes App Store de fastlane/metadata (android/play/play_listing.py) ;
 #  2. les 3 abonnements Artura Pro avec leurs essais gratuits, leurs prix par pays et leurs textes
 #     (android/play/play_subscriptions.py).
+#  3. avec « [play:shots] » dans le message de commit : les captures d'écran Android de chaque langue,
+#     l'image de présentation et l'icône (screenshots/render_android.py, puis android/play/play_images.py).
 # Lancement : onglet Actions > « Google Play store » > Run workflow (une fois ce fichier sur la branche
 # principale), ou un push sur une branche claude/** dont le message de commit contient
 # « [play:dry] » (simulation) ou « [play] » (pour de vrai).
@@ -21,7 +23,7 @@ on:
 
 jobs:
   play:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[play')
+    if: github.event_name == 'workflow_dispatch' || (contains(github.event.head_commit.message, '[play') && !contains(github.event.head_commit.message, '[play:shots]'))
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
@@ -69,3 +71,31 @@ jobs:
       - name: Résultat de la fiche du Store
         if: steps.listing.outcome == 'failure'
         run: echo "::error::La fiche du Store n'a pas pu être envoyée (voir l'étape plus haut)"; exit 1
+
+  images:
+    if: contains(github.event.head_commit.message, '[play:shots]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Outils de rendu
+        run: |
+          pip install google-auth requests playwright
+          python3 -m playwright install --with-deps chromium
+          cd screenshots && npm install --no-audit --no-fund
+      - name: Captures Android (toutes les langues)
+        run: python3 screenshots/render_android.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: play-store-images
+          path: screenshots/out-android
+      - name: Envoi vers Google Play
+        run: python3 android/play/play_images.py screenshots/out-android
