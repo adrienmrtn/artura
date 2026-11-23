@@ -56,6 +56,11 @@ jobs:
               raise SystemExit(1)
           PY
       - name: Fiche du Store (toutes les langues)
+        id: listing
+        continue-on-error: true
         run: python3 android/play/play_listing.py $DRY
       - name: Abonnements
         run: python3 android/play/play_subscriptions.py $DRY
+      - name: Résultat de la fiche du Store
+        if: steps.listing.outcome == 'failure'
+        run: echo "::error::La fiche du Store n'a pas pu être envoyée (voir l'étape plus haut)"; exit 1

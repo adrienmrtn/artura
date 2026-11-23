@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from play_subscriptions import API, LANGUAGES, ROOT  # noqa: E402
+from play_subscriptions import API, LANGUAGES, ROOT, request_with_retry  # noqa: E402
 
 METADATA = ROOT / "fastlane/metadata"
 CONTACT_EMAIL = "support@vikstudios.com"
@@ -81,13 +81,16 @@ def run(dry):
             raise RuntimeError(f"{r.request.method} {r.url} → {r.status_code}: {r.text[:800]}")
         return r.json() if r.text else {}
 
-    edit = ok(s.post(f"{API}/edits"))["id"]
-    ok(s.patch(f"{API}/edits/{edit}/details", json={"defaultLanguage": "en-US", "contactEmail": CONTACT_EMAIL}))
+    def call(method, url, **kwargs):
+        return request_with_retry(s, method, url, **kwargs)
+
+    edit = ok(call("POST", f"{API}/edits"))["id"]
+    ok(call("PATCH", f"{API}/edits/{edit}/details", json={"defaultLanguage": "en-US", "contactEmail": CONTACT_EMAIL}))
     for l in listings:
-        ok(s.put(f"{API}/edits/{edit}/listings/{l['language']}", json=l))
-    r = s.post(f"{API}/edits/{edit}:commit")
+        ok(call("PUT", f"{API}/edits/{edit}/listings/{l['language']}", json=l))
+    r = call("POST", f"{API}/edits/{edit}:commit")
     if not r.ok and "changesNotSentForReview" in r.text:
-        r = s.post(f"{API}/edits/{edit}:commit", params={"changesNotSentForReview": "true"})
+        r = call("POST", f"{API}/edits/{edit}:commit", params={"changesNotSentForReview": "true"})
     ok(r)
     print(f"\n{len(listings)} fiches enregistrées sur Google Play.")
 

@@ -107,6 +107,18 @@ def tier_price(region, kind, pricing):
     return pricing["default"][kind]
 
 
+def request_with_retry(session, method, url, **kwargs):
+    """Google Play's API often answers 500/503 for a moment: try again, waiting a little longer each time."""
+    import time
+    for attempt in range(6):
+        r = session.request(method, url, **kwargs)
+        if r.status_code < 500 and r.status_code != 429:
+            return r
+        print(f"  (Google a répondu {r.status_code}, nouvel essai dans {5 * 2 ** attempt} s)")
+        time.sleep(5 * 2 ** attempt)
+    return r
+
+
 class Play:
     def __init__(self, dry):
         from google.oauth2 import service_account
@@ -123,7 +135,7 @@ class Play:
         if write and self.dry:
             print(f"  [simulation] {method} {path}")
             return {}
-        r = self.session.request(method, API + path, json=body, params=params)
+        r = request_with_retry(self.session, method, API + path, json=body, params=params)
         if r.status_code == 404 and method == "GET":
             return None
         if not r.ok:
