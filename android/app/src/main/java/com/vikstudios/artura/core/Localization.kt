@@ -112,7 +112,23 @@ object AppLanguage {
         listeners.forEach { it(from, language) }
     }
 
-    fun translate(english: String): String = table[english] ?: english
+    fun translate(english: String): String {
+        table[english]?.let { return it }
+        // Android-only texts that name the store: reuse the iOS translation and swap the store's name.
+        storeKeys[english]?.let { ios -> table[ios]?.let { return toGooglePlay(it) } }
+        return english
+    }
+
+    /** Android key → iOS key of the same sentence about the App Store. */
+    private val storeKeys = mapOf(
+        "Secured with Google Play" to "Secured with App Store",
+        "on Google Play" to "on the App Store",
+        "More than %@ learners, rated %@ out of 5 on Google Play" to "More than %@ learners, rated %@ out of 5 on the App Store",
+    )
+
+    private fun toGooglePlay(text: String): String = text
+        .replace("l'App Store", "Google Play").replace("l’App Store", "Google Play")
+        .replace("App Store", "Google Play")
 
     /** A context whose resources use the app's language (system dialogs, formatting). */
     fun wrap(context: Context): Context {
