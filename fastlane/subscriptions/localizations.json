@@ -1,0 +1,553 @@
+{
+ "ar-SA": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium سنوي",
+    "description": "يفتح جميع ميزات Artura Premium"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium شهري",
+    "description": "يفتح جميع ميزات Artura Premium"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium سنوي هدية",
+    "description": "خطة سنوية مع خصم ترحيبي"
+   }
+  },
+  "group": {
+   "name": "اشتراك Artura Premium"
+  }
+ },
+ "cs": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Roční",
+    "description": "Odemkne všechny prémiové funkce Artury"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Měsíční",
+    "description": "Odemkne všechny prémiové funkce Artury"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Roční Dárek",
+    "description": "Roční plán s uvítací slevou"
+   }
+  },
+  "group": {
+   "name": "Předplatné Artura Premium"
+  }
+ },
+ "da": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Årlig",
+    "description": "Låser alle Artura Premium-funktioner op"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Månedlig",
+    "description": "Låser alle Artura Premium-funktioner op"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Årlig Gave",
+    "description": "Årligt abonnement med velkomstrabat"
+   }
+  },
+  "group": {
+   "name": "Artura Premium-abonnement"
+  }
+ },
+ "de-DE": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Jährlich",
+    "description": "Schaltet alle Artura-Premiumfunktionen frei"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Monatlich",
+    "description": "Schaltet alle Artura-Premiumfunktionen frei"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Jahr Geschenk",
+    "description": "Jahresabo mit Willkommensrabatt"
+   }
+  },
+  "group": {
+   "name": "Artura Premium-Abo"
+  }
+ },
+ "el": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Ετήσια",
+    "description": "Ξεκλειδώνει όλες τις premium λειτουργίες"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Μηνιαία",
+    "description": "Ξεκλειδώνει όλες τις premium λειτουργίες"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Ετήσια Δώρο",
+    "description": "Ετήσιο πλάνο με έκπτωση καλωσορίσματος"
+   }
+  },
+  "group": {
+   "name": "Συνδρομή Artura Premium"
+  }
+ },
+ "en-AU": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Yearly",
+    "description": "Unlocks all Artura premium features"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Monthly",
+    "description": "Unlocks all Artura premium features"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Yearly Gift",
+    "description": "Yearly plan with a welcome discount"
+   }
+  },
+  "group": {
+   "name": "Artura Premium Subscription"
+  }
+ },
+ "en-GB": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Yearly",
+    "description": "Unlocks all Artura premium features"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Monthly",
+    "description": "Unlocks all Artura premium features"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Yearly Gift",
+    "description": "Yearly plan with a welcome discount"
+   }
+  },
+  "group": {
+   "name": "Artura Premium Subscription"
+  }
+ },
+ "en-US": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Yearly",
+    "description": "Unlocks all Artura premium features"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Monthly",
+    "description": "Unlocks all Artura premium features"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Yearly Gift",
+    "description": "Yearly plan with a welcome discount"
+   }
+  },
+  "group": {
+   "name": "Artura Premium Subscription"
+  }
+ },
+ "es-ES": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Anual",
+    "description": "Desbloquea todas las funciones premium"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mensual",
+    "description": "Desbloquea todas las funciones premium"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Anual Regalo",
+    "description": "Plan anual con descuento de bienvenida"
+   }
+  },
+  "group": {
+   "name": "Suscripción Artura Premium"
+  }
+ },
+ "es-MX": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Anual",
+    "description": "Desbloquea todas las funciones premium"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mensual",
+    "description": "Desbloquea todas las funciones premium"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Anual Regalo",
+    "description": "Plan anual con descuento de bienvenida"
+   }
+  },
+  "group": {
+   "name": "Suscripción Artura Premium"
+  }
+ },
+ "fi": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Vuosi",
+    "description": "Avaa kaikki Arturan premium-ominaisuudet"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Kuukausi",
+    "description": "Avaa kaikki Arturan premium-ominaisuudet"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Vuosi Lahja",
+    "description": "Vuosisuunnitelma tervetuliaisalennuksella"
+   }
+  },
+  "group": {
+   "name": "Artura Premium -tilaus"
+  }
+ },
+ "fr-FR": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Annuel",
+    "description": "Débloque toutes les fonctionnalités premium de Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mensuel",
+    "description": "Débloque toutes les fonctionnalités premium de Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Annuel Cadeau",
+    "description": "Abonnement annuel avec remise de bienvenue"
+   }
+  },
+  "group": {
+   "name": "Artura Abonnement Premium"
+  }
+ },
+ "he": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium שנתי",
+    "description": "פותח את כל תכונות הפרימיום של Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium חודשי",
+    "description": "פותח את כל תכונות הפרימיום של Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium שנתי מתנה",
+    "description": "מנוי שנתי עם הנחת פתיחה"
+   }
+  },
+  "group": {
+   "name": "מנוי Artura Premium"
+  }
+ },
+ "hr": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Godišnje",
+    "description": "Otključava sve premium značajke Arture"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mjesečno",
+    "description": "Otključava sve premium značajke Arture"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Godišnje Dar",
+    "description": "Godišnji plan s popustom dobrodošlice"
+   }
+  },
+  "group": {
+   "name": "Artura Premium pretplata"
+  }
+ },
+ "hu": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Éves",
+    "description": "Az Artura összes prémium funkciója"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Havi",
+    "description": "Az Artura összes prémium funkciója"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Éves Ajándék",
+    "description": "Éves csomag üdvözlő kedvezménnyel"
+   }
+  },
+  "group": {
+   "name": "Artura Premium előfizetés"
+  }
+ },
+ "it": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Annuale",
+    "description": "Sblocca tutte le funzioni premium di Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mensile",
+    "description": "Sblocca tutte le funzioni premium di Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Annuale Regalo",
+    "description": "Piano annuale con sconto di benvenuto"
+   }
+  },
+  "group": {
+   "name": "Abbonamento Artura Premium"
+  }
+ },
+ "ja": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium 年間",
+    "description": "Arturaのすべてのプレミアム機能を解放"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium 月間",
+    "description": "Arturaのすべてのプレミアム機能を解放"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium 年間ギフト",
+    "description": "ウェルカム割引付きの年間プラン"
+   }
+  },
+  "group": {
+   "name": "Artura Premium サブスクリプション"
+  }
+ },
+ "ko": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium 연간",
+    "description": "Artura의 모든 프리미엄 기능 잠금 해제"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium 월간",
+    "description": "Artura의 모든 프리미엄 기능 잠금 해제"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium 연간 선물",
+    "description": "환영 할인이 적용된 연간 플랜"
+   }
+  },
+  "group": {
+   "name": "Artura Premium 구독"
+  }
+ },
+ "nl-NL": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Jaarlijks",
+    "description": "Ontgrendelt alle premiumfuncties van Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Maandelijks",
+    "description": "Ontgrendelt alle premiumfuncties van Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Jaar Cadeau",
+    "description": "Jaarplan met welkomstkorting"
+   }
+  },
+  "group": {
+   "name": "Artura Premium-abonnement"
+  }
+ },
+ "no": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Årlig",
+    "description": "Låser opp alle premiumfunksjoner i Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Månedlig",
+    "description": "Låser opp alle premiumfunksjoner i Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Årlig Gave",
+    "description": "Årsabonnement med velkomstrabatt"
+   }
+  },
+  "group": {
+   "name": "Artura Premium-abonnement"
+  }
+ },
+ "pl": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Roczny",
+    "description": "Odblokowuje wszystkie funkcje premium Artury"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Miesięczny",
+    "description": "Odblokowuje wszystkie funkcje premium Artury"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Roczny Prezent",
+    "description": "Plan roczny ze zniżką powitalną"
+   }
+  },
+  "group": {
+   "name": "Subskrypcja Artura Premium"
+  }
+ },
+ "pt-BR": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Anual",
+    "description": "Libera todos os recursos premium do Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mensal",
+    "description": "Libera todos os recursos premium do Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Anual Presente",
+    "description": "Plano anual com desconto de boas-vindas"
+   }
+  },
+  "group": {
+   "name": "Assinatura Artura Premium"
+  }
+ },
+ "pt-PT": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Anual",
+    "description": "Desbloqueia todas as funcionalidades premium"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mensal",
+    "description": "Desbloqueia todas as funcionalidades premium"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Anual Oferta",
+    "description": "Plano anual com desconto de boas-vindas"
+   }
+  },
+  "group": {
+   "name": "Subscrição Artura Premium"
+  }
+ },
+ "ro": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Anual",
+    "description": "Deblochează toate funcțiile premium Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Lunar",
+    "description": "Deblochează toate funcțiile premium Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Anual Cadou",
+    "description": "Plan anual cu reducere de bun venit"
+   }
+  },
+  "group": {
+   "name": "Abonament Artura Premium"
+  }
+ },
+ "ru": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium на год",
+    "description": "Открывает все премиум-функции Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium на месяц",
+    "description": "Открывает все премиум-функции Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium на год, подарок",
+    "description": "Годовой план со скидкой в подарок"
+   }
+  },
+  "group": {
+   "name": "Подписка Artura Premium"
+  }
+ },
+ "sk": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Ročné",
+    "description": "Odomkne všetky prémiové funkcie Artury"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mesačné",
+    "description": "Odomkne všetky prémiové funkcie Artury"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Ročné Darček",
+    "description": "Ročný plán s uvítacou zľavou"
+   }
+  },
+  "group": {
+   "name": "Predplatné Artura Premium"
+  }
+ },
+ "sl-SI": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Letno",
+    "description": "Odklene vse premium funkcije Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Mesečno",
+    "description": "Odklene vse premium funkcije Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Letno Darilo",
+    "description": "Letni paket s pozdravnim popustom"
+   }
+  },
+  "group": {
+   "name": "Naročnina Artura Premium"
+  }
+ },
+ "sv": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Årlig",
+    "description": "Låser upp alla premiumfunktioner i Artura"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Månatlig",
+    "description": "Låser upp alla premiumfunktioner i Artura"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Årlig Present",
+    "description": "Årsplan med välkomstrabatt"
+   }
+  },
+  "group": {
+   "name": "Artura Premium-prenumeration"
+  }
+ },
+ "tr": {
+  "subscriptions": {
+   "Artura_yearly": {
+    "name": "Artura Premium Yıllık",
+    "description": "Artura'nın tüm premium özelliklerini açar"
+   },
+   "Artura_monthly": {
+    "name": "Artura Premium Aylık",
+    "description": "Artura'nın tüm premium özelliklerini açar"
+   },
+   "Artura_yearly_gift": {
+    "name": "Artura Premium Yıllık Hediye",
+    "description": "Hoş geldin indirimli yıllık plan"
+   }
+  },
+  "group": {
+   "name": "Artura Premium Aboneliği"
+  }
+ }
+}

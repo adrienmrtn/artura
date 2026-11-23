@@ -1,0 +1,40 @@
+name: App Store metadata
+
+# À lancer à la main : onglet Actions > « App Store metadata » > Run workflow.
+# Envoie, pour chaque langue de fastlane/metadata/ : nom, sous-titre, texte promotionnel,
+# description (avec le lien EULA), mots-clés et « Nouveautés de cette version ».
+# Les langues qui n'existent pas encore dans App Store Connect sont créées.
+#
+# Secrets du dépôt à créer (Settings > Secrets and variables > Actions) :
+#   ASC_KEY_ID      identifiant de la clé API App Store Connect
+#   ASC_ISSUER_ID   Issuer ID (App Store Connect > Utilisateurs et accès > Intégrations)
+#   ASC_KEY_P8      contenu complet du fichier .p8 (avec les lignes BEGIN/END)
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version de l'app à remplir dans App Store Connect"
+        default: "2.0"
+        required: true
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Contrôle des textes (longueurs et lien EULA)
+        run: python3 fastlane/check_metadata.py
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Envoi vers App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          APP_VERSION: ${{ inputs.version }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+        run: bundle exec fastlane metadata

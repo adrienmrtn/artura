@@ -1,0 +1,127 @@
+name: App Store screenshots iPad (English)
+
+# À lancer à la main : onglet Actions > « App Store screenshots iPad (English) » > Run workflow.
+# 1. Lance l'appli (profil de démo, en anglais) sur un simulateur « iPad Pro 13-inch » et prend de VRAIES captures
+#    plein écran, 2064 x 2752 (la taille 13" d'Apple), sans cadre ni iPhone. Elles sont en téléchargement
+#    (artefact « ipad-screenshots ») pour être vérifiées.
+# 2. Si « upload » est coché, les envoie sur App Store Connect avec les captures iPhone en-US (regénérées ici) :
+#    l'envoi remplace TOUTES les captures en-US (iPhone + iPad), les autres langues ne bougent pas.
+# Conseil : une première fois avec « upload » décoché, pour regarder les images avant d'envoyer.
+# Secrets : les mêmes que les autres workflows (ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8).
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version de l'app dans App Store Connect"
+        default: "2.0"
+        required: true
+      upload:
+        description: "Envoyer sur App Store Connect (décoché : génère seulement)"
+        type: boolean
+        default: false
+
+jobs:
+  capture:
+    name: Captures iPad 13" (simulateur)
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Choix de Xcode
+        run: |
+          APP=$(ls -d /Applications/Xcode_[0-9]*.app | grep -vi beta | sort -V | tail -n 1)
+          sudo xcode-select -s "$APP"
+          xcodebuild -version
+      - name: Compilation (simulateur)
+        run: |
+          set -o pipefail
+          xcodebuild -project Artura.xcodeproj -scheme Artura -configuration Debug \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build CODE_SIGNING_ALLOWED=NO build 2>&1 | tail -n 15
+      - name: Captures
+        run: |
+          APP=$(find build/Build/Products -maxdepth 2 -name "Artura.app" | head -n 1)
+          xcrun simctl list devices available | grep -E "iPad" || true
+          DEVICE=$(xcrun simctl list devices available | grep -E "iPad Pro 13-inch" | tail -n 1 | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')
+          if [ -z "$DEVICE" ]; then echo "Aucun simulateur « iPad Pro 13-inch » sur cette machine"; exit 1; fi
+          echo "Simulateur : $DEVICE · appli : $APP"
+          xcrun simctl boot "$DEVICE"
+          xcrun simctl bootstatus "$DEVICE" -b >/dev/null
+          xcrun simctl status_bar "$DEVICE" override --time "9:41" --dataNetwork wifi --wifiMode active --wifiBars 3 \
+            --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100 || true
+          xcrun simctl install "$DEVICE" "$APP"
+          mkdir -p shots
+          BUNDLE=com.vikstudios.artura
+          # shoot <fichier> <attente en secondes> <arguments de lancement...>
+          shoot() {
+            local name=$1 wait=$2; shift 2
+            xcrun simctl launch "$DEVICE" $BUNDLE -demoProfile YES -noSplash YES "$@" >/dev/null
+            sleep "$wait"
+            xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
+            xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
+          }
+          shoot 1_today 8
+          shoot 2_explore 6 -appTab explore
+          shoot 3_review 6 -appTab review
+          shoot 4_review_cards 7 -appTab review -reviewSession YES
+          shoot 5_games 6 -appTab games
+          shoot 6_profile 6 -appTab profile
+          # JPEG sans transparence (accepté par App Store Connect) + contrôle de la taille
+          mkdir -p out
+          for f in shots/*.png; do
+            n=$(basename "$f" .png)
+            sips -s format jpeg -s formatOptions 95 "$f" --out "out/${n}_ipad.jpg" >/dev/null
+            w=$(sips -g pixelWidth "out/${n}_ipad.jpg" | awk '/pixelWidth/{print $2}')
+            h=$(sips -g pixelHeight "out/${n}_ipad.jpg" | awk '/pixelHeight/{print $2}')
+            echo "$n : ${w} x ${h}"
+            if [ "$w x $h" != "2064 x 2752" ] && [ "$w x $h" != "2048 x 2732" ]; then
+              echo "Taille inattendue pour $n (attendu 2064 x 2752 ou 2048 x 2732)"; exit 1
+            fi
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ipad-screenshots
+          path: out
+
+  upload:
+    name: Envoi vers App Store Connect
+    needs: capture
+    if: ${{ inputs.upload }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Captures iPhone en-US (elles sont remplacées avec celles de l'iPad)
+        working-directory: screenshots
+        env:
+          ARTURA_APP: ${{ github.workspace }}/Artura/Resources
+          SHOTS_OUT: ${{ github.workspace }}/fastlane/screenshots_en
+        run: |
+          npm install --no-audit --no-fund
+          pip install playwright
+          python -m playwright install --with-deps chromium
+          python render.py en-US
+      - uses: actions/download-artifact@v4
+        with:
+          name: ipad-screenshots
+          path: fastlane/screenshots_en/en-US
+      - run: ls -l fastlane/screenshots_en/en-US
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Envoi des captures vers App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          APP_VERSION: ${{ inputs.version }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+        run: bundle exec fastlane screenshots_en

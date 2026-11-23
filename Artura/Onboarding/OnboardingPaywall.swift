@@ -375,6 +375,8 @@ struct TrialNotifScreen: View {
                     Text(word).font(.figtree(28, .regular)).opacity(on ? 0 : 1)
                     Text(word).font(.figtree(28, .bold)).opacity(on ? 1 : 0)
                 }
+                // Always its natural width: a word is never cut short with "…".
+                .fixedSize()
                 .scaleEffect(on ? 1 : 0.97)
             }
         }
@@ -779,6 +781,7 @@ struct TrialScreen: View {
         guard let extendedOffer, !exitOfferSeen, extendedOffer.trialDays > offer.trialDays else { return false }
         exitOfferSeen = true
         Haptics.press()
+        Analytics.track("paywall_viewed", ["kind": "exit_offer", "product": extendedOffer.product?.id ?? "preview"])
         showExitOffer = true
         return true
     }
@@ -1145,6 +1148,7 @@ struct PaywallScreen: View {
         .task {
             if pro.products.isEmpty { await pro.loadProducts() }
         }
+        .onAppear { Analytics.track("paywall_viewed", ["kind": "plans"]) }
     }
 
     private func planRow(title: String, price: String?, badge: String?, selected: Bool, action: @escaping () -> Void) -> some View {

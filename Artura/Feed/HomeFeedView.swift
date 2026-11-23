@@ -80,6 +80,7 @@ struct HomeFeedView: View {
                 .onChange(of: current) { old, new in
                     // A tick under the finger each time another artwork comes up.
                     if old != nil, new != nil { Haptics.rigid() }
+                    if let new { Analytics.track("feed_artwork_viewed", ["artwork": new]) }
                 }
                 .scrollIndicators(.hidden)
                 // A new filter starts the feed again from the top.

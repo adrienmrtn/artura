@@ -1,0 +1,12 @@
+{
+  "_comment": "Prix annuels. 'yearly' = prix de Artura_yearly, 'gift' = prix de Artura_yearly_gift (remise de bienvenue). Le mensuel n'est pas touché. Pays en ISO alpha-3. Tout pays non listé passe dans 'default'.",
+  "bundle_id": "com.vikstudios.artura",
+  "products": {"yearly": "Artura_yearly", "monthly": "Artura_monthly", "gift": "Artura_yearly_gift"},
+  "exact_price_currencies": ["USD", "EUR"],
+  "tiers": [
+    {"yearly": "49.99", "gift": "19.99", "territories": ["USA","CAN","AUS","NZL","GBR","CHE","NOR","SWE","DNK","FIN","ISL","IRL","NLD","LUX","AUT","DEU","BEL","SGP","ARE","ISR","JPN"]},
+    {"yearly": "39.99", "gift": "17.99", "territories": ["FRA","ESP","ITA","PRT","GRC","KOR","TWN","HKG","SAU","QAT","EST","LVA","LTU","SVN","SVK","MLT","CYP","HRV"]},
+    {"yearly": "29.99", "gift": "12.99", "territories": ["POL","CZE","HUN","ROU","BGR","CHL","MEX","BRA","CHN","MYS","THA","TUR","CRI","URY"]}
+  ],
+  "default": {"yearly": "19.99", "gift": "9.99"}
+}
