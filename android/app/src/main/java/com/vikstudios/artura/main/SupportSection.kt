@@ -149,10 +149,9 @@ fun SupportSection() {
             WidgetGuideView(onDone = { showWidget = false })
         }
     }
-    if (showLibrary) {
-        ModalBottomSheet({ showLibrary = false }, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), containerColor = Palette.bg) {
-            LibrarySheet(onClose = { showLibrary = false })
-        }
+    // Same sheet as the feed's: lessons and practice sessions open over it.
+    com.vikstudios.artura.feed.FeedSheetCover(visible = showLibrary, onDismiss = { showLibrary = false }) {
+        com.vikstudios.artura.feed.LibraryView(com.vikstudios.artura.feed.LibraryTab.Favorites)
     }
     if (showSignIn) {
         ModalBottomSheet({ showSignIn = false }, containerColor = Palette.bg) { SignInSheet(onDone = { showSignIn = false }) }

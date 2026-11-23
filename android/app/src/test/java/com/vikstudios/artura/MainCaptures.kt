@@ -7,7 +7,6 @@ import com.vikstudios.artura.games.GameHost
 import com.vikstudios.artura.games.GameKind
 import com.vikstudios.artura.main.ExploreView
 import com.vikstudios.artura.main.GamesView
-import com.vikstudios.artura.main.LibrarySheet
 import com.vikstudios.artura.main.MovementDetailView
 import com.vikstudios.artura.main.ProfileView
 import com.vikstudios.artura.main.SignInSheet
@@ -116,7 +115,6 @@ class MainCaptures {
     @Test fun games() = capture("main_games") { GamesView() }
     @Test fun profile() = capture("main_profile") { ProfileView() }
     @Test fun signIn() = capture("main_signin") { SignInSheet {} }
-    @Test fun library() = capture("main_library") { LibrarySheet({}) }
     @Test fun zoom() = capture("main_game_zoom") { GameHost(GameKind.Zoom) {} }
     @Test fun chronology() = capture("main_game_chronology") { GameHost(GameKind.Chronology) {} }
     @Test fun palette() = capture("main_game_palette") { GameHost(GameKind.Palette) {} }
