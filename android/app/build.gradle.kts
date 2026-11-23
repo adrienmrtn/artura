@@ -23,12 +23,36 @@ android {
         applicationId = "com.vikstudios.artura"
         minSdk = 26
         targetSdk = 35
-        versionCode = 24
+        // Each upload to Google Play needs a higher number: the release workflow passes its run number.
+        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 24
         versionName = "2.0"
+    }
+
+    signingConfigs {
+        // Shared debug key (committed on purpose): every debug build, on any computer or on GitHub,
+        // has the same SHA-1, the one declared in the "Android (debug)" OAuth client of Google Cloud.
+        getByName("debug") {
+            storeFile = file("debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+        // Upload key for Google Play: never committed. Given by environment variables (GitHub secrets
+        // ANDROID_KEYSTORE_B64 → decoded to a file by the release workflow).
+        create("release") {
+            val path = System.getenv("ANDROID_KEYSTORE_FILE")
+            if (path != null) {
+                storeFile = file(path)
+                storePassword = System.getenv("ANDROID_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("ANDROID_KEY_ALIAS") ?: "artura-upload"
+                keyPassword = System.getenv("ANDROID_KEY_PASSWORD") ?: System.getenv("ANDROID_KEYSTORE_PASSWORD")
+            }
+        }
     }
 
     buildTypes {
         release {
+            if (System.getenv("ANDROID_KEYSTORE_FILE") != null) signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             isShrinkResources = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")

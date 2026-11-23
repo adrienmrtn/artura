@@ -61,3 +61,10 @@ adb shell am start -n com.vikstudios.artura/.app.MainActivity --es demoProfile Y
 - **Rappels** : notifications locales (`AlarmManager`), permission demandée sur Android 13+.
 - **Widget** : widget d'écran d'accueil (Jetpack Glance) « Artwork of the day ».
 - **Statistiques** : même table `app_events` ; `os_version` vaut « Android 14 », etc.
+
+## Publication sur Google Play (automatisée)
+
+- **Clé de debug partagée** : `app/debug.keystore` est commitée exprès, pour que toutes les versions de debug aient la même empreinte SHA-1 (`E4:61:8E:58:36:3F:6C:E9:1B:C9:55:9F:54:64:29:1E:74:10:91:A9`), déclarée dans Google Cloud pour la connexion Google.
+- **Clé d'envoi** (`artura-upload.jks`, jamais commitée) : dans les secrets GitHub `ANDROID_KEYSTORE_B64` (fichier en base64) et `ANDROID_KEYSTORE_PASSWORD`. SHA-1 : `3A:C9:3F:69:3B:24:1D:AD:49:88:80:F6:33:2B:DE:F5:60:55:F2:68`.
+- **Workflow « Android release »** : compile le `.aab` signé (dans les Artifacts) ; option « upload » pour l'envoyer en test interne (après la première version envoyée à la main).
+- **Workflow « Google Play subscriptions »** (`play/play_subscriptions.py`) : crée ou met à jour les trois abonnements, leurs essais gratuits, leurs prix par pays (mêmes paliers que l'App Store, `fastlane/subscriptions/pricing.json` ; mensuel 6,99 $ converti) et leurs textes dans toutes les langues (`fastlane/subscriptions/localizations.json`). Secret : `PLAY_SERVICE_ACCOUNT_JSON`.

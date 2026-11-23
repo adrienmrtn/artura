@@ -1,0 +1,35 @@
+name: Google Play subscriptions
+
+# À lancer à la main : onglet Actions > « Google Play subscriptions » > Run workflow.
+# Crée (ou met à jour) les 3 abonnements Artura Pro de l'appli Android dans la Play Console :
+#   artura_yearly (essai 3 jours), artura_monthly (essai 3 jours), artura_yearly_gift (essai 7 jours),
+# avec les mêmes prix par pays et les mêmes textes que sur l'App Store (fastlane/subscriptions/).
+# « dry_run » : affiche ce qui serait fait sans rien écrire (conseillé la première fois).
+# Secret : PLAY_SERVICE_ACCOUNT_JSON (clé JSON du compte de service invité dans la Play Console).
+# Prérequis : l'appli existe dans la Play Console, un compte marchand est relié, et une première
+# version (le .aab du workflow « Android release ») a été envoyée à la main en test interne.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Simulation seulement (n'écrit rien)"
+        type: boolean
+        default: true
+
+jobs:
+  subscriptions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-auth requests
+      - name: Contrôle des fichiers
+        run: python3 android/play/play_subscriptions.py --check
+      - name: Envoi vers Google Play
+        env:
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+          DRY: ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: python3 android/play/play_subscriptions.py $DRY

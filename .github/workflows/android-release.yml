@@ -1,0 +1,56 @@
+name: Android release
+
+# À lancer à la main : onglet Actions > « Android release » > Run workflow.
+# Compile la version Google Play (.aab signé avec la clé d'envoi) et la met dans les « Artifacts » du job.
+# Si « upload » est coché, l'envoie aussi en test interne (brouillon) : possible seulement après
+# l'envoi à la main de la toute première version dans la Play Console.
+# Secrets : ANDROID_KEYSTORE_B64 (le fichier artura-upload.jks en base64), ANDROID_KEYSTORE_PASSWORD,
+# et pour l'envoi PLAY_SERVICE_ACCOUNT_JSON.
+on:
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: "Envoyer en test interne (brouillon)"
+        type: boolean
+        default: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Clé d'envoi
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+        run: |
+          if [ -z "$KEYSTORE_B64" ]; then echo "::error::Secret ANDROID_KEYSTORE_B64 manquant"; exit 1; fi
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+      - name: Compilation (.aab signé)
+        working-directory: android
+        env:
+          ANDROID_KEYSTORE_FILE: ${{ runner.temp }}/upload.jks
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          # Chaque envoi doit avoir un numéro plus grand que le précédent.
+          ANDROID_VERSION_CODE: ${{ 100 + github.run_number }}
+        run: ./gradlew :app:bundleRelease --console=plain
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artura-release-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+      - uses: actions/setup-python@v5
+        if: inputs.upload
+        with:
+          python-version: "3.12"
+      - name: Envoi en test interne
+        if: inputs.upload
+        env:
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          pip install google-auth requests
+          python3 android/play/play_upload.py android/app/build/outputs/bundle/release/app-release.aab internal draft
