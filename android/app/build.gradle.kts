@@ -24,7 +24,7 @@ android {
         minSdk = 26
         targetSdk = 36
         // Each upload to Google Play needs a higher number: the release workflow passes its run number.
-        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 25
+        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 26
         versionName = "2.0"
     }
 

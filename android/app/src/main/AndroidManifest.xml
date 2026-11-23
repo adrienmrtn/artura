@@ -6,6 +6,10 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
+    <!-- The app is locked in portrait on phones, but must stay installable on tablets, desktops
+         and Android XR, where the screen may not have a portrait orientation. -->
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false" />
+
     <application
         android:name=".app.ArturaApplication"
         android:allowBackup="true"
