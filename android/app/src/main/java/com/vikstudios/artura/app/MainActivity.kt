@@ -116,13 +116,19 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/** True once the launch screen has played in this process. */
+private var splashPlayed = false
+
 @Composable
 fun RootView() {
     val user = LocalUser.current
     val host = remember { CoverHost() }
-    var splash by rememberSaveable { mutableStateOf(!OnboardingDebug.flag("noSplash")) }
+    // Played once per launch: changing the language rebuilds the screens, not the splash.
+    var splash by remember { mutableStateOf(!splashPlayed && !OnboardingDebug.flag("noSplash")) }
 
     LaunchedEffect(Unit) {
+        if (splashPlayed) return@LaunchedEffect
+        splashPlayed = true
         Analytics.track("app_opened", mapOf(
             "onboarded" to user.profile.onboarded,
             "streak" to user.streak,
