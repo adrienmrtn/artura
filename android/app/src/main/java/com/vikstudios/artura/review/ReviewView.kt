@@ -47,6 +47,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.vikstudios.artura.app.AppDebug
 import com.vikstudios.artura.app.FullScreenCover
+import com.vikstudios.artura.app.rememberLastNonNull
 import com.vikstudios.artura.app.LocalContent
 import com.vikstudios.artura.app.LocalUser
 import com.vikstudios.artura.core.AType
@@ -139,12 +140,12 @@ fun ReviewView() {
         }
     }
 
-    val shownDeck = deck
-    FullScreenCover(visible = shownDeck != null, onDismiss = { deck = null }) {
+    val shownDeck = rememberLastNonNull(deck)
+    FullScreenCover(visible = deck != null, onDismiss = { deck = null }) {
         if (shownDeck != null) ReviewSessionView(shownDeck) { deck = null }
     }
-    val shownCourse = course
-    FullScreenCover(visible = shownCourse != null, onDismiss = { course = null }) {
+    val shownCourse = rememberLastNonNull(course)
+    FullScreenCover(visible = course != null, onDismiss = { course = null }) {
         if (shownCourse != null) CourseFlow(shownCourse) { course = null }
     }
     library?.let { tab ->

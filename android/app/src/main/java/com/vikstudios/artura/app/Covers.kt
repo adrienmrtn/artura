@@ -111,3 +111,18 @@ fun CoverLayer(host: CoverHost) {
         }
     }
 }
+
+/**
+ * The last non-null value of `value`: lets a cover keep showing its item while it slides away.
+ *
+ *     val shown = rememberLastNonNull(selected)
+ *     FullScreenCover(visible = selected != null, onDismiss = { selected = null }) {
+ *         shown?.let { CourseFlow(it) { selected = null } }
+ *     }
+ */
+@Composable
+fun <T> rememberLastNonNull(value: T?): T? {
+    val last = remember { mutableStateOf(value) }
+    if (value != null) last.value = value
+    return last.value
+}
