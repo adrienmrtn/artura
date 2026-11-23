@@ -55,11 +55,16 @@ jobs:
           else:
               raise SystemExit(1)
           PY
+      - name: Relecture de la fiche actuelle
+        if: contains(github.event.head_commit.message, '[play:check]')
+        run: python3 android/play/play_listing.py --verify
       - name: Fiche du Store (toutes les langues)
+        if: "!contains(github.event.head_commit.message, '[play:check]')"
         id: listing
         continue-on-error: true
         run: python3 android/play/play_listing.py $DRY
       - name: Abonnements
+        if: "!contains(github.event.head_commit.message, '[play:check]')"
         run: python3 android/play/play_subscriptions.py $DRY
       - name: Résultat de la fiche du Store
         if: steps.listing.outcome == 'failure'

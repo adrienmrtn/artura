@@ -95,7 +95,27 @@ def run(dry):
     print(f"\n{len(listings)} fiches enregistrées sur Google Play.")
 
 
+def verify():
+    """Reads back what Google Play has: languages, titles, short descriptions."""
+    from google.auth.transport.requests import AuthorizedSession
+    from google.oauth2 import service_account
+    creds = service_account.Credentials.from_service_account_info(
+        json.loads(os.environ["PLAY_SERVICE_ACCOUNT_JSON"]), scopes=["https://www.googleapis.com/auth/androidpublisher"])
+    s = AuthorizedSession(creds)
+    edit = request_with_retry(s, "POST", f"{API}/edits").json()["id"]
+    details = request_with_retry(s, "GET", f"{API}/edits/{edit}/details").json()
+    print("Détails :", json.dumps(details, ensure_ascii=False))
+    data = request_with_retry(s, "GET", f"{API}/edits/{edit}/listings").json()
+    for l in data.get("listings", []):
+        print(f"  {l['language']:7} {l.get('title')}  |  {l.get('shortDescription')}  ({len(l.get('fullDescription', ''))} car.)")
+    print(f"{len(data.get('listings', []))} fiches sur Google Play.")
+    request_with_retry(s, "DELETE", f"{API}/edits/{edit}")
+
+
 if __name__ == "__main__":
+    if "--verify" in sys.argv:
+        verify()
+        sys.exit(0)
     if "--check" in sys.argv:
         _, problems = all_listings()
         print("\n".join(problems) or "Fichiers OK")
