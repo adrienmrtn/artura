@@ -1,0 +1,61 @@
+name: Google Play store
+
+# Met à jour l'appli Android dans la Play Console, sans les captures d'écran :
+#  1. la fiche du Store dans toutes les langues (nom, description courte, description complète,
+#     e-mail de contact), reprise des textes App Store de fastlane/metadata (android/play/play_listing.py) ;
+#  2. les 3 abonnements Artura Pro avec leurs essais gratuits, leurs prix par pays et leurs textes
+#     (android/play/play_subscriptions.py).
+# Lancement : onglet Actions > « Google Play store » > Run workflow (une fois ce fichier sur la branche
+# principale), ou un push sur une branche claude/** dont le message de commit contient
+# « [play:dry] » (simulation) ou « [play] » (pour de vrai).
+# Secret : PLAY_SERVICE_ACCOUNT_JSON. Prérequis : une première version envoyée en test interne.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Simulation seulement (n'écrit rien)"
+        type: boolean
+        default: true
+  push:
+    branches: ["claude/**"]
+
+jobs:
+  play:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[play')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+      DRY: ${{ (inputs.dry_run || contains(github.event.head_commit.message, '[play:dry]')) && '--dry-run' || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-auth requests
+      - name: Contrôle des fichiers
+        run: |
+          python3 android/play/play_listing.py --check
+          python3 android/play/play_subscriptions.py --check
+      - name: Accès à Google Play
+        run: |
+          if [ -z "$PLAY_SERVICE_ACCOUNT_JSON" ]; then echo "::error::Secret PLAY_SERVICE_ACCOUNT_JSON manquant"; exit 1; fi
+          python3 - <<'PY'
+          import json, os
+          from google.oauth2 import service_account
+          from google.auth.transport.requests import AuthorizedSession
+          info = json.loads(os.environ["PLAY_SERVICE_ACCOUNT_JSON"])
+          print("Compte de service :", info.get("client_email"))
+          s = AuthorizedSession(service_account.Credentials.from_service_account_info(
+              info, scopes=["https://www.googleapis.com/auth/androidpublisher"]))
+          r = s.post("https://androidpublisher.googleapis.com/androidpublisher/v3/applications/com.vikstudios.artura/edits")
+          print("Ouverture d'une modification :", r.status_code, r.text[:500])
+          if r.ok:
+              s.delete(f"https://androidpublisher.googleapis.com/androidpublisher/v3/applications/com.vikstudios.artura/edits/{r.json()['id']}")
+          else:
+              raise SystemExit(1)
+          PY
+      - name: Fiche du Store (toutes les langues)
+        run: python3 android/play/play_listing.py $DRY
+      - name: Abonnements
+        run: python3 android/play/play_subscriptions.py $DRY
