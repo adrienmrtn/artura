@@ -19,7 +19,7 @@ object GoogleAuth {
      * ID; an "Android" client with the package name and the signing certificate's SHA-1 must also exist.
      * Add this ID to Supabase › Authentication › Google › Client IDs. Empty: Google sign-in not configured.
      */
-    const val webClientId = ""
+    const val webClientId = "518521814725-jvnj3vg5qrlnf0pihr65shud3bv903ps.apps.googleusercontent.com"
 
     val isConfigured: Boolean get() = webClientId.isNotEmpty()
 

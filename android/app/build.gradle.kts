@@ -17,14 +17,14 @@ val generatedAssets = layout.buildDirectory.dir("generated/artura/assets")
 
 android {
     namespace = "com.vikstudios.artura"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.vikstudios.artura"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         // Each upload to Google Play needs a higher number: the release workflow passes its run number.
-        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 24
+        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 25
         versionName = "2.0"
     }
 
@@ -106,7 +106,7 @@ dependencies {
     // Images of the online catalog (memory + disk cache).
     implementation("io.coil-kt:coil-compose:2.7.0")
     // Artura Pro subscription.
-    implementation("com.android.billingclient:billing-ktx:7.1.1")
+    implementation("com.android.billingclient:billing-ktx:8.3.0")
     // Google sign-in (Credential Manager).
     implementation("androidx.credentials:credentials:1.3.0")
     implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
