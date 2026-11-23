@@ -954,7 +954,9 @@ fun PaywallScreen(onClose: () -> Unit) {
             PillButton(Modifier.graphicsLayer { alpha = if (selected == null) 0.4f else 1f },
                 enabled = selected != null && !pro.isPurchasing, onClick = { purchase() }) {
                 if (pro.isPurchasing) CircularProgressIndicator(color = Color.White, strokeWidth = 2.dp, modifier = Modifier.size(22.dp))
-                else Text(L("Start free trial"), style = AType.bodyStrong, color = Color.White)
+                // The monthly plan has no free trial.
+                else Text(if (selected != null && selected.trialDays == null) L("Continue") else L("Start free trial"),
+                    style = AType.bodyStrong, color = Color.White)
             }
             TextLinkButton(L("Not now"), onClick = onClose)
             Box(Modifier.heightIn(min = 44.dp).pressable {

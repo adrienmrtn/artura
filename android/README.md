@@ -56,7 +56,7 @@ adb shell am start -n com.vikstudios.artura/.app.MainActivity --es demoProfile Y
 
 ## Différences avec iOS
 
-- **Abonnement** : Google Play Billing. Produits à créer dans la Play Console (abonnements, un forfait de base + une offre d'essai gratuit chacun) : `artura_yearly` (essai 3 jours), `artura_monthly` (essai 3 jours), `artura_yearly_gift` (annuel −40 %, essai 7 jours). Play n'accepte pas les majuscules des identifiants iOS. Tant qu'ils n'existent pas, les écrans d'essai affichent des prix d'exemple.
+- **Abonnement** : Google Play Billing. Produits à créer dans la Play Console (abonnements, un forfait de base + une offre d'essai gratuit chacun) : `artura_yearly` (essai 3 jours), `artura_monthly` (sans essai), `artura_yearly_gift` (annuel −40 %, essai 7 jours). Play n'accepte pas les majuscules des identifiants iOS. Tant qu'ils n'existent pas, les écrans d'essai affichent des prix d'exemple.
 - **Connexion** : Google uniquement (pas de « Se connecter avec Apple »), plus « Continuer sans compte ». Le compte Supabase et la progression sont les mêmes que sur iPhone. À configurer : `GoogleAuth.webClientId` (`services/GoogleAuth.kt`) avec un identifiant client OAuth de type **Web** ; créer aussi un client **Android** (package + empreinte SHA-1 du certificat de signature) dans le même projet Google Cloud, et ajouter l'identifiant Web dans Supabase › Authentication › Google › Client IDs.
 - **Rappels** : notifications locales (`AlarmManager`), permission demandée sur Android 13+.
 - **Widget** : widget d'écran d'accueil (Jetpack Glance) « Artwork of the day ».

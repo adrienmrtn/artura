@@ -88,7 +88,7 @@ Tout le contenu est dans `Artura/Resources/content.json`. Ajouter une œuvre = a
 Produits attendus :
 
 - `Artura_yearly` (essai gratuit de 3 jours)
-- `Artura_monthly` (essai gratuit de 3 jours)
+- `Artura_monthly` (sans essai gratuit)
 - `Artura_yearly_gift` (offre cadeau : annuel 40 % moins cher, essai gratuit de 7 jours ; proposée une fois quand on ferme l'écran d'essai ou qu'on annule la feuille de paiement)
 
 `Artura/Artura.storekit` permet de tester les achats dans le simulateur sans App Store Connect ; le schéma partagé le référence déjà. **Les prix qu'il contient (29,99, 6,99 et 17,99) reprennent la zone 1 d'App Store Connect**, où les tarifs sont définis par pays.

@@ -1118,6 +1118,9 @@ struct PaywallScreen: View {
                 } label: {
                     if pro.isPurchasing {
                         ProgressView().tint(.white)
+                    } else if let product = selectedProduct, product.trialDays == nil {
+                        // The monthly plan has no free trial.
+                        Text(L("Continue"))
                     } else {
                         Text(L("Start free trial"))
                     }
