@@ -8,7 +8,7 @@ import SwiftUI
 enum GoogleAuth {
     /// OAuth client ID of type "iOS", created in Google Cloud Console
     /// (of the form "1234-abcd.apps.googleusercontent.com"). Empty: Google sign-in not configured.
-    static let clientID = ""
+    static let clientID = "518521814725-t3imoo775i27ph159fc2fs0dlbciaboh.apps.googleusercontent.com"
 
     static var isConfigured: Bool { !clientID.isEmpty }
 
