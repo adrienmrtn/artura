@@ -7,6 +7,10 @@ struct SupportSection: View {
     @Environment(\.openURL) private var openURL
     @EnvironmentObject private var user: UserStore
     @State private var showLibrary = false
+    @State private var showSignIn = false
+    @State private var showAccountMenu = false
+    @State private var confirmDelete = false
+    @State private var accountError: String?
     @State private var showWidget = AppDebug.string("profileSheet") == "widget"
 
     private var shareText: String {
@@ -71,6 +75,15 @@ struct SupportSection: View {
                     row("globe", L("Language"), detail: AppLanguage.locale.localizedString(forIdentifier: AppLanguage.code)?.capitalized(with: AppLanguage.locale) ?? "English", trailing: "arrow.up.right")
                 }
                 .buttonStyle(.pressable)
+                Divider()
+                Button {
+                    Haptics.tap()
+                    if user.accountProvider == nil { showSignIn = true } else { showAccountMenu = true }
+                } label: {
+                    row("person.crop.circle.fill", user.accountProvider == nil ? L("Sign in") : L("Account"),
+                        detail: accountDetail)
+                }
+                .buttonStyle(.pressable)
             }
             .padding(.horizontal, 16)
             .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
@@ -122,6 +135,44 @@ struct SupportSection: View {
                 .presentationDetents([.large])
                 .presentationDragIndicator(.visible)
         }
+        .sheet(isPresented: $showSignIn) {
+            SignInSheet()
+                .presentationDetents([.medium])
+                .presentationDragIndicator(.visible)
+        }
+        .confirmationDialog(L("Account"), isPresented: $showAccountMenu, titleVisibility: .visible) {
+            Button(L("Sign out")) {
+                Task { await user.signOut() }
+            }
+            Button(L("Delete my account"), role: .destructive) { confirmDelete = true }
+            Button(L("Cancel"), role: .cancel) {}
+        }
+        .alert(L("Delete your account?"), isPresented: $confirmDelete) {
+            Button(L("Delete"), role: .destructive) {
+                Task {
+                    do {
+                        try await user.deleteAccount()
+                    } catch {
+                        accountError = L("Couldn't delete the account. Check your connection and try again.")
+                    }
+                }
+            }
+            Button(L("Cancel"), role: .cancel) {}
+        } message: {
+            Text(L("Your progress saved online will be deleted. It stays on this phone."))
+        }
+        .alert(accountError ?? "", isPresented: Binding(get: { accountError != nil },
+                                                         set: { if !$0 { accountError = nil } })) {
+            Button(L("OK"), role: .cancel) {}
+        }
+    }
+
+    private var accountDetail: String {
+        switch user.accountProvider {
+        case "apple": return L("Signed in with Apple")
+        case "google": return L("Signed in with Google")
+        default: return L("Save your progress online")
+        }
     }
 
     private func rowLabel(_ symbol: String, _ title: String, detail: String) -> some View {
@@ -149,5 +200,37 @@ struct SupportSection: View {
         }
         .frame(minHeight: 56)
         .contentShape(Rectangle())
+    }
+}
+
+/// Sign in from the profile, for those who skipped it in the onboarding.
+struct SignInSheet: View {
+    @Environment(\.dismiss) private var dismiss
+    @State private var message: String?
+
+    var body: some View {
+        VStack(spacing: 18) {
+            VStack(spacing: 8) {
+                Text(L("Save your progress"))
+                    .font(.figtree(24, .semibold))
+                    .foregroundStyle(Palette.ink)
+                Text(L("Your streak, lessons and collection come back on any iPhone."))
+                    .font(.aBody)
+                    .foregroundStyle(Palette.muted)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .multilineTextAlignment(.center)
+            if let message {
+                Text(message)
+                    .font(.aCaption)
+                    .foregroundStyle(Palette.red)
+                    .multilineTextAlignment(.center)
+            }
+            SignInButtons(message: $message) { dismiss() }
+        }
+        .padding(.horizontal, 24)
+        .padding(.top, 28)
+        .frame(maxHeight: .infinity, alignment: .top)
+        .background(Palette.bg)
     }
 }

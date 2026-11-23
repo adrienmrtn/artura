@@ -736,16 +736,10 @@ struct SocialProofScreen: View {
 // MARK: Account
 
 struct AccountScreen: View {
-    @EnvironmentObject private var user: UserStore
-    @Environment(\.webAuthenticationSession) private var webAuthenticationSession
     let onBack: () -> Void
     let onNext: () -> Void
 
-    @State private var googleBusy = false
     @State private var message: String?
-
-    /// The Google button only appears in a release build if sign-in is configured.
-    private var showsGoogle: Bool { GoogleAuth.isConfigured || OnboardingDebug.isDebug }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -797,48 +791,7 @@ struct AccountScreen: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
-                SignInWithAppleButton(.continue) { request in
-                    request.requestedScopes = [.fullName]
-                } onCompletion: { result in
-                    switch result {
-                    case .success(let authorization):
-                        if let credential = authorization.credential as? ASAuthorizationAppleIDCredential {
-                            user.profile.appleUserId = credential.user
-                            if let name = credential.fullName?.givenName { user.profile.firstName = name }
-                        }
-                        Haptics.success()
-                        onNext()
-                    case .failure:
-                        Haptics.warning()
-                    }
-                }
-                .signInWithAppleButtonStyle(.black)
-                .frame(height: 56)
-                .clipShape(Capsule())
-
-                if showsGoogle {
-                    Button(action: signInWithGoogle) {
-                        HStack(spacing: 10) {
-                            if googleBusy {
-                                ProgressView().tint(Palette.ink)
-                            } else {
-                                Image("google_g")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 20, height: 20)
-                                Text(L("Continue with Google"))
-                                    .font(.system(size: 20, weight: .medium))
-                                    .foregroundStyle(Palette.ink)
-                            }
-                        }
-                        .frame(maxWidth: .infinity)
-                        .frame(height: 56)
-                        .background(Capsule().fill(.white))
-                        .overlay(Capsule().stroke(Palette.lip, lineWidth: 1.5))
-                    }
-                    .buttonStyle(.pressable)
-                    .disabled(googleBusy)
-                }
+                SignInButtons(message: $message, onDone: onNext)
 
                 TextLinkButton(title: L("Continue without an account"), action: onNext)
 
@@ -854,6 +807,79 @@ struct AccountScreen: View {
         .padding(.bottom, 16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Palette.bg)
+    }
+}
+
+// MARK: - Sign in with Apple / Google
+
+/// The two sign-in buttons (Apple, then Google under it), used by the onboarding and the profile.
+/// The identity is kept on the phone at once and `onDone` is called; the Supabase account (progress
+/// saved online) is opened in the background, so a slow network never blocks the screen.
+struct SignInButtons: View {
+    @EnvironmentObject private var user: UserStore
+    @Environment(\.webAuthenticationSession) private var webAuthenticationSession
+    @Binding var message: String?
+    let onDone: () -> Void
+
+    @State private var googleBusy = false
+    /// Raw nonce of the Apple request in progress (its SHA-256 is given to Apple, the raw value to Supabase).
+    @State private var appleNonce = ""
+
+    /// The Google button only appears in a release build if sign-in is configured.
+    private var showsGoogle: Bool { GoogleAuth.isConfigured || OnboardingDebug.isDebug }
+
+    var body: some View {
+        VStack(spacing: 8) {
+            SignInWithAppleButton(.continue) { request in
+                let nonce = SupabaseAuth.makeNonce()
+                appleNonce = nonce.raw
+                request.requestedScopes = [.fullName]
+                request.nonce = nonce.hashed
+            } onCompletion: { result in
+                switch result {
+                case .success(let authorization):
+                    if let credential = authorization.credential as? ASAuthorizationAppleIDCredential {
+                        user.profile.appleUserId = credential.user
+                        if let name = credential.fullName?.givenName { user.profile.firstName = name }
+                        if let data = credential.identityToken, let token = String(data: data, encoding: .utf8) {
+                            let nonce = appleNonce
+                            Task { await user.connectAccount(provider: "apple", idToken: token, nonce: nonce) }
+                        }
+                    }
+                    Haptics.success()
+                    onDone()
+                case .failure:
+                    Haptics.warning()
+                }
+            }
+            .signInWithAppleButtonStyle(.black)
+            .frame(height: 56)
+            .clipShape(Capsule())
+
+            if showsGoogle {
+                Button(action: signInWithGoogle) {
+                    HStack(spacing: 10) {
+                        if googleBusy {
+                            ProgressView().tint(Palette.ink)
+                        } else {
+                            Image("google_g")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 20, height: 20)
+                            Text(L("Continue with Google"))
+                                .font(.system(size: 20, weight: .medium))
+                                .foregroundStyle(Palette.ink)
+                        }
+                    }
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 56)
+                    .background(Capsule().fill(.white))
+                    .overlay(Capsule().stroke(Palette.lip, lineWidth: 1.5))
+                }
+                .buttonStyle(.pressable)
+                .disabled(googleBusy)
+            }
+        }
     }
 
     private func signInWithGoogle() {
@@ -873,7 +899,8 @@ struct AccountScreen: View {
                 }
                 googleBusy = false
                 Haptics.success()
-                onNext()
+                Task { await user.connectAccount(provider: "google", idToken: account.idToken, nonce: nil) }
+                onDone()
             } catch GoogleAuth.Failure.cancelled {
                 googleBusy = false
             } catch {

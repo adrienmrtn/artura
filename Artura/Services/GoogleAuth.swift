@@ -8,13 +8,15 @@ import SwiftUI
 enum GoogleAuth {
     /// OAuth client ID of type "iOS", created in Google Cloud Console
     /// (of the form "1234-abcd.apps.googleusercontent.com"). Empty: Google sign-in not configured.
-    static let clientID = ""
+    static let clientID = "518521814725-t3imoo775i27ph159fc2fs0dlbciaboh.apps.googleusercontent.com"
 
     static var isConfigured: Bool { !clientID.isEmpty }
 
     struct Account {
         let userID: String
         let firstName: String?
+        /// Identity token, exchanged for a Supabase session.
+        let idToken: String
     }
 
     enum Failure: Error {
@@ -81,7 +83,7 @@ enum GoogleAuth {
               let userID = payload["sub"] as? String else {
             throw Failure.invalidResponse
         }
-        return Account(userID: userID, firstName: payload["given_name"] as? String)
+        return Account(userID: userID, firstName: payload["given_name"] as? String, idToken: idToken)
     }
 
     /// Payload of a JWT (the middle part, base64url-encoded).
