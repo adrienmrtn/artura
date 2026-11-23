@@ -117,6 +117,7 @@ class Play:
         self.session = AuthorizedSession(creds)
         self.dry = dry
         self._converted = {}
+        self.regions_version = REGIONS_VERSION
 
     def call(self, method, path, body=None, params=None, write=True):
         if write and self.dry:
@@ -133,6 +134,8 @@ class Play:
         """Price of `usd` US dollars in every Google Play region: {region: Money}."""
         if usd not in self._converted:
             data = self.call("POST", "/pricing:convertRegionPrices", {"price": money("USD", usd)}, write=False)
+            # The regions (and their currencies) change over time: use the version Google answered with.
+            self.regions_version = data.get("regionVersion", {}).get("version", REGIONS_VERSION)
             self._converted[usd] = {code: v["price"] for code, v in data["convertedRegionPrices"].items()}
         return self._converted[usd]
 
@@ -173,7 +176,7 @@ def run(dry):
             },
         }
         body = {"packageName": PACKAGE, "productId": play_id, "listings": listings(texts, ios_id), "basePlans": [base_plan]}
-        params = {"regionsVersion.version": REGIONS_VERSION}
+        params = {"regionsVersion.version": play.regions_version}
         existing = play.call("GET", f"/subscriptions/{play_id}", write=False)
         if existing is None:
             print("  création de l'abonnement")
