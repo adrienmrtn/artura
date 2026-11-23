@@ -7,6 +7,8 @@ enum RemoteCatalog {
     static let base = "https://dsbhaddvzpswkjzqskhv.supabase.co"
     static let key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRzYmhhZGR2enBzd2tqenFza2h2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUyNzg1NDAsImV4cCI6MjExMDg1NDU0MH0.kUOMCn1oAb1lD-kym-GIUxZ4jv5FUJvEnFMbNsOFT44"
     private static let pageSize = 1000
+    /// The public "anon" key, also used by the account calls (Auth, user_progress).
+    static var publicKey: String { key }
 
     /// Address of an artwork image. `size` is "thumb", "large" or "zoom".
     static func imageURL(_ slug: String, _ size: String) -> String {

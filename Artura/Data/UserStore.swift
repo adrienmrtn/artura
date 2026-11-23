@@ -45,8 +45,14 @@ final class UserStore: ObservableObject {
     }
 
     @Published var profile: Profile {
-        didSet { save() }
+        didSet {
+            save()
+            if profile != oldValue { scheduleUpload() }
+        }
     }
+
+    /// "apple" or "google" when the progress is saved online (Supabase account), nil otherwise.
+    @Published private(set) var accountProvider: String? = SupabaseAuth.provider
 
     private let key = "artura.profile.v1"
 
@@ -247,6 +253,78 @@ final class UserStore: ObservableObject {
 
     func resetAll() {
         profile = Profile()
+    }
+
+    // MARK: Account (progress saved online)
+
+    private var uploadTask: Task<Void, Never>?
+
+    /// Sends the profile a couple of seconds after the last change (several changes, one request).
+    private func scheduleUpload() {
+        guard accountProvider != nil else { return }
+        uploadTask?.cancel()
+        let snapshot = profile
+        uploadTask = Task {
+            try? await Task.sleep(nanoseconds: 2_000_000_000)
+            guard !Task.isCancelled, let session = await SupabaseAuth.validSession() else { return }
+            try? await ProgressSync.push(snapshot, session)
+        }
+    }
+
+    /// After Sign in with Apple or Google: opens (or creates) the Supabase account, brings back the
+    /// progress saved online and combines it with this phone's, then saves the result online.
+    @MainActor
+    func connectAccount(provider: String, idToken: String, nonce: String?) async {
+        do {
+            let session = try await SupabaseAuth.signIn(provider: provider, idToken: idToken, nonce: nonce)
+            accountProvider = provider
+            Analytics.track("account_connected", ["provider": provider])
+            await pullAndMerge(session)
+        } catch {
+            Analytics.track("account_failed", ["provider": provider])
+        }
+    }
+
+    /// At launch and when the app comes back: brings in what was saved from another phone.
+    @MainActor
+    func refreshFromAccount() async {
+        guard accountProvider != nil else { return }
+        guard let session = await SupabaseAuth.validSession() else {
+            accountProvider = SupabaseAuth.provider
+            return
+        }
+        await pullAndMerge(session)
+    }
+
+    @MainActor
+    private func pullAndMerge(_ session: SupabaseAuth.Session) async {
+        guard let remote = try? await ProgressSync.pull(session) else {
+            try? await ProgressSync.push(profile, session)
+            return
+        }
+        let merged = profile.merged(with: remote)
+        if merged != profile { profile = merged }
+        if merged != remote { try? await ProgressSync.push(merged, session) }
+    }
+
+    /// Signs out: the progress stays on this phone, and stays saved online for the next sign-in.
+    @MainActor
+    func signOut() async {
+        uploadTask?.cancel()
+        await SupabaseAuth.signOut()
+        accountProvider = nil
+        Analytics.track("account_signed_out")
+    }
+
+    /// Deletes the account and its online copy. The progress stays on this phone. Throws if offline.
+    @MainActor
+    func deleteAccount() async throws {
+        uploadTask?.cancel()
+        try await SupabaseAuth.deleteAccount()
+        accountProvider = nil
+        profile.appleUserId = nil
+        profile.googleUserId = nil
+        Analytics.track("account_deleted")
     }
 }
 

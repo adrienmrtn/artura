@@ -70,7 +70,11 @@ struct RootView: View {
         .onChange(of: scenePhase) { _, phase in
             // Whatever is waiting leaves before the app is suspended.
             if phase == .background { Analytics.flush() }
-            if phase == .active { Analytics.flush() }
+            if phase == .active {
+                Analytics.flush()
+                // Progress saved from another phone comes back here too.
+                Task { await user.refreshFromAccount() }
+            }
         }
         .task {
             // Wait for the logo animation to play, then the app fades in.

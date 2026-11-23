@@ -15,6 +15,8 @@ enum GoogleAuth {
     struct Account {
         let userID: String
         let firstName: String?
+        /// Identity token, exchanged for a Supabase session.
+        let idToken: String
     }
 
     enum Failure: Error {
@@ -81,7 +83,7 @@ enum GoogleAuth {
               let userID = payload["sub"] as? String else {
             throw Failure.invalidResponse
         }
-        return Account(userID: userID, firstName: payload["given_name"] as? String)
+        return Account(userID: userID, firstName: payload["given_name"] as? String, idToken: idToken)
     }
 
     /// Payload of a JWT (the middle part, base64url-encoded).
