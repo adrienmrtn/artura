@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown by the launcher in its widget list (iOS: configurationDisplayName / description). -->
+    <string name="widget_name">Artwork of the day</string>
+    <string name="widget_description">A new masterpiece on your Home Screen, every day.</string>
+</resources>

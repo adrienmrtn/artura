@@ -1,0 +1,44 @@
+name: Build Android
+
+# Compile l'appli Android (APK de debug) à chaque push sur une branche de travail qui touche
+# android/ ou le contenu partagé avec iOS (images, textes, traductions dans Artura/).
+# L'APK est téléchargeable dans les « Artifacts » du job, et les captures d'écran (rendues sans
+# téléphone, voir android/README.md) aussi.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["android/**", "Artura/Assets.xcassets/**", "Artura/Resources/**", "Artura/Fonts/**", "ArturaWidget/**", ".github/workflows/android.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: android
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Compilation (APK de debug)
+        run: ./gradlew :app:assembleDebug --console=plain
+      - name: Captures d'écran
+        run: ./gradlew :app:testDebugUnitTest -Proborazzi.test.record=true --console=plain
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artura-debug-apk
+          path: android/app/build/outputs/apk/debug/*.apk
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: android-captures
+          path: android/captures/*.png
+          if-no-files-found: ignore
