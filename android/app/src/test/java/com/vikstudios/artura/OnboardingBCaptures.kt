@@ -13,6 +13,7 @@ import com.vikstudios.artura.onboarding.ExitOfferSheet
 import com.vikstudios.artura.onboarding.GiftBox
 import com.vikstudios.artura.onboarding.GiftScreen
 import com.vikstudios.artura.onboarding.LoadingScreen
+import com.vikstudios.artura.onboarding.MadeByScreen
 import com.vikstudios.artura.onboarding.PaywallScreen
 import com.vikstudios.artura.onboarding.PlanScreen
 import com.vikstudios.artura.onboarding.ReminderScreen
