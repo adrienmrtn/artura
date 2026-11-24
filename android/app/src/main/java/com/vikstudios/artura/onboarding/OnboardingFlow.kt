@@ -60,7 +60,7 @@ enum class OnbStep {
     testIntro, flashTest, flashResult,
     study, learnToLook, abilities, chooseCourse, lesson, afterLesson,
     phoneTime, phoneResult, attention, projection, graph,
-    streak, reminder, widget, loading, plan, socialProof, account,
+    streak, reminder, widget, madeBy, loading, plan, socialProof, account,
     gift, trialNotif, trialTimeline, trial;
 
     val showsBar: Boolean
@@ -74,7 +74,7 @@ enum class OnbStep {
     val previous: OnbStep?
         get() = when (this) {
             welcome, gift, trialNotif, trialTimeline, trial -> null
-            plan -> widget
+            plan -> madeBy
             else -> entries[ordinal - 1]
         }
 
@@ -268,6 +268,7 @@ private fun Screen(
         OnbStep.streak -> StreakScreen(next)
         OnbStep.reminder -> ReminderScreen(onNext = next)
         OnbStep.widget -> WidgetScreen(onNext = next)
+        OnbStep.madeBy -> MadeByScreen(next)
         OnbStep.loading -> LoadingScreen(onNext = next)
         OnbStep.plan -> PlanScreen(onNext = next)
         OnbStep.socialProof -> SocialProofScreen(onNext = next)

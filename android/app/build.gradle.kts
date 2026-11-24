@@ -24,8 +24,8 @@ android {
         minSdk = 26
         targetSdk = 36
         // Each upload to Google Play needs a higher number: the release workflow passes its run number.
-        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 26
-        versionName = "2.0"
+        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 27
+        versionName = "2.1"
     }
 
     signingConfigs {
@@ -106,6 +106,8 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.7.0")
     // Artura Pro subscription.
     implementation("com.android.billingclient:billing-ktx:8.3.0")
+    // In-app rating prompt (Google Play).
+    implementation("com.google.android.play:review-ktx:2.0.2")
     // Google sign-in (Credential Manager).
     implementation("androidx.credentials:credentials:1.3.0")
     implementation("androidx.credentials:credentials-play-services-auth:1.3.0")

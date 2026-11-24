@@ -119,6 +119,7 @@ jobs:
           shoot 27_reminder reminder 5 -noSplash YES
           shoot 28_widgetLock widget 5 -noSplash YES
           shoot 29_widgetHome widget 5 -noSplash YES -onbWidgetHome YES
+          shoot 29b_madeBy madeBy 5 -noSplash YES
           shoot 30_loading loading 10 -noSplash YES
           shoot 31_plan plan 5 -noSplash YES
           shoot 32_socialProof socialProof 6 -noSplash YES

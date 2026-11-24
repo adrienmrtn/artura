@@ -12,7 +12,7 @@ enum OnbStep: Int, CaseIterable {
     // 5 · The turning point: that time can become knowledge
     case phoneTime, phoneResult, attention, projection, graph
     // 6 · The commitment
-    case streak, reminder, widget, loading, plan, socialProof, account
+    case streak, reminder, widget, madeBy, loading, plan, socialProof, account
     // 7 · The gift: the free trial
     case gift, trialNotif, trialTimeline, trial
 
@@ -35,7 +35,7 @@ enum OnbStep: Int, CaseIterable {
         switch self {
         case .welcome, .gift, .trialNotif, .trialTimeline, .trial: return nil
         // The loading screen replays by itself: skip it when going back.
-        case .plan: return .widget
+        case .plan: return .madeBy
         default: return OnbStep(rawValue: rawValue - 1)
         }
     }
@@ -212,6 +212,7 @@ struct OnboardingFlow: View {
         case .streak: StreakScreen(onNext: next)
         case .reminder: ReminderScreen(onNext: next)
         case .widget: WidgetScreen(onNext: next)
+        case .madeBy: MadeByScreen(onNext: next)
         case .loading: LoadingScreen(onNext: next)
         case .plan: PlanScreen(onNext: next)
         case .socialProof: SocialProofScreen(onNext: next)

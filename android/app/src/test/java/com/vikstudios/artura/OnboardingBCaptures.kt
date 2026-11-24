@@ -13,6 +13,7 @@ import com.vikstudios.artura.onboarding.ExitOfferSheet
 import com.vikstudios.artura.onboarding.GiftBox
 import com.vikstudios.artura.onboarding.GiftScreen
 import com.vikstudios.artura.onboarding.LoadingScreen
+import com.vikstudios.artura.onboarding.MadeByScreen
 import com.vikstudios.artura.onboarding.PaywallScreen
 import com.vikstudios.artura.onboarding.PlanScreen
 import com.vikstudios.artura.onboarding.ReminderScreen
@@ -87,6 +88,7 @@ class OnboardingBCaptures {
 
     @Test fun reminder() = capture("onb_reminder") { ReminderScreen {} }
     @Test fun widget() = capture("onb_widget") { WidgetScreen {} }
+    @Test fun madeBy() = capture("onb_made_by") { MadeByScreen {} }
     @Test fun loading() = capture("onb_loading") { LoadingScreen {} }
     @Test fun plan() = capture("onb_plan") { PlanScreen {} }
     @Test fun socialProof() = capture("onb_social_proof") { SocialProofScreen {} }
