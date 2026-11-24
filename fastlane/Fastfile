@@ -89,6 +89,43 @@ platform :ios do
     )
   end
 
+  desc "Envoie seulement les nouveautés de la version (release_notes.txt) pour toutes les langues"
+  lane :release_notes do
+    require "tmpdir"
+    require "fileutils"
+    api_key = app_store_connect_api_key(
+      key_id: ENV.fetch("ASC_KEY_ID"),
+      issuer_id: ENV.fetch("ASC_ISSUER_ID"),
+      key_content: ENV.fetch("ASC_KEY_P8"),
+      is_key_content_base64: false
+    )
+
+    # Dossier temporaire avec uniquement release_notes.txt : deliver n'envoie que ce qui existe.
+    only_notes = Dir.mktmpdir("artura-notes")
+    notes = Dir.glob(File.join(File.expand_path(FastlaneCore::FastlaneFolder.path), "metadata", "*", "release_notes.txt"))
+    UI.user_error!("Aucun release_notes.txt trouvé dans fastlane/metadata") if notes.empty?
+    notes.each do |f|
+      locale = File.basename(File.dirname(f))
+      FileUtils.mkdir_p(File.join(only_notes, locale))
+      FileUtils.cp(f, File.join(only_notes, locale, "release_notes.txt"))
+    end
+    UI.message("#{notes.size} langues à envoyer : " + notes.map { |f| File.basename(File.dirname(f)) }.sort.join(", "))
+
+    deliver(
+      api_key: api_key,
+      app_identifier: "com.vikstudios.artura",
+      app_version: ENV.fetch("APP_VERSION", "2.1"),
+      metadata_path: only_notes,
+      skip_binary_upload: true,
+      skip_screenshots: true,
+      force: true,
+      submit_for_review: false,
+      automatic_release: false,
+      run_precheck_before_submit: false,
+      precheck_include_in_app_purchases: false
+    )
+  end
+
   desc "Captures anglais (en-US) : iPhone 6,9 pouces + iPad 13 pouces, depuis fastlane/screenshots_en"
   lane :screenshots_en do
     api_key = app_store_connect_api_key(
