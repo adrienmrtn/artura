@@ -13,6 +13,8 @@ struct LessonView: View {
     /// Number of "Continue" taps allowed before `onBlocked` is called instead (nil: no limit).
     var freeTaps: Int? = nil
     var onBlocked: (() -> Void)? = nil
+    /// Called after each "Continue" that reveals a block, with the number of taps so far.
+    var onContinue: ((Int) -> Void)? = nil
     let onBack: () -> Void
     let onFinish: () -> Void
 
@@ -121,6 +123,7 @@ struct LessonView: View {
                     if lesson.indices.contains(index), lesson[index].isInteractive {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { open(index) }
                     }
+                    onContinue?(taps)
                 }
             }
             .buttonStyle(.primary)
