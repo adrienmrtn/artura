@@ -15,7 +15,6 @@ import com.vikstudios.artura.feed.LibraryView
 import com.vikstudios.artura.feed.SheetPanel
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.remember
@@ -55,7 +54,7 @@ class FeedCaptures {
                 LocalContent provides AppGraph.content, LocalUser provides AppGraph.user,
                 LocalPro provides AppGraph.pro, LocalCoverHost provides host,
             ) {
-                MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+                MaterialTheme(colorScheme = captureColorScheme()) {
                     CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                         content()
                         CoverLayer(host)
@@ -64,7 +63,7 @@ class FeedCaptures {
             }
         }
         compose.mainClock.advanceTimeBy(1500)
-        compose.onRoot().captureRoboImage("../captures/$name.png")
+        compose.onRoot().captureRoboImage("../captures/$name$captureSuffix.png")
     }
 
     /** Sample profile: a few lessons read, favorites, saved artworks (same as `-demoProfile`). */

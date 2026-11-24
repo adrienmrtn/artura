@@ -61,7 +61,7 @@ struct RoundActionLabel: View {
             .font(.system(size: size * 0.38, weight: .semibold))
             .foregroundStyle(tint)
             .frame(width: size, height: size)
-            .background(Circle().fill(.white))
+            .background(Circle().fill(Palette.bg))
             .background(Circle().fill(Palette.lip).offset(y: 3))
             .overlay(Circle().stroke(Palette.line, lineWidth: 1))
     }

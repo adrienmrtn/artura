@@ -98,8 +98,9 @@ struct MascotBubble<Content: View>: View {
                 .padding(.bottom, 22)
                 .frame(maxWidth: .infinity)
                 .background(
+                    // White bubble; in dark mode, the card grey so it stands out from the background.
                     BubbleShape()
-                        .fill(.white)
+                        .fill(Color(light: 0xFFFFFF, dark: 0x201E1C))
                         .shadow(color: Palette.blueDark.opacity(0.10), radius: 18, y: 8)
                 )
         }
@@ -341,7 +342,7 @@ struct FloatingSpace: View {
                             .clipShape(RoundedRectangle(cornerRadius: item.size * 0.22, style: .continuous))
                             .overlay(
                                 RoundedRectangle(cornerRadius: item.size * 0.22, style: .continuous)
-                                    .stroke(.white, lineWidth: 3)
+                                    .stroke(Palette.bg, lineWidth: 3)
                             )
                             .opacity(visible ? 0.35 + 0.65 * item.depth : 0)
                             .scaleEffect(visible ? 1 : 0.5)
@@ -418,7 +419,7 @@ struct FloatingWall: View {
                             .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
                             .overlay(
                                 RoundedRectangle(cornerRadius: 18, style: .continuous)
-                                    .stroke(.white, lineWidth: 3)
+                                    .stroke(Palette.bg, lineWidth: 3)
                             )
                             .rotationEffect(.degrees(sin(time * 0.55 + wave) * 2.4))
                             .offset(y: CGFloat(sin(time * 0.8 + wave) * 5))
@@ -534,7 +535,7 @@ struct ChoiceRow: View {
                 // Circle for a single choice, rounded square for a multiple choice.
                 ZStack {
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
-                        .fill(selected ? Palette.blue : Color.white)
+                        .fill(selected ? Palette.blue : Palette.bg)
                     RoundedRectangle(cornerRadius: multiple ? 8 : 13)
                         .stroke(selected ? Palette.blue : Palette.lip, lineWidth: 2)
                     Image(systemName: "checkmark")

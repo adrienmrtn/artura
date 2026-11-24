@@ -26,7 +26,6 @@ import com.vikstudios.artura.onboarding.WidgetScreen
 import com.vikstudios.artura.services.TrialOffer
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.remember
@@ -73,7 +72,7 @@ class OnboardingBCaptures {
                 LocalCoverHost provides host,
                 LocalLayoutDirection provides if (AppLanguage.isRightToLeft) LayoutDirection.Rtl else LayoutDirection.Ltr,
             ) {
-                MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+                MaterialTheme(colorScheme = captureColorScheme()) {
                     CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                         content()
                         CoverLayer(host)
@@ -83,7 +82,7 @@ class OnboardingBCaptures {
         }
         var t = 0L
         while (t < ms) { rule.mainClock.advanceTimeBy(100); t += 100 }
-        rule.onRoot().captureRoboImage("../captures/$name.png")
+        rule.onRoot().captureRoboImage("../captures/$name$captureSuffix.png")
     }
 
     @Test fun reminder() = capture("onb_reminder") { ReminderScreen {} }

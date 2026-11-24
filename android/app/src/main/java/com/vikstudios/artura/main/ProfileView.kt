@@ -35,6 +35,12 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Refresh
+import androidx.compose.material.icons.rounded.Check
+import androidx.compose.material.icons.rounded.UnfoldMore
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
+import com.vikstudios.artura.core.Appearance
+import com.vikstudios.artura.services.Analytics
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -52,6 +58,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -69,6 +76,7 @@ import com.vikstudios.artura.core.L
 import com.vikstudios.artura.core.Palette
 import com.vikstudios.artura.core.SkyHeader
 import com.vikstudios.artura.core.figtree
+import com.vikstudios.artura.core.hexColor
 import com.vikstudios.artura.core.pressable
 import com.vikstudios.artura.data.Artwork
 import com.vikstudios.artura.data.Movement
@@ -163,7 +171,7 @@ fun ProfileView() {
                                 Text(movement.name, style = figtree(14, FontWeight.SemiBold), color = Palette.ink, modifier = Modifier.weight(1f))
                                 Text(if (count == 1) L("1 artwork") else L("%@ artworks", "$count"), style = AType.small, color = Palette.muted)
                             }
-                            BoxWithConstraints(Modifier.fillMaxWidth().height(8.dp).clip(CircleShape).background(Color.White)) {
+                            BoxWithConstraints(Modifier.fillMaxWidth().height(8.dp).clip(CircleShape).background(Palette.bg)) {
                                 Box(Modifier.width(maxWidth * (count.toFloat() / maxCount)).height(8.dp).clip(CircleShape).background(Palette.blue))
                             }
                         }
@@ -197,6 +205,8 @@ fun ProfileView() {
                         colors = SwitchDefaults.colors(checkedTrackColor = Palette.blue, checkedThumbColor = Color.White, uncheckedBorderColor = Palette.lip, uncheckedTrackColor = Palette.line),
                     )
                 }
+                HorizontalDivider(color = Palette.line)
+                AppearanceRow()
                 HorizontalDivider(color = Palette.line)
                 Row(
                     Modifier.fillMaxWidth().heightIn(min = 56.dp).pressable { if (!pro.isPro) showPaywall = true },
@@ -247,11 +257,13 @@ fun ProfileView() {
 
 @Composable
 private fun Stat(value: String, label: String, color: Color, modifier: Modifier) {
+    // Dark text on light fills (yellow and pink stay bright in dark mode), light text on dark ones.
+    val ink = if (color.luminance() > 0.4f) hexColor(0x2D2C2B) else Palette.ink
     Column(modifier.clip(RoundedCornerShape(16.dp)).background(color).padding(12.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
         AnimatedContent(value, transitionSpec = { (slideInVertically { it / 2 } + fadeIn()) togetherWith (slideOutVertically { -it / 2 } + fadeOut()) }, label = "stat") {
-            Text(it, style = figtree(26, FontWeight.SemiBold), color = Palette.ink)
+            Text(it, style = figtree(26, FontWeight.SemiBold), color = ink)
         }
-        Text(label, style = figtree(13, FontWeight.Medium), color = Palette.ink, maxLines = 2)
+        Text(label, style = figtree(13, FontWeight.Medium), color = ink, maxLines = 2)
     }
 }
 
@@ -274,4 +286,40 @@ private fun Collection(onOpen: (Artwork) -> Unit) {
         }
     }
     Spacer(Modifier.height(0.dp))
+}
+
+/** "Appearance" row of the settings: light (default), dark, or the phone's setting. */
+@Composable
+private fun AppearanceRow() {
+    var open by remember { mutableStateOf(false) }
+    Row(
+        Modifier.fillMaxWidth().heightIn(min = 56.dp).pressable { open = true },
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Text(L("Appearance"), style = figtree(15, FontWeight.SemiBold), color = Palette.ink, modifier = Modifier.weight(1f))
+        Box {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(Appearance.current.title, style = AType.small, color = Palette.blueText)
+                Icon(Icons.Rounded.UnfoldMore, null, tint = Palette.blueText, modifier = Modifier.size(16.dp))
+            }
+            DropdownMenu(expanded = open, onDismissRequest = { open = false }, containerColor = Palette.bg) {
+                Appearance.entries.forEach { option ->
+                    DropdownMenuItem(
+                        text = { Text(option.title, style = AType.body, color = Palette.ink) },
+                        trailingIcon = if (option == Appearance.current) {
+                            { Icon(Icons.Rounded.Check, null, tint = Palette.blue) }
+                        } else null,
+                        onClick = {
+                            open = false
+                            if (option != Appearance.current) {
+                                Haptics.selection()
+                                Analytics.track("appearance_changed", mapOf("to" to option.key))
+                                Appearance.set(option)
+                            }
+                        },
+                    )
+                }
+            }
+        }
+    }
 }

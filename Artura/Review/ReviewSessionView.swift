@@ -118,7 +118,7 @@ struct ReviewSessionView: View {
         let answered = picked != nil
         let isAnswer = choice.id == card.correct
         let isPicked = choice.id == picked
-        let fill: Color = answered && isAnswer ? Palette.greenSoft : (answered && isPicked ? Palette.redSoft : Color.white)
+        let fill: Color = answered && isAnswer ? Palette.greenSoft : (answered && isPicked ? Palette.redSoft : Palette.bg)
         let border: Color = answered && isAnswer ? Palette.green : (answered && isPicked ? Palette.red : Palette.line)
         return Button {
             pick(choice, card: card)

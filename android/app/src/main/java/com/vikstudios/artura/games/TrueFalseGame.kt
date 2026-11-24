@@ -149,8 +149,10 @@ fun TrueFalseGame(onFinish: (Int, Int) -> Unit) {
         AnimatedContent(answer == null, transitionSpec = { fadeIn() togetherWith fadeOut() }, label = "buttons") { open ->
             if (open) {
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    PillButton(L("False"), Modifier.weight(1f), fill = Palette.redSoft, lip = hexColor(0xF2C9C5), foreground = hexColor(0x8C1D18)) { respond(false) }
-                    PillButton(L("True"), Modifier.weight(1f), fill = Palette.greenSoft, lip = hexColor(0xBFE6CD), foreground = hexColor(0x00663B)) { respond(true) }
+                    PillButton(L("False"), Modifier.weight(1f), fill = Palette.redSoft, lip = if (Palette.isDark) hexColor(0x5A2622) else hexColor(0xF2C9C5),
+                        foreground = if (Palette.isDark) hexColor(0xFFB4AB) else hexColor(0x8C1D18)) { respond(false) }
+                    PillButton(L("True"), Modifier.weight(1f), fill = Palette.greenSoft, lip = if (Palette.isDark) hexColor(0x1E4A31) else hexColor(0xBFE6CD),
+                        foreground = if (Palette.isDark) hexColor(0x8FE3B5) else hexColor(0x00663B)) { respond(true) }
                 }
             } else {
                 PillButton(if (index >= deck.size - 1) L("See my score") else L("Next")) { advance() }
@@ -182,7 +184,7 @@ private fun FactCard(fact: Fact, artwork: Artwork, answer: Boolean?, trueStamp: 
                     ) {
                         Text(
                             if (isCorrect) L("Good eye!") else if (fact.isTrue) L("Not quite. It was true.") else L("Not quite. It was false."),
-                            style = AType.bodyStrong, color = if (isCorrect) hexColor(0x00663B) else hexColor(0x8C1D18),
+                            style = AType.bodyStrong, color = if (isCorrect) (if (Palette.isDark) hexColor(0x8FE3B5) else hexColor(0x00663B)) else (if (Palette.isDark) hexColor(0xFFB4AB) else hexColor(0x8C1D18)),
                         )
                         Text(fact.explanation, style = AType.small, color = Palette.ink)
                     }

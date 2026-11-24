@@ -4,6 +4,9 @@ import androidx.compose.animation.core.CubicBezierEasing
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.tween
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Outline
@@ -31,32 +34,40 @@ fun hexColor(hex: String): Color {
     return hexColor(value)
 }
 
+/**
+ * Colors of the app. Each one has a light and a dark value; `isDark` (set from the system appearance
+ * in MainActivity) is state, so every screen redraws when it changes.
+ */
 object Palette {
-    /** Screen background: plain white. */
-    val bg = Color.White
-    val ink = hexColor(0x2D2C2B)
-    val muted = hexColor(0x5C5753)
+    var isDark by mutableStateOf(false)
+
+    private fun pick(light: Long, dark: Long) = if (isDark) hexColor(dark) else hexColor(light)
+
+    /** Screen background: plain white (warm near-black in dark mode). */
+    val bg: Color get() = pick(0xFFFFFF, 0x141312)
+    val ink: Color get() = pick(0x2D2C2B, 0xF3EFEC)
+    val muted: Color get() = pick(0x5C5753, 0xACA59F)
     /** Cards and rows laid on the background: very light warm greys. */
-    val card = hexColor(0xF9F4F2)
-    val line = hexColor(0xEFE8E3)
-    val lip = hexColor(0xE4DAD4)
+    val card: Color get() = pick(0xF9F4F2, 0x201E1C)
+    val line: Color get() = pick(0xEFE8E3, 0x2E2B29)
+    val lip: Color get() = pick(0xE4DAD4, 0x3B3734)
     /** Bright blue: buttons, selection, links. */
-    val blue = hexColor(0x0061EF)
-    val blueDark = hexColor(0x0045B5)
-    val blueText = hexColor(0x0050C8)
+    val blue: Color get() = pick(0x0061EF, 0x2B78FF)
+    val blueDark: Color get() = pick(0x0045B5, 0x1A52BE)
+    val blueText: Color get() = pick(0x0050C8, 0x75AEFF)
     /** Pale tints of the blue, for insets and selected answers. */
-    val mist = hexColor(0xDCEBFF)
-    val mistLight = hexColor(0xEAF2FF)
-    val sky = hexColor(0x0B74E5)
-    val skyLight = hexColor(0x4D9DF2)
-    val cloud = hexColor(0xFFD3E4)
-    val yellow = hexColor(0xFFB000)
-    val orange = hexColor(0xFF6800)
-    val pink = hexColor(0xFF8FBC)
-    val green = hexColor(0x00804A)
-    val greenSoft = hexColor(0xE3F6EA)
-    val red = hexColor(0xB3261E)
-    val redSoft = hexColor(0xFCE8E6)
+    val mist: Color get() = pick(0xDCEBFF, 0x182A4D)
+    val mistLight: Color get() = pick(0xEAF2FF, 0x121E36)
+    val sky: Color get() = pick(0x0B74E5, 0x0B74E5)
+    val skyLight: Color get() = pick(0x4D9DF2, 0x4D9DF2)
+    val cloud: Color get() = pick(0xFFD3E4, 0x4C2536)
+    val yellow: Color get() = pick(0xFFB000, 0xFFB000)
+    val orange: Color get() = pick(0xFF6800, 0xFF7A1F)
+    val pink: Color get() = pick(0xFF8FBC, 0xFF8FBC)
+    val green: Color get() = pick(0x00804A, 0x3CC98A)
+    val greenSoft: Color get() = pick(0xE3F6EA, 0x12301F)
+    val red: Color get() = pick(0xB3261E, 0xFF6B61)
+    val redSoft: Color get() = pick(0xFCE8E6, 0x3B1816)
 }
 
 // MARK: - Typography (Figtree, embedded in the app)

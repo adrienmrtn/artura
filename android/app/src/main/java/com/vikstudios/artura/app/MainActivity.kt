@@ -29,7 +29,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
@@ -64,6 +66,7 @@ import com.vikstudios.artura.core.AppLanguage
 import com.vikstudios.artura.core.Haptics
 import com.vikstudios.artura.core.L
 import com.vikstudios.artura.core.Palette
+import com.vikstudios.artura.core.Appearance
 import com.vikstudios.artura.core.figtree
 import com.vikstudios.artura.main.MainTabView
 import com.vikstudios.artura.onboarding.OnboardingDebug
@@ -79,10 +82,8 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        enableEdgeToEdge(
-            statusBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
-            navigationBarStyle = SystemBarStyle.light(android.graphics.Color.WHITE, android.graphics.Color.WHITE),
-        )
+        // Before the first frame: bars matching the saved appearance (refined in setContent).
+        applySystemBars(Appearance.current == Appearance.Dark)
         super.onCreate(savedInstanceState)
         if (savedInstanceState == null) {
             AppDebug.read(intent)
@@ -100,19 +101,41 @@ class MainActivity : ComponentActivity() {
         })
         setContent {
             val language = AppLanguage.code
+            // Light by default; dark, or the phone's setting, can be chosen in the profile.
+            val systemDark = isSystemInDarkTheme()
+            val dark = when (Appearance.current) {
+                Appearance.Light -> false
+                Appearance.Dark -> true
+                Appearance.System -> systemDark
+            }
+            if (Palette.isDark != dark) Palette.isDark = dark
+            // Bar icons match the app: dark icons in light mode, light icons in dark mode.
+            LaunchedEffect(dark) { applySystemBars(dark) }
             CompositionLocalProvider(
                 LocalContent provides graph.content,
                 LocalUser provides graph.user,
                 LocalPro provides graph.pro,
                 LocalLayoutDirection provides if (AppLanguage.isRightToLeft) LayoutDirection.Rtl else LayoutDirection.Ltr,
             ) {
-                MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+                MaterialTheme(
+                    colorScheme = if (Palette.isDark) darkColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)
+                    else lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg),
+                ) {
                     CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                         key(language) { RootView() }
                     }
                 }
             }
         }
+    }
+
+    private fun applySystemBars(dark: Boolean) {
+        val transparent = android.graphics.Color.TRANSPARENT
+        enableEdgeToEdge(
+            statusBarStyle = if (dark) SystemBarStyle.dark(transparent) else SystemBarStyle.light(transparent, transparent),
+            navigationBarStyle = if (dark) SystemBarStyle.dark(0xFF141312.toInt())
+            else SystemBarStyle.light(android.graphics.Color.WHITE, android.graphics.Color.WHITE),
+        )
     }
 }
 

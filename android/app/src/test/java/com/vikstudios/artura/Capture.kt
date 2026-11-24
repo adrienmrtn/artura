@@ -2,6 +2,8 @@ package com.vikstudios.artura
 
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
@@ -22,6 +24,18 @@ import com.vikstudios.artura.core.AppLanguage
 import com.vikstudios.artura.core.Palette
 import com.vikstudios.artura.services.Analytics
 
+/** True when the captures are rendered in dark mode (`-Partura.dark=true`): files end in "_dark". */
+val darkCaptures: Boolean = System.getProperty("artura.dark") == "true"
+val captureSuffix: String get() = if (darkCaptures) "_dark" else ""
+
+/** Colors of the captures: switches the palette to the requested appearance. */
+@Composable
+fun captureColorScheme(): ColorScheme {
+    Palette.isDark = darkCaptures
+    return if (darkCaptures) darkColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)
+    else lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)
+}
+
 /**
  * Renders a screen on the JVM and saves it to android/captures/<name>.png (phone size, 393×852 dp).
  * Run: `gradle :app:testDebugUnitTest --tests '*Captures*'` (images written by Roborazzi in record mode).
@@ -31,7 +45,7 @@ fun capture(name: String, language: String = "en", content: @Composable () -> Un
     AppGraph.init(context)
     Analytics.disabled = true
     AppLanguage.set(language)
-    captureRoboImage("../captures/$name.png") {
+    captureRoboImage("../captures/$name$captureSuffix.png") {
         val host = remember { CoverHost() }
         CompositionLocalProvider(
             LocalContent provides AppGraph.content,
@@ -40,7 +54,7 @@ fun capture(name: String, language: String = "en", content: @Composable () -> Un
             LocalCoverHost provides host,
             LocalLayoutDirection provides if (AppLanguage.isRightToLeft) LayoutDirection.Rtl else LayoutDirection.Ltr,
         ) {
-            MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+            MaterialTheme(colorScheme = captureColorScheme()) {
                 CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                     content()
                     CoverLayer(host)

@@ -44,7 +44,7 @@ struct LessonPaywall: View {
                         .foregroundStyle(.white)
                         .frame(width: 56, height: 56)
                         .background(Circle().fill(Palette.blue))
-                        .overlay(Circle().stroke(.white, lineWidth: 4))
+                        .overlay(Circle().stroke(Palette.bg, lineWidth: 4))
                         .offset(y: -12)
                 }
                 .ignoresSafeArea(edges: .top)

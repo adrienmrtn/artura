@@ -532,7 +532,7 @@ struct PlanScreen: View {
     }
 
     /// Soft mauve behind the avatar block.
-    private static let mauve = Color(hex: 0xEDE3FF)
+    private static let mauve = Color(light: 0xEDE3FF, dark: 0x2A2340)
 
     var body: some View {
         OnbScaffold(title: L("In 30 days"),
@@ -563,7 +563,7 @@ struct PlanScreen: View {
                         .foregroundStyle(Palette.blueText)
                         .padding(.horizontal, 16)
                         .frame(height: 44)
-                        .background(Capsule().fill(.white))
+                        .background(Capsule().fill(Palette.bg))
                         .buttonStyle(.pressable)
                     }
                     .padding(.horizontal, 12)
@@ -584,7 +584,8 @@ struct PlanScreen: View {
                         Text(movement.summary).font(.aCaption)
                             .fixedSize(horizontal: false, vertical: true)
                     }
-                    .foregroundStyle(Palette.ink)
+                    // Dark ink on the yellow in both appearances.
+                    .foregroundStyle(Color(hex: 0x2D2C2B))
                     .padding(.horizontal, 14)
                     Spacer(minLength: 0)
                 }
@@ -777,9 +778,10 @@ struct AccountScreen: View {
                     .ignoresSafeArea(edges: .top)
                 HStack {
                     Button(action: onBack) {
+                        // White button over the illustration in both appearances, so the icon stays dark.
                         Image(systemName: "chevron.left")
                             .font(.system(size: 18, weight: .bold))
-                            .foregroundStyle(Palette.ink)
+                            .foregroundStyle(Color(hex: 0x2D2C2B))
                             .frame(width: 44, height: 44)
                             .background(Circle().fill(.white))
                     }
@@ -844,6 +846,7 @@ struct AccountScreen: View {
 struct SignInButtons: View {
     @EnvironmentObject private var user: UserStore
     @Environment(\.webAuthenticationSession) private var webAuthenticationSession
+    @Environment(\.colorScheme) private var colorScheme
     @Binding var message: String?
     let onDone: () -> Void
 
@@ -878,7 +881,8 @@ struct SignInButtons: View {
                     Haptics.warning()
                 }
             }
-            .signInWithAppleButtonStyle(.black)
+            // Black on a light background, white on a dark one (Apple's guidelines).
+            .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
             .frame(height: 56)
             .clipShape(Capsule())
 
@@ -899,7 +903,7 @@ struct SignInButtons: View {
                     }
                     .frame(maxWidth: .infinity)
                     .frame(height: 56)
-                    .background(Capsule().fill(.white))
+                    .background(Capsule().fill(Palette.bg))
                     .overlay(Capsule().stroke(Palette.lip, lineWidth: 1.5))
                 }
                 .buttonStyle(.pressable)

@@ -163,7 +163,8 @@ struct SegmentedPicker: View {
                         .foregroundStyle(Palette.ink)
                         .frame(maxWidth: .infinity)
                         .frame(height: 40)
-                        .background(Capsule().fill(selection == option ? Color.white : Color.clear))
+                        // Raised segment: white, a lighter grey than the card in dark mode.
+                        .background(Capsule().fill(selection == option ? Color(light: 0xFFFFFF, dark: 0x3B3734) : Color.clear))
                 }
                 .buttonStyle(.pressable)
                 .accessibilityAddTraits(selection == option ? .isSelected : [])

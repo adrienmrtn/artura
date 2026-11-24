@@ -177,7 +177,7 @@ fun SegmentedPicker(options: List<String>, selection: String, onSelect: (String)
             val selected = selection == option
             val a by animateFloatAsState(if (selected) 1f else 0f, label = "seg")
             Box(
-                Modifier.weight(1f).height(40.dp).clip(CircleShape).background(Color.White.copy(alpha = a))
+                Modifier.weight(1f).height(40.dp).clip(CircleShape).background((if (Palette.isDark) Palette.lip else Color.White).copy(alpha = a))
                     .pressable { if (!selected) { Haptics.selection(); onSelect(option) } },
                 contentAlignment = Alignment.Center,
             ) {

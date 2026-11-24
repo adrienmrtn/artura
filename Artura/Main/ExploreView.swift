@@ -60,7 +60,7 @@ struct ExploreView: View {
                         }
                         .padding(.horizontal, 16)
                         .frame(height: 48)
-                        .background(Capsule().fill(.white))
+                        .background(Capsule().fill(Palette.bg))
                     }
                     .padding(.horizontal, 24)
                     .padding(.top, 60)
@@ -104,7 +104,7 @@ struct ExploreView: View {
                     } label: {
                         Text(item.label)
                             .font(.figtree(14, .semibold))
-                            .foregroundStyle(filter == item ? .white : Palette.ink)
+                            .foregroundStyle(filter == item ? Palette.bg : Palette.ink)
                             .padding(.horizontal, 16)
                             .frame(height: 40)
                             .background(Capsule().fill(filter == item ? Palette.ink : Palette.card))
@@ -146,7 +146,8 @@ struct ExploreView: View {
                         Spacer(minLength: 0)
                         ProgressTrack(value: all.isEmpty ? 0 : Double(done) / Double(all.count))
                     }
-                    .foregroundStyle(Palette.ink)
+                    // Dark ink on the yellow in both appearances.
+                    .foregroundStyle(Color(hex: 0x2D2C2B))
                     .padding(.horizontal, 14)
                     .padding(.vertical, 12)
                 }

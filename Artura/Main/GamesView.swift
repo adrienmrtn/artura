@@ -55,9 +55,10 @@ struct GamesView: View {
                     ArtImage(name: "ill_musee", anchor: UnitPoint(x: 0.5, y: 0.1))
                         .frame(height: 160)
                         .clipShape(ArcHeaderShape())
+                    // White pill over the illustration in both appearances, so the text stays dark.
                     Text(L("Games"))
                         .font(.figtree(22, .semibold))
-                        .foregroundStyle(Palette.ink)
+                        .foregroundStyle(Color(hex: 0x2D2C2B))
                         .padding(.horizontal, 16)
                         .frame(height: 40)
                         .background(Capsule().fill(.white))
@@ -101,9 +102,10 @@ struct GamesView: View {
                 ForEach(user.week) { day in
                     VStack(spacing: 4) {
                         ZStack {
-                            Circle().fill(day.played ? Palette.yellow : .white)
+                            Circle().fill(day.played ? Palette.yellow : Palette.bg)
                             if day.played {
-                                Image(systemName: "checkmark").font(.system(size: 13, weight: .bold)).foregroundStyle(Palette.ink)
+                                // Dark check on the yellow in both appearances.
+                                Image(systemName: "checkmark").font(.system(size: 13, weight: .bold)).foregroundStyle(Color(hex: 0x2D2C2B))
                             }
                         }
                         .frame(width: 32, height: 32)

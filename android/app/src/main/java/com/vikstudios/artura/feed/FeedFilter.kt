@@ -225,7 +225,7 @@ fun ChipFlow(spacing: Dp = 8.dp, content: @Composable () -> Unit) {
 /** Selectable chip used in the filter sheet and the search suggestions. */
 @Composable
 fun FilterChip(title: String, selected: Boolean, onClick: () -> Unit) {
-    val fill by animateColorAsState(if (selected) Palette.blue else Color.White, tween(160), label = "chip")
+    val fill by animateColorAsState(if (selected) Palette.blue else Palette.bg, tween(160), label = "chip")
     val ink by animateColorAsState(if (selected) Color.White else Palette.ink, tween(160), label = "chipText")
     Box(
         Modifier
@@ -352,7 +352,7 @@ fun FeedSearchSheet(onFilter: (FeedFilter) -> Unit, autoFocus: Boolean = true) {
                 .padding(top = 2.dp)
                 .fillMaxWidth()
                 .height(52.dp)
-                .background(Color.White, CircleShape)
+                .background(Palette.bg, CircleShape)
                 .border(if (focused) 2.dp else 1.dp, if (focused) Palette.blue else Palette.line, CircleShape)
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically,

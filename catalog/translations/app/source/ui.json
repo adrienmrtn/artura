@@ -1,6 +1,9 @@
 {
  "Your daily dose of art, in your pocket": "Artura/App/ArturaApp.swift",
  "Artura. Your daily dose of art, in your pocket.": "Artura/App/ArturaApp.swift",
+ "Light": "Artura/Core/Appearance.swift",
+ "Dark": "Artura/Core/Appearance.swift",
+ "Same as phone": "Artura/Core/Appearance.swift",
  "Opens the painting full screen": "Artura/Core/ArtworkZoom.swift",
  "Close": "Artura/Core/ArtworkZoom.swift",
  "Painting": "Artura/Core/ArtworkZoom.swift",
@@ -209,6 +212,7 @@
  "Your streak, collection, and answers will be erased from this device.": "Artura/Main/ProfileView.swift",
  "Tap the heart on an artwork to add it to your collection.": "Artura/Main/ProfileView.swift",
  "Daily reminder": "Artura/Main/ProfileView.swift",
+ "Appearance": "Artura/Main/ProfileView.swift",
  "Active": "Artura/Main/ProfileView.swift",
  "Try 3 days free": "Artura/Main/ProfileView.swift",
  "Redo the intro": "Artura/Main/ProfileView.swift",

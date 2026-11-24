@@ -98,10 +98,25 @@ private fun Modifier.composedPressable(scale: Float, enabled: Boolean, haptic: B
 
 // MARK: - Buttons
 
-enum class PillStyle(val fill: Color, val lip: Color, val foreground: Color) {
-    Primary(Palette.blue, Palette.blueDark, Color.White),
-    Secondary(Palette.card, Palette.lip, Palette.ink),
-    Dark(Palette.ink, Color.Black, Color.White),
+/** Colors are getters so they follow `Palette.isDark` (enum entries are built only once). */
+enum class PillStyle {
+    Primary, Secondary, Dark;
+
+    val fill: Color get() = when (this) {
+        Primary -> Palette.blue
+        Secondary -> Palette.card
+        Dark -> Palette.ink
+    }
+    val lip: Color get() = when (this) {
+        Primary -> Palette.blueDark
+        Secondary -> Palette.lip
+        Dark -> if (Palette.isDark) hexColor(0xC9C2BC) else Color.Black
+    }
+    val foreground: Color get() = when (this) {
+        Primary -> Color.White
+        Secondary -> Palette.ink
+        Dark -> Palette.bg
+    }
 }
 
 /** Pill button with a bottom lip: it presses down on touch, with haptic feedback. */
@@ -162,7 +177,7 @@ fun TextLinkButton(title: String, modifier: Modifier = Modifier, onClick: () -> 
 // MARK: - Small elements
 
 @Composable
-fun TagPill(text: String, fill: Color = Palette.yellow, foreground: Color = Palette.ink) {
+fun TagPill(text: String, fill: Color = Palette.yellow, foreground: Color = hexColor(0x2D2C2B)) {
     Text(
         text, style = figtree(13, FontWeight.SemiBold), color = foreground,
         modifier = Modifier.clip(CircleShape).background(fill).padding(horizontal = 10.dp, vertical = 4.dp),
@@ -187,7 +202,7 @@ fun CheckBadge(color: Color = Palette.blue, size: Dp = 28.dp) {
 @Composable
 fun StreakChip(days: Int) {
     Row(
-        Modifier.height(36.dp).clip(CircleShape).background(Color.White).padding(horizontal = 12.dp),
+        Modifier.height(36.dp).clip(CircleShape).background(Palette.bg).padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(6.dp),
     ) {

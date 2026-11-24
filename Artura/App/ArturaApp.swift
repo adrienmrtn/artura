@@ -7,6 +7,8 @@ struct ArturaApp: App {
     @StateObject private var pro = ProStore()
     /// Language of the interface: changing it (onboarding) redraws the app in the new language.
     @State private var language = AppLanguage.code
+    /// Light by default; dark or the phone's setting can be chosen in the profile.
+    @AppStorage(Appearance.key) private var appearance: Appearance = .light
 
     init() {
         FontRegistrar.registerAll()
@@ -18,7 +20,9 @@ struct ArturaApp: App {
                 .environmentObject(content)
                 .environmentObject(user)
                 .environmentObject(pro)
-                .preferredColorScheme(.light)
+                .preferredColorScheme(appearance.colorScheme)
+                .onAppear { appearance.apply() }
+                .onChange(of: appearance) { _, chosen in chosen.apply() }
                 .tint(Palette.blue)
                 .environment(\.locale, Locale(identifier: language))
                 .environment(\.layoutDirection, AppLanguage.isRightToLeft ? .rightToLeft : .leftToRight)

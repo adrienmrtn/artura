@@ -32,6 +32,8 @@ jobs:
         run: ./gradlew :app:assembleDebug --console=plain
       - name: Captures d'écran
         run: ./gradlew :app:testDebugUnitTest -Proborazzi.test.record=true --console=plain
+      - name: Captures d'écran en mode sombre (fichiers *_dark.png)
+        run: ./gradlew :app:testDebugUnitTest -Proborazzi.test.record=true -Partura.dark=true --rerun-tasks --console=plain
       - uses: actions/upload-artifact@v4
         with:
           name: artura-debug-apk

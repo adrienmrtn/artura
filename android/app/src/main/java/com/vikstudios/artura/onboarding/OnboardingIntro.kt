@@ -161,7 +161,7 @@ fun LanguageMenu() {
     val selection = AppLanguage.code
     Box {
         Row(
-            Modifier.clip(CircleShape).background(Color.White.copy(alpha = 0.72f))
+            Modifier.clip(CircleShape).background(Palette.bg.copy(alpha = 0.72f))
                 .pressable { open = true }
                 .padding(horizontal = 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
@@ -171,7 +171,7 @@ fun LanguageMenu() {
             Text(AppLanguage.name(selection), style = figtree(14, FontWeight.SemiBold), color = Palette.ink)
             Icon(Icons.Rounded.KeyboardArrowDown, null, tint = Palette.ink, modifier = Modifier.size(16.dp))
         }
-        DropdownMenu(open, onDismissRequest = { open = false }, containerColor = Color.White) {
+        DropdownMenu(open, onDismissRequest = { open = false }, containerColor = Palette.bg) {
             AppLanguage.all.forEach { code ->
                 DropdownMenuItem(
                     text = { Text(AppLanguage.name(code), style = AType.body, color = Palette.ink) },

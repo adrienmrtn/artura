@@ -344,7 +344,7 @@ struct TrialNotificationPreview: View {
             }
         }
         .padding(large ? 14 : 8)
-        .background(RoundedRectangle(cornerRadius: large ? 22 : 14, style: .continuous).fill(large ? Color.white : Palette.mistLight))
+        .background(RoundedRectangle(cornerRadius: large ? 22 : 14, style: .continuous).fill(large ? Color(light: 0xFFFFFF, dark: 0x201E1C) : Palette.mistLight))
     }
 }
 
@@ -559,7 +559,7 @@ struct TrialTimelineScreen: View {
                     .padding(.leading, 48)
                     .opacity(revealed >= 2 ? 1 : 0)
             }
-            timelineRow(3, icon: "seal.fill", fill: .white, tint: Palette.orange,
+            timelineRow(3, icon: "seal.fill", fill: Palette.bg, tint: Palette.orange,
                         title: L("Day %@ · Artura Pro", "\(offer.trialDays)"),
                         text: L("%@ per year. Cancel before then, in two taps.", offer.yearlyPrice))
         }
@@ -1026,7 +1026,8 @@ struct ExitOfferSheet: View {
             .padding(.horizontal, 18)
             .padding(.vertical, 12)
         }
-        .background(TicketShape().fill(.white).shadow(color: Palette.blueDark.opacity(0.12), radius: 16, y: 8))
+        // White ticket; in dark mode, the card grey so it stands out from the background.
+        .background(TicketShape().fill(Color(light: 0xFFFFFF, dark: 0x201E1C)).shadow(color: Palette.blueDark.opacity(0.12), radius: 16, y: 8))
         .overlay(TicketShape().stroke(Palette.blue, lineWidth: 1.5))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(discount > 0
@@ -1069,9 +1070,10 @@ struct PaywallScreen: View {
                     .clipShape(ArcHeaderShape())
                     .ignoresSafeArea(edges: .top)
                 Button(action: onClose) {
+                    // White button over the illustration in both appearances, so the icon stays dark.
                     Image(systemName: "xmark")
                         .font(.system(size: 15, weight: .bold))
-                        .foregroundStyle(Palette.ink)
+                        .foregroundStyle(Color(hex: 0x2D2C2B))
                         .frame(width: 44, height: 44)
                         .background(Circle().fill(.white))
                 }

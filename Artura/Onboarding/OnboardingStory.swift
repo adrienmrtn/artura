@@ -84,7 +84,7 @@ struct FlashTestScreen: View {
     private func card(_ item: FlashCard, top: Bool) -> some View {
         ArtImage(name: item.image)
             .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(.white, lineWidth: 5))
+            .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Palette.bg, lineWidth: 5))
             .shadow(color: Palette.blueDark.opacity(0.16), radius: 12, y: 6)
             .overlay(alignment: .bottomLeading) {
                 if item.hard { TagPill(text: L("Expert level")).padding(16) }
@@ -93,7 +93,8 @@ struct FlashTestScreen: View {
                 if top { stamp(L("I know it"), Palette.green).opacity(stampOpacity(true)).padding(16) }
             }
             .overlay(alignment: .topTrailing) {
-                if top { stamp(L("I don't know"), Palette.ink).opacity(stampOpacity(false)).padding(16) }
+                // Dark stamp over the artwork in both appearances (ink turns light in dark mode).
+                if top { stamp(L("I don't know"), Color(hex: 0x2D2C2B)).opacity(stampOpacity(false)).padding(16) }
             }
             .gesture(
                 DragGesture()
@@ -200,13 +201,13 @@ struct FlashResultScreen: View {
                             .opacity(known ? 1 : 0.55)
                             .frame(width: 78, height: 108)
                             .clipShape(RoundedRectangle(cornerRadius: 12))
-                            .overlay(RoundedRectangle(cornerRadius: 12).stroke(.white, lineWidth: 3))
+                            .overlay(RoundedRectangle(cornerRadius: 12).stroke(Palette.bg, lineWidth: 3))
                             .overlay(alignment: .bottom) {
                                 Image(systemName: known ? "checkmark" : "questionmark")
                                     .font(.system(size: 11, weight: .bold))
                                     .foregroundStyle(.white)
                                     .frame(width: 24, height: 24)
-                                    .background(Circle().fill(known ? Palette.green : Palette.ink))
+                                    .background(Circle().fill(known ? Palette.green : Color(hex: 0x2D2C2B)))
                                     .offset(y: 10)
                             }
                             .rotationEffect(.degrees(fanned ? Double(spread) * 6 : 0))
@@ -627,7 +628,7 @@ struct GrowthChart: View {
 
     private func dot(_ color: Color) -> some View {
         Circle()
-            .fill(.white)
+            .fill(Palette.bg)
             .frame(width: 16, height: 16)
             .overlay(Circle().stroke(color, lineWidth: 4))
     }
@@ -713,7 +714,7 @@ struct StreakScreen: View {
                         }
                         .padding(.horizontal, 20)
                         .frame(height: 52)
-                        .background(Capsule().fill(.white).shadow(color: Palette.blueDark.opacity(0.14), radius: 12, y: 6))
+                        .background(Capsule().fill(Palette.bg).shadow(color: Palette.blueDark.opacity(0.14), radius: 12, y: 6))
                         .scaleEffect(lit ? 1 : 0.6)
                         .opacity(lit ? 1 : 0)
                         .offset(y: 26)

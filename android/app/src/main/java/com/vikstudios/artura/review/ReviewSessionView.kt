@@ -41,7 +41,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -171,7 +170,7 @@ private fun ChoiceButton(choice: ReviewCard.Choice, card: ReviewCard, picked: St
     val answered = picked != null
     val isAnswer = choice.id == card.correct
     val isPicked = choice.id == picked
-    val fill = if (answered && isAnswer) Palette.greenSoft else if (answered && isPicked) Palette.redSoft else Color.White
+    val fill = if (answered && isAnswer) Palette.greenSoft else if (answered && isPicked) Palette.redSoft else Palette.bg
     val border = if (answered && isAnswer) Palette.green else if (answered && isPicked) Palette.red else Palette.line
     val shape = RoundedCornerShape(14.dp)
     Row(

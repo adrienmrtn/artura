@@ -2,7 +2,6 @@ package com.vikstudios.artura
 
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.remember
@@ -58,7 +57,7 @@ class LearnCaptures {
                 LocalPro provides AppGraph.pro,
                 LocalCoverHost provides host,
             ) {
-                MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+                MaterialTheme(colorScheme = captureColorScheme()) {
                     CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                         content()
                         CoverLayer(host)
@@ -70,7 +69,7 @@ class LearnCaptures {
     }
 
     private fun pause(ms: Long) = rule.mainClock.advanceTimeBy(ms)
-    private fun shot(name: String) = rule.onRoot().captureRoboImage("../captures/learn_$name.png")
+    private fun shot(name: String) = rule.onRoot().captureRoboImage("../captures/learn_$name$captureSuffix.png")
 
     private fun studio(id: String, type: String, ready: () -> Unit = {}) {
         val a = art(id)

@@ -55,6 +55,7 @@ import com.vikstudios.artura.core.Palette
 import com.vikstudios.artura.core.PillButton
 import com.vikstudios.artura.core.PillStyle
 import com.vikstudios.artura.core.figtree
+import com.vikstudios.artura.core.hexColor
 import com.vikstudios.artura.onboarding.Mascot
 
 enum class DailyWidgetStyle { Small, Medium, Large }
@@ -124,15 +125,20 @@ fun WidgetGuideView(onDone: () -> Unit) {
 @Composable
 fun WidgetPreview(artwork: DailyArtwork?, style: DailyWidgetStyle, modifier: Modifier = Modifier) {
     val shape = RoundedCornerShape(24.dp)
+    // The home screen widget stays light in dark mode: the preview keeps the light-mode colors.
+    val ink = hexColor(0x2D2C2B)
+    val muted = hexColor(0x5C5753)
+    val line = hexColor(0xEFE8E3)
+    val blue = hexColor(0x0061EF)
     Box(modifier.shadow(12.dp, shape, ambientColor = Color.Black.copy(alpha = 0.10f), spotColor = Color.Black.copy(alpha = 0.10f))
-        .clip(shape).background(Color.White).border(1.dp, Palette.line, shape)) {
+        .clip(shape).background(Color.White).border(1.dp, line, shape)) {
         if (artwork == null) {
-            Text(L("Open Artura to see today's artwork"), style = figtree(13, FontWeight.SemiBold), color = Palette.ink,
+            Text(L("Open Artura to see today's artwork"), style = figtree(13, FontWeight.SemiBold), color = ink,
                 textAlign = TextAlign.Center, modifier = Modifier.align(Alignment.Center).padding(14.dp))
             return@Box
         }
         val label: @Composable () -> Unit = {
-            Text(L("ARTWORK OF THE DAY"), style = figtree(10, FontWeight.Bold).copy(letterSpacing = 0.8.sp), color = Palette.blue, maxLines = 1)
+            Text(L("ARTWORK OF THE DAY"), style = figtree(10, FontWeight.Bold).copy(letterSpacing = 0.8.sp), color = blue, maxLines = 1)
         }
         when (style) {
             DailyWidgetStyle.Small -> {
@@ -149,10 +155,10 @@ fun WidgetPreview(artwork: DailyArtwork?, style: DailyWidgetStyle, modifier: Mod
                     ArtImage(artwork.image, Modifier.width(side).fillMaxHeight())
                     Column(Modifier.weight(1f).fillMaxHeight().padding(14.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                         label()
-                        Text(artwork.title, style = figtree(18, FontWeight.Bold), color = Palette.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                        Text("${artwork.artist} · ${artwork.yearLabel}", style = figtree(12), color = Palette.muted, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                        Text(artwork.title, style = figtree(18, FontWeight.Bold), color = ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                        Text("${artwork.artist} · ${artwork.yearLabel}", style = figtree(12), color = muted, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         Spacer(Modifier.weight(1f))
-                        Text(artwork.teaser, style = figtree(12), color = Palette.muted, maxLines = 3, overflow = TextOverflow.Ellipsis)
+                        Text(artwork.teaser, style = figtree(12), color = muted, maxLines = 3, overflow = TextOverflow.Ellipsis)
                     }
                 }
             }
@@ -160,9 +166,9 @@ fun WidgetPreview(artwork: DailyArtwork?, style: DailyWidgetStyle, modifier: Mod
                 ArtImage(artwork.image, Modifier.fillMaxWidth().weight(1f))
                 Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                     label()
-                    Text(artwork.title, style = figtree(21, FontWeight.Bold), color = Palette.ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    Text("${artwork.artist} · ${artwork.yearLabel}", style = figtree(13), color = Palette.muted, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    Text(artwork.teaser, style = figtree(13), color = Palette.muted, maxLines = 2, overflow = TextOverflow.Ellipsis,
+                    Text(artwork.title, style = figtree(21, FontWeight.Bold), color = ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    Text("${artwork.artist} · ${artwork.yearLabel}", style = figtree(13), color = muted, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    Text(artwork.teaser, style = figtree(13), color = muted, maxLines = 2, overflow = TextOverflow.Ellipsis,
                         modifier = Modifier.padding(top = 2.dp))
                 }
             }

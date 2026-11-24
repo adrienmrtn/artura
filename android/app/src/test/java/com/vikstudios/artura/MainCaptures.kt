@@ -26,7 +26,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.remember
@@ -76,7 +75,7 @@ class MainCaptures {
                 LocalCoverHost provides host,
                 LocalLayoutDirection provides if (AppLanguage.isRightToLeft) LayoutDirection.Rtl else LayoutDirection.Ltr,
             ) {
-                MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+                MaterialTheme(colorScheme = captureColorScheme()) {
                     CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                         Box(Modifier.fillMaxSize().background(Palette.bg)) {
                             content()
@@ -87,7 +86,7 @@ class MainCaptures {
             }
         }
         rule.mainClock.advanceTimeBy(2500)
-        rule.onRoot().captureRoboImage("../captures/$name.png")
+        rule.onRoot().captureRoboImage("../captures/$name$captureSuffix.png")
     }
 
     @Before

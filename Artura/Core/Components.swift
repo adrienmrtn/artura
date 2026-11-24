@@ -31,7 +31,8 @@ extension ButtonStyle where Self == PillButtonStyle {
         PillButtonStyle(fill: Palette.card, lip: Palette.lip, foreground: Palette.ink)
     }
     static var dark: PillButtonStyle {
-        PillButtonStyle(fill: Palette.ink, lip: .black, foreground: .white)
+        // Ink turns light in dark mode: the text follows the background, the lip a mid grey.
+        PillButtonStyle(fill: Palette.ink, lip: Color(light: 0x000000, dark: 0xBDB6B0), foreground: Palette.bg)
     }
 }
 
@@ -72,7 +73,8 @@ struct TextLinkButton: View {
 struct TagPill: View {
     let text: String
     var fill: Color = Palette.yellow
-    var foreground: Color = Palette.ink
+    /// Dark ink in both appearances: the default yellow fill does not change.
+    var foreground: Color = Color(hex: 0x2D2C2B)
     var body: some View {
         Text(text)
             .font(.figtree(13, .semibold))
@@ -121,7 +123,7 @@ struct StreakChip: View {
         }
         .padding(.horizontal, 12)
         .frame(height: 36)
-        .background(Capsule().fill(.white))
+        .background(Capsule().fill(Palette.bg))
     }
 }
 
