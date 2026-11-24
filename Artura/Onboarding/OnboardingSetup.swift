@@ -1,5 +1,6 @@
 import SwiftUI
 import AuthenticationServices
+import StoreKit
 
 // MARK: Reminder (slider and sun)
 
@@ -313,6 +314,31 @@ struct WidgetScreen: View {
             .clipped()
             .scaleEffect(popped ? 1 : 1.04)
             .opacity(popped ? 1 : 0)
+    }
+}
+
+// MARK: Made by art lovers, for art lovers
+
+/// A word from the team, and the App Store rating prompt half a second after the screen appears.
+struct MadeByScreen: View {
+    let onNext: () -> Void
+    @Environment(\.requestReview) private var requestReview
+    /// The prompt is asked once per launch, even if the visitor comes back to this screen.
+    private static var asked = false
+
+    var body: some View {
+        StoryScaffold(image: "ill_amateurs",
+                      title: L("Artura was made by art lovers, for art lovers."),
+                      subtitle: L("If you like it too, a few stars help other curious minds find us."),
+                      onNext: onNext)
+            .task {
+                guard !Self.asked else { return }
+                try? await Task.sleep(for: .milliseconds(500))
+                guard !Task.isCancelled, !Self.asked else { return }
+                Self.asked = true
+                Analytics.track("rating_prompt", ["from": "onboarding"])
+                requestReview()
+            }
     }
 }
 

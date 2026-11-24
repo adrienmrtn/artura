@@ -2,6 +2,7 @@ package com.vikstudios.artura.onboarding
 
 import android.Manifest
 import android.app.Activity
+import android.content.ContextWrapper
 import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -111,6 +112,8 @@ import com.vikstudios.artura.data.avatarLabels
 import com.vikstudios.artura.data.formatMinutes
 import com.vikstudios.artura.services.GoogleAuth
 import com.vikstudios.artura.services.Reminder
+import com.vikstudios.artura.services.Analytics
+import com.google.android.play.core.review.ReviewManagerFactory
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.time.LocalDate
@@ -388,6 +391,36 @@ private fun LockScreen(today: String, image: String?, title: String, artist: Str
             Box(Modifier.padding(top = 10.dp, bottom = 8.dp).size(84.dp, 4.dp).clip(CircleShape).background(Color.White.copy(alpha = 0.8f)))
         }
     }
+}
+
+// MARK: Made by art lovers, for art lovers
+
+/** The in-app rating prompt is asked once per launch, even if the visitor comes back to this screen. */
+private var ratingAsked = false
+
+/** A word from the team, and the Google Play rating prompt half a second after the screen appears. */
+@Composable
+fun MadeByScreen(onNext: () -> Unit) {
+    val context = LocalContext.current
+    LaunchedEffect(Unit) {
+        if (ratingAsked) return@LaunchedEffect
+        delay(500)
+        var c = context
+        while (c !is Activity && c is ContextWrapper) c = c.baseContext
+        val activity = c as? Activity ?: return@LaunchedEffect
+        ratingAsked = true
+        Analytics.track("rating_prompt", mapOf("from" to "onboarding"))
+        val manager = ReviewManagerFactory.create(activity)
+        manager.requestReviewFlow().addOnCompleteListener { request ->
+            if (request.isSuccessful) manager.launchReviewFlow(activity, request.result)
+        }
+    }
+    StoryScaffold(
+        image = "ill_amateurs",
+        title = L("Artura was made by art lovers, for art lovers."),
+        subtitle = L("If you like it too, a few stars help other curious minds find us."),
+        onNext = onNext,
+    )
 }
 
 // MARK: Loading: building your program
