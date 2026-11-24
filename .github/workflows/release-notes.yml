@@ -1,0 +1,35 @@
+name: App Store release notes
+
+# À lancer à la main : onglet Actions > « App Store release notes » > Run workflow.
+# Envoie UNIQUEMENT « Nouveautés de cette version » pour les 29 langues, à partir de
+# fastlane/metadata/<langue>/release_notes.txt. Rien d'autre n'est modifié.
+# Secrets : les mêmes que « App Store metadata » (ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8).
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version de l'app dans App Store Connect"
+        default: "2.1"
+        required: true
+
+jobs:
+  release-notes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Contrôle des textes (longueurs et lien EULA)
+        run: python3 fastlane/check_metadata.py
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Envoi des nouveautés vers App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          APP_VERSION: ${{ inputs.version }}
+          LC_ALL: en_US.UTF-8
+          LANG: en_US.UTF-8
+        run: bundle exec fastlane release_notes
