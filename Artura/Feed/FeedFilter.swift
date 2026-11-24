@@ -138,7 +138,7 @@ struct FilterChip: View {
                 .foregroundStyle(selected ? .white : Palette.ink)
                 .padding(.horizontal, 14)
                 .frame(height: 40)
-                .background(Capsule().fill(selected ? Palette.blue : Color.white))
+                .background(Capsule().fill(selected ? Palette.blue : Palette.bg))
                 .overlay(Capsule().stroke(selected ? Palette.blue : Palette.line, lineWidth: 1))
         }
         .buttonStyle(.pressable)
@@ -300,7 +300,7 @@ struct FeedSearchSheet: View {
             }
             .padding(.horizontal, 16)
             .frame(height: 52)
-            .background(Capsule().fill(.white))
+            .background(Capsule().fill(Palette.bg))
             .overlay(Capsule().stroke(focused ? Palette.blue : Palette.line, lineWidth: focused ? 2 : 1))
             .padding(.top, 24)
 

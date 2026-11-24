@@ -173,7 +173,7 @@ struct HomeFeedView: View {
                 .font(.system(size: 16, weight: .semibold))
                 .foregroundStyle(tint)
                 .frame(width: 42, height: 42)
-                .background(Circle().fill(.white))
+                .background(Circle().fill(Palette.bg))
                 .overlay(alignment: .topTrailing) {
                     if badge > 0 {
                         Text("\(badge)")
@@ -238,7 +238,8 @@ struct FeedCard: View {
                 .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
                 .overlay(alignment: .topLeading) {
                     if isDaily {
-                        TagPill(text: L("Artwork of the day"), fill: .white, foreground: Palette.blueText).padding(12)
+                        // White pill over the artwork in both appearances.
+                        TagPill(text: L("Artwork of the day"), fill: .white, foreground: Color(hex: 0x0050C8)).padding(12)
                     }
                 }
                 .overlay(alignment: .topTrailing) {

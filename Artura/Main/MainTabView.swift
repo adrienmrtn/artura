@@ -70,7 +70,7 @@ struct MainTabView: View {
                                 .scaleEffect(tab == item ? 1.06 : 1)
                             Text(item.title).font(.figtree(11, .medium))
                         }
-                        .foregroundStyle(tab == item ? Palette.ink : Color(hex: 0x6B6661))
+                        .foregroundStyle(tab == item ? Palette.ink : Color(light: 0x6B6661, dark: 0x8F8882))
                         .frame(maxWidth: .infinity)
                         .frame(height: 52)
                     }
@@ -80,7 +80,7 @@ struct MainTabView: View {
             .padding(.horizontal, 8)
             .padding(.top, 6)
             .background(Palette.bg.ignoresSafeArea(edges: .bottom))
-            .overlay(alignment: .top) { Rectangle().fill(Color(hex: 0xEFE9E5)).frame(height: 1) }
+            .overlay(alignment: .top) { Rectangle().fill(Color(light: 0xEFE9E5, dark: 0x2E2B29)).frame(height: 1) }
         }
         .background(Palette.bg)
         .onAppear { content.activateCatalog() }

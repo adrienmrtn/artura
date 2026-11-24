@@ -67,7 +67,8 @@ struct TodayView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: "ill_bravo").frame(height: 230)
-                TagPill(text: L("Today's artwork: done"), fill: .white, foreground: Palette.blueText).padding(10)
+                // White pill over the illustration in both appearances.
+                TagPill(text: L("Today's artwork: done"), fill: .white, foreground: Color(hex: 0x0050C8)).padding(10)
             }
             VStack(spacing: 12) {
                 VStack(spacing: 6) {
@@ -118,7 +119,8 @@ struct TodayView: View {
                 .foregroundStyle(Palette.ink)
                 .padding(.horizontal, 18)
                 .frame(height: 40)
-                .background(Capsule().fill(active ? Color.white : Color.clear))
+                // Raised segment: white, a lighter grey than the card in dark mode.
+                .background(Capsule().fill(active ? Color(light: 0xFFFFFF, dark: 0x3B3734) : Color.clear))
         }
         .buttonStyle(.pressable)
     }
@@ -127,14 +129,16 @@ struct TodayView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .topLeading) {
                 ArtImage(name: art.image).frame(height: 392).zoomable(art)
-                TagPill(text: L("Artwork of the day"), fill: .white, foreground: Palette.blueText).padding(10)
+                // White pill over the artwork in both appearances.
+                TagPill(text: L("Artwork of the day"), fill: .white, foreground: Color(hex: 0x0050C8)).padding(10)
                 Button {
                     Haptics.press()
                     withAnimation(.bouncy) { user.toggleFavorite(art.id) }
                 } label: {
                     Image(systemName: user.isFavorite(art.id) ? "heart.fill" : "heart")
                         .font(.system(size: 18, weight: .semibold))
-                        .foregroundStyle(user.isFavorite(art.id) ? Palette.orange : Palette.ink)
+                        // White button over the artwork in both appearances, so the icon stays dark.
+                        .foregroundStyle(user.isFavorite(art.id) ? Palette.orange : Color(hex: 0x2D2C2B))
                         .frame(width: 44, height: 44)
                         .background(Circle().fill(.white))
                         .scaleEffect(user.isFavorite(art.id) ? 1.1 : 1)

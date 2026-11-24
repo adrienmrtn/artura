@@ -40,7 +40,8 @@ struct ZoomGame: View {
                             } label: {
                                 Label(L("Zoom out"), systemImage: "minus.magnifyingglass")
                                     .font(.figtree(14, .semibold))
-                                    .foregroundStyle(Palette.ink)
+                                    // White pill over the artwork in both appearances, so the text stays dark.
+                                    .foregroundStyle(Color(hex: 0x2D2C2B))
                                     .padding(.horizontal, 14)
                                     .frame(height: 44)
                                     .background(Capsule().fill(.white))

@@ -73,9 +73,9 @@ struct TrueFalseGame: View {
                 if answer == nil {
                     HStack(spacing: 12) {
                         Button(L("False")) { respond(false) }
-                            .buttonStyle(PillButtonStyle(fill: Palette.redSoft, lip: Color(hex: 0xF2C9C5), foreground: Color(hex: 0x8C1D18)))
+                            .buttonStyle(PillButtonStyle(fill: Palette.redSoft, lip: Color(light: 0xF2C9C5, dark: 0x5A2420), foreground: Color(light: 0x8C1D18, dark: 0xFFB4AB)))
                         Button(L("True")) { respond(true) }
-                            .buttonStyle(PillButtonStyle(fill: Palette.greenSoft, lip: Color(hex: 0xBFE6CD), foreground: Color(hex: 0x00663B)))
+                            .buttonStyle(PillButtonStyle(fill: Palette.greenSoft, lip: Color(light: 0xBFE6CD, dark: 0x1E4A32), foreground: Color(light: 0x00663B, dark: 0x7FDCAA)))
                     }
                     .transition(.opacity)
                 } else {
@@ -110,7 +110,7 @@ struct TrueFalseGame: View {
                 if answer != nil {
                     VStack(alignment: .leading, spacing: 2) {
                         Text(isCorrect ? L("Good eye!") : (card.fact.isTrue ? L("Not quite. It was true.") : L("Not quite. It was false.")))
-                            .font(.bodyStrong).foregroundStyle(isCorrect ? Color(hex: 0x00663B) : Color(hex: 0x8C1D18))
+                            .font(.bodyStrong).foregroundStyle(isCorrect ? Color(light: 0x00663B, dark: 0x7FDCAA) : Color(light: 0x8C1D18, dark: 0xFFB4AB))
                         Text(card.fact.explanation).font(.aSmall).foregroundStyle(Palette.ink)
                             .fixedSize(horizontal: false, vertical: true)
                     }

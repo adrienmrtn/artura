@@ -59,7 +59,7 @@ struct ProfileView: View {
                     HStack(spacing: 10) {
                         stat("\(user.streak)", L("day streak"), Palette.yellow)
                         stat("\(user.profile.opened.count)", L("artworks opened"), Palette.pink)
-                        stat("\(user.profile.gamesWon)", L("games won"), Palette.mist)
+                        stat("\(user.profile.gamesWon)", L("games won"), Palette.mist, Palette.ink)
                     }
 
                     Text(L("My collection")).font(.aHeading).foregroundStyle(Palette.ink).padding(.top, 4)
@@ -78,7 +78,7 @@ struct ProfileView: View {
                                     }
                                     GeometryReader { geo in
                                         ZStack(alignment: .leading) {
-                                            Capsule().fill(.white)
+                                            Capsule().fill(Palette.bg)
                                             Capsule().fill(Palette.blue)
                                                 .frame(width: geo.size.width * CGFloat(item.count) / CGFloat(maxCount))
                                         }
@@ -120,12 +120,13 @@ struct ProfileView: View {
         }
     }
 
-    private func stat(_ value: String, _ label: String, _ color: Color) -> some View {
+    /// `text` defaults to dark ink in both appearances (yellow and pink fills don't change).
+    private func stat(_ value: String, _ label: String, _ color: Color, _ text: Color = Color(hex: 0x2D2C2B)) -> some View {
         VStack(alignment: .leading, spacing: 2) {
             Text(value).font(.figtree(26, .semibold)).contentTransition(.numericText())
             Text(label).font(.figtree(13, .medium))
         }
-        .foregroundStyle(Palette.ink)
+        .foregroundStyle(text)
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(RoundedRectangle(cornerRadius: 16).fill(color))

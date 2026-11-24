@@ -187,9 +187,10 @@ struct ArtsScreen: View {
                                 .frame(height: 96)
                                 .overlay(alignment: .topLeading) {
                                     if art.soon {
+                                        // White pill over the artwork in both appearances, so the text stays dark.
                                         Text(L("Soon"))
                                             .font(.figtree(11, .semibold))
-                                            .foregroundStyle(Palette.ink)
+                                            .foregroundStyle(Color(hex: 0x2D2C2B))
                                             .padding(.horizontal, 8)
                                             .padding(.vertical, 3)
                                             .background(Capsule().fill(.white))
