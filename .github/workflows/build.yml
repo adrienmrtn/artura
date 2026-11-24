@@ -75,6 +75,7 @@ jobs:
           # « [dark] » dans le message du commit : captures en mode sombre.
           APPEARANCE=light
           if [[ "$MESSAGE" == *"[dark]"* ]]; then APPEARANCE=dark; fi
+          # The app is light by default: the appearance setting is passed as a launch argument.
           xcrun simctl ui "$DEVICE" appearance $APPEARANCE
           xcrun simctl install "$DEVICE" "$APP"
           mkdir -p shots
@@ -83,7 +84,7 @@ jobs:
           shoot() {
             local name=$1 step=$2 wait=$3; shift 3
             if [ -n "$ONLY" ] && [[ ",$ONLY," != *",$name,"* ]]; then return 0; fi
-            xcrun simctl launch "$DEVICE" $BUNDLE -onbStep "$step" -onbName Max -onbPreviewOffer YES "$@" >/dev/null
+            xcrun simctl launch "$DEVICE" $BUNDLE -onbStep "$step" -onbName Max -onbPreviewOffer YES -appearance $APPEARANCE "$@" >/dev/null
             sleep "$wait"
             xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
             xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true
@@ -139,7 +140,7 @@ jobs:
           shootApp() {
             local name=$1 wait=$2; shift 2
             if [ -n "$ONLY" ] && [ "$ONLY" != "app" ] && [[ ",$ONLY," != *",$name,"* ]]; then return 0; fi
-            xcrun simctl launch "$DEVICE" $BUNDLE -demoProfile YES -noSplash YES "$@" >/dev/null
+            xcrun simctl launch "$DEVICE" $BUNDLE -demoProfile YES -noSplash YES -appearance $APPEARANCE "$@" >/dev/null
             sleep "$wait"
             xcrun simctl io "$DEVICE" screenshot "shots/$name.png" >/dev/null 2>&1
             xcrun simctl terminate "$DEVICE" $BUNDLE >/dev/null 2>&1 || true

@@ -4,6 +4,7 @@ struct ProfileView: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var content: ContentStore
     @EnvironmentObject private var pro: ProStore
+    @AppStorage(Appearance.key) private var appearance: Appearance = .light
     @State private var course: Artwork?
     @State private var showPaywall = false
     @State private var confirmReset = false
@@ -187,6 +188,27 @@ struct ProfileView: View {
                 }
             }
             .tint(Palette.blue)
+            .frame(minHeight: 56)
+            Divider()
+            HStack {
+                Text(L("Appearance")).font(.figtree(15, .semibold)).foregroundStyle(Palette.ink)
+                Spacer()
+                Menu {
+                    Picker(L("Appearance"), selection: $appearance) {
+                        ForEach(Appearance.allCases) { Text($0.title).tag($0) }
+                    }
+                } label: {
+                    HStack(spacing: 4) {
+                        Text(appearance.title).font(.aSmall).foregroundStyle(Palette.blueText)
+                        Image(systemName: "chevron.up.chevron.down")
+                            .font(.system(size: 11, weight: .semibold)).foregroundStyle(Palette.blueText)
+                    }
+                }
+                .onChange(of: appearance) { _, chosen in
+                    Haptics.selection()
+                    Analytics.track("appearance_changed", ["to": chosen.rawValue])
+                }
+            }
             .frame(minHeight: 56)
             Divider()
             Button {

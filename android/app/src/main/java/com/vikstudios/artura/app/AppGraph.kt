@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import androidx.compose.runtime.staticCompositionLocalOf
 import com.vikstudios.artura.core.AppLanguage
+import com.vikstudios.artura.core.Appearance
 import com.vikstudios.artura.core.Haptics
 import com.vikstudios.artura.data.CatalogCache
 import com.vikstudios.artura.data.ContentStore
@@ -26,6 +27,7 @@ object AppGraph {
         if (ready) return
         val app = context.applicationContext
         AppLanguage.init(app)
+        Appearance.init(app)
         Haptics.init(app)
         CatalogCache.init(app)
         SupabaseAuth.init(app)

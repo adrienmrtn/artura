@@ -66,6 +66,7 @@ import com.vikstudios.artura.core.AppLanguage
 import com.vikstudios.artura.core.Haptics
 import com.vikstudios.artura.core.L
 import com.vikstudios.artura.core.Palette
+import com.vikstudios.artura.core.Appearance
 import com.vikstudios.artura.core.figtree
 import com.vikstudios.artura.main.MainTabView
 import com.vikstudios.artura.onboarding.OnboardingDebug
@@ -81,11 +82,8 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        // Bar icons follow the system appearance (dark icons in light mode, light icons in dark mode).
-        enableEdgeToEdge(
-            statusBarStyle = SystemBarStyle.auto(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
-            navigationBarStyle = SystemBarStyle.auto(android.graphics.Color.WHITE, 0xFF141312.toInt()),
-        )
+        // Before the first frame: bars matching the saved appearance (refined in setContent).
+        applySystemBars(Appearance.current == Appearance.Dark)
         super.onCreate(savedInstanceState)
         if (savedInstanceState == null) {
             AppDebug.read(intent)
@@ -103,9 +101,16 @@ class MainActivity : ComponentActivity() {
         })
         setContent {
             val language = AppLanguage.code
-            // Dark mode follows the system appearance.
-            val dark = isSystemInDarkTheme()
+            // Light by default; dark, or the phone's setting, can be chosen in the profile.
+            val systemDark = isSystemInDarkTheme()
+            val dark = when (Appearance.current) {
+                Appearance.Light -> false
+                Appearance.Dark -> true
+                Appearance.System -> systemDark
+            }
             if (Palette.isDark != dark) Palette.isDark = dark
+            // Bar icons match the app: dark icons in light mode, light icons in dark mode.
+            LaunchedEffect(dark) { applySystemBars(dark) }
             CompositionLocalProvider(
                 LocalContent provides graph.content,
                 LocalUser provides graph.user,
@@ -122,6 +127,15 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    private fun applySystemBars(dark: Boolean) {
+        val transparent = android.graphics.Color.TRANSPARENT
+        enableEdgeToEdge(
+            statusBarStyle = if (dark) SystemBarStyle.dark(transparent) else SystemBarStyle.light(transparent, transparent),
+            navigationBarStyle = if (dark) SystemBarStyle.dark(0xFF141312.toInt())
+            else SystemBarStyle.light(android.graphics.Color.WHITE, android.graphics.Color.WHITE),
+        )
     }
 }
 
