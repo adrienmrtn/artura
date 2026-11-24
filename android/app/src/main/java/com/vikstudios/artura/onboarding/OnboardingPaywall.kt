@@ -368,7 +368,7 @@ fun TrialClock(days: Int, modifier: Modifier = Modifier) {
 fun TrialNotificationPreview(modifier: Modifier = Modifier, large: Boolean = false) {
     Row(
         modifier.fillMaxWidth().clip(RoundedCornerShape(if (large) 22.dp else 14.dp))
-            .background(if (large) Color.White else Palette.mistLight).padding(if (large) 14.dp else 8.dp),
+            .background(if (large) (if (Palette.isDark) Palette.card else Color.White) else Palette.mistLight).padding(if (large) 14.dp else 8.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(if (large) 12.dp else 10.dp),
     ) {
@@ -529,7 +529,7 @@ fun TrialTimelineScreen(offer: TrialOffer, onNext: () -> Unit) {
                 val r2 by animateFloatAsState(if (revealed >= 2) 1f else 0f, tween(800, easing = LinearOutSlowInEasing), label = "preview")
                 TrialNotificationPreview(Modifier.padding(start = 48.dp).graphicsLayer { alpha = r2 })
             }
-            TimelineRow(3, revealed, Icons.Rounded.Verified, Color.White, Palette.orange,
+            TimelineRow(3, revealed, Icons.Rounded.Verified, Palette.bg, Palette.orange,
                 L("Day %@ · Artura Pro", "${offer.trialDays}"), L("%@ per year. Cancel before then, in two taps.", offer.yearlyPrice))
         }
 
@@ -819,7 +819,7 @@ fun ExitOfferSheet(
                     else L("Visitor pass: %@ days free instead of %@", "${offer.trialDays}", "$baseDays")
                 }
                 .shadow(16.dp, ticket, ambientColor = Palette.blueDark.copy(alpha = 0.12f), spotColor = Palette.blueDark.copy(alpha = 0.18f))
-                .background(Color.White, ticket)
+                .background(Palette.bg, ticket)
                 .border(1.5.dp, Palette.blue, ticket)
         ) {
             Column(Modifier.padding(horizontal = 18.dp).padding(top = 16.dp, bottom = 14.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -924,7 +924,7 @@ fun PaywallScreen(onClose: () -> Unit) {
             Box(
                 Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(end = 16.dp, top = 8.dp).size(44.dp)
                     .semantics { contentDescription = L("Close and continue for free") }
-                    .pressable(onClick = onClose).clip(CircleShape).background(Color.White),
+                    .pressable(onClick = onClose).clip(CircleShape).background(Palette.bg),
                 contentAlignment = Alignment.Center,
             ) { Icon(Icons.Rounded.Close, null, tint = Palette.ink, modifier = Modifier.size(20.dp)) }
         }

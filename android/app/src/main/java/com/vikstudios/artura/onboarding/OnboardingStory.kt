@@ -77,6 +77,7 @@ import com.vikstudios.artura.core.PillButton
 import com.vikstudios.artura.core.PillStyle
 import com.vikstudios.artura.core.TagPill
 import com.vikstudios.artura.core.figtree
+import com.vikstudios.artura.core.hexColor
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.time.Month
@@ -206,7 +207,7 @@ fun FlashTestScreen(onNext: () -> Unit) {
                     if (top) {
                         Stamp(L("I know it"), Palette.green, Modifier.align(Alignment.TopStart).padding(16.dp)
                             .graphicsLayer { this.alpha = (dragX / 90f).coerceIn(0f, 1f) })
-                        Stamp(L("I don't know"), Palette.ink, Modifier.align(Alignment.TopEnd).padding(16.dp)
+                        Stamp(L("I don't know"), hexColor(0x2D2C2B), Modifier.align(Alignment.TopEnd).padding(16.dp)
                             .graphicsLayer { this.alpha = (-dragX / 90f).coerceIn(0f, 1f) })
                     }
                 }
@@ -299,7 +300,7 @@ fun FlashResultScreen(onNext: () -> Unit) {
                             .background(if (isKnown) Palette.green else Palette.ink),
                         contentAlignment = Alignment.Center,
                     ) {
-                        Icon(if (isKnown) Icons.Rounded.Check else Icons.Rounded.QuestionMark, null, tint = Color.White, modifier = Modifier.size(14.dp))
+                        Icon(if (isKnown) Icons.Rounded.Check else Icons.Rounded.QuestionMark, null, tint = if (isKnown) Color.White else Palette.bg, modifier = Modifier.size(14.dp))
                     }
                 }
             }
@@ -615,7 +616,7 @@ fun StreakScreen(onNext: () -> Unit) {
                     .graphicsLayer { val s = 0.6f + 0.4f * l; scaleX = s; scaleY = s; alpha = l }
                     .height(52.dp)
                     .shadow(12.dp, CircleShape, ambientColor = Palette.blueDark.copy(alpha = 0.14f), spotColor = Palette.blueDark.copy(alpha = 0.14f))
-                    .background(Color.White, CircleShape).padding(horizontal = 20.dp),
+                    .background(Palette.bg, CircleShape).padding(horizontal = 20.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
             ) {
@@ -642,7 +643,7 @@ fun StreakScreen(onNext: () -> Unit) {
                             .border(1.5.dp, if (on) Palette.yellow else Palette.lip, CircleShape),
                         contentAlignment = Alignment.Center,
                     ) {
-                        if (day == 1) Icon(Icons.Rounded.Check, null, tint = Palette.ink,
+                        if (day == 1) Icon(Icons.Rounded.Check, null, tint = hexColor(0x2D2C2B),
                             modifier = Modifier.size(18.dp).graphicsLayer { scaleX = c; scaleY = c; alpha = c })
                     }
                     // Short for "Day 1", "Day 2"… under each circle of the week (keep it very short).

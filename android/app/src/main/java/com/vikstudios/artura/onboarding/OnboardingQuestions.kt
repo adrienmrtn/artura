@@ -233,7 +233,7 @@ fun ArtsScreen(onNext: () -> Unit) {
                                     ArtImage(art.image, Modifier.fillMaxWidth().height(96.dp))
                                     if (art.soon) {
                                         Text(L("Soon"), style = figtree(11, FontWeight.SemiBold), color = Palette.ink,
-                                            modifier = Modifier.padding(8.dp).clip(CircleShape).background(Color.White)
+                                            modifier = Modifier.padding(8.dp).clip(CircleShape).background(Palette.bg)
                                                 .padding(horizontal = 8.dp, vertical = 3.dp))
                                     }
                                 }

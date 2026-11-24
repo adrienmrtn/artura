@@ -544,8 +544,8 @@ fun AvatarPicker(selection: Int, onSelect: (Int) -> Unit, size: Dp = 56.dp, onPi
     }
 }
 
-/** Soft mauve behind the avatar block. */
-private val mauve = hexColor(0xEDE3FF)
+/** Soft mauve behind the avatar block (a getter, so it follows dark mode). */
+private val mauve: Color get() = if (Palette.isDark) hexColor(0x2A2340) else hexColor(0xEDE3FF)
 
 /** Goals are stored in English (see MotivationScreen); this is the label shown. */
 private fun goalName(goal: String): String = when (goal) {
@@ -594,7 +594,7 @@ fun PlanScreen(onNext: () -> Unit) {
                             Text(L("Shown on your profile"), style = AType.caption, color = Palette.muted)
                         }
                         Box(
-                            Modifier.height(44.dp).pressable { Haptics.tap(); picking = true }.clip(CircleShape).background(Color.White)
+                            Modifier.height(44.dp).pressable { Haptics.tap(); picking = true }.clip(CircleShape).background(Palette.bg)
                                 .padding(horizontal = 16.dp),
                             contentAlignment = Alignment.Center,
                         ) { Text(L("Change"), style = figtree(14, FontWeight.SemiBold), color = Palette.blueText) }
@@ -609,9 +609,9 @@ fun PlanScreen(onNext: () -> Unit) {
                 verticalAlignment = Alignment.CenterVertically) {
                 ArtImage(cover.image, Modifier.size(104.dp, 112.dp))
                 Column(Modifier.weight(1f).padding(horizontal = 14.dp), verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                    Text(L("Your first path"), style = figtree(12, FontWeight.SemiBold), color = Palette.ink)
-                    Text(movement.name, style = AType.cardTitle, color = Palette.ink)
-                    Text(movement.summary, style = AType.caption, color = Palette.ink)
+                    Text(L("Your first path"), style = figtree(12, FontWeight.SemiBold), color = hexColor(0x2D2C2B))
+                    Text(movement.name, style = AType.cardTitle, color = hexColor(0x2D2C2B))
+                    Text(movement.summary, style = AType.caption, color = hexColor(0x2D2C2B))
                 }
             }
         }
@@ -755,7 +755,7 @@ fun AccountScreen(onBack: () -> Unit, onNext: () -> Unit) {
             Box(
                 Modifier.statusBarsPadding().padding(start = 16.dp, top = 8.dp).size(44.dp)
                     .semantics { contentDescription = L("Back") }
-                    .pressable(onClick = onBack).clip(CircleShape).background(Color.White),
+                    .pressable(onClick = onBack).clip(CircleShape).background(Palette.bg),
                 contentAlignment = Alignment.Center,
             ) {
                 Icon(Icons.AutoMirrored.Rounded.ArrowBackIos, null, tint = Palette.ink, modifier = Modifier.size(18.dp).offset(x = 3.dp))
@@ -838,7 +838,7 @@ fun SignInButtons(message: String?, onMessage: (String?) -> Unit, onDone: () -> 
         if (showsGoogle) {
             Row(
                 Modifier.fillMaxWidth().height(56.dp).pressable(enabled = !busy) { signIn() }
-                    .clip(CircleShape).background(Color.White).border(1.5.dp, Palette.lip, CircleShape),
+                    .clip(CircleShape).background(Palette.bg).border(1.5.dp, Palette.lip, CircleShape),
                 horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
                 verticalAlignment = Alignment.CenterVertically,
             ) {

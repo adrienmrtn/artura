@@ -52,6 +52,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -69,6 +70,7 @@ import com.vikstudios.artura.core.L
 import com.vikstudios.artura.core.Palette
 import com.vikstudios.artura.core.SkyHeader
 import com.vikstudios.artura.core.figtree
+import com.vikstudios.artura.core.hexColor
 import com.vikstudios.artura.core.pressable
 import com.vikstudios.artura.data.Artwork
 import com.vikstudios.artura.data.Movement
@@ -163,7 +165,7 @@ fun ProfileView() {
                                 Text(movement.name, style = figtree(14, FontWeight.SemiBold), color = Palette.ink, modifier = Modifier.weight(1f))
                                 Text(if (count == 1) L("1 artwork") else L("%@ artworks", "$count"), style = AType.small, color = Palette.muted)
                             }
-                            BoxWithConstraints(Modifier.fillMaxWidth().height(8.dp).clip(CircleShape).background(Color.White)) {
+                            BoxWithConstraints(Modifier.fillMaxWidth().height(8.dp).clip(CircleShape).background(Palette.bg)) {
                                 Box(Modifier.width(maxWidth * (count.toFloat() / maxCount)).height(8.dp).clip(CircleShape).background(Palette.blue))
                             }
                         }
@@ -247,11 +249,13 @@ fun ProfileView() {
 
 @Composable
 private fun Stat(value: String, label: String, color: Color, modifier: Modifier) {
+    // Dark text on light fills (yellow and pink stay bright in dark mode), light text on dark ones.
+    val ink = if (color.luminance() > 0.4f) hexColor(0x2D2C2B) else Palette.ink
     Column(modifier.clip(RoundedCornerShape(16.dp)).background(color).padding(12.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
         AnimatedContent(value, transitionSpec = { (slideInVertically { it / 2 } + fadeIn()) togetherWith (slideOutVertically { -it / 2 } + fadeOut()) }, label = "stat") {
-            Text(it, style = figtree(26, FontWeight.SemiBold), color = Palette.ink)
+            Text(it, style = figtree(26, FontWeight.SemiBold), color = ink)
         }
-        Text(label, style = figtree(13, FontWeight.Medium), color = Palette.ink, maxLines = 2)
+        Text(label, style = figtree(13, FontWeight.Medium), color = ink, maxLines = 2)
     }
 }
 

@@ -143,7 +143,7 @@ fun MainTabView() {
         }
 
         Column(Modifier.fillMaxWidth().background(Palette.bg)) {
-            Box(Modifier.fillMaxWidth().height(1.dp).background(hexColor(0xEFE9E5)))
+            Box(Modifier.fillMaxWidth().height(1.dp).background(if (Palette.isDark) hexColor(0x2E2B29) else hexColor(0xEFE9E5)))
             Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp).padding(top = 6.dp).navigationBarsPadding()) {
                 AppTab.entries.forEach { item ->
                     val selected = tab == item
@@ -158,7 +158,7 @@ fun MainTabView() {
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.spacedBy(4.dp, Alignment.CenterVertically),
                     ) {
-                        val color = if (selected) Palette.ink else hexColor(0x6B6661)
+                        val color = if (selected) Palette.ink else if (Palette.isDark) hexColor(0x8F8882) else hexColor(0x6B6661)
                         Icon(item.icon, item.title, tint = color, modifier = Modifier.size(24.dp).graphicsLayer { scaleX = scale; scaleY = scale })
                         Text(item.title, style = figtree(11, FontWeight.Medium), color = color, maxLines = 1)
                     }

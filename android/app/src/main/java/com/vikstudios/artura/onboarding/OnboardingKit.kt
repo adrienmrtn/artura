@@ -173,7 +173,7 @@ fun MascotBubble(mascotSize: Dp = 132.dp, modifier: Modifier = Modifier, content
                 .offset(y = (-14).dp)
                 .fillMaxWidth()
                 .shadow(18.dp, BubbleShape(), ambientColor = Palette.blueDark.copy(alpha = 0.10f), spotColor = Palette.blueDark.copy(alpha = 0.18f))
-                .background(Color.White, BubbleShape())
+                .background(if (Palette.isDark) Palette.card else Color.White, BubbleShape())
                 .padding(start = 22.dp, end = 22.dp, top = 34.dp, bottom = 22.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             content = content,
@@ -524,7 +524,7 @@ fun ChoiceRow(
         val check by animateFloatAsState(if (selected) 1f else 0f, Anim.snappy(), label = "check")
         Box(
             Modifier.size(26.dp).clip(RoundedCornerShape(corner))
-                .background(if (selected) Palette.blue else Color.White)
+                .background(if (selected) Palette.blue else Palette.bg)
                 .border(2.dp, if (selected) Palette.blue else Palette.lip, RoundedCornerShape(corner)),
             contentAlignment = Alignment.Center,
         ) {

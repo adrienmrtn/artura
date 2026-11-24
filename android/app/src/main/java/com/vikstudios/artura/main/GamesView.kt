@@ -48,6 +48,7 @@ import com.vikstudios.artura.core.ProgressTrack
 import com.vikstudios.artura.core.TagPill
 import com.vikstudios.artura.core.appearUp
 import com.vikstudios.artura.core.figtree
+import com.vikstudios.artura.core.hexColor
 import com.vikstudios.artura.core.pressable
 import com.vikstudios.artura.data.ContentStore
 import com.vikstudios.artura.data.UserStore
@@ -65,7 +66,7 @@ fun GamesView() {
         Box(Modifier.fillMaxWidth().height(160.dp)) {
             ArtImage("ill_musee", Modifier.matchParentSize().clip(ArcHeaderShape), anchor = Offset(0.5f, 0.1f))
             Box(
-                Modifier.padding(start = 16.dp, top = 60.dp).height(40.dp).clip(CircleShape).background(Color.White).padding(horizontal = 16.dp),
+                Modifier.padding(start = 16.dp, top = 60.dp).height(40.dp).clip(CircleShape).background(Palette.bg).padding(horizontal = 16.dp),
                 contentAlignment = Alignment.Center,
             ) { Text(L("Games"), style = figtree(22, FontWeight.SemiBold), color = Palette.ink) }
         }
@@ -105,11 +106,11 @@ private fun WeekCard(user: UserStore) {
             user.week.forEach { day ->
                 Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(4.dp)) {
                     Box(
-                        Modifier.size(32.dp).clip(CircleShape).background(if (day.played) Palette.yellow else Color.White)
+                        Modifier.size(32.dp).clip(CircleShape).background(if (day.played) Palette.yellow else Palette.bg)
                             .border(2.dp, if (day.isToday && !day.played) Palette.blue else Color.Transparent, CircleShape),
                         contentAlignment = Alignment.Center,
                     ) {
-                        if (day.played) Icon(Icons.Rounded.Check, null, tint = Palette.ink, modifier = Modifier.size(16.dp))
+                        if (day.played) Icon(Icons.Rounded.Check, null, tint = hexColor(0x2D2C2B), modifier = Modifier.size(16.dp))
                     }
                     Text(day.label, style = figtree(12, if (day.isToday) FontWeight.Bold else FontWeight.Normal),
                         color = if (day.isToday) Palette.ink else Palette.muted)

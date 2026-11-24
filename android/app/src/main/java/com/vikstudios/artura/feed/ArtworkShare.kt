@@ -101,7 +101,7 @@ fun RoundActionLabel(icon: ImageVector, modifier: Modifier = Modifier, tint: Col
     Box(modifier.size(size, size + 3.dp)) {
         Box(Modifier.size(size).offset(y = 3.dp).background(Palette.lip, CircleShape))
         Box(
-            Modifier.size(size).background(Color.White, CircleShape).border(1.dp, Palette.line, CircleShape),
+            Modifier.size(size).background(Palette.bg, CircleShape).border(1.dp, Palette.line, CircleShape),
             contentAlignment = Alignment.Center,
         ) {
             Icon(icon, description, tint = tint, modifier = Modifier.size(size * 0.42f))

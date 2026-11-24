@@ -34,7 +34,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.vikstudios.artura.app.LocalContent
@@ -105,7 +104,7 @@ fun ZoomGame(onFinish: (Int, Int) -> Unit) {
                 modifier = Modifier.align(Alignment.BottomEnd).padding(10.dp),
             ) {
                 Row(
-                    Modifier.height(44.dp).clip(CircleShape).background(Color.White)
+                    Modifier.height(44.dp).clip(CircleShape).background(Palette.bg)
                         .pressable(haptic = false) { Haptics.soft(); zoomStep++ }
                         .padding(horizontal = 14.dp),
                     verticalAlignment = Alignment.CenterVertically,

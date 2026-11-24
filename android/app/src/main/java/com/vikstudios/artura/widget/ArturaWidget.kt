@@ -40,7 +40,7 @@ import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
 import com.vikstudios.artura.R
 import com.vikstudios.artura.app.MainActivity
-import com.vikstudios.artura.core.Palette
+import com.vikstudios.artura.core.hexColor
 
 // The "Artwork of the day" home screen widget (port of ArturaWidget.swift and DailyArtworkWidgetView.swift).
 // It reads the same content.json as the app and follows the same rule as the feed for the day's artwork.
@@ -68,9 +68,10 @@ class DailyArtworkWidget : GlanceAppWidget() {
 
 private data class WidgetTexts(val label: String, val empty: String)
 
-private val ink = ColorProvider(Palette.ink)
-private val muted = ColorProvider(Palette.muted)
-private val blue = ColorProvider(Palette.blue)
+// The home-screen widget keeps the light colors (Palette follows the app's appearance).
+private val ink = ColorProvider(hexColor(0x2D2C2B))
+private val muted = ColorProvider(hexColor(0x5C5753))
+private val blue = ColorProvider(hexColor(0x0061EF))
 private val white = ColorProvider(Color.White)
 
 @Composable
@@ -94,7 +95,7 @@ private fun WidgetContent(artwork: DailyArtwork?, picture: Bitmap?, texts: Widge
     @Composable
     fun painting(modifier: GlanceModifier) {
         if (picture != null) Image(ImageProvider(picture), artwork.title, modifier, contentScale = ContentScale.Crop)
-        else Box(modifier.background(Palette.mist)) {}
+        else Box(modifier.background(hexColor(0xDCEBFF))) {}
     }
 
     @Composable

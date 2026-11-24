@@ -108,7 +108,7 @@ fun LessonPaywall(
         Box(Modifier.fillMaxWidth().height(300.dp), contentAlignment = Alignment.BottomCenter) {
             ArtImage(artwork.image, Modifier.fillMaxSize().clip(ArcHeaderShape), anchor = artwork.focusPoint)
             Box(
-                Modifier.offset(y = (-12).dp).size(56.dp).clip(CircleShape).background(Palette.blue).border(4.dp, Color.White, CircleShape),
+                Modifier.offset(y = (-12).dp).size(56.dp).clip(CircleShape).background(Palette.blue).border(4.dp, Palette.bg, CircleShape),
                 contentAlignment = Alignment.Center,
             ) { Icon(Icons.Rounded.Lock, null, tint = Color.White, modifier = Modifier.size(22.dp)) }
         }

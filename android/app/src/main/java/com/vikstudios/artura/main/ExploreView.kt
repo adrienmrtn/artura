@@ -70,6 +70,7 @@ import com.vikstudios.artura.core.SkyHeader
 import com.vikstudios.artura.core.TagPill
 import com.vikstudios.artura.core.appearUp
 import com.vikstudios.artura.core.figtree
+import com.vikstudios.artura.core.hexColor
 import com.vikstudios.artura.core.pressable
 import com.vikstudios.artura.data.Artwork
 import com.vikstudios.artura.data.ContentStore
@@ -128,7 +129,7 @@ fun ExploreView() {
                 Column(Modifier.padding(horizontal = 24.dp).padding(top = 60.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Text(L("Explore"), style = figtree(28, FontWeight.SemiBold), color = Color.White)
                     Row(
-                        Modifier.fillMaxWidth().height(48.dp).clip(CircleShape).background(Color.White).padding(horizontal = 16.dp),
+                        Modifier.fillMaxWidth().height(48.dp).clip(CircleShape).background(Palette.bg).padding(horizontal = 16.dp),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(10.dp),
                     ) {
@@ -212,7 +213,7 @@ private fun Filters(selected: ExploreFilter, modifier: Modifier, onSelect: (Expl
                 Modifier.height(40.dp).pressable { Haptics.selection(); onSelect(item) }
                     .clip(CircleShape).background(if (on) Palette.ink else Palette.card).padding(horizontal = 16.dp),
                 contentAlignment = Alignment.Center,
-            ) { Text(item.label, style = figtree(14, FontWeight.SemiBold), color = if (on) Color.White else Palette.ink) }
+            ) { Text(item.label, style = figtree(14, FontWeight.SemiBold), color = if (on) Palette.bg else Palette.ink) }
         }
     }
 }
@@ -230,9 +231,9 @@ private fun LazyListScope.movementsList(content: ContentStore, user: UserStore, 
             ) {
                 ArtImage(cover.image, Modifier.width(112.dp).fillMaxHeight())
                 Column(Modifier.weight(1f).fillMaxHeight().padding(horizontal = 14.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                    Text(L("You're here · %@ of %@", "$done", "${all.size}"), style = figtree(12, FontWeight.SemiBold), color = Palette.ink)
-                    Text(current.name, style = AType.cardTitle, color = Palette.ink, maxLines = 1)
-                    Text(current.summary, style = AType.caption, color = Palette.ink, maxLines = 2)
+                    Text(L("You're here · %@ of %@", "$done", "${all.size}"), style = figtree(12, FontWeight.SemiBold), color = hexColor(0x2D2C2B))
+                    Text(current.name, style = AType.cardTitle, color = hexColor(0x2D2C2B), maxLines = 1)
+                    Text(current.summary, style = AType.caption, color = hexColor(0x2D2C2B), maxLines = 2)
                     Spacer(Modifier.weight(1f))
                     ProgressTrack(if (all.isEmpty()) 0.0 else done.toDouble() / all.size)
                 }

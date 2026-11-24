@@ -91,6 +91,7 @@ import com.vikstudios.artura.core.TagPill
 import com.vikstudios.artura.core.ZoomTarget
 import com.vikstudios.artura.core.ZoomViewer
 import com.vikstudios.artura.core.figtree
+import com.vikstudios.artura.core.hexColor
 import com.vikstudios.artura.core.pressable
 import com.vikstudios.artura.data.Artwork
 import com.vikstudios.artura.main.CourseFlow
@@ -246,7 +247,7 @@ fun HomeFeedView(onExplore: () -> Unit, onReview: () -> Unit) {
 @Composable
 private fun BarButton(icon: ImageVector, label: String, tint: Color = Palette.ink, badge: Int = 0, onClick: () -> Unit) {
     Box(Modifier.size(42.dp).pressable(haptic = false) { Haptics.tap(); onClick() }.semantics { contentDescription = label }) {
-        Box(Modifier.size(42.dp).background(Color.White, CircleShape), contentAlignment = Alignment.Center) {
+        Box(Modifier.size(42.dp).background(Palette.bg, CircleShape), contentAlignment = Alignment.Center) {
             Icon(icon, null, tint = tint, modifier = Modifier.size(21.dp))
         }
         if (badge > 0) {
@@ -312,7 +313,8 @@ fun FeedCard(artwork: Artwork, isDaily: Boolean = false, showHint: Boolean = fal
             ArtImage(artwork.image, Modifier.fillMaxSize(), zoom = drift, anchor = artwork.focusPoint)
             if (isDaily) {
                 Box(Modifier.align(Alignment.TopStart).padding(12.dp)) {
-                    TagPill(L("Artwork of the day"), fill = Color.White, foreground = Palette.blueText)
+                    // Over the painting: stays white in dark mode, with the light-mode blue text.
+                    TagPill(L("Artwork of the day"), fill = Color.White, foreground = hexColor(0x0050C8))
                 }
             }
             if (read) {
