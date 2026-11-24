@@ -14,6 +14,13 @@ extension Color {
         )
     }
 
+    /// A color with a light and a dark value, following the system appearance.
+    init(light: UInt32, dark: UInt32) {
+        self.init(UIColor { traits in
+            UIColor(Color(hex: traits.userInterfaceStyle == .dark ? dark : light))
+        })
+    }
+
     /// "#RRGGBB" → Color. Returns gray if the string is invalid.
     init(hexString: String) {
         let cleaned = hexString.trimmingCharacters(in: CharacterSet(charactersIn: "# "))
@@ -22,32 +29,33 @@ extension Color {
     }
 }
 
+/// Colors of the app. Each one has a light and a dark value and follows the system appearance.
 enum Palette {
-    /// Screen background: plain white.
-    static let bg = Color.white
-    static let ink = Color(hex: 0x2D2C2B)
-    static let muted = Color(hex: 0x5C5753)
+    /// Screen background: plain white (warm near-black in dark mode).
+    static let bg = Color(light: 0xFFFFFF, dark: 0x141312)
+    static let ink = Color(light: 0x2D2C2B, dark: 0xF3EFEC)
+    static let muted = Color(light: 0x5C5753, dark: 0xACA59F)
     /// Cards and rows laid on the background: very light warm greys.
-    static let card = Color(hex: 0xF9F4F2)
-    static let line = Color(hex: 0xEFE8E3)
-    static let lip = Color(hex: 0xE4DAD4)
+    static let card = Color(light: 0xF9F4F2, dark: 0x201E1C)
+    static let line = Color(light: 0xEFE8E3, dark: 0x2E2B29)
+    static let lip = Color(light: 0xE4DAD4, dark: 0x3B3734)
     /// Bright blue: buttons, selection, links.
-    static let blue = Color(hex: 0x0061EF)
-    static let blueDark = Color(hex: 0x0045B5)
-    static let blueText = Color(hex: 0x0050C8)
+    static let blue = Color(light: 0x0061EF, dark: 0x2B78FF)
+    static let blueDark = Color(light: 0x0045B5, dark: 0x1A52BE)
+    static let blueText = Color(light: 0x0050C8, dark: 0x75AEFF)
     /// Pale tints of the blue, for insets and selected answers.
-    static let mist = Color(hex: 0xDCEBFF)
-    static let mistLight = Color(hex: 0xEAF2FF)
-    static let sky = Color(hex: 0x0B74E5)
-    static let skyLight = Color(hex: 0x4D9DF2)
-    static let cloud = Color(hex: 0xFFD3E4)
-    static let yellow = Color(hex: 0xFFB000)
-    static let orange = Color(hex: 0xFF6800)
-    static let pink = Color(hex: 0xFF8FBC)
-    static let green = Color(hex: 0x00804A)
-    static let greenSoft = Color(hex: 0xE3F6EA)
-    static let red = Color(hex: 0xB3261E)
-    static let redSoft = Color(hex: 0xFCE8E6)
+    static let mist = Color(light: 0xDCEBFF, dark: 0x182A4D)
+    static let mistLight = Color(light: 0xEAF2FF, dark: 0x121E36)
+    static let sky = Color(light: 0x0B74E5, dark: 0x0B74E5)
+    static let skyLight = Color(light: 0x4D9DF2, dark: 0x4D9DF2)
+    static let cloud = Color(light: 0xFFD3E4, dark: 0x4C2536)
+    static let yellow = Color(light: 0xFFB000, dark: 0xFFB000)
+    static let orange = Color(light: 0xFF6800, dark: 0xFF7A1F)
+    static let pink = Color(light: 0xFF8FBC, dark: 0xFF8FBC)
+    static let green = Color(light: 0x00804A, dark: 0x3CC98A)
+    static let greenSoft = Color(light: 0xE3F6EA, dark: 0x12301F)
+    static let red = Color(light: 0xB3261E, dark: 0xFF6B61)
+    static let redSoft = Color(light: 0xFCE8E6, dark: 0x3B1816)
 }
 
 // MARK: - Typography (Figtree, embedded in the bundle)

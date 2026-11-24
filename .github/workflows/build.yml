@@ -4,6 +4,7 @@ name: Build iOS
 # Avec « [captures] » dans le message du commit, prend aussi une capture de chaque écran de l'onboarding
 # (ou de quelques-uns seulement : « [captures:33_account,28_widgetLock] »).
 # « [captures:app] » : seulement les écrans de l'appli (fil, bibliothèque, Review, profil).
+# Avec « [dark] » en plus, les captures sont prises en mode sombre.
 on:
   push:
     branches: ["claude/**"]
@@ -71,6 +72,10 @@ jobs:
           echo "Simulateur : $DEVICE · appli : $APP"
           xcrun simctl boot "$DEVICE"
           xcrun simctl bootstatus "$DEVICE" -b >/dev/null
+          # « [dark] » dans le message du commit : captures en mode sombre.
+          APPEARANCE=light
+          if [[ "$MESSAGE" == *"[dark]"* ]]; then APPEARANCE=dark; fi
+          xcrun simctl ui "$DEVICE" appearance $APPEARANCE
           xcrun simctl install "$DEVICE" "$APP"
           mkdir -p shots
           BUNDLE=com.vikstudios.artura
@@ -160,6 +165,7 @@ jobs:
             xcrun simctl shutdown "$DEVICE" || true
             DEVICE=$SMALL
             xcrun simctl boot "$DEVICE"; xcrun simctl bootstatus "$DEVICE" -b >/dev/null
+            xcrun simctl ui "$DEVICE" appearance $APPEARANCE
             xcrun simctl install "$DEVICE" "$APP"
             shoot 50_se_trial trial 16 -noSplash YES
             shoot 51_se_arts arts 5 -noSplash YES

@@ -2,7 +2,6 @@ package com.vikstudios.artura
 
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.remember
@@ -68,7 +67,7 @@ class OnboardingACaptures {
                 LocalPro provides AppGraph.pro,
                 LocalCoverHost provides host,
             ) {
-                MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+                MaterialTheme(colorScheme = captureColorScheme()) {
                     CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                         content()
                         CoverLayer(host)
@@ -77,7 +76,7 @@ class OnboardingACaptures {
             }
         }
         rule.mainClock.advanceTimeBy(millis)
-        rule.onRoot().captureRoboImage("../captures/$name.png")
+        rule.onRoot().captureRoboImage("../captures/$name$captureSuffix.png")
     }
 
     @Test fun flow() = shot("onbA_flow_welcome") { OnboardingFlow() }

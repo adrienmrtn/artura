@@ -18,7 +18,6 @@ struct ArturaApp: App {
                 .environmentObject(content)
                 .environmentObject(user)
                 .environmentObject(pro)
-                .preferredColorScheme(.light)
                 .tint(Palette.blue)
                 .environment(\.locale, Locale(identifier: language))
                 .environment(\.layoutDirection, AppLanguage.isRightToLeft ? .rightToLeft : .leftToRight)

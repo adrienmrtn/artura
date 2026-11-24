@@ -29,7 +29,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
@@ -79,9 +81,10 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Bar icons follow the system appearance (dark icons in light mode, light icons in dark mode).
         enableEdgeToEdge(
-            statusBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
-            navigationBarStyle = SystemBarStyle.light(android.graphics.Color.WHITE, android.graphics.Color.WHITE),
+            statusBarStyle = SystemBarStyle.auto(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
+            navigationBarStyle = SystemBarStyle.auto(android.graphics.Color.WHITE, 0xFF141312.toInt()),
         )
         super.onCreate(savedInstanceState)
         if (savedInstanceState == null) {
@@ -100,13 +103,19 @@ class MainActivity : ComponentActivity() {
         })
         setContent {
             val language = AppLanguage.code
+            // Dark mode follows the system appearance.
+            val dark = isSystemInDarkTheme()
+            if (Palette.isDark != dark) Palette.isDark = dark
             CompositionLocalProvider(
                 LocalContent provides graph.content,
                 LocalUser provides graph.user,
                 LocalPro provides graph.pro,
                 LocalLayoutDirection provides if (AppLanguage.isRightToLeft) LayoutDirection.Rtl else LayoutDirection.Ltr,
             ) {
-                MaterialTheme(colorScheme = lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)) {
+                MaterialTheme(
+                    colorScheme = if (Palette.isDark) darkColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg)
+                    else lightColorScheme(primary = Palette.blue, background = Palette.bg, surface = Palette.bg),
+                ) {
                     CompositionLocalProvider(LocalTextStyle provides AType.body.copy(color = Palette.ink)) {
                         key(language) { RootView() }
                     }

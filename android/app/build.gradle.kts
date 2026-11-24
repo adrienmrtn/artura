@@ -75,6 +75,7 @@ android {
         unitTests.isIncludeAndroidResources = true
         unitTests.all {
             it.maxHeapSize = "3g"
+            it.systemProperty("artura.dark", (project.findProperty("artura.dark") ?: "false").toString())
             it.systemProperty("robolectric.dependency.repo.url", "https://maven-central.storage-download.googleapis.com/maven2")
         }
     }
