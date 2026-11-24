@@ -1,4 +1,5 @@
 import SwiftUI
+import StoreKit
 
 enum AppTab: Int, CaseIterable {
     case today, explore, review, games, profile
@@ -183,6 +184,7 @@ private struct CourseContent: View {
     @EnvironmentObject private var user: UserStore
     @EnvironmentObject private var pro: ProStore
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.requestReview) private var requestReview
     let artwork: Artwork
 
     @State private var phase = 0
@@ -199,6 +201,14 @@ private struct CourseContent: View {
                 LessonView(artwork: artwork,
                            freeTaps: pro.isPro || freeToday ? nil : 2,
                            onBlocked: { wall = .lesson },
+                           onContinue: { taps in
+                               guard RatingPrompt.shouldAsk(artwork: artwork.id, taps: taps) else { return }
+                               // After the block has settled (and an interactive block has opened).
+                               DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                                   Analytics.track("rating_prompt", ["from": "first_lesson", "artwork": artwork.id])
+                                   requestReview()
+                               }
+                           },
                            onBack: { dismiss() }) {
                     if pro.isPro {
                         Haptics.soft()
@@ -231,6 +241,7 @@ private struct CourseContent: View {
         }
         .onAppear {
             user.markOpened(artwork.id)
+            RatingPrompt.noteOpened(artwork.id)
             if !pro.isPro { freeToday = user.claimFreeLesson(artwork.id) }
         }
         .fullScreenCover(item: $wall) { kind in

@@ -100,6 +100,8 @@ fun LessonView(
     blocks: List<LessonBlock>? = null,
     finishTitle: String? = null,
     onSkip: (() -> Unit)? = null,
+    /** Called after each "Continue" that reveals a block, with the number of taps so far. */
+    onContinue: ((Int) -> Unit)? = null,
 ) {
     val pillText = pill ?: L("Lesson")
     val finishText = finishTitle ?: L("Take the quiz")
@@ -237,6 +239,7 @@ fun LessonView(
                     if (index in lesson.indices && lesson[index].isInteractive) {
                         scope.launch { delay(250); open(index) }
                     }
+                    onContinue?.invoke(taps)
                 }
             }
         }

@@ -50,6 +50,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -78,6 +81,7 @@ import com.vikstudios.artura.learn.QuizView
 import com.vikstudios.artura.app.FullScreenCover
 import com.vikstudios.artura.review.ReviewView
 import com.vikstudios.artura.services.Analytics
+import com.vikstudios.artura.services.RatingPrompt
 
 enum class AppTab {
     Today, Explore, Review, Games, Profile;
@@ -237,9 +241,12 @@ private fun CourseContent(artwork: Artwork, onDismiss: () -> Unit) {
     /** True if this lesson is the one a free reader can read in full today. */
     var freeToday by remember { mutableStateOf(true) }
     var wall by remember { mutableStateOf<LessonWall?>(null) }
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
 
     LaunchedEffect(Unit) {
         user.markOpened(artwork.id)
+        RatingPrompt.noteOpened(context, artwork.id)
         if (!pro.isPro) freeToday = user.claimFreeLesson(artwork.id)
     }
 
@@ -258,6 +265,16 @@ private fun CourseContent(artwork: Artwork, onDismiss: () -> Unit) {
                 artwork = artwork,
                 freeTaps = if (pro.isPro || freeToday) null else 2,
                 onBlocked = { wall = LessonWall.Lesson },
+                onContinue = { taps ->
+                    if (RatingPrompt.shouldAsk(context, artwork.id, taps)) {
+                        // After the block has settled (and an interactive block has opened).
+                        scope.launch {
+                            delay(800)
+                            Analytics.track("rating_prompt", mapOf("from" to "first_lesson", "artwork" to artwork.id))
+                            RatingPrompt.request(context)
+                        }
+                    }
+                },
                 onBack = onDismiss,
                 onFinish = {
                     if (pro.isPro) {
