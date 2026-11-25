@@ -3,10 +3,13 @@ package com.vikstudios.artura.app
 import android.app.Application
 import android.content.Context
 import androidx.compose.runtime.staticCompositionLocalOf
+import coil.ImageLoader
+import coil.ImageLoaderFactory
 import com.vikstudios.artura.core.AppLanguage
 import com.vikstudios.artura.core.Appearance
 import com.vikstudios.artura.core.Haptics
 import com.vikstudios.artura.data.CatalogCache
+import com.vikstudios.artura.data.CatalogImageInterceptor
 import com.vikstudios.artura.data.ContentStore
 import com.vikstudios.artura.data.UserStore
 import com.vikstudios.artura.services.Analytics
@@ -43,11 +46,15 @@ object AppGraph {
     }
 }
 
-class ArturaApplication : Application() {
+class ArturaApplication : Application(), ImageLoaderFactory {
     override fun onCreate() {
         super.onCreate()
         AppGraph.init(this)
     }
+
+    /** The app-wide image loader (default caches), with the catalog's single-download and retry rules. */
+    override fun newImageLoader(): ImageLoader =
+        ImageLoader.Builder(this).components { add(CatalogImageInterceptor()) }.build()
 }
 
 /** Access from any screen: `val user = LocalUser.current`. */

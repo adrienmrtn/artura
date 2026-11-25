@@ -189,6 +189,8 @@ struct ArtImage: View {
         if name.hasPrefix("http") {
             if width <= 140, name.hasSuffix("/large.jpg") {
                 RemoteImage(url: String(name.dropLast("large.jpg".count)) + "thumb.jpg")
+            } else if name.hasSuffix("/large.jpg") {
+                RemoteImage(url: name, placeholder: String(name.dropLast("large.jpg".count)) + "thumb.jpg")
             } else {
                 RemoteImage(url: name)
             }
