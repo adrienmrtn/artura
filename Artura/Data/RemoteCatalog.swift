@@ -344,33 +344,70 @@ final class ImageStore {
         }
     }
 
+    /// Downloads under way, by address: a picture asked for twice at the same time is downloaded once.
+    private var inFlight: [String: Task<UIImage?, Never>] = [:]
+    private let lock = NSLock()
+
+    /// The picture at `url`, from memory or downloaded (with a few retries on network errors). Nil if it can't be had.
     func load(_ url: String) async -> UIImage? {
         if let image = cached(url) { return image }
-        guard let address = URL(string: url),
-              let (data, response) = try? await session.data(from: address),
-              (response as? HTTPURLResponse)?.statusCode == 200,
-              let decoded = UIImage(data: data) else { return nil }
-        let image = await decoded.byPreparingForDisplay() ?? decoded
-        let cost = Int(image.size.width * image.scale * image.size.height * image.scale * 4)
-        memory.setObject(image, forKey: url as NSString, cost: cost)
-        return image
+        lock.lock()
+        let task: Task<UIImage?, Never>
+        if let running = inFlight[url] {
+            task = running
+        } else {
+            // Not tied to the caller: a card scrolled away doesn't cancel a download another one waits for.
+            task = Task(priority: .userInitiated) { [weak self] in
+                let image = await self?.download(url)
+                self?.finish(url)
+                return image
+            }
+            inFlight[url] = task
+        }
+        lock.unlock()
+        return await task.value
+    }
+
+    private func finish(_ url: String) {
+        lock.lock()
+        inFlight[url] = nil
+        lock.unlock()
+    }
+
+    private func download(_ url: String) async -> UIImage? {
+        guard let address = URL(string: url) else { return nil }
+        for attempt in 0..<3 {
+            if attempt > 0 { try? await Task.sleep(nanoseconds: UInt64(attempt) * 1_000_000_000) }
+            guard let (data, response) = try? await session.data(from: address) else { continue }
+            let status = (response as? HTTPURLResponse)?.statusCode ?? 0
+            if status == 200, let decoded = UIImage(data: data) {
+                let image = await decoded.byPreparingForDisplay() ?? decoded
+                let cost = Int(image.size.width * image.scale * image.size.height * image.scale * 4)
+                memory.setObject(image, forKey: url as NSString, cost: cost)
+                return image
+            }
+            // A missing picture won't come back by asking again; a server hiccup might.
+            if (400..<500).contains(status) && status != 408 && status != 429 { return nil }
+        }
+        return nil
     }
 }
 
-/// An image of the online catalog. Shows a soft tint, then fades the picture in.
+/// An image of the online catalog. Shows a soft tint (or the smaller `placeholder` picture), then fades the picture in.
 struct RemoteImage: View {
     let url: String
-    /// Shown while `url` loads, if it is already in memory (a smaller version of the same picture).
+    /// A smaller version of the same picture, shown while `url` loads (fetched at the same time, it arrives first).
     var placeholder: String? = nil
     /// True to fill the frame and crop; false to stretch to the frame (same proportions as the picture).
     var fill = true
 
     @State private var image: UIImage?
+    @State private var preview: UIImage?
 
     var body: some View {
         Palette.card
             .overlay {
-                if let shown = image ?? ImageStore.shared.cached(url) ?? placeholder.flatMap({ ImageStore.shared.cached($0) }) {
+                if let shown = image ?? ImageStore.shared.cached(url) ?? preview ?? placeholder.flatMap({ ImageStore.shared.cached($0) }) {
                     if fill {
                         Image(uiImage: shown).resizable().scaledToFill().transition(.opacity)
                     } else {
@@ -385,9 +422,30 @@ struct RemoteImage: View {
                     return
                 }
                 image = nil
-                let loaded = await ImageStore.shared.load(url)
-                if Task.isCancelled { return }
-                withAnimation(.easeInOut(duration: 0.25)) { image = loaded }
+                preview = nil
+                // The small version, fetched alongside: cancelled with this task (the picture arrived, or the card left).
+                async let previewShown: Void = showPreview()
+                // Keeps trying while the picture is on screen (bad network, offline for a while…).
+                var wait: UInt64 = 2
+                while !Task.isCancelled {
+                    if let loaded = await ImageStore.shared.load(url) {
+                        if Task.isCancelled { return }
+                        withAnimation(.easeInOut(duration: 0.25)) { image = loaded }
+                        return
+                    }
+                    try? await Task.sleep(nanoseconds: wait * 1_000_000_000)
+                    wait = min(wait * 2, 15)
+                }
+                _ = await previewShown
             }
+    }
+
+    private func showPreview() async {
+        guard let placeholder, let small = await ImageStore.shared.load(placeholder) else { return }
+        await MainActor.run {
+            if !Task.isCancelled, image == nil, ImageStore.shared.cached(url) == nil {
+                withAnimation(.easeInOut(duration: 0.2)) { preview = small }
+            }
+        }
     }
 }

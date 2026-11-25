@@ -24,8 +24,8 @@ android {
         minSdk = 26
         targetSdk = 36
         // Each upload to Google Play needs a higher number: the release workflow passes its run number.
-        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 27
-        versionName = "2.1"
+        versionCode = System.getenv("ANDROID_VERSION_CODE")?.toIntOrNull() ?: 28
+        versionName = "2.2"
     }
 
     signingConfigs {

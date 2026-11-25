@@ -44,6 +44,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -65,6 +66,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
+import coil.imageLoader
+import coil.memory.MemoryCache
 import coil.request.ImageRequest
 import kotlinx.coroutines.delay
 
@@ -267,7 +270,8 @@ fun ArtImage(
         }
         if (name.startsWith("http")) {
             val url = if (small && name.endsWith("/large.jpg")) name.removeSuffix("large.jpg") + "thumb.jpg" else name
-            RemoteImage(url, inner, contentScale)
+            val preview = if (!small && name.endsWith("/large.jpg")) name.removeSuffix("large.jpg") + "thumb.jpg" else null
+            RemoteImage(url, inner, contentScale, placeholder = preview)
         } else {
             val id = drawableId(name)
             if (id != 0) Image(painterResource(id), null, inner, contentScale = contentScale)
@@ -275,16 +279,49 @@ fun ArtImage(
     }
 }
 
-/** An image of the online catalog: a soft tint, then the picture fades in (memory + disk cache). */
+/**
+ * An image of the online catalog: a soft tint (or the smaller `placeholder` picture, fetched alongside),
+ * then the picture fades in (memory + disk cache). Keeps retrying while on screen if the download fails.
+ */
 @Composable
-fun RemoteImage(url: String, modifier: Modifier = Modifier, contentScale: ContentScale = ContentScale.Crop) {
+fun RemoteImage(
+    url: String,
+    modifier: Modifier = Modifier,
+    contentScale: ContentScale = ContentScale.Crop,
+    placeholder: String? = null,
+) {
     val context = LocalContext.current
-    AsyncImage(
-        model = remember(url) { ImageRequest.Builder(context).data(url).crossfade(250).build() },
-        contentDescription = null,
-        modifier = modifier,
-        contentScale = contentScale,
-    )
+    val inMemory = remember(url) { context.imageLoader.memoryCache?.get(MemoryCache.Key(url)) != null }
+    var loaded by remember(url) { mutableStateOf(inMemory) }
+    var failures by remember(url) { mutableIntStateOf(0) }
+    var attempt by remember(url) { mutableIntStateOf(0) }
+    LaunchedEffect(url, failures) {
+        if (failures > 0) {
+            delay(minOf(2000L shl (failures - 1).coerceAtMost(3), 15_000L))
+            attempt = failures
+        }
+    }
+    Box(modifier) {
+        if (placeholder != null && !loaded) {
+            AsyncImage(
+                model = remember(placeholder) { ImageRequest.Builder(context).data(placeholder).build() },
+                contentDescription = null,
+                modifier = Modifier.matchParentSize(),
+                contentScale = contentScale,
+            )
+        }
+        AsyncImage(
+            model = remember(url, attempt) {
+                ImageRequest.Builder(context).data(url).crossfade(250)
+                    .setParameter("attempt", attempt, memoryCacheKey = null).build()
+            },
+            contentDescription = null,
+            modifier = Modifier.matchParentSize(),
+            contentScale = contentScale,
+            onSuccess = { loaded = true },
+            onError = { failures++ },
+        )
+    }
 }
 
 // MARK: - Sky header (app screens)
