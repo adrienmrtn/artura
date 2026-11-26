@@ -80,7 +80,10 @@ class ProStore(private val context: Context) {
         .enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())
         .build()
 
-    init { connect() }
+    init {
+        RevenueCatBridge.configure(context)
+        connect()
+    }
 
     private fun connect() {
         client.startConnection(object : BillingClientStateListener {
@@ -134,6 +137,8 @@ class ProStore(private val context: Context) {
         }
         isPro = pro
         Analytics.isPro = pro
+        // Subscriptions started before RevenueCat was added: sent to it once.
+        if (pro) RevenueCatBridge.syncExistingPurchasesOnce()
     }
 
     private suspend fun acknowledge(purchase: Purchase) {
@@ -176,6 +181,7 @@ class ProStore(private val context: Context) {
                     if (bought != null) {
                         acknowledge(bought)
                         refreshEntitlements()
+                        RevenueCatBridge.sync()
                         Analytics.track("purchase_succeeded", mapOf("product" to (product?.id ?: bought.products.firstOrNull()), "price" to product?.displayPrice))
                         pendingPurchase?.complete(true)
                     } else {
@@ -202,6 +208,7 @@ class ProStore(private val context: Context) {
     suspend fun restore() {
         if (!client.isReady) connect()
         refreshEntitlements()
+        RevenueCatBridge.sync()
     }
 
     companion object {

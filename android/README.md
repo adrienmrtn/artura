@@ -70,3 +70,7 @@ adb shell am start -n com.vikstudios.artura/.app.MainActivity --es demoProfile Y
 - **Workflow « Google Play store »** : lancé par « [play:dry] » (simulation) ou « [play] » dans un message de commit, ou à la main une fois sur la branche principale.
   - **Fiche du Store** (`play/play_listing.py`) : nom, description courte et complète dans toutes les langues, reprises de `fastlane/metadata` (sans les lignes propres à Apple). Modifier ces textes met à jour l'App Store et Google Play.
   - **Abonnements** (`play/play_subscriptions.py`) : crée ou met à jour les trois abonnements, leurs essais gratuits, leurs prix par pays (mêmes paliers que l'App Store, `fastlane/subscriptions/pricing.json` ; mensuel 6,99 $ converti) et leurs textes dans toutes les langues (`fastlane/subscriptions/localizations.json`). Secret : `PLAY_SERVICE_ACCOUNT_JSON`.
+
+## RevenueCat
+
+Les achats passent par Google Play Billing (`ProStore`). RevenueCat (`services/RevenueCatBridge.kt`, projet « Artura », app « Artura Android ») ne fait que les enregistrer pour son tableau de bord (`PurchasesAreCompletedBy.MY_APP`) ; l'abonnement fonctionne même s'il ne répond pas. Garder une version 9.x du SDK tant que l'appli est en Play Billing 8 (la 10+ passe en Billing 9).
