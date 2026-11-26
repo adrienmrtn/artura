@@ -4,7 +4,7 @@ Application iOS (SwiftUI, iOS 17+) : un chef-d'œuvre par jour, son histoire en 
 
 - **Bundle ID** : `com.vikstudios.artura`
 - **Langue** : anglais
-- **Dépendances** : aucune (SwiftUI, StoreKit 2, AuthenticationServices, UserNotifications)
+- **Dépendances** : RevenueCat (paquet Swift `purchases-ios-spm`, suivi des abonnements) ; sinon SwiftUI, StoreKit 2, AuthenticationServices, UserNotifications
 
 ## Ouvrir le projet
 
@@ -84,6 +84,8 @@ Le widget « Artwork of the day » (petit, moyen, grand, écran verrouillé) est
 Tout le contenu est dans `Artura/Resources/content.json`. Ajouter une œuvre = ajouter une entrée dans `artworks` et une image `art_<id>` dans `Assets.xcassets`.
 
 ## Abonnement (StoreKit 2)
+
+Les achats passent par StoreKit 2 (`ProStore`). RevenueCat (`Artura/Services/RevenueCatBridge.swift`, projet RevenueCat « Artura », app « Artura iOS ») ne fait que les enregistrer pour son tableau de bord (`purchasesAreCompletedBy: .myApp`) : l'abonnement fonctionne même si RevenueCat ne répond pas. Les abonnements pris avant son ajout (2.0 à 2.2) lui sont envoyés une fois, au premier lancement de la nouvelle version.
 
 Produits attendus :
 

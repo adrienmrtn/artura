@@ -60,6 +60,7 @@ final class ProStore: ObservableObject {
     private var updatesTask: Task<Void, Never>?
 
     init() {
+        RevenueCatBridge.configure()
         updatesTask = Task { [weak self] in
             for await update in Transaction.updates {
                 if case .verified(let transaction) = update {
@@ -97,6 +98,8 @@ final class ProStore: ObservableObject {
         }
         isPro = pro
         Analytics.isPro = pro
+        // Subscriptions started before RevenueCat was added: sent to it once.
+        if pro { await RevenueCatBridge.syncExistingPurchasesOnce() }
     }
 
     /// Starts the purchase. Returns true if the subscription is active at the end.
@@ -107,6 +110,7 @@ final class ProStore: ObservableObject {
         defer { isPurchasing = false }
         do {
             let result = try await product.purchase()
+            Task { await RevenueCatBridge.record(result) }
             switch result {
             case .success(let verification):
                 if case .verified(let transaction) = verification {
@@ -135,6 +139,7 @@ final class ProStore: ObservableObject {
     func restore() async {
         try? await AppStore.sync()
         await refreshEntitlements()
+        await RevenueCatBridge.syncAfterRestore()
     }
 }
 
