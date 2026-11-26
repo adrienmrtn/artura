@@ -43,7 +43,7 @@ jobs:
           git show HEAD:$F > "$RUNNER_TEMP/before.json"
           xcodebuild -project Artura.xcodeproj -scheme Artura -resolvePackageDependencies \
             -disableAutomaticPackageResolution 2>&1 | tail -n 15
-          python3 -c "import json,sys; p=lambda f: sorted((x['identity'], x['state']) for x in json.load(open(f))['pins']), key=lambda t: t[0]); sys.exit(p(sys.argv[1]) != p(sys.argv[2]))" "$RUNNER_TEMP/before.json" "$F" \
+          python3 -c "import json,sys; p=lambda f: sorted(((x['identity'], x['state']) for x in json.load(open(f))['pins']), key=lambda t: t[0]); sys.exit(p(sys.argv[1]) != p(sys.argv[2]))" "$RUNNER_TEMP/before.json" "$F" \
             || { echo "::error::Package.resolved n'est plus à jour"; git diff -- "$F"; exit 1; }
       - name: Compilation (simulateur iPhone)
         run: |
