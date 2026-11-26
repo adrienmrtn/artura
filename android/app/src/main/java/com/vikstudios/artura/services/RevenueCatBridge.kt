@@ -23,12 +23,17 @@ object RevenueCatBridge {
     fun configure(context: Context) {
         if (Purchases.isConfigured) return
         prefs = context.applicationContext.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-        Purchases.logLevel = LogLevel.WARN
-        Purchases.configure(
-            PurchasesConfiguration.Builder(context.applicationContext, API_KEY)
-                .purchasesAreCompletedBy(PurchasesAreCompletedBy.MY_APP)
-                .build()
-        )
+        // Not in the screenshot tests (Robolectric), where the SDK refuses to start.
+        if (android.os.Build.FINGERPRINT == "robolectric") return
+        // RevenueCat only records purchases: if it can't start, the app goes on without it.
+        runCatching {
+            Purchases.logLevel = LogLevel.WARN
+            Purchases.configure(
+                PurchasesConfiguration.Builder(context.applicationContext, API_KEY)
+                    .purchasesAreCompletedBy(PurchasesAreCompletedBy.MY_APP)
+                    .build()
+            )
+        }
     }
 
     /** After a purchase or a restore: RevenueCat reads the Play purchases and records the new ones. */
@@ -39,7 +44,7 @@ object RevenueCatBridge {
 
     /** Subscriptions bought before RevenueCat was in the app: sent once per install. */
     fun syncExistingPurchasesOnce() {
-        if (!Purchases.isConfigured || prefs.getBoolean(SYNCED, false)) return
+        if (!Purchases.isConfigured || !::prefs.isInitialized || prefs.getBoolean(SYNCED, false)) return
         sync()
         prefs.edit().putBoolean(SYNCED, true).apply()
     }
