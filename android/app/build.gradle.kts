@@ -107,6 +107,8 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.7.0")
     // Artura Pro subscription.
     implementation("com.android.billingclient:billing-ktx:8.3.0")
+    // RevenueCat: records the Play purchases for its dashboard (9.x = Play Billing 8, like the line above)
+    implementation("com.revenuecat.purchases:purchases:9.29.1")
     // In-app rating prompt (Google Play).
     implementation("com.google.android.play:review-ktx:2.0.2")
     // Google sign-in (Credential Manager).

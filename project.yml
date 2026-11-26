@@ -6,6 +6,10 @@ options:
   deploymentTarget:
     iOS: "17.0"
   developmentLanguage: en
+packages:
+  RevenueCat:
+    url: https://github.com/RevenueCat/purchases-ios-spm.git
+    from: 5.72.0
 targets:
   Artura:
     type: application
@@ -34,6 +38,8 @@ targets:
         CODE_SIGN_ENTITLEMENTS: Artura/Artura.entitlements
     dependencies:
       - target: ArturaWidget
+      - package: RevenueCat
+        product: RevenueCat
   ArturaWidget:
     type: app-extension
     platform: iOS
